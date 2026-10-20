@@ -1,0 +1,63 @@
+{
+ "name": "Sindre Sorhus",
+ "role": "全职开源者 · Mac App 匠人",
+ "title": "Sindre Sorhus：一个人，<em>一千多个仓库</em>和六十一款 App",
+ "dek": "2014 年辞职去东南亚背包旅行顺便写开源，结果旅行结束了，开源一直没停。他创建了 GitHub 上星数最多的仓库之一 Awesome，维护着上千个 npm 包，又一个人做了 61 款精致的 Mac / iOS 小工具。",
+ "card": "Awesome 列表创始人、上千个 npm 包维护者，61 款 Apple 平台小工具的作者。",
+ "location": "挪威人，常年在东南亚旅居",
+ "tags": ["开源", "Swift", "JavaScript", "macOS", "npm"],
+ "links": [{"label": "sindresorhus.com", "url": "https://sindresorhus.com"}, {"label": "Apps", "url": "https://sindresorhus.com/apps"}, {"label": "GitHub", "url": "https://github.com/sindresorhus"}],
+ "summary": [
+  "<strong>一句话：</strong>「Not a company, just me.」一个人全职做开源和 Apple 平台 App，十五年开源、十二年做 App。",
+  "<strong>代表作：</strong>Awesome（★52 万）、got / ky（HTTP 客户端）、type-fest、ora、pure（ZSH 提示符）；App 有 Supercharge、Dato、Velja、Plash、Gifski、One Thing 等 61 款。",
+  "<strong>为什么值得关注：</strong>他把「小而专注、只解决一个问题」做到了极致，无论是一个 npm 包还是一款菜单栏 App。"
+ ],
+ "lead": "Sindre 的 About 页面开头写着几个数字：61 apps、12 years of app craft、1.1K+ repos、15 years of open source。紧接着是一句话：「2014 年，我辞掉办公室工作，去东南亚背包旅行，顺便做开源。旅行结束了，但开源从未停止。」",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "童年", "title": "挪威、乐高与 Flash", "text": "在挪威长大，乐高城市几乎占满整个卧室；九岁做简单网页。上学时大家课间玩 Flash 游戏，他想知道怎么做的，于是反编译、重画角色、加新敌人和排行榜。「我改东西、搞坏、再改回来，直到游戏按我想的那样运行。这仍然是我学习的方式。」"},
+    {"when": "二十多岁", "title": "真正学会编程", "text": "此前只是复制 PHP 和 JavaScript 而不完全理解。通过给 TodoMVC 做贡献进入开源，后来成为它的维护者之一。"},
+    {"when": "2012–2014", "title": "pure、got 与 Awesome", "text": "2012 年做了极简快速的 ZSH 提示符 pure；2014 年开始写 got；同年创建 Awesome：各种主题的精选列表，后来成为 GitHub 上星数最多的仓库之一，衍生出成千上万个「awesome-xxx」。他还发明了「ponyfill」这个词。"},
+    {"when": "2014", "title": "辞职背包，全职开源", "text": "离开办公室，在东南亚旅行的同时写开源，靠赞助和捐赠维持，从此再没回去上班。"},
+    {"when": "2014 起", "title": "Mac App 匠人", "text": "从 Gifski（与 Kornel Lesiński 合作，把视频转成高质量 GIF）开始，陆续做了 Plash（网页做桌面壁纸）、Velja（浏览器选择器）、Dato（菜单栏日历）、Supercharge 等 61 款 App，很多免费。"},
+    {"when": "现在", "title": "越南、咸咖啡与新的秘密 App", "text": "「Now」页面写着：在越南旅行，喝着 Cà phê muối（越南咸咖啡），在做一个新的秘密 Mac App，并「试图修复我所有开源项目里的所有 bug（是的，真的）」。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Awesome", "meta": "2014 · ★52 万", "text": "关于各种有趣主题的精选列表，开源世界的「目录」。", "url": "https://github.com/sindresorhus/awesome"},
+    {"name": "Supercharge", "meta": "macOS App", "text": "给 Mac 加上一系列系统本该有的增强功能。", "url": "https://sindresorhus.com/supercharge"},
+    {"name": "ky / got", "meta": "TypeScript · ★1.7 万 / 1.5 万", "text": "优雅的 Fetch 封装与 Node.js 上人性化的 HTTP 库。", "url": "https://github.com/sindresorhus/ky"},
+    {"name": "pure", "meta": "2012 · Shell · ★1.4 万", "text": "漂亮、极简、快速的 ZSH 提示符。", "url": "https://github.com/sindresorhus/pure"},
+    {"name": "Gifski", "meta": "macOS App", "text": "把视频转换成高质量 GIF，与 Kornel Lesiński 合作。", "url": "https://sindresorhus.com/gifski"},
+    {"name": "type-fest", "meta": "2019 · ★1.7 万", "text": "一组必不可少的 TypeScript 类型。", "url": "https://github.com/sindresorhus/type-fest"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://sindresorhus.com", "paras": ["首页标题「Full-Time Open-Sourcerer & App Maker」，App 可以按全部、免费、付费、Mac、iPhone & iPad、菜单栏筛选，还有「Wall of Love」用户留言墙、「Timeline」时间线和一个「Guess the App」小游戏。", "最妙的是一个叫「Visit 1999」的入口，用 1999 年的网页风格重做了整个网站。页脚写着：「The people who are crazy enough to think they can change the world are the ones who do 🦄」。"]}},
+   {"p": "About 页列了一串关于他的小事：用 Tab 缩进从 90 年代至今；永久深色模式；曾连续编码 43 小时（不推荐）；「到处都是独角兽，开源是辛苦的工作，所以也应该有趣」。"}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"quote": "The apps are small, focused tools that each solve one problem well, and many of them are free.", "cite": "Sindre Sorhus，About 页"},
+   {"p": "他的 npm 包和 App 有同一种设计哲学：<strong>一个模块只做一件事</strong>。这让他的包成为 JavaScript 生态里依赖最广的基础件之一，也让他的 App 有一种「本该是系统自带」的自然感。"},
+   {"note": "Awesome 和 awesome-nodejs 的 README 里能看到另一面：「因为太多垃圾和低质量提交，暂停接收」。长期维护一个超级项目的疲惫，同样真实。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>小而专注：</strong>每一个包、每一个 App，都只解决一个问题。",
+    "<strong>边玩边学：</strong>改、坏、再改回来，是最原始也最有效的学习方式。",
+    "<strong>把乐趣放进工作：</strong>独角兽、1999 版网站、猜 App 游戏。",
+    "<strong>一个人也可以很大：</strong>不开公司，只靠自己和社区支持。"
+   ]}
+  ]}
+ ],
+ "cta": "打开他的 App 列表，挑一个免费的菜单栏小工具试试。",
+ "sources": [
+  {"label": "Sindre Sorhus 的 X 个人资料", "url": "https://x.com/sindresorhus"},
+  {"label": "sindresorhus.com", "url": "https://sindresorhus.com"},
+  {"label": "About Sindre Sorhus", "url": "https://sindresorhus.com/about"},
+  {"label": "GitHub：sindresorhus", "url": "https://github.com/sindresorhus"},
+  {"label": "Awesome", "url": "https://github.com/sindresorhus/awesome"}
+ ]
+}

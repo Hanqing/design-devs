@@ -1,0 +1,60 @@
+{
+ "name": "Christian Selig",
+ "role": "iOS 独立开发者 · Apollo / Pixel Pals 作者",
+ "title": "Christian Selig：做出 Apollo，然后<em>体面地告别</em>",
+ "dek": "他一个人做的 Reddit 客户端 Apollo，被很多人称为 iOS 上最好的第三方 App 之一。2023 年 Reddit 的 API 定价让它每年要付出约 2000 万美元，他选择关停，并公开了全部过程。之后他做了灵动岛宠物 Pixel Pals、Vision Pro 上的 Juno，还自己设计了一把键盘。",
+ "card": "Apollo for Reddit、Pixel Pals、Juno 作者；用 Vision Pro 设计自己的房子。",
+ "location": "加拿大新斯科舍省哈利法克斯",
+ "tags": ["iOS", "Swift", "visionOS", "UI 动效", "独立开发"],
+ "links": [{"label": "christianselig.com", "url": "https://christianselig.com"}, {"label": "GitHub", "url": "https://github.com/christianselig"}],
+ "summary": [
+  "<strong>一句话：</strong>一个来自加拿大东海岸、曾在 Apple 工作过的 iOS 开发者，以极致打磨的交互和坦诚的写作著称。",
+  "<strong>代表作：</strong>Apollo for Reddit（2017–2023）、Pixel Pals（灵动岛上的像素宠物）、Juno（visionOS 上的 YouTube 客户端）、Caldera 分体键盘、Prospector（用 Vision Pro 预览建筑图纸）。",
+  "<strong>为什么值得关注：</strong>Apollo 事件成为「平台风险」的标志性案例；而他面对危机时的透明与体面，同样值得学习。"
+ ],
+ "lead": "Christian 的个人网站开头很朴素：「I'm an iOS developer and creator of Pixel Pals, Apollo, and other apps!」最新的一篇文章，讲的是他和女朋友开始建造第一个家：程序员的大脑很难接受「墙一旦砌错就不能删掉」，于是他发现了 Vision Pro 最酷的用途，在真实土地上 1:1 预览房子。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2008", "title": "注册 X", "text": "很早就进入 iOS 开发世界。X 简介里「Previously at 」是一个苹果 Logo：他曾在 Apple 工作。"},
+    {"when": "2017", "title": "Apollo for Reddit", "text": "一个人做的 Reddit 客户端，以手势、细节和速度著称，多次获得设计类推荐，拥有大量忠实付费用户。他还公开了 Apollo 的 Bug 追踪器。"},
+    {"when": "2021", "title": "开源组件", "text": "开源 ChidoriMenu（类 iOS 14 下拉菜单）、Markdownosaur（用 Apple 的 Swift Markdown 解析器输出 NSAttributedString）、TableOfContentsSelector 等，均来自 Apollo 的实际需求。"},
+    {"when": "2022", "title": "Pixel Pals", "text": "iPhone 14 Pro 推出灵动岛后，他做了住在灵动岛和锁屏实时活动里的像素宠物。"},
+    {"when": "2023-06", "title": "Apollo 关停", "text": "Reddit 宣布 API 收费，按 Apollo 的用量计算每年约需 2000 万美元。他公开了与 Reddit 的沟通录音和计算过程，最终在 6 月 30 日关停 Apollo，并开源了 apollo-backend。"},
+    {"when": "2024", "title": "Juno、键盘与 TinyStorage", "text": "为 Vision Pro 做了 YouTube 客户端 Juno（后因 YouTube 方面的意见下架），开源了 JunoSlider；自己设计了分体式人体工学无线键盘 Caldera，并开源了 UserDefaults 替代品 TinyStorage。"},
+    {"when": "2026", "title": "Prospector", "text": "开始建造第一个家，用自己写的 visionOS App 在土地上按真实比例预览建筑方案。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Apollo for Reddit", "meta": "2017–2023", "text": "iOS 上最受喜爱的第三方 Reddit 客户端之一，因 API 收费关停，后端已开源。", "url": "https://github.com/christianselig/apollo-backend"},
+    {"name": "Pixel Pals", "meta": "2022 · iOS", "text": "住在灵动岛里的像素宠物，可以喂养、互动。", "url": "https://christianselig.com"},
+    {"name": "Caldera Keyboard", "meta": "2024 · 硬件", "text": "他自己设计的分体式、人体工学无线键盘，开源设计。", "url": "https://github.com/christianselig/caldera-keyboard"},
+    {"name": "Prospector", "meta": "2026 · visionOS", "text": "在真实世界里按比例预览大型模型，比如房屋设计图。", "url": "https://github.com/christianselig/Prospector"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://christianselig.com", "paras": ["一个非常传统的个人博客：一句自我介绍，然后是按时间排列的长文。文章常常配大量截图和视频。", "博客里的技术长文也很有名，比如如何在 iOS 上实现某个系统级动效，他会一步步拆解并给出代码。"]}},
+   {"p": "X 简介里有一句「Pronounced See-lig. i love aminals. 🌱」。这种轻松可爱的语气，也出现在他的每一款 App 里。"}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "Apollo 的设计哲学是<strong>尊重平台、超越平台</strong>：完全遵循 iOS 的手势和视觉语言，却在每一个交互细节上比官方 App 走得更远。他开源的组件几乎都在「模仿 Apple 的感觉，再多一点点好处」。"},
+   {"callout": "面对每年 2000 万美元的 API 账单，他没有偷偷关门，而是公开数字、公开录音、给用户退款方案并开源后端。透明本身成了一种设计。", "t": "体面地告别"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>把一个 App 做到极致：</strong>细节堆出来的口碑，能撑起一个人的事业。",
+    "<strong>警惕平台依赖：</strong>Apollo 是所有第三方客户端开发者的教科书案例。",
+    "<strong>快速拥抱新硬件：</strong>灵动岛、Vision Pro，每次都第一时间做出有趣的东西。",
+    "<strong>用技术解决生活问题：</strong>从键盘到房子，工具都可以自己做。"
+   ]}
+  ]}
+ ],
+ "cta": "读读他关于 Vision Pro 和房子的那篇文章。",
+ "sources": [
+  {"label": "Christian Selig 的 X 个人资料", "url": "https://x.com/ChristianSelig"},
+  {"label": "christianselig.com", "url": "https://christianselig.com"},
+  {"label": "GitHub：christianselig", "url": "https://github.com/christianselig"},
+  {"label": "apollo-backend", "url": "https://github.com/christianselig/apollo-backend"}
+ ]
+}

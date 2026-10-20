@@ -1,0 +1,60 @@
+{
+ "name": "Tony Dinh",
+ "role": "越南独立开发者 · TypingMind 作者",
+ "title": "Tony Dinh：从年薪 10 万美元的工程师到<em>一人公司</em>",
+ "dek": "2021 年 9 月，他辞掉新加坡的工作，没有融资、没有团队、没有粉丝。三年里他做了 DevUtils、Black Magic、Xnapper 和 TypingMind，其中 TypingMind 的月收入超过 13 万美元。他把这一切写成了一本书。",
+ "card": "TypingMind、DevUtils、Xnapper、Black Magic 作者，《My Indie Book》作者。",
+ "location": "越南",
+ "tags": ["Indie Hacking", "SaaS", "macOS", "AI", "公开构建"],
+ "links": [{"label": "My Indie Book", "url": "https://www.myindiebook.com"}, {"label": "TypingMind", "url": "https://www.typingmind.com"}, {"label": "DevUtils", "url": "https://devutils.com"}],
+ "summary": [
+  "<strong>一句话：</strong>一个普通的软件工程师，靠「一人、无融资」的方式，四次把产品从零做到盈利，成为全球 indie hacker 圈最知名的人物之一。",
+  "<strong>代表作：</strong>DevUtils（macOS 开发者工具箱，$5K/月）、Black Magic（Twitter 分析增长工具，$14K/月）、Xnapper（截图美化，$6K/月）、TypingMind（LLM 聊天前端，月收入超过 13 万美元）。",
+  "<strong>为什么值得关注：</strong>他完整、透明地公开了每一款产品的收入、失败和教训，并整理成《My Indie Book》，已售出一千七百多本。"
+ ],
+ "lead": "Tony 在书的开头写道：「我只是一个普通的软件工程师，在一家普通的公司年薪 105,600 美元，住在新加坡每月 700 美元的出租屋里。」没有富裕的家庭，没有创业经验，没有人脉，没有粉丝，没有社区。三年后，他的产品月收入达到 8.3 万美元；如今 TypingMind 一款产品就超过 13 万美元。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2013–2020", "title": "越南、新加坡，普通工程师", "text": "2013 年注册 GitHub，写过 react-router-page-transition、github-explorer（PWA 实验）、logmine（日志模式分析 CLI）。后在新加坡一家公司做软件工程师。"},
+    {"when": "第一次尝试", "title": "日志查看器", "text": "为了做一个原生日志查看器 App，他专门学了 Swift。项目失败了，但他学到第一个心态转变：代码只是工具，不要过度工程化。"},
+    {"when": "2020–2021", "title": "DevUtils：第一笔互联网收入", "text": "把开发者日常需要的格式化、转换、解码工具做成离线的 macOS App，赚到第一笔 9 美元，最终稳定在每月 5000 美元左右。同时他在 Twitter 上从零积累了一万关注者。"},
+    {"when": "2021-09", "title": "辞职，全职 indie hacking", "text": "离开新加坡的工作。随后做了 Twitter 分析与增长工具 Black Magic，做到月入 1.4 万美元，但因为一次「意外事件」失去了它（Twitter API 政策变化）。"},
+    {"when": "2022", "title": "Xnapper", "text": "截图美化与分享工具，做到月入 6000 美元。"},
+    {"when": "2023 至今", "title": "TypingMind", "text": "ChatGPT API 开放后推出 LLM 聊天前端 TypingMind，并扩展到 B2B（团队版），6 个月内反弹到月入 4.5 万美元，之后持续增长到 13 万美元以上。"},
+    {"when": "2024–2026", "title": "写书与新实验", "text": "把 25,000 多条推文、45 篇长文整理成《My Indie Book》；同时继续发布小实验：makeawebsite.app、浏览器游戏 survive10waves.com、基于实时音频识别 YouTube 赞助片段的扩展等。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "TypingMind", "meta": "2023 · $137K/月", "text": "比 ChatGPT 更好用的 LLM 聊天界面，自带 Key、插件、团队版。", "url": "https://www.typingmind.com"},
+    {"name": "DevUtils", "meta": "macOS · $5K/月", "text": "离线的开发者工具合集：JSON、Base64、JWT、正则……", "url": "https://devutils.com"},
+    {"name": "My Indie Book", "meta": "书 · 1700+ 本", "text": "一人创业的完整故事与 30 多个主题的方法论。", "url": "https://www.myindiebook.com"},
+    {"name": "Awesome Black Friday", "meta": "开源 · ★7.5k", "text": "独立开发者黑五优惠合集，社区共建。", "url": "https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://www.myindiebook.com", "paras": ["他的 X 简介把主页指向了书：「Stories and notes about building a one-person startup without funding.」", "书的页面像一封长信：先讲他的故事和数字，再用卡片列出四个成功产品各自从零到多少月收入，最后是目录，未购买部分做了乱码遮挡，非常巧妙。"]}},
+   {"p": "X 简介本身也是一张「产品名片」：每个产品前一个 emoji，后面直接写上月收入。这种透明是 indie hacker 文化的核心。"}
+  ]},
+  {"id": "craft", "title": "设计与方法", "blocks": [
+   {"p": "Tony 的产品界面都很朴素，但非常「顺手」：DevUtils 自动识别剪贴板里的内容并推荐工具；TypingMind 把 ChatGPT 缺的功能（搜索、文件夹、提示词库）一次补齐。他做的是<strong>站在现有平台旁边、补齐体验短板</strong>的生意。"},
+   {"quote": "A good product is not enough. Organic growth doesn't always work.", "cite": "《My Indie Book》章节标题"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>先建立受众：</strong>做一个有趣的人，认真回复别人，一万关注者是他所有产品的起点。",
+    "<strong>多次下注：</strong>10 多次失败、4 次成功，成功率不需要很高。",
+    "<strong>平台风险真实存在：</strong>Black Magic 的教训是不要把命运押在别人的 API 上。",
+    "<strong>透明就是营销：</strong>公开收入和失败，换来信任与传播。"
+   ]}
+  ]}
+ ],
+ "cta": "读一读《My Indie Book》的免费章节，或者试试 TypingMind。",
+ "sources": [
+  {"label": "Tony Dinh 的 X 个人资料", "url": "https://x.com/tdinh_me"},
+  {"label": "My Indie Book", "url": "https://www.myindiebook.com"},
+  {"label": "GitHub：trungdq88", "url": "https://github.com/trungdq88"},
+  {"label": "TypingMind", "url": "https://www.typingmind.com"}
+ ]
+}

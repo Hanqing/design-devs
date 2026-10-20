@@ -1,0 +1,57 @@
+{
+ "name": "Thomas Ricouard",
+ "role": "OpenAI Codex 开发者体验 · SwiftUI 开源作者",
+ "title": "Thomas Ricouard：用开源 App <em>教会大家 SwiftUI</em>",
+ "dek": "从 Google、Glose 到 Medium，再到 OpenAI 的 Codex 团队。他用 MovieSwiftUI、Ice Cubes 等完整开源 App 示范了 SwiftUI 应该怎么写，如今又在为 Codex 的开发者体验打造工具和 Skills。",
+ "card": "Ice Cubes、MovieSwiftUI 作者，前 Medium iOS 负责人，现在 OpenAI 做 Codex 开发者体验。",
+ "location": "法国巴黎",
+ "tags": ["SwiftUI", "iOS", "开源", "Codex", "开发者体验"],
+ "links": [{"label": "dimillian.app", "url": "https://dimillian.app"}, {"label": "GitHub", "url": "https://github.com/Dimillian"}, {"label": "Ice Cubes", "url": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884"}],
+ "summary": [
+  "<strong>一句话：</strong>法国 iOS 工程师、创业者，SwiftUI 社区最有影响力的开源 App 作者之一，现于 OpenAI 负责 Codex 的开发者体验。",
+  "<strong>代表作：</strong>Ice Cubes（★7k，SwiftUI Mastodon 客户端）、MovieSwiftUI（★6.5k）、Curiosity / RedditOS、AC Helper（动森助手）、CodexMonitor、CodexSkillManager。",
+  "<strong>经历：</strong>Google（参与 Chrome iOS）、联合创办 MySeeen 与 Robin Browser、Glose（阅读应用，后被 Medium 收购）、Medium、OpenAI。"
+ ],
+ "lead": "Thomas 的个人网站第一行写着：「🤖 Developer Experience, Builder, Codex @OpenAI」。往下看，是一排他做过或参与过的 App 图标：Medium、Glose、Ice Cubes、AC Helper、Google Chrome。每一个都是很多人每天在用的东西。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2010 年代初", "title": "创业：MySeeen 与 Robin", "text": "联合创办电影分享应用 MySeeen 与智能浏览器 Robin Browser。2014 年 Swift 发布当年就写了 Hacker News 阅读器 SwiftHN。"},
+    {"when": "Google", "title": "Chrome for iOS", "text": "在 Google 参与 iOS 相关开发，他的作品列表里包括 Google Chrome。"},
+    {"when": "Glose → Medium", "title": "阅读产品", "text": "在社交阅读应用 Glose 工作，Glose 被 Medium 收购后加入 Medium，负责 iOS 客户端。"},
+    {"when": "2019–2020", "title": "SwiftUI 布道", "text": "SwiftUI 发布后立刻写出 MovieSwiftUI（含自定义 Flux/Redux 实现）和 SwiftUIFlux，成为大量开发者学习 SwiftUI 架构的范例；2020 年又做了 macOS Reddit 客户端 Curiosity 和动森助手 AC Helper。"},
+    {"when": "2022", "title": "Ice Cubes", "text": "Mastodon 爆发时，用 SwiftUI 开源 Ice Cubes，迅速成为最受欢迎的 Mastodon 客户端之一，同时是一个完整的开源 SwiftUI 产品级代码库。之后还有 Bluesky 客户端 IcySky。"},
+    {"when": "2025–2026", "title": "OpenAI Codex", "text": "加入 OpenAI，负责 Codex 的开发者体验。开源了自己的 Codex Skills、CodexMonitor（监控 Codex 状态的应用）和 CodexSkillManager（管理 Skills 的 macOS App）。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Ice Cubes", "meta": "2022 · SwiftUI · ★7k", "text": "优雅的开源 Mastodon 客户端，也是学习 SwiftUI 大型应用的最佳代码之一。", "url": "https://github.com/Dimillian/IceCubesApp"},
+    {"name": "MovieSwiftUI", "meta": "2019 · ★6.5k", "text": "SwiftUI + Combine 的电影 App，带自定义 Flux 实现。", "url": "https://github.com/Dimillian/MovieSwiftUI"},
+    {"name": "CodexMonitor", "meta": "2026 · ★4.3k", "text": "一个监控 Codex 运行状况的 App。", "url": "https://github.com/Dimillian/CodexMonitor"},
+    {"name": "Skills", "meta": "2025 · ★4k", "text": "他自己日常使用的 Codex Skills 合集。", "url": "https://github.com/Dimillian/Skills"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://dimillian.app", "paras": ["导航有 About me、Talks、Games、Articles、Open Source、Snippets。首页用 emoji 列出身份：🤖 Codex、🍎 iOS/macOS、🐙 开源 App、🇫🇷 创业者、🫡 曾在 Glose 📖、Google 🔍、Medium。", "下方是一排 App 图标，直接链接到 App Store，相当于一份「可点击的简历」。"]}}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "Thomas 的特点是<strong>用完整的产品来开源</strong>：不是一个组件、一个 Demo，而是一个可以上架、有真实用户的 App。这让他的代码既是教程，又是产品。"},
+   {"p": "从 SwiftUI 到 Codex，他始终站在「新工具如何被开发者真正用起来」的位置。Codex Skills 和 SkillManager 延续的是同一件事：把最佳实践变成别人可以直接复用的东西。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>开源一个完整 App：</strong>比写十篇教程更有说服力。",
+    "<strong>新技术发布当天就动手：</strong>SwiftUI、Mastodon、Codex，每次都很快做出作品。",
+    "<strong>做自己会用的工具：</strong>动森助手、Codex 监控，都是自用需求。",
+    "<strong>把兴趣变成职业：</strong>开源影响力最终把他带到了 OpenAI。"
+   ]}
+  ]}
+ ],
+ "cta": "读一读 Ice Cubes 的源码，看一个产品级 SwiftUI App 怎么组织。",
+ "sources": [
+  {"label": "Thomas Ricouard 的 X 个人资料", "url": "https://x.com/Dimillian"},
+  {"label": "dimillian.app", "url": "https://dimillian.app"},
+  {"label": "GitHub：Dimillian", "url": "https://github.com/Dimillian"}
+ ]
+}

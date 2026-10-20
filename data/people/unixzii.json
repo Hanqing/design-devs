@@ -1,0 +1,59 @@
+{
+ "name": "Cyandev",
+ "role": "Mac 客户端工程师 · 博主",
+ "title": "Cyandev：一个<em>原生优先主义者</em>的工程笔记",
+ "dek": "前字节跳动、阿里巴巴工程师，现在在一家「视频会议软件」公司做 Mac 客户端。他写 SwiftUI 版 2048、给 React 开发者的 SwiftUI 速查表、iOS 备份提取工具，也在博客里认真讨论所有权、Send/Sync 和 Swift 并发隔离。",
+ "card": "前字节 / 阿里，现做 Mac 客户端；博客 cy4n.dev 横跨 Swift、Rust、React 与图形。",
+ "location": "中国北京",
+ "tags": ["macOS", "Swift", "Rust", "React", "交互设计"],
+ "links": [{"label": "博客 cy4n.dev", "url": "https://cy4n.dev"}, {"label": "GitHub", "url": "https://github.com/unixzii"}],
+ "summary": [
+  "<strong>一句话：</strong>一个对用户界面和交互设计着迷的软件工程师，「原生优先主义者，讨厌到处都是浏览器」。",
+  "<strong>代表作：</strong>ibackupextractor（Rust，★1.3k）、SwiftUI-2048、Daysquare（优雅的 iOS 日历控件）、swiftui-for-react-devs、SimRun（在 Mac 上直接运行模拟器 App）、little-agent（轻量嵌入式 Agent 框架）。",
+  "<strong>为什么值得关注：</strong>他的博客把系统编程的深度和对交互的审美结合在一起，是中文技术写作里很难得的风格。"
+ ],
+ "lead": "Cyandev 的 GitHub 简介写着：「vibe coder by day, real coder by night.」他的 About 页引用了费曼的一句话：「What I cannot create, I do not understand.」（我不能创造的，我就不理解。）",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2012", "title": "注册 GitHub 与 X", "text": "早年活跃在知乎和各种技术论坛，后来都退出了。他自称「数字考古」爱好者，用过 Mountain Lion、Vista 和 KDE 4。"},
+    {"when": "2016", "title": "iOS 与 Android 组件", "text": "Daysquare（一个优雅的 iOS 日历控件）、CVPasscodeController（原生观感的密码输入界面）、android-FancyBehaviorDemo（自定义 CoordinatorLayout 行为）。"},
+    {"when": "2019–2020", "title": "SwiftUI 时代", "text": "SwiftUI 发布当年就写了 SwiftUI-2048 和基于 Metal 的视频播放器；2020 年整理了给 React 开发者的 SwiftUI 速查表。"},
+    {"when": "阿里巴巴 → 字节跳动", "title": "大厂客户端", "text": "先后在阿里巴巴和字节跳动工作，积累了大型客户端工程的经验。2022 年写了 XcodePatch（拯救 Xcode 的补丁合集）和关于 Objective-C atomic、Swift Package Plugin 沙盒的文章。"},
+    {"when": "2023", "title": "Rust 与 React 的思考", "text": "用 Rust 写了 iOS 备份提取工具 ibackupextractor；博客里写《为什么所有权很重要》《But What is Send and Sync?》《Idiomatic Signals for React》《Thoughts on React Server Components》。"},
+    {"when": "现在", "title": "视频会议软件的 Mac 客户端", "text": "在一家「视频会议软件」公司做 Mac 客户端开发。2025–2026 年博客写了 Swift Concurrency 隔离、基于原则的性能优化、用 WebGPU 造一场雪、《再见，Next.js》和《为 Electron App 设计扩展系统》；2026 年开源 SimRun 和 little-agent。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "ibackupextractor", "meta": "2023 · Rust · ★1.3k", "text": "从 iOS 备份归档中提取文件的简单工具。", "url": "https://github.com/unixzii/ibackupextractor"},
+    {"name": "SimRun", "meta": "2026 · Objective-C", "text": "在 Mac 上直接运行 iOS 模拟器里的 App。", "url": "https://github.com/unixzii/SimRun"},
+    {"name": "swiftui-for-react-devs", "meta": "2020", "text": "帮 React 开发者快速上手 SwiftUI 的速查表。", "url": "https://github.com/unixzii/swiftui-for-react-devs"},
+    {"name": "little-agent", "meta": "2026 · Rust", "text": "类似 Claude Code / Codex 的轻量嵌入式 Agent 框架。", "url": "https://github.com/unixzii/little-agent"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://cy4n.dev", "paras": ["首页用等宽字体拼出「c y a n d e v _」，像一个闪烁的终端光标。下面是一列只有标题和日期的文章，没有任何多余装饰。", "About 页列出了他的「印象」：极简主义者，偏爱原版胜过定制；相信开源能改变世界；原生优先；主机玩家，喜欢《荒野大镖客 2》《毛线小精灵》《刺客信条：大革命》。"]}},
+   {"p": "博客是自己写的单页应用，标题、日期、正文，就这三样。正好对应他的自我描述：「A minimalist, prefer original over customized.」"}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"quote": "I'm fascinated by user interface and interaction design… I love digging into the essence of things and thinking with the first principle.", "cite": "Cyandev，About 页"},
+   {"p": "他说自己是 Apple 粉（「至少曾经是」），喜欢乔布斯的产品哲学和苹果的设计品味：「也许苹果已经变了很多，但它最初的精神一直启发着我。」他的作品与文章，都是这种精神在工程层面的延续。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>跨语言思考：</strong>用 Rust 的所有权理解 Swift 并发，用 SwiftUI 理解 React。",
+    "<strong>做速查表：</strong>帮别人跨越技术栈，是最受欢迎的开源形式之一。",
+    "<strong>从第一性原理写文章：</strong>讲清楚「为什么」，而不只是「怎么做」。",
+    "<strong>白天 vibe，晚上 real：</strong>拥抱 AI，但保持亲手写底层代码的能力。"
+   ]}
+  ]}
+ ],
+ "cta": "从《为什么所有权很重要》开始读他的博客。",
+ "sources": [
+  {"label": "Cyandev 的 X 个人资料", "url": "https://x.com/unixzii"},
+  {"label": "博客 cy4n.dev", "url": "https://cy4n.dev"},
+  {"label": "Cyandev：About", "url": "https://cy4n.dev/page/about"},
+  {"label": "GitHub：unixzii", "url": "https://github.com/unixzii"}
+ ]
+}

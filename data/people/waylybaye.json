@@ -1,0 +1,62 @@
+{
+ "name": "Baye（邹振鲁）",
+ "role": "独立开发者 · 以卖 App 为生",
+ "title": "Baye：一边<em>全球旅居</em>，一边卖 App 的程序员",
+ "dek": "熊猫吃短信用手机端机器学习拦截「澳门赌场」，HyperApp / ServerCat 让你在手机上管服务器，OpenCat 是最早一批原生 ChatGPT 客户端。Baye 是中文独立开发圈最有代表性的「产品型程序员」之一。",
+ "card": "熊猫吃短信、ServerCat、OpenCat 作者，边全球旅居边做产品的独立开发者。",
+ "location": "全球旅居",
+ "tags": ["iOS", "macOS", "CoreML", "独立开发", "SwiftUI"],
+ "links": [{"label": "OpenCat", "url": "https://opencat.app"}, {"label": "ServerCat", "url": "https://servercat.app"}, {"label": "GitHub", "url": "https://github.com/waylybaye"}],
+ "summary": [
+  "<strong>一句话：</strong>89 年的程序员，不习惯坐班，远程工作多年后转为全职独立开发，如今「以卖 App 为生，边全球旅居边创作产品」。",
+  "<strong>代表作：</strong>熊猫吃短信（国内最早用 CoreML 本地拦截垃圾短信的 App 之一）、HyperApp → ServerCat（服务器状态、Docker 管理与 SSH 客户端）、OpenCat（原生 AI 聊天客户端）、XcodeCleaner、DAMA、Miley。",
+  "<strong>为什么值得关注：</strong>他的产品哲学非常直接：跳过冗长调研，先迅速做出最小可用产品，交给潜在用户试，用反馈判断方向。"
+ ],
+ "lead": "爱范儿给他的专访起了一个标题：《那个与「澳门赌场」抗争的男人》。那时 iOS 11 刚开放垃圾短信过滤接口，Baye 自己也深受骚扰，又觉得市面上的 App 都不够好，于是花了两周手动标注样本，验证了「在手机上用 CoreML 本地分类短信」是可行的。《熊猫吃短信》就这样诞生了。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "毕业后", "title": "从坐班到远程", "text": "真名邹振鲁，80 后（89 年）。毕业后一直从事开发工作，最早在公司上班但不习惯，之后大部分时间远程工作。早年的开源作品包括 django-upyun（又拍云存储）。"},
+    {"when": "2017", "title": "HyperApp 与 XcodeCleaner", "text": "HyperApp 能在服务器上自动安装软件、部署网站，管理和监控服务器、智能路由器、群晖 NAS，少数派专文推荐；XcodeCleaner 用 react-native-macos 写成，帮你清理 Xcode 的海量缓存（后来用 SwiftUI 重写）。"},
+    {"when": "2017–2018", "title": "全职独立开发：熊猫吃短信", "text": "使用机器学习在本地拦截垃圾短信，无需服务器、不上传隐私。App 内置样本提交通道，用户一起帮「熊猫」进化，后来还被「12321 网络不良与垃圾信息举报受理中心」邀请去交流。"},
+    {"when": "2019–2021", "title": "ServerCat 与 Swapman", "text": "HyperApp 演化为 ServerCat：服务器状态、Docker 管理与 SSH 客户端，覆盖 iOS 与 macOS；Swapman 则用于监控 macOS Big Sur 的 swap 文件。"},
+    {"when": "2023", "title": "OpenCat", "text": "ChatGPT API 开放后迅速推出原生 AI 聊天客户端 OpenCat，支持多种模型与机器人，是 Apple 平台上最早的一批原生 AI 客户端。"},
+    {"when": "现在", "title": "全球旅居", "text": "作品列表增加了 DAMA、Miley，人则在世界各地旅居，用 App 收入维持一种自由的生活方式。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "熊猫吃短信", "meta": "iOS · CoreML", "text": "本地机器学习拦截垃圾短信，持续学习新套路，保持高准确率。", "url": "https://www.ifanr.com/app/1249422"},
+    {"name": "ServerCat", "meta": "iOS / macOS", "text": "服务器状态、Docker 管理和 SSH 客户端，前身是 HyperApp。", "url": "https://servercat.app"},
+    {"name": "OpenCat", "meta": "2023 · macOS / iOS", "text": "原生 AI 聊天客户端：和各种 AI 机器人顺畅对话。", "url": "https://opencat.app"},
+    {"name": "XcodeCleaner", "meta": "2017 · 开源 · ★1.5k", "text": "「Make Xcode Clean Again」，清理 Xcode 占用的磁盘空间。", "url": "https://github.com/waylybaye/XcodeCleaner-SwiftUI"}
+   ]}
+  ]},
+  {"id": "site", "title": "线上形象", "blocks": [
+   {"site": {"url": "https://github.com/waylybaye", "paras": ["Baye 没有维护个人博客，他的 X 是主要阵地，十六万关注者。简介里一句「一个自由的程序员，以卖 App 为生」概括了全部。", "GitHub 简介则自嘲为「Poor Indie developer, full stack programmer」。"]}},
+   {"p": "他的产品官网都很简洁：ServerCat 的首页只有一句「Server Status, Docker Management and SSH client for iOS/macOS」、一个下载按钮和截图。OpenCat 则用宣传语「Start a smooth chat with your AI」直奔主题。"}
+  ]},
+  {"id": "craft", "title": "设计与方法", "blocks": [
+   {"quote": "我一般会跳过这个过程，自己先迅速做一个最小可用产品出来，然后直接让潜在用户试用，根据反馈和自己的思考来判断方向到底对不对。", "cite": "Baye 接受爱范儿 AppSo 专访"},
+   {"p": "他很早就意识到独立开发者的优势：<strong>可以直接和用户建立联系</strong>，快速响应需求。熊猫吃短信承诺「不低于一个月一个版本」，用户则热心地帮他扩充样本库。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>做自己痛的问题：</strong>被垃圾短信骚扰，就去拦截它。",
+    "<strong>先验证技术可行性：</strong>两周手动标注，证明本地 ML 能用。",
+    "<strong>抓住平台新接口：</strong>iOS 11 的短信过滤、ChatGPT API，每个窗口期都是机会。",
+    "<strong>产品养活生活方式：</strong>独立开发不只是职业，也可以是全球旅居的自由。"
+   ]}
+  ]}
+ ],
+ "cta": "如果你管理服务器，试试 ServerCat；如果你被垃圾短信困扰，试试熊猫吃短信。",
+ "sources": [
+  {"label": "Baye 的 X 个人资料", "url": "https://x.com/waylybaye"},
+  {"label": "爱范儿：专访 Baye，那个与「澳门赌场」抗争的男人", "url": "https://www.ifanr.com/app/1249422"},
+  {"label": "少数派：HyperApp 介绍", "url": "https://sspai.com/post/38846"},
+  {"label": "V2EX：熊猫吃短信发布帖", "url": "https://www.v2ex.com/t/411764"},
+  {"label": "GitHub：waylybaye", "url": "https://github.com/waylybaye"},
+  {"label": "ServerCat 官网", "url": "https://servercat.app"},
+  {"label": "OpenCat 官网", "url": "https://opencat.app"}
+ ]
+}

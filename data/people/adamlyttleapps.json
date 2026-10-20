@@ -1,0 +1,61 @@
+{
+ "name": "Adam Lyttle",
+ "role": "澳大利亚独立 App 开发者 · YouTuber",
+ "title": "Adam Lyttle：从割草工到<em>五十款 App</em>",
+ "dek": "网页公司倒闭、背上债务，他去帮人割草谋生。后来他给自己定了一个规则：一年里每个月做一款 App。如今他有五十多款在售应用、一个讲独立开发的 YouTube 频道，还在写浏览器小游戏。",
+ "card": "墨尔本的独立 App 开发者，App 组合策略代表人物，Swipe the Cat 作者，YouTube 创作者。",
+ "location": "澳大利亚墨尔本",
+ "tags": ["iOS", "ASO", "App 组合", "YouTube", "游戏"],
+ "links": [{"label": "YouTube", "url": "https://youtube.com/@adamlyttleapps"}, {"label": "浏览器游戏", "url": "https://play.adamlyttleapps.com"}, {"label": "GitHub", "url": "https://github.com/adamlyttleapps"}],
+ "summary": [
+  "<strong>一句话：</strong>一个没有受过正规开发训练、靠「每月一款 App」自学出来的独立开发者，以「App 组合」而非单一爆款维生。",
+  "<strong>代表作：</strong>Swipe the Cat（借 TikTok 爆火的猫咪游戏）、Piano Run，以及大量消费级小工具 App；开源了 SwiftUI 付费墙、引导页组件和 ASO 截图、问卷式引导的 Claude Code Skills。",
+  "<strong>数字：</strong>据播客与报道，他的月收入曾从 1 万美元增长到 5–7 万美元（自述，来源不一）。"
+ ],
+ "lead": "Adam 的 X 简介很自嘲：「slop enthusiast • indie app dev • wannabe game dev」。YouTube 频道的介绍则认真得多：「独立 App 开发是我的特别兴趣，我在这里展示独立开发者、做 App。」他还写着：follower of Christ。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2007", "title": "网页开发起步", "text": "2007 年就注册了 X，早年做网页开发并经营一家网页公司。"},
+    {"when": "低谷", "title": "公司倒闭与割草生意", "text": "网页公司失败后，他离开科技行业，靠经营割草生意恢复元气。据报道他当时背负了大量债务。"},
+    {"when": "重新开始", "title": "一年十二款 App", "text": "对做 App 的渴望从未消失。没有正规教育，他就给自己定规则：一年里每个月做一款 App。有的成了，大多数没有，但每一款都教会了他营销、变现和用户口味。"},
+    {"when": "组合策略", "title": "五十多款 App", "text": "不追求单一爆款，而是用 ASO（应用商店优化）和数据驱动的迭代经营一个 App 组合。早期靠广告获得稳定收入，之后加入内购与订阅。"},
+    {"when": "2024–2025", "title": "Swipe the Cat 与原生转型", "text": "借 TikTok 趋势做出爆款猫咪游戏 Swipe the Cat，但变现不如预期，他把「病毒式传播」的经验用到后续发布里；同时从跨平台转向原生 SwiftUI，并开源了付费墙、电影感引导页等组件。"},
+    {"when": "2026", "title": "AI 时代的 App 工厂", "text": "开源 claude-skill-aso-appstore-screenshots（★1.8k）、问卷式引导流程 Skill 等，把自己的 ASO 与转化经验交给 Claude Code；同时做 notchy、CharacterView，并在 play.adamlyttleapps.com 发布免费浏览器游戏。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "ASO 截图 Skill", "meta": "2026 · ★1.8k", "text": "一个帮你生成高转化 App Store 截图的 Claude Code Skill。", "url": "https://github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots"},
+    {"name": "问卷式引导 Skill", "meta": "2026 · ★1.2k", "text": "参照高转化 App 设计和生成问卷式 Onboarding 流程。", "url": "https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire"},
+    {"name": "浏览器游戏", "meta": "免费 · 无需安装", "text": "他「想当游戏开发者」的实验场。", "url": "https://play.adamlyttleapps.com"},
+    {"name": "Paywall-PurchaseView", "meta": "2024 · SwiftUI", "text": "展示周订阅与年订阅的简洁付费墙组件。", "url": "https://github.com/adamlyttleapps/Paywall-PurchaseView-SwiftUI"}
+   ]}
+  ]},
+  {"id": "site", "title": "线上形象", "blocks": [
+   {"site": {"url": "https://youtube.com/@adamlyttleapps", "paras": ["他的主阵地是 YouTube：ASO 与关键词策略、AI 辅助开发 App、组合收入模型、失败复盘，以及对其他独立开发者的访谈。", "X 简介把链接指向了自己的免费浏览器游戏，而不是 App，这透露出他下一阶段的兴趣。"]}},
+   {"p": "他也上过 RevenueCat 的《Launched》等播客，完整讲述从网页公司失败到 App 组合成功的经历。"}
+  ]},
+  {"id": "craft", "title": "方法论", "blocks": [
+   {"p": "Adam 的方法很「反精品」：<strong>数量换学习，组合换稳定</strong>。他不赌一个大产品，而是让每一款 App 都成为一次关于关键词、截图、付费墙和引导流程的实验。"},
+   {"p": "他在 2026 年把这些实验结论写成 Claude Code Skills，这是「经验产品化」的另一种形式：让 AI 按照他的方法去做截图和引导页。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>失败后重新开始：</strong>从割草到 App，人生没有那么多「太晚」。",
+    "<strong>给学习设一个节奏：</strong>每月一款，用发布倒逼成长。",
+    "<strong>重视 ASO：</strong>截图、关键词、引导页决定了大多数 App 的生死。",
+    "<strong>爆款不等于赚钱：</strong>病毒传播之外，还要设计好变现。"
+   ]}
+  ]}
+ ],
+ "cta": "去他的 YouTube 频道看一期 App 复盘，或者玩一个浏览器小游戏。",
+ "sources": [
+  {"label": "Adam Lyttle 的 X 个人资料", "url": "https://x.com/adamlyttleapps"},
+  {"label": "RevenueCat：Adam Lyttle on Launched podcast", "url": "https://www-docs.revenuecat.com/blog/growth/adam-lyttle-swipe-the-cat-launched-podcast-2026/"},
+  {"label": "EveryDev：adamlyttleapps", "url": "https://www.everydev.ai/developers/adamlyttleapps"},
+  {"label": "Jawbreaker 播客：How Adam Lyttle made $800,000 on the App Store", "url": "https://jawbreaker.transistor.fm/episodes/from-zero-to-hero-how-adam-lyttle-made-800000-on-the-app-store-with-simple-apps"},
+  {"label": "GitHub：adamlyttleapps", "url": "https://github.com/adamlyttleapps"},
+  {"label": "YouTube 频道", "url": "https://youtube.com/@adamlyttleapps"}
+ ]
+}
