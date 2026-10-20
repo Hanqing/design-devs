@@ -193,7 +193,7 @@ def render_person(p, row, prev, nxt, prefix='../../'):
 {f'<div class="stats">{stat_html}</div>' if stat_html else ''}
 {lead}
 {''.join(secs)}
-<section class="cta"><h2>去看看 {esc(name)} 本人的作品</h2><p>{esc(p.get('cta', '最好的了解方式，是亲手用一用他们做的东西。'))}</p><div class="acts">{cta_links}</div></section>
+<section class="cta"><h2>去看看 {esc(name)} 本人的作品</h2><p>{esc(p.get('cta', '最好的了解方式，是亲手用一用这些作品。'))}</p><div class="acts">{cta_links}</div></section>
 <section class="sources" id="sources"><h2>资料来源</h2><ol>{sources}</ol>
 <p style="margin-top:12px">本页由公开资料整理，可能存在遗漏或过时之处；以本人公开发布的信息为准。</p></section>
 <div class="next">{nav(prev, 'l', '← 上一位')}{nav(nxt, 'r', '下一位 →')}</div>
@@ -229,7 +229,7 @@ def render_index(people, rows):
             search = ' '.join([p['handle'], p.get('name', ''), p.get('role', ''), ' '.join(p.get('tags', [])), re.sub('<[^>]+>', '', p.get('dek', ''))]).lower()
             cards.append(f'''<a class="card" href="people/{p['handle']}/index.html" data-group="{esc(g)}" data-q="{esc(search)}">
 <div class="card-top"><img src="avatars/{p['handle']}.jpg" alt="" loading="lazy"><div><b>{esc(p.get('name'))}</b><span>@{esc(p['handle'])}</span></div>{score}</div>
-<p>{esc(p.get('role', ''))} — {esc(re.sub('<[^>]+>', '', p.get('card', p.get('dek', ''))))}</p>
+<p>{esc(re.sub('<[^>]+>', '', p.get('card', p.get('dek', ''))))}</p>
 <div class="tags">{tags}</div></a>''')
         if cards:
             note = next((r['group_note'] for r in rows if r['group'] == g and r['group_note']), '')
@@ -244,7 +244,7 @@ def render_index(people, rows):
 <header class="home-hero">
 <p class="kick">DESIGN × DEV · {n} PROFILES</p>
 <h1>{n} 位把代码写出<em>审美</em>的开发者</h1>
-<p>独立开发者、设计工程师、开源作者、写作者。每一页都整理了一个人：他做过什么，他的个人网站长什么样，他是怎么一步步走到今天的，以及我们能从他身上学到什么。</p>
+<p>独立开发者、设计工程师、开源作者、写作者。每一页整理一个人：做过的作品、个人网站的样子、一路走来的经历，以及我们能从中学到什么。</p>
 </header>
 <div class="filters">{btns}<input type="search" placeholder="搜索名字、作品、标签…" aria-label="搜索"></div>
 {''.join(out)}
