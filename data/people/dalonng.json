@@ -1,0 +1,158 @@
+{
+ "name": "大桥 dalonng",
+ "role": "iOS 开发者 · 东京涩谷",
+ "title": "大桥：在涩谷写 Swift、<em>读 Mach-O</em> 的人",
+ "dek": "一位低调的 iOS 开发者，X 简介一片空白，只写着「涩谷」。TA 的 GitHub 从 2010 年延续到今天：维护了十二年的 Emacs 配置、学 Haskell 的 CIS 194 练习、Objective-C 运行时与 Mach-O 文件的研究，以及用 Swift 宏做的 JSON 库和一个带 Metal 着色器与端侧图像分类的新 App。",
+ "card": "东京涩谷的 iOS 开发者，Swift 宏 JSON 库 Bourne、swift-macho、Atelier 作者，十二年 Emacs 用户。",
+ "location": "日本东京涩谷",
+ "tags": [
+  "Swift",
+  "iOS",
+  "Mach-O",
+  "Emacs",
+  "Metal"
+ ],
+ "links": [
+  {
+   "label": "GitHub",
+   "url": "https://github.com/dalonng"
+  },
+  {
+   "label": "博客「滋啦文」",
+   "url": "https://dalonng.github.io"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>一个公开资料很少、但代码记录很长的 iOS 工程师，对底层（运行时、Mach-O）和工具（Emacs、Tuist、mise）都有持续的兴趣。",
+  "<strong>代表作：</strong>Bourne（用 Swift 宏自动生成 Codable，缺字段用安全默认值，面向 struct + let 的不可变设计）、swift-macho（检查和修改 Mach-O 文件的 Swift 库）、HelloOCRuntime、Atelier（2026，Metal 着色器实验 + MobileNetV2 端侧图像分类）、AAONetworking、my-config（Emacs 配置，2014 年至今）。",
+  "<strong>说明：</strong>大桥几乎不在公开场合介绍自己，本页主要依据其 GitHub 与早期博客整理。"
+ ],
+ "lead": "大桥 2009 年就注册了 Twitter，2010 年注册 GitHub，个人简介始终是空的。但 TA 的提交记录很诚实：2026 年 10 月，TA 还在给 2014 年创建的 Emacs 配置推送新的提交。",
+ "sections": [
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2014",
+       "title": "博客与 Emacs",
+       "text": "开了博客「滋啦滋啦滋啦文」，写《Swift 中的类型和元类型》、防止推送到主线的 git hook、Fastlane；同年开始维护自己的 Emacs 配置 J-config。"
+      },
+      {
+       "when": "2015–2016",
+       "title": "Objective-C 与 Haskell",
+       "text": "写过 Objective-C 抽奖小程序 MLottery，并跟着宾大 CIS 194 课程学 Haskell。"
+      },
+      {
+       "when": "2023",
+       "title": "深入底层",
+       "text": "swift-macho（Swift 版 Mach-O 解析与修改）、MachOView fork、HelloOCRuntime（学习 OC 运行时）、从目录中查找 ObjC 类与枚举的脚本、FileHandle 扩展；记录 iOS 17 转屏后导航栏偏移的问题；用 Eien 学 SwiftUI。"
+      },
+      {
+       "when": "2024–2025",
+       "title": "Swift 宏与网络库",
+       "text": "Bourne：用 Swift 宏自动解析 JSON 到 struct 与 let；AAONetworking 网络库。"
+      },
+      {
+       "when": "2026",
+       "title": "Atelier",
+       "text": "用 Tuist 管理工程、mise 管理工具链的新 App：Metal 着色器的三角、方块、纹理实验，以及用 MobileNetV2 在本机给相册图片做分类，界面支持中英文。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Bourne",
+       "meta": "Swift 宏",
+       "text": "自动生成 Codable 实现，缺失字段用默认值而不是抛错，鼓励不可变数据模型。",
+       "url": "https://github.com/dalonng/Bourne"
+      },
+      {
+       "name": "swift-macho",
+       "meta": "2023 · Swift",
+       "text": "检查和修改 Mach-O 文件的 Swift 库。",
+       "url": "https://github.com/dalonng/swift-macho"
+      },
+      {
+       "name": "Atelier",
+       "meta": "2026 · Swift · Metal",
+       "text": "Metal 着色器实验与端侧图像分类，工程由 Tuist 组织。",
+       "url": "https://github.com/dalonng/Atelier"
+      },
+      {
+       "name": "my-config",
+       "meta": "2014 至今 · Emacs Lisp",
+       "text": "维护了十二年的 Emacs 配置。",
+       "url": "https://github.com/dalonng/my-config"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://dalonng.github.io",
+      "paras": [
+       "早年的 Jekyll 博客「滋啦滋啦滋啦文」，最后一篇停在 2017 年的 Fastlane。2014 年的文章里还有一篇《假如生活欺骗了你！》。",
+       "如今 TA 的「作品集」就是 GitHub：仓库按更新时间排列，最新的总是 Atelier 和 Emacs 配置。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "手艺与方法",
+   "blocks": [
+    {
+     "p": "大桥的代码有一种<strong>「工匠的安静」</strong>：不追热点，不写长篇宣传，只是不停地研究自己好奇的东西：类型与元类型、Mach-O 结构、运行时、着色器。"
+    },
+    {
+     "p": "Bourne 的设计选择也很有观点：用不可变的 struct + let 避免多线程数据竞争，用安全默认值代替解析失败。这是一个在真实项目里吃过 JSON 解析苦头的人才会做的取舍。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>长期维护自己的工具：</strong>一份 Emacs 配置可以陪你十二年。",
+      "<strong>向下多走一层：</strong>理解 Mach-O 和运行时，会让你更懂 iOS。",
+      "<strong>用新语言特性解决老问题：</strong>Swift 宏让 JSON 解析更安全。",
+      "<strong>不必张扬：</strong>代码本身就是最好的自我介绍。"
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "看看 Bourne 的设计，想想你的 JSON 模型是否足够安全。",
+ "sources": [
+  {
+   "label": "大桥的 X 个人资料",
+   "url": "https://x.com/dalonng"
+  },
+  {
+   "label": "GitHub：dalonng",
+   "url": "https://github.com/dalonng"
+  },
+  {
+   "label": "博客「滋啦滋啦滋啦文」",
+   "url": "https://dalonng.github.io"
+  }
+ ]
+}

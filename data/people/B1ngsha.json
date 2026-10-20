@@ -1,0 +1,161 @@
+{
+ "name": "冰沙 Cheyne Chen",
+ "role": "全栈工程师 · Xspark AI · 前腾讯游戏",
+ "title": "冰沙：「不願活在籠子<em>直到羽翼潰爛</em>」",
+ "dek": "一位深圳的全栈工程师，白天写全栈、晚上折腾基础设施。TA 在腾讯游戏做过蓝鲸产品家族的平台 SaaS，现在加入了由 Z 世代创立的具身智能公司 Xspark AI，负责网站、数据管线和评测系统。",
+ "card": "前腾讯游戏（蓝鲸平台 SaaS）全栈工程师，现于具身智能公司 Xspark AI，深圳。",
+ "location": "中国深圳",
+ "tags": [
+  "全栈",
+  "Go",
+  "Django",
+  "基础设施",
+  "具身智能"
+ ],
+ "links": [
+  {
+   "label": "b1ngsha.github.io",
+   "url": "https://b1ngsha.github.io"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/b1ngsha"
+  },
+  {
+   "label": "Xspark AI",
+   "url": "https://x.com/xspark_ai"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「A Fullstack Engineer at day, an infrastructure enthusiast at night.」一个从游戏大厂走向具身智能创业公司的年轻工程师。",
+  "<strong>经历：</strong>腾讯游戏，参与蓝鲸（BlueKing）产品家族的平台 SaaS（Django 与 Gin），负责架构设计与全栈开发；现在在 Xspark AI 负责网站、数据管线与评测系统的设计、建设与运维。",
+  "<strong>练手项目：</strong>Go Web 框架、Redis 分布式锁与消息队列、Gin 聊天 Demo、AI 教学系统、agent-kit 等。"
+ ],
+ "lead": "冰沙的 X 简介最后一句是繁体字：「不願活在籠子直到羽翼潰爛。」这句话解释了一个工程师为什么会离开大厂，去一家由清华、上交、港大和蔚来背景的年轻人创立的具身智能公司。",
+ "sections": [
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2022",
+       "title": "开始在 GitHub 写代码",
+       "text": "2022 年注册 GitHub，简介写着「Maybe a Full-Stack Developer」。"
+      },
+      {
+       "when": "2023",
+       "title": "游戏项目",
+       "text": "参与 X-Project 系列小游戏的开发。"
+      },
+      {
+       "when": "腾讯游戏",
+       "title": "蓝鲸平台 SaaS",
+       "text": "在蓝鲸产品家族中参与多个平台 SaaS 项目（Django、Gin），负责架构设计与全栈开发。业余用 Go 实现 Redis 分布式锁、消息队列和聊天 Demo，并做了一个 AI 教学系统。"
+      },
+      {
+       "when": "2025–2026",
+       "title": "Xspark AI",
+       "text": "加入「Z 世代创立、以数据为核心」的具身智能公司 Xspark AI，负责网站、数据管线与评测系统；同时写自己的 Go Web 框架和 agent-kit。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Xspark AI",
+       "meta": "具身智能",
+       "text": "以数据为核心构建具身智能，团队来自清华、上交、港大、蔚来。TA 负责网站、数据管线与评测系统。",
+       "url": "https://x.com/xspark_ai"
+      },
+      {
+       "name": "go-web-framework",
+       "meta": "2025 · Go",
+       "text": "从零实现的 Go Web 框架，理解框架的最好方式是写一个。",
+       "url": "https://github.com/b1ngsha/go-web-framework"
+      },
+      {
+       "name": "redis_distributed_lock",
+       "meta": "2024 · Go",
+       "text": "基于 Redis 的分布式锁实现。",
+       "url": "https://github.com/b1ngsha/redis_distributed_lock"
+      },
+      {
+       "name": "agent-kit",
+       "meta": "2026 · Shell",
+       "text": "TA 的 Agent 工具包。",
+       "url": "https://github.com/b1ngsha/agent-kit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://b1ngsha.github.io",
+      "paras": [
+       "一个极简的个人站：「b1ngsha, aka Cheyne」，一句自我定位，然后是 Experience 和 Writing 两部分。",
+       "联系方式只有 GitHub、X、Telegram、Email 和 RSS。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "手艺与方法",
+   "blocks": [
+    {
+     "p": "冰沙的 GitHub 很能说明 TA 的学习方式：<strong>通过亲手实现基础组件来理解系统</strong>。分布式锁、消息队列、Web 框架，这些都是大厂里「直接用就好」的东西，TA 选择自己写一遍。"
+    },
+    {
+     "p": "这种对基础设施的热情，正是数据驱动的具身智能公司最需要的：数据管线和评测系统决定了模型能走多远。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>造轮子是为了理解：</strong>亲手实现一遍，才真正懂。",
+      "<strong>敢于离开舒适区：</strong>从大厂到创业公司，去更前沿的领域。",
+      "<strong>白天全栈，晚上基建：</strong>兴趣是最好的老师。",
+      "<strong>数据和评测是 AI 的地基：</strong>不只是模型，管线同样重要。"
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "关注 Xspark AI，看看具身智能的数据底座怎么搭。",
+ "sources": [
+  {
+   "label": "冰沙的 X 个人资料",
+   "url": "https://x.com/B1ngsha"
+  },
+  {
+   "label": "b1ngsha.github.io",
+   "url": "https://b1ngsha.github.io"
+  },
+  {
+   "label": "GitHub：b1ngsha",
+   "url": "https://github.com/b1ngsha"
+  },
+  {
+   "label": "Xspark AI 的 X 账号",
+   "url": "https://x.com/xspark_ai"
+  }
+ ]
+}

@@ -2,58 +2,168 @@
  "name": "Nate Parrott",
  "role": "Anthropic 设计师 · 前 The Browser Company",
  "title": "Nate Parrott：给软件注入<em>个性</em>的设计师",
- "dek": "大学时期就做出 Mac 上的 Spotlight 插件系统 Flashlight；在 The Browser Company，他被认为是 Arc 浏览器「个性与设计」的主要塑造者之一；如今他在 Anthropic 做设计。他的个人网站是一个让你点击赚金币、解锁「黄金模式」的游戏。",
+ "dek": "大学时期就做出 Mac 上的 Spotlight 插件系统 Flashlight；在 The Browser Company，TA 被认为是 Arc 浏览器「个性与设计」的主要塑造者之一；如今 TA 在 Anthropic 做设计。TA 的个人网站是一个让你点击赚金币、解锁「黄金模式」的游戏。",
  "card": "Flashlight 作者，Arc 浏览器的设计灵魂之一，现于 Anthropic 做设计；网站是个点击游戏。",
  "location": "美国纽约布鲁克林",
- "tags": ["交互设计", "原型", "Swift", "AI", "趣味"],
- "links": [{"label": "nateparrott.com", "url": "http://nateparrott.com"}, {"label": "GitHub", "url": "https://github.com/nate-parrott"}],
+ "tags": [
+  "交互设计",
+  "原型",
+  "Swift",
+  "AI",
+  "趣味"
+ ],
+ "links": [
+  {
+   "label": "nateparrott.com",
+   "url": "http://nateparrott.com"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/nate-parrott"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一个用代码做设计、用原型思考的设计师，作品总带着一点荒诞的幽默感。",
   "<strong>代表作：</strong>Flashlight（2014，「缺失的 Spotlight 插件系统」，★5.3k）、Arc 浏览器（Boosts 等功能）、ball（2024，★1.7k）、web98（幻想互联网模拟器）、feeeed / reeeed（阅读器）、NYC 地铁时间地图、lettercrap（动态 ASCII 艺术）、uhohlingo（「经常完全错误」的 AI 微课）。",
   "<strong>现在：</strong>X 简介写着「design @ Anthropic，previously @browsercompany」。"
  ],
- "lead": "Nate 的个人网站叫「Nate Parrott's Nice and Engaging Website」。每次点击得 1 分，攒够 5 枚金币可以下载简历，15 枚可以给他发邮件，24 枚解锁高级光标，200 枚能收到一张寄到家的贴纸。还有一台用他在 Blender 里做的图标组成的老虎机。这是对「指标驱动」互联网最精彩的戏仿。",
+ "lead": "Nate 的个人网站叫「Nate Parrott's Nice and Engaging Website」。每次点击得 1 分，攒够 5 枚金币可以下载简历，15 枚可以给 TA 发邮件，24 枚解锁高级光标，200 枚能收到一张寄到家的贴纸。还有一台用 TA 在 Blender 里做的图标组成的老虎机。这是对「指标驱动」互联网最精彩的戏仿。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2014", "title": "Flashlight", "text": "还在读书时，他做了 Flashlight：一个开放的 Spotlight 插件系统，让 Mac 的搜索框可以查天气、算汇率、搜维基，成为当年 Mac 社区的热门项目。"},
-    {"when": "2016–2017", "title": "Web 实验", "text": "lettercrap 在网页上生成动态 ASCII 艺术；NYC subway 是一张按「实际通行时间」调整距离的纽约地铁交互地图；同时用 Jupyter 探索神经网络。"},
-    {"when": "The Browser Company", "title": "Arc", "text": "作为设计师兼开发者参与 Arc 浏览器，在 ShopTalk Show 上讲过 Arc 的历史、Boosts 和商业计划。社区普遍认为他是 Arc「个性与设计」的主要塑造者之一，也是团队里最快速实验 AI 与 Agent 的人。"},
-    {"when": "2022–2023", "title": "AI 原型", "text": "feeeed 阅读器及其开源阅读模式 reeeed、web98「幻想互联网模拟器」（AI 现场生成你想访问的网页）、uhohlingo、OpenAI 流式补全的 Swift 封装。"},
-    {"when": "2024–2025", "title": "Anthropic", "text": "离开 The Browser Company，加入 Anthropic 做设计。同年开源 ball（★1.7k）与 nat 等项目。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Flashlight", "meta": "2014 · ★5.3k", "text": "The missing Spotlight plugin system：给 Spotlight 加上插件。", "url": "https://github.com/nate-parrott/Flashlight"},
-    {"name": "web98", "meta": "2023 · Swift", "text": "幻想互联网模拟器：输入一个网址，AI 为你生成那个「不存在的网站」。", "url": "https://github.com/nate-parrott/web98"},
-    {"name": "subway", "meta": "2017", "text": "按通行时间缩放距离的纽约地铁交互地图。", "url": "https://github.com/nate-parrott/subway"},
-    {"name": "ball", "meta": "2024 · Swift · ★1.7k", "text": "一个让人忍不住想玩的小项目。", "url": "https://github.com/nate-parrott/ball"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "http://nateparrott.com", "paras": ["「How this site works」：每次点击得分，金币可以解锁内容：简历、邮箱、高级光标、贵宾休息室、作品存档、黄金模式、实体贴纸。", "还有成就系统（「Big Click Energy：点击 100 次」）、一个永远「没有更多问题」的小测验，以及「讨厌这个网站？去另一个摧毁多巴胺的指标驱动网站关注我吧」的社交链接。"]}},
-   {"p": "这个网站把个人主页变成了一件关于注意力经济的讽刺作品，而它本身又真的很好玩。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Nate 的设计方法是<strong>「用可运行的原型思考」</strong>。他几乎所有想法都会被做成能点、能玩的东西，再决定值不值得继续。这也是 Arc 团队快速迭代文化的缩影。"},
-   {"p": "他的作品还有一个共同点：<strong>幽默</strong>。uhohlingo 的描述是「用简短的数字课程教会自己任何东西，而这些课程经常完全是错的」。在一个人人都在严肃谈论 AI 的时代，他提醒我们软件也可以好笑。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>设计师也写代码：</strong>原型是最好的设计文档。",
-    "<strong>给产品一个性格：</strong>Arc 被记住，是因为它有态度。",
-    "<strong>用幽默批评：</strong>点击赚金币的网站，比一篇长文更能说明问题。",
-    "<strong>快速实验新技术：</strong>AI 出现时，他是最早用它做出有趣东西的人之一。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2014",
+       "title": "Flashlight",
+       "text": "还在读书时，TA 做了 Flashlight：一个开放的 Spotlight 插件系统，让 Mac 的搜索框可以查天气、算汇率、搜维基，成为当年 Mac 社区的热门项目。"
+      },
+      {
+       "when": "2016–2017",
+       "title": "Web 实验",
+       "text": "lettercrap 在网页上生成动态 ASCII 艺术；NYC subway 是一张按「实际通行时间」调整距离的纽约地铁交互地图；同时用 Jupyter 探索神经网络。"
+      },
+      {
+       "when": "The Browser Company",
+       "title": "Arc",
+       "text": "作为设计师兼开发者参与 Arc 浏览器，在 ShopTalk Show 上讲过 Arc 的历史、Boosts 和商业计划。社区普遍认为 TA 是 Arc「个性与设计」的主要塑造者之一，也是团队里最快速实验 AI 与 Agent 的人。"
+      },
+      {
+       "when": "2022–2023",
+       "title": "AI 原型",
+       "text": "feeeed 阅读器及其开源阅读模式 reeeed、web98「幻想互联网模拟器」（AI 现场生成你想访问的网页）、uhohlingo、OpenAI 流式补全的 Swift 封装。"
+      },
+      {
+       "when": "2024–2025",
+       "title": "Anthropic",
+       "text": "离开 The Browser Company，加入 Anthropic 做设计。同年开源 ball（★1.7k）与 nat 等项目。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Flashlight",
+       "meta": "2014 · ★5.3k",
+       "text": "The missing Spotlight plugin system：给 Spotlight 加上插件。",
+       "url": "https://github.com/nate-parrott/Flashlight"
+      },
+      {
+       "name": "web98",
+       "meta": "2023 · Swift",
+       "text": "幻想互联网模拟器：输入一个网址，AI 为你生成那个「不存在的网站」。",
+       "url": "https://github.com/nate-parrott/web98"
+      },
+      {
+       "name": "subway",
+       "meta": "2017",
+       "text": "按通行时间缩放距离的纽约地铁交互地图。",
+       "url": "https://github.com/nate-parrott/subway"
+      },
+      {
+       "name": "ball",
+       "meta": "2024 · Swift · ★1.7k",
+       "text": "一个让人忍不住想玩的小项目。",
+       "url": "https://github.com/nate-parrott/ball"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "http://nateparrott.com",
+      "paras": [
+       "「How this site works」：每次点击得分，金币可以解锁内容：简历、邮箱、高级光标、贵宾休息室、作品存档、黄金模式、实体贴纸。",
+       "还有成就系统（「Big Click Energy：点击 100 次」）、一个永远「没有更多问题」的小测验，以及「讨厌这个网站？去另一个摧毁多巴胺的指标驱动网站关注我吧」的社交链接。"
+      ]
+     }
+    },
+    {
+     "p": "这个网站把个人主页变成了一件关于注意力经济的讽刺作品，而它本身又真的很好玩。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "Nate 的设计方法是<strong>「用可运行的原型思考」</strong>。TA 几乎所有想法都会被做成能点、能玩的东西，再决定值不值得继续。这也是 Arc 团队快速迭代文化的缩影。"
+    },
+    {
+     "p": "TA 的作品还有一个共同点：<strong>幽默</strong>。uhohlingo 的描述是「用简短的数字课程教会自己任何东西，而这些课程经常完全是错的」。在一个人人都在严肃谈论 AI 的时代，TA 提醒我们软件也可以好笑。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>设计师也写代码：</strong>原型是最好的设计文档。",
+      "<strong>给产品一个性格：</strong>Arc 被记住，是因为它有态度。",
+      "<strong>用幽默批评：</strong>点击赚金币的网站，比一篇长文更能说明问题。",
+      "<strong>快速实验新技术：</strong>AI 出现时，TA 是最早用它做出有趣东西的人之一。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "打开 nateparrott.com，看看你能不能解锁黄金模式。",
  "sources": [
-  {"label": "Nate Parrott 的 X 个人资料", "url": "https://x.com/nateparrott"},
-  {"label": "nateparrott.com", "url": "http://nateparrott.com"},
-  {"label": "GitHub：nate-parrott", "url": "https://github.com/nate-parrott"},
-  {"label": "ShopTalk Show 545：Arc Browser with Nate Parrott", "url": "https://shoptalkshow.com/545/"},
-  {"label": "Product Hunt：Arc's designer has left for Anthropic", "url": "https://www.producthunt.com/p/arc-browser/nate-parrott-arc-s-designer-has-left-for-anthropic"}
+  {
+   "label": "Nate Parrott 的 X 个人资料",
+   "url": "https://x.com/nateparrott"
+  },
+  {
+   "label": "nateparrott.com",
+   "url": "http://nateparrott.com"
+  },
+  {
+   "label": "GitHub：nate-parrott",
+   "url": "https://github.com/nate-parrott"
+  },
+  {
+   "label": "ShopTalk Show 545：Arc Browser with Nate Parrott",
+   "url": "https://shoptalkshow.com/545/"
+  },
+  {
+   "label": "Product Hunt：Arc's designer has left for Anthropic",
+   "url": "https://www.producthunt.com/p/arc-browser/nate-parrott-arc-s-designer-has-left-for-anthropic"
+  }
  ]
 }

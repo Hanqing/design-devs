@@ -5,8 +5,27 @@
  "dek": "从 Ember 与 Elixir 社区，到 Netflix、Meta 的 React 团队，再到 Cursor 和 xAI。poteto 主导推动的 React Compiler，让无数 React 开发者终于不用再手写 useMemo。",
  "card": "React Compiler 核心成员，hiring-without-whiteboards 发起人，前 Netflix / Meta / Cursor。",
  "location": "美国加州橙县",
- "tags": ["React", "编译器", "Agent", "Ember", "招聘"],
- "links": [{"label": "GitHub", "url": "https://github.com/poteto"}, {"label": "React Compiler", "url": "https://react.dev/learn/react-compiler"}, {"label": "pstack", "url": "https://x.ai/bot/plugin/9717366?pstack"}],
+ "tags": [
+  "React",
+  "编译器",
+  "Agent",
+  "Ember",
+  "招聘"
+ ],
+ "links": [
+  {
+   "label": "GitHub",
+   "url": "https://github.com/poteto"
+  },
+  {
+   "label": "React Compiler",
+   "url": "https://react.dev/learn/react-compiler"
+  },
+  {
+   "label": "pstack",
+   "url": "https://x.ai/bot/plugin/9717366?pstack"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一位在 Ember、React 两大前端社区都留下重要足迹的工程师，React Compiler 核心团队成员，如今在 xAI 做 Grok 的编程 Agent。",
   "<strong>代表作：</strong>React Compiler（与 Joe Savona、Mofei Zhang 等人一起在 2025 年 10 月发布 1.0）、hiring-without-whiteboards（★5 万+，列出不用白板面试的公司）。",
@@ -14,49 +33,153 @@
  ],
  "lead": "poteto 的 GitHub 头像旁边写着一只小狗颜文字「▼・ᴥ・▼」。在这个可爱的签名背后，是一份横跨 Elixir、Ember、Relay、React Compiler 和 AI Agent 的硬核履历。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2015–2016", "title": "Ember 与 Elixir 社区", "text": "在 Ember 社区非常活跃：写了 ember-crumbly 等插件，并为 EmberConf 2015/2016、ElixirConf 2016 整理了被广泛引用的会议总结。Elixir 插件 terraform 演示了如何把旧 API 渐进式迁移到 Phoenix。"},
-    {"when": "2017 前后", "title": "Netflix", "text": "在 Netflix 做 Web 工程（她的 X 简介里写着 prev netflix）。同年发起 hiring-without-whiteboards：一份「不用白板算法题面试」的公司清单，后来成为 GitHub 上最知名的招聘类仓库之一。"},
-    {"when": "Meta 时期", "title": "Relay、Server Components 与工程管理", "text": "在 Meta 带头原型化 Server Components，并在 Relay 的编译器和运行时中加入支持，之后转向工程管理（据 React Conf 讲者介绍）。"},
-    {"when": "2024–2025", "title": "React Compiler", "text": "React Conf 2024 演讲《Forget About Memo》介绍了原名 React Forget 的编译器：自动做记忆化，开发者不用再手写 useMemo / useCallback。2024 年 10 月发布 Beta，2025 年 10 月发布 1.0。"},
-    {"when": "2025–2026", "title": "Cursor → xAI", "text": "短暂加入 Cursor 后，转到 xAI（GitHub 组织 @xai-org），参与 Grok 的编程 Agent，同时仍在 React Compiler 核心团队。2026 年开源了 noodle（用 Skill 编排 Agent）、how（解释架构的 Skill）、brainmaxxing（极简持久记忆）等 Agent 工具。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "React Compiler", "meta": "2024–2025 · 核心团队", "text": "在构建时自动为组件和 Hook 做记忆化，让「默认就快」成为 React 的新常态。", "url": "https://react.dev/learn/react-compiler"},
-    {"name": "hiring-without-whiteboards", "meta": "2017 · ★5.2 万", "text": "收录不做白板算法面试、而用真实工作相关考察的公司清单。", "url": "https://github.com/poteto/hiring-without-whiteboards"},
-    {"name": "pstack", "meta": "2026 · Grok Bot 插件", "text": "「想快，先深」。帮你写更少但更高质量代码的严谨 Agent 工作流，可放心并行。", "url": "https://x.ai/bot/plugin/9717366?pstack"},
-    {"name": "noodle / how / brainmaxxing", "meta": "2026 · Agent 工具", "text": "用 Skill 编排多个 Agent、解释代码架构、给 Agent 加持久记忆与技能改进的一组小工具。", "url": "https://github.com/poteto/noodle"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站与线上形象", "blocks": [
-   {"site": {"url": "https://github.com/poteto", "paras": ["她目前没有活跃的个人网站，GitHub 是最完整的作品档案：从 2015 年的 Ember 插件到 2026 年的 Agent Skill，十年的技术路线一目了然。", "X 简介写着：Grok @Bot，「React compiler core team, prev cursor, meta, netflix」。"]}},
-   {"p": "她早年的会议总结仓库（EmberConf、ElixirConf、RustConf 2020）也是一种独特的「个人网站」：把一场会议的所有演讲、幻灯片和讨论整理成链接合集，免费送给没能到场的人。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Lauren 的工作有一条清晰的主线：<strong>把专家才懂的优化，变成所有人的默认值</strong>。React 的记忆化以前需要开发者理解引用相等、依赖数组和闭包陷阱；编译器把这些知识放进了工具链。"},
-   {"quote": "if you want to go fast, go deep first.", "cite": "pstack 的介绍"},
-   {"p": "这种思路也延续到了 AI 时代：pstack 强调「写更少但更高质量的代码」，用严谨的工作流让 Agent 并行工作而不失控。她关心的从来不是写得多快，而是能不能放心地交给别人（或机器）去跑。"}
-  ]},
-  {"id": "learn", "title": "可以从她身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>把知识编进工具：</strong>与其写文档教大家用 useMemo，不如让编译器自动完成。",
-    "<strong>为社区做整理：</strong>会议总结、公司清单这类「整理型开源」同样能影响几万人。",
-    "<strong>跨社区学习：</strong>Ember、Elixir、Relay、React 的经验在她身上互相滋养。",
-    "<strong>先深后快：</strong>在 Agent 时代，深入理解问题依然是速度的前提。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2015–2016",
+       "title": "Ember 与 Elixir 社区",
+       "text": "在 Ember 社区非常活跃：写了 ember-crumbly 等插件，并为 EmberConf 2015/2016、ElixirConf 2016 整理了被广泛引用的会议总结。Elixir 插件 terraform 演示了如何把旧 API 渐进式迁移到 Phoenix。"
+      },
+      {
+       "when": "2017 前后",
+       "title": "Netflix",
+       "text": "在 Netflix 做 Web 工程（她的 X 简介里写着 prev netflix）。同年发起 hiring-without-whiteboards：一份「不用白板算法题面试」的公司清单，后来成为 GitHub 上最知名的招聘类仓库之一。"
+      },
+      {
+       "when": "Meta 时期",
+       "title": "Relay、Server Components 与工程管理",
+       "text": "在 Meta 带头原型化 Server Components，并在 Relay 的编译器和运行时中加入支持，之后转向工程管理（据 React Conf 讲者介绍）。"
+      },
+      {
+       "when": "2024–2025",
+       "title": "React Compiler",
+       "text": "React Conf 2024 演讲《Forget About Memo》介绍了原名 React Forget 的编译器：自动做记忆化，开发者不用再手写 useMemo / useCallback。2024 年 10 月发布 Beta，2025 年 10 月发布 1.0。"
+      },
+      {
+       "when": "2025–2026",
+       "title": "Cursor → xAI",
+       "text": "短暂加入 Cursor 后，转到 xAI（GitHub 组织 @xai-org），参与 Grok 的编程 Agent，同时仍在 React Compiler 核心团队。2026 年开源了 noodle（用 Skill 编排 Agent）、how（解释架构的 Skill）、brainmaxxing（极简持久记忆）等 Agent 工具。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "React Compiler",
+       "meta": "2024–2025 · 核心团队",
+       "text": "在构建时自动为组件和 Hook 做记忆化，让「默认就快」成为 React 的新常态。",
+       "url": "https://react.dev/learn/react-compiler"
+      },
+      {
+       "name": "hiring-without-whiteboards",
+       "meta": "2017 · ★5.2 万",
+       "text": "收录不做白板算法面试、而用真实工作相关考察的公司清单。",
+       "url": "https://github.com/poteto/hiring-without-whiteboards"
+      },
+      {
+       "name": "pstack",
+       "meta": "2026 · Grok Bot 插件",
+       "text": "「想快，先深」。帮你写更少但更高质量代码的严谨 Agent 工作流，可放心并行。",
+       "url": "https://x.ai/bot/plugin/9717366?pstack"
+      },
+      {
+       "name": "noodle / how / brainmaxxing",
+       "meta": "2026 · Agent 工具",
+       "text": "用 Skill 编排多个 Agent、解释代码架构、给 Agent 加持久记忆与技能改进的一组小工具。",
+       "url": "https://github.com/poteto/noodle"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站与线上形象",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://github.com/poteto",
+      "paras": [
+       "她目前没有活跃的个人网站，GitHub 是最完整的作品档案：从 2015 年的 Ember 插件到 2026 年的 Agent Skill，十年的技术路线一目了然。",
+       "X 简介写着：Grok @Bot，「React compiler core team, prev cursor, meta, netflix」。"
+      ]
+     }
+    },
+    {
+     "p": "她早年的会议总结仓库（EmberConf、ElixirConf、RustConf 2020）也是一种独特的「个人网站」：把一场会议的所有演讲、幻灯片和讨论整理成链接合集，免费送给没能到场的人。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "Lauren 的工作有一条清晰的主线：<strong>把专家才懂的优化，变成所有人的默认值</strong>。React 的记忆化以前需要开发者理解引用相等、依赖数组和闭包陷阱；编译器把这些知识放进了工具链。"
+    },
+    {
+     "quote": "if you want to go fast, go deep first.",
+     "cite": "pstack 的介绍"
+    },
+    {
+     "p": "这种思路也延续到了 AI 时代：pstack 强调「写更少但更高质量的代码」，用严谨的工作流让 Agent 并行工作而不失控。她关心的从来不是写得多快，而是能不能放心地交给别人（或机器）去跑。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从她身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>把知识编进工具：</strong>与其写文档教大家用 useMemo，不如让编译器自动完成。",
+      "<strong>为社区做整理：</strong>会议总结、公司清单这类「整理型开源」同样能影响几万人。",
+      "<strong>跨社区学习：</strong>Ember、Elixir、Relay、React 的经验在她身上互相滋养。",
+      "<strong>先深后快：</strong>在 Agent 时代，深入理解问题依然是速度的前提。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "读一读 React Compiler 文档，或者给 hiring-without-whiteboards 补一家你知道的好公司。",
  "sources": [
-  {"label": "poteto 的 X 个人资料", "url": "https://x.com/poteto"},
-  {"label": "GitHub：poteto", "url": "https://github.com/poteto"},
-  {"label": "React Compiler Beta 发布（react.dev）", "url": "https://fr.react.dev/blog/2024/10/21/react-compiler-beta-release"},
-  {"label": "React Conf 2021 讲者介绍", "url": "https://conf.reactjs.org/speakers/lauren"},
-  {"label": "React 团队页面", "url": "https://18.react.dev/community/team"},
-  {"label": "Forget About Memo 演讲摘要", "url": "https://chaindesk.ai/vi/tools/youtube-summarizer/forget-about-memo-lauren-tan-lvhPq5chokM"},
-  {"label": "pstack for Grok Bot", "url": "https://x.ai/bot/plugin/9717366?pstack"}
+  {
+   "label": "poteto 的 X 个人资料",
+   "url": "https://x.com/poteto"
+  },
+  {
+   "label": "GitHub：poteto",
+   "url": "https://github.com/poteto"
+  },
+  {
+   "label": "React Compiler Beta 发布（react.dev）",
+   "url": "https://fr.react.dev/blog/2024/10/21/react-compiler-beta-release"
+  },
+  {
+   "label": "React Compiler 1.0 发布（react.dev）",
+   "url": "https://react.dev/blog/2025/10/07/react-compiler-1"
+  },
+  {
+   "label": "React Conf 2021 讲者介绍",
+   "url": "https://conf.reactjs.org/speakers/lauren"
+  },
+  {
+   "label": "React 团队页面",
+   "url": "https://18.react.dev/community/team"
+  },
+  {
+   "label": "pstack for Grok Bot",
+   "url": "https://x.ai/bot/plugin/9717366?pstack"
+  }
  ]
 }

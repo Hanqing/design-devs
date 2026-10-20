@@ -2,55 +2,155 @@
  "name": "Aries Zhou",
  "role": "软件工程师 · 业余独立开发者",
  "title": "Aries Zhou：做我需要的，<em>留住重要的</em>",
- "dek": "一位工作九年多的工程师，做过视频会议行业的数据安全，现在做开源私有云存储。业余时间，他用 AI 给自己的日常烦恼做小工具：给 X 长文加目录的 X-TOC、整理书签的 Bookmark Assistant、管理 Chrome 商店素材的 DashBye。",
+ "dek": "一位工作九年多的工程师，做过视频会议行业的数据安全，现在做开源私有云存储。业余时间，TA 用 AI 给自己的日常烦恼做小工具：给 X 长文加目录的 X-TOC、整理书签的 Bookmark Assistant、管理 Chrome 商店素材的 DashBye。",
  "card": "工程师 + 业余独立开发者，X-TOC、Bookmark Assistant、DashBye 作者，写作克制而真诚。",
  "location": "中国",
- "tags": ["浏览器扩展", "CLI", "本地优先", "写作", "AI 工具"],
- "links": [{"label": "arieszhou.com", "url": "http://arieszhou.com"}, {"label": "Building", "url": "http://arieszhou.com/building"}],
+ "tags": [
+  "浏览器扩展",
+  "CLI",
+  "本地优先",
+  "写作",
+  "AI 工具"
+ ],
+ "links": [
+  {
+   "label": "arieszhou.com",
+   "url": "http://arieszhou.com"
+  },
+  {
+   "label": "Building",
+   "url": "http://arieszhou.com/building"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>「Building what I need, keeping what matters.」一个从日常抱怨出发做工具的工程师。",
   "<strong>代表作：</strong>X-TOC（X 长文目录导航、剪藏、搜索与导出）、Bookmark Assistant（本地书签整理 + AI 摘要标签 + 同步 Notion）、DashBye（把 Chrome 商店的包、文案、图片和隐私声明跟代码一起版本化）、LiteContext（开发中）。",
   "<strong>个人标签：</strong>游戏玩家、一个孩子的父亲、两只猫的员工、羽毛球爱好者。"
  ],
- "lead": "Aries 在 About 页里写：「我的想法通常始于对日常烦恼的抱怨：X 长文没有目录、浏览器书签越攒越多却几乎不用、每次扩展更新都要在商店后台花半小时上传素材、检查隐私声明。」然后他补了一句：「在 AI 的帮助下，我不再被有限的精力、熟悉的技术栈或复杂的开发文档束缚。谢谢你，AI。」",
+ "lead": "Aries 在 About 页里写：「我的想法通常始于对日常烦恼的抱怨：X 长文没有目录、浏览器书签越攒越多却几乎不用、每次扩展更新都要在商店后台花半小时上传素材、检查隐私声明。」然后 TA 补了一句：「在 AI 的帮助下，我不再被有限的精力、熟悉的技术栈或复杂的开发文档束缚。谢谢你，AI。」",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "九年多", "title": "工程师", "text": "曾在视频会议行业做数据安全，现在主要做开源私有云存储。"},
-    {"when": "业余", "title": "为自己做工具", "text": "把日常的不便变成浏览器扩展和命令行工具，并公开发布、持续更新，「希望更多人觉得有用」。"},
-    {"when": "2026", "title": "写作", "text": "博客中英双语，话题从 AI 逆向工程（REA）、AI 为什么总是误解「刚才那个」、如何写好 README，到大理的一个屋顶、羽毛球单打、代理配置问题。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "X-TOC", "meta": "浏览器扩展", "text": "为 X 长文提供目录导航、本地剪藏、搜索、标签、笔记，以及 Markdown / JSON 导出。", "url": "http://arieszhou.com/building"},
-    {"name": "Bookmark Assistant", "meta": "Chrome 扩展", "text": "整理本地书签，可选 AI 摘要与标签，并同步到 Notion。", "url": "http://arieszhou.com/building"},
-    {"name": "DashBye", "meta": "开源 CLI", "text": "把 Chrome Web Store 的包、商店文案、图片与隐私声明和扩展代码一起做版本管理。", "url": "http://arieszhou.com/building"},
-    {"name": "LiteContext", "meta": "开发中", "text": "本地优先的上下文工具：让 Obsidian、Markdown 和本地文件成为 AI 可追溯来源的知识库。", "url": "http://arieszhou.com/building"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "http://arieszhou.com", "paras": ["标题「Building what I need, keeping what matters」，导航只有 Writing、Building、About 和中英切换。", "文章列表每篇一段摘要，比如《A rooftop in Dali》：「头像也许只是一张小图，但它背后是一段关系、一次旅行的记忆和我们都爱的一款游戏。」"]}},
-   {"p": "About 页最后写：如果你也喜欢游戏、动漫或羽毛球，讨厌 AI slop、标题党和喊口号，「也许我们可以成为朋友」。"}
-  ]},
-  {"id": "craft", "title": "设计与思考", "blocks": [
-   {"quote": "Language may work less like a container and more like an index into experience.", "cite": "Aries Zhou《When AI Misunderstands》"},
-   {"p": "他坦诚地说这些工具「主要解决我自己的问题、适合我自己的习惯，所以用户不多（至少我是这么安慰自己的）」。这种不夸大、不表演的态度，在一个充满营销的时代显得格外可贵。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>从抱怨开始：</strong>每个日常不便都是一个工具的起点。",
-    "<strong>AI 扩展了能力边界：</strong>不熟悉的技术栈也能动手做。",
-    "<strong>把发布流程也版本化：</strong>DashBye 解决的是开发者常忽略的「最后一公里」。",
-    "<strong>真诚地写作：</strong>不喊口号，写真实的困惑与思考。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "九年多",
+       "title": "工程师",
+       "text": "曾在视频会议行业做数据安全，现在主要做开源私有云存储。"
+      },
+      {
+       "when": "业余",
+       "title": "为自己做工具",
+       "text": "把日常的不便变成浏览器扩展和命令行工具，并公开发布、持续更新，「希望更多人觉得有用」。"
+      },
+      {
+       "when": "2026",
+       "title": "写作",
+       "text": "博客中英双语，话题从 AI 逆向工程（REA）、AI 为什么总是误解「刚才那个」、如何写好 README，到大理的一个屋顶、羽毛球单打、代理配置问题。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "X-TOC",
+       "meta": "浏览器扩展",
+       "text": "为 X 长文提供目录导航、本地剪藏、搜索、标签、笔记，以及 Markdown / JSON 导出。",
+       "url": "http://arieszhou.com/building"
+      },
+      {
+       "name": "Bookmark Assistant",
+       "meta": "Chrome 扩展",
+       "text": "整理本地书签，可选 AI 摘要与标签，并同步到 Notion。",
+       "url": "http://arieszhou.com/building"
+      },
+      {
+       "name": "DashBye",
+       "meta": "开源 CLI",
+       "text": "把 Chrome Web Store 的包、商店文案、图片与隐私声明和扩展代码一起做版本管理。",
+       "url": "http://arieszhou.com/building"
+      },
+      {
+       "name": "LiteContext",
+       "meta": "开发中",
+       "text": "本地优先的上下文工具：让 Obsidian、Markdown 和本地文件成为 AI 可追溯来源的知识库。",
+       "url": "http://arieszhou.com/building"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "http://arieszhou.com",
+      "paras": [
+       "标题「Building what I need, keeping what matters」，导航只有 Writing、Building、About 和中英切换。",
+       "文章列表每篇一段摘要，比如《A rooftop in Dali》：「头像也许只是一张小图，但它背后是一段关系、一次旅行的记忆和我们都爱的一款游戏。」"
+      ]
+     }
+    },
+    {
+     "p": "About 页最后写：如果你也喜欢游戏、动漫或羽毛球，讨厌 AI slop、标题党和喊口号，「也许我们可以成为朋友」。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与思考",
+   "blocks": [
+    {
+     "quote": "Language may work less like a container and more like an index into experience.",
+     "cite": "Aries Zhou《When AI Misunderstands》"
+    },
+    {
+     "p": "TA 坦诚地说这些工具「主要解决我自己的问题、适合我自己的习惯，所以用户不多（至少我是这么安慰自己的）」。这种不夸大、不表演的态度，在一个充满营销的时代显得格外可贵。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>从抱怨开始：</strong>每个日常不便都是一个工具的起点。",
+      "<strong>AI 扩展了能力边界：</strong>不熟悉的技术栈也能动手做。",
+      "<strong>把发布流程也版本化：</strong>DashBye 解决的是开发者常忽略的「最后一公里」。",
+      "<strong>真诚地写作：</strong>不喊口号，写真实的困惑与思考。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "如果你经常读 X 长文，试试 X-TOC。",
  "sources": [
-  {"label": "AriesZhou 的 X 个人资料", "url": "https://x.com/AriesZhou"},
-  {"label": "arieszhou.com", "url": "http://arieszhou.com"},
-  {"label": "arieszhou.com：About", "url": "http://arieszhou.com/about"},
-  {"label": "arieszhou.com：Building", "url": "http://arieszhou.com/building"}
+  {
+   "label": "AriesZhou 的 X 个人资料",
+   "url": "https://x.com/AriesZhou"
+  },
+  {
+   "label": "arieszhou.com",
+   "url": "http://arieszhou.com"
+  },
+  {
+   "label": "arieszhou.com：About",
+   "url": "http://arieszhou.com/about"
+  },
+  {
+   "label": "arieszhou.com：Building",
+   "url": "http://arieszhou.com/building"
+  }
  ]
 }

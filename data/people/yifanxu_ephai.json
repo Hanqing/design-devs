@@ -1,0 +1,142 @@
+{
+ "name": "Yifan Xu",
+ "role": "Ephemeral AI Lab · LayerFS 作者",
+ "title": "Yifan Xu：给每个 Agent 一个<em>用完即弃的文件系统</em>",
+ "dek": "多伦多大学计算机系出身，在新加坡南洋理工读 AI 硕士时退学，现居中国。TA 创办 Ephemeral AI Lab，用 Rust 写了 LayerFS：每个 Agent 都能挂载一个完整、可写、却不需要复制底层数据的工作区，做完工作、提交改动，然后消失。",
+ "card": "Ephemeral AI Lab 创始人，LayerFS（★960+）与 Ephemeral Sandbox 作者，多伦多大学 CS。",
+ "location": "中国",
+ "tags": [
+  "Rust",
+  "文件系统",
+  "Agent 基础设施",
+  "沙箱",
+  "DeepSeek Harness"
+ ],
+ "links": [
+  {
+   "label": "LayerFS",
+   "url": "https://github.com/Ephemeral-AI-Lab/layerfs"
+  },
+  {
+   "label": "Ephemeral AI Lab",
+   "url": "https://github.com/Ephemeral-AI-Lab"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>一个从学术路径中途离开、专注 Agent 基础设施的年轻系统工程师。",
+  "<strong>代表作：</strong>LayerFS（「Ephemeral Workspaces. Durable Shared History.」）、Ephemeral Sandbox（并行编程 Agent 的开源沙箱：隔离工作区、MCP/CLI 控制、可观测性）、dsh-plugins 与 Mayfly（DeepSeek Harness 插件与终端 UI）、开放研究论文与复现材料。",
+  "<strong>为什么值得关注：</strong>多 Agent 并行工作时「谁改了什么、怎么合并、怎么回滚」是真实的难题，TA 从文件系统层面给出了答案。"
+ ],
+ "lead": "LayerFS 的 README 用五条核心理念介绍自己：短暂计算（计算只在命令运行时存在）、去中心化 Agent（不同电脑上的 Agent 共享一个无服务器存储）、多 Agent 协调（一个项目多个分支，一个分支多个 Agent）、递归文件系统（任意深度 fork 任意提交）、极致的存储优化。",
+ "sections": [
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "本科",
+       "title": "多伦多大学计算机科学",
+       "text": "在加拿大多伦多大学学习计算机科学。"
+      },
+      {
+       "when": "硕士",
+       "title": "南洋理工 MSAI，退学",
+       "text": "在新加坡南洋理工大学攻读人工智能硕士，中途退学。"
+      },
+      {
+       "when": "2026",
+       "title": "Ephemeral AI Lab",
+       "text": "7 月在 X 与 GitHub 上建立 Ephemeral AI Lab，发布 LayerFS 0.1.7 开发者预览版（明确声明尚未提供崩溃与断电持久性，不建议用于生产存储）和 Ephemeral Sandbox；同时为 DeepSeek Harness 做插件与终端 UI，并公开研究论文与复现材料。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "LayerFS",
+       "meta": "2026 · Rust · ★960+",
+       "text": "给每个 Agent 一个隔离、可丢弃的文件系统分叉，不复制共享底层；有用的状态成为可共享的提交。",
+       "url": "https://github.com/Ephemeral-AI-Lab/layerfs"
+      },
+      {
+       "name": "Ephemeral Sandbox",
+       "meta": "2026 · Rust",
+       "text": "并行编程 Agent 的开源沙箱基础设施：隔离工作区、MCP/CLI 控制、可观测性。",
+       "url": "https://github.com/Ephemeral-AI-Lab/ephemeral-sandbox"
+      },
+      {
+       "name": "dsh-plugins / Mayfly",
+       "meta": "2026 · TypeScript",
+       "text": "「Make Deepseek Harness Great」：插件合集与终端 UI。",
+       "url": "https://github.com/Ephemeral-AI-Lab/dsh-plugins"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://github.com/Ephemeral-AI-Lab",
+      "paras": [
+       "TA 没有独立的个人网站，GitHub 组织 Ephemeral AI Lab 就是作品主页，另有一个 Telegram 群组用于交流。",
+       "X 简介用国旗标出了自己的轨迹：🇨🇦 多伦多大学 CS · 🇸🇬 南洋理工 MSAI 退学 · 现居 🇨🇳。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与思考",
+   "blocks": [
+    {
+     "p": "LayerFS 的核心设计是<strong>「工作区是短暂的，历史是持久的」</strong>。这和 Git 的思想一脉相承，但被下沉到了文件系统层，让 Agent 不需要理解 Git 也能安全地并行工作。"
+    },
+    {
+     "note": "README 主动写明这是开发者预览、没有断电持久性保证，并附上发布记录与豁免说明。对基础设施项目来说，这种坦诚非常重要。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>在底层解决 Agent 的问题：</strong>文件系统级的隔离比约定更可靠。",
+      "<strong>勇于离开既定路径：</strong>退学去做自己相信的东西。",
+      "<strong>诚实标注成熟度：</strong>预览版就写清楚限制。",
+      "<strong>研究与工程并行：</strong>开放论文和可复现材料。"
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "读读 LayerFS 的 README，理解多 Agent 并行的文件系统设计。",
+ "sources": [
+  {
+   "label": "Yifan Xu 的 X 个人资料",
+   "url": "https://x.com/yifanxu_ephai"
+  },
+  {
+   "label": "GitHub：Ephemeral-AI-Lab",
+   "url": "https://github.com/Ephemeral-AI-Lab"
+  },
+  {
+   "label": "LayerFS",
+   "url": "https://github.com/Ephemeral-AI-Lab/layerfs"
+  }
+ ]
+}

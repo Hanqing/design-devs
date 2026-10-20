@@ -2,58 +2,170 @@
  "name": "Majid Jabrayilov",
  "role": "Swift 开发者 · Swift with Majid 博主",
  "title": "Majid Jabrayilov：每周一篇，<em>写了七年 SwiftUI</em>",
- "dek": "来自阿塞拜疆巴库的 Swift 开发者。2019 年 SwiftUI 发布以来，他几乎每周都在博客上写一篇 SwiftUI / Swift 实践文章，同时编辑《SwiftUI Weekly》，并独立开发健康类 App CardioBot、NapBot 和 PlatePal。",
+ "dek": "来自阿塞拜疆巴库的 Swift 开发者。2019 年 SwiftUI 发布以来，TA 几乎每周都在博客上写一篇 SwiftUI / Swift 实践文章，同时编辑《SwiftUI Weekly》，并独立开发健康类 App CardioBot、NapBot 和 PlatePal。",
  "card": "Swift with Majid 博主、SwiftUI Weekly 编辑，CardioBot、NapBot 作者，现居阿塞拜疆巴库。",
  "location": "阿塞拜疆巴库",
- "tags": ["SwiftUI", "Swift", "健康 App", "写作", "Newsletter"],
- "links": [{"label": "Swift with Majid", "url": "https://swiftwithmajid.com"}, {"label": "GitHub", "url": "https://github.com/mecid"}],
+ "tags": [
+  "SwiftUI",
+  "Swift",
+  "健康 App",
+  "写作",
+  "Newsletter"
+ ],
+ "links": [
+  {
+   "label": "Swift with Majid",
+   "url": "https://swiftwithmajid.com"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/mecid"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>「Swift developer, SwiftUI addicted.」全世界 SwiftUI 学习者最常读的博客之一的作者。",
   "<strong>代表作：</strong>博客 Swift with Majid、Newsletter《SwiftUI Weekly》、App CardioBot（心率与健康洞察）、NapBot（睡眠）、PlatePal；开源 SwiftUICharts（★1.6k，支持无障碍的图表库）、swift-unidirectional-flow。",
-  "<strong>为什么值得关注：</strong>他总是在苹果发布新 API 的第一时间写出清晰、可运行的示例，并且很多都直接来自自己 App 的真实需求。"
+  "<strong>为什么值得关注：</strong>TA 总是在苹果发布新 API 的第一时间写出清晰、可运行的示例，并且很多都直接来自自己 App 的真实需求。"
  ],
- "lead": "Majid 把 X 和 GitHub 的位置都写成了「Dynamic Island」（灵动岛）。这个玩笑很贴切：他的博客总是第一时间出现在苹果新功能的旁边。2026 年 10 月，他刚写完《为 iPhone Duo 适配你的 App》。",
+ "lead": "Majid 把 X 和 GitHub 的位置都写成了「Dynamic Island」（灵动岛）。这个玩笑很贴切：TA 的博客总是第一时间出现在苹果新功能的旁边。2026 年 10 月，TA 刚写完《为 iPhone Duo 适配你的 App》。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2017", "title": "Android 客户端 Robird", "text": "早年也写过 Android：一款外观精美的 Twitter 客户端 Robird。"},
-    {"when": "2019", "title": "SwiftUI 元年", "text": "SwiftUI 发布当年开始写博客（最初托管在 mecid.github.io），并发布 swiftui-recipes-app（单一状态容器架构）和 UIKitSwiftDSL。很快成为 SwiftUI 社区最重要的作者之一。"},
-    {"when": "2020", "title": "SwiftUICharts", "text": "一个支持无障碍的 SwiftUI 折线图与柱状图库，体现了他对 Accessibility 的重视。同年还写了 tvOS 示例 App。"},
-    {"when": "2022", "title": "单向数据流", "text": "开源 swift-unidirectional-flow：用最新的 Swift 泛型与并发特性实现单向数据流。"},
-    {"when": "独立开发", "title": "CardioBot、NapBot、PlatePal", "text": "成立以自己名字命名的公司，专注「注重细节、可靠、长期有价值的高质量移动 App」。CardioBot 是他最知名的作品，覆盖 iPhone 与 Apple Watch。"},
-    {"when": "2026", "title": "Foundation Models 与 iPhone Duo", "text": "持续跟进苹果的新技术：Foundation Models 多模态输入、迭代式数据加载、SwiftUI API 回移植，以及第一款折叠屏 iPhone Duo 的适配。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Swift with Majid", "meta": "2019 至今 · 每周一篇", "text": "关于 Swift 与 SwiftUI 开发的博客，覆盖几乎所有新 API。", "url": "https://swiftwithmajid.com"},
-    {"name": "CardioBot", "meta": "iOS · watchOS", "text": "从 Apple Watch 的心率数据里读出健康洞察。", "url": "https://swiftwithmajid.com/about/"},
-    {"name": "SwiftUICharts", "meta": "2020 · ★1.6k", "text": "简单、支持无障碍的 SwiftUI 图表库。", "url": "https://github.com/mecid/SwiftUICharts"},
-    {"name": "SwiftUI Weekly", "meta": "Newsletter", "text": "每周精选的 SwiftUI 文章与资源。", "url": "https://swiftwithmajid.com"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://swiftwithmajid.com", "paras": ["首页是最新文章列表，每篇一段两三句的引子：先抛出一个真实问题（「一个页面需要 40–50 个异步请求怎么办？」），再说「这周我们来聊聊……」。", "导航只有 Categories、Archive、Feed、SwiftUI Weekly、Sponsorship。"]}},
-   {"p": "这种固定的格式和节奏，让读者形成了「每周二读 Majid」的习惯。持续，是他最大的设计。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Majid 的文章几乎都来自<strong>他自己 App 的真实问题</strong>：CardioBot 需要几十个 HealthKit 查询，于是有了迭代式数据加载；需要图表，于是有了 SwiftUICharts。写作和产品互相喂养。"},
-   {"quote": "I focus on building high-quality mobile apps with attention to detail, reliability, and long-term value.", "cite": "Majid Jabrayilov，About 页"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>固定节奏：</strong>每周一篇，七年不断，就是一份事业。",
-    "<strong>从产品中提炼文章：</strong>真实问题写出来的内容最有用。",
-    "<strong>重视无障碍：</strong>图表库也要支持 VoiceOver。",
-    "<strong>第一时间跟进平台：</strong>新 API 出来，就是新文章和新功能的机会。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2017",
+       "title": "Android 客户端 Robird",
+       "text": "早年也写过 Android：一款外观精美的 Twitter 客户端 Robird。"
+      },
+      {
+       "when": "2019",
+       "title": "SwiftUI 元年",
+       "text": "SwiftUI 发布当年开始写博客（最初托管在 mecid.github.io），并发布 swiftui-recipes-app（单一状态容器架构）和 UIKitSwiftDSL。很快成为 SwiftUI 社区最重要的作者之一。"
+      },
+      {
+       "when": "2020",
+       "title": "SwiftUICharts",
+       "text": "一个支持无障碍的 SwiftUI 折线图与柱状图库，体现了 TA 对 Accessibility 的重视。同年还写了 tvOS 示例 App。"
+      },
+      {
+       "when": "2022",
+       "title": "单向数据流",
+       "text": "开源 swift-unidirectional-flow：用最新的 Swift 泛型与并发特性实现单向数据流。"
+      },
+      {
+       "when": "独立开发",
+       "title": "CardioBot、NapBot、PlatePal",
+       "text": "成立以自己名字命名的公司，专注「注重细节、可靠、长期有价值的高质量移动 App」。CardioBot 是 TA 最知名的作品，覆盖 iPhone 与 Apple Watch。"
+      },
+      {
+       "when": "2026",
+       "title": "Foundation Models 与 iPhone Duo",
+       "text": "持续跟进苹果的新技术：Foundation Models 多模态输入、迭代式数据加载、SwiftUI API 回移植，以及第一款折叠屏 iPhone Duo 的适配。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Swift with Majid",
+       "meta": "2019 至今 · 每周一篇",
+       "text": "关于 Swift 与 SwiftUI 开发的博客，覆盖几乎所有新 API。",
+       "url": "https://swiftwithmajid.com"
+      },
+      {
+       "name": "CardioBot",
+       "meta": "iOS · watchOS",
+       "text": "从 Apple Watch 的心率数据里读出健康洞察。",
+       "url": "https://swiftwithmajid.com/about/"
+      },
+      {
+       "name": "SwiftUICharts",
+       "meta": "2020 · ★1.6k",
+       "text": "简单、支持无障碍的 SwiftUI 图表库。",
+       "url": "https://github.com/mecid/SwiftUICharts"
+      },
+      {
+       "name": "SwiftUI Weekly",
+       "meta": "Newsletter",
+       "text": "每周精选的 SwiftUI 文章与资源。",
+       "url": "https://swiftwithmajid.com"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://swiftwithmajid.com",
+      "paras": [
+       "首页是最新文章列表，每篇一段两三句的引子：先抛出一个真实问题（「一个页面需要 40–50 个异步请求怎么办？」），再说「这周我们来聊聊……」。",
+       "导航只有 Categories、Archive、Feed、SwiftUI Weekly、Sponsorship。"
+      ]
+     }
+    },
+    {
+     "p": "这种固定的格式和节奏，让读者形成了「每周二读 Majid」的习惯。持续，是 TA 最大的设计。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "Majid 的文章几乎都来自<strong>TA 自己 App 的真实问题</strong>：CardioBot 需要几十个 HealthKit 查询，于是有了迭代式数据加载；需要图表，于是有了 SwiftUICharts。写作和产品互相喂养。"
+    },
+    {
+     "quote": "I focus on building high-quality mobile apps with attention to detail, reliability, and long-term value.",
+     "cite": "Majid Jabrayilov，About 页"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>固定节奏：</strong>每周一篇，七年不断，就是一份事业。",
+      "<strong>从产品中提炼文章：</strong>真实问题写出来的内容最有用。",
+      "<strong>重视无障碍：</strong>图表库也要支持 VoiceOver。",
+      "<strong>第一时间跟进平台：</strong>新 API 出来，就是新文章和新功能的机会。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "订阅 Swift with Majid，每周学一个 SwiftUI 技巧。",
  "sources": [
-  {"label": "Majid Jabrayilov 的 X 个人资料", "url": "https://x.com/mecid"},
-  {"label": "Swift with Majid", "url": "https://swiftwithmajid.com"},
-  {"label": "Swift with Majid：About", "url": "https://swiftwithmajid.com/about/"},
-  {"label": "GitHub：mecid", "url": "https://github.com/mecid"}
+  {
+   "label": "Majid Jabrayilov 的 X 个人资料",
+   "url": "https://x.com/mecid"
+  },
+  {
+   "label": "Swift with Majid",
+   "url": "https://swiftwithmajid.com"
+  },
+  {
+   "label": "Swift with Majid：About",
+   "url": "https://swiftwithmajid.com/about/"
+  },
+  {
+   "label": "GitHub：mecid",
+   "url": "https://github.com/mecid"
+  }
  ]
 }

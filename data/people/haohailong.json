@@ -1,0 +1,167 @@
+{
+ "name": "郝海龙 Hailong",
+ "role": "推理小说作家 · 澳洲持证私家侦探 · Antidote Studio 主理人",
+ "title": "郝海龙：写推理小说的<em>持证私家侦探</em>",
+ "dek": "这可能是名单里最特别的一位：推理小说作家、作词人、老师，澳大利亚维多利亚州持证私家侦探，也是一个会写代码的人。TA 在 2014 年汉化 WordPress 主题、写 Octopress 插件，2026 年又做了修复 EPUB 的离线 PWA、双页 PDF 切割工具和一键复制链接的浏览器扩展。",
+ "card": "推理小说作家、澳洲持证私家侦探，Antidote Studio 主理人，EPUB Tweaker 等工具作者。",
+ "location": "澳大利亚堪培拉",
+ "tags": [
+  "写作",
+  "推理",
+  "PWA",
+  "电子书",
+  "播客"
+ ],
+ "links": [
+  {
+   "label": "郝海龙的网志",
+   "url": "https://haohailong.com"
+  },
+  {
+   "label": "Mastodon",
+   "url": "https://mastodon.social/@haohailong"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/haohailong"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「在下行的电梯里做一个清醒的人。」一个用文字、侦探执照和代码同时理解世界的人。",
+  "<strong>代表作：</strong>写作：推理小说与评论、「推理之象」社群的推象谜题（如《望乡驿》）；工具：EPUB Tweaker（本地修复 EPUB，解决 Send to Kindle 失败与中文直排问题）、PDF Slicer（浏览器本地把双页扫描切成单页）、LinkTap（修饰键点击复制链接）、MarkEdit 扩展（发布到 Typlog、导出 Textpack）；早年的 Wilson WordPress 主题汉化和 banlan.show 播客网络主页。",
+  "<strong>为什么值得关注：</strong>TA 提醒我们，「有设计感的开发者」不一定以开发为主业，代码可以是写作者手里的一把好用的工具。"
+ ],
+ "lead": "郝海龙的 GitHub 简介写着：「Writer, Lyricist, Teacher & Learner.」X 简介则更有故事：「推理小说作家。澳洲持证私家侦探（VIC）。Antidote Studio 主理人。在下行的电梯里做一个清醒的人。」",
+ "sections": [
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2009–2014",
+       "title": "早期博客与主题",
+       "text": "2009 年注册 Twitter，2013 年注册 GitHub。2014 年汉化了瑞典设计师 Anders Norén 的 Wilson WordPress 主题，为 Octopress 写了 GitHub 风格的 CodeRay 代码块插件。"
+      },
+      {
+       "when": "2019",
+       "title": "班兰播客网络",
+       "text": "为 banlan.show 播客网络制作主页。"
+      },
+      {
+       "when": "澳洲",
+       "title": "私家侦探",
+       "text": "移居澳大利亚，取得维多利亚州私家侦探执照；在博客里写《奇遇东京谈话会：我有一个朋友是私家侦探！》。"
+      },
+      {
+       "when": "写作",
+       "title": "推理小说与谜题",
+       "text": "写推理小说和书评（如纸城境介《你的解谜由我证明》、雨穴《诡地图》），在「推理之象」社群不定期发布谜题，并整理《郝海龙读过的东野圭吾作品列表》。"
+      },
+      {
+       "when": "2026",
+       "title": "为读者和写作者造工具",
+       "text": "EPUB Tweaker、PDF Slicer、LinkTap 和两个 MarkEdit 扩展：全部本地运行、注重隐私，解决 TA 自己读书和写作时遇到的麻烦。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "EPUB Tweaker",
+       "meta": "2026 · PWA",
+       "text": "隐私优先、本地运行的 EPUB 修复与微调工具，解决 Send to Kindle 失败和 Kindle 中文直排问题。",
+       "url": "https://github.com/haohailong/EPUB-Tweaker"
+      },
+      {
+       "name": "PDF Slicer",
+       "meta": "2026 · Web",
+       "text": "把双页扫描的 PDF 切成单页，100% 在浏览器本地完成。",
+       "url": "https://github.com/haohailong/pdf-slicer-web"
+      },
+      {
+       "name": "推象谜题《望乡驿》",
+       "meta": "2026 · 推理",
+       "text": "推理之象社群的谜题，含谜题篇与解答篇。",
+       "url": "https://haohailong.com"
+      },
+      {
+       "name": "LinkTap",
+       "meta": "2026 · Chrome 扩展",
+       "text": "按住修饰键点击即可复制任意链接地址，快速、私密、多语言。",
+       "url": "https://github.com/haohailong/LinkTap"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://haohailong.com",
+      "paras": [
+       "「郝海龙的网志」由 Typlog 驱动，栏目有关于、作品、闪念、媒体、索引和一个叫「环尾堂」的入口。",
+       "文章流里，App 发布、推理谜题、书评、东京谈话会和小说片段交错出现。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与思考",
+   "blocks": [
+    {
+     "p": "郝海龙做工具的方式和写推理小说很像：<strong>先找到一个具体的「案件」</strong>（Kindle 发送失败、中文直排错乱、双页扫描），再一步步排查，直到找到真相并解决它。"
+    },
+    {
+     "quote": "在下行的电梯里做一个清醒的人。",
+     "cite": "郝海龙的 X 简介"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>代码可以服务写作：</strong>工具让读与写都更顺手。",
+      "<strong>隐私优先：</strong>文件处理全在本地，读者更安心。",
+      "<strong>多重身份互相滋养：</strong>侦探的观察力、作家的叙事力、开发者的动手能力。",
+      "<strong>为小社群做内容：</strong>推理谜题让读者变成参与者。"
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "如果你的 Kindle 总收不到中文 EPUB，试试 EPUB Tweaker。",
+ "sources": [
+  {
+   "label": "海龍的 X 个人资料",
+   "url": "https://x.com/haohailong"
+  },
+  {
+   "label": "郝海龙的网志",
+   "url": "https://haohailong.com"
+  },
+  {
+   "label": "GitHub：haohailong",
+   "url": "https://github.com/haohailong"
+  },
+  {
+   "label": "Mastodon：@haohailong",
+   "url": "https://mastodon.social/@haohailong"
+  }
+ ]
+}

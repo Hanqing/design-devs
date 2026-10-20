@@ -5,54 +5,163 @@
  "dek": "这位荷兰创业者从着陆页灵感库 Landingfolio 起步，做过 AI 文案工具 Headlime（后被 Jasper 收购），又在 AI 图像浪潮中推出 HeadshotPro：上传几张自拍，15 分钟拿到几十张影棚级职业照。如今它是一家总部在新加坡的 AI 摄影公司，服务了 25 万多名客户。",
  "card": "HeadshotPro 创始人，Headlime（被 Jasper 收购）与 Landingfolio 作者，AI 产品先行者。",
  "location": "新加坡",
- "tags": ["AI 图像", "SaaS", "落地页设计", "Indie Hacking", "Vue"],
- "links": [{"label": "HeadshotPro", "url": "https://www.headshotpro.com"}, {"label": "Landingfolio", "url": "https://www.landingfolio.com"}],
+ "tags": [
+  "AI 图像",
+  "SaaS",
+  "落地页设计",
+  "Indie Hacking",
+  "Vue"
+ ],
+ "links": [
+  {
+   "label": "HeadshotPro",
+   "url": "https://www.headshotpro.com"
+  },
+  {
+   "label": "Landingfolio",
+   "url": "https://www.landingfolio.com"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一个对「落地页」和「转化」有天然敏感度的创业者，每一次都比别人早一步把新的 AI 能力变成可以付费的产品。",
   "<strong>代表作：</strong>Landingfolio（2015，落地页灵感库）、Headlime（GPT-3 时代的 AI 文案工具，后被 Jasper 收购）、HeadshotPro（AI 职业照，25 万+ 客户、3500+ 条评价 4.7 分）。",
-  "<strong>为什么值得关注：</strong>HeadshotPro 是「AI 包装产品」最成功的案例之一：模型人人可用，但他做对了定位、交付和信任。"
+  "<strong>为什么值得关注：</strong>HeadshotPro 是「AI 包装产品」最成功的案例之一：模型人人可用，但 TA 做对了定位、交付和信任。"
  ],
  "lead": "Danny 的 X 简介在 2026 年变得非常「正式」：「Founder of HeadshotPro, a Singapore-based AI photography company.」这是一个从独立开发者成长为公司创始人的标志。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2015", "title": "Landingfolio", "text": "作为副业开始收集优秀落地页的设计灵感库。他后来在采访里说，这个网站一直有数千访客，但很难变现，于是转向其他项目。"},
-    {"when": "2020–2021", "title": "Headlime", "text": "GPT-3 刚出现时，他推出 AI 文案工具 Headlime，用来生成落地页标题与营销文案，增长迅速，最终被后来更名为 Jasper 的 AI 文案公司收购。"},
-    {"when": "2021–2022", "title": "RareBlocks 与实验", "text": "尝试了 NFT 租赁与质押（RareBlocks），以及多种小工具。"},
-    {"when": "2023", "title": "HeadshotPro", "text": "Stable Diffusion 微调技术成熟后，推出 AI 职业照服务：几张自拍，生成 30–70 张影棚质量的头像，个人和团队都能用，一次付费、不订阅、100% 退款保证。"},
-    {"when": "2024–2026", "title": "成为一家公司", "text": "HeadshotPro 发展为总部在新加坡的 AI 摄影公司，服务从个人专业人士到财富 500 强企业的 25 万多名客户。他还开源了 Vue 项目模板，并在 2026 年做了 macOS 菜单栏工具 agentbar。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "HeadshotPro", "meta": "2023 · 25 万+ 客户", "text": "Professional headshots without a studio：上传自拍，15 分钟拿到职业照。", "url": "https://www.headshotpro.com"},
-    {"name": "Landingfolio", "meta": "2015", "text": "落地页设计灵感与模板合集。", "url": "https://www.landingfolio.com"},
-    {"name": "Headlime", "meta": "2020 · 已被收购", "text": "最早一批基于 GPT-3 的营销文案工具。", "url": "https://startupik.com/danny-postma-the-indie-maker-building-profitable-internet-products/"},
-    {"name": "postmaio-boilerplate", "meta": "2024 · Vue", "text": "他自己做产品时使用的项目模板。", "url": "https://github.com/dannypostma/postmaio-boilerplate"}
-   ]}
-  ]},
-  {"id": "site", "title": "网站", "blocks": [
-   {"site": {"url": "https://www.headshotpro.com", "paras": ["HeadshotPro 的官网是一堂落地页课：首屏同时给出评分（4.7，3592 条评价）、时间（30 分钟内）、价格策略（无订阅、全额退款）和社会证明（25 万+ 客户）。", "最巧妙的是一段模拟的领英主页：同一张新头像出现在 LinkedIn、简历和公司官网上，「点击量提升 12 倍」。它不是在卖 AI，而是在卖「第一印象」。"]}}
-  ]},
-  {"id": "craft", "title": "设计与方法", "blocks": [
-   {"p": "Danny 的核心能力来自 Landingfolio 的那些年：<strong>他研究过成千上万个落地页</strong>。所以他的产品总能在第一屏回答用户最关心的问题：多久、多少钱、靠不靠谱、别人用了吗。"},
-   {"quote": "Every recruiter, client, and new hire forms their first impression from your photo. So give them a good one.", "cite": "HeadshotPro 官网"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>卖结果，不卖技术：</strong>用户买的是职业照，不是扩散模型。",
-    "<strong>研究落地页：</strong>转化率是独立产品的生命线。",
-    "<strong>每一波技术都下注：</strong>GPT-3 做文案，扩散模型做图像。",
-    "<strong>从独立开发者到公司：</strong>产品跑通后，敢于组建团队、服务企业客户。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2015",
+       "title": "Landingfolio",
+       "text": "作为副业开始收集优秀落地页的设计灵感库。TA 后来在采访里说，这个网站一直有数千访客，但很难变现，于是转向其他项目。"
+      },
+      {
+       "when": "2020–2021",
+       "title": "Headlime",
+       "text": "GPT-3 刚出现时，TA 推出 AI 文案工具 Headlime，用来生成落地页标题与营销文案，增长迅速，最终被后来更名为 Jasper 的 AI 文案公司收购。"
+      },
+      {
+       "when": "2021–2022",
+       "title": "RareBlocks 与实验",
+       "text": "尝试了 NFT 租赁与质押（RareBlocks），以及多种小工具。"
+      },
+      {
+       "when": "2023",
+       "title": "HeadshotPro",
+       "text": "Stable Diffusion 微调技术成熟后，推出 AI 职业照服务：几张自拍，生成 30–70 张影棚质量的头像，个人和团队都能用，一次付费、不订阅、100% 退款保证。"
+      },
+      {
+       "when": "2024–2026",
+       "title": "成为一家公司",
+       "text": "HeadshotPro 发展为总部在新加坡的 AI 摄影公司，服务从个人专业人士到财富 500 强企业的 25 万多名客户。TA 还开源了 Vue 项目模板，并在 2026 年做了 macOS 菜单栏工具 agentbar。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "HeadshotPro",
+       "meta": "2023 · 25 万+ 客户",
+       "text": "Professional headshots without a studio：上传自拍，15 分钟拿到职业照。",
+       "url": "https://www.headshotpro.com"
+      },
+      {
+       "name": "Landingfolio",
+       "meta": "2015",
+       "text": "落地页设计灵感与模板合集。",
+       "url": "https://www.landingfolio.com"
+      },
+      {
+       "name": "Headlime",
+       "meta": "2020 · 已被收购",
+       "text": "最早一批基于 GPT-3 的营销文案工具。",
+       "url": "https://startupik.com/danny-postma-the-indie-maker-building-profitable-internet-products/"
+      },
+      {
+       "name": "postmaio-boilerplate",
+       "meta": "2024 · Vue",
+       "text": "TA 自己做产品时使用的项目模板。",
+       "url": "https://github.com/dannypostma/postmaio-boilerplate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://www.headshotpro.com",
+      "paras": [
+       "HeadshotPro 的官网是一堂落地页课：首屏同时给出评分（4.7，3592 条评价）、时间（30 分钟内）、价格策略（无订阅、全额退款）和社会证明（25 万+ 客户）。",
+       "最巧妙的是一段模拟的领英主页：同一张新头像出现在 LinkedIn、简历和公司官网上，「点击量提升 12 倍」。它不是在卖 AI，而是在卖「第一印象」。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与方法",
+   "blocks": [
+    {
+     "p": "Danny 的核心能力来自 Landingfolio 的那些年：<strong>TA 研究过成千上万个落地页</strong>。所以 TA 的产品总能在第一屏回答用户最关心的问题：多久、多少钱、靠不靠谱、别人用了吗。"
+    },
+    {
+     "quote": "Every recruiter, client, and new hire forms their first impression from your photo. So give them a good one.",
+     "cite": "HeadshotPro 官网"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>卖结果，不卖技术：</strong>用户买的是职业照，不是扩散模型。",
+      "<strong>研究落地页：</strong>转化率是独立产品的生命线。",
+      "<strong>每一波技术都下注：</strong>GPT-3 做文案，扩散模型做图像。",
+      "<strong>从独立开发者到公司：</strong>产品跑通后，敢于组建团队、服务企业客户。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "去 HeadshotPro 的首页，看一个高转化落地页是怎么组织的。",
  "sources": [
-  {"label": "Danny Postma 的 X 个人资料", "url": "https://x.com/dannypostma"},
-  {"label": "HeadshotPro 官网", "url": "https://www.headshotpro.com"},
-  {"label": "Unite.ai：Danny Postma 访谈", "url": "https://www.unite.ai/id/danny-postma-founder-of-headshotpro-interview-series/"},
-  {"label": "Startupik：Danny Postma, the indie maker", "url": "https://startupik.com/danny-postma-the-indie-maker-building-profitable-internet-products/"},
-  {"label": "GitHub：dannypostma", "url": "https://github.com/dannypostma"}
+  {
+   "label": "Danny Postma 的 X 个人资料",
+   "url": "https://x.com/dannypostma"
+  },
+  {
+   "label": "HeadshotPro 官网",
+   "url": "https://www.headshotpro.com"
+  },
+  {
+   "label": "Unite.ai：Danny Postma 访谈",
+   "url": "https://www.unite.ai/id/danny-postma-founder-of-headshotpro-interview-series/"
+  },
+  {
+   "label": "Startupik：Danny Postma, the indie maker",
+   "url": "https://startupik.com/danny-postma-the-indie-maker-building-profitable-internet-products/"
+  },
+  {
+   "label": "GitHub：dannypostma",
+   "url": "https://github.com/dannypostma"
+  }
  ]
 }

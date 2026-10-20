@@ -2,11 +2,22 @@
  "name": "鸡蛋仔",
  "role": "iOS 独立开发者 · Gika 作者",
  "title": "鸡蛋仔：让时间<em>一目了然</em>",
- "dek": "一位住在杭州良渚旁边的 iOS 开发者。他的时间追踪 App Gika 不让你给每段时间打一堆标签，而是只问一个问题：这段时间是「向上」「平衡」还是「节制」？",
+ "dek": "一位住在杭州良渚旁边的 iOS 开发者。TA 的时间追踪 App Gika 不让你给每段时间打一堆标签，而是只问一个问题：这段时间是「向上」「平衡」还是「节制」？",
  "card": "杭州良渚的 iOS 开发者，时间追踪 App Gika 作者：只用「向上 / 平衡 / 节制」三种标记。",
  "location": "中国杭州良渚",
- "tags": ["iOS", "时间管理", "小组件", "实况活动", "独立开发"],
- "links": [{"label": "Gika（App Store）", "url": "https://apps.apple.com/cn/app/gika/id1628729687"}],
+ "tags": [
+  "iOS",
+  "时间管理",
+  "小组件",
+  "实况活动",
+  "独立开发"
+ ],
+ "links": [
+  {
+   "label": "Gika（App Store）",
+   "url": "https://apps.apple.com/cn/app/gika/id1628729687"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>「良渚边上的一个 iOS 开发」，用一款打磨多年的时间追踪 App 表达自己对时间的理解。",
   "<strong>代表作：</strong>Gika（2022 年上架）：正计时、倒计时、番茄钟，多任务同时运行；一键标记「向上 / 平衡 / 节制」；日程网格与月历概览；睡眠、锻炼、冥想与前三大项目的日 / 周 / 季 / 年汇总；小组件与实况活动；四款主题。",
@@ -14,37 +25,98 @@
  ],
  "lead": "Gika 在 App Store 上的第一句介绍是：「让时间一目了然。」第二条功能写着：「一键标记：每次记录只需选择『向上』『平衡』『节制』，再也不用繁琐标签。」这是一个把复杂问题简化成三个词的设计。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2021", "title": "加入 X", "text": "以「鸡蛋仔」的名字分享 iOS 开发与独立开发日常，常常和同样住在良渚的开发者（比如图拉鼎）出现在同一个圈子里。"},
-    {"when": "2022-10", "title": "Gika 上架", "text": "以 Hangzhou Hu Di Shen Shan Technology 的名义发布时间追踪 App Gika，并持续迭代，加入番茄钟、日程网格、小组件、实况活动和多套主题。"},
-    {"when": "现在", "title": "持续打磨", "text": "通过 Gika 高级版（月度或年度订阅）支持产品持续更新。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Gika", "meta": "iOS · 2022", "text": "让时间一目了然：计时、三态标记、日程网格、月历、深度汇总、小组件与实况活动。", "url": "https://apps.apple.com/cn/app/gika/id1628729687"}
-   ]}
-  ]},
-  {"id": "site", "title": "线上形象", "blocks": [
-   {"site": {"url": "https://x.com/JidanzaiDashan", "paras": ["他没有独立的个人网站，X 简介就是一句邀请：「欢迎下载我的时间追踪 app Gika」。", "Gika 的 App Store 页面是他最完整的作品说明。"]}}
-  ]},
-  {"id": "craft", "title": "设计与思考", "blocks": [
-   {"p": "大多数时间追踪工具问的是「你在做什么」，Gika 问的是<strong>「这段时间让你变得更好、保持平衡，还是需要节制」</strong>。这让记录本身成了一种反思，而不是负担。"},
-   {"p": "日程网格和月历概览则把一天、一个月的时间变成可以「一眼看出模式」的图形，这正是「一目了然」的意思。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>用更少的选项表达更多：</strong>三个词胜过一堆标签。",
-    "<strong>拥抱系统新能力：</strong>小组件和实况活动让 App 出现在锁屏上。",
-    "<strong>一个产品打磨很多年：</strong>持续迭代比不断换方向更难得。",
-    "<strong>可视化帮助发现模式：</strong>网格与月历让时间「看得见」。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2021",
+       "title": "加入 X",
+       "text": "以「鸡蛋仔」的名字分享 iOS 开发与独立开发日常，常常和同样住在良渚的开发者（比如图拉鼎）出现在同一个圈子里。"
+      },
+      {
+       "when": "2022-10",
+       "title": "Gika 上架",
+       "text": "以 Hangzhou Hu Di Shen Shan Technology 的名义发布时间追踪 App Gika，并持续迭代，加入番茄钟、日程网格、小组件、实况活动和多套主题。"
+      },
+      {
+       "when": "现在",
+       "title": "持续打磨",
+       "text": "通过 Gika 高级版（月度或年度订阅）支持产品持续更新。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Gika",
+       "meta": "iOS · 2022",
+       "text": "让时间一目了然：计时、三态标记、日程网格、月历、深度汇总、小组件与实况活动。",
+       "url": "https://apps.apple.com/cn/app/gika/id1628729687"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://x.com/JidanzaiDashan",
+      "paras": [
+       "TA 没有独立的个人网站，X 简介就是一句邀请：「欢迎下载我的时间追踪 app Gika」。",
+       "Gika 的 App Store 页面是 TA 最完整的作品说明。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与思考",
+   "blocks": [
+    {
+     "p": "大多数时间追踪工具问的是「你在做什么」，Gika 问的是<strong>「这段时间让你变得更好、保持平衡，还是需要节制」</strong>。这让记录本身成了一种反思，而不是负担。"
+    },
+    {
+     "p": "日程网格和月历概览则把一天、一个月的时间变成可以「一眼看出模式」的图形，这正是「一目了然」的意思。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>用更少的选项表达更多：</strong>三个词胜过一堆标签。",
+      "<strong>拥抱系统新能力：</strong>小组件和实况活动让 App 出现在锁屏上。",
+      "<strong>一个产品打磨很多年：</strong>持续迭代比不断换方向更难得。",
+      "<strong>可视化帮助发现模式：</strong>网格与月历让时间「看得见」。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "下载 Gika，给今天的时间打个「向上」。",
  "sources": [
-  {"label": "鸡蛋仔的 X 个人资料", "url": "https://x.com/JidanzaiDashan"},
-  {"label": "Gika App Store 页面", "url": "https://apps.apple.com/cn/app/gika/id1628729687"}
+  {
+   "label": "鸡蛋仔的 X 个人资料",
+   "url": "https://x.com/JidanzaiDashan"
+  },
+  {
+   "label": "Gika App Store 页面",
+   "url": "https://apps.apple.com/cn/app/gika/id1628729687"
+  }
  ]
 }

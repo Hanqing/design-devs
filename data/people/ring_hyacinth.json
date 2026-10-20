@@ -2,55 +2,151 @@
  "name": "海辛 Ring Hyacinth",
  "role": "AI 艺术家 · 实验电影导演 · 摇摆舞者",
  "title": "海辛：一只<em>油光水滑的猹</em>，和 AI 一起拍电影",
- "dek": "她是实验电影导演，也是中文世界最早一批把 AI 用进影像创作的人：AI 转绘、实验短片、LoRA 模型训练、ComfyUI 工作流、和 AI 一起写小说。她的个人网站本身就是一件作品。",
+ "dek": "TA 是实验电影导演，也是中文世界最早一批把 AI 用进影像创作的人：AI 转绘、实验短片、LoRA 模型训练、ComfyUI 工作流、和 AI 一起写小说。TA 的个人网站本身就是一件作品。",
  "card": "AI 艺术家与实验电影导演，擅长 AI 转绘、LoRA 训练与 ComfyUI 工作流。",
  "location": "中国",
- "tags": ["AI 艺术", "实验电影", "ComfyUI", "LoRA", "叙事"],
- "links": [{"label": "个人网站 hyacinth.im", "url": "http://hyacinth.im"}],
+ "tags": [
+  "AI 艺术",
+  "实验电影",
+  "ComfyUI",
+  "LoRA",
+  "叙事"
+ ],
+ "links": [
+  {
+   "label": "个人网站 hyacinth.im",
+   "url": "http://hyacinth.im"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一位实验电影导演和 AI 创作者，与搭档 Simon（@simonxxoo）合作，把 AI 变成讲故事的新工具。",
   "<strong>做什么：</strong>AI 风格转绘（把普通视频变成艺术动画）、实验短片、LoRA 模型训练、ComfyUI 工作流定制、与 AI 合写小说。",
-  "<strong>为什么值得关注：</strong>在「设计感开发者」名单里，她是那个从艺术一侧走向技术的人，证明了审美与工具可以从两个方向汇合。"
+  "<strong>为什么值得关注：</strong>在「设计感开发者」名单里，TA 是那个从艺术一侧走向技术的人，证明了审美与工具可以从两个方向汇合。"
  ],
  "lead": "海辛在个人网站上这样介绍自己：「Hi，我是海辛，一名实验电影导演，AI 创作者。我还是一只猹，我的皮毛像油光一样滑。」网站最后一屏写着一句来自《爱丽丝梦游仙境》的谜语：「乌鸦为什么像打字机？」",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"p": "海辛 2022 年注册 X，正赶上 Stable Diffusion 开源、AI 图像生成爆发的时间点。她从影像创作出发进入 AI，很快成为中文社区里少数既懂叙事、又能亲手训练模型和搭工作流的创作者。"},
-   {"steps": [
-    {"when": "影像背景", "title": "实验电影导演", "text": "以实验影像为创作方向，热衷于「编织能抓住想象力的叙事」。"},
-    {"when": "2022–2023", "title": "AI 转绘", "text": "用 AI 对视频进行风格迁移，把普通视频变成艺术动画或视觉独特的作品，应用于影视、广告等领域。"},
-    {"when": "2023–2024", "title": "LoRA 训练与 ComfyUI 工作流", "text": "专注 LoRA 模型训练服务，针对特定数据集深度优化；同时为客户设计 AI 创作与生产工作流，实现自动化的内容生成。"},
-    {"when": "持续", "title": "与 Simon 合作", "text": "X 简介写着「Artist working with @simonxxoo and #AI」，两人共同完成大量 AI 影像项目，也推出过实体玩具等周边。"}
-   ]}
-  ]},
-  {"id": "works", "title": "作品方向", "blocks": [
-   {"cards": [
-    {"name": "AI 转绘 Style Transfer", "meta": "01 · 影像", "text": "把实拍视频转换为艺术动画，用于影视与广告。", "url": "http://hyacinth.im"},
-    {"name": "实验短片 Short Film", "meta": "02 · 叙事", "text": "以 AI 为媒介的实验电影创作。", "url": "http://hyacinth.im"},
-    {"name": "模型训练 Model Training", "meta": "03 · LoRA", "text": "为特定风格和角色训练定制化模型。", "url": "http://hyacinth.im"},
-    {"name": "Comfy 工作流定制", "meta": "04 · 生产", "text": "设计并优化 AI 创作与生产的工作流，大幅提升效率。", "url": "http://hyacinth.im"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "http://hyacinth.im", "paras": ["标题「all about Hyacinth」，首屏是不断重复滚动的大字「RING RING RING / HYACINTH HYACINTH HYACINTH」，身份标签是「AI ARTIST, DIRECTOR, SWING DANCER」。", "导航只有 ABOUT、WORKS、TOYS、PRESS 四项；作品按 01–04 编号排列，每项都有中英双语说明和一个「Contact Me」按钮。"]}},
-   {"p": "这是名单里最「不像开发者」的个人网站：大字排版、重复与韵律、玩笑式的自我介绍，像一张实验电影的海报。它提醒我们：网站也可以是一种表演。"}
-  ]},
-  {"id": "craft", "title": "审美与方法", "blocks": [
-   {"quote": "乌鸦为什么像打字机？WHY IS A RAVEN LIKE A WRITING DESK?", "cite": "hyacinth.im 页脚"},
-   {"p": "这个没有标准答案的谜语，大概就是她对 AI 创作的态度：<strong>重要的不是答案，而是提问的方式</strong>。她把技术（LoRA、ComfyUI）当作画笔，把叙事和想象力放在第一位。"}
-  ]},
-  {"id": "learn", "title": "可以从她身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>审美先于工具：</strong>先知道想讲什么故事，再选择模型与工作流。",
-    "<strong>亲手掌握技术：</strong>艺术家自己训练模型、搭工作流，才能真正控制风格。",
-    "<strong>把服务产品化：</strong>转绘、训练、工作流，每项都是清晰可购买的服务。",
-    "<strong>让网站有性格：</strong>一个好玩的自我介绍胜过十行履历。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "p": "海辛 2022 年注册 X，正赶上 Stable Diffusion 开源、AI 图像生成爆发的时间点。TA 从影像创作出发进入 AI，很快成为中文社区里少数既懂叙事、又能亲手训练模型和搭工作流的创作者。"
+    },
+    {
+     "steps": [
+      {
+       "when": "影像背景",
+       "title": "实验电影导演",
+       "text": "以实验影像为创作方向，热衷于「编织能抓住想象力的叙事」。"
+      },
+      {
+       "when": "2022–2023",
+       "title": "AI 转绘",
+       "text": "用 AI 对视频进行风格迁移，把普通视频变成艺术动画或视觉独特的作品，应用于影视、广告等领域。"
+      },
+      {
+       "when": "2023–2024",
+       "title": "LoRA 训练与 ComfyUI 工作流",
+       "text": "专注 LoRA 模型训练服务，针对特定数据集深度优化；同时为客户设计 AI 创作与生产工作流，实现自动化的内容生成。"
+      },
+      {
+       "when": "持续",
+       "title": "与 Simon 合作",
+       "text": "X 简介写着「Artist working with @simonxxoo and #AI」，两人共同完成大量 AI 影像项目，也推出过实体玩具等周边。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "作品方向",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "AI 转绘 Style Transfer",
+       "meta": "01 · 影像",
+       "text": "把实拍视频转换为艺术动画，用于影视与广告。",
+       "url": "http://hyacinth.im"
+      },
+      {
+       "name": "实验短片 Short Film",
+       "meta": "02 · 叙事",
+       "text": "以 AI 为媒介的实验电影创作。",
+       "url": "http://hyacinth.im"
+      },
+      {
+       "name": "模型训练 Model Training",
+       "meta": "03 · LoRA",
+       "text": "为特定风格和角色训练定制化模型。",
+       "url": "http://hyacinth.im"
+      },
+      {
+       "name": "Comfy 工作流定制",
+       "meta": "04 · 生产",
+       "text": "设计并优化 AI 创作与生产的工作流，大幅提升效率。",
+       "url": "http://hyacinth.im"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "http://hyacinth.im",
+      "paras": [
+       "标题「all about Hyacinth」，首屏是不断重复滚动的大字「RING RING RING / HYACINTH HYACINTH HYACINTH」，身份标签是「AI ARTIST, DIRECTOR, SWING DANCER」。",
+       "导航只有 ABOUT、WORKS、TOYS、PRESS 四项；作品按 01–04 编号排列，每项都有中英双语说明和一个「Contact Me」按钮。"
+      ]
+     }
+    },
+    {
+     "p": "这是名单里最「不像开发者」的个人网站：大字排版、重复与韵律、玩笑式的自我介绍，像一张实验电影的海报。它提醒我们：网站也可以是一种表演。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "审美与方法",
+   "blocks": [
+    {
+     "quote": "乌鸦为什么像打字机？WHY IS A RAVEN LIKE A WRITING DESK?",
+     "cite": "hyacinth.im 页脚"
+    },
+    {
+     "p": "这个没有标准答案的谜语，大概就是 TA 对 AI 创作的态度：<strong>重要的不是答案，而是提问的方式</strong>。TA 把技术（LoRA、ComfyUI）当作画笔，把叙事和想象力放在第一位。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>审美先于工具：</strong>先知道想讲什么故事，再选择模型与工作流。",
+      "<strong>亲手掌握技术：</strong>艺术家自己训练模型、搭工作流，才能真正控制风格。",
+      "<strong>把服务产品化：</strong>转绘、训练、工作流，每项都是清晰可购买的服务。",
+      "<strong>让网站有性格：</strong>一个好玩的自我介绍胜过十行履历。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "打开 hyacinth.im，看看一只猹的作品集。",
  "sources": [
-  {"label": "海辛的 X 个人资料", "url": "https://x.com/ring_hyacinth"},
-  {"label": "个人网站 hyacinth.im", "url": "http://hyacinth.im"}
+  {
+   "label": "海辛的 X 个人资料",
+   "url": "https://x.com/ring_hyacinth"
+  },
+  {
+   "label": "个人网站 hyacinth.im",
+   "url": "http://hyacinth.im"
+  }
  ]
 }

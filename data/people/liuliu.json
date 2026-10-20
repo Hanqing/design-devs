@@ -2,58 +2,174 @@
  "name": "Liu Liu（刘刘）",
  "role": "Draw Things 作者 · libccv / libnnc 维护者",
  "title": "Liu Liu：在 iPhone 上<em>本地跑扩散模型</em>的人",
- "dek": "他从 2010 年起维护计算机视觉库 libccv，2013 年参与创立 Facebook Videos，2014–2020 年编写 Snapchat 的 iOS 应用。之后他把自己写的深度学习框架 libnnc 和 Swift 绑定，用来在 iPhone、iPad、Mac 上离线运行 Stable Diffusion，这就是 Draw Things。",
+ "dek": "TA 从 2010 年起维护计算机视觉库 libccv，2013 年参与创立 Facebook Videos，2014–2020 年编写 Snapchat 的 iOS 应用。之后 TA 把自己写的深度学习框架 libnnc 和 Swift 绑定，用来在 iPhone、iPad、Mac 上离线运行 Stable Diffusion，这就是 Draw Things。",
  "card": "libccv / libnnc 作者，前 Snapchat iOS、Facebook Videos 创始成员，Draw Things 开发者。",
  "location": "美国旧金山",
- "tags": ["计算机视觉", "深度学习框架", "Swift", "Metal", "iOS"],
- "links": [{"label": "liuliu.me", "url": "http://liuliu.me"}, {"label": "Draw Things", "url": "https://drawthings.ai"}, {"label": "libccv", "url": "http://libccv.org"}],
+ "tags": [
+  "计算机视觉",
+  "深度学习框架",
+  "Swift",
+  "Metal",
+  "iOS"
+ ],
+ "links": [
+  {
+   "label": "liuliu.me",
+   "url": "http://liuliu.me"
+  },
+  {
+   "label": "Draw Things",
+   "url": "https://drawthings.ai"
+  },
+  {
+   "label": "libccv",
+   "url": "http://libccv.org"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一个从底层写起的系统工程师：自己写视觉库、自己写神经网络框架、自己写移动端数据库，然后用它们做出了一款被苹果官方点名的 AI 应用。",
   "<strong>代表作：</strong>libccv（★7.2k，现代计算机视觉库）、libnnc（神经网络计算库）、s4nnc（Swift for NNC）、dflat（移动端结构化数据存储）、swift-diffusion、Draw Things；曾编写 Snapchat iOS 应用。",
-  "<strong>为什么值得关注：</strong>Draw Things 证明了「服务器级 AI 模型」可以完全离线地运行在个人设备上，而这建立在他十几年的底层积累之上。"
+  "<strong>为什么值得关注：</strong>Draw Things 证明了「服务器级 AI 模型」可以完全离线地运行在个人设备上，而这建立在 TA 十几年的底层积累之上。"
  ],
- "lead": "Liu Liu 的博客叫「静水铭室 Silent Water and Curved Mountain」，副题是「静水可铭，丰山须镂」。归档从 2008 年一直排到 2023 年。他的 X 简介则像一份极简履历：维护 libnnc / libccv / dflat；2014–2020 写 Snapchat iOS；2013 年与他人一起创立 Facebook Videos。",
+ "lead": "Liu Liu 的博客叫「静水铭室 Silent Water and Curved Mountain」，副题是「静水可铭，丰山须镂」。归档从 2008 年一直排到 2023 年。TA 的 X 简介则像一份极简履历：维护 libnnc / libccv / dflat；2014–2020 写 Snapchat iOS；2013 年与他人一起创立 Facebook Videos。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2008–2010", "title": "博客与 libccv", "text": "2008 年开始在「静水铭室」写作；2010 年开源 libccv：一个 C 语言写的、带缓存的现代计算机视觉库，涵盖检测、跟踪、特征提取等。"},
-    {"when": "2013", "title": "Facebook Videos", "text": "与他人一起创立 Facebook 的视频业务。"},
-    {"when": "2014", "title": "klaus 与图像分类", "text": "用 libccv 在 iOS 设备上展示了当时最先进的图像分类器；同年做了 docomputersdream.org。"},
-    {"when": "2014–2020", "title": "Snapchat iOS", "text": "编写和维护 Snapchat 的 iOS 应用长达六年。"},
-    {"when": "2019–2020", "title": "libnnc、dflat、s4nnc", "text": "开发神经网络计算库 libnnc，以及 Swift 绑定 s4nnc；同时开源移动端结构化数据存储 dflat，并写了 C 协程示例、Bazel 的 CUDA 规则。"},
-    {"when": "2022 至今", "title": "Draw Things", "text": "Stable Diffusion 开源后，他用 swift-diffusion 在 Apple 设备上本地运行扩散模型，推出 Draw Things：免费、离线、保护隐私，覆盖 iPhone、iPad、Mac。2025 年苹果新闻稿提到 Draw Things 能借助新硬件和内置框架获得显著性能提升。他还在研究 Metal 4 的张量运算和 MuJoCo 的 Swift 绑定。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Draw Things", "meta": "iOS / iPadOS / macOS", "text": "在本地离线运行服务器级 AI 图像模型，完全免费、保护隐私。", "url": "https://drawthings.ai"},
-    {"name": "libccv", "meta": "2010 · C · ★7.2k", "text": "C-based / Cached / Core Computer Vision Library。", "url": "https://github.com/liuliu/ccv"},
-    {"name": "dflat", "meta": "2020 · Swift", "text": "移动端的结构化数据存储。", "url": "https://github.com/liuliu/dflat"},
-    {"name": "swift-diffusion", "meta": "2022 · Swift", "text": "用 Swift 与 NNC 实现的扩散模型推理。", "url": "https://github.com/liuliu/swift-diffusion"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "http://liuliu.me", "paras": ["「静水铭室」是一个极其朴素的博客：标题、一句古文、一长列按月份排列的归档链接，从 2008 年到 2023 年。", "没有头像、没有作品展示，只有文字。这和他的 X 简介「Sometimes writes at liuliu.me」一样低调。"]}}
-  ]},
-  {"id": "craft", "title": "手艺与方法", "blocks": [
-   {"p": "Liu Liu 的路径极为少见：<strong>从底层框架一路做到消费级产品</strong>。大多数 AI 应用依赖现成的推理框架，而 Draw Things 跑在他自己写的 libnnc 上，因此能针对 Metal 和 Apple Silicon 做极致优化。"},
-   {"p": "这种「自己掌握整条技术栈」的方式需要十几年的耐心，但也带来了别人很难复制的性能和体验。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>长期投资底层：</strong>十年前写的框架，成了今天产品的护城河。",
-    "<strong>端侧 AI 是真实的方向：</strong>离线、隐私、免费，用户会买账。",
-    "<strong>大公司经验 + 独立产品：</strong>Snapchat 的工程能力用在了自己的 App 上。",
-    "<strong>低调做事：</strong>让作品说话。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2008–2010",
+       "title": "博客与 libccv",
+       "text": "2008 年开始在「静水铭室」写作；2010 年开源 libccv：一个 C 语言写的、带缓存的现代计算机视觉库，涵盖检测、跟踪、特征提取等。"
+      },
+      {
+       "when": "2013",
+       "title": "Facebook Videos",
+       "text": "与他人一起创立 Facebook 的视频业务。"
+      },
+      {
+       "when": "2014",
+       "title": "klaus 与图像分类",
+       "text": "用 libccv 在 iOS 设备上展示了当时最先进的图像分类器；同年做了 docomputersdream.org。"
+      },
+      {
+       "when": "2014–2020",
+       "title": "Snapchat iOS",
+       "text": "编写和维护 Snapchat 的 iOS 应用长达六年。"
+      },
+      {
+       "when": "2019–2020",
+       "title": "libnnc、dflat、s4nnc",
+       "text": "开发神经网络计算库 libnnc，以及 Swift 绑定 s4nnc；同时开源移动端结构化数据存储 dflat，并写了 C 协程示例、Bazel 的 CUDA 规则。"
+      },
+      {
+       "when": "2022 至今",
+       "title": "Draw Things",
+       "text": "Stable Diffusion 开源后，TA 用 swift-diffusion 在 Apple 设备上本地运行扩散模型，推出 Draw Things：免费、离线、保护隐私，覆盖 iPhone、iPad、Mac。2025 年苹果新闻稿提到 Draw Things 能借助新硬件和内置框架获得显著性能提升。TA 还在研究 Metal 4 的张量运算和 MuJoCo 的 Swift 绑定。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Draw Things",
+       "meta": "iOS / iPadOS / macOS",
+       "text": "在本地离线运行服务器级 AI 图像模型，完全免费、保护隐私。",
+       "url": "https://drawthings.ai"
+      },
+      {
+       "name": "libccv",
+       "meta": "2010 · C · ★7.2k",
+       "text": "C-based / Cached / Core Computer Vision Library。",
+       "url": "https://github.com/liuliu/ccv"
+      },
+      {
+       "name": "dflat",
+       "meta": "2020 · Swift",
+       "text": "移动端的结构化数据存储。",
+       "url": "https://github.com/liuliu/dflat"
+      },
+      {
+       "name": "swift-diffusion",
+       "meta": "2022 · Swift",
+       "text": "用 Swift 与 NNC 实现的扩散模型推理。",
+       "url": "https://github.com/liuliu/swift-diffusion"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "http://liuliu.me",
+      "paras": [
+       "「静水铭室」是一个极其朴素的博客：标题、一句古文、一长列按月份排列的归档链接，从 2008 年到 2023 年。",
+       "没有头像、没有作品展示，只有文字。这和 TA 的 X 简介「Sometimes writes at liuliu.me」一样低调。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "手艺与方法",
+   "blocks": [
+    {
+     "p": "Liu Liu 的路径极为少见：<strong>从底层框架一路做到消费级产品</strong>。大多数 AI 应用依赖现成的推理框架，而 Draw Things 跑在 TA 自己写的 libnnc 上，因此能针对 Metal 和 Apple Silicon 做极致优化。"
+    },
+    {
+     "p": "这种「自己掌握整条技术栈」的方式需要十几年的耐心，但也带来了别人很难复制的性能和体验。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>长期投资底层：</strong>十年前写的框架，成了今天产品的护城河。",
+      "<strong>端侧 AI 是真实的方向：</strong>离线、隐私、免费，用户会买账。",
+      "<strong>大公司经验 + 独立产品：</strong>Snapchat 的工程能力用在了自己的 App 上。",
+      "<strong>低调做事：</strong>让作品说话。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "下载 Draw Things，在你自己的设备上离线生成一张图。",
  "sources": [
-  {"label": "Liu Liu 的 X 个人资料", "url": "https://x.com/liuliu"},
-  {"label": "静水铭室 liuliu.me", "url": "http://liuliu.me"},
-  {"label": "Draw Things 官网", "url": "https://drawthings.ai"},
-  {"label": "GitHub：liuliu", "url": "https://github.com/liuliu"},
-  {"label": "libccv", "url": "http://libccv.org"}
+  {
+   "label": "Liu Liu 的 X 个人资料",
+   "url": "https://x.com/liuliu"
+  },
+  {
+   "label": "静水铭室 liuliu.me",
+   "url": "http://liuliu.me"
+  },
+  {
+   "label": "Draw Things 官网",
+   "url": "https://drawthings.ai"
+  },
+  {
+   "label": "GitHub：liuliu",
+   "url": "https://github.com/liuliu"
+  },
+  {
+   "label": "libccv",
+   "url": "http://libccv.org"
+  }
  ]
 }

@@ -2,57 +2,169 @@
  "name": "Paul Solt",
  "role": "iOS / macOS 开发者 · 教育者",
  "title": "Paul Solt：在 YouTube 上<em>直播用 Codex 做 App</em>",
- "dek": "曾在 GoPro、Apple、Microsoft 工作，十多年来通过课程和视频教了无数人写 iPhone App。如今他用 AI Agent（Codex）构建 iOS 和 macOS 应用，并把「什么有效、什么会坏、为什么」都公开记录下来。",
+ "dek": "曾在 GoPro、Apple、Microsoft 工作，十多年来通过课程和视频教了无数人写 iPhone App。如今 TA 用 AI Agent（Codex）构建 iOS 和 macOS 应用，并把「什么有效、什么会坏、为什么」都公开记录下来。",
  "card": "前 GoPro / Apple / Microsoft，iOS 教育者，Super Easy Timer 作者，公开分享 AI Agent 开发 App。",
  "location": "美国纽约州罗切斯特",
- "tags": ["iOS", "macOS", "教育", "Codex", "YouTube"],
- "links": [{"label": "YouTube", "url": "https://www.youtube.com/user/PaulSolt"}, {"label": "Super Easy Timer", "url": "https://SuperEasyTimer.com"}, {"label": "GitHub", "url": "https://github.com/PaulSolt"}],
+ "tags": [
+  "iOS",
+  "macOS",
+  "教育",
+  "Codex",
+  "YouTube"
+ ],
+ "links": [
+  {
+   "label": "YouTube",
+   "url": "https://www.youtube.com/user/PaulSolt"
+  },
+  {
+   "label": "Super Easy Timer",
+   "url": "https://SuperEasyTimer.com"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/PaulSolt"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一位资深的 Apple 平台开发者与教育者，经历过大公司，如今经营自己的 Super Easy Apps，并用 AI Agent 重塑开发流程。",
   "<strong>代表作：</strong>Super Easy Timer（输入「5 min」即开始倒计时的 Mac 置顶计时器，Mac App Store 4.7 分）、Brew 咖啡 App、早年大量 iPhone 开发教学示例，以及 2025 年的 DocSetQuery（让 Agent 从 DocSet 生成 Markdown 文档）。",
-  "<strong>为什么值得关注：</strong>他把 AI 编程的真实经验，包括失败，系统地公开，这比任何宣传都有价值。"
+  "<strong>为什么值得关注：</strong>TA 把 AI 编程的真实经验，包括失败，系统地公开，这比任何宣传都有价值。"
  ],
  "lead": "Paul 的 X 简介是一份工作说明：「Building iOS & macOS apps using AI agents (Codex). What works • what breaks • why.」后面跟着三个大公司的名字：ex GoPro, Apple, Microsoft。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2008–2010", "title": "开始 iPhone 开发", "text": "2008 年注册 X，2010 年注册 GitHub。早期开源的 UIImage-Conversion 把 UIImage 转为 RGBA 位图数组，是许多图像处理入门者的参考代码。"},
-    {"when": "大公司时期", "title": "Microsoft、Apple、GoPro", "text": "先后在三家公司工作（据其简介），积累了从系统到消费硬件配套 App 的经验。"},
-    {"when": "2013–2014", "title": "教学", "text": "开设 iPhone 开发课程，开源大量教学示例：Auto Layout 动态高度单元格、XIB 自定义视图、IBDesignable、屏幕边缘手势、第一个 WatchKit 计时器 App。"},
-    {"when": "Super Easy Apps", "title": "自己的 App 公司", "text": "成立 Super Easy Apps LLC。代表作 Super Easy Timer：不用拨轮，直接打字「5 min」「2h 30m」「5pm」「pomodoro」即可，始终置顶、可全屏、在房间另一头也能看清。另有咖啡冲煮 App Brew。"},
-    {"when": "2025–2026", "title": "AI Agent 开发者", "text": "全面转向用 Codex 等 AI Agent 构建 App，在 YouTube 上分享工作流；开源 DocSetQuery，让 Agent 能读取 Apple 的 DocSet 文档。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Super Easy Timer", "meta": "macOS 15+ · 4.7★", "text": "打字即计时：「5 min」回车开始，置顶、全屏、菜单栏随你放。", "url": "https://SuperEasyTimer.com"},
-    {"name": "DocSetQuery", "meta": "2025 · Python", "text": "让 Agent 从 DocSet 包生成 Markdown 文档的工具。", "url": "https://github.com/PaulSolt/DocSetQuery"},
-    {"name": "教学示例合集", "meta": "2013–2014", "text": "Auto Layout、XIB、手势、WatchKit 等一系列 iOS 入门示例。", "url": "https://github.com/PaulSolt"},
-    {"name": "YouTube 频道", "meta": "持续更新", "text": "用 AI Agent 构建 iOS 与 macOS App 的真实过程。", "url": "https://www.youtube.com/user/PaulSolt"}
-   ]}
-  ]},
-  {"id": "site", "title": "网站与线上形象", "blocks": [
-   {"site": {"url": "https://SuperEasyTimer.com", "paras": ["Super Easy Timer 的官网标题「A timer that stays on top of every window.」，第二屏只有一句：「No fiddling. Just type.」配合一个可以直接试用的网页版计时器。", "每个功能都用一句真实场景来解释：演讲时全屏、工作时缩到角落、在房间另一头看倒计时。"]}},
-   {"p": "他的 YouTube 和 X 是教学的延续：不只是展示成果，而是讲清楚每一步为什么这样做。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Super Easy Timer 是「输入即界面」的好例子：<strong>把设置项变成一句自然语言</strong>。用户不需要学习任何控件，只需要说出想要的时间。这种思路在 AI 时代越来越重要。"},
-   {"callout": "What works • what breaks • why. 公开记录 AI 开发的失败，是对社区最诚实的贡献。", "t": "公开失败"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>把一件小事做到极致：</strong>一个计时器也能做出口碑。",
-    "<strong>教学让自己更清楚：</strong>讲给别人听，是最好的复习。",
-    "<strong>拥抱新工具，但记录真相：</strong>AI 有用，也会坏，都要说出来。",
-    "<strong>自然语言就是最好的 UI：</strong>「5 min」胜过三个滚轮。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2008–2010",
+       "title": "开始 iPhone 开发",
+       "text": "2008 年注册 X，2010 年注册 GitHub。早期开源的 UIImage-Conversion 把 UIImage 转为 RGBA 位图数组，是许多图像处理入门者的参考代码。"
+      },
+      {
+       "when": "大公司时期",
+       "title": "Microsoft、Apple、GoPro",
+       "text": "先后在三家公司工作（据其简介），积累了从系统到消费硬件配套 App 的经验。"
+      },
+      {
+       "when": "2013–2014",
+       "title": "教学",
+       "text": "开设 iPhone 开发课程，开源大量教学示例：Auto Layout 动态高度单元格、XIB 自定义视图、IBDesignable、屏幕边缘手势、第一个 WatchKit 计时器 App。"
+      },
+      {
+       "when": "Super Easy Apps",
+       "title": "自己的 App 公司",
+       "text": "成立 Super Easy Apps LLC。代表作 Super Easy Timer：不用拨轮，直接打字「5 min」「2h 30m」「5pm」「pomodoro」即可，始终置顶、可全屏、在房间另一头也能看清。另有咖啡冲煮 App Brew。"
+      },
+      {
+       "when": "2025–2026",
+       "title": "AI Agent 开发者",
+       "text": "全面转向用 Codex 等 AI Agent 构建 App，在 YouTube 上分享工作流；开源 DocSetQuery，让 Agent 能读取 Apple 的 DocSet 文档。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Super Easy Timer",
+       "meta": "macOS 15+ · 4.7★",
+       "text": "打字即计时：「5 min」回车开始，置顶、全屏、菜单栏随你放。",
+       "url": "https://SuperEasyTimer.com"
+      },
+      {
+       "name": "DocSetQuery",
+       "meta": "2025 · Python",
+       "text": "让 Agent 从 DocSet 包生成 Markdown 文档的工具。",
+       "url": "https://github.com/PaulSolt/DocSetQuery"
+      },
+      {
+       "name": "教学示例合集",
+       "meta": "2013–2014",
+       "text": "Auto Layout、XIB、手势、WatchKit 等一系列 iOS 入门示例。",
+       "url": "https://github.com/PaulSolt"
+      },
+      {
+       "name": "YouTube 频道",
+       "meta": "持续更新",
+       "text": "用 AI Agent 构建 iOS 与 macOS App 的真实过程。",
+       "url": "https://www.youtube.com/user/PaulSolt"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站与线上形象",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://SuperEasyTimer.com",
+      "paras": [
+       "Super Easy Timer 的官网标题「A timer that stays on top of every window.」，第二屏只有一句：「No fiddling. Just type.」配合一个可以直接试用的网页版计时器。",
+       "每个功能都用一句真实场景来解释：演讲时全屏、工作时缩到角落、在房间另一头看倒计时。"
+      ]
+     }
+    },
+    {
+     "p": "TA 的 YouTube 和 X 是教学的延续：不只是展示成果，而是讲清楚每一步为什么这样做。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "Super Easy Timer 是「输入即界面」的好例子：<strong>把设置项变成一句自然语言</strong>。用户不需要学习任何控件，只需要说出想要的时间。这种思路在 AI 时代越来越重要。"
+    },
+    {
+     "callout": "What works • what breaks • why. 公开记录 AI 开发的失败，是对社区最诚实的贡献。",
+     "t": "公开失败"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>把一件小事做到极致：</strong>一个计时器也能做出口碑。",
+      "<strong>教学让自己更清楚：</strong>讲给别人听，是最好的复习。",
+      "<strong>拥抱新工具，但记录真相：</strong>AI 有用，也会坏，都要说出来。",
+      "<strong>自然语言就是最好的 UI：</strong>「5 min」胜过三个滚轮。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "下载 Super Easy Timer，打一个「25」试试。",
  "sources": [
-  {"label": "Paul Solt 的 X 个人资料", "url": "https://x.com/PaulSolt"},
-  {"label": "Super Easy Timer", "url": "https://SuperEasyTimer.com"},
-  {"label": "GitHub：PaulSolt", "url": "https://github.com/PaulSolt"},
-  {"label": "YouTube：Paul Solt", "url": "https://www.youtube.com/user/PaulSolt"}
+  {
+   "label": "Paul Solt 的 X 个人资料",
+   "url": "https://x.com/PaulSolt"
+  },
+  {
+   "label": "Super Easy Timer",
+   "url": "https://SuperEasyTimer.com"
+  },
+  {
+   "label": "GitHub：PaulSolt",
+   "url": "https://github.com/PaulSolt"
+  },
+  {
+   "label": "YouTube：Paul Solt",
+   "url": "https://www.youtube.com/user/PaulSolt"
+  }
  ]
 }

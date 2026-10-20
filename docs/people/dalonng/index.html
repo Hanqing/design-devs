@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>大桥 dalonng — 大桥：在涩谷写 Swift、读 Mach-O 的人 · 有设计感的开发者</title>
+<meta name="description" content="一位低调的 iOS 开发者，X 简介一片空白，只写着「涩谷」。TA 的 GitHub 从 2010 年延续到今天：维护了十二年的 Emacs 配置、学 Haskell 的 CIS 194 练习、Objective-C 运行时与 Mach-O 文件的研究，以及用 Swift 宏做的 JSON 库和一个带 Metal 着色器与端侧图像分类的新 App。">
+<meta property="og:title" content="大桥 dalonng — 大桥：在涩谷写 Swift、读 Mach-O 的人 · 有设计感的开发者"><meta property="og:description" content="一位低调的 iOS 开发者，X 简介一片空白，只写着「涩谷」。TA 的 GitHub 从 2010 年延续到今天：维护了十二年的 Emacs 配置、学 Haskell 的 CIS 194 练习、Objective-C 运行时与 Mach-O 文件的研究，以及用 Swift 宏做的 JSON 库和一个带 Metal 着色器与端侧图像分类的新 App。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2326251e'/%3E%3Ctext x='16' y='21' font-family='monospace' font-size='13' font-weight='700' fill='%23e6532f' text-anchor='middle'%3EDd%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="chrome"><div class="chrome-in">
+<a class="brand" href="../../index.html"><span class="brand-mark">Dd</span>有设计感的开发者</a>
+<nav><a href="../../index.html">全部人物</a><a class="hide-sm" href="../../index.html#about">关于</a><a href="https://github.com/Hanqing/design-devs" class="hide-sm">GitHub</a></nav>
+</div></header>
+<main class="layout">
+<article class="article">
+<nav class="crumb"><a href="../../index.html">全部人物</a><span>/</span><a href="../../index.html#g-第三批">第三批 · 3分</a><span>/</span><span>大桥 dalonng</span></nav>
+<header class="hero">
+<div class="hero-id"><img class="avatar" src="../../avatars/dalonng.jpg" alt="大桥 dalonng 的头像"><div class="who"><b>大桥 dalonng</b><span>iOS 开发者 · 东京涩谷</span></div></div>
+<h1 class="title">大桥：在涩谷写 Swift、<em>读 Mach-O</em> 的人</h1>
+<p class="dek">一位低调的 iOS 开发者，X 简介一片空白，只写着「涩谷」。TA 的 GitHub 从 2010 年延续到今天：维护了十二年的 Emacs 配置、学 Haskell 的 CIS 194 练习、Objective-C 运行时与 Mach-O 文件的研究，以及用 Swift 宏做的 JSON 库和一个带 Metal 着色器与端侧图像分类的新 App。</p>
+<div class="meta"><span><strong>@dalonng</strong></span><span>日本东京涩谷</span><span>第三批 · 3分</span><span>约 6 分钟读完</span><span>更新于 2026-10-20</span></div>
+<ul class="pills"><li>Swift</li><li>iOS</li><li>Mach-O</li><li>Emacs</li><li>Metal</li></ul>
+</header>
+<div class="body">
+<div class="summary"><p><strong>一句话：</strong>一个公开资料很少、但代码记录很长的 iOS 工程师，对底层（运行时、Mach-O）和工具（Emacs、Tuist、mise）都有持续的兴趣。</p><p><strong>代表作：</strong>Bourne（用 Swift 宏自动生成 Codable，缺字段用安全默认值，面向 struct + let 的不可变设计）、swift-macho（检查和修改 Mach-O 文件的 Swift 库）、HelloOCRuntime、Atelier（2026，Metal 着色器实验 + MobileNetV2 端侧图像分类）、AAONetworking、my-config（Emacs 配置，2014 年至今）。</p><p><strong>说明：</strong>大桥几乎不在公开场合介绍自己，本页主要依据其 GitHub 与早期博客整理。</p></div>
+<div class="stats"><div><b>425</b><span>X 关注者</span></div><div><b>2009</b><span>加入 X</span></div><div><b>29</b><span>GitHub 关注者</span></div></div>
+<p class="lead">大桥 2009 年就注册了 Twitter，2010 年注册 GitHub，个人简介始终是空的。但 TA 的提交记录很诚实：2026 年 10 月，TA 还在给 2014 年创建的 Emacs 配置推送新的提交。</p>
+<section id="story"><h2>成长与经历</h2><ol class="steps"><li><span class="when">2014</span><h3>博客与 Emacs</h3><p>开了博客「滋啦滋啦滋啦文」，写《Swift 中的类型和元类型》、防止推送到主线的 git hook、Fastlane；同年开始维护自己的 Emacs 配置 J-config。</p></li><li><span class="when">2015–2016</span><h3>Objective-C 与 Haskell</h3><p>写过 Objective-C 抽奖小程序 MLottery，并跟着宾大 CIS 194 课程学 Haskell。</p></li><li><span class="when">2023</span><h3>深入底层</h3><p>swift-macho（Swift 版 Mach-O 解析与修改）、MachOView fork、HelloOCRuntime（学习 OC 运行时）、从目录中查找 ObjC 类与枚举的脚本、FileHandle 扩展；记录 iOS 17 转屏后导航栏偏移的问题；用 Eien 学 SwiftUI。</p></li><li><span class="when">2024–2025</span><h3>Swift 宏与网络库</h3><p>Bourne：用 Swift 宏自动解析 JSON 到 struct 与 let；AAONetworking 网络库。</p></li><li><span class="when">2026</span><h3>Atelier</h3><p>用 Tuist 管理工程、mise 管理工具链的新 App：Metal 着色器的三角、方块、纹理实验，以及用 MobileNetV2 在本机给相册图片做分类，界面支持中英文。</p></li></ol></section><section id="works"><h2>代表作品</h2><div class="cards"><a href="https://github.com/dalonng/Bourne" target="_blank" rel="noopener"><span class="idx">Swift 宏</span><h3>Bourne</h3><p>自动生成 Codable 实现，缺失字段用默认值而不是抛错，鼓励不可变数据模型。</p><span class="arrow">github.com ↗</span></a><a href="https://github.com/dalonng/swift-macho" target="_blank" rel="noopener"><span class="idx">2023 · Swift</span><h3>swift-macho</h3><p>检查和修改 Mach-O 文件的 Swift 库。</p><span class="arrow">github.com ↗</span></a><a href="https://github.com/dalonng/Atelier" target="_blank" rel="noopener"><span class="idx">2026 · Swift · Metal</span><h3>Atelier</h3><p>Metal 着色器实验与端侧图像分类，工程由 Tuist 组织。</p><span class="arrow">github.com ↗</span></a><a href="https://github.com/dalonng/my-config" target="_blank" rel="noopener"><span class="idx">2014 至今 · Emacs Lisp</span><h3>my-config</h3><p>维护了十二年的 Emacs 配置。</p><span class="arrow">github.com ↗</span></a></div></section><section id="site"><h2>线上形象</h2><div class="sitebox"><div class="bar"><i></i><i></i><i></i><a href="https://dalonng.github.io" target="_blank" rel="noopener">dalonng.github.io ↗</a></div><div class="in"><p>早年的 Jekyll 博客「滋啦滋啦滋啦文」，最后一篇停在 2017 年的 Fastlane。2014 年的文章里还有一篇《假如生活欺骗了你！》。</p><p>如今 TA 的「作品集」就是 GitHub：仓库按更新时间排列，最新的总是 Atelier 和 Emacs 配置。</p></div></div></section><section id="craft"><h2>手艺与方法</h2><p>大桥的代码有一种<strong>「工匠的安静」</strong>：不追热点，不写长篇宣传，只是不停地研究自己好奇的东西：类型与元类型、Mach-O 结构、运行时、着色器。</p><p>Bourne 的设计选择也很有观点：用不可变的 struct + let 避免多线程数据竞争，用安全默认值代替解析失败。这是一个在真实项目里吃过 JSON 解析苦头的人才会做的取舍。</p></section><section id="learn"><h2>可以从 TA 身上学什么</h2><ul class="checklist"><li><strong>长期维护自己的工具：</strong>一份 Emacs 配置可以陪你十二年。</li><li><strong>向下多走一层：</strong>理解 Mach-O 和运行时，会让你更懂 iOS。</li><li><strong>用新语言特性解决老问题：</strong>Swift 宏让 JSON 解析更安全。</li><li><strong>不必张扬：</strong>代码本身就是最好的自我介绍。</li></ul></section>
+<section class="cta"><h2>去看看 大桥 dalonng 本人的作品</h2><p>看看 Bourne 的设计，想想你的 JSON 模型是否足够安全。</p><div class="acts"><a href="https://github.com/dalonng" target="_blank" rel="noopener">GitHub</a><a href="https://dalonng.github.io" target="_blank" rel="noopener">博客「滋啦文」</a></div></section>
+<section class="sources" id="sources"><h2>资料来源</h2><ol><li><a href="https://x.com/dalonng" target="_blank" rel="noopener">大桥的 X 个人资料</a></li><li><a href="https://github.com/dalonng" target="_blank" rel="noopener">GitHub：dalonng</a></li><li><a href="https://dalonng.github.io" target="_blank" rel="noopener">博客「滋啦滋啦滋啦文」</a></li></ol>
+<p style="margin-top:12px">本页由公开资料整理，可能存在遗漏或过时之处；以本人公开发布的信息为准。</p></section>
+<div class="next"><a class="l" href="../../people/haohailong/index.html"><img src="../../avatars/haohailong.jpg" alt="" loading="lazy"><div style="min-width:0"><small>← 上一位</small><b>郝海龙 Hailong</b></div></a><a class="r" href="../../people/songofhawk/index.html"><div style="min-width:0"><small>下一位 →</small><b>蓝星 songofhawk</b></div><img src="../../avatars/songofhawk.jpg" alt="" loading="lazy"></a></div>
+<footer class="footer"><p>有设计感的开发者 · 研究池来自 <code>x-design-devs.md</code> · <a href="../../index.html">返回全部人物</a></p></footer>
+</div>
+</article>
+<aside class="toc"><p>本页目录</p><ol><li><a href="#story">成长与经历</a></li><li><a href="#works">代表作品</a></li><li><a href="#site">线上形象</a></li><li><a href="#craft">手艺与方法</a></li><li><a href="#learn">可以从 TA 身上学什么</a></li><li><a href="#sources">资料来源</a></li></ol>
+<div class="toc-acts"><a href="https://x.com/dalonng" target="_blank" rel="noopener">X 主页 ↗</a><a href="https://github.com/dalonng" target="_blank" rel="noopener">GitHub ↗</a><a href="https://dalonng.github.io" target="_blank" rel="noopener">博客「滋啦文」 ↗</a><a href="../../index.html">← 返回全部</a></div></aside>
+</main>
+<script>
+(()=>{const a=[...document.querySelectorAll('.toc ol a')];const m=new Map(a.map(x=>[x.getAttribute('href').slice(1),x]));
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){a.forEach(x=>x.removeAttribute('aria-current'));const l=m.get(e.target.id);l&&l.setAttribute('aria-current','true')}})},{rootMargin:'-20% 0px -70% 0px'});
+m.forEach((_,id)=>{const s=document.getElementById(id);s&&io.observe(s)})})();
+</script>
+</body></html>

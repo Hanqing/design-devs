@@ -1,61 +1,184 @@
 {
  "name": "Craig Hockenberry",
  "role": "The Iconfactory 合伙人 · Twitterrific 作者",
- "title": "Craig Hockenberry：<em>他写了第一个 Twitter App</em>",
- "dek": "1976 年在电传打字机上写下第一行代码，在 FileNet 写过 Unix 图像系统，在意大利和澳大利亚生活过八年。1997 年开始和 The Iconfactory 一起卖软件；2007 年，他的 Twitterrific 成为第一个 Twitter 客户端，「tweet」这个词也和它有关。",
+ "title": "Craig Hockenberry：<em>TA 写了第一个 Twitter App</em>",
+ "dek": "1976 年在电传打字机上写下第一行代码，在 FileNet 写过 Unix 图像系统，在意大利和澳大利亚生活过八年。1997 年开始和 The Iconfactory 一起卖软件；2007 年，TA 的 Twitterrific 成为第一个 Twitter 客户端，「tweet」这个词也和它有关。",
  "card": "Twitterrific 作者、The Iconfactory 合伙人，Mac 与 iOS 开发的元老级人物，博客 furbo.org。",
  "location": "美国加州拉古纳海滩",
- "tags": ["macOS", "iOS", "Twitter", "设计", "博客"],
- "links": [{"label": "furbo.org", "url": "https://furbo.org"}, {"label": "The Iconfactory", "url": "https://iconfactory.com"}, {"label": "GitHub", "url": "https://github.com/chockenberry"}],
+ "tags": [
+  "macOS",
+  "iOS",
+  "Twitter",
+  "设计",
+  "博客"
+ ],
+ "links": [
+  {
+   "label": "furbo.org",
+   "url": "https://furbo.org"
+  },
+  {
+   "label": "The Iconfactory",
+   "url": "https://iconfactory.com"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/chockenberry"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>Apple 平台开发的元老，Twitterrific 的作者，和 The Iconfactory 的设计师们一起做了几十年「好看又好用」的软件。",
   "<strong>代表作：</strong>Twitterrific（第一个 Twitter 客户端）、Provisioning（.mobileprovision 的 Quick Look 插件，★1.5k）、MarkdownAttributedString、Notchmeister（「刘海狂欢」）、SimBuddy（模拟器的好朋友）、BeanCounter、iPulse；著有《iPhone App Development: The Missing Manual》。",
-  "<strong>为什么值得关注：</strong>他见证并参与塑造了个人电脑、互联网、移动应用和社交网络的每一个阶段，至今仍在写代码、写博客、提 Bug。"
+  "<strong>为什么值得关注：</strong>TA 见证并参与塑造了个人电脑、互联网、移动应用和社交网络的每一个阶段，至今仍在写代码、写博客、提 Bug。"
  ],
- "lead": "Craig 的 X 简介全是大写：「HE WROTE THE FIRST TWITTER APP」。链接指向他 2013 年的文章《The Origin of Tweet》：那一年「tweet」被收入牛津英语词典，他讲述了这个词是怎么在 Twitterrific 里诞生的。",
+ "lead": "Craig 的 X 简介全是大写：「HE WROTE THE FIRST TWITTER APP」。链接指向 TA 2013 年的文章《The Origin of Tweet》：那一年「tweet」被收入牛津英语词典，TA 讲述了这个词是怎么在 Twitterrific 里诞生的。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"p": "furbo.org 的 About 页开头写道：很多博客的问题是你完全不知道作者是谁，「为什么我要在乎他说的？」于是他写了一份很长的自我介绍，「它的长度至少证明了我是个老家伙」。"},
-   {"steps": [
-    {"when": "1976", "title": "电传打字机与 PDP-11", "text": "数学老师 Helen Loomis 的丈夫在加州大学尔湾分校工作，把一台 300 波特的电传打字机接到学校 PDP-11 的分时账户上。之后他常在街边的 ComputerLand 店里玩 IMSAI、Osborne、Apple II 和 Commodore PET，唯一规则是有顾客来时要离开展厅。"},
-    {"when": "大学", "title": "UCI 计算机科学", "text": "原本想跟随父亲学建筑，最后去了 UC Irvine 读计算机。他还记得一位年轻教授 Paul Mockapetris 在讲「网络」，当时他正在开发 DNS。后来「无聊地、没有拿到学位地」离开了大学。"},
-    {"when": "1983", "title": "FileNet", "text": "加入初创公司 FileNet，从操作系统一路写到分布式文件系统、窗口管理器和文档扫描仪。在这里他通过 Usenet 第一次理解了网络。"},
-    {"when": "海外八年", "title": "意大利与澳大利亚", "text": "被派往意大利支持欧洲业务，之后搬到澳大利亚，在朋友家第一次看到 Mosaic 浏览器和万维网。"},
-    {"when": "1997", "title": "The Iconfactory", "text": "回到加州管理过教育游戏开发，发现「我真的爱编程，当经理很烦」。1997 年夏天冲浪之余，他意识到可以通过网站卖软件，于是和 The Iconfactory、Jeffrey Zeldman 合作。"},
-    {"when": "2007", "title": "Twitterrific", "text": "做出第一个 Twitter 客户端 Twitterrific，影响了「tweet」一词的流行和许多后来成为平台标准的交互。"},
-    {"when": "2010–2026", "title": "持续写作与工具", "text": "开源 Provisioning、BeanCounter、MarkdownAttributedString、Notchmeister、SimBuddy、Intentional 等；博客持续评论 Apple 平台的变化，如《Liquid Glass. Why?》《TipKit for the Real World》《Tahoe Electron Detector》。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Twitterrific", "meta": "2007 · The Iconfactory", "text": "第一个 Twitter 客户端，和 The Iconfactory 的设计师共同打造。", "url": "https://furbo.org/2013/06/28/the-origin-of-tweet/"},
-    {"name": "Provisioning", "meta": "2013 · ★1.5k", "text": "用 Quick Look 直接查看 .mobileprovision 文件的内容。", "url": "https://github.com/chockenberry/Provisioning"},
-    {"name": "Notchmeister", "meta": "2021 · Swift", "text": "「Notches Gone Wild!」给 MacBook 刘海加上各种好玩的效果。", "url": "https://github.com/chockenberry/Notchmeister"},
-    {"name": "SimBuddy", "meta": "2022 · Swift", "text": "「Your Simulator's BFF」，模拟器开发辅助工具。", "url": "https://github.com/chockenberry/SimBuddy"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://furbo.org", "paras": ["furbo.org 是一个从 2007 年持续到今天的个人博客：右侧是「About Me」、最近文章和从 2007 到 2026 的年度归档，RSS 同时提供 XML 和 JSON。", "GitHub 上他的位置写着「TO THE LEFT OF THE A KEY」（A 键左边），也就是 Caps Lock。和他的全大写 X 简介是一个梗。"]}}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Craig 的设计观来自与 The Iconfactory 设计师几十年的合作：<strong>开发者和设计师必须坐在一起</strong>。Twitterrific 的很多交互，后来成了整个行业的默认做法。"},
-   {"quote": "Working in a talented group beats the hell out of going it alone.", "cite": "Craig Hockenberry，furbo.org About"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>持续写博客：</strong>近二十年的 furbo.org 是一部 Apple 平台史。",
-    "<strong>和设计师长期合作：</strong>好软件来自好团队。",
-    "<strong>给平台提意见：</strong>写 Feedback、写评论，参与生态的走向。",
-    "<strong>始终好奇：</strong>从 PDP-11 到 Vision Pro，一直在动手。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "p": "furbo.org 的 About 页开头写道：很多博客的问题是你完全不知道作者是谁，「为什么我要在乎 TA 说的？」于是 TA 写了一份很长的自我介绍，「它的长度至少证明了我是个老家伙」。"
+    },
+    {
+     "steps": [
+      {
+       "when": "1976",
+       "title": "电传打字机与 PDP-11",
+       "text": "数学老师 Helen Loomis 的丈夫在加州大学尔湾分校工作，把一台 300 波特的电传打字机接到学校 PDP-11 的分时账户上。之后 TA 常在街边的 ComputerLand 店里玩 IMSAI、Osborne、Apple II 和 Commodore PET，唯一规则是有顾客来时要离开展厅。"
+      },
+      {
+       "when": "大学",
+       "title": "UCI 计算机科学",
+       "text": "原本想跟随父亲学建筑，最后去了 UC Irvine 读计算机。TA 还记得一位年轻教授 Paul Mockapetris 在讲「网络」，当时 TA 正在开发 DNS。后来「无聊地、没有拿到学位地」离开了大学。"
+      },
+      {
+       "when": "1983",
+       "title": "FileNet",
+       "text": "加入初创公司 FileNet，从操作系统一路写到分布式文件系统、窗口管理器和文档扫描仪。在这里 TA 通过 Usenet 第一次理解了网络。"
+      },
+      {
+       "when": "海外八年",
+       "title": "意大利与澳大利亚",
+       "text": "被派往意大利支持欧洲业务，之后搬到澳大利亚，在朋友家第一次看到 Mosaic 浏览器和万维网。"
+      },
+      {
+       "when": "1997",
+       "title": "The Iconfactory",
+       "text": "回到加州管理过教育游戏开发，发现「我真的爱编程，当经理很烦」。1997 年夏天冲浪之余，TA 意识到可以通过网站卖软件，于是和 The Iconfactory、Jeffrey Zeldman 合作。"
+      },
+      {
+       "when": "2007",
+       "title": "Twitterrific",
+       "text": "做出第一个 Twitter 客户端 Twitterrific，影响了「tweet」一词的流行和许多后来成为平台标准的交互。"
+      },
+      {
+       "when": "2010–2026",
+       "title": "持续写作与工具",
+       "text": "开源 Provisioning、BeanCounter、MarkdownAttributedString、Notchmeister、SimBuddy、Intentional 等；博客持续评论 Apple 平台的变化，如《Liquid Glass. Why?》《TipKit for the Real World》《Tahoe Electron Detector》。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Twitterrific",
+       "meta": "2007 · The Iconfactory",
+       "text": "第一个 Twitter 客户端，和 The Iconfactory 的设计师共同打造。",
+       "url": "https://furbo.org/2013/06/28/the-origin-of-tweet/"
+      },
+      {
+       "name": "Provisioning",
+       "meta": "2013 · ★1.5k",
+       "text": "用 Quick Look 直接查看 .mobileprovision 文件的内容。",
+       "url": "https://github.com/chockenberry/Provisioning"
+      },
+      {
+       "name": "Notchmeister",
+       "meta": "2021 · Swift",
+       "text": "「Notches Gone Wild!」给 MacBook 刘海加上各种好玩的效果。",
+       "url": "https://github.com/chockenberry/Notchmeister"
+      },
+      {
+       "name": "SimBuddy",
+       "meta": "2022 · Swift",
+       "text": "「Your Simulator's BFF」，模拟器开发辅助工具。",
+       "url": "https://github.com/chockenberry/SimBuddy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://furbo.org",
+      "paras": [
+       "furbo.org 是一个从 2007 年持续到今天的个人博客：右侧是「About Me」、最近文章和从 2007 到 2026 的年度归档，RSS 同时提供 XML 和 JSON。",
+       "GitHub 上 TA 的位置写着「TO THE LEFT OF THE A KEY」（A 键左边），也就是 Caps Lock。和 TA 的全大写 X 简介是一个梗。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "Craig 的设计观来自与 The Iconfactory 设计师几十年的合作：<strong>开发者和设计师必须坐在一起</strong>。Twitterrific 的很多交互，后来成了整个行业的默认做法。"
+    },
+    {
+     "quote": "Working in a talented group beats the hell out of going it alone.",
+     "cite": "Craig Hockenberry，furbo.org About"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>持续写博客：</strong>近二十年的 furbo.org 是一部 Apple 平台史。",
+      "<strong>和设计师长期合作：</strong>好软件来自好团队。",
+      "<strong>给平台提意见：</strong>写 Feedback、写评论，参与生态的走向。",
+      "<strong>始终好奇：</strong>从 PDP-11 到 Vision Pro，一直在动手。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "读一读《The Origin of Tweet》。",
  "sources": [
-  {"label": "Craig Hockenberry 的 X 个人资料", "url": "https://x.com/chockenberry"},
-  {"label": "furbo.org", "url": "https://furbo.org"},
-  {"label": "furbo.org：About", "url": "https://furbo.org/about/"},
-  {"label": "The Origin of Tweet", "url": "https://furbo.org/2013/06/28/the-origin-of-tweet/"},
-  {"label": "GitHub：chockenberry", "url": "https://github.com/chockenberry"}
+  {
+   "label": "Craig Hockenberry 的 X 个人资料",
+   "url": "https://x.com/chockenberry"
+  },
+  {
+   "label": "furbo.org",
+   "url": "https://furbo.org"
+  },
+  {
+   "label": "furbo.org：About",
+   "url": "https://furbo.org/about/"
+  },
+  {
+   "label": "The Origin of Tweet",
+   "url": "https://furbo.org/2013/06/28/the-origin-of-tweet/"
+  },
+  {
+   "label": "GitHub：chockenberry",
+   "url": "https://github.com/chockenberry"
+  }
  ]
 }

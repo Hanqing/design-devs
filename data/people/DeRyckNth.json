@@ -1,0 +1,121 @@
+{
+ "name": "DeRyckⁿ",
+ "role": "Resomark 开发者",
+ "title": "DeRyck：给人和 AI <em>一起写的 Markdown</em> 做一个本地工作台",
+ "dek": "当越来越多的文档、笔记和代码由 AI 写成，人需要一个地方去「读」和「审」。DeRyck 做的 Resomark 是一个本地的 Mac Markdown 应用：所见即所得的实时预览、以渲染后的形式审阅 Git 差异、把你和 AI 一起工作的文件夹钉在一个侧栏里。",
+ "card": "Resomark（面向人机协作的本地 Markdown 应用）开发者，渲染式 Diff 让你审阅 AI 写的改动。",
+ "location": "未公开",
+ "tags": [
+  "macOS",
+  "Markdown",
+  "AI 协作",
+  "Git",
+  "本地优先"
+ ],
+ "links": [
+  {
+   "label": "Resomark",
+   "url": "https://resomark.com"
+  },
+  {
+   "label": "@resomark_app",
+   "url": "https://x.com/resomark_app"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>一个正在为 AI 时代重新设计「文档阅读与审阅」体验的开发者。",
+  "<strong>代表作：</strong>Resomark（Mac 公测版）：Live Preview（标题、列表、表格、代码、公式就地渲染，光标进入时显示源码）、Rendered diff（在渲染后的文档里高亮 AI 的增删改）、Local workbench（无数据库，只钉住你真正在用的文件夹）。",
+  "<strong>定位：</strong>比 IDE 轻，比 Obsidian 轻；原生、快速，没有插件商店，也不需要配置。"
+ ],
+ "lead": "Resomark 的官网副标题只有三个短语：「Local files. Live Preview. Rendered diff.」它回答了一个新问题：当 AI 改了你的文档，你应该怎么看懂它改了什么？",
+ "sections": [
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2014",
+       "title": "注册 X",
+       "text": "以 DeRyck 的名字活跃在网上，简介只有一行「Building @resomark_app」。"
+      },
+      {
+       "when": "2026",
+       "title": "Resomark 公测",
+       "text": "发布 Mac 上的 Resomark 公测版：中英双语官网，强调本地文件、纯 .md 作为唯一事实来源、Resomark 渲染但不重新格式化你的文件。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Resomark",
+       "meta": "macOS · 公测中",
+       "text": "A local Markdown app for AI-human collaboration：实时预览、渲染式 Diff、本地工作台。",
+       "url": "https://resomark.com"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://resomark.com",
+      "paras": [
+       "官网按三个核心能力分节：Live Preview（「所见即所得，不用在预览面板之间切换」）、Rendered diff（「以渲染后的 Markdown 审阅改动」）、Local workbench（「把你真正在用的每个文件夹钉住」）。",
+       "最后用两句话给出定位：「Lighter than your IDE」「Lighter than Obsidian」。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与思考",
+   "blocks": [
+    {
+     "p": "Resomark 最有洞察力的设计是<strong>渲染式 Diff</strong>：传统的 Git diff 是给代码设计的，而 AI 改写的文档需要在「看起来的样子」里审阅。把增删改直接标在渲染后的文档上，让非工程师也能放心地接受 AI 的修改。"
+    },
+    {
+     "p": "「纯 .md 是唯一的事实来源」则是另一种尊重：你的文件不会被锁进某个数据库，任何编辑器都能打开。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>为新的工作方式设计工具：</strong>人机协作需要新的「审阅」界面。",
+      "<strong>定位要清楚：</strong>「比 IDE 轻、比 Obsidian 轻」一句话说清。",
+      "<strong>尊重文件格式：</strong>不重新格式化，不锁定数据。",
+      "<strong>做减法：</strong>没有插件商店，没有配置。"
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "如果你经常让 AI 改文档，下载 Resomark 公测版看看渲染式 Diff。",
+ "sources": [
+  {
+   "label": "DeRyckⁿ 的 X 个人资料",
+   "url": "https://x.com/DeRyckNth"
+  },
+  {
+   "label": "Resomark 官网",
+   "url": "https://resomark.com/en"
+  }
+ ]
+}

@@ -5,56 +5,170 @@
  "dek": "阿姆斯特丹的独立开发者，以惊人的速度把苹果的新框架变成真实产品：给 FaceTime 加字幕的 Navi、把 Whisper 带到 Mac 上的 MacWhisper，还有一系列被开发者反复引用的 Swift Charts、TipKit、visionOS 示例。",
  "card": "MacWhisper、Navi 作者，Good Snooze 独立开发者；Swift Charts / TipKit / visionOS 示例项目作者。",
  "location": "荷兰阿姆斯特丹",
- "tags": ["macOS", "iOS", "语音转写", "无障碍", "SwiftUI"],
- "links": [{"label": "MacWhisper", "url": "https://www.macwhisper.com"}, {"label": "GitHub", "url": "https://github.com/jordibruin"}],
+ "tags": [
+  "macOS",
+  "iOS",
+  "语音转写",
+  "无障碍",
+  "SwiftUI"
+ ],
+ "links": [
+  {
+   "label": "MacWhisper",
+   "url": "https://www.macwhisper.com"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/jordibruin"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>「Building things I like, that help people.」一个擅长把苹果新 API 变成「有用的小产品」的独立开发者。",
   "<strong>代表作：</strong>MacWhisper（本地运行 Whisper、Parakeet 等模型的 Mac 转写应用）、Navi（用 SharePlay 给 FaceTime 加实时字幕与翻译）、Cibo（菜单翻译）；开源 Swift-Charts-Examples（★2.5k）、Dynamic-Islands、TipKit-Examples、visionOS-Examples、FromScratch、cooldown。",
-  "<strong>为什么值得关注：</strong>他的很多产品都和「无障碍」有关：字幕、转写、听写，让更多人能参与对话。"
+  "<strong>为什么值得关注：</strong>TA 的很多产品都和「无障碍」有关：字幕、转写、听写，让更多人能参与对话。"
  ],
- "lead": "Jordi 的 X 简介很直接：「Indie dev at Good Snooze. Building things I like, that help people. Barely on here, no support in DMs.」他不怎么在社交网络上表演，但每年 WWDC 后，开发者都会去他的 GitHub 看新框架该怎么用。",
+ "lead": "Jordi 的 X 简介很直接：「Indie dev at Good Snooze. Building things I like, that help people. Barely on here, no support in DMs.」TA 不怎么在社交网络上表演，但每年 WWDC 后，开发者都会去 TA 的 GitHub 看新框架该怎么用。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2008–2009", "title": "早期", "text": "2008 年注册 X、2009 年注册 GitHub，长期活跃于 Apple 开发者社区。"},
-    {"when": "2021-04", "title": "黑客松上的灵感", "text": "参加一次黑客松，用电话 API 让无法说话的人通过文字转语音打电话。WWDC21 的 SharePlay session 让他想到：能不能给 FaceTime 加字幕？"},
-    {"when": "2021-12", "title": "Navi", "text": "基于 SharePlay 为 FaceTime 通话提供 20 种语言的实时字幕和翻译，Mac 上字幕直接叠在视频窗口上。9to5Mac、iThinkDiff 等媒体纷纷报道。"},
-    {"when": "2022", "title": "示例项目", "text": "Swift Charts 发布后整理出覆盖各种图表类型的示例集（★2.5k）；灵动岛推出后又复刻了一组 Dynamic Island 设计供大家参考。"},
-    {"when": "2023", "title": "MacWhisper", "text": "OpenAI 开源 Whisper 后，他把它做成原生 Mac App：拖拽转写音视频、后台录制会议（无需机器人入会）、实时听写、播客说话人识别、YouTube 转写。同年发布 TipKit 与 visionOS 示例。"},
-    {"when": "2024–2026", "title": "Good Snooze", "text": "以 Good Snooze 的名义持续经营 MacWhisper 等产品，加入 Parakeet 等新模型，并开源 Changelogger、StoreKit-Examples 和 Apple 框架示例索引。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "MacWhisper", "meta": "macOS · 免费 + Pro", "text": "本地、私密、快速的转写：讲座、视频、播客、会议和任何 App 的音频。", "url": "https://www.macwhisper.com"},
-    {"name": "Navi", "meta": "2021 · SharePlay", "text": "FaceTime 实时字幕与翻译。", "url": "https://9to5mac.com/guides/navi/"},
-    {"name": "Swift-Charts-Examples", "meta": "2022 · ★2.5k", "text": "用 Swift Charts 能做出的各种图表的概览。", "url": "https://github.com/jordibruin/Swift-Charts-Examples"},
-    {"name": "FromScratch", "meta": "2023 · macOS", "text": "一键重置 macOS App 权限的小工具。", "url": "https://github.com/jordibruin/FromScratch"}
-   ]}
-  ]},
-  {"id": "site", "title": "网站", "blocks": [
-   {"site": {"url": "https://www.macwhisper.com", "paras": ["他的 X 简介把主页指向 MacWhisper。官网首屏是动态的大字「transcribe it all」，场景词「lectures、videos、podcasts」轮流出现，下面是一个模拟的「Zoom Meeting Detected · Record」通知。", "功能按场景分组：会议、听写、播客、YouTube、App 音频，每个场景一句话说清楚。"]}},
-   {"p": "早期他还用 Notion 页面做产品文档与支持页，这是独立开发者节省时间的常见做法。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Jordi 的产品哲学是<strong>「新框架 + 真实需求」</strong>：SharePlay 本来是一起看电影的 API，他用来做字幕；Whisper 本来是一个模型，他把它变成了会议记录工具。他总能在新技术里看到被忽视的人群。"},
-   {"note": "他的示例仓库同样是一种设计：每个都配有清晰的截图和分类，让其他开发者几分钟内就能找到想要的效果。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>WWDC 是灵感来源：</strong>每个新 API 都可能是一个新产品。",
-    "<strong>为无障碍而设计：</strong>帮到少数人的功能，往往对所有人都有用。",
-    "<strong>示例项目建立声誉：</strong>开源示例让他在开发者中广为人知。",
-    "<strong>本地优先：</strong>MacWhisper 的隐私承诺本身就是卖点。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2008–2009",
+       "title": "早期",
+       "text": "2008 年注册 X、2009 年注册 GitHub，长期活跃于 Apple 开发者社区。"
+      },
+      {
+       "when": "2021-04",
+       "title": "黑客松上的灵感",
+       "text": "参加一次黑客松，用电话 API 让无法说话的人通过文字转语音打电话。WWDC21 的 SharePlay session 让 TA 想到：能不能给 FaceTime 加字幕？"
+      },
+      {
+       "when": "2021-12",
+       "title": "Navi",
+       "text": "基于 SharePlay 为 FaceTime 通话提供 20 种语言的实时字幕和翻译，Mac 上字幕直接叠在视频窗口上。9to5Mac、iThinkDiff 等媒体纷纷报道。"
+      },
+      {
+       "when": "2022",
+       "title": "示例项目",
+       "text": "Swift Charts 发布后整理出覆盖各种图表类型的示例集（★2.5k）；灵动岛推出后又复刻了一组 Dynamic Island 设计供大家参考。"
+      },
+      {
+       "when": "2023",
+       "title": "MacWhisper",
+       "text": "OpenAI 开源 Whisper 后，TA 把它做成原生 Mac App：拖拽转写音视频、后台录制会议（无需机器人入会）、实时听写、播客说话人识别、YouTube 转写。同年发布 TipKit 与 visionOS 示例。"
+      },
+      {
+       "when": "2024–2026",
+       "title": "Good Snooze",
+       "text": "以 Good Snooze 的名义持续经营 MacWhisper 等产品，加入 Parakeet 等新模型，并开源 Changelogger、StoreKit-Examples 和 Apple 框架示例索引。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "MacWhisper",
+       "meta": "macOS · 免费 + Pro",
+       "text": "本地、私密、快速的转写：讲座、视频、播客、会议和任何 App 的音频。",
+       "url": "https://www.macwhisper.com"
+      },
+      {
+       "name": "Navi",
+       "meta": "2021 · SharePlay",
+       "text": "FaceTime 实时字幕与翻译。",
+       "url": "https://9to5mac.com/guides/navi/"
+      },
+      {
+       "name": "Swift-Charts-Examples",
+       "meta": "2022 · ★2.5k",
+       "text": "用 Swift Charts 能做出的各种图表的概览。",
+       "url": "https://github.com/jordibruin/Swift-Charts-Examples"
+      },
+      {
+       "name": "FromScratch",
+       "meta": "2023 · macOS",
+       "text": "一键重置 macOS App 权限的小工具。",
+       "url": "https://github.com/jordibruin/FromScratch"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://www.macwhisper.com",
+      "paras": [
+       "TA 的 X 简介把主页指向 MacWhisper。官网首屏是动态的大字「transcribe it all」，场景词「lectures、videos、podcasts」轮流出现，下面是一个模拟的「Zoom Meeting Detected · Record」通知。",
+       "功能按场景分组：会议、听写、播客、YouTube、App 音频，每个场景一句话说清楚。"
+      ]
+     }
+    },
+    {
+     "p": "早期 TA 还用 Notion 页面做产品文档与支持页，这是独立开发者节省时间的常见做法。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "Jordi 的产品哲学是<strong>「新框架 + 真实需求」</strong>：SharePlay 本来是一起看电影的 API，TA 用来做字幕；Whisper 本来是一个模型，TA 把它变成了会议记录工具。TA 总能在新技术里看到被忽视的人群。"
+    },
+    {
+     "note": "TA 的示例仓库同样是一种设计：每个都配有清晰的截图和分类，让其他开发者几分钟内就能找到想要的效果。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>WWDC 是灵感来源：</strong>每个新 API 都可能是一个新产品。",
+      "<strong>为无障碍而设计：</strong>帮到少数人的功能，往往对所有人都有用。",
+      "<strong>示例项目建立声誉：</strong>开源示例让 TA 在开发者中广为人知。",
+      "<strong>本地优先：</strong>MacWhisper 的隐私承诺本身就是卖点。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "试试 MacWhisper 的免费版，转写一段你自己的录音。",
  "sources": [
-  {"label": "Jordi Bruin 的 X 个人资料", "url": "https://x.com/jordibruin"},
-  {"label": "MacWhisper 官网", "url": "https://www.macwhisper.com"},
-  {"label": "GitHub：jordibruin", "url": "https://github.com/jordibruin"},
-  {"label": "Silicon Canals：Navi brings subtitles to FaceTime", "url": "https://siliconcanals.com/navi-brings-subtitles-and-live-translation-to-facetime/"},
-  {"label": "9to5Mac：Navi", "url": "https://9to5mac.com/guides/navi/"}
+  {
+   "label": "Jordi Bruin 的 X 个人资料",
+   "url": "https://x.com/jordibruin"
+  },
+  {
+   "label": "MacWhisper 官网",
+   "url": "https://www.macwhisper.com"
+  },
+  {
+   "label": "GitHub：jordibruin",
+   "url": "https://github.com/jordibruin"
+  },
+  {
+   "label": "Silicon Canals：Navi brings subtitles to FaceTime",
+   "url": "https://siliconcanals.com/navi-brings-subtitles-and-live-translation-to-facetime/"
+  },
+  {
+   "label": "9to5Mac：Navi",
+   "url": "https://9to5mac.com/guides/navi/"
+  }
  ]
 }

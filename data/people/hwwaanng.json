@@ -2,11 +2,30 @@
  "name": "Hwang",
  "role": "设计师 · AirBuild 创始人",
  "title": "Hwang：Design / Vibe / <em>Shape</em>",
- "dek": "AFFiNE 与 Bridge 的早期成员，AirBuild 的创始人。也就是本站排版所参考的那个博客背后的人。他的作品集里有时钟小组件、Lofi 音乐计时器、宝可梦卡牌收藏、SwiftUI X 光调试器，以及一整套给 AI Agent 用的开发工具。",
+ "dek": "AFFiNE 与 Bridge 的早期成员，AirBuild 的创始人。也就是本站排版所参考的那个博客背后的人。TA 的作品集里有时钟小组件、Lofi 音乐计时器、宝可梦卡牌收藏、SwiftUI X 光调试器，以及一整套给 AI Agent 用的开发工具。",
  "card": "AirBuild 创始人，AFFiNE、Bridge 早期成员；Viber、LookInside、Hands Time 等作品的设计者。",
  "location": "中国上海",
- "tags": ["产品设计", "iOS", "Vibe Coding", "AI Agent", "Next.js"],
- "links": [{"label": "hwang.fun", "url": "https://hwang.fun/projects"}, {"label": "AirBuild", "url": "https://air.build"}, {"label": "Viber", "url": "https://viber.today"}],
+ "tags": [
+  "产品设计",
+  "iOS",
+  "Vibe Coding",
+  "AI Agent",
+  "Next.js"
+ ],
+ "links": [
+  {
+   "label": "hwang.fun",
+   "url": "https://hwang.fun/projects"
+  },
+  {
+   "label": "AirBuild",
+   "url": "https://air.build"
+  },
+  {
+   "label": "Viber",
+   "url": "https://viber.today"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一个把「设计」「氛围」「塑形」写在简介里的设计师创业者，从开源知识库 AFFiNE 到 AI 应用构建平台 AirBuild，一直站在设计与工程的交界处。",
   "<strong>代表作：</strong>AirBuild（AI Agent 帮你构建原生 iOS App 并自动处理 App 审核）、Viber（iPhone 上的 Claude Code / Codex 客户端）、LookInside（SwiftUI 图层 X 光）、Hands Time（时钟小组件）、Lofi.、Sleepy Coffee。",
@@ -14,50 +33,164 @@
  ],
  "lead": "Hwang 的个人网站叫「Hwang Fun - Portfolio & Design Lab」，元描述里写着：交互设计原型、AI 驱动的宝可梦卡牌生成器、用 Next.js 做的创意实验。项目页的标题只有一个词：「PROJECT.」，然后按 Work / Products、Dev Tools、Lifestyle、Earlier 四组排列。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2013", "title": "注册 X", "text": "以设计师身份活跃在中文互联网，逐渐把设计延伸到代码与产品。"},
-    {"when": "2022", "title": "Lofi. 与 Sleepy Coffee", "text": "早期作品：Lofi. 把 Lofi 音乐和时间追踪结合；Sleepy Coffee 的口号是「Enjoy Coffee, Enjoy Sleepy」。"},
-    {"when": "AFFiNE", "title": "开源知识库的早期成员", "text": "X 简介写着「early @AFFiNEOfficial」，并为 AFFiNE 做过名片设计。AFFiNE 是以设计见长的开源 Notion / Miro 替代品。"},
-    {"when": "Bridge", "title": "Bridge 早期成员", "text": "参与 Bridge（「Bridge Intent and Done」）的早期建设。"},
-    {"when": "2024", "title": "Hands Time", "text": "与 Yuhang Lu 合作的「设计精美的时钟小组件」。"},
-    {"when": "2025-08", "title": "Viber", "text": "与 cats_juice、EYHN、Lakr233 一起做的「Yellow Plus with Builders」副业项目：在 iPhone 上连接并使用 Claude Code / Codex 的原生客户端，「Shape Your Code. Anywhere.」"},
-    {"when": "2026", "title": "AirBuild 与一组 Agent 工具", "text": "创立 AirBuild：「你的想法，你的 AI 团队，一个可以运行的原生 iOS App」，还由专门的 Agent 负责提交、回复、修复与重新提交 App 审核。同年参与 Deux（iOS 代码库一键转原生 Android）、Cookey（Agent 请求登录，在手机上批准）、MouseDo（给每个 Agent 的 Computer Use）、LookInside、Stacklight、Screen Cam、Muse Amp、Slabox 等。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "AirBuild", "meta": "2026 · 创始人", "text": "AI Agent 构建你的 App，并自动处理 App Review：提交、回复苹果、修复被拒问题、重新提交。", "url": "https://air.build"},
-    {"name": "Viber", "meta": "2025.08 · iOS", "text": "移动原生的 Claude Code 客户端：在 iPhone 上随时塑造你的代码。", "url": "https://viber.today"},
-    {"name": "LookInside", "meta": "2026 · Dev Tool", "text": "像 X 光一样检查 SwiftUI 图层。", "url": "https://lookinside-app.com"},
-    {"name": "Hands Time", "meta": "2024 · Lifestyle", "text": "设计精美的时钟小组件，与 Yuhang Lu 合作。", "url": "https://hanstime.app"},
-    {"name": "Slabox", "meta": "2026 · Lifestyle", "text": "把球星卡和宝可梦卡牌收藏装进口袋。", "url": "https://slabox.app"},
-    {"name": "Screen Cam", "meta": "2026 · Dev Tool", "text": "原生录屏，带丝滑的动画。", "url": "https://thescreen.cam"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://hwang.fun/projects", "paras": ["作品集用 Next.js 构建，每个项目一行：Logo、名称、年份、一句话描述，部分项目附上合作者头像。分组标题非常克制：Work / Products、Dev Tools、Lifestyle、Earlier。", "首页是一个「Design Lab」，放着交互原型和 AI 宝可梦卡牌生成器等实验。"]}},
-   {"p": "AirBuild 的博客（本站参考对象）则体现了他对阅读体验的讲究：660px 的正文宽度、右侧的粘性目录、编号步骤线、灰底注释与橙色强调，每一个组件都克制而清楚。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "「Design / Vibe / Shape」三个词可以读作他的方法论：<strong>先设计，再用 Vibe Coding 快速实现，最后亲手塑形打磨</strong>。他的项目常常是小团队协作：与 Lakr233、EYHN、cats_juice 一起做 Viber，与 Yuhang Lu 一起做 Hands Time。"},
-   {"callout": "AirBuild 博客写给小店主的 App Clip 指南，用「外卖窗口和堂食大厅」比喻 App Clip 和完整 App，全文没有一个术语。设计感不只在视觉，也在写作。", "t": "设计也是写作"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>作品集按主题分组：</strong>让人一眼看出你在乎什么。",
-    "<strong>和朋友一起做副业：</strong>小团队、短周期、快速发布。",
-    "<strong>为 Agent 时代做工具：</strong>登录授权、Computer Use、审核自动化，都是新的空白。",
-    "<strong>把博客当产品做：</strong>排版、组件、语气都是设计的一部分。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2013",
+       "title": "注册 X",
+       "text": "以设计师身份活跃在中文互联网，逐渐把设计延伸到代码与产品。"
+      },
+      {
+       "when": "2022",
+       "title": "Lofi. 与 Sleepy Coffee",
+       "text": "早期作品：Lofi. 把 Lofi 音乐和时间追踪结合；Sleepy Coffee 的口号是「Enjoy Coffee, Enjoy Sleepy」。"
+      },
+      {
+       "when": "AFFiNE",
+       "title": "开源知识库的早期成员",
+       "text": "X 简介写着「early @AFFiNEOfficial」，并为 AFFiNE 做过名片设计。AFFiNE 是以设计见长的开源 Notion / Miro 替代品。"
+      },
+      {
+       "when": "Bridge",
+       "title": "Bridge 早期成员",
+       "text": "参与 Bridge（「Bridge Intent and Done」）的早期建设。"
+      },
+      {
+       "when": "2024",
+       "title": "Hands Time",
+       "text": "与 Yuhang Lu 合作的「设计精美的时钟小组件」。"
+      },
+      {
+       "when": "2025-08",
+       "title": "Viber",
+       "text": "与 cats_juice、EYHN、Lakr233 一起做的「Yellow Plus with Builders」副业项目：在 iPhone 上连接并使用 Claude Code / Codex 的原生客户端，「Shape Your Code. Anywhere.」"
+      },
+      {
+       "when": "2026",
+       "title": "AirBuild 与一组 Agent 工具",
+       "text": "创立 AirBuild：「你的想法，你的 AI 团队，一个可以运行的原生 iOS App」，还由专门的 Agent 负责提交、回复、修复与重新提交 App 审核。同年参与 Deux（iOS 代码库一键转原生 Android）、Cookey（Agent 请求登录，在手机上批准）、MouseDo（给每个 Agent 的 Computer Use）、LookInside、Stacklight、Screen Cam、Muse Amp、Slabox 等。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "AirBuild",
+       "meta": "2026 · 创始人",
+       "text": "AI Agent 构建你的 App，并自动处理 App Review：提交、回复苹果、修复被拒问题、重新提交。",
+       "url": "https://air.build"
+      },
+      {
+       "name": "Viber",
+       "meta": "2025.08 · iOS",
+       "text": "移动原生的 Claude Code 客户端：在 iPhone 上随时塑造你的代码。",
+       "url": "https://viber.today"
+      },
+      {
+       "name": "LookInside",
+       "meta": "2026 · Dev Tool",
+       "text": "像 X 光一样检查 SwiftUI 图层。",
+       "url": "https://lookinside-app.com"
+      },
+      {
+       "name": "Hands Time",
+       "meta": "2024 · Lifestyle",
+       "text": "设计精美的时钟小组件，与 Yuhang Lu 合作。",
+       "url": "https://hanstime.app"
+      },
+      {
+       "name": "Slabox",
+       "meta": "2026 · Lifestyle",
+       "text": "把球星卡和宝可梦卡牌收藏装进口袋。",
+       "url": "https://slabox.app"
+      },
+      {
+       "name": "Screen Cam",
+       "meta": "2026 · Dev Tool",
+       "text": "原生录屏，带丝滑的动画。",
+       "url": "https://thescreen.cam"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://hwang.fun/projects",
+      "paras": [
+       "作品集用 Next.js 构建，每个项目一行：Logo、名称、年份、一句话描述，部分项目附上合作者头像。分组标题非常克制：Work / Products、Dev Tools、Lifestyle、Earlier。",
+       "首页是一个「Design Lab」，放着交互原型和 AI 宝可梦卡牌生成器等实验。"
+      ]
+     }
+    },
+    {
+     "p": "AirBuild 的博客（本站参考对象）则体现了 TA 对阅读体验的讲究：660px 的正文宽度、右侧的粘性目录、编号步骤线、灰底注释与橙色强调，每一个组件都克制而清楚。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "「Design / Vibe / Shape」三个词可以读作 TA 的方法论：<strong>先设计，再用 Vibe Coding 快速实现，最后亲手塑形打磨</strong>。TA 的项目常常是小团队协作：与 Lakr233、EYHN、cats_juice 一起做 Viber，与 Yuhang Lu 一起做 Hands Time。"
+    },
+    {
+     "callout": "AirBuild 博客写给小店主的 App Clip 指南，用「外卖窗口和堂食大厅」比喻 App Clip 和完整 App，全文没有一个术语。设计感不只在视觉，也在写作。",
+     "t": "设计也是写作"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>作品集按主题分组：</strong>让人一眼看出你在乎什么。",
+      "<strong>和朋友一起做副业：</strong>小团队、短周期、快速发布。",
+      "<strong>为 Agent 时代做工具：</strong>登录授权、Computer Use、审核自动化，都是新的空白。",
+      "<strong>把博客当产品做：</strong>排版、组件、语气都是设计的一部分。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "去 AirBuild 看看，或者读一读它的博客。",
  "sources": [
-  {"label": "Hwang 的 X 个人资料", "url": "https://x.com/hwwaanng"},
-  {"label": "hwang.fun 作品集", "url": "https://hwang.fun/projects"},
-  {"label": "AirBuild 官网", "url": "https://air.build"},
-  {"label": "AirBuild 博客：What Is an App Clip?", "url": "https://air.build/blog/app-clips-for-small-business/"},
-  {"label": "Viber 官网", "url": "https://viber.today"}
+  {
+   "label": "Hwang 的 X 个人资料",
+   "url": "https://x.com/hwwaanng"
+  },
+  {
+   "label": "hwang.fun 作品集",
+   "url": "https://hwang.fun/projects"
+  },
+  {
+   "label": "AirBuild 官网",
+   "url": "https://air.build"
+  },
+  {
+   "label": "AirBuild 博客：What Is an App Clip?",
+   "url": "https://air.build/blog/app-clips-for-small-business/"
+  },
+  {
+   "label": "Viber 官网",
+   "url": "https://viber.today"
+  }
  ]
 }

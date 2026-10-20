@@ -2,59 +2,178 @@
  "name": "Owen Young",
  "role": "开发者 · 沉浸式翻译联合创作者 · 数字花园园丁",
  "title": "Owen：做出<em>沉浸式翻译</em>，然后回到自己的花园",
- "dek": "他做过 GitHub Actions 版的 IFTTT（Actionsflow）、把国外热门资讯翻译成中文的 Buzzing，以及让上千万人在网页段落下看到母语译文的沉浸式翻译。2025 年离开沉浸式翻译后，他做了一个为「数字花园」设计的博客系统 Jant。",
+ "dek": "TA 做过 GitHub Actions 版的 IFTTT（Actionsflow）、把国外热门资讯翻译成中文的 Buzzing，以及让上千万人在网页段落下看到母语译文的沉浸式翻译。2025 年离开沉浸式翻译后，TA 做了一个为「数字花园」设计的博客系统 Jant。",
  "card": "沉浸式翻译创作者之一（2022–2025），Actionsflow、Buzzing、Jant 作者，住在上海。",
  "location": "中国上海",
- "tags": ["浏览器扩展", "自动化", "数字花园", "TypeScript", "写作"],
- "links": [{"label": "博客 owenyoung.com", "url": "https://www.owenyoung.com"}, {"label": "Projects", "url": "https://www.owenyoung.com/projects/"}, {"label": "GitHub", "url": "https://github.com/theowenyoung"}],
+ "tags": [
+  "浏览器扩展",
+  "自动化",
+  "数字花园",
+  "TypeScript",
+  "写作"
+ ],
+ "links": [
+  {
+   "label": "博客 owenyoung.com",
+   "url": "https://www.owenyoung.com"
+  },
+  {
+   "label": "Projects",
+   "url": "https://www.owenyoung.com/projects/"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/theowenyoung"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一个擅长「把信息流变得更好读」的开发者：自动化工作流、资讯聚合、双语翻译，再到博客系统。",
-  "<strong>代表作：</strong>沉浸式翻译 Immersive Translate（2022 年 11 月发布，后被收购，他于 2025 年 7 月离开）、Actionsflow、Buzzing、Track Awesome List、HN Vault、Jant、Artab。",
-  "<strong>为什么值得关注：</strong>他把博客当成「数字花园」，并为此重新设计了「首页」与「RSS」的关系，这是一种关于写作摩擦力的产品思考。"
+  "<strong>代表作：</strong>沉浸式翻译 Immersive Translate（2022 年 11 月发布，后被收购，TA 于 2025 年 7 月离开）、Actionsflow、Buzzing、Track Awesome List、HN Vault、Jant、Artab。",
+  "<strong>为什么值得关注：</strong>TA 把博客当成「数字花园」，并为此重新设计了「首页」与「RSS」的关系，这是一种关于写作摩擦力的产品思考。"
  ],
- "lead": "Owen 的 X 简介里有一条很特别的链接：「不愿意污染推特时间轴的短想法」。这句话说明了他的气质：在意信息的质量，也在意别人的注意力。",
+ "lead": "Owen 的 X 简介里有一条很特别的链接：「不愿意污染推特时间轴的短想法」。这句话说明了 TA 的气质：在意信息的质量，也在意别人的注意力。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2020", "title": "Actionsflow", "text": "基于 GitHub Actions 的免费 IFTTT / Zapier 替代品：用和 Actions 一样的 YAML 配置连接应用、数据和 API。之后又做了基于 Deno 的 Denoflow。"},
-    {"when": "2021", "title": "个人 Wiki", "text": "「Everything I Know by Owen」：用自己写的 Gatsby Theme Primer Wiki 搭建终身维护的个人知识库，兼容 Foam 与 Obsidian。"},
-    {"when": "2022-09", "title": "Buzzing", "text": "聚合 Hacker News、纽约时报等国外热门资讯，并把标题翻译成中文，配套一系列 Telegram Bot（HN 中文精选、问 Reddit、国外新闻）。"},
-    {"when": "2022-10", "title": "Track Awesome List", "text": "把 GitHub 最热门的 500 个 awesome list 按条目添加时间排序，让你可以订阅更新。"},
-    {"when": "2022-11", "title": "沉浸式翻译", "text": "在网页每个段落后面插入母语译文的浏览器扩展，让双语对照阅读成为可能，迅速成为最受欢迎的翻译扩展之一。项目后来被收购，他于 2025 年 7 月离开。"},
-    {"when": "2023–2024", "title": "小工具", "text": "wikipedia-to-epub、YAMLscript（YAML as code）、Artab（每个新标签页一张随机艺术作品）。"},
-    {"when": "2026", "title": "Jant 与 HN Vault", "text": "4 月发布 Jant：首页与 RSS 分离、原生支持 Note / Link / Quote / Thread、发布体验像 Twitter、内容自动同步到 GitHub 方便 AI 交互。HN Vault 则让你从 1900 年开始按年阅读 Hacker News 上的文章。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "沉浸式翻译", "meta": "2022–2025", "text": "在网页段落后插入母语译文，高效获取外文信息。", "url": "https://immersivetranslate.com"},
-    {"name": "Jant", "meta": "2026 · 博客系统", "text": "为数字花园设计：首页与订阅分离，让发布摩擦力更低。", "url": "https://www.owenyoung.com/projects/"},
-    {"name": "Actionsflow", "meta": "2020 · 开源", "text": "基于 GitHub Actions 的开发者版 IFTTT / Zapier。", "url": "https://github.com/actionsflow/actionsflow"},
-    {"name": "Buzzing", "meta": "2022", "text": "用中文浏览国外热门资讯。", "url": "https://www.owenyoung.com/projects/"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://www.owenyoung.com", "paras": ["About 页写道：「我把这里定位成我的数字个人花园，存放我的笔记、想法和生活记录。」Featured 低频、Latest 较高频、Archive 极高频，订阅者只收到精选，不被打扰。", "收藏页面包括 Now、Pinned（想经常回顾的真理与原则）、Wisdom、Thoughts、Quotes、Uses、Books、Sources 等。"]}},
-   {"p": "他说自己特别喜欢收藏引言：「对于同一个道理，用不同的语言包装它，区别是非常大的。早 10 年和晚 10 年看到一个 Quote，有可能会导致截然不同的两种人生。」"}
-  ]},
-  {"id": "craft", "title": "设计与思考", "blocks": [
-   {"p": "沉浸式翻译最核心的设计决定是<strong>不替换原文，而是在每段后面附上译文</strong>。它尊重原文，也尊重读者想要学习外语的意愿。这一个小决定，定义了一个品类。"},
-   {"p": "Jant 延续了同样的「尊重」：尊重订阅者的时间（不推送琐碎内容），也尊重作者的写作冲动（让发布变得像发推一样轻）。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>为自己的阅读习惯做工具：</strong>Buzzing、沉浸式翻译、HN Vault 都源于此。",
-    "<strong>降低发布摩擦：</strong>写作的最大敌人是「这值不值得发」。",
-    "<strong>尊重别人的注意力：</strong>短想法放在自己的花园里。",
-    "<strong>做完一件事，勇于离开：</strong>项目被收购后，回到独立创作。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2020",
+       "title": "Actionsflow",
+       "text": "基于 GitHub Actions 的免费 IFTTT / Zapier 替代品：用和 Actions 一样的 YAML 配置连接应用、数据和 API。之后又做了基于 Deno 的 Denoflow。"
+      },
+      {
+       "when": "2021",
+       "title": "个人 Wiki",
+       "text": "「Everything I Know by Owen」：用自己写的 Gatsby Theme Primer Wiki 搭建终身维护的个人知识库，兼容 Foam 与 Obsidian。"
+      },
+      {
+       "when": "2022-09",
+       "title": "Buzzing",
+       "text": "聚合 Hacker News、纽约时报等国外热门资讯，并把标题翻译成中文，配套一系列 Telegram Bot（HN 中文精选、问 Reddit、国外新闻）。"
+      },
+      {
+       "when": "2022-10",
+       "title": "Track Awesome List",
+       "text": "把 GitHub 最热门的 500 个 awesome list 按条目添加时间排序，让你可以订阅更新。"
+      },
+      {
+       "when": "2022-11",
+       "title": "沉浸式翻译",
+       "text": "在网页每个段落后面插入母语译文的浏览器扩展，让双语对照阅读成为可能，迅速成为最受欢迎的翻译扩展之一。项目后来被收购，TA 于 2025 年 7 月离开。"
+      },
+      {
+       "when": "2023–2024",
+       "title": "小工具",
+       "text": "wikipedia-to-epub、YAMLscript（YAML as code）、Artab（每个新标签页一张随机艺术作品）。"
+      },
+      {
+       "when": "2026",
+       "title": "Jant 与 HN Vault",
+       "text": "4 月发布 Jant：首页与 RSS 分离、原生支持 Note / Link / Quote / Thread、发布体验像 Twitter、内容自动同步到 GitHub 方便 AI 交互。HN Vault 则让你从 1900 年开始按年阅读 Hacker News 上的文章。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "沉浸式翻译",
+       "meta": "2022–2025",
+       "text": "在网页段落后插入母语译文，高效获取外文信息。",
+       "url": "https://immersivetranslate.com"
+      },
+      {
+       "name": "Jant",
+       "meta": "2026 · 博客系统",
+       "text": "为数字花园设计：首页与订阅分离，让发布摩擦力更低。",
+       "url": "https://www.owenyoung.com/projects/"
+      },
+      {
+       "name": "Actionsflow",
+       "meta": "2020 · 开源",
+       "text": "基于 GitHub Actions 的开发者版 IFTTT / Zapier。",
+       "url": "https://github.com/actionsflow/actionsflow"
+      },
+      {
+       "name": "Buzzing",
+       "meta": "2022",
+       "text": "用中文浏览国外热门资讯。",
+       "url": "https://www.owenyoung.com/projects/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://www.owenyoung.com",
+      "paras": [
+       "About 页写道：「我把这里定位成我的数字个人花园，存放我的笔记、想法和生活记录。」Featured 低频、Latest 较高频、Archive 极高频，订阅者只收到精选，不被打扰。",
+       "收藏页面包括 Now、Pinned（想经常回顾的真理与原则）、Wisdom、Thoughts、Quotes、Uses、Books、Sources 等。"
+      ]
+     }
+    },
+    {
+     "p": "TA 说自己特别喜欢收藏引言：「对于同一个道理，用不同的语言包装它，区别是非常大的。早 10 年和晚 10 年看到一个 Quote，有可能会导致截然不同的两种人生。」"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与思考",
+   "blocks": [
+    {
+     "p": "沉浸式翻译最核心的设计决定是<strong>不替换原文，而是在每段后面附上译文</strong>。它尊重原文，也尊重读者想要学习外语的意愿。这一个小决定，定义了一个品类。"
+    },
+    {
+     "p": "Jant 延续了同样的「尊重」：尊重订阅者的时间（不推送琐碎内容），也尊重作者的写作冲动（让发布变得像发推一样轻）。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>为自己的阅读习惯做工具：</strong>Buzzing、沉浸式翻译、HN Vault 都源于此。",
+      "<strong>降低发布摩擦：</strong>写作的最大敌人是「这值不值得发」。",
+      "<strong>尊重别人的注意力：</strong>短想法放在自己的花园里。",
+      "<strong>做完一件事，勇于离开：</strong>项目被收购后，回到独立创作。"
+     ]
+    }
+   ]
+  }
  ],
- "cta": "逛逛他的数字花园，从 Pinned 页面开始。",
+ "cta": "逛逛 TA 的数字花园，从 Pinned 页面开始。",
  "sources": [
-  {"label": "Owen 的 X 个人资料", "url": "https://x.com/OwenYoungZh"},
-  {"label": "owenyoung.com：About", "url": "https://www.owenyoung.com/about/"},
-  {"label": "owenyoung.com：Projects", "url": "https://www.owenyoung.com/projects/"},
-  {"label": "GitHub：theowenyoung", "url": "https://github.com/theowenyoung"}
+  {
+   "label": "Owen 的 X 个人资料",
+   "url": "https://x.com/OwenYoungZh"
+  },
+  {
+   "label": "owenyoung.com：About",
+   "url": "https://www.owenyoung.com/about/"
+  },
+  {
+   "label": "owenyoung.com：Projects",
+   "url": "https://www.owenyoung.com/projects/"
+  },
+  {
+   "label": "GitHub：theowenyoung",
+   "url": "https://github.com/theowenyoung"
+  }
  ]
 }

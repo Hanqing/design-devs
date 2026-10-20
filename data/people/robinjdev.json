@@ -2,11 +2,26 @@
  "name": "RobinJ",
  "role": "iOS 独立开发者 · 前 TikTok 工程师",
  "title": "RobinJ：给混乱的<em>推特书签</em>一个家",
- "dek": "一位住在新加坡、曾在 TikTok 做工程师的独立 iOS 开发者。X 让你收藏帖子，却从不帮你再找到它们，于是他做了 Twitfold：同步所有书签，全文搜索，用 AI 自动分类，导出 Markdown、CSV 或 PDF，即使原帖被删也能保留一份。",
+ "dek": "一位住在新加坡、曾在 TikTok 做工程师的独立 iOS 开发者。X 让你收藏帖子，却从不帮你再找到它们，于是 TA 做了 Twitfold：同步所有书签，全文搜索，用 AI 自动分类，导出 Markdown、CSV 或 PDF，即使原帖被删也能保留一份。",
  "card": "前 TikTok 工程师，新加坡的独立 iOS 开发者，Twitfold（X 书签管理）作者。",
  "location": "新加坡",
- "tags": ["iOS", "iPadOS", "AI 分类", "信息管理", "独立开发"],
- "links": [{"label": "Twitfold（App Store）", "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807"}, {"label": "@TwitfoldApp", "url": "https://x.com/TwitfoldApp"}],
+ "tags": [
+  "iOS",
+  "iPadOS",
+  "AI 分类",
+  "信息管理",
+  "独立开发"
+ ],
+ "links": [
+  {
+   "label": "Twitfold（App Store）",
+   "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807"
+  },
+  {
+   "label": "@TwitfoldApp",
+   "url": "https://x.com/TwitfoldApp"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>「Indie iOS dev • Ex-TikTok engineer • Built Twitfold to tame my bookmarks chaos.」",
   "<strong>代表作：</strong>Twitfold（iPhone / iPad，4.7 分）：全文搜索所有书签（文本、作者、链接标题、长文），按作者 / 日期 / 类型筛选，时间线式阅读模式，文件夹与标签，AI 智能分类，批量操作，导出 Markdown / CSV / PDF。",
@@ -14,37 +29,98 @@
  ],
  "lead": "Twitfold 的介绍里有一句话说得很准：「X lets you save posts. It never helped you find them again.」（X 让你保存帖子，却从未帮你再找到它们。）",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2010", "title": "注册 Twitter", "text": "很早就是 Twitter 用户，也是重度书签收藏者。"},
-    {"when": "TikTok", "title": "大厂工程师", "text": "在 TikTok 担任工程师（据其 X 简介），在新加坡工作。"},
-    {"when": "2025–2026", "title": "Twitfold", "text": "离开大厂做独立 iOS 开发，第一款作品就是解决自己书签混乱问题的 Twitfold，并为它开设了独立的 X 账号。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Twitfold", "meta": "iOS / iPadOS · 4.7★", "text": "把 X 书签变成手机上可搜索的资料库：同步、搜索、AI 分类、导出，原帖删除也能保留。", "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807"}
-   ]}
-  ]},
-  {"id": "site", "title": "线上形象", "blocks": [
-   {"site": {"url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807", "paras": ["他的 X 主页直接链接到 Twitfold 的 App Store 页面。产品介绍按「找到任何保存的内容」「无需费力的整理」「即使原帖消失也能保留」三部分展开，结构清晰。", "App 支持英语等七种语言。"]}}
-  ]},
-  {"id": "craft", "title": "设计与思考", "blocks": [
-   {"p": "Twitfold 的设计关键是<strong>「只整理一次」</strong>：设置好文件夹后，AI 会自动把新书签归档。用户真正想要的不是整理，而是在需要时找到。"},
-   {"p": "「保留一份副本，即使原帖被删」这一点，也说明他理解收藏的本质：收藏是为了未来的自己。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>从自己的混乱出发：</strong>你收藏的几千条书签就是产品需求。",
-    "<strong>平台缺的功能就是机会：</strong>X 不做书签搜索，他来做。",
-    "<strong>AI 用在「省力」上：</strong>自动分类比生成内容更实用。",
-    "<strong>给产品一个独立账号：</strong>方便发布更新、积累用户。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2010",
+       "title": "注册 Twitter",
+       "text": "很早就是 Twitter 用户，也是重度书签收藏者。"
+      },
+      {
+       "when": "TikTok",
+       "title": "大厂工程师",
+       "text": "在 TikTok 担任工程师（据其 X 简介），在新加坡工作。"
+      },
+      {
+       "when": "2025–2026",
+       "title": "Twitfold",
+       "text": "离开大厂做独立 iOS 开发，第一款作品就是解决自己书签混乱问题的 Twitfold，并为它开设了独立的 X 账号。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Twitfold",
+       "meta": "iOS / iPadOS · 4.7★",
+       "text": "把 X 书签变成手机上可搜索的资料库：同步、搜索、AI 分类、导出，原帖删除也能保留。",
+       "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807",
+      "paras": [
+       "TA 的 X 主页直接链接到 Twitfold 的 App Store 页面。产品介绍按「找到任何保存的内容」「无需费力的整理」「即使原帖消失也能保留」三部分展开，结构清晰。",
+       "App 支持英语等七种语言。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与思考",
+   "blocks": [
+    {
+     "p": "Twitfold 的设计关键是<strong>「只整理一次」</strong>：设置好文件夹后，AI 会自动把新书签归档。用户真正想要的不是整理，而是在需要时找到。"
+    },
+    {
+     "p": "「保留一份副本，即使原帖被删」这一点，也说明 TA 理解收藏的本质：收藏是为了未来的自己。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>从自己的混乱出发：</strong>你收藏的几千条书签就是产品需求。",
+      "<strong>平台缺的功能就是机会：</strong>X 不做书签搜索，TA 来做。",
+      "<strong>AI 用在「省力」上：</strong>自动分类比生成内容更实用。",
+      "<strong>给产品一个独立账号：</strong>方便发布更新、积累用户。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "如果你的 X 书签已经多到找不到，试试 Twitfold。",
  "sources": [
-  {"label": "RobinJ 的 X 个人资料", "url": "https://x.com/robinjdev"},
-  {"label": "Twitfold App Store 页面", "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807"}
+  {
+   "label": "RobinJ 的 X 个人资料",
+   "url": "https://x.com/robinjdev"
+  },
+  {
+   "label": "Twitfold App Store 页面",
+   "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807"
+  }
  ]
 }

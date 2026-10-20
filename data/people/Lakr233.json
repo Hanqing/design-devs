@@ -5,58 +5,188 @@
  "dek": "从越狱社区走出来的 Swift 开发者，作品多到数不过来：SSH 管理器 Rayon、把刘海变成灵动岛的 NotchDrop、AI 客户端 FlowDown、多账号 App Store 工具 Asspp，以及 2026 年一举拿下一万五千星的 vphone-cli。",
  "card": "vphone-cli、Asspp、NotchDrop、FlowDown、Rayon 作者，高产的 Apple 平台黑客。",
  "location": "中国",
- "tags": ["Swift", "macOS", "iOS", "逆向", "SwiftUI"],
- "links": [{"label": "qaq.wiki", "url": "https://qaq.wiki"}, {"label": "GitHub", "url": "https://github.com/Lakr233"}, {"label": "FlowDown", "url": "https://flowdown.ai"}],
+ "tags": [
+  "Swift",
+  "macOS",
+  "iOS",
+  "逆向",
+  "SwiftUI"
+ ],
+ "links": [
+  {
+   "label": "qaq.wiki",
+   "url": "https://qaq.wiki"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/Lakr233"
+  },
+  {
+   "label": "FlowDown",
+   "url": "https://flowdown.ai"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一个把「系统底层能力」变成好用 App 的极客，GitHub 上几十个项目，很多都有数百到上万星。",
   "<strong>代表作：</strong>vphone-cli（★1.5 万，在 Apple Silicon Mac 上运行虚拟 iPhone）、Asspp（★6k）、BBackupp（自动 iOS 备份机器人）、Rayon（SSH 管理器）、NotchDrop（★2.1k）、FlowDown（AI 客户端）、ColorfulX（网格渐变库）。",
   "<strong>个人风格：</strong>X 简介写着「#-a-different-kind-of-human」，并声明「我不会在个人资料里放除了 qaq.wiki 之外的链接」。"
  ],
- "lead": "Lakr 的 GitHub 公司一栏写着「Home Lab」，位置一栏写着「_kernel_task + 0x108」。这两个小玩笑说明了一切：他是一个住在内核地址里的人，把家当成实验室。",
+ "lead": "Lakr 的 GitHub 公司一栏写着「Home Lab」，位置一栏写着「_kernel_task + 0x108」。这两个小玩笑说明了一切：TA 是一个住在内核地址里的人，把家当成实验室。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2016–2020", "title": "越狱与逆向", "text": "2016 年注册 X，2017 年注册 GitHub。早期活跃于 iOS 越狱社区，写过 Decrypter、Iridium（基于 fouldecrypt 的静态 App 解密）等工具，以及「现代、快速、漂亮」的 C 项目 Irisin。"},
-    {"when": "2021", "title": "SwiftUI 与服务器", "text": "mobilePillowTalk 用 SwiftUI 监控 Linux 服务器；Colorful 复刻了 Apple Card 的动态彩色模糊背景；myyearwithgit 给代码仓库生成年终总结。"},
-    {"when": "2022", "title": "Rayon 与一堆好玩的东西", "text": "Rayon 是又一个 SSH 机器管理器，★2.4k；同年还有 MoneyProgress（「借一个上班的进度条」）、ActivateMac（在屏幕上显示 Windows 风格的激活提示）、Axchange（通过 ADB 传 Android 文件），以及给学生讲 Swift 的课件 SwiftCourse。"},
-    {"when": "2023", "title": "备份与客户端", "text": "BBackupp 自动备份 iOS 设备；Kimis 用纯 UIKit 打造 Misskey 客户端；ColorfulX 是高性能的网格渐变动画库。"},
-    {"when": "2024", "title": "NotchDrop、Asspp、FixTim", "text": "NotchDrop 把 MacBook 的刘海变成临时存放文件和 AirDrop 的「灵动岛」；Asspp 为多账号生态打造 App Store；FixTim「修复 macOS 上的所有运行时 Bug」（其实是一键重启各种系统服务）。"},
-    {"when": "2025", "title": "FlowDown 与 Viber", "text": "FlowDown 是隐私优先的原生 AI Agent 客户端，支持 MCP、快捷指令与本地模型；同时与 Hwang、EYHN、cats_juice 一起做了 iPhone 上的 Claude Code 客户端 Viber。"},
-    {"when": "2026", "title": "vphone-cli", "text": "在 Apple Silicon Mac 上运行一台虚拟 iPhone，迅速成为当年最受关注的 Apple 平台开源项目之一；同年还有 CoreExtendedNFC（把 libnfc 协议层移植到 CoreNFC）和 LookInside。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "vphone-cli", "meta": "2026 · Swift · ★1.5 万", "text": "在 Apple Silicon Mac 上运行虚拟 iPhone。", "url": "https://github.com/Lakr233/vphone-cli"},
-    {"name": "FlowDown", "meta": "2025 · iOS / macOS", "text": "「AI That Works Even Without Us」：隐私优先、原生性能的 AI Agent 应用。", "url": "https://flowdown.ai"},
-    {"name": "NotchDrop", "meta": "2024 · ★2.1k", "text": "把 MacBook 刘海变成灵动岛，临时存放文件、一键 AirDrop。", "url": "https://github.com/Lakr233/NotchDrop"},
-    {"name": "Asspp", "meta": "2024 · ★6k", "text": "面向多账号生态的 App Store 工具。", "url": "https://github.com/Lakr233/Asspp"},
-    {"name": "Rayon", "meta": "2022 · ★2.4k", "text": "又一个 SSH 机器管理器，原生、轻量。", "url": "https://github.com/Lakr233/Rayon"},
-    {"name": "ColorfulX", "meta": "2023 · Swift", "text": "高性能的动态网格渐变视图库。", "url": "https://github.com/Lakr233/ColorfulX"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://qaq.wiki", "paras": ["qaq.wiki 是他唯一愿意放在个人资料里的链接。网站由前端脚本渲染，保持了和他 X 账号一样的神秘感。", "GitHub 头像旁的简介只有一个表情：🥺。"]}},
-   {"p": "比起个人网站，他的 GitHub 本身更像一个作品集：README 普遍配有精心制作的截图和动图，很多项目附带完整的 App Store 上架版本。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Lakr 的作品有两种气质同时存在：<strong>极客的底层能力</strong>（虚拟化、解密、ADB、NFC）和<strong>对视觉的执着</strong>（Colorful、ColorfulX、Firework 烟花箱、NotchDrop 的动画）。很多人只能做好其中一种。"},
-   {"callout": "MoneyProgress（借一个上班的进度条）、ActivateMac（屏幕上的 Windows 激活提示）这类玩笑项目也能获得几百星，说明幽默感是开源传播的重要部分。", "t": "好玩也是生产力"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>高频发布：</strong>大量小项目里总会长出一个大项目。",
-    "<strong>底层 + 审美：</strong>懂系统，也懂动画和颜色。",
-    "<strong>和朋友组队：</strong>Viber、LookInside 都是多人协作的成果。",
-    "<strong>保持玩心：</strong>不是每个项目都要有商业目的。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2016–2020",
+       "title": "越狱与逆向",
+       "text": "2016 年注册 X，2017 年注册 GitHub。早期活跃于 iOS 越狱社区，写过 Decrypter、Iridium（基于 fouldecrypt 的静态 App 解密）等工具，以及「现代、快速、漂亮」的 C 项目 Irisin。"
+      },
+      {
+       "when": "2021",
+       "title": "SwiftUI 与服务器",
+       "text": "mobilePillowTalk 用 SwiftUI 监控 Linux 服务器；Colorful 复刻了 Apple Card 的动态彩色模糊背景；myyearwithgit 给代码仓库生成年终总结。"
+      },
+      {
+       "when": "2022",
+       "title": "Rayon 与一堆好玩的东西",
+       "text": "Rayon 是又一个 SSH 机器管理器，★2.4k；同年还有 MoneyProgress（「借一个上班的进度条」）、ActivateMac（在屏幕上显示 Windows 风格的激活提示）、Axchange（通过 ADB 传 Android 文件），以及给学生讲 Swift 的课件 SwiftCourse。"
+      },
+      {
+       "when": "2023",
+       "title": "备份与客户端",
+       "text": "BBackupp 自动备份 iOS 设备；Kimis 用纯 UIKit 打造 Misskey 客户端；ColorfulX 是高性能的网格渐变动画库。"
+      },
+      {
+       "when": "2024",
+       "title": "NotchDrop、Asspp、FixTim",
+       "text": "NotchDrop 把 MacBook 的刘海变成临时存放文件和 AirDrop 的「灵动岛」；Asspp 为多账号生态打造 App Store；FixTim「修复 macOS 上的所有运行时 Bug」（其实是一键重启各种系统服务）。"
+      },
+      {
+       "when": "2025",
+       "title": "FlowDown 与 Viber",
+       "text": "FlowDown 是隐私优先的原生 AI Agent 客户端，支持 MCP、快捷指令与本地模型；同时与 Hwang、EYHN、cats_juice 一起做了 iPhone 上的 Claude Code 客户端 Viber。"
+      },
+      {
+       "when": "2026",
+       "title": "vphone-cli",
+       "text": "在 Apple Silicon Mac 上运行一台虚拟 iPhone，迅速成为当年最受关注的 Apple 平台开源项目之一；同年还有 CoreExtendedNFC（把 libnfc 协议层移植到 CoreNFC）和 LookInside。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "vphone-cli",
+       "meta": "2026 · Swift · ★1.5 万",
+       "text": "在 Apple Silicon Mac 上运行虚拟 iPhone。",
+       "url": "https://github.com/Lakr233/vphone-cli"
+      },
+      {
+       "name": "FlowDown",
+       "meta": "2025 · iOS / macOS",
+       "text": "「AI That Works Even Without Us」：隐私优先、原生性能的 AI Agent 应用。",
+       "url": "https://flowdown.ai"
+      },
+      {
+       "name": "NotchDrop",
+       "meta": "2024 · ★2.1k",
+       "text": "把 MacBook 刘海变成灵动岛，临时存放文件、一键 AirDrop。",
+       "url": "https://github.com/Lakr233/NotchDrop"
+      },
+      {
+       "name": "Asspp",
+       "meta": "2024 · ★6k",
+       "text": "面向多账号生态的 App Store 工具。",
+       "url": "https://github.com/Lakr233/Asspp"
+      },
+      {
+       "name": "Rayon",
+       "meta": "2022 · ★2.4k",
+       "text": "又一个 SSH 机器管理器，原生、轻量。",
+       "url": "https://github.com/Lakr233/Rayon"
+      },
+      {
+       "name": "ColorfulX",
+       "meta": "2023 · Swift",
+       "text": "高性能的动态网格渐变视图库。",
+       "url": "https://github.com/Lakr233/ColorfulX"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://qaq.wiki",
+      "paras": [
+       "qaq.wiki 是 TA 唯一愿意放在个人资料里的链接。网站由前端脚本渲染，保持了和 TA X 账号一样的神秘感。",
+       "GitHub 头像旁的简介只有一个表情：🥺。"
+      ]
+     }
+    },
+    {
+     "p": "比起个人网站，TA 的 GitHub 本身更像一个作品集：README 普遍配有精心制作的截图和动图，很多项目附带完整的 App Store 上架版本。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "Lakr 的作品有两种气质同时存在：<strong>极客的底层能力</strong>（虚拟化、解密、ADB、NFC）和<strong>对视觉的执着</strong>（Colorful、ColorfulX、Firework 烟花箱、NotchDrop 的动画）。很多人只能做好其中一种。"
+    },
+    {
+     "callout": "MoneyProgress（借一个上班的进度条）、ActivateMac（屏幕上的 Windows 激活提示）这类玩笑项目也能获得几百星，说明幽默感是开源传播的重要部分。",
+     "t": "好玩也是生产力"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>高频发布：</strong>大量小项目里总会长出一个大项目。",
+      "<strong>底层 + 审美：</strong>懂系统，也懂动画和颜色。",
+      "<strong>和朋友组队：</strong>Viber、LookInside 都是多人协作的成果。",
+      "<strong>保持玩心：</strong>不是每个项目都要有商业目的。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "在 Mac 上试试 NotchDrop，或者跑起一台虚拟 iPhone。",
  "sources": [
-  {"label": "砍砍的 X 个人资料", "url": "https://x.com/Lakr233"},
-  {"label": "GitHub：Lakr233", "url": "https://github.com/Lakr233"},
-  {"label": "FlowDown 官网", "url": "https://flowdown.ai"},
-  {"label": "hwang.fun（Viber 合作者信息）", "url": "https://hwang.fun/projects"}
+  {
+   "label": "砍砍的 X 个人资料",
+   "url": "https://x.com/Lakr233"
+  },
+  {
+   "label": "GitHub：Lakr233",
+   "url": "https://github.com/Lakr233"
+  },
+  {
+   "label": "FlowDown 官网",
+   "url": "https://flowdown.ai"
+  },
+  {
+   "label": "hwang.fun（Viber 合作者信息）",
+   "url": "https://hwang.fun/projects"
+  }
  ]
 }

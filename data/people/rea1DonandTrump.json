@@ -2,11 +2,30 @@
  "name": "Rene Wang",
  "role": "设计工程师 · FlowFerry / Detail 作者",
  "title": "Rene Wang：收集<em>细小、认真、手工打磨</em>的设计细节",
- "dek": "前字节跳动（飞书、TikTok Shop）与 LobeHub 设计工程师，现在是一家尚未公开公司的创始设计工程师。他做稍后读应用 FlowFerry、设计细节合集 Detail、AI 协作设计词典 Wording，还在写一款跨平台的现代战争 RTS 游戏。",
+ "dek": "前字节跳动（飞书、TikTok Shop）与 LobeHub 设计工程师，现在是一家尚未公开公司的创始设计工程师。TA 做稍后读应用 FlowFerry、设计细节合集 Detail、AI 协作设计词典 Wording，还在写一款跨平台的现代战争 RTS 游戏。",
  "card": "设计工程师，前字节（飞书 / TikTok Shop）与 LobeHub；FlowFerry、Detail、Mono Card 作者。",
  "location": "中国",
- "tags": ["设计工程", "前端", "Flutter", "交互细节", "写作"],
- "links": [{"label": "rene.wang", "url": "https://rene.wang"}, {"label": "FlowFerry", "url": "https://flowferry.app"}, {"label": "Detail", "url": "https://detail.design"}],
+ "tags": [
+  "设计工程",
+  "前端",
+  "Flutter",
+  "交互细节",
+  "写作"
+ ],
+ "links": [
+  {
+   "label": "rene.wang",
+   "url": "https://rene.wang"
+  },
+  {
+   "label": "FlowFerry",
+   "url": "https://flowferry.app"
+  },
+  {
+   "label": "Detail",
+   "url": "https://detail.design"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一位横跨设计与工程的「设计工程师」，作品集里每一个小产品都像一件被认真打磨过的工艺品。",
   "<strong>代表作：</strong>Detail（2025，细小而用心的设计细节合集）、FlowFerry（2024，极简稍后读）、Mono Card（把链接、书、歌变成漂亮卡片）、Currates（划词换算汇率）、Timeline（保存 Twitter 浏览历史）、Toolkits（2019）。",
@@ -14,46 +33,145 @@
  ],
  "lead": "Rene 的个人网站只有一句自我介绍：「Rene Wang is a design engineer crafting software from China.」下面按年份倒序排列作品，再往下是文章。最近几篇的标题本身就像设计原则：《Build Interfaces That Survive Translation》《Wording in Interfaces》《Make What You Build Last》《Honor Friction in Your Mind》。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2019–2020", "title": "Toolkits 与早期写作", "text": "做了一个解决日常「纸割般小麻烦」的数字工具箱 Toolkits，并写了《比 GitHub 更好用的代码部署平台》。"},
-    {"when": "字节跳动", "title": "飞书与 TikTok Shop", "text": "在字节跳动的飞书（Lark）和 TikTok Shop 团队工作，接触大规模协作与电商产品的设计工程。"},
-    {"when": "2023", "title": "一年写了很多", "text": "Currates（在网页上选中文字即可换算成本地货币）、Timeline（保存你的 Twitter 浏览历史）；文章涵盖反向传播、粤语学习指南、国内注册 Google Play 开发者教程、《一次 PR 带来的启示》《我的老师》。"},
-    {"when": "LobeHub", "title": "开源 AI 产品", "text": "加入 LobeHub（以设计著称的开源 AI 聊天框架团队）。"},
-    {"when": "2024", "title": "FlowFerry 与 Mono Card", "text": "FlowFerry 是一个「离线，因为它属于你」的稍后读应用：粘贴链接，文章干净地排版到你的设备上；Mono Card 把任何链接、书或歌变成可分享的漂亮卡片。还写了《Figma 给独立开发者的内容组织》《7 个提高用户捐赠意愿的产品小技巧》。"},
-    {"when": "2025", "title": "Detail", "text": "收集「小而认真、手工打磨」的设计细节；同年写《On Building》《Web 地图完全指南》《Flutter 应用内购实践指南》和散文《故乡》。"},
-    {"when": "2026", "title": "创始设计工程师", "text": "在一家尚未公开的公司担任创始设计工程师，同时开发 Wording 与 RTS 游戏 Steel Tide。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Detail", "meta": "2025", "text": "A collection of small, careful, crafted design details.", "url": "https://detail.design"},
-    {"name": "FlowFerry", "meta": "2024 · 稍后读", "text": "无广告、无追踪、无需登录。文章保存在你自己的设备上，排版只为阅读。", "url": "https://flowferry.app"},
-    {"name": "Mono Card", "meta": "2024", "text": "把任何链接、书或歌变成一张漂亮的可分享卡片。", "url": "https://rene.wang"},
-    {"name": "Wording", "meta": "2026 · WIP", "text": "一本面向 AI 协作的设计词汇词典：让你能准确地告诉 AI 你要什么。", "url": "https://rene.wang"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://rene.wang", "paras": ["极简的单页：名字、一句介绍、作品列表（WIP 标签 + 年份 + 一句话）、文章列表、当前工作。没有图片，只靠排版的层级和节奏。", "FlowFerry 的官网则藏着很多彩蛋：一个复古的「恭喜你成为今天的幸运用户」弹窗、会滚动的数字价格。"]}}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Rene 的关注点非常「设计工程师」：<strong>翻译后界面会不会崩、文案措辞如何影响体验、做出来的东西能不能长久</strong>。这些问题介于设计与工程之间，往往没有人负责，而他把它们写成了文章和产品。"},
-   {"callout": "Wording 的出发点很有意思：在 AI 时代，设计师和 AI 协作的瓶颈往往不是能力，而是词汇。说得出「什么样的细节」，才能得到那样的细节。", "t": "为 AI 写一本设计词典"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>收集细节：</strong>好的设计感来自对大量细节的观察与积累。",
-    "<strong>把原则写下来：</strong>一篇篇短文，就是你自己的设计系统。",
-    "<strong>尊重用户数据：</strong>离线、本地、无追踪，本身就是体验的一部分。",
-    "<strong>大厂经验 + 个人作品：</strong>两条线并行，互相校准。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2019–2020",
+       "title": "Toolkits 与早期写作",
+       "text": "做了一个解决日常「纸割般小麻烦」的数字工具箱 Toolkits，并写了《比 GitHub 更好用的代码部署平台》。"
+      },
+      {
+       "when": "字节跳动",
+       "title": "飞书与 TikTok Shop",
+       "text": "在字节跳动的飞书（Lark）和 TikTok Shop 团队工作，接触大规模协作与电商产品的设计工程。"
+      },
+      {
+       "when": "2023",
+       "title": "一年写了很多",
+       "text": "Currates（在网页上选中文字即可换算成本地货币）、Timeline（保存你的 Twitter 浏览历史）；文章涵盖反向传播、粤语学习指南、国内注册 Google Play 开发者教程、《一次 PR 带来的启示》《我的老师》。"
+      },
+      {
+       "when": "LobeHub",
+       "title": "开源 AI 产品",
+       "text": "加入 LobeHub（以设计著称的开源 AI 聊天框架团队）。"
+      },
+      {
+       "when": "2024",
+       "title": "FlowFerry 与 Mono Card",
+       "text": "FlowFerry 是一个「离线，因为它属于你」的稍后读应用：粘贴链接，文章干净地排版到你的设备上；Mono Card 把任何链接、书或歌变成可分享的漂亮卡片。还写了《Figma 给独立开发者的内容组织》《7 个提高用户捐赠意愿的产品小技巧》。"
+      },
+      {
+       "when": "2025",
+       "title": "Detail",
+       "text": "收集「小而认真、手工打磨」的设计细节；同年写《On Building》《Web 地图完全指南》《Flutter 应用内购实践指南》和散文《故乡》。"
+      },
+      {
+       "when": "2026",
+       "title": "创始设计工程师",
+       "text": "在一家尚未公开的公司担任创始设计工程师，同时开发 Wording 与 RTS 游戏 Steel Tide。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Detail",
+       "meta": "2025",
+       "text": "A collection of small, careful, crafted design details.",
+       "url": "https://detail.design"
+      },
+      {
+       "name": "FlowFerry",
+       "meta": "2024 · 稍后读",
+       "text": "无广告、无追踪、无需登录。文章保存在你自己的设备上，排版只为阅读。",
+       "url": "https://flowferry.app"
+      },
+      {
+       "name": "Mono Card",
+       "meta": "2024",
+       "text": "把任何链接、书或歌变成一张漂亮的可分享卡片。",
+       "url": "https://rene.wang"
+      },
+      {
+       "name": "Wording",
+       "meta": "2026 · WIP",
+       "text": "一本面向 AI 协作的设计词汇词典：让你能准确地告诉 AI 你要什么。",
+       "url": "https://rene.wang"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://rene.wang",
+      "paras": [
+       "极简的单页：名字、一句介绍、作品列表（WIP 标签 + 年份 + 一句话）、文章列表、当前工作。没有图片，只靠排版的层级和节奏。",
+       "FlowFerry 的官网则藏着很多彩蛋：一个复古的「恭喜你成为今天的幸运用户」弹窗、会滚动的数字价格。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "Rene 的关注点非常「设计工程师」：<strong>翻译后界面会不会崩、文案措辞如何影响体验、做出来的东西能不能长久</strong>。这些问题介于设计与工程之间，往往没有人负责，而 TA 把它们写成了文章和产品。"
+    },
+    {
+     "callout": "Wording 的出发点很有意思：在 AI 时代，设计师和 AI 协作的瓶颈往往不是能力，而是词汇。说得出「什么样的细节」，才能得到那样的细节。",
+     "t": "为 AI 写一本设计词典"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>收集细节：</strong>好的设计感来自对大量细节的观察与积累。",
+      "<strong>把原则写下来：</strong>一篇篇短文，就是你自己的设计系统。",
+      "<strong>尊重用户数据：</strong>离线、本地、无追踪，本身就是体验的一部分。",
+      "<strong>大厂经验 + 个人作品：</strong>两条线并行，互相校准。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "去 Detail 看一看，那些你平时没注意到的用心之处。",
  "sources": [
-  {"label": "Rene Wang 的 X 个人资料", "url": "https://x.com/rea1DonandTrump"},
-  {"label": "rene.wang", "url": "https://rene.wang"},
-  {"label": "FlowFerry", "url": "https://flowferry.app"},
-  {"label": "Detail", "url": "https://detail.design"}
+  {
+   "label": "Rene Wang 的 X 个人资料",
+   "url": "https://x.com/rea1DonandTrump"
+  },
+  {
+   "label": "rene.wang",
+   "url": "https://rene.wang"
+  },
+  {
+   "label": "FlowFerry",
+   "url": "https://flowferry.app"
+  },
+  {
+   "label": "Detail",
+   "url": "https://detail.design"
+  }
  ]
 }

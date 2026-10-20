@@ -5,8 +5,23 @@
  "dek": "一个父亲陪女儿放学时被一块路牌难住，于是做了一个 App：拍下身边的东西，把它像贴纸一样「撕」下来，变成一张多语言单词卡。它拿下了 2025 年 Apple 设计大奖「趣味与愉悦」类别。",
  "card": "CapWords 团队，2025 Apple 设计大奖「趣味与愉悦」得主、App Store 年度 App。",
  "location": "中国",
- "tags": ["iOS", "语言学习", "AI", "Apple Design Award", "交互设计"],
- "links": [{"label": "CapWords", "url": "https://www.capwords.app"}, {"label": "App Store", "url": "https://apps.apple.com/us/app/capwords-ai-snap-learn-langs/id6738896465"}],
+ "tags": [
+  "iOS",
+  "语言学习",
+  "AI",
+  "Apple Design Award",
+  "交互设计"
+ ],
+ "links": [
+  {
+   "label": "CapWords",
+   "url": "https://www.capwords.app"
+  },
+  {
+   "label": "App Store",
+   "url": "https://apps.apple.com/us/app/capwords-ai-snap-learn-langs/id6738896465"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>@DTD_STUDIOS 是 CapWords 背后的团队账号，开发商在苹果新闻稿中署名为 HappyPlan Tech（中国）。",
   "<strong>荣誉：</strong>2025 Apple Design Awards「Delight and Fun（趣味与愉悦）」类别获奖 App（同届游戏类获奖者是 Balatro），并获 App Store Awards 年度 App。",
@@ -14,44 +29,128 @@
  ],
  "lead": "CapWords 的官网有一页叫「Why We Built CapWords」。故事从 2022 年开始：创始人的女儿在他办公室附近上幼儿园，每天放学路上都会指着东西问「这个用英语怎么说？」直到有一天，她指着一块路牌，他答不上来，打开翻译 App，听到一个机械的声音说：「Signpost.」女儿只是轻轻「哦」了一声。",
  "sections": [
-  {"id": "story", "title": "产品的故事", "blocks": [
-   {"steps": [
-    {"when": "2022", "title": "放学路上的提问", "text": "女儿指着路边的东西问英语怎么说，妻子教她 road、building，她学得飞快。一次路牌的提问让创始人意识到：语言学习应该自然、温暖，是日常生活的一部分，而不是冰冷机械的。"},
-    {"when": "灵感", "title": "贴纸", "text": "女儿从两岁起就喜欢到处贴贴纸：冰箱、沙发，甚至爸爸的脸，每次都认真得像在创作。于是他想：「如果能把真实世界里的东西像贴纸一样撕下来收集呢？」"},
-    {"when": "2024–2025", "title": "CapWords 上线", "text": "拍下物体，AI 识别并抠出主体，生成带多语言单词、发音和例句的「贴纸卡片」。家里、街上、旅行中，世界变成了一本私人课本。"},
-    {"when": "2025-06", "title": "Apple 设计大奖", "text": "在 WWDC25 获得 Apple Design Award「Delight and Fun」类别大奖。同年获 App Store Awards 年度 App。"}
-   ]}
-  ]},
-  {"id": "works", "title": "作品", "blocks": [
-   {"cards": [
-    {"name": "CapWords", "meta": "iOS · 2025 ADA", "text": "New Languages, Familiar World. 把日常物品变成多语言老师：指一指、拍一拍，周围就是语言游乐场。", "url": "https://www.capwords.app"},
-    {"name": "Our Story", "meta": "官网故事页", "text": "一个关于女儿、路牌和贴纸的创业故事。", "url": "https://www.capwords.app/about"}
-   ]}
-  ]},
-  {"id": "site", "title": "网站", "blocks": [
-   {"site": {"url": "https://www.capwords.app", "paras": ["官网用 Framer 制作，大标题「Learn a new language from familiar things」被逐字母拆开排布，像一张张贴纸。", "场景板块列出：家庭时光、旅行与跨文化探索、城市冒险、校园学习与工作，滚动循环展示。导航只有 Our Story、Press、Support 三项。"]}},
-   {"p": "「Our Story」页面完全用第一人称讲述，没有任何营销术语，读起来像一封家书。这是这个团队最有辨识度的地方：产品、网站和故事是同一种语气。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "CapWords 最核心的交互是「撕贴纸」：识别物体后，主体会被抠出来，带着白边，像一张真正的贴纸被揭下。这个隐喻来自孩子的日常，因此任何年龄的用户都能立刻理解。"},
-   {"quote": "Language learning should feel natural, a part of everyday life — something warm, not cold or mechanical.", "cite": "CapWords「Why We Built CapWords」"},
-   {"p": "有用户形容使用 CapWords 的感觉「像一个住在地球上的外星人，试图收集并命名每一样东西」。好的交互设计，会让用户自己想出这样的比喻。"}
-  ]},
-  {"id": "learn", "title": "可以从他们身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>从一个具体的瞬间出发：</strong>一块答不上来的路牌，胜过一百页市场分析。",
-    "<strong>找到一个所有人都懂的隐喻：</strong>贴纸。",
-    "<strong>让 AI 有温度：</strong>技术藏在背后，前台是收集的乐趣。",
-    "<strong>用第一人称讲故事：</strong>官网的 Our Story 就是最好的品牌。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "产品的故事",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2022",
+       "title": "放学路上的提问",
+       "text": "女儿指着路边的东西问英语怎么说，妻子教她 road、building，她学得飞快。一次路牌的提问让创始人意识到：语言学习应该自然、温暖，是日常生活的一部分，而不是冰冷机械的。"
+      },
+      {
+       "when": "灵感",
+       "title": "贴纸",
+       "text": "女儿从两岁起就喜欢到处贴贴纸：冰箱、沙发，甚至爸爸的脸，每次都认真得像在创作。于是他想：「如果能把真实世界里的东西像贴纸一样撕下来收集呢？」"
+      },
+      {
+       "when": "2024–2025",
+       "title": "CapWords 上线",
+       "text": "拍下物体，AI 识别并抠出主体，生成带多语言单词、发音和例句的「贴纸卡片」。家里、街上、旅行中，世界变成了一本私人课本。"
+      },
+      {
+       "when": "2025-06",
+       "title": "Apple 设计大奖",
+       "text": "在 WWDC25 获得 Apple Design Award「Delight and Fun」类别大奖。同年获 App Store Awards 年度 App。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "CapWords",
+       "meta": "iOS · 2025 ADA",
+       "text": "New Languages, Familiar World. 把日常物品变成多语言老师：指一指、拍一拍，周围就是语言游乐场。",
+       "url": "https://www.capwords.app"
+      },
+      {
+       "name": "Our Story",
+       "meta": "官网故事页",
+       "text": "一个关于女儿、路牌和贴纸的创业故事。",
+       "url": "https://www.capwords.app/about"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://www.capwords.app",
+      "paras": [
+       "官网用 Framer 制作，大标题「Learn a new language from familiar things」被逐字母拆开排布，像一张张贴纸。",
+       "场景板块列出：家庭时光、旅行与跨文化探索、城市冒险、校园学习与工作，滚动循环展示。导航只有 Our Story、Press、Support 三项。"
+      ]
+     }
+    },
+    {
+     "p": "「Our Story」页面完全用第一人称讲述，没有任何营销术语，读起来像一封家书。这是这个团队最有辨识度的地方：产品、网站和故事是同一种语气。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "CapWords 最核心的交互是「撕贴纸」：识别物体后，主体会被抠出来，带着白边，像一张真正的贴纸被揭下。这个隐喻来自孩子的日常，因此任何年龄的用户都能立刻理解。"
+    },
+    {
+     "quote": "Language learning should feel natural, a part of everyday life — something warm, not cold or mechanical.",
+     "cite": "CapWords「Why We Built CapWords」"
+    },
+    {
+     "p": "有用户形容使用 CapWords 的感觉「像一个住在地球上的外星人，试图收集并命名每一样东西」。好的交互设计，会让用户自己想出这样的比喻。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他们身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>从一个具体的瞬间出发：</strong>一块答不上来的路牌，胜过一百页市场分析。",
+      "<strong>找到一个所有人都懂的隐喻：</strong>贴纸。",
+      "<strong>让 AI 有温度：</strong>技术藏在背后，前台是收集的乐趣。",
+      "<strong>用第一人称讲故事：</strong>官网的 Our Story 就是最好的品牌。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "下载 CapWords，从你桌上的杯子开始学一个新单词。",
  "sources": [
-  {"label": "DTD 的 X 个人资料", "url": "https://x.com/DTD_STUDIOS"},
-  {"label": "CapWords 官网", "url": "https://www.capwords.app"},
-  {"label": "CapWords：Why We Built CapWords", "url": "https://www.capwords.app/about"},
-  {"label": "Apple Newsroom：2025 Apple Design Awards 获奖名单", "url": "https://www.apple.com/sn/newsroom/2025/06/apple-unveils-winners-and-finalists-of-the-2025-apple-design-awards"},
-  {"label": "Design Compass：Apple Design Awards 2025", "url": "https://designcompass.org/en/2025/06/04/apple-design-awards-2025/"}
+  {
+   "label": "DTD 的 X 个人资料",
+   "url": "https://x.com/DTD_STUDIOS"
+  },
+  {
+   "label": "CapWords 官网",
+   "url": "https://www.capwords.app"
+  },
+  {
+   "label": "CapWords：Why We Built CapWords",
+   "url": "https://www.capwords.app/about"
+  },
+  {
+   "label": "Apple Newsroom：2025 Apple Design Awards 获奖名单",
+   "url": "https://www.apple.com/newsroom/2025/06/apple-unveils-winners-and-finalists-of-the-2025-apple-design-awards/"
+  },
+  {
+   "label": "Design Compass：Apple Design Awards 2025",
+   "url": "https://designcompass.org/en/2025/06/04/apple-design-awards-2025/"
+  }
  ]
 }

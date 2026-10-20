@@ -2,56 +2,161 @@
  "name": "Kem Chen（四娘）",
  "role": "iOS 工程师 · Swift Evolution 译者 · 少数派作者",
  "title": "Kem Chen：<em>Hackable Life</em>，以及把 Swift 提案翻译成中文",
- "dek": "深圳的 iOS 工程师，博客「Hackable life?」从 2016 年写到今天。他把 Swift 并发的一整套核心提案（async/await、Actors、Sendable……）翻译成中文，写过「Swift 的字符串为什么这么难用」「iOS 原生 App 是怎么 deselectRow 的」，也在少数派分享折腾生活的方法。",
+ "dek": "深圳的 iOS 工程师，博客「Hackable life?」从 2016 年写到今天。TA 把 Swift 并发的一整套核心提案（async/await、Actors、Sendable……）翻译成中文，写过「Swift 的字符串为什么这么难用」「iOS 原生 App 是怎么 deselectRow 的」，也在少数派分享折腾生活的方法。",
  "card": "Swift Evolution 并发提案译者，博客「Hackable life?」作者，少数派作者，深圳。",
  "location": "中国深圳",
- "tags": ["Swift", "iOS", "翻译", "MLX", "效率"],
- "links": [{"label": "博客", "url": "http://kemchenj.github.io"}, {"label": "GitHub", "url": "https://github.com/kemchenj"}],
+ "tags": [
+  "Swift",
+  "iOS",
+  "翻译",
+  "MLX",
+  "效率"
+ ],
+ "links": [
+  {
+   "label": "博客",
+   "url": "http://kemchenj.github.io"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/kemchenj"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>一个把「可以被折腾的生活」当作信条的工程师，长期为中文开发者翻译 Swift 语言演进提案。",
   "<strong>代表作：</strong>SE-0296 Async/await、SE-0297 Concurrency 与 Objective-C 交互、SE-0298 Async/Await 序列、SE-0300 Continuation、SE-0306 Actors、SE-0302 Sendable 等提案中文翻译；原创文章《Swift 的字符串为什么这么难用？》《iOS 原生 App 是怎么 deselectRow 的？》；开源 DeselectRowTheBestWay、CustomJSONDecoder、mlx-swift-mvp、MLX-Sort。",
   "<strong>个人标签：</strong>「已读不知道怎么回」「希望世界和平，人类之间减少内耗」。"
  ],
- "lead": "Kem 的 X 简介：「Hackable Life | 已读不知道怎么回 | 希望世界和平，人类之间减少内耗 | 少数派 | 🍠🍠🍠🍔🍔」。他的博客侧边栏写着昵称「四娘」，链接区放着老司机 iOS 周报、iOS Dev Weekly、SwiftGG、喵神博客、Objective-C 中国。这几乎是一张中文 iOS 社区的地图。",
+ "lead": "Kem 的 X 简介：「Hackable Life | 已读不知道怎么回 | 希望世界和平，人类之间减少内耗 | 少数派 | 🍠🍠🍠🍔🍔」。TA 的博客侧边栏写着昵称「四娘」，链接区放着老司机 iOS 周报、iOS Dev Weekly、SwiftGG、喵神博客、Objective-C 中国。这几乎是一张中文 iOS 社区的地图。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2015–2016", "title": "从练手项目开始", "text": "2015 年注册 GitHub，2016 年做了「知乎日报」Swift 练手项目，开始写博客（Hexo + NexT）。"},
-    {"when": "2017–2018", "title": "深挖 UIKit 细节", "text": "CustomJSONDecoder、SwiftyOC；文章《iOS 原生 App 是怎么 deselectRow 的？》研究系统 App 的取消选中动画，并整理成开源的最佳实践；还写了 GitLab 动态 Environment URL 的实践。"},
-    {"when": "2019", "title": "Swift 语言演进", "text": "介绍 Opaque Result Types、Property Delegates（后来的 Property Wrappers），写下《Swift 的字符串为什么这么难用？》，以及 WWDC 2019 SwiftUI 集成、CocoaPods 加速索引等文章。"},
-    {"when": "2020–2022", "title": "翻译 Swift 并发提案", "text": "系统翻译 Swift 5.5 并发相关的全部核心提案：Atomic、Async/await、Concurrency 与 ObjC 交互、AsyncSequence、Continuation、Actors、Sendable，成为中文开发者学习 Swift 并发的重要资料。"},
-    {"when": "2024–2026", "title": "端侧 AI 与生活折腾", "text": "尝试用 MLX Swift 做端侧机器学习（mlx-swift-mvp、MLX-Sort），写 GLSL 滤镜；在少数派分享数字生活与效率方法。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "【译】SE-0306 Actors", "meta": "2021 · 翻译", "text": "Swift Actor 模型提案的完整中文翻译。", "url": "http://kemchenj.github.io"},
-    {"name": "【译】SE-0296 Async/await", "meta": "2021 · 翻译", "text": "Swift 异步函数核心提案的中文翻译。", "url": "http://kemchenj.github.io"},
-    {"name": "DeselectRowTheBestWay", "meta": "2018 · Swift", "text": "tableView deselectRow 的最佳实践，复刻系统 App 的手感。", "url": "https://github.com/kemchenj/DeselectRowTheBestWay"},
-    {"name": "Swift 的字符串为什么这么难用？", "meta": "2019 · 原创", "text": "从 Unicode 与性能角度解释 Swift String 的设计取舍。", "url": "http://kemchenj.github.io"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "http://kemchenj.github.io", "paras": ["博客标题「Hackable life?」，用 Hexo 与 NexT.Gemini 主题搭建，55 篇日志，按年份归档，版权写着「© 2016 – 2026 四娘」。", "每篇翻译都附完整的提案元信息：作者、Review Manager、状态与实现链接，严谨得像官方文档。"]}}
-  ]},
-  {"id": "craft", "title": "手艺与方法", "blocks": [
-   {"p": "Kem 的「设计感」体现在对<strong>交互细节的执着</strong>上：一个 cell 取消选中的时机和动画，他会去研究系统 App 到底怎么做。好的产品，就是由这些不起眼的细节组成的。"},
-   {"p": "翻译提案是一件辛苦且不显眼的事，却让更多中文开发者能直接读懂语言设计者的思考。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>读一手资料：</strong>Swift Evolution 提案是理解语言的最好入口。",
-    "<strong>翻译也是贡献：</strong>降低整个社区的学习门槛。",
-    "<strong>研究系统 App 的细节：</strong>它们是最好的交互教材。",
-    "<strong>让生活可被折腾：</strong>工程师思维也可以用来改善日常。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2015–2016",
+       "title": "从练手项目开始",
+       "text": "2015 年注册 GitHub，2016 年做了「知乎日报」Swift 练手项目，开始写博客（Hexo + NexT）。"
+      },
+      {
+       "when": "2017–2018",
+       "title": "深挖 UIKit 细节",
+       "text": "CustomJSONDecoder、SwiftyOC；文章《iOS 原生 App 是怎么 deselectRow 的？》研究系统 App 的取消选中动画，并整理成开源的最佳实践；还写了 GitLab 动态 Environment URL 的实践。"
+      },
+      {
+       "when": "2019",
+       "title": "Swift 语言演进",
+       "text": "介绍 Opaque Result Types、Property Delegates（后来的 Property Wrappers），写下《Swift 的字符串为什么这么难用？》，以及 WWDC 2019 SwiftUI 集成、CocoaPods 加速索引等文章。"
+      },
+      {
+       "when": "2020–2022",
+       "title": "翻译 Swift 并发提案",
+       "text": "系统翻译 Swift 5.5 并发相关的全部核心提案：Atomic、Async/await、Concurrency 与 ObjC 交互、AsyncSequence、Continuation、Actors、Sendable，成为中文开发者学习 Swift 并发的重要资料。"
+      },
+      {
+       "when": "2024–2026",
+       "title": "端侧 AI 与生活折腾",
+       "text": "尝试用 MLX Swift 做端侧机器学习（mlx-swift-mvp、MLX-Sort），写 GLSL 滤镜；在少数派分享数字生活与效率方法。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "【译】SE-0306 Actors",
+       "meta": "2021 · 翻译",
+       "text": "Swift Actor 模型提案的完整中文翻译。",
+       "url": "http://kemchenj.github.io"
+      },
+      {
+       "name": "【译】SE-0296 Async/await",
+       "meta": "2021 · 翻译",
+       "text": "Swift 异步函数核心提案的中文翻译。",
+       "url": "http://kemchenj.github.io"
+      },
+      {
+       "name": "DeselectRowTheBestWay",
+       "meta": "2018 · Swift",
+       "text": "tableView deselectRow 的最佳实践，复刻系统 App 的手感。",
+       "url": "https://github.com/kemchenj/DeselectRowTheBestWay"
+      },
+      {
+       "name": "Swift 的字符串为什么这么难用？",
+       "meta": "2019 · 原创",
+       "text": "从 Unicode 与性能角度解释 Swift String 的设计取舍。",
+       "url": "http://kemchenj.github.io"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "http://kemchenj.github.io",
+      "paras": [
+       "博客标题「Hackable life?」，用 Hexo 与 NexT.Gemini 主题搭建，55 篇日志，按年份归档，版权写着「© 2016 – 2026 四娘」。",
+       "每篇翻译都附完整的提案元信息：作者、Review Manager、状态与实现链接，严谨得像官方文档。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "手艺与方法",
+   "blocks": [
+    {
+     "p": "Kem 的「设计感」体现在对<strong>交互细节的执着</strong>上：一个 cell 取消选中的时机和动画，TA 会去研究系统 App 到底怎么做。好的产品，就是由这些不起眼的细节组成的。"
+    },
+    {
+     "p": "翻译提案是一件辛苦且不显眼的事，却让更多中文开发者能直接读懂语言设计者的思考。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>读一手资料：</strong>Swift Evolution 提案是理解语言的最好入口。",
+      "<strong>翻译也是贡献：</strong>降低整个社区的学习门槛。",
+      "<strong>研究系统 App 的细节：</strong>它们是最好的交互教材。",
+      "<strong>让生活可被折腾：</strong>工程师思维也可以用来改善日常。"
+     ]
+    }
+   ]
+  }
  ],
- "cta": "读一读他翻译的 SE-0306 Actors。",
+ "cta": "读一读 TA 翻译的 SE-0306 Actors。",
  "sources": [
-  {"label": "Kem Chen 的 X 个人资料", "url": "https://x.com/kemchenj"},
-  {"label": "博客 Hackable life?", "url": "http://kemchenj.github.io"},
-  {"label": "博客归档", "url": "https://kemchenj.github.io/archives/"},
-  {"label": "GitHub：kemchenj", "url": "https://github.com/kemchenj"}
+  {
+   "label": "Kem Chen 的 X 个人资料",
+   "url": "https://x.com/kemchenj"
+  },
+  {
+   "label": "博客 Hackable life?",
+   "url": "http://kemchenj.github.io"
+  },
+  {
+   "label": "博客归档",
+   "url": "https://kemchenj.github.io/archives/"
+  },
+  {
+   "label": "GitHub：kemchenj",
+   "url": "https://github.com/kemchenj"
+  }
  ]
 }

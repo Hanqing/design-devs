@@ -2,55 +2,156 @@
  "name": "Nikita Bobko",
  "role": "AeroSpace 作者 · 前 JetBrains / Kotlin 工程师",
  "title": "Nikita Bobko：一个<em>业余剃牦牛毛</em>的人做出了 AeroSpace",
- "dek": "前 JetBrains 工程师，参与过 Kotlin 编译器与 IntelliJ 相关工作。因为在 macOS 上找不到满意的平铺窗口管理器，他自己写了一个 i3 风格的 AeroSpace，如今有两万三千多星，成为 Mac 上最受欢迎的平铺窗口管理器之一。",
+ "dek": "前 JetBrains 工程师，参与过 Kotlin 编译器与 IntelliJ 相关工作。因为在 macOS 上找不到满意的平铺窗口管理器，TA 自己写了一个 i3 风格的 AeroSpace，如今有两万三千多星，成为 Mac 上最受欢迎的平铺窗口管理器之一。",
  "card": "AeroSpace（i3 风格 macOS 平铺窗口管理器，★2.3 万）作者，前 Kotlin / JetBrains，阿姆斯特丹。",
  "location": "荷兰阿姆斯特丹",
- "tags": ["macOS", "窗口管理", "Swift", "Kotlin", "键盘流"],
- "links": [{"label": "nbobko.com", "url": "https://www.nbobko.com"}, {"label": "AeroSpace", "url": "https://github.com/nikitabobko/AeroSpace"}],
+ "tags": [
+  "macOS",
+  "窗口管理",
+  "Swift",
+  "Kotlin",
+  "键盘流"
+ ],
+ "links": [
+  {
+   "label": "nbobko.com",
+   "url": "https://www.nbobko.com"
+  },
+  {
+   "label": "AeroSpace",
+   "url": "https://github.com/nikitabobko/AeroSpace"
+  }
+ ],
  "summary": [
   "<strong>一句话：</strong>「Amateur yak shaver.」（业余剃牦牛毛的人，指为了解决一个问题而陷入一连串前置问题的工程师。）",
   "<strong>代表作：</strong>AeroSpace（★2.3 万，i3 风格的 macOS 平铺窗口管理器，不需要关闭 SIP）；Linux 上的 Google 日历通知器、IntelliJ 键位插件、dotfiles、Homebrew tap 等小工具。",
   "<strong>演讲：</strong>KotlinConf 2025《Swift concurrency for curious Kotliners》；俄语播客 Podlodka #466「窗口管理器」。"
  ],
- "lead": "Nikita 的个人网站开头是：「Hello, web stranger! I am Nikita - a Software Engineer.」他更喜欢用邮件联系，网站上只列了两条近期动态：一期关于窗口管理器的播客，一场讲 Swift 并发的 KotlinConf 演讲。",
+ "lead": "Nikita 的个人网站开头是：「Hello, web stranger! I am Nikita - a Software Engineer.」TA 更喜欢用邮件联系，网站上只列了两条近期动态：一期关于窗口管理器的播客，一场讲 Swift 并发的 KotlinConf 演讲。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2016–2018", "title": "莫斯科国立大学与 Linux", "text": "2016 年注册 GitHub。在莫斯科国立大学计算数学与控制论系（ВМК МГУ）学习期间，为应用代数课程编写 BCH 码测试；用 Kotlin + GTK 写了 Linux 上的 Google 日历通知器。"},
-    {"when": "JetBrains", "title": "Kotlin 与 IntelliJ", "text": "在 JetBrains 工作，参与 Kotlin 相关开发（简介：ex-Kotlin, ex-JetBrains），并把自己的 IntelliJ 键位抽成插件。"},
-    {"when": "2023", "title": "AeroSpace", "text": "从 Linux 转到 Mac 后，怀念 i3 的平铺工作流，于是用 Swift 写了 AeroSpace：基于树的布局、纯文本配置、虚拟工作区、无需关闭 SIP。项目迅速成为 Mac 键盘流用户的标配。"},
-    {"when": "2025–2026", "title": "演讲与小工具", "text": "在 KotlinConf 2025 讲「给好奇的 Kotlin 开发者的 Swift 并发」；上 Podlodka 播客聊窗口管理器；做了 GitHub 提交列表新旧指示器扩展、Vibe Coding 的 Neovim 插件和 Android 网页快捷方式 App。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "AeroSpace", "meta": "2023 · Swift · ★2.3 万", "text": "i3 风格的 macOS 平铺窗口管理器，键盘驱动、纯文本配置。", "url": "https://github.com/nikitabobko/AeroSpace"},
-    {"name": "Swift concurrency for curious Kotliners", "meta": "KotlinConf 2025", "text": "从 Kotlin 协程的视角理解 Swift 并发。", "url": "https://youtu.be/Jyj4kdK8a6o"},
-    {"name": "Podlodka #466", "meta": "2026 · 播客", "text": "俄语播客：关于窗口管理器的一切。", "url": "https://podlodka.io/466"},
-    {"name": "dotfiles", "meta": "Linux & macOS", "text": "他的 Linux 与 macOS 配置文件。", "url": "https://github.com/nikitabobko/dotfiles"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://www.nbobko.com", "paras": ["一个几乎纯文本的网站：名字、邮箱、Home | RSS | GitHub | Mastodon | Twitter | Bluesky，然后按年份列出演讲和播客。", "它和 AeroSpace 的哲学一致：没有多余的装饰，只有键盘和文本。"]}}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "AeroSpace 的设计取舍非常清晰：<strong>不注入系统进程、不要求关闭 SIP</strong>，用公开 API 尽可能实现平铺体验。这让它比同类工具更容易被普通用户和公司电脑接受。"},
-   {"p": "配置完全基于文本文件，所有行为都可以被版本管理和分享。对键盘流用户来说，这本身就是一种「设计感」。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>剃牦牛毛也有价值：</strong>为了一个工作流写一个窗口管理器，结果帮到了几万人。",
-    "<strong>尊重平台限制：</strong>不关 SIP 也能做出好体验。",
-    "<strong>跨语言交流：</strong>用 Kotlin 的语言讲 Swift，降低理解门槛。",
-    "<strong>文本即配置：</strong>可版本化、可分享。"
-   ]}
-  ]}
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2016–2018",
+       "title": "莫斯科国立大学与 Linux",
+       "text": "2016 年注册 GitHub。在莫斯科国立大学计算数学与控制论系（ВМК МГУ）学习期间，为应用代数课程编写 BCH 码测试；用 Kotlin + GTK 写了 Linux 上的 Google 日历通知器。"
+      },
+      {
+       "when": "JetBrains",
+       "title": "Kotlin 与 IntelliJ",
+       "text": "在 JetBrains 工作，参与 Kotlin 相关开发（简介：ex-Kotlin, ex-JetBrains），并把自己的 IntelliJ 键位抽成插件。"
+      },
+      {
+       "when": "2023",
+       "title": "AeroSpace",
+       "text": "从 Linux 转到 Mac 后，怀念 i3 的平铺工作流，于是用 Swift 写了 AeroSpace：基于树的布局、纯文本配置、虚拟工作区、无需关闭 SIP。项目迅速成为 Mac 键盘流用户的标配。"
+      },
+      {
+       "when": "2025–2026",
+       "title": "演讲与小工具",
+       "text": "在 KotlinConf 2025 讲「给好奇的 Kotlin 开发者的 Swift 并发」；上 Podlodka 播客聊窗口管理器；做了 GitHub 提交列表新旧指示器扩展、Vibe Coding 的 Neovim 插件和 Android 网页快捷方式 App。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "AeroSpace",
+       "meta": "2023 · Swift · ★2.3 万",
+       "text": "i3 风格的 macOS 平铺窗口管理器，键盘驱动、纯文本配置。",
+       "url": "https://github.com/nikitabobko/AeroSpace"
+      },
+      {
+       "name": "Swift concurrency for curious Kotliners",
+       "meta": "KotlinConf 2025",
+       "text": "从 Kotlin 协程的视角理解 Swift 并发。",
+       "url": "https://youtu.be/Jyj4kdK8a6o"
+      },
+      {
+       "name": "Podlodka #466",
+       "meta": "2026 · 播客",
+       "text": "俄语播客：关于窗口管理器的一切。",
+       "url": "https://podlodka.io/466"
+      },
+      {
+       "name": "dotfiles",
+       "meta": "Linux & macOS",
+       "text": "TA 的 Linux 与 macOS 配置文件。",
+       "url": "https://github.com/nikitabobko/dotfiles"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://www.nbobko.com",
+      "paras": [
+       "一个几乎纯文本的网站：名字、邮箱、Home | RSS | GitHub | Mastodon | Twitter | Bluesky，然后按年份列出演讲和播客。",
+       "它和 AeroSpace 的哲学一致：没有多余的装饰，只有键盘和文本。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "AeroSpace 的设计取舍非常清晰：<strong>不注入系统进程、不要求关闭 SIP</strong>，用公开 API 尽可能实现平铺体验。这让它比同类工具更容易被普通用户和公司电脑接受。"
+    },
+    {
+     "p": "配置完全基于文本文件，所有行为都可以被版本管理和分享。对键盘流用户来说，这本身就是一种「设计感」。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>剃牦牛毛也有价值：</strong>为了一个工作流写一个窗口管理器，结果帮到了几万人。",
+      "<strong>尊重平台限制：</strong>不关 SIP 也能做出好体验。",
+      "<strong>跨语言交流：</strong>用 Kotlin 的语言讲 Swift，降低理解门槛。",
+      "<strong>文本即配置：</strong>可版本化、可分享。"
+     ]
+    }
+   ]
+  }
  ],
  "cta": "如果你喜欢键盘流，试试 AeroSpace。",
  "sources": [
-  {"label": "Nikita Bobko 的 X 个人资料", "url": "https://x.com/nikitabobko"},
-  {"label": "nbobko.com", "url": "https://www.nbobko.com"},
-  {"label": "GitHub：nikitabobko", "url": "https://github.com/nikitabobko"},
-  {"label": "AeroSpace", "url": "https://github.com/nikitabobko/AeroSpace"}
+  {
+   "label": "Nikita Bobko 的 X 个人资料",
+   "url": "https://x.com/nikitabobko"
+  },
+  {
+   "label": "nbobko.com",
+   "url": "https://www.nbobko.com"
+  },
+  {
+   "label": "GitHub：nikitabobko",
+   "url": "https://github.com/nikitabobko"
+  },
+  {
+   "label": "AeroSpace",
+   "url": "https://github.com/nikitabobko/AeroSpace"
+  }
  ]
 }
