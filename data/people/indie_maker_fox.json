@@ -1,0 +1,59 @@
+{
+ "name": "Fox",
+ "role": "大厂高工 · 副业独立开发 · 出海模板作者",
+ "title": "Fox：把出海经验<em>做成模板</em>卖给开发者",
+ "dek": "主业在大厂做高级工程师，副业做独立开发。他把自己做 AI SaaS 出海的全部基础设施打包成 MkSaaS、TanStarter、Mkdirs 等模板，两年收入突破 10 万美元，还经营着三千多人的出海社群。",
+ "card": "MkSaaS、TanStarter、Mkdirs 模板作者，大厂高工副业出海，两年收入破 10 万美元。",
+ "location": "中国",
+ "tags": ["Next.js", "TanStack", "Cloudflare", "出海", "公开构建"],
+ "links": [{"label": "MkSaaS", "url": "https://mksaas.com"}, {"label": "TanStarter", "url": "https://tanstarter.dev"}, {"label": "Mkdirs", "url": "https://mkdirs.com"}],
+ "summary": [
+  "<strong>一句话：</strong>一个「公开构建」的副业开发者：把建 AI SaaS 网站需要的认证、支付、数据库、SEO 全部做成模板，帮别人「从第一天开始赚钱」。",
+  "<strong>代表作：</strong>MkSaaS（Next.js AI SaaS 模板，570+ 用户）、TanStarter（基于 TanStack Start、部署在 Cloudflare Workers，250+ 用户）、Mkdirs（开源导航站模板，350+ 用户）、MkImage.ai（AI 生图模板）。",
+  "<strong>社区：</strong>出海交流 Discord 社群超过 3000 人。"
+ ],
+ "lead": "Fox 在 2024 年 12 月才注册 X，一年多时间积累了近两万关注者。他的打法很清晰：自己做出海产品时踩过的坑，整理成别人可以直接买来用的模板；模板的用户，又组成了他的社群。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "主业", "title": "大厂高级工程师", "text": "全职在大厂做高级工程师，独立开发是副业。"},
+    {"when": "2024", "title": "Mkdirs", "text": "开源的导航站（Directory）模板：AI、列表、付费提交、CMS、博客、认证、SEO、主题一应俱全，号称「30 分钟上线一个 AI 导航站」。"},
+    {"when": "2025-04", "title": "MkSaaS", "text": "完整的 Next.js AI SaaS 模板：Next.js 16、BetterAuth、Drizzle ORM、Stripe、shadcn/ui、Tailwind CSS v4，支持国际化、订阅、仪表盘、博客、文档。"},
+    {"when": "2025–2026", "title": "TanStarter 与 MkImage", "text": "TanStarter 基于 TanStack Start、全量部署在 Cloudflare Workers，强调「代码结构对 AI 编程工具友好」；MkImage.ai 是 AI 生图站模板。"},
+    {"when": "里程碑", "title": "两年收入破 10 万美元", "text": "在 X 简介中公开：产品出海，两年收入突破 10 万美元，坚持公开构建并分享 AI 相关技术。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "MkSaaS", "meta": "Next.js · 570+ 用户", "text": "构建 AI SaaS 网站的完整脚手架：认证、支付、国际化、Newsletter、仪表盘、SEO。", "url": "https://mksaas.com"},
+    {"name": "TanStarter", "meta": "TanStack · Cloudflare", "text": "「Ship Faster with TanStack, Cost Less with Cloudflare」，为 Claude Code、Codex、Cursor 优化的代码结构。", "url": "https://tanstarter.dev"},
+    {"name": "Mkdirs", "meta": "开源 · 350+ 用户", "text": "AI 驱动的导航站模板，30 分钟上线。", "url": "https://mkdirs.com"},
+    {"name": "MkImage.ai", "meta": "AI 生图模板", "text": "快速搭建 AI 生图产品的模板。", "url": "https://mkimage.ai"}
+   ]}
+  ]},
+  {"id": "site", "title": "网站与线上形象", "blocks": [
+   {"site": {"url": "https://tanstarter.dev", "paras": ["TanStarter 的官网是标准的「出海 SaaS」范式：一句话价值主张、三个社会证明数字（250+ 客户、3000+ Discord 成员、500+ 提交）、私有 GitHub 访问、终身更新、无限项目。", "页面专门强调「AI-Powered Codebase」：清晰的结构和一致的命名，让 AI 助手秒级生成完整功能。"]}},
+   {"p": "他的模板官网本身就是模板的最佳演示：用户看到的网站，就是他们买到后能得到的网站。"}
+  ]},
+  {"id": "craft", "title": "设计与方法", "blocks": [
+   {"p": "Fox 的产品思路是「卖铲子」：在 AI 出海淘金热里，给淘金者提供最趁手的工具。模板的设计重点在于<strong>为 AI 编程而优化</strong>：一致的命名、清晰的模块边界，让 Claude Code 能理解并扩展。"},
+   {"callout": "主业是大厂高工，副业搞独立开发；公开构建，专注 AI 相关的技术分享。", "t": "他的定位"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>把经验产品化：</strong>自己踩过的坑，就是别人愿意付费的捷径。",
+    "<strong>社群是护城河：</strong>三千人的 Discord 让模板持续迭代。",
+    "<strong>为 AI 写代码：</strong>代码结构不仅给人看，也给 Agent 看。",
+    "<strong>副业也能做成事业：</strong>稳定主业 + 持续公开构建。"
+   ]}
+  ]}
+ ],
+ "cta": "如果你想做一个出海 SaaS，看看他的模板是怎么组织的。",
+ "sources": [
+  {"label": "Fox 的 X 个人资料", "url": "https://x.com/indie_maker_fox"},
+  {"label": "MkSaaS：What is MkSaaS", "url": "https://mksaas.com/blog/what-is-mksaas"},
+  {"label": "TanStarter 官网", "url": "https://tanstarter.dev"},
+  {"label": "Mkdirs 官网", "url": "https://mkdirs.com"},
+  {"label": "MkSaaS Discord 社群", "url": "https://mksaas.link/discord"}
+ ]
+}

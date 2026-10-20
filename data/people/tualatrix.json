@@ -1,0 +1,191 @@
+{
+ "name": "图拉鼎 Tualatrix Chou",
+ "role": "独立开发者 · Mac / iOS 应用作者",
+ "title": "图拉鼎：从 Ubuntu Tweak 到<em>二十年独立开发</em>",
+ "dek": "大学时写的 Ubuntu Tweak 曾是 Ubuntu 必装软件；之后十几年，他做了 Manico、One Switch、效率控、PasteNow、MarkMark、PopTranslate。一个住在杭州良渚的独立开发者，把每一次低谷和恢复都写进了博客。",
+ "card": "Ubuntu Tweak、Manico、PasteNow、PopTranslate 作者，杭州良渚的资深独立开发者。",
+ "location": "中国杭州良渚",
+ "tags": [
+  "macOS",
+  "iOS",
+  "独立开发",
+  "Linux",
+  "博客"
+ ],
+ "links": [
+  {
+   "label": "博客 imtx.me",
+   "url": "https://imtx.me"
+  },
+  {
+   "label": "PasteNow",
+   "url": "https://pastenow.app"
+  },
+  {
+   "label": "PopTranslate",
+   "url": "https://imtx.me/poptranslate/"
+  },
+  {
+   "label": "Manico",
+   "url": "https://manico.im"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>中文独立开发圈最资深的人之一，2007 年起做开源，2013 年起做 Mac 应用，至今仍在一款一款地做。",
+  "<strong>代表作：</strong>Ubuntu Tweak（2007）、Manico（2013）、奇点 for 微博（2015）、效率控 / One Switch（2019）、Moment（2020）、PasteNow（2021）、MarkMark（2024）、PopTranslate（2025）。",
+  "<strong>为什么值得关注：</strong>他坦诚地写下独立开发者的疲倦、低谷与恢复，并坚持记录工作时间，让「做产品」变得可以被量化与反思。"
+ ],
+ "lead": "图拉鼎的 X 简介很短：「新晋奶爸，生活在杭州良渚的开发者。」他的博客从 2007 年一直写到今天，页脚写着「Copyright © 2007-2026」。这十九年，几乎就是中文独立开发史的一个缩影。",
+ "sections": [
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2007",
+       "title": "Ubuntu Tweak",
+       "text": "大学时期开始做的开源项目，让普通用户轻松配置 Ubuntu 系统与桌面，一度成为 Ubuntu 上的必装软件。他也在那段时间写过 Fcitx 输入法的 GTK 前端、OpenVPN 指示器和 Gentoo overlay。"
+      },
+      {
+       "when": "2013",
+       "title": "Manico",
+       "text": "转向 macOS，发布小巧易用的应用快速启动与切换工具 Manico。"
+      },
+      {
+       "when": "2015",
+       "title": "奇点 for 微博",
+       "text": "为 iOS 设计的第三方微博客户端，带来「不一般的刷微博体验」，后因平台原因下架。"
+      },
+      {
+       "when": "2019–2020",
+       "title": "效率控、One Switch、Moment",
+       "text": "效率控聚合二十多个实用小工具（图片压缩、打码、PDF 水印），One Switch 把隐藏桌面、切换深色模式等做成开关，Moment 记录日程与时间进度。"
+      },
+      {
+       "when": "2021",
+       "title": "PasteNow",
+       "text": "增强系统剪贴板的 Mac 应用，次年推出 iOS 版。两周年时他根据坚持多年的工作时间登记，给出了在这款产品上投入的精确时长。"
+      },
+      {
+       "when": "2023",
+       "title": "低谷后的恢复",
+       "text": "年终总结的标题是《向外连接与恢复成长的一年》。他写道，这一年在经历低谷之后重新与外界建立连接，随后「一系列惊喜的事情接连不断地发生」。"
+      },
+      {
+       "when": "2024–2025",
+       "title": "MarkMark 与 PopTranslate",
+       "text": "MarkMark 做「稍后读」与网络收藏夹；做得疲倦后，他把「开新坑」当作「心灵按摩」，于 2025 年 3 月发布了 AI 翻译工具 PopTranslate，并去 Apple Park 参加了 WWDC25。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "PopTranslate",
+       "meta": "2025 · macOS",
+       "text": "面向 macOS 的 AI 翻译工具，也是他走出疲倦期、找到新方向的作品。",
+       "url": "https://imtx.me/poptranslate/"
+      },
+      {
+       "name": "PasteNow",
+       "meta": "2021 · macOS / iOS",
+       "text": "把系统剪贴板变得更高效，持续迭代至今。",
+       "url": "https://pastenow.app"
+      },
+      {
+       "name": "Manico",
+       "meta": "2013 · macOS",
+       "text": "小巧的 App 启动与切换工具，很多 Mac 用户的第一个效率工具。",
+       "url": "https://manico.im"
+      },
+      {
+       "name": "Ubuntu Tweak",
+       "meta": "2007 · Python · 开源",
+       "text": "曾经的 Ubuntu 必装软件，他独立开发生涯的起点。",
+       "url": "https://github.com/tualatrix/ubuntu-tweak"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://imtx.me",
+      "paras": [
+       "站名「I'm TualatriX」，导航直接放了三款在售产品：PopTranslate、Manico、PasteNow。文章分为 Featured、Life、Products、Reading、Technical、Tips and Tricks。",
+       "网站架设在 Linode 上，About 页面用一份清单列出了他从 2007 年到 2025 年的全部主要作品及其状态（维护中、已下架、积极迭代中）。"
+      ]
+     }
+    },
+    {
+     "p": "博客最打动人的是那些不只关于产品的文章：《忆奶奶与我的二三事》、iPad mini 6 一年体验、M3 Max MacBook Pro 的选购思考。它让人看到一个完整的人，而不只是一个开发者。"
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "设计与手艺",
+   "blocks": [
+    {
+     "p": "图拉鼎的产品都有一种「Mac 原生」的克制：小、专注、尊重系统习惯。Manico 和 One Switch 都是把系统已有的能力用更顺手的方式暴露出来，PasteNow 的定位是「增强系统级剪贴板的体验」。"
+    },
+    {
+     "callout": "过去一周我在做一个新产品（AKA 开新坑），做这个新产品背后有很多契机，最重要的一个原因是：做 MarkMark 疲倦了。",
+     "t": "把「开新坑」作为「心灵按摩」"
+    },
+    {
+     "p": "他对独立开发者心理状态的诚实记录，可能比任何一款产品都更有价值。疲倦、低谷、恢复，是每个长期做产品的人都要面对的循环。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>记录工作时间：</strong>用数据回顾投入，而不是凭感觉。",
+      "<strong>允许自己换方向：</strong>开新坑也可以是恢复精力的方式。",
+      "<strong>做平台原生的好公民：</strong>增强系统能力，而不是另起炉灶。",
+      "<strong>把作品清单公开维护：</strong>哪些在维护、哪些已停止，坦诚面对用户。"
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "试试 PasteNow 或 PopTranslate，或者读读他的 2023 年终总结。",
+ "sources": [
+  {
+   "label": "图拉鼎的 X 个人资料",
+   "url": "https://x.com/tualatrix"
+  },
+  {
+   "label": "博客 imtx.me",
+   "url": "https://imtx.me"
+  },
+  {
+   "label": "imtx.me About",
+   "url": "https://imtx.me/about/"
+  },
+  {
+   "label": "GitHub：tualatrix",
+   "url": "https://github.com/tualatrix"
+  },
+  {
+   "label": "开发 PopTranslate 背后的故事",
+   "url": "https://imtx.me/blog/the-story-behind-the-development-of-poptranslate/"
+  }
+ ]
+}

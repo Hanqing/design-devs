@@ -1,0 +1,55 @@
+{
+ "name": "Jiayuan (JY) Zhang",
+ "role": "创业者 · Multica 创始人",
+ "title": "Jiayuan Zhang：让 Agent 成为<em>真正的队友</em>",
+ "dek": "前 TikTok 美国工程师，Devv AI 创始团队成员，如今在做 Multica：一个把编程 Agent 当作同事来分配任务的平台。他在 X 上分享 AI 与创业的长帖，被十几万人关注。",
+ "card": "Multica 创始人，前 Devv AI、前 TikTok US；X 上最活跃的中文 AI 创业者之一。",
+ "location": "互联网（远程）",
+ "tags": ["AI Agent", "创业", "开发者工具", "协作"],
+ "links": [{"label": "Multica", "url": "https://multica.ai"}, {"label": "Multica GitHub", "url": "https://github.com/multica-ai/multica"}],
+ "summary": [
+  "<strong>一句话：</strong>一位从大厂工程师走向 AI 创业的连续创业者，关注「人 + Agent」的团队协作形态。",
+  "<strong>经历：</strong>TikTok US 工程师 → Devv AI（面向开发者的 AI 搜索，后演化为全栈 AI Agent）→ Multica。",
+  "<strong>代表作：</strong>Multica（★5.3 万，可自托管的人机协作平台）；团队维护的 andrej-karpathy-skills（一份基于 Karpathy 观察的 CLAUDE.md，★22 万）。"
+ ],
+ "lead": "Multica 的官网首页只有一句话：「Your next 10 hires won't be human.」（你接下来的十个员工不会是人类。）这句话浓缩了 Jiayuan Zhang 这几年的判断：AI 不只是工具，而是团队成员。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2014", "title": "注册 X", "text": "早期以工程师身份活跃，后来逐渐成为 AI 领域的高产写作者。"},
+    {"when": "TikTok US", "title": "大厂工程师", "text": "在 TikTok 美国团队工作，积累了大规模产品工程经验（据其 X 简介「Ex-@tiktok_us」）。"},
+    {"when": "2023", "title": "Devv AI", "text": "参与创办面向开发者的 AI 搜索引擎 Devv：基于 RAG 与自建的文档、代码仓库索引，MVP 据说一周内完成。后来产品演化为构建全栈 AI 产品的编程 Agent。"},
+    {"when": "2025–2026", "title": "Multica", "text": "创立 Multica：可自托管、源码可见的平台，把 Claude Code、Codex、Cursor 等二十多种编程工具变成「队友」：分配任务、跟踪进度、积累技能，人和 Agent 在同一个活动流中协作。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Multica", "meta": "2026 · 开源 · ★5.3 万", "text": "让人和 AI Agent 成为一个团队：Agent 有档案、会汇报状态、创建 Issue、写评论。", "url": "https://multica.ai"},
+    {"name": "andrej-karpathy-skills", "meta": "Multica 团队 · ★22 万", "text": "一个基于 Karpathy 对 LLM 编程陷阱观察而写的 CLAUDE.md，改善 Claude Code 的行为。", "url": "https://github.com/multica-ai/andrej-karpathy-skills"},
+    {"name": "Devv AI", "meta": "2023 · 创始团队", "text": "面向开发者的 AI 搜索引擎，给出可靠的编程答案。", "url": "https://devv.ai"}
+   ]}
+  ]},
+  {"id": "site", "title": "线上形象", "blocks": [
+   {"site": {"url": "https://multica.ai", "paras": ["他没有独立的个人网站，X 是他的主要阵地。Multica 官网就是他目前的名片：一个模拟的 Issue 页面展示「Alex 把任务分配给 Claude，Claude 把状态改为进行中」，非常直观地讲清了产品理念。", "页面下方列出支持的二十多种 AI 编程工具，从 Claude Code、Codex 到 Kimi CLI、Trae。"]}}
+  ]},
+  {"id": "craft", "title": "设计与思考", "blocks": [
+   {"p": "Multica 的设计核心是一个隐喻：<strong>像给同事派活一样给 Agent 派活</strong>。不是新的聊天框，而是已有的协作习惯（Issue、状态、评论、动态流），只是参与者多了 Agent。"},
+   {"p": "andrej-karpathy-skills 的巨大成功也说明了他的嗅觉：在 Agent 时代，「一份好的说明书」可能比一个复杂的产品传播得更快。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>用熟悉的隐喻承载新能力：</strong>Agent = 同事，Issue = 任务。",
+    "<strong>在 X 上持续输出：</strong>长期分享让创业有了天然的分发渠道。",
+    "<strong>快速做 MVP：</strong>一周做出可用版本，再根据反馈演进。",
+    "<strong>开源换信任：</strong>可自托管、源码可见，降低企业采用门槛。"
+   ]}
+  ]}
+ ],
+ "cta": "去 Multica 试试给 Agent 派一个任务。",
+ "sources": [
+  {"label": "Jiayuan Zhang 的 X 个人资料", "url": "https://x.com/jiayuan_jy"},
+  {"label": "Multica 官网", "url": "https://multica.ai"},
+  {"label": "GitHub：multica-ai/multica", "url": "https://github.com/multica-ai/multica"},
+  {"label": "Indie Hackers：Devv 的 MVP 故事", "url": "https://indiehackers.com/post/SlB19aYcVZ8pGu3hNwhg"}
+ ]
+}

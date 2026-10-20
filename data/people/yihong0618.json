@@ -1,0 +1,65 @@
+{
+ "name": "yihong0618",
+ "role": "开源贡献者 · Python 开发者 · 跑者",
+ "title": "yihong0618：把<em>生活</em>写成开源项目的人",
+ "dek": "跑步记录变成 running_page，读书变成双语电子书工具，小爱音箱接上了 ChatGPT，博客写在 GitHub Issues 里。2025 年，他给 68 个项目提了 500 个 Pull Request。",
+ "card": "running_page、bilingual_book_maker、xiaogpt 作者；一年 500 个 PR 的开源贡献者。",
+ "location": "中国大连",
+ "tags": ["Python", "开源", "跑步", "GitHub Actions", "Rust"],
+ "links": [{"label": "GitHub", "url": "https://github.com/yihong0618"}, {"label": "Gitblog", "url": "https://github.com/yihong0618/gitblog"}, {"label": "跑步主页", "url": "https://yihong.run"}],
+ "summary": [
+  "<strong>一句话：</strong>生活在大连、在日企工作的 Python 程序员，喜欢王小波、诗歌、跑步和「奇怪的东西」，把几乎每一个生活爱好都做成了开源项目。",
+  "<strong>代表作：</strong>running_page（★4.5k，个人跑步主页）、bilingual_book_maker（★9.9k，AI 翻译双语电子书）、xiaogpt（★6.9k，小爱音箱接 ChatGPT）、GitHubPoster、gitblog。",
+  "<strong>为什么值得关注：</strong>他示范了一种轻盈的开源方式：从自己的需求出发，做小而有趣的东西，再慢慢成长为 CPython、OpenDAL、GreptimeDB 等项目的贡献者与 Committer。"
+ ],
+ "lead": "yihong0618 的 X 简介写着：「喜欢王小波，大概我们能成为朋友。」他每年都会建一个以年份命名的仓库（2024、2025、2026），里面写着当年的愿望清单和他创建的所有项目。2026 年那一页的第一句话是：「多关心家人朋友，如果有余力，去完成自己剩下的遗憾。」",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"p": "他在博客的 About Me 里列了三十多条关于自己的事：写了二十多年日记、能背近一百位圆周率和《琵琶行》、读过王小波的所有书、马拉松 PB 4 小时 1 分、媳妇是初恋、心情不好会去海边看海。还有一条：「0618 是 0.618 的意思，不是我生日，我也不是刘强东粉丝。」"},
+   {"steps": [
+    {"when": "2015", "title": "注册 GitHub", "text": "从 Python 起步，喜欢的编程语言至今仍是 Python。"},
+    {"when": "2019", "title": "gitblog：用 Issues 写博客", "text": "「People Die, but Long Live GitHub」。用 GitHub Issues 写文章，用 GitHub Actions 自动生成 README 和 RSS。这个模式被很多中文开发者效仿。"},
+    {"when": "2020", "title": "running_page", "text": "把 Strava、Nike Run Club、Garmin、Keep 等平台的跑步数据同步到 GitHub，生成一张可视化的个人跑步主页。他自己的主页 yihong.run 已经记录了超过一万公里。"},
+    {"when": "2021–2022", "title": "GitHubPoster 与 Kindle 助手", "text": "GitHubPoster 把跑步、读书、背单词、游戏等数据画成 GitHub 风格的热力图和 Skyline；Kindle_download_helper 帮用户在 Kindle 退出中国时批量下载自己买过的书。"},
+    {"when": "2023", "title": "大模型元年", "text": "xiaogpt 让小米小爱音箱接上 ChatGPT 等大模型；bilingual_book_maker 用 AI 把 epub 翻译成双语对照电子书，成为他星数最多的项目。之后还有 Telegram Bot 合集、DALL·E 3 机器人等。"},
+    {"when": "2025", "title": "一年 500 个 Pull Request", "text": "他意识到「之前做的玩具项目没那么重要了」，转向给大项目做深度贡献：给 68 个项目提了 500 个 PR，合并 415 个，成为 OpenDAL、GreptimeDB 的 Committer，给 CPython、dify 贡献代码，还参加了 PyCon 并做了几场演讲。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "bilingual_book_maker", "meta": "2023 · Python · ★9.9k", "text": "用 AI 翻译生成双语对照 epub 电子书，支持多种模型。", "url": "https://github.com/yihong0618/bilingual_book_maker"},
+    {"name": "xiaogpt", "meta": "2023 · Python · ★6.9k", "text": "用小米小爱音箱和 ChatGPT 等大模型对话。", "url": "https://github.com/yihong0618/xiaogpt"},
+    {"name": "running_page", "meta": "2020 · TypeScript · ★4.5k", "text": "做一个属于自己的跑步主页，聚合多平台跑步数据并可视化。", "url": "https://github.com/yihong0618/running_page"},
+    {"name": "GitHubPoster", "meta": "2021 · Python", "text": "把生活中的一切变成 GitHub 风格的 SVG 海报和 3D Skyline。", "url": "https://github.com/yihong0618/GitHubPoster"},
+    {"name": "gitblog", "meta": "2019 · Python", "text": "用 Issues + Actions 写博客，「随意转载，无需署名」。", "url": "https://github.com/yihong0618/gitblog"},
+    {"name": "每年一个仓库", "meta": "2024 / 2025 / 2026", "text": "以年份命名的仓库：愿望清单 + 当年创建的项目表，自动更新星数。", "url": "https://github.com/yihong0618/2026"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://yihong.run", "paras": ["他的「个人网站」就是 running_page：一张地图上叠满了跑步轨迹，下面是按年份统计的公里数和每一次跑步的列表。它本身就是作品，也是他生活的记录。", "博客则放在 GitHub 上的 gitblog 仓库里，首页有友情链接、置顶文章和自动生成的分类目录。"]}},
+   {"p": "置顶文章里有《那些幸福的瞬间》《2025 年我提了 500 个 Pull Requests》《一次艰难的 CPython issue 排查过程，以及我学到了什么》。读起来像一个朋友在跟你聊天。"}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "yihong 的作品很少有复杂的界面，但它们有一种「生活设计感」：<strong>把数据变成可以挂在墙上的东西</strong>。跑步变成地图，读书变成热力图，一年变成一个仓库。"},
+   {"quote": "The best is yet to come.", "cite": "yihong0618 的 GitHub 简介，也是他常说给朋友的话"},
+   {"callout": "去年面试一家数据库公司时，面试官看了他给 Grafana 的 PR 说「原来不是什么大 feature 啊」。他由此意识到「开源只是浅浅地加入是不够的」，于是有了 2025 年的 500 个 PR。", "t": "一次面试带来的转向"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>从自己的生活出发：</strong>最好的开源项目往往是「我自己需要」。",
+    "<strong>让工具替你记录：</strong>GitHub Actions + 数据可视化，让坚持变得可见。",
+    "<strong>从玩具到深度贡献：</strong>AI 让玩具项目变得廉价时，转向参与基础设施。",
+    "<strong>公开地生活：</strong>愿望清单、年度总结、About Me，都写在公开仓库里。"
+   ]}
+  ]}
+ ],
+ "cta": "fork 一个 running_page，给自己做一张跑步地图。",
+ "sources": [
+  {"label": "yihong0618 的 X 个人资料", "url": "https://x.com/yihong0618"},
+  {"label": "GitHub：yihong0618", "url": "https://github.com/yihong0618"},
+  {"label": "Gitblog：About Me", "url": "https://github.com/yihong0618/gitblog/issues/282"},
+  {"label": "Gitblog：2025 年我提了 500 个 Pull Requests", "url": "https://github.com/yihong0618/gitblog/issues/334"},
+  {"label": "yihong0618/2026", "url": "https://github.com/yihong0618/2026"},
+  {"label": "yihong.run", "url": "https://yihong.run"}
+ ]
+}

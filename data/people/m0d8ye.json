@@ -1,0 +1,60 @@
+{
+ "name": "Max Lv",
+ "role": "NVIDIA 芯片架构师 · 开源开发者",
+ "title": "Max Lv：在芯片与<em>开源</em>之间来回的人",
+ "dek": "shadowsocks-android、ProxyDroid、GAEProxy 的作者；白天在 NVIDIA 做芯片架构，业余时间把《仙剑奇侠传》DOS 版完整移植成 Rust，还用神经网络实时超分。",
+ "card": "shadowsocks-android 作者，NVIDIA 芯片架构师；2026 年用 AI 把《仙剑》移植成 Rust。",
+ "location": "中国上海",
+ "tags": ["Android", "网络", "Rust", "芯片", "开源"],
+ "links": [{"label": "博客 maxlv.net", "url": "https://maxlv.net"}, {"label": "开源项目页", "url": "https://madeye.github.io/"}, {"label": "GitHub", "url": "https://github.com/madeye"}],
+ "summary": [
+  "<strong>一句话：</strong>上海的 NVIDIA 芯片架构师，也是中文开源圈的老兵：shadowsocks-android（★3.6 万）的作者与长期维护者。",
+  "<strong>代表作：</strong>shadowsocks-android、shadowsocks-libev / shadowsocks-c、ProxyDroid、GAEProxy、BaoLianDeng（macOS 代理），以及 2026 年的一系列 AI 辅助开源项目。",
+  "<strong>为什么值得关注：</strong>他用自己 2026 年的项目数据论证：AI Agent 把独立开发压缩进了碎片时间，「当实现成本趋近于零，工具软件的开源与免费」有了新的经济逻辑。"
+ ],
+ "lead": "Max Lv 2009 年就注册了 X。十几年前，他写的 GAEProxy 和 ProxyDroid 是很多 Android 用户接触「全局代理」的起点；后来他写下的 shadowsocks-android，成为这个领域最知名的客户端之一。如今他的博客叫「Lv. MAX」，记录的是一个芯片工程师在 AI 时代重新拿起业余项目的快乐。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2011", "title": "GAEProxy", "text": "基于 Google App Engine 的 Android 代理工具，用 C 写成，是他最早的知名开源项目（现已弃用）。"},
+    {"when": "2012", "title": "ProxyDroid", "text": "Android 全局代理工具，至今仍有 2.5k 星，并在 2026 年用 Kotlin 重新整理。"},
+    {"when": "2012 起", "title": "shadowsocks-android", "text": "为 Android 编写 shadowsocks 客户端，并与 Mygod Studio 一起长期维护，成为 GitHub 上最受欢迎的 Android 网络工具之一。他也是 shadowsocks-libev（后来的 shadowsocks-c）的核心维护者。"},
+    {"when": "2016", "title": "tcp_china", "text": "一个针对中国网络环境的 TCP 拥塞控制算法实验，显示出他在网络协议层面的功底。"},
+    {"when": "职业", "title": "NVIDIA 芯片架构师", "text": "在 NVIDIA 上海从事芯片架构工作（据其 GitHub 与项目页自述）。"},
+    {"when": "2026", "title": "AI 时代的开源井喷", "text": "一年内发布 ServerBox（旧安卓手机变 Linux 服务器）、ad-skipper（本地 VLM 跳开屏广告）、Mandroid（在 macOS 原生窗口中运行 Android 应用）、gterm（基于 libghostty 的 iOS 终端）、rv（GPUI 写的 VNC 客户端）、《仙剑奇侠传》DOS 引擎 Rust 移植等。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "shadowsocks-android", "meta": "Kotlin · ★3.6 万", "text": "Android 上的 shadowsocks 客户端，十余年持续维护。", "url": "https://github.com/shadowsocks/shadowsocks-android"},
+    {"name": "Legend-of-Sword-and-Fairy", "meta": "2026 · Rust · WASM", "text": "完整的《仙剑奇侠传》DOS 引擎 Rust 移植，可原生运行或在浏览器中游玩，并用 Real-ESRGAN 实时超分。", "url": "https://github.com/madeye/Legend-of-Sword-and-Fairy"},
+    {"name": "ServerBox", "meta": "2026 · Kotlin", "text": "无需 Root，把旧安卓手机变成 Alpine / Arch / Debian / Ubuntu Linux 服务器。", "url": "https://github.com/madeye/ServerBox"},
+    {"name": "BaoLianDeng 宝莲灯", "meta": "Swift · ★780", "text": "由 Rust 写的 Clash 兼容内核 meow-rs 驱动的 macOS VPN 代理应用。", "url": "https://github.com/madeye/BaoLianDeng"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://maxlv.net", "paras": ["博客名「Lv. MAX」，副标题「Random thoughts」，中英双语。每篇文章标出日期和阅读时长。", "近期文章：《仙剑 DOS 版：移植到 Rust，再用神经网络超分》《AI Agent 把独立开发压缩进碎片时间》《被大模型吸收的十年开源，正在完成 shadowsocks 的最初愿景》。"]}},
+   {"p": "另一个站点 madeye.github.io 是一个自动生成的开源项目目录：每个项目一行，带语言、星数和「Updated today」，像一张实时更新的工作台。"}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"quote": "十年的开源贡献如今都在大模型里，即使是一个免费的、非最强的模型，也能在几小时内写出一个可用的混淆插件。这个愿景第一次在实践中变得可及。", "cite": "Max Lv 博客文章大意（2026-05）"},
+   {"p": "他移植《仙剑》时最看重的是<strong>可验证</strong>：怎样证明 Rust 版本与原版行为一致，怎样设计「mega kernel」，怎样用实测数据调 WebGPU。芯片工程师的严谨和游戏玩家的情怀，在一个项目里汇合。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>用数据讨论 AI 对开发的影响：</strong>他用自己项目的提交记录来分析，而不是凭感觉。",
+    "<strong>旧设备、旧游戏都值得重做：</strong>ServerBox 和仙剑移植都是「让旧东西重新发光」。",
+    "<strong>长期维护的价值：</strong>一个客户端维护十几年，本身就是一种设计。",
+    "<strong>主业与业余互相滋养：</strong>芯片架构的性能直觉，用在了 WebGPU 和推理优化上。"
+   ]}
+  ]}
+ ],
+ "cta": "在浏览器里打开他移植的《仙剑奇侠传》，重温 1995 年。",
+ "sources": [
+  {"label": "Max Lv 的 X 个人资料", "url": "https://x.com/m0d8ye"},
+  {"label": "博客 maxlv.net", "url": "https://maxlv.net"},
+  {"label": "开源项目页 madeye.github.io", "url": "https://madeye.github.io/"},
+  {"label": "GitHub：madeye", "url": "https://github.com/madeye"},
+  {"label": "Shadowsocks（维基百科）", "url": "https://en.wikipedia.org/wiki/Shadowsocks"}
+ ]
+}

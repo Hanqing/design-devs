@@ -1,0 +1,62 @@
+{
+ "name": "李博杰 Bojie Li",
+ "role": "独立研究者 · 交互式 Agent 系统",
+ "title": "李博杰：从数据中心网络到<em>会学习的 Agent</em>",
+ "dek": "中科大少年班、中科大与微软亚洲研究院联合培养博士、华为首批「天才少年」，后创业做 AI Agent。他写的开源书《深入理解 AI Agent》在 GitHub 上收获了五万多星。",
+ "card": "华为首批天才少年，《深入理解 AI Agent》作者，独立研究交互式 Agent 系统。",
+ "location": "中国",
+ "tags": ["AI Agent", "LLM 系统", "数据中心网络", "语音", "写作"],
+ "links": [{"label": "博客 01.me", "url": "https://01.me/"}, {"label": "GitHub", "url": "https://github.com/bojieli"}, {"label": "AI Agent 书", "url": "https://github.com/bojieli/ai-agent-book"}],
+ "summary": [
+  "<strong>一句话：</strong>系统研究者出身（SIGCOMM、SOSP、NSDI 等顶会论文作者），经历华为 2012 实验室和两次 AI 创业，现在是专注交互式 Agent 系统的独立研究者。",
+  "<strong>代表作：</strong>开源书《深入理解 AI Agent：设计原理与工程实践》（★5.5 万）、《深入理解 AI Infra：量化分析与系统设计》（★6.8k），以及一批网络与 Agent 小工具。",
+  "<strong>他的观点：</strong>被高估的是「智能上限」，被低估的是「从环境中持续学习」；语音会从次要模态变成主要模态。"
+ ],
+ "lead": "李博杰的博客域名是 01.me，首页最新的一篇是他在 Flink Forward Asia 2026 上的主题演讲《AI Agent 的两朵云》：借开尔文勋爵「物理学天空上的两朵乌云」的比喻，讲 Agent 面前的两个难题：如何流式、实时地与环境交互，以及如何像人一样从经验中自主学习。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "本科", "title": "中科大少年班", "text": "在中国科学技术大学少年班就读，同时是中科大 Linux 用户协会（USTCLUG）的活跃成员。2014 年的课程项目 CompilerBackdoor 复现了 Ken Thompson《Reflections on Trusting Trust》中的编译器后门。"},
+    {"when": "博士", "title": "中科大 × 微软亚洲研究院", "text": "联合培养博士，研究数据中心网络与可编程硬件，在 SIGCOMM、SOSP、NSDI、ATC、PLDI 等顶会发表论文，获 ACM 中国优秀博士学位论文奖与「微软学者」奖学金。"},
+    {"when": "2019", "title": "华为首批「天才少年」", "text": "加入华为 2012 实验室，曾任灵衢 UB（统一总线）核心软件架构师，负责大模型训练软硬协同与基础设施优化。2026 年他开源了 UB 协议的净室实现 OpenURMA。"},
+    {"when": "2023", "title": "离开华为，创业 Logenic AI", "text": "与朋友一起创立 Logenic AI，做多模态个性化助理与数字孪生。"},
+    {"when": "2024–2025", "title": "Pine AI 首席科学家", "text": "先任顾问，2025 年 2 月正式加入 Pine AI 担任首席科学家，做帮助普通用户与客服博弈、维权的语音 Agent，坚持自研语音模型。同年开源《深入理解 AI Agent》书稿，并在国科大开设 Agent 课程项目。"},
+    {"when": "2026", "title": "独立研究者", "text": "以独立研究者身份发表流式 ASR、多模态用户记忆等论文，每篇都配一个交互式网站；出版开源书《深入理解 AI Infra》；在 Flink Forward Asia 做主题演讲，参加腾讯研究院「AI 跃迁者」直播对谈。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "《深入理解 AI Agent》", "meta": "2025 · 开源书 · ★5.5 万", "text": "设计原理与工程实践：全书正文、编译版 PDF 与按章配套代码。", "url": "https://github.com/bojieli/ai-agent-book"},
+    {"name": "《深入理解 AI Infra》", "meta": "2026 · 开源书 · ★6.8k", "text": "从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计，含计算工具与实验。", "url": "https://github.com/bojieli/ai-infra-book"},
+    {"name": "DoNotType", "meta": "2026 · Swift", "text": "结合屏幕上下文的语音输入，覆盖 macOS、Windows、Android、iOS。", "url": "https://github.com/bojieli/DoNotType"},
+    {"name": "queqiao / tunless / agentreach", "meta": "2026 · Go / Swift", "text": "长距离链路的广域网优化代理、免 TUN 透明代理、让编程 Agent 安全连到任意 SSH 主机：网络老兵的看家本领。", "url": "https://github.com/bojieli"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://01.me/", "paras": ["博客中英双语，导航只有 About、Research、Archives、English。文章普遍很长，多是演讲整理、对谈转录和深度技术分析。", "Research 页面按「近期工作」列出论文，每篇都附有一个可交互的配套网站，这是研究者里很少见的呈现方式。"]}},
+   {"p": "从 2026 年的文章可以看到他的「反共识」：当所有人都去卷 Coding Agent，他选择做「人与 AI 的交互」，尤其是语音。他说：「我特别讨厌同质化竞争。」"}
+  ]},
+  {"id": "craft", "title": "思想与方法", "blocks": [
+   {"quote": "主流 Scaling Law 暗含「小世界假设」——以为有用的知识就那么多，学一次就够；但真实垂直场景里的知识根本不在训练语料里。", "cite": "李博杰《当所有人都去卷 Coding，我在做什么？》"},
+   {"p": "他认为「有趣」和「有用」是正交的两个维度，会像钟摆一样来回摆动：现在先做有用的东西，等 AGI 把人从生产力中解放出来，「有趣」会重新回归。"},
+   {"callout": "把一本书完整开源（正文 + PDF + 每章代码），既是知识分享，也是最好的个人名片。五万多颗星说明了这条路的价值。", "t": "开源写书"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>系统功底是长期资产：</strong>从网卡、总线到 Agent，底层理解让他总能量化地讨论问题。",
+    "<strong>论文配交互网站：</strong>让研究被更多人看懂。",
+    "<strong>把课程和书都开源：</strong>写作是对知识最彻底的整理。",
+    "<strong>避开同质化：</strong>在所有人涌向同一方向时，认真想想反面。"
+   ]}
+  ]}
+ ],
+ "cta": "从《深入理解 AI Agent》的第一章读起。",
+ "sources": [
+  {"label": "李博杰的 X 个人资料", "url": "https://x.com/bojie_li"},
+  {"label": "博客 01.me", "url": "https://01.me/"},
+  {"label": "01.me Research", "url": "https://01.me/research/"},
+  {"label": "GitHub：bojieli", "url": "https://github.com/bojieli"},
+  {"label": "IT之家相关报道（2026-07）", "url": "https://www.ithome.com/0/973/883.htm"},
+  {"label": "澎湃新闻相关报道", "url": "https://www.thepaper.cn/newsDetail_forward_33531570"}
+ ]
+}
