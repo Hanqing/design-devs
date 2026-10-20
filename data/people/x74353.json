@@ -1,0 +1,58 @@
+{
+ "name": "William Gustafson",
+ "role": "macOS 开发者 · Amphetamine 作者",
+ "title": "William Gustafson：让 Mac <em>保持清醒</em>的人",
+ "dek": "他做的 Amphetamine 是 Mac 上最受欢迎的防休眠工具之一。2020 年底，苹果以「涉及违禁药物」为由威胁下架这款上架六年、被官方推荐过的免费应用；他公开申诉，社区声援，苹果最终收回决定。",
+ "card": "Amphetamine 作者，与 App Store 审核正面交锋并胜出的 macOS 开发者。",
+ "location": "美国马萨诸塞州阿灵顿",
+ "tags": ["macOS", "菜单栏工具", "电源管理", "App Store", "社区"],
+ "links": [{"label": "Amphetamine（Mac App Store）", "url": "https://apps.apple.com/us/app/amphetamine/id937984704"}, {"label": "GitHub", "url": "https://github.com/x74353"}],
+ "summary": [
+  "<strong>一句话：</strong>「Certified Human & macOS developer.」一个把一件小事做到极致的 Mac 开发者。",
+  "<strong>代表作：</strong>Amphetamine（2014，免费的 Mac 防休眠工具，事件发生时下载量超过 43 万）、Amphetamine Enhancer（★1.1k）、Power Protect、KeyJerk Reactions（用快捷键触发 macOS Sonoma 视频反应）、SeeVS（疫情期间查 CVS 疫苗余量的菜单栏 App）。",
+  "<strong>为什么值得关注：</strong>#SaveAmphetamine 事件是独立开发者与平台审核规则博弈的经典案例。"
+ ],
+ "lead": "Amphetamine 的图标是一颗胶囊，名字是一种兴奋剂。这个玩笑在 App Store 上安然存在了六年，甚至被苹果在 Mac App Store 的推荐故事里点名。直到 2020 年 12 月 29 日，一封审核邮件说：改名，否则 1 月 12 日下架。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2008–2012", "title": "注册 X 与 GitHub", "text": "长期从事 macOS 开发，GitHub 资料显示与哈佛大学相关。"},
+    {"when": "2014", "title": "Amphetamine 上架", "text": "一个免费的菜单栏工具：按时间、按应用、按下载、按外接显示器等条件让 Mac 保持清醒，功能远超系统自带的 caffeinate。"},
+    {"when": "2020", "title": "Amphetamine Enhancer", "text": "为 Amphetamine 增加闭盖模式（Closed-Display Mode）等系统限制之外的能力，并开放本地化资源，让社区帮忙翻译。"},
+    {"when": "2020-12 → 2021-01", "title": "#SaveAmphetamine", "text": "苹果援引关于烟草、违禁药物和酒精的审核条款，认为名称和胶囊图标暗示管制药物，要求改名改图标。他在 GitHub 上公开全过程并提起申诉，MacRumors、9to5Mac、AppleInsider 等广泛报道。1 月 2 日与苹果通话后，苹果接受申诉：将这个词和图标理解为「比喻」和「医学意义上的」用法。"},
+    {"when": "2021–2023", "title": "持续打磨", "text": "SeeVS 帮人在疫情期间查找 CVS 疫苗余量；Power Protect 在电量过低时保护 Mac；扩展进程检测脚本；KeyJerk Reactions 用快捷键触发视频会议反应。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Amphetamine", "meta": "2014 · macOS · 免费", "text": "强大的 Mac 防休眠工具：会话、触发器、闭盖模式、电量保护。", "url": "https://apps.apple.com/us/app/amphetamine/id937984704"},
+    {"name": "Amphetamine Enhancer", "meta": "2020 · ★1.1k", "text": "为 Amphetamine 增加新能力，比如在不满足苹果条件时启用闭盖模式。", "url": "https://github.com/x74353/Amphetamine-Enhancer"},
+    {"name": "SaveAmphetamine", "meta": "2020 · 公开记录", "text": "与苹果审核交涉的完整公开记录。", "url": "https://github.com/x74353/SaveAmphetamine"},
+    {"name": "KeyJerk Reactions", "meta": "2023", "text": "用热键触发 macOS Sonoma 的视频反应特效。", "url": "https://github.com/x74353/KeyJerk-Reactions"}
+   ]}
+  ]},
+  {"id": "site", "title": "线上形象", "blocks": [
+   {"site": {"url": "https://github.com/x74353", "paras": ["他没有独立的个人网站，GitHub 就是 Amphetamine 的「官方文档中心」：增强工具、本地化、电量保护、脚本资源，每个仓库都写着清晰的说明。", "X 和 GitHub 的简介都带着一点自嘲：「Certified Human」「official human」。"]}}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "Amphetamine 的设计哲学是<strong>「给专业用户全部开关，同时让普通用户一键可用」</strong>。菜单栏里一个点击就能开启，深入设置里却有几十种触发条件。"},
+   {"callout": "面对平台审核，他没有私下妥协，而是公开、理性地陈述事实，并请社区作证。最终一个独立开发者让苹果改变了决定。", "t": "公开透明的力量"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>一个小工具可以做很深：</strong>防休眠这件事，他做了十多年。",
+    "<strong>开放社区参与：</strong>本地化、脚本、增强工具都交给社区。",
+    "<strong>面对平台要据理力争：</strong>公开记录、礼貌申诉、寻求声援。",
+    "<strong>在限制之外想办法：</strong>Enhancer 绕过了系统对闭盖模式的硬性要求。"
+   ]}
+  ]}
+ ],
+ "cta": "如果你经常需要 Mac 保持清醒，装一个 Amphetamine。",
+ "sources": [
+  {"label": "William Gustafson 的 X 个人资料", "url": "https://x.com/x74353"},
+  {"label": "GitHub：x74353", "url": "https://github.com/x74353"},
+  {"label": "MacRumors：Apple Backtracks After Amphetamine Threatened With Removal", "url": "https://www.macrumors.com/2021/01/02/amphetamine-app-store-removal-threat/amp/"},
+  {"label": "9to5Mac：Apple macOS Amphetamine", "url": "https://9to5mac.com/2021/01/03/apple-macos-amphetamine/"},
+  {"label": "AppleInsider：Apple threatens to pull Amphetamine", "url": "https://appleinsider.com/articles/21/01/02/apple-threatens-to-pull-amphetamine-macos-app-over-branding"}
+ ]
+}

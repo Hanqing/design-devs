@@ -1,0 +1,60 @@
+{
+ "name": "Adam Bell",
+ "role": "Netflix iOS UI 工程师 · 交互与动画专家",
+ "title": "Adam Bell：做合成器、交互、动画，<em>还有赛车</em>",
+ "dek": "这位加拿大工程师从 iOS 越狱社区起步：给 iOS 加上「到处都能用的聊天头像」、在没有车的 iPhone 上运行 CarPlay。后来他写了手势驱动的动画引擎 Motion，在各大 Swift 大会上讲如何用 Swift 合成声音，如今在 Netflix 做 iOS UI。",
+ "card": "Motion 动画引擎作者，越狱时代的交互黑客，Swift 合成器讲者，Netflix iOS UI 工程师。",
+ "location": "美国湾区（加拿大人）",
+ "tags": ["动画", "交互设计", "Swift", "音频合成", "越狱"],
+ "links": [{"label": "adambell.ca", "url": "https://www.adambell.ca/"}, {"label": "博客与演讲", "url": "https://blog.adambell.ca/talks"}, {"label": "GitHub", "url": "https://github.com/b3ll"}],
+ "summary": [
+  "<strong>一句话：</strong>「I make synths, interactions, animations, and hack things.」一个把「手感」当作核心追求的工程师。",
+  "<strong>代表作：</strong>Motion（★1.5k，手势驱动的 UI 动画引擎）、Decomposed（CATransform3D 变得简单）、Adjustable（自动生成调参滑杆的属性包装器）、Ignition（越狱 CarPlay）、MessageBox（iOS 上到处都能用的 Chat Heads）；App：Albums、Octave、Reprise、Crest、Vivid。",
+  "<strong>演讲：</strong>NSSpain、try! Swift Tokyo、Swift Alps、iOS Conf SG、Swift Heroes 等，主题从合成器到响应式交互。"
+ ],
+ "lead": "Adam 的个人网站底部写着：「I build things, hack things, make music, and race cars.」上面是一列他做过的 App，有一个特别的注释：「Meal Plan 与西安大略大学没有任何关系，它是一个学生项目。」这是一个从学生时代就开始做 App 的人。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "学生时代", "title": "西安大略大学与第一批 App", "text": "在加拿大西安大略大学读书时做了查询校园餐卡余额的 Meal Plan，还有给 DJ 设计的音乐播放器 Reprise、「比游隼还快」的 Twitter 客户端 Crest。"},
+    {"when": "2012–2014", "title": "越狱黑客", "text": "Stride（画图解锁）、Spectral（iOS 7 锁屏模糊专辑封面）、MessageBox（2013，把 Facebook 的 Chat Heads 带到整个 iOS）、NyanCat（把彩虹猫放进 iOS 8 通知中心），以及 Ignition：无需汽车，直接在 iPhone 上运行 CarPlay 界面。"},
+    {"when": "2013", "title": "ARTPOP", "text": "作为 RelativeWave 的一部分，为 Lady Gaga 的专辑 ARTPOP 打造了一款沉浸式 App。"},
+    {"when": "2015–2016", "title": "交互原型", "text": "Pseudo3DTouch 在没有 3D Touch 硬件的设备上模拟 3D Touch；SwiftyGestureRecognition 让你在 Xcode Playgrounds 里原型化手势。"},
+    {"when": "2018–2019", "title": "用 Swift 合成声音", "text": "在 NSSpain 演讲《Synthesizing Synths in Swift》、try! Swift Tokyo 演讲《Shaping Sounds in Swift》、Swift Alps 讲减法合成，并上 Swift by Sundell 播客聊音频。"},
+    {"when": "2020–2024", "title": "Motion 与交互演讲", "text": "开源 Motion（弹簧、衰减、关键帧，专为手势驱动的界面设计）和 Decomposed；在 NSSpain、iOS Conf SG、Swift Heroes 讲「Crafting Responsive and Playful Interfaces」。2024 年开源 Adjustable，并上架 Albums、Octave 两款 App。"},
+    {"when": "现在", "title": "Netflix", "text": "在 Netflix 做 iOS UI。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Motion", "meta": "2020 · Swift · ★1.5k", "text": "为手势驱动的界面、动画与交互打造的动画引擎，支持 iOS、macOS、tvOS。", "url": "https://github.com/b3ll/Motion"},
+    {"name": "Albums", "meta": "iOS App", "text": "把专辑放到主屏幕上的音乐快捷方式。", "url": "https://apps.apple.com/us/app/albums-music-shortcuts/id1602404960"},
+    {"name": "Octave", "meta": "iOS App", "text": "音符与和弦查询的视奏工具。", "url": "https://apps.apple.com/us/app/octave-sight-reading-tool/id1580017764"},
+    {"name": "Ignition", "meta": "2014 · 越狱", "text": "在 iOS 设备上直接运行 CarPlay 界面，「不需要汽车」。", "url": "https://github.com/b3ll/Ignition"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://www.adambell.ca/", "paras": ["首页是一列大写的 App 名字：ALBUMS、OCTAVE、ARTPOP、MEAL PLAN、REPRISE、CREST、VIVID、STRIDE 2、STRIDE、SPECTRAL，每个配一句话。", "博客与演讲页由 Swift 静态站点生成器 Publish 生成。"]}}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "Adam 的核心关注是<strong>「响应性」</strong>：动画必须能被手指随时打断、随时接管，界面要像物理世界一样有惯性和弹性。Motion 就是这一理念的工程化。"},
+   {"p": "Adjustable 则体现了他打磨细节的方法：给任何属性自动生成一个滑杆，在真机上实时调动画参数，直到「感觉对了」。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>手感需要调：</strong>给参数加滑杆，在真机上反复尝试。",
+    "<strong>越狱精神：</strong>去做系统「不允许」的事，往往能发现新的交互。",
+    "<strong>把爱好带进代码：</strong>音乐和合成器成了他最受欢迎的演讲主题。",
+    "<strong>动画要可打断：</strong>手势驱动的界面，才是真正的响应式。"
+   ]}
+  ]}
+ ],
+ "cta": "看一场他的演讲《Crafting Responsive and Playful Interfaces》。",
+ "sources": [
+  {"label": "Adam Bell 的 X 个人资料", "url": "https://x.com/b3ll"},
+  {"label": "adambell.ca", "url": "https://www.adambell.ca/"},
+  {"label": "Adam Bell：Talks", "url": "https://blog.adambell.ca/talks"},
+  {"label": "GitHub：b3ll", "url": "https://github.com/b3ll"},
+  {"label": "AudioKit Pro：Synthesizing Synths in Swift", "url": "https://audiokitpro.com/synthesizing-synths/"}
+ ]
+}

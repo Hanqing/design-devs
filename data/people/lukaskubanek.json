@@ -1,0 +1,57 @@
+{
+ "name": "Lukáš Kubánek",
+ "role": "Diagrams for Mac 作者 · Swift 自由开发者",
+ "title": "Lukáš Kubánek：<em>痴迷于结构化</em>的 Mac 开发者",
+ "dek": "来自捷克、住在德国德累斯顿的 Swift 开发者。他创办了 Structured Path GmbH，独自打造原生、基于文档的图表编辑器 Diagrams for Mac，如今也作为自由职业者为客户做 iOS 和 macOS 应用。",
+ "card": "Diagrams for Mac 作者，Structured Path GmbH 创始人，捷克人、现居德累斯顿。",
+ "location": "德国德累斯顿",
+ "tags": ["macOS", "AppKit", "SwiftUI", "文档型 App", "TCA"],
+ "links": [{"label": "lukaskubanek.com", "url": "http://lukaskubanek.com"}, {"label": "Diagrams", "url": "https://diagrams.app"}, {"label": "GitHub", "url": "https://github.com/lukaskubanek"}],
+ "summary": [
+  "<strong>一句话：</strong>「Obsessed with structuring things.」一个热爱把细节做对的 AppKit 开发者。",
+  "<strong>代表作：</strong>Diagrams（2017 至今，原生 Mac 图表编辑器）；开源 LoremIpsum / LoremSwiftum（占位文本生成）、OrderedDictionary、DetachablePopoverExample、iA-Writer-Export。",
+  "<strong>技能：</strong>AppKit、SwiftUI、UIKit、Combine、Swift Concurrency、TCA、CloudKit 同步、逆向工程，以及用 Claude Code 的 Agentic Coding。"
+ ],
+ "lead": "Lukáš 的个人网站开头写：「我热爱在数字世界里建造东西。我享受整个过程，但尤其喜欢工程部分。我的热情在于把所有细节都做对。」他偶尔会利用「位置自由」，在捷克、加那利群岛和保加利亚工作。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2012–2014", "title": "从 Mac 工具开始", "text": "2012 年做了给 iA Writer 增加 PDF 导出的 Mac 服务；2013 年开源 Objective-C 的 LoremIpsum 生成器，次年 Swift 发布后又写了 LoremSwiftum；还做了展示 Yosemite NSPopover 分离 API 的示例。2014 年完成学士论文。"},
+    {"when": "2015", "title": "Swift 数据结构", "text": "开源 OrderedDictionary 等 Swift 实现，以及 Mac 图标预览小工具。"},
+    {"when": "2017-11", "title": "Structured Path 与 Diagrams", "text": "创办 Structured Path GmbH，独立打造 Diagrams：一款原生、基于文档的 Mac 图表编辑器，他负责产品愿景、架构与开发。"},
+    {"when": "现在", "title": "自由职业 + Diagrams", "text": "继续开发 Diagrams，同时作为自由职业者为客户的 iOS / macOS 项目提供 Swift 开发服务。每年在博客发布年度回顾。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Diagrams", "meta": "2017 至今 · Swift / AppKit", "text": "原生、基于文档的 Mac 图表编辑器，专注结构与清晰。", "url": "https://diagrams.app"},
+    {"name": "LoremSwiftum", "meta": "2014 · Swift", "text": "轻量的 Swift 占位文本生成器。", "url": "https://github.com/lukaskubanek/LoremSwiftum"},
+    {"name": "OrderedDictionary", "meta": "2015 · Swift", "text": "有序字典数据结构的 Swift 实现。", "url": "https://github.com/lukaskubanek/OrderedDictionary"},
+    {"name": "Lupulus", "meta": "2018", "text": "他自己设计的键盘布局：结构化的极致。", "url": "https://github.com/lukaskubanek/Lupulus"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "http://lukaskubanek.com", "paras": ["导航有 Work、TIL、Blog、Now。首页用几个问题组织内容：「What am I doing now?」「Interested in working with me?」「Where do I write?」「Where can you find me online?」", "Work 页像一份精心组织的技能树：每项技能一句话说明熟练程度，比如 Swift Concurrency：「这可不容易，所以肯定还在学习」。"]}},
+   {"p": "TIL（Today I Learned）栏目记录开发中学到的小知识，是工程师个人网站里非常值得借鉴的形式。"}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "Diagrams 的设计核心是<strong>「结构优先」</strong>：图表不是自由画布，而是有规则的结构。这与他「痴迷于结构化」的个性完全一致。"},
+   {"quote": "Not a designer, but something I care deeply about and have a strong eye for making it feel right.", "cite": "Lukáš Kubánek 谈 UX 设计"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>把一个 App 做很多年：</strong>Diagrams 从 2017 年持续至今。",
+    "<strong>诚实地标注能力：</strong>技能页写清楚擅长什么、还在学什么。",
+    "<strong>写 TIL：</strong>零碎的学习记录也有长期价值。",
+    "<strong>独立产品 + 自由职业：</strong>两条腿走路，更可持续。"
+   ]}
+  ]}
+ ],
+ "cta": "如果你在 Mac 上画流程图，试试 Diagrams。",
+ "sources": [
+  {"label": "Lukas Kubanek 的 X 个人资料", "url": "https://x.com/lukaskubanek"},
+  {"label": "lukaskubanek.com", "url": "http://lukaskubanek.com"},
+  {"label": "lukaskubanek.com：Work", "url": "https://lukaskubanek.com/work"},
+  {"label": "GitHub：lukaskubanek", "url": "https://github.com/lukaskubanek"}
+ ]
+}

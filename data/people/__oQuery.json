@@ -1,0 +1,61 @@
+{
+ "name": "拾一 Innei",
+ "role": "设计工程师 · LobeHub · Mix Space 作者",
+ "title": "拾一：梦想成为 <em>Design Engineer</em> 的人",
+ "dek": "一个自称「内向、社恐、INFP-T」的开发者，写出了四千多星的个人站主题 Shiro 和整套博客系统 Mix Space，做了照片画廊 Afilmory 和排版设计系统「余白 Yohaku」，曾在阿里工作，现在在 LobeHub 构建 AI 产品，用 Claude Code、Codex 一周做出一个 iOS App。",
+ "card": "Shiro / Mix Space / Afilmory / 余白 Yohaku 作者，前阿里，现于 LobeHub；数字游民、设计工程师。",
+ "location": "数字游民",
+ "tags": ["React", "Next.js", "设计系统", "Electron", "AI 工程"],
+ "links": [{"label": "innei.in", "url": "https://innei.in"}, {"label": "GitHub", "url": "https://github.com/Innei"}, {"label": "nyatabi", "url": "https://nyatabi.app/"}],
+ "summary": [
+  "<strong>一句话：</strong>「A product-minded engineer building interfaces, workflows, and tiny autonomous systems.」一个用代码追求现代设计的 Gen-Z 开发者。",
+  "<strong>代表作：</strong>Shiro（★4.3k，「纸的纯粹、雪的清新」的极简个人网站）、Mix Space（博客系统组织）、Afilmory（照片画廊）、余白 Yohaku（文字内容的排版设计系统）、Pastel（OKLCH 可爱色彩系统）、lody-ios、electron-ipc-decorator。",
+  "<strong>他的梦想：</strong>「梦想是成为 Design Engineer。」"
+ ],
+ "lead": "拾一的名字来自《命运石之门》里的一句台词：「『0』是过去，『1』是未来，『现在』哪里都不存在。」拾起，未来。他的英文名 Innei 则来自日文「陰影」的罗马音，那是初中时「曾经的自闭少年」给自己取的名字。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"p": "他在「自述」里列出了一串标签：内向社恐、INFP-T、专注者、沉思者、「某种意义上的赶时髦者」（在编程上反对过时特性、追求现代设计风）、简洁主义者、纯音乐爱好者、「兴趣变淡的二次元废柴」、开源爱好者。"},
+   {"steps": [
+    {"when": "2018–2019", "title": "开始写代码与博客", "text": "2018 年注册 GitHub，2019 年做了 Typecho 博客主题 Paul，并从 2019 年 4 月起成为 Node 全栈开发者（Vue、React、NestJS、Fastify、MongoDB）。"},
+    {"when": "2020–2021", "title": "Mix Space", "text": "开始构建自己的博客系统 Mix Space（前后端与管理后台），个人网站从 2020 年运行至今；2021 年做了 shuffle-article（在 DOM 中打乱文字但保持视觉不变的轻量防复制），并开始学 React Native 与 SwiftUI。"},
+    {"when": "阿里", "title": "大厂经历", "text": "在阿里巴巴工作过，花名「亿夏」，取自音乐人邱有句的纯音乐《亿夏风铃》。曾为 bytebase、blocksuite、naive-ui、xLog 等开源项目贡献代码。"},
+    {"when": "2023", "title": "Shiro", "text": "「一个体现纸的纯粹与雪的清新的极简个人网站」，成为中文开发者最受欢迎的个人站主题之一。"},
+    {"when": "2024–2025", "title": "设计开发者与 AI 指挥师", "text": "2024 年 6 月起以设计开发者为主（React、Radix、Framer Motion）；2025 年 4 月起成为「AI 指挥师」，员工是 Claude Code、Codex、Copilot、Cursor、ChatGPT。做了照片画廊 Afilmory、Pastel 色彩系统和 electron-ipc-decorator，加入 LobeHub。"},
+    {"when": "2026", "title": "余白与 Lody", "text": "发布排版设计系统「余白 / Yohaku」（一个强调色、三层中性色，其余都是留白）；一天原型、一周成品地开发了 Lody 的 iOS 客户端；用 Claude Code、Codex 和 Remotion 做了一支《命运石之门》MV。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Shiro", "meta": "2023 · ★4.3k", "text": "纸的纯粹，雪的清新：一个极简的个人网站。", "url": "https://github.com/Innei/Shiro"},
+    {"name": "余白 Yohaku", "meta": "2026 · 设计系统", "text": "面向文字内容的排版设计系统：一个强调色、三层中性色，剩下的都是留白。", "url": "https://github.com/Innei/Yohaku"},
+    {"name": "Afilmory", "meta": "2025 · 照片画廊", "text": "用镜头记录生活的美好瞬间与日常温度。", "url": "https://github.com/Afilmory"},
+    {"name": "lody-ios", "meta": "2026 · Swift", "text": "Lody 的独立 iOS 客户端：原生聊天、会话与编程 Agent 协作。", "url": "https://github.com/Innei/lody-ios"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://innei.in", "paras": ["首页像一本杂志的扉页：「Hi, I'm Innei 👋 I orchestrate ideas into products with ✦ AI Agents」，下面是一句引言、文章 / 字数 / 天数统计，以及编号的「近期笔墨」。", "导航是中文的：首页、文稿、手记、时光、思考；页脚写着「印于 10/20/2026」，支持浅色 / 深色 / 跟随系统、多语言和可切换的背景效果。"]}},
+   {"p": "这个网站本身就是 Mix Space + 余白 Yohaku 的展示：它不仅是博客，也是他设计系统的样板间。"}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"quote": "以开发者的身份，站在普通用户的角度体验自己开发的东西，是否有存在的必要性，是否拥有良好的体验感。", "cite": "拾一，自述"},
+   {"p": "余白 Yohaku 的设计原则很能代表他的审美：<strong>克制的颜色、充分的留白、让文字成为主角</strong>。这种日式的「间」感，也贯穿在 Shiro 和他的照片画廊里。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>把个人网站当作品：</strong>一个博客主题也能收获四千多星。",
+    "<strong>沉淀自己的设计系统：</strong>颜色、字体、留白，写成可复用的规则。",
+    "<strong>内向也能被看见：</strong>作品和写作替你说话。",
+    "<strong>做 AI 指挥师：</strong>一天原型、一周成品，是新的开发节奏。"
+   ]}
+  ]}
+ ],
+ "cta": "去 innei.in 感受一下「余白」的排版。",
+ "sources": [
+  {"label": "拾一的 X 个人资料", "url": "https://x.com/__oQuery"},
+  {"label": "innei.in", "url": "https://innei.in"},
+  {"label": "innei.in：自述", "url": "https://innei.in/about"},
+  {"label": "GitHub：Innei", "url": "https://github.com/Innei"},
+  {"label": "GitHub：mx-space", "url": "https://github.com/mx-space"}
+ ]
+}
