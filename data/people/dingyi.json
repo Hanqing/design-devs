@@ -1,0 +1,59 @@
+{
+ "name": "Ding（丁一）",
+ "role": "独立设计师与开发者 · DEX 周刊主理人",
+ "title": "Ding：一个<em>设计驱动的工程师</em>，和他的 DEX 周刊",
+ "dek": "十多年的数字设计、前端开发与团队管理经验，2006 年就注册了 X，如今有近十六万关注者。他每周写一期 DEX 周刊（已经三百多期），做 topfeed、What Ships、vibeflow 等产品，在深圳远程工作。",
+ "card": "DEX 周刊主理人（368 期+），topfeed、What Ships、vibeflow 作者，深圳的独立设计师与开发者。",
+ "location": "中国深圳（远程）",
+ "tags": ["产品设计", "前端", "Newsletter", "AI 工具", "Linux"],
+ "links": [{"label": "ding.one", "url": "http://ding.one"}, {"label": "DEX 周刊", "url": "https://quaily.com/dingyi"}, {"label": "What Ships", "url": "https://whatships.com"}],
+ "summary": [
+  "<strong>一句话：</strong>「A product designer & design-focused engineer.」中文设计圈最有影响力的独立设计师之一。",
+  "<strong>代表作：</strong>DEX 周刊（产品、设计、前端、软件精华资讯，368 期以上）、DEX.list（数字设计师索引页）、topfeed（「Read what matters」，精选创始人、设计师、工程师的订阅源）、What Ships（创业公司发布视频精选）、vibeflow（小型设计开发工作室，按月固定费用）、Alfred Workflows、AnimationCheatSheet。",
+  "<strong>为什么值得关注：</strong>他用一份坚持多年的周刊，连接了设计、前端与独立开发三个圈子。"
+ ],
+ "lead": "Ding 的个人网站像一个可以用键盘操作的应用：左侧编号导航 0–9（Home、About、Projects、Posts、Stack、Gear、Reading List、Bookmarks、Newsletters、Podcasts），右上角是「⌘ Open Command Menu」，页面上实时显示他正在听的歌和所在城市。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2006–2008", "title": "最早的一批中文推友", "text": "2006 年 12 月注册 Twitter，2008 年注册 GitHub，是中文互联网最早一批在 Twitter 上活跃的设计师之一。"},
+    {"when": "2013", "title": "Alfred 与 CSS 动画", "text": "分享 Alfred 的 Workflows 与主题，整理 Sass 版本的 CSS3 动画速查表 AnimationCheatSheet。"},
+    {"when": "设计与团队", "title": "十多年数字设计", "text": "在数字设计、前端开发和团队管理上积累了十多年经验（见其简历）。"},
+    {"when": "2019", "title": "DEX.list", "text": "为数字设计师做的索引页，把好工具、好资源集中在一处。"},
+    {"when": "DEX 周刊", "title": "从竹白到 Quaily", "text": "每周一期产品、设计、前端、软件精选，2024 年第 224 期迁移到新平台，至今已超过 368 期。最近的主题包括 Personal Agent、Omarchy 4.0、Unsloth 本地模型、「独立开发者新三件套」。"},
+    {"when": "2025–2026", "title": "一组新产品", "text": "topfeed（精选订阅源的每日阅读）、What Ships（从 X 上收集创业公司的发布视频）、vibeflow（小型设计与开发工作室）、VPS 推荐页，以及 Omarchy 插件和 edu 优惠查询 Skill。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "DEX 周刊", "meta": "368 期+", "text": "一份关于产品、设计、前端、软件等内容的精华资讯邮件周刊。", "url": "https://quaily.com/dingyi"},
+    {"name": "What Ships", "meta": "2026", "text": "发现创业公司在 X 上发布的产品视频、演示与导览。", "url": "https://whatships.com"},
+    {"name": "topfeed", "meta": "阅读", "text": "Read what matters：最好的创始人、设计师、工程师，每天送达。", "url": "https://topfeed.xyz"},
+    {"name": "vibeflow", "meta": "设计工作室", "text": "为创业者提供按月固定费用的世界级设计与开发。", "url": "https://vibeflow.co"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "http://ding.one", "paras": ["ding.one 被设计成一个「个人操作系统」：0–9 编号的栏目、命令菜单、实时访客与浏览量统计、Spotify 正在播放、所在地点和订阅入口。", "Stack、Gear、Reading List、Bookmarks、Newsletters、Podcasts 这些栏目，让访客能直接看到一个设计师的工具箱和信息源。"]}}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "Ding 的设计哲学体现在他的网站上：<strong>把个人主页当成一个产品来设计</strong>，有导航系统、有快捷键、有实时数据。它不是一份静态简历，而是一个活着的工作台。"},
+   {"p": "DEX 周刊则是他「品味」的公开输出：每周从海量信息中挑出值得看的东西，本身就是一种设计。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>长期写周刊：</strong>持续的筛选与分享，会沉淀为影响力。",
+    "<strong>个人网站可以像 App：</strong>命令菜单、编号导航、实时状态。",
+    "<strong>设计师也写代码：</strong>做自己的产品，不只是画稿。",
+    "<strong>公开你的工具与信息源：</strong>别人会因此信任你的品味。"
+   ]}
+  ]}
+ ],
+ "cta": "订阅一份 DEX 周刊，或者在 ding.one 按 ⌘K 逛一逛。",
+ "sources": [
+  {"label": "Ding 的 X 个人资料", "url": "https://x.com/dingyi"},
+  {"label": "ding.one", "url": "http://ding.one"},
+  {"label": "DEX 周刊", "url": "https://quaily.com/dingyi"},
+  {"label": "GitHub：dingyi", "url": "https://github.com/dingyi"},
+  {"label": "What Ships", "url": "https://whatships.com"}
+ ]
+}

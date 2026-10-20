@@ -1,0 +1,59 @@
+{
+ "name": "小鱼 Sofish",
+ "role": "前端老兵 · Built4.Fun 独立工作室",
+ "title": "Sofish：给中文网页<em>排好每一行字</em>的人",
+ "dek": "他在 2012 年写下的 typo.css，至今仍是中文网页排版的经典参考；2013 年的 pen 让「所见即所得 + Markdown」的网页编辑器风靡一时。多年前端生涯之后，他成立了小工作室 Built4.Fun，做慢阅读与认真写作的小 App。",
+ "card": "typo.css、pen 作者，前饿了么前端，现做 Built4.Fun：Jinshu、小小作家、小书童。",
+ "location": "中国上海",
+ "tags": ["前端", "中文排版", "阅读", "写作", "独立工作室"],
+ "links": [{"label": "Built4.Fun", "url": "https://built4.fun"}, {"label": "GitHub", "url": "https://github.com/sofish"}, {"label": "小书童", "url": "https://xiaoshutong.app/"}],
+ "summary": [
+  "<strong>一句话：</strong>中文前端圈的老前辈，一个始终在乎「阅读体验」的工程师，如今把这份在乎做成了阅读与写作 App。",
+  "<strong>代表作：</strong>typo.css（★4.5k，面向现代中文阅读的网页重设与排版）、pen（★4.8k，网页实时编辑 + Markdown）、wechat.js、validator.js、han（汉字转拼音）；产品 Jinshu（沉浸式多语言阅读器，覆盖 iOS、Android 和墨水屏）、小小作家 TeenyWriter（给孩子的中文日记）、小书童（让读书笔记重新浮现）。",
+  "<strong>为什么值得关注：</strong>从排版 CSS 到阅读 App，他十几年来关心的始终是同一件事：人怎样舒服地阅读与书写。"
+ ],
+ "lead": "Built4.Fun 的首页只有一句话：「A little more joy. Little apps for slow reading and careful writing.」（多一点快乐。为慢阅读和认真写作而做的小 App。）关于页写着：「一个独立软件小工作室：为自己和一小部分人，做点美好的小软件。」",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2008–2009", "title": "早期互联网", "text": "2008 年注册 X，2009 年注册 GitHub，活跃于中文前端社区，个人站曾是 sofi.sh。"},
+    {"when": "2012", "title": "typo.css 与一批前端组件", "text": "typo.css 把中文网页的字体、行高、CJK 断行、中西文间距和着重号一次理顺，成为无数中文博客和网站的排版底座；同年还有 validator.js、汉字转拼音的 han，以及 Express 中文指南翻译。"},
+    {"when": "2013–2014", "title": "pen 与 wechat.js", "text": "pen 是一个「享受实时编辑」的网页编辑器，支持 Markdown，★4.8k；wechat.js 封装微信分享、网络与菜单；everyday 的口号是「从今天开始，要么写代码要么写文档」。"},
+    {"when": "大厂", "title": "饿了么前端", "text": "据社区收录，他曾在饿了么负责前端工作。2016 年开了一个仓库 learn-js，说明写着：「老婆想学 js 这件事就是一个政治任务」。"},
+    {"when": "2025–2026", "title": "Built4.Fun", "text": "成立独立小工作室：Jinshu 沉浸式多语言阅读器（订阅或 Android / 墨水屏终身版）、小小作家（给孩子的中文日记，早期免费）、小书童（「阅后，有期」，把读过的书留给后来的自己，即将推出）。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "typo.css", "meta": "2012 · ★4.5k", "text": "中文网页重设与排版 CSS：字体、行高、CJK 断行、中西文间距、着重号。", "url": "https://github.com/sofish/typo.css"},
+    {"name": "pen", "meta": "2013 · ★4.8k", "text": "Enjoy live editing (+markdown)，网页上的所见即所得编辑器。", "url": "https://github.com/sofish/pen"},
+    {"name": "Jinshu", "meta": "iOS / Android / 墨水屏", "text": "沉浸式多语言阅读器。", "url": "https://built4.fun"},
+    {"name": "小书童", "meta": "即将推出 · iOS", "text": "「阅后，有期。」让读书笔记在合适的时候重新浮现。", "url": "https://xiaoshutong.app/"}
+   ]}
+  ]},
+  {"id": "site", "title": "网站", "blocks": [
+   {"site": {"url": "https://built4.fun", "paras": ["Built4.Fun 的首页有一个「Spark an idea」按钮和「Pause motion」开关，每个 App 一行：名字、一句话、平台、状态与链接。定价区把订阅与终身买断并列，并贴心地说明国内用户可在淘宝购买人民币版。", "小书童的网站引用了《庄子·知北游》：「天地有大美而不言，四时有明法而不议，万物有成理而不说。」"]}}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "typo.css 的价值在于<strong>把排版当作工程问题来解决</strong>：中英文之间要不要空格、着重号怎么画、行高多少适合汉字。这些细节决定了一篇中文文章读起来是否舒服。"},
+   {"p": "十几年后，他做 Jinshu 和小书童，关心的仍是阅读这件事本身：慢一点，认真一点。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>为母语做基础设施：</strong>中文排版需要有人专门去解决。",
+    "<strong>小工作室也可以很体面：</strong>为自己和一小部分人做软件。",
+    "<strong>同时照顾不同用户：</strong>订阅、买断、墨水屏、淘宝，每一种需求都被考虑。",
+    "<strong>一个主题做一辈子：</strong>从排版到阅读到写作。"
+   ]}
+  ]}
+ ],
+ "cta": "在你的下一个中文网页里，试试 typo.css。",
+ "sources": [
+  {"label": "Sofish 的 X 个人资料", "url": "https://x.com/sofish"},
+  {"label": "GitHub：sofish", "url": "https://github.com/sofish"},
+  {"label": "Built4.Fun", "url": "https://built4.fun"},
+  {"label": "小书童", "url": "https://xiaoshutong.app/"},
+  {"label": "知乎：TYPO.CSS 是什么？", "url": "https://www.zhihu.com/question/20156830"},
+  {"label": "front-end-collect（收录 sofish）", "url": "https://github.com/foru17/front-end-collect"}
+ ]
+}

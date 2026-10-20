@@ -1,0 +1,57 @@
+{
+ "name": "Hal Lee",
+ "role": "设计工程师 · Figma 插件与 Mac 小工具作者",
+ "title": "Hal Lee：一台热爱设计与前端的<em>「制冷机」</em>",
+ "dek": "他自称「设计和前端爱好者，制冷机」。他做了一整套 Figma 插件（Heron 系列、图标自动发布）、一门面向设计师的 Figma 进阶课、一个 Mac 菜单栏应用精选站，以及提醒你看看窗外的 SkyBreak。",
+ "card": "设计工程师，Heron 系列 Figma 插件、Figmacode 课程、MacMenuBar.app、SkyBreak、TweetWood 作者。",
+ "location": "火星（未公开）",
+ "tags": ["Figma", "设计工程", "macOS", "浏览器扩展", "设计系统"],
+ "links": [{"label": "hallee.me", "url": "https://hallee.me"}, {"label": "MacMenuBar.app", "url": "https://macmenubar.app"}, {"label": "Figmacode", "url": "https://figmacode.com"}],
+ "summary": [
+  "<strong>一句话：</strong>「Hal Lee is a design engineer creating thoughtful digital experiences through design and code.」一个专门给设计师造工具的设计工程师。",
+  "<strong>代表作：</strong>Figma 插件 Heron Handoff（导出离线标注）、Heron Variable Tools、Heron Toolbox、Figma Icon Automation（把 Figma 图标发布到 NPM）；macOS 应用 SkyBreak、Figma Activity Calendar；浏览器扩展 TweetWood、QuickTube Organizer；网站 MacMenuBar.app、Figmacode.com。",
+  "<strong>为什么值得关注：</strong>他站在设计与开发的交界处，解决的是「设计交付」这个最常见也最痛的环节。"
+ ],
+ "lead": "Hal 的个人网站只有三个入口：Blog、Products 和一个叫「Organize Stuff」的板块。Products 页按类型整理得清清楚楚：macOS Apps、Browser Extensions、Website、Figma Plugins。这种「整理癖」，正是一个设计工程师的职业本能。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2014", "title": "加入 X", "text": "以设计和前端爱好者的身份分享，后来积累了一万五千多关注者。"},
+    {"when": "Figma 时代", "title": "为设计交付造工具", "text": "做了 Heron 系列插件：Heron Handoff 把 Figma 设计导出为离线标注，Heron Variable Tools 让变量管理更强大，Heron Toolbox 收集设计工作流里的实用小工具；Figma Icon Automation 把图标从 Figma 一键发布到 NPM。"},
+    {"when": "教育", "title": "Figmacode.com", "text": "面向设计师的 Figma 进阶课程。"},
+    {"when": "Mac 与浏览器", "title": "小工具", "text": "SkyBreak（「是时候看看窗外了」的休息提醒）、Figma Activity Calendar（在菜单栏追踪 Figma 活跃度）、TweetWood（把推文和长文存为本地 Markdown）、QuickTube Organizer（终于把 YouTube 订阅整理好了）。"},
+    {"when": "策展", "title": "MacMenuBar.app", "text": "精选「生活里最好用的菜单栏应用」，按生产力、AI、灵动岛 / 刘海、开发、计时、日历、系统工具等分类，收录上百款。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "MacMenuBar.app", "meta": "网站 · 策展", "text": "最好的 Mac 菜单栏应用精选清单，分类清晰，可提交。", "url": "https://macmenubar.app"},
+    {"name": "Heron Handoff", "meta": "Figma 插件", "text": "把 Figma 设计导出为离线标注文档，方便开发交付。", "url": "https://hallee.me/products"},
+    {"name": "SkyBreak", "meta": "macOS", "text": "It's time to look outside of your window. 休息提醒。", "url": "https://hallee.me/products"},
+    {"name": "TweetWood", "meta": "浏览器扩展", "text": "把 X 帖子与长文保存为本地 Markdown。", "url": "https://hallee.me/products"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://hallee.me", "paras": ["标题「Hal Lee — Design Engineer」，中英双语。首页极简，产品页按平台分组，每个产品一行名字和一句话。", "「Organize Stuff」这个栏目名本身就很能说明他的性格。"]}}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "Hal 的工具都在解决同一类问题：<strong>设计稿到代码之间的损耗</strong>。离线标注、变量工具、图标自动发布，每一个都能让设计与开发的协作少一次来回。"},
+   {"p": "MacMenuBar.app 则体现了策展的价值：在信息过载的时代，一份认真分类的清单就是一个产品。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>为自己的职业造工具：</strong>设计师最懂设计师的痛。",
+    "<strong>插件是很好的起点：</strong>Figma 插件分发成本低、反馈快。",
+    "<strong>策展也是产品：</strong>精选清单能长期获得流量。",
+    "<strong>把作品整理好：</strong>分类清楚的作品页，本身就是设计能力的证明。"
+   ]}
+  ]}
+ ],
+ "cta": "去 MacMenuBar.app 找一个你的菜单栏新工具。",
+ "sources": [
+  {"label": "Hal 的 X 个人资料", "url": "https://x.com/hal__lee"},
+  {"label": "hallee.me", "url": "https://hallee.me"},
+  {"label": "hallee.me：Products", "url": "https://hallee.me/products"},
+  {"label": "MacMenuBar.app", "url": "https://macmenubar.app"}
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "name": "徹言 CHEYAN",
+ "role": "程序员 · 作家 · 编剧 · 东京在住",
+ "title": "徹言：一个写代码、<em>也写书和剧本</em>的人",
+ "dek": "2009 年开始做全栈开发，2014 年创办字体公司文悦科技并获得阿里巴巴投资；出版过七本书，其中一本的影视改编权授予了爱奇艺。如今他住在东京，做日语学习工具 Fudoki、全国电视台直播站 Terebi，以及给 OpenClaw Agent 用的「会思考的博客引擎」。",
+ "card": "程序员、作家、编剧，文悦科技（获阿里投资）创始人，Fudoki 作者，东京在住。",
+ "location": "日本东京",
+ "tags": [
+  "全栈",
+  "日语",
+  "写作",
+  "Linux",
+  "字体"
+ ],
+ "links": [
+  {
+   "label": "iamcheyan.com",
+   "url": "http://iamcheyan.com"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/iamcheyan"
+  },
+  {
+   "label": "Fudoki",
+   "url": "https://github.com/iamcheyan/fudoki"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「程序员・作家・编剧 / 东京在住」，一个横跨代码、出版与影像的多面创作者，GitHub 简介写着「住在日本东京的普通人」。",
+  "<strong>代表作：</strong>代码：Fudoki（★900，交互式日语文本分析与语音合成）、Kotoba、Terebi、Clawtter、nas_album、7z-for-Linux、OrchideaDock（并入 Cinnamon 官方仓库）、Omarchy 中文手册翻译；创业：文悦科技（字体设计与销售，获阿里巴巴投资）；书：《王牌创业者：风口游戏》等七本。",
+  "<strong>为什么值得关注：</strong>很少有人能同时把技术、商业和文学做到「都有作品」。"
+ ],
+ "lead": "徹言的个人网站用日文写着：「2009 年起从事全栈开发……2014 年创业并获得投资。拥有丰富的团队管理与项目执行经验，也参与书籍出版和影像作品的编剧与制作。」下面是一长串作品，从 2007 年的电子杂志，一直排到 2025 年的日语学习工具。",
+ "sections": [
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2007",
+       "title": "VEIKIN 电子杂志",
+       "text": "2007 年 8 月 29 日创刊，以原创内容为主的电子杂志。"
+      },
+      {
+       "when": "2009–2012",
+       "title": "全栈开发与第一次创业",
+       "text": "开始全栈开发（Python、JavaScript、MySQL 等）；2012 年创办专注网站设计开发的 GANLINE Olive Media。"
+      },
+      {
+       "when": "2014",
+       "title": "文悦科技",
+       "text": "在北京创办文悦科技，专注字体的设计、开发与销售，获得阿里巴巴投资。"
+      },
+      {
+       "when": "2017–2020",
+       "title": "出版七本书",
+       "text": "《这世界正在遗忘不改变的人》《你暖起来就像好天气》《王牌创业者：风口游戏》（影视改编权授予爱奇艺，有声版权授予北京人民广播电台）《世界正在惩罚你这样的人》（与李尚龙等合著）《别去抱怨生活的苦，那是去看世界的路》《区块链风云》《在别人的地图上，找不到自己的路》（台湾沐光文化出版）。"
+      },
+      {
+       "when": "2021–2024",
+       "title": "工具与游戏复刻",
+       "text": "为出版行业开发数据检索工具 YRBOOK BAS；复刻经典网游的 Mir2EI2.0；为 Cinnamon 桌面做的主题 OrchideaDock 被并入官方仓库；把 7z 移植到 Linux；做了日语单词记忆工具 Kotoba。"
+      },
+      {
+       "when": "2025–2026",
+       "title": "东京与 AI",
+       "text": "Fudoki 帮日语学习者和 NLP 研究者分析日文文本并朗读；Terebi 让人在线观看全日本一百多家电视台的公开节目；Clawtter 是给 OpenClaw Agent 的「有知觉的博客引擎」，把 Agent 的记忆与笔记发布成静态站；还翻译了 Omarchy 手册中文版。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品",
+   "blocks": [
+    {
+     "cards": [
+      {
+       "name": "Fudoki",
+       "meta": "2025 · ★900",
+       "text": "交互式日语文本分析与语音合成 Web 应用，面向学习者和自然语言处理研究者。",
+       "url": "https://github.com/iamcheyan/fudoki"
+      },
+      {
+       "name": "Terebi",
+       "meta": "2025 · 视频站",
+       "text": "在线收看日本全国一百多家电视台的公开节目。",
+       "url": "http://iamcheyan.com"
+      },
+      {
+       "name": "Clawtter",
+       "meta": "2026 · Python",
+       "text": "把 OpenClaw Agent 的记忆与笔记发布成静态网站的博客引擎。",
+       "url": "https://github.com/iamcheyan/Clawtter"
+      },
+      {
+       "name": "《王牌创业者：风口游戏》",
+       "meta": "2018 · 小说",
+       "text": "影视改编权授予爱奇艺，有声版权授予北京人民广播电台。",
+       "url": "http://iamcheyan.com"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站",
+   "blocks": [
+    {
+     "site": {
+      "url": "http://iamcheyan.com",
+      "paras": [
+       "IAM CHEYAN 支持日文与中文切换和深色模式。页面分为关于我、纪录片、联系方式、项目、出版物几部分，并提供 PDF 简历下载。",
+       "每个项目都标注类型与发布年份，每本书都写清出版社、ISBN 和版权授权情况，非常严谨。"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "手艺与方法",
+   "blocks": [
+    {
+     "p": "徹言的作品有一个隐含的主题：<strong>语言</strong>。字体是语言的形状，书是语言的故事，Fudoki 和 Kotoba 是学习另一门语言的工具，Rime 输入法配置让他同时输入中文和日文。"
+    },
+    {
+     "p": "他的开发环境也很「讲究」：一键配置的 Zsh + Neovim + Tmux、Sway / i3 平铺窗口管理器、Omarchy。对工具的打磨，和对文字的打磨是同一种性格。"
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>不止一个身份：</strong>程序员也可以是作家和编剧。",
+      "<strong>在新的地方找新问题：</strong>到了东京，就做日语和日本电视相关的工具。",
+      "<strong>作品集要严谨：</strong>年份、类型、授权，一一写清。",
+      "<strong>为新生态做翻译：</strong>Omarchy 手册中文版降低了别人的门槛。"
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "如果你在学日语，打开 Fudoki 分析一段日文。",
+ "sources": [
+  {
+   "label": "徹言的 X 个人资料",
+   "url": "https://x.com/iamcheyan"
+  },
+  {
+   "label": "iamcheyan.com",
+   "url": "http://iamcheyan.com"
+  },
+  {
+   "label": "GitHub：iamcheyan",
+   "url": "https://github.com/iamcheyan"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "name": "TJ（蒋继发 / 天海 原）",
+ "role": "在日本的自由职业全栈开发者",
+ "title": "TJ：在镰仓，做一个<em>全周期开发者</em>",
+ "dek": "他在日本做过全球供应链 SaaS、网店、人事系统、电动车充电服务，自称「Full Cycle Developer」：从业务架构、编码、测试、部署到监控一手包办。他用 Elixir 写 Telegram 机器人，用 TiddlyJam 搭自己的博客，在 X 上记录「我看到的日本」。",
+ "card": "在日本镰仓的自由职业全栈开发者，Elixir / TypeScript，写「我看到的日本」与数字花园博客。",
+ "location": "日本镰仓",
+ "tags": ["全栈", "Elixir", "TypeScript", "日本", "自由职业"],
+ "links": [{"label": "thaddeusjiang.com", "url": "https://thaddeusjiang.com"}, {"label": "TJ's Blog", "url": "https://thaddeusjiang.com/blog"}, {"label": "GitHub", "url": "https://github.com/ThaddeusJiang"}],
+ "summary": [
+  "<strong>一句话：</strong>「I'm a freelance web developer based in Japan.」一个对开发者体验、性能和技术选型有强烈主见的全栈工程师。",
+  "<strong>代表作：</strong>save_it（Elixir 写的 Telegram 机器人，保存并搜索网上的图片和视频）、AIer（用自己的数据训练 AI 做第二大脑）、稲盛和夫 GPT、ZipcodeJP（日本邮编查询 API）、react-sortable-list、omakase-ui、DevOps 启动套件、TiddlyJam。",
+  "<strong>为什么值得关注：</strong>他的博客是一个工程师的真实工作日志：短、具体、有观点，比如《Just use PostgreSQL》《形式主义的敏捷开发》《vibe coding 让我重新「慢了」下来》。"
+ ],
+ "lead": "TJ 的 X 简介只有一个话题标签：「#我看到的日本」。他住在镰仓。在 yihong0618 的博客友情链接里，他的介绍是：「在日本开发 SaaS 产品，Love OSS」。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2016–2019", "title": "来到日本", "text": "2016 年注册 GitHub。2019 年做了把 Kindle 读书高亮导入 Anki 的 Elixir 工具。"},
+    {"when": "2020–2022", "title": "SaaS 与开源组件", "text": "在日本参与全球供应链 SaaS、网店、人事系统、电动车充电服务等项目；开源 ZipcodeJP、DevOps 启动套件、react-sortable-list、omakase-ui（基于 daisyUI 与 Conform 的精致组件）、chr（命令历史报告 CLI）。"},
+    {"when": "2023", "title": "AI 实验", "text": "AIer：用自己的数据训练 AI，做 PKM 与第二大脑；做了「和稻盛和夫 GPT 对话」。"},
+    {"when": "2024", "title": "save_it 与 TiddlyJam", "text": "用 Elixir 写了 save_it Telegram 机器人，并写下《I built Save_it》《Just use PostgreSQL》《I Analyzed My Browser History》。"},
+    {"when": "2025–2026", "title": "AI 时代的工程反思", "text": "《vibe coding 让我重新「慢了」下来》《拥抱 git worktree》《当 GitHub Actions 配额耗尽：我如何把 iOS CI 搬回本地》《Tech Blog 应该由 AI 编写》；开源给 Codex、Claude Code、Cursor 用的 coding-skills。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "save_it", "meta": "2024 · Elixir", "text": "Telegram 机器人：轻松保存并搜索网上的图片与视频。", "url": "https://github.com/ThaddeusJiang/save_it"},
+    {"name": "AIer", "meta": "2023 · TypeScript", "text": "用你自己的数据训练 AI，用于个人知识管理与第二大脑。", "url": "https://github.com/ThaddeusJiang/AIer"},
+    {"name": "ZipcodeJP", "meta": "2020 · API", "text": "按邮编查询日本地址的 RESTful API。", "url": "https://github.com/ThaddeusJiang/ZipcodeJP"},
+    {"name": "coding-skills", "meta": "Agent Skills", "text": "可复用的编程技能，适用于 Codex、Claude Code、Cursor 等。", "url": "https://github.com/ThaddeusJiang/coding-skills"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://thaddeusjiang.com", "paras": ["主页像一份极简名片：Full Cycle Developer，下面列出 Business、Architecture、Coding、Testing、Deploying、Monitoring 六个环节，再写经验与技能。由他自己的 TiddlyJam 驱动，中日双语。", "博客副标题是「数字花园，自留地，个人备份」，文章多是几百字的工作笔记，标题带日期。"]}}
+  ]},
+  {"id": "craft", "title": "思考与方法", "blocks": [
+   {"quote": "在 AI 时代，代码是 AI 写的，调研也是 AI 做的，人类只做了产品级别的决策……那么今后技术类的文章就应该由 AI 来编写。", "cite": "TJ《Tech Blog 应该由 AI 编写》"},
+   {"p": "TJ 的工程哲学是<strong>务实与简洁</strong>：能用 PostgreSQL 就用 PostgreSQL，能在本地跑 CI 就不依赖配额，拒绝「形式主义的敏捷」。全周期开发者的视角，让他更关心系统整体是否可靠，而不是某个环节是否时髦。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>做全周期开发者：</strong>从业务到监控都懂，才能做好技术选型。",
+    "<strong>写短笔记：</strong>每个踩过的坑都值得记一笔。",
+    "<strong>选择无聊的技术：</strong>Just use PostgreSQL。",
+    "<strong>记录你所在的地方：</strong>「我看到的日本」让技术之外的生活也被看见。"
+   ]}
+  ]}
+ ],
+ "cta": "读一读他的《vibe coding 让我重新「慢了」下来》。",
+ "sources": [
+  {"label": "TJ 的 X 个人资料", "url": "https://x.com/ThaddeusJiang"},
+  {"label": "thaddeusjiang.com", "url": "https://thaddeusjiang.com"},
+  {"label": "TJ's Blog", "url": "https://thaddeusjiang.com/blog"},
+  {"label": "GitHub：ThaddeusJiang", "url": "https://github.com/ThaddeusJiang"},
+  {"label": "yihong0618 gitblog 友情链接", "url": "https://github.com/yihong0618/gitblog"}
+ ]
+}
