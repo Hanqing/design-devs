@@ -1,0 +1,61 @@
+{
+ "name": "Marc Lou",
+ "role": "法国独立创业者 · ShipFast / DataFast / TrustMRR 作者",
+ "title": "Marc Lou：一个人做了<em>三十八个创业项目</em>",
+ "dek": "从「下一个扎克伯格」的梦想、首尔失败的 AI 创业、被解雇，到在巴厘岛「疯狂发布」。他的 ShipFast 让无数人几天内上线产品，TrustMRR 成为验证创业收入的数据库。他把所有产品和收入都摆在一个页面上。",
+ "card": "ShipFast、DataFast、TrustMRR 作者，38 个创业项目，月收入约 9 万美元，现居塞浦路斯。",
+ "location": "塞浦路斯（法国人）",
+ "tags": ["Indie Hacking", "Next.js", "公开构建", "SaaS", "营销"],
+ "links": [{"label": "marclou.com", "url": "https://marclou.com"}, {"label": "ShipFast", "url": "https://shipfa.st"}, {"label": "TrustMRR", "url": "https://trustmrr.com"}],
+ "summary": [
+  "<strong>一句话：</strong>「I've built 38 startups solo.」一个把「快速发布」当作信仰的法国开发者，用 emoji 和夸张的营销把一个个小产品推向数万人。",
+  "<strong>代表作：</strong>TrustMRR（经验证的创业收入数据库，约 $47K/月）、DataFast（$32K/月）、ShipFast（Next.js 模板，2023 年 8 月发布）、CodeFast、Ship or Die、MailCheap、Zenvoice、Indie Page 等。",
+  "<strong>为什么值得关注：</strong>他示范了「营销就是产品的一部分」：每一次发布都是一场精心设计的表演。"
+ ],
+ "lead": "Marc 的个人网站顶部是一行大字：「Cyprus · $91.8k /month · I've built 38 startups solo.」下面是一长串产品，每个都标着当前的月收入：从 $47.3k 到 $0。连收入为零的产品也照样列出，这是他「公开构建」的方式。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "毕业后", "title": "想成为「下一个扎克伯格」", "text": "法国计算机专业毕业后没有找工作，住在父母家、兼职当服务员（时薪约 10 美元），开发一款「运动版 Tinder」，没有成功。"},
+    {"when": "2017", "title": "首尔的 AI 创业", "text": "搬到首尔领导一家风投支持的 AI 初创公司，据报道九个月后关闭，零客户。之后又在巴厘岛做过一个游戏化产品，2019 年做到月入 4000 美元，疫情后亏损回到法国。"},
+    {"when": "2021", "title": "被解雇，发现 build in public", "text": "在一家公司工作后于 2021 年 11 月被解雇。他在 Twitter 上发现了「公开构建」的独立开发者社区，看到有人只靠笔记本电脑、不对投资人负责地生活，于是带着约两万美元积蓄搬到巴厘岛，开始「疯狂发布」。"},
+    {"when": "2022–2023", "title": "Sad Marc → Happy Marc", "text": "读了 levelsio 的《MAKE》，从「一年在暗处做一个大项目」转向「一个月公开发布一个小项目」。他自己说：月入 1000 美元的「Sad Marc」两年后变成了月入 4 万美元的「Happy Marc」。"},
+    {"when": "2023-08", "title": "ShipFast", "text": "把自己反复使用的 Next.js 代码（认证、支付、邮件、SEO）打包成模板 ShipFast，几个月内月收入达数万美元，成为现象级产品。"},
+    {"when": "2024–2026", "title": "DataFast、TrustMRR 与更多", "text": "DataFast（把收入归因到流量来源的网站分析）、TrustMRR（经 Stripe 验证的创业收入数据库）、CodeFast（几周学会编程）、Ship or Die（30 天发布挑战）、MailCheap（比 beehiiv 便宜 83% 的 Newsletter）。他还开源了 Razer Naga 鼠标的 macOS 配置 App。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "TrustMRR", "meta": "$47.3K/月", "text": "The database of verified startup revenues：经验证的创业收入数据库。", "url": "https://trustmrr.com"},
+    {"name": "DataFast", "meta": "$31.9K/月", "text": "Grow your startup with data, not guesses：把收入和流量来源打通的分析工具。", "url": "https://datafa.st"},
+    {"name": "ShipFast", "meta": "2023 · Next.js 模板", "text": "Ship your startup in days, not months。", "url": "https://shipfa.st"},
+    {"name": "MailCheap", "meta": "2026 · 开源 · ★1.2k", "text": "按发送量付费、而不是按沉睡订阅者付费的 Newsletter 工具。", "url": "https://github.com/marclou/mailcheap"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://marclou.com", "paras": ["marclou.com 本身就是他的产品 Indie Page 的演示：「All your startups in a page, like this one」。每个产品一行：名字、一句口号、实时月收入。", "页面上方是书、Newsletter（5 万读者）和一句承诺：「How I find startup ideas, launch fast, and get profitable 👇」。"]}},
+   {"p": "这个页面把「作品集」和「收入报表」合二为一，是 indie hacker 文化最纯粹的表达。"}
+  ]},
+  {"id": "craft", "title": "设计与方法", "blocks": [
+   {"p": "Marc 的产品视觉高度统一：大号 emoji、圆角卡片、亮色按钮、夸张的文案（「SHIP your app in 30 days, or die 💀」）。这是一种<strong>为传播而设计</strong>的风格，每一个截图都适合发到 X 上。"},
+   {"note": "他的成功也说明了「卖铲子」的力量：ShipFast、CodeFast、DataFast、TrustMRR 都服务于同一群人：想要创业的开发者。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>小而快：</strong>一个月一个项目，用发布代替打磨。",
+    "<strong>把常用代码产品化：</strong>你反复写的东西，别人也需要。",
+    "<strong>营销是产品的一部分：</strong>标题、截图、视频都要为传播设计。",
+    "<strong>失败不可怕：</strong>首尔、巴厘岛、被解雇，都是通往 38 个项目的路。"
+   ]}
+  ]}
+ ],
+ "cta": "打开 marclou.com，看一个人如何把 38 个项目摆在一页上。",
+ "sources": [
+  {"label": "Marc Lou 的 X 个人资料", "url": "https://x.com/marclou"},
+  {"label": "marclou.com", "url": "https://marclou.com"},
+  {"label": "Tiny Empires：The Journey of Marc Lou", "url": "https://tinyempires.substack.com/p/case-study-the-journey-of-marc-lou"},
+  {"label": "Noah Kagan 访谈 Marc Louvion", "url": "https://noahkagan.com/marc-louvion/"},
+  {"label": "GitHub：marclou", "url": "https://github.com/marclou"},
+  {"label": "readMAKE.com 上 Marc Lou 的推荐语", "url": "https://readmake.com"}
+ ]
+}

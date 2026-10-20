@@ -1,0 +1,59 @@
+{
+ "name": "Sukka",
+ "role": "前端 / 基础设施工程师 · Hexo 核心成员",
+ "title": "Sukka：一只<em>毛绒绒的大尾巴狐狸</em>，和它维护的开源世界",
+ "dek": "Hexo 核心团队成员、nolyfill 作者、eslint-plugin-import-x 核心维护者、Next.js 活跃贡献者。曾联合创办 ArcBox Labs，现在在 Manus 为 AI 时代重塑基础设施。",
+ "card": "Hexo 核心成员、nolyfill 与 foxact 作者，前 ArcBox Labs 联合创始人，现于 Manus 做基础设施。",
+ "location": "「科学之城」",
+ "tags": ["前端", "TypeScript", "开源", "网络", "基础设施"],
+ "links": [{"label": "skk.moe", "url": "https://skk.moe"}, {"label": "博客", "url": "https://blog.skk.moe"}, {"label": "GitHub", "url": "https://github.com/SukkaW"}],
+ "summary": [
+  "<strong>一句话：</strong>一位在前端工具链、网络规则和性能优化领域都非常活跃的开源维护者，自称「Vibe Code 清理专家」。",
+  "<strong>代表作：</strong>Surge 规则集（★4.6k，适配 Surge / Mihomo / sing-box 等）、nolyfill（清理 npm 依赖中多余的 polyfill）、foxact（为浏览器、SSR 和 RSC 设计的 React Hooks）、DisqusJS、hexo-theme-suka、nali-cli、zsh-proxy。",
+  "<strong>为什么值得关注：</strong>他做的很多事情不显眼，却让整个 JavaScript 生态更快、更轻：少装一个包、少一次重渲染、少一个 SSD 写入。"
+ ],
+ "lead": "Sukka 的 GitHub 简介写着：「Vibe Code Cleanup Specialist. All opinions are my own. Literally all of them.」（Vibe Code 清理专家。所有观点都是我自己的，真的是全部。）他所在的城市一栏写着：「City of Science which may or may not in China」。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2018", "title": "博客与 Hexo", "text": "2018 年注册 GitHub 与 X。为 Hexo 写了主题 hexo-theme-suka，并做了 DisqusJS：在中国大陆通过 Disqus API 渲染评论。之后加入 Hexo 核心团队。"},
+    {"when": "2019–2020", "title": "网络工具", "text": "Koolshare-Clash（在 Koolshare OpenWrt 上运行 Clash）、zsh-proxy（oh-my-zsh 代理插件）、nali-cli（在终端解析 IP 地理信息），以及持续维护至今的 Surge 规则集。"},
+    {"when": "2023", "title": "nolyfill 与 foxact", "text": "nolyfill 用一行命令替换掉依赖树里大量过时的 polyfill，「加速安装、减少磁盘占用、延长你宝贵 SSD 的寿命」；foxact 是「做对了」的 React Hooks 工具库。"},
+    {"when": "2024", "title": "用户脚本与 lint 工具", "text": "Make Bilibili Great Than Ever Before、location-guard-ng 等用户脚本；成为 eslint-plugin-import-x 的核心维护者，并维护 DNSControl 的 Vercel provider，向 Next.js、htmlnano 等项目持续贡献。"},
+    {"when": "ArcBox Labs", "title": "联合创业", "text": "作为联合创始人参与 ArcBox Labs。"},
+    {"when": "现在", "title": "Manus", "text": "在 Manus「为 AI 时代重塑基础设施」。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "nolyfill", "meta": "2023 · TypeScript", "text": "加速依赖安装，减少磁盘占用，延长 SSD 寿命。", "url": "https://github.com/SukkaW/nolyfill"},
+    {"name": "Surge 规则集", "meta": "2020 · ★4.6k", "text": "适配 Surge、Mihomo、Clash、sing-box 等的规则片段与规则集，持续自动更新。", "url": "https://github.com/SukkaW/Surge"},
+    {"name": "foxact", "meta": "2023 · React", "text": "为浏览器、SSR 与 React Server Components 正确实现的 Hooks 与工具。", "url": "https://github.com/SukkaW/foxact"},
+    {"name": "DisqusJS", "meta": "2018", "text": "在无法直连 Disqus 的网络环境下，用 API 渲染评论。", "url": "https://github.com/SukkaW/DisqusJS"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://skk.moe", "paras": ["skk.moe 是他的作品集，blog.skk.moe 是博客。站点部署在他自己调教的基础设施后面，访问时可能会先看到一个验证页面，页脚写着「Hosted by SukkaW」。", "他的 X 名字是「Sukka / 毛绒绒的大尾巴🦊」，简介标注 zh_Hans / en_US 双语。"]}},
+   {"p": "博客长期以性能优化、前端工程和网络为主题，以细致的实测和数据著称。"}
+  ]},
+  {"id": "craft", "title": "手艺与方法", "blocks": [
+   {"p": "Sukka 的工作有一个共同的审美：<strong>正确与轻量</strong>。foxact 强调「done right」：每个 Hook 都考虑 SSR 和 RSC 的边界情况；nolyfill 则是对生态「臃肿」的一次系统性清理。"},
+   {"callout": "当 AI 生成的代码越来越多，「清理」本身会变成一门手艺。Sukka 给自己的新头衔恰好说明了这一点。", "t": "Vibe Code Cleanup Specialist"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>做生态的清道夫：</strong>减法同样是贡献。",
+    "<strong>考虑所有运行环境：</strong>浏览器、SSR、RSC，一个都不能少。",
+    "<strong>长期维护基础设施：</strong>规则集、lint 插件，需要的是耐心。",
+    "<strong>用数据说话：</strong>性能优化必须有实测。"
+   ]}
+  ]}
+ ],
+ "cta": "在你的项目里跑一次 npx nolyfill，看看能省掉多少依赖。",
+ "sources": [
+  {"label": "Sukka 的 X 个人资料", "url": "https://x.com/isukkaw"},
+  {"label": "GitHub：SukkaW", "url": "https://github.com/SukkaW"},
+  {"label": "SukkaW 的 GitHub 个人 README", "url": "https://github.com/SukkaW/SukkaW"},
+  {"label": "skk.moe", "url": "https://skk.moe"}
+ ]
+}
