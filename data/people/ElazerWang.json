@@ -1,0 +1,58 @@
+{
+ "name": "石头 Elazer Wang",
+ "role": "一人公司 · 独立开发者 · AI × 数据",
+ "title": "石头：做了 12 年数据架构，<em>现在用 AI 一个人开公司</em>",
+ "dek": "2014 年开始做大数据，做过大厂高级数据架构专家，服务过 H&M、国际奥组委、福耀集团、百视通等企业的数据项目。离开大厂后，他把自己经营成一家一人公司：独立产品、两个知识社群和 AI 与数据咨询，四件事互相喂养。",
+ "card": "前大厂高级数据架构专家，一人公司经营者，拾穗数据与 IndieMaker 社群主理人，杭州。",
+ "location": "中国杭州",
+ "tags": ["数据架构", "AI Agent", "macOS", "一人公司", "社群"],
+ "links": [{"label": "elazer.wang", "url": "https://elazer.wang"}, {"label": "IndieMaker", "url": "https://indiemaker.cc"}, {"label": "GitHub", "url": "https://github.com/shisuidata"}],
+ "summary": [
+  "<strong>一句话：</strong>一个从数据架构走向独立开发的「一人公司」经营者，X 简介自嘲为「达里奥和奥特曼的衣食父母」。",
+  "<strong>代表作：</strong>独立产品 Copyla、Clacklet、TalkAbout、DANMU，开源可信 AI 数据运行时 Forge；社群「拾穗数据」（知识星球「数据从业者们」、2333 份文档的全栈知识库）与 IndieMaker（小册 + 知识星球）。",
+  "<strong>数字：</strong>12 年数据一线、11 款已发布产品与开源项目、2 个知识星球社群。"
+ ],
+ "lead": "石头在网站上说，他的一人公司在做「四件事互相喂养」：产品来自自己的工作流，社群和咨询来自 12 年的数据经验，写作把过程公开出来。网站首页右下角显示着杭州的实时时间。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"p": "他在「关于」页写的不是履历，而是「几个改变判断方式的时刻」："},
+   {"steps": [
+    {"when": "2014–", "title": "12 年数据一线", "text": "长期面对数据架构、建模、治理、指标与交付，做到大厂高级数据架构专家。「复杂系统教会我的，不是把方案讲得更大，而是把边界、成本和证据讲清楚。」"},
+    {"when": "转折", "title": "从技术优先到问题优先", "text": "「我曾经相信技术就是一切，后来越来越确定：企业真正需要的不是更宏大的平台，而是数据能不能帮助解决眼前的问题。工具应该服从问题，而不是拿着锤子找钉子。」"},
+    {"when": "离开大厂", "title": "一人公司", "text": "建立拾穗数据，把经验沉淀为公开内容、知识库、咨询与社群；运营 IndieMaker，和想做独立产品的人一起摸索；把自己每天用的工作流做成小而完整的产品。"},
+    {"when": "2026", "title": "AI × 数据", "text": "围绕开源的 Forge 探讨两个问题：帮企业建好 AI Agent 需要的数据底座（口径、模型、权限、审核），帮数据和 AI 从业者想清楚职业的下一步。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Forge", "meta": "开源", "text": "可信 AI 数据运行时：让 Agent 落地前先有可靠的数据底座。", "url": "https://elazer.wang"},
+    {"name": "Copyla / Clacklet / TalkAbout", "meta": "独立产品", "text": "他自己天天在用的效率工具，小而完整。", "url": "https://elazer.wang"},
+    {"name": "IndieMaker 小册", "meta": "indiemaker.cc", "text": "学习路线、项目样本、工具方案与行业信号，按问题查阅。", "url": "https://indiemaker.cc"},
+    {"name": "拾穗数据", "meta": "知识库 + 社群", "text": "2333 份文档的数据从业者全栈知识库，从数据基本功到 AI 实践。", "url": "https://elazer.wang"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://elazer.wang", "paras": ["首页大标题：「做了 12 年数据架构，现在用 AI 一个人开公司。」下面是四个数字、四件事，以及按方向分组的社群与知识入口。", "404 页面写着「走错田埂了。这里没有页面，不过拾穗的人总能找到回去的路。」品牌隐喻「拾穗」贯穿全站。"]}},
+   {"p": "最近的文章非常具体：「用户数涨了，活跃率反而降了：分析师先拆哪 3 个分母」「大促券核销率突然翻倍」「文件名都叫最终版」，每篇都是一个可以直接拿去用的分析模板。"}
+  ]},
+  {"id": "craft", "title": "方法与思考", "blocks": [
+   {"quote": "工具应该服从问题，而不是拿着锤子找钉子。", "cite": "石头，关于页"},
+   {"p": "他的一人公司模式是一个<strong>飞轮</strong>：咨询带来真实问题，问题变成文章和知识库，知识库吸引社群，社群里的需求又变成产品。每一环都在给其他环节供能。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>把专业经验产品化：</strong>知识库、社群、咨询都是经验的不同形态。",
+    "<strong>问题优先：</strong>先问「解决什么」，再问「用什么技术」。",
+    "<strong>让业务互相喂养：</strong>一人公司需要飞轮，而不是单点。",
+    "<strong>给品牌一个隐喻：</strong>「拾穗」让整个网站有了温度。"
+   ]}
+  ]}
+ ],
+ "cta": "如果你想做独立产品，打开 indiemaker.cc 看看学习路线。",
+ "sources": [
+  {"label": "Elazer 的 X 个人资料", "url": "https://x.com/ElazerWang"},
+  {"label": "elazer.wang", "url": "https://elazer.wang"},
+  {"label": "elazer.wang：关于", "url": "https://elazer.wang/about"},
+  {"label": "IndieMaker", "url": "https://indiemaker.cc"}
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "name": "Rauno Freiberg",
+ "role": "Vercel 交互设计师 · Devouring Details 作者",
+ "title": "Rauno Freiberg：<em>吞噬细节</em>的交互设计师",
+ "dek": "爱沙尼亚的交互设计师，Vercel 设计团队的核心成员。他做了几十个让人惊叹的交互原型，写了《Invisible Details of Interaction Design》，整理了「好的 Web 界面细节清单」，并做了一本可交互的交互设计手册 Devouring Details 和一部《软件设计史》。",
+ "card": "Vercel 交互设计师，Devouring Details 与 History of Software Design 作者，interfaces 清单发起人。",
+ "location": "爱沙尼亚",
+ "tags": ["交互设计", "动效", "React", "设计工程", "Web"],
+ "links": [{"label": "rauno.me", "url": "https://rauno.me"}, {"label": "Devouring Details", "url": "https://www.devouringdetails.com"}, {"label": "History of Software Design", "url": "https://historyofsoftware.org"}],
+ "summary": [
+  "<strong>一句话：</strong>「Make it fast. Make it beautiful. Make it consistent. Make it carefully. Make it timeless. Make it soulful. Make it.」当代 Web 交互设计最有影响力的设计工程师之一。",
+  "<strong>代表作：</strong>Devouring Details（23 章、23 个可下载 React 组件的交互参考手册）、History of Software Design、interfaces（★1.9k，好界面的细节清单）、inspx（像素级布局检查）、ui-playbook、Vesper 主题；以及 Vercel 的大量界面与原型。",
+  "<strong>为什么值得关注：</strong>他把「感觉对了」这种模糊的东西，拆解成了可以学习、可以复用的具体细节。"
+ ],
+ "lead": "Rauno 的个人网站只有一句介绍：「Rauno Freiberg is an Estonian interaction designer working with Vercel and Devouring Details.」页面最下方是一段像诗一样的排比：「Make it fast. Make it beautiful. Make it consistent. Make it carefully. Make it timeless. Make it soulful. Make it.」",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2016–2018", "title": "从前端开始", "text": "2016 年注册 GitHub，整理编程学习资源，做作品集网站与 macOS 开发环境配置。"},
+    {"when": "2020", "title": "Modulz 与 UI Playbook", "text": "参与 Modulz（Radix 背后的团队）的网站与学习平台；发布 ui-playbook（有文档的 UI 组件合集）和 axe-mode（可视化的无障碍测试）。"},
+    {"when": "2021", "title": "inspx", "text": "按住 Alt 就能像素级检查布局的工具，深受设计工程师喜爱。"},
+    {"when": "2022", "title": "加入 Vercel，年度原型站", "text": "在 Vercel 做交互设计，同时把一年的原型发布在 2022.rauno.me：Gooey Shader、Tangerine Shader、Signatures、Browser History、Vercel Footer、Preview Comments……"},
+    {"when": "2023", "title": "Invisible Details 与 interfaces", "text": "发表长文《Invisible Details of Interaction Design》，开源 interfaces（好 Web 界面的细节清单）和 Vesper 主题；年度原型包括 Vanish Input、Wheel Input、Exclusion Tabs、SwiftUI Dock，以及复刻 Jason Yuan 的 MercuryOS。"},
+    {"when": "2024", "title": "更多交互实验", "text": "Word Lookup、Blur Reveal、X-Ray Interaction、Toolbar Morph、Inline Conversion。"},
+    {"when": "2025–2026", "title": "Devouring Details 与软件设计史", "text": "2025 年 7 月发布 Devouring Details：一本面向「对交互好奇的设计师」的交互参考手册；2026 年 2 月发布 History of Software Design，8 月推出海报系列。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Devouring Details", "meta": "2025 · 23 章", "text": "可交互的交互设计参考手册，每章附一个可下载的 React 组件，所有演示都是真实组件录制。", "url": "https://www.devouringdetails.com"},
+    {"name": "History of Software Design", "meta": "2026", "text": "一部关于软件设计历史的作品。", "url": "https://historyofsoftware.org"},
+    {"name": "interfaces", "meta": "2023 · ★1.9k", "text": "一份让 Web 界面变好的细节清单（非穷尽）。", "url": "https://github.com/raunofreiberg/interfaces"},
+    {"name": "inspx", "meta": "2021 · ★1.5k", "text": "像素级完美的布局检查工具。", "url": "https://github.com/raunofreiberg/inspx"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://rauno.me", "paras": ["首页只有名字、一句话、几个入口：Devouring Details、Craft、History of Software Design、Projects、Field Notes，以及 2022、2023 两个年度站。", "Craft 页按时间倒序列出几十个交互原型，每个都有「View Prototype」或「View Production」，像一个交互设计的博物馆。"]}},
+   {"p": "Devouring Details 的介绍写道：「在做这个之前我问自己：我是怎么学会的？答案是：先做出一个想法，发现它在实践中很糟糕。迭代足够多次，有时甚至是意外，就会到达一个感觉很好的地方。」"}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"quote": "Have you ever noticed that some animation sequences can be improved with just a touch of delay? Or that some interactions just feel better without any motion at all?", "cite": "Devouring Details"},
+   {"p": "Rauno 的设计方法是<strong>用代码做设计</strong>：每个想法都做成真正可交互的原型，在手上试，而不是在静态稿上想。他的原型常常只关注一个瞬间，比如输入框消失、工具栏变形、文字模糊显现，但正是这些瞬间决定了产品的质感。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>细节是可以学的：</strong>把「感觉对了」拆成具体的原则和组件。",
+    "<strong>用原型思考：</strong>在真实交互里迭代，而不是在静态稿里争论。",
+    "<strong>为每一年留档：</strong>年度原型站是最好的作品集。",
+    "<strong>学习历史：</strong>理解软件设计的过去，才能设计未来。"
+   ]}
+  ]}
+ ],
+ "cta": "读一读 Devouring Details 的免费章节，或者去 Craft 页玩一玩他的原型。",
+ "sources": [
+  {"label": "rauno 的 X 个人资料", "url": "https://x.com/raunofreiberg"},
+  {"label": "rauno.me", "url": "https://rauno.me"},
+  {"label": "rauno.me：Craft", "url": "https://rauno.me/craft"},
+  {"label": "Devouring Details", "url": "https://www.devouringdetails.com"},
+  {"label": "GitHub：raunofreiberg", "url": "https://github.com/raunofreiberg"}
+ ]
+}

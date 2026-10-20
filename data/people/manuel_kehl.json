@@ -1,0 +1,54 @@
+{
+ "name": "Manuel Kehl",
+ "role": "Apple 平台独立开发者 · 前 Apple 软件工程师",
+ "title": "Manuel Kehl：冷笑话制造者，<em>可爱 App</em> 的作者",
+ "dek": "德国人，曾在苏格兰、英格兰和加州生活七年，在 Apple 做了五年软件工程师。回到德国后，他一边接自由职业项目，一边做自己的小而美 App：冥想应用 Zenitizer 和把日历、闹钟、计时器放进同一条时间线的 Daylish。",
+ "card": "前 Apple 工程师（5 年），Zenitizer 冥想与 Daylish 时间线 App 作者，德国。",
+ "location": "德国",
+ "tags": ["iOS", "watchOS", "SwiftUI", "冥想", "健康"],
+ "links": [{"label": "manuelkehl.com", "url": "http://manuelkehl.com"}],
+ "summary": [
+  "<strong>一句话：</strong>「Maker of terrible puns and delightful apps.」一个从 Apple 出来、专注做「专门解决一个问题」的小 App 的开发者兼设计师。",
+  "<strong>代表作：</strong>Zenitizer（干净简洁的冥想 App，支持 Apple 健康、连续记录、年度回顾）、Daylish（日历事件、闹钟、计时器的统一时间线）。",
+  "<strong>背景：</strong>从网页设计到底层系统框架与嵌入式开发都做过；X 简介调侃自己「曾在一家位于库比蒂诺的水果供应商工作」。"
+ ],
+ "lead": "Manuel 在 About 页里说，他的 App 点子都来自自己遇到却没有找到满意解决方案的问题。「这些 scratch your own itch 的场景，是我内在动力的重要来源。」",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "早期", "title": "德国 → 苏格兰 → 英格兰 → 加州", "text": "出生于德国，在苏格兰、英格兰和加州共生活了七年。经历涵盖网页设计、底层系统框架与嵌入式系统开发。"},
+    {"when": "Apple 五年", "title": "库比蒂诺", "text": "在 Apple 担任软件工程师共五年，参与令人兴奋的项目，学到很多，也结识了很棒的人。"},
+    {"when": "独立开发", "title": "回到德国", "text": "回到德国，把工作时间分给自由职业和自己的 App，主攻 iOS、watchOS、macOS，深入 SwiftUI。"},
+    {"when": "2023", "title": "Zenitizer 年度回顾", "text": "为 Zenitizer 加入个性化的冥想年度回顾：统计全年冥想时长与每周频率，可分享为图片；与 Apple 健康打通，甚至能计入其他冥想 App 的正念分钟数。"},
+    {"when": "现在", "title": "Daylish", "text": "把日历事件、闹钟和计时器放进同一条统一时间线。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Zenitizer", "meta": "iOS / watchOS", "text": "Clean and Simple Meditation：连续记录、统计、每日提醒、年度回顾。", "url": "http://manuelkehl.com"},
+    {"name": "Daylish", "meta": "iOS", "text": "日历事件、闹钟、计时器，全在一条统一的时间线里。", "url": "http://manuelkehl.com"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "http://manuelkehl.com", "paras": ["导航全部用 emoji 开头：👋 Hi、📱 Apps、🗞 Blog、💡 Help、🛠 Projects、👨‍💻 About Me。首页展示两款 App 和最新博文。", "博客文章常常就是产品更新说明，写得像一封给用户的信，比如解释为什么不在冥想 App 里做社区功能。"]}}
+  ]},
+  {"id": "craft", "title": "设计与手艺", "blocks": [
+   {"p": "Manuel 的目标是<strong>「建立一个专门化 App 的组合：每一个都把一个特定问题解决好，同时直观、优雅、好玩」</strong>。冥想 App 不做社区，是为了保持「干净简单」的初心。"},
+   {"p": "工作之外，他弹吉他、唱歌、写歌、画画，喜欢徒步、山地自行车和露营，并在生活的许多方面追求「优化与自动化」。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>大公司经验是底气：</strong>Apple 五年让他对平台理解极深。",
+    "<strong>从自己的痛点出发：</strong>内在动力比市场分析更持久。",
+    "<strong>克制功能：</strong>不做社区，也是一种设计决定。",
+    "<strong>自由职业 + 自有产品：</strong>可持续的独立开发组合。"
+   ]}
+  ]}
+ ],
+ "cta": "如果你想开始冥想，试试 Zenitizer。",
+ "sources": [
+  {"label": "Manuel Kehl 的 X 个人资料", "url": "https://x.com/manuel_kehl"},
+  {"label": "manuelkehl.com", "url": "http://manuelkehl.com"},
+  {"label": "manuelkehl.com：About Me", "url": "http://manuelkehl.com/about"}
+ ]
+}

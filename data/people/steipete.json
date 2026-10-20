@@ -1,0 +1,59 @@
+{
+ "name": "Peter Steinberger",
+ "role": "OpenClaw 作者 · PSPDFKit 创始人 · OpenAI",
+ "title": "Peter Steinberger：从<em>退休</em>回来，养了一只龙虾",
+ "dek": "这位奥地利开发者把 PDF SDK 公司 PSPDFKit 自举成九位数的退出，然后倦怠、退休。2025 年 AI 变得足够好，又把他拉了回来：他用 Agent 疯狂写代码，做出了成为 GitHub 星数最多软件项目的个人 AI Agent OpenClaw，并在 2026 年 2 月加入 OpenAI。",
+ "card": "PSPDFKit 创始人，OpenClaw 作者（GitHub 星数最多的软件项目），2026 年加入 OpenAI。",
+ "location": "美国旧金山（奥地利人）",
+ "tags": ["AI Agent", "iOS", "开源", "创业", "Agentic Engineering"],
+ "links": [{"label": "steipete.me", "url": "https://steipete.me"}, {"label": "GitHub", "url": "https://github.com/steipete"}, {"label": "CodexBar", "url": "https://github.com/steipete/CodexBar"}],
+ "summary": [
+  "<strong>一句话：</strong>「Came back from retirement to mess with AI and help a lobster take over the world.」iOS 时代的传奇工程师，Agent 时代的新偶像。",
+  "<strong>代表作：</strong>PSPDFKit（现 Nutrient）；OpenClaw（开源个人 AI Agent，现由独立基金会托管）；CodexBar（★2.3 万，菜单栏显示 Codex 和 Claude Code 用量）、summarize、oracle、agent-rules、RepoBar；早年的 Aspects、PSTCollectionView、PSStackedView。",
+  "<strong>为什么值得关注：</strong>他公开分享自己的 Agentic Engineering 方法，比如《Just Talk To It》《Shipping at Inference-Speed》，影响了无数开发者使用 AI 的方式。"
+ ],
+ "lead": "Peter 的 About 页第一句话是：「I made OpenClaw — the open-source personal AI agent that became GitHub's most-starred software project.」最后一句是：「The claw is the law. 🦞」中间是一段浓缩的人生：自举公司到九位数退出、倦怠、退休，然后 AI 变好了，把他拉了回来。",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "2009–2012", "title": "iOS 开源", "text": "在维也纳活跃于 iOS 社区：PSStackedView（「做对了」的 Twitter iPad 堆叠界面）、PSTCollectionView（兼容 iOS 4.3 的 UICollectionView 替代品）。"},
+    {"when": "2011", "title": "PSPDFKit", "text": "从一个 PDF 阅读组件起步，创立 PSPDFKit，成为被众多大公司使用的跨平台 PDF SDK。2014 年开源的 Aspects（Objective-C 面向切面编程）至今仍有 8.4k 星。"},
+    {"when": "2021 前后", "title": "退出与倦怠", "text": "把完全自举的 PSPDFKit 做到九位数级别的退出（公司后来更名为 Nutrient），随后经历倦怠并「退休」。"},
+    {"when": "2025", "title": "被 AI 拉回来", "text": "AI 编程工具变得足够好后重新开始写代码，一年内发布大量工具：CodexBar、summarize、oracle（卡住时召唤 GPT-5 Pro）、agent-rules、agent-scripts、RepoBar。写下《Just Talk To It——不炒作的 Agentic Engineering》《Shipping at Inference-Speed》，并发起「Claude Code Anonymous」线下聚会。"},
+    {"when": "2025–2026", "title": "OpenClaw 🦞", "text": "做出开源个人 AI Agent（最初名为 Clawdbot），以龙虾为吉祥物，迅速成为 GitHub 星数最多的软件项目，并移交给独立的 OpenClaw 基金会。"},
+    {"when": "2026-02", "title": "加入 OpenAI", "text": "加入 OpenAI，致力于「把 Agent 带给每一个人」。下一个目标：「一个连我妈妈都会用的 Agent」。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "OpenClaw", "meta": "2025–2026 · 开源 Agent", "text": "开源的个人 AI Agent，GitHub 星数最多的软件项目，现由 OpenClaw 基金会维护。", "url": "https://steipete.me/about"},
+    {"name": "CodexBar", "meta": "2025 · Swift · ★2.3 万", "text": "不用登录，在菜单栏查看 OpenAI Codex 和 Claude Code 的用量。", "url": "https://github.com/steipete/CodexBar"},
+    {"name": "summarize", "meta": "2025 · TypeScript", "text": "指向任意 URL、YouTube、播客或文件，得到要点。CLI + Chrome 扩展。", "url": "https://github.com/steipete/summarize"},
+    {"name": "PSPDFKit / Nutrient", "meta": "2011 · 创始人", "text": "被大量企业使用的跨平台 PDF SDK，自举至九位数退出。", "url": "https://www.nutrient.io"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://steipete.me", "paras": ["首页副标题：「AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.」下面是带阅读时长的文章列表。", "一个小彩蛋：把 steipete.me 改成 steipete.md，就能得到整站的 Markdown 版本，专门给 AI 读。文章以 CC BY 4.0、代码以 MIT 授权，标注「Steal this post ➜」。"]}}
+  ]},
+  {"id": "craft", "title": "方法与思考", "blocks": [
+   {"p": "Peter 的 Agentic Engineering 方法可以概括为<strong>「直接跟它说话」</strong>：少一些复杂的框架和仪式，多一些清晰的上下文、规则文件和可复用脚本。他把自己的 agent-rules 和 agent-scripts 全部开源。"},
+   {"quote": "Why I stopped reading code and started watching it stream by.", "cite": "Peter Steinberger《Shipping at Inference-Speed》"},
+   {"note": "他也很坦诚地谈论倦怠：做到九位数退出之后，他并没有立刻找到下一个方向。是 AI 带来的创造乐趣，让他重新找回了「火花」（见他的文章《Finding My Spark》）。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>自举也能做大：</strong>不融资，同样可以做到九位数。",
+    "<strong>为 AI 写网站：</strong>.md 版本、开放授权，让知识被 Agent 读取。",
+    "<strong>把工作流开源：</strong>规则、脚本、工具，都可以帮到别人。",
+    "<strong>倦怠之后还能重来：</strong>找到让你兴奋的东西，再出发。"
+   ]}
+  ]}
+ ],
+ "cta": "读一读《Just Talk To It》，然后装一个 CodexBar。",
+ "sources": [
+  {"label": "Peter Steinberger 的 X 个人资料", "url": "https://x.com/steipete"},
+  {"label": "steipete.me", "url": "https://steipete.me"},
+  {"label": "steipete.me：About", "url": "https://steipete.me/about"},
+  {"label": "GitHub：steipete", "url": "https://github.com/steipete"}
+ ]
+}

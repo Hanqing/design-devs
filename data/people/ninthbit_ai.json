@@ -1,0 +1,56 @@
+{
+ "name": "Kieran Zhang",
+ "role": "AI 原生独立开发者 · 前华为 IDE 工程师",
+ "title": "Kieran Zhang：在 AI 时代，<em>一个人能做的事</em>远超从前",
+ "dek": "在华为做了多年 IDE 与开发者工具：自研编程语言的语言服务、鸿蒙的 IDE 集成与性能调优、把 AI 带进移动开发与运维。2026 年他离开大厂做自己的产品：Pi 编程 Agent 的桌面 GUI、开源语音输入法、AI 编程订阅价值基准。",
+ "card": "前华为 IDE / 鸿蒙开发工具工程师，2026 年起独立开发 Pace、Voily、Pi Index、SubWorth。",
+ "location": "中国南京",
+ "tags": ["AI Agent", "开发者工具", "macOS", "摄影", "写作"],
+ "links": [{"label": "kieran.build", "url": "https://kieran.build"}, {"label": "Pi Index", "url": "https://piindex.dev"}, {"label": "GitHub", "url": "https://github.com/BubblePtr"}],
+ "summary": [
+  "<strong>一句话：</strong>一个从 IDE 与编程语言工具链走出来的「AI 原生独立开发者」，相信「软件工程里一切都是权衡」。",
+  "<strong>代表作：</strong>Pi Index（Pi 编程 Agent 扩展、主题、技能与提示词模板的精选索引）、Pace（Pi 编程 Agent 的桌面 GUI）、Voily（开源 macOS 语音转文字）、SubWorth（衡量 AI 编程订阅「值多少 API 钱」的开放基准）。",
+  "<strong>为什么值得关注：</strong>他的离职理由很有代表性：「不是对大厂失望，而是在 AI 时代，一个人能做的东西已经远超从前。」"
+ ],
+ "lead": "Kieran 把个人网站称为「数字花园」：文章、项目笔记、摄影和工程反思。项目卡片有一个小交互：「Click a card to lift it. Click again to open the project.」（点一下卡片会抬起来，再点一下才打开。）",
+ "sections": [
+  {"id": "story", "title": "成长与经历", "blocks": [
+   {"steps": [
+    {"when": "早期", "title": "小公司起步", "text": "职业生涯从一家小公司开始。"},
+    {"when": "2022–2026", "title": "华为：IDE 与开发者工具", "text": "加入华为，主要做 IDE 与开发者工具：为自研编程语言做语言服务、为鸿蒙做 IDE 集成与性能调优，以及把 AI 引入移动开发、测试、运维与故障排查。"},
+    {"when": "2026", "title": "独立开发", "text": "离开华为做自己的产品，聚焦 Agentic Engineering：发布 Pi Index，开发 Pace、Voily、SubWorth；写《Pi Agent 配置指南》《Weekly》系列（体验 Raft、搭建自动化内容系统、思考 Agent 团队架构），以及从编程语言视角谈 RAII 的文章。"}
+   ]}
+  ]},
+  {"id": "works", "title": "代表作品", "blocks": [
+   {"cards": [
+    {"name": "Pi Index", "meta": "已上线", "text": "Pi 编程 Agent 的扩展、主题、技能与提示词模板精选列表，配可搜索的网站。", "url": "https://piindex.dev"},
+    {"name": "Pace", "meta": "开发中", "text": "Pi 编程 Agent 的桌面 GUI：会话、轨迹、真实的 Token 与成本，以及扩展注册的面板。", "url": "https://kieran.build"},
+    {"name": "Voily", "meta": "开发中 · 开源", "text": "macOS 语音转文字：把原始语音变成润色后的文字，直接出现在光标处。", "url": "https://kieran.build"},
+    {"name": "SubWorth", "meta": "开发中", "text": "开放基准：AI 编程订阅实际提供了相当于多少美元的 API 用量。", "url": "https://kieran.build"}
+   ]}
+  ]},
+  {"id": "site", "title": "个人网站", "blocks": [
+   {"site": {"url": "https://kieran.build", "paras": ["导航有 Home、Blog、Photography、About，中英切换与主题切换。首页是精选文章和四张项目卡片，每张标注 building 或 shipped。", "About 页写着他最近在读维特根斯坦的《逻辑哲学论》和《The Book of Elon》，离开屏幕时会带着一台尼康 Z5 II 拍照，偶尔打打德州扑克。"]}},
+   {"p": "文章话题跨度很大：GPT Image 2.5 提示词指南解读、端到端 AI 短片制作入门、OKLCH 让颜色成为「可推理的参数」、量化交易笔记。"}
+  ]},
+  {"id": "craft", "title": "设计与思考", "blocks": [
+   {"quote": "If the years taught me one thing, it is this: in software engineering, everything is a trade-off.", "cite": "Kieran Zhang，About"},
+   {"p": "他喜欢「用分析哲学的方式拆解问题」，又越来越倾向儒家思想中务实、入世的一面。这种组合让他的工具都很「实在」：Token 真实成本、订阅真实价值、语音真实落到光标处。"}
+  ]},
+  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
+   {"checklist": [
+    "<strong>把大厂经验带出来：</strong>IDE 与工具链背景让他天然懂开发者。",
+    "<strong>做生态的索引：</strong>Pi Index 这样的「目录」是新生态最早的基础设施。",
+    "<strong>用数据回答争论：</strong>SubWorth 把「哪个订阅更值」变成可测量的问题。",
+    "<strong>写作即思考：</strong>周报和长文帮助他理清方向。"
+   ]}
+  ]}
+ ],
+ "cta": "去 Pi Index 看看 Pi 编程 Agent 的生态。",
+ "sources": [
+  {"label": "Kieran Zhang 的 X 个人资料", "url": "https://x.com/ninthbit_ai"},
+  {"label": "kieran.build", "url": "https://kieran.build"},
+  {"label": "kieran.build：About", "url": "https://kieran.build/about"},
+  {"label": "Pi Index", "url": "https://piindex.dev"}
+ ]
+}
