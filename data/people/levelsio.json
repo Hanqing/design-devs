@@ -1,62 +1,185 @@
 {
  "name": "Pieter Levels",
  "role": "独立创业者 · Nomads.com / Photo AI 作者",
- "title": "levelsio：用 <em>PHP 和 jQuery</em> 做出一个创业帝国",
- "dek": "2014 年他给自己定了一个挑战：12 个月做 12 个创业项目。其中的 Nomad List 后来成为数字游民的必备网站。之后的 Remote OK、Interior AI、Photo AI 让他成为全球最知名的独立创业者，一个人、零融资、月入数十万美元。",
- "card": "Nomads.com、Remote OK、Photo AI 作者，《MAKE》作者，全球最知名的独立创业者。",
+ "title": "levelsio：用 PHP 和 jQuery 做出一个<em>创业帝国</em>",
+ "dek": "2014 年他给自己定了一个挑战：12 个月做 12 个创业项目。其中的 Nomad List（今天的 Nomads.com）成为数字游民的必备网站。之后的 Remote OK、Interior AI、Photo AI、浏览器飞行游戏和 Vibe Jam，让他成为全球最知名的独立创业者：一个人、零员工、零融资，X 上有近百万关注者，简介里每个产品后面都写着月收入。",
+ "card": "Nomads.com、Photo AI、Interior AI、Remote OK 作者；《MAKE》作者；一个人零融资的创业帝国。",
  "location": "全球（荷兰人）",
- "tags": ["Indie Hacking", "PHP", "AI 产品", "公开构建", "数字游民"],
- "links": [{"label": "levels.io", "url": "https://levels.io"}, {"label": "MAKE", "url": "https://readmake.com"}, {"label": "Photo AI", "url": "https://photoai.com"}],
+ "updated": "2026-10-21",
+ "tags": ["独立创业", "Build in Public", "AI 产品", "PHP", "数字游民"],
+ "links": [
+  {"label": "《MAKE》", "url": "https://readmake.com"},
+  {"label": "Photo AI", "url": "https://photoai.com"},
+  {"label": "Nomads.com", "url": "https://nomads.com"},
+  {"label": "GitHub", "url": "https://github.com/levelsio"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>一个荷兰程序员，坚持用最朴素的技术栈（单文件 PHP、jQuery、SQLite、一台 VPS）快速做产品，并在 X 上透明地公开每一款产品的收入。",
-  "<strong>代表作：</strong>Nomads.com（原 Nomad List）、Remote OK、Hoodmaps、Interior AI、Photo AI（简介显示约 $86K/月）、VibeJam、多人飞行游戏；书《MAKE》售出三万多本。",
-  "<strong>为什么值得关注：</strong>他重新定义了「创业」可以长什么样：不融资、不招人、不追求优雅的代码，只追求快速发布和真实收入。"
+  "<strong>一句话：</strong>一个用最朴素的技术栈（PHP、jQuery、SQLite、一台 VPS）做出多款月入数万美元产品的独立创业者，也是「公开收入」文化最有影响力的推动者。",
+  "<strong>代表作：</strong>Nomads.com（原 Nomad List）、Remote OK、Photo AI、Interior AI、Hotelist、浏览器多人飞行游戏、Vibe Jam 游戏大赛、《MAKE：独立创业手册》；2026 年开源了 superlevels 和 xdr-boost。",
+  "<strong>关键数字（X 简介自报，2026 年 10 月）：</strong>Photo AI $86K / 月、VibeJam $44K / 月、Interior AI $23K / 月、X 创作者收入 $13K / 月、Nomads.com $7K / 月、Hotelist $5K / 月、书 $5K / 月；X 关注者约 97.9 万，推文 18 万多条。",
+  "<strong>看点：</strong>2026 年 10 月 21 日本页整理资料时，他的 readmake.com、levels.vc、photoai.com、nomads.com、vibejam.com 同时返回 502：这些产品很可能共用同一套服务器。这也是他「极简技术栈」的一体两面。"
  ],
- "lead": "levelsio 的 X 简介是一张实时更新的财务报表：「📸 PhotoAI.com $86K/m 🎮 VibeJam.com $44K/m 🏡 InteriorAI.com $23K/m」。头衔则是一个玩笑：「Chief Shitposting Officer @ Levels Synergies & Co」。将近一百万人关注着这个用 PHP 写代码的人。",
+ "lead": "《MAKE》的核心方法论可以浓缩成五句话：「从解决自己的问题中找点子；用你已经会的工具去构建；到你的用户所在的地方去发布；不靠广告自然增长；直接向用户要钱来变现。」十多年后，levelsio 仍在用同一套方法做新产品。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "早年", "title": "荷兰、音乐与 YouTube", "text": "在荷兰长大，学的是商科，早年做过电子音乐，并经营过音乐类 YouTube 频道。毕业后对传统职业路径感到迷茫，开始一边旅行一边写代码。"},
-    {"when": "2014", "title": "12 个月 12 个创业项目", "text": "公开挑战每月发布一个新产品。其中一个是数字游民城市数据库 Nomad List，迅速走红；同年还有 Remote OK 等。这个挑战本身也成为独立开发圈的经典方法论。"},
-    {"when": "2015–2019", "title": "Nomad List、Remote OK、Hoodmaps", "text": "Nomad List 发展成数字游民社区，Remote OK 成为最大的远程工作招聘板之一，Hoodmaps 用众包标签描绘城市街区。他两次获得 Product Hunt 年度创客。"},
-    {"when": "2018", "title": "《MAKE》", "text": "出版《MAKE：独立创业手册》，从点子、构建、发布、增长、变现、自动化讲到退出。持续更新，截至目前售出三万两千多本，收入接近一百万美元，被 Product Hunt 评为年度图书。Marc Lou 说这本书是他创业的转折点。"},
-    {"when": "2022–2023", "title": "AI 浪潮", "text": "Stable Diffusion 出现后迅速推出 Interior AI（AI 室内设计）和 Photo AI（AI 写真），后者成为他收入最高的产品之一。"},
-    {"when": "2025–2026", "title": "Vibe Coding 与游戏", "text": "用 AI 「vibe coding」做出一款浏览器多人飞行游戏，靠广告赞助迅速盈利；随后举办 Vibe Jam 游戏大赛，并成立 levels.vc。Nomad List 更名为 Nomads.com。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Nomads.com", "meta": "2014 · 原 Nomad List", "text": "数字游民城市数据与社区，比较全世界城市的生活成本、网速与氛围。", "url": "https://nomads.com"},
-    {"name": "Photo AI", "meta": "2023 · $86K/月", "text": "上传自拍，生成任意场景的 AI 写真。", "url": "https://photoai.com"},
-    {"name": "Remote OK", "meta": "2015", "text": "全球最大的远程工作招聘板之一。", "url": "https://remoteok.com"},
-    {"name": "MAKE", "meta": "书 · 3.2 万本", "text": "独立创业手册，每小时导出新的 ePub，还提供 SKILL.md 和 MCP 版本。", "url": "https://readmake.com"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://readmake.com", "paras": ["《MAKE》的销售页本身就是他产品哲学的体现：实时显示「已售 32,170 本，约 95.6 万美元，今天卖出 1 本」、「最后导出于 31 分钟前，每小时导出新 ePub」。", "书的格式包括网页、移动端、Kindle、ePub、Mobi，甚至还有给 AI 用的 SKILL.md 和 MCP。未购买部分的文字被混淆显示，你可以「免费读乱码」。"]}},
-   {"p": "他的个人博客 levels.io 则保留着多年来的长文：从「如何在 12 个月内做 12 个创业项目」到对远程工作、数字游民和税务的思考。"}
-  ]},
-  {"id": "craft", "title": "设计与方法", "blocks": [
-   {"p": "levelsio 的设计哲学可以总结为<strong>「速度就是一切」</strong>：他的网站用 emoji 当图标，用简单的表格和卡片排布数据，界面常常是原型级别的，但功能直接、加载飞快、每天都在更新。"},
-   {"quote": "Get ideas by solving your problems. Build with the tools you already know. Launch to where your customers are. Grow organically without ads. Monetize by asking users for money.", "cite": "《MAKE》目录要点"},
-   {"note": "他的风格也有争议：反对过度工程、频繁在 X 上发表尖锐观点。但不可否认，他让无数程序员第一次相信「一个人也能做公司」。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>用你已经会的工具：</strong>PHP 和 jQuery 足够做出月入百万的产品。",
-    "<strong>公开收入：</strong>透明本身就是最好的营销。",
-    "<strong>快速多次下注：</strong>12 个月 12 个项目，总有一个会成功。",
-    "<strong>抓住技术浪潮：</strong>AI 图像出现时，他是最快做出产品的人之一。",
-    "<strong>向用户要钱：</strong>不靠广告，不靠融资，靠付费用户。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立创业者（solo founder），零员工、零融资；levels.vc"],
+     ["国籍", "荷兰，常年在世界各地旅居"],
+     ["代表作", "Nomads.com、Remote OK、Photo AI、Interior AI、Hotelist、Hoodmaps、飞行游戏、Vibe Jam、《MAKE》"],
+     ["技术栈", "PHP、jQuery、SQLite、原生 JavaScript、Three.js（游戏）；2025 年起大量使用 AI 编程"],
+     ["关键数字", "X 关注者约 97.9 万；两次 Product Hunt 年度创客（据早期资料）"],
+     ["书", "《MAKE：The Indie Startup Manual》（2018 起持续更新）"],
+     ["GitHub 简介", "「Chief Shitposting Officer @ Levels Synergies & Co」"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "levelsio 经营的是一个<strong>产品组合</strong>：AI 写真 Photo AI、AI 室内设计 Interior AI、数字游民社区 Nomads.com、远程工作招聘 Remote OK、酒店点评 Hotelist，以及 2025 年起的浏览器游戏和 Vibe Jam 游戏大赛。每一个都是他一个人做、一个人运营。"},
+    {"p": "他的方法论被总结成「12 个月 12 个创业项目」和《MAKE》这本书；他的风格则以「速度就是一切」著称：网站用 emoji 当图标，用简单的表格和卡片排布数据，界面常常是原型级别的，但功能直接、加载飞快、每天都在更新。他也因为尖锐的观点和对过度工程的嘲讽而颇具争议。"},
+    {"note": "本页依据 X 个人资料（含实时收入）、GitHub、早期研究整理的《MAKE》销售页与 levels.io 博客、Vibe Jam 新闻稿及媒体报道整理，资料截至 2026 年 10 月。收入数字均为他本人公开发布的数据；飞行游戏的收入在不同报道中差异很大，此处不作结论。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "荷兰、音乐与 YouTube", "text": "在荷兰长大，学的是商科（鹿特丹管理学院 RSM 曾报道过他的 12 个创业挑战），早年做过电子音乐，并经营过音乐类 YouTube 频道。毕业后对传统职业路径感到迷茫，开始一边旅行一边写代码。"},
+     {"when": "2013–2014", "title": "注册 X，12 个月 12 个创业项目", "text": "公开挑战每月发布一个新产品。其中一个是数字游民城市数据库 Nomad List，迅速走红；同期还有 Remote OK 等。这个挑战本身成了独立开发圈的经典方法论。"},
+     {"when": "2015–2019", "title": "Nomad List、Remote OK、Hoodmaps", "text": "Nomad List 发展成数字游民社区，Remote OK 成为最大的远程工作招聘板之一，Hoodmaps 用众包标签描绘城市街区。"},
+     {"when": "2018", "title": "《MAKE》", "text": "出版《MAKE：独立创业手册》，从点子、构建、发布、增长、变现、自动化讲到退出，并持续更新。早期整理的销售页数据显示已售出三万两千多本，收入接近一百万美元。"},
+     {"when": "2022–2023", "title": "AI 浪潮", "text": "Stable Diffusion 出现后迅速推出 Interior AI（AI 室内设计）和 Photo AI（上传自拍，生成任意场景的写真），后者成为他收入最高的产品。"},
+     {"when": "2025", "title": "Vibe Coding 与飞行游戏", "text": "2 月用 AI「vibe coding」在几个小时内做出一款浏览器多人飞行游戏，靠游戏内广告位、品牌飞艇和付费战机迅速盈利（据多家报道）；随后举办第一届 Vibe Jam 游戏大赛。Nomad List 更名为 Nomads.com。"},
+     {"when": "2026", "title": "Cursor Vibe Jam 2026 与 levels.vc", "text": "Vibe Jam 2026 于 4 月 1 日开幕、为期 30 天，由他和 @s13k_ 担任评委，奖金池 4 万美元（据官方新闻稿）；4 月开源 superlevels 和 xdr-boost；X 简介把 levels.vc 放在第一行。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"table": {
+     "caption": "X 简介中的实时月收入（2026 年 10 月，本人公开）",
+     "cols": ["产品", "是什么", "月收入"],
+     "rows": [
+      ["Photo AI", "上传自拍，AI 生成任意场景和风格的写真", "$86K"],
+      ["Vibe Jam", "AI 编程游戏大赛（赞助收入）", "$44K"],
+      ["Interior AI", "上传房间照片，AI 重新设计室内装修", "$23K"],
+      ["X", "X 平台的创作者收入", "$13K"],
+      ["Nomads.com", "数字游民城市数据与社区（原 Nomad List）", "$7K"],
+      ["Hotelist", "酒店点评与推荐", "$5K"],
+      ["《MAKE》", "独立创业手册", "$5K"]
+     ]
+    }},
+    {"work": {
+     "name": "Nomads.com（原 Nomad List）", "url": "https://nomads.com",
+     "meta": ["2014", "PHP + jQuery", "数字游民"],
+     "paras": [
+      "比较全世界城市的生活成本、网速、天气、安全和「氛围」，再加上一个付费社区，帮数字游民找下一站和同伴。它是 12 个月挑战里最成功的那一个，也是他整个创业帝国的起点。"
+     ]
+    }},
+    {"work": {
+     "name": "Photo AI", "url": "https://photoai.com",
+     "meta": ["2023", "AI 写真", "订阅"],
+     "paras": [
+      "上传一组自拍训练你的专属模型，然后生成任意场景、服装、风格的照片：职业头像、旅行照、时尚大片。他是 Stable Diffusion 出现后最快把它做成付费产品的人之一，Photo AI 也成为他收入最高的产品。"
+     ]
+    }},
+    {"work": {
+     "name": "《MAKE：The Indie Startup Manual》", "url": "https://readmake.com",
+     "meta": ["2018 起", "书", "持续更新"],
+     "paras": [
+      "销售页本身就是他产品哲学的体现：实时显示已售册数和收入，以及「最后导出于 xx 分钟前，每小时导出新 ePub」。格式包括网页、移动端、Kindle、ePub、Mobi，甚至有给 AI 用的 SKILL.md 和 MCP 版本。未购买部分的文字被混淆显示，你可以「免费读乱码」。Marc Lou 说这本书是他创业的转折点。"
+     ]
+    }},
+    {"work": {
+     "name": "superlevels 与 xdr-boost", "url": "https://github.com/levelsio/superlevels",
+     "meta": ["2026.04", "开源", "JavaScript / Swift"],
+     "paras": [
+      "<strong>superlevels</strong>（★553）是一个「超级」Chrome 扩展，用一个开源、尊重隐私的包取代 12 个以上的独立扩展。他在 README 里毫不客气：大多数 Chrome 扩展是「闭源、充满恶意软件和间谍软件的垃圾」，构成巨大的安全风险。<strong>xdr-boost</strong>（★190）则是付费工具 Vivid 的免费开源替代：解锁 MacBook Pro Liquid Retina XDR 屏幕的全部亮度（最高 1,600 尼特），并修复了合盖再打开就失效的 bug。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站与线上形象",
+   "blocks": [
+    {"p": "levelsio 最重要的「网站」其实是他的 X 主页：简介就是一张实时更新的损益表，每个产品前一个 emoji、后面一个月收入。这种透明是 indie hacker 文化的核心，也是他最有效的营销。"},
+    {"site": {"url": "https://readmake.com", "paras": [
+     "《MAKE》的销售页、levels.io 博客和各个产品官网，都延续同一种审美：大字、emoji、实时数字、极少的装饰。博客 levels.io 保留着多年来的长文，从「如何在 12 个月内做 12 个创业项目」到对远程工作、数字游民和税务的思考。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "PHP + jQuery + SQLite，Cloudflare 前置"],
+      ["风格", "emoji 图标、表格与卡片、实时数字"],
+      ["风险", "2026-10-21 本次整理时，多个产品网站同时返回 502"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "方法与观点",
+   "blocks": [
+    {"quote": "Get ideas by solving your problems. Build with the tools you already know. Launch to where your customers are. Grow organically without ads. Monetize by asking users for money.", "cite": "levelsio，《MAKE》"},
+    {"ul": [
+     "<strong>用你已经会的工具：</strong>PHP 和 jQuery 足够做出月入数万美元的产品。",
+     "<strong>快速多次下注：</strong>12 个月 12 个项目，总有一个会成功。",
+     "<strong>抓住技术浪潮：</strong>AI 图像出现时，他是最快做出付费产品的人之一；AI 编程出现时，他用它做游戏、办比赛。",
+     "<strong>公开收入：</strong>透明本身就是最好的营销。",
+     "<strong>反对过度工程：</strong>经常在 X 上嘲讽复杂的技术栈和框架。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["商业", "一个人经营多款盈利产品，零融资", "收入高度依赖他个人的影响力和 X 平台"],
+      ["技术", "极简技术栈，开发和迭代飞快", "单点风险明显：本次整理时多个网站同时 502"],
+      ["影响力", "让无数程序员相信「一个人也能做公司」", "言论尖锐，常引发争议"],
+      ["透明", "公开收入，方法论开放", "部分收入数字（如飞行游戏）在不同来源间差异很大"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>用你已经会的工具：</strong>工具不是瓶颈，发布才是。",
+     "<strong>快速多次下注：</strong>给自己一个节奏，比如每月一个产品。",
+     "<strong>抓住技术浪潮：</strong>新能力出现的头几个月，是一个人最有机会的时候。",
+     "<strong>向用户要钱：</strong>不靠广告，不靠融资，靠付费用户。",
+     "<strong>也要准备好 B 计划：</strong>极简架构的另一面是单点故障。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "《MAKE》", "url": "https://readmake.com", "why": "独立创业最经典的手册之一，先读「免费的乱码」也行。"},
+     {"name": "levelsio 的 X 主页", "url": "https://x.com/levelsio", "why": "看一份实时更新的「一人公司损益表」。"},
+     {"name": "superlevels", "url": "https://github.com/levelsio/superlevels", "why": "用一个开源扩展替代一堆来路不明的 Chrome 扩展。"}
+    ]}
+   ]
+  }
  ],
- "cta": "读一读《MAKE》的免费部分，或者看看 Nomads.com 上你所在的城市。",
+ "cta": "读一读《MAKE》，或者看看他的 X 简介，那就是一份最直接的创业报表。",
  "sources": [
-  {"label": "levelsio 的 X 个人资料", "url": "https://x.com/levelsio"},
+  {"label": "levelsio 的 X 个人资料（含实时收入）", "url": "https://x.com/levelsio"},
   {"label": "MAKE：The Indie Startup Manual", "url": "https://readmake.com"},
-  {"label": "levels.io", "url": "https://levels.io"},
+  {"label": "levels.io 博客", "url": "https://levels.io"},
+  {"label": "GitHub：levelsio", "url": "https://github.com/levelsio"},
+  {"label": "superlevels README", "url": "https://github.com/levelsio/superlevels"},
+  {"label": "xdr-boost README", "url": "https://github.com/levelsio/xdr-boost"},
+  {"label": "Vibe Jam 2026 新闻稿", "url": "https://vibej.am/2026/press"},
   {"label": "Indie Hackers 播客 #043：Pieter Levels of Nomad List", "url": "https://www.indiehackers.com/podcast/043-pieter-levels-of-nomad-list"},
-  {"label": "GitHub：levelsio", "url": "https://github.com/levelsio"}
+  {"label": "RSM：This guy is launching 12 startups in 12 months", "url": "https://rsm.nl/information-for/journalists/in-the-media/detail/5622-this-guy-is-launching-12-startups-in-12-months"},
+  {"label": "DEV Community：关于飞行游戏收入的报道", "url": "https://dev.to/promptway/he-built-a-flight-simulator-in-three-hours-and-hit-1m-a-year-in-17-days-then-it-went-to-zero-1b1l"}
  ]
 }

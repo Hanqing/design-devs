@@ -1,57 +1,186 @@
 {
- "name": "东坡肘子（徐杨）",
+ "name": "东坡肘子 Fatbobman",
  "role": "Swift / SwiftUI 技术博主 · 周报主理人",
  "title": "东坡肘子：为了<em>恢复身体</em>开始写代码的人",
- "dek": "他踏入苹果开发，起初是为了一个特别的理由：用编程来改善因药物创伤而变得迟钝的大脑，顺便做一个自己用的 App。几年后，他成了中文世界最重要的 SwiftUI / Core Data 博主之一，每周一发布的 Swift 周报有五千多订阅者，还获得了 Apple 开发者社区认可。",
- "card": "「肘子的 Swift 记事本」博主，Fatbobman's Swift Weekly 主理人，SwiftUI / Core Data 专家，大连。",
+ "dek": "他踏入苹果开发，起初是为了一个特别的理由：用编程来改善因药物创伤而变得迟钝的大脑，顺便做一个自己用的 App。几年后，他成了中文世界最重要的 SwiftUI / Core Data 博主之一，中英双语的 Swift 周报每周一出刊，已经出到第 158 期，并被 Apple Developer Community Recognition 收录。",
+ "card": "「肘子的 Swift 记事本」博主、Fatbobman's Swift Weekly 主理人；ObservableDefaults、CoreDataEvolution 作者。",
  "location": "中国大连",
- "tags": ["SwiftUI", "Core Data", "SwiftData", "写作", "Newsletter"],
- "links": [{"label": "fatbobman.com", "url": "https://fatbobman.com"}, {"label": "Swift 周报", "url": "https://weekly.fatbobman.com"}, {"label": "GitHub", "url": "https://github.com/fatbobman"}],
+ "updated": "2026-10-21",
+ "tags": ["Swift", "SwiftUI", "Core Data / SwiftData", "技术写作", "周报"],
+ "links": [
+  {"label": "fatbobman.com", "url": "https://fatbobman.com"},
+  {"label": "Swift Weekly", "url": "https://weekly.fatbobman.com"},
+  {"label": "GitHub", "url": "https://github.com/fatbobman"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>iOS 开发者、博主、父亲。一个「偶然的机会」让他成为苹果生态开发者，如今写作已是生活的重要组成部分。",
-  "<strong>代表作：</strong>博客「肘子的 Swift 记事本」（中英双语）、Fatbobman's Swift Weekly（5000+ 订阅）；开源 ObservableDefaults、SwiftUIOverlayContainer、SwipeCell、Infinite4Pager、CoreDataEvolution、PersistentHistoryTrackingKit、iCloudSyncStatusKit。",
-  "<strong>荣誉：</strong>因长期写作与整理周报，被 Apple Developer Community Recognition 收录。"
+  "<strong>一句话：</strong>本名徐杨，About 页上的三个身份是「iOS Developer、Blogger、Father」。他以「把真实问题讲清楚」著称，专挑 Core Data、SwiftData 这类文档不足、坑很多的领域深挖。",
+  "<strong>代表作：</strong>博客「肘子的 Swift 记事本」（2020 至今，中英双语）、Fatbobman's Swift Weekly（每周一）、ObservableDefaults（★408）、SwiftUIOverlayContainer（★399）、SwipeCell、CoreDataEvolution、PersistentHistoryTrackingKit、iCloudSyncStatusKit、SwiftDataKit。",
+  "<strong>关键数字：</strong>GitHub 91 个公开仓库，其中 42 个是 Swift；近一年贡献 3,385 次；周报出到第 158 期（2026-10-19）。",
+  "<strong>彩蛋：</strong>「投喂作者」写着：每一份支持都会变成猫主子「黑八」的零食和狗子「巴顿」的玩具。"
  ],
- "lead": "徐杨在关于页里写：「一个偶然的机会让我迈入了苹果生态开发者的行列。最初本打算作为一种恢复身体的手段（改善因药物创伤导致迟钝的大脑）以及开发一个自己用的 App，没想到投入的时间越来越多，如今俨然已成为了生活中的重要组成部分。」",
+ "lead": "他的 About 页这样开头：「一个偶然的机会让我迈入了苹果生态开发者的行列。最初本打算作为一种恢复身体的手段（改善因药物创伤导致迟钝的大脑）以及开发一个自己用的 App，没想到投入的时间越来越多，如今俨然已成为了生活中的重要组成部分。」",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2019", "title": "迈入开发", "text": "2019 年注册 GitHub，开始学习 Swift 和 SwiftUI，初衷是恢复身体、做一个自己用的 App。"},
-    {"when": "2020", "title": "开始写博客", "text": "创建「肘子的 Swift 记事本」，记录学习中碰到的问题；同年开源 SwiftUIOverlayContainer 和 SwipeCell（类似邮件 App 的左右滑动菜单）。"},
-    {"when": "2021–2022", "title": "SwiftUI 与 Core Data 深度", "text": "SheetKit、NavigationViewKit 扩展 SwiftUI 的弹窗与导航；PersistentHistoryTrackingKit 处理 Core Data 持久化历史，让 App 与扩展合并、清理事务。BlogCodes 收集所有博文代码。"},
-    {"when": "周报", "title": "Fatbobman's Swift Weekly", "text": "每周一与全球开发者分享 Swift、SwiftUI、Core Data、SwiftData 的优质文章，Substack 订阅者超过五千。"},
-    {"when": "2024–2026", "title": "Observation 与 SwiftData 时代", "text": "ObservableDefaults 融合 SwiftUI、Observation、UserDefaults 与 iCloud 键值存储；CoreDataEvolution 为 Core Data 带来 SwiftData 风格的 actor 隔离与宏；Infinite4Pager 提供四向无限滚动；iCloudSyncStatusKit 监控 iCloud 同步状态。成立 Fatbobman Digital Limited。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "肘子的 Swift 记事本", "meta": "2020 至今 · 中英双语", "text": "关于 Swift、SwiftUI、Core Data、SwiftData 的深度文章与小贴士。", "url": "https://fatbobman.com"},
-    {"name": "Swift Weekly", "meta": "每周一 · 5000+ 订阅", "text": "精选全球 Apple 开发领域的优质内容。", "url": "https://weekly.fatbobman.com"},
-    {"name": "ObservableDefaults", "meta": "2024 · Swift", "text": "SwiftUI + Observation + UserDefaults + iCloud 键值存储的一体化方案。", "url": "https://github.com/fatbobman/ObservableDefaults"},
-    {"name": "CoreDataEvolution", "meta": "2024 · Swift", "text": "为现代 Core Data 项目带来 SwiftData 风格的 actor 隔离与宏。", "url": "https://github.com/fatbobman/CoreDataEvolution"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://fatbobman.com", "paras": ["首页先让你选择语言（中文 / English），导航有首页、文章、周报、小贴士、关于，并支持浅色 / 深色 / 跟随系统。", "关于页的「投喂作者」写着：「每一份支持都会变成猫主子『黑八』的零食和狗子『巴顿』的玩具。」"]}}
-  ]},
-  {"id": "craft", "title": "写作的手艺", "blocks": [
-   {"p": "肘子的文章以<strong>「把真实问题讲清楚」</strong>著称：他常常从一个具体的 Bug 或 API 行为出发，深入到框架的设计意图，再给出可运行的代码。Core Data 和 SwiftData 这类文档不足的领域，正是他最有价值的地方。"},
-   {"quote": "这里不仅是技术的备忘录，更是我与世界沟通的桥梁。", "cite": "东坡肘子，关于这个博客"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>任何时候开始都不晚：</strong>他是从一个特殊的契机开始编程的。",
-    "<strong>深挖冷门但重要的领域：</strong>Core Data 让他成了专家。",
-    "<strong>中英双语写作：</strong>让内容服务全球开发者。",
-    "<strong>每周坚持：</strong>周报是一种持续的社区贡献。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 开发者、技术博主、周报主理人；公司 Fatbobman Digital Limited"],
+     ["所在地", "中国大连"],
+     ["起步", "2019 年开始学 Swift 与 SwiftUI"],
+     ["专注领域", "Swift、SwiftUI、Core Data、SwiftData、Observation"],
+     ["代表作", "肘子的 Swift 记事本、Swift Weekly、ObservableDefaults、CoreDataEvolution、SwiftUIOverlayContainer"],
+     ["认可", "Apple Developer Community Recognition"],
+     ["网站", "fatbobman.com（Astro，中英双语，浅色 / 深色 / 跟随系统）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "肘子的工作有三条线：<strong>深度文章</strong>（常常从一个具体的 Bug 或 API 行为出发，深入到框架的设计意图，再给出可运行的代码）；<strong>每周周报</strong>（每周一和全球开发者分享 Swift、SwiftUI、Core Data、SwiftData 的优质内容，开头是一篇他自己的评论）；<strong>开源库</strong>（几乎都来自写文章时碰到的真实问题）。"},
+    {"p": "2026 年他越来越多地讨论 AI 对苹果开发的影响：哪种框架对 Agent 更友好、怎样让 AI「看见」SwiftUI 预览，以及在北京参加苹果首届 App Incubator 活动后对「AI 中转类 App」的忧虑。"},
+    {"note": "本页依据 fatbobman.com（含 About 与 2026 年文章、周报）、GitHub 主页与 README 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2008", "title": "注册 X", "text": "此时他还不是开发者。"},
+     {"when": "2019", "title": "迈入开发", "text": "注册 GitHub，开始学习 Swift 和 SwiftUI，初衷是恢复身体、做一个自己用的 App。"},
+     {"when": "2020", "title": "开始写博客", "text": "创建「肘子的 Swift 记事本」，记录学习中碰到的问题；同年开源 SwiftUIOverlayContainer（可定制的视图容器管理器）和 SwipeCell（类似邮件 App 的左右滑动菜单）。"},
+     {"when": "2021–2022", "title": "SwiftUI 与 Core Data 深度", "text": "SheetKit、NavigationViewKit 扩展 SwiftUI 的弹窗与导航；PersistentHistoryTrackingKit 处理 Core Data 持久化历史；IsScrolling 获取 ScrollView 的滚动状态；BlogCodes 汇总所有博文代码。"},
+     {"when": "2023", "title": "SwiftData 登场", "text": "SwiftData 发布后，写了 SwiftDataKit，让开发者访问 SwiftData 元素背后对应的 Core Data 对象，解锁高级特性。"},
+     {"when": "周报", "title": "Fatbobman's Swift Weekly", "text": "每周一出刊，中英双语，托管在 Substack，也在官网存档。"},
+     {"when": "2024", "title": "Observation 时代", "text": "ObservableDefaults 用类宏把 Observation 接到 UserDefaults 和 iCloud 键值存储；CoreDataEvolution 为 Core Data 带来 SwiftData 风格的 actor 隔离；Infinite4Pager 提供四向无限滚动；iCloudSyncStatusKit 监控同步状态。"},
+     {"when": "2025–2026", "title": "AI 与开发", "text": "开源 Mail MCP Bridge（让 Claude、ChatGPT 直接分析 macOS 邮件）和 Objects2XLSX；写《为什么 2026 年我仍在思考 Core Data》《让 AI 看见 SwiftUI：Xcode Preview MCP 实践》《AI 友好的框架》；10 月受邀参加苹果在北京的首届 App Incubator 活动。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "肘子的 Swift 记事本", "url": "https://fatbobman.com",
+     "meta": ["2020 至今", "Astro", "中英双语"],
+     "paras": [
+      "关于 Swift、SwiftUI、Core Data、SwiftData 的深度文章与小贴士。首页先让你选择语言，导航是首页、文章、周报、小贴士、关于。About 页写道：「创建这个博客的初衷是为了记录我在学习过程中碰到的问题。随着读者的增多，现在也会有意识地写一些适合更多人阅读的文章。这里不仅是技术的备忘录，更是我与世界沟通的桥梁。」",
+      "2026 年下半年的文章包括：SwiftData「优化从建模开始」、Xcode 项目配置从 pbxproj 变成 JSON 格式、ArrangementView、Xcode Preview MCP 的实践与坑、AI 友好的框架。"
+     ]
+    }},
+    {"work": {
+     "name": "Fatbobman's Swift Weekly", "url": "https://weekly.fatbobman.com",
+     "meta": ["每周一", "Substack", "#158"],
+     "paras": [
+      "「每周一，与全球开发者共享 Swift 与 SwiftUI 开发精华。」每期开头是一篇他自己的短评，然后是精选文章、工具和开源项目。2026 年秋天的几期标题很能说明他关注什么：《The Month iPhone Duo Gives Developers》《When Build in Public Goes Back Underground》《Who Is the Real Threat to AI-Relay Apps?》。"
+     ]
+    }},
+    {"work": {
+     "name": "ObservableDefaults", "url": "https://github.com/fatbobman/ObservableDefaults",
+     "meta": ["2024", "Swift 宏", "★408"],
+     "paras": [
+      "在 SwiftUI 里管理大量 UserDefaults 键常常意味着重复代码，而 @AppStorage 只面向单个值，也不覆盖 iCloud 键值存储。ObservableDefaults 用类宏把 Swift Observation 同时接到 UserDefaults 和 iCloud 键值存储，一次声明、到处可观察。"
+     ]
+    }},
+    {"work": {
+     "name": "CoreDataEvolution", "url": "https://github.com/fatbobman/CoreDataEvolution",
+     "meta": ["2024", "Swift", "现代 Core Data"],
+     "paras": [
+      "为现代 Core Data 项目带来 actor 隔离、Swift 优先的 NSManagedObject 声明、类型化路径、运行时模型元数据和模型工具。他的判断是：Core Data 依然是很多依赖成熟对象图、迁移和存储行为的 App 的务实基础，但它需要跟上 Swift 并发时代。配套文章叫《Why I Am Still Thinking About Core Data in 2026》。"
+     ],
+     "facts": [["GitHub", "★134"]]
+    }},
+    {"table": {
+     "cols": ["其他开源", "★", "说明"],
+     "rows": [
+      ["SwiftUIOverlayContainer", "399", "可定制、高效的 SwiftUI 视图容器管理器"],
+      ["SwipeCell", "323", "类似邮件 App 的左右滑动菜单"],
+      ["PersistentHistoryTrackingKit", "130", "处理 Core Data 持久化历史，让 App 与扩展一致地观察、合并、清理事务"],
+      ["iCloudSyncStatusKit", "113", "监控 iCloud 账号状态与 Core Data + CloudKit 同步事件"],
+      ["SwiftDataKit", "102", "从 SwiftData 访问底层 Core Data 对象"],
+      ["Mail MCP Bridge", "19", "复制一个 Message-ID 就能让 AI 分析 macOS 邮件"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://fatbobman.com", "paras": [
+     "首页先让你选择语言（中文 / English），并支持浅色、深色、跟随系统。首页顶部是最新一期周报的摘要，下面是近期文章，每篇都有一段较长的导语。",
+     "页脚写着「© 2020–2026 Fatbobman Digital Limited」。About 页简洁地交代了来历、关注方向、联系方式、周报订阅和「投喂作者」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Google Analytics"],
+      ["双语", "中英文全站对应，RSS 分语言"],
+      ["周报", "Substack 订阅 + 官网存档"],
+      ["开源", "几乎每个库都附中英文 README 和配套博文"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-19", "title": "Who Is the Real Threat to AI-Relay Apps?（周报 #158）", "url": "https://fatbobman.com/en/weekly/issue-158/", "note": "参加苹果北京首届 App Incubator 后的复杂感受。"},
+     {"date": "2026-10-07", "title": "AI-Friendly Frameworks: As Abstraction Moves Up, How Can Verification Keep Pace?", "url": "https://fatbobman.com/en/posts/ai-friendly-framework/"},
+     {"date": "2026-09-30", "title": "Letting AI See SwiftUI: Xcode Preview MCP in Practice", "url": "https://fatbobman.com"},
+     {"date": "2026-09-17", "title": "From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format", "url": "https://fatbobman.com"},
+     {"date": "2026", "title": "Why I Am Still Thinking About Core Data in 2026", "url": "https://fatbobman.com/en/posts/why-i-am-still-thinking-about-core-data-in-2026/"}
+    ]},
+    {"p": "在第 158 期周报里，他写下了参加苹果首届 App Incubator 的感受：入围作品打磨得非常精致，很多已经融过资；但大多数接入了 AI，商业模式是「云端大模型 + 订阅」。抛开少数真正有护城河的产品，很多 App 的底层可以归结为「精美的界面 + 可提取的规则 + 第三方云模型」，他称之为 <strong>AI 中转类 App</strong>。随着生成式 UI 和预置能力的插件 / 技能兴起，通用 AI 工具能以几乎为零的边际成本提供类似的价值。一年前他会毫不犹豫地欢呼，如今却「陷入一种说不清的复杂情绪」。"},
+    {"quote": "继续把真实问题讲清楚，把有价值的内容带给社区。", "cite": "东坡肘子，About 页"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["内容", "Core Data / SwiftData 这类冷门但重要领域的权威中文作者", "内容高度聚焦苹果生态，跨平台读者参考价值有限"],
+      ["节奏", "周报每周一更新，六年持续写作", "高强度更新对个人精力要求很高"],
+      ["开源", "库都来自真实问题，附双语文档和博文", "多为中小型组件库"],
+      ["观点", "对 AI 冲击有独立、冷静的判断", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>任何时候开始都不晚：</strong>他是从一个特殊的契机开始编程的。",
+     "<strong>深挖冷门但重要的领域：</strong>Core Data 让他成了专家。",
+     "<strong>中英双语写作：</strong>让内容服务全球开发者。",
+     "<strong>每周坚持：</strong>周报是一种持续的社区贡献。",
+     "<strong>库和文章一起发布：</strong>代码解决问题，文章解释为什么。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Fatbobman's Swift Weekly", "url": "https://weekly.fatbobman.com", "why": "苹果开发者的每周必读，订阅即可。"},
+     {"name": "AI 友好的框架", "url": "https://fatbobman.com/en/posts/ai-friendly-framework/", "why": "UIKit 还是 SwiftUI 更适合 Agent？一篇有深度的分析。"},
+     {"name": "ObservableDefaults", "url": "https://github.com/fatbobman/ObservableDefaults", "why": "如果你的 SwiftUI App 有很多设置项，直接用起来。"}
+    ]}
+   ]
+  }
  ],
- "cta": "订阅 Fatbobman's Swift Weekly，每周一读一点好东西。",
+ "cta": "订阅肘子的周报，每周一读一期。",
  "sources": [
   {"label": "fatbobman 的 X 个人资料", "url": "https://x.com/fatbobman"},
   {"label": "fatbobman.com：关于", "url": "https://fatbobman.com/zh/about/"},
+  {"label": "fatbobman.com", "url": "https://fatbobman.com"},
   {"label": "Fatbobman's Swift Weekly", "url": "https://weekly.fatbobman.com"},
-  {"label": "GitHub：fatbobman", "url": "https://github.com/fatbobman"}
+  {"label": "周报 #158：Who Is the Real Threat to AI-Relay Apps?", "url": "https://fatbobman.com/en/weekly/issue-158/"},
+  {"label": "AI-Friendly Frameworks（2026）", "url": "https://fatbobman.com/en/posts/ai-friendly-framework/"},
+  {"label": "GitHub：fatbobman", "url": "https://github.com/fatbobman"},
+  {"label": "ObservableDefaults README", "url": "https://github.com/fatbobman/ObservableDefaults"},
+  {"label": "CoreDataEvolution README", "url": "https://github.com/fatbobman/CoreDataEvolution"}
  ]
 }
