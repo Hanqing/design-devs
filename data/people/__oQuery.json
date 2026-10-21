@@ -1,182 +1,184 @@
 {
  "name": "拾一 Innei",
- "role": "设计工程师 · LobeHub · Mix Space 作者",
- "title": "拾一：梦想成为 <em>Design Engineer</em> 的人",
- "dek": "一个自称「内向、社恐、INFP-T」的开发者，写出了四千多星的个人站主题 Shiro 和整套博客系统 Mix Space，做了照片画廊 Afilmory 和排版设计系统「余白 Yohaku」，曾在阿里工作，现在在 LobeHub 构建 AI 产品，用 Claude Code、Codex 一周做出一个 iOS App。",
- "card": "Shiro / Mix Space / Afilmory / 余白 Yohaku 作者，前阿里，现于 LobeHub；数字游民、设计工程师。",
+ "role": "设计工程师 · LobeHub · Mix Space / Shiro 作者",
+ "title": "拾一：把个人网站<em>做成作品</em>的设计工程师",
+ "dek": "一个自称「内向、社恐、INFP-T」的开发者，写出了四千多星的个人站主题 Shiro 和整套博客系统 Mix Space，做了照片画廊 Afilmory 和排版设计系统「余白 Yohaku」。他在阿里工作过，参与过 Folo，现在在 LobeHub 构建 AI 产品，并把自己定位为「AI 指挥师」：一天原型，一周成品。",
+ "card": "Shiro、Mix Space、Afilmory、余白 Yohaku 作者；LobeHub 设计工程师，数字游民。",
  "location": "数字游民",
- "tags": [
-  "React",
-  "Next.js",
-  "设计系统",
-  "Electron",
-  "AI 工程"
- ],
+ "updated": "2026-10-21",
+ "tags": ["设计工程", "个人网站", "React", "AI Agent", "iOS"],
  "links": [
-  {
-   "label": "innei.in",
-   "url": "https://innei.in"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/Innei"
-  },
-  {
-   "label": "nyatabi",
-   "url": "https://nyatabi.app/"
-  }
+  {"label": "innei.in", "url": "https://innei.in"},
+  {"label": "余白 Yohaku", "url": "https://yohaku.innei.dev"},
+  {"label": "GitHub", "url": "https://github.com/Innei"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「A product-minded engineer building interfaces, workflows, and tiny autonomous systems.」一个用代码追求现代设计的 Gen-Z 开发者。",
-  "<strong>代表作：</strong>Shiro（★4.3k，「纸的纯粹、雪的清新」的极简个人网站）、Mix Space（博客系统组织）、Afilmory（照片画廊）、余白 Yohaku（文字内容的排版设计系统）、Pastel（OKLCH 可爱色彩系统）、lody-ios、electron-ipc-decorator。",
-  "<strong>TA 的梦想：</strong>「梦想是成为 Design Engineer。」"
+  "<strong>一句话：</strong>「I orchestrate ideas into products with AI Agents.」GitHub 简介：Digital Nomad、Design Engineer、Prompt Engineer，Gen-Z。",
+  "<strong>代表作：</strong>Shiro（★4.3 千）、Afilmory（★2.7 千）、lody-ios（★519）、Kansoku（★329）、余白 Yohaku、Torrent Vibe、Pastel、Mix Space；iOS App Nyatabi。",
+  "<strong>关键数字：</strong>GitHub 262 个公开仓库、粉丝 3,500，<strong>近一年 19,183 次贡献</strong>；X 关注者约 1.2 万；博客时间线 384 篇，2026 年已写 40 篇。",
+  "<strong>工作方式：</strong>2025 年 4 月起以「AI 指挥师」自居，员工是 Claude Code、Codex、Copilot、Cursor 和 ChatGPT；他负责定需求和验收。"
  ],
- "lead": "拾一的名字来自《命运石之门》里的一句台词：「『0』是过去，『1』是未来，『现在』哪里都不存在。」拾起，未来。TA 的英文名 Innei 则来自日文「陰影」的罗马音，那是初中时「曾经的自闭少年」给自己取的名字。",
+ "lead": "Shiro 的描述只有一句：「一个体现纸的纯粹与雪的清新的极简个人网站。」它是一个博客主题，却有四千多颗星和八百多个分叉，成了中文开发者最常用的个人站模板之一。它的作者在自述里说自己「内向、社恐」，「还是少说话为妙」。他让作品替自己说话。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计工程师（Design Engineer）、全栈开发者"],
+     ["现任", "LobeHub"],
+     ["此前", "阿里巴巴（花名「亿夏」，取自邱有句的纯音乐《亿夏风铃》）；参与过 Folo"],
+     ["所在地", "数字游民"],
+     ["技术栈", "TypeScript、React / Next.js、NestJS、Electron、Swift、TailwindCSS、Radix、Framer Motion"],
+     ["开源组织", "mx-space、Afilmory、Torrent-Vibe、kansoku-trade、lobehub 等"],
+     ["代表作", "Shiro、Mix Space、Afilmory、余白 Yohaku、lody-ios、Kansoku"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "拾一的作品几乎都围绕「<strong>好看、好用的界面</strong>」：博客系统 Mix Space 和它的前端主题 Shiro、给摄影师的照片画廊 Afilmory、qBittorrent 的现代 Web 界面 Torrent Vibe、kawaii 风格的 OKLCH 色彩系统 Pastel，以及 2026 年把这一切收拢起来的排版设计系统「余白 Yohaku」。"},
+    {"p": "2025 年以后，他的产出速度明显变快：近一年接近两万次贡献，用 Agent 写代码、自己验收。2026 年他做了 Lody 的第三方 iOS 客户端、旅行记账 App Nyatabi、Mac 上的 AI 看盘工具 Kansoku，以及在 Slack 里运行 Claude Agent SDK 和 Codex 的 Kagura。"},
+    {"note": "本页依据 innei.in（自述、文章、手记、时间线）、GitHub 主页与 README、Nyatabi 官网与 App Store 资料和 X 资料整理，资料截至 2026 年 10 月。手记中的私人生活内容未收录。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "p": "TA 在「自述」里列出了一串标签：内向社恐、INFP-T、专注者、沉思者、「某种意义上的赶时髦者」（在编程上反对过时特性、追求现代设计风）、简洁主义者、纯音乐爱好者、「兴趣变淡的二次元废柴」、开源爱好者。"
-    },
-    {
-     "steps": [
-      {
-       "when": "2018–2019",
-       "title": "开始写代码与博客",
-       "text": "2018 年注册 GitHub，2019 年做了 Typecho 博客主题 Paul，并从 2019 年 4 月起成为 Node 全栈开发者（Vue、React、NestJS、Fastify、MongoDB）。"
-      },
-      {
-       "when": "2020–2021",
-       "title": "Mix Space",
-       "text": "开始构建自己的博客系统 Mix Space（前后端与管理后台），个人网站从 2020 年运行至今；2021 年做了 shuffle-article（在 DOM 中打乱文字但保持视觉不变的轻量防复制），并开始学 React Native 与 SwiftUI。"
-      },
-      {
-       "when": "阿里",
-       "title": "大厂经历",
-       "text": "在阿里巴巴工作过，花名「亿夏」，取自音乐人邱有句的纯音乐《亿夏风铃》。曾为 bytebase、blocksuite、naive-ui、xLog 等开源项目贡献代码。"
-      },
-      {
-       "when": "2023",
-       "title": "Shiro",
-       "text": "「一个体现纸的纯粹与雪的清新的极简个人网站」，成为中文开发者最受欢迎的个人站主题之一。"
-      },
-      {
-       "when": "2024–2025",
-       "title": "设计开发者与 AI 指挥师",
-       "text": "2024 年 6 月起以设计开发者为主（React、Radix、Framer Motion）；2025 年 4 月起成为「AI 指挥师」，员工是 Claude Code、Codex、Copilot、Cursor、ChatGPT。做了照片画廊 Afilmory、Pastel 色彩系统和 electron-ipc-decorator，加入 LobeHub。"
-      },
-      {
-       "when": "2026",
-       "title": "余白与 Lody",
-       "text": "发布排版设计系统「余白 / Yohaku」（一个强调色、三层中性色，其余都是留白）；一天原型、一周成品地开发了 Lody 的 iOS 客户端；用 Claude Code、Codex 和 Remotion 做了一支《命运石之门》MV。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2018–2019", "title": "开始写代码与博客", "text": "2018 年注册 GitHub；2019 年做了 Typecho 博客主题 Paul（★291），并从 2019 年 4 月起成为 Node 全栈开发者（Vue、React、NestJS、Fastify、MongoDB）。"},
+     {"when": "2020–2021", "title": "Mix Space", "text": "开始构建自己的博客系统 Mix Space（内容后端、前端与管理后台），个人网站从 2020 年运行至今。2021 年做了 shuffle-article：在 DOM 里打乱文字但保持视觉不变，用来轻量防复制。"},
+     {"when": "阿里巴巴", "title": "大厂与开源贡献", "text": "在阿里巴巴工作过；为 bytebase、blocksuite、naive-ui、xLog 等开源项目贡献过代码。"},
+     {"when": "2023", "title": "Shiro", "text": "发布 Shiro，成为中文开发者最受欢迎的个人站主题之一。"},
+     {"when": "2024–2025", "title": "设计工程师与 AI 指挥师", "text": "2024 年起以设计开发为主；参与 Folo 的 Electron 客户端开发；做了 Afilmory、Pastel、electron-ipc-decorator；2025 年 4 月起称自己为「AI 指挥师」，并加入 LobeHub。"},
+     {"when": "2026", "title": "余白与 iOS", "text": "发布排版设计系统余白 Yohaku；「一天原型，一周成品」做出 Lody iOS；上架旅行 App Nyatabi；用 Claude Code、Codex 和 Remotion 做了一支 4 分 28 秒的《命运石之门》MV；写了《UIKitCore 逆向分析报告》《从纯 CSS 到 StyleX》等长文。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Shiro",
-       "meta": "2023 · ★4.3k",
-       "text": "纸的纯粹，雪的清新：一个极简的个人网站。",
-       "url": "https://github.com/Innei/Shiro"
-      },
-      {
-       "name": "余白 Yohaku",
-       "meta": "2026 · 设计系统",
-       "text": "面向文字内容的排版设计系统：一个强调色、三层中性色，剩下的都是留白。",
-       "url": "https://github.com/Innei/Yohaku"
-      },
-      {
-       "name": "Afilmory",
-       "meta": "2025 · 照片画廊",
-       "text": "用镜头记录生活的美好瞬间与日常温度。",
-       "url": "https://github.com/Afilmory"
-      },
-      {
-       "name": "lody-ios",
-       "meta": "2026 · Swift",
-       "text": "Lody 的独立 iOS 客户端：原生聊天、会话与编程 Agent 协作。",
-       "url": "https://github.com/Innei/lody-ios"
-      }
+    {"work": {
+     "name": "Shiro", "url": "https://github.com/Innei/Shiro",
+     "meta": ["2023", "TypeScript · Next.js", "Mix Space 前端"],
+     "paras": [
+      "「A minimalist personal website embodying the purity of paper and freshness of snow.」Mix Space 的前端主题，大量中文开发者用它搭建自己的博客。仓库从 2023 年持续更新到 2026 年 10 月。"
+     ],
+     "facts": [["GitHub", "★4,257 · ⑂860"]]
+    }},
+    {"work": {
+     "name": "余白 Yohaku", "url": "https://github.com/Innei/Yohaku",
+     "meta": ["2026", "设计系统 + 跨端出版", "README 中日英三语"],
+     "paras": [
+      "「留白也是写作的一部分。」一套面向个人写作的跨端出版产品，以 mx-core 为内容后端。设计规则极其克制：<strong>一个强调色、三层中性色，剩下的都是留白</strong>。",
+      "innei.in 本身就是它的样板间：页脚写着「印于 10/20/2026」，像一本按日期付印的刊物。Web 版通过 GitHub Sponsors 获取访问权限。"
+     ],
+     "facts": [["GitHub", "★201"], ["设计站", "yohaku.innei.dev"]]
+    }},
+    {"work": {
+     "name": "Afilmory", "url": "https://github.com/Afilmory/afilmory",
+     "meta": ["2025", "TypeScript", "开源 + SaaS"],
+     "paras": [
+      "「A modern, high-performance photo gallery platform for photographers.」支持 S3 / GitHub 同步、EXIF 详情、地图和 WebGL 查看器，既可自托管，也有官方 SaaS afilmory.art。"
+     ],
+     "facts": [["GitHub", "★2,659"]]
+    }},
+    {"work": {
+     "name": "Kansoku", "url": "https://github.com/kansoku-trade/kansoku",
+     "meta": ["2026", "macOS", "AI 看盘"],
+     "paras": [
+      "「装在你 Mac 上的能查账的 AI 看盘搭子。」行情从你自己的长桥账户拉取，指标全部本地计算，AI 用你自己配置的模型盯盘和答疑。它的规则很有意思：每个结论挂着完整证据链，归档之后不许改口，事后按命中率记分。"
+     ],
+     "facts": [["GitHub", "★329"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["lody-ios", "2026", "Lody 的第三方 iOS 客户端，原生聊天与编程 Agent 协作（★519）"],
+      ["Nyatabi", "2026", "AI 旅行伙伴 Musubi：一句话规划行程、拍小票分账"],
+      ["Torrent Vibe", "2025", "qBittorrent 的现代 Web 界面"],
+      ["Pastel", "2025", "kawaii 风格的 OKLCH 色彩系统，支持 TailwindCSS v4"],
+      ["Kagura", "2026", "在 Slack 里运行 Claude Agent SDK 和 Codex CLI"],
+      ["shuffle-article", "2021", "打乱 DOM 文字但保持视觉不变的轻量防复制"]
      ]
-    }
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://innei.in",
-      "paras": [
-       "首页像一本杂志的扉页：「Hi, I'm Innei 👋 I orchestrate ideas into products with ✦ AI Agents」，下面是一句引言、文章 / 字数 / 天数统计，以及编号的「近期笔墨」。",
-       "导航是中文的：首页、文稿、手记、时光、思考；页脚写着「印于 10/20/2026」，支持浅色 / 深色 / 跟随系统、多语言和可切换的背景效果。"
-      ]
-     }
-    },
-    {
-     "p": "这个网站本身就是 Mix Space + 余白 Yohaku 的展示：它不仅是博客，也是 TA 设计系统的样板间。"
-    }
+    {"site": {"url": "https://innei.in", "paras": [
+     "首页像一本杂志的扉页：「Hi, I'm Innei 👋 I orchestrate ideas into products with ✦ AI Agents」，下面是一句引言、文章 / 字数 / 天数统计，以及编号的「近期笔墨」。导航是中文的：首页、文稿、手记、时光、思考。",
+     "「自述」页写得很长、很坦诚：「这是一份关于站长的报告，请查收」。时间线页显示年度进度和今日进度，下面写着「Live in the present, cherish the moment」。页脚标明由 Mix Space 和余白 Yohaku 驱动，©2020–2026。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + Mix Space 后端，Cloudflare"],
+      ["内容", "文稿（技术长文）、手记（生活）、思考（短想法）"],
+      ["功能", "社交登录评论、订阅通信、多语言、深浅色"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "quote": "以开发者的身份，站在普通用户的角度体验自己开发的东西，是否有存在的必要性，是否拥有良好的体验感。",
-     "cite": "拾一，自述"
-    },
-    {
-     "p": "余白 Yohaku 的设计原则很能代表 TA 的审美：<strong>克制的颜色、充分的留白、让文字成为主角</strong>。这种日式的「间」感，也贯穿在 Shiro 和 TA 的照片画廊里。"
-    }
+    {"posts": [
+     {"date": "2026-10-09", "title": "我的 AI Native iOS 开发验证工作流", "url": "https://innei.in/posts", "note": "代码大部分由 Agent 写，他负责定需求和验收。"},
+     {"date": "2026-09-30", "title": "用 Claude Code、Codex 和 Remotion 做一支《命运石之门》MV", "url": "https://innei.in/posts"},
+     {"date": "2026-09-29", "title": "把 Electron 更新做快：我在 OTA 上的几次推倒重来", "url": "https://innei.in/posts"},
+     {"date": "2026-09-12", "title": "一天原型，一周成品：开发 Lody iOS 实况", "url": "https://innei.in/posts"},
+     {"date": "2026-08-30", "title": "从纯 CSS 到 StyleX：AI 加持下的一万行 CSS 迁移实践", "url": "https://innei.in/posts"},
+     {"date": "置顶", "title": "AI 时代的效率悖论：当生产力提升反而带来疲惫", "url": "https://innei.in/posts"}
+    ]},
+    {"quote": "以开发者的身份，站在普通用户的角度体验自己开发的东西，是否有存在的必要性，是否拥有良好的体验感。", "cite": "拾一，innei.in 自述"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计工程", "审美稳定，组件和色彩系统都能自己做", "—"],
+      ["产出", "近一年近两万次贡献，项目多且新", "项目分散，部分已归档"],
+      ["开源", "Shiro、Afilmory 社区基础好", "余白 Web 版需赞助获取访问"],
+      ["写作", "技术长文 + 生活手记，真实", "部分手记较私人"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
-   "title": "可以从 TA 身上学什么",
+   "title": "可以从他身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>把个人网站当作品：</strong>一个博客主题也能收获四千多星。",
-      "<strong>沉淀自己的设计系统：</strong>颜色、字体、留白，写成可复用的规则。",
-      "<strong>内向也能被看见：</strong>作品和写作替你说话。",
-      "<strong>做 AI 指挥师：</strong>一天原型、一周成品，是新的开发节奏。"
-     ]
-    }
+    {"checklist": [
+     "<strong>把个人网站当作品：</strong>一个博客主题也能收获四千多颗星。",
+     "<strong>沉淀自己的设计系统：</strong>颜色、字体、留白，写成可复用的规则。",
+     "<strong>内向也能被看见：</strong>作品和写作替你说话。",
+     "<strong>做 AI 指挥师：</strong>自己定需求、做验收，让 Agent 写代码。",
+     "<strong>警惕效率悖论：</strong>生产力提升，也可能带来疲惫。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "innei.in", "url": "https://innei.in", "why": "看一个用自己设计系统「付印」的个人网站。"},
+     {"name": "Shiro", "url": "https://github.com/Innei/Shiro", "why": "想要一个好看的博客，可以从它开始。"},
+     {"name": "Afilmory", "url": "https://github.com/Afilmory/afilmory", "why": "给你的照片做一个带地图和 EXIF 的画廊。"}
+    ]}
    ]
   }
  ],
- "cta": "去 innei.in 感受一下「余白」的排版。",
+ "cta": "去 innei.in 读一篇「近期笔墨」，再翻翻他的时间线。",
  "sources": [
-  {
-   "label": "拾一的 X 个人资料",
-   "url": "https://x.com/__oQuery"
-  },
-  {
-   "label": "innei.in",
-   "url": "https://innei.in"
-  },
-  {
-   "label": "innei.in：自述",
-   "url": "https://innei.in/about"
-  },
-  {
-   "label": "GitHub：Innei",
-   "url": "https://github.com/Innei"
-  },
-  {
-   "label": "GitHub：mx-space",
-   "url": "https://github.com/mx-space"
-  }
+  {"label": "拾一的 X 个人资料", "url": "https://x.com/__oQuery"},
+  {"label": "innei.in", "url": "https://innei.in"},
+  {"label": "innei.in：自述", "url": "https://innei.in/about"},
+  {"label": "GitHub：Innei", "url": "https://github.com/Innei"},
+  {"label": "余白 Yohaku README", "url": "https://github.com/Innei/Yohaku"},
+  {"label": "Afilmory", "url": "https://github.com/Afilmory/afilmory"},
+  {"label": "Nyatabi", "url": "https://nyatabi.app/"}
  ]
 }

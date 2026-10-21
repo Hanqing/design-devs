@@ -2,179 +2,179 @@
  "name": "Adam Bell",
  "role": "Netflix iOS UI 工程师 · 交互与动画专家",
  "title": "Adam Bell：做合成器、交互、动画，<em>还有赛车</em>",
- "dek": "这位加拿大工程师从 iOS 越狱社区起步：给 iOS 加上「到处都能用的聊天头像」、在没有车的 iPhone 上运行 CarPlay。后来 TA 写了手势驱动的动画引擎 Motion，在各大 Swift 大会上讲如何用 Swift 合成声音，如今在 Netflix 做 iOS UI。",
- "card": "Motion 动画引擎作者，越狱时代的交互黑客，Swift 合成器讲者，Netflix iOS UI 工程师。",
+ "dek": "这位加拿大工程师从 iOS 越狱社区起步：把 Facebook 的 Chat Heads 带到整个 iOS，在没有车的 iPad 上运行 CarPlay。后来 TA 写了手势驱动的动画引擎 Motion，在各大 Swift 大会上讲如何用 Swift 合成声音，如今在 Netflix 做 iOS UI。",
+ "card": "Motion、Ignition、Albums 作者；越狱社区出身，Netflix iOS UI 工程师，爱合成器也爱赛车。",
  "location": "美国湾区（加拿大人）",
- "tags": [
-  "动画",
-  "交互设计",
-  "Swift",
-  "音频合成",
-  "越狱"
- ],
+ "updated": "2026-10-21",
+ "tags": ["iOS", "动画", "交互", "音频", "越狱"],
  "links": [
-  {
-   "label": "adambell.ca",
-   "url": "https://www.adambell.ca/"
-  },
-  {
-   "label": "博客与演讲",
-   "url": "https://blog.adambell.ca/talks"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/b3ll"
-  }
+  {"label": "adambell.ca", "url": "https://www.adambell.ca/"},
+  {"label": "Blog & Talks", "url": "https://blog.adambell.ca/talks"},
+  {"label": "GitHub", "url": "https://github.com/b3ll"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「I make synths, interactions, animations, and hack things.」一个把「手感」当作核心追求的工程师。",
-  "<strong>代表作：</strong>Motion（★1.5k，手势驱动的 UI 动画引擎）、Decomposed（CATransform3D 变得简单）、Adjustable（自动生成调参滑杆的属性包装器）、Ignition（越狱 CarPlay）、MessageBox（iOS 上到处都能用的 Chat Heads）；App：Albums、Octave、Reprise、Crest、Vivid。",
-  "<strong>演讲：</strong>NSSpain、try! Swift Tokyo、Swift Alps、iOS Conf SG、Swift Heroes 等，主题从合成器到响应式交互。"
+  "<strong>一句话：</strong>X 简介「I make synths, interactions, animations, and hack things 🏎 🇨🇦」，在 Netflix 做 iOS UI。",
+  "<strong>代表作：</strong>Motion（★1.5 千）、Ignition（★324）、Decomposed、Adjustable、SwiftyGestureRecognition；App Albums、Octave、J_NO Chorus、Click Wheel Keyboard。",
+  "<strong>关键数字：</strong>X 关注者约 1.65 万、推文 4.7 万条；GitHub 81 个公开仓库、粉丝 1,242；2018–2023 年做过 9 场大会演讲和播客。",
+  "<strong>两大爱好：</strong>音乐（合成器、黑胶、DJ）和赛车（F1、勒芒、赛道日），都直接变成了 TA 的作品和演讲。"
  ],
- "lead": "Adam 的个人网站底部写着：「I build things, hack things, make music, and race cars.」上面是一列 TA 做过的 App，有一个特别的注释：「Meal Plan 与西安大略大学没有任何关系，它是一个学生项目。」这是一个从学生时代就开始做 App 的人。",
+ "lead": "2014 年，CarPlay 只能在少数几款新车上用。Adam Bell 写了一个越狱插件，直接在 iPad 的 SpringBoard 上运行 CarPlay 界面，README 写着：「Negates the need for a \"CarPlay supported™\" car.」这就是 TA 的风格：先问系统允不允许，再想办法让它允许。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 工程师，专注交互、动画与音频"],
+     ["现任", "Netflix，iOS UI"],
+     ["所在地", "美国湾区；来自加拿大"],
+     ["教育", "西安大略大学（Western University），学生时代做了 Meal Plan 等 App"],
+     ["早年", "iOS 越狱社区：MessageBox、Ignition、Stride、Spectral、NyanCat"],
+     ["技术栈", "Swift、Objective-C、Logos / Theos、Core Animation、SIMD、AudioUnit"],
+     ["代表作", "Motion、Decomposed、Adjustable、Albums、Octave"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Adam 的核心关注是「<strong>响应性</strong>」：动画要能被手指随时打断、随时接管，界面要像物理世界一样有惯性和弹性。Motion 把这个理念做成了引擎，Adjustable 和 Decomposed 是帮你调出「对的手感」的工具。"},
+    {"p": "TA 的另一条线是音频：用 Swift 写合成器、做 AudioUnit 效果器 J_NO Chorus、把黑胶唱片通过 AirPlay 串流（Tunetable）、做把专辑放到主屏幕的 Albums。"},
+    {"note": "本页依据 adambell.ca、blog.adambell.ca（文章与演讲列表）、GitHub 仓库与 README、App Store 资料和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "学生时代",
-       "title": "西安大略大学与第一批 App",
-       "text": "在加拿大西安大略大学读书时做了查询校园餐卡余额的 Meal Plan，还有给 DJ 设计的音乐播放器 Reprise、「比游隼还快」的 Twitter 客户端 Crest。"
-      },
-      {
-       "when": "2012–2014",
-       "title": "越狱黑客",
-       "text": "Stride（画图解锁）、Spectral（iOS 7 锁屏模糊专辑封面）、MessageBox（2013，把 Facebook 的 Chat Heads 带到整个 iOS）、NyanCat（把彩虹猫放进 iOS 8 通知中心），以及 Ignition：无需汽车，直接在 iPhone 上运行 CarPlay 界面。"
-      },
-      {
-       "when": "2013",
-       "title": "ARTPOP",
-       "text": "作为 RelativeWave 的一部分，为 Lady Gaga 的专辑 ARTPOP 打造了一款沉浸式 App。"
-      },
-      {
-       "when": "2015–2016",
-       "title": "交互原型",
-       "text": "Pseudo3DTouch 在没有 3D Touch 硬件的设备上模拟 3D Touch；SwiftyGestureRecognition 让你在 Xcode Playgrounds 里原型化手势。"
-      },
-      {
-       "when": "2018–2019",
-       "title": "用 Swift 合成声音",
-       "text": "在 NSSpain 演讲《Synthesizing Synths in Swift》、try! Swift Tokyo 演讲《Shaping Sounds in Swift》、Swift Alps 讲减法合成，并上 Swift by Sundell 播客聊音频。"
-      },
-      {
-       "when": "2020–2024",
-       "title": "Motion 与交互演讲",
-       "text": "开源 Motion（弹簧、衰减、关键帧，专为手势驱动的界面设计）和 Decomposed；在 NSSpain、iOS Conf SG、Swift Heroes 讲「Crafting Responsive and Playful Interfaces」。2024 年开源 Adjustable，并上架 Albums、Octave 两款 App。"
-      },
-      {
-       "when": "现在",
-       "title": "Netflix",
-       "text": "在 Netflix 做 iOS UI。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2010–2011", "title": "第一篇博客", "text": "博客第一篇叫 <code>NSLog(@\"hello world\");</code>，随后写 afc2 与 Finder、在 BlackBerry PlayBook 上跑原生二进制。"},
+     {"when": "大学时代", "title": "第一批 App", "text": "在西安大略大学做了查询校园餐卡余额的 Meal Plan（作为学生项目，与学校无关），还有为 DJ 设计的播放器 Reprise、「比游隼还快」的 Twitter 客户端 Crest、壁纸 App Vivid。"},
+     {"when": "2013–2014", "title": "越狱黑客", "text": "MessageBox 把 Facebook 的 Chat Heads「打破 iOS 沙盒」带到整个系统；Stride 让你画图解锁；Spectral 给 iOS 7 锁屏加模糊专辑封面；NyanCat 把彩虹猫放进 iOS 8 通知中心；Ignition 在 iPad 上运行 CarPlay。"},
+     {"when": "2013", "title": "ARTPOP", "text": "作为 RelativeWave 的一员，参与打造了 Lady Gaga 专辑 ARTPOP 的沉浸式 App。"},
+     {"when": "2015–2016", "title": "交互原型", "text": "Click Wheel Keyboard 用 iPod 转盘打字；Pseudo3DTouch 在没有 3D Touch 的设备上模拟它；SwiftyGestureRecognition 让你在 Playgrounds 里原型化手势；在 try! Swift Tokyo 2016 演讲。"},
+     {"when": "2018–2019", "title": "用 Swift 合成声音", "text": "NSSpain《Synthesizing Synths in Swift》、try! Swift Tokyo《Shaping Sounds in Swift》、Swift Alps《Subtractive Synthesis in Swift》，并上 Swift by Sundell 聊音频。同时用 Swift 给自己写博客系统。"},
+     {"when": "2020–2024", "title": "Motion 与交互演讲", "text": "开源 Motion、Decomposed、SetNeedsDisplay、Adjustable；在 NSSpain、iOS Conf SG、Swift Heroes 讲响应式和有趣的界面；上架 Albums 与 Octave。"},
+     {"when": "现在", "title": "Netflix", "text": "在 Netflix 做 iOS UI。2025 年写下《McLarens and CarPlay》，讲自己从 Lotus Elise 一路开到 McLaren 的赛车爱好。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Motion",
-       "meta": "2020 · Swift · ★1.5k",
-       "text": "为手势驱动的界面、动画与交互打造的动画引擎，支持 iOS、macOS、tvOS。",
-       "url": "https://github.com/b3ll/Motion"
-      },
-      {
-       "name": "Albums",
-       "meta": "iOS App",
-       "text": "把专辑放到主屏幕上的音乐快捷方式。",
-       "url": "https://apps.apple.com/us/app/albums-music-shortcuts/id1602404960"
-      },
-      {
-       "name": "Octave",
-       "meta": "iOS App",
-       "text": "音符与和弦查询的视奏工具。",
-       "url": "https://apps.apple.com/us/app/octave-sight-reading-tool/id1580017764"
-      },
-      {
-       "name": "Ignition",
-       "meta": "2014 · 越狱",
-       "text": "在 iOS 设备上直接运行 CarPlay 界面，「不需要汽车」。",
-       "url": "https://github.com/b3ll/Ignition"
-      }
+    {"work": {
+     "name": "Motion", "url": "https://github.com/b3ll/Motion",
+     "meta": ["2020", "Swift · SIMD", "iOS / macOS / tvOS"],
+     "paras": [
+      "「An animation engine for gesturally-driven user interfaces.」用 SIMD 驱动，完全用 Swift 编写。它让你轻松做出符合物理规律、<strong>可打断</strong>的动画：弹簧、衰减、关键帧，并且和手势识别器无缝配合。",
+      "它解决的问题很具体：系统动画一旦开始就难以被手指「接住」，而 Motion 的每个动画都可以随时被手势接管。"
+     ],
+     "facts": [["GitHub", "★1,491 · ⑂38"]]
+    }},
+    {"work": {
+     "name": "Ignition", "url": "https://github.com/b3ll/Ignition",
+     "meta": ["2014", "越狱插件", "Logos"],
+     "paras": [
+      "直接在 iOS 设备的 SpringBoard 上运行 CarPlay 界面，「不需要一辆支持 CarPlay 的车」。README 说它主要为装在仪表台上的 iPad 设计，iPhone 6 Plus「勉强也行」。"
+     ],
+     "facts": [["GitHub", "★324 · ⑂58"]]
+    }},
+    {"work": {
+     "name": "Albums", "url": "https://apps.apple.com/us/app/albums-music-shortcuts/id1602404960",
+     "meta": ["2023", "iOS", "免费"],
+     "paras": [
+      "把你喜欢的专辑做成主屏幕小组件，一点就在你常用的流媒体里播放。App 描述说，它想找回一点收藏和播放黑胶唱片的感觉。"
+     ],
+     "facts": [["App Store", "★4.71（28 个评分）"], ["最近更新", "2024-12 · v1.7.1"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Decomposed", "2020", "让 CATransform3D 和 4×4 矩阵变换好用起来（★265）"],
+      ["Adjustable", "2024", "给任意属性自动加滑杆，不用重新编译就能调动画参数（★76）"],
+      ["SetNeedsDisplay", "2020", "属性变化时自动刷新视图；iOS 15 起 UIKit 已内置同类能力"],
+      ["Octave", "2022", "视奏练习、音符与和弦查询"],
+      ["J_NO Chorus", "2021", "致敬 80 年代 BBD 合唱效果的 AudioUnit 插件"],
+      ["Tunetable", "2022", "把黑胶唱片通过 AirPlay 串流"],
+      ["Click Wheel Keyboard", "2015", "用 iPod 转盘方式打字的复古键盘"],
+      ["Raid Dad", "2021", "《命运 2》火力战队信息一览"]
      ]
-    }
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://www.adambell.ca/",
-      "paras": [
-       "首页是一列大写的 App 名字：ALBUMS、OCTAVE、ARTPOP、MEAL PLAN、REPRISE、CREST、VIVID、STRIDE 2、STRIDE、SPECTRAL，每个配一句话。",
-       "博客与演讲页由 Swift 静态站点生成器 Publish 生成。"
-      ]
-     }
-    }
+    {"site": {"url": "https://www.adambell.ca/", "paras": [
+     "首页只是一列大写的 App 名字：ALBUMS、OCTAVE、ARTPOP、MEAL PLAN、REPRISE、CREST、VIVID、STRIDE 2、STRIDE、SPECTRAL，每个配一句话。像一张唱片的曲目表。",
+     "博客 blog.adambell.ca 的副标题是「building / breaking things」。TA 用 Swift 给自己写博客，并写了四篇《Blogging in Swift》记录从静态生成到 Vapor 再到升级的过程；Talks 页列出 2018–2023 年的全部演讲。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["结构", "App 列表 + 博客 + 演讲"],
+      ["技术", "Swift 写的博客系统，Cloudflare"],
+      ["节奏", "博客更新很少（2011–2025 共 14 篇），演讲和代码更多"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "演讲与文章",
    "blocks": [
-    {
-     "p": "Adam 的核心关注是<strong>「响应性」</strong>：动画必须能被手指随时打断、随时接管，界面要像物理世界一样有惯性和弹性。Motion 就是这一理念的工程化。"
-    },
-    {
-     "p": "Adjustable 则体现了 TA 打磨细节的方法：给任何属性自动生成一个滑杆，在真机上实时调动画参数，直到「感觉对了」。"
-    }
+    {"posts": [
+     {"date": "2025-01-16", "title": "McLarens and CarPlay", "url": "https://blog.adambell.ca/posts/20250116-McLarens-And-CarPlay"},
+     {"date": "2023-05-04", "title": "Building Delightful Applications（Swift Heroes）", "url": "https://blog.adambell.ca/talks"},
+     {"date": "2022-09-16", "title": "Crafting Responsive and Playful Interfaces（NSSpain）", "url": "https://blog.adambell.ca/talks"},
+     {"date": "2019-07-24", "title": "Visualizing Xcode's View Debugger", "url": "https://blog.adambell.ca/posts/20190724-Visualizing-Xcode's-View-Debugger"},
+     {"date": "2019-03-21", "title": "Shaping Sounds in Swift（try! Swift Tokyo）", "url": "https://blog.adambell.ca/talks"},
+     {"date": "2018-09-14", "title": "Synthesizing Synths in Swift（NSSpain）", "url": "https://audiokitpro.com/synthesizing-synths/"}
+    ]},
+    {"quote": "For as long as I can remember, I've always been a fan of motorsport.", "cite": "Adam Bell，《McLarens and CarPlay》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["交互", "手势与动画的理解很深，Motion 是代表", "Motion 近两年更新放缓"],
+      ["黑客精神", "敢做系统「不允许」的事", "越狱作品大多已无法在新系统运行"],
+      ["跨领域", "音乐、音频与 UI 结合得很自然", "—"],
+      ["分享", "演讲多、案例好懂", "博客更新稀少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>手感需要调：</strong>给参数加滑杆，在真机上反复尝试。",
-      "<strong>越狱精神：</strong>去做系统「不允许」的事，往往能发现新的交互。",
-      "<strong>把爱好带进代码：</strong>音乐和合成器成了 TA 最受欢迎的演讲主题。",
-      "<strong>动画要可打断：</strong>手势驱动的界面，才是真正的响应式。"
-     ]
-    }
+    {"checklist": [
+     "<strong>手感需要调：</strong>给参数加滑杆，在真机上反复尝试。",
+     "<strong>动画要可打断：</strong>手势驱动的界面，才是真正的响应式。",
+     "<strong>越狱精神：</strong>去做系统「不允许」的事，往往能发现新交互。",
+     "<strong>把爱好带进代码：</strong>合成器和黑胶，成了最受欢迎的演讲和 App。",
+     "<strong>工具会被系统吸收：</strong>SetNeedsDisplay 的能力后来进了 UIKit，这说明方向是对的。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Motion", "url": "https://github.com/b3ll/Motion", "why": "看看可打断的弹簧动画如何和手势配合。"},
+     {"name": "Albums", "url": "https://apps.apple.com/us/app/albums-music-shortcuts/id1602404960", "why": "把最爱的专辑放到主屏幕上。"},
+     {"name": "Talks", "url": "https://blog.adambell.ca/talks", "why": "挑一场关于用 Swift 合成声音的演讲。"}
+    ]}
    ]
   }
  ],
- "cta": "看一场 TA 的演讲《Crafting Responsive and Playful Interfaces》。",
+ "cta": "装上 Albums，把一张最爱的专辑放到主屏幕上。",
  "sources": [
-  {
-   "label": "Adam Bell 的 X 个人资料",
-   "url": "https://x.com/b3ll"
-  },
-  {
-   "label": "adambell.ca",
-   "url": "https://www.adambell.ca/"
-  },
-  {
-   "label": "Adam Bell：Talks",
-   "url": "https://blog.adambell.ca/talks"
-  },
-  {
-   "label": "GitHub：b3ll",
-   "url": "https://github.com/b3ll"
-  },
-  {
-   "label": "AudioKit Pro：Synthesizing Synths in Swift",
-   "url": "https://audiokitpro.com/synthesizing-synths/"
-  }
+  {"label": "Adam Bell 的 X 个人资料", "url": "https://x.com/b3ll"},
+  {"label": "adambell.ca", "url": "https://www.adambell.ca/"},
+  {"label": "Adam Bell：Talks", "url": "https://blog.adambell.ca/talks"},
+  {"label": "McLarens and CarPlay", "url": "https://blog.adambell.ca/posts/20250116-McLarens-And-CarPlay"},
+  {"label": "GitHub：b3ll", "url": "https://github.com/b3ll"},
+  {"label": "Albums: Music Shortcuts（App Store）", "url": "https://apps.apple.com/us/app/albums-music-shortcuts/id1602404960"},
+  {"label": "AudioKit Pro：Synthesizing Synths in Swift", "url": "https://audiokitpro.com/synthesizing-synths/"}
  ]
 }

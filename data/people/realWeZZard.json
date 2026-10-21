@@ -1,166 +1,177 @@
 {
  "name": "WeZZard",
- "role": "前工业设计师 · Swift 与编译器爱好者",
- "title": "WeZZard：从<em>工业设计</em>走到编译器与模型内部",
- "dek": "TA 自称「The crazy one」：工业设计出身，做过字节跳动基础设施，维护过大厂的 UI DSL 框架，写 Swift 宏和编译期 DSL，如今研究大模型的可解释性，用 Jacobian 透镜观察 Qwen 的内部表示，并给纯文本模型「装上眼睛」。",
- "card": "前工业设计师、前字节基础设施工程师，Swift / 编译器爱好者，研究 AI Agent 与模型可解释性。",
+ "role": "前工业设计师 · Swift 与编译器工程师 · AI Agent 工具作者",
+ "title": "WeZZard：从工业设计走到<em>编译器与模型内部</em>",
+ "dek": "TA 自称「The crazy one」：在京东方做过工业设计，后来当了 iOS 独立开发者，做过 Wondershare FilmoraGo 的架构师和字节跳动抖音基础技术部 DanceUI 的核心贡献者。如今 TA 住在悉尼，写 Agent 工具，并用 Jacobian 透镜观察大模型的内部表示。",
+ "card": "jlens-qwen36、opencode-vision、COWMacro 作者；前字节跳动 DanceUI 核心贡献者，工业设计出身。",
  "location": "澳大利亚悉尼",
- "tags": [
-  "Swift",
-  "编译器",
-  "AI Agent",
-  "可解释性",
-  "音乐"
- ],
+ "updated": "2026-10-21",
+ "tags": ["Swift", "编译器", "AI Agent", "可解释性", "工业设计"],
  "links": [
-  {
-   "label": "wezzard.com",
-   "url": "https://wezzard.com"
-  },
-  {
-   "label": "Skills",
-   "url": "https://skills.wezzard.com"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/WeZZard"
-  }
+  {"label": "Pieces of My Soul（博客）", "url": "https://wezzard.com"},
+  {"label": "WeZZard Skills", "url": "https://skills.wezzard.com"},
+  {"label": "GitHub", "url": "https://github.com/WeZZard"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个横跨设计、编译器和 AI 的跨界工程师，博客名叫「Pieces of My Soul」（我灵魂的碎片）。",
-  "<strong>代表作：</strong>jlens-qwen36（★400，在 Apple Silicon 上用 MLX 可视化 Qwen 的 J-space）、opencode-vision（让纯文本模型借用视觉模型，24 小时下载 1300+）、COWMacro / COWRewriter（Swift 写时复制宏）、CTVFL（编译期 Visual Format Language）、UIAnimationToolbox、toll-free-harness、minelogue。",
-  "<strong>个人：</strong>会说普通话、长沙话、英语，读得懂日语和德语，偶尔作曲。"
+  "<strong>一句话：</strong>GitHub 自我介绍是「I build things with aesthetics.」（我用审美做东西。）X 简介写着「The crazy one. ex-ByteDance infra, ex Industrial Designer」。",
+  "<strong>代表作：</strong>jlens-qwen36（★404）、opencode-vision（24 小时 1,300+ 次下载）、COWMacro、CTVFL、WeZZard Skills（Amplify、Attune、Cupertino Taste）；正在做 ReadyCheck 和 Rubberdux。",
+  "<strong>关键数字：</strong>GitHub 122 个公开仓库，近一年 2,192 次贡献；X 关注者约 5,400；博客 RSS 23 篇长文。",
+  "<strong>写作：</strong>英文长文发在 wezzard.com，中文版发在微信公众号；原稿以 CC BY-NC-ND 4.0 存放在 GitHub。"
  ],
- "lead": "WeZZard 的个人页最后一行是一句德语：「Freiheit ist Wille. Handeln ist Fähigkeit. Mut ist der Glaube, der mit der Zeit nicht nachlässt.」（自由是意志，行动是能力，勇气是不随时间消退的信念。）TA 的「I'm WeZZard」标签下面只写了三件事：Making Software、Composing Music、Designing UX。",
+ "lead": "调 Claude 的英文风格时，TA 已经写了「不要用行话、用直白的语言、不要自造术语」，模型却还是滑回行话。大多数人会继续改提示词，WeZZard 打开了模型内部：给本地的 Qwen 拟合一个 Jacobian 透镜，看每一层、每个 token 在把输出往哪个词推。这就是 TA 一贯的路数：问题出在表面，原因在结构里。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、Agent 工具作者、技术写作者"],
+     ["所在地", "澳大利亚悉尼"],
+     ["经历", "京东方工业设计 → iOS 独立开发者 → Wondershare FilmoraGo 架构师 → 字节跳动抖音基础技术部 DanceUI 核心贡献者"],
+     ["技术栈", "Swift、C/C++、Objective-C、LLVM、Python / MLX、TypeScript、Rust"],
+     ["代表作", "jlens-qwen36、opencode-vision、COWMacro、CTVFL、WeZZard Skills"],
+     ["正在做", "ReadyCheck（编程 Agent 的上下文层）、Rubberdux（给独立创始人的 Agent harness）"],
+     ["爱读的书", "《聪明的投资者》《具体数学》《SICP》《A Discipline of Programming》《Engineering a Compiler》"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "WeZZard 的工作可以分成两段。前一段在 Apple 平台和编译器：写 Swift 宏、研究 LLVM 数据结构、拆解 SwiftUI 的「编程语言本质」，在字节跳动参与 UI 框架 DanceUI。后一段从 2025 年开始，转向 AI Agent：做本地编程 Agent 的 PTY harness、从会话日志里挖对话的 minelogue、给纯文本模型补视觉能力的 opencode-vision，以及研究模型可解释性的 jlens-qwen36。"},
+    {"p": "两段工作的共同点是<strong>形式决定行为</strong>：产品的外形、语言的语法、示例对模型的塑造。这和 TA 的工业设计训练一脉相承。"},
+    {"note": "本页依据 wezzard.com（文章与 Profile）、GitHub 主页与 README、skills.wezzard.com 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "早年",
-       "title": "工业设计",
-       "text": "以工业设计为专业背景，对多种音乐风格充满热情，偶尔为乐趣作曲。"
-      },
-      {
-       "when": "2011–2019",
-       "title": "转向软件",
-       "text": "2011 年注册 GitHub，自学并深入 C/C++/Objective-C、Swift、汇编（x86_64、arm64）和 WebAssembly。2019 年开源 CTVFL（编译期检查的 Auto Layout VFL）和 UIAnimationToolbox。"
-      },
-      {
-       "when": "大厂",
-       "title": "字节跳动基础设施与 UI DSL",
-       "text": "在字节跳动做基础设施，之后在国内一家大型科技公司维护内部 UI DSL 框架。"
-      },
-      {
-       "when": "2022–2023",
-       "title": "Swift 宏",
-       "text": "COWRewriter 能自动把 Swift struct 改写为写时复制语义；Swift 5.9 推出宏之后，又做了 COWMacro。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "AI Agent 与可解释性",
-       "text": "移居悉尼。开源 agentic-loop-playground、toll-free-harness（本地编程 Agent 的交互式 PTY）、minelogue（从 Agent 会话日志里挖出对话）；opencode-vision 让 GLM、DeepSeek 等纯文本模型调用视觉模型；jlens-qwen36 把 Jacobian 透镜可视化移植到 MLX，用来研究「示例如何塑造模型行为」。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "早年", "title": "工业设计", "text": "工业设计专业背景，在京东方（BOE）做过工业设计；喜欢多种音乐风格，偶尔作曲。"},
+     {"when": "2011–2019", "title": "转向软件", "text": "2011 年注册 GitHub，深入 C/C++、Objective-C、Swift、汇编和 WebAssembly；做过 iOS 独立开发者，开源 ObjCGraft（AOP 框架）、CTVFL（编译期检查的 Auto Layout VFL）和 UIAnimationToolbox。"},
+     {"when": "Wondershare", "title": "FilmoraGo 架构师", "text": "担任移动端视频编辑 App FilmoraGo 的架构师。"},
+     {"when": "字节跳动", "title": "DanceUI 核心贡献者", "text": "在抖音基础技术部参与 DanceUI 框架。同期写下《Unexplained SwiftUI》《Using Functional Binding to Observe in SwiftUI》《A Study of LLVM ADT》等文章。"},
+     {"when": "2022–2023", "title": "Swift 宏", "text": "COWRewriter 能把 Swift struct 自动改写为写时复制语义；Swift 5.9 推出宏之后，做了 COWMacro，并写了两篇《Swift Macro: Revisited》。"},
+     {"when": "2025", "title": "编译器与 Agent", "text": "写下修复 Swift 6 编译器「Eliminate Redundant Load」优化 pass 的笔记；开始做 agentic-loop-playground，演示 Claude Code 子 Agent 自动清理代码。"},
+     {"when": "2026", "title": "Agent 工具与可解释性", "text": "开源 toll-free-harness、minelogue、opencode-vision、jlens-qwen36 和一组 Claude Code Skills；文章《How I Built The Dynamic Workflow 4 Months Before Anthropic》《I Gave GLM-5.2 Eyes》《J-Space Reveals How Examples Shape Model Behavior》。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "jlens-qwen36",
-       "meta": "2026 · Python · MLX",
-       "text": "在 Apple Silicon 上可视化 Qwen3.6-27B（4-bit）的 J-space / Jacobian 透镜。",
-       "url": "https://github.com/WeZZard/jlens-qwen36"
-      },
-      {
-       "name": "opencode-vision",
-       "meta": "2026 · 1300+ 下载 / 24h",
-       "text": "给 OpenCode 里的纯文本模型「装上眼睛」：把视觉任务委托给已有订阅里的视觉模型。",
-       "url": "https://github.com/WeZZard/opencode-vision"
-      },
-      {
-       "name": "COWMacro",
-       "meta": "2023 · Swift",
-       "text": "为 Swift struct 提供写时复制语义的宏。",
-       "url": "https://github.com/WeZZard/COWMacro"
-      },
-      {
-       "name": "WeZZard Skills",
-       "meta": "2026",
-       "text": "TA 整理的一组 Agent Skills。",
-       "url": "https://skills.wezzard.com"
-      }
+    {"work": {
+     "name": "jlens-qwen36", "url": "https://github.com/WeZZard/jlens-qwen36",
+     "meta": ["2026", "Python · MLX", "可解释性"],
+     "paras": [
+      "「A visual debugger for a local Qwen3.6-27B (4-bit) on Apple Silicon / MLX.」它为本地模型拟合一个 Jacobian 透镜，显示模型在每一层、每个 token 位置正在把输出推向哪些词。",
+      "TA 用它研究「示例如何塑造模型行为」：为什么规则写得再清楚，模型还是会被提示里的例子带偏。项目有一个只读的在线演示 jlens.wezzard.com。"
+     ],
+     "facts": [["GitHub", "★404 · ⑂30"], ["在线演示", "jlens.wezzard.com"]]
+    }},
+    {"work": {
+     "name": "opencode-vision", "url": "https://github.com/WeZZard/opencode-vision",
+     "meta": ["2026", "JavaScript", "OpenCode 插件"],
+     "paras": [
+      "让 OpenCode 里的纯文本主模型（GLM-5.2、DeepSeek V4 等）把视觉任务委托给你已有订阅里的视觉模型：便宜的模型负责推理，贵的模型只在需要看图时出场。",
+      "TA 在《How I got 1,300+ Downloads in 24 Hours》里复盘了这个插件在 npm 上 24 小时下载 1,300 多次的过程。README 明确声明它是社区项目，与 OpenCode 官方无关。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "COWMacro", "url": "https://github.com/WeZZard/COWMacro",
+     "meta": ["2023", "Swift 宏"],
+     "paras": [
+      "一个名为 <code>@COW</code> 的 Swift 宏：把 struct 改成写时复制语义，复制性能提升 N 倍，N 是 struct 里堆存储的数量。比如一个包含 String、Array、Set、Dictionary 的 struct，复制性能可以提升 4 倍。"
+     ],
+     "facts": [["GitHub", "★47"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["WeZZard Skills", "2026", "Claude Code 插件市场：Amplify、Attune（把奥威尔的写作规则注入每次会话）、Cupertino Taste（从 WWDC 提炼的设计品味）"],
+      ["toll-free-harness", "2026", "本地编程 Agent 的交互式 PTY harness"],
+      ["minelogue", "2026", "从编程 Agent 会话日志里挖出时间线、对话和交叉检验"],
+      ["Rubberdux", "2026", "Rust 写的中心化 Agent，管理上下文、记忆并分派任务"],
+      ["CTVFL", "2019", "编译期检查的 Auto Layout Visual Format Language"],
+      ["ObjCGraft", "2018", "Objective-C / Swift 的面向切面编程框架"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://wezzard.com",
-      "paras": [
-       "博客「Pieces of My Soul」用 Gatsby 构建，文章带分类与标签，最近的几篇是《J-Space Reveals How Examples Shape Model Behavior》《How I got 1,300+ Downloads in 24 Hours》《I Gave GLM-5.2 Eyes》。",
-       "Profile 页列出 TA 喜爱的书：《聪明的投资者》《具体数学》《SICP》《A Discipline of Programming》《Engineering a Compiler》。"
-      ]
-     }
-    }
+    {"site": {"url": "https://wezzard.com", "paras": [
+     "博客叫「Pieces of My Soul」（灵魂的碎片），用 Gatsby 构建，托管在 Cloudflare。首页按时间列出文章，每篇带分类与标签；顶部只有 GitHub、Stack Overflow、Email 和 Feed 四个链接。",
+     "另一个站点 skills.wezzard.com 的口号是「Craft with Intention」，用 Astro 构建，列出 TA 的 Claude Code 技能，并给出两行安装命令。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["主题", "Swift / SwiftUI / LLVM → AI Agent → 可解释性"],
+      ["语言", "英文为主，中文版发在微信公众号"],
+      ["深度", "多为长文，常从一个具体问题追到底层原因"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "WeZZard 的文章常从一个很具体的「墙」开始：比如调 Claude 的英文输出风格时，明明给了「不要用行话」的规则，它还是会滑回行话。TA 没有停在提示词技巧上，而是去模型内部找原因。<strong>这是工程师与设计师的共同直觉：真正的问题在结构里。</strong>"
-    },
-    {
-     "p": "从工业设计到编译器，再到可解释性，TA 一直在研究「形式如何决定行为」：一个产品的外形、一门语言的语法、一组示例对模型的塑造。"
-    }
+    {"posts": [
+     {"date": "2026-07-20", "title": "J-Space Reveals How Examples Shape Model Behavior", "url": "https://wezzard.com"},
+     {"date": "2026-07-03", "title": "How I got 1,300+ Downloads in 24 Hours", "url": "https://wezzard.com"},
+     {"date": "2026-06-29", "title": "I Gave GLM-5.2 Eyes", "url": "https://wezzard.com"},
+     {"date": "2026-05-29", "title": "How I Built The Dynamic Workflow 4 Months Before Anthropic", "url": "https://wezzard.com"},
+     {"date": "2025-03-09", "title": "When the Swift Compiler Deleted Code in Stdlib", "url": "https://wezzard.com"},
+     {"date": "2022-03-06", "title": "Unexplained SwiftUI - The Programming Language Nature of SwiftUI", "url": "https://wezzard.com"}
+    ]},
+    {"quote": "I build things with aesthetics.", "cite": "WeZZard，GitHub 个人主页"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["深度", "能从 UI 框架一路追到编译器 pass 和模型内部", "文章门槛较高，需要相当的背景知识"],
+      ["跨界", "工业设计训练带来对形式与结构的敏感", "—"],
+      ["开源", "项目新、更新快，紧跟 Agent 生态", "多数仓库星数不多，部分仍是实验"],
+      ["写作", "长文有完整推理过程", "更新节奏不规律"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>跨界不是浪费：</strong>工业设计的训练，让 TA 对结构和形式格外敏感。",
-      "<strong>深入底层找原因：</strong>从提示词问题追到模型表示。",
-      "<strong>为便宜模型补能力：</strong>组合不同模型，降低使用成本。",
-      "<strong>读经典书：</strong>SICP 和编译原理，永远不过时。"
-     ]
-    }
+    {"checklist": [
+     "<strong>跨界不是浪费：</strong>工业设计的训练，让 TA 对结构和形式格外敏感。",
+     "<strong>追到底层找原因：</strong>从提示词问题一直追到模型的内部表示。",
+     "<strong>组合模型降成本：</strong>便宜模型负责推理，贵模型只在需要时出场。",
+     "<strong>中英双语写作：</strong>英文博客面向世界，中文公众号面向国内读者。",
+     "<strong>读经典书：</strong>SICP 和编译原理，永远不过时。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "jlens 在线演示", "url": "https://jlens.wezzard.com", "why": "直观看到大模型每一层在「想」什么。"},
+     {"name": "WeZZard Skills", "url": "https://skills.wezzard.com", "why": "试试 Attune，让 Agent 按奥威尔的规则写作。"},
+     {"name": "COWMacro", "url": "https://github.com/WeZZard/COWMacro", "why": "看 Swift 宏如何把一个性能优化变成一行注解。"}
+    ]}
    ]
   }
  ],
- "cta": "读读《J-Space Reveals How Examples Shape Model Behavior》。",
+ "cta": "读一篇 WeZZard 的长文，从提示词一路读到模型内部。",
  "sources": [
-  {
-   "label": "WeZZard 的 X 个人资料",
-   "url": "https://x.com/realWeZZard"
-  },
-  {
-   "label": "wezzard.com",
-   "url": "https://wezzard.com"
-  },
-  {
-   "label": "wezzard.com：Profile",
-   "url": "https://wezzard.com/profile"
-  },
-  {
-   "label": "GitHub：WeZZard",
-   "url": "https://github.com/WeZZard"
-  }
+  {"label": "WeZZard 的 X 个人资料", "url": "https://x.com/realWeZZard"},
+  {"label": "Pieces of My Soul", "url": "https://wezzard.com"},
+  {"label": "wezzard.com：Profile", "url": "https://wezzard.com/profile"},
+  {"label": "GitHub：WeZZard", "url": "https://github.com/WeZZard"},
+  {"label": "jlens-qwen36 README", "url": "https://github.com/WeZZard/jlens-qwen36"},
+  {"label": "opencode-vision README", "url": "https://github.com/WeZZard/opencode-vision"},
+  {"label": "WeZZard Skills", "url": "https://skills.wezzard.com"}
  ]
 }

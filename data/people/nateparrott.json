@@ -1,169 +1,169 @@
 {
  "name": "Nate Parrott",
  "role": "Anthropic 设计师 · 前 The Browser Company",
- "title": "Nate Parrott：给软件注入<em>个性</em>的设计师",
- "dek": "大学时期就做出 Mac 上的 Spotlight 插件系统 Flashlight；在 The Browser Company，TA 被认为是 Arc 浏览器「个性与设计」的主要塑造者之一；如今 TA 在 Anthropic 做设计。TA 的个人网站是一个让你点击赚金币、解锁「黄金模式」的游戏。",
- "card": "Flashlight 作者，Arc 浏览器的设计灵魂之一，现于 Anthropic 做设计；网站是个点击游戏。",
+ "title": "Nate Parrott：会写代码、<em>爱开玩笑</em>的设计师",
+ "dek": "TA 读书时做的 Spotlight 插件系统 Flashlight 让 Apple 请 TA 去 Spotlight 团队实习；后来 TA 成为 The Browser Company 的第一位设计师，参与塑造了 Arc 浏览器；如今 TA 在 Anthropic 做设计。TA 的个人网站是一个点击赚金币、解锁「黄金模式」的讽刺游戏。",
+ "card": "Flashlight、Ball、web98 作者；The Browser Company 首位设计师，现在 Anthropic 做设计。",
  "location": "美国纽约布鲁克林",
- "tags": [
-  "交互设计",
-  "原型",
-  "Swift",
-  "AI",
-  "趣味"
- ],
+ "updated": "2026-10-21",
+ "tags": ["交互设计", "原型", "Swift", "AI 实验", "幽默"],
  "links": [
-  {
-   "label": "nateparrott.com",
-   "url": "http://nateparrott.com"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/nate-parrott"
-  }
+  {"label": "nateparrott.com", "url": "https://nateparrott.com"},
+  {"label": "GitHub", "url": "https://github.com/nate-parrott"},
+  {"label": "Flashlight", "url": "https://github.com/nate-parrott/Flashlight"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个用代码做设计、用原型思考的设计师，作品总带着一点荒诞的幽默感。",
-  "<strong>代表作：</strong>Flashlight（2014，「缺失的 Spotlight 插件系统」，★5.3k）、Arc 浏览器（Boosts 等功能）、ball（2024，★1.7k）、web98（幻想互联网模拟器）、feeeed / reeeed（阅读器）、NYC 地铁时间地图、lettercrap（动态 ASCII 艺术）、uhohlingo（「经常完全错误」的 AI 微课）。",
-  "<strong>现在：</strong>X 简介写着「design @ Anthropic，previously @browsercompany」。"
+  "<strong>一句话：</strong>X 简介「design @anthropicai, previously @browsercompany」；GitHub 简介只有「✨ computers 🌴」。TA 是一位用可运行原型思考的设计师。",
+  "<strong>代表作：</strong>Flashlight（★5.3 千）、Ball（★1.7 千）、lettercrap、reeeed / feeeed、web98、纽约地铁时间地图 subway、Infinite App Store。",
+  "<strong>关键数字：</strong>X 关注者约 6.4 万；GitHub 137 个公开仓库；Swift、JavaScript、HTML、Python 各占一大块。",
+  "<strong>一个细节：</strong>在 ShopTalk Show 上，TA 被介绍为「developer, designer, and gamification enthusiast」。"
  ],
- "lead": "Nate 的个人网站叫「Nate Parrott's Nice and Engaging Website」。每次点击得 1 分，攒够 5 枚金币可以下载简历，15 枚可以给 TA 发邮件，24 枚解锁高级光标，200 枚能收到一张寄到家的贴纸。还有一台用 TA 在 Blender 里做的图标组成的老虎机。这是对「指标驱动」互联网最精彩的戏仿。",
+ "lead": "2014 年，OS X Yosemite 刚刚让 Spotlight 变得更好用，一个学生就把它变成了插件平台：天气、翻译、日程、发邮件，全都能在 Spotlight 里完成。这个项目叫 Flashlight。媒体报道，它好到让 Apple 请作者去 Spotlight 团队实习。十年后，这位作者在 Anthropic 做设计。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师兼开发者"],
+     ["现任", "Anthropic，设计"],
+     ["此前", "The Browser Company（Arc 浏览器），首位设计师"],
+     ["早年", "Flashlight 作者；曾在 Apple Spotlight 团队实习（媒体报道）"],
+     ["所在地", "美国纽约布鲁克林"],
+     ["技术栈", "Swift、JavaScript、Python、Objective-C、Blender"],
+     ["代表作", "Flashlight、Ball、web98、reeeed、lettercrap、subway"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Nate 的工作方式是「把想法做成能玩的东西」。在 The Browser Company，TA 参与了 Arc 的设计；业余时间，TA 用 Swift 和 JavaScript 做了大量小实验：AI 现场生成网页的「幻想互联网模拟器」web98、一个住在 Dock 里的小球 Ball、一个经常教错东西的学习 App uhohlingo。"},
+    {"p": "这些作品的共同点是<strong>幽默</strong>和<strong>手感</strong>：它们不一定有用，但会让人想多玩一会儿。"},
+    {"note": "本页依据 nateparrott.com、GitHub 仓库与 README、ShopTalk Show 545 期、Cult of Mac / 9to5Mac / MacStories 2014–2015 年的报道，以及 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2014",
-       "title": "Flashlight",
-       "text": "还在读书时，TA 做了 Flashlight：一个开放的 Spotlight 插件系统，让 Mac 的搜索框可以查天气、算汇率、搜维基，成为当年 Mac 社区的热门项目。"
-      },
-      {
-       "when": "2016–2017",
-       "title": "Web 实验",
-       "text": "lettercrap 在网页上生成动态 ASCII 艺术；NYC subway 是一张按「实际通行时间」调整距离的纽约地铁交互地图；同时用 Jupyter 探索神经网络。"
-      },
-      {
-       "when": "The Browser Company",
-       "title": "Arc",
-       "text": "作为设计师兼开发者参与 Arc 浏览器，在 ShopTalk Show 上讲过 Arc 的历史、Boosts 和商业计划。社区普遍认为 TA 是 Arc「个性与设计」的主要塑造者之一，也是团队里最快速实验 AI 与 Agent 的人。"
-      },
-      {
-       "when": "2022–2023",
-       "title": "AI 原型",
-       "text": "feeeed 阅读器及其开源阅读模式 reeeed、web98「幻想互联网模拟器」（AI 现场生成你想访问的网页）、uhohlingo、OpenAI 流式补全的 Swift 封装。"
-      },
-      {
-       "when": "2024–2025",
-       "title": "Anthropic",
-       "text": "离开 The Browser Company，加入 Anthropic 做设计。同年开源 ball（★1.7k）与 nat 等项目。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2012", "title": "注册 GitHub", "text": "开始在 GitHub 上公开自己的小项目。"},
+     {"when": "2014–2015", "title": "Flashlight", "text": "给 OS X Yosemite 的 Spotlight 加上基于 Python 的插件系统，支持天气、翻译、日程、发邮件、搜图等上百个动作。MacStories 称它是一个非官方的「粗糙 hack」，内存偶尔会暴涨，但 Mac 社区非常喜欢它。"},
+     {"when": "2015", "title": "Apple 实习", "text": "据 Cult of Mac 报道，Flashlight 1.0 让 Apple 请 TA 去 Spotlight 团队实习。TA 对 9to5Mac 说，Apple 觉得 Flashlight「有意思」，但「绝对不是请我来把 Flashlight 做进 OS X」。之后 10.10.4 更新让 Flashlight 失效，项目停止维护。"},
+     {"when": "2016–2017", "title": "Web 实验", "text": "lettercrap 用图片蒙版生成动态 ASCII 艺术；letterdance 让文字在滚动时逐字母过渡；subway 按实际通行时间缩放纽约地铁图；还用 Jupyter 探索神经网络。"},
+     {"when": "The Browser Company", "title": "首位设计师", "text": "TA 在 ShopTalk Show 上说，自己遇到团队前就在做自己的浏览器，后来加入成为公司的第一位设计师，参与了 Arc 的侧边栏、Boosts 等设计。"},
+     {"when": "2022–2023", "title": "AI 原型", "text": "做了阅读器 feeeed 并开源它的阅读模式 reeeed；用 OpenAI 流式补全做了 web98、uhohlingo、sous、chattoys 等实验。"},
+     {"when": "2024–2025", "title": "Anthropic", "text": "离开 The Browser Company，加入 Anthropic 做设计。同期开源 Ball、Infinite App Store 和 nat。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Flashlight",
-       "meta": "2014 · ★5.3k",
-       "text": "The missing Spotlight plugin system：给 Spotlight 加上插件。",
-       "url": "https://github.com/nate-parrott/Flashlight"
-      },
-      {
-       "name": "web98",
-       "meta": "2023 · Swift",
-       "text": "幻想互联网模拟器：输入一个网址，AI 为你生成那个「不存在的网站」。",
-       "url": "https://github.com/nate-parrott/web98"
-      },
-      {
-       "name": "subway",
-       "meta": "2017",
-       "text": "按通行时间缩放距离的纽约地铁交互地图。",
-       "url": "https://github.com/nate-parrott/subway"
-      },
-      {
-       "name": "ball",
-       "meta": "2024 · Swift · ★1.7k",
-       "text": "一个让人忍不住想玩的小项目。",
-       "url": "https://github.com/nate-parrott/ball"
-      }
+    {"work": {
+     "name": "Flashlight", "url": "https://github.com/nate-parrott/Flashlight",
+     "meta": ["2014", "Python / Objective-C", "已停止维护"],
+     "paras": [
+      "「The missing Spotlight plugin system.」用 Python 写插件，就能让 Spotlight 理解「weather in Tokyo」「remind me...」这类命令。它是后来 macOS 启动器生态的先声之一。",
+      "README 顶部写着项目已不再维护，并推荐了一个兼容 El Capitan 和 Sierra 的社区分支。"
+     ],
+     "facts": [["GitHub", "★5,336 · ⑂395"], ["官网", "flashlight.nateparrott.com"]]
+    }},
+    {"work": {
+     "name": "Ball", "url": "https://github.com/nate-parrott/ball",
+     "meta": ["2024", "Swift", "macOS"],
+     "paras": [
+      "「It's a little ball that lives in your dock.」你可以拖它、甩它、用双指扫它，让它在屏幕上弹来弹去，看看能不能撞到角落。README 的结尾是：「It's a ball. It's fun. It's a ball.」"
+     ],
+     "facts": [["GitHub", "★1,700"]]
+    }},
+    {"work": {
+     "name": "web98", "url": "https://github.com/nate-parrott/web98",
+     "meta": ["2023", "Swift", "AI"],
+     "paras": [
+      "「Fantasy internet simulator.」输入任意网址，AI 当场为你生成那个并不存在的网页。它把大模型从「问答工具」变成了一种互联网怀旧游戏。"
      ]
-    }
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["reeeed", "2022", "SwiftUI 阅读模式，来自 feeeed 阅读器（★189）"],
+      ["lettercrap", "2016", "用图片蒙版生成动态 ASCII 艺术（★190）"],
+      ["subway", "2017", "按通行时间缩放距离的纽约地铁图（★145）"],
+      ["uhohlingo", "2023", "「用简短课程自学任何东西，而这些课程经常完全是错的」"],
+      ["Infinite App Store", "2024", "一个「开始菜单」式的 AI 实验"],
+      ["openai-streaming-completions-swift", "2023", "Swift 里的 OpenAI 流式补全（★100）"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://nateparrott.com",
-      "paras": [
-       "「How this site works」：每次点击得分，金币可以解锁内容：简历、邮箱、高级光标、贵宾休息室、作品存档、黄金模式、实体贴纸。",
-       "还有成就系统（「Big Click Energy：点击 100 次」）、一个永远「没有更多问题」的小测验，以及「讨厌这个网站？去另一个摧毁多巴胺的指标驱动网站关注我吧」的社交链接。"
-      ]
-     }
-    },
-    {
-     "p": "这个网站把个人主页变成了一件关于注意力经济的讽刺作品，而它本身又真的很好玩。"
-    }
+    {"site": {"url": "https://nateparrott.com", "paras": [
+     "网站标题是「Nate Parrott's Nice and Engaging Website」。每点一次得 1 分，金币可以解锁内容：5 枚下载简历、15 枚给 TA 发邮件、20 枚高级光标、30 枚作品存档、56 枚「黄金模式」、200 枚寄一张实体贴纸。",
+     "还有成就系统（「Reading Rainbow：阅读 5 篇内容」）、用 Blender 做的图标老虎机，以及这样的社交链接：「讨厌这个网站？去另一个摧毁多巴胺的指标驱动网站关注我吧。」整个网站是一件关于注意力经济的讽刺作品，而它本身又真的很好玩。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Gatsby + React，托管在 GitHub Pages"],
+      ["交互", "点击计分、金币解锁、成就、老虎机"],
+      ["态度", "用游戏化讽刺「指标驱动」的互联网"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "设计观点",
    "blocks": [
-    {
-     "p": "Nate 的设计方法是<strong>「用可运行的原型思考」</strong>。TA 几乎所有想法都会被做成能点、能玩的东西，再决定值不值得继续。这也是 Arc 团队快速迭代文化的缩影。"
-    },
-    {
-     "p": "TA 的作品还有一个共同点：<strong>幽默</strong>。uhohlingo 的描述是「用简短的数字课程教会自己任何东西，而这些课程经常完全是错的」。在一个人人都在严肃谈论 AI 的时代，TA 提醒我们软件也可以好笑。"
-    }
+    {"p": "在 ShopTalk Show 545 期，TA 讲了 Arc 的几个设计决定：侧边栏放在左边，因为放右边的原型让用户把鼠标移过太多空白；「我们把标签页看作新的文件」，所以标签可以重命名、文件夹能跨会话保留；访问 localhost 时自动开启开发者模式，这来自对 Web 开发者用户的调研。"},
+    {"quote": "We think of tabs as the new files.", "cite": "Nate Parrott，ShopTalk Show 545"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["原型", "想法很快变成能玩的东西", "很多实验停留在原型阶段"],
+      ["设计", "有个性、有幽默感，参与塑造了 Arc", "在 Arc 的具体分工外界只能看到一部分"],
+      ["开源", "作品有趣，README 也好读", "Flashlight 等早期项目已不再维护"],
+      ["写作", "网站本身就是观点", "长文较少，观点多散落在社交媒体和播客"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>设计师也写代码：</strong>原型是最好的设计文档。",
-      "<strong>给产品一个性格：</strong>Arc 被记住，是因为它有态度。",
-      "<strong>用幽默批评：</strong>点击赚金币的网站，比一篇长文更能说明问题。",
-      "<strong>快速实验新技术：</strong>AI 出现时，TA 是最早用它做出有趣东西的人之一。"
-     ]
-    }
+    {"checklist": [
+     "<strong>设计师也写代码：</strong>可运行的原型是最好的设计文档。",
+     "<strong>作品就是简历：</strong>一个学生项目让 Apple 主动找上门。",
+     "<strong>给软件一点性格：</strong>Arc 被人记住，是因为它有态度。",
+     "<strong>用幽默表达批评：</strong>点击赚金币的网站，比一篇长文更能说明问题。",
+     "<strong>新技术出现时先玩起来：</strong>web98、uhohlingo 都是对 AI 的好奇心实验。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "nateparrott.com", "url": "https://nateparrott.com", "why": "点几下，赚几枚金币，看看你能不能解锁黄金模式。"},
+     {"name": "Ball", "url": "https://github.com/nate-parrott/ball", "why": "在 Dock 里养一个球，体会什么叫「手感」。"},
+     {"name": "ShopTalk Show 545", "url": "https://shoptalkshow.com/545/", "why": "听 TA 讲 Arc 的设计决定。"}
+    ]}
    ]
   }
  ],
- "cta": "打开 nateparrott.com，看看你能不能解锁黄金模式。",
+ "cta": "去 nateparrott.com 点一百下，解锁「Big Click Energy」成就。",
  "sources": [
-  {
-   "label": "Nate Parrott 的 X 个人资料",
-   "url": "https://x.com/nateparrott"
-  },
-  {
-   "label": "nateparrott.com",
-   "url": "http://nateparrott.com"
-  },
-  {
-   "label": "GitHub：nate-parrott",
-   "url": "https://github.com/nate-parrott"
-  },
-  {
-   "label": "ShopTalk Show 545：Arc Browser with Nate Parrott",
-   "url": "https://shoptalkshow.com/545/"
-  },
-  {
-   "label": "Product Hunt：Arc's designer has left for Anthropic",
-   "url": "https://www.producthunt.com/p/arc-browser/nate-parrott-arc-s-designer-has-left-for-anthropic"
-  }
+  {"label": "Nate Parrott 的 X 个人资料", "url": "https://x.com/nateparrott"},
+  {"label": "nateparrott.com", "url": "https://nateparrott.com"},
+  {"label": "GitHub：nate-parrott", "url": "https://github.com/nate-parrott"},
+  {"label": "ShopTalk Show 545：Arc Browser with Nate Parrott", "url": "https://shoptalkshow.com/545/"},
+  {"label": "MacStories：Flashlight Extends OS X Yosemite's Spotlight with Plugins", "url": "https://www.macstories.net/mac/flashlight-extends-os-x-yosemites-spotlight-with-plugins/"},
+  {"label": "Michael Tsai：Flashlight Brightens Up Spotlight in Yosemite", "url": "https://mjtsai.com/blog/?p=11781"},
+  {"label": "Product Hunt：Arc's designer has left for Anthropic", "url": "https://www.producthunt.com/p/arc-browser/nate-parrott-arc-s-designer-has-left-for-anthropic"}
  ]
 }
