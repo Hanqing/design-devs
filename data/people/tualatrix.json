@@ -1,191 +1,218 @@
 {
- "name": "图拉鼎 Tualatrix Chou",
+ "name": "图拉鼎",
  "role": "独立开发者 · Mac / iOS 应用作者",
  "title": "图拉鼎：从 Ubuntu Tweak 到<em>二十年独立开发</em>",
- "dek": "大学时写的 Ubuntu Tweak 曾是 Ubuntu 必装软件；之后十几年，他做了 Manico、One Switch、效率控、PasteNow、MarkMark、PopTranslate。一个住在杭州良渚的独立开发者，把每一次低谷和恢复都写进了博客。",
- "card": "Ubuntu Tweak、Manico、PasteNow、PopTranslate 作者，杭州良渚的资深独立开发者。",
+ "dek": "大学时写的 Ubuntu Tweak 曾是 Ubuntu 必装软件；之后十几年，他做了 Manico、One Switch、效率控、PasteNow、MarkMark、PopTranslate。一个住在杭州良渚的独立开发者，坚持登记工作时间，也把每一次低谷和恢复都写进了博客。",
+ "card": "Ubuntu Tweak、Manico、PasteNow、PopTranslate 的作者；杭州图拉鼎科技的独立开发者。",
  "location": "中国杭州良渚",
- "tags": [
-  "macOS",
-  "iOS",
-  "独立开发",
-  "Linux",
-  "博客"
- ],
+ "updated": "2026-10-21",
+ "tags": ["macOS", "iOS", "效率工具", "独立开发", "Linux"],
  "links": [
-  {
-   "label": "博客 imtx.me",
-   "url": "https://imtx.me"
-  },
-  {
-   "label": "PasteNow",
-   "url": "https://pastenow.app"
-  },
-  {
-   "label": "PopTranslate",
-   "url": "https://imtx.me/poptranslate/"
-  },
-  {
-   "label": "Manico",
-   "url": "https://manico.im"
-  }
+  {"label": "imtx.me", "url": "https://imtx.me"},
+  {"label": "PasteNow", "url": "https://pastenow.app"},
+  {"label": "Manico", "url": "https://manico.im"},
+  {"label": "PopTranslate", "url": "https://imtx.me/poptranslate/"}
  ],
  "summary": [
-  "<strong>一句话：</strong>中文独立开发圈最资深的人之一，2007 年起做开源，2013 年起做 Mac 应用，至今仍在一款一款地做。",
-  "<strong>代表作：</strong>Ubuntu Tweak（2007）、Manico（2013）、奇点 for 微博（2015）、效率控 / One Switch（2019）、Moment（2020）、PasteNow（2021）、MarkMark（2024）、PopTranslate（2025）。",
-  "<strong>为什么值得关注：</strong>他坦诚地写下独立开发者的疲倦、低谷与恢复，并坚持记录工作时间，让「做产品」变得可以被量化与反思。"
+  "<strong>一句话：</strong>从 2007 年的开源 Linux 工具起步，2013 年转向 Mac，此后十多年专做小而专注、尊重系统习惯的效率工具。如今和做产品经理兼设计师的太太一起，以杭州图拉鼎科技的名义开发产品。",
+  "<strong>代表作：</strong>Ubuntu Tweak（2007）、Manico（2013，至今 v3.14）、效率控与 One Switch（2019）、PasteNow（2021）、MarkMark（2024）、PopTranslate（2025）。",
+  "<strong>关键数字：</strong>X 关注者约 11.3 万，发了 11 万多条推文；2021 年他 47.55% 的工作时间花在 PasteNow 上。",
+  "<strong>自我介绍：</strong>「新晋奶爸，生活在杭州良渚的开发者。」"
  ],
- "lead": "图拉鼎的 X 简介很短：「新晋奶爸，生活在杭州良渚的开发者。」他的博客从 2007 年一直写到今天，页脚写着「Copyright © 2007-2026」。这十九年，几乎就是中文独立开发史的一个缩影。",
+ "lead": "图拉鼎有一个坚持了好几年的习惯：登记自己的工作时间。所以在 PasteNow 两周年时，他能给出精确的数字：2021 年他 47.55% 的工作时间花在 PasteNow 上，One Switch 是 4.41%，Manico 是 3.32%。很少有独立开发者会这样诚实地面对「时间都去哪了」。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者；App Store 开发者主体为杭州图拉鼎科技有限公司（Hangzhou Tulading Technology Co., Ltd.）"],
+     ["所在地", "中国杭州良渚"],
+     ["起步", "2007 年大学期间开发开源项目 Ubuntu Tweak；GitHub 账号 2008 年注册"],
+     ["代表作", "Manico、One Switch、效率控、Moment、PasteNow、MarkMark、PopTranslate、In Translator"],
+     ["技术栈", "早年 Python / GTK（Linux 桌面）；之后 Swift / Objective-C（macOS、iOS）；PasteNow 官网用 Tailwind + Cursor 辅助编写"],
+     ["合作方式", "2025 年起与太太（产品经理 + 设计师）搭档"],
+     ["关键数字", "X 关注者约 11.3 万、推文 11 万多条；PasteNow 在 Mac App Store 自述评分 4.6 / 5"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "图拉鼎的产品几乎都在做同一件事：<strong>把 macOS 已有的能力，用更顺手的方式交给用户</strong>。Manico 让你用 Option + 数字键直接切换 App；One Switch 把隐藏桌面、深色模式等二十多个系统操作做成开关；PasteNow 增强的是系统级剪贴板；PopTranslate 让你在任何应用里选中文字就能翻译、解释或改写。"},
+    {"p": "他的博客则记录了一个独立开发者真实的节奏：精确的时间分配、一次花了一年多的产品立项、疲倦与「开新坑」、和太太的合作磨合，以及去 Apple Park 参加 WWDC25。"},
+    {"note": "本页依据 imtx.me（含 About 与博客文章）、各产品官网、App Store 和 GitHub 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2007",
-       "title": "Ubuntu Tweak",
-       "text": "大学时期开始做的开源项目，让普通用户轻松配置 Ubuntu 系统与桌面，一度成为 Ubuntu 上的必装软件。他也在那段时间写过 Fcitx 输入法的 GTK 前端、OpenVPN 指示器和 Gentoo overlay。"
-      },
-      {
-       "when": "2013",
-       "title": "Manico",
-       "text": "转向 macOS，发布小巧易用的应用快速启动与切换工具 Manico。"
-      },
-      {
-       "when": "2015",
-       "title": "奇点 for 微博",
-       "text": "为 iOS 设计的第三方微博客户端，带来「不一般的刷微博体验」，后因平台原因下架。"
-      },
-      {
-       "when": "2019–2020",
-       "title": "效率控、One Switch、Moment",
-       "text": "效率控聚合二十多个实用小工具（图片压缩、打码、PDF 水印），One Switch 把隐藏桌面、切换深色模式等做成开关，Moment 记录日程与时间进度。"
-      },
-      {
-       "when": "2021",
-       "title": "PasteNow",
-       "text": "增强系统剪贴板的 Mac 应用，次年推出 iOS 版。两周年时他根据坚持多年的工作时间登记，给出了在这款产品上投入的精确时长。"
-      },
-      {
-       "when": "2023",
-       "title": "低谷后的恢复",
-       "text": "年终总结的标题是《向外连接与恢复成长的一年》。他写道，这一年在经历低谷之后重新与外界建立连接，随后「一系列惊喜的事情接连不断地发生」。"
-      },
-      {
-       "when": "2024–2025",
-       "title": "MarkMark 与 PopTranslate",
-       "text": "MarkMark 做「稍后读」与网络收藏夹；做得疲倦后，他把「开新坑」当作「心灵按摩」，于 2025 年 3 月发布了 AI 翻译工具 PopTranslate，并去 Apple Park 参加了 WWDC25。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2007–2008", "title": "Ubuntu Tweak", "text": "大学期间开始做的开源项目，让普通用户轻松配置 Ubuntu 系统与桌面，一度成为 Ubuntu 上的必装软件。同期还写了 Gentoo overlay 和一个 Google Reader 客户端 lazy-reader。"},
+     {"when": "2010–2012", "title": "Linux 桌面工具", "text": "注册 X（至今 11 万多条推文）；写了 OpenVPN 指示器、Fcitx 输入法的 GTK 前端、Chrome 的 Linux 原生通知插件，也做过一些 Django 应用。"},
+     {"when": "2013.10", "title": "转向 Mac：Manico", "text": "发布小巧易用的 App 启动与切换工具 Manico，至今仍在维护，2026 年 8 月更新到 v3.14。"},
+     {"when": "2015", "title": "奇点 for 微博", "text": "为 iOS 设计的第三方微博客户端，「不一般的刷微博体验」，后来下架。"},
+     {"when": "2019–2020", "title": "效率控、One Switch、Moment、In Translator", "text": "效率控聚合二十多个小工具（缩小图片、打码、PDF 水印）；One Switch 是快捷开关；Moment 记录日程和时间进度。In Translator 最早是给太太翻译网页用的 Safari 插件，2020 年底变成原生翻译工具。"},
+     {"when": "2021.04", "title": "PasteNow", "text": "增强系统剪贴板的 Mac 应用，次年推出 iOS 版。这是他第一次在写代码前先写需求文档、用 Figma 画到接近高保真的原型图。"},
+     {"when": "2023", "title": "低谷与恢复", "text": "年终总结的标题是《向外连接与恢复成长的一年》：经历低谷后重新与外界建立连接，随后「一系列惊喜的事情接连不断地发生」。"},
+     {"when": "2024", "title": "MarkMark 与疲倦", "text": "「稍后读 + 网络收藏夹」工具 MarkMark 从立项到发布花了一年多，3 月「赶鸭子上架式」发布后，他耗尽了耐心。于是写下《把「开新坑」作为「心灵按摩」》。6 月，太太设计的 PasteNow 官网上线，支持支付宝和 Stripe 购买。"},
+     {"when": "2025", "title": "PopTranslate 与 WWDC25", "text": "太太从大厂离职，两人开始一起做产品。3 月发布「AI First、macOS Native」的翻译工具 PopTranslate；6 月去 Apple Park 参加 WWDC25。"},
+     {"when": "2026", "title": "新晋奶爸", "text": "X 简介更新为「新晋奶爸，生活在杭州良渚的开发者」；PasteNow 持续迭代到 2.35 版。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "PopTranslate",
-       "meta": "2025 · macOS",
-       "text": "面向 macOS 的 AI 翻译工具，也是他走出疲倦期、找到新方向的作品。",
-       "url": "https://imtx.me/poptranslate/"
-      },
-      {
-       "name": "PasteNow",
-       "meta": "2021 · macOS / iOS",
-       "text": "把系统剪贴板变得更高效，持续迭代至今。",
-       "url": "https://pastenow.app"
-      },
-      {
-       "name": "Manico",
-       "meta": "2013 · macOS",
-       "text": "小巧的 App 启动与切换工具，很多 Mac 用户的第一个效率工具。",
-       "url": "https://manico.im"
-      },
-      {
-       "name": "Ubuntu Tweak",
-       "meta": "2007 · Python · 开源",
-       "text": "曾经的 Ubuntu 必装软件，他独立开发生涯的起点。",
-       "url": "https://github.com/tualatrix/ubuntu-tweak"
-      }
+    {"work": {
+     "name": "PasteNow", "url": "https://pastenow.app",
+     "meta": ["2021", "macOS + iOS", "原生剪贴板工具"],
+     "paras": [
+      "「Maximize the power of Copy & Paste.」一个注重隐私和简洁的原生剪贴板工具：拖放收集与取用、iCloud 同步、全键盘操作与自定义快捷键、按条件自动归类的智能列表、按应用设置的排除规则、空格预览与右键编辑。",
+      "它也是图拉鼎「有图纸的项目」：开发前他克制住写代码的欲望，先写需求文档，再用自己不熟悉的 Figma 画原型，一直画到接近高保真，「后来产品的样子基本上就是照着原型图去实现的」。"
+     ],
+     "facts": [["首发", "2021-03-17（App Store）"], ["最新", "v2.35（2026-10）"], ["系统要求", "macOS 14.6 / iOS 17.6+"], ["官网", "2024-06 上线，支付宝 / Stripe"]]
+    }},
+    {"work": {
+     "name": "Manico", "url": "https://manico.im",
+     "meta": ["2013", "macOS", "启动与切换"],
+     "paras": [
+      "默认用 Option + 数字键启动或切换到对应的 App，不再需要 Command+Tab 一个个遍历，也不用去程序坞里找；用久了就会形成肌肉记忆。支持三种模式：Dock 模式（映射程序坞）、切换器模式（映射已打开的 App）、自定义模式（任意 App、任意快捷键）。",
+      "细节上很体贴：可以开启「静默模式」在某些 App 里不打扰；「用量」图表告诉你每天调用了多少次 App；FAQ 里还专门解释了如果需要输入 Option + 数字原本对应的 ™、£ 等字符该怎么办。14 天免费试用，一个许可证可在三台设备上激活。"
+     ],
+     "facts": [["首发", "2013-10-17"], ["版本", "v3.14（2026-08）"], ["授权", "单用户最多 3 台设备"]]
+    }},
+    {"work": {
+     "name": "PopTranslate", "url": "https://imtx.me/poptranslate/",
+     "meta": ["2025.03", "macOS", "AI First"],
+     "paras": [
+      "「一款默认使用 AI 引擎、设计精美、灵活快速、随叫随到的原生翻译工具。」在 Mac 上任何能选中的文本上弹出工具栏，就能翻译、解释或重写；也可以像普通 App 一样从状态栏打开。",
+      "「重写」功能来自他自己的需求：他日常要用英文邮件和海外用户沟通，不想用中翻英，而是自己先用英文写一遍，再让 AI 完善，「我相信这能提升我的英语应用水平」；加上 macOS 的 Writing Tools 迟迟没有登陆国行 Mac，于是他把重写整合进了翻译工具。它的前身就是那个为太太翻译网页而做的 In Translator。"
+     ],
+     "facts": [["App Store", "2025-05（开发者署名 Tutu Studio）"], ["定位", "翻译 · 解释 · 重写"]]
+    }},
+    {"h3": "全部作品与状态"},
+    {"table": {
+     "caption": "据 imtx.me About 页整理",
+     "cols": ["作品", "年份", "平台", "状态"],
+     "rows": [
+      ["Ubuntu Tweak", "2007", "Linux", "已停止维护"],
+      ["Manico", "2013", "macOS", "维护中"],
+      ["奇点 for 微博", "2015", "iOS", "已下架"],
+      ["效率控", "2019", "iOS / macOS（2020）", "维护中"],
+      ["One Switch", "2019", "macOS", "仍在更新"],
+      ["In Translator", "2019", "macOS", "内部自用，顺带对外发布"],
+      ["Moment", "2020", "macOS", "维护中"],
+      ["PasteNow", "2021", "macOS / iOS", "持续开发"],
+      ["MarkMark", "2024", "—", "积极迭代"],
+      ["PopTranslate", "2025", "macOS", "当前重点"]
      ]
-    }
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源时代",
+   "blocks": [
+    {"p": "他的 GitHub（2008 年注册）几乎是一部 Linux 桌面时代的考古现场：语言分布以 Python 为主，大多是 2008–2016 年的仓库。转向 Mac 之后，他的产品都是闭源商业软件。"},
+    {"table": {
+     "cols": ["仓库", "★", "时间", "说明"],
+     "rows": [
+      ["ubuntu-tweak", "697", "2009–2019", "Ubuntu 系统配置工具，已归档"],
+      ["fcitx-gimpanel", "42", "2012", "Fcitx 输入法的 GTK+ 前端"],
+      ["LinuxNativeNotification", "39", "2012", "Chrome 的 Linux 原生通知"],
+      ["vpn-indicator", "26", "2011", "Ubuntu 的 OpenVPN 指示器"],
+      ["gentoo", "11", "2008", "个人 Gentoo overlay"],
+      ["lazy-reader", "9", "2008", "给懒人用的 Google Reader 客户端"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://imtx.me",
-      "paras": [
-       "站名「I'm TualatriX」，导航直接放了三款在售产品：PopTranslate、Manico、PasteNow。文章分为 Featured、Life、Products、Reading、Technical、Tips and Tricks。",
-       "网站架设在 Linode 上，About 页面用一份清单列出了他从 2007 年到 2025 年的全部主要作品及其状态（维护中、已下架、积极迭代中）。"
-      ]
-     }
-    },
-    {
-     "p": "博客最打动人的是那些不只关于产品的文章：《忆奶奶与我的二三事》、iPad mini 6 一年体验、M3 Max MacBook Pro 的选购思考。它让人看到一个完整的人，而不只是一个开发者。"
-    }
+    {"site": {"url": "https://imtx.me", "paras": [
+     "站名「I'm TualatriX」，导航直接放了三款在售产品：PopTranslate、Manico、PasteNow，再加一个 About。文章分为 Featured、Life、Products、Reading、Technical、Tips and Tricks。",
+     "About 页用一份清单列出他从 2007 年到 2025 年的全部主要作品，每一款都标明状态：维护中、已下架、仍在开发。坦诚地面对用户，也是对自己十几年工作的一次梳理。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "架设在 Linode 上（About 页说明）；产品官网走 Cloudflare"],
+      ["统计", "Umami（注重隐私的开源统计）"],
+      ["订阅", "FeedBurner RSS"],
+      ["产品官网", "PasteNow 官网由太太设计；Manico 官网是一页完整的说明书 + FAQ"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "图拉鼎的产品都有一种「Mac 原生」的克制：小、专注、尊重系统习惯。Manico 和 One Switch 都是把系统已有的能力用更顺手的方式暴露出来，PasteNow 的定位是「增强系统级剪贴板的体验」。"
-    },
-    {
-     "callout": "过去一周我在做一个新产品（AKA 开新坑），做这个新产品背后有很多契机，最重要的一个原因是：做 MarkMark 疲倦了。",
-     "t": "把「开新坑」作为「心灵按摩」"
-    },
-    {
-     "p": "他对独立开发者心理状态的诚实记录，可能比任何一款产品都更有价值。疲倦、低谷、恢复，是每个长期做产品的人都要面对的循环。"
-    }
+    {"posts": [
+     {"date": "2025-07-23", "title": "记「乾坤大挪移」式使用双系统", "url": "https://imtx.me/blog/", "note": "WWDC25 期间在 Apple Park 直接把工作电脑升级到 macOS 26 Beta。"},
+     {"date": "2025-03-21", "title": "开发 PopTranslate 背后的故事", "url": "https://imtx.me/blog/the-story-behind-the-development-of-poptranslate/", "note": "从疲倦中走出来、和太太一起找到新方向的故事。"},
+     {"date": "2024-04-28", "title": "把「开新坑」作为「心灵按摩」", "url": "https://imtx.me/blog/"},
+     {"date": "2023-12-31", "title": "2023 年总结：向外连接与恢复成长的一年", "url": "https://imtx.me/blog/"},
+     {"date": "2023-11-27", "title": "忆奶奶与我的二三事", "url": "https://imtx.me/blog/"},
+     {"date": "2023-04-10", "title": "PasteNow 两周年随感", "url": "https://imtx.me/blog/pastenow-two-years-old/", "note": "用工作时间登记数据回顾投入，并反思「有图纸的项目」。"}
+    ]},
+    {"h3": "从他的文章里能读到的几件事"},
+    {"ul": [
+     "<strong>先画图纸，再写代码。</strong>他坦言做新产品卡住时，根本原因是「又回到了边想边写边用的老路，这是一个很『程序员』的做法」。",
+     "<strong>允许自己疲倦。</strong>战线过长会耗尽耐心；开一个新坑，也可以是恢复精力的方式。",
+     "<strong>「天然搭档」不等于「完美搭档」。</strong>程序员和产品经理兼设计师的组合需要磨合，他们从官网这样的小项目开始分工。",
+     "<strong>从自己的需求出发。</strong>In Translator 为太太翻网页而生，PopTranslate 的重写功能为自己写英文邮件而生。"
+    ]},
+    {"quote": "如果当时我的职业是一个产品经理兼设计师，然后我把文档和设计稿交给程序员的话，程序员一定会很开心——因为我没有乱改需求或加需求了。", "cite": "图拉鼎，《PasteNow 两周年随感》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "Mac 原生、克制、尊重系统习惯；单品寿命长（Manico 维护了 13 年）", "产品线较多，精力分散时会影响迭代节奏（他自己也写过）"],
+      ["商业", "多款付费产品，官网支持国内外支付", "PasteNow 在美区 App Store 评分 3.69（36 个评分），口碑在不同市场有差异"],
+      ["写作", "坦诚记录时间、疲倦和恢复，非常有参考价值", "博客更新不规律，2024 年一整年几乎没有更新"],
+      ["合作", "与太太组成「程序员 + 产品设计」的完整小团队", "两人团队抗风险能力有限"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从他身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>记录工作时间：</strong>用数据回顾投入，而不是凭感觉。",
-      "<strong>允许自己换方向：</strong>开新坑也可以是恢复精力的方式。",
-      "<strong>做平台原生的好公民：</strong>增强系统能力，而不是另起炉灶。",
-      "<strong>把作品清单公开维护：</strong>哪些在维护、哪些已停止，坦诚面对用户。"
-     ]
-    }
+    {"checklist": [
+     "<strong>登记工作时间：</strong>用数据回顾投入，而不是凭感觉。",
+     "<strong>先写需求、画原型：</strong>给自己当一次产品经理，能少走很多弯路。",
+     "<strong>允许自己换方向：</strong>开新坑也可以是恢复精力的方式。",
+     "<strong>做平台原生的好公民：</strong>增强系统能力，而不是另起炉灶。",
+     "<strong>公开维护作品清单：</strong>哪些在维护、哪些已停止，坦诚面对用户。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "PasteNow 两周年随感", "url": "https://imtx.me/blog/pastenow-two-years-old/", "why": "看一个独立开发者如何用工作时间数据复盘，以及为什么要「有图纸」。"},
+     {"name": "开发 PopTranslate 背后的故事", "url": "https://imtx.me/blog/the-story-behind-the-development-of-poptranslate/", "why": "关于疲倦、合作和找到新方向，写得非常真诚。"},
+     {"name": "Manico", "url": "https://manico.im", "why": "如果你习惯键盘操作，试用 14 天，体会「Option + 数字」带来的肌肉记忆。"}
+    ]}
    ]
   }
  ],
- "cta": "试试 PasteNow 或 PopTranslate，或者读读他的 2023 年终总结。",
+ "cta": "试一试 Manico 或 PasteNow，然后读一读他写的那些幕后故事。",
  "sources": [
-  {
-   "label": "图拉鼎的 X 个人资料",
-   "url": "https://x.com/tualatrix"
-  },
-  {
-   "label": "博客 imtx.me",
-   "url": "https://imtx.me"
-  },
-  {
-   "label": "imtx.me About",
-   "url": "https://imtx.me/about/"
-  },
-  {
-   "label": "GitHub：tualatrix",
-   "url": "https://github.com/tualatrix"
-  },
-  {
-   "label": "开发 PopTranslate 背后的故事",
-   "url": "https://imtx.me/blog/the-story-behind-the-development-of-poptranslate/"
-  }
+  {"label": "图拉鼎的 X 个人资料", "url": "https://x.com/tualatrix"},
+  {"label": "博客 imtx.me", "url": "https://imtx.me"},
+  {"label": "imtx.me About（作品清单）", "url": "https://imtx.me/about/"},
+  {"label": "开发 PopTranslate 背后的故事", "url": "https://imtx.me/blog/the-story-behind-the-development-of-poptranslate/"},
+  {"label": "PasteNow 两周年随感", "url": "https://imtx.me/blog/pastenow-two-years-old/"},
+  {"label": "PasteNow 官网", "url": "https://pastenow.app"},
+  {"label": "Manico 官网", "url": "https://manico.im"},
+  {"label": "App Store：PasteNow", "url": "https://apps.apple.com/us/app/pastenow-instant-clipboard/id1552536109"},
+  {"label": "App Store：Manico", "url": "https://apps.apple.com/us/app/manico/id724472954"},
+  {"label": "GitHub：tualatrix", "url": "https://github.com/tualatrix"}
  ]
 }

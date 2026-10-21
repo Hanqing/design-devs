@@ -1,152 +1,176 @@
 {
- "name": "海辛 Ring Hyacinth",
+ "name": "海辛",
  "role": "AI 艺术家 · 实验电影导演 · 摇摆舞者",
- "title": "海辛：一只<em>油光水滑的猹</em>，和 AI 一起拍电影",
- "dek": "TA 是实验电影导演，也是中文世界最早一批把 AI 用进影像创作的人：AI 转绘、实验短片、LoRA 模型训练、ComfyUI 工作流、和 AI 一起写小说。TA 的个人网站本身就是一件作品。",
- "card": "AI 艺术家与实验电影导演，擅长 AI 转绘、LoRA 训练与 ComfyUI 工作流。",
+ "title": "海辛：一只油光水滑的猹，和 AI 一起<em>拍电影</em>",
+ "dek": "她从 2018 年开始拍实验短片，在海外影展拿过一长串奖项；2022 年起成为中文世界最早一批把 AI 用进影像创作的人：AI 动画登上央视龙年春晚、拿下北京国际电影节 AIGC 短片单元最佳影片。她曾任 Midjourney 中国社区及内容负责人，现任 MorphStudio 视频产品负责人。",
+ "card": "实验电影导演、AI 艺术家；AI 动画《To Dear Me》获北影节 AIGC 单元最佳影片，曾任 Midjourney 中国社区负责人。",
  "location": "中国",
- "tags": [
-  "AI 艺术",
-  "实验电影",
-  "ComfyUI",
-  "LoRA",
-  "叙事"
- ],
+ "updated": "2026-10-21",
+ "tags": ["AI 影像", "实验电影", "ComfyUI", "LoRA", "教学"],
  "links": [
-  {
-   "label": "个人网站 hyacinth.im",
-   "url": "http://hyacinth.im"
-  }
+  {"label": "hyacinth.im", "url": "http://hyacinth.im"},
+  {"label": "作品年表", "url": "http://hyacinth.im/works"},
+  {"label": "About", "url": "http://hyacinth.im/about"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一位实验电影导演和 AI 创作者，与搭档 Simon（@simonxxoo）合作，把 AI 变成讲故事的新工具。",
-  "<strong>做什么：</strong>AI 风格转绘（把普通视频变成艺术动画）、实验短片、LoRA 模型训练、ComfyUI 工作流定制、与 AI 合写小说。",
-  "<strong>为什么值得关注：</strong>在「设计感开发者」名单里，TA 是那个从艺术一侧走向技术的人，证明了审美与工具可以从两个方向汇合。"
+  "<strong>一句话：</strong>一位横跨电影制作、动画、AI 艺术和教育的导演。她的网站自我介绍是：「Hi，我是海辛，一名实验电影导演，AI 创作者。我还是一只猹，我的皮毛像油光一样滑。」",
+  "<strong>代表作：</strong>AI 动画《To Dear Me》（2024 北京国际电影节 AIGC 短片单元最佳影片）、《枕着光的她》（2024 央视龙年春晚播出）、《AI 绘梦奥运》（巴黎奥运会期间央视频官方展映）、AI 实验动画《Latent Traveler》，以及 2018–2021 年的一系列实验短片。",
+  "<strong>现职与身份：</strong>MorphStudio 视频产品负责人、猫眼电影签约导演、DemoInnShanghai 主理人、第 25 届上海国际电影节创投评委；曾任 Midjourney 中国社区及内容负责人。",
+  "<strong>合作：</strong>X 简介写着「Artist working with @simonxxoo and #AI」，两人共同完成了大量 AI 影像项目，也做过实体玩具。"
  ],
- "lead": "海辛在个人网站上这样介绍自己：「Hi，我是海辛，一名实验电影导演，AI 创作者。我还是一只猹，我的皮毛像油光一样滑。」网站最后一屏写着一句来自《爱丽丝梦游仙境》的谜语：「乌鸦为什么像打字机？」",
+ "lead": "这是本站名单里最「不像开发者」的一页。但海辛的工作方式和这里的每一个开发者都很像：她自己训练 LoRA 模型、自己搭 ComfyUI 工作流，把技术当作画笔，把叙事和想象力放在第一位。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "实验电影导演、AI 艺术家、虚拟艺术家；也是一名摇摆舞者"],
+     ["现职", "MorphStudio 视频产品负责人；猫眼电影签约导演；DemoInnShanghai 主理人"],
+     ["曾任", "Midjourney 中国社区及内容负责人"],
+     ["评审与教学", "第 25 届上海国际电影节创投评委；在清华大学美术学院、北京电影学院等院校教授 AI 艺术与影视制作课程"],
+     ["演讲", "2024 visionOS 开发者大会、阿里巴巴 U 设计周等"],
+     ["技术", "LoRA 模型训练、ComfyUI 工作流定制、AI 转绘（风格迁移）"],
+     ["网站", "hyacinth.im（Framer 搭建，Cloudflare）"]
+    ]},
+    {"h3": "她到底在做什么？"},
+    {"p": "海辛的工作可以分成三层。<strong>创作</strong>：实验短片、AI 动画、AI 小说。<strong>服务</strong>：网站上明码列出的四项能力：AI 视频制作 / 转绘、实验短片、模型训练、ComfyUI 工作流定制。<strong>传播</strong>：在大学授课、在开发者大会演讲、在 Midjourney 和 MorphStudio 这样的 AI 产品里负责社区与内容。"},
+    {"p": "她的特别之处在于：<strong>先有导演，后有 AI</strong>。2018 年到 2021 年，她已经用传统方式拍了一系列实验短片和网剧，在洛杉矶、纽约、蒙特利尔的独立影展上拿过最佳实验电影、最佳剪辑、最佳网剧等奖项。所以当 AI 工具出现时，她知道自己想讲什么故事。"},
+    {"note": "本页依据 hyacinth.im 的 About 与作品年表、X 资料整理，资料截至 2026 年 10 月。网站作品年表更新到 2024 年。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "p": "海辛 2022 年注册 X，正赶上 Stable Diffusion 开源、AI 图像生成爆发的时间点。TA 从影像创作出发进入 AI，很快成为中文社区里少数既懂叙事、又能亲手训练模型和搭工作流的创作者。"
-    },
-    {
-     "steps": [
-      {
-       "when": "影像背景",
-       "title": "实验电影导演",
-       "text": "以实验影像为创作方向，热衷于「编织能抓住想象力的叙事」。"
-      },
-      {
-       "when": "2022–2023",
-       "title": "AI 转绘",
-       "text": "用 AI 对视频进行风格迁移，把普通视频变成艺术动画或视觉独特的作品，应用于影视、广告等领域。"
-      },
-      {
-       "when": "2023–2024",
-       "title": "LoRA 训练与 ComfyUI 工作流",
-       "text": "专注 LoRA 模型训练服务，针对特定数据集深度优化；同时为客户设计 AI 创作与生产工作流，实现自动化的内容生成。"
-      },
-      {
-       "when": "持续",
-       "title": "与 Simon 合作",
-       "text": "X 简介写着「Artist working with @simonxxoo and #AI」，两人共同完成大量 AI 影像项目，也推出过实体玩具等周边。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2018", "title": "实验短片《GALATEA》", "text": "导演、编剧。作品年表的起点。"},
+     {"when": "2019", "title": "实验短片《Abortion Mary》", "text": "导演、编剧、美术设计、剪辑。这一年它在海外影展拿下 Los Angeles Film Awards 最佳实验电影、New York Film Awards 最佳剪辑、Virgin Spring Cinefest 最佳实验电影、Top Shorts 与 Oniros 最佳学生电影等，并在之后几年于柏林、巴黎、成都等地持续展映。"},
+     {"when": "2020", "title": "粘土定格动画", "text": "以女性与身体为主题的定格动画，入选西桃女性短片影展。"},
+     {"when": "2020–2021", "title": "网剧《Tango of Imaginary Friends》", "text": "一部美国连续剧，她任导演、美术设计、剪辑、特效，获 Montreal Independent Film Festival 最佳网剧。同年做了多个院线长片和 FIRST 训练营短片的概念与美术设计。"},
+     {"when": "2022", "title": "转向 AI", "text": "注册 X；担任《这就是街舞 5》开场微电影《敬年轻》的执行导演和概念设计（首集全网热搜 580+）；AI 生成艺术作品在上海外滩 AI 艺术展等展出。"},
+     {"when": "2023", "title": "AI 实验动画《To Eat or Not to Eat》", "text": "在 Runway TV 动画单元展映，获纽约国际电影奖、Oniros Film Awards 的最佳 AI 电影提名。"},
+     {"when": "2024", "title": "春晚、北影节、奥运", "text": "《枕着光的她》在央视龙年春晚播出，相关技术论文被《现代电视技术》收录；《To Dear Me》获北京国际电影节 AIGC 短片单元最佳影片和 REPLY AI Film Festival 最佳影片；《AI 绘梦奥运》在巴黎奥运会期间于央视频官方展映；《Latent Traveler》在伦敦设计节等展出。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "作品方向",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "AI 转绘 Style Transfer",
-       "meta": "01 · 影像",
-       "text": "把实拍视频转换为艺术动画，用于影视与广告。",
-       "url": "http://hyacinth.im"
-      },
-      {
-       "name": "实验短片 Short Film",
-       "meta": "02 · 叙事",
-       "text": "以 AI 为媒介的实验电影创作。",
-       "url": "http://hyacinth.im"
-      },
-      {
-       "name": "模型训练 Model Training",
-       "meta": "03 · LoRA",
-       "text": "为特定风格和角色训练定制化模型。",
-       "url": "http://hyacinth.im"
-      },
-      {
-       "name": "Comfy 工作流定制",
-       "meta": "04 · 生产",
-       "text": "设计并优化 AI 创作与生产的工作流，大幅提升效率。",
-       "url": "http://hyacinth.im"
-      }
+    {"work": {
+     "name": "《To Dear Me》", "url": "http://hyacinth.im/works",
+     "meta": ["2024", "AI 动画", "AI 制作"],
+     "paras": [
+      "这是海辛获奖分量最重的 AI 作品：2024 年北京国际电影节 AIGC 短片单元最佳影片，同年 REPLY AI Film Festival 最佳影片。一部 AI 动画能在国内顶级电影节的专门单元胜出，说明评委看重的不只是技术，更是作品本身的叙事和完成度。"
+     ],
+     "facts": [["北京国际电影节", "AIGC 短片单元 · 最佳影片"], ["REPLY AI Film Festival", "最佳影片"]]
+    }},
+    {"work": {
+     "name": "《枕着光的她》", "url": "http://hyacinth.im/works",
+     "meta": ["2024", "AI 动画", "央视春晚"],
+     "paras": [
+      "在中央电视台 2024 年龙年春晚播出，相关技术论文入选《现代电视技术》2024 年第 5 期。这是 AI 生成内容最早一批进入国家级电视晚会的案例之一，她负责 AI 制作。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "《Latent Traveler》", "url": "http://hyacinth.im/works",
+     "meta": ["2024", "AI 实验动画", "导演 · AI 制作"],
+     "paras": [
+      "片名里的「Latent」指的是生成模型的潜空间。作品在上海插画艺术节独立动画单元、伦敦设计节《未来观》展览、中央美术学院展览和深圳「AI 视觉创意大赛」展览中展映。"
+     ]
+    }},
+    {"work": {
+     "name": "《To Eat or Not to Eat》", "url": "http://hyacinth.im/works",
+     "meta": ["2023", "AI 实验动画", "导演 · 剪辑"],
+     "paras": [
+      "在 AI 视频工具 Runway 的 Runway TV 动画单元展映，获 New York International Film Awards 与 Oniros Film Awards 的最佳 AI 电影提名，2024 年又在上海国际短片周展映。"
+     ]
+    }},
+    {"h3": "网站上列出的四项服务"},
+    {"table": {
+     "cols": ["编号", "服务", "内容"],
+     "rows": [
+      ["01", "AI 视频制作 / 转绘", "用 AI 对实拍视频做风格迁移，变成艺术动画，用于影视和广告"],
+      ["02", "实验短片", "以 AI 为媒介的实验电影创作"],
+      ["03", "模型训练", "为特定风格和角色训练定制化的 LoRA 模型"],
+      ["04", "ComfyUI 工作流定制", "设计并优化 AI 创作与生产工作流，实现自动化的内容生成"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://hyacinth.im",
-      "paras": [
-       "标题「all about Hyacinth」，首屏是不断重复滚动的大字「RING RING RING / HYACINTH HYACINTH HYACINTH」，身份标签是「AI ARTIST, DIRECTOR, SWING DANCER」。",
-       "导航只有 ABOUT、WORKS、TOYS、PRESS 四项；作品按 01–04 编号排列，每项都有中英双语说明和一个「Contact Me」按钮。"
-      ]
-     }
-    },
-    {
-     "p": "这是名单里最「不像开发者」的个人网站：大字排版、重复与韵律、玩笑式的自我介绍，像一张实验电影的海报。它提醒我们：网站也可以是一种表演。"
-    }
+    {"site": {"url": "http://hyacinth.im", "paras": [
+     "标题「all about Hyacinth」。首屏是不断重复滚动的大字「RING RING RING / HYACINTH HYACINTH HYACINTH」，身份标签是「AI ARTIST, DIRECTOR, SWING DANCER」。自我介绍同样重复滚动：「我还是一只猹，我的皮毛像油光一样滑。」",
+     "导航只有 ABOUT、WORKS、TOYS、PRESS 四项。作品页可以在网格和列表之间切换，分为 STYLE TRANSFER、SHORT FILM、Model Training、AI Novel 四类；页尾是一份从 2018 年到 2024 年的完整作品年表，每部作品都标出她的角色和获得的展映、提名、奖项。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Framer 搭建，Cloudflare 托管"],
+      ["排版", "超大字号、重复与滚动，像一张实验电影海报"],
+      ["语言", "中英双语逐句并列"],
+      ["信息架构", "作品按类型分区 + 一份年表，服务按 01–04 编号，每项配「Contact Me」"]
+     ]
+    }},
+    {"callout": "这是名单里最「不像开发者」的个人网站：大字排版、重复与韵律、玩笑式的自我介绍。它提醒我们，网站也可以是一种表演。", "t": "网站即作品"}
    ]
   },
   {
-   "id": "craft",
+   "id": "voice",
    "title": "审美与方法",
    "blocks": [
-    {
-     "quote": "乌鸦为什么像打字机？WHY IS A RAVEN LIKE A WRITING DESK?",
-     "cite": "hyacinth.im 页脚"
-    },
-    {
-     "p": "这个没有标准答案的谜语，大概就是 TA 对 AI 创作的态度：<strong>重要的不是答案，而是提问的方式</strong>。TA 把技术（LoRA、ComfyUI）当作画笔，把叙事和想象力放在第一位。"
-    }
+    {"quote": "乌鸦为什么像写字台？WHY IS A RAVEN LIKE A WRITING DESK?", "cite": "hyacinth.im"},
+    {"p": "这句出自《爱丽丝梦游仙境》的谜语没有标准答案，大概就是她对 AI 创作的态度：重要的不是答案，而是提问的方式。从作品年表也能看出她的几个一贯关注：女性叙事与身体、想象中的朋友、梦与潜空间。AI 只是让这些主题有了新的表现手段。"},
+    {"ul": [
+     "<strong>审美先于工具：</strong>先知道想讲什么故事，再选择模型与工作流。",
+     "<strong>亲手掌握技术：</strong>自己训练模型、搭工作流，才能真正控制风格。",
+     "<strong>在大众媒介和实验影展之间来回：</strong>既能上春晚、做综艺开场，也能在独立影展上做最实验的作品。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["创作", "传统影像功底 + AI 技术，作品获国内外奖项与主流平台播出", "部分早期获奖来自海外独立影展，含金量参差，需具体看奖项"],
+      ["技术", "能亲手训练 LoRA、搭 ComfyUI 工作流", "没有公开的开源代码或模型仓库，技术细节外界难以复现"],
+      ["影响力", "教学、演讲、社区运营多线并进", "网站年表停在 2024 年，近况主要在 X 上"],
+      ["表达", "网站个性鲜明，令人过目不忘", "信息以作品为中心，初访者不易快速了解服务细节"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
-   "title": "可以从 TA 身上学什么",
+   "title": "可以从她身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>审美先于工具：</strong>先知道想讲什么故事，再选择模型与工作流。",
-      "<strong>亲手掌握技术：</strong>艺术家自己训练模型、搭工作流，才能真正控制风格。",
-      "<strong>把服务产品化：</strong>转绘、训练、工作流，每项都是清晰可购买的服务。",
-      "<strong>让网站有性格：</strong>一个好玩的自我介绍胜过十行履历。"
-     ]
-    }
+    {"checklist": [
+     "<strong>审美先于工具：</strong>AI 降低了制作门槛，却放大了「讲什么」的重要性。",
+     "<strong>把作品年表写完整：</strong>每部作品写清角色、展映和奖项，比一句「获奖无数」有说服力得多。",
+     "<strong>把服务产品化：</strong>转绘、训练、工作流，每一项都是清晰可购买的服务。",
+     "<strong>让网站有性格：</strong>一个好玩的自我介绍胜过十行履历。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "hyacinth.im", "url": "http://hyacinth.im", "why": "先感受一下那个会表演的首页。"},
+     {"name": "作品年表", "url": "http://hyacinth.im/works", "why": "从 2018 年的实验短片一路看到 2024 年的 AI 动画。"},
+     {"name": "About", "url": "http://hyacinth.im/about", "why": "了解她在 Midjourney、MorphStudio、高校与影展之间的多重身份。"}
+    ]}
    ]
   }
  ],
- "cta": "打开 hyacinth.im，看看一只猹的作品集。",
+ "cta": "去 hyacinth.im 看看这只猹的作品年表。",
  "sources": [
-  {
-   "label": "海辛的 X 个人资料",
-   "url": "https://x.com/ring_hyacinth"
-  },
-  {
-   "label": "个人网站 hyacinth.im",
-   "url": "http://hyacinth.im"
-  }
+  {"label": "海辛的 X 个人资料", "url": "https://x.com/ring_hyacinth"},
+  {"label": "个人网站 hyacinth.im", "url": "http://hyacinth.im"},
+  {"label": "hyacinth.im About", "url": "http://hyacinth.im/about"},
+  {"label": "hyacinth.im 作品与年表", "url": "http://hyacinth.im/works"}
  ]
 }

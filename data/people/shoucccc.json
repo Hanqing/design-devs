@@ -1,58 +1,203 @@
 {
  "name": "Chaofan Shou",
  "role": "安全研究员 · 程序分析 · AI Infra",
- "title": "Chaofan Shou：一份写满<em>「Things I Broke」</em>的履历",
- "dek": "UCSB 本科、伯克利博士辍学、FuzzLand 联合创始人兼 CTO、漏洞赏金累计 190 万美元。2026 年 3 月 31 日凌晨，他的一条推文让 Claude Code 的源码在全网「被开源」。",
- "card": "FuzzLand 联合创始人、ItyFuzz 作者、漏洞赏金 190 万美元；Claude Code 源码泄露的发现者。",
+ "title": "Chaofan Shou：一份写满「<em>Things I Broke</em>」的履历",
+ "dek": "UCSB 本科、伯克利博士辍学、FuzzLand 联合创始人兼 CTO、漏洞赏金累计 190 万美元。他的主页上列着从 2016 年上海政府网站到 2024 年 Devin.ai 的一长串「搞坏过的东西」。2026 年 3 月 31 日凌晨，他的一条推文让 Claude Code 的源码在全网「被开源」。",
+ "card": "ItyFuzz 作者、FuzzLand 联合创始人兼 CTO；漏洞赏金 190 万美元；Claude Code 源码泄露事件的发现者。",
  "location": "美国西海岸",
- "tags": ["安全", "模糊测试", "程序分析", "Web3", "AI Infra"],
- "links": [{"label": "个人主页 scf.so", "url": "https://scf.so"}],
+ "updated": "2026-10-21",
+ "tags": ["安全研究", "模糊测试", "程序分析", "区块链", "AI Infra"],
+ "links": [
+  {"label": "scf.so", "url": "https://scf.so"},
+  {"label": "ItyFuzz", "url": "https://github.com/fuzzland/ityfuzz"},
+  {"label": "GitHub", "url": "https://github.com/shouc"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>一位顶尖的安全研究员和系统工程师：写论文、做模糊测试工具、创业、挖漏洞，现在转向 AI 基础设施。",
-  "<strong>代表作：</strong>ItyFuzz（ISSTA '23，基于快照的链上智能合约模糊测试器）、FuzzLand（帮助从黑客手中追回 3000 万美元以上，守护超过 50 亿美元资产）、CorbFuzz（ASE '21）。",
-  "<strong>为什么值得关注：</strong>他的个人主页把「我搞坏过什么」当作作品集来展示，这本身就是一种极具个性的设计。"
+  "<strong>一句话：</strong>一个用自动化方法系统性找问题的人：模糊测试、静态分析和程序分析，是他从论文到创业再到漏洞赏金的共同武器。现在他在做 AI 基础设施。",
+  "<strong>代表作：</strong>ItyFuzz（智能合约混合模糊测试器，ISSTA '23，★1.1 千）、CorbFuzz（ASE '21）、FuzzLand（帮助追回 3,000 万美元以上被盗资产）、Hadoop / MongoDB 配置缺陷检测器 daudit。",
+  "<strong>关键数字：</strong>X 关注者约 8.1 万；2020–2022 年漏洞赏金累计 190 万美元（含锁仓代币）；6 篇顶会论文。",
+  "<strong>自我介绍：</strong>X 上写「senior slop engineer」，GitHub 上写「senior script kiddie 🌮」。"
  ],
- "lead": "Chaofan Shou 的 X 简介写着「senior slop engineer」，一个自嘲。但他的个人主页上有一栏叫「Things I Broke」，三十多条记录从 2016 年排到 2024 年：Twitter、百度、网易、CVS、FTX、Etherscan、Devin.ai……读起来像一份反过来的通缉名单。",
+ "lead": "大多数人的作品集展示自己做出了什么；Chaofan Shou 的主页上有一栏叫「Things I Broke」（我搞坏过的东西）：「2023 – Twitter：XSS + CSRF + CSP 绕过，可以接管所有 Twitter 账号」「2019 – 网易：XSS + CSRF，可以接管 10 亿以上账号」。对安全研究员来说，这就是最有说服力的能力证明。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2016–2020", "title": "少年白帽", "text": "2016 年就向上海政府网站报告了上百个 SQL 注入与文件包含漏洞；之后陆续发现百度、网易（可影响十亿级账号）、Gogs 等的安全问题。"},
-    {"when": "本科", "title": "UC Santa Barbara 计算机科学", "text": "在 Tevfik Bultan 教授组参与研究，发表 CorbFuzz（用模糊测试检查浏览器安全策略，ASE '21）、IoT 侧信道缓解（IOT '22）等论文。"},
-    {"when": "毕业后", "title": "Salesforce → Veridise", "text": "在 Salesforce 做安全工程师，负责静态分析（SAST）、内网扫描服务与数据管道；之后在区块链安全公司 Veridise 主导智能合约与区块链自动化测试工具。2020–2022 年的漏洞赏金累计达 190 万美元。"},
-    {"when": "博士", "title": "UC Berkeley Sky Computing Lab", "text": "师从程序分析领域的 Koushik Sen 教授，发表 ItyFuzz（ISSTA '23）。他在主页上轻松地写：「but I dropped out :p」。"},
-    {"when": "2022–2025", "title": "FuzzLand 联合创始人兼 CTO", "text": "与 Jeff Liu 一起创办 Web3 安全与高频交易公司 FuzzLand，用模糊测试和 AI 分析智能合约。2025 年 FuzzLand 被 Solayer 收购，他加入 Solayer 构建高性能 SVM 区块链。"},
-    {"when": "2026", "title": "Claude Code 源码事件与 AI Infra", "text": "3 月 31 日凌晨，他发现 Claude Code 2.1.88 的 npm 包里附带了完整的 source map，随即在 X 上公布，帖子 24 小时内获得数千万次浏览。Anthropic 回应称这是发布打包时的人为失误。目前他转向 AI 基础设施工作。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "ItyFuzz", "meta": "ISSTA '23 · Rust", "text": "基于快照的链上智能合约模糊测试器，大幅提升 DeFi 漏洞发现效率。", "url": "https://github.com/fuzzland/ityfuzz"},
-    {"name": "FuzzLand", "meta": "2022 · 联合创始人 / CTO", "text": "Web3 安全与 HFT 公司，帮助追回 3000 万美元以上被盗资产，守护超 50 亿美元资产。", "url": "https://scf.so"},
-    {"name": "CorbFuzz", "meta": "ASE '21", "text": "用模糊测试检查浏览器安全策略（CORB）的实现缺陷。", "url": "https://scf.so"},
-    {"name": "混合网络遥测查询规划", "meta": "CoNEXT '24", "text": "为鲁棒、可扩展的混合网络遥测系统设计查询规划。", "url": "https://scf.so"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://scf.so", "paras": ["一个纯文字的学术风格主页：一段简短的自我介绍，然后是 Publications、Talks、Things I Broke 三个部分。", "「Things I Broke」又分为 Security Issues 和 Privacy Issues 两组，每一条都写清年份、目标和影响，例如「2023 - Twitter XSS + CSRF + CSP bypass leading to all Twitter accounts take over」。"]}},
-   {"p": "域名 scf.so 只有三个字母，是他名字的缩写。这种极简与内容的密度形成了强烈反差。"}
-  ]},
-  {"id": "craft", "title": "手艺与方法", "blocks": [
-   {"p": "他的研究与实战高度一致：<strong>用自动化的方法系统性地找问题</strong>。模糊测试、静态分析、程序分析，是他从论文到创业再到赏金的共同武器。"},
-   {"callout": "把「搞坏过的东西」写成作品集，是安全研究员独有的自我表达方式，也是最有说服力的能力证明。", "t": "作品集也可以是一份漏洞清单"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>研究与实战双轮驱动：</strong>论文里的工具，直接用在真实世界的漏洞上。",
-    "<strong>敢于放弃「标准路径」：</strong>伯克利博士辍学，去创业。",
-    "<strong>发布流程本身就是攻击面：</strong>一个 source map 就能暴露全部源码。",
-    "<strong>用最少的设计说最多的话：</strong>纯文字主页，信息密度极高。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "安全研究员、工程师；目前从事 AI 基础设施工作"],
+     ["教育", "UC Santa Barbara 计算机本科（Tevfik Bultan 组）；UC Berkeley Sky Computing Lab 博士（导师 Koushik Sen），「but I dropped out :p」"],
+     ["经历", "Salesforce 安全工程师 → Veridise → FuzzLand 联合创始人兼 CTO → Solayer（收购 FuzzLand）→ AI Infra"],
+     ["代表作", "ItyFuzz、CorbFuzz、FuzzLand、daudit、knicky"],
+     ["常用语言", "Rust、Python、Solidity、C、Go"],
+     ["关键数字", "漏洞赏金累计 190 万美元；X 关注者约 8.1 万；GitHub 粉丝 1,254"],
+     ["主页", "scf.so（React，GitHub Pages）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Chaofan Shou 的路径很少见：<strong>研究和实战一直并行</strong>。在 UCSB 读本科时，他一边在实验室做浏览器安全策略的模糊测试，一边在漏洞赏金平台上挖真实世界的漏洞；在伯克利读博时，他把论文里的智能合约模糊测试器 ItyFuzz 直接变成了创业公司 FuzzLand 的核心产品。"},
+    {"p": "这种「用工具批量找问题」的思路也解释了 2026 年那件事：他注意到 Claude Code 2.1.88 的 npm 包里附带了完整的 source map，随即在 X 上公布。发布流程本身，就是攻击面的一部分。"},
+    {"note": "本页依据 scf.so 个人主页、GitHub、论文与报道（36氪、heise）整理，资料截至 2026 年 10 月。漏洞列表均来自他本人主页的公开披露。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2015–2016", "title": "少年白帽", "text": "2015 年注册 GitHub；2016 年向上海政府网站报告了上百个 SQL 注入与文件包含等漏洞。2017 年开源 daudit：检测 Hadoop、MongoDB、MySQL 等配置缺陷的工具（★105）。"},
+     {"when": "2019–2020", "title": "大厂漏洞", "text": "陆续发现网易（XSS + CSRF，可接管 10 亿以上账号）、Gogs（竞态条件绕过策略）、百度（多个存储型 XSS，可接管 2.18 亿账号）、网易企业邮箱等问题。"},
+     {"when": "本科", "title": "UC Santa Barbara", "text": "在 Tevfik Bultan 教授组参与研究，发表 CorbFuzz（用模糊测试检查浏览器的 CORB 安全策略，ASE '21）、IoT 侧信道缓解（IOT '22）、稀有种子生成（ISSTA '23）等论文。"},
+     {"when": "2020–2022", "title": "Salesforce、Veridise 与 190 万美元赏金", "text": "在 Salesforce 做安全工程师（静态分析、内网扫描服务、数据管道），之后在区块链安全公司 Veridise 主导智能合约与区块链的自动化测试工具；这几年的漏洞赏金累计达 190 万美元。"},
+     {"when": "博士", "title": "UC Berkeley Sky Computing Lab", "text": "师从程序分析领域的 Koushik Sen，发表 ItyFuzz（ISSTA '23）。他在主页上轻松地写：「but I dropped out :p」。"},
+     {"when": "2022–2025", "title": "FuzzLand", "text": "联合创办 Web3 安全与高频交易公司 FuzzLand 并任 CTO。据主页介绍，FuzzLand 帮助从黑客手里追回 3,000 万美元以上资产，守护 / 管理超过 50 亿美元资产。2025 年被 Solayer 收购，他加入 Solayer 构建高性能 SVM 区块链。"},
+     {"when": "2026.03.31", "title": "Claude Code 源码事件", "text": "凌晨发现 Claude Code 2.1.88 的 npm 包附带完整的 source map 并在 X 上公布，帖子 24 小时内获得数千万次浏览。Anthropic 回应称这是发布打包时的人为失误。"},
+     {"when": "2026", "title": "转向 AI Infra", "text": "主页写着「I am now working on AI infra」；同年开源 agentpay-sdk：让 AI Agent 在策略约束和人工审批下付款、持有资金、跨链转账。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "ItyFuzz", "url": "https://github.com/fuzzland/ityfuzz",
+     "meta": ["ISSTA '23", "Rust", "智能合约模糊测试"],
+     "paras": [
+      "「Blazing Fast Bytecode-Level Hybrid Fuzzer for Smart Contracts.」一个结合符号执行与模糊测试的混合测试器，支持 EVM 和 MoveVM，可以在链下，也可以直接对链上已部署的合约找漏洞。论文的核心思想是基于快照：把链上状态存成快照反复探索，大幅提升 DeFi 漏洞的发现效率。",
+      "安装方式很有黑客风格：<code>curl -L https://ity.fuzz.land/ | bash</code>，再运行 <code>ityfuzzup</code>。"
+     ],
+     "facts": [["GitHub", "★1,119 · ⑂184"], ["论文", "ISSTA '23，与 Shangyin Tan、Koushik Sen 合作"], ["文档", "docs.ityfuzz.rs"]]
+    }},
+    {"work": {
+     "name": "FuzzLand", "url": "https://scf.so",
+     "meta": ["2022–2025", "联合创始人 / CTO", "Web3 安全 + HFT"],
+     "paras": [
+      "FuzzLand 用模糊测试和 AI 分析智能合约，同时做高频交易。GitHub 组织里能看到它的技术谱系：ItyFuzz、Sui 套利机器人、BSC 上的三明治交易机器人（他和 tonyke-bot 共同编写）、从攻击交易自动生成 Foundry 复现测试的工具（名字叫 girlfriend）、用大模型为 Foundry 项目生成不变量的 invgen、微调 GPT 做合约审计的 audit_gpt，以及连续两年举办的 Blaz CTF。"
+     ],
+     "facts": [["追回资产", "3,000 万美元以上"], ["守护资产", "超过 50 亿美元"], ["结局", "2025 年被 Solayer 收购"]]
+    }},
+    {"work": {
+     "name": "CorbFuzz", "url": "https://github.com/shouc/corbfuzz",
+     "meta": ["ASE '21", "C", "浏览器安全"],
+     "paras": [
+      "CORB（跨源读取阻止）是浏览器防止恶意网页读取跨站敏感数据的机制。CorbFuzz 用模糊测试检查各浏览器对这一策略的实现是否有缺陷。这是他在 UCSB 的第一篇一作论文。"
+     ]
+    }},
+    {"h3": "Things I Broke（节选）"},
+    {"table": {
+     "caption": "摘自 scf.so，均为他本人公开披露的已报告漏洞",
+     "cols": ["年份", "目标", "问题与影响"],
+     "rows": [
+      ["2024", "Devin.ai", "SSRF，导致用户信息泄露并可完全接管系统"],
+      ["2024", "RisingWave", "只读 / 低权限账号即可在任意计算节点上远程执行代码"],
+      ["2024", "Etherscan", "XSS + Cloudflare 绕过，可接管所有账号或用于钓鱼"],
+      ["2023", "Twitter", "XSS + CSRF + CSP 绕过，可接管所有 Twitter 账号"],
+      ["2023", "FreedomFi", "授权绕过，可在 7,000 多台矿机上远程执行命令"],
+      ["2022", "Polygon Edge", "多个验证者 DoS，轻易达成 51%（严格说是 2/3）攻击"],
+      ["2022", "Deeper Network", "数据包解析的内存漏洞，可在 3 万多台矿机上远程执行代码"],
+      ["2021", "CVS Pharmacy", "SSRF + TLS 投毒，可公开访问所有内部系统"],
+      ["2021", "React Native / Hermes", "递归 JS Proxy 导致的内存漏洞"],
+      ["2021", "Google Nest 等", "侧信道泄露用户行为（隐私问题）"],
+      ["2020", "百度", "多个存储型 XSS，可接管 2.18 亿账号"],
+      ["2019", "网易", "XSS + CSRF，可接管 10 亿以上账号"],
+      ["2016", "上海政府网站", "100 多个 SQL 注入 / 文件包含等"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "他的个人账号 shouc（2015 年注册）里留着学生时代的安全工具，FuzzLand 组织里则是创业期的主要开源成果。"},
+    {"table": {
+     "cols": ["仓库", "★", "年份", "说明"],
+     "rows": [
+      ["fuzzland/ityfuzz", "1,119", "2022", "智能合约混合模糊测试器"],
+      ["fuzzland/sui-mev", "789", "2025", "Sui 套利机器人，支持十个 DEX"],
+      ["fuzzland/audit_gpt", "165", "2023", "微调 GPT 做智能合约审计"],
+      ["fuzzland/girlfriend", "130", "2024", "从攻击交易生成 Foundry 复现测试"],
+      ["shouc/daudit", "105", "2017", "Hadoop、MongoDB、MySQL 等配置缺陷检测"],
+      ["shouc/knicky", "41", "2018", "模块化静态病毒生成器（安全研究用途）"],
+      ["shouc/digfuzz", "23", "2021", "NDSS '19 论文 DigFuzz 的复现实现"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://scf.so", "paras": [
+     "一个纯文字的学术风格主页：先用一段话交代现在和过去（AI infra ← Solayer ← FuzzLand ← Veridise ← Salesforce ← 伯克利博士辍学），然后是 Publications、Talks、Things I Broke 三个部分。",
+     "域名 scf.so 只有三个字母，是他名字的缩写。极简的设计和极高的信息密度形成了强烈反差：每一条漏洞都写清年份、目标和影响，一屏就是一部个人安全史。"
+    ]}},
+    {"table": {
+     "cols": ["部分", "内容"],
+     "rows": [
+      ["Publications", "CCS '24、CoNEXT '24、ISSTA '23（两篇）、IOT '22、ASE '21，附 PDF、代码和幻灯片"],
+      ["Talks", "BuildETH '23《MEV + Fuzzing = DeFi Firewall》；SBC '22《Chainsaw: Breaking Blockchains With Coverage-Guided Fuzzing》"],
+      ["Things I Broke", "分为安全问题和隐私问题两组，共三十余条"],
+      ["技术", "React，托管在 GitHub Pages"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "方法与观点",
+   "blocks": [
+    {"ul": [
+     "<strong>研究与实战双轮驱动。</strong>论文里的工具直接用在真实世界的漏洞上，真实世界的漏洞又给研究提供问题。",
+     "<strong>自动化地找问题。</strong>从 Hadoop 配置检测到合约模糊测试，他的工具都在把「靠经验找漏洞」变成「靠系统找漏洞」。",
+     "<strong>发布流程就是攻击面。</strong>一个打包时忘记去掉的 source map，就能暴露一款明星产品的全部源码。",
+     "<strong>自嘲是一种姿态。</strong>「senior slop engineer」「senior script kiddie」「but I dropped out :p」，严肃的履历配上轻松的语气。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["研究", "顶会论文 + 真实漏洞双重验证", "论文集中在 2021–2024 年，近期研究方向转向 AI Infra，成果尚未公开"],
+      ["实战", "漏洞覆盖 Web、区块链、IoT、浏览器引擎", "具体漏洞细节大多未公开，只有主页上的一句话描述"],
+      ["创业", "FuzzLand 被收购，技术成果开源", "部分开源项目是交易机器人，使用需理解相关风险"],
+      ["影响力", "Claude Code 事件让大众关注到发布安全", "公众认知可能过度集中于这一事件"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把「搞坏过的东西」写成作品集：</strong>安全研究员最有说服力的履历。",
+     "<strong>研究与实战双轮驱动：</strong>论文里的工具，直接用在真实世界。",
+     "<strong>敢于放弃「标准路径」：</strong>伯克利博士辍学，去创业，再被收购。",
+     "<strong>检查自己的发布流程：</strong>source map、调试符号、环境变量，都可能是泄露口。",
+     "<strong>用最少的设计说最多的话：</strong>纯文字主页，信息密度极高。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "scf.so", "url": "https://scf.so", "why": "从「Things I Broke」读起，感受一位安全研究员十年的足迹。"},
+     {"name": "ItyFuzz 论文与代码", "url": "https://github.com/fuzzland/ityfuzz", "why": "了解基于快照的链上模糊测试怎样找到 DeFi 漏洞。"},
+     {"name": "36氪：Claude Code 开源第一人", "url": "https://www.36kr.com/p/3748834328429321", "why": "中文媒体对 2026 年源码事件和他经历的完整报道。"}
+    ]}
+   ]
+  }
  ],
- "cta": "读一读他主页上的「Things I Broke」。",
+ "cta": "去 scf.so 看看他「搞坏过的东西」，然后检查一下自己的发布流程。",
  "sources": [
   {"label": "Chaofan Shou 的 X 个人资料", "url": "https://x.com/shoucccc"},
   {"label": "个人主页 scf.so", "url": "https://scf.so"},
+  {"label": "GitHub：shouc", "url": "https://github.com/shouc"},
+  {"label": "GitHub：fuzzland", "url": "https://github.com/fuzzland"},
+  {"label": "ItyFuzz README", "url": "https://github.com/fuzzland/ityfuzz"},
+  {"label": "ItyFuzz 论文（ISSTA '23）", "url": "https://dl.acm.org/doi/pdf/10.1145/3597926.3598059"},
   {"label": "36氪：Claude Code 开源第一人，竟是华人辍学博士", "url": "https://www.36kr.com/p/3748834328429321"},
   {"label": "heise：Claude Code unintentionally open source", "url": "https://heise.de/-11242079"}
  ]

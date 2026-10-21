@@ -1,179 +1,215 @@
 {
  "name": "Max Lv",
  "role": "NVIDIA 芯片架构师 · 开源开发者",
- "title": "Max Lv：在芯片与<em>开源</em>之间来回的人",
- "dek": "shadowsocks-android、ProxyDroid、GAEProxy 的作者；白天在 NVIDIA 做芯片架构，业余时间把《仙剑奇侠传》DOS 版完整移植成 Rust，还用神经网络实时超分。",
- "card": "shadowsocks-android 作者，NVIDIA 芯片架构师；2026 年用 AI 把《仙剑》移植成 Rust。",
+ "title": "Max Lv：在<em>芯片与开源</em>之间来回的人",
+ "dek": "shadowsocks-android、shadowsocks-c、ProxyDroid、GAEProxy 的作者或核心维护者；白天在 NVIDIA 做芯片架构，业余十几年维护开源网络工具。2026 年，TA 借助 AI Agent 在 107 天里新建 17 个仓库、写了 15.7 万行代码，还把《仙剑奇侠传》DOS 版完整移植成 Rust。",
+ "card": "shadowsocks-android（★3.7 万）、shadowsocks-c 维护者；NVIDIA 芯片架构师；2026 年用 Agent 一口气做了十几个项目。",
  "location": "中国上海",
- "tags": [
-  "Android",
-  "网络",
-  "Rust",
-  "芯片",
-  "开源"
- ],
+ "updated": "2026-10-21",
+ "tags": ["网络与代理", "Android", "Rust", "芯片架构", "AI Agent"],
  "links": [
-  {
-   "label": "博客 maxlv.net",
-   "url": "https://maxlv.net"
-  },
-  {
-   "label": "开源项目页",
-   "url": "https://madeye.github.io/"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/madeye"
-  }
+  {"label": "maxlv.net", "url": "https://maxlv.net"},
+  {"label": "项目目录", "url": "https://madeye.github.io/"},
+  {"label": "GitHub", "url": "https://github.com/madeye"}
  ],
  "summary": [
-  "<strong>一句话：</strong>上海的 NVIDIA 芯片架构师，也是中文开源圈的老兵：shadowsocks-android（★3.6 万）的作者与长期维护者。",
-  "<strong>代表作：</strong>shadowsocks-android、shadowsocks-libev / shadowsocks-c、ProxyDroid、GAEProxy、BaoLianDeng（macOS 代理），以及 2026 年的一系列 AI 辅助开源项目。",
-  "<strong>为什么值得关注：</strong>TA 用自己 2026 年的项目数据论证：AI Agent 把独立开发压缩进了碎片时间，「当实现成本趋近于零，工具软件的开源与免费」有了新的经济逻辑。"
+  "<strong>一句话：</strong>在 NVIDIA 上海做芯片架构的工程师，也是中文开源网络工具圈的老兵：从 2011 年的 GAEProxy 开始，维护 Android 上的 shadowsocks 客户端已经十几年。",
+  "<strong>代表作：</strong>shadowsocks-android（★36,813）、shadowsocks-c（★16,184，原 shadowsocks-libev）、ProxyDroid（★2.6 千）、BaoLianDeng 宝莲灯（★778）、meow-rs、ServerBox、仙剑 DOS 引擎 Rust 移植。",
+  "<strong>关键数字：</strong>2026 年 2 月 21 日至 6 月 7 日，新建 17 个仓库、1,221 次提交（78% 带 Claude 的 Co-Authored-By）、约 15.7 万行代码，横跨 7 种语言。",
+  "<strong>看点：</strong>TA 用自己项目的提交数据，而不是感觉，来讨论 AI Agent 怎样改变独立开发的成本结构。"
  ],
- "lead": "Max Lv 2009 年就注册了 X。十几年前，TA 写的 GAEProxy 和 ProxyDroid 是很多 Android 用户接触「全局代理」的起点；后来 TA 写下的 shadowsocks-android，成为这个领域最知名的客户端之一。如今 TA 的博客叫「Lv. MAX」，记录的是一个芯片工程师在 AI 时代重新拿起业余项目的快乐。",
+ "lead": "Max Lv 2026 年写过一句很重的话：shadowsocks 当年主张去中心化部署和用户自定义协议，但普通用户根本实现不了；如今十年的开源贡献都被吸收进了大模型，「即使是一个免费的、非最强的模型，也能在几小时内写出一个可用的混淆插件」。这个最初的愿景，第一次在实践中变得可及。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "NVIDIA 芯片架构师（GitHub 自述）；开源开发者"],
+     ["所在地", "中国上海"],
+     ["代表作", "shadowsocks-android、shadowsocks-c、ProxyDroid、GAEProxy、BaoLianDeng、meow-rs、ServerBox、gterm、仙剑 Rust 移植"],
+     ["技术栈", "过去十几年主力是 C、Scala、Kotlin；2026 年扩展到 Rust、Swift、Zig、Dart、TypeScript、Python"],
+     ["关键数字", "GitHub 粉丝 5,223；121 个公开仓库；近一年贡献 5,448 次；X 关注者约 2 万"],
+     ["网站", "maxlv.net（博客 Lv. MAX，中英双语）；madeye.github.io（自动更新的项目目录）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Max Lv 的开源有两条主线。<strong>一条是网络</strong>：Android 代理工具（GAEProxy、ProxyDroid、shadowsocks-android）、C 语言的 shadowsocks 实现、TCP 拥塞控制实验，以及 2026 年用 Rust 重写的 Clash / mihomo 兼容内核 meow-rs 和它的 macOS、Android 客户端。"},
+    {"p": "<strong>另一条是「让旧东西重新发光」</strong>：把旧安卓手机变成 Linux 服务器（ServerBox），在 macOS 原生窗口里运行 Android 应用（Mandroid），把 1995 年的《仙剑奇侠传》DOS 版完整移植成 Rust 并用神经网络实时超分。芯片工程师的性能直觉和游戏玩家的情怀，在这些项目里交汇。"},
+    {"note": "本页依据 GitHub、maxlv.net 博客、madeye.github.io 与各项目 README 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2011",
-       "title": "GAEProxy",
-       "text": "基于 Google App Engine 的 Android 代理工具，用 C 写成，是 TA 最早的知名开源项目（现已弃用）。"
-      },
-      {
-       "when": "2012",
-       "title": "ProxyDroid",
-       "text": "Android 全局代理工具，至今仍有 2.5k 星，并在 2026 年用 Kotlin 重新整理。"
-      },
-      {
-       "when": "2012 起",
-       "title": "shadowsocks-android",
-       "text": "为 Android 编写 shadowsocks 客户端，并与 Mygod Studio 一起长期维护，成为 GitHub 上最受欢迎的 Android 网络工具之一。TA 也是 shadowsocks-libev（后来的 shadowsocks-c）的核心维护者。"
-      },
-      {
-       "when": "2016",
-       "title": "tcp_china",
-       "text": "一个针对中国网络环境的 TCP 拥塞控制算法实验，显示出 TA 在网络协议层面的功底。"
-      },
-      {
-       "when": "职业",
-       "title": "NVIDIA 芯片架构师",
-       "text": "在 NVIDIA 上海从事芯片架构工作（据其 GitHub 与项目页自述）。"
-      },
-      {
-       "when": "2026",
-       "title": "AI 时代的开源井喷",
-       "text": "一年内发布 ServerBox（旧安卓手机变 Linux 服务器）、ad-skipper（本地 VLM 跳开屏广告）、Mandroid（在 macOS 原生窗口中运行 Android 应用）、gterm（基于 libghostty 的 iOS 终端）、rv（GPUI 写的 VNC 客户端）、《仙剑奇侠传》DOS 引擎 Rust 移植等。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2009", "title": "注册 X", "text": "账号 @m0d8ye，简介只有一句「Views are my own」。"},
+     {"when": "2011", "title": "GAEProxy", "text": "基于 Google App Engine 的 Android 代理工具，用 C 写成，是 TA 最早的知名开源项目（现已弃用）。"},
+     {"when": "2012", "title": "ProxyDroid", "text": "Android 全局代理工具，至今 ★2.6 千。2026 年重构为「VPN 优先」架构：不再需要 Root、iptables 和 redsocks，改用 Android VpnService 和 Rust 写的 tun2socks。"},
+     {"when": "2012 起", "title": "shadowsocks-android 与 shadowsocks-libev", "text": "为 Android 编写 shadowsocks 客户端并长期维护，成为 GitHub 上最受欢迎的 Android 网络工具之一；同时与 linusyang 共同维护 C 语言实现 shadowsocks-libev，后来演变为 shadowsocks-c。"},
+     {"when": "2016", "title": "tcp_china", "text": "一个针对中国网络环境的 TCP 拥塞控制算法实验。"},
+     {"when": "职业", "title": "NVIDIA 芯片架构师", "text": "在 NVIDIA 上海从事芯片架构工作。"},
+     {"when": "2026.02–06", "title": "107 天、17 个仓库", "text": "借助 Claude Code，新建 14 个实质项目和 3 个小工具，1,221 次提交，约 15.7 万行代码；其中 meow 家族（Rust 内核 + iOS + Android）三个半月从零到三端可用。"},
+     {"when": "2026.07–10", "title": "仙剑、ServerBox、Mandroid", "text": "7 月完成《仙剑奇侠传》DOS 引擎的 Rust 移植；8 月发布本地 VLM 跳开屏广告的 ad-skipper；9 月发布 ServerBox 和 Mandroid。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "shadowsocks-android",
-       "meta": "Kotlin · ★3.6 万",
-       "text": "Android 上的 shadowsocks 客户端，十余年持续维护。",
-       "url": "https://github.com/shadowsocks/shadowsocks-android"
-      },
-      {
-       "name": "Legend-of-Sword-and-Fairy",
-       "meta": "2026 · Rust · WASM",
-       "text": "完整的《仙剑奇侠传》DOS 引擎 Rust 移植，可原生运行或在浏览器中游玩，并用 Real-ESRGAN 实时超分。",
-       "url": "https://github.com/madeye/Legend-of-Sword-and-Fairy"
-      },
-      {
-       "name": "ServerBox",
-       "meta": "2026 · Kotlin",
-       "text": "无需 Root，把旧安卓手机变成 Alpine / Arch / Debian / Ubuntu Linux 服务器。",
-       "url": "https://github.com/madeye/ServerBox"
-      },
-      {
-       "name": "BaoLianDeng 宝莲灯",
-       "meta": "Swift · ★780",
-       "text": "由 Rust 写的 Clash 兼容内核 meow-rs 驱动的 macOS VPN 代理应用。",
-       "url": "https://github.com/madeye/BaoLianDeng"
-      }
+    {"work": {
+     "name": "shadowsocks-android", "url": "https://github.com/shadowsocks/shadowsocks-android",
+     "meta": ["2012 起", "Kotlin", "GPL-3.0"],
+     "paras": [
+      "Android 上的 shadowsocks 客户端，十几年持续维护，如今以 Kotlin 编写，并在 Google Play 上架。它和 shadowsocks-c 一起，是 TA 在 GitHub 主页上置顶的两个项目。"
+     ],
+     "facts": [["GitHub", "★36,813"], ["相关", "shadowsocks-c ★16,184"]]
+    }},
+    {"work": {
+     "name": "《仙剑奇侠传》DOS 引擎 Rust 移植", "url": "https://madeye.github.io/Legend-of-Sword-and-Fairy/",
+     "meta": ["2026.07", "Rust · WASM · WebGPU", "可在浏览器游玩"],
+     "paras": [
+      "把 1995 年《仙剑奇侠传》DOS 版的开源引擎 SDLPAL 完整移植成 Rust，既能原生运行，也能编译成 WebAssembly 在浏览器里玩，再用 Real-ESRGAN 神经网络实时超分。",
+      "TA 的博文最看重的是<strong>可验证</strong>：怎样证明 Rust 版本与原版行为一致，怎样设计「mega kernel」把超分推理塞进 WebGPU，以及调优过程中的实测数据。"
+     ],
+     "facts": [["GitHub", "★192"], ["博文", "2026-07-19 · 7 分钟"]]
+    }},
+    {"work": {
+     "name": "meow-rs 与宝莲灯 BaoLianDeng", "url": "https://github.com/madeye/BaoLianDeng",
+     "meta": ["2026", "Rust + Swift + Kotlin", "App Store"],
+     "paras": [
+      "meow-rs 是用 Rust 写的高性能 mihomo（Clash Meta）兼容内核：规则分流、多种代理协议、透明代理、DNS 嗅探、REST API 和内置 Web 面板。它在 mihomo 之外多做了两件事：当链式代理的某个成员能通过测速、却连不上后续服务器时，依然能让「dialer-proxy」链路工作；以及记一本「日志簿」，记录引擎做过的事（重载、订阅失败、崩溃、链路节点掉线）。",
+      "宝莲灯是基于它的 macOS 代理应用，使用 NETransparentProxyProvider 在 socket 层拦截流量，比传统 TUN 方案更快，已上架 App Store。配套还有 Flutter 界面的 Android 客户端 meow-android。TA 专门写了一篇《用 Claude Code 把三万行 Go 项目移植到 Rust：Agent 团队与 Harness 调优》。"
+     ],
+     "facts": [["BaoLianDeng", "★778"], ["meow-rs", "★577"], ["meow 家族代码量", "约 9.2 万行"]]
+    }},
+    {"work": {
+     "name": "gterm", "url": "https://madeye.github.io/gterm/",
+     "meta": ["2026.05", "Swift + Zig", "iOS 终端"],
+     "paras": [
+      "一个基于 Ghostty 引擎（libghostty）的 iOS SSH 终端。难点在于 iOS 不允许本地 fork/exec shell，终端必须由 SSH 数据流驱动：TA 为此 fork 了 ghostty，在它的 Zig termio 层里新增了一个 passthru 后端。这意味着要读懂一个 30 万行 Zig 项目的 IO 架构并做侵入式修改，而 TA 此前从没写过 Zig。",
+      "从第一次提交到可以通过 TestFlight 安装，只用了 5 个活跃日、64 次提交，期间完成了 libghostty 交叉编译成 iOS XCFramework、swift-nio-ssh 集成、自定义屏幕键盘、钥匙串存储与 TOFU 主机密钥、fastlane 发布流水线。"
+     ],
+     "facts": [["GitHub", "★76"], ["从零到 TestFlight", "5 个活跃日"]]
+    }},
+    {"h3": "2026 年的其他作品"},
+    {"table": {
+     "cols": ["项目", "语言", "是什么"],
+     "rows": [
+      ["ServerBox", "Kotlin", "无需 Root，把旧安卓手机变成 Alpine / Arch / Debian / Kali / Ubuntu 服务器，并常驻 SSH"],
+      ["Mandroid", "Swift", "在官方 Android 模拟器之上，让 Android 应用运行在 macOS 原生窗口里"],
+      ["ad-skipper", "Kotlin", "本地 VLM 跳开屏广告：无障碍服务 + 三级检测（节点匹配 → OCR → llama.cpp 视觉模型定位）"],
+      ["ShadowVPN", "Rust", "基于 shadowsocks AEAD 的 UDP 预共享密钥用户态 VPN"],
+      ["ds-input", "Rust / C++", "大模型整句拼音输入法：不带声调的拼音直接上屏，没有候选窗"],
+      ["dhtsearch", "Go", "自建索引的磁力链接搜索引擎：DHT 爬虫 + 启发式过滤 + 大模型二次审核"],
+      ["mcp-cli", "Rust", "为 AI 编程 Agent 节省 fork/exec 开销的原型"]
      ]
-    }
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub 简介只有一行「Chip Architect at NVIDIA」。语言分布（按仓库数）是 Rust、Python、Swift、TypeScript、C、C++、Kotlin。前几名里有一半是 2026 年才开始写的语言，这正是 TA 在博客里描述的变化。"},
+    {"table": {
+     "caption": "TA 自己的统计：2026 年 2 月 21 日—6 月 7 日",
+     "cols": ["指标", "数值"],
+     "rows": [
+      ["新建仓库", "17 个（14 个实质项目 + 3 个单次提交小工具）"],
+      ["提交", "1,221 次，其中 953 次（78%）带 Claude 的 Co-Authored-By"],
+      ["代码量", "约 15.7 万行（不含生成代码与第三方代码）"],
+      ["语言", "Rust、Swift、Zig、Dart、Kotlin、TypeScript、Python"],
+      ["活跃天数", "107 天中有 78 天提交；其中 50 天同时推进两个以上仓库，峰值一天 6 个"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://maxlv.net",
-      "paras": [
-       "博客名「Lv. MAX」，副标题「Random thoughts」，中英双语。每篇文章标出日期和阅读时长。",
-       "近期文章：《仙剑 DOS 版：移植到 Rust，再用神经网络超分》《AI Agent 把独立开发压缩进碎片时间》《被大模型吸收的十年开源，正在完成 shadowsocks 的最初愿景》。"
-      ]
-     }
-    },
-    {
-     "p": "另一个站点 madeye.github.io 是一个自动生成的开源项目目录：每个项目一行，带语言、星数和「Updated today」，像一张实时更新的工作台。"
-    }
+    {"site": {"url": "https://maxlv.net", "paras": [
+     "博客名「Lv. MAX」，副标题「Random thoughts」，中英双语。首页每篇文章标出日期和阅读时长，配一段两三行的摘要。",
+     "选题跨度很大：技术文章之外，还有石油美元体系、影子银行与私募信贷、中东危机与氦气断供对 AI 算力的影响、华语流行音乐的结构困境。这些都是长篇分析。"
+    ]}},
+    {"table": {
+     "cols": ["站点", "技术", "特点"],
+     "rows": [
+      ["maxlv.net", "Nuxt + Netlify / Cloudflare", "中英双语博客，RSS 中有二十多篇长文"],
+      ["madeye.github.io", "GitHub Pages", "自动生成的项目目录：每个项目一行，带语言、星数和「Updated today」，像一张实时更新的工作台"],
+      ["项目子页", "GitHub Pages", "宝莲灯、gterm、ShadowVPN、仙剑都有独立的项目页"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "quote": "十年的开源贡献如今都在大模型里，即使是一个免费的、非最强的模型，也能在几小时内写出一个可用的混淆插件。这个愿景第一次在实践中变得可及。",
-     "cite": "Max Lv 博客文章大意（2026-05）"
-    },
-    {
-     "p": "TA 移植《仙剑》时最看重的是<strong>可验证</strong>：怎样证明 Rust 版本与原版行为一致，怎样设计「mega kernel」，怎样用实测数据调 WebGPU。芯片工程师的严谨和游戏玩家的情怀，在一个项目里汇合。"
-    }
+    {"posts": [
+     {"date": "2026-07-19", "title": "仙剑 DOS 版：移植到 Rust，再用神经网络超分", "url": "https://maxlv.net/blog/rustpal-webgpu-neural-upscale/"},
+     {"date": "2026-06-07", "title": "AI Agent 把独立开发压缩进碎片时间", "url": "https://maxlv.net/blog/ai-agent-indie-dev-fragmented-time/", "note": "用自己的提交数据分析 Agent 如何改变独立开发的成本结构。"},
+     {"date": "2026-05-19", "title": "被大模型吸收的十年开源，正在完成 shadowsocks 的最初愿景", "url": "https://maxlv.net/blog/diy-sip003-protocol/"},
+     {"date": "2026-04-12", "title": "用 Claude Code 把三万行 Go 项目移植到 Rust：Agent 团队与 Harness 调优", "url": "https://maxlv.net/blog/porting-mihomo-to-rust-with-claude/"},
+     {"date": "2026-03-18", "title": "Claude Code + Rust：当 AI 遇上最严格的编译器", "url": "https://maxlv.net/"}
+    ]},
+    {"h3": "《AI Agent 把独立开发压缩进碎片时间》的三个判断"},
+    {"ul": [
+     "<strong>语言不再是门槛。</strong>Agent 没有缩短学一门语言的时间，而是让这个问题不再重要：人的瓶颈从「能不能写」变成「能不能读懂并审查」，而读比写容易一个数量级。",
+     "<strong>从几个月到几天。</strong>以前要按季度计算的业余项目，现在几个活跃日就能完成。",
+     "<strong>默认并行。</strong>Agent 跑长任务的几十分钟到几小时里，人可以切到另一个项目去派活或审查。每次介入只需要 10–30 分钟的「审查与转向」，一个下午写不完 TCP 栈，但 15 分钟足够读一个 diff、跑测试、指出下一步。"
+    ]},
+    {"p": "TA 还改了记录想法的习惯：以前把想法丢进 Notion，「等有空再展开」，结果大多数想法死在了列表里；现在想法一出现，就直接打开 Agent 写成计划。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["长期维护", "核心项目维护十几年，社区信任度高", "代理类工具受网络环境与政策影响大"],
+      ["工程", "芯片、网络、移动端、游戏引擎都能深入", "2026 年新项目多，部分仍是原型（如 mcp-cli）"],
+      ["方法", "用提交数据量化 AI 对开发的影响，坦诚讨论局限", "大量代码由 Agent 生成，长期可维护性有待时间检验"],
+      ["写作", "技术与宏观分析并重，中英双语", "宏观经济类文章属于个人观点，并非专业研究"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>用数据讨论 AI 对开发的影响：</strong>TA 用自己项目的提交记录来分析，而不是凭感觉。",
-      "<strong>旧设备、旧游戏都值得重做：</strong>ServerBox 和仙剑移植都是「让旧东西重新发光」。",
-      "<strong>长期维护的价值：</strong>一个客户端维护十几年，本身就是一种设计。",
-      "<strong>主业与业余互相滋养：</strong>芯片架构的性能直觉，用在了 WebGPU 和推理优化上。"
-     ]
-    }
+    {"checklist": [
+     "<strong>用数据讨论 AI：</strong>拿自己的提交记录说话，而不是凭感觉。",
+     "<strong>把读代码当核心能力：</strong>在 Agent 时代，审查比编写更重要。",
+     "<strong>让旧东西重新发光：</strong>旧手机、旧游戏、旧协议，都值得用新工具重做。",
+     "<strong>长期维护本身就是一种设计：</strong>一个客户端维护十几年，靠的是持续的耐心。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "AI Agent 把独立开发压缩进碎片时间", "url": "https://maxlv.net/blog/ai-agent-indie-dev-fragmented-time/", "why": "一篇有完整数据的 Agent 开发复盘，适合想调整自己工作流的人。"},
+     {"name": "在浏览器里玩仙剑", "url": "https://madeye.github.io/Legend-of-Sword-and-Fairy/", "why": "打开就能玩的 Rust + WASM 移植，顺便看看神经网络超分的效果。"},
+     {"name": "ServerBox", "url": "https://github.com/madeye/ServerBox", "why": "抽屉里的旧安卓手机，可以变成一台常驻 SSH 的 Linux 小服务器。"}
+    ]}
    ]
   }
  ],
- "cta": "在浏览器里打开 TA 移植的《仙剑奇侠传》，重温 1995 年。",
+ "cta": "在浏览器里玩一局仙剑，或者读一读 TA 的 Agent 开发复盘。",
  "sources": [
-  {
-   "label": "Max Lv 的 X 个人资料",
-   "url": "https://x.com/m0d8ye"
-  },
-  {
-   "label": "博客 maxlv.net",
-   "url": "https://maxlv.net"
-  },
-  {
-   "label": "开源项目页 madeye.github.io",
-   "url": "https://madeye.github.io/"
-  },
-  {
-   "label": "GitHub：madeye",
-   "url": "https://github.com/madeye"
-  },
-  {
-   "label": "Shadowsocks（维基百科）",
-   "url": "https://en.wikipedia.org/wiki/Shadowsocks"
-  }
+  {"label": "Max Lv 的 X 个人资料", "url": "https://x.com/m0d8ye"},
+  {"label": "博客 maxlv.net", "url": "https://maxlv.net"},
+  {"label": "AI Agent 把独立开发压缩进碎片时间（2026-06-07）", "url": "https://maxlv.net/blog/ai-agent-indie-dev-fragmented-time/"},
+  {"label": "开源项目目录 madeye.github.io", "url": "https://madeye.github.io/"},
+  {"label": "GitHub：madeye", "url": "https://github.com/madeye"},
+  {"label": "shadowsocks-android", "url": "https://github.com/shadowsocks/shadowsocks-android"},
+  {"label": "shadowsocks-c README", "url": "https://github.com/shadowsocks/shadowsocks-c"},
+  {"label": "BaoLianDeng README", "url": "https://github.com/madeye/BaoLianDeng"},
+  {"label": "meow-rs README", "url": "https://github.com/meow-rs/meow-rs"},
+  {"label": "ProxyDroid README", "url": "https://github.com/madeye/proxydroid"},
+  {"label": "Shadowsocks（维基百科）", "url": "https://en.wikipedia.org/wiki/Shadowsocks"}
  ]
 }

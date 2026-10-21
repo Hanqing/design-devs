@@ -1,61 +1,213 @@
 {
- "name": "李博杰 Bojie Li",
+ "name": "李博杰",
  "role": "独立研究者 · 交互式 Agent 系统",
- "title": "李博杰：从数据中心网络到<em>会学习的 Agent</em>",
- "dek": "中科大少年班、中科大与微软亚洲研究院联合培养博士、华为首批「天才少年」，后创业做 AI Agent。他写的开源书《深入理解 AI Agent》在 GitHub 上收获了五万多星。",
- "card": "华为首批天才少年，《深入理解 AI Agent》作者，独立研究交互式 Agent 系统。",
+ "title": "李博杰：从<em>数据中心网络</em>到会学习的 Agent",
+ "dek": "中科大少年班、中科大与微软亚洲研究院联合培养博士、华为首批「天才少年」，后来创业做 AI Agent。他写的开源书《深入理解 AI Agent》在 GitHub 上收获了 5.5 万星；2026 年以独立研究者身份又写了一本《深入理解 AI Infra》，还在一年里提交了四万多次代码。",
+ "card": "开源书《深入理解 AI Agent》（★5.5 万）作者；前华为「天才少年」、Pine AI 首席科学家，现为独立研究者。",
  "location": "中国",
- "tags": ["AI Agent", "LLM 系统", "数据中心网络", "语音", "写作"],
- "links": [{"label": "博客 01.me", "url": "https://01.me/"}, {"label": "GitHub", "url": "https://github.com/bojieli"}, {"label": "AI Agent 书", "url": "https://github.com/bojieli/ai-agent-book"}],
+ "updated": "2026-10-21",
+ "tags": ["AI Agent", "系统与网络", "语音交互", "开源书", "研究"],
+ "links": [
+  {"label": "01.me 博客", "url": "https://01.me/"},
+  {"label": "Research", "url": "https://01.me/research/"},
+  {"label": "GitHub", "url": "https://github.com/bojieli"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>系统研究者出身（SIGCOMM、SOSP、NSDI 等顶会论文作者），经历华为 2012 实验室和两次 AI 创业，现在是专注交互式 Agent 系统的独立研究者。",
-  "<strong>代表作：</strong>开源书《深入理解 AI Agent：设计原理与工程实践》（★5.5 万）、《深入理解 AI Infra：量化分析与系统设计》（★6.8k），以及一批网络与 Agent 小工具。",
-  "<strong>他的观点：</strong>被高估的是「智能上限」，被低估的是「从环境中持续学习」；语音会从次要模态变成主要模态。"
+  "<strong>一句话：</strong>一个从网卡、总线一路做到 Agent 的系统研究者。底层理解让他总能量化地讨论问题；他的「反共识」是：当所有人都去卷 Coding Agent，他选择做人与 AI 的交互，尤其是语音。",
+  "<strong>代表作：</strong>《深入理解 AI Agent》（★55,263）、《深入理解 AI Infra》（★6,824）、USTC 评课社区、OpenURMA（统一总线协议的净室实现），以及 2026 年的一组网络与 Agent 工具：queqiao、tunless、agentreach、GreenBubbles、DoNotType。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 44,769 次；X 关注者约 1.5 万；在 SIGCOMM、SOSP、NSDI 等顶会发表论文。",
+  "<strong>看点：</strong>他的每篇近期论文都配一个可交互的网站；书稿、PDF、按章配套代码全部开源，并被社区翻译成十几种语言。"
  ],
- "lead": "李博杰的博客域名是 01.me，首页最新的一篇是他在 Flink Forward Asia 2026 上的主题演讲《AI Agent 的两朵云》：借开尔文勋爵「物理学天空上的两朵乌云」的比喻，讲 Agent 面前的两个难题：如何流式、实时地与环境交互，以及如何像人一样从经验中自主学习。",
+ "lead": "2026 年 5 月，李博杰在腾讯研究院的直播对谈里说了一句很有代表性的话：「我特别讨厌同质化竞争。」那时 OpenAI 砍掉了 Sora，国内几家大厂重注 Coding，做语音的公司几乎都去做 B 端客服。他偏偏选了「客服的反面」：帮普通用户去和客服博弈、维权，并且坚持自己训练语音模型。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "本科", "title": "中科大少年班", "text": "在中国科学技术大学少年班就读，同时是中科大 Linux 用户协会（USTCLUG）的活跃成员。2014 年的课程项目 CompilerBackdoor 复现了 Ken Thompson《Reflections on Trusting Trust》中的编译器后门。"},
-    {"when": "博士", "title": "中科大 × 微软亚洲研究院", "text": "联合培养博士，研究数据中心网络与可编程硬件，在 SIGCOMM、SOSP、NSDI、ATC、PLDI 等顶会发表论文，获 ACM 中国优秀博士学位论文奖与「微软学者」奖学金。"},
-    {"when": "2019", "title": "华为首批「天才少年」", "text": "加入华为 2012 实验室，曾任灵衢 UB（统一总线）核心软件架构师，负责大模型训练软硬协同与基础设施优化。2026 年他开源了 UB 协议的净室实现 OpenURMA。"},
-    {"when": "2023", "title": "离开华为，创业 Logenic AI", "text": "与朋友一起创立 Logenic AI，做多模态个性化助理与数字孪生。"},
-    {"when": "2024–2025", "title": "Pine AI 首席科学家", "text": "先任顾问，2025 年 2 月正式加入 Pine AI 担任首席科学家，做帮助普通用户与客服博弈、维权的语音 Agent，坚持自研语音模型。同年开源《深入理解 AI Agent》书稿，并在国科大开设 Agent 课程项目。"},
-    {"when": "2026", "title": "独立研究者", "text": "以独立研究者身份发表流式 ASR、多模态用户记忆等论文，每篇都配一个交互式网站；出版开源书《深入理解 AI Infra》；在 Flink Forward Asia 做主题演讲，参加腾讯研究院「AI 跃迁者」直播对谈。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "《深入理解 AI Agent》", "meta": "2025 · 开源书 · ★5.5 万", "text": "设计原理与工程实践：全书正文、编译版 PDF 与按章配套代码。", "url": "https://github.com/bojieli/ai-agent-book"},
-    {"name": "《深入理解 AI Infra》", "meta": "2026 · 开源书 · ★6.8k", "text": "从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计，含计算工具与实验。", "url": "https://github.com/bojieli/ai-infra-book"},
-    {"name": "DoNotType", "meta": "2026 · Swift", "text": "结合屏幕上下文的语音输入，覆盖 macOS、Windows、Android、iOS。", "url": "https://github.com/bojieli/DoNotType"},
-    {"name": "queqiao / tunless / agentreach", "meta": "2026 · Go / Swift", "text": "长距离链路的广域网优化代理、免 TUN 透明代理、让编程 Agent 安全连到任意 SSH 主机：网络老兵的看家本领。", "url": "https://github.com/bojieli"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://01.me/", "paras": ["博客中英双语，导航只有 About、Research、Archives、English。文章普遍很长，多是演讲整理、对谈转录和深度技术分析。", "Research 页面按「近期工作」列出论文，每篇都附有一个可交互的配套网站，这是研究者里很少见的呈现方式。"]}},
-   {"p": "从 2026 年的文章可以看到他的「反共识」：当所有人都去卷 Coding Agent，他选择做「人与 AI 的交互」，尤其是语音。他说：「我特别讨厌同质化竞争。」"}
-  ]},
-  {"id": "craft", "title": "思想与方法", "blocks": [
-   {"quote": "主流 Scaling Law 暗含「小世界假设」——以为有用的知识就那么多，学一次就够；但真实垂直场景里的知识根本不在训练语料里。", "cite": "李博杰《当所有人都去卷 Coding，我在做什么？》"},
-   {"p": "他认为「有趣」和「有用」是正交的两个维度，会像钟摆一样来回摆动：现在先做有用的东西，等 AGI 把人从生产力中解放出来，「有趣」会重新回归。"},
-   {"callout": "把一本书完整开源（正文 + PDF + 每章代码），既是知识分享，也是最好的个人名片。五万多颗星说明了这条路的价值。", "t": "开源写书"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>系统功底是长期资产：</strong>从网卡、总线到 Agent，底层理解让他总能量化地讨论问题。",
-    "<strong>论文配交互网站：</strong>让研究被更多人看懂。",
-    "<strong>把课程和书都开源：</strong>写作是对知识最彻底的整理。",
-    "<strong>避开同质化：</strong>在所有人涌向同一方向时，认真想想反面。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立研究者，方向是交互式 Agent 系统；GitHub 公司栏写着 Pine AI 与 USTCLUG"],
+     ["教育", "中国科学技术大学少年班；中科大与微软亚洲研究院联合培养博士（2013 年起在 MSRA 实习）"],
+     ["经历", "华为 2012 实验室「天才少年」（2019）→ 联合创办 Logenic AI（2023）→ Pine AI 首席科学家（2025）→ 独立研究者（2026）"],
+     ["荣誉", "ACM 中国优秀博士学位论文奖、「微软学者」奖学金（据公开报道）"],
+     ["代表作", "《深入理解 AI Agent》《深入理解 AI Infra》、USTC 评课社区、OpenURMA、DoNotType、queqiao"],
+     ["常用语言", "C / C++、Python、Go、Rust、Swift、TeX"],
+     ["博客", "01.me（Hexo，中英双语）；早年博客 ring0.me"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "李博杰的研究兴趣可以概括为「Agent 的两朵乌云」，这也是他 2026 年 6 月在 Flink Forward Asia 主题演讲的标题。借用开尔文勋爵的比喻，他认为 Agent 面前有两个大难题：<strong>第一，如何流式地、实时地与环境交互</strong>，比如边听边想边说的语音 Agent；<strong>第二，如何像人一样从成功和失败的经验中自主学习</strong>。"},
+    {"p": "与此同时，他也是一位极其高产的工程师和写作者：两本开源书、一批网络与 Agent 工具、一个运营了十多年的大学评课社区，以及大量演讲整理和长文。"},
+    {"note": "本页依据 01.me 博客与 Research 页、GitHub、各书稿与项目 README、IT之家与澎湃新闻的报道整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "中学", "title": "信息学竞赛", "text": "GitHub 上有一份他整理的「NOI 国家集训队 1999～2009 论文集」，可以看出他和算法竞赛的渊源。"},
+     {"when": "本科", "title": "中科大少年班与 USTCLUG", "text": "活跃于中科大 Linux 用户协会，维护 USTC 评课社区（Python + Flask），至今仍在运营：2025 年底他还写了《评课社区存储性能问题始末》。2014 年的课程项目 CompilerBackdoor 复现了 Ken Thompson《Reflections on Trusting Trust》里的编译器后门。"},
+     {"when": "2013–2019", "title": "博士：中科大 × 微软亚洲研究院", "text": "研究数据中心网络与可编程硬件。queqiao 的 README 里回忆，2013 年在 MSRA 实习时第一次用上微软的专线，才体会到长距离链路可以多快。博士期间的工作包括 FPGA 网络功能框架 ClickNP（SIGCOMM 2016）和 SocksDirect；博士论文的 LaTeX 源码也开源了。"},
+     {"when": "2019", "title": "华为首批「天才少年」", "text": "加入华为 2012 实验室，曾任灵衢 UB（统一总线）核心软件架构师，负责大模型训练的软硬协同与基础设施优化。"},
+     {"when": "2023", "title": "创业 Logenic AI", "text": "离开华为，与朋友创立 Logenic AI，做多模态个性化助理与数字孪生。"},
+     {"when": "2025", "title": "Pine AI 首席科学家", "text": "先任顾问，2 月正式加入，做帮助普通用户与客服沟通、维权的语音 Agent。9 月开源《深入理解 AI Agent》书稿，并为国科大设计 AI Agent 课程项目。"},
+     {"when": "2026", "title": "独立研究者", "text": "开源 OpenURMA（统一总线协议的净室实现，附 arXiv 论文）和 OpenClickNP；8 月出版开源书《深入理解 AI Infra》并发布一批网络与 Agent 工具；在 Flink Forward Asia 做主题演讲，参加腾讯研究院「AI 跃迁者」直播。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "《深入理解 AI Agent：设计原理与工程实践》", "url": "https://github.com/bojieli/ai-agent-book",
+     "meta": ["2025.09", "开源书", "全书 + PDF + 每章代码"],
+     "paras": [
+      "一本完整开源的 Agent 教科书：仓库里有全书正文、编译好的 PDF 和按章配套的代码，还有在线阅读版。它迅速登上 GitHub Trending，至今累计 5.5 万星、6 千多次 fork。",
+      "README 顶部列出了社区翻译的十几种语言版本：英语、西班牙语、印尼语、阿拉伯语、繁体中文、俄语、越南语、泰米尔语、日语、土耳其语、韩语、匈牙利语、希伯来语……一本中文技术书被这样大规模地「反向翻译」，非常少见。"
+     ],
+     "facts": [["GitHub", "★55,263 · ⑂6,325"], ["开源", "2025-09"], ["配套", "国科大 AI Agent 课程项目"]]
+    }},
+    {"work": {
+     "name": "《深入理解 AI Infra：量化分析与系统设计》", "url": "https://bojieli.github.io/ai-infra-book/",
+     "meta": ["2026.08", "开源书", "PDF / EPUB / 在线"],
+     "paras": [
+      "从硬件约束和模型架构出发，<strong>量化推导</strong> LLM 推理与训练系统的设计：显存、带宽、算力之间的取舍不是凭经验拍脑袋，而是一步步算出来的。书稿附带计算工具和实验，提供简体中文原版、英文版、繁体中文版和社区俄语版。"
+     ],
+     "facts": [["GitHub", "★6,824"], ["开源", "2026-08"]]
+    }},
+    {"work": {
+     "name": "DoNotType", "url": "https://github.com/bojieli/DoNotType",
+     "meta": ["2026", "Swift", "macOS · Windows · Android · iOS"],
+     "paras": [
+      "「Voice input that transcribes what you said, grounded in what's on your screen.」结合屏幕上下文的语音输入：它知道你在看什么、在哪个应用里，所以能把专有名词、代码标识符转写对。这正是他「语音正从次要模态走向主要模态」观点的落地：他认为语音输入比打字快 3–5 倍，认知负荷也更低。"
+     ]
+    }},
+    {"work": {
+     "name": "网络老兵的工具箱：queqiao · tunless · agentreach", "url": "https://github.com/bojieli/queqiao",
+     "meta": ["2026.08", "Go / Swift", "网络"],
+     "bullets": [
+      "<strong>queqiao（鹊桥，★417）</strong>：自托管的广域网优化传输，专为两端都由你控制的长距离困难链路设计。基于带认证的 QUIC，可回退到 TLS/TCP，入口是 SOCKS5；关键思路是「把丢包当作擦除，而不是拥塞」。",
+      "<strong>tunless（★116）</strong>：不用 TUN 设备的透明代理，在 socket 层捕获流量交给你现有的 SOCKS5 代理：没有假 IP、不劫持路由、不需要第二套 TCP 栈。",
+      "<strong>agentreach（★182）</strong>：让你的编程 Agent 连到任何能 SSH 的机器上工作，而服务器端「永远拿不到你的 Agent」。",
+      "<strong>GreenBubbles（★395，Rust）</strong>：让 AI Agent 实时读取你在 Mac 上的微信聊天记录，只在本地存储。"
+     ]
+    }},
+    {"work": {
+     "name": "OpenURMA 与 OpenClickNP", "url": "https://github.com/bojieli/OpenURMA",
+     "meta": ["2026.05", "C++", "净室实现"],
+     "paras": [
+      "OpenURMA 是统一总线（UB）协议的净室开源实现，附 arXiv 论文；OpenClickNP 则在 Alveo U50 FPGA 上重新实现了他博士期间的 SIGCOMM 2016 论文 ClickNP。两个项目把他职业生涯最核心的两段系统工作，以可复现的方式交还给了社区。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub 183 个公开仓库的语言分布（按仓库数）是 C、Python、JavaScript、C++、PHP、HTML、TeX，几乎就是一位系统研究者十几年的履历。近一年 44,769 次贡献，在本站收录的 92 人里仅次于 Peter Steinberger。"},
+    {"table": {
+     "cols": ["仓库", "★", "时间", "说明"],
+     "rows": [
+      ["ai-agent-book", "55,263", "2025", "《深入理解 AI Agent》开源主仓库"],
+      ["ai-infra-book", "6,824", "2026", "《深入理解 AI Infra》开源书稿"],
+      ["queqiao", "417", "2026", "长距离链路的广域网优化代理"],
+      ["greenbubbles", "395", "2026", "让 Agent 实时读取微信记录"],
+      ["ustc-course", "291", "—", "USTC 评课社区"],
+      ["agentreach", "182", "2026", "编程 Agent 连到任意 SSH 主机"],
+      ["CompilerBackdoor", "101", "2014", "复现《Reflections on Trusting Trust》"],
+      ["OpenURMA", "80", "2026", "统一总线协议的净室实现"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://01.me/", "paras": [
+     "域名只有两个数字：01.me。博客中英双语，导航只有 About、Research、Archives、English。文章普遍很长，多是演讲整理、对谈转录和深度技术分析，每篇开头都有中英文切换。",
+     "Research 页面按「近期工作」列出论文，每篇都附一个可交互的配套网站，这是研究者里很少见的呈现方式。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术栈", "Hexo 7，托管在 Cloudflare"],
+      ["内容", "演讲整理、直播对谈转录、技术调研、读书笔记，甚至心理咨询实录和小说创作手记"],
+      ["更新", "2026 年上半年几乎每两周一篇长文"],
+      ["早年博客", "ring0.me（博士论文介绍等）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-06-26", "title": "AI Agent 的两朵云：流式与环境交互，自主从经验中学习", "url": "https://01.me/", "note": "Flink Forward Asia 2026 主题演讲整理。"},
+     {"date": "2026-05-29", "title": "当所有人都去卷 Coding，我在做什么？", "url": "https://01.me/", "note": "腾讯研究院「AI 跃迁者」直播对谈的完整转录，最多一万六千多人在线。"},
+     {"date": "2026-04-21", "title": "从 Claude Code 看 Harness Engineering", "url": "https://01.me/"},
+     {"date": "2026-03-16", "title": "蒸馏 / 《蒸馏》创作手记", "url": "https://01.me/", "note": "一篇小说和它的创作手记。"},
+     {"date": "2026-03-09", "title": "全球算力能支撑多少数字员工？", "url": "https://01.me/"},
+     {"date": "2026-01-29", "title": "主权智能体：Clawdbot / OpenClaw 深度调研", "url": "https://01.me/"},
+     {"date": "2025-12-21", "title": "评课社区存储性能问题始末", "url": "https://01.me/"}
+    ]},
+    {"h3": "几个核心观点"},
+    {"ul": [
+     "<strong>「大世界假设」：</strong>主流 Scaling Law 暗含「小世界假设」，以为有用的知识就那么多，学一次就够；但真实垂直场景里的知识根本不在训练语料里。最强的能力是学习与适应，这也解释了为什么很多 Coding Agent 跑分很高，到真实场景却不好用。",
+     "<strong>语音是被低估的主模态：</strong>如果语音交互足够自然，人就不必困在格子间里用不健康的姿势长期打字，「完全可以坐在海边、草地或家里独立办公」。",
+     "<strong>「有趣」和「有用」是正交的：</strong>有趣门槛低、易传播但上限低；有用更难但上限高。两者会像钟摆一样来回摆动：现在先做有用的，等 AGI 把人从生产中解放出来，有趣会重新回归。"
+    ]},
+    {"quote": "我特别讨厌同质化竞争。", "cite": "李博杰，腾讯研究院「AI 跃迁者」直播，2026-05-29"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["研究", "顶会背景 + 工业界大规模系统经验，能把问题量化", "独立研究者身份下的论文多为预印本，同行评议情况需看具体论文"],
+      ["写作", "两本完整开源书，社区翻译十几种语言", "长文篇幅大，适合系统阅读而非快速浏览"],
+      ["工程", "从 FPGA、总线到 Agent 工具都亲手实现", "2026 年新开源的工具较多，成熟度各不相同"],
+      ["方向", "坚持做语音与人机交互，避开同质化竞争", "语音 Agent 的商业化路径仍在探索中"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>系统功底是长期资产：</strong>从网卡、总线到 Agent，底层理解让他总能量化地讨论问题。",
+     "<strong>把书和课都开源：</strong>写作是对知识最彻底的整理，也是最好的个人名片。",
+     "<strong>论文配交互网站：</strong>让研究被更多人看懂。",
+     "<strong>把旧作品还给社区：</strong>用净室实现重写自己的博士工作和工业项目，让它们可复现。",
+     "<strong>避开同质化：</strong>当所有人都涌向同一方向时，认真想想反面。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "《深入理解 AI Agent》在线版", "url": "https://bojieli.github.io/ai-agent-book/astro/", "why": "想系统了解 Agent 的设计原理，从这本免费开源书开始。"},
+     {"name": "当所有人都去卷 Coding，我在做什么？", "url": "https://01.me/", "why": "一场直播对谈的完整转录，能快速了解他的「反共识」判断。"},
+     {"name": "queqiao", "url": "https://github.com/bojieli/queqiao", "why": "看一位网络研究者怎样把「丢包是擦除，不是拥塞」做成可部署的工具。"}
+    ]}
+   ]
+  }
  ],
- "cta": "从《深入理解 AI Agent》的第一章读起。",
+ "cta": "从《深入理解 AI Agent》读起，或者去 01.me 看一场演讲整理。",
  "sources": [
   {"label": "李博杰的 X 个人资料", "url": "https://x.com/bojie_li"},
   {"label": "博客 01.me", "url": "https://01.me/"},
   {"label": "01.me Research", "url": "https://01.me/research/"},
   {"label": "GitHub：bojieli", "url": "https://github.com/bojieli"},
+  {"label": "《深入理解 AI Agent》开源仓库", "url": "https://github.com/bojieli/ai-agent-book"},
+  {"label": "《深入理解 AI Infra》开源仓库", "url": "https://github.com/bojieli/ai-infra-book"},
+  {"label": "queqiao README", "url": "https://github.com/bojieli/queqiao"},
+  {"label": "OpenURMA", "url": "https://github.com/bojieli/OpenURMA"},
+  {"label": "USTC 评课社区", "url": "https://github.com/USTC-iCourse/ustc-course"},
   {"label": "IT之家相关报道（2026-07）", "url": "https://www.ithome.com/0/973/883.htm"},
   {"label": "澎湃新闻相关报道", "url": "https://www.thepaper.cn/newsDetail_forward_33531570"}
  ]
