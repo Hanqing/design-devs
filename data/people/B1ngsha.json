@@ -2,160 +2,159 @@
  "name": "冰沙 Cheyne Chen",
  "role": "全栈工程师 · Xspark AI · 前腾讯游戏",
  "title": "冰沙：「不願活在籠子<em>直到羽翼潰爛</em>」",
- "dek": "一位深圳的全栈工程师，白天写全栈、晚上折腾基础设施。TA 在腾讯游戏做过蓝鲸产品家族的平台 SaaS，现在加入了由 Z 世代创立的具身智能公司 Xspark AI，负责网站、数据管线和评测系统。",
- "card": "前腾讯游戏（蓝鲸平台 SaaS）全栈工程师，现于具身智能公司 Xspark AI，深圳。",
+ "dek": "一位深圳的全栈工程师，「白天写全栈，晚上折腾基础设施」。TA 从腾讯实习到转正，在蓝鲸智云产品家族里做平台 SaaS；2025 年底写年度总结时说「这片天空太小了」，给 2026 年定了三个目标：换一份更有挑战的工作、做开源贡献、把注意力放回自己的节奏。现在 TA 在具身智能公司 Xspark AI 负责网站、数据管线和评测系统，也给 Apache Seata-Go、XPolicyLab 提交了代码。",
+ "card": "Xspark AI 全栈工程师，前腾讯蓝鲸平台 SaaS 开发；从年度总结里的目标一步步走到现在。",
  "location": "中国深圳",
- "tags": [
-  "全栈",
-  "Go",
-  "Django",
-  "基础设施",
-  "具身智能"
- ],
+ "updated": "2026-10-21",
+ "tags": ["全栈", "Go", "基础设施", "具身智能", "开源贡献"],
  "links": [
-  {
-   "label": "b1ngsha.github.io",
-   "url": "https://b1ngsha.github.io"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/b1ngsha"
-  },
-  {
-   "label": "Xspark AI",
-   "url": "https://x.com/xspark_ai"
-  }
+  {"label": "b1ngsha.github.io", "url": "https://b1ngsha.github.io"},
+  {"label": "GitHub", "url": "https://github.com/b1ngsha"},
+  {"label": "Xspark AI", "url": "https://x.com/xspark_ai"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「A Fullstack Engineer at day, an infrastructure enthusiast at night.」一个从游戏大厂走向具身智能创业公司的年轻工程师。",
-  "<strong>经历：</strong>腾讯游戏，参与蓝鲸（BlueKing）产品家族的平台 SaaS（Django 与 Gin），负责架构设计与全栈开发；现在在 Xspark AI 负责网站、数据管线与评测系统的设计、建设与运维。",
-  "<strong>练手项目：</strong>Go Web 框架、Redis 分布式锁与消息队列、Gin 聊天 Demo、AI 教学系统、agent-kit 等。"
+  "<strong>一句话：</strong>「b1ngsha, aka Cheyne. A Fullstack Engineer at day, an infrastructure enthusiast at night.」GitHub 简介「Maybe a Full-Stack Developer」。",
+  "<strong>代表作：</strong>Xspark AI 的网站、数据管线与评测系统；开源贡献：Apache Seata-Go、XPolicyLab（IROS 2026 ScaleInfra Workshop 最佳工具论文）、OceanBase PowerContext；个人项目：Go Web 框架、Redis 分布式锁与消息队列、跨 Agent 的 agent-kit。",
+  "<strong>关键数字：</strong>GitHub 近一年 1,636 次贡献；X 推文约 750 条；博客第一篇文章就是 2025 年度总结。",
+  "<strong>学习方式：</strong>把大厂里「直接用就好」的基础组件亲手写一遍，并做 CMU 15-445 数据库课程的实验。"
  ],
- "lead": "冰沙的 X 简介最后一句是繁体字：「不願活在籠子直到羽翼潰爛。」这句话解释了一个工程师为什么会离开大厂，去一家由清华、上交、港大和蔚来背景的年轻人创立的具身智能公司。",
+ "lead": "2025 年的最后一天前，冰沙写下第一篇年度总结。TA 坦白说，腾讯的同事都很好，mentor 也认可 TA，「但这片天空太小了，我想去更广阔的天地看看」。总结的最后是三个愿望：换一份工作，接触更大的业务与更复杂的挑战；接触开源，尝试做出开源贡献；更好地屏蔽噪音。不到一年，前两个都实现了。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "全栈工程师、基础设施爱好者"],
+     ["所在地", "中国深圳"],
+     ["教育", "深圳大学（毕业设计：编程课程的 AI 辅助学习系统）"],
+     ["现任", "Xspark AI：网站、数据管线、评测系统的设计、构建与运维"],
+     ["此前", "腾讯游戏，蓝鲸智云平台 SaaS（Django + Gin），实习后转正"],
+     ["技术栈", "Go、Python、TypeScript；Django、Gin、Redis、MySQL、Docker"],
+     ["开源贡献", "Apache Seata-Go、XPolicyLab、OceanBase PowerContext、蓝鲸权限中心 SaaS"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "在 Xspark AI，冰沙负责的是具身智能公司的「地基」：网站、数据管线和评测系统。对一家以数据为核心的机器人公司来说，数据怎么流转、模型怎么被评测，决定了研究能走多远。TA 参与的 XPolicyLab 是一个统一的机器人策略评测与部署生态，收录 50 多种先进的操作策略，获得 IROS 2026 ScaleInfra Workshop 最佳工具论文。"},
+    {"p": "业余时间，TA 用自己的方式学习基础设施：从零实现 Go Web 框架、Redis 分布式锁和消息队列，做 CMU 15-445 的实验，并维护一套在 Cursor、Codex CLI、Claude Code 里通用的 Agent Skills。"},
+    {"note": "本页依据 b1ngsha.github.io（Experience 与 2025 年度总结）、GitHub 主页与 README 和 X 资料整理，资料截至 2026 年 10 月。年度总结中的私人生活内容未收录。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2022",
-       "title": "开始在 GitHub 写代码",
-       "text": "2022 年注册 GitHub，简介写着「Maybe a Full-Stack Developer」。"
-      },
-      {
-       "when": "2023",
-       "title": "游戏项目",
-       "text": "参与 X-Project 系列小游戏的开发。"
-      },
-      {
-       "when": "腾讯游戏",
-       "title": "蓝鲸平台 SaaS",
-       "text": "在蓝鲸产品家族中参与多个平台 SaaS 项目（Django、Gin），负责架构设计与全栈开发。业余用 Go 实现 Redis 分布式锁、消息队列和聊天 Demo，并做了一个 AI 教学系统。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "Xspark AI",
-       "text": "加入「Z 世代创立、以数据为核心」的具身智能公司 Xspark AI，负责网站、数据管线与评测系统；同时写自己的 Go Web 框架和 agent-kit。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2022–2023", "title": "开始写代码", "text": "2022 年注册 GitHub；2023 年参与 X-Project 系列小游戏的开发。"},
+     {"when": "2024", "title": "腾讯实习与 Go", "text": "在腾讯蓝鲸团队实习；业余用 Go 实现 Redis 分布式锁、Redis 消息队列和 Gin 聊天 Demo；做深圳大学毕业设计：用 Gin + 通义千问做编程课程的 AI 辅助教学系统，能定时抓取题库、生成代码、纠错与分析。"},
+     {"when": "2025", "title": "转正与反思", "text": "毕业转正，先后参与多个蓝鲸项目，理解了整个产品体系；同时意识到架构相对简单，「正反馈太少」，开始自学 CMU 15-445，业余带了两个电商项目，从全栈开发到部署运维。从零写了一个 Go Web 框架。"},
+     {"when": "2025.12", "title": "第一篇年度总结", "text": "写下 2026 年的目标：换工作、做开源、屏蔽噪音。"},
+     {"when": "2026", "title": "Xspark AI 与开源", "text": "加入具身智能公司 Xspark AI；向 Apache Seata-Go、XPolicyLab、OceanBase PowerContext 提交代码；开源 agent-kit。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Xspark AI",
-       "meta": "具身智能",
-       "text": "以数据为核心构建具身智能，团队来自清华、上交、港大、蔚来。TA 负责网站、数据管线与评测系统。",
-       "url": "https://x.com/xspark_ai"
-      },
-      {
-       "name": "go-web-framework",
-       "meta": "2025 · Go",
-       "text": "从零实现的 Go Web 框架，理解框架的最好方式是写一个。",
-       "url": "https://github.com/b1ngsha/go-web-framework"
-      },
-      {
-       "name": "redis_distributed_lock",
-       "meta": "2024 · Go",
-       "text": "基于 Redis 的分布式锁实现。",
-       "url": "https://github.com/b1ngsha/redis_distributed_lock"
-      },
-      {
-       "name": "agent-kit",
-       "meta": "2026 · Shell",
-       "text": "TA 的 Agent 工具包。",
-       "url": "https://github.com/b1ngsha/agent-kit"
-      }
+    {"work": {
+     "name": "Xspark AI 数据与评测系统", "url": "https://x.com/xspark_ai",
+     "meta": ["2026", "具身智能"],
+     "paras": [
+      "TA 在个人网站上的描述是：「Own the design, build and operation of the website, data pipelines and evaluation systems.」从设计到运维全部负责。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "XPolicyLab（贡献者）", "url": "https://github.com/XPolicyLab/XPolicyLab",
+     "meta": ["2026", "Python", "★477"],
+     "paras": [
+      "「A Unified Standard and Open Ecosystem for Robot Policy Evaluation and Deployment.」机器人策略评测与部署的统一标准和开放生态，涵盖 50 多种先进操作策略，获 IROS 2026 ScaleInfra Workshop 最佳工具论文。TA 是贡献者之一。"
+     ]
+    }},
+    {"work": {
+     "name": "agent-kit", "url": "https://github.com/b1ngsha/agent-kit",
+     "meta": ["2026", "Agent Skills"],
+     "paras": [
+      "跨 Agent 的 Skill 集合：同一份 SKILL.md 在 Cursor、Codex CLI、Claude Code 和任何遵循 Agent Skills 约定的 Agent 中都能使用。例如 find-simplifications：全仓扫描死代码、重复和过度设计，产出可落地的简化提案。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Apache Seata-Go", "2026", "分布式事务框架 Go 实现，贡献者"],
+      ["go-web-framework", "2025", "从零实现的 Go Web 框架"],
+      ["redis_distributed_lock / redis_mq", "2024", "Redis 分布式锁与消息队列"],
+      ["ai_teach_system", "2024", "深圳大学毕业设计：编程课程 AI 辅助学习系统教师端"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://b1ngsha.github.io",
-      "paras": [
-       "一个极简的个人站：「b1ngsha, aka Cheyne」，一句自我定位，然后是 Experience 和 Writing 两部分。",
-       "联系方式只有 GitHub、X、Telegram、Email 和 RSS。"
-      ]
-     }
-    }
+    {"site": {"url": "https://b1ngsha.github.io", "paras": [
+     "一个极简的 Astro 个人站：「b1ngsha, aka Cheyne」，一句自我定位，然后是 Experience 和 Writing 两部分；联系方式只有 GitHub、X、Telegram、Email 和 RSS。",
+     "Writing 目前只有一篇：2025 年度总结。它写得很坦诚：工作的正反馈、自学的方向、对新一年的期待。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，GitHub Pages"],
+      ["结构", "Experience + Writing"],
+      ["语言", "英文界面，中文文章"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "手艺与方法",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "冰沙的 GitHub 很能说明 TA 的学习方式：<strong>通过亲手实现基础组件来理解系统</strong>。分布式锁、消息队列、Web 框架，这些都是大厂里「直接用就好」的东西，TA 选择自己写一遍。"
-    },
-    {
-     "p": "这种对基础设施的热情，正是数据驱动的具身智能公司最需要的：数据管线和评测系统决定了模型能走多远。"
-    }
+    {"quote": "很多人说，技术不是靠工作学出来的，而是靠自学。我认同，也确实一直在这么做……但我还是会期待：有一天能在工作中真正接触到更难、更复杂、更具挑战的技术问题。", "cite": "冰沙，《2025 Annual Summary》"},
+    {"p": "X 简介里那句繁体字「不願活在籠子直到羽翼潰爛」，就是 TA 离开大厂的理由。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["学习", "自驱，亲手实现基础组件", "—"],
+      ["职业", "敢于从大厂走向前沿领域", "职业生涯尚早"],
+      ["开源", "已开始向大型项目贡献", "个人仓库多为学习项目，星数少"],
+      ["写作", "复盘坦诚", "公开文章还很少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>造轮子是为了理解：</strong>亲手实现一遍，才真正懂。",
-      "<strong>敢于离开舒适区：</strong>从大厂到创业公司，去更前沿的领域。",
-      "<strong>白天全栈，晚上基建：</strong>兴趣是最好的老师。",
-      "<strong>数据和评测是 AI 的地基：</strong>不只是模型，管线同样重要。"
-     ]
-    }
+    {"checklist": [
+     "<strong>写下目标，然后去做：</strong>年度总结里的愿望，一年内实现了大半。",
+     "<strong>造轮子是为了理解：</strong>亲手实现一遍，才真正懂。",
+     "<strong>正反馈很重要：</strong>工作给不了，就去找能给的地方。",
+     "<strong>数据和评测是 AI 的地基：</strong>不只是模型，管线同样重要。",
+     "<strong>从小贡献开始做开源：</strong>几个 PR 也是开始。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "2025 Annual Summary", "url": "https://b1ngsha.github.io/posts/annual-summary-2025/", "why": "一位年轻工程师的真实反思。"},
+     {"name": "XPolicyLab", "url": "https://github.com/XPolicyLab/XPolicyLab", "why": "看机器人策略评测是怎么做的。"},
+     {"name": "agent-kit", "url": "https://github.com/b1ngsha/agent-kit", "why": "一份跨 Agent 通用的 Skill 集合。"}
+    ]}
    ]
   }
  ],
- "cta": "关注 Xspark AI，看看具身智能的数据底座怎么搭。",
+ "cta": "给明年的自己写三个目标，年底再回来看。",
  "sources": [
-  {
-   "label": "冰沙的 X 个人资料",
-   "url": "https://x.com/B1ngsha"
-  },
-  {
-   "label": "b1ngsha.github.io",
-   "url": "https://b1ngsha.github.io"
-  },
-  {
-   "label": "GitHub：b1ngsha",
-   "url": "https://github.com/b1ngsha"
-  },
-  {
-   "label": "Xspark AI 的 X 账号",
-   "url": "https://x.com/xspark_ai"
-  }
+  {"label": "冰沙的 X 个人资料", "url": "https://x.com/B1ngsha"},
+  {"label": "b1ngsha.github.io", "url": "https://b1ngsha.github.io"},
+  {"label": "2025 Annual Summary", "url": "https://b1ngsha.github.io/posts/annual-summary-2025/"},
+  {"label": "GitHub：b1ngsha", "url": "https://github.com/b1ngsha"},
+  {"label": "XPolicyLab", "url": "https://github.com/XPolicyLab/XPolicyLab"}
  ]
 }

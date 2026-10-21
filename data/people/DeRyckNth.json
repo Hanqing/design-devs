@@ -1,121 +1,145 @@
 {
- "name": "DeRyckⁿ",
- "role": "Resomark 开发者",
- "title": "DeRyck：给人和 AI <em>一起写的 Markdown</em> 做一个本地工作台",
- "dek": "当越来越多的文档、笔记和代码由 AI 写成，人需要一个地方去「读」和「审」。DeRyck 做的 Resomark 是一个本地的 Mac Markdown 应用：所见即所得的实时预览、以渲染后的形式审阅 Git 差异、把你和 AI 一起工作的文件夹钉在一个侧栏里。",
- "card": "Resomark（面向人机协作的本地 Markdown 应用）开发者，渲染式 Diff 让你审阅 AI 写的改动。",
+ "name": "DeRyck",
+ "role": "Resomark 开发者 · Reso Studio",
+ "title": "DeRyck：给人和 AI 一起写的 Markdown <em>做一个本地工作台</em>",
+ "dek": "当越来越多的文档、笔记和代码由 AI 写成，人需要一个地方去「读」和「审」。DeRyck 做的 Resomark 是一个用 Swift 原生构建的 Mac Markdown 应用：所见即所得的实时预览、以渲染后的形式审阅 Git 差异、把你和 AI 一起工作的文件夹钉在一个侧栏里。它说自己「比 IDE 轻，比 Obsidian 轻」。",
+ "card": "Resomark 作者；为人机协作写作做本地 Markdown 工作台的 Mac 开发者。",
  "location": "未公开",
- "tags": [
-  "macOS",
-  "Markdown",
-  "AI 协作",
-  "Git",
-  "本地优先"
- ],
+ "updated": "2026-10-21",
+ "tags": ["macOS", "Markdown", "Swift", "人机协作", "本地优先"],
  "links": [
-  {
-   "label": "Resomark",
-   "url": "https://resomark.com"
-  },
-  {
-   "label": "@resomark_app",
-   "url": "https://x.com/resomark_app"
-  }
+  {"label": "Resomark", "url": "https://resomark.com/en/"},
+  {"label": "Release Notes", "url": "https://resomark.com/en/release-notes/"},
+  {"label": "Resomark（Mac App Store）", "url": "https://apps.apple.com/us/app/resomark/id6760566865"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个正在为 AI 时代重新设计「文档阅读与审阅」体验的开发者。",
-  "<strong>代表作：</strong>Resomark（Mac 公测版）：Live Preview（标题、列表、表格、代码、公式就地渲染，光标进入时显示源码）、Rendered diff（在渲染后的文档里高亮 AI 的增删改）、Local workbench（无数据库，只钉住你真正在用的文件夹）。",
-  "<strong>定位：</strong>比 IDE 轻，比 Obsidian 轻；原生、快速，没有插件商店，也不需要配置。"
+  "<strong>一句话：</strong>X 简介只有一行「Building @resomark_app」。产品标语：「A local Markdown app for AI-human collaboration.」",
+  "<strong>代表作：</strong>Resomark（公测中），开发者为 Reso Studio Inc.，官网中英双语。",
+  "<strong>关键数字：</strong>2026 年 5 月上架 Mac App Store；6–7 月十天内连发 0.6.0 到 0.6.9 多个版本；号称在 10 万个以上 Markdown 文件下也能快速冷启动。",
+  "<strong>定价：</strong>免费版不限时；Pro 计划为 $5.99/月或 $49.99/年，每台 Mac 有 14 天试用。"
  ],
- "lead": "Resomark 的官网副标题只有三个短语：「Local files. Live Preview. Rendered diff.」它回答了一个新问题：当 AI 改了你的文档，你应该怎么看懂它改了什么？",
+ "lead": "Resomark 的常见问题里有一句很干脆的回答：「Resomark 是 AI 应用吗？不是。它不生成文字。」它要做的是另一件事：在你已经在用的 AI 工具旁边，做一个审阅和编辑本地 Markdown 的地方。AI 改了你的文档之后，你能在渲染后的页面里直接看到哪里加了、哪里删了，再决定要不要保留。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立 Mac 开发者"],
+     ["公司", "Reso Studio Inc."],
+     ["产品", "Resomark（公测）"],
+     ["技术", "Swift 原生 Mac 组件，「Native, not Electron」"],
+     ["要求", "macOS 14 或更高"],
+     ["X", "2014 年注册，推文约 200 条"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Resomark 有三个核心能力。<strong>Live Preview</strong>：标题、列表、表格、代码、公式就在你写的地方渲染，光标移进去就能编辑源码，纯 .md 文件始终是唯一事实来源，Resomark 渲染但不重新格式化它。<strong>Rendered diff</strong>：对 Git 跟踪的文件，在渲染后的文档里高亮增删改，让你在上下文里审阅 AI 写的改动。<strong>Local workbench</strong>：没有数据库，只是把你 Mac 上真正在用的文件夹钉在一个侧栏里：笔记、Skills、AI 配置、dotfiles。"},
+    {"note": "本页依据 resomark.com（首页、常见问题、Release Notes）、Mac App Store 资料和 X 资料整理，资料截至 2026 年 10 月。作者公开的个人信息很少，未收录未经证实的背景。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2014",
-       "title": "注册 X",
-       "text": "以 DeRyck 的名字活跃在网上，简介只有一行「Building @resomark_app」。"
-      },
-      {
-       "when": "2026",
-       "title": "Resomark 公测",
-       "text": "发布 Mac 上的 Resomark 公测版：中英双语官网，强调本地文件、纯 .md 作为唯一事实来源、Resomark 渲染但不重新格式化你的文件。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2014", "title": "注册 X", "text": "以 DeRyck 的名字活跃在网上。"},
+     {"when": "2026.05", "title": "Resomark 上架", "text": "Resomark 在 Mac App Store 上架，同时在官网提供直接下载的公测版。"},
+     {"when": "2026.06", "title": "0.6.0", "text": "交互式 Markdown 表格、文档大纲面板、更灵活的多窗口、只读模式下仍可勾选任务。"},
+     {"when": "2026.07", "title": "0.6.5–0.6.9", "text": "最近标签切换器（Control + `）、更美观的 Mermaid 图、从 Excel / Numbers 粘贴成 Markdown 表格、记住阅读位置、全屏查看图表与图片、适配阿拉伯语和希伯来语的从右到左书写。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Resomark",
-       "meta": "macOS · 公测中",
-       "text": "A local Markdown app for AI-human collaboration：实时预览、渲染式 Diff、本地工作台。",
-       "url": "https://resomark.com"
-      }
+    {"work": {
+     "name": "Resomark", "url": "https://resomark.com/en/",
+     "meta": ["2026", "macOS 14+", "公测 · 免费"],
+     "paras": [
+      "<strong>比 IDE 轻</strong>：AI 驱动的开发不需要完整的 IDE，Resomark 能打开任何仓库并预览每个代码文件。<strong>比 Obsidian 轻</strong>：原生、快速，没有插件商店、不用配置，任何文件夹都能当 vault 打开，[[Wiki-link]] 开箱即用。",
+      "支持 KaTeX 公式、Mermaid 图、代码与配置高亮、本地图片嵌入；可以设为 .md 与代码文件的默认打开方式，在 Finder 里按空格用快速查看预览。"
+     ],
+     "facts": [["免费版", "不限时"], ["Pro", "$5.99/月 · $49.99/年，14 天试用"], ["隐私", "只打开你选择的本地文件，不上传"]]
+    }},
+    {"table": {
+     "cols": ["设计取舍", "说明"],
+     "rows": [
+      ["不是 AI 应用", "不生成文字，只做审阅与编辑层"],
+      ["纯文本优先", "文件保持普通 Markdown，可以用任何编辑器打开"],
+      ["无数据库", "侧栏只是钉住的真实文件夹"],
+      ["原生", "Swift + 原生 Mac 组件，不用 Electron"],
+      ["官网不收款", "Pro 将在 App 内用 Google 或 Apple 登录后购买"]
      ]
-    }
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "网站",
+   "title": "官网研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://resomark.com",
-      "paras": [
-       "官网按三个核心能力分节：Live Preview（「所见即所得，不用在预览面板之间切换」）、Rendered diff（「以渲染后的 Markdown 审阅改动」）、Local workbench（「把你真正在用的每个文件夹钉住」）。",
-       "最后用两句话给出定位：「Lighter than your IDE」「Lighter than Obsidian」。"
-      ]
-     }
-    }
+    {"site": {"url": "https://resomark.com/en/", "paras": [
+     "官网按三个核心能力分节：Live Preview（「所见即所得，不用在预览面板之间切换」）、Rendered diff（「以渲染后的 Markdown 审阅改动」）、Local workbench（「把你真正在用的每个文件夹钉住」），再用「Lighter than your IDE」「Lighter than Obsidian」两句话定位。",
+     "常见问题、定价、隐私、退款、更新日志一应俱全，中英文切换。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Netlify"],
+      ["节奏", "Release Notes 记录每个版本"],
+      ["透明", "明确说明不是 AI 应用、不上传文档"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "产品观",
    "blocks": [
-    {
-     "p": "Resomark 最有洞察力的设计是<strong>渲染式 Diff</strong>：传统的 Git diff 是给代码设计的，而 AI 改写的文档需要在「看起来的样子」里审阅。把增删改直接标在渲染后的文档上，让非工程师也能放心地接受 AI 的修改。"
-    },
-    {
-     "p": "「纯 .md 是唯一的事实来源」则是另一种尊重：你的文件不会被锁进某个数据库，任何编辑器都能打开。"
-    }
+    {"quote": "Is Resomark an AI app? No. Resomark does not generate text. It works next to the AI tools you already use, as a review and editing layer for local Markdown files.", "cite": "Resomark 官网常见问题"},
+    {"p": "这句话说明了 DeRyck 对 AI 时代工具的判断：生成已经不稀缺，稀缺的是让人放心地审阅和接受改动的界面。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["洞察", "渲染式 Diff 切中 AI 改写文档的审阅痛点", "—"],
+      ["体验", "原生、快、零配置", "仍在公测，功能还在补齐"],
+      ["数据", "纯 .md、本地文件、无数据库", "仅支持 macOS"],
+      ["商业", "免费版不限时", "Pro 尚未开放，长期定价待验证"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>为新的工作方式设计工具：</strong>人机协作需要新的「审阅」界面。",
-      "<strong>定位要清楚：</strong>「比 IDE 轻、比 Obsidian 轻」一句话说清。",
-      "<strong>尊重文件格式：</strong>不重新格式化，不锁定数据。",
-      "<strong>做减法：</strong>没有插件商店，没有配置。"
-     ]
-    }
+    {"checklist": [
+     "<strong>为新的工作方式设计工具：</strong>人机协作需要新的审阅界面。",
+     "<strong>定位要清楚：</strong>「比 IDE 轻、比 Obsidian 轻」，一句话说清。",
+     "<strong>说清楚自己不是什么：</strong>「不是 AI 应用」反而让人信任。",
+     "<strong>尊重文件格式：</strong>不重新格式化，不锁定数据。",
+     "<strong>高频发布：</strong>公测期也认真写每一版的更新说明。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Resomark", "url": "https://resomark.com/en/", "why": "用它打开你和 AI 一起写的文档文件夹。"},
+     {"name": "Release Notes", "url": "https://resomark.com/en/release-notes/", "why": "看一个公测产品如何快速迭代。"},
+     {"name": "@resomark_app", "url": "https://x.com/resomark_app", "why": "关注后续版本。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你经常让 AI 改文档，下载 Resomark 公测版看看渲染式 Diff。",
+ "cta": "让 AI 改一份文档，然后用 Resomark 的渲染式 Diff 审一遍。",
  "sources": [
-  {
-   "label": "DeRyckⁿ 的 X 个人资料",
-   "url": "https://x.com/DeRyckNth"
-  },
-  {
-   "label": "Resomark 官网",
-   "url": "https://resomark.com/en"
-  }
+  {"label": "DeRyckⁿ 的 X 个人资料", "url": "https://x.com/DeRyckNth"},
+  {"label": "Resomark 官网", "url": "https://resomark.com/en/"},
+  {"label": "Resomark Release Notes", "url": "https://resomark.com/en/release-notes/"},
+  {"label": "Resomark（Mac App Store）", "url": "https://apps.apple.com/us/app/resomark/id6760566865"}
  ]
 }
