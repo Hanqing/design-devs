@@ -1,167 +1,163 @@
 {
- "name": "徹言 CHEYAN",
+ "name": "徹言",
  "role": "程序员 · 作家 · 编剧 · 东京在住",
- "title": "徹言：一个写代码、<em>也写书和剧本</em>的人",
- "dek": "2009 年开始做全栈开发，2014 年创办字体公司文悦科技并获得阿里巴巴投资；出版过七本书，其中一本的影视改编权授予了爱奇艺。如今 TA 住在东京，做日语学习工具 Fudoki、全国电视台直播站 Terebi，以及给 OpenClaw Agent 用的「会思考的博客引擎」。",
- "card": "程序员、作家、编剧，文悦科技（获阿里投资）创始人，Fudoki 作者，东京在住。",
+ "title": "徹言：一个写代码、也<em>写书和剧本</em>的人",
+ "dek": "2007 年办电子杂志，2009 年开始做全栈开发，2014 年在北京创办字体公司文悦科技并获得阿里巴巴投资；出版过七本书，其中一本的影视改编权授予了爱奇艺。如今 TA 住在东京，做日语学习工具 Fudoki、日本电视台节目聚合站 Terebi、给 OpenClaw Agent 用的博客引擎 Clawtter，还在 Linux 桌面和输入法上折腾出一整套开源配置。",
+ "card": "Fudoki、Terebi、Clawtter 作者；文悦科技创始人，出版七本书，东京在住的程序员、作家与编剧。",
  "location": "日本东京",
- "tags": [
-  "全栈",
-  "日语",
-  "写作",
-  "Linux",
-  "字体"
- ],
+ "updated": "2026-10-21",
+ "tags": ["日语学习", "写作", "字体", "Linux", "AI Agent"],
  "links": [
-  {
-   "label": "iamcheyan.com",
-   "url": "http://iamcheyan.com"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/iamcheyan"
-  },
-  {
-   "label": "Fudoki",
-   "url": "https://github.com/iamcheyan/fudoki"
-  }
+  {"label": "iamcheyan.com", "url": "http://iamcheyan.com"},
+  {"label": "Fudoki", "url": "https://fudoki.iamcheyan.com/"},
+  {"label": "GitHub", "url": "https://github.com/iamcheyan"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「程序员・作家・编剧 / 东京在住」，一个横跨代码、出版与影像的多面创作者，GitHub 简介写着「住在日本东京的普通人」。",
-  "<strong>代表作：</strong>代码：Fudoki（★900，交互式日语文本分析与语音合成）、Kotoba、Terebi、Clawtter、nas_album、7z-for-Linux、OrchideaDock（并入 Cinnamon 官方仓库）、Omarchy 中文手册翻译；创业：文悦科技（字体设计与销售，获阿里巴巴投资）；书：《王牌创业者：风口游戏》等七本。",
-  "<strong>为什么值得关注：</strong>很少有人能同时把技术、商业和文学做到「都有作品」。"
+  "<strong>一句话：</strong>X 简介「程序员・作家・编剧 / 東京在住 🗼」；GitHub 简介「日本東京に住む普通の人」（住在东京的普通人）。",
+  "<strong>代表作：</strong>Fudoki（★895）、Terebi、Kotoba、Clawtter、dotfiles（★149）、TWM、Omarchy 手册中文版；文悦科技；七本书，包括《王牌创业者：风口游戏》。",
+  "<strong>关键数字：</strong>X 关注者约 4.5 万、推文 2 万条；GitHub 143 个公开仓库，近一年 6,078 次贡献；Terebi 收录日本全国 100 多家电视台。",
+  "<strong>一个隐含主题：</strong>语言。字体是语言的形状，书是语言的故事，Fudoki、Kotoba 和 Rime 输入法配置是学习与输入另一门语言的工具。"
  ],
- "lead": "徹言的个人网站用日文写着：「2009 年起从事全栈开发……2014 年创业并获得投资。拥有丰富的团队管理与项目执行经验，也参与书籍出版和影像作品的编剧与制作。」下面是一长串作品，从 2007 年的电子杂志，一直排到 2025 年的日语学习工具。",
+ "lead": "Fudoki 的副标题是「日本語を『見える化』する Web ツール」：把一段日文拆成词，标出词性、读音和结构，再用语音合成读出来。它面向日语学习者，也面向自然语言处理研究者。做它的人十多年前在北京做字体公司，写过小说和剧本，现在住在东京，每天都在和日语打交道。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "全栈开发者、作家、编剧"],
+     ["所在地", "日本东京"],
+     ["技术栈", "Python（Flask / PyWebIO / Streamlit）、JavaScript、MySQL、Shell、Lua、QML"],
+     ["创业", "GANLINE Olive Media（2012）；文悦科技（2014，北京，获阿里巴巴投资）"],
+     ["出版", "七本书，2017–2020 年；一部影视改编权授予爱奇艺"],
+     ["现在", "全栈开发 / 书籍写作 / 剧本创作"],
+     ["桌面环境", "NixOS、Omarchy、Sway / i3、Neovim、Rime（声笔自然 + 日语罗马音）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "徹言的项目跟着生活走。到了东京，TA 做了日语文本分析工具 Fudoki、单词记忆工具 Kotoba，以及随机播放日本电视台 YouTube 频道节目的 Terebi。用上 Linux 和 Omarchy，TA 就写插件、翻译手册、整理一键配置。开始用 AI Agent，TA 就做了 Clawtter：把 OpenClaw Agent 的记忆和笔记发布成一个静态网站。"},
+    {"note": "本页依据 iamcheyan.com（关于、项目、出版物）、GitHub 主页与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2007",
-       "title": "VEIKIN 电子杂志",
-       "text": "2007 年 8 月 29 日创刊，以原创内容为主的电子杂志。"
-      },
-      {
-       "when": "2009–2012",
-       "title": "全栈开发与第一次创业",
-       "text": "开始全栈开发（Python、JavaScript、MySQL 等）；2012 年创办专注网站设计开发的 GANLINE Olive Media。"
-      },
-      {
-       "when": "2014",
-       "title": "文悦科技",
-       "text": "在北京创办文悦科技，专注字体的设计、开发与销售，获得阿里巴巴投资。"
-      },
-      {
-       "when": "2017–2020",
-       "title": "出版七本书",
-       "text": "《这世界正在遗忘不改变的人》《你暖起来就像好天气》《王牌创业者：风口游戏》（影视改编权授予爱奇艺，有声版权授予北京人民广播电台）《世界正在惩罚你这样的人》（与李尚龙等合著）《别去抱怨生活的苦，那是去看世界的路》《区块链风云》《在别人的地图上，找不到自己的路》（台湾沐光文化出版）。"
-      },
-      {
-       "when": "2021–2024",
-       "title": "工具与游戏复刻",
-       "text": "为出版行业开发数据检索工具 YRBOOK BAS；复刻经典网游的 Mir2EI2.0；为 Cinnamon 桌面做的主题 OrchideaDock 被并入官方仓库；把 7z 移植到 Linux；做了日语单词记忆工具 Kotoba。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "东京与 AI",
-       "text": "Fudoki 帮日语学习者和 NLP 研究者分析日文文本并朗读；Terebi 让人在线观看全日本一百多家电视台的公开节目；Clawtter 是给 OpenClaw Agent 的「有知觉的博客引擎」，把 Agent 的记忆与笔记发布成静态站；还翻译了 Omarchy 手册中文版。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2007", "title": "VEIKIN 电子杂志", "text": "8 月 29 日创刊，以原创内容为主。"},
+     {"when": "2009–2012", "title": "全栈开发与第一次创业", "text": "开始全栈开发；2012 年创办专注网站设计开发的 GANLINE Olive Media。"},
+     {"when": "2014", "title": "文悦科技", "text": "在北京创办文悦科技，专注字体的设计、开发与销售，获得阿里巴巴投资。"},
+     {"when": "2017–2020", "title": "出版七本书", "text": "《这世界正在遗忘不改变的人》《你暖起来就像好天气》《王牌创业者：风口游戏》《世界正在惩罚你这样的人》（合著）《别去抱怨生活的苦，那是去看世界的路》《区块链风云》《在别人的地图上，找不到自己的路》（台湾出版）。"},
+     {"when": "2021–2024", "title": "工具与复刻", "text": "为出版行业开发数据检索工具 YRBOOK BAS；复刻经典网游 Mir2EI2.0；Cinnamon 桌面主题 OrchideaDock 被并入官方仓库；把 7z 移植到 Linux；做了 Kotoba。"},
+     {"when": "2025–2026", "title": "东京与 AI", "text": "Fudoki、Terebi 上线；开源 Clawtter、NAS 相册管理、本地服务仪表盘、Omarchy 语音输入增强与工作区总览插件、pi 扩展；翻译 Omarchy 手册中文版。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Fudoki",
-       "meta": "2025 · ★900",
-       "text": "交互式日语文本分析与语音合成 Web 应用，面向学习者和自然语言处理研究者。",
-       "url": "https://github.com/iamcheyan/fudoki"
-      },
-      {
-       "name": "Terebi",
-       "meta": "2025 · 视频站",
-       "text": "在线收看日本全国一百多家电视台的公开节目。",
-       "url": "http://iamcheyan.com"
-      },
-      {
-       "name": "Clawtter",
-       "meta": "2026 · Python",
-       "text": "把 OpenClaw Agent 的记忆与笔记发布成静态网站的博客引擎。",
-       "url": "https://github.com/iamcheyan/Clawtter"
-      },
-      {
-       "name": "《王牌创业者：风口游戏》",
-       "meta": "2018 · 小说",
-       "text": "影视改编权授予爱奇艺，有声版权授予北京人民广播电台。",
-       "url": "http://iamcheyan.com"
-      }
+    {"work": {
+     "name": "Fudoki", "url": "https://github.com/iamcheyan/fudoki",
+     "meta": ["2025", "JavaScript", "日语学习"],
+     "paras": [
+      "「An interactive Japanese text analysis and speech synthesis web app.」把日文文本「可视化」：分词、词性、读音，并能朗读。README 中日英三语，附有 2026 年 10 月的 UI 审查报告和桌面、手机深色模式截图。"
+     ],
+     "facts": [["GitHub", "★895 · ⑂50"], ["在线", "fudoki.iamcheyan.com"]]
+    }},
+    {"work": {
+     "name": "Terebi", "url": "https://terebi.iamcheyan.com/",
+     "meta": ["2025", "Python + HTML", "视频站"],
+     "paras": [
+      "整理日本全国和地方电视台的 YouTube 频道，随机挑一个频道播放节目，让你在线看到 100 多家电视台的公开内容。对学日语的人来说，这是最自然的听力素材。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "Clawtter", "url": "https://github.com/iamcheyan/Clawtter",
+     "meta": ["2026", "Python", "OpenClaw"],
+     "paras": [
+      "「Sentient blog engine for OpenClaw agents.」把 Agent 的记忆和笔记发布成静态网站，让 Agent 拥有一个公开的「推特」。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["dotfiles", "2025", "Zsh + 自管 Neovim + Tmux + 本地 AI 工具一键配置（★149）"],
+      ["TWM", "2025", "Sway / i3 共享 Waybar、Kitty 等的桌面配置"],
+      ["rime", "2025", "声笔自然中文 + MS-IME 风格日语罗马音输入方案"],
+      ["omarchy-docs-cn", "2026", "Omarchy 手册简体中文翻译（非官方）"],
+      ["Kotoba", "2024", "支持切换词典的日语单词记忆工具"],
+      ["OrchideaDock", "2023", "已并入 Cinnamon 官方仓库的系统主题"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://iamcheyan.com",
-      "paras": [
-       "IAM CHEYAN 支持日文与中文切换和深色模式。页面分为关于我、纪录片、联系方式、项目、出版物几部分，并提供 PDF 简历下载。",
-       "每个项目都标注类型与发布年份，每本书都写清出版社、ISBN 和版权授权情况，非常严谨。"
-      ]
-     }
-    }
+    {"site": {"url": "http://iamcheyan.com", "paras": [
+     "「IAM CHEYAN」支持日文与中文切换和深色模式。页面分为关于我、纪录片、联系方式、项目、出版物几部分，并提供 PDF 简历下载。",
+     "每个项目都标注类型与发布年份，每本书都写清出版社、ISBN 和版权授权情况，非常严谨。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["语言", "日文为主，可切换中文"],
+      ["结构", "简历式：经历、项目、出版物"],
+      ["托管", "Cloudflare"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "手艺与方法",
+   "id": "voice",
+   "title": "写作与身份",
    "blocks": [
-    {
-     "p": "徹言的作品有一个隐含的主题：<strong>语言</strong>。字体是语言的形状，书是语言的故事，Fudoki 和 Kotoba 是学习另一门语言的工具，Rime 输入法配置让 TA 同时输入中文和日文。"
-    },
-    {
-     "p": "TA 的开发环境也很「讲究」：一键配置的 Zsh + Neovim + Tmux、Sway / i3 平铺窗口管理器、Omarchy。对工具的打磨，和对文字的打磨是同一种性格。"
-    }
+    {"p": "徹言同时有三个身份：程序员、作家、编剧。TA 的书多是写给年轻人的成长随笔，也有创业小说和区块链题材；其中《王牌创业者：风口游戏》的影视改编权授予了爱奇艺，有声版权授予了北京人民广播电台。"},
+    {"quote": "日本東京に住む普通の人。", "cite": "徹言，GitHub 简介"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["跨界", "开发、创业、出版、编剧都有成果", "—"],
+      ["工具", "日语学习工具贴近真实需求", "多为个人项目，规模较小"],
+      ["开源", "配置与插件公开、文档详细", "高度个性化，复用需要调整"],
+      ["节奏", "近一年 6,000 多次贡献", "项目多而分散"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>不止一个身份：</strong>程序员也可以是作家和编剧。",
-      "<strong>在新的地方找新问题：</strong>到了东京，就做日语和日本电视相关的工具。",
-      "<strong>作品集要严谨：</strong>年份、类型、授权，一一写清。",
-      "<strong>为新生态做翻译：</strong>Omarchy 手册中文版降低了别人的门槛。"
-     ]
-    }
+    {"checklist": [
+     "<strong>不止一个身份：</strong>程序员也可以是作家和编剧。",
+     "<strong>在新的地方找新问题：</strong>到了东京，就做日语和日本电视相关的工具。",
+     "<strong>作品集要严谨：</strong>年份、类型、授权，一一写清。",
+     "<strong>为新生态做翻译：</strong>Omarchy 手册中文版降低了别人的门槛。",
+     "<strong>打磨自己的工具：</strong>对工具的讲究和对文字的讲究是同一种性格。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Fudoki", "url": "https://fudoki.iamcheyan.com/", "why": "贴一段日文，看它被拆开、读出来。"},
+     {"name": "Terebi", "url": "https://terebi.iamcheyan.com/", "why": "随机看一个日本电视台的节目。"},
+     {"name": "dotfiles", "url": "https://github.com/iamcheyan/dotfiles", "why": "参考一套现代终端环境。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你在学日语，打开 Fudoki 分析一段日文。",
+ "cta": "打开 Fudoki，读一段你喜欢的日文歌词。",
  "sources": [
-  {
-   "label": "徹言的 X 个人资料",
-   "url": "https://x.com/iamcheyan"
-  },
-  {
-   "label": "iamcheyan.com",
-   "url": "http://iamcheyan.com"
-  },
-  {
-   "label": "GitHub：iamcheyan",
-   "url": "https://github.com/iamcheyan"
-  }
+  {"label": "徹言的 X 个人资料", "url": "https://x.com/iamcheyan"},
+  {"label": "iamcheyan.com", "url": "http://iamcheyan.com"},
+  {"label": "GitHub：iamcheyan", "url": "https://github.com/iamcheyan"},
+  {"label": "Fudoki", "url": "https://github.com/iamcheyan/fudoki"},
+  {"label": "Clawtter", "url": "https://github.com/iamcheyan/Clawtter"}
  ]
 }

@@ -2,121 +2,149 @@
  "name": "鸡蛋仔",
  "role": "iOS 独立开发者 · Gika 作者",
  "title": "鸡蛋仔：让时间<em>一目了然</em>",
- "dek": "一位住在杭州良渚旁边的 iOS 开发者。TA 的时间追踪 App Gika 不让你给每段时间打一堆标签，而是只问一个问题：这段时间是「向上」「平衡」还是「节制」？",
- "card": "杭州良渚的 iOS 开发者，时间追踪 App Gika 作者：只用「向上 / 平衡 / 节制」三种标记。",
+ "dek": "一位住在杭州良渚旁边的 iOS 开发者。TA 的时间追踪 App Gika 不让你给每段时间打一堆标签，而是只问一个问题：这段时间是「向上」「平衡」还是「节制」？2026 年，TA 的公司又上架了两款新作：可以自托管、让人和 AI Agent 一起工作的 Wuhu，以及在所有 Apple 屏幕上播放自有片库的 Arcroom。",
+ "card": "Gika、Wuhu、Arcroom 作者；良渚边上的 iOS 独立开发者。",
  "location": "中国杭州良渚",
- "tags": [
-  "iOS",
-  "时间管理",
-  "小组件",
-  "实况活动",
-  "独立开发"
- ],
+ "updated": "2026-10-21",
+ "tags": ["iOS", "时间管理", "自托管", "Apple 全平台", "AI Agent"],
  "links": [
-  {
-   "label": "Gika（App Store）",
-   "url": "https://apps.apple.com/cn/app/gika/id1628729687"
-  }
+  {"label": "Gika（App Store）", "url": "https://apps.apple.com/cn/app/gika/id1628729687"},
+  {"label": "Wuhu（App Store）", "url": "https://apps.apple.com/us/app/wuhu-generative-space/id6807771419"},
+  {"label": "Arcroom（App Store）", "url": "https://apps.apple.com/us/app/arcroom/id6760298910"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「良渚边上的一个 iOS 开发」，用一款打磨多年的时间追踪 App 表达自己对时间的理解。",
-  "<strong>代表作：</strong>Gika（2022 年上架）：正计时、倒计时、番茄钟，多任务同时运行；一键标记「向上 / 平衡 / 节制」；日程网格与月历概览；睡眠、锻炼、冥想与前三大项目的日 / 周 / 季 / 年汇总；小组件与实况活动；四款主题。",
-  "<strong>为什么值得关注：</strong>Gika 的分类设计非常有想法：不是「工作 / 学习 / 娱乐」，而是关于这段时间对你意味着什么。"
+  "<strong>一句话：</strong>X 简介「良渚边上的一个 iOS 开发，欢迎下载我的时间追踪 app Gika」。",
+  "<strong>代表作：</strong>Gika（2022 年上架，已更新到 v2.0.6）、Wuhu - Generative Space（2026）、Arcroom（2026）。",
+  "<strong>关键数字：</strong>Gika 中国区 31 个评分、均分 4.0；三款 App 都由杭州的同一家公司发布；X 推文约 2,700 条。",
+  "<strong>Gika 的核心设计：</strong>每段时间只分三类：Thrive（向上）、Balanced（平衡）、Limit（节制），「不要一锅标签汤」。"
  ],
- "lead": "Gika 在 App Store 上的第一句介绍是：「让时间一目了然。」第二条功能写着：「一键标记：每次记录只需选择『向上』『平衡』『节制』，再也不用繁琐标签。」这是一个把复杂问题简化成三个词的设计。",
+ "lead": "大多数时间追踪工具问的是「你在做什么」，Gika 问的是「这段时间让你变得更好、保持平衡，还是需要节制」。一次点击完成标记，再用日程网格和月历把一天、一个月的时间变成一眼能看出模式的图形。记录本身成了反思，而不是负担。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 独立开发者"],
+     ["所在地", "中国杭州良渚"],
+     ["公司", "Hangzhou Hu Di Shen Shan Technology Co., Ltd.（App Store 开发者名称）"],
+     ["产品", "Gika、Wuhu、Arcroom"],
+     ["平台", "iPhone、iPad、Mac、Apple TV、Apple Vision Pro"],
+     ["网站", "没有独立个人网站，App Store 页面是最完整的作品说明"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "鸡蛋仔的三款 App 看起来很不一样，但有一个共同点：<strong>你的数据，你自己掌控</strong>。Gika 记录你的时间；Arcroom 的片库就是你自己存储上的普通文件夹，不需要装服务器软件、不需要注册账号；Wuhu 连接的是你或团队自己托管的服务器，由空间管理员决定 Agent 能用哪些 AI 服务和工具。"},
+    {"note": "本页依据 App Store 资料（中国区与美区）和 X 资料整理，资料截至 2026 年 10 月。作者公开的个人信息很少，未收录未经证实的背景。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2021",
-       "title": "加入 X",
-       "text": "以「鸡蛋仔」的名字分享 iOS 开发与独立开发日常，常常和同样住在良渚的开发者（比如图拉鼎）出现在同一个圈子里。"
-      },
-      {
-       "when": "2022-10",
-       "title": "Gika 上架",
-       "text": "以 Hangzhou Hu Di Shen Shan Technology 的名义发布时间追踪 App Gika，并持续迭代，加入番茄钟、日程网格、小组件、实况活动和多套主题。"
-      },
-      {
-       "when": "现在",
-       "title": "持续打磨",
-       "text": "通过 Gika 高级版（月度或年度订阅）支持产品持续更新。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2021", "title": "加入 X", "text": "以「鸡蛋仔」的名字分享 iOS 开发与独立开发日常。"},
+     {"when": "2022.10", "title": "Gika 上架", "text": "时间追踪 App Gika 发布，此后持续加入番茄钟、日程网格、月历、深度汇总、小组件、实况活动和多套主题。"},
+     {"when": "2026.08", "title": "Arcroom", "text": "自有片库播放器上架：一次导入，iPhone、iPad、Mac、Apple TV、Vision Pro 都能原生播放。"},
+     {"when": "2026.09", "title": "Wuhu 与 Gika 2.0", "text": "Wuhu - Generative Space 上架，作为自托管协作空间的原生客户端；Gika 更新到 v2.0.6。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Gika",
-       "meta": "iOS · 2022",
-       "text": "让时间一目了然：计时、三态标记、日程网格、月历、深度汇总、小组件与实况活动。",
-       "url": "https://apps.apple.com/cn/app/gika/id1628729687"
-      }
+    {"work": {
+     "name": "Gika", "url": "https://apps.apple.com/cn/app/gika/id1628729687",
+     "meta": ["2022", "iOS", "免费 + 高级版订阅"],
+     "paras": [
+      "「Your time, clearly mapped.」正计时、倒计时、番茄钟可以同时运行；每段时间一键归入向上、平衡或节制；日视图的时间网格和月历帮你发现模式；按日、周、季、年汇总睡眠、运动、冥想和前三个项目的时间，可以读取 HealthKit 的睡眠与运动数据。",
+      "四套手工打造的主题，小组件和实况活动让你在主屏幕和锁屏上开始、暂停、查看进度。"
+     ],
+     "facts": [["中国区评分", "★4.0（31 个评分）"], ["最新版本", "v2.0.6（2026-09）"]]
+    }},
+    {"work": {
+     "name": "Arcroom", "url": "https://apps.apple.com/us/app/arcroom/id6760298910",
+     "meta": ["2026", "iOS / macOS / tvOS / visionOS", "免费"],
+     "paras": [
+      "把电影和剧集放在你自己拥有的片库里：本机、NAS 的 SMB 共享，或另一台 Mac 通过 WebDAV 共享的片库。导入时转换为适合流式播放的格式，起播即时、拖动流畅，导入过程中就能开始看。",
+      "从 TMDB 匹配海报和剧集信息，文字和 PGS 图片字幕都能清晰渲染，播放进度通过 iCloud 私密同步。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "Wuhu - Generative Space", "url": "https://apps.apple.com/us/app/wuhu-generative-space/id6807771419",
+     "meta": ["2026", "Mac / iPhone / iPad", "自托管"],
+     "paras": [
+      "一个人和 AI Agent 一起处理文档、对话和实时数据的自托管工作空间。在空间里和常驻 Agent 对话、分配任务、跟踪进度，查看它产出的结果和用到的文档。App 免费，不附带托管账号或 AI 订阅，需要空间所有者的邀请链接。"
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "线上形象",
+   "title": "线上形象研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://x.com/JidanzaiDashan",
-      "paras": [
-       "TA 没有独立的个人网站，X 简介就是一句邀请：「欢迎下载我的时间追踪 app Gika」。",
-       "Gika 的 App Store 页面是 TA 最完整的作品说明。"
-      ]
-     }
-    }
+    {"site": {"url": "https://x.com/JidanzaiDashan", "paras": [
+     "鸡蛋仔没有独立的个人网站，X 简介就是一句邀请：「欢迎下载我的时间追踪 app Gika」。",
+     "三款 App 的 App Store 描述写得都很克制：先说清楚产品是什么，再说你的数据在哪里、需要什么前提条件、哪些功能需要付费。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["渠道", "X + App Store"],
+      ["文案", "简洁、透明，写清前提与付费边界"],
+      ["定位", "本地优先、用户掌控数据"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "设计观点",
    "blocks": [
-    {
-     "p": "大多数时间追踪工具问的是「你在做什么」，Gika 问的是<strong>「这段时间让你变得更好、保持平衡，还是需要节制」</strong>。这让记录本身成了一种反思，而不是负担。"
-    },
-    {
-     "p": "日程网格和月历概览则把一天、一个月的时间变成可以「一眼看出模式」的图形，这正是「一目了然」的意思。"
-    }
+    {"p": "Gika 的设计哲学是「用更少的选项表达更多」：三个词胜过一堆标签。Arcroom 的哲学是「你的存储，你的规则」：片库就是普通文件夹。Wuhu 则把这种掌控感带到了 AI 协作上：模型和工具由空间运营者自己选择。"},
+    {"quote": "Every session fits into Thrive, Balanced, or Limit — no messy tag soup.", "cite": "Gika App Store 描述"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计", "三态标记简单而有反思性", "—"],
+      ["坚持", "Gika 迭代四年", "评分样本仍较少"],
+      ["新作", "覆盖 Apple 全平台、自托管", "Wuhu、Arcroom 刚上架，尚无评分"],
+      ["公开信息", "作品说明清楚", "个人背景公开资料很少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>用更少的选项表达更多：</strong>三个词胜过一堆标签。",
-      "<strong>拥抱系统新能力：</strong>小组件和实况活动让 App 出现在锁屏上。",
-      "<strong>一个产品打磨很多年：</strong>持续迭代比不断换方向更难得。",
-      "<strong>可视化帮助发现模式：</strong>网格与月历让时间「看得见」。"
-     ]
-    }
+    {"checklist": [
+     "<strong>用更少的选项表达更多：</strong>三个词胜过一堆标签。",
+     "<strong>拥抱系统新能力：</strong>小组件和实况活动让 App 出现在锁屏上。",
+     "<strong>一个产品打磨很多年：</strong>持续迭代比不断换方向更难得。",
+     "<strong>可视化帮助发现模式：</strong>网格与月历让时间看得见。",
+     "<strong>把数据还给用户：</strong>普通文件夹、自托管服务器。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Gika", "url": "https://apps.apple.com/cn/app/gika/id1628729687", "why": "记一周时间，看看「向上」占了多少。"},
+     {"name": "Arcroom", "url": "https://apps.apple.com/us/app/arcroom/id6760298910", "why": "把 NAS 里的电影放到 Apple TV 上看。"},
+     {"name": "Wuhu", "url": "https://apps.apple.com/us/app/wuhu-generative-space/id6807771419", "why": "如果你的团队想自托管一个 AI 协作空间。"}
+    ]}
    ]
   }
  ],
- "cta": "下载 Gika，给今天的时间打个「向上」。",
+ "cta": "装上 Gika，给今天的每段时间贴一个「向上」「平衡」或「节制」。",
  "sources": [
-  {
-   "label": "鸡蛋仔的 X 个人资料",
-   "url": "https://x.com/JidanzaiDashan"
-  },
-  {
-   "label": "Gika App Store 页面",
-   "url": "https://apps.apple.com/cn/app/gika/id1628729687"
-  }
+  {"label": "鸡蛋仔的 X 个人资料", "url": "https://x.com/JidanzaiDashan"},
+  {"label": "Gika（App Store 中国区）", "url": "https://apps.apple.com/cn/app/gika/id1628729687"},
+  {"label": "Wuhu（App Store）", "url": "https://apps.apple.com/us/app/wuhu-generative-space/id6807771419"},
+  {"label": "Arcroom（App Store）", "url": "https://apps.apple.com/us/app/arcroom/id6760298910"}
  ]
 }
