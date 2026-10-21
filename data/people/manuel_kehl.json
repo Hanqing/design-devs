@@ -1,142 +1,168 @@
 {
  "name": "Manuel Kehl",
  "role": "Apple 平台独立开发者 · 前 Apple 软件工程师",
- "title": "Manuel Kehl：冷笑话制造者，<em>可爱 App</em> 的作者",
- "dek": "德国人，曾在苏格兰、英格兰和加州生活七年，在 Apple 做了五年软件工程师。回到德国后，TA 一边接自由职业项目，一边做自己的小而美 App：冥想应用 Zenitizer 和把日历、闹钟、计时器放进同一条时间线的 Daylish。",
- "card": "前 Apple 工程师（5 年），Zenitizer 冥想与 Daylish 时间线 App 作者，德国。",
+ "title": "Manuel Kehl：<em>冷笑话</em>制造者，可爱 App 的作者",
+ "dek": "德国人，曾在苏格兰、英格兰和加州生活七年，在 Apple 做了五年软件工程师。更早之前，TA 写过一个在 Linux 圈颇受欢迎的开源效率工具 Go For It!。回到德国后，TA 一边接自由职业项目，一边做自己的「专门化 App 组合」：冥想计时器 Zenitizer、把日历、闹钟、计时器放进同一条时间线的 Daylish，以及 visionOS 上的 Day Peek。",
+ "card": "Zenitizer、Daylish、Day Peek、Go For It! 作者；前 Apple 软件工程师，德国独立开发者。",
  "location": "德国",
- "tags": [
-  "iOS",
-  "watchOS",
-  "SwiftUI",
-  "冥想",
-  "健康"
- ],
+ "updated": "2026-10-21",
+ "tags": ["iOS", "watchOS", "visionOS", "SwiftUI", "冥想"],
  "links": [
-  {
-   "label": "manuelkehl.com",
-   "url": "http://manuelkehl.com"
-  }
+  {"label": "manuelkehl.com", "url": "http://manuelkehl.com"},
+  {"label": "Zenitizer", "url": "https://apps.apple.com/us/app/meditation-timer-zenitizer/id6444767911"},
+  {"label": "Daylish", "url": "https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「Maker of terrible puns and delightful apps.」一个从 Apple 出来、专注做「专门解决一个问题」的小 App 的开发者兼设计师。",
-  "<strong>代表作：</strong>Zenitizer（干净简洁的冥想 App，支持 Apple 健康、连续记录、年度回顾）、Daylish（日历事件、闹钟、计时器的统一时间线）。",
-  "<strong>背景：</strong>从网页设计到底层系统框架与嵌入式开发都做过；X 简介调侃自己「曾在一家位于库比蒂诺的水果供应商工作」。"
+  "<strong>一句话：</strong>网站标语「Maker of terrible puns and delightful apps」（冷笑话制造者，可爱 App 的作者）。X 简介里把 Apple 称为「一家位于库比蒂诺的水果供应商」。",
+  "<strong>代表作：</strong>Zenitizer（App Store 219 个评分，均分 4.76）、Daylish（2025）、Day Peek（visionOS）；早年的开源 Linux 应用 Go For It!（★512）和 Icon Set Forge。",
+  "<strong>关键数字：</strong>Zenitizer 2023 年上架，已更新到 v1.18；Daylish 2025 年上架，v1.9；两款 App 都在 2026 年 10 月 20 日有更新。",
+  "<strong>TA 的产品原则：</strong>「做一组专门化的 App，每一个都把一个特定问题解决好，同时直观、优雅、好玩。」"
  ],
- "lead": "Manuel 在 About 页里说，TA 的 App 点子都来自自己遇到却没有找到满意解决方案的问题。「这些 scratch your own itch 的场景，是我内在动力的重要来源。」",
+ "lead": "Zenitizer 的用户想要社区功能：分享目标、互相督促，这对坚持冥想很有效。Manuel 认真考虑后决定不在 App 里做：那会违背 Zenitizer「极简、无干扰、专注于计时体验」的愿景。社区被放到了 @zenitizer 的社交账号上，用每周打卡帖代替。克制，也是一种设计。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立软件开发者与设计师"],
+     ["所在地", "德国（曾在苏格兰、英格兰、加州生活七年）"],
+     ["此前", "Apple 软件工程师，共五年"],
+     ["经验", "网页设计、底层系统框架、嵌入式系统开发"],
+     ["现在", "自由职业 + 自己的 App，专注 iOS、watchOS、macOS 和 SwiftUI"],
+     ["代表作", "Zenitizer、Daylish、Day Peek、Go For It!"],
+     ["爱好", "弹吉他、唱歌、写歌、画画；徒步、山地自行车、露营；自动化一切"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Manuel 的 App 都来自自己遇到却找不到满意解法的问题。TA 说，这种「scratch your own itch」的场景是自己最重要的内在动力来源。"},
+    {"p": "<strong>Zenitizer</strong> 给不喜欢引导式冥想的人：自定义冥想流程、间隔铃声、连续记录与统计，并和 Apple 健康打通；<strong>Daylish</strong> 是「友好的日程规划器」，把日历事件、行程、计时器和闹钟放进同一条时间线，帮你「再也不迟到」。"},
+    {"note": "本页依据 manuelkehl.com（About、Blog、Projects）、App Store 资料、GitHub 仓库和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "早期",
-       "title": "德国 → 苏格兰 → 英格兰 → 加州",
-       "text": "出生于德国，在苏格兰、英格兰和加州共生活了七年。经历涵盖网页设计、底层系统框架与嵌入式系统开发。"
-      },
-      {
-       "when": "Apple 五年",
-       "title": "库比蒂诺",
-       "text": "在 Apple 担任软件工程师共五年，参与令人兴奋的项目，学到很多，也结识了很棒的人。"
-      },
-      {
-       "when": "独立开发",
-       "title": "回到德国",
-       "text": "回到德国，把工作时间分给自由职业和自己的 App，主攻 iOS、watchOS、macOS，深入 SwiftUI。"
-      },
-      {
-       "when": "2023",
-       "title": "Zenitizer 年度回顾",
-       "text": "为 Zenitizer 加入个性化的冥想年度回顾：统计全年冥想时长与每周频率，可分享为图片；与 Apple 健康打通，甚至能计入其他冥想 App 的正念分钟数。"
-      },
-      {
-       "when": "现在",
-       "title": "Daylish",
-       "text": "把日历事件、闹钟和计时器放进同一条统一时间线。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2014", "title": "Go For It!", "text": "开源一个简洁时尚的效率工具：待办清单 + 专注计时器，以 Todo.txt 格式存储任务，提供 Ubuntu PPA 和 Windows 版本。后来社区开发转移到 Jonathan Moerman 的分叉继续维护。还做了图标集管理工具 Icon Set Forge。"},
+     {"when": "海外七年", "title": "苏格兰、英格兰、加州", "text": "在英国和美国生活工作，经历涵盖网页设计、底层系统框架与嵌入式开发。"},
+     {"when": "Apple 五年", "title": "库比蒂诺", "text": "在 Apple 担任软件工程师，「参与令人兴奋的项目，学到很多，也结识了很棒的人」。"},
+     {"when": "回到德国", "title": "独立开发", "text": "把时间分给自由职业和自己的 App，深入 SwiftUI。"},
+     {"when": "2023", "title": "Zenitizer", "text": "5 月上架；年底推出免费的冥想年度回顾，即使没用过 Zenitizer，也能通过 Apple 健康读取其他冥想 App 的正念分钟数生成。"},
+     {"when": "2024", "title": "Day Peek", "text": "为 visionOS 做了 Day Peek：沉浸工作时也能看到当前时间和接下来的日程。"},
+     {"when": "2025–2026", "title": "Daylish", "text": "2025 年 9 月上架 Daylish，持续迭代到 v1.9。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Zenitizer",
-       "meta": "iOS / watchOS",
-       "text": "Clean and Simple Meditation：连续记录、统计、每日提醒、年度回顾。",
-       "url": "http://manuelkehl.com"
-      },
-      {
-       "name": "Daylish",
-       "meta": "iOS",
-       "text": "日历事件、闹钟、计时器，全在一条统一的时间线里。",
-       "url": "http://manuelkehl.com"
-      }
+    {"work": {
+     "name": "Zenitizer", "url": "https://apps.apple.com/us/app/meditation-timer-zenitizer/id6444767911",
+     "meta": ["2023", "iOS / watchOS", "免费 + Zenitizer+"],
+     "paras": [
+      "「你觉得引导式冥想让人分心吗？旁白妨碍你进入更深的冥想状态吗？」Zenitizer 让你创建适合自己的冥想流程，用间隔铃声保持在当下，用连续记录、统计和每日提醒帮你养成习惯。",
+      "年度回顾功能免费；深色主题和去掉生成图片上的 Logo 需要 Zenitizer+。"
+     ],
+     "facts": [["App Store", "★4.76（219 个评分）"], ["最新版本", "v1.18（2026-10）"]]
+    }},
+    {"work": {
+     "name": "Daylish", "url": "https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325",
+     "meta": ["2025", "iOS", "可视化日程"],
+     "paras": [
+      "「Daylish is your friendly day planner.」把日历事件、行程、计时器和闹钟放进一条统一时间线，用智能闹钟和计时器提前规划，「再也不迟到，轻松度过一天」。"
+     ],
+     "facts": [["App Store", "★4.64（11 个评分）"]]
+    }},
+    {"work": {
+     "name": "Go For It!", "url": "https://github.com/Manuel-Kehl/Go-For-It",
+     "meta": ["2014", "Vala / GTK", "开源 · 已归档"],
+     "paras": [
+      "「A stylish to-do list with built-in productivity timer.」待办清单和专注计时器合二为一，任务存为 Todo.txt，便于和手机同步、用其他前端编辑。它是 Manuel 在 Linux 时代最受欢迎的作品，如今由社区分叉继续开发。"
+     ],
+     "facts": [["GitHub", "★512"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Day Peek", "2024", "visionOS 上的时间与日程悬浮窗，$9.99"],
+      ["Icon Set Forge", "早期", "图标集管理工具（已归档）"],
+      ["Todo.txt Kupfer Plugin", "早期", "在 Kupfer 启动器里编辑 Todo.txt 任务"]
      ]
-    }
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://manuelkehl.com",
-      "paras": [
-       "导航全部用 emoji 开头：👋 Hi、📱 Apps、🗞 Blog、💡 Help、🛠 Projects、👨‍💻 About Me。首页展示两款 App 和最新博文。",
-       "博客文章常常就是产品更新说明，写得像一封给用户的信，比如解释为什么不在冥想 App 里做社区功能。"
-      ]
-     }
-    }
+    {"site": {"url": "http://manuelkehl.com", "paras": [
+     "导航全部用 emoji 开头：👋 Hi、📱 Apps、🗞 Blog、💡 Help、🛠 Projects、👨‍💻 About Me。首页展示两款 App 和最新博文。",
+     "博客按主题分类：🚀 Appdates、🧘 Health & Lifestyle、📱 Apps & Tech、💻 Coding、🎨 Design、📋 Productivity。Projects 页把旧 App 和小脚本归档，「主要为了将来参考」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["结构", "App 展示 + 博客 + 帮助中心 + 归档项目"],
+      ["语气", "轻松、爱用 emoji 和双关"],
+      ["博客", "常以产品更新说明的形式出现，像写给用户的信"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "Manuel 的目标是<strong>「建立一个专门化 App 的组合：每一个都把一个特定问题解决好，同时直观、优雅、好玩」</strong>。冥想 App 不做社区，是为了保持「干净简单」的初心。"
-    },
-    {
-     "p": "工作之外，TA 弹吉 TA、唱歌、写歌、画画，喜欢徒步、山地自行车和露营，并在生活的许多方面追求「优化与自动化」。"
-    }
+    {"posts": [
+     {"date": "2023-12-31", "title": "Reflections and Resolutions: Meditation Year in Review", "url": "http://manuelkehl.com/blog", "note": "介绍年度回顾，并解释为什么社区功能放在社交媒体而不是 App 里。"}
+    ]},
+    {"quote": "These “scratch your own itch” scenarios are a significant source of intrinsic motivation for me, personally.", "cite": "Manuel Kehl，manuelkehl.com About"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["平台", "Apple 五年经验，覆盖 iPhone、Watch、Vision Pro", "—"],
+      ["产品", "专注、克制、评分高", "用户规模偏小，Day Peek 尚无评分"],
+      ["维护", "两款主力 App 持续更新", "早期开源项目已交给社区"],
+      ["写作", "亲切、透明", "博客更新不频繁"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>大公司经验是底气：</strong>Apple 五年让 TA 对平台理解极深。",
-      "<strong>从自己的痛点出发：</strong>内在动力比市场分析更持久。",
-      "<strong>克制功能：</strong>不做社区，也是一种设计决定。",
-      "<strong>自由职业 + 自有产品：</strong>可持续的独立开发组合。"
-     ]
-    }
+    {"checklist": [
+     "<strong>从自己的痛点出发：</strong>内在动力比市场分析更持久。",
+     "<strong>克制功能：</strong>不在 App 里做社区，也是一种设计决定。",
+     "<strong>做专门化的 App 组合：</strong>每个 App 只解决一个问题。",
+     "<strong>开源项目可以交接：</strong>指向活跃的社区分叉，让项目活下去。",
+     "<strong>自由职业 + 自有产品：</strong>可持续的独立开发组合。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Zenitizer", "url": "https://apps.apple.com/us/app/meditation-timer-zenitizer/id6444767911", "why": "一个不说话的冥想计时器。"},
+     {"name": "Daylish", "url": "https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325", "why": "把今天的日程、闹钟和计时器排成一条线。"},
+     {"name": "About Me", "url": "http://manuelkehl.com/about", "why": "一份轻松又真诚的独立开发者自述。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你想开始冥想，试试 Zenitizer。",
+ "cta": "装上 Zenitizer，安静地坐五分钟。",
  "sources": [
-  {
-   "label": "Manuel Kehl 的 X 个人资料",
-   "url": "https://x.com/manuel_kehl"
-  },
-  {
-   "label": "manuelkehl.com",
-   "url": "http://manuelkehl.com"
-  },
-  {
-   "label": "manuelkehl.com：About Me",
-   "url": "http://manuelkehl.com/about"
-  }
+  {"label": "Manuel Kehl 的 X 个人资料", "url": "https://x.com/manuel_kehl"},
+  {"label": "manuelkehl.com", "url": "http://manuelkehl.com"},
+  {"label": "manuelkehl.com：About Me", "url": "http://manuelkehl.com/about"},
+  {"label": "manuelkehl.com：Projects", "url": "http://manuelkehl.com/projects"},
+  {"label": "Zenitizer（App Store）", "url": "https://apps.apple.com/us/app/meditation-timer-zenitizer/id6444767911"},
+  {"label": "GitHub：Go-For-It", "url": "https://github.com/Manuel-Kehl/Go-For-It"}
  ]
 }
