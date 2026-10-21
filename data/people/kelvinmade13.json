@@ -2,144 +2,155 @@
  "name": "Kelvin",
  "role": "大厂 AI 工程师 · 独立创造者",
  "title": "Kelvin：把想法，做成<em>用得上的东西</em>",
- "dek": "一个在大厂做 AI 的工程师，一天写完的 App 上线三天冲上效率付费榜前三。TA 的独立创造空间 kelvinmade 里有 Apple Watch 语音记忆 App「腕记」、把推文带到小红书的扩展，以及一个推特长文封面生成器。",
- "card": "大厂 AI 工程师，腕记 WristMemo 作者，个人站 kelvinmade 设计感十足。",
+ "dek": "一个在大厂做 AI 的工程师，一天写完的 App 上线三天冲上效率类付费榜前三（据其自述）。TA 的独立创造空间 kelvinmade 里有刚上架的 Apple Watch 录音 App「腕记」、把推文带到小红书的扩展、推特长文封面生成器，App Store 上还有恋爱聊天助手 LoveCue 和冥想戒断工具 ZenKey。",
+ "card": "腕记 WristMemo、X2XHS、画题封面生成器的作者；大厂 AI 工程师，业余做「一天一个 App」。",
  "location": "中国",
- "tags": [
-  "Apple Watch",
-  "Chrome 扩展",
-  "AI",
-  "内容创作",
-  "独立开发"
- ],
+ "updated": "2026-10-21",
+ "tags": ["Apple Watch", "AI 工程", "浏览器扩展", "内容创作", "极速验证"],
  "links": [
-  {
-   "label": "kelvinmade.com",
-   "url": "http://kelvinmade.com"
-  }
+  {"label": "kelvinmade.com", "url": "https://kelvinmade.com"},
+  {"label": "腕记", "url": "https://apps.apple.com/cn/app/%E8%85%95%E8%AE%B0-%E6%89%8B%E8%A1%A8%E5%BD%95%E9%9F%B3%E7%AC%94-%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97/id6822356428"},
+  {"label": "X", "url": "https://x.com/kelvinmade13"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「A small studio. An open mind.」一个从具体问题出发、快速做出小产品的工程师。",
-  "<strong>代表作：</strong>腕记 WristMemo（Apple Watch + iPhone 的本地优先语音记忆）、X2XHS（推文一键带到小红书）、画题 Cover Atelier（推特长文封面生成器）、Jev Lab（AI 决策模式指南）。",
-  "<strong>成绩：</strong>一天写完的 App 上线 3 天冲到效率付费榜 Top 3；小红书新号 40 天 0 → 6000 粉，单条百万播放（自述）。"
+  "<strong>一句话：</strong>X 上的名字是「Kelvin | 万物拆解」，简介写着「拆解技术、财富与情感的底层原理」。主业在大厂做 AI 工程，业余用极短的周期做产品、做内容。",
+  "<strong>代表作：</strong>腕记 WristMemo（2026 年 10 月上架，¥28）、LoveCue（2026 年 1 月）、ZenKey（2026 年 3 月）、X2XHS Chrome 扩展、画题 Cover Atelier 封面生成器。",
+  "<strong>关键数字（作者自述）：</strong>一天写完的 App 上线 3 天冲到效率付费榜前 3；小红书新号 40 天从 0 涨到 6,000 粉，单条百万播放。",
+  "<strong>网站标语：</strong>「把想法，做成用得上的东西。」「不必每个想法都成为产品。但每个想法，都可以有一个开始。」"
  ],
- "lead": "Kelvin 的 X 简介写着「拆解技术、财富与情感的底层原理」。TA 的个人网站则更安静：一句大字「把想法，做成用得上的东西」，下面是「IDEA → MAKE → SHIP」和一行小字「Always a work in progress」。",
+ "lead": "kelvinmade.com 的 About 页只有一段话：「我是 Kelvin，一个喜欢把想法做出来的人。kelvinmade 是我的独立创造空间。这里会放上我做的产品、解决小问题的工具，以及还在探索中的实验。从一个具体的问题开始，做出来，听反馈，再慢慢打磨。」",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "大厂 AI 工程师（主业）；独立创造者"],
+     ["代表作", "腕记 WristMemo、LoveCue、ZenKey、X2XHS、画题 Cover Atelier"],
+     ["技术方向", "Apple Watch / iOS、端侧语音识别、浏览器扩展、AI 应用"],
+     ["渠道", "X「Kelvin | 万物拆解」、小红书、个人网站 kelvinmade.com"],
+     ["X 注册", "2024 年 11 月"],
+     ["其他身份", "X 简介写着「实战搭讪 5 年」，并提供相关咨询"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Kelvin 的产品有两个特点：<strong>周期极短</strong>（一天写完、三天看结果），以及<strong>本地优先</strong>。腕记把录音和转写都留在设备上；X2XHS 在本地处理推文截图；ZenKey 的数据只保存在你的设备上。"},
+    {"p": "TA 的选题集中在三类人的真实摩擦上：<strong>内容创作者</strong>（跨平台搬运、长文封面）、<strong>需要记录的人</strong>（开会、上课、采访时不想掏手机），以及<strong>想管住自己注意力或学会聊天的人</strong>（ZenKey、LoveCue）。"},
+    {"note": "本页依据 kelvinmade.com、App Store 与 X 资料整理，资料截至 2026 年 10 月。App Store 上的开发者署名与「Kelvin」不同，此处依据产品与其网站、简介的对应关系判断为同一开发者；榜单与涨粉数据为作者自述。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "主业",
-       "title": "大厂 AI 工程师",
-       "text": "在大厂从事 AI 相关工程工作。"
-      },
-      {
-       "when": "2024-11",
-       "title": "开始在 X 分享",
-       "text": "以「Kelvin | 万物拆解」为名，拆解技术、财富与人际关系的底层逻辑。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "一天一个 App",
-       "text": "借助 AI 一天写完一款 App，上线三天冲上效率类付费榜前三；同时在小红书做内容，40 天涨粉六千。"
-      },
-      {
-       "when": "2026",
-       "title": "kelvinmade",
-       "text": "建立独立创造空间，发布腕记 WristMemo、X2XHS 扩展和画题封面生成器，「实验室」与「数字作品」板块仍在筹备。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "主业", "title": "大厂 AI 工程师", "text": "在大厂从事 AI 相关工程工作。"},
+     {"when": "2024.11", "title": "开始在 X 分享", "text": "以「Kelvin | 万物拆解」为名，拆解技术、财富与人际关系的底层逻辑。"},
+     {"when": "2025–2026", "title": "一天一个 App", "text": "借助 AI 一天写完一款 App，上线三天冲上效率类付费榜前三；同时在小红书做内容，40 天涨粉六千。"},
+     {"when": "2026.01", "title": "LoveCue", "text": "个性化聊天恋爱 AI 与高情商键盘：配合 iOS 快捷指令，在微信里截图即可生成三种回复话术；「拒绝油腻，拒绝机器感」，并且会记住对话脉络。"},
+     {"when": "2026.03", "title": "ZenKey", "text": "冥想数字戒断工具：想打开最容易停不下来的 App 时，先做一小段正念练习，用冥想赚取可用时间。"},
+     {"when": "2026.10", "title": "腕记与 kelvinmade", "text": "10 月 17 日上架 Apple Watch 录音 App 腕记；同期建立独立创造空间 kelvinmade.com，发布 X2XHS 扩展和画题封面生成器。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "腕记 WristMemo",
-       "meta": "Apple Watch + iPhone",
-       "text": "「戴上手表，去生活。重要的声音会在时间线上等你。」本地优先的语音记忆。",
-       "url": "http://kelvinmade.com"
-      },
-      {
-       "name": "X2XHS",
-       "meta": "Chrome 扩展 · 免费",
-       "text": "把推文一键带到小红书：保留头像与排版，自动隐藏昵称，本地处理，发布前由你确认。",
-       "url": "http://kelvinmade.com"
-      },
-      {
-       "name": "画题 Cover Atelier",
-       "meta": "免费工具",
-       "text": "选择一幅画、输入标题，生成 5:2 的推特长文封面，免费导出 2000×800 PNG。",
-       "url": "http://kelvinmade.com"
-      },
-      {
-       "name": "Jev Lab",
-       "meta": "AI 指南",
-       "text": "关于决策模式、代码示例与实践保障的独立指南。",
-       "url": "http://kelvinmade.com"
-      }
+    {"work": {
+     "name": "腕记 WristMemo", "url": "https://apps.apple.com/cn/app/%E8%85%95%E8%AE%B0-%E6%89%8B%E8%A1%A8%E5%BD%95%E9%9F%B3%E7%AC%94-%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97/id6822356428",
+     "meta": ["2026.10", "Apple Watch + iPhone", "¥28 买断"],
+     "paras": [
+      "「腕记是一支戴在手腕上的录音笔。」在 Apple Watch 上轻点一下，从早到晚安静地录；说过的话自动同步到 iPhone，在本机转成文字，按时间整理成一条可以回看、可以搜索的时间线。官网的标语是：「戴上手表，去生活。重要的声音会在时间线上等你。」"
+     ],
+     "bullets": [
+      "<strong>手表是录音主设备：</strong>息屏、断开 iPhone 也照样录；每段录音先保存在手表本地，再在后台同步；长按 1 秒才停止，误触不会中断。",
+      "<strong>全程本机转写：</strong>内置离线语音识别模型，支持中文、英文、粤语、日语、韩语；录音不上传服务器，没网也能用；文字和原声逐段对应。",
+      "<strong>AI 整理：</strong>一天结束自动生成今日要点，并识别你答应别人的事情。"
+     ],
+     "facts": [["上架", "2026-10-17"], ["价格", "¥28"], ["评分", "3.8（10，中国区）"]]
+    }},
+    {"work": {
+     "name": "X2XHS", "url": "https://kelvinmade.com",
+     "meta": ["2026", "Chrome 扩展", "免费 · 本地处理"],
+     "paras": [
+      "「推文一键带到小红书。」保留头像和推文排版，自动隐藏昵称与账号；截图、标题和正文直接带入小红书，发布前由你确认。它解决的是内容创作者最常见的跨平台搬运摩擦。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "画题 Cover Atelier", "url": "https://kelvinmade.com",
+     "meta": ["2026", "网页工具", "免费"],
+     "paras": [
+      "推特长文（Article）封面生成器：选一幅画，输入标题，生成 5:2 比例的封面，免费导出 2000 × 800 PNG。「用一幅画，为你的文字开场。」"
+     ]
+    }},
+    {"work": {
+     "name": "ZenKey", "url": "https://apps.apple.com/cn/app/zenkey-%E5%86%A5%E6%83%B3%E6%95%B0%E5%AD%97%E6%88%92%E6%96%AD%E7%A5%9E%E5%99%A8/id6756201702",
+     "meta": ["2026.03", "iOS", "健康"],
+     "paras": [
+      "「ZenKey 不是一把更重的锁，而是一把让你重新掌控注意力的钥匙。」选择容易分心的应用，打开前先做一小段正念练习；可以手动解锁，也可以设置「自由时段」；记录拦截次数和使用时间。所有数据只保存在设备上。"
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://kelvinmade.com",
-      "paras": [
-       "网站像一本杂志：编号「K / M — 001」、章节「01 / SELECTED WORK」「02 / THE PLAYGROUND」「03 / THE MAKER」，中英文混排，大字标题与小号等宽注释交替出现。",
-       "每个作品都配有一个可交互的小预览，比如腕记的「记录中 12:07」和小红书发布预览卡片。"
-      ]
-     }
-    },
-    {
-     "p": "「不必每个想法都成为产品。但每个想法，都可以有一个开始。」这句话放在实验室板块的空位里，是整个网站最温柔的设计。"
-    }
+    {"site": {"url": "https://kelvinmade.com", "paras": [
+     "网站像一本杂志：编号「K / M — 001」，章节「01 / SELECTED WORK」「02 / THE PLAYGROUND」「03 / THE MAKER」，中英文混排，大字标题与小号等宽注释交替出现。首屏写着「A SMALL STUDIO. AN OPEN MIND.」和流程「IDEA → MAKE → SHIP」。",
+     "每个作品都配有一个可交互的小预览，比如腕记的「记录中 12:07」和小红书发布预览卡片。「不必每个想法都成为产品。但每个想法，都可以有一个开始。」这句话放在实验室板块的空位里，是整个网站最温柔的设计。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["风格", "杂志式编号与章节、中英混排、等宽注释"],
+      ["结构", "精选作品 / 实验场 / 关于"],
+      ["语气", "「LESS FRICTION. MORE FLOW.」「MADE WITH INTENTION.」"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与方法",
+   "id": "assess",
+   "title": "长处与局限",
    "blocks": [
-    {
-     "p": "Kelvin 的方法很直接：<strong>从一个具体的问题开始，做出来，听反馈，再慢慢打磨</strong>。TA 的工具都在解决内容创作者的真实摩擦：跨平台搬运、封面制作、语音记录。"
-    }
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["速度", "极短周期做出可用产品并验证", "作品都很新，长期维护情况未知"],
+      ["产品", "本地优先、选题贴近真实摩擦", "腕记早期评分 3.8，仍在打磨"],
+      ["设计", "网站有很强的编辑感", "公开的工程细节和开源代码很少"],
+      ["透明", "公开分享增长数据", "数据为自述，缺少可核实的来源"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>极短周期验证：</strong>一天做完，三天看结果。",
-      "<strong>做创作者的工具：</strong>你自己就是用户。",
-      "<strong>本地优先：</strong>隐私和速度都是卖点。",
-      "<strong>网站要有编辑感：</strong>编号、章节、留白，让小作品也显得郑重。"
-     ]
-    }
+    {"checklist": [
+     "<strong>极短周期验证：</strong>一天做完，三天看结果。",
+     "<strong>做创作者的工具：</strong>你自己就是用户。",
+     "<strong>本地优先：</strong>隐私和速度都是卖点。",
+     "<strong>网站要有编辑感：</strong>编号、章节、留白，让小作品也显得郑重。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "kelvinmade.com", "url": "https://kelvinmade.com", "why": "看一个小工作室怎样用杂志式的版式展示作品。"},
+     {"name": "腕记", "url": "https://apps.apple.com/cn/app/%E8%85%95%E8%AE%B0-%E6%89%8B%E8%A1%A8%E5%BD%95%E9%9F%B3%E7%AC%94-%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97/id6822356428", "why": "如果你戴 Apple Watch、常开会或上课，试试手腕上的录音笔。"},
+     {"name": "画题封面生成器", "url": "https://kelvinmade.com", "why": "给你的下一篇长文做一张封面。"}
+    ]}
    ]
   }
  ],
- "cta": "去 kelvinmade 做一张推特长文封面。",
+ "cta": "去 kelvinmade.com 看看这个小工作室的最新作品。",
  "sources": [
-  {
-   "label": "Kelvin 的 X 个人资料",
-   "url": "https://x.com/kelvinmade13"
-  },
-  {
-   "label": "kelvinmade.com",
-   "url": "http://kelvinmade.com"
-  }
+  {"label": "Kelvin 的 X 个人资料", "url": "https://x.com/kelvinmade13"},
+  {"label": "kelvinmade.com", "url": "https://kelvinmade.com"},
+  {"label": "kelvinmade.com：About", "url": "https://kelvinmade.com/about/"},
+  {"label": "App Store（中国）：腕记", "url": "https://apps.apple.com/cn/app/%E8%85%95%E8%AE%B0-%E6%89%8B%E8%A1%A8%E5%BD%95%E9%9F%B3%E7%AC%94-%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97/id6822356428"},
+  {"label": "App Store（中国）：ZenKey", "url": "https://apps.apple.com/cn/app/zenkey-%E5%86%A5%E6%83%B3%E6%95%B0%E5%AD%97%E6%88%92%E6%96%AD%E7%A5%9E%E5%99%A8/id6756201702"},
+  {"label": "App Store（中国）：LoveCue", "url": "https://apps.apple.com/cn/app/lovecue-%E4%B8%AA%E6%80%A7%E5%8C%96%E8%81%8A%E5%A4%A9%E6%81%8B%E7%88%B1ai-%E9%AB%98%E6%83%85%E5%95%86%E6%81%8B%E7%88%B1%E9%94%AE%E7%9B%98-%E8%84%B1%E5%8D%95%E8%BF%BD%E7%88%B1/id6749666200"}
  ]
 }

@@ -1,171 +1,172 @@
 {
- "name": "NIX Zhu",
+ "name": "NIX",
  "role": "App 开发者 · Yep 主力开发者",
- "title": "NIX：<em>学习、创造、分享</em>",
- "dek": "2015 年，TA 是开源社交 App Yep 的主力 iOS 开发者，提交数六千多次；同一时期写下 MonkeyKing、Proposer、KeyboardMan 等一批 Swift 库，维护着三千多星的翻译与开发笔记仓库。如今 TA 做 Ducky、Anycode 这样安静好用的文档型 App。",
- "card": "Yep 主力开发者，MonkeyKing、Proposer、KeyboardMan 作者，Ducky 与 Anycode 开发者。",
+ "title": "NIX：学习、创造、<em>分享</em>",
+ "dek": "2015 年，TA 是开源社交 App Yep 的主力 iOS 开发者，一个人贡献了 6,304 次提交；同一时期写下 MonkeyKing、Proposer、KeyboardMan 等一批名字好记的 Swift 库，维护着近四千星的翻译与开发笔记仓库。后来 TA 做 Ducky、Anycode 这样安静好用的文档型 App，2026 年又发布了 Mastodon 客户端 Crowfi。",
+ "card": "Yep 主力开发者（6,304 次提交）；dev-blog、MonkeyKing 作者；Ducky、Anycode、Crowfi 的独立开发者。",
  "location": "CandyStar",
- "tags": [
-  "Swift",
-  "iOS",
-  "macOS",
-  "开源",
-  "代码生成"
- ],
+ "updated": "2026-10-21",
+ "tags": ["Swift", "iOS / macOS", "开源库", "翻译", "JSON 工具"],
  "links": [
-  {
-   "label": "nixzhu.dev",
-   "url": "https://nixzhu.dev"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/nixzhu"
-  }
+  {"label": "nixzhu.dev", "url": "https://nixzhu.dev"},
+  {"label": "Ducky", "url": "https://apps.apple.com/us/app/ducky-model-editor/id1525505933"},
+  {"label": "GitHub", "url": "https://github.com/nixzhu"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「I'm NIX. As an app developer, I make apps to help others.」一个话不多、作品很扎实的 Swift 老兵。",
-  "<strong>代表作：</strong>Yep（Catch 团队开源社交 App，★5.9k）、dev-blog（翻译与开发心得，★3.9k）、MonkeyKing（★2.7k，分享到国内社交平台）、Proposer（权限请求）、Coolie / Baby（从 JSON 生成模型）、Sensei（OpenAI Mac App）；App：Ducky、Anycode、HandTalk。",
-  "<strong>为什么值得关注：</strong>TA 的作品几乎都在解决同一类问题：让开发者少写重复代码。"
+  "<strong>一句话：</strong>X 简介只有三个词：「Learning || Creating || Sharing」。十多年来，TA 一直在做三件事：翻译和整理开发知识、写好用的小库、做安静的工具 App。",
+  "<strong>代表作：</strong>Yep（Catch 团队，★5.9 千）、dev-blog（★3.9 千）、MonkeyKing（★2.7 千）、Proposer、Coolie / Baby（Ducky 的前身）、Ananda；App：Ducky Model Editor（4.88 分）、Anycode、HandTalk、Crowfi for Mastodon、GazeAway、Couplets by NIX。",
+  "<strong>关键数字：</strong>Yep 仓库里 TA 的提交数 6,304，是第二名（Kevin Zhow，936）的近七倍；GitHub 59 个公开仓库中 43 个是 Swift。",
+  "<strong>看点：</strong>TA 的库名都很有画面感：MonkeyKing（美猴王）、Proposer（求婚者）、KeyboardMan、Wormhole（虫洞）、Ruler（尺子）、Coolie（苦力）、Baby（连婴儿都能做到）。"
  ],
- "lead": "NIX 的 X 简介只有三个词：「Learning || Creating || Sharing」。TA 的 GitHub 上第一个仓库是一份写了十多年的 dev-blog：翻译、开发心得和学习笔记，三千九百星。很多中文 iOS 开发者，是读着它入门 Swift 的。",
+ "lead": "Baby 的 README 第一句是：「Create models from a JSON file, even a Baby can do it.」（从 JSON 文件创建模型，连婴儿都能做到。）从 2016 年的 Coolie（苦力）到 2017 年的 Baby，再到今天的 Ducky，NIX 用十年时间只把一件重复劳动做到了极致：从 JSON 推断模型代码。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "App 开发者；App Store 开发者署名为朱宏旭"],
+     ["所在地", "X 资料写「CandyStar」"],
+     ["经历", "iOS 开发者 → Catch 团队（Yep 主力开发者）→ 独立开发文档型 App"],
+     ["代表作", "Yep、dev-blog、MonkeyKing、Ducky Model Editor、Anycode、Crowfi"],
+     ["技术栈", "Swift、Objective-C、SwiftUI；Tuist；yyjson"],
+     ["开源组织", "diveintohtml5-zh-cn（《深入 HTML5》中文翻译）"],
+     ["网站", "nixzhu.dev（GitHub Pages）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "NIX 的作品有一条清晰的脉络：<strong>把自己反复遇到的麻烦自动化</strong>。分享到微信和微博的官方 SDK 太难用，就写 MonkeyKing 绕开它们；权限请求代码太啰嗦，就写 Proposer；键盘动画容易出错，就写 KeyboardMan；手写 JSON 模型太累，就从 Coolie 一路做到 Ducky。"},
+    {"p": "TA 偏爱<strong>文档型 App</strong>：Ducky 和 Anycode 都基于文档模型，数据就在你自己的文件里，可以随时迁移、备份和分享。2026 年 1 月的新作 Crowfi 是一个 Mastodon 客户端，「快、干净，尊重我们使用联邦宇宙的方式」。"},
+    {"note": "本页依据 nixzhu.dev（文章、笔记、Apps、About）、GitHub 与仓库贡献者统计、App Store 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2014",
-       "title": "dev-blog 与 Bible Assistant",
-       "text": "开始系统翻译和整理 iOS 开发文章，后来成为中文开发者常读的学习资源。同年写了 Objective-C 的 Bible Assistant App。"
-      },
-      {
-       "when": "2015",
-       "title": "Catch 与 Yep",
-       "text": "在 Catch 团队与 Kevin Zhow 等人一起开发 Yep（「Meet Genius」），TA 是主力开发者，贡献了六千多次提交。Yep 后来完整开源，成为学习大型 Swift App 架构的经典范例。"
-      },
-      {
-       "when": "2015–2016",
-       "title": "一系列 Swift 小库",
-       "text": "MonkeyKing（不依赖官方 SDK 分享到微信、微博、QQ 等）、Proposer（让权限请求更简单）、KeyboardMan（键盘动画）、Wormhole（App 与扩展间通信）、Ruler（按屏幕尺寸取值）、Coolie（从 JSON 生成模型）。"
-      },
-      {
-       "when": "2017",
-       "title": "Baby",
-       "text": "「从 JSON 文件创建模型，连婴儿都能做到」，是 Coolie 的继任者，也是后来 Ducky 的前身。"
-      },
-      {
-       "when": "后来",
-       "title": "文档型 App",
-       "text": "Ducky Model Editor：从 JSON 推断 JSON Schema、Swift、Kotlin、Dart、Go、Proto 模型；Anycode：管理代码片段并生成漂亮图片；HandTalk：在 iMessage 里和朋友下围棋。"
-      },
-      {
-       "when": "2023",
-       "title": "Sensei",
-       "text": "基于 OpenAI API 的 Mac App。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2009–2010", "title": "注册 X 与 GitHub", "text": "参与《深入 HTML5》（Dive Into HTML5）中文翻译组织。"},
+     {"when": "2014", "title": "dev-blog 与圣经小助手", "text": "开始系统翻译和整理 iOS 开发文章，比如《GCD 深入理解》、AutoLayout 技巧，后来成为中文开发者常读的学习资源（★3.9 千）。同年用 Objective-C 写了圣经小助手 App。"},
+     {"when": "2015", "title": "Catch 与 Yep", "text": "在 Catch 团队与 Kevin Zhow 等人一起开发 Yep（「Meet Genius」，帮你找到身边有技能的人）。TA 是主力开发者，贡献了 6,304 次提交。Yep 后来完整开源，成为学习大型 Swift App 架构的经典范例。"},
+     {"when": "2015–2016", "title": "一系列 Swift 小库", "text": "MonkeyKing、Proposer、KeyboardMan、Wormhole、Ruler、Navi（头像缓存）、AudioBot（录音与播放），以及从 JSON 生成模型的 Coolie。2016 年还做了在 iMessage 里和朋友下围棋的 HandTalk。"},
+     {"when": "2017", "title": "Baby 与 Redstone", "text": "Baby 是 Coolie 的继任者，支持 Swift 4 的 Codable、能处理嵌套 JSON；Redstone 是一个状态机库。"},
+     {"when": "2020–2021", "title": "Ducky 与 Anycode", "text": "2020 年 9 月上架 Ducky Model Editor；2021 年底上架代码片段管理与配图工具 Anycode。"},
+     {"when": "2023", "title": "Ananda 与 Sensei", "text": "基于 yyjson 的高性能 JSON 模型解码库 Ananda；基于 OpenAI API 的 Mac App Sensei。"},
+     {"when": "2025–2026", "title": "小而安静的 App", "text": "提醒你让眼睛休息的 GazeAway、在桌面上挂春联的 Couplets by NIX，以及 2026 年 1 月的 Mastodon 客户端 Crowfi。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Ducky Model Editor",
-       "meta": "App · macOS",
-       "text": "从 JSON 推断多种语言的模型代码，丰富的自定义选项。",
-       "url": "https://nixzhu.dev/apps"
-      },
-      {
-       "name": "Yep",
-       "meta": "2015 · 开源 · ★5.9k",
-       "text": "Catch 团队的社交 App，「Meet Genius」。",
-       "url": "https://github.com/CatchChat/Yep"
-      },
-      {
-       "name": "MonkeyKing",
-       "meta": "2015 · ★2.7k",
-       "text": "帮你把消息分享到中国的社交网络。",
-       "url": "https://github.com/nixzhu/MonkeyKing"
-      },
-      {
-       "name": "dev-blog",
-       "meta": "2014 · ★3.9k",
-       "text": "翻译、开发心得与学习笔记。",
-       "url": "https://github.com/nixzhu/dev-blog"
-      }
+    {"work": {
+     "name": "Ducky Model Editor", "url": "https://apps.apple.com/us/app/ducky-model-editor/id1525505933",
+     "meta": ["2020", "macOS", "文档型 App"],
+     "paras": [
+      "「Ducky is a document-based app that helps you infer models from JSON.」从 JSON 推断出 JSON Schema，以及 Swift（Codable 或 AnandaModel）、Kotlin、Dart（空安全）、Go、Proto 等多种语言的模型代码，带丰富的自定义选项。它是 Coolie 和 Baby 十年演化的结果。"
+     ],
+     "facts": [["上架", "2020-09-16"], ["评分", "4.88（8）"], ["价格", "免费"]]
+    }},
+    {"work": {
+     "name": "Yep", "url": "https://github.com/CatchChat/Yep",
+     "meta": ["2015", "Swift", "★5.9 千"],
+     "paras": [
+      "Catch 团队的社交 App，口号「Meet Genius」：帮你找到身边有技能的人，互相学习。项目后来完整开源，是当年国内最知名的 Swift 开源 App 之一。从贡献者统计看，NIX 一个人贡献了 6,304 次提交，是绝对的主力。"
+     ],
+     "facts": [["NIX 提交", "6,304"], ["第二名", "kevinzhow 936"]]
+    }},
+    {"work": {
+     "name": "MonkeyKing", "url": "https://github.com/nixzhu/MonkeyKing",
+     "meta": ["2015", "Swift", "★2.7 千"],
+     "paras": [
+      "「MonkeyKing helps you post SNS messages to Chinese Social Networks, without their buggy SDKs.」不依赖各家官方 SDK，就能把消息分享到微信、微博、QQ 等国内社交网络。它参考了 openshare 的分析思路，并借助逆向工具研究各平台的分享协议。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "dev-blog", "url": "https://github.com/nixzhu/dev-blog",
+     "meta": ["2014 起", "翻译与笔记", "★3.9 千"],
+     "paras": [
+      "「翻译、开发心得或学习笔记」。从 2014 年的《GCD 深入理解》《为 iOS 应用编写一个简单的 Node.js / MongoDB Web 服务》等译文开始，一直维护到 2024 年。翻译与笔记也是作品，它的影响力不亚于任何一个库。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Anycode", "2021", "管理代码片段，支持几十种语言的语法高亮，并生成漂亮的配图"],
+      ["Crowfi for Mastodon", "2026", "快速、干净的 Mastodon 客户端，4.8 分"],
+      ["HandTalk", "2016", "在 iMessage 里和朋友下围棋，$0.99"],
+      ["Proposer", "2015", "让权限请求更简单（★842）"],
+      ["KeyboardMan", "2015", "处理键盘通知与动画，包括系统的 bug（★349）"],
+      ["Ananda", "2023", "基于 yyjson 的 JSON 模型解码"],
+      ["Sensei", "2023", "基于 OpenAI API 的 Mac App（★301）"],
+      ["GazeAway / Couplets", "2025", "休息提醒；桌面春联"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://nixzhu.dev",
-      "paras": [
-       "极简到几乎只剩内容：Posts、Notes、Apps、About 四个入口，首页是最新文章《Introducing Ducky》，带着一排语言标签。",
-       "About 页只有两句话和几个链接，最后是一只小鸡 emoji 🐣。"
-      ]
-     }
-    }
+    {"site": {"url": "https://nixzhu.dev", "paras": [
+     "极简到几乎只剩内容：Posts、Notes、Apps、About 四个入口，首页是文章《Introducing Ducky》，带着一排语言标签（JSON、JSON Schema、Swift、Kotlin、Dart、Go、Proto）。About 页只有两句话和几个链接，最后是一只小鸡 emoji 🐣。",
+     "Notes 是一组实用的短笔记：在 Mac Studio 上装支持 Metal 的 TensorFlow、作为 App 开发者会先装的 Mac App（Ghostty、Xcode、Fork、Ducky、SwiftFormat、ControlRoom、Typora 等）、在终端里解决 Swift 包依赖、生成新的苹果分发证书。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["结构", "Posts / Notes / Apps / About"],
+      ["风格", "无图、标签化、短小"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "assess",
+   "title": "长处与局限",
    "blocks": [
-    {
-     "p": "NIX 的库都有很好的命名：MonkeyKing、Proposer、KeyboardMan、Wormhole、Ruler、Coolie（苦力）、Baby。<strong>一个好名字本身就是一种设计</strong>，让人一眼记住它是做什么的。"
-    },
-    {
-     "p": "TA 偏爱「文档型 App」：Ducky 和 Anycode 都基于文档模型，数据在你自己的文件里，可以随时迁移、备份和分享。"
-    }
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["工程", "参与并主导过完整的大型 App，库的 API 设计好", "很多 2015 年前后的库已多年未更新"],
+      ["产品", "文档型 App 专注、可靠", "App 评分数量很少，用户规模小众"],
+      ["分享", "翻译与笔记惠及大量中文开发者", "近年写作较少"],
+      ["命名", "好名字让开源项目自带传播力", "—"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>翻译与笔记也是作品：</strong>dev-blog 的影响力不亚于任何一个库。",
-      "<strong>自动化重复劳动：</strong>从 Coolie 到 Ducky，十年只做好一件事。",
-      "<strong>名字要好记：</strong>好名字让开源项目自带传播力。",
-      "<strong>参与一个完整产品：</strong>Yep 让 TA 积累了大型 App 的全部经验。"
-     ]
-    }
+    {"checklist": [
+     "<strong>翻译与笔记也是作品：</strong>dev-blog 的影响力不亚于任何一个库。",
+     "<strong>自动化重复劳动：</strong>从 Coolie 到 Ducky，十年只做好一件事。",
+     "<strong>名字要好记：</strong>好名字让开源项目自带传播力。",
+     "<strong>参与一个完整产品：</strong>Yep 让 TA 积累了大型 App 的全部经验。",
+     "<strong>数据留在用户手里：</strong>文档型 App 让迁移和备份变得自然。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Ducky Model Editor", "url": "https://apps.apple.com/us/app/ducky-model-editor/id1525505933", "why": "下次要从 JSON 写模型时，让它帮你推断。"},
+     {"name": "Yep 源码", "url": "https://github.com/CatchChat/Yep", "why": "学习一个完整的大型 Swift 社交 App 怎么组织。"},
+     {"name": "dev-blog", "url": "https://github.com/nixzhu/dev-blog", "why": "一份十年积累的 iOS 翻译与笔记。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你经常手写模型代码，试试 Ducky。",
+ "cta": "试试 Ducky，或者翻翻 TA 十年前的翻译笔记。",
  "sources": [
-  {
-   "label": "NIX 的 X 个人资料",
-   "url": "https://x.com/nixzhu"
-  },
-  {
-   "label": "nixzhu.dev",
-   "url": "https://nixzhu.dev"
-  },
-  {
-   "label": "nixzhu.dev：Apps",
-   "url": "https://nixzhu.dev/apps"
-  },
-  {
-   "label": "GitHub：nixzhu",
-   "url": "https://github.com/nixzhu"
-  },
-  {
-   "label": "GitHub：CatchChat/Yep",
-   "url": "https://github.com/CatchChat/Yep"
-  }
+  {"label": "NIX 的 X 个人资料", "url": "https://x.com/nixzhu"},
+  {"label": "nixzhu.dev", "url": "https://nixzhu.dev"},
+  {"label": "nixzhu.dev：Apps", "url": "https://nixzhu.dev/apps"},
+  {"label": "nixzhu.dev：Notes", "url": "https://nixzhu.dev/notes"},
+  {"label": "GitHub：nixzhu", "url": "https://github.com/nixzhu"},
+  {"label": "GitHub：CatchChat/Yep（贡献者统计）", "url": "https://github.com/CatchChat/Yep/graphs/contributors"},
+  {"label": "MonkeyKing README", "url": "https://github.com/nixzhu/MonkeyKing"},
+  {"label": "App Store：Ducky Model Editor", "url": "https://apps.apple.com/us/app/ducky-model-editor/id1525505933"},
+  {"label": "App Store：Crowfi for Mastodon", "url": "https://apps.apple.com/us/app/crowfi-for-mastodon/id6756513753"}
  ]
 }

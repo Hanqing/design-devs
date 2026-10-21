@@ -1,175 +1,178 @@
 {
- "name": "Randy Lu（卢涛南）",
+ "name": "Randy Lu",
  "role": "Product Engineer · 写作者 · 独立开发者",
- "title": "Randy：大一退学，<em>做这个世界的生产者</em>",
- "dek": "1995 年生于广东中山，2008 年开始写代码，大学一年后退学。TA 在阿里巴巴、蚂蚁金服、虎牙、微软中国工作过，写出了开源评论系统 Cusdis；2023 年离职后，TA 靠自己的产品生活，并坚持写一个「读者可以自愿付费」的博客。",
- "card": "Cusdis、WebShell、ccmate 作者，前阿里 / 蚂蚁 / 虎牙 / 微软，Notepal、EpubKit 等产品的独立开发者。",
+ "title": "Randy：大一退学，做这个世界的<em>生产者</em>",
+ "dek": "1995 年生于广东中山，2008 年开始写代码，大学一年后退学。TA 在阿里巴巴、蚂蚁金服、虎牙、微软中国工作过，2015 年就写出了把网页打包成 Mac 应用的 WebShell，2021 年做了开源评论系统 Cusdis；2023 年起以 Randynamic Studio 的身份靠自己的产品生活，并坚持写一个「读者可以自愿付费」的博客。",
+ "card": "Cusdis、WebShell、ccmate 作者；前阿里、蚂蚁、虎牙、微软中国工程师，现以 Randynamic Studio 独立做产品。",
  "location": "中国广州",
- "tags": [
-  "前端",
-  "TypeScript",
-  "浏览器扩展",
-  "写作",
-  "独立开发"
- ],
+ "updated": "2026-10-21",
+ "tags": ["独立开发", "写作", "浏览器插件", "开源", "AI 工具"],
  "links": [
-  {
-   "label": "Randy's Blog",
-   "url": "https://lutaonan.com"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/djyde"
-  },
-  {
-   "label": "Cusdis",
-   "url": "https://github.com/djyde/cusdis"
-  }
+  {"label": "Randy's Blog", "url": "https://lutaonan.com"},
+  {"label": "ccmate", "url": "https://randynamic.org/ccmate"},
+  {"label": "GitHub", "url": "https://github.com/djyde"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个辍学的程序员、写作者，相信「用技术创造价值——做出有人觉得好用、并愿意为之付费的产品」。",
-  "<strong>代表作：</strong>Cusdis（★2.8k，轻量、隐私友好的 Disqus 替代品）、WebShell（2015，把网页打包成 Mac 应用）、ccmate（配置 Claude Code 的工具）、Picas、ossart、sairin；产品 Nowdex、Notepal、Browserfly、EpubKit。",
-  "<strong>为什么值得关注：</strong>TA 的博客诚实记录了辍学、离职、创业、冥想与年终总结，是中文独立开发者里最好读的个人写作之一。"
+  "<strong>一句话：</strong>本名卢涛南，X 简介只有「Product Engineer, Blogger.」小时候的理想是成为程序员、用技术改变世界；现在的理想是「用技术创造价值，做出有人觉得好用的产品或服务，并愿意为之付费」。",
+  "<strong>代表作：</strong>Cusdis（★2.8 千，现已停止维护）、WebShell（★1.5 千）、ccmate（Claude Code 配置工具，★624）、ToProgress、V2EX 非官方 API、Picas、ossart、PandocX；产品 Notepal、Nowdex、Browserfly、EpubKit。",
+  "<strong>关键数字：</strong>X 关注者约 3.1 万；GitHub 308 个公开仓库、粉丝 3,101；参与 9 个开源组织。",
+  "<strong>博客的规则：</strong>「你可以免费阅读本博客的所有内容」，每篇文章下方都有付款方式，读者可以自愿付费；最简单的赞赏方式，是发一封感谢信。"
  ],
- "lead": "Randy 在 About 页里写：「小时候的理想是成为一名程序员，用技术改变世界。现在的理想是用技术创造价值——做出有人觉得好用的产品或服务，并愿意为之付费。」TA 的博客全部免费，但每篇文章下面都放着付款方式，「也可以自愿对我的内容付费」。",
+ "lead": "2015 年，还在读大一的 Randy 写了一个叫 WebShell 的项目：「不用写代码，就能把 Web App 打包成原生 OS X 应用。」它比后来走红的 Pake 早了七年。一年后 TA 退学了，此后十年，作品替 TA 打开了一家又一家大厂的门，最后又把 TA 带回了「只做自己的产品」。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "Product Engineer、写作者；Randynamic Studio"],
+     ["所在地", "中国广州（生于广东中山）"],
+     ["教育", "2014 年考入广州大学华软软件学院，本科一年后退学"],
+     ["经历", "奇志科技 → 阿里巴巴 → 蚂蚁金服 → 虎牙直播 → 微软中国 → 独立开发（2023 起）"],
+     ["代表作", "Cusdis、WebShell、ccmate、Notepal、Nowdex、Browserfly、EpubKit"],
+     ["技术栈", "TypeScript / JavaScript、Swift、Vue、Svelte、Go"],
+     ["其他", "提供一对一咨询；GitHub Sponsors 赞助墙"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Randy 现在以 Randynamic Studio 的身份做自己的产品：读书笔记导入导出工具 Notepal、Nowdex、Browserfly、EpubKit，以及 2025 年的两个开源桌面工具：配置 Claude Code 的 ccmate 和文件格式转换器 PandocX。博客首页最上方就是这几个产品的链接，下面是「Worked at」的公司 Logo 墙。"},
+    {"p": "TA 的产品与写作都强调「<strong>生产者</strong>」心态：不只消费信息，而是输出代码、产品和文字。这也是 TA 辍学、离职、独立的底层逻辑。"},
+    {"note": "本页依据 Randy's Blog（About 与文章列表）、GitHub 主页与 README、X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2008",
-       "title": "开始学编程",
-       "text": "13 岁开始学编程。2014 年做了 V2EX 非官方 API 文档和 localStorage 增强库 StoreDB。"
-      },
-      {
-       "when": "2014–2015",
-       "title": "高考、退学与 WebShell",
-       "text": "高考后进入广州大学华软软件学院，一年后退学。2015 年做了 WebShell：把 Web App 打包成原生 OS X 应用（★1.5k），比后来的 Pake 早了七年；还有轻量顶部进度条 ToProgress。"
-      },
-      {
-       "when": "2015–2020",
-       "title": "大厂之路",
-       "text": "先后在奇志科技、阿里巴巴、蚂蚁金服、虎牙直播、微软中国工作。2017 年做了微博的 macOS HTML5 客户端 sinatine，2018 年做了用 Google Fonts 生成文字 Logo 的 Picas。2020 年写下《离开阿里巴巴》。"
-      },
-      {
-       "when": "2021",
-       "title": "Cusdis",
-       "text": "开源轻量、隐私友好的评论系统 Cusdis，作为 Disqus 的替代品。同年写下《做这个世界的生产者》，并给自己设立每月 20 美元的开源捐赠预算。"
-      },
-      {
-       "when": "2023",
-       "title": "清迈、浏览器插件与 28 岁",
-       "text": "写下《28 岁，我还想生猛下去》；做了一个第三天就卖出 1000 元的浏览器插件；在清迈冥想学习 7 天后，「我不再追求幸福」。"
-      },
-      {
-       "when": "2024–2026",
-       "title": "不上班的第一年",
-       "text": "以 Randynamic Studio 身份做自己的产品：Notepal、Nowdex、Browserfly、EpubKit；写《不上班的第一年》《「代码艺术家」不会被 AI 取代》《我们高估了智力的重要性》，开源 ccmate。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2008", "title": "开始学编程", "text": "13 岁开始学编程。2011 年注册 GitHub 和 X。"},
+     {"when": "2014", "title": "V2EX API 与 StoreDB", "text": "整理 V2EX 非官方 API 文档（★375），做了 localStorage 增强库 StoreDB。同年参加高考，考入广州大学华软软件学院。"},
+     {"when": "2015", "title": "WebShell、ToProgress 与退学", "text": "WebShell 把 Web App 打包成原生 OS X 应用（★1.5 千）；ToProgress 是 2.2 KB、零依赖的顶部进度条；还有菜单栏日历 iCultus、图片轮播 PureSlider。本科一年后退学。"},
+     {"when": "2015–2020", "title": "大厂之路", "text": "先后在奇志科技、阿里巴巴、蚂蚁金服、虎牙直播、微软中国工作。业余做了微博的 macOS HTML5 客户端 sinatine（2017）、用 Google Fonts 生成文字 Logo 的 Picas（2018）。"},
+     {"when": "2021", "title": "Cusdis", "text": "开源轻量（约 5 KB gzip）、隐私友好的评论系统 Cusdis，作为 Disqus 的替代品；同年写下《做这个世界的生产者》，并给自己设立每月 20 美元的开源捐赠预算。"},
+     {"when": "2022", "title": "小作品", "text": "ossart 把你的 GitHub 活动打印成艺术品；sairin 用 GitHub Issue 生成博客。"},
+     {"when": "2023", "title": "独立与 28 岁", "text": "开始做自己的产品，Notepal 上线；写下《28 岁，我还想生猛下去》；一个浏览器插件第三天就卖出 1,000 元；在清迈冥想学习 7 天后写道：「我不再追求幸福」。"},
+     {"when": "2024–2026", "title": "不上班的日子", "text": "写《不上班的第一年》《2024：在夜海中观望浪潮》《我们高估了智力的重要性》《现代浏览器插件开发指南》《在 Claude Code 中使用 GLM 4.6 的体验》《让 AI 戴着镣铐跳舞》《高考随想》；2025 年开源 PandocX 和 ccmate；Cusdis 宣布停止维护。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Cusdis",
-       "meta": "2021 · ★2.8k",
-       "text": "轻量、隐私友好的开源评论系统，Disqus 的替代品。",
-       "url": "https://github.com/djyde/cusdis"
-      },
-      {
-       "name": "ccmate",
-       "meta": "2025 · ★600+",
-       "text": "「Configure your Claude Code without pain」。",
-       "url": "https://github.com/djyde/ccmate"
-      },
-      {
-       "name": "WebShell",
-       "meta": "2015 · Swift",
-       "text": "把 Web App 打包成原生 OS X 应用。",
-       "url": "https://github.com/djyde/WebShell"
-      },
-      {
-       "name": "ossart",
-       "meta": "2022",
-       "text": "把你的 GitHub 活动打印成艺术作品。",
-       "url": "https://github.com/djyde/ossart"
-      }
+    {"work": {
+     "name": "Cusdis", "url": "https://github.com/djyde/cusdis",
+     "meta": ["2021", "TypeScript", "已停止维护"],
+     "paras": [
+      "「An open-source, lightweight (~5kb gzip), privacy-friendly alternative to Disqus.」一个轻量、注重隐私、可以自托管的评论系统，曾被很多独立博客采用（★2.8 千）。",
+      "如今 README 顶部写着：Cusdis 已停止维护，需要导出数据请发邮件联系。一个开源项目如何体面地结束，同样值得记录。"
+     ],
+     "facts": [["GitHub", "★2,775（已归档）"], ["体积", "约 5 KB gzip"]]
+    }},
+    {"work": {
+     "name": "ccmate", "url": "https://randynamic.org/ccmate",
+     "meta": ["2025.10", "TypeScript 桌面应用", "开源"],
+     "paras": [
+      "「Configure your Claude Code without pain.」一个管理 Claude Code 配置文件的现代桌面应用：不用再手动翻找和编辑那些 JSON 和 Markdown 配置。它是 TA 在 AI 编程时代的第一个开源热门项目，置顶在 GitHub 主页第一位。"
+     ],
+     "facts": [["GitHub", "★624"]]
+    }},
+    {"work": {
+     "name": "WebShell", "url": "https://github.com/djyde/WebShell",
+     "meta": ["2015", "Swift", "★1.5 千"],
+     "paras": [
+      "「An OS X WebView shell, which help you easily bundle the Web Apps to native OS X app without coding.」克隆仓库、改一个配置、在 Xcode 里编译，就能得到一个网页套壳的 Mac App。这是一个大一学生写的项目，思路和七年后的 Pake 如出一辙。"
      ]
-    }
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Notepal", "2023", "读书笔记的导入与导出（★158）"],
+      ["PandocX", "2025", "文件格式转换器（★192）"],
+      ["ToProgress", "2015", "2.2 KB 零依赖顶部进度条（★518）"],
+      ["Picas", "2018", "用 Google Fonts 生成文字 Logo（★347）"],
+      ["ossart", "2022", "把 GitHub 活动打印成艺术品（★214）"],
+      ["sairin", "2022", "用 GitHub Issue 生成博客（★200）"],
+      ["snp", "—", "VS Code 代码片段生成器（Go）"],
+      ["Nowdex / Browserfly / EpubKit", "2024–2026", "Randynamic Studio 的产品"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://lutaonan.com",
-      "paras": [
-       "博客标题「Randy's Blog」，副标题「About life, technology and reading」。首页顶部列出 TA 正在做的产品，Notepal、Nowdex、Browserfly、EpubKit，再列出「Worked at」的公司 Logo，然后是 About 和按日期排列的文章。",
-       "还提供「一对一咨询」入口。"
-      ]
-     }
-    },
-    {
-     "p": "文章标题本身就是一部成长史：《再谈辍学》《做了 6 年程序员，我学到的 10 条经验》《遗憾最小化框架》《复读和命运》《读〈岩田先生〉》《高考随想》。"
-    }
+    {"site": {"url": "https://lutaonan.com", "paras": [
+     "博客标题「Randy's Blog」，副标题「About life, technology and reading」。首页顶部列出 TA 正在做的产品，再列出「Worked at」的公司 Logo，然后是 About 和按日期排列的文章。还提供「一对一咨询」入口。",
+     "About 页写得很坦诚：生于哪里、何时开始编程、在哪退学、在哪工作、现在做什么、理想是什么。文章标题本身就是一部成长史：《再谈辍学》《做了 6 年程序员，我学到的 10 条经验》《遗憾最小化框架》《复读和命运》《读〈岩田先生〉》《高考随想》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Netlify + Cloudflare"],
+      ["付费", "全部免费阅读，每篇文末可自愿付费"],
+      ["结构", "产品 → 履历 → About → 文章"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "quote": "如果人生可以选择，我希望我可以在一个法治国家参选议员从事政治，业余写代码和做音乐。",
-     "cite": "Randy Lu，About 页"
-    },
-    {
-     "p": "Randy 的产品与写作都强调<strong>「生产者」心态</strong>：不只消费信息，而是输出代码、产品和文字。这也是 TA 辍学、离职、独立的底层逻辑。"
-    }
+    {"posts": [
+     {"date": "2026-06-10", "title": "高考随想", "url": "https://lutaonan.com"},
+     {"date": "2025-12-27", "title": "让 AI 戴着镣铐跳舞", "url": "https://lutaonan.com"},
+     {"date": "2025-10-08", "title": "在 Claude Code 中使用 GLM 4.6 的体验", "url": "https://lutaonan.com"},
+     {"date": "2025-04-09", "title": "现代浏览器插件开发指南", "url": "https://lutaonan.com"},
+     {"date": "2025-04-01", "title": "我们高估了智力的重要性", "url": "https://lutaonan.com"},
+     {"date": "2024-12-28", "title": "2024：在夜海中观望浪潮", "url": "https://lutaonan.com"}
+    ]},
+    {"quote": "现在的理想是用技术创造价值，做出有人觉得好用的产品或服务，并愿意为之付费。", "cite": "Randy Lu，Randy's Blog About"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["工程", "前端、桌面、浏览器插件都能做，产出稳定", "多个早期开源项目已归档，Cusdis 已停止维护"],
+      ["产品", "选题实用，敢于收费验证", "独立产品规模多为小众"],
+      ["写作", "真诚、跨度大（技术、阅读、人生选择）", "更新频率不高"],
+      ["职业", "没有学历也走进了多家大厂", "—"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>学历不是唯一路径：</strong>作品和能力同样能打开大厂的门。",
-      "<strong>写作让人看见你：</strong>博客让 TA 的产品和思想被更多人找到。",
-      "<strong>小插件也能赚钱：</strong>第三天卖出 1000 元，验证了需求。",
-      "<strong>给开源捐赠预算：</strong>享受生态，也回馈生态。"
-     ]
-    }
+    {"checklist": [
+     "<strong>学历不是唯一路径：</strong>作品和能力同样能打开大厂的门。",
+     "<strong>写作让人看见你：</strong>博客让 TA 的产品和思想被更多人找到。",
+     "<strong>小插件也能赚钱：</strong>第三天卖出 1,000 元，验证了需求。",
+     "<strong>给开源捐赠预算：</strong>享受生态，也回馈生态。",
+     "<strong>体面地结束一个项目：</strong>说清楚停止维护，并给出数据导出方式。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Randy's Blog", "url": "https://lutaonan.com", "why": "从 About 读起，再挑一篇《做这个世界的生产者》。"},
+     {"name": "ccmate", "url": "https://randynamic.org/ccmate", "why": "如果你在用 Claude Code，用它管理配置会轻松很多。"},
+     {"name": "WebShell", "url": "https://github.com/djyde/WebShell", "why": "看看一个大一学生 2015 年写的网页套壳工具。"}
+    ]}
    ]
   }
  ],
- "cta": "读一读《不上班的第一年》。",
+ "cta": "读一篇 Randy 的博客，喜欢的话按文末的方式自愿付费。",
  "sources": [
-  {
-   "label": "Randy Lu 的 X 个人资料",
-   "url": "https://x.com/randyloop"
-  },
-  {
-   "label": "Randy's Blog",
-   "url": "https://lutaonan.com"
-  },
-  {
-   "label": "GitHub：djyde",
-   "url": "https://github.com/djyde"
-  },
-  {
-   "label": "Cusdis",
-   "url": "https://github.com/djyde/cusdis"
-  }
+  {"label": "Randy Lu 的 X 个人资料", "url": "https://x.com/randyloop"},
+  {"label": "Randy's Blog", "url": "https://lutaonan.com"},
+  {"label": "GitHub：djyde", "url": "https://github.com/djyde"},
+  {"label": "Cusdis README（停止维护说明）", "url": "https://github.com/djyde/cusdis"},
+  {"label": "ccmate", "url": "https://github.com/djyde/ccmate"},
+  {"label": "WebShell README", "url": "https://github.com/djyde/WebShell"}
  ]
 }

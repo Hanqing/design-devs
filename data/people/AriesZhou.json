@@ -2,155 +2,166 @@
  "name": "Aries Zhou",
  "role": "软件工程师 · 业余独立开发者",
  "title": "Aries Zhou：做我需要的，<em>留住重要的</em>",
- "dek": "一位工作九年多的工程师，做过视频会议行业的数据安全，现在做开源私有云存储。业余时间，TA 用 AI 给自己的日常烦恼做小工具：给 X 长文加目录的 X-TOC、整理书签的 Bookmark Assistant、管理 Chrome 商店素材的 DashBye。",
- "card": "工程师 + 业余独立开发者，X-TOC、Bookmark Assistant、DashBye 作者，写作克制而真诚。",
+ "dek": "一位工作九年多的工程师，做过视频会议行业的数据安全，现在做开源私有云存储。业余时间，他用 AI 给自己的日常烦恼做小工具：给 X 长文加目录的 X-TOC、整理书签的 Bookmark Assistant、把 Chrome 商店素材也纳入版本管理的 DashBye；他的中英双语博客从 AI 逆向工程写到大理的一个屋顶。",
+ "card": "X-TOC、Bookmark Assistant、DashBye 作者；九年工程师，业余为自己做工具，中英双语写作。",
  "location": "中国",
- "tags": [
-  "浏览器扩展",
-  "CLI",
-  "本地优先",
-  "写作",
-  "AI 工具"
- ],
+ "updated": "2026-10-21",
+ "tags": ["浏览器扩展", "开发者工具", "写作", "开源", "AI"],
  "links": [
-  {
-   "label": "arieszhou.com",
-   "url": "http://arieszhou.com"
-  },
-  {
-   "label": "Building",
-   "url": "http://arieszhou.com/building"
-  }
+  {"label": "arieszhou.com", "url": "https://www.arieszhou.com"},
+  {"label": "Building", "url": "https://www.arieszhou.com/building"},
+  {"label": "GitHub", "url": "https://github.com/HiAriesZhou"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「Building what I need, keeping what matters.」一个从日常抱怨出发做工具的工程师。",
-  "<strong>代表作：</strong>X-TOC（X 长文目录导航、剪藏、搜索与导出）、Bookmark Assistant（本地书签整理 + AI 摘要标签 + 同步 Notion）、DashBye（把 Chrome 商店的包、文案、图片和隐私声明跟代码一起版本化）、LiteContext（开发中）。",
-  "<strong>个人标签：</strong>游戏玩家、一个孩子的父亲、两只猫的员工、羽毛球爱好者。"
+  "<strong>一句话：</strong>一个「从抱怨开始」做工具的工程师。X 简介：「Software engineer, indie dev on the side. Building X-TOC · BookmarkAssistant · DashBye. Gamer · Dad of one · Staff to two cats · Badminton.」",
+  "<strong>代表作：</strong>X-TOC（X 长文目录与剪藏）、Bookmark Assistant（本地书签整理 + AI 摘要 + Notion 同步）、DashBye（Chrome 商店发布素材的版本管理 CLI）、正在做的 LiteContext。",
+  "<strong>写作：</strong>博客中英双语，RSS 中 52 篇；2026 年写了 AI 逆向工程、README 怎么写、MIT 许可证的边界、AI 为什么总误解「刚才那个」。",
+  "<strong>态度：</strong>他坦诚地说这些工具「主要解决我自己的问题、适合我自己的习惯，所以用户不多（至少我是这么安慰自己的）」。"
  ],
- "lead": "Aries 在 About 页里写：「我的想法通常始于对日常烦恼的抱怨：X 长文没有目录、浏览器书签越攒越多却几乎不用、每次扩展更新都要在商店后台花半小时上传素材、检查隐私声明。」然后 TA 补了一句：「在 AI 的帮助下，我不再被有限的精力、熟悉的技术栈或复杂的开发文档束缚。谢谢你，AI。」",
+ "lead": "About 页的最后一段很有个性：如果你也喜欢游戏、动漫或羽毛球，讨厌 AI slop、标题党和喊口号，「也许我们可以成为朋友」。网站的标题则是他的工作原则：「Building what I need, keeping what matters.」",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师（九年以上）；业余独立开发者"],
+     ["工作领域", "曾做视频会议行业的数据安全；现在主要做开源私有云存储"],
+     ["代表作", "X-TOC、Bookmark Assistant、DashBye、LiteContext（开发中）"],
+     ["技术栈", "TypeScript / JavaScript（浏览器扩展）、Go、Python、C；网站用 Astro"],
+     ["网站", "arieszhou.com（Astro，Vercel，中英双语）"],
+     ["爱好", "游戏（GitHub 简介：「一个真实世界里的 MMORPG 玩家」）、羽毛球单打、两只猫"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Aries 的工具都来自日常的不方便：X 上的长文没有目录，读到一半找不到位置，于是有了 X-TOC；书签越存越乱，于是有了 Bookmark Assistant；每次更新 Chrome 扩展都要在商店后台手动改文案、换图、填隐私声明，于是有了 DashBye，「少一点后台，多一点发布」。"},
+    {"p": "他相信「AI 会让世界变得更好」，也在 AI 的帮助下做以前不熟悉的技术栈。但他的博客同样在冷静地讨论 AI 带来的副作用：逆向工程的门槛消失之后软件保护会怎样，开源许可证在「AI 洗稿」面前的边界在哪里。"},
+    {"note": "本页依据 arieszhou.com（About、Building、博客）、GitHub 与 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "九年多",
-       "title": "工程师",
-       "text": "曾在视频会议行业做数据安全，现在主要做开源私有云存储。"
-      },
-      {
-       "when": "业余",
-       "title": "为自己做工具",
-       "text": "把日常的不便变成浏览器扩展和命令行工具，并公开发布、持续更新，「希望更多人觉得有用」。"
-      },
-      {
-       "when": "2026",
-       "title": "写作",
-       "text": "博客中英双语，话题从 AI 逆向工程（REA）、AI 为什么总是误解「刚才那个」、如何写好 README，到大理的一个屋顶、羽毛球单打、代理配置问题。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2018–2019", "title": "注册 GitHub 与 X", "text": "早期仓库多是学习项目：一个 C 写的数据库练习、Go 的书店 API、Coursera 作业。"},
+     {"when": "九年多", "title": "工程师", "text": "曾在视频会议行业做数据安全，现在主要做开源私有云存储。"},
+     {"when": "2025", "title": "开始写技术长文", "text": "文件系统大小写敏感问题、Chrome 扩展跨上下文通信、用 react-data-grid 做协作表格（上下两篇），以及一篇散文《The Simple-Minded Girl》。"},
+     {"when": "2026.02", "title": "X-TOC", "text": "为 X 长文做的浏览器扩展：目录导航、本地剪藏、搜索、标签、笔记，读完后可以导出成 Markdown 或 JSON 这样的开放格式。同月写下《Harness Study Notes》。"},
+     {"when": "2026.03–04", "title": "信息焦虑与迁移博客", "text": "写《信息焦虑与 FOMO》《听完〈疲惫经济学〉之后》；把博客从 Next.js 迁移到 Astro。"},
+     {"when": "2026.06–08", "title": "开源边界与 README", "text": "借 Tw93 的 Mole 与衍生项目 Burrow 的争议，写《MIT 许可的是代码，不是整个产品》；写《README? LandingPage》；还写了羽毛球单打和代理配置问题。"},
+     {"when": "2026.09–10", "title": "DashBye 与 Bookmark Assistant", "text": "9 月开源 DashBye，10 月开源 Bookmark Assistant（GPL-3.0）；写下《A rooftop in Dali》和《REA and Reverse Engineering》。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "X-TOC",
-       "meta": "浏览器扩展",
-       "text": "为 X 长文提供目录导航、本地剪藏、搜索、标签、笔记，以及 Markdown / JSON 导出。",
-       "url": "http://arieszhou.com/building"
-      },
-      {
-       "name": "Bookmark Assistant",
-       "meta": "Chrome 扩展",
-       "text": "整理本地书签，可选 AI 摘要与标签，并同步到 Notion。",
-       "url": "http://arieszhou.com/building"
-      },
-      {
-       "name": "DashBye",
-       "meta": "开源 CLI",
-       "text": "把 Chrome Web Store 的包、商店文案、图片与隐私声明和扩展代码一起做版本管理。",
-       "url": "http://arieszhou.com/building"
-      },
-      {
-       "name": "LiteContext",
-       "meta": "开发中",
-       "text": "本地优先的上下文工具：让 Obsidian、Markdown 和本地文件成为 AI 可追溯来源的知识库。",
-       "url": "http://arieszhou.com/building"
-      }
+    {"work": {
+     "name": "X-TOC", "url": "https://github.com/HiAriesZhou/xtoc",
+     "meta": ["2026.02", "浏览器扩展", "JavaScript"],
+     "paras": [
+      "「XTOC helps you navigate structured X Articles, save useful passages with their source context, and move your clips into an open format when you are done reading.」给 X 的长文章加上目录导航，随手保存有用的段落并保留来源上下文，加标签、写笔记、搜索，读完后导出为 Markdown 或 JSON。数据都在本地。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "DashBye", "url": "https://github.com/HiAriesZhou/DashBye",
+     "meta": ["2026.09", "TypeScript CLI", "开源 · 无服务器"],
+     "paras": [
+      "「Less dashboard. More shipping.」一个只在本地运行的命令行工具，把 Chrome Web Store 的扩展包、商店文案、图片素材和隐私声明，和扩展代码放在一起做版本管理，并同步到商店草稿。它解决的是开发者常常忽略的「最后一公里」：发布素材也是代码的一部分。"
+     ]
+    }},
+    {"work": {
+     "name": "Bookmark Assistant", "url": "https://github.com/HiAriesZhou/bookmark-assistant",
+     "meta": ["2026.10", "Chrome 扩展", "GPL-3.0"],
+     "paras": [
+      "在本地管理 Chrome 书签，可选用 AI 生成摘要和标签，并同步到 Notion。完整源码以 GPL-3.0 开源。"
+     ]
+    }},
+    {"work": {
+     "name": "LiteContext", "url": "https://www.arieszhou.com/building",
+     "meta": ["开发中", "本地优先", "AI 知识库"],
+     "paras": [
+      "把 Obsidian、Markdown 和本地文件变成 AI 工具可以检索、并且能追溯到原始出处的知识库。"
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://arieszhou.com",
-      "paras": [
-       "标题「Building what I need, keeping what matters」，导航只有 Writing、Building、About 和中英切换。",
-       "文章列表每篇一段摘要，比如《A rooftop in Dali》：「头像也许只是一张小图，但它背后是一段关系、一次旅行的记忆和我们都爱的一款游戏。」"
-      ]
-     }
-    },
-    {
-     "p": "About 页最后写：如果你也喜欢游戏、动漫或羽毛球，讨厌 AI slop、标题党和喊口号，「也许我们可以成为朋友」。"
-    }
+    {"site": {"url": "https://www.arieszhou.com", "paras": [
+     "标题「Building what I need, keeping what matters」，导航只有 Writing、Building、About 和中英切换。文章列表每篇一段摘要，比如《A rooftop in Dali》：「头像也许只是一张小图，但它背后是一段关系、一次旅行的记忆和我们都爱的一款游戏。」",
+     "Building 页每个工具一段话，About 页讲工作、兴趣和交友偏好。整站没有任何营销话术。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro（2026 年 4 月从 Next.js 迁移），Vercel，Vercel Analytics"],
+      ["语言", "中英双语，RSS 分语言"],
+      ["语气", "真诚、克制、不喊口号"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "quote": "Language may work less like a container and more like an index into experience.",
-     "cite": "Aries Zhou《When AI Misunderstands》"
-    },
-    {
-     "p": "TA 坦诚地说这些工具「主要解决我自己的问题、适合我自己的习惯，所以用户不多（至少我是这么安慰自己的）」。这种不夸大、不表演的态度，在一个充满营销的时代显得格外可贵。"
-    }
+    {"posts": [
+     {"date": "2026-10-14", "title": "REA and Reverse Engineering", "url": "https://www.arieszhou.com/blog/after-reverse-engineering-gets-easy", "note": "和安全行业的逆向工程师聊过之后：当 AI Agent 让逆向变成日常，软件保护、破解与克隆会怎样变化。"},
+     {"date": "2026-08-28", "title": "When AI Misunderstands", "url": "https://www.arieszhou.com/blog/ai-doesnt-understand-that-earlier-one", "note": "从「能不能真正理解『红色』」想到 AI 为什么总是听不懂「刚才那个」。"},
+     {"date": "2026-08-25", "title": "README? LandingPage", "url": "https://www.arieszhou.com/blog/readme-landingpage-guide", "note": "README 是仓库的正门，开头应该回答：这是什么？为什么要关心？大概长什么样？能不能快速试试？"},
+     {"date": "2026-06-11", "title": "MIT Licenses Code, Not the Whole Product", "url": "https://www.arieszhou.com/blog/mit-licenses-code-not-the-whole-product"},
+     {"date": "2026-04-14", "title": "Moving My Blog to Astro", "url": "https://www.arieszhou.com/blog/from-next-js-to-astro"},
+     {"date": "2026-03-26", "title": "Information Anxiety and FOMO", "url": "https://www.arieszhou.com/blog/information-anxiety-and-fomo"}
+    ]},
+    {"quote": "Language may work less like a container and more like an index into experience.", "cite": "Aries Zhou，《When AI Misunderstands》"},
+    {"p": "在《MIT 许可的是代码，不是整个产品》里，他认为随着开发门槛降低，很多并不认同开源价值观的人涌入社区，以前不需要多想的灰色地带变成了问题：长期以来，社区在许可证之外依靠的是开源爱好者的价值观和伦理，现在可能需要更主动的保护手段。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["工具", "需求真实、本地优先、开源", "用户不多（作者自己也承认），项目都在早期"],
+      ["写作", "思考真诚，既谈技术也谈生活", "影响力尚小，X 关注者约百人"],
+      ["工程", "安全与存储背景扎实", "主业工作细节未公开"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
-   "title": "可以从 TA 身上学什么",
+   "title": "可以从他身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>从抱怨开始：</strong>每个日常不便都是一个工具的起点。",
-      "<strong>AI 扩展了能力边界：</strong>不熟悉的技术栈也能动手做。",
-      "<strong>把发布流程也版本化：</strong>DashBye 解决的是开发者常忽略的「最后一公里」。",
-      "<strong>真诚地写作：</strong>不喊口号，写真实的困惑与思考。"
-     ]
-    }
+    {"checklist": [
+     "<strong>从抱怨开始：</strong>每个日常不便都是一个工具的起点。",
+     "<strong>把发布流程也版本化：</strong>DashBye 解决的是开发者常忽略的「最后一公里」。",
+     "<strong>把 README 当落地页写：</strong>先回答「这是什么、为什么关心」。",
+     "<strong>真诚地写作：</strong>不喊口号，写真实的困惑与思考。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "README? LandingPage", "url": "https://www.arieszhou.com/blog/readme-landingpage-guide", "why": "下次写开源项目 README 之前读一读。"},
+     {"name": "MIT Licenses Code, Not the Whole Product", "url": "https://www.arieszhou.com/blog/mit-licenses-code-not-the-whole-product", "why": "AI 时代开源边界的一次具体讨论。"},
+     {"name": "X-TOC", "url": "https://github.com/HiAriesZhou/xtoc", "why": "如果你常在 X 上读长文，给它加个目录。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你经常读 X 长文，试试 X-TOC。",
+ "cta": "读一篇 Aries 的博客，或者装一个 X-TOC。",
  "sources": [
-  {
-   "label": "AriesZhou 的 X 个人资料",
-   "url": "https://x.com/AriesZhou"
-  },
-  {
-   "label": "arieszhou.com",
-   "url": "http://arieszhou.com"
-  },
-  {
-   "label": "arieszhou.com：About",
-   "url": "http://arieszhou.com/about"
-  },
-  {
-   "label": "arieszhou.com：Building",
-   "url": "http://arieszhou.com/building"
-  }
+  {"label": "AriesZhou 的 X 个人资料", "url": "https://x.com/AriesZhou"},
+  {"label": "arieszhou.com", "url": "https://www.arieszhou.com"},
+  {"label": "arieszhou.com：About", "url": "https://www.arieszhou.com/about"},
+  {"label": "arieszhou.com：Building", "url": "https://www.arieszhou.com/building"},
+  {"label": "MIT Licenses Code, Not the Whole Product", "url": "https://www.arieszhou.com/blog/mit-licenses-code-not-the-whole-product"},
+  {"label": "README? LandingPage", "url": "https://www.arieszhou.com/blog/readme-landingpage-guide"},
+  {"label": "GitHub：HiAriesZhou", "url": "https://github.com/HiAriesZhou"}
  ]
 }

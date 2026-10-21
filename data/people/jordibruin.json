@@ -1,174 +1,188 @@
 {
  "name": "Jordi Bruin",
  "role": "荷兰独立开发者 · Good Snooze · MacWhisper 作者",
- "title": "Jordi Bruin：做自己喜欢、<em>也能帮到人</em>的东西",
- "dek": "阿姆斯特丹的独立开发者，以惊人的速度把苹果的新框架变成真实产品：给 FaceTime 加字幕的 Navi、把 Whisper 带到 Mac 上的 MacWhisper，还有一系列被开发者反复引用的 Swift Charts、TipKit、visionOS 示例。",
- "card": "MacWhisper、Navi 作者，Good Snooze 独立开发者；Swift Charts / TipKit / visionOS 示例项目作者。",
+ "title": "Jordi Bruin：做自己喜欢、也<em>能帮到人</em>的东西",
+ "dek": "阿姆斯特丹的独立开发者，以惊人的速度把苹果的新框架变成真实产品：给 FaceTime 加字幕的 Navi、把 OpenAI Whisper 带到 Mac 上的 MacWhisper、纠正坐姿的 Posture Pal，还有一系列被开发者反复引用的 Swift Charts、TipKit、visionOS 示例。TA 的公司 Good Snooze 在 App Store 上有二十多款 App。",
+ "card": "MacWhisper、Navi、Posture Pal 作者；Good Snooze 名下 20 多款 App；Swift Charts 示例（★2.4 千）作者。",
  "location": "荷兰阿姆斯特丹",
- "tags": [
-  "macOS",
-  "iOS",
-  "语音转写",
-  "无障碍",
-  "SwiftUI"
- ],
+ "updated": "2026-10-21",
+ "tags": ["macOS / iOS", "语音转写", "无障碍", "苹果新框架", "独立开发"],
  "links": [
-  {
-   "label": "MacWhisper",
-   "url": "https://www.macwhisper.com"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/jordibruin"
-  }
+  {"label": "MacWhisper", "url": "https://www.macwhisper.com"},
+  {"label": "jordibruin.com", "url": "http://www.jordibruin.com"},
+  {"label": "GitHub", "url": "https://github.com/jordibruin"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「Building things I like, that help people.」一个擅长把苹果新 API 变成「有用的小产品」的独立开发者。",
-  "<strong>代表作：</strong>MacWhisper（本地运行 Whisper、Parakeet 等模型的 Mac 转写应用）、Navi（用 SharePlay 给 FaceTime 加实时字幕与翻译）、Cibo（菜单翻译）；开源 Swift-Charts-Examples（★2.5k）、Dynamic-Islands、TipKit-Examples、visionOS-Examples、FromScratch、cooldown。",
-  "<strong>为什么值得关注：</strong>TA 的很多产品都和「无障碍」有关：字幕、转写、听写，让更多人能参与对话。"
+  "<strong>一句话：</strong>一个总能在新技术里看到被忽视人群的开发者：SharePlay 本来是一起看电影的 API，TA 用来给 FaceTime 加字幕；Whisper 本来是一个模型，TA 把它变成了不需要机器人入会的会议记录工具。",
+  "<strong>代表作：</strong>MacWhisper（Mac 本地转写）、Whisper Transcription（iOS）、Navi（FaceTime 字幕与翻译）、Unmute、Posture Pal（4.42 分，294 个评分）、Days Since、Soosee、Sticky Timers、Mono（2026）；开源示例 Swift-Charts-Examples、Dynamic-Islands、TipKit-Examples、visionOS-Examples。",
+  "<strong>关键数字：</strong>X 关注者约 2.5 万、推文 2 万多条；GitHub 103 个公开仓库；Good Snooze 名下 App Store 应用 20 多款，最早一款是 2018 年的 DrawRun。",
+  "<strong>X 简介：</strong>「Indie dev at Good Snooze. Building things I like, that help people. Barely on here, no support in DMs.」"
  ],
- "lead": "Jordi 的 X 简介很直接：「Indie dev at Good Snooze. Building things I like, that help people. Barely on here, no support in DMs.」TA 不怎么在社交网络上表演，但每年 WWDC 后，开发者都会去 TA 的 GitHub 看新框架该怎么用。",
+ "lead": "Navi 的故事是 Jordi 工作方式的缩影。2021 年 4 月，TA 在一次黑客松上用电话 API 做了一个 App，让无法说话的人通过文字转语音打电话（就是后来的 Unmute）；两个月后，WWDC21 的 SharePlay session 让 TA 想到：能不能给 FaceTime 加字幕？12 月，Navi 上线，为 FaceTime 通话提供 20 种语言的实时字幕和翻译。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者；公司 Good Snooze"],
+     ["所在地", "荷兰阿姆斯特丹"],
+     ["代表作", "MacWhisper、Navi、Posture Pal、Unmute、Whisper Transcription、Days Since、Soosee"],
+     ["技术栈", "Swift / SwiftUI、SharePlay、Speech、Whisper / Parakeet 等端侧模型、visionOS"],
+     ["关键数字", "Good Snooze 名下 20 多款 App；Swift-Charts-Examples ★2,449"],
+     ["网站", "macwhisper.com（Framer）；jordibruin.com"],
+     ["社区", "SwiftUI-Series 无障碍挑战（InAccessibility 示例 App）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Jordi 的产品方法是「<strong>新框架 + 真实需求</strong>」。每年 WWDC 之后，TA 都会迅速用新 API 做出东西：SharePlay 之后是 Navi，Swift Charts 之后是图表示例集，灵动岛之后是 Dynamic Islands 设计合集，TipKit 和 visionOS 之后是对应的示例项目。这些开源示例让 TA 在开发者中广为人知。"},
+    {"p": "TA 的 App 有很强的<strong>无障碍</strong>倾向：帮无法说话的人打电话的 Unmute、给通话加字幕的 Navi、帮你纠正坐姿的 Posture Pal、扫描过敏原与素食成分的 Soosee、看图翻译菜单的 Cibo。帮到少数人的功能，往往对所有人都有用。"},
+    {"note": "本页依据 MacWhisper 官网、GitHub 与 README、App Store、9to5Mac 与 Silicon Canals 的报道整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2008–2009",
-       "title": "早期",
-       "text": "2008 年注册 X、2009 年注册 GitHub，长期活跃于 Apple 开发者社区。"
-      },
-      {
-       "when": "2021-04",
-       "title": "黑客松上的灵感",
-       "text": "参加一次黑客松，用电话 API 让无法说话的人通过文字转语音打电话。WWDC21 的 SharePlay session 让 TA 想到：能不能给 FaceTime 加字幕？"
-      },
-      {
-       "when": "2021-12",
-       "title": "Navi",
-       "text": "基于 SharePlay 为 FaceTime 通话提供 20 种语言的实时字幕和翻译，Mac 上字幕直接叠在视频窗口上。9to5Mac、iThinkDiff 等媒体纷纷报道。"
-      },
-      {
-       "when": "2022",
-       "title": "示例项目",
-       "text": "Swift Charts 发布后整理出覆盖各种图表类型的示例集（★2.5k）；灵动岛推出后又复刻了一组 Dynamic Island 设计供大家参考。"
-      },
-      {
-       "when": "2023",
-       "title": "MacWhisper",
-       "text": "OpenAI 开源 Whisper 后，TA 把它做成原生 Mac App：拖拽转写音视频、后台录制会议（无需机器人入会）、实时听写、播客说话人识别、YouTube 转写。同年发布 TipKit 与 visionOS 示例。"
-      },
-      {
-       "when": "2024–2026",
-       "title": "Good Snooze",
-       "text": "以 Good Snooze 的名义持续经营 MacWhisper 等产品，加入 Parakeet 等新模型，并开源 Changelogger、StoreKit-Examples 和 Apple 框架示例索引。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2008–2009", "title": "早期", "text": "2008 年注册 X、2009 年注册 GitHub，长期活跃于苹果开发者社区。"},
+     {"when": "2018–2020", "title": "第一批 App", "text": "2018 年 11 月上架画一条路线就能开始跑步的 DrawRun；2020 年 7 月上架过敏原与素食扫描 Soosee。"},
+     {"when": "2021", "title": "Unmute、Navi 与一批小工具", "text": "4 月黑客松做出 Unmute；7 月上架图标生成器 Bakery；9 月上架看图翻译菜单的 Cibo；11 月上架画中画进度控制 Pippo 和菜单栏低电量模式开关 cooldown；12 月上架 Navi。"},
+     {"when": "2022", "title": "Posture Pal 与示例项目", "text": "3 月上架 Posture Pal（用 AirPods 的运动传感器提醒你坐直）；Swift Charts 发布后整理出覆盖各类图表的示例集；灵动岛推出后复刻了一组设计；还做了 Days Since、Sticky Timers、回复 App Store 评价的 Superstar。"},
+     {"when": "2023", "title": "MacWhisper", "text": "OpenAI 开源 Whisper 后，把它做成原生 Mac App，以及 iOS 版 Whisper Transcription；同年发布 TipKit 和 visionOS 示例、一键重置 App 权限的 FromScratch，以及基于 ChatGPT 的 GeePeeTee。"},
+     {"when": "2024–2025", "title": "Good Snooze 持续经营", "text": "MacWhisper 加入 Parakeet 等新模型；上架 Spatial Cam、Apple Watch 测速 Snel、亮点日记 Daylights、锁屏视频 Frames；开源 Changelogger、StoreKit-Examples 和苹果框架示例索引。"},
+     {"when": "2026", "title": "Daily NLP 与 Mono", "text": "3 月上架 Daily NLP；9 月上架 AI 语音备忘录助手 Mono。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "MacWhisper",
-       "meta": "macOS · 免费 + Pro",
-       "text": "本地、私密、快速的转写：讲座、视频、播客、会议和任何 App 的音频。",
-       "url": "https://www.macwhisper.com"
-      },
-      {
-       "name": "Navi",
-       "meta": "2021 · SharePlay",
-       "text": "FaceTime 实时字幕与翻译。",
-       "url": "https://9to5mac.com/guides/navi/"
-      },
-      {
-       "name": "Swift-Charts-Examples",
-       "meta": "2022 · ★2.5k",
-       "text": "用 Swift Charts 能做出的各种图表的概览。",
-       "url": "https://github.com/jordibruin/Swift-Charts-Examples"
-      },
-      {
-       "name": "FromScratch",
-       "meta": "2023 · macOS",
-       "text": "一键重置 macOS App 权限的小工具。",
-       "url": "https://github.com/jordibruin/FromScratch"
-      }
+    {"work": {
+     "name": "MacWhisper", "url": "https://www.macwhisper.com",
+     "meta": ["2023", "macOS", "免费 + Pro"],
+     "paras": [
+      "「The all-in-one Mac app to transcribe it all.」用 Whisper、Parakeet 等模型在 Mac 本地转写音频、视频、会议和系统音频，私密、快速。官网首屏是动态的大字，场景词轮流出现：讲座、视频、播客、私人文件；下面是一个模拟的「Zoom Meeting Detected · Record」通知。"
+     ],
+     "bullets": [
+      "<strong>拖拽转写：</strong>采访、语音备忘录、讲座、字幕，拖进来就行。",
+      "<strong>后台会议记录：</strong>转写 Zoom、Teams、Webex、Skype 和 Discord 通话，「No bots joining」，不需要机器人入会。",
+      "<strong>实时听写：</strong>在任何 App 里用语音输入消息、笔记和文档。",
+      "<strong>播客与 YouTube：</strong>说话人识别、YouTube 视频转写。"
+     ],
+     "facts": [["官网", "Framer"], ["模式", "免费版 + Pro"], ["iOS 版", "Whisper Transcription（2023）"]]
+    }},
+    {"work": {
+     "name": "Navi", "url": "https://apps.apple.com/us/app/navi-subtitles-translation/id1573261774",
+     "meta": ["2021.12", "SharePlay", "20 种语言"],
+     "paras": [
+      "基于 SharePlay 为 FaceTime 通话提供实时字幕和翻译，Mac 上字幕直接叠在视频窗口上。9to5Mac、Silicon Canals 等媒体都报道过。它把一个「一起看电影」的 API，用在了听障人士和跨语言沟通上。"
+     ],
+     "facts": [["上架", "2021-12-13"], ["评分", "4.18（108）"]]
+    }},
+    {"work": {
+     "name": "Posture Pal", "url": "https://apps.apple.com/us/app/posture-pal-improve-alert/id1590316152",
+     "meta": ["2022", "iOS", "健康"],
+     "paras": [
+      "利用 AirPods 的运动传感器感知头部姿态，当你低头太久时提醒你坐直。它是 Good Snooze 评分最多的 App 之一，GitHub 上还有社区参与的本地化翻译仓库。"
+     ],
+     "facts": [["上架", "2022-03-16"], ["评分", "4.42（294）"]]
+    }},
+    {"work": {
+     "name": "Swift-Charts-Examples", "url": "https://github.com/jordibruin/Swift-Charts-Examples",
+     "meta": ["2022.06", "Swift", "★2.4 千"],
+     "paras": [
+      "「An overview of the different types of charts you can make with Swift Charts.」先复刻苹果在 WWDC session 里展示的示例图表，再让每一种都可定制、可访问、灵活。它和 Dynamic-Islands（★553）、TipKit-Examples（★431）、visionOS-Examples（★235）一起，构成了 TA「新框架示例」系列。"
      ]
-    }
+    }},
+    {"table": {
+     "caption": "Good Snooze 的部分 App（App Store 美区）",
+     "cols": ["App", "上架", "评分", "说明"],
+     "rows": [
+      ["Whisper Transcription", "2023", "3.91（170）", "iOS 上的 Whisper 转写"],
+      ["Days Since", "2022", "3.28（155）", "记录距离某件事过去了多少天"],
+      ["Soosee", "2020", "4.28（127）", "扫描过敏原与素食成分"],
+      ["Sticky Timers", "2022", "4.02（51）", "计时与倒数"],
+      ["GeePeeTee", "2023", "4.16（43）", "ChatGPT 客户端"],
+      ["Unmute", "2021", "5.0（8）", "帮无法说话的人打电话"],
+      ["Mono", "2026", "—", "AI 语音备忘录助手"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"table": {
+     "cols": ["仓库", "★", "年份", "说明"],
+     "rows": [
+      ["Swift-Charts-Examples", "2,449", "2022", "Swift Charts 图表示例"],
+      ["Dynamic-Islands", "553", "2022", "灵动岛设计复刻"],
+      ["TipKit-Examples", "431", "2023", "TipKit 示例"],
+      ["visionOS-Examples", "235", "2023", "visionOS 示例"],
+      ["FromScratch", "113", "2023", "重置 macOS App 权限"],
+      ["cooldown", "107", "2021", "菜单栏低电量模式开关"],
+      ["StoreKit-Examples", "72", "2025", "StoreKit 示例"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "网站",
+   "title": "网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://www.macwhisper.com",
-      "paras": [
-       "TA 的 X 简介把主页指向 MacWhisper。官网首屏是动态的大字「transcribe it all」，场景词「lectures、videos、podcasts」轮流出现，下面是一个模拟的「Zoom Meeting Detected · Record」通知。",
-       "功能按场景分组：会议、听写、播客、YouTube、App 音频，每个场景一句话说清楚。"
-      ]
-     }
-    },
-    {
-     "p": "早期 TA 还用 Notion 页面做产品文档与支持页，这是独立开发者节省时间的常见做法。"
-    }
+    {"site": {"url": "https://www.macwhisper.com", "paras": [
+     "TA 的 X 简介把主页指向 MacWhisper。官网用 Framer 搭建，功能按场景分组：会议、听写、播客、YouTube、App 音频，每个场景一句话说清楚。顶部只有 Pricing、Documentation、Try for free、Buy now。",
+     "X 简介里还有一句很直接的话：「Barely on here, no support in DMs」，几乎不在 X 上，别在私信里找客服。独立开发者需要保护自己的时间。"
+    ]}}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "assess",
+   "title": "长处与局限",
    "blocks": [
-    {
-     "p": "Jordi 的产品哲学是<strong>「新框架 + 真实需求」</strong>：SharePlay 本来是一起看电影的 API，TA 用来做字幕；Whisper 本来是一个模型，TA 把它变成了会议记录工具。TA 总能在新技术里看到被忽视的人群。"
-    },
-    {
-     "note": "TA 的示例仓库同样是一种设计：每个都配有清晰的截图和分类，让其他开发者几分钟内就能找到想要的效果。"
-    }
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["速度", "新框架发布后最快做出产品和示例的开发者之一", "App 数量多，很多是小实验，维护程度不一"],
+      ["产品", "MacWhisper 本地、私密、场景覆盖全", "转写赛道竞争激烈（包括系统自带功能）"],
+      ["无障碍", "多款 App 服务被忽视的人群", "部分 App 评分偏低（如 Days Since 3.28）"],
+      ["开源", "示例项目对社区价值大", "示例项目随系统版本推进需要持续更新"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>WWDC 是灵感来源：</strong>每个新 API 都可能是一个新产品。",
-      "<strong>为无障碍而设计：</strong>帮到少数人的功能，往往对所有人都有用。",
-      "<strong>示例项目建立声誉：</strong>开源示例让 TA 在开发者中广为人知。",
-      "<strong>本地优先：</strong>MacWhisper 的隐私承诺本身就是卖点。"
-     ]
-    }
+    {"checklist": [
+     "<strong>WWDC 是灵感来源：</strong>每个新 API 都可能是一个新产品。",
+     "<strong>为无障碍而设计：</strong>帮到少数人的功能，往往对所有人都有用。",
+     "<strong>示例项目建立声誉：</strong>开源示例让 TA 在开发者中广为人知。",
+     "<strong>本地优先：</strong>MacWhisper 的隐私承诺本身就是卖点。",
+     "<strong>保护自己的时间：</strong>明确告诉用户去哪里找支持。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "MacWhisper", "url": "https://www.macwhisper.com", "why": "下次开线上会议，试试不需要机器人入会的本地转写。"},
+     {"name": "Swift-Charts-Examples", "url": "https://github.com/jordibruin/Swift-Charts-Examples", "why": "做图表之前，先看看能做出哪些样子。"},
+     {"name": "Navi", "url": "https://apps.apple.com/us/app/navi-subtitles-translation/id1573261774", "why": "看一个 API 怎样被重新想象成无障碍工具。"}
+    ]}
    ]
   }
  ],
- "cta": "试试 MacWhisper 的免费版，转写一段你自己的录音。",
+ "cta": "试一试 MacWhisper，或者翻翻 TA 的那些苹果新框架示例。",
  "sources": [
-  {
-   "label": "Jordi Bruin 的 X 个人资料",
-   "url": "https://x.com/jordibruin"
-  },
-  {
-   "label": "MacWhisper 官网",
-   "url": "https://www.macwhisper.com"
-  },
-  {
-   "label": "GitHub：jordibruin",
-   "url": "https://github.com/jordibruin"
-  },
-  {
-   "label": "Silicon Canals：Navi brings subtitles to FaceTime",
-   "url": "https://siliconcanals.com/navi-brings-subtitles-and-live-translation-to-facetime/"
-  },
-  {
-   "label": "9to5Mac：Navi",
-   "url": "https://9to5mac.com/guides/navi/"
-  }
+  {"label": "Jordi Bruin 的 X 个人资料", "url": "https://x.com/jordibruin"},
+  {"label": "MacWhisper 官网", "url": "https://www.macwhisper.com"},
+  {"label": "GitHub：jordibruin", "url": "https://github.com/jordibruin"},
+  {"label": "Swift-Charts-Examples README", "url": "https://github.com/jordibruin/Swift-Charts-Examples"},
+  {"label": "App Store：Navi", "url": "https://apps.apple.com/us/app/navi-subtitles-translation/id1573261774"},
+  {"label": "App Store：Posture Pal", "url": "https://apps.apple.com/us/app/posture-pal-improve-alert/id1590316152"},
+  {"label": "App Store：Whisper Transcription", "url": "https://apps.apple.com/us/app/whisper-transcription/id1668083311"},
+  {"label": "Silicon Canals：Navi brings subtitles to FaceTime", "url": "https://siliconcanals.com/navi-brings-subtitles-and-live-translation-to-facetime/"},
+  {"label": "9to5Mac：Navi", "url": "https://9to5mac.com/guides/navi/"}
  ]
 }
