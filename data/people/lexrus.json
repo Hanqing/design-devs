@@ -1,59 +1,192 @@
 {
- "name": "Lex Tang（汤圣罡）",
+ "name": "Lex Tang",
  "role": "iOS / macOS 开发者 · 前 Web 设计师",
- "title": "Lex Tang：让文字<em>优雅变形</em>的人",
- "dek": "2002 年开始做 Web，在土豆网、携程做过前端与设计，2011 年自学 iOS。他的 LTMorphingLabel 让 UILabel 的文字切换像粒子一样燃烧、坠落、蒸发，成为 Swift 早期最受欢迎的开源动效之一。如今他用 AI Agent 独立做了八款 App。",
- "card": "LTMorphingLabel、VPNOn 作者，前土豆 / 携程 / 米哈游，SubList、SwiftyMenu 等 8 款 App 开发者。",
+ "title": "Lex Tang：让<em>文字优雅变形</em>的人",
+ "dek": "2002 年开始做 Web，在土豆网、携程做过前端与设计，2011 年自学 iOS。他在 Swift 发布几周后写出的 LTMorphingLabel，让 UILabel 的文字切换像粒子一样燃烧、坠落、蒸发，成为 Swift 早期最受欢迎的开源动效之一。如今他负责产品和 UI 设计，把编码交给 AI Agent，业余独立做了八款 App。",
+ "card": "LTMorphingLabel（★8.1 千）、VPNOn 作者；业余独立做了 SubList、SwiftyMenu、RegEx+ 等八款 App。",
  "location": "中国上海",
- "tags": ["Swift", "动效", "iOS", "macOS", "设计"],
- "links": [{"label": "lex.sh", "url": "https://lex.sh"}, {"label": "My Apps", "url": "https://lex.sh/apps"}, {"label": "GitHub", "url": "https://github.com/lexrus"}],
+ "updated": "2026-10-21",
+ "tags": ["Swift", "动效", "macOS", "独立 App", "Agentic Coding"],
+ "links": [
+  {"label": "lex.sh", "url": "https://lex.sh"},
+  {"label": "My Apps", "url": "https://lex.sh/apps/"},
+  {"label": "GitHub", "url": "https://github.com/lexrus"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>「he/him/husband/dad」，一个有着二十多年 Web 与设计背景的 iOS / macOS 开发者，早期 CocoaPods 的推广者之一。",
-  "<strong>代表作：</strong>LTMorphingLabel（★8.1k）、VPNOn（★4.5k）、fontdiao（中文图标字体）、ios-dev-playbook、SwiftyMenu（Finder 右键菜单增强）；App：SubList、CouchVox、Sharptooth、RegEx+、LiveExtractor、cmd+x、DesignMyClock。",
-  "<strong>工作经历：</strong>土豆网、携程、现代传播、壹钱包、No NDA、米哈游、PixelForce。"
+  "<strong>一句话：</strong>一个设计背景很深的 iOS / macOS 开发者，个人主页写着「iOS/macOS developer, he/him/husband/dad」。",
+  "<strong>代表作：</strong>LTMorphingLabel（★8,135）、VPNOn（★4.5 千）、fontdiao 中文图标字体、ios-dev-playbook、SwiftyMenu、RegEx+；2025–2026 年的 SubList、CouchVox、Sharptooth、cmd+x、DesignMyClock、LiveExtractor。",
+  "<strong>关键数字：</strong>X 关注者约 2.8 万；GitHub 粉丝 3,854，近一年贡献 7,845 次；App Store 名下 7 款 App，另有一款通过官网分发。",
+  "<strong>工作方式：</strong>「从产品设计到 UI 设计都由我自己完成；编码部分，2025 年起主要使用 OpenAI Codex、Google Antigravity 和 SpaceXAI Grok 等 Agent 工具。」"
  ],
- "lead": "Lex 的个人网站一句话介绍自己：「Hi, I'm Lex Tang. iOS/macOS developer, he/him/husband/dad. Building indie iOS & macOS apps.」在 App 页面，他坦白地写：「从 2025 年起我一直在用 Agentic 编程工具，主要依赖 OpenAI Codex、Google Antigravity 和 SpaceXAI Grok。」产品设计和 UI 设计，则都由他自己完成。",
+ "lead": "LTMorphingLabel 的 README 第一句说，它最初是为了模仿苹果在 WWDC 2014 上展示的 iOS 8 QuickType 动画。一个 Web 设计师出身的开发者，看到一段几秒钟的文字动画，就在 Swift 发布几周后把它做成了一个开源库，还额外设计了燃烧、蒸发、像素化等一整套效果。这就是 Lex 的风格：关注文字在变化那一瞬间的情绪。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2002", "title": "从 Web 开始", "text": "开始 Web 开发，先后在土豆网、携程等互联网公司工作，深入理解设计原则、规范与标准。"},
-    {"when": "2011", "title": "自学 iOS", "text": "通过自学进入 iOS 开发，熟练掌握 Objective-C；同时是 CocoaPods 的早期推广者，帮助大量第三方库接入这个依赖管理工具。"},
-    {"when": "2012–2013", "title": "中文图标字体与自动化", "text": "fontdiao：可用于 Web 和 iOS 的中文图标字体，附国内常用网站与应用徽标 SVG；ios-makefile：几秒钟打包分发 IPA。"},
-    {"when": "2014", "title": "Swift 元年：LTMorphingLabel 与 VPNOn", "text": "Swift 发布几周后就写出 LTMorphingLabel：Evaporate、Fall、Pixelate、Sparkle、Burn、Anvil 等多种文字变形效果。同年的 VPNOn 让你「像英雄一样打开 VPN」；ios-dev-playbook 的口号是「不会运维的 iOS 开发不是好设计师」。"},
-    {"when": "2015 起", "title": "多家公司的 iOS 开发", "text": "在现代传播、壹钱包（yqb.com）、No NDA、米哈游、PixelForce 等公司担任 iOS 开发；业余写了 LTJelloSwitch（用 PaintCode 做的果冻开关）和 LeetCode.swift。"},
-    {"when": "2022–2026", "title": "独立 App", "text": "SwiftyMenu 补上 Finder 缺失的右键菜单；之后陆续做了订阅追踪 SubList、CouchVox、蓝牙工具 Sharptooth、正则工具 RegEx+、LiveExtractor、cmd+x、DesignMyClock 等八款 App。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "LTMorphingLabel", "meta": "2014 · Swift · ★8.1k", "text": "为 UILabel 提供优雅的文字变形特效（实验性）。", "url": "https://github.com/lexrus/LTMorphingLabel"},
-    {"name": "SubList", "meta": "iOS / iPadOS / macOS", "text": "私密的订阅追踪器：截图导入、续费提醒、日历视图、月度与年度总计。", "url": "https://lex.sh/sublist"},
-    {"name": "SwiftyMenu", "meta": "2022 · macOS · ★430", "text": "「The missing Finder menu」，让日常操作更轻松。", "url": "https://github.com/lexrus/SwiftyMenu"},
-    {"name": "VPNOn", "meta": "2014 · ★4.5k", "text": "一键开启 VPN 的 iOS 工具与 Today 扩展。", "url": "https://github.com/lexrus/VPNOn"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://lex.sh", "paras": ["lex.sh 简洁得像一张名片：名字、一行身份、两个按钮（Résumé、My Apps）和一排社交图标。", "App 目录页写着「Catalog · 8 apps」，每款 App 有详细的功能描述和下载按钮；简历页则用一段文字讲完二十多年的职业路径。"]}}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "LTMorphingLabel 是一个「设计师写代码」的典型作品：<strong>它关注的是文字在变化那一瞬间的情绪</strong>，燃烧、蒸发、像素化。这种对动效的执着，来自他多年的 Web 设计背景。"},
-   {"p": "如今他把编码交给 AI Agent，把产品和 UI 设计留给自己。这也许是很多设计型开发者在 AI 时代的新分工。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>设计背景是优势：</strong>Web 设计的积累让他的开源库自带美感。",
-    "<strong>第一时间拥抱新语言：</strong>Swift 发布几周就出精品。",
-    "<strong>让 AI 写代码，自己做设计：</strong>一个人也能维护八款 App。",
-    "<strong>为生态做推广：</strong>早期推动 CocoaPods，同样是贡献。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS / macOS 开发者，独立 App 作者；App Store 开发者署名为汤圣罡"],
+     ["所在地", "中国上海"],
+     ["经历", "2002 年起做 Web（土豆网、携程）→ 2011 年自学 iOS → 现代传播、壹钱包、No NDA、米哈游、PixelForce 等公司的 iOS 开发（据简历与早期资料）"],
+     ["代表作", "LTMorphingLabel、VPNOn、SwiftyMenu、RegEx+、SubList、CouchVox、Sharptooth"],
+     ["技术栈", "Swift（2014 年起为主）、Objective-C、SwiftUI、GLSL；早年 Web 前端与设计"],
+     ["开源组织", "IBAnimatable"],
+     ["网站", "lex.sh（Astro，Cloudflare）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Lex 的作品有两个时期。<strong>开源时期（2012–2016）</strong>：中文图标字体、iOS 打包脚本、运维 Playbook、LTMorphingLabel、VPNOn，以及一堆用来学习 Swift 的小组件。<strong>独立 App 时期（2020 至今）</strong>：一系列「补上系统缺失」的 Mac 和 iOS 小工具。"},
+    {"p": "这些 App 都很有「系统补丁」的味道：SwiftyMenu 是「Finder 缺失的菜单」；cmd+x 让 Mac 上的 Command+X 真正能剪切文件，并用 Control+Option+Delete 打开活动监视器，「保留 Windows 的肌肉记忆」；Sharptooth 在菜单栏一键连接蓝牙设备；CouchVox 把 Apple TV 的 Siri 遥控器变成 Mac 的控制器和听写麦克风。"},
+    {"note": "本页依据 lex.sh（主页、简历、App 目录）、GitHub、App Store 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2002", "title": "从 Web 开始", "text": "开始 Web 开发，先后在土豆网、携程等互联网公司工作，简历里写道，这段经历让他「深入理解了设计原则、规范与标准」。2007 年注册 X。"},
+     {"when": "2011", "title": "自学 iOS", "text": "通过自学进入 iOS 开发，熟练掌握 Objective-C；也是 CocoaPods 在国内的早期推广者。"},
+     {"when": "2012–2013", "title": "中文图标字体与自动化", "text": "fontdiao（Font 屌）：用于 Web 和 iOS 的中文图标字体，附国内常用网站与应用的徽标 SVG；ios-makefile：几秒钟打包分发 IPA，还会把 git 提交和分支叠在 App 图标上；PhoneticContacts：给联系人加上拼音，英文系统下也能按拼音分组。"},
+     {"when": "2014", "title": "Swift 元年", "text": "6 月写出 LTMorphingLabel 和 LTBouncyPlaceholder；7 月发布 ios-dev-playbook，口号是「不会运维的 iOS 开发不是好设计师」；12 月发布 VPNOn，「像英雄一样打开 VPN」。"},
+     {"when": "2015–2017", "title": "多家公司与更多小作品", "text": "用 PaintCode 做的果冻开关 LTJelloSwitch、算法练习 LeetCode.swift、Swift 文件的 Quick Look 插件，以及「中国程序员常读错的英文单词」App 花灰（Huahui）。"},
+     {"when": "2020", "title": "RegEx+", "text": "用 SwiftUI 写的正则测试工具，后来加入交互式流程图，可视化地拆解每个正则模式。"},
+     {"when": "2021–2022", "title": "SwiftyMenu", "text": "「The missing Finder menu」，把常用的 App、脚本和终端命令放进 Finder 右键菜单：右键任意文件或文件夹，就能打开 App、运行 Shell 脚本或 AppleScript，或者在 Terminal、iTerm2、Ghostty 里打开，选中的路径自动作为参数传入；源码开源。"},
+     {"when": "2025–2026", "title": "Agentic Coding 与八款 App", "text": "开始用 Agent 工具编码：LiveExtractor（6 月）、Sharptooth（7 月）、cmd+x（10 月）、DesignMyClock 屏保（12 月）、SubList 订阅追踪（2026 年 1 月），以及 CouchVox。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "LTMorphingLabel", "url": "https://github.com/lexrus/LTMorphingLabel",
+     "meta": ["2014", "Swift", "★8.1 千"],
+     "paras": [
+      "「Graceful morphing effects for UILabel written in Swift.」一个 UILabel 子类，文字改变时不是生硬地替换，而是逐字符地变形：默认的 Scale，以及 Evaporate（蒸发）、Fall（坠落）、Pixelate（像素化）、Sparkle（闪光）、Burn（燃烧）、Anvil（铁砧砸下）等效果。它被标为「实验性」，却成了 Swift 早期最受欢迎的开源动效之一，2026 年仍有更新。"
+     ],
+     "facts": [["GitHub", "★8,135 · ⑂775"], ["灵感", "WWDC 2014 的 iOS 8 QuickType 动画"]]
+    }},
+    {"work": {
+     "name": "SubList", "url": "https://apps.apple.com/us/app/sublist-subscription-tracker/id6757860829",
+     "meta": ["2026.01", "iOS · iPadOS · macOS", "财务"],
+     "paras": [
+      "「Stop surprise renewals and see exactly what your subscriptions cost.」一个私密的订阅追踪器：续费提醒、日历视图、月度和年度总计、分析图表、iCloud 同步。lex.sh 首页的「Building」链接指向的就是它。"
+     ],
+     "facts": [["首发", "2026-01-30"], ["价格", "免费"]]
+    }},
+    {"work": {
+     "name": "RegEx+", "url": "https://apps.apple.com/us/app/regex/id1511763524",
+     "meta": ["2020", "SwiftUI", "$1.99"],
+     "paras": [
+      "「Visualize, test, and master regular expressions.」在 iPhone、iPad 和 Mac 上实时构建和测试正则，再用交互式流程图直观地看到每个模式是怎么工作的。源码开源。"
+     ],
+     "facts": [["首发", "2020-05-06"], ["GitHub", "★210"]]
+    }},
+    {"work": {
+     "name": "VPNOn", "url": "https://github.com/lexrus/VPNOn",
+     "meta": ["2014", "Swift", "已归档"],
+     "paras": [
+      "在 iOS 上打开 VPN 要钻进很深的设置菜单。VPNOn 在通知中心放了一个 Today 小组件，大约 3 秒就能开启 VPN，还支持按需连接。★4.5 千、⑂922，是那几年最受欢迎的 Swift 开源 App 之一。"
+     ]
+    }},
+    {"h3": "2025–2026 年的 App"},
+    {"table": {
+     "cols": ["App", "上架", "说明"],
+     "rows": [
+      ["CouchVox", "—", "把 Apple TV 的 Siri 遥控器变成 Mac 控制器、远程键盘、听写麦克风和 AI 工作流触发器（官网分发）"],
+      ["Sharptooth", "2025-07", "在菜单栏一键或用快捷键连接蓝牙耳机、键盘、鼠标、音箱，$1.99"],
+      ["cmd+x", "2025-10", "在 macOS 15+ 上保留 Windows 习惯：真正的剪切移动文件、Control+Option+Delete 打开活动监视器"],
+      ["DesignMyClock", "2025-12", "自己设计指针或数字表盘的 Mac 时钟屏保"],
+      ["LiveExtractor", "2025-06", "从实况照片里提取高清静帧，或把视频部分单独存成文件，$0.99"],
+      ["SwiftyMenu", "2021", "Finder 缺失的右键菜单，开源"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"table": {
+     "cols": ["仓库", "★", "年份", "说明"],
+     "rows": [
+      ["LTMorphingLabel", "8,135", "2014", "UILabel 文字变形特效"],
+      ["VPNOn", "4,507", "2014", "一键开启 VPN（已归档）"],
+      ["fontdiao", "608", "2012", "中文图标字体（已废弃）"],
+      ["ios-makefile", "578", "2013", "几秒钟打包分发 IPA（已废弃）"],
+      ["ios-dev-playbook", "552", "2014", "用 Ansible 配置 GitLab、Jenkins、Ghost 等服务"],
+      ["SwiftyMenu", "431", "2022", "Finder 菜单增强"],
+      ["LTJelloSwitch", "363", "2015", "PaintCode 果冻开关"],
+      ["PhoneticContacts", "290", "2012", "给联系人加拼音"]
+     ]
+    }},
+    {"p": "GitHub 主页 README 只有一句话：「These are the apps I'm shipping these days」，后面跟着 App 目录的链接。近一年 7,845 次贡献，说明 Agent 编码让他的产出明显提速。"}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://lex.sh", "paras": [
+     "lex.sh 简洁得像一张名片：名字、一行身份、两个按钮（Résumé、My Apps）和一排社交图标。网站描述写着「独立 App、开源，以及偶尔的 WebGL 实验」。",
+     "App 目录页写着「Catalog · 8 apps」，开头一段话坦白了分工：产品设计、UI 设计自己做，编码交给 Agent 工具。每款 App 都有详细的功能描述和下载按钮。简历页则用一段文字讲完二十多年的职业路径。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Cloudflare"],
+      ["结构", "首页 → 简历 / App 目录两条路径"],
+      ["透明", "公开说明使用 Codex、Antigravity、Grok 等 Agent 工具编码"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计", "Web 设计背景让作品自带美感，动效与细节讲究", "—"],
+      ["产品", "多款「系统补丁」型小工具，定位清晰", "多数 App 刚上架不久，评分很少"],
+      ["开源", "LTMorphingLabel 影响深远", "多个早期项目已归档或废弃"],
+      ["方式", "AI 写代码、自己做设计，一人维护八款 App", "大量依赖 Agent 编码，长期维护成本有待观察"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>设计背景是优势：</strong>Web 设计的积累让他的开源库自带美感。",
+     "<strong>第一时间拥抱新语言：</strong>Swift 发布几周就出精品。",
+     "<strong>让 AI 写代码，自己做设计：</strong>一个人也能维护八款 App，并坦然说明分工。",
+     "<strong>补上系统缺失的那一块：</strong>Finder 菜单、剪切文件、蓝牙一键连接，都是每天都会遇到的小痛点。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "LTMorphingLabel", "url": "https://github.com/lexrus/LTMorphingLabel", "why": "看 README 里的动图，感受「文字变形」的情绪。"},
+     {"name": "lex.sh/apps", "url": "https://lex.sh/apps/", "why": "八款小工具，挑一款解决你 Mac 上的小别扭。"},
+     {"name": "RegEx+", "url": "https://apps.apple.com/us/app/regex/id1511763524", "why": "如果你常写正则，交互式流程图会帮你看懂复杂的模式。"}
+    ]}
+   ]
+  }
  ],
- "cta": "看一眼 LTMorphingLabel 的 GIF，然后去 lex.sh 挑一款 App。",
+ "cta": "去 lex.sh/apps 挑一款小工具。",
  "sources": [
   {"label": "Lex Tang 的 X 个人资料", "url": "https://x.com/lexrus"},
   {"label": "lex.sh", "url": "https://lex.sh"},
-  {"label": "lex.sh：Résumé", "url": "https://lex.sh/resume"},
-  {"label": "lex.sh：My Apps", "url": "https://lex.sh/apps"},
-  {"label": "GitHub：lexrus", "url": "https://github.com/lexrus"}
+  {"label": "lex.sh：Résumé", "url": "https://lex.sh/resume/"},
+  {"label": "lex.sh：My Apps", "url": "https://lex.sh/apps/"},
+  {"label": "GitHub：lexrus", "url": "https://github.com/lexrus"},
+  {"label": "LTMorphingLabel README", "url": "https://github.com/lexrus/LTMorphingLabel"},
+  {"label": "VPNOn README", "url": "https://github.com/lexrus/VPNOn"},
+  {"label": "App Store：SubList", "url": "https://apps.apple.com/us/app/sublist-subscription-tracker/id6757860829"},
+  {"label": "App Store：RegEx+", "url": "https://apps.apple.com/us/app/regex/id1511763524"},
+  {"label": "CouchVox 官网", "url": "https://couchvox.com/"}
  ]
 }

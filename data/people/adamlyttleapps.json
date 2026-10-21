@@ -1,174 +1,180 @@
 {
  "name": "Adam Lyttle",
  "role": "澳大利亚独立 App 开发者 · YouTuber",
- "title": "Adam Lyttle：从割草工到<em>五十款 App</em>",
- "dek": "网页公司倒闭、背上债务，TA 去帮人割草谋生。后来 TA 给自己定了一个规则：一年里每个月做一款 App。如今 TA 有五十多款在售应用、一个讲独立开发的 YouTube 频道，还在写浏览器小游戏。",
- "card": "墨尔本的独立 App 开发者，App 组合策略代表人物，Swipe the Cat 作者，YouTube 创作者。",
+ "title": "Adam Lyttle：从割草工到<em>三十多款 App</em>",
+ "dek": "网页公司倒闭后，他去帮人割草谋生；后来给自己定了一个规则：一年里每个月做一款 App。如今他的公司名下有 31 款在售 App，评分最多的宝可梦卡牌估价扫描器有两万多个评分；他还经营着讲独立开发的 YouTube 频道，开源了一套 ASO 与转化的 Claude Code Skills，并在网页上发布免费小游戏。",
+ "card": "App All Day 名下 31 款 App 的独立开发者；ASO 截图与问卷式引导 Claude Code Skills 的作者。",
  "location": "澳大利亚墨尔本",
- "tags": [
-  "iOS",
-  "ASO",
-  "App 组合",
-  "YouTube",
-  "游戏"
- ],
+ "updated": "2026-10-21",
+ "tags": ["独立开发", "ASO", "SwiftUI", "YouTube", "浏览器游戏"],
  "links": [
-  {
-   "label": "YouTube",
-   "url": "https://youtube.com/@adamlyttleapps"
-  },
-  {
-   "label": "浏览器游戏",
-   "url": "https://play.adamlyttleapps.com"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/adamlyttleapps"
-  }
+  {"label": "YouTube", "url": "https://youtube.com/@adamlyttleapps"},
+  {"label": "免费浏览器游戏", "url": "https://play.adamlyttleapps.com"},
+  {"label": "GitHub", "url": "https://github.com/adamlyttleapps"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个没有受过正规开发训练、靠「每月一款 App」自学出来的独立开发者，以「App 组合」而非单一爆款维生。",
-  "<strong>代表作：</strong>Swipe the Cat（借 TikTok 爆火的猫咪游戏）、Piano Run，以及大量消费级小工具 App；开源了 SwiftUI 付费墙、引导页组件和 ASO 截图、问卷式引导的 Claude Code Skills。",
-  "<strong>数字：</strong>据播客与报道，TA 的月收入曾从 1 万美元增长到 5–7 万美元（自述，来源不一）。"
+  "<strong>一句话：</strong>一个「反精品」的独立开发者：用数量换学习，用组合换稳定。每一款 App 都是一次关于关键词、截图、付费墙和引导流程的实验。",
+  "<strong>代表作：</strong>Card Value Scanner for Pokemon（4.7 分，21,386 个评分）、Pesos to Dollars Conversion、PIANORUN、Swipe the Cat、各类 AI 识别扫描器；开源的 ASO 截图 Skill（★1.8 千）、问卷式引导 Skill（★1.2 千）、notchy（★718）。",
+  "<strong>关键数字：</strong>X 关注者约 5.9 万、推文 2 万多条；App Store 开发者主体 App All Day Pty Ltd 名下 31 款 App；RevenueCat 2026 年 2 月的播客介绍称他有 30 多款活跃 iOS App。",
+  "<strong>自我介绍：</strong>「slop enthusiast • indie app dev • wannabe game dev」（垃圾内容爱好者、独立 App 开发者、想当游戏开发者）。"
  ],
- "lead": "Adam 的 X 简介很自嘲：「slop enthusiast • indie app dev • wannabe game dev」。YouTube 频道的介绍则认真得多：「独立 App 开发是我的特别兴趣，我在这里展示独立开发者、做 App。」TA 还写着：follower of Christ。",
+ "lead": "Adam 没有受过正规的 App 开发教育。网页公司失败后，他靠割草生意恢复元气，但做 App 的念头从没消失。于是他给自己定了一个简单粗暴的规则：一年里每个月做一款 App。大多数没成功，但每一款都教会了他一点营销、变现和用户口味。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立 App 开发者、YouTuber；App Store 开发者主体 App All Day Pty Ltd"],
+     ["所在地", "澳大利亚墨尔本"],
+     ["经历", "网页开发与网页公司（失败）→ 割草生意 → 每月一款 App 的自学 → App 组合经营"],
+     ["代表作", "Card Value Scanner for Pokemon、PIANORUN、Swipe the Cat、AI 识别扫描器系列、Claude Code Skills"],
+     ["技术栈", "SwiftUI（从跨平台转向原生）、Python、PHP（OpenAI 代理）"],
+     ["渠道", "YouTube（ASO、AI 开发、收入复盘、访谈）、X、浏览器游戏站"],
+     ["播客", "RevenueCat《Launched》（2026-02）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Adam 经营的是一个 <strong>App 组合</strong>，而不是一个 App。看他公司名下的作品就能感受到这种策略：宝可梦卡牌估价、比索兑美元换算、YouTube 订阅数、把手机变蓝牙麦克风、鱼类 / 昆虫 / 种子 AI 识别、「这是素食吗」扫描器、排行榜制作、圣经闹钟、学钢琴游戏、把自己变成卡通。每一款都瞄准一个具体的搜索关键词。"},
+    {"p": "2026 年，他把这些年的 ASO 和转化经验写成了 Claude Code Skills：一个分析你的代码、找出核心卖点并生成高转化 App Store 截图；一个参照 Headspace、Noom、Duolingo 等订阅 App 的模式，设计问卷式引导流程。与此同时，他也在实现「想当游戏开发者」的愿望：网页上已经有十几款免费小游戏。"},
+    {"note": "本页依据 GitHub、App Store、play.adamlyttleapps.com、RevenueCat 播客页面与 X 资料整理，资料截至 2026 年 10 月。具体收入未见公开数字，因此不做推测。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2007",
-       "title": "网页开发起步",
-       "text": "2007 年就注册了 X，早年做网页开发并经营一家网页公司。"
-      },
-      {
-       "when": "低谷",
-       "title": "公司倒闭与割草生意",
-       "text": "网页公司失败后，TA 离开科技行业，靠经营割草生意恢复元气。据报道 TA 当时背负了大量债务。"
-      },
-      {
-       "when": "重新开始",
-       "title": "一年十二款 App",
-       "text": "对做 App 的渴望从未消失。没有正规教育，TA 就给自己定规则：一年里每个月做一款 App。有的成了，大多数没有，但每一款都教会了 TA 营销、变现和用户口味。"
-      },
-      {
-       "when": "组合策略",
-       "title": "五十多款 App",
-       "text": "不追求单一爆款，而是用 ASO（应用商店优化）和数据驱动的迭代经营一个 App 组合。早期靠广告获得稳定收入，之后加入内购与订阅。"
-      },
-      {
-       "when": "2024–2025",
-       "title": "Swipe the Cat 与原生转型",
-       "text": "借 TikTok 趋势做出爆款猫咪游戏 Swipe the Cat，但变现不如预期，TA 把「病毒式传播」的经验用到后续发布里；同时从跨平台转向原生 SwiftUI，并开源了付费墙、电影感引导页等组件。"
-      },
-      {
-       "when": "2026",
-       "title": "AI 时代的 App 工厂",
-       "text": "开源 claude-skill-aso-appstore-screenshots（★1.8k）、问卷式引导流程 Skill 等，把自己的 ASO 与转化经验交给 Claude Code；同时做 notchy、CharacterView，并在 play.adamlyttleapps.com 发布免费浏览器游戏。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2007", "title": "网页开发起步", "text": "2007 年注册 X，早年做网页开发并经营一家网页公司。"},
+     {"when": "低谷", "title": "公司倒闭与割草生意", "text": "网页公司失败后，他离开科技行业，靠经营割草生意恢复元气。"},
+     {"when": "重新开始", "title": "一年十二款 App", "text": "给自己定规则：一年里每个月做一款 App。有的成了，大多数没有，但每一款都是一次学习。"},
+     {"when": "2020–2021", "title": "早期作品", "text": "iMic（把手机变成蓝牙音箱麦克风）、Just For Today 每日计划、YouTube 订阅数小组件、圣经闹钟。"},
+     {"when": "2023", "title": "组合扩张", "text": "比索兑美元换算、PIANORUN 学钢琴游戏、宝可梦卡牌估价扫描器、排行榜制作，以及年底的一批 AI 识别扫描器（鱼、昆虫、素食）。卡牌扫描器成了他评分最多的 App。"},
+     {"when": "2024", "title": "转向原生 SwiftUI", "text": "开源 OpenAI 包装器与 PHP 代理（保护 API Key）、付费墙组件；之后又开源了电影感引导页。"},
+     {"when": "2025", "title": "Swipe the Cat", "text": "借 TikTok 趋势做出病毒式传播的猫咪游戏 Swipe the Cat。据 RevenueCat 播客介绍，变现不如预期，但这次病毒传播的经验对后续发布「非常宝贵」。"},
+     {"when": "2026", "title": "Skills、notchy 与浏览器游戏", "text": "3 月开源 ASO 截图 Skill 和把 Claude Code 放进 MacBook 刘海的 notchy；4 月开源问卷式引导 Skill；7 月开源游戏素材增强 Skill；同时在 play.adamlyttleapps.com 持续发布免费网页游戏。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "ASO 截图 Skill",
-       "meta": "2026 · ★1.8k",
-       "text": "一个帮你生成高转化 App Store 截图的 Claude Code Skill。",
-       "url": "https://github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots"
-      },
-      {
-       "name": "问卷式引导 Skill",
-       "meta": "2026 · ★1.2k",
-       "text": "参照高转化 App 设计和生成问卷式 Onboarding 流程。",
-       "url": "https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire"
-      },
-      {
-       "name": "浏览器游戏",
-       "meta": "免费 · 无需安装",
-       "text": "TA「想当游戏开发者」的实验场。",
-       "url": "https://play.adamlyttleapps.com"
-      },
-      {
-       "name": "Paywall-PurchaseView",
-       "meta": "2024 · SwiftUI",
-       "text": "展示周订阅与年订阅的简洁付费墙组件。",
-       "url": "https://github.com/adamlyttleapps/Paywall-PurchaseView-SwiftUI"
-      }
+    {"work": {
+     "name": "Card Value Scanner for Pokemon", "url": "https://apps.apple.com/us/app/card-value-scanner-for-pokemon/id6468806603",
+     "meta": ["2023", "iOS", "App All Day"],
+     "paras": [
+      "拍一张宝可梦卡牌，识别并给出市场估价。它是 Adam 组合里评分最多的 App：21,386 个评分，平均 4.7 分。一个瞄准明确人群、明确搜索需求的「小工具」，往往比一个宏大的产品更容易被找到。"
+     ],
+     "facts": [["首发", "2023-10-05"], ["评分", "4.7（21,386）"]]
+    }},
+    {"work": {
+     "name": "ASO 截图 Skill", "url": "https://github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots",
+     "meta": ["2026.03", "Claude Code Skill", "★1.8 千"],
+     "paras": [
+      "「A Claude Code skill that generates high-converting App Store screenshots for your iOS app.」流程分几步：<strong>卖点发现</strong>：分析代码库，找出驱动下载的 3–5 个核心卖点；<strong>截图配对</strong>：检查模拟器截图，为每个卖点配一张；然后用 AI 生成专业的截图图像。这是把十几年的 ASO 经验交给 Agent 的一种方式。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "问卷式引导 Skill", "url": "https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+     "meta": ["2026.04", "Claude Code Skill", "★1.2 千"],
+     "paras": [
+      "在项目里运行 <code>/app-onboarding-questionnaire</code>，Skill 会先分析你的代码库，再参照 Mob、Headspace、Noom、Duolingo 等头部订阅 App 的成熟转化模式，设计并生成一套问卷式引导流程。订阅类 App 的转化，很大程度上取决于这几屏。"
+     ]
+    }},
+    {"work": {
+     "name": "notchy", "url": "https://github.com/adamlyttleapps/notchy",
+     "meta": ["2026.03", "Swift", "macOS 菜单栏"],
+     "paras": [
+      "一个把 Claude Code 放进 MacBook 刘海的菜单栏 App：鼠标移到刘海上，或点菜单栏图标，就会弹出一个浮动终端面板，里面是嵌入的会话，并能自动识别你打开的 Xcode 项目。"
+     ],
+     "facts": [["GitHub", "★718"]]
+    }},
+    {"work": {
+     "name": "免费浏览器游戏", "url": "https://play.adamlyttleapps.com",
+     "meta": ["2026", "网页", "无需安装"],
+     "paras": [
+      "「Free browser games by Adam Lyttle — no installs, just play.」有开放世界送外卖的《Delivery Dan》、检查行李的《Suspicious Package》、讽刺 AI 算力竞赛的放置游戏《Tokenmaxxing》（「建到整个星球都是数据中心为止」）、密室逃脱《Count Everything》、多人海战《Sea Barons》等。X 简介把链接指向这里，而不是 App，透露出他下一阶段的兴趣。"
+     ]
+    }},
+    {"table": {
+     "cols": ["开源组件", "★", "说明"],
+     "rows": [
+      ["OpenAI-Wrapper-SwiftUI", "327", "用于视觉任务的 SwiftUI OpenAI 包装器，配合 PHP 代理保护 API Key"],
+      ["Paywall-PurchaseView-SwiftUI", "228", "展示周订阅和年订阅的简洁付费墙"],
+      ["OnboardingView-Swift", "176", "引导页组件"],
+      ["CinematicOnboardingView-SwiftUI", "166", "带分层动画、进度、用户评价的电影感引导流程"],
+      ["CharacterView", "19", "在 SwiftUI 里触发角色动画"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
    "title": "线上形象",
    "blocks": [
-    {
-     "site": {
-      "url": "https://youtube.com/@adamlyttleapps",
-      "paras": [
-       "TA 的主阵地是 YouTube：ASO 与关键词策略、AI 辅助开发 App、组合收入模型、失败复盘，以及对其他独立开发者的访谈。",
-       "X 简介把链接指向了自己的免费浏览器游戏，而不是 App，这透露出 TA 下一阶段的兴趣。"
-      ]
-     }
-    },
-    {
-     "p": "TA 也上过 RevenueCat 的《Launched》等播客，完整讲述从网页公司失败到 App 组合成功的经历。"
-    }
+    {"p": "Adam 的主阵地是 YouTube：ASO 与关键词策略、用 AI 辅助开发 App、组合收入模型、失败复盘，以及对其他独立开发者的访谈。他的开源组件 README 里常附一段演示视频，托管在 adamlyttleapps.com 上。"},
+    {"site": {"url": "https://play.adamlyttleapps.com", "paras": [
+     "游戏站有账号系统、统计和排行榜，每个游戏一张卡片，标出类型（Arcade、Puzzle、Idle、Satire、Multiplayer）和一句话简介。托管在 Cloudflare。"
+    ]}}
    ]
   },
   {
-   "id": "craft",
+   "id": "voice",
    "title": "方法论",
    "blocks": [
-    {
-     "p": "Adam 的方法很「反精品」：<strong>数量换学习，组合换稳定</strong>。TA 不赌一个大产品，而是让每一款 App 都成为一次关于关键词、截图、付费墙和引导流程的实验。"
-    },
-    {
-     "p": "TA 在 2026 年把这些实验结论写成 Claude Code Skills，这是「经验产品化」的另一种形式：让 AI 按照 TA 的方法去做截图和引导页。"
-    }
+    {"ul": [
+     "<strong>给学习设一个节奏：</strong>每月一款，用发布倒逼成长。",
+     "<strong>组合胜过单押：</strong>不追一个大产品，而是让很多小 App 一起构成稳定的收入。",
+     "<strong>重视 ASO：</strong>截图、关键词、引导页决定了大多数 App 的生死。",
+     "<strong>爆款不等于赚钱：</strong>Swipe the Cat 的病毒传播没有带来预期的变现，教训是先设计好商业模式。",
+     "<strong>把经验产品化：</strong>2026 年把 ASO 与转化经验写成 Skills，让 AI 按他的方法去做。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["商业", "组合策略分散风险，个别 App 评分数万", "多数 App 评分较少，组合里单品质量参差（有的评分偏低）"],
+      ["方法", "ASO 与转化经验丰富，并愿意开源分享", "工具型 App 同质化竞争激烈，依赖搜索流量"],
+      ["技术", "从跨平台转到原生 SwiftUI，组件实用", "开源项目多为小组件，规模有限"],
+      ["方向", "网页游戏开辟新阵地", "游戏方向仍在探索期"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
-   "title": "可以从 TA 身上学什么",
+   "title": "可以从他身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>失败后重新开始：</strong>从割草到 App，人生没有那么多「太晚」。",
-      "<strong>给学习设一个节奏：</strong>每月一款，用发布倒逼成长。",
-      "<strong>重视 ASO：</strong>截图、关键词、引导页决定了大多数 App 的生死。",
-      "<strong>爆款不等于赚钱：</strong>病毒传播之外，还要设计好变现。"
-     ]
-    }
+    {"checklist": [
+     "<strong>失败后重新开始：</strong>从割草到 App，人生没有那么多「太晚」。",
+     "<strong>给学习设一个节奏：</strong>每月一款，用发布倒逼成长。",
+     "<strong>瞄准具体的搜索需求：</strong>一个卡牌估价工具，比一个宏大的平台更容易被找到。",
+     "<strong>把经验交给 AI：</strong>写成 Skill，经验就能被反复复用。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "ASO 截图 Skill", "url": "https://github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots", "why": "如果你有一个 iOS App，让 Claude Code 帮你重做一套商店截图。"},
+     {"name": "RevenueCat 播客：Adam Lyttle", "url": "https://www-docs.revenuecat.com/blog/growth/adam-lyttle-swipe-the-cat-launched-podcast-2026/", "why": "听他完整讲述从网页公司失败到 App 组合的经历。"},
+     {"name": "免费浏览器游戏", "url": "https://play.adamlyttleapps.com", "why": "玩一局《Tokenmaxxing》，看看他怎么讽刺 AI 算力竞赛。"}
+    ]}
    ]
   }
  ],
- "cta": "去 TA 的 YouTube 频道看一期 App 复盘，或者玩一个浏览器小游戏。",
+ "cta": "去他的 YouTube 看一期 ASO 实战，或者在浏览器里玩一局他的小游戏。",
  "sources": [
-  {
-   "label": "Adam Lyttle 的 X 个人资料",
-   "url": "https://x.com/adamlyttleapps"
-  },
-  {
-   "label": "RevenueCat：Adam Lyttle on Launched podcast",
-   "url": "https://www-docs.revenuecat.com/blog/growth/adam-lyttle-swipe-the-cat-launched-podcast-2026/"
-  },
-  {
-   "label": "GitHub：adamlyttleapps",
-   "url": "https://github.com/adamlyttleapps"
-  },
-  {
-   "label": "YouTube 频道",
-   "url": "https://youtube.com/@adamlyttleapps"
-  }
+  {"label": "Adam Lyttle 的 X 个人资料", "url": "https://x.com/adamlyttleapps"},
+  {"label": "RevenueCat：Adam Lyttle on Launched podcast（2026）", "url": "https://www-docs.revenuecat.com/blog/growth/adam-lyttle-swipe-the-cat-launched-podcast-2026/"},
+  {"label": "GitHub：adamlyttleapps", "url": "https://github.com/adamlyttleapps"},
+  {"label": "ASO 截图 Skill README", "url": "https://github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots"},
+  {"label": "问卷式引导 Skill README", "url": "https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire"},
+  {"label": "notchy README", "url": "https://github.com/adamlyttleapps/notchy"},
+  {"label": "免费浏览器游戏", "url": "https://play.adamlyttleapps.com"},
+  {"label": "App Store：Swipe the Cat（App All Day Pty Ltd）", "url": "https://apps.apple.com/us/app/swipe-the-cat-game/id6755091696"},
+  {"label": "YouTube 频道", "url": "https://youtube.com/@adamlyttleapps"}
  ]
 }
