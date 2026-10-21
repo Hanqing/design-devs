@@ -241,3 +241,4 @@ blockquote cite{color:var(--muted);font-size:13px;font-style:normal;display:bloc
   .filters input{margin-left:0;width:100%}
   .chrome nav .hide-sm{display:none}
 }
+@media (max-width:560px){.tbl table{font-size:13px;line-height:1.55}.tbl th{padding:8px 10px;white-space:normal}.tbl td{padding:9px 10px;min-width:64px}.tbl td:first-child{white-space:normal;min-width:60px}.tbl caption{padding:9px 10px 0}}

@@ -6,11 +6,26 @@
  "card": "Super Easy Timer 作者；前 GoPro Staff iOS 工程师，iOS 教育者；用 Codex 公开构建 App。",
  "location": "美国纽约州罗切斯特",
  "updated": "2026-10-21",
- "tags": ["iOS / macOS", "教学", "AI Agent", "Core ML", "SwiftUI"],
+ "tags": [
+  "iOS / macOS",
+  "教学",
+  "AI Agent",
+  "Core ML",
+  "SwiftUI"
+ ],
  "links": [
-  {"label": "Super Easy Timer", "url": "https://SuperEasyTimer.com"},
-  {"label": "YouTube", "url": "https://www.youtube.com/user/PaulSolt"},
-  {"label": "GitHub", "url": "https://github.com/PaulSolt"}
+  {
+   "label": "Super Easy Timer",
+   "url": "https://SuperEasyTimer.com"
+  },
+  {
+   "label": "YouTube",
+   "url": "https://www.youtube.com/user/PaulSolt"
+  },
+  {
+   "label": "GitHub",
+   "url": "https://github.com/PaulSolt"
+  }
  ],
  "summary": [
   "<strong>一句话：</strong>一位资深 iOS 工程师兼教育者。Portfolio 自述：「我做第一次点击就让人感觉很棒的 iOS / macOS App」，擅长图形与视频管线、性能、无障碍和团队协作。",
@@ -24,138 +39,345 @@
    "id": "overview",
    "title": "档案速览",
    "blocks": [
-    {"t": "Profile", "profile": [
-     ["身份", "Staff / Senior iOS 工程师、独立 App 作者、教育者；公司 Super Easy Apps LLC"],
-     ["所在地", "美国纽约州罗切斯特"],
-     ["经历", "Microsoft、Apple → RIT 授课 → Lambda School（2019–2020）→ GoPro Staff iOS 工程师（2021–2024）→ Omni Federal 高级移动工程师（2025 至今）"],
-     ["代表作", "Super Easy Timer、Brew、Core ML 蜘蛛识别相机、DocSetQuery"],
-     ["技术栈", "Swift / SwiftUI / UIKit、Objective-C、AVFoundation、Vision、Core ML、Create ML"],
-     ["演讲与写作", "try! Swift NYC 2019 Combine 工作坊；为 InfoWorld 撰写 Swift 学习系列文章"],
-     ["开源贡献", "苹果 swift-matter-examples（Embedded Swift）"]
-    ]},
-    {"h3": "TA 到底在做什么？"},
-    {"p": "Paul 有三重身份。<strong>工程师</strong>：在 GoPro 负责过面向数百万用户的 Quik App 功能，现在在 Omni Federal 担任与美国国家地理空间情报局（NGA）合作的地理空间 App 的 iOS 负责人。<strong>独立开发者</strong>：Super Easy Apps 名下有计时器、咖啡等 App。<strong>教育者</strong>：从大学课堂、Lambda School 到 YouTube，持续教人写 iPhone App。"},
-    {"p": "2025 年起，TA 全面转向用 Codex 等 AI Agent 构建 App，并在 YouTube 和 X 上公开记录过程。TA 的口号「What works • what breaks • why」很有教师的风格：不只展示成果，还讲清楚 AI 什么时候会出错、为什么。"},
-    {"note": "本页依据 GitHub 上的 Portfolio 履历、Super Easy Timer 官网、GitHub 仓库与 X 资料整理，资料截至 2026 年 10 月。"}
+    {
+     "t": "Profile",
+     "profile": [
+      [
+       "身份",
+       "Staff / Senior iOS 工程师、独立 App 作者、教育者；公司 Super Easy Apps LLC"
+      ],
+      [
+       "所在地",
+       "美国纽约州罗切斯特"
+      ],
+      [
+       "经历",
+       "Microsoft、Apple → RIT 授课 → Lambda School（2019–2020）→ GoPro Staff iOS 工程师（2021–2024）→ Omni Federal 高级移动工程师（2025 至今）"
+      ],
+      [
+       "代表作",
+       "Super Easy Timer、Brew、Core ML 蜘蛛识别相机、DocSetQuery"
+      ],
+      [
+       "技术栈",
+       "Swift / SwiftUI / UIKit、Objective-C、AVFoundation、Vision、Core ML、Create ML"
+      ],
+      [
+       "演讲与写作",
+       "try! Swift NYC 2019 Combine 工作坊；为 InfoWorld 撰写 Swift 学习系列文章"
+      ],
+      [
+       "开源贡献",
+       "苹果 swift-matter-examples（Embedded Swift）"
+      ]
+     ]
+    },
+    {
+     "h3": "TA 到底在做什么？"
+    },
+    {
+     "p": "Paul 有三重身份。<strong>工程师</strong>：在 GoPro 负责过面向数百万用户的 Quik App 功能，现在在 Omni Federal 担任与美国国家地理空间情报局（NGA）合作的地理空间 App 的 iOS 负责人。<strong>独立开发者</strong>：Super Easy Apps 名下有计时器、咖啡等 App。<strong>教育者</strong>：从大学课堂、Lambda School 到 YouTube，持续教人写 iPhone App。"
+    },
+    {
+     "p": "2025 年起，TA 全面转向用 Codex 等 AI Agent 构建 App，并在 YouTube 和 X 上公开记录过程。TA 的口号「What works • what breaks • why」很有教师的风格：不只展示成果，还讲清楚 AI 什么时候会出错、为什么。"
+    },
+    {
+     "note": "本页依据 GitHub 上的 Portfolio 履历、Super Easy Timer 官网、GitHub 仓库与 X 资料整理，资料截至 2026 年 10 月。"
+    }
    ]
   },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {"steps": [
-     {"when": "2008–2010", "title": "开始 iPhone 开发", "text": "2008 年注册 X，2010 年注册 GitHub。早期开源的 UIImage-Conversion 把 UIImage 转为 RGBA8 位图数组，兼容 iPhone 4 的 Retina 屏，是许多图像处理入门者的参考代码；同年还有一个基于 GLUT 的动画框架。"},
-     {"when": "早期", "title": "Microsoft 与 Apple", "text": "Portfolio 列出曾在 Microsoft 和 Apple 工作，并承接过 iOS / Mac 软件外包项目。"},
-     {"when": "2012–2014", "title": "教学", "text": "2012 年在 RIT（罗切斯特理工学院）教移动计算；2013–2014 年开设 iPhone 开发课程，开源大量教学示例：Auto Layout 动态高度单元格、从 XIB 加载自定义视图、IBDesignable、屏幕边缘手势、第一个 WatchKit 计时器。"},
-     {"when": "2018", "title": "Super Easy Timer", "text": "7 月在 Mac App Store 上架；同年在 RIT 开设多平台媒体 App 开发课程，并为 InfoWorld 写了《10 位值得学习的 Swift 与 iOS 开发大师》等文章。"},
-     {"when": "2019–2020", "title": "Lambda School 与 try! Swift", "text": "在 Lambda School 教 iOS；在 try! Swift NYC 2019 主持 Combine 工作坊。"},
-     {"when": "2021–2024", "title": "GoPro", "text": "Staff 级 iOS 工程师：带 5 人黑客松团队做出 iPad 横屏支持，2023 年 7 月上线，覆盖 280 多万用户（「CEO 是一个用键盘的 iPad 用户」）；修复一个导致相机无法配对的蓝牙 bug（影响多达 115 万用户）；用 SwiftUI 重做 Quik 的相机连接界面；2023 年黑客松带 8 人团队改进 Frame Grab 获胜。"},
-     {"when": "2025 至今", "title": "Omni Federal 与 AI Agent", "text": "担任与 NGA 合作的地理空间 App 的 iOS 负责人；业余全面转向用 Codex 构建 App；12 月开源 DocSetQuery，让 Agent 能从苹果 DocSet 文档包生成 Markdown。"}
-    ]}
+    {
+     "steps": [
+      {
+       "when": "2008–2010",
+       "title": "开始 iPhone 开发",
+       "text": "2008 年注册 X，2010 年注册 GitHub。早期开源的 UIImage-Conversion 把 UIImage 转为 RGBA8 位图数组，兼容 iPhone 4 的 Retina 屏，是许多图像处理入门者的参考代码；同年还有一个基于 GLUT 的动画框架。"
+      },
+      {
+       "when": "早期",
+       "title": "Microsoft 与 Apple",
+       "text": "Portfolio 列出曾在 Microsoft 和 Apple 工作，并承接过 iOS / Mac 软件外包项目。"
+      },
+      {
+       "when": "2012–2014",
+       "title": "教学",
+       "text": "2012 年在 RIT（罗切斯特理工学院）教移动计算；2013–2014 年开设 iPhone 开发课程，开源大量教学示例：Auto Layout 动态高度单元格、从 XIB 加载自定义视图、IBDesignable、屏幕边缘手势、第一个 WatchKit 计时器。"
+      },
+      {
+       "when": "2018",
+       "title": "Super Easy Timer",
+       "text": "7 月在 Mac App Store 上架；同年在 RIT 开设多平台媒体 App 开发课程，并为 InfoWorld 撰写了四篇 Swift 主题长文。"
+      },
+      {
+       "when": "2019–2020",
+       "title": "Lambda School 与 try! Swift",
+       "text": "在 Lambda School 教 iOS；在 try! Swift NYC 2019 主持 Combine 工作坊。"
+      },
+      {
+       "when": "2021–2024",
+       "title": "GoPro",
+       "text": "Staff 级 iOS 工程师：带 5 人黑客松团队做出 iPad 横屏支持，2023 年 7 月上线，覆盖 280 多万用户（「CEO 是一个用键盘的 iPad 用户」）；修复一个导致相机无法配对的蓝牙 bug（影响多达 115 万用户）；用 SwiftUI 重做 Quik 的相机连接界面；2023 年黑客松带 8 人团队改进 Frame Grab 获胜。"
+      },
+      {
+       "when": "2025 至今",
+       "title": "Omni Federal 与 AI Agent",
+       "text": "担任与 NGA 合作的地理空间 App 的 iOS 负责人；业余全面转向用 Codex 构建 App；12 月开源 DocSetQuery，让 Agent 能从苹果 DocSet 文档包生成 Markdown。"
+      }
+     ]
+    }
    ]
   },
   {
    "id": "works",
    "title": "代表作品详解",
    "blocks": [
-    {"work": {
-     "name": "Super Easy Timer", "url": "https://SuperEasyTimer.com",
-     "meta": ["2018", "macOS 15+", "免费"],
-     "paras": [
-      "「A timer that stays on top of every window.」打字就能开始：「5 min」「2h 30m」「5pm」；中途输入「Add 5 min」就能加时，不用重来。新模式也是一样的用法：打「pomodoro」「tabata」「stopwatch」或「clock」。",
-      "每个功能都用一句真实场景来解释：放在菜单栏，让时间一直在屏幕顶端；缩到角落，工作时也能扫一眼；全屏，让房间后排的人也能看清倒计时；它甚至能浮在全屏的 Keynote 和 PowerPoint 之上。可以用全局快捷键在任何 App 里控制它，也可以直接用官网上的免费网页版。"
-     ],
-     "facts": [["上架", "2018-07"], ["评分", "4.7（Mac App Store，官网）"], ["官网", "Astro · GitHub Pages"]]
-    }},
-    {"work": {
-     "name": "Core ML 蜘蛛识别相机", "url": "https://github.com/PaulSolt/Portfolio",
-     "meta": ["个人项目", "Vision · Core ML", "微距摄影"],
-     "paras": [
-      "一个完整的端侧机器学习项目：自制数据管道和 macOS 工具来整理训练数据，其中包括一个用来过滤模糊、噪点照片的图像质量分类器（处理了 11,344 张照片）；训练了多个 Core ML 模型（蜘蛛检测器和辅助分类器）并反复评估；做了为快速移动的蜘蛛定制的微距相机体验（对焦峰值、自动对焦、自动拍摄）；最后用 SwiftUI + AVFoundation 在实时视频上跑 Vision / Core ML 推理。"
-     ]
-    }},
-    {"work": {
-     "name": "GoPro Quik 的 iPad 横屏", "url": "https://github.com/PaulSolt/Portfolio",
-     "meta": ["2023", "GoPro", "280 万用户"],
-     "paras": [
-      "Paul 在履历里记录得很具体：带一支 5 人黑客松团队，为 GoPro Quik 加上 iPad 横屏支持，2023 年 7 月上线，覆盖 280 多万用户；括号里还写着动机：「CEO 是一个用键盘的 iPad 用户」。这是一个从黑客松长成正式功能的典型案例。"
-     ]
-    }},
-    {"work": {
-     "name": "DocSetQuery", "url": "https://github.com/PaulSolt/DocSetQuery",
-     "meta": ["2025.12", "Python", "给 Agent 用"],
-     "paras": [
-      "「Tooling for Agents to Create Markdown Documentation from DocSet Bundles.」苹果的文档以 DocSet 包的形式存在本地，Agent 不容易读。这个工具把它们转成 Markdown，让 Codex 等 Agent 在写 iOS 代码时能查到准确的 API 文档。"
-     ],
-     "facts": [["GitHub", "★166"]]
-    }},
-    {"table": {
-     "cols": ["早期开源", "★", "说明"],
-     "rows": [
-      ["WEPopover", "306", "在 iPhone 上也能用的 UIPopoverController 实现（fork 自他人项目，置顶在主页）"],
-      ["UIImage-Conversion", "91", "UIImage 与 RGBA8 位图互转"],
-      ["CustomUIView / CustomViewFromXib", "54 / 54", "从 XIB 加载自定义视图、IBDesignable"],
-      ["LimitPinchGestureZoom", "42", "限制捏合缩放的范围"],
-      ["AutoLayoutForUITableViewCell", "40", "Auto Layout 动态高度单元格"],
-      ["WatchKit-Demo-Timer-App", "20", "第一个 Apple Watch 计时器 App"]
-     ]
-    }}
+    {
+     "work": {
+      "name": "Super Easy Timer",
+      "url": "https://SuperEasyTimer.com",
+      "meta": [
+       "2018",
+       "macOS 15+",
+       "免费"
+      ],
+      "paras": [
+       "「A timer that stays on top of every window.」打字就能开始：「5 min」「2h 30m」「5pm」；中途输入「Add 5 min」就能加时，不用重来。新模式也是一样的用法：打「pomodoro」「tabata」「stopwatch」或「clock」。",
+       "每个功能都用一句真实场景来解释：放在菜单栏，让时间一直在屏幕顶端；缩到角落，工作时也能扫一眼；全屏，让房间后排的人也能看清倒计时；它甚至能浮在全屏的 Keynote 和 PowerPoint 之上。可以用全局快捷键在任何 App 里控制它，也可以直接用官网上的免费网页版。"
+      ],
+      "facts": [
+       [
+        "上架",
+        "2018-07"
+       ],
+       [
+        "评分",
+        "4.7（Mac App Store，官网）"
+       ],
+       [
+        "官网",
+        "Astro · GitHub Pages"
+       ]
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "Core ML 蜘蛛识别相机",
+      "url": "https://github.com/PaulSolt/Portfolio",
+      "meta": [
+       "个人项目",
+       "Vision · Core ML",
+       "微距摄影"
+      ],
+      "paras": [
+       "一个完整的端侧机器学习项目：自制数据管道和 macOS 工具来整理训练数据，其中包括一个用来过滤模糊、噪点照片的图像质量分类器（处理了 11,344 张照片）；训练了多个 Core ML 模型（蜘蛛检测器和辅助分类器）并反复评估；做了为快速移动的蜘蛛定制的微距相机体验（对焦峰值、自动对焦、自动拍摄）；最后用 SwiftUI + AVFoundation 在实时视频上跑 Vision / Core ML 推理。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "GoPro Quik 的 iPad 横屏",
+      "url": "https://github.com/PaulSolt/Portfolio",
+      "meta": [
+       "2023",
+       "GoPro",
+       "280 万用户"
+      ],
+      "paras": [
+       "Paul 在履历里记录得很具体：带一支 5 人黑客松团队，为 GoPro Quik 加上 iPad 横屏支持，2023 年 7 月上线，覆盖 280 多万用户；括号里还写着动机：「CEO 是一个用键盘的 iPad 用户」。这是一个从黑客松长成正式功能的典型案例。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "DocSetQuery",
+      "url": "https://github.com/PaulSolt/DocSetQuery",
+      "meta": [
+       "2025.12",
+       "Python",
+       "给 Agent 用"
+      ],
+      "paras": [
+       "「Tooling for Agents to Create Markdown Documentation from DocSet Bundles.」苹果的文档以 DocSet 包的形式存在本地，Agent 不容易读。这个工具把它们转成 Markdown，让 Codex 等 Agent 在写 iOS 代码时能查到准确的 API 文档。"
+      ],
+      "facts": [
+       [
+        "GitHub",
+        "★166"
+       ]
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "早期开源",
+       "★",
+       "说明"
+      ],
+      "rows": [
+       [
+        "WEPopover",
+        "306",
+        "在 iPhone 上也能用的 UIPopoverController 实现（fork 自他人项目，置顶在主页）"
+       ],
+       [
+        "UIImage-Conversion",
+        "91",
+        "UIImage 与 RGBA8 位图互转"
+       ],
+       [
+        "CustomUIView / CustomViewFromXib",
+        "54 / 54",
+        "从 XIB 加载自定义视图、IBDesignable"
+       ],
+       [
+        "LimitPinchGestureZoom",
+        "42",
+        "限制捏合缩放的范围"
+       ],
+       [
+        "AutoLayoutForUITableViewCell",
+        "40",
+        "Auto Layout 动态高度单元格"
+       ],
+       [
+        "WatchKit-Demo-Timer-App",
+        "20",
+        "第一个 Apple Watch 计时器 App"
+       ]
+      ]
+     }
+    }
    ]
   },
   {
    "id": "site",
    "title": "网站与线上形象",
    "blocks": [
-    {"site": {"url": "https://SuperEasyTimer.com", "paras": [
-     "标题「A timer that stays on top of every window.」，下面是「4.7 ★ on the Mac App Store」和「Try the free web timer」。往下每个功能一屏，都用一句真实场景解释。官网还有一个博客，写「在 Mac 上设置计时器的四种方法」「给整个房间看的大计时器」这类实用指南，显然也在做搜索流量。",
-     "TA 的 YouTube 和 X 是教学的延续：不只是展示成果，而是讲清楚每一步为什么这样做。GitHub 上的 Portfolio 仓库则是一份写得非常具体的履历，几乎每条成就都带着用户数量。"
-    ]}}
+    {
+     "site": {
+      "url": "https://SuperEasyTimer.com",
+      "paras": [
+       "标题「A timer that stays on top of every window.」，下面是「4.7 ★ on the Mac App Store」和「Try the free web timer」。往下每个功能一屏，都用一句真实场景解释。官网还有一个博客，写「在 Mac 上设置计时器的四种方法」「给整个房间看的大计时器」这类实用指南，显然也在做搜索流量。",
+       "TA 的 YouTube 和 X 是教学的延续：不只是展示成果，而是讲清楚每一步为什么这样做。GitHub 上的 Portfolio 仓库则是一份写得非常具体的履历，几乎每条成就都带着用户数量。"
+      ]
+     }
+    }
    ]
   },
   {
    "id": "assess",
    "title": "长处与局限",
    "blocks": [
-    {"table": {
-     "cols": ["维度", "长处", "局限 / 需要留意"],
-     "rows": [
-      ["工程", "大规模消费级 App 经验，擅长性能、连接、图形视频", "近期主要工作在政府相关项目中，公开细节有限"],
-      ["教学", "从大学到 YouTube，十多年持续教学", "教学内容分散在多个平台"],
-      ["产品", "Super Easy Timer 交互极简、定位清晰", "独立 App 规模较小，App Store 公开评分数据很少"],
-      ["AI", "公开记录 AI 开发「什么会坏」，很诚实", "—"]
-     ]
-    }}
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "长处",
+       "局限 / 需要留意"
+      ],
+      "rows": [
+       [
+        "工程",
+        "大规模消费级 App 经验，擅长性能、连接、图形视频",
+        "近期主要工作在政府相关项目中，公开细节有限"
+       ],
+       [
+        "教学",
+        "从大学到 YouTube，十多年持续教学",
+        "教学内容分散在多个平台"
+       ],
+       [
+        "产品",
+        "Super Easy Timer 交互极简、定位清晰",
+        "独立 App 规模较小，App Store 公开评分数据很少"
+       ],
+       [
+        "AI",
+        "公开记录 AI 开发「什么会坏」，很诚实",
+        "—"
+       ]
+      ]
+     }
+    }
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {"checklist": [
-     "<strong>自然语言就是最好的 UI：</strong>「5 min」胜过三个滚轮。",
-     "<strong>把一件小事做到极致：</strong>一个计时器也能做出口碑。",
-     "<strong>履历里写数字：</strong>「280 万用户」「115 万用户」比「负责若干功能」有力得多。",
-     "<strong>黑客松也能改变产品：</strong>iPad 横屏和新版引导都是从黑客松长出来的。",
-     "<strong>拥抱新工具，但记录真相：</strong>AI 有用，也会坏，都要说出来。"
-    ]},
-    {"h3": "推荐先看这三个"},
-    {"try": [
-     {"name": "Super Easy Timer", "url": "https://SuperEasyTimer.com", "why": "先试一下官网的免费网页计时器，打一个「5 min」。"},
-     {"name": "Paul Solt 的 Portfolio", "url": "https://github.com/PaulSolt/Portfolio", "why": "一份写得很好的工程师履历，可以拿来参考。"},
-     {"name": "DocSetQuery", "url": "https://github.com/PaulSolt/DocSetQuery", "why": "如果你用 Agent 写 iOS 代码，让它读得到苹果文档。"}
-    ]}
+    {
+     "checklist": [
+      "<strong>自然语言就是最好的 UI：</strong>「5 min」胜过三个滚轮。",
+      "<strong>把一件小事做到极致：</strong>一个计时器也能做出口碑。",
+      "<strong>履历里写数字：</strong>「280 万用户」「115 万用户」比「负责若干功能」有力得多。",
+      "<strong>黑客松也能改变产品：</strong>iPad 横屏和新版引导都是从黑客松长出来的。",
+      "<strong>拥抱新工具，但记录真相：</strong>AI 有用，也会坏，都要说出来。"
+     ]
+    },
+    {
+     "h3": "推荐先看这三个"
+    },
+    {
+     "try": [
+      {
+       "name": "Super Easy Timer",
+       "url": "https://SuperEasyTimer.com",
+       "why": "先试一下官网的免费网页计时器，打一个「5 min」。"
+      },
+      {
+       "name": "Paul Solt 的 Portfolio",
+       "url": "https://github.com/PaulSolt/Portfolio",
+       "why": "一份写得很好的工程师履历，可以拿来参考。"
+      },
+      {
+       "name": "DocSetQuery",
+       "url": "https://github.com/PaulSolt/DocSetQuery",
+       "why": "如果你用 Agent 写 iOS 代码，让它读得到苹果文档。"
+      }
+     ]
+    }
    ]
   }
  ],
  "cta": "在官网试一下 Super Easy Timer 的网页版，或者看一期 TA 用 Codex 做 App 的视频。",
  "sources": [
-  {"label": "Paul Solt 的 X 个人资料", "url": "https://x.com/PaulSolt"},
-  {"label": "GitHub：PaulSolt/Portfolio（履历）", "url": "https://github.com/PaulSolt/Portfolio"},
-  {"label": "Super Easy Timer 官网", "url": "https://SuperEasyTimer.com"},
-  {"label": "App Store：Super Easy Timer", "url": "https://apps.apple.com/us/app/super-easy-timer/id1353137878"},
-  {"label": "GitHub：PaulSolt", "url": "https://github.com/PaulSolt"},
-  {"label": "DocSetQuery", "url": "https://github.com/PaulSolt/DocSetQuery"},
-  {"label": "InfoWorld：10 Swift and iOS development masters to learn from", "url": "https://www.infoworld.com/article/3320617/swift/10-swift-and-ios-development-masters-to-learn-from.html"},
-  {"label": "YouTube：Paul Solt", "url": "https://www.youtube.com/user/PaulSolt"}
+  {
+   "label": "Paul Solt 的 X 个人资料",
+   "url": "https://x.com/PaulSolt"
+  },
+  {
+   "label": "GitHub：PaulSolt/Portfolio（履历）",
+   "url": "https://github.com/PaulSolt/Portfolio"
+  },
+  {
+   "label": "Super Easy Timer 官网",
+   "url": "https://SuperEasyTimer.com"
+  },
+  {
+   "label": "App Store：Super Easy Timer",
+   "url": "https://apps.apple.com/us/app/super-easy-timer/id1353137878"
+  },
+  {
+   "label": "GitHub：PaulSolt",
+   "url": "https://github.com/PaulSolt"
+  },
+  {
+   "label": "DocSetQuery",
+   "url": "https://github.com/PaulSolt/DocSetQuery"
+  },
+  {
+   "label": "YouTube：Paul Solt",
+   "url": "https://www.youtube.com/user/PaulSolt"
+  },
+  {
+   "label": "InfoWorld：Paul Solt 作者页",
+   "url": "https://www.infoworld.com/profile/paul-solt"
+  }
  ]
 }

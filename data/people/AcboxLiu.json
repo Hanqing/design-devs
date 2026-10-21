@@ -72,12 +72,12 @@
      "facts": [["GitHub", "★2,718 · ⑂258"], ["Acbox 提交", "679（第一）"], ["创建", "2026-01"]]
     }},
     {"work": {
-     "name": "ChatTutor", "url": "https://chattutor.app",
+     "name": "ChatTutor", "url": "https://github.com/HugeCatLab/ChatTutor",
      "meta": ["2025", "Vue", "HugeCatLab"],
      "paras": [
       "「Visual and Interactive AI Tutor.」README 的出发点是：传统聊天机器人主要用文字和用户交流，而好老师会在黑板上画图。ChatTutor 给 AI 老师配了一块电子白板，用图形和动画讲题。网页版需要用户在设置里填自己的 API Key 和模型。"
      ],
-     "facts": [["GitHub", "★1,313"], ["Acbox 提交", "142（第一）"], ["在线版", "chattutor.app"]]
+     "facts": [["GitHub", "★1,313"], ["Acbox 提交", "142（第一）"], ["在线版", "chattutor.app（检查时暂时无法访问）"]]
     }},
     {"work": {
      "name": "Oh My GitHub", "url": "https://github.com/ohmygit-hub/ohmygithub",
@@ -172,7 +172,7 @@
     {"h3": "推荐先看这三个"},
     {"try": [
      {"name": "Memoh", "url": "https://github.com/felinics/Memoh", "why": "看一个开源 Agent 平台怎样设计「每个 Agent 一台电脑」。"},
-     {"name": "ChatTutor", "url": "https://chattutor.app", "why": "填上自己的 API Key，让 AI 在白板上给你讲一道题。"},
+     {"name": "ChatTutor", "url": "https://github.com/HugeCatLab/ChatTutor", "why": "填上自己的 API Key，让 AI 在白板上给你讲一道题。"},
      {"name": "agents-md-updater", "url": "https://github.com/sheepbox8646/agents-md-updater", "why": "一个可以直接拿来用的工作流，让给 Agent 看的文档不再过时。"}
     ]}
    ]
