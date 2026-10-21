@@ -1,175 +1,175 @@
 {
  "name": "Paul Hudson",
  "role": "Hacking with Swift 创始人 · 作家 · 讲师",
- "title": "Paul Hudson：<em>全世界学 Swift 的地方</em>",
- "dek": "Hacking with Swift 的口号是「Where the world learns Swift」。十年来，Paul 写了大量免费教程、一系列书和「100 Days of SwiftUI」，做了 Unwrap、Control Room、Inferno、Vortex、Ignite 等开源项目，还发起了 Swift 社区奖。2026 年，TA 又把 SwiftUI 知识写成了给 AI 用的 Agent Skill。",
- "card": "Hacking with Swift 创始人，100 Days of SwiftUI、Unwrap、Ignite、Kickstart 作者，英国巴斯。",
+ "title": "Paul Hudson：<em>全世界学 Swift</em> 的地方",
+ "dek": "Hacking with Swift 的口号是「Where the world learns Swift」。十年来，Paul 写了海量免费教程、一系列书和「100 Days of SwiftUI」，做了 Unwrap、Control Room、Inferno、Vortex、Ignite 等开源项目。2026 年，TA 把多年教学经验写成了给 AI 用的 SwiftUI Agent Skill（★6.3 千），又推出了帮独立开发者在 App Store 上成功的 App：Kickstart。",
+ "card": "Hacking with Swift 创始人；Control Room、Inferno、Ignite、SwiftUI-Agent-Skill 作者；2026 年推出 Kickstart。",
  "location": "英国巴斯",
- "tags": [
-  "Swift",
-  "SwiftUI",
-  "教育",
-  "写作",
-  "开源"
- ],
+ "updated": "2026-10-21",
+ "tags": ["Swift 教育", "SwiftUI", "开源", "Metal", "AI Agent"],
  "links": [
-  {
-   "label": "Hacking with Swift",
-   "url": "https://www.hackingwithswift.com"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/twostraws"
-  }
+  {"label": "Hacking with Swift", "url": "https://www.hackingwithswift.com"},
+  {"label": "SwiftUI Agent Skill", "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"},
+  {"label": "GitHub", "url": "https://github.com/twostraws"}
  ],
  "summary": [
-  "<strong>一句话：</strong>Swift 社区最重要的教育者之一，「拥有比任何其他网站都多的免费 Swift 教程」。",
-  "<strong>代表作：</strong>Hacking with Swift 网站与书系、100 Days of Swift / SwiftUI、SwiftUI by Example、Unwrap（在 iPhone 上交互式学 Swift）、Control Room（控制 Xcode 模拟器的 macOS App，★6.1k）、Inferno（SwiftUI 的 Metal 着色器）、Vortex（粒子特效）、Ignite（Swift 静态站点生成器）、Kickstart。",
-  "<strong>2026 新作：</strong>SwiftUI-Agent-Skill（★6.3k）与 Swift-Agent-Skills 目录，让 Claude Code、Codex 写出更地道的 SwiftUI。"
+  "<strong>一句话：</strong>世界上最有影响力的 Swift 教育者之一。GitHub 简介：「Hacking with Swift 的创造者，iOS、macOS、watchOS、tvOS 书籍作者，公开演讲者，魔方爱好者，以及我家孩子们的『牧羊人』。」",
+  "<strong>代表作：</strong>Hacking with Swift（网站、书系、Hacking with Swift+ 订阅、Hacking with Swift Live 大会）、100 Days of SwiftUI；开源：HackingWithSwift 源码（★6.4 千）、SwiftUI-Agent-Skill（★6.3 千）、Control Room（★6.1 千）、Inferno、Swift-Agent-Skills、Unwrap、Ignite、Vortex、SwiftAgents、Sitrep、CodeScanner；App：Kickstart。",
+  "<strong>关键数字：</strong>X 关注者约 12.3 万、推文 6.1 万多条；GitHub 粉丝近 1 万，85 个公开仓库中 60 个是 Swift；近一年贡献 3,606 次。",
+  "<strong>X 简介：</strong>「Learning and sharing at Hacking with Swift. Creator of Kickstart, Unwrap, Ignite, and two small children.」"
  ],
- "lead": "Paul 的 X 简介写着：「Learning and sharing at Hacking with Swift. Creator of Kickstart, Unwrap, Ignite, and two small children.」GitHub 简介还多了两条：魔方爱好者，以及「herder of my kids」（孩子的牧羊人）。",
+ "lead": "Hacking with Swift 首页的第一句是：「拥有比任何其他网站都多的免费 Swift 教程。」Paul 的教学方法始终是「先做项目，再讲原理」：每个知识点都放进一个真实的小 App 里。十年后，TA 把同样的方法交给了 AI：「Teach your AI to write Swift the Hacking with Swift way.」",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "Hacking with Swift 创始人；技术作家、讲师、开源作者"],
+     ["所在地", "英国巴斯"],
+     ["代表作", "Hacking with Swift、100 Days of SwiftUI、Control Room、Inferno、Vortex、Ignite、Unwrap、Kickstart"],
+     ["技术栈", "Swift / SwiftUI / UIKit、Metal 着色器、SpriteKit"],
+     ["商业模式", "大量免费内容 + 书与课程 + Hacking with Swift+ 订阅 + 线下大会"],
+     ["社区", "Swift 社区奖、WWDC 社区活动（★2.2 千的 wwdc 仓库）"],
+     ["爱好", "魔方"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Hacking with Swift 首页像一所学校的入口：<strong>Start Learning</strong>（用真实项目讲 SwiftUI 和 UIKit 的完整课程，全部免费）、<strong>Build Your Career</strong>（交互式测试、常见面试题、业内专家的建议）、<strong>Supercharge your skills</strong>（订阅 Hacking with Swift+，获取数百篇进阶教程），以及书店和社区。"},
+    {"p": "TA 的开源作品同样以「教学」为核心：Inferno 的每一行着色器代码都配有一句通俗英文解释；Vortex 让你几行代码做出火焰、雨、烟、雪；Control Room 把苹果的 simctl 命令行包装成一个好用的 Mac App。2026 年，TA 把十年教学经验写成了 AI Agent 的技能，帮 AI 写出更地道的 Swift。"},
+    {"note": "本页依据 Hacking with Swift（首页与文章）、GitHub 与项目 README、X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "早年",
-       "title": "技术写作者",
-       "text": "在 Swift 出现之前，TA 已经是一名资深技术作者与编辑，长期为 Linux 与编程类出版物写作，写过多本编程书。"
-      },
-      {
-       "when": "2014–2015",
-       "title": "Hacking with Swift",
-       "text": "Swift 发布后，TA 用「项目驱动」的方式写出 Hacking with iOS：每个知识点都放在一个真实的小项目里。配套源码仓库至今 ★6.4k。网站很快成为全世界 Swift 初学者的起点。"
-      },
-      {
-       "when": "2018",
-       "title": "Unwrap",
-       "text": "一款在 iPhone 上交互式学习 Swift 的免费 App，并完全开源。"
-      },
-      {
-       "when": "2019–2020",
-       "title": "SwiftUI 与 100 Days",
-       "text": "SwiftUI 发布后写出 SwiftUI by Example，推出「100 Days of SwiftUI」免费课程；开源 Control Room（控制 Xcode 模拟器：状态栏、定位、推送、录屏），并组织 WWDC 社区活动。"
-      },
-      {
-       "when": "2023–2024",
-       "title": "图形与工具",
-       "text": "Inferno 为 SwiftUI 带来一组开源 Metal 着色器；Vortex 是高性能 SwiftUI 粒子特效库；Ignite 让 Swift 开发者用 Swift 写静态网站。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "Kickstart 与 Agent Skills",
-       "text": "推出帮助独立开发者在 App Store 上成功的 App Kickstart；发布 SwiftAgents（Swift 项目的 AGENTS.md）、SwiftUI-Agent-Skill 和 Swift-Agent-Skills 目录，把多年教学经验交给 AI。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "早年", "title": "技术写作者", "text": "在 Swift 出现之前，TA 已经是一名资深技术作者与编辑，写过多本编程书。2009 年注册 X。"},
+     {"when": "2014–2015", "title": "Hacking with Swift", "text": "Swift 发布后，用「项目驱动」的方式写出 Hacking with iOS：每个知识点都放在一个真实的小项目里。配套源码仓库 2015 年 4 月创建，至今 ★6.4 千、⑂3.2 千，包含 UIKit / SpriteKit 经典版和 SwiftUI 版。"},
+     {"when": "2018", "title": "Unwrap", "text": "一款在 iPhone 上交互式学习 Swift 的免费 App，完全开源（★2.3 千）。同年做了展示 Swift 5.0 新特性的 Playground。"},
+     {"when": "2019–2020", "title": "SwiftUI 与 100 Days", "text": "SwiftUI 发布后写出 SwiftUI by Example，推出「100 Days of SwiftUI」免费课程；开源扫码组件 CodeScanner、源码分析器 Sitrep、语法高亮编辑器 Sourceful；2020 年发布 Control Room，并发起 WWDC 社区活动。"},
+     {"when": "2023–2024", "title": "图形与工具", "text": "Inferno 为 SwiftUI 带来一组开源 Metal 着色器；Vortex 是高性能 SwiftUI 粒子特效库；Ignite 让 Swift 开发者用 Swift 写静态网站。"},
+     {"when": "2025.12", "title": "SwiftAgents", "text": "一份给 Swift 和 SwiftUI 项目用的 AGENTS.md（★1.5 千）。"},
+     {"when": "2026", "title": "Agent Skills 与 Kickstart", "text": "3 月发布 SwiftUI-Agent-Skill 和 Swift-Agent-Skills 目录；推出 App Kickstart，帮独立开发者处理写代码之外的一切。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Hacking with Swift",
-       "meta": "2015 至今",
-       "text": "免费 Swift 教程、书系、课程、面试题与社区，「Where the world learns Swift」。",
-       "url": "https://www.hackingwithswift.com"
-      },
-      {
-       "name": "Control Room",
-       "meta": "2020 · ★6.1k",
-       "text": "一个控制 Xcode 模拟器的 macOS App。",
-       "url": "https://github.com/twostraws/ControlRoom"
-      },
-      {
-       "name": "SwiftUI-Agent-Skill",
-       "meta": "2026 · ★6.3k",
-       "text": "给 Claude Code、Codex 等 AI 工具使用的 SwiftUI 技能。",
-       "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
-      },
-      {
-       "name": "Inferno",
-       "meta": "2023 · Metal",
-       "text": "开源的 SwiftUI Metal 着色器合集。",
-       "url": "https://github.com/twostraws/Inferno"
-      },
-      {
-       "name": "Ignite",
-       "meta": "2024 · Swift",
-       "text": "为 Swift 开发者设计的静态站点生成器。",
-       "url": "https://github.com/twostraws/Ignite"
-      },
-      {
-       "name": "Unwrap",
-       "meta": "2018 · iOS",
-       "text": "在 iPhone 上交互式学习 Swift。",
-       "url": "https://github.com/twostraws/Unwrap"
-      }
+    {"work": {
+     "name": "Hacking with Swift", "url": "https://www.hackingwithswift.com",
+     "meta": ["2015 至今", "教程 · 书 · 课程 · 大会", "大部分免费"],
+     "paras": [
+      "「Where the world learns Swift.」免费的完整课程（SwiftUI 与 UIKit 双线，全部用真实项目教学）、面试题与交互式测试、Swift in Sixty Seconds 短视频、论坛、Swift 社区奖、Hacking with Swift Live 大会，以及进阶订阅 Hacking with Swift+。",
+      "它证明了一种商业模式：<strong>免费是最好的分发</strong>。海量的免费教程带来全球的读者，其中一部分会买书、订阅和参加大会。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "SwiftUI-Agent-Skill 与 Swift-Agent-Skills", "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+     "meta": ["2026.03", "Agent Skill", "★6.3 千 / ★2.9 千"],
+     "paras": [
+      "「SwiftUI agent skill for Claude Code, Codex, and other AI tools.」把 Hacking with Swift 多年积累的 SwiftUI 最佳实践写成 AI 能遵循的技能，让 Agent 写出更现代、更地道的 SwiftUI 代码。配套的 Swift-Agent-Skills 是一个精选目录，收录 Swift 和苹果平台开发的开源 Agent 技能。不到半年，前者的星数就逼近了 Hacking with Swift 十年的源码仓库。"
+     ]
+    }},
+    {"work": {
+     "name": "Kickstart", "url": "https://www.hackingwithswift.com/articles",
+     "meta": ["2026", "App", "给独立开发者"],
+     "paras": [
+      "TA 在发布文章里写道：「大多数开发者已经知道怎么做 App，难的是其他一切：截图、评价、ASO、发布计划、数据分析、竞品研究、定价、营销、媒体联络、社交媒体、TestFlight 管理……」Kickstart 就是为这些事准备的。"
+     ]
+    }},
+    {"work": {
+     "name": "Control Room", "url": "https://github.com/twostraws/ControlRoom",
+     "meta": ["2020", "macOS", "★6.1 千"],
+     "paras": [
+      "一个控制 iOS、tvOS 和 watchOS 模拟器的 Mac App：界面外观、状态栏配置、定位、推送通知、录屏等。它包装的是苹果自己的 simctl 命令行，所以需要安装 Xcode。几乎每个要给 App 截商店图的开发者都用得上。"
+     ]
+    }},
+    {"work": {
+     "name": "Inferno 与 Vortex", "url": "https://github.com/twostraws/Inferno",
+     "meta": ["2023–2024", "Metal · SwiftUI", "★2.9 千 / ★1.6 千"],
+     "paras": [
+      "<strong>Inferno</strong> 是一组为 SwiftUI 设计的开源片段着色器，「即使是初学者也能读懂」：每一行代码都用通俗英文重述一遍，并附整体解释。<strong>Vortex</strong> 是高性能粒子系统，几行代码就能做出火焰、雨、烟、雪，内置烟花、魔法、彩纸等效果。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他开源", "★", "说明"],
+     "rows": [
+      ["Unwrap", "2,337", "在 iPhone 上交互式学 Swift"],
+      ["Ignite", "2,278", "为 Swift 开发者设计的静态网站生成器：不是把 SwiftUI 转 HTML，而是一套表达力强的 Swift API"],
+      ["wwdc", "2,180", "WWDC 社区：一起学习和分享"],
+      ["SwiftAgents", "1,469", "Swift / SwiftUI 项目的 AGENTS.md"],
+      ["Sitrep", "1,353", "Swift 项目源码分析器"],
+      ["CodeScanner", "1,228", "扫描条码和二维码的 SwiftUI 视图"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://www.hackingwithswift.com",
-      "paras": [
-       "首页像一所学校的入口：Start Learning（完整课程，全部免费）、Build Your Career（面试题、交互式测试）、Store（书与课程）、Community（论坛、Swift 社区奖、Hacking with Swift Live 大会）。",
-       "顶部横幅推荐 TA 的新 App Kickstart。整个网站的语气热情而清晰，几乎没有门槛。"
-      ]
-     }
-    }
+    {"site": {"url": "https://www.hackingwithswift.com", "paras": [
+     "首页像一所学校的入口：搜索框加四条学习路径。顶部横幅推荐新 App Kickstart。整个网站的语气热情而清晰，几乎没有门槛：「Ready to take your first steps with app development?」",
+     "文章区以新闻和教程为主，2026 年的两篇代表了 TA 现在的方向：《Introducing Kickstart》和《Teach your AI to write Swift the Hacking with Swift way》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Cloudflare"],
+      ["结构", "学习 / 职业 / 进阶订阅 / 商店 / 社区"],
+      ["内容", "教程、书、视频、面试题、测试、大会"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "教学的手艺",
+   "id": "assess",
+   "title": "长处与局限",
    "blocks": [
-    {
-     "p": "Paul 的教学方法是<strong>「先做项目，再讲原理」</strong>：每个概念都嵌在一个真实的 App 里。TA 还擅长把复杂主题拆成「Swift in Sixty Seconds」这样的短视频。"
-    },
-    {
-     "p": "TA 的开源作品同样以「教学」为核心：Inferno 和 Vortex 不仅是库，也是让人理解 Metal 和粒子系统的入口。"
-    }
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "内容体量巨大，项目驱动，门槛极低", "以苹果生态为主，跨平台内容较少"],
+      ["开源", "工具实用，代码注重可读性和教学价值", "部分早期仓库（如 Swift 5.0 Playground）已不再更新"],
+      ["AI", "第一时间把教学经验写成 Agent 技能，影响很大", "技能质量依赖模型的遵循程度，需持续迭代"],
+      ["商业", "免费 + 付费的模式长期有效", "Kickstart 刚推出，成效有待观察"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>免费是最好的分发：</strong>大量免费内容带来了全球的读者与付费用户。",
-      "<strong>项目驱动学习：</strong>让每个知识点都有用武之地。",
-      "<strong>持续跟进平台：</strong>每年 WWDC 后第一时间更新教程。",
-      "<strong>为 AI 写教材：</strong>把经验写成 Skill，教会 AI 写好代码。"
-     ]
-    }
+    {"checklist": [
+     "<strong>免费是最好的分发：</strong>大量免费内容带来了全球的读者与付费用户。",
+     "<strong>项目驱动学习：</strong>让每个知识点都有用武之地。",
+     "<strong>持续跟进平台：</strong>每年 WWDC 后第一时间更新教程。",
+     "<strong>为 AI 写教材：</strong>把经验写成 Skill，教会 AI 写好代码。",
+     "<strong>让代码可读：</strong>Inferno 的每一行都配通俗解释。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "100 Days of SwiftUI", "url": "https://www.hackingwithswift.com", "why": "零基础学 SwiftUI 最好的免费路径之一。"},
+     {"name": "SwiftUI-Agent-Skill", "url": "https://github.com/twostraws/SwiftUI-Agent-Skill", "why": "给你的 Claude Code 或 Codex 装上，看看它写的 SwiftUI 有什么变化。"},
+     {"name": "Inferno", "url": "https://github.com/twostraws/Inferno", "why": "从这里开始理解 Metal 着色器。"}
+    ]}
    ]
   }
  ],
- "cta": "从「100 Days of SwiftUI」第一天开始。",
+ "cta": "去 Hacking with Swift 开始你的第一个 SwiftUI 项目。",
  "sources": [
-  {
-   "label": "Paul Hudson 的 X 个人资料",
-   "url": "https://x.com/twostraws"
-  },
-  {
-   "label": "Hacking with Swift",
-   "url": "https://www.hackingwithswift.com"
-  },
-  {
-   "label": "GitHub：twostraws",
-   "url": "https://github.com/twostraws"
-  }
+  {"label": "Paul Hudson 的 X 个人资料", "url": "https://x.com/twostraws"},
+  {"label": "Hacking with Swift", "url": "https://www.hackingwithswift.com"},
+  {"label": "Hacking with Swift：Articles（含 Kickstart 发布）", "url": "https://www.hackingwithswift.com/articles"},
+  {"label": "GitHub：twostraws", "url": "https://github.com/twostraws"},
+  {"label": "SwiftUI-Agent-Skill", "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"},
+  {"label": "Swift-Agent-Skills", "url": "https://github.com/twostraws/Swift-Agent-Skills"},
+  {"label": "Control Room README", "url": "https://github.com/twostraws/ControlRoom"},
+  {"label": "Inferno README", "url": "https://github.com/twostraws/Inferno"},
+  {"label": "Ignite README", "url": "https://github.com/twostraws/Ignite"}
  ]
 }

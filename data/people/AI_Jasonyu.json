@@ -1,171 +1,155 @@
 {
- "name": "鱼总 Jason Yu",
+ "name": "鱼总",
  "role": "AI 出海创业者 · 超级个体 · PaywallPro 作者",
- "title": "鱼总：<em>688 元</em>起步的一人公司",
- "dek": "从月薪 3800 的 UI 实习生做到出海公司产品经理，2022 年裸辞时兜里只够付 688 元的苹果开发者年费。三年做了 20 个 App、12 个网站，靠自然流量做到 500 万用户；招人、亏损、解散团队后，TA 重新回到「一个人 + AI」。",
- "card": "UI 设计师出身的出海创业者，20+ App、500 万用户，PaywallPro 作者，X 上的「鱼总聊 AI」。",
+ "title": "鱼总：<em>688 元起步</em>的一人公司",
+ "dek": "从月薪 3800 的 UI 实习生做到出海公司产品经理，2022 年裸辞时兜里只够付 688 元的苹果开发者年费。三年做了 20 个 App、12 个网站，靠自然流量做到 500 万用户；招人、亏损、解散团队后，他重新回到「一个人 + AI」，用 X 账号和付费墙情报平台 PaywallPro 养活自己。",
+ "card": "PaywallPro 付费墙情报平台作者；20 个 App、12 个网站、500 万用户全自然流量；X 上 7 万人关注。",
  "location": "中国 ↔ 全球",
- "tags": [
-  "出海",
-  "ASO",
-  "订阅变现",
-  "UI 设计",
-  "个人 IP"
- ],
+ "updated": "2026-10-21",
+ "tags": ["出海", "订阅 App", "ASO", "个人 IP", "AI Coding"],
  "links": [
-  {
-   "label": "yuzong.ai",
-   "url": "https://yuzong.ai"
-  },
-  {
-   "label": "PaywallPro",
-   "url": "https://www.paywallpro.app"
-  }
+  {"label": "yuzong.ai", "url": "https://yuzong.ai"},
+  {"label": "PaywallPro", "url": "https://www.paywallpro.app"},
+  {"label": "X", "url": "https://x.com/AI_Jasonyu"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个设计师出身的「超级个体」，用 AI、个人 IP 和小产品经营一人公司，并公开分享包括亏损和失败在内的真实复盘。",
-  "<strong>代表作：</strong>PaywallPro（收录上万款 iOS App 的付费墙与引导流程情报平台）、Portix、Ghibli Style AI、KOL Hunter；单款产品营收超 20 万美元。",
-  "<strong>最坦诚的一课：</strong>「团队不一定放大你，可能先放大你的开销。」"
+  "<strong>一句话：</strong>一个设计师出身、做了 8 年产品的出海创业者。X 简介：「AI & 出海 & SaaS & APP & 海外手机卡 eSIM 实操干货分享；8 年产品经验；单款产品营收 $200k+（全自然流量）；2 胎爸爸。」",
+  "<strong>代表作：</strong>PaywallPro（1 万多款 iOS 订阅 App 的付费墙情报）、Portix 等出海小 App、「高性价比人生指南」衍生网站、yuzong.ai 的「688 航线」教程，以及大量海外手机卡、eSIM 实操长文。",
+  "<strong>关键数字（作者自述）：</strong>20+ 个 App、12 个网站、500 万用户全靠自然流量；单款产品营收超 20 万美元；X 从 371 个粉丝做到 6.3 万（如今约 7.1 万），变现 40 万元以上。",
+  "<strong>座右铭：</strong>「团队不一定放大你，可能先放大你的开销。」"
  ],
- "lead": "鱼总的个人网站被设计成一张「船长名片 No.688」：688 是 TA 裸辞时唯一付得起的苹果开发者年费。网站叫「航海日志」，栏目叫「688 航线」，TA 把自己的创业经历当作一次出海航行来讲。",
+ "lead": "yuzong.ai 首页的自我介绍很直接：「2022 年裸辞创业，兜里只付得起 688 元的苹果开发者年费；三年做了 20 个 App、12 个网站，全靠自然流量做到 500 万用户，单款产品营收超 20 万美金。现在是超级个体：一人 + AI，不招人、不租办公室，公司装进背包，娃带在身边。」",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "出海创业者、超级个体、内容创作者；PaywallPro 作者"],
+     ["所在地", "中国 ↔ 全球"],
+     ["经历", "UI 实习生（月薪 3800）→ 出海公司产品经理 → 2022 年裸辞 → 组建团队与公司 → 2026 年解散团队，回到一人 + AI"],
+     ["代表作", "PaywallPro、Portix、出海网站矩阵、「688 航线」"],
+     ["技术栈", "产品设计与 UI、ASO、AI Coding（Next.js + Supabase + Vercel 等模板）"],
+     ["渠道", "X @AI_Jasonyu、公众号「鱼总聊AI」、付费社群"],
+     ["生活", "两个孩子的父亲；在学游泳和「更狠的 AI 工作流」（据 NOW 板块）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "鱼总现在的生意有三块：<strong>产品</strong>（PaywallPro 和一批出海小 App、小网站）、<strong>内容</strong>（X 和公众号上的出海实操、亏损复盘）、<strong>社群与合作</strong>（付费群、品牌投放）。它们共享同一个底层能力：知道海外用户要什么，以及怎样不花钱把产品送到他们面前。"},
+    {"p": "他的方法论非常落地，写在网站的三条「航线」里：<strong>做产品</strong>：先确认有人需要，再做小产品，最后找到能带来用户的入口；<strong>做内容</strong>：选一个能持续实践的方向，让内容帮助具体的人，再考虑收入；<strong>找副业</strong>：先对照已有能力、时间和资金，再用小规模尝试验证。"},
+    {"note": "本页依据 yuzong.ai（首页、船长名片与文章）、PaywallPro 官网、App Store 与 X 资料整理，资料截至 2026 年 10 月。用户数、营收等数字为作者自述。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2015–2019",
-       "title": "UI 设计师 → 产品经理",
-       "text": "从月薪 3800 的 UI 实习生起步，进入出海公司做影像类产品。参与过月活百万的 App，产品拿过美区榜单第 1、第 2，亲手设计的 App 被苹果 Search Ads 官网展示超过一年。"
-      },
-      {
-       "when": "2022-08",
-       "title": "裸辞，688 元起步",
-       "text": "受够了凌晨加班和夹板气，月薪 15K 裸辞，没有存款。发帖找开发合作，自己包揽选品、UI、测试和运营。"
-      },
-      {
-       "when": "2023",
-       "title": "跑通了，也踩坑了",
-       "text": "离职第 5 个月产品收入突破每月 4000 美元，女儿出生；做 AI 自媒体，第 3 条视频 73 万播放。随后盲目扩张，招 6 个实习生做矩阵，全军覆没。「第一次体会到不聚焦的代价。」"
-      },
-      {
-       "when": "2024",
-       "title": "成立公司，发现网站",
-       "text": "重新招人成立公司；在社群里发现「网站」这个旧产物在海外依然生机勃勃，开始学 AI Coding。"
-      },
-      {
-       "when": "2025-09",
-       "title": "从 0 开始做 X",
-       "text": "专注 X 内容创作，7 个月做到 5 万粉丝，变现约 20 万元，成为主要收入来源之一。"
-      },
-      {
-       "when": "2026-04",
-       "title": "重回超级个体",
-       "text": "公司亏损两年后再次解散团队，聚焦 X 上的个人 IP 和 PaywallPro：一个人，AI 辅助。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2015–2019", "title": "UI 设计师 → 产品经理", "text": "从月薪 3800 的 UI 实习生起步，进入出海公司做影像类产品。参与过月活百万的 App，产品拿过美区榜单第 1、第 2，亲手设计的 App 被苹果 Search Ads 官网展示超过一年。"},
+     {"when": "2022.08", "title": "裸辞，688 元起步", "text": "受够了凌晨加班和夹板气，月薪 15K 裸辞，没有存款。发帖找开发合作，自己包揽选品、UI、测试和运营。"},
+     {"when": "2023", "title": "跑通了，也踩坑了", "text": "离职第 5 个月，产品收入突破每月 4,000 美元，女儿出生；做 AI 自媒体，第 3 条视频 73 万播放。随后盲目扩张，招 6 个实习生做矩阵，全军覆没。「第一次体会到不聚焦的代价。」"},
+     {"when": "2024", "title": "成立公司，发现网站", "text": "重新招人成立公司；在社群里发现「网站」这个旧产物在海外依然生机勃勃，开始学 AI Coding；7 月上架 AI 视频 App Portix。"},
+     {"when": "2025.09", "title": "从 0 开始做 X", "text": "专注 X 内容创作，网站复盘写道：从 371 个粉丝到 6.3 万，12 个月变现 40 万元以上，成为主要收入来源之一。"},
+     {"when": "2026.04", "title": "重回超级个体", "text": "公司亏损两年后再次解散团队，聚焦 X 上的个人 IP 和 PaywallPro：一个人，AI 辅助。"},
+     {"when": "2026 下半年", "title": "长文与社群", "text": "建立 99 元的「韭菜群」；写出海工具 App 选品万字长文、美国 / 英国 / 德国 / 香港手机号与 eSIM 系列教程、把微信同步进 Obsidian、MacBook + Mac mini + iPhone 协同调用知识库。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "PaywallPro",
-       "meta": "核心产品",
-       "text": "上万款 iOS 订阅 App 的付费墙截图、引导流程视频与历史版本，配合 AI 给出变现建议。",
-       "url": "https://www.paywallpro.app"
-      },
-      {
-       "name": "出海小产品",
-       "meta": "App + 网站",
-       "text": "蓝海选品 + ASO + 自然流量：Portix、Ghibli Style、KOL Hunter 等，不烧钱推广。",
-       "url": "https://yuzong.ai"
-      },
-      {
-       "name": "鱼总聊 AI",
-       "meta": "X / 公众号",
-       "text": "AI 出海、独立开发与真实创业复盘，包括亏损与失败。",
-       "url": "https://x.com/AI_Jasonyu"
-      },
-      {
-       "name": "688 航线",
-       "meta": "教程与路线",
-       "text": "做产品、做内容、找副业三条路线，写给普通人能照着做的教程。",
-       "url": "https://yuzong.ai"
-      }
+    {"work": {
+     "name": "PaywallPro", "url": "https://www.paywallpro.app",
+     "meta": ["核心产品", "Web", "付费墙情报"],
+     "paras": [
+      "「The Ultimate Paywall Intelligence Platform.」收录 1 万多款 iOS 订阅 App 的真实付费墙截图和引导流程视频，并追踪它们的演变：历史版本、A/B 测试变体，每周更新 350 多张截图；再用 AI 给出定价、UI 和试用策略上的建议。首页举例的 App 包括 ChatGPT、Duolingo、CapCut、Tinder、Flo。",
+      "他做这个，是因为自己做订阅 App 时发现大家都在「凭感觉改付费墙」。官网的一句数据很能说明价值：过去一年里，1,613 款 App 在更新 UI 后实现了订阅增长。"
+     ],
+     "facts": [["收录", "10,000+ App"], ["每周新增", "350+ 张付费墙截图"], ["模式", "免费起步 + 付费计划"]]
+    }},
+    {"work": {
+     "name": "出海小产品", "url": "https://apps.apple.com/us/app/portix-ai-video-generator/id6476134401",
+     "meta": ["2023 起", "App + 网站", "自然流量"],
+     "paras": [
+      "蓝海选品 + ASO + 自然流量，不烧钱推广。他的网站链接到的 App 包括 Portix（照片变 AI 视频、风格滤镜，4.52 分）和 Logo Maker 等（App Store 开发者账号为另一位署名者，可能是合作开发）。他在网站上分享过一个案例：一个「高性价比人生指南」衍生网站，一周带来 8,000 多个用户。"
+     ],
+     "facts": [["Portix 上架", "2024-07"], ["累计", "20+ App、12 个网站（自述）"]]
+    }},
+    {"work": {
+     "name": "yuzong.ai 与「688 航线」", "url": "https://yuzong.ai",
+     "meta": ["2026", "个人网站", "教程与社群"],
+     "paras": [
+      "整站用「航海」做隐喻：船长名片、航海日志、688 航线、杂货铺、「出海中 · SAILING」状态灯、「上滑 · 进入航海日志」的提示。首页用滚动数字展示 App、网站、用户和粉丝数；「NOW」板块写着在做、在学、在带（俩娃）。还有 75 篇生财精华推荐，按做产品、做内容、接单、小生意分类。"
      ]
-    }
+    }},
+    {"h3": "2026 年的实操长文"},
+    {"posts": [
+     {"date": "2026-09-21", "title": "出海工具 App 选品指南：小团队和独立开发者怎么选方向（万字长文）", "url": "https://yuzong.ai"},
+     {"date": "2026-09-07", "title": "2026 美国手机号选购指南：从 0 元到 10 美元，9 种方案亲测对比", "url": "https://yuzong.ai"},
+     {"date": "2026-08-24", "title": "出门不带电脑，也能随时调用家里的知识库：MacBook + Mac mini + iPhone 协同保姆级教程", "url": "https://yuzong.ai"},
+     {"date": "2026-06-22", "title": "我把微信里的一切都自动同步进了 Obsidian", "url": "https://yuzong.ai"},
+     {"date": "2026-06-01", "title": "做了三年出海，我把「基础设施」重新理解了一遍", "url": "https://yuzong.ai"}
+    ]}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://yuzong.ai",
-      "paras": [
-       "整站用「航海」做隐喻：船长名片、航海日志、688 航线、杂货铺、「出海中 · SAILING」状态灯、「上滑 · 进入航海日志」的提示。",
-       "首页用滚动数字展示 20+ App、12 个网站、500 万用户、6 万+ X 粉丝；「NOW」板块写着在做、在学（游泳和更狠的 AI 工作流）、在带（俩娃）。"
-      ]
-     }
-    },
-    {
-     "p": "这是一个设计师做的个人网站：隐喻统一、信息分层清楚，而且每个数字后面都有「作者自述」的标注，坦诚而克制。"
-    }
+    {"site": {"url": "https://yuzong.ai", "paras": [
+     "这是一个设计师做的个人网站：隐喻统一、信息分层清楚，而且每个数字后面都标着「作者自述」，坦诚而克制。首页左侧是「船长名片」：X、公众号、邮箱、品牌合作；中间是三条航线入口，引导不同目的的访客各走各的路。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Vercel 托管；RSS 33 篇"],
+      ["隐喻", "航海：船长、航线、航海日志、杂货铺"],
+      ["转化", "航线 → 工具 → 付费社群，路径清楚"],
+      ["克制", "数字标注「作者自述」"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与方法",
+   "id": "assess",
+   "title": "长处与局限",
    "blocks": [
-    {
-     "p": "鱼总的方法论非常落地：<strong>先确认有人需要，再做小产品，最后找到能带来用户的入口</strong>。TA 做 PaywallPro，是因为自己做订阅 App 时发现大家都在「凭感觉改付费墙」。"
-    },
-    {
-     "quote": "团队不一定放大你，可能先放大你的开销。",
-     "cite": "鱼总，航海日志 2026"
-    }
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "选品、UI、ASO 一条龙，擅长自然流量", "单个 App 规模多为中小型"],
+      ["内容", "敢于公开亏损和失败，实操性强", "收入越来越依赖个人 IP 与内容"],
+      ["经营", "经历过扩张与收缩，有真实的组织教训", "公司两度解散团队，说明规模化仍未跑通"],
+      ["透明", "数据标注来源，复盘详细", "关键数字多为自述，外界难以核实"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
-   "title": "可以从 TA 身上学什么",
+   "title": "可以从他身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>设计师也能独立出海：</strong>选品、UI、ASO，本身就是核心竞争力。",
-      "<strong>聚焦胜过扩张：</strong>矩阵和团队都可能先放大成本。",
-      "<strong>公开失败：</strong>亏损复盘比成功故事更有用。",
-      "<strong>用数据做付费墙：</strong>变现策略应该有依据，而不是凭感觉。"
-     ]
-    }
+    {"checklist": [
+     "<strong>设计师也能独立出海：</strong>选品、UI、ASO，本身就是核心竞争力。",
+     "<strong>聚焦胜过扩张：</strong>矩阵和团队都可能先放大成本。",
+     "<strong>公开失败：</strong>亏损复盘比成功故事更有用。",
+     "<strong>用数据做付费墙：</strong>变现策略应该有依据，而不是凭感觉。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "yuzong.ai", "url": "https://yuzong.ai", "why": "选一条和你现在处境最接近的「航线」，照着走。"},
+     {"name": "PaywallPro", "url": "https://www.paywallpro.app", "why": "如果你在做订阅 App，看看头部产品的付费墙是怎么演变的。"},
+     {"name": "出海工具 App 选品指南", "url": "https://yuzong.ai", "why": "一篇万字长文，讲小团队怎么选方向。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你在做订阅 App，去 PaywallPro 看看别人的付费墙怎么设计。",
+ "cta": "去 yuzong.ai 选一条航线，或者在 PaywallPro 里研究一下你喜欢的 App 怎么收费。",
  "sources": [
-  {
-   "label": "鱼总聊AI 的 X 个人资料",
-   "url": "https://x.com/AI_Jasonyu"
-  },
-  {
-   "label": "yuzong.ai",
-   "url": "https://yuzong.ai"
-  },
-  {
-   "label": "鱼总船长名片",
-   "url": "https://yuzong.ai/bio"
-  },
-  {
-   "label": "PaywallPro",
-   "url": "https://www.paywallpro.app"
-  }
+  {"label": "鱼总聊AI 的 X 个人资料", "url": "https://x.com/AI_Jasonyu"},
+  {"label": "yuzong.ai", "url": "https://yuzong.ai"},
+  {"label": "鱼总船长名片", "url": "https://yuzong.ai/bio"},
+  {"label": "PaywallPro 官网", "url": "https://www.paywallpro.app"},
+  {"label": "App Store：Portix", "url": "https://apps.apple.com/us/app/portix-ai-video-generator/id6476134401"}
  ]
 }

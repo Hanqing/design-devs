@@ -1,61 +1,182 @@
 {
  "name": "Marc Lou",
  "role": "法国独立创业者 · ShipFast / DataFast / TrustMRR 作者",
- "title": "Marc Lou：一个人做了<em>三十八个创业项目</em>",
- "dek": "从「下一个扎克伯格」的梦想、首尔失败的 AI 创业、被解雇，到在巴厘岛「疯狂发布」。他的 ShipFast 让无数人几天内上线产品，TrustMRR 成为验证创业收入的数据库。他把所有产品和收入都摆在一个页面上。",
- "card": "ShipFast、DataFast、TrustMRR 作者，38 个创业项目，月收入约 9 万美元，现居塞浦路斯。",
- "location": "塞浦路斯（法国人）",
- "tags": ["Indie Hacking", "Next.js", "公开构建", "SaaS", "营销"],
- "links": [{"label": "marclou.com", "url": "https://marclou.com"}, {"label": "ShipFast", "url": "https://shipfa.st"}, {"label": "TrustMRR", "url": "https://trustmrr.com"}],
+ "title": "Marc Lou：一个人做了<em>三十八个</em>创业项目",
+ "dek": "从「下一个扎克伯格」的梦想、首尔失败的 AI 创业、被解雇，到带着两万美元积蓄去巴厘岛「疯狂发布」。他的 ShipFast 让无数人几天内上线产品，TrustMRR 成为验证创业收入的数据库，DataFast 把收入归因到流量来源。他把所有产品和实时收入都摆在一个页面上。",
+ "card": "TrustMRR（$53K/月）、DataFast、ShipFast、CodeFast 作者；一个人做了 38 个创业项目，X 上 41 万人关注。",
+ "location": "全球远程（法国人）",
+ "updated": "2026-10-21",
+ "tags": ["独立创业", "Build in Public", "Next.js", "营销", "SaaS"],
+ "links": [
+  {"label": "marclou.com", "url": "https://marclou.com"},
+  {"label": "TrustMRR", "url": "https://trustmrr.com"},
+  {"label": "DataFast", "url": "https://datafa.st"},
+  {"label": "GitHub", "url": "https://github.com/marclou"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>「I've built 38 startups solo.」一个把「快速发布」当作信仰的法国开发者，用 emoji 和夸张的营销把一个个小产品推向数万人。",
-  "<strong>代表作：</strong>TrustMRR（经验证的创业收入数据库，约 $47K/月）、DataFast（$32K/月）、ShipFast（Next.js 模板，2023 年 8 月发布）、CodeFast、Ship or Die、MailCheap、Zenvoice、Indie Page 等。",
-  "<strong>为什么值得关注：</strong>他示范了「营销就是产品的一部分」：每一次发布都是一场精心设计的表演。"
+  "<strong>一句话：</strong>levelsio 方法论最成功的继承者之一。他把「一个月公开发布一个小项目」做到了极致，也把营销当成产品的一部分来设计。",
+  "<strong>代表作：</strong>TrustMRR（经 Stripe 验证的创业收入数据库）、DataFast（把收入和流量来源打通的网站分析）、ShipFast（Next.js 创业模板）、CodeFast（几周学会编程的课程）、Ship or Die、Indie Page、Stalkr.AI；2026 年开源 MailCheap（★1.3 千）。",
+  "<strong>关键数字（X 简介自报，2026 年 10 月）：</strong>TrustMRR $53K / 月、DataFast $31K / 月、CodeFast $7K / 月、Ship or Die $3K / 月、ShipFast $2K / 月、Indie Page $1K / 月；X 关注者约 41.4 万；Newsletter 5 万读者。",
+  "<strong>看点：</strong>2023 年的现象级产品 ShipFast，如今月收入只剩 2 千美元：他的收入结构在不断从「卖模板」转向「卖数据和工具」。"
  ],
- "lead": "Marc 的个人网站顶部是一行大字：「Cyprus · $91.8k /month · I've built 38 startups solo.」下面是一长串产品，每个都标着当前的月收入：从 $47.3k 到 $0。连收入为零的产品也照样列出，这是他「公开构建」的方式。",
+ "lead": "Marc 自己讲过一个「Sad Marc → Happy Marc」的故事：读了 levelsio 的《MAKE》之后，他从「一年在暗处做一个大项目」转向「一个月公开发布一个小项目」。月入 1,000 美元的 Sad Marc，两年后变成了月入 4 万美元的 Happy Marc。如今他的个人主页标题是：「I've built 38 startups solo.」",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "毕业后", "title": "想成为「下一个扎克伯格」", "text": "法国计算机专业毕业后没有找工作，住在父母家、兼职当服务员（时薪约 10 美元），开发一款「运动版 Tinder」，没有成功。"},
-    {"when": "2017", "title": "首尔的 AI 创业", "text": "搬到首尔领导一家风投支持的 AI 初创公司，据报道九个月后关闭，零客户。之后又在巴厘岛做过一个游戏化产品，2019 年做到月入 4000 美元，疫情后亏损回到法国。"},
-    {"when": "2021", "title": "被解雇，发现 build in public", "text": "在一家公司工作后于 2021 年 11 月被解雇。他在 Twitter 上发现了「公开构建」的独立开发者社区，看到有人只靠笔记本电脑、不对投资人负责地生活，于是带着约两万美元积蓄搬到巴厘岛，开始「疯狂发布」。"},
-    {"when": "2022–2023", "title": "Sad Marc → Happy Marc", "text": "读了 levelsio 的《MAKE》，从「一年在暗处做一个大项目」转向「一个月公开发布一个小项目」。他自己说：月入 1000 美元的「Sad Marc」两年后变成了月入 4 万美元的「Happy Marc」。"},
-    {"when": "2023-08", "title": "ShipFast", "text": "把自己反复使用的 Next.js 代码（认证、支付、邮件、SEO）打包成模板 ShipFast，几个月内月收入达数万美元，成为现象级产品。"},
-    {"when": "2024–2026", "title": "DataFast、TrustMRR 与更多", "text": "DataFast（把收入归因到流量来源的网站分析）、TrustMRR（经 Stripe 验证的创业收入数据库）、CodeFast（几周学会编程）、Ship or Die（30 天发布挑战）、MailCheap（比 beehiiv 便宜 83% 的 Newsletter）。他还开源了 Razer Naga 鼠标的 macOS 配置 App。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "TrustMRR", "meta": "$47.3K/月", "text": "The database of verified startup revenues：经验证的创业收入数据库。", "url": "https://trustmrr.com"},
-    {"name": "DataFast", "meta": "$31.9K/月", "text": "Grow your startup with data, not guesses：把收入和流量来源打通的分析工具。", "url": "https://datafa.st"},
-    {"name": "ShipFast", "meta": "2023 · Next.js 模板", "text": "Ship your startup in days, not months。", "url": "https://shipfa.st"},
-    {"name": "MailCheap", "meta": "2026 · 开源 · ★1.2k", "text": "按发送量付费、而不是按沉睡订阅者付费的 Newsletter 工具。", "url": "https://github.com/marclou/mailcheap"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://marclou.com", "paras": ["marclou.com 本身就是他的产品 Indie Page 的演示：「All your startups in a page, like this one」。每个产品一行：名字、一句口号、实时月收入。", "页面上方是书、Newsletter（5 万读者）和一句承诺：「How I find startup ideas, launch fast, and get profitable 👇」。"]}},
-   {"p": "这个页面把「作品集」和「收入报表」合二为一，是 indie hacker 文化最纯粹的表达。"}
-  ]},
-  {"id": "craft", "title": "设计与方法", "blocks": [
-   {"p": "Marc 的产品视觉高度统一：大号 emoji、圆角卡片、亮色按钮、夸张的文案（「SHIP your app in 30 days, or die 💀」）。这是一种<strong>为传播而设计</strong>的风格，每一个截图都适合发到 X 上。"},
-   {"note": "他的成功也说明了「卖铲子」的力量：ShipFast、CodeFast、DataFast、TrustMRR 都服务于同一群人：想要创业的开发者。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>小而快：</strong>一个月一个项目，用发布代替打磨。",
-    "<strong>把常用代码产品化：</strong>你反复写的东西，别人也需要。",
-    "<strong>营销是产品的一部分：</strong>标题、截图、视频都要为传播设计。",
-    "<strong>失败不可怕：</strong>首尔、巴厘岛、被解雇，都是通往 38 个项目的路。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立创业者（solo founder），全职公开构建"],
+     ["国籍", "法国（本名 Marc Louvion）；全球远程"],
+     ["经历", "法国计算机专业 → 「运动版 Tinder」失败 → 首尔 AI 创业（关闭）→ 巴厘岛游戏化产品 → 被解雇 → 2021 年起全职独立"],
+     ["代表作", "TrustMRR、DataFast、ShipFast、CodeFast、Ship or Die、Indie Page、MailCheap"],
+     ["技术栈", "JavaScript / Next.js、Stripe、MongoDB；2026 年写起了 Swift（macOS 小工具）"],
+     ["渠道", "X（41 万关注）、YouTube、Newsletter（5 万读者）、书"],
+     ["GitHub 简介", "「making stuff」"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Marc 的产品都服务于同一群人：<strong>想要创业的开发者</strong>。ShipFast 帮他们几天内上线；CodeFast 教不会编程的人入门；DataFast 告诉他们哪个流量来源真的带来了收入；TrustMRR 让他们用 Stripe 验证过的数据展示收入、也看到别人的真实收入；Indie Page 把所有产品放在一个页面上。这是一个完整的「卖铲子」生态。"},
+    {"p": "他的产品视觉高度统一：大号 emoji、圆角卡片、亮色按钮、夸张的文案（「SHIP your app in 30 days, or die 💀」）。这是一种为传播而设计的风格，每一张截图都适合发到 X 上。"},
+    {"note": "本页依据 X 个人资料（含实时收入）、marclou.com、GitHub、Tiny Empires 案例研究、Noah Kagan 访谈整理，资料截至 2026 年 10 月。收入数字为本人公开。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "毕业后", "title": "想成为「下一个扎克伯格」", "text": "法国计算机专业毕业后没有找工作，住在父母家、兼职当服务员（时薪约 10 美元），开发一款「运动版 Tinder」，没有成功。"},
+     {"when": "2017–2018", "title": "首尔的 AI 创业", "text": "搬到首尔领导一家风投支持的 AI 初创公司，据报道九个月后关闭，零客户。GitHub 上还留着 2018 年的 React Native App、健身房预订聊天机器人等练手项目。"},
+     {"when": "2019", "title": "巴厘岛", "text": "在巴厘岛做过一个游戏化产品，2019 年做到月入 4,000 美元，疫情后亏损回到法国。"},
+     {"when": "2021.11", "title": "被解雇，发现 build in public", "text": "在一家公司工作后被解雇。他在 Twitter 上发现了「公开构建」的独立开发者社区，看到有人只靠笔记本电脑、不对投资人负责地生活，于是带着约两万美元积蓄搬到巴厘岛，开始「疯狂发布」。"},
+     {"when": "2022–2023", "title": "Sad Marc → Happy Marc", "text": "读了《MAKE》，转向一个月公开发布一个小项目；两年里收入从每月 1,000 美元涨到 4 万美元。"},
+     {"when": "2023.08", "title": "ShipFast", "text": "把自己反复使用的 Next.js 代码（认证、支付、邮件、SEO）打包成模板，几个月内月收入达数万美元，成为现象级产品；2024 年开源了配套的 Stripe 订阅示例。"},
+     {"when": "2024–2025", "title": "DataFast、CodeFast、TrustMRR", "text": "DataFast 把收入归因到流量来源；CodeFast 教人几周学会编程；TrustMRR 成为经 Stripe 验证的创业收入数据库，后来成为他收入最高的产品。"},
+     {"when": "2026", "title": "MailCheap 与小工具", "text": "2 月做了「像航班雷达一样的网站分析」DataRadar；10 月开源 Newsletter 工具 MailCheap，一个月就过千星；同月还开源了雷蛇 Naga V3 Pro 鼠标的 macOS 配置 App。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"table": {
+     "caption": "X 简介中的实时月收入（2026 年 10 月，本人公开）",
+     "cols": ["产品", "是什么", "月收入"],
+     "rows": [
+      ["TrustMRR", "经 Stripe 验证的创业收入数据库", "$53K"],
+      ["DataFast", "把收入归因到流量来源的网站分析", "$31K"],
+      ["CodeFast", "几周学会编程的课程", "$7K"],
+      ["Ship or Die", "30 天发布挑战", "$3K"],
+      ["ShipFast", "Next.js 创业模板", "$2K"],
+      ["Indie Page", "把所有创业项目放在一个页面上", "$1K"],
+      ["Stalkr.AI 等", "另有 30 多个项目", "—"]
+     ]
+    }},
+    {"work": {
+     "name": "TrustMRR", "url": "https://trustmrr.com",
+     "meta": ["2024–2025", "收入数据库", "$53K / 月"],
+     "paras": [
+      "「The database of verified startup revenues.」创业者用 Stripe 连接验证自己的收入，形成一个公开、可信的创业收入数据库：既是展示，也是研究其他产品的情报来源。在一个「人人都在晒收入截图」的圈子里，它解决的是「信任」问题，也成了 Marc 收入最高的产品。"
+     ]
+    }},
+    {"work": {
+     "name": "DataFast", "url": "https://datafa.st",
+     "meta": ["2024–2025", "网站分析", "$31K / 月"],
+     "paras": [
+      "「Grow your startup with data, not guesses.」普通的网站分析只告诉你访问量；DataFast 把访问和收入连起来，告诉你哪一个渠道、哪一条推文、哪一个关键词真的带来了付费用户。"
+     ]
+    }},
+    {"work": {
+     "name": "ShipFast", "url": "https://shipfa.st",
+     "meta": ["2023", "Next.js 模板", "现象级"],
+     "paras": [
+      "「Ship your startup in days, not months.」认证、支付、邮件、SEO、数据库、落地页组件一应俱全。它是 2023 年独立开发圈最成功的产品之一，也带动了一大批同类模板（本站的 Fox 就在 2025 年终总结里提到过学习它的技术栈）。如今它的月收入降到了 2 千美元，市场已经被大量竞品和 AI 编程分流。"
+     ]
+    }},
+    {"work": {
+     "name": "MailCheap", "url": "https://github.com/marclou/mailcheap",
+     "meta": ["2026.10", "开源", "★1.3 千"],
+     "paras": [
+      "「Newsletters where you pay for the emails you send, not for dormant subscribers.」按实际发送的邮件付费，而不是按沉睡的订阅者数量付费，价格只有 beehiiv 等的一小部分；开源，也可以自托管。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://marclou.com", "paras": [
+     "marclou.com 本身就是他的产品 Indie Page 的演示：「All your startups in a page, like this one」。每个产品一行：名字、一句口号、实时月收入。",
+     "页面上方是书、Newsletter（5 万读者）和一句承诺：「How I find startup ideas, launch fast, and get profitable 👇」。这个页面把「作品集」和「收入报表」合二为一，是 indie hacker 文化最纯粹的表达。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["定位", "作品集 + 收入报表 + 产品演示三合一"],
+      ["风格", "大号 emoji、圆角卡片、亮色按钮"],
+      ["转化", "书 → Newsletter → 产品"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "方法与观点",
+   "blocks": [
+    {"ul": [
+     "<strong>小而快：</strong>一个月一个项目，用发布代替打磨。",
+     "<strong>把常用代码产品化：</strong>你反复写的东西，别人也需要。",
+     "<strong>营销是产品的一部分：</strong>标题、截图、视频都要为传播设计。",
+     "<strong>卖铲子：</strong>服务于和自己一样的人，你最懂他们。",
+     "<strong>失败不可怕：</strong>首尔、巴厘岛、被解雇，都是通往 38 个项目的路。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["营销", "极强的传播设计能力，41 万 X 关注者", "收入高度依赖个人影响力与 X"],
+      ["产品", "快速发布、紧跟用户需求，产品线互相导流", "单个产品生命周期可能很短（ShipFast 收入大幅下滑）"],
+      ["商业", "从模板转向数据与工具，收入结构更稳", "目标用户集中在「想创业的开发者」这一圈层"],
+      ["透明", "实时公开收入", "数字为本人自报（TrustMRR 本身提供验证机制）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>小而快：</strong>一个月一个项目，用发布代替打磨。",
+     "<strong>把常用代码产品化：</strong>你反复写的东西，别人也需要。",
+     "<strong>营销是产品的一部分：</strong>每张截图都要能被转发。",
+     "<strong>不断调整收入结构：</strong>昨天的爆款，可能就是明天的长尾。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "marclou.com", "url": "https://marclou.com", "why": "看一个人怎样把 38 个创业项目和实时收入放进一个页面。"},
+     {"name": "Tiny Empires：The Journey of Marc Lou", "url": "https://tinyempires.substack.com/p/case-study-the-journey-of-marc-lou", "why": "一篇完整的案例研究，从首尔失败讲到巴厘岛。"},
+     {"name": "MailCheap", "url": "https://github.com/marclou/mailcheap", "why": "他少见的开源产品，可以直接看代码。"}
+    ]}
+   ]
+  }
  ],
- "cta": "打开 marclou.com，看一个人如何把 38 个项目摆在一页上。",
+ "cta": "去 marclou.com 看看那张「38 个创业项目」的清单。",
  "sources": [
-  {"label": "Marc Lou 的 X 个人资料", "url": "https://x.com/marclou"},
+  {"label": "Marc Lou 的 X 个人资料（含实时收入）", "url": "https://x.com/marclou"},
   {"label": "marclou.com", "url": "https://marclou.com"},
   {"label": "Tiny Empires：The Journey of Marc Lou", "url": "https://tinyempires.substack.com/p/case-study-the-journey-of-marc-lou"},
   {"label": "Noah Kagan 访谈 Marc Louvion", "url": "https://noahkagan.com/marc-louvion/"},
   {"label": "GitHub：marclou", "url": "https://github.com/marclou"},
-  {"label": "readMAKE.com 上 Marc Lou 的推荐语", "url": "https://readmake.com"}
+  {"label": "MailCheap README", "url": "https://github.com/marclou/mailcheap"},
+  {"label": "TrustMRR", "url": "https://trustmrr.com"},
+  {"label": "DataFast", "url": "https://datafa.st"}
  ]
 }
