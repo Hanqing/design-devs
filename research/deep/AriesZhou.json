@@ -1,0 +1,184 @@
+{
+ "handle": "AriesZhou",
+ "sites": [
+  {
+   "url": "http://arieszhou.com",
+   "ok": true,
+   "title": "AriesZhou · Building what I need, keeping what matters",
+   "description": "AriesZhou builds thoughtful developer tools and writes about software, products, reading, and learning.",
+   "stack": [
+    "Astro",
+    "Vercel Analytics",
+    "Google Fonts",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Aries Zhou \n Building what I need, keeping what matters. \n 中 EN \nWriting \nREA and Reverse Engineering Oct 14, 2026 \nREA has turned reverse engineering into an everyday task for AI agents. Drawing on conversations with reverse engineers in the security industry, a look at how software protection, cracking and cloning, and this reverse engineering craze might change once the barrier is gone. \nA rooftop in Dali. Sep 7, 2026 \nAn avatar may be a tiny image, but behind it are a relationship, a memory from a trip, and a game we both love. That means more to me than the image itself. \nWhen AI Misunderstands Aug 28, 2026 \nStarting with whether someone can ever truly understand \"red,\" I found myself wondering why AI so often fails to understand \"that earlier one.\" Language may work less like a container and more like an index into experience, while project work depends on a history that others can pick up and continue. \nREADME? LandingPage Aug 25, 2026 \nOn how to write a good README. \nBadminton Singles Aug 5, 2026 \nI played singles twice recently. Compared to doubles, it is much more physically demanding, and the court feels bigger... \nNetwork Proxy Issues Jul 14, 2026 \nAfter switching proxy clients, GitHub, YouTube, and ChatGPT web pages all work, but Codex can't connect. The issue lies in system proxy, process environment, and command-line networking being different layers. \nMIT Licenses Code, Not the Whole Product Jun 11, 2026 \nA discussion on open source issues sparked by a derivative work of Mole, along with reflections on how AI lowering the barrier to coding impacts open source. \nMoving My Blog to Astro Apr 14, 2026 \nSwitching from Next.js to Astro. \nAfter Listening to \"The Economics of Exhaustion\" Mar 30, 2026 \nYesterday I listened to Episode E227 of the podcast 知行小酒馆, titled \"The Economics of Exhaustion: Why has technology advanced, yet we feel more tired?\" The content of this episode happened to resonate with my recent sense of fatigue. \nInformation Anxiety and FOMO Mar 26, 2026 \nI thought I could keep learning as I age, but I just can't keep up, not at all... \n Load more",
+   "github_links": [
+    "HiAriesZhou"
+   ],
+   "subpages": {
+    "http://arieszhou.com/about": "Aries Zhou \n Building what I need, keeping what matters. \n 中 EN \nAbout \nHi, Aries here 👋 \nI’ve been an engineer for over nine years. I used to work on data security in the video conferencing industry; these days I mainly work on open-source private cloud storage. \nMy interests are a bit of a mix. I build tools for myself in my spare time and share them publicly. I’m exploring ways to live, hobbies, products, and approaches to AI that interest me. I believe AI will make the world a better place. \nMy ideas usually start as complaints about everyday annoyances: long X Articles without a table of contents, browser bookmarks that pile up and barely get used, or half an hour in the store dashboard uploading assets and checking listings and privacy details whenever an extension release needs an asset update. \nWith AI’s help, I can build small tools to deal with these problems without being held back by limited energy, the tech stacks I know, or complicated development docs. Thank you, AI. \nThese tools mostly solve my own problems and fit my own habits. They don’t have much broader appeal, so they don’t have many users (or so I keep telling myself). I’ve started releasing them publicly and keeping them updated, hoping more people will find them useful. \nI write down thoughts, experiences, and whatever else is on my mind here. If you’re into games, anime, or badminton too, and hate AI slop, clickbait, and shouty slogans, maybe we could be friends. \nIf you’ve got a good idea and need an engineer, get in touch. \nDad to a boy · staff to two cats · love my wife · into games and anime · badminton"
+   },
+   "feed": {
+    "url": "http://arieszhou.com/rss.en.xml",
+    "count_seen": 52,
+    "items": [
+     {
+      "title": "REA and Reverse Engineering",
+      "date": "Wed, 14 Oct 2026 03:43:42",
+      "url": "https://www.arieszhou.com/blog/after-reverse-engineering-gets-easy"
+     },
+     {
+      "title": "A rooftop in Dali.",
+      "date": "Mon, 07 Sep 2026 00:00:00",
+      "url": "https://www.arieszhou.com/blog/from-a-rooftop-in-dali-to-pixel-avatars"
+     },
+     {
+      "title": "When AI Misunderstands",
+      "date": "Fri, 28 Aug 2026 04:00:00",
+      "url": "https://www.arieszhou.com/blog/ai-doesnt-understand-that-earlier-one"
+     },
+     {
+      "title": "README? LandingPage",
+      "date": "Tue, 25 Aug 2026 09:44:30",
+      "url": "https://www.arieszhou.com/blog/readme-landingpage-guide"
+     },
+     {
+      "title": "Badminton Singles",
+      "date": "Wed, 05 Aug 2026 08:33:58",
+      "url": "https://www.arieszhou.com/blog/singles"
+     },
+     {
+      "title": "Network Proxy Issues",
+      "date": "Tue, 14 Jul 2026 06:30:00",
+      "url": "https://www.arieszhou.com/blog/from-clashx-to-clash-verge-why-web-pages-work-but-codex-can-t-connect"
+     },
+     {
+      "title": "MIT Licenses Code, Not the Whole Product",
+      "date": "Thu, 11 Jun 2026 09:33:33",
+      "url": "https://www.arieszhou.com/blog/mit-licenses-code-not-the-whole-product"
+     },
+     {
+      "title": "Moving My Blog to Astro",
+      "date": "Tue, 14 Apr 2026 02:00:00",
+      "url": "https://www.arieszhou.com/blog/from-next-js-to-astro"
+     },
+     {
+      "title": "After Listening to \"The Economics of Exhaustion\"",
+      "date": "Mon, 30 Mar 2026 11:50:00",
+      "url": "https://www.arieszhou.com/blog/after-listening-to-the-economics-of-exhaustion"
+     },
+     {
+      "title": "Information Anxiety and FOMO",
+      "date": "Thu, 26 Mar 2026 04:27:00",
+      "url": "https://www.arieszhou.com/blog/information-anxiety-and-fomo"
+     },
+     {
+      "title": "Harness Study Notes",
+      "date": "Thu, 19 Feb 2026 02:00:00",
+      "url": "https://www.arieszhou.com/blog/harness-study-notes"
+     },
+     {
+      "title": "Collaborative Spreadsheet with react-data-grid (Part 2)",
+      "date": "Sun, 03 Aug 2025 02:00:00",
+      "url": "https://www.arieszhou.com/blog/collaborative-spreadsheet-with-react-data-grid-part-2"
+     },
+     {
+      "title": "Collaborative Tables with react-data-grid (Part 1)",
+      "date": "Thu, 19 Jun 2025 02:00:00",
+      "url": "https://www.arieszhou.com/blog/collaborative-tables-with-react-data-grid-part-1"
+     },
+     {
+      "title": "Chrome Extension Cross-Context Communication Issues",
+      "date": "Thu, 22 May 2025 00:00:00",
+      "url": "https://www.arieszhou.com/blog/analyzing-and-solving-chrome-extension-cross-context-communication-issues"
+     },
+     {
+      "title": "File System Case Sensitivity",
+      "date": "Wed, 07 May 2025 09:28:04",
+      "url": "https://www.arieszhou.com/blog/cross-platform-development-pitfalls-file-system-case-sensitivity"
+     },
+     {
+      "title": "The Simple-Minded Girl Who Could Sew on Buttons",
+      "date": "Sat, 15 Mar 2025 12:26:09",
+      "url": "https://www.arieszhou.com/blog/the-simple-minded-girl-who-could-sew-on-buttons"
+     },
+     {
+      "title": "Data Visualization",
+      "date": "Mon, 10 Mar 2025 06:20:16",
+      "url": "https://www.arieszhou.com/blog/data-visualization"
+     },
+     {
+      "title": "CSS Grid",
+      "date": "Wed, 19 Feb 2025 02:00:00",
+      "url": "https://www.arieszhou.com/blog/css-grid-guide"
+     },
+     {
+      "title": "Static Resource Integrity Verification",
+      "date": "Mon, 22 Jul 2024 07:57:29",
+      "url": "https://www.arieszhou.com/blog/static-resource-integrity-verification"
+     },
+     {
+      "title": "A Community Feedback",
+      "date": "Thu, 04 Jul 2024 06:44:07",
+      "url": "https://www.arieszhou.com/blog/a-community-feedback"
+     },
+     {
+      "title": "Flexbox",
+      "date": "Wed, 03 Apr 2024 13:48:56",
+      "url": "https://www.arieszhou.com/blog/flexbox-flex-grow-and-flex-shrink"
+     },
+     {
+      "title": "cloneElement and Dynamic Component Rendering",
+      "date": "Sat, 30 Mar 2024 02:00:00",
+      "url": "https://www.arieszhou.com/blog/cloneelement-and-dynamic-component-rendering"
+     },
+     {
+      "title": "forwardRef/useImperativeHandle",
+      "date": "Tue, 19 Mar 2024 02:00:00",
+      "url": "https://www.arieszhou.com/blog/why-you-need-forwardref-and-useimperativehandle"
+     },
+     {
+      "title": "React Batched Updates",
+      "date": "Sat, 20 Jan 2024 03:34:29",
+      "url": "https://www.arieszhou.com/blog/react-batching-updates-notes"
+     },
+     {
+      "title": "Understanding SEO",
+      "date": "Tue, 02 Jan 2024 06:44:13",
+      "url": "https://www.arieszhou.com/blog/seo-search-engine-optimization-practical-guide"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "AriesZhou",
+  "user": {
+   "name": "BiLin Zhou",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": null,
+   "public_repos": 3,
+   "followers": 1,
+   "created_at": "2019-01-23T01:20:26Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [],
+  "repo_count_nonfork": 0,
+  "languages": [],
+  "pinned": [],
+  "contrib_last_year": 0,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {}
+ },
+ "apps": []
+}

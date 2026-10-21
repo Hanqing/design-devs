@@ -1,0 +1,377 @@
+{
+ "handle": "sofish",
+ "sites": [
+  {
+   "url": "https://built4.fun",
+   "ok": true,
+   "title": "Built4.Fun — Small apps. A little more joy.",
+   "description": "Built4.Fun makes thoughtful reading and writing apps: Xiaoshutong for reading notes, Jinshu for multilingual reading, and TeenyWriter for Chinese diaries. Download our apps or get Jinshu Lifetime for Android and E-Ink.",
+   "stack": [
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Skip to content \n Built4.Fun \n A little more joy. \n Little apps for slow reading and careful writing.\n Spark an idea \n Pause motion \n Apps A few small things we care about\n Xiaoshutong 小书童 ↗ \nYour reading notes, resurfaced \niPhone \niPad \n App Store \n Jinshu ↗ \nImmersive multilingual reader \niOS \nAndroid \nE-Ink \n App Store \n TeenyWriter 小小作家 ↗ \nA Chinese diary for kids \niOS \nFree in early access \n App Store \n Get Jinshu Premium Two ways to unlock it\nSubscribe · in-app \n from \n $2.99 \n / month \nApp Store \nGoogle Play \n Subscribe on the App Store \nLifetime · Android & E-Ink \n $19.99 \n one-time \n5 devices \nFree updates \n7-day refund \n Buy with Stripe → \n Your activation code arrives by email.\n Stripe supports WeChat Pay and Alipay. \n About Made for joy\n A small independent studio making thoughtful little apps, for\n ourselves and a few kindred souls.\nOpen-source Mac apps \n Standup Stand up. Move more. \n EdgePeek Notes stay on screen. \n Say hello ↗",
+   "github_links": [
+    "sofish"
+   ],
+   "subpages": {},
+   "appstore_ids": [
+    "6759705710",
+    "6761878294",
+    "6770038891"
+   ]
+  },
+  {
+   "url": "https://xiaoshutong.app/",
+   "ok": true,
+   "title": "小书童 — 阅后，有期",
+   "description": "小书童是 iOS 原生阅读书伴。收集微信读书划线、Kindle 摘录与纸书笔记，用今日相逢重遇旧句子，和书童一起思考。阅读资料保存在本机，AI 使用单独征求同意。",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-CN",
+   "home_text": "[跳到正文](https://xiaoshutong.app/#main)\n小书童\niOS 阅读书伴\n# 阅后，有期\n把读过的书，留给后来的自己。\n[用 iPhone 扫码下载](https://apps.apple.com/cn/app/id6770038891)[认识小书童](https://xiaoshutong.app/about)\n天地有大美而不言，四时有明法而不议，万物有成理而不说。\n庄子·知北游 庄周\n阅后，有期。\n静止 重播[隐私](https://xiaoshutong.app/privacy)",
+   "github_links": [],
+   "subpages": {
+    "https://xiaoshutong.app/about": "小书童 回到那一页 ↗ \n一位属于你的 iOS 阅读书伴 \n读完了。\n故事还在。 \n有些句子，读到时只是划了线。\n很久以后，才在自己的生活里读懂。 \n读过的书，让生活开始不同。小书童把微信读书划线、Kindle 摘录、纸书笔记与自己的想法汇在一处，需要时从同一个入口查找。遇到生活里的问题，会员可以让书童结合相关笔记陪你推敲，沿引用回看原文，让积累的阅读成为接下来思考的线索。「今日相逢」也会每天带回几句旧笔记。 \n阅读档案保存在本机；AI 处理资料需要单独同意。普通使用无需注册或 Apple 登录。Kindle 通过文件导入；会员购买或恢复后默认启用 iCloud 跨设备同步，可随时关闭，在 iPhone 与 iPad 接着读。 隐私与数据说明 ↗ \n小书童已在 App Store 上架，支持 iPhone 与 iPad。 在 App Store 下载 ↗ \n记录、微信读书同步、Kindle 导入、查找、阅读、编辑与导出免费。问书童、书童洞见、生成朗读与 iCloud 阅读同步需要有效会员；月付与年付均每月发放 200 点，年付一次按年收费、按购买日逐月发放，全年 12 次。 \n想找下一本书？ 此刻读什么 ↗ 收集名人亲口推荐的书单与文学奖作品，每天结合节气、天气与新闻选书，一点就在微信读书打开。 \n 让它，再递一笺 ↗"
+   },
+   "appstore_ids": [
+    "6770038891"
+   ]
+  }
+ ],
+ "github": {
+  "login": "sofish",
+  "user": {
+   "name": "小鱼",
+   "company": null,
+   "blog": "https://built4.fun",
+   "location": "Shanghai China",
+   "bio": null,
+   "public_repos": 48,
+   "followers": 10486,
+   "created_at": "2009-11-14T10:24:24Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "sofish/pen",
+    "description": "enjoy live editing (+markdown)",
+    "stargazers_count": 4793,
+    "forks_count": 401,
+    "language": "JavaScript",
+    "homepage": "https://sofish.github.io/pen",
+    "created_at": "2013-08-29T16:09:40Z",
+    "pushed_at": "2018-09-23T14:27:04Z",
+    "topics": [
+     "editor",
+     "pen",
+     "pen-editor",
+     "wysiwyg"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/typo.css",
+    "description": "中文网页重设与排版 CSS，面向现代中文阅读优化字体、行高、CJK 断行、中西文间距与着重号。",
+    "stargazers_count": 4546,
+    "forks_count": 675,
+    "language": "HTML",
+    "homepage": "https://typo.built4.fun",
+    "created_at": "2012-01-07T12:57:29Z",
+    "pushed_at": "2026-06-25T15:36:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/wechat.js",
+    "description": "微信相关的 js 操作：分享、网络、菜单",
+    "stargazers_count": 911,
+    "forks_count": 184,
+    "language": "JavaScript",
+    "homepage": "http://sofish.github.io/wechat.js/",
+    "created_at": "2014-09-24T10:04:28Z",
+    "pushed_at": "2015-01-08T14:49:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/express-guide",
+    "description": "对英文版 ExpressJS 的一个翻译",
+    "stargazers_count": 360,
+    "forks_count": 69,
+    "language": null,
+    "homepage": "http://sofish.github.com/express-guide/",
+    "created_at": "2012-07-01T07:55:51Z",
+    "pushed_at": "2012-09-02T15:15:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/validator.js",
+    "description": "一个简单、轻量级，但功能强大的 Validator 组件",
+    "stargazers_count": 279,
+    "forks_count": 90,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2012-10-11T13:43:11Z",
+    "pushed_at": "2019-02-27T05:20:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/han",
+    "description": "a module for tanslating Chinese(汉字) into /\\w+/ or pinyin",
+    "stargazers_count": 201,
+    "forks_count": 34,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2012-10-04T13:43:39Z",
+    "pushed_at": "2018-04-21T11:24:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/essage",
+    "description": "a more elegant way to show message",
+    "stargazers_count": 185,
+    "forks_count": 16,
+    "language": "JavaScript",
+    "homepage": "http://sofish.github.io/essage/",
+    "created_at": "2013-09-27T14:06:44Z",
+    "pushed_at": "2013-09-29T03:30:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/learn-js",
+    "description": "老婆想学 js 这件事就是一个政治任务",
+    "stargazers_count": 141,
+    "forks_count": 9,
+    "language": null,
+    "homepage": null,
+    "created_at": "2016-03-17T07:05:39Z",
+    "pushed_at": "2016-04-15T04:32:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/everyday",
+    "description": "从今天开始，要么写代码要么写文档",
+    "stargazers_count": 135,
+    "forks_count": 73,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-04-22T09:02:27Z",
+    "pushed_at": "2017-02-21T03:29:44Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "sofish/restcookbook",
+    "description": "REST 小书",
+    "stargazers_count": 83,
+    "forks_count": 15,
+    "language": "HTML",
+    "homepage": "http://sofish.github.io/restcookbook/",
+    "created_at": "2015-06-09T09:09:25Z",
+    "pushed_at": "2017-04-06T10:09:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/weather",
+    "description": "weather app for iOS device",
+    "stargazers_count": 83,
+    "forks_count": 19,
+    "language": "CSS",
+    "homepage": "http://sofi.sh/weather/",
+    "created_at": "2015-05-06T00:11:39Z",
+    "pushed_at": "2015-05-22T07:11:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/agemily",
+    "description": "家庭小助手",
+    "stargazers_count": 78,
+    "forks_count": 16,
+    "language": "Dart",
+    "homepage": null,
+    "created_at": "2026-02-12T13:51:50Z",
+    "pushed_at": "2026-02-12T21:21:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/weather-api",
+    "description": "提供一个从 weather.com.cn 上根据城市接口取天气信息的方法",
+    "stargazers_count": 56,
+    "forks_count": 15,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2012-09-28T10:51:27Z",
+    "pushed_at": "2012-09-30T15:18:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/node-api-docs",
+    "description": "解读 node.js api 文档",
+    "stargazers_count": 52,
+    "forks_count": 19,
+    "language": null,
+    "homepage": "",
+    "created_at": "2012-09-03T13:51:41Z",
+    "pushed_at": "2012-09-06T17:19:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/stacktrace.js",
+    "description": "record js stack trace",
+    "stargazers_count": 52,
+    "forks_count": 6,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2012-12-18T07:27:59Z",
+    "pushed_at": "2012-12-18T07:29:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/imageXSS.js",
+    "description": "防止外部链接通过图片进行 XSS 攻击",
+    "stargazers_count": 47,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2012-12-06T02:59:59Z",
+    "pushed_at": "2012-12-06T04:52:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/performance.js",
+    "description": "calculate performance timing for web page",
+    "stargazers_count": 45,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-01-04T08:06:06Z",
+    "pushed_at": "2013-03-26T00:50:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sofish/proportion.js",
+    "description": "meet the best proportion of the device.",
+    "stargazers_count": 40,
+    "forks_count": 3,
+    "language": "HTML",
+    "homepage": "http://sofish.github.io/proportion.js",
+    "created_at": "2015-04-23T09:21:08Z",
+    "pushed_at": "2015-04-27T17:11:54Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 39,
+  "languages": [
+   [
+    "JavaScript",
+    20
+   ],
+   [
+    "HTML",
+    3
+   ],
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "Swift",
+    2
+   ],
+   [
+    "CSS",
+    1
+   ],
+   [
+    "Dart",
+    1
+   ],
+   [
+    "Go",
+    1
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 8709,
+  "orgs": [],
+  "profile_readme": "正在做：[https://built4.fun/](https://built4.fun/)\n",
+  "readmes": {
+   "sofish/pen": "# Pen Editor\n- **LIVE DEMO:** [http://sofish.github.io/pen](http://sofish.github.io/pen)\n- **Markdown is supported**\n- **Build status:** [](https://travis-ci.org/sofish/pen)\n******************\n******************\n## 0. source code\nYou can clone the source code from github, or using bower.\n```\nbower install pen\n```\n## 1. installation\n#### 1.1 init with id attribute\n```js\nvar editor = new Pen('#editor');\n```\n#### 1.2 init with an element\n```js\nvar editor = new Pen(document.getElementById('editor'));\n```\n#### 1.3 init with options\n```js\nvar options = {\n  editor: document.body, // {DOM Element} [required]\n  class: 'pen', // {String} class of the editor,\n  debug: false, // {Boolean} false by default\n  textarea: '<textarea name=\"content\"></textarea>', // fallback for old browsers\n  list: ['bold', 'italic', 'underline'], // editor menu list\n  linksInNewWindow: true // open hyperlinks in a new windows/tab\n}\nvar editor = new Pen(options);\n```\n## 2. configure\nThe following object sets up the default settings of Pen:\n```js\ndefaults = {\n  class: 'pen',\n  debug: false,\n  textarea: '<textarea name=\"content\"></textarea>',\n  list: [\n    'blockquote', 'h2', 'h3', 'p', 'insertorderedlist', 'insertunorderedlist',\n    'indent', 'outdent', 'bold', 'italic', 'underline', 'createlink'\n  ],\n  stay: true,\n  linksInNewWindow: false\n}\n```\nIf you want to customize the toolbar to fit your own project, you can instanciate `Pen` constructor with an `options` object like [#1.3: init with options](https://github.com/sofish/pen#13-init-with-options):\n#### 2.1 Fallback for old browser\nYou can set `defaults.textarea` to a piece of HTML string, by default, it's `<textarea name=\"content\"></textarea>`。This will be set as `innerHTML` of your `#editor`.\n#### 2.2 Change the editor class\nPen will add `.pen` to your editor by default, if you want to change the class, make sure to replace the class name `pen` to your own in `src/pen.css`.\n#### 2.3 Enable debug mode\nIf `options.debug` is set to `true`, Pen will output logs to the Console of your browser.\n#### 2.4 Customize the toolbar\nYou can set `options.list` to an `Array`, add the following strings to make your own:\n- `blockquote`, `h2`, `h3`, `p`, `pre`:",
+   "sofish/typo.css": "## 中文网页重设与排版：\n目标：一致化浏览器排版效果，构建最适合中文阅读的网页排版。包括桌面和移动平台。\n预览：[typo.css](https://typo.built4.fun)\n### 一、目录结构    \n    .\n    ├── README.md           --- 使用帮助\n    ├── docs/               --- 设计依据与维护文档\n    │   ├── library-evolution-plan.md --- Research、同类库调研与库级升级计划\n    │   └── modern-chinese-typography.md --- 现代中文网页排版依据\n    ├── license.txt         --- 许可证\n    ├── tests/              --- 自动化测试\n    │   └── typography.test.js --- 现代中文排版契约测试\n    ├── typo.css            --- 将应用于你的项目\n    └── typo.html           --- Demo/预览\n### 二、TYPO.CSS 的设计和使用\n## TYPO.CSS 主要包括：\n1、一般 reset.css 所需的内容\n目前的设计是这样的，尽量保持完整的 reset，比如让 ul/ol 无样式并且无多余的 `padding`/`margin`，这是必须的，因为一个网可能需要很多自定义的的内容，在实践中我们并不希望像 ul/ol 有样式，这样我们得用优先级去覆盖，这是非常麻烦的事。所以 typo.css 并不像 normalize.css，后者给每一个元素都预先定义了样式，这样在自定义的时候将是非常痛苦的。要大保持干净的所有元素一致化的 reset 才是最佳实践。\n2、`class=\"typo\"` 阅读内容排版\n在文章/文档阅读的页面，需添加 `.typo` 这个 class，这样 table/ol/ul 等都会有预定的样式，让你的排版像 [https://typo.built4.fun](https://typo.built4.fun) 一样，让用户阅读起来更舒服。\n在父容器在没有添加 `class=\"typo\"` 的时候，可以使用 `class=\"typo-标签\"`（如 `class=\"typo-ul\"`）来实现像 `.typo > ul` 这样结构的样式。\n现代浏览器中，`.typo` 会启用更适合中文阅读的字重、行高、CJK 断行、中文/西文自动间距、标点挤压、原生着重号和更好的换行策略。需要控制正文行长时，可在文章容器上叠加 `.typo-readable`，需要居中时再叠加 `.typo-readable-center`。\nTypo.css 现在把现代中文排版分成默认增强和显式 helper：默认 `.typo` 保持横排正文友好；`.typo-justify` 用于需要两端对齐的长文；`.typo-vertical` 用于直排场景；`.typo-zhuyin` 用于注音 ruby；`lang=\"zh-Hant\"`、`lang=\"zh-TW\"`、`lang=\"zh-HK\"` 或 `lang=\"zh-MO\"` 会启用繁体中文字体回退。\n3、增加类：\n主要是一些需要中文日常排版需要的元素和语文对应样式的增强，目前包括：\n(1) 专名号：使用标签 `<u>` 或者 `.typo-u` <br />\n(2) 着重号：使用 class `.typo-em` <br />\n(3) 清理浮动：与一般 reset.css 保持一致 `.clearfix` <br />\n(4) 强制换行：添加 `.textwrap` 到文本所在的容器，如果是 `table` 测还需要 `.textwrap-table` <br />\n(5) 衬线字体：添加 `.serif` <br />\n(6) 适合中文正文的最大行长：添加 `.typo-readable`，居中时再添加 `.typo-readable-center` <br />\n(7) 中文四大印刷体 helper：`.typo-serif`、`.typo-kai`、`.typo-fangsong` <br />\n(8) 高级中文排版 helper：`.typo-justify`、`.typo-vertical`、`.typo-zhuyin` <br />\n(9) 创建 border-box：在 html 中添加 `.borderbox` [#why](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)\n更多现代中文网页排版依据见 [`docs/modern-chinese-typography.md`](docs/modern-chinese-typography.md)，维护计划见 [`docs/library-evolution-plan.md`](docs/library-evolution-plan.md)。\n### 三、测试\n运行 `npm test` 可检查现代中文排版规则、文档链接和 Demo ",
+   "sofish/wechat.js": "# 重要提示：\n目前，新版的微信 js 出来了，你可能暂时不需要这个版本了。详情见：[微信 JSSDK 说明](http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html#.E5.9B.BE.E5.83.8F.E6.8E.A5.E5.8F.A3)。这个版本非常强大，可以传图图片、语音，同时也有更高的要求，需要签名。\n----------\n# wechat.js\n微信打开 DEMO 地址：[http://sofish.github.io/wechat.js](http://sofish.github.io/wechat.js/)，或者扫一扫下面的二维码进行分享：\n### 安装\n使用 bower 管理 `wechat.js` 的依赖：\n```bash\n$ bower install wechat.js --save\n```\n更新 `wechat.js` 依赖版本：\n```bash\n$ bower update\n```\n> 下面是 API 详解，使用可参考上面 DEMO 的源代码。微信的 API 是有点恶心的，也不断在变，如果发现问题请给提 issue 或者 pull-request 吧。\n### 1、使用指南\n**一、唯一接口：`wechat`，有「分享」+ 「操作」两种类型**\n```js\n// 分享\nwechat('friend', data, callback);           // 朋友\nwechat('timeline', data, callback);         // 朋友圈\nwechat('weibo', data, callback);            // 微博\nwechat('email', data, callback);            // 邮件分享\n// 操作\nwechat('hideToolbar', callback);            // 隐藏底部菜单\nwechat('hideOptionMenu', callback);         // 隐藏右上角分享按钮\nwechat('showOptionMenu', callback);         // 显示右上角分享按钮\nwechat('closeWebView');                     // 关闭webview\nwechat('scanQRCode');                       // 跳转到扫描二维码页面\nwechat('imagePreview', imgData, callback);  // 图片预览/查看大图\n// imgData = {\n//   current: 'picture1.jpg',               // 要预览的当前张url\n//   urls: ['picture1.jpg', 'picture2.jpg'] // 所有图片的url列表\n// }\nwechat('network', callback);                // 查看用户当前网络\n// 1. wifi\n// 2. edge 非 wifi,包含 3G/2G\n// 3. fail 网络断开连接\n// 4. wwan 2g/3g\n```\n**二、`data` 「属性」支持函数**\n因为有些数据是需要拼接，或者在点击分享按钮的时候可能才存在的，但是又不想写很麻烦时机判断，这里 `data` 中支持传入函数，比如：\n```js\n// 一般的数据\nvar data = {\n  'app': 'APP ID',    // 选填，默认为空\n  'img': '图片 URL',   // 选填，默认为空或者当前页面第一张图片\n  'link': '链接',\n  'desc': '描述',\n  'title': '标题'\n};\n// 假设我们在一个单页应用，title 可能是 js 在数据载入后才有的，那么可以这样来：\nvar getTitle = function() {\n  return document.title;\n};\n// 这个数据 ，最终 wechat.js 会自动转换\nvar data = {\n  // 这里需要特别说明的是，建议不要用新浪微博的图片地址，要么你试试，哈哈\n  'img': '图片 URL',\n  'link': '链接',\n  'desc': '描述',\n  'title': getTitle()\n};\n// 发送邮件\nvar data = {\n    title: \"邮件标题\",\n    content: \"邮件内容\"\n};\n```\n**三、回调**\n```js\nvar callback = function() {\n  // 返回的数据并不统一，接口已经尽量统一，我觉得微信公司现在缺 js 程序员\n  // 也有一些是很恶心的\n  console && console.log(argument);\n};\nwechat('timeline', data, callback);\n```\n### 2、授权\n[MIT License](license.txt",
+   "sofish/express-guide": "> 在页面上阅读：[http://sofish.github.com/express-guide/](http://sofish.github.com/express-guide/)\n# Express 指南\n这是对 [express.js guide](http://expressjs.com/guide.html) 的一个翻译。翻译人：[Sofish Lin](http://sofish.de)（[twitter](http://twitter.com/sofish)）。\n翻译此文档的目的是学习 Express，因为翻译意味着一种责任，因此边看 Express 源代码边翻。在容易混淆的地方都加上了译注。给自己做一个记录保存下来，也给有需要的人一份参考。当然，由于个人水平的原因，并不能最恰当地传达作者的幽默，也少不了错误，还请各位有看到的同学多多指正。\n如有任何问题，请直接给我提 issue、pull request 或者在 twitter at-at 我。\n----------------------------------------------------------\n### 安装\n```bash\n$ npm install express\n```\n或者在任何地方使用可执行的 `express(1)` 安装： \n```bash\n\\# 译注：强烈建议这种方式\n$ npm install -g express\n```\n## 快速上手\n最快上手 express 的方法是利用可执行的 `express(1)` 来生成一个应用，如下所示：\n创建一个 app：\n```bash\n$ npm install -g express\n$ express /tmp/foo && cd /tmp/foo\n```\n安装依赖包：\n```bash\n$ npm install -d\n```\n启动服务器:\n```bash\n$ node app.js\n```\n### 创建一个服务器\n要创建一个 `express.HTTPServer` 实例，只需调用 `createServer()` 方法。 通用这个应用实例，我们可以定义基于 HTTP 动作（HTTP Verbs）的路由，以 `app.get()` 为例：\n```js\nvar app = require('express').createServer();\napp.get('/', function(req, res){\n  res.send('hello world');\n});\napp.listen(3000);\n```\n### 创建一个 HTTPS 服务器\n如上述初始化一个 `express.HTTPSServer` 实例。然后我们给它传一个配置对象，接受 `key`、`cert` 和其他在 [https 文档](http://nodejs.org/docs/v0.3.7/api/https.html#https.createServer) 所提到的（属性/方法）。\n```js\n var app = require('express').createServer({ key: ... });\n```\n### 配置\nExpress 支持任意环境，如产品阶段（production）和开发阶段（development）。开发者可以使用 `configure()` 方法来设置当前所需环境。如果 `configure()` 的调用不包含任何环境名，它将运行于所有环境中所指定的回调。\n<mark>译注：</mark> 像 _production_ / _development_ / _stage_ 这些别名都是可以自已取的，如 [application.js](https://github.com/visionmedia/express/blob/master/lib/application.js) 中的 `app.configure` 所示。实际用法看下面例子。\n下面这个例子仅在开发阶段 `dumpExceptions` (抛错)，并返回堆栈异常。不过在两个环境中我们都使用 `methodOverride ` 和 `bodyParser`。注意一下 `app.router` 的使用，它可以（可选）用来加载（mount）程序的路由，另外首次调用 `app.get()`、`app.post()` 等也将会加载路由。\n```js\napp.configure(function(){\n\tapp.use(express.methodOverride());\n\tapp.use(express.bodyParser());\n\tapp.use(app.router);\n});\napp.configure('development', function(){\n\tapp.use(express.static(__dirname + '/public'));\n\tapp.use(express.errorHandler({ dumpExceptions: true, showStack: true }));\n});\napp.configure('production', function(){\n  var oneYear ="
+  }
+ },
+ "apps": [
+  {
+   "name": "Jinshu Reader",
+   "artist": "建锋 林",
+   "genre": "Education",
+   "price": "Free",
+   "released": "2026-03-16",
+   "updated": "2026-10-17",
+   "version": "3.16.10",
+   "rating": 4.36,
+   "ratings": 11,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/jinshu-reader/id6759705710",
+   "desc": "Jinshu is a level-aware EPUB reader designed for English language learners. Import any English book, see whether it is Comfort, Good Challenge, or Hard for your current level, then read with automatic vocabulary annotations — translations appear right where you need them, filtered to your proficiency level.\n\nSmart Vocabulary Annotations\nWords are automatically annotated with translations in Chinese, Korean, or Japanese. Choose your display style: ruby text above words, inline parentheses, or tap-to-reveal. Set your CEFR level (A1–C2), preview repeated above-level words before reading, and only see vocabulary appropriate for your stage.\n\nTap to Pronounce & Listen\nTap any annotated word to hear it spoken aloud and see a small IPA tip; open the full detail only when you want translation, replay, and vocabulary actions. Or let the app read entire chapters aloud with sentence highlighting, ad",
+   "country": "us"
+  },
+  {
+   "name": "小小作家",
+   "artist": "建锋 林",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2026-04-17",
+   "updated": "2026-09-08",
+   "version": "1.3.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/%E5%B0%8F%E5%B0%8F%E4%BD%9C%E5%AE%B6/id6761878294",
+   "desc": "小小作家是一款专为小学 1-6 年级学生设计的中文日记 App。孩子对着手机讲今天发生了什么，App 帮你改写成一篇符合年级的好日记；抄到本子上，拍张照，还能得到 AI 老师的点评。把写作文变成每天睡前 10 分钟的愉快对话。\n\n开口就能写日记\n- 按住麦克风按钮，像给家人讲故事那样自然\n- 一次可以录多条，想起什么就再说一段\n- 实时转写，每条都能单独回放、修改、删除\n- 遇到卡壳，App 会用年级合适的小问题引导她往下讲\n\nAI 改写，保留孩子的声音\n- 根据年级匹配语感和句式难度（一年级短句、六年级长句）\n- 保留孩子自己说的关键细节，不是把原话抹平成模板\n- 每一处帮她补上的话都标出来，讲明白为什么这样写\n- 可选的写作风格：鲁迅、冰心、任溶溶、曹文轩等多位名家（仅风格参考，不包含原作品内容）\n- 自动避免常识错误，归属关系不会被写反\n\n方格纸抄写\n- 原生方格纸视图，一格一字，像语文课本的习字册\n- 楷体中文字体，笔画结构更接近小学课堂习字范本\n- 加粗标出 AI 改写时补充的词句，让孩子知道哪些是自己说的\n- 屏幕直接看着抄，或者打印出来慢慢练都合适\n\n拍照就有老师点评\n- 抄完后拍一张本子的照片，App 读出手写的字\n- 拍照前先自查漏字、纸张位置和光线，减少拍错页、拍模糊\n- 自动识别三种情况，给出不同类型的点评：\n  照抄：逐字对照，指出错字、漏字、笔画不规范\n  同主题原创：用自己的话重讲，点评孩子文字里的亮点\n  拍错了页：温柔提示重拍，不扣分\n- 原创也能得高分，用自己的话写同一件事是被鼓励的\n- 对比区一屏切换，不挤一团\n- 每次给一条可以明天试试的写作小挑战\n\n家长区，完全掌控\n- 进入需要答一道两位数加法题，孩子无法绕开\n- 可以切换年级、录音保留时长（默认生成后立刻删，可选 7 / 30 / 永久）\n- 一键云端关闭模式，全部 AI 任务走设备端，不联网\n- 查看所有历史日记、回看孩子每一天的成长\n- 本周进步卡：本周写了几篇、拍照几次、哪里被升级、下次练什么一眼看懂\n- 写作魔法墙：10 种核心写作技法的累计追踪\n- 教学法说明：每一步",
+   "country": "us"
+  },
+  {
+   "name": "小书童 - 读书笔记与阅读记忆",
+   "artist": "建锋 林",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2026-10-20",
+   "updated": "2026-10-20",
+   "version": "1.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/%E5%B0%8F%E4%B9%A6%E7%AB%A5-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E4%B8%8E%E9%98%85%E8%AF%BB%E8%AE%B0%E5%BF%86/id6770038891",
+   "desc": "读过的书，让生活开始不同。\n\n你在微信读书划过的线、Kindle 留下的摘录、纸书上记下的想法，都是你认真读过的痕迹。小书童把它们汇在一起，让你需要时找得到，遇到生活里的问题时，有自己的阅读可以回头参考。\n\n积累的笔记，连起来竟如此有力。\n\n把阅读笔记，放在同一处\n一本书在微信读书，一本书在 Kindle，还有几页记在纸上。现在，书里的摘录和你自己的想法，可以按书整理在一起。\n• 微信读书：从「设置 → 微信读书 Skill」复制自己的密钥，回来粘贴，取回划线与想法。首次书多时需要等一会儿，中断后可接着取，之后自动检查新划线。\n• Kindle：导入 My Clippings.txt，在本机整理，不需要 Amazon 账户。\n• 纸书：拍一页、框几行，在设备上识字，校对后保存；扫描原图不上传。\n• 自己的笔记：直接写下句子、出处与想法，让自己的声音和原文放在一起。\n\n想用的时候，找得到\n记得一个词、一位作者，或一段自己写过的想法，就从同一个搜索入口找。笔记正文、个人想法、书名、作者和与书童的对话都能查找；点开结果，继续读原文和当时的记录。不同来源的笔记放在一起，不必先想它藏在哪个 App 里。\n\n让读过的书，参与眼前的思考（会员）\n遇到一个选择、想理清一个念头时，可以直接问书童：\n「关于独处，我以前记下过哪些想法？」\n「这些不同书里的句子，有什么联系？」\n「结合这几条笔记，帮我换个角度想想眼前的问题。」\n\n书童在你同意后，结合相关笔记、书单与已确认的阅读记忆回答，尝试把不同书里的线索连起来。回答中的笔记引用可以点开，回到原文与自己的想法，再继续判断、追问。也可以主动选择书页图片来问，图片需另行同意。AI 可能出错，请以原文和自己的判断为准。\n\n有些启发，从重读开始\n「今日相逢」每天从自己的笔记里带回几句，让过去打动你的话，和今天的处境再碰一次面。想读一点新的理解，可以手动生成一支「书童洞见」（会员）；也可自行选择自动生成周期与月预算。旧笔记还可以设为提醒，或从主屏小组件进入；组件默认隐藏私人文字。\n\n把思考带在身边\n• 听读（会员）：把书摘、想法与书童解读生成朗读，走路",
+   "country": "us"
+  }
+ ]
+}

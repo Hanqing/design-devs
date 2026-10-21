@@ -1,0 +1,396 @@
+{
+ "handle": "raunofreiberg",
+ "sites": [
+  {
+   "url": "https://rauno.me",
+   "ok": true,
+   "title": "Rauno Freiberg",
+   "description": "",
+   "stack": [
+    "Next.js"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Rauno Freiberg is an Estonian interaction designer working with Vercel and Devouring Details \nDevouring Details \nDD \nCraft \nCraft \nHistory of Software Design \nProjects \nProjects \nField Notes \n Twitter 2023 2022 GitHub \nEmail \nCopied \nMake it fast. \nMake it beautiful. \nMake it consistent. \nMake it carefully. \nMake it timeless. \nMake it soulful. \nMake it.",
+   "github_links": [
+    "raunofreiberg"
+   ],
+   "subpages": {
+    "https://rauno.me/projects": "[History of Software Design 2026](https://historyofsoftware.org/)[Devouring Details 2025](https://devouringdetails.com/)[Web Interface Guidelines 2023](https://interfaces.rauno.me/)[Vesper 2023](https://github.com/raunofreiberg/vesper)[(Basic) Bookmarks 2023](https://bmrks.com/)[⌘K 2022](https://cmdk.paco.me/)[uiwtf 2021](https://uiw.tf/)[Flow 2021](https://flow.rest/)[UI Playbook 2020](https://uiplaybook.dev/)\n[](https://rauno.me/)[](https://rauno.me/craft)[](https://rauno.me/projects)",
+    "https://rauno.me/notes": "Rauno’s Field Notes\n[](https://rauno.me/notes/1)[](https://rauno.me/notes/2)[](https://rauno.me/notes/3)[](https://rauno.me/notes/4)[](https://rauno.me/notes/5)"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://www.devouringdetails.com",
+   "ok": true,
+   "title": "Devouring Details",
+   "description": "An interactive reference manual for interaction-curious designers.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Have you ever noticed that some animation sequences can be improved with just a touch of delay? Or that some interactions just feel better without any motion at all? \nDevouring Details is an interactive reference manual for interaction-curious designers, containing 23 chapters with 23 downloadable React components. \nAll footage is recorded of React components \n Platform \nBefore working on this I thought to myself: “how have I learned myself?” \nBy trying to build an idea and realising it sucks in practice. With enough iterations and sometimes by accident I’ll get to a place where it feels really good and I'll suddenly be able to reason why it sucked. \nDevouring Details is your shortcut to those learning moments. \nThis is not a course in the sense that it is not linearly progressive. You won’t solve code challenges, answer quizzes, or follow step-by-step tutorials. Instead, you’ll interact with prototypes on a custom platform and be exposed to details that I pay attention to. \nTwo column layouts offer better navigation through long-form content \nEach chapter is digestible with bite-sized efforts through a scrollable experience that doesn't ask for too much at once. \nI myself use this as a reference manual that I periodically revisit while designing. I would often return to copy some code or to reinforce my understanding of a concept. \n DD is used by designers on world-class teams \n ⁠ Better than a course, it's a reference manual to making great work full of tactical secrets I haven't seen anywhere else. Andy Allen Making @NotBoring Software ⁠ Notification came in. I didn’t hesitate. You shouldn’t either. Retro Head of Design @Neutron ⁠ Rauno is undoubtedly one of the best in the world at what he does. Strongly recommend his course. Benji Taylor Head of Design @X ⁠ This lowkey changed how I think about building software. ⁠ I need to frame this at the office, wonderful work. Jose Rago Co-Founder @basementstudio ⁠ I started reading the intro and found myself opening the inspector like crazy. ⁠ If even 1/10 of this craft rubs off on work I do, it's worth it. ⁠ One of my favorite digital purchases in recent history. ⁠ Probably the most gorgeous & inspiring thing online in a long time. Birk Jernström CEO @Polar ⁠ I've learned a lot from Rauno over the years, now you can too. Lochie Axon Principal Design Engineer @Aave ⁠ It's kind of like reading a beautifully designed interactive Medium article. Juan Enclada Principal Product Designer ⁠ It's not often the best-of-the-best bring you along and show you how it's done. Brotzky Founder @Fey ⁠ The bar he sets is ridiculous. Every company I know wants to work with him. Tereza Machackova Talent Advisor @Lovable \n Read testimonials \n Hello \nMy name is Rauno. I work as a Staff Design Engineer at Vercel on our platform, design system, marketing pages, and Next.js Dev Tools. Previously, I was at The Browser Company designing and building the Arc browser. \nI have written acclaimed design essays like Invisible Details of Interaction Design and shipped open source software like cmdk that is downloaded millions of times per week to power command menu interfaces for the most modern productivity apps on the web. \nSelection of work from my portfolio \n Structure \nDevouring Details is split into 3 units— Principles , Prototypes , and Resources . \n Principles explores a design concept in depth with different examples from custom interfaces and production apps. \nInferring intent \nInteraction metaphors \nErgonomic interactions \nSimulating physics \nMotion choreography \nResponsive interfaces \nContained gestures \nDrawing inspiration \nInferring intent \nInteraction metaphors \nErgonomic interactions \nSimulating physics \nMotion choreography \nResponsive interfaces \nContained gestures \nDrawing inspiration \n Prototypes are deep dives into a single component with references to Principles and Resources . Everything you see here includes downloadable source code. \nLine Minimap \nScroll Strip \nRadial Timeline \nMorph Surface \nLine Graph \nNext.js Dev Tools FREE \nLogos Carousel \nMotion React \nBlur Reveal \nTime Machine \nLine Minimap \nScroll Strip \nRadial Timeline \nMorph Surface \nLine Graph \nNext.js Dev Tools FREE \nLogos Carousel \nMotion React \nBlur Reveal \nTime Machine \n Resources contains useful code snippets, insights into my design process, private bookmarks, a downloadable component library, and more. \nBehind scenes FREE \nCode snippets \nDesign workflow \nComponent library \nPublic bookmarks \nFrequent questions \nDesi",
+   "github_links": [
+    "pacocoursey"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://historyofsoftware.org",
+   "ok": true,
+   "title": "History of Software Design",
+   "description": "",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "History of Software Design celebrates the designs and designers that shaped the most powerful medium humanity has ever built. \nHow did we get here? No one really knows. Even those of us working in software know very little about it. There are few books, documentaries, or interactive exhibitions. Seminal works are lost to time every year, and with them, the stories of how things came to be. \nWhat is this? An upcoming interactive exhibit that highlights a few design moments that had an outsized impact on the world of software—from Xerox Alto Smalltalk-76 to Slide to Unlock and so much more. \nRestoration \nSoftware history is vast. We could work on this for years. Our current strategy is to \"restore\" some interfaces and interactions. To reduce scope, we will be opinionated and select things we’re excited to build and talk about. Diversity of moments is also important to us. \nPower button \ncingular \n 9:41 Tuesday, January 9 \nslide to unlock \n Text \n Calendar \n Photos \n Camera \n Calculator \n Stocks \n Maps \n Weather \n Notes \n Clock \n Settings \n Phone \n Mail \n Web \n iPod \nFig 1. Slide to Unlock, Freddy Anzures, 2007 \nSparse reference visuals make the restoration process an unique challenge. One must reverse engineer the detail, motion, and behavior from low quality assets. It's a lot of tracing and eyeballing to get the feel of everything dialed in. \ncingular \n 9:41 Tuesday, January 9 \nslide to unlock \n Text \n Calendar \n Photos \n Camera \n Calculator \n Stocks \n Maps \n Weather \n Notes \n Clock \n Settings \n Phone \n Mail \n Web \n iPod \nFig 2. Deconstructed artifact of the first iPhone \nComing soon. You know what to do. \n I care about this",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "raunofreiberg",
+  "user": {
+   "name": "rauno",
+   "company": null,
+   "blog": "rauno.me",
+   "location": null,
+   "bio": null,
+   "public_repos": 85,
+   "followers": 5282,
+   "created_at": "2016-11-22T17:03:44Z",
+   "twitter_username": "raunofreiberg",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "raunofreiberg/interfaces",
+    "description": "A non-exhaustive list of details that make a good web interface.",
+    "stargazers_count": 1950,
+    "forks_count": 64,
+    "language": "JavaScript",
+    "homepage": "https://interfaces.rauno.me",
+    "created_at": "2023-05-24T04:10:36Z",
+    "pushed_at": "2023-09-07T17:56:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/inspx",
+    "description": "Pixel perfect layout inspection.",
+    "stargazers_count": 1479,
+    "forks_count": 31,
+    "language": "TypeScript",
+    "homepage": "https://inspx.rauno.xyz",
+    "created_at": "2021-04-23T14:11:28Z",
+    "pushed_at": "2023-02-01T15:26:58Z",
+    "topics": [
+     "component",
+     "dx",
+     "element",
+     "inspect",
+     "layout",
+     "react"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/ui-playbook",
+    "description": "The documented collection of UI components 🤓",
+    "stargazers_count": 1433,
+    "forks_count": 86,
+    "language": "TypeScript",
+    "homepage": "https://uiplaybook.dev",
+    "created_at": "2020-07-08T15:17:45Z",
+    "pushed_at": "2023-01-06T10:57:45Z",
+    "topics": [
+     "components",
+     "documentation",
+     "playbook",
+     "ui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/vesper",
+    "description": "Peppermint and orange flavored dark theme for VSCode.",
+    "stargazers_count": 788,
+    "forks_count": 39,
+    "language": null,
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper",
+    "created_at": "2023-02-15T15:26:19Z",
+    "pushed_at": "2026-03-16T18:40:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/axe-mode",
+    "description": "Accessibility testing visualized",
+    "stargazers_count": 199,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2020-04-28T19:04:40Z",
+    "pushed_at": "2023-01-07T17:37:32Z",
+    "topics": [
+     "a11y",
+     "accessibility",
+     "axe",
+     "testing"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/raunofreiberg.github.io",
+    "description": "Personal portfolio site. WIP.",
+    "stargazers_count": 29,
+    "forks_count": 9,
+    "language": "HTML",
+    "homepage": "https://raunofreiberg.com",
+    "created_at": "2017-05-12T11:54:56Z",
+    "pushed_at": "2023-09-26T20:11:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/programming-resources",
+    "description": "A large variety of programming topics covered by articles, documentation and tutorials",
+    "stargazers_count": 21,
+    "forks_count": 3,
+    "language": null,
+    "homepage": "",
+    "created_at": "2017-09-10T09:15:45Z",
+    "pushed_at": "2018-02-23T13:26:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/macos-dev",
+    "description": "MacOS dev setup",
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2018-03-06T11:16:49Z",
+    "pushed_at": "2018-03-06T11:17:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/alex-portfolio",
+    "description": "Portfolio website for Alex.",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "CSS",
+    "homepage": "http://raunofreiberg.com/alex-portfolio/",
+    "created_at": "2017-03-18T13:10:18Z",
+    "pushed_at": "2017-05-16T18:59:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/blackford",
+    "description": "Dockerized Node.js & PostgreSQL SPA with a React & Redux client",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-10-12T15:22:45Z",
+    "pushed_at": "2018-03-29T16:03:51Z",
+    "topics": [
+     "css-modules",
+     "docker",
+     "express",
+     "javascript",
+     "jsx",
+     "knex",
+     "nginx",
+     "nodejs",
+     "passportjs",
+     "postgresql",
+     "react",
+     "redux",
+     "scss",
+     "webpack"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/modulz-website",
+    "description": "Modulz's marketing site, blog and learning platform.",
+    "stargazers_count": 2,
+    "forks_count": 9,
+    "language": null,
+    "homepage": "https://modulz-website.now.sh",
+    "created_at": "2020-05-19T15:00:12Z",
+    "pushed_at": "2020-06-10T08:12:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/raunofreiberg",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2020-07-08T08:46:22Z",
+    "pushed_at": "2021-04-28T08:19:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/async-react-demo",
+    "description": "Unofficial source code of the React Async rendering demo",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "https://build-tfzbskezhj.now.sh/",
+    "created_at": "2018-06-20T15:28:48Z",
+    "pushed_at": "2023-01-04T06:10:32Z",
+    "topics": [
+     "async",
+     "react",
+     "suspense"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/bloomfield",
+    "description": "Dockerized React & Redux SPA chatroom with Google Firebase API",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-09-22T22:12:35Z",
+    "pushed_at": "2018-02-15T18:32:13Z",
+    "topics": [
+     "docker",
+     "firebase",
+     "react",
+     "redux"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/css-grid-workshop",
+    "description": "CSS grid workshop presentation with Spectacle.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "https://raunofreiberg.com/css-grid-workshop/",
+    "created_at": "2017-12-06T12:43:12Z",
+    "pushed_at": "2018-01-08T02:04:16Z",
+    "topics": [
+     "css",
+     "grid",
+     "spectacle"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/nextjs1232",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "nextjs23-git-master-rauno.vercel.app",
+    "created_at": "2021-03-17T12:51:51Z",
+    "pushed_at": "2021-03-17T12:51:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/react-view-nextjs",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "CSS",
+    "homepage": "wat-rauno.vercel.app",
+    "created_at": "2021-02-26T22:14:28Z",
+    "pushed_at": "2021-02-27T00:34:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "raunofreiberg/custom-state-management-implementations",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-04-19T14:00:43Z",
+    "pushed_at": "2018-04-19T14:01:12Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 31,
+  "languages": [
+   [
+    "JavaScript",
+    15
+   ],
+   [
+    "CSS",
+    5
+   ],
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "Elm",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "raunofreiberg/vesper",
+    "stargazerCount": 788,
+    "description": "Peppermint and orange flavored dark theme for VSCode.",
+    "primaryLanguage": null,
+    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper"
+   }
+  ],
+  "contrib_last_year": 989,
+  "orgs": [
+   "vercel",
+   "devouringdetails"
+  ],
+  "profile_readme": "\n",
+  "readmes": {
+   "raunofreiberg/vesper": "\n# Vesper\nPeppermint and orange flavored dark theme for VSCode.\n<a href=\"https://marketplace.visualstudio.com/items?itemName=raunofreiberg.vesper\"><strong>Install →</strong></a>\n> Disclaimer: This was hacked together following a tutorial. I have zero experience building themes. Made for personal usage. Not thoroughly tested at all, might have broken edge cases.\n",
+   "raunofreiberg/interfaces": "# Web Interface Guidelines\nThis document outlines a non-exhaustive list of details that make a good (web) interface. It is a living document, periodically updated based on learnings. Some of these may be subjective, but most apply to all websites.\nThe [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.1/) spec is deliberately not duplicated in this document. However, some accessibility guidelines may be pointed out. Contributions are welcome. Edit [this file](https://github.com/raunofreiberg/interfaces/blob/main/README.md) and submit a pull request.\n## Interactivity\n- Clicking the input label should focus the input field\n- Inputs should be wrapped with a `<form>` to submit by pressing Enter\n- Inputs should have an appropriate `type` like `password`, `email`, etc\n- Inputs should disable `spellcheck` and `autocomplete` attributes most of the time\n- Inputs should leverage HTML form validation by using the `required` attribute when appropriate\n- Input prefix and suffix decorations, such as icons, should be absolutely positioned on top of the text input with padding, not next to it, and trigger focus on the input\n- Toggles should immediately take effect, not require confirmation\n- Buttons should be disabled after submission to avoid duplicate network requests\n- Interactive elements should disable `user-select` for inner content\n- Decorative elements (glows, gradients) should disable `pointer-events` to not hijack events\n- Interactive elements in a vertical or horizontal list should have no dead areas between each element, instead, increase their `padding`\n## Typography\n- Fonts should have `-webkit-font-smoothing: antialiased` applied for better legibility\n- Fonts should have `text-rendering: optimizeLegibility` applied for better legibility\n- Fonts should be subset based on the content, alphabet or relevant language(s)\n- Font weight should not change on hover or selected state to prevent layout shift\n- Font weights below 400 should not be used\n- Medium sized headings generally look best with a font weight between 500-600\n- Adjust values fluidly by using CSS [`clamp()`](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp), e.g. `clamp(48px, 5vw, 72px)` for the `font-size`",
+   "raunofreiberg/inspx": "\n## inspx\nPixel perfect layout inspection.\n> Built for React as a proof of concept.\n## Setup\nInstall the package:\n```sh\nnpm install inspx --save-dev\n```\nWrap the root of your application or arbitrary component trees:\n```tsx\nimport Inspect from 'inspx';\n<Inspect>\n  <App />\n</Inspect>\n```\n## Usage\nInspect elements by hovering an element and holding <kbd>Option (⌥)</kbd> simultaneously.\nBy default, any element with padding, margin, or width and height is inspectable.\nYou can disable certain properties:\n```tsx\n<Inspect \n  margin \n  size={false} \n  padding={false}\n>\n  <App />\n</Inspect>\n```\n## Configuration\nBy default, the component will only be enabled in the development environment.\nYou can configure this behavior with the `disabled` prop:\n```tsx\n<Inspect\n  disabled={\n    process.env.NODE_ENV === 'staging' || \n    process.env.NODE_ENV === 'production'\n  }\n>\n  <App />\n</Inspect>\n```\nOptionally, you can leverage code splitting by wrapping the exported component and using your own instead.\n> The library is lightweight enough for this to likely be a premature and insignificant optimization.\n```tsx\nimport * as React from 'react';\nimport { InspectProps } from 'inspx';\nconst Inspect = React.lazy(() => import('inspx'));\nexport default function Loader(props: InspectProps) {\n  if (process.env.NODE_ENV === 'production') {\n    return props.children;\n  }\n  return (\n    <React.Suspense fallback={null}>\n      <Inspect disabled={false} {...props} />\n    </React.Suspense>\n  );\n}\n```\n",
+   "raunofreiberg/ui-playbook": "<div align=\"center\">\n## UI Playbook\n> WIP\nUI Playbook is an effort to document common UI components, their functionality, best practices, accessibility requirements, and examples.\n</div>\n## Motivation 🤔\nWhile kick-starting my first design system, most of the time I would reference other design systems for inspiration and direction, only to find varying implementations of a single user interface pattern. There was no centralized specification as to how a certain component should be implemented or behave, which would have made my life a lot easier by being aware of various pitfalls and intricacies.\nUI Playbook is an attempt to document common UI components based on learnings regarding the aforementioned things. This may or may not prove itself to be helpful to others, and I might be missing certain aspects — so I invite you to improve this and hopefully the next person tasked with building a component library will find this _somewhat_ useful! ✌️\n## Plays 📖\n- [Tooltip](https://uiplaybook.dev/play/tooltip)\n- [Button](https://uiplaybook.dev/play/button)\n- [Select](https://uiplaybook.dev/play/select)\n- [Notification](https://uiplaybook.dev/play/notification)\n- [TextField](https://uiplaybook.dev/play/textfield)\n- [Avatar](https://uiplaybook.dev/play/avatar)\n- [Checkbox](https://uiplaybook.dev/play/checkbox)\n- [Motion](https://uiplaybook.dev/play/motion)\n- [Popover](https://uiplaybook.dev/play/popover)\n## Contributing \nWish to submit a new component for UI Playbook? Read our [contributing guide](./CONTRIBUTING.md) for some ideas on how to do so.\n## Support\nI work on this project in my spare time, so if you'd like to show support, you can do so by [buying me a coffee 🖤 !](https://www.buymeacoffee.com/rauno)\n"
+  }
+ },
+ "apps": []
+}

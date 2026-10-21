@@ -2,150 +2,195 @@
  "name": "Frank",
  "role": "技术文青 · 前腾讯 / 微软工程师",
  "title": "Frank：用<em>工程师的方法</em>写人生随笔",
- "dek": "从模型剪枝、NCNN 内存实测、ML 系统设计，到深圳山海徒步、蒂尔的《从 0 到 1》、亚里士多德的说服术。Frank 的博客是一个工程师把「输出检验输入」用在生活每个角落的样本。",
- "card": "前腾讯 / 微软工程师，博客横跨 ML 系统、海外产品开发、商业与旅行。",
+ "dek": "从模型剪枝、NCNN 内存实测、ML 系统设计，到深圳山海徒步、蒂尔的《从 0 到 1》、亚里士多德的说服术，再到英伟达的泡沫周期。Frank 的博客是一个工程师把「用输出检验输入」用在生活每个角落的样本。",
+ "card": "前腾讯 / 微软工程师。博客横跨深度学习工程、海外产品、商业分析与山海徒步，每篇都能当手册用。",
  "location": "深圳（据博客内容推测）",
- "tags": [
-  "机器学习系统",
-  "写作",
-  "海外产品",
-  "方法论"
- ],
+ "updated": "2026-10-21",
+ "tags": ["写作", "机器学习系统", "海外产品", "方法论", "Astro"],
  "links": [
-  {
-   "label": "博客 frankk.site",
-   "url": "http://frankk.site"
-  }
+  {"label": "frankk.site", "url": "https://frankk.site"},
+  {"label": "RSS", "url": "https://frankk.site/rss.xml"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一位前腾讯、微软的工程师，自称「技术文青」，博客从 2017 年写到 2026 年，用工程化的结构写技术、商业和生活。",
-  "<strong>写什么：</strong>早期是深度学习推理、模型剪枝与性能分析；中期是深圳及周边的山海徒步；近两年是海外产品技术栈、苹果端侧 AI 架构、商业与方法论。",
-  "<strong>为什么值得关注：</strong>TA 的文章极其结构化：每篇都能给出清单、模板或对照表，是「把思考做成产品」的写法。"
+  "<strong>一句话：</strong>一位前腾讯、微软工程师，用写技术文档的方式写一切：先给结论，再给框架，最后给可以照着用的模板。",
+  "<strong>代表文章：</strong>《海外产品开发经验分享》《我的 Claude Code 实践》《如何迭代与进步》《说服的艺术与十个场景》《AI 技术革命中的英伟达》，以及 2020–2021 年的一组深度学习工程笔记。",
+  "<strong>看点：</strong>首页每篇文章都配一段很长的摘要，读完摘要基本就拿到了全文结论；网站还提供英文版入口。",
+  "<strong>座右铭：</strong>博客首页引用尼采：「每一个不曾起舞的日子，都是对生命的辜负。」"
  ],
- "lead": "Frank 的博客首页挂着尼采的一句话：「每一个不曾起舞的日子，都是对生命的辜负。」下面是按年份排列的文章：从 2017 年到 2026 年，一共只有十几篇，但几乎每一篇都是可以收藏的长文。",
+ "lead": "Frank 在 X 上的自我介绍只有八个字：「技术文青，前腾讯/微软」。博客里看不到简历，却能从文章拼出一条清楚的轨迹：先是端侧推理和模型压缩，然后是深圳周边的山和海，再然后是做自己的海外产品，以及越来越多关于商业、历史和人的思考。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "工程师、写作者；X 简介写「前腾讯 / 微软」"],
+     ["所在地", "从徒步与周末游记推测常居深圳"],
+     ["技术方向", "早期：深度学习训练与端侧推理（剪枝、蒸馏、NCNN）；近年：LLM 推理、海外产品全栈、Go 并发"],
+     ["代表文章", "海外产品开发经验分享、我的 Claude Code 实践、如何迭代与进步、说服的艺术与十个场景、AI 技术革命中的英伟达"],
+     ["网站技术", "Astro 4 + Cloudflare；中英双语；RSS 订阅"],
+     ["写作节奏", "2020 年底至 2021 年中密集写技术；2022–2023 写徒步游记；2025 年底起每月数篇长文"],
+     ["X", "约 4,500 关注者，2022 年注册"]
+    ]},
+    {"h3": "TA 到底在写什么？"},
+    {"p": "把 Frank 的文章按时间排开，能看到三段清晰的兴趣：<strong>2020–2021 年是「炼丹工程」</strong>，从紧凑网络结构、调参、类别不平衡、数据增强、知识蒸馏一路写到剪枝、Profiling 和 ML 系统设计；<strong>2022–2023 年是「深圳山海」</strong>，武功山、大鹏半岛、香港郊野径、双月湾；<strong>2024 年之后是「产品与世界」</strong>，从 startup 福利、jenni.ai 的冷启动、UTM 归因，写到 Surge AI、科技共和国、美国制裁、英伟达的泡沫周期。"},
+    {"p": "这三段看起来毫不相干，方法却一模一样：<strong>先把问题拆成结构，再给每一块配上具体的例子和可以套用的模板。</strong>"},
+    {"note": "Frank 没有公开 GitHub 或产品主页，本页依据 frankk.site 的文章与 RSS、X 个人资料整理，资料截至 2026 年 10 月。所在地为根据文章内容的推测。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "p": "Frank 在 X 上的自我介绍只有八个字：「技术文青，前腾讯/微软」。从博客内容可以拼出 TA 的轨迹：一位在深圳工作多年的工程师，早期专注机器学习系统和端侧推理，之后开始做自己的海外产品，并大量阅读商业与哲学。"
-    },
-    {
-     "steps": [
-      {
-       "when": "2017–2021",
-       "title": "深度学习工程",
-       "text": "写卷积神经网络剪枝（确定方案、动手剪、再微调）、训练与推理的 Profiling 方法、斯坦福 CS 329S《ML 系统设计》课程笔记，以及用 NCNN 在 x86 上对 MobileNet 做逐层峰值内存实测。"
-      },
-      {
-       "when": "2022–2023",
-       "title": "深圳山海",
-       "text": "大鹏半岛、塘朗山日落、武功山草甸、香港郊野径、惠州双月湾……一组写给周末的行程攻略，每篇都附具体路线与时间安排。"
-      },
-      {
-       "when": "2026",
-       "title": "独立产品与系统性写作",
-       "text": "《海外产品开发经验分享》梳理了从静态站到全栈、移动端、桌面端的技术栈与 SaaS 免费额度；《苹果 AI 推理技术架构调研》对比 Neural Engine 与 GPU 路线；还有 Go 并发模式模板、美国制裁工具解析等。"
-      },
-      {
-       "when": "2026",
-       "title": "方法论随笔",
-       "text": "《如何迭代与进步》把「先做项目、再补理论」对应到神经网络训练循环；《说服的艺术与十个场景》把亚里士多德的 Ethos / Pathos / Logos 落地成十个模板；《SpaceX 与从 0 到 1》讨论蒂尔的「逃离竞争」。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2020.12–2021.06", "title": "深度学习工程笔记", "text": "连续写出一组系统笔记：《紧凑网络结构设计：把卷积拆开》《深度学习调参》《类别不平衡怎么办》《图像数据增强》《知识蒸馏》《训练技巧拾遗》《卷积神经网络剪枝》《深度学习训练与推理的性能分析》《ML System 设计全景》，最后以《NCNN 峰值内存实测：MobileNet 逐层分析》收尾。"},
+     {"when": "2022", "title": "注册 X，开始写山海", "text": "8 月武功山的高山草甸，10 月「深圳城区：下班和周末的几个去处」，11 月大鹏半岛，12 月中山和江门的电影取景地。每篇都附具体路线和时间安排。"},
+     {"when": "2023", "title": "香港与海边", "text": "《香港郊野径：行走在山脊与万柱海岸》《双月湾：累了就来这里躺平看海》。"},
+     {"when": "2024", "title": "转向做产品", "text": "《startup 的相关福利》《jenni.ai 的冷启动与增长策略》《使用 UTM 标签来分析流量来源》，开始关心增长与分发。"},
+     {"when": "2025.12–2026.02", "title": "AI 产业研究", "text": "《豆包 AI 手机背后的 VL 模型》《大模型背后的数据供应商：Surge AI》《读书笔记：科技共和国》《LLM 的算法实现》《自媒体商业模式分析》《中国工业硬件的客厅化》。"},
+     {"when": "2026.05–06", "title": "一个月写十篇", "text": "从低精度数据格式、LLM 推理与存储金字塔、数据中心供电、苹果 AI 推理架构、Go 并发模板，到《我的 Claude Code 实践》《海外产品开发经验分享》，以及杠铃策略、休谟与热爱、说服术、蒂尔与 SpaceX。"},
+     {"when": "2026.10", "title": "AI 技术革命中的英伟达", "text": "用佩雷斯的技术革命周期框架复盘运河、铁路、光纤三次泡沫，再把英伟达放进「导入期卖铲人」的位置逐项拆解风险。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表文章",
+   "title": "代表文章详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "海外产品开发经验分享",
-       "meta": "2026 · 技术 / 商业",
-       "text": "做海外产品常用的框架、部署、数据库、鉴权、支付、AI 服务与图床，附免费额度和起步成本参考。",
-       "url": "http://frankk.site"
-      },
-      {
-       "name": "如何迭代与进步",
-       "meta": "2026 · 方法论",
-       "text": "Forward 是先动手，Loss 是差距，Backward 是复盘。批判行为，不否定价值：梯度下降只更新参数，不炸掉架构。",
-       "url": "http://frankk.site"
-      },
-      {
-       "name": "苹果 AI 推理技术架构调研",
-       "meta": "2026 · Apple Silicon",
-       "text": "结论：苹果的优势在「本地、省电、跑得下大模型（尤其 MoE）」，而非密集大模型的极致吞吐。",
-       "url": "http://frankk.site"
-      },
-      {
-       "name": "NCNN 峰值内存实测",
-       "meta": "2021 · 推理引擎",
-       "text": "逐层分析 MobileNet 推理时的峰值内存，对比 light_mode、fp16、int8 的影响。",
-       "url": "http://frankk.site"
-      }
+    {"work": {
+     "name": "海外产品开发经验分享", "url": "https://frankk.site/blog/overseas-product-development/",
+     "meta": ["2026.06", "技术 · 商业", "独立开发手册"],
+     "paras": [
+      "开头一句交代了动机：「最近 Claude Code 很好用，很多人都有机会做自己的产品。」全文按产品形态（静态站、完整前后端应用、移动端、桌面端）组织，逐项讲框架选型、部署、数据库、鉴权、支付、AI 服务和图床，并尽量给出免费额度和起步成本。",
+      "细节很实用。比如图床一节，讲清楚 Cloudflare R2 负责存原图、Cloudflare Images 负责按需变换：只存一张原图，通过改 URL 参数就能拿到 200px 缩略图、自动转 WebP / AVIF 的大图、裁成正方形的头像，远程图片变换每月有 5,000 次免费额度。SEO 一节则建议博客尽量用 Astro 做静态站，并强调「最核心的还是内容本身」。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "我的 Claude Code 实践", "url": "https://frankk.site/blog/claude-code-practices/",
+     "meta": ["2026.05", "AI 工具", "非编程用法"],
+     "paras": [
+      "这篇最有意思的地方在于，它讲的大多不是写代码："
+     ],
+     "bullets": [
+      "<strong>把讨论变成网页：</strong>和 Claude 聊完一个话题，让它直接生成一个总结网页，需要时主动搜图、插图表，事后回顾「视觉体验会非常舒服」。",
+      "<strong>整理杂乱的文件夹：</strong>在文件夹里开一个会话，借助多模态识别按图片内容或时间分类整理。",
+      "<strong>处理图片：</strong>用代码画 SVG 流程图；按需搜图并优先从维基百科等无版权风险的来源获取；调用 OpenCV 做抠图、裁剪、通道变换。",
+      "<strong>甚至做视频。</strong>"
+     ]
+    }},
+    {"work": {
+     "name": "如何迭代与进步", "url": "https://frankk.site/blog/systematic-self-iteration/",
+     "meta": ["2026.06", "方法论"],
+     "paras": [
+      "把 Karpathy 讲的「如何成为专家」和费曼讲的「如何检验真懂」归结为一件事：<strong>用输出检验输入</strong>。然后对应到神经网络的训练循环：Forward 是先动手，Loss 是和理想结果的差距，Backward 加梯度下降是复盘改进。",
+      "最打动人的是这一句：人和网络最大的不同是面对大 Loss 会痛，所以要把「批判行为」和「否定价值」拆开。梯度下降只更新参数（行为、技能），不要炸掉架构（你是谁）。文末再对照 Ray Dalio 的《原则》：「痛苦 + 反思 = 进步」。"
+     ]
+    }},
+    {"work": {
+     "name": "说服的艺术与十个场景", "url": "https://frankk.site/blog/how-to-persuade/",
+     "meta": ["2026.06", "随笔", "十个模板"],
+     "paras": [
+      "从亚里士多德的 Ethos（可信度）、Pathos（情感）、Logos（逻辑）出发，认为今天流行的说服框架都是这三要素的「本地化版本」，然后一个场景一个模板地过一遍：升职加薪用 Claim → Reason → Evidence，面试用 STAR，邮件用 BLUF，路演用 Problem → Solution → Traction，销售用 Pain → Gain → Proof，谈判用 BATNA，文案用 AIDA，亲密关系用非暴力沟通。结尾一句：「框架是地图，真诚是罗盘。」"
+     ]
+    }},
+    {"work": {
+     "name": "唯有热爱才能走得长远", "url": "https://frankk.site/blog/hume-passion-as-hot-path/",
+     "meta": ["2026.05", "随笔", "休谟 × 程序性能"],
+     "paras": [
+      "一个只有工程师写得出来的比喻：靠「我应该」驱动的事，就像用 Python 跑一个高频的热循环，链条太长，撑不住；真正热爱的事，像 CPU 直接执行的指令。躲不开的事怎么办？给它手工接上一个直接的情感锚点：集邮式打卡、战胜过去自己的成就感、游戏化和同伴。结论是：「理性负责挑选，热爱负责驱动。」"
+     ]
+    }},
+    {"work": {
+     "name": "NCNN 峰值内存实测：MobileNet 逐层分析", "url": "https://frankk.site/blog/ncnn-peak-memory-mobilenet/",
+     "meta": ["2021.06", "端侧推理"],
+     "paras": [
+      "早期技术文章的代表：在 x86 上用 NCNN 推理 MobileNet，逐层记录峰值内存，比较 light_mode、fp16、int8 等选项的影响。这类「自己动手量一遍」的文章，正是 TA 后来所有写作的底色。"
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://frankk.site",
-      "paras": [
-       "极简的单栏博客：顶部只有「联系」「RSS」「EN」三个入口，首页按 2026 → 2017 的年份分组，每篇文章配一段很长的摘要和标签。",
-       "摘要本身就是一篇微型文章，读完摘要基本就知道全文的结论。这是很少见、也很体贴读者的写法。"
-      ]
-     }
-    },
-    {
-     "p": "网站同时提供英文版本，说明 TA 写作时就考虑了更广的读者群，和 TA「做海外产品」的方向一致。"
-    }
+    {"site": {"url": "https://frankk.site", "paras": [
+     "极简的单栏博客：标题「Frank」，下面一句尼采的话（中文和德文原文并列），然后按时间倒序列出文章。每篇都有日期、标题、一段很长的摘要、标签和「阅读全文」。",
+     "摘要本身就是一篇微型文章。比如《如何迭代与进步》的摘要，完整讲清了 Forward、Loss、Backward 的对应关系和「只更新参数、不炸掉架构」的结论。读者在三十秒内就能决定要不要读全文。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术栈", "Astro 4.16，托管在 Cloudflare，Google Analytics 统计"],
+      ["语言", "中文为主，提供英文版入口（EN）"],
+      ["导航", "只有联系、RSS、EN 三个入口"],
+      ["结构", "按年份分组；每篇有长摘要与标签"],
+      ["一致性", "TA 在文章里推荐「博客尽量用 Astro」，自己的网站也是这样做的"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "写作的手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "Frank 的文章有一种工程师特有的「设计感」：<strong>先给结论，再给框架，最后给模板</strong>。说服术一文最后落在一句话上：「框架是地图，真诚是罗盘。」"
-    },
-    {
-     "quote": "人和网络最大的不同是面对大 Loss 会痛，所以关键是把「批判行为」和「否定价值」拆开。",
-     "cite": "Frank《如何迭代与进步》"
-    }
+    {"posts": [
+     {"date": "2026-10-21", "title": "AI 技术革命中的英伟达", "url": "https://frankk.site/blog/nvidia-ai-revolution/", "note": "结论：英伟达同样会迎来泡沫破裂的时刻，但估值不像当年的思科那样夸张，破裂可能相对温和。"},
+     {"date": "2026-06-13", "title": "SpaceX 与从 0 到 1", "url": "https://frankk.site/blog/business-taste/", "note": "从《从 0 到 1》的垄断哲学到吉拉尔的模仿欲望：蒂尔的投资判断是同一套「如何逃离竞争」的思考。"},
+     {"date": "2026-06-10", "title": "美国的制裁工具与案例", "url": "https://frankk.site/blog/us-sanctions-impact/", "note": "九级强度阶梯、三个典型被制裁国、11 个中国相关案例。"},
+     {"date": "2026-06-03", "title": "苹果 AI 推理技术架构调研", "url": "https://frankk.site/blog/apple-ai-inference/", "note": "苹果的优势在「本地、省电、跑得下大模型（尤其 MoE）」，而非密集大模型的极致吞吐。"},
+     {"date": "2026-05-17", "title": "杠铃策略和个人成长", "url": "https://frankk.site/blog/barbell-strategy/"},
+     {"date": "2026-05-09", "title": "香港的徒步路线与故事", "url": "https://frankk.site/blog/hk-hiking-trails/"},
+     {"date": "2024-03-21", "title": "jenni.ai 的冷启动与增长策略", "url": "https://frankk.site/blog/jenni-ai-growth-strategy/"}
+    ]},
+    {"quote": "框架是地图，真诚是罗盘。", "cite": "Frank，《说服的艺术与十个场景》"},
+    {"quote": "理性负责挑选，热爱负责驱动。", "cite": "Frank，《唯有热爱才能走得长远》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["写作结构", "结论先行、框架清楚、模板可直接套用", "部分长文信息密度很高，需要一定背景知识"],
+      ["选题", "跨度大：工程、产品、商业、历史、徒步都有，且都能落到具体", "产业与地缘话题（制裁、英伟达）属于个人分析，并非专业研究报告"],
+      ["公开作品", "文章本身就是可复用的手册", "没有公开 GitHub 或产品，外界难以看到 TA 的工程作品"],
+      ["节奏", "2026 年进入高产期", "更新呈阶段性，2023–2025 年间有较长空档"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>写少但写透：</strong>十年十几篇，每篇都能当参考手册用。",
-      "<strong>摘要先行：</strong>让读者在三十秒内拿到结论。",
-      "<strong>跨界类比：</strong>用神经网络训练理解个人成长，用工程框架理解说服与谈判。",
-      "<strong>从大厂到个人产品：</strong>把多年的工程经验整理成独立开发的技术栈清单。"
-     ]
-    }
+    {"checklist": [
+     "<strong>摘要先行：</strong>让读者在三十秒内拿到结论。",
+     "<strong>用熟悉的模型理解陌生领域：</strong>用训练循环理解成长，用热循环理解坚持。",
+     "<strong>写成手册而不是感想：</strong>每篇都给出能直接套用的清单和模板。",
+     "<strong>自己动手量一遍：</strong>从 NCNN 内存实测开始，TA 的结论大多来自亲手验证。"
+    ]},
+    {"h3": "推荐先看这三篇"},
+    {"try": [
+     {"name": "海外产品开发经验分享", "url": "https://frankk.site/blog/overseas-product-development/", "why": "想用 AI 做自己的产品，先照着这份清单把技术栈和免费额度过一遍。"},
+     {"name": "如何迭代与进步", "url": "https://frankk.site/blog/systematic-self-iteration/", "why": "一篇写给自己的成长方法论，「只更新参数，不炸掉架构」值得记住。"},
+     {"name": "我的 Claude Code 实践", "url": "https://frankk.site/blog/claude-code-practices/", "why": "看看一个编程 Agent 在非编程场景里能帮你做什么。"}
+    ]}
    ]
   }
  ],
- "cta": "挑一篇长文，从摘要读起。",
+ "cta": "订阅 frankk.site 的 RSS，或者从《如何迭代与进步》读起。",
  "sources": [
-  {
-   "label": "Frank 的 X 个人资料",
-   "url": "https://x.com/frank_uid"
-  },
-  {
-   "label": "Frank 的博客",
-   "url": "http://frankk.site"
-  }
+  {"label": "Frank 的 X 个人资料", "url": "https://x.com/frank_uid"},
+  {"label": "frankk.site 博客首页", "url": "https://frankk.site"},
+  {"label": "frankk.site RSS", "url": "https://frankk.site/rss.xml"},
+  {"label": "海外产品开发经验分享", "url": "https://frankk.site/blog/overseas-product-development/"},
+  {"label": "我的 Claude Code 实践", "url": "https://frankk.site/blog/claude-code-practices/"},
+  {"label": "如何迭代与进步", "url": "https://frankk.site/blog/systematic-self-iteration/"},
+  {"label": "说服的艺术与十个场景", "url": "https://frankk.site/blog/how-to-persuade/"},
+  {"label": "唯有热爱才能走得长远", "url": "https://frankk.site/blog/hume-passion-as-hot-path/"},
+  {"label": "AI 技术革命中的英伟达", "url": "https://frankk.site/blog/nvidia-ai-revolution/"},
+  {"label": "NCNN 峰值内存实测", "url": "https://frankk.site/blog/ncnn-peak-memory-mobilenet/"}
  ]
 }

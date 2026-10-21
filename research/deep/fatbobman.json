@@ -1,0 +1,668 @@
+{
+ "handle": "fatbobman",
+ "sites": [
+  {
+   "url": "https://fatbobman.com",
+   "ok": true,
+   "title": "Fatbobman's Blog | 肘子的 Swift 记事本",
+   "description": "A Swift and iOS development blog | 分享与 Swift、SwiftUI、Core Data、Swift Data 有关的内容",
+   "stack": [
+    "Astro",
+    "Google Analytics"
+   ],
+   "hosting": [],
+   "lang": "en",
+   "home_text": "[Oct 19, 2026 •Issue #158 ### Who Is the Real Threat to AI-Relay Apps? Last week, I was invited to Beijing to attend the inaugural Apple App Incubator event, where Tim Cook attended in person... Explore Full Issue](https://fatbobman.com/en/weekly/issue-158/)\n## Recent Weekly Issues\nOct 7, 2026 by Fatbobman\n## [AI-Friendly Frameworks: As Abstraction Moves Up, How Can Verification Keep Pace?](https://fatbobman.com/en/posts/ai-friendly-framework/)\nAs AI coding becomes widespread, more and more developers lean toward one view: imperative frameworks like UIKit may suit coding agents better than SwiftUI. The reasoning is intuitive. UIKit's logic is direct and explicit: create objects, set properties, add them to the hierarchy, build constraints. Every step acts on a concrete entity. SwiftUI, by contrast, tucks much of its implementation detail behind declarative syntax, where state, environment, identity, layout, and rendering jointly determine the final result.\nSep 30, 2026 by Fatbobman\n## [Letting AI See SwiftUI: Xcode Preview MCP in Practice — Pitfalls and Hopes](https://fatbobman.com/en/posts/letting-ai-see-swiftui/)\nXcode 26.3 marked the first time Apple opened its own capabilities to external agents through MCP. Many of those capabilities were already reachable through the CLI, but Preview rendering was entirely new. Xcode 27 went a step further with a headless MCP server, making these tools even easier to call, so I wove Preview rendering deeply into my AI workflows. Along the way I ran into a few pitfalls, and came away with some reflections and hopes.\nSep 23, 2026 by Fatbobman\n## [ArrangementView: Think Before You Arrange](https://fatbobman.com/en/posts/arrangementview-think-before-…)\nIn the first time I saw the `ArrangementView` API, I had a vague sense of discomfort, though I couldn’t quite put my finger on why. It wasn’t until I actually used it in Xcode 27.1 beta that the feeling began to take shape. After reading more of Apple’s materials and putting the API back into the context of the iPhone Duo, I realized that this discomfort came from two places. Part of it was simply that I hadn’t understood where the API was meant to fit; once I did, that part made sense. The other part came from the API itself—and remained even after I understood its design.\nSep 17, 2026 by Fatbobman\n## [From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format](https://fatbobman.com/en/posts/from-pbxproj-to-xcproj/)\nApple has released the 27.2 beta. Although the iPhone Duo simulator is still missing, the new `project.xcproj` is quite eye-catching. It replaces the `project.pbxproj` build graph inside the `.xcodeproj` bundle, not the entire project bundle. What are its highlights, what problems does it solve, and what remains unchanged? This article will explore these aspects.\nSep 2, 2026 by Fatbobman\n## [SwiftData: Optimization Starts with Modeling](https://fatbobman.com/en/posts/swiftdata-optimization-starts…)\nOnce a dataset grows large, SwiftData lists start to stutter. This has been the performance complaint I've heard most often these past few years. Once you actually spend time on it, you find that the slowness isn't only the long initial load — the enormous memory footprint drags performance down just as much. This article looks at why these problems show up in SwiftData, and where to start fixing them.\nAug 12, 2026 by Fatbobman\n## [ContentBuilder Explained: The Secret Behind SwiftUI's Type-Checking Speedup](https://fatbobman.com/en/posts/contentbuilder-explained/)\nIn WWDC 2026, Apple engineers introduced a new SwiftUI feature — ContentBuilder. From the usage perspective, it seems to be nothing more than a ViewBuilder with a wider scope. Apple also claims this adjustment can significantly improve type-checking performance. This article will dissect the essence of ContentBuilder and explore the secrets behind the performance boost.",
+   "github_links": [
+    "fatbobman"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://fatbobman.com/en/rss.xml",
+    "count_seen": 21,
+    "items": [
+     {
+      "title": "Who Is the Real Threat to AI-Relay Apps? - Fatbobman's Swift Weekly #158",
+      "date": "Mon, 19 Oct 2026 14:00:00",
+      "url": "https://fatbobman.com/en/weekly/issue-158/"
+     },
+     {
+      "title": "When Build in Public Goes Back Underground - Fatbobman's Swift Weekly #157",
+      "date": "Mon, 12 Oct 2026 14:00:00",
+      "url": "https://fatbobman.com/en/weekly/issue-157/"
+     },
+     {
+      "title": "AI-Friendly Frameworks: As Abstraction Moves Up, How Can Verification Keep Pace?",
+      "date": "Wed, 07 Oct 2026 14:00:00",
+      "url": "https://fatbobman.com/en/posts/ai-friendly-framework/"
+     },
+     {
+      "title": "Swift Server Has Another Google - Fatbobman's Swift Weekly #156",
+      "date": "Mon, 05 Oct 2026 14:00:00",
+      "url": "https://fatbobman.com/en/weekly/issue-156/"
+     },
+     {
+      "title": "Letting AI See SwiftUI: Xcode Preview MCP in Practice — Pitfalls and Hopes",
+      "date": "Wed, 30 Sep 2026 14:00:00",
+      "url": "https://fatbobman.com/en/posts/letting-ai-see-swiftui/"
+     },
+     {
+      "title": "The Month iPhone Duo Gives Developers - Fatbobman's Swift Weekly #155",
+      "date": "Mon, 28 Sep 2026 14:00:00",
+      "url": "https://fatbobman.com/en/weekly/issue-155/"
+     },
+     {
+      "title": "ArrangementView: Think Before You Arrange",
+      "date": "Wed, 23 Sep 2026 14:00:00",
+      "url": "https://fatbobman.com/en/posts/arrangementview-think-before-you-arrange/"
+     },
+     {
+      "title": "A “Native” Debate Over SwiftUI Animation - Fatbobman's Swift Weekly #154",
+      "date": "Mon, 21 Sep 2026 14:00:00",
+      "url": "https://fatbobman.com/en/weekly/issue-154/"
+     },
+     {
+      "title": "From pbxproj to xcproj: Xcode Project Configuration Gets a JSON Format",
+      "date": "Thu, 17 Sep 2026 14:30:00",
+      "url": "https://fatbobman.com/en/posts/from-pbxproj-to-xcproj/"
+     },
+     {
+      "title": "SwiftData: Optimization Starts with Modeling",
+      "date": "Wed, 02 Sep 2026 14:00:00",
+      "url": "https://fatbobman.com/en/posts/swiftdata-optimization-starts-with-modeling/"
+     },
+     {
+      "title": "From Using AI to Delegating Work to AI (Part 1): Why I No Longer Wait for Stronger Models",
+      "date": "Wed, 19 Aug 2026 14:00:00",
+      "url": "https://fatbobman.com/en/posts/from-using-ai-to-delegating-work-to-ai/"
+     },
+     {
+      "title": "From Using AI to Delegating Work to AI (Part 2): What I Mean by Delegability",
+      "date": "Wed, 19 Aug 2026 14:00:00",
+      "url": "https://fatbobman.com/en/posts/from-using-ai-to-delegating-work-to-ai-2/"
+     },
+     {
+      "title": "ContentBuilder Explained: The Secret Behind SwiftUI's Type-Checking Speedup",
+      "date": "Wed, 12 Aug 2026 14:00:00",
+      "url": "https://fatbobman.com/en/posts/contentbuilder-explained/"
+     },
+     {
+      "title": "Controlling Orphans in SwiftUI Text: Uncovering the Undocumented avoidsOrphans",
+      "date": "Thu, 06 Aug 2026 14:00:00",
+      "url": "https://fatbobman.com/en/posts/controlling-orphans-in-swiftui-text/"
+     },
+     {
+      "title": "Liquid Glass: A Field Guide to UIKit Compatibility Pitfalls",
+      "date": "Wed, 29 Jul 2026 14:00:00",
+      "url": "https://fatbobman.com/en/posts/liquid-glass-a-field-guide-to-uikit-compatibility-pitfalls/"
+     },
+     {
+      "title": "【Tips】Why Child @State Won't Update from Parent in SwiftUI",
+      "date": "Thu, 18 Dec 2025 08:21:01",
+      "url": "https://fatbobman.com/en/snippet/why-child-state-won-not-update-from-parent-in-swiftui/"
+     },
+     {
+      "title": "【Tips】Fixing GTM Events in Partytown: Forwarding dataLayer & gtag",
+      "date": "Mon, 08 Dec 2025 14:20:00",
+      "url": "https://fatbobman.com/en/snippet/how-to-forward-custom-tag-events-to-gtm-running-inside-partytown/"
+     },
+     {
+      "title": "【Tips】Faster Swift 6 Builds: Enabling SwiftSyntax Prebuilts",
+      "date": "Fri, 06 Jun 2025 00:20:00",
+      "url": "https://fatbobman.com/en/snippet/speed-up-compilation-with-prebuilt-swift-syntax/"
+     },
+     {
+      "title": "【Tips】Swift package Access Level: Sharing Code Across Targets Securely",
+      "date": "Thu, 08 May 2025 14:21:01",
+      "url": "https://fatbobman.com/en/snippet/controlling-access-within-a-swift-package/"
+     },
+     {
+      "title": "【Tips】Fixing SwiftLint Configuration for Monorepos in VSCode & Cursor",
+      "date": "Thu, 24 Apr 2025 14:20:00",
+      "url": "https://fatbobman.com/en/snippet/fixing-swiftlint-configuration-not-working-in-monorepo-projects/"
+     },
+     {
+      "title": "【Tips】VSCode/Cursor Core Data: Manually Compiling xcdatamodeld for Tests",
+      "date": "Tue, 15 Apr 2025 14:21:01",
+      "url": "https://fatbobman.com/en/snippet/how-to-test-core-data-code-in-vscode-cursor/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://weekly.fatbobman.com",
+   "ok": true,
+   "title": "Fatbobman's Swift Weekly | Fatbobman(东坡肘子) | Substack",
+   "description": "Share excellent articles about Swift, SwiftUI, Core Data, SwiftData every week. Click to read Fatbobman's Swift Weekly, by Fatbobman(东坡肘子), a Substack publication with thousands of subscribers.",
+   "stack": [
+    "Google Analytics",
+    "React",
+    "Substack"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "## Fatbobman's Swift Weekly\nShare excellent articles about Swift, SwiftUI, Core Data, SwiftData every week\nBy Fatbobman(东坡肘子)\n · Over 5,000 subscribers\nBy subscribing, you agree to Substack's [Terms of Use](https://substack.com/tos), and acknowledge its [Information Collection Notice](https://substack.com/ccpa#personal-data-collected) and [Privacy Policy](https://substack.com/privacy).\n[](https://weekly.fatbobman.com/)\n## [Fatbobman’s Swift Weekly](https://weekly.fatbobman.com/)\n[Home](https://weekly.fatbobman.com/)\n[Blog](https://fatbobman.com/)\n[Archive](https://weekly.fatbobman.com/archive)\n[About](https://weekly.fatbobman.com/about)\n[Fatbobman's Swift Weekly#158](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-158)\n[Who Is the Real Threat to AI-Relay Apps?](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-158)\nOct 19•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #157](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-157)\n[When Build in Public Goes Back Underground](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-157)\nOct 12•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #156](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-156)\n[Swift Server Has Another Google](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-156)\nOct 5•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\nMost Popular\n[View all](https://weekly.fatbobman.com/archive?sort=top)\n[Fatbobman's Swift Weekly #22](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-022)\nMar 11, 2024•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #132](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-132)\nApr 20•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #123](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-123)\nFeb 16•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #136](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-136)\nMay 18•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #108](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0108)\nOct 27, 2025•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #103](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-0103)\nSep 22, 2025•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #155](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-155)\n[The Month iPhone Duo Gives Developers](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-155)\nSep 28•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #154](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-154)\n[A “Native” Debate Over SwiftUI Animation](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-154)\nSep 21•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #153](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-153)\n[The Opportunities and Challenges of iPhone Duo](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-153)\nSep 14•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #152](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-152)\n[When the Mac mini’s Price Is No Longer Mini](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-152)\nSep 7•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #151](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-151)\n[Just a Few Keystrokes](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-151)\nAug 31•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #150](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-150)\n[AI Wanted to Give Up. The Human Didn’t.](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-150)\nAug 24•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #149](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-149)\n[Who Is the Slower App Review Process Actually Stopping?](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-149)\nAug 17•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #148](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-148)\n[Apple Intelligence Has Passed Chinese Government Review and Is Coming to China](https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-148)\nAug 10•[Fatbobman(东坡肘子)](https://substack.com/@fatbobman)\n[Fatbobman's Swift Weekly #147](https://weekly.fatbob",
+   "github_links": [],
+   "subpages": {
+    "https://weekly.fatbobman.com/about": "Fatbobman’s Swift Weekly \n Subscribe Sign in \n Home \n Blog \n Archive \n About \n Why subscribe? \n Fatbobman’s Swift Weekly is a bilingual newsletter in English and Chinese for developers interested in Swift, SwiftUI, SwiftData, Core Data, AI-assisted development, and the broader Apple developer ecosystem. \nEach week, I curate articles, tools, discussions, and open-source projects from both English and Chinese developer communities. Rather than simply listing links, I add context and personal editorial notes to explain why a piece is worth reading, how it relates to real-world development, and what it may suggest about the direction of the ecosystem. \nThe newsletter is mainly written for Apple platform developers who want to keep up with meaningful technical ideas without chasing every piece of news. Topics often include Swift language evolution, SwiftUI engineering practices, data persistence, development tools, AI coding workflows, open-source projects, and observations on the Apple developer community. \nBy publishing in both English and Chinese, I also hope to make valuable discussions from different communities more visible to one another. \n You can also visit my blog: Fatbobman’s Blog \n Feel free to contact me via X / Twitter , LinkedIn . \n Support \n If you find my work helpful, you can support it through Buy Me a Coffee . \n 为什么订阅？ \n Fatbobman’s Swift Weekly 是一份中英双语周报，主要面向关注 Swift、SwiftUI、SwiftData、Core Data、AI 辅助开发以及更广泛 Apple 开发生态的开发者。 \n每周，我会从英文与中文开发者社区中精选值得阅读的文章、工具、讨论和开源项目。它并不只是一个链接列表，我也会加入自己的阅读背景、技术判断和编辑视角，说明某个内容为什么值得关注，它与实际开发有什么关系，以及它可能反映了生态中的哪些变化。 \n这份周报主要写给希望持续关注 Apple 平台开发的读者。常见主题包括 Swift 语言演进、SwiftUI 工程实践、数据持久化、开发工具、AI 编码工作流、开源项目，以及围绕 Apple 开发生态的观察与思考。 \n通过同时提供英文与中文版本，我也希望让不同语言社区中的优秀内容和讨论被更多开发者看见。 \n 你也可以访问我的博客： 肘子的 Swift 记事本 / Fatbobman’s Blog \n 欢迎通过 X / Twitter , LinkedIn 与我联系。 \n 支持作者 \n 如果你觉得这些内容对你有帮助，可以通过 Buy Me a Coffee 支持我的创作。 \nSubscribe to Fatbobman's Swift Weekly \nShare excellent articles about Swift, SwiftUI, Core Data, SwiftData every week \n Subscribe \nPeople \n © 2026 fatbobman · Privacy ∙ Terms ∙ Collection notice \n Start your Substack Get the app \n Substack is the home for great culture"
+   },
+   "feed": {
+    "url": "https://weekly.fatbobman.com/feed",
+    "count_seen": 20,
+    "items": [
+     {
+      "title": "Fatbobman's Swift Weekly #158",
+      "date": "Mon, 19 Oct 2026 12:04:49",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-158"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #157",
+      "date": "Mon, 12 Oct 2026 12:01:33",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-157"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #156",
+      "date": "Mon, 05 Oct 2026 12:03:46",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-156"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #155",
+      "date": "Mon, 28 Sep 2026 12:02:23",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-155"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #154",
+      "date": "Mon, 21 Sep 2026 12:01:38",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-154"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #153",
+      "date": "Mon, 14 Sep 2026 12:04:34",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-153"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #152",
+      "date": "Mon, 07 Sep 2026 12:03:43",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-152"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #151",
+      "date": "Mon, 31 Aug 2026 12:01:53",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-151"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #150",
+      "date": "Mon, 24 Aug 2026 12:03:48",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-150"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #149",
+      "date": "Mon, 17 Aug 2026 12:03:38",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-149"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #148",
+      "date": "Mon, 10 Aug 2026 12:01:23",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-148"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #147",
+      "date": "Mon, 03 Aug 2026 12:02:34",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-147"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #146",
+      "date": "Mon, 27 Jul 2026 12:04:26",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-146"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #145",
+      "date": "Mon, 20 Jul 2026 12:01:22",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-145"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #144",
+      "date": "Mon, 13 Jul 2026 12:04:48",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-144"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #143",
+      "date": "Mon, 06 Jul 2026 12:03:13",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-143"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #142",
+      "date": "Mon, 29 Jun 2026 12:03:26",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-142"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #141",
+      "date": "Mon, 22 Jun 2026 12:02:40",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-141"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #140",
+      "date": "Mon, 15 Jun 2026 12:03:17",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-140"
+     },
+     {
+      "title": "Fatbobman's Swift Weekly #139",
+      "date": "Tue, 09 Jun 2026 12:03:24",
+      "url": "https://weekly.fatbobman.com/p/fatbobmans-swift-weekly-139"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "fatbobman",
+  "user": {
+   "name": "Fatbobman(东坡肘子)",
+   "company": null,
+   "blog": "https://fatbobman.com",
+   "location": "China",
+   "bio": "Swift & SwiftUI enthusiast | Tech blogger\r\n\r\n📧 Newsletter: http://weekly.fatbobman.com",
+   "public_repos": 91,
+   "followers": 978,
+   "created_at": "2019-09-23T00:32:50Z",
+   "twitter_username": "fatbobman",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "fatbobman/ObservableDefaults",
+    "description": "A comprehensive solution integrating SwiftUI + Observation + UserDefaults + iCloud Key-Value Store",
+    "stargazers_count": 408,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": "https://fatbobman.com/en/posts/userdefaults-and-observation",
+    "created_at": "2024-10-09T04:31:23Z",
+    "pushed_at": "2026-07-10T12:44:47Z",
+    "topics": [
+     "icloud",
+     "icloud-sync",
+     "ios",
+     "mac-catalyst",
+     "macos",
+     "nsubiquitouskeyvaluestore",
+     "observation",
+     "swift",
+     "swift-package-manager",
+     "userdefaults"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/SwiftUIOverlayContainer",
+    "description": "SwiftUI Overlay Container is a view container component for SwiftUI. It is a customizable, efficient and convenient view manager.  ",
+    "stargazers_count": 399,
+    "forks_count": 30,
+    "language": "Swift",
+    "homepage": "https://fatbobman.com/posts/swiftUIOverlayContainer2/",
+    "created_at": "2020-08-11T13:09:10Z",
+    "pushed_at": "2026-10-03T10:12:34Z",
+    "topics": [
+     "component-library",
+     "compontent",
+     "ios",
+     "macos",
+     "swift",
+     "swift5",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/SwipeCell",
+    "description": "SwipeCell is a SwiftUI library, used to achieve the left and right sliding menu effect similar to the iOS mail app.",
+    "stargazers_count": 323,
+    "forks_count": 46,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-08-06T06:46:04Z",
+    "pushed_at": "2026-07-11T01:09:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/Infinite4Pager",
+    "description": "Infinite4Pager is a flexible and powerful SwiftUI component that provides infinite scrolling capabilities in four directions: up, down, left, and right. It's perfect for creating image galleries, card decks, or any other content that requires seamless navigation in multiple directions.",
+    "stargazers_count": 137,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-07-08T12:27:52Z",
+    "pushed_at": "2024-07-17T09:13:42Z",
+    "topics": [
+     "swiftui",
+     "swiftui-components"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/CoreDataEvolution",
+    "description": "SwiftData-style actor isolation, Swift-first NSManagedObject macros, and typed mapping for   modern Core Data projects.",
+    "stargazers_count": 134,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": "https://fatbobman.com/en/posts/why-i-am-still-thinking-about-core-data-in-2026/",
+    "created_at": "2024-04-09T10:53:49Z",
+    "pushed_at": "2026-10-03T12:29:24Z",
+    "topics": [
+     "core-data",
+     "coredata",
+     "nsmanagedobject",
+     "predicate",
+     "sqlite",
+     "swift",
+     "swift-concurrency",
+     "swift-macros",
+     "swiftdata"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/PersistentHistoryTrackingKit",
+    "description": "A Swift package that processes Core Data persistent history so apps and extensions can observe, merge, and clean transactions consistently.",
+    "stargazers_count": 130,
+    "forks_count": 16,
+    "language": "Swift",
+    "homepage": "https://fatbobman.com/en/posts/persistenthistorytracking/",
+    "created_at": "2022-02-15T07:04:34Z",
+    "pushed_at": "2026-07-10T12:15:06Z",
+    "topics": [
+     "coredata",
+     "ios",
+     "macos",
+     "persistent-history",
+     "swift",
+     "swift-package-manager",
+     "tvos",
+     "visionos",
+     "watchos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/SheetKit",
+    "description": "an extension library for SwiftUI sheets. ",
+    "stargazers_count": 126,
+    "forks_count": 9,
+    "language": "Swift",
+    "homepage": "https://www.fatbobman.com/posts/sheetKit/",
+    "created_at": "2021-09-16T06:04:38Z",
+    "pushed_at": "2023-09-06T00:28:04Z",
+    "topics": [
+     "sheet",
+     "swift",
+     "swiftui",
+     "swiftui-extensions"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/BlogCodes",
+    "description": "【肘子的Swift笔记】博文中的代码汇总",
+    "stargazers_count": 121,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-03-31T00:46:57Z",
+    "pushed_at": "2024-04-02T09:55:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/NavigationViewKit",
+    "description": "NavigationViewKit is a NavigationView extension library for SwiftUI.",
+    "stargazers_count": 115,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": "https://www.fatbobman.com/posts/NavigationViewKit/",
+    "created_at": "2021-08-31T06:32:01Z",
+    "pushed_at": "2023-09-06T00:27:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/iCloudSyncStatusKit",
+    "description": "A Swift library that monitors the iCloud account status and responds to synchronization events when using Core Data with CloudKit. ",
+    "stargazers_count": 113,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-10-28T10:24:33Z",
+    "pushed_at": "2026-01-06T05:16:20Z",
+    "topics": [
+     "cloudkit",
+     "coredata",
+     "swift",
+     "swift-package",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/SwiftDataKit",
+    "description": "SwiftDataKit allows SwiftData developers to access Core Data objects corresponding to SwiftData elements.",
+    "stargazers_count": 102,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "https://fatbobman.medium.com/swiftdatakit-unleashing-advanced-core-data-features-in-swiftdata-3fcd5f443c99",
+    "created_at": "2023-08-23T06:50:35Z",
+    "pushed_at": "2024-10-30T10:17:37Z",
+    "topics": [
+     "coredata",
+     "swiftdata",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/IsScrolling",
+    "description": "As the name suggests, IsScrolling provides a ViewModifier to get the current scrolling state of a ScrollView or List in SwiftUI. IsScrolling has good backward and forward compatibility since it is fully implemented natively in SwiftUI. 正如名称所示，IsScrolling 提供了一个 ViewModifier ，用来获取 SwiftUI 中 ScrollView 或 List 当前的滚动状态。由于完全采用了 SwiftUI 原生的方式实现此功能，因此 IsScrolling 具备了很好的前后兼容性。",
+    "stargazers_count": 94,
+    "forks_count": 8,
+    "language": "Swift",
+    "homepage": "https://www.fatbobman.com",
+    "created_at": "2022-09-07T11:16:31Z",
+    "pushed_at": "2025-03-27T23:13:30Z",
+    "topics": [
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/Objects2XLSX",
+    "description": "A powerful, type-safe Swift library for converting Swift objects to Excel (.xlsx) files. Objects2XLSX provides a modern, declarative API for creating professional Excel spreadsheets with full styling support, multiple worksheets, and real-time progress tracking.",
+    "stargazers_count": 53,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "https://fatbobman.com",
+    "created_at": "2025-06-05T00:08:16Z",
+    "pushed_at": "2025-07-10T09:51:30Z",
+    "topics": [
+     "business",
+     "data-analysis",
+     "dataset",
+     "excel",
+     "export-excel",
+     "reporting",
+     "spredsheet",
+     "swift",
+     "xlsx",
+     "xlsxwriter"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/MovieHunter",
+    "description": null,
+    "stargazers_count": 50,
+    "forks_count": 7,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-03-16T05:45:14Z",
+    "pushed_at": "2023-04-24T13:29:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/TabularBuilder",
+    "description": "Declarative TabularData creation for Swift - Convert objects to DataFrames with type-safe, SwiftUI-like syntax",
+    "stargazers_count": 47,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "https://fatbobman.com/en/posts/experience-the-charm-of-swift-one-click-export-dataframe/",
+    "created_at": "2025-06-04T04:45:58Z",
+    "pushed_at": "2025-06-06T07:16:09Z",
+    "topics": [
+     "data-analysis",
+     "data-export",
+     "data-visualization",
+     "spreadsheet",
+     "swift",
+     "table-builder",
+     "tabular-data"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/SimpleLogger",
+    "description": "A simple logging library for Swift 6, providing easy-to-use logging functionalities with support for different log levels and backends.",
+    "stargazers_count": 45,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-10-28T03:59:40Z",
+    "pushed_at": "2026-02-28T08:58:35Z",
+    "topics": [
+     "logging-library",
+     "swift",
+     "swift6",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/ShareData_Demo_For_CoreDataWithCloudKit",
+    "description": "Demo for wwdc21-10015,how to share data by Core Data with CloudKit",
+    "stargazers_count": 33,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-09-10T02:48:18Z",
+    "pushed_at": "2021-11-06T11:47:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fatbobman/SwiftDataConcurrencyDemo",
+    "description": null,
+    "stargazers_count": 25,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-03-16T11:37:36Z",
+    "pushed_at": "2024-04-02T05:54:50Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 52,
+  "languages": [
+   [
+    "Swift",
+    42
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "Astro",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "fatbobman/mail-mcp-bridge",
+    "stargazerCount": 19,
+    "description": "Connect macOS Mail to AI through Model Context Protocol",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://fatbobman.com"
+   },
+   {
+    "nameWithOwner": "fatbobman/ObservableDefaults",
+    "stargazerCount": 408,
+    "description": "A comprehensive solution integrating SwiftUI + Observation + UserDefaults + iCloud Key-Value Store",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://fatbobman.com/en/posts/userdefaults-and-observation"
+   },
+   {
+    "nameWithOwner": "fatbobman/CoreDataEvolution",
+    "stargazerCount": 134,
+    "description": "SwiftData-style actor isolation, Swift-first NSManagedObject macros, and typed mapping for   modern Core Data projects.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://fatbobman.com/en/posts/why-i-am-still-thinking-about-core-data-in-2026/"
+   },
+   {
+    "nameWithOwner": "fatbobman/SwiftUIOverlayContainer",
+    "stargazerCount": 399,
+    "description": "SwiftUI Overlay Container is a view container component for SwiftUI. It is a customizable, efficient and convenient view manager.  ",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://fatbobman.com/posts/swiftUIOverlayContainer2/"
+   },
+   {
+    "nameWithOwner": "fatbobman/PersistentHistoryTrackingKit",
+    "stargazerCount": 130,
+    "description": "A Swift package that processes Core Data persistent history so apps and extensions can observe, merge, and clean transactions consistently.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://fatbobman.com/en/posts/persistenthistorytracking/"
+   },
+   {
+    "nameWithOwner": "fatbobman/SwipeCell",
+    "stargazerCount": 323,
+    "description": "SwipeCell is a SwiftUI library, used to achieve the left and right sliding menu effect similar to the iOS mail app.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 3385,
+  "orgs": [],
+  "profile_readme": "# Hi there, I'm Fatbobman 👋\n\nWelcome to my corner of the internet!\n\nI'm a Swift blogger who enjoys diving deep into topics around **Swift**, **SwiftUI**, **SwiftData**, and **Core Data**. I love exploring how things work under the hood and sharing what I learn with the developer community.\n\nYou can find my articles (in both English and Chinese) over at 👉 [fatbobman.com](https://fatbobman.com)  \nThey’re written with care — for curious minds and passionate iOS developers.\n\nEvery Monday, I publish a weekly newsletter 📬 — [Fatbobman’s Swift Weekly](https://weekly.fatbobman.com) — where I round up the most interesting Swift-related news, tips, and open-source projects.\n\n---\n\n### 💬 How to Reach Me\n\n- **X (Twitter)**: [@fatbobman](https://x.com/fatbobman)\n- **LinkedIn**: [linkedin.com/in/fatbobman](https://www.linkedin.com/in/fatbobman/)\n- **Mastodon**: [@fatbobman@mastodon.social](https://mastodon.social/@fatbobman)\n- **Bluesky**: [fatbobman.com](https://bsky.app/profile/fatbobman.com)\n\n---\n\nThanks for stopping by —  \nFeel free to check out my articles and open-source projects, or just say hi.  \nHappy coding! 🚀\n",
+  "readmes": {
+   "fatbobman/mail-mcp-bridge": "# Mail MCP Bridge\n> Connect macOS Mail to AI through Model Context Protocol (MCP)\n**Mail MCP Bridge** enables AI assistants (like Claude, ChatGPT) to directly access and analyze your macOS Mail emails. Simply copy a Message-ID from Mail and paste it to AI — no manual email exporting needed.\n**Demo: See it in action** (Click to watch)\n*Shows: Copy Message-ID from Mail → AI analyzes email content*\n[🇨🇳 中文版](README_zh.md)\n## 🎯 What & Why\n**The Problem**: Much of real-world communication happens through email — project collaborations, client communications, business negotiations, technical support. Manually exporting emails for AI analysis is tedious and inefficient.\n**The Solution**: Mail MCP Bridge lets AI directly read your emails through a simple workflow:\n- Copy Message-ID from Mail (one keyboard shortcut)\n- Paste to AI\n- AI analyzes email content instantly\n**Use Cases**:\n- 📋 Track project progress via email threads\n- 💼 Extract key information from business communications\n- 🔍 Summarize long email conversations\n- 📊 Extract structured data (requirements, feedback, commitments)\n- 🤝 Review conversation history\n- 📎 Analyze email attachments (invoices, reports, documents)\n## ✨ Features\n- 📧 **Direct Access** - AI reads your emails through MCP protocol\n- 🧵 **Thread Support** - Retrieve entire conversations with one Message-ID\n- 📎 **Attachment Extraction** - Extract email attachments for AI analysis (PDFs, documents, images)\n- 🎨 **Claude Code Plugins** - Pre-built commands and skills for intelligent email analysis\n- ⚡ **Fast** - Millisecond-level query response\n- 🎯 **Clean Text** - Optimized text extraction for AI (excludes HTML, embedded images)\n- 🔒 **Privacy First** - Runs locally, emails never leave your Mac\n## 🚀 Quick Start\n### Prerequisites\n- macOS 12.0+ (with Mail app)\n- Python 3.9+\n- MCP-compatible AI assistant (e.g., Claude Desktop)\n### Installation\n```bash\n# Clone the repository\ngit clone https://github.com/fatbobman/mail-mcp-bridge.git\ncd mail-mcp-bridge\n# Install MCP dependencies\npip3 install mcp\n```\n### Configure Claude Desktop\n1. **Find config location**:\n   ```bash\n   ~/Library/Application Support/Claude/claude_desktop_config.json\n   ```\n2. **Edit config** ",
+   "fatbobman/ObservableDefaults": "# ObservableDefaults\nObservableDefaults connects Swift Observation to UserDefaults and iCloud key-value storage through class macros.\n  [](LICENSE) [](https://deepwiki.com/fatbobman/ObservableDefaults)\nEnglish | [中文](README_zh.md)\n## Motivation\nManaging many UserDefaults keys in SwiftUI often creates repetitive code, while `@AppStorage` is centered on individual values and does not cover iCloud key-value synchronization. Observation also benefits from property-level tracking so unrelated changes do not invalidate a whole view.\nObservableDefaults uses macros to connect model properties to `UserDefaults` or `NSUbiquitousKeyValueStore`, while preserving precise Observation updates and handling changes originating outside the model.\nFor the design background and an in-depth comparison with `@AppStorage`, read [UserDefaults and Observation](https://fatbobman.com/en/posts/userdefaults-and-observation).\n## Features\n- `@ObservableDefaults` persists observable properties in `UserDefaults`.\n- `@ObservableCloud` synchronizes observable properties through `NSUbiquitousKeyValueStore`.\n- External storage changes produce property-level Observation updates.\n- Custom keys, suite names, and prefixes support application-specific storage layouts.\n- Optional, Codable, and RawRepresentable values are supported through documented storage rules.\n- Observe-first mode lets a model opt properties into persistence explicitly.\n- Development mode isolates cloud-backed models for previews and tests.\n## Quick Start\nAdd ObservableDefaults with Swift Package Manager:\n```swift\ndependencies: [\n    .package(\n        url: \"https://github.com/fatbobman/ObservableDefaults.git\",\n        from: \"1.8.8\"\n    )\n]\n```\nDeclare a class whose properties are observable and backed by `UserDefaults`:\n```swift\nimport ObservableDefaults\n@ObservableDefaults\nfinal class Settings {\n    var username = \"Guest\"\n    var launchCount = 0\n}\nlet settings = Settings()\nsettings.launchCount += 1\n```\n## Documentation\n- Want to configure local and cloud macros, keys, storage types, or observe-first mode? Read the [Usage Guide](Docs/Usage.md).\n- Want to understand defaults, previews, CI, actor isolation, App Groups, or cloud constra",
+   "fatbobman/CoreDataEvolution": "# CoreDataEvolution\nCoreDataEvolution brings actor isolation, Swift-first `NSManagedObject` declarations, typed paths, runtime schema metadata, and model tooling to Core Data.\n   [](https://deepwiki.com/fatbobman/CoreDataEvolution)\nEnglish | [中文](README_zh.md)\n## Motivation\nCore Data remains a pragmatic foundation for apps that depend on its mature object graph, migration, and store behavior, but its default source and concurrency patterns can feel distant from modern Swift. Projects often accumulate hand-written accessors, string-based query keys, context-passing conventions, and schema-to-source drift.\nCoreDataEvolution keeps Core Data as the persistence engine while making its Swift surface more explicit and toolable. It combines actor-isolated access, macro-based `NSManagedObject` declarations, typed mapping, optional Observation support, and a CLI that can compare source declarations with the real model.\nRelated reading: [Why I'm Still Thinking About Core Data in 2026](https://fatbobman.com/en/posts/why-i-am-still-thinking-about-core-data-in-2026/)\n## Features\n- Isolate background work with `@NSModelActor`, or bind UI-facing orchestration to `viewContext` with `@NSMainModelActor`.\n- Declare Core Data entities in Swift with `@PersistentModel`, plus explicit attribute, relationship, composition, and storage metadata.\n- Generate typed keys and paths for sort descriptors and `%K`-based predicates, including renamed fields and relationship paths.\n- Opt generated accessors into MainActor Observation on supported Swift and OS versions.\n- Mirror built-in numeric, string-length, ICU-pattern, and fixed-date validation rules in `@Attribute`, with model alignment checks and pure-code test coverage.\n- Build runtime schemas and isolated SQLite containers for test and debug workflows without replacing production `.xcdatamodeld` files.\n- Use `cde-tool` to generate declarations, validate model/source alignment, inspect models, and bootstrap configuration.\n## Quick Start\nAdd CoreDataEvolution to your package with Swift Package Manager:\n```swift\ndependencies: [\n  .package(\n    url: \"https://github.com/fatbobman/CoreDataEvolution.git\",\n    from: \"0.9.3\"\n  )\n],\ntargets: [\n  .ta",
+   "fatbobman/SwiftUIOverlayContainer": "# SwiftUI Overlay Container 2\nA highly customizable view container components for SwiftUI\n[中文版说明](READMECN.md)\nTable of Contents\n=================\n* [SwiftUI Overlay Container 2](#swiftui-overlay-container-2)\n   * [Overview](#overview)\n   * [Motivation](#motivation)\n   * [Features](#features)\n   * [Quick Guide](#quick-guide)\n      * [Create a container](#create-a-container)\n      * [Show views in containers](#show-views-in-containers)\n      * [Dismiss all views in the specified container](#dismiss-all-views-in-the-specified-container)\n   * [Knowledge](#knowledge)\n      * [Container](#container)\n      * [Display type](#display-type)\n      * [Queue Type](#queue-type)\n      * [Configuring the container](#configuring-the-container)\n      * [The EnvironmentValue of container](#the-environmentvalue-of-container)\n      * [Container view](#container-view)\n      * [Configuring the container view](#configuring-the-container-view)\n      * [Container Manager](#container-manager)\n      * [The EnvironmentValue of container manager](#the-environmentvalue-of-container-manager)\n      * [Blockable animation](#blockable-animation)\n      * [Use outside of SwiftUI views](#use-outside-of-swiftui-views)\n   * [System Requirements](#system-requirements)\n   * [Installation](#installation)\n   * [Copyrights](#copyrights)\n   * [Help and Support](#help-and-support)\n## Overview\nSwiftUI Overlay Container is a view container component for SwiftUI. It is a customizable, efficient and convenient view manager.\nWith just a simple configuration, SwiftUI Overlay Container can do the basic work of view organization, queue handling, transitions, animations, interactions, display style configuration and so on for you, allowing developers to devote more effort to the implementation of the application view itself.\n## Motivation\nWhen we need to display new content in the upper layer of the view (for example: pop-up information, side menu, help tips, etc.), there are many excellent third-party solutions that can help us achieve it separately, but no solution can deal with different at the same time.\nIn SwiftUI, describing views has become very easy, so we can completely extract the display logic in the abov",
+   "fatbobman/PersistentHistoryTrackingKit": "# PersistentHistoryTrackingKit\nA Swift package that processes Core Data persistent history so apps and extensions can observe, merge, and clean transactions consistently.\n[](https://deepwiki.com/fatbobman/PersistentHistoryTrackingKit)\nEnglish | [中文](README_zh.md)\n## Motivation\nCore Data persistent history records changes made by an app, its extensions, background contexts, and optional CloudKit synchronization. Turning those records into a reliable merge and cleanup flow requires coordinating authors, contexts, and lifecycle events.\nPersistentHistoryTrackingKit provides that coordination with an actor-based processing pipeline and hooks for app-specific observation or merge behavior. For the underlying Core Data model, read [Using Persistent History Tracking in Core Data](https://fatbobman.com/en/posts/persistenthistorytracking/).\n## Features\n- Processes persistent-history transactions from configured authors and merges them into chosen contexts.\n- Provides Observer Hooks for monitoring entity operations and Merge Hooks for custom merge pipelines.\n- Supports automatic, manual, or disabled history cleanup and optional CloudKit mirroring authors.\n- Uses Swift concurrency throughout and exposes explicit start/stop lifecycle control.\n## Quick Start\nAdd PersistentHistoryTrackingKit with Swift Package Manager:\n```swift\ndependencies: [\n    .package(url: \"https://github.com/fatbobman/PersistentHistoryTrackingKit.git\", from: \"2.1.0\")\n]\n```\nEnable persistent history and create the kit with the authors that share the store:\n```swift\nimport CoreData\nimport PersistentHistoryTrackingKit\nlet container = NSPersistentContainer(name: \"Model\")\nlet description = container.persistentStoreDescriptions.first!\ndescription.setOption(true as NSNumber, forKey: NSPersistentHistoryTrackingKey)\ndescription.setOption(true as NSNumber, forKey: NSPersistentStoreRemoteChangeNotificationPostOptionKey)\ncontainer.loadPersistentStores { _, error in\n    if let error { fatalError(\"Failed to load store: \\(error)\") }\n}\ncontainer.viewContext.transactionAuthor = \"MainApp\"\nlet kit = PersistentHistoryTrackingKit(\n    container: container,\n    currentAuthor: \"MainApp\",\n    allAuthors: [\"MainApp\", \"WidgetExte"
+  }
+ },
+ "apps": []
+}

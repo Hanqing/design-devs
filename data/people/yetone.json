@@ -2,204 +2,238 @@
  "name": "yetone",
  "role": "开源作者 · 开发者工具与 AI 桌面应用",
  "title": "yetone：把 AI 塞进<em>终端和菜单栏</em>的人",
- "dek": "从一个 Bob 翻译插件，到 GitHub 上数万星的 openai-translator、avante.nvim 和 magpie。yetone 的作品几乎都在回答同一个问题：怎样让 AI 不打断开发者原本的工作流。",
- "card": "openai-translator、avante.nvim、magpie 的作者，专做「不打断工作流」的 AI 工具。",
+ "dek": "从一个 Bob 翻译插件，到 2.5 万星的 nextai-translator、1.8 万星的 avante.nvim，再到上线一个多月就拿下 1.8 万星的 magpie。yetone 的作品几乎都在回答同一个问题：怎样让 AI 进入开发者原本的工作流，而不是让开发者迁就 AI。",
+ "card": "nextai-translator、avante.nvim、magpie 的作者；GitHub Stars 成员，近一年在 GitHub 上提交近 1.8 万次。",
  "location": "中国",
- "tags": [
-  "Neovim",
-  "AI 工具",
-  "Go",
-  "TypeScript",
-  "开源"
- ],
+ "updated": "2026-10-21",
+ "tags": ["开源", "Neovim", "AI Agent", "Go / Rust / TS", "开发者工具"],
  "links": [
-  {
-   "label": "GitHub",
-   "url": "https://github.com/yetone"
-  },
-  {
-   "label": "magpie",
-   "url": "https://usemagpie.ai"
-  },
-  {
-   "label": "Alma",
-   "url": "https://alma.now"
-  }
+  {"label": "GitHub", "url": "https://github.com/yetone"},
+  {"label": "magpie", "url": "https://usemagpie.ai"},
+  {"label": "Cumora", "url": "https://cumora.ai"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个前后端、云原生都写过的工程师，最擅长的是给开发者做工具，而且几乎每次都踩在 AI 浪潮的正确时间点上。",
-  "<strong>代表作：</strong>openai-translator（2023）、avante.nvim（2024，让 Neovim 拥有 Cursor 式体验）、magpie（2026，为每个 Agent 切换模型的本地网关）。",
-  "<strong>为什么值得关注：</strong>TA 的作品不是「又一个聊天框」，而是把 AI 嵌进你已经在用的地方：划词翻译、编辑器、终端、菜单栏。"
+  "<strong>一句话：</strong>做过前端、后端和云原生开发的软件工程师，痴迷终端和键盘操作；每当 AI 出现新能力（ChatGPT API、Cursor 式编辑、Agent、ACP），TA 几乎都是第一批把它接进开发者日常入口的人。",
+  "<strong>代表作：</strong>nextai-translator（原 openai-translator，★2.5 万）、avante.nvim（★1.8 万）、magpie（★1.8 万）、Cumora（★4 千）、native-feel-skill 与 kill-ai-slop 两份「质感」Agent Skill。",
+  "<strong>关键数字：</strong>X 关注者约 9.7 万；GitHub 粉丝 9,600+、公开仓库 637 个，近一年贡献 17,984 次；GitHub Stars 计划成员。",
+  "<strong>看点：</strong>不只是写得快。TA 把「不打扰用户」「可逆的配置修改」「像原生应用一样的手感」都当成产品的一部分来认真对待。"
  ],
- "lead": "yetone 在 2010 年注册 X，2011 年注册 GitHub，个人简介只有一个词「ohh」。比起写长文介绍自己，TA 更习惯直接把东西做出来：一个能用、好看、顺手的工具，往往就是 TA 的自我介绍。",
+ "lead": "yetone 在 GitHub Stars 的自我介绍里写：「只有键盘操作才能形成肌肉记忆。让 90% 的日常操作都变成肌肉记忆，就能不被鼠标切换打断，快速进入心流，进入创作者模式。这也是我为 Neovim 开发 AI 编程插件 avante.nvim 的原因。」这段话几乎能解释 TA 所有的作品。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、开源作者；GitHub Stars 成员；GitHub 资料的公司一栏写着 @Isoform"],
+     ["所在地", "中国"],
+     ["经历", "前端 → 后端 → 云原生开发（自述）；BentoML 旗下 Kubernetes 部署工具 Yatai 的头号贡献者（514 次提交）"],
+     ["代表作", "nextai-translator、avante.nvim、magpie、Cumora、Alma、Confirmo、《劍》"],
+     ["常用语言", "TypeScript、Rust、Go、Lua、Swift、Python"],
+     ["关键数字", "X 关注者约 9.7 万；GitHub 粉丝 9,646；近一年 GitHub 贡献 17,984 次"],
+     ["支持方式", "通过 Patreon 接受赞助；magpie 官网和 README 有商业赞助位"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "yetone 做的东西可以分成三层。<strong>最底层是「胶水」：</strong>把模型接到开发者已经在用的地方。划词翻译接到 Bob 和浏览器里，AI 编程接到 Neovim 里，任意模型接到任意编程 Agent 里。<strong>中间一层是「新形态的应用」：</strong>多模型聊天客户端 Alma、住在桌面上的编程伙伴 Confirmo、人和 Agent 同为队友的团队聊天 Cumora。<strong>最上层是「审美」：</strong>把什么是 AI 陈词滥调、怎样做出原生手感写成可复用的 Agent Skill。"},
+    {"p": "和很多「一次性爆款」不同，TA 的项目有很强的延续性。nextai-translator 和 avante.nvim 都持续维护了两年以上，并且都从个人仓库搬进了独立的组织，交给社区一起维护。"},
+    {"note": "本页依据 GitHub、GitHub Stars 个人页、各产品官网与 README 整理，资料截至 2026 年 10 月。yetone 没有公开的个人博客，也没有找到可信的长篇采访，因此早年经历只写 TA 自述和 GitHub 上可以核实的部分。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "p": "yetone 在 GitHub Stars 的自我介绍里写道，TA 做过前端、后端和云原生开发，<strong>最喜欢的是给开发者做工具</strong>，并且是终端、键盘驱动工作流的忠实拥趸，尤其偏爱 TUI。这几句话几乎可以解释 TA 后来所有的作品。"
-    },
-    {
-     "steps": [
-      {
-       "when": "2010–2011",
-       "title": "注册 X 与 GitHub",
-       "text": "早期在 GitHub 上留下的大多是 Vim 配置、小工具与各种实验，属于典型的「工具控」路线。"
-      },
-      {
-       "when": "2022",
-       "title": "cosmos-nvim：从 Spacemacs 叛逃到 Vim",
-       "text": "为从 Spacemacs 迁移到 Neovim 的用户准备的一套配置。它是后来 avante.nvim 的伏笔：TA 对编辑器体验的要求一直很高。"
-      },
-      {
-       "when": "2023",
-       "title": "openai-translator 与 Bob 插件",
-       "text": "ChatGPT API 刚开放时，TA 先写了一个 macOS 翻译软件 Bob 的插件，用大模型做划词翻译、润色和语法纠错；随后又做成跨平台的桌面端与浏览器扩展，迅速成为当年增长最快的中文开源项目之一。"
-      },
-      {
-       "when": "2024",
-       "title": "avante.nvim：Neovim 里的 Cursor",
-       "text": "2024 年 8 月开源。它把 Cursor 那种「AI 建议 → 一键应用 diff」的体验搬进 Neovim，后来又支持 Agent 模式和 ACP（Agent Client Protocol）。这是 TA 在 GitHub Stars 里自己列出的代表作。"
-      },
-      {
-       "when": "2025",
-       "title": "Alma 与一系列 AI 桌面应用",
-       "text": "Alma 是一个统一多家模型提供商的 AI 桌面客户端；同时期还有 Confirmo（住在桌面上的 AI 编程伙伴）、Yansu（主动式 AI）等实验。"
-      },
-      {
-       "when": "2026",
-       "title": "magpie、cumora 与更多",
-       "text": "magpie 让 Codex 用 DeepSeek、Claude Code 用 Kimi，只需在菜单栏点一下，上线后很快拿到近两万星；cumora 是「人和 AI Agent 同为队友」的团队聊天应用；TA 还发布了 kill-ai-slop、native-feel-skill 等关于产品质感的 Agent Skill，甚至做了一个南宋背景的网页动作游戏《劍》。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2010–2011", "title": "注册 X 与 GitHub", "text": "X 账号 2010 年注册，至今发了两万多条推文；GitHub 账号 2011 年注册。"},
+     {"when": "2013", "title": "Collipa", "text": "开源了社区程序 Collipa 的源码（★216）。这是能在 GitHub 上看到的最早的完整产品。"},
+     {"when": "2019", "title": "MirDB", "text": "用 Rust 写了一个兼容 Memcached 协议的持久化键值存储，说明 TA 也写系统软件。"},
+     {"when": "云原生时期", "title": "Yatai", "text": "成为 BentoML 的 Kubernetes 部署工具 Yatai 的头号贡献者（514 次提交，远超第二名），对应自述中的「云原生开发」。这个仓库至今仍置顶在 TA 的主页上。"},
+     {"when": "2022.01", "title": "cosmos-nvim", "text": "一套给「从 Spacemacs 叛逃到 Vim」的人准备的 Neovim 配置，是后来 avante.nvim 的伏笔。"},
+     {"when": "2023.03", "title": "openai-translator", "text": "ChatGPT API 于 3 月 1 日开放，3 月 4 日 TA 就开源了基于大模型的划词翻译工具，从 Bob 插件扩展到浏览器扩展和跨平台桌面端。后来因为收到 OpenAI 的商标警告，项目更名为 nextai-translator，目前 ★2.5 万，TA 一个人贡献了 670 次提交。"},
+     {"when": "2024.08", "title": "avante.nvim", "text": "8 月 14 日开源，把 Cursor 的 AI 编程体验搬进 Neovim。2025 年 9 月加入 Agent 和 ACP（Agent Client Protocol）支持，被 GitHub Stars 列为 TA 最新的社区贡献。"},
+     {"when": "2025", "title": "Alma、Confirmo、smart-suggestion", "text": "开始做面向普通用户的 AI 桌面应用，同时用 Go 给 zsh 写了 AI 命令建议插件。"},
+     {"when": "2026", "title": "一年五个高星项目", "text": "voice-input（3 月）、native-feel-skill（5 月）、kill-ai-slop（7 月）、Cumora（8 月）、magpie（9 月）相继发布，其中 magpie 上线一个多月就超过了 avante.nvim 的星数。"}
+    ]},
+    {"p": "这条时间线有一个规律：<strong>新能力出现 → 几天到几周内做出一个开源接入层 → 在社区里迅速被验证 → 再决定是否做成独立产品。</strong>openai-translator、avante.nvim、magpie 都是这样诞生的。"}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "magpie",
-       "meta": "2026 · Go · ★1.7 万+",
-       "text": "本地网关同时讲 OpenAI Responses、Anthropic Messages 和 Gemini 协议，双向翻译流式输出、工具调用和推理内容，让任意 Agent 用任意模型。",
-       "url": "https://usemagpie.ai"
-      },
-      {
-       "name": "avante.nvim",
-       "meta": "2024 · Lua",
-       "text": "让 Neovim 拥有 Cursor 式的 AI 编程体验：侧栏对话、diff 预览、一键应用，后来扩展到 Agent 与 ACP。",
-       "url": "https://github.com/yetone/avante.nvim"
-      },
-      {
-       "name": "openai-translator",
-       "meta": "2023 · TypeScript",
-       "text": "基于大模型的划词翻译、润色、语法纠错工具，从 Bob 插件起步，扩展到桌面端与浏览器扩展。",
-       "url": "https://github.com/openai-translator/openai-translator"
-      },
-      {
-       "name": "Alma",
-       "meta": "2025 · 桌面应用",
-       "text": "优雅的 AI 提供商编排客户端：在 OpenAI、Anthropic、Gemini 与自定义提供商之间无缝切换，带记忆。",
-       "url": "https://alma.now"
-      },
-      {
-       "name": "kill-ai-slop / native-feel-skill",
-       "meta": "2026 · Agent Skill",
-       "text": "两份关于「质感」的 Skill：一份总结 AI 生成产品的视觉与文案陈词滥调并帮你清理；一份从 Raycast 2.0 的设计复盘里提炼「跨平台却像原生」的方法。",
-       "url": "https://github.com/yetone/kill-ai-slop"
-      },
-      {
-       "name": "劍 SWORD",
-       "meta": "2026 · 网页游戏",
-       "text": "南宋绍兴年间背景的横版动作小游戏，WASD 移动、J 攻击、L 轻功。一个工具作者的浪漫副业。",
-       "url": "https://swordgame.ai"
-      }
+    {"work": {
+     "name": "magpie", "url": "https://usemagpie.ai",
+     "meta": ["2026.09", "Go", "免费 · 开源"],
+     "paras": [
+      "口号是「Every agent's model. One place.」解决的问题很具体：Codex 只认 OpenAI Responses 协议，Claude Code 只认 Anthropic Messages 协议。magpie 在你电脑上（127.0.0.1:3425）跑一个本地网关，同时会说这几种协议并且<strong>双向翻译</strong>，流式输出、工具调用和推理过程都不丢，于是任意 Agent 都能用任意厂商的模型：Codex 用 DeepSeek，Claude Code 用 Kimi，Gemini CLI 用 GLM。",
+      "真正让它出圈的是几个细节："
+     ],
+     "bullets": [
+      "<strong>菜单栏一键切换：</strong>只改写那个 Agent 配置里你动过的那一项；选回原生模型时，把原来的配置原样恢复。",
+      "<strong>订阅共享：</strong>在 Claude Code 里登录过的 Claude Pro / Max、在 Codex 里登录过的 ChatGPT Plus、你的 Copilot 席位，都能变成其他 Agent 的模型来源，不用复制或粘贴任何密钥。",
+      "<strong>智能路由：</strong>给每个模型写一句用途（「简单提问」「写或修测试」），每轮对话开始时由一个小模型判断类别，再交给对应的模型。",
+      "<strong>自动接力：</strong>多个账号和密钥都加进来后，某个额度用完，下一个会在 Agent 报错之前接上。",
+      "<strong>覆盖面：</strong>官网列出 30 多个支持的 Agent（Claude Code、Codex、Gemini CLI、OpenCode、Cursor CLI、Copilot CLI、Goose……）和 15 家以上模型供应商；提供中、英、日、德四种语言。"
+     ],
+     "facts": [["GitHub", "★18,624 · ⑂1,367"], ["创建", "2026-09"], ["平台", "macOS 12+（含 Intel）、Windows、Linux"], ["官网托管", "Cloudflare"]]
+    }},
+    {"work": {
+     "name": "avante.nvim", "url": "https://github.com/yetone/avante.nvim",
+     "meta": ["2024.08", "Lua + Rust", "Apache 2.0"],
+     "paras": [
+      "「Use your Neovim like using Cursor AI IDE!」侧栏对话、AI 建议以 diff 形式预览、一键应用到源文件。之后陆续加入项目级指令文件（avante.md）、多家模型供应商、Agent 模式，以及 2025 年 9 月的 ACP 支持，让 Neovim 可以直接驱动外部的编程 Agent。",
+      "它的意义在于证明了「终端党」不必为了 AI 离开自己的编辑器。项目后来搬到了 avante-corp 组织下，周边已经长出第三方生态，比如为它做本地 OpenAI 兼容代理的 PyPI 包。"
+     ],
+     "facts": [["GitHub", "★18,188 · ⑂861"], ["开源日期", "2024-08-14"], ["最新里程碑", "ACP 支持（2025-09）"]]
+    }},
+    {"work": {
+     "name": "nextai-translator（原 openai-translator）", "url": "https://github.com/nextai-translator/nextai-translator",
+     "meta": ["2023.03", "TypeScript + Rust", "浏览器扩展 + 桌面端"],
+     "paras": [
+      "「不只是翻译的翻译器」：划词翻译、润色、总结、语法纠错，背后接的是大模型。最早是 macOS 翻译工具 Bob 的插件，验证需求后扩展成 Chrome / Firefox 扩展和跨平台桌面端。为了能在任何应用里取到选中文字，TA 还单独抽出一个 Rust 库 get-selected-text（★210），支持 macOS、Windows、Linux。",
+      "因为收到 OpenAI 的商标警告，项目改名为 nextai-translator，并迁到独立组织下。它是 TA 第一个真正意义上的「爆款」，也定下了 TA 之后的路线：先插件，后产品。"
+     ],
+     "facts": [["GitHub", "★25,004"], ["创建", "2023-03-04"], ["yetone 提交数", "670（第二名 74）"]]
+    }},
+    {"work": {
+     "name": "Cumora", "url": "https://cumora.ai",
+     "meta": ["2026.08", "TypeScript", "预览期免费"],
+     "paras": [
+      "「A workspace where AI teammates live, not visit.」一款人和 AI Agent 同为成员的团队聊天应用：同一份成员列表、同样的私聊和群聊、同一块看板和日历。每个 Agent 有自己的人设、记忆和状态，能认领任务、互相协调、收发真实邮件，可以跑在 Cumora 云端，也可以用你自己的 Claude Code / Codex 作为「大脑」。",
+      "最特别的设计是<strong>「主动性」</strong>：按你设定的节奏，空闲的 Agent 会醒来看看房间里发生了什么，再决定要不要私信某个队友、发一条想法，或者拉几个人讨论它注意到的事。"
+     ],
+     "facts": [["GitHub", "★4,005"], ["平台", "macOS、Windows、Linux、Web、iOS TestFlight"], ["价格", "预览期免费"]]
+    }},
+    {"work": {
+     "name": "native-feel-skill 与 kill-ai-slop", "url": "https://github.com/yetone/kill-ai-slop",
+     "meta": ["2026", "Agent Skill", "关于「质感」"],
+     "paras": [
+      "两份写给 Agent 的品味说明书。<strong>native-feel-skill</strong>（★1.9 千）从 Raycast 2.0 的设计复盘和逆向分析里提炼方法，教 Agent 做出「跨平台却像原生」的桌面应用。<strong>kill-ai-slop</strong>（★1.4 千）是一份 AI 生成产品的视觉与文案「陈词滥调」图鉴，并附带一个 Skill，扫描项目并把它们清理掉，还有配套网站 killaislop。",
+      "当所有人都在用 AI 写代码时，TA 把注意力放在「AI 写出来的东西为什么一眼就能认出来」上。这是工具作者少见的设计自觉。"
      ]
-    }
+    }},
+    {"h3": "其他作品"},
+    {"table": {
+     "cols": ["作品", "时间", "是什么"],
+     "rows": [
+      ["Alma", "2025", "多模型 AI 桌面客户端：统一 OpenAI、Anthropic、Gemini、DeepSeek 与自定义 API，带可管理的长期记忆、联网搜索和工具调用"],
+      ["Confirmo", "2025", "「住在桌面上的 AI 编程伙伴」，还有一个精灵形象画廊"],
+      ["voice-input", "2026", "语音输入工具，源码仓库 ★2.4 千"],
+      ["smart-suggestion", "2025", "在 zsh 里直接给出 AI 命令建议（Go）"],
+      ["《劍》SWORD", "2026", "南宋绍兴年间背景的水墨风武侠动作网页游戏：WASD 移动、J 攻击、K 二段跳、L 轻功、Q 飞笠"],
+      ["Yansu", "—", "X 简介「Building」一栏列出的「主动式 AI」项目"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "yetone 的 GitHub 本身就是一份作品集。置顶的六个仓库里，有三个已经独立成组织（avante-corp、nextai-translator），一个属于 BentoML，说明 TA 的项目常常在成功后「交出去」。"},
+    {"table": {
+     "caption": "星数最高的个人项目（2026 年 10 月）",
+     "cols": ["仓库", "★", "语言", "创建", "用途"],
+     "rows": [
+      ["nextai-translator", "25,004", "TypeScript", "2023", "大模型划词翻译"],
+      ["magpie", "18,624", "Go", "2026", "任意 Agent 用任意模型的本地网关"],
+      ["avante.nvim", "18,188", "Lua", "2024", "Neovim 里的 Cursor"],
+      ["cumora", "4,005", "TypeScript", "2026", "人与 Agent 的团队聊天"],
+      ["voice-input-src", "2,425", "—", "2026", "语音输入"],
+      ["native-feel-skill", "1,931", "—", "2026", "原生手感设计 Skill"],
+      ["kill-ai-slop", "1,375", "TypeScript", "2026", "清理 AI 陈词滥调"],
+      ["cosmos-nvim", "306", "Lua", "2022", "Neovim 配置"],
+      ["get-selected-text", "210", "Rust", "2024", "跨平台获取选中文字"]
+     ]
+    }},
+    {"p": "近一年 17,984 次贡献，平均每天接近 50 次。即使考虑到 Agent 辅助编程会放大提交数量，这也是一个非常高强度的开源节奏。语言上，TA 不拘一格：需要嵌入编辑器就写 Lua，需要高性能网关就写 Go，需要系统级能力就写 Rust，界面层则用 TypeScript。"}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站与线上形象",
+   "title": "线上形象与产品官网",
    "blocks": [
-    {
-     "site": {
-      "url": "https://github.com/yetone",
-      "paras": [
-       "yetone 没有传统意义上的个人博客，TA 的 X 主页就是作品目录：Built 一行写着 avante.nvim，Building 一行列出 magpie、Alma、Confirmo、剑、Yansu、Cumora 六个链接。",
-       "GitHub 个人简介只有「ohh」两个字母加一个感叹词；公司一栏写着 @Isoform。"
-      ]
-     }
-    },
-    {
-     "p": "TA 的产品官网非常统一：大标题一句话讲清价值（「Every agent's model. One place.」），下面紧接一张清晰的数据流示意，再往下是多语言切换和下载按钮。magpie 的官网同时提供英语、中文、日语、德语四种语言，这在个人开发者里并不常见。"
-    }
+    {"p": "yetone 没有传统意义上的个人博客。X 主页就是作品目录：简介里「Built」一栏写着 avante.nvim，「Building」一栏列出 magpie、Alma、Confirmo、剑、Yansu、Cumora 六个链接。GitHub 简介只有一个词：「ohh」。"},
+    {"site": {"url": "https://usemagpie.ai", "paras": [
+     "产品官网是 TA 最用心的「个人网站」。magpie 首页的第一屏只有一句话和三行示例：「Codex → DeepSeek V4 Pro」「Claude Code → Kimi K3」「Gemini CLI → GLM-5.3」，用户一眼就知道它能做什么。",
+     "往下是一张数据流示意图（你的 Agent → magpie 网关 → 任意供应商），再往下按「菜单栏、方案、订阅共享、智能路由」逐一解释功能。全站提供中、英、日、德四种语言。"
+    ]}},
+    {"table": {
+     "cols": ["站点", "技术与托管", "设计特点"],
+     "rows": [
+      ["usemagpie.ai", "Cloudflare", "一句话 + 三行示例开场；数据流图解释原理；四种语言"],
+      ["cumora.ai", "Cloudflare", "大标题「Not a chatbot. A coworker.」，桌面和手机截图并排"],
+      ["alma.now", "Cloudflare", "传统的功能列表 + 分平台下载按钮，坦白写明「目前只在 Apple Silicon 上测试过」"],
+      ["swordgame.ai", "Cloudflare", "整站就是游戏本身，繁体中文、水墨风格"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "观点与方法",
    "blocks": [
-    {
-     "p": "yetone 的作品有一个共同的「不打扰」哲学：<strong>工具应该长在你原本的工作流里</strong>。翻译出现在划词的位置，AI 建议出现在编辑器的 diff 里，模型切换出现在菜单栏。用户不需要学会一个新应用，只需要多一个顺手的入口。"
-    },
-    {
-     "p": "TA 也在认真思考 AI 时代的「质感」问题。kill-ai-slop 把 AI 生成界面里常见的渐变紫、空洞形容词、过度 emoji 等「slop」列成清单；native-feel-skill 研究的是怎样让 Electron/跨平台应用摸起来像原生。这说明 TA 关心的不只是功能能不能跑通，还有东西用起来好不好。"
-    },
-    {
-     "callout": "magpie 改写 Agent 配置时「只改你动过的那个键」，选回原生模型时「把原来的东西原样放回去」。这类细节很少出现在宣传语里，却决定了一个工具敢不敢被装进别人的主力环境。",
-     "t": "一个值得学的细节"
-    }
+    {"quote": "I firmly believe that only keyboard operations can form muscle memory.", "cite": "yetone，GitHub Stars 个人页"},
+    {"p": "从作品里能读出 TA 的几条原则："},
+    {"ul": [
+     "<strong>入口比功能重要。</strong>翻译出现在划词的位置，AI 建议出现在编辑器的 diff 里，模型切换出现在菜单栏。用户不需要学会一个新应用，只需要多一个顺手的入口。",
+     "<strong>尊重用户的配置。</strong>magpie 只改你动过的那一个键，可以完整回退。开发者工具只有做到可逆，才敢被装进别人的主力环境。",
+     "<strong>质感可以被写下来。</strong>与其每次都靠感觉，不如把「什么是 slop」「什么是原生感」写成规则，让 Agent 也能遵守。",
+     "<strong>Agent 是同事，不是聊天框。</strong>从 Confirmo 的桌面伙伴到 Cumora 会主动开口的队友，TA 一直在探索 Agent 更自然的存在方式。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["时机", "对新能力极其敏感，常常是第一批做出可用接入层的人", "追热点的项目更新快，用户需要跟上频繁的版本变化"],
+      ["工程", "多语言、多平台通吃；项目能长期维护并交给组织", "产品线越来越多（magpie、Cumora、Alma、Confirmo……），精力如何分配有待观察"],
+      ["设计", "重视可逆性、原生感和文案，主动反思 AI 产品的审美问题", "部分桌面应用（如 Alma）官网写明只在 Apple Silicon 上充分测试"],
+      ["商业", "开源 + 赞助 + 商业赞助位，路径清楚", "多数产品免费或处于预览期，长期收费模式尚未公开"]
+     ]
+    }},
+    {"note": "以上判断基于公开资料，不是对软件质量的实测结论。"}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>站在时间点上：</strong>新能力出现时（ChatGPT API、Agent、ACP），第一时间把它接进开发者最常用的入口。",
-      "<strong>先做插件，再做产品：</strong>openai-translator 从一个 Bob 插件起步，验证需求后才扩展成跨平台应用。",
-      "<strong>尊重用户的现有配置：</strong>只改必要的部分，可逆、可回退，这是开发者工具赢得信任的前提。",
-      "<strong>把审美写成规则：</strong>把「什么是 slop」「什么是原生感」写成 Skill，让好品味可以被复用。"
-     ]
-    }
+    {"checklist": [
+     "<strong>站在时间点上：</strong>新能力出现时，第一时间把它接进开发者最常用的入口。",
+     "<strong>先做插件，再做产品：</strong>openai-translator 从一个 Bob 插件起步，验证需求后才扩展成跨平台应用。",
+     "<strong>把底层能力抽成库：</strong>get-selected-text 这样的小库，既服务自己的产品，也让别人受益。",
+     "<strong>成功之后交给社区：</strong>把项目迁入独立组织，让它不依赖某一个人。",
+     "<strong>把审美写成规则：</strong>native-feel-skill 和 kill-ai-slop 让好品味可以被复用。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "magpie 官网", "url": "https://usemagpie.ai", "why": "学习怎样用一屏讲清一个复杂的开发者工具，再读一读「订阅共享」和「智能路由」的设计。"},
+     {"name": "kill-ai-slop", "url": "https://github.com/yetone/kill-ai-slop", "why": "对照清单检查自己的产品里有没有 AI 味的陈词滥调。"},
+     {"name": "avante.nvim", "url": "https://github.com/yetone/avante.nvim", "why": "如果你用 Neovim，直接装上体验；如果不用，也值得看它如何把 diff 预览做成 AI 交互的核心。"}
+    ]}
    ]
   }
  ],
- "cta": "从 magpie 或 avante.nvim 开始，感受「不打断工作流」的 AI 工具是什么样子。",
+ "cta": "装一个 magpie，或者在 Neovim 里试试 avante.nvim。",
  "sources": [
-  {
-   "label": "yetone 的 X 个人资料",
-   "url": "https://x.com/yetone"
-  },
-  {
-   "label": "GitHub：yetone",
-   "url": "https://github.com/yetone"
-  },
-  {
-   "label": "GitHub Stars 个人页",
-   "url": "https://stars.github.com/profiles/yetone"
-  },
-  {
-   "label": "magpie 官网",
-   "url": "https://usemagpie.ai"
-  },
-  {
-   "label": "Alma 官网",
-   "url": "https://alma.now"
-  },
-  {
-   "label": "Cumora 官网",
-   "url": "https://cumora.ai"
-  },
-  {
-   "label": "avante.nvim 项目介绍（Jimmy Song Landscape）",
-   "url": "https://landscape.jimmysong.io/projects/avante-nvim/"
-  }
+  {"label": "yetone 的 X 个人资料", "url": "https://x.com/yetone"},
+  {"label": "GitHub：yetone", "url": "https://github.com/yetone"},
+  {"label": "GitHub Stars 个人页", "url": "https://stars.github.com/profiles/yetone/"},
+  {"label": "magpie 官网", "url": "https://usemagpie.ai"},
+  {"label": "magpie README", "url": "https://github.com/yetone/magpie"},
+  {"label": "avante.nvim README", "url": "https://github.com/yetone/avante.nvim"},
+  {"label": "avante.nvim 项目介绍（Jimmy Song Landscape）", "url": "https://landscape.jimmysong.io/projects/avante-nvim/"},
+  {"label": "nextai-translator README（更名说明）", "url": "https://github.com/nextai-translator/nextai-translator"},
+  {"label": "Cumora 官网", "url": "https://cumora.ai"},
+  {"label": "Alma 官网", "url": "https://alma.now"},
+  {"label": "kill-ai-slop", "url": "https://github.com/yetone/kill-ai-slop"},
+  {"label": "native-feel-skill", "url": "https://github.com/yetone/native-feel-skill"},
+  {"label": "GitHub：bentoml/Yatai 贡献者", "url": "https://github.com/bentoml/Yatai/graphs/contributors"},
+  {"label": "劍 SWORD", "url": "https://swordgame.ai"}
  ]
 }

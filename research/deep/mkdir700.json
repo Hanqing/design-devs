@@ -1,0 +1,538 @@
+{
+ "handle": "mkdir700",
+ "sites": [
+  {
+   "url": "http://z2blog.com",
+   "ok": true,
+   "title": "Mkdir700's Notes",
+   "description": "",
+   "stack": [],
+   "hosting": [],
+   "lang": "zh-CN",
+   "home_text": "2026-03-11 \n 要不要离职，回老家做一人公司？ \n最近我一直在想一件事： 我要不要离职，回老家去做一人公司。 表面上看，我现在这份工作其实已经很好了。 在上海，世界前 500 强外企，不怎么加班，福利也不错：每年 15 天病假、15 天年假、6 险一金、门诊全额报销。 每个月家里两个人的开销除掉之后，还能结余 1 万多。 说实话，这个收入和福利，也 \n 2026-03-09 \n 为什么熵增定律，反而说明 AI 很难真正“取代人” \n很多人在谈论 AI 迟早替代人类，都习惯性的盯着一个问题：它会不会算得更快、写得更好、记得更多。可物理世界给了我们一个更冷静的视角——熵增定理。 熵增定律（Entropy Increase Law）即热力学第二定律，是指在一个孤立系统内，如果没有外力做功，系统总混乱度（熵）会不断增大，自发地从有序走 \n 2026-03-09 \n 月成本100 元内爽用 Codex 5.3，实现 Token 自由 \n在并行任务、Agent 批量执行或长时间交互式编程场景下，单账号会频繁触发限流。 解决思路很简单，是把多个 Plus 账号做成号池： 通过 sub2api 对外暴露单一 API 接口，内部根据实时额度状态进行账号调度和负载分配。 更重要的是，这套方案的成本非常可控。下面这张图是我昨天的实际用量：2 \n 2026-03-09 \n Agent Teams 完全配置手册：终端、记忆与工作流 \n一句话核心：掌握终端配置、记忆系统与工作流设计，让 Agent Teams 从“能用”到“好用”。 为什么需要这份手册？ Claude Code 的 Agent Teams 功能强大，但官方文档分散在多个页面，关键配置细节容易被忽略。更重要的是，很多“奇怪的行为”其实是有意的设计——如果不理解背后的 \n 2026-03-08 \n 一场被截断的人生 \n他是我大哥。 从小在农村长大。 爸妈常年在外打工，他基本是奶奶带大的。 小学、中学都在县城读书。 那所学校我后来去看过——很小，几栋教学楼，一个操场，就没了。 没有资源，也谈不上条件。 但他一路读书很争气。 后来考上重点高中，上了大学，又读了研究生。 毕业后考进林业局，成了公务员。 工作稳定，生活一 \n 2026-03-08 \n 国内订阅 Claude Code 完整教程：一张虚拟卡解决所有海外订阅难题（免费开卡 + 终身受用） \n本文将手把手教你在国内订阅 Claude Code，建议点赞收藏，慢慢折腾。 虽然本文以订阅 Claude Code 为例，但你开通 Bitget 虚拟信用卡后，它的用途远不止于此！这张卡可以： ✅ 订阅所有海外 AI 服务：ChatGPT Plus/Pro、Midjourney、Cursor、Gi \n 2026-02-12 \n 暴力而优雅:DOS 程序员如何用两个字节控制屏幕 \n我第一次接触计算机，是在小学的微机课上。 当时用的是 Windows XP，从那时起，鼠标、窗口、图标这些 GUI 交互方式几乎成了默认的“电脑使用方式”。 相信很多人也是类似的经历。 前一段时间，我的时间线上经常出现关于 GUI 和 TUI 的争论。 有人不理解：都这个时代了，为什么还需要终端？ \n 2025-08-21 \n 在 zsh 里同时用上 Vim 和 Emacs 快捷键 \n很多开发者在终端里用 zsh 的时候，会习惯性地打开 bindkey -v，进入 vi 模式。这样做的好处很明显：命令行也能像 Vim 一样分成 普通模式和插入模式，用 h/j/k/l 移动光标，w/b 按词跳转，甚至可以 dd 删除一整行，yy/p 来复制粘贴——对于重度 Vim 用户来说非常顺手 \n 2025-06-20 \n macOS 代码签名配置指南 \n概述 配置 macOS 代码签名和公证，确保应用能够在 macOS 上正常分发和运行。 前置要求 Apple Developer 账户 需要付费的 Apple Developer Program 会员资格 个人账户或组织账户均可 开发者证书 Developer ID Application Cert \n 2025-05-26 \n 如何对特定 Commit 中的指定文件进行 Revert \n场景描述 在日常开发中，我们经常遇到这样的情况：一个 commit 包含了多个文件的修改，但我们只想回滚其中某个或某几个文件的更改，而保留其他文件的修改。这种精细化的版本控制操作在以下场景中特别有用： 热修复场景：紧急修复某个文件的问题，但不影响同一 commit 中的其他功能 功能拆分：将一个大的 \n 1 / 7 \n 下一页",
+   "github_links": [
+    "mkdir700"
+   ],
+   "subpages": {
+    "http://z2blog.com/links": "[Mkdir700's Note](http://z2blog.com/)\n[首页](http://z2blog.com/)[标签](http://z2blog.com/tags)[归档](http://z2blog.com/archives)[友链](http://z2blog.com/links)\n[](javascript:void(0) \"搜索\")[](http://z2blog.com/console \"登录\")\n# 友情链接\n## 我的邻居\n[ ### 小曾博客](http://zeng26.com/)\n[ ### Valcosmos](https://www.valzt.cn/)\n[ ### 微风小屋](https://www.luocome.cn/)\n[](https://x.com/mkdir700 \"X\")[](https://github.com/mkdir700 \"Github\")\n友情链接[小曾博客](http://zeng26.com/) · [Valcosmos](https://www.valzt.cn/) · [微风小屋](https://www.luocome.cn/)\n© 2020-2026 mkdir700 All Rights Reserved.\n加载速度:计算中...\n[蜀ICP备17033099号-7](https://beian.miit.gov.cn/)"
+   },
+   "feed": {
+    "url": "http://z2blog.com/feed.xml",
+    "count_seen": 20,
+    "items": [
+     {
+      "title": "要不要离职，回老家做一人公司？",
+      "date": "Wed, 11 Mar 2026 08:36:57",
+      "url": "http://www.z2blog.com/archives/yao-bu-yao-chi-zhi-hui-lao-jia-zuo-yi-ren-gong-si"
+     },
+     {
+      "title": "为什么熵增定律，反而说明 AI 很难真正“取代人”",
+      "date": "Mon, 9 Mar 2026 01:50:15 ",
+      "url": "http://www.z2blog.com/archives/wei-shi-me-shang-zeng-ding-lu-fan-er-shuo-ming-ai-hen-nan-zhen-zheng-qu-dai-ren"
+     },
+     {
+      "title": "月成本100 元内爽用 Codex 5.3，实现 Token 自由",
+      "date": "Mon, 9 Mar 2026 01:36:04 ",
+      "url": "http://www.z2blog.com/archives/yue-cheng-ben-100-yuan-nei-shuang-yong-codex-5.3-shi-xian-token-zi-you"
+     },
+     {
+      "title": "Agent Teams 完全配置手册：终端、记忆与工作流",
+      "date": "Mon, 9 Mar 2026 01:35:59 ",
+      "url": "http://www.z2blog.com/archives/agent-teams-wan-quan-pei-zhi-shou-ce-zhong-duan-ji-yi-yu-gong-zuo-liu"
+     },
+     {
+      "title": "一场被截断的人生",
+      "date": "Sun, 8 Mar 2026 06:39:03 ",
+      "url": "http://www.z2blog.com/archives/yi-chang-bei-jie-duan-de-ren-sheng"
+     },
+     {
+      "title": "国内订阅 Claude Code 完整教程：一张虚拟卡解决所有海外订阅难题（免费开卡 + 终身受用）",
+      "date": "Sun, 8 Mar 2026 06:38:25 ",
+      "url": "http://www.z2blog.com/archives/guo-nei-ding-yue-claude-code-wan-zheng-jiao-cheng-yi-zhang-xu-ni-qia-jie-jue-suo-you-hai-wai-ding-yue-nan-ti-mian-fei-kai-qia-zhong-shen-shou-yong"
+     },
+     {
+      "title": "暴力而优雅:DOS 程序员如何用两个字节控制屏幕",
+      "date": "Thu, 12 Feb 2026 09:24:33",
+      "url": "http://www.z2blog.com/archives/bao-li-er-you-ya-dos-cheng-xu-yuan-ru-he-yong-liang-ge-zi-jie-kong-zhi-ping-mu"
+     },
+     {
+      "title": "在 zsh 里同时用上 Vim 和 Emacs 快捷键",
+      "date": "Thu, 21 Aug 2025 02:16:51",
+      "url": "http://www.z2blog.com/archives/zai-zsh-li-tong-shi-yong-shang-vim-he-emacs-kuai-jie-jian"
+     },
+     {
+      "title": "macOS 代码签名配置指南",
+      "date": "Thu, 19 Jun 2025 22:54:03",
+      "url": "http://www.z2blog.com/archives/macos-dai-ma-qian-ming-pei-zhi-zhi-nan"
+     },
+     {
+      "title": "如何对特定 Commit 中的指定文件进行 Revert",
+      "date": "Mon, 26 May 2025 08:59:04",
+      "url": "http://www.z2blog.com/archives/ru-he-dui-te-ding-commit-zhong-de-zhi-ding-wen-jian-jin-xing-revert"
+     },
+     {
+      "title": "Rust 项目中解决依赖重复编译问题：以 objc2 为例",
+      "date": "Fri, 28 Mar 2025 17:00:31",
+      "url": "http://www.z2blog.com/archives/rust-xiang-mu-zhong-jie-jue-yi-lai-chong-fu-bian-yi-wen-ti-yi-objc2wei-li"
+     },
+     {
+      "title": "Rust 中优雅地实现类型转换：从自定义方法到通用 trait",
+      "date": "Fri, 28 Mar 2025 14:45:54",
+      "url": "http://www.z2blog.com/archives/rust-zhong-you-ya-di-shi-xian-lei-xing-zhuan-huan-cong-zi-ding-yi-fang-fa-dao-tong-yong-trait"
+     },
+     {
+      "title": "分布式事务的挑战：从 Saga 到 2PC，以及 SQLite 的局限性",
+      "date": "Thu, 27 Mar 2025 08:14:06",
+      "url": "http://www.z2blog.com/archives/fen-bu-shi-shi-wu-de-tiao-zhan-cong-saga-dao-2pc-yi-ji-sqlite-de-ju-xian-xing"
+     },
+     {
+      "title": "什么是 WebRTC 及简单实现",
+      "date": "Mon, 24 Mar 2025 06:07:05",
+      "url": "http://www.z2blog.com/archives/liao-jie-webrtc"
+     },
+     {
+      "title": "什么是向量数据库",
+      "date": "Wed, 19 Mar 2025 14:15:48",
+      "url": "http://www.z2blog.com/archives/shi-me-shi-xiang-liang-shu-ju-ku"
+     },
+     {
+      "title": "React严格模式下事件监听器失效",
+      "date": "Tue, 18 Mar 2025 15:27:07",
+      "url": "http://www.z2blog.com/archives/reactyan-ge-mo-shi-xia-shi-jian-jian-ting-qi-shi-xiao"
+     },
+     {
+      "title": "Rust 异步线程安全问题解析与修复",
+      "date": "Sun, 16 Mar 2025 07:57:34",
+      "url": "http://www.z2blog.com/archives/rust-yi-bu-xian-cheng-an-quan-wen-ti-jie-xi-yu-xiu-fu"
+     },
+     {
+      "title": "Tokio：为什么异步互斥锁比同步互斥锁更\"昂贵\"",
+      "date": "Sat, 15 Mar 2025 01:55:07",
+      "url": "http://www.z2blog.com/archives/tokio-wei-shi-me-yi-bu-hu-chi-suo-bi-tong-bu-hu-chi-suo-geng-ang-gui"
+     },
+     {
+      "title": "Tokio：应该使用哪种 mutex？",
+      "date": "Sat, 15 Mar 2025 01:11:31",
+      "url": "http://www.z2blog.com/archives/tokio-ying-gai-shi-yong-na-zhong-mutex"
+     },
+     {
+      "title": "SOLID 原则详解",
+      "date": "Fri, 14 Mar 2025 04:20:22",
+      "url": "http://www.z2blog.com/archives/solid-yuan-ze-xiang-jie"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://uniclipboard.app",
+   "ok": true,
+   "title": "UniClipboard | Encrypted Clipboard Sync Across Devices",
+   "description": "Sync your clipboard across Mac, Windows, Linux, iPhone, and Android. Open source and end-to-end encrypted, with no cloud account or server to run.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Copy on one device, paste on any other — Mac, Windows, Linux, iPhone, and Android. Copy on Mac Mac Windows Linux iPhone Android paste on iPhone Mac Windows Linux iPhone Android \nText, images, and files move only between your own devices. No account, no server to run. \n Download now Try it in your browser → \n Other platforms · Technical whitepaper \n 1.9K ★ on GitHub Free & open source · End-to-end encrypted \n Play demo \nOne clipboard. Every device you own. \nText, images, and files, end-to-end encrypted. No account needed. \n How does it work on my phone? → Try it in your browser → \n 1.9K ★ on GitHub Free & open source · End-to-end encrypted \nFeatures \nYour system clipboard — now cross-platform, searchable, and end-to-end encrypted. \n01 — Five platforms \nCopy once, paste on all five. \nDesktop and mobile run the same sync engine, so your phone is never a second-class device. \n 01 Three desktops Mac, Windows, and Linux — fast to launch, light on resources, living in the menu bar or tray. \n 02 iOS & Android apps iOS in public beta on TestFlight; Android as a direct download. \n 03 LAN-only when you want it One switch keeps all traffic on your local network and turns the relay off. \n macOS \n device A \n home \n direct ~8ms \n relay ~47ms \n Windows \n device B \n remote \ntransport · automatic fallback \ndirect first · encrypted relay if direct is unstable \n device A \n password: hunter2 text · 17 B \n screenshot.png 1240 × 880 \n report.pdf 2.4 MB \n in transit \n0000 0000 0000 0000 \n // server sees only this \n device B \n password: hunter2 text · 17 B \n screenshot.png 1240 × 880 \n report.pdf 2.4 MB \nat rest · aes-256-gcm \n0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 \n02 — Privacy first \nThe relay only sees ciphertext. \nContent is encrypted before it leaves your device and decrypted only on yours. Keys never leave the system keyring. \n 01 End-to-end encrypted XChaCha20-Poly1305 AEAD — encrypted in transit and at rest. \n 02 No cloud account No email, no phone number. Devices pair by exchanging a public key. \n 03 Auditable code AGPL-3.0 open source. Read and verify the crypto yourself. \n03 — Power-user friendly \nQuick Panel, full-text search, CLI — all included. \nBuilt for people who live in their clipboard. \n 01 Quick Panel Shortcut overlay with inline previews for text, links, images, code, and files. \n 02 Local full-text search Search tens of thousands of entries in milliseconds. The index stays encrypted on disk. \n 03 uniclip CLI Everything the GUI does, from the command line — for terminals, SSH, and scripts. \n quick panel \n search clipboard… ⌘ ⇧ V \n API_KEY=sk-ant-*** 2m ⏎ \n github.com/zed/api 5m \n API endpoint changed 12m \n screenshot.png 1h \n 4 of 28k items indexed · ms-search \nuniclip cli · headless \n $ git diff | uniclip copy \n01 — Five platforms \nCopy once, paste on all five. \nDesktop and mobile run the same sync engine, so your phone is never a second-class device. \n 01 Three desktops Mac, Windows, and Linux — fast to launch, light on resources, living in the menu bar or tray. \n 02 iOS & Android apps iOS in public beta on TestFlight; Android as a direct download. \n 03 LAN-only when you want it One switch keeps all traffic on your local network and turns the relay off. \n02 — Privacy first \nThe relay only sees ciphertext. \nContent is encrypted before it leaves your device and decrypted only on yours. Keys never leave the system keyring. \n 01 End-to-end encrypted XChaCha20-Poly1305 AEAD — encrypted in transit and at rest. \n 02 No cloud account No email, no phone number. Devices pair by exchanging a public key. \n 03 Auditable code AGPL-3.0 open source. Read and verify the crypto yourself. \n03 — Power-user friendly \nQuick Panel, full-text search, CLI — all included. \nBuilt for people who live in their clipboard. \n 01 Quick Panel Shortcut overlay with inline previews for text, links, images, code, and files. \n 02 Local full-text search Search tens of thousands of entries in milliseconds. The index stays encrypted on disk. \n 03 uniclip CLI Everything the GUI does, from the command line — for terminals, SSH, and scripts. \nMore \nOther things you might want. \nFamiliar shortcuts \n⌘C / Ctrl-C to copy, ⌘V / Ctrl-V to paste — same as always. Nothing new to learn. \nFormatting stays intact \nRich text and HTML paste back in their original format, not flattened to plain text. \nSync across networks \nLaptop on office Wi-Fi, phone on mobile data — still in sync. Direct connection first, encrypted relay when needed. \nSelf-healing \nReconnects au",
+   "github_links": [
+    "UniClipboard",
+    "zed"
+   ],
+   "subpages": {
+    "https://uniclipboard.app/blog": "Blog \nNotes from the team. \nHow we build UniClipboard, what we're shipping, and the tradeoffs behind cross-device clipboard sync — written for engineers who want the details. \n 7 posts \n Post 2026-08-12 \nWeChat Input Method vs UniClipboard: keep your keyboard, expand your clipboard \nCross-device paste is now table stakes. The difference is what your clipboard can become after that. Read post \n Post 2026-05-09 \nHow encrypted search works \nThe index is encrypted on disk. Search still works by matching HMAC term tags instead of plaintext words. Read post \n Post 2026-05-07 \nPlanck Alternative for Privacy-Friendly Clipboard Sync \nIf you found Planck and liked the idea — clipboard that follows you across Mac, Windows, and Linux — but you want something more privacy-leaning, more open, and not tied to a vendor cloud account, this page is for you. Read post \n Post 2026-05-07 \nSync clipboard between Mac, Windows and Linux without cloud account \nYou copied a long URL on your Mac. You want to paste it on your Windows desktop, or your Linux box at home. The “solutions” people end up using are surprisingly bad: Read post \n Post 2026-05-07 \nBest open-source clipboard sync between Mac, Windows and Linux \nMost people who search for this don't actually want a list of every clipboard tool that exists. They want a tool that: Read post \n Post 2026-05-01 \nEncryption & Privacy Whitepaper \nHow UniClipboard keeps your clipboard yours — the cryptography, the transport, and the threats the design does and doesn't address. Read post \n Post 2026-05-05 \nWhy iroh, not libp2p or WebRTC: Building a P2P clipboard \nA year of building a serverless, cross-device clipboard came down to one interesting decision: which P2P stack. Here's the long version of that answer. Read post"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mkdir700",
+  "user": {
+   "name": "Mark",
+   "company": null,
+   "blog": "www.z2blog.com",
+   "location": "Shanghai",
+   "bio": "Slow is Smooth, Smooth is Fast.",
+   "public_repos": 159,
+   "followers": 123,
+   "created_at": "2019-10-09T15:53:34Z",
+   "twitter_username": "mkdir700",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mkdir700/chaoxing_auto_sign",
+    "description": "超星学习通课堂签到&健康打卡&多用户多任务&API",
+    "stargazers_count": 311,
+    "forks_count": 130,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2020-03-06T03:21:13Z",
+    "pushed_at": "2023-07-20T15:13:27Z",
+    "topics": [
+     "action",
+     "chaoxing",
+     "fastapi",
+     "mongodb",
+     "python3"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/wx-ime-sdk",
+    "description": "微信输入法（WeType）跨设备剪贴板的独立 Rust 客户端",
+    "stargazers_count": 86,
+    "forks_count": 13,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2026-10-02T05:30:28Z",
+    "pushed_at": "2026-10-02T06:37:16Z",
+    "topics": [
+     "wetype"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/check-in",
+    "description": "打卡签到脚本合集(支持腾讯云函数)",
+    "stargazers_count": 35,
+    "forks_count": 28,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2020-08-13T15:48:48Z",
+    "pushed_at": "2020-09-01T10:50:58Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mkdir700/EchoPlayer",
+    "description": "EchoPlayer allows you to systematically train your listening, pronunciation, and speaking skills using authentic movies and TV shows.  EchoPlayer 让你在真实影视中，系统地训练听力、发音与表达。",
+    "stargazers_count": 27,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://www.echoplayer.cc",
+    "created_at": "2025-05-25T00:21:42Z",
+    "pushed_at": "2025-10-25T13:10:11Z",
+    "topics": [
+     "education",
+     "electron",
+     "english-learning",
+     "lang",
+     "lang-learn",
+     "learning",
+     "player",
+     "speaker",
+     "study",
+     "video-player"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/uniclipboard",
+    "description": "跨平台剪切板共享工具，支持 Windows、macOS 和 Linux，旨在打造无缝的剪切板体验。A cross-platform clipboard sharing tool that supports Windows, macOS, and Linux, aimed at creating a seamless clipboard experience.",
+    "stargazers_count": 13,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2024-09-09T11:40:35Z",
+    "pushed_at": "2026-04-26T03:03:10Z",
+    "topics": [
+     "clipboard",
+     "clipboard-manager",
+     "cross-platform",
+     "linux",
+     "macos",
+     "rust",
+     "windows"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "mkdir700/sol-tx-parser-capi",
+    "description": "Python bindings for Solana Transaction Parser (tx-parser), enabling Python developers to easily parse and analyze Solana blockchain transactions.",
+    "stargazers_count": 12,
+    "forks_count": 2,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2024-11-29T09:54:32Z",
+    "pushed_at": "2025-01-07T08:38:45Z",
+    "topics": [
+     "parser",
+     "python",
+     "solana",
+     "transaction"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/rs_weipu_reverse",
+    "description": "【瑞数】维普期刊高级检索接口逆向",
+    "stargazers_count": 5,
+    "forks_count": 2,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2021-05-30T09:43:44Z",
+    "pushed_at": "2021-05-30T09:54:39Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mkdir700/x-summary",
+    "description": "一键生成 X 推文和搜索结果的智能摘要助手，让信息获取更轻松高效！One-click generation of X tweets and search result summaries, making information retrieval easier and more efficient!",
+    "stargazers_count": 5,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2025-01-10T06:56:46Z",
+    "pushed_at": "2025-01-10T12:40:18Z",
+    "topics": [
+     "chrome-extension",
+     "gpt",
+     "summary",
+     "twitter",
+     "x"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/myrules",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-03-24T11:54:21Z",
+    "pushed_at": "2026-04-05T13:39:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/myskills",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-01-19T12:28:30Z",
+    "pushed_at": "2026-03-18T13:49:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/OneHeathScript",
+    "description": "小one易统计 健康码每日自动打卡脚本",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2020-04-08T03:06:55Z",
+    "pushed_at": "2023-05-22T23:22:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/trade-calc-bot",
+    "description": "一个用于仓位管理的计算机器人。A calculation robot for position management.",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2024-04-13T12:36:26Z",
+    "pushed_at": "2024-05-17T01:17:31Z",
+    "topics": [
+     "tgbot"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/im-select-remote.nvim",
+    "description": "A VIM input method switching plugin implemented based on SSH forwarding and Socket communication. 一个基于 SSH 转发和 Socket 通信实现的 VIM 输入法切换插件",
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2023-06-03T08:16:56Z",
+    "pushed_at": "2024-03-15T01:26:40Z",
+    "topics": [
+     "im-select",
+     "neovim",
+     "plugin",
+     "vim"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/lvim",
+    "description": "IDE configuration based on Lunarvim out of the box.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2023-05-25T00:23:47Z",
+    "pushed_at": "2023-08-02T03:07:01Z",
+    "topics": [
+     "nvim",
+     "vim"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/autoeoe",
+    "description": "正方教务自动评教",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2019-11-08T15:48:34Z",
+    "pushed_at": "2019-11-08T15:57:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/confluence-float-toc",
+    "description": "The Confluence Float TOC plugin is a user script implemented using Tampermonkey. It enhances the Confluence documentation experience by providing a floating table of contents (TOC) that stays visible as you scroll through the page.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2024-07-09T06:10:10Z",
+    "pushed_at": "2025-03-01T02:02:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/herdr-config",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2026-06-23T23:39:06Z",
+    "pushed_at": "2026-09-29T13:59:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mkdir700/herdr-plugin-worktree",
+    "description": "herdr plugin: start a git worktree from a GitHub issue (new branch, claude-named), a PR, or a raw branch name — auto-detected",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-07-01T08:12:11Z",
+    "pushed_at": "2026-07-31T07:17:02Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 73,
+  "languages": [
+   [
+    "TypeScript",
+    19
+   ],
+   [
+    "Python",
+    18
+   ],
+   [
+    "Lua",
+    7
+   ],
+   [
+    "JavaScript",
+    6
+   ],
+   [
+    "Rust",
+    3
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "Go",
+    2
+   ],
+   [
+    "Shell",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "UniClipboard/UniClipboard",
+    "stargazerCount": 1914,
+    "description": "Real-time clipboard sync across all your devices — local-first, peer-to-peer, and end-to-end encrypted. No account. No cloud dependency. No central server.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://uniclipboard.app"
+   },
+   {
+    "nameWithOwner": "UniClipboard/Engine",
+    "stargazerCount": 2,
+    "description": "Shared end-to-end encrypted P2P core for UniClipboard",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "UniClipboard/UniClip",
+    "stargazerCount": 87,
+    "description": "An open-source cross-device clipboard syncing tool—synchronize text, images, and files across multiple devices and operating systems. End-to-end encryption, no registration required, no cloud required.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://uniclipboard.app"
+   },
+   {
+    "nameWithOwner": "mkdir700/EchoPlayer",
+    "stargazerCount": 27,
+    "description": "EchoPlayer allows you to systematically train your listening, pronunciation, and speaking skills using authentic movies and TV shows.  EchoPlayer 让你在真实影视中，系统地训练听力、发音与表达。",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://www.echoplayer.cc"
+   },
+   {
+    "nameWithOwner": "ChainBuff/open-sol-bot",
+    "stargazerCount": 404,
+    "description": "一个完全开源的 Solana 链上交易机器人，支持跟单交易和自动交易功能。 A fully open-source Solana on-chain trading bot that supports copy trading and automated trading features. ",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mkdir700/wx-ime-sdk",
+    "stargazerCount": 86,
+    "description": "微信输入法（WeType）跨设备剪贴板的独立 Rust 客户端",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 8335,
+  "orgs": [
+   "UniClipboard"
+  ],
+  "profile_readme": "<p align=\"center\">\n  <picture>\n    <source media=\"(max-width: 600px)\" srcset=\"./assets/profile-header-mobile.svg\" />\n    <img src=\"./assets/profile-header.svg\" width=\"100%\" alt=\"mkdir700 — product engineer in Shanghai building local-first software\" />\n  </picture>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.z2blog.com/\">Journal</a>\n  &nbsp;&nbsp;/&nbsp;&nbsp;\n  <a href=\"mailto:mkdir700@gmail.com\">Email</a>\n  &nbsp;&nbsp;/&nbsp;&nbsp;\n  <a href=\"https://x.com/mkdir700\">X</a>\n</p>\n\n<p align=\"center\">\n  <strong>I build software that feels native, stays understandable, and keeps your data yours.</strong><br />\n  <sub>Rust · Python · TypeScript · Neovim · Shanghai</sub>\n</p>\n\n<br />\n\n<p><sub>01 / CURRENT BUILD</sub></p>\n\n## The clipboard should be a capability, not a cloud service.\n\n[**UniClipboard**](https://github.com/UniClipboard/UniClipboard) keeps copy and paste in sync across your devices while the data stays under your control.\n\n<a href=\"https://github.com/UniClipboard/UniClipboard\">\n  <img src=\"https://github.com/user-attachments/assets/5e1d75b0-3fed-40ee-ba47-99f5a87f2ec4\" width=\"100%\" alt=\"UniClipboard running across desktop platforms\" />\n</a>\n\n<table>\n  <tr>\n    <td width=\"33%\" valign=\"top\">\n      <strong>LOCAL BY DEFAULT</strong><br />\n      <sub>No account and no central server between your devices.</sub>\n    </td>\n    <td width=\"33%\" valign=\"top\">\n      <strong>PRIVATE IN TRANSIT</strong><br />\n      <sub>Peer-to-peer transport with end-to-end encryption.</sub>\n    </td>\n    <td width=\"34%\" valign=\"top\">\n      <strong>ONE CLIPBOARD</strong><br />\n      <sub>Windows, macOS, Linux, iOS, and Android.</sub>\n    </td>\n  </tr>\n</table>\n\n[Website](https://uniclipboard.app) &nbsp;·&nbsp; [Source](https://github.com/UniClipboard/UniClipboard) &nbsp;·&nbsp; [Releases](https://github.com/UniClipboard/UniClipboard/releases) &nbsp;·&nbsp; `Rust` `Tauri` `React`\n\n<br />\n\n<p><sub>02 / SELECTED SYSTEMS</sub></p>\n\n## Useful software, built around a clear job.\n\n<table>\n  <tr>\n    <td width=\"50%\" valign=\"top\">\n      <a href=\"https://github.com/mkdir700/EchoPlayer\">\n        <img src=\"https://raw.githubusercontent.com/mkdir700/EchoPlayer/main/assets/home.png\" width=\"100%\" alt=\"EchoPlayer home screen\" />\n      </a>\n      <br /><br />\n      <sub>02A / LANGUAGE LEARNING</sub>\n      <h3><a href=\"https://github.com/mkdir700/EchoPlayer\">EchoPlayer ↗</a></h3>\n      <p>Turns real movies and shows into sentence-by-sentence listening practice, with the player doing the tedious work.</p>\n      <p><a href=\"https://www.echoplayer.cc\">Website</a> &nbsp;·&nbsp; <code>TypeScript</code> <code>Electron</code> <code>React</code></p>\n    </td>\n    <td width=\"50%\" valign=\"top\">\n      <a href=\"https://github.com/ChainBuff/open-sol-bot\">\n        <img src=\"https://github.com/user-attachments/assets/a4389538-b317-4858-a41d-b0f374d1a18f\" width=\"100%\" alt=\"OpenSolBot Telegram trading interface\" />\n      </a>\n      <br /><br />\n      <sub>02B / OPEN INFRASTRUCTURE</sub>\n      <h3><",
+  "readmes": {
+   "UniClipboard/UniClipboard": "\n<div align=\"center\">\n  <h1>UniClipboard</h1>\n  <a href=\"https://github.com/UniClipboard/UniClipboard/releases\">\n  </a>\n  <a href=\"https://github.com/UniClipboard/UniClipboard/releases\">\n  </a >\n  <a href=\"https://github.com/UniClipboard/UniClipboard/releases\">\n  </a>\n  <a href=\"#mobile-companion-lan\">\n  </a>\n  <a href=\"#mobile-companion-lan\">\n  </a>\n  <div>\n    <a href=\"./LICENSE\">\n    </a >\n    <a href=\"https://github.com/UniClipboard/UniClipboard/releases\">\n    </a >\n    <a href=\"https://codecov.io/gh/UniClipboard/UniClipboard\" >\n    </a>\n  </div>\n</div>\n<p align=\"center\">English | <a href=\"./README_ZH.md\">简体中文</a></p>\n<p align=\"center\"><a href=\"./ABOUT.md\">Who maintains this project? (About &amp; Trust)</a></p>\n## Project Overview\n> **Copy on one device. Paste on another — even across the internet.**\n>\n> No cloud account. No third-party servers. Your clipboard never leaves your devices in a form anyone else can read.\nUniClipboard is a **privacy-first** clipboard tool.\nIt keeps a searchable, encrypted history of everything you copy, brings it back instantly through the Quick Panel, and syncs text, images, and files across your devices, whether they are on the same Wi-Fi or on different networks. Clipboard content is end-to-end encrypted in transit and stays encrypted at rest; it is decrypted only on your own devices, so relays and the network in between only ever see ciphertext.\n<p align=\"center\">\n</p>\n<p align=\"center\">\n  <video src=\"https://github.com/user-attachments/assets/367c7f45-579a-49b7-bc96-9ccc25cf5ad0\" controls muted playsinline width=\"800\"></video>\n  <br/>\n  <em>Desktop ↔ desktop — real-time, bidirectional clipboard sync between two computers.</em>\n</p>\n<details>\n  <summary><strong>Mobile demo</strong> — share a screenshot from your phone to your desktop. (click to expand)</summary>\n  <p align=\"center\">\n    <video src=\"https://github.com/user-attachments/assets/29f4bf5d-8996-4602-8784-067fb919c671\" controls muted playsinline width=\"800\"></video>\n  </p>\n</details>\n> [!IMPORTANT]\n> **Upgrading from 0.19.x?** 1.0 is a breaking upgrade: local data is converted to a new format (you cannot downgrade to 0.19 afterwards), and every device must run 1.0 an",
+   "UniClipboard/Engine": "# UniClipboardEngine\n[](https://codecov.io/gh/UniClipboard/Engine)\nUniClipboardEngine 是 UniClipboard 在 macOS、Windows、Linux、iOS、Android 和 HarmonyOS 上共享的端到端加密 P2P 引擎。仓库统一维护设备身份、空间与配对、剪贴板同步、历史记录、加密搜索、文件传输、本地密文持久化、数据库迁移、跨平台绑定和发布产物。\n它不是一个可以直接运行的终端应用。桌面程序和移动应用把它作为核心能力接入，并负责提供系统目录、安全存储、系统剪贴板、文件选择与生命周期通知。\n> 当前仍处于 1.0 之前。外部 Rust 使用方只依赖 `uc-engine`，移动端只使用同一个 `v*` Release 中对应平台的产物。内部 crate 和绑定不发布到 crates.io。\n## 核心能力\n- 在所有平台使用同一套设备身份、空间、配对和信任关系。\n- 默认通过端到端加密的 P2P 通道同步文字、图片和文件。\n- 保存加密历史，支持分页、搜索、标签、收藏、资源读取、导出和重发。\n- 处理前台、后台、暂停、恢复和关闭，保持设备身份不变。\n- 通过宿主安全存储保管密钥，并默认加密所有持久化业务数据。\n- 为 iOS、Android 提供 UniFFI 绑定，为 HarmonyOS 提供 N-API 绑定。\n- 为所有正式产物生成来源、版本、校验值、依赖许可证和设备验收记录。\n## 接入入口\n| 使用方 | 接入内容 | 支持范围 |\n| --- | --- | --- |\n| Rust 桌面或服务宿主 | `uc-engine` | 唯一稳定的 Rust 入口 |\n| iOS | `UniClipboardEngine.xcframework.zip` 和 `uc_engine_uniffi.swift` | iOS 16.4 及以上；真机 arm64；模拟器 arm64、x86_64 |\n| Android | `UniClipboardEngine.aar` | API 24 及以上；arm64-v8a、x86_64；Java 17 |\n| HarmonyOS | `UniClipboardEngine.har` | API 24 及以上；arm64-v8a |\nLAN HTTP 同步位于 `compatibility/`，拥有独立版本和 `uc-mobile-v*` 发布线。它只能由用户明确选择，P2P 失败时不会自动切换到 LAN。\n## 工作方式\n```text\n平台应用\n  ├─ 私有目录、安全存储、系统剪贴板、文件句柄\n  └─ 启动、前后台和退出通知\n          │\n          ▼\n      uc-engine\n  ├─ 空间、设备与配对\n  ├─ 加密历史与搜索\n  ├─ P2P 连接与传输\n  └─ 数据库与后台任务\n```\n应用只向 Engine 提供平台能力，不自行复制加密、持久化、配对、传输或数据迁移规则。\n## 安全边界\n任何写入 SQLite、磁盘缓存或搜索索引的业务负载，默认都必须先经 MasterKey AEAD 加密，包括剪贴板正文、标题、预览、搜索字段、标签、文件名和文件路径。\n只有以下内容可以例外：\n- 内容类型分类，例如 `text`、`image`、`file`；\n- 文件内容本体，可以按原始字节写入 Engine 管理的 blob store 或导入目录。\n安全存储中的密钥材料由宿主平台保护。日志和公开错误不得包含剪贴板内容、密码、密钥、完整令牌、文件名或文件路径。详细规则见 [密文持久化规则](docs/security/encrypted-persistence.md) 和 [安全说明](SECURITY.md)。\n## 仓库结构\n| 路径 | 用途 |\n| --- | --- |\n| `crates/uc-engine/` | 唯一稳定入口，负责启动、操作、事件和生命周期 |\n| `crates/uc-core/` | 领域模型和平台能力约定 |\n| `crates/uc-application/` | 业务流程编排 |\n| `crates/uc-infra-*/` | 数据库、加密、文件和 P2P 实现（7 个能力 crate，见 [`ARCHITECTURE.md`](ARCHITECTURE.md)） |\n| `bindings/uc-engine-uniffi/` | iOS 与 Android 绑定及打包脚本 |\n| `bindings/uc-ohos-napi/` | HarmonyOS N-API 绑定与 ArkTS 声明 |\n| `compatibility/` | 独立版本的 LAN 兼容线 |\n| `tests/hosts/` | iOS、Android、HarmonyOS 验收宿主，不承载产品功能 |\n| `docs/` | 架构、安全和迁移记录 |\n| `scripts/architecture/` | 仓库归属、依赖方向和发布来源检查 |\n| `scripts/release/` | 发布产物归集、清单生成和发布前",
+   "UniClipboard/UniClip": "# UniClip\n**简体中文** · [English](./README.en.md)\n开源的跨设备剪贴板同步工具 —— 在多台设备、多种操作系统之间同步文本、图片和文件。端到端加密，无需注册，无需云端。\n官网：<https://uniclipboard.app>\n覆盖 **Android**、**iOS** 与桌面端。\n## 安装\n| 平台    | 获取方式                                                                                           |\n| ------- | -------------------------------------------------------------------------------------------------- |\n| Android | [GitHub Releases](https://github.com/UniClipboard/UniClip/releases/latest) 下载 APK（`arm64-v8a`） |\n| iOS     | [TestFlight 公测](https://testflight.apple.com/join/nyNQ8dQe)（需先安装 TestFlight）               |\n| 桌面端  | 见 [UniClipboard/UniClipboard](https://github.com/UniClipboard/UniClipboard)                       |\n## 功能特性\n### 剪贴板同步\n- 文本、图片、单文件的跨设备同步\n- 多种触发方式：\n  - 通知栏快捷操作 / 前台服务保活\n  - 桌面 pin 快捷方式、快速设置磁贴（Quick Settings Tile）\n  - 系统分享菜单（Share Intent）、Android 划词菜单（Process Text）\n  - iOS 分享扩展与自定义键盘扩展\n  - 后台自动同步\n- 复制即同步：Android 授予 `READ_LOGS` 后启用事件驱动监听，替代 1Hz 轮询空转（无权限时自动回落轮询）\n### 便捷接入\n- 通过邀请码创建或加入加密空间\n- 首次运行可选择创建空间、加入空间或稍后设置\n- 升级用户没有空间时直接进入「加入空间」流程\n- 完整国际化（简体中文 / English / Português / Русский）\n## 截图\n<p align=\"center\">\n</p>\n## 架构概览\n- **同步核心**：`uc-engine` 负责空间、设备身份、加密与跨设备传输，Android 和 iOS 共用同一套行为。\n- **连接方式**：设备通过邀请码加入同一个空间，不依赖自建服务器配置。\n- **本地存储**：历史记录持久化到 SQLite；iOS 通过共享 App Group 在主 App 与扩展之间共享数据。\n- **平台分离 UI**：所有跨平台差异的组件按 Metro 平台文件拆分——\n  - iOS：Liquid Glass / SwiftUI（`@expo/ui`、`expo-glass-effect`、`lucide-react-native`）\n  - Android：Material Design 3 / Jetpack Compose（`@expo/ui/jetpack-compose`、Ionicons）\n- **自研原生模块**（`modules/`）：`uc-engine`、`foreground-service`、`native-timer`、`clipboard-overlay`、`app-group-store`、`android-util`、`document-exporter`、`shizuku-clipboard`、`shortcut`。\n## 开发\n> Expo 版本变动较大，写代码前请先阅读对应版本文档：<https://docs.expo.dev/versions/v57.0.0/>\n### 安装依赖\n```bash\nnpm install\n```\n### 生成原生项目\n```bash\nnpm run prebuild\n```\n### 调试运行\n```bash\n# Android\nnpm run android\n# iOS\nnpm run ios\n```\n### 本地 Engine 编译文件\n开发版安装命令使用 `modules/uc-engine/core-source.json` 固定的 Engine 版本，不自动切换到远端 `main`，避免安装时替换掉应用所需的接口。iOS 开发版在安装前明确准备 Debug 版 React Native 库，并从源码构建 Expo 模块，避免真机调试时混用不兼容的预编译组件。\n[共用构建步骤的复用验证记录](docs/tests/engine-build-cache-reuse.md)。\niOS 和 Android 的共用本机库统一保留最小调试信息，并在 Engine 构建子进程中使用同一套 X",
+   "mkdir700/EchoPlayer": "# EchoPlayer\n<div align=\"center\">\n**专为语言学习者设计的视频播放器**\n[](LICENSE)\n[](https://electronjs.org)\n[](https://reactjs.org)\n[](https://typescriptlang.org)\n<br/>\n[](https://github.com/mkdir700/EchoPlayer/releases)\n[安装](#-安装) • [使用指南](#-使用指南) • [功能特性](#-功能特性) • [开发](#-开发)\n</div>\n---\n## 📖 项目简介\nEchoPlayer 是一款专为语言学习者设计的视频播放器，通过**逐句精听**的方式帮助用户高效学习外语。无论是电影、电视剧、纪录片还是教学视频，EchoPlayer 都能让您的视频学习体验更加专业和高效。\n> **⚠️ 开发状态说明**\n> 本软件目前处于**早期开发阶段**，功能和界面可能会有所调整。我们正在积极开发和优化中，欢迎您的反馈和建议！\n## 📱 软件截图\n### 首页界面\n### 播放页面\n## ✨ 功能特性\n- **逐句播放控制** - 一键跳转到上一句/下一句字幕\n- **自动暂停/恢复** - 每句字幕结束后自动暂停，便于消化理解。延迟自定义时间后恢复播放\n- **单句循环** - 重复播放当前字幕句子，强化练习\n- **多语言字幕** - 同时显示原文和译文，支持双语学习\n- **字幕词典** - 字幕支持查词功能，支持单词翻译和发音播放\n- **兼容性支持** - 实时转码，支持任意音视频格式\n## 🚀 安装\n### 系统要求\n- **Windows**: Windows 10/11 (64位)\n- **macOS**: macOS 10.15+ (支持 Intel 和 Apple Silicon)\n- **Linux**: Ubuntu 18.04+ 或其他主流发行版\n### 下载安装\n1. 前往 [Releases](../../releases) 页面\n2. 下载适合您系统的安装包\n3. 运行安装程序完成安装\n### 格式支持\n- **视频格式**: MP4、AVI、MKV、MOV、WMV、FLV\n- **字幕格式**: SRT、VTT、ASS/SSA、JSON\n## 📖 使用指南\n### 快速开始\n1. **添加视频**: 点击\"添加视频\"按钮选择本地视频文件\n2. **导入字幕**: 应用会自动检测同名字幕文件，或手动选择\n3. **开始学习**: 使用播放控制按钮进行逐句精听练习\n### 字幕操作\n- **自动检测**: 放置同名字幕文件在视频目录，自动导入\n- **手动导入**: 点击字幕按钮手动选择字幕文件\n- **显示模式**: 支持原文、译文、双语三种显示模式\n## 🛠 技术栈\n### 核心技术\n- **Electron** - 跨平台桌面应用框架\n- **React 19** - 现代化前端框架\n- **TypeScript** - 类型安全的开发体验\n- **Ant Design** - 专业的 UI 组件库\n- **Styled Components** - CSS-in-JS 样式解决方案\n- **Zustand** - 轻量级状态管理库\n- **Immer** - 不可变状态更新\n- **Better SQLite3** - 本地数据库\n- **Kysely** - 类型安全的 SQL 查询构建器\n- **Electron Vite** - 基于 Vite 的 Electron 构建工具\n- **Vite** - 现代化构建工具\n- **SWC** - 高性能 TypeScript/JavaScript 编译器\n- **Vitest** - 单元测试框架\n- **Playwright** - 端到端测试\n- **Testing Library** - React 组件测试\n- **ESLint** - 代码规范检查\n- **Prettier** - 代码格式化\n- **Husky** - Git hooks 管理\n- **Semantic Release** - 自动化版本发布\n- **FFmpeg** - 音视频处理\n- **Remotion Media Parser** - 媒体文件解析\n- **React Player** - 视频播放组件\n- **React i18next** - 国际化解决方案\n- **Sentry** - 错误监控和性能追踪\n## 💻 开发\n### 环境要求\n- **Node.js** 18.0+\n- **pnpm** 8.0+\n### 本地开发\n```bash\n# 克隆项目\ngit clone https://github.com/your-username/echoplayer.git\ncd echoplayer\n# 安装依赖\npnpm install\n# 启动开发服务器\npnpm dev\n```\n### 构建发布\n```bash\n# 构建应用\npnpm build\n# 打包 Windows 版本\npnpm build:win\n# 打包 macOS 版本\npnpm bu",
+   "ChainBuff/open-sol-bot": "# 🤖 OpenSolBot\n一个完全开源的 Solana 链上交易机器人，支持跟单交易和自动交易功能。 ⚡️\n> 💡 这是一个开源的交易机器人项目，参考了 GMGN Bot 的实现。本项目完全开源，私钥由您自己保管，避免资产泄露风险。\n## ⚠️ 免责声明\n本项目仅作为个人学习和研究使用，不作为生产级别项目：\n- 🎓 这是一个练习作品，主要用于学习和研究目的\n- ⚠️ 不建议在生产环境中直接使用\n- 📢 作者不对使用本项目造成的任何损失负责\n- 💡 如果您决定使用本项目，请自行承担相关风险\n## 🎯 演示\n<details><summary>SWAP</summary>\n<p>\n</p>\n</details>\n<details><summary>跟单</summary>\n<p>\n</p>\n</details>\n<details><summary>监控</summary>\n<p>\n</p>\n</details>\n> 💬 交流群组: [https://t.me/chainbuff](https://t.me/chainbuff)\n>\n> ⚠️ **警告**：此机器人仅供测试体验使用\n>\n> - ❌ 请勿导入个人钱包\n> - ❌ 请勿向钱包充值\n> - 📢 测试数据可能随时被清除\n> - 🔬 仅用于功能演示和测试\n## ✨ 主要功能\n- 💬 Telegram Bot\n- 📊 跟单交易功能\n- 🔍 监控功能\n- 🎫 激活码系统\n- 🔒 安全开源\n## 💻 环境要求\n- 🐍 Python 3.10+\n- 📦 MySQL\n- 🗄️ Redis\n- 🐳 Docker (Recommended)\n## 📥 快速开始\n```bash\ngit clone https://github.com/mkdir700/open-sol-bot.git\ncd open-sol-bot\n```\n## ⚙️ 配置说明\n复制并编辑配置文件：\n```bash\ncp example.config.toml config.toml\n```\n### 必要配置\n- `tg_bot.token`: Telegram Bot Token（[如何创建 Bot Token](https://core.telegram.org/bots#how-do-i-create-a-bot)）\n- `rpc.endpoints`: RPC 节点列表，建议使用私有 RPC 节点，例如：Helius、Quicknode 等\n- `api`: API 配置, 包括 [Helius](https://helius.dev) 和 [Shyft](https://shyft.to)，这些 API 有一定的免费额度，对于个人而言已经足够了。\n  ```\n  [api]\n  helius_api_base_url = \"https://api.helius.xyz/v0\"\n  helius_api_key = \"\"\n  shyft_api_base_url = \"https://api.shyft.to\"\n  shyft_api_key = \"\"\n  ```\n- `db`: 数据库连接配置，默认配置适用于本地开发环境。在 Docker 环境中会自动使用容器别名。\n  ```\n  [db]\n  # 本地开发环境（从源码运行）\n  mysql_url = \"mysql+pymysql://root:root@127.0.0.1:3307/solana_trade_bot\"\n  redis_url = \"redis://127.0.0.1:6380/0\"\n  ```\n> 💡 为了获得更快的跟单速度，默认使用 `geyser` 模式，同时也支持 WebSocket 订阅方式\n## 🚀 使用说明\nPodman 请使用以下命令：\n启动：\n```\nmake up\n```\n停止服务：\n```\nmake down\n```\n<details><summary>Docker 请使用以下命令:</summary>\n<p>\n启动：\n```bash\ndocker compose up -d\n```\n停止服务：\n```bash\ndocker compose down\n```\n</p>\n</details>\n更新：\n```\ngit pull\npodman/docker compose up -d --build\n```\n> 升级版本建议带上 `--build` 参数，这将重新构建容器\n详细部署文档：[https://github.com/mkdir700/open-sol-bot/wiki/Deployment](https://github.com/mkdir700/open-sol-bot/wiki/Deployment)\n## ⚠️ 注意事项\n- 🔒 请确保配置文件中的私钥安全\n- 💡 建议先使用小额资金测试\n- 🌟 确保 RPC 节点的稳定性和可用性\n## 🤝 如何贡献\n我们非常欢迎您对本项目做出贡献！如果您想参与项目开发，请先阅读我们的[贡献指南](CONTRIBUTING.md)。\n## 🙏 特别致谢\n- Raydium 交易模块参考自 [AL-THE-BOT-FATHER/raydium_py](https://g"
+  }
+ },
+ "apps": []
+}

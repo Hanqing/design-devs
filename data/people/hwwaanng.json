@@ -2,195 +2,254 @@
  "name": "Hwang",
  "role": "设计师 · AirBuild 创始人",
  "title": "Hwang：Design / Vibe / <em>Shape</em>",
- "dek": "AFFiNE 与 Bridge 的早期成员，AirBuild 的创始人。也就是本站排版所参考的那个博客背后的人。TA 的作品集里有时钟小组件、Lofi 音乐计时器、宝可梦卡牌收藏、SwiftUI X 光调试器，以及一整套给 AI Agent 用的开发工具。",
- "card": "AirBuild 创始人，AFFiNE、Bridge 早期成员；Viber、LookInside、Hands Time 等作品的设计者。",
+ "dek": "从 AFFiNE 的设计师，到 Bridge 的早期成员，再到创办 YellowPlus 做 AirBuild。TA 用「设计—氛围编程—塑形」的节奏，在一年里和几位朋友连续发布了十多款 App、命令行工具和交互实验。本站页脚的头像掉落效果，原型就来自 TA 的一次实验。",
+ "card": "AirBuild 创始人；曾在 AFFiNE、Bridge。和朋友一起做了 Viber、Slabox、Stacklight、TTY.Build 等十多款作品。",
  "location": "中国上海",
- "tags": [
-  "产品设计",
-  "iOS",
-  "Vibe Coding",
-  "AI Agent",
-  "Next.js"
- ],
+ "updated": "2026-10-21",
+ "tags": ["产品设计", "iOS / macOS", "Vibe Coding", "AI Agent", "交互原型"],
  "links": [
-  {
-   "label": "hwang.fun",
-   "url": "https://hwang.fun/projects"
-  },
-  {
-   "label": "AirBuild",
-   "url": "https://air.build"
-  },
-  {
-   "label": "Viber",
-   "url": "https://viber.today"
-  }
+  {"label": "hwang.fun", "url": "https://hwang.fun/projects"},
+  {"label": "AirBuild", "url": "https://air.build"},
+  {"label": "GitHub", "url": "https://github.com/hwangdev97"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个把「设计」「氛围」「塑形」写在简介里的设计师创业者，从开源知识库 AFFiNE 到 AI 应用构建平台 AirBuild，一直站在设计与工程的交界处。",
-  "<strong>代表作：</strong>AirBuild（AI Agent 帮你构建原生 iOS App 并自动处理 App 审核）、Viber（iPhone 上的 Claude Code / Codex 客户端）、LookInside（SwiftUI 图层 X 光）、Hands Time（时钟小组件）、Lofi.、Sleepy Coffee。",
-  "<strong>彩蛋：</strong>本站的视觉风格，正是参照 AirBuild 博客的排版。"
+  "<strong>一句话：</strong>设计师出身的产品创业者，2023 年起先后在 Toeverything（AFFiNE）和 AFK AI（Bridge）工作，2026 年 7 月起以 YellowPlus, Inc. 做 AirBuild：一个由多位 AI Agent 组成团队、帮你做原生 iOS App 并处理 App 审核的工具。",
+  "<strong>代表作：</strong>AirBuild、Viber（在 iPhone 上用 Claude Code / Codex）、TTY.Build（在 iPhone 与 Apple Watch 上看管编程 Agent）、Slabox（PSA 评级卡收藏）、Stacklight（菜单栏部署监控）、Hands Time（时钟小组件，与 Yuhang Lu 合作）。",
+  "<strong>看点：</strong>作品以「小团队 + 快节奏」著称，hwang.fun 的项目页直接标出每个作品的合作者头像；Craft 栏目里放着一系列可以直接上手玩的交互原型。",
+  "<strong>彩蛋：</strong>本站的排版参照 AirBuild 博客，页脚的头像掉落效果参照 air.build 页脚，而那个效果的原型是 TA 在 2026 年 7 月发在 Craft 里的「Icon Hands」。"
  ],
- "lead": "Hwang 的个人网站叫「Hwang Fun - Portfolio & Design Lab」，元描述里写着：交互设计原型、AI 驱动的宝可梦卡牌生成器、用 Next.js 做的创意实验。项目页的标题只有一个词：「PROJECT.」，然后按 Work / Products、Dev Tools、Lifestyle、Earlier 四组排列。",
+ "lead": "Hwang 的 X 简介只有三个词：Design / Vibe / Shape。把 TA 的作品放在一起看，这三个词几乎就是工作流程：先用设计确定一个东西应该长什么样，再借助 AI「氛围编程」快速做出来，最后亲手把交互和细节打磨成型。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"profile": [
+     ["身份", "设计师、产品创业者；YellowPlus, Inc. 与 AirBuild 的创始人"],
+     ["所在地", "X 资料写上海；GitHub 资料写新加坡（前雇主 Toeverything Pte. Ltd. 为新加坡公司）"],
+     ["工作经历", "Toeverything（AFFiNE）2023–2025.07 → AFK AI（Bridge）2025.08–2026.04 → YellowPlus（AirBuild）2026.07 至今"],
+     ["代表作", "AirBuild、Viber、TTY.Build、Slabox、Stacklight、Hands Time、Lofi.、Sleepy Coffee"],
+     ["技术栈", "Swift / SwiftUI（iOS、macOS、watchOS）；Next.js（个人网站）；Astro（AirBuild 官网）；Rust、Go（命令行小工具）"],
+     ["关键数字", "X 关注者约 2.3 万；GitHub 近一年 2,946 次贡献；YellowPlus 名下已有 6 款 App 上架"],
+     ["公开渠道", "X、Instagram、Threads、GitHub、LinkedIn、Bento"]
+    ], "t": "Profile"},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "简单说，Hwang 在做两件事。<strong>本职</strong>是带着 YellowPlus 做 AirBuild：你描述想要的 App，一组分工明确的 AI Agent（产品、设计、工程、增长）接力把它做出来，再由专门的 Agent 负责提交 App Store 审核、回复苹果、修复被拒问题并重新提交。"},
+    {"p": "<strong>业余</strong>则是一个叫「Yellow Plus with Builders」的副业组合：和 Lakr233、EYHN、cats_juice、Yuhang Lu 等朋友按项目临时组队，围绕「AI 编程工具」「开发者小工具」「生活类 App」三条线不停发布。仅 2026 年，hwang.fun 就列出了 Deux、Cookey、MouseDo、LookInside、Stacklight、Screen Cam、Muse Amp、Slabox 八个新项目。"},
+    {"note": "本页依据 hwang.fun、air.build、viber.today、GitHub 与 App Store 的公开信息整理，资料截至 2026 年 10 月。合作项目的开发者账号可能属于合作者本人（例如 Muse Amp、Cookey 在 App Store 的开发者署名是 Lakr233 的本名，Hands Time 署名是 Yuhang Lu），文中会分别注明。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2013",
-       "title": "注册 X",
-       "text": "以设计师身份活跃在中文互联网，逐渐把设计延伸到代码与产品。"
-      },
-      {
-       "when": "2022",
-       "title": "Lofi. 与 Sleepy Coffee",
-       "text": "早期作品：Lofi. 把 Lofi 音乐和时间追踪结合；Sleepy Coffee 的口号是「Enjoy Coffee, Enjoy Sleepy」。"
-      },
-      {
-       "when": "AFFiNE",
-       "title": "开源知识库的早期成员",
-       "text": "X 简介写着「early @AFFiNEOfficial」，并为 AFFiNE 做过名片设计。AFFiNE 是以设计见长的开源 Notion / Miro 替代品。"
-      },
-      {
-       "when": "Bridge",
-       "title": "Bridge 早期成员",
-       "text": "参与 Bridge（「Bridge Intent and Done」）的早期建设。"
-      },
-      {
-       "when": "2024",
-       "title": "Hands Time",
-       "text": "与 Yuhang Lu 合作的「设计精美的时钟小组件」。"
-      },
-      {
-       "when": "2025-08",
-       "title": "Viber",
-       "text": "与 cats_juice、EYHN、Lakr233 一起做的「Yellow Plus with Builders」副业项目：在 iPhone 上连接并使用 Claude Code / Codex 的原生客户端，「Shape Your Code. Anywhere.」"
-      },
-      {
-       "when": "2026",
-       "title": "AirBuild 与一组 Agent 工具",
-       "text": "创立 AirBuild：「你的想法，你的 AI 团队，一个可以运行的原生 iOS App」，还由专门的 Agent 负责提交、回复、修复与重新提交 App 审核。同年参与 Deux（iOS 代码库一键转原生 Android）、Cookey（Agent 请求登录，在手机上批准）、MouseDo（给每个 Agent 的 Computer Use）、LookInside、Stacklight、Screen Cam、Muse Amp、Slabox 等。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2013", "title": "注册 X", "text": "以设计师身份活跃在中文互联网，至今发了一万一千多条推文。"},
+     {"when": "2016", "title": "注册 GitHub", "text": "账号 hwangdev97。2019–2022 年在 GitHub Pages 上维护过一个博客 hwang.top。"},
+     {"when": "2022", "title": "第一批独立作品", "text": "Sleepy Coffee（2022 年 6 月上架）把咖啡因摄入和睡眠放在一起看；Lofi.（2023 年 1 月上架）把 Lofi 背景音乐和创作计时结合。两款 App 现在都归在 YellowPlus, Inc. 名下，至今仍在更新。"},
+     {"when": "2023–2025.07", "title": "Toeverything · AFFiNE", "text": "加入开源知识库 AFFiNE 背后的公司。AFFiNE 在 GitHub 上有 7.3 万多颗星，Hwang 把它和编辑器框架 BlockSuite 置顶在自己的主页上；作品集里还留着一张给 AFFiNE 做的「名片」原型。"},
+     {"when": "2023.09", "title": "Hands Time", "text": "与 Yuhang Lu 合作的极简时钟小组件上架，提供点阵、天文、LCD、科幻、复古等 7 套主题、10 多种样式。"},
+     {"when": "2025.08–2026.04", "title": "AFK AI · Bridge", "text": "作为早期成员参与 Bridge（口号「Bridge Intent and Done」）。同月和 cats_juice、EYHN、Lakr233 发布副业项目 Viber，开始「Yellow Plus with Builders」系列。"},
+     {"when": "2026 上半年", "title": "密集发布", "text": "Slabox（4 月）、Cookey（4 月）、Muse Amp（4 月）、Viber 正式上架（5 月）、Stacklight、LookInside、Screen Cam、Deux 陆续推出。"},
+     {"when": "2026.07", "title": "创办 YellowPlus，做 AirBuild", "text": "同月上线付费 App TTY.Build；9 月 Air.Build iOS App 上架，官网开放候补名单；AirBuild 博客开始用 12 种语言发布入门指南。"}
+    ]},
+    {"p": "这条时间线最值得注意的是<strong>身份的叠加</strong>：在 AFFiNE 时是开源团队里的设计师，在 Bridge 时是早期成员，到 YellowPlus 时成了创始人。但副业从没停过，而且越来越密，说明「自己动手发布」不是创业后才有的习惯。"}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "AirBuild",
-       "meta": "2026 · 创始人",
-       "text": "AI Agent 构建你的 App，并自动处理 App Review：提交、回复苹果、修复被拒问题、重新提交。",
-       "url": "https://air.build"
-      },
-      {
-       "name": "Viber",
-       "meta": "2025.08 · iOS",
-       "text": "移动原生的 Claude Code 客户端：在 iPhone 上随时塑造你的代码。",
-       "url": "https://viber.today"
-      },
-      {
-       "name": "LookInside",
-       "meta": "2026 · Dev Tool",
-       "text": "像 X 光一样检查 SwiftUI 图层。",
-       "url": "https://lookinside-app.com"
-      },
-      {
-       "name": "Hands Time",
-       "meta": "2024 · Lifestyle",
-       "text": "设计精美的时钟小组件，与 Yuhang Lu 合作。",
-       "url": "https://hanstime.app"
-      },
-      {
-       "name": "Slabox",
-       "meta": "2026 · Lifestyle",
-       "text": "把球星卡和宝可梦卡牌收藏装进口袋。",
-       "url": "https://slabox.app"
-      },
-      {
-       "name": "Screen Cam",
-       "meta": "2026 · Dev Tool",
-       "text": "原生录屏，带丝滑的动画。",
-       "url": "https://thescreen.cam"
-      }
+    {"work": {
+     "name": "AirBuild", "url": "https://air.build",
+     "meta": ["2026", "YellowPlus 主产品", "iOS 26+ / macOS"],
+     "paras": [
+      "官网的标题是「AI agents to build your app and handle App Review」。卖点分两层：第一层是<strong>一份需求、一整支团队</strong>，首页演示里有 Jamie（产品）、Maya（设计）、Eli（工程）、Casey（增长）四个 Agent，共享同一份项目背景，依次接力；可以选云端团队或跑在本机 Mac 上的本地团队，随时切换。",
+      "第二层是<strong>审核自动化</strong>：Submit（准备构建、元数据、截图和审核备注）、Respond（通过 App Store Connect 回复苹果）、Fix（把每个问题派给合适的 Agent 修复）、Resubmit（修好立刻重新提交）。这是独立开发者最熬人的环节，也是 AirBuild 最有辨识度的定位。"
+     ],
+     "bullets": [
+      "支持从一个想法开始，也支持导入 GitHub 仓库。",
+      "强调「在手机上也能推进」：官网有一段「Seat 24A. Still shipping.」，表示在飞机上用 iPhone 也能审阅、迭代和发布。",
+      "博客写得像产品的一部分：App Clip 小店指南、TestFlight 入门、App Store Connect 全流程、在 iPhone 3G 上用 AI 写 App 的工程实验等，多数提供中文或 12 种语言版本。"
+     ],
+     "facts": [["上架", "2026-09-21"], ["分类", "Developer Tools"], ["价格", "免费下载；官网为候补名单制"], ["官网技术", "Astro · Cloudflare"]]
+    }},
+    {"work": {
+     "name": "Viber", "url": "https://viber.today",
+     "meta": ["2025.08", "iOS + 桌面端", "与 cats_juice、EYHN、Lakr233 合作"],
+     "paras": [
+      "「Shape Your Code. Anywhere.」一个移动原生的 Claude Code / Codex 客户端：在电脑上装一个桌面服务端（macOS ARM、Windows、macOS、Linux 都有），iPhone 连上去就能发起编程会话、选择相关文件、让 Agent 生成和修改代码。",
+      "比较讲究的是网络设计：可以<strong>自建中继服务器</strong>，桌面端和手机都只向外连接中继，中继只保存「房间」状态、转发 HTTP 与 WebSocket 消息，并报告两端的连接质量，不需要把开发机暴露在公网上。官网还提供 llms.txt 和一键部署的 Agent Skill。"
+     ],
+     "facts": [["App Store 上架", "2026-05-07"], ["版本", "1.3.3（2026-10）"], ["价格", "免费"], ["官网技术", "Next.js · Vercel"]]
+    }},
+    {"work": {
+     "name": "TTY.Build", "url": "https://apps.apple.com/us/app/tty-build-agents-terminal/id6792312114",
+     "meta": ["2026.07", "iPhone + Apple Watch", "付费 $1.99"],
+     "paras": [
+      "Viber 的思路再往前走一步：不是在手机上写代码，而是在手机和手表上<strong>看管</strong>正在跑的编程 Agent 和终端。首页把所有 Agent 放在一个视图里，显示会话名、最新输出和实时状态；需要你介入时，通过「实时活动」和灵动岛提醒，而不是一连串普通通知。"
+     ],
+     "facts": [["上架", "2026-07-20"], ["价格", "$1.99"], ["开发者", "YellowPlus, Inc."]]
+    }},
+    {"work": {
+     "name": "Slabox", "url": "https://slabox.app",
+     "meta": ["2026.04", "iOS", "收藏 / 生活"],
+     "paras": [
+      "给评级卡收藏者用的口袋保险箱：扫描 PSA 评级证书上的条码即可录入，每张卡带图片、评分、证书编号、文件夹和「population」（同等级存世数量）数据，还能生成干净的分享图。宝可梦卡（PTCG）、球星卡都适用。",
+      "这是典型的「个人爱好驱动」作品：hwang.fun 页脚写着「Crazy about PTCG cards」，个人网站首页的设计实验里也有一个用 AI 生成宝可梦卡牌的工具。"
+     ],
+     "facts": [["上架", "2026-04-01"], ["版本", "1.2.4"], ["价格", "免费"]]
+    }},
+    {"work": {
+     "name": "Stacklight", "url": "https://github.com/hwangdev97/Stacklight",
+     "meta": ["2026", "macOS 菜单栏", "Swift · 开源"],
+     "paras": [
+      "一个轻量的菜单栏 App，把部署、CI/CD 流水线和 Pull Request 的状态集中到一个小三角图标里：支持 Vercel、Cloudflare Pages、GitHub Actions、Netlify、Railway、Zeabur、Fly.io、Xcode Cloud 和 TestFlight；刷新间隔可调（30 秒到 5 分钟），部署失败或成功会发系统通知。",
+      "细节上很「原生」：设置窗口模仿系统设置的样式，API Token 存在 macOS 钥匙串里，支持开机自启动。README 中英双语。"
+     ],
+     "facts": [["GitHub", "★12"], ["语言", "Swift"], ["首次提交", "2026-04"]]
+    }},
+    {"work": {
+     "name": "Hands Time", "url": "https://apps.apple.com/us/app/hands-time-minimalist-widget/id6462440720",
+     "meta": ["2023.09", "iOS 小组件", "与 Yuhang Lu 合作"],
+     "paras": [
+      "口号是「用双手塑造时间」。7 套主题、10 多种样式（点阵、天文、极简、LCD、科幻、复古），可以用自己的照片或颜色做背景。它是这批作品里评分最多的一款：App Store 上 13 个评分，平均 4.46。同一位合作者后来又做了 Touch Time，用真实气象数据渲染天空颜色来表示世界各地的时间。"
+     ],
+     "facts": [["上架", "2023-09-05"], ["分类", "Graphics & Design"], ["开发者署名", "yuhang lu"], ["评分", "4.46（13）"]]
+    }},
+    {"h3": "其他作品一览"},
+    {"table": {
+     "cols": ["作品", "年份", "一句话", "合作者"],
+     "rows": [
+      ["Deux", "2026", "把 iOS 代码库一键转成原生 Android 代码库，「Build once. Ship twice.」", "EYHN、Lakr233"],
+      ["Cookey", "2026", "Agent 需要登录时，在手机上扫码登录，加密后把浏览器会话交给 Playwright / Agent", "Lakr233、EYHN"],
+      ["MouseDo", "2026", "给每个 Agent 都配上 Computer Use", "EYHN"],
+      ["LookInside", "2026", "像 X 光一样检查 SwiftUI 图层", "Lakr233"],
+      ["Screen Cam", "2026", "原生录屏，动画顺滑", "cats_juice"],
+      ["Muse Amp", "2026", "本地优先的音乐播放器，可连接 Subsonic 兼容的自建曲库", "Lakr233"],
+      ["Rosetta", "2025", "Rust 写的 iOS .xcstrings 本地化翻译命令行，支持 OpenAI / Claude / Gemini", "—"],
+      ["appicon", "2026", "Go 写的命令行，调用图像生成 API 批量生成 iOS App 图标", "—"],
+      ["Lofi.", "2022", "Lofi 背景音乐 + 创作计时，4.6 分（5 个评分）", "—"],
+      ["Sleepy Coffee", "2022", "把咖啡因估算和睡眠数据并排展示", "—"]
      ]
-    }
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "Hwang 的 GitHub（hwangdev97）有两种面貌。<strong>置顶区</strong>放的是团队作品：AFFiNE（★73k+）和 BlockSuite（★6k+），这是 TA 在 Toeverything 期间参与的项目。<strong>个人仓库</strong>则全是小而具体的工具，星数不高，但几乎每个都在解决自己做 App 时碰到的麻烦：本地化、图标、部署监控。"},
+    {"table": {
+     "cols": ["仓库", "语言", "时间", "做什么"],
+     "rows": [
+      ["Stacklight", "Swift", "2026", "菜单栏部署 / CI / PR 监控"],
+      ["Rosetta", "Rust", "2025", "AI 翻译 iOS 本地化文件，README 自称「vibe coding project」"],
+      ["rosetta-figma", "TypeScript", "2025", "Figma 多语言插件，Rosetta 的设计端搭档"],
+      ["app-icon-cli", "Go", "2026", "用图像模型生成 iOS 图标，支持模板和批量"],
+      ["iconHands", "TypeScript", "2026", "手势吸附图标的交互实验"],
+      ["lofiDotWebsite", "Vue", "2022–2023", "Lofi. 的官网"]
+     ]
+    }},
+    {"p": "语言分布（按仓库数）依次是 Swift、Go、Rust、TypeScript、Vue。对设计师来说这份清单很少见：TA 不只用 AI 写前端页面，也会让 AI 帮忙写系统级的命令行工具，并且把它们发到 Homebrew tap 里方便自己和别人安装。"}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://hwang.fun/projects",
-      "paras": [
-       "作品集用 Next.js 构建，每个项目一行：Logo、名称、年份、一句话描述，部分项目附上合作者头像。分组标题非常克制：Work / Products、Dev Tools、Lifestyle、Earlier。",
-       "首页是一个「Design Lab」，放着交互原型和 AI 宝可梦卡牌生成器等实验。"
-      ]
-     }
-    },
-    {
-     "p": "AirBuild 的博客（本站参考对象）则体现了 TA 对阅读体验的讲究：660px 的正文宽度、右侧的粘性目录、编号步骤线、灰底注释与橙色强调，每一个组件都克制而清楚。"
-    }
+    {"site": {"url": "https://hwang.fun/projects", "paras": [
+     "顶部只有四个入口：Home、Craft、Project、Photos；社交链接写成「Twitter(X). Instagram. Thread. GitHub. Bento. LinkedIn. Email.」，每个词后面都带一个句号，和项目页的大标题「PROJECT.」是同一种语气。",
+     "项目页先列工作经历（每段写明公司和起止年月），再按 AI、Dev Tools、Lifestyle、Earlier 分组列副业作品。每一行都是「年份 + 合作者头像 + Logo + 名称 + 一句话」，合作者头像链接到对方的 X。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术栈", "Next.js + React，部署在 Vercel；图片走自己的 images.hwang.fun 域名"],
+      ["信息结构", "Home / Craft / Project / Photos 四栏；项目按「工作—副业—早期」分层"],
+      ["Craft 栏目", "交互原型合集，每篇带封面、日期和标签，可以在浏览器里直接操作"],
+      ["语言", "英文为主"],
+      ["更新频率", "Craft 在 2026 年持续更新，3、4、7、9 月都有新原型"]
+     ]
+    }},
+    {"h3": "Craft：一本可以动手玩的设计笔记"},
+    {"posts": [
+     {"date": "2026-09-29", "title": "CISC: Causal Image Style Continuation", "url": "https://hwang.fun/craft/cisc", "note": "一篇讽刺 AI 的「论文」：模型学会一张照片的风格，再一个像素一个像素地画出来。"},
+     {"date": "2026-07-24", "title": "Codex × GPT — Sliding Workspaces", "url": "https://hwang.fun/craft/codex-gpt-sidebar-switcher", "note": "给 Codex 桌面端设计类似 Arc 的工作区切换：侧栏左右滑动切换应用，对话区上下移动以保持空间感。"},
+     {"date": "2026-07-08", "title": "Icon Slots — App Icon Slot Machine", "url": "https://hwang.fun/craft/icon-slots", "note": "用真实 App 图标做的老虎机，带「差一点就中」的悬念和 ⌘K 隐藏调试面板。"},
+     {"date": "2026-07-06", "title": "Icon Hands — Palm-Attracted Icons", "url": "https://hwang.fun/craft/icon-hands", "note": "对着摄像头张开手掌，图标就会聚过来，握拳挤压，挥手抛出。MediaPipe 手势识别驱动 matter.js 物理场景，完全在浏览器里运行。air.build 的页脚就是它的产品化版本。"},
+     {"date": "2026-04-16", "title": "Agent Team Work for Deux", "url": "https://hwang.fun/craft/avatar-role-switcher", "note": "头像簇交互：悬停显示角色和名字，点击切换焦点。"},
+     {"date": "2026-04-10", "title": "CRT Terminal — wterm in Canvas", "url": "https://hwang.fun/craft", "note": "浏览器里跑一个真正的 bash（wterm，Zig 编译到 WebAssembly），外面套 WebGL CRT 着色器：扫描线、荧光、桶形畸变。"},
+     {"date": "2025-12-22", "title": "Skill-Based Form Generation Chat Input", "url": "https://hwang.fun/craft", "note": "让 AI 根据所选 Skill 动态生成表单，引导用户给出结构化上下文。"}
+    ]},
+    {"callout": "AirBuild 官网用 Astro 搭建，托管在 Cloudflare。页脚那堆可以用手势抓取的 App 图标，正是 Craft 里 Icon Hands 原型的产品化：Matter.js 物理引擎负责下落和碰撞，MediaPipe 负责识别手掌和握拳。本站页脚的头像掉落效果就是照着它做的。", "t": "从原型到产品"}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "「Design / Vibe / Shape」三个词可以读作 TA 的方法论：<strong>先设计，再用 Vibe Coding 快速实现，最后亲手塑形打磨</strong>。TA 的项目常常是小团队协作：与 Lakr233、EYHN、cats_juice 一起做 Viber，与 Yuhang Lu 一起做 Hands Time。"
-    },
-    {
-     "callout": "AirBuild 博客写给小店主的 App Clip 指南，用「外卖窗口和堂食大厅」比喻 App Clip 和完整 App，全文没有一个术语。设计感不只在视觉，也在写作。",
-     "t": "设计也是写作"
-    }
+    {"p": "Hwang 的「写作」主要在两个地方：Craft 里的原型说明，以及 AirBuild 博客。后者的选题非常克制，几乎都是给新手的实用指南，而不是融资或增长故事："},
+    {"posts": [
+     {"date": "2026-10-04", "title": "What Is an App Clip? A Plain Guide for Small Shop Owners", "url": "https://air.build/blog/app-clips-for-small-business/", "note": "用「外卖窗口和堂食大厅」的比喻讲清 App Clip，全文几乎没有术语。本站排版的参考对象。"},
+     {"date": "2026-09-17", "title": "TestFlight: From Your First Invitation to a Successful Installation", "url": "https://air.build/blog/", "note": "构建、内外部测试员、沙盒支付和排错，12 种语言。"},
+     {"date": "2026-09-14", "title": "Your First App with AirBuild, Starting from the Home Screen", "url": "https://air.build/blog/", "note": "截图驱动的上手教程。"},
+     {"date": "2026-09-11", "title": "The First App Store, Reimagined with AI Coding", "url": "https://air.build/blog/", "note": "用 Xcode 27 构建 AirBuild3G，在 iPhone 3G 上用 AI 写、编译并运行一个新 App 的工程实验。"},
+     {"date": "2026-07-12", "title": "A Beginner's Guide to App Store Connect", "url": "https://air.build/blog/", "note": "从创建 App 到看懂下载、留存、收入和财务报表，16 分钟长文。"}
+    ]},
+    {"quote": "Coding shouldn't be tied to a desk.", "cite": "Viber 官网"},
+    {"p": "把这些放在一起，能看到一个一以贯之的观点：<strong>AI 正在把「做 App」的门槛降低，剩下的难点是流程：审核、测试、上架、远程看管。</strong>TA 的产品几乎都在解决这几件事。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["发布节奏", "2026 年一年就有约 10 个新作品，小团队按项目组队，周期短", "很多产品还在 0.x–1.x 版本，App Store 评分很少，长期维护情况有待观察"],
+      ["设计", "风格统一、克制，重视动效和手感；原型先行，可以直接上手体验", "作品以英文为主，中文用户需要稍微适应"],
+      ["技术", "原生 Swift 与 Web 两手都能做；公开承认并善用 AI 编程", "个人开源仓库星数不高，开源影响力主要来自参与 AFFiNE"],
+      ["商业", "既有免费 App，也有付费的 TTY.Build；AirBuild 有清晰的痛点定位", "AirBuild 目前是候补名单制，官网首页未见公开定价"]
+     ]
+    }},
+    {"note": "「长处与局限」是基于公开资料的判断，不代表对产品质量的实测评价。"}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>作品集按主题分组：</strong>让人一眼看出你在乎什么。",
-      "<strong>和朋友一起做副业：</strong>小团队、短周期、快速发布。",
-      "<strong>为 Agent 时代做工具：</strong>登录授权、Computer Use、审核自动化，都是新的空白。",
-      "<strong>把博客当产品做：</strong>排版、组件、语气都是设计的一部分。"
-     ]
-    }
+    {"checklist": [
+     "<strong>原型先公开：</strong>Craft 栏目让想法在变成产品之前就能被看到、被试用，Icon Hands 最后真的长进了 AirBuild 官网。",
+     "<strong>作品页写清合作者：</strong>每个项目都挂上合作者头像，既是致谢，也是在展示自己的协作网络。",
+     "<strong>工具从自己的痛点长出来：</strong>本地化（Rosetta）、图标（appicon）、部署监控（Stacklight）都是做 App 时真实遇到的麻烦。",
+     "<strong>把博客当产品：</strong>选题对准新手的真实困难，提供多语言版本，排版组件统一。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "hwang.fun/craft", "url": "https://hwang.fun/craft", "why": "先玩 Icon Hands 和 Icon Slots，感受 TA 对物理、动效和「手感」的执念。"},
+     {"name": "air.build", "url": "https://air.build", "why": "看一个创业产品如何用首页讲清「Agent 团队 + 审核自动化」，再滚到页脚抓一把图标。"},
+     {"name": "Stacklight 源码", "url": "https://github.com/hwangdev97/Stacklight", "why": "一个结构清楚的 SwiftUI 菜单栏 App，适合学习原生小工具的做法。"}
+    ]}
    ]
   }
  ],
- "cta": "去 AirBuild 看看，或者读一读它的博客。",
+ "cta": "去 hwang.fun 玩一玩那些原型，或者在 air.build 读一篇写给新手的指南。",
  "sources": [
-  {
-   "label": "Hwang 的 X 个人资料",
-   "url": "https://x.com/hwwaanng"
-  },
-  {
-   "label": "hwang.fun 作品集",
-   "url": "https://hwang.fun/projects"
-  },
-  {
-   "label": "AirBuild 官网",
-   "url": "https://air.build"
-  },
-  {
-   "label": "AirBuild 博客：What Is an App Clip?",
-   "url": "https://air.build/blog/app-clips-for-small-business/"
-  },
-  {
-   "label": "Viber 官网",
-   "url": "https://viber.today"
-  }
+  {"label": "Hwang 的 X 个人资料", "url": "https://x.com/hwwaanng"},
+  {"label": "hwang.fun 项目页（工作经历与副业列表）", "url": "https://hwang.fun/projects"},
+  {"label": "hwang.fun Craft 交互原型", "url": "https://hwang.fun/craft"},
+  {"label": "GitHub：hwangdev97", "url": "https://github.com/hwangdev97"},
+  {"label": "GitHub：Stacklight README", "url": "https://github.com/hwangdev97/Stacklight"},
+  {"label": "AirBuild 官网", "url": "https://air.build"},
+  {"label": "AirBuild 博客", "url": "https://air.build/blog/"},
+  {"label": "Viber 官网", "url": "https://viber.today"},
+  {"label": "App Store：Air.Build", "url": "https://apps.apple.com/us/app/air-build/id6795428458"},
+  {"label": "App Store：TTY.Build", "url": "https://apps.apple.com/us/app/tty-build-agents-terminal/id6792312114"},
+  {"label": "App Store：Slabox", "url": "https://apps.apple.com/us/app/slabox-ptcg-psa-card-vault/id6760335078"},
+  {"label": "App Store：Hands Time", "url": "https://apps.apple.com/us/app/hands-time-minimalist-widget/id6462440720"},
+  {"label": "App Store：Lofi.", "url": "https://apps.apple.com/us/app/lofi-lofi-time-tracking/id1628710103"}
  ]
 }

@@ -1,0 +1,565 @@
+{
+ "handle": "Lakr233",
+ "sites": [
+  {
+   "url": "https://qaq.wiki",
+   "ok": false
+  },
+  {
+   "url": "https://flowdown.ai",
+   "ok": true,
+   "title": "FlowDown - AI That Works Even Without Us",
+   "description": "You can OWN a blazing fast and smooth Agent app. Switch between your AI services or use local models on your device.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "AI That Works Even Without Us \nYou can OWN a blazing fast and smooth Agent app. Switch between your AI services, connect MCP tools, automate with Shortcuts, or use local models on your device. \n Download from App Store \nAvailable on iOS 17+ / macOS 14+ / Supports Apple Silicon & Intel \n Read the User Guide → \nWhy Choose FlowDown \nPrivacy First \nYour conversations and API credentials never leave your device. All data is stored locally or synced via your private iCloud . We collect nothing. \nNative Performance \nBuilt with Swift , FlowDown is lightweight and incredibly fast. No web wrappers, just a seamless, native experience on iOS and macOS. \nUniversal Compatibility \nConnect to any OpenAI-compatible API, including self-hosted models , giving you complete freedom and control. \nPowerful Workflows \nVision Support: Interact with vision-capable models. \nAudio Support: Send audio messages to compatible models using attachments. \nFile Attachments: Add files and documents to your conversations. \nWeb Search: Grant the AI access to real-time information from the web. \nReusable Templates: Save and quickly reuse your favorite prompts. \nShortcuts Integration: Deep integration with system Shortcuts for automating your workflows. \nRich User Experience \nEnjoy full Markdown rendering , syntax highlighting, and a buttery-smooth interface that makes interacting with AI a pleasure. \niCloud Sync \nSeamlessly syncs your conversations, settings, and custom models across all your Apple devices. \nOpen Source Compatibility \nFlowDown is fully open source under the AGPL-3.0 license. We invite you to inspect the code and verify our commitment to privacy and quality. \nFrequently Asked Questions \n Which AI models does FlowDown support? \nFlowDown supports all models compatible with OpenAI API format, including: \n Major service providers: OpenAI, Claude (via OpenRouter), Alibaba Cloud, ByteDance, etc. \n Local models: Support for Ollama and MLX local deployment \n Custom interfaces: Any service compatible with OpenAI API LEARN MORE → \n Which platforms does FlowDown support? \nFlowDown provides native app support across all platforms: \n macOS: Full-featured desktop application \n iOS: Mobile app optimized for iPhone \n iPadOS: Tablet app adapted for iPad \nAll versions are native applications, not web-based, ensuring optimal performance and user experience LEARN MORE → \n How to use FlowDown's tool calling features? \nFlowDown supports powerful Tool Call functionality: \n Web search: Real-time access to latest information \n Document processing: Analyze and process various file types \nWe recommend using models like Gemini Flash for the best tool calling experience LEARN MORE → \n How is data security and privacy ensured? \n Local storage: All conversation data is stored on your device \n No data collection: FlowDown does not collect or store your conversation content \n Direct connection: Communicates directly with AI service providers without intermediaries \n Open source transparency: Code is open source to ensure transparency LEARN MORE → \n How to obtain and configure models? \n On-device models: Use Apple Intelligence or download an MLX model on supported hardware \n Custom configuration: Support for bringing your own API \n Import/Export: Support for importing and exporting model configurations \n Technical support: Provides detailed configuration guides and community support LEARN MORE → \n Is FlowDown free? \nFlowDown follows a public App Store pricing timeline. The US storefront price steps down to a zero-dollar base app on June 10, 2026, while regional App Store pricing remains the final purchase source. \nCore chat, model configuration, and local storage are included. \nUsers can bring their own provider keys for OpenAI-compatible services. \nFuture personalization features may use separate pricing. VIEW PRICING → \n How do I bring my own API? \nAdd a cloud model profile, enter the OpenAI-compatible base URL, paste the provider token, add any required headers or body fields, then verify the model before chatting. \nUse headers for provider auth, tenant IDs, or gateway routing. \nUse body fields for reasoning toggles, modalities, sampling settings, and provider flags. \nKeep one profile per provider or model family for easier switching. READ SETUP GUIDE → \nLOVE FROM OUR USERS \nThe performance of FlowDown is amazing! I was truly impressed by the rendering performance, even during the beta testing stage - it's significantly better than the native official ChatGPT app. I als",
+   "github_links": [
+    "Lakr233",
+    "at-wr",
+    "hwangdev97",
+    "innei",
+    "ktiays",
+    "unixzii"
+   ],
+   "subpages": {
+    "https://flowdown.ai/about/": "About \nAbout FlowDown AI \nFlowDown is built for people who want a fast native AI workspace on Apple platforms while keeping control over models, providers, context, and stored data. \nWhat FlowDown is \nFlowDown combines local-first conversations, OpenAI-compatible cloud providers, on-device model options, rich Markdown rendering, attachments, web search, memory, MCP client support, and Shortcuts automation in one native iPhone, iPad, and Mac app. \nProject principles \nPrivacy-first defaults: conversation data is stored locally, with optional iCloud sync controlled by the user. \nModel choice: users can switch between local MLX, Apple Intelligence, self-hosted endpoints, and other OpenAI-compatible services. \nNative performance: the app is written for Apple platforms with Swift and UIKit. \nOpen development: the source code is available on GitHub under AGPL-3.0. \nTeam and support \nFlowDown is maintained by the FlowDown team and community contributors. Support is available through GitHub issues, Discord, and the in-app support flow that exports logs after the user removes sensitive data. \n GitHub repository Source code, issues, releases, and development history. Contact Email and support links."
+   },
+   "appstore_ids": [
+    "6740553198"
+   ]
+  }
+ ],
+ "github": {
+  "login": "Lakr233",
+  "user": {
+   "name": "Lakr",
+   "company": "Home Lab",
+   "blog": "qaq.wiki",
+   "location": "_kernel_task + 0x108",
+   "bio": "🥺",
+   "public_repos": 190,
+   "followers": 4662,
+   "created_at": "2017-01-21T02:45:42Z",
+   "twitter_username": "Lakr233",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "Lakr233/vphone-cli",
+    "description": "Run a virtual iPhone on an Apple Silicon Mac.",
+    "stargazers_count": 15823,
+    "forks_count": 1861,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2026-02-26T11:29:08Z",
+    "pushed_at": "2026-10-21T12:44:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/Asspp",
+    "description": "The App Store for your multi-account eco system.",
+    "stargazers_count": 6046,
+    "forks_count": 658,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-07-12T01:58:29Z",
+    "pushed_at": "2026-10-20T03:07:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/AssppWeb",
+    "description": null,
+    "stargazers_count": 3961,
+    "forks_count": 648,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-02-08T03:22:35Z",
+    "pushed_at": "2026-10-20T03:41:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/BBackupp",
+    "description": "Automated iOS Backup Robot",
+    "stargazers_count": 2639,
+    "forks_count": 185,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-08-12T17:17:24Z",
+    "pushed_at": "2026-05-18T17:49:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/Rayon",
+    "description": "yet another SSH machine manager",
+    "stargazers_count": 2416,
+    "forks_count": 228,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-02-13T15:55:55Z",
+    "pushed_at": "2022-09-27T07:47:01Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Lakr233/NotchDrop",
+    "description": "Use your MacBook's notch like Dynamic Island for temporary storing files and AirDrop",
+    "stargazers_count": 2128,
+    "forks_count": 160,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-07-07T08:17:49Z",
+    "pushed_at": "2026-05-18T17:50:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/FlowDown",
+    "description": "https://flowdown.ai/",
+    "stargazers_count": 1226,
+    "forks_count": 121,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-01-15T04:55:03Z",
+    "pushed_at": "2026-10-17T17:40:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/FixTim",
+    "description": "Fix every runtime bug on macOS.",
+    "stargazers_count": 1123,
+    "forks_count": 23,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-02-06T14:37:15Z",
+    "pushed_at": "2026-05-18T17:50:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/Irisin",
+    "description": "Modern. Fast. Beautiful.",
+    "stargazers_count": 870,
+    "forks_count": 75,
+    "language": "C",
+    "homepage": "https://lakr233.github.io/Irisin/",
+    "created_at": "2020-07-16T03:16:41Z",
+    "pushed_at": "2026-10-21T13:22:39Z",
+    "topics": [
+     "ios",
+     "ios-swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/mobilePillowTalkLite",
+    "description": "An iOS & SwiftUI server monitor tool for linux based machines using remote proc file system with script execution.",
+    "stargazers_count": 511,
+    "forks_count": 79,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2021-09-17T14:05:31Z",
+    "pushed_at": "2022-03-01T06:49:04Z",
+    "topics": [
+     "ios",
+     "ios-swift",
+     "server",
+     "swiftui",
+     "tool"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "Lakr233/MoneyProgress",
+    "description": "借一个上班的进度条。",
+    "stargazers_count": 511,
+    "forks_count": 40,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-03-15T01:58:29Z",
+    "pushed_at": "2024-05-29T06:20:31Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Lakr233/GitLab-License-Generator",
+    "description": "Generate GitLab License For Self-Hosted/Private Instances",
+    "stargazers_count": 495,
+    "forks_count": 228,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2022-01-24T08:39:52Z",
+    "pushed_at": "2024-12-06T01:56:57Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Lakr233/ColorfulX",
+    "description": "ColorfulX is a high-performance library designed for creating vibrant & animated mesh gradient views.",
+    "stargazers_count": 477,
+    "forks_count": 33,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-12-01T07:43:05Z",
+    "pushed_at": "2026-10-03T12:42:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/MobileTransfer",
+    "description": "Backup & restore iOS devices with advanced settings.",
+    "stargazers_count": 452,
+    "forks_count": 29,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-11-01T03:34:58Z",
+    "pushed_at": "2026-05-18T17:50:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/ActivateMac",
+    "description": "Show MS Windows style activation dialog on my screen.",
+    "stargazers_count": 438,
+    "forks_count": 24,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2022-05-17T12:19:28Z",
+    "pushed_at": "2024-05-31T07:26:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/Colorful",
+    "description": "A SwiftUI implementation of AppleCard's animated colorful blur background.",
+    "stargazers_count": 389,
+    "forks_count": 14,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-09-19T15:42:45Z",
+    "pushed_at": "2024-07-03T18:18:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Lakr233/Iridium",
+    "description": "An iOS app decrypter, full static using fouldecrypt.",
+    "stargazers_count": 387,
+    "forks_count": 68,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-01-07T08:01:13Z",
+    "pushed_at": "2023-02-04T15:42:01Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Lakr233/SafariYYDS",
+    "description": null,
+    "stargazers_count": 346,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-11-17T10:07:44Z",
+    "pushed_at": "2025-12-13T01:31:13Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 150,
+  "languages": [
+   [
+    "Swift",
+    89
+   ],
+   [
+    "Shell",
+    14
+   ],
+   [
+    "Python",
+    10
+   ],
+   [
+    "C",
+    8
+   ],
+   [
+    "Go",
+    5
+   ],
+   [
+    "Objective-C",
+    4
+   ],
+   [
+    "JavaScript",
+    4
+   ],
+   [
+    "TypeScript",
+    3
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "toeverything/AFFiNE",
+    "stargazerCount": 73716,
+    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://affine.pro"
+   },
+   {
+    "nameWithOwner": "Lakr233/FlowDown",
+    "stargazerCount": 1226,
+    "description": "https://flowdown.ai/",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "Lakr233/NotchDrop",
+    "stargazerCount": 2128,
+    "description": "Use your MacBook's notch like Dynamic Island for temporary storing files and AirDrop",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "Lakr233/BBackupp",
+    "stargazerCount": 2639,
+    "description": "Automated iOS Backup Robot",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "Lakr233/Asspp",
+    "stargazerCount": 6046,
+    "description": "The App Store for your multi-account eco system.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "Lakr233/vphone-cli",
+    "stargazerCount": 15823,
+    "description": "Run a virtual iPhone on an Apple Silicon Mac.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 13996,
+  "orgs": [
+   "LookInsideApp"
+  ],
+  "profile_readme": "# Hello World\n\n- Developer & Designer & Product [@FlowDown](https://flowdown.ai)\n- Indie Hacker - Previous [@OwnGoalStudio](https://github.com/OwnGoalStudio)\n- Senior Software Developer @ Mobile Platforms\n- Junior Game Developer\n\n## 📮 How to Reach Me\n\n- Twitter: [@Lakr233](https://twitter.com/Lakr233)\n- Email: [Follow Up Here](mailto:launchctl@outlook.com)\n\n## Magic Number\n\n![Visited By](https://count.getloli.com/get/@Lakr233?theme=gelbooru)\n\n## 🤖 Agent Code Navigation\n\n- [Agent Code Navigation](./AGENTS.md)\n- A curated index of public repositories under permissive licenses\n- Shows each repository's license and the parts most useful for agents to study or reuse\n\n## 👀 Some Cool Stuff to Explore\n\nFeel free to open the agent navigation above, or browse the pinned projects below.\n",
+  "readmes": {
+   "toeverything/AFFiNE": "<div align=\"center\">\n<h1 style=\"border-bottom: none\">\n    <b><a href=\"https://affine.pro\">AFFiNE.Pro</a></b><br />\n    Write, Draw and Plan All at Once\n    <br>\n</h1>\n<a href=\"https://affine.pro/download\">\n</a>\n<br/>\n<p align=\"center\">\n  A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro. <br />\n  One hyper-fused platform for wildly creative minds.\n</p>\n<br/>\n<br/>\n<a href=\"https://www.producthunt.com/posts/affine-3?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-affine&#0045;3\" target=\"_blank\"></a>\n<br/>\n<br/>\n<div align=\"center\">\n    <a href=\"https://affine.pro\">Home Page</a> |\n    <a href=\"https://affine.pro/redirect/discord\">Discord</a> |\n    <a href=\"https://app.affine.pro\">Live Demo</a> |\n    <a href=\"https://affine.pro/blog/\">Blog</a> |\n    <a href=\"https://docs.affine.pro/\">Documentation</a>\n</div>\n<br/>\n[](https://github.com/toeverything/AFFiNE/releases/latest)\n[![All Contributors][all-contributors-badge]](#contributors)\n[![TypeScript-version-icon]](https://www.typescriptlang.org/)\n</div>\n<br />\n<div align=\"center\">\n<em>Docs, canvas and tables are hyper-merged with AFFiNE - just like the word affine (əˈfʌɪn | a-fine).</em>\n</div>\n<br />\n<div align=\"center\">\n</div>\n## Getting started & staying tuned with us.\nStar us, and you will receive all release notifications from GitHub without any delay!\n## What is AFFiNE\n[AFFiNE](https://affine.pro) is an open-source, all-in-one workspace and an operating system for all the building blocks that assemble your knowledge base and much more -- wiki, knowledge management, presentation and digital assets. It's a better alternative to Notion and Miro.\n## Features\n**A true canvas for blocks in any form. Docs and whiteboard are now fully merged.**\n- Many editor apps claim to be a canvas for productivity, but AFFiNE is one of the very few which allows you to put any building block on an edgeless canvas -- rich text, sticky notes, any embedded web pages, multi-view databases, linked pages, shapes and even slides. We have it all.\n**Multimodal AI partner ready to kick in any work**\n- Write up professional work report? Turn an outline into expressive and presentable slides? Su",
+   "Lakr233/FlowDown": "# FlowDown\n<p align=\"center\">\n  <a href=\"README.md\">English</a> |\n  <a href=\"/Resources/i18n/zh-Hans/README.md\">简体中文</a>\n</p>\nFlowDown is a native AI chat client for Apple platforms, designed for speed, privacy, and power users. It provides a fluid, responsive interface to interact with a variety of AI models, right from your iPhone, iPad, and Mac.\n## Download\n[](https://apps.apple.com/us/app/flowdown-open-fast-ai/id6740553198)\n**About Pricing Update**\nFlowDown is scheduled to become free this year. With growing community support and feature maturity, maintenance costs have decreased, allowing us to operate more efficiently. Before this transition, prices will be reduced in phases. All core chat features will remain free, with subscription fees applying only to future personalization options.\n**Keep In Touch**\nJoin the public beta on [TestFlight](https://testflight.apple.com/join/StpMeybv) to try new features.\nTo get started, use Apple Intelligence when available, download a local MLX model, or connect a self-hosted or OpenAI-compatible provider. Learn more in our [documentation](https://flowdown.ai/docs/).\nJoin our community on [Discord](https://discord.gg/UHKMRyJcgc) for feedback and support.\n## Features\n- **Privacy First**:\n  - **Nothing Collected**: FlowDown developers do not collect, store, or transmit any of your personal information or usage data. No telemetry, no crash reports.\n  - **Zero Data Retention**: All content and configurations you create remain entirely on your device or your private iCloud.\n  - **Verifiable Source**: The source code is open and available for audit. You can verify exactly what the app is doing.\n- **Native Performance**:\n  - **Built From Scratch**: Built entirely with Swift and UIKit. We open-sourced our chat interface as [LanguageModelChatUI](https://github.com/Lakr233/LanguageModelChatUI) for everyone.\n  - **Rich User Experience**: Enjoy full Markdown rendering, syntax highlighting, and a buttery-smooth interface that makes interacting with AI a pleasure.\n  - **Optimized for Apple Platforms**: Leverages Metal and MLX for efficient on-device inference and smooth UI performance.\n- **Universal Compatibility**:\n  - **OpenAI-Compat",
+   "Lakr233/NotchDrop": "# NotchDrop\nTransform your MacBook's notch into a convenient file drop zone.\n[简体中文 🇨🇳](./Resources/i18n/zh-Hans/README.md)\n[](https://apps.apple.com/app/notchdrop/id6529528324)\nFor Developers: You can use [NotchNotification](https://github.com/Lakr233/NotchNotification) in your app, powered by NotchDrop.\n## 👀 Preview\n## 🌟 Key Features\n- [x] Should work with your menu bar managers\n- [x] Drag and drop files to the notch\n- [x] Open AirDrop directly from the notch\n- [x] Automatically save files for 1 day, can be configured\n- [x] Open files with a simple click\n- [x] Delete files by holding the option key and clicking the x mark\n- [x] Fully open source and privacy-focused\n- [x] Free of charge if you do it yourself\n## 🚀 Usage\nDownload the latest version from [Releases](https://github.com/Lakr233/NotchDrop/releases).\n## 🔨 Building from Source\n### Prerequisites\n- macOS with Xcode installed\n- Xcode Command Line Tools\n### Build Instructions\n#### For Personal Daily Use (Production Build)\nThis creates a production-optimized build that you can use daily on your Mac.\n1. Clone the repository:\n```bash\ngit clone https://github.com/Lakr233/NotchDrop.git\ncd NotchDrop\n```\n2. Build the app in Release configuration:\n```bash\nxcodebuild -project NotchDrop.xcodeproj \\\n  -scheme NotchDrop \\\n  -configuration Release \\\n  clean build \\\n  CODE_SIGN_IDENTITY=\"-\" \\\n  CODE_SIGNING_REQUIRED=NO \\\n  CODE_SIGNING_ALLOWED=NO\n```\n3. Copy the built app to your Applications folder:\n```bash\ncp -R ~/Library/Developer/Xcode/DerivedData/NotchDrop-*/Build/Products/Release/NotchDrop.app ~/Applications/\n```\n4. Launch the app:\n```bash\nopen ~/Applications/NotchDrop.app\n```\n**Note:** On first launch, macOS may show a security warning. To open:\n- Right-click on `NotchDrop.app` in Applications\n- Select \"Open\"\n- Click \"Open\" in the security dialog\nAfter the first time, the app will open normally.\n#### What This Build Does\n- **Release Configuration**: Builds with optimizations enabled for better performance\n- **Self-Signed**: Uses ad-hoc code signing (no Apple Developer account needed)\n- **Production Ready**: Suitable for daily use on your Mac\n- **Binary Size**: ~5.1MB\n- **Location**: `~/Applications/NotchDrop.app`\n#",
+   "Lakr233/BBackupp": "# BBackupp\nBack up your iOS devices the way it's meant to be done.\n## Statement\nAlthough this software meets my personal needs, I have to say it’s pretty bad for most users. Additionally, it doesn’t support recovery, you’ll have to use [MobileTransfer](https://github.com/Lakr233/MobileTransfer).\n## Features\n- [x] Effortlessly back up iOS devices.\n- [x] Monitor backup progress for each file.\n- [x] Perform one-time backups to local storage.\n- [x] **Enable wireless backups with IP address support.**\n- [x] **Seamless setup with Transferable Pair Record.**\n- [x] Secure your backups with encryption.\n- [x] Automate your backup schedule.\n- [x] **Automatically download app installers from the App Store.**\n- [x] Utilize snapshot technology for storing backups.\n- [x] **Support for storing backups locally, via SFTP, S3, and more.**\n- [x] Receive notifications throughout the backup process.\n- [x] Includes a simple alive checker via GET request.\nIf this app helps you out, consider a [donate](https://github.com/sponsors/Lakr233).\nTo restore you device, see [MobileTransfer](https://github.com/Lakr233/MobileTransfer)\n## Installation Guide\n### Homebrew\nTo install BBackupp using Homebrew, follow these steps:\n1. Ensure that you have Homebrew installed. If you don't have it, you can install it by running the following command in your terminal:\n    ```sh\n    /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n    ```\n2. Install BBackupp:\n    ```sh\n    brew install bbackupp\n    ```\n### From Release\nTo install BBackupp from the release page:\nVisit the [Releases](https://github.com/Lakr233/BBackupp/releases) on GitHub.\n## ~~Partial Open Source Notice~~\n~~Starting from version 2.0, certain components are not included in the open-source repository:~~\n- ~~Code interfacing with the App Store API.~~\n- ~~User interface components.~~\n- ~~MuxProxy related code.~~\n- ~~Assets.xcassets~~\n~~To build your own BBackupp, you'll need to develop a custom user interface and exclude the features listed above.~~\nBBackupp v2.0 is now fully open-source. You can build your own version with the included source code. Please refer to the [License](./LICENSE) for more i",
+   "Lakr233/Asspp": "# Asspp\n**The Ultimate Multi-Region App Store Manager.**\nAsspp is a powerful client designed for users who need to manage **multiple Apple IDs** across **different countries and regions**. Switch stores instantly, download apps from anywhere, and manage your IPA library—all without logging out of your device.\n[简体中文 🇨🇳](./Resources/i18n/zh-Hans/README.md)\n## ✨ Why Asspp?\n- **🌍 Multi-Region Access**: Browse and search the US, Japan, China, or any other App Store region seamlessly. No more switching system accounts just to check an app.\n- **👥 Multi-Account Support**: Add unlimited Apple IDs. Asspp automatically uses the correct account for the store you are browsing.\n- **📦 IPA Management**: Download official, signed IPAs directly from Apple's servers for backup or sideloading.\n- **⏪ History Versions**: Need an older version of an app? Asspp makes it easy to find and download previous releases.\n- **📱 Cross-Platform**: Native experience on both **iOS** and **macOS**.\n## 📥 Installation\n### iOS\n#### Option 1: Auto-Build & Sign (Recommended)\nFork this repository to automatically build and sign the app with your own developer certificate. This gives you a permanent **OTA installation link** that stays up-to-date with the latest changes.\n👉 **[Setup Guide](./Resources/Document/FORK_AUTOBUILD_GUIDE.md)**\n#### Option 2: Manual Install\n1.  Download the latest `.ipa` from [Releases](https://github.com/Lakr233/Asspp/releases).\n2.  Sign and install using your preferred tool (e.g., SideStore, AltStore, TrollStore, or other signing service).\n### macOS\n1.  Download the latest `.zip` from [Releases](https://github.com/Lakr233/Asspp/releases).\n2.  Unzip and move `Asspp.app` to your Applications folder.\n3.  **First Run and Trusting the App (Recommended)**:\n    1.  Try double-clicking to open the app. If you see \"App can’t be opened because the developer cannot be verified\" or a similar message:\n        - In Finder, locate `Asspp.app`, **Control-click** (or right-click) the app and choose **Open**, then click **Open** again in the dialog. This will create a one-time trust exception for the app.\n    2.  If Control-clicking does not work or the app is still blocked:\n        - Open **Syst"
+  }
+ },
+ "apps": [
+  {
+   "name": "FlowDown - Open & Fast AI",
+   "artist": "子衎 王",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2025-03-03",
+   "updated": "2026-10-18",
+   "version": "5.2.6",
+   "rating": 4.28,
+   "ratings": 29,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/flowdown-open-fast-ai/id6740553198",
+   "desc": "FlowDown is a fast, minimal AI chat app that makes working with large language models feel smooth, focused, and under your control.\n\nFor guides, tips, and advanced setup help, visit flowdown.ai.\n\nWhy FlowDown\n\nLightweight and efficient  \nFocus on your conversation, not the app. FlowDown launches quickly, stays out of your way, and keeps long chats responsive, even on busy machines.\n\nRich formatting with Markdown  \nGet clear, readable answers. FlowDown renders Markdown beautifully, so code blocks, bullet lists, tables, and headings in AI responses are easy to scan and use.\n\nWorks with the tools you already have  \nConnect to any OpenAI-compatible API, from major cloud providers to services running in your own home lab. If it speaks the OpenAI API, FlowDown can talk to it.\n\nTalk with text, images, and audio  \nShow, not just tell. Paste screenshots, drop in images, or record your voice to as",
+   "country": "us"
+  },
+  {
+   "name": "CENFC",
+   "artist": "子衎 王",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2026-03-18",
+   "updated": "2026-10-20",
+   "version": "2.1.0",
+   "rating": 5,
+   "ratings": 3,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/cenfc/id6760399948",
+   "desc": "CENFC is an advanced NFC toolkit for iOS. Scan, identify, dump, and analyze NFC tags — all processed locally on your device with zero data collection.\n\nSCANNER\nInstantly identify NFC tags through ATQA/SAK lookup and protocol probing. Supports ISO 14443, ISO 18092 (FeliCa), and ISO 15693. Accurately detects chip variants and card families, displaying UID, protocol details, and iOS operability status at a glance.\n\nMEMORY DUMP\nRead the complete memory of any operable NFC tag. Browse page-by-page and block-by-block breakdowns with parsed NDEF content. Export dumps in hex, JSON, or raw binary for forensic analysis or backup.\n\nNDEF READ & WRITE\nCreate, read, and write NDEF messages to compatible tags. Supports Text, URI, Smart Poster, MIME, and External record types. Build multi-record messages from scratch and write them directly to any writable tag.\n\nPASSPORT READER\nRead electronic passports",
+   "country": "us"
+  },
+  {
+   "name": "Muse Amp",
+   "artist": "子衎 王",
+   "genre": "Music",
+   "price": "Free",
+   "released": "2026-04-19",
+   "updated": "2026-10-19",
+   "version": "0.9.7",
+   "rating": 3,
+   "ratings": 2,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/muse-amp/id6762260116",
+   "desc": "Muse Amp is a local-first music player for people who keep their own music library.\n\nPlay downloaded songs, build playlists, browse albums, read synced lyrics, and search across your on-device library and connected catalog sources in one focused app. Muse Amp is designed for a personal music workflow that stays fast, organized, and available on your device.\n\nConnect a Subsonic-compatible server to browse catalog data, fetch artwork and lyrics, and choose the music you want to keep offline. Muse Amp centers around downloaded playback, so your library stays ready wherever you listen.\n\nWith Muse Amp, you can:\n- Play downloaded music with a queue-based listening experience (must be downloaded/imported)\n- Build and organize playlists\n- View cached and synced lyrics\n- Search your local library and connected server catalog\n- Transfer songs across your local network, including Apple TV handoff (",
+   "country": "us"
+  },
+  {
+   "name": "X2D GPS Companion",
+   "artist": "子衎 王",
+   "genre": "Photo & Video",
+   "price": "Free",
+   "released": "2025-10-22",
+   "updated": "2026-02-08",
+   "version": "1.4",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/x2d-gps-companion/id6754177561",
+   "desc": "# X2D GPS Companion\n\nA specialized iOS companion app for Hasselblad X2D camera users. Automatically geotags your photos by monitoring the photo library in real-time and applying precise GPS coordinates from your device's location services.\n\n## Important Notes\n\n- **Mainland China Users**: Location data is recorded using the GCJ-02 coordinate system (Mars Coordinates) when operating in mainland China. Initial location previews in Apple Photos may appear offset. To resolve this, simply reopen the Photos app or tap the location for accurate positioning details.\n- This app works with any other camera with similar features, too.\n\n## Key Features\n\n- **Automatic Geotagging**: Seamlessly embeds GPS coordinates into photos from your Hasselblad X2D\n- **Background Recording**: Continuous location tracking even when the app is not in the foreground\n- **Live Activity Support**: Real-time recording sta",
+   "country": "us"
+  },
+  {
+   "name": "BreakGlass - Liquid Glass Game",
+   "artist": "子衎 王",
+   "genre": "Lifestyle",
+   "price": "Free",
+   "released": "2025-10-06",
+   "updated": "2025-10-07",
+   "version": "1.0",
+   "rating": 3.5,
+   "ratings": 4,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/breakglass-liquid-glass-game/id6753628881",
+   "desc": "I heard that you don't like Liquid Glass.\n\nWell, it's pretty most of the time, but sure, it's your decision to... break it??? \n\nOkay, here we go!\n\nBreak Glass is a simple game for you when you’re stressed out or you just like to relax. Tap on the glass and it will break into pieces. \n\nHave fun.",
+   "country": "us"
+  },
+  {
+   "name": "Dealer - Simple Multi Search",
+   "artist": "子衎 王",
+   "genre": "Reference",
+   "price": "Free",
+   "released": "2025-02-11",
+   "updated": "2025-03-05",
+   "version": "1.0",
+   "rating": 4,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/dealer-simple-multi-search/id6741752427",
+   "desc": "One-click search with multiple results from major search engines.\n\nSimply type in your query, select a category, and hit return. In the results page, swipe for more or click to open the current page in Safari.\n\nThat’s it.\n\nPs: This app only displays web pages and is not affiliated with or endorsed by the search providers. We have no connection with them.",
+   "country": "us"
+  },
+  {
+   "name": "NotchDrop",
+   "artist": "子衎 王",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2024-08-02",
+   "updated": "2024-11-25",
+   "version": "2.16",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/notchdrop/id6529528324",
+   "desc": "Utilize your MacBook’s notch similar to Dynamic Island for temporarily storing files and opening AirDrop.\n\nKey Features\n\n- Should work with your menu bar managers\n- Drag and drop files to the notch\n- Open AirDrop directly from the notch\n- Automatically save files for 1 day, can be configured\n- Open files with a simple click\n- Delete files by holding the option key and clicking the x mark\n- Fully open source and privacy-focused",
+   "country": "us"
+  },
+  {
+   "name": "Axchange - ADB File Transfer",
+   "artist": "子衎 王",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2024-11-11",
+   "updated": "2026-08-04",
+   "version": "1.8.3",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/axchange-adb-file-transfer/id6737504944",
+   "desc": "**Axchange – Easy File Transfer and Management for Android Devices**\n\nAxchange simplifies file management on your Android device. Seamlessly transfer, organize, and access files between your Android phone and computer with a straightforward interface.\n\nNote: Requires wired connection.\n\n**Key Features:**\n\n1. **Fast, Reliable Transfers**  \n\nEasily transfer photos, videos, music, and documents between your Android device and computer. Track each transfer with stable performance.\n\n2. **Comprehensive File Management**  \n\nView detailed file information, including size, permissions, and modification dates. Organize your files with options to create, delete, copy, and move items.\n\n3. **Simple, User-Friendly Interface**  \n\nNavigate folders, preview files, and manage your content with ease using Axchange’s clean and intuitive design.\n\nAxchange is ideal for Android users who want easy access and or",
+   "country": "us"
+  },
+  {
+   "name": "Cookey - Help Agents In",
+   "artist": "子衎 王",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2026-04-06",
+   "updated": "2026-04-12",
+   "version": "0.4.13",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/cookey-help-agents-in/id6761188025",
+   "desc": "Cookey — Browser Sessions for Your Agents\n\nScan a QR code on your phone, log in on mobile, and your browser session lands encrypted and ready for Playwright and AI agents.\n\nCookey bridges the gap between mobile login and agent automation. When an AI agent or script needs a logged-in browser session, Cookey lets you handle authentication on your phone and securely deliver the result.\n\nHow it works:\n1. Run the Cookey CLI on your computer to generate a QR code.\n2. Scan the QR code with this app.\n3. Log in to the target website in the built-in browser.\n4. Your session is encrypted on-device and delivered as Playwright-compatible JSON — ready for your agent to use.\n\nKey features:\n\n- End-to-end encrypted: Session data is encrypted on your device before it ever leaves your phone. The relay server never sees plaintext.\n- Zero registration: No accounts, no sign-ups, no device enrollment. The CLI ",
+   "country": "us"
+  },
+  {
+   "name": "Sentry - Just Step Away",
+   "artist": "子衎 王",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2025-05-25",
+   "updated": "2025-06-18",
+   "version": "1.3",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/sentry-just-step-away/id6746349629",
+   "desc": "**Never worry about leaving your Mac unattended again!**\n\nPicture this: you're coding in a coffee shop when nature calls. You don't want to lug your laptop to the restroom, but you're worried about security. Simply activate Sentry and step away with confidence!\n\n**What Sentry Does:**\n• **Smart Detection** - Monitors lid closure, network disconnection, and power unplugging\n• **Instant Alerts** - Plays progressive alarm sounds and sends push notifications\n• **Video Recording** - Automatically records when suspicious activity is detected\n• **Always Visible** - Overlay interface stays on top of all windows\n\n**Perfect for:**\n- Coffee shops and public spaces\n- Shared workspaces\n- Libraries and study areas\n- Any time you need to step away briefly\n\n**Key Features:**\n- Real-time monitoring of multiple triggers\n- Automatic video evidence recording\n- Progressive alarm system\n- Remote notifications ",
+   "country": "us"
+  },
+  {
+   "name": "Cucurbita",
+   "artist": "子衎 王",
+   "genre": "Lifestyle",
+   "price": "Free",
+   "released": "2024-11-18",
+   "updated": "2024-11-18",
+   "version": "1.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/cucurbita/id6737599147",
+   "desc": "Cucurbita is a desktop toy that in company with your halloween. It will shine for you. You can drag it around and click to light it up.",
+   "country": "us"
+  },
+  {
+   "name": "The Speed Ball",
+   "artist": "子衎 王",
+   "genre": "Utilities",
+   "price": "$0.99",
+   "released": "2025-05-29",
+   "updated": "2025-05-30",
+   "version": "1.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/the-speed-ball/id6746576719",
+   "desc": "Bring back the old 90's floating speed ball to your Mac with some how morden design.\n\n## Features\n\n- **CPU Monitoring** - Real-time CPU usage tracking and display\n- **Memory Monitoring** - Monitor RAM usage and memory pressure\n- **Network Monitoring** - Track network activity and bandwidth usage\n- **Memory Cleanup** - One-click memory optimization and cleanup (tap the ball)",
+   "country": "us"
+  }
+ ]
+}

@@ -1,0 +1,403 @@
+{
+ "handle": "nixzhu",
+ "sites": [
+  {
+   "url": "https://nixzhu.dev",
+   "ok": true,
+   "title": "Latest Content | NIX ZHU",
+   "description": "I",
+   "stack": [],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "*   ## [Introducing Ducky](https://nixzhu.dev/posts/introducing-ducky)\nDucky is a document-based app that helps you infer models from JSON to save your time.\n    *   [Ducky Model Editor](https://nixzhu.dev/tags/ducky-model-editor)\n    *   [JSON](https://nixzhu.dev/tags/json)\n    *   [JSON Schema](https://nixzhu.dev/tags/json-schema)\n    *   [Swift](https://nixzhu.dev/tags/swift)\n    *   [Kotlin](https://nixzhu.dev/tags/kotlin)\n    *   [Dart](https://nixzhu.dev/tags/dart)\n    *   [Go](https://nixzhu.dev/tags/go)\n    *   [Proto](https://nixzhu.dev/tags/proto)\n    *   [Code Generator](https://nixzhu.dev/tags/code-generator)",
+   "github_links": [],
+   "subpages": {
+    "https://nixzhu.dev/posts": "*   ## [Introducing Ducky](https://nixzhu.dev/posts/introducing-ducky)\nDucky is a document-based app that helps you infer models from JSON to save your time.\n    *   [Ducky Model Editor](https://nixzhu.dev/tags/ducky-model-editor)\n    *   [JSON](https://nixzhu.dev/tags/json)\n    *   [JSON Schema](https://nixzhu.dev/tags/json-schema)\n    *   [Swift](https://nixzhu.dev/tags/swift)\n    *   [Kotlin](https://nixzhu.dev/tags/kotlin)\n    *   [Dart](https://nixzhu.dev/tags/dart)\n    *   [Go](https://nixzhu.dev/tags/go)\n    *   [Proto](https://nixzhu.dev/tags/proto)\n    *   [Code Generator](https://nixzhu.dev/tags/code-generator)",
+    "https://nixzhu.dev/notes": "NIX ZHU \nNotes \n 在 Mac Studio 上安装 TensorFlow \n对于 M1 芯片的 Mac，安装具有 GPU（Metal）支持的 TensorFlow \n Mac \n M1 \n TensorFlow \n Metal \n 作为 App 开发者会先安装的 Mac App \n常用 App，久经考验 \n Ghostty \n Xcode \n Fork \n A Companion for SwiftUI \n Ducky Model Editor \n SwiftFormat for Xcode \n System Color Picker \n Boop \n ControlRoom \n Typora \n 在终端里解决 Swift 包依赖 \nXcode 不走系统代理，若遇到 Swift Package 拉取失败，可通过命令行解决 \n Xcode \n Swift Package Manager \n Proxy \n 通过快捷键在 Xcode 中使用 SwiftFormat \nSwiftFormat 有一个 Xcode Source Editor Extension，在我们定义好快捷键的情况下，在 Xcode 内使用的体验很不错 \n Xcode \n SwiftFormat \n SwiftFormat for Xcode \n 新的 Apple 分发证书 \n生成新的分发证书，以提交 App 到 App Store \n Xcode \n Certificate \n App Store Connect 小贴士 \n提升 App Store Connect 的使用体验 \n App Store Connect \n Xcode",
+    "https://nixzhu.dev/apps": "NIX ZHU \nApps \nAs an app developer, I make apps. \n Ducky Model Editor \nDucky is a document-based app that helps you infer models from JSON to save your time. \nIt can infer JSON Schema , Swift , Kotlin , Dart (Null Safety) , Go or Proto models. \nIt provides many options for you to customize the model. \nI think it will save you some time to build the model layer of your application. \nFor more information, see Introducing Ducky . \n Anycode: Code Snippet to Image \nAnycode is a document-based app that helps you manage your code snippets. \nSupports syntax highlighting for Bash , C , C++ , C# , Clojure , Dart , Go , Java , JavaScript , JSON , Kotlin , Objective-C , Python , Ruby , Rust , Scheme , SQL , Swift and TypeScript . \nGenerate beautiful formatted images to share. \nExport as PDF . \n HandTalk: Game of Go \nPlay Game of Go with your friends in iMessage . \nSelect the lines of board to start a new game. \nPlay your move with touches. \nWhen you receive a HandTalk message, tap it to response.",
+    "https://nixzhu.dev/about": "I'm NIX. As an app developer, I make [apps](https://nixzhu.dev/apps/) to help others.\nYou can also find me on:\n*   [GitHub](https://github.com/nixzhu)\n*   [Mastodon](https://mastodon.social/@nixzhu)\n    *   Wanna try it? This is my [invitation](https://mastodon.social/invite/tV3dbMuj).\nWelcome to contact me via [Email](mailto:zhuhongxu@gmail.com) too. 🐣"
+   },
+   "feed": {
+    "url": "https://nixzhu.dev/feed.rss",
+    "count_seen": 1,
+    "items": [
+     {
+      "title": "Introducing Ducky",
+      "date": "Thu, 19 Nov 2020 09:41:00",
+      "url": "https://nixzhu.dev/posts/introducing-ducky"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "nixzhu",
+  "user": {
+   "name": null,
+   "company": null,
+   "blog": "https://nixzhu.dev",
+   "location": null,
+   "bio": null,
+   "public_repos": 59,
+   "followers": 1916,
+   "created_at": "2010-10-11T10:42:56Z",
+   "twitter_username": "nixzhu",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "nixzhu/dev-blog",
+    "description": "翻译、开发心得或学习笔记",
+    "stargazers_count": 3900,
+    "forks_count": 697,
+    "language": null,
+    "homepage": "https://apps.apple.com/cn/app/ducky-model-editor/id1525505933",
+    "created_at": "2014-04-16T12:04:45Z",
+    "pushed_at": "2024-05-08T10:07:06Z",
+    "topics": [
+     "algorithms",
+     "gcd",
+     "ios",
+     "parser",
+     "parser-combinators",
+     "state-machine",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/MonkeyKing",
+    "description": "MonkeyKing helps you to post messages to Chinese Social Networks.",
+    "stargazers_count": 2712,
+    "forks_count": 234,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-09-11T14:57:31Z",
+    "pushed_at": "2022-12-08T06:48:36Z",
+    "topics": [
+     "alipay",
+     "qq",
+     "wechat",
+     "weibo"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Proposer",
+    "description": "Make permission request easier.",
+    "stargazers_count": 842,
+    "forks_count": 47,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-07-10T17:51:00Z",
+    "pushed_at": "2021-12-17T07:06:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Coolie",
+    "description": "Coolie(苦力) helps you to create models (& their constructors) from a JSON file.",
+    "stargazers_count": 500,
+    "forks_count": 29,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2016-01-24T05:18:33Z",
+    "pushed_at": "2017-05-12T09:48:10Z",
+    "topics": [
+     "class",
+     "generator",
+     "json",
+     "json-parser",
+     "model",
+     "models",
+     "struct"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/KeyboardMan",
+    "description": "KeyboardMan helps you to make keyboard animation.",
+    "stargazers_count": 349,
+    "forks_count": 30,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-07-25T18:32:08Z",
+    "pushed_at": "2025-08-18T03:09:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Sensei",
+    "description": "Sensei is a Mac app based on OpenAI API.",
+    "stargazers_count": 301,
+    "forks_count": 29,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-04-08T10:39:07Z",
+    "pushed_at": "2023-05-05T01:47:59Z",
+    "topics": [
+     "chatgpt",
+     "grdb",
+     "swift-composable-architecture"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Baby",
+    "description": "Create models from a JSON file, even a Baby can do it.",
+    "stargazers_count": 219,
+    "forks_count": 18,
+    "language": "Swift",
+    "homepage": "https://apps.apple.com/cn/app/ducky-model-editor/id1525505933",
+    "created_at": "2017-04-18T02:06:06Z",
+    "pushed_at": "2021-11-18T02:37:57Z",
+    "topics": [
+     "code-generator",
+     "json",
+     "model",
+     "parser",
+     "parser-combinators",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Bible-Assistant",
+    "description": "Bible Assistant App",
+    "stargazers_count": 173,
+    "forks_count": 38,
+    "language": "Objective-C",
+    "homepage": "https://itunes.apple.com/cn/app/sheng-jing-xiao-zhu-shou/id851014654?l=en&mt=8",
+    "created_at": "2014-05-18T09:36:01Z",
+    "pushed_at": "2014-05-18T11:02:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Wormhole",
+    "description": "A more elegant way for message passing between iOS apps and extensions.",
+    "stargazers_count": 171,
+    "forks_count": 11,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-05-23T10:01:46Z",
+    "pushed_at": "2017-10-24T14:09:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Ruler",
+    "description": "Size matters, you need a ruler.",
+    "stargazers_count": 155,
+    "forks_count": 17,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-07-22T08:28:48Z",
+    "pushed_at": "2018-09-17T10:03:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Navi",
+    "description": "Focus on avatar caching.",
+    "stargazers_count": 115,
+    "forks_count": 11,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-09-27T18:20:27Z",
+    "pushed_at": "2017-08-08T06:35:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Ananda",
+    "description": "JSON model decoding based on yyjson.",
+    "stargazers_count": 93,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-01-11T11:38:59Z",
+    "pushed_at": "2026-02-07T21:38:42Z",
+    "topics": [
+     "json",
+     "macro",
+     "swift",
+     "yyjson"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/AudioBot",
+    "description": "AudioBot helps you do audio record & playback.",
+    "stargazers_count": 39,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-11-30T01:00:20Z",
+    "pushed_at": "2021-01-14T20:01:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/Redstone",
+    "description": "Redstone has a State Machine",
+    "stargazers_count": 36,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2017-01-06T14:54:29Z",
+    "pushed_at": "2019-01-11T06:57:53Z",
+    "topics": [
+     "state-machine"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/nixBoard",
+    "description": "一块简易的围棋棋盘",
+    "stargazers_count": 29,
+    "forks_count": 11,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2012-03-12T15:03:11Z",
+    "pushed_at": "2014-06-17T01:20:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/SharedBaby",
+    "description": "Baby's web interface.",
+    "stargazers_count": 29,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2017-07-12T00:55:05Z",
+    "pushed_at": "2017-08-02T07:12:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/HelloMou",
+    "description": "The translation(Chinese) of Markdown Editor Mou's Hello.md",
+    "stargazers_count": 20,
+    "forks_count": 11,
+    "language": null,
+    "homepage": "",
+    "created_at": "2012-02-25T13:17:20Z",
+    "pushed_at": "2012-02-25T13:29:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nixzhu/GentleTouch",
+    "description": "Touch yourself, with WATCH.",
+    "stargazers_count": 19,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-06-13T04:26:56Z",
+    "pushed_at": "2015-06-13T19:45:54Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 55,
+  "languages": [
+   [
+    "Swift",
+    43
+   ],
+   [
+    "Objective-C",
+    3
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "C",
+    1
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "nixzhu/dev-blog",
+    "stargazerCount": 3900,
+    "description": "翻译、开发心得或学习笔记",
+    "primaryLanguage": null,
+    "homepageUrl": "https://apps.apple.com/cn/app/ducky-model-editor/id1525505933"
+   },
+   {
+    "nameWithOwner": "nixzhu/MonkeyKing",
+    "stargazerCount": 2712,
+    "description": "MonkeyKing helps you to post messages to Chinese Social Networks.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "nixzhu/KeyboardMan",
+    "stargazerCount": 349,
+    "description": "KeyboardMan helps you to make keyboard animation.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "nixzhu/Sensei",
+    "stargazerCount": 301,
+    "description": "Sensei is a Mac app based on OpenAI API.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "nixzhu/Baby",
+    "stargazerCount": 219,
+    "description": "Create models from a JSON file, even a Baby can do it.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://apps.apple.com/cn/app/ducky-model-editor/id1525505933"
+   },
+   {
+    "nameWithOwner": "nixzhu/Ananda",
+    "stargazerCount": 93,
+    "description": "JSON model decoding based on yyjson.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 1327,
+  "orgs": [
+   "diveintohtml5-zh-cn"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "nixzhu/dev-blog": "dev-blog\n========\n翻译、开发心得或学习笔记\n- [AutoLayout Tips](https://github.com/nixzhu/dev-blog/blob/main/posts/autolayout-tips.md)\n- 翻译：[GCD 深入理解：第一部分](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-04-19-grand-central-dispatch-in-depth-part-1.md)\n- 翻译：[为一个 iOS 应用编写一个简单的 Node.js/MongoDB Web 服务](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-04-21-write-a-simple-nodejs-mongodb-web-service-for-an-ios-app.md)\n- 翻译：[研究 UIActivityViewController](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-04-22-uiactivityviewcontroller.md)\n- 翻译：[开发使用 iBeacon 的 iOS 7 应用](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-04-23-ios7-ibeacons-tutorial.md)\n- 翻译：[iOS 应用的国际化（2014）](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-04-24-internationalization-tutorial-for-ios-2014.md)\n- 翻译：[制作一个可以滑动操作的 Table View Cell](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-04-26-make-swipeable-table-view-cell-actions-without-going-nuts-scroll-views.md)\n- 翻译：[编写一个使用 Node.js/MongoDB Web 服务的 iOS 应用](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-04-29-write-ios-app-uses-node-jsmongodb-web-service.md)\n- 翻译：[创建自定义 AngularJS 指令，第一部分，基础知识](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-05-03-creating-custom-angularjs-directives-part-1-the-fundamentals.md)\n- 翻译：[自定义 Layer 属性的动画](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-05-10-animating-custom-layer-properties.md)\n- 翻译：[GCD 深入理解：第二部分](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-05-14-grand-central-dispatch-in-depth-part-2.md)\n- 翻译：[在 iOS 上捕捉签名](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-05-27-capture-a-signature-on-ios.md)\n- 翻译：[Flipboard 在 iOS 上怎样播放 GIF 动画](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-06-01-animated-gif.md)\n- 翻译：[介绍 MVVM](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-06-10-mvvm.md)\n- 翻译：[使用 Swift 和 Xcode 6 制作超棒的 UI 组件](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-06-10-make-awesome-ui-components-ios-8-using-swift-xcode-6.md)\n- [分析一个有趣的 Swift 项目：LTBouncyPlaceholder](https://github.com/nixzhu/dev-blog/blob/main/posts/2014-06-12-ltbouncyplaceholder.md)\n- 翻译：[用 Quartz Composer 和 Origami 制作一个简单的按钮动画](https://github.co",
+   "nixzhu/MonkeyKing": "<p>\n<a href=\"http://cocoadocs.org/docsets/MonkeyKing\"></a>\n<a href=\"https://github.com/Carthage/Carthage/\"></a>\n</p>\n# MonkeyKing\nMonkeyKing helps you post SNS messages to Chinese Social Networks, without their buggy SDKs.\nMonkeyKing uses the same analysis process of [openshare](https://github.com/100apps/openshare).\nWe also use some reverse engineering tools such as [Hopper Disassembler](https://www.hopperapp.com/) to unveil several undocumented authentication mechanisms under the hood.\nIt supports sharing **Text**, **URL**, **Image**, **Audio**, **Video**, and **File** to **WeChat**, **QQ**, **Alipay** or **Weibo**.\nMonkeyKing can also post messages to Weibo by a web page. (Note: Audio and Video are exclusive to WeChat or QQ, and File is exclusive to QQ Dataline)\nMonkeyKing also supports **OAuth** and **Mobile payment** via WeChat and Alipay!\n## Requirements\nSwift 5, iOS 9\n(For Swift 4.2, use version 1.13.0)\n(For Swift 4.1/4.0, use version 1.11.0)\n(For Swift 3, use version 1.3.0)\n## Examples\n### Share\nExample: Share to WeChat (微信)：\n1. In your Project Target's `Info.plist`, set `URL Type`, `LSApplicationQueriesSchemes` as follow:\n    You should also add `weixinULAPI` once you enabled Universal Link of your WeChat App.\n2. Register account: // it's not necessary to do it here, but for the sake of convenience\n    ```swift\n    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {\n        MonkeyKing.regsiterAccount(\n            .weChat(\n                appID: \"xxx\",\n                appKey: \"yyy\",\n                miniAppID: nil,\n                universalLink: nil // FIXME: You have to adopt Universal Link otherwise your app name becomes \"Unauthorized App\"(未验证应用)...\n            )\n        )\n        return true\n    }\n    ```\n3. Append the following code to handle callbacks:\n    ```swift\n    // AppDelegate.swift\n    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {\n    //func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool { // only for iOS 8\n        return",
+   "nixzhu/KeyboardMan": "<p>\n<a href=\"http://cocoadocs.org/docsets/KeyboardMan\"></a> \n<a href=\"https://github.com/Carthage/Carthage/\"></a> \n</p>\n# KeyboardMan\nWe may need keyboard infomation from keyboard notifications to do animation. However, the approach is complicated and easy to make mistakes. Even more, we need to handle the bug of system fire keyboard notifications.\nBut KeyboardMan will make it simple & easy.\n另有[中文介绍](https://github.com/nixzhu/dev-blog/blob/master/2015-07-27-keyboard-man.md)。\n## Requirements\nSwift 4.2, iOS 8.0\n(Swift 3, use version 1.1.0)\n## Example\n```swift\nimport KeyboardMan\n```\nDo animation with keyboard appear/disappear:\n```swift\nlet keyboardMan = KeyboardMan()\nkeyboardMan.animateWhenKeyboardAppear = { [weak self] appearPostIndex, keyboardHeight, keyboardHeightIncrement in\n    print(\"appear \\(appearPostIndex), \\(keyboardHeight), \\(keyboardHeightIncrement)\\n\")\n    if let self = self {\n        self.tableView.contentOffset.y += keyboardHeightIncrement\n        self.tableView.contentInset.bottom = keyboardHeight + self.toolBar.frame.height\n        self.toolBarBottomConstraint.constant = keyboardHeight\n        self.view.layoutIfNeeded()\n    }\n}\nkeyboardMan.animateWhenKeyboardDisappear = { [weak self] keyboardHeight in\n    print(\"disappear \\(keyboardHeight)\\n\")\n    if let self = self {\n        self.tableView.contentOffset.y -= keyboardHeight\n        self.tableView.contentInset.bottom = self.toolBar.frame.height\n        self.toolBarBottomConstraint.constant = 0\n        self.view.layoutIfNeeded()\n    }\n}\n```\nFor more specific information, you can use keyboardInfo that KeyboardMan post:\n```swift\nkeyboardMan.postKeyboardInfo = { [weak self] keyboardMan, keyboardInfo in\n    // TODO\n}\n```\nCheck the demo for more information.\n## Installation\nFeel free to drag `KeyboardMan.swift` to your iOS Project. But it's recommended to use Carthage (or CocoaPods).\n### Carthage\n```ogdl\ngithub \"nixzhu/KeyboardMan\"\n```\n### CocoaPods\n```ruby\npod 'KeyboardMan'\n```\n## Contact\nNIX [@nixzhu](https://twitter.com/nixzhu)\n## License\nKeyboardMan is available under the MIT license. See the LICENSE file for more info.\n",
+   "nixzhu/Sensei": "# Sensei\nSensei is a Mac app based on OpenAI API.\n## Build\nTo build Sensei, make sure you have Xcode 14.3 installed, follow these steps:\n- Clone this repository.\n- Install [Tuist](https://docs.tuist.io/tutorial/get-started) if needed.\n- In the repository's directory, run `make sensei bundle-id-prefix=io.tuist version=0.3.0 build=10` to fetch third-party dependencies, then generate the Xcode Project and open it. You can replace `io.tuist` with your own domain in reverse-DNS format, or specify the `version` and `build`.\n",
+   "nixzhu/Baby": "# Baby\nCreate models from a JSON file, even a Baby can do it.\n## Description\nBaby can infer property's type from json such as `String`, `Int`, `Double`, `URL` and `Date`.\nBaby can handle nested json, it will generate nested models.\nBaby supports `Codable` from Swift 4.\n### Example\nJSON:\n``` json\n{\n    \"id\": 42,\n    \"name\": \"nixzhu\",\n    \"twitter\": {\n        \"profile_url\": \"https://twitter.com/nixzhu\",\n        \"created_at\": \"2009-05-12T10:25:43.511Z\"\n    }\n}\n```\nSwift code with `Codable`:\n``` swift\nstruct User: Codable {\n    let id: Int\n    let name: String\n    struct Twitter: Codable {\n        let profileURL: URL\n        let createdAt: Date\n        private enum CodingKeys: String, CodingKey {\n            case profileURL = \"profile_url\"\n            case createdAt = \"created_at\"\n        }\n    }\n    let twitter: Twitter\n}\n```\nNote that there use **Property Map** `profile_url: profileURL` to change the property name (Automatically generated will be `profileUrl`).\nSwift code without `Codable`:\n``` swift\nstruct User {\n    let id: Int\n    let name: String\n    struct Twitter {\n        let profileURL: URL\n        let createdAt: Date\n        init(profileURL: URL, createdAt: Date) {\n            self.profileURL = profileURL\n            self.createdAt = createdAt\n        }\n        init?(json: [String: Any]) {\n            guard let profileURLString = json[\"profile_url\"] as? String else { return nil }\n            guard let profileURL = URL(string: profileURLString) else { return nil }\n            guard let createdAtString = json[\"created_at\"] as? String else { return nil }\n            guard let createdAt = DateFormatter.iso8601.date(from: createdAtString) else { return nil }\n            self.init(profileURL: profileURL, createdAt: createdAt)\n        }\n    }\n    let twitter: Twitter\n    init(id: Int, name: String, twitter: Twitter) {\n        self.id = id\n        self.name = name\n        self.twitter = twitter\n    }\n    init?(json: [String: Any]) {\n        guard let id = json[\"id\"] as? Int else { return nil }\n        guard let name = json[\"name\"] as? String else { return nil }\n        guard let twitterJSONDictionary = json[\"twitter\"] as? [String: Any] else { return nil }\n       "
+  }
+ },
+ "apps": []
+}

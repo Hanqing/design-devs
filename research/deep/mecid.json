@@ -1,0 +1,362 @@
+{
+ "handle": "mecid",
+ "sites": [
+  {
+   "url": "https://swiftwithmajid.com",
+   "ok": true,
+   "title": "Home | Swift with Majid",
+   "description": "Majid’s blog about Swift development",
+   "stack": [
+    "Jekyll v3.10.0",
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "Adapting your app for iPhone Duo\n 14 Oct 2026 \niPhone Duo became the first folding iPhone providing us with two displays of different sizes and aspect ratios. This week, we will talk about adapting our apps to different screen sizes using simple techniques that Apple UI frameworks provide us. \n Iterative data loading in Swift\n 29 Sep 2026 \nHow to deal with complex features that might need 40–50 async requests to populate the screen? How might we arrange these requests to prevent overwhelming the Cooperative Thread Pool, or how could we refine concurrent tasks? This week, we will talk about the iterative data loading approach that I use in my CardioBot app. \n Backporting SwiftUI APIs\n 22 Sep 2026 \nUsually, we don’t see many new APIs in intermediate releases like 27.1, but this time is different. Apple introduced several new iPhone Duo-related APIs in the 27.1 release. This week, we will learn how to use all of these new APIs without bumping your project’s target version. \n Building AI features using Foundation Models. Multimodal input.\n 01 Sep 2026 \nOne of the most eagerly anticipated additions to Foundation Models was the ability to input images. I was almost certain that we would receive this feature during this WWDC, and fortunately, we did. This week, we will learn how to utilize the multimodal input capability in Foundation Models. \n Taking control of toolbar items in SwiftUI\n 23 Jun 2026 \nI already wrote about Toolbar APIs a few times because it is one of the most important and widely used APIs in SwiftUI. Toolbars play a crucial role, especially with the recent update to the design language where we have a content layer and the UI controls layer above it. This week, we will talk about new APIs allowing us to control toolbar appearance even more. \n Swipe actions outside of List in SwiftUI\n 16 Jun 2026 \nSwipe actions were a primary reason for using List in SwiftUI. As you may recall, I’ve mentioned several times that a scroll view paired with lazy stacks is the preferred approach in most scenarios, except when swipe actions are required. \n What is new in SwiftUI after WWDC26\n 08 Jun 2026 \nPlatforms State of the Union has just been published, and we have a lot of new APIs to learn, explore, and use to build new features and apps. Let’s start with the most important framework for our apps. This week, we will look at what WWDC26 brings to the new iteration of SwiftUI. \n WWDC26 wishes\n 02 Jun 2026 \nWWDC26 is just around the corner, and as always, it is the most exciting time of the year for Apple developers. Next week, Apple will show the future of its platforms, frameworks, and developer tools. Some announcements will probably be completely new, while others may finally address the gaps we have been feeling in our daily work. \n Swift Defer. Clean up before you leave.\n 26 May 2026 \nYou may think about defer keyword as one of the most ambiguous language features in Swift, but it is very useful in some cases. You can use it deliberately, and it will give you safety. This week we will talk about some best practices of using defer in Swift. \n Deprecating your own convenience API\n 19 May 2026 \nAlmost after every major update of iOS, we got new APIs that we use on the most recent platform but can’t use on the previous one. Usually, I solve this kind of thing by introducing my own convenience code that runs new APIs on the available versions and my custom implementation or stubs on old platform versions. \n Older \n Newer",
+   "github_links": [
+    "mecid"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://swiftwithmajid.com/feed.xml",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "Adapting your app for iPhone Duo",
+      "date": "2026-10-14T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/10/14/adapting-your-app-for-iPhone-duo/"
+     },
+     {
+      "title": "Iterative data loading in Swift",
+      "date": "2026-09-29T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/09/29/iterative-data-loading-in-swift/"
+     },
+     {
+      "title": "Backporting SwiftUI APIs",
+      "date": "2026-09-22T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/09/22/backporting-swiftui-apis/"
+     },
+     {
+      "title": "Building AI features using Foundation Models. Multimodal input.",
+      "date": "2026-09-01T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/09/01/building-ai-features-using-foundation-models-multimodal-input/"
+     },
+     {
+      "title": "Taking control of toolbar items in SwiftUI",
+      "date": "2026-06-23T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/06/23/taking-control-of-toolbar-items-in-swiftui/"
+     },
+     {
+      "title": "Swipe actions outside of List in SwiftUI",
+      "date": "2026-06-16T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/06/16/swipe-actions-outside-of-list-in-swiftui/"
+     },
+     {
+      "title": "What is new in SwiftUI after WWDC26",
+      "date": "2026-06-08T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/06/08/what-is-new-in-swiftui-after-wwdc26/"
+     },
+     {
+      "title": "WWDC26 wishes",
+      "date": "2026-06-02T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/06/02/wwdc26-wishes/"
+     },
+     {
+      "title": "Swift Defer. Clean up before you leave.",
+      "date": "2026-05-26T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/05/26/swift-defer-clean-up-before-you-leave/"
+     },
+     {
+      "title": "Deprecating your own convenience API",
+      "date": "2026-05-19T00:00:00+00:00",
+      "url": "https://swiftwithmajid.com/2026/05/19/deprecating-your-own-convenience-api/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mecid",
+  "user": {
+   "name": "Majid Jabrayilov",
+   "company": null,
+   "blog": "swiftwithmajid.com",
+   "location": "Dynamic Island",
+   "bio": "Swift developer 👨🏻‍💻SwiftUI addicted 🚀Creator of @CardioBotApp for⌚️and📱Writing weekly posts about Swift development 📖",
+   "public_repos": 26,
+   "followers": 2112,
+   "created_at": "2010-07-06T15:30:20Z",
+   "twitter_username": "mecid",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mecid/SwiftUICharts",
+    "description": "A simple line and bar charting library that supports accessibility written using SwiftUI. ",
+    "stargazers_count": 1574,
+    "forks_count": 73,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-07-20T14:00:55Z",
+    "pushed_at": "2023-10-10T22:24:03Z",
+    "topics": [
+     "chart",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/swiftui-recipes-app",
+    "description": "Recipes app written in SwiftUI using Single State Container",
+    "stargazers_count": 556,
+    "forks_count": 67,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-11-11T09:48:27Z",
+    "pushed_at": "2020-10-19T12:45:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/swift-unidirectional-flow",
+    "description": "Unidirectional flow implemented using the latest Swift Generics and Swift Concurrency features.",
+    "stargazers_count": 304,
+    "forks_count": 10,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-07-06T22:05:25Z",
+    "pushed_at": "2025-10-04T16:19:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/UIKitSwiftDSL",
+    "description": "Swift DSL for UIKit",
+    "stargazers_count": 156,
+    "forks_count": 8,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-01-20T09:48:34Z",
+    "pushed_at": "2019-05-08T20:09:32Z",
+    "topics": [
+     "dsl",
+     "ios",
+     "ios-swift",
+     "swift",
+     "uikit"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/mecid.github.io",
+    "description": "Majid's blog about Swift development",
+    "stargazers_count": 51,
+    "forks_count": 11,
+    "language": "SCSS",
+    "homepage": null,
+    "created_at": "2019-01-22T12:55:38Z",
+    "pushed_at": "2026-10-14T21:38:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/swiftui-trakttv-app",
+    "description": "Simple tvOS app that shows trending shows written in SwiftUI",
+    "stargazers_count": 37,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-04-21T12:39:58Z",
+    "pushed_at": "2020-04-21T12:54:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/robird-reborn",
+    "description": "Twitter client Robird has a gorgeous look with an intuitive interface that makes it super easy to use while packing in tons of features.",
+    "stargazers_count": 17,
+    "forks_count": 4,
+    "language": "Java",
+    "homepage": null,
+    "created_at": "2017-07-03T10:43:02Z",
+    "pushed_at": "2017-07-10T20:49:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/SugarBot-Landing",
+    "description": null,
+    "stargazers_count": 9,
+    "forks_count": 1,
+    "language": "SCSS",
+    "homepage": null,
+    "created_at": "2022-08-28T21:56:46Z",
+    "pushed_at": "2024-12-17T10:43:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/sleepbot-landing",
+    "description": null,
+    "stargazers_count": 5,
+    "forks_count": 5,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2019-08-25T18:31:07Z",
+    "pushed_at": "2020-08-29T16:25:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/swiftui-navigationlink-bug",
+    "description": "FB7714553. NavigationLink related SwiftUI bug",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-05-25T22:54:41Z",
+    "pushed_at": "2020-05-25T22:55:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/swiftui-search",
+    "description": "Example project showing search in SwiftUI",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-06-23T08:53:46Z",
+    "pushed_at": "2021-06-23T09:06:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/swiftui-bug",
+    "description": "Sample project for reproducing SwiftUI bug when child view's ObservableObject lose the data",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-08-26T22:31:13Z",
+    "pushed_at": "2020-02-06T16:59:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/swiftui-performance-issue-example",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-02-07T09:10:36Z",
+    "pushed_at": "2025-02-07T09:11:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/swiftui-form-editing-bug",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-11-11T18:32:40Z",
+    "pushed_at": "2019-11-11T18:41:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/BakuBus",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "Kotlin",
+    "homepage": null,
+    "created_at": "2017-08-09T13:38:04Z",
+    "pushed_at": "2020-08-19T15:06:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/FastBot-Landing",
+    "description": "Landing page for FastBot app",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "SCSS",
+    "homepage": null,
+    "created_at": "2022-03-25T15:29:52Z",
+    "pushed_at": "2022-04-11T16:49:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/PlatePal-Landing",
+    "description": "PlatePal Landing",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "SCSS",
+    "homepage": null,
+    "created_at": "2026-08-28T14:26:18Z",
+    "pushed_at": "2026-08-28T15:28:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mecid/pushless",
+    "description": "Retention and engagement platform for iOS apps running on Cloudflare",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-05-22T13:41:38Z",
+    "pushed_at": "2026-05-22T17:03:18Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 18,
+  "languages": [
+   [
+    "Swift",
+    10
+   ],
+   [
+    "SCSS",
+    4
+   ],
+   [
+    "Java",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "Kotlin",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 737,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "mecid/SwiftUICharts": "# SwiftUICharts\nA simple line and bar charting library that support accessibility written using SwiftUI.\n## Usage\nYou can find all the examples [here](https://github.com/mecid/SwiftUICharts/blob/main/Sources/SwiftUICharts/Previews.swift).\n### Vertical bar chart\n```swift\nlet highIntensity = Legend(color: .orange, label: \"High Intensity\", order: 5)\nlet buildFitness = Legend(color: .yellow, label: \"Build Fitness\", order: 4)\nlet fatBurning = Legend(color: .green, label: \"Fat Burning\", order: 3)\nlet warmUp = Legend(color: .blue, label: \"Warm Up\", order: 2)\nlet low = Legend(color: .gray, label: \"Low\", order: 1)\nlet limit = DataPoint(value: 130, label: \"5\", legend: fatBurning)\nlet points: [DataPoint] = [\n    .init(value: 70, label: \"1\", legend: low),\n    .init(value: 90, label: \"2\", legend: warmUp),\n    .init(value: 91, label: \"3\", legend: warmUp),\n    .init(value: 92, label: \"4\", legend: warmUp),\n    .init(value: 130, label: \"5\", legend: fatBurning),\n    .init(value: 124, label: \"6\", legend: fatBurning),\n    .init(value: 135, label: \"7\", legend: fatBurning),\n    .init(value: 133, label: \"8\", legend: fatBurning),\n    .init(value: 136, label: \"9\", legend: fatBurning),\n    .init(value: 138, label: \"10\", legend: fatBurning),\n    .init(value: 150, label: \"11\", legend: buildFitness),\n    .init(value: 151, label: \"12\", legend: buildFitness),\n    .init(value: 150, label: \"13\", legend: buildFitness),\n    .init(value: 136, label: \"14\", legend: fatBurning),\n    .init(value: 135, label: \"15\", legend: fatBurning),\n    .init(value: 130, label: \"16\", legend: fatBurning),\n    .init(value: 130, label: \"17\", legend: fatBurning),\n    .init(value: 150, label: \"18\", legend: buildFitness),\n    .init(value: 151, label: \"19\", legend: buildFitness),\n    .init(value: 150, label: \"20\", legend: buildFitness),\n    .init(value: 160, label: \"21\", legend: highIntensity),\n    .init(value: 159, label: \"22\", legend: highIntensity),\n    .init(value: 161, label: \"23\", legend: highIntensity),\n    .init(value: 158, label: \"24\", legend: highIntensity),\n] \nBarChartView(dataPoints: points, limit: limit)\n```\n### Horizontal bar chart\n```swift\nlet warmUp = Legend(color: .blue, label: \"Warm Up\", order: 2)\nlet low",
+   "mecid/swiftui-recipes-app": "# swiftui-recipes-app\nRecipes app is written in SwiftUI using Single State Container\nThis app implemented as an example of a Single State Container concept. It is based on my blog posts and some additional techniques.\n1. [Redux-like state container in SwiftUI. Basics](https://swiftwithmajid.com/2019/09/18/redux-like-state-container-in-swiftui/)\n2. [Introducing Container views in SwiftUI](https://swiftwithmajid.com/2019/07/31/introducing-container-views-in-swiftui/)\n3. [Redux-like state container in SwiftUI. Best practices](https://swiftwithmajid.com/2019/09/25/redux-like-state-container-in-swiftui-part2/)\n4. [View composition in SwiftUI](https://swiftwithmajid.com/2019/10/30/view-composition-in-swiftui/)\n5. [World](https://vimeo.com/291588126), Thanks to Stephen Celis for his incredible talk, \"How To Control The World\".\n",
+   "mecid/swift-unidirectional-flow": "# swift-unidirectional-flow\nUnidirectional flow implemented using the latest Swift Generics and Swift Concurrency features. To learn more about Unidirectional Flow in Swift, take a look at my dedicated [post](https://swiftwithmajid.com/2023/07/11/unidirectional-flow-in-swift/).\n```swift\nstruct SearchState: Equatable {\n    var repos: [Repo] = []\n    var isLoading = false\n}\nenum SearchAction: Equatable {\n    case search(query: String)\n    case setResults(repos: [Repo])\n}\nstruct SearchReducer: Reducer {\n    func reduce(oldState: SearchState, with action: SearchAction) -> SearchState {\n        var state = oldState\n        switch action {\n        case .search:\n            state.isLoading = true\n        case let .setResults(repos):\n            state.repos = repos\n            state.isLoading = false\n        }\n        return state\n    }\n}\nactor SearchMiddleware: Middleware {\n    struct Dependencies {\n        var search: (String) async throws -> SearchResponse\n        static var production: Dependencies {\n            .init { query in\n                guard var urlComponents = URLComponents(string: \"https://api.github.com/search/repositories\") else {\n                    return .init(items: [])\n                }\n                urlComponents.queryItems = [.init(name: \"q\", value: query)]\n                guard let url = urlComponents.url else {\n                    return .init(items: [])\n                }\n                let (data, _) = try await URLSession.shared.data(from: url)\n                return try JSONDecoder().decode(SearchResponse.self, from: data)\n            }\n        }\n    }\n    let dependencies: Dependencies\n    init(dependencies: Dependencies) {\n        self.dependencies = dependencies\n    }\n    func process(state: SearchState, with action: SearchAction) async -> SearchAction? {\n        switch action {\n        case let .search(query):\n            let results = try? await dependencies.search(query)\n            guard !Task.isCancelled else {\n                return .setResults(repos: state.repos)\n            }\n            return .setResults(repos: results?.items ?? [])\n        default:\n            return nil\n        }\n    }\n}\ntypealias SearchStore = Store<SearchS",
+   "mecid/UIKitSwiftDSL": "# UIKitSwiftDSL\n[](https://cocoapods.org/pods/UIKitSwiftDSL)\n[](https://github.com/Carthage/Carthage)\n[](https://cocoapods.org/pods/UIKitSwiftDSL)\n[](https://cocoapods.org/pods/UIKitSwiftDSL)\nSwift DSL for UIKit. Simple DSL in Swift which gives you opportunity to write layout code in readable and declarative way.\n## Usage\n```swift\nlet rootView = stack {\n    $0.spacing = 16\n    $0.axis = .vertical\n    $0.isLayoutMarginsRelativeArrangement = true\n    $0.stack {\n        $0.distribution = .fillEqually\n        $0.axis = .horizontal\n        $0.label {\n            $0.textAlignment = .center\n            $0.textColor = .white\n            $0.text = \"Hello\"\n        }\n        $0.label {\n            $0.textAlignment = .center\n            $0.textColor = .white\n            $0.text = \"World\"\n        }\n        $0.customLabel {\n            $0.textAlignment = .center\n            $0.textColor = .white\n            $0.text = \"!!!\"\n        }\n    }\n    let messageButton = $0.button {\n        $0.tintColor = .white\n        $0.setTitle(\"Say Hi!\", for: .normal)\n    }\n    $0.view {\n        $0.backgroundColor = .clear\n    }\n}\n```\n## Custom View\nIf you are using some Custom Views in your project you can easily add it to support DSL.\n```swift\nimport UIKitSwiftDSL\nclass CustomLabel: UILabel {\n// Custom implementation here\n}\nextension UIView {\n    @discardableResult\n    func customLabel(apply closure: (CustomLabel) -> Void) -> CustomLabel {\n        return custom(CustomLabel(), apply: closure)\n    }\n}\n```\n## AutoLayout\nUIKitSwiftDSL doesn't have any logic related to AutoLayout. You can use any library you want.\n```swift\n$0.button {\n    $0.tintColor = .white\n    $0.setTitle(\"Say Hi!\", for: .normal)\n    // Add your AutoLayout code here.\n}\n```\n## Example\nTo run the example project, clone the repo, and run `pod install` from the Example directory first.\n## Installation\nUIKitSwiftDSL is available through [CocoaPods](https://cocoapods.org). To install\nit, simply add the following line to your Podfile:\n```ruby\npod 'UIKitSwiftDSL'\n```\nUIKitSwiftDSL is available through [Carthage](https://github.com/Carthage/Carthage). To install\nit, simply add the following line to your Cartfile:\n```ruby\ngithub \"mecid/UI"
+  }
+ },
+ "apps": []
+}

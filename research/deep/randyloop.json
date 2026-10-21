@@ -1,0 +1,502 @@
+{
+ "handle": "randyloop",
+ "sites": [
+  {
+   "url": "https://lutaonan.com",
+   "ok": true,
+   "title": "Randy's Blog",
+   "description": "About life, technology and reading",
+   "stack": [
+    "Astro v7.3.5",
+    "Astro",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Netlify"
+   ],
+   "lang": "zh-CN",
+   "home_text": "Randy Lu \nRandy Lu \nProduct Engineer，写作者。记录关于生活、技术与阅读的思考。 \n Nowdex ↗ Notepal ↗ Browserfly ↗ EpubKit ↗ \nWorked at \n Alibaba \n 虎牙直播 \n 蚂蚁金服 \n 微软中国 \nAbout \n我叫卢涛南 (Randy Lu), 1995 年出生于广东中山的一个小城市。好编程，阅读，音乐，写作以及一切创造类活动。 2008 年起学习编程至今。 \n2014 年参加高考，录取「广州大学华软软件学院」，本科一年后退学。曾在奇志科技、阿里巴巴、蚂蚁金服、虎牙直播、微软中国工作。现在在做自己的产品。 \n小时候的理想是成为一名程序员，用技术改变世界。现在的理想是用技术创造价值 —— 做出有人觉得好用的产品或服务，并愿意为之付费。未来的妄想是参与推动中国的民主化建设。如果人生可以选择，我希望我可以在一个法治国家参选议员从事政治，业余写代码和做音乐。 \n做这个博客的原因是我喜欢写作和思考，我希望把我的思考和经验分享给所有人。 \n你可以免费阅读本博客的所有内容，也欢迎你通过不同的渠道进行赞赏。最简单的赞赏方式是发送一封感谢信到我的 Email ( [email protected] ). 也可以自愿对我的内容付费，在每篇文章的下方都有付款方式。 \nWriting \n高考随想 \n 2026.06.10 \n让 AI 戴着镣铐跳舞 \n2025.12.27 \n在 Claude Code 中使用 GLM 4.6 的体验 \n2025.10.08 \n现代浏览器插件开发指南 \n2025.04.09 \n我们高估了智力的重要性 \n2025.04.01 \n我如何使用 Apple Notes 做笔记 \n2025.02.09 \n新 MacBook 的设置和软件 \n2025.02.08 \n2024: 在夜海中观望浪潮 \n2024.12.28 \nAI 和写作 \n2024.10.09 \n「代码艺术家」不会被 AI 取代 \n2024.08.10 \n不上班的第一年 \n2024.05.14 \n在 Electron 中使用 SQLite 的最好方式 \n2024.04.22 \n读《岩田先生：任天堂传奇社长如是说》 \n2024.01.05 \n读 React 18 文档有感 \n2024.01.04 \n2023 年终总结: 和自己对话 \n2023.12.22 \n开发一个浏览器插件在第三天卖出 1000 元 \n2023.07.30 \n在清迈冥想学习 7 天后，我不再「追求」幸福 \n2023.07.03 \n复读和命运 \n2023.06.10 \n我的笔记管理法 \n2023.05.13 \n28 岁，我还想生猛下去 \n2023.03.25 \n2022 年终总结 \n2023.01.09 \n做了 6 年程序员，我学到的 10 条经验 \n2022.09.20 \n读《九宫格写作法》 \n2022.08.20 \n遗憾最小化框架 —— 如何做决定 \n2022.05.01 \n再谈辍学 \n2021.10.20 \n我给自己设立了每月 $20 的开源捐赠预算 \n2021.05.12 \nSvelte 的异步更新实现原理 \n2021.04.11 \n读《蒂姆·库克传》 \n2021.03.14 \n我对 Svelte 的看法 \n2021.03.09 \n做这个世界的生产者 \n2021.01.27 \n2020 年终总结 \n2021.01.10 \n离开阿里巴巴 \n2020.05.17 \n说说 React 和 Vue \n2020.05.13 \n好产品帮助用户变得更好 - 读 Badass: Making Users Awesome \n2020.03.01 \n从「后端现在已经看不懂前端了」说起 \n2020.01.07 \n2019 年终总结：慢慢变成别人眼中「食古不化」的「怪人」 \n2020.01.01 \n为了你爱的人，读一读《非暴力沟通》 \n2019.12.25 \n来自 2014 年给未来的我的一封信 \n2019.11.05 \n为什么无法坚持写博客 \n2019.11.05 \n我在 UC 做的前端工程化探索 \n2019.09.27 \n回顾了一些读者来信 \n2019.09.21 \n爱情是愿意为你放弃寻新鲜 \n2019.09.16 \n未来属于声明式编程 \n2019.07.18 \n井底之蛙的一片天空 \n2019.06.17 \n我想得到它，因为它是好的 \n2019.06.13 \n人生是不断取舍的过程 \n2019.04.03 \n健身一年 \n2019.01.14 \n2018 年终总结 \n2019.01.07 \n我在学校学到的东西 \n2018.10.04 \n多研究些问题，少谈些框架 \n2018.07.16 \n2017 年终总结 \n2018.01.03 \n高中时的地下刊物 \n2017.08.25 \n养猫随想 \n2017.08.20 \n我的编程经历 \n2017.05.12 \n做技术要自信 \n2017.03.14 \n从 React 谈 Web UI 开发 \n2017.01.01 \n2016 年终总结 \n2016.12.28 \n我看牙医的经历 \n2016.11.26 \n你根本用不着退学 \n2016.11.06 \n离开大学这一年 \n2016.09.08 \n21 岁我想说的 \n2016.03.25 \n我学五笔的经历 \n2016.03.14 \n写给即将学习编程的大学新生 \n2015.07.01 \n2014 年终总结 \n2014.12.31",
+   "github_links": [],
+   "subpages": {},
+   "feed": {
+    "url": "https://lutaonan.com/rss.xml",
+    "count_seen": 64,
+    "items": [
+     {
+      "title": "高考随想",
+      "date": "Wed, 10 Jun 2026 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "让 AI 戴着镣铐跳舞",
+      "date": "Sat, 27 Dec 2025 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "在 Claude Code 中使用 GLM 4.6 的体验",
+      "date": "Wed, 08 Oct 2025 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "现代浏览器插件开发指南",
+      "date": "Wed, 09 Apr 2025 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "我们高估了智力的重要性",
+      "date": "Tue, 01 Apr 2025 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "我如何使用 Apple Notes 做笔记",
+      "date": "Sun, 09 Feb 2025 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "新 MacBook 的设置和软件",
+      "date": "Sat, 08 Feb 2025 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "2024: 在夜海中观望浪潮",
+      "date": "Sat, 28 Dec 2024 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "AI 和写作",
+      "date": "Wed, 09 Oct 2024 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "「代码艺术家」不会被 AI 取代",
+      "date": "Sat, 10 Aug 2024 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "不上班的第一年",
+      "date": "Tue, 14 May 2024 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "在 Electron 中使用 SQLite 的最好方式",
+      "date": "Mon, 22 Apr 2024 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "读《岩田先生：任天堂传奇社长如是说》",
+      "date": "Fri, 05 Jan 2024 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "读 React 18 文档有感",
+      "date": "Thu, 04 Jan 2024 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "2023 年终总结: 和自己对话",
+      "date": "Fri, 22 Dec 2023 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "开发一个浏览器插件在第三天卖出 1000 元",
+      "date": "Sun, 30 Jul 2023 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "在清迈冥想学习 7 天后，我不再「追求」幸福",
+      "date": "Mon, 03 Jul 2023 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "复读和命运",
+      "date": "Sat, 10 Jun 2023 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "我的笔记管理法",
+      "date": "Sat, 13 May 2023 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "28 岁，我还想生猛下去",
+      "date": "Sat, 25 Mar 2023 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "2022 年终总结",
+      "date": "Mon, 09 Jan 2023 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "做了 6 年程序员，我学到的 10 条经验",
+      "date": "Tue, 20 Sep 2022 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "读《九宫格写作法》",
+      "date": "Sat, 20 Aug 2022 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "遗憾最小化框架 —— 如何做决定",
+      "date": "Sun, 01 May 2022 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     },
+     {
+      "title": "再谈辍学",
+      "date": "Wed, 20 Oct 2021 00:00:00",
+      "url": "https://lutaonan.com/blog/undefined"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "djyde",
+  "user": {
+   "name": "Randy",
+   "company": "Randynamic Studio",
+   "blog": "https://lutaonan.com",
+   "location": "Guangzhou, China",
+   "bio": "Love coding.\r\n\r\nTwitter: @randyloop",
+   "public_repos": 308,
+   "followers": 3101,
+   "created_at": "2011-07-14T05:58:22Z",
+   "twitter_username": "randyloop",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "djyde/cusdis",
+    "description": "lightweight, privacy-friendly alternative to Disqus.",
+    "stargazers_count": 2775,
+    "forks_count": 294,
+    "language": "TypeScript",
+    "homepage": "https://cusdis.com",
+    "created_at": "2021-04-16T13:26:27Z",
+    "pushed_at": "2026-07-17T11:28:03Z",
+    "topics": [
+     "comment-system",
+     "disqus"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "djyde/WebShell",
+    "description": "Bundle web apps to native OS X app",
+    "stargazers_count": 1495,
+    "forks_count": 93,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-12-19T07:05:57Z",
+    "pushed_at": "2018-09-30T03:25:48Z",
+    "topics": [
+     "macos",
+     "native-javascript",
+     "osx",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/ccmate",
+    "description": "Configure your Claude Code without pain",
+    "stargazers_count": 624,
+    "forks_count": 52,
+    "language": "TypeScript",
+    "homepage": "https://randynamic.org/ccmate",
+    "created_at": "2025-10-06T13:16:37Z",
+    "pushed_at": "2026-05-12T12:44:43Z",
+    "topics": [
+     "claude",
+     "claudecode",
+     "tauri"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/ToProgress",
+    "description": "A lightweight top progress bar",
+    "stargazers_count": 518,
+    "forks_count": 44,
+    "language": "JavaScript",
+    "homepage": "http://djyde.github.io/ToProgress",
+    "created_at": "2015-06-13T14:32:17Z",
+    "pushed_at": "2017-11-14T10:12:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/V2EX-API",
+    "description": "V2EX Non-official API list",
+    "stargazers_count": 375,
+    "forks_count": 38,
+    "language": null,
+    "homepage": null,
+    "created_at": "2014-08-15T16:56:15Z",
+    "pushed_at": "2017-04-18T02:41:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/Picas",
+    "description": "Generate Wordmark Logo with Google Fonts",
+    "stargazers_count": 347,
+    "forks_count": 37,
+    "language": "JavaScript",
+    "homepage": "https://picas.now.sh/",
+    "created_at": "2018-12-20T09:08:26Z",
+    "pushed_at": "2020-05-01T12:06:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/StoreDB",
+    "description": "[DEPRECATED] Make localStorage do more things.",
+    "stargazers_count": 327,
+    "forks_count": 46,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2014-01-16T14:20:36Z",
+    "pushed_at": "2017-08-10T03:17:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/sinatine",
+    "description": "weibo HTML5 for macOS",
+    "stargazers_count": 296,
+    "forks_count": 17,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-03-24T02:40:56Z",
+    "pushed_at": "2017-06-26T06:23:35Z",
+    "topics": [
+     "electron",
+     "weibo"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "djyde/ossart",
+    "description": "Print your GitHub activity as an artwork",
+    "stargazers_count": 214,
+    "forks_count": 16,
+    "language": "TypeScript",
+    "homepage": "https://getoss.art",
+    "created_at": "2022-03-18T12:35:54Z",
+    "pushed_at": "2022-03-19T13:30:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/sairin",
+    "description": "Generate a blog from GitHub Issue",
+    "stargazers_count": 200,
+    "forks_count": 13,
+    "language": "TypeScript",
+    "homepage": "https://blog.sairinjs.com",
+    "created_at": "2022-02-21T16:45:54Z",
+    "pushed_at": "2022-07-26T12:04:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/PandocX",
+    "description": "File convertor",
+    "stargazers_count": 192,
+    "forks_count": 15,
+    "language": "TypeScript",
+    "homepage": "https://randynamic.org/pandocx",
+    "created_at": "2025-09-22T12:50:16Z",
+    "pushed_at": "2025-09-30T09:22:36Z",
+    "topics": [
+     "epub",
+     "pandoc",
+     "tauri"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/PureSlider",
+    "description": "A lightweight, no-dependency image slider library",
+    "stargazers_count": 182,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": "http://djyde.github.io/PureSlider",
+    "created_at": "2015-11-30T04:12:01Z",
+    "pushed_at": "2015-12-13T12:12:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/iCultus",
+    "description": "Alternative menubar calendar for OS X",
+    "stargazers_count": 173,
+    "forks_count": 12,
+    "language": "Vue",
+    "homepage": "http://djyde.github.io/iCultus/",
+    "created_at": "2015-11-05T12:14:21Z",
+    "pushed_at": "2016-01-19T09:31:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/notepal",
+    "description": "A simple tool to import/export your book note",
+    "stargazers_count": 158,
+    "forks_count": 12,
+    "language": "TypeScript",
+    "homepage": "https://notepal.randysoft.org",
+    "created_at": "2023-01-19T17:36:43Z",
+    "pushed_at": "2023-07-27T05:10:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/serlina",
+    "description": "A progressive React serverside-rendering framework.",
+    "stargazers_count": 136,
+    "forks_count": 7,
+    "language": "TypeScript",
+    "homepage": "https://serlina.js.org",
+    "created_at": "2018-08-02T17:17:48Z",
+    "pushed_at": "2020-09-02T05:37:25Z",
+    "topics": [
+     "react",
+     "serverside-rendering",
+     "ssr"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/Catchem",
+    "description": "Buy APPs at the right time",
+    "stargazers_count": 111,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": "http://lutaonan.com/how-do-i-detect-app-price/",
+    "created_at": "2016-02-15T13:49:26Z",
+    "pushed_at": "2016-02-17T15:09:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/koy",
+    "description": "Markdown previewer",
+    "stargazers_count": 97,
+    "forks_count": 10,
+    "language": "CSS",
+    "homepage": "",
+    "created_at": "2018-11-01T07:16:09Z",
+    "pushed_at": "2022-12-03T19:30:19Z",
+    "topics": [
+     "carlo",
+     "markdown"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "djyde/plastic-editor",
+    "description": "A block-based editor",
+    "stargazers_count": 92,
+    "forks_count": 9,
+    "language": "Svelte",
+    "homepage": "https://plastic-editor.netlify.app",
+    "created_at": "2021-03-04T07:51:57Z",
+    "pushed_at": "2021-03-07T06:25:03Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 20,
+  "languages": [
+   [
+    "TypeScript",
+    8
+   ],
+   [
+    "JavaScript",
+    7
+   ],
+   [
+    "Swift",
+    1
+   ],
+   [
+    "Vue",
+    1
+   ],
+   [
+    "CSS",
+    1
+   ],
+   [
+    "Svelte",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "djyde/ccmate",
+    "stargazerCount": 624,
+    "description": "Configure your Claude Code without pain",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://randynamic.org/ccmate"
+   },
+   {
+    "nameWithOwner": "djyde/cusdis",
+    "stargazerCount": 2775,
+    "description": "lightweight, privacy-friendly alternative to Disqus.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://cusdis.com"
+   },
+   {
+    "nameWithOwner": "djyde/snp",
+    "stargazerCount": 70,
+    "description": "VS Code code snippet generator",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "djyde/WebShell",
+    "stargazerCount": 1495,
+    "description": "Bundle web apps to native OS X app",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 2086,
+  "orgs": [
+   "kissjs",
+   "sise-hacker-party",
+   "LightBulb",
+   "OpenSISE",
+   "vue-component",
+   "jsnext-podcast",
+   "NewbeeFE",
+   "cansjs",
+   "serlina-community"
+  ],
+  "profile_readme": "[![Randy's github stats](https://github-readme-stats.vercel.app/api?username=djyde)](https://github.com/anuraghazra/github-readme-stats)\n\nI'm creating open-source SaaS projects.\n\n- Email: randypriv at gmail\n- Twitter: @randyloop\n\n## Sponsors\n\n![sponsors](https://randysponsors.vercel.app/sponsors.svg)\n",
+  "readmes": {
+   "djyde/ccmate": "# CC Mate - Configure your Claude Code without pain\n<div align=\"center\">\n**A modern desktop application for managing Claude Code configuration files**\n[Download Latest Release](https://randynamic.org/ccmate) • [Report Issues](https://github.com/djyde/ccmate/issues) • [Contributing Guide](CONTRIBUTING.md)\n[](https://www.gnu.org/licenses/agpl-3.0) [](https://github.com/djyde/brew) [](https://github.com/djyde/ccmate-release/releases)\n</div>\n## 💝 Sponsor\n<table>\n<tr>\n<td width=\"180\"><a href=\"https://www.packyapi.com/register?aff=cc-mate\"></a></td>\n<td>Thanks to PackyCode for sponsoring this project! PackyCode is a reliable and efficient API relay service provider, offering relay services for Claude Code, Codex, Gemini, and more. PackyCode provides special discounts for our software users: register using <a href=\"https://www.packyapi.com/register?aff=cc-mate\">this link</a> and enter the \"cc-mate\" promo code during recharge to get 10% off.</td>\n</tr>\n<tr>\n<td width=\"180\"><a href=\"https://www.aicodemirror.com/register?invitecode=KFENBH\"></a>\n</td>\n<td>Thanks to AICodeMirror for sponsoring this project! AICodeMirror provides official high-stability relay services for Claude Code / Codex / Gemini CLI, with enterprise-grade concurrency, fast invoicing, and 24/7 dedicated technical support. Claude Code / Codex / Gemini official channels at 38% / 2% / 9% of original price, with extra discounts on top-ups! AICodeMirror offers special benefits for CCmate users: register via <a href=\"https://www.aicodemirror.com/register?invitecode=KFENBH\">this link</a> to enjoy 20% off your first top-up, and enterprise customers can get up to 25% off!</td>\n</tr>\n</table>\nWant to become a sponsor? Contact https://x.com/randyloop\n## 📸 Screenshots\n### Configuration Management\n### Usage Analytics\n## ✨ Features\n- **🔄 Multi-Configuration Support** - Switch between multiple Claude Code configurations effortlessly\n- **⚙️ MCP Server Management** - Configure and manage Model Context Protocol (MCP) servers\n- **🤖 Agent Management** - Manage Claude Code agents and their settings\n- **📋 Global Commands** - Configure and organize global commands\n- **📝 CLAUDE.md Integration** - Read and write global CLAUDE.md",
+   "djyde/cusdis": "\n<p align=\"center\"><a href=\"https://cusdis.com\" target=\"_blank\" rel=\"noopener noreferrer\"></a></p>\nCusdis is an open-source, lightweight (~5kb gzip), privacy-friendly alternative to Disqus.\n> !!! IMPORTANT\n> Cusdis is deprecated now. If you want to export your data. Please email hi@cusdis.com. Send us your signed email address and the export format you want.\n> Very sorry for this.\n[](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fdjyde%2Fcusdis&plugins=postgresql&envs=NEXTAUTH_URL%2CDB_TYPE%2CDB_URL%2CUSERNAME%2CPASSWORD%2CHOST%2CJWT_SECRET%2CPORT&NEXTAUTH_URLDesc=Don%27t+modify+it&DB_TYPEDesc=Don%27t+modify+it&DB_URLDesc=Don%27t+modify+it&USERNAMEDesc=Username+to+sign+in&PASSWORDDesc=Password+to+sign+in&HOSTDesc=Don%27t+modify+it&JWT_SECRETDesc=A+secret+key+to+encrypt+JWT+token&PORTDesc=Don%27t+modify+it&NEXTAUTH_URLDefault=%24%7B%7B+RAILWAY_STATIC_URL+%7D%7D&DB_TYPEDefault=pgsql&DB_URLDefault=%24%7B%7B+DATABASE_URL+%7D%7D&HOSTDefault=https%3A%2F%2F%24%7B%7B+RAILWAY_STATIC_URL+%7D%7D&PORTDefault=3000&referralCode=randyloop)\n## 💝 Sponsor this project\nIf you like Cusdis, please consider sponsoring us to help us be sustainable.\n### Principle Sponsor\n[](https://epubkit.app)\n[](https://opencollective.com/cusdis/tiers/organization-support/0/website)\n[Become a principle sponsor](https://opencollective.com/cusdis/contribute/organization-support-27992/checkout)\n### Sponsors / Backers\n[](https://opencollective.com/cusdis)\n[](https://opencollective.com/cusdis)\n## Features\n- Lightweight comment widget, with i18n, dark mode.\n- Email notification\n- Webhook\n- Easy to self-host\n- Many integrations\n## Documentation\nhttps://cusdis.com/doc\n## Community\n[Discord](https://discord.gg/eDs5fc4Jcq)\n## FAQ\n## Compared to Disqus\nCusdis is not designed to be a complete alternative to Disqus. It's aim is to implement a minimalist and embeddable comment system for small websites (such as your static blog).\nGiven below are the pros and cons of Cusdis:\n### Pros\n- Cusdis is open-source and self-hostable. Hence, you own your data.\n- The SDK is lightweight(~5kb gzipped).\n- Cusdis doesn't require your user to sign in to make a comment.\n- Cusdis doesn't use cookies at all.\n##",
+   "djyde/snp": "# snp\nVS Code code snippets generator.\n## Install\n```\ncurl -sf https://gobinaries.com/djyde/snp | sh\n```\nFor Windows users, please download it in [release](https://github.com/djyde/snp/releases) page.\n## Usage\n> See [my snippets](https://github.com/djyde/snippets) as example.\n```\n$ mkdir my-snippets\n$ cd my-snippets\n$ touch csl.snp\n```\n```js\n// csl.snp\n---\nscope: javascript\ndescription: console log\n---\nconsole.log($1)\n```\n```bash\n$ snp -u\n```\n`snp -u` would write a code snippet file to your VS Code snippets folder. Then when you type `csl` in VS Code, the code snippet appear in IntelliSense.\n> The program only find the files with `.snp` extension in current working directory.\n### The `.snp` file\n`.snp` is just a file with [front matter](https://jekyllrb.com/docs/front-matter) and the snippet code. You should pass at least these attributes:\n- [scope](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_language-snippet-scope)\n- **description** The description of this snippet\nThe file name would become the snippet prefix (the trigger text).\nFor the snippet syntax, you should see the [VS Code Docs](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax)\n## CLI Options\n```\n$ snp --help\nUsage of snp:\n  -p\tShould print out the json text\n  -u\tShould automatically update snippet file in VS Code\n  -v\tPrint version\n```\n### -p\nInstead of updating the file on VS Code snippets folder, you could use `-p` to just print out the JSON and then use this output to do what you want, like output to a file:\n```\nsnp -p > my-snippet.code-snippets\n```\n## Build\n```\ngo install\ngo build\n```\n",
+   "djyde/WebShell": "# WebShell\nWebShell is an OS X WebView shell, which help you easily bundle the Web Apps to native OS X app without coding.\n## Requirements\n- Xcode 7+ (Swift 2.0+ support)\n## Quick Start\n```bash\n$ git clone https://github.com/djyde/WebShell.git APP_NAME\n$ cd APP_NAME && open WebShell.xcodeproj\n```\nEdit `Sites/WebShell/Settings.swiftt` and change the url whatever you like.\nFinally click the `run` button to run the app.\n## Bonus Features\n- Standard [Notification API](https://developer.mozilla.org/en-US/docs/Web/API/notification) support\n- Standard [Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API) support\n## Demo\n- [JS Bin](http://7mnoy7.com1.z0.glb.clouddn.com/github/JSBin.zip)\n- [StackEdit](http://7mnoy7.com1.z0.glb.clouddn.com/github/StackEdit.zip) - A markdown editor\n## Document\nFor more detail configurations, please see [document](https://github.com/djyde/WebShell/wiki/How-to-build-a-WebShell-based-application)\n## Who's using WebShell\nIf you built any wonderful app with `WebShell`, just let me know!\n# License\nMIT License\n",
+   "djyde/ToProgress": "# ToProgress\n[](https://www.npmjs.com/package/toprogress)\n[](https://www.npmjs.com/package/toprogress)\n[](https://www.npmjs.com/package/toprogress)\nA lightweight (2.2 KB), no-dependency top progress bar library.\n# Demo\nhttp://djyde.github.io/ToProgress\n# Screenshot\n#### Desktop\n#### Mobile\n# Quick Start\n```JS\nvar options = {\n  color: '#EEE',\n  duration: 0.2,\n  height: '2px'\n}\nvar topbar = new ToProgress(options);\n```\n# Support\n* IE >= 10\n* Chrome\n* Firefox\n* Safari\n# Use cases\nIf you are using ToProgress.js in production, just tell us.\n# API\n### new ToProgress(options[,selector])\n* options\n  * **id** - the id of auto-created progress bar element\n  * **color** - progress bar color\n  * **height** - progress bar height \n  * **duration** - increase duration (seconds)\n  * **position** - the progress bar position. `top` or `bottom`\n* **selector** - valid css selector, if is defined, progress bar will be put on the top of the element. Only find the first element.\n### .increase(progress[,callback])\n* **progress** - percentage number\n### .decrease(progress[,callback])\n* **progress** - percentage number\n### .setProgress(progress[,callback])\n* **progress** - percentage number\n### .reset([,callback])\n### .finish([,callback])\n### .getProgress()\nreturn current progress (percentage number)\n### .show()\n### .hide()\n# License\nMIT License\n"
+  }
+ },
+ "apps": []
+}

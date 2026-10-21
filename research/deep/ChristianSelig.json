@@ -1,0 +1,434 @@
+{
+ "handle": "ChristianSelig",
+ "sites": [
+  {
+   "url": "https://christianselig.com",
+   "ok": true,
+   "title": "Christian Selig",
+   "description": "",
+   "stack": [
+    "Hugo 0.149.0",
+    "React"
+   ],
+   "hosting": [],
+   "lang": "",
+   "home_text": "Mobile application monitoring software considered \"not bad\" by four million developers. \n The coolest use for the Vision Pro \n July 29, 2026 \n One day there will hopefully be a house on this land \nOver the last year, I admittedly haven’t used my Vision Pro a ton, but fairly recently I discovered a super handy use that it’s absolutely incredible at, provided you have the right tools. \nAfter years of apartment life my girlfriend and I have recently begun the process of building our (first! exciting!) home, which is an absolute whirlwind of choices and decisions. Maybe it’s where we’re both programmers, but particularly for me, my software-oriented brain feels almost incompatible with this world of designing a home (she’s the main one keeping this project moving forward). \nIn software if you don’t end up liking a feature after playing around with it for awhile, you can tweak it or remove it entirely (try doing that with a poorly placed wall). Here, decisions feel huge and hard to commit to. \nOn top of this, the housing market is really expensive right now in many parts of the world (ours definitely included) so making good use of every square foot feels paramount. \n(Don’t worry, we have a great architect who guides us skillfully, but ultimately it’s up to us to sign off on everything!) \nEnter the Vision Pro \nLooking at PDFs of potential floor plans, you don’t (or at least I don’t) develop much of a sense of scale or connections with a bunch of black rectangles. This room says it’s 13 feet by 15 feet, I guess I can get out a measuring tape, but what does that feel like? Would this hallway be cramped? What all can you see when you first walk into the house? \nThen it hit me: virtual reality! There’s other VR devices that have better gaming chops, but I’m not sure there’s a consumer device out there that’s better than the Vision Pro on paper when it comes to rendering a virtual world with its high resolution screens and then placing you in it with its abundance of sensors. \nProblem is, how do you go from floor plan to virtual reality? \nLet’s get creatin’ \nI have a bit of experience using Fusion 360 (free 3D modeling software for hobbyists), so I had the idea to try to quickly build the floor plan up in 3D. Nothing fancy, just floors, ceilings, and walls, with holes for doors. \nIf you’re not familiar with 3D design tools, this is a great first project, you’re basically just drawing the floor plan out in 2D and then extruding out the walls. YouTube and asking AI questions are awesome resources for learning this handy skill in 2026. Sites like Fiverr are also a great resource, I’m sure there’s an abundance of people there who could take a floor plan you’re interested in and turn it into a 3D file for a reasonable price. \nLeveling it up \nA bunch of walls, ceilings, and holes in the wall is pretty powerful, but without actual objects or texture in the space it’s still a bit hard to get scale when you’re “walking around”. \nYou know how you walk into an empty apartment for the first time and you’re like “Holy crap there’s so much room” and then you add your belongings and there suddenly isn’t? It’s kinda like that, we need to add some models and materials to the space to actually ground our perspective a bit and give things scale, otherwise it feels like walking around a warehouse. \nAdding textures \nQuick easy one. In Fusion, tap the “A” key to bring up the Appearance panel and you can drag and drop a bunch of common textures like wood, stone, or paint onto objects. This can really help to break up the monotony of everything being the same dull texture and actually gives the place depth. \nThere’s even glass textures for windows which is pretty handy. \nIKEA \nI can model a counter or a kitchen island (just a bunch of rectangles) but anything beyond that and I’m tapping out. Thankfully IKEA has a massive amount of furniture with corresponding 3D models, and even if you’re not a big IKEA person (wow aren’t you fancy) having any approximation for your final furniture in your place really helps you get an idea of how things fit together and can be positioned. \n The couch I'm typing this on. It's comfier in real life I promise. \nProblem is, no easy way to get access to those 3D models from what I can tell. Thankfully, with a script for the Tampermonkey browser extension you can easily download them. Not every item on IKEA has a 3D model unfortunately, but seemingly the majority do. \nThis is super handy for adding a couch, a bed, a desk, ",
+   "github_links": [
+    "apinanaivot",
+    "apple",
+    "christianselig",
+    "pointfreeco"
+   ],
+   "subpages": {
+    "https://christianselig.com//posts": "Mobile application monitoring software considered \"not bad\" by four million developers. \nAll Posts \n2026 \n The coolest use for the Vision Pro \n July 29, 2026 \n I have thoughts on the iPhone Air \n July 7, 2026 \n The Fitbit Air is interesting \n June 2, 2026 \n Rivian R2 wishes as an R1 owner \n February 9, 2026 \n CKSyncEngine questions and answers \n January 7, 2026 \n2025 \n The one software tweak the iPhone Air needs \n September 26, 2025 \n App Clip Local Experiences have consumed my day \n September 8, 2025 \n High quality, low filesize GIFs \n August 2, 2025 \n You should repaste your MacBook (but don't) \n July 10, 2025 \n A slept on upscaling tool for macOS \n June 30, 2025 \n Embedding Godot games in iOS apps is easy now \n May 31, 2025 \n2024 \n Curing Mac mini M4 fomo with 3D printing \n November 12, 2024 \n Introducing Tiny Storage: a small, lightweight UserDefaults replacement \n October 8, 2024 \n Beware UserDefaults: a tale of hard to find bugs, and lost data \n October 5, 2024 \n Juno for YouTube has been removed from the App Store \n October 1, 2024 \n Server side Live Activities guide \n September 23, 2024 \n The Caldera: a sleek split and wireless keyboard \n July 20, 2024 \n Announcing Juno 2.0 \n June 27, 2024 \n Choosing a travel pack is hard \n April 28, 2024 \n A free, 3D printable Meta Quest 3 stand \n April 22, 2024 \n Qi2 is kinda underwhelming \n April 20, 2024 \n Waterfield's weirdly compact Apple Vision Pro Case \n April 2, 2024 \n Recreating Apple's beautiful visionOS search bar \n March 24, 2024 \n Trials and tribulations of 360° video in Juno \n February 25, 2024 \n My little Apple Vision Pro stand \n February 19, 2024 \n Juno 1.1 \n February 14, 2024 \n Introducing Juno for Apple Vision Pro \n February 1, 2024 \n2023 \n Autonomous Standing Desk and Chair Review \n November 14, 2023 \n Smart Open Xcode \n August 2, 2023 \n Instant Pan Gesture Interactions \n May 13, 2023 \n First on New Blog \n January 28, 2023 \n2022 \n Theming Apps on iOS is Hard \n February 7, 2022 \n2021 \n Table of Contents Selector View \n April 25, 2021 \n More Efficient/Faster Average Color of Image \n April 2, 2021 \n Trials and Tribulations of Making an Interruptable Custom View Controller Transition on iOS \n February 19, 2021 \n2020 \n Logging information from iOS Widgets \n December 1, 2020 \n Using PHPickerViewController Images in a Memory-Efficient Way \n September 26, 2020 \n Apollo for Reddit 1.9 \n September 12, 2020 \n The Case for Getting Rid of TestFlight Review \n June 12, 2020 \n2015 \n Announcing Apollo: a new Reddit app for iPhone \n January 30, 2015"
+   },
+   "feed": {
+    "url": "https://christianselig.com/index.xml",
+    "count_seen": 40,
+    "items": [
+     {
+      "title": "The coolest use for the Vision Pro",
+      "date": "Wed, 29 Jul 2026 11:54:19",
+      "url": "https://christianselig.com/2026/07/vision-pro-house/"
+     },
+     {
+      "title": "I have thoughts on the iPhone Air",
+      "date": "Tue, 07 Jul 2026 12:23:12",
+      "url": "https://christianselig.com/2026/07/iphone-air-review/"
+     },
+     {
+      "title": "The Fitbit Air is interesting",
+      "date": "Tue, 02 Jun 2026 11:50:01",
+      "url": "https://christianselig.com/2026/06/fitbit-air/"
+     },
+     {
+      "title": "Rivian R2 wishes as an R1 owner",
+      "date": "Mon, 09 Feb 2026 10:27:44",
+      "url": "https://christianselig.com/2026/02/rivian-r2-wishes/"
+     },
+     {
+      "title": "CKSyncEngine questions and answers",
+      "date": "Wed, 07 Jan 2026 18:01:47",
+      "url": "https://christianselig.com/2026/01/cksyncengine/"
+     },
+     {
+      "title": "The one software tweak the iPhone Air needs",
+      "date": "Fri, 26 Sep 2025 13:38:10",
+      "url": "https://christianselig.com/2025/09/iphone-air-macro-need/"
+     },
+     {
+      "title": "App Clip Local Experiences have consumed my day",
+      "date": "Mon, 08 Sep 2025 16:03:58",
+      "url": "https://christianselig.com/2025/09/why-app-clip-no-work/"
+     },
+     {
+      "title": "High quality, low filesize GIFs",
+      "date": "Sat, 02 Aug 2025 12:12:53",
+      "url": "https://christianselig.com/2025/08/high-quality-low-filesize-gifs/"
+     },
+     {
+      "title": "You should repaste your MacBook (but don't)",
+      "date": "Thu, 10 Jul 2025 19:06:19",
+      "url": "https://christianselig.com/2025/07/repaste-macbook/"
+     },
+     {
+      "title": "A slept on upscaling tool for macOS",
+      "date": "Mon, 30 Jun 2025 11:48:17",
+      "url": "https://christianselig.com/2025/06/awesome-upscaling-tool/"
+     },
+     {
+      "title": "Embedding Godot games in iOS apps is easy now",
+      "date": "Sat, 31 May 2025 09:54:14",
+      "url": "https://christianselig.com/2025/05/godot-ios-interop/"
+     },
+     {
+      "title": "Curing Mac mini M4 fomo with 3D printing",
+      "date": "Tue, 12 Nov 2024 18:12:32",
+      "url": "https://christianselig.com/2024/11/mac-mini-m4-prints/"
+     },
+     {
+      "title": "Introducing Tiny Storage: a small, lightweight UserDefaults replacement",
+      "date": "Tue, 08 Oct 2024 14:53:55",
+      "url": "https://christianselig.com/2024/10/introducing-tiny-storage/"
+     },
+     {
+      "title": "Beware UserDefaults: a tale of hard to find bugs, and lost data",
+      "date": "Sat, 05 Oct 2024 15:12:45",
+      "url": "https://christianselig.com/2024/10/beware-userdefaults/"
+     },
+     {
+      "title": "Juno for YouTube has been removed from the App Store",
+      "date": "Tue, 01 Oct 2024 17:44:48",
+      "url": "https://christianselig.com/2024/10/juno-removed/"
+     },
+     {
+      "title": "Server side Live Activities guide",
+      "date": "Mon, 23 Sep 2024 14:02:16",
+      "url": "https://christianselig.com/2024/09/server-side-live-activities/"
+     },
+     {
+      "title": "The Caldera: a sleek split and wireless keyboard",
+      "date": "Sat, 20 Jul 2024 05:18:53",
+      "url": "https://christianselig.com/2024/07/caldera-keyboard/"
+     },
+     {
+      "title": "Announcing Juno 2.0",
+      "date": "Thu, 27 Jun 2024 10:16:17",
+      "url": "https://christianselig.com/2024/06/announcing-juno-2/"
+     },
+     {
+      "title": "Choosing a travel pack is hard",
+      "date": "Sun, 28 Apr 2024 12:49:02",
+      "url": "https://christianselig.com/2024/04/choosing-a-backpack-is-hard/"
+     },
+     {
+      "title": "A free, 3D printable Meta Quest 3 stand",
+      "date": "Mon, 22 Apr 2024 10:47:15",
+      "url": "https://christianselig.com/2024/04/meta-quest-3-stand/"
+     },
+     {
+      "title": "Qi2 is kinda underwhelming",
+      "date": "Sat, 20 Apr 2024 15:46:42",
+      "url": "https://christianselig.com/2024/04/qi2-is-kinda-underwhelming/"
+     },
+     {
+      "title": "Waterfield's weirdly compact Apple Vision Pro Case",
+      "date": "Tue, 02 Apr 2024 12:56:46",
+      "url": "https://christianselig.com/2024/04/waterfield-vision-pro-case/"
+     },
+     {
+      "title": "Recreating Apple's beautiful visionOS search bar",
+      "date": "Sun, 24 Mar 2024 15:16:12",
+      "url": "https://christianselig.com/2024/03/recreating-visionos-search-bar/"
+     },
+     {
+      "title": "Trials and tribulations of 360° video in Juno",
+      "date": "Sun, 25 Feb 2024 21:53:34",
+      "url": "https://christianselig.com/2024/02/trials-360-juno-video/"
+     },
+     {
+      "title": "My little Apple Vision Pro stand",
+      "date": "Mon, 19 Feb 2024 13:41:49",
+      "url": "https://christianselig.com/2024/02/vision-pro-stand/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "christianselig",
+  "user": {
+   "name": "Christian Selig",
+   "company": null,
+   "blog": "http://christianselig.com",
+   "location": null,
+   "bio": null,
+   "public_repos": 76,
+   "followers": 2159,
+   "created_at": "2013-05-01T12:52:28Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "christianselig/apollo-backend",
+    "description": "Apollo backend server",
+    "stargazers_count": 3651,
+    "forks_count": 538,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2021-07-08T23:31:03Z",
+    "pushed_at": "2023-06-26T14:45:18Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "christianselig/Markdownosaur",
+    "description": "Leverages Apple's Swift-based Markdown parser to output NSAttributedString.",
+    "stargazers_count": 557,
+    "forks_count": 32,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-11-02T14:24:21Z",
+    "pushed_at": "2023-09-18T06:35:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/TinyStorage",
+    "description": "A simple, lightweight replacement for UserDefaults that makes access a little more straightforward (plus some niceties!)",
+    "stargazers_count": 492,
+    "forks_count": 22,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-10-08T19:02:23Z",
+    "pushed_at": "2025-11-24T17:29:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/caldera-keyboard",
+    "description": "A split, ergonomic, wireless keyboard",
+    "stargazers_count": 356,
+    "forks_count": 97,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2024-07-18T16:30:23Z",
+    "pushed_at": "2024-12-01T23:57:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/OpenInApolloExtension",
+    "description": "Safari extension bundled with iOS 15 that helps in opening Reddit URLs in Apollo",
+    "stargazers_count": 258,
+    "forks_count": 18,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2021-09-19T03:28:43Z",
+    "pushed_at": "2021-10-20T14:33:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/apollo-bugs",
+    "description": "A public bug tracker for Apollo, an iOS Reddit app",
+    "stargazers_count": 218,
+    "forks_count": 13,
+    "language": null,
+    "homepage": null,
+    "created_at": "2019-03-19T19:16:29Z",
+    "pushed_at": "2019-05-07T03:02:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/ChidoriMenu",
+    "description": "An easy way to add menus visually similar to iOS 14's Pull Down and Context Menus but with some added benefits",
+    "stargazers_count": 190,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-02-19T18:15:46Z",
+    "pushed_at": "2021-05-27T20:54:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/JunoSlider",
+    "description": "A visionOS slider view to mimic Apple's expanding sliders",
+    "stargazers_count": 147,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-02-14T16:28:50Z",
+    "pushed_at": "2024-04-13T22:45:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/TableOfContentsSelector",
+    "description": "A view that shows selectable symbols, similar to UITableView's `sectionIndexTitles` API but with support for symbols and more flexibility",
+    "stargazers_count": 111,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-04-25T23:44:14Z",
+    "pushed_at": "2021-04-26T00:34:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/Prospector",
+    "description": "A visionOS app to preview large scale models in real life (like housing plans!)",
+    "stargazers_count": 80,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-07-29T17:25:44Z",
+    "pushed_at": "2026-07-29T17:25:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/Amplosion",
+    "description": "The remains of the source code for Amplosion",
+    "stargazers_count": 73,
+    "forks_count": 12,
+    "language": null,
+    "homepage": null,
+    "created_at": "2021-09-29T23:19:40Z",
+    "pushed_at": "2021-09-29T23:26:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/AccessibleAuthorLabel",
+    "description": "Takes those cursed usernames you see on social networks and lets them be accessible to screen readers.",
+    "stargazers_count": 47,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-12-21T20:51:28Z",
+    "pushed_at": "2023-03-09T21:01:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/FancyTextEntryController",
+    "description": "Handles some of the base configuration to make creating a UIAlertController with text entry even easier. Plus validation!",
+    "stargazers_count": 27,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-10-14T19:20:32Z",
+    "pushed_at": "2021-10-14T20:08:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/WinnyPicky",
+    "description": "Small iPhone app that powered the Apollo 2020 iPhone 12 giveaway",
+    "stargazers_count": 18,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-11-17T21:13:27Z",
+    "pushed_at": "2022-10-06T00:08:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/website",
+    "description": "My website, christianselig.com",
+    "stargazers_count": 7,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-09-23T19:52:12Z",
+    "pushed_at": "2013-09-23T20:24:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/to-dawesome",
+    "description": "A project created during an Introduction to Swift presentation at Dalhousie University.",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-01-27T01:43:11Z",
+    "pushed_at": "2015-01-27T01:48:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/blurr-website",
+    "description": "Source for http://blurrapp.com",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2013-07-18T22:37:09Z",
+    "pushed_at": "2013-07-26T00:35:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "christianselig/syllable-website",
+    "description": "Website for my app, Syllable.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2013-09-23T20:34:57Z",
+    "pushed_at": "2013-09-23T20:36:49Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 23,
+  "languages": [
+   [
+    "Swift",
+    12
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "Go",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ],
+   [
+    "C",
+    1
+   ],
+   [
+    "PHP",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 14,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "christianselig/apollo-backend": "# Apollo Server Backend\nThis repository holds Apollo's code for its server backend, which checks for user notifications and allows users to create subreddit watchers. It is archived as it will no longer be used/updated after June 30th, 2023 per Reddit's decisions in regards to the Reddit API. https://www.reddit.com/r/apolloapp/comments/144f6xm/apollo_will_close_down_on_june_30th_reddits/\nThe goal of making the code for this repo available is to show that despite statements otherwise by Reddit administrators, Apollo does not scrape anything and users purely authenticated Reddit API requests, and does a great deal of work to ensure the Reddit API rate limits are respected.\n",
+   "christianselig/Markdownosaur": "# Markdownosaur 🦖\nMarkdownosaur uses Apple's excellent and relatively new [Swift Markdown](https://github.com/apple/swift-markdown) library to analyze a Markdown source, and then takes that analyzed result and turns it into an `NSAttributedString` for displaying on screen on iOS, iPadOS, or Mac. It's just a few hundred lines long, and uses Apple's library's visitor pattern, so it's hopefully pretty easy to understand. :)\n## Benefits\niOS 15 already [added a new initializer](https://developer.apple.com/documentation/foundation/nsattributedstring/3796598-init) to `NSAttributedString` that takes Markdown, you should probably check if that does what you want first! Beyond that, Markdownosaur offers:\n- Increased flexibility in styling the resulting `NSAttributedString`\n- Support for more Markdown elements (like tables, though this requires work from the user to integrate as it's beyond the scope of `NSAttributedString`)\n- Support for iOS versions earlier than 15\n## Install\nUsing Swift Package Manager, add [Apple's Swift Markdown library](https://github.com/apple/swift-markdown) to your project. Then simply take the `Markdownosaur.swift` file and add it to your project.\n(Note that this library exists more to be helpful and instructive and was quickly generalized from how I use it, you'll likely want to modify it yourself for your own specific styling for instance!)\n## Example Result\nHere's the resulting `NSAttributedString` set on a `UILabel` (with the source Markdown visible).\n## Usage\nSimply pass in the source Markdown and then use the attributed string for whatever you'd like.\n```swift\nlet source = \"Here is some **very** cool and simple Markdown\"\nlet document = Document(parsing: source)\nvar markdownosaur = Markdownosaur()\nlet attributedString = markdownosaur.attributedString(from: document)\n// For instance…\nlabel.attributedText = attributedString\n```\n## Performance\nIt's fast! Tiny bit faster than the `NSAttributedString` implementation in iOS 15 (Apple's implementation is probably more powerful though). For reference on an iPhone 6S Plus (oldest device that still gets iOS 15), I took `test.md` (which is included, and is just the 'Example Result' source above repeate",
+   "christianselig/TinyStorage": "\n# TinyStorage \n<a href=\"https://www.emergetools.com/app/example/ios/examp_uQbTBp6Z4ryC/\"></a>\nA simple, lightweight replacement for `UserDefaults` with more reliable access and native support for `Codable` types.\n## Overview\nBorn out of [encountering issues with `UserDefaults`](https://christianselig.com/2024/10/beware-userdefaults/). As that blog post discusses, `UserDefaults` has more and more issues as of late with returning nil data when the device is locked and iOS \"prelaunches\" your app, leaving me honestly sort of unable to trust what `UserDefaults` returns. Combined with an API that doesn't really surface this information well, you can quite easily find yourself in a situation with difficult to track down bugs and data loss. This library seeks to address that fundamentally by not encrypting the backing file, allowing more reliable access to your saved data (if less secure, so don't store sensitive data), with some niceties sprinkled on top.\nThis means it's great for preferences and collections of data like bird species the user likes, but not for **sensitive** details. Do not store passwords/keys/tokens/secrets/diary entries/grammy's spaghetti recipe, anything that could be considered sensitive user information, as it's not encrypted on the disk. But don't use `UserDefaults` for sensitive details either as `UserDefaults` data is still fully decrypted when the device is locked so long as the user has unlocked the device once after reboot. Instead use `Keychain` for sensitive data.\nAs with `UserDefaults`, `TinyStorage` is intended to be used with values that are relatively small. Don't store massive databases in `TinyStorage` as it's not optimized for that, but it's plenty fast for retrieving stored `Codable` types. As a point of reference I'd say keep it under 1 MB.\nThis reliable storing of small, non-sensitive data (to me) is what `UserDefaults` was always intended to do well, so this library attempts to realize that vision. It's pretty simple and just a few hundred lines, far from a marvel of filesystem engineering, but just a nice little utility hopefully!\n(Also to be clear, `TinyStorage` is not a wrapper for `UserDefaults`, it is a full replacement. ",
+   "christianselig/caldera-keyboard": "# ⌨️ Caldera Keyboard\nThis repo contains:\n- The [Ergogen](https://github.com/ergogen/ergogen) v4 `config.yaml` file\n- The outputted PCB files for use in KiCad (both the wired and uncompleted versions) available in the `ergogen` directory\n- The left key plate JSCAD file generated by Ergogen (as well as the converted STL version). Note that no right side is included as in Fusion 360 I simply build out the case using the left side and then mirror the case with some modifications\n- The ZMK firmware files for Caldera\n- The completed case files for 3D printing can be found here: https://makerworld.com/en/models/545431\n## Video\nA full overview of the build process for this keyboard can be found on YouTube here: https://www.youtube.com/watch?v=7UXsD7nSfDY\n[](https://www.youtube.com/watch?v=7UXsD7nSfDY)\n## Instructions\nIf you're interested in building a Caldera keyboard, you can use the left and right `gerber.zip` files in this directory and upload those to a PCB manufacturer like JLCPCB or PCBWay (neither are sponsors) to obtain the PCBs. Then it's just a matter of acquiring the other keyboard parts from a site like Typeractive, and following the steps in the video above (soldering, assembling, flashing firmware).\nOtherwise hopefully you can use some of these files and instructions as a jumping off point for building your own cool custom keyboard!\n# Ergogen config.yaml overview\nThe Ergogen `config.yaml` file used for this keyboard is expanded upon versus the overview in the YouTube video above, and while there's comments throughout the file to help, I wanted to give a somewhat more substantial overview of how the file works.\n## Mirror strategy\nOne important point is that when building a PCB for split keyboards, many people build a reversible PCB so that the same PCB can be used for both the left and right side, the benefits being you're only maintaining one PCB and when ordering PCBs from manufacturers (which often have a minimum order size of 5), you can just order the 5, rather than using a separate PCB for the left and right side and needing to order 5 of *each*, which can feel excessive.\nAll that to say, Caldera does *not* use a reversible PCB. 😄 Why? \n- I'm just le"
+  }
+ },
+ "apps": []
+}

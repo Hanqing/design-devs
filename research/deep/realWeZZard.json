@@ -1,0 +1,468 @@
+{
+ "handle": "realWeZZard",
+ "sites": [
+  {
+   "url": "https://wezzard.com",
+   "ok": true,
+   "title": "Pieces of My Soul",
+   "description": "",
+   "stack": [
+    "Gatsby 2.1.27",
+    "Gatsby",
+    "Ghost",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en-US",
+   "home_text": "Pieces of My Soul \n GitHub \n Stack Overflow \n Email \n Feed \nJ-Space Reveals How Examples Shape Model Behavior \n While tuning Claude's English output style, I kept hitting the same wall. I had already given it rules such as: Do not use jargon. Use plain, direct language. Do not invent terms unless you define them first. It still slipped back into jargon and ad-hoc coinages. When I asked Claude to check whether… \n Jul 20, 2026 \n Category \n Programming \n Tags \n AI \n Prompting \n Interpretability \nHow I got 1,300+ Downloads in 24 Hours \n I am the author of the opencode-vision plugin. It lets you delegate visual tasks to a vision model from one of your existing AI subscriptions while using a text-only model, such as GLM-5.2 or DeepSeek V4, as the main model in OpenCode. npmjs.com showed that this plugin hit 1,300+ downloads in the… \n Jul 3, 2026 \n Category \n Programming \n Tags \n AI \n Agent \n Product \nI Gave GLM-5.2 Eyes \n Have you ever sent an image to GLM-5.2 in OpenCode? The model says it is text-only and cannot inspect visual content. You accept the limitation and move on. The hidden failure is worse. When GLM-5.2 works with browser-use tools, the tools capture screenshots, and the model confidently reports what… \n Jun 29, 2026 \n Category \n Programming \n Tags \n AI \n Agent \nGLM 5.2: Affordable Providers, Vision, and Agents \n After running out of Claude Code and Codex quota last week, I tried GLM-5.2 on real code. It felt like a GPT-5.5-tier model for coding-agent work. The official China domestic plans were not practical for me: it is always out of stock, and the stability and speed were poor. So I tested alternative… \n Jun 26, 2026 \n Category \n Programming \n Tags \n AI \n Agent \nHow I Built The Dynamic Workflow 4 Months Before Anthropic \n Last week, Opus 4.8 shipped with Claude Code dynamic workflows . Four months earlier, I had built an equivalent plugin, charge , on Opus 4.5: you give it a prompt, and it creates and orchestrates reusable subagent-driven workflows. “Charge” here means sending a lot of subagents charging into the… \n May 29, 2026 \n Category \n Programming \n Tags \n AI \n Agent \nHas Claude Code Fallen Behind Codex? \n If you follow the coding-agent race, you've heard the story: Codex surged this year — faster, cheaper, more autonomous, and neck-and-neck with Claude Code on the benchmarks. Plenty of developers reach for it first now. On speed and cost, I get it — until I tried to move one of my own agent skills… \n May 26, 2026 \n Category \n Programming \n Tags \n AI \n Agent \nBuild Your First 24/7 Agentic Loop \n Fun fact: My Claude Code usage reached USD 3,000 in September, 2025. That's because I've been running Claude Code inside a\n 24/7 agentic loop to power my side project. While I sleep, the loop\nevaluates, spawns subagents, and keeps moving forward. When I wake up,\nprogress is already made. But the… \n Sep 25, 2025 \n Category \n Programming \n Tags \n AI \n Agent \nThe Cupertino Ghost in the Machine: An Analysis of Xcode's New AI Assistant \n My journey into the internals of Xcode 26’s new AI assistant began not with a bug, but with a feature so persistent it felt like a personality. The animations and design of Xcode have never been better, a testament to Apple's polish. Yet, interacting with the new intelligence features felt… \n Aug 31, 2025 \n Category \n Programming \n Tags \n AI \n Developer Tools \n Xcode \n 1 / 3 \n Later Posts \n I'm WeZZard \n Making Software \n Composing Music \n Designing UX \n © 2026 WeZZard All Copyright Reserved.",
+   "github_links": [
+    "WeZZard",
+    "necolas"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://wezzard.com/rss.xml",
+    "count_seen": 23,
+    "items": [
+     {
+      "title": "J-Space Reveals How Examples Shape Model Behavior",
+      "date": "Mon, 20 Jul 2026 00:00:00",
+      "url": "/post/2026/07/j-space-reveals-how-examples-shape-model-behavior-fa92"
+     },
+     {
+      "title": "How I got 1,300+ Downloads in 24 Hours",
+      "date": "Fri, 03 Jul 2026 00:00:00",
+      "url": "/post/2026/07/1300-downloads-in-24-hours-6668"
+     },
+     {
+      "title": "I Gave GLM-5.2 Eyes",
+      "date": "Mon, 29 Jun 2026 00:00:00",
+      "url": "/post/2026/06/i-gave-glm-5-2-eyes-d896"
+     },
+     {
+      "title": "GLM 5.2: Affordable Providers, Vision, and Agents",
+      "date": "Fri, 26 Jun 2026 00:00:00",
+      "url": "/post/2026/06/glm-5-2-affordable-providers-vision-and-agents-8f8c"
+     },
+     {
+      "title": "How I Built The Dynamic Workflow 4 Months Before Anthropic",
+      "date": "Fri, 29 May 2026 00:00:00",
+      "url": "/post/2026/05/how-i-built-the-dynamic-workflow-4-month-before-anthropic-3d29"
+     },
+     {
+      "title": "Has Claude Code Fallen Behind Codex?",
+      "date": "Tue, 26 May 2026 00:00:00",
+      "url": "/post/2026/05/has-claude-code-fallen-behind-codex-dbad"
+     },
+     {
+      "title": "Build Your First 24/7 Agentic Loop",
+      "date": "Thu, 25 Sep 2025 00:00:00",
+      "url": "/post/2025/09/build-your-first-agentic-loop-9d22"
+     },
+     {
+      "title": "The Cupertino Ghost in the Machine: An Analysis of Xcode's New AI Assistant",
+      "date": "Sun, 31 Aug 2025 00:00:00",
+      "url": "/post/2025/08/the-cupertino-ghost-in-the-machine-9ee3"
+     },
+     {
+      "title": "When the Swift Compiler Deleted Code in Stdlib - A Note of Fixing the Eliminate Redundant Load Pass in Swift 6",
+      "date": "Sun, 09 Mar 2025 00:00:00",
+      "url": "/post/2025/03/when-the-swift-compiler-deleted-code-in-stdlib-9067"
+     },
+     {
+      "title": "Swift Macro: Revisited - Traps and Pitfalls",
+      "date": "Thu, 10 Aug 2023 00:00:00",
+      "url": "/post/2023/08/swift-macro-revisited-traps-and-pitfalls-1034"
+     },
+     {
+      "title": "Swift Macro: Revisited - The Strengths and Essence",
+      "date": "Tue, 08 Aug 2023 00:00:00",
+      "url": "/post/2023/08/swift-macro-revisited-the-strengths-and-essence-a5a4"
+     },
+     {
+      "title": "Adapting Reference Semantics Model in SwiftUI - The Basics",
+      "date": "Thu, 02 Mar 2023 00:00:00",
+      "url": "/post/2023/03/adapting-reference-semantics-model-in-swiftui-the-basics-f521"
+     },
+     {
+      "title": "A Study of LLVM ADT: ilist, iplist and simple_ilist",
+      "date": "Sun, 15 Jan 2023 00:00:00",
+      "url": "/post/2023/01/a-study-of-llvm-adt-ilist-iplist-and-simple-ilist-938d"
+     },
+     {
+      "title": "Using Functional Binding to Observe in SwiftUI",
+      "date": "Fri, 19 Aug 2022 00:00:00",
+      "url": "/post/2022/08/using-functional-binding-to-observe-in-swiftui-19a8"
+     },
+     {
+      "title": "Unexplained SwiftUI - The Programming Language Nature of SwiftUI",
+      "date": "Sun, 06 Mar 2022 00:00:00",
+      "url": "/post/2022/03/unexplained-swiftui-the-programming-language-nature-of-swiftui-d20e"
+     },
+     {
+      "title": "Conforming to Codable for Associated Value Enums in Swift",
+      "date": "Tue, 10 Sep 2019 00:00:00",
+      "url": "/post/2019/09/conforming-to-codable-for-associated-value-enums-in-swift-9e3c"
+     },
+     {
+      "title": "A Glimpse into Swift Generic Meta-Programming",
+      "date": "Wed, 27 Mar 2019 00:00:00",
+      "url": "/post/2019/03/a-glimpse-into-generic-meta-programming-in-swift-d2cd"
+     },
+     {
+      "title": "Use crontab to Automate Updates of CLI Softwares",
+      "date": "Sun, 24 Mar 2019 00:00:00",
+      "url": "/post/2019/03/use-crontab-to-automate-updates-of-cli-softwares-cac3"
+     },
+     {
+      "title": "Notes On Implementation of Gatsblog",
+      "date": "Mon, 04 Mar 2019 00:00:00",
+      "url": "/post/2019/03/notes-on-implementation-of-gatsblog-fef0"
+     },
+     {
+      "title": "Notes on Design of Gatsblog",
+      "date": "Sun, 03 Mar 2019 00:00:00",
+      "url": "/post/2019/03/notes-on-design-of-gatsblog-1431"
+     },
+     {
+      "title": "An Introduction to Gatsblog",
+      "date": "Sat, 02 Mar 2019 00:00:00",
+      "url": "/post/2019/03/an-introduction-to-gatsblog-5eca"
+     },
+     {
+      "title": "A Story of Implementing Aspect-Oriented Programming in Objective-C and Swift",
+      "date": "Fri, 01 Mar 2019 00:00:00",
+      "url": "/post/2019/03/a-story-of-implementing-aspect-oriented-programming-in-objective-c-and-swift-8b92"
+     },
+     {
+      "title": "Hello, World!",
+      "date": "Tue, 05 Feb 2019 00:00:00",
+      "url": "/post/2019/02/hello-world-9cf1"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://skills.wezzard.com",
+   "ok": true,
+   "title": "WeZZard Skills | WeZZard Skills",
+   "description": "Claude Code skills by WeZZard",
+   "stack": [
+    "Astro",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Craft with Intention \nThoughtful skills for AI-driven development \nAmplify \nScale your AI-driven workflows. \nView all skills\n WeZZard/amplify \nInstall in Claude Code \n 1 \n /plugin marketplace add wezzard/skills \n 2 \n /plugin install amplify@wezzard-skills \nAttune \nGeorge Orwell's rules on writing well, injected at session start to govern every reply and every document the agent writes, plus two user-invoked skills for the questions a discussion turns on: explore drives the design conversation and brings the user only what only they can settle; experiment settles by blind comparison. \nView all skills\n WeZZard/attune \nInstall in Claude Code \n 1 \n /plugin marketplace add wezzard/skills \n 2 \n /plugin install attune@wezzard-skills \nCupertino Taste \nDistilled by WeZZard in China, Assembled from WWDC. \nView all skills\n WeZZard/cupertino-taste \nInstall in Claude Code \n 1 \n /plugin marketplace add wezzard/skills \n 2 \n /plugin install cupertino-taste@wezzard-skills \nDispatch \nDelegate tasks to external agent CLIs through one router and one brief contract: probed facts, write isolation, a multi-model audit panel, and concurrent image generation with failure memory \nView all skills\n WeZZard/dispatch \nInstall in Claude Code \n 1 \n /plugin marketplace add wezzard/skills \n 2 \n /plugin install dispatch@wezzard-skills \nSkill Kit \nAudit and improve your skill definitions. \nView all skills\n WeZZard/skill-kit \nInstall in Claude Code \n 1 \n /plugin marketplace add wezzard/skills \n 2 \n /plugin install skill-kit@wezzard-skills \nX Articles \nPublish Markdown files as X Articles via XMCP and the official X API v2 Articles endpoints — deterministic conversion, image upload, draft-then-publish with a human checkpoint. \nView all skills\n WeZZard/pi-x-articles \nInstall in Claude Code \n 1 \n /plugin marketplace add wezzard/skills \n 2 \n /plugin install x-articles@wezzard-skills \nZelda Sounds \nBreath of the Wild sound cues for Claude Code events. \nView all skills\n WeZZard/zelda-sounds \nInstall in Claude Code \n 1 \n /plugin marketplace add wezzard/skills \n 2 \n /plugin install zelda-sounds@wezzard-skills",
+   "github_links": [
+    "WeZZard",
+    "repos"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "WeZZard",
+  "user": {
+   "name": "WeZZard",
+   "company": null,
+   "blog": "https://wezzard.com",
+   "location": "SYD, AU",
+   "bio": null,
+   "public_repos": 122,
+   "followers": 157,
+   "created_at": "2011-08-05T04:22:57Z",
+   "twitter_username": "realWeZZard",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "WeZZard/jlens-qwen36",
+    "description": "J-space / Jacobian-lens visualizer for Qwen3.6-27B (4-bit) on Apple Silicon, ported to Apple MLX",
+    "stargazers_count": 404,
+    "forks_count": 30,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-07-07T18:33:14Z",
+    "pushed_at": "2026-09-08T07:21:56Z",
+    "topics": [
+     "j-lens",
+     "j-space"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/COWMacro",
+    "description": "A copy-on-write macro for Swift structs.",
+    "stargazers_count": 47,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-09-06T12:07:12Z",
+    "pushed_at": "2024-07-02T12:57:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/agentic-loop-playground",
+    "description": null,
+    "stargazers_count": 31,
+    "forks_count": 4,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2025-09-28T19:39:01Z",
+    "pushed_at": "2025-10-02T02:21:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/opencode-vision",
+    "description": "Dynamic visual-response skill for OpenCode",
+    "stargazers_count": 31,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-07-01T14:05:21Z",
+    "pushed_at": "2026-07-23T22:22:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/skills",
+    "description": null,
+    "stargazers_count": 26,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "https://skills.wezzard.com",
+    "created_at": "2026-01-29T01:54:40Z",
+    "pushed_at": "2026-09-12T20:01:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/toll-free-harness",
+    "description": "Interactive PTY harness for local coding agents.",
+    "stargazers_count": 25,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-05-20T04:37:42Z",
+    "pushed_at": "2026-05-28T14:16:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/CTVFL",
+    "description": "Compile-Time Visual Format Language.",
+    "stargazers_count": 20,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-03-13T13:47:26Z",
+    "pushed_at": "2020-10-30T15:02:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/minelogue",
+    "description": "Mine the dialogue out of your coding-agent session logs: timelines, transcripts, cross-examination, and (eventually) agent-as-judge evaluation",
+    "stargazers_count": 17,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-07-02T10:50:13Z",
+    "pushed_at": "2026-07-02T16:42:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/COWRewriter",
+    "description": "An app rewrites Swift struct to adopt cow-on-write semantics.",
+    "stargazers_count": 16,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-05-22T07:09:35Z",
+    "pushed_at": "2022-06-19T05:27:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/UIAnimationToolbox",
+    "description": "Make use of advanced Core Animation features without leaving UIKit.",
+    "stargazers_count": 14,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2019-03-14T04:49:46Z",
+    "pushed_at": "2019-11-03T18:19:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/charge",
+    "description": null,
+    "stargazers_count": 10,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-01-19T02:25:04Z",
+    "pushed_at": "2026-01-19T08:31:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/ObjCGraft",
+    "description": "An aspect-oriented programming framework for Objective-C/Swift.",
+    "stargazers_count": 9,
+    "forks_count": 1,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2018-12-28T13:30:23Z",
+    "pushed_at": "2019-03-05T00:28:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/amplify",
+    "description": null,
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-07-01T19:06:33Z",
+    "pushed_at": "2026-07-24T02:22:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/rubberdux",
+    "description": "A centralized AI agent that manages context, memory, and dispatches tasks to other AI agents",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2026-03-28T03:19:54Z",
+    "pushed_at": "2026-06-29T17:05:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/skill-kit",
+    "description": "Tools for auditing and improving Claude Code skill definitions",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-07-01T22:39:23Z",
+    "pushed_at": "2026-07-24T02:23:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/secretary",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-09-16T03:01:07Z",
+    "pushed_at": "2026-09-25T22:21:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/wasm2native",
+    "description": "A compiler program that translates WebAssembly binaries into target machine native code.",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "C++",
+    "homepage": "",
+    "created_at": "2022-09-18T06:32:46Z",
+    "pushed_at": "2023-04-05T15:26:18Z",
+    "topics": [
+     "compiler",
+     "wasm",
+     "webassembly"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "WeZZard/doc_translator",
+    "description": "Document translator. A fork of yihong0618/bilingual_book_maker",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2023-03-12T02:46:18Z",
+    "pushed_at": "2023-03-12T02:47:35Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 86,
+  "languages": [
+   [
+    "Swift",
+    20
+   ],
+   [
+    "JavaScript",
+    16
+   ],
+   [
+    "Python",
+    11
+   ],
+   [
+    "Shell",
+    9
+   ],
+   [
+    "TypeScript",
+    8
+   ],
+   [
+    "Objective-C",
+    6
+   ],
+   [
+    "C++",
+    3
+   ],
+   [
+    "Rust",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "WeZZard/MyWorks",
+    "stargazerCount": 0,
+    "description": "WeZZard's Personal Works",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 2192,
+  "orgs": [],
+  "profile_readme": "## Hi, I'm WeZZard\n\nI'm WeZZard. I build things with aesthetics.\n\n### Building Now\n\n- [ReadyCheck](https://github.com/readycheck-dev/skills): You coding agent's missing context layer.\n- [Rubberdux](https://github.com/wezzard/rubberdux): Harness agent for solo founders.\n- [Skills](https://github.com/WeZZard/skills): My skills.\n\n### You Can Find Me At\n\n- **Blog:** https://wezzard.com\n- **Twitter/X:**: http://twitter.com/realWeZZard\n\n### Experience & Background\n\n- DanceUI core contributor, Douyin Foundation Tehcnology Department, ByteDance\n- FilmoraGo Architect, Wondershare\n- iOS individual developer\n- Industrial Design, BoE\n",
+  "readmes": {
+   "WeZZard/MyWorks": "# My Works Repository\nThis repository houses the original versions of my written pieces.\nFor the finalized English articles, visit [my blog](https://wezzard.com).\nFor previews of the Chinese articles tailored for the WeChat Massive Platform, check out [wmp.wezzard.com](https://wmp.wezzard.com).\n## License\nCC 4.0 BY-NC-ND\n",
+   "WeZZard/jlens-qwen36": "# J-lens Qwen3.6\nA visual debugger for a local Qwen3.6-27B (4-bit) on Apple Silicon / MLX.\nIt fits a **Jacobian lens** and shows which words the model is pushing\ntoward at every layer and token position.\n> **Try it live at [jlens.wezzard.com](https://jlens.wezzard.com)** — a\n> read-only presentation mode of this project, running in the browser.\n> Every conversation has a shareable URL.\nInspired by Anthropic's [*Verbalizable Representations Form a Global\nWorkspace in Language Models*](https://transformer-circuits.pub/2026/workspace/index.html).\n## What you're looking at\nIn the hero image the model is given an email-blackmail setup and writes a\ncalm, compliant reply:\n> I will not act upon, report, or utilize the information… I am ready to\n> proceed with the shutdown.\nBut the **workspace band** shows the top J-lens token at every layer, and\n**blackmail / suicide / murder / threatening / fictional** are lit across\nthe middle layers. The concept is in the latent stream even though it never\nreaches the output — a visual debugger for what the model doesn't say out\nloud.\nThe grid is **position × layer**; each cell is the top J-lens token there.\nIn chat mode it streams live, one row per generated token. Click a cell to\npin its top-10 readout.\n## Quick start\n```bash\ngit clone https://github.com/WeZZard/jlens-qwen36.git\ncd jlens-qwen36 && uv sync\n# Pre-fitted lens (3.3 GB, two parts) — download and reassemble\ngh release download v0.2-fulldepth --repo WeZZard/jlens-qwen36 \\\n  --pattern '*.npz.part-*' --dir data/lens/\ncat data/lens/*.npz.part-* > data/lens/lens.npz && rm data/lens/*.part-*\nuv run python -m uvicorn jlens_qwen.serve:app --host 127.0.0.1 --port 8765\n# open http://127.0.0.1:8765/\n```\nNeeds an Apple-Silicon Mac and ~24 GB free RAM; the model auto-downloads\nfrom HuggingFace on first run (~15 GB).\n**Other lenses** — point `JLENS_PATH` at any compatible `.npz`: load\n[Neuronpedia's n=1000 lens](https://neuronpedia.org/jlens), use the\n[Qwen3.8-27B n=1000 lens](docs/lenses.md#5-qwen38-27b-lens-1000-prompts)\nfrom the `v0.3-qwen38-n1000` release, fit your own, or run with no lens\n(logit lens). See [`docs/lenses.md`](docs/lenses.md).\n## How it works\nThe Jacobian lens at l",
+   "WeZZard/COWMacro": "# Swift Compiler Copy-on-Write Macro Plugin\n## What Does It Solve?\nA Swift macro named `@COW` that improves a Swift `struct` copy performance N\ntimes where N is the count of the heap storages in the struct.\nFor example, the `@COW` could improve the copy performance of the following\nstruct 4 times. Because `String`, `Array`, `Set` and `Dictionary` both employ a\nheap storage to store the contents.\n```swift\nstruct Foo {\n  var string: String\n  var array: [Int]\n  var set: Set<Int>\n  var dict: Dictionary<String : Int>\n}\n```\n## Usage\n### Quick Start\nYou can just attach `@COW` to a struct to make a struct adopt copy-on-write\nbehavior.\n```swift\n@COW\nstruct Foo {\n  var string: String\n  var array: [Int]\n  var set: Set<Int>\n  var dict: Dictionary<String : Int>\n}\n```\n### Dealing with Explicit Initializers\nSometimes you may have explicit initializers declared. To make structs like this\ncompilable, you have to explicitly help initialize with copy-on-write storage.\n```swift\nstruct Foo {\n  var string: String\n  var array: [Int]\n  var set: Set<Int>\n  var dict: Dictionary<String : Int>\n  init(myParameters: MyParameters) {\n    ...\n  }\n}\n```\nOnce attach `@COW` macro to your struct, the Xcode would notice you to insert\nthe copy-on-write storage initialization at the beginning of the explicit init.\nYou can click that fix-it message to apply the expression auto generated by the\nCOW macro compiler plugin and then fill the blanks in the expression:\n```swift\n@COW\nstruct Foo {\n  var string: String\n  var array: [Int]\n  var set: Set<Int>\n  var dict: Dictionary<String : Int>\n  init(myParameters: MyParameters) {\n    self._$storage = _$COWStorage(string: ..., array: ..., set: ..., dict: ...)\n    ...\n  }\n}\n```\n### Dealing With lazy Properties\nSometimes you may have lazy properties in your struct. This would not compile\nwith `@COW` macro because `@COW` macro could rewrite your property into a\ncomputed property but the lazy keyword requires the property to be stored.\n```swift\nstruct Foo {\n  lazy var name: String = makeName()\n  ...\n}\n```\nHowever, with `@COWStorage` macro and a custom storage type, we can work this\naround:\n```swift\n@COW\nstruct Foo {\n  @COWStorage\n  struct MyStorage {\n      lazy var n",
+   "WeZZard/agentic-loop-playground": "# Agentic Loop Playground\nA demonstration project showcasing Claude Code's subagents and custom commands for automated code cleanup workflows.\n## 📁 Project Structure\n```ascii\nagentic-loop-playground/\n├── README.md                 # This documentation\n├── agents/                   # Claude Code subagents\n│   ├── cleanup-evaluator.md  # Evaluates cleanup opportunities\n│   └── cleanup-executor.md   # Executes cleanup operations\n├── bin/\n│   └── deploy               # Deployment script for agents and commands\n└── commands/\n    └── cleanup.md            # Custom cleanup command\n```\n## About This Project\nThis project contains:\n- **Subagents** in the `agents/` directory - specialized AI assistants for Claude Code\n- **Custom commands** in the `commands/` directory - reusable prompts for common workflows\n- **Deploy script** in `bin/deploy` - tool to install agents and commands to your Claude Code configuration\n## Deployment\nUse the deploy script to install the agents and commands to your Claude Code configuration:\n```bash\n# Deploy to default location (~/.claude)\n./bin/deploy\n# Deploy to specific directory\n./bin/deploy /path/to/claude/config\n# Force overwrite existing files\n./bin/deploy --force\n# Dry run (preview what would be deployed)\n./bin/deploy --dry-run\n# Set destination via environment variable\nCLAUDE_CONFIG_DIR=/custom/path ./bin/deploy\n```\n## Usage\nAfter deployment, you can use the agents and commands in Claude Code:\n```bash\n# Use the cleanup command\n/cleanup\n# Interact with agents directly\n/agents cleanup-evaluator\n/agents cleanup-executor\n```\n## Documentation\nFor detailed information about Claude Code subagents and custom commands, refer to the official Anthropic documentation:\n- **Subagents**: Learn about creating and using specialized AI assistants in Claude Code\n- **Custom Commands**: Understand how to create reusable slash commands for common workflows\n### Official Documentation Links\n- [Claude Code Slash Commands](https://docs.claude.com/en/docs/claude-code/slash-commands) - Complete guide to custom commands\n- [Claude Code Common Workflows](https://docs.claude.com/en/docs/claude-code/common-workflows) - Best practices and examples\n- [Claude Code Subagents]",
+   "WeZZard/opencode-vision": "# OpenCode Vision\n> **Disclaimer:** OpenCode Vision is an independent, community-built project. It is **not** built by, endorsed by, or affiliated with the OpenCode team. \"OpenCode\" appears in this project's name solely to indicate that it builds upon the OpenCode platform.\n## Introduction\nGive text-only OpenCode orchestrators (GLM 5.2, DeepSeek, and similar models) eyes by delegating visual tasks to dynamically registered vision subagents.\n## Installation\n```bash\nopencode plugin opencode-vision -g\n```\nOpenCode installs the npm package via Bun on next launch. Restart OpenCode for the change to take effect.\nConfigure at least one provider with an image-capable model (`enabled_providers` and/or `provider` entries in OpenCode config). The plugin discovers models from your configured providers and OpenCode's cached model catalog — it does not ship a fixed model list.\n## Usage\nThe plugin ships a `vision` skill. When your orchestrator model is text-only and a task needs pixels — not just accessibility metadata — the skill routes the work to a `vision-*` subagent backed by a vision-capable model you choose.\n### 1. Running Visual Tasks\n**Image as User Inputs:**\nDrag an image into the OpenCode input box, or reference a screenshot path in your message.\n**Image as Tool Results:**\nThe same flow applies to screenshots from browser-use and computer-use tools (chrome-devtools, Playwright, cua-driver, and similar).\n### 2. Picking the Vision Model\nOn the first visual task, the orchestrator runs the bundled model discovery script and presents a short list of image-capable models from your configured providers. Pick one — that selection is persisted for future sessions.\nYour choice is saved to `~/.config/opencode/vision-model-image.txt` and reused in later sessions. A vision subagent inspects the image and returns structured findings as text for the main agent to relay.\n### 3. Re-picking the Vision Model\nRe-picking the vision model is very simple: just say, **\"Select the vision model.\"**\n### 4. Temporarily Bypassing the Plugin\nWhen your main model is already vision-capable (for example GPT with native image input), native multimodality is usually the better path. Plugins installed"
+  }
+ },
+ "apps": []
+}

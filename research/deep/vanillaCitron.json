@@ -1,0 +1,378 @@
+{
+ "handle": "vanillaCitron",
+ "sites": [
+  {
+   "url": "http://tryphoton.ai",
+   "ok": true,
+   "title": "Photon | Bring your agents to iMessage, WhatsApp, Telegram, Slack, and beyond",
+   "description": "An open-source framework that connects your agents to iMessage, Telegram, WhatsApp, X, Discord, Instagram, and other interfaces people use every day. ",
+   "stack": [
+    "Framer fc3086c",
+    "Framer",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "photon \n Photon \n iMessage \n WhatsApp \n Pricing \n Docs \n Blog \nResources \n4.6k \nContact \nBeta \nDashboard \nphoton \n Photon \nphoton \n Photon \n iMessage \n WhatsApp \n Pricing \n Docs \n Blog \nResources \n4.6k \nContact \nBeta \nDashboard \n Bring Agents to the \n Interfaces Millions Already Use. \nBring Agents to the Interfaces Millions Already Use. \nAn open-source framework \nthat \nconnects \nyour \nagents \nto \nSMS/RCS \nSMS/RCS , \niMessage , \nWhatsApp , \nDiscord , \nSlack , \nTelegram , \nand other interfaces people use every day. \nand other \ninterfaces \ninterfaces \npeople use every day., \npeople use every day. \nAn open-source framework \nthat connects \nconnects \nyour \nagents \nto \nSMS/RCS \niMessage , \nWhatsApp , \nDiscord , \nSlack , \nTelegram , \nand other \ninterfaces \npeople use every day. \nGet Started \nCopy Agent Instruction \nGet Started \nCopy Agent Instruction \ntab \n99.95% Uptime \nby \nby \niMessage \nSend, receive, and take action inside iMessage conversations. \n with direct messages, group chats, rich media, location sharing, mini apps, \n SMS/RCS fallback, and production-grade infrastructure built for AI agents. \n const spectrum = Spectrum ( providers : [ ... ] , config : { ... } ) \n const agent = new Agent ( ) \n // Handle incoming messages by type \n spectrum . onMessage ( async ( { space , message } ) => { \n switch ( message . type ) { \n case \"text\" : \n const response = await agent . generate ( message . content ) \n await space . send ( \"Hello World\" , attachment ( ... ) ) \n await space . send ( response ) \n case \"attachment\" : \n await message . react ( \"like\" ) \n } \n } ) \n // Auto-select the best available channel for delivery \n await spectrum . send ( \"+123456789\" , sticker ( ... ) ) \n // Explicitly route through iMessage with Telegram as fallback \n await spectrum . send ( \"+123456789\" , imessage ( ) . fallback ( telegram ( ) ) , poll ( { ... } ) ) \nLearn more \nRun \niMessage \nSend, receive, and take action inside iMessage conversations. \n with direct messages, group chats, rich media, location sharing, mini apps, \n SMS/RCS fallback, and production-grade infrastructure built for AI agents. \n const spectrum = Spectrum ( providers : [ ... ] , config : { ... } ) \n const agent = new Agent ( ) \n // Handle incoming messages by type \n spectrum . onMessage ( async ( { space , message } ) => { \n switch ( message . type ) { \n case \"text\" : \n const response = await agent . generate ( message . content ) \n await space . send ( \"Hello World\" , attachment ( ... ) ) \n await space . send ( response ) \n case \"attachment\" : \n await message . react ( \"like\" ) \n } \n } ) \n // Auto-select the best available channel for delivery \n await spectrum . send ( \"+123456789\" , sticker ( ... ) ) \n // Explicitly route through iMessage with Telegram as fallback \n await spectrum . send ( \"+123456789\" , imessage ( ) . fallback ( telegram ( ) ) , poll ( { ... } ) ) \nLearn more \nRun \n Native iMessage APIs \n for Apple-Level rich experiences \nSend & receive messages, \n supporting markdown \n and bubble / message effects. \nShare attachments seamlessly \n including files, media, \n and stacked images. \nAccept location sharing \n subscribe to real-time \n live users’ location updates. \n Build and deliver \n generative iMessage mini apps \ndirectly within the conversation. \n Customize identity with \n profile names and photos, \nautomatically synced with users. \nCreate and manage group chats \n including names, avatars, \n and participant control. \niMessage \nSend, receive, and take action inside iMessage conversations. \n with direct messages, group chats, rich media, location sharing, mini apps, \n SMS/RCS fallback, and production-grade infrastructure built for AI agents. \n const spectrum = Spectrum ( providers : [ ... ] , config : { ... } ) \n const agent = new Agent ( ) \n // Handle incoming messages by type \n spectrum . onMessage ( async ( { space , message } ) => { \n switch ( message . type ) { \n case \"text\" : \n const response = await agent . generate ( message . content ) \n await space . send ( \"Hello World\" , attachment ( ... ) ) \n await space . send ( response ) \n case \"attachment\" : \n await message . react ( \"like\" ) \n } \n } ) \n // Auto-select the best available channel for delivery \n await spectrum . send ( \"+123456789\" , sticker ( ... ) ) \n // Explicitly route through iMessage with Telegram as fallback \n await spectrum . send ( \"+123456789\" , imessage ( ) . fallback ( telegram ( ) ) , poll ( { ... } ) ) \nLearn more \nRun \n Native iMessage APIs \n for Apple-Level rich experiences \nSe",
+   "github_links": [
+    "photon-hq"
+   ],
+   "subpages": {
+    "http://tryphoton.ai/blog": "photon \n Photon \n iMessage \n WhatsApp \n Pricing \n Docs \n Blog \nResources \n4.6k \nContact \nBeta \nDashboard \nphoton \n Photon \nphoton \n Photon \n iMessage \n WhatsApp \n Pricing \n Docs \n Blog \nResources \n4.6k \nContact \nBeta \nDashboard \n Bring Agents to the \n Interfaces Millions Already Use. \nBring Agents to the Interfaces Millions Already Use. \nAn open-source framework \nthat \nconnects \nyour \nagents \nto \nSMS/RCS \nSMS/RCS , \niMessage , \nWhatsApp , \nDiscord , \nSlack , \nTelegram , \nand other interfaces people use every day. \nand other \ninterfaces \ninterfaces \npeople use every day., \npeople use every day. \nAn open-source framework \nthat connects \nconnects \nyour \nagents \nto \nSMS/RCS \niMessage , \nWhatsApp , \nDiscord , \nSlack , \nTelegram , \nand other \ninterfaces \npeople use every day. \nGet Started \nCopy Agent Instruction \nGet Started \nCopy Agent Instruction \ntab \n99.95% Uptime \nby \nby \niMessage \nSend, receive, and take action inside iMessage conversations. \n with direct messages, group chats, rich media, location sharing, mini apps, \n SMS/RCS fallback, and production-grade infrastructure built for AI agents. \n const spectrum = Spectrum ( providers : [ ... ] , config : { ... } ) \n const agent = new Agent ( ) \n // Handle incoming messages by type \n spectrum . onMessage ( async ( { space , message } ) => { \n switch ( message . type ) { \n case \"text\" : \n const response = await agent . generate ( message . content ) \n await space . send ( \"Hello World\" , attachment ( ... ) ) \n await space . send ( response ) \n case \"attachment\" : \n await message . react ( \"like\" ) \n } \n } ) \n // Auto-select the best available channel for delivery \n await spectrum . send ( \"+123456789\" , sticker ( ... ) ) \n // Explicitly route through iMessage with Telegram as fallback \n await spectrum . send ( \"+123456789\" , imessage ( ) . fallback ( telegram ( ) ) , poll ( { ... } ) ) \nLearn more \nRun \niMessage \nSend, receive, and take action inside iMessage conversations. \n with direct messages, group chats, rich media, location sharing, mini apps, \n SMS/RCS fallback, and production-grade infrastructure built for AI agents. \n const spectrum = Spectrum ( providers : [ ... ] , config : { ... } ) \n const agent = new Agent ( ) \n // Handle incoming messages by type \n spectrum . onMessage ( async ( { space , message } ) => { \n switch ( message . type ) { \n case \"text\" : \n const response = await agent . generate ( message . content ) \n await space . send ( \"Hello World\" , attachment ( ... ) ) \n await space . send ( response ) \n case \"attachment\" : \n await message . react ( \"like\" ) \n } \n } ) \n // Auto-select the best available channel for delivery \n await spectrum . send ( \"+123456789\" , sticker ( ... ) ) \n // Explicitly route through iMessage with Telegram as fallback \n await spectrum . send ( \"+123456789\" , imessage ( ) . fallback ( telegram ( ) ) , poll ( { ... } ) ) \nLearn more \nRun \n Native iMessage APIs \n for Apple-Level rich experiences \nSend & receive messages, \n supporting markdown \n and bubble "
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github_guess": true,
+ "github": {
+  "login": "photon-hq",
+  "user": {
+   "name": "Photon",
+   "company": null,
+   "blog": "https://photon.codes",
+   "location": "United States of America",
+   "bio": "We bring agents to millions of lives.",
+   "public_repos": 88,
+   "followers": 500,
+   "created_at": "2025-09-06T19:42:13Z",
+   "twitter_username": "photonhq",
+   "type": "Organization"
+  },
+  "repos": [
+   {
+    "full_name": "photon-hq/spectrum-ts",
+    "description": "Bring agents to any interfaces",
+    "stargazers_count": 2102,
+    "forks_count": 268,
+    "language": "TypeScript",
+    "homepage": "https://photon.codes/spectrum",
+    "created_at": "2025-12-20T22:09:31Z",
+    "pushed_at": "2026-10-21T04:45:25Z",
+    "topics": [
+     "agent",
+     "ai",
+     "photon",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/imessage-kit",
+    "description": "A type-safe, elegant iMessage SDK for macOS with zero dependencies",
+    "stargazers_count": 1476,
+    "forks_count": 132,
+    "language": "TypeScript",
+    "homepage": "https://photon.codes",
+    "created_at": "2025-10-18T06:44:03Z",
+    "pushed_at": "2026-06-08T23:18:06Z",
+    "topics": [
+     "agent",
+     "ai",
+     "apple",
+     "imessage",
+     "sms",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/qclaw-wechat-client",
+    "description": "Reverse-engineered TypeScript client for QClaw's WeChat Access API.",
+    "stargazers_count": 794,
+    "forks_count": 369,
+    "language": "TypeScript",
+    "homepage": "https://photon.codes",
+    "created_at": "2026-03-10T05:12:12Z",
+    "pushed_at": "2026-03-22T05:58:26Z",
+    "topics": [
+     "agent",
+     "openclaw",
+     "qclaw",
+     "wechat"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "photon-hq/advanced-imessage-kit",
+    "description": "The Typescript SDK for Next Level iMessage Automation",
+    "stargazers_count": 185,
+    "forks_count": 21,
+    "language": "TypeScript",
+    "homepage": "https://photon.codes",
+    "created_at": "2025-10-30T07:41:18Z",
+    "pushed_at": "2026-06-08T23:21:27Z",
+    "topics": [
+     "agent",
+     "ai",
+     "apple",
+     "imessage",
+     "ims",
+     "message",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/rapid-ai-dev",
+    "description": "Toolkit for rapid AI and agent prototyping",
+    "stargazers_count": 149,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://photon.codes",
+    "created_at": "2025-10-26T23:30:40Z",
+    "pushed_at": "2026-03-06T06:44:07Z",
+    "topics": [
+     "ai",
+     "prototyping",
+     "toolkit",
+     "tools",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/wechat-ilink-client",
+    "description": "Standalone TypeScript client for the WeChat iLink bot protocol, reverse-engineered from Tencent's openclaw-weixin.",
+    "stargazers_count": 83,
+    "forks_count": 19,
+    "language": "TypeScript",
+    "homepage": "https://photon.codes",
+    "created_at": "2026-03-22T05:44:19Z",
+    "pushed_at": "2026-03-22T06:04:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/flux",
+    "description": "An open-source CLI for deploying LangChain agents to iMessage in seconds.",
+    "stargazers_count": 80,
+    "forks_count": 11,
+    "language": "TypeScript",
+    "homepage": "https://photon.codes/",
+    "created_at": "2025-12-23T06:27:00Z",
+    "pushed_at": "2026-03-06T06:44:55Z",
+    "topics": [
+     "cli",
+     "imessage",
+     "langchian",
+     "photon"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/notebooklm-kit",
+    "description": "TypeScript SDK for programmatic access to Google NotebookLM",
+    "stargazers_count": 42,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2025-12-24T22:35:15Z",
+    "pushed_at": "2026-03-06T06:44:59Z",
+    "topics": [
+     "gemini",
+     "google",
+     "notebooklm",
+     "tyepscript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/cli",
+    "description": "Use Photon in your terminal",
+    "stargazers_count": 39,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "https://www.npmjs.com/package/@photon-ai/cli",
+    "created_at": "2026-04-25T07:16:45Z",
+    "pushed_at": "2026-10-09T06:23:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/Astrolabe",
+    "description": "A declarative macOS configuration framework.",
+    "stargazers_count": 31,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "https://photon.codes/astrolabe",
+    "created_at": "2026-04-01T00:24:28Z",
+    "pushed_at": "2026-10-15T01:15:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/buildspace",
+    "description": "Reusable GitHub Actions blocks and workflows for fast shipping teams",
+    "stargazers_count": 15,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "https://photon.codes",
+    "created_at": "2025-12-27T05:14:16Z",
+    "pushed_at": "2026-10-21T03:19:41Z",
+    "topics": [
+     "ai",
+     "cicd",
+     "github-actions",
+     "workflows"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/skills",
+    "description": "Agents skills collection for Photon's SDKs.",
+    "stargazers_count": 15,
+    "forks_count": 3,
+    "language": null,
+    "homepage": "https://skills.sh/photon-hq/skills",
+    "created_at": "2026-03-01T00:45:53Z",
+    "pushed_at": "2026-08-04T05:14:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/advanced-imessage-ts",
+    "description": "TypeScript SDK for the Apple level iMessage API via Photon's Spectrum gRPC gateway.",
+    "stargazers_count": 13,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://photon.codes",
+    "created_at": "2026-03-28T02:56:07Z",
+    "pushed_at": "2026-10-21T06:23:47Z",
+    "topics": [
+     "apple",
+     "imessage",
+     "ios"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/vercel-chat-adapter-imessage",
+    "description": "iMessage adapter for Chat SDK. Supports both local (on-device) and Photon iMessage integration.",
+    "stargazers_count": 13,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-03-01T18:30:58Z",
+    "pushed_at": "2026-07-27T19:31:38Z",
+    "topics": [
+     "agent",
+     "ai",
+     "chat",
+     "chat-sdk",
+     "imessage",
+     "vercel"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/better-grpc",
+    "description": "Simple, typed gRPC for TypeScript",
+    "stargazers_count": 12,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2025-11-22T21:46:14Z",
+    "pushed_at": "2026-01-17T17:49:03Z",
+    "topics": [
+     "grpc",
+     "grpc-client",
+     "grpc-server",
+     "grpc-typescript",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/dsh-imessage",
+    "description": "Photon-hosted iMessage transport and settings UI for DeepSeek Harness",
+    "stargazers_count": 10,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "https://photon.codes",
+    "created_at": "2026-08-17T21:24:34Z",
+    "pushed_at": "2026-08-19T02:12:14Z",
+    "topics": [
+     "ai-agent",
+     "deepseek-ai",
+     "deepseek-harness",
+     "dsh",
+     "dsh-plugin",
+     "imessage",
+     "messaging",
+     "photon",
+     "spectrum",
+     "spectrum-ts"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/advanced-imessage-http-proxy",
+    "description": "The RESTful API for Next Level iMessage Automation",
+    "stargazers_count": 8,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://imessage-swagger.photon.codes/swagger",
+    "created_at": "2025-12-13T16:19:21Z",
+    "pushed_at": "2026-05-06T07:41:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "photon-hq/BetterEnv",
+    "description": "A Swift Package Manager build tool plugin that embeds environment variables at compile time",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "https://photon.codes",
+    "created_at": "2026-01-26T07:55:10Z",
+    "pushed_at": "2026-03-31T01:25:49Z",
+    "topics": [
+     "swift"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 66,
+  "languages": [
+   [
+    "TypeScript",
+    49
+   ],
+   [
+    "Swift",
+    4
+   ],
+   [
+    "Rust",
+    3
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "Go",
+    2
+   ],
+   [
+    "Objective-C",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ]
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "photon-hq/spectrum-ts": "<div align=\"center\">\n  <h1>Photon (Spectrum)</h1>\n  <p><strong>Bring agents to any interface.</strong></p>\n  Photon (photon.codes) builds Spectrum, a multi-channel agent framework that makes AI agents reachable over real conversation surfaces like iMessage, SMS, and email instead of trapping them in web chat.\n  <p>\n    <a href=\"https://www.npmjs.com/package/spectrum-ts\"></a>\n    <a href=\"https://www.npmjs.com/package/spectrum-ts\"></a>\n    <a href=\"https://github.com/photon-hq/spectrum-ts/blob/main/LICENSE\"></a>\n    <a href=\"https://www.typescriptlang.org/\"></a>\n    <a href=\"https://github.com/photon-hq/spectrum-ts/stargazers\"></a>\n  </p>\n</div>\n## About Photon\n**[Photon](https://photon.codes)** builds infrastructure for AI agents that operate over real communication channels.\nSpectrum is Photon’s open-source multi-channel agent framework, enabling AI agents to communicate through interfaces people already use—such as iMessage, SMS, email, Slack, Discord, and voice—instead of being confined to web chat.\nLearn more at **https://photon.codes**.\n## Getting Started\nThe fastest way to ship is with **Spectrum Cloud** — hosted infrastructure for platforms like iMessage, with credentials ready in minutes.\n1. Sign up at **[app.photon.codes](https://app.photon.codes)** to get your project ID and secret.\n2. Install the SDK (`spectrum-ts` is batteries-included — the runtime plus\n   the standard provider set):\n   ```bash\n   bun add spectrum-ts\n   ```\n3. Start your app:\n   ```typescript\n   import { Spectrum } from \"spectrum-ts\";\n   import { imessage } from \"spectrum-ts/providers/imessage\";\n   const app = await Spectrum({\n     projectId: process.env.PROJECT_ID,\n     projectSecret: process.env.PROJECT_SECRET,\n     providers: [imessage.config()],\n   });\n   for await (const [space, message] of app.messages) {\n     await space.responding(async () => {\n       await message.reply(\"Hello from Spectrum.\");\n     });\n   }\n   ```\nSpectrum also runs fully standalone — you can connect to a local iMessage database with the separate [`@spectrum-ts/imessage-local`](https://npmjs.com/package/@spectrum-ts/imessage-local) package, bring your own gRPC endpoints, or build your own platform provider",
+   "photon-hq/imessage-kit": "<div align=\"center\">\n# @photon-ai/imessage-kit\n> A type-safe, elegant iMessage SDK for macOS with cross-runtime support\n</div>\n[](https://www.npmjs.com/package/@photon-ai/imessage-kit)\n[](https://www.typescriptlang.org/)\n[](./LICENSE)\n[](https://discord.gg/bZd4CMd2H5)\nA full-featured iMessage SDK for **reading**, **sending**, and **automating** iMessage conversations on macOS. Perfect for building AI agents, automation tools, and chat-first applications.\n> [!NOTE]\n> ✨ Looking for advanced features like threaded replies, tapbacks, message editing, unsending, live typing indicators? Try **[Photon Spectrum](https://photon.codes)**\n## About Photon\n**[Photon](https://photon.codes)** builds infrastructure for AI agents that operate over real communication channels.\nSpectrum is Photon’s open-source multi-channel agent framework, enabling AI agents to communicate through interfaces people already use—such as iMessage, SMS, email, Slack, Discord, and voice—instead of being confined to web chat.\n---\n## Features\n| Feature | Method | Example |\n|---------|--------|---------|\n| [Send Text](#send-messages) | `sdk.send()` | [01-send-text.ts](./examples/01-send-text.ts) |\n| [Send Image](#send-attachments) | `sdk.send()` | [02-send-image.ts](./examples/02-send-image.ts) |\n| [Send File](#send-attachments) | `sdk.send()` | [03-send-file.ts](./examples/03-send-file.ts) |\n| [Send to Group](#send-to-groups) | `sdk.send()` | [04-send-group.ts](./examples/04-send-group.ts) |\n| [Query Messages](#query-messages) | `sdk.getMessages()` | [05-query-messages.ts](./examples/05-query-messages.ts) |\n| [List Chats](#list-chats) | `sdk.listChats()` | [06-list-chats.ts](./examples/06-list-chats.ts) |\n| [Real-time Watching](#real-time-watching) | `sdk.startWatching()` | [07-watch-messages.ts](./examples/07-watch-messages.ts) |\n| [Auto Reply](#auto-reply) | `onDirectMessage` → `sdk.send()` | [08-auto-reply.ts](./examples/08-auto-reply.ts) |\n| [Plugin System](#plugin-system) | `sdk.use()` | [10-plugin.ts](./examples/10-plugin.ts) |\n| [Error Handling](#error-handling) | `IMessageError` | [11-error-handling.ts](./examples/11-error-handling.ts) |\n---\n## Quick Start\n### Installation\n```bash\n# For Bun (zer",
+   "photon-hq/qclaw-wechat-client": "# qclaw-wechat-client\n[中文文档](./README.zh-CN.md)\n> [!WARNING]\n> This project is being unmaintained. It is recommended to switch to [WeChat's official iLink protocol](https://github.com/photon-hq/wechat-ilink-client). 该项目已不再维护。我们推荐使用[微信团队官方的iLink协议](https://github.com/photon-hq/wechat-ilink-client)（基于微信ClawBot）。\nReverse-engineered TypeScript client for QClaw's WeChat Access API.\nQClaw (管家 OpenClaw) is a Tencent Electron desktop app that wraps an OpenClaw AI Gateway service. It authenticates exclusively through WeChat OAuth2 QR-code login and communicates with Tencent backend servers via a jprx gateway protocol. This library implements that protocol as a standalone TypeScript module.\n## Origin\nExtracted from `QClaw.app` -> `Contents/Resources/app.asar` (unencrypted). The API service class (`tS` / `openclawApiService`) was found in the bundled renderer at `out/renderer/assets/platform-QEsQ5tXh.js`.\n## Install\n```bash\nnpm install qclaw-wechat-client\n# or\npnpm add qclaw-wechat-client\n```\n## Development\n```bash\npnpm install      # install dependencies\npnpm build        # bundle with tsdown\npnpm typecheck    # type-check only\n```\n## Quick start\n```typescript\nimport { QClawClient } from \"qclaw-wechat-client\";\nimport type { WxLoginStateData, WxLoginData } from \"qclaw-wechat-client\";\nconst client = new QClawClient({ env: \"production\" });\n// Step 1 - get login state (CSRF token)\nconst stateRes = await client.getWxLoginState({ guid: \"machine-id\" });\nconst state = QClawClient.unwrap<WxLoginStateData>(stateRes)?.state;\n// Step 2 - show QR code to user\nconst qrUrl = client.buildWxLoginUrl(state!);\nconsole.log(\"Scan this:\", qrUrl);\n// Step 3 - exchange auth code (from WeChat redirect) for session\nconst loginRes = await client.wxLogin({ guid: \"machine-id\", code: authCode, state: state! });\n// Step 4 - build OpenClaw config patch\nconst channelToken = QClawClient.unwrap<WxLoginData>(loginRes)?.openclaw_channel_token;\nconst config = await client.buildPostLoginConfig(channelToken!);\n// -> { channels: { \"wechat-access\": { token } }, models: { providers: { qclaw: { apiKey } } } }\n```\n## Demo\nThe included example walks through the full WeChat login flow with an echo bot:\n```bash\npnpm de",
+   "photon-hq/advanced-imessage-kit": "<div align=\"center\">\n# Advanced iMessage Kit\n> A powerful TypeScript SDK for iMessage with real-time messaging support\n</div>\n[](https://www.typescriptlang.org/)\n[](./LICENSE)\n[](https://discord.gg/RSJUUHTV)\n> [!NOTE]\n> ✨ Looking for advanced features like threaded replies, tapbacks, message editing, unsending, live typing indicators? Try **[Photon Spectrum](https://photon.codes)**\n# ⚠️ Deprecated\nThis repository is no longer maintained.\n**Please use [Photon Spectrum](https://photon.codes) instead.**\n🌐 **Book a Demo:**  \nhttps://photon.codes\nIf you're looking for the **free/open-source version**, please use **[iMessage Kit](https://github.com/photon-hq/imessage-kit)** instead.\n## Features\n| Feature                                                    | Description                                   | Method                                       | Example                                                                         |\n| ---------------------------------------------------------- | --------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------- |\n| [Send Messages](#send-messages)                            | Send text messages to any contact             | `messages.sendMessage()`                     | [message-send.ts](./examples/message-send.ts)                                   |\n| [Reply to Messages](#send-messages)                        | Reply inline to a specific message            | `messages.sendMessage()`                     | [message-reply.ts](./examples/message-reply.ts)                                 |\n| [Message Effects](#send-messages)                          | Send with effects (confetti, fireworks, etc.) | `messages.sendMessage()`                     | [message-effects.ts](./examples/message-effects.ts)                             |\n| [Text Styles](#text-styles--animations)                    | Bold, italic, underline, strikethrough        | `messages.sendMessage()`                     | [message-styled.ts](./examples/message-styled.ts)                               |\n| [Text Animations](#text-styles--animations)                |"
+  }
+ },
+ "apps": []
+}

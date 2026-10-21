@@ -1,0 +1,636 @@
+{
+ "handle": "ninthbit_ai",
+ "sites": [
+  {
+   "url": "https://kieran.build",
+   "ok": true,
+   "title": "Kieran Zhang",
+   "description": "Welcome to my digital garden! Read more essays, project notes, photography, and practical engineering reflections from Kieran Zhang.",
+   "stack": [
+    "Astro v7.3.2",
+    "Astro",
+    "Tailwind CSS",
+    "Google Fonts",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "EN / ZH Toggle theme \nKieran Zhang \nSelected Writing \n2026 \n OpenAI's Official GPT Image 2.5 Prompting Guide, Unpacked 09-21 \n Beginner's Guide to End-to-End AI Short Film Production 09-11 \n When RAII Leaves Scope: A Programming Language Perspective on DSH Cordis 08-16 \n OKLCH: Turning Color into a Reasoned Parameter 08-01 \n Weekly #2: Hands-on with Raft and Building an Automated Content System 06-30 \n Weekly #1: Reflections on Indie Hacking and Agent Team Architecture 06-21 \n Pi Agent Configuration Guide: Crafting Your Custom AI Coding Assistant 05-30 \n Quantitative Trading Notes (Part 1) 04-20 View All → \nProjects \n Pace building The desktop GUI for the Pi coding agent: sessions, trajectories, token and cost truth, and extension-registered panels. Open project → \n Voily building Open-source macOS voice-to-text app that turns raw voice into refined text at your cursor. Open project → \n Pi Index shipped A curated list of Pi coding agent extensions, themes, skills and prompt templates, with a searchable companion site. Open project → \n SubWorth building An open benchmark measuring what AI coding subscriptions actually deliver, in dollars of equivalent API usage. Open project → \nClick a card to lift it. Click again to open the project.",
+   "github_links": [
+    "BubblePtr"
+   ],
+   "subpages": {
+    "https://kieran.build/blog": "EN / ZH Toggle theme \nBlog \nAlgorithms, I suppose, are this era's new superstition. People prostrate themselves before the temple of binary code — and forget that it all began, simply enough, with wanting to count a few pounds of cabbage. \n2026 \n OpenAI's Official GPT Image 2.5 Prompting Guide, Unpacked 09-21 \n Beginner's Guide to End-to-End AI Short Film Production 09-11 \n When RAII Leaves Scope: A Programming Language Perspective on DSH Cordis 08-16 \n OKLCH: Turning Color into a Reasoned Parameter 08-01 \n Weekly #2: Hands-on with Raft and Building an Automated Content System 06-30 \n Weekly #1: Reflections on Indie Hacking and Agent Team Architecture 06-21 \n Pi Agent Configuration Guide: Crafting Your Custom AI Coding Assistant 05-30 \n Quantitative Trading Notes (Part 1) 04-20 \n 4 Pitfalls of Agentic Engineering in Production 04-13 \n2025 \n 2025 Year-End Reflection 12-25 \n YouMind Content Creation SOP for WeChat Articles 12-13 \n Why Do We Set Out 12-04 \n The Magic of MDX: From Text to Interaction 11-25 \n Poor Charlie's Almanack: Wisdom Forged in Blood and Tears 11-22",
+    "https://kieran.build/about": "EN / ZH Toggle theme \nKieran Zhang \nAI-native indie developer · Nanjing, China \nBefore joining Huawei in 2022, I started out at a small company. The years since have mostly been about IDEs and developer tools — language services for a homegrown programming language, IDE integration and performance tuning for HarmonyOS, and bringing AI into mobile development, testing, ops, and troubleshooting. If the years taught me one thing, it is this: in software engineering, everything is a trade-off.\nIn 2026 I left to build my own products. Not out of disillusionment with big tech — just that in the AI era, what a single person can make has grown far beyond what it used to be.\nOff the clock I like taking problems apart the analytic-philosophy way, while leaning more and more on the practical, this-worldly side of Confucian thought. Writing is how I think things through — hence this place. \n GitHub Twitter Email RSS \nReading lately \n Tractatus Logico-Philosophicus · Ludwig Wittgenstein Where the line falls between what can be said and what cannot. \n The Book of Elon: A Guide to Purpose and Success · Eric Jorgenson Musk's mental models in his own words — reasoning from first principles, not another biography. \nAround me \nOff-screen, I carry a Nikon Z5 II around to shoot, with the odd game of Texas hold'em.",
+    "https://kieran.build/projects/": "EN / ZH Toggle theme \nProjects \nA pragmatist with an obsession for aesthetics — I strive to craft products that are both beautiful and functional, and document the practices and results here. \nPace building \nThe desktop GUI for the Pi coding agent: sessions, trajectories, token and cost truth, and extension-registered panels. \nMove at your own pace. \nPi is a terminal coding agent with a VS Code-style extension system: packages contribute tools, commands, skills, prompts and themes. Pace carries that flexibility to the desktop, so a developer can shape an agent client that is truly their own instead of renting one. \nPace is not a fork of Pi and not a second runtime. Pi's local session log stays the single source of truth; Pace only projects Pi's event stream into a journal and renders everything from it: the live chat, the Trajectory view of chain of thought and tool calls, and per-turn token and cost accounting. The backend runs in a separate Electron utility process, so heavy log parsing can never make the window stutter. \nElectron · React 19 · TypeScript · Bun · Pi SDK \n GitHub Website \nVoily building \nOpen-source macOS voice-to-text app that turns raw voice into refined text at your cursor. \nJust speak. We'll handle the rest. \nVoily is a voice input method for macOS: press one key, speak, and polished text lands wherever your cursor is. If you can type there, you can speak there — Slack, Cursor, Gmail, ChatGPT, any app that takes text. \nInstead of raw dictation, Voily runs your speech through an AI rewrite pipeline, so what lands is refined text rather than a literal transcript. It sits quietly in the menu bar, always ready behind a single hotkey. \nSwift · macOS · Sparkle \n GitHub Website \nPi Index shipped \nA curated list of Pi coding agent extensions, themes, skills and prompt templates, with a searchable companion site. \nMake Pi fit you. \nPi's package ecosystem grew past five thousand entries fast, and the official registry tells you what exists but not what is worth installing. Pi Index is the community-maintained shortlist: extensions, skills, themes and prompt templates, grouped by what they do, each with a one-line pitch and the install command. \nThe list lives as a plain README so anyone can send a pull request. The companion site renders the same data with category filters, search, and copy-to-install buttons, in English and Chinese. It is the most-starred repository I maintain and the entry point I hand to people who ask how to set up Pi. \nMarkdown · Astro · Vercel \n GitHub Website \nSubWorth building \nAn open benchmark measuring what AI coding subscriptions actually deliver, in dollars of equivalent API usage. \nCheck your sub's worth. \nProviders advertise subscriptions as \"5x Pro\" or \"20x Pro\" but never say how many dollars that is. SubWorth answers with numbers anyone can observe locally: a passive collector snapshots quota windows from the coding agent's own status line, prices the observed usage at the official API rate card, and d",
+    "https://kieran.build/blog/": "EN / ZH Toggle theme \nBlog \nAlgorithms, I suppose, are this era's new superstition. People prostrate themselves before the temple of binary code — and forget that it all began, simply enough, with wanting to count a few pounds of cabbage. \n2026 \n OpenAI's Official GPT Image 2.5 Prompting Guide, Unpacked 09-21 \n Beginner's Guide to End-to-End AI Short Film Production 09-11 \n When RAII Leaves Scope: A Programming Language Perspective on DSH Cordis 08-16 \n OKLCH: Turning Color into a Reasoned Parameter 08-01 \n Weekly #2: Hands-on with Raft and Building an Automated Content System 06-30 \n Weekly #1: Reflections on Indie Hacking and Agent Team Architecture 06-21 \n Pi Agent Configuration Guide: Crafting Your Custom AI Coding Assistant 05-30 \n Quantitative Trading Notes (Part 1) 04-20 \n 4 Pitfalls of Agentic Engineering in Production 04-13 \n2025 \n 2025 Year-End Reflection 12-25 \n YouMind Content Creation SOP for WeChat Articles 12-13 \n Why Do We Set Out 12-04 \n The Magic of MDX: From Text to Interaction 11-25 \n Poor Charlie's Almanack: Wisdom Forged in Blood and Tears 11-22",
+    "https://kieran.build/about/": "EN / ZH Toggle theme \nKieran Zhang \nAI-native indie developer · Nanjing, China \nBefore joining Huawei in 2022, I started out at a small company. The years since have mostly been about IDEs and developer tools — language services for a homegrown programming language, IDE integration and performance tuning for HarmonyOS, and bringing AI into mobile development, testing, ops, and troubleshooting. If the years taught me one thing, it is this: in software engineering, everything is a trade-off.\nIn 2026 I left to build my own products. Not out of disillusionment with big tech — just that in the AI era, what a single person can make has grown far beyond what it used to be.\nOff the clock I like taking problems apart the analytic-philosophy way, while leaning more and more on the practical, this-worldly side of Confucian thought. Writing is how I think things through — hence this place. \n GitHub Twitter Email RSS \nReading lately \n Tractatus Logico-Philosophicus · Ludwig Wittgenstein Where the line falls between what can be said and what cannot. \n The Book of Elon: A Guide to Purpose and Success · Eric Jorgenson Musk's mental models in his own words — reasoning from first principles, not another biography. \nAround me \nOff-screen, I carry a Nikon Z5 II around to shoot, with the odd game of Texas hold'em."
+   },
+   "feed": {
+    "url": "https://kieran.build/rss.xml",
+    "count_seen": 28,
+    "items": [
+     {
+      "title": "4 Pitfalls of Agentic Engineering in Production",
+      "date": "Mon, 13 Apr 2026 00:00:00",
+      "url": "https://kieran.build/blog/agentic-4-pitfalls/"
+     },
+     {
+      "title": "Beginner's Guide to End-to-End AI Short Film Production",
+      "date": "Fri, 11 Sep 2026 00:00:00",
+      "url": "https://kieran.build/blog/ai-short-film-guide/"
+     },
+     {
+      "title": "OpenAI's Official GPT Image 2.5 Prompting Guide, Unpacked",
+      "date": "Mon, 21 Sep 2026 00:00:00",
+      "url": "https://kieran.build/blog/gpt-image-2-5-prompting-guide/"
+     },
+     {
+      "title": "Weekly #1: Reflections on Indie Hacking and Agent Team Architecture",
+      "date": "Sun, 21 Jun 2026 00:00:00",
+      "url": "https://kieran.build/blog/indie-dev-weekly-01/"
+     },
+     {
+      "title": "Weekly #2: Hands-on with Raft and Building an Automated Content System",
+      "date": "Tue, 30 Jun 2026 00:00:00",
+      "url": "https://kieran.build/blog/indie-dev-weekly-02/"
+     },
+     {
+      "title": "2025 Year-End Reflection",
+      "date": "Thu, 25 Dec 2025 00:00:00",
+      "url": "https://kieran.build/blog/my-2025-summary/"
+     },
+     {
+      "title": "OKLCH: Turning Color into a Reasoned Parameter",
+      "date": "Sat, 01 Aug 2026 00:00:00",
+      "url": "https://kieran.build/blog/oklch-in-practice/"
+     },
+     {
+      "title": "Pi Agent Configuration Guide: Crafting Your Custom AI Coding Assistant",
+      "date": "Sat, 30 May 2026 00:00:00",
+      "url": "https://kieran.build/blog/pi-agent-config-guide/"
+     },
+     {
+      "title": "Poor Charlie's Almanack: Wisdom Forged in Blood and Tears",
+      "date": "Sat, 22 Nov 2025 00:00:00",
+      "url": "https://kieran.build/blog/poor-charlies-almanack/"
+     },
+     {
+      "title": "Quantitative Trading Notes (Part 1)",
+      "date": "Mon, 20 Apr 2026 00:00:00",
+      "url": "https://kieran.build/blog/quantitative-trading-notes-1/"
+     },
+     {
+      "title": "The Magic of MDX: From Text to Interaction",
+      "date": "Tue, 25 Nov 2025 00:00:00",
+      "url": "https://kieran.build/blog/using-mdx/"
+     },
+     {
+      "title": "When RAII Leaves Scope: A Programming Language Perspective on DSH Cordis",
+      "date": "Sun, 16 Aug 2026 00:00:00",
+      "url": "https://kieran.build/blog/when-raii-leaves-scope/"
+     },
+     {
+      "title": "Why Do We Set Out",
+      "date": "Thu, 04 Dec 2025 00:00:00",
+      "url": "https://kieran.build/blog/why-do-we-set-out/"
+     },
+     {
+      "title": "YouMind Content Creation SOP for WeChat Articles",
+      "date": "Sat, 13 Dec 2025 00:00:00",
+      "url": "https://kieran.build/blog/youmind-sop/"
+     },
+     {
+      "title": "Agentic 生产级工程实践的 4 个坑",
+      "date": "Mon, 13 Apr 2026 00:00:00",
+      "url": "https://kieran.build/zh/blog/agentic-4-pitfalls/"
+     },
+     {
+      "title": "AI 短片制作全流程小白入门教程",
+      "date": "Fri, 11 Sep 2026 00:00:00",
+      "url": "https://kieran.build/zh/blog/ai-short-film-guide/"
+     },
+     {
+      "title": "OpenAI 官方 GPT Image 2.5 提示词指南深度拆解",
+      "date": "Mon, 21 Sep 2026 00:00:00",
+      "url": "https://kieran.build/zh/blog/gpt-image-2-5-prompting-guide/"
+     },
+     {
+      "title": "周报 #1 独立产品开发和 Agent Team 的思考",
+      "date": "Sun, 21 Jun 2026 00:00:00",
+      "url": "https://kieran.build/zh/blog/indie-dev-weekly-01/"
+     },
+     {
+      "title": "周报 #2 深度体验 Raft 和搭建内容创作系统",
+      "date": "Tue, 30 Jun 2026 00:00:00",
+      "url": "https://kieran.build/zh/blog/indie-dev-weekly-02/"
+     },
+     {
+      "title": "2025 年终总结",
+      "date": "Thu, 25 Dec 2025 00:00:00",
+      "url": "https://kieran.build/zh/blog/my-2025-summary/"
+     },
+     {
+      "title": "OKLCH：把颜色变成可以推理的参数",
+      "date": "Sat, 01 Aug 2026 00:00:00",
+      "url": "https://kieran.build/zh/blog/oklch-in-practice/"
+     },
+     {
+      "title": "Pi Agent 配置指南：打造你的专属 AI 编程助手",
+      "date": "Sat, 30 May 2026 00:00:00",
+      "url": "https://kieran.build/zh/blog/pi-agent-config-guide/"
+     },
+     {
+      "title": "《穷查理宝典》：血泪铸就的智慧",
+      "date": "Sat, 22 Nov 2025 00:00:00",
+      "url": "https://kieran.build/zh/blog/poor-charlies-almanack/"
+     },
+     {
+      "title": "量化交易学习笔记一",
+      "date": "Mon, 20 Apr 2026 00:00:00",
+      "url": "https://kieran.build/zh/blog/quantitative-trading-notes-1/"
+     },
+     {
+      "title": "MDX 的魔法：从文本到交互",
+      "date": "Tue, 25 Nov 2025 00:00:00",
+      "url": "https://kieran.build/zh/blog/using-mdx/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://piindex.dev",
+   "ok": true,
+   "title": "Pi Index — A curated directory for Pi Coding Agent",
+   "description": "Discover community packages, themes, and tools for Pi Coding Agent. Browse by category, search in English or Chinese, and copy installation commands.",
+   "stack": [
+    "Astro",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Skip to resources \n π pi index \n THE COMMUNITY DIRECTORY \nMake Pi your own. \nDiscover packages, themes, and tools for Pi Coding Agent. Curated by the community, ready for your workflow. \n 179 resources \n 26 categories \nGuides to popular extensions \nCompare approaches and find the right extensions for your workflow. Browse all resources ↓ \n All resources 179 \n Packages 123 Web Access & Search 8 MCP Adapter 2 Subagents 9 UI Enhancement 12 Security & Permission 13 Dev Tools & Code Intelligence 11 Persistent Memory 6 Context Management 8 Loop Engineering 1 Code Review 5 Task Management 13 Plan Mode 1 Background Tasks 1 Browser Automation 4 Communication & Collaboration 5 Utilities 16 Package Collections 8 \n Themes 35 Dark Themes 14 Light Themes 3 Theme Packs 7 Featured Themes 8 Theme Tools 6 \n Editor integrations 3 Editor Integration 3 \n Built on Pi Durable 13 Built on Pi Durable 13 \n Clients & SDKs 4 Clients & SDKs 4 \n Distributions 1 Alternative Distributions 1 \n Open source. Community maintained. \n Search resources \n Browse by category All resources (179) Packages (123) Web Access & Search (8) MCP Adapter (2) Subagents (9) UI Enhancement (12) Security & Permission (13) Dev Tools & Code Intelligence (11) Persistent Memory (6) Context Management (8) Loop Engineering (1) Code Review (5) Task Management (13) Plan Mode (1) Background Tasks (1) Browser Automation (4) Communication & Collaboration (5) Utilities (16) Package Collections (8) Themes (35) Dark Themes (14) Light Themes (3) Theme Packs (7) Featured Themes (8) Theme Tools (6) Editor integrations (3) Editor Integration (3) Built on Pi Durable (13) Built on Pi Durable (13) Clients & SDKs (4) Clients & SDKs (4) Distributions (1) Alternative Distributions (1) \nAll resources 179 resources \n pi-web-access 1.7K 124.1K/wk ▼44% \nWeb search, URL fetching, PDF extraction and YouTube analysis. Keyless search defaults to Exa MCP with configured fallbacks; DuckDuckGo is explicit-only. \n Packages Web Access & Search \n Guide → View project \n $ pi install npm:pi-web-access Copy \n @juicesharp/rpiv-web-tools 904 2.5K/wk ▲1% \nPluggable web search (Brave, Tavily, Serper, Exa, Jina, Firecrawl, SearXNG, Ollama). \n Packages Web Access & Search \n $ pi install npm:@juicesharp/rpiv-web-tools Copy \n @ollama/pi-web-search 863/wk ▼62% \nOllama web search and fetch API integration. \n Packages Web Access & Search \n $ pi install npm:@ollama/pi-web-search Copy \n pi-smart-fetch 65 167/wk ▼68% \nDesktop browser TLS emulation, batch fetching, multi-format output (markdown/html/text/json). \n Packages Web Access & Search \n $ pi install npm:pi-smart-fetch Copy \n @narumitw/pi-firecrawl 702 316/wk ▼71% \nFirecrawl-powered web scraping, crawling, URL discovery, and web search. \n Packages Web Access & Search \n $ pi install npm:@narumitw/pi-firecrawl Copy \n @code-yeongyu/pi-webfetch 8 \nURL content fetching with markdown/plain text/raw HTML support. \n Packages Web Access & Search \n $ pi install git:github.com/code-yeongyu/pi-webfetch Copy \n @code-yeongyu/pi-websearch 14 \nProvider-backed web search with configuration gating and TUI status. \n Packages Web Access & Search \n $ pi install git:github.com/code-yeongyu/pi-websearch Copy \n webfox 91 49/wk ▼79% \nMulti-provider web search, page extraction, grounded answers and deep research as a CLI, library and Pi extension; the webfox/durable entry installs the same tools in a Pi Durable host. \n Packages Web Access & Search \n $ pi install npm:webfox Copy \n pi-mcp-adapter 1.6K 160.2K/wk ▼57% \nOn-demand MCP discovery and calls, lazy startup, metadata caching and optional direct tools. The author estimates ~200 tokens for the proxy definition, excluding discovery and call content. \n Packages MCP Adapter \n Guide → View project \n $ pi install npm:pi-mcp-adapter Copy \n pi-durabletask-mcp 13 51/wk ▼81% \nExternal MCP bridge maintained by Nyarlathoteppppp for Claude/Codex delegation to Pi, with steering, same-session follow-ups and optional SQLite restart recovery. Requires configured global Pi; not a Pi extension. \n Packages MCP Adapter \n $ npm install -g pi-durabletask-mcp Copy \n pi-subagents 4K 54.8K/wk ▼51% \nCommunity subagent extension maintained by Nico Bailon (nicobailon), with chain, parallel execution, and TUI clarification. \n Packages Subagents \n $ pi install npm:pi-subagents Copy \n @tintinweb/pi-subagents 1.3K 6.6K/wk ▼28% \nClaude Code-style subagents using host SDK sessions, with parallel background tasks, live widgets and optional Git worktree isolation. \n Packages Su",
+   "github_links": [
+    "BetterWright",
+    "BubblePtr",
+    "DevMortimer",
+    "ElieMessieCode",
+    "HazAT",
+    "Hypabolic",
+    "KamilPostrozny",
+    "MitoroMisaka",
+    "Nyarlathoteppppp",
+    "QuentinDanblon",
+    "QuintinShaw",
+    "TannerMidd",
+    "TheoOliveira",
+    "Thinkscape",
+    "Zetaphor",
+    "acolomba",
+    "acsezen",
+    "adstastic",
+    "alexshpunt",
+    "aliou",
+    "anasalqoyyum",
+    "antiburn",
+    "apmantza",
+    "botiverse",
+    "bubbleptr",
+    "can1357",
+    "carderne",
+    "cavaldos",
+    "championswimmer",
+    "chandra447",
+    "cheenulabs",
+    "chengyayu",
+    "cloudflare",
+    "code-yeongyu",
+    "codella",
+    "cosmyo",
+    "da-vinci-noob",
+    "daya0576",
+    "dbachelder",
+    "dingdinglz",
+    "dkmnx",
+    "duh17",
+    "fitchmultz",
+    "geminixiang",
+    "gintasz",
+    "gotgenes",
+    "harshil1712",
+    "hasit",
+    "heyhuynhgiabuu",
+    "j-koester",
+    "javierportillo",
+    "jayshah5696",
+    "jayzeng",
+    "jesset",
+    "jmfederico",
+    "jonjonrankin",
+    "juicesharp",
+    "kylebrodeur",
+    "leblancfg",
+    "m-rui001",
+    "markacianfrani",
+    "marv1nnnnn",
+    "mavam",
+    "michalvavra",
+    "milanglacier",
+    "mitsuhiko",
+    "mjasnikovs",
+    "monotykamary",
+    "narumiruna",
+    "nicobailon",
+    "ogulcancelik",
+    "powerfooI",
+    "prateekmedia",
+    "qddfxp",
+    "rivet-dev",
+    "robzolkos",
+    "safzanpirani",
+    "samfoy",
+    "saravananravi08",
+    "sfgartland",
+    "sherif-fanous",
+    "smoosex",
+    "spences10",
+    "svkozak",
+    "thruwire",
+    "timReynolds",
+    "tintinweb",
+    "tmdgusya",
+    "tomsej",
+    "tunnckoCore",
+    "victor-software-house",
+    "win4r",
+    "y0usaf",
+    "yylo-dev",
+    "zhexusun10"
+   ],
+   "subpages": {
+    "https://piindex.dev/talks/": "Skip to content \n π pi index \nPI CONVERSATIONS \nConversations with the people behind Pi \nFrom harnesses and workflows to code quality and changing models. Listen to what Mario and Armin are thinking about. \n 5 conversations About 74 minutes English transcripts · AI summaries \n ▶ 27:26 \n Oct 5, 2026 · Monday Meditations \n Pi Durable: why not Temporal or Effect? \nPi Coding Agent’s session model suits a person working with an agent. Pi Durable targets long-running, multiplayer agents with parallel branches that can suspend and resume across different execution environments. \n Pi Durable Temporal Effect Watch conversation → \n ▶ 24:26 \n Sep 28, 2026 · Monday Meditations \n When models change, should Pi change too? \nThey observe newer models preferring Bash and Python over dedicated edit tools, affecting error feedback, diff presentation and the user’s visibility into execution. \n Models Harness Watch conversation → \n ▶ 6:14 \n Sep 20, 2026 · Sunday Meditations \n Why agent engineering is harder than it looks \nArmin reflects on eighteen months of agent tools: model capabilities have improved, while trust, quality and understanding remain difficult engineering problems. \n Engineering Workflow Watch conversation → \n ▶ 13:21 \n Sep 13, 2026 · Sunday Meditations \n Slippery slop: code quality and control \nThey argue that excessive generated code consumes limited context and compounds quality problems. Critical infrastructure, interfaces and types still need human control even when not every implementation deserves line-by-line attention. \n Code quality Astra Watch conversation → \n ▶ 2:20 \n Sep 6, 2026 · Sunday Meditations \n Change the harness, keep your workflow \nDifferent working habits motivate a customizable harness. Pi extensions can be written and reloaded in the current session, with immediate feedback guiding the next revision. \n Harness Workflow Watch conversation →",
+    "https://piindex.dev/about/": "Skip to content \n π pi index \nAbout Pi Index \nKieran maintains Pi Index, an independent directory of Pi Coding Agent packages. It is not affiliated with Pi. Corrections go through GitHub issues. \nWho maintains it \nKieran maintains the site and the public list. The GitHub account is bubbleptr, and the list lives in the awesome-pi repository. There is no contact email. Additions and corrections go through issues on that repository. \n Kieran on GitHub ↗ \n Kieran on X ↗ \n awesome-pi repository ↗ \nWhat is listed \nThe directory is the bilingual list in the repository. Each entry has a name, a link, an English description, a Chinese description, and an install command when the project publishes one. The site does not build if a translation is missing or the install commands disagree. \nA few packages, categories, and topics also have a guide. A guide is a source review pinned to a version and a commit, not a second copy of the directory line. The check itself is described in How we pick and verify . \nNot part of Pi \n Pi is the terminal coding harness published by earendil-works. Pi Index is a separate directory. A listing is not an official Pi release and is not an endorsement. \nSubmit or correct \nOpen a GitHub issue to add a resource, fix a description, or challenge a guide. Pull requests that follow the list format are welcome too. Issues are the contact channel. \n Open an issue ↗"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://pinomad.si",
+   "ok": true,
+   "title": "PiNomad — the durable coding agent for your own machine",
+   "description": "PiNomad is a self-hosted coding agent built on Pi Durable. It checkpoints every model and tool call, so a crash or restart picks up where it stopped; the Mac app, the web client, and the iPhone app all attach to the same runs.",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Skip to content \n PiNomad \nThe durable coding agent for your own machine. \n PiNomad runs on your machine, with that machine's shell and repos, and checkpoints every\n model and tool call. If the host crashes or restarts, the run picks up where it stopped.\n The Mac app, the web client, and the iPhone app all attach to the same runs.\n Get started \n View on GitHub \n Use any model pi supports \nAnthropic \nOpenAI \nGoogle \nDeepSeek \nxAI \nMistral \nQwen \nKimi \nZ.AI \nMiniMax \nOpenRouter \nGitHub Copilot \n17 more \nAny screen \nStep away from your desk \n Start a task at your desk, then check on it or steer it from your phone. Devices pair\n with a one-time QR code and talk to the host over an end-to-end encrypted channel.\n Direct over your LAN or tailnet \n Relay that only sees ciphertext \n Screenshot coming: the same run on iPhone. \nDurable runs \nRuns survive crashes and restarts \n Pi Durable writes a checkpoint after every model call and tool call. After a restart\n the run continues from the last one; only the call that was in flight runs again.\n A run drawn as a track of model and tool calls. Each finished call plants a flag. The\n host crashes between two calls; after the restart the run continues from the last\n flag, and only the half-finished call is redone.\n Start a run \nFeatures \nWhat the agent can do \nThe agent has pi's four tools (read, bash, edit, write), plus: \nA worktree for every conversation \n In a Git repo each conversation works in its own worktree and branch, so your\n checkout stays untouched.\nQuestions, not approvals \n Tools run without approval prompts. When the direction is unclear, the agent asks\n one to four multiple-choice questions.\nSubagents and named agents \n Hand self-contained tasks to subagents that run in parallel, or delegate to a\n reusable role with an @name mention, optionally pinning its model and\n thinking level.\nAnd also \n Forks \n Branch off from a message and keep both lines going. \n codemode \n The model writes JavaScript that calls other tools in a QuickJS sandbox; only the script's output enters the context. \n MCP \n Servers configured in ~/.agents/mcp.json , in the usual mcpServers format. \n Images \n Paste, drop, or pick up to 4 images per message in the web and desktop composer. \n AGENTS.md and skills \n Reads AGENTS.md / CLAUDE.md and skills from ~/.agents and the project, on every request. \nClients \nPick up the same run anywhere \nWeb \n Open app.pinomad.si , or the web client your\n host serves itself ( pinomad link ). Any modern browser.\nmacOS \n Signed DMG from\n GitHub Releases ;\n updates itself.\n Apple silicon \niOS \nPairs with your host by scanning a one-time QR code. \n Internal TestFlight only for now \nLinux, Windows \nUse the web client. \nQuick start \nInstall, start the host, open a client \nThe host needs Node 25+ on macOS or Linux. \n pinomad host uses the models and credentials you set up in pi\n ( ~/.pi/agent ). Haven't set up pi yet? pinomad host --faux \"hi\" \n runs a scripted fake model so you can click around.\n It's early. Pi Durable is itself experimental, and the host and its clients must\n speak the same protocol major version.\n Terminal \n Copy \n npm i -g pinomad\npinomad host # uses the models and credentials set up in pi \npinomad link # in another terminal: prints a web client link \nStart a run. Walk away. \nFree and open source. It runs on your hardware, with your model credentials. \n Get started \n Star on GitHub\nIf PiNomad is useful to you, a star helps other people find it.",
+   "github_links": [
+    "bubbleptr"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "BubblePtr",
+  "user": {
+   "name": "Kieran",
+   "company": null,
+   "blog": "kieran.build",
+   "location": null,
+   "bio": "天行健，君子以自强不息",
+   "public_repos": 59,
+   "followers": 13,
+   "created_at": "2022-03-24T00:44:49Z",
+   "twitter_username": "ninthbit_ai",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "bubbleptr/awesome-pi",
+    "description": "😎 Awesome Pi - A curated list of Pi Coding Agent extensions, themes, skills, prompt templates, and community resources.",
+    "stargazers_count": 141,
+    "forks_count": 26,
+    "language": "TypeScript",
+    "homepage": "https://piindex.dev",
+    "created_at": "2026-05-30T11:55:01Z",
+    "pushed_at": "2026-10-19T07:53:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/pinomad",
+    "description": "Coding-first agent product built on Pi Durable: self-hosted host, multi-client UI",
+    "stargazers_count": 34,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-10-04T11:46:33Z",
+    "pushed_at": "2026-10-21T12:57:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/dureview",
+    "description": "Self-hosted AI pull request review bot on Pi Durable. Comment /dureview to get P0–P3 inline findings and a check run, using your own ChatGPT subscription or API keys.",
+    "stargazers_count": 31,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-10-12T15:48:15Z",
+    "pushed_at": "2026-10-20T14:42:38Z",
+    "topics": [
+     "ai-code-review",
+     "chatgpt",
+     "code-review",
+     "durable-execution",
+     "github-app",
+     "llm",
+     "pi",
+     "pull-requests",
+     "self-hosted",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/ghostty",
+    "description": "ghostty config",
+    "stargazers_count": 26,
+    "forks_count": 1,
+    "language": "GLSL",
+    "homepage": null,
+    "created_at": "2025-07-22T15:10:48Z",
+    "pushed_at": "2026-08-16T12:14:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/pace",
+    "description": "Pace — the GUI for the Pi coding agent. Pi's extensibility, on a screen: sessions, trajectories, cost and token truth, and extension-registered surfaces. Electron + React.",
+    "stargazers_count": 20,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-06-20T08:03:53Z",
+    "pushed_at": "2026-10-19T14:08:25Z",
+    "topics": [
+     "electron",
+     "pi-agent",
+     "pi-coding-agent"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/dsh-holdem",
+    "description": "Six-max No-Limit Hold'em for DeepSeek Harness: one human and five LLM agents.",
+    "stargazers_count": 8,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-08-20T09:15:09Z",
+    "pushed_at": "2026-10-11T13:46:33Z",
+    "topics": [
+     "deepseek-harness",
+     "dsh-plugin",
+     "poker",
+     "texas-holdem"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/AutoLife",
+    "description": "基于 AutoGLM 的生活智能助手",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2025-12-19T09:45:35Z",
+    "pushed_at": "2025-12-24T05:46:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/ZenBlog",
+    "description": "ZenBlog - Astro/Tailwind 个人博客",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://kieran.build",
+    "created_at": "2025-11-20T18:08:38Z",
+    "pushed_at": "2026-09-21T18:16:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/cantongqi",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-03-10T10:03:10Z",
+    "pushed_at": "2026-03-10T10:54:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/imgtoss",
+    "description": "一款基于 Next.js + Tauri 2 构建的跨平台桌面应用，专为自动化上传图像至对象存储服务而设计",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2025-09-02T06:02:59Z",
+    "pushed_at": "2025-09-10T07:51:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/openvinci",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2026-08-21T07:05:12Z",
+    "pushed_at": "2026-09-10T12:51:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/Voily",
+    "description": "Open-source macOS voice-to-text app that turns raw voice into refined text at your cursor.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "https://voily.pages.dev",
+    "created_at": "2026-04-01T11:58:21Z",
+    "pushed_at": "2026-06-23T13:13:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/BubblePtr",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2025-03-25T03:08:41Z",
+    "pushed_at": "2026-08-12T06:13:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/concerto",
+    "description": "OpenAI Symphony 的 Rust 开源版本",
+    "stargazers_count": 1,
+    "forks_count": 3,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2026-03-12T06:22:05Z",
+    "pushed_at": "2026-05-01T10:09:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/GodVim",
+    "description": "A simple nvim configuration",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2023-03-22T15:32:18Z",
+    "pushed_at": "2023-08-27T06:05:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/harmony-tools",
+    "description": "MCP service that wraps HarmonyOS hdc commands",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2025-11-17T04:00:11Z",
+    "pushed_at": "2025-11-17T12:44:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/jsonrpc4cj",
+    "description": "A complete, type-safe JSON-RPC 2.0 protocol library implementation written in the Cangjie programming language, supporting requests, responses, notifications, and batch operations.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-08-10T16:54:42Z",
+    "pushed_at": "2025-08-10T16:55:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bubbleptr/TrustSkill",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-01-13T11:53:58Z",
+    "pushed_at": "2026-01-15T03:13:53Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 45,
+  "languages": [
+   [
+    "TypeScript",
+    16
+   ],
+   [
+    "JavaScript",
+    5
+   ],
+   [
+    "Python",
+    5
+   ],
+   [
+    "Swift",
+    3
+   ],
+   [
+    "Rust",
+    3
+   ],
+   [
+    "Lua",
+    3
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "GLSL",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "bubbleptr/Voily",
+    "stargazerCount": 2,
+    "description": "Open-source macOS voice-to-text app that turns raw voice into refined text at your cursor.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://voily.pages.dev"
+   },
+   {
+    "nameWithOwner": "bubbleptr/pace",
+    "stargazerCount": 20,
+    "description": "Pace — the GUI for the Pi coding agent. Pi's extensibility, on a screen: sessions, trajectories, cost and token truth, and extension-registered surfaces. Electron + React.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "bubbleptr/awesome-pi",
+    "stargazerCount": 141,
+    "description": "😎 Awesome Pi - A curated list of Pi Coding Agent extensions, themes, skills, prompt templates, and community resources.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://piindex.dev"
+   },
+   {
+    "nameWithOwner": "bubbleptr/dsh-holdem",
+    "stargazerCount": 8,
+    "description": "Six-max No-Limit Hold'em for DeepSeek Harness: one human and five LLM agents.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 3386,
+  "orgs": [],
+  "profile_readme": "<div align=\"center\">\n\n<img src=\"assets/banner.svg\" alt=\"Kieran — Build useful things. Share what works. Keep compounding.\" width=\"100%\" />\n\n**[kieran.build](https://kieran.build)** · [𝕏 @ninthbit_ai](https://twitter.com/ninthbit_ai) · [oldmeatovo@gmail.com](mailto:oldmeatovo@gmail.com)\n\n</div>\n\nFull-stack AI indie hacker · former developer-tools engineer at Big Tech.\n\nI build at the intersection of AI and developer tooling — agents, automation, voice, and open source. Full-time indie since June 2026.\n\n## Featured Projects\n\n| Project | Description |\n| --- | --- |\n| [**awesome-pi**](https://github.com/BubblePtr/awesome-pi) ![GitHub stars](https://img.shields.io/github/stars/BubblePtr/awesome-pi?style=flat-square&label=%E2%AD%90&color=8b949e) | Curated list of Pi Coding Agent extensions, themes, skills, and community resources |\n| [**PiGUI**](https://github.com/BubblePtr/PiGUI) | The missing GUI for the Pi coding agent — session replay, traces, cost truth. Electron + React |\n| [**Voily**](https://github.com/BubblePtr/Voily) | Native macOS voice dictation app with local MLX-powered ASR |\n| [**AgentHuntify**](https://github.com/BubblePtr/AgentHuntify) | AI Agent technology directory — Bun, TanStack Start, Cloudflare Workers |\n| [**LawTriage**](https://github.com/BubblePtr/LawTriage) | AI-powered outbound triage demo for law firms — real-time voice agent with OpenAI ASR/LLM/TTS |\n| [**concerto**](https://github.com/BubblePtr/concerto) | Open-source Rust port of OpenAI's Symphony |\n| [**gtrboard**](https://github.com/BubblePtr/gtrboard) | AI-native content curation workbench — discover & evaluate GitHub Trending projects with LLMs |\n| [**MindBack**](https://github.com/BubblePtr/MindBack) | Open-source attention tracker — Rust + Tauri |\n| [**VibeBar**](https://github.com/BubblePtr/VibeBar) | Native macOS menu bar app to track AI coding tool usage |\n\n## Upstream Contributions\n\n- [**facebook/astryx**](https://github.com/facebook/astryx) — three confirmed UI bugs with minimal reproductions ([#4830](https://github.com/facebook/astryx/issues/4830), [#4833](https://github.com/facebook/astryx/issues/4833), [#4834](https://github.com/facebook/astryx/issues/4834)), all fixed upstream within days\n\n## Current Focus\n\n- 🚀 Shipping AI-native products and tools, full-time\n- 🧩 Building [PiGUI](https://github.com/BubblePtr/PiGUI) in the open, together with the Pi community\n- 🎬 Daily short-form videos recommending open source projects on X\n- ✍️ Writing about AI engineering, indie dev, and systems thinking at [kieran.build](https://kieran.build)\n- 🧪 Experimenting with multi-agent collaboration, voice agents, and LLM observability\n\n## Tech Stack\n\n<!-- TECH_STACK_START -->\n_GitHub Linguist bytes from active repositories · refreshed 2026-08-12._\n\n| Language | Share | Key Repos |\n| --- | ---: | --- |\n| TypeScript | 60.7% | PiGUI, AgentHuntify, LawTriage, gtrboard |\n| Swift | 21.3% | Voily, VibeBar |\n| Rust | 7.1% | concerto, MindBack |\n| CSS | 4.4% | AgentHuntify, Voily, PiGUI",
+  "readmes": {
+   "bubbleptr/Voily": "<p align=\"center\">\n</p>\n<h1 align=\"center\">Voily</h1>\n<p align=\"center\">\n  <b>Just speak — we'll do the rest.</b>\n</p>\n<p align=\"center\">\n  <a href=\"./README_CN.md\">简中</a>\n</p>\n<p align=\"center\">\n</p>\n<p align=\"center\">\n</p>\n<!-- TODO: swap in a ~5s demo GIF once recorded — trigger key -> speak ->\n     overlay transcribes -> text lands at the cursor. Save it as\n     assets/screenshots/demo.gif and replace the hero  above. -->\n---\nVoily is an open-source, AI-powered voice input tool for macOS. Press a key, speak naturally, and your words land at the cursor — in any app. It does more than transcribe: an optional LLM cleans up filler, polishes your phrasing, or translates Chinese to English on the fly. The built-in engine runs fully on-device with no API key and no cost; cloud engines are there when you want higher accuracy. One key does it all.\n## Why Voily\n- **Speak faster than you type** — press the trigger key, talk, and text appears right at your cursor: email, editor, chat, terminal, any text field.\n- **Local-first and private** — the built-in SenseVoice engine runs entirely on-device, with no network calls, no API key, and no per-request cost.\n- **Translate on the same key** — long-press, speak Chinese, get English at the cursor. No mode switch, no second app.\n- **Optional AI polish** — let an LLM strip filler words, rewrite into a formal register, or turn dictated steps into a numbered list.\n- **Stays out of your way** — lives in the menu bar, no Dock icon by default, and mutes system audio while recording to prevent feedback.\n- **Works where keystrokes fail** — text is injected through the system pasteboard, so it lands reliably in sandboxed apps, password fields, and remote desktops.\n- **Open source and pluggable** — Apache 2.0, with five ASR engines behind one shared pipeline.\n## How It Works\nPress the trigger key to start recording. Voily captures the microphone, streams audio to a speech recognition engine, optionally refines the result with an LLM, and pastes the final text at your cursor. A floating overlay shows every step — recording, transcribing, refining, injecting — so you always know what's happening.\n## Quick Start\n### Download\nGet the latest",
+   "bubbleptr/pace": "<p align=\"center\">\n</p>\n<h1 align=\"center\">Pace</h1>\n<p align=\"center\">The desktop GUI for the <a href=\"https://pi.dev\">Pi coding agent</a>. Pi's design and flexibility, carried to the desktop.</p>\n<p align=\"center\">English | <a href=\"README.zh-CN.md\">简体中文</a></p>\n<p align=\"center\">\n  <a href=\"https://github.com/BubblePtr/pace/releases/latest\"></a>\n  <a href=\"https://github.com/BubblePtr/pace/releases/latest\"></a>\n  <a href=\"https://github.com/BubblePtr/pace/actions\"></a>\n  <a href=\"LICENSE\"></a>\n</p>\nPi is a coding agent that runs in the terminal, extensible in the spirit of VS Code: packages contribute tools, commands, skills, prompts and themes. Pace brings that flexibility to the desktop, so you can shape a desktop agent that is truly your own. The name comes from *move at your own pace*: developers should keep full ownership of their agent and set their own rhythm.\n> [!NOTE]\n> Pace is in early `0.y.z` development. Only the latest version on GitHub Releases is supported. Journal and projection formats may change between minor versions; the in-app updater handles upgrades. Pi's session data is unaffected (see [Local data and recovery](#local-data-and-recovery)).\n<p align=\"center\">\n</p>\n## Highlights\n- **Session timeline**: follow the agent's chain of thought and tool calls in order, with token usage and cost for every turn. Watch a run live, or replay a recorded session to see what each step did and what it cost.\n- **Session Dock**: Changes, Files, Terminal and an embedded Browser share one sidebar next to the conversation.\n- **Your Pi setup, as is**: Pace shares the sessions, auth and extensions under `~/.pi/agent`, and the Packages page manages Pi packages without leaving the app.\n- **Pi remains the only engine**: Pace is not a fork of Pi or a separate runtime. Pi's local logs stay the source of truth; uninstalling Pace never deletes a Pi session.\n## When Pace is not a fit\n- You use Pi in the terminal and do not need a graphical view of cost, chain of thought or tool calls.\n- You are on Windows or an Intel Mac. Installers exist for Apple Silicon Macs and 64-bit Linux only.\n- You want an agent client that does not depend on Pi. Pace has no agent loop of its ",
+   "bubbleptr/awesome-pi": "[English](./README.en.md) | 中文\n# Awesome Pi [](https://awesome.re)\n[浏览网站](https://piindex.dev/zh/) · 按分类搜索资源、阅读介绍并复制安装命令。\n> 社区维护的 [Pi Coding Agent](https://pi.dev) Package 精选列表。Pi 是由 earendil-works 开发的终端 AI 编程助手，拥有丰富的 Package 生态。本列表收录的扩展、技能和主题主要由社区作者发布，收录不代表 Pi 官方发布或背书。\n[](https://piindex.dev/zh/?utm_source=github&utm_medium=referral&utm_campaign=readme&utm_content=badge-zh)\n[](https://pi.dev)\n[](https://pi.dev/packages)\n[](https://creativecommons.org/publicdomain/zero/1.0/)\n[Pi Coding Agent](https://pi.dev) 是一个 AI Coding Harness 框架，其 Package 机制支持扩展（Extensions）、技能（Skills）、主题（Themes）和提示词模板（Prompt Templates）。本列表精选社区 Package，帮助开发者打造高效的 AI 编程环境。\n```\n# 安装 Pi 核心 CLI\ncurl -fsSL https://pi.dev/install.sh | sh\n# 安装社区 Package（示例）\npi install npm:context-mode\n# 查看已安装的 Pi Package\npi list\n```\n---\n## Contents\n- [Packages](#packages)\n  - [Web Access & Search](#web-access--search)\n  - [MCP Adapter](#mcp-adapter)\n  - [Subagents](#subagents)\n  - [UI Enhancement](#ui-enhancement)\n  - [Security & Permission](#security--permission)\n  - [Dev Tools & Code Intelligence](#dev-tools--code-intelligence)\n  - [Persistent Memory](#persistent-memory)\n  - [Context Management](#context-management)\n  - [Loop Engineering](#loop-engineering)\n  - [Code Review](#code-review)\n  - [Task Management](#task-management)\n  - [Plan Mode](#plan-mode)\n  - [Background Tasks](#background-tasks)\n  - [Browser Automation](#browser-automation)\n  - [Communication & Collaboration](#communication--collaboration)\n  - [Utilities](#utilities)\n  - [Package Collections](#package-collections)\n- [Themes](#themes)\n  - [Dark Themes](#dark-themes)\n  - [Light Themes](#light-themes)\n  - [Theme Packs](#theme-packs)\n  - [Featured Themes](#featured-themes)\n  - [Theme Tools](#theme-tools)\n- [Editor Integration](#editor-integration)\n- [Built on Pi Durable](#built-on-pi-durable)\n- [Clients & SDKs](#clients--sdks)\n- [Alternative Distributions](#alternative-distributions)\n---\n## Packages\n> **包名与来源**：`npm:` 仅表示从 npm 安装；`name` 和 `@scope/name` 都可以是社区包名。`@scope` 是 npm 命名空间，有无 scope 都不能作为 Pi 官方身份的判断依据。请按各项目提供的完整包名安装，并核对发布者和源码仓库。参见 [npm scope 说明](https://docs.npmjs.com/about-scopes/)。\n>\n> [pi.dev/packages](https://pi.dev/packages) 是生态包目录，收录不代表 ",
+   "bubbleptr/dsh-holdem": "# dsh-holdem\n无限注德州扑克：**1 名玩家 + 5 位 LLM 智能体**。装上后，Web GUI 中间栏会出现「德州扑克」Tab，\n会话区域还会浮着一个可拖动、可收起的小窗。\n智能体只能看见自己的底牌；桌边闲话是中文，不会泄露推理或手牌。\n## 安装\n### 桌面版\n桌面版（DeepSeek Harness.app）自带一套 dsh CLI，装到它自己的 `desktop` profile：\n```sh\n\"/Applications/DeepSeek Harness.app/Contents/Resources/runtime/cli/bin/dsh\" plugin --profile desktop add dsh-holdem\n```\n装完桌面版会热重载 profile 并把新的客户端模块推给页面，通常不用重启；如果「德州扑克」Tab 没出现，退出重开桌面版。\n### Web\n```sh\ndsh plugin --profile web add dsh-holdem\ndsh --profile web\n```\n装的是 npm 上的预构建包，不用 clone、不用 build、不用 `allowBuilds`。\n卸载（把 profile 与 CLI 换成对应的一套）：\n```sh\ndsh plugin --profile web remove dsh-holdem\n```\n## 开发\n```sh\npnpm install\npnpm build\n```\n| 文件 | 作用 |\n| --- | --- |\n| `src/host.js` | Node 半区：牌局引擎 + `/dsh-holdem/*` JSON API；缺模型时回退启发式机器人 |\n| `src/client.cjs` | 浏览器半区：`conversation.view` Tab + `shell.overlay` 悬浮小窗 |\n| `cordis.patch.yml` | 往 web 组合插入本包 |\n改 Host 后需要重启 `dsh --profile web`。改 Client 后重新 `pnpm build`、刷新页面。\n## 下注尺度\n`legalFor` 的 `maxRaiseTo` 是**智能体的全部筹码**，所以直接把合法区间丢给模型会出事：\n模型常在区间里挑一个\"看起来挺大\"的数，于是每次加注都静默变成全下（上游修过同一类问题的\n客户端版本，见 `f90bd7e`）。现在 host 侧统一按底池给尺度：\n- prompt 里给的是**底池倍数**区间 `minRaiseTo – currentBet + 3 × 底池`，并单独列出 `allin`\n  作为\"整副筹码\"的显式选项，不再是加注区间的上界。\n- 非 `allin` 的加注一律过 `clampRaise`（`src/bets.js`）：落在 `[minRaiseTo, 上限]` 内。\n  只有显式选 `allin` 才会推光；底池已经很大时上限自然超过筹码，那时\"合法加注就是全下\"仍然成立。\n- 启发式兜底 `decideAi` 的额度也走同一条钳制——它原先会算出超过自己筹码的加注额，在 LLM\n  报错的回退路径上绕过 `normalizeChoice`，等于意外推光。\n规则与边界都在 `test/bets.test.mjs`（纯函数）和 `test/ai-sizing.test.mjs`（stub 掉 llm 服务、\n离线跑完整 AI 决策链路）里钉住。\n## 买入与出局\n每人起始 200 万，**外加 3 次买入**（也就是 4 条命）。筹码输光后：\n- 下一手开始前自动补回 200 万，日志写明「重新买入 2000000（第 N/3 次）」；\n- 3 次用完后再破产就**出局**：bot 坐观退场，不再发牌、不再被收盲注、不再参与行动；\n- 你出局则本局结束（`status: 'game-over'`），界面显示结束横幅，只能 `Reset` 再开一桌；\n- 桌面上只剩一名玩家时同样结束（等于打通关）。\n界面上每个玩家行、每个座位都会显示「买入 N/3」，出局者额外标「出局」并置灰。\n出局座位会被盲注与庄家轮转跳过；桌上只剩两人时按单挑规则，**按钮位下小盲**。\n这条规则的动机是上游原来是**无限买入**：任何人（包括你）输光都会在下一手被无条件补回\n200 万，既无人能出局，全下也就没有任何后果。规则本身是纯函数 `src/table-rules.js`\n（`rebuyDecision` / `blindSeats`），单测见 `test/table-rules.test.mjs`；引擎接线与出局座位\n的不变量由 `test/rebuys.test.mjs` 覆盖（含一个固定随机种子的「我方四条命耗尽」端到端用例）。\n## 亮牌与翻牌动效\n一手结束后看得到赢家的底牌：\n- **摊牌**：所有没弃牌的人亮牌（弃牌者仍是背面）；\n- **无人跟注**：只亮赢家那两张，其余人一律保持隐藏——一手进行中机器人的底牌永远不会下发到\n  客户端，这条防泄牌约束由 `test/reveal.test.mjs` 钉住（含「过牌到底必摊牌」「全弃牌只剩赢家\n  ",
+   "bubbleptr/pinomad": "# PiNomad\nEnglish · [中文](README.zh-CN.md) · [pinomad.si](https://pinomad.si)\nA self-hosted coding agent built on [Pi Durable](https://www.npmjs.com/package/@earendil-works/pi-durable). The agent runs on your own machine; the Mac app, the web client, and the iPhone app all attach to the same runs.\n<sub>One run, three clients: Mac app (left), iPhone via iPhone Mirroring (center), web (right). The host is a Linux box on the same tailnet.</sub>\n- **Your machine does the work.** The host runs on a Mac mini, a Linux box, or a VPS, and the agent uses that machine's shell and repositories.\n- **Runs survive crashes and restarts.** Pi Durable checkpoints every model call and tool call, so a restarted host picks up where it stopped.\n- **Clients are just windows.** Start a task at your desk, then check on it or steer it from your phone. Devices pair with a one-time QR code and talk to the host over an end-to-end encrypted channel: directly on your LAN or tailnet, or through a relay that only sees ciphertext.\n> **Status:** early and moving fast. Pi Durable is itself experimental, and the host and its clients must speak the same protocol major version.\n## Quick start\nThe host needs Node 25+ on macOS or Linux.\n```sh\nnpm i -g pinomad\npinomad host        # uses the models and credentials you set up in pi (~/.pi/agent)\npinomad link        # in another terminal: prints a browser link to the web client\n```\nHaven't set up pi yet? `pinomad host --faux \"hi\"` runs a scripted fake model so you can click around.\n## Connect your other devices\nOpen a port for paired devices, then pair each device with its own QR code:\n```sh\npinomad host --remote-port 7422\npinomad pair        # one-time QR code and link, expires after 5 minutes\n```\nScan the code with the iPhone app, or paste the link into the Mac app. The remote port accepts paired devices only; revoke them under Settings → Devices.\nThe pairing link uses the LAN address the host detects. On a tailnet or behind a tunnel, add `--public-url http://<tailnet-ip>:7422` so the link points there. To reach a host at home from anywhere, run the relay on a VPS: see [Remote access](docs/remote-access.md).\n## Keep it running\nInstall the host as a user s"
+  }
+ },
+ "apps": []
+}

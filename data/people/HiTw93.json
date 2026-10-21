@@ -1,223 +1,245 @@
 {
  "name": "Tw93",
  "role": "产品工程师 · 开源作者 · 写作者",
- "title": "Tw93：在<em>长假里</em>造出一个开源家庭",
- "dek": "Pake、Mole、MiaoYan、Kaku、Waza、Kami……一个杭州前端工程师，每逢春节、国庆就写一个新项目，十年下来攒出了十几万 GitHub 星，也写了近六年的《潮流周刊》。",
- "card": "Pake、Mole、妙言的作者，《潮流周刊》主理人，长假造物的杭州产品工程师。",
+ "title": "Tw93：在长假里造出一个<em>开源家庭</em>",
+ "dek": "Pake、MiaoYan、Mole、Kaku、Waza、Kami……一位杭州的产品工程师，每逢春节、国庆就写一个新项目，十年下来攒出 18 万 GitHub 星；周刊写到第 286 期；2025 年在三亚泳池边写的几百行 Shell，变成了 7 万星的 Mole 和 TA 的第一个付费产品。",
+ "card": "Pake、Mole、MiaoYan、Kaku、Kami 的作者，GitHub 累计 18 万星；《潮流周刊》写了近六年。",
  "location": "中国杭州",
- "tags": [
-  "Rust",
-  "Swift",
-  "macOS",
-  "前端",
-  "周刊"
- ],
+ "updated": "2026-10-21",
+ "tags": ["开源", "Rust / Swift / Shell", "macOS", "AI Coding", "写作"],
  "links": [
-  {
-   "label": "博客 tw93.fun",
-   "url": "https://tw93.fun"
-  },
-  {
-   "label": "潮流周刊",
-   "url": "https://weekly.tw93.fun"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/tw93"
-  },
-  {
-   "label": "Mole",
-   "url": "https://mole.fit"
-  }
+  {"label": "tw93.fun", "url": "https://tw93.fun"},
+  {"label": "潮流周刊", "url": "https://weekly.tw93.fun"},
+  {"label": "Mole", "url": "https://mole.fit"},
+  {"label": "GitHub", "url": "https://github.com/tw93"}
  ],
  "summary": [
-  "<strong>一句话：</strong>来自杭州的产品工程师，前端出身，会一点 Swift、Rust、Python 和设计，专做「简洁好用的小工具」。",
-  "<strong>代表作：</strong>Mole（Mac/PC 清理，★7 万+）、Pake（一行命令把网页打包成桌面应用，★6 万+）、妙言 MiaoYan（原生 Markdown 写作）、XRender（阿里开源表单方案）。",
-  "<strong>TA 的信条：</strong>GitHub 简介只有一句——「Anything added dilutes everything else.」（任何多余的东西都会稀释其余一切。）"
+  "<strong>一句话：</strong>来自杭州的产品工程师，「做简洁好用的小工具让生活更简单」。前端出身，在阿里做过 Weex、XRender 和 iOS 业务，后来用 Rust、Swift、Shell 做出一串中文开发者圈最知名的开源工具。",
+  "<strong>代表作：</strong>Mole（Mac 清理与系统工具，★7.2 万）、Pake（一条命令把网页变桌面应用，★6.2 万）、Kami（让 Agent 输出精美文档，★1.2 万）、MiaoYan 妙言（★8.7 千）、Waza、Kaku。",
+  "<strong>关键数字：</strong>GitHub 粉丝 1.35 万、累计 183,213 星和 19,472 次 fork；近一年贡献 12,434 次；X 关注者约 16 万；周刊每周一更新，2026 年 10 月出到第 286 期。",
+  "<strong>看点：</strong>TA 把自己的项目叫作「开源小家庭」：Kaku 是爸爸，Pake 是妈妈，MiaoYan 是哥哥，Waza 是姐姐，Kami 是妹妹，Mole 是家里的宠物鼹鼠。"
  ],
- "lead": "Tw93 在「关于我」里给自己的项目排了一张家谱：Kaku 是爸爸，Pake 是妈妈，MiaoYan 是哥哥，Waza 是姐姐，Kami 是妹妹，Mole 是家里的宠物鼹鼠。它们几乎全都诞生在春节、五一、国庆这些长假里。这张家谱比任何简历都更能说明 TA 是怎样一个人。",
+ "lead": "GitHub 简介只有一句话：「Anything added dilutes everything else.」（任何多加的东西，都会稀释其他一切。）这句话几乎就是 Tw93 做产品的总纲：功能要克制，界面要安静，一百个用 Mac 的人里有一位觉得它有用，就足够了。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "产品工程师、开源作者、写作者；也在投资 AI（自述）"],
+     ["所在地", "中国杭州"],
+     ["经历", "前端起步（2015 年开始写博客）→ 阿里巴巴：Weex、双十一、iOS 业务、XRender → 独立开源作品与付费产品"],
+     ["代表作", "Mole、Pake、MiaoYan、Kaku、Waza、Kami、Maple、《潮流周刊》"],
+     ["技术栈", "Rust（Pake、Kaku）、Swift（MiaoYan、Mole for Mac）、Shell（Mole CLI）、Python、TypeScript；博客和周刊用 Astro，部署在 Vercel"],
+     ["关键数字", "GitHub 累计 18.3 万星；Mole 退款率低于 0.8%；Mole 中文博客已发布 131 篇文章"],
+     ["商业模式", "开源免费为主；Mole for Mac 一次买断 19 美元，14 天可退款"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Tw93 同时在做三件事。<strong>第一是开源工具</strong>：几乎每个长假写一个，春节写了 MiaoYan 和 Kaku，国庆写了 Pake，2025 年国庆前写了 Mole。每个项目都有多语言 README，大多数在发布后持续维护多年。"},
+    {"p": "<strong>第二是写作</strong>：一个更新极勤的周刊（每周一一期，封面是自己拍的照片），和一个以「你不知道的 ×××」为题的长文博客，2026 年系统写了 Claude Code、Agent、大模型训练、GEO、具身智能。<strong>第三是第一次认真做付费产品</strong>：Mole for Mac。TA 把这三个月学到的东西写成了一篇很少见的、诚实的独立产品复盘。"},
+    {"note": "本页依据 tw93.fun（含关于页与博客）、潮流周刊、mole.fit、GitHub 与各项目 README 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "p": "从博客存档看，Tw93 的公开写作从 2015 年开始，最早的文章是《JavaScript 的数据访问性能优化》和 Vue、Angular、Avalon 的框架比较。那是一个典型前端工程师的起点。"
-    },
-    {
-     "steps": [
-      {
-       "when": "2015–2016",
-       "title": "前端基本功",
-       "text": "读《JavaScript 设计模式》两遍写笔记，研究 Flexbox、React Native 动画、Generator 与 Channel。文章都很长，习惯用「提出问题、论证问题、解决问题」的结构写。"
-      },
-      {
-       "when": "2017–2018",
-       "title": "Weex、双十一与 iOS",
-       "text": "在部门分享《Hello Weex》，写 SVG 与 Web 图形学入门；为排查双十一期间的 Weex 性能问题开始学 iOS，2018 年正式参与 iOS 业务开发。这段经历让一个前端工程师长出了「端」的能力。WeexUi 也出自这一时期。"
-      },
-      {
-       "when": "2019",
-       "title": "XRender",
-       "text": "参与并主导阿里开源的中后台表单 / 表格 / 图表方案 XRender。2022 年它三岁时，TA 用 gource 和 ffmpeg 把仓库历史渲染成一段视频，「给代码祝寿」。"
-      },
-      {
-       "when": "2020 春节",
-       "title": "妙言 MiaoYan",
-       "text": "一款给工程师用的原生 macOS Markdown 笔记应用：纯文本本地存储、三栏布局、LaTeX、Mermaid。两年后重新打磨开源，成为 TA 最受欢迎的 Swift 项目。"
-      },
-      {
-       "when": "2021 起",
-       "title": "《潮流周刊》",
-       "text": "每周记录看到的好东西和生活。第 100 期时自己用 Astro 设计开发了官网；第 268 期 TA 写道，这份周刊已写了近六年，全部手写，不用 AI。"
-      },
-      {
-       "when": "2022 国庆",
-       "title": "Pake",
-       "text": "用 Rust + Tauri 把任意网页打包成几 MB 的桌面应用，一条命令搞定。发布后迅速走红，成为中文开发者里最知名的开源项目之一。"
-      },
-      {
-       "when": "2025 国庆前",
-       "title": "Mole",
-       "text": "在三亚泳池边写了几百行 Shell，做出命令行清理工具 Mole。之后长出原生 Mac 客户端，一次买断 19 美元，是 TA 第一个付费产品。"
-      },
-      {
-       "when": "2026",
-       "title": "Kaku、Waza、Kami：AI 时代的新家人",
-       "text": "Kaku 是「AI 友好」的 Mac 终端；Waza 把工程习惯写成 Claude Code / Codex 可执行的 Skills；Kami 让 Agent 输出排版漂亮的 PDF、PNG 和 PPT。同年 TA 写了一系列「你不知道的 Claude Code / Agent / 大模型训练」长文。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2014–2015", "title": "从前端开始", "text": "GitHub 账号 2014 年注册。博客存档始于 2015 年，最早的文章是《JavaScript 的数据访问性能优化》和 Vue、Angular、Avalon 的框架比较；同年用 Node.js + Express + MongoDB 写了一个电影网站练手。"},
+     {"when": "2015–2016", "title": "前端基本功", "text": "把《JavaScript 设计模式》读两遍写笔记，研究 Flexbox、React Native 动画、Generator 与 Channel。文章习惯用「提出问题、论证问题、解决问题」的结构。TA 后来回忆，学会前端之后第一个特别想学的是 WebGL。"},
+     {"when": "2017–2018", "title": "Weex、双十一与 iOS", "text": "在阿里分享《Hello Weex》，做了 Weex Ui 组件库；为排查双十一期间的 Weex 性能问题开始学 iOS，2018 年正式参与 iOS 业务开发。GitHub 上至今挂着 alibaba 和 apache 两个组织（Weex 后来捐给了 Apache 基金会）。"},
+     {"when": "2019", "title": "XRender", "text": "参与并主导阿里开源的中后台表单 / 表格 / 图表方案 XRender。它三岁时，TA 用 gource 和 ffmpeg 把仓库历史渲染成视频，「给代码祝寿」。"},
+     {"when": "2020 春节", "title": "妙言 MiaoYan", "text": "给工程师用的原生 macOS Markdown 写作应用。两年后重新打磨开源，成为 TA 最受欢迎的 Swift 项目。"},
+     {"when": "2021–2022", "title": "《潮流周刊》", "text": "每周记录看到的好东西和生活。第 100 期时自己用 Astro 设计开发了官网；第 268 期写道，这份周刊已写了近六年，全部手写，不用 AI。"},
+     {"when": "2022 国庆", "title": "Pake", "text": "用 Rust + Tauri 把任意网页打包成几 MB 的桌面应用，一条命令搞定。发布后迅速走红，至今 fork 数超过 1.2 万。"},
+     {"when": "2025 国庆前", "title": "Mole", "text": "在三亚泳池边写了几百行 Shell，做出命令行清理工具 Mole；之后长出原生 Mac 客户端，一次买断 19 美元，是 TA 的第一个付费产品。"},
+     {"when": "2026", "title": "Kaku、Waza、Kami 与一个小机器狗", "text": "春节写了 AI 友好的终端 Kaku，春天写了 Waza 和 Kami；4 月用 STM32、ESP32-C3、舵机和 3D 打印件手搓了一台能听懂话、能接云端 AI 的小机器狗；5 月开始做一款面向纸面排版和长文阅读的中文字体「落文」。"}
+    ]},
+    {"p": "这条路的特别之处在于<strong>节奏</strong>：大公司的工作和个人项目长期并行，个人项目集中在长假爆发，然后用周刊和博客持续发声。十年后回头看，每一个假期都留下了一个「家人」。"}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Mole 鼴",
-       "meta": "2025 · Shell / Swift · ★7 万+",
-       "text": "清理几十 GB 的缓存和 AI 工具残留，卸载与更新应用，磁盘分析和实时状态。每个功能对应太阳系里的一颗星球。",
-       "url": "https://mole.fit"
-      },
-      {
-       "name": "Pake",
-       "meta": "2022 · Rust · ★6 万+",
-       "text": "一行命令把网页变成轻量桌面应用，支持 macOS、Windows、Linux。",
-       "url": "https://github.com/tw93/Pake"
-      },
-      {
-       "name": "妙言 MiaoYan",
-       "meta": "2020 · Swift",
-       "text": "安静、本地优先的 Mac Markdown 写作应用，「帮你写出好句子」。",
-       "url": "https://github.com/tw93/MiaoYan"
-      },
-      {
-       "name": "Kami",
-       "meta": "2026 · HTML · ★1.2 万",
-       "text": "「好内容值得好纸张」：一套让 AI Agent 输出精美 PDF / PNG / 可编辑 PPT 的排版规则与模板。",
-       "url": "https://github.com/tw93/Kami"
-      },
-      {
-       "name": "Waza",
-       "meta": "2026 · Python",
-       "text": "把你熟悉的工程习惯变成 Claude Code、Codex、Cursor 可执行的技能。",
-       "url": "https://github.com/tw93/Waza"
-      },
-      {
-       "name": "潮流周刊",
-       "meta": "2021 至今",
-       "text": "记录技术发现、工具和生活，近六年不间断，坚持手写。",
-       "url": "https://weekly.tw93.fun"
-      }
+    {"work": {
+     "name": "Mole 鼴", "url": "https://mole.fit",
+     "meta": ["2025", "Shell CLI + 原生 Mac / Windows", "CLI 开源（GPL-3.0）· Mac 版 $19"],
+     "paras": [
+      "「清理几十 GB 垃圾和 AI 工具旧数据，卸载和更新软件，分析磁盘，维护系统，实时查看 Mac 运行状态。」Mac 版把五块功能做成太阳系里的五个星体，每颗都有自己的职责："
+     ],
+     "bullets": [
+      "<strong>地球 · 清理：</strong>系统数据单独成组；每一项都能选择、跳过或加入保护清单；扫描和清理都在本机完成，不上传任何文件。",
+      "<strong>月亮 · 清 AI：</strong>Claude Code、Codex、Cursor 等 AI 工具的缓存和旧版本、很久没打开的 Codex 会话和 worktree、长期不用的 AI 命令行工具，逐条确认再删。",
+      "<strong>火星 · 软件：</strong>从 Sparkle、App Store、Homebrew 等来源检查更新；卸载时一并检查残留，不确定的默认不选。",
+      "<strong>水星 · 优化：</strong>需要管理员权限的任务集中授权一次，有风险的任务自动跳过并说明原因。",
+      "<strong>木星 · 分析 / 太阳 · 状态：</strong>色块展示磁盘占用；实时查看 CPU、GPU、内存、温度、风扇，Apple 芯片还能看频率和功耗，以及配对的 iPhone、iPad 电量。"
+     ],
+     "facts": [["GitHub", "★72,090 · ⑂2,547"], ["最新版本", "V1.62.0（2026-10-21）"], ["实测兼容", "851 款 Mac 软件"], ["退款率", "低于 0.8%（作者自述）"]]
+    }},
+    {"p": "官网的「口碑」区放着 Peter Steinberger 的一句评价：「Mole is brilliant.」"},
+    {"work": {
+     "name": "Pake", "url": "https://github.com/tw93/Pake",
+     "meta": ["2022 国庆", "Rust + Tauri", "macOS / Windows / Linux"],
+     "paras": [
+      "「Turn any website into a lightweight desktop app with one command.」相比动辄上百 MB 的 Electron 套壳，Pake 基于 Tauri，借助系统自带的 WebView，把一个网页打包成只有几 MB 的桌面应用。",
+      "它是 TA 的成名作，也是中文开发者最早一批破圈到全球的 Rust 桌面项目之一。README 提供七种语言。"
+     ],
+     "facts": [["GitHub", "★62,240 · ⑂12,803"], ["官网", "pake.run"], ["最新", "V3.17.x（2026-10）"]]
+    }},
+    {"work": {
+     "name": "Kami 紙", "url": "https://github.com/tw93/Kami",
+     "meta": ["2026 春", "排版规则 + 模板", "PDF / PNG / 可编辑 PPT"],
+     "paras": [
+      "「Good content deserves good paper.」Kami 在日语里是「纸」。它给 AI Agent 一套版式规则和模板，让 Agent 能交付排版漂亮的 PDF、PNG 图片和可编辑的 PowerPoint，内置八种文档模板和一个产品落地页模板。在 TA 的「家庭」里，Kami 是负责「交付」的那个。"
+     ],
+     "facts": [["GitHub", "★12,048"], ["官网", "kami.tw93.fun"]]
+    }},
+    {"work": {
+     "name": "Waza 技", "url": "https://github.com/tw93/Waza",
+     "meta": ["2026", "Agent Skills", "Claude Code / Codex / Cursor"],
+     "paras": [
+      "「Tw93's engineering habits, turned into your skills.」把 TA 熟悉的工程习惯一项项做成可安装的技能：每个技能是一个文件夹，带参考文档、辅助脚本和踩坑提醒，让 AI 编程助手按资深工程师的方式做事。"
+     ],
+     "facts": [["GitHub", "★7,339"], ["语言", "Python"]]
+    }},
+    {"work": {
+     "name": "Kaku", "url": "https://kaku.fun",
+     "meta": ["2026 春节", "Rust", "Mac 终端"],
+     "paras": [
+      "「An AI-friendly Mac terminal with sensible defaults, ready out of the box.」一个开箱即用、默认值合理、为 AI 编程场景调过的终端。TA 把它称作家里的「爸爸」：负责写代码、跑终端和构建，「AI 时代可靠能干」。"
+     ],
+     "facts": [["GitHub", "★6,138"], ["最新版本", "V0.26.0（2026-10-20）"]]
+    }},
+    {"work": {
+     "name": "妙言 MiaoYan", "url": "https://miaoyan.app",
+     "meta": ["2020 春节", "Swift", "本地优先"],
+     "paras": [
+      "「A quiet, local-first Markdown writing app for Mac, to help you write great sentences.」纯文本本地存储、三栏布局、LaTeX、Mermaid。TA 形容它「比较懂事沉稳，喜欢写作、沉淀思考，不追风不随波逐流」。2025 年还为 RSS 阅读器 NetNewsWire 做了一套同风格、针对中文阅读优化的主题。"
+     ],
+     "facts": [["GitHub", "★8,680"], ["开源", "2020-04 起"]]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "TA 的 GitHub 主页 README 由自己写的工作流自动更新：实时统计粉丝和星数，列出最新发布（2026 年 10 月 20、21 日分别发布了 Kaku V0.26.0 和 Mole V1.62.0）。这个工作流本身也开源了。"},
+    {"table": {
+     "caption": "GitHub 星数（2026 年 10 月）",
+     "cols": ["项目", "★", "语言", "诞生", "在「家庭」里的角色"],
+     "rows": [
+      ["Mole", "72,090", "Shell", "2025 国庆前", "宠物鼹鼠：翻箱倒柜，帮忙扔掉不需要的东西"],
+      ["Pake", "62,240", "Rust", "2022 国庆", "妈妈：打包、整理、交付成 App"],
+      ["Kami", "12,048", "HTML", "2026 春", "妹妹：把家里收拾得整整齐齐，爱画漂亮的画"],
+      ["MiaoYan", "8,680", "Swift", "2020 春节", "哥哥：安静、会思考"],
+      ["Waza", "7,339", "Python", "2026 春", "姐姐：学过跆拳道，靠练习把技能练成本能"],
+      ["Kaku", "6,138", "Rust", "2026 春节", "爸爸：写代码、终端、构建"],
+      ["Weekly", "880", "CSS", "2022", "《潮流周刊》的源码"],
+      ["Maple", "510", "JavaScript", "2023", "隐藏书签栏，用侧边书签顺滑浏览"]
      ]
-    }
+    }},
+    {"p": "这些项目有几个共同点：<strong>README 至少六七种语言</strong>（Mole 有九种），<strong>发版极勤</strong>（TA 说自己「基本没攒过大招，尽量每周都发一版」），<strong>名字都很短</strong>，并且多半带一点东方意象：鼴、紙、技、妙言、落文。"}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://tw93.fun",
-      "paras": [
-       "标题是「Tw93 · 产品工程师、开源作者与写作者」。首页就是文章流：每篇带日期和一段两三行的摘要，近两年的文章集中在 AI Coding、Agent 架构、具身智能和产品复盘。",
-       "页面支持 <code>/</code> 键全站搜索，方向键导航，页脚只写「2015~2026」。"
-      ]
-     }
-    },
-    {
-     "p": "博客里最能看出 TA 性格的是那些「给团队同学的分享」：《如何做一个产品工程师？》《工程师如何明白地做事情》《大环境不好的情况下如何🐶着》。TA 把工作中的分享整理归档，十年下来，博客成了一份公开的成长记录。"
-    },
-    {
-     "p": "Mole 的官网则是另一种风格：每个功能被映射为太阳系中的一颗星，地球负责清理，月球负责 AI 清理，火星照看软件，水星负责优化。工具很朴素，叙事却很浪漫。"
-    }
+    {"site": {"url": "https://tw93.fun", "paras": [
+     "博客标题是「Tw93 · 产品工程、AI Coding 与开源工具」。导航只有 Weekly、GitHub、Twitter、About 和一个 En 切换；首页按时间列文章，每篇一个标题、一个日期和一段两三行的摘要，按 / 可以全文搜索。",
+     "关于页最打动人的是那段「开源小家庭」：每个项目都有出生的节日和性格。它把一份枯燥的项目列表，写成了一个让人记得住的故事。"
+    ]}},
+    {"table": {
+     "cols": ["站点", "技术与托管", "观察"],
+     "rows": [
+      ["tw93.fun", "Vercel · giscus 评论", "2015–2026 的长文存档，中英双语入口"],
+      ["weekly.tw93.fun", "Astro 5 · Vercel · giscus", "每周一更新；每期封面是 TA 自己拍的照片，配一段拍摄时的小故事"],
+      ["mole.fit", "Vercel", "产品官网 + 中文博客（RSS 中 131 篇），几乎每天一篇 Mac 维护教程"],
+      ["Yobi", "—", "TA 的项目索引：每个项目做什么、适合什么场景，以及给机器读的资料"]
+     ]
+    }},
+    {"callout": "mole.fit 的中文博客几乎每天更新一篇 Mac 维护问答，比如「corespotlightd 占用 CPU 很高」「Mac 需要整理磁盘碎片吗」。这正是 TA 在《你不知道的 GEO》里说的思路：把内容结构化，让搜索引擎和 AI 都能把用户带到产品面前。", "t": "内容即增长"}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "quote": "Anything added dilutes everything else.",
-     "cite": "Tw93 的 GitHub 简介"
-    },
-    {
-     "p": "这句话贯穿了 TA 所有的作品：Pake 只做「打包」，妙言只做「写」，Mole 只做「清理」。每个项目的 README 都有一句 emoji 开头的短介绍和一张精心设计的截图。TA 的项目是前端工程师写的，所以在视觉呈现上从不将就。"
-    },
-    {
-     "p": "TA 在 2026 年的博文《Mole 出 Mac 版后，用户教会了我做产品》里总结：删东西之前要先给用户看一眼，平时别来打扰用户，要做到「70 岁的老爷爷也能用」。这是一个开源作者第一次面对付费用户时得到的最朴素的产品课。"
-    },
-    {
-     "callout": "TA 说自己「喜欢开源，相信 AI，也在投资 AI，不喜欢技术网红环境，相信长期主义」。手写周刊近六年、每个长假写一个项目，就是 TA 理解的长期主义。",
-     "t": "长期主义"
-    }
+    {"h3": "2026 年的长文"},
+    {"posts": [
+     {"date": "2026-08-16", "title": "Mole 出 Mac 版后，用户教会了我做产品", "url": "https://tw93.fun/2026-08-16/mole-mac.html", "note": "第一个付费产品三个月的复盘，下面单独展开。"},
+     {"date": "2026-06-07", "title": "你不知道的具身智能：从小机器狗到 Optimus", "url": "https://tw93.fun", "note": "亲手搓了一台机器狗之后，再看串口、PWM、执行器和量产约束。"},
+     {"date": "2026-05-01", "title": "你不知道的 GEO：AI 可见性的原理、实践与取舍", "url": "https://tw93.fun"},
+     {"date": "2026-04-26", "title": "你不知道的 AI Coding：非技术人的上手、场景与实战", "url": "https://tw93.fun", "note": "写给产品、业务、运营的 Claude Code 指南：CLAUDE.md、Skills、Plan 模式。"},
+     {"date": "2026-04-06", "title": "在 AI 时代，我是如何深入学习一个技术领域的", "url": "https://tw93.fun"},
+     {"date": "2026-03-30", "title": "杀死那个手工程序员", "url": "https://tw93.fun", "note": "标题改写自万能青年旅店的《杀死那个石家庄人》。"},
+     {"date": "2026-03-12", "title": "你不知道的 Claude Code：架构、治理与工程实践", "url": "https://tw93.fun", "note": "上下文管理、Skills、Hooks、Subagents、Prompt Caching。"}
+    ]},
+    {"h3": "从 Mole for Mac 学到的事"},
+    {"ul": [
+     "<strong>一直手工回邮件。</strong>答疑、退款、重置激活码加起来不到用户量的 1%，半小时就能写脚本自动化，但 TA 没写：「只有自己一封封处理过，才能感觉到用户到底要什么。」自动化要等到三件事都成立：问题反复出现、答案已经稳定、例外都摸清楚了。",
+     "<strong>不先搭支撑系统。</strong>没有工单、客服平台、知识库。「AI 能把开发压缩到几天，但和人打交道不能省。」",
+     "<strong>功能进路线图要过三道门：</strong>用户没点进这个功能就不能有常驻的定时器和采样开销；不能为一点小便利扩大特权或新增系统权限；有合理默认值时不加设置项。",
+     "<strong>对清理工具来说，不删什么比删什么重要。</strong>保护名单就是这么来的。",
+     "<strong>从第一天就全球化，</strong>英文内容发得比中文多；X 上的热度来得快去得也快，YouTube 上的内容衰减非常慢。",
+     "<strong>没花钱做过推广，</strong>增长基本靠口碑，退款率低于 0.8%，买的人里有不少是长期使用 CLI 的老用户。"
+    ]},
+    {"quote": "AI 产生的赛博垃圾已经够多了，与其拿 Token 再堆一个能跑就行的界面，我还是想做个舒服一点的东西出来，不浪费我的 Token，也不污染你的时间线。", "cite": "Tw93，解释 Mole 为什么要做五颗行星"},
+    {"p": "五颗行星的贴图，TA 从 NASA 官网下了很多张，换了不下 10 次；转动方向、转速和完成后的飞行效果都照着真实的天体来做。这和 TA 小时候喜欢看行星运行，以及十年前「学会前端后第一个特别想学的就是 WebGL」有关。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "克制、安静、默认值合理；把「不打扰」写成路线图规则", "坚持不加功能，部分高级用户的需求会被婉拒"],
+      ["工程", "Rust、Swift、Shell 全栈；发版频率极高，README 多语言", "项目越来越多，单人维护压力大（TA 也在周刊里承认过一段时间「沉迷 AI Coding」导致周刊变水）"],
+      ["写作", "周刊近六年不断更；长文体系化，复盘诚实", "长文以中文为主，海外读者主要通过产品认识 TA"],
+      ["商业", "开源 CLI + 付费 Mac 版，边界清楚；不靠营销靠口碑", "付费产品目前只有 Mole 一款，收入结构较单一"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>用假期造物：</strong>给自己一个固定节奏，比如每个长假一个项目，十年后就是一整个「开源家庭」。",
-      "<strong>把分享写下来：</strong>团队内部的分享归档成博客，就是最好的个人品牌。",
-      "<strong>从前端跨到端：</strong>为了解决一个性能问题去学 iOS，后来写出原生 Swift 应用和 Rust 工具。",
-      "<strong>做减法：</strong>每多一个功能，都会稀释已有的功能。",
-      "<strong>开源到付费：</strong>先用免费开源积累信任，再用原生体验做付费版本（Mole for Mac）。"
-     ]
-    }
+    {"checklist": [
+     "<strong>用节日给项目定节奏：</strong>长假是完整的整块时间，适合从零做一个新东西。",
+     "<strong>给作品讲一个故事：</strong>「开源小家庭」让每个项目都有性格，比一份列表好记得多。",
+     "<strong>开源与付费分清边界：</strong>CLI 永远免费开源，原生 Mac 版一次买断，用户能理解，也愿意买单。",
+     "<strong>先一封封回信，再谈自动化：</strong>早期用户的每一封邮件，都是产品方向。",
+     "<strong>写作是长期资产：</strong>周刊、长文和产品博客，一起构成了不靠投放的增长。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Mole 出 Mac 版后，用户教会了我做产品", "url": "https://tw93.fun/2026-08-16/mole-mac.html", "why": "独立开发者必读的一篇复盘：客服、定价、路线图、增长，全是一手经验。"},
+     {"name": "mole.fit", "url": "https://mole.fit", "why": "看五颗行星怎样把一个「清理工具」做出温度，也看看它的中文博客如何天天更新。"},
+     {"name": "tw93.fun/about.html", "url": "https://tw93.fun/about.html", "why": "读一读「开源小家庭」，学习如何给自己的作品讲故事。"}
+    ]}
    ]
   }
  ],
- "cta": "从 Pake 或 Mole 开始，或者订阅一份《潮流周刊》。",
+ "cta": "读一期《潮流周刊》，或者装一个 Mole 清理一下你的 Mac。",
  "sources": [
-  {
-   "label": "Tw93 博客·关于我",
-   "url": "https://tw93.fun/about.html"
-  },
-  {
-   "label": "Tw93 博客首页与归档",
-   "url": "https://tw93.fun"
-  },
-  {
-   "label": "潮流周刊",
-   "url": "https://weekly.tw93.fun"
-  },
-  {
-   "label": "GitHub：tw93",
-   "url": "https://github.com/tw93"
-  },
-  {
-   "label": "Mole 官网",
-   "url": "https://mole.fit"
-  },
-  {
-   "label": "Tw93 的 X 个人资料",
-   "url": "https://x.com/HiTw93"
-  }
+  {"label": "Tw93 的 X 个人资料", "url": "https://x.com/HiTw93"},
+  {"label": "tw93.fun 博客", "url": "https://tw93.fun"},
+  {"label": "tw93.fun 关于页（开源小家庭）", "url": "https://tw93.fun/about.html"},
+  {"label": "Mole 出 Mac 版后，用户教会了我做产品（2026-08-16）", "url": "https://tw93.fun/2026-08-16/mole-mac.html"},
+  {"label": "潮流周刊", "url": "https://weekly.tw93.fun"},
+  {"label": "Mole 官网", "url": "https://mole.fit"},
+  {"label": "Mole 中文博客", "url": "https://mole.fit/zh/blog"},
+  {"label": "GitHub：tw93", "url": "https://github.com/tw93"},
+  {"label": "GitHub：Mole", "url": "https://github.com/tw93/Mole"},
+  {"label": "GitHub：Pake", "url": "https://github.com/tw93/Pake"},
+  {"label": "GitHub：Kami", "url": "https://github.com/tw93/Kami"},
+  {"label": "GitHub：Waza", "url": "https://github.com/tw93/Waza"},
+  {"label": "Kaku 官网", "url": "https://kaku.fun"},
+  {"label": "MiaoYan 官网", "url": "https://miaoyan.app"}
  ]
 }

@@ -1,0 +1,409 @@
+{
+ "handle": "qingnianxiaozhe",
+ "sites": [
+  {
+   "url": "https://www.yizhe.me",
+   "ok": true,
+   "title": "Ethan Zhao - AI-Driven Product Builder",
+   "description": "Ethan Zhao - AI-Driven Product Builder",
+   "stack": [
+    "Astro v7.0.0",
+    "Astro",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "👋🏻 | \nAI Product Builder \nFull-Stack Engineer \nI design and build AI-driven tools, focusing on practical systems rather than just concepts. My work spans engineering, product structure, and applied research, with the goal of deconstructing complex problems into runnable products. \n📍 Hangzhou, China \nAbout Me \nI build enterprise AI in the Feishu ecosystem, along with native apps, self-hosted services, and small tools that solve problems I run into myself. \nMost of my projects begin with a concrete inconvenience: understand it, build a working answer, then keep refining it until I want to use it for a long time. \nRead full intro → \nSelected Projects \nSaaS Author / Builder \nApp Store Price \nGlobal App Store Price Comparison & Tracking \nReal-time collection and comparison of App Store pricing across countries, helping developers understand global pricing differences and providing users with more transparent subscription references. View project \nPinlist \nA Focused Watchlist App for iOS \nBuilt for saving, organizing, and revisiting the people, topics, and items worth keeping an eye on. View project \nAI Token Usage Statistics \nSelf-hosted AI Coding Cost Tracker \nScans local session logs to track token usage and costs across Claude Code, Codex, and other AI coding tools — syncs across devices via your own Cloudflare Worker, with a public dashboard to visualize spending trends. View project \ndoc2md \nUniversal File to Markdown Converter \nConverts documents, slides, tables, and notes into clean Markdown for AI workflows, publishing, and knowledge base ingestion. View project \nWeather Card \nRandom Weather Visual Generator for Global Cities \nGenerates stylized weather cards and images for random cities worldwide, useful for content snippets, demos, and visual experiments. View project \nFeishu Lottery Bot \nA lightweight and efficient lottery system based on the Feishu open platform. \nThe same lottery bot used by @Tim. View project \nFeishu AI Solution \nRetail Process Digitalization & Automation \nCombining AI capabilities, business process design, and enterprise-grade architecture to improve execution efficiency and maintainability of complex processes. \nMy Toolkit \nAI Tools & Subscriptions Cost ledger \nThe timeline runs from Sep 4, 2025 to Sep 4, 2026. GitHub Copilot runs continuously; ChatGPT Plus starts in February 2024 with Pro 20x stacked on in June 2026; Google AI Pro runs on yearly billing from April 2025; Claude Pro and Max 5x overlap for 16 days in April 2026; Kimi Code ran for a single cycle from July to August 2026. \n ChatGPT Plus ChatGPT Pro 20x Claude Pro Claude Max 5x Copilot Pro Google AI Pro Kimi Code \n 2026 \n OVERLAP · 16D Today View the full ledger → \nDaily Tools \n Codex \n Claude \n Ghostty \n Xcode \n VS Code Only for Editor & Git \nToken Usage (30 Days) View Details \nLet’s build something together. \n Email Me GitHub X (Twitter)",
+   "github_links": [
+    "imetn"
+   ],
+   "subpages": {
+    "https://www.yizhe.me/blog": "Journal · Essays \nBlog \nNotes on AI-native products, applied research, and the craft of shipping software that feels considered. \n Jun 2026 \n AI Codex Operations \nTurning Codex into a Mobile Server Ops Entry Point \nHow I connected two U.S. servers to Codex remote control so I can handle routine server operations from my phone, with shared auth, server runbooks, auto-approval, and mutual Watchdog checks. Read more \n Apr 2026 \n AI Claude subscription \nMy Experience Setting Up and Using Claude \nSharing my experience using multiple Claude accounts: no residential IP, no anti-detect browser, no crypto card — and still running fine. Covering login environment, IP addresses, payment methods, usage patterns, and network rules. Read more \n Apr 2026 \n AI Token Tools \nToken Usage Is the Best Metric for Measuring AI Collaboration \nI built a self-hosted Token tracking tool to measure real AI usage across devices — and here's why token consumption tells you more about a person's AI fluency than any other metric. Read more \n Mar 2026 \n AI tutorial subscription \nSubscribe to ChatGPT/Claude Without a Foreign Credit Card \nA step-by-step guide to subscribing to ChatGPT, Claude, and other AI services via App Store low-price regions — more stable and cheaper than reseller proxies, no foreign credit card needed. Read more \n Oct 2020 \nMy IELTS Exam Recap \nA detailed account of my IELTS exam experience on October 24, 2020 — from preparation costs and resources to the speaking test, written exam, and everything in between. Read more \n Jun 2020 \nA Borrowed Day \nI call it a borrowed day because nothing about it belonged to my present life — spending a day out with an internet friend and a five-year-old kid, pretending at a life that isn't mine yet. Read more \n Jun 2020 \n life \nMy Phones \nI found a fun website that lets you list all the phones you've ever owned, so I put together my phone history. Read more \n Jun 2020 \n life regret shopping \nMy Most Disappointing Purchase of 2019 \nI finally bought AirPods at the end of 2019, only to discover my right ear physically can't handle them. An honest review of the purchase I regret most. Read more \n May 2020 \n life \nMy 618 Shopping Wishlist \nMy wishlist for China's 618 shopping festival — a portable hard drive, a GaN charger, an N1 TV box, and tissues. Read more \n Apr 2020 \n life credit economics \nCredit 101 \nNotes on how the economic machine works, the role of credit, productivity, and deleveraging — based on Ray Dalio's framework. Read more \n Apr 2020 \n life \nThe New York Times 36 Questions \nThe famous 36 questions from the New York Times designed to bring people closer together. Read more \n Dec 2019 \n life \nMy Hospital Experience \nRecent news about an ER doctor being attacked was deeply unsettling. I wanted to share my own hospital experience from this year — and the dedication of the doctors and nurses I encountered. Read more \n Dec 2019 \n life recap year-in-review \nMy 2019 \n2019 is over. It's December 31st — there's probably ",
+    "https://www.yizhe.me/about": "Notes · Self \nAbout Me \nYou can call me Ethan. When I first put this blog together in 2019, I wrote that I had no coding background at all. I did not even know how to restore a WordPress database backup. Since then, I have worked on enterprise SaaS, built iOS and macOS apps, and learned to run servers and self-hosted services. There was never a grand plan. I usually run into something I do not understand, decide to figure it out, and end up following it much farther than expected. \nAt work, I build enterprise software and applied AI in the Feishu ecosystem. The model is often only one piece of the job; around it are business processes, data, permissions, messaging, and real people. Outside work, I build App Store Price, Pinlist, AIUsage, and smaller tools. Most begin the same way: I run into a problem and want a solution I will keep using myself. \nMy way of building can look contradictory. I like getting the smallest version working early, but when something is ready to ship, I can spend a long time on a single pixel, an error branch, or one production log. Running is only the beginning. It feels done when the right result reaches a real person and I can still understand and change the system six months later. \nI am from Luoyang, Henan. I went to college in Shenyang, moved to Hangzhou for graduate school, then worked in Beijing before returning to Hangzhou to build a family. After tracing that loop across the map, Hangzhou is now home. \nI am interested in almost anything that runs on electricity. As a kid I took apart computers and phones, often without being able to put them back together. In recent years I have become absorbed in electronics repair and diagnostics, and I have seriously wondered whether I should learn device repair at an Apple Store. I still love watching repair videos from 艾奥科技 . There is something deeply satisfying about tracing a broken thing piece by piece and getting it to work again. \nEnglish is one of the few things I have kept studying since college. I originally took IELTS because I wanted to study abroad. The pandemic interrupted that plan, but English stayed and became a way to read documentation, find information, and see more of the world. I also enjoy photography. I understand some of the theory, yet my wife still dislikes many of the photos I take of her. Learning more has not noticeably fixed this. \nTo me, yizhe.me is an open-ended log of work and ordinary life. It holds tools that made it into the world and questions I have not figured out yet; AI, software, and repair sit alongside everyday moments. Years from now, I hope I can come back and still recognize the person who was earnestly tinkering with all of it. \nOutside view \n Me, in Codex’s Eyes \nWritten by OpenAI Codex from saved local session history across many projects and months of real collaboration. The Claude section below was not used as a source. \n 01 \nAn answer has to line up with the facts. \nYou keep asking: which exact record, which person failed,"
+   },
+   "appstore_ids": [
+    "6761153745"
+   ]
+  },
+  {
+   "url": "https://appstoreprice.org",
+   "ok": true,
+   "title": "App Store Price - 发现全球 App Store 最低价",
+   "description": "对比全球绝大多数国家和地区 App Store 的应用价格，每日检查价格，支持汇率换算和 AI 智能分析，帮您找到购买数字产品的最佳时机",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-CN",
+   "home_text": "加入群组 关注我们 iOS App NEW \n App Store 全球最低价 \n对比全球绝大多数国家和地区 App Store 的应用价格，每日检查价格 \n帮您找到购买数字产品的最佳时机 \n 查看所有应用 查看所有应用 礼品卡商城 礼品卡商城 NEW \n🇺🇸 \nUS Store \n$24.99 \nBEST \n🇹🇷 \nTurkey Store \n₺169.00 \n节省 78% \n🇯🇵 \nJP Store \n¥2,900 \nHushloft: Sleep Sounds & Rain \nHushloft Audio Ltd Health & Fitness \nTallyleaf – Budget & Bill Tracker \nTallyleaf Software LLC Finance \nFernhop: Plant Care Reminder \nFernhop Studio Lifestyle \nQuillmate: AI Writing Assistant \nQuillmate Labs Ltd Productivity",
+   "github_links": [],
+   "subpages": {
+    "https://appstoreprice.org/zh/apps": "Hushloft: Sleep Sounds & Rain \nHushloft Audio Ltd Health & Fitness \nTallyleaf – Budget & Bill Tracker \nTallyleaf Software LLC Finance \nFernhop: Plant Care Reminder \nFernhop Studio Lifestyle \nQuillmate: AI Writing Assistant \nQuillmate Labs Ltd Productivity \n 下拉刷新 \nChatGPT \nOpenAI OpCo, LLC \nIntroducing ChatGPT for iOS: OpenAI’s latest advancements at your fingertips.\nThis official app is free, syncs your history across devices, and brings you the latest from OpenAI, including the new image generator.\nWith ChatGPT in your pocket, you’ll find:\n· Image generation–Generate original images from a description, or transform existing ones with a few simple words. \n· Advanced Voice Mode–Tap the soundwave icon to have a real-time convo on the go. Settle a dinner table debate, or practice a new language. \n· Photo upload—Snap or upload a picture to transcribe a handwritten recipe or get info about a landmark. \n· Creative inspiration—Find custom birthday gift ideas or create a personalized greeting card.\n· Tailored advice—Talk through a tough situation, ask for a detailed travel itinerary, or get help crafting the perfect response. \n· Personalized learning—Explain electricity to a dinosaur-loving kid or easily brush up yourself on a historic event.\n· Professional input—Brainstorm marketing copy or map out a business plan.\n· Instant answers—Get recipe suggestions when you only have a few ingredients.\nJoin hundreds of millions of users and try the app captivating the world. Download ChatGPT today.\nTerms of service & privacy policy:\nhttps://openai.com/policies/terms-of-use\nhttps://openai.com/policies/privacy-policy \n iOS iPadOS \n iOS iPadOS \n效率 9 个套餐 \nClaude by Anthropic \nAnthropic PBC \nMeet Claude, your AI problem solver and thinking partner. Claude works with you to write, research, code, and tackle complex problems with depth and precision. It enhances your thinking and expands what you're capable of, right from your phone.\nAI WRITING ASSISTANT \nTurn rough thinking into polished work. Whether you're crafting social media posts, professional emails, or complex reports, Claude refines tone, structure, and clarity — iterating with you until your voice comes through. Get writing support that understands what you're trying to say, even when you're still figuring it out.\nAI CODING AND PROGRAMMING HELP \nClaude handles production-level development work. Review code, debug complex issues, and explore new languages with an AI coding assistant that explains the \"why\" behind every solution. Work through problems in Python, JavaScript, React, and dozens of other languages — from quick scripts to multi-step architecture.\nAs a versatile coding assistant, Claude plans multi-step tasks, pulls in relevant context, and adapts its approach as your project evolves. Write programs through natural conversation and use Claude to identify and fix errors faster. It scales from a single function to enterprise-level development.\nRESEARCH AND DATA INSIGHTS \nGo deeper on the questions that",
+    "https://appstoreprice.org/zh/blog": "博客 \n教程、指南和省钱技巧 \n我的 Claude 使用准备：网络、注册付费和日常使用 \n先检查网络，再准备邮箱、支付和日常使用 \n先检查现有网络，再选择 DMIT 原生出口或服务器 WARP 分流，准备域名邮箱与支付方式，最后保持日常使用环境稳定。 \n 2026-09-30 12 min 阅读全文 \nMaya：从注册、入金到银行证明 \n中国护照认证、DITO eSIM、Wise 入金与虚拟卡 \n准备一张长期持有的菲律宾手机号，用中国护照完成 Maya 认证，再开通 Wallet、Savings、虚拟卡和银行证明。 \n 2026-08-25 15 min 阅读全文 \nBybit Card 与菲区 ChatGPT 开通教程 \n从注册、开卡到完成订阅 \n从 Bybit 注册、身份认证和虚拟卡申请，到使用资金账户余额订阅 ChatGPT Plus/Pro 的完整实测。 \n 2026-07-14 10 min 阅读全文 \nAI 订阅低价区常见问题整理 \n15 个最常被问到的问题，一篇说清楚 \nApple ID 怎么准备、礼品卡在哪买、订阅失败和封号怎么办——把我自己 Telegram 群里被反复问到的问题整理成一份 FAQ。 \n 2026-05-13 10 min 阅读全文 \nApp Store Price 2.0 上线 \n订阅追踪、用户系统、尼日利亚 / 土耳其礼品卡商城 \nApp Store Price 迎来 2.0：新增应用订阅追踪、用户登录与关注列表，并正式上线尼日利亚区与土耳其区礼品卡商城，支持支付宝付款。 \n 2026-04-25 7 min 阅读全文 \n我的 Claude 开通和使用经验 \n不用住宅 IP、不用指纹浏览器、不用信用卡 \n分享我的 Claude 多账号使用经验：不用住宅 IP、不用指纹浏览器、不用 U 卡，照样稳定使用。涵盖登录环境、IP 地址、付费方式、使用方式和网络规则。 \n 2026-04-10 10 min 阅读全文 \n没有海外信用卡也能稳定订阅 ChatGPT/Claude \n比中转站更稳更便宜 \n详细教程：通过 App Store 低价区订阅 AI 服务，无需海外信用卡，人人都能操作。 \n 2026-03-06 12 min 阅读全文 \nHushloft: Sleep Sounds & Rain \nHushloft Audio Ltd Health & Fitness \nTallyleaf – Budget & Bill Tracker \nTallyleaf Software LLC Finance \nFernhop: Plant Care Reminder \nFernhop Studio Lifestyle \nQuillmate: AI Writing Assistant \nQuillmate Labs Ltd Productivity",
+    "https://appstoreprice.org/zh/about": "App Store Price \n发现全球 App Store 订阅的最佳价格，用技术让省钱变得简单 \n项目初衷 \n最近在折腾 App Store 订阅的全球价格对比时,发现同一套餐在不同区差距很大为了省事,我自己做了一个小站自动抓各区的内购价格 (IAP) 和汇率,对比之下一眼就能看出低价区 \n例如一样的 Claude,如果按照月度订阅,美国区的标准订阅是 $20,差不多 ¥141.67 人民币但是在尼日利亚地区的 App Store 订阅价格只需要 ¥73.03 人民币 ,省下了近一半的费用 \n而且也可以非常有意思的看出来,20 美元这个标准版本并不是最贵的在当天的汇率表现下,有不少地区都比美国区更贵这种价格差异让我意识到,一个自动化的价格对比工具能帮助更多人节省订阅费用 \n核心功能 \n全球覆盖 \n覆盖全球绝大多数国家和地区，每日检查价格。使用同一结算货币的地区默认同价（如欧元区各国与德国同价），因此每种货币以代表区展示 \n每日更新 \n价格每日检查，汇率每日自动更新。自动去重、过滤噪声，确保你看到的都是最准确的价格信息 \n热门应用 \n涵盖常用的 AI/生产力/影音订阅,如 Claude、ChatGPT、1Password、Infuse、YouTube Premium 等移动端也能顺畅查看 \n自助提交 \n如果列表里没有你的常用 App,可以在页面自助提交我会帮忙加上并自动爬取,完成后群里也会通知 \n智能数据处理 核心技术 \nApp Store Price 的核心技术亮点在于 智能数据处理系统 这个系统能够自动处理来自全球不同国家和地区的订阅数据,实现： \n 1 \n多语言套餐归一化 \n智能识别不同语言的同一套餐名称 (如 Premium、高级版、프리미엄),将其归类为标准订阅无论是英文、中文、韩文还是其他语言,系统都能准确识别并归类 \n 2 \n计费周期智能识别 \n自动识别各种计费周期 (monthly/yearly/lifetime) 及其各语言等价词对于一次性购买或储值等无明确周期的套餐,系统会智能标记为 duration=null \n 3 \n原币种价格保留 \n严格保持原币种和原价格, 严禁在分析阶段进行货币换算 这确保了数据的准确性,汇率换算统一在展示层进行,避免多次转换带来的误差累积 \n 4 \n最新汇率换算 \n每日更新汇率数据，展示时按最新汇率换算为人民币或美元。用户可以直观地看到各地区的价格差异，快速找到最具性价比的订阅区域 \n技术实现 \n采用自动化技术处理全球订阅数据，结合人工审核确保准确性和一致性。系统每日检查价格、每日更新汇率，并保存完整的数据处理日志，便于持续优化和问题追踪 \n加入我们的社区 \n分享给也在找低价订阅的朋友,欢迎试用和反馈加入 Telegram 群组获取最新价格通知,关注 Twitter 了解功能更新 加入 Telegram 群组 \nHushloft: Sleep Sounds & Rain \nHushloft Audio Ltd Health & Fitness \nTallyleaf – Budget & Bill Tracker \nTallyleaf Software LLC Finance \nFernhop: Plant Care Reminder \nFernhop Studio Lifestyle \nQuillmate: AI Writing Assistant \nQuillmate Labs Ltd Productivity"
+   },
+   "appstore_ids": [
+    "6761153745"
+   ]
+  }
+ ],
+ "github_guess": true,
+ "github": {
+  "login": "imetn",
+  "user": {
+   "name": "Ethan Zhao",
+   "company": null,
+   "blog": "",
+   "location": "Hangzhou",
+   "bio": "Life long Learner.",
+   "public_repos": 39,
+   "followers": 48,
+   "created_at": "2016-11-01T14:01:31Z",
+   "twitter_username": "qingnianxiaozhe",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "imetn/apple-id-subscribe-ai",
+    "description": null,
+    "stargazers_count": 95,
+    "forks_count": 3,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-03-06T13:37:37Z",
+    "pushed_at": "2026-03-06T14:12:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/aiusage",
+    "description": null,
+    "stargazers_count": 17,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-04-01T14:39:40Z",
+    "pushed_at": "2026-10-20T06:00:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/SurgeToolkit",
+    "description": "Surge iOS and macOS modules sharing repository.",
+    "stargazers_count": 14,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2023-08-24T12:33:07Z",
+    "pushed_at": "2026-10-18T14:05:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/dsh-lark-bridge",
+    "description": "Bidirectional Lark/Feishu controller for DeepSeek Harness",
+    "stargazers_count": 6,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-08-13T15:51:02Z",
+    "pushed_at": "2026-08-14T06:53:32Z",
+    "topics": [
+     "agent",
+     "chatbot",
+     "deepseek-harness",
+     "dsh-plugin",
+     "feishu",
+     "lark"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/doc2md",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://www.doc2md.org",
+    "created_at": "2025-12-06T12:14:43Z",
+    "pushed_at": "2026-05-20T06:16:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/apaas-oapi-node-client",
+    "description": "aPaaS OpenAPI Node.js 客户端 SDK",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-06-30T07:40:17Z",
+    "pushed_at": "2026-07-01T08:50:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/apaas-object-skill",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-02-10T05:43:58Z",
+    "pushed_at": "2026-03-12T05:59:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/feishu-lottery-bot",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://feishu-lottery.vercel.app",
+    "created_at": "2025-10-13T09:34:44Z",
+    "pushed_at": "2026-03-09T10:00:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/homepage",
+    "description": "My Website",
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "language": "Astro",
+    "homepage": "https://www.yizhe.me",
+    "created_at": "2025-12-03T12:29:25Z",
+    "pushed_at": "2026-10-17T13:18:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/calends",
+    "description": "The settlement day for everything you subscribe to — a self-hosted, AI-native subscription ledger with multi-currency, shared plans, reminders and a built-in MCP server.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://calends.date",
+    "created_at": "2026-10-21T11:27:57Z",
+    "pushed_at": "2026-10-21T13:23:56Z",
+    "topics": [
+     "cloudflare-workers",
+     "docker",
+     "mcp",
+     "multi-currency",
+     "personal-finance",
+     "react",
+     "self-hosted",
+     "subscription-tracker"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/ITIL-Foundation-Exams",
+    "description": "ITIL Foundation",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2022-10-16T14:42:16Z",
+    "pushed_at": "2024-05-26T15:11:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/ScreenOff",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-09-01T23:23:37Z",
+    "pushed_at": "2026-09-30T05:46:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/TetegramWakeUpBot",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-01-27T09:52:06Z",
+    "pushed_at": "2026-01-28T05:40:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/apaas-oapi-go-client",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2025-10-20T09:25:51Z",
+    "pushed_at": "2025-12-09T03:39:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/apaas-oapi-java-client",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Java",
+    "homepage": null,
+    "created_at": "2025-12-09T04:17:42Z",
+    "pushed_at": "2025-12-09T04:22:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/email_accounting",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2024-04-28T03:08:21Z",
+    "pushed_at": "2024-04-28T05:02:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/mcd-skill",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-01-19T13:05:13Z",
+    "pushed_at": "2026-01-20T09:50:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "imetn/nezha-dash-v2",
+    "description": "HumanZoo Nezha dashboard custom user-dist theme",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://status.humanzoo.us",
+    "created_at": "2026-06-20T09:23:29Z",
+    "pushed_at": "2026-06-24T09:23:57Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 19,
+  "languages": [
+   [
+    "TypeScript",
+    9
+   ],
+   [
+    "Python",
+    3
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "Astro",
+    1
+   ],
+   [
+    "Swift",
+    1
+   ],
+   [
+    "Go",
+    1
+   ],
+   [
+    "Java",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "imetn/apple-id-subscribe-ai",
+    "stargazerCount": 95,
+    "description": null,
+    "primaryLanguage": null,
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "imetn/aiusage",
+    "stargazerCount": 17,
+    "description": null,
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 6229,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "imetn/apple-id-subscribe-ai": "# 没有海外信用卡，也能低价订阅 ChatGPT / Claude\n通过注册外区 Apple ID（美区、土耳其区、尼日利亚区等）+ App Store 礼品卡充值，以正规渠道低价订阅 ChatGPT Plus、Claude Pro 等 AI 服务。\n> 注册美区、土耳其区、尼日利亚区等任意外区 Apple ID 的流程完全一致，只是 VPN 节点不同。本教程一次讲清楚所有区域。\n**不依赖中转站、不使用黑卡灰产、不会被封号。**\n## 价格参考\n| 服务 | 官方美区价格 | 低价区价格（人民币） | 推荐区域 |\n|------|-----------|-------------------|---------|\n| ChatGPT Go | $8/月 | ≈ ¥39/月 | 土耳其 |\n| ChatGPT Plus | $19.99/月 | ≈ ¥78/月 | 土耳其 |\n| ChatGPT Pro | $200/月 | ≈ ¥1256/月 | 土耳其 |\n| Claude Pro | $20/月 | ≈ ¥74/月 | 尼日利亚 |\n| Claude Max 5x | $124.99/月 | ≈ ¥499/月 | 尼日利亚 |\n| Claude Max 20x | $249.99/月 | ≈ ¥997/月 | 尼日利亚 |\n> 价格随汇率波动，以 [App Store Price](https://appstoreprice.org) 实时查询为准。\n## 教程目录\n整个流程分为三步，按顺序操作即可：\n### 1. [注册外区 Apple ID](docs/01-register-apple-id.md)\n注册美区/土耳其/尼日利亚等任意外区 Apple ID，全程在 iPhone 上完成，只需要一个邮箱和中国手机号。所有区域流程一致。\n### 2. [购买礼品卡并充值](docs/02-buy-gift-card.md)\n通过闲鱼或 oyunfor.com 购买对应区域的 App Store 礼品卡，充值到 Apple ID 余额。\n### 3. [订阅 ChatGPT / Claude 会员](docs/03-subscribe-ai.md)\n用充值后的 Apple ID 在 App Store 内购订阅，正规渠道，稳定续费。\n## 你需要准备什么\n- 一台 iPhone 或 iPad\n- 一个邮箱（Gmail、Outlook 等）\n- 一个中国手机号\n- 对应区域的 VPN 节点（仅注册时需要）\n- 购买礼品卡的资金（闲鱼/淘宝，或有 VISA/MasterCard 可线上购买）\n## 常见问题\n**这个方法安全吗？会不会封号？**\nApp Store 内购是苹果官方支持的支付方式，ChatGPT 和 Claude 都支持通过 App Store 订阅。这是完全正规的渠道，不会因为支付方式被封号。\n**比中转站贵吗？**\n中转站价格虽低，但很多提供的并非官方原版模型。通过 App Store 订阅拿到的是 100% 官方服务，性价比远高于表面上看起来更便宜的中转站。\n**需要一直挂 VPN 吗？**\n不需要。只有注册 Apple ID 时需要对应区域的节点，注册完成后日常使用不需要。\n## 原文出处\n本教程原文发布于 [App Store Price 博客](https://appstoreprice.org/zh/blog/pay-for-ai-subscriptions-via-app-store)。\n## License\n[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)\n转载或引用本教程内容时，请注明出处并附上原文链接。\n",
+   "imetn/aiusage": "<p align=\"center\"><code>npm i -g @aiusage/cli</code></p>\n<p align=\"center\">\n  <strong>AIUsage</strong> tracks token usage and costs across all your AI tools and devices,<br>\n  syncs to your own Cloudflare Worker, and visualizes everything on a public dashboard.\n</p>\n<p align=\"center\">\n  <a href=\"./README.zh-CN.md\">简体中文</a> | English\n</p>\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/@aiusage/cli\"></a>\n  <a href=\"https://workers.cloudflare.com\"></a>\n  <a href=\"https://developers.cloudflare.com/d1\"></a>\n  <a href=\"LICENSE\"></a>\n</p>\n<p align=\"center\">\n  <a href=\"https://aiusage.yizhe.me\"><strong>Live Demo</strong></a>\n</p>\n---\n## What is AIUsage?\nA self-hosted, privacy-first system for tracking how much you spend on AI coding tools — across every device you own.\n### Supported Tools\n<p align=\"center\">\n</p>\n<p align=\"center\">\n</p>\n### Why AIUsage?\n- **Scans locally** — reads token usage from session logs, never touches conversation content\n- **Syncs across devices** — every machine enrolls with its own secure token, data merges on your Worker\n- **Visualizes costs** — public dashboard with trends, model breakdowns, cost per session, and more\n- **You own the data** — deploys to your Cloudflare account (free tier is enough), no third-party services\n### Architecture\n```mermaid\ngraph LR\n  D1[\"<b>Device 01</b><br/>MacBook Pro\"] -- sync --> W[\"<b>Cloudflare Worker</b><br/>+ D1 Database\"]\n  D2[\"<b>Device 02</b><br/>Mac Mini\"] -- sync --> W\n  D3[\"<b>Device 03</b><br/>Linux Server\"] -- sync --> W\n  W -- public API --> Dashboard[\"<b>Dashboard</b><br/>read-only web UI\"]\n```\n## Quickstart\n### Deploy with your AI agent\nCopy this prompt, paste it into your AI coding agent (Claude Code, Codex, Copilot, Gemini, etc.):\n```text\nClone https://github.com/imetn/aiusage.git, read skills/aiusage-server/aiusage-server.md,\nand help me deploy AIUsage to my Cloudflare account.\nAfter the server is up, follow skills/aiusage-cli/aiusage-cli.md to connect this device.\n```\n### Or deploy manually\n```bash\ngit clone https://github.com/imetn/aiusage.git\ncd aiusage && pnpm install\nnpx wrangler login\npnpm setup\n```\n### Local reports (no server needed)\n```bash\nnpm i -g @aiusage/cli\naiusage r",
+   "imetn/SurgeToolkit": "# SurgeToolkit\n<h4 align=\"center\">\n  <br><span style=\"color:gray\">Surge for macOS & iOS</span><br>\n</h4>\n> 简体中文 | [English](https://github.com/ennann/SurgeToolkit/blob/main/config/README_en.md)\n## 概述\n本仓库（`SurgeToolkit`）主要集成了各种与 Surge 软件相关的 Modules、Scripts 等工具。\n## 三平台模板\n| 平台 | 模板 |\n| --- | --- |\n| iOS | [Surge.iOS.example.conf](Templates/Surge.iOS.example.conf) |\n| macOS | [Surge.macOS.example.conf](Templates/Surge.macOS.example.conf) |\n| tvOS | [Surge.tvOS.example.conf](Templates/Surge.tvOS.example.conf) |\n模板统一提供 Self/Public、地区和用途三层策略，其中 Speedtest 与 Download 支持优先直连。使用前请阅读 [模板说明](Templates/README.md)。\n## 自有规则\n| 规则 | 用途 |\n| --- | --- |\n| [Crypto Exchanges](Rules/crypto.list) | Bybit、MEXC 网页、App、REST API、WebSocket 与区域站点 |\n| [Bybit Legacy URL](Rules/bybit.list) | 兼容旧配置，规则内容与 Crypto Exchanges 一致 |\n| [Hubeiqiao Direct](Rules/hubeiqiao.list) | Hubeiqiao 用户配置的专用直连域名 |\n| [Movies](Rules/movies.list) | 电影、剧集与网盘资源网站 |\n| [Speedtest Overlay](Rules/speedtest.list) | 补充 tvOS 上发现的测速服务器域名 |\n## 模块\n| 模块名称       | 模块地址                                                                                     | 模块功能              | 原作者                                       |\n| -------------- | -------------------------------------------------------------------------------------------- | --------------------- | -------------------------------------------- |\n| YouTube去广告   | [Surge模块链接](https://raw.githubusercontent.com/Maasea/sgmodule/master/YoutubeAds.sgmodule)   | YouTube去广告、短视频 | [Maasea](https://github.com/Maasea)           |\n| 微信阅读去广告   | [Surge模块链接](https://raw.githubusercontent.com/Maasea/sgmodule/master/WeRead.sgmodule)       | 去除无效信息          | [Maasea](https://github.com/Maasea)           |\n| Keep去广告      | [Surge模块链接](https://raw.githubusercontent.com/Maasea/sgmodule/master/KeepAds.sgmodule)       | 去除无效信息          | [Maasea](https://github.com/Maasea)           |\n| Bilibili        | [Surge模块链接](https://raw.githubusercontent.com/Maasea/sgmodule/master/Bilibili.Helper.sgmodule)| 去除无效信息          | [Maasea](https://github.com/Maasea)           |\n| 京东比价   | [Surge模块链接](https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Spec/JD_Price/Moore/JD_Price.sgmodule)   | 点击商品标题查看最"
+  }
+ },
+ "apps": [
+  {
+   "name": "Pinlist: App Wishlist",
+   "artist": "FrameFlow Technology Co., Ltd.",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2026-03-27",
+   "updated": "2026-10-18",
+   "version": "1.9.1",
+   "rating": 4.19,
+   "ratings": 16,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/pinlist-app-wishlist/id6761153745",
+   "desc": "Pinlist helps you explore apps worldwide and stay updated with the latest changes.\n\nBrowse apps across different regions, track updates, and keep your favorites in one place.\n\nKey Features:\n\n• Explore apps worldwide  \nDiscover apps by name, developer, or App Store ID.\n\n• Stay up to date  \nTrack new releases and updates in real time.\n\n• Favorites  \nSave apps you care about and revisit them anytime.\n\n• Clean and simple  \nDesigned with a minimal interface for a smooth experience.\n\nPinlist is built for users who want a better way to explore and keep track of apps across regions.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+   "country": "us"
+  },
+  {
+   "name": "Phote: Photo Memories",
+   "artist": "FrameFlow Technology Co., Ltd.",
+   "genre": "Photo & Video",
+   "price": "Free",
+   "released": "2026-09-14",
+   "updated": "2026-10-18",
+   "version": "1.1.6",
+   "rating": 5,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/phote-photo-memories/id6806742890",
+   "desc": "Organizing your photo library is a way to rediscover the moments that matter. Choose a way to browse and take it one photo at a time. When you come across a moment you'd almost forgotten, stay with it a little longer. Keep what you love, and set the rest aside to review later.\n\nRediscover your memories\n• Browse photos and videos one at a time with Photo Cards or Immersive Browse\n• Wander through your library at random and stumble upon moments you had forgotten\n• Follow a clear timeline through days, months, and years\n\nOrganize at your own pace\n• Swipe left or right to browse, up to favorite, or down to add to Cleanup\n• Review everything together before deleting, with time to change your mind\n• Compare similar photos, or narrow your library by date or location\n\nGive an old device new life\n• Turn an unused iPhone or iPad into a digital photo frame that shuffles through your memories\n• See ",
+   "country": "us"
+  },
+  {
+   "name": "Picwser: Photo Culling",
+   "artist": "FrameFlow Technology Co., Ltd.",
+   "genre": "Photo & Video",
+   "price": "$1.99",
+   "released": "2026-08-31",
+   "updated": "2026-09-19",
+   "version": "1.0.2",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/picwser-photo-culling/id6803905915",
+   "desc": "Open a folder. Find your best photos.\n\nPicwser is a native Mac photo browser for viewing, selecting, and refining your photographs. Work directly with folders, without importing your library or creating an account.\n\nBrowse your way\n• Switch between a single-photo view, a spacious photo wall, and a calendar.\n• Browse common image formats, supported RAW files, and videos.\n• Inspect capture dates, camera details, and file information.\n\nFind your best shots.\n• Rate photos from one to five stars with the keyboard.\n• Favorite your best shots and mark unwanted photos for a final review.\n• Filter by rating and work with multiple photos at once.\n• Copy, move, share, or open originals in another editor.\n\nKeep dates and places close\n• Return to photos by capture date.\n• See your photos on a map and add missing locations.\n• Keep location changes in Picwser, or explicitly write GPS to supported origi",
+   "country": "us"
+  }
+ ]
+}

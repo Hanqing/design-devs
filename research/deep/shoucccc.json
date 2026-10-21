@@ -1,0 +1,309 @@
+{
+ "handle": "shoucccc",
+ "sites": [
+  {
+   "url": "https://scf.so",
+   "ok": true,
+   "title": "Chaofan Shou",
+   "description": "",
+   "stack": [
+    "Google Fonts",
+    "React"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "",
+   "home_text": "Chaofan Shou \nI am now working on AI infra. Before that, I was a software engineer building high-performance SVM blockchain at Solayer . I joined Solayer through its acquisition of Fuzzland , the Web3 security and HFT company I co‑founded and served as CTO. Fuzzland has helped rescue $30M+ from hackers and is currently protecting/managing over $5B in assets. \n Veridise , leading development of automated testing tools for smart contracts and blockchains, and before that I was a security engineer at Salesforce, working on SAST solutions, internal network‑scanning services, and data pipelines. -->\nEarlier in my career, I pursued a Ph.D. at UC Berkeley in the Sky Computing Lab , advised by Prof. Koushik Sen , but I dropped out :p. My interests include program analysis, security, and distributed systems.\n Interested in blockchain security and open to work? => We are hiring @ FuzzLand \nPublications \n [CCS '24] - Unveiling Collusion-Based Ad Attribution Laundering Fraud: Detection, Analysis, and Security Implications \nTong Zhu, Chaofan Shou , Zhen Huang, Guoxing Chen, Xiaokuan Zhang, Yan Meng, Shuang Hao, Haojin Zhu \n [CoNext '24] - Query Planning for Robust and Scalable Hybrid Network Telemetry Systems \n Chaofan Shou , Rohan Bhatia, Arpit Gupta, Rob Harrison, Daniel Lokshtanov [PDF] \n [ISSTA '23] - ItyFuzz: Snapshot-Based Fuzzer for On-Chain Smart Contract Auditing \n Chaofan Shou , Shangyin Tan, Koushik Sen [PDF] [Code] [Slides] \n [ISSTA '23] - Rare-Seed Generation for Fuzzing \nSeemanta Saha, Laboni Sarker, Md Shafiuzzaman, Chaofan Shou , Albert Li, Ganesh Sankaran, Tevfik Bultan [PDF] \n [IOT '22] - Targeted Black-Box Side-Channel Mitigation for IoT \nİsmet Burak Kadron, Chaofan Shou , Emily O'Mahony, Yılmaz Vural, Tevfik Bultan [PDF] [Code] \n [ASE '21] - CorbFuzz: Checking Browser Security Policies with Fuzzing \n Chaofan Shou , İsmet Burak Kadron, Qi Su, Tevfik Bultan [PDF] [Code] [Slides] \nTalks \n [BuildETH '23] - MEV + Fuzzing = DeFi Firewall \nRepresenting FuzzLand Inc. [Slides] [Event] \n [SBC '22] - Chainsaw: Breaking Blockchains With Coverage-Guided Fuzzing \nRepresenting Veridise Inc. [Slides] [Event] \nThings I Broke \nI worked on a few bug bounty programs in 2020-2022. The total amount of bounty I earned reaches $1.9M (including tokens locked). Selected bugs I've reported:\n Security Issues \n2024 - RisingWave RCE on any compute node with read-only/low-privilege accounts. \n2024 - Devin.ai SSRF leading to user info leaks and complete system takeover. \n2024 - Kaito API issues leading to user info leaks and complete system takeover. \n2024 - Etherscan XSS + Cloudflare bypass that can take over all accounts / facilitate phishing. \n2023 - Twitter XSS + CSRF + CSP bypass leading to all Twitter accounts take over. \n2023 - Gate.io Exchange CSRFs leading to manipulation of user positions. \n2023 - FreedomFi Authorization bypass leading to command execution (RCE) on 7000+ miners. \n2022 - Polygon Edge Multiple validator DoS leading to easy 51% (2/3 technically) attack. \n2022 - DogeChain Multiple validator DoS & genesis contracts critical logic flaws => fixed with a fork. \n2022 - FTX OTC Reflected XSS requiring certain user interaction. \n2022 - IBAX Network Multiple validator DoS leading to easy 51% attack. \n2022 - FastRLP Index out of range during parsing block data. \n2022 - Ethgo Memory vulnerabilities during decoding transaction & log. \n2022 - Deeper Network Memory vulnerabilities in pkt parsing leading to RCE on 30k+ miners. \n2021 - React Native / Hermes Memory vulnerability due to recursive JS proxy. \n2021 - FTX US Request smuggling leading to potential users trade information leakage. \n2021 - CVS Pharmacy SSRF + TLS Poisoning leading to public access of all internal systems. \n2021 - Helium Incorrect logic leading to easy manipulation of mining mechanism. \n2020 - NetEase Email XSS + CSP bypass, can lead to all business customer account takeover. \n2020 - Baidu Multiple stored XSS, can lead to 218M account takeover. \n2019 - Gogs Race conditions leading to policy bypass. \n2019 - NetEase XSS + CSRF, can lead to 1 billion+ account takeover. \n2016 - Shanghai Government 100+ SQL injection / LFI / etc. \n Privacy Issues \n2021 - Comcast Malicious user can hijack network traffic. \n2021 - Google Nest Side-channel leading to leakage of user actions. \n2021 - MyQ Side-channel leading to leakage of user actions. \n2021 - Samsung Home Side-channel leading to leakage of user actions. \n2020 - iQIYI User PII leakage in APIs. \n2020 - Mail.ru User PII ",
+   "github_links": [
+    "fuzzland",
+    "shouc"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "fuzzland",
+  "user": {
+   "name": "fuzzland",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": "🚀 Towards Next Generation Security Infra",
+   "public_repos": 67,
+   "followers": 480,
+   "created_at": "2022-07-22T19:22:10Z",
+   "twitter_username": "fuzzland_",
+   "type": "Organization"
+  },
+  "repos": [
+   {
+    "full_name": "fuzzland/ityfuzz",
+    "description": "Blazing Fast Bytecode-Level Hybrid Fuzzer for Smart Contracts",
+    "stargazers_count": 1119,
+    "forks_count": 184,
+    "language": "Rust",
+    "homepage": "https://docs.ityfuzz.rs",
+    "created_at": "2022-10-25T00:09:33Z",
+    "pushed_at": "2025-12-10T00:09:48Z",
+    "topics": [
+     "aptos",
+     "blockchain",
+     "concolic-execution",
+     "ethereum",
+     "evm",
+     "fuzzing",
+     "move",
+     "smart-contracts",
+     "solidity",
+     "sui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/sui-mev",
+    "description": "Sui Arbitrage Bot",
+    "stargazers_count": 789,
+    "forks_count": 503,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2025-04-02T19:04:13Z",
+    "pushed_at": "2025-04-02T19:04:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/fourmeme-god",
+    "description": "FOUR.MEME Sandwich Bot",
+    "stargazers_count": 237,
+    "forks_count": 116,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2024-08-24T08:33:36Z",
+    "pushed_at": "2024-08-24T09:43:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/bonkfun-sniper",
+    "description": "Bonkfun Migration Sniper",
+    "stargazers_count": 179,
+    "forks_count": 77,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2025-08-13T22:27:21Z",
+    "pushed_at": "2025-08-13T22:27:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/audit_gpt",
+    "description": "Fine-tuning GPT for Smart Contract Auditing",
+    "stargazers_count": 165,
+    "forks_count": 21,
+    "language": "Jupyter Notebook",
+    "homepage": "",
+    "created_at": "2023-04-23T05:38:37Z",
+    "pushed_at": "2023-04-23T06:08:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/girlfriend",
+    "description": "Girl Friend <- Generate Foundry Fork Test from Attack Transaction",
+    "stargazers_count": 130,
+    "forks_count": 16,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2024-03-13T08:36:06Z",
+    "pushed_at": "2024-08-19T01:59:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/wallet-watcher",
+    "description": "Watch MEV bots PnL",
+    "stargazers_count": 127,
+    "forks_count": 23,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2024-12-04T10:16:00Z",
+    "pushed_at": "2024-12-04T16:37:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/invgen",
+    "description": "Generate invariants for Foundry projects with LLM",
+    "stargazers_count": 108,
+    "forks_count": 12,
+    "language": "Solidity",
+    "homepage": "",
+    "created_at": "2024-08-29T21:15:52Z",
+    "pushed_at": "2024-08-30T02:43:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/blazctf-2023",
+    "description": "Challenges and Solutions of Blaz CTF 2023",
+    "stargazers_count": 46,
+    "forks_count": 9,
+    "language": "Solidity",
+    "homepage": "",
+    "created_at": "2023-12-03T14:30:26Z",
+    "pushed_at": "2023-12-05T15:20:54Z",
+    "topics": [
+     "ctf",
+     "writeup"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/snapshots",
+    "description": "Sync your Reth archive nodes in hours, instead of weeks, with our snapshots.",
+    "stargazers_count": 42,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "",
+    "created_at": "2024-07-26T18:23:58Z",
+    "pushed_at": "2024-07-26T21:34:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/blazctf-2024",
+    "description": null,
+    "stargazers_count": 40,
+    "forks_count": 5,
+    "language": "Solidity",
+    "homepage": null,
+    "created_at": "2024-09-23T00:45:34Z",
+    "pushed_at": "2024-09-23T01:07:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/writeup",
+    "description": "CTF Writeups",
+    "stargazers_count": 36,
+    "forks_count": 6,
+    "language": null,
+    "homepage": "",
+    "created_at": "2023-10-30T00:03:20Z",
+    "pushed_at": "2023-11-26T16:32:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/rethdb",
+    "description": "Thread-safe implementation of revm DB that directly fetch data from Reth DB",
+    "stargazers_count": 27,
+    "forks_count": 5,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2024-07-09T20:19:35Z",
+    "pushed_at": "2024-08-02T04:43:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/move-fuzzer",
+    "description": "WIP - Aptos / Movement / Sui Module Fuzzer",
+    "stargazers_count": 16,
+    "forks_count": 3,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2025-09-10T02:04:03Z",
+    "pushed_at": "2025-12-02T09:01:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/revm-fork-db",
+    "description": "A revm::Database implementation built on top of synchronous HTTP client.",
+    "stargazers_count": 14,
+    "forks_count": 2,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2024-02-26T03:06:53Z",
+    "pushed_at": "2024-07-03T03:26:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/blazo",
+    "description": "Run Fuzzing with ItyFuzz Easily",
+    "stargazers_count": 7,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2023-10-20T18:04:43Z",
+    "pushed_at": "2024-02-23T19:29:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/luning",
+    "description": "[WIP] Generate Foundry-style Call Trace for LLVM Targets (C/C++)",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "C++",
+    "homepage": "",
+    "created_at": "2023-10-27T15:29:11Z",
+    "pushed_at": "2024-07-10T16:25:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fuzzland/evrouter",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 4,
+    "language": "Solidity",
+    "homepage": null,
+    "created_at": "2024-09-06T06:21:10Z",
+    "pushed_at": "2024-09-07T00:43:00Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 31,
+  "languages": [
+   [
+    "Rust",
+    13
+   ],
+   [
+    "Solidity",
+    7
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "Jupyter Notebook",
+    1
+   ],
+   [
+    "C++",
+    1
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "fuzzland/ityfuzz": "# 🍦 ItyFuzz\n[\\[Docs\\]](https://docs.ityfuzz.rs) /\n[\\[Research Paper\\]](https://dl.acm.org/doi/pdf/10.1145/3597926.3598059) / \n[\\[Twitter\\]](https://twitter.com/fuzzland_) / \n[\\[Discord\\]](https://discord.com/invite/qQa436VEwt) / \n[\\[Telegram\\]](https://t.me/fuzzland) \nItyFuzz is a blazing-fast EVM and MoveVM smart contract hybrid fuzzer that combines symbolic execution and fuzzing to find bugs in smart contracts offchain and onchain. \n## Install\n```\ncurl -L https://ity.fuzz.land/ | bash\nityfuzzup\n```\n## Example\n#### Fuzzing Deployed Smart Contract\nGenerating full exploit to steal funds from a [contract](https://polygonscan.com/address/0x5d6c48f05ad0fde3f64bab50628637d73b1eb0bb) with flashloan + read-only reentrancy vulnerability on Polygon.\n```bash\n# Fork Polygon at block 35718198 and fuzz the contract\nETH_RPC_URL=https://polygon-rpc.com ityfuzz evm\\\n    -t 0xbcf6e9d27bf95f3f5eddb93c38656d684317d5b4,0x5d6c48f05ad0fde3f64bab50628637d73b1eb0bb\\\n    -c polygon\\\n    --flashloan\\\n    --onchain-block-number 35718198\\\n    --onchain-etherscan-api-key TR24XDQF35QCNK9PZBV8XEH2XRSWTPWFWT # <-- Get your own API key at https://polygonscan.com/apis if this one is rate limited \n```\n#### Foundry Invariant Test\nRun a Foundry invariant test defined in `Invariant` contract in `test/Invariant.sol`.\n```bash\n# Replaces: forge test --mc test/Invariant.sol:Invariant\nityfuzz evm -m test/Invariant.sol:Invariant -- forge test\n```\nFor other examples and usages, check out the [docs](https://docs.ityfuzz.rs).\n## Performance\nOn large real-world smart contract projects, ItyFuzz finds 126 vulnerabilities while Echidna finds 0 and Mythril finds 9. For details, refer to [backtesting](https://docs.ityfuzz.rs/tutorials/exp-known-working-hacks), [research paper](https://dl.acm.org/doi/pdf/10.1145/3597926.3598059), and [new bugs discovered](#bugs-found).\nOn small real-world smart contracts (ERC20, lottery, etc.), ItyFuzz gains 10% more test coverage than academia state-of-the-art fuzzer SMARTIAN using 1/30 of the time.\n<p align=\"middle\">\n</p>\nOn Consensys's [Daedaluzz](https://github.com/Consensys/daedaluzz) benchmark, ItyFuzz *without symbolic execution* finds 44% more bugs than Echidna and 31% more",
+   "fuzzland/sui-mev": "# Sui MEV Bot\n## Run \nStart the bot with your private key.\n```bash\ncargo run -r --bin arb start-bot -- --private-key {}\n```\n## Supports\n- BlueMove\n- FlowX\n- Aftermath\n- Cetus \n- Kriya\n- Abex\n- Navi\n- Turbos\n- Deepbook\n- Shio\n## Relay\nIf you have a validator, you can let the validator push mempool transactions to your relay, which then send to the bot.\n```bash\ncargo run -r --bin relay\n```",
+   "fuzzland/fourmeme-god": "# FOUR.MEME Sandwich Bot\nThis bot is built by [@tonyke-bot](https://github.com/tonyke-bot) and [@shouc](https://github.com/shouc) using [alloy](https://github.com/alloy-rs/alloy) and [burberry](https://github.com/tonyke-bot/burberry) (mod of [artemis](https://github.com/paradigmxyz/artemis)) \n### Build\nEnsure you have Rust installed via https://rustup.rs/\n```\ncargo build --release\n```\n### Run\nBacktest on a tx (e.g., [0x55743...f8ec2](https://bscscan.com/tx/0x557430d9a09e6ea985fada2588152225bffab5c0ef0d53e5a9c666804baf8ec2)):\n```\ncargo run --release -- run --ipc-url [Your BSC Node IPC] 0x557430d9a09e6ea985fada2588152225bffab5c0ef0d53e5a9c666804baf8ec2\n```\nStart the bot:\n```\ncargo run --release -- start --ipc-url [Your BSC Node IPC] --private-key [Your Private Key with >8BNB]\n```\n",
+   "fuzzland/bonkfun-sniper": "# BonkFun Migration Sniper\nThe bot predicts the Raydium CPMM accounts before the migration and starts blasting the swap transactions before migration really happens.\n## Configuration\nThe bot accepts the following command-line arguments:\n- `--rpc-url` - Solana RPC endpoint (default: http://localhost:8899)\n- `--keypair-path` - Path to wallet keypair file (default: keypair.json)\n- `--token-mint` - Target token mint address\n- `--amount-in-lamports` - Trading amount in lamports (default: 1000000000)\n- `--jito-keypair-path` - Path to Jito keypair file, remove relevant code if you don't want to use it\n- `--bloxroute-api-key` - Bloxroute API key, remove relevant code if you don't want to use it\n- `--zeroslot-api-key` - 0slot API key, remove relevant code if you don't want to use it\n## Building\n```bash\ncargo build --release\n```\n## Running\n```bash\ncargo run --release -- \\\n  --rpc-url <RPC_URL> \\\n  --keypair-path <KEYPAIR_PATH> \\\n  --token-mint <TOKEN_MINT_ADDRESS> \\\n  --amount-in-lamports <AMOUNT_IN_LAMPORTS> \\  // 1 SOL = 10^9 lamports\n  --jito-keypair-path <JITO_KEYPAIR_PATH> \\\n  --bloxroute-api-key <API_KEY> \\\n  --zeroslot-api-key <API_KEY>\n```\n## Credits\nBuilt by @publicqi, @tonykebot, and @shoucccc\n"
+  }
+ },
+ "apps": []
+}

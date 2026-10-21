@@ -1,0 +1,252 @@
+{
+ "handle": "plidezus",
+ "sites": [
+  {
+   "url": "https://shaonan.blog",
+   "ok": true,
+   "title": "少楠的松节油",
+   "description": "毕加索说：艺术评论家聚在一起谈论的是形式、结构和意义，而艺术家们在一起，则是讨论在哪里可以买到便宜的松节油。在这里把自己作为方法，调试自己，也调试自己打造的产品。",
+   "stack": [
+    "Hugo 0.147.7"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-cn",
+   "home_text": "共鸣，在掌控之外\n前些日子带妻女去了乌镇旁边的濮院古镇。虽精美且出片，但内心丝毫没有波澜。\n好像所有的一切都是设计好的：这个建筑应该从这里拍，你应该站在那个最佳取景位置，甚至可以换点交子当一会 NPC。\n... \n与其反复试探，不如推到极致\n和同事聊一个测试方案，我建议他把几个有利条件全部叠满，用最极端的配置去测一次。他愣住了：为什么要这么极端？\n我一时说不清这个思路从哪来的，只能给他讲例子。\n... \nAI 时代，品味是可训练的\n调了大半天 System Prompt，意识到一件以为早就理解的事……\n当执行不再是问题，衡量标准和测试用例就变得更重要了。\nAI 让「做出来」的成本几乎为零，但「判断哪个更好」的能力反而更稀缺。叠加 AI 本身的不确定性和数据的私有性，衡量和测试更难一些。\n... \nAI 让生产效率不再是瓶颈，然后呢？\n「AI跃迁者调研」是 AI 透镜的深度对谈系列。跃迁不是线性的进化，而是推翻迭代再重建。我们每期会邀请一位AI跃迁者——AI 原生创业者、AI转型的企业一号位或用 AI 重做自己的超级个体，分享他们想的结论、拆的过程、建的逻辑、交的学费，和在持续变化里守住的东西，给同样走在这条路上的人一些真实的参照。\n... \n产品和运营的关系\n产品像建筑，运营像经营。建筑盖好了只是开始，让人愿意来、反复来，靠的是经营。运营不是产品完成之后的下游工序，它会反过来重新定义产品是什么，也会决定产品能不能持续成立。\n... \n苛急：一种寄生在美德里的焦虑\n这是《宽简》的 B 面。\n欧阳修说「宽者不为苛急，简者不为繁碎」——宽简的对立面不是严格、不是认真，是「苛急」和「繁碎」这两件事。繁碎讲的是密度，苛急讲的是速度。要治宽简，必须先认得苛急长什么样。\n... \n苏轼在平山堂：不哀悼，而承接\n元丰二年（1079 年），苏轼 44 岁，从徐州调任湖州的路上第三次经过扬州，登平山堂。此时欧阳修已去世七年。\n几个月后，苏轼遭遇「乌台诗案」，被下御史台狱、差点丢命，然后贬黄州。这首词是苏轼人生真正转折前的最后一次从容。他自己不知道灾难在前面等着，但那种「半生弹指」的感慨，冥冥中已经有预感。\n... \n任何为了，都是可疑的\n春节假期伊始，在家重看《剑风传奇》，看格斯如何从一个漠不关心他人，变成有牵挂，再变成信任团队的过程。\n初一开始和家人在山里旅行，没有带电纸书，又有点心痒，索性就和 Claude 聊起来漫画背后的故事，比如作者三浦本人的变化，以及隐藏很深的暗线。\n... \n珍惜已经存在的东西，把已有的东西做好\n红杉资本合伙人 Pat Grady 说：最好的资源利用方式 —— 把已有的东西做好。\n这让我很意外。因为作为创业者，最大的冲动就是来自于从零到一创造新的东西；但这也是某种诅咒，尤其是在自己深陷泥潭，或者没有巨大增长的时候，内心这种冲动反而会像恶魔般不断低语：是不是应该创造一个更新、增长更快、可能更大的产品。\n... \n形式、情境与模式：如何避免不必要的复杂\nChristopher Alexander 于2022/03/17 过世，享年 85 岁。他被广泛地描述为过去半个世纪最有影响力的建筑师和城市规划专家。 作为一位著名的建筑师，其以人为本的设计理念影响了诸如城市设计，软件设计和社会学等诸多领域，甚至被认为是模式语言运动之父 —— Wikipedia 便是来自于他的这种设计理念。\n而我在 2014 年的时候读到其 1979 年的著作《建筑的永恒之道》，被其隽永的语言所打动，可以说改变了看待「产品设计」的视角。\n但由于个人能力原因，无法消化其背后的思想，只断断续续记录了一些碎片。时隔多年再次阅读，希望能从中找到建筑设计与产品设计的交叉点。\n本文也受到 Basecamp 产品管理专家 Ryan Singer 的演讲《Designing with Forces： How to Applied Christopher Alexander in Everyday Work》的启发。\n...",
+   "github_links": [
+    "adityatelange"
+   ],
+   "subpages": {
+    "https://shaonan.blog/about/": "主页 \n 关于\n 少楠的个人介绍、正在经营的产品、过往项目、创作入口和生活轨迹。\n本名少楠，生于八五，来自中原；\n导演未遂，遂做产品，I N T J；\n无锡求学，上海创业，定居杭州；\n养猫三只，爱读科幻，常在山林； \n正在经营 # \n flomo （Since 2021 with Lightory） \n 小报童 （Since 2022 with Lightory） \n 幕布 （Since 2023 with Lightory） \n 羔羊计划 (Since 2025 with fonter Lightory) \n偶尔创作 # \n 即刻 \n 松节油 （专栏） \n 奇想驿 （播客） \n《 笔记的方法 》 \n曾经做过 # \n摆摆书架（2010-2011） with Lightory \nEverMemo（2013-2014） with Zhaozhao \nAnimeTaste（2008-2015） with Mr.T / 小简 / 小菜 / TCCOOL / GavinFoo / Lightory / Daimajia \n 产品沉思录 （2017 - 2024）with fonter / Lightory \n 习惯点点 （Since 2023） \n 如果相机 （2024 - 2025）/w Lightory / Luke \n一些爱好 # \n🎻 Music \n📷 Photos \n📔 Reading \n🐱 Cat’s island \nLife Log # \n85 年，生于郑州； \n95 年，拥有第一台二手 80486，热爱鼠绘胜于编程； \n98 年，初一想退学去武汉参加首届星际争霸大赛，因怂未遂； \n01 年，考入艺术高中，但本意是想学画漫画； \n04 年，考入江南大学设计学院动画系，但做了四年「蠡湖」杂志及网站； \n08 年，毕业，告别动画行业，闯荡上海滩，去游戏公司画场景； \n09 年，和女友在上海动物园捡到第一只猫，起名见人嚎； \n10 年，成为 iWeekly 首位设计师；领养第二只猫冰激凌；和 Lightory 合作二手书漂流网站「摆摆书架」； \n11 年，鬼使神差，进入百姓网，成为第一个不会写代码的产品经理；捡到第三只猫，起名小小子； \n12 年，和女友结婚，与三只猫咪一起，成为 猫岛物语 的岛民； \n14 年，辞职，和老友 Zhaozhao 成立 Mudlab，做食色、饭事、城市日常； \n16 年底承认创业失败，四处做产品咨询糊口，开启付费邮件组「产品沉思录」； \n17 年，加入丁香园，负责丁香医生互联网的筹备建设； \n18 年，全家决定定居杭州，从此成为了九溪、龙井、苏堤的常客； \n20 年，开始尝试创业做「 flomo · 浮墨卡片笔记 」 \n21 年，离开丁香园，和老友 Lightory 成立旧工业联合体，致力于成为 Small Businesses Owner ； \n22 年，推出付费专栏业务「 小报童 」；结婚十周年，依旧栖居于猫岛； \n23 年，收购「 幕布 · 大纲笔记 」；同年完成《 笔记的方法 》；孵化「习惯点点」； \n24 年，成为一名父亲；暂停「产品沉思录」的连载；见人嚎回喵星； \n25 年，推动 flomo 进入 AI 时代；重启「产品沉思录」衍生的的「羔羊计划」；开始撰写《笔记的真相》； \n…… \n躬身自省，身卑才进"
+   },
+   "feed": {
+    "url": "https://shaonan.blog/index.xml",
+    "count_seen": 75,
+    "items": [
+     {
+      "title": "共鸣，在掌控之外",
+      "date": "Mon, 21 Sep 2026 09:45:00",
+      "url": "https://shaonan.blog/posts/20260921-gongming-zaizhangkongzhiwai/"
+     },
+     {
+      "title": "与其反复试探，不如推到极致",
+      "date": "Wed, 08 Jul 2026 21:41:00",
+      "url": "https://shaonan.blog/posts/20260708-jizhi-ceshi/"
+     },
+     {
+      "title": "AI 时代，品味是可训练的",
+      "date": "Sun, 24 May 2026 21:44:00",
+      "url": "https://shaonan.blog/posts/20260524-pinwei-shi-ke-xunlian-de/"
+     },
+     {
+      "title": "AI 让生产效率不再是瓶颈，然后呢？",
+      "date": "Wed, 29 Apr 2026 12:00:00",
+      "url": "https://shaonan.blog/posts/20260429-ai-rang-shengchan-xiaolv-buzaishi-pingjing/"
+     },
+     {
+      "title": "产品和运营的关系",
+      "date": "Tue, 28 Apr 2026 20:00:00",
+      "url": "https://shaonan.blog/posts/20260428-chanpin-he-yunying-de-guanxi/"
+     },
+     {
+      "title": "苛急：一种寄生在美德里的焦虑",
+      "date": "Fri, 24 Apr 2026 16:00:00",
+      "url": "https://shaonan.blog/posts/20260424-keji/"
+     },
+     {
+      "title": "苏轼在平山堂：不哀悼，而承接",
+      "date": "Fri, 24 Apr 2026 12:00:00",
+      "url": "https://shaonan.blog/posts/20260424-reng-ge-yangliu-chunfeng/"
+     },
+     {
+      "title": "任何为了，都是可疑的",
+      "date": "Fri, 27 Feb 2026 00:00:00",
+      "url": "https://shaonan.blog/posts/20260227-renheweiledoushikeyide/"
+     },
+     {
+      "title": "珍惜已经存在的东西，把已有的东西做好",
+      "date": "Fri, 13 Feb 2026 00:00:00",
+      "url": "https://shaonan.blog/posts/20260213-zhenxiyiyou/"
+     },
+     {
+      "title": "2025 的吉光片羽",
+      "date": "Fri, 19 Dec 2025 00:00:00",
+      "url": "https://shaonan.blog/jiguangpianyu/20251219-jiguangpianyu-2025/"
+     },
+     {
+      "title": "形式、情境与模式：如何避免不必要的复杂",
+      "date": "Sun, 22 Jun 2025 21:05:01",
+      "url": "https://shaonan.blog/posts/20250729-xingshi-qingjing/"
+     },
+     {
+      "title": "语言的暴力，往往不是对别人，而是对自己",
+      "date": "Sun, 15 Jun 2025 11:16:47",
+      "url": "https://shaonan.blog/posts/20250729-yuyandebaoli/"
+     },
+     {
+      "title": "flomo：一条长坡薄雪的道路",
+      "date": "Sun, 13 Apr 2025 18:47:00",
+      "url": "https://shaonan.blog/posts/20250413-flomo/"
+     },
+     {
+      "title": "2024 的吉光片羽",
+      "date": "Thu, 19 Dec 2024 00:00:00",
+      "url": "https://shaonan.blog/jiguangpianyu/20241219-jiguangpianyu-2024/"
+     },
+     {
+      "title": "默认值里，藏着产品经理的良知",
+      "date": "Mon, 07 Oct 2024 14:53:25",
+      "url": "https://shaonan.blog/posts/20220924-morenzhili/"
+     },
+     {
+      "title": "断章 2024 · 生命的月台",
+      "date": "Wed, 04 Sep 2024 10:13:37",
+      "url": "https://shaonan.blog/duanzhang/20240904-duanzhang-2024/"
+     },
+     {
+      "title": "设计协议，而非只设计产品",
+      "date": "Mon, 12 Aug 2024 00:00:00",
+      "url": "https://shaonan.blog/posts/20240323-shejixieyi/"
+     },
+     {
+      "title": "生命的压舱石",
+      "date": "Sun, 26 May 2024 11:28:16",
+      "url": "https://shaonan.blog/posts/20240610-shengmingdeyacangshi/"
+     },
+     {
+      "title": "唤起谁心中的向往感",
+      "date": "Tue, 23 Apr 2024 11:04:01",
+      "url": "https://shaonan.blog/posts/20240511-huanqixiangwanggan/"
+     },
+     {
+      "title": "无效投资：假阅读的三种形式",
+      "date": "Sat, 23 Mar 2024 10:23:24",
+      "url": "https://shaonan.blog/posts/20240406-wuxiaotouzi/"
+     },
+     {
+      "title": "与坚持无关：重新理解长期主义",
+      "date": "Mon, 11 Mar 2024 08:12:55",
+      "url": "https://shaonan.blog/posts/20240322-yujianchiwuguan/"
+     },
+     {
+      "title": "别迷信技术，工程能力才是真门槛",
+      "date": "Mon, 12 Feb 2024 10:06:01",
+      "url": "https://shaonan.blog/posts/20240309-biemixinjishu/"
+     },
+     {
+      "title": "建立系统，而非目标",
+      "date": "Sun, 24 Dec 2023 21:34:39",
+      "url": "https://shaonan.blog/posts/20240106-jianlixitong/"
+     },
+     {
+      "title": "2023 的吉光片羽",
+      "date": "Tue, 19 Dec 2023 00:00:00",
+      "url": "https://shaonan.blog/jiguangpianyu/20231219-jiguangpianyu-2023/"
+     },
+     {
+      "title": "和痛苦的关系，定义了我们是谁",
+      "date": "Sun, 17 Dec 2023 00:00:00",
+      "url": "https://shaonan.blog/posts/20230115-hetongkudeguanxi/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://flomoapp.com",
+   "ok": true,
+   "title": "flomo · 浮墨笔记",
+   "description": "像发微博一样记笔记，记录你想法的川流。全平台覆盖，还支持微信服务号输入。",
+   "stack": [],
+   "hosting": [],
+   "lang": "",
+   "home_text": "flomo 101 \n 下载 \n 会员 \n 联系我们 \n | \n 登录 \n 免费注册 \n 登录 \n flomo 101 \n 下载 \n 会员 \n 联系我们 \n持续不断记录， 意义自然浮现 \n持续不断记录\n 意义自然浮现 \nflomo 浮墨笔记，不仅能帮你快速记录，还能帮你更好回顾 \n快速记录想法，及时回顾笔记。\n从一张卡片开始，打造你的知识川流。 \n 免费注册 \n 已经有账号？点此登录 \n更快记录 \n无需格式、无需排版、无需分类，通过微信、APP、网页、插件等方式 \n 随时随地记录你的想法，就像微信聊天一样简单 \n💡 \n在哪有灵感\n就在哪里记 \n极简输入，全平台支持，甚至能在微信内输入 \n 了解详情 \n🥳 \n怎样更顺手\n那就怎样记 \n文字、拍照、扫描…… \n 了解详情 \n更好回顾 \n通过标签与搜索，让你回顾过往记录时井井有条 \n 通过桌面小部件、推送、微信提醒等多种方式，让你的过往记录发挥更大价值 \n🎉 \n每次解锁手机\n都是一次回顾 \n多种回顾方式，让过往记录发挥更大价值 \n 了解详情 \n🪄 \n连点成线\n启发新视角 \n相关笔记，帮你探索笔记间隐藏的联系 \n 了解详情 \n🗂️ \n用标签与搜索\n回顾不成难题 \n通过标签与搜索，找到过往记录很容易 \n 了解详情 \n📊 \n多维度统计\n让习惯自然养成 \n多达八个维度统计分析，让你更了解自己 \n 了解详情 \n全平台同步，随时记录 \n全平台同步 \n从手机到桌面端，flomo 现已覆盖主流平台，不止如此，多设备永久免费同步 \n利用 API 打造个人工作流 \n打造个人工作流 \n使用 API 可以方便导入微信读书、得到读书、即刻动态等。\n目前已和数十款产品进行联动，更多产品陆续对接中 \n我们不擅长 \nflomo 只专注于记录与整理想法，拒绝 All in one \n不贩卖个人隐私数据 \n不贩卖隐私数据 \n保护用户隐私永远是最重要的事情。我们不会通过贩卖隐私数据获得利润。\n因此，你的订阅将支持我们做得更好。 \n打造知识川流，从此刻开始 \n打造知识川流\n从此刻开始 \n在这里，我们只关注能否帮你记录更多想法，打造知识川流。\nflomo = flow + memo \n 免费注册 \n产品 \n 桌面端 \n 手机端 \n 网页插件 \n 隐私协议 \n 用户协议 \n资源 \n flomo 101 \n 快速上手 \n 常见用法 \n 思维方式 \n API 文档 \n联系我们 \n 微博 \n 即刻 \n 小红书 \n 联系我们 \n团队 \n 关于我们 \n 产品起源 \n 上海仙蒂网络科技有限公司 \n 沪ICP备17043019号-3 \n 沪公安31010102007209 \n关注服务号，申请内测",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://read.pmthinking.com/",
+   "ok": true,
+   "title": "产品沉思录 - Read Something Wonderful",
+   "description": "产品沉思录 - Read Something Wonderful。精选产品设计、产品经理思维与产品创新相关的优质内容，帮助产品从业者提升思维深度与专业能力。",
+   "stack": [],
+   "hosting": [],
+   "lang": "zh-CN",
+   "home_text": "产品沉思录 · Read Something Wonderful \n关于产品沉思录 \n人是个带「噪声」的信道。 \n我们发明工具、写文字，就是为了对抗这些噪声。 \n人声微弱，却能穿透混乱。 \n正因如此，我们创办「 产品沉思录™ 」，就是 为了追寻建造者的好奇心，传递追逐好奇的勇气。 \n在这里，我们像考古学家一样，挖掘卓越产品背后的脉络；像研究者一样，探索构建者的思想地图；像建造者一样，构建我们自己的产品。而这一切，都是为了回答： \n他们的好奇心从何而来？ \n他们如何走过这条建构之路？ \n我们如何获得构建属于自己之路的勇气？ \n正如 Vannevar Bush 在 1945 年 《As we may think》 所设想的： \n网络是一台即时出版机，可用来创造图书馆与数字花园。 \n于是自 2017 年伊始，我们便在此赛博空间中耕耘，至今已发布超过 300 期通讯，累计近百万字，试图斗胆做一些穿越时间的事情。 \n 过去埋藏在地下，挖出来时是煤炭，是你今天的炉火。 \nInspired by Matter",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "plidezus",
+  "user": {
+   "name": "LiuShaonan",
+   "company": "旧工业联合体",
+   "blog": "flomoapp.com",
+   "location": "Hangzhou",
+   "bio": "Cofounder of flomo/xiaobot",
+   "public_repos": 6,
+   "followers": 94,
+   "created_at": "2010-08-29T15:49:37Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "plidezus/aimozhen",
+    "description": "艾默镇",
+    "stargazers_count": 39,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "www.aimozhen.com",
+    "created_at": "2012-12-09T09:12:09Z",
+    "pushed_at": "2014-03-10T07:26:12Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "plidezus/flomo-skills",
+    "description": "Agent skill for saving Chinese flomo memo drafts from AI conversations",
+    "stargazers_count": 35,
+    "forks_count": 2,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-05-12T13:57:03Z",
+    "pushed_at": "2026-05-14T04:54:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "plidezus/growing-in-cracks",
+    "description": "Growing in Cracks",
+    "stargazers_count": 0,
+    "forks_count": 15,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-02-06T08:48:15Z",
+    "pushed_at": "2026-02-07T01:56:38Z",
+    "topics": [],
+    "archived": true
+   }
+  ],
+  "repo_count_nonfork": 3,
+  "languages": [
+   [
+    "JavaScript",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 20,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "plidezus/flomo-skills": "# flomo skills：保存提醒 + 昨日回声\n和 AI 聊得最起劲的那些句子，往往是你自己说出来的。\n但 AI 不是笔记本，它不替你记。关掉窗口，那些被对方点破的判断、临时蹦出来的标题、半夜两点的灵感，就一起溜走了。就算偶尔记进 flomo 了，过两天也很少会再翻——存下来的内容，最容易躺着不动。\n这是一组面向中文 flomo 用户的本地 agent skills。两个 skill 一头一尾，加上一份共享画像：\n- **flomo-save-reminder**：在 AI 对话里发现值得留下的内容，按你自己的写法整理成 memo 草稿，确认后再写入。让有价值的瞬间不溜走。\n- **flomo-daily-echo**：读取某一天的 memo 和相关旧 memo，从中找一条新旧之间真实存在的张力，生成一条可以继续讨论的「回声」，不是日报。让存下来的内容不只是躺着。\n- **flomo-shared**：共享的 profile 与偏好。让另外两个 skill 用同一份「你」。\n它们都不抢着替你做事，只在该停一下的时候停一下。\n## 核心原则\n- **触发要窄**：普通聊天不会因为出现「想法」「记录」「flomo」等词就自动触发。\n- **用户保留刹车**：写入 flomo、开启主动提醒、设置定时，都需要明确授权。\n- **你的写法只学一次**：两个 skill 共用同一份 profile，不重复学，也不互相污染。\n- **样本优先**：个性化来自真实 memo 样本和你确认保存过的内容，不来自 AI 想象。\n- **失败诚实**：读不到东西就说读不到，不假装做了。\n## flomo-save-reminder\n它分得清「这是值得回看的判断」和「这只是一句对话」——大部分时候它选择不打扰。\n它会停下来提醒你：\n- 你说「保存到 flomo」「记一下」「整理成 memo」\n- 你让它扫描当前对话，看有没有值得保存的内容\n- 你已经授权本轮轻提醒\n它不会冒出来：\n- 普通事实问答\n- 临时代码排障\n- AI 自己冒出来一段总结，但你没接话\n- 只有链接、摘录或信息转述，没有你自己的反应\n首次使用会先问你希望保存提醒多主动，再生成或读取共享 profile。默认只起草和提醒，写入前确认。\n## flomo-daily-echo\n它的目标不是「每日总结」，而是：\n> 从目标日期 memo 与相关旧 memo 中找出一个真实存在的张力，生成一条用户可能愿意继续讨论的回声。\n如果新旧 memo 之间没有张力、没有延续、没有反差，就不硬写。日报最容易写成空话，回声宁可沉默。\n### 触发\n只在你明确要求时才运行，例如：\n- 「看看昨天的 flomo」\n- 「昨日回声」\n- 「昨天能出来啥」\n- 「每日回顾」\n- 「dailyreview」\n普通聊天里出现「回顾」「记录」「Echo」等词，不应该触发。\n### 它会输出三种结果\n- **昨日回声**：新旧 memo 之间能说明张力、延续、反差或分叉。\n- **昨日观察**：有当日 memo，但旧 memo 证据不足；不叫「回声」。\n- **沉默**：没东西就不硬写。\n它优先看你自己反复回到的话题，而不是只按标签翻笔记。具体协议在 `SKILL.md` 里。\n## 安装\n### OpenAI Skills / Codex 兼容环境\n完整安装：\n```bash\ncp -R skills/flomo-shared ~/.codex/skills/\ncp -R skills/flomo-save-reminder ~/.codex/skills/\ncp -R skills/flomo-daily-echo ~/.codex/skills/\n```\n只安装保存提醒时，也建议同时安装 `flomo-shared`：\n```bash\ncp -R skills/flomo-shared ~/.codex/skills/\ncp -R skills/flomo-save-reminder ~/.codex/skills/\n```\n安装后重启 Codex。\n也可以让助手从 GitHub 安装：\n```text\nInstall the skills from https://github.com/plidezus/flomo-skills/tree/main/skills\n```\n### 其他 Agent 环境\n把需要的 skill 目录放到你的 agent 支持的技能目录中，或让 agent 直接读取对应 `SKILL.md`：\n```text\nskills/flomo-save-reminder/SKILL.md\nskills/flomo-daily-echo/SKILL.md\n```\n使用前确认 agent 具备这些能力：\n- 能读取相邻 skill 目录下的 `../flomo-shared/SKILL.md` 和 `../flomo-shared/profile.md`\n- 能访问 flomo MCP，或等价的 memo 搜索、相关笔记、创建、标签规范和用户 memory 工具\n- 能在写入 flomo 前先让用户确认\n## 目录结构\n```text\nskills/\n  flomo-shared/",
+   "plidezus/growing-in-cracks": "1. 打算写一本书，书名暂定《夹缝生长——小而美的产品创业》\n2. 因为拖延症 + 总是纠结目录，干脆试试开源发布，先把想要的内容都丢进来，再拼积木\n3. 欢迎朋友们提建议，想了解什么、有什么合适的案例推荐、觉得可以放进谁或哪个产品的故事等等\n## Changelog\n- 20250823，夹缝生长更好，还是夹缝生存更好。前段时间想了个结构，一个关键词 + 简单的解释 + 知识星球的故事 + 目前成功或者失败的实验\n- 20250702，考虑每个章节都是问题，一个小节回答一个问题。且结构考虑是结论先行 + 易于理解的故事 + 适当的分析讨论\n- 20250626，看到方军说阳志平的 7x7 的写法，7 章，每章 7 篇文章，20-30 页。用这个方式把工作量先切碎，就算写的东西不满意，也先写几十篇文章出来，然后再慢慢改，或许是种思路\n- 已经到了 01/01/2025，新年快乐，重启 flag\n- 今天是 25/04/2024，看看未来半年，会是怎样的进度 :)"
+  }
+ },
+ "apps": []
+}

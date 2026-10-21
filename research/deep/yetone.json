@@ -1,0 +1,451 @@
+{
+ "handle": "yetone",
+ "sites": [
+  {
+   "url": "https://usemagpie.ai",
+   "ok": true,
+   "title": "magpie",
+   "description": "一个地方给每个 Agent 选模型。Codex 用 DeepSeek，Claude Code 用 Kimi，Gemini CLI 用 GLM——在菜单栏里点一下，经由同一个本地网关。",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-CN",
+   "home_text": "每个 Agent 的模型， 一处搞定。 \nmagpie 让每个 Agent 都能用上每一个模型。供应商只需添加一次——DeepSeek、Kimi、GLM、Qwen、OpenRouter、Ollama，或你已经在付费的 Claude 和 ChatGPT 订阅——然后在 Codex、Claude Code、Gemini CLI 或任何 Agent 里一键选用。 \n Codex → DeepSeek V4 Pro \n Claude Code → Kimi K3 \n Gemini CLI → GLM-5.3 \n 下载 Mac 版 \n 用终端安装 \n 免费 · 开源 · macOS 12+ · Intel Mac · Windows 与 Linux \n赞助商 \n Claude 与 GPT 的一站式 API 网关，为 Claude Code 调优。 \n → \n 一个接口，接入全球顶尖 AI 模型，按量计费，低至原价 1 折。 \n → \n 成为赞助商 \n支持的 Agent \n Claude Code \n Codex \n Gemini CLI \n OpenCode \n MiMo Code \n DevEco Code \n Pi \n Goose \n Cursor CLI \n Copilot CLI \n VS Code \n Crush \n DeepSeek Harness \n Command Code \n fx \n omp \n OmO \n Devin \n Hermes Agent \n Mister Morph \n Kimi Code \n Muse Code \n Empryo \n MiniMax Code \n Droid \n Grok Build \n ZCode \n OpenHanako \n AtomCode \n Snow CLI \n Alma \n支持的模型 \n DeepSeek \n Kimi \n GLM \n Qwen \n MiniMax \n Claude \n OpenAI \n Gemini \n Mistral \n xAI \n Groq \n OpenRouter \n AiHubMix \n Ollama \n工作原理 \n一个网关，通吃所有 API。 \nCodex 只认 OpenAI Responses，Claude Code 只认 Anthropic Messages。magpie 在你的电脑上运行一个网关，这些协议它都会说，并在两个方向上互相转换——流式输出、工具调用和推理过程都不落下——于是任何 Agent 都能用任何厂商的模型。 \n你的 Agent \n Codex Responses \n Claude Code Messages \n Gemini CLI Gemini \n OpenCode Chat \n Goose Chat \n→ \n magpie 网关 \n 127.0.0.1:3425 \nOpenAI Chat · Responses \nAnthropic Messages \nGoogle Gemini \n→ \n任意供应商 \n DeepSeek \n Kimi \n GLM \n 你的 Claude 订阅 \n 你的 ChatGPT 订阅 \n菜单栏 \n每个 Agent，各用各的模型。 \n每个 Agent 在用什么，一眼就能看清。点一下就能换；magpie 只改写那个 Agent 配置里你改动的那一项，下次会话即生效。 \n Codex 的 /model 列表里直接出现 DeepSeek，推理强度也对得上。 \n Claude Code 的 opus 、 sonnet 、 haiku 背后换成 Kimi、GLM 或 GPT。 \n 选回原生模型 ，magpie 会把配置原样恢复。 \n 方案 一次切换所有 Agent——“省钱”“专注”，随你保存。 \n订阅共享 \n你付费的订阅，每个 Agent 都能用。 \n在某个 Agent 里登录过？这个登录就成了一个供应商，它的模型会出现在其他所有 Agent 的选择器里——不复制任何东西，不用粘贴密钥，令牌按那个 Agent 自己的方式刷新。 \n Claude Pro / Max \n用 Claude Code 的登录驱动 OpenCode、Pi 或 Goose： claude/claude-sonnet-5 。 \n ChatGPT Plus / Pro \n用 Codex 的登录在 Claude Code 里用上 GPT： codex/gpt-5.5 。 \n GitHub Copilot \n你的 Copilot 席位可以服务任意 Agent： copilot/claude-sonnet-4.5 。 \n智能路由 \n每轮对话用对模型，额度永不断供。 \n写下每个模型的用途——“简单提问”“编写或修复测试”——每轮对话开始时，一个小而快的模型告诉 magpie 这轮属于哪一类：这一轮就交给对应的模型，它的工具轮次也留在那里。 原理说明 。再把你所有的密钥和订阅都加进来——几个 Claude、ChatGPT、Copilot 或 Grok 账号，同一厂商的多个密钥——全部打开。每个请求由 magpie 挑选该答的账号；某个答不了，下一个会在你的 Agent 看到错误之前接上。 \n 按意图 \n 智能 \n 按顺序 \n 轮流 \n 用量少的优先 \n智能（默认）：最先重置的账号先用，额度一点不浪费；答不了的账号直接跳过。（演示里每个请求代表一小时。） \n Claude Code 你的 Agent \n magpie localhost:3425 智能 \n me@work.dev Claude Max serving \n me@home.dev Claude Pro 38% used · resets in 2 d \n me@home.dev ChatGPT Pro 30% used · resets in 4 d \n sk-or-…4f2a OpenRouter pay as you go \n octo-dev Copilot Business 24% used · resets in 12 d \nClaude Code 把每个请求发给 magpie，由 magpie 决定哪个账号来答。 \n 0 个请求 0 次改道 0 个错误被 Agent 看到 \n看重置时间 \n最先重置的账号先用——它剩下的额度到重置时就作废了。只要额度还宽裕，请求就一直交给它，提示词缓存也保持温热。 \n余额用完 \n余额耗尽的密钥歇半小时，请求转给还付得起的那个。 \n限流与配额 \n被厂商限流的账号，按厂商要求的时长跳过——依据它的 Retry-After 和重置响应头，不瞎猜，也不硬撞。 \n故障转移 \n出错的账号先退下一分钟，每再错一次就退得更久；请求会在回复的第一个字节到达你的 Agent 之前，换到下一个账号重试。 \n供应商 \n粘贴密钥，就配好了。 \n二十个预设——模型厂商、中转服务和本地服务器。magpie 会问每家厂商提供哪些模型，所以今早刚发布的模型，下次刷新就出现在每个选择器里。密钥只留在 magpie 里，Agent 永远看不到。 \n细节 \n小巧、细致、不打扰。 \n精准修改配置 \n settings.json 、 config.toml 、 config.yaml 里的注释、顺序和缩进都原样保留，写入是原子的。 \n小巧、原生、开源 \nMac 上下载约 15 MB，基于系统 WebView。没有 Electron，不需要运行时。MIT 许可， 源码在 GitHub 。 \n不读 shell 里的密钥 \nmagpie 从不读取环境变量里的 API 密钥。你添加了什么，它就用什么。 \n任何客户端都能接 \n凡是能设置 base URL 的都能用： OPENAI_BASE_URL 、 ANTHROPIC_BASE_URL 、 GOOGLE_GEMINI_BASE_URL 。 \n按 Agent 统计用量 \n经过网关的每个 Agent、每个模型的 token、缓存命中和费用。 \n自动更新 \n新版本在后台悄悄下载，重启时安装。Mac 版经过签名和公证。 \n终端 \n还有 TUI 和 CLI。 \n同一个应用，在终端里用。安装脚本把 magpie 命令放进 ~/.local/bin ，把应用放到该放的地方：Mac 上是 /Applications ，Linux 上是应用菜单。 \n curl -fsSL https://usemagpie.ai/install.sh | sh 复制 \nWindows 上 magpie.exe 接受同样的命令； 最新版本 里的 magpie-cli-windows-amd64.exe 是只有终端的版本。 \n # 添加供应商 \nmagpie provider add deepseek sk-… # 预设只需要密钥 \nmagpie provider add moonshot sk-…\nmagpie provider add ollama # 本地服务器不需要 \n # 给 Agent 换上第三方模型 \nmagpie codex deepseek/deepseek-v4-pro\nmagpie claude moonshot/kimi-k3\nmagpie gemini zhipu/glm-5.3\nmagpie opencode claude/claude-sonnet-5 # 在 OpenCode 里用你的 Claude 订阅 \n # 一个模型，多个供应商 \nmagpie group add opus models=claude/claude-opus-5-5,copilot/claude-opus-5.5 routing=order\nmagpie claude group/opus\nmagpie ls # 每个 Agent 和它的模型 \nmagpie save work && magpie use work # 方案 \nmagpie tui # 在终端里用完整的应用 \n 加入 magpie 社区 提问、分享你的配置、告诉我们下一步做什么——都在 Discord。 \n → \n每个 Agent，每个模型。 \n免费、开源、原生。支持 macOS、Windows 和 Linux。 \n 下载 Mac 版 在 GitHub 上查看 \n macOS 11 及以上 Apple Silicon Intel \n Windows 10 及以上 x64 ARM \n Linux GTK 3 + WebKitGTK 4.1 x86-64 ARM64",
+   "github_links": [
+    "yetone"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://alma.now",
+   "ok": true,
+   "title": "Alma - Elegant AI Provider Orchestration",
+   "description": "Alma is an elegant desktop application for AI provider orchestration. Seamlessly manage multiple AI providers including OpenAI, Anthropic, Google Gemini, and custom APIs in one beautiful interface.",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Elegant AI Provider Orchestration \n A beautiful desktop application that unifies your AI experience. Seamlessly switch between OpenAI, Anthropic, Google Gemini, and custom\n providers.\n Download\n Discord\n Feedback\nPowerful Features \nEverything you need for a seamless AI experience in one elegant interface. \nBeautiful Chat Interface \n Engage in natural conversations with AI through a clean, intuitive chat interface. Supports markdown rendering, code highlighting,\n and seamless streaming responses.\nIntelligent Memory \n Alma remembers your preferences and context across conversations. Build a personalized AI assistant that truly understands you over\n time.\nMemory Management \n View, organize, and manage all your stored memories in one place. Full control over what Alma remembers about you and your\n preferences.\nWeb Search Integration \n Access real-time information from the web. Alma can search and retrieve up-to-date data to provide accurate, current answers to your\n questions.\nAdvanced Tool Use \n Leverage AI's ability to use tools and perform complex tasks. From calculations to data analysis, extend what's possible with\n intelligent tool integration.\nSupported Providers \nConnect to your favorite AI providers with a unified interface. \n OpenAI \n Anthropic \n Google Gemini \n DeepSeek \n Custom APIs \nDownload \nDownload Alma for macOS, Windows, or Linux. Loading... \nmacOS \n Download \n Apple Silicon · .dmg \n Download \n Intel · .dmg \nWindows \n Download \n x64 · .exe \nLinux \n Download AppImage \n x64 \n Download DEB \n x64 \n Download RPM \n x64 \n Currently, Alma has only been tested on macOS with Apple Silicon (M-series chips).",
+   "github_links": [
+    "devicons",
+    "simple-icons",
+    "yetone"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://confirmo.love",
+   "ok": true,
+   "title": "Confirmo",
+   "description": "",
+   "stack": [
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Your AI coding companion that lives on your desktop.\nmacOS Apple Silicon macOS Intel Windows Download Linux AppImage Linux.deb\n[Sprites Gallery](https://sprites.confirmo.love/)",
+   "github_links": [
+    "yetone"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://swordgame.ai",
+   "ok": true,
+   "title": "劍 · 南宋 - Sword",
+   "description": "南宋紹興年間，一柄長劍，一段江湖。水墨風武俠動作遊戲。",
+   "stack": [
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-CN",
+   "home_text": "劍 \nS W O R D \n南宋 · 紹興年間 \n按任意鍵開始 \n WASD 移動 · J 攻擊 · K 跳躍/二段跳 · L 輕功 · Q 飛笠 Shift 疾跑 · 方向鍵亦可移動 \n按任意鍵繼續 \n氣 \n0 \n暫停 \n按 Esc 繼續 \n劍折 \n按 R 或空格鍵 再戰一次",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "yetone",
+  "user": {
+   "name": "yetone",
+   "company": "@Isoform",
+   "blog": "",
+   "location": "China",
+   "bio": "ohh",
+   "public_repos": 637,
+   "followers": 9646,
+   "created_at": "2011-11-19T14:26:08Z",
+   "twitter_username": "yetone",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "yetone/magpie",
+    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "stargazers_count": 18624,
+    "forks_count": 1367,
+    "language": "Go",
+    "homepage": "https://usemagpie.ai",
+    "created_at": "2026-09-23T16:22:35Z",
+    "pushed_at": "2026-10-21T11:59:00Z",
+    "topics": [
+     "claude-code",
+     "codex",
+     "deepseek",
+     "gemini-cli",
+     "llm",
+     "macos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/cumora",
+    "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+    "stargazers_count": 4005,
+    "forks_count": 527,
+    "language": "TypeScript",
+    "homepage": "https://cumora.ai",
+    "created_at": "2026-08-17T09:13:52Z",
+    "pushed_at": "2026-10-19T08:45:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/voice-input-src",
+    "description": null,
+    "stargazers_count": 2425,
+    "forks_count": 239,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-03-29T09:13:27Z",
+    "pushed_at": "2026-04-25T04:18:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/native-feel-skill",
+    "description": "An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.",
+    "stargazers_count": 1931,
+    "forks_count": 79,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-05-14T19:28:43Z",
+    "pushed_at": "2026-05-30T15:12:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/kill-ai-slop",
+    "description": "A field guide to the visual & copy tics of AI-generated products — and an Agent Skill that scans your project and strips them out. https://killaislop.com",
+    "stargazers_count": 1375,
+    "forks_count": 62,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-07-10T08:59:16Z",
+    "pushed_at": "2026-09-15T08:34:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/alma-releases",
+    "description": null,
+    "stargazers_count": 421,
+    "forks_count": 5,
+    "language": null,
+    "homepage": "https://alma.now",
+    "created_at": "2025-12-03T09:13:40Z",
+    "pushed_at": "2026-10-20T10:40:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/bob-plugin-rapidapi-deepl-translator",
+    "description": "DeepL RapidAPI 的 Bob 插件，可能是中国 macOS 用户可以无痛使用的相对合法的最便宜的 DeepL 翻译方案。",
+    "stargazers_count": 350,
+    "forks_count": 20,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2023-02-18T10:17:28Z",
+    "pushed_at": "2024-07-16T12:57:48Z",
+    "topics": [
+     "bobplugin",
+     "deepl",
+     "translator"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/voice-input-dist",
+    "description": null,
+    "stargazers_count": 328,
+    "forks_count": 56,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-03-29T09:25:23Z",
+    "pushed_at": "2026-03-29T15:30:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/cosmos-nvim",
+    "description": "A must-have configuration for Spacemacs users after defecting to Vim",
+    "stargazers_count": 306,
+    "forks_count": 35,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2022-01-07T19:11:39Z",
+    "pushed_at": "2026-05-19T18:16:53Z",
+    "topics": [
+     "neovim",
+     "nvim",
+     "spacemacs",
+     "vim",
+     "vimrc"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/smart-suggestion",
+    "description": "Get AI-powered command suggestions **directly** in your zsh shell.",
+    "stargazers_count": 223,
+    "forks_count": 26,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2025-06-26T12:51:11Z",
+    "pushed_at": "2026-08-11T17:37:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/collipa",
+    "description": "The source code of Collipa",
+    "stargazers_count": 216,
+    "forks_count": 51,
+    "language": "JavaScript",
+    "homepage": "http://zone.drops.wiki/",
+    "created_at": "2013-06-29T03:33:53Z",
+    "pushed_at": "2018-01-08T03:28:20Z",
+    "topics": [
+     "forum",
+     "sns",
+     "tornado"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/get-selected-text",
+    "description": "A tiny Rust library that allows you to easily obtain selected text across all platforms (macOS, Windows, Linux).",
+    "stargazers_count": 210,
+    "forks_count": 24,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2024-05-03T09:15:17Z",
+    "pushed_at": "2024-10-09T16:29:42Z",
+    "topics": [
+     "rust",
+     "selected-text"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/magpie-releases",
+    "description": "Signed builds of magpie",
+    "stargazers_count": 168,
+    "forks_count": 4,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2026-09-23T16:56:00Z",
+    "pushed_at": "2026-10-21T12:00:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/mirdb",
+    "description": "MirDB: A Persistent Key-Value Store with Memcached protocol.",
+    "stargazers_count": 117,
+    "forks_count": 8,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2019-04-28T20:05:34Z",
+    "pushed_at": "2026-05-29T05:01:01Z",
+    "topics": [
+     "kv-database",
+     "lsm-tree",
+     "non-blocking-io",
+     "rust",
+     "sstable",
+     "tokio"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/olo",
+    "description": "ORM with intelligent and elegant cache manager.",
+    "stargazers_count": 83,
+    "forks_count": 12,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2018-03-08T08:56:00Z",
+    "pushed_at": "2024-01-05T17:31:27Z",
+    "topics": [
+     "cache",
+     "mysql",
+     "orm",
+     "postgresql",
+     "python"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/shorturl",
+    "description": "Powered by avante.nvim",
+    "stargazers_count": 70,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-03-30T06:35:06Z",
+    "pushed_at": "2025-12-04T05:28:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/ctxgrep",
+    "description": "grep for context, not just text. Local-first CLI for searching documents, notes, memories, and project context.",
+    "stargazers_count": 63,
+    "forks_count": 3,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2026-03-06T20:02:02Z",
+    "pushed_at": "2026-03-08T09:12:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yetone/tauri-bug-reproducer",
+    "description": "Tauri 😬",
+    "stargazers_count": 60,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-02-29T02:27:08Z",
+    "pushed_at": "2024-10-14T08:00:00Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 20,
+  "languages": [
+   [
+    "TypeScript",
+    5
+   ],
+   [
+    "Rust",
+    3
+   ],
+   [
+    "Go",
+    2
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "Swift",
+    1
+   ],
+   [
+    "Lua",
+    1
+   ],
+   [
+    "Shell",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "yetone/magpie",
+    "stargazerCount": 18624,
+    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": "https://usemagpie.ai"
+   },
+   {
+    "nameWithOwner": "avante-corp/avante.nvim",
+    "stargazerCount": 18188,
+    "description": "Use your Neovim like using Cursor AI IDE!",
+    "primaryLanguage": {
+     "name": "Lua"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "yetone/cumora",
+    "stargazerCount": 4005,
+    "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://cumora.ai"
+   },
+   {
+    "nameWithOwner": "bentoml/Yatai",
+    "stargazerCount": 839,
+    "description": "Model Deployment at Scale on Kubernetes 🦄️",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://bentoml.com"
+   },
+   {
+    "nameWithOwner": "nextai-translator/nextai-translator",
+    "stargazerCount": 25004,
+    "description": "基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "yetone/cosmos-nvim",
+    "stargazerCount": 306,
+    "description": "A must-have configuration for Spacemacs users after defecting to Vim",
+    "primaryLanguage": {
+     "name": "Lua"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 17984,
+  "orgs": [
+   "GitHub-Stars"
+  ],
+  "profile_readme": "<p align=\"center\">\n  <img width=\"1000\" src=\"https://github.com/yetone/yetone/assets/1206493/20ebd0ac-3e85-432a-a3ac-c12319c7db83\" />\n</p>\n\nIf you like my work, please [Sponsor me ❤️](https://patreon.com/yetone); it would be a great help to me.\n",
+  "readmes": {
+   "yetone/magpie": "<div align=\"center\">\n<a href=\"https://usemagpie.ai\"></a>\n# magpie\n### Every agent's model. One place.\n**Claude Code on Kimi. Codex on DeepSeek. Gemini CLI on GLM. OpenCode on your ChatGPT plan.**<br>\nSwitch any of them from the menu bar. One local gateway serves them all,<br>\nand when a quota runs out, it quietly moves on to the next account.\n[](https://github.com/yetone/magpie-releases/releases/latest) [](https://github.com/yetone/magpie/stargazers) [](https://discord.gg/vGSnD3ZKQF) [](LICENSE)<br>\n<sub>Sponsors</sub><br>\n<a href=\"https://usemagpie.ai/go/apinebula/readme\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"site/public/img/sponsor-apinebula-dark.svg\"></picture></a>&emsp;&emsp;<a href=\"https://usemagpie.ai/go/zerotoken/readme\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"site/public/img/sponsor-zerotoken-dark.svg\"></picture></a>\n**[Download](https://usemagpie.ai)** &nbsp;·&nbsp; **[Docs](https://usemagpie.ai/docs/start)** &nbsp;·&nbsp; **[Reference](docs/reference.md)** &nbsp;·&nbsp; **[Plugins](https://github.com/magpie-community/plugins)** &nbsp;·&nbsp; **[Discord](https://discord.gg/vGSnD3ZKQF)** &nbsp;·&nbsp; **English** · [简体中文](README.zh-CN.md)\n<br>\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"site/public/img/agents-dark.png\">\n</picture>\n</div>\n<br>\n## Is magpie for you?\nEach agent keeps its model in its own file, in its own format, with its own keys and base URLs. A subscription you pay for works in one agent and nowhere else. magpie puts all of that behind one app and one local gateway:\n- **Pick any model for any agent** from one list. magpie edits the one key that matters in the agent's own config.\n- **Use one provider everywhere**: an API key, a local model, or the Claude, ChatGPT, Copilot, Gemini or Grok plan you're signed in to.\n- **Keep going when a quota runs out**: a routing group moves to the next account or model, and the agent never sees the error.\nIt's for you if you use more than one agent, more than one provider, or more than one account. If you use one agent on its vendor's own plan and that's enough, you don't need it.\nRuns on macOS, Windows and Linux (menu bar app, window, TUI",
+   "avante-corp/avante.nvim": "<div align=\"center\">\n  <h1>avante.nvim</h1>\n</div>\n<p align=\"center\">\n  <a href=\"https://neovim.io/\" target=\"_blank\"></a>\n  <a href=\"https://github.com/yetone/avante.nvim/actions/workflows/tests.yaml\" target=\"_blank\"></a>\n  <a href=\"https://github.com/yetone/avante.nvim/actions/workflows/rust.yaml\" target=\"_blank\"></a>\n  <a href=\"https://github.com/yetone/avante.nvim/actions/workflows/pre-commit.yaml\" target=\"_blank\"></a>\n  <a href=\"https://discord.gg/QfnEFEdSjz\" target=\"_blank\"></a>\n  <a href=\"https://dotfyle.com/plugins/yetone/avante.nvim\"></a>\n</p>\n**avante.nvim** is a Neovim plugin designed to emulate the behaviour of the [Cursor](https://www.cursor.com) AI IDE. It provides users with AI-driven code suggestions and the ability to apply these recommendations directly to their source files with minimal effort.\n[查看中文版](README_zh.md)\n> [!NOTE]\n>\n> 🥰 This project is undergoing rapid iterations, and many exciting features will be added successively. Stay tuned!\n<https://github.com/user-attachments/assets/510e6270-b6cf-459d-9a2f-15b397d1fe53>\n<https://github.com/user-attachments/assets/86140bfd-08b4-483d-a887-1b701d9e37dd>\n## Table of contents\n- [Features](#features-preview)\n- [Avante Zen Mode](#avante-zen-mode)\n- [Project instructions](#project-instructions-with-avantemd)\n- [Installation](#installation)\n- [Usage](#usage)\n  - [Key Bindings](#key-bindings)\n  - [Commands](#commands)\n- [Highlight Groups](#highlight-groups)\n- [Fast Apply](#fast-apply)\n- [ACP Support](#acp-support)\n- [RAG Service](#rag-service)\n- [Tools](#tools)\n  - [Disable Tools](#disable-tools)\n  - [Web Search Engines](#web-search-engines)\n- [Integrations](#integrations)\n- [FAQ](#faq)\n- [Contributing](#contributing)\n- [License](#license)\n## Sponsorship ❤️\nIf you like this project, please consider supporting me on Patreon, as it helps me to continue maintaining and improving it:\n[Sponsor me](https://patreon.com/yetone)\n## Features preview\n- **AI-Powered Code Assistance**: Interact with AI to ask questions about your current code file and receive intelligent suggestions for improvement or modification.\n- **One-Click Application**: Quickly apply the AI's suggested changes to your source code with a sing",
+   "yetone/cumora": "# Cumora\n> Where agent teams gather.\n[**cumora.ai**](https://cumora.ai) · [Web app](https://app.cumora.ai) · [Desktop download](https://github.com/yetone/cumora-releases/releases/latest) · [iOS beta (TestFlight)](https://testflight.apple.com/join/GtRKgPpS)\nCumora is cross-platform team chat where AI agents are first-class participants alongside humans — same roster, same DMs, same group conversations, same Kanban board and calendar. Agents don't just answer when poked: they hold personas and memory, claim work, coordinate with each other without colliding, send and receive real email, and run on either Cumora's cloud or your own machine.\n<p align=\"center\">\n</p>\n<p align=\"center\">\n</p>\n<p align=\"center\">\n  <a href=\"https://testflight.apple.com/join/GtRKgPpS\"><strong>Join the iOS beta on TestFlight →</strong></a><br>\n  <sub>Install Apple's TestFlight app first, then open the link on your iPhone. Android is not published yet — build it from <code>android/</code>.</sub>\n</p>\nTwo \"brain\" paths:\n- **Cumora Cloud** — each agent runs in a managed per-agent pod; turns run a multi-hop tool-calling loop on the OpenAI Responses API (bash, files, browser, email, memory, skills…).\n- **BYOA (Bring Your Own Agent)** — pair your own Mac/VPS with `npx cumora agent computer` and run the agent on your local provider account (Claude Code, Codex, Grok Build, Cursor Agent, OpenCode, pi, Gemini CLI, Qwen Code, Antigravity, or ZCode). Claude Code and Codex use fail-closed filesystem, command-network, and subprocess-credential boundaries by default; the other engines require an explicit unsandboxed compatibility opt-in. The server never sees your provider keys. See [`docs/BYOA.md`](docs/BYOA.md).\n## Architecture\n```\n Electron / PWA / iOS / Android         ┌─────────────────┐\n ┌──────────────────┐   HTTP / WS       │   App workers   │──▶ OpenAI (Responses API)\n │    React UI      │ ◀───────────────▶ │  Express + ws   │──▶ Resend (email out)\n └──────────────────┘                   │    (any N)      │──▶ APNs / FCM (push)\n                                        └───┬────────┬────┘\n Cloudflare Workers                         │        │ kubectl\n ┌─────────────────┐   webhooks / R2   ┌────▼───",
+   "bentoml/Yatai": "# 🦄️ Yatai: Model Deployment at Scale on Kubernetes\n[](https://github.com/bentoml/yatai/actions)\n[](https://join.slack.bentoml.org)\n⚠️ Yatai for [BentoML 1.2](https://github.com/bentoml/BentoML/releases/tag/v1.2.0) is currently under construction. See [Yatai 2.0 Proposal](https://github.com/bentoml/Yatai/issues/504) for more details. \n---\nYatai (屋台, food cart) is the Kubernetes deployment operator for [BentoML](https://github.com/bentoml/bentoml).\nIt let DevOps teams to seamlessly integrate BentoML into their GitOps workflow, for deploying and scaling Machine Learning services on any Kubernetes cluster.\n👉 [Join our Slack community today!](https://l.bentoml.com/join-slack)\n---\n## Why Yatai?\nYatai empowers developers to deploy [BentoML](https://github.com/bentoml) on Kubernetes, optimized for CI/CD and DevOps workflow.\nYatai is Cloud native and DevOps friendly. Via its Kubernetes-native workflow, specifically the [BentoDeployment CRD](https://docs.yatai.io/en/latest/concepts/bentodeployment_crd.html) (Custom Resource Definition), DevOps teams can easily fit BentoML powered services into their existing workflow.\n## Getting Started\n- 📖 [Documentation](https://docs.yatai.io/) - Overview of the Yatai docs and related resources\n- ⚙️ [Installation](https://docs.yatai.io/en/latest/installation/index.html) - Hands-on instruction on how to install Yatai for production use\n- 👉 [Join Community Slack](https://l.linklyhq.com/l/ktPW) - Get help from our community and maintainers\n## Quick Tour\nLet's try out Yatai locally in a minikube cluster!\n### ⚙️ Prerequisites:\n  * Install latest minikube: https://minikube.sigs.k8s.io/docs/start/\n  * Install latest Helm: https://helm.sh/docs/intro/install/\n  * Start a minikube Kubernetes cluster: `minikube start --cpus 4 --memory 4096`, if you are using macOS, you should use [hyperkit](https://minikube.sigs.k8s.io/docs/drivers/hyperkit/) driver to prevent the macOS docker desktop [network limitation](https://docs.docker.com/desktop/networking/#i-cannot-ping-my-containers)\n  * Check that minikube cluster status is \"running\": `minikube status`\n  * Make sure your `kubectl` is configured with `minikube` context: `kubectl config current-context`\n",
+   "nextai-translator/nextai-translator": "# Due to receiving a trademark ownership warning from OpenAI, this project and product has been renamed to nextai translator. We hope you understand.\n<p align=\"center\">\n    <br> English | <a href=\"README-CN.md\">中文</a>\n</p>\n<p align=\"center\">\n    <em>The translator that does more than just translation</em>\n</p>\n<p align=\"center\">\n  <a href=\"LICENSE\" target=\"_blank\">\n  </a>\n  <!-- TypeScript Badge -->\n  <!-- Rust Badge -->\n  <a href=\"https://chrome.google.com/webstore/detail/nextai-translator/ogjibjphoadhljaoicdnjnmgokohngcc\" target=\"_blank\">\n  </a>\n  <a href=\"https://addons.mozilla.org/en-US/firefox/addon/nextai-translator/\" target=\"_blank\">\n  </a>\n  <a href=\"https://github.com/nextai-translator/nextai-translator/releases\" target=\"_blank\">\n  </a>\n  <a href=\"https://github.com/nextai-translator/nextai-translator/releases\" target=\"_blank\">\n  </a>\n  <a href=\"https://github.com/nextai-translator/nextai-translator/releases\" target=\"_blank\">\n  </a>\n</p>\n# Why Yet another Translator\nI have developed a [Bob](https://bobtranslate.com/) [plugin](https://github.com/yetone/bob-plugin-nextai-translator) that utilizes ChatGPT API to provide global word translation on macOS. However, since not all users have access to macOS to benefit from the plugin, I have created this project!\n# More than just a browser extension\nWhat began as a Chrome extension has now evolved into a multi-platform desktop app that I am currently developing.\n<p align=\"center\">\n</p>\n# More than just translation\nWhat began as a translation tool has now evolved to include surprisingly effective word polishing and summarization capabilities, ~~accidentally~~.\n# How to use\n<p align=\"center\">\n</p>\n# Features\n1. It offers three modes: translation, polishing and summarization.\n2. Our tool allows for mutual translation, polishing and summarization across 55 different languages.\n3. Streaming mode is supported!\n4. It allows users to customize their translation text.\n5. One-click copying\n6. Text-to-Speech (TTS)\n7. Available on all platforms (Windows, macOS, and Linux) for both browsers and Desktop\n8. Support screenshot translation\n9. Support for vocabulary books, as well as support for generating memory aids based on t"
+  }
+ },
+ "apps": []
+}

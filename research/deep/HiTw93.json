@@ -1,0 +1,777 @@
+{
+ "handle": "HiTw93",
+ "sites": [
+  {
+   "url": "https://tw93.fun",
+   "ok": true,
+   "title": "Tw93 · 产品工程、AI Coding 与开源工具",
+   "description": "Tw93 的个人博客，记录产品工程、AI Coding、开源工具、设计与原生 macOS 软件开发。",
+   "stack": [
+    "Google Analytics",
+    "giscus 评论"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "zh-CN",
+   "home_text": "Tw93 \n Weekly \n GitHub \n Twitter \n About \n En \nTw93 · 产品工程师、开源作者与写作者 \nMole 出 Mac 版后，用户教会了我做产品 \n 【2026-08-16】 Mole CLI 是去年在泳池边写的几百行代码，Mac 桌面版做出来才三个月。这篇记下真正学到的几件事：AI 多出来的三类垃圾该怎么分、删之前为什么要先看一眼、怎么让它平时不来打扰你、怎么把它做到 70 岁的老爷爷也能用，以及一个人做产品时的取舍。\n你不知道的具身智能：从小机器狗到 Optimus \n 【2026-06-07】 4 月份的时候，我用 STM32、ASRPRO、ESP32-C3、舵机和 3D 打印件手搓了一台能听懂话、能走路、能接云端 AI 的小机器狗。跑通之后再看具身智能，很多判断都落到了很具体的地方：串口、PWM、空间、动作、控制频率、执行器、失败样本和量产约束。\n你不知道的 GEO：AI 可见性的原理、实践与取舍 \n 【2026-05-01】 有小伙伴说我的作品被 AI 主动推荐了，想了想居然啥也没做就被收录了，于是花了一个小时把内容结构化做了一遍。做了什么、哪些有效、哪些别碰。\n你不知道的 AI Coding：非技术人的上手、场景与实战 \n 【2026-04-26】 写给产品、业务、运营的 Claude Code 实战指南。不讲 prompt 工程，讲怎么真正用起来：CLAUDE.md 怎么写、Skills 怎么沉淀、Plan 模式什么时候用、哪些场景适合让 Claude Code 干。\n在 AI 时代，我是如何深入学习一个技术领域的 \n 【2026-04-06】 想聊聊在 AI 时代我是怎么深入学一个新领域的，从收集资料、筛选阅读、写大纲，到 AI 辅助精简、自读发布，我把整个过程当代码一样组织起来。\n你不知道的大模型训练：原理、路径与新实践 \n 【2026-04-03】 很多人会把模型升级理解为参数变大，但线上体感差异常常出在后半段训练和发布链路。这篇从预训练一路讲到蒸馏上线，重点看数据工程、系统配方、后训练、评测奖励和 Agent 训练怎么一起影响最终表现。最后会看到，模型变强通常是权重、训练链路和部署决策共同作用的结果，不只是参数规模。\n杀死那个手工程序员 \n 【2026-03-30】 标题来自 12 年前我很喜欢的一首万青的歌《杀死那个石家庄人》的改写，虽然歌里写的不是一回事，但那种看着熟悉世界一点点被替换掉的感觉，还真有点像。\n你不知道的 Agent：原理、架构与工程实践 \n 【2026-03-21】 研究完 Claude Code 的架构之后，发现自己对 Agent 底层的理解还不够深入，加上团队在 Agent 方向已经有不少业务落地，但一直缺少一份系统梳理，所以又补了一轮资料、开源实现和轻量实验，把控制流、上下文工程、工具设计、记忆、评测和安全这些问题重新串了一遍。\n你不知道的 Claude Code：架构、治理与工程实践 \n 【2026-03-12】 我把最近半年用 Claude Code 积累的一些实际经验分享给大伙，两个账号每月氪金 40 刀。这篇文章主要围绕上下文管理、Skills、Hooks、Subagents、Prompt Caching 以及 CLAUDE.md 的设计展开，重点讨论怎样让协作过程更稳定、更可控，偏工程师技术视角的最佳实践，欢迎大伙一起交流。\n连龙虾都不会装的人，怎么会用龙虾呢？ \n 【2026-03-07】 今天看腾讯大厦装龙虾这件事，挺有感触。最近很多大厂都在疯狂让一线非技术员工去安装龙虾，网上甚至真有 500 上门安装服务。大家都在拼命找使用场景，拼命要求落地，拼命证明这个东西已经重要到不能错过，整个过程让我有一种很强的赛博科技折叠感。\n 1 \n 2 \n 3 \n… \n 9 \n > \n / to search\n ESC to close\n ↑↓ to navigate\n Enter to select",
+   "github_links": [
+    "tw93"
+   ],
+   "subpages": {
+    "https://tw93.fun/about.html": "Tw93 \n Weekly \n GitHub \n Twitter \n About \n En \n关于我 \n关于我 \n来自杭州的产品工程师，做简洁好用的小工具让生活更简单，会一点 Swift、Rust、JavaScript、Python、Shell 和设计。 \n喜欢开源，相信 AI，也在投资 AI，不喜欢技术网红环境，相信长期主义。在 Tw93 博客沉淀技术和生活思考，用 潮流周刊 每周发一些看到的好东西。 \n想一次看完这些项目，可以去 Yobi ；那里把每个项目做什么、适合什么场景和机器可读资料放在一起。 \n开源小家庭 \n我喜欢在长假里折腾新项目，于是这些”家人”基本都诞生在春节、五一、国庆这些假期里： \n Kaku 是爸爸，2026 年过年期间写出来的，主要在写代码、终端、构建，AI 时代可靠能干，把家庭支撑得好好的。 \n Pake 是妈妈，2022 年国庆里出生，一直默默无闻地打包、整理、交付成 App，温和且利落，家里几个孩子最喜欢的就是妈妈。 \n MiaoYan 是哥哥，2020 年春节里写的，比较懂事沉稳，喜欢写作、Markdown、沉淀思考，一个安静的小伙子，会思考，有自己的主见，不追风不随波逐流。 \n Waza 是姐姐，2026 年春日里出生，和妈妈性格很像，干练，小时候去学过跆拳道，爱学习，通过不断练习总结让技能越来越好，练到本能。 \n Kami 是妹妹，2026 年一个春天的周末出生，家里最年轻的小可爱，轻快，爱笑，明亮的小女孩，爱把家里收拾得整整齐齐，喜欢画漂亮的画，虽然小，但很能给人温暖。 \n Mole 是家里的宠物鼹鼠，2025 年国庆前在三亚泳池边游泳带回家的，圆滚滚的，带着小头灯拿着小铲子，喜欢翻箱倒柜钻角落，找到不需要的东西帮忙扔掉，很爱干净，一直陪伴着我们。 \n后来这只鼹鼠长出了一个原生 Mac 客户端 Mole for Mac ，一次买断 19 美元，是我第一个付费产品；命令行那只还是免费开源，GPL-3.0。 \n关注我 \n Github \n Twitter \n YouTube \n 知乎 \n V2EX \n ❤️ 支持作者\n / to search\n ESC to close\n ↑↓ to navigate\n Enter to select"
+   },
+   "feed": {
+    "url": "https://tw93.fun/feed.xml",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "Mole 出 Mac 版后，用户教会了我做产品",
+      "date": "2026-08-16",
+      "url": "https://tw93.fun/2026-08-16/mole-mac.html"
+     },
+     {
+      "title": "你不知道的具身智能：从小机器狗到 Optimus",
+      "date": "2026-06-07",
+      "url": "https://tw93.fun/2026-06-07/robot.html"
+     },
+     {
+      "title": "你不知道的 GEO：AI 可见性的原理、实践与取舍",
+      "date": "2026-05-01",
+      "url": "https://tw93.fun/2026-05-01/ai-visibility.html"
+     },
+     {
+      "title": "你不知道的 AI Coding：非技术人的上手、场景与实战",
+      "date": "2026-04-26",
+      "url": "https://tw93.fun/2026-04-26/ai-coding.html"
+     },
+     {
+      "title": "在 AI 时代，我是如何深入学习一个技术领域的",
+      "date": "2026-04-06",
+      "url": "https://tw93.fun/2026-04-06/learn.html"
+     },
+     {
+      "title": "你不知道的大模型训练：原理、路径与新实践",
+      "date": "2026-04-03",
+      "url": "https://tw93.fun/2026-04-03/llm.html"
+     },
+     {
+      "title": "杀死那个手工程序员",
+      "date": "2026-03-30",
+      "url": "https://tw93.fun/2026-03-30/kill.html"
+     },
+     {
+      "title": "你不知道的 Agent：原理、架构与工程实践",
+      "date": "2026-03-21",
+      "url": "https://tw93.fun/2026-03-21/agent.html"
+     },
+     {
+      "title": "你不知道的 Claude Code：架构、治理与工程实践",
+      "date": "2026-03-12",
+      "url": "https://tw93.fun/2026-03-12/claude.html"
+     },
+     {
+      "title": "连龙虾都不会装的人，怎么会用龙虾呢？",
+      "date": "2026-03-07",
+      "url": "https://tw93.fun/2026-03-07/openclaw.html"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://weekly.tw93.fun",
+   "ok": true,
+   "title": "潮流周刊",
+   "description": "记录工程师 Tw93 的不枯燥生活，每周一发布，欢迎关注",
+   "stack": [
+    "Astro v5.18.2",
+    "Astro",
+    "Google Analytics",
+    "giscus 评论"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "zh-CN",
+   "home_text": "第286期 - 径山双溪 \n 2026/10/19 \n 封面图拍摄于周末去径山双溪露营用无人机拍的效果，整体景色不错，不过我感觉蚊子有点多了，看看绿色挺好的，我把视频的效果放到后面去大伙可以瞧瞧。 \n 第285期 - 陵水的云 \n 2026/10/12 \n 封面图拍摄于国庆去陵水玩了几天，三亚旁边的一个小城市，有海人少，小吃不错，商业化气息不重，不过那几天还挺热的。 \n 第284期 - 小资餐厅 \n 2026/09/28 \n 封面图拍摄于这周末去的天目里 B1OCK 楼上一家吃漂亮饭的餐厅，前几年挺喜欢去吃的，今年去吃感觉更网红了，味道还不错，不过我感觉没有之前那么好吃了，菜也换了不少，稍微遗憾，这个是他家门口摆的酒瓶，我给拍了一张，有点感觉。 \n 第283期 - 经典电影 \n 2026/09/21 \n 封面图拍摄于这周六去电影院看《肖申克的救赎》的时候，非常感动，也很有感触，仿佛体会到了 1994 年人们在电影院看它的那种感觉。 \n 第282期 - 夜雾上海 \n 2026/09/14 \n 封面图拍摄于前几周在上海雾天快天黑的一张照片，很有感觉，标题应该叫做雾上海更有感觉。 \n 第281期 - 越王的剑 \n 2026/09/07 \n 封面图拍摄于周末浙江博物馆，本来想去看四大兽首的展览，结果人很多，就去看常规的场馆了，发现了非常美的东西，这把越王勾践儿子的佩剑就非常好看，感叹当时的越国审美真好。 \n 第280期 - 喜欢宋体 \n 2026/08/31 \n 封面图拍摄于杭州新开的恒隆商场，周末过去逛了逛，喝了一杯 AITCoffee，味道还不错，看到墙上有这么一个纸窗户，上面写着宋字，我最近产品官网喜欢用这个字体，很古典。 \n 第279期 - 风之谷泉 \n 2026/08/24 \n 封面图拍摄于周末去临安风之谷带娃玩水，这地方很空旷，不过周末小孩和大人都很多，娃倒是挺喜欢。远处看，水难得有蓝绿色的感觉，照片拍的是外面的一个大湖。 \n 第278期 - 大巧若拙 \n 2026/08/17 \n 封面图是周末在上海 CityWalk 时，拍到的一家门店门口的招牌，名字叫“不拙”，让我想到了大巧若拙，形容一个人做事看似朴实、不走捷径，其实藏着大智慧，希望我的产品也是这样的。 \n 第277期 - 小叶赤楠 \n 2026/08/10 \n 封面图拍摄于我书桌音箱上放的非常小的盆栽，叫做小叶赤楠，非常有生命力的样子，挺适合放到室内养，不过有一点点小叶子容易掉，但是视觉还是很不错，我喜欢我的书房有点儿生命力。 \n 第276期 - 树和建筑 \n 2026/08/03 \n 封面图拍摄于一个阴天，我一直感觉这种光面玻璃的建筑假如光秃秃放到城市里面会不那么好看，但是假如周围有很多树，看着就舒服多了。 \n 第275期 - 蓝色黄昏 \n 2026/07/27 \n 封面图拍摄于周五晚上出去吃饭，看到的一个蓝色黄昏的天空，这个蓝色我很喜欢，很舒服的那种蓝。 \n 第274期 - 海阔天空 \n 2026/07/20 \n 封面图拍摄于深圳的一个晚上，刚下完雨，天空很清晰，这栋楼叫海阔天空雅居，甚至还能看到远方的百度。 \n 第273期 - 一堆椅子 \n 2026/07/13 \n 封面图拍摄于天目里一家店的门口，放着一堆椅子，写着以物为介，拥抱传统，我相比起 AI 世界更加喜欢现实世界，也更加向往真实的感受。 \n 第272期 - 接天莲叶 \n 2026/07/06 \n 封面图拍摄于周末去西溪湿地航拍莲花，非常好看，也很震撼，人类在自然下面看着很小，无人机帮助我看到了太多好东西了。 \n 第271期 - 精神家园 \n 2026/06/29 \n 封面图拍摄于周末去我的精神家园，王小波的书店，坐了一上午，看那本看了好几遍的《一只特立独行的猪》，顺便喝了一杯叫“白银时代“的咖啡，还是很不错的。非常感谢有小伙伴指出之前几期周刊有点水，我沉迷到 AICoding 了，接受批评，以后还是保持内容更有趣一点好，争取成为大家的精神家园。 \n 第270期 - 喜欢乔村 \n 2026/06/15 \n 封面图拍摄于周末去乔村吃饭，随手拍的一张照片，他们家好吃的，牛油果三文鱼好好吃，假如有朋友来杭州，我一般会带着去吃这个或者张功馆。 \n 第269期 - 天目胜景 \n 2026/06/07 \n 封面图拍摄于上上周末去的临安天目山的天目胜景，很不错的一个地方，夏天非常凉快，氧气很足，山上的留椿屋非常好吃，推荐去玩玩，比九溪烟树人少好太多了。 \n 第268期 - 小河公园 \n 2026/05/25 \n 封面图拍摄于上一个周末在小河公园拍到的一座有质感的建筑，刚好阳光非常好，绿树搭一起很好看。 \n 第267期 - 西湖拍字 \n 2026/05/11 \n 封面图拍摄于上一个周末，为了给我的造字Luo找笔画的感觉，去西湖旁边的路上找这种石刻字，拍的图片。 \n 第266期 - 口罩雕塑 \n 2026/04/27 \n 封面图用于周末去拱墅这边办事看到的一个带着口罩的雕塑小孩，一转眼疫情居然过去了这么久了，但是又感觉弹指一挥间，还是需要记住那几年的。 \n 第265期 - 西溪窗外 \n 2026/04/20 \n 封面图用于周内中午去西溪湿地月芽吃了个午饭，好久没有去了，环境真好，刚好那天太阳穿短袖刚刚好舒服的那种状态，拍了一个窗外，春天真快。 \n 第264期 - 终于完工 \n 2026/04/12 \n 封面图用于记录我的硬件小玩具终于完工的照片，很有意思，我想着把这个过程通过今天的周刊记录下来，希望有兴趣的小伙伴来看看。 \n 第263期 - 硬件之美 \n 2026/04/06 \n 封面图用于记录我假期在家三天玩的硬件小玩具，从一堆材料中锡焊、点胶、调试，终于快到最后一步了，屏幕调试过程中烧屏了，只能等快递到了继续整，很好玩。 \n 第262期 - 飞机飞丢 \n 2026/03/30 \n 封面图用于纪念我的无人机，终于飞丢了，这个是它拍下来的最后一个作品，好在有随心飞，应该可以免费换一个。 \n 第261期 - 春天小姐 \n 2026/03/23 \n 封面图拍摄于头顶的春天，杭州的春天还真美啊，期待夏天不要这么快来，这样的天气非常舒服。 \n 第260期 - 去太子湾 \n 2026/03/16 \n 封面图拍摄于周六去了一趟西湖太子湾，本来想看看郁金香，人人人人人人人人人人真多啊，不建议去凑热闹。 \n 第259期 - 空中径山 \n 2026/03/09 \n 封面图拍摄于周末带着无人机去径山花海玩，当前只有油菜花，其他的花没有怎么开，拿着无人机飞到最高拍照玩，看到不少不错的景色。 \n 第258期 - 赛博充电 \n 2026/03/02 \n 封面图拍摄于我家终于装好的赛博充电桩，非常酷好帅啊，1月多下单了，今天终于来安装了，特斯拉的服务一如既往的专业，特斯拉的东西一如既往的酷，继续持有特斯拉。 \n 第257期 - 春节快乐 \n 2026/02/19 \n 封面图拍摄于春节前几天去了一趟绍兴玩了几天，整体还不错，这个是用无人机拍的安昌古镇的照片，挺好玩，很水乡。 \n 第256期 - 上野天空 \n 2026/02/02 \n 封面图拍摄于东京上野公园附近的天空，刚好有一个飞机飞过，这个蓝色和树结合挺有感觉。 \n 第255期 - 好吃鸡翅 \n 2026/01/26 \n 封面图拍摄于周末吃的烤鸡翅，摆盘很好看，吃起来也不错，加一点欧芹碎。 \n 第254期 - 二零二六 \n 2026/01/19 \n 封面图拍摄于园区的一个 2026 灯光装扮，猛然一想，居然已经 2026 年了，这几年过得真的是太快了，我想着慢一点。 \n 第253期 - 爱无人机 \n 2026/01/12 \n 封面图拍摄于整了一个大疆无人机，非常好玩，也很方便，你可以去看文章后面我拍的视频，有惊喜。 \n 第252期 - 大兴机场 \n 2026/01/05 \n 封面图拍摄于12月份从大兴机场出发，抬头看到的一个大顶，挺有设计的美感的。 \n 第251期 - 阳台的猫 \n 2025/12/29 \n 封面图拍摄于周六早上睡到自然醒，太阳透过窗帘，看到汤圆猫在外面阳台猫爬架上面晒太阳的影子，很有感觉。 \n 第250期 - 北京的冬 \n 2025/12/22 \n 封面图拍摄于北京的一棵树，好久没有去北京了，刚好这次受邀 AICon 分享周末过来了，北京冬天刮一点儿小风是真的冷，树木光秃秃的，和南方很不一样的感觉。 \n 第249期 - 美洲红鹮 \n 2025/12/15 \n 封面图拍摄于杭州野生动物园的美洲红鹮，非常可爱，颜色很鲜艳的小鸟或者说是小鸡的样子，一大群在池塘里面，可以近距离观察。 \n 第248期 - 街头僧人 \n 2025/12/08 \n 封面图拍摄于东京路上的一个站街僧人，安静笔直站着那儿念着，很少在国内看到这种现象，于是随手拍下。 \n 第247期 - 东京大学 \n 2025/12/01 \n 封面图拍摄于东京大学里面的超大的银杏树，非常有感觉，上周去了一趟东京特地给潮流周刊拍封面图，也和大伙分享一些旅途所遇到的。 \n 第246期 - 单向空间 \n 2025/11/24 \n 封面图拍摄于玉鸟集大谷仓单向空间，抬头看到了这个屋顶，感觉不错，刚好和夕阳一起很协调。 \n 第245期 - 秋天出租 \n 2025/11/17 \n 封面图拍摄于秋天的天目里，非常喜欢这个秋季黄叶和红叶，这个出租车其实是天目里美术馆的一个展览，叫做自然叫做一辆出租车，这样拍起来很有感觉。 \n 第244期 - 飞机飞过 \n 2025/11/10 \n 封面图拍摄于吃完晚饭遛弯路上随手拍4个战斗机飞过楼顶的样子，和这个天气以及建筑非常协调。 \n 第243期 - 森泊不错 \n 2025/11/03 \n 封面图拍摄于周末带娃去莫干山开元森泊玩了2天，非常适合亲子，服务很不错，住在山里的湖边挺舒服的。 \n 第242期 - 压实此刻 \n 2025/10/27 \n 封面图拍摄于周末在家做咖啡，开出了一个非常好看的咖啡渣，很平，很干净，压实得非常彻底，强迫症表示非常喜欢，于是随手拍作为周刊的图片。 \n 第241期 - 经过长沙 \n 2025/10/20 \n 封面图拍摄于在长沙从机场坐快线所拍的站点图，长沙这两个字非常有感觉，就是一回到长沙，我就闻到了槟榔味道。 \n 第240期 - 带娃三亚 \n 2025/10/13 \n 封面图拍摄于国庆带娃在三亚失落的空间水族馆，随手拍的一个很有趣的视频，这个鱼挺有喜感。 \n 第239期 - 山顶咖啡 \n 2025/09/22 \n 封面图拍摄于在西湖后面的山上的 HIGHCLIFF 咖啡，点了一杯杨梅特调，味道还可以，山上景色可以，挺舒服。 \n 第238期 - 湘厨小炒 \n 2025/09/15 \n 封面图拍摄于经常去吃的一家湖南菜小馆子，在银天金城店，不是很远，从公司走路可以过去，老板挺好，全部现炒",
+   "github_links": [
+    "tw93"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://weekly.tw93.fun/rss.xml",
+    "count_seen": 12,
+    "items": [
+     {
+      "title": "第286期 - 径山双溪",
+      "date": "Mon, 19 Oct 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/286/"
+     },
+     {
+      "title": "第285期 - 陵水的云",
+      "date": "Mon, 12 Oct 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/285/"
+     },
+     {
+      "title": "第284期 - 小资餐厅",
+      "date": "Mon, 28 Sep 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/284/"
+     },
+     {
+      "title": "第283期 - 经典电影",
+      "date": "Mon, 21 Sep 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/283/"
+     },
+     {
+      "title": "第282期 - 夜雾上海",
+      "date": "Mon, 14 Sep 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/282/"
+     },
+     {
+      "title": "第281期 - 越王的剑",
+      "date": "Mon, 07 Sep 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/281/"
+     },
+     {
+      "title": "第280期 - 喜欢宋体",
+      "date": "Mon, 31 Aug 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/280/"
+     },
+     {
+      "title": "第279期 - 风之谷泉",
+      "date": "Mon, 24 Aug 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/279/"
+     },
+     {
+      "title": "第278期 - 大巧若拙",
+      "date": "Mon, 17 Aug 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/278/"
+     },
+     {
+      "title": "第277期 - 小叶赤楠",
+      "date": "Mon, 10 Aug 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/277/"
+     },
+     {
+      "title": "第276期 - 树和建筑",
+      "date": "Mon, 03 Aug 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/276/"
+     },
+     {
+      "title": "第275期 - 蓝色黄昏",
+      "date": "Mon, 27 Jul 2026 00:00:00",
+      "url": "https://weekly.tw93.fun/posts/275/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://mole.fit",
+   "ok": true,
+   "title": "Mole · Mac 清理、软件管理、磁盘分析与状态监控工具",
+   "description": "Mole 是一款原生 Mac 清理与系统工具，支持缓存清理、AI 工具数据整理、App 卸载与更新、磁盘分析和实时状态。一次购买，持续更新。",
+   "stack": [
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "zh-CN",
+   "home_text": "跳到主要内容 \n这里是 Mole Mac 官网，要去 Windows 版官网吗？ \n 前往 Windows 版 不再提示 \n esc \n帮助、文档、更新日志和文章 \nMole 鼴 \n清理几十 GB 垃圾和 AI 工具旧数据，卸载和更新软件，分析磁盘，维护系统，实时查看 Mac 运行状态 \n 先试后买 14 天退款 $19 买断 macOS 14+ 无障碍支持 持续更新 \n 下载 Mac 版 \n 购买 Mole \n00 · 先看看 \n五个工具，一个入口 \n清理文件与 AI 数据、卸载与更新软件、维护系统、分析磁盘、查看状态，也能在菜单栏使用隐私提醒、电池养护、风扇控制、保持常亮与清洁屏幕 \n 清理 \n AI \n 软件 \n 优化 \n 分析 \n 状态 \n 菜单栏 \n 太阳系 \n清理 \n山雨涤尘垢，潮退万象新 \n01 · 功能 \nMole 与太阳系 \n星体各循其轨，Mole 安静照看 Mac 的日常 \n 地球管清理 \n系统数据单独成组，快照、系统缓存和日志都在里面 \n先看后删，每一项都能选择、跳过或加入保护清单 \nClaude Code、Codex 这些 AI 工具的旧会话和闲置的命令行工具，交给远处的月亮单独确认 \n扫描和清理都在本机完成，文件与结果不会上传 \n 月亮清 AI \nClaude Code、Codex、Cursor 等 AI 工具的缓存和旧版本，确认后一起清掉 \n很久没打开的 Codex 旧会话和可清理的 worktree，逐条确认再删 \n长期不用的 AI 命令行工具，连同会话和设置一起卸载 \n缓存默认勾上，会话和工具由你决定，不需要月亮入口可以在设置里隐藏 \n 火星揽软件 \n从 Sparkle、App Store、Homebrew 等来源检查更新 \n卸载时一并检查残留，不确定的默认不选，也可打开快速卸载直接在列表里完成 \n支持的登录项和后台项也在同一页管理 \n移除前先看 App 和残留各占多少空间 \n 水星掌优化 \n维护快速预览、缓存、元数据和常见系统服务 \n需要管理员权限的任务集中授权一次 \n有风险或不合适的任务自动跳过，并说明原因 \n完成后会列出执行结果和跳过原因 \n 木星主分析 \n按色块展示磁盘占用，大文件和文件夹一眼可见 \n逐层展开任意文件夹，点路径栏即可跳回 \n右键可在访达中显示，或移到废纸篓，随时可以放回 \n系统目录只能查看，只有废纸篓里的项目会先确认再永久删除 \n 太阳守状态 \n实时查看 CPU、内存、GPU、磁盘、网络、温度和风扇，Apple 芯片还能看频率和功耗 \n查看 Mac、配对的 iPhone、iPad 与蓝牙配件电量 \n进程可以排序和置顶，点开可查看它的用途 \n在菜单栏查看常用指标，网络卡片上就能打开 WiFi 低延迟 \n02 · 实测 \n 常用软件，亲手测试核查 \n亲手测试和核查过 851 款 Mac 软件 \n Chrome \n ChatGPT \n WeChat \n VS Code \n Claude \n Zoom \n Spotify \n Cursor \n Slack \n Notion \n Telegram \n WhatsApp \n Discord \n Firefox \n Microsoft Teams \n Gemini \n Grok Bot \n Keynote \n Pages \n Numbers \n Figma \n Docker Desktop \n QQ \n Obsidian \n 1Password \n Raycast \n Perplexity \n VLC \n Ollama \n LM Studio \n Sketch \n MindNode \n03 · 口碑 \n大家怎么说 \n用 Mole 的多是独立开发者和专业工程师，不少人从命令行版一路用到了 Mac 版 \nAsked the Mole author how it actually works, then dug into why macOS junk piles up. \n Paul Graham @paulg \nMole is brilliant. \n Peter Steinberger @steipete \n tw93 / Mole \n 148 贡献者 \n 69.2k Star 2.5k Fork 1k 已解决问题 \nAgent时代，电脑里Agent诞生的垃圾、装的各种乱七八糟的CLI越来越多了，迫切的需要一个符合这个时代的垃圾清理工具。\nMole就是我觉得做的最好的。\n虽然这个时代，可以逆向一切了，但是我还是愿意为好产品付费。\n永远向做好产品的人致敬🫡 \n 数字生命卡兹克 @Khazix0918 \n这几天意外用了来自@HiTw93 的Mole，于是果断不再续费又贵又烂的Cleanmymac，Mole在清理和运行速度上远超Cleanmymac，没想到国产软件这几年进步真的神速。 \n 猫总 @catmangox \nMole 直接清理了 39 GB 的空间\n拯救我的 512 小硬盘于水火之中\n付费了 \n Orange AI @oran_ge \nMy Mac was slow. I found an amazing free solution that cleaned it up, and now it's fast. Very good, runs in terminal. \n Sheel Mohnot @pitdesi \nSi usas macOS necesitas esta herramienta. Se llama Mole y limpia/optimiza tu sistema. Es una alternativa gratuita y de código abierto a CleanMyMac y AppCleaner. \n Miguel Ángel Durán @midudev \nの良いところ\n- アイコンが可愛い (自分はピクセルにしている)\n- ファンを動かせる (安定したら自動に戻る)\n- 買い切り・永久アップデート・2 台の Mac・14日間返金保証 \n Pokactx @pokactx \nDe ultieme schoonmaaktool voor je Mac. \n iCreate Magazine Uitgave 182 · 8 pagina's \n一行命令清出 98GB！Mac 清理神器 Mole 实测，免费开源完胜 CleanMyMac \n Yanhua YouTube \n我早就不用 CleanMyMac 了 \n Ding @dingyi \nusei esse Mole e ganhei 15 GB de espaço no meu computador\ncompletamente de graça e uma ótima CLI \n Luke Berry @LukeberryPi \nNouvelle version de Mole, l’utilitaire gratuit pour nettoyer votre Mac \n Gonzague 👨🏼‍💻 @gonzague \nคนที่ใช้ macbook ปีเก่าๆ แล้วรู้สึกมันช้า ลอง clean เครื่องดูครับ พวก cach file , app data เก่าๆ ที่ไม่ใช้แล้ว\nผมใช้ opensource ตัวนึงชื่อ mole\n- ฟรี ไม่ต้องไปเสียตังซื้อพวก app 3rd party\n- มันทำได้เหมือนๆกันอะแหละแค่สะดวกกว่า\n- ใช้ง่าย ไม่วุ่นวายดี\nวิธีลงอาจจะยากนิดนึง \n sapiens @sapiensp_ \n9GB Free up!!\nHasil cleaning dari MOLE\nAplikasi gratis, kalo mau yang berbayar beli CleanMyMac\nHasilnya? Sama aja :))\nYang mau clean MacOS bisa coba,\nInstall via homebrew di terminal\nRun\nBrew install mole \n if someday @Agungrizki7 \n📢 아아 '아니 지울 것도 없는데!'\n항상 𝐌𝐚𝐜 저장공간 부족해서 짜증나는 분들 주목!\n(🧑🏻‍💻 특히 개발자님들)\n저장 공간 중 엄청난 비중을 차지하는 저놈의 '문서'들!😨 어떻게 지우는지도 잘 안나오고.. cache 하나하나 매번 일일히 다 지우고 있었다면..?😫\nIt's time to 𝐌𝐨𝐥𝐞! 😎\n두더지가, app cache는 물론, npm, pnpm, uv cache, 앱 잔여물까지! 싹 다 뒤져서 없애줍니다.🤗 저는 여유공간 44GB 밖에 없었는데 오늘 아침 mole clean 명령어 한 번에\n44GB 👉 120GB가 되어 광명찾았습니다.✨ \n Peter Cha @PeterCha90 \nbrew install mole\nTavsiye ederim, 20GB yer açtı bilgisayarımda \n Gökçe ASOVA @Asova \nДля каго тэрмінал нешта страшнае і незразумелае \n Ivan Klimčuk @klmivn \nЕсли что, как установить правильно, а не как в статье\nbrew install tw93/tap/mole \n neolol @neolol \nI came across this very cool tool to clean up your macOS environment. It consolidates features from CleanMyMac, AppCleaner, DaisyDisk, and iStat. Open source and gratis! \n Pedro Piñera @pepicrft \nTerminal tool for deep Mac cleanup and app uninstall. \n Tom Dörr @tom_doerr \n又有审美又有实力的独立开发者，太强了！ @HiTw93\n汤兄开发的Mole，之前一直是Cli命令，现在变成了Mac应用。\n无论易用性和美感都是顶级，一下可以替代好多小工具。\n磁盘分析清理、软件管理卸载、电脑优化、电脑状态查看和进程管理，精致易用。\n良心定价，全球都有用户下单，让他赚！\n官网下载 \n 向阳乔",
+   "github_links": [
+    "tw93"
+   ],
+   "subpages": {
+    "https://mole.fit/zh/blog": "跳到主要内容 \n这里是 Mole Mac 官网，要去 Windows 版官网吗？ \n 前往 Windows 版 不再提示 \n esc \n帮助、文档、更新日志和文章 \nMole 中文博客 \nBy Tw93 ，记录 Mac 空间、性能和应用维护。 \n性能与散热 \n排查卡顿、发热和后台进程，了解系统监控工具能做什么、不能做什么。 \nMac 怎么强制退出 App：快捷键、程序坞和终端 \n 用 Option-Command-Esc、苹果菜单、程序坞或活动监视器强制退出卡住的 App，说明会丢哪些未保存内容，以及 App 为什么退出后又自己回来。 \n 2026年10月16日 · 约 9 分钟 \nMac 卡死或反复崩溃怎么办：先分清是哪一种 \n 单个 App 转彩球、整机卡死和内核崩溃重启，处理方法各不相同，教你在控制台读崩溃报告、用安全模式排查，以及什么时候该联系 Apple。 \n 2026年10月14日 · 约 10 分钟 \nMac WiFi 偶尔卡顿，Mole 的 WiFi 低延迟能做什么 \n 说明 AWDL 与延迟尖峰的关系、没有测出稳定收益的本地对照，以及 Mole 的 WiFi 低延迟入口和隔空投送暂停的边界。 \n 2026年10月3日 · 约 5 分钟 \ncorespotlightd 占用 CPU 很高，先查是哪款应用触发 \n 区分应用内容索引与文件搜索，对照单款应用的开关和负载，收集进程取样，再判断是否需要重建 Spotlight。 \n 2026年10月3日 · 约 4 分钟 \nMac 应用程序内存已用尽怎么办 \n 先保存正在做的工作，再退出暂时不用的 App，用活动监视器判断是单个进程持续增长，还是日常工作量超出了内存容量，磁盘空间另查。 \n 2026年9月28日 · 约 5 分钟 \nMac 上 bird、cloudd CPU 占用高怎么办 \n 先在访达和 iCloud.com 核对同一份文件，再排查 bird、cloudd 的 CPU 占用，保留尚未上传的本机版本和独立备份。 \n 2026年9月28日 · 约 4 分钟 \nMac 接外接屏后 WindowServer 占用升高，怎么排查？ \n 先比较内建屏和外接屏的占用，再逐项测试缩放、刷新率、HDR 和桌面空间，找出显示负载增加的原因。 \n 2026年9月18日 · 约 5 分钟 \nMac 温度正常吗？用空闲和负载对照看 \n 用同一工具记录空闲、运行任务和任务结束后的温度，结合进程占用和散热条件判断是否异常。 \n 2026年9月16日 · 约 5 分钟 \nMac 菜单栏的温度、风扇和磁盘空间怎么看 \n 结合任务和进程，看懂温度、风扇转速、内存压力与磁盘余量，也了解菜单栏监控本身的后台开销。 \n 2026年9月12日 · 约 7 分钟 \nApple 芯片 Mac 的发热与风扇：什么时候需要留意 \n 结合工作负载、通风和后台进程，判断 Apple 芯片 Mac 的发热与风扇表现，区分正常散热和需要继续排查的情况。 \n 2026年9月3日 · 约 7 分钟 \nmacOS 交换内存是什么，什么时候才有问题？ \n 了解缓存回收、内存压缩和交换空间如何配合，以及为什么压力和增长趋势比单次读数更重要。 \n 2026年9月2日 · 约 6 分钟 \nMacBook 电量掉得很快怎么办 \n 掉电快可能来自高负载、睡眠异常、配件、系统任务或电池状态。先记录能复现的情况，再改设置。 \n 2026年8月26日 · 约 6 分钟 \nMac 优化软件怎么选：清空间、减负载与修复故障 \n 清理空间、减少后台负载和修复系统故障是不同任务。按实际症状选择工具，也看清软件无法解决的硬件限制。 \n 2026年8月19日 · 约 17 分钟 \n查出 Mac 上哪个 App 在占网 \n 活动监视器的进程流量是累计值，不能直接代表当前带宽。结合 nettop 查看实时变化，再用 lsof 核对连接目标。 \n 2026年8月12日 · 约 6 分钟 \n看内存压力，别看已用内存 \n 内存占用高不一定有问题，也不能单凭它判断正常。结合内存压力、交换空间、压缩和变化趋势，检查当前负载是否超出可用内存。 \n 2026年8月11日 · 约 6 分钟 \nSensei 之外的 Mac 工具怎么选 \n 分别看磁盘分析、清理、监控与硬件检查，按自己经常需要做的事，选择 Sensei 或合适的替代工具组合。 \n 2026年8月2日 · 约 13 分钟 \nMacs Fan Control、TG Pro、iStat Menus 与 Mole 对比 \n 比较 Macs Fan Control、TG Pro、iStat Menus 和 Mole 的传感器读取、风扇控制、特权组件、历史记录与 Apple Silicon 限制。 \n 2026年7月23日 · 约 7 分钟 \niStat Menus 的替代方案怎么选 \n 想看实时负载，用免费工具通常足够，需要回看历史，再考虑 iStat Menus。这里比较采样成本、传感器和授权方式。 \n 2026年7月22日 · 约 6 分钟 \n如何查看 Mac 温度与风扇转速 \n 用系统工具检查负载和散热状态，用兼容的传感器工具查看温度与风扇转速，再结合机型和使用情况判断是否异常。 \n 2026年7月19日 · 约 10 分钟 \nGoogle Chrome Helper (Renderer) 占用 CPU 过高怎么办 \n 用 Chrome 任务管理器定位持续占用 CPU 或内存的标签页、扩展、Renderer、GPU 任务或浏览器服务，再确认处理是否有效。 \n 2026年7月18日 · 约 9 分钟 \nMacBook 风扇一直响、机身发热怎么办 \n 先找高负载进程并改善通风，再看散热压力和风扇响应，判断是正常工作还是硬件异常。 \n 2026年7月11日 · 约 6 分钟 \nMac 变慢了，可以从哪里排查 \n 在卡顿发生时检查 CPU、内存压力、磁盘空间与读写、散热和网络，找到真正饱和的资源。 \n 2026年7月4日 · 约 5 分钟 \nmds 和 mdworker 占用 CPU 过高怎么办 \n 系统更新或大量文件变化后，Spotlight 短暂高占用很正常。长期不退时，再检查反复变化的目录和磁盘卷。 \n 2026年6月29日 · 约 3 分钟 \n如何找出正在使用 Mac 摄像头或麦克风的应用 \n 指示点出现时打开控制中心，再检查浏览器标签、通话会话和系统权限，逐层找到访问来源。 \n 2026年6月27日 · 约 3 分钟 \nWindowServer 占用 CPU 过高怎么办 \n 逐项排查频繁重绘、录屏、外接显示器、缩放和刷新率，找到真正增加合成负载的来源。 \n 2026年6月21日 · 约 9 分钟 \n如何判断 Mac 上的陌生进程是否安全 \n 进程名只能作为线索。结合用户、路径、父进程、代码签名、资源趋势和打开文件判断身份。 \n 2026年6月16日 · 约 4 分钟 \nkernel_task 是什么？Mac 上 CPU 占用过高怎么办 \n kernel_task 反映 macOS 内核工作，高占用可能与温度控制有关。不要强制结束，先检查任务负载、通风和外设。 \n 20"
+   },
+   "feed": {
+    "url": "https://mole.fit/zh/feed.xml",
+    "count_seen": 131,
+    "items": [
+     {
+      "title": "用 Claude Code 或 Codex 安全地给 Mac 清理空间",
+      "date": "Wed, 21 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/use-claude-code-to-clean-up-mac"
+     },
+     {
+      "title": "macOS 更新卡住或空间不足？先查这几处",
+      "date": "Sun, 18 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/macos-update-stuck-or-not-enough-space"
+     },
+     {
+      "title": "Mac 怎么清理「下载」文件夹",
+      "date": "Sat, 17 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/clean-up-downloads-folder-mac"
+     },
+     {
+      "title": "Mac 怎么强制退出 App：快捷键、程序坞和终端",
+      "date": "Fri, 16 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/how-to-force-quit-app-mac"
+     },
+     {
+      "title": "Mac 需要整理磁盘碎片吗？新款 Mac 为什么用不着",
+      "date": "Thu, 15 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/do-macs-need-defragmenting"
+     },
+     {
+      "title": "Mac 卡死或反复崩溃怎么办：先分清是哪一种",
+      "date": "Wed, 14 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/mac-frozen-or-keeps-crashing"
+     },
+     {
+      "title": "Mac 磁盘工具急救怎么用",
+      "date": "Tue, 13 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/how-to-use-disk-utility-first-aid-mac"
+     },
+     {
+      "title": "卖 Mac 之前怎么恢复出厂设置",
+      "date": "Mon, 12 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/how-to-erase-mac-before-selling"
+     },
+     {
+      "title": "Mac 怎么清除 DNS 缓存",
+      "date": "Sun, 11 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/how-to-flush-dns-cache-mac"
+     },
+     {
+      "title": "Mac 安全模式：怎么进入，结果怎么看",
+      "date": "Sat, 10 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/mac-safe-mode-explained"
+     },
+     {
+      "title": "Mole 的优化功能做了哪些事",
+      "date": "Fri, 09 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/what-mole-optimize-does"
+     },
+     {
+      "title": "Mac 怎么重置 NVRAM、PRAM 和 SMC",
+      "date": "Thu, 08 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/reset-nvram-smc-mac"
+     },
+     {
+      "title": "用迁移助理换新 Mac 前该清理什么",
+      "date": "Wed, 07 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/what-to-clean-before-migration-assistant-mac"
+     },
+     {
+      "title": "Mac 上怎么卸载 Python 和 Node.js",
+      "date": "Tue, 06 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/how-to-uninstall-python-node-mac"
+     },
+     {
+      "title": "npm 缓存越用越大，Mole 这次只清不再被引用的部分",
+      "date": "Mon, 05 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/mole-developer-cache-gc"
+     },
+     {
+      "title": "Mac 上怎么卸载 Zoom 和 Microsoft Teams",
+      "date": "Sun, 04 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/how-to-uninstall-zoom-teams-mac"
+     },
+     {
+      "title": "Mac WiFi 偶尔卡顿，Mole 的 WiFi 低延迟能做什么",
+      "date": "Sat, 03 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/mac-wifi-stutter-awdl"
+     },
+     {
+      "title": "corespotlightd 占用 CPU 很高，先查是哪款应用触发",
+      "date": "Sat, 03 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/corespotlightd-high-cpu-mac"
+     },
+     {
+      "title": "iCloud Drive 占满 Mac 空间，怎样只移除本地下载",
+      "date": "Sat, 03 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/icloud-drive-taking-up-space-mac"
+     },
+     {
+      "title": "给 Mole 用户补发 400 多封邮件之后",
+      "date": "Sat, 03 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/resending-mole-license-emails"
+     },
+     {
+      "title": "少一些设置，把留下的选项讲清楚",
+      "date": "Fri, 02 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/simplifying-mole-settings"
+     },
+     {
+      "title": "把 Mole 的清理页和分析页重新过一遍",
+      "date": "Thu, 01 Oct 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/mole-clean-and-analyze-polish"
+     },
+     {
+      "title": "给 Mole 的图标做了一次精细化升级",
+      "date": "Wed, 30 Sep 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/mole-icon-refresh"
+     },
+     {
+      "title": "给 Mole 做 AI 工具的清理与维护",
+      "date": "Tue, 29 Sep 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/testing-ai-tools-for-mole"
+     },
+     {
+      "title": "Mac 应用程序内存已用尽怎么办",
+      "date": "Mon, 28 Sep 2026 00:00:00",
+      "url": "https://mole.fit/zh/blog/mac-application-memory-full"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "tw93",
+  "user": {
+   "name": "Tw93",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": "Anything added dilutes everything else.",
+   "public_repos": 53,
+   "followers": 13530,
+   "created_at": "2014-09-11T11:54:35Z",
+   "twitter_username": "HiTw93",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "tw93/Mole",
+    "description": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
+    "stargazers_count": 72090,
+    "forks_count": 2547,
+    "language": "Shell",
+    "homepage": "https://mole.fit",
+    "created_at": "2025-09-23T06:38:40Z",
+    "pushed_at": "2026-10-21T07:10:00Z",
+    "topics": [
+     "analyzer",
+     "appcleaner",
+     "clean",
+     "cleaner",
+     "cleanmymac",
+     "command-line",
+     "daisydisk",
+     "istat",
+     "mac",
+     "macos",
+     "macos-app",
+     "native",
+     "optimize",
+     "pearcleaner",
+     "sensei",
+     "shell",
+     "swift",
+     "swiftui",
+     "uninstall",
+     "windows"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/Pake",
+    "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
+    "stargazers_count": 62240,
+    "forks_count": 12803,
+    "language": "Rust",
+    "homepage": "https://pake.run",
+    "created_at": "2022-10-14T09:32:57Z",
+    "pushed_at": "2026-10-21T09:32:41Z",
+    "topics": [
+     "chatgpt",
+     "claude",
+     "cli",
+     "desktop",
+     "desktop-app",
+     "electron-alternative",
+     "gemini",
+     "linux",
+     "macos",
+     "nativefier",
+     "no-electron",
+     "rust",
+     "tauri",
+     "web-to-desktop",
+     "website-to-app",
+     "webview",
+     "windows",
+     "youtube"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/Kami",
+    "description": "👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.",
+    "stargazers_count": 12048,
+    "forks_count": 560,
+    "language": "HTML",
+    "homepage": "https://kami.tw93.fun",
+    "created_at": "2026-04-20T16:35:19Z",
+    "pushed_at": "2026-10-20T04:23:19Z",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude-code",
+     "codex",
+     "document-design",
+     "pdf",
+     "pptx",
+     "typesetting"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/MiaoYan",
+    "description": "⛷ A quiet, local-first Markdown writing app for Mac, to help you write great sentences.",
+    "stargazers_count": 8680,
+    "forks_count": 521,
+    "language": "Swift",
+    "homepage": "https://miaoyan.app",
+    "created_at": "2020-04-06T10:12:33Z",
+    "pushed_at": "2026-10-21T09:43:31Z",
+    "topics": [
+     "editor",
+     "local-first",
+     "macos",
+     "markdown",
+     "markdown-editor",
+     "notes-app",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/Waza",
+    "description": "🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code, Codex and Cursor can run.",
+    "stargazers_count": 7339,
+    "forks_count": 422,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-03-12T00:35:56Z",
+    "pushed_at": "2026-10-18T08:14:09Z",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "claude",
+     "claude-code",
+     "codex",
+     "cursor",
+     "design",
+     "engineer",
+     "skills",
+     "superpowers"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/Kaku",
+    "description": "An AI-friendly Mac terminal with sensible defaults, ready out of the box.",
+    "stargazers_count": 6138,
+    "forks_count": 320,
+    "language": "Rust",
+    "homepage": "https://kaku.fun",
+    "created_at": "2026-02-07T13:00:49Z",
+    "pushed_at": "2026-10-21T10:20:32Z",
+    "topics": [
+     "ai-coding",
+     "macos",
+     "rust",
+     "serial",
+     "terminal",
+     "terminal-app",
+     "terminal-emulator",
+     "vibe-coding"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/Weekly",
+    "description": "🩴 Trendy Weekly records my non-boring life.",
+    "stargazers_count": 880,
+    "forks_count": 130,
+    "language": "CSS",
+    "homepage": "http://weekly.tw93.fun",
+    "created_at": "2022-02-21T03:49:18Z",
+    "pushed_at": "2026-10-21T04:26:48Z",
+    "topics": [
+     "github",
+     "ios",
+     "javascript",
+     "notes",
+     "tools",
+     "weekly"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/Maple",
+    "description": "🍁 Hide the bookmark bar, use Maple Bookmarks to surf smoothly.",
+    "stargazers_count": 510,
+    "forks_count": 27,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2023-07-26T11:44:26Z",
+    "pushed_at": "2026-10-19T01:03:35Z",
+    "topics": [
+     "bookmarks",
+     "bookmarks-manager",
+     "chrome",
+     "chrome-extension",
+     "edge",
+     "edge-extension",
+     "hacker",
+     "simple"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/tw93",
+    "description": "Github 首页自动信息工作流",
+    "stargazers_count": 254,
+    "forks_count": 138,
+    "language": "HTML",
+    "homepage": "https://hi.tw93.fun/",
+    "created_at": "2020-07-18T09:02:08Z",
+    "pushed_at": "2026-10-21T11:02:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/cz-emoji-chinese",
+    "description": "🚴 炫酷的中文版本的 git commit emoji  🐛🎨✨ 🔥💄📝 🎉 命令行",
+    "stargazers_count": 141,
+    "forks_count": 6,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2020-06-11T12:54:14Z",
+    "pushed_at": "2023-08-01T01:59:42Z",
+    "topics": [
+     "git",
+     "git-emoji",
+     "github"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/MiaoYan-NetNewsWire-Theme",
+    "description": "A clean and elegant NetNewsWire theme optimized for Chinese reading.",
+    "stargazers_count": 120,
+    "forks_count": 4,
+    "language": "CSS",
+    "homepage": "",
+    "created_at": "2025-11-02T12:16:36Z",
+    "pushed_at": "2025-11-23T01:56:09Z",
+    "topics": [
+     "miao-yan",
+     "netnewswire",
+     "netnewswire-theme",
+     "rss"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/weex-ui-demo",
+    "description": "Weex Ui Demo",
+    "stargazers_count": 60,
+    "forks_count": 21,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-01-17T01:50:59Z",
+    "pushed_at": "2018-01-17T09:30:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/Luo",
+    "description": "Luo 落文：正在造字中的中文字体，面向纸面排版和长文阅读。",
+    "stargazers_count": 58,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": "https://luo.tw93.fun",
+    "created_at": "2026-05-03T01:45:47Z",
+    "pushed_at": "2026-10-16T14:23:58Z",
+    "topics": [
+     "chinese-font",
+     "cjk",
+     "font",
+     "open-font-license",
+     "print",
+     "typeface",
+     "typography"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/twMovie",
+    "description": "通过nodejs作为后端语言写的一个电影网站（Node.js+Express4+MongoDB+Jade）",
+    "stargazers_count": 39,
+    "forks_count": 6,
+    "language": "JavaScript",
+    "homepage": "https://twmovie-tw93-8.c9.io/",
+    "created_at": "2015-01-22T11:57:36Z",
+    "pushed_at": "2018-01-17T06:21:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/aiko",
+    "description": "Refined icons for the AI era",
+    "stargazers_count": 37,
+    "forks_count": 1,
+    "language": "HTML",
+    "homepage": "https://icon.miaoyan.app",
+    "created_at": "2026-01-07T07:20:59Z",
+    "pushed_at": "2026-09-22T09:25:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/900Month",
+    "description": "The chrome-extension of 900Month is built by AngularJS.",
+    "stargazers_count": 19,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": "http://store.liebao.cn/search.html?keyword=900",
+    "created_at": "2015-04-20T14:52:32Z",
+    "pushed_at": "2018-01-17T06:21:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/createjs-npm",
+    "description": "🏓 createjs 的 cmd 标准版本，可以像 npm 包一样引入使用，同时也支持单个模块使用",
+    "stargazers_count": 19,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-07-29T02:33:25Z",
+    "pushed_at": "2020-07-08T08:16:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tw93/tw93.github.io",
+    "description": "🧗‍♂️ Tw93 的个人博客",
+    "stargazers_count": 8,
+    "forks_count": 5,
+    "language": "HTML",
+    "homepage": "http://tw93.fun",
+    "created_at": "2015-02-02T11:42:29Z",
+    "pushed_at": "2026-10-21T06:39:56Z",
+    "topics": [
+     "blog",
+     "cosy-jekyll-theme",
+     "github",
+     "github-pages",
+     "jekyll"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 25,
+  "languages": [
+   [
+    "JavaScript",
+    8
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "Rust",
+    2
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "Swift",
+    1
+   ],
+   [
+    "Objective-C",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "tw93/Mole",
+    "stargazerCount": 72090,
+    "description": "🐹 Keep your Mac and PC clean, light, and running like new. Fast open-source CLI, plus native Mac and Windows apps.",
+    "primaryLanguage": {
+     "name": "Shell"
+    },
+    "homepageUrl": "https://mole.fit"
+   },
+   {
+    "nameWithOwner": "tw93/Pake",
+    "stargazerCount": 62240,
+    "description": "Turn any website into a lightweight desktop app with one command, on macOS, Windows and Linux.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://pake.run"
+   },
+   {
+    "nameWithOwner": "tw93/Kami",
+    "stargazerCount": 12048,
+    "description": "👩‍🚒 Good content deserves good paper. Layout rules and templates that let AI agents export PDF, PNG and editable PowerPoint.",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "https://kami.tw93.fun"
+   },
+   {
+    "nameWithOwner": "tw93/Waza",
+    "stargazerCount": 7339,
+    "description": "🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code, Codex and Cursor can run.",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "tw93/Kaku",
+    "stargazerCount": 6138,
+    "description": "An AI-friendly Mac terminal with sensible defaults, ready out of the box.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://kaku.fun"
+   },
+   {
+    "nameWithOwner": "tw93/MiaoYan",
+    "stargazerCount": 8680,
+    "description": "⛷ A quiet, local-first Markdown writing app for Mac, to help you write great sentences.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://miaoyan.app"
+   }
+  ],
+  "contrib_last_year": 12434,
+  "orgs": [
+   "apache",
+   "alibaba"
+  ],
+  "profile_readme": "<img src='https://x.tw93.fun/images/hi.gif' alt='Hi' width=\"20\"/> Hey World! I'm **Tw93**, a Product Engineer building easy-to-use tools to simplify life. **Creator of Kaku | Waza | Kami | Mole | Pake | MiaoYan** with Rust, Swift, Shell & TypeScript. <!-- github_stats starts -->13,529 followers, 183,213 stars, 19,472 forks<!-- github_stats ends --> across code projects. I maintain the free and open source [Mole CLI](https://github.com/tw93/Mole) and build the separate native [Mole for Mac](https://mole.fit) app for cleanup and system care.\n\n<table width=\"1200px\" cellspacing=\"0\" cellpadding=\"0\">\n<tr>\n<td width=\"600px\" valign=\"top\">\n\n**Latest Releases**\n\n<!-- recent_releases starts -->\n• [Mole V1.62.0 Slender](https://github.com/tw93/Mole/releases/tag/V1.62.0) - 2026-10-21<br>• [Kaku V0.26.0 Bridge](https://github.com/tw93/Kaku/releases/tag/V0.26.0) - 2026-10-20<br>• [Pake V3.17.6 Clearance](https://github.com/tw93/Pake/releases/tag/V3.17.6) - 2026-10-17<br>• [Kami V1.18.0 Charted Pages](https://github.com/tw93/Kami/releases/tag/V1.18.0) - 2026-10-15<br>• [Waza V3.40.0 Compass](https://github.com/tw93/Waza/releases/tag/v3.40.0) - 2026-10-15<br>• [MiaoYan V4.5.0 Nargacuga](https://github.com/tw93/MiaoYan/releases/tag/V4.5.0) - 2026-09-25\n<!-- recent_releases ends -->\n</td>\n<td width=\"600px\" valign=\"top\">\n\n**Recent Posts**\n\n<!-- blog starts -->\n• [From Mole CLI to Mo...Mac: What I Learned](https://tw93.fun/en/2026-08-16/mole-mac.html) - 2026-08-16<br>• [You Don't Know Embo...obot Dog to Optimus](https://tw93.fun/en/2026-06-07/robot.html) - 2026-06-07<br>• [You Didn't Know GEO...ces, and Trade-offs](https://tw93.fun/en/2026-05-01/ai-visibility.html) - 2026-05-01<br>• [286. Jingshan Shuangxi](https://weekly.tw93.fun/en/posts/286/) - 2026-10-19<br>• [285. Clouds of Lingshui](https://weekly.tw93.fun/en/posts/285/) - 2026-10-12<br>• [284. A Stylish Restaurant](https://weekly.tw93.fun/en/posts/284/) - 2026-09-28\n<!-- blog ends -->\n</td>\n</tr>\n</table>\n",
+  "readmes": {
+   "tw93/Mole": "<p align=\"right\"><b>macOS</b> · <a href=\"https://github.com/tw93/Mole/tree/windows\">Windows</a></p>\n<div align=\"center\">\n  <h1>Mole</h1>\n  <p><b>Deep clean, uninstall apps, optimize, analyze disk, and monitor your Mac. Free open-source CLI, plus a native Mac app.</b></p>\n  <p>English · <a href=\"README_CN.md\">中文</a> · <a href=\"README_TW.md\">繁體</a> · <a href=\"README_JA.md\">日本語</a> · <a href=\"README_KR.md\">한국어</a> · <a href=\"README_DE.md\">Deutsch</a> · <a href=\"README_FR.md\">Français</a> · <a href=\"README_UA.md\">Українська</a> · <a href=\"README_RU.md\">Русский</a></p>\n  <a href=\"https://github.com/tw93/mole/stargazers\"></a>\n  <a href=\"https://github.com/tw93/mole/releases\"></a>\n  <a href=\"LICENSE\"></a>\n  <a href=\"https://github.com/tw93/mole/commits\"></a>\n  <a href=\"https://twitter.com/HiTw93\"></a>\n  <a href=\"https://t.me/+9f9gf4ZrFSQ2OWVl\"></a>\n</div>\n<p align=\"center\">\n</p>\n> 💡 This repo is the free open-source CLI (`mo`). Prefer a native app? [Mole for Mac](https://mole.fit/) is a separate download with review-before-delete cleanup, tested leftovers for 800+ apps, maintenance, disk drill-downs, live status, and fan controls on supported Macs. On Windows, the native app is [Mole for Windows](https://mole.fit/windows). `brew install mole` installs the CLI only.\n## Features\n- **All-in-one CLI toolkit**: Combines CleanMyMac, AppCleaner, DaisyDisk, and iStat Menus style workflows in one terminal command\n- **Deep clean**: Removes caches, logs, leftovers, and orphaned app data to reclaim disk space\n- **Smart uninstaller**: Removes apps together with LaunchAgents, preferences, and leftovers\n- **Disk analyzer**: Visualizes disk usage with an interactive TUI, finds large files, and navigates directories\n- **System maintenance**: Flushes DNS, refreshes QuickLook/icons, and optimizes system databases\n- **Live monitoring**: Shows real-time CPU, memory, disk I/O, network traffic, and process stats\n## Quick Start\nMole requires macOS 12 or newer and supports both Intel and Apple Silicon Macs. If Homebrew no longer supports your macOS version, use the script install instead.\n**Install via Homebrew**\n```bash\nbrew install mole\n```\n**Or via script**\n```bash\ncurl -fsSL https://raw.gi",
+   "tw93/Pake": "<div align=\"center\">\n  <h1>Pake</h1>\n  <p><b>Turn any website into a lightweight desktop app with one command. Supports macOS, Windows, and Linux.</b></p>\n  <p><a href=\"https://pake.run\">pake.run</a></p>\n  <p>English · <a href=\"README_CN.md\">中文</a> · <a href=\"README_TW.md\">繁體</a> · <a href=\"README_JA.md\">日本語</a> · <a href=\"README_KR.md\">한국어</a> · <a href=\"README_DE.md\">Deutsch</a> · <a href=\"README_FR.md\">Français</a></p>\n  <a href=\"https://twitter.com/HiTw93\" target=\"_blank\"></a>\n  <a href=\"https://t.me/+9f9gf4ZrFSQ2OWVl\" target=\"_blank\"></a>\n  <a href=\"https://github.com/tw93/Pake/releases\" target=\"_blank\"></a>\n  <a href=\"https://github.com/tw93/Pake/commits\" target=\"_blank\"></a>\n  <a href=\"https://github.com/tw93/Pake/issues?q=is%3Aissue+is%3Aclosed\" target=\"_blank\"></a>\n</div>\n## Features\n- 🎐 **Lightweight**: Installer is nearly 20 times smaller than Electron packages, typically under 10 MB on disk, a lighter alternative to Nativefier and other Electron wrappers\n- 🚀 **Fast**: Built with Rust Tauri, much faster than traditional JS frameworks with lower memory usage\n- ⚡ **Easy to use**: One-command packaging via CLI or online building, no complex configuration needed\n- 📦 **Feature-rich**: Supports shortcuts, immersive windows, drag & drop, style customization, ad removal\n## Getting Started\n- **Beginners**: Download ready-made [Popular Packages](#popular-packages) or use [Online Building](docs/github-actions-usage.md) with no environment setup required\n- **Developers**: Install [CLI Tool](docs/cli-usage.md) for one-command packaging of any website with customizable icons, window settings, and more\n- **Advanced Users**: Clone the project locally for [Custom Development](#development), or check [Advanced Usage](docs/advanced-usage.md) for style customization and feature enhancement\n- **Troubleshooting**: Check [FAQ](docs/faq.md) for common issues and solutions\n## Popular Packages\n<table>\n    <tr>\n        <td>WeRead\n            <a href=\"https://github.com/tw93/Pake/releases/latest/download/WeRead.dmg\">Mac</a>\n            <a href=\"https://github.com/tw93/Pake/releases/latest/download/WeRead_x64.msi\">Windows</a>\n            <a href=\"https://github.com/tw93/Pake/rele",
+   "tw93/Kami": "<div align=\"center\">\n  <h1>Kami</h1>\n  <p><b>Good content deserves good paper.</b></p>\n  <p>English · <a href=\"README_CN.md\">中文</a> · <a href=\"README_TW.md\">繁體</a> · <a href=\"README_JA.md\">日本語</a> · <a href=\"README_KR.md\">한국어</a> · <a href=\"README_DE.md\">Deutsch</a> · <a href=\"README_FR.md\">Français</a></p>\n  <a href=\"https://github.com/tw93/kami/stargazers\"></a>\n  <a href=\"https://github.com/tw93/kami/releases\"></a>\n  <a href=\"LICENSE\"></a>\n  <a href=\"https://twitter.com/HiTw93\"></a>\n</div>\n## Why\nKami (紙, かみ) means \"paper\" in Japanese. It gives AI agents layout rules and templates for PDF, PNG, and editable PowerPoint output, with eight built-in document templates and a product landing page.\nAs the delivery piece of the trilogy, Kami works alongside [Kaku](https://github.com/tw93/Kaku) (書く), built for writing code, and [Waza](https://github.com/tw93/Waza) (技), built around engineering habits, so technical work is not only logically rigorous but also visually compelling.\n## Showcase\nSample PDFs in several formats and languages. Click any preview to open it.\n<table>\n<tr>\n  <td align=\"center\" width=\"25%\">\n    <a href=\"site/assets/demos/demo-musk-resume.pdf\"></a>\n    <br><b>Resume</b> · English\n    <br><sub>Founder resume, 2 pages</sub>\n  </td>\n  <td align=\"center\" width=\"25%\">\n    <a href=\"site/assets/demos/demo-kami-print.pdf\"></a>\n    <br><b>One-Pager</b> · 中文\n    <br><sub>Kami 介绍 · 白底打印版</sub>\n  </td>\n  <td align=\"center\" width=\"25%\">\n    <a href=\"site/assets/demos/demo-tesla.pdf\"></a>\n    <br><b>Equity Report</b> · 中文\n    <br><sub>Tesla Q1 2026 财报点评</sub>\n  </td>\n  <td align=\"center\" width=\"25%\">\n    <a href=\"site/assets/demos/demo-agent-slides.pdf\"></a>\n    <br><b>Slides</b> · English\n    <br><sub>Agent keynote, 8 slides</sub>\n  </td>\n</tr>\n<tr>\n  <td align=\"center\" width=\"25%\">\n    <a href=\"site/assets/demos/demo-mole.pdf\"></a>\n    <br><b>One-Pager</b> · English\n    <br><sub>Mole product brief, 1 page</sub>\n  </td>\n  <td align=\"center\" width=\"25%\">\n    <a href=\"site/assets/demos/demo-letter.pdf\"></a>\n    <br><b>Letter</b> · 中文\n    <br><sub>推荐信, 1 页</sub>\n  </td>\n  <td align=\"center\" width=\"25%\">\n    <a href=\"site/assets/demos/demo-changelog.pdf\"></a>\n    <b",
+   "tw93/Waza": "<div align=\"center\">\n  <h1>Waza</h1>\n  <p><b>Tw93's engineering habits, turned into your skills.</b></p>\n  <p>English · <a href=\"README_CN.md\">中文</a> · <a href=\"README_TW.md\">繁體</a> · <a href=\"README_JA.md\">日本語</a> · <a href=\"README_KR.md\">한국어</a> · <a href=\"README_DE.md\">Deutsch</a> · <a href=\"README_FR.md\">Français</a></p>\n  <a href=\"https://github.com/tw93/Waza/actions/workflows/test.yml\"></a>\n  <a href=\"https://github.com/tw93/Waza/stargazers\"></a>\n  <a href=\"https://github.com/tw93/Waza/releases\"></a>\n  <a href=\"LICENSE\"></a>\n  <a href=\"https://twitter.com/HiTw93\"></a>\n</div>\n<br/>\n<div align=\"center\">\n</div>\n## Skills\nEach engineering habit gets an installed skill, a folder with reference docs, helper scripts, and gotchas from real failures. In Claude Code, type the slash command. In Codex, invoke the installed skill by name and follow the same playbook.\n| Skill | When | What it does |\n| :--- | :--- | :--- |\n| [`/think`](skills/think/SKILL.md) | Before building anything new | Challenges the problem, pressure-tests the design, and produces a decision-complete plan another agent can implement. |\n| [`/ui`](skills/ui/SKILL.md) | Building frontend interfaces | Produces distinctive UI, including screenshot-driven aesthetic iteration, with a committed direction rather than generic defaults. |\n| [`/check`](skills/check/SKILL.md) | After a task, before merging or release | Reviews the diff against project constraints, verifies the result, and handles approved release and maintainer actions. |\n| [`/hunt`](skills/hunt/SKILL.md) | Any bug, regression, or unexpected behavior | Systematic debugging. Root cause confirmed before any fix is applied, especially when something used to work. |\n| [`/write`](skills/write/SKILL.md) | Writing or editing prose | Rewrites prose to sound natural in Chinese and English. Cuts stiff, formulaic phrasing. |\n| [`/learn`](skills/learn/SKILL.md) | Diving into an unfamiliar domain | Six-phase research workflow: collect, digest, outline, fill in, refine, then self-review and publish. |\n| [`/read`](skills/read/SKILL.md) | Any URL or PDF | Returns a concise summary, or clean Markdown for conversion, quotes, citations, saving, or further researc",
+   "tw93/Kaku": "<div align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/tw93/Kaku/main/assets/readme-logo.svg\" />\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/tw93/Kaku/main/assets/readme-logo-light.svg\" />\n  </picture>\n  <h1>Kaku</h1>\n  <p><em>An AI-friendly Mac terminal with sensible defaults, ready out of the box.</em></p>\n  <p>English · <a href=\"README_CN.md\">中文</a> · <a href=\"README_TW.md\">繁體</a> · <a href=\"README_JA.md\">日本語</a> · <a href=\"README_KR.md\">한국어</a> · <a href=\"README_DE.md\">Deutsch</a> · <a href=\"README_FR.md\">Français</a></p>\n  <p>\n    <a href=\"https://kaku.fun\">Website</a> ·\n    <a href=\"https://kaku.fun/docs/\">Docs</a> ·\n    <a href=\"https://kaku.fun/compare\">Compare</a> ·\n    <a href=\"https://github.com/tw93/Kaku/releases/latest\">Download</a>\n  </p>\n  <a href=\"https://kaku.fun\"></a>\n  <a href=\"https://github.com/tw93/Kaku/stargazers\"></a>\n  <a href=\"https://github.com/tw93/Kaku/releases\"></a>\n  <a href=\"LICENSE.md\"></a>\n  <a href=\"https://github.com/tw93/Kaku/commits\"></a>\n  <a href=\"https://twitter.com/HiTw93\"></a>\n</div>\n<p align=\"center\">\n</p>\n## Why\nKaku (書く, かく) means \"to write\" in Japanese. It is a macOS terminal based on WezTerm, with fonts, themes, shell integration, and Mac shortcuts already configured, while preserving full Lua customization.\nAs the coding foundation of the trilogy, Kaku works alongside [Waza](https://github.com/tw93/Waza) (技), built around engineering habits, and [Kami](https://github.com/tw93/Kami) (紙), built for shipping documents, so writing code, building habits, and shipping documents flow from one to the next.\n## Quick Start\nDownload the [Kaku DMG](https://github.com/tw93/Kaku/releases/latest), open it, and drag Kaku into Applications. Or install with Homebrew:\n```bash\nbrew install --cask kaku\n```\nOpen Kaku to set up shell integration, install missing optional tools with `kaku init`, and check your installed version with `kaku --version`.\n## Features\n- **Ready to use**: JetBrains Mono, automatic dark and light themes, copy on select, and familiar Mac shortcuts\n- **Tabs and panes**: Split your workspace, jump be"
+  }
+ },
+ "apps": []
+}

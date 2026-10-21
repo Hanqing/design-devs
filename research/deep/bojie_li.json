@@ -1,0 +1,593 @@
+{
+ "handle": "bojie_li",
+ "sites": [
+  {
+   "url": "https://01.me/",
+   "ok": true,
+   "title": "Bojie Li",
+   "description": "Personal blog of Bojie Li",
+   "stack": [
+    "Hexo 7.0.0",
+    "Hexo",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "Bojie Li (李博杰) \n 2026-06-26 \n AI Agent 的两朵云：流式与环境交互，自主从经验中学习 \n🌐 语言： 中文 · English \n 【本文整理自笔者在 Flink Forward Asia 2026 （深圳，6 月 26-27 日）上的 keynote 演讲《AI Agent 的两朵云：流式与环境交互，自主从经验中学习》】 \n Slides PDF \n非常荣幸能有机会来到 Flink Forward Asia 给大家做这样一个报告。今天我的题目是「AI Agent 的两朵云」。这个概念大家可能听过：1900 年的时候，开尔文勋爵说物理学的天空上飘着两朵乌云，后来就有了相对论。我今天就借这个比喻，讲讲 Agent 面前的两个大难题：第一，Agent 如何流式地、实时地跟环境交互；第二，Agent 如何自主地从环境中学习——也就是像一个人一样，跟环境不断地交互，从这些成功和失败的经验当中去积累经验、积累知识。 \n这两朵云，对应 Agent 的两个大难题。第一朵云，是流式与环境交互：Agent 如何流式地、实时地跟环境去交互。第二朵云，是自主从经验中学习：Agent 如何像一个人一样，跟环境不断地交互，并从这些成功和失败的经验当中，去积累经验、积累知识。 \n Read More \n 2026-05-29 \n 当所有人都去卷 Coding，我在做什么？ \n今天（2026 年 5 月 29 日）下午，我受邀参加了腾讯研究院余一主持的「AI 跃迁者」直播，跟她聊了一个多小时，直播间里最多的时候有一万六千多人在线。 \n这篇文章整理自那场对谈的完整转录。下面先把全文里我自己觉得最有意思的观点拎出来。 \n 被高估的是”智能上限”，被低估的是”从环境中持续学习” \n主流 Scaling Law 暗含”小世界假设”——以为有用的知识就那么多，学一次就够；但真实垂直场景里的知识根本不在训练语料里，所以更成立的是”大世界假设”：最强的能力是学习与适应，而不是死记硬背。 \n这也解释了为什么很多 Coding Agent 在 Benchmark 上分数很高，到真实场景却不好用。 \n 当所有人都去卷 Coding，我偏要做”人与 AI 的交互” \nOpenAI 砍掉 Sora、Gemini 收缩多模态，国内几家也纷纷重注 Coding；做语音的则几乎都跑去做 B 端客服（Sierra / Decagon）。 \n我反共识地选了”客服的反面”——帮普通用户去和客服博弈、维权，并坚持自己训练语音模型。”我特别讨厌同质化竞争。” \n 语音是人机交互最自然的模态，正从”次要模态”走向”主要模态” \n多数人把语音局限在接打电话、陪聊、配音这三件小事上；其实语音输入比打字快 3–5 倍，认知负荷也更低。 \n如果语音交互足够自然，人就不必困在办公室格子间里、用不健康的姿势长期打字——完全可以坐在海边、草地或家里独立办公。这不只是技术问题，而会从根本上重塑未来的工作形态。 \n “有趣”和”有用”是正交的两个维度，而且会像钟摆一样来回摆动 \n有趣门槛低、容易病毒式传播，但上限低；有用更难，但上限高（对标每年 7–8 万亿美元的劳动力市场）。 \n现在顺应趋势先做”有用”；等 AGI 到来、人被从生产力里解放出来，”有趣”还会重新回归。我定义的 AGI 是：能自主完成 80–90% 人类在数字世界的日常工作，预计两三年内达到。 \n Coding Agent 和人写代码，根本不是一回事 \n模型是”先想几分钟，再哐哐吐出几百行”；而人是先打个 sketch，再边写边跟环境（IDE）快速交互、持续 refine。 \n真正要解决的是两件事：Agent 如何与环境实时交互、如何从环境中高效学习（而不是靠上千次失败的 reward 才学会”工作时间再打电话”）。 \n Evaluation 不是工程收尾，而是一种”科研方法论” \n没有一套客观的评估体系，几百条规则的长 prompt / harness 根本不敢改，也无从判断哪些是该回滚的技术债。 \n语音评估比文本更难，需要一个和系统一样聪明的”模拟用户”；懂业务的人往往比只懂技术的人更适合搭评估，关键是把人的标准提炼成 rubrics。 \n 可以外包思考和执行，但永远不能外包”理解” \n招人我最看重理解力与泛化能力：看不懂 AI 产出的人，既没法做 evaluation，也指导不了比自己强的模型（weak-to-strong 在现实中极难）。 \n给 20 岁的年轻人：语法、各种 trick 这些 AI 都能干，真正稀缺、也最该培养的是 taste 与判断力。 \n AI 已经是”数字员工”，但它的能力边界和人完全不同 \n现在一个组长指挥 5 个 Agent，就能干完过去 10 个人的活；我每天像管真人一样早晚听它们汇报、给它们派活。 \nAI 工程执行力强、很少犯低级错误，但实时语音、GUI 操作、进入物理世界这三件事仍然很差——这恰恰是”人 + AI 协作”类公司存在的理由。 \n Read More \n 2026-04-28 \n DeepSeek V4 研讨会 \n转载自《智能涌现》公众号： 《别急着 All-in DeepSeek V4，先看看这 10 位从业者的真心话》 \n 文 ｜ 周鑫雨 王毓婵 \n 编辑 ｜ 杨轩 \n解读 DeepSeek V4 的技术报告，是这几天 AI 行业最狂热的集体活动。 \nV4 很强吗？在工程优化的维度中，答案是毋庸置疑的。过去，大家信奉 “Scaling Law 的暴力美学”——也就是靠堆更多优质算力、更大参数规模来提升模型性能。而 V4 走的是一条完全不同的路，它定义了一种 “模型训练的克制美学”： \n它不靠疯狂堆算力和参数，而是通过一系列组合优化和重构： \n 注意力机制 （让模型学会 “抓重点”，像人读长文章时会自动关注关键句子一样） \n MoE 架构 （混合专家模型，可以理解为 “让不同的专家负责不同类型的问题，每次只激活少数专家，省时又省力”） \n 后训练 （模型初步练成后再针对性地补课强化） \n 推理系统工程 （优化实际运行时各个环节的效率） \n Read More \n 2026-04-21 \n 从 Claude Code 看 Harness Engineering \n【本文整理自笔者在 2026 中国生成式 AI 大会 （北京站，4 月 21-22 日）上的主题演讲 《从 Claude Code 看 Harness Engineering》】 \n Slides HTML \n Slides PDF \n Slides 源代码 \n 一句话概括 ：只有上下文和工具是失控的天才，只有约束是安全的废物。Agent 从 Demo 到产品的真正距离，在模型之外的 Harness。 \n OpenClaw vs. Claude Code：广度与深度的两个极端 \n在进入 Harness Engineering 的正题之前，先做一个对照——OpenClaw 和 Claude Code。两者都是当下最受关注的 Agent 项目，但走的路线几乎截然相反。OpenClaw 是一个通用 Agent 框架，两个月内堆出了几十万行代码，追求功能广度，几乎什么都想做；Claude Code 则是一个 Coding Agent，51 万行 TypeScript 全部围绕编码任务，只做一件事，做到极致。昆仑万维创始人方汉在春节期间做过一次对照测试：同一任务、同一模型，90%+ 的情况下 Claude Code 都更好。方汉把这个现象类比成早年的中文 Linux—— Linus 对社区的治理水平，比 OpenClaw 的创始人要高很多 。 \nOpenClaw 的贡献并非不重要，它重新定义了 Agent 的交互范式：一是让人和 Agent 的交互更像 “和一个人持续沟通”，不再有传统意义上的 session 概念；二是所有插件通过自然语言安装和交互，无需 GUI；三是用 Skills + CLI 取代 MCP，让不懂代码的人也能用自然语言编写 Skill 扩展能力。但在架构深度上，OpenClaw 的问题同样明显：它只有让模型 “能做事” 的上下文和工具，缺少让模型 “办事靠谱” 的错误恢复和安全机制；它的原生记忆系统过于简陋，需要第三方系统兜底；它对 KV Cache 不友好，上下文压缩机制简陋，token 浪费严重；它在多人交互时分不清 “用户说的” 和 “陌生人说的”；外部事件触发和异步通知没有被做成一等公民。 \n这正是今天要讨论的核心： 同一个模型、不同的 Harness，产品效果天差地别 。这个差距就是 Harness Engineering 要填补的工程鸿沟。 \n整场演讲我会分五个部分展开：第一，Harness Engineering 到底是什么；第二，怎么让 Agent 能干事（上下文、工具、缓存、并行调用、记忆）；第三，怎么让 Agent 不出错（约束、验证、纠正）；第四，用做研究的方法做产品（消融实验、Feature Flag、反蒸馏）；第五，从 Claude Code 看 AI 与人的未来（GUI、组织、人才）。最后讨论 Model × Harness = Agent，以及基座模型公司的优势。 \n Read More \n 2026-04-02 \n 一场泄露看懂 Claude Code：Harness 是让 Agent 干活靠谱的关键 \n Slides HTML \n Slides PDF \n Slides Source Code \n2026 年 4 月 1 日，Anthropic 的 Claude Code 完整源码通过 npm 包泄露。Source Map 一打开，1903 个文件，51 万行 TypeScript，全部摊在眼前。 \n 源码里藏着一个完整的宠物扭蛋机 \n大家第一时间在源码里发现了一个完整的宠物系统——Buddy。输入 /buddy 就能 “孵化” 一只专属 CLI 宠物：18 个物种、5 档稀有度（legendary 仅 1%）、5 项随机属性、6 种眼型、8 种帽子、1% 闪光概率、3 帧 ASCII 动画。每个用户的宠物由 userId + SALT 确定性生成。 \n一个 51 万行的生产级 AI Agent 里，藏着一个如此用心的宠物系统。但仔细看代码，有几处让人忍不住多想： \n 证据一 ： SALT = 'friend-2026-401' ——friend + 2026 年 4 月 1 日。泄露日期精确到天。 \n 证据二 ：Teaser Window 精确到 April 1-7, 2026。注释写的是 “Sustained Twitter buzz instead of a single UTC-midnight spike” ——这不像是工程师对内部功能的描述，更像是营",
+   "github_links": [
+    "XmacsLabs",
+    "darcy-shen",
+    "doodlewind",
+    "wzpan"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://01.me/atom.xml",
+    "count_seen": 20,
+    "items": [
+     {
+      "title": "AI Agent 的两朵云：流式与环境交互，自主从经验中学习",
+      "date": "2026-06-26T08:00:00.000Z",
+      "url": "https://01.me/2026/06/ai-agent-two-clouds-ffa-2026/"
+     },
+     {
+      "title": "当所有人都去卷 Coding，我在做什么？",
+      "date": "2026-05-29T10:00:00.000Z",
+      "url": "https://01.me/2026/05/tencent-research-interview/"
+     },
+     {
+      "title": "DeepSeek V4 研讨会",
+      "date": "2026-04-28T15:43:00.000Z",
+      "url": "https://01.me/2026/04/deepseek-v4/"
+     },
+     {
+      "title": "从 Claude Code 看 Harness Engineering",
+      "date": "2026-04-21T02:00:00.000Z",
+      "url": "https://01.me/2026/04/claude-code-harness-genai-2026/"
+     },
+     {
+      "title": "一场泄露看懂 Claude Code：Harness 是让 Agent 干活靠谱的关键",
+      "date": "2026-04-02T14:00:00.000Z",
+      "url": "https://01.me/2026/04/blog-claude-code/"
+     },
+     {
+      "title": "OpenClaw 与 Agent 的未来",
+      "date": "2026-03-22T12:00:00.000Z",
+      "url": "https://01.me/2026/03/openclaw-and-future-of-agents/"
+     },
+     {
+      "title": "《蒸馏》创作手记",
+      "date": "2026-03-16T04:00:00.000Z",
+      "url": "https://01.me/2026/03/novel-distillation-notes/"
+     },
+     {
+      "title": "蒸馏",
+      "date": "2026-03-16T03:00:00.000Z",
+      "url": "https://01.me/2026/03/novel-distillation/"
+     },
+     {
+      "title": "AI 时代的暗淡蓝点",
+      "date": "2026-03-11T12:00:00.000Z",
+      "url": "https://01.me/2026/03/pale-blue-dot-in-ai-era/"
+     },
+     {
+      "title": "全球算力能支撑多少数字员工？",
+      "date": "2026-03-09T04:00:00.000Z",
+      "url": "https://01.me/2026/03/digital-worker/"
+     },
+     {
+      "title": "OpenClaw 思考与 PineClaw 产品实践",
+      "date": "2026-03-07T12:00:00.000Z",
+      "url": "https://01.me/2026/03/openclaw-pineclaw-talk/"
+     },
+     {
+      "title": "从 Moltbook 看 AI Agent 的权限、协作与雇佣",
+      "date": "2026-02-06T10:00:00.000Z",
+      "url": "https://01.me/2026/02/moltbook/"
+     },
+     {
+      "title": "主权智能体：Clawdbot/OpenClaw 深度调研",
+      "date": "2026-01-29T15:00:00.000Z",
+      "url": "https://01.me/2026/01/clawdbot-openclaw-analysis/"
+     },
+     {
+      "title": "Jiayi Weng 访谈的启发：人和模型一样，最重要的是 Context",
+      "date": "2026-01-25T04:00:00.000Z",
+      "url": "https://01.me/2026/01/jiayi-weng-interview-insights/"
+     },
+     {
+      "title": "心理咨询实录：自我同一性与探索者世界观",
+      "date": "2026-01-16T13:00:00.000Z",
+      "url": "https://01.me/2026/01/explorer-identity/"
+     },
+     {
+      "title": "国科大 2026 年春季 AI Agent 实践课题",
+      "date": "2026-01-11T14:30:00.000Z",
+      "url": "https://01.me/2026/01/ai-agent-projects-2026spring/"
+     },
+     {
+      "title": "读书笔记：《生育制度》与《亲密关系》",
+      "date": "2026-01-04T15:50:00.000Z",
+      "url": "https://01.me/2026/01/intimate-relationships/"
+     },
+     {
+      "title": "评课社区存储性能问题始末",
+      "date": "2025-12-21T11:00:00.000Z",
+      "url": "https://01.me/2025/12/icourse-storage-performance-incident/"
+     },
+     {
+      "title": "Claude 的 Context Engineering 秘籍：从 Anthropic 学到的最佳实践",
+      "date": "2025-12-20T12:30:00.000Z",
+      "url": "https://01.me/2025/12/context-engineering-from-claude/"
+     },
+     {
+      "title": "Agent 人机交互的下一站：实时语音与生成式 UI",
+      "date": "2025-12-20T08:00:00.000Z",
+      "url": "https://01.me/2025/12/next-frontier-of-agent-human-interaction/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "bojieli",
+  "user": {
+   "name": "Bojie Li",
+   "company": "@19PINE-AI @ustclug",
+   "blog": "https://01.me/",
+   "location": null,
+   "bio": "Independent Researcher",
+   "public_repos": 183,
+   "followers": 3111,
+   "created_at": "2012-02-09T03:53:40Z",
+   "twitter_username": "bojie_li",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "bojieli/ai-agent-book",
+    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+    "stargazers_count": 55263,
+    "forks_count": 6325,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2025-09-09T02:41:44Z",
+    "pushed_at": "2026-10-08T15:06:27Z",
+    "topics": [
+     "agent",
+     "agent-memory",
+     "ai-agent",
+     "book",
+     "coding-agent",
+     "context-engineering",
+     "large-language-models",
+     "llm",
+     "mcp",
+     "multi-agent",
+     "multimodal",
+     "rag",
+     "reinforcement-learning"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/ai-infra-book",
+    "description": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+    "stargazers_count": 6824,
+    "forks_count": 533,
+    "language": "Python",
+    "homepage": "https://bojieli.github.io/ai-infra-book/",
+    "created_at": "2026-08-22T15:30:41Z",
+    "pushed_at": "2026-10-01T08:19:29Z",
+    "topics": [
+     "accelerator",
+     "ai-infra",
+     "ai-infrastructure",
+     "book",
+     "datacenter-network",
+     "deepseek",
+     "distributed-systems",
+     "gpu",
+     "kv-cache",
+     "llm",
+     "llm-inference",
+     "llm-serving",
+     "llm-training",
+     "mixture-of-experts",
+     "performance-engineering"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/queqiao",
+    "description": "Self-hosted WAN optimization proxy for difficult long-haul links: authenticated QUIC transport with TLS/TCP fallback, SOCKS5 ingress, and packet loss treated as erasure, not congestion.",
+    "stargazers_count": 417,
+    "forks_count": 43,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2026-08-09T15:33:28Z",
+    "pushed_at": "2026-10-19T04:59:58Z",
+    "topics": [
+     "congestion-control",
+     "erasure-coding",
+     "fec",
+     "golang",
+     "networking",
+     "proxy",
+     "quic",
+     "socks5",
+     "tunnel",
+     "wan-optimization"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/greenbubbles",
+    "description": "Enable your AI agents to access your WeChat history in real time",
+    "stargazers_count": 395,
+    "forks_count": 147,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2026-08-27T03:05:07Z",
+    "pushed_at": "2026-10-03T05:52:57Z",
+    "topics": [
+     "ai",
+     "digital-memory",
+     "macos",
+     "personal-data",
+     "skill",
+     "sqlcipher",
+     "swift",
+     "wechat"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/agentreach",
+    "description": "AgentReach (reach): Point your coding agent at any box you can SSH into. The server never gets your agent.",
+    "stargazers_count": 182,
+    "forks_count": 16,
+    "language": "Go",
+    "homepage": "https://github.com/bojieli/agentreach",
+    "created_at": "2026-08-14T16:14:12Z",
+    "pushed_at": "2026-09-23T15:41:14Z",
+    "topics": [
+     "agent",
+     "ai-agents",
+     "claude-code",
+     "codex",
+     "coding-agent",
+     "golang",
+     "remote",
+     "remote-development",
+     "ssh"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/tunless",
+    "description": "TUN-less transparent proxying: socket-layer flow capture that hands ordinary SOCKS5 to your existing proxy. No fake IP, no route hijack, no second TCP stack.",
+    "stargazers_count": 116,
+    "forks_count": 8,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-08-16T13:30:13Z",
+    "pushed_at": "2026-10-19T14:55:39Z",
+    "topics": [
+     "cgroup",
+     "clash",
+     "dns",
+     "ebpf",
+     "golang",
+     "linux",
+     "macos",
+     "mihomo",
+     "networkextension",
+     "proxy",
+     "sing-box",
+     "socks5",
+     "swift",
+     "transparent-proxy",
+     "wfp"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/CompilerBackdoor",
+    "description": "Course project to insert a backdoor into an open source compiler (Ken Thompson’s Reflections on Trusting Trust)",
+    "stargazers_count": 101,
+    "forks_count": 24,
+    "language": "Assembly",
+    "homepage": null,
+    "created_at": "2014-11-08T10:20:56Z",
+    "pushed_at": "2014-11-08T13:15:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/OpenURMA",
+    "description": "OpenURMA: A Clean-Room Open Implementation of the Unified Bus Protocol",
+    "stargazers_count": 80,
+    "forks_count": 6,
+    "language": "C++",
+    "homepage": "https://arxiv.org/pdf/2605.28717",
+    "created_at": "2026-05-07T13:10:47Z",
+    "pushed_at": "2026-06-12T14:56:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/DoNotType",
+    "description": "Voice input that transcribes what you said, grounded in what's on your screen. macOS, Windows, Android, iOS.",
+    "stargazers_count": 55,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-08-09T13:53:54Z",
+    "pushed_at": "2026-10-03T11:40:12Z",
+    "topics": [
+     "accessibility",
+     "android",
+     "dictation",
+     "dotnet",
+     "gemini",
+     "ios",
+     "kotlin",
+     "llm",
+     "macos",
+     "speech-to-text",
+     "swift",
+     "voice-input",
+     "windows"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/ai-agent-projects",
+    "description": "Course Project Skeleton for UCAS",
+    "stargazers_count": 38,
+    "forks_count": 6,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-02-06T03:10:31Z",
+    "pushed_at": "2025-08-03T04:29:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/OpenClickNP",
+    "description": "Clean-room reimplementation of ClickNP (SIGCOMM 2016) on Alveo U50",
+    "stargazers_count": 28,
+    "forks_count": 2,
+    "language": "C++",
+    "homepage": null,
+    "created_at": "2026-05-05T10:05:32Z",
+    "pushed_at": "2026-05-28T02:04:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/SocksDirect",
+    "description": "SocksDirect code repository",
+    "stargazers_count": 20,
+    "forks_count": 2,
+    "language": "C++",
+    "homepage": null,
+    "created_at": "2019-01-09T13:12:43Z",
+    "pushed_at": "2026-05-06T15:12:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/NOI-papers",
+    "description": "NOI 国家集训队 1999～2009 论文集",
+    "stargazers_count": 16,
+    "forks_count": 2,
+    "language": "Roff",
+    "homepage": null,
+    "created_at": "2022-06-26T11:09:16Z",
+    "pushed_at": "2022-06-26T11:13:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/thesis",
+    "description": "LaTeX source code of my Ph.D. thesis.",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "TeX",
+    "homepage": "https://ring0.me/2019/12/phd-thesis/",
+    "created_at": "2019-03-08T07:08:20Z",
+    "pushed_at": "2023-09-14T00:28:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/GoogleGroup-Archiver",
+    "description": "Create a HTML archiver using Mailman for Google Group",
+    "stargazers_count": 7,
+    "forks_count": 3,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2013-02-16T12:36:12Z",
+    "pushed_at": "2013-02-16T13:13:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/whois",
+    "description": "Whois history query API",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2023-08-28T22:20:55Z",
+    "pushed_at": "2023-09-06T06:27:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/agentswap",
+    "description": "Fail over Claude Code and Codex across subscriptions, API keys, and third-party providers; wait through quota resets; teleport sessions between harnesses.",
+    "stargazers_count": 6,
+    "forks_count": 1,
+    "language": "Go",
+    "homepage": "https://github.com/bojieli/agentswap#readme",
+    "created_at": "2026-08-15T02:04:55Z",
+    "pushed_at": "2026-10-01T11:35:45Z",
+    "topics": [
+     "ai-agents",
+     "anthropic",
+     "claude-code",
+     "cli",
+     "codex",
+     "developer-tools",
+     "failover",
+     "golang",
+     "homebrew",
+     "kimi-code",
+     "llm",
+     "openai",
+     "opencode",
+     "proxy",
+     "rate-limiting",
+     "session-transfer",
+     "zero-dependencies"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bojieli/OpenTallas",
+    "description": "Open research toward model-specific mask-ROM LLM inference silicon: analytical studies, an ABI 3.0 compiler/runtime and cycle model, synthesizable RTL, and open-PDK physical evidence — gated against itself by a 19-rung board that is deliberately mostly red.",
+    "stargazers_count": 5,
+    "forks_count": 1,
+    "language": "Verilog",
+    "homepage": "https://github.com/bojieli/OpenTallas/blob/main/docs/REPRODUCIBILITY.md",
+    "created_at": "2026-08-27T15:01:08Z",
+    "pushed_at": "2026-10-21T13:24:06Z",
+    "topics": [
+     "accelerator",
+     "asap7",
+     "computer-architecture",
+     "hardware-acceleration",
+     "llm-inference",
+     "mask-rom",
+     "open-source-eda",
+     "openroad",
+     "reproducible-research",
+     "systemverilog",
+     "verilator",
+     "yosys"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 131,
+  "languages": [
+   [
+    "C",
+    22
+   ],
+   [
+    "Python",
+    18
+   ],
+   [
+    "JavaScript",
+    12
+   ],
+   [
+    "C++",
+    11
+   ],
+   [
+    "PHP",
+    10
+   ],
+   [
+    "HTML",
+    9
+   ],
+   [
+    "TeX",
+    7
+   ],
+   [
+    "Shell",
+    6
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "USTC-iCourse/ustc-course",
+    "stargazerCount": 291,
+    "description": "USTC iCourse - a popular course rating platform for USTC students",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://icourse.club/"
+   },
+   {
+    "nameWithOwner": "bojieli/ai-agent-book",
+    "stargazerCount": 55263,
+    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "bojieli/queqiao",
+    "stargazerCount": 417,
+    "description": "Self-hosted WAN optimization proxy for difficult long-haul links: authenticated QUIC transport with TLS/TCP fallback, SOCKS5 ingress, and packet loss treated as erasure, not congestion.",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "bojieli/ai-infra-book",
+    "stargazerCount": 6824,
+    "description": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://bojieli.github.io/ai-infra-book/"
+   },
+   {
+    "nameWithOwner": "bojieli/greenbubbles",
+    "stargazerCount": 395,
+    "description": "Enable your AI agents to access your WeChat history in real time",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "bojieli/tunless",
+    "stargazerCount": 116,
+    "description": "TUN-less transparent proxying: socket-layer flow capture that hands ordinary SOCKS5 to your existing proxy. No fake IP, no route hijack, no second TCP stack.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 44769,
+  "orgs": [
+   "ustclug"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "USTC-iCourse/ustc-course": "# USTC 评课社区\nUSTC 评课社区是使用 Python 3 + Flask + SQLAlchemy 开发的 Web 系统。\n## 安装\n安装此系统前，请首先安装：\n1. Python 3\n2. MySQL 5.7+\n3. Nginx\n### 配置和创建数据库\n在 MySQL 配置文件（如 ```/etc/mysql/my.cnf```）末尾加入如下几行，重启数据库（如 ```service mysql restart```）。\n这几行的作用是：\n- 设置数据库使用 utf8mb4 作为默认连接字符集和存储字符集，以免出现乱码，并且支持 emoji。\n- 全文搜索相关的几行（```innodb_ft_*```、```ft_*```）现在只是历史遗留，搜索已不再使用 MySQL 全文索引（见下文「搜索索引」），保留无害。\n```\n[client]\ndefault-character-set=utf8mb4\n[mysql]\ndefault-character-set=utf8mb4\n[mysqld]\ncollation-server = utf8mb4_unicode_ci\ninit-connect='SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci'\ncharacter-set-server = utf8mb4\ninnodb_ft_min_token_size = 1\nft_min_word_len = 1\ninnodb_ft_enable_stopword = OFF\nft_stopword_file = ''\n```\n然后创建数据库：```mysql -u root -p``` 进入 mysql 控制台。\n```CREATE DATABASE icourse;```\n创建数据库成功的话，会提示 Query OK...\n对于 MySQL 版本 < 8.0:\n```GRANT ALL ON icourse.* to 'ustc_course'@'localhost' identified by 'ustc_course';```\n对于 MySQL 版本 >= 8.0:\n```\nCREATE USER 'ustc_course'@'localhost' identified by 'ustc_course';\nGRANT ALL ON icourse.* to 'ustc_course'@'localhost';\n```\n这一步是创建数据库用户 ustc_course 并授予访问 icourse 数据库的权限。该用户密码是 ustc_course，生产环境上请换用强密码。\n### Python 依赖及系统设置\n安装 Python 依赖库：```pip3 install -r requirements.txt```。其中 ```requirements.txt``` 是版本库根目录下的文件。\n如果 pip3 过程中出现错误，可能是缺少编译这些 Python 库所需的依赖。在 Ubuntu/Debian 系统上，可以 ```apt-get install python3-dev libxslt1-dev libxml2-dev libmysqlclient-dev```\n修改系统配置文件 ```config/default.py```。\n* ```DEBUG``` 开关用于标识是否启用调试模式。\n* ```SERVER_NAME``` 设置服务器域名，若域名未确定则可设为 None。\n* ```SECRET_KEY``` 是用于验证 cookie 的加密密钥，填入一个随机字符串。\n* ```SQLALCHEMY_DATABASE_URI``` 是数据库连接信息，格式为 ```mysql+mysqldb://用户名:密码@数据库地址/数据库名?charset=utf8mb4```。\n* ```MAIL_*``` 是外发邮件的发件人信息。\n* ```UPLOAD_FOLDER``` 是头像、用户上传的附件等存储的地方。在生产服务器上需要有足够大的剩余空间，并定期备份。\n* ```MAX_CONTENT_LENGTH``` 是上传文件的最大大小。\n初始化数据库：```python -m tests.init_db```，如果没有报错就初始化成功了。\n### 搜索索引\n搜索不走数据库，而是使用 ```app/search``` 自己构建的索引文件（内存映射，所有\nworker 共享一份）。首次部署和导入课程后都需要构建：\n```console\nPYTHONPATH=. python3 -m app.search.builder\n```\n生成的文件在 ```data/search-index/```（可用 ```SEARCH_INDEX_DIR``` 改位置）。\n索引未构建时搜索会返回 503。\n新发布和修改的点评不必等待重建：```app/search/delta.py``` 会直接从数据库读取\n自上次构建以来变化的行，因此点评索引每天重建一次即可（见 ```app/search/builder.py``` 中的 ```MAX_AGE```）。\n课程索引没有这套机制，所以修改课程教师、或",
+   "bojieli/ai-agent-book": "# 深入理解 AI Agent：设计原理与工程实践\n[](#-电子书) [](https://bojieli.github.io/ai-agent-book/astro/) [](https://github.com/bojieli/ai-agent-book) [](LICENSE) [](#-电子书)\n[](https://github.com/trending)\n**中文** ← 当前 · [English](docs/en/README.md) · [Español](docs/es/README.md) · [Bahasa Indonesia](docs/id/README.md) · [العربية](docs/ar/README.md) · [繁體中文（台灣）](docs/zh-TW/README.md) · [Русский](docs/ru/README.md) · [Tiếng Việt](docs/vi/README.md) · [தமிழ்](docs/ta/README.md) · [日本語](docs/ja/README.md) · [Türkçe](docs/tr/README.md) · [한국어](docs/ko/README.md) · [Magyar](docs/hu/README.md) · [עברית](README.he.md) · [Português (Brasil)](README.ptbr.md)\n> 📥 **[下载 PDF / EPUB](#-电子书)**（推荐）— 推荐使用 PDF / EPUB 离线阅读，排版最佳；也可[在线阅读](https://bojieli.github.io/ai-agent-book/astro/)（支持多语言切换、章节折叠、高亮与笔记，每次推送自动更新）。\n**Agent = LLM + 上下文 + 工具**——本书围绕这个核心公式，用 10 章把 AI Agent 从原理讲到工程实战。全书正文、配图、**109 个配套实验**全部开源，欢迎亲手把实验跑一遍。\n> 📚 **姊妹篇《深入理解 AI Infra：量化分析与系统设计》已开源发布**，欢迎阅读：[github.com/bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book)\n>\n> 要开发好基于模型的应用，还需要理解这类应用赖以运行的基础设施。姊妹篇讨论的就是支撑模型训练与推理的 AI Infra：参数和上下文状态存在哪里，计算怎样执行，多个加速器怎样协作。\n> 📢 **2.0 版变更（相较 1.4 版）**：本仓库书稿版本已由 1.4 升级为 2.0。2.0 版将原第四章中的“异步交互”部分与原第九章中关于“多模态 Agent”的内容合并，重组为新的第六章“交互：观察与动作空间的扩展”。原第六章“Agent 的评估”、第七章“模型后训练”和第八章“Agent 的持续进化”依次后移一章，现分别为第七、八、九章。\n>\n> 如果你看到的是旧版 PDF，建议[下载最新版 PDF](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-zh-CN.pdf)。新版还包含许多内容修正与调整，请以最新版为准。\n| 📚 **10 章** 正文，从基础到生产 | 📂 **109 个** 配套实验（含本地项目与外部复现轨道） | 🌐 **15 种** 语言：中 / 英 / 西 / 印尼 / 阿 / 繁體中文（台灣） / 俄 / 泰米尔 / 越 / 日 / 土耳其 / 韩 / 匈牙利 / 希伯来 / 葡萄牙语（巴西） |\n| :---: | :---: | :---: |\n## 📖 电子书\n> 📥 **离线下载**（推荐，全书正文，开源免费）。以下链接始终指向 main 分支的最新构建；固定版本见 [Releases](https://github.com/bojieli/ai-agent-book/releases)：\n> - **中文（原版）**：[PDF](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-zh-CN.pdf) · [EPUB](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-zh-CN.epub)\n> - **英文**（社区翻译，by [@nsdevaraj](https://github.com/nsdevaraj)、[@whanyu1212](https://github.com/whanyu1212)）：[PDF](https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-en.pdf) · [EPUB](https://githu",
+   "bojieli/queqiao": "<p align=\"center\">\n</p>\n<h1 align=\"center\">Queqiao</h1>\n<p align=\"center\">\n  <strong>Make difficult long-haul links feel local.</strong><br>\n  An open-source, self-hosted transport for TCP and UDP across a long link you control both ends of.\n</p>\n<p align=\"center\">\n  <a href=\"docs/DEPLOYING.md\">Deploy</a> ·\n  <a href=\"#how-it-works\">How it works</a> ·\n  <a href=\"docs/STATUS.md\">Project status</a> ·\n  <a href=\"CONTRIBUTING.md\">Contribute</a>\n</p>\nDuring my internship at Microsoft Research Asia in 2013,\nI used Microsoft's dedicated link from China and saw,\nfor the first time, how fast access to Google and YouTube could be.\nLater, I built a detour gateway in Hong Kong to improve the China-US route when I'm back home.\nIt worked, but it added infrastructure, doubled the network bandwidth cost, and increased\nlatency. Is it possible to directly connect China to US while\nenjoying the same latency and bandwidth with dedicated links?\nAlthough I did networking research for 10 years, I did not have the time to build it.\nIt is finally possible with help from Kimi K3, Claude Opus 5 and GPT-5.6 Sol.\nToday, Queqiao is a ready-to-use, self-hosted protocol for supported\nclient-to-gateway deployments. It carries TCP and UDP through a local proxy over\nan authenticated transport, and keeps evolving as we measure more paths,\nimprove the transport, and learn from users.\n### Not only client to gateway, but also inter-datacenter\nThe same problem turned up between two datacenter servers. This has been our own\npain point since 2023: the models run in the US and the clients are everywhere.\nASR sends a few hundred kilobytes of audio up and gets a sentence back.\nTTS sends a sentence up and gets a few hundred kilobytes back, in one\nburst once the model finishes. Each is a single transfer that has to finish\nbefore anything else happens, which is the shape a long path is worst at.\nGuiyang, China to a model in Irvine, US: a 355KB audio upload takes **1185ms**, of\nwhich the ASR model only spends about 30ms.\nIn theory, the path's bandwidth could carry 355KB in about 9ms.\nThe rest is a handshake, a transfer starting at ten segments, and a window\nthrown away between requests.\nQueqiao approaches the ",
+   "bojieli/ai-infra-book": "# 深入理解 AI Infra：量化分析与系统设计\n[](https://github.com/bojieli/ai-infra-book/actions/workflows/book-site.yml)\n[](LICENSE)\n[](https://github.com/bojieli/ai-infra-book)\n**简体中文** · [English](book-en/) · [繁體中文](book-zh-tw/) · [Русский — community edition](book-ru/)\n> [!TIP]\n> **下载与阅读** · [格式与版本说明](#版本与格式说明)\n>\n> - **简体中文（原版，作者 [@bojieli](https://github.com/bojieli)）**：[PDF](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.pdf) · [EPUB](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book.epub) · [在线阅读](https://bojieli.github.io/ai-infra-book/)\n> - **English（社区翻译，[@tg1482](https://github.com/tg1482)）**: [PDF](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book-EN.pdf) · [EPUB](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book-EN.epub) · [Read online](https://bojieli.github.io/ai-infra-book/en/)\n> - **繁體中文（社区翻译，[@edward821220](https://github.com/edward821220)）**：[PDF](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book-ZH-TW.pdf) · [EPUB](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-Book-ZH-TW.epub) · [線上閱讀](https://bojieli.github.io/ai-infra-book/zh-tw/)\n> - **Русский — community edition, [@ilkruglov](https://github.com/ilkruglov)**: [PDF](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-in-Depth-RU.pdf) · [EPUB](https://github.com/bojieli/ai-infra-book/releases/latest/download/AI-Infra-in-Depth-RU.epub) · [Онлайн-чтение](https://bojieli.github.io/ai-infra-book/ru/) · [О переводе](book-ru/)\n《深入理解 AI Infra》是 GitHub 上获得 **50k+ Star** 的[《深入理解 AI Agent：设计原理与工程实践》](https://github.com/bojieli/ai-agent-book)的姊妹篇。\n写完[《深入理解 AI Agent》](https://github.com/bojieli/ai-agent-book)后，在与读者交流的过程中，我越来越感到：要开发好基于模型的应用，还需要理解它赖以运行的基础设施。大多数软件工程师不必亲自开发操作系统、编译器和芯片，却仍要学习操作系统、编译原理和计算机体系结构，因为申请内存、读取文件、调用函数，背后都有资源与时间代价。基于模型开发应用也是如此。延迟相差几倍，产品体验就可能完全不同；成本相差一个数量级，能够支撑的商业模式也随之改变。\n更深层的变化是**编程抽象的上移：从操作系统到模型上下文**。传统的操作系统、编译器和硬件要为事先未知的各种程序提供通用能力，系统优化总要在可编程性与性能之间取舍。如今 LLM 成了最重要的应用，从算子执行到分布式调度，都可以针对特定的模型和加速器架构优化；模型设计也开始反过来适应硬件，DeepSeek V4/V4.1 重新设计长上下文的表示方式，就是一例。从某种意义上说，**模型成了 LLM 时代的操作系统，AI Infra 成了 LLM 时代的计算机体系结构**。",
+   "bojieli/greenbubbles": "<p align=\"center\">\n</p>\n<h1 align=\"center\">GreenBubbles</h1>\n<p align=\"center\">\n  <strong>Enable your AI agents to access your WeChat history in real time.</strong><br>\n  Mac CLI + skills for agents. Local storage only.\n</p>\n<p align=\"center\">\n  <a href=\"#install\">Install</a> ·\n  <a href=\"#getting-your-database-key\">Get your key</a> ·\n  <a href=\"#usage\">CLI usage</a> ·\n  <a href=\"#use-your-existing-coding-agent-recommended\">Use with an agent</a> ·\n  <a href=\"docs/README.md\">Docs</a> ·\n  <a href=\"docs/WECHAT_DATABASE_FORMAT.md\">Database format</a> ·\n  <a href=\"CONTRIBUTING.md\">Contribute</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/bojieli/greenbubbles/actions/workflows/ci.yml\"></a>\n  <a href=\"https://github.com/bojieli/greenbubbles/releases\"></a>\n  <a href=\"LICENSE\"></a>\n</p>\n<p align=\"center\">\n</p>\nGreenBubbles is a Mac command-line tool for reading your own WeChat history.\nIt reads the database files WeChat already keeps on your Mac, so there\nis no export step and no second copy to keep up to date. You can:\n- browse and search your chats on your own computer;\n- ask a coding agent you already use (Claude Code, Codex, and others) to turn\n  chosen conversations into Markdown notes that cite the original messages;\n- make an encrypted backup you can open later, even without WeChat.\n**Research alpha. Needs a Mac with Apple silicon and macOS 14 or later.**\nSetup copies a key out of your own WeChat app, which needs administrator access.\nReading and searching happen entirely on your Mac. If you use a cloud AI, the\nmessages it reads are sent to that AI's provider.\n## What you can do\n- **Browse and search:** list chats, read messages, and open attachments.\n- **Build notes about your life:** have your coding agent write a private wiki\n  from your chats: one short article per part of your life, each fact tied to\n  the message it came from. Passwords and keys pasted into chats stay out.\n- **Keep notes current:** later runs add only new messages, and Git records\n  every change so you can review it.\n- **Back up:** make an encrypted copy of your history, protected by a 24-word\n  recovery phrase.\nGreenBubbles never changes WeChat's files; it only reads them. Backup"
+  }
+ },
+ "apps": []
+}

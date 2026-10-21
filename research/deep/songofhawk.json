@@ -1,0 +1,315 @@
+{
+ "handle": "songofhawk",
+ "sites": [
+  {
+   "url": "https://doco.page",
+   "ok": true,
+   "title": "Doco — Collaborative docs AI agents can edit via MCP",
+   "description": "Doco is a docs editor and knowledge base shared by people and AI agents. Claude Code, Cursor and Codex read and write via MCP, CLI or API. Free during beta.",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en-US",
+   "home_text": "豆蔻 \n Cardamom · Room to grow \nDocument infrastructure for humans and AI agents \n Doco 豆蔻 豆蔻 · CARDAMOM One sheet of paper, two pens. \nPeople use the editor. Agents use MCP, CLI and APIs. Share one document with block-level edits, version checks and real-time collaboration. \n Start writing Connect your Agent Free during beta — no credit card required \n Behind the name \nSmall beginnings. Growing ideas. \nOur Chinese name, 豆蔻 (dòu kòu), echoes Doco and means cardamom.\nA place for passing thoughts to take root, with you and your Agent writing together. \nA shared document layer \nBring documents into your agent workflow \nFrom drafting to human review and ongoing agent maintenance. Doco gives different agents one document and knowledge-base interface, keeping collaboration in knowledge that people can edit, cite and export. Explore human–agent document infrastructure \n Craft \nSmooth writing is the baseline \nOpen and write; arrange as you think. The tool is fast enough to be forgotten, and only then does the thinking take the stage. \n Weekly Meeting Notes.md Editing \nNext week's schedule and capacity: \n/dzbg \n Spreadsheet dzbg ⏎ \n Code block dmk · code \n Mermaid diagram lct · mermaid Pinyin abbreviations work too \nSlash commands \nA slash plus pinyin shorthand, /dzbg drops in a table \nBlock drag & collapse \nDrag the handle to move a whole block; fold long passages into a corner \nFloating toolbar \nAppears when you select, disappears when you release \nMulti-level numbering & TOC \nHeadings auto-number; the outline updates as you write \nMermaid · PlantUML \nTurn fenced code into a diagram in one click \nCode highlighting \nDozens of languages, code without leaving the editor \nSpreadsheet \nInsert a table and compute right in the document \nDrag-and-drop images \nDrop to upload, drag handles to resize \n flow.md Mermaid \n flowchart LR\n Idea --> Write\n Write --> Publish\n Publish -.-> Idea \n Live Knowledge Base \nChanges sync in milliseconds \nWhen an Agent edits a block, the page you have open changes instantly — no export, no re-indexing, no waiting. \n PATCH /blocks/:id \nAn Agent changes a block \n Yjs CRDT · Hocuspocus \nPersisted and broadcast at the same time \n Editor paragraph refreshes \nEvery open peer updates together \n Millisecond-level \n Ⅰ \nBlock-level updates \nOnly the block that changed is touched — no whole-document overwrites, no interrupting the sentence you're writing. \n Ⅱ \nWrite and broadcast \nPersisted and broadcast via CRDT at once; every open peer updates together. \n Ⅲ \nAlways current \nNo export-and-reupload, no window spent waiting for the index to rebuild. \n Co-editing \nTwo pens at once,\n no one overwrites \nYou type the second half while the Agent finishes the paragraph above — one sheet of paper, and nobody overwrites anyone. \n Release Plan.md — Doco Live \n$ curl -X PATCH …/blocks/block_01JXK3F7 \\ \n -H 'If-Match: \"sha256:9f2c…\"' \\ \n -d '{\"node\":{\"type\":\"paragraph\",…}}' \n← 200 · new version \"sha256:a41d…\" \nRelease Plan \nQ3 goal: ship the new version by the end of September. \nDeployment flow: auto-deploy after CI passes. Agent \nRollback plan: keep the previous image, one click to revert anytime. \nAn Agent sends a PATCH → the paragraph updates live in the editor \n Ⅰ \nLocal-first \nChanges land locally first — keep writing offline, open and go. \n Ⅱ \nIncremental sync \nOnly Yjs deltas are exchanged once online — landing in tens of milliseconds. \n Ⅲ \nAutomatic merge \nCRDT resolves conflicts at the core; history is never lost. \n Release Plan.md — Version History v14 \n Just now Agent Rewrote a section of “Deployment Flow” Current \n 14:02 You Continued Q3 goals Restore this version \n Yesterday 19:40 Agent Polished 3 spots of wording Restore this version \n Yesterday 09:15 You Created a new document Restore this version POST /versions/:seq/rollback \nYou can let it rewrite freely, because you can always pull it back. \n Also Inside \nAnd more \nNot covered above, but used every day. \n 01 \nKnowledge base management \nThree tiers — knowledge bases, folders, documents — ready when you are 02 \nFull-text search \nFinds documents, and pinpoints the exact block 03 \nWeChat article export \nGenerate inline styles in one click, paste into WeChat without losing formatting \n Import \n Markdown Drag .md straight in \n Word .docx keeps its layout \n PDF Extract text into a draft \n Export \n Markdown Real-time export of a single document \n ZIP Bundle a whole knowledge base or folder \n HTML Inline styles, ready to paste \n Open & Owned \nYour library is yours,\nan",
+   "github_links": [
+    "songofhawk"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "songofhawk",
+  "user": {
+   "name": "songofhawk",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": null,
+   "public_repos": 65,
+   "followers": 7,
+   "created_at": "2012-11-22T08:07:19Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "songofhawk/simplerpa",
+    "description": "基于图像识别的开源RPA工具，理论上可以支持所有windows软件和网页的自动化",
+    "stargazers_count": 37,
+    "forks_count": 8,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2021-10-24T05:38:20Z",
+    "pushed_at": "2022-01-01T15:14:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/findimage",
+    "description": "find template image (smaller) in a source image (bigger)",
+    "stargazers_count": 33,
+    "forks_count": 6,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2022-01-01T15:11:40Z",
+    "pushed_at": "2022-05-30T02:38:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/objtyping",
+    "description": "convert a dict-list object from / to a typed object(class instance with type annotation)",
+    "stargazers_count": 20,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2021-05-26T09:48:35Z",
+    "pushed_at": "2023-06-15T09:09:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/doco",
+    "description": "The document space where humans and AI agents write together — block-level API, MCP, CLI.",
+    "stargazers_count": 11,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://doco.page",
+    "created_at": "2026-02-22T15:22:56Z",
+    "pushed_at": "2026-09-12T13:45:04Z",
+    "topics": [
+     "agent",
+     "claude-code",
+     "collaborative-editing",
+     "knowledge-base",
+     "mcp",
+     "rich-text-editor",
+     "self-hosted",
+     "tiptap",
+     "yjs"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/autopy",
+    "description": "a tool for gui automation by python",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2021-05-06T03:16:54Z",
+    "pushed_at": "2021-10-24T03:56:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/dsh-alpha",
+    "description": "Multi-machine, multi-agent orchestration and control platform for DSH: route tasks across devices, workspaces, and Agent runtimes with streaming, approvals, and recovery.",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "https://songofhawk.github.io/dsh-alpha/",
+    "created_at": "2026-08-20T02:03:03Z",
+    "pushed_at": "2026-09-29T06:26:22Z",
+    "topics": [
+     "dsh-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/snaplab",
+    "description": "splite image into slices and download",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-11-28T13:48:18Z",
+    "pushed_at": "2026-09-28T16:43:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/ai-edu",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-12-07T14:21:45Z",
+    "pushed_at": "2025-12-07T15:31:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/ai-trader",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2025-11-27T14:07:43Z",
+    "pushed_at": "2025-11-27T14:21:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/artifacts",
+    "description": "一系列小工具",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2025-08-09T04:22:58Z",
+    "pushed_at": "2025-08-10T11:13:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/click-scrape",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-09-12T12:52:07Z",
+    "pushed_at": "2026-09-28T16:43:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/decimaljs",
+    "description": "A JavaScript lib for decimal computing",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2017-12-06T17:21:26Z",
+    "pushed_at": "2019-04-17T10:29:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/deskanchor",
+    "description": "DeskAnchor macOS window layout saver",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-06-20T07:54:15Z",
+    "pushed_at": "2026-09-09T09:02:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/doco-dsh",
+    "description": "Doco knowledge-base native plugin for DeepSeek Harness (dsh) — search, read, outline and save-draft with block-level addressing.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-08-18T16:01:44Z",
+    "pushed_at": "2026-10-03T04:25:16Z",
+    "topics": [
+     "dsh-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/doco-memory-dsh",
+    "description": "Doco as centralized agent memory for DeepSeek Harness (dsh plugin)",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-08-23T12:57:19Z",
+    "pushed_at": "2026-08-25T03:10:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/fabricjs-apidemo",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2018-08-19T06:17:32Z",
+    "pushed_at": "2018-08-19T06:17:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/festival1024",
+    "description": "for coders",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-10-23T16:29:23Z",
+    "pushed_at": "2025-10-23T16:53:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "songofhawk/FlaskLearning",
+    "description": "Learning flask followed by mega tutorial",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2022-01-19T06:46:55Z",
+    "pushed_at": "2022-01-20T11:14:47Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 42,
+  "languages": [
+   [
+    "JavaScript",
+    12
+   ],
+   [
+    "Python",
+    9
+   ],
+   [
+    "HTML",
+    6
+   ],
+   [
+    "TypeScript",
+    5
+   ],
+   [
+    "Java",
+    3
+   ],
+   [
+    "Swift",
+    1
+   ],
+   [
+    "Go",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 237,
+  "orgs": [],
+  "profile_readme": "# songofhawk.github.io\n\nsongofhawk 的个人主页，使用 React、Vite 和 GitHub Pages 构建。公开项目来自 GitHub API，博客文章来自当前仓库的 GitHub Issues。\n\n## 本地运行\n\n```bash\nnpm install\nnpm run dev\n```\n\n提交前检查：\n\n```bash\nnpm run lint\nnpm run build\n```\n\n## 发布双语文章\n\n每个语言版本使用一个独立 Issue。所有文章都需要 `blog` 标签，并按语言添加以下标签之一：\n\n- 中文：`lang:zh`\n- 英文：`lang:en`\n\n网站会根据当前界面语言直接从 GitHub API 拉取对应标签的文章。\n\n### 文章元数据\n\n在 Issue 正文最顶部加入：\n\n```md\n<!-- blog-meta\nslug: article-slug\ncomments: 3\n-->\n```\n\n- `slug`：文章的稳定地址标识，只能使用小写字母、数字和连字符。中英文版本必须使用相同的 `slug`。\n- `comments`：用于讨论的 GitHub Issue 编号。中英文版本填写同一个编号即可共享评论入口；省略时使用当前 Issue。\n\n示例：\n\n```text\n中文 Issue：blog + lang:zh，slug: github-personal-homepage\n英文 Issue：blog + lang:en，slug: github-personal-homepage\n```\n\n文章地址为：\n\n```text\n#/blog/github-personal-homepage\n```\n\n用户切换界面语言时，网站会加载同一 `slug` 的对应译文。如果译文尚不存在，详情页会显示另一语言的原文和明确提示；文章列表只展示当前语言已有的文章。\n\n旧的 Issue 编号链接（例如 `#/blog/3`）仍然有效，并会自动升级为对应的 slug 地址。\n",
+  "readmes": {
+   "songofhawk/simplerpa": "# SimpleRPA\n基于图像识别的开源RPA工具，理论上可以支持所有windows软件和网页的自动化\n## 简介\nSimpleRPA是一款python语言编写的开源RPA工具（桌面自动控制工具），用户可以通过配置yaml格式的文件，来实现桌面软件的自动化控制，简化繁杂重复的工作，比如运营人员给用户发消息，打标签，给店铺插旗；项目管理人员采集数据；测试人员实现简单的自动化测试等等。\n## 为什么是SimpleRPA\n* 这是一个基于MIT协议的开源项目，对商业应用友好\n* 市面上常见的RPA工具，虽然功能强大完善，但基本上都基于过程控制的理念，实际上成了图形化编程工具，面对稍微复杂的场景，就需要编制大量的判断跳转和子流程嵌套；而SimpleRPA针对实际RPA场景做出了合理的抽象，虽然使用YAML格式配置，实际上是一种桌面自动控制的DSL，可以更便捷地表达自动化场景。\n* 支持配置文件内嵌Python代码，可以实现更灵活的逻辑\n* 基于图像采集、智能匹配和OCR识别，可以支持任何类型的桌面应用，而无需手工分析页面结构。\n## 状态机概念\n我们做屏幕自动化任务的时候，通常都会经历这样几个步骤：\n1. 检查当前桌面上是否显示了需要的页面（比如查看特定位置的图像，或者比对OCR识别出的文字）\n2. 如果确实是，就收集一些文字或图像的信息（这一步未必会有，要看具体任务类型，有些自动化只要把页面流程走通就可以）\n3. 查找页面上特定的控件（比如某个按钮），对它进行操作（如点击）\n4. 跳转到下一个页面，回到步骤1，反复循环，直到最终页面出现\nSimpleRPA把这个过程，抽象为一个状态机模型：每个页面是一个状态（state），通过“action”触发，可以跳转到下一个状态；\n在每一个State内部，可以做check（检查是否需要的页面），可以find（查找特定控件，或者收集信息）；\n针对find的结果，还可以形成子状态，来实现复杂的操作。\n## 示例\nSimpleRPA的自动化脚本，由一个yaml配置文件，和子文件夹构成，文件夹中通常存放要查找的图像模板。\n### 示例1——自动刷新页面\n一个简单的配置文件示例如下：\n```yaml\n# 有一个特定的浏览器页面，我们需要定时刷新，以便更新它的状态\nname: \"浏览器自动刷新\"\nver: 0.1\n# 默认不会调整屏幕分辨率，所有内容里指定的坐标，都是相对于当前屏幕左上角；\n# 但如果这里指定了屏幕宽度或高度，就会在开始运行内容之前，调整分辨率\n# screen_width: 3440   \n# screen_height: 1440\nstates:\n  - name: \"当前窗口\"\n    # 为了简化，这里假设当前桌面刚刚从浏览器窗口切换到脚本运行窗口，所以一启动就先用alt+tab键切换回去\n    id: 1\n    transition:\n      # 通过点击热键这个action, 迁移到下一个状态\n      action: hotkey('alt', 'tab')\n      wait: 1\n  - name: \"浏览器窗口\"\n    id: 2\n    check:\n      image:\n          snapshot: !rect l:0, r:60, t:113, b:182\n          template: auto_test/detect_logo.png\n          # debug: True\n      fail_action: raise_error('当前页面不是期待的页面')\n    transition:\n      # 通过点击F5实现浏览器刷新，迁移前先等待60s；\n      # 没有其他页面需要显示了，所以还是迁移到当前状态，无限循环\n      action: hotkey('f5')\n      wait: 60\n      to: 2\n```\n上面这个示例可以用流程图表示如下:\n```mermaid\ngraph TD;\n    1[当前窗口] -- Alt+Tab --> 2[浏览器窗口]\n    2 -- F5 --> 2 \n```\n这里states是一个列表，每个列表项是一个状态，每个状态有一个id属性作为唯一标识。状态之间的迁移，通过transition属性的to来指定。\nto指定的内容可以是某一个state的id，也可以是next（缺省值），next意味着迁移到下一个状态（按列表定义顺序，而不是id编号顺序）。\ntransition的action是表示触发迁移的动作，支持键盘鼠标、屏幕、剪贴板、窗口引用（目前只支持windows）等一系列操作。\ntransition的wait表示动作执行以后，等待的时间。\n这里的check属性里面定义了image，用来检测屏幕上特定区域是否显示了指定的图案，如果图案存在，说明正确进入了当前状态；\n如果不存在，会触发fail_action的执行。\n### 示例2——\n自动归档trello任务。一个典型的trello归档页面如下：\n下面的脚本，可以帮用户自动归档所有已完成的任务。\n```yaml\nname: \"自动归档Trello\"\nver: 0.5\n#screen",
+   "songofhawk/findimage": "[English version](README.en.md)\n# findimage - 在大图中找小图\n本项目不是图像搜索，不能从一堆图片中找到相似的那张，而是从一张大图中定位给定模板小图的位置。\nfind the template image (smaller) in a source image (bigger)\n以前这种功能，我都是用aircv实现的，但网易这个项目很久没有维护了，提交PR也没人处理，所以单独做了一个。\n原项目还有一些别的图像处理API，本项目专注于找小图功能，所以干脆就叫findimage。\n和原aircv相比，findimage有以下这些改进:\n* 支持直接传入灰度图(虽然函数内调用opencv的时候,都是使用灰度图完成的,原aircv项目却要求传入的图片必须包含bgr三个通道,不然会报错)\n* 支持背景透明的图片\n* 优化了find_all_template方法的性能，用numpy的切片赋值代替floodFill方法来避免重叠，大概会缩短1/4的总体查找时间\n## 安装\n```shell\npip install findimage\n```\n## 使用示例1\n比如我们对“思否”课程菜单截图如下：\n我们想从中找到#的位置，可以提供一张小模板图：\n然后调用find_template方法：\n```python\nfrom cv2 import cv2\nfrom findimage import find_template\nimage_origin = cv2.imread('seg_course_whole_page.png')\nimage_template = cv2.imread('seg_sharp.png')\nmatch_result = find_template(image_origin, image_template)\n```\n得到的match_result，标识了第一个#在源图中的中心点位置，矩形区域四角坐标 和 匹配度。\n```json\n{\n    \"result\": (x,y),        #tuple，表示识别结果的中心点\n    \"rectangle\":[            #二位数组，表示识别结果的矩形四个角\n        [left, top],\n        [left, bottom],\n        [right, top],\n        [right, bottom]\n    ],\n    \"confidence\": percentage   #识别结果的匹配度,在-1~1之间，越大匹配度越高, 如果为1，表示按像素严格匹配\n}\n```\n我们可以用这个结果，在源图上标识出匹配的位置：\n```python\nimg_result = image_origin.copy()\nrect = match_result['rectangle']\ncv2.rectangle(img_result, (rect[0][0], rect[0][1]), (rect[3][0], rect[3][1]), (0, 0, 220), 2)\ncv2.imwrite('find_all_template_result.en.png', img_result)\n```\n结果如下图所示：\n## 使用示例2——指定匹配度\nfind_template方法有一个threshold参数，如果设置了这个值，那么只有大于指定匹配度的图像，才能被查找出来：\n```python\nmatch_result = find_template(image_origin, image_template, 0.8)\n```\n这个参数的取值范围是0~1，缺省值是0.5，这个值设置得越低，越容易找到结果，但也越容易找错；设置得越高，结果匹配越准确，但也可能找不到结果\n## 使用示例3——查找所有结果\n一张大图上不一定只有一个小图匹配结果，也可能有多个，如果需要返回多个结果，可以使用find_all_template方法:\n```python\nfrom cv2 import cv2\nimport time\nfrom findimage import find_all_template\nimage_origin = cv2.imread('seg_course_menu.png')\nimage_template = cv2.imread('seg_sharp.png')\nstart_time = time.time()\n# 查找所有匹配\nmatch_results = find_all_template(image_origin, image_template, 0.8, 50)\nprint(\"total time: {}\".format(time.time() - start_time))\n# 绘制结果图\nimg_result = image_origin.copy()\nfor match_result in match_results:\n    rect = match_result['rectangle']\n    cv2.rectangle(img_result, (rect[0][0], rect[",
+   "songofhawk/objtyping": "# object converter from primitive and to primitive\n- @author: 宋辉\n- @email: songofhawk@gmail.com\n## Origins\nPython being a dynamically typed language, developers are not in the habit of defining types for their data. This is flexible, but not convenient enough when dealing with complex business logic - the lack of type checking can make it hard to find errors, and there are no code hints when coding in the IDE. So this tool was developed to fix it.\n## Usage-basic\n* First define the business class and define the type of each field through class variables.\n```python\nfrom typing import List\nclass Person:\n    name: str\n    age: int\nclass Company:\n    name: str\n    revenue: float\n    employees: List[Person]\n```\nThe reason why class variables are chosen for definition is that it is the most concise and intuitive. In contrast, there is no way to get the type definition (type_hint) if you initialize the instance variable in the __init__ method, and it is obviously more complicated if you use the @property annotation or getter, setter methods. They are not as simple and elegant as defining class variables directly. But there is a downside to using class variables: it is used here as metadata, and if you really need to define variables shared at the class level, it is impossible to distinguish them. This problem can be solved later by developing custom annotations.\n* The next step is to transform the dict-list nested data, which matches the structure of this class definition, into an instance object of the class.\n```python\nfrom objtyping import objtyping\ncompany1 = objtyping.from_primitive({\n    'name': 'Apple',\n    'revenue': 18.5,\n    'employees': [{\n        'name': 'Tom',\n        'age': 20\n    }, {\n        'name': 'Jerry',\n        'age': 31\n    }]\n}, Company)\n```\nNow company1 is a complete Company object, and you can directly access the properties in it in the form of company1.name, company1.employees[0].name, etc.\n* Of course, you can also turn the business object back into a dict-list nested form\n```python\nfrom objtyping import objtyping\ndict_list = objtyping.to_primitive(company1)\n```\nThe primitve object, at this point, is a large pile of primitive type data nested a",
+   "songofhawk/doco": "# Doco\n> 📖 [中文版](README.zh-CN.md)\n**The document space where humans and AI agents write together.** An open-source rich-text\ncollaborative editor that puts your data back in your hands — and treats your AI agents with\nthe same care: block-level stable addressing, optimistic concurrency control, and a 29-tool\nMCP server, so agents read and write your knowledge base as safely as a careful human editor.\n- **Hosted:** [doco.page](https://doco.page/) — free during beta\n- **Connect your agent:** `claude mcp add doco -- npx -y --package doco-agent-cli doco mcp`\n- **CLI:** `npm i -g doco-agent-cli && doco login`\n- **npm:** [doco-agent-cli](https://www.npmjs.com/package/doco-agent-cli) · **API docs:** [doco.page/api-docs](https://doco.page/api-docs/)\n### Claude Code Plugin Marketplace\n```text\n/plugin marketplace add songofhawk/doco\n/plugin install doco@doco\n```\nThe marketplace bundles the Doco MCP server and the safe read → version → protected-write\noperating protocol. Tokens remain in Claude Code's local configuration and are never included\nin the plugin repository.\n## Why agents are safe here\n| Capability | What it means |\n|---|---|\n| Block-level stable addressing | Every paragraph has a `block_<ULID>` id — position-independent, survives drags and folds |\n| Optimistic concurrency | Reads return a `sha256` version; writes require `If-Match`; on 409 the agent re-reads, merges, retries — blind overwrites are impossible |\n| Markdown round-trip | Export with `?annotate=anchors`; write the whole document back and block ids are preserved |\n| Human–agent co-editing | Agent writes flow through the same Yjs document — changes appear live in the browser |\n| Transactions & idempotency | Batch operations commit atomically; `Idempotency-Key` makes retries side-effect-free |\n## Features\n### Editing Experience\n- **Rich text editing**: headings, lists, blockquotes, task lists, code blocks (syntax highlighting), tables, images, links, text styling, and more\n- **`/` slash command**: type `/` to open the command palette with fuzzy search — supports pinyin abbreviations for Chinese users\n- **Floating toolbar**: auto-appears on text selection, all formatting actions within two centimeters o"
+  }
+ },
+ "apps": []
+}

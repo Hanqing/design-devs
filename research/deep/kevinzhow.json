@@ -1,0 +1,604 @@
+{
+ "handle": "kevinzhow",
+ "sites": [
+  {
+   "url": "https://blog.kevinzhow.com",
+   "ok": true,
+   "title": "Kevin Blog",
+   "description": "All about life moments and my products.",
+   "stack": [
+    "Typlog 4.0.0",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh",
+   "home_text": "Kevin Blog \n about \n Kevin Blog \nAll about life moments and my products. \n Aug 31, 2025 \n产品随想 2 产品力与人才密度 \n Aug 29, 2025 \n产品随想 1 做营销还是做产品 \n Jul 20, 2025 \nPlay PyTorch Stable Diffusion and ONNX, Ollama on Intel Core Ultra 5 225H Ubuntu 25.04 \n Mar 24, 2025 \nPlay with ROCm, PyTorch, Ollama on Ubuntu 24.04 and 780m \n Mar 20, 2025 \n写在新的旅程开始前 \n Mar 08, 2025 \n想念自然与青春 \n Dec 07, 2024 \n懒猫微服体验——自由协作的神器 \n Oct 10, 2024 \n没有光纤的日子怎么上网？自制 Home WI-FI！ \n记录一下没有网的漂泊日子 \n Oct 30, 2023 \nSwift on Server Tour 6 关联 User 和 Post \n Oct 21, 2023 \nSwift on Server Tour 5 创建 Users \n Aug 06, 2023 \nSwift on Server Tour 4 构建 Post Controller \n Jul 23, 2023 \nSwift on Server Tour 3 构建 Post 的 API \n Jul 18, 2023 \n将不懂的日语一拍扫尽，介绍捧读全新的「OCR 工作台」功能 \n Jul 09, 2023 \nSwift on Server Tour 2 连通你的数据库与服务器 \n Jun 25, 2023 \nSwift on Server Tour 1 你的第一个 Server App 以及它背后的故事 \n Jun 11, 2023 \nSwift on Server Tour 0: 为什么这可能是你的好选择 \n May 15, 2023 \n纪念左耳朵耗子 \n Feb 20, 2023 \nHow to learn Japanese by reading Novels and News with the help of Oyomi. \n Jun 11, 2022 \nWrite WebAssembly in Swift and use it in Swift App \n Feb 18, 2022 \nBenQ WiT ScreenBar Halo 体验报告 \n Kevin Blog \n 归档 \n 中文 \n English",
+   "github_links": [],
+   "subpages": {
+    "https://blog.kevinzhow.com/about": "💻 Maker | INTP-T | Nikon Z6 📸\n## Base\n*   Koshigaya, Japan\n*   Qingdao, China\n## Products\nKana Origin\n楷雯 周\n[View](https://apps.apple.com/us/app/kana-origin/id1439222882)★★★★★ 5\nOyomi - AI Japanese Reader\n楷雯 周\n[View](https://apps.apple.com/us/app/oyomi-ai-japanese-reader/id1474251984)★★★★★ 5\nHanami - Japanese Handwritten\n楷雯 周\n[View](https://apps.apple.com/us/app/hanami-japanese-handwritten/id…)★★★★☆ 4\n## Book\n[PRODUCTER Build a product from 0 to 1](https://producter.app/)\n## Links\n*   [Twitter](https://twitter.com/kevinzhow)\n*   [Github](https://github.com/kevinzhow)\n*   [Linktree](https://linktr.ee/kevinzhow)"
+   },
+   "feed": {
+    "url": "https://blog.kevinzhow.com/feed.xml",
+    "count_seen": 25,
+    "items": [
+     {
+      "title": "产品随想 2 产品力与人才密度",
+      "date": "Sun, 31 Aug 2025 07:31:47",
+      "url": "https://blog.kevinzhow.com/posts/chan-pin-sui-xiang-2-chan-pin-li-yu-ren-cai-mi-du/zh"
+     },
+     {
+      "title": "产品随想 1 做营销还是做产品",
+      "date": "Fri, 29 Aug 2025 13:03:43",
+      "url": "https://blog.kevinzhow.com/posts/chan-pin-sui-xiang-1-zuo-ying-xiao-huan-shi-zuo-chan-pin/zh"
+     },
+     {
+      "title": "Play PyTorch Stable Diffusion and ONNX, Ollama on Intel Core Ultra 5 225H Ubuntu 25.04",
+      "date": "Sun, 20 Jul 2025 05:27:27",
+      "url": "https://blog.kevinzhow.com/posts/pytorch-intel-core-ultra/zh"
+     },
+     {
+      "title": "Play with ROCm, PyTorch, Ollama on Ubuntu 24.04 and 780m",
+      "date": "Mon, 24 Mar 2025 05:11:58",
+      "url": "https://blog.kevinzhow.com/posts/rocm-780m/zh"
+     },
+     {
+      "title": "写在新的旅程开始前",
+      "date": "Thu, 20 Mar 2025 08:25:56",
+      "url": "https://blog.kevinzhow.com/posts/new-beginning/zh"
+     },
+     {
+      "title": "想念自然与青春",
+      "date": "Sat, 08 Mar 2025 03:07:40",
+      "url": "https://blog.kevinzhow.com/posts/2025-03-08/zh"
+     },
+     {
+      "title": "懒猫微服体验——自由协作的神器",
+      "date": "Sat, 07 Dec 2024 10:40:02",
+      "url": "https://blog.kevinzhow.com/posts/lazycat/zh"
+     },
+     {
+      "title": "没有光纤的日子怎么上网？自制 Home WI-FI！",
+      "date": "Thu, 10 Oct 2024 10:47:53",
+      "url": "https://blog.kevinzhow.com/posts/android-home-wifi/zh"
+     },
+     {
+      "title": "Swift on Server Tour 6 关联 User 和 Post",
+      "date": "Mon, 30 Oct 2023 05:28:30",
+      "url": "https://blog.kevinzhow.com/posts/swift-on-server-tour-6/zh"
+     },
+     {
+      "title": "Swift on Server Tour 5 创建 Users",
+      "date": "Sat, 21 Oct 2023 05:51:11",
+      "url": "https://blog.kevinzhow.com/posts/swift-on-server-5/zh"
+     },
+     {
+      "title": "Swift on Server Tour 4 构建 Post Controller",
+      "date": "Sun, 06 Aug 2023 07:57:46",
+      "url": "https://blog.kevinzhow.com/posts/swift-on-server-tour-4/zh"
+     },
+     {
+      "title": "Swift on Server Tour 3 构建 Post 的 API",
+      "date": "Sun, 23 Jul 2023 14:21:58",
+      "url": "https://blog.kevinzhow.com/posts/swift-on-server-tour-3-build-api/zh"
+     },
+     {
+      "title": "将不懂的日语一拍扫尽，介绍捧读全新的「OCR 工作台」功能",
+      "date": "Tue, 18 Jul 2023 13:20:06",
+      "url": "https://blog.kevinzhow.com/posts/pengdu-ocr-desk/zh"
+     },
+     {
+      "title": "Swift on Server Tour 2 连通你的数据库与服务器",
+      "date": "Sun, 09 Jul 2023 12:11:13",
+      "url": "https://blog.kevinzhow.com/posts/swift-on-server-tour-02/zh"
+     },
+     {
+      "title": "Swift on Server Tour 1  你的第一个 Server App 以及它背后的故事",
+      "date": "Sun, 25 Jun 2023 15:13:41",
+      "url": "https://blog.kevinzhow.com/posts/swift-on-server-tour-1/zh"
+     },
+     {
+      "title": "Swift on Server Tour 0: 为什么这可能是你的好选择",
+      "date": "Sun, 11 Jun 2023 13:25:28",
+      "url": "https://blog.kevinzhow.com/posts/why-swift-on-server/zh"
+     },
+     {
+      "title": "纪念左耳朵耗子",
+      "date": "Mon, 15 May 2023 21:00:01",
+      "url": "https://blog.kevinzhow.com/posts/in-memory-of-haoel/zh"
+     },
+     {
+      "title": "How to learn Japanese by reading Novels and News with the help of Oyomi.",
+      "date": "Mon, 20 Feb 2023 06:35:58",
+      "url": "https://blog.kevinzhow.com/posts/how-to-learn-japanese-by-reading-novels-and-news-with-the-help-of-oyomi/en"
+     },
+     {
+      "title": "Write WebAssembly in Swift and use it in Swift App",
+      "date": "Sat, 11 Jun 2022 10:07:47",
+      "url": "https://blog.kevinzhow.com/posts/swift-webassembly/en"
+     },
+     {
+      "title": "BenQ WiT ScreenBar Halo 体验报告",
+      "date": "Fri, 18 Feb 2022 15:13:17",
+      "url": "https://blog.kevinzhow.com/posts/benq-wit-screenbar-halo-ti-yan-bao-gao/en"
+     },
+     {
+      "title": "记录 2021 年考驾照的体验",
+      "date": "Thu, 30 Dec 2021 07:14:22",
+      "url": "https://blog.kevinzhow.com/posts/ji-lu-2021-nian-kao-jia-zhao-de-ti-yan-2/en"
+     },
+     {
+      "title": "捧读的 EPUB 日语轻小说阅读器来了",
+      "date": "Wed, 25 Aug 2021 17:08:04",
+      "url": "https://blog.kevinzhow.com/posts/peng-du-de-epub-yue-du-qi-lai-liao/en"
+     },
+     {
+      "title": "使用 Go Mobile 开发跨平台 Library",
+      "date": "Tue, 22 Jun 2021 07:55:22",
+      "url": "https://blog.kevinzhow.com/posts/gomobile_library/en"
+     },
+     {
+      "title": "使用 Kotlin Native 开发跨平台 Library",
+      "date": "Mon, 21 Jun 2021 17:29:36",
+      "url": "https://blog.kevinzhow.com/posts/kotlin_natvie_ios_android/en"
+     },
+     {
+      "title": "小番茄 - 一个只有陪伴的自习室",
+      "date": "Fri, 05 Mar 2021 13:20:16",
+      "url": "https://blog.kevinzhow.com/posts/xiao-fan-qie-yi-ge-zhi-you-pei-ban-de-zi-xi-shi/en"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://miraa.app",
+   "ok": true,
+   "title": "Miraa - AI Bilingual Subtitles & Learning",
+   "description": "Miraa is an AI-powered bilingual subtitle and learning platform that helps you learn languages through media content with real-time translation and interactive AI explanations.",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "Miraa\n Login\nAI Bilingual \nSubtitles \n& Learning \n Seamlessly transcribe your media into echoing material\n Download\n APK \n Download\n APK \nAI Materials \n Transcribe your media into\n subtitles with the power of AI.\n svg-image \nSeamless \nEchoing \n Following the indicator\n and echoing at your pace.\nInteractive \nAI Explanation \n Chat with AI\n and resolve your questions.\nRealtime \nTranslation \n Turn subtitles\n into your language.",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": [
+    "6462883096"
+   ]
+  },
+  {
+   "url": "https://linktr.ee/kevinzhow",
+   "ok": true,
+   "title": "kevinzhow Official: Instagram, Twitter | Linktree",
+   "description": "Indie Developer | Author | Oyomi | KanaOrigin",
+   "stack": [
+    "Next.js",
+    "Google Fonts",
+    "React"
+   ],
+   "hosting": [
+    "Fastly"
+   ],
+   "lang": "en",
+   "home_text": "@kevinzhow \nIndie Developer | Author | Oyomi | KanaOrigin \nMy Products \n‎Kana Origin \n‎Oyomi - Japanese Reader \n‎Hanami - Japanese Handwritten Input Method \nMy Book \n📚PRODUCTER - Build product from 0 to 1 \n🖋️ Kevin Blog \nMy Design \nDribbble \nMy Status \n🐤 Twitter \n📷 Instagram \n Get your own Linktree \n Cookie Preferences • Report • Privacy • \n Explore • About this account • More from Linktree \nExplore other Linktrees \n chappellroan @chappellroan \n morepurposepod @morepurposepod \n Spanx @spanx \n arianagrande @arianagrande \n jenniferhudsonshow @jenniferhudsonshow \n Dr. Holly @drholly \n Camryn Bynum @camrynbynum \n drMarkHyman @drMarkHyman \n Boze vs The World @bozevstheworld \n Jeremiah Brown @FindJeremiah \n Robby Hoffman @robbyhoffman \n previous \n next \n Discover more See all \n @bigneettnk @kaysonyewuchi @chazzypazzy @antoarellano @TropicalVixen @shorelinehomesolutions @wavygamer18 @vegansparadise @mandyy.jo @bikhoirfastronik @Katia_ramos04 @rimportlogistica @may_suthisuda @Mvalmorbida @chsvbcrusaders @Angelicalomas @icaq_queensland @actualizateperu @tmoneybiz @homeopathybangi @master_brows @consultoriaonlinestefanoprata @yannn31 @elite_pilates @trinitypresbychurchkwadaso @grandmart @gracehillsyouth @kelouring @amineelogri @LORNAmedia @Nonstopstudio @flosmedia @itsBigiTV @angelllome @realezadoscachoss @stavispublishing @kavitaneel @leaderacademy.tn @Mariah.Mbody.Living @horizonevents1 @skinresolution @nihalnagekar @Everything_Sourdough @brujulainterna @HATISMAPA @robbyhoffman \nAbout this account \n kevinzhow \nTo help keep our community authentic, we're showing information about accounts on Linktree. \n Joined February 2023 \nkevinzhow has been a member of Linktree for 3 years and joined in February 2023.\nResources kevinzhow has populated their site with include:\n• ‎Kana Origin\n• ‎Oyomi - Japanese Reader\n• ‎Hanami - Japanese Handwritten Input Method\n• 📚PRODUCTER - Build product from 0 to 1\n• 🖋️ Kevin Blog\n• Dribbble\n• 🐤 Twitter\n• 📷 Instagram \nMore from Linktree \n Products \n Link in bio + tools \n Manage your social media \n Grow and engage your audience \n Monetize your following \n Measure your success \n Templates \n Marketplace \n Learn \n Resources \n How to use Linktree \n Pricing \n Blog \n How to see who viewed your Instagram Story and what you can do about it \n How to make a QR code menu for your restaurant \n How do I put a link in my LinkedIn bio? \n 20 motivational quotes for female athletes \n How to clear Instagram cache on iPhone and Android \n How to add a link to your Instagram Story (2026 guide) \n Introducing Lifetime Clicks and Views to Make Your Content Soar \n Tools \n Font generator \n Hashtag generator \n Instagram grid maker \n Instagram name generator \n TikTok hashtag generator \n Username generator \n YouTube banner maker \n YouTube hashtag generator \n YouTube logo maker \n YouTube name generator \n YouTube tag extractor \n Read more \n How much does YouTube pay per view? \n A realtor’s guide to creating an open house sign-in sheet [template included] \n How to add links to your YouTube channel and description \n YouTube DMs: How to message someone on YouTube \n How to write a real estate agent bio \n How YouTube creators can build stronger audience relationships \n How to promote a podcast: 10 practical tips \n Link in bio + tools \n Link in bio Customize your Linktree \n Link shortener Create trackable, shareable short links \n QR code generator Turn links into scannable QR codes \n Canva Background Editor Import your custom designs from Canva into your profile \n Linktree for every social platform Grow and engage your audience everywhere \n Manage your social media \n Schedule and auto-post Hands-free, hassle-free social media planning \n Instagram auto reply Automated replies and DMs triggered by comments \n AI content & caption generator Instant AI-powered post ideas and captions \n Hashtag generator Trending hashtag suggestions for better reach \n Social integration for every social platform Plan, auto post, and share across all platforms \n Grow and engage your audience \n Collect leads with contact forms Turn visitors into subscribers \n Manage and activate your audience Organize, tag, and track contacts \n Send contacts to email tools Sync with Mailchimp, Klaviyo, Kit & more \n Create a digital business card Share your contact details with a tap or scan \n Monetize your following \n Earn with a Linktree Shop Sell products and earn commission \n Sell an online course Create and sell your expertise easily \n Host digital products Sell digital produc",
+   "github_links": [],
+   "subpages": {
+    "https://linktr.ee/blog": "Skip to main content \nLinktree \nBlog \n All Best Practices Creators How To Product News Success Stories Trends \n Oct 19, 2026 youtube 12 min read How much does YouTube pay per view? \nFigure out what your YouTube views are worth and see how many it takes to hit your monthly income goals. \n Oct 19, 2026 Real Estate 11 min read A realtor’s guide to creating an open house sign-in sheet [template included] \nBuild a form in minutes, generate a free QR code, and turn open house visitors into captured leads with a digital sign-in sheet. \n Oct 14, 2026 youtube 13 min read How to add links to your YouTube channel and description \nDiscover how to add clickable links to your videos and channel, and how to fix links that aren’t working. \nIntegrate with your favorite marketing tools. \nSync your Linktree audience straight to Mailchimp, Google Sheets and more. Try Linktree Pro \nFind out what's resonating with your audience. \nGet Pro analytics with AI-backed smart insights to help you grow your following. Try Linktree Pro \nBrowse by \ncategory \n All posts Affiliate Marketing Best Practices Creators How To Product News Success Stories Trends \n Oct 14, 2026 youtube 12 min read YouTube DMs: How to message someone on YouTube \nYouTube’s DM feature allows you to message other people, but there are still limitations to who you can reach. \n Oct 13, 2026 Real Estate 17 min read How to write a real estate agent bio \nLearn how to write a memorable realtor bio that sounds like you, even if you have no sales experience or history. \n Oct 5, 2026 Newsroom 5 min read How YouTube creators can build stronger audience relationships \nLinktree's new tools for YouTube creators are designed to help turn views into direct conversations, stronger audience relationships, and more meaningful next steps. \n Sep 30, 2026 Best Practices 8 min read How to promote a podcast: 10 practical tips \nLearn how to take your podcast to a wider audience and gain popularity. It’s time for your content to shine. \n Sep 29, 2026 Newsroom 5 min read Linktree launches new and improved YouTube features to help creators build more direct connections with their audiences \nLinktree's new tools for YouTube creators make it easier to connect directly with viewers, keep video content current, and personalize what audiences see next. \n Sep 9, 2026 qr-codes 21 min read How to make a QR code for your Linktree \nDiscover how a QR code for your Linktree can be easily edited after printing, and follow our step-by-step guide to set one up. \n Sep 3, 2026 Best Practices 18 min read Here’s how to schedule Instagram posts and save time \nInstagram's schedule button didn't disappear, it just moved. Here's where to find it, plus how to plan ahead and post automatically across every platform you use. \n Aug 24, 2026 5 min read Linktree Teams Up With Olivia Rodrigo’s Daisy Chain Fields to Turn Fandom Into a Chain of Support \n Aug 10, 2026 Best Practices 4 min read The Best Time to Set Up Your Linktree Is Before the Spotlight Hits \nWhat h"
+   },
+   "appstore_ids": [
+    "1439222882",
+    "1474251984",
+    "6447871085"
+   ]
+  }
+ ],
+ "github": {
+  "login": "kevinzhow",
+  "user": {
+   "name": "Kevin",
+   "company": null,
+   "blog": "https://blog.kevinzhow.com",
+   "location": "Koshigaya, Japan",
+   "bio": "Code Design and Crafts",
+   "public_repos": 114,
+   "followers": 3912,
+   "created_at": "2011-10-27T17:26:44Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "kevinzhow/PNChart",
+    "description": "A simple and beautiful chart lib used in Piner and CoinsMan for iOS",
+    "stargazers_count": 9632,
+    "forks_count": 1733,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2013-11-06T22:06:17Z",
+    "pushed_at": "2018-07-02T12:43:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/PNChart-Swift",
+    "description": "A simple and beautiful chart lib used in Piner and CoinsMan for iOS(https://github.com/kevinzhow/PNChart) Swift Implementation ",
+    "stargazers_count": 1366,
+    "forks_count": 200,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2014-06-04T22:22:20Z",
+    "pushed_at": "2024-01-18T16:59:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/Waver",
+    "description": "Siri like waver",
+    "stargazers_count": 790,
+    "forks_count": 109,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-12-14T06:23:01Z",
+    "pushed_at": "2018-01-04T00:32:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/RealtimeGradientText",
+    "description": "Gradient Text in Real",
+    "stargazers_count": 627,
+    "forks_count": 53,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-07-06T00:39:56Z",
+    "pushed_at": "2015-07-08T21:18:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/Rungic",
+    "description": "AgentOS in your hand - An Android phone, a full Linux desktop computer, and an assistant that does the work for you.",
+    "stargazers_count": 414,
+    "forks_count": 18,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-09-23T12:12:38Z",
+    "pushed_at": "2026-10-08T14:50:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/pop-handapp",
+    "description": "POP Handapp",
+    "stargazers_count": 308,
+    "forks_count": 78,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-05-16T10:27:38Z",
+    "pushed_at": "2015-08-31T20:36:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/NaughtyImageView",
+    "description": "UIImageView Can Animate Sprite Image",
+    "stargazers_count": 254,
+    "forks_count": 10,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-07-13T01:05:20Z",
+    "pushed_at": "2019-02-03T15:21:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/ios-with-girlfriend",
+    "description": "Demo For iOS With GirlFriend",
+    "stargazers_count": 105,
+    "forks_count": 19,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-12-16T13:29:41Z",
+    "pushed_at": "2015-12-16T16:22:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/raft-flutter",
+    "description": "A native Flutter client for Raft",
+    "stargazers_count": 89,
+    "forks_count": 8,
+    "language": "Dart",
+    "homepage": "",
+    "created_at": "2026-10-08T02:09:13Z",
+    "pushed_at": "2026-10-21T09:16:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/RichTextView",
+    "description": "RichTextView based On TextKit",
+    "stargazers_count": 68,
+    "forks_count": 8,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-07-08T20:06:21Z",
+    "pushed_at": "2019-02-10T04:54:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/producter_fuse",
+    "description": "Producter Markup App Made With Fuse http://producter.io",
+    "stargazers_count": 46,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-12-25T16:20:22Z",
+    "pushed_at": "2015-12-27T08:09:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/LiveBlend",
+    "description": "Live overlay effect on image",
+    "stargazers_count": 35,
+    "forks_count": 2,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-05-10T07:49:16Z",
+    "pushed_at": "2014-05-11T08:06:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/Lolita",
+    "description": "Meet with Lolita",
+    "stargazers_count": 31,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-09-21T08:07:10Z",
+    "pushed_at": "2015-11-12T06:53:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/albatross",
+    "description": "A Swift webhook handler",
+    "stargazers_count": 27,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-03-25T17:23:21Z",
+    "pushed_at": "2024-02-09T00:32:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/swift-on-server-tour",
+    "description": "Sample code for Swift on Server Tour",
+    "stargazers_count": 17,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-06-25T12:13:22Z",
+    "pushed_at": "2023-10-22T08:03:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/swiftwasm-host-app-demo",
+    "description": "This is a demo project for Write WebAssembly in Swift and use it in Swift App",
+    "stargazers_count": 16,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-06-11T08:47:19Z",
+    "pushed_at": "2022-06-11T12:28:44Z",
+    "topics": [
+     "ios",
+     "swift",
+     "webassembly"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/Waver-Android",
+    "description": "Android implementation of Waver",
+    "stargazers_count": 15,
+    "forks_count": 5,
+    "language": "Java",
+    "homepage": null,
+    "created_at": "2014-12-23T04:21:24Z",
+    "pushed_at": "2014-12-25T03:47:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kevinzhow/Producter",
+    "description": "Landing page for Producter",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "CSS",
+    "homepage": "http://producter.io",
+    "created_at": "2015-05-27T13:50:51Z",
+    "pushed_at": "2015-08-04T14:51:42Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 49,
+  "languages": [
+   [
+    "Swift",
+    18
+   ],
+   [
+    "Objective-C",
+    7
+   ],
+   [
+    "JavaScript",
+    4
+   ],
+   [
+    "Python",
+    3
+   ],
+   [
+    "Dart",
+    3
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "C#",
+    2
+   ],
+   [
+    "Kotlin",
+    2
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 2355,
+  "orgs": [
+   "CatchChat"
+  ],
+  "profile_readme": "💻 Indie Developer | INTP-T | Nikon Z6 📸\n\n## Base\n- Koshigaya, Japan\n- Qingdao, China\n\n## Products\nKana Origin - Learn Japanese from Origin [iOS](<https://apps.apple.com/us/app/kana-origin/id1439222882>) [Android](<https://play.google.com/store/apps/details?id=com.kevinzhow.kanaoriginlite&hl=en_US)>)\n\nOyomi - Japanese Analyzer [iOS](<https://apps.apple.com/us/app/oyomi-japanese-reader/id1474251984>) [Android](<https://play.google.com/store/apps/details?id=com.kevinzhow.pengdu&hl=en_US)>)\n\nHanami - Japanese Handwritten Keyboard [iOS](<https://apps.apple.com/us/app/hanami-japanese-handwritten/id6447871085>)\n\n## Book\n[PRODUCTER  Build a product from 0 to 1](<https://producter.app/>)\n\n## Links\n- [Twitter](<https://twitter.com/kevinzhow>)\n- [Linktree](<https://linktr.ee/kevinzhow>)\n- Blog [Chinese](<https://blog.kevinzhow.com>) [English](<https://medium.com/@kevinzhow>)\n",
+  "readmes": {
+   "kevinzhow/PNChart": "# PNChart\n[](https://travis-ci.org/kevinzhow/PNChart)\nYou can also find swift version at here https://github.com/kevinzhow/PNChart-Swift\nA simple and beautiful chart lib with **animation** used in [Piner](https://itunes.apple.com/us/app/piner/id637706410) and [CoinsMan](https://itunes.apple.com/us/app/coinsman/id772163893) for iOS\n[](https://s3.amazonaws.com/farshid.ghods.github/pnchart-gif.gif)\n## Requirements\nPNChart works on iOS 7.0+ and is compatible with ARC projects.\nIf you need support for iOS 6, use PNChart <= 0.8.1. Note that 0.8.2 supports iOS 8.0+ only, 0.8.3 and newer supports iOS 7.0+.\nIt depends on the following Apple frameworks, which should already be included with most Xcode templates:\n* Foundation.framework\n* UIKit.framework\n* CoreGraphics.framework\n* QuartzCore.framework\nYou will need LLVM 3.0 or later in order to build PNChart.\n## Usage\n### Cocoapods\n[CocoaPods](http://cocoapods.org) is the recommended way to add PNChart to your project.\n1. Add a pod entry for PNChart to your Podfile `pod 'PNChart'`\n2. Install the pod(s) by running `pod install`.\n3. Include PNChart wherever you need it with `#import \"PNChart.h\"`.\n### Copy the PNChart folder to your project\n```objective-c\n#import \"PNChart.h\"\n//For Line Chart\nPNLineChart * lineChart = [[PNLineChart alloc] initWithFrame:CGRectMake(0, 135.0, SCREEN_WIDTH, 200.0)];\n[lineChart setXLabels:@[@\"SEP 1\",@\"SEP 2\",@\"SEP 3\",@\"SEP 4\",@\"SEP 5\"]];\n// Line Chart No.1\nNSArray * data01Array = @[@60.1, @160.1, @126.4, @262.2, @186.2];\nPNLineChartData *data01 = [PNLineChartData new];\ndata01.color = PNFreshGreen;\ndata01.itemCount = lineChart.xLabels.count;\ndata01.getData = ^(NSUInteger index) {\n    CGFloat yValue = [data01Array[index] floatValue];\n    return [PNLineChartDataItem dataItemWithY:yValue];\n};\n// Line Chart No.2\nNSArray * data02Array = @[@20.1, @180.1, @26.4, @202.2, @126.2];\nPNLineChartData *data02 = [PNLineChartData new];\ndata02.color = PNTwitterColor;\ndata02.itemCount = lineChart.xLabels.count;\ndata02.getData = ^(NSUInteger index) {\n    CGFloat yValue = [data02Array[index] floatValue];\n    return [PNLineChartDataItem dataItemWithY:yValue];\n};\nlineChart.chartData = @[data01, data02];\n[lineChart strokeC",
+   "kevinzhow/PNChart-Swift": "PNChart-Swift\n=============\nPNChart(https://github.com/kevinzhow/PNChart) Swift Implementation \n# Installation\nThis isn't on CocoaPods yet, so to install, add this to your Podfile\n```\npod 'PNChartSwift',:git => 'https://github.com/kevinzhow/PNChart-Swift.git'\n```\n",
+   "kevinzhow/Waver": "#Waver\n[](https://travis-ci.org/kevinzhow/PNChart)\nA Siri like wave effect\n[](https://dl.dropboxusercontent.com/u/1599662/waver/wave.mov)\n## Requirements\nWaver works on iOS 7.0 and later version and is compatible with ARC projects. It depends on the following Apple frameworks, which should already be included with most Xcode templates:\n* Foundation.framework\n* UIKit.framework\n* CoreGraphics.framework\n* QuartzCore.framework\nYou will need LLVM 3.0 or later in order to build Waver.\n## Usage\n### Cocoapods\n[CocoaPods](http://cocoapods.org) is the recommended way to add Waver to your project.\n1. Add a pod entry for Waver to your Podfile `pod 'Waver', '~> 0.2.0'`\n2. Install the pod(s) by running `pod install`.\n3. Include Waver wherever you need it with `#import \"Waver.h\"`.\n### Or Copy the Waver folder to your project\n## Example\n```objective-c\nWaver * waver = [[Waver alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(self.view.bounds)/2.0 - 50.0, CGRectGetWidth(self.view.bounds), 100.0)];\n__weak Waver * weakWaver = waver;\nwaver.waverLevelCallback = ^() {\n    [self.recorder updateMeters];\n    CGFloat normalizedValue = pow (10, [self.recorder averagePowerForChannel:0] / 50);\n    weakWaver.level = normalizedValue;\n};\n[self.view addSubview:waver];\n```\n## License\nThis code is distributed under the terms and conditions of the [MIT license](LICENSE).\n## SpecialThanks\nhttps://github.com/stefanceriu/SCSiriWaveformView\n",
+   "kevinzhow/RealtimeGradientText": "# RealtimeGradientText\nGradient Text in Real\n[Check this blog Fun With CALayer Mask](http://blog.zhowkev.in/2015/07/06/fun-with-mask/)\n"
+  }
+ },
+ "apps": [
+  {
+   "name": "Kana Origin",
+   "artist": "楷雯 周",
+   "genre": "Reference",
+   "price": "Free",
+   "released": "2018-11-13",
+   "updated": "2025-09-17",
+   "version": "1.3.32",
+   "rating": 4.92,
+   "ratings": 377,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/kana-origin/id1439222882",
+   "desc": "This is an app for learning Japanese Kana, but it's more than that.\n\n- Origins\nStarting from the origins, we will take you through the origins of Japanese kana and its relationship with kanji, helping you to better understand and distinguish these kana.\n\n- Quick Search\nThe Quick Checklist will help you quickly find the kana, date and number you want to know when you need it.\n\n- Learning\nA learning style that incorporates multiple memory modes for intensive review based on the forgetting curve and proficiency level. And you can learn some useful Japanese words in line with your learning progress.\n\nIn the latest version, an Apple Watch version has been added, so you can get something out of it anytime, anywhere.\n\n- Test\nReinforce your memory of unfamiliar kana through spelling.\n\n- Words\nEnhance your memory and understanding of words with vivid 3D models\n\nMore features are in the works. You",
+   "country": "us"
+  },
+  {
+   "name": "Oyomi - AI Japanese Reader",
+   "artist": "楷雯 周",
+   "genre": "Reference",
+   "price": "Free",
+   "released": "2020-03-25",
+   "updated": "2026-07-11",
+   "version": "1.5.19",
+   "rating": 4.82,
+   "ratings": 120,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/oyomi-ai-japanese-reader/id1474251984",
+   "desc": "Oyomi is a Japanese \"Grammar analyzer\" and \"Learning\" App.\n\nPart of speech: Use machine learning to automatically break sentences and mark the parts of speech and pronunciation of Chinese characters in sentences and paragraphs to improve your reading efficiency.\n\nSemantic analysis: Combining machine learning techniques, the Oyomi can accurately analyze and generate the semantic structure of sentences and paragraphs, sort out the modification relationship between short sentences, and help you understand the grammatical characteristics and meanings of Japanese.\n\nTranslation reading: Oyomi also has accurate online translation function, and can perform text-to-speech.\n\nWeb content analyzer: Oyomi can parse the content of the web page for analysis.\n\nEPUB reading: Support to import EPUB e-books.\n\nWord parsing: Oyomi can automatically analyze the conjugations of word with build-in dictionary.\n\n",
+   "country": "us"
+  },
+  {
+   "name": "小记",
+   "artist": "楷雯 周",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2015-04-24",
+   "updated": "2025-07-28",
+   "version": "2.6.11",
+   "rating": 4.62,
+   "ratings": 63,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/%E5%B0%8F%E8%AE%B0/id975031499",
+   "desc": "一次笔记体验的回归\n\n通过结合「聚珍仿宋」刻本的精致字体与纵书留白，给你一次全新的笔记体验。\n\n- 自动保存\n在你编写内容时实时保存，确保你的创作安然无恙。\n\n- 图片分享\n点击「存」可以将内容生成为图片与好友分享\n\n- 云端同步\n如果你在设备商登陆了 iCloud，所有内容将自动保存到你的 iCloud 账户内，这些内容不会存储在我们的服务器上，因此绝对私密。\n\n- 自定义字体\n升级到 iOS 11 后你可以选择自己喜欢的字体来定制内容的展现效果。iOS 11 以前的用户可以在手机内将字体通过分享按钮给小记以添加字体。\n\n- 农历\n开启农历后时间将自动显示为农历时间\n\n- 横排布局\n是的你还可以横排显示\n\n- 密码锁\n支持给 App 开启密码锁功能\n\n- 小记使用 iCloud 同步，备份你不同设备的数据，如果你需要此功能，请确保你的 iCloud 和 iCloud 云盘功能已打开\n\n欢迎发 Email 给我反馈问题 kevinchou.c@gmail.com",
+   "country": "us"
+  },
+  {
+   "name": "Oyomi TV - Japanese Flashcards",
+   "artist": "楷雯 周",
+   "genre": "Education",
+   "price": "Free",
+   "released": "2023-07-03",
+   "updated": "2023-08-02",
+   "version": "1.0.25",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/oyomi-tv-japanese-flashcards/id6449989475",
+   "desc": "With the launch of Oyomi TV, you can now experience the joy of vocabulary flashcards on your Apple TV! \n\nOyomi TV is an innovative application designed to help you expand your vocabulary, enhance your language skills, and learn new words while enjoying entertainment.\n\nThe core feature of Oyomi TV is the Japanese Vocabulary Flashcards, which beautifully displays words from your flashcard collection on your TV screen.\n\nEvery time you turn on your Apple TV, Oyomi TV will automatically start the slideshow of flashcards from your collection, allowing you to effortlessly learn and memorize new words in your daily life.\n\nUsing Oyomi TV for vocabulary flashcards is a fun and effective learning method. You can seamlessly integrate learning into your TV viewing experience, utilizing the moments between TV shows or during breaks. Sit back on your couch and comfortably learn new words without any ex",
+   "country": "us"
+  },
+  {
+   "name": "一炷香",
+   "artist": "楷雯 周",
+   "genre": "Utilities",
+   "price": "$0.99",
+   "released": "2015-09-16",
+   "updated": "2018-12-03",
+   "version": "1.2.3",
+   "rating": 3.6,
+   "ratings": 5,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/%E4%B8%80%E7%82%B7%E9%A6%99/id1033781459",
+   "desc": "古风冥想与白噪音\n\n已经忘了多久没有静下心来\n看那纸上烟云\n字里风涛\n\n一盏茶\n一壶酒\n一炷香\n\n伴着缭绕烟云\n听着淅沥雨声\n\n焚香静坐\n去浊存清\n脱尘出世\n调合身心\n静心契道\n\n享受一段清静的时光",
+   "country": "us"
+  },
+  {
+   "name": "Hanami - Japanese Handwritten",
+   "artist": "楷雯 周",
+   "genre": "Utilities",
+   "price": "$0.99",
+   "released": "2023-07-06",
+   "updated": "2025-11-03",
+   "version": "1.1.3",
+   "rating": 4,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/hanami-japanese-handwritten/id6447871085",
+   "desc": "Introducing an iOS Japanese handwriting input method focused on \"accuracy\" and \"privacy\"!\n\nWith its unique advanced recognition technology, it accurately converts handwritten text and provides a smooth input experience. \n\nPersonal information security is given the highest priority, as all data is processed entirely on the device and cannot be accessed by third parties.\n\n- Supports up to 13,000 Kanjis\n\nLearn about our privacy terms at https://www.myoland.com/terms/hanami_privacy.html",
+   "country": "us"
+  },
+  {
+   "name": "FilmMentor",
+   "artist": "楷雯 周",
+   "genre": "Utilities",
+   "price": "$0.99",
+   "released": "2018-04-29",
+   "updated": "2018-12-07",
+   "version": "1.5",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/filmmentor/id1369210640",
+   "desc": "FilmMentor - the missing video clip database.\n\nWith FilmMentor now you can tag your video clips to make them organized and searchable.\n\n- Tag shot and scene\nmade it easy to organize and searchable.\n\n- Export clip\nevery clip can be exported and converted as GIF and mov (ProRes) as well as mp4.\n\n- Cutbook\ncutbook is a great feature to share your tagged clips data with others.",
+   "country": "us"
+  },
+  {
+   "name": "Miraa - AI transcribe & shadow",
+   "artist": "Myoland, Inc.",
+   "genre": "Education",
+   "price": "Free",
+   "released": "2024-02-12",
+   "updated": "2026-09-16",
+   "version": "1.15.0",
+   "rating": 4.58,
+   "ratings": 1329,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/miraa-ai-transcribe-shadow/id6462883096",
+   "desc": "Want to learn languages and shadowing through videos and podcasts you love? Try Miraa!\n\nAudio and video bilingual subtitle transcription, real-time translation, and AI assistance to navigate the challenging section.\n\nAll of these services are now available in multiple languages, including:\n- English\n- Japanese\n- Chinese\n- Korean\n- Spanish\n- German\n- Italian\n- French\n\nEcho Method\nIn Miraa, you can easily learn languages through four steps: \"Listen\" \"Understand\" \"Imitate\" and \"Compare.\" Just like playing a mimicry game, it helps you learn languages more effectively, enhancing your linguistic intuition and listening skills.\n\nReal-time Translation\nMiraa's real-time translation feature allows you to understand subtitles instantly, whether you're watching movies or listening to podcasts. Learning languages and understanding cultures has never been easier.\n\nAI Interpretation\nStuck on something ",
+   "country": "us"
+  }
+ ]
+}

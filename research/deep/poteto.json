@@ -1,0 +1,538 @@
+{
+ "handle": "poteto",
+ "sites": [
+  {
+   "url": "https://react.dev/learn/react-compiler",
+   "ok": true,
+   "title": "React Compiler – React",
+   "description": "",
+   "stack": [
+    "Next.js",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Learn React Copy page Copy \nReact Compiler \nIntroduction \nLearn what React Compiler does and how it automatically optimizes your React application by handling memoization for you, eliminating the need for manual useMemo , useCallback , and React.memo . \nInstallation \nGet started with installing React Compiler and learn how to configure it with your build tools. \nIncremental Adoption \nLearn strategies for gradually adopting React Compiler in your existing codebase if you’re not ready to enable it everywhere yet. \nDebugging and Troubleshooting \nWhen things don’t work as expected, use our debugging guide to understand the difference between compiler errors and runtime issues, identify common breaking patterns, and follow a systematic debugging workflow. \nConfiguration and Reference \nFor detailed configuration options and API reference: \n Configuration Options - All compiler configuration options including React version compatibility \n Directives - Function-level compilation control \n Compiling Libraries - Shipping pre-compiled libraries \nAdditional resources \nIn addition to these docs, we recommend checking the React Compiler Working Group for additional information and discussion about the compiler. \n Previous React Developer Tools \n Next Introduction",
+   "github_links": [
+    "SAWARATSUKI",
+    "react",
+    "reactwg"
+   ],
+   "subpages": {
+    "https://react.dev/blog": "Blog Copy page Copy \nReact Blog \nThis blog is the official source for the updates from the React team. Anything important, including release notes or deprecation notices, will be posted here first. \nYou can also follow the @react.dev account on Bluesky, or @reactjs account on Twitter, but you won’t miss anything essential if you only read this blog. \nReact 19.3 \nSeptember 9, 2026 \nReact 19.3 adds new features like View Transitions, Fragment Refs, browser(), Trusted Types, and more. In this post … \nRead more \nThe React Foundation: A New Home for React Hosted by the Linux Foundation \nFebruary 24, 2026 \nThe React Foundation has officially launched under the Linux Foundation. \nRead more \nDenial of Service and Source Code Exposure in React Server Components \nDecember 11, 2025 \nSecurity researchers have found and disclosed two additional vulnerabilities in React Server Components while attempting to exploit the patches in last week’s critical vulnerability… \nRead more \nCritical Security Vulnerability in React Server Components \nDecember 3, 2025 \nThere is an unauthenticated remote code execution vulnerability in React Server Components. A fix has been published in versions 19.0.1, 19.1.2, and 19.2.1. We recommend upgrading immediately. \nRead more \nReact Conf 2025 Recap \nOctober 16, 2025 \nLast week we hosted React Conf 2025. In this post, we summarize the talks and announcements from the event… \nRead more \nReact Compiler v1.0 \nOctober 7, 2025 \nWe’re releasing the compiler’s first stable release today, plus linting and tooling improvements to make adoption easier. \nRead more \nIntroducing the React Foundation \nOctober 7, 2025 \nToday, we’re announcing our plans to create the React Foundation and a new technical governance structure … \nRead more \nReact 19.2 \nOctober 1, 2025 \nReact 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more. In this post … \nRead more \nReact Labs: View Transitions, Activity, and more \nApril 23, 2025 \nIn React Labs posts, we write about projects in active research and development. In this post, we’re sharing two new experimental features that are ready to try today, and sharing other areas we’re working on now … \nRead more \nSunsetting Create React App \nFebruary 14, 2025 \nToday, we’re deprecating Create React App for new apps, and encouraging existing apps to migrate to a framework, or to migrate to a build tool like Vite, Parcel, or RSBuild. We’re also providing docs for when a framework isn’t a good fit for your project, you want to build your own framework, or you just want to learn how React works by building a React app from scratch … \nRead more \nReact v19 \nDecember 5, 2024 \nIn the React 19 Upgrade Guide, we shared step-by-step instructions for upgrading your app to React 19. In this post, we’ll give an overview of the new features in React 19, and how you can adopt them … \nRead more \nReact Compiler Beta Release \nOctober 21, 2024 \nWe announced an experimental release of React Compiler at React C"
+   },
+   "feed": {
+    "url": "https://react.dev/feed.xml",
+    "count_seen": 24,
+    "items": [
+     {
+      "title": "React 19.3",
+      "date": "Wed, 09 Sep 2026 00:00:00",
+      "url": "https://react.dev/blog/2026/09/09/react-19-3"
+     },
+     {
+      "title": "The React Foundation: A New Home for React Hosted by the Linux Foundation",
+      "date": "Tue, 24 Feb 2026 00:00:00",
+      "url": "https://react.dev/blog/2026/02/24/the-react-foundation"
+     },
+     {
+      "title": "Denial of Service and Source Code Exposure in React Server Components",
+      "date": "Thu, 11 Dec 2025 00:00:00",
+      "url": "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components"
+     },
+     {
+      "title": "Critical Security Vulnerability in React Server Components",
+      "date": "Wed, 03 Dec 2025 00:00:00",
+      "url": "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components"
+     },
+     {
+      "title": "React Conf 2025 Recap",
+      "date": "Thu, 16 Oct 2025 00:00:00",
+      "url": "https://react.dev/blog/2025/10/16/react-conf-2025-recap"
+     },
+     {
+      "title": "React Compiler v1.0",
+      "date": "Tue, 07 Oct 2025 00:00:00",
+      "url": "https://react.dev/blog/2025/10/07/react-compiler-1"
+     },
+     {
+      "title": "Introducing the React Foundation",
+      "date": "Tue, 07 Oct 2025 00:00:00",
+      "url": "https://react.dev/blog/2025/10/07/introducing-the-react-foundation"
+     },
+     {
+      "title": "React 19.2",
+      "date": "Wed, 01 Oct 2025 00:00:00",
+      "url": "https://react.dev/blog/2025/10/01/react-19-2"
+     },
+     {
+      "title": "React Labs: View Transitions, Activity, and more",
+      "date": "Wed, 23 Apr 2025 00:00:00",
+      "url": "https://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more"
+     },
+     {
+      "title": "Sunsetting Create React App",
+      "date": "Fri, 14 Feb 2025 00:00:00",
+      "url": "https://react.dev/blog/2025/02/14/sunsetting-create-react-app"
+     },
+     {
+      "title": "React v19",
+      "date": "Thu, 05 Dec 2024 00:00:00",
+      "url": "https://react.dev/blog/2024/12/05/react-19"
+     },
+     {
+      "title": "React Compiler Beta Release",
+      "date": "Mon, 21 Oct 2024 00:00:00",
+      "url": "https://react.dev/blog/2024/10/21/react-compiler-beta-release"
+     },
+     {
+      "title": "React Conf 2024 Recap",
+      "date": "Wed, 22 May 2024 00:00:00",
+      "url": "https://react.dev/blog/2024/05/22/react-conf-2024-recap"
+     },
+     {
+      "title": "React 19 Upgrade Guide",
+      "date": "Thu, 25 Apr 2024 00:00:00",
+      "url": "https://react.dev/blog/2024/04/25/react-19-upgrade-guide"
+     },
+     {
+      "title": "React Labs: What We've Been Working On – February 2024",
+      "date": "Thu, 15 Feb 2024 00:00:00",
+      "url": "https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024"
+     },
+     {
+      "title": "React Canaries: Enabling Incremental Feature Rollout Outside Meta",
+      "date": "Wed, 03 May 2023 00:00:00",
+      "url": "https://react.dev/blog/2023/05/03/react-canaries"
+     },
+     {
+      "title": "React Labs: What We've Been Working On – March 2023",
+      "date": "Wed, 22 Mar 2023 00:00:00",
+      "url": "https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023"
+     },
+     {
+      "title": "Introducing react.dev",
+      "date": "Thu, 16 Mar 2023 00:00:00",
+      "url": "https://react.dev/blog/2023/03/16/introducing-react-dev"
+     },
+     {
+      "title": "React Labs: What We've Been Working On – June 2022",
+      "date": "Wed, 15 Jun 2022 00:00:00",
+      "url": "https://react.dev/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022"
+     },
+     {
+      "title": "React v18.0",
+      "date": "Tue, 08 Mar 2022 00:00:00",
+      "url": "https://react.dev/blog/2022/03/29/react-v18"
+     },
+     {
+      "title": "How to Upgrade to React 18",
+      "date": "Tue, 08 Mar 2022 00:00:00",
+      "url": "https://react.dev/blog/2022/03/08/react-18-upgrade-guide"
+     },
+     {
+      "title": "React Conf 2021 Recap",
+      "date": "Fri, 17 Dec 2021 00:00:00",
+      "url": "https://react.dev/blog/2021/12/17/react-conf-2021-recap"
+     },
+     {
+      "title": "The Plan for React 18",
+      "date": "Tue, 08 Jun 2021 00:00:00",
+      "url": "https://react.dev/blog/2021/06/08/the-plan-for-react-18"
+     },
+     {
+      "title": "Introducing Zero-Bundle-Size React Server Components",
+      "date": "Mon, 21 Dec 2020 00:00:00",
+      "url": "https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://x.ai/bot/plugin/9717366?pstack",
+   "ok": true,
+   "title": "pstack for Grok Bot",
+   "description": "if you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.",
+   "stack": [
+    "Next.js",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "[](https://x.ai/bot)\n# pstack for Grok Bot\nby Grok Bot\nif you want to go fast, go deep first. pstack helps you write less, but higher quality code. rigorous agent workflows you can parallelize with confidence.\nPublished by Grok Bot on the[Cursor Marketplace](https://cursor.com/marketplace/cursor/pstack?ref=bot_plugin_…). By clicking “Add to Grok Bot”, you accept the[terms](https://x.ai/legal/bot-sharing-terms).\n[Add to Grok Bot](grokbot://app/v1/plugin/add?id=9717366)\nDon't have Grok Bot?[Download](https://api2.cursor.sh/updates/download/stable/linux-x64/gro…)\nClose\nEssential cookies keep the site working and stay on. Optional cookies help with performance and advertising — accept, reject, or manage them. Learn more in our [Cookie Policy](https://x.ai/legal/cookie-policy), [Privacy Policy](https://x.ai/legal/privacy-policy), and [Terms of Service](https://x.ai/legal/terms-of-service).\nCookies Settings Reject All Accept All Cookies\nBy clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. \nCookies Settings\nReject All Accept All Cookies\n## Privacy Preference Center\nWhen you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device, and is mostly used to make the site work as you expect. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to learn more and change our default settings. Blocking some types of cookies may impact your experience of the site and the services we are able to offer.   \n[More information](https://cookiepedia.co.uk/giving-consent-to-cookies)\nAllow All\n### Manage Consent Preferences\n#### Strictly Necessary Cookies\nAlways Active\nThese cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.\n#### Targeting Cookies\n- [x] Targeting Cookies \nThese cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.\n#### Functional Cookies\n- [x] Functional Cookies \nThese cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.\n#### Performance Cookies\n- [x] Performance Cookies \nThese cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.\n### Cookie List\nClear\n*   - [x] checkbox label label \nApply Cancel\nConsent Leg.Interest\n- [x] checkbox label label\n- [x] checkbox label label\n- [x] checkbox label label\nReject All Confirm My Choices\n[](https://www.onetrust.com/solutions/consent-and-preferences/)",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "poteto",
+  "user": {
+   "name": "lauren",
+   "company": "@xai-org",
+   "blog": "",
+   "location": "socal",
+   "bio": "▼・ᴥ・▼ Software Engineer @xai-org & @react compiler core team",
+   "public_repos": 85,
+   "followers": 13742,
+   "created_at": "2012-01-30T07:35:52Z",
+   "twitter_username": "poteto",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "poteto/hiring-without-whiteboards",
+    "description": "⭐️  Companies that don't have a broken hiring process",
+    "stargazers_count": 52826,
+    "forks_count": 3973,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-03-15T05:09:01Z",
+    "pushed_at": "2026-09-24T04:48:39Z",
+    "topics": [
+     "airtable",
+     "hiring",
+     "hiring-without-whiteboards",
+     "interview",
+     "jobs",
+     "tech",
+     "whiteboard"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/how",
+    "description": "skill for explaining architecture",
+    "stargazers_count": 916,
+    "forks_count": 46,
+    "language": null,
+    "homepage": "",
+    "created_at": "2026-04-14T19:37:58Z",
+    "pushed_at": "2026-04-14T22:14:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/elixirconf-2016",
+    "description": "ElixirConf 2016 summary",
+    "stargazers_count": 567,
+    "forks_count": 52,
+    "language": null,
+    "homepage": "",
+    "created_at": "2016-09-01T13:17:32Z",
+    "pushed_at": "2017-04-05T20:58:33Z",
+    "topics": [
+     "conference",
+     "elixir",
+     "elixirconf"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/noodle",
+    "description": "Orchestrate agents using skills",
+    "stargazers_count": 526,
+    "forks_count": 47,
+    "language": "Go",
+    "homepage": "https://poteto.github.io/noodle/",
+    "created_at": "2026-02-22T03:30:41Z",
+    "pushed_at": "2026-03-19T07:46:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/terraform",
+    "description": "A simple plug for incrementally transforming an API into Phoenix. Check out the blog post:",
+    "stargazers_count": 422,
+    "forks_count": 13,
+    "language": "Elixir",
+    "homepage": "https://www.no.lol/2016-08-12-rise-from-the-ashes-incremental-apis-with-phoenix/",
+    "created_at": "2016-08-08T00:20:50Z",
+    "pushed_at": "2021-02-25T18:19:19Z",
+    "topics": [
+     "elixir",
+     "phoenix",
+     "plug",
+     "reverse-proxy"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/rustconf-2020",
+    "description": "An aggregation of links that summarize RustConf 2020. Pull requests welcome!",
+    "stargazers_count": 354,
+    "forks_count": 10,
+    "language": null,
+    "homepage": "",
+    "created_at": "2020-08-20T16:37:19Z",
+    "pushed_at": "2020-08-31T17:38:18Z",
+    "topics": [
+     "rust",
+     "rustconf"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/brainmaxxing",
+    "description": "stupid simple persistent memory and skill improvement",
+    "stargazers_count": 342,
+    "forks_count": 9,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-02-27T06:34:07Z",
+    "pushed_at": "2026-02-27T19:47:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/emberconf-2016",
+    "description": "A collection of links that cover what happened during EmberConf 2016",
+    "stargazers_count": 270,
+    "forks_count": 24,
+    "language": null,
+    "homepage": "",
+    "created_at": "2016-03-29T16:57:41Z",
+    "pushed_at": "2016-04-22T05:04:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/emberconf-2015",
+    "description": "A collection of links that cover what happened during EmberConf 2015",
+    "stargazers_count": 246,
+    "forks_count": 19,
+    "language": null,
+    "homepage": null,
+    "created_at": "2015-03-04T19:01:21Z",
+    "pushed_at": "2015-03-23T03:15:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/ember-crumbly",
+    "description": "Declarative breadcrumb navigation for Ember apps",
+    "stargazers_count": 171,
+    "forks_count": 78,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-05-21T23:33:41Z",
+    "pushed_at": "2021-11-08T22:33:20Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "poteto/verification-skill-example",
+    "description": "Example: project-local verification skill + large-app feature map (fictional Atlas / Harbor Labs)",
+    "stargazers_count": 160,
+    "forks_count": 13,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-07-30T20:07:47Z",
+    "pushed_at": "2026-07-30T20:07:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/component-best-practices",
+    "description": "Code samples for Component Best Practices talk",
+    "stargazers_count": 129,
+    "forks_count": 17,
+    "language": "HTML",
+    "homepage": "https://poteto.github.io/component-best-practices/",
+    "created_at": "2015-11-26T18:38:32Z",
+    "pushed_at": "2017-03-01T16:54:29Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "poteto/elixirconf-2017",
+    "description": "ElixirConf 2017 summary",
+    "stargazers_count": 112,
+    "forks_count": 18,
+    "language": null,
+    "homepage": "",
+    "created_at": "2017-09-07T16:10:34Z",
+    "pushed_at": "2018-09-17T03:25:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/ember-macaroni",
+    "description": "Keep your app code DRY and copypasta free with computed property macaronis (macros)",
+    "stargazers_count": 101,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-09-28T18:08:05Z",
+    "pushed_at": "2018-06-11T21:08:16Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "poteto/emberconf-2017",
+    "description": "A collection of links that summarize EmberConf 2017",
+    "stargazers_count": 100,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": "http://emberconf.com/",
+    "created_at": "2017-03-27T05:33:02Z",
+    "pushed_at": "2017-04-20T00:13:14Z",
+    "topics": [
+     "ember",
+     "emberconf",
+     "photos",
+     "slide",
+     "stream",
+     "video"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/ember-hypersearch",
+    "description": "Hyperspeed real-time search with caching",
+    "stargazers_count": 57,
+    "forks_count": 21,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-09-04T13:25:32Z",
+    "pushed_at": "2018-10-23T06:27:09Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "poteto/reverse_proxy",
+    "description": "Terraform demo - incrementally replace your API with Phoenix",
+    "stargazers_count": 53,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "https://github.com/poteto/terraform",
+    "created_at": "2016-08-07T00:53:21Z",
+    "pushed_at": "2017-06-05T17:03:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "poteto/monkers",
+    "description": "Bytecode compiler and VM for the Monkeylang language, written in Rust",
+    "stargazers_count": 49,
+    "forks_count": 1,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2020-03-17T05:16:43Z",
+    "pushed_at": "2023-05-24T12:41:42Z",
+    "topics": [
+     "compiler",
+     "interpreter",
+     "monkey-language",
+     "programming-language",
+     "rust"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 59,
+  "languages": [
+   [
+    "JavaScript",
+    24
+   ],
+   [
+    "TypeScript",
+    5
+   ],
+   [
+    "Elixir",
+    4
+   ],
+   [
+    "Rust",
+    3
+   ],
+   [
+    "Go",
+    2
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "poteto/hiring-without-whiteboards",
+    "stargazerCount": 52826,
+    "description": "⭐️  Companies that don't have a broken hiring process",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "react/react",
+    "stargazerCount": 251601,
+    "description": "The library for web and native user interfaces.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://react.dev"
+   },
+   {
+    "nameWithOwner": "reactjs/react.dev",
+    "stargazerCount": 11822,
+    "description": "The React documentation website",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://react.dev/"
+   },
+   {
+    "nameWithOwner": "react/react-native",
+    "stargazerCount": 126740,
+    "description": "A framework for building native applications using React",
+    "primaryLanguage": {
+     "name": "C++"
+    },
+    "homepageUrl": "https://reactnative.dev"
+   },
+   {
+    "nameWithOwner": "cursor/plugins",
+    "stargazerCount": 13329,
+    "description": "Cursor plugin specification and official plugins",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 22148,
+  "orgs": [
+   "reactjs",
+   "anysphere",
+   "xai-org"
+  ],
+  "profile_readme": "<!--\n**poteto/poteto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🔭 I’m currently working on ...\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n\n<img alt=\"You may have a screen reader, but you still got rick rolled. Yes, this is a gif of Rick Astley's famous &quot;Never Gonna Give You Up&quot;.\" src=\"https://github.com/poteto/poteto/blob/master/nice.gif?raw=true\" width=\"100%\">\n",
+  "readmes": {
+   "poteto/hiring-without-whiteboards": "# Hiring Without Whiteboards\nA list of companies (or teams) that don't do \"whiteboard\" interviews. \"Whiteboards\" are used as a metaphor, and are a _symbol_ for the kinds of CS trivia questions that are associated with bad interview practices. Whiteboards are not bad – CS trivia questions are. Using sites like HackerRank/LeetCode _probably_ fall into a similar category.\nThe companies and teams listed here use interview techniques and questions that resemble day-to-day work. For example, pairing on a real world problem or a paid/unpaid take home exercise. Read (and contribute to) [our recommendations](RECOMMENDATIONS.md) for ways to conduct better interviews.\n### tl;dr\n- Discussing a real world problem (with or without whiteboard) is 👍\n- Solving CS trivia, technical puzzles, riddles, brainteasers (with or without whiteboard) is 👎\nPlease open a [PR](https://github.com/poteto/hiring-without-whiteboards/pull/new/master) to be added.\n### Duds\nIf you've been through an interview with one of these companies recently, and your experience suggests otherwise from their description, please open a [PR](https://github.com/poteto/hiring-without-whiteboards/pull/new/master) to remove them from this list.\n### Discussion and other reads\n<!--lint disable-->\n- Discussion\n  - [HackerNews (2017)](https://news.ycombinator.com/item?id=13874026)\n  - [HackerNews (2020)](https://web.archive.org/web/20260123042620/https://news.ycombinator.com/item?id=23981795)\n- [Finding a better alternative to the whiteboard interview](https://theoutline.com/post/1256/finding-a-better-alternative-to-the-whiteboard-interview)\n- [How to hire engineering talent without the BS](https://jes.al//2023/03/how-to-hire-engineering-talent-without-the-bs/)\n- [How I Hire Programmers](http://www.aaronsw.com/weblog/hiring.en) by Aaron Swartz\n<!--lint enable-->\n---\n## 0 - 9\n- [1000.software](https://www.1000.software/careers) | Krakow, Poland / Remote | Series of 2 interviews first on soft skills, second on technical skills (how to build things, how to solve specific, real world problem, best practice) and meeting with a team leader. Sometimes a take home, simple project.\n## A - C\n- [Aalyria](https://ats.rippling.com/aal",
+   "react/react": "# [React](https://react.dev/) &middot; [](https://github.com/react/react/blob/main/LICENSE) [](https://www.npmjs.com/package/react) [](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml) [](https://github.com/react/react/actions/workflows/compiler_typescript.yml) [](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)\nReact is a JavaScript library for building user interfaces.\n* **Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.\n* **Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM.\n* **Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using [Node](https://nodejs.org/en) and power mobile apps using [React Native](https://reactnative.dev/).\n[Learn how to use React in your project](https://react.dev/learn).\n## Installation\nReact has been designed for gradual adoption from the start, and **you can use as little or as much React as you need**:\n* Use [Quick Start](https://react.dev/learn) to get a taste of React.\n* [Add React to an Existing Project](https://react.dev/learn/add-react-to-an-existing-project) to use as little or as much React as you need.\n* [Create a New React App](https://react.dev/learn/start-a-new-react-project) if you're looking for a powerful JavaScript toolchain.\n## Documentation\nYou can find the React documentation [on the website](https://react.dev/).\nCheck out the [Getting Started](https://react.dev/learn) page for a quick overview.\nThe documentation is divided into several sections:\n* [Quick Start](https://react.dev/learn)\n* [Tutorial](https://react.dev/learn/tutorial",
+   "reactjs/react.dev": "# react.dev\nThis repo contains the source code and documentation powering [react.dev](https://react.dev/).\n## Getting started\n### Prerequisites\n1. Git\n1. Node: any version starting with v16.8.0 or greater\n1. Yarn: See [Yarn website for installation instructions](https://yarnpkg.com/lang/en/docs/install/)\n1. A fork of the repo (for any contributions)\n1. A clone of the [react.dev repo](https://github.com/reactjs/react.dev) on your local machine\n### Installation\n1. `cd react.dev` to go into the project root\n3. `yarn` to install the website's npm dependencies\n### Running locally\n1. `yarn dev` to start the development server (powered by [Next.js](https://nextjs.org/))\n1. `open http://localhost:3000` to open the site in your favorite browser\n## Contributing\n### Guidelines\nThe documentation is divided into several sections with a different tone and purpose. If you plan to write more than a few sentences, you might find it helpful to get familiar with the [contributing guidelines](https://github.com/reactjs/react.dev/blob/main/CONTRIBUTING.md#guidelines-for-text) for the appropriate sections.\n### Create a branch\n1. `git checkout main` from any folder in your local `react.dev` repository\n1. `git pull origin main` to ensure you have the latest main code\n1. `git checkout -b the-name-of-my-branch` (replacing `the-name-of-my-branch` with a suitable name) to create a branch\n### Make the change\n1. Follow the [\"Running locally\"](#running-locally) instructions\n1. Save the files and check in the browser\n  1. Changes to React components in `src` will hot-reload\n  1. Changes to markdown files in `content` will hot-reload\n  1. If working with plugins, you may need to remove the `.cache` directory and restart the server\n### Test the change\n1. If possible, test any visual changes in all latest versions of common browsers, on both desktop and mobile.\n2. Run `yarn check-all`. (This will run Prettier, ESLint and validate types.)\n### Push it\n1. `git add -A && git commit -m \"My message\"` (replacing `My message` with a commit message, such as `Fix header logo on Android`) to stage and commit your changes\n1. `git push my-fork-name the-name-of-my-branch`\n1. Go to the [react.dev repo](https://",
+   "react/react-native": "<p align=\"center\">\n   <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://reactnative.dev/react-native-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://reactnative.dev/react-native-light.svg\">\n    </picture>\n</p>\n<p align=\"center\">\n  <strong>Learn once, write anywhere:</strong><br>\n  Create native apps for Android, iOS, and more using React\n</p>\n<p align=\"center\">\n  <a href=\"./LICENSE\"></a>\n  <a href=\"https://www.npmjs.com/package/react-native\"></a>\n  <a href=\"https://www.npmjs.com/package/react-native\"></a>\n  <a href=\"https://twitter.com/intent/follow?screen_name=reactnative\"></a>\n</p>\n<h4 align=\"center\">\n  <a href=\"https://reactnative.dev/docs/environment-setup\">Getting Started</a>\n  <span> · </span>\n  <a href=\"https://reactnative.dev/docs/tutorial\">Learn the Basics</a>\n  <span> · </span>\n  <a href=\"https://reactnative.dev/showcase\">Showcase</a>\n  <span> · </span>\n  <a href=\"https://reactnative.dev/docs/contributing\">Contribute</a>\n  <span> · </span>\n  <a href=\"https://reactnative.dev/help\">Community</a>\n  <span> · </span>\n  <a href=\"./.github/SUPPORT.md\">Support</a>\n</h4>\n# React Native\nReact Native lets you build native apps using [React](https://react.dev/). Written\nin JavaScript, rendered with native code.\n- **Native UI.** React Native primitives render to native platform UI, meaning your app\n  uses the same native platform APIs other apps do. Gestures, text scaling, and\n  accessibility behave the way users expect on each OS.\n- **React, everywhere.** Declarative UI, components, hooks, and Suspense, reused\n  across Android, iOS, and [other platforms](https://reactnative.dev/docs/out-of-tree-platforms).\n- **Developer Velocity.** See local changes in seconds. Changes to JavaScript code are applied with Fast Refresh, without rebuilding the native app.\n- **Extend it yourself.** Native Modules let you call platform code directly from JavaScript, synchronously and type-safe — or reach for [thousands of existing libraries](https://reactnative.directory/).\nReact Native is developed and supported by many companies and individual core contributors. Find out more on the [React Foundation website](https://react.fou",
+   "cursor/plugins": "# Cursor plugins\nOfficial Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own `.cursor-plugin/plugin.json` manifest.\n## Plugins\n| `name` | Plugin | Author | Category | `description` (from marketplace) |\n|:-------|:-------|:-------|:---------|:-------------------------------------|\n| `teaching` | [Teaching](teaching/) | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. |\n| `continual-learning` | [Continual Learning](continual-learning/) | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. |\n| `cursor-team-kit` | [Cursor Team Kit](cursor-team-kit/) | Eric Zakariasson | Developer Tools | Internal team workflows for CI, code review, shipping, local automation, and verification. |\n| `thermos` | [Thermos](thermos/) | Cursor | Developer Tools | Thermo-nuclear branch review: deep security/correctness audits, harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional merge-ready PR flows. |\n| `create-plugin` | [Create Plugin](create-plugin/) | Cursor | Developer Tools | Scaffold and validate new agent plugins. |\n| `ralph-loop` | [Ralph Loop](ralph-loop/) | Cursor | Developer Tools | Iterative self-referential AI loops using the Ralph Wiggum technique. |\n| `agent-compatibility` | [Agent Compatibility](agent-compatibility/) | Cursor | Developer Tools | CLI-backed repo compatibility scans plus agents that audit startup, validation, and docs against reality. |\n| `cli-for-agent` | [CLI for Agents](cli-for-agent/) | Eric Zakariasson | Developer Tools | Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run. |\n| `pr-review-canvas` | [PR Review Canvas](pr-review-canvas/) | Cursor | Developer Tools | Render PR diffs as review canvases grouped by importance. |\n| `docs-canvas` | [Docs Canvas](docs-canvas/) | Cursor | Developer Tools | Render documentation as a navigable canvas. |\n| `cursor-sdk` | [Cursor SDK](cursor-sdk/) | Cursor | Developer Tools | Build apps, scripts, and"
+  }
+ },
+ "apps": []
+}

@@ -1,0 +1,157 @@
+{
+ "handle": "frank_uid",
+ "sites": [
+  {
+   "url": "http://frankk.site",
+   "ok": true,
+   "title": "Frank",
+   "description": "每一个不曾起舞的日子，都是对生命的辜负。",
+   "stack": [
+    "Astro v4.16.19",
+    "Astro",
+    "Google Analytics",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-CN",
+   "home_text": "Frank \n每一个不曾起舞的日子，都是对生命的辜负。 \nUnd verloren sei uns der Tag, wo nicht einmal getanzt wurde! \n—— 尼采《查拉图斯特拉如是说》 \n 共 19 篇 \n 2026 · 10 · 21 \nAI技术革命中的英伟达 \n运河、铁路、光纤：历史上的技术革命都走过「狂热投资、泡沫破裂、长期增长」的同一套周期，而卖铲人总是涨得最猛、跌得最狠。这篇先用佩雷斯的技术革命周期框架复盘三次泡沫，再把英伟达放进导入期卖铲人的位置，从收入结构、循环融资、三类需求、竞争、供给和地缘几个方面拆解它的风险，并为每一项列出需要盯紧的观测指标。结论是：英伟达同样会迎来泡沫破裂的时刻，但估值不像当年的思科那样夸张，破裂可能相对温和。 英伟达 AI 技术革命 阅读全文 → \n 2026 · 06 · 13 \nSpaceX 与从 0 到 1 \n彼得·蒂尔在 SpaceX 濒临破产时投下一笔救命钱，上市当天变成 500 多亿美元。从《从 0 到 1》的垄断哲学，到吉拉尔的模仿欲望，蒂尔的投资与创业判断，其实是同一套关于「如何逃离竞争」的思考。 商业 创业 阅读全文 → \n 2026 · 06 · 12 \n说服的艺术与十个场景 \n关于说服的最好理论，不是出自现代商学院，而是出自两千三百年前的亚里士多德：Ethos（可信度）、Pathos（情感）、Logos（逻辑）。今天所有流行的说服框架，大体都可以看作这三要素在不同听众面前的本地化版本。这篇给出十个场景各自可以照着套用的模板——升职加薪的 Claim → Reason → Evidence、面试的 STAR、电梯演讲、邮件的 BLUF、路演的 Problem → Solution → Traction、销售的 Pain → Gain → Proof、发布会的黄金圈、谈判的 BATNA、文案的 AIDA、亲密关系的非暴力沟通——一个场景一个模板逐一过一遍，最后落在一句话上：框架是地图，真诚是罗盘。 随笔 阅读全文 → \n 2026 · 06 · 10 \n美国的制裁工具与案例 \n三部分讲清美国制裁：一、九级强度阶梯，每一级会发生什么、有哪些案例；二、伊朗/朝鲜/俄罗斯三个典型被制裁国，普通人、官员、商人各自的处境；三、11 个中国相关案例——中兴、华为、晋华、昆仑银行、林郑月娥、三大运营商、山东茶壶炼厂、腾讯/宁德、上海黑英周帅。 美国制裁 OFAC SDN 清单 阅读全文 → \n 2026 · 06 · 09 \n海外产品开发经验分享 \n最近 Claude Code 很好用，很多人都有机会做自己的产品。这篇分享我做海外产品常用的技术栈和各类 SaaS 平台：静态站、完整前后端应用、移动端、桌面端，从框架选型、部署、数据库、鉴权、支付到 AI 服务和图床，尽量给出免费额度和起步成本参考。 技术 商业 阅读全文 → \n 2026 · 06 · 05 \n如何迭代与进步 \nKarpathy 讲如何成为专家、费曼讲如何检验真懂，本质是同一件事：用输出检验输入。这篇把「先做项目、再补理论、只跟过去的自己比」这套方法对应到神经网络的训练循环——Forward 是先动手，Loss 是和理想结果的差距，Backward 加梯度下降是复盘改进。人和网络最大的不同是面对大 Loss 会痛，所以关键是把「批判行为」和「否定价值」拆开：梯度下降只更新参数（行为、技能），别去炸掉架构（你是谁）。最后对照 Ray Dalio 的《原则》：同一套「痛苦+反思=进步」的迭代逻辑，被一个管对冲基金的人独立总结成了系统。 随笔 方法论 阅读全文 → \n 2026 · 06 · 03 \n苹果 AI 推理技术架构调研 \n2026 WWDC 在即，梳理苹果本地 AI 推理的两条路线(Neural Engine vs GPU + Neural Accelerator)、近几代硬件的算力与带宽演化，以及与英伟达在算力、显存、带宽、精度四个维度的对比。结论：苹果的优势在「本地、省电、跑得下大模型（尤其 MoE）」，而非密集大模型的极致吞吐。 苹果 Apple Silicon 本地推理 阅读全文 → \n 2026 · 06 · 03 \nGo 并发编程常用模式模板 \n一份可直接套用的 Go 并发参考。从「共享变量加锁、Once、channel、Pub/Sub」到「select/Actor、pipeline/fan-out/worker pool、context、errgroup」，每个模式给出何时用、模板代码与关键陷阱，最后用一张速查表收口：能不共享就用通讯，必须共享就用最简单的同步包起来，每个 goroutine 都要有明确的退出路径。 Go 并发 channel 阅读全文 → \n 2026 · 06 · 01 \n数据中心的供电系统 \nAI 让电力一夜之间成了数据中心最贵的瓶颈。一边是「电从哪里来」——从公用电网到表后自建的燃料电池、燃气轮机、核电；另一边是「电花在哪里」——GPU、其他服务器组件、冷却、网络的占比分布。这篇从供给侧与消费侧两端，梳理这个赛道的供电系统。 数据中心 电力 燃料电池 阅读全文 → \n 2026 · 05 · 27 \n我的 Claude Code 实践 \n用 Claude Code 快一年了。作为最早的一批用户，这一年里 Claude Code 和模型本身都进步巨大。这篇分享一些「写代码之外」的用法和心得：常驻家用主机 + Tailscale + tmux 的工作流；用大仓库 + submodule + OpenAPI 管理前后端；用树状结构的需求做 Deep Research；整理长对话、整理乱糟糟的桌面文件；以及用它画 SVG、处理图片、用 Remotion 做视频等等。 技术 阅读全文 → \n 2026 · 05 · 21 \nLLM 的推理速度与存储金字塔 \n大模型逐字生成为什么卡在显存带宽上 — 从 decoding 阶段的 memory bound 讲起，拆开 GPU 从 Pascal 到 Blackwell 的存储层次演进，再落到 SRAM / GDDR / HBM 的工艺、成本与供应链，串起一条「带宽决定吐字速度」的因果链。 LLM 推理 GPU 阅读全文 → \n 2026 · 05 · 19 \n唯有热爱才能走得长远 \n想长期做一件事，你必须热爱它。借休谟「理性是激情的奴隶」和程序员的视角：情感是 CPU 直接执行的指令集，理性是必须层层编译才能落地的高级语言。偶尔做一次，走理性的长链条没问题；但长期、高频要做的事就是一段「热循环」，只有成本最低的情感驱动——也就是热爱——才跑得动，正如热循环不能用 Python 写。 随笔 阅读全文 → \n 2026 · 05 · 18 \n大语言模型中的低精度数据格式 \n从位级别把 LLM 用到的低精度格式讲清楚 — 先补齐浮点数与整数的表示原理，再逐一拆解 FP32 / TF32 / FP16 / BF16 / FP8 / FP6 / FP4 / INT8 / INT4，然后用 Qwen3.5 的发布矩阵看真实模型怎么选精度，最后是 Hopper 到 Blackwell 的硬件支持。 LLM 数据格式 量化 阅读全文 → \n 2026 · 05 · 17 \n杠铃策略和个人成长 \n塔勒布的杠铃策略，其实是两条规则：一是把资源尽量推向两端、主动避开中间；二是两端之间怎么分要看处境，但绝不能全押一端。它的核心从来不是「在两端各放多少」，而是承认这个世界本质上是不确定的，先确保自己活得下去，再去争取那些有可能带来跃迁的机会。 随笔 阅读全文 → \n 2026 · 05 · 09 \n香港的徒步路线与故事 \n100 公里的麥理浩徑、唱了五十年的獅子山、八仙嶺烧不完的春风化雨亭——香港 70% 是郊野公园，每一条山径都串着一段制度史、一首老歌或一场战争。10 条路线 × 历史 × 文化。 香港 徒步 麥理浩徑 阅读全文 → \n 2026 · 02 · 27 \n中国工业硬件的客厅化 \n原本属于军工、实验室、工厂的硬核设备，正被压缩 2-3 个数量级、做成开箱即用的消费品，搬进普通人的书房与客厅——从 DJI 到 Bambu 到 Hypershell，这是深圳与长三角的一套系统性打法。 大疆 消费电子 中国 阅读全文 → \n 2026 · 02 · 15 \n自媒体商业模式分析 \n自媒体可能是当下普通人手里最大的杠杆——门槛低、上限高、分发零边际成本。从商业模式的角度拆开来看，自媒体本质上只有三种活法：直接卖内容、帮别人卖货、帮自己卖货 商业 阅读全文 → \n 2026 · 02 · 12 \nLLM 的算法实现 \n按模块拆解 LLM 推理：注意力（MHA/MQA/GQA/MLA、线性注意力、压缩与稀疏）、归一化、RoPE、门控 FFN、Prefill/Decode 两阶段的核心公式，最后以最新的 Qwen3.5 与 DeepSeek-V4 为例落到具体架构。 LLM Transformer 推理 阅读全文 → \n 2026 · 01 · 23 \n读书笔记：科技共和国 \nPalantir的CEO Alex Karp在2025年发布了一本新书《科技共和国》，年底在中国内地也发行了，第一时间买来读了一下，书中的观点代表了美国硅谷的右翼思潮，而且现实的美国政治中也随处可见这本书的影子 随笔 商业 阅读全文 → \n 2025 · 12 · 21 \n大模型背后的数据供应商：Surge AI \n第一次知道Surge AI这家公司是看到Edwin Chen的播客访谈，正值他们第一次出来融资，Edwin极其务实高效的观点让人印象深刻 商业 阅读全文 → \n 2025 · 12 · 19 \n豆包AI手机背后的VL模型 \n根据公开报道，豆包AI手机使用的模型是基于UI-TARS在手机上优化的闭源版本，UI-TARS是在阿里的Qwen2 VL上做SFT得来的，目前开源了7b的版本（Qwen2 VL开源了3b-72b的模型）。这里不再多介绍Qwen（Qwen2 VL其实也已经有了UI Operation的功能），主要关注UI-TARS模型在Qwen2 VL上的进一步改进，分数据和训练两部分。 技术 商业 阅读全文 → \n 2024 · 04 · 04 \n使用 UTM 标签来分析流量来源 \n推广通常会同时跑多条渠道：cold email、Google 广告、Twitter、SEO、社区。如果不在链接里打标签，GA 没法把它们分开。这篇把 UTM 五个参数讲清楚，并给出十几个真实的命名案例。 商业 阅读全文 → \n 2024 · 03 · 21 \njenni.ai 的冷启动与增长策略 \nJenni.ai 是一个辅助论文写作与阅读的 AI 工具，目前收入已达 \\$5M",
+   "github_links": [],
+   "subpages": {},
+   "feed": {
+    "url": "http://frankk.site/rss.xml",
+    "count_seen": 108,
+    "items": [
+     {
+      "title": "AI技术革命中的英伟达",
+      "date": "Wed, 21 Oct 2026 00:00:00",
+      "url": "https://frankk.site/blog/nvidia-ai-revolution/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "SpaceX 与从 0 到 1",
+      "date": "Sat, 13 Jun 2026 00:00:00",
+      "url": "https://frankk.site/blog/business-taste/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "说服的艺术与十个场景",
+      "date": "Fri, 12 Jun 2026 00:00:00",
+      "url": "https://frankk.site/blog/how-to-persuade/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "美国的制裁工具与案例",
+      "date": "Wed, 10 Jun 2026 00:00:00",
+      "url": "https://frankk.site/blog/us-sanctions-impact/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "海外产品开发经验分享",
+      "date": "Tue, 09 Jun 2026 00:00:00",
+      "url": "https://frankk.site/blog/overseas-product-development/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "如何迭代与进步",
+      "date": "Fri, 05 Jun 2026 00:00:00",
+      "url": "https://frankk.site/blog/systematic-self-iteration/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "苹果 AI 推理技术架构调研",
+      "date": "Wed, 03 Jun 2026 00:00:00",
+      "url": "https://frankk.site/blog/apple-ai-inference/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "Go 并发编程常用模式模板",
+      "date": "Wed, 03 Jun 2026 00:00:00",
+      "url": "https://frankk.site/blog/go-concurrency-patterns/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "数据中心的供电系统",
+      "date": "Mon, 01 Jun 2026 00:00:00",
+      "url": "https://frankk.site/blog/data-center-power/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "我的 Claude Code 实践",
+      "date": "Wed, 27 May 2026 00:00:00",
+      "url": "https://frankk.site/blog/claude-code-practices/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "LLM 的推理速度与存储金字塔",
+      "date": "Thu, 21 May 2026 00:00:00",
+      "url": "https://frankk.site/blog/storage-types-cpu-gpu/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "唯有热爱才能走得长远",
+      "date": "Tue, 19 May 2026 00:00:00",
+      "url": "https://frankk.site/blog/hume-passion-as-hot-path/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "大语言模型中的低精度数据格式",
+      "date": "Mon, 18 May 2026 00:00:00",
+      "url": "https://frankk.site/blog/llm-low-precision-formats/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "杠铃策略和个人成长",
+      "date": "Sun, 17 May 2026 00:00:00",
+      "url": "https://frankk.site/blog/barbell-strategy/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "香港的徒步路线与故事",
+      "date": "Sat, 09 May 2026 00:00:00",
+      "url": "https://frankk.site/blog/hk-hiking-trails/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "中国工业硬件的客厅化",
+      "date": "Fri, 27 Feb 2026 00:00:00",
+      "url": "https://frankk.site/blog/consumer-hardware-research/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "自媒体商业模式分析",
+      "date": "Sun, 15 Feb 2026 00:00:00",
+      "url": "https://frankk.site/blog/social-media-business-model/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "LLM 的算法实现",
+      "date": "Thu, 12 Feb 2026 00:00:00",
+      "url": "https://frankk.site/blog/llm-inference-walkthrough/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "读书笔记：科技共和国",
+      "date": "Fri, 23 Jan 2026 00:00:00",
+      "url": "https://frankk.site/blog/tech-republic-book-review/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "大模型背后的数据供应商：Surge AI",
+      "date": "Sun, 21 Dec 2025 00:00:00",
+      "url": "https://frankk.site/blog/surge-ai-data-supplier/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "豆包AI手机背后的VL模型",
+      "date": "Fri, 19 Dec 2025 00:00:00",
+      "url": "https://frankk.site/blog/ui-tars-vision-language-model/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "使用 UTM 标签来分析流量来源",
+      "date": "Thu, 04 Apr 2024 00:00:00",
+      "url": "https://frankk.site/blog/utm-tags-traffic-analysis/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "jenni.ai 的冷启动与增长策略",
+      "date": "Thu, 21 Mar 2024 00:00:00",
+      "url": "https://frankk.site/blog/jenni-ai-growth-strategy/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "startup 的相关福利",
+      "date": "Sun, 03 Mar 2024 00:00:00",
+      "url": "https://frankk.site/blog/startup-perks/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     },
+     {
+      "title": "双月湾：累了就来这里躺平看海",
+      "date": "Sat, 15 Apr 2023 00:00:00",
+      "url": "https://frankk.site/blog/shuangyue-bay/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss_zh"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "apps": []
+}

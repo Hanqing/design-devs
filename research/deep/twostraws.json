@@ -1,0 +1,648 @@
+{
+ "handle": "twostraws",
+ "sites": [
+  {
+   "url": "https://www.hackingwithswift.com",
+   "ok": true,
+   "title": "Hacking with Swift – learn to code iPhone and iPad apps with free Swift tutorials",
+   "description": "Learn Swift coding for iOS with these free Swift tutorials",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "NEW: Download Kickstart, the app that helps indie developers succeed on the App Store! >> \nWhere the world learns Swift. \nWith more free Swift tutorials than any other site, Hacking with Swift will help you learn app development with SwiftUI and UIKit. Search the site, or choose a learning path below. \nStart Learning \nReady to take your first steps with app development? We have a massive curriculum that teaches Swift with both SwiftUI and UIKit using real-world projects – all free. \n GET STARTED \nBuild Your Career \nReview your knowledge, take interactive Swift tests, try answering common interview questions, and get advice from industry experts to ace your next interview. \n LEVEL UP YOUR JOB \nSupercharge your skills \nWhen you're ready to take your skills to the next level, subscribe to Hacking with Swift+ and get hundreds of advanced tutorials for Swift, SwiftUI, and more. \n START FREE TRIAL \n“Great to see free intro to Swift programming content that is so well done!” \nChris Lattner, creator of Swift \nJoin over 100,000 readers today \nLatest Articles \n NEWS \n Introducing Kickstart: the app that helps indie developers ship \n Most developers already know how to build apps, but the hard part is everything else: screenshots, reviews, App Store Optimization, launch planning, analytics, competitor research, pricing, marketing, press outreach, social posts, TestFlight management, and so much more.\n Continue reading… \n NEWS \n Teach your AI to write Swift the Hacking with Swift way \n Recently I released my SwiftUI agent skill – a hands-on set of rules to help AI coding tools such as Claude Code and Codex write better SwiftUI.\n Continue reading… \n NEWS \n Agent skills in Xcode: How to install and use them today \n If you’re building apps with agents such as Codex or Claude, this article is for you – I’m going to show you to use agent skills to make them smarter, so they write better code, faster.\n Continue reading… \n Read more articles… \nSubscribe to my monthly newsletter \nGet a free book delivered to your inbox, plus more discounts in the future! \n Subscribe \nJoin us on Slack! \nGot questions? We have answers. Join the free Hacking with Swift community on Slack to solve problems, share knowledge, and make friends – we're here to help! \n JOIN HERE \n HACKING WITH SWIFT+ \n My subscription service delivers incredible, hands-on Swift tutorials as both video and article, so you can deepen your understanding of Swift, SwiftUI, UIKit, and more. \n Level: Beginner-Advanced \n Find out more \n EVERYTHING BUT THE CODE \n You don’t need more Swift tutorials, you need a plan . That's where this book comes in: it's designed to provide everything you need to go from Xcode to App Store – from coming up with killer ideas, to launch strategy, to breakout success. \n Level: Beginner – Advanced \n Buy Download \n HACKING WITH iOS \n Start learning Swift with either SwiftUI or UIKit, with exclusive extra content available in the download edition. \n Level: Beginner – Intermediate \n Read for free \n Buy Download \n SWIFT FOR COMPLETE BEGINNERS \n Learn all the core concepts of Swift with detailed videos and hands-on code samples, delivered through both book and videos.. \n Level: Beginner \n Read for free \n Buy Download \n SWIFT IN SIXTY SECONDS \n Want to get started with Swift, but find yourself short on time? This course teaches you the fundamentals of Swift programming in 60-second chunks. \n Level: Beginner \n Read for free \n Buy Download \n UNDERSTANDING SWIFT \n Many of my books teach you how to build things with Swift, but this one aims to teach the why of Swift – why it works the way it does, and why each language feature matters. \n Level: Beginner \n Read for free \n Buy Download \n PRO SWIFT \n Watch advanced videos that will level up your Swift knowledge: functional programming, protocol-oriented programming, value types, closures, operator overloading, and more. \n Level: Intermediate - Advanced \n View Details \n PRO SWIFTUI \n Unleash the full power of SwiftUI with advanced animations, transitions, graphical effects and more, while also building a thorough understanding of what makes SwiftUI tick. \n Level: Intermediate - Advanced \n View Details \n SWIFT DESIGN PATTERNS \n Learn smart, idiomatic techniques to design great Swift apps, from using MVC effectively through to MVVM, delegation, protocols, and more. \n Level: Intermediate - Advanced \n View Details \n TESTING SWIFT \n If you're serious about writing great code, you need to be serious about writing great tests. ",
+   "github_links": [],
+   "subpages": {
+    "https://www.hackingwithswift.com/articles": "NEW: Download Kickstart, the app that helps indie developers succeed on the App Store! >> \n NEWS \n Introducing Kickstart: the app that helps indie developers ship \n Most developers already know how to build apps, but the hard part is everything else: screenshots, reviews, App Store Optimization, launch planning, analytics, competitor research, pricing, marketing, press outreach, social posts, TestFlight management, and so much more. \n Read Full Article \n Subscribe to our RSS feed \n NEWS \n Teach your AI to write Swift the Hacking with Swift way \n A hands-on AGENTS.md for Claude, Codex, and other AI tools that need firmer opinions about SwiftUI, Core Data, and particles. \n NEWS \n Agent skills in Xcode: How to install and use them today \n Get agent skills for Swift, SwiftUI, Swift Testing, and more \n NEWS \n SwiftUI Agent Skill - Write better code with Claude, Codex, and other AI tools \n Improve the AI-written code in all your SwiftUI projects with my free agent skill \n TIPS \n What to fix in AI-generated Swift code \n As AI-assisted coding increases in popularity, here are a handful of things I would suggest you look out for – and what to replace them with instead. \n TIPS \n One Swift mistake everyone should stop making today \n TL;DR: You should use replacing(_:with:) rather than replacingOccurrences(of:with:) \n NEWS \n Level up your SwiftUI \n Learn how to take average code and iteratively improve it until it shines \n NEWS \n What's new in SwiftUI for iOS 26 \n WebView, rich text editing for TextEditor, section index list titles, and more \n SWIFT EVOLUTION \n What's new in Swift 6.2? \n Raw identifiers, backtraces, task naming, and more. \n SWIFT EVOLUTION \n What's new in Swift 6.1? \n Trailing commas in lists, metatype key paths, diagnostic groups, and more. \n NEWS \n Apple starts accepting GitHub sponsorships for Swift \n Send money, get rewards. \n NEWS \n Take on Apple Intelligence at Unwrap Live 2025 \n Bring your apps into the age of AI with AppIntents, image playgrounds, and more! \n NEWS \n Save 50% on all books and bundles this Black Friday \n All books and bundles are half price! \n NEWS \n Go further, faster with the Swift Career Accelerator \n Your complete Swift journey: from first job to leadership, all in one powerful program \n FEATURES \n Making mistakes while learning Swift \n Tired of making mistakes while learning to code? You're not alone. \n NEWS \n What’s new in SwiftUI for iOS 18 \n We got new API for colors and gradients, more scrollview improvements, tab improvements, and more. \n SWIFT EVOLUTION \n What's new in Swift 6.0? \n When fully enabled, Swift 6 is likely to require changes in pretty much every project. \n NEWS \n Save 50% on all books and bundles for WWDC24 \n Shop the Hacking with Swift sale and upgrade your skills today! \n SWIFT EVOLUTION \n What's new in Swift 5.10? \n Important concurrency clean ups ahead of Swift 6. \n PROJECTS \n Build your next website in Swift \n How Swift's result builders can help us write smarter, safer HTML. \n NEWS \n Shipp",
+    "https://www.hackingwithswift.com/about": "NEW: Download Kickstart, the app that helps indie developers succeed on the App Store! >> \nAbout the author \nCODER / WRITER / SPEAKER \nI've developed software for a huge range of devices, including iPhones, iPads, Apple Watch, Apple TV, Android, Windows, Windows Mobile, Xbox 360, and Linux, using languages like Swift, Objective-C, Python, PHP, Java, C#, and more. Each platform has its own appeal; each platform has something I've learned from. \nJOURNALISM \nI spent eight years in computer journalism, writing features and tutorials for Linux Format, MacFormat, TechRadar, .net, and others. \nENTERPRISE \nWhen I switched to full time iOS coding, I built apps that were enjoyed by over 30 million users, including UBS, Fender, and PlayStation. \nPERSONAL \nIn my spare time I've developed over 100 apps for iOS and Android. My tools have been used by Apple, Verizon, Autodesk, GE, and others. \nBOOKS \nWriting is now my full-time job once again, and I've authored over 20 books on iOS, macOS, watchOS, React, PHP, Linux, and more. \nWant to get in touch? \nYou can email me at paul@hackingwithswift.com or tweet me @twostraws . I'm happy to deliver talks and workshops at conferences, or be a guest on podcasts – let me know how I can help! \n “Programming is an art. Don't spend all your time sharpening your pencil when you should be drawing.”\n PAUL HUDSON \nTips for success \nI've lost track how many people have emailed me in the past asking for my secrets to success, as if I'm some sort of Tibetan monk guarding mysteries. I'm not; I'm a programmer just like you, although it's possible I've been doing it longer. \nThat being said, I've picked up some tips along the way that can help you learn more efficiently. I don't claim these were invented by me – in fact, quite the opposite! – but here they are, in no particular order: \n To be a programmer you just need to program. There's no rite of passage, there's no graduation, and there's no certification – programmers are people who program, regardless of platform and regardless of language. As soon as you start writing code for one of my tutorials, you've made it - good job! \n The best way to get started learning is just by diving in. That means launching a code editor such as Xcode, and get busy trying to make something. But remember, you're not alone: there are many tutorials you can follow, including my own, and I encourage you to follow one of them to help you learn in a more structured way. \n Always ask questions. There are so many generous, patient people in our community who will go out of their way to help you, but they aren't magically able to notice people who need assistance. So, learn to ask questions: explain what you want, what you know, and what you've tried – that's usually enough to get some helpful pointers towards a solution. \n Be ready to read. Some people tell me they don't like reading books and instead prefer videos, but the blunt truth is that once you progress past the early stages the vast majority of d"
+   },
+   "feed": {
+    "url": "https://www.hackingwithswift.com/articles/rss",
+    "count_seen": 20,
+    "items": [
+     {
+      "title": "Introducing Kickstart: the app that helps indie developers ship",
+      "date": "Fri, 15 May 2026 18:17:32",
+      "url": "https://www.hackingwithswift.com/articles/285/introducing-kickstart-the-app-that-helps-indie-developers-ship"
+     },
+     {
+      "title": "Teach your AI to write Swift the Hacking with Swift way",
+      "date": "Wed, 01 Apr 2026 12:00:55",
+      "url": "https://www.hackingwithswift.com/articles/284/teach-your-ai-to-write-swift-the-hacking-with-swift-way"
+     },
+     {
+      "title": "Agent skills in Xcode: How to install and use them today",
+      "date": "Wed, 11 Mar 2026 15:25:18",
+      "url": "https://www.hackingwithswift.com/articles/283/how-to-install-and-use-ai-agent-skills-in-xcode"
+     },
+     {
+      "title": "SwiftUI Agent Skill - Write better code with Claude, Codex, and other AI tools",
+      "date": "Thu, 05 Mar 2026 19:34:37",
+      "url": "https://www.hackingwithswift.com/articles/282/swiftui-agent-skill-claude-codex-ai"
+     },
+     {
+      "title": "What to fix in AI-generated Swift code",
+      "date": "Thu, 04 Dec 2025 15:24:04",
+      "url": "https://www.hackingwithswift.com/articles/281/what-to-fix-in-ai-generated-swift-code"
+     },
+     {
+      "title": "One Swift mistake everyone should stop making today",
+      "date": "Mon, 10 Nov 2025 20:57:22",
+      "url": "https://www.hackingwithswift.com/articles/280/one-swift-mistake-everyone-should-stop-making-today"
+     },
+     {
+      "title": "Level up your SwiftUI",
+      "date": "Thu, 28 Aug 2025 13:56:23",
+      "url": "https://www.hackingwithswift.com/articles/279/level-up-your-swiftui"
+     },
+     {
+      "title": "What's new in SwiftUI for iOS 26",
+      "date": "Thu, 19 Jun 2025 22:15:44",
+      "url": "https://www.hackingwithswift.com/articles/278/whats-new-in-swiftui-for-ios-26"
+     },
+     {
+      "title": "What's new in Swift 6.2?",
+      "date": "Fri, 09 May 2025 20:04:59",
+      "url": "https://www.hackingwithswift.com/articles/277/whats-new-in-swift-6-2"
+     },
+     {
+      "title": "What's new in Swift 6.1?",
+      "date": "Thu, 01 May 2025 10:55:05",
+      "url": "https://www.hackingwithswift.com/articles/276/whats-new-in-swift-6-1"
+     },
+     {
+      "title": "Apple starts accepting GitHub sponsorships for Swift",
+      "date": "Tue, 01 Apr 2025 15:17:12",
+      "url": "https://www.hackingwithswift.com/articles/275/apple-starts-accepting-github-sponsorships-for-swift"
+     },
+     {
+      "title": "Take on Apple Intelligence at Unwrap Live 2025",
+      "date": "Thu, 09 Jan 2025 12:14:22",
+      "url": "https://www.hackingwithswift.com/articles/274/take-on-apple-intelligence-at-unwrap-live-2025"
+     },
+     {
+      "title": "Save 50% on all books and bundles this Black Friday",
+      "date": "Mon, 11 Nov 2024 12:32:34",
+      "url": "https://www.hackingwithswift.com/articles/273/save-50-on-all-books-and-bundles-this-black-friday"
+     },
+     {
+      "title": "Go further, faster with the Swift Career Accelerator",
+      "date": "Thu, 19 Sep 2024 09:24:33",
+      "url": "https://www.hackingwithswift.com/articles/272/swift-career-accelerator"
+     },
+     {
+      "title": "Making mistakes while learning Swift",
+      "date": "Wed, 07 Aug 2024 16:39:44",
+      "url": "https://www.hackingwithswift.com/articles/271/making-mistakes-while-learning-swift"
+     },
+     {
+      "title": "What’s new in SwiftUI for iOS 18",
+      "date": "Fri, 21 Jun 2024 19:44:52",
+      "url": "https://www.hackingwithswift.com/articles/270/whats-new-in-swiftui-for-ios-18"
+     },
+     {
+      "title": "What's new in Swift 6.0?",
+      "date": "Sun, 09 Jun 2024 21:20:26",
+      "url": "https://www.hackingwithswift.com/articles/269/whats-new-in-swift-6"
+     },
+     {
+      "title": "Save 50% on all books and bundles for WWDC24",
+      "date": "Sun, 09 Jun 2024 19:38:18",
+      "url": "https://www.hackingwithswift.com/articles/268/save-50-on-all-books-and-bundles-for-wwdc24"
+     },
+     {
+      "title": "What's new in Swift 5.10?",
+      "date": "Sun, 09 Jun 2024 19:13:50",
+      "url": "https://www.hackingwithswift.com/articles/267/whats-new-in-swift-5-10"
+     },
+     {
+      "title": "Build your next website in Swift",
+      "date": "Sat, 18 May 2024 08:21:37",
+      "url": "https://www.hackingwithswift.com/articles/266/build-your-next-website-in-swift"
+     }
+    ]
+   },
+   "appstore_ids": [
+    "6758355178"
+   ]
+  }
+ ],
+ "github": {
+  "login": "twostraws",
+  "user": {
+   "name": "Paul Hudson",
+   "company": "Hacking with Swift",
+   "blog": "https://www.hackingwithswift.com",
+   "location": "Bath, UK",
+   "bio": "Creator of Hacking with Swift, author of books about iOS, macOS, watchOS, and tvOS, public speaker, Rubik's cube enthusiast, and herder of my kids.",
+   "public_repos": 85,
+   "followers": 9972,
+   "created_at": "2010-01-26T15:27:51Z",
+   "twitter_username": "twostraws",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "twostraws/HackingWithSwift",
+    "description": "The project source code for Hacking with iOS.",
+    "stargazers_count": 6391,
+    "forks_count": 3225,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-04-03T09:04:25Z",
+    "pushed_at": "2025-06-22T13:03:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/SwiftUI-Agent-Skill",
+    "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+    "stargazers_count": 6293,
+    "forks_count": 237,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-03-05T20:13:14Z",
+    "pushed_at": "2026-10-16T09:24:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/ControlRoom",
+    "description": "A macOS app to control the Xcode Simulator.",
+    "stargazers_count": 6116,
+    "forks_count": 319,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-02-12T19:01:22Z",
+    "pushed_at": "2026-10-20T09:17:37Z",
+    "topics": [
+     "macos",
+     "simctl",
+     "simulator",
+     "swift",
+     "swiftui",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/Inferno",
+    "description": "Metal shaders for SwiftUI.",
+    "stargazers_count": 2927,
+    "forks_count": 145,
+    "language": "Metal",
+    "homepage": null,
+    "created_at": "2023-11-16T12:02:13Z",
+    "pushed_at": "2026-05-17T08:21:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/Swift-Agent-Skills",
+    "description": "A curated directory of open-source AI agent skills for Swift and Apple platform development.",
+    "stargazers_count": 2899,
+    "forks_count": 109,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-03-11T15:13:01Z",
+    "pushed_at": "2026-09-04T14:48:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/Unwrap",
+    "description": "Learn Swift interactively on your iPhone.",
+    "stargazers_count": 2337,
+    "forks_count": 309,
+    "language": "Swift",
+    "homepage": "https://www.hackingwithswift.com",
+    "created_at": "2018-08-09T12:26:22Z",
+    "pushed_at": "2026-07-14T21:38:27Z",
+    "topics": [
+     "ios",
+     "ipad",
+     "iphone",
+     "swift",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/Ignite",
+    "description": "A static site generator for Swift developers.",
+    "stargazers_count": 2278,
+    "forks_count": 193,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-03-22T05:43:44Z",
+    "pushed_at": "2026-10-15T12:44:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/wwdc",
+    "description": "WWDC Community: Learning and sharing together",
+    "stargazers_count": 2180,
+    "forks_count": 217,
+    "language": null,
+    "homepage": null,
+    "created_at": "2020-06-11T18:15:01Z",
+    "pushed_at": "2026-06-26T18:11:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/Vortex",
+    "description": "High-performance particle effects for SwiftUI.",
+    "stargazers_count": 1587,
+    "forks_count": 85,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-01-17T21:33:02Z",
+    "pushed_at": "2026-04-03T10:26:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/SwiftAgents",
+    "description": "An AGENTS.md file for Swift and SwiftUI projects.",
+    "stargazers_count": 1469,
+    "forks_count": 91,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-12-06T17:36:46Z",
+    "pushed_at": "2026-03-05T16:13:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/Sitrep",
+    "description": "A source code analyzer for Swift projects.",
+    "stargazers_count": 1353,
+    "forks_count": 65,
+    "language": "Swift",
+    "homepage": "https://www.hackingwithswift.com/",
+    "created_at": "2020-02-06T21:32:23Z",
+    "pushed_at": "2026-09-11T07:23:54Z",
+    "topics": [
+     "analyzer",
+     "swift",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/CodeScanner",
+    "description": "A SwiftUI view that is able to scan barcodes, QR codes, and more, and send back what was found.",
+    "stargazers_count": 1228,
+    "forks_count": 328,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-12-12T16:17:49Z",
+    "pushed_at": "2026-04-02T12:06:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/whats-new-in-swift-5-0",
+    "description": "An Xcode playground that demonstrates the new features introduced in Swift 5.0.",
+    "stargazers_count": 735,
+    "forks_count": 50,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2018-09-17T16:20:21Z",
+    "pushed_at": "2020-06-10T14:48:01Z",
+    "topics": [
+     "features-introduced",
+     "playground",
+     "swift",
+     "xcode",
+     "xcode-playground"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/Sourceful",
+    "description": "A syntax highlighting source editor for iOS and macOS using UITextView and NSTextView.",
+    "stargazers_count": 716,
+    "forks_count": 74,
+    "language": "Swift",
+    "homepage": "https://www.hackingwithswift.com",
+    "created_at": "2019-04-16T11:38:38Z",
+    "pushed_at": "2023-09-18T11:54:07Z",
+    "topics": [
+     "appkit",
+     "ios",
+     "macos",
+     "swift",
+     "uikit",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/ShaderKit",
+    "description": "A library of fragment shaders you can use in any SpriteKit project.",
+    "stargazers_count": 710,
+    "forks_count": 45,
+    "language": "GLSL",
+    "homepage": null,
+    "created_at": "2017-11-07T20:38:56Z",
+    "pushed_at": "2023-05-10T16:51:55Z",
+    "topics": [
+     "glsl",
+     "glsl-shaders",
+     "spritekit",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/simple-swiftui",
+    "description": "A collection of small SwiftUI sample projects.",
+    "stargazers_count": 697,
+    "forks_count": 72,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-05-01T20:49:42Z",
+    "pushed_at": "2024-08-18T20:01:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/SwiftOnSundays",
+    "description": "Completed projects for the Swift on Sundays livestream series",
+    "stargazers_count": 644,
+    "forks_count": 189,
+    "language": "Swift",
+    "homepage": "https://www.youtube.com/paulhudson",
+    "created_at": "2019-01-29T10:56:33Z",
+    "pushed_at": "2026-06-12T15:22:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "twostraws/Swift-Concurrency-Agent-Skill",
+    "description": "Swift Concurrency agent skill for Claude Code, Codex, and other AI tools.",
+    "stargazers_count": 574,
+    "forks_count": 22,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-03-11T15:09:37Z",
+    "pushed_at": "2026-05-17T16:07:46Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 77,
+  "languages": [
+   [
+    "Swift",
+    60
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "Metal",
+    1
+   ],
+   [
+    "GLSL",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ],
+   [
+    "Objective-C",
+    1
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "twostraws/HackingWithSwift",
+    "stargazerCount": 6391,
+    "description": "The project source code for Hacking with iOS.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "twostraws/ControlRoom",
+    "stargazerCount": 6116,
+    "description": "A macOS app to control the Xcode Simulator.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "twostraws/Ignite",
+    "stargazerCount": 2278,
+    "description": "A static site generator for Swift developers.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "twostraws/Vortex",
+    "stargazerCount": 1587,
+    "description": "High-performance particle effects for SwiftUI.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "twostraws/Inferno",
+    "stargazerCount": 2927,
+    "description": "Metal shaders for SwiftUI.",
+    "primaryLanguage": {
+     "name": "Metal"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "twostraws/Unwrap",
+    "stargazerCount": 2337,
+    "description": "Learn Swift interactively on your iPhone.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://www.hackingwithswift.com"
+   }
+  ],
+  "contrib_last_year": 3606,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "twostraws/HackingWithSwift": "# Hacking with Swift\nThis is the source code to accompany Hacking with Swift, [a free tutorial series that teaches Swift coding for iOS](https://www.hackingwithswift.com). There is one folder for the classic Hacking with Swift course, which teaches UIKit and SpriteKit, and another folder for the SwiftUI edition.\nAll SwiftUI projects should be compatible with Xcode 15 and iOS 17. Where appropriate, separate project files have been provided so that you can follow the tutorial from scratch without having to dig around in the completed project folder.\nIf you have questions, you can find me on Twitter [@twostraws](https://www.twitter.com/twostraws).\n## Recommended links\n- [Buy the Hacking with Swift book and support my work](https://gumroad.com/l/hws-book-pack)\nThe Hacking with Swift book contains over 1300 pages of tutorials and example code, and makes a great addition to any developer's collection. Thank you to everyone who bought the book – your purchase helps me create more great Swift content in the future!\n- [Buy the Pro Swift book and video course](https://gumroad.com/l/proswift)\nPro Swift is the sequel to Hacking with Swift, and includes a 250-page guide to helping you write faster, more efficient Swift, accompanied by over 70 videos demonstrating each technique. If you want to dive into functional programming, learn more about MVVM, get to grips with @autoclosure and @escaping, or try your hand at protocol-oriented development, Pro Swift is for you.\n- [Buy Swift Coding Challenges](https://gumroad.com/l/swiftcc)\nSwift Coding Challenges is an all-new book written from the ground up to put your Swift skills to the test. I've written a variety of coding challenges that start off simple but slowly get harder, and it's down to you to solve them. I outline each problem, provide you with sample input and output, add in some hints in case you hit problems, then provide a sample solution and explain how it works.\n### Swift\n- [What's new in Swift 6.2?](https://www.hackingwithswift.com/articles/277/whats-new-in-swift-6-2)\n- [What's new in Swift 6.1?](https://www.hackingwithswift.com/articles/276/whats-new-in-swift-6-1)\n- [What's new in Swift 6.0?](https://www.hackingwit",
+   "twostraws/ControlRoom": "<p align=\"center\">\n</p>\n<p align=\"center\">\n    <a href=\"https://twitter.com/twostraws\">\n    </a>\n</p>\nControl Room is a macOS app that lets you control the simulators for iOS, tvOS, and watchOS – their UI appearance, status bar configuration, and more. It wraps Apple’s own **simctl** command-line tool, so you’ll need Xcode installed.\nYou’ll need Xcode 14.0 or later to build and use Control Room on your Mac.\n## Installation\nTo try Control Room yourself, download the code and build it through Xcode. It’s built using SwiftUI, so you’ll need macOS Big Sur in order to run it. You will also need Xcode installed, because it relies on the **simctl** command being present – if you see an error that you’re missing the command line tools, go to Xcode's Preferences, choose the Locations tab, then make sure Xcode is selected for Command Line Tools.\n## Features\nControl Room is packed with features to help you develop apps more effectively, including:\n- Taking screenshots and movies, optionally adding the device bezels to your screenshots.\n- Adjusting the system time and date to whatever you want, including Apple’s preferred 9:41.\n- Controlling status of WiFi, cellular service, and battery.\n- Opening the data folder for your app, or editing your `UserDefaults` entries.\n- Overriding dark or light mode, language, accessibility options, and Dynamic Type content size.\n- Activating slow animations in the simulator. This sadly does not work on a real device.\n- Picking a custom user location from anywhere in the world.\n- Starting, stopping, installing, and removing apps.\n- Sending test push notifications or triggering deep links.\n- Selecting colors from the simulator, converting them to UIKit or SwiftUI code, or even dragging directly into your asset catalog.\nPlus there’s an optional menu bar icon adding quick actions such as re-sending the last push notification or re-opening your last deep link.\n## Contribution guide\nAny help you can offer with this project is most welcome – there are opportunities big and small so that someone with only a small amount of Swift experience can help.\nSome suggestions you might want to explore:\n- Handle errors in a meaningful way.\n- Add documentation ",
+   "twostraws/Ignite": "<p align=\"center\">\n</p>\n<p align=\"center\">\n    <a href=\"https://twitter.com/twostraws\">\n    </a>\n</p>\nIgnite is a static site builder for Swift developers, offering an expressive, powerful API to build beautiful websites that work great on all devices.\nIgnite doesn't try to convert SwiftUI code to HTML, or simply map HTML tags to Swift code. Instead, it aims to use SwiftUI-like syntax to help you build great websites even if you have no knowledge of HTML or CSS.\n## Getting started\nThe easiest way to get started is to use the Ignite command-line tool included with this package:\n1. Run `git clone https://github.com/twostraws/Ignite` to clone this repository to your computer.\n2. Change into the new directory, e.g. `cd Ignite`.\n3. Now run `make` to build the Ignite command-line tool.\n4. Then run `make install` to install the Ignite command-line tool to `/usr/local/bin`.\n5. If that command fails because of permissions issues, you should run `sudo make install` instead.\n> [!Note]\n> To change install directory: `make install PREFIX_DIR=/my/install/dir`\nOnce that command-line tool is installed, you can run the following command to create a new site called ExampleSite:\n```shell\nignite new ExampleSite\n```\nOnce installed, the command-line tool is helpful for running a local web server for testing and for building your project.\nTo build your example site, run these commands:\n```shell\ncd ExampleSite\nignite build\n```\nThat creates a new folder called Build with the site files. Now you can preview it. (For more details on how to build, see \"Using the command-line tool\" below.)\n## Important: Previewing your site\n> [!Tip]\n> Using the Ignite tool to run a local web server is the best way to preview your site.\nOnce you've built your site and are ready to see how it looks, do *not* just double-click one of the files in Finder. This will open the file directly in your browser, which means it won't know how to locate the rest of your site – the stylesheets, JavaScript code, etc – so it will not display correctly.\nInstead, the best way to preview your site is using the Ignite CLI tool, which you installed in Getting Started above:\n- Run `ignite run --preview` to preview your site and o",
+   "twostraws/Vortex": "<p align=\"center\">\n</p>\n<p align=\"center\">\n    <a href=\"https://twitter.com/twostraws\">\n    </a>\n</p>\nVortex is a powerful, high-performance particle system library for SwiftUI, allowing you to create beautiful effects such as fire, rain, smoke, and snow in only a few lines of code.\nVortex comes with a range of built-in effects, such as fireworks, magic, confetti, and more, but you can also create completely custom effects that suit your needs.\nThis framework is compatible with iOS, macOS, tvOS, watchOS, and visionOS.\n## Installing\nVortex uses Swift Package Manager, so you should use Xcode to add a package dependency for <https://github.com/twostraws/Vortex>.\nOnce that completes, import Vortex into your Swift code wherever needed:\n```swift\nimport Vortex\n```\nIn the **Assets** directory of this repository you'll find three example particle images you can use, but you're able to use a variety of SwiftUI views and shapes rather than just images.\n## See it in action\nThis repository contains a cross-platform sample project demonstrating all the presets being used. The sample project is built using SwiftUI and requires iOS 17, macOS 14, or visionOS 1.\n## Basic use\nRendering a Vortex particle system takes two steps:\n1. Creating an instance of `VortexSystem`, configured for how you want your particles to behave. This must be given a list of tag names of the particles you want to render.\n2. Adding a `VortexView` to your SwiftUI view hierarchy, passing in the particle system to render, and also all the views that are used for particles, tagged using the same names from step 1.\nThere are lots of built-in particle system designs, such as rain:\n```swift\nVortexView(.rain) {\n    Circle()\n        .fill(.white)\n        .frame(width: 32)\n        .tag(\"circle\")\n}\n```\nFireworks:\n```swift\nVortexView(.fireworks) {\n    Circle()\n        .fill(.white)\n        .blendMode(.plusLighter)\n        .frame(width: 32)\n        .tag(\"circle\")\n}\n```\nAnd fire:\n```swift\nVortexView(.fire) {\n    Circle()\n        .fill(.white)\n        .blendMode(.plusLighter)\n        .blur(radius: 3)\n        .frame(width: 32)\n        .tag(\"circle\")\n}\n```\n> [!Note]\n> Each preset is designed to look for one or more tags; p",
+   "twostraws/Inferno": "<p align=\"center\">\n</p>\n<p align=\"center\">\n    <a href=\"https://twitter.com/twostraws\">\n    </a>\n</p>\nInferno is an open-source collection of fragment shaders designed for SwiftUI apps. The shaders are designed to be easy to read and understand, even for relative beginners, so you’ll find each line of code rephrased in plain English as well as an overall explanation of the algorithm used at the top of each file.\nIf you’re already comfortable with shaders then please download one or more that interest you and get going. If not, most of the remainder of this README acts as a primer for using shaders in SwiftUI.\n- [See it in action](#see-it-in-action)\n- [How to use Inferno in your project](#how-to-use-inferno-in-your-project)\n- [What are shaders?](#what-are-shaders)\n- [How are shaders written?](#how-are-shaders-written)\n- [Sending values to shaders](#sending-values-to-shaders)\n- [Reading the shader code](#reading-the-shader-code)\n- [Shaders included in Inferno](#shaders-included-in-inferno)\n- [Transitions included in Inferno](#transitions-included-in-inferno)\n- [View Extensions](#view-extensions)\n- [Inferno Sandbox](#inferno-sandbox)\n- [Contributing](#contributing)\n- [License](#license)\n- [Where to learn more](#where-to-learn-more)\n## See it in action\nThis repository contains a cross-platform sample project demonstrating all the shaders in action. The sample project is built using SwiftUI and requires iOS 17 and macOS 14.\nThe sample project contains a lot of extra helper code to demonstrate all the shaders in various ways. To use the shaders in your own project, you just need to copy the relevant Metal files across, and optionally also Transitions.swift if you're using a transition shader.\n## How to use Inferno in your project\nIf you use SwiftUI, you can add special effects from Inferno to add water ripples, spinning black holes, flashing lights, embossing, noise, gradients, and more – all done on the GPU for maximum speed.\nTo use a shader from here, copy the appropriate .metal file into your project, then start with sample code for that shader shown below. If you're using an Inferno transition, you should also copy Transitions.swift to your project.\nTo find out mo"
+  }
+ },
+ "apps": [
+  {
+   "name": "Unwrap",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Education",
+   "price": "Free",
+   "released": "2019-05-09",
+   "updated": "2020-02-12",
+   "version": "1.5",
+   "rating": 4.89,
+   "ratings": 2131,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/unwrap/id1440611372",
+   "desc": "Unwrap is an all-new app designed to make it easy and fun to learn Swift programming right on your iPhone. It features 100 videos that walk you through the features of Swift in one minute or less, with each chapter backed up by a quiz to help make sure you understand before moving on. \n\nAs you progress you'll unlock practice activities: free coding, predict the output, rearrange the lines, spot the error, tap to code, type checker, and more – all designed to get you reading and writing as much Swift as possible. Each day you can tackle a new daily challenge, pitting you against 10 random activities that will test your skills in a variety of areas. \n\nCompleting lessons and activities also earns points and badges so you can monitor your progress as you go from zero to hero – it's the fastest and easiest way to learn Swift on the go.\n\nEven better, Unwrap is free: no cost to download , and n",
+   "country": "us"
+  },
+  {
+   "name": "Hacktivate: Capture the Flag",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Education",
+   "price": "Free",
+   "released": "2025-10-22",
+   "updated": "2026-10-21",
+   "version": "1.14",
+   "rating": 4.66,
+   "ratings": 32,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/hacktivate-capture-the-flag/id6748286602",
+   "desc": "Crack codes. Break firewalls. Conquer the map.\n\nHacktivate is the ultimate cybersecurity challenge: a world map of 240 missions where every puzzle is built on real cybersecurity techniques hackers use. From classic ciphers to covert steganography, you’ll sharpen your brain while infiltrating deeper into the network.\n\nNo fluff. No filler. Just pure challenges.\n\n- 240 graded missions across the Americas, Europe, Asia, and more – unlock all the continents with a one-time purchase.\n- The Hacker’s Toolbox: hashing, encryption, XOR, ciphers, and beyond.\n- Real-world attack techniques through Unix terminals, web browsers, digital forensics, SQL injection, and more.\n- Global progression: unlock regions and learn different specialties each time.\n- Comprehensive tutorials and documentation teach you the skills you need to win.\n- Difficulty that scales: from rookies breaking their first code to cyb",
+   "country": "us"
+  },
+  {
+   "name": "Study Latin and Greek - SPQR",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Education",
+   "price": "Free",
+   "released": "2025-03-07",
+   "updated": "2025-07-31",
+   "version": "1.3",
+   "rating": 4.77,
+   "ratings": 22,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/study-latin-and-greek-spqr/id6741210856",
+   "desc": "SPQR is the ultimate learning tool for Latin and Classical Greek students who want to immerse themselves in the language, presenting dozens of Latin and Greek texts with English translations, a grammar tester, flashcards, quiz, numeral converter, quotes of ancient wisdom, language learning tools and more.\n\nHere are just some of the features:\n\n- Full, fast and searchable copy of the Lewis & Short Latin lexicon for Latin students, and the Liddell, Scott & Jones Greek-English lexicon for Greek students, with all definitions searched as you type.\n\n- Parse any Latin word to English, regardless of conjugation - includes full breakdown of the word's form. For Greek students, search in Greek or English, or use betacode if you prefer.\n\n- Full copies of classic Latin texts, including the Gallic War and Civil War by Julius Caesar, Res Gestae by Augustus, the Twelve Caesars by Suetonius, the Amores ",
+   "country": "us"
+  },
+  {
+   "name": "Kickstart - App Accelerator",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2026-05-15",
+   "updated": "2026-10-01",
+   "version": "2.1",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/kickstart-app-accelerator/id6758355178",
+   "desc": "Kickstart is the app that helps indie app developers ship, brought to you by the creator of Hacking with Swift.\n\nYou don't need more tabs, more notes, or more half-finished launch docs. You need one place to handle the work around your app: your App Store listing, competitor research, pricing, reviews, analytics, marketing, and more. Kickstart brings all of that together in one app, so you spend less time stitching tools together and more time shipping.\n\nYou can start with a brand-new app or import an existing App Store Connect project, then keep your launch plan, store presence, analytics, feedback, competitor research, and marketing assets together in one Mac app.\n\nWith Kickstart you:\n\n- Replace launch chaos with a clear daily workflow.\n- Keep your positioning, store copy, reviews, keywords, and release tasks aligned.\n- Turn App Store data into specific next moves instead of more noise",
+   "country": "us"
+  },
+  {
+   "name": "Spatial Symphony",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Music",
+   "price": "Free",
+   "released": "2024-01-24",
+   "updated": "2024-01-31",
+   "version": "1.1.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/spatial-symphony/id6476616491",
+   "desc": "Welcome to Spatial Symphony, a groundbreaking music app designed exclusively for Apple Vision Pro. Immerse yourself in a spatial world where music and innovation converge, allowing you to create, manipulate, and explore sound in an entirely new dimension.\n\nIntuitive hand-controlled music synthesis: With Spatial Symphony, your hands become the conductor of an audio masterpiece. Select from a diverse range of presets like the ethereal Theremin, the electrifying Lazer, or the deep resonance of Superbass. Then sculpt your sound by simply moving your hands - pinch with one hand to adjust pitch, and with the other hand to adjust volume. It's an intuitive, natural way to make music that's both expressive and exciting.\n\nCustomize your sound: Dive deeper into your sonic exploration with comprehensive customization options. Choose your waveform, from classic sine waves to complex modulations. Add ",
+   "country": "us"
+  },
+  {
+   "name": "Pocket Assembler",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2024-11-10",
+   "updated": "2026-08-16",
+   "version": "2.0.1",
+   "rating": 5,
+   "ratings": 9,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/pocket-assembler/id6737518265",
+   "desc": "Dive into the world of assembly programming, right from your iPhone or iPad! Pocket Assembler empowers you to write, explore, and enjoy low-level programming in a beautifully streamlined interface, perfect for beginners and seasoned developers alike.\n\nStart with free coding mode to unleash your creativity, or test your skills with 45 carefully crafted challenges that will guide you through more complex, real-world coding tasks.\n\n\n▶ Free and feature-rich:\n\n- Learn at your own pace with 9 introductory challenges, walking you through the fundamentals of assembly language programming.\n- Comprehensive documentation and coding tips, so you can understand each operation and optimize your code with ease.\n- Personalized coding experience with customizable editor themes and text size.\n\n\n▶ Unlock More with Pocket Assembler Pro\n\nUpgrade to Pocket Assembler Pro and elevate your coding journey:\n\n- 36 ",
+   "country": "us"
+  },
+  {
+   "name": "Hands Off: Put Down your Phone",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2025-05-04",
+   "updated": "2025-06-02",
+   "version": "1.1",
+   "rating": 5,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/hands-off-put-down-your-phone/id6745459798",
+   "desc": "Put! Down! Your! Phone!\n\nHands Off is a free, minimalist widget designed to interrupt your scroll habit and remind you to reclaim your time, focus, and presence.\n\nNo logins. No tracking. No distractions. Just one goal: make you stop using your phone when you didn’t mean to.\n\nFeatures:\n- Blunt, bold, or kind reminders – you choose.\n- Lock screen + Home screen widgets.\n- Customize colors, styles, and messages.\n- No notifications, adverts, or dopamine traps.\n- Free. Forever.\n\nTake a walk. Drink some water. Be intentional. Do literally anything else, just put down your phone.",
+   "country": "us"
+  },
+  {
+   "name": "SPQR Education Edition",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Education",
+   "price": "$49.99",
+   "released": "2025-07-29",
+   "updated": "2025-07-31",
+   "version": "1.3",
+   "rating": 4.43,
+   "ratings": 7,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/spqr-education-edition/id6749261711",
+   "desc": "SPQR is the ultimate learning tool for Latin and Classical Greek students who want to immerse themselves in the language, presenting dozens of Latin and Greek texts with English translations, a grammar tester, flashcards, quiz, numeral converter, quotes of ancient wisdom, language learning tools and more.\n\nSPQR Education Edition includes all the functionality of SPQR, but without any in-app purchases – it's ideal for schools and colleges, or any home user who doesn't want another subscription.\n\nHere are just some of the features:\n\n- Full, fast and searchable copy of the Lewis & Short Latin lexicon for Latin students, and the Liddell, Scott & Jones Greek-English lexicon for Greek students, with all definitions searched as you type.\n\n- Parse any Latin word to English, regardless of conjugation - includes full breakdown of the word's form. For Greek students, search in Greek or English, or ",
+   "country": "us"
+  },
+  {
+   "name": "Scramblet - Word Puzzle Game",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Games",
+   "price": "$1.99",
+   "released": "2026-02-01",
+   "updated": "2026-02-02",
+   "version": "1.0",
+   "rating": 4.67,
+   "ratings": 3,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/scramblet-word-puzzle-game/id6758466548",
+   "desc": "Scramblet is a colorful word game I made because I love reading, words, and finding new ways to play with language.\n\nIn each level, you’re given a small set of letters. Tap them to build as many words as you can, from quick finds to longer, trickier ones. As you play, you’ll unlock achievements that celebrate your progress and keep things encouraging and fun.\n\nWhy I made Scramblet\n- I wanted a word game that feels friendly and positive\n- I wanted rewards that celebrate effort, not pressure\n- I wanted something fun for kids, teens, and adults alike\n\nWhy you’ll love it\n- Relaxing word puzzles with no timers\n- A bright, colorful design that’s easy to use\n- Lots of achievements to unlock as you improve\n- Great for short breaks or longer play sessions\n- No stress, just words and progress\n- No tracking, no ads, and no in-app purchases!\n\nWhether you’re great with words already or just starting ",
+   "country": "us"
+  },
+  {
+   "name": "Hacktivate: Education Edition",
+   "artist": "Hudson Heavy Industries",
+   "genre": "Education",
+   "price": "$19.99",
+   "released": "2025-10-22",
+   "updated": "2026-10-21",
+   "version": "1.14",
+   "rating": 5,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/hacktivate-education-edition/id6754342195",
+   "desc": "Crack codes. Break firewalls. Conquer the map.\n\nHacktivate is the ultimate cybersecurity challenge: a world map of 240 missions where every puzzle is built on real cybersecurity techniques hackers use. From classic ciphers to covert steganography, you’ll sharpen your brain while infiltrating deeper into the network.\n\nNo fluff. No filler. Just pure challenges.\n\nHacktivate: Education Edition is the same as the regular Hacktivate app, except it's paid up front so that schools and colleges can use it.\n\n- 240 graded missions across the Americas, Europe, Asia, and more – unlock all the continents with a one-time purchase.\n- The Hacker’s Toolbox: hashing, encryption, XOR, ciphers, and beyond.\n- Real-world attack techniques through Unix terminals, web browsers, digital forensics, SQL injection, and more.\n- Global progression: unlock regions and learn different specialties each time.\n- Comprehens",
+   "country": "us"
+  }
+ ]
+}

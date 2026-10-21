@@ -1,0 +1,519 @@
+{
+ "handle": "b3ll",
+ "sites": [
+  {
+   "url": "https://www.adambell.ca/",
+   "ok": true,
+   "title": "Adam Bell",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "Blog \n Talks \n GitHub \n Twitter \n Mastodon \nALBUMS \n Albums on your Home Screen.\nOCTAVE \n Note and chord lookup tool.\nARTPOP \n The best way to experience Lady Gaga's ARTPOP album.\n Built as a part of\n RelativeWave .\nMEAL PLAN \n Check and manage your Western University Meal Plan\n balance.\n **Meal Plan is not associated with Western University in\n any way. It was created as a student project.\n -->\nREPRISE \n A music player designed with DJs in mind.\nCREST \n Tweets faster than a Peregrine falcon!\nVIVID \n Fantastic wallpapers from all over the world.\nSTRIDE 2 \n Unlock your iOS device with style!\nSTRIDE \n Draw to Unlock and create gesture based passwords?\nSPECTRAL \n Blurred album artwork to accent your iOS 7 Lock Screen!",
+   "github_links": [
+    "b3ll"
+   ],
+   "subpages": {},
+   "appstore_ids": [
+    "1580017764",
+    "1602404960"
+   ]
+  },
+  {
+   "url": "https://blog.adambell.ca/talks",
+   "ok": true,
+   "title": "Talks | Adam Bell",
+   "description": "building / breaking things",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Apps \n Talks \n GitHub \n Twitter \n Mastodon \nTalks \n Building Delightful Applications - Swift Heroes Thursday, May 4, 2023 \n Building Responsive Interactions - iOS Conf SG Friday, Jan 13, 2023 \n Crafting Responsive and Playful Interfaces - NSSpain Friday, Sep 16, 2022 \n Gesture-driven animations - Swift by Sundell Thursday, Apr 29, 2021 \n Subtractive Synthesis in Swift - Swift Alps Thursday, Nov 28, 2019 \n Audio and Swift - Swift by Sundell Tuesday, Sep 24, 2019 \n Combining Sounds in Swift - Swift Language User Group Wednesday, Aug 28, 2019 \n Shaping Sounds in Swift - try! Swift Tokyo Thursday, Mar 21, 2019 \n Synthesizing Synths in Swift - NSSpain Friday, Sep 14, 2018",
+   "github_links": [
+    "b3ll",
+    "johnsundell"
+   ],
+   "subpages": {
+    "https://blog.adambell.ca/talks": "Apps \n Talks \n GitHub \n Twitter \n Mastodon \nTalks \n Building Delightful Applications - Swift Heroes Thursday, May 4, 2023 \n Building Responsive Interactions - iOS Conf SG Friday, Jan 13, 2023 \n Crafting Responsive and Playful Interfaces - NSSpain Friday, Sep 16, 2022 \n Gesture-driven animations - Swift by Sundell Thursday, Apr 29, 2021 \n Subtractive Synthesis in Swift - Swift Alps Thursday, Nov 28, 2019 \n Audio and Swift - Swift by Sundell Tuesday, Sep 24, 2019 \n Combining Sounds in Swift - Swift Language User Group Wednesday, Aug 28, 2019 \n Shaping Sounds in Swift - try! Swift Tokyo Thursday, Mar 21, 2019 \n Synthesizing Synths in Swift - NSSpain Friday, Sep 14, 2018"
+   },
+   "feed": {
+    "url": "https://blog.adambell.ca/feed.xml",
+    "count_seen": 14,
+    "items": [
+     {
+      "title": "McLarens and CarPlay",
+      "date": "Thu, 16 Jan 2025 22:05:00",
+      "url": "https://blog.adambell.ca/posts/20250116-McLarens-And-CarPlay"
+     },
+     {
+      "title": "Blog Upgrade Time (aka Blogging in Swift Part 4)",
+      "date": "Fri, 27 Jan 2023 11:00:00",
+      "url": "https://blog.adambell.ca/posts/20230127-Blog-Upgrade-Time"
+     },
+     {
+      "title": "Blogging in Swift (Part 3) (aka Vapor time)",
+      "date": "Thu, 2 Apr 2020 00:00:00 ",
+      "url": "https://blog.adambell.ca/posts/20200402-Blogging-in-Swift-(Part-3)-(aka-Vapor-time)"
+     },
+     {
+      "title": "Visualizing Xcode's View Debugger",
+      "date": "Wed, 24 Jul 2019 00:00:00",
+      "url": "https://blog.adambell.ca/posts/20190724-Visualizing-Xcode's-View-Debugger"
+     },
+     {
+      "title": "Blogging in Swift (Part 2)",
+      "date": "Wed, 29 May 2019 00:00:00",
+      "url": "https://blog.adambell.ca/posts/20190529-Blogging-in-Swift-(Part-2)"
+     },
+     {
+      "title": "Blogging in Swift",
+      "date": "Wed, 17 Apr 2019 00:00:00",
+      "url": "https://blog.adambell.ca/posts/20190417-Blogging-in-Swift"
+     },
+     {
+      "title": "Making Truly Native Native Apps on Apple Watch",
+      "date": "Sun, 13 Sep 2015 01:09:00",
+      "url": "https://blog.adambell.ca/posts/20150913-Making-Truly-Native-Native-Apps-on-Apple-Watch"
+     },
+     {
+      "title": "Making Passbook an Address Book",
+      "date": "Tue, 6 May 2014 06:12:00 ",
+      "url": "https://blog.adambell.ca/posts/20140506-Making-Passbook-an-Address-Book"
+     },
+     {
+      "title": "Here Fishy, Fishy...",
+      "date": "Fri, 24 Jan 2014 06:14:00",
+      "url": "https://blog.adambell.ca/posts/20140124-Here-Fishy-Fishy"
+     },
+     {
+      "title": "Dynamic iOS Multitasking",
+      "date": "Tue, 14 Jan 2014 21:42:00",
+      "url": "https://blog.adambell.ca/posts/20140114-Dynamic-iOS-Multitasking"
+     },
+     {
+      "title": "Breaking Chat Heads out of the iOS Sandbox",
+      "date": "Tue, 14 Jan 2014 21:28:00",
+      "url": "https://blog.adambell.ca/posts/20140114-Breaking-Chat-Heads-Out-of-the-iOS-Sandbox"
+     },
+     {
+      "title": "QNX, Native Binaries, and the BlackBerry PlayBook...",
+      "date": "Thu, 5 May 2011 10:50:00 ",
+      "url": "https://blog.adambell.ca/posts/20110505-QNX-Native-Binaries-and-the-Blackberry-Playbook"
+     },
+     {
+      "title": "afc2 and Finder",
+      "date": "Thu, 27 May 2010 13:30:00",
+      "url": "https://blog.adambell.ca/posts/20100527-afc2-and-Finder"
+     },
+     {
+      "title": "NSLog(@\"hello world\");",
+      "date": "Thu, 20 May 2010 14:43:00",
+      "url": "https://blog.adambell.ca/posts/20100520-Hello-World"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "b3ll",
+  "user": {
+   "name": "Adam Bell",
+   "company": "@netflix",
+   "blog": "https://www.adambell.ca/",
+   "location": "Bay Area",
+   "bio": "iOS Engineer 🏎 #no #u",
+   "public_repos": 81,
+   "followers": 1242,
+   "created_at": "2012-07-16T03:37:31Z",
+   "twitter_username": "b3ll",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "b3ll/Motion",
+    "description": "Animation engine for gesturally-driven user interfaces, animations, and interactions on iOS, macOS, and tvOS.",
+    "stargazers_count": 1491,
+    "forks_count": 38,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-08-09T18:20:54Z",
+    "pushed_at": "2024-10-19T01:52:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/Ignition",
+    "description": "Runs the CarPlay UI directly on top of SpringBoard on an iOS device, no need for a car!",
+    "stargazers_count": 324,
+    "forks_count": 58,
+    "language": "Logos",
+    "homepage": null,
+    "created_at": "2014-11-28T19:05:19Z",
+    "pushed_at": "2015-05-15T05:26:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/Decomposed",
+    "description": "CATransform3D manipulation made easy.",
+    "stargazers_count": 265,
+    "forks_count": 9,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-05-16T06:28:02Z",
+    "pushed_at": "2022-12-12T02:48:11Z",
+    "topics": [
+     "animation",
+     "calayer",
+     "catransform3d",
+     "coreanimation",
+     "gestures",
+     "ios",
+     "macos",
+     "matrix",
+     "simd",
+     "transformation"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/SwiftyGestureRecognition",
+    "description": "Aids with prototyping UIGestureRecognizers in Xcode Playgrounds",
+    "stargazers_count": 163,
+    "forks_count": 19,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-02-29T00:33:05Z",
+    "pushed_at": "2019-12-19T06:18:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/Pseudo3DTouch",
+    "description": "Mimicking Apple's 3D touch on hardware that doesn't have it.",
+    "stargazers_count": 118,
+    "forks_count": 7,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2015-09-17T15:24:40Z",
+    "pushed_at": "2017-01-06T14:31:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/NyanCat",
+    "description": "Puts Nyan Cat in the iOS 8 Notification Center :D",
+    "stargazers_count": 90,
+    "forks_count": 14,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-06-08T18:00:45Z",
+    "pushed_at": "2015-11-17T07:27:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/Adjustable",
+    "description": "Swift property wrapper to automatically add sliders to adjust values and aid in refining user interfaces, animations, and interactions without the need to recompile.",
+    "stargazers_count": 76,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-05-20T06:47:30Z",
+    "pushed_at": "2024-06-03T18:41:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/MessageBox-olde",
+    "description": "Chat Heads everywhere in iOS!",
+    "stargazers_count": 73,
+    "forks_count": 13,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2013-04-26T22:52:20Z",
+    "pushed_at": "2014-02-17T02:07:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/SetNeedsDisplay",
+    "description": "A Swift Property Wrapper to invalidate your view's layout  or display based on property changes.",
+    "stargazers_count": 72,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-12-23T03:54:29Z",
+    "pushed_at": "2025-06-10T01:29:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/DarkCode",
+    "description": "Always makes Xcode use Dark Mode on macOS Mojave",
+    "stargazers_count": 58,
+    "forks_count": 2,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2018-08-08T14:30:30Z",
+    "pushed_at": "2019-01-26T02:51:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/Xcode-Theos",
+    "description": "Attempts to use Theos/Logos with Xcode",
+    "stargazers_count": 54,
+    "forks_count": 11,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-03-24T23:13:01Z",
+    "pushed_at": "2014-12-04T03:11:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/MessageBox",
+    "description": "Break Facebook's Chat Heads out of the iOS Sandbox!",
+    "stargazers_count": 50,
+    "forks_count": 16,
+    "language": "Logos",
+    "homepage": null,
+    "created_at": "2014-02-17T06:56:36Z",
+    "pushed_at": "2014-04-03T00:39:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/tryswift2016",
+    "description": "All the material from my talk at try! Swift 2016 in Tokyo Japan.",
+    "stargazers_count": 50,
+    "forks_count": 7,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-03-03T03:55:04Z",
+    "pushed_at": "2016-03-03T10:52:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/Tunetable",
+    "description": "Stream your LPs over AirPlay",
+    "stargazers_count": 41,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-05-02T22:08:44Z",
+    "pushed_at": "2022-11-11T17:48:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/fan.cy",
+    "description": "Collection of useful helpers I've found / written that help make working with cycript a bit more awesome.",
+    "stargazers_count": 38,
+    "forks_count": 4,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2014-02-17T23:35:17Z",
+    "pushed_at": "2014-06-25T00:55:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/Spectral",
+    "description": "Make the iOS lockscreen proper with blurred album artwork!",
+    "stargazers_count": 32,
+    "forks_count": 9,
+    "language": "Logos",
+    "homepage": "",
+    "created_at": "2014-01-02T23:34:24Z",
+    "pushed_at": "2014-12-02T16:21:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/ClickWheelKeyboard",
+    "description": "Brings back the classic iPod click wheel as a keyboard for iOS 8!",
+    "stargazers_count": 27,
+    "forks_count": 9,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-09-18T02:50:34Z",
+    "pushed_at": "2015-05-18T21:33:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "b3ll/DarkDock",
+    "description": "Make Yosemite's Dock always Dark",
+    "stargazers_count": 22,
+    "forks_count": 4,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-07-06T17:58:42Z",
+    "pushed_at": "2014-07-08T17:35:58Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 38,
+  "languages": [
+   [
+    "Objective-C",
+    16
+   ],
+   [
+    "Swift",
+    11
+   ],
+   [
+    "Logos",
+    4
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "b3ll/Motion",
+    "stargazerCount": 1491,
+    "description": "Animation engine for gesturally-driven user interfaces, animations, and interactions on iOS, macOS, and tvOS.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "b3ll/Adjustable",
+    "stargazerCount": 76,
+    "description": "Swift property wrapper to automatically add sliders to adjust values and aid in refining user interfaces, animations, and interactions without the need to recompile.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "b3ll/Decomposed",
+    "stargazerCount": 265,
+    "description": "CATransform3D manipulation made easy.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "b3ll/SetNeedsDisplay",
+    "stargazerCount": 72,
+    "description": "A Swift Property Wrapper to invalidate your view's layout  or display based on property changes.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 61,
+  "orgs": [
+   "EpicGames"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "b3ll/Motion": "\nMotion is an animation engine for gesturally-driven user interfaces, animations, and interactions on iOS, macOS, and tvOS, and is powered by SIMD and written fully in Swift. Motion allows for easily creating physically-modeled, interruptible animations (i.e. springs, decays, etc.) that work hand-in-hand with gesture recognizers to make the most fluid and delightful interactions possible.\n- [Usage](#usage)\n  - [Animations](#animations)\n    - [Spring Animation](#spring-animation)\n    - [Decay Animation](#decay-animation)\n    - [Basic Animation](#basic-animation)\n- [SwiftUI Support](#swiftui-support)\n- [Motion vs. Core Animation](#motion-vs-core-animation)\n- [Interruptibility](#interruptibility)\n- [SIMD](#simd)\n- [Performance](#performance)\n- [Additions](#additions)\n  - [Rubberbanding](#rubberbanding)\n  - [CAKeyframeAnimationEmittable](#cakeyframeanimationemittable)\n  - [Action Disabling](#action-disabling)\n  - [Curve Graphing](#curve-graphing)\n- [Installation](#installation)\n  - [Requirements](#requirements)\n  - [Swift Package Manager](#swift-package-manager)\n  - [xcframework](#xcframework)\n  - [Xcode Subproject](#xcode-subproject)\n- [Example Project](#example-project)\n- [Other Recommendations](#other-recommendations)\n- [License](#license)\n- [Thanks](#thanks)\n- [Contact Info](#contact-info)\n# Usage\nAPI Documentation is [here](https://b3ll.github.io/Motion/documentation/motion/)\n## Animations\nCreating animations in Motion is relatively simple. Simply allocate the animation type that you want with the type that conforms to `SIMDRepresentable`, configure it, and call `start` to start it. For each frame the animation executes, its `onValueChanged` block will be called, and you'll be given the opportunity to assign that newly animated value to something.\nBy default, lots of types are already supported out of the box, including:\n- `Float`\n- `Double`\n- `CGFloat`\n- `CGPoint`\n- `CGSize`\n- `CGRect`\n- `SIMD2<Float>`\n- `SIMD2<Double>`\n- … and many more.\nCalling `stop` will freeze it in place, without the need to query the `presentationLayer` on `CALayer` and set values, or worry about `fillMode`, or worry about anything really.\nWhenever it's done, the completion block will b",
+   "b3ll/Adjustable": "<p align=\"center\">\n</p>\n<p align=\"center\">\n</p>\n<p align=\"center\">\n</p>\nThis package provides property wrappers that can be used on properties for any value conforming to `ClosedRange` to allow for super fast iteration of UIs and interactions without the need to wait to recompile / relaunch an application. It does so by automatically adding an interactive slider for any property that you annotate with `@Adjustable` that sits on top of your app's window so you can dynamically adjust properties and see them update live. It's powered by a lot of the stuff I experimented with to make [SetNeedsDisplay](https://github.com/b3ll/SetNeedsDisplay).\nThis is *perfect* for adjusting animation parameters on-the-fly, tweaking constants, or refining things until they feel just right without needing to constantly recompile your app and allowing you to focus on making things feel great.\nIt uses a lot of neat runtime tricks to pull out the name of the variable so it can appropriately name the relevant slider and also features a collapsible menu that you can tuck away when you don't need it (powered by [Motion](https://www.github.com/b3ll/Motion)!). \n> [!Note]\n> This is designed to only be used when developing applications and shouldn't be left in production builds. I would also not recommend annotating everything in your codebase with `@Adjustable` as this project isn't really built to scale (yet).\n> [!Warning]\n> This code contains some private Swift API stuff that powers `@Published` so there's a strong likelihood this will break in the future. I'd like to figure out ways to make the API a lot nicer in general, so if you have any ideas, let me know!\n- [Usage](#usage)\n- [Installation](#installation)\n  - [Requirements](#requirements)\n  - [Swift Package Manager](#swift-package-manager)\n- [License](#license)\n- [Thanks](#thanks)\n- [Contact Info](#contact-info)\n# Usage\nAnnotate your property of a type that conforms to `ClosedRange` like so:\n```swift\nclass MyView: UIView {\n    // A slider from `0.0` to `100.0` starting at `20.0` will be created.\n    // Anytime the slider is changed, `invalidateForAdjustable()` is called on the enclosing class.\n    @Adjustable(0.0...100.0) var someCustom",
+   "b3ll/Decomposed": "# Decomposed\nManipulating and using `CATransform3D` for animations and interactions is pretty challenging… Decomposed makes `CATransform3D`, `matrix_double4x4`, and `matrix_float4x4` much easier to work with.\n<p align=\"center\">\n</p>\n**Note**: The API for Decomposed is still heavily being changed / optimized, so please feel free to give feedback and expect breaking changes as time moves on.\nSpecifically, I really want to figure out what to do about the Vector types introduced in this repository. If there are any issues with them please let me know; I'm actively sourcing ways to make it better.\n- [Introduction](#introduction)\n- [Usage](#usage)\n  - [Transform Modifications](#transform-modifications)\n  - [CALayer Extensions](#calayer-extensions)\n  - [DecomposedTransform](#decomposedtransform)\n  - [CGVector3 / CGVector4 / CGQuaternion](#cgvector3--cgvector4--cgquaternion)\n  - [Interpolatable](#interpolatable)\n- [Installation](#installation)\n- [Other Recommendations](#other-recommendations)\n  - [Advance](#advance)\n- [License](#license)\n- [Contact Info](#contact-info)\n# Introduction\nTypically on iOS if you wanted to transform a `CALayer` you'd do something like:\n```swift\nlet layer: CAlayer = ...\nlayer.transform = CATransform3DMakeScale(0.5, 0.5, 1.0)\n```\nHowever, what if you were given a transform from somewhere else? How would you know what the scale of the layer is? What if you wanted to set the scale or translation of a transform? Without lots of complex linear algebra, it's not easy to do!\nDecomposed aims to simplify this by allowing for `CATransform3D`, `matrix_double4x4`, and `matrix_float4x4`, to be decomposed, recomposed, and mutated without complex math.\nDecomposition is the act of breaking something down into smaller components, in this case transformation matrices into things like translation, scale, etc. in a way that they can all be individually changed or reset. The following are supported:\n- Translation\n- Scale\n- Rotation (using Quaternions or Euler Angles)\n- Skew\n- Perspective\nIt's also powered by Accelerate, so it should introduce relatively low overhead for matrix manipulations.\n# Usage\nAPI Documentation is [here](https://b3ll.github.io/Decomposed/).\n",
+   "b3ll/SetNeedsDisplay": "> [!IMPORTANT]\n> This now exists in UIKit for iOS 15 and above (neat!). Feel free to use this for earlier versions if needed, but no further updates will be made here :)\n> https://developer.apple.com/documentation/uikit/uiview/invalidating\n# SetNeedsDisplay\nThis package provides property wrappers that can be used on properties for any `NSView` or `UIView` to invalidate the layout or display whenever the value of said property is changed.\n**Note**: This code contains some private Swift API stuff that powers `@Published` so there's a strong likelihood this will break in the future.\n- [Introduction](#SetNeedsDisplay)\n- [Usage](#usage)\n- [Installation](#installation)\n  - [Requirements](#requirements)\n  - [Swift Package Manager](#swift-package-manager)\n- [License](#license)\n- [Thanks](#thanks)\n- [Contact Info](#contact-info)\n# Usage\nAnnotate your property of a type that conforms to `Equatable` like so:\n```swift\nclass MyView: UIView {\n    // Anytime someCustomProperty is changed, `-setNeedsDisplay` will be called.\n    @SetNeeds(.display) var someCustomProperty: CGFloat = 0.0\n    // Anytime someOtherCustomProperty is changed, `-setNeedsLayout` will be called.\n    @SetNeeds(.layout) var someOtherCustomProperty: CGFloat = 0.0\n    // Anytime oneLastProperty is changed, `-setNeedsDisplay` and `-setNeedsLayout` will be called.\n    @SetNeeds(.display, .layout) var oneLastProperty: CGFloat = 0.0\n}\n```\n# Installation\n## Requirements\n- iOS 13+, macOS 10.15+\n- Swift 5.0 or higher\nCurrently SetNeedsDisplay supports Swift Package Manager (or manually adding `SetNeedsDisplay.swift` to your project).\n## Swift Package Manager\nAdd the following to your `Package.swift` (or add it via Xcode's GUI):\n```swift\n.package(url: \"https://github.com/b3ll/SetNeedsDisplay\", from: \"0.0.1\")\n```\n# License\nSetNeedsDisplay is licensed under the [BSD 2-clause license](https://github.com/b3ll/SetNeedsDisplay/blob/master/LICENSE).\n# Thanks\nThanks to [@harlanhaskins](https://twitter.com/harlanhaskins) and [@hollyborla](https://twitter.com/hollyborla) for helping point me in the right direction and explain the complexity that this sort of solution entails.\nMore info [here](https://forums.swift.org/t/propert",
+   "b3ll/Ignition": "Ignition\n=============\nNegates the need for a \"CarPlay supported™\" car, and runs the CarPlay UI directly on top of SpringBoard on an iOS device. \nWorks great for iPads mounted on the dash!\n**Note**: This is primarily meant for an iPad, and iPhones aren't really supported (however you \"can\" use it with an iPhone 6 Plus if you really want to).\nAlso, I'll be sure to do a formal write-up on how it all works once all of this is finished and useable.\nVroom vroom.\n## Explanation\nTo be honest a lot of this nonsense could be completely avoided if a secondary \"fake\" FBSDisplay could be created and then used. That way SBApplications could create / own proper carScenes and there'd be a lot less things that were broken...\nMost of the CarPlay checking logic involves checking for both multiple UIScreens, the UIScreen interfaceIdiom, and FBSDisplay -> FBScene lookups. However, creating a fake FBSDisplay requires creating a fake CADisplay which isn't a lot of fun :P\nBasically here's how it works (I think... some parts are probably wrong or off):\nFrontBoard associates one FBSDisplay as the main display and has a bunch of FBScenes which are each SBApplication's mainScene. Once there's a second FBSDisplay available it can then generate a carScene for each SBApplication who's deemed capable. These carScenes would then be presented onto any externally connected screens (secondary FBSDisplay). \nOriginally, I had tried high-jacking a FBSDisplay whenever it was created and just duplicating that screen into a secondary FBSDisplay object with the same CADisplay object... and then shoving that FBSDisplay object into it's own lookup table to make it *appear* as if multiple screens were available. However. this causes UIScreen to freak out as it deems both those screens as the same. Also loads of the OS did *not* like this :P\nWhat I'm doing is just making all UIScreens appear as CarPlay screens as well as forcing all applications to render in landscape (as CarPlay on external screens is forced to portrait). In addition this means that each SBApplication's carScene is the mainScene, which doesn't guarantee success.\nCreating a local AirPlay server and then hacking touches to work on a view (wh"
+  }
+ },
+ "apps": [
+  {
+   "name": "Click Wheel Keyboard",
+   "artist": "Adam Bell",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2015-05-24",
+   "updated": "2015-06-02",
+   "version": "1.0.1",
+   "rating": 4.7,
+   "ratings": 23,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/click-wheel-keyboard/id993111285",
+   "desc": "Typing with two hands is such a chore, who needs extra complexity when writing? \n\nSimply scroll through all characters and emoji with this super retro keyboard!\n\nEach side of the wheel also has a function: tap the top to delete, left to move the cursor, right for a space, and bottom for capital letters!\n\nInfinite Rotations. Infinite Conversations.",
+   "country": "us"
+  },
+  {
+   "name": "J_NO Chorus",
+   "artist": "Adam Bell",
+   "genre": "Music",
+   "price": "Free",
+   "released": "2021-08-19",
+   "updated": "2021-09-02",
+   "version": "1.1",
+   "rating": 5,
+   "ratings": 23,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/j-no-chorus/id1507482196",
+   "desc": "J_NO Chorus pays homage to a very famous effect from the 80s by re-creating the warmth a bucket brigade chorus gives. Use it with any of your audio apps that support audio unit hosting.\n\nNote: The app itself doesn't do anything, but it exposes an audio unit effect you can use in any DAW of your choosing.",
+   "country": "us"
+  },
+  {
+   "name": "Albums: Music Shortcuts",
+   "artist": "Adam Bell",
+   "genre": "Music",
+   "price": "Free",
+   "released": "2023-04-18",
+   "updated": "2024-12-14",
+   "version": "1.7.1",
+   "rating": 4.71,
+   "ratings": 28,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/albums-music-shortcuts/id1602404960",
+   "desc": "Albums lets you collect and add your favourite music albums as widgets to your home screen, acting as fast shortcuts to listen to them on your preferred music streaming service. \n\nThis app aims to bring back some of the feel of collecting and playing vinyl records. No longer are you going through the rounds of opening an app, searching for an artist, fighting network connections, finding the album, picking a song to start… etc., just tap them on your home screen, play, and enjoy!\n\n- Search for and collect your favourite albums.\n- Customize your album widgets with many different styles, colours, and settings.\n- Display them all as a digital collection and celebrate the artwork that makes so many records timeless classics.",
+   "country": "us"
+  },
+  {
+   "name": "Raid Dad",
+   "artist": "Adam Bell",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2021-03-25",
+   "updated": "2021-10-08",
+   "version": "1.1.2",
+   "rating": 4.2,
+   "ratings": 10,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/raid-dad/id1441280856",
+   "desc": "Raid Dad grants anyone the ability to see everything that's going on in their fireteam. You'll get auto-refreshing, up-to-date, and at-a-glance information on your fireteam's equipment, power level, stats, and subclasses to help better coordinate, organize, and excel at conquering Destiny 2 raids and activities. You can even use it to monitor what other clans are doing to help get ideas on how to improve your fireteam composition, builds, and strategies (i.e. feel free to follow Meow Pew Pew or Math Class for some great ideas).\n\nLogging into your Bungie account will allow you to automatically add all your current fireteam members to your dashboard for quick access.\n\nIf you're helping guide others through raids, Raid Dad is especially great for making equipment suggestions and helping keep tabs on your fellow fireteam members.\n\nEyes up, Guardian.",
+   "country": "us"
+  },
+  {
+   "name": "Octave: Sight Reading Tool",
+   "artist": "Adam Bell",
+   "genre": "Music",
+   "price": "Free",
+   "released": "2022-06-01",
+   "updated": "2022-11-12",
+   "version": "1.0.2",
+   "rating": 5,
+   "ratings": 3,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/octave-sight-reading-tool/id1580017764",
+   "desc": "Octave is a simple and quick utility to help with learning to read sheet music, composition, or improvisation.\n\n- Learn ledger lines by dragging the note to see what the Octave and Note is\n- Tap to hear notes to make sure you're playing the right key.\n- Look up a variety of chords to help you compose and get better at chord progressions / improvisation faster.",
+   "country": "us"
+  }
+ ]
+}

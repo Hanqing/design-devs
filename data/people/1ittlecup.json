@@ -2,178 +2,215 @@
  "name": "1ittlecup",
  "role": "Android 独立开发者 · Catching Now",
  "title": "1ittlecup：让 Android <em>安静下来</em>的人",
- "dek": "冰箱 Ice Box、通知滤盒、剪纸堆……如果你用过国产安卓，大概率见过 TA 的作品。最新的 AndroMeld，则想把 Android 手机和 Mac 合成一台机器。",
- "card": "冰箱、通知滤盒、剪纸堆作者；新作 AndroMeld 把 Android 搬到 Mac 上。",
- "location": "四川（据工作室备案信息）",
- "tags": [
-  "Android",
-  "macOS",
-  "系统工具",
-  "独立开发"
- ],
+ "dek": "冰箱 Ice Box、通知滤盒、剪纸……如果你用过国产安卓，大概率见过 TA 的作品。从 2015 年大学期间写的第一个剪贴板 App 开始，TA 在 Android 系统工具这条路上走了十多年；最新的 AndroMeld，想把 Android 手机和 Mac 合成一台机器。",
+ "card": "冰箱 Ice Box（Google Play 500 万+ 下载）、通知滤盒、Clip Cloud 的作者；新作 AndroMeld 把 Android 接进 Mac。",
+ "location": "GitHub 资料写日本东京",
+ "updated": "2026-10-21",
+ "tags": ["Android", "系统工具", "隐私", "端侧机器学习", "macOS"],
  "links": [
-  {
-   "label": "AndroMeld",
-   "url": "https://andromeld.catchingnow.com"
-  },
-  {
-   "label": "Catching Now",
-   "url": "https://www.catchingnow.cn/"
-  }
+  {"label": "AndroMeld", "url": "https://andromeld.catchingnow.com"},
+  {"label": "Catching Now", "url": "https://www.catchingnow.cn/"},
+  {"label": "GitHub", "url": "https://github.com/heruoxin"}
  ],
  "summary": [
-  "<strong>一句话：</strong>Catching Now 工作室背后的独立开发者，十年来专注做「让手机更干净、更安静」的 Android 系统工具。",
-  "<strong>代表作：</strong>冰箱 Ice Box（应用冻结，各市场累计下载超六百万）、通知滤盒 FilterBox（通知管理）、剪纸堆 / Clip Cloud（剪贴板）、AndroMeld（Android × Mac 互联）。",
-  "<strong>个人标签：</strong>力量举入门菜鸟、「困在岸上的邮轮迷」。"
+  "<strong>一句话：</strong>以 Catching Now 为品牌的 Android 独立开发者（GitHub 用户名 heruoxin，V2EX 用户名 little_cup），专做后台冻结、通知管理、剪贴板同步这类「系统脏活」，把需要 Root、ADB 的专业操作变成普通人能用的开关。",
+  "<strong>代表作：</strong>冰箱 Ice Box（Google Play 500 万+ 下载、1.26 万条评价）、通知滤盒 FilterBox（10 万+ 下载，4.1 分）、Clip Cloud（Android / iOS / Chrome 剪贴板同步）、AndroMeld（Android × Mac，2026 年 5 月上架 Mac App Store）。",
+  "<strong>看点：</strong>隐私优先贯穿始终：剪贴板同步不落服务器，通知过滤的机器学习完全在手机上运行，AndroMeld 的 AI 控制随时可查日志、随时中断。",
+  "<strong>自我介绍：</strong>「独立开发者，力量举入门菜鸟，困在岸上的邮轮迷。」"
  ],
- "lead": "在国产安卓应用「全家桶」盛行、后台自启满天飞的年代，一个叫「冰箱」的小工具教会了几百万人一件事：不用的 App，冻起来就好。它的作者 1ittlecup 很少站到台前，作品却在 V2EX、少数派、爱范儿和小众软件之间被反复推荐。",
+ "lead": "Android 系统工具常常给人「功能强、颜值低」的印象，1ittlecup 是少见的例外。TA 宣传通知滤盒时，把「好看」和「好用」放在同一句话里；做冰箱时，把一个原本需要 ADB、Root 知识的操作，包装成了一次点击。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "Android 独立开发者，工作室品牌 Catching Now；App Store 开发者署名为何若昕（与 GitHub 用户名 heruoxin 一致）"],
+     ["所在地", "GitHub 资料写日本东京；Catching Now 中文站的备案信息在四川"],
+     ["起步", "2014 年读大三时自学前端和 Node.js，2015 年初发布第一个 Android App Clipping Stack"],
+     ["代表作", "冰箱 Ice Box、通知滤盒 FilterBox、Clip Cloud（剪纸）、AndroMeld"],
+     ["技术栈", "Java / Kotlin（Android）、Swift（macOS / iOS）、JavaScript（早期 Node-Webkit、Hexo 主题）、端侧机器学习"],
+     ["关键数字", "冰箱 Google Play 500 万+ 下载；通知滤盒 10 万+ 下载、3,330 条评价；X 关注者约 6 千"],
+     ["社区", "V2EX「分享创造」节点常客；早年活跃于知乎、Google+"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "1ittlecup 的作品几乎都在处理<strong>手机系统里最烦人的那一层</strong>：偷跑的后台、刷屏的通知、在设备之间来回搬的剪贴板。这些问题没人愿意碰，因为它们和系统权限、厂商定制、Google Play 政策纠缠在一起；但正因如此，解决得好的工具能被用很多年。"},
+    {"p": "2025 年起，TA 把多年积累的 Android 底层经验带到了一个新方向：<strong>Android × Mac</strong>。AndroMeld 让每个手机 App 在 Mac 上有自己的窗口，在 Finder 里管理手机文件，在 Mac 上接电话，还能通过 MCP 让 Codex、Claude Code 这类 AI 客户端操作你的手机。"},
+    {"note": "本页依据 Catching Now 与 AndroMeld 官网、Google Play、App Store、GitHub、V2EX 发布帖、少数派报道及 TA 2014–2015 年的个人博客整理，资料截至 2026 年 10 月。博客中涉及私人生活的内容未收录。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "p": "1ittlecup（X 昵称 10202be9）2010 年就注册了 X。TA 的产品几乎都署名 <strong>Catching Now</strong>。从工作室网站的备案信息看，团队位于四川。TA 在 V2EX 上介绍自己时说做过「剪纸堆、冰箱等 App」，并提到冰箱在各大市场的累计下载量已超过六百万。"
-    },
-    {
-     "steps": [
-      {
-       "when": "早期",
-       "title": "剪纸堆：从剪贴板开始",
-       "text": "剪贴板管理是很多工具型开发者的起点。剪纸堆后来演化为跨平台同步的 Clip Cloud，支持 Android、iOS 和 Chrome，使用 AES 加密，经由 FCM 推送且不在服务器存储数据。"
-      },
-      {
-       "when": "2017–2018",
-       "title": "冰箱 Ice Box：把流氓软件冻起来",
-       "text": "一键冻结不常用的应用，阻止它们在后台偷跑耗电。既支持 Root，也支持通过「无线调试」实现免 Root。少数派、爱范儿、小众软件都曾专门介绍。"
-      },
-      {
-       "when": "2020",
-       "title": "通知滤盒 FilterBox",
-       "text": "TA 自己在 V2EX 上称之为「可能是 Android 上最好看并且好用的通知管理器」：通知历史、自定义规则（静音、朗读、提取验证码、隐藏敏感内容）、面容/指纹锁。"
-      },
-      {
-       "when": "2023",
-       "title": "端侧机器学习过滤",
-       "text": "通知滤盒加入纯 Android 端的机器学习垃圾通知过滤，离线运行、随用户习惯学习，不上传数据。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "AndroMeld：Android × Mac",
-       "text": "把 Android 手机接到 Mac 上：每个手机 App 一个独立窗口，Finder 里管理手机文件，Mac 上接电话、收通知、同步剪贴板，还能通过 MCP 让 Codex、Claude Code 控制手机。上架 Mac App Store。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2010", "title": "注册 X", "text": "账号 @1ittlecup，昵称是一串十六进制「10202be9」。"},
+     {"when": "2014 年初", "title": "第一次碰前端", "text": "据 TA 的年终总结，寒假里把大部分精力投在了自己博客的主题上，「这是我第一次接触前端」。这个 Hexo 主题后来开源为 hexo-persona-color。"},
+     {"when": "2014 夏", "title": "Node Class", "text": "参加了一个 Node.js 训练营，TA 写道收获「不仅仅是 nodejs 本身」，更是在之后自学网络、Node-Webkit、Android 时「有路可寻的感觉，仿佛终于从瞎折腾走上编程的正轨」。同年用 Node-Webkit 写了非官方的 Pushbullet Mac 客户端。"},
+     {"when": "2015.02", "title": "第一个 Android App", "text": "博客文章《我的第一个 Android App - Clipping Stack》。剪贴板管理器 Clip Stack 开源后收获 900 多颗星，也是后来 Clip Cloud 的前身。"},
+     {"when": "2017–2018", "title": "冰箱 Ice Box", "text": "一键冻结不常用的应用，阻止后台偷跑。2017 年开源了在线文档，2018 年发布 IceBox-SDK 供其他 App 调用；少数派在 2018 年 9 月专文介绍。"},
+     {"when": "2019", "title": "啃系统权限", "text": "开源 Delegated-Scopes-Manager：Android 只允许一个 App 当设备管理员，这个项目用系统的 DELEGATION 机制，让同一台设备上的多个 App 共享这份免 Root 权限。"},
+     {"when": "2020", "title": "通知滤盒 FilterBox", "text": "TA 在 V2EX 上称之为「可能是 Android 上最好看并且好用的通知管理器」，并开源了用户分享规则的仓库。"},
+     {"when": "2023.03", "title": "端侧机器学习过滤", "text": "通知滤盒加入纯手机端运行的机器学习过滤。V2EX 发布帖浏览量超过 1.8 万。"},
+     {"when": "2025–2026", "title": "Clip Cloud 上 iOS，AndroMeld 上 Mac", "text": "Clip Cloud iOS 版 2025 年 11 月上架；AndroMeld 2026 年 5 月上架 Mac App Store，10 月发布 2.0；8 月开源配套的自建 WebRTC 中继 webrtc_turn。"}
+    ]},
+    {"p": "回看这条路，TA 是典型的<strong>自学成材型开发者</strong>：先给自己的博客写主题，再给自己用的服务写客户端，再给自己的手机写工具。几乎每个作品都从「我自己受不了」开始。"}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "AndroMeld",
-       "meta": "macOS 15+ · Android 14+",
-       "text": "让 Android 和 Mac 合二为一：多窗口运行手机 App、拖拽传文件、Mac 上接打电话，支持 USB / Wi-Fi / 远程三种连接。",
-       "url": "https://andromeld.catchingnow.com"
-      },
-      {
-       "name": "冰箱 Ice Box",
-       "meta": "Android · 600 万+ 下载",
-       "text": "一键冻结应用，节省电量与流量。「The Original」——这个品类的开创者之一。",
-       "url": "https://www.catchingnow.cn/"
-      },
-      {
-       "name": "通知滤盒 FilterBox",
-       "meta": "Android · 通知管理",
-       "text": "离线 AI 过滤、通知历史、自定义规则与隐私锁，把杂乱的通知栏收拾干净。",
-       "url": "https://www.catchingnow.cn/"
-      },
-      {
-       "name": "Clip Cloud（剪纸）",
-       "meta": "Android · iOS · Chrome",
-       "text": "简单的跨平台剪贴板同步，端到端加密、不落服务器、本地无限历史。",
-       "url": "https://www.catchingnow.cn/"
-      }
+    {"work": {
+     "name": "AndroMeld", "url": "https://andromeld.catchingnow.com",
+     "meta": ["2026", "macOS 15+ / Android 14+", "Mac App Store · Google Play · 网页版"],
+     "paras": [
+      "官网大标题是「Start on your phone. Keep going on Mac.」它想做的是 Android 世界里缺了很久的那块「连续互通」，而且不挑手机品牌。功能按三层展开："
+     ],
+     "bullets": [
+      "<strong>手机 App 独立成窗：</strong>每个 App 一个窗口，可以调整大小、并排摆放；能从手机 App 直接拖文件到 Mac。",
+      "<strong>文件进 Finder：</strong>手机相册、文档、存储卡都能在 Finder 里浏览，用熟悉的快捷键复制、移动、重命名。",
+      "<strong>电话与通知：</strong>在 Mac 上拨打、接听、静音；短信通知进入 Mac 通知中心，验证码可以直接从通知里复制。",
+      "<strong>剪贴板互通与接力：</strong>手机上复制，Mac 上粘贴；手机上没读完的内容在 Mac 上接着看。",
+      "<strong>三种连接：</strong>USB（延迟更低，适合游戏和大文件）、Wi-Fi（回家打开 Mac 自动连上）、远程点对点（出门忘带备用机，也能远程取验证码）。",
+      "<strong>MCP 控制：</strong>让 Codex、Claude Code、Cursor 等 AI 客户端完全控制手机，可以随时查看操作日志、随时停止。"
+     ],
+     "facts": [["Mac App Store 上架", "2026-05-07"], ["当前版本", "2.0.0（2026-10）"], ["官网语言", "7 种"], ["配套开源", "webrtc_turn ★134"]]
+    }},
+    {"work": {
+     "name": "冰箱 Ice Box", "url": "https://play.google.com/store/apps/details?id=com.catchingnow.icebox",
+     "meta": ["2017 起", "Android", "Root / 免 Root"],
+     "paras": [
+      "把不常用的应用「冻起来」：被冻结的 App 无法在后台运行，也就不会偷偷耗电、耗流量、弹广告，需要时再一键解冻。官网自称「The Original」，它是国内这个品类最早、也最知名的工具之一。",
+      "技术上的难点在于权限：冻结应用需要系统级能力。冰箱同时支持 Root 模式和免 Root 模式（借助「无线调试」或设备管理员），还为此写了 Mac / Linux 一键激活脚本和在线文档，并提供 SDK 让其他 App 调用冻结能力。"
+     ],
+     "facts": [["Google Play 下载", "500 万+"], ["评价", "3.6 分（1.26 万条）"], ["最近更新", "2026-08-30"], ["开源周边", "文档 ★647 · SDK ★106"]]
+    }},
+    {"work": {
+     "name": "通知滤盒 FilterBox", "url": "https://play.google.com/store/apps/details?id=com.catchingnow.np",
+     "meta": ["2020 起", "Android", "端侧机器学习"],
+     "paras": [
+      "一个综合通知管理器：通知历史时间线（可以找回误删的通知）、自定义规则（静音、语音朗读、提取验证码、隐藏敏感内容）、数据统计与导出、面容 / 指纹锁和多套主题。",
+      "2023 年加入的<strong>机器学习过滤</strong>是它最有意思的一步。模型用网友贡献的通知样本训练，针对简体中文互联网的营销短信和 App 推送开箱即用；更特别的是支持<strong>设备端学习</strong>：TA 举的例子是，默认不过滤应用商店的更新提示，但只要你在通知历史里点两三次「是骚扰通知」，它就学会了。所有机器学习功能都在手机上运行，分享数据的选项默认关闭。"
+     ],
+     "facts": [["Google Play 下载", "10 万+"], ["评价", "4.1 分（3,330 条）"], ["最近更新", "2026-10-01"]]
+    }},
+    {"work": {
+     "name": "Clip Cloud（剪纸）", "url": "https://www.catchingnow.cn/",
+     "meta": ["Android · iOS · Chrome", "剪贴板同步"],
+     "paras": [
+      "从 2015 年的 Clip Stack 一路演化而来。在 Android、iOS 和 Chrome（因此覆盖 PC / Mac / Linux）之间同步剪贴板：AES 加密加 HTTPS 传输，经由 Google FCM 推送，服务器不保存数据，本地保留无限历史。"
+     ],
+     "facts": [["Google Play 下载", "1 万+"], ["iOS 上架", "2025-11-26"]]
+    }},
+    {"h3": "一个关于开源的教训"},
+    {"p": "Clip Stack 现在的 README 只有一句「Deprecated」和一段解释。TA 写道，这是自己学 Android 时的第一个作品，出于对开源社区的信任和感激选择了开源；但出名之后，「开源窃贼」源源不断：改个包名、加上广告就上架 Google Play 赚钱，举报也没用。后来甚至有人通过邮件、评论试图索要同步部分的代码。"},
+    {"callout": "这段经历解释了为什么 TA 后来的核心产品都没有开源，而是选择开源文档、SDK、激活脚本和规则这些「周边」。既保护了产品，也照顾了需要它们的用户和开发者。", "t": "开源的边界"}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub 账号 heruoxin 注册于 2012 年，个人主页链接到早年的博客 1ittlecup.com。仓库不多（31 个），但几乎每个都很「Android 工程师」：要么是给自己产品用的基础设施，要么是踩坑后的经验沉淀。"},
+    {"table": {
+     "cols": ["仓库", "★", "时间", "做什么"],
+     "rows": [
+      ["Clip-Stack", "915", "2014", "第一个 Android App，现已停止维护"],
+      ["Ice-Box-Docs", "647", "2017", "冰箱的在线文档"],
+      ["proguard-elder-dictionary", "244", "2016", "「一份饱含敬意的 proguard 字典」：用混淆字典开了个程序员玩笑"],
+      ["Delegated-Scopes-Manager", "162", "2019", "在一台设备上共享设备管理员权限"],
+      ["webrtc_turn", "134", "2026", "AndroMeld 的自建中继：一键部署 Cloudflare Worker 或 coturn Docker"],
+      ["IceBox-SDK", "106", "2018", "让其他 App 调用冰箱的冻结能力"],
+      ["Robfuscate", "63", "2019", "混淆 dex 中 R.id / R.string 等资源索引"],
+      ["hexo-persona-color", "50", "2014", "自己博客的 Hexo 主题"]
      ]
-    }
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站与线上形象",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://andromeld.catchingnow.com",
-      "paras": [
-       "AndroMeld 的官网是 TA 目前最用心的一张名片：大标题「Start on your phone. Keep going on Mac.」，下面按「手机 App / 拖拽 / 通话与通知」三段编号展开，再讲 USB、Wi-Fi、远程三种连接方式。",
-       "整站提供英、简中、繁中、日、德、法、西七种语言，Mac App Store、Google Play 和网页版三个入口并列。"
-      ]
-     }
-    },
-    {
-     "p": "Catching Now 的工作室主页则极度克制：三款 App、各四条要点、一个下载按钮。这种「一屏讲清楚」的写法，和 TA 做系统工具的思路一致：功能要硬，界面要少。"
-    }
+    {"site": {"url": "https://andromeld.catchingnow.com", "paras": [
+     "AndroMeld 官网是 TA 目前最用心的一张名片：大标题之后，按「01 手机 App / 02 拖拽 / 03 电话与通知」三段编号展开，再用一整块讲 USB、Wi-Fi、远程三种连接方式各自适合什么场景。",
+     "下载入口同时放 Mac App Store、Google Play 和「也可以在浏览器里用」，并写明系统要求（macOS 15+、Android 14+）。整站提供英、简中、繁中、日、德、法、西七种语言，托管在 Cloudflare。"
+    ]}},
+    {"table": {
+     "cols": ["站点", "定位", "特点"],
+     "rows": [
+      ["andromeld.catchingnow.com", "单品官网", "编号分段讲功能；按场景解释连接方式；7 种语言"],
+      ["catchingnow.cn", "工作室作品集", "三款 App，每款四条要点和下载按钮，一屏讲完"],
+      ["1ittlecup.com", "早年个人博客（2014–2015）", "Hexo + 自制 Persona Color 主题；记录第一个 App、Node 训练营、折腾 Nexus 与 OpenWrt"]
+     ]
+    }},
+    {"h3": "早年博客里的几篇"},
+    {"posts": [
+     {"date": "2015-02-04", "title": "我的第一个 Android App - Clipping Stack", "url": "https://www.1ittlecup.com/2015/02/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAAndroid%20App%20-%20Clipping%20Stack/"},
+     {"date": "2015-01-12", "title": "2014 年终总结", "url": "https://www.1ittlecup.com/2015/01/12/2014%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/", "note": "第一次写前端、参加 Node 训练营、开始健身的一年。"},
+     {"date": "2014-11-16", "title": "解决 Nexus 系列 Android 5.0 Lollipop 连接 Wifi 的感叹号问题", "url": "https://www.1ittlecup.com/"},
+     {"date": "2014-10-26", "title": "Pushbullet-NW：一个 Pushbullet 的 OS X 客户端", "url": "https://www.1ittlecup.com/"}
+    ]}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "TA 怎么介绍自己的作品",
    "blocks": [
-    {
-     "p": "Android 系统工具常常给人「功能强、颜值低」的印象，1ittlecup 的作品是少见的例外。通知滤盒在宣传时就把「好看」和「好用」放在同一句话里；冰箱则把一个需要 ADB、Root 等专业知识的操作，包装成一次点击。"
-    },
-    {
-     "p": "另一个特点是<strong>隐私优先</strong>：剪贴板同步不落服务器，通知过滤在端侧完成，AndroMeld 的 MCP 控制可以随时查看日志、随时中断。对一个系统级工具来说，这些设计决定了用户敢不敢把权限交出去。"
-    },
-    {
-     "quote": "独立开发者，力量举入门菜鸟，困在岸上的邮轮迷。",
-     "cite": "1ittlecup 的 X 简介"
-    }
+    {"quote": "可能是 Android 上最好看并且好用的通知管理器。", "cite": "1ittlecup 在 V2EX 发布通知滤盒时"},
+    {"quote": "无论通知过滤还是个性化学习，所有机器学习相关的功能都是完全运行在手机上的。", "cite": "V2EX《通知滤盒 FilterBox 新功能：纯 Android 端的机器学习过滤》，2023"},
+    {"p": "TA 的发布帖有固定的写法：先一句话说清是什么，再用截图展示新功能，然后讲隐私，最后给国内（酷安）和国外（Google Play）两个下载入口，并附上兑换码送给读者。朴素，但每一段都在回答用户真正关心的问题。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["技术", "对 Android 权限体系、后台机制理解很深，能把 Root / ADB 能力产品化", "系统工具高度依赖厂商定制和 Google 政策，兼容性维护成本高"],
+      ["隐私", "不落服务器、端侧学习、日志可审计，赢得用户信任", "端侧方案受手机性能和存储限制"],
+      ["产品", "单品寿命长：冰箱和通知滤盒都维护了 6 年以上", "冰箱在 Google Play 的评分为 3.6，系统工具类产品常因机型差异收到差评"],
+      ["方向", "AndroMeld 把多年 Android 经验带到「跨设备 + AI 控制」的新场景", "AndroMeld 刚上架不久，App Store 评价还很少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>深耕一个平台的「脏活」：</strong>后台、通知、剪贴板，越是系统底层的痛点，越有长期价值。",
-      "<strong>把专业操作产品化：</strong>Root、ADB、无线调试这些门槛，被 TA 做成了普通人能用的开关。",
-      "<strong>隐私就是体验：</strong>不上传、可审计、可撤销，是工具类产品赢得信任的方式。",
-      "<strong>老兵也要换赛道：</strong>从 Android 工具走到 Android × Mac 互联，再接上 MCP，让多年积累找到新的出口。"
-     ]
-    }
+    {"checklist": [
+     "<strong>深耕平台的「脏活」：</strong>后台、通知、剪贴板，越是系统底层的痛点，越有长期价值。",
+     "<strong>把专业操作产品化：</strong>Root、ADB、无线调试这些门槛，被做成了普通人能用的开关。",
+     "<strong>隐私就是体验：</strong>不上传、可审计、可撤销，是工具类产品赢得信任的方式。",
+     "<strong>想清楚开源的边界：</strong>核心产品闭源，文档、SDK、脚本和规则开源。",
+     "<strong>老兵换赛道：</strong>从 Android 工具走到 Android × Mac 互联，再接上 MCP，让多年积累找到新出口。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "AndroMeld 官网", "url": "https://andromeld.catchingnow.com", "why": "如果你同时用 Android 和 Mac，直接试；如果不用，也值得学它如何按场景讲清三种连接方式。"},
+     {"name": "V2EX：通知滤盒端侧机器学习", "url": "https://www.v2ex.com/t/923401", "why": "一篇写得很好的独立开发者发布帖：功能、例子、隐私、下载、送码，一气呵成。"},
+     {"name": "Clip-Stack 的 README", "url": "https://github.com/heruoxin/Clip-Stack", "why": "读一读一位开发者为什么停止维护自己的第一个开源项目。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你同时用 Android 和 Mac，AndroMeld 值得试一试。",
+ "cta": "如果你用 Android 和 Mac，装一个 AndroMeld 试试。",
  "sources": [
-  {
-   "label": "1ittlecup 的 X 个人资料",
-   "url": "https://x.com/1ittlecup"
-  },
-  {
-   "label": "AndroMeld 官网",
-   "url": "https://andromeld.catchingnow.com"
-  },
-  {
-   "label": "Catching Now 工作室主页",
-   "url": "https://www.catchingnow.cn/"
-  },
-  {
-   "label": "V2EX：通知滤盒 FilterBox 发布帖",
-   "url": "https://cn.v2ex.com/t/660227?p=3"
-  },
-  {
-   "label": "V2EX：通知滤盒端侧机器学习过滤",
-   "url": "https://www.v2ex.com/t/923401"
-  },
-  {
-   "label": "少数派：冰箱 IceBox 介绍",
-   "url": "https://sspai.com/post/47086"
-  }
+  {"label": "1ittlecup 的 X 个人资料", "url": "https://x.com/1ittlecup"},
+  {"label": "AndroMeld 官网", "url": "https://andromeld.catchingnow.com"},
+  {"label": "Catching Now 工作室主页", "url": "https://www.catchingnow.cn/"},
+  {"label": "GitHub：heruoxin", "url": "https://github.com/heruoxin"},
+  {"label": "GitHub：Clip-Stack README", "url": "https://github.com/heruoxin/Clip-Stack"},
+  {"label": "Google Play：Ice Box", "url": "https://play.google.com/store/apps/details?id=com.catchingnow.icebox"},
+  {"label": "Google Play：FilterBox", "url": "https://play.google.com/store/apps/details?id=com.catchingnow.np"},
+  {"label": "Google Play：Clip Cloud", "url": "https://play.google.com/store/apps/details?id=com.catchingnow.clipsync"},
+  {"label": "App Store：AndroMeld", "url": "https://apps.apple.com/us/app/andromeld-manager-for-android/id6762439757"},
+  {"label": "V2EX：通知滤盒端侧机器学习过滤（2023）", "url": "https://www.v2ex.com/t/923401"},
+  {"label": "V2EX：通知滤盒 FilterBox 发布帖", "url": "https://cn.v2ex.com/t/660227?p=3"},
+  {"label": "少数派：冰箱 IceBox 介绍（2018）", "url": "https://sspai.com/post/47086"},
+  {"label": "1ittlecup.com：2014 年终总结", "url": "https://www.1ittlecup.com/2015/01/12/2014%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"}
  ]
 }

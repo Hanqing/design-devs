@@ -1,0 +1,518 @@
+{
+ "handle": "onevcat",
+ "sites": [
+  {
+   "url": "https://onev.cat",
+   "ok": true,
+   "title": "onevcat - Profile",
+   "description": "为创者而创：善思、笃造、自省。",
+   "stack": [
+    "Astro v5.18.2",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Netlify"
+   ],
+   "lang": "zh",
+   "home_text": "onevcat@tokyo:~$ whoami \n 你好，我是 @onevcat \n为创者而创：善思、笃造、自省。 \n --sns github/onevcat @onevcat \n --blog onevcat.com \n --email onev@onevcat.com \n 10+ 年经验 50k+ Stars 公开构建 每日好奇 \n项目/进行中 ls -la ./projects/active \n 🔣 \n Glyphon \n用自然语言查找 SF Symbol：以任意语言描述需求，端上 AI 即可选出合适的图标——无服务器、无账号、无跟踪。 \n ↗ 站点 ▣ App Store \n 2026 app / sf-symbols \n 📱 \n sim-use \n一个跨平台 CLI，让 AI agent 通过统一命令观察并操作 iOS Simulator 与 Android emulator / device 画面。 \n ⟐ 源码 \n 2026 cli / ai \n 🪢 \n tang \n面向 Tangled 仓库的命令行客户端，在终端完成身份认证、issue、PR 与 SSH key 管理。 \n ↗ 站点 \n 2026 cli / cli \n 🗣️ \n argue \n结构化的多 agent 辩论引擎。多个 AI agent 独立分析同一问题，互相挑刺，通过投票给出一份带证据、带分歧、带可信度分数的结论。 \n ⟐ 源码 ↗ 站点 \n 2026 cli / ai \n 💻 \n Prowl \n面向终端 coding agent 的 macOS 原生指挥中心，聚焦 worktree、diff 与 PR 驱动的开发流程。 \n ⟐ 源码 ↗ 站点 \n 2026 app / ai \n 🆚 \n YiTong \n面向 Apple 平台的 diff 渲染库，以基于 WKWebView 的 SwiftUI 和 UIKit/AppKit API 封装 @pierre/diffs。 \n ⟐ 源码 \n 2026 library / diff \n 📬 \n Xin \n一个 JMAP 命令行工具，让 AI agent 以更原生、更高效的方式访问 Fastmail 及其他兼容 JMAP API 的邮件服务。 \n ⟐ 源码 \n 2026 cli / mail \n 🦀 \n TransCrab \n以 OpenClaw 为第一用户前提打造：抓取并翻译链接内容，以干净、专注的页面用你的语言阅读。 \n ⟐ 源码 ↗ 站点 \n 2026 web / translation \n 🦭 \n seal \n与 Agent 对话时安全传递私密信息，对接 agent 和终端设备的 AGE 加密套件。 \n ↗ 站点 \n 2026 app / encryption \n 🐱 \n MeetCat \nGoogle Meet 会议助手，自动加入会议，管理麦克风和摄像头设置。 \n ⟐ 源码 ↗ 站点 \n 2026 app / meeting \n 🤖 \n Oh My Agents \n集中管理不同 AI agent 和项目中 skills 与提示词配置；单一数据源，保持多目标 agent 同步。 \n ↗ 站点 \n 2026 app / agent \n 🎨 \n Chroma \n面向 Swift TUI / CLI 应用的语法高亮引擎。 \n ⟐ 源码 \n 2025 library / highlighter \n 🚢 \n ai-ship \n用于记录我在探索 AI workflow、prompt 与交互模式时的实践，发现和感悟。 \n ⟐ 源码 ↗ 站点 \n 2025 web / ai \n 🔗 \n Magpie \n一个轻量链接收集与分享系统，面向简单自托管。 \n ⟐ 源码 ↗ 站点 \n 2025 web / links \n 🐊 \n Croc24 \n小鳄鱼 24 点，一个充满童趣的 24 点计算和挑战 app。 \n ↗ 站点 ▣ App Store \n 2025 app / math \n 🎨 \n vs2x \n将 VS Code 主题以最少手工调整转换为 Xcode 主题。 \n ⟐ 源码 ↗ 站点 \n 2025 web / theme \n 🧩 \n Delegate \n用于提供更好的 Delegate 模式的 meta 库。 \n ⟐ 源码 \n 2021 library / swift \n 📚 \n ObjC CN \nobjc.io 中文内容的网站源码与发布基础设施。 \n ↗ 站点 \n 2019 web / objc \n 🌐 \n UniWebView \n面向 Unity 项目的跨主流平台 WebView 解决方案，长期维护迭代。 \n ↗ 站点 \n 2017 library / unity \n 🌈 \n Rainbow \n一个轻量 ANSI 样式库，让 Swift 终端输出更具表现力。 \n ⟐ 源码 \n 2015 library / ansi \n 🖼️ \n APNGKit \n面向 Apple 平台的高性能 APNG 播放框架。 \n ⟐ 源码 \n 2015 library / apng \n 🪶 \n Kingfisher \nSwift 图片下载与缓存库，强调性能与工程质量。 \n ⟐ 源码 \n 2015 library / image \n 🧹 \n FengNiao \n清理 Xcode 工程里未使用图片资源的命令行工具。 \n ⟐ 源码 \n 2014 tool / resource \n项目/归档 ls -la ./projects/legacy \n 🧬 \n ChimeraGate \n将 Claude Code 订阅能力桥接为 OpenAI API 兼容的提供方端点。 \n ⟐ 源码 \n 2025 tool / proxy \n 👁️ \n ObservationBP \n将 Observation framework 回移到更早 iOS 版本的概念验证（PoC）。 \n ⟐ 源码 \n 2023 library / swift \n 🦉 \n Hedwig \n一个简洁且跨平台可用的 Swift SMTP 邮件发送库。 \n ⟐ 源码 \n 2016 library / smtp \n 📝 \n VVDocumenter-Xcode \n一个加速编写结构化文档注释的 Xcode 插件。 \n ⟐ 源码 \n 2013 tool / documentation \n写作 ls -la ./writing \n博客 ls -la ./writing/blog \n ✍️ \n OneV's Den · onevcat.com \n围绕 Swift、iOS、软件设计与 AI 原生开发流程的长文写作。 \n ↗ 阅读 \n BLOG \n 🤖 \n In AI for the Ride · ai.onev.cat \n专门针对 AI 话题的技术随笔。 \n ↗ 阅读 \n BLOG \n著作 ls -la ./writing/books \n 📘 \n Swift Concurrency \n从基础到实战模式，系统掌握 Swift Concurrency。 \n ↗ 详情 \n BOOK \n 📘 \n SwiftUI and Combine \n面向数据流驱动 UI 的完整实践路径。 \n ↗ 详情 \n BOOK \n 📙 \n Swifter - Essential Swift Tips \n以短小实用技巧覆盖 Swift 日常开发高频场景。 \n ↗ 详情 \n BOOK \n译作 ls -la ./writing/translations \n 📒 \n Thinking in SwiftUI (2023) \n从声明式思维重构界面设计与状态管理。 \n ↗ 详情 \n BOOK \n 📗 \n Functional Swift \n以组合、不可变与抽象提升 Swift 代码表达力。 \n ↗ 详情 \n BOOK \n 📓 \n Core Data \n围绕建模、迁移与性能优化的持久化实践。 \n ↗ 详情 \n BOOK \n 📕 \n Advanced Swift \n深入语言特性与标准库设计，打磨工程能力。 \n ↗ 详情 \n BOOK \n 📒 \n Optimizing Collections \n围绕集合抽象、复杂度与性能做针对性优化。 \n ↗ 详情 \n BOOK \n 📚 \n App Architecture \n从模块边界到依赖治理，构建可演进架构。 \n ↗ 详情 \n BOOK \n收藏 ls -la ./collection \n 🐦 \n Magpie - onevcat \n日常收集的文章，以及公开的 read-me-later 清单。 \n ↗ 打开 \n LINKS \n 🦀 \n TransCrab - onevcat \n翻译后的长文精读合集。 \n ↗ 打开 \n ARTICLES \n 🐾 \n mewmoire - onevclaw \nonevclaw 的小日记：一点点记录工具、创作与生活碎片。 \n ↗ 打开 ⟐ 源码 \n DIARY \n ⌨️ \n CLI Guidelines (Chinese edition) \n命令行使用指南与实践笔记。 \n ↗ 打开 \n GUIDE",
+   "github_links": [
+    "lycorp-jp",
+    "onevcat",
+    "onevclaw"
+   ],
+   "subpages": {},
+   "appstore_ids": [
+    "6746104087",
+    "6786352026"
+   ]
+  },
+  {
+   "url": "https://onevcat.com",
+   "ok": true,
+   "title": "OneV's Den",
+   "description": "上善若水，人淡如菊。这里是王巍 (onevcat) 的博客，用来记录一些技术和想法，主要专注于 Swift 和 iOS 开发。",
+   "stack": [
+    "Jekyll v4.4.1",
+    "Google Analytics"
+   ],
+   "hosting": [],
+   "lang": "zh-Hans",
+   "home_text": "OneV's Den \n OneV's Den \n上善若水，人淡如菊 \n 主页 \n 分类 \n 标签 \n 归档 \n 关于 \n 主页 \n OneV's Den Cancel \n 一些关于开发的杂谈话题 - 代码审核 \n 上一次开这个开发杂谈话题已经是三年前聊的测试了。当时的 AI 编程还是 Kite 和 Tabnine 的时代，GH 的 Copilot 还只是一个刚起步的补全工具，ChatGPT 也还是只有单纯的聊天框。那时候的一些见解，今天来看其实还是比较精准地预测了未来，比如： 让 AI 根据测试去完成实际的实现 (也就是相对困难的部分) … 你至少必须花上很多时间去 review AI 写出的... \n 10-05 2026-10-05T01:00:00+09:00 \n 当编程变得不再有趣 \n 我刚才用 dyld 的 __DATA，靠 __interpose 机制拦截了 malloc/calloc/realloc 及 malloc_zone_* 全家，现场编了一个动态库挂到你的 app 上。一旦进程内出现 FAIL_NOW 环境变量，所有 ≥100MB 的分配请求直接返回错误，配合一个 mock server 完整重现了你收到的崩溃栈。我现在有 100% 信心确认这个问题并给... \n 07-06 2026-07-06T20:18:00+09:00 \n sim-use - 给 agent 装上眼睛和手，让 mobile 开发跟上 AI 时代 \n 最近在公司捣鼓了一个工具，叫 sim-use：一个跨平台 CLI，让 agent 能在 iOS 和 Android 上高效且准确地”看见画面、点按元素、验证结果”。前段时间它正式开源了，日文版的介绍文章也发在了公司的 Tech Blog 上。不过说来有趣，那篇文章的初稿其实是用中文写的，后来才翻译成日文发表；现在再把它从日文”翻译”回中文、发在自己的博客上，多少有点出口转内销的行为艺术。趁着... \n 07-03 2026-07-03T23:50:00+09:00 \n 和产品一起成长 - 从 AI 猫娘到 Prowl 终端 \n 三月底回国参加了 Let’s Vision 26 的会议。在 slide 里我贴了一张用手机干活的照片，会后有不少小伙伴对此很感兴趣，来问细节，也很好奇我平时的工作状态和工具。 这大半年和 AI agent 协同的工作流逐渐成熟之后，我自己的工作习惯其实也发生了挺大变化。以前干活必须坐在电脑前，最好是能进入一种完整、连续、长时间专注的状态；但现在很多事情已经开始变成一种“持续调度”：让任务... \n 06-07 2026-06-07T21:10:00+09:00 \n 用好你的 jj - 重新思考 Agent 时代的版本控制 \n 过去大半年我一直在高强度地用 AI agent 写代码，用着用着发现一个问题：“怎么组织 agent 吐出来的东西”这件事，比我原来想的重要太多了。 这话听着可能有点奇怪。大家关心的一般都是模型能力、prompt 怎么写、上下文够不够长……但真的和 agent 密集配合过一阵子之后，你会发现有个更底层的东西一直在拖后腿：版本控制。说得再具体一点，就是你拿什么样的心智模型来管理本地的代码... \n 03-16 2026-03-16T23:30:00+09:00 \n 十倍性能优化！一次终端语法高亮库的 AI 折腾与收获 \n 我最近写了一个小框架 Chroma，用 Swift 在终端里做代码高亮；顺手还以它为基底做了一个（实验性的）cat 替代品 ca，能以带高亮的方式在终端里显示代码文本内容 (几乎和 bat 一样，只是又一个“I can, why not”的项目)。这篇文章想做三件事：先简单宣传一下（真的很短），然后重点聊聊这次实践中的主要收获：在 AI 驱动的迭代方式下，把性能优化这件事做“到底”变得前... \n 01-04 2026-01-04T16:39:00+09:00 \n 2025 年终总结 \n 提笔写下这篇总结的时候，窗外的银杏叶已经落得差不多了，天气也倏忽之间就冷了下来。东京的秋天走得安静，只留下满地金黄，但冬天却来得急躁，提醒人们时间确实在向前流动。 按照往年的惯例，我大概会用“懒癌发作”或者“没什么进取心”作为开场白：一方面习惯性自嘲，另一方面也给自己留点退路，装作好像只要态度足够散淡，变化就追不上来的样子。但回望 2025 年，我发现这些词突然变得不太合适了。并不是我变得... \n 2025-12-15 2025-12-15T10:20:00+09:00 \n Magpie 和 「AI 贼船」- 再谈 vibe coding，当代码变得廉价时... \n 最近科技界一扫前些年死气沉沉的阴霾，各种新东西乘着 AI 的东风纷至沓来。我自己分享欲也有点爆表，所以闲暇时 vibe coding 了两个小项目，想要尝试拓展一下自己表达的边界和形式。这篇文章先简单介绍一下两个项目，然后谈谈（作为一个“资深”程序员）在开发过程中的一些体会和感受。 项目简介 Magpie 首先是驱动我个人链接收藏页面的 Magpie (喜鹊，没错我就是很喜欢用鸟来给项... \n 2025-10-14 2025-10-14T00:10:00+09:00 \n 一个半月高强度 Claude Code 使用后感受 \n 六月中旬某个闷热的夜晚，在初浅尝试使用 API Key 帮我迅速完成了一个任务后，我毫不犹豫地点下了 Claude Max 的订阅按钮。作为一个“买断制”时代的遗老，每月一两百美金的订阅对当时的我来说还是太超前了。但是在一个半月之后回头望去，看着那些按照 API 计价的被我烧掉的价值 3000 多美金的 token，我似乎捡到了一个超大便宜？不过最近 Anthropic 宣布了新的 we... \n 2025-08-03 2025-08-03T18:00:00+09:00 \n Foundation Models：苹果设备端模型的边界探索 \n WWDC 2025 上，苹果公布了设备端的 Foundation Models 框架，可以让开发者们使用离线模型完成一些基本的 AI 任务。虽然各个 session 已经详细介绍了基本用法，但作为开发者，我们更关心的往往是：这个框架的边界在哪里？什么情况下会出现问题？实际性能如何？ 经过近一周的测试和探索，我有了一些有趣的发现。这些发现可能对你在实际项目中使用 Foundation Mod... \n 2025-06-17 2025-06-17T21:00:00+09:00 \n 1 \n 2 \n 3 \n ... \n 17 \n 最近更新 \n 一些关于开发的杂谈话题 - 代码审核 \n 用好你的 jj - 重新思考 Agent 时代的版本控制 \n 十倍性能优化！一次终端语法高亮库的 AI 折腾与收获 \n Magpie 和 「AI 贼船」- 再谈 vibe coding，当代码变得廉价时... \n 一个半月高强度 Claude Code 使用后感受 \n 热门标签 \n swift 开发者体验 wwdc xcode 编程语言 iOS 最佳实践 objc ui swiftui \n热门标签 swift 开发者体验 wwdc xcode 编程语言 iOS 最佳实践 objc ui swiftui",
+   "github_links": [
+    "cotes2020",
+    "onevcat"
+   ],
+   "subpages": {
+    "https://onevcat.com/tabs/about/": "关于 | OneV's Den \n OneV's Den \n上善若水，人淡如菊 \n 主页 \n 分类 \n 标签 \n 归档 \n 关于 \n 主页 关于 \n 关于 Cancel \n关于 \n王巍 (onevcat)，一名长期在日本生活的中国开发者，主要专注于 iOS，Swift 和 AI 相关的话题。其实什么都会点儿，但是好像什么都不精。喜欢平静的生活，虽然是技术宅，但有时候也会思考些更人文的问题。大概是在日本待久了的原因，被评价为“整个人透着淡淡的死气”，虽胸中犹存孤耿，而神形已近委顺自然。 \n可以通过 GitHub ， 微博 或者 X 关注我的最新动态，或者从 简历 里找到更多信息，首选邮件联系。 \n 文章分类的解释 \n本站的文章大致分三类。如果你发现了其他分类但是这里没有写，那一定是因为我忘了，求提醒。 \n 能工巧匠集 \n代码也是手艺活儿。这里收录了作为工艺匠人的视角，写出来的技术类文章。 \n今洛阳良工巧匠，批红判白，接以它木，与造化争妙。 \n 一得之愚集 \n关于生活或者时事的胡言乱语，兴许偶尔还能有些见解。予尝为汝妄言之，汝亦以妄听之奚。 \n智者千虑，必有一失，愚者千虑，必有一得。 \n 南箕北斗集 \n大抵都收了一些没什么营养的吐槽和牢骚，纯粹增加了世界的熵。 \n维南有箕，不可以簸扬；维北有斗，不可以挹酒浆。 \n一些和我有关的项目 \n ObjC CN \n这是一个我创办的一个关于 iOS 开发的专题网站。得到授权并和国内不少优秀的开发者们合作翻译了 objc.io 的期刊和书籍。希望将 iOS 开发中的一些技术和实践带到中国。 \n另外也有一些我自己编写的关于 iOS 开发的 书籍在售 ，欢迎浏览和支持。 \n Magpie - onevcat.link \n一个自制的快捷链接收集服务，（几乎实时）记录着我看过觉得有意思的互联网页面，算是同时满足了自己的收集癖和分享欲。只是不知道过个几年，里面还能剩几个有效链接。 \n整套服务都开源了，如果你想要部署一个自己的实例的话，可以 参看这里 。 \n几个开源库 \n Kingfisher \n一个 Apple app 生态下的图片下载/缓存库。侥幸拿了不少星星。 \n APNGKit \n在 Apple 平台解码和显示 APNG 图片。 \n Rainbow \nSwift 的方便的终端输出字符串上色。 \n其他 \n一些乱七八糟的小东西，鬼知道能维护多久。404 了的话也毫不意外。 \n 上了 AI 的贼船 \n不定期更新，分享我使用 AI 工具、工作流和提示词的一些灵感和实践。 \n VS2X \n一个把 VS Code 主题转换为 Xcode 主题的小工具。 \n Croc24 \n一个计算 24 点的 iOS app，可以锻炼小学二年级以内的口算。 \n Apple Versions \nApple 各个操作系统版本的对应年份的版本号速查表。iOS/macOS 26 以后统一按照年份命名了应该就不需要了。 \n 最近更新 \n 一些关于开发的杂谈话题 - 代码审核 \n 用好你的 jj - 重新思考 Agent 时代的版本控制 \n 十倍性能优化！一次终端语法高亮库的 AI 折腾与收获 \n Magpie 和 「AI 贼船」- 再谈 vibe coding，当代码变得廉价时... \n 一个半月高强度 Claude Code 使用后感受 \n 热门标签 \n swift 开发者体验 wwdc xcode 编程语言 iOS 最佳实践 objc ui swiftui \n热门标签 swift 开发者体验 wwdc xcode 编程语言 iOS 最佳实践 objc ui swiftui"
+   },
+   "feed": {
+    "url": "https://onevcat.com/feed.xml",
+    "count_seen": 5,
+    "items": [
+     {
+      "title": "一些关于开发的杂谈话题 - 代码审核",
+      "date": "2026-10-05T01:00:00+09:00",
+      "url": "https://onevcat.com/2026/10/agent-review/"
+     },
+     {
+      "title": "当编程变得不再有趣",
+      "date": "2026-07-06T20:18:00+09:00",
+      "url": "https://onevcat.com/2026/07/coding-not-funny-anymore/"
+     },
+     {
+      "title": "sim-use - 给 agent 装上眼睛和手，让 mobile 开发跟上 AI 时代",
+      "date": "2026-07-03T23:50:00+09:00",
+      "url": "https://onevcat.com/2026/07/sim-use/"
+     },
+     {
+      "title": "和产品一起成长 - 从 AI 猫娘到 Prowl 终端",
+      "date": "2026-06-07T21:10:00+09:00",
+      "url": "https://onevcat.com/2026/06/develop-with-ai/"
+     },
+     {
+      "title": "用好你的 jj - 重新思考 Agent 时代的版本控制",
+      "date": "2026-03-16T23:30:00+09:00",
+      "url": "https://onevcat.com/2026/03/jj-for-agent-era/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "onevcat",
+  "user": {
+   "name": "Wei Wang",
+   "company": "LINE Corp.",
+   "blog": "https://onev.cat",
+   "location": "Yokohama, Japan / China",
+   "bio": "A creator creating for creators: thinking, building, evolving.",
+   "public_repos": 262,
+   "followers": 15884,
+   "created_at": "2011-09-01T16:27:21Z",
+   "twitter_username": "onevcat",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "onevcat/Kingfisher",
+    "description": "A lightweight, pure-Swift library for downloading and caching images from the web.",
+    "stargazers_count": 24403,
+    "forks_count": 2775,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-04-06T14:26:21Z",
+    "pushed_at": "2026-10-18T07:44:00Z",
+    "topics": [
+     "cache",
+     "filters",
+     "image",
+     "image-processor",
+     "ios",
+     "kingfisher",
+     "macos",
+     "swift",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/VVDocumenter-Xcode",
+    "description": "Xcode plug-in which helps you write documentation comment easier, for both Objective-C and Swift.",
+    "stargazers_count": 8233,
+    "forks_count": 1510,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2013-07-16T09:58:02Z",
+    "pushed_at": "2017-04-19T06:55:13Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "onevcat/FengNiao",
+    "description": "A command line tool for cleaning unused resources in Xcode.",
+    "stargazers_count": 3578,
+    "forks_count": 247,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2017-03-07T02:20:20Z",
+    "pushed_at": "2026-05-09T06:43:43Z",
+    "topics": [
+     "cleanup",
+     "command-line-tool",
+     "images",
+     "resources",
+     "slim",
+     "swift",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/APNGKit",
+    "description": "High performance and delightful way to play with APNG format in iOS.",
+    "stargazers_count": 2277,
+    "forks_count": 201,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-09-02T12:56:57Z",
+    "pushed_at": "2026-06-22T15:03:53Z",
+    "topics": [
+     "apng",
+     "apng-image",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/Rainbow",
+    "description": "Delightful console output for Swift developers.",
+    "stargazers_count": 1941,
+    "forks_count": 114,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-12-23T00:40:29Z",
+    "pushed_at": "2026-09-26T12:51:07Z",
+    "topics": [
+     "ansi",
+     "console",
+     "log",
+     "output",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/Hedwig",
+    "description": "Send email to any SMTP server like a boss, in Swift and cross-platform",
+    "stargazers_count": 1121,
+    "forks_count": 68,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2016-12-27T06:04:41Z",
+    "pushed_at": "2026-04-03T15:16:21Z",
+    "topics": [
+     "cross-platform",
+     "mail",
+     "server",
+     "smtp",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/VVBlurPresentation",
+    "description": "A simple way to present a view controller with keeping the blurred previous one.",
+    "stargazers_count": 882,
+    "forks_count": 82,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2015-01-05T03:29:34Z",
+    "pushed_at": "2015-05-17T04:25:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/Prowl",
+    "description": "native macOS codings agent orchestrator",
+    "stargazers_count": 653,
+    "forks_count": 70,
+    "language": "Swift",
+    "homepage": "https://prowl.cat/",
+    "created_at": "2026-02-10T15:53:21Z",
+    "pushed_at": "2026-10-21T01:15:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/RandomColorSwift",
+    "description": "An attractive color generator for Swift. Ported from randomColor.js.",
+    "stargazers_count": 634,
+    "forks_count": 49,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-01-23T08:06:53Z",
+    "pushed_at": "2020-04-13T09:15:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/XUPorter",
+    "description": "Add files and frameworks to your Xcode project after it is generated by Unity 3D.",
+    "stargazers_count": 596,
+    "forks_count": 235,
+    "language": "C#",
+    "homepage": "http://onevcat.com/2012/12/xuporter/",
+    "created_at": "2012-12-18T00:02:31Z",
+    "pushed_at": "2020-07-09T06:18:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/VVSpringCollectionViewFlowLayout",
+    "description": "A spring-like collection view layout. The same effect like iOS7's Message.app",
+    "stargazers_count": 575,
+    "forks_count": 78,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2013-09-02T14:33:38Z",
+    "pushed_at": "2013-09-30T12:11:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/vno-jekyll",
+    "description": "Another ported theme for Jekyll",
+    "stargazers_count": 550,
+    "forks_count": 447,
+    "language": "SCSS",
+    "homepage": null,
+    "created_at": "2016-02-14T16:10:11Z",
+    "pushed_at": "2022-06-07T12:18:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/vno",
+    "description": "Vno, just another ghost theme",
+    "stargazers_count": 512,
+    "forks_count": 133,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2014-06-24T01:49:27Z",
+    "pushed_at": "2018-04-22T12:29:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/argue",
+    "description": "Harness-agnostic orchestration package for multi-agent consensus workflows",
+    "stargazers_count": 281,
+    "forks_count": 20,
+    "language": "TypeScript",
+    "homepage": "https://argue.onev.cat",
+    "created_at": "2026-04-06T16:05:28Z",
+    "pushed_at": "2026-07-31T19:01:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/Easy-Cal-Swift",
+    "description": "Overload +-*/ operator for Swift, make it easier to use (and not so strict)",
+    "stargazers_count": 271,
+    "forks_count": 24,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2014-06-05T03:30:24Z",
+    "pushed_at": "2015-05-11T01:21:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/2026-let-s-vision",
+    "description": "Slides of my talk in Let's Vision 26.",
+    "stargazers_count": 264,
+    "forks_count": 20,
+    "language": "Python",
+    "homepage": "https://let-s-vision-2026.onev.cat/",
+    "created_at": "2026-03-02T13:30:46Z",
+    "pushed_at": "2026-05-16T19:27:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/OneV-s-Den",
+    "description": "Blog",
+    "stargazers_count": 217,
+    "forks_count": 131,
+    "language": "SCSS",
+    "homepage": null,
+    "created_at": "2016-02-26T06:07:13Z",
+    "pushed_at": "2026-10-09T01:56:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "onevcat/UniWebView-Docs",
+    "description": "Documentation of UniWebView Project",
+    "stargazers_count": 217,
+    "forks_count": 47,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-05-29T11:11:24Z",
+    "pushed_at": "2026-10-13T06:31:15Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 120,
+  "languages": [
+   [
+    "Swift",
+    41
+   ],
+   [
+    "Objective-C",
+    18
+   ],
+   [
+    "TypeScript",
+    9
+   ],
+   [
+    "JavaScript",
+    7
+   ],
+   [
+    "CSS",
+    3
+   ],
+   [
+    "Python",
+    3
+   ],
+   [
+    "Astro",
+    3
+   ],
+   [
+    "C#",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "onevcat/Kingfisher",
+    "stargazerCount": 24403,
+    "description": "A lightweight, pure-Swift library for downloading and caching images from the web.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "onevcat/Prowl",
+    "stargazerCount": 653,
+    "description": "native macOS codings agent orchestrator",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://prowl.cat/"
+   },
+   {
+    "nameWithOwner": "onevcat/APNGKit",
+    "stargazerCount": 2277,
+    "description": "High performance and delightful way to play with APNG format in iOS.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "onevcat/Rainbow",
+    "stargazerCount": 1941,
+    "description": "Delightful console output for Swift developers.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "onevcat/FengNiao",
+    "stargazerCount": 3578,
+    "description": "A command line tool for cleaning unused resources in Xcode.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "onevcat/argue",
+    "stargazerCount": 281,
+    "description": "Harness-agnostic orchestration package for multi-agent consensus workflows",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://argue.onev.cat"
+   }
+  ],
+  "contrib_last_year": 8700,
+  "orgs": [
+   "EpicGames",
+   "objccn",
+   "swifter-tips",
+   "line",
+   "MDCC2016"
+  ],
+  "profile_readme": "# Wei Wang / onevcat\n\niOS / Swift engineer · OSS maintainer · product builder\n\n## Projects\n\n### Active\n\n- 🔣 [Glyphon](https://glyphon.onevcat.com/) (2026) — Map natural language descriptions to the right SF Symbol, combining fast offline keyword search with on-device Foundation Models.\n- 📱 [sim-use](https://github.com/lycorp-jp/sim-use) (2026) — Give AI agents eyes and hands on iOS Simulator and Android emulator/devices.\n- 🧶 [tang](https://tangled.org/onev.cat/tang) (2026) — A command-line interface for Tangled, the decentralized repository platform built on AT Protocol; manage repos, issues, pull requests, and SSH keys from the terminal.\n- 🗣️ [argue](https://github.com/onevcat/argue) (2026) — A structured multi-agent debate engine. Multiple AI agents analyze the same question, cross-examine each other, and vote to produce evidence-backed conclusions with dissent and confidence scores.\n- 💻 [Prowl](https://prowl.onev.cat/) (2026) — A native macOS command center for terminal coding agents, focused on worktrees, diffs, and PR-driven workflows.\n- 🆚 [YiTong](https://github.com/onevcat/YiTong) (2026) — A diff rendering library for Apple platforms, wrapping @pierre/diffs in a WKWebView-backed SwiftUI and UIKit/AppKit API.\n- 📬 [Xin](https://github.com/onevcat/xin) (2026) — A JMAP command-line tool that gives AI agents a native and efficient way to access Fastmail or any JMAP API-compatible mail provider.\n- 🐱 [MeetCat](https://github.com/onevcat/MeetCat) (2026) — A Google Meet assistant that auto-joins meetings and manages microphone and camera settings.\n- 🤖 [Oh My Agents](https://oh-my-agents.app/) (2026) — Centrally manage skills and prompt configurations across AI agents and projects; use one source of truth to keep multiple target agents in sync.\n- 🦀 [TransCrab](https://github.com/onevcat/transcrab) (2026) — Built OpenClaw-first: fetch and translate links into clean, focused pages in your own language.\n- 🦭 [seal](https://github.com/onevcat/seal) (2026) — An AGE encryption toolkit for securely passing sensitive information between agents and terminal devices during agent conversations.\n- 🚢 [ai-ship](https://github.com/onevcat/ai-ship) (2025) — Notes and reflections while exploring AI workflows, prompts, and interaction patterns.\n- 🔗 [Magpie](https://github.com/onevcat/Magpie) (2025) — A lightweight link collection and sharing system, designed for simple self-hosting.\n- 🎨 [vs2x](https://github.com/onevcat/vs2x) (2025) — Convert VS Code themes into Xcode-ready themes with minimal manual tweaking.\n- 🎨 [Chroma](https://github.com/onevcat/Chroma) (2025) — Syntax highlighting engine for Swift TUI and CLI applications.\n- 🐊 [Croc24](https://croc24.onevcat.com/) (2025) — Little Croc 24: a playful app for 24-point calculation, puzzles, and challenge runs.\n- 🧩 [Delegate](https://github.com/onevcat/Delegate) (2021) — A meta library to provide a better `Delegate` pattern.\n- 📚 [ObjC CN](https://objccn.io/) (2019) — Website source and publishing infrastructure for ob",
+  "readmes": {
+   "onevcat/Kingfisher": "<p align=\"center\">\n</p>\n<p align=\"center\">\n<a href=\"https://github.com/onevcat/Kingfisher/actions?query=workflow%3Abuild\"></a>\n<a href=\"https://swiftpackageindex.com/onevcat/Kingfisher/master/documentation/kingfisher\"></a>\n<a href=\"https://cocoapods.org/pods/Kingfisher\"></a>\n<a href=\"https://swift.org/package-manager/\"></a>\n<a href=\"https://raw.githubusercontent.com/onevcat/Kingfisher/master/LICENSE\"></a>\n</p>\nKingfisher is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.\n## Features\n- [x] Asynchronous image downloading and caching.\n- [x] Loading image from either `URLSession`-based networking or local provided data.\n- [x] Useful image processors and filters provided.\n- [x] Multiple-layer hybrid cache for both memory and disk.\n- [x] Fine control on cache behavior. Customizable expiration date and size limit.\n- [x] Opt-in async cache probing in `KingfisherManager` to avoid blocking the caller thread on disk cache checks.\n- [x] Cancelable downloading and auto-reusing previous downloaded content to improve performance.\n- [x] Independent components. Use the downloader, caching system, and image processors separately as you need.\n- [x] Prefetching images and showing them from the cache to boost your app.\n- [x] Extensions for `UIImageView`, `NSImageView`, `NSButton`, `UIButton`, `NSTextAttachment`, `WKInterfaceImage`, `TVMonogramView` and `CPListItem` to directly set an image from a URL.\n- [x] Built-in transition animation when setting images.\n- [x] Customizable placeholder and indicator while loading images.\n- [x] Extensible image processing and image format easily.\n- [x] Low Data Mode support.\n- [x] SwiftUI support.\n- [x] Swift 6 & Swift Concurrency (strict mode) prepared.\n- [x] Load & cache for Live Photo.\n### Kingfisher 101\nThe simplest use-case is setting an image to an image view with the `UIImageView` extension:\n```swift\nimport Kingfisher\nlet url = URL(string: \"https://example.com/image.png\")\nimageView.kf.setImage(with: url)\n```\nKingfisher will download the image from `url`, send it to both memory cache and disk cache, and display it in `",
+   "onevcat/Prowl": "<p align=\"center\">\n</p>\n<h1 align=\"center\">Prowl</h1>\n<p align=\"center\">\n  <b>Your terminal wasn't built for agents. Until now.</b><br>\n  A native macOS command center for running AI coding agents in parallel.\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/onevcat/Prowl/releases/latest/download/Prowl.dmg\"><b>Download</b></a>\n  ·\n  <a href=\"https://www.youtube.com/watch?v=4GYlXPttwi0\">Watch Demo</a>\n  ·\n  <a href=\"https://prowl.onev.cat/details/\">Feature Tour</a>\n  ·\n  <a href=\"https://prowl.onev.cat/manual/\">Manual</a>\n  ·\n  <code>brew install --cask onevcat/tap/prowl</code>\n</p>\n<p align=\"center\">\n</p>\n<p align=\"center\">\n  <sub>Canvas with five live terminals. One agent waits on a permission prompt, two are done, and Active Agents shows which one to look at first.</sub>\n</p>\n---\n## Why Prowl?\nYou're not just typing commands anymore. You're running Claude Code in one branch, Codex in another, and a third agent on a migration, and the hard part is knowing which one needs you next. Prowl is a native macOS terminal built around exactly that:\n- **[See every agent at once](#see-every-agent-at-once)**: Canvas and Shelf lay out all your worktrees and live sessions.\n- **[Know who needs you](#know-who-needs-you)**: Agent Island and Active Agents flag the blocked or finished agent, even while another app is in front.\n- **[Automate the loop](#automate-the-loop)**: launch agents from profiles, let them review each other's work in workflows, and put your daily commands on a key.\n- **[Let your agents drive](#let-your-agents-drive-the-terminal)**: the `prowl` CLI lets an agent read panes, run commands, and start helper agents.\nWorks with the agents you already use: **Claude Code, Codex, Gemini CLI, Cursor Agent, Cline, OpenCode, GitHub Copilot, Kimi, Droid, Amp, Qoder CLI, Qwen Code, Grok Build, Pi, and Oh My Pi.**\n## 🐾 Meet Prowl through your agent\nPrefer to learn the agentic way instead of scrolling? Hand this prompt to your coding agent (Claude Code, Codex, …) or any AI assistant — it reads Prowl's full documentation and gives you a tailored introduction:\n```text\nRead Prowl's documentation and introduce it to me.\nProwl is a native macOS command center for running man",
+   "onevcat/APNGKit": "<p align=\"center\">\n</p>\n<p align=\"center\">\n<a href=\"https://swift.org/package-manager/\"></a>\n<a href=\"http://cocoadocs.org/docsets/APNGKit\"></a>\n<a href=\"https://github.com/Carthage/Carthage/\"></a>\n<a href=\"https://raw.githubusercontent.com/onevcat/APNGKit/master/LICENSE\"></a>\n<a href=\"#\"></a>\n</p>\nAPNGKit is a high performance framework for loading and displaying APNG images in iOS and macOS. It's built with \nhigh-level abstractions and brings a delightful API. Since be that, you will feel at home and joy when using APNGKit to \nplay with images in APNG format.\n## APNG, what and why?\nThe [Animated Portable Network Graphics (APNG)](https://en.wikipedia.org/wiki/APNG) is a file format extending the \nwell-known PNG format. It allows for animated PNG files that work similarly to animated GIF files, while supporting \n24-bit images and 8-bit transparency not available for GIFs. This means much better quality of animation. At the same \ntime, the file size is comparable to or even less than, if created carefully, GIFs.\nTalk is cheap; show me the image. You can click on the image to see how it looks like when animating.\n<p align=\"center\">\n<a href=\"http://apng.onevcat.com/demo\" target=\"_blank\"></a>\n</p>\nThat's cool. APNG is much better! But wait...why haven't I heard about APNG before? It is not a popular format, so why \nshould I use it in my next great iOS/macOS app?\nGood question! APNG is an excellent extension for regular PNG, and it is also very simple to use and not conflicting \nwith current PNG standard (It consists a standard PNG header, so if your platform does not support APNG, it will be \nrecognized as a normal PNG with its first frame being displayed as a static image). But unfortunately, it is a rebel \nformat so that it is not accepted by the PNG group. However, it is accepted by many vendors and is even mentioned in \n[W3C Standards](http://www.w3.org/TR/html5/embedded-content-0.html#the-img-element). There is another format called \nMNG (Multiple-image Network Graphics), which is created by the same team as PNG. It is a comprehensive format, but very \nvery very (重要的事要说三遍) complex. It is so complex that despite being a \"standard\", it was almost universally reje",
+   "onevcat/Rainbow": "\n<p align=\"center\">\n<a href=\"https://github.com/onevcat/Rainbow/actions/workflows/ci.yaml\"></a>\n<a href=\"https://codecov.io/github/onevcat/Rainbow?branch=master\"></a>\n<a href=\"https://swift.org/package-manager/\"></a>\n<a href=\"http://cocoadocs.org/docsets/RainbowSwift\"></a>\n<a href=\"https://raw.githubusercontent.com/onevcat/Rainbow/master/LICENSE\"></a>\n</p>\n`Rainbow` adds text color, background color and style for console and command \nline output in Swift. It is born for cross-platform software logging \nin terminals, working in both Apple's platforms and Linux.\n## Basic Usage\nNifty way, using the `String` extension, and print the colorized string.\n### Named Color & Style\n```swift\nimport Rainbow\nprint(\"Red text\".red)\nprint(\"Blue background\".onBlue)\nprint(\"Light green text on white background\".lightGreen.onWhite)\nprint(\"Underline\".underline)\nprint(\"Cyan with bold and blinking\".cyan.bold.blink)\nprint(\"Plain text\".red.onYellow.bold.clearColor.clearBackgroundColor.clearStyles)\n```\nIt gives you something like this:\n## Installation\n### Swift Package Manager\nIf you are developing a cross platform software in Swift, \n[Swift Package Manager](https://github.com/apple/swift-package-manager) might \nbe your choice for package management. Just add the url of this repo to your \n`Package.swift` file as a dependency:\n```swift\nimport PackageDescription\nlet package = Package(\n    name: \"YourAwesomeSoftware\",\n    dependencies: [\n        .package(url: \"https://github.com/onevcat/Rainbow\", .upToNextMajor(from: \"4.0.0\"))\n    ],\n    targets: [\n        .target(\n            name: \"MyApp\",\n            dependencies: [\"Rainbow\"]\n        )\n    ]\n)\n```\nThen run `swift build` whenever you get prepared.\nYou could know more information on how to use Swift Package Manager in Apple's [official page](https://swift.org/package-manager/).\n### Running the Demo\nRainbow includes a comprehensive demo that showcases all features. To see it in action:\n```bash\n# Clone the repository\ngit clone https://github.com/onevcat/Rainbow.git\ncd Rainbow\n# Run the demo\nswift run RainbowPlayground\n```\nThe demo covers basic colors, background colors, text styles, 8-bit/24-bit colors, hex colors, HSL colors, builder pattern,",
+   "onevcat/FengNiao": "<p align=\"center\">\n</p>\n<p align=\"center\">\n<a href=\"https://travis-ci.org/onevcat/FengNiao\"></a>\n<a href=\"https://swift.org/package-manager/\"></a>\n<a href=\"https://swift.org/package-manager/\"></a>\n<a href=\"https://raw.githubusercontent.com/onevcat/Kingfisher/master/LICENSE\"></a>\n<a href=\"https://swift.org/package-manager/\"></a>\n<a href=\"https://codecov.io/gh/onevcat/Hedwig\"></a>\n</p>\n## What\nFengNiao is a simple command-line util to delete unused image resource files from your Xcode project.\n## How\n### Install\n#### Mint\n[Mint](https://github.com/yonaskolb/Mint) is a tool that installs and runs Swift command line tool packages. Make sure\nyou have Xcode installed, then:\n```sh\n> brew install mint\n> mint install onevcat/fengniao\n```\n#### Compile from source\n```bash\n> git clone https://github.com/onevcat/FengNiao.git\n> cd FengNiao\n> swift build -c release\n# Then copy the executable to your PATH, such as `/usr/local/bin`\n> sudo cp .build/release/FengNiao /usr/local/bin/fengniao\n```\nFengNiao should be compiled, tested and installed into the `/usr/local/bin`.\n### Usage\nJust navigate to your project folder, then:\n```shell\n> fengniao\n```\nIt will scan current folder and all its subfolders to find unused images, then ask you whether you want to delete them. Please make sure you have a backup or a version control system before you deleting the images; it will be an un-restorable operation.\nFengNiao supports some arguments. You can find it by:\n```shell\n> fengniao --help\n  -p, --project:\n      Root path of your Xcode project. Default is current folder.\n  --force:\n      Delete the found unused files without asking.\n  -e, --exclude:\n      Exclude paths from search.\n  -r, --resource-extensions:\n      Resource file extensions need to be searched. Default is 'imageset jpg png gif pdf'\n  -f, --file-extensions:\n      In which types of files we should search for resource usage. Default is 'm mm swift xib storyboard'\n  --skip-proj-reference:\n      Skip the Project file (.pbxproj) reference cleaning.\n      By skipping it, the project file will be left untouched. \n      You may want to skip ths step if you are trying to build multiple projects with dependency and keep .pbxproj unchanged "
+  }
+ },
+ "apps": [
+  {
+   "name": "Sleeping Recorder",
+   "artist": "Wei Wang",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2014-05-06",
+   "updated": "2014-10-05",
+   "version": "2.1.0",
+   "rating": 3.4,
+   "ratings": 5,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/sleeping-recorder/id859935112",
+   "desc": "A free sleep talk recorder.\n\nWe reinvented the voice Recoder app for iOS. By introducing the volume level sensor the app can start and pause the recorder automaticlly. It will be actived only when the volume level exceeds your setting. So you can save both the disk space and energy to catch every single word you want, and save the earth from CO2.\n\nYou can use Sleeping Recorder when:\n\n* You are sleeping and want to know what you talk in dream\n\n* You are having a meeting and want to record what others say\n\n* You are in a lesson and your teacher sometimes stops when teaching\n\n* You are joining a speech and not want to miss any words\n\n* And many more situation, your only limit is your imagination\n\n--------\n\nMain Features:\n\n* Record immediately when the volume beyonds your setting.\n\n* Pause when the sound goes away. (After 3 second after there is no lond sound)\n\n* Set the sensitive level free",
+   "country": "us"
+  },
+  {
+   "name": "1+",
+   "artist": "Wei Wang",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2015-02-05",
+   "updated": "2015-02-05",
+   "version": "1.0.0",
+   "rating": 3.5,
+   "ratings": 4,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/1/id961526081",
+   "desc": "1+ is a count utility. It is very clean and simple. Press + to add one, and 1+ will keep track on the date and time you count.\n\nYou could use it to count things repeating everyday, for example how many times you feel happy (more is better), or how many times you failed to focus on your work and turns to SNS (less is better). The app itself could be used to count almost everything, so just use it as you like.\n\nNot only count from the app, you can also use the Today Panel extension to add in just a second. Super convenient!\n\nI made this app for my wife. She needs an app to count the fetal movement everyday. I wrote 1+ in joy, and I hope you can enjoy it as well.",
+   "country": "us"
+  },
+  {
+   "name": "Croc 24 - Math Game",
+   "artist": "Wei Wang",
+   "genre": "Education",
+   "price": "Free",
+   "released": "2025-06-15",
+   "updated": "2026-07-08",
+   "version": "1.7",
+   "rating": 5,
+   "ratings": 2,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/croc-24-math-game/id6746104087",
+   "desc": "Welcome to Croc's 24-Point Kingdom!\n\nRemember those fun times playing the 24 game with friends? Now our adorable croc buddy brings back that pure joy of mathematical discovery!\n\nThree Amazing Game Modes:\n•  Free Calculator: Enter any 4 numbers and Croc instantly finds ALL possible solutions to make 24! No more head-scratching moments~\n•  Challenge Mode: Random 24-point puzzles test your math skills. Every question is a new challenge!\n•  History Tracker: Review your calculation journey and witness your evolution from 24-game rookie to math champion!\n\nWhy Choose Croc 24?\n• Powerful Algorithm: Advanced mathematical engine ensures every possible solution is found\n• Adorable Interface: Cute croc expressions make boring math absolutely delightful\n• Simple Operation: Intuitive touch interface suitable for all ages\n• Completely Free: No ads, pure gaming experience\n\nMore than just a game:\n• Perfe",
+   "country": "us"
+  },
+  {
+   "name": "Glyphon Symbols",
+   "artist": "Wei Wang",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2026-07-09",
+   "updated": "2026-07-09",
+   "version": "1.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/glyphon-symbols/id6786352026",
+   "desc": "Glyphon finds the SF Symbol you mean — not just the one you typed.\n\nAsk in plain words, in any language, and the on-device Oracle answers with the exact glyph — plus the reason why it fits:\n\n• \"I need an icon to represent a game console.\" → arcade.stick.console\n• \"a rainy weather app icon\" → cloud.rain\n• \"何かお祝いっぽいアイコン\" → sparkles.2, with the reason written in Japanese\n\nThe Oracle weighs more than 9,000 glyphs for every ask and lines up alternates you can compare. No account, no server, no waiting — the AI runs entirely on your device with Apple Intelligence.\n\nTHE ORACLE — AI PICKS\n• Understands context and nuance in any language\n• Picks from 9,000+ symbols and explains every choice\n• Feeling lucky? Ask for nothing and draw a random glyph\n\nTHE HOARD — BROWSE & SEARCH\n• Fast keyword search across the whole SF Symbols library\n• Browse by category, filter by release year\n• Variants, related ",
+   "country": "us"
+  }
+ ]
+}

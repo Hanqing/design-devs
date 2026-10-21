@@ -1,0 +1,583 @@
+{
+ "handle": "liuliu",
+ "sites": [
+  {
+   "url": "http://liuliu.me",
+   "ok": true,
+   "title": "静水铭室 Silent Water and Curved Mountain",
+   "description": "",
+   "stack": [
+    "Google Analytics",
+    "Disqus"
+   ],
+   "hosting": [],
+   "lang": "",
+   "home_text": "Facebook / Twitter 静水铭室 静水可铭，丰山须镂。 - Silent Water and Curved Mountain \n December, 2023 \n March, 2023 \n November, 2022 \n September, 2022 \n August, 2022 \n July, 2022 \n March, 2022 \n December, 2021 \n November, 2021 \n August, 2021 \n March, 2021 \n February, 2021 \n December, 2020 \n November, 2020 \n October, 2020 \n September, 2020 \n August, 2020 \n May, 2020 \n April, 2020 \n March, 2020 \n January, 2020 \n December, 2019 \n August, 2019 \n May, 2019 \n August, 2018 \n May, 2018 \n March, 2018 \n June, 2016 \n March, 2016 \n September, 2015 \n August, 2015 \n May, 2015 \n March, 2015 \n February, 2015 \n January, 2015 \n November, 2014 \n October, 2014 \n September, 2014 \n August, 2014 \n July, 2014 \n May, 2014 \n March, 2014 \n February, 2014 \n December, 2013 \n November, 2013 \n October, 2013 \n September, 2013 \n July, 2013 \n June, 2013 \n May, 2013 \n March, 2013 \n February, 2013 \n January, 2013 \n December, 2012 \n November, 2012 \n October, 2012 \n September, 2012 \n August, 2012 \n April, 2012 \n March, 2012 \n February, 2012 \n January, 2012 \n December, 2011 \n November, 2011 \n October, 2011 \n September, 2011 \n August, 2011 \n July, 2011 \n June, 2011 \n May, 2011 \n April, 2011 \n March, 2011 \n February, 2011 \n January, 2011 \n December, 2010 \n November, 2010 \n October, 2010 \n September, 2010 \n August, 2010 \n June, 2010 \n May, 2010 \n April, 2010 \n March, 2010 \n February, 2010 \n January, 2010 \n December, 2009 \n November, 2009 \n October, 2009 \n September, 2009 \n August, 2009 \n July, 2009 \n June, 2009 \n May, 2009 \n April, 2009 \n March, 2009 \n February, 2009 \n January, 2009 \n December, 2008 \n November, 2008 \n October, 2008 \n September, 2008 \n August, 2008 \n July, 2008 \n May, 2008 \n April, 2008 \n March, 2008 \n February, 2008 \n January, 2008 \n December, 2007 \n November, 2007 \n October, 2007 \n September, 2007 \n August, 2007 \n July, 2007 \n June, 2007 \n May, 2007 \n April, 2007 \n March, 2007 \n February, 2007 \n January, 2007 \n December, 2006 \n November, 2006 \n October, 2006 \n September, 2006 \n August, 2006 \n July, 2006 \n June, 2006 \n May, 2006 \n April, 2006 \n March, 2006 \n February, 2006 \n January, 2006 \n December, 2005 \n November, 2005 \n October, 2005 \n September, 2005 \n August, 2005 \n June, 2005 \n May, 2005 \n April, 2005 \n March, 2005 \n February, 2005 \n The Phase-Change in User-Faced Computing No comment yet\nDecember 5th, 2023 \n “Use-faced” computing: any computing that needs to happen in the tight loop of users interacting with each other or themselves. By this definition, most business insight generations, log processing, server health stats, data reprocessing for cold storage, automated trading, and automatic surveillance analysis are not user-faced computing. Conversely, when you send a message to another user, every step in this process counts as user-faced computing. \nMany people have the misconception that most user-faced computing has shifted to the cloud (remote servers) in recent years. \nMessaging, arguably one of the more “even” interactions (i.e., typing/encrypting one message involves very little client computing), still spends very little computing on the server computing. Signal, an open messaging platform, has calculated its server computing costs at approximately 2.9 million dollars per year , equating to about $0.058 per user per year, or roughly 10 vCPU hours per user. User time spent, while not revealed or collected, should far exceed this number (both Meta & Snap report time spent around 0.5 hours per day per user). \nThere have been many indications that most user-faced computing occurs primarily on the client-side. Most personal devices in the past 15 years have included hardware-level support for video decoding/encoding. However, only recently (in the past 5 years) have major video providers like YouTube started switching to their own video acceleration chips . \nEfforts to shift this balance have been made. Video games, which demand significant client computing, have been attempting to move to the cloud since OnLive’s debut in 2008 . More substantial efforts followed, including NVIDIA GeForce NOW, Xbox Cloud Gaming, Google Stadia, and Unity Parsec, to name a few. However, few have succeeded. \nConversely, the transition of storage to the cloud has been phenomenally successful. Many companies and services have thrived by moving what we store locally to remote servers: Dropbox, Spotify, YouTube, iCloud services, Google Photos. Today, operating your own local storage box is a niche activity (e.g., r/DataHoarder ) outside the mainstream. \nThe change i",
+   "github_links": [
+    "CompVis",
+    "RosettaCommons",
+    "Theano",
+    "UZ-SLAMLab",
+    "aqlaboratory",
+    "liuliu",
+    "madebyollin",
+    "mit-biomimetics",
+    "osudrl",
+    "sermanet",
+    "thu-ml",
+    "tiny-pilot",
+    "vllm-project"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "http://liuliu.me/atom.xml",
+    "count_seen": 505,
+    "items": [
+     {
+      "title": "The Phase-Change in User-Faced Computing",
+      "date": "2023-12-05T10:55:00-05:00",
+      "url": "http://liuliu.me/eyes/the-phase-change-in-user-faced-computing/"
+     },
+     {
+      "title": "The Dangerous Territory of Pre-GPT4",
+      "date": "2023-03-28T20:59:00-04:00",
+      "url": "http://liuliu.me/eyes/the-dangerous-territory-of-pre-gpt4/"
+     },
+     {
+      "title": "Stretch iPhone to its Limit, a 2GiB Model that can Draw Everything in Your Pocket",
+      "date": "2022-11-08T16:31:00-05:00",
+      "url": "http://liuliu.me/eyes/stretch-iphone-to-its-limit-a-2gib-model-that-can-draw-everything-in-your-pocket/"
+     },
+     {
+      "title": "5 More Implementation Details of PPO and SAC",
+      "date": "2022-09-02T17:09:00-04:00",
+      "url": "http://liuliu.me/eyes/5-more-implementation-details-of-ppo-and-sac/"
+     },
+     {
+      "title": "Openness Trumps Profit-Seeking, What We can Learn from a Decade of AI Renaissance",
+      "date": "2022-08-16T16:25:00-04:00",
+      "url": "http://liuliu.me/eyes/openness-trumps-profit-seeking-what-we-can-learn-from-a-decade-of-ai-renaissance/"
+     },
+     {
+      "title": "Fun with Motion-JPEG, Jupyter Notebook and How to Stream GUI and Animations in the Browser",
+      "date": "2022-07-28T16:25:00-04:00",
+      "url": "http://liuliu.me/eyes/fun-with-motion-jpeg-jupyter-notebook-and-how-to-stream-gui-and-animations-in-the-browser/"
+     },
+     {
+      "title": "Gifting Another 100x More Computations to the Physical World",
+      "date": "2022-03-22T16:25:00-04:00",
+      "url": "http://liuliu.me/eyes/gifting-another-100x-more-computations-to-the-physical-world/"
+     },
+     {
+      "title": "Think Big and Small",
+      "date": "2022-03-17T14:05:00-04:00",
+      "url": "http://liuliu.me/eyes/think-big-and-small/"
+     },
+     {
+      "title": "Research Notes on Humanoid Robots",
+      "date": "2021-12-14T14:05:00-05:00",
+      "url": "http://liuliu.me/eyes/research-notes-on-humanoid-robots/"
+     },
+     {
+      "title": "The Lesson from Private Ski Lesson, or How Money Cannot Buy Performance",
+      "date": "2021-11-08T18:05:00-05:00",
+      "url": "http://liuliu.me/eyes/the-lesson-from-private-ski-lesson-or-how-money-cannot-buy-performance/"
+     },
+     {
+      "title": "No Deflationary Cryptocurrencies",
+      "date": "2021-08-25T19:33:00-04:00",
+      "url": "http://liuliu.me/eyes/no-deflationary-cryptocurrencies/"
+     },
+     {
+      "title": "The Endgame for Cryptocurrency",
+      "date": "2021-08-20T15:43:00-04:00",
+      "url": "http://liuliu.me/eyes/the-endgame-for-cryptocurrency/"
+     },
+     {
+      "title": "Marathon is a Game of Choices",
+      "date": "2021-03-19T08:10:00-04:00",
+      "url": "http://liuliu.me/eyes/marathon-is-a-game-of-choices/"
+     },
+     {
+      "title": "从人人影视组说起，为什么知识产权不是真理",
+      "date": "2021-02-14T07:10:00-05:00",
+      "url": "http://liuliu.me/eyes/%E4%BB%8E%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86%E7%BB%84%E8%AF%B4%E8%B5%B7-%E4%B8%BA%E4%BB%80%E4%B9%88%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E4%B8%8D%E6%98%AF%E7%9C%9F%E7%90%86/"
+     },
+     {
+      "title": "The Universal Training Loop of Machine Learning",
+      "date": "2021-02-07T14:27:00-05:00",
+      "url": "http://liuliu.me/eyes/the-universal-training-loop-of-machine-learning/"
+     },
+     {
+      "title": "Data Science Setup with Swift in 2021",
+      "date": "2021-02-04T14:27:00-05:00",
+      "url": "http://liuliu.me/eyes/data-science-setup-with-swift-in-2021/"
+     },
+     {
+      "title": "2024, the Better Future",
+      "date": "2020-12-29T14:27:00-05:00",
+      "url": "http://liuliu.me/eyes/2024-the-better-future/"
+     },
+     {
+      "title": "On Designing Deep Learning Library API in Swift",
+      "date": "2020-12-06T18:27:00-05:00",
+      "url": "http://liuliu.me/eyes/on-designing-deep-learning-library-api-in-swift/"
+     },
+     {
+      "title": "A Core Data Alternative Crossed Platform to Linux",
+      "date": "2020-11-01T00:07:00-04:00",
+      "url": "http://liuliu.me/eyes/a-core-data-alternative-crossed-platform-to-linux/"
+     },
+     {
+      "title": "Loading CSV File at the Speed Limit of the NVMe Storage",
+      "date": "2020-10-09T18:47:00-04:00",
+      "url": "http://liuliu.me/eyes/loading-csv-file-at-the-speed-limit-of-the-nvme-storage/"
+     },
+     {
+      "title": "Bazel for Open-source C / C++ Libraries Distribution",
+      "date": "2020-09-15T21:02:00-04:00",
+      "url": "http://liuliu.me/eyes/bazel-for-libraries-distribution-an-open-source-library-author-perspective/"
+     },
+     {
+      "title": "Migrating iOS Project to Bazel, a Real-World Experience",
+      "date": "2020-08-07T19:02:00-04:00",
+      "url": "http://liuliu.me/eyes/migrating-ios-project-to-bazel-a-real-world-experience/"
+     },
+     {
+      "title": "The World of Words",
+      "date": "2020-05-31T19:02:00-04:00",
+      "url": "http://liuliu.me/eyes/the-world-of-words/"
+     },
+     {
+      "title": "Write Cross-Platform GUI in Swift Like It is 1998",
+      "date": "2020-04-15T11:00:00-04:00",
+      "url": "http://liuliu.me/eyes/write-cross-platform-gui-in-swift-like-it-is-1998/"
+     },
+     {
+      "title": "The Modern Gilded Age Fallacy",
+      "date": "2020-03-17T18:18:00-04:00",
+      "url": "http://liuliu.me/eyes/the-modern-gilded-age-fallacy/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://drawthings.ai",
+   "ok": true,
+   "title": "Draw Things: AI-assisted Image Generation",
+   "description": "",
+   "stack": [
+    "Webflow",
+    "GSAP"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "Get it on the App Store \nContact Us \nFollow Us \n Server-grade\n AI models \nQuickly generate images, locally and offline. \nGet it on the \nApp Store \nas seen on \nOctober 15, 2025 \nApps like Draw Things on the new 14-inch MacBook Pro and iPad Pro can get significant performance increases by using Apple’s built-in frameworks… \nNewsroom \nTransform your creative vision into reality \nWith Draw Things, you can bring your ideas to life in minutes, not days. Best of all, it’s completely free and runs offline on all devices to protect your privacy. \nCreate at home or on the go! For iPhone, iPad, and Mac. \nGet it \nGet it on the App Store \nCreate anywhere: iOS/iPadOS/macOS \nGet it \nGet it on the App Store \nFor: iOS/iPadOS/macOS \nGet it \nGet it on the App Store \nYour complete creative workflow \nBring your ideas to life with powerful tools for every stage of creation. \nImage Generation \n Create Dream Images: craft a simple prompt, and watch as your words materialize into images in just minutes. \nGet it on the App Store \nImage-to-video \nAnimate with ease: Create engaging video clips straight from your images, no complex editing required. \nInfinite Canvas \n Unlimited Creative Space: Expand your canvas endlessly and fill any part of your image as you desire, with Infinite Canvas. \nStyle Your Image \n Reimagine your image: Transform any photo into classic animation or countless other styles. \nTry It On \n Seamless image enhancement: Prototype apparel, craft detailed character concepts, and more. \nLoRA Training \n Train LoRAs locally : Keep creative control and privacy by training LoRAs entirely on-device. \nGet it on the \nApp Store \nExplore editions \nPick an edition of Draw Things that fits your workflow for quick, private, offline image creation. \nFREE \nFree Edition \nCreate prompts and download models from our servers to generate images locally and privately on your own device. \nFeatures & Perks \nUse local Compute to generate \nDownload models from our server \nInfinite canvas \nTrain LoRAs locally \nFREE ACCOUNT \nCommunity \nUse your own account to access exclusive features and offload tasks like image generation to Draw Things’ managed servers. \nFeatures & Perks \nUse Cloud Compute for free \nAccess Lab Hours \nEverything in Free Edition \n$8.99/mo \nDraw Things+ \nEnjoy higher compute limits and access premium cloud features, including custom LoRA uploads, enhanced privacy, and more. \nFeatures & Perks \nIncreased Cloud Compute limits \nUse your own LoRAs w/ Cloud Compute \nBoost compute limits on demand \nPrivacy Pass \nEverything in Community Edition \nView pricing",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": [
+    "6444050820"
+   ]
+  },
+  {
+   "url": "http://libccv.org",
+   "ok": true,
+   "title": "ccv - a modern computer vision library",
+   "description": "",
+   "stack": [
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "",
+   "home_text": "ccv \nA Modern Computer Vision Library \n View the Project on GitHub liuliu/ccv \n Download ZIP File \n Download TAR Ball \n Fork On GitHub \n with a sub-10% image classifier, a decent face detector, here comes ccv 0.7 › \nBackstory \nI set to build ccv with a minimalism inspiration. That was back in 2010, out\nof the frustration with the computer vision library then I was using, ccv\nwas meant to be a much easier to deploy, simpler organized code with a bit\ncaution with dependency hygiene. The simplicity and minimalistic nature at\nthen, made it much easier to integrate into any server-side deployment\nenvironments. \nPortable and Embeddable \nFast forward to now, the world is quite different from then, but ccv adapts\npretty well in this new, mobile-first environment. It now runs on Mac OSX,\nLinux, FreeBSD, Windows*, iPhone, iPad, Android, Raspberry Pi. In fact,\nanything that has a proper C compiler probably can run ccv. The majority\n(with notable exception of convolutional networks, which requires a BLAS\nlibrary) of ccv will just work with no compilation flags or dependencies. \nModern Computer Vision Algorithms \nOne core concept of ccv development is application driven . Thus, ccv ends\nup implementing a handful state-of-art algorithms. It includes a close to\nstate-of-the-art image classifier, a state-of-the-art frontal face detector,\nreasonable collection of object detectors for pedestrians and cars, a useful\ntext detection algorithm, a long-term general object tracking algorithm,\nand the long-standing feature point extraction algorithm. \nClean Interface with Cached Image Preprocessing \nMany computer vision tasks nowadays consist of quite a few preprocessing\nlayers: image pyramid generation, color space conversion etc. These potentially\nredundant operations cannot be easily eliminated within a mature API. ccv\nprovides a built-in cache mechanism that, while maintains a clean function\ninterface, effectively does transparent cache for you.\n - How? \nFor computer vision community, there is no shortage of good algorithms, good\nimplementation is what it lacks of. After years, we stuck in between either the\nhigh-performance, battle-tested but old algorithm implementations, or the new,\nshining but Matlab algorithms. ccv is my take on this problem, hope you enjoy\nit. \nLicense \nccv source code is distributed under BSD 3-clause License .\nccv's data models and documentations are distributed under Creative Commons Attribution 4.0 International License .\n Getting Started \n Documentation \n Library Reference \nDated Posts \n how to run a state of the art image classifier on a iPhone. - August 7th, 2014 \n closing the gap between open source and proprietary. - April 25th, 2014 \n ccv 0.6 open sources near state-of-the-art image classifier under Creative Commons. - March 27th, 2014 \n ccv 0.5 with a new pedestrian detector. - September 2nd, 2013 \n In 0.4, ccv talks HTTP. - November 30th, 2012 \n ccv now has a state-of-art tracking algorithm. - November 10th, 2012 \n ccv cut the 0.2 stable, and what's new. - October 4th, 2012 \n ccv 0.2 is almost there. - October 2nd, 2012 \n Introducing ccv, reached 0.1 milestone. - June 29th, 2012 \n An elephant in the room. - June 18th, 2012 \n Application driven philosophy. - May 3rd, 2011 \n Call for a new, lightweight, c-based computer vision library. - February 6th, 2010",
+   "github_links": [
+    "liuliu",
+    "orderedlist"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://libnnc.org",
+   "ok": true,
+   "title": "NNC: Neural Network Collection — nnc, a deep learning framework from ccv",
+   "description": "",
+   "stack": [
+    "Docutils 0.19: https://docutils.sourceforge.io/",
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "Docs » \nNNC: Neural Network Collection \n View page source \nNNC: Neural Network Collection ¶ \nAt the end of 2014, when I was looking at these new computer vision models with complex neural network architectures, it became apparently clear what ccv has implemented (the neural network) as one of many computer vision algorithms will be the only algorithm matters in the future. More importantly, what I have in ccv is a early attempt, but ill-equipped to support these advanced architectures. There is no multi-way networks, no customizable losses, and no automatic differentiation. \nThen, NNC started exactly as yet another deep learning framework . By starting from scratch enables me to toy with some new ideas on the implementation, and some of these ideas, after implemented, has some interesting properties. After 4 years, and given the fresh new takes on both APIs and the implementation, I am increasingly convinced this will be a good foundation to implement high-level deep learning APIs in any host languages (Ruby, Python, Java, Kotlin, Swift etc.). \nLike every other deep learning framework, NNC operates dataflow graphs. Data dependencies on the graph are explicitly specified. NNC also keeps the separation of symbolic dataflow graphs versus concrete dataflow graphs. Again, like every other deep learning framework, NNC supports dynamic execution, which is called dynamic graph in NNC. \nThere are some unique interesting bits: \nNNC supports control flows, with a very specific while loop construct and multi-way branch construct; \nNNC implements a sophisticated tensor allocation algorithm that treats tensors as a region of memory, which enables tensor partial reuse; \nThe above allocation algorithm handles control flows, eliminates data transfers for while loop, and minimizes data transfers for branching; \n Dynamic execution in NNC is implemented on top of its static graph counterpart, thus, all optimization passes available for static graph can be applied when doing automatic differentiation in the dynamic execution mode; \nBecause the dataflow graph is fully specified, it can be statically scheduled to execute in parallel on the hardware trivially, with all the control flows in place; \nA Keras -like interface is implemented, making high-level deep learning concepts accessible through C; \nClear and concise C interface enables integrations beyond Python for full-range of deep learning framework functionalities. \nOver the next a few months, I will write more about this. There are still tremendous amount of work ahead for me to get to a point of release. \n Overview \n Technicals \n API Reference \n Swift for NNC",
+   "github_links": [
+    "liuliu",
+    "rtfd"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "liuliu",
+  "user": {
+   "name": "Liu Liu",
+   "company": null,
+   "blog": "http://liuliu.me/",
+   "location": "San Francisco",
+   "bio": null,
+   "public_repos": 92,
+   "followers": 1000,
+   "created_at": "2009-09-17T05:24:18Z",
+   "twitter_username": "liuliu",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "liuliu/ccv",
+    "description": "C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library",
+    "stargazers_count": 7247,
+    "forks_count": 1703,
+    "language": "C++",
+    "homepage": "http://libccv.org",
+    "created_at": "2010-09-15T15:59:47Z",
+    "pushed_at": "2026-10-20T15:50:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/swift-diffusion",
+    "description": null,
+    "stargazers_count": 469,
+    "forks_count": 40,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-09-02T19:03:57Z",
+    "pushed_at": "2026-10-19T23:39:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/dflat",
+    "description": "Structured Data Store for Mobile",
+    "stargazers_count": 307,
+    "forks_count": 10,
+    "language": "Swift",
+    "homepage": "https://dflat.io",
+    "created_at": "2020-06-25T02:53:38Z",
+    "pushed_at": "2025-09-11T21:27:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/klaus",
+    "description": "A show-case of a state-of-the-art image classifier on iOS devices from libccv.org",
+    "stargazers_count": 139,
+    "forks_count": 22,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2014-08-07T07:37:22Z",
+    "pushed_at": "2014-10-31T23:06:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/s4nnc",
+    "description": "Swift for NNC",
+    "stargazers_count": 81,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": "https://libnnc.org",
+    "created_at": "2020-09-13T18:31:30Z",
+    "pushed_at": "2026-10-20T15:54:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/co",
+    "description": "Example implementation of coroutine in C",
+    "stargazers_count": 22,
+    "forks_count": 1,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2019-12-02T01:10:39Z",
+    "pushed_at": "2020-09-11T22:51:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/swift-mujoco",
+    "description": "Swift Binding for MuJoCo: https://mujoco.org/",
+    "stargazers_count": 22,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-03-23T19:29:00Z",
+    "pushed_at": "2025-07-24T22:14:39Z",
+    "topics": [
+     "reinforcement-learning",
+     "simulation"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/rules_cuda",
+    "description": null,
+    "stargazers_count": 20,
+    "forks_count": 6,
+    "language": "Smarty",
+    "homepage": null,
+    "created_at": "2020-09-11T18:09:01Z",
+    "pushed_at": "2025-07-24T18:39:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/docomputersdream",
+    "description": "http://docomputersdream.org",
+    "stargazers_count": 19,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-03-14T07:03:04Z",
+    "pushed_at": "2014-04-28T06:40:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/case",
+    "description": "case is a simple test framework for c",
+    "stargazers_count": 18,
+    "forks_count": 4,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2011-01-30T09:22:06Z",
+    "pushed_at": "2022-10-05T19:05:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/example_matmul_metal4",
+    "description": "Example of using the tensor op for matmul in Metal 4.",
+    "stargazers_count": 18,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-07-28T22:39:33Z",
+    "pushed_at": "2026-03-13T03:25:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/parallable",
+    "description": "A tiny javascript snippet to enable you write web worker simpler and easier",
+    "stargazers_count": 16,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2010-12-06T02:42:02Z",
+    "pushed_at": "2010-12-07T14:53:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/swift-fickling",
+    "description": null,
+    "stargazers_count": 9,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-11-29T22:16:43Z",
+    "pushed_at": "2026-01-07T22:44:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/cvwld",
+    "description": "Weber's Local Descriptor",
+    "stargazers_count": 6,
+    "forks_count": 3,
+    "language": "C++",
+    "homepage": "wld",
+    "created_at": "2010-01-21T03:55:56Z",
+    "pushed_at": "2017-01-24T05:24:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/rfancontrol",
+    "description": "Fan Control Program for my 4 RTX 2080 Ti Watercooling Workstation",
+    "stargazers_count": 6,
+    "forks_count": 2,
+    "language": "C++",
+    "homepage": null,
+    "created_at": "2019-02-12T07:40:04Z",
+    "pushed_at": "2020-05-05T01:46:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/kmonkey",
+    "description": "KMonkey automatically patches your program with its llvm intermediate code.",
+    "stargazers_count": 5,
+    "forks_count": 1,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2011-11-29T16:58:46Z",
+    "pushed_at": "2011-12-06T16:03:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/optic",
+    "description": "Playground to test different approaches for CUDA kernel performance",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "Cuda",
+    "homepage": null,
+    "created_at": "2014-06-18T03:38:21Z",
+    "pushed_at": "2014-06-18T03:41:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "liuliu/swift-llm",
+    "description": null,
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "Starlark",
+    "homepage": null,
+    "created_at": "2023-12-21T20:56:45Z",
+    "pushed_at": "2024-06-14T05:20:00Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 42,
+  "languages": [
+   [
+    "C++",
+    11
+   ],
+   [
+    "Swift",
+    7
+   ],
+   [
+    "C",
+    5
+   ],
+   [
+    "JavaScript",
+    3
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "Starlark",
+    2
+   ],
+   [
+    "PHP",
+    2
+   ],
+   [
+    "HTML",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "liuliu/ccv",
+    "stargazerCount": 7247,
+    "description": "C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library",
+    "primaryLanguage": {
+     "name": "C++"
+    },
+    "homepageUrl": "http://libccv.org"
+   },
+   {
+    "nameWithOwner": "liuliu/dflat",
+    "stargazerCount": 307,
+    "description": "Structured Data Store for Mobile",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://dflat.io"
+   },
+   {
+    "nameWithOwner": "liuliu/rules_cuda",
+    "stargazerCount": 20,
+    "description": null,
+    "primaryLanguage": {
+     "name": "Smarty"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "liuliu/s4nnc",
+    "stargazerCount": 81,
+    "description": "Swift for NNC",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://libnnc.org"
+   },
+   {
+    "nameWithOwner": "liuliu/swift-jupyter",
+    "stargazerCount": 30,
+    "description": "This is a fork of google/swift-jupyter. It is made possible to use Jupyterlab (as well as Jupyter Notebook) with most up-to-date Swift toolchain.",
+    "primaryLanguage": {
+     "name": "Jupyter Notebook"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "liuliu/swift-mujoco",
+    "stargazerCount": 22,
+    "description": "Swift Binding for MuJoCo: https://mujoco.org/",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 3202,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "liuliu/ccv": "Build Status\n------------\n-  GitHub-Hosted: |Build Status on GitHub Ubuntu| |Build Status on GitHub macOS|\n-  Linux x64: |Build Status on Linux| |Build Status on Linux CUDA|\n-  Mac ARM64: |Build Status on Mac ARM64|\n-  Raspberry Pi 4: |Build Status on Raspberry Pi 4|\n-  Clang Analyzer: |Analyze Run|\n-  Test Coverage: |Coverage Run|\nBackstory\n---------\nI set to build ccv with a minimalism inspiration. That was back in 2010, out of the frustration with the computer vision library then I was using, ccv was meant to be a much easier to deploy, simpler organized code with a bit caution with dependency hygiene. The simplicity and minimalistic nature at then, made it much easier to integrate into any server-side deployment environments.\nPortable and Embeddable\n-----------------------\nFast forward to now, the world is quite different from then, but ccv adapts pretty well in this new, mobile-first environment. It now runs on Mac OSX, Linux, FreeBSD, Windows\\*, iPhone, iPad, Android, Raspberry Pi. In fact, anything that has a proper C compiler probably can run ccv. The majority (with notable exception of convolutional networks, which requires a BLAS library) of ccv will just work with no compilation flags or dependencies.\nModern Computer Vision Algorithms\n---------------------------------\nOne core concept of ccv development is *application driven*. Thus, ccv ends up implementing a handful state-of-art algorithms. It includes a close to state-of-the-art image classifier, a state-of-the-art frontal face detector, reasonable collection of object detectors for pedestrians and cars, a useful text detection algorithm, a long-term general object tracking algorithm, and the long-standing feature point extraction algorithm.\nClean Interface with Cached Image Preprocessing\n-----------------------------------------------\nMany computer vision tasks nowadays consist of quite a few preprocessing layers: image pyramid generation, color space conversion etc. These potentially redundant operations cannot be easily eliminated within a mature API. ccv provides a built-in cache mechanism that, while maintains a clean function interface, effectively does transparent cache for you.\nFor computer",
+   "liuliu/dflat": "# Dflat: SQLite ❤️  FlatBuffers\n[](https://swiftpackageindex.com/liuliu/dflat)\n[](https://swiftpackageindex.com/liuliu/dflat)\n[](https://github.com/liuliu/dflat/actions/workflows/macos-spm.yaml?query=branch%3Aunstable)\n[](https://github.com/liuliu/dflat/actions/workflows/macos-bazel.yaml?query=branch%3Aunstable)\n[](https://github.com/liuliu/dflat/actions/workflows/ubuntu-spm.yaml?query=branch%3Aunstable)\n[](https://github.com/liuliu/dflat/actions/workflows/ubuntu-bazel.yaml?query=branch%3Aunstable)\n[](https://github.com/liuliu/dflat/actions/workflows/documentation.yaml?query=branch%3Aunstable)\nIf you are familiar with [Core Data](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CoreData/index.html) or [Realm](https://realm.io/), **Dflat** occupies the same space as these two in your application. It helps you to persist and retrieve objects to or from disk for your application needs. Unlike these two, **Dflat** has a different set of features and makes very different trade-offs. These features and trade-offs are grounded from real-world experiences in writing some of the world largest apps. **Dflat** is also built from ground-up using Swift and hopefully, you will find it is natural to interact with in the Swift language.\n## Features\nI've been writing different structured data persistence systems on mobile for the past a few years. **Dflat** is an accumulation of lessons-learned when building these proprietary systems. On iOS particular, the go-to choice long has been **Core Data**. It works, and is the internal data persistence mechanism for many system apps.\nBut when deploying structured data persistence system to hundreds of millions mobile devices, there are certain challenges, both on the intrinsics of how data is persisted, and on a higher-level how the rest of the app interact with such system.\nThe **Dflat** codebase is still in a very young stage. However, the underlying principles have been proving successful in other proprietary systems. **Dflat** implemented the following features in no particular order:\n 1. The system returns immutable data objects that can be passed down to other systems (such as your view model generators);",
+   "liuliu/rules_cuda": "# CUDA Rules for Bazel\nThis is an up-to-date set of Bazel rules to configure Linux builds with CUDA.\nIt is directly copied from [Tensorflow](https://github.com/tensorflow/tensorflow/tree/master/third_party/gpus) with some updates. Hence, you need to configure `TF_*` environment variables to make it work.\nAn example of `.bazelrc` can be found in the root of [this repository](https://github.com/liuliu/rules_cuda/blob/main/.bazelrc). For available configurations, you can find in [`cuda_configure.bzl`](https://github.com/liuliu/rules_cuda/blob/main/gpus/cuda_configure.bzl#L5)\n## How to Use\nTo use rules provided in this repository, you can add following to your `WORKSPACE` file:\n```\nload(\"@bazel_tools//tools/build_defs/repo:http.bzl\", \"http_archive\")\nload(\"@bazel_tools//tools/build_defs/repo:git.bzl\", \"git_repository\")\nhttp_archive(\n  name = \"bazel_skylib\",\n  sha256 = \"1dde365491125a3db70731e25658dfdd3bc5dbdfd11b840b3e987ecf043c7ca0\",\n  urls = [\n    \"https://github.com/bazelbuild/bazel-skylib/releases/download/0.9.0/bazel_skylib-0.9.0.tar.gz\",\n  ],\n)\ngit_repository(\n  name = \"build_bazel_rules_cuda\",\n  remote = \"https://github.com/liuliu/rules_cuda.git\",\n  commit = \"29f3ced1b7541ae629bbfabe0c07dbfe76f29f4d\"\n)\nload(\"@build_bazel_rules_cuda//gpus:cuda_configure.bzl\", \"cuda_configure\")\ncuda_configure(name = \"local_config_cuda\")\n```\n`cuda_library` will be available after `cuda_configure`. An example `BUILD` file could look like this:\n```\nload(\"@local_config_cuda//cuda:build_defs.bzl\", \"cuda_library\")\ncuda_library(\n    name = \"vectorAdd\",\n    srcs = [\"vectorAdd.cu\"],\n    hdrs = [\"vectorAdd.h\"],\n    visibility = [\"//visibility:public\"],\n    deps = [\n        \"@local_config_cuda//cuda:cuda\",\n    ],\n)\ncc_binary(\n  name='main',\n  srcs=['main.cc'],\n  deps=[':vectorAdd'],\n)\n```\nNote that you need to add `@local_config_cuda//cuda:cuda` explicitly for your target. This is helpful because rather than a sum of `cuda` dependency, you can add specifics if you only use a subset such as `@local_config_cuda//cuda:cudnn`. To see a list of available ones, you can query `bazel query \"deps(@local_config_cuda//cuda:cuda)\"`\n## Updates Differ from TensorFlow\n 1. `.cu` is allowed, `gpus/crosstoo",
+   "liuliu/s4nnc": "# Swift for NNC\n[](https://github.com/liuliu/s4nnc/actions/workflows/ubuntu-bazel.yaml?query=branch%3Amain)\n[](https://github.com/liuliu/s4nnc/actions/workflows/documentation.yaml?query=branch%3Amain)\ns4nnc is a Swift interface for [libnnc](https://libnnc.org) library.\nFrom the very start, [libnnc](https://libnnc.org) is meant to be a common runtime that supports many language bindings. It becomes apparent during the development that for deep learning, a raw C interface would be unwieldy complex to use in real-life. For example, the training loop of a transformer model for sentiment analysis takes more than 400 lines of code: <https://github.com/liuliu/ccv/blob/unstable/bin/nnc/imdb.c#L268>\nA high-level language that delegates most of the work to the C runtime seems to be a win in brevity and usefulness. The same training loop of a transformer model in Swift takes less than 100 lines: <https://github.com/liuliu/s4nnc/blob/main/examples/imdb/main.swift#L197>\nBecause the heavy-lifting is done in the [libnnc](https://libnnc.org) library, the Swift portion can be light and even automatically generated. At the moment, we have about 3,000 lines of Swift code to run quite a few models on GPU, complete with data feeders, model specifications and optimizers.\n## Live Documentation\n<https://liuliu.github.io/s4nnc/documentation/nnc>\n## Runtime API\nCurrently, s4nnc works better under Linux with CUDA 11, CuDNN and NCCL. The API for s4nnc wraps around [Level-4](https://libnnc.org/api/level-4/) and [Level-5](https://libnnc.org/api/level-5/) C APIs.\n### Tensor\n```swift\npublic struct Tensor<Element> {\n  init(_ kind: DeviceKind, _ shapeFormat: TensorShapeFormat)\n  init<S: Sequence>(_ sequence: S, _ kind: DeviceKind, _ shapeFormat: TensorShapeFormat) where S.Element == Element\n}\n```\nThis method initialize a raw tensor that resides either on CPU or GPU with a given dimensions. Alternatively, you can initialize a tensor from native Swift array. Basic usage looks like this:\n```swift\nvar tensor = Tensor<Float>(.CPU, .HWC(1, 1, 2))\ntensor[0, 0, 0] = 1\ntensor[0, 0, 1] = 2\n```\nThere are very limited functionalities associated with raw tensors. Mostly, you can only `reshaped` or `toGPU` / ",
+   "liuliu/swift-jupyter": "# Swift-Jupyter\nThis is a fork of [google/swift-jupyter](https://github.com/google/swift-jupyter/). It is made\npossible to use Jupyterlab (as well as Jupyter Notebook) with most up-to-date Swift toolchain.\nThis fork made several significant changes to original repository organization. It biased towards\nusing [Bazel](https://bazel.build/) as code and dependency management tool. This fork is fully\nseparated from [Swift for TensorFlow](https://github.com/tensorflow/swift) project and is actively\nmaintained to keep everything working with up-to-date Swift toolchain.\nRight now, this fork worked well with Swift from 5.4.x to 5.5.x on Linux without any tweaks (if\ninstalled to `/opt/swift`). It is tested with Ubuntu 20.04 distribution, but should work with other\nflavors.\nBecause both the notebook integration and PythonKit are used actively with one of my side business,\nthe continuing maintenance of this repository can be assured.\nI do want to make this work on macOS. It should be only a few OS / toolchain detection script away.\n## Getting Started\n### Requirements\nOperating system:\n* Ubuntu 20.04 (64-bit); OR\n* Other operating systems may work, but you will have to build Swift from\n  sources.\nDependencies:\n* Bazel\n* Python 3\n### Installation\nExtract the Swift toolchain to `/opt/swift`.\nInside the `swift-jupyter` repository:\n```bash\n./scripts/bazel/setup_clang.sh /usr/local\n```\nNote: `/usr/local` should be where your `bin/llvm-config` binary resides.\nNow you can run Jupyterlab:\n```bash\nSWIFTPATH=/opt/swift bazel run //lab:bootup -- --notebook-dir $PWD\n```\nTo check if installation is done, run the `notebooks/_swift_template.ipynb` notebook.\n## Usage Instructions\n### Rich Output\nThis fork removed `EnableIPythonDisplay.swift`. Using [IPython kernel](https://github.com/ipython/ipykernel)\nand its interactive shell as in [google/swift-jupyter](https://github.com/google/swift-jupyter/blob/main/swift_shell/__init__.py)\ncause some silent crashes with the most up-to-date Swift toolchain. It only happens after many tens\nof cell executions.\nInstead, this fork enhanced `EnableJupyterDisplay.swift` to enable rich output from Python (e.g.\nPandas or matplotlib). Because communication wit"
+  }
+ },
+ "apps": [
+  {
+   "name": "Draw Things: Offline AI Art",
+   "artist": "Draw Things, Inc.",
+   "genre": "Photo & Video",
+   "price": "Free",
+   "released": "2022-11-07",
+   "updated": "2026-10-14",
+   "version": "26.1013.0",
+   "rating": 4.4,
+   "ratings": 741,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/draw-things-offline-ai-art/id6444050820",
+   "desc": "Unleash your imagination with Draw Things, the powerful offline AI creation tool for your iPhone or iPad. Create stunning images privately, right on your device – no internet or subscriptions needed for local creation!\n\n• Your Private AI Studio: Create art 100% offline. Your prompts and images stay securely on your device.\n• Powerful AI Diffusion Engine: Harness the latest models like SDXL, FLUX.1, Wan 2.2, Qwen Image, Z Image, FLUX.2 and LTX-2.3 for incredible results.\n• Pro-Level Control: Master image creation with on-device LoRA training, full ControlNet support, inpainting, outpainting, and pose editing.\n• Unlimited Customization: Import your favorite community-made diffusion models and LoRAs effortlessly.\n• Free Local Creation: Create limitlessly on your device without ads or token limits. (Optional Cloud Compute available).\n• Optimized for Apple: Experience blazing-fast performance",
+   "country": "us"
+  }
+ ]
+}

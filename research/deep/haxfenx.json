@@ -1,0 +1,388 @@
+{
+ "handle": "haxfenx",
+ "sites": [
+  {
+   "url": "https://fenx.work",
+   "ok": true,
+   "title": "Design Scenes",
+   "description": "Design, tech or something else to seek higher Scenes",
+   "stack": [
+    "Ghost 6.69",
+    "WordPress",
+    "Ghost"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Fly.io"
+   ],
+   "lang": "zh",
+   "home_text": "登录 \n 订阅 \n Latest — 2026年8月30日 \n#96 构建游戏源: New Games Hub \n看看每天有哪些新游戏 \n更多文章 \n#95 制作我的第一款 iOS App: 干饭手册 \n踩坑是最好的老师 \n#94 如何设计测试 LLM 生成 SVG 能力的平台 \n全网最尊重宝可梦的 Benchmark \n#93 Paper (Alpha) 体验 \n祝顺利 \n#92 Liquid Glass 之外 Apple 的改变 \n劝 Apple 牢记初心，不忘使命，力戒形式主义、官僚主义，坚持实事求是的思想路线，树立正确设计观，真抓实干，改变作风 \n#91 建立 Design Fragments - Vibe Coding 实践 \n仅需 21600 分钟，用 AI 建立网站！点击查看。 \n#90 Figma Deep Search 扩展试验 \nChrome 扩展试验，用于优化 Figma 搜索结果展示 \n#89 Tana 迷雾 \n我对 Tana 的不满之处 \n# SP3 给 Ghost 增加 llms.txt \n仅需新增路由即可添加 \n#88 制作一款 Figma 中查看图片直方图的插件 \nImage Histogram 插件可以让你在 Figma 中查看图片的直方图，以及复制粘贴曝光、对比度等图片调整参数 \n 载入更多 \n关于 \nDesign Scenes \nDesign, tech or something else to seek higher Scenes \n订阅以获得最新文章通知 \n [email protected] \n订阅 \n话题 \nDev \n 9\nGame \n 5\nGhost \n 4\nLLM \n 2\nNews \n 1\nProduct \n 4\nTech \n 3\nTypography \n 3\nUI \n 12\n推荐 \nThe Type \n thetype.com \n字体、排版、平面设计、公共设计、技术和视觉文化 \nDesign Fragments \n df.fenx.work \n碎拼信息搜集 \n安妮薇看看 \n anyway.fm/now \n由 Anyway.FM 带来的「安妮薇看看」，我们为你提供与设计行业相关的新闻资讯、网摘推荐以及专栏文章等内容 \nAIGC Weekly \n quaily.com/op7418 \n歸藏老师的 AI 资讯周刊 \nDEX 周刊 \n quaily.com/dingyi \n一份关于产品、设计、前端、软件等内容的精华资讯邮件周刊。 \n 查看全部 \n订阅 Design Scenes \n发布最新文章时，会以邮件通知你 \n [email protected] \n订阅",
+   "github_links": [],
+   "subpages": {
+    "https://fenx.work/about/": "登录 \n 订阅 \n关于 Design Scenes \n再一次出发 \n在 Design Scenes Weekly 时期，它的简介为： 本通讯为设计视角下的互联网资讯观察与节选。内容除了自身界面设计职业相关的信息外，还会涉及字体、品牌、产品体验、数码电子、商业新闻、创投与增长（无投资建议）等杂类信息。 \n现在 Design Scenes 转型到非定期更新，且内容不再是每周资讯传递，而是回归博客文章类型。写一些想写的东西，不止设计，而是将自己一段时间「折腾」的结果记录并分享给他人，想着能帮到别人就好了。 \n内容依然涉及上述范围，不会涉及国内政治等其他风险争议信息。 \n 之前 76 期 newsletter 归档在 Craft 上。 \n因为一些不愉快的事情退订了 Craft，补档在 GitHub； \nGitHub - fenxer/design-scenes-weekly-archive: Design Scenes Weekly 1 - 76 期周刊归档 \nDesign Scenes Weekly 1 - 76 期周刊归档. Contribute to fenxer/design-scenes-weekly-archive development by creating an account on GitHub. \n GitHub fenxer \n你仍然可以在我维护的 newsletters 列表 查看我订阅的所有信息源。 \n 周刊封面存档 | 博客封面存档 | 友情链接 \n时间线 \n我在之前写过 一些文章 ； \n觉得每日获取信息越来越多，应该整理下来，发到 微博 ； \n之后在 微信公众号 进行每周微博总结，温故知新； \n公众号环境过于封闭，在竹白建立 newsletter ； \n由于身体原因停更 newsletter； \n我回来了； \n幕后 \n我是 fenx—— \n一名普通的 UI 设计师，目前 Design Scenes 只有我一个人打理； \n我的职业背景应该没有任何让你感兴趣的地方； \n人在北京苟活； \n偶尔会让女友帮忙检查错字； \n有两只猫可以让我放松心情； \n不勤快，写作也可能是为了麻痹； \n工具栈 \n平台： Ghost \n托管： fly.io \n邮件： Mailgun \n分析： umami \n分析部署： Vercel \n数据库： Supabase \nPKM： Tana \n笔记： Capacities \nCLI： Warp \n代码：Cursor, Continue \n其他：Arc, Figma, Shortcuts \n代码主题 \n我使用的主题不支持代码语法高亮，所以需要借助第三方库 Prism 。当前自定义的主题样式为： \n <script src=\"https://unpkg.com/ [email protected] /components/prism-core.min.js\" defer></script>\n<script src=\"https://unpkg.com/ [email protected] /plugins/autoloader/prism-autoloader.min.js\" defer></script>\n<link rel=\"stylesheet\" href=\"https://unpkg.com/ [email protected] /themes/prism-okaidia.min.css\">\n<script src=\"https://unpkg.com/ [email protected] /plugins/toolbar/prism-toolbar.min.js\" defer></script>\n<link rel=\"stylesheet\" href=\"https://unpkg.com/ [email protected] /plugins/toolbar/prism-toolbar.min.css\">\n<script src=\"https://unpkg.com/ [email protected] /plugins/show-language/prism-show-language.min.js\" defer></script>\n<script src=\"https://unpkg.com/ [email protected] /plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js\" defer></script>\n<link href=\"https://fonts.font.im/css?family=Space+Mono\" rel=\"stylesheet\">\n<style>\n code[class*=language-], pre[class*=language-]{\n font-size: 16px !important;\n font-family: 'Space Mono', monospace;\n }\n div.code-toolbar>.toolbar {\n top: 9px !important;\n right: 0 !important;\n }\n div.code-toolbar > .toolbar > .toolbar-item {\n margin-right: 4px;\n }\n div.code-toolbar>.toolbar>.toolbar-item>a, div.code-toolbar>.toolbar>.toolbar-item>button, div.code-toolbar>.toolbar>.toolbar-item>span {\n font-size: 12px !important;\n padding: 4px 8px;\n color: #222;\n border-radius: 4px;\n box-shadow: none;\n background: #fff;\n border: 1px solid rgba(255, 255, 255, 0.2); \n }\n .toolbar .toolbar-item:first-child span {\n background: rgba(255, 255, 255, 0.1) !important;\n color: #fff !important; \n }\n div.code-toolbar>.toolbar>.toolbar-item>a, div.code-toolbar > .toolbar > .toolbar-item > button:hover, div.code-toolbar>.toolbar>.toolbar-item>span:hover {\n background: var(--ghost-accent-color);\n color: #fff;\n }\n</style> \n Design Scenes Weekly 如何诞生 \n 最早打算记录平时所见所闻的时间是 2020 年年初，原因是每日的获取信息越来越多，如果走马观花一样浏览完这些信息，感觉实在浪费。 \n 后来到六月"
+   },
+   "feed": {
+    "url": "https://fenx.work/rss/",
+    "count_seen": 15,
+    "items": [
+     {
+      "title": "#96 构建游戏源: New Games Hub",
+      "date": "Sun, 30 Aug 2026 05:30:38",
+      "url": "https://fenx.work/build-new-games-hub/"
+     },
+     {
+      "title": "#95 制作我的第一款 iOS App: 干饭手册",
+      "date": "Sun, 09 Aug 2026 08:40:09",
+      "url": "https://fenx.work/craft-my-first-ios-app-yumlog/"
+     },
+     {
+      "title": "#94 如何设计测试 LLM 生成 SVG 能力的平台",
+      "date": "Sun, 07 Jun 2026 02:36:16",
+      "url": "https://fenx.work/pokemon-svg-bench/"
+     },
+     {
+      "title": "#93 Paper (Alpha) 体验",
+      "date": "Mon, 22 Sep 2025 01:59:30",
+      "url": "https://fenx.work/paper-design-alpha/"
+     },
+     {
+      "title": "#92 Liquid Glass 之外 Apple 的改变",
+      "date": "Tue, 17 Jun 2025 11:07:30",
+      "url": "https://fenx.work/outside-of-liquid-glass-apple-changes/"
+     },
+     {
+      "title": "#91 建立 Design Fragments - Vibe Coding 实践",
+      "date": "Tue, 06 May 2025 01:31:14",
+      "url": "https://fenx.work/build-design-fragments/"
+     },
+     {
+      "title": "#90 Figma Deep Search 扩展试验",
+      "date": "Fri, 21 Feb 2025 07:01:20",
+      "url": "https://fenx.work/figma-deep-search-chrome-extension/"
+     },
+     {
+      "title": "#89 Tana 迷雾",
+      "date": "Thu, 13 Feb 2025 01:59:48",
+      "url": "https://fenx.work/tana-fog/"
+     },
+     {
+      "title": "# SP3 给 Ghost 增加 llms.txt",
+      "date": "Sat, 08 Feb 2025 02:33:19",
+      "url": "https://fenx.work/add-llms-txt-to-ghost/"
+     },
+     {
+      "title": "#88 制作一款 Figma 中查看图片直方图的插件",
+      "date": "Tue, 21 Jan 2025 02:58:18",
+      "url": "https://fenx.work/figma-plugin-show-image-histogram/"
+     },
+     {
+      "title": "#87 制作一款给位图增加描边的 Figma 插件",
+      "date": "Tue, 07 Jan 2025 15:40:48",
+      "url": "https://fenx.work/figma-plugin-add-stroke-to-bitmaps/"
+     },
+     {
+      "title": "Creating a Figma Plugin to Add Stroke to Bitmaps",
+      "date": "Tue, 07 Jan 2025 15:39:56",
+      "url": "https://fenx.work/figma-plugin-add-stroke-to-bitmaps-en/"
+     },
+     {
+      "title": "#SP2 iii 计划背后的 40 家独立游戏厂商介绍",
+      "date": "Mon, 27 May 2024 08:05:11",
+      "url": "https://fenx.work/the-triple-i-initiative-introduce/"
+     },
+     {
+      "title": "#86 做一款 Delta 模拟器皮肤",
+      "date": "Sun, 05 May 2024 06:43:15",
+      "url": "https://fenx.work/make-a-delta-simulator-skin/"
+     },
+     {
+      "title": "#85 偷窥 Ferret-UI",
+      "date": "Fri, 12 Apr 2024 02:59:50",
+      "url": "https://fenx.work/peep-at-ferret-ui/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://df.fenx.work",
+   "ok": true,
+   "title": "Design Fragments",
+   "description": "Knowledge Has No Bounds",
+   "stack": [
+    "Astro v7.3.2",
+    "Astro",
+    "Umami",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-CN",
+   "home_text": "0% \n --> \n 2026 · 10 \n Snippets 80 \n偏好设置\n Bang-Up Job \n我很喜欢一些「奇怪的」项目，特别是当它们还带有一些美学色彩时。Bang-Up Job 是摄影师 Jason Travis 的个人业余项目，专门拍摄汽车车体擦碰后用胶带临时固定的状态。大部分汽车车体是纯色的，搭配五彩斑斓的胶带，有一种别样的氛围，甚至当做时装穿搭灵感。 \n 10 小时前 \n Kiss Branding 新品牌设计 \nKiss 品牌工作室内部的设计迭代，原本是普通的 Radiate Sans 字体，新标识改为了精致的手写风格字体，在大写 K 和小写 i 之间形成了爱心形状的负空间。新设计了一个丘比特动态图形，并结合 PP Migra 作为主字体。切换菜单时，丘比特会做出射箭打开页面的效果。 \n 10 小时前 \n 使用柠檬黄将鸡肉变为半透明 \n虽然理论上可以用从多力多滋上刮下并提取柠檬黄，但作者还是买了色素粉。在约 0.19M 浓度、室温、静置的情况下，让鸡肉变得半透明。实验来自前几年的那篇柠檬黄让皮肤组织变透明的论文，原理是让染液与蛋白质、脂肪的折射率接近一致。 \n 10 小时前 \n Anatomy Skill \n一个 agent skill，生成你想了解的事物背后的构造和原理。支持使用 SVG、WebGL 和 3D 不同媒介来呈现。现在网站有了社区，可以看到别人上传的资源。 \n 10 小时前 \n MOG3D \n一款小巧的网页体素创建工具，可以绑定骨骼做动画，并支持导出 VRM 或 GLB。 \n 11 小时前 \n Text Effect Generator \n纯 CSS 启动的动效，本以为是 ai slop 内容，但是看了后感觉挺不错的。 \n 11 小时前 \n CD Mocky \n网页版 CD 的 mockup，支持定制内外封面还有侧标，然后以自由的视角保存造型图片。如果有 3D 导出就更好了。 \n 11 小时前 \n PS5LM \nPS5 的 RDNA 2 GPU 共享这 11.4 GB 的内存，破解后用 ggml-vulkan 的 llama.cpp 来载入 LLM 放一些小型模型，以及一个有点酷的界面。演示中可以安装 unsloth 的 Qwen3.8-27B-UD-Q2_K_XL，64K 上下文可以跑到 20 tps。事实上 PS5 的内存带宽有 448 GB/s，家用设备里不算慢了。 \n 4 天前 \n 移动端 Safari 填充下方安全区内容 \n默认 Safari 有着上下安全区区域，非滚动区域的背景色会被直接截断。顶部可以用 theme-color 来赋予颜色，但是底部依然触发填充。WebKit 目前有一个 \"bug\"，在上下区域填充至少 5px 高度的内容时，会自动按照这个区域的颜色来扩展显示颜色，也就是填充到上下安全区。 \n 4 天前 \n Futura®100 汉字 \n之前的 Typotheque 为旗下的多款字体配备了简体中文字形，如今没想到 Futura 也有了中文配备字形。这次 TypeTogether 发起，刘钊工作室主导的设计，设计师是杨翕丞和陈月。Futura 的几何感特色对于中文来讲需要大量拓展笔画，样张中能看到很多大胆的笔画设计，但也导致重心排布可能不太稳定…… \n 4 天前 \n Kenney Shape - 体素创作工具 \n独立游戏慈善家 Kenny 的工具，最开始是 2023 年发布的体素小工具，通过指定像素的挤压深度来快速建模。今年最后一次更新后，直接免费公开了。 \n 4 天前 \n Image-to-Pixel 工具 \n备用。有很多像素化工具，这个效果还不错，自带了很多调色盘和常见 dither 算法。 \n 4 天前 \n Furifont：自带振假名的日文字体 \nFurifont 是一款把振假名直接显示在字体上的日语字体。利用连字特性（ligature）按词语的读音切换。默认使用思源黑体构建，也可以自助构建字体。附带了一个变更网页字体的小工具。 \n 4 天前 \n 如今一部电影有多少镜头 \n如今一部典型电影约有 1500 个镜头（2017–2025 年中位数为 1535），几乎是 1950 年代的三倍，平均每四秒切换一个镜头。不过这种加速主要发生在 1960 至 2005 年间，过去二十年已基本趋于平稳。决定剪辑节奏的首要因素不是剪辑师，而是导演，比如奉俊昊估算自己的电影电影都不会超过 1000。类型、预算、时长也都会拉高镜头数，而奥斯卡提名片反而剪得更慢。 \n 4 天前 \n Macintosh Skeletal Filled \n近几年设计师一直好奇苹果设备的开屏「你好」各语言字体的平替，现在本体被挖出来看敢不敢用了。打开字符表，「你好」的各语言都是固定的组合路径。剩下的区域大多是书法连字所延伸的拼合笔画。可能这就是刻在基因里的书法爱好者吧。 \n 6 天前 \n Guitoro \n可以用键盘弹奏的在线虚拟吉他。支持原声吉他、电吉他和贝斯声色。 \n 6 天前 \n Cupertino Tech \n苹果发布了大量的 SDK、框架和工具，这个网站提供了一个清晰的汇总目录，带有时间轴和通俗易懂的简介。 \n 6 天前 \n 一些漫画生成工具 \nシャープさん的工具合集，比如有生成漫画 layout 的，有生成漫画背景的，有生成漫画分镜的、角色姿势、对话气泡等等。 \n 6 天前 \n 纯 CSS 复合字体 \n借用下原网页描述：像 InDesign 的复合字体一样，为汉字、假名和西文分别指定字体与大小。全部用 CSS 实现，无需插件。实际上也有支持很多高级排版属性，最终可以一键复制 CSS 导出使用。 \n 6 天前 \n Refine - 离线语法检查工具 \n基于 Gemma 4 系列模型（默认 E4B）的本地离线语法检查工具，内置 llama.cpp，但也支持在线模型。E2B 的话多语言弱一些。如果开启自动检查的话感觉依然会占用不少内存。买断制。 \n 6 天前 \n加载更多\n Kiss Branding 新品牌设计 \nKiss 品牌工作室内部的设计迭代，原本是普通的 Radiate Sans 字体，新标识改为了精致的手写风格字体，在大写 K 和小写 i 之间形成了爱心形状的负空间。新设计了一个丘比特动态图形，并结合 PP Migra 作为主字体。切换菜单时，丘比特会做出射箭打开页面的效果。 \n 10 小时前 \n MOG3D \n一款小巧的网页体素创建工具，可以绑定骨骼做动画，并支持导出 VRM 或 GLB。 \n 11 小时前 \n Text Effect Generator \n纯 CSS 启动的动效，本以为是 ai slop 内容，但是看了后感觉挺不错的。 \n 11 小时前 \n CD Mocky \n网页版 CD 的 mockup，支持定制内外封面还有侧标，然后以自由的视角保存造型图片。如果有 3D 导出就更好了。 \n 11 小时前 \n 移动端 Safari 填充下方安全区内容 \n默认 Safari 有着上下安全区区域，非滚动区域的背景色会被直接截断。顶部可以用 theme-color 来赋予颜色，但是底部依然触发填充。WebKit 目前有一个 \"bug\"，在上下区域填充至少 5px 高度的内容时，会自动按照这个区域的颜色来扩展显示颜色，也就是填充到上下安全区。 \n 4 天前 \n Futura®100 汉字 \n之前的 Typotheque 为旗下的多款字体配备了简体中文字形，如今没想到 Futura 也有了中文配备字形。这次 TypeTogether 发起，刘钊工作室主导的设计，设计师是杨翕丞和陈月。Futura 的几何感特色对于中文来讲需要大量拓展笔画，样张中能看到很多大胆的笔画设计，但也导致重心排布可能不太稳定…… \n 4 天前 \n Kenney Shape - 体素创作工具 \n独立游戏慈善家 Kenny 的工具，最开始是 2023 年发布的体素小工具，通过指定像素的挤压深度来快速建模。今年最后一次更新后，直接免费公开了。 \n 4 天前 \n Image-to-Pixel 工具 \n备用。有很多像素化工具，这个效果还不错，自带了很多调色盘和常见 dither 算法。 \n 4 天前 \n Furifont：自带振假名的日文字体 \nFurifont 是一款把振假名直接显示在字体上的日语字体。利用连字特性（ligature）按词语的读音切换。默认使用思源黑体构建，也可以自助构建字体。附带了一个变更网页字体的小工具。 \n 4 天前 \n Macintosh Skeletal Filled \n近几年设计师一直好奇苹果设备的开屏「你好」各语言字体的平替，现在本体被挖出来看敢不敢用了。打开字符表，「你好」的各语言都是固定的组合路径。剩下的区域大多是书法连字所延伸的拼合笔画。可能这就是刻在基因里的书法爱好者吧。 \n 6 天前 \n Cupertino Tech \n苹果发布了大量的 SDK、框架和工具，这个网站提供了一个清晰的汇总目录，带有时间轴和通俗易懂的简介。 \n 6 天前 \n 一些漫画生成工具 \nシャープさん的工具合集，比如有生成漫画 layout 的，有生成漫画背景的，有生成漫画分镜的、角色姿势、对话气泡等等。 \n 6 天前 \n 纯 CSS 复合字体 \n借用下原网页描述：像 InDesign 的复合字体一样，为汉字、假名和西文分别指定字体与大小。全部用 CSS 实现，无需插件。实际上也有支持很多高级排版属性，最终可以一键复制 CSS 导出使用。 \n 6 天前 \n 动效参考资料 \n之前介绍过 FXEL 这款动效节点编辑器。后来发现作者 Takayu さん不简单啊，也是「囤囤鼠」。网站搜集了大量视觉资料，动效、blender、生图 prompt、AE 教程和光照参考等等。 \n 9 天前 \n iwrzwr / visual archive \n一些波形、频谱、粒子等元素的机械动画，可作为可视化的灵感。 \n 11 天前 \n FXEL - Voxel & Pixel FX Node Editor \nPixel Composer 已经有些门槛了，这个网页版的工具更复杂一些。提供的一些基础效果的节点（比如火焰），背后也有数个基础公式节点。特色是同时支持像素（2D）和体素（3D）的 VFX 效果。 \n 11 天前 \n Michelangelus \n微软设计团队突然发布了 Michelangelus 这款人文主义衬线字体，灵感源自米开朗基罗的手稿与雕刻作品。字体由意大利与德国的独立创意机构 Studiogusto 操刀，受Fabbrica di San Pietro（梵蒂冈圣伯多禄大殿管理处）委托，用以纪念圣伯多禄大殿祝圣 400 周年。字体很有 Garamond 系列风味，但是可能没那么适用于正文。 \n 11 天前 \n 印度地铁中的多语种指",
+   "github_links": [
+    "Hawzen",
+    "Hugo-Dz",
+    "KoBeWi",
+    "fenxer"
+   ],
+   "subpages": {
+    "https://df.fenx.work/about": "Design Fragments © 2026\n2.0 \n一年后的新版补齐了文章条目，增加了信息密度，可能最终的形式是每个条目都有各自的展现形式。\n我的开发能力也随着模型变强而提升了（？） \n主要使用：Grok4.5, Composer 2.5, GPT-5.3-Codex, GPT-5.5 \n1.0 \nDesign Fragments 1.0 的目标是搜集自我写 newsletter 以来的所有碎片信息。得益于 LLM 的发展，才得以让这个项目实现。\n更多说明，请查看 这篇文章 。\n主要使用：Claude Sonnet 3.7 \nTypeface \nSF Pro \n正文 \nPP Pangaia \nBrand \nPP Editorial New \nWall \nEngine \nCloudflare \nAdapter \nAstro \nFramework \nVanilla JS \nDevelop \nTailwind \nCSS \nSupabase \nDatabase \nFigma \nDesign \nCursor \nCoding \nZed \nEditor \nOtty \nTerminal \nSocial \n 我在 Design Scenes 写作 \n fenx.work ↗ 我的主页 \n fenx.design ↗ 我在 X 发布日常 \n @haxfenx ↗ 我在小红书随便发发图 \n @fenx ↗ 我在 Figma 分享设计文件 \n @fenx ↗ 我在 Github 分享一些项目 \n @fenxer ↗ 我在 Bangumi 管理游戏 \n @fenx ↗ \nFeedback 请邮件 Mail ↗ \nReference\n GSAP \n gsap.com ↗ Shiki \n shiki.style ↗ marked \n marked.js.org ↗ pinyin-pro \n pinyin-pro.cn ↗ snapdom \n snapdom.dev ↗ qr-code-styling \n qr-code-styling.com ↗ slot-text \n textmotion.dev ↗ \nPrivacy Policy\n本站不会存储任何个人 Cookies 信息，只会在本地存储一些网站设置项。你可以打开浏览器开发工具，点击 Application 选项卡详细查看。\n本站使用 umami 作为网站分析——一款专注隐私的开源工具，主要用于统计出站链接的点击次数。如果依然介意，你可以屏蔽下方 js 地址。\nanalysis.fenx.work/dsnewsletter \nTerms of Service\n本网站及其内容不应以非法用途使用，不应作为知识付费内容，除此之外请随意。欢迎分享本网站！\nAI Disclosure \n本网站内容来源于互联网其他人分享，来源在录入前都会经过我的验证，AI 没有参与此过程。\n--- \n本网站 117 期前的内容，均从我之前写的周刊 Design Scenes Weekly 中摘录，该摘录过程中使用了 AI 帮我总结并输出 csv 格式以导入数据库。\n--- \nDesign Scenes Weekly 内容均由我本人撰写，撰写过程中从未使用任何 AI 产品辅助（因为当时也没有）。\n--- \n本网站 117 期后的内容，均由我本人撰写推荐语。在筛选信息源过程中我有使用 AI 辅助我理解信息，但是撰写过程中 AI 并不会参与。"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://fenx.design",
+   "ok": false
+  }
+ ],
+ "github": {
+  "login": "fenxer",
+  "user": {
+   "name": "fenx",
+   "company": null,
+   "blog": "https://fenx.design",
+   "location": "Dalian",
+   "bio": "Ignorant Designer",
+   "public_repos": 18,
+   "followers": 50,
+   "created_at": "2012-11-02T13:54:31Z",
+   "twitter_username": "haxfenx",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "fenxer/llm-things",
+    "description": "A collection of LLM memes",
+    "stargazers_count": 618,
+    "forks_count": 10,
+    "language": null,
+    "homepage": "https://df.fenx.work/llm-things/",
+    "created_at": "2025-08-23T05:47:51Z",
+    "pushed_at": "2026-09-28T08:08:15Z",
+    "topics": [
+     "llm",
+     "meme",
+     "stickers"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/image-stroke-figma-plugin",
+    "description": "Add Vector Strokes to Bitmaps Directly in Figma",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "https://www.figma.com/community/plugin/1457662942651611491/image-stroke",
+    "created_at": "2025-05-20T09:34:18Z",
+    "pushed_at": "2025-05-23T12:45:35Z",
+    "topics": [
+     "figma",
+     "figma-plugin",
+     "stroke"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/agent-aibo",
+    "description": "Native macOS desktop companion",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "https://aibo.fenx.work",
+    "created_at": "2026-07-27T07:51:29Z",
+    "pushed_at": "2026-10-16T12:18:07Z",
+    "topics": [
+     "agent-pet",
+     "hook",
+     "macos",
+     "webhook"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/steam-review-mcp",
+    "description": "Get reviews from Steam store",
+    "stargazers_count": 7,
+    "forks_count": 6,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2025-03-20T05:31:01Z",
+    "pushed_at": "2026-01-28T03:30:45Z",
+    "topics": [
+     "mcp",
+     "steam"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/design-scenes-weekly-archive",
+    "description": "Design Scenes Weekly 1 - 76 期周刊归档",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-04-19T13:20:12Z",
+    "pushed_at": "2025-04-19T13:25:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/figma-deep-search-chrome-extensions",
+    "description": "用于展示 Figma Deep Search 信息，支持节点级搜索",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-02-19T10:13:34Z",
+    "pushed_at": "2025-02-21T06:34:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/macos-summarize-internals",
+    "description": "Reverse-engineering macOS Summary Service / SearchKit SKSummary: extractive TF-IDF summarization, with a Python reimplementation byte-verified against the system.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-07-23T06:17:51Z",
+    "pushed_at": "2026-07-23T06:17:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/fenx-resume",
+    "description": "安装 skills 了解我",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-07-01T08:11:57Z",
+    "pushed_at": "2026-07-01T08:48:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/fenxer",
+    "description": "oh…",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-03-20T18:20:09Z",
+    "pushed_at": "2025-03-20T18:27:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/genie-web",
+    "description": "Classic macOS Genie Effect on the web with WebGL mesh warp.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-08-30T15:46:29Z",
+    "pushed_at": "2026-09-01T16:59:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fenxer/rsshub",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-08-11T03:16:05Z",
+    "pushed_at": "2026-10-21T08:09:57Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 11,
+  "languages": [
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "Swift",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "fenxer/agent-aibo",
+    "stargazerCount": 7,
+    "description": "Native macOS desktop companion",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://aibo.fenx.work"
+   },
+   {
+    "nameWithOwner": "fenxer/llm-things",
+    "stargazerCount": 618,
+    "description": "A collection of LLM memes",
+    "primaryLanguage": null,
+    "homepageUrl": "https://df.fenx.work/llm-things/"
+   },
+   {
+    "nameWithOwner": "fenxer/fenx-resume",
+    "stargazerCount": 0,
+    "description": "安装 skills 了解我",
+    "primaryLanguage": null,
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "fenxer/design-scenes-weekly-archive",
+    "stargazerCount": 3,
+    "description": "Design Scenes Weekly 1 - 76 期周刊归档",
+    "primaryLanguage": null,
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "fenxer/image-stroke-figma-plugin",
+    "stargazerCount": 8,
+    "description": "Add Vector Strokes to Bitmaps Directly in Figma",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "https://www.figma.com/community/plugin/1457662942651611491/image-stroke"
+   },
+   {
+    "nameWithOwner": "fenxer/genie-web",
+    "stargazerCount": 0,
+    "description": "Classic macOS Genie Effect on the web with WebGL mesh warp.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 1369,
+  "orgs": [],
+  "profile_readme": "👋 VIBE DESIGNING...\n\n> 改装中…ここに貼る badge をいくつか做做ます。\n\n\n",
+  "readmes": {
+   "fenxer/agent-aibo": "# aibo\nEnglish ｜ [简体中文](README_CN.md)\n> あいぼう，エージェント走らせるぜ！\nNative macOS desktop companion.\nStays perched on your desktop, broadcasting two types of info via speech bubbles:\n1. **Local AI Agent Status**: Real-time thinking, tool calls, and completion events from Cursor, Codex, etc. via hooks.\n2. **Remote Webhook Notifications**: Deployment status, CI results, etc. (requires your own tunnel).\n## Features\n- Native app without heavy helper processes hogging system resources.\n  - ~~Enjoy authentic SwiftUI stutters~~\n- Supports [PetDex](https://petdex.dev/) V1/V2 assets.\n- Install from a local static image, or a `.zip` of V1/V2 assets.\n- Handy little extras:\n  - Webhook received logs\n  - Music notes when the system is playing audio\n  - Pixel-art sprite display optimization\n  - Slice spritesheets to keep resident resources down\n  - Minimalist extension\n## Roadmap\n[View here](https://github.com/users/fenxer/projects/1/views/2)\n## Skills\n- [hatch-aibo](Skills/hatch-aibo): a rework of the original `hatch-pet` skill for more controllable sprite quality\n- [aibo-webhook](Skills/aibo-webhook): how to send webhook messages to aibo\n## Structure\n```\nApp/        Desktop UI (panel, bubbles, settings)\nAiboKit/    Core logic and tests (events, hooks, webhook)\nHook/       aibo-hook CLI\nSkills/     Agent skills\nScripts/    Build and launch\n```\n## Requirements\nmacOS 26 or later.\n## Install\nDownload `Aibo-*.dmg` from [Releases](https://github.com/fenxer/agent-aibo/releases/latest), open it, and drag `aibo.app` into **Applications**. Do not keep running it from Downloads — in-app updates need the app to live in `/Applications`.\n## Contributing\n**This project does not accept Pull Requests.**\nFeel free to open an [Issue](../../issues) for feedback or ideas, or fork and hack on it in your own repository.\nWhen forking, consider generating an `AGENTS.md` first and develop with your preferred workflow. For example:\n- \"Help me adapt Claude Code hook messages\"\n- \"Help me adapt this to macOS 15 and earlier\"\n- \"Help me adapt this to Linux\"\n## Build\n```bash\n# Core logic tests\ncd AiboKit && swift test\n# Build app\nxcodebuild -project aibo.xcodeproj -scheme aibo -configuration Debug build\n# Build and l",
+   "fenxer/llm-things": "# LLM Things\n[](https://www.figma.com/community/file/1541778616544636852/llm-things)\n&nbsp;&nbsp;\n[](https://df.fenx.work/llm-things/)\n<br>\nThis repo is a collection of LLM memes including png & svg. Just for kicks.\nGot any new ideas? Feel free to open an issue!\n<br>\n| Sticker | Description |\n| ------------- | ------------- |\n|  | In the past, people often saw this sentence at the beginning of replies in Claude Code. |\n|  | Wait, reset again? |\n|  | Fat cat saves the world |\n|  | 龙虾千万条，安全第一条。配置不规范，系统两行泪。Countless lobsters, safety rule first. Messy configs, a system in pools (of tears). |\n|  | The Qwen models have made a massive contribution to the open-source community. Since you can see its influence in so many open-source projects, it reminds me a bit of Ditto! And yeah, you caught me—I've definitely been playing a lot of Pokopia lately. |\n|  | Hey bro! You up? There's a new Claude model out... |\n|  | Do Soulers dream of digital soul.md? |\n|  | Wanted: Anyone with a Pinyin name. Penalty for being caught: A full refund. |\n|  | It's been almost a year since its announcement, and Apple Intelligence is still unavailable in mainland China. iPhone users in China consistently see the small footnote: \"Apple Intelligence launch date subject to regulatory approval.\"<br />As for \"pigeon\", in contemporary Chinese it means to \"break a promise\" or \"fail to keep an appointment\". So it's appearance. |\n|  | DeepSeek immersed itself in the RL bathtub, and as mathematical formulas spilled out, it exclaimed, \"Wait, wait. Wait. That’s an aha moment I can flag here.\" |\n|  | RAG is dead, and alive, and dead again, and alive again. |\n|  | These massive pull requests often contain LLM collaboration. |\n|  | TIME100 AI 2025, Pliny the Liberator made the cut. Wait, what? |\n|  | The longest time in the world. |\n|  | If you use Google Translate to translate 'LLM' and 'PNG' into Chinese, you will only get the results 'Master of Laws' and 'Papua New Guinea'. |\n|  | The .ai domain is part of Anguilla's fiscal revenue. |\n|  | You should ask Adam Wathan, the founder and CEO of Tailwind. |\n|  | Humans make mistakes, but that's why we are human. |\n|  | Human can press tab. |\n|  | As LLMs have adv",
+   "fenxer/fenx-resume": "# fenx-resume\n这是一个把 fenx 个人简历做成 Agent Skill 的项目。\n安装后，你可以在支持 Agent Skills 的 AI 工具里，通过对话方式了解 fenx 的基本信息、工作经历、个人项目、AI 协作经验、公开主页和常见问答。\n## 安装\n可使用 `skills` CLI 安装：\n```bash\nnpx skills add fenxer/fenx-resume\n```\n## 如何使用\n安装后，可以直接向你的 AI 提问，例如：\n- fenx 是谁？\n- fenx 的工作经历有哪些？\n- fenx 适合什么样的岗位或合作方式？\n- fenx 有哪些个人项目？\n- fenx 如何使用 AI 和 Agent 工具？\n- 在哪里可以看到 fenx 的公开主页或内容更新？\n- 如何联系 fenx？\n## 内容结构\n- `skills/fenx-resume/SKILL.md`：Skill 入口和使用规则。\n- `skills/fenx-resume/references/PROFILE.md`：基本信息和联系方式。\n- `skills/fenx-resume/references/SOCIAL_PROFILES.md`：公开主页、社交账号和内容发布渠道。\n- `skills/fenx-resume/references/EXPERIENCE.md`：工作履历和公司经历。\n- `skills/fenx-resume/references/PERSONAL_PROJECTS.md`：个人项目和非公司项目。\n- `skills/fenx-resume/references/AI_COLLABORATION.md`：AI 协作方式、工具经验和 Agent 工作流。\n- `skills/fenx-resume/references/QA.md`：常见问答和补充背景。\n## 信息时效\n本 Skill 中的信息更新截至 `2026-07-01`。除非参考文件中另有说明，请不要假设 fenx 在此日期之后的经历、项目、状态或联系方式发生了变化。\n## 使用边界\n本项目中的个人信息仅允许用于了解、评估、介绍或联系 fenx。请不要基于本 Skill 编造未包含的经历、项目、成果、学历或联系方式。\n如果发现信息错误或需要进一步联系，请通过 Skill 中提供的邮箱联系。\n",
+   "fenxer/design-scenes-weekly-archive": "# Design Scenes Weekly 归档\n本通讯为设计视角下的互联网资讯观察与节选。内容除了自身界面设计职业相关的信息外，还会涉及字体、品牌、产品体验、数码电子、商业新闻、创投与增长（无投资建议）等杂类信息。\n在 76 期停止发布，转为长文不定期更新 → [https://fenx.work/](https://fenx.work/)\n现在此归档，之后会提炼条目，逐步转移到 Design Fragments 上。",
+   "fenxer/image-stroke-figma-plugin": "# Image Stroke\n<a href=\"https://www.figma.com/community/plugin/1457662942651611491/image-stroke\" target=\"_blank\">\n</a>\n<br>\n<br>\n**Add Vector Strokes to Bitmaps Directly in Figma**\n- Focuses solely on generating the outline stroke of the image, without processing internal details；\n- Ready to use out of the box，everything is done within Figma；\n- Supports both Chinese and English language switching；\n- Compatible with Figma's light and dark theme modes；\n## Build\nPlease refer to the [Plugin Quickstart Guide](https://www.figma.com/plugin-docs/plugin-quickstart-guide/) for developing plugins.\n## Acknowledgements\nAlgorithm referenced from [liajoy/image-stroke](https://github.com/liajoy/image-stroke) 🚀\nSpecial thanks to [@R_Masamune](https://steamcommunity.com/id/R_Masamune/)"
+  }
+ },
+ "apps": []
+}

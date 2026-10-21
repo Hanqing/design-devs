@@ -1,0 +1,95 @@
+{
+ "handle": "sonicbluestrats",
+ "sites": [
+  {
+   "url": "http://pixegen.net/",
+   "ok": true,
+   "title": "Pixegen",
+   "description": "Pixegen - makers of modern communication tools. News, updates, and notes from the team behind uRSS.",
+   "stack": [
+    "Astro v7.3.1",
+    "Google Analytics"
+   ],
+   "hosting": [],
+   "lang": "en",
+   "home_text": "Makers of modern tools. \nPixegen builds simple, focused apps that help you stay connected to what matters — starting with uRSS, our RSS reader for iOS. \nOur Apps \nPixelLoupe \nmacOS • Raw • Open source \nA raw photo editor and catalog for the Mac, built for photographers coming from Lightroom Classic and Aperture. Bring your catalog and presets, keep your shortcuts. Free and open source. \n Learn more → \nUltravault \nMac • iPhone • iPad • Vault \nA locked vault for logins, passkeys, cards, receipts, and the sensitive bits of life. Encrypted with CryptoKit on your Mac, iPhone, and iPad, synced through your own iCloud only if you say so. Coming soon. \n Learn more → \nuRSS for iOS \niOS • Swift • RSS \nA fast, focused RSS reader for iPhone. Organize feeds into groups, swipe to mark read or favorite, and read comfortably in light or dark mode - no accounts, no algorithms, just your feeds. \n Learn more → \nuRSS for Mac \nmacOS • Swift • RSS \nYour RSS feeds and podcasts on the desktop, in a true three-pane Mac app. Folders, smart favorites, muted words and a Now Playing window - fast, local and private, with no accounts and no cloud. \n Learn more → \nuRSS for Android \nAndroid • Kotlin • RSS \nThe same fast, focused RSS reading experience, built natively for Android. Groups, gestures, and light or dark themes - everything you love about uRSS, on your Android phone. \n Get on the Play Store \nBrowserSwap \nmacOS • Menu bar • Utility \nSwitch your Mac’s default browser in one click from the menu bar. Finds the browsers you’ve actually installed, optional schedules, no account — actually free. \n Learn more → \nLatest from the Blog \n Oct 19, 2026 \nPixelLoupe and Ultravault Status \nPixelLoupe - our full featured photo cataloging and editing app is live! Free and open source! Read more Sep 17, 2026 \nBrowserSwap is in App Review \nA tiny Mac menu bar app for switching your default browser, headed to the Mac App Store. Read more Sep 17, 2026 \nuRSS 1.1 for Mac and 2.3.1 for iOS \nPerformance updates and bug fixes for uRSS on Mac, iPhone, and iPad. Read more",
+   "github_links": [],
+   "subpages": {
+    "http://pixegen.net/blog/": "The Blog. \nNews, product updates, and notes on RSS and the open web from the Pixegen team. \n Featured Oct 19, 2026 \nPixelLoupe and Ultravault Status \nPixelLoupe - our full featured photo cataloging and editing app is live! Free and open source! Read more \n Sep 17, 2026 \nBrowserSwap is in App Review \nA tiny Mac menu bar app for switching your default browser, headed to the Mac App Store. Read more Sep 17, 2026 \nuRSS 1.1 for Mac and 2.3.1 for iOS \nPerformance updates and bug fixes for uRSS on Mac, iPhone, and iPad. Read more Sep 6, 2026 \nSomething new is coming... \nCurrently baking in the oven. Read more Sep 5, 2026 \nuRSS 1.0 for macOS \nuRSS - now on your desktop. Read more Sep 4, 2026 \nuRSS 2.3.0 for iOS \nFree for all! Read more Aug 25, 2026 \nuRSS 2.2.3 for iOS \nTags and some visual updates. Read more"
+   },
+   "feed": {
+    "url": "https://pixegen.net/rss.xml",
+    "count_seen": 13,
+    "items": [
+     {
+      "title": "BrowserSwap is in App Review",
+      "date": "Thu, 17 Sep 2026 16:00:00",
+      "url": "https://pixegen.net/blog/browserswap-in-app-review/"
+     },
+     {
+      "title": "Something new is coming...",
+      "date": "Sun, 06 Sep 2026 00:00:00",
+      "url": "https://pixegen.net/blog/cosmovault-teaser/"
+     },
+     {
+      "title": "uRSS 2.1 and beyond",
+      "date": "Thu, 16 Jul 2026 00:00:00",
+      "url": "https://pixegen.net/blog/introducing-the-new-pixegen-website/"
+     },
+     {
+      "title": "Mac version in progress",
+      "date": "Fri, 26 Jun 2026 00:00:00",
+      "url": "https://pixegen.net/blog/mac-version-in-progress/"
+     },
+     {
+      "title": "PixelLoupe and Ultravault Status",
+      "date": "Mon, 19 Oct 2026 00:00:00",
+      "url": "https://pixegen.net/blog/pixelloupe-and-ultravault-status/"
+     },
+     {
+      "title": "uRSS 2.2.3 for iOS",
+      "date": "Tue, 25 Aug 2026 00:00:00",
+      "url": "https://pixegen.net/blog/urss-223/"
+     },
+     {
+      "title": "uRSS 2.3.0 for iOS",
+      "date": "Fri, 04 Sep 2026 00:00:00",
+      "url": "https://pixegen.net/blog/urss-230-released/"
+     },
+     {
+      "title": "uRSS 1.1 for Mac and 2.3.1 for iOS",
+      "date": "Thu, 17 Sep 2026 00:00:00",
+      "url": "https://pixegen.net/blog/urss-mac-1-1-and-ios-2-3-1/"
+     },
+     {
+      "title": "uRSS 1.0 for macOS",
+      "date": "Sat, 05 Sep 2026 00:00:00",
+      "url": "https://pixegen.net/blog/urss-mac-10-available/"
+     },
+     {
+      "title": "Designing the uRSS Reading Experience",
+      "date": "Mon, 18 May 2026 00:00:00",
+      "url": "https://pixegen.net/blog/urss-reading-experience/"
+     },
+     {
+      "title": "Announcing uRSS 2.0",
+      "date": "Tue, 16 Jun 2026 00:00:00",
+      "url": "https://pixegen.net/blog/urss-version-2/"
+     },
+     {
+      "title": "uRSS 2.01 is live",
+      "date": "Mon, 22 Jun 2026 00:00:00",
+      "url": "https://pixegen.net/blog/version-201/"
+     },
+     {
+      "title": "Why RSS Still Matters in 2026",
+      "date": "Mon, 04 May 2026 00:00:00",
+      "url": "https://pixegen.net/blog/why-rss-still-matters/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "apps": []
+}

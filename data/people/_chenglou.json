@@ -2,60 +2,227 @@
  "name": "Cheng Lou",
  "role": "前 React 核心成员 · Midjourney 工程师",
  "title": "Cheng Lou：给界面装上<em>弹簧</em>的人",
- "dek": "react-motion 让整个前端世界开始用弹簧思考动画；他参与的 Reason/ReScript 把 OCaml 带进 Messenger；如今在 Midjourney，他又用 Pretext 重新定义浏览器里的文字排版。",
- "card": "react-motion、ReasonML、Pretext 作者，现于 Midjourney；对抽象与动画有极高品味。",
+ "dek": "2015 年，react-motion 让整个前端世界开始用弹簧思考动画；在 Facebook，他参与的 Reason 让 Messenger 网页版一半代码换成了 OCaml 方言；2026 年在 Midjourney，他用 Pretext 绕开浏览器最昂贵的重排，又用 Freerange、handwired 把 AI 编程推向「可验证」。",
+ "card": "react-motion、Pretext 的作者；参与 React、Messenger、ReasonML / ReScript，现于 Midjourney。",
  "location": "美国加州",
- "tags": ["React", "动画", "ReScript", "排版", "TypeScript"],
- "links": [{"label": "GitHub", "url": "https://github.com/chenglou"}, {"label": "Pretext 演示", "url": "https://chenglou.me/pretext/"}, {"label": "chenglou.me", "url": "https://chenglou.me"}],
+ "updated": "2026-10-21",
+ "tags": ["React", "动画", "文字排版", "编程语言", "AI 辅助开发"],
+ "links": [
+  {"label": "chenglou.me", "url": "https://chenglou.me"},
+  {"label": "Pretext", "url": "https://github.com/chenglou/pretext"},
+  {"label": "GitHub", "url": "https://github.com/chenglou"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>前 Facebook React 团队成员，react-motion 作者，ReasonML / ReScript 核心贡献者，现在是 Midjourney 的工程师。",
-  "<strong>代表作：</strong>react-motion（2015，★2 万+，启发了 react-spring 与 Framer Motion）、Pretext（2026，★5 万+，不碰 DOM 的多语言文本测量与排版）。",
-  "<strong>为什么值得关注：</strong>他总在问「这一层抽象是不是必要的」，并愿意为一个看似底层的问题写出极其精致的解法。"
+  "<strong>一句话：</strong>一个总在做「底层原语」的工程师，但每个原语都从用户能感受到的问题出发：动画被打断时的突兀、聊天列表里文字高度算不准造成的跳动、布局代码里潜伏的 NaN。",
+  "<strong>代表作：</strong>react-motion（★2.2 万，弹簧动画的开山之作）、Pretext（★5 万+，不碰 DOM 的多行文本测量与排版）、ReasonML / ReScript（参与）、Freerange、handwired、sotaku。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 1 万，近一年贡献 6,227 次；X 关注者约 7.9 万。Pretext 发布 48 小时内收获上万星，发布推文的浏览量据报道超过千万。",
+  "<strong>看点：</strong>他公开说 Pretext 是借助 Claude Code 和 Codex 写成的，并把「用浏览器自己的字体引擎作为真值」称为「对 AI 非常友好的迭代方式」。"
  ],
- "lead": "如果你在 2015 年之后写过前端动画，大概率间接受过 Cheng Lou 的影响。react-motion 用一句话介绍自己：「A spring that solves your animation problems.」十年后，他用同样简短的方式介绍 Pretext：快、准、全，支持「你都不知道存在的语言」。",
+ "lead": "他的 X 简介把职业生涯写成了两行：「Worked on: React, Messenger, Reason, ReScript. Currently: Midjourney, Pretext, Freerange.」十多年里，Cheng Lou 换过好几次战场，但一直在做同一类事情：替开发者重新定义一个「本来以为就该这样」的基础问题。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2012–2014", "title": "开源起步", "text": "2012 年注册 GitHub，最早的仓库是一组 React 组件：react-treeview、react-radio-group、react-tween-state，以及无代码前端测试工具 node-huxley。"},
-    {"when": "2015", "title": "react-motion", "text": "用物理弹簧代替「时长 + 缓动曲线」来描述动画：动画可以被打断、被重定向，始终连续。这个思路后来被 react-spring、Framer Motion 等库继承，成为前端动画的主流范式。"},
-    {"when": "2016", "title": "《On the Spectrum of Abstraction》", "text": "他在 React Europe 上关于「抽象光谱」的演讲，被很多工程师视为理解「何时该抽象、何时不该」的经典。"},
-    {"when": "Facebook 时期", "title": "React、Messenger 与 Reason", "text": "在 Facebook 参与 React 与 Messenger 的工作，并与 Jordan Walke 等人一起推动 ReasonML：给 OCaml 一套 JavaScript 开发者熟悉的语法。Messenger 网页版的大量代码后来改用 Reason 编写。之后这条路线演化为 ReScript。"},
-    {"when": "2022 前后", "title": "加入 Midjourney", "text": "在 Midjourney 负责前端相关工作。个人网站 chenglou.me 如今就是他的 Midjourney AI 作品集。"},
-    {"when": "2026", "title": "Pretext、Freerange、handwired", "text": "3 月发布 Pretext：用浏览器自身的字体引擎作基准，自己实现文本测量与断行，从而绕开 getBoundingClientRect 等触发重排的 DOM 调用，48 小时内收获上万星。同年还有静态校验布局代码的 Freerange，以及把普通 JS 变成神经网络的 handwired。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Pretext", "meta": "2026 · TypeScript · ★5 万+", "text": "纯 JS/TS 的多行文本测量与排版库，可渲染到 DOM、Canvas、SVG。prepare() 一次性分段测量，layout() 只做纯算术。", "url": "https://github.com/chenglou/pretext"},
-    {"name": "react-motion", "meta": "2015 · JavaScript · ★2.2 万", "text": "「一个解决你动画问题的弹簧」，前端弹簧动画的开山之作。", "url": "https://github.com/chenglou/react-motion"},
-    {"name": "ReasonML / ReScript", "meta": "Facebook 时期", "text": "为 OCaml 设计更友好的语法和工具链，让类型安全的函数式语言进入 Web 前端。", "url": "https://rescript-lang.org"},
-    {"name": "Freerange", "meta": "2026 · TypeScript", "text": "在编译期静态验证布局代码的正确性。", "url": "https://github.com/chenglou/freerange"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://chenglou.me", "paras": ["页面标题就是「My Midjourney AI Art」。没有简历，没有博客，只有他用 Midjourney 生成的图像。", "Pretext 的一系列交互演示也放在 chenglou.me/pretext 下：气泡聊天、杂志式分栏、文字绕图等，这些都是浏览器原生排版做不到或者做起来很慢的效果。"]}},
-   {"p": "这种「网站即作品」的态度和他的代码风格一致：不做多余的自我包装，让东西本身说话。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Cheng Lou 的作品有一种少见的品味：他做的都是<strong>底层原语</strong>，却总是从用户能感受到的体验出发。弹簧动画解决的是「动画被打断时的突兀感」；Pretext 解决的是「聊天列表、虚拟滚动里文字高度算不准导致的跳动」。"},
-   {"p": "Pretext 的 README 里有一句很典型的话：用浏览器自己的字体引擎作为「ground truth」，这是「对 AI 非常友好的迭代方式」。他把可验证的真值放进循环里，让 AI 辅助的开发可以不断逼近正确答案。"},
-   {"quote": "A spring that solves your animation problems.", "cite": "react-motion 的项目简介"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>换一个模型看问题：</strong>动画不一定要用「时长」描述，用「物理」描述就自然可中断。",
-    "<strong>警惕过早抽象：</strong>先理解抽象光谱，再决定站在哪个位置。",
-    "<strong>为基础设施写演示：</strong>Pretext 的演示页让一个排版库变得人人都看得懂。",
-    "<strong>给 AI 一个真值：</strong>可自动对照的基准，是 AI 时代写高质量底层代码的方法。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师；前 Facebook React / Messenger 团队成员，ReasonML 与 ReScript 核心参与者；现于 Midjourney"],
+     ["所在地", "美国加州"],
+     ["代表作", "react-motion、Pretext、Freerange、handwired、sotaku；chenglou.me 作品集"],
+     ["常用语言", "JavaScript、OCaml / Reason、TypeScript、Python"],
+     ["关键数字", "Pretext ★50,864；react-motion ★21,907；GitHub 粉丝 9,948"],
+     ["代表演讲", "React Europe 2016《On the Spectrum of Abstraction》"],
+     ["开源组织", "reasonml、rescript-lang"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Cheng Lou 的作品可以排成一条线：<strong>react-motion</strong> 回答「动画怎样才能随时被打断」；<strong>Reason</strong> 回答「类型安全的函数式语言怎样进入前端」；<strong>Pretext</strong> 回答「不读 DOM 怎样知道一段文字有多高」；<strong>Freerange</strong> 回答「不打开浏览器怎样确定布局不会出错」。"},
+    {"p": "2026 年的几个项目还有一条暗线：<strong>给 AI 一个可以自动对照的真值。</strong>Pretext 用浏览器字体引擎作为基准，Freerange 在编译期给出每个数字的取值范围，handwired 把普通程序写成精确、可微分的神经网络。他在探索的是：AI 写的底层代码，怎样才能被证明是对的。"},
+    {"note": "本页依据 GitHub、项目 README、chenglou.me、Reason 官方博客与 Pretext 的公开报道整理，资料截至 2026 年 10 月。Pretext 的性能数字和传播数据来自二手报道，未经独立验证。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012–2014", "title": "开源起步", "text": "2012 年注册 GitHub。最早的仓库是一组 React 组件：react-treeview、react-radio-group、react-spinner，还有无代码前端测试工具 node-huxley 和把 JS 对象变成 CSS 类的 RCSS。2014 年的 react-tween-state 是他第一次认真处理 React 动画。"},
+     {"when": "2015", "title": "react-motion", "text": "用物理弹簧代替「时长 + 缓动曲线」来描述动画：动画可以被打断、被重定向，始终连续。这个思路后来被 react-spring、Framer Motion 等库继承，成为前端动画的主流范式。"},
+     {"when": "2016", "title": "《On the Spectrum of Abstraction》", "text": "在 React Europe 上关于「抽象光谱」的演讲，被很多工程师视为理解「何时该抽象、何时不该」的经典。同年写了《intro-to-reason-compilation》教程。"},
+     {"when": "2016–2017", "title": "Reason 与 Messenger", "text": "在 Facebook 参与 ReasonML：给 OCaml 一套 JavaScript 开发者熟悉的语法。据 Reason 官方博客，Reason 团队直接进驻 Messenger 一年多，到 2017 年 9 月，Messenger.com 已有 50% 的代码改用 Reason。这条路线后来演化为 ReScript。"},
+     {"when": "2022.12", "title": "chenglou.me", "text": "把个人网站做成了 Midjourney AI 作品集，一条推文配一段演示视频，展示了十几项「闪亮的 UI/UX 细节」。据报道，此后几年他在 Midjourney 构建内部的渲染工具。"},
+     {"when": "2026.03", "title": "Pretext", "text": "纯 TypeScript 的多行文本测量与排版库发布，迅速成为当年最受关注的前端开源项目之一，半年后接近 5.1 万星。"},
+     {"when": "2026", "title": "Freerange、sotaku、handwired", "text": "4 月发布静态验证布局代码的 Freerange；同年用一个 80 万参数的循环 Transformer 训练数独求解器 sotaku；10 月发布 handwired，把 JS 程序直接「写」成神经网络。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Pretext", "url": "https://github.com/chenglou/pretext",
+     "meta": ["2026.03", "TypeScript", "DOM / Canvas / SVG"],
+     "paras": [
+      "「Fast, accurate & comprehensive text measurement & layout.」浏览器里要知道一段文字排出来有多高，通常得先把它放进 DOM，再调用 getBoundingClientRect 或 offsetHeight。这会触发重排，是浏览器里最昂贵的操作之一。虚拟滚动、聊天列表、瀑布流都被它拖累。",
+      "Pretext 自己实现了测量和断行逻辑：<code>prepare()</code> 一次性把文本分段测量，<code>layout()</code> 之后只做纯算术，因此可以在 DOM 出现之前就算出排版结果，并渲染到 DOM、Canvas 或 SVG。它支持「你可能都不知道存在的语言」，并用浏览器自己的字体引擎作为对照基准。"
+     ],
+     "bullets": [
+      "演示页（chenglou.me/pretext）有气泡聊天、杂志式分栏、文字绕图等效果，都是原生 CSS 做不到或做起来很慢的。",
+      "README 特别说明：演示是「推荐阅读的 API 用法范例」，不随 npm 包发布。",
+      "据二手报道，gzip 后约 15KB，零依赖；发布 48 小时内收获超过 1.8 万星。"
+     ],
+     "facts": [["GitHub", "★50,864 · ⑂2,761"], ["npm", "@chenglou/pretext"], ["创建", "2026-03"]]
+    }},
+    {"work": {
+     "name": "react-motion", "url": "https://github.com/chenglou/react-motion",
+     "meta": ["2015", "JavaScript", "弹簧动画"],
+     "paras": [
+      "「A spring that solves your animation problems.」传统动画用「持续 300ms + ease-out」描述，一旦中途被打断就会跳变。react-motion 改用物理模型：你只声明目标值（<code>spring(10)</code>），弹簧负责从当前状态平滑过渡过去，随时可以换目标。",
+      "这一观念转变影响深远：今天几乎所有主流前端动画库都把「弹簧」作为默认选项。"
+     ],
+     "facts": [["GitHub", "★21,907 · ⑂1,145"], ["前作", "react-tween-state（★1.7 千）"]]
+    }},
+    {"work": {
+     "name": "Freerange", "url": "https://github.com/chenglou/freerange",
+     "meta": ["2026.04", "TypeScript", "静态分析"],
+     "paras": [
+      "「Statically verify your layout code.」它会告诉你 TypeScript 代码里每一个 <code>number</code> 的取值范围，从而找出潜在的 NaN、Infinity、除以零和数组越界。",
+      "设计原则很克制：使用官方 TypeScript API，不是新语言也不是分叉，不需要任何注解；在编译期运行，耗时只占 TypeScript 分析时间的一小部分；并且「由 Agent 对着几千个边界情况做过对抗测试」。README 里那句话点明了它的用意：AI Agent 从此可以不打开浏览器，就保证 UI 布局正确。"
+     ],
+     "facts": [["GitHub", "★680"]]
+    }},
+    {"work": {
+     "name": "handwired", "url": "https://chenglou.me/handwired/",
+     "meta": ["2026.10", "TypeScript", "实验"],
+     "paras": [
+      "「把普通 JavaScript 代码变成神经网络：无需训练、结果精确、并且完全可微。」程序由 if-else、循环和状态组成；handwired 把它们改写成矩阵乘法和 ReLU 的组合。比如 <code>(a &gt; 4) ? 10 : 12</code> 可以写成两个 ReLU 的差再加权求和。整个程序最后汇成一个大矩阵乘法，可以在 JS 或 WebGPU 上运行。"
+     ],
+     "facts": [["GitHub", "★1,866"]]
+    }},
+    {"work": {
+     "name": "ReasonML / ReScript", "url": "https://rescript-lang.org",
+     "meta": ["Facebook 时期", "OCaml", "语言与工具链"],
+     "paras": [
+      "Reason 给 OCaml 换上一套 JavaScript 开发者熟悉的语法，配合 BuckleScript 编译成可读的 JS。官方博客 2017 年 9 月宣布，Messenger.com 已有一半代码转成 Reason；后来社区演化出 ReScript。Cheng Lou 至今是 reasonml 和 rescript-lang 两个组织的成员。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他项目", "年份", "是什么"],
+     "rows": [
+      ["sotaku", "2026", "80 万参数的循环 Transformer，从零训练，在 2.5 万题的高难度数独基准上解对 99.12%"],
+      ["pure-css-shaders-art", "—", "「在艺术与糟糕性能的交界处」：纯 CSS 写的着色器艺术"],
+      ["react-treeview", "2013", "轻量灵活的 React 树形组件，★1.1 千"],
+      ["node-huxley", "2013", "无代码的前端截图测试"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub 183 个公开仓库的语言分布（按仓库数）依次是 JavaScript、OCaml、TypeScript、Python、CoffeeScript，正好对应他的几个阶段：React 时代、Reason 时代、Pretext 时代，以及最近的机器学习实验。"},
+    {"table": {
+     "caption": "星数最高的项目",
+     "cols": ["仓库", "★", "时间", "一句话"],
+     "rows": [
+      ["pretext", "50,864", "2026", "快速、准确、全面的文本测量与排版"],
+      ["react-motion", "21,907", "2015", "一个解决动画问题的弹簧"],
+      ["handwired", "1,866", "2026", "把 JS 变成神经网络"],
+      ["react-tween-state", "1,734", "2014", "React 动画"],
+      ["react-treeview", "1,098", "2013", "React 树形组件"],
+      ["freerange", "680", "2026", "静态验证布局代码"],
+      ["chenglou.github.io", "572", "2013–2026", "个人网站源码"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://chenglou.me", "paras": [
+     "页面标题就是「My Midjourney AI Art」：没有简历、没有博客，只有一张张他用 Midjourney 生成的图，提示词作为图注，比如「Jupiter planet sitting on a chair on Saturn」「Miniature watermelon delicately balanced on fingertip」。",
+     "但这个网站真正的作品是交互本身。源码 README 写得很直白：这是一个「为了展示闪亮的 UI/UX 细节」而做的画廊，并逐条列出了十几项细节，每项都配了一段演示视频。"
+    ]}},
+    {"h3": "README 里列出的交互细节（节选）"},
+    {"table": {
+     "cols": ["细节", "做法"],
+     "rows": [
+      ["可打断的过渡", "动画进行中也能继续操作，不会被锁住"],
+      ["与布局解耦的点击区域", "线性浏览模式下，左右点击区域纵向延伸到窗口边缘；过渡时点击区不跟着图片移动，快速连点也不会误关画廊"],
+      ["按面积而非宽度定尺寸", "同样宽度下方图显得更大、长图显得更细，所以缩小前者、放大后者，让视觉分量更均衡"],
+      ["缩放窗口时锚定", "调整窗口大小时没有布局跳动，正在看的那张图不会跑掉"],
+      ["与帧率解耦的动画", "低端设备掉帧时，过渡依然准时完成"],
+      ["连续的悬停效果", "光标像磁铁一样吸引图片，而不是一次性的上浮"],
+      ["好看的全选", "Cmd+A 不会破坏页面的样子"],
+      ["遮挡剔除", "只渲染视口内的内容，给 DOM 操作量设一个硬上限"],
+      ["无障碍", "可选的减弱动态效果"]
+     ]
+    }},
+    {"callout": "这份清单本身就是一份交互设计教材：每一条都是用户说不出来、但会实实在在感受到的「顺」。", "t": "细节即作品"},
+    {"p": "网站托管在 GitHub Pages 上，源码仓库从 2013 年一直更新到 2026 年。Pretext 的演示（/pretext）和 handwired 的演示（/handwired）也挂在这个域名下。"}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点与方法",
+   "blocks": [
+    {"quote": "A spring that solves your animation problems.", "cite": "react-motion README"},
+    {"quote": "It implements its own text measurement logic, using the browsers' own font engine as ground truth (very AI-friendly iteration method).", "cite": "Pretext README"},
+    {"ul": [
+     "<strong>换一个模型看问题。</strong>动画不一定要用「时长」描述，用「物理」描述就自然可中断；排版不一定要问 DOM，自己算也可以算准。",
+     "<strong>警惕过早抽象。</strong>《On the Spectrum of Abstraction》的核心是：抽象是一条光谱，越抽象越强大，也越难懂、越难改，要根据问题选择站在哪里。",
+     "<strong>给 AI 一个真值。</strong>可自动对照的基准，让 AI 辅助开发可以不断逼近正确答案。Pretext、Freerange 都是这样做出来的。",
+     "<strong>演示即文档。</strong>Pretext 的演示页、chenglou.me 的视频清单，都让底层能力变得人人能看懂。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "react-motion 和 Pretext 都改变了前端社区思考某类问题的方式", "很少写长文，观点主要散落在 README、推文和演讲里"],
+      ["工程", "从动画、语言到排版、静态分析，都能做到底层", "Pretext 等项目覆盖的语言和边界情况极多，用于生产前需要自行评估"],
+      ["设计", "对交互细节有近乎偏执的要求，并且能讲清楚为什么", "个人网站是作品集而非介绍页，初次访问者不易了解他的经历"],
+      ["AI 时代", "率先公开用 Claude Code、Codex 写底层库，并给出可验证的方法", "部分新项目（handwired、sotaku）仍是实验性质"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从感受出发做底层：</strong>先找到用户感受得到的不顺，再回头改造基础设施。",
+     "<strong>把细节写下来：</strong>chenglou.me 的 README 把「顺」拆成一条条可以复用的做法。",
+     "<strong>为基础设施做演示：</strong>好的演示让一个排版库变得人人都看得懂。",
+     "<strong>让 AI 有据可依：</strong>先准备好可自动对照的真值，再让 AI 迭代。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "chenglou.me", "url": "https://chenglou.me", "why": "打开画廊，快速连点、调整窗口大小、全选，感受 README 里写的每一个细节。"},
+     {"name": "Pretext 演示", "url": "http://chenglou.me/pretext/", "why": "看看文字绕图、杂志分栏这些「CSS 做不到」的效果。"},
+     {"name": "chenglou.github.io 的 README", "url": "https://github.com/chenglou/chenglou.github.io", "why": "一份可以直接拿来对照自查的交互细节清单。"}
+    ]}
+   ]
+  }
  ],
- "cta": "打开 Pretext 的演示页，看看浏览器里的文字还能怎样排版。",
+ "cta": "去 chenglou.me 玩一玩那个画廊，然后读一读它的 README。",
  "sources": [
   {"label": "Cheng Lou 的 X 个人资料", "url": "https://x.com/_chenglou"},
   {"label": "GitHub：chenglou", "url": "https://github.com/chenglou"},
   {"label": "Pretext README", "url": "https://github.com/chenglou/pretext"},
   {"label": "react-motion", "url": "https://github.com/chenglou/react-motion"},
+  {"label": "Freerange README", "url": "https://github.com/chenglou/freerange"},
+  {"label": "handwired README", "url": "https://github.com/chenglou/handwired"},
+  {"label": "sotaku README", "url": "https://github.com/chenglou/sotaku"},
+  {"label": "chenglou.github.io README（交互细节清单）", "url": "https://github.com/chenglou/chenglou.github.io"},
+  {"label": "Reason 官方博客：Messenger.com Now 50% Converted to Reason（2017）", "url": "https://reasonml.github.io/blog/2017/09/08/messenger-50-reason"},
+  {"label": "Pretext 报道（Pasquale Pillitteri）", "url": "https://pasqualepillitteri.it/en/news/2293/pretext-15kb-zero-dom-text-layout-engine"},
   {"label": "Pretext 报道（Cloud Magazin）", "url": "https://www.cloudmagazin.com/en/2026/03/29/does-a-javascript-library-solve-the-browser-s-thirty-year/"},
   {"label": "chenglou.me", "url": "https://chenglou.me"}
  ]

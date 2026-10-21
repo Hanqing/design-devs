@@ -1,0 +1,279 @@
+{
+ "handle": "ianneo_ai",
+ "sites": [
+  {
+   "url": "http://ianneo.xyz",
+   "ok": true,
+   "title": "Ian's workspace",
+   "description": "ian（伊恩），产品设计师，用 AI 做小产品和内容",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-CN",
+   "home_text": "跳到正文 \n Ian's workspace \n你好，我是 伊恩， 一名懂审美的产品设计师，正在探索一些明天的可能。 \n我也是 Dribbble 万粉玩家 、 推特万粉玩家 、 GitHub 万星选手 。 现在我一边接产品设计项目，一边用 AI 做自己的产品，摸索一个人怎样长期经营。 \n我经营着 Indie Builders ， 一个 300 人一起用 AI 做产品的圈子，每天都挺热闹。做东西卡住了，也可以约我 Chat with Ian 一对一聊 60 分钟。 \n还做了几个开源的小东西 ： 小黑插图 Skill 帮内容配图，GitHub 上收获了一万多个 Star ； 伊恩日刊 每天更新产品设计资讯 ； Ian's Inspiration 收集设计灵感。 \n做过的设计放在 Portfolio ， 平时想法写在 审美开眼 和 做了再说 。 有项目想合作，或者也在做产品、只是想打个招呼，都欢迎来找我。 \n 来找我聊聊 \n来找我聊聊 \n 联系方式 微信 邮箱 \n ianneoxyz \n [email protected] \n 邮件交流 \n你好，我是伊恩，一名产品设计师\n欢迎来打个招呼，一起交流",
+   "github_links": [
+    "helloianneo"
+   ],
+   "subpages": {
+    "http://ianneo.xyz/portfolio/": "跳到正文 \n Portfolio \n这些年做过的项目 \n我是一名产品设计师，主要为 Web 和移动端产品 设计界面、梳理交互流程和优化使用体验 。这里整理了一些我参与过的项目，介绍当时遇到的问题、我的设计思路和最终方案。 \n部分内容因保密要求做了脱敏处理。 \n东南亚餐饮产品体验设计 \n这是一个面向东南亚市场的餐饮产品，包含用户点餐和商家管理两端。我 从用户需求和业务流程梳理入手 ，重新设计选店、菜品定制、下单和取餐体验，并参与商家 SaaS 产品从 0 到 1 的设计。 \n下面记录用户端从调研分析、设计优化到上线复盘的完整改版过程。 \n 查看完整的体验改版案例 \nPA Wallet \nPA Wallet 是一款面向全球用户的钱包支付产品，支持充值、转账、提现，以及绑定银行卡等支付工具。 \n原有界面较为陈旧，充值流程复杂，不同国家的支付方式也缺少一致的体验。我重新设计了移动端界面，精简充值步骤和不必要的跳转，并统一核心操作流程，兼顾各地的支付需求。 \n改版后，平台使用率和充值完成率都有提升，也为合作商户带来了更多订单。 \n观猹 Insight \n观猹 Insight 是一个 AI 产品发现与点评平台，汇集各类 AI 工具和用户评价，帮助用户找到适合自己的产品。 \n这次优化需要延续原有设计方向，同时提升界面质感，并适应后续功能的调整。我重新梳理了信息布局和视觉层级，优化核心模块的交互，并建立统一的组件规范，让不同模块可以灵活组合。 \n客户对设计结果表示满意，认为产品质感有了明显提升。 \nInvist AI \nInvist AI 是一款 AI 投资分析助手，用户可以通过对话获取股票分析、投资组合建议和市场信息。 \n设计需要兼顾 AI 产品的科技感与金融产品的专业感，同时让对话流程清晰易用。我采用深色界面搭配光晕效果，通过卡片布局整理信息，并梳理从提问到分析结果呈现的交互流程。 \n最终设计获得了客户认可，视觉风格和交互体验都达到了预期。 \nVinoria \nVinoria 是一款高端红酒电商产品，用户可以浏览和购买红酒，也能了解品牌故事、产地与酿造工艺。 \n原有界面与品牌的高端定位不够匹配，购买流程较复杂，对红酒文化的呈现也不充分。我重新梳理了移动端的浏览与购买流程，精简操作步骤，并结合品牌气质调整视觉风格，通过图文展示红酒的产地、工艺和特色。 \n项目上线后，整体效果获得客户认可，双方建立了长期合作关系，客户也主动将我推荐给其他合作伙伴。 \nMolypix AI \nMolypix AI 是一款面向领英的 AI 内容创作工具，用户可以通过简单的提示词生成适合发布的图文内容。 \n设计的重点是降低使用门槛，让不熟悉提示词的用户也能轻松上手，同时兼顾 AI 产品的科技感和职场内容的专业感。我在 Web 端引入模板推荐和关键词引导，将复杂参数转化为可选项，并建立统一的组件库与设计规范。 \n设计成果获得了客户的高度认可，客户也有意邀请我加入团队。 \nCCTV IPC \nCCTV IPC 是一款网络摄像机管理工具，支持实时监控、录像回放和设备配置。本次为新款四目摄像机设计配套的 Web 管理界面。 \n原有系统以单目摄像机为基础，无法满足多画面操作需求，不同机型的交互也缺少统一规范。我重新设计了多画面切换流程和核心功能布局，精简操作步骤，并建立可复用的模块与交互规范，方便后续机型适配。 \n方案获客户认可，设计效率提升 30%，新品适配周期缩短 25%。 \nWeb3Club \nWeb3Club 是一个基于 Web3 技术的去中心化社交与内容平台，集个人主页、社群互动和内容发现于一体。 \n旧版界面风格生硬，缺少科技感，客户也对视觉细节有较高要求。我重新设计了 Web 端的视觉风格，以深色界面搭配辉光和粒子元素，并细化布局、图标与设计规范，提升整体质感。 \n新方案获得客户认可与赞赏，产品的视觉形象也更符合 Web3 的前沿定位。 \nDeveloper Platform \nDeveloper Platform 是一款物联网开发者平台，支持设备接入、调试、配置和实时监控，帮助用户创建应用并管理设备。 \n平台涉及复杂参数配置、设备管理和接口调试，操作流程与反馈需要更加清晰。我重新梳理了应用模块的操作逻辑和界面布局，并设计调试面板，让用户更方便地完成设备配置和问题排查。 \n设计随 4.0 版本上线，应用模块的操作体验更加流畅。 \n聊聊你的项目 \n如果你正在做新产品，或想优化现有产品的体验， 欢迎找我聊聊 。 \n 聊聊设计合作 \n聊聊设计合作 \n 联系方式 微信 邮箱 \n ianneoxyz \n [email protected] \n 邮件交流 \n可以发来项目背景、当前阶段\n和你想解决的问题"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://dribbble.com/neocurve",
+   "ok": true,
+   "title": "Ian | Dribbble",
+   "description": "Ian | I’m ian, as a product / ux designer. Share my work results and design experience. With experience in product design and research, skilled in interaction design, and focused on UI, I am committed to user-centered innovative design, striving to create a global impact. | Connect with them on Dribbble; the global community for designers and creative professionals.",
+   "stack": [
+    "Google Analytics",
+    "Google Fonts",
+    "Vue"
+   ],
+   "hosting": [
+    "AWS"
+   ],
+   "lang": "en",
+   "home_text": "Shots \n Shots \n Designers \n Services \n Sign up\n Log in\nGet 20% off your first payment for design and development services on Dribbble. Use code WELCOME20 🎉 \n Get Started\nIan \nOpen to new projects, Let's build the next big thing ⤵ \n 18,883 followers\n 472 following\n 2,778 likes\n Get in touch \n Follow \n Following \n Blocked \n Featured Shots \n Featured Shots \n Recent Shots \n Popular Shots \n Ian \n Available for work\n Get in touch \n Shot Link \n View AI Data Platform \n AI Data Platform\n Shot Link \n View AI Emotional Voice App \n AI Emotional Voice App\n Shot Link \n View AI Bio-Computing Web \n AI Bio-Computing Web\n Shot Link \n View AI Biotech Web \n AI Biotech Web\n Shot Link \n View AI Voice App \n AI Voice App\n View Finance Wallet App \n Finance Wallet App\n View Stock Investment App \n Stock Investment App\n View Web3 Crypto Web UI \n Web3 Crypto Web UI\n View Crypto Wallet APP \n Crypto Wallet APP\n View Web & App UI Showcase \n Web & App UI Showcase\n View Natural Wine E-commerce App \n Natural Wine E-commerce App\n View Meditation & Relaxation App \n Meditation & Relaxation App\n View Music/Podcast Social App \n Music/Podcast Social App\n View Crypto Asset Management App \n Crypto Asset Management App\n View Online Dating App \n Online Dating App\n View Social Network App \n Social Network App\n View AI Learning Tool \n AI Learning Tool\n View AI Learning Assistant-Web \n AI Learning Assistant-Web\n View Network Camera Web \n Network Camera Web\n View Wallet Payment APP \n Wallet Payment APP\n View Web3 NFT APP \n Web3 NFT APP\n View Travel & Hospitality Website- Mobile \n Travel & Hospitality Website- Mobile\n View Travel & Hospitality Website \n Travel & Hospitality Website\n View Catering Web \n Catering Web\n ← Prev Next → \n Sign up to continue \n Loading more… \n Available for new projects \n Get in touch \nMobile \nPrint \nBranding \nAnimation \nWeb Design \nProduct Design \nIllustration \nTypography \nMobile \nPrint \nBranding \nAnimation \nWeb Design \nProduct Design \nIllustration \nTypography \n Back to home page \n For designers \n Hire talent \n Inspiration \n Advertising \n Blog \n About \n Support \n X \n Facebook \n Instagram \n Pinterest \n© 2026 Dribbble \n Terms \n Privacy \n Cookies \n Jobs \n Tags \n Places \n Resources \n Previous \n Next \n Hide ads \n ● \n Advertise \nLoading…",
+   "github_links": [],
+   "subpages": {
+    "https://dribbble.com/neocurve/about": "Shots \n Shots \n Designers \n Services \n Sign up\n Log in\nGet 20% off your first payment for design and development services on Dribbble. Use code WELCOME20 🎉 \n Get Started\nIan \nOpen to new projects, Let's build the next big thing ⤵ \n 18,883 followers\n 472 following\n 2,778 likes\n Get in touch \n Follow \n Following \n Blocked \n Ian \n Available for work\n Get in touch \nBiography \nI’m ian, as a product / ux designer. Share my work results and design experience. \nWith experience in product design and research, skilled in interaction design, and focused on UI, I am committed to user-centered innovative design, striving to create a global impact.\n China \n Dribbble Pro\n Member since Jan 2019 \n Languages \n Chinese \n English \n Skills \n app design \n dynamic effect design \n logo design \n product design \n ui desgin \n ux \n ux analysis \n ux strategy \n web design \nTop Specialties \n UX Design / Research \n Product Design \n UI / Visual Design \nSeeking \nFreelance or contract opportunities \n Ian is a\n member\n Upgrade to Pro and get your new profile along with many other perks.\n Learn more .\n 18,883 \n followers \n 472 \n following \n 1,868 \n tags \n China \n Dribbble Pro\n Member since Jan 2019 \n 18,883 \n followers \n 472 \n following \n 1,868 \n tags \n Available for new projects \n Get in touch \nMobile \nPrint \nBranding \nAnimation \nWeb Design \nProduct Design \nIllustration \nTypography \nMobile \nPrint \nBranding \nAnimation \nWeb Design \nProduct Design \nIllustration \nTypography \n Back to home page \n For designers \n Hire talent \n Inspiration \n Advertising \n Blog \n About \n Support \n X \n Facebook \n Instagram \n Pinterest \n© 2026 Dribbble \n Terms \n Privacy \n Cookies \n Jobs \n Tags \n Places \n Resources \n Hide ads \n ● \n Advertise \nLoading…",
+    "https://dribbble.com/about": "Discover the World’s Top Designers. \nDiscover the World’s Top Designers. \nDiscover the World’s\nTop Designers. \nWe're on a mission to help professional designers earn a living doing work they take pride in. \n2009 \nFounded \n100% \nRemote \n23 \nHumans \nOur Story \n Dribbble began in 2009 as a small, invite-only space for designers to share work and feedback. It quickly became known as the design world’s “cool kids’ table,” where creativity, community, and craft came together. \n In 2021, we opened our doors to all designers. Dropping the invite-only model brought in fresh talent while keeping the trusted vibe that made Dribbble special. \n Then in 2024, we launched the Dribbble Marketplace. It was a game-changer. Designers could now sell work, land clients, and grow their income, all in one place. \n Now, we’re focused on helping designers do work they’re proud of and get paid for it. We’ve shifted from ad-based to revenue-sharing, putting our mission at the core: helping creatives thrive creatively and financially. Supporting creativity isn’t just our motto. It’s the future we’re building together. \nOur Values \n#Own It \nWe act like owners, taking initiative, responsibility, and accountability every day to make our company better. Integrity, courage, and high standards aren’t optional; they’re what we owe to each other. We’re always learning, innovating, and growing together. \n#Help Customers Succeed \nOur success starts with our customers. We’re here to solve real problems and create value with meaningful solutions. Challenges don’t stop us; we find creative solutions, overcome obstacles, and deliver exceptional results. When our customers win, we win. \n#Take Action, Deliver Results \nWe focus on solving the most important problems and measuring our impact. Every step forward helps us improve, innovate, and push for bigger wins. We stay relentless in our pursuits and humble in our successes. \n#Bring Good Vibes \nRelationships fuel our success. We create an environment of trust and authenticity, where everyone can bring their full selves to work. Respecting different ideas, opinions, and perspectives makes us stronger and keeps our culture inclusive, creative, and fun. \nJoin the Makers \nJoin the Makers \nDribbble is the world’s leading platform for discovering top designers, their work, and the services they offer. To support that mission, we’ve built a fully remote team because we believe the best collaboration is rooted in connection, not location. When people feel comfortable, focused, and inspired, great work follows. \n“ \nFrom the moment I started the interview process, I could tell Dribbble was something special – and that feeling has only grown. I’ve felt supported every step of the way, and feel blessed I get to work with the most amazing, kind, and talented people every day. As a Controller, I feel empowered, valued, and excited to grow with such an incredible team. \nBaljyot \nFinance \n“ \nIt took me no time at all to realize that Dribbble has figured o"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "helloianneo",
+  "user": {
+   "name": "ian",
+   "company": null,
+   "blog": "https://ianneo.xyz",
+   "location": null,
+   "bio": "product designer",
+   "public_repos": 8,
+   "followers": 639,
+   "created_at": "2021-08-28T09:20:41Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "helloianneo/ian-xiaohei-illustrations",
+    "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+    "stargazers_count": 12714,
+    "forks_count": 1455,
+    "language": null,
+    "homepage": "https://www.ianneo.xyz",
+    "created_at": "2026-05-27T22:47:56Z",
+    "pushed_at": "2026-09-24T22:14:01Z",
+    "topics": [
+     "ai-agent",
+     "chinese",
+     "codex-skill",
+     "handdrawn",
+     "illustration",
+     "image-generation",
+     "xiaohei"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "helloianneo/ian-handdrawn-ppt",
+    "description": "中文手绘技术 PPT 整页图像生成 Skill | 21:9 封面 + 16:9 正文配图 | PNG 输出",
+    "stargazers_count": 1480,
+    "forks_count": 140,
+    "language": null,
+    "homepage": "https://ianneo.xyz",
+    "created_at": "2026-04-25T14:02:51Z",
+    "pushed_at": "2026-09-24T22:15:35Z",
+    "topics": [
+     "ai-agent",
+     "chinese",
+     "codex-skill",
+     "handdrawn",
+     "image-generation",
+     "ppt"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "helloianneo/ian-xiaohei-scenes",
+    "description": "Xiaohei 2.0 Codex Skill for Chinese real-object article illustrations and long-scroll story images",
+    "stargazers_count": 538,
+    "forks_count": 69,
+    "language": null,
+    "homepage": "https://www.ianneo.xyz",
+    "created_at": "2026-06-04T05:23:49Z",
+    "pushed_at": "2026-06-04T05:49:37Z",
+    "topics": [
+     "ai-agent",
+     "ai-illustration",
+     "chinese-content",
+     "codex-skill",
+     "illustration",
+     "image-generation",
+     "long-scroll",
+     "prompt-engineering",
+     "real-object",
+     "xiaohei"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "helloianneo/awesome-claude-code-skills",
+    "description": "Claude Code 最实用的 Skills / Agents / Plugins 精选合集 | 50+ 精选 | 按场景分类 | 带推荐等级 | 复制即装",
+    "stargazers_count": 494,
+    "forks_count": 112,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-04-13T15:19:44Z",
+    "pushed_at": "2026-04-13T15:47:12Z",
+    "topics": [
+     "ai-agents",
+     "awesome",
+     "awesome-list",
+     "claude",
+     "claude-code",
+     "cursor",
+     "design",
+     "developer-tools",
+     "frontend",
+     "skills"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "helloianneo/obsidian-ai-second-brain",
+    "description": "Obsidian + Claude AI 个人知识库完整搭建指南 | 基于 Karpathy LLM Wiki 方法论 | 4 阶段 12 步 | 不用写代码",
+    "stargazers_count": 294,
+    "forks_count": 29,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-04-13T08:59:07Z",
+    "pushed_at": "2026-04-13T09:34:10Z",
+    "topics": [
+     "ai",
+     "claude",
+     "claudian",
+     "karpathy",
+     "knowledge-base",
+     "llm-wiki",
+     "obsidian",
+     "obsidian-plugin",
+     "personal-knowledge-management",
+     "second-brain"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "helloianneo/claude-code-handbook",
+    "description": "Claude Code 高阶指南：从会用到用好 | 8 章 + 3 附录 | 深入研究工作原理，把「能用」变成「用好」",
+    "stargazers_count": 216,
+    "forks_count": 48,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-03-31T22:29:42Z",
+    "pushed_at": "2026-04-01T00:24:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "helloianneo/ian-xhs-carousel",
+    "description": "把文章、案例或笔记排成 3:4 小红书图文 | 1080×1440 | 20 个母版 | 浅色 / 深色 | Claude Code Skill",
+    "stargazers_count": 79,
+    "forks_count": 6,
+    "language": "HTML",
+    "homepage": "https://www.ianneo.xyz",
+    "created_at": "2026-10-21T07:58:58Z",
+    "pushed_at": "2026-10-21T07:59:07Z",
+    "topics": [
+     "ai-agent",
+     "carousel",
+     "chinese",
+     "claude-code",
+     "claude-skill",
+     "design",
+     "xiaohongshu"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "helloianneo/awesome-gpt6-astra",
+    "description": "GPT-6 Astra 精选案例馆 · Curated cases with original links & attribution. 中文默认 / English available.",
+    "stargazers_count": 23,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-09-05T11:52:59Z",
+    "pushed_at": "2026-09-05T12:55:48Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 8,
+  "languages": [
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "helloianneo/ian-xhs-carousel",
+    "stargazerCount": 79,
+    "description": "把文章、案例或笔记排成 3:4 小红书图文 | 1080×1440 | 20 个母版 | 浅色 / 深色 | Claude Code Skill",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "https://www.ianneo.xyz"
+   },
+   {
+    "nameWithOwner": "helloianneo/ian-xiaohei-illustrations",
+    "stargazerCount": 12714,
+    "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+    "primaryLanguage": null,
+    "homepageUrl": "https://www.ianneo.xyz"
+   },
+   {
+    "nameWithOwner": "helloianneo/ian-handdrawn-ppt",
+    "stargazerCount": 1480,
+    "description": "中文手绘技术 PPT 整页图像生成 Skill | 21:9 封面 + 16:9 正文配图 | PNG 输出",
+    "primaryLanguage": null,
+    "homepageUrl": "https://ianneo.xyz"
+   },
+   {
+    "nameWithOwner": "helloianneo/ian-xiaohei-scenes",
+    "stargazerCount": 538,
+    "description": "Xiaohei 2.0 Codex Skill for Chinese real-object article illustrations and long-scroll story images",
+    "primaryLanguage": null,
+    "homepageUrl": "https://www.ianneo.xyz"
+   },
+   {
+    "nameWithOwner": "helloianneo/awesome-claude-code-skills",
+    "stargazerCount": 494,
+    "description": "Claude Code 最实用的 Skills / Agents / Plugins 精选合集 | 50+ 精选 | 按场景分类 | 带推荐等级 | 复制即装",
+    "primaryLanguage": null,
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "helloianneo/obsidian-ai-second-brain",
+    "stargazerCount": 294,
+    "description": "Obsidian + Claude AI 个人知识库完整搭建指南 | 基于 Karpathy LLM Wiki 方法论 | 4 阶段 12 步 | 不用写代码",
+    "primaryLanguage": null,
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 46,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "helloianneo/ian-xhs-carousel": "# Ian XHS Carousel\n**中文** | [English](README.en.md)\n> 把文章、案例或笔记，排成一组 3:4 的小红书图文。\n>\n> 1080×1440 竖版 | 20 个母版 | 浅色 / 深色 | Claude Code Skill\n---\n## 这是什么\nIan XHS Carousel 是一个 AI Skill，把你的内容做成一组小红书轮播图，风格是简洁的产品界面风。\n你把内容交给它，它先出一张分镜表给你确认，确认后再排版、出图。\n**最好用 Claude 跑。**\n---\n## 适合谁用\n- 写文章、做案例拆解，想顺手发一份小红书图文的人\n- 做 AI、产品、设计、效率工具内容，图里常有截图、步骤、对比、数据、代码的人\n- 想让每期图文风格统一、看着干净的人\n想要手绘、插画、大色块海报这类风格的话，这个不太合适。\n---\n## 它会产出什么\n- **分镜表**：每页讲什么、用哪个母版、标题怎么写，先给你确认\n- **每页一张 PNG**：1080×1440，可以直接发\n- **总览图**：所有页排在一起，一眼看整组节奏\n- **HTML 源文件**：想自己改字、换图，改完重新渲染就行\n浅色、深色两版都能出，版式一样。\n小红书帖子的标题、正文和话题标签需要你另外写。\n---\n## 20 个母版\n<details>\n<summary>深色版</summary>\n</details>\n| 分组 | 母版 |\n|---|---|\n| 封面 | T01 对话框、T02 窗口、T03 通知 |\n| 讲做法 | T04 步骤、T05 清单、T06 时间线 |\n| 对比 | T07 对错、T08 前后双栏 |\n| 展示 | T09 宫格、T10 截图标注、T11 手机截图、T12 应用列表 |\n| 数字 | T13 数据指标、T14 参数设置 |\n| 文字 | T15 观点大字、T16 聊天、T17 提示词、T18 代码 |\n| 结尾 | T19 对照、T20 完成 |\n20 个都不合适的时候，AI 会用同一套样式拼一个新排法。\n---\n## 安装\n**1. 下载并复制到 Claude Code**\n```bash\ngit clone https://github.com/helloianneo/ian-xhs-carousel.git\nmkdir -p ~/.claude/skills\ncp -R ./ian-xhs-carousel/ian-xhs-carousel ~/.claude/skills/\n```\n**2. 装渲染要用的工具**（第一次用时装一次）\n```bash\npip install playwright pillow\nplaywright install chromium\n```\n渲染时会联网加载英文和代码字体，记得保持网络畅通。\n---\n## 素材要好看\n一组图好不好看，很大程度看你给的素材。上传前花几分钟挑一挑：\n- **截图**：用高清的，裁掉浏览器工具栏、桌面和别的窗口；做深色版就截深色模式的\n- **Logo 和图标**：用官方的 SVG，别截一个小图再放大\n- **照片和效果图**：一堆里挑最好看的那张\n- **没有好图**：先空着，它会在分镜表里列出来问你要，别拿糊的凑\n---\n## 怎么用\n在 Claude Code 里输入：\n```text\n/ian-xhs-carousel 把下面这篇文章做成一组小红书图文。\n<粘贴文章>\n```\n不输命令也行，直接说\"把这篇做成小红书\"，它一般会自己用上。\n**只要分镜表**\n```text\n/ian-xhs-carousel 先别排版，帮我看看下面这篇能做成几页，出分镜表就行。\n<粘贴文章>\n```\n**出深色版**\n```text\n/ian-xhs-carousel 把这篇做成小红书图文，用深色主题。截图在 ./shots 里。\n<粘贴文章>\n```\n**改某一页**\n```text\n第 3 页换成 T08 前后双栏，左边放旧版截图，右边放新版。\n```\n更多示例见 [examples/prompts.md](examples/prompts.md)。\n---\n## 工作流程\n1. **读内容**：想清楚这组图要让人带走什么\n2. **出分镜表**：一页讲一件事，一般 5 页左右，**停下来等你确认**\n3. **准备配图**：用你给的素材，缺的会列出来问你\n4. **排版**：从 20 个母版里挑合适的\n5. **渲染和自查**：检查文字溢出、字号、配色，有问题自己改掉\n6. **交付**：给你每页图和总览图\n---\n## 小贴士\n- 分镜表那一步多花点时间，页数和每页讲什么定下来，后面基本不用返工\n- 图上的字越少越好，说不完的留给正文\n- 页数宁少勿多，5 页左右刚好\n---\n## 目录结构\n```text\n.\n├── README.md\n├── README.en.md\n├── examples/              母版总览图、更多提示词\n└── ian-xhs-carousel/      ← 安装的是这个文件夹\n    ├── SKILL.md\n    ├── assets/       ",
+   "helloianneo/ian-xiaohei-illustrations": "# Ian Xiaohei Illustrations\n> 把中文文章里的判断、流程、状态和隐喻，变成一张张白底、手绘、怪诞但清爽的正文配图。\n>\n> 16:9 横版 | 小黑 IP | 纯白手绘 | 少量红橙蓝中文批注 | Codex Skill\n---\n## 这个仓库是什么?\nIan Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。\n它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解文章里的认知锚点，再把其中一个判断、流程、结构、状态或隐喻，变成一张有记忆点的 16:9 手绘解释图。\n默认视觉 IP 是“小黑”：一个黑色实心、白点眼、细腿、空表情的小角色。小黑不是吉祥物，不是贴纸，也不是站在角落里的装饰物，而是正在认真参与系统运转的荒诞工作者。\n一句话：**让 AI 不只是“配一张图”，而是把文章里的一个关键认知动作画出来。**\n---\n## 适合谁用\n特别适合：\n- 写中文文章，需要正文配图和文章插图的人\n- 做知识型内容、方法论内容、AI 工作流内容的人\n- 想把抽象判断画成具体隐喻的人\n- 想要一种比 PPT 信息图更轻、更怪、更有个人识别度的配图风格的人\n- 用 Codex 做内容生产，希望稳定复用一套视觉语言的人\n不适合：\n- 想要商业插画、品牌 KV 或精致扁平插画的人\n- 想要传统 PPT 信息图、复杂架构图或流程图的人\n- 想要儿童卡通、可爱 IP、表情包风格的人\n- 想把大量正文、长段解释或完整课程页塞进一张图里的人\n- 需要严格可编辑矢量源文件的人\n---\n## 它会产出什么\n默认输出：\n- 16:9 横版正文配图\n- 一篇文章的 4-8 张 shot list\n- 每张图的主题、核心意思、结构类型、小黑动作和中文标注建议\n- 最终 PNG 图片，保存到 workspace 的 `assets/<article-slug>-illustrations/`\n默认不输出：\n- PPTX / PDF / Keynote\n- SVG / HTML / Canvas 可编辑图\n- 商业海报或封面 KV\n- 大段文字型信息图\n---\n## 视觉风格\n这个 skill 默认使用 Ian 的“小黑怪诞正文配图”风格：\n- 纯白背景，不要纸纹、米色、阴影、渐变\n- 黑色手绘线稿，细线，轻微抖动\n- 大量留白，主体只占画面约 40%-60%\n- 少量红色、橙色、蓝色中文手写批注\n- 一张图只表达一个核心动作、结构、状态或隐喻\n- 小黑必须参与核心动作，不能只是装饰\n- 怪诞、有创意、清爽，但不幼稚、不卖萌\n---\n## 示例效果\n### 两个断点\n### 按目的分拣\n### 一鱼多吃\n### 承接路径\n### 信息井\n### 想法压机\n### 内容发酵\n### 信任桥\n这些图片是风格校准样例，不是构图模板。使用时应该从当前文章重新发明隐喻，不要照抄旧案例的物件和构图。\n---\n## 安装\n克隆仓库：\n```bash\ngit clone https://github.com/helloianneo/ian-xiaohei-illustrations.git\ncd ian-xiaohei-illustrations\n```\n复制 skill 到 Codex skills 目录：\n```bash\nmkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\ncp -R ./ian-xiaohei-illustrations \"${CODEX_HOME:-$HOME/.codex}/skills/\"\n```\n安装后，在 Codex 里使用：\n```text\nUse $ian-xiaohei-illustrations 为这篇中文文章设计并生成 5 张小黑怪诞正文配图。\n```\n---\n## 怎么用\n### 只做配图规划\n```text\nUse $ian-xiaohei-illustrations 先不要生图。\n请分析下面这篇文章哪里值得配图，输出 5 张左右的 shot list。\n每张图写清楚：放在哪段后、主题、核心意思、结构类型、小黑在做什么、建议中文标注词。\n<粘贴文章>\n```\n### 直接生成正文配图\n```text\nUse $ian-xiaohei-illustrations 把下面这篇文章生成 4 张小黑怪诞正文配图。\n要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。\n<粘贴文章>\n```\n### 为单个概念生成一张图\n```text\nUse $ian-xiaohei-illustrations 为“信任不是喊出来的，而是一块证据一块证据铺过去”生成一张正文配图。\n画面要怪诞但清爽，小黑必须承担核心动作。\n```\n### 去掉图里的标题或错误文字\n```text\nUse $ian-xiaohei-illustrations 帮我编辑这张图，去掉左上角的“流程图”标题，其他内容保持不变。\n```\n更多示例见 [examples/prompts.md](examples/prompts.md)。\n---\n## ",
+   "helloianneo/ian-handdrawn-ppt": "# Ian Handdrawn PPT\n> 把文章、课程笔记、提纲或已有材料，变成一套中文手绘技术解释风格的 PPT-style 页面图。\n>\n> 21:9 封面 | 16:9 正文配图 | PNG 输出 | 适合文章配图、课程课件、知识卡片和技术概念解释\n---\n## 这个仓库是什么?\nIan Handdrawn PPT 是一个 Codex Skill，用来指导 AI Agent 把内容整理成**中文手绘技术解释图**。\n它不是传统 PPT 模板，也不是可编辑 PPTX 生成器。它的目标是产出可以直接用于文章、课程、分享稿里的**整页 PNG 视觉图**：\n- 先理解材料，提炼叙事结构\n- 再把每一页映射到合适的语义版式\n- 统一锁定手绘视觉 DNA\n- 每页生成一张完整 raster image\n- 多页时生成 contact sheet 方便快速检查\n一句话：**让 AI 不只是“做几页 PPT”，而是先想清楚内容，再生成一组有统一风格的中文技术解释图。**\n推荐生图模型：**最好使用 ChatGPT Image 2.0**。如果当前环境没有这个模型，就使用可用的最高质量图像模型，并尽量让整套图保持同一个模型、同一套 style lock。\n---\n## 适合谁用\n特别适合：\n- 写中文技术文章，需要封面图和正文配图的人\n- 做课程、训练营、工作坊，需要解释复杂概念的人\n- 想把长文、提纲、讲稿变成视觉化页面的人\n- 用 Codex 做内容生产，希望减少“模板 PPT 味”的人\n- 想让 AI 先规划页面叙事，再生成图像的人\n不适合：\n- 想要可编辑 PPTX 源文件的人\n- 想要自动导出 PDF / PPTX 文件的人\n- 想要复杂动效、交互式网页或矢量图的人\n- 想把大量正文塞进一张图里的人\n---\n## 它会产出什么\n默认输出：\n- 21:9 文章封面图\n- 16:9 正文插图 / 标准页面图\n- 多页 contact sheet\n- 简短 slide blueprint summary\n默认不输出：\n- 可编辑 PPTX\n- image-based PPTX\n- PDF\n- Keynote 文件\n- HTML / SVG / canvas 版本\n---\n## 视觉风格\n这个 skill 默认使用 Ian 的中文手绘技术解释风格：\n- 近白纸底，不发黄\n- 无整页边框\n- 细手绘线条和轻微铅笔排线\n- 淡蓝、鼠尾草绿、浅桃、淡紫标记\n- 中央图小而精，保留大量空白\n- 标题克制，不做大字海报\n- 中文文字短、少、可检查\n- 人物很少，最多一个小读者/工程师角色\n参考图在：\n```text\nian-handdrawn-ppt/assets/reference-handdrawn-article-illustration-style.png\n```\n---\n## 示例效果\n下面是一组用 Ian Handdrawn PPT 生成的示例图：1 张超宽封面 + 3 张正文解释页。\n### 能自动化不等于该自动化\n### 阅读其实是两件事\n### 自动化该放哪里\n### 三问判断法\n---\n## 安装\n克隆仓库：\n```bash\ngit clone https://github.com/helloianneo/ian-handdrawn-ppt.git\ncd ian-handdrawn-ppt\n```\n复制 skill 到 Codex skills 目录：\n```bash\nmkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\ncp -R ./ian-handdrawn-ppt \"${CODEX_HOME:-$HOME/.codex}/skills/\"\n```\n安装后，在 Codex 里使用：\n```text\nUse $ian-handdrawn-ppt 把这篇文章做成 1 张封面图 + 3 张正文配图。\n```\n---\n## 怎么用\n### 文章封面 + 正文配图\n```text\nUse $ian-handdrawn-ppt 把下面这篇文章做成 1 张 21:9 中文封面图 + 3 张 16:9 正文配图。\n风格保持中文手绘技术解释图，文字尽量短，每张图只表达一个观点。\n<粘贴文章>\n```\n### 课程课件页\n```text\nUse $ian-handdrawn-ppt 把这份课程大纲整理成 8 页中文手绘技术课件图。\n面向有基础的新手，每页一个核心概念，输出 slide-by-slide blueprint，然后生成最终 PNG 页面图。\n<粘贴课程大纲>\n```\n### 只规划，不生图\n```text\nUse $ian-handdrawn-ppt 先不要生图。\n请把这篇内容规划成一套 10 页左右的中文手绘技术 PPT-style image deck。\n每页给出标题、主旨、版式 archetype、可见文字和图像 brief。\n<粘贴素材>\n```\n更多示例见 [examples/prompts.md](examples/prompts.md)。\n---\n## 工作流程\n这个 skill 的流程是：\n1. 读取材料：文章、Markdown、PDF、DOCX、PPTX、课程大",
+   "helloianneo/ian-xiaohei-scenes": "# Ian Xiaohei Scenes\n> 把中文内容里的处境、压力、转折和项目故事，变成“小黑 + 真实物件 + 物理动作 + 留白叙事”的正文配图。\n>\n> 16:9 正文图 | 彩蛋长卷故事图 | 真实物件小现场 | 小黑 IP | Codex Skill\n---\n## 这个仓库是什么\nIan Xiaohei Scenes 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、教程、案例、项目复盘和个人经历生成“小黑 2.0”视觉配图。\n它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解内容里的真实处境，再把其中一个抽象判断变成一个可看见的物理现场。\n核心公式：\n```text\n小黑 + 真实物件 + 物理动作 + 短中文标签 + 留白叙事\n```\n一句话：**让读者先看到一个真实、轻、怪的小现场，再在 1 秒内意识到“这说的就是我”。**\n---\n## 和 1.0 的区别\n[Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) 是 1.0：更像白板上的手绘解释图，适合拆观点、拆流程、拆方法。\nIan Xiaohei Scenes 是 2.0：更像白色摄影棚里的真实物件现场，适合表达处境、情绪、项目故事、产品演化和正文观点隐喻。\n| 版本 | 视觉核心 | 适合内容 |\n| --- | --- | --- |\n| 1.0 Illustrations | 纯白手绘解释图 | 方法论、流程、结构、认知拆解 |\n| 2.0 Scenes | 真实物件小现场 | 用户处境、工作压力、AI 时代状态、项目复盘、个人经历 |\n---\n## 两种模式\n### 标准模式\n用于 16:9 正文配图。\n- 纯白色背景\n- 一个真实物件小现场\n- 一个核心物理动作\n- 小黑必须承担动作\n- 2-4 个中文短标签\n- 少量蓝 / 粉 / 黄 / 绿 / 红点缀\n### 彩蛋长卷模式\n用于个人经历、项目复盘、产品演化和成长路径。\n- 超横版长卷故事图\n- 高级近白背景\n- 一条手绘曲线路径\n- 5-8 个真实物件节点\n- 每个节点都有小黑参与动作\n- 左侧起点，右侧收束\n- 不做编号时间轴，不做 PPT 流程图\n---\n## 适合谁用\n特别适合：\n- 写中文文章，需要正文配图的人\n- 做 AI 工作流、产品复盘、个人经历、项目故事的人\n- 想把“打工人处境”“AI 时代焦虑”“创作者卡点”画出来的人\n- 想要比 PPT 信息图更轻、更怪、更有个人识别度的配图风格的人\n- 用 Codex 做内容生产，希望稳定复用一套视觉语言的人\n不适合：\n- 想要商业 KV、品牌海报或精致扁平插画的人\n- 想要传统流程图、复杂架构图、课程课件的人\n- 想要聊天 UI、App 截图、仪表盘截图的人\n- 想把大量正文、长段解释或完整流程塞进一张图里的人\n- 需要严格可编辑矢量源文件的人\n---\n## 示例效果\n下面 7 张图是本 Skill 的高质量模板母版和风格标尺。它们不是死板模板；使用时应该学习比例、留白、真实物件质感、小黑动作和叙事关系，不要机械复刻物件组合和构图。\n### 会议拉回\n### 消息过载\n### 生产报警\n### 审查返工\n### AI 自动化身份重命名\n### AI 简历筛选\n### 彩蛋长卷故事图\n---\n## 安装\n克隆仓库：\n```bash\ngit clone https://github.com/helloianneo/ian-xiaohei-scenes.git\ncd ian-xiaohei-scenes\n```\n复制 skill 到 Codex skills 目录：\n```bash\nmkdir -p \"${CODEX_HOME:-$HOME/.codex}/skills\"\ncp -R ./ian-xiaohei-scenes \"${CODEX_HOME:-$HOME/.codex}/skills/\"\n```\n安装后，在 Codex 里使用：\n```text\nUse $ian-xiaohei-scenes 为这篇中文文章设计并生成几张小黑实物场景正文配图。\n```\n---\n## 怎么用\n### 只做配图规划\n```text\nUse $ian-xiaohei-scenes 先不要生图。\n请分析下面这篇文章哪里适合做“小黑 + 真实物件 + 物理动作”的正文配图。\n输出 5 张左右的 shot list。\n<粘贴文章>\n```\n### 直接生成正文配图\n```text\nUse $ian-xiaohei-scenes 把下面这篇文章生成 4 张小黑实物场景正文配图。\n要求：16:9 横版、纯白背景、真实物件、小黑参与核心动作、2-4 个中文短标签。\n<粘贴文章>\n```\n### 彩蛋模式长卷\n```text\nUse $ian-xiaohei-scenes 的彩蛋模式，把这个项目复盘做成一张超横版小黑长卷故事图。\n```\n更多示例见 [examples/prompts.md](examples/prompts.md)。\n---\n## 工作流程\n这个 skill 的流",
+   "helloianneo/awesome-claude-code-skills": "# Awesome Claude Code Skills\n> Claude Code 最实用的 Skills / Agents / Plugins 精选合集，按场景分类，带安装命令，复制即用。\n>\n> 50+ 精选 | 按场景分类 | 带推荐等级 | 持续更新\n---\n## 这个仓库是什么\nClaude Code 的 Skill 生态爆发了，但好东西散落在 GitHub、skills.sh、lobehub 各处，找起来费劲。\n这个仓库帮你**筛过一遍**：\n- 只收有实际价值的 skill，不收凑数的\n- 按使用场景分类，不按作者堆\n- 标注推荐等级：`必装` > `强推` > `好用` > `可选`\n- 每个都带一键安装命令\n**怎么安装 Skill：**\n```bash\n# 通用安装方式\nnpx skills add <作者>/<仓库>@<skill名>\n# 例子\nnpx skills add vercel-labs/agent-skills@web-design-guidelines\n# 查看已安装\nnpx skills list\n```\n---\n## 目录\n- [必装 Top 10](#必装-top-10)\n- [设计 / UI](#设计--ui)\n- [前端开发](#前端开发)\n- [动效 / 视频](#动效--视频)\n- [营销 / SEO](#营销--seo)\n- [代码质量](#代码质量)\n- [工作流 / 方法论](#工作流--方法论)\n- [无障碍](#无障碍)\n- [合集 / 导航站](#合集--导航站)\n- [怎么选 Skill](#怎么选-skill)\n---\n## 必装 Top 10\n不管你做什么方向，这 10 个装了不亏。\n| # | Skill | 作者 | 一句话 | 安装 |\n|---|-------|------|--------|------|\n| 1 | [**Frontend Design**](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | Anthropic | 官方出品，让 UI 不像 AI 生成的 | `npx skills add anthropics/skills@frontend-design` |\n| 2 | [**Context7**](https://skills.sh/context7/skills/context7) | intellectronica | 上下文窗口内实时拉 API 文档，不用再贴链接 | `npx skills add intellectronica/agent-skills@context7` |\n| 3 | [**Web Design Guidelines**](https://skills.sh/vercel-labs/agent-skills/web-design-guidelines) | Vercel Labs | 对照 100+ 最佳实践审查你的 UI | `npx skills add vercel-labs/agent-skills@web-design-guidelines` |\n| 4 | [**UI-UX-Pro-Max**](https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max) | Next Level Builder | 视觉层级 x 色彩心理学 x 交互模式 | `npx skills add nextlevelbuilder/ui-ux-pro-max-skill@ui-ux-pro-max` |\n| 5 | [**Emil Kowalski's Skill**](https://skills.sh/emilkowalski/skill) | Emil Kowalski | 设计 + 动效 + 代码 + 性能，全栈审美 | `npx skills add emilkowalski/skill` |\n| 6 | [**Superpowers**](https://github.com/obra/superpowers) | obra | TDD / 并行 Agent / 代码审查 / Git 工作流 | `npx skills add obra/superpowers` |\n| 7 | [**shadcn/ui**](https://github.com/shadcn/ui) | shadcn | 官方组件管理 + 表单 + 预览 | `npx skills add shadcn/ui@shadcn` |\n| 8 | [**Remotion**](https://github.com/remotion-dev/skills) | Remotion | React 驱动的视频生成，30+ 规则 | `npx skills add remotion-dev/skills@remotion-best-practices` |\n| 9 | [**Tailwind CSS**](https://skills.sh/hai"
+  }
+ },
+ "apps": []
+}

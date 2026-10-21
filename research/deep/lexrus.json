@@ -1,0 +1,371 @@
+{
+ "handle": "lexrus",
+ "sites": [
+  {
+   "url": "https://lex.sh",
+   "ok": true,
+   "title": "Lex.sh",
+   "description": "Lex Tang — iOS/macOS developer. Independent apps, open source, and the occasional WebGL experiment.",
+   "stack": [
+    "Astro",
+    "Google Analytics",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "## Hi, I'm Lex Tang\niOS/macOS developer, he/him/husband/dad.  \n Building indie iOS & macOS apps.\n[Résumé](https://lex.sh/resume/)[My Apps](https://lex.sh/apps/)\n*   [](https://x.com/lexrus)\n*   [](https://t.me/lexrus)\n*   [](https://github.com/lexrus)\n*   [](https://www.instagram.com/lexrus)\n*   [](https://threads.com/@lexrus)\n*   [](https://youtube.com/lexrus)\n*   [](https://www.linkedin.com/in/lexrus)",
+   "github_links": [
+    "lexrus"
+   ],
+   "subpages": {
+    "https://lex.sh/apps/": "Catalog · 8 apps \nMy Apps \nHere are some apps I've built independently in my spare time, handling everything from product design to UI design. For the coding part, I've been using agentic coding tools since 2025, primarily relying on OpenAI Codex, Google Antigravity and SpaceXAI Grok. \nSubList \n Track subscriptions, renewals, and spending in one place with reminders, analytics, and iCloud sync. \n Finance · iOS · iPadOS · macOS GET \nStop surprise renewals and see exactly what your subscriptions cost.\nSubList is a private subscription tracker for your iPhone, iPad, and Mac, with reminders, calendar views, and clear monthly and yearly totals.\nEverything in one place:\n- Track subscriptions with price, currency, billing cycle, category, notes, and website links\n- Import subscriptions from screenshots by reviewing detected details before you add them\n- Import subscriptions from the App Store with app details, icons, and supported in-app purchase pricing\n- Get renewal reminders on your schedule with optional on-device notifications\n- See upcoming payments in calendar and due-date views\n- Check your subscriptions at a glance with widgets\n- Understand your spending with dashboards, trend charts, and category and payment method breakdowns\n- Share due events to Apple Reminders and Apple Notes\n- Sync with iCloud across your Apple devices\n- Export your data to CSV anytime\nPrivate by design:\n- No account signup required\n- Your subscription data stays under your Apple ID in iCloud\n- SubList keeps your subscription details in iCloud, while limited purchase, app activity, crash, and device identifier data may be used for subscriptions, app reliability, and ad measurement\nSubList Pro:\n- Unlimited subscriptions (free tier supports up to 3)\n- Use SubList Pro on all your devices with the same App Store account\n- Buy once, use everywhere on your account\nDownload SubList to stay ahead of every renewal and keep your recurring spending under control. \n More \nCouchVox \n couchvox.com \n Mac utility for Apple TV Siri Remote Visit \nCouchVox turns an Apple TV Siri Remote into a Mac controller, remote keyboard, dictation microphone, and AI workflow trigger. \n More \nSwiftyMenu \n A Finder extension which presents a customizable menu to rapidly open selected folders or files with your favorite applications. \n Utilities · macOS GET \nSwiftyMenu is a powerful macOS Finder extension that enhances your workflow with customizable context menus for quick file and folder operations.\nKey Features:\n• Custom Context Menus: Right-click any file or folder to access your personalized menu of applications and scripts\n• Cut and Move: Add selected files and folders to a visual cut list, then move them into the current Finder folder when ready\n• Multiple Action Types: Launch applications, execute shell scripts, run AppleScript, or open terminal commands\n• Smart Integration: Seamlessly integrates with macOS Finder using the FinderSync framework\n• Terminal Support: Built-in support for popular termin",
+    "https://lex.sh/resume/": "Document \nRésumé \nLast updated · Jun 1, 2025 \nI am a dedicated iOS developer with a comprehensive background in web development, enriched by a deep understanding of design principles, specifications, and standards. I began my career in web development in 2002 and have since worked with leading internet companies, including Tudou.com and Ctrip.com . \nMy journey into iOS development began in 2011 through self-learning. Over the past years, I’ve honed my skills in Objective-C and, since 2014, have predominantly used Swift to program iOS apps. My experience also includes roles at respected firms such as Modern Media Co., Ltd. , yqb.com , No NDA Inc. , MiHoYo.com and PixelForce . Each opportunity has been a stepping stone that has allowed me to develop a versatile skill set and a keen insight into iOS development. \nIn my spare time, I actively contribute to the open-source community. As an early advocate for CocoaPods, I helped numerous third-party libraries adopt this dependency manager. I’ve developed several open-source projects, including LTMorphingLabel , as well as various iOS and macOS apps (see the full list on my Apps page)."
+   },
+   "feed": {
+    "url": "https://lex.sh/rss.xml",
+    "count_seen": 2,
+    "items": [
+     {
+      "title": "My Apps",
+      "date": "Wed, 20 May 2026 04:00:00",
+      "url": "https://lex.sh/apps/"
+     },
+     {
+      "title": "Résumé",
+      "date": "Sun, 01 Jun 2025 14:24:16",
+      "url": "https://lex.sh/resume/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "lexrus",
+  "user": {
+   "name": "Lex Tang",
+   "company": null,
+   "blog": "https://lex.sh",
+   "location": "Shanghai, China",
+   "bio": "iOS/macOS developer",
+   "public_repos": 39,
+   "followers": 3854,
+   "created_at": "2010-03-10T08:54:33Z",
+   "twitter_username": "lexrus",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "lexrus/LTMorphingLabel",
+    "description": "[EXPERIMENTAL] Graceful morphing effects for UILabel written in Swift.",
+    "stargazers_count": 8135,
+    "forks_count": 775,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2014-06-25T04:48:55Z",
+    "pushed_at": "2026-03-08T00:04:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/VPNOn",
+    "description": "Turn On your VPN like a hero.",
+    "stargazers_count": 4507,
+    "forks_count": 922,
+    "language": "Swift",
+    "homepage": "https://itunes.apple.com/app/vpn-on/id951344279",
+    "created_at": "2014-12-16T10:05:13Z",
+    "pushed_at": "2020-03-15T07:23:04Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "lexrus/fontdiao",
+    "description": "[已废弃]中文图标字体，可用于 Web 或 iOS，同时提供了国内各种常用网站、应用的徽标 SVG 源文件。",
+    "stargazers_count": 608,
+    "forks_count": 78,
+    "language": "CSS",
+    "homepage": "http://lexrus.github.io/fontdiao/",
+    "created_at": "2012-11-29T09:18:24Z",
+    "pushed_at": "2014-11-12T05:46:09Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "lexrus/ios-makefile",
+    "description": "[DEPRECATED] The universal makefile for my iOS projects distributes IPAs in seconds",
+    "stargazers_count": 578,
+    "forks_count": 73,
+    "language": "Shell",
+    "homepage": "https://twitter.com/lexrus",
+    "created_at": "2013-07-03T15:03:52Z",
+    "pushed_at": "2014-08-08T15:11:46Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "lexrus/ios-dev-playbook",
+    "description": "不会运维的 iOS 开发不是好设计师。这个 Ansible Playbook 能快速配置 iOS 开发需要的服务，安装如 Gogs、GitLab、Jenkins、Ghost、Ajenti 等常用服务。",
+    "stargazers_count": 552,
+    "forks_count": 80,
+    "language": "Ruby",
+    "homepage": "https://twitter.com/lexrus",
+    "created_at": "2014-07-18T07:36:30Z",
+    "pushed_at": "2018-04-17T14:47:57Z",
+    "topics": [
+     "ansible",
+     "debian-wheezy",
+     "devops",
+     "yaml"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/LTBouncyPlaceholder",
+    "description": "A learning-by-doing UITextField extension written in Swift",
+    "stargazers_count": 489,
+    "forks_count": 45,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2014-06-11T09:44:39Z",
+    "pushed_at": "2016-01-20T03:06:38Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "lexrus/SwiftyMenu",
+    "description": "The missing Finder menu for your daily ease",
+    "stargazers_count": 431,
+    "forks_count": 28,
+    "language": "Swift",
+    "homepage": "https://apps.apple.com/app/swiftymenu/id1567748223",
+    "created_at": "2022-06-20T15:25:46Z",
+    "pushed_at": "2025-10-07T09:43:50Z",
+    "topics": [
+     "appkit",
+     "finder-sync",
+     "macos",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/LTJelloSwitch",
+    "description": "A rapid prototype of UISwitch built with Swift and PaintCode.",
+    "stargazers_count": 363,
+    "forks_count": 37,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-04-13T08:01:32Z",
+    "pushed_at": "2016-01-20T02:27:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/LeetCode.swift",
+    "description": "Once upon a time there was a noob of algorithms, and he knew a little about Swift.",
+    "stargazers_count": 356,
+    "forks_count": 37,
+    "language": "Swift",
+    "homepage": "https://twitter.com/lexrus",
+    "created_at": "2015-04-15T10:08:40Z",
+    "pushed_at": "2020-04-12T06:24:09Z",
+    "topics": [
+     "algorithms",
+     "leetcode",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/LTFinderButtons",
+    "description": "My Finder buttons collection for macOS.",
+    "stargazers_count": 312,
+    "forks_count": 20,
+    "language": "Rich Text Format",
+    "homepage": "https://twitter.com/lexrus",
+    "created_at": "2014-11-11T10:32:37Z",
+    "pushed_at": "2021-05-29T03:09:03Z",
+    "topics": [
+     "applescripts",
+     "atom",
+     "bbedit",
+     "brackets",
+     "buttons",
+     "coteditor",
+     "finder",
+     "icons",
+     "iconutil",
+     "iterm2",
+     "javascript",
+     "macos",
+     "osx",
+     "sketch",
+     "sublimetext",
+     "terminal",
+     "textmate",
+     "textwrangler",
+     "vscode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/PhoneticContacts",
+    "description": "为你的联系人加上拼音属性，这样即使你的 iPhone 设置成英文，也能有按拼音分段的功能。暂时还没有改成用 Contacts framework，Xcode 10 无法运行哦",
+    "stargazers_count": 290,
+    "forks_count": 54,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2012-11-24T15:17:11Z",
+    "pushed_at": "2025-11-01T00:35:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/RegExPlus",
+    "description": "A nifty RegEx test tool built with SwiftUI",
+    "stargazers_count": 210,
+    "forks_count": 10,
+    "language": "Swift",
+    "homepage": "https://apps.apple.com/app/regex/id1511763524",
+    "created_at": "2020-05-13T11:50:43Z",
+    "pushed_at": "2026-04-12T22:53:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/QLSwift",
+    "description": "A Quick Look plugin for Swift files",
+    "stargazers_count": 176,
+    "forks_count": 9,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2015-05-11T09:28:34Z",
+    "pushed_at": "2017-04-15T15:04:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/Huahui",
+    "description": "｡.ﾟ✧:✿花༙྇灰༙྇✿:✧ﾟ.｡ - 灰化肥会发黑，花会化灰。又名『中国程序员常读错的英文单词的 App』",
+    "stargazers_count": 151,
+    "forks_count": 14,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2017-03-01T13:33:37Z",
+    "pushed_at": "2017-03-03T08:10:19Z",
+    "topics": [
+     "app",
+     "ios",
+     "pronunciation",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/LTBlacklist",
+    "description": "[DEPRECATED] The missing Blacklist app for your iOS 5/6 with private APIs. No Jailbreak Required!",
+    "stargazers_count": 147,
+    "forks_count": 34,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2013-09-22T16:30:48Z",
+    "pushed_at": "2013-09-23T16:13:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/MMDB-Swift",
+    "description": "A tiny wrapper for libmaxminddb which allows you to lookup Geo data by IP address.",
+    "stargazers_count": 121,
+    "forks_count": 65,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2015-12-18T04:20:40Z",
+    "pushed_at": "2020-12-10T16:09:12Z",
+    "topics": [
+     "carthage",
+     "geolite2",
+     "geolocation",
+     "maxmind",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/APN",
+    "description": "[已废弃]适合 iOS 7 的 APN 设置工具，又一个没过审核的周末项目",
+    "stargazers_count": 118,
+    "forks_count": 22,
+    "language": "Objective-C",
+    "homepage": "http://lexrus.com",
+    "created_at": "2013-12-10T15:26:18Z",
+    "pushed_at": "2014-05-05T10:02:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "lexrus/LTUpdate",
+    "description": "[DEPRECATED] LeT'sUpdate to the new version available in the AppStore! A GCD powered, ARC/MRC compatible class with block interfaces.",
+    "stargazers_count": 75,
+    "forks_count": 18,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2013-02-26T11:41:25Z",
+    "pushed_at": "2014-11-24T12:45:23Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 30,
+  "languages": [
+   [
+    "Swift",
+    12
+   ],
+   [
+    "Objective-C",
+    6
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "CSS",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ],
+   [
+    "Rich Text Format",
+    1
+   ],
+   [
+    "C",
+    1
+   ],
+   [
+    "GLSL",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 7845,
+  "orgs": [
+   "IBAnimatable"
+  ],
+  "profile_readme": "### 👋 Hey, I'm Lex\nThese are the apps I'm shipping these days: https://lex.sh/apps\n",
+  "readmes": {
+   "lexrus/LTMorphingLabel": "# LTMorphingLabel\n[](https://github.com/lexrus/LTMorphingLabel)\n[](https://github.com/Carthage/Carthage)\n[](https://github.com/JamitLabs/Accio)\nA morphing UILabel subclass written in Swift, originally designed to mimic [Apple's QuickType animation in iOS 8 at WWDC 2014](https://youtu.be/w87fOAG8fjk?t=3451).\n## Table of Contents\n- [Available Effects](#available-effects)\n  - [.scale](#scale-default)\n  - [.evaporate](#evaporate)\n  - [.fall](#fall)\n  - [.pixelate](#pixelate)\n  - [.sparkle](#sparkle)\n  - [.burn](#burn)\n- [Usage](#usage)\n  - [UIKit](#uikit)\n  - [SwiftUI](#swiftui)\n- [Requirements](#requirements)\n- [Installation](#installation)\n  - [Swift Package Manager](#swift-package-manager)\n  - [CocoaPods](#cocoapods)\n  - [Carthage](#carthage)\n  - [XCFramework](#xcframework)\n  - [Accio](#accio)\n- [Unit Testing](#unit-testing)\n- [Apps Using `LTMorphingLabel`](#apps-using-ltmorphinglabel)\n- [Third-Party Ports](#third-party-ports)\n  - [Android](#android)\n  - [React Native](#react-native)\n- [License](#license)\n## Available Effects\n#### .scale (_default_)\n#### [.evaporate](https://github.com/lexrus/LTMorphingLabel/blob/master/LTMorphingLabel/LTMorphingLabel%2BEvaporate.swift)\n#### [.fall](https://github.com/lexrus/LTMorphingLabel/blob/master/LTMorphingLabel/LTMorphingLabel%2BFall.swift)\n#### [.pixelate](https://github.com/lexrus/LTMorphingLabel/blob/master/LTMorphingLabel/LTMorphingLabel%2BPixelate.swift)\n#### [.sparkle](https://github.com/lexrus/LTMorphingLabel/blob/master/LTMorphingLabel/LTMorphingLabel%2BSparkle.swift)\n> `.sparkle` is built on top of `QuartzCore.CAEmitterLayer`. There is also a SpriteKit-powered version [here](https://github.com/lexrus/LTMorphingLabel/blob/spritekit-sparkle/LTMorphingLabel/LTMorphingLabel%2BSparkle.swift).\n#### [.burn](https://github.com/lexrus/LTMorphingLabel/blob/master/LTMorphingLabel/LTMorphingLabel%2BBurn.swift)\n#### [.anvil](https://github.com/lexrus/LTMorphingLabel/blob/master/LTMorphingLabel/LTMorphingLabel%2BAnvil.swift)\n## Usage\n### UIKit\nSince `LTMorphingLabel` is a drop-in replacement, you can use it like any `UILabel` by setting its text property, yielding the default effect (`.scale`):\n```swift\nvar exampleLabel = LTMor",
+   "lexrus/VPNOn": "# VPN On\n[](https://travis-ci.org/lexrus/VPNOn)\n[](https://itunes.apple.com/app/vpn-on/id951344279)\nTurning on a VPN is always a painful experience on an iOS device due to the deep nested menus. This App installs a Today Widget into Notification Center which make it possible to turn on a VPN in about 3 seconds(depends on the connection speed). Furthermore, by turning on On Demand feature, the VPN could be automatically connected when you visit any domain specified in this App.\n## Requirements\n- An iPhone/iPad running iOS 10.3+\n- An IPSec IKEv1 / IKEv2 VPN(create yours with [my Ansible Playbook](https://github.com/lexrus/vpn-deploy-playbook) or [deploy on DigitalOcean](http://installer.71m.us/install?url=https://github.com/lexrus/do-ikev1))\n- Xcode 10.3+\n- An Apple iOS develop account\n- A [MaxMind account](https://www.maxmind.com) for GeoIP resolving\n- [Carthage](https://github.com/carthage/carthage)\n## Build with Xcode\nTo compile the project, you may temporarily modify the `bundle_id` after adding yours into the Apple Developer Center. And then activate the following capabilities of the container App and the Today extension:\n1. Personal VPN\n2. Keychain Sharing\n3. App Groups\nMeanwhile, provisioning profiles are required for testing on iPhone/iPad.\n## Usage\nOnce you add a VPN configuration you can activate the Today Widget in Notification Center, then turn on the VPN by tapping a switch or flag. You may be asked to allow the installation of a VPN profile for the first time.\n## Contribution\nIssues and roadmap are [listed here](https://github.com/lexrus/VPNOn/issues).\nThis project follows the [gitflow](https://github.com/nvie/gitflow) workflow. You'd better create a branch called `feature/sth_improved` before any major improvements. Meanwhile minor bug fixes are welcomed in the develop branch.\n## Localization\nPlease contribute to [the Transifex project](https://www.transifex.com/lexrus/vpnon/).\n## URL Schemes\n### Add configuration\nVPN service providers may list a link for their customers to efficiently add server configurations in VPN On. By register the `vpnon://` protocol, it supports the following URL scheme:\n`vpnon://{account}:{password}@{server}/?title={title}&",
+   "lexrus/fontdiao": "# Font屌 中文图标字体\n用于 Web 和 iOS 应用的中文图标字体，同时提供了国内各种常用网站、应用、知名企业的徽标 SVG 源文件。\n__图标列表传送门__ [http://lexrus.github.io/fontdiao/](http://lexrus.github.io/fontdiao/)\n## 使用方法\n### Web\n```\n<i class=\"icon-douban\"></i>\n```\n搞前端的小伙伴应该都明白，用过 [FontAwesome](http://fortawesome.github.io/Font-Awesome/) 或者 [Fontello](http://fontello.com) 的更加不用多说。\n### iOS\n* 仅支持 iOS 5.0 或更高版本的系统。\n* 手工安装需要将 __fontdiao/ios/FontDiao__ 整个目录复制到你的项目中，再 ```#import \"FontDiao.h\"``` 即可。\n* 如果你使用 [CocoaPods](http://cocoapods.org)，在 Podfile 中加上：\n```pod 'FontDiao', '~> 0.0.8'```\n* 运行 ```pod install``` 安装 Font屌 到你的 workspace\n* ```#import <FontDiao/FontDiao.h>``` 导入头文件后即可使用。\niOS 版本目前实现了 UIImageView 和 UIButton 的 category，用起来非常简单，例： ```self.imageView1.icon = FDIconTmall;```。枚举的实现参考了 [ios-fontawesome](https://github.com/alexdrone/ios-fontawesome)，但是没有用 subclass 而是用 category 是为了提高兼容性，可以与其它第三方库共存。\n__fontdiao/ios/FontDiaoDemo__ 这个项目演示了如何使用 Font屌。\n## 更多 SVG !!!\n欢迎你在 [issues](https://github.com/lexrus/fontdiao/issues?state=open) 里提出加入新的 svg 文件的要求。如果你只能提供位图，我只能抽空把它转成 svg，通常这样比较费时间，所以我建议你先用 Illustrator、iDraw 等工具自己做。但无论怎样，我都将非常感谢你的贡献。\n__需要特别注意的是__:  SVG 图片必须是正方型，图标应该在这个正方型中居中，而且最好能将整张图片缩放到 300x300px，以便统一所有 SVG 尺寸。\n## 重新生成\n你需要:\n* FontForge\n* [FontCustom](http://fontcustom.com)\n在 Mac 上用 [Homebrew](http://brew.sh) 安装 fontforge:\n* ```brew install fontforge ttfautohint``` 装上 FontForge 和 TTFAutoHint\n* ```gem install fontcustom```\n在项目根目录运行 ```rake``` 命令就能用 SVG 生成所有需要的文件了。\n项目中的大部分 SVG 文件经过 [svgo](https://github.com/svg/svgo) 优化，但是通常这一步不是必须的，而且某些 SVG 经过 svgo 处理会别成其它图形...\n## 商标法\n请参考 [商标法](http://baike.baidu.com/view/77684.htm) 第七章对商标的使用权的解释，避免违法使用他人商标。\n## LICENSE\n##### Font屌 的 SVG、字体、CSS、HTML 遵循 WTFPL 协议\n```\n            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n                    Version 2, December 2004\n Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>\n Everyone is permitted to copy and distribute verbatim or modified\n copies of this license document, and changing it is allowed as long\n as the name is changed.\n            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n  0. You just DO WHAT THE FUCK YOU WANT TO.\n```\n##### Font屌 的 iOS 源码遵循 MIT 协议\n```\nThe MIT License (MIT)\nCop",
+   "lexrus/ios-makefile": "\n## Features & TODOs\n- [x] Git log as release notes\n- [x] Overlaying git commit & branch on top of your App icon (ImageMagick is NOT required)\n- [ ] Version subfix for IPAs\n- [x] Shorten URL with my open source shortener [lexr.us](http://lexr.us) or [goo.gl](https://goo.gl)\n- [x] QRCode of URL\n- [x] Multi scheme/target (see #9 )\n- [x] Grayscale printer friendly\n- [x] ```make show_settings PRODUCT_SETTINGS_PATH``` or ```make show_settings | grep FLAG.*``` --- Show build settings\n- [x] ```make sort``` --- Sort Xcode project.pbxproj with [sort-Xcode-project-file](http://danieltull.co.uk/blog/2013/09/05/easier-merging-of-xcode-project-files/)\n- [x] Notify QA team in seconds\n  - [x] ```make send_email``` --- Send emails with Mailgun\n  - [x] ```make imessage``` --- Send __iMessages__ to tester's iPhone\n  - [ ] ```make gmail```\n- [x] Send IPA to various SaaS or serve it by yourself\n  - [x] ```make serve``` and ```make stop_serve``` --- Local OTA server with __Bonjour__ (Compatible for iOS 7.1 with HTTPS)\n  - [x] ```make upload``` --- Upload to SFTP via rsync\n  - [x] ```make testflight``` --- Upload IPA (and dSYM) to [TestFlightApp](https://testflightapp.com/)\n  - [x] ```make hockeyapp``` --- Upload IPA (and dSYM) to [HockeyApp](https://hockeyapp.net/)\n  - [ ] ```make fir``` --- Upload IPA to [fir.im](http://fir.im/)\n  - [ ] ```make dropbox```\n  - [ ] ```make cloudflare```\n  - [ ] ```make heroku```\n## Install\nDownload the __makefile__ and the config file __makefile.cfg__ into your project home folder:\n```\ncurl -OL http://git.io/makefile\nls makefile.cfg 2>/dev/null >/dev/null||curl -OL http://git.io/makefile.cfg\n```\nInstall [libqrencode](http://fukuchi.org/works/qrencode/) if you need the QRCode badge -- ```brew install qrencode```.\n## How to use?\n* Modify makefile.cfg to match your workspace/project settings.\n* ```make``` to build & package your IPA.\n* ```make upload``` to upload the package to your SFTP server.\n* or ```make serve``` to serve the IPA in your local network.\n* ```make send_email``` will notify your QA team via Mailgun maillist.\n* But I prefer spamming my buddies with iMessage ```make imessage```.\n## Contact\n[@lexrus on Twitter](https://twitter.com/lexrus)"
+  }
+ },
+ "apps": []
+}

@@ -144,6 +144,39 @@ def render_block(b):
         ps = ''.join(f'<p>{p}</p>' for p in s.get('paras', []))
         return (f'<div class="sitebox"><div class="bar"><i></i><i></i><i></i>'
                 f'<a href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(disp)} ↗</a></div><div class="in">{ps}</div></div>')
+    if 'profile' in b:
+        rows = ''.join(f'<div><dt>{esc(k)}</dt><dd>{v}</dd></div>' for k, v in b['profile'])
+        t = f'<p class="profile-t">{b["t"]}</p>' if b.get('t') else ''
+        return f'<div class="profile">{t}<dl>{rows}</dl></div>'
+    if 'table' in b:
+        tb = b['table']
+        head_ = ''.join(f'<th>{c}</th>' for c in tb['cols'])
+        body = ''.join('<tr>' + ''.join(f'<td>{c}</td>' for c in r) + '</tr>' for r in tb['rows'])
+        cap = f'<caption>{tb["caption"]}</caption>' if tb.get('caption') else ''
+        return f'<div class="tbl"><table>{cap}<thead><tr>{head_}</tr></thead><tbody>{body}</tbody></table></div>'
+    if 'work' in b:
+        w = b['work']
+        name = f'<a href="{esc(w["url"])}" target="_blank" rel="noopener">{w["name"]} ↗</a>' if w.get('url') else w['name']
+        chips = ''.join(f'<i>{esc(m)}</i>' for m in w.get('meta', []))
+        paras = ''.join(f'<p>{x}</p>' for x in w.get('paras', []))
+        bl = ('<ul>' + ''.join(f'<li>{x}</li>' for x in w['bullets']) + '</ul>') if w.get('bullets') else ''
+        facts = ''
+        if w.get('facts'):
+            facts = '<dl class="work-facts">' + ''.join(f'<div><dt>{esc(k)}</dt><dd>{v}</dd></div>' for k, v in w['facts']) + '</dl>'
+        return f'<article class="work"><header><h3>{name}</h3><div class="chips">{chips}</div></header>{paras}{bl}{facts}</article>'
+    if 'posts' in b:
+        items = []
+        for x in b['posts']:
+            t = f'<a href="{esc(x["url"])}" target="_blank" rel="noopener">{x["title"]}</a>' if x.get('url') else x['title']
+            d = f'<span class="d">{esc(x.get("date", ""))}</span>' if x.get('date') else ''
+            n = f'<p>{x["note"]}</p>' if x.get('note') else ''
+            items.append(f'<li>{d}<div>{t}{n}</div></li>')
+        return f'<ul class="posts">{"".join(items)}</ul>'
+    if 'try' in b:
+        items = ''.join(
+            f'<li><a href="{esc(x["url"])}" target="_blank" rel="noopener">{x["name"]} ↗</a><p>{x.get("why", "")}</p></li>'
+            for x in b['try'])
+        return f'<ol class="try">{items}</ol>'
     raise ValueError(f'unknown block {b}')
 
 

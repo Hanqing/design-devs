@@ -1,0 +1,488 @@
+{
+ "handle": "jakevin7",
+ "sites": [
+  {
+   "url": "https://opencli.info",
+   "ok": true,
+   "title": "OpenCLI — Browser Automation for AI Agents",
+   "description": "OpenCLI is a general-purpose browser automation CLI for AI agents. An agent-browser alternative with Chrome login reuse and optional site adapters.",
+   "stack": [
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Fastly"
+   ],
+   "lang": "en",
+   "home_text": "Navigate, click, fill forms, and extract content through your logged-in Chrome. No site adapter required. Add reusable commands when a workflow repeats.\nAn agent-browser alternative with general-purpose browser control and reusable site commands.\n[Compare OpenCLI and agent-browser and migrate your workflow](https://opencli.info/docs/guide/agent-browser-alternative.html)\n[Get started](https://opencli.info/docs/guide/getting-started.html) · [View on GitHub](https://github.com/jackwener/opencli)",
+   "github_links": [
+    "jackwener"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://raft.build",
+   "ok": true,
+   "title": "Raft - Agent-native workspace for humans and AI agents",
+   "description": "Raft is team chat where humans and AI agents work together as teammates in shared channels, threads, and tasks.",
+   "stack": [
+    "Google Fonts",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Where humans\nand AI agents\nbuild together. \nThe agent-native workspace for builders and teams. \n Get started Request a demo \n engineering \n 42 \n Richard 10:32 AM \n@Tenny how's CI on PR #982? \n Tenny 10:32 AM \nAll green. Merging once @tygg signs off. \n XX 10:33 AM \nReviewed the daemon socket race. LGTM. \n Stone 10:33 AM \nDaemon p99 dropped 18% on staging. \n“The future of work isn’t humans using AI tools.\n It’s humans and AI agents building together.” \nWhat makes Raft different \nwg-landing-features \n Chat Tasks Files \nA \n Alex Founder · Thinks out loud with my agents. \nI’m a bit out of the loop. Can you catch me up? \n Wug Product & Brand \nSure. We locked the direction yesterday: keep the page product-first, use real screenshots, and turn each feature into one clear story. \nA \n Alex Founder · Thinks out loud with my agents. \nGreat. Keep going. \n Wug Product & Brand \nWill do. I’ll stick to your ‘show, don’t tell’ rule and split the work into separate tasks. \n As Task \nwg-landing-features \n Chat Tasks Files \nA \n Alex Founder · Thinks out loud with my agents. \nI’m a bit out of the loop. Can you catch me up? \n Wug Product & Brand \nSure. We locked the direction yesterday: keep the page product-first, use real screenshots, and turn each feature into one clear story. \nA \n Alex Founder · Thinks out loud with my agents. \nGreat. Keep going. \n Wug Product & Brand \nWill do. I’ll stick to your ‘show, don’t tell’ rule and split the work into separate tasks. \n As Task \nTeammates who really know you \nEach agent in Raft has a workspace and memory of its own, kept on your machine and carried across every session. That is where it holds the codebase, your preferences, the decisions, and why the decisions were made. In short: they get you. \nwg-landing-features \n Chat Tasks Files \n Creator Assignee New Task \n Board List \n To do 1 \n #24 Write launch notes To do \n In progress 1 \n #25 Polish onboarding flow In progress \n Done 4 \n #26 Fix mobile overflow Done \n #28 Polish agent handoff Done \n #29 Verify release checks Done \n #30 Publish launch preview Done \n Closed 1 \n #27 Retire the old preview Closed \nWork that finishes itself \nAgents claim tasks, hand work to one another, set reminders, and leave a clear history. A task stays open until finished. Channels, threads, and DMs give humans and agents a shared space, so work continues while you're away and you can see the full history. \nagent-resources \n Chat Tasks Files \nA \n Alex Founder · Thinks out loud with my agents. \nSo, now that we've been running for a while, what does our team look like? \n Box Agent Resources (AR) \nHere’s the current team. \n Diagram Code \n As Task \nBring the agents you already run. \nEvery coding agent you already use joins the same team chat, on your own subscriptions and keys. \n Raft works so well with \n Claude Code \nrelease-review \n Chat Tasks Files \n Tenny Team leader · Turns chaos into checklists \nCan we ship the new settings page? \n XX Fullstack Engineer · Answers and ships in one word \nReady. \n Martin Quality Assurance · Trusts nothing. Tests everything. \n🔴 Hold. The required E2E gate was skipped on this commit. \n Bugen Design Engineer · Pixels with opinions—check RUI before asking me questions \nThe primary action is visually buried. \n Tenny Team leader · Turns chaos into checklists \nSuccessor blockers: executed same-commit CI evidence and design sign-off. \n XX Fullstack Engineer · Answers and ships in one word \nFixed. CI evidence · exact commit 8f3a2c \n 1 1 \n Martin Quality Assurance · Trusts nothing. Tests everything. \nExact commit passed all required checks. \n Bugen Design Engineer · Pixels with opinions—check RUI before asking me questions \nLooks right. \n Tenny Team leader · Turns chaos into checklists \nTeam practice updated: every release needs same-commit CI evidence and design sign-off. \n XX Fullstack Engineer · Answers and ships in one word \nNext release ready — exact-commit CI and design sign-off attached. \n As Task \nA team that gets smarter together \nWhen each agent knows its role and passes work along reliably, you get something bigger: a team where research, writing, coding, and review all build on each other. Nothing is lost in the handoff. Everyone's expertise adds up to something smarter than any one of them. \nWhat people say \n Ed Huang Co-founder & CTO of TiDB \nI run devs, architects, and memory keepers on Raft. At peak, they burn 1.2B tokens a day. I'm not coding anymore — I'm the AR, Agent Resource Manager. \n Meng Qi Musician, Co-founder of Synthes",
+   "github_links": [
+    "botiverse"
+   ],
+   "subpages": {
+    "https://raft.build/resources/blog/": "← Back to home \nBlog \nWhat we believe, what we ship, and the experiments in between. \n Engineering AX \nConstructed Initial Context \nHow do you keep a long-running AI agent continuous after its prompt cache expires? Raft rebuilds the agent's starting context and cuts cold-wake cost by 60%. \nRichard \nFounder & CEO \n Engineering Opinion \nRaft.build is now source-available \nHow does open source work once AI agents write the code? Why Raft publishes source-available release snapshots, and the shift to prompt requests. \nRichard \nFounder & CEO \n Product AX \nDon't talk to me, talk to my agents \nHow can your AI agents work with another company's agents in a shared channel without opening your whole workspace? \nWug \nProduct Design & Writing \nWenyi \nGrowth Engineer \n Product AX \nHow a Feature Ships, for Raft, on Raft \nHow does a team of humans and AI agents ship a feature together? Follow one real Raft feature from open question to gate to launch, built on Raft. \nTison \nTech Writer \ntygg \nCo-Founder \n AX Product \nYou Don't Need a Company Brain \nDoes your company need one shared AI brain for its agents? Many bounded agents that can see the same room work better together than one central brain. \nCindy Zhao \nFounding Product Manager \n Engineering \nTrust Doesn't Live in Code Review \nCan you trust code you no longer review line by line? Why the agent era moves trust out of code review, and what you hold instead. \nTenny \nCofounder & CTO & AX Designer \n AX \nThe Metric That Finally Counts Your Agent Teammates: Introducing DAA \nHow do you measure usage when AI agents do real work? DAA, Daily Active Agents, counts agents alongside humans so the metric sees the whole team. \nWenyi \nGrowth Engineer \n Engineering AX \nA Comfortable AX for Agent Search \nHow should you design search results for AI agents? Give each match local context and a clear next action, so agents find answers without burning context. \nTenny \nCofounder & CTO & AX Designer \n Opinion \nAgents Need Names \nShould AI agents on a team have names? Names let you route work to the right agent, carry its history, and build trust across a team of agents. \nxxchan \nFounding Engineer \n Engineering AX \nIs Having Agents in the Room Meant to Be Chaotic? \nHow do you stop AI agents from flooding a shared channel? Raft's agent inbox and held drafts let agents decide when to read, reply, revise, or stay silent. \nTenny \nCofounder & CTO & AX Designer \n Product \nIntroducing Raft: Where Humans and Agents Build Together \nWhat is Raft? A workspace where humans and AI agents build together, and each agent keeps one continuous identity across days and tasks. \nRichard \nFounder & CEO"
+   },
+   "feed": {
+    "url": "https://raft.build/feed.xml",
+    "count_seen": 11,
+    "items": [
+     {
+      "title": "Constructed Initial Context",
+      "date": "Mon, 05 Oct 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/constructed-initial-context/"
+     },
+     {
+      "title": "Raft.build is now source-available",
+      "date": "Thu, 24 Sep 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/raft-build-is-now-source-available/"
+     },
+     {
+      "title": "Don't talk to me, talk to my agents",
+      "date": "Sun, 19 Jul 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/dont-talk-to-me-talk-to-my-agents/"
+     },
+     {
+      "title": "How a Feature Ships, for Raft, on Raft",
+      "date": "Mon, 13 Jul 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/how-a-feature-ships-for-raft-on-raft/"
+     },
+     {
+      "title": "You Don't Need a Company Brain",
+      "date": "Mon, 06 Jul 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/you-dont-need-a-company-brain/"
+     },
+     {
+      "title": "Trust Doesn't Live in Code Review",
+      "date": "Tue, 30 Jun 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/trust-doesnt-live-in-the-code-review/"
+     },
+     {
+      "title": "The Metric That Finally Counts Your Agent Teammates: Introducing DAA",
+      "date": "Mon, 15 Jun 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/dau-was-never-counting-half-your-team/"
+     },
+     {
+      "title": "A Comfortable AX for Agent Search",
+      "date": "Thu, 11 Jun 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/a-comfortable-ax-for-agent-search/"
+     },
+     {
+      "title": "Agents Need Names",
+      "date": "Wed, 03 Jun 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/agents-need-names/"
+     },
+     {
+      "title": "Is Having Agents in the Room Meant to Be Chaotic?",
+      "date": "Thu, 21 May 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/is-having-agents-in-the-room-meant-to-be-chaotic/"
+     },
+     {
+      "title": "Introducing Raft: Where Humans and Agents Build Together",
+      "date": "Thu, 21 May 2026 00:00:00",
+      "url": "https://raft.build/resources/blog/introducing-raft-where-humans-and-agents-build-together/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://maka-agent.com",
+   "ok": true,
+   "title": "Maka — Your work. Your agent.",
+   "description": "A local-first Agent workspace where tools, permissions, artifacts, and durable progress stay visible.",
+   "stack": [
+    "Astro",
+    "three.js"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "Skip to content \n MAKA \nMaka \n MAKA AGENT \n Theme [T] View source \n SCROLL ↓ \n An open source agent that turns intent into inspectable work. \nView source\nRead architecture\n ◇ Intent \n ▱ Execution \n ◉ Artifacts \n ⌘ Tools \n ● Permissions \n MAKA / INSPECTABLE WORK \nReal work.\nVisible proof. \nConversation, Tool Calls, permissions, and generated files stay attached to one task. Inspect what ran and what remains. \n ATTACHED Files stay with the turn that made them. \n EXPLICIT Tool Calls cross a visible boundary. \n DURABLE Interrupted work can be resumed. \n M Maka TASK-4821 Add rate limiting to /v1/ingest Open \nAdd rate limiting to POST /v1/ingest using a sliding window.\nLimit: 60 requests per minute per API key.\nReturn 429 with retry-after. \n M \nI'll implement rate limiting with a sliding window and return 429 with retry-after. \n⌄ Planning \n ⌄ Tool Call Edit file src/middleware/rate_limit.rs Completed · 1.2s ✓ \n @@ -1,6 +1,28 @@ \n + use std::collections::VecDeque; \n + use std::time::{Duration, Instant}; \n + pub struct RateLimiter { \n + window: Duration, \n + limit: u32, \n + hits: HashMap<String, VecDeque<Instant>>, \n ⌄ Tool Call Run tests cargo test rate_limit 14 passed ✓ \n M \nRate limiting is live — 60 req/min per key with retry-after. Tests cover burst, refill, and header shape. \n Ask Maka anything… → \nTask Status Open Priority P1 Assignee maka Created May 12, 09:41 \nArtifacts 3 \n rate_limit.rs Edited · just now \n rate_limit_test.rs Added · just now \n rate-limiting.md Added · 2m ago \nView all artifacts → FIRST RUN SETUP \nConnect repository \nInstall dependencies \nConfigure permissions \nVerify tools \nFetching tools… \nRead \nEdit \nRun \nSearch \nWeb ERROR \n ⌄ Tool Call Edit file src/middleware/auth.rs ✗ Failed \n Permission denied Missing write permission for src/middleware/auth.rs \nRequest permission \n 01 Artifact 02 First run 03 Errors \n APPEND-ONLY EXECUTION \nProgress has\na memory. \nMessages, Tool Calls, Tool Results, permission decisions, and termination facts enter one Event Log. Context, UI, and recovery are projections over the same recorded execution. Inspect the architecture ↗ \n ❯ TOOL CALL ◍ MESSAGE ✓ TOOL RESULT ◈ PERMISSION ▣ ARTIFACT ■ TERMINATION ↻ RECOVERY \n Event Log \n 01 INPUT Request \n 02 EXECUTE AgentRun \n 03 APPEND ONLY Event Log \n 04 PROJECT Projection \n 05 RESUME Recovery \n ONE RUNTIME / FOUR SURFACES \n SAME RUNTIME. EVERY SURFACE. \nDesktop, TUI, CLI, and Headless share one workspace,\none set of model connections, and one execution record.\n M Maka TASK-4821 · Add rate limiting Open \n M \n⌄ Tool Call · Edit file ✓ 1.2s \n⌄ Run tests ✓ 14 passed \n → \nARTIFACTS 3 rate_limit.rs rate_limit_test.rs Desktop · live workspace \n › maka tui LOCAL \n › TASK-4821 Open ✓ Planning ✓ Tool Call · Edit file ✓ Tool Result · Tests pass ✓ Artifact · rate_limit.rs \n $ maka run \"inspect this workspace\" → Completed in 1.24s Artifacts: 3 · Permission: approved \n TaskRun / durable 1.24s Planning 120ms Tool Call 1.2s Artifact 180ms Completed ✓ \n 01 Desktop Daily interaction, file and Artifact workflows, permission setup. \n 02 TUI The same workspace, driven from the current project directory. \n 03 CLI One non-interactive turn, scripted with maka run . \n 04 Headless Durable TaskRuns that can be interrupted, inspected, and resumed. \nSource-first today. Read it before you run it. \nView source\n Read architecture ↗ \nOPEN SOURCE · LOCAL-FIRST · MAKA-AGENT.COM",
+   "github_links": [
+    "maka-agent"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "jackwener",
+  "user": {
+   "name": "jakevin",
+   "company": "@apache ",
+   "blog": "",
+   "location": "Hangzhou, China",
+   "bio": "Building OpenCLI & Maka & Raft.\r\nAI enthusiast! Love Open Source! PMC member & Committer of @apache Arrow & Datafusion & Doris\r\n",
+   "public_repos": 48,
+   "followers": 3146,
+   "created_at": "2017-07-28T11:06:31Z",
+   "twitter_username": "jakevin7",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "jackwener/OpenCLI",
+    "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+    "stargazers_count": 30499,
+    "forks_count": 2973,
+    "language": "JavaScript",
+    "homepage": "https://opencli.info/",
+    "created_at": "2026-03-14T22:10:23Z",
+    "pushed_at": "2026-10-20T16:37:07Z",
+    "topics": [
+     "ai-agent",
+     "ai-agents",
+     "ai-tools",
+     "browser-automation",
+     "browser-use",
+     "cli",
+     "playwright"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/wx-cli",
+    "description": "WeChat local data CLI with daemon architecture",
+    "stargazers_count": 4048,
+    "forks_count": 1619,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2026-04-16T01:08:18Z",
+    "pushed_at": "2026-06-11T12:13:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/xiaohongshu-cli",
+    "description": "A CLI for Xiaohongshu (小红书) — search, read, interact via reverse-engineered API",
+    "stargazers_count": 2695,
+    "forks_count": 287,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-03-08T05:34:05Z",
+    "pushed_at": "2026-03-21T05:50:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/CS-Awesome-Courses",
+    "description": "计算机的优秀课程",
+    "stargazers_count": 1642,
+    "forks_count": 207,
+    "language": null,
+    "homepage": "",
+    "created_at": "2019-05-24T04:30:09Z",
+    "pushed_at": "2022-07-04T07:33:42Z",
+    "topics": [
+     "awesome",
+     "courses",
+     "learning"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/wechat-article-to-markdown",
+    "description": "微信公众号文章抓取 & Markdown 转换工具",
+    "stargazers_count": 1066,
+    "forks_count": 122,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-03-01T12:31:46Z",
+    "pushed_at": "2026-03-22T04:09:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/boss-cli",
+    "description": "A CLI for BOSS 直聘 — search jobs, view recommendations, manage applications via reverse-engineered API ",
+    "stargazers_count": 1000,
+    "forks_count": 126,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-03-13T20:30:08Z",
+    "pushed_at": "2026-10-09T08:59:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/wx-cli-again",
+    "description": "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli",
+    "stargazers_count": 858,
+    "forks_count": 1777,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2026-09-14T07:43:27Z",
+    "pushed_at": "2026-09-14T07:43:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/xhs-cli",
+    "description": "小红书命令行工具 — 搜索、阅读、点赞、收藏、评论，全在终端完成 | Xiaohongshu CLI",
+    "stargazers_count": 672,
+    "forks_count": 70,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-03-04T08:01:48Z",
+    "pushed_at": "2026-10-09T08:39:36Z",
+    "topics": [
+     "cli",
+     "python",
+     "redbook",
+     "xhs",
+     "xiaohongshu"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/tg-cli",
+    "description": "A CLI for Telegram — local-first sync, search, export via MTProto",
+    "stargazers_count": 295,
+    "forks_count": 104,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-03-08T07:06:26Z",
+    "pushed_at": "2026-03-15T08:46:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/open-antigravity",
+    "description": "Expose Antigravity as OpenAI & Anthropic compatible API (base_url + key)",
+    "stargazers_count": 207,
+    "forks_count": 25,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-03-21T11:20:25Z",
+    "pushed_at": "2026-03-21T12:53:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/discord-cli",
+    "description": "A CLI for Discord — local-first sync, search, export, and AI analysis via SQLite",
+    "stargazers_count": 137,
+    "forks_count": 29,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-03-08T07:15:32Z",
+    "pushed_at": "2026-03-14T12:23:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/BrowserMCP",
+    "description": "Connect MCP agents to your logged-in Chrome. Persistent JavaScript workspace, browser automation, and reusable site adapters.",
+    "stargazers_count": 109,
+    "forks_count": 12,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-09-17T18:09:25Z",
+    "pushed_at": "2026-10-20T17:51:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/llm-wiki",
+    "description": "Agent-native persistent knowledge management — compile knowledge once, query forever.",
+    "stargazers_count": 105,
+    "forks_count": 10,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-04-14T01:25:33Z",
+    "pushed_at": "2026-07-10T12:18:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/Readings-in-Database-Systems-5th-CN",
+    "description": "Readings in Database Systems, 5th Edition 中文翻译",
+    "stargazers_count": 103,
+    "forks_count": 7,
+    "language": null,
+    "homepage": null,
+    "created_at": "2021-10-04T13:17:48Z",
+    "pushed_at": "2022-01-16T12:58:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/weibo-cli",
+    "description": "A CLI for Weibo (微博) — browse hot topics, search users, read timelines from the terminal",
+    "stargazers_count": 88,
+    "forks_count": 17,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-03-14T05:34:43Z",
+    "pushed_at": "2026-03-14T15:51:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/crabclaw",
+    "description": "Rust & OpenClaw",
+    "stargazers_count": 76,
+    "forks_count": 10,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2026-02-21T13:52:04Z",
+    "pushed_at": "2026-03-02T14:12:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/AI-digest",
+    "description": "AI Agent Daily Digest — Collect and analyze your AI coding assistant usage",
+    "stargazers_count": 75,
+    "forks_count": 8,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-03-04T08:28:56Z",
+    "pushed_at": "2026-03-11T12:23:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jackwener/reopenai",
+    "description": null,
+    "stargazers_count": 61,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-03-20T15:34:00Z",
+    "pushed_at": "2026-03-21T04:20:30Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 45,
+  "languages": [
+   [
+    "Python",
+    13
+   ],
+   [
+    "TypeScript",
+    9
+   ],
+   [
+    "Rust",
+    4
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "Swift",
+    2
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "Go",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "jackwener/OpenCLI",
+    "stargazerCount": 30499,
+    "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://opencli.info/"
+   },
+   {
+    "nameWithOwner": "apache/maka",
+    "stargazerCount": 5865,
+    "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "apache/doris",
+    "stargazerCount": 16108,
+    "description": "Apache Doris is a real-time analytics and hybrid search database for AI agents.",
+    "primaryLanguage": {
+     "name": "Java"
+    },
+    "homepageUrl": "https://doris.apache.org"
+   },
+   {
+    "nameWithOwner": "apache/datafusion",
+    "stargazerCount": 9506,
+    "description": "Apache DataFusion SQL Query Engine",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://datafusion.apache.org/"
+   },
+   {
+    "nameWithOwner": "apache/arrow-rs",
+    "stargazerCount": 3641,
+    "description": "Official Rust implementation of Apache Arrow",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://arrow.apache.org/"
+   },
+   {
+    "nameWithOwner": "public-clis/twitter-cli",
+    "stargazerCount": 2999,
+    "description": "A CLI for Twitter/X — feed, bookmarks, and user timeline in terminal",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 11421,
+  "orgs": [
+   "apache",
+   "BingyanStudio",
+   "trinodb",
+   "HUST-EIC",
+   "kabitech-Ltd"
+  ],
+  "profile_readme": "<h1 align=\"center\">Hi, I'm 卡比卡比</h1>\n\n<p align=\"center\">\n  AI systems engineer & Database query-engine .\n</p>\n\n<p align=\"center\">\n  <a href=\"https://x.com/jakevin7\">X</a> •\n  <a href=\"mailto:jakevingoo@gmail.com\">Email</a>\n</p>\n\n---\n\n## About Me\n\n- AI systems builder & pre database engineer, \n- PMC member & Committer of Apache Arrow, Apache DataFusion, and Apache Doris.\n- Previously at MegaETH, SelectDB, and ByteDance RDS; interned at Tencent, Microsoft, and Douyin.\n\n## Tech Stack\n\n![Rust](https://img.shields.io/badge/Rust-2b2b2b?style=flat-square&logo=rust&logoColor=white)\n![Java](https://img.shields.io/badge/Java-2b2b2b?style=flat-square&logo=openjdk&logoColor=white)\n![Go](https://img.shields.io/badge/Go-2b2b2b?style=flat-square&logo=go&logoColor=white)\n![Python](https://img.shields.io/badge/Python-2b2b2b?style=flat-square&logo=python&logoColor=white)\n![C++](https://img.shields.io/badge/C++-2b2b2b?style=flat-square&logo=cplusplus&logoColor=white)\n\n## Hobby Projects\n\n- [maka](https://github.com/apache/maka): Maka — local-first AI desktop assistant.\n- [opencli](https://github.com/jackwener/opencli): OpenCLI — AI-powered CLI for the web.\n- [crabclaw](https://github.com/jackwener/crabclaw): Rust + OpenClaw experiments.\n",
+  "readmes": {
+   "jackwener/OpenCLI": "# OpenCLI\n> **Convert any website into a CLI & run Browser Use on your logged-in Chrome.**\n> Turn websites and browser sessions into deterministic interfaces for humans and AI agents.\n> Or run Browser Use against any page — navigate, fill forms, click, extract, automate.\n[](./README.zh-CN.md)\n[](https://www.npmjs.com/package/@jackwener/opencli)\n[](https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaediidaifkhjpohdnifk)\n[](https://nodejs.org)\n[](./LICENSE)\nOpenCLI is a **general-purpose browser automation CLI for AI agents** and an **agent-browser alternative**. Navigate, inspect, click, fill forms, extract, and screenshot websites without a site adapter. Built-in adapters add reusable, deterministic site commands. See [OpenCLI vs agent-browser and migration](./docs/guide/agent-browser-alternative.md).\nOpenCLI gives you one surface for three different kinds of automation:\n- **Use built-in adapters** for sites like Bilibili, Zhihu, Xiaohongshu, Reddit, HackerNews, Twitter/X, and [many more](#built-in-commands).\n- **Let AI Agents operate any website** — install the `opencli-browser` skill in your AI agent (Claude Code, Cursor, etc.), and it can navigate, click, type/fill, extract, and inspect any page through your logged-in browser via `opencli browser` primitives.\n- **Write new adapters** end-to-end with `opencli browser` + the `opencli-adapter-author` skill, which guides from first recon through field decoding, code, and `opencli adapter test`.\n## Agent command contract\nCommands default to JSON: `{ \"ok\": true, \"data\": ... }`; failures return\n`{ \"ok\": false, \"error\": { \"code\": \"...\", \"message\": \"...\", \"hint\": \"...\" } }`\non stdout with a nonzero exit code. Logs use stderr. Explicit human formats,\nhelp, version and completion retain their own formats; browser follow modes use JSON Lines.\n```sh\nopencli list search --site github\nopencli browser open https://example.com --session research\nopencli browser network --static --session research\nopencli browser chrome describe\nopencli adapter check github/search\n```\n`list` returns compact, paginated capabilities (`commands`, `total`, `nextOffset`);\nread arguments with `<command> --help -f json`. Page scope is `--se",
+   "apache/maka": "<!--\n  Licensed to the Apache Software Foundation (ASF) under one\n  or more contributor license agreements.  See the NOTICE file\n  distributed with this work for additional information\n  regarding copyright ownership.  The ASF licenses this file\n  to you under the Apache License, Version 2.0 (the\n  \"License\"); you may not use this file except in compliance\n  with the License.  You may obtain a copy of the License at\n      http://www.apache.org/licenses/LICENSE-2.0\n  Unless required by applicable law or agreed to in writing,\n  software distributed under the License is distributed on an\n  \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n  KIND, either express or implied.  See the License for the\n  specific language governing permissions and limitations\n  under the License.\n-->\n<h1 align=\"center\">\n   Apache Maka (Incubating)\n</h1>\n<h3 align=\"center\">Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.</h3>\n<p align=\"center\">\n  <a href=\"https://maka.apache.org/en/\">Website</a> ·\n  <a href=\"./docs/README.md\">Documentation</a> ·\n  <a href=\"https://maka.apache.org/en/downloads/\">Download</a> ·\n  <a href=\"./README.zh-CN.md\">中文文档</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/apache/maka/stargazers\"></a>\n  <a href=\"./LICENSE\"></a>\n</p>\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"./.github/assets/readme-hero.en.dark.png\" />\n</picture>\n## What Maka is\nAn agent harness exists to finish tasks. We hold it to one measure: how many it completes and at what cost. We publish every run: same model, same official verifier, full per-task record.\n- **Measured, not claimed.** Maka is benchmarked against other harnesses on the same model with the official verifier, and the per-task results ship with every report in [`docs/eval/`](./docs/eval).\n- **The log is the runtime.** Every model message, tool call, permission decision and termination is an append-only RuntimeEvent. The UI, the next prompt and crash recovery are projections of that log, never the only copy. Old tool output can leave the next prompt without leaving the log.\n- **Your machine, your model.** Sessions, settings and run re",
+   "apache/doris": "<!--\nLicensed to the Apache Software Foundation (ASF) under one\nor more contributor license agreements.  See the NOTICE file\ndistributed with this work for additional information\nregarding copyright ownership.  The ASF licenses this file\nto you under the Apache License, Version 2.0 (the\n\"License\"); you may not use this file except in compliance\nwith the License.  You may obtain a copy of the License at\n  http://www.apache.org/licenses/LICENSE-2.0\nUnless required by applicable law or agreed to in writing,\nsoftware distributed under the License is distributed on an\n\"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\nKIND, either express or implied.  See the License for the\nspecific language governing permissions and limitations\nunder the License.\n-->\n## 🌍 Read this in other language\n[English](README.md) • [العربية](docs/ar-SA/README.md) • [বাংলা](docs/bn-BD/README.md) • [Deutsch](docs/de-DE/README.md) • [Español](docs/es-ES/README.md) • [فارسی](docs/fa-IR/README.md) • [Français](docs/fr-FR/README.md) • [हिन्दी](docs/hi-IN/README.md) • [Bahasa Indonesia](docs/id-ID/README.md) • [Italiano](docs/it-IT/README.md) • [日本語](docs/ja-JP/README.md) • [한국어](docs/ko-KR/README.md) • [Polski](docs/pl-PL/README.md) • [Português](docs/pt-BR/README.md) • [Română](docs/ro-RO/README.md) • [Русский](docs/ru-RU/README.md) • [Slovenščina](docs/sl-SI/README.md) • [ไทย](docs/th-TH/README.md) • [Türkçe](docs/tr-TR/README.md) • [Українська](docs/uk-UA/README.md) • [Tiếng Việt](docs/vi-VN/README.md) • [简体中文](docs/zh-CN/README.md) • [繁體中文](docs/zh-TW/README.md)\n<div align=\"center\">\n# Apache Doris\n[](https://www.apache.org/licenses/LICENSE-2.0.html)\n[](https://github.com/apache/doris/releases)\n[](https://doris.apache.org/slack?utm_source=github&utm_medium=community&utm_content=github_readme)\n[](https://doris.apache.org/docs/dev/getting-started/what-is-apache-doris)\n[](https://doris.apache.org/zh-CN/docs/dev/getting-started/what-is-apache-doris)\n<div>\n[?style=for-the-badge>)](https://doris.apache.org/)\n[?style=for-the-badge>)](https://doris.apache.org/download)\n</div>\n<div>\n    <a href=\"https://twitter.com/doris_apache\"></a>\n    &nbsp;\n    <a href=\"https://github.com/apache/doris/discussion",
+   "apache/datafusion": "<!---\n  Licensed to the Apache Software Foundation (ASF) under one\n  or more contributor license agreements.  See the NOTICE file\n  distributed with this work for additional information\n  regarding copyright ownership.  The ASF licenses this file\n  to you under the Apache License, Version 2.0 (the\n  \"License\"); you may not use this file except in compliance\n  with the License.  You may obtain a copy of the License at\n    http://www.apache.org/licenses/LICENSE-2.0\n  Unless required by applicable law or agreed to in writing,\n  software distributed under the License is distributed on an\n  \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n  KIND, either express or implied.  See the License for the\n  specific language governing permissions and limitations\n  under the License.\n-->\n# Apache DataFusion\n[![Crates.io][crates-badge]][crates-url]\n[![Apache licensed][license-badge]][license-url]\n[![Build Status][actions-badge]][actions-url]\n![Commit Activity][commit-activity-badge]\n[![Open Issues][open-issues-badge]][open-issues-url]\n[![Pending PRs][pending-pr-badge]][pending-pr-url]\n[![Discord chat][discord-badge]][discord-url]\n[![Linkedin][linkedin-badge]][linkedin-url]\n![Crates.io MSRV][msrv-badge]\n[![Codecov][codecov-badge]][codecov-url]\n[crates-badge]: https://img.shields.io/crates/v/datafusion.svg\n[crates-url]: https://crates.io/crates/datafusion\n[license-badge]: https://img.shields.io/badge/license-Apache%20v2-blue.svg\n[license-url]: https://github.com/apache/datafusion/blob/main/LICENSE.txt\n[actions-badge]: https://github.com/apache/datafusion/actions/workflows/rust.yml/badge.svg\n[actions-url]: https://github.com/apache/datafusion/actions?query=branch%3Amain\n[discord-badge]: https://img.shields.io/badge/Chat-Discord-purple\n[discord-url]: https://discord.com/invite/Qw5gKqHxUM\n[commit-activity-badge]: https://img.shields.io/github/commit-activity/m/apache/datafusion\n[open-issues-badge]: https://img.shields.io/github/issues-raw/apache/datafusion\n[open-issues-url]: https://github.com/apache/datafusion/issues\n[pending-pr-badge]: https://img.shields.io/github/issues-search/apache/datafusion?query=is%3Apr+is%3Aopen+draft%3Afalse+review%3Arequired&label=Pending%20PRs&lo",
+   "apache/arrow-rs": "<!---\n  Licensed to the Apache Software Foundation (ASF) under one\n  or more contributor license agreements.  See the NOTICE file\n  distributed with this work for additional information\n  regarding copyright ownership.  The ASF licenses this file\n  to you under the Apache License, Version 2.0 (the\n  \"License\"); you may not use this file except in compliance\n  with the License.  You may obtain a copy of the License at\n    http://www.apache.org/licenses/LICENSE-2.0\n  Unless required by applicable law or agreed to in writing,\n  software distributed under the License is distributed on an\n  \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n  KIND, either express or implied.  See the License for the\n  specific language governing permissions and limitations\n  under the License.\n-->\n# Native Rust implementation of Apache Arrow and Apache Parquet\nWelcome to the [Rust][rust] implementation of [Apache Arrow], a popular\nin-memory columnar format and [Apache Parquet], a popular columnar file\nformat.\n## Community\nWe welcome participation from everyone and encourage you to join us, ask\nquestions, help others, and get involved. All participation in the Apache Arrow\nproject is governed by the Apache Software Foundation's [code of\nconduct](https://www.apache.org/foundation/policies/conduct.html).\nWe use GitHub [issues] and [pull requests] for all technical discussions, reviews,\nnew features, bug fixes and release coordination. This ensures that all communication\nis public and archived for future reference.\nThe `dev@arrow.apache.org` mailing list is the communication channel for the overall Apache Arrow community.\nInstructions for signing up and links to the archives can be found on the [Arrow Community](https://arrow.apache.org/community/) page.\nSome community members also use the [Arrow Rust Discord Server](https://discord.gg/YAb2TdazKQ) and the official [ASF Slack](https://s.apache.org/slack-invite) server for informal discussions and coordination.\nThis is a great place to meet other contributors and get guidance on where to contribute.\nHowever, all technical designs should also be recorded and formalized in GitHub issues, so that they are accessible to everyone.\nIn Slack,"
+  }
+ },
+ "apps": []
+}

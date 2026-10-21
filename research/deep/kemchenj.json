@@ -1,0 +1,433 @@
+{
+ "handle": "kemchenj",
+ "sites": [
+  {
+   "url": "http://kemchenj.github.io",
+   "ok": true,
+   "title": "kemchenj",
+   "description": "",
+   "stack": [
+    "Hexo",
+    "Substack"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "",
+   "home_text": "kemchenj \nkemchenj \nHackable life? \n文章目录\n站点概览 \n四娘\nHackable life? \n Twitter RSS \n 0% \n 链接 \n 老司机 iOS 周报 \n iOS Dev Weekly \n SwiftGG \n 喵神博客 \n Objective-C 中国 \n 13 周报 \n 波报 \n 【译】SE-0302 Sendable 和 @Sendable 闭包 \n 发表于 2022-01-07 更新于 2026-10-19 \n原文链接： SE-0302 Sendable and @Sendable closures \nProposal: SE-0302 \nAuthors: Chris Lattner , Doug Gregor \nReview Manager: John McCall \nStatus: Accepted (2021-03-16) \nImplementation: apple/swift#35264 \nMajor Contributors: Dave Abrahams, Paul Cantrell, Matthew Johnson, John McCall\nReview: ( first review ) ( revision announcement ) ( second review ) ( acceptance ) \n 简介 \nSwift Concurrency 的其中一个关键目标就是“提供一种机制来隔离并发程序中的状态，以消除 data races”。这样的机制将会是通用编程语言的一次重大进步 – 大多数语言提供的并发编程抽象会使程序员面临范围宽广的 bug，包括 race conditions，死锁和其它问题。\n这个提案里描述了一种方式，去解决这个领域面临的其中一个问题 – 如何对结构化并发和 Actor 消息传递的值进行类型检查。因此，这是一个统一的理论，它提供了一些基本的类型系统机制，使它们既保障安全又能很好地协同工作。\n这种实现方式会提供一个名为 Sendable 的 marker 协议，以及一个可应用于函数的 @Sendable 注解。\n 阅读全文 » \n 【译】SE-0306 Actors \n 发表于 2021-04-25 更新于 2026-10-19 \n原文链接： SE-0306 Actors \nProposal: SE-0306 \nAuthors: John McCall , Doug Gregor , Konrad Malawski , Chris Lattner \nReview Manager: Joe Groff \nStatus: Implemented (Swift 5.5) \nDecision Notes: Acceptance , First Review , Second Review \nImplementation: Partially available in recent main snapshots behind the flag -Xfrontend -enable-experimental-concurrency \n 简介 \nSwift 并发模型计划提供一个安全的编程模型，静态地检测 data-races 和其他常见的并发错误。 结构化并发 提案引入了一种定义并发任务的方法，并为函数和闭包提供了安全的 data-race。这个模型适用于许多常见的设计模式，包括像 parallel maps 和并发回调模式，但只限于处理由闭包捕获的状态。\nSwift 包含了 class，它提供了一种机制来声明整个程序共享的 mutable 状态。然而，class 在并发程序中难以正确使用，需要手动同步来避免 data race，很容易出错。我们希望提供这么一种功能，在使用共享的 mutable 状态的同时，仍然提供对 data race 和其他常见并发 bug 的静态检测。\n Actor 模型 定义了称为 actors 的实体，这些实体非常适合这项任务。Actor 允许你，作为一个程序员，声明一系列的状态，这些状态由一个 concurrency domain 持有，并且可以定义多个对其的操作。每个 actor 通过 data isolation 来保护自己的数据，确保在给定时间内只有一个线程访问它的数据，即使许多用户同时向 actor 发出请求。作为 Swift 并发模型的一部分，actor 提供了与结构化并发相同的 race 和内存安全属性，但也提供了 Swift 中其他显式声明的类型所享有的熟悉的抽象和复用的特性。\n 阅读全文 » \n 【译】SE-0300 Continuation -- 执行同步代码的异步任务接口 \n 发表于 2021-03-31 更新于 2026-10-19 \n原文链接： SE-0300 Continuations for interfacing async tasks with synchronous code \nProposal: SE-0300 \nAuthors: John McCall , Joe Groff , Doug Gregor , Konrad Malawski \nReview Manager: Ben Cohen \nStatus: Implemented \nPrevious Revisions: 1 , 2 \n 简介 \n异步 Swift代 码需要能够与现有的同步代码一起工作，这些代码使用回调和 delegate 等方式来响应事件。异步任务可以在 continuations 上暂停自己，然后同步代码可以捕获并调用它来恢复任务以响应事件。\nSwift-evolution thread: \n Structured concurrency \n Continuations for interfacing async tasks with synchronous code \n 阅读全文 » \n 【译】SE-0298 Async/Await 序列 \n 发表于 2021-03-10 更新于 2026-10-19 \n原文链接： SE-0298 Async/Await: Sequences \nProposal: SE-0298 \nAuthors: Tony Parker , Philippe Hausler \nReview Manager: Doug Gregor \nStatus: Implemented (Swift 5.5) \nImplementation: apple/swift#35224 \nDecision Notes: Rationale \nRevision: Based on forum discussion \n 简介 \nSwift 的 async/await 特性提供了一种直观的、内建的方式来编写和使用在未来某个时间点返回一个值的函数。我们建议在这个特性的基础上，添加一种直观的、内置的方式来编写和使用在一段时间内返回多个值的函数。\n本提案由以下三个部分组成： \n增加一个表示异步序列的协议到标准库里\n在异步序列上使用 for...in 语法的编译器支持\n对异步序列进行操作的通用函数的标准库实现 \n 阅读全文 » \n 【译】SE-0297 Concurrency 与 Objective-C 的交互 \n 发表于 2021-03-07 更新于 2026-10-19 \n原文链接： SE-0297 Concurrency Interoperability with Objective-C \nProposal: SE-0297 \nAuthor: Doug Gregor \nReview Manager: Chris Lattner \nStatus: Implemented (Swift 5.5) \n Acceptance Post \nImplementation: Partially available in recent main snapshots behind the flag -Xfrontend -enable-experimental-concurrency \n 简介 \nSwift 的并发功能包括了异步函数和 actor。虽然 Objective-C 没有相应的语言特性，但异步 API 在 Objective-C 中很常见，通过使用 completion-handler 手动实现。本提案提供了 Swift 的并发特性（如 async 函数）和 Objective-C 中基于约定的异步函数表达之间的桥接。它的目的是让现有的丰富的异步 Objective-C API 可以立即与 Swift 的并发模型一起使用。\n 阅读全文 » \n 【译】SE-0296 Async/await \n 发表于 2021-03-06 更新于 2026-10-19 \n原文链接： SE-0296 async/await \nProposal: SE-0296 \nAuthors: John McCall , Doug Gregor \nReview Manager: Ben Cohen \nStatus: Implemented (Swift 5.5) \nImplementation: Available in recent main snapshots behind the flag -Xfrontend -enable-experimental-concurrency \nDecision Notes: Rationale \n 简介 \n现代 Swift 开发涉及大量使用闭包和回调的异步编程，但这些 API 很难使用。当使用了许多异步操作，需要错误处理，或者异步调用之间的控制流变得复杂时，这就变得特别麻烦。这个提案描述了一种语言扩展，使之更自然，更不容易出错。\n这份设计将 coroutine模型 引入 Swift。函数可以选择成为 async ，允许程序员使用正常的控制流机制来编写涉及异步操作的复杂逻辑。编译器负责将一个异步函数翻译成一套适当的闭包和状态机。\n这个提案定义了异步函数的语义。然而，它并没有提供并发性：这在另一个引入结构化并发的提案里讨论，该提案将异步函数与并发执行的任务联系起来，并提供用于创建、查询和取消任务的 API。\nSwift-evolution thread: Pitch #1 , Pitch #2 \n 阅读全文 » \n 【译】SE-0282 Atomic 底层操作 ⚛︎ \n 发表于 2020-10-03 更新于 2026-10-19 \n原文链接： SE-0282 Low-Level Atomic Operations \n译者注：\n前两天 Apple 的团队发布了 swift-atomics ，让我们可以用纯 Swift 代",
+   "github_links": [
+    "DougGregor",
+    "SwiftOldDriver",
+    "airspeedswift",
+    "apple",
+    "douggregor",
+    "jckarter",
+    "kemchenj",
+    "ktoso",
+    "lattner",
+    "parkera",
+    "phausler",
+    "rjmccall"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "http://kemchenj.github.io/atom.xml",
+    "count_seen": 20,
+    "items": [
+     {
+      "title": "【译】SE-0302 Sendable 和 @Sendable 闭包",
+      "date": "2022-01-06T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2022-01-07/"
+     },
+     {
+      "title": "【译】SE-0306 Actors",
+      "date": "2021-04-24T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2021-04-25/"
+     },
+     {
+      "title": "【译】SE-0300 Continuation -- 执行同步代码的异步任务接口",
+      "date": "2021-03-30T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2021-03-31/"
+     },
+     {
+      "title": "【译】SE-0298 Async/Await 序列",
+      "date": "2021-03-09T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2021-03-10/"
+     },
+     {
+      "title": "【译】SE-0297 Concurrency 与 Objective-C 的交互",
+      "date": "2021-03-06T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2021-03-07/"
+     },
+     {
+      "title": "【译】SE-0296 Async/await",
+      "date": "2021-03-05T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2021-03-06/"
+     },
+     {
+      "title": "【译】SE-0282 Atomic 底层操作 ⚛︎",
+      "date": "2020-10-02T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2020-10-02/"
+     },
+     {
+      "title": "WWDC 2020 - Swift Package Manager",
+      "date": "2020-06-28T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2020-06-29/"
+     },
+     {
+      "title": "Swift 的字符串为什么这么难用？",
+      "date": "2019-10-06T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2019-10-07/"
+     },
+     {
+      "title": "WWDC 2019 - Integrating SwiftUI",
+      "date": "2019-07-13T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2019-07-14/"
+     },
+     {
+      "title": "开启 Cocoapods 新选项，加快项目索引速度",
+      "date": "2019-05-30T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2019-05-31/"
+     },
+     {
+      "title": "泛型语法改进第一弹 —— Opaque Result Types",
+      "date": "2019-05-04T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2019-05-05/"
+     },
+     {
+      "title": "抽象属性的行为 —— Property Delegates",
+      "date": "2019-04-13T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2019-04-14/"
+     },
+     {
+      "title": "记一次验证码输入框的实现",
+      "date": "2019-04-06T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2019-04-07/"
+     },
+     {
+      "title": "GitLab 实现动态 Environment URL",
+      "date": "2018-12-26T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2018-12-27/"
+     },
+     {
+      "title": "iOS 原生 App 是怎么 deselectRow 的？",
+      "date": "2018-12-23T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2018-12-24/"
+     },
+     {
+      "title": "【译】SE-0206 Hashable 加强",
+      "date": "2018-10-11T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2018-10-12/"
+     },
+     {
+      "title": "巧妙实现 debugOnly 函数",
+      "date": "2018-09-23T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2018-09-24/"
+     },
+     {
+      "title": "WWDC 2018 - What's New in Swift?",
+      "date": "2018-07-09T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2018-07-10/"
+     },
+     {
+      "title": "或许你并不需要重写 init(from:) 方法",
+      "date": "2018-07-08T16:00:00.000Z",
+      "url": "https://kemchenj.github.io/2018-07-09/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "kemchenj",
+  "user": {
+   "name": "Kem Chen",
+   "company": null,
+   "blog": "kemchenj.github.io",
+   "location": "Earth",
+   "bio": "Hackable Life ! ! !",
+   "public_repos": 111,
+   "followers": 0,
+   "created_at": "2015-02-25T11:54:32Z",
+   "twitter_username": "kemchenj",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "kemchenj/ZhihuDaily",
+    "description": "练手项目，知乎日报",
+    "stargazers_count": 66,
+    "forks_count": 7,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-07-26T11:17:35Z",
+    "pushed_at": "2017-02-15T04:23:11Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "kemchenj/CustomJSONDecoder",
+    "description": null,
+    "stargazers_count": 26,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2017-11-25T14:29:19Z",
+    "pushed_at": "2018-06-02T22:01:51Z",
+    "topics": [
+     "decoder",
+     "json",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/DeselectRowTheBestWay",
+    "description": "tableView deselectRow 的最佳实践",
+    "stargazers_count": 20,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2018-12-24T13:19:45Z",
+    "pushed_at": "2018-12-24T15:34:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/kemchenj.github.io",
+    "description": "Source code of my blog ↓↓↓↓↓",
+    "stargazers_count": 4,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "https://kemchenj.github.io",
+    "created_at": "2016-07-27T01:49:05Z",
+    "pushed_at": "2026-10-19T01:28:40Z",
+    "topics": [
+     "blog",
+     "chinese",
+     "ios",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/SwiftyOC",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2017-06-21T12:21:13Z",
+    "pushed_at": "2017-06-21T12:36:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/Way2Pro",
+    "description": "Way2Pro",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2016-03-16T16:31:06Z",
+    "pushed_at": "2016-05-30T10:14:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/BuglyForSPM",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-08-03T03:54:58Z",
+    "pushed_at": "2022-08-03T04:23:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/DynamicEnvironmentURL",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2018-12-27T15:18:05Z",
+    "pushed_at": "2018-12-27T15:36:39Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "kemchenj/filters",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "GLSL",
+    "homepage": null,
+    "created_at": "2025-04-22T02:18:04Z",
+    "pushed_at": "2025-05-07T09:47:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/GitPathEscapeBug",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2022-11-13T04:26:55Z",
+    "pushed_at": "2022-11-13T05:32:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/MLX-Sort",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-08-30T04:27:59Z",
+    "pushed_at": "2024-08-30T04:58:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/mlx-swift-mvp",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-05-27T05:54:18Z",
+    "pushed_at": "2024-05-27T05:59:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/MyChecklist",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-05-21T05:16:38Z",
+    "pushed_at": "2016-08-20T08:42:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/SafeSubscript",
+    "description": "Swift extension for Collection safe subscript",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2018-02-03T10:43:20Z",
+    "pushed_at": "2018-02-03T11:20:52Z",
+    "topics": [
+     "collection",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/Subspec",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-01-18T02:13:38Z",
+    "pushed_at": "2019-01-18T02:40:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/SwiftPM-WWDC20-Demo",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-06-26T00:55:23Z",
+    "pushed_at": "2020-06-26T00:56:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/SwiftTALib",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2021-08-28T02:20:33Z",
+    "pushed_at": "2021-09-30T15:15:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "kemchenj/swiftui-suspense",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-01-06T13:50:28Z",
+    "pushed_at": "2022-01-06T13:52:55Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 31,
+  "languages": [
+   [
+    "Swift",
+    17
+   ],
+   [
+    "Ruby",
+    4
+   ],
+   [
+    "Objective-C",
+    2
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "Cuda",
+    2
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "GLSL",
+    1
+   ],
+   [
+    "C",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 0,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "kemchenj/ZhihuDaily": "# 知乎日报\n> **平台:** iOS 10, Xcode 8.0\n>\n> **语言:** Swift 3.0\n>\n> **第三方库:** Alamofire, Alamofire, AlamofireNetworkActivityIndicator\n## 待办功能\n### 全局\n- [x] 启动图片\n- [x] 自定义导航栏\n    - [x] 透明状态栏\n    - [x] 下拉渐变\n- [x] 模型协议\n    - [x] JSON解析\n- [ ] ViewController转场自定义Transition\n- [ ] 3D touch支持\n### 主页\n- [x] 图片轮播\n    - [x] 下拉拉伸\n    - [x] 数据协议\n    - [ ] 定时轮播\n    - [x] 点击进入对应文章\n    - [x] 循环滚动\n- [x] 下拉导航栏标题跟随改动\n- [x] 无限下拉, 自动加载内容\n- [ ] 下拉刷新\n### 文章详情页\n- [x] 顶部大图\n    - [x] 下拉拉伸\n- [ ] 上下拉切换文章\n- [ ] 点赞\n- [ ] 分享\n",
+   "kemchenj/CustomJSONDecoder": "# CustomJSONDecoder\n自己写的一个 JSON Decoder，Parser 部分直接使用了 [vdka 大神写的这个 Parser](https://github.com/vdka/JSON)，因为我对于 Parser 这东西没什么认识，想学习一下，所以是跟着手撸了一份，而不是通过包管理工具集成进来，如果是想看一下 Parser 的部分，我觉得也可以看一下我的那一份实现，我自己花了时间理解的地方都有写注释，而且写得会跟 Swifty 一点。\nDecoder 部分的抽象比原生的更加简洁一点，错误处理没有原生的那么完整，我觉得总体而言比原生的会更容易理解一点，在 decoder unbox 的那一部分，我基本上都尽可能去做兼容，例如数字 0 跟 1 可以被解析为 Bool 类型，原生的会更加严格一点，我甚至一度以为这是原生 Decoder 的 bug（在看了源码之后），跟 Swift 开发组的人员沟通之后得到的答复是 [Looks correct to me. 1 isn’t a Boolean. NSNumber defines 1 and true to be isEqual: though](https://twitter.com/jckarter/status/930767130898849792)。\n性能方面，大概是比原生的快了一倍，大家可以跑一遍测试看看，我没有很深入的探究具体原因，但我觉得主要是原生的 JSONDecoder 内部直接使用了 `JSONSerilization` 将数据格式化为 `[String: Any]`，字典里的数据基本上都是 OC 对象或者 CF 对象，在 decode 为 Model 的时候，会多次使用 `as` 进行动态类型转换，导致性能低下。\n而我这一份实现之所以比原生的快出一倍，主要是因为使用了 `JSONObject`，取出内部数据时是直接模式匹配，不需要类型转换，所以会更快。这一点是我在看 vdka 大神的 parser 的时候发现的，大家可以 clone 一份跑个测试看看，vdka 大神的 parser 在测试里比原生的速度慢，但是在模型转换测试里，反而比原生的更快，后面我才发现 parse 产出的类型不同，才导致了这样的差异。\n这个 Decoder 目前只能算是个玩具，我只写了一个简单的性能测试，没有完备的测试，之后应该会补上。\n写完这个之后，我又看到了很多人在吐槽原生 Decoder 数据兼容性的问题，例如 0 跟 1 不能解析为 `Bool`，我觉得给 Decoder 加多一些 DecodingOption 并不能解决问题，而是可以给 Model 加一个 `willDecode` 方法：\n```swift\n// 这里的代码只是表达思路，请不要当真\nprotocol CodableModel: Codable {\n    func willDecode(data: JSONObject) -> JSONObject\n}\nstruct Model: CodableModel {\n    let aBooleanProperty: Bool\n    func willDecode(data: JSONObject) -> JSONObject {\n        var data = data\n        if data[\"aBooleanProperty\" == 0 {\n            data[\"aBooleanProperty\"] = true\n        } else if data[\"aBooleanProperty\"] == 1 {\n            data[\"aBooleanProperty\"] = false\n        }\n        return data\n    }\n}\n```\n在解析之前，如果发现 Model 遵循 `CodableModel` 的话，就先用 `willDecode` 做一次数据处理，这样就可以有相对更高的灵活度了，但这种深度依赖 JSONDecoder 内部实现的方式其实也不太好，最根本的解决方式还是后端接口的标准化。\n",
+   "kemchenj/DeselectRowTheBestWay": "相关文章：[iOS 原生 App 是怎么 deselectRow 的？](https://kemchenj.github.io/2018-12-24/)\n"
+  }
+ },
+ "apps": []
+}

@@ -1,0 +1,236 @@
+{
+ "handle": "lemomo_ai",
+ "sites": [],
+ "github": {
+  "login": "lemomo-ai",
+  "user": {
+   "name": "Lemomo",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": "Indie dev stress-testing the AI hype. ",
+   "public_repos": 8,
+   "followers": 254,
+   "created_at": "2022-01-11T06:41:03Z",
+   "twitter_username": "lemomo_ai",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "lemomo-ai/lemo-opuscar",
+    "description": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
+    "stargazers_count": 4705,
+    "forks_count": 508,
+    "language": "JavaScript",
+    "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
+    "created_at": "2026-09-26T10:10:41Z",
+    "pushed_at": "2026-10-19T12:11:41Z",
+    "topics": [
+     "agent-skills",
+     "ai-agents",
+     "ai-short-film",
+     "ai-video",
+     "animation",
+     "canvas",
+     "claude",
+     "claude-code",
+     "claude-code-plugin",
+     "claude-code-skill",
+     "creative-coding",
+     "ffmpeg",
+     "filmmaking",
+     "motion-graphics",
+     "opus-5-5",
+     "prompt-library",
+     "text-to-speech",
+     "threejs",
+     "video-production",
+     "webgl"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lemomo-ai/lemo-wake",
+    "description": "Claude Code plugin: turn one still image into a ~5 s seamless looping animation (MP4, GIF, WebP, Live Photo). · 把一张图做成约 5 秒的无缝循环动图。",
+    "stargazers_count": 98,
+    "forks_count": 13,
+    "language": "Python",
+    "homepage": "https://lemomo-ai.github.io/lemo-wake/",
+    "created_at": "2026-10-03T12:57:31Z",
+    "pushed_at": "2026-10-17T11:42:23Z",
+    "topics": [
+     "agent-skills",
+     "claude",
+     "claude-code",
+     "claude-code-plugin",
+     "gif",
+     "image-animation",
+     "motion-design",
+     "webp"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lemomo-ai/codex-radar",
+    "description": "A Codex CLI plugin that grades how you collaborate with Codex across 9 dimensions in 3 categories — your Codex model writes a free-form diagnosis and at-least-5 pastable prompt rewrites. 100% local single-file dashboard. · 一款评估你和 Codex 协作质量的 Codex CLI 插件 —— 9 维评分、由你的 Codex 模型撰写诊断、可粘贴改进 prompt，全程本地。",
+    "stargazers_count": 37,
+    "forks_count": 3,
+    "language": null,
+    "homepage": "https://lemomo-ai.github.io/codex-radar/",
+    "created_at": "2026-06-05T10:59:22Z",
+    "pushed_at": "2026-09-20T14:19:56Z",
+    "topics": [
+     "ai",
+     "ai-collaboration",
+     "cc-by-nc-4-0",
+     "cli",
+     "code-analysis",
+     "codex",
+     "codex-plugin",
+     "collaboration",
+     "developer-tools",
+     "diagnostics",
+     "llm",
+     "local-first",
+     "openai-codex",
+     "plugin-marketplace",
+     "productivity",
+     "prompt-engineering"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lemomo-ai/lemo-mod",
+    "description": "Claude Code mods: 21 styles and a full set of features you turn on when you need them, for the terminal and the desktop app. · 一键为 Claude 换上新风格，并提供一整套按需开启的功能。",
+    "stargazers_count": 31,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://lemomo-ai.github.io/lemo-mod/",
+    "created_at": "2026-10-02T09:03:55Z",
+    "pushed_at": "2026-10-17T06:22:59Z",
+    "topics": [
+     "claude",
+     "claude-code",
+     "claude-code-mods",
+     "claude-code-plugins",
+     "developer-tools",
+     "mods",
+     "pixel-art",
+     "terminal",
+     "themes"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lemomo-ai/lemo-stampy",
+    "description": "A tiny macOS menu bar stamp: click once in Preview to stamp “For XX use only” on a copy. Free and open source (MIT). · 菜单栏里的小章：在预览里点一下，给文件副本盖上“仅供××使用”。免费开源。",
+    "stargazers_count": 28,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": "https://lemomo-ai.github.io/lemo-stampy/",
+    "created_at": "2026-10-10T02:54:12Z",
+    "pushed_at": "2026-10-17T06:45:36Z",
+    "topics": [
+     "macos",
+     "macos-app",
+     "menubar",
+     "open-source",
+     "pdf",
+     "privacy",
+     "stamp",
+     "swift",
+     "swiftui",
+     "watermark"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lemomo-ai/lemomo-ai",
+    "description": "Profile · building practical tools for sharper AI work",
+    "stargazers_count": 8,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-06-07T09:36:10Z",
+    "pushed_at": "2026-10-17T06:38:23Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 6,
+  "languages": [
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "TypeScript",
+    1
+   ],
+   [
+    "Swift",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "lemomo-ai/lemo-opuscar",
+    "stargazerCount": 4705,
+    "description": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://lemomo-ai.github.io/lemo-opuscar/"
+   },
+   {
+    "nameWithOwner": "lemomo-ai/lemo-mod",
+    "stargazerCount": 31,
+    "description": "Claude Code mods: 21 styles and a full set of features you turn on when you need them, for the terminal and the desktop app. · 一键为 Claude 换上新风格，并提供一整套按需开启的功能。",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://lemomo-ai.github.io/lemo-mod/"
+   },
+   {
+    "nameWithOwner": "lemomo-ai/lemo-wake",
+    "stargazerCount": 98,
+    "description": "Claude Code plugin: turn one still image into a ~5 s seamless looping animation (MP4, GIF, WebP, Live Photo). · 把一张图做成约 5 秒的无缝循环动图。",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://lemomo-ai.github.io/lemo-wake/"
+   },
+   {
+    "nameWithOwner": "lemomo-ai/lemo-stampy",
+    "stargazerCount": 28,
+    "description": "A tiny macOS menu bar stamp: click once in Preview to stamp “For XX use only” on a copy. Free and open source (MIT). · 菜单栏里的小章：在预览里点一下，给文件副本盖上“仅供××使用”。免费开源。",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://lemomo-ai.github.io/lemo-stampy/"
+   },
+   {
+    "nameWithOwner": "lemomo-ai/codex-radar",
+    "stargazerCount": 37,
+    "description": "A Codex CLI plugin that grades how you collaborate with Codex across 9 dimensions in 3 categories — your Codex model writes a free-form diagnosis and at-least-5 pastable prompt rewrites. 100% local single-file dashboard. · 一款评估你和 Codex 协作质量的 Codex CLI 插件 —— 9 维评分、由你的 Codex 模型撰写诊断、可粘贴改进 prompt，全程本地。",
+    "primaryLanguage": null,
+    "homepageUrl": "https://lemomo-ai.github.io/codex-radar/"
+   }
+  ],
+  "contrib_last_year": 218,
+  "orgs": [],
+  "profile_readme": "<a href=\"https://x.com/lemomo_ai\"><img src=\"assets/header.svg\" width=\"100%\" alt=\"Lemomo · 帮每个人都能用好 AI，让每一颗星星都能闪耀。Helping everyone use AI well, so every star can shine.\"></a>\n\n<b>程序员，独立开发者。致力于分享真正好用的方法做成开源项目，让每个人都能用 AI 得到更好的结果。</b><br>\n<b>Programmer and indie developer. I turn methods that truly work into open-source projects, so everyone can get better results with AI.</b>\n\n<a href=\"https://github.com/lemomo-ai?tab=repositories\"><img src=\"https://img.shields.io/github/stars/lemomo-ai?style=for-the-badge&amp;logo=github&amp;label=total%20stars&amp;color=d4b064\" alt=\"total stars\"></a>\n<a href=\"#-lemo-opuscar\"><img src=\"https://img.shields.io/badge/Open_source-5_projects-f2cf1d?style=for-the-badge&amp;logo=github&amp;logoColor=white\" alt=\"5 open-source projects\"></a>\n<a href=\"https://github.com/lemomo-ai?tab=followers\"><img src=\"https://img.shields.io/github/followers/lemomo-ai?style=for-the-badge&amp;logo=github&amp;label=followers&amp;color=fe6b3d\" alt=\"followers\"></a>\n<a href=\"https://x.com/lemomo_ai\"><img src=\"https://img.shields.io/badge/@lemomo__ai-000000?style=for-the-badge&amp;logo=x&amp;logoColor=white\" alt=\"X\"></a>\n\n<img src=\"assets/divider-opuscar.svg\" width=\"100%\" alt=\"\">\n\n## 🎬 Lemo-Opuscar\n\n<a href=\"https://github.com/lemomo-ai/lemo-opuscar\"><img src=\"assets/card-opuscar.svg\" width=\"100%\" alt=\"Lemo-Opuscar：选个风格，agent 用代码拍成短片。\"></a>\n\n<b>51 种影片风格，非视频模型，用 Claude 纯代码生成短片。</b>提供风格提示词、导演提示词与技术指南。选一个风格，说出你想拍的内容，剩下交给 agent。更多风格持续更新中。<br>\n<b>51 film styles, no video model: Claude makes short films in pure code.</b> With style, director and technical guides: pick a style, say what to shoot, and let your agent do the rest.\n\n<a href=\"https://lemomo-ai.github.io/lemo-opuscar/\"><img src=\"https://img.shields.io/badge/▶_Watch_the_gallery-看图鉴-8e1b1b?style=for-the-badge\" alt=\"Watch the gallery\"></a>\n<a href=\"https://github.com/lemomo-ai/lemo-opuscar\"><img src=\"https://img.shields.io/github/stars/lemomo-ai/lemo-opuscar?style=for-the-badge&amp;logo=github&amp;label=Lemo-Opuscar&amp;color=d4b064\" alt=\"Lemo-Opuscar on GitHub\"></a>\n\n<img src=\"assets/divider-wake.svg\" width=\"100%\" alt=\"\">\n\n## 📸 lemo-wake\n\n<a href=\"https://github.com/lemomo-ai/lemo-wake\"><img src=\"assets/card-wake.svg\" width=\"100%\" alt=\"lemo-wake：把你的照片叫醒。\"></a>\n\n<b>把一张图交给Agent，叫醒他，就能拿到一段精美动图。</b>照片、人像、海报、插画、Logo、图表、表情包、小红书封面、聊天截图都可以。<br>\n<b>Hand a picture to your agent, wake it up, and get back a polished animated loop.</b> Photos, portraits, posters, illustrations, logos, charts, memes, social covers and chat screenshots all work.\n\n<a href=\"https://lemomo-ai.github.io/lemo-wake/\"><img src=\"https://img.shields.io/badge/▶_See_the_gallery-看作品墙-fe6b3d?style=for-the-badge\" alt=\"See the gallery\"></a>\n<a href=\"https://github.com/lemomo-ai/lemo-wake\"><img src=\"https://img.shields.io/github/stars/lemomo-ai/lemo-wake?style=for-the-badge&amp;logo=github&amp;label=lemo-wake&amp;color=d4b064\" alt=\"lemo-wake on GitHub\"></a>\n\n<img src=\"assets/divider-mod.svg\" width=\"100%\" alt=\"\">\n\n## 🍋 lemo-mod\n\n<a href=\"htt",
+  "readmes": {
+   "lemomo-ai/lemo-opuscar": "<div align=\"center\">\n# Lemo-Opuscar\n**<!--n-->51<!--/n--> film styles, each with a short film made entirely in code.**<br>\nPick a style, bring your own story, and let your coding agent direct the film.<br>\n<sub><!--n-->51<!--/n--> 种影片风格，每种都配一支完全用代码做出来的短片 · 🇨🇳 中文用户请看 <a href=\"README.zh-CN.md\">简体中文说明</a></sub>\n<a href=\"https://lemomo-ai.github.io/lemo-opuscar/\"></a> <a href=\"README.zh-CN.md\"></a> <a href=\"https://github.com/lemomo-ai/lemo-opuscar/stargazers\"></a> <a href=\"#licence\"></a>\n⚠️ **Built for Claude.** The styles are tuned for Claude Opus 5.5;<br>\nother models may not reproduce them well, so use them with care.\n🆕 **2026-10-19 · [Make a style your own](#make-a-style-your-own)**: change a style, give it your own name, get a 15–30 s test film.<br>\n🆕 **2026-10-16 · [Evidence Films](https://lemomo-ai.github.io/lemo-opuscar/#evidence-films)**: 8 new styles that film real material, every number measured or sourced. [See them ↓](#evidence-films)\n<sub>Official repo: [github.com/lemomo-ai/lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) · by Lemomo ([@lemomo_ai](https://x.com/lemomo_ai))</sub>\n</div>\n## 🎬 Feature presentation: OPUSCAR 98\n<table><tr>\n<td width=\"50%\" valign=\"top\"><a href=\"https://lemomo-ai.github.io/lemo-opuscar/opuscar98/\"></a><br><b>▶ The film</b> · 1927 – 2025 · 6:31<br><sub>One Clawd walks through all 98 Best Picture winners, each one redrawn in a style that fits the film.</sub></td>\n<td width=\"50%\" valign=\"top\"><a href=\"https://lemomo-ai.github.io/lemo-opuscar/opuscar98/#styles\"></a><br><b>All 98 styles, open</b> · 77 in 2D · 4 in 2.5D · 17 in 3D<br><sub>Each film's style tag, a frame, a style prompt to reuse on your own topic, and the shots and direction. Also as <a href=\"https://lemomo-ai.github.io/lemo-opuscar/opuscar98/styles.json\">JSON</a>.</sub></td>\n</tr></table>\n<div align=\"center\">\nEvery frame, every note and every cut was written in code by Claude Opus 5.5.<br>\n[**▶ Watch**](https://lemomo-ai.github.io/lemo-opuscar/opuscar98/) · [**All 98 styles**](https://lemomo-ai.github.io/lemo-opuscar/opuscar98/#styles) · [**Download 1080p**](https://github.com/lemomo-ai/lemo-opuscar/releases/download/films/opuscar98.mp4)\n</div>\n## 👋 About ",
+   "lemomo-ai/lemo-mod": "<div align=\"center\">\n# lemo-mod\n**English** · [**简体中文**](README.zh-CN.md)\n**Re-skin Claude Code in one click, with a full set of features you turn on when you need them.**<br>\n**21 styles for the terminal and the desktop app.**<br>\n**一键为 Claude Code 换上新风格，并提供一整套按需开启的功能。**<br>\n**21 套风格，终端和桌面 App 都能用。**\n[**▶ See every style · 看全部风格**](https://lemomo-ai.github.io/lemo-mod/)\n</div>\n## What is lemo-mod · lemo-mod 是什么\nlemo-mod is a set of style mods built on Claude Code's official mod interface. Once installed, Claude Code in the terminal and in the desktop app's Code tab can switch styles in one click. Colors, pixel mascot, spinner words, sounds and names all change together.\nBeyond looks, lemo-mod provides a full set of features, including a four-page panel, a usage band, a status line, message numbers and reply tags, sounds, speech, brief mode, reminders, a focus timer, notes, session recaps, per-turn stats, a time limit, a log, auto tags, a lot-drawing tool and a read-only assistant. Your settings are only read, never changed, and every feature beyond looks is yours to turn on.\n> [!NOTE]\n> **中文读者请看这里。** lemo-mod 是一组基于 Claude Code 官方 mod 接口的风格化 mod。装上之后，终端里的 Claude Code 和桌面 App 的 Code 标签都能一键换风格，配色、像素小画、加载词、音效和名字一起换。\n>\n> 除了外观，lemo-mod 还提供一整套功能，包括四页面板、用量横条、状态栏、消息编号和回复标签、音效、朗读、简短模式、定时提醒、番茄钟、笔记、会话小结、每轮统计、限时、日志、自动分类、抽签工具和一个只读助手。你的设置只读不改，外观以外的功能都由你自己开启。\n>\n> **→ [阅读中文版 README](README.zh-CN.md)**\n## What you get\n<p align=\"center\"></p>\n**Looks are on from the start.** Your messages get numbers like `T01` and `T02`, and each of Claude's replies shows which one it answers. Tool rows, turn lines and spinner words take on the style. A band above the prompt shows context, the 5-hour quota, cost and git branch, with a status line below it. Claude's question dialog gets a header. Type `/lemo-mod` to open the panel, with four pages: Main, Behavior, Background and Safety.\n**The first time you open it, the panel starts on the Safety page.** Read what each feature does, turn on the ones you want, and press **I have read this**. You can switch any feature on or off on the Safety page at any time. **Turn all off** stops everything but looks in one press. The numbering note and the lot t",
+   "lemomo-ai/lemo-wake": "<div align=\"center\">\n# lemo-wake\n**把你的照片叫醒**<br>\n**Wake your image.**\n一张图进去，一段约 5 秒、无缝循环的动图出来。<br>\nOne picture in, a seamless loop of about five seconds out.\n[**▶ 去作品墙看看 See the gallery**](https://lemomo-ai.github.io/lemo-wake/) · [**▶ Logo 动效 Logo Motion**](https://lemomo-ai.github.io/lemo-wake/logos/)\n**New (2026-10-15):** [Logo Motion](https://lemomo-ai.github.io/lemo-wake/logos/), a wall of 56 brand logos, each woken up by lemo-wake.\n**English** | [中文](README.zh-CN.md)\n</div>\n> **中文用户请看这里：[完整中文说明 README.zh-CN.md](README.zh-CN.md)**<br>\n> English readers: keep reading below.\n## What it does 它做什么\nGive Claude Code one picture and say \"make it move\". You get a loop of about 5 seconds whose end joins its start seamlessly. Photos, portraits, posters, illustrations, logos, charts, stickers, Xiaohongshu covers and chat screenshots all work.\nIt is not a filter. Claude first reads the image, takes it apart into text, shapes, objects, people and light, rebuilds the pieces in code and choreographs a short film for this one picture. It then renders the frames in a headless browser, joins the end back to the start and encodes the result.\n- **No image generation.** Everything comes from your picture, from code and from small local models.\n- **No API keys.** No cloud services. Everything runs on your machine.\n- **Your size, your formats.** It asks once: keep your image's size or pick another ratio, and which formats you want.\n**中文简介**\n把一张图交给 Claude Code，说一句“让它动起来”，就能拿到一段约 5 秒、首尾无缝相接的动图。照片、人像、海报、插画、Logo、图表、表情包、小红书封面、聊天截图都可以。\n这不是套滤镜。Claude 会先读懂画面，把文字、图形、物体、人物和光拆开，用代码重建，再为这张图编排一段专属的动作。最后在无头浏览器里逐帧渲染，把结尾接回开头，编码出片。\n- **不生图**：素材只来自你的图、代码和本地小模型。\n- **不用 API key**：不连云服务，全部在你的电脑上完成。\n- **尺寸和格式你来选**：开始前问一次，保持原图尺寸还是换个比例，要哪几种格式。\n**How it works 流程**\n<p align=\"center\"></p>\n## Install\nBuilt and tuned for Claude Code. Other agents (Codex, for example) can read the skill too, but the results are not guaranteed.\nAs a Claude Code plugin (recommended). In a terminal (both lines can be pasted at once):\n```bash\nclaude plugin marketplace add lemomo-ai/lemo-wake\nclaude plugin install lemo-wake@lemo-wake\n```\nOr inside Claude Code, **one line at a time** (run the first, then type the second):\n```\n/plug",
+   "lemomo-ai/lemo-stampy": "<div align=\"center\">\n# Stampy · 小章\n**A tiny stamp for your copies.**<br>\n**给复印件，盖个小小的章。**\nA little helper that lives in your Mac's menu bar: click once in Preview to stamp \"For XX use only\" on a copy.<br>\n住在 Mac 菜单栏里的小工具：在预览里点一下，给文件副本盖上“仅供××使用”。\n[**⬇ Download Stampy 1.0 · 下载小章 1.0**](https://github.com/lemomo-ai/lemo-stampy/releases/latest/download/Stampy.dmg)\n&nbsp;·&nbsp;\n[**Website · 网站**](https://lemomo-ai.github.io/lemo-stampy/)\n**New (2026-10-11):** Stampy is open source now, under the MIT license.\n**English** | [中文](README.zh-CN.md)\n</div>\n> **中文用户请看这里：[完整中文说明 README.zh-CN.md](README.zh-CN.md)**<br>\n> English readers: keep reading below.\n## What it does · 它做什么\n\"For XX use only\" — click once in Preview and it's stamped. Your original stays untouched; you get a stamped copy. Free and open source, no sign-up, no ads.<br>\n在预览里点一下，就盖上“仅供××使用，他用无效”。原件不动，另存一份。免费开源，不用注册，没有广告。\nVisas, bank accounts, rental applications — they all ask for copies of your documents. But a copy can be reused for things you never agreed to. Stamp \"For XX use only\" on it, and that copy is good for one purpose only.<br>\n办签证、开银行账户、租房，都要交一沓证件复印件。可复印件一交出去，就可能被挪作他用。盖上“仅供××使用”，这份复印件就只能用在这件事上。\n## Download\n**[Download Stampy 1.0](https://github.com/lemomo-ai/lemo-stampy/releases/latest/download/Stampy.dmg)** (2.5 MB, signed and notarized by Apple).\nOpen `Stampy.dmg` and drag Stampy into Applications. Open it, and it moves into your menu bar.\n## How it works\n<p align=\"center\">\n</p>\n1. **Pick up the stamp.** Click Stampy in the menu bar and the stamp follows your pointer.\n2. **Click where it goes.** Move over a PDF or photo open in Preview, scroll to resize, and click. The stamp always stays fully on the page.\n3. **Save a copy.** Confirm, and it's saved as a \"_stamped\" copy. Your original never changes.\n## What else it does\n- **A whole stack at once.** Drag files — or a whole folder — onto Stampy in the menu bar and stamp them all in one go.\n- **Every page of a PDF.** Choose \"Every page\" and the stamp lands in the same spot on each one. Tap a thumbnail to skip a page.\n- **Small and neat.** Long stamps are about 35 mm, round ones 22 mm, square seals 7 mm — they fit beside a signature without coveri",
+   "lemomo-ai/codex-radar": "# Codex Radar\n**Find what slows down your Codex workflow. Leave with one concrete move to try next.**\nCodex Radar turns your existing project sessions into a personal collaboration report: where work gets stuck, which habits help, and what to change in your next session. Copy a tailored prompt or workflow, then come back to see whether the measured behavior improved.\n[中文](README_zh.md) · [Try the demo](https://lemomo-ai.github.io/codex-radar/demo.html) · [Website](https://lemomo-ai.github.io/codex-radar/) · [Methodology](docs/METHODOLOGY.md)\n## From “that took too long” to a better next session\n- **Find the bottleneck.** See your strongest pattern and most costly friction across communication, engineering, and observable outcomes. Open the cited message, session, or incident behind a recommendation.\n- **Get an action you can use.** Copy a project-specific prompt, follow a short workflow, or adopt a setup-file draft. Suggestions are prioritized by the evidence; smaller samples receive shorter plans.\n- **Check whether you improved.** The next comparable report checks structured targets such as edits followed by passing verification. It separates changes in formula scores from changes in model interpretation.\n- **Review the period that matters.** Analyze all history, the last 30 days, or a chosen date range. Reports adapt to one-off tasks, feature work, long-running projects, learning, and automation.\n- **Keep control of your evidence.** Standard mode removes common credentials. Strict mode also leaves out message and command excerpts, thread titles, search queries, and session opening/closing text.\nThe report is a bilingual, self-contained HTML file with a nine-dimension radar, a focused action plan, progress checks, and expandable evidence. It opens without a server. [Explore a complete synthetic example →](https://lemomo-ai.github.io/codex-radar/demo.html)\n## Get your first report\nRequires a Codex CLI with plugin support and **Node.js 20+**. No dependencies to install, no separate API key.\n```bash\ncodex plugin marketplace add lemomo-ai/codex-radar\ncodex plugin add codex-radar@codex-radar-marketplace\n```\nStart a new Codex thread and ask:\n```text\nRun Codex Radar o"
+  }
+ },
+ "apps": []
+}

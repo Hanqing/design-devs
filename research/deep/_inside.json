@@ -1,0 +1,543 @@
+{
+ "handle": "_inside",
+ "sites": [
+  {
+   "url": "https://rambo.codes",
+   "ok": true,
+   "title": "Rambo.codes | Gui Rambo writes about his coding and reverse engineering adventures. | Rambo Codes",
+   "description": "Gui Rambo writes about his coding and reverse engineering adventures.",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "rambo.codes \n Sherlocked before it was born: LightBuddy \nDec 16 2025 3:00 PM \n A Privacy Mechanism That Backfired \nMay 12 2025 5:20 PM \n Cracking The Dave & Buster’s Anomaly \nMay 12 2025 11:50 AM \n How a Single Line Of Code Could Brick Your iPhone \nApr 26 2025 11:00 AM \n macOS Security Bugs Exposed Safari History and Device Location to Unauthorized Apps \nApr 4 2023 3:00 PM \n SiriSpy - iOS bug allowed apps to eavesdrop on your conversations with Siri \nOct 26 2022 1:00 PM \n Creating custom extension points for Mac apps with ExtensionKit \nJun 27 2022 5:00 PM \n How a macOS bug could have allowed for a serious phishing attack against users \nMar 14 2022 3:00 PM \n MaskerAid by Casey Liss \nMar 3 2022 12:00 PM \n Encoding and decoding references to other types with Codable \nJan 4 2022 3:00 PM \n A document-based app in Swift Playgrounds for iPad \nDec 28 2021 2:00 PM \n Using CloudKit for content hosting and feature flags \nDec 6 2021 12:00 PM \n Programming the ESP8266 on an M1 Mac \nFeb 16 2021 2:30 PM \n Distributing Mac apps outside the App Store, a quick start guide \nJan 8 2021 10:00 AM \n Creating configurable widgets for Big Sur (UPDATED) \nSep 8 2020 9:00 AM \n Turning the ChibiStudio canvas into an App Clip for iOS 14 \nAug 29 2020 10:00 AM \n The big Facebook crash of 2020 and the problem of third-party SDK creep \nMay 7 2020 9:00 AM \n Implementing mouse pointer interactions on iPad \nMar 24 2020 6:00 PM \n Writing command line interfaces for iOS apps \nMar 1 2020 6:00 PM \n CloudKit 101 \nFeb 25 2020 2:00 AM \n MVC: Many View Controllers \nFeb 20 2020 3:00 PM \n Common pitfalls when using Keychain Sharing on iOS \nJan 16 2020 11:00 AM \n You can use SwiftUI today \nJan 3 2020 11:50 PM \n Quick tip: clearing your app’s launch screen cache on iOS \nDec 9 2019 3:00 PM \n Apple has locked me out of my developer account (UPDATED) \nNov 20 2019 10:00 AM \n Hacking with private APIs on iPad \nJan 11 2019 12:00 PM \n Animations are assets: using Core Animation archives on iOS \nNov 11 2018 12:00 PM \n An incredibly nerdy deep-dive into the AirPower charging animation \nOct 22 2018 12:00 PM \n Unleashing the power of asset catalogs and bundles on iOS \nOct 3 2018 10:22 PM",
+   "github_links": [
+    "insidegui",
+    "johnsundell"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://rambo.codes/feed.rss",
+    "count_seen": 29,
+    "items": [
+     {
+      "title": "Sherlocked before it was born: LightBuddy",
+      "date": "Tue, 16 Dec 2025 15:00:00",
+      "url": "https://rambo.codes/posts/2025-12-15-sherlocked-before-it-was-born-lightbuddy"
+     },
+     {
+      "title": "A Privacy Mechanism That Backfired",
+      "date": "Mon, 12 May 2025 17:20:00",
+      "url": "https://rambo.codes/posts/2025-05-12-a-privacy-mechanism-that-backfired"
+     },
+     {
+      "title": "Cracking The Dave & Buster’s Anomaly",
+      "date": "Mon, 12 May 2025 11:50:00",
+      "url": "https://rambo.codes/posts/2025-05-12-cracking-the-dave-and-busters-anomaly"
+     },
+     {
+      "title": "How a Single Line Of Code Could Brick Your iPhone",
+      "date": "Sat, 26 Apr 2025 11:00:00",
+      "url": "https://rambo.codes/posts/2025-04-24-how-a-single-line-of-code-could-brick-your-iphone"
+     },
+     {
+      "title": "macOS Security Bugs Exposed Safari History and Device Location to Unauthorized Apps",
+      "date": "Tue, 4 Apr 2023 15:00:00 ",
+      "url": "https://rambo.codes/posts/2023-04-04-macos-security-bugs-exposed-safari-history-and-device-location-to-unauthorized-apps"
+     },
+     {
+      "title": "SiriSpy - iOS bug allowed apps to eavesdrop on your conversations with Siri",
+      "date": "Wed, 26 Oct 2022 13:00:00",
+      "url": "https://rambo.codes/posts/2022-10-25-sirispy-ios-bug-allowed-apps-to-eavesdrop"
+     },
+     {
+      "title": "Creating custom extension points for Mac apps with ExtensionKit",
+      "date": "Mon, 27 Jun 2022 17:00:00",
+      "url": "https://rambo.codes/posts/2022-06-27-creating-custom-extension-points-with-extensionkit"
+     },
+     {
+      "title": "How a macOS bug could have allowed for a serious phishing attack against users",
+      "date": "Mon, 14 Mar 2022 15:00:00",
+      "url": "https://rambo.codes/posts/2022-03-15-how-a-macos-bug-could-have-allowed-for-a-serious-phishing-attack-against-users"
+     },
+     {
+      "title": "MaskerAid by Casey Liss",
+      "date": "Thu, 3 Mar 2022 12:00:00 ",
+      "url": "https://rambo.codes/posts/2021-03-02-maskeraid-by-casey-liss"
+     },
+     {
+      "title": "Encoding and decoding references to other types with Codable",
+      "date": "Tue, 4 Jan 2022 15:00:00 ",
+      "url": "https://rambo.codes/posts/2022-01-04-encoding-and-decoding-references-to-other-types-with-codable"
+     },
+     {
+      "title": "A document-based app in Swift Playgrounds for iPad",
+      "date": "Tue, 28 Dec 2021 14:00:00",
+      "url": "https://rambo.codes/posts/2021-12-28-a-document-based-app-in-swift-playgrounds-for-ipad"
+     },
+     {
+      "title": "Using CloudKit for content hosting and feature flags",
+      "date": "Mon, 6 Dec 2021 12:00:00 ",
+      "url": "https://rambo.codes/posts/2021-12-06-using-cloudkit-for-content-hosting-and-feature-flags"
+     },
+     {
+      "title": "Programming the ESP8266 on an M1 Mac",
+      "date": "Tue, 16 Feb 2021 14:30:00",
+      "url": "https://rambo.codes/posts/2021-02-16-programming-the-esp8266-on-an-m1-mac"
+     },
+     {
+      "title": "Distributing Mac apps outside the App Store, a quick start guide",
+      "date": "Fri, 8 Jan 2021 10:00:00 ",
+      "url": "https://rambo.codes/posts/2021-01-08-distributing-mac-apps-outside-the-app-store"
+     },
+     {
+      "title": "Creating configurable widgets for Big Sur (UPDATED)",
+      "date": "Tue, 8 Sep 2020 09:00:00 ",
+      "url": "https://rambo.codes/posts/2020-09-08-creating-configurable-widgets-for-macos-big-sur"
+     },
+     {
+      "title": "Turning the ChibiStudio canvas into an App Clip for iOS 14",
+      "date": "Sat, 29 Aug 2020 10:00:00",
+      "url": "https://rambo.codes/posts/2020-08-29-turning-the-chibistudio-canvas-into-an-app-clip"
+     },
+     {
+      "title": "The big Facebook crash of 2020 and the problem of third-party SDK creep",
+      "date": "Thu, 7 May 2020 09:00:00 ",
+      "url": "https://rambo.codes/posts/2020-05-07-the-big-facebook-crash"
+     },
+     {
+      "title": "Implementing mouse pointer interactions on iPad",
+      "date": "Tue, 24 Mar 2020 18:00:00",
+      "url": "https://rambo.codes/posts/2020-03-19-implementing-mouse-interactions-on-ipad"
+     },
+     {
+      "title": "Writing command line interfaces for iOS apps",
+      "date": "Sun, 1 Mar 2020 18:00:00 ",
+      "url": "https://rambo.codes/posts/2020-03-01-writing-command-line-interfaces-for-ios-apps"
+     },
+     {
+      "title": "CloudKit 101",
+      "date": "Tue, 25 Feb 2020 02:00:00",
+      "url": "https://rambo.codes/posts/2020-02-25-cloudkit-101"
+     },
+     {
+      "title": "MVC: Many View Controllers",
+      "date": "Thu, 20 Feb 2020 15:00:00",
+      "url": "https://rambo.codes/posts/2020-02-20-mvc-with-sugar"
+     },
+     {
+      "title": "Common pitfalls when using Keychain Sharing on iOS",
+      "date": "Thu, 16 Jan 2020 11:00:00",
+      "url": "https://rambo.codes/posts/2020-01-16-common-pitfalls-when-using-keychain-sharing-on-ios"
+     },
+     {
+      "title": "You can use SwiftUI today",
+      "date": "Fri, 3 Jan 2020 23:50:00 ",
+      "url": "https://rambo.codes/posts/2020-01-03-you-can-use-swiftui-today"
+     },
+     {
+      "title": "Quick tip: clearing your app’s launch screen cache on iOS",
+      "date": "Mon, 9 Dec 2019 15:00:00 ",
+      "url": "https://rambo.codes/posts/2019-12-09-clearing-your-apps-launch-screen-cache-on-ios"
+     },
+     {
+      "title": "Apple has locked me out of my developer account (UPDATED)",
+      "date": "Wed, 20 Nov 2019 10:00:00",
+      "url": "https://rambo.codes/posts/2019-11-05-apple-has-locked-me-out-of-my-developer-account"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://airbuddy.app",
+   "ok": true,
+   "title": "AirBuddy 3 — Your Mac’s new favorite sidekick.",
+   "description": "AirBuddy 3 is a reliable Mac companion for AirPods and Beats, with an Action HUD, interactive widgets, audio controls, and over-the-air device support.",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "AirBuddy 3\nAvailable now for macOS\nSee batteries, connect AirPods, control what’s playing, and move peripherals between Macs—all without leaving what you’re doing.\n[Also available on **Setapp**](https://airbuddy.app/setapp)\nRequires macOS 14 or later · Intel and Apple silicon\nOver 150 new features and improvements. Built for the way you use your Mac today.\nAction HUD\n## One fluid interface.  \nEvery important moment.\nNearby AirPods, connection progress, listening modes, Now Playing, battery alerts, and more now appear in one consistent place that adapts to your screen. Behind it, model-aware support for AirPods and Beats stays current with over-the-air device definitions.\nWidgets\nPlace interactive Batteries, AirPods, and Now Playing widgets anywhere on your Desktop, build a layout for each display, and keep them visible on the Lock Screen.\nNow Playing\n## Your music follows your flow.\nArtwork, playback information, and controls can live in the Action HUD, on your Desktop, on the Lock Screen, and in macOS widgets.\nDashboard\n## Every device.  \nOne clear view.\nThe redesigned Dashboard brings nearby and pinned devices together with fast access to battery status, controls, and settings in a modern Mac-native design.\nMagic Handoff\n## Move your peripherals.  \nKeep your momentum.\nTransfer a Magic Mouse, Magic Keyboard, or Magic Trackpad between Macs with a faster, more reliable connection system and progress that stays easy to follow.\nBattery Alerts\n## Charge before it becomes a problem.\nGet a clear alert when a device runs low or finishes charging. Set thresholds per device and choose the notification style that fits your setup.\nAirBuddy 3\n## Make your Mac a better buddy.\nOne license is US$20. AirBuddy 2 customers can receive a free upgrade or 50% off, depending on their purchase date. AirBuddy 1 customers may also qualify for a discount.",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "insidegui",
+  "user": {
+   "name": "Guilherme Rambo",
+   "company": "Best Buddy Apps",
+   "blog": "mastodon.social/@_inside",
+   "location": "Brazil",
+   "bio": "Mac and iOS developer, security researcher. ",
+   "public_repos": 235,
+   "followers": 4959,
+   "created_at": "2009-03-25T20:03:18Z",
+   "twitter_username": "_inside",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "insidegui/VirtualBuddy",
+    "description": "Virtualize macOS 12 and later on Apple Silicon, VirtualBuddy is a virtual machine GUI for macOS M1, M2, M3, M4",
+    "stargazers_count": 8843,
+    "forks_count": 261,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-04-12T00:07:35Z",
+    "pushed_at": "2026-10-19T18:24:22Z",
+    "topics": [
+     "macos",
+     "virtual-machine"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/WWDC",
+    "description": "The unofficial WWDC app for macOS",
+    "stargazers_count": 8745,
+    "forks_count": 767,
+    "language": "Swift",
+    "homepage": "https://wwdc.io",
+    "created_at": "2015-04-19T20:09:26Z",
+    "pushed_at": "2026-06-17T20:11:54Z",
+    "topics": [
+     "apple",
+     "developer-experience",
+     "developer-tools",
+     "macos",
+     "osx",
+     "swift",
+     "video",
+     "wwdc"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/AssetCatalogTinkerer",
+    "description": "An app that lets you open .car files and browse/extract their images.",
+    "stargazers_count": 2887,
+    "forks_count": 175,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2014-03-04T15:05:39Z",
+    "pushed_at": "2026-04-27T12:33:25Z",
+    "topics": [
+     "asset-catalog",
+     "developer-tools",
+     "ios",
+     "macos",
+     "objective-c",
+     "quicklook",
+     "quicklook-plugin",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/PodcastMenu",
+    "description": "Put Overcast on your Mac's menu bar",
+    "stargazers_count": 1265,
+    "forks_count": 65,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-05-10T20:49:27Z",
+    "pushed_at": "2019-02-21T22:59:25Z",
+    "topics": [
+     "macos",
+     "media",
+     "osx",
+     "podcast"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/AnimojiStudio",
+    "description": "Make cute emoji videos with unlimited duration and share anywhere (iPhone X, XS and XS Max only!)",
+    "stargazers_count": 1167,
+    "forks_count": 88,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2017-11-12T20:49:50Z",
+    "pushed_at": "2020-08-03T15:49:37Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "insidegui/MultipeerKit",
+    "description": "MultipeerConnectivity + Codable = ❤️",
+    "stargazers_count": 1132,
+    "forks_count": 79,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-02-28T15:57:34Z",
+    "pushed_at": "2026-06-29T19:47:38Z",
+    "topics": [
+     "ios",
+     "macos",
+     "peer-to-peer",
+     "swift-library",
+     "tvos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/AppleEvents",
+    "description": "The unofficial Apple Events app for macOS",
+    "stargazers_count": 822,
+    "forks_count": 36,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2016-09-06T04:28:10Z",
+    "pushed_at": "2020-06-18T22:45:48Z",
+    "topics": [
+     "apple",
+     "chromecast",
+     "developer",
+     "developer-experience",
+     "developer-tools",
+     "macos",
+     "video"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "insidegui/NoiseBuddy",
+    "description": "Control the listening mode on your AirPods Pro in the Touch Bar or Menu Bar.",
+    "stargazers_count": 731,
+    "forks_count": 32,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-11-13T22:15:11Z",
+    "pushed_at": "2024-05-28T13:24:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/DarkModeBuddy",
+    "description": "Switch your Mac's system theme based on the ambient light intensity.",
+    "stargazers_count": 582,
+    "forks_count": 26,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-02-24T16:20:31Z",
+    "pushed_at": "2026-05-13T12:23:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/PlayAlways",
+    "description": "Create Xcode playgrounds from your menu bar",
+    "stargazers_count": 542,
+    "forks_count": 28,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-12-08T21:46:07Z",
+    "pushed_at": "2021-02-04T17:48:30Z",
+    "topics": [
+     "developer-tools",
+     "playground",
+     "swift",
+     "xcode",
+     "xcode-extension"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/AudioCap",
+    "description": "Sample code for recording system audio on macOS 14.4+",
+    "stargazers_count": 513,
+    "forks_count": 61,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-05-17T18:10:43Z",
+    "pushed_at": "2025-08-07T17:55:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/StatusBuddy",
+    "description": "Keep track of Apple's developer and consumer system statuses right in your menu bar.",
+    "stargazers_count": 458,
+    "forks_count": 28,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-02-11T23:45:16Z",
+    "pushed_at": "2026-09-22T18:59:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/CloudKitCodable",
+    "description": "An encoder and decoder for CKRecord",
+    "stargazers_count": 395,
+    "forks_count": 31,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2018-05-20T16:56:48Z",
+    "pushed_at": "2024-09-02T12:25:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/TouchBarSpaceFight",
+    "description": "A simple, fun game for the MacBook Pro's Touch Bar",
+    "stargazers_count": 377,
+    "forks_count": 32,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-11-13T02:29:30Z",
+    "pushed_at": "2025-05-15T13:02:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/AppearanceMaker",
+    "description": "Create custom appearances to customize your app's look with NSAppearance",
+    "stargazers_count": 235,
+    "forks_count": 10,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-04-16T23:24:57Z",
+    "pushed_at": "2017-02-17T13:50:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/F3X",
+    "description": "Fight Flash Fraud: test your SD cards to see if they're genuine and in good working order",
+    "stargazers_count": 207,
+    "forks_count": 28,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2015-09-07T17:38:50Z",
+    "pushed_at": "2015-09-12T03:07:25Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "insidegui/MeshBuddy",
+    "description": "Simple SwiftUI MeshGradient editor",
+    "stargazers_count": 203,
+    "forks_count": 11,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-06-13T18:58:15Z",
+    "pushed_at": "2026-04-21T22:09:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "insidegui/MacPreviewUtils",
+    "description": "Handy tools for SwiftUI previews on macOS.",
+    "stargazers_count": 198,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-12-24T19:33:25Z",
+    "pushed_at": "2024-04-15T17:33:14Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 119,
+  "languages": [
+   [
+    "Swift",
+    68
+   ],
+   [
+    "Objective-C",
+    33
+   ],
+   [
+    "Shell",
+    7
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "C#",
+    1
+   ],
+   [
+    "C",
+    1
+   ],
+   [
+    "Makefile",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "insidegui/WWDC",
+    "stargazerCount": 8745,
+    "description": "The unofficial WWDC app for macOS",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://wwdc.io"
+   },
+   {
+    "nameWithOwner": "insidegui/VirtualBuddy",
+    "stargazerCount": 8843,
+    "description": "Virtualize macOS 12 and later on Apple Silicon, VirtualBuddy is a virtual machine GUI for macOS M1, M2, M3, M4",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "insidegui/researchsdk",
+    "stargazerCount": 34,
+    "description": "Generates a research variant of the iOS SDK for use with SRD development",
+    "primaryLanguage": {
+     "name": "Shell"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "insidegui/srd-xcode-templates",
+    "stargazerCount": 11,
+    "description": "A set of Xcode templates for SRD development",
+    "primaryLanguage": {
+     "name": "Shell"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "insidegui/appregistrard",
+    "stargazerCount": 18,
+    "description": "Install apps in research cryptexes",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 4970,
+  "orgs": [
+   "ChibiStudio"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "insidegui/WWDC": "# The unofficial WWDC app for macOS\nEnjoy WWDC from the comfort of your Mac with the unofficial WWDC app for macOS.\nWatch the Keynote and Platforms State of the Union live, as well as the videos for all sessions released during WWDC week and other video content you can find on Apple's website or [Developer](https://apps.apple.com/app/apple-developer/id640199958) app.\nKeep track of the videos you’d like to watch or the ones you’ve already watched and take notes that you can reference later when trying out new technologies you learned about in the sessions.\n⬇️ If you just want to download the latest release, go to [the releases page](https://github.com/insidegui/WWDC/releases/latest).\n## Explore\nThe Explore tab shows an overview of the latest content available, the videos you haven’t finished watching yet, recently favorited videos, as well as any special events that are currently live.\n## Schedule\nThe Schedule tab shows the schedule for each day in the current edition of WWDC and allows you to watch live streams for the Keynote and other sessions throughout the week.\n## Videos\nWatch this year’s videos as they’re released and access videos from previous years. You can also read transcripts of sessions and easily jump to a specific point in the relevant video. Transcripts are also searchable and available in multiple languages.\n### Features\n- Watch videos in 0.5x, 1x, 1.25x, 1.5x, 1.75x, 2x and custom speeds\n- Fullscreen and native picture-in-picture support\n- Navigate video contents easily with the help of transcripts\n### Clip Sharing\nClip Sharing allows you to share a short segment (up to 5 minutes) from a session’s video. This is a great feature for quickly sharing snippets of content from the conference.\n## Bookmarks\nHave you ever found yourself watching a WWDC session and wishing you could take notes at a specific point in the video to refer back to later on? This is now possible with bookmarks.\nWith bookmarks, you can create a reference point within a video and add an annotation to it. Your bookmark annotations can also be considered while using the search, so it’s easier than ever to find the content you've bookmarked before.\n## iCloud Sync\nEnable the iCloud",
+   "insidegui/VirtualBuddy": "\n# VirtualBuddy\nVirtualBuddy can virtualize macOS 12 and later on Apple Silicon, with the goal of offering features that are useful to developers who need to test their apps on multiple versions of macOS, especially betas.\n## System Requirements\n- **Apple Silicon Mac**\n- macOS 13 or later\n### Installing macOS\nTo install a macOS virtual machine, you can select from a list of macOS versions provided by VirtualBuddy, which will automatically download and install the selected version. You may also provide your own IPSW link or select from an IPSW you have already downloaded.\n### ⚠️ Important Note About macOS Golden Gate\nTo install macOS Golden Gate beta on a macOS 26 host, make sure you are running [VirtualBuddy 2.2 beta 2](https://github.com/insidegui/VirtualBuddy/releases/tag/2.2-b2) or later and that you have downloaded and installed the [latest device support files](https://developer.apple.com/services-account/download?path=/Developer_Tools/RaveMobileDeviceSeed2050A3n/DeviceSupport_macOS_27_beta.dmg) from Apple. If you already have the Xcode 27 beta installed, then you don't need to install the device support files separately.\n### Installing macOS Betas\nIf you’d like to run a virtual machine with a macOS beta that’s more recent than the one you’re currently running, such as a macOS 15 virtual machine running in a macOS 14 host, then you’ll need the latest device support package from Apple. \nDevice support packages are sometimes made available by Apple directly, but they’re always included and installed automatically with the latest Xcode beta. These can be obtained from the [Apple Developer portal](https://developer.apple.com/download).\n## Download\nVirtualBuddy is free and open-source. If you’d like to support its development, [you may purchase it on Gumroad](https://insidegui.gumroad.com/l/virtualbuddy) or [sponsor my work on GitHub](https://github.com/sponsors/insidegui).\nIf you’d just like to download the latest version, [go to GitHub releases](https://github.com/insidegui/VirtualBuddy/releases/latest).\nIf you use [homebrew](https://brew.sh), install with `brew install --cask virtualbuddy`.\n### Feature Checklist\n- [x] Ability to boot any version of macOS 12 o",
+   "insidegui/researchsdk": "> Disclaimer: this project is provided for use within the [Apple Security Research Device Program](https://security.apple.com/research-device/), use for any purpose outside of security research is outside the scope of the project, please don't report issues or request features that are not within that scope.\n# Research SDK\nThis repository provides a `researchsdk` script that can be used to generate a \"Research\" variant of the iOS SDK for use with [SRD](https://security.apple.com/research-device/) development.\n## Xcode 16.3 And Later Notice\nThe identifier used by the generated SDKs is no longer recognized as of Xcode 16.3 beta 1, resulting in an `unable to find sdk` error message.\nTo work around that, change the `SDKROOT` build setting to the full path of the research SDK, for example:\n```\nSDKROOT = /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.4.internal.sdk\n```\nThe script will print out the path after running, and you can obtain the path at any time by running:\n```bash\nxcrun --show-sdk-path --sdk iphoneos.internal\n```\n## Motivation\nI like to use Xcode for all development, but when developing code to run on the Security Research Device, it can be difficult to do all development within Xcode, since it requires adhoc signing and frequent use of SPI or API that's marked unavailable for the iOS SDK.\nThis tool creates a new variant of the SDK with the following changes:\n- Removes any `API_UNAVAILABLE(ios)` flags from headers\n- Configures the SDK to allow adhoc signing of iOS binaries\n- Allows signing executable iOS targets with arbitrary entitlements within Xcode\n## Requirements\n- Xcode 16\n- jj (`brew install tidwall/jj/jj`)\n## Generating the SDK\nJust add the directory where you clone this repo to your `PATH` then run `researchsdk`. It will describe what it's about to do and ask for confirmation before proceeding.\nThe SDK will be generated for the Xcode version reported by `xcode-select -p`. If you need to switch the Xcode version, run `xcode-select -s /path/to/your/Xcode.app` before running the tool.\nBy default, the script will generate a research variant of the iOS SDK, but you may also include an argument wit",
+   "insidegui/srd-xcode-templates": "> Disclaimer: this project is provided for use within the [Apple Security Research Device Program](https://security.apple.com/research-device/), use for any purpose outside of security research is outside the scope of the project, please don't report issues or request features that are not within that scope.\n# SRD Xcode Templates\nThis repository provides Xcode templates to facilitate development of custom tools for the SRD, with settings that configure the targets for easy deployment with a research cryptex.\n- **Command Line Tool**: template for an adhoc-signed iOS cli executable\n- **Launch Daemon**: template for an adhoc-signed iOS launch daemon\n## Prerequisites\nAll templates are configured to use my custom [research SDK](https://github.com/insidegui/researchsdk), which allows ad-hoc signing and removes a bunch of unavailability annotations for iOS. If you'd like to use the regular iOS SDK, you can change the build settings after creating your project.\nSince Xcode 16.3, specifying the custom SDK by identifier no longer works, so the provided install script will attempt to find the research SDK in the Xcode version that's currently selected (via `xcode-select -s`) then configure the templates to use the research SDK at the correct path. The install script may be run again if the location where Xcode is installed changes in order to update the templates with the new SDK path.\n## Installation\nTo install the templates, just clone the repo and run the `install` script, or manually copy the `Templates/Research` folder into `~/Library/Developer/Xcode/Templates/`.\nRestart Xcode after installing the templates.\n## Using the templates\nTo create a new project with one of the templates, just go to `File > New > Project`, you'll find the templates in the `iOS` section, scroll to the bottom to find the `Research` section.\nAll executable templates include the following:\n- A preset Objective-C bridging header, which is often required to interface with SPI\n- A basic `Info.plist` configured with the project's details\n- A basic entitlements plist with commonly-used entitlements for SRD tools\n- Configuration for adhoc signing with the above entitlements\n- `Info.plist` section in th",
+   "insidegui/appregistrard": "> Disclaimer: this project is provided for use within the [Apple Security Research Device Program](https://security.apple.com/research-device/), use for any purpose outside of security research is outside the scope of the project, please don't report issues or request features that are not within that scope.\n# App Registrar Daemon\nThis daemon is designed to be installed on an SRD, enabling app installations within research cryptexes. It also supports building and running ad-hoc signed apps directly from Xcode.\n## Requirements\n- Security Research Device running iOS 26 or later\n## How Does it Work?\nOnce installed, `appregistrard` runs as a daemon and:\n- Installs `libAppRegistrarHooks` and configures injection into `installd`; this small dylib patches `installd` to allow ad-hoc binaries to pass validation, otherwise installation fails\n- Checks the `Applications` and `System/Applications` directories within mounted cryptexes\n- If found, installs any `.app` bundles found in those directories so that the apps can be launched from SpringBoard as usual\n### Apps Inside Research Cryptexes\nThe daemon keeps running in the background and automatically installs any apps found in newly-installed cryptexes\nso that you can easily have small individual cryptexes for different apps, and `appregistrard` will\nautomatically make sure those apps are installed when the cryptexes are mounted.\n### Apps From Xcode\nThe daemon will also generate, personalize, and load a trust cache for ad-hoc signed apps installed via Xcode, enabling building and running apps from Xcode with arbitrary entitlements.\nThis feature requires the SRD to have an internet connection.\n#### Debugging Apps From Xcode\nMake sure your app has the `get-task-allow` entitlement so that the iOS `debugserver` is allowed to attach to it, otherwise you won't be able to attach to apps installed via Xcode.\n## Build / Install Daemon\nYou can build a cryptex with `appregistrard` and `libAppRegistrarHooks` from the Xcode project by building the \"cryptex\" scheme.\nTo install, after building the \"cryptex\" scheme in Xcode, run the provided `install` script, which will find the built root in Xcode's derived data and use `srdtool` to insta"
+  }
+ },
+ "apps": []
+}

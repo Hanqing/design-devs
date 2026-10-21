@@ -1,0 +1,511 @@
+{
+ "handle": "m0d8ye",
+ "sites": [
+  {
+   "url": "https://maxlv.net",
+   "ok": true,
+   "title": "Lv. MAX",
+   "description": "Random thoughts",
+   "stack": [
+    "Nuxt",
+    "Google Analytics",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Netlify"
+   ],
+   "lang": "en",
+   "home_text": "Lv. MAX \nRandom thoughts \n2026-07-19 · 7 min \nLegend of Sword and Fairy on DOS: Ported to Rust, Then Upscaled by a Neural Net \nPorting the 1995 DOS version of Legend of Sword and Fairy from SDLPAL to Rust in full, running it in the browser, then upscaling it in real time with Real-ESRGAN. Notes on how the port was verified, the mega kernel design, and measured numbers from WebGPU tuning. Read more about Legend of Sword and Fairy on DOS: Ported to Rust, Then Upscaled by a Neural Net \n2026-06-07 · 10 min \nAI Agents Have Compressed Indie Development Into Fragmented Time \nUsing data from my own 2026 open source projects to look at how AI code agents change the cost structure of indie development: a single project compressed into a few active days, several projects in parallel as the norm. Plus the economic logic, and the limits, of tool software going open source and free once implementation cost approaches zero. Read more about AI Agents Have Compressed Indie Development Into Fragmented Time \n2026-05-19 · 5 min \nA Decade of Open Source, Absorbed by Large Models, Is Finishing shadowsocks's Original Vision \nshadowsocks argued for decentralized deployment and user-defined protocols, but ordinary users could never actually implement them. Ten years of open source contributions now sit inside large models, and even a free, non-SOTA model can produce a working obfuscation plugin in a few hours. For the first time that vision is reachable in practice. Read more about A Decade of Open Source, Absorbed by Large Models, Is Finishing shadowsocks's Original Vision \n2026-04-12 · 10 min \nPorting a 30,000-Line Go Project to Rust with Claude Code: Agent Teams and Harness Tuning \nA full account of using Claude Code Agent Team on a large port, taking the Rust rewrite of the mihomo (Clash Meta) proxy core as the case study. Covers role assignment, milestone planning, and tuning CLAUDE.md and the Memory system for efficiency. Read more about Porting a 30,000-Line Go Project to Rust with Claude Code: Agent Teams and Harness Tuning \n2026-04-06 · 24 min \nAlgorithmic Discipline, Streaming Restructuring, and Diverging Media Ecologies: Reading C-Pop's Structural Bind Through the Career Paths of Chinese and Japanese New-Generation Singers \nComparing the career paths of Chinese and Japanese new-generation singers: creative control, album narrative, and cross-cultural export as a lens on C-pop's structural bind. Read more about Algorithmic Discipline, Streaming Restructuring, and Diverging Media Ecologies: Reading C-Pop's Structural Bind Through the Career Paths of Chinese and Japanese New-Generation Singers \n2026-04-03 · 14 min \nStructural Challenges to the Petrodollar System: Energy Geopolitics, Gold as a Settlement Substitute, and US Fiscal Sustainability \nUsing data from multiple sources, this piece examines how the petrodollar system is exposed to non-dollar settlement loops, a capacity mismatch in the gold market, the US private credit crisis and federal fiscal imbalance, and works through three macro scenarios. Read more about Structural Challenges to the Petrodollar System: Energy Geopolitics, Gold as a Settlement Substitute, and US Fiscal Sustainability \n2026-03-21 · 28 min \nThe 2026 Middle East Crisis, the Helium Cutoff, and the Chain Implosion of the AI Compute Bubble \nAs of March 2026, the geopolitical conflict in the Middle East has produced a global energy crisis through the closure of the Strait of Hormuz, and with it a break in the helium supply chain. This report takes a second- and third-order view of the causal links and systemic fragilities connecting the energy shock, the helium cutoff, the semiconductor manufacturing bottleneck and the AI capital bubble. Read more about The 2026 Middle East Crisis, the Helium Cutoff, and the Chain Implosion of the AI Compute Bubble \n2026-03-20 · 34 min \nThe Game in the Shadows: China's Shadow Banking and US Private Credit, Their Evolution, Systemic Risk, and a Macroprudential Comparison \nSince the 2008 global financial crisis, China's shadow banking and US private credit have each evolved into distinctive systems of non-bank credit intermediation. Drawing on macro data and company-level cases, this piece traces how both systems developed, where their structural fragilities lie, how closely they rhyme across time and geography, and what they threaten in terms of financial stability. Read more about The Game in the Shadows: China's Shadow Banking and US Private Credit, Their Evolution, Systemic ",
+   "github_links": [
+    "madeye"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://maxlv.net/rss.xml",
+    "count_seen": 23,
+    "items": [
+     {
+      "title": "Legend of Sword and Fairy on DOS: Ported to Rust, Then Upscaled by a Neural Net",
+      "date": "Sun, 19 Jul 2026 00:00:00",
+      "url": "https://maxlv.net/blog/rustpal-webgpu-neural-upscale/"
+     },
+     {
+      "title": "AI Agents Have Compressed Indie Development Into Fragmented Time",
+      "date": "Sun, 07 Jun 2026 00:00:00",
+      "url": "https://maxlv.net/blog/ai-agent-indie-dev-fragmented-time/"
+     },
+     {
+      "title": "A Decade of Open Source, Absorbed by Large Models, Is Finishing shadowsocks's Original Vision",
+      "date": "Tue, 19 May 2026 00:00:00",
+      "url": "https://maxlv.net/blog/diy-sip003-protocol/"
+     },
+     {
+      "title": "Porting a 30,000-Line Go Project to Rust with Claude Code: Agent Teams and Harness Tuning",
+      "date": "Sun, 12 Apr 2026 00:00:00",
+      "url": "https://maxlv.net/blog/porting-mihomo-to-rust-with-claude/"
+     },
+     {
+      "title": "Algorithmic Discipline, Streaming Restructuring, and Diverging Media Ecologies: Reading C-Pop's Structural Bind Through the Career Paths of ",
+      "date": "Mon, 06 Apr 2026 00:00:00",
+      "url": "https://maxlv.net/blog/cpop-jpop-structural-decline-analysis/"
+     },
+     {
+      "title": "Structural Challenges to the Petrodollar System: Energy Geopolitics, Gold as a Settlement Substitute, and US Fiscal Sustainability",
+      "date": "Fri, 03 Apr 2026 00:00:00",
+      "url": "https://maxlv.net/blog/end-of-pax-americana-oil-gold-yuan/"
+     },
+     {
+      "title": "The 2026 Middle East Crisis, the Helium Cutoff, and the Chain Implosion of the AI Compute Bubble",
+      "date": "Sat, 21 Mar 2026 00:00:00",
+      "url": "https://maxlv.net/blog/middle-east-helium-ai-bubble-chain-implosion/"
+     },
+     {
+      "title": "The Game in the Shadows: China's Shadow Banking and US Private Credit, Their Evolution, Systemic Risk, and a Macroprudential Comparison",
+      "date": "Fri, 20 Mar 2026 00:00:00",
+      "url": "https://maxlv.net/blog/shadow-banking-private-credit-comparison/"
+     },
+     {
+      "title": "Claude Code + Rust: When AI Meets the Strictest Compiler",
+      "date": "Wed, 18 Mar 2026 00:00:00",
+      "url": "https://maxlv.net/blog/claude-code-rust-new-paradigm/"
+     },
+     {
+      "title": "https_proxy: A Stealth HTTPS Forward Proxy Written in Rust",
+      "date": "Wed, 18 Mar 2026 00:00:00",
+      "url": "https://maxlv.net/blog/https-proxy-stealth-forward-proxy/"
+     },
+     {
+      "title": "Building a Transparent Proxy Gateway with trans_proxy",
+      "date": "Wed, 18 Mar 2026 00:00:00",
+      "url": "https://maxlv.net/blog/trans-proxy-transparent-gateway/"
+     },
+     {
+      "title": "The Endgame for LLM Hardware: A Heterogeneous Marriage of GPU and LPU",
+      "date": "Sun, 01 Mar 2026 00:00:00",
+      "url": "https://maxlv.net/blog/gpu-lpu-heterogeneous-endgame/"
+     },
+     {
+      "title": "An Authenticated TLS Forward Proxy with Caddy and acme.sh",
+      "date": "Mon, 16 Feb 2026 00:00:00",
+      "url": "https://maxlv.net/blog/caddy-tls-http-proxy-with-acme/"
+     },
+     {
+      "title": "The Relationship Between the US Debt Ceiling, Money Supply, and GDP",
+      "date": "Fri, 11 Apr 2025 00:00:00",
+      "url": "https://maxlv.net/blog/the-relationship-between-us-debt-ceiling-money-supply-and-gdp/"
+     },
+     {
+      "title": "Snapshots: Huaihai Road in Early Summer",
+      "date": "Sun, 02 Jun 2024 00:00:00",
+      "url": "https://maxlv.net/blog/shanghai-summer-2024/"
+     },
+     {
+      "title": "Snapshots: 8 Hengshan Road",
+      "date": "Sun, 19 Feb 2023 00:00:00",
+      "url": "https://maxlv.net/blog/hengshan-road-8/"
+     },
+     {
+      "title": "Snapshots: Outskirts of Shanghai in Winter",
+      "date": "Mon, 06 Feb 2023 00:00:00",
+      "url": "https://maxlv.net/blog/shanghai-winter-2023/"
+     },
+     {
+      "title": "Snapshots: The Bund in Autumn",
+      "date": "Mon, 17 Oct 2022 00:00:00",
+      "url": "https://maxlv.net/blog/shanghai-autumn/"
+     },
+     {
+      "title": "What the New Round of US Sanctions Means for Mainland Chinese Semiconductors",
+      "date": "Tue, 11 Oct 2022 00:00:00",
+      "url": "https://maxlv.net/blog/fdpr/"
+     },
+     {
+      "title": "The Development Trap in China's Semiconductor Industry",
+      "date": "Fri, 26 Aug 2022 00:00:00",
+      "url": "https://maxlv.net/blog/china-semiconductor-trap/"
+     },
+     {
+      "title": "Notes on Autonomous Driving Solutions from Chinese EV Makers",
+      "date": "Tue, 23 Aug 2022 00:00:00",
+      "url": "https://maxlv.net/blog/china-ev-av-solution/"
+     },
+     {
+      "title": "Some Advice on Career Planning",
+      "date": "Thu, 09 Dec 2021 00:00:00",
+      "url": "https://maxlv.net/blog/suggestions/"
+     },
+     {
+      "title": "Do We Really Need More AI Chips?",
+      "date": "Sun, 02 Jun 2019 00:00:00",
+      "url": "https://maxlv.net/blog/more-ai-chip-or-not/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://madeye.github.io/",
+   "ok": true,
+   "title": "Max Lv — Open Source Projects",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "Max Lv \nChip Architect at NVIDIA \n NVIDIA \n Shanghai, China \n https://maxlv.net \n @madeye \nOpen Source Projects \nshadowsocks/shadowsocks-android \nA shadowsocks client for Android \n Kotlin \n 36,813 \n Updated today \nmadeye/ServerBox \nServerBox: turn a used Android phone into a Linux server, no root required. Alpine, Arch, Debian, Kali and Ubuntu with an always-on SSH server. \n Kotlin \n 265 \n Updated today \nmadeye/BaoLianDeng \nA macOS VPN proxy app powered by meow-rs, a Clash-compatible proxy kernel written in Rust \n Swift \n 778 \n Updated today \nshadowsocks/shadowsocks-c \nSelf-contained Shadowsocks implementation in C with libuv, asynchronous DNS, and portable static builds for Linux, macOS, Windows, and FreeBSD. \n C++ \n 16,185 \n Updated today \nmadeye/ad-skipper \nLocal VLM-based Android splash-ad skipper: accessibility service + three-tier detection (node match -> OCR -> llama.cpp GGUF VLM grounding) \n Kotlin \n 134 \n Updated yesterday \nmadeye/Legend-of-Sword-and-Fairy \nA complete Rust port of the PAL (Legend of Sword and Fairy) DOS engine, playable natively or in the browser via wasm \n Rust \n 192 \n Updated yesterday \nshadowsocks/shadowsocks-org \nwww.shadowsocks.org \n HTML \n 1,044 \n Updated yesterday \nmadeye/mandroid \nMandroid: run Android apps in native macOS windows on top of the stock Android Emulator \n Swift \n 56 \n Updated yesterday \nmadeye/proxydroid \nGlobal Proxy for Android \n Kotlin \n 2,566 \n Updated 2 days ago \nmadeye/gaeproxy \nGAEProxy for Android (Deprecated) \n C \n 790 \n Updated 2 days ago \nmadeye/rv \nNative desktop VNC viewer in Rust with GPUI \n Rust \n 39 \n Updated 4 days ago \nmadeye/dhtsearch \n自建索引的磁力链接搜索引擎：Go DHT 爬虫 + 关键词/启发式过滤 + LLM 二次审核，Next.js 前端 \n Go \n 73 \n Updated 5 days ago \nmadeye/jobs \nNo description \n HTML \n 55 \n Updated 5 days ago \nmadeye/gterm \niOS terminal app with SSH support, powered by the Ghostty engine (libghostty), with a custom on-screen keyboard. \n Swift \n 76 \n Updated 6 days ago \nmadeye/ds-input \nDS Input — an LLM whole-sentence pinyin input method (macOS + Windows): toneless pinyin → Chinese inline, no candidate window. Rust core (C ABI) + thin native frontends. \n C++ \n 54 \n Updated 7 days ago \nmadeye/bangumi-downloader \nNext.js web app aggregating bangumi.moe and DHT torrent search results \n TypeScript \n 24 \n Updated 8 days ago \nmadeye/comfyui-minimax-h3-dgx-spark \nComfyUI + MiniMax-H3 (fp8 pruned) on NVIDIA GB10 / DGX Spark — setup, 4-8 step turbo workflows, and an fp8 vs int8 benchmark \n Python \n 11 \n Updated 8 days ago \nmadeye/LianYaoHu \n炼妖壶 — run Claude Code, Codex, or any coding agent in a deny-default sandbox with VPN-only network egress. sandbox-exec + PF on macOS, Landlock/seccomp + iptables on Linux. \n Rust \n 19 \n Updated 11 days ago \nmadeye/madeye.github.io \nNo description \n JavaScript \n 2 \n Updated 11 days ago \nmadeye/shadowvpn-ios \nNative iOS client for ShadowVPN — a UDP, pre-shared-key, layer-3 tunnel using the shadowsocks AEAD UDP wire scheme (SwiftUI app + NEPacketTunnelProvider + Rust core). \n Swift \n 53 \n Updated 13 days ago \nmadeye/datacenter-probe \n乌兰察布 50km 在建数据中心卫星核查 \n Python \n 4 \n Updated 13 days ago \nmadeye/pi-jev \nJev-assisted file retrieval and request caching for faster Pi workflows \n TypeScript \n 14 \n Updated 14 days ago \nmadeye/silicon-civilization-stock-trade \n硅基文明消费股交易策略系统 · DeepSeek v4-pro · akshare · 回测 · Next.js \n TypeScript \n 51 \n Updated 14 days ago \nmadeye/qwen38-flash-next-on-dgx-spark \nNo description \n Python \n 7 \n Updated 21 days ago \nmadeye/AndLinLibrary \nArchived: this code now lives in madeye/AndLin (library/, terminal/, vnc/ modules) \n Kotlin \n 0 \n Updated 25 days ago \nmadeye/openzl-laya \nOpenZL lossless compression with optional on-device Laya routing, adaptive compressor selection, and a size guard for integer data on Apple Silicon. \n C++ \n 2 \n Updated 27 days ago \nmadeye/homebrew-tap \nHomebrew formulae by madeye (openzl-laya) \n Ruby \n 0 \n Updated 28 days ago \nmadeye/sealgate \nProtect sensitive prompt spans with trusted LLM detection and local authenticated encryption before using Claude Code. \n TypeScript \n 14 \n Updated 1 month ago \nmadeye/hot-stock-china \nA股热门股票Top100 - 每日自动更新 \n HTML \n 24 \n Updated 1 month ago \nmadeye/dsh-session-cost \nDeepSeek Harness client plugin: live session cost in CNY on the Web GUI session header \n JavaScript \n 8 \n Updated 1 month ago \nmadeye/qwen3.8-dflash2-gb10 \nNo description \n Python \n 1 \n Updated 1 month ago \nmadeye/silicon-civilization-stock-trade-us \nSilicon Civilization Stocks — US-market AI-infrastructure ",
+   "github_links": [
+    "madeye",
+    "shadowsocks"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "madeye",
+  "user": {
+   "name": "Max Lv",
+   "company": "NVIDIA",
+   "blog": "https://maxlv.net",
+   "location": "Shanghai, China",
+   "bio": "Chip Architect at NVIDIA",
+   "public_repos": 121,
+   "followers": 5223,
+   "created_at": "2011-02-20T05:08:06Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "madeye/proxydroid",
+    "description": "Global Proxy for Android",
+    "stargazers_count": 2566,
+    "forks_count": 748,
+    "language": "Kotlin",
+    "homepage": "https://play.google.com/store/apps/details?id=org.proxydroid",
+    "created_at": "2012-01-27T07:20:07Z",
+    "pushed_at": "2026-05-12T06:40:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/gaeproxy",
+    "description": "GAEProxy for Android (Deprecated)",
+    "stargazers_count": 790,
+    "forks_count": 267,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2011-02-20T05:09:06Z",
+    "pushed_at": "2014-04-07T11:14:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/BaoLianDeng",
+    "description": "A macOS VPN proxy app powered by meow-rs, a Clash-compatible proxy kernel written in Rust",
+    "stargazers_count": 778,
+    "forks_count": 128,
+    "language": "Swift",
+    "homepage": "https://madeye.github.io/BaoLianDeng/",
+    "created_at": "2015-08-21T23:44:52Z",
+    "pushed_at": "2026-10-02T07:13:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/ServerBox",
+    "description": "ServerBox: turn a used Android phone into a Linux server, no root required. Alpine, Arch, Debian, Kali and Ubuntu with an always-on SSH server.",
+    "stargazers_count": 266,
+    "forks_count": 29,
+    "language": "Kotlin",
+    "homepage": "",
+    "created_at": "2026-09-26T00:27:37Z",
+    "pushed_at": "2026-10-10T07:11:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/Legend-of-Sword-and-Fairy",
+    "description": "A complete Rust port of the PAL (Legend of Sword and Fairy) DOS engine, playable natively or in the browser via wasm",
+    "stargazers_count": 192,
+    "forks_count": 32,
+    "language": "Rust",
+    "homepage": "https://madeye.github.io/Legend-of-Sword-and-Fairy/",
+    "created_at": "2026-07-16T23:59:18Z",
+    "pushed_at": "2026-08-31T22:53:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/ad-skipper",
+    "description": "Local VLM-based Android splash-ad skipper: accessibility service + three-tier detection (node match -> OCR -> llama.cpp GGUF VLM grounding)",
+    "stargazers_count": 134,
+    "forks_count": 8,
+    "language": "Kotlin",
+    "homepage": null,
+    "created_at": "2026-08-07T00:50:39Z",
+    "pushed_at": "2026-08-09T07:17:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/mcp-cli",
+    "description": "a prototype to save fork/exec overhead of ai code agent",
+    "stargazers_count": 117,
+    "forks_count": 10,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2026-04-19T22:51:10Z",
+    "pushed_at": "2026-05-05T04:50:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/tcp_china",
+    "description": "TCP China congestion control algorithm",
+    "stargazers_count": 107,
+    "forks_count": 42,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2016-01-29T04:19:57Z",
+    "pushed_at": "2026-08-15T11:11:24Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "madeye/shadowvpn",
+    "description": "ShadowVPN: UDP PSK user-mode VPN with shadowsocks AEAD",
+    "stargazers_count": 101,
+    "forks_count": 6,
+    "language": "Rust",
+    "homepage": "https://madeye.github.io/shadowvpn/",
+    "created_at": "2026-06-15T11:44:01Z",
+    "pushed_at": "2026-08-30T09:03:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/gterm",
+    "description": "iOS terminal app with SSH support, powered by the Ghostty engine (libghostty), with a custom on-screen keyboard.",
+    "stargazers_count": 76,
+    "forks_count": 7,
+    "language": "Swift",
+    "homepage": "https://madeye.github.io/gterm/",
+    "created_at": "2026-05-29T08:21:07Z",
+    "pushed_at": "2026-09-15T11:41:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/dhtsearch",
+    "description": "自建索引的磁力链接搜索引擎：Go DHT 爬虫 + 关键词/启发式过滤 + LLM 二次审核，Next.js 前端",
+    "stargazers_count": 73,
+    "forks_count": 8,
+    "language": "Go",
+    "homepage": "https://bt.maxlv.net/",
+    "created_at": "2026-07-26T01:45:14Z",
+    "pushed_at": "2026-10-06T23:06:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/mandroid",
+    "description": "Mandroid: run Android apps in native macOS windows on top of the stock Android Emulator",
+    "stargazers_count": 56,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-09-10T07:11:52Z",
+    "pushed_at": "2026-10-13T00:59:45Z",
+    "topics": [
+     "android",
+     "android-emulator",
+     "appkit",
+     "grpc",
+     "macos",
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/jobs",
+    "description": null,
+    "stargazers_count": 55,
+    "forks_count": 9,
+    "language": "HTML",
+    "homepage": "https://madeye.github.io/jobs/",
+    "created_at": "2026-03-17T00:32:00Z",
+    "pushed_at": "2026-03-18T05:23:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/ds-input",
+    "description": "DS Input — an LLM whole-sentence pinyin input method (macOS + Windows): toneless pinyin → Chinese inline, no candidate window. Rust core (C ABI) + thin native frontends.",
+    "stargazers_count": 54,
+    "forks_count": 1,
+    "language": "C++",
+    "homepage": null,
+    "created_at": "2026-06-21T05:12:01Z",
+    "pushed_at": "2026-06-25T03:41:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/obfs4-tunnel",
+    "description": "obfs4 tunnel",
+    "stargazers_count": 53,
+    "forks_count": 14,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2016-07-28T07:17:58Z",
+    "pushed_at": "2016-07-29T00:42:47Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "madeye/shadowvpn-ios",
+    "description": "Native iOS client for ShadowVPN — a UDP, pre-shared-key, layer-3 tunnel using the shadowsocks AEAD UDP wire scheme (SwiftUI app + NEPacketTunnelProvider + Rust core).",
+    "stargazers_count": 53,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": "https://madeye.github.io/shadowvpn-ios/",
+    "created_at": "2026-06-20T01:43:45Z",
+    "pushed_at": "2026-10-08T02:10:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/silicon-civilization-stock-trade",
+    "description": "硅基文明消费股交易策略系统 · DeepSeek v4-pro · akshare · 回测 · Next.js",
+    "stargazers_count": 51,
+    "forks_count": 12,
+    "language": "TypeScript",
+    "homepage": "https://madeye.github.io/silicon-civilization-stock-trade/",
+    "created_at": "2026-05-14T02:16:40Z",
+    "pushed_at": "2026-10-04T07:11:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "madeye/rv",
+    "description": "Native desktop VNC viewer in Rust with GPUI",
+    "stargazers_count": 39,
+    "forks_count": 1,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2026-08-31T08:16:13Z",
+    "pushed_at": "2026-09-07T05:54:45Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 81,
+  "languages": [
+   [
+    "Rust",
+    15
+   ],
+   [
+    "Python",
+    13
+   ],
+   [
+    "Swift",
+    8
+   ],
+   [
+    "TypeScript",
+    8
+   ],
+   [
+    "C",
+    7
+   ],
+   [
+    "C++",
+    5
+   ],
+   [
+    "Kotlin",
+    4
+   ],
+   [
+    "HTML",
+    4
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "shadowsocks/shadowsocks-android",
+    "stargazerCount": 36813,
+    "description": "A shadowsocks client for Android",
+    "primaryLanguage": {
+     "name": "Kotlin"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "shadowsocks/shadowsocks-c",
+    "stargazerCount": 16184,
+    "description": "Self-contained Shadowsocks implementation in C with libuv, asynchronous DNS, and portable static builds for Linux, macOS, Windows, and FreeBSD.",
+    "primaryLanguage": {
+     "name": "C++"
+    },
+    "homepageUrl": "https://github.com/shadowsocks/shadowsocks-rust"
+   },
+   {
+    "nameWithOwner": "madeye/BaoLianDeng",
+    "stargazerCount": 778,
+    "description": "A macOS VPN proxy app powered by meow-rs, a Clash-compatible proxy kernel written in Rust",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://madeye.github.io/BaoLianDeng/"
+   },
+   {
+    "nameWithOwner": "madeye/proxydroid",
+    "stargazerCount": 2566,
+    "description": "Global Proxy for Android",
+    "primaryLanguage": {
+     "name": "Kotlin"
+    },
+    "homepageUrl": "https://play.google.com/store/apps/details?id=org.proxydroid"
+   },
+   {
+    "nameWithOwner": "meow-rs/meow-rs",
+    "stargazerCount": 577,
+    "description": "A high-performance Rust implementation of the mihomo (Clash Meta) proxy kernel.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://meow-rs.github.io/meow-rs/"
+   },
+   {
+    "nameWithOwner": "meow-rs/meow-android",
+    "stargazerCount": 150,
+    "description": "Meow - A Clash/mihomo Android client with Flutter UI, powered by meow-rs and lwip-based tun2socks",
+    "primaryLanguage": {
+     "name": "Kotlin"
+    },
+    "homepageUrl": "https://meow-rs.github.io/meow-android/"
+   }
+  ],
+  "contrib_last_year": 5448,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "shadowsocks/shadowsocks-android": "## [Shadowsocks](https://shadowsocks.org) for Android\n[](https://circleci.com/gh/shadowsocks/shadowsocks-android)\n[](https://android-arsenal.com/api?level=23)\n[](https://github.com/shadowsocks/shadowsocks-android/releases)\n[](https://github.com/shadowsocks/shadowsocks-android/search?l=kotlin)\n[](https://www.codacy.com/gh/shadowsocks/shadowsocks-android/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=shadowsocks/shadowsocks-android&amp;utm_campaign=Badge_Grade)\n[](https://www.gnu.org/licenses/gpl-3.0)\n<a href=\"https://play.google.com/store/apps/details?id=com.github.shadowsocks\"></a>\nfor Android & Chrome OS ([beta](https://play.google.com/apps/testing/com.github.shadowsocks))  \n<a href=\"https://play.google.com/store/apps/details?id=com.github.shadowsocks.tv\"></a>\nfor Android TV ([beta](https://play.google.com/apps/testing/com.github.shadowsocks.tv))\n### PREREQUISITES\n* JDK 11+\n* Android SDK\n  - Android NDK\n* Rust with Android targets installed using `rustup target add armv7-linux-androideabi aarch64-linux-android i686-linux-android x86_64-linux-android`\n### BUILD\nYou can check whether the latest commit builds under UNIX environment by checking Travis status.\n* Install prerequisites\n* Clone the repo using `git clone --recurse-submodules <repo>` or update submodules using `git submodule update --init --recursive`\n* Build it using Android Studio or gradle script\n### CONTRIBUTING\nIf you are interested in contributing or getting involved with this project, please read the CONTRIBUTING page for more information.  The page can be found [here](https://github.com/shadowsocks/shadowsocks-android/blob/master/CONTRIBUTING.md).\n### [TRANSLATE](https://discourse.shadowsocks.org/t/poeditor-translation-main-thread/30)\n## OPEN SOURCE LICENSES\n<ul>\n    <li>redsocks: <a href=\"https://github.com/shadowsocks/redsocks/blob/shadowsocks-android/README\">APL 2.0</a></li>\n    <li>libevent: <a href=\"https://github.com/shadowsocks/libevent/blob/master/LICENSE\">BSD</a></li>\n    <li>tun2socks: <a href=\"https://github.com/shadowsocks/badvpn/blob/shadowsocks-android/COPYING\">BSD</a></li>\n    <li>shadowsocks-rust: <a href=\"https://github.com/shadowsocks/shadowsocks-rust/bl",
+   "shadowsocks/shadowsocks-c": "# shadowsocks-c\n[](https://github.com/shadowsocks/shadowsocks-c/actions/workflows/build.yml) [](https://github.com/shadowsocks/shadowsocks-c/actions/workflows/tests.yml) [](https://github.com/shadowsocks/shadowsocks-c/actions/workflows/portability.yml)\n## Intro\n[shadowsocks-c](https://shadowsocks.org) is a lightweight secured SOCKS5\nproxy for embedded devices and low-end boxes.\nIt is a port of [Shadowsocks](https://github.com/shadowsocks/shadowsocks)\ncreated by [@clowwindy](https://github.com/clowwindy), and maintained by\n[@madeye](https://github.com/madeye) and [@linusyang](https://github.com/linusyang).\nCurrent version: 3.3.6 | [Changelog](debian/changelog)\n[CLI reference and configuration guide](https://shadowsocks.github.io/shadowsocks-c/)\nare generated from the source with Doxygen and published after updates to `master`.\nAn opt-in [printable TCP salt experiment](docs/printable-salt.md) is available\nthrough `ss-local --printable-salt` or `\"printable_salt\": true` in the config\nfile. It is disabled by default.\nUse `--help` for grouped CLI options and `--version` for version information.\nSee [CLI conventions](https://shadowsocks.github.io/shadowsocks-c/index.html#cli_conventions)\nfor the long flags, short aliases, and configuration precedence.\n## Community\nSee the [contribution guide](CONTRIBUTION.md) for development setup, testing,\nand pull request guidance.\nEveryone participating in this project is expected to follow our\n[Code of Conduct](CODE_OF_CONDUCT.md).\n## Project history and rename\nThis repository began as **shadowsocks-libev**, the lightweight C implementation\nof Shadowsocks built around the libev event loop. It later entered a bug-fix-only\nmaintenance phase, with new development directed toward\n[shadowsocks-rust](https://github.com/shadowsocks/shadowsocks-rust).\nIn September 2026, the C implementation was modernized with a focus on\nself-contained builds and portability. [The build modernization](https://github.com/shadowsocks/shadowsocks-c/pull/3050)\nbundled pinned dependency sources, removed several external dependencies, and\nadded static-build validation across platforms.\n[The subsequent migration](https://github.com/shadowsocks/shadowsocks-c/pull/",
+   "madeye/BaoLianDeng": "# BaoLianDeng\nmacOS VPN proxy app powered by [meow-rs](https://github.com/meow-rs/meow-rs), a Clash/mihomo-compatible proxy kernel written in Rust.\n**[App Store](https://apps.apple.com/app/baoliandeng/id6779101876)** · **[TestFlight Beta](https://testflight.apple.com/join/VpX3tHnS)** · **[Website](https://madeye.github.io/BaoLianDeng/)**\n## Features\n- **Transparent Proxy** — Built on `NETransparentProxyProvider` for socket-level flow interception, faster than traditional TUN-based solutions\n- **meow-rs Engine** — Clash/mihomo-compatible proxy kernel written in Rust ([meow-rs/meow-rs](https://github.com/meow-rs/meow-rs)), compiled as a native xcframework\n- **Per-App Proxy** — Choose which apps go through the proxy (allowlist) or bypass it (blocklist)\n- **Subscription Management** — Add, refresh, and switch between proxy subscriptions (Clash YAML and base64 formats)\n- **Smart Proxy Routing** — Browse nodes with latency indicators, switch proxy groups, rule/global/direct modes\n- **Traffic Analytics** — Daily bar charts, session stats, and monthly summaries for proxy traffic\n> **Known differences from upstream mihomo:** TUIC, WireGuard, SSH, and ShadowsocksR outbounds are not supported. Supported outbounds: ss (including the built-in `ech-tls-tunnel` plugin), trojan, vless (+ vision, + post-quantum encryption, + REALITY), vmess, snell, hysteria2, anytls, plus sing-mux (`smux:`). `client-fingerprint:` (uTLS) is live via `boring-tls`.\n## Architecture\n```\n┌─────────────────────────────────────────────┐\n│             macOS App (SwiftUI)             │\n│  ┌──────────┬────────┬───────┬───────────┐  │\n│  │  Home    │ Config │ Data  │ Settings  │  │\n│  │ Subs &   │ YAML   │Charts │ Groups /  │  │\n│  │  Nodes   │ Editor │& Stats│ Logs      │  │\n│  └──────────┴────────┴───────┴───────────┘  │\n│  ┌───────────────────────────────────────┐  │\n│  │  VPNManager (NETransparentProxyManager)│  │\n│  └──────────────────┬────────────────────┘  │\n├─────────────────────┼───────────────────────┤\n│  App Extension (PlugIns/TransparentProxy)   │\n│  ┌──────────────────┴────────────────────┐  │\n│  │  NETransparentProxyProvider           │  │\n│  │    ┌──────────────────────────────┐   │  │\n│  │  ",
+   "madeye/proxydroid": "# ProxyDroid\nA global proxy app for Android, modernised around a VPN-first architecture.\nProxyDroid forwards device traffic to an upstream SOCKS5 or HTTP proxy\nwithout requiring root. It installs a `VpnService`, captures IP packets on\na TUN device, and converts TCP/UDP flows into proxy connections in\nuserspace.\n## ARCHITECTURE\n- **VPN-first.** No iptables, no redsocks, no root. The app runs as a\n  standard Android `VpnService`, which works on every supported Android\n  release.\n- **Rust tun2socks.** The packet-to-socket bridge lives in\n  `app/src/main/rust/proxydroid-tun2socks`, built with\n  [netstack-smoltcp](https://crates.io/crates/netstack-smoltcp) and\n  invoked from Kotlin through JNI. Cargo builds are wired in via\n  `org.mozilla.rust-android-gradle`.\n- **Compose UI.** The settings and status surfaces are written in\n  Jetpack Compose with Material 3.\n- **Per-app bypass.** Apps can be excluded from the tunnel via the\n  standard `VpnService` `addDisallowedApplication` API.\n## SUPPORTED UPSTREAMS\n- SOCKS5 (with optional username/password auth)\n- HTTP `CONNECT` (with optional Basic auth)\n## PREREQUISITES\n- JDK 17 (Gradle 8.x does not accept JDK 21+)\n- Android SDK with `compileSdk` 36 installed\n- Android NDK `25.1.8937393`\n- CMake `3.22.1`\n- Rust stable toolchain with the Android targets:\n  `aarch64-linux-android`, `armv7-linux-androideabi`,\n  `i686-linux-android`, `x86_64-linux-android`\n> AGP is pinned to **8.1.2** and Kotlin to **1.9.10**. See\n> `gradle/libs.versions.toml` for every version. Do not bump AGP without\n> verifying the `rust-android-gradle` 0.9.6 `mergeJniLibFolders`\n> duplicate-resources interaction (cf. commits `0249f91`, `8875c74`).\n## BUILD\n### Android Studio\n1. Open the project root.\n2. Let Gradle sync — Cargo runs as part of `cargoBuild` and feeds the\n   JNI libraries into the merged APK.\n3. `Build > Make Project`.\n### Command line\n```bash\n./gradlew assembleDebug      # debug APK at app/build/outputs/apk/debug/\n./gradlew assembleRelease    # release APK; requires signing config (see below)\n```\nSigning for `release` is opt-in. Add a `local.properties` with:\n```\nKEYSTORE_PATH=/absolute/path/to/keystore.jks\nKEYSTORE_PASSWORD=...\nKEY_ALIAS=...\nKEY",
+   "meow-rs/meow-rs": "<div align=\"center\">\n</div>\n# meow-rs\nA high-performance Rust implementation of the [mihomo](https://github.com/MetaCubeX/mihomo) (Clash Meta) proxy kernel. Rule-based tunneling with support for multiple proxy protocols, transparent proxy, DNS snooping, a persistent logbook, a REST API, and a built-in web dashboard.\nBeyond mihomo, meow keeps [`dialer-proxy` chains](#dialer-proxy-chains) working when a member of the dialer group can pass its URL test but not reach the chained server, and keeps a [logbook](#logbook) of what the engine did (reloads, provider failures, crashes, chained nodes going down) that survives restarts.\n## Features\n### Proxy Protocols\n- **Shadowsocks** -- TCP and UDP relay, AEAD and stream ciphers (aes-256-gcm, chacha20-ietf-poly1305, etc.)\n- **Trojan** -- TLS 1.2/1.3 (BoringSSL), SNI, optional skip-cert-verify\n- **Hysteria2** -- QUIC-based TCP and UDP relay, Salamander obfs, port hopping, down bandwidth auth hint, SNI, skip-cert-verify, and certificate pinning\n- **VLESS** -- Plain VLESS and XTLS-Vision splice; TLS, WebSocket, gRPC, H2, HTTPUpgrade transports\n- **VMess** -- AEAD VMess outbound with TCP/WebSocket transports\n- **HTTP** -- HTTP CONNECT outbound proxy with optional TLS and basic auth\n- **SOCKS5** -- SOCKS5 outbound proxy with optional TLS and auth\n- **Snell** -- v3/v4/v5/v6 TCP, UDP-over-TCP, optional HTTP/TLS obfs (v3–v5); v4–v6 connection reuse; v6 `default` / `unshaped` / `unsafe-raw` modes\n- **AnyTLS** -- AnyTLS outbound (`anytls` feature; in the `full` bundle, so the release binaries include it)\n- **Direct** -- Direct connection to destination\n- **Reject** -- Drop connections (with configurable behavior)\n### TLS & Privacy\n- **ECH (Encrypted Client Hello)** -- DNS-based ECH config fetching from HTTPS/SVCB records; BoringSSL backend (`boring-tls` feature)\n- **uTLS Fingerprinting** -- Chrome, Firefox, Safari, iOS, Android, Edge profiles to bypass TLS fingerprint detection\n- **BoringSSL** is the single crypto library for the whole app. Every proxy handshake, health check, DoT/DoH upstream, internal HTTP(S) fetch (uTLS fingerprints and ECH included), and the Hysteria2 QUIC transport link one vendored BoringSSL. rustls is not used"
+  }
+ },
+ "apps": []
+}

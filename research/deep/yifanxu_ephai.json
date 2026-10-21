@@ -1,0 +1,306 @@
+{
+ "handle": "yifanxu_ephai",
+ "sites": [],
+ "github": {
+  "login": "Ephemeral-AI-Lab",
+  "user": {
+   "name": "Ephemeral-AI-Lab",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": null,
+   "public_repos": 19,
+   "followers": 34,
+   "created_at": "2026-07-10T03:01:41Z",
+   "twitter_username": null,
+   "type": "Organization"
+  },
+  "repos": [
+   {
+    "full_name": "Ephemeral-AI-Lab/layerfs",
+    "description": "Ephemeral Workspaces, durable shared history. LayerFS gives every agent a complete, writable filesystem Workspace over shared committed history, without copying the base. Agents work in parallel, commit what changed as deduplicated checkpoints, then branch, rewind or merge. Try it with LayerFS × DSH.",
+    "stargazers_count": 1236,
+    "forks_count": 54,
+    "language": "Rust",
+    "homepage": "https://layerfs.ai/",
+    "created_at": "2026-08-10T00:26:10Z",
+    "pushed_at": "2026-10-21T12:51:12Z",
+    "topics": [
+     "agent-infrastructure",
+     "ai-agents",
+     "checkpoint",
+     "content-addressable-storage",
+     "copy-on-write",
+     "deduplication",
+     "deepseek",
+     "filesystem",
+     "fuse",
+     "linux",
+     "llm",
+     "mcts",
+     "rust",
+     "sandbox",
+     "sqlite",
+     "version-control"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/ephemeral-sandbox",
+    "description": "Open-source agent sandbox infrastructure for parallel coding agents: isolated workspaces, MCP/CLI control, observability, and atomic publication.",
+    "stargazers_count": 116,
+    "forks_count": 8,
+    "language": "Rust",
+    "homepage": "https://ephemeral-sandbox.com/",
+    "created_at": "2026-04-04T21:39:21Z",
+    "pushed_at": "2026-08-09T09:04:31Z",
+    "topics": [
+     "agent-infrastructure",
+     "agent-sandbox",
+     "agent-swarm",
+     "ai-agents",
+     "ai-sandbox",
+     "coding-agent-infrastructure",
+     "coding-agent-swarm",
+     "coding-agents",
+     "developer-tools",
+     "docker",
+     "ephemeral-sandbox",
+     "mcp",
+     "multi-agent",
+     "multi-agent-systems",
+     "parallel-agents",
+     "rust",
+     "sandbox",
+     "sandbox-infrastructure",
+     "workspace-isolation",
+     "workspace-session"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/dsh-plugins",
+    "description": "Make Deepseek Harness Great",
+    "stargazers_count": 52,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-08-16T03:36:43Z",
+    "pushed_at": "2026-10-19T10:00:43Z",
+    "topics": [
+     "dsh-plugin",
+     "dsh-plugin-market",
+     "dsh-plugins"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/mayfly",
+    "description": "Mayfly terminal UI bundle for DeepSeek Harness",
+    "stargazers_count": 23,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://may-fly.dev",
+    "created_at": "2026-09-03T02:45:22Z",
+    "pushed_at": "2026-10-18T17:00:31Z",
+    "topics": [
+     "ai-agent",
+     "coding-agent",
+     "cordis",
+     "deepseek",
+     "deepseek-harness",
+     "dsh",
+     "dsh-plugin",
+     "terminal-ui",
+     "tui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/agentsgit",
+    "description": null,
+    "stargazers_count": 14,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-08-12T16:21:16Z",
+    "pushed_at": "2026-08-31T19:56:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/ephemeral-ai-harness",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-08-15T09:50:22Z",
+    "pushed_at": "2026-08-15T15:03:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/ephemeral-sandbox-docs",
+    "description": "Documentation source for Ephemeral Sandbox agent infrastructure.",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "HTML",
+    "homepage": "https://ephemeral-sandbox.com/docs",
+    "created_at": "2026-07-11T06:24:19Z",
+    "pushed_at": "2026-08-04T19:27:33Z",
+    "topics": [
+     "agent-sandbox",
+     "documentation",
+     "ephemeral-sandbox"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/layerfs-engine-lab",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": "https://ephemeral-ai-lab.github.io/layerfs-engine-lab/",
+    "created_at": "2026-08-14T00:46:45Z",
+    "pushed_at": "2026-08-30T12:54:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/research-papers",
+    "description": "Open research papers and reproducibility artifacts from Ephemeral AI Lab",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-07-29T21:40:49Z",
+    "pushed_at": "2026-08-02T05:29:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/.github",
+    "description": "Organization profile and vision for Ephemeral AI Lab",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-08-16T01:56:21Z",
+    "pushed_at": "2026-08-16T02:01:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/deepseek-harness-docs",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-08-20T15:19:07Z",
+    "pushed_at": "2026-08-21T05:09:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/ephemeral-ai-lab-website",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-08-16T01:38:37Z",
+    "pushed_at": "2026-08-16T17:10:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/ephemeral-sandbox-console",
+    "description": "Web console and trusted backend-for-frontend for Ephemeral Sandbox.",
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://ephemeral-sandbox.com/",
+    "created_at": "2026-07-18T13:12:04Z",
+    "pushed_at": "2026-07-19T14:44:31Z",
+    "topics": [
+     "agent-sandbox",
+     "ephemeral-sandbox",
+     "react",
+     "rust"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/ephemeral-sandbox-test",
+    "description": "External E2E tests and benchmarks for Ephemeral Sandbox agent infrastructure.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": "https://ephemeral-sandbox.com/benchmarks/parallel-coding-agents",
+    "created_at": "2026-07-13T14:53:05Z",
+    "pushed_at": "2026-07-25T21:09:39Z",
+    "topics": [
+     "agent-sandbox",
+     "benchmarks",
+     "end-to-end-testing",
+     "ephemeral-sandbox"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/ephemeral-sandbox-v1",
+    "description": "Experimental and benchmarking line for the Ephemeral Sandbox v1 research paper.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-07-29T22:08:08Z",
+    "pushed_at": "2026-07-29T22:08:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Ephemeral-AI-Lab/sqlite_fuse_wasm_github_research",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-08-31T07:09:24Z",
+    "pushed_at": "2026-08-31T08:07:43Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 16,
+  "languages": [
+   [
+    "TypeScript",
+    5
+   ],
+   [
+    "Python",
+    3
+   ],
+   [
+    "Rust",
+    2
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "Ephemeral-AI-Lab/layerfs": "<p align=\"center\">\n  <a href=\"https://layerfs.ai/\"></a>\n</p>\n<h1 align=\"center\">LayerFS</h1>\n<p align=\"center\"><strong>Ephemeral Workspaces. Durable Shared History.</strong></p>\n<p align=\"center\">\n  LayerFS is the substrate under your agents. Each one mounts a complete, writable\n  Workspace over shared committed history, does its work, commits what it changed,\n  and goes away.\n</p>\n<p align=\"center\">\n  <a href=\"#get-started\"><b>Get started</b></a> ·\n  <a href=\"https://layerfs.ai/\"><b>Website</b></a> ·\n  <a href=\"https://layerfs.ai/docs/\"><b>Docs</b></a> ·\n  <a href=\"https://layerfs.ai/benchmarks/\"><b>Benchmarks</b></a> ·\n  <a href=\"https://layerfs.ai/video/layerfs-v1.0.0-release.mp4\"><b>Video</b></a> ·\n  <a href=\"dsh/README.md\"><b>LayerFS × DSH</b></a> ·\n  <a href=\"#community\"><b>Community</b></a>\n</p>\n<p align=\"center\">\n  <a href=\"LICENSE\"></a>\n  <a href=\"https://github.com/Ephemeral-AI-Lab/layerfs/releases/tag/v1.0.0\"></a>\n  <a href=\"https://discord.gg/8mmAMCDc2\"></a>\n</p>\nhttps://github.com/user-attachments/assets/70c25887-86a1-4d81-bd78-571cf1c09a18\n> **Status:** [LayerFS 1.0.0](https://github.com/Ephemeral-AI-Lab/layerfs/releases/tag/v1.0.0),\n> the first official release after the 0.1.x Developer Previews, released as source.\n> The results below ran on `main` at `e5c7aaae05`. The Store runs in its Disposable profile only, with no\n> crash or power-loss durability: use LayerFS for agent work and its history, not\n> as the only copy of data you cannot rebuild.\n<a id=\"get-started\"></a>\n## Try it with LayerFS × DSH\n<p align=\"center\">\n  <a href=\"dsh/README.md\"></a>\n</p>\nLayerFS runs today through **LayerFS × DSH**, the `dsh-layerfs` plugin for\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). Agents in a dsh\nsession fork Branches, test them in Sandboxes, merge and publish, and the **Work** and\n**History** tabs show every agent's Branch, live.\n<p align=\"center\">\n  <a href=\"dsh/README.md\"></a>\n</p>\n## Core ideas\n<table>\n  <tr>\n    <td width=\"33%\" valign=\"top\">\n      <a href=\"https://layerfs.ai/docs/core-ideas/#idea-ephemeral\"></a><br>\n       <b>01 · Ephemeral Computing</b><br>\n      Compute exists only while a command runs.\n    </td>\n    <td width",
+   "Ephemeral-AI-Lab/ephemeral-sandbox": "<div align=\"center\">\n# Ephemeral Sandbox\n**Open-source agent sandbox infrastructure for parallel coding agents.**\n[Website](https://ephemeral-sandbox.com/) ·\n[Docs](https://ephemeral-sandbox.com/docs) ·\n[Quick start](https://ephemeral-sandbox.com/docs/quickstart) ·\n[MCP](https://ephemeral-sandbox.com/docs/mcp) ·\n[CLI](https://ephemeral-sandbox.com/docs/cli) ·\n[Architecture](https://ephemeral-sandbox.com/architecture) ·\n[Tests](https://github.com/Ephemeral-AI-Lab/ephemeral-sandbox-test)\n[](LICENSE)\n[](https://discord.com/invite/WdDJ3tru9)\n</div>\n## What is Ephemeral Sandbox?\nEphemeral Sandbox is open-source agent infrastructure for running parallel\ncoding agents against the same codebase. Each agent works through an isolated\nworkspace session inside one shared sandbox, then publishes a reviewable change\nset.\nAs agent sandbox infrastructure for a multi-agent system, Ephemeral Sandbox\ngives every coding agent an isolated workspace session without duplicating the\nunderlying sandbox or forcing agents into one mutable checkout.\nThis repository contains the headless Rust core: gateway, manager, daemon,\nruntime, observability, CLI, and MCP components. The browser UI and its backend\nlive in the separate\n[Ephemeral Sandbox Console](https://github.com/Ephemeral-AI-Lab/ephemeral-sandbox-console)\nrepository.\n## Why use an ephemeral sandbox for coding agents?\n- **Work in parallel.** Run multiple coding agents at the same time.\n- **Stay isolated.** Give every agent a private writable workspace session over\n  one stable project base.\n- **Scale an agent sandbox.** Run an agent swarm in one shared sandbox while\n  each coding agent keeps its own workspace session.\n- **Publish with confidence.** Inspect activity and change provenance before\n  publishing a complete resolved change set.\nEphemeral Sandbox provides workspace isolation for cooperating coding agents.\nIt is not a hardened microVM boundary for mutually untrusted tenants. Read the\n[agent sandbox security model](https://ephemeral-sandbox.com/agent-sandbox-security)\nbefore choosing a deployment boundary.\n## Quick start\nChoose your host OS. Docker must already be installed and reachable. For full\ncommands, CLI verification, an",
+   "Ephemeral-AI-Lab/dsh-plugins": "# 🧩 Mayfly / DSH Plugin Marketplace\n<p align=\"center\">\n</p>\n<p align=\"center\">\n  The official plugin marketplace for <a href=\"https://github.com/Ephemeral-AI-Lab/mayfly\">Mayfly</a> and\n  <a href=\"https://github.com/deepseek-ai/deepseek-harness\">DeepSeek Harness (dsh)</a>:\n  Ephemeral AI Lab's own plugins (source in this repo), curated dsh optional\n  plugins, and community submissions.\n</p>\n<p align=\"center\">\n  <a href=\"./LICENSE\"></a>\n</p>\nTwo things live here:\n1. **`plugins/`** — the source of Ephemeral AI Lab's official plugins.\n2. **`registry/`** — the marketplace: one JSON manifest per listing. CI\n   aggregates them into [`dist/index.json`](./dist/index.json), the document\n   Mayfly's `/plugin` command and the website catalog consume.\n## ⚡ Installing plugins\nIn Mayfly (TUI):\n```\n/plugin                 # browse, search, inspect, install, remove\n/plugin install <id>    # e.g. /plugin install loop\n```\nOr with the dsh CLI directly (works for any profile):\n```sh\n# npm source\ndsh plugin --profile mayfly add @deepseek-ai/dsh-terminal-bash @deepseek-ai/dsh-tool-terminal\n# GitHub source (monorepo subdirectories work; pinned refs preferred)\ndsh plugin --profile mayfly add 'github:Ephemeral-AI-Lab/dsh-plugins#main&path:plugins/loop'\n```\nRestart the profile and start a new session after installing. Entries with\n`activation: profile-patch` additionally need their rows in the profile's\n`cordis.patch.yml` — the `/plugin` command does this for you; see\n[docs/market.md](./docs/market.md#activation) for the manual path.\n## 📦 Current listings\n| id | source | surfaces | what it adds |\n| --- | --- | --- | --- |\n| [`codex-terminal`](./registry/official/codex-terminal.json) | official | server | Codex-style persistent shell: `exec_command` / `write_stdin` |\n| [`loop`](./registry/official/loop.json) | official | server · web | Recurring prompts & alarms: `loop_*` tools, `/loop`, Web panel |\n| [`mock`](./registry/official/mock.json) | official | server · web | Deterministic mock model turns: `/mock run` / `replay` (unstable) |\n| [`sessions`](./registry/official/sessions.json) | official | server | Multi-session orchestration: `session_status/create/send` tools |\n| [`coding-plan`](.",
+   "Ephemeral-AI-Lab/mayfly": "# Mayfly\n<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"website/public/brand/banner-dark.svg\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"website/public/brand/banner-light.svg\">\n  </picture>\n</p>\n[](https://github.com/Ephemeral-AI-Lab/mayfly/actions/workflows/ci.yml)\n[](https://www.npmjs.com/package/@ephemeral-ai/mayfly)\n[](https://www.npmjs.com/package/@ephemeral-ai/mayfly)\n[](#install)\n[](#install)\n[](LICENSE)\nEnglish | [中文](README.zh.md)\nMayfly is an interactive terminal UI for\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) —\nan out-of-tree Cordis bundle over `dsh-base`, built against Harness\n`0.2.1-rc.2`. Mayfly `0.1.4-rc.1` deliberately uses the same plugin model\nas dsh Web: plugins are ordinary Cordis siblings and consume native dsh\nservices directly.\n- **Terminal-native rendering**: Markdown tables, closed Mermaid fences in\n  assistant messages, and renderer-neutral line, point, bar, sparkline, and\n  heatmap nodes — with width-safe source or text fallbacks.\n- **One activity block for live status**: the current step, turn elapsed\n  time, estimated token count, and output rate live above the editor, with a\n  notification row under them; the transcript records only what has happened.\n- **Side conversations**: `/btw` and the `/agents` subagent tree share the\n  transcript pane; `F7` returns to the previous conversation and `F8`\n  closes the displayed one.\n- **An ordinary plugin model**: consume `ctx.commands`,\n  `ctx.sessionProjections`, `ctx.tools`, and other documented dsh services\n  directly; UI contributions go through `mayflyPanes`, `mayflyStatus`,\n  `mayflyOverlays`, and `mayflyEditorExtensions`.\nThe activity block above the editor is the one place for live status: a glyph\nthat moves with the phase (blooming while the model thinks, filling while it\nwrites, a still `●` beside a running tool, breathing while it waits for you),\nthe current step (`Thinking`, `Running commands`), the turn's elapsed time, and\nthe estimated token count and output rate. Its second line holds a tip, or the\narguments of the calls in flight. The notification row under it shows the\nnotice to read no"
+  }
+ },
+ "apps": []
+}

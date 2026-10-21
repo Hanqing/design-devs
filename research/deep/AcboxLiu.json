@@ -1,0 +1,353 @@
+{
+ "handle": "AcboxLiu",
+ "sites": [
+  {
+   "url": "https://ac.box",
+   "ok": true,
+   "title": "Acbox",
+   "description": "Acbox — Developer · Open Source · 小箱子",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-CN",
+   "home_text": "Developer · Open Source · 小箱子",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "sheepbox8646",
+  "user": {
+   "name": "Acbox",
+   "company": "@felinics",
+   "blog": "https://ac.box",
+   "location": "Shanghai",
+   "bio": "Working Hard on @felinics ",
+   "public_repos": 56,
+   "followers": 747,
+   "created_at": "2021-02-06T05:59:38Z",
+   "twitter_username": "AcboxLiu",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "sheepbox8646/cloud-pvz",
+    "description": "Play Plants vs. Zombies in the browser with cloud-synced saves and a save editor.",
+    "stargazers_count": 17,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "https://pvz.ac.box",
+    "created_at": "2026-10-11T09:20:38Z",
+    "pushed_at": "2026-10-11T12:44:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/guideboard",
+    "description": "⬆️ Guideboard: 地铁站风格指示牌生成器",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-06-30T03:58:07Z",
+    "pushed_at": "2025-06-30T04:41:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/ChatTutor",
+    "description": "本项目已转移到 https://github.com/HugeCatLab/ChatTutor | This project has been transfer to https://github.com/HugeCatLab/ChatTutor",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "https://github.com/HugeCatLab/ChatTutor",
+    "created_at": "2025-11-21T18:23:50Z",
+    "pushed_at": "2025-11-21T18:25:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/pony-logos",
+    "description": "Make your logo as cute ponies!",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2024-05-17T17:42:28Z",
+    "pushed_at": "2024-05-18T08:11:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/agents-md-updater",
+    "description": "A reusable GitHub Workflow that uses Codex or Claude Code to keep your project's AGENTS.md (and/or CLAUDE.md) faithful to the current state of the codebase.",
+    "stargazers_count": 6,
+    "forks_count": 1,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2026-04-27T04:59:12Z",
+    "pushed_at": "2026-04-27T09:04:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/codex-complete-sound",
+    "description": "Play a completion sound when a Codex turn finishes",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2026-06-14T14:25:39Z",
+    "pushed_at": "2026-06-14T14:25:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/cvita",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-12-15T08:34:47Z",
+    "pushed_at": "2025-12-15T11:33:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/vue-string-compiler",
+    "description": "The inbrowser compiler of Vue that could compile vue string to a component without any building tools.",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-12-12T08:10:59Z",
+    "pushed_at": "2024-12-14T06:46:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/slides",
+    "description": "一些公开present的slide, Made with @slidevjs",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Vue",
+    "homepage": "",
+    "created_at": "2026-03-14T02:25:14Z",
+    "pushed_at": "2026-03-14T05:45:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/just-physics",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-05-15T05:11:46Z",
+    "pushed_at": "2024-05-15T12:52:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/best-practise-for-a-and-as-level",
+    "description": "Best Practise for AS & A Level: The practise book collected from A-level textbook, test paper and so on.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "",
+    "created_at": "2025-03-04T14:02:31Z",
+    "pushed_at": "2025-03-05T04:42:21Z",
+    "topics": [
+     "a-level",
+     "best-practices",
+     "ebook"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/blog",
+    "description": "Acbox 的新版 Blog Site (2025)",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2025-08-27T10:08:47Z",
+    "pushed_at": "2025-09-02T08:10:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/bookme",
+    "description": "📜 BookMe: Book a time to have a coffee with me with BookMe.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-03-06T03:57:45Z",
+    "pushed_at": "2025-03-06T03:57:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/destiny",
+    "description": "Destiny: 连接到这个世界上你想连接的任何人",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-03-09T17:21:22Z",
+    "pushed_at": "2025-03-09T19:34:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/PureMathCN",
+    "description": "Pearson Edexcel International A Level Pure Mathematics 中文翻译，更适合国内高中生学习的数学教材",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2024-06-13T07:47:52Z",
+    "pushed_at": "2024-06-13T09:06:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/app",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2024-08-18T04:49:13Z",
+    "pushed_at": "2024-08-18T06:06:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/canvaskit-wasm-docs",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2024-05-09T14:28:26Z",
+    "pushed_at": "2024-05-09T14:33:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sheepbox8646/chatting",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2023-02-10T13:29:23Z",
+    "pushed_at": "2023-02-10T13:29:24Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 29,
+  "languages": [
+   [
+    "TypeScript",
+    7
+   ],
+   [
+    "Vue",
+    5
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "CSS",
+    1
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "felinics/Memoh",
+    "stargazerCount": 2718,
+    "description": "✨ The open-source multi-agent platform. Every agent gets its own computer, desktop, network, and long-term memory.  You can bring your own key, or host your coding agent like Claude Code, Codex and so on.",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": "https://memoh.ai"
+   },
+   {
+    "nameWithOwner": "ohmygit-hub/ohmygithub",
+    "stargazerCount": 228,
+    "description": "🐱 An unofficial GitHub Desktop powering your work.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://oh-my-github.app"
+   },
+   {
+    "nameWithOwner": "felinics/twilight",
+    "stargazerCount": 64,
+    "description": "🌅 A lightweight, idiomatic AI SDK for Go",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "HugeCatLab/ChatTutor",
+    "stargazerCount": 1313,
+    "description": "👨‍🏫 ChatTutor: Visual and Interactive AI Tutor",
+    "primaryLanguage": {
+     "name": "Vue"
+    },
+    "homepageUrl": "https://chattutor.app"
+   },
+   {
+    "nameWithOwner": "moeru-ai/xsai",
+    "stargazerCount": 664,
+    "description": "🤖💬 AI SDK, extra small.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://xsai.js.org"
+   }
+  ],
+  "contrib_last_year": 3580,
+  "orgs": [
+   "dromara",
+   "wisupai",
+   "sciux-kit",
+   "HugeCatLab",
+   "felinics",
+   "ohmygit-hub"
+  ],
+  "profile_readme": "你好呀，我是Acbox! 你也可以叫我小箱子哦！\n\nHi. I'm Acbox (uwu)! You can also call me \"Acboxiiiy\"! Awww the name is so cute (awa)\n\n<a href=\"#stats\" align=\"center\">\n  <picture>\n    <source \n      srcset=\"https://github-readme-stats.vercel.app/api?username=sheepbox8646&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=github_dark&hide_border=true&bg_color=00000000\"\n      media=\"(prefers-color-scheme: dark)\"\n    />\n    <source\n      srcset=\"https://github-readme-stats.vercel.app/api?username=sheepbox8646&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=default&hide_border=true&bg_color=00000000\"\n      media=\"(prefers-color-scheme: light), (prefers-color-scheme: no-preference)\"\n    />\n    <img src=\"https://github-readme-stats.vercel.app/api?username=sheepbox8646&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=transparent\" />\n  </picture>\n</a>\n\n## ⚙️ Tech Stack\n\n[![My Skills](https://skillicons.dev/icons?i=ts,js,tailwind,go,python,react,vue,vite,nextjs,nuxtjs,nodejs,bun,deno,electron,elysia)](https://skillicons.dev)\n\n## ✈ Out of Code\n\n- 🚆🚇 交通迷\n- 🧤 MaimaiDX！\n- 💳 卡粉\n",
+  "readmes": {
+   "felinics/Memoh": "<div align=\"right\">\n  <span>[<a href=\"./README.md\">English</a>]<span>\n  </span>[<a href=\"./README_CN.md\">简体中文</a>]</span>\n  </span>[<a href=\"./README_JA.md\">日本語</a>]</span>\n</div>  \n<div align=\"center\">\n  <h1>Memoh</h1>\n  <p>Give every AI agent its own cloud computer. Open source.<br>\n  Desktop, browser, network, and long-term memory — always on, even when your laptop is closed.</p>\n  <div align=\"center\">\n    <a href=\"https://deepwiki.com/felinics/Memoh\">\n    </a>\n    <a href=\"https://t.me/memohai\">\n    </a>\n  </div>\n  <h3>\n    <a href=\"https://app.memoh.net\">Login</a> · <a href=\"#self-hosted\">Self-hosted</a> · <a href=\"https://docs.memoh.ai\">Docs</a> · <a href=\"https://memoh.ai\">Website</a> · <a href=\"https://x.com/memoh_ai\">X</a>\n  </h3>\n</div>\n## What is Memoh?\nMemoh is an open-source multi-agent platform. Each agent gets its own cloud computer — a dedicated workspace with a filesystem, desktop, browser, network, and long-term memory. Your agents stay online 24/7, even when your laptop is closed.\nUse your own API keys to run Memoh's built-in agent, or host your existing Claude Code and Codex agents inside Memoh workspaces.\nTalk to them through Telegram, Discord, Lark, WeChat, Web UI, and more. They remember context across sessions and platforms, drive a browser, call MCP tools, and run scheduled tasks. Run one for yourself, assign one to each team member, or spin up a fleet.\n## Get Started\n### Memoh Cloud\nYou can now sign up or log in directly at [app.memoh.net](https://app.memoh.net).\n### Self-hosted\nSelf-host the full stack on your own infrastructure.\n```bash\ncurl -fsSL https://memoh.sh | sh\n```\n<details>\n<summary><strong>More deployment options</strong></summary>\nManual deployment:\n```bash\ngit clone --depth 1 --recurse-submodules --shallow-submodules https://github.com/felinics/Memoh.git\ncd Memoh\ncp conf/app.docker.toml config.toml\n# Edit config.toml\nexport MEMOH_INTERNAL_RPC_SHARED_SECRET=\"$(openssl rand -hex 32)\"\ndocker compose up -d\n```\nThe Compose stack runs Server and Channel as separate services. Keep the internal RPC secret private and use the same value whenever the stack is recreated.\nIn split deployments, Channel streams media through authenticat",
+   "ohmygit-hub/ohmygithub": "<div align=\"right\">\n  <span>[<a href=\"./README.md\">English</a>]<span>\n  </span>[<a href=\"./README_CN.md\">简体中文</a>]</span>\n</div>  \n<div align=\"center\">\n<h1>Oh My GitHub</h1>\n<p><em>An unofficial GitHub Desktop powering your work.</em></p>\n<p>\n  <a href=\"https://oh-my-github.app/\">\n  </a>\n  &nbsp;\n  <a href=\"https://t.me/ohmygithub\">\n  </a>\n</p>\n<video src=\"./packages/web/src/assets/gallery/output.mp4\" controls autoplay muted loop playsinline width=\"900\"></video>\n</div>\n## About\nOh My GitHub is a modern, minimalist desktop app for GitHub. Every entry point\nlives in the sidebar, so you can move between notifications, pull requests,\nreviews, issues, and actions seamlessly — no constant page reloads, no piling up\nbrowser tabs.\n## Features\n- **A clean, powerful overview** — every feature is one click away in the sidebar: no new tabs, no reloads, no waiting for pages to load. Open the app and see your whole repository at a glance.\n- **Silky-smooth lists** — browse Pull Requests, Issues, and Actions at a glance. Filter, open, and act in one fluid motion — every interaction feels instant.\n- **Instant previews in the right panel** — preview any file without leaving where you are: source code, rich content, and full diffs render right in the panel — review a PR's changes at a glance.\n- **Actions, live** — follow every workflow run in real time: job progress, step status, and full logs stream in as they happen — no refreshing required.\n- **Bookmark anything** — pin any page to your sidebar bookmarks, so the repos, PRs, and views you care about are always one click away.\n- **Make it yours** — pick from a range of themes and styles, then go further with custom fonts and code block styling — until it looks exactly the way you like.\n- **Switch accounts in a snap** — sign in with multiple GitHub accounts and jump between them instantly — work and personal, always within reach.\n## Download\nGrab the latest build for your platform from the\n[**download page**](https://oh-my-github.app/).\n## Feedback\nThis repository is the home for **issues and feedback**. Found a bug or have an\nidea? [Open an issue](https://github.com/ohmygit-hub/ohmygithub/issues) or join\nthe conversation on [Tele",
+   "felinics/twilight": "# Twilight AI\nA lightweight, idiomatic AI SDK for Go — inspired by [Vercel AI SDK](https://sdk.vercel.ai/).\n[](https://pkg.go.dev/github.com/felinics/twilight)\n[](LICENSE)\n## Features\n- **One call, one result** — `Model.Generate` and `Model.Stream` take an `sdk.Request` and return a `ModelResult` or a stream of typed parts. `Embed`, `EmbedMany`, `GenerateImage`, `EditImage`, `GenerateVideo`, `GenerateSpeech` and `StreamSpeech` cover the other modalities\n- **Provider-agnostic** — swap between OpenAI, Anthropic, Google, GitHub Copilot, Edge TTS, or any OpenAI-compatible endpoint\n- **Model discovery** — `ListModels` fetches available models, `Test` checks provider connectivity and model support\n- **Tool calling** — describe tools with `ToolDefinition` (or infer the schema from a Go struct with `NewToolDefinition[T]`); the model's calls come back as typed `ToolCall`s with `ToolArguments`\n- **Streaming** — first-class channel-based streaming with fine-grained `StreamPart` types\n- **Rich message types** — text, images, files, reasoning content, tool calls/results\n- **Embeddings** — generate embeddings with `Embed` / `EmbedMany`, supports OpenAI and Google providers\n- **Image generation** — generate and edit images with `GenerateImage` / `EditImage`, supports OpenAI (dall-e, gpt-image) and Alibaba Cloud DashScope (Qwen-Image, Wan) models\n- **Video generation** — create, poll, and download video jobs with OpenRouter and Ark/ModelArk providers\n- **Speech synthesis** — generate speech with `GenerateSpeech` / `StreamSpeech`, supports Edge TTS with an open provider model\n## Installation\n```bash\ngo get github.com/felinics/twilight\n```\nRequires **Go 1.25+**.\n## Quick Start\n### Generate Text (Chat Completions API)\n```go\npackage main\nimport (\n    \"context\"\n    \"fmt\"\n    \"log\"\n    \"github.com/felinics/twilight/provider/openai/completions\"\n    \"github.com/felinics/twilight/sdk\"\n)\nfunc main() {\n    provider := completions.New(\n        completions.WithAPIKey(\"sk-...\"),\n    )\n    model := provider.ChatModel(\"gpt-4o-mini\")\n    result, err := model.Generate(context.Background(), sdk.Request{\n        Messages: []sdk.Message{\n            sdk.UserMessage(\"Explain Go channels in 3 sentenc",
+   "HugeCatLab/ChatTutor": "<div align=\"right\">\n  <span>[<a href=\"./README.md\">English</a>]<span>\n  </span>[<a href=\"./README_CN.md\">简体中文</a>]</span>\n</div>  \n<div align=\"center\">\n  <h1>ChatTutor</h1>\n  <p>Visual and Interactive AI Tutor</p>\n  <div align=\"center\">\n  </div>\n</div>\n---\n> [!NOTE]\n>\n> Online Website: ChatTutor is available at [https://chattutor.app](https://chattutor.app), please set your own API key and models in the settings. ([https://chattutor.app/settings](https://chattutor.app/settings))\nChatTutor is an AI teacher equipped with the ability to use an electronic whiteboard.\nTraditional chatbots interact with users primarily through text, which is sufficient in most scenarios. However, with the development of LLM in recent years, more and more people are using AI to assist their learning. In a real-world classroom, teachers have many teaching tools—chalk, computers, blackboards, and other teaching aids—that help students better understand knowledge. But for a chatbot, text can convey very limited information, especially in STEM subjects.\nChatTutor effectively solves this problem by bringing all the teaching tools used in real-world educational scenarios to the forefront, allowing users to interact with them through electronic devices. We've empowered AI with the ability to use these tools, enabling AI to become a truly hands-on teacher.\n## Features\n##### Math Canvas\n<table>\n  <tr>\n    <td>\n    </td>\n    <td>\n    </td>\n  </tr>\n  <tr>\n    <td>\n    </td>\n    <td>\n    </td>\n  </tr>\n</table>\n##### Mindmap\n<table>\n  <tr>\n    <td>\n    </td>\n    <td>\n    </td>\n  </tr>\n</table>\n## Quick Start\n<details><summary>Environment Variables</summary>\n### Database Configuration\n- `DATABASE_URL`: PostgreSQL connection string\n### Server & Client\n- `VITE_API_BASE_URL`: Base URL for the API server (e.g., `http://localhost:8002`)\n- `CLINET_BASE_URL`: Base URL for the client application (e.g., `http://localhost:8001`)\n### AI Configuration\n- `MODEL_API_KEY`: Your API key for the AI service (e.g., `your_api_key_here`)\n- `MODEL_BASE_URL`: Base URL for the AI service (optional, defaults to OpenAI)\n- `AGENT_MODEL`: Model for the main agent that chats with users (e.g., `gpt-4`)\n- `AGENT_MODEL_PROVIDER`: ",
+   "moeru-ai/xsai": "<div align=\"center\">\n# xsAI\n**AI SDK, extra small.**\nOne shape for every model. Web standards, nothing else.\n<!-- automd:badges name=\"xsai\" provider=\"badgen\" color=\"gray\" license packagephobia -->\n[](https://npmjs.com/package/xsai)\n[](https://npm.chart.dev/xsai)\n[](https://packagephobia.com/result?p=xsai)\n[](https://github.com/moeru-ai/xsai/blob/main/LICENSE)\n<!-- /automd -->\n[Documentation](https://xsai.js.org) | [Getting started](https://xsai.js.org/getting-started) | [Choose packages](https://xsai.js.org/packages)\n</div>\n## Quick start\n<!-- automd:file src=\"/docs/snippets/xsai.md\" -->\n```sh\npnpm add xsai\n```\n```ts\nimport { generateText, responses } from 'xsai'\nconst model = responses({\n  apiKey: process.env.OPENAI_API_KEY,\n  baseURL: 'https://api.openai.com/v1/',\n  model: 'gpt-6-luna',\n})\nconst { text } = await generateText(model, { input: 'Say hello.' })\nconsole.log(text)\n```\n<!-- /automd -->\nStreaming uses the same model. Each event is a typed `TextEvent` in a standard `ReadableStream`:\n```ts\nimport { streamText } from 'xsai'\nconst { result, stream } = streamText(model, { input: 'Describe a quiet forest.' })\nfor await (const event of stream) {\n  if (event.type === 'text.delta')\n    process.stdout.write(event.delta)\n}\nawait result\n```\n## Why xsAI\n- **Small parts.** Each package does one job. Every package is an ES module with no side effects, so your bundler removes the code that you do not use.\n- **A model belongs to a protocol, not to a provider.** One adapter covers every service that speaks the same protocol. Change the service, keep your code.\n- **Web standards.** `fetch`, `ReadableStream`, `AbortSignal`, and `FormData`. The source imports no Node.js module. Replace `fetch` to add a proxy, a test double, or your own retries.\n- **Typed from end to end.** Options, results, events, and tool inputs have TypeScript types. Schemas follow [Standard Schema](https://standardschema.dev), so you can keep the validation library that you already use.\n## One adapter per protocol\nxsAI does not ship a package for each provider. It ships an adapter for each protocol, and many services and gateways speak at least one of them.\n| Protocol | Package | Factory |\n| --- | --- "
+  }
+ },
+ "apps": []
+}

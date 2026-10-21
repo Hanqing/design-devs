@@ -1,0 +1,458 @@
+{
+ "handle": "ThaddeusJiang",
+ "sites": [
+  {
+   "url": "https://thaddeusjiang.com",
+   "ok": true,
+   "title": "ThaddeusJiang | freelance developer in Japan",
+   "description": "",
+   "stack": [
+    "TiddlyWiki",
+    "Google Analytics"
+   ],
+   "hosting": [],
+   "lang": "zh",
+   "home_text": "ThaddeusJiang \nI’m a freelance web developer based in Japan. \nFull Cycle Developer \nBusiness \nArchitecture \nCoding \nTesting \nDeploying \nMonitoring \nOthers \nExperience & Skills \nBuilt global supply chains SaaS, Online shop, HR system, EV charging service, and more. \nExperienced in frontend and backend development, focusing on improving developer experience, performance, and tech stacks selection. \nComfortable working in both large and small teams. \nConnects \n GitHub@ThaddeusJiang",
+   "github_links": [
+    "ThaddeusJiang"
+   ],
+   "subpages": {
+    "https://thaddeusjiang.com/blog.html": "Tech Blog 应该由 AI 编写 \n在 AI 时代，代码是 AI 写的，调研也是 AI 做的，人类只做了产品级别的决策，如什么该做什么不该做的话，那么今后技术类的文章就应该由 AI 来编写。即使你认为自己发现了一些技术上的细节值得写下来，值得分享出来，其实那也是 AI 发现的，跟人类没有关系。如果内容是 AI 发现的，那为什么人类插手文章的编写和分享呢？ \n Codex terminal 无法使用 jj、thefuck 等全局工具 \n问题：Codex terminal 无法使用 jj、thefuck 等全局工具。 \n 20260907 PostgreSQL 更新环境变量不会自动更新 database password \n我曾以为在 zeabur dashboard 更新环境变量并重启服务就会自动更新 database password，我天真了。😅 \n 20260828 当 GitHub Actions 配额耗尽：我如何用 gh-signoff 把 iOS CI 搬回本地 \n 20260828 使用 XState 实现 EffectTS 宣称的特性，并保持 TS 语法 \n 20260522 拥抱 git worktree \n 20260521 为什么我没有尝试 GitHub 的替代品 \n 20260119 使用 mise 替代 just \n 2025-12-18 修复 Ruby LSP 无法启动 \n 2025-12-09 使用 justfile 近似实现 fuser \n 2025-12-04 fix npm -g install \n 2025-12-03 zeabur custom domain 配置笔记 \n 2025-12-01 终于配置了 1password cli \n 2025-09-06 停止使用硬编码多语言翻译 \n 2025-08-29 vibe coding 让我重新“慢了”下来 \n 2025-08-13 JS 过度编译的问题 \n 2025-04-04 形式主义的敏捷开发 \n 2025-03-31 UI Development something \n 2025-02-23 LiveView 异常处理 \n 2025-02-21 同时使用多种编程语言写代码的痛 \n 2025-01-07 refactorex \n 2024-10-23 My Second Photos \n 2024-09-30 I Analyzed My Browser History \n 2024-09-25 Just use PostgreSQL \n 2024-09-18 JS wretch \n 2024-09-09 I built Save_it \n 2024-09-02 Prisma 事务和并行不可兼得 \n 2024-08-30 CSS: 调整 select 默认展开符 \n 2024-07-12 js 实现 snake_case 转 camelCase \n 2024-05-08 关于 MVP 我的认知改变了 \n 2024-04-11 Remix 改变了我编写 dialog 的方式 \n 2024-03-12 JS REPL become useful \n 2024-03-09 第 n 次复习 GenServer \n 2024-02-22 TypeScript Enum 错误示例和解决方案 \n 2024-01-31 Why I love Erlang \n 2024-01-11 TypeScript 最烦人，也最简单的 error \n 2023-12-18 软件开发“白痴指数” \n 2023-12-07 Install vs Copy \n 2023-11-14 ISO 8601 \n 2023-10-27 最烂的代码 \n 2023-10-13 关于 Code 我的一些改变 \n 2023-10-12 Nest.js Validation Tips \n 2023-08-24 JS/TS number 格格不入 \n 2023-08-22 TypeScript error handling \n 2023-05-24 Next.js 真的适合你的项目吗 \n 2023-05-16 真的不要再使用 MUI 了 \n 2023-03-25 软件开发技能与机动车驾驶技能 \n 2023-03-13 能够自主编程的 AI 出现以后，还需要程序员吗？ \n 2023-02-16 读《从字体开始 设计改变的生活与社会》 \n 2023-02-08 改变 React Component Props 类型定义的习惯 \n 2023-01-16 turborepo .env 竟然不是开箱即用的 \n 2023-01-13 Say Goodbye to ../../../ \n 2022-11-28 TIL: TailwindCSS 扫描第三方 library \n 2022-11-21 我很少使用 Enum \n 2022-11-15 monorepo vs. multi-repo \n 2022-11-14 product components vs. common components \n 2022-11-13 阅读《宽表为什么横行》 \n 2022-11-07 分享 2022下期技术雷达 \n 2022-10-26 如何像 Amazon 的工程师一样开会？ \n 2022-10-19 推荐几本软件行业的经典书籍 \n 2022-10-13 Accessible SVG \n 2022-08-04 E011-既可以马拉松，也可以百米冲刺 \n 2022-07-06 E010-bugs什么时候修复？features值不值得做？ \n 2022-06-23 create-react-app 项目 micro-frontends 对应 \n 2022-06-22 E009-我是怎么选择 library 的？ \n 2022-06-02 E007-年轻人不是想摸鱼，前辈不是想说教 \n 2022-06-02 E006-分享一些 frontend 相关的工作记录 \n 2022-05-30 Smoke testing FAQ \n 2022-05-28 E005-日本明星 SaaS 企业 SmartHR \n 2022-05-20 E004-朋友是积累下来的 \n 2022-05-19 Testing-FAQ \n 2022-05-13 E003-你有简单恐惧症吗 \n 2022-05-05 E002-假期请好好休息 \n 2022-04-29 E001-初次见面，请多关照 \n 2022-04-27 《Scenario-Focused Engineering》读后感 \n 2022-03-27 读《俞军产品方法论》 \n 2022-03-14 DevOps 三级进化 \n 2022-03-10 计划转行做【产品经理】了 \n 2021-12-28 Phoenix test は css を無視した \n 2021-12-28 My failure in 2021 \n 2021-12-05 How To Test Frontend \n 2021-10-18 聊聊 start-up(小公司) 招聘工程师 \n 20"
+   },
+   "feed": {
+    "url": "https://thaddeusjiang.com/rss.xml",
+    "count_seen": 3,
+    "items": [
+     {
+      "title": "TypeScript 类型体操",
+      "date": "Mon, 23 June 2025 3:3:17 ",
+      "url": "https://thaddeusjiang.com/typescript-lei-xing-ti-cao"
+     },
+     {
+      "title": "Tech Blog 应该由 AI 编写",
+      "date": "Mon, 7 September 2026 9:2",
+      "url": "https://thaddeusjiang.com/tech-blog-ying-gai-you-ai-bian-xie"
+     },
+     {
+      "title": "Codex terminal 无法使用 jj、thefuck 等全局工具",
+      "date": "Tue, 8 September 2026 7:5",
+      "url": "https://thaddeusjiang.com/codex-terminal-wu-fa-shi-yong-jj-thefuck-deng-quan-ju-gong-ju"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "ThaddeusJiang",
+  "user": {
+   "name": "天海 原 / AMAMI Hara",
+   "company": "Freelancer",
+   "blog": "https://thaddeusjiang.com/",
+   "location": "Japan",
+   "bio": null,
+   "public_repos": 114,
+   "followers": 223,
+   "created_at": "2016-02-18T04:52:00Z",
+   "twitter_username": "ThaddeusJiang",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "ThaddeusJiang/AIer",
+    "description": "Train AI with your own data, for PKM, Second Brain and etc.",
+    "stargazers_count": 29,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "https://aier.vercel.app/",
+    "created_at": "2023-03-17T00:56:24Z",
+    "pushed_at": "2024-05-07T03:54:18Z",
+    "topics": [
+     "ai",
+     "gpt-4",
+     "nextjs",
+     "pkm",
+     "react",
+     "second-brain",
+     "stripe",
+     "supabase"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "ThaddeusJiang/react-sortable-list",
+    "description": "Focus on what you want to build, not the drag-and-drop UI.",
+    "stargazers_count": 25,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2022-04-12T08:10:09Z",
+    "pushed_at": "2024-10-09T07:33:51Z",
+    "topics": [
+     "reactjs"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/DevOps",
+    "description": "Out-of-the-box DevOps kit for startups.",
+    "stargazers_count": 18,
+    "forks_count": 2,
+    "language": "HCL",
+    "homepage": "",
+    "created_at": "2021-11-25T12:58:12Z",
+    "pushed_at": "2025-01-21T01:20:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/inamori-kazuo-gpt",
+    "description": "稲盛和夫 GPT と会話しませんか",
+    "stargazers_count": 17,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://inamori-kazuo-gpt.vercel.app",
+    "created_at": "2023-03-10T04:05:17Z",
+    "pushed_at": "2023-03-16T12:17:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/chr",
+    "description": "The commands history report CLI",
+    "stargazers_count": 16,
+    "forks_count": 3,
+    "language": "Elixir",
+    "homepage": "https://hexdocs.pm/chr",
+    "created_at": "2022-12-28T13:38:46Z",
+    "pushed_at": "2024-03-09T06:16:33Z",
+    "topics": [
+     "cli",
+     "elixir"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "ThaddeusJiang/save_it",
+    "description": "A Telegram bot that lets you easily save and search images and videos from the internet.",
+    "stargazers_count": 16,
+    "forks_count": 1,
+    "language": "Elixir",
+    "homepage": "",
+    "created_at": "2024-07-20T12:27:59Z",
+    "pushed_at": "2026-09-11T16:01:18Z",
+    "topics": [
+     "bot",
+     "image-downloader",
+     "image-search-engine",
+     "instagram",
+     "media-downloader",
+     "pinterest",
+     "telegram",
+     "video-download-tool",
+     "x-old-twitter"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/ZipcodeJP",
+    "description": "A RESTful API for searching Japan Address by Zipcode (日本郵便番号検索API)",
+    "stargazers_count": 12,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://zipcodejp.zeabur.app/",
+    "created_at": "2020-04-29T04:23:03Z",
+    "pushed_at": "2026-06-09T09:25:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/coding-skills",
+    "description": "Reusable coding skills for Codex, Claude Code, Cursor and others.",
+    "stargazers_count": 11,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "",
+    "created_at": "2022-06-30T00:47:14Z",
+    "pushed_at": "2026-09-27T09:42:46Z",
+    "topics": [
+     "api",
+     "backend",
+     "elixir",
+     "frontend",
+     "grpc",
+     "js",
+     "pubsub",
+     "restful-api",
+     "typescript",
+     "web"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/anki",
+    "description": "Importing the highlights of book from kindle into Anki",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "Elixir",
+    "homepage": "",
+    "created_at": "2019-10-27T10:21:57Z",
+    "pushed_at": "2019-10-28T13:56:01Z",
+    "topics": [
+     "anki",
+     "elixir",
+     "elixir-lang",
+     "kindle",
+     "kindle-highlights"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/omakase-ui",
+    "description": "refined UI components using daisyUI and Conform",
+    "stargazers_count": 9,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2022-06-15T01:43:32Z",
+    "pushed_at": "2023-02-01T12:06:32Z",
+    "topics": [
+     "components-library",
+     "daisy-ui",
+     "react-js",
+     "remix-run",
+     "tailwind-css"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/thaddeusjiang.github.io",
+    "description": "ThaddeusJiang's Digital Garden",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "https://thaddeusjiang.github.io/",
+    "created_at": "2020-04-18T12:02:54Z",
+    "pushed_at": "2026-09-08T07:58:46Z",
+    "topics": [
+     "blog",
+     "digital-garden",
+     "tiddlyjam",
+     "tiddlywiki"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/canaryd",
+    "description": null,
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "language": "Elixir",
+    "homepage": null,
+    "created_at": "2026-07-25T16:01:10Z",
+    "pushed_at": "2026-10-05T13:27:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/email-editor",
+    "description": "Free WYSIWYG email editor inspired by Resend",
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://email-editor.thaddeusjiang.dev",
+    "created_at": "2025-03-12T07:01:31Z",
+    "pushed_at": "2025-03-27T08:20:20Z",
+    "topics": [
+     "editorjs",
+     "email-editor",
+     "nextjs",
+     "react-email",
+     "reactjs"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/campcat",
+    "description": "キャンプ場予約情報監視 Bot",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://t.me/jp_higasi_camp",
+    "created_at": "2023-01-09T09:36:01Z",
+    "pushed_at": "2024-09-03T11:46:33Z",
+    "topics": [
+     "bot",
+     "crawler",
+     "telegram"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/full-stack-components",
+    "description": null,
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2023-01-18T12:21:40Z",
+    "pushed_at": "2023-01-20T09:42:50Z",
+    "topics": [
+     "tj-edu"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/jp_data",
+    "description": "Japan Data Services: 文字、郵便番号、金融機関、日付、人事など",
+    "stargazers_count": 5,
+    "forks_count": 1,
+    "language": "Elixir",
+    "homepage": "https://jp-data.fly.dev/api/v1/moji?q=日本語",
+    "created_at": "2023-01-13T12:21:08Z",
+    "pushed_at": "2023-02-28T13:03:38Z",
+    "topics": [
+     "elixir",
+     "japan",
+     "phx"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/aier_bot",
+    "description": "A telegram bot to sync messages to https://aier.app",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "Elixir",
+    "homepage": "",
+    "created_at": "2023-09-15T05:46:28Z",
+    "pushed_at": "2023-11-01T14:01:05Z",
+    "topics": [
+     "aier-app",
+     "telegram-bot"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ThaddeusJiang/chrome-extension-github-gist-search",
+    "description": "happy searching！🔍",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "https://chrome.google.com/webstore/detail/github-gist-search/mamcpimmmcfjddbnldmnbajnknjjdhkk",
+    "created_at": "2018-07-23T23:10:35Z",
+    "pushed_at": "2019-01-17T04:55:53Z",
+    "topics": [
+     "chrome-extension",
+     "gist",
+     "github",
+     "google",
+     "search"
+    ],
+    "archived": true
+   }
+  ],
+  "repo_count_nonfork": 88,
+  "languages": [
+   [
+    "TypeScript",
+    33
+   ],
+   [
+    "Elixir",
+    13
+   ],
+   [
+    "JavaScript",
+    13
+   ],
+   [
+    "Vue",
+    5
+   ],
+   [
+    "HTML",
+    3
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "HCL",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "ThaddeusJiang/Vmemo",
+    "stargazerCount": 2,
+    "description": "Visual memo app for every “wow” moment, no need to rack your brain for words.",
+    "primaryLanguage": {
+     "name": "Elixir"
+    },
+    "homepageUrl": "https://vmemo.app"
+   },
+   {
+    "nameWithOwner": "ThaddeusJiang/save_it",
+    "stargazerCount": 16,
+    "description": "A Telegram bot that lets you easily save and search images and videos from the internet.",
+    "primaryLanguage": {
+     "name": "Elixir"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "ThaddeusJiang/react-sortable-list",
+    "stargazerCount": 25,
+    "description": "Focus on what you want to build, not the drag-and-drop UI.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "ThaddeusJiang/Projectify",
+    "stargazerCount": 78,
+    "description": "Project management in TiddlyWiki",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://thaddeusjiang.github.io/Projectify/"
+   },
+   {
+    "nameWithOwner": "ThaddeusJiang/chr",
+    "stargazerCount": 16,
+    "description": "The commands history report CLI",
+    "primaryLanguage": {
+     "name": "Elixir"
+    },
+    "homepageUrl": "https://hexdocs.pm/chr"
+   },
+   {
+    "nameWithOwner": "ThaddeusJiang/AIer",
+    "stargazerCount": 29,
+    "description": "Train AI with your own data, for PKM, Second Brain and etc.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://aier.vercel.app/"
+   }
+  ],
+  "contrib_last_year": 16957,
+  "orgs": [],
+  "profile_readme": "# 👋 Hi\n\nI am **ThaddeusJiang**\n\nFreelance full-stack developer in Japan, 🤝 looking for opportunities.\n> 📧 thaddeusjiang[at]gmail.com\n\n* 🤘 Good at Web development, both frontend and backend, familiar with Database, MicroServices and Infrastructure.\n* 🙋‍♂️ Experienced in Software Architecture, having designed & implemented Ticket Booking, HR, IoT Systems and more.\n* 😁 Speak Japanese🇯🇵, English🇺🇸 and Chinese🇨🇳.\n\nPersonal Projects:\n\n* [save_it](https://github.com/ThaddeusJiang/save_it) - A Telegram bot that lets you easily save and search images and videos from the internet.\n* [Vmemo.app](https://vmemo.app) - Vision-Driven Memo App\n* [ZipcodeJP](https://github.com/ThaddeusJiang/ZipcodeJP) - 世界一番はやい郵便番号検索サービス\n* [AIer](https://github.com/ThaddeusJiang/AIer) `Archived` - Train AI with your own data, for PKM, Second Brain and etc.\n\nOther Projects:\n\n* [Oiwaii](https://oiwaii.taian-inc.com/) - All in One 婚礼システム\n* [Plugo](https://plugo.co.jp) - EV充電インフラのプラットフォーム\n* [SmartCompany](https://smartcompany.jp/) - クラウド人事システム\n* [teamLab Ticketing System](https://www.team-lab.com/ticket) - 時間制来館者システム\n* [Zenport](https://zenport.io) - グローバルサプライチェーンの全データを一括管理システム\n* [Insuite](https://www.insuite.jp) - 5000名以上の大企業に圧倒的な支持を受けるコミュニケーションプラットフォーム\n\nConnect with me:\n\n* Email: thaddeusjiang[at]gmail.com\n* X.com: https://x.com/ThaddeusJiang\n\nKnow more about me:\n\nAsk AI:\n\n```\nPlease introduce ThaddeusJiang\n```\n\nwebsite: https://thaddeusjiang.com\n\nThanks for visiting! 🙏\n",
+  "readmes": {
+   "ThaddeusJiang/Vmemo": "# Vmemo\n[](https://github.com/ThaddeusJiang/Vmemo/pkgs/container/vmemo)\n[](https://github.com/ThaddeusJiang/Vmemo/blob/main/LICENSE)\nVmemo is a visual memo app for capturing life with images, searching with AI, and reviewing moments quickly without writing long text notes.\n## Why Vmemo\nFor people who think and remember visually, image notes can be much more effective than text-only notes:\n- Visual notes strengthen long-term memory and make recall more vivid by helping you reconstruct the original scene and context.\n- A single image can express what is hard to put into words; when you do not know how to describe an idea, just upload an image and let AI extract key information automatically.\n## Features\n- Photo upload and management (multi-upload, drag-and-drop, paste).\n- AI-powered search (text and image similarity).\n- AI caption and OCR extraction.\n- API token management.\n- REST API for external integrations.\n- Responsive web UI for desktop and mobile.\n## Install Vmemo\n### Option 1: One-Click Self-Hosting on Zeabur\n[](https://zeabur.com/templates/H3EL85)\n### Option 2: Local Machine / Self-Hosting\n#### Docker Compose\n```bash\ncd docs/guides/self-hosting/local-machine\ncp .env.example .env\ndocker compose up -d\n```\nOpen:\n```text\nhttp://localhost:14000\n```\nCheck Typesense health:\n```bash\ncurl http://localhost:18108/health\n```\n#### Docker\nUse the published GHCR image when you already have PostgreSQL, Typesense, and required environment variables configured:\n```bash\ndocker run --rm -p 4000:4000 \\\n  --env-file .env \\\n  ghcr.io/thaddeusjiang/vmemo:latest\n```\nImage tags:\n```text\nghcr.io/thaddeusjiang/vmemo:latest\nghcr.io/thaddeusjiang/vmemo:stag\nghcr.io/thaddeusjiang/vmemo:<version>\n```\n## Integrations\n- Apple Shortcuts: [Setup guide](others/apple-shortcuts/README.md)\n- AI agent skill: [Setup guide](skills/README.md)\n## Documentation\n- [Self-hosting docs](docs/guides/self-hosting/README.md)\n- [Contributor guides](docs/guides/development/README.md)\n## Author\nCreated and maintained by [Thaddeus Jiang](https://github.com/ThaddeusJiang).\n",
+   "ThaddeusJiang/save_it": "# Save it\nA Telegram bot that lets you easily save and search images and videos from the internet.\n[](./LICENSE)\n[](https://deepwiki.com/ThaddeusJiang/save_it)\n<!-- DeepWiki badge generated by https://deepwiki.ryoppippi.com/ -->\n## Features\n- [x] Download and store images and videos from the internet\n- [x] Search images by semantic word\n- [x] Find images by image\n[](https://t.me/save_it_playground)\n## supported services\n- [x] https://x.com/\n- [x] https://www.pinterest.com/\n- [x] https://instagram.com/\n- [x] https://bad.news/\n- [ ] https://www.youtube.com/\n## Usage\n### Save \nJust send a link to the bot.\nhttps://github.com/user-attachments/assets/4a375cab-7124-44f3-994e-0cb026476d39\n### Search \nmessages:\n```\n/search cat\n/search dog\n/search girl\n/similar photo\n```\nWhen `/similar` finds matches, the bot sends `Similar photos found.` with the matching photos. Multiple matches are returned as a Telegram media group.\nhttps://github.com/user-attachments/assets/b0dedcc0-3305-42b2-8101-6b0b5d32f17a\n### Known limitations\n- `/search` can still return occasional false positives for short semantic queries such as `/search girl`. This is a known limitation of the current Typesense image embedding model, and `save_it` does not plan to solve it locally.\n## Self hosting\n## Option 1: One-Click for Zeabur \n[](https://zeabur.com/zh-CN/templates/FTAONK)\n## Option 2: Docker Compose\nFor X posts that require login or sensitive-content access, provide Cobalt cookies through a local ignored file:\n```json\n{\n  \"twitter\": [\n    \"auth_token=<token>; ct0=<csrf>\"\n  ]\n}\n```\nSave the file as `cobalt-cookies.json` at the repository root before starting Docker Compose.\n```sh\ndocker-compose --profile prod up -d\n```\n## Development\nLocal development commands are available as Mix aliases:\n```sh\nmix setup   # deps.get + ts.migrate\nmix dev     # run the bot with iex --no-halt\nmix reset   # remove local runtime data directory (`data`)\n```\n## Build with\n- [Elixir](https://elixir-lang.org/)\n- [ex_gram](https://github.com/rockneurotiko/ex_gram) a powerful Elixir library for building Telegram Bots.\n- [cobalt](https://github.com/imputnet/cobalt) a media downloader.\n- [ffmpeg](https://ffmpeg.org/) for HLS video",
+   "ThaddeusJiang/react-sortable-list": "# Welcome to @thaddeusjiang/react-sortable-list 👋\nYou should focus the `features` of your app, not DnD boilerplate.\n[](https://www.npmjs.com/package/@thaddeusjiang/react-sortable-list)\n[](https://github.com/thaddeusjiang/react-sortable-list#readme)\n[](https://github.com/thaddeusjiang/react-sortable-list/graphs/commit-activity)\n[](https://github.com/thaddeusjiang/react-sortable-list/blob/dev/LICENSE)\n[](https://twitter.com/ThaddeusJiang)\n## Features\n- [x] Easy Drag & Drop sort items\n- [x] Both [Render Props](https://reactjs.org/docs/render-props.html) and [Children](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)\n- [x] Custom Drag Handler\n- [x] Horizontal Sortable List\n### 🏠 [Homepage](https://github.com/ThaddeusJiang/react-sortable-list#readme)\n## Install\n```sh\nnpm install @thaddeusjiang/react-sortable-list\n```\n## Usage\n## Usage\nif you don't use [Tailwind CSS](https://tailwindcss.com/)\n```ts\nimport { SortableList } from '@thaddeusjiang/react-sortable-list';\nimport '@thaddeusjiang/react-sortable-list/dist/index.css';\n<SortableList ... />\n```\nif you use [Tailwind CSS](https://tailwindcss.com/)\n```ts\nimport { SortableList } from '@thaddeusjiang/react-sortable-list';\n<SortableList ...>\n```\nmodify tailwind.config.js\n```diff\n// tailwind.config.js\n+ const path = require(\"path\");\nmodule.exports = {\n  content: [\n    \"./src/**/*{js,ts,jsx,tsx}\",\n+    path.join(\n+      require.resolve(\"@thaddeusjiang/react-sortable-list\"),\n+      \"../**/*.{js,ts,jsx,tsx}\"\n+    ),\n  ],\n  theme: {},\n  plugins: [],\n};\n```\n### Use Case: ItemRender\n```jsx\nexport const ItemRenderExample: React.VFC = () => {\n  const [items, setItems] = useState<SortableItemProps[]>([\n    { id: '1', name: 'Item 1' },\n    { id: '2', name: 'Item 2' },\n    { id: '3', name: 'Item 3' },\n  ]);\n  return (\n    <SortableList\n      items={items}\n      setItems={setItems}\n      itemRender={({ item }: ItemRenderProps) => (\n        <div className=\"w-1/2 h-10 m-8 bg-blue-400 text-center\">\n          {item.name}\n        </div>\n      )}\n    />\n  );\n};\n```\n### Use Case: Children\n```jsx\nexport const ChildrenExample: React.VFC = () => {\n  const [items, setItems] = useState<SortableItemProps[]>([\n    { id: '1', name: 'Item",
+   "ThaddeusJiang/Projectify": "<h1 class=\"\">Projectify</h1><p>Projectify is a project management app for <a class=\"tc-tiddlylink-external\" href=\"https://tiddlywiki.com\" rel=\"noopener noreferrer\" target=\"_blank\">TiddlyWiki</a>, inspired by products like <a class=\"tc-tiddlylink-external\" href=\"https://todoist.com\" rel=\"noopener noreferrer\" target=\"_blank\">Todoist</a> and <a class=\"tc-tiddlylink-external\" href=\"https://basecamp.com\" rel=\"noopener noreferrer\" target=\"_blank\">Basecamp</a>.</p><p><a class=\"tc-tiddlylink-external\" href=\"https://tiddlywiki.com\" rel=\"noopener noreferrer\" target=\"_blank\">TiddlyWiki</a> is an excellent note-taking &amp; knowledge-base app with <a class=\"tc-tiddlylink-external\" href=\"https://tiddlywiki.com/#TiddlyWiki\" rel=\"noopener noreferrer\" target=\"_blank\">unique features</a>. Projectify brings project management to TiddlyWiki, extending it to let you <a class=\"tc-tiddlylink tc-tiddlylink-shadow\" href=\"https://thaddeusjiang.github.io/Projectify/demo.html#%24%3A%2Fplugins%2Fnico%2Fprojectify%2Fdoc%2FInbox\">capture thoughts</a>, <a class=\"tc-tiddlylink tc-tiddlylink-shadow\" href=\"https://thaddeusjiang.github.io/Projectify/demo.html#%24%3A%2Fplugins%2Fnico%2Fprojectify%2Fdoc%2FProjects\">plan projects</a> and <a class=\"tc-tiddlylink tc-tiddlylink-shadow\" href=\"https://thaddeusjiang.github.io/Projectify/demo.html#%24%3A%2Fplugins%2Fnico%2Fprojectify%2Fdoc%2FSchedule\">schedule tasks</a>.</p><p>Projectify is carefully crafted, with an intuitive interface that integrates seamlessy with the core of TiddlyWiki. <a class=\"tc-tiddlylink-external\" href=\"https://tiddlywiki.com/#Drag%20and%20Drop\" rel=\"noopener noreferrer\" target=\"_blank\">Drag and drop </a> any tiddler into a project to add it as a todo, <a class=\"tc-tiddlylink-external\" href=\"https://tiddlywiki.com/#Transclusion\" rel=\"noopener noreferrer\" target=\"_blank\">transclude</a> and <a class=\"tc-tiddlylink-external\" href=\"https://tiddlywiki.com/#Linking%20in%20WikiText\" rel=\"noopener noreferrer\" target=\"_blank\">link</a> other tiddlers into projects or tasks.</p><p>For all changes in the latest 0.14.3 release, see <a class=\"tc-tiddlylink tc-tiddlylink-shadow\" href=\"https://thaddeusjiang.github.io/Projectify/demo.html#%24%3A%",
+   "ThaddeusJiang/chr": "# CHR\nCHR(Command History Report): A command history report tool base on your shell history file.\n[](https://hex.pm/packages/chr)\n[](https://twitter.com/ThaddeusJiang)\n> Inspired by the Fig report, this tool aims to provide a similar experience for those not using Fig.\n## Features\n> [!IMPORTANT]\n> CHR does not collect any data. It only processes the data in your shell history file.\n- 🏆Top Commands\n- 📂Top Directories\n- 💦Busiest Day\n- 📅Weekly Activity\n- 🕙Daily Activity\n## Install\nrequires Elixir to be installed\n```sh\nbrew install elixir\nmix escript.install hex chr\n```\n## Usage\n```\nchr\n```\n## Author\n👤 **Thaddeus Jiang**\n- Website: https://thaddeusjiang.com/\n- Twitter: [@ThaddeusJiang](https://twitter.com/ThaddeusJiang)\n- Github: [@ThaddeusJiang](https://github.com/ThaddeusJiang)\n## Acknowledgement\nThis has been possible due to the previous work of numerous people. In particular:\n- @borkdude - Author of babashka, thanks for helping me remove the manual data preparation requirement\n"
+  }
+ },
+ "apps": []
+}

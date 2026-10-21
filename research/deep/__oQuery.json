@@ -1,0 +1,562 @@
+{
+ "handle": "__oQuery",
+ "sites": [
+  {
+   "url": "https://innei.in",
+   "ok": true,
+   "title": "Innei",
+   "description": "Innei's personal blog on frontend and full-stack development —  TypeScript, React, Next.js, AI engineering, indie hacking, travel and life.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Next.js"
+   ],
+   "lang": "zh",
+   "home_text": "Innei \n Hi, I'm Innei 👋 \n I orchestrate ideas into products with ✦ AI Agents \nA product-minded engineer building interfaces, workflows, and tiny autonomous systems. \n「 当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。 」 \n 0 篇 · 0 万字 · 0 天 \nRecent Writing \n近期笔墨 \n 01 \n文章 · \n我的 AI Native iOS 开发验证工作流 \n 02 \n雨のち晴れ \n笔记 \n 03 \n用 Claude Code、Codex 和 Remotion 做一支《命运石之门》MV \n文章 · 折腾 \n 04 \n把 Electron 更新做快：我在 OTA 上的几次推倒重来 \n文章 · 技术 \n 05 \n一天原型，一周成品：开发 Lody iOS 实况 \n文章 · 技术 \n深秋叶丹 \n欢迎来信 \n留下印记 \n ♥ \n订阅通信 \n不错过每一纸书。 \n 朋友们 · 项目 · 一言 · 跃迁",
+   "github_links": [
+    "Innei",
+    "innei",
+    "mx-space"
+   ],
+   "subpages": {
+    "https://innei.in/posts": "Innei \nBlog \n文章 \n置顶 \nAI时代的效率悖论：当生产力提升反而带来疲惫 \n昨天看到了一篇文章，有关于AI是否使我们感觉到倦怠（https://siddhantkhare.com/writing/ai-fatigue-is-real）。这引发了我对过去几个月高强度 \n · 经历 / ai , productivity \n 搜索 全部标签 \n我的 AI Native iOS 开发验证工作流 \n过去一个多月我在写两个 iOS App：Lody-iOS，和一个旅行记账 App Nyatabi。代码大部分由 agent 写，我负责定需求和验收。这篇记录两个 \n · 技术 / Claude Code , Codex + 3 \n用 Claude Code、Codex 和 Remotion 做一支《命运石之门》MV \nhttps://steins-gate.pages.dev/song\n这支 MV 长 4 分 28 秒，1920×1080、30fps，BGM 是游戏版主题曲 \n · 折腾 / Claude Code , Codex + 2 \n把 Electron 更新做快：我在 OTA 上的几次推倒重来 \n其实对 Electron 这方面的更新，我也已经有过很长时间的探索了。\n最早是在做 Folo 的时候，我给它做过一套 renderer 层的 OTA。那套东西 \n · 技术 / Electron , LobeHub , OTA + 1 \n一天原型，一周成品：开发 Lody iOS 实况 \n我想在离开电脑的时候接着干活：让 Mac 上的 agent 跑一个改动，我在手机上看进度、回一句、批准它要确认的操作。\n试过的都不行。ChatGPT 手机端里 \n · 技术 / AI , iOS , React Native + 2 \n从纯 CSS 到 StyleX：AI 加持下的一万行 CSS 迁移实践 \n为什么大家都在讨论 StyleX\n最近这段日子，在 X 上面 Tailwind 和 StyleX 的话题讨论激烈。\n其引爆点是 Linear 正在从 sty \n · 技术 / AI 编程 , CSS , StyleX + 1 \nUIKitCore 逆向分析报告 \n记录 iOS 26.5/26.6 UIKitCore 中 navigation title 字体、双 Spring blur-in、scroll-edge pocket blur、Tab Bar 与 Segmented Control Liquid Lens 抬升参数、Navigation Bar 成组按钮 platter 几何，以及 iOS 27 scroll edge style 的四个私有单例。 \n · 折腾 / iOS 26 , iOS 27 + 4 \nAI 时代我的开发工作流：从踩坑复盘到多项目并行验证 \n前言\n对于技术文章来说，我已经很久没有写过了。我上一篇技术文章应该是发布在今年 4 月底的时候，我不写技术文章的原因，也是因为大部分值得写的内容，以前都是自己 \n · 折腾 \n复刻 macOS 红绿灯悬停菜单 \nmacOS Tahoe 的绿色窗口按钮会在悬停后显示窗口平铺宫格。自定义应用可以重新绘制这套界面，也可以触发 AppKit 已有的菜单管线。前者需要持续追随系统 \n · 折腾 / macOS , 逆向 , AppKit \nElectron Sparkle 更新器抽库：119 个测试之外的发布边界 \nelectron-sparkle-updater 发布时带有 119 个测试。终审发现的 Critical bug 没有一个发生在库自己的函数内部：npm 擅自 \n · 折腾 / Electron + 3 \n 搜索 \n 共 188 篇 \n 无 AI 写作 最新 最早 最近更新",
+    "https://innei.in/notes": "Innei \n 近况 \n 开心 w 2026年10月6日周二 \n雨のち晴れ \n上一篇手记停在 8 月底。之后这一个多月，大部分时间都在写 App，中间抽了十天，又去了一趟日本。离 6 月那次东京之行才过去三个月，果然出国是会上瘾的。 \n上一次 7 天基本上都在东京，别的地方也没去；这次在东京的时间就比较少，我们计划在东京落地之后待 2 到 3 天，就出发前往其他城市玩。 \n 雨里的关东 \n落地的第二天，天气下雨。在东京来到秋叶原，钻进了书店。我特别喜欢在另一个国家走进它的书店，虽然看不懂文字，但是能看到各种各样的文化，觉得很有意思。 \n这已经不是第一次来日本的书店了。有很大一片区域都是有关 AI 的书籍，日本虽然 IT 互联网没有国内那么发达，但是他们的 AI 教程类书籍非常之多。伴随着日本的特色文化，很多教程书都是以动漫的形式呈现。 \n 更早的手记 \nAnno \n2026 \n9 letter s \n24 \n八月 \n周二 \n8月25日周二 \n 深夜尘世 焦虑 \n午夜备忘：关于爱、自由与未来 \n作者分享一次失眠与首次相亲经历：双方恋爱经验少，聊天尴尬。他更想要灵魂共鸣，但相亲更多是现实条件的双向筛选。他认为现在以结婚为目标的相亲为时过早，自己仍困惑于工作与未来选择，也不想将就。AI 建议他不必急于结婚，而应通过真实亲密关系理解自己对伴侣与自由的需求；不必等到人生完全稳定，但当遇到喜欢的人时愿意让她参与选择。最终作者觉得想清楚前应当停下脚步。 \n Letter № 219 阅读全文 → \n04 \n八月 \n周三 \n8月5日周三 \n 深夜尘世 悲哀 \n在人间，各自流转 \n最近与朋友聊到就业市场：岗位多但合适的人难找，内推在AI时代更重要，个人影响力与能力是关键。我开通了Apple开发者账号，开始开发自己的应用。经历了一次相亲，流程形式化，对方事后不回消息，感觉缺乏真诚，认为婚恋市场也如职场寒冬，直接沟通更有效。 \n Letter № 218 阅读全文 → \n23 \n七月 \n周五 \n7月24日周五 \n 深夜尘世 \nAI 浪潮下的职业焦虑、产品实践与人生选择 \n自上次发文近一个月，我持续思考AI浪潮下的职业焦虑。虽借助AI大幅提升效率，但传统岗位替代风险增加，尤其缺乏对AI Agent等核心方向的理解并非业务需要，这需要更多自驱力去实践。我为此做了一个名为「観測」的市场研究工作台App。同时，对AI“百亿补贴”般的烧钱获客感到焦虑，担心未来无法负担费用，已对高级模型产生依赖和“戒断反应”。软件护城河在AI时代变得脆弱，产品想法和代码极易被复制，但这也可能导致性能和代码质量成为新刚需。最近拒绝了一个待遇翻倍的AI硬件创业机会，因不愿放弃远程工作、方向不完全契合且现状尚稳。我认为我们正身处一个关键的康波周期，虽感叹世界不公，但我只想赚能实现自我价值的钱。 \n Letter № 217 阅读全文 → \n28 \n六月 \n周日 \n6月28日周日 \n 深夜尘世 焦虑 \n在 AI 浪潮下，如何留在牌桌上 \n作者因与朋友交流而陷入职业焦虑，尤其在AI加速发展的背景下，对“前端工程师”的身份和未来价值产生怀疑。他认为单纯的前端技能正被AI取代，岗位界限模糊。核心焦虑在于如何留在“牌桌”上，而非仅会使用AI工具。他提出转型方向：成为能控制AI产出质量、设计可靠AI产品系统的“AI产品工程师”，并强调产品审美、工作流设计和个人品牌的重要性。此外，作者观察到AI热潮导致存储硬件价格翻倍上涨，并批评苹果公司借成本上涨之机大幅提价、两头牟利的贪婪行为，同时庆幸自己此前购买的Mac设备在涨价后显得“理财成功”。 \n Letter № 216 阅读全文 → \n13 \n六月 \n周六 \n6月13日周六 \n 游记 多云转台风 开心 \n第一次东京：迟到 26 年的旅行 \n作者在26岁时开启了第二次出国旅行，目的地是日本。这次旅行决定突然，行程随性。八天旅程中，作者体验了东京的轨道交通、电动滑板车，品尝了拉面、烧鸟、汤咖喱等美食。游览了东京站、东京塔、浅草寺、秋叶原、迪士尼海洋、涩谷等地，期间经历了红眼航班延误、相机摔落、抽到凶签等小波折。作者观察到日本商业区围绕车站发展、智能马桶普及等社会细节，并在秋叶原深度体验了二次元文化。尽管留下一些遗憾，但整体体验良好，作者已计划再次前往。 \n Letter № 215 阅读全文 → \n25 \n五月 \n周二 \n5月26日周二 \n 深夜尘世 阴 悲哀 \n当生活被AI占满后，我开始思考孤独与爱情 \n作者生活被AI充斥，深感枯燥。他踏入社会四年未恋爱，渴望又恐惧亲密关系，因性格与社交圈狭小，排斥相亲，对自由恋爱感到绝望。他回忆与两位女性同学的交流，均因不对等付出而失败。通过详细分析近期与一位初中女同学的互动，发现对方早已声明不恋爱，自己只是单向付出，关系冷化。最终意识到应将精力投向真正关心自己的人，而非消耗在不值得的关系中。 \n Letter № 214 阅读全文 → \n05 \n五月 \n周三 \n5月6日周三 \n 近况 \n代码与多巴胺：我的 AI 造物月志 \n作者反思AI带来的创造快感与焦虑。过去一个月，他用AI重构了技术栈，并创建了Slack AI Agent Kagura。同时，借助AI快速将Mix Space后端从MongoDB迁移到Postgres，但这也引发了工程隐患，如测试不足和Bug。尽管如此，作者认为创造快感压倒焦虑，会继续用AI实现想法。 \n Letter № 213 阅读全文 → \n19 \n四月 \n周一 \n4月20日周一 \n 深夜尘世 \n长不大的孩子 \n作者反思一生中因冲动犯下的错误，导致人际关系破裂，无法挽回。对“朋友”定义的困惑贯穿始终，从初中好友到工作老板。两次被裁员经历引发自我价值质疑，通过写作留下痕迹却引发冲突。情绪管理困难，易冲动犯错，常陷入内耗。最终，作者接受自己的矛盾与真实。 \n Letter № 212 阅读全文 → \n05 \n四月 \n周一 \n4月6日周一 \n 近况 \n26y：健康、AI行业变化与自我反思 \n作者工作三年多，感叹时间飞逝，健康检查显示甲状腺结节、脂肪肝等问题，作息混乱难以改变。AI工作中，使用Claude Code和Codex等工具，行业变化快，迭代加速但质量下降。参加上海活动感觉无聊。与大学同学重逢，讨论相亲困难，看电影《我，许可》后反思自我实现、传统观念和活出勇气。 \n Letter № 211 阅读全文 →",
+    "https://innei.in/timeline": "Site Owner Avatar\n[Innei](https://innei.in/en)\n化萤\n*   [Home](https://innei.in/en)\n*   [Posts](https://innei.in/en/posts?view_mode=compact)\n*   [Notes](https://innei.in/en/notes)\n*   [Timeline](https://innei.in/en/timeline)\n*   [Thinking](https://innei.in/en/thinking)\n*   [More](https://innei.in/timeline#)\nTimeline\nRelaxed Dense Skim\nSearch\n384 posts, Keep it up\n2 2 9 9 4 4\nDay of Year\n8 0 8 1 1%\nYear Progress\n5 0 5 6 6.0 0 8 0 8%\nToday Progress\nLive in the present, cherish the moment\n2026 40 posts this year\nOCTOBER\n[09 How I Verify AI-Native iOS Development Technology · Post](https://innei.in/en/posts/tech/ai-native-ios-e2e-verification)[05 Rain, Then Sun Mood: Happy · Note](https://innei.in/en/notes/2026/10/5/ame-nochi-hare)\nSEPTEMBER\n[30 Making a Steins;Gate Music Video with Claude Code, Codex, and Remotion Tinkering · Post](https://innei.in/en/posts/tinkering/steins-gate-mv-with-claude-code)[29 Making Electron Updates Fast: The Times I Tore Down and Rebuilt My OTA Update System Technology · Post](https://innei.in/en/posts/tech/electron-ota-updater)[12 Prototype in a Day, Shipped in a Week: Building Lody iOS in Live Technology · Post](https://innei.in/en/posts/tech/lody-ios-prototype-to-product)\nAUGUST\n[30 From Pure CSS to StyleX: Migrating 10,000 Lines of CSS with AI Technology · Post](https://innei.in/en/posts/tech/css-to-stylex-migration)[24 Midnight Notes: On Love, Freedom, and the Future Mood: Anxious · Note](https://innei.in/en/notes/2026/8/24/midnight-memo-love-freed…)[23 UIKitCore 逆向分析报告 Tinkering · Post](https://innei.in/en/posts/tinkering/uikitcore-reverse-engine…)[16 My Development Workflow in the Age of AI: From Debugging Post-Mortems to Parallel Verification Tinkering · Post](https://innei.in/en/posts/tinkering/ai-era-dev-workflow-revi…)[04 Circulating Through Life Mood: Sorrowful · Note](https://innei.in/en/notes/2026/8/4/drifting-through-the-world)[03 Recreating the macOS Traffic Light Hover Menu Tinkering · Post](https://innei.in/en/posts/tinkering/macos-zoom-button-hover-menu)\nJULY\n[23 Career Anxiety, Product Experiments, and Life Choices in the Age of AI Note](https://innei.in/en/notes/2026/7/23/ai-wave-career-anxiety-p…)[18 Extracting the electron-sparkle-updater Library: Release Boundaries Beyond 119 Tests Tinkering · Post](https://innei.in/en/posts/tinkering/electron-sparkle-updater…)[07 Cloudflare Edge Canary Releases: Bucket HTML Before Caching, Decouple Hashed Assets from Traffic Splits Technology · Post](https://innei.in/en/posts/tech/cloudflare-edge-canary-html-c…)[06 Don't Let 404s Wake Up Your Vercel Functions Technology · Post](https://innei.in/en/posts/tech/dont-let-404-wake-your-vercel…)[03 Migrating LobeHub Landing to React Router: Making SSR Depend Solely on the URL Technology · Post](https://innei.in/en/posts/tech/lobehub-landing-react-router-…)\nJUNE\n[28 How to Stay in the Game in the Age of AI Mood: Anxious · Note](https://innei.in/en/notes/2026/6/28/stay-in-the-game-in-the-ai-era)[16 LobeHub Electron's Persis",
+    "https://innei.in/projects": "Site Owner Avatar\n[Innei](https://innei.in/en)\n*   [Home](https://innei.in/en)\n*   [Posts](https://innei.in/en/posts?view_mode=compact)\n*   [Notes](https://innei.in/en/notes)\n*   [Timeline](https://innei.in/en/timeline)\n*   [Thinking](https://innei.in/en/thinking)\n*   [Projects](https://innei.in/projects#)\nA breath of wind awakens sleeping words.\n[Innei](https://innei.in/)\n0 0 reading now\nStay hungry. Stay foolish.\n© 2020-2026 Innei·printed 10/20/2026·[Mix Space↗](https://github.com/mx-space)·[余白 / Yohaku↗](https://github.com/Innei/Yohaku)·[Moe ICP Filing No. 20236136↗](https://icp.gov.moe/?keyword=20236136)\nAbout\n[About this site](https://innei.in/en/about-site)[About me](https://innei.in/en/about)[About the project↗](https://github.com/innei/Shiro)\nMore\n[Gallery↗](https://gallery.innei.in/)\nContact\n[Leave a message](https://innei.in/en/message)[Send email↗](mailto:i@innei.in)[GitHub↗](https://github.com/innei)\n[RSS Feed](https://innei.in/feed)·[Sitemap](https://innei.in/sitemap.xml)·Subscribe\nTheme Light·System·Dark Language E E n n g g l l i i s s h h Background effect O O n n\n[About this site](https://innei.in/en/about-site)·[About me](https://innei.in/en/about)·[About the project↗](https://github.com/innei/Shiro)·[Gallery↗](https://gallery.innei.in/)·[Leave a message](https://innei.in/en/message)·[Send email↗](mailto:i@innei.in)·[GitHub↗](https://github.com/innei)|[RSS Feed](https://innei.in/feed)·[Sitemap](https://innei.in/sitemap.xml)·Subscribe Theme Light·System·Dark·Language E E n n g g l l i i s s h h·Background effect O O n n",
+    "https://innei.in/about": "Innei \n自述 \n这是一份关于站长的报告，请查收 \n 稍候片刻，月出文自明。 \n使用社交账号登录 \n Loading... \n Loading... \n Loading... \n Loading... \n Loading... \n远方的朋友，很高兴能在这里与你相遇。首先，我得给你打个招呼。嘿，你好吗。 \n我是 Innei 。叫我 拾一 就行了，那么接下来我就从以下几个方面聊聊自己。 \n 人生就是不断地给自己贴上标签，或许我们并不需要这么多的标签。所以我把这些藏起来了。 \n 社会地位 \n 家里蹲废物 \n 性格属性 \n 内向&社恐 ，从小以来不擅长于他人交往，性格孤僻。因为从小与计算机结缘，特别热衷于计算机领域，从而失去了童年应该于其他小孩子一起玩耍的天性。最后造成了话题只局限于计算机领域，导致了交际能力弱，不擅长交流。即便是年龄的增长，也不知道自己的说的话对不对，无意间触碰到别人的感受。至此还是少说话为妙。“有社交恐惧的人其实不少是渴望和人交流的，但是他们怕尴尬，或者被伤害到，被看不起。当你打开了有社交恐惧的人的心结，当他们敞开心扉了，他们能比话痨还话痨。” \n 调停者/小蝴蝶 INFP-T ，MBTI16 人格中最敏感最内耗最废物。 大型纪录片《INFP-T传奇》\n 说的就是我了🥹 \n 专注者 ，对于一件热衷的事物，往往会废寝忘食。当然这只是一个比喻，事实上即使再喜欢的事情都不会影响的我睡眠的时间。而近些天，无非就是独立开发。独立开发总能让自己收获很多。 \n 沉思者 ，失落的时候总是能把思绪放到未来，感概未来，我却一事无成。是一个比较悲观的人，不会鼓励自己，却想着鼓励别人的反面人。高中阶段，开小差时往往会思考人生。 \n 某种意义上的赶时髦者 ，穿搭打扮毫无要求，只是在编程领域，反对过时特性，反对各种风格混搭派，追求现代设计风，喜欢自我设计，但却是个 UI 设计初心者。 \n 处于亚健康的体弱多病 ，从小不爱玩耍导致从小学以来体育一直处于班里倒数阶段，初中时期为了应付体育中考，是人生中体育体制巅峰期。大学时期一直处于废柴状态。 \n 简洁主义者 ，花里胡哨厌倦者，认为生活就应该简简单单，必要的生活物品，以及恰饭工具即可。简单即知足。 \n 某种意义上的换位思考者 ，以开发者的身份，站在普通用户的角度体验自己开发的东西，是否有存在的必要性，是否拥有良好的体验感，是否需要附加功能。 \n 兴趣爱好 \n 纯音乐爱好者 ，自 15 年入云村以来，迷上了以「Luv Letter」为首的纯音乐风格，但不限于钢琴，同样适用于小提琴、鼓点等。现代风欢快且不嘈杂的电音同样适用，典型的如同「China-X」。喜欢的音乐人： 邱有句 \n 兴趣变淡的二次元废柴 ，入宅时间长达 3 年（2016-），仍是一个看番极少的二次元 傻 luan ，入宅作为「CLANNAD」。看番的巅峰时期：高二，一周 3 - 4 部。类型：百合，战斗，后宫，日常，催泪。吹爆的番：「命运石之门」 \n 开源爱好者 ，已完成 GitHub 百天连击，喜欢独立开发，乐于做产品，有自己的开源项目，同时是一个开源贡献者。曾给明星开源项目： bytebase , blocksuite , naive-ui , xLog 等做过贡献。 \n 其他兴趣 ，日语， 画画 ，钢琴，喜欢折腾电子产品 (NAS、路由器、手机等设备) \n 现状 \n AI 指挥师 （25.4-），员工：Claude Code, CodeX, GitHub Copilot, Cursor, ChatGPT \n 设计开发者 （24.6-），技术栈：React, Radix, Framer Motion \n Node 全栈开发者 （19.4-），技术栈：Vue.js, React, NestJS, Fastify, MongoDB, prisma \n 准 iOS 开发者 （21.2-），技术栈 React Native, Swift UI \n 准准 UI 设计师 （N/A） \n梦想是成为 Design Engineer。 \n GitHub \n 名字由来 \n Innei \n||来源于罗马音，日文为 陰影 ，时间追溯到初中，曾经的自闭少年，最近几年使用英文名 Innei，读作 /ɪnni/。|| \n 拾一 \n 拾起，未来。把握未来，抓住机会的涵义。来源于命运石之门： “ \n 「0」が過去で「1」が未来「今」は何処にもない \n 寻 \n 来源于==『千与千寻』==，千寻被汤婆婆抹掉的单字「寻」。找到迷失的自我。 \n 亿夏 \n 来源于==『亿夏风铃』==-- 邱有句，阿里花名，因为想取的名字都被占用了，就选了一首比较柔和的纯音做名字了。 \n 域名 \n shizuri.net 、来源日语「しずかなもり／静かな森」 へ “ \n人间浮躁，尘世喧嚣。不曾想过去桃花源与世界隔绝的人间圣地，只想拥有一片属于自己的宁境。\n不曾去过森林，却想在森林中聆听大自然的声音，享受这一片宁静。 \n innei.in innei.ren innei.dev 私の名前、 https://innei.in へ \n 联系方式 \n @Innei \n Send Mail \nSW-1006-1241-1745 \nPSN innei-j \n9DAF 034F 2122 0A35 A312 5DDA 0F62 D339 77F0 21F7 \n 设备 \n 智能手机 \niPhone 12 \niPhone 17 \niPhone 18 Pro \n 笔记本电脑 \nMacBook Air (2026) \n 平板电脑 \niPad Pro 12.9 (2021) \n 台式电脑 \nMac Studio (2025) 128G \nMac Studio (2023) \n机械大师 C28 (13600KF + 4070Ti) \n 游戏主机 \nNintendo Switch (动物森友会限定版) \nPlayStation 5 \n 显示器 \nApple Studio Display \nKTC H27P22 Pro \n 键盘 \nKeychron K3 \nNuphy Air 75 \nNuphy Air 75 V3 \nNuphy Holo 75 V2 \n 鼠标与触控板 \nApple Magic Mouse 2 \nApple Magic Trackpad \n 音频设备 \nBeats Flex \nHomePod mini x2 \nAirPods 3 \n 智能手表 \nApple Watch Series 11 \n 流媒体设备 \nApple TV 4K（第三代） \n 相机 \n富士 X-T5 \n 桌面配件 \n乐歌升降桌 E2 \n米家显示器挂灯 \n西昊 C500 \n 栈 \n 可理解语言 （ ? 了解， ~ 熟悉， + 掌握， ++ 熟练， * 精通） \n加粗的代表常用，其他可能长期闲置导致遗忘。 \n已经遗忘的用穿越线表示。 \nC (2016.?) ~ \nVisual Basic (2016.?) ~ \n HTML (2018.9) ++ \n CSS (2018.9) ++ \n Markdown (2018.9) * \nPython3 (2019.12) + \nSQL (2019.2) + \n"
+   },
+   "feed": {
+    "url": "https://innei.in/feed",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "我的 AI Native iOS 开发验证工作流",
+      "date": "Fri, 09 Oct 2026 17:39:44",
+      "url": "https://innei.in/posts/tech/ai-native-ios-e2e-verification"
+     },
+     {
+      "title": "雨のち晴れ",
+      "date": "Mon, 05 Oct 2026 18:51:29",
+      "url": "https://innei.in/notes/220"
+     },
+     {
+      "title": "用 Claude Code、Codex 和 Remotion 做一支《命运石之门》MV",
+      "date": "Wed, 30 Sep 2026 11:20:26",
+      "url": "https://innei.in/posts/tinkering/steins-gate-mv-with-claude-code"
+     },
+     {
+      "title": "把 Electron 更新做快：我在 OTA 上的几次推倒重来",
+      "date": "Tue, 29 Sep 2026 15:24:21",
+      "url": "https://innei.in/posts/tech/electron-ota-updater"
+     },
+     {
+      "title": "一天原型，一周成品：开发 Lody iOS 实况",
+      "date": "Sat, 12 Sep 2026 19:11:45",
+      "url": "https://innei.in/posts/tech/lody-ios-prototype-to-product"
+     },
+     {
+      "title": "从纯 CSS 到 StyleX：AI 加持下的一万行 CSS 迁移实践",
+      "date": "Sun, 30 Aug 2026 08:45:43",
+      "url": "https://innei.in/posts/tech/css-to-stylex-migration"
+     },
+     {
+      "title": "午夜备忘：关于爱、自由与未来",
+      "date": "Mon, 24 Aug 2026 18:29:47",
+      "url": "https://innei.in/notes/219"
+     },
+     {
+      "title": "UIKitCore 逆向分析报告",
+      "date": "Sun, 23 Aug 2026 13:48:33",
+      "url": "https://innei.in/posts/tinkering/uikitcore-reverse-engineering-report"
+     },
+     {
+      "title": "AI 时代我的开发工作流：从踩坑复盘到多项目并行验证",
+      "date": "Sun, 16 Aug 2026 16:32:40",
+      "url": "https://innei.in/posts/tinkering/ai-era-dev-workflow-review-and-verify"
+     },
+     {
+      "title": "在人间，各自流转",
+      "date": "Tue, 04 Aug 2026 18:17:14",
+      "url": "https://innei.in/notes/218"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://nyatabi.app/",
+   "ok": true,
+   "title": "Nyatabi — your AI travel companion for iPhone",
+   "description": "Plan with Musubi, explore together, split spending fairly and turn your route into memories. Your whole journey, in one local-first iPhone app.",
+   "stack": [
+    "Google Fonts",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Your AI travel companion for iPhone \nTravel together.\nBring Musubi along. \nPlan each day, find your friends, keep the spending fair and bring your route home as a memory. Musubi is there on every page, ready for a message or a photo. \n Download on the App Store Follow one trip \n Two weeks before \nPlan in one sentence \nWhere, how long, who's coming. Musubi drafts the trip and a plan for each day. Nothing is saved until you tap Create. \n The night before \nBookings land on the right day \nPaste a flight or hotel confirmation, or a screenshot of one. It becomes a plan on Day 1, and the ticket cost goes into the ledger. \n Day 2 · 20:41 \nSnap the receipt, say the exception \nMusubi reads every line. Tell it who skipped what, and the split follows the items. \n Day 4 \nAsk from any page \nThe map, a day, the stats: every page has the same input bar, and Musubi answers about what you're looking at. \n Day 4 · 15:10 \nLost each other? One tap finds them \nDuring the trip, companions share where they are, and anyone can turn it off for this trip. You see their last spot; tap Locate and Nyatabi asks their iPhone for a fresh one. \n Back home \nSettle up, stamp it done \nMusubi works out who pays whom. Mark the transfers paid and the trip gets its 清 stamp: settled. \n A week later \nYour route, turned into a memory \nFootprint keeps your route on your iPhone. Replay it day by day, then turn your route, photos and spending into a recap video. Pro adds footprint recording, more replay styles, GPX/CSV track export and videos without the mascot watermark. \nPlan in one sentence \nWhere, how long, who's coming. Musubi drafts the trip and a plan for each day. Nothing is saved until you tap Create. \nBookings land on the right day \nPaste a flight or hotel confirmation, or a screenshot of one. It becomes a plan on Day 1, and the ticket cost goes into the ledger. \nSnap the receipt, say the exception \nMusubi reads every line. Tell it who skipped what, and the split follows the items. \nAsk from any page \nThe map, a day, the stats: every page has the same input bar, and Musubi answers about what you're looking at. \nLost each other? One tap finds them \nDuring the trip, companions share where they are, and anyone can turn it off for this trip. You see their last spot; tap Locate and Nyatabi asks their iPhone for a fresh one. \nSettle up, stamp it done \nMusubi works out who pays whom. Mark the transfers paid and the trip gets its 清 stamp: settled. \nYour route, turned into a memory \nFootprint keeps your route on your iPhone. Replay it day by day, then turn your route, photos and spending into a recap video. Pro adds footprint recording, more replay styles, GPX/CSV track export and videos without the mascot watermark. \nDaily life, too \nNot on a trip? Keep a daily ledger for coffee, groceries and the rent you split with housemates. Same input bar, same Musubi. \n Jot it down \"Coffee 520\" and it's in, with the right category. \n See the month This month's spending at a glance, by category. \n Split the flat Share a ledger with housemates and always know who owes whom. \nYour ledger lives on your iPhone \n Local first Every ledger is stored on your device and works offline. \n Cloud is your choice Private ledgers sync only when you enable Cloud Sync. Shared ledgers stay in step with the people you invite. \n AI when you ask Musubi sees what you send it. It asks before anything leaves your phone the first time. \n Delete means delete Delete your account from Settings at any time. Privacy policy \n Pricing \nYour next journey starts here \nPro is a travel companion that keeps growing with you. More room for your adventures, more time with Musubi, and more ways to make every journey your own. \nFree \n $0 \n Trip and daily ledgers, itineraries and expense maps \n Manual entry, fair splits, settlement and multiple currencies \n 2 active ledgers you create; completed ones do not count \n Join shared ledgers and invite companions free \n A one-time gift of AI points for planning, photo reading and chat \nPro \n $3 / month \nor $30 / year · short trip: $1.99 / week \nEverything in Free, plus the growing Pro travel experience \n AI points that refill during your subscription for chat, photo reading and nearby search \n Weekly is for short trips with a smaller AI allowance \n Unused allowance points do not roll over \n Renews automatically; cancel through Apple \n Advanced online place filters while subscribed \nApp Lifetime \n $14.99 / once \nNo recurring subscription \nThe growing local Pro travel toolk",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": [
+    "6816475346"
+   ]
+  }
+ ],
+ "github": {
+  "login": "Innei",
+  "user": {
+   "name": "Innei",
+   "company": "@lobehub",
+   "blog": "https://innei.in",
+   "location": "Vibing..",
+   "bio": "Digital Nomad. Design Engineer. Prompt Engineer. Making @mx-space @Afilmory @Torrent-Vibe @kansoku-trade @musubicho. Building @lobehub. Gen-Z",
+   "public_repos": 262,
+   "followers": 3500,
+   "created_at": "2018-07-15T13:52:30Z",
+   "twitter_username": "__oQuery",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "Innei/Shiro",
+    "description": "📜 A minimalist personal website embodying the purity of paper and freshness of snow.",
+    "stargazers_count": 4257,
+    "forks_count": 860,
+    "language": "TypeScript",
+    "homepage": "https://innei.in",
+    "created_at": "2023-03-14T12:47:43Z",
+    "pushed_at": "2026-10-17T22:06:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/lody-ios",
+    "description": "Independent iOS client for Lody — native chat, sessions, and coding-agent collaboration on iPhone",
+    "stargazers_count": 519,
+    "forks_count": 39,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-09-05T18:37:43Z",
+    "pushed_at": "2026-10-18T06:36:16Z",
+    "topics": [
+     "agent",
+     "coding-agent",
+     "collaboration",
+     "expo",
+     "ios",
+     "iphone",
+     "local-first",
+     "react-native",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/Typecho-Theme-Paul",
+    "description": "🎈 一个适用于展示，写日记的 Typecho 博客主题。",
+    "stargazers_count": 291,
+    "forks_count": 45,
+    "language": "PHP",
+    "homepage": "http://innei.ren",
+    "created_at": "2019-06-08T09:03:25Z",
+    "pushed_at": "2022-05-29T10:07:14Z",
+    "topics": [
+     "blog",
+     "diary",
+     "php",
+     "theme",
+     "typecho",
+     "typecho-theme"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "Innei/photo-gallery",
+    "description": "Capturing beautiful moments in life, documenting daily warmth and emotions through my lens.",
+    "stargazers_count": 214,
+    "forks_count": 14,
+    "language": "TypeScript",
+    "homepage": "https://gallery.innei.in/",
+    "created_at": "2025-05-24T17:13:01Z",
+    "pushed_at": "2025-06-05T06:10:10Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Innei/shuffle-article",
+    "description": "Shuffle text in the DOM while preserving visual rendering for lightweight copy protection.",
+    "stargazers_count": 214,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://shuffle-article.vercel.app",
+    "created_at": "2021-05-11T07:31:41Z",
+    "pushed_at": "2026-03-29T16:28:34Z",
+    "topics": [
+     "anti-copy",
+     "content-protection",
+     "copy-protection",
+     "dom",
+     "dom-manipulation",
+     "javascript",
+     "text-scramble",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/Yohaku",
+    "description": "余白 / Yohaku — A typographic design system for written content. One accent, three neutral tiers, the rest is whitespace.",
+    "stargazers_count": 201,
+    "forks_count": 16,
+    "language": "TypeScript",
+    "homepage": "https://yohaku.innei.dev",
+    "created_at": "2026-03-16T06:59:32Z",
+    "pushed_at": "2026-10-20T15:19:32Z",
+    "topics": [
+     "ai",
+     "blog",
+     "cms",
+     "design",
+     "design-system",
+     "mx-space",
+     "paper",
+     "shiro",
+     "tailwindcss",
+     "typography"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/electron-ipc-decorator",
+    "description": "A TypeScript-first decorator library that simplifies Electron IPC communication with type safety and automatic proxy generation",
+    "stargazers_count": 132,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-08-22T08:50:47Z",
+    "pushed_at": "2026-08-26T15:37:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/Pastel",
+    "description": "A comprehensive kawaii-inspired color system with OKLCH color space support, TypeScript definitions, and TailwindCSS v4 integration. Features a cute & kawaii aesthetic with soft, pastel tones.",
+    "stargazers_count": 90,
+    "forks_count": 8,
+    "language": "TypeScript",
+    "homepage": "https://pastel.innei.dev",
+    "created_at": "2025-07-13T08:52:57Z",
+    "pushed_at": "2026-10-20T17:15:13Z",
+    "topics": [
+     "color-scheme",
+     "oklch",
+     "palette",
+     "tailwindcss"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/SKILL",
+    "description": "This repository stores personal AI Agent  skills in a scalable directory layout.",
+    "stargazers_count": 90,
+    "forks_count": 2,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-04-02T05:10:30Z",
+    "pushed_at": "2026-10-20T19:07:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/windows-fonts",
+    "description": null,
+    "stargazers_count": 66,
+    "forks_count": 4,
+    "language": null,
+    "homepage": null,
+    "created_at": "2023-12-28T06:58:58Z",
+    "pushed_at": "2024-06-02T17:54:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/book-ssg-template",
+    "description": "Yet another template for document SSG.",
+    "stargazers_count": 65,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": "http://book-template.innei.in/",
+    "created_at": "2024-03-08T12:22:53Z",
+    "pushed_at": "2026-10-20T16:49:06Z",
+    "topics": [
+     "nextjs",
+     "ssg"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/Kagura",
+    "description": "A divine dance of AI in Slack — Kagura runs Claude Agent SDK and OpenAI Codex CLI natively in your workspace with thread-aware context, streaming UX, and persistent memory.",
+    "stargazers_count": 55,
+    "forks_count": 7,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-04-03T10:02:36Z",
+    "pushed_at": "2026-10-17T17:10:18Z",
+    "topics": [
+     "ai-agent",
+     "anthropic",
+     "claude",
+     "claude-agent-sdk",
+     "codex",
+     "mcp",
+     "slack",
+     "slack-app",
+     "slack-bot",
+     "socket-mode",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/dotfiles",
+    "description": "Innei's dotfiles. nvim, zsh, fzf, git, ideavim, ranger",
+    "stargazers_count": 50,
+    "forks_count": 6,
+    "language": "Vim Script",
+    "homepage": "",
+    "created_at": "2020-03-11T12:23:03Z",
+    "pushed_at": "2026-07-02T13:36:02Z",
+    "topics": [
+     "dotfiles",
+     "fzf",
+     "git",
+     "ideavim",
+     "neovim",
+     "nvim",
+     "ranger",
+     "rc",
+     "vim"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/rc-modal",
+    "description": "Beautifully designed Modal Component built with Radix UI and Tailwind CSS.",
+    "stargazers_count": 43,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "https://rc-modal.pages.dev",
+    "created_at": "2024-03-14T12:16:40Z",
+    "pushed_at": "2025-07-14T15:09:36Z",
+    "topics": [
+     "modal",
+     "react-components",
+     "sheet"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/zshrc",
+    "description": "one-key to configure zsh.",
+    "stargazers_count": 39,
+    "forks_count": 19,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2018-08-17T11:04:14Z",
+    "pushed_at": "2024-06-02T14:47:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/haklex",
+    "description": "AI-native Lexical rich text editor. Edit, render, SSR, and AI agent protocol (LiteXML) — all from one schema. React 19, TypeScript, Vanilla Extract, ESM.",
+    "stargazers_count": 38,
+    "forks_count": 6,
+    "language": "TypeScript",
+    "homepage": "https://haklex.innei.dev",
+    "created_at": "2026-03-07T07:00:10Z",
+    "pushed_at": "2026-10-20T14:44:08Z",
+    "topics": [
+     "ai",
+     "ai-agent",
+     "ai-editor",
+     "editor",
+     "haklex",
+     "lexical",
+     "llm",
+     "monorepo",
+     "react",
+     "rich-text-editor",
+     "typescript",
+     "vanilla-extract"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/bump-version",
+    "description": "A more useful and easy-to-use bump version cli.",
+    "stargazers_count": 37,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2021-10-02T14:59:55Z",
+    "pushed_at": "2026-10-20T21:07:33Z",
+    "topics": [
+     "bump-version",
+     "conventional-changelog",
+     "git",
+     "tags"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Innei/Innei",
+    "description": null,
+    "stargazers_count": 37,
+    "forks_count": 19,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2020-07-09T03:50:41Z",
+    "pushed_at": "2026-10-21T00:16:10Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 148,
+  "languages": [
+   [
+    "TypeScript",
+    58
+   ],
+   [
+    "JavaScript",
+    15
+   ],
+   [
+    "Swift",
+    12
+   ],
+   [
+    "Python",
+    11
+   ],
+   [
+    "Vue",
+    10
+   ],
+   [
+    "Shell",
+    8
+   ],
+   [
+    "CSS",
+    8
+   ],
+   [
+    "HTML",
+    4
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "Innei/Yohaku",
+    "stargazerCount": 201,
+    "description": "余白 / Yohaku — A typographic design system for written content. One accent, three neutral tiers, the rest is whitespace.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://yohaku.innei.dev"
+   },
+   {
+    "nameWithOwner": "kansoku-trade/kansoku",
+    "stargazerCount": 329,
+    "description": "AI Stock Partner on Your Mac – Local Market Information, Multi-timeframe K-line, AI Intraday Comments and Follow-up Analysis",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://kansoku.trade/"
+   },
+   {
+    "nameWithOwner": "Afilmory/afilmory",
+    "stargazerCount": 2659,
+    "description": "Modern photo gallery for photographers, with S3/GitHub sync, EXIF details, maps, and a WebGL viewer.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://afilmory.art"
+   },
+   {
+    "nameWithOwner": "Innei/lody-ios",
+    "stargazerCount": 519,
+    "description": "Independent iOS client for Lody — native chat, sessions, and coding-agent collaboration on iPhone",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "Torrent-Vibe/Torrent-Vibe",
+    "stargazerCount": 158,
+    "description": "Torrent Vibe, a modern, elegant web interface for qBittorrent that transforms your torrent management experience with enhanced performance, intuitive design, and cross-platform compatibility.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://qb-webui-site-inneis-projects.vercel.app"
+   },
+   {
+    "nameWithOwner": "lobehub/lobehub",
+    "stargazerCount": 83379,
+    "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://lobehub.com"
+   }
+  ],
+  "contrib_last_year": 19183,
+  "orgs": [
+   "apachecn",
+   "mx-space",
+   "HMUniversity",
+   "Crossbell-Box",
+   "reactify-component",
+   "jwcjs",
+   "lobehub",
+   "pf4n",
+   "ikun-svelte",
+   "innei-template"
+  ],
+  "profile_readme": "```bash\n$ whoami\ninnei — design engineer · digital nomad\nbuilding beautiful things with code\n\n$ echo $STACK\nTypeScript · React · Next.js · NestJS · Swift\n\n$ rank\n██████████ S\n```\n\n<p align=\"center\">\n  「<strong><samp> <strong>Ich bin bereit, zu sterben, bereit, wieder geboren zu werden.</strong> </samp></strong>」\n</p>\n\n<br />\n\n### Featured Work\n\n- **[Innei/Yohaku](https://github.com/Innei/Yohaku)** — 余白 / Yohaku — A typographic design system for written content. One accent, three neutral tiers, the rest is whitespace. ★201\n- **[Innei/lody-ios](https://github.com/Innei/lody-ios)** — Independent iOS client for Lody — native chat, sessions, and coding-agent collaboration on iPhone ★519\n- **[Afilmory/afilmory](https://github.com/Afilmory/afilmory)** — Modern photo gallery for photographers, with S3/GitHub sync, EXIF details, maps, and a WebGL viewer. ★2658\n- **[Torrent-Vibe/Torrent-Vibe](https://github.com/Torrent-Vibe/Torrent-Vibe)** — Torrent Vibe, a modern, elegant web interface for qBittorrent that transforms your torrent management experience with enhanced performance, intuitive design, and cross-platform compatibility. ★158\n- **[kansoku-trade/kansoku](https://github.com/kansoku-trade/kansoku)** — AI Stock Partner on Your Mac – Local Market Information, Multi-timeframe K-line, AI Intraday Comments and Follow-up Analysis ★329\n- **[lobehub/lobehub](https://github.com/lobehub/lobehub)** — 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team. ★83366\n\n### Recent Writing\n\n- [How I Verify AI-Native iOS Development](https://innei.in/posts/tech/ai-native-ios-e2e-verification) — 10/10/26\n- [Rain, Then Sun](https://innei.in/notes/220) — 10/6/26\n- [Making a Steins;Gate Music Video with Claude Code, Codex, and Remotion](https://innei.in/posts/tinkering/steins-gate-mv-with-claude-code) — 9/30/26\n- [Making Electron Updates Fast: The Times I Tore Down and Rebuilt My OTA Update System](https://innei.in/posts/tech/electron-ota-updater) — 9/29/26\n- [Prototype in a Day, Shipped in a Week: Building Lody iOS in Live](https://innei.in/posts/tech/lody-ios-prototype-to-product) — 9/13/26\n\n<br />\n\n<p align=\"center\">\n  <a href=\"https://github.com/sponsors/innei\">\n    <img src=\"./sponsorkit/sponsors.svg\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/innei\">GitHub</a> ·\n  <a href=\"https://twitter.com/__oQuery\">Twitter</a> ·\n  <a href=\"https://innei.in\">Blog</a>\n</p>\n\n<p align=\"right\">\n  <img src=\"./innei-signature.svg\" alt=\"innei\" width=\"160\" />\n</p>\n",
+  "readmes": {
+   "Innei/Yohaku": "<div align=\"center\">\n# 余白 / Yohaku\n_留白也是写作的一部分。_\n[在线体验](https://innei.in) · [设计系统](https://yohaku.innei.dev) · [iOS 源码](https://github.com/Innei/Yohaku) · [获取 Web 访问权限](https://github.com/sponsors/Innei)\n[简体中文](./README.md) · [English](./README.en.md) · [日本語](./README.ja.md)\n</div>\nYohaku 是一套面向个人写作的跨端出版产品。它以 [mx-core](https://github.com/mx-space/core) 为内容后端，在 Web 与 iOS 上统一呈现文章、手记、思考与时间线；界面退居其后，让文字、节奏与阅读本身成为主角。\n完整 Web 产品由早期的开源前端 [Shiro](https://github.com/Innei/Shiro) 演进而来，目前以闭源方式持续开发。本仓库公开 iOS 客户端与 Yohaku 设计系统。\n**这里就是 App Store 上那个 Yohaku iOS App 的完整源码**，以 MIT 开源。填上自己的 mx-core 地址、换掉 bundle id 与图标，你就能用自己的 Apple 开发者账号编译，并作为自己的 App 上架 App Store，不需要额外授权。\n> [!IMPORTANT]\n> 当前 Web 版本要求 **mx-core v12 或以上**。如需兼容 mx-core v11 及更早版本，请使用 [`721bb617`](https://github.com/Innei-dev/Yohaku/commit/721bb617db0dd1571751dbdf01cc6dfe74defedf)。\n## 产品构成\n| 层           | 职责                                                   | 开放状态                                                                          |\n| ------------ | ------------------------------------------------------ | --------------------------------------------------------------------------------- |\n| **Web**      | 响应式个人站、长文阅读与完整内容体验                   | 闭源维护于 [Innei-dev/Yohaku](https://github.com/Innei-dev/Yohaku)，线上实例为 [innei.in](https://innei.in) |\n| **iOS**      | 面向单一站点的原生阅读客户端，支持 iOS 18 或以上       | 本仓库 [`apps/mobile/`](./apps/mobile/)，[MIT 开源](./apps/mobile/LICENSE)，可自行编译上架 |\n| **设计系统** | 色彩、字体、间距、动效、模板与面向 AI 助手的 [AI Skill 契约](./design-system/SKILL.md) | [MIT 开源](./design-system)                                                       |\n| **内容服务** | 内容、评论、鉴权与实时数据                             | 基于 [mx-core](https://github.com/mx-space/core)，要求 v12 或以上                 |\n## 阅读体验\n| 原则           | 表现                                                                           |\n| -------------- | ------------------------------------------------------------------------------ |\n| **书写优先**   | 文章、手记、思考与时光拥有各自的叙事节奏，而不是被压进同一种信息卡片。         |\n| **纸面感**     | 浅色模式接近纸张的暖白，深色模式沉入暖灰；衬线标题与低密度排版为正文保留空间。 |\n| **克制交互**   | 单一强调色、三档中性层级与轻量反馈共同降低界面噪声。                           |\n| **呼吸式动效** | 内容随阅读进程自然展开；首次进入建立节奏，重复访问不制造额外打扰。             |\n| **跨端一致** ",
+   "kansoku-trade/kansoku": "<p align=\"center\">\n</p>\n# Kansoku\n> 装在你 Mac 上的能查账的 AI 看盘搭子——它说的每句话你都能查：每个结论挂着完整证据链，归档之后不许改口，事后按命中率记分。\n**Kansoku（観測）** 是一个 macOS 桌面应用：行情从你自己的长桥账户拉，指标全部本地实算，AI 用你自己配置的模型盯盘、答疑、改研究稿，结论落成本地文件。数据和 key 都不出你的机器。\nhttps://github.com/user-attachments/assets/3ab59426-a07b-432a-bc83-bce6f723effe\n## 下载安装\n去 [Releases](https://github.com/Innei/kansoku/releases) 下载最新 `desktop-v*` 版本的 `Kansoku-x.y.z-arm64.dmg`（macOS · Apple Silicon），拖进「应用程序」即可。应用内置 Sparkle 自动更新（EdDSA 签名 + 增量包），装一次就不用再回来手动下载。\n前置依赖：本机安装并登录 [longbridge CLI](https://open.longbridge.com/docs/cli/install)（行情和账户数据都走它）。应用当前没有付费开发者签名，首次打开需要右键 →「打开」，详见 [`apps/desktop/README.md`](./apps/desktop/README.md)。\n首次启动有引导：连上长桥数据，再选一个 AI 接入方式（本机 codex 登录态 / LobeHub Cloud / 自带 API key），也可以先跳过。\n## AI 能做什么\n**盘中自动点评，关掉图表还在巡检** —— 打开一只票，AI 结合多周期 K 线、形态标注和实时行情给出短线方向判断，以及 Bull/Base/Bear 三档情景推演（概率合计 100%，附触发条件）。开启跟进后，关掉图表它仍在后台按行情巡检，判断变了就通知你。右栏还带财报与宏观事件日历，页签在预测、环境、消息、复盘和 AI 点评之间切换。\n**追着分析问下去** —— 每份分析都能就地追问「凭什么」。面板浮在图上，可拖走、可缩放、可全屏。AI 会先读你的画线再结合实时行情回答；让它标关键价位时会直接画到图上（紫色虚线，悬停看说明），工具条可一键只清 AI 画的线。查了什么数据全程留痕，点开就是工具调用详情；答歪了随时停止，半截回答不会丢；空面板会先替你想好三个最该问的问题。已归档的预测是冻结记录，追问只解释、不改写。\n**研究库 AI 助手** —— 在应用里翻看和搜索本地的股票档案与研究日志，文档内直接对话提问。助手能提议改稿（采纳 / 拒绝 / 撤销），也能按信源刷新研究内容（制定计划 → 核查文档 → 检查市场 → 综合证据 → 生成提案），刷新结果、改稿提议、关联资料和历史记录都在同一条对话时间线里。\n**模型自由，key 不出机器** —— 盘中快评、升级分析、深度研究、追问四个用途各自选模型：跟随主模型、单独指定或停用。Provider 支持本机 codex 登录态（不额外收费）、LobeHub Cloud（登录即用）和自带 API key（openai / anthropic / google / deepseek），key 加密存本地 SQLite。\n## 看盘本体\nAI 之下是一套完整的本地看盘工具：\n- **多周期 K 线**（5m/15m/1h）打开时跟着行情实时刷新，叠加均线、MACD、形态标注和入场/止损/目标价位线。\n- **画线工具**：趋势线、多段线、水平线、矩形、斐波那契，可改颜色/粗细/虚线/箭头；样式预设画之前先调好，之后每条线自动带上。\n- **SEPA 策略仪表盘**：Minervini 趋势模板 8 条逐项打钩，长期均线价值区、成交密集区、52 周高低距离、RS 相对强弱（vs SPY）、量能比一屏呈现，自动给出 Buy / Watch List / Avoid 结论。\n- **盘面与复盘**：盘中看板和历史复盘随时段自动切换，可点的交易日时间线、判断与结果追踪、历史预测命中率、当日资金流向和 AI 花费流水。\n- **多市场**：美股为主，港股（`700.HK`）和 A 股（`600519.SH` / `000001.SZ`）已接入，交易时段、午休断档、时区显示按各自市场处理；美股专属能力在非美股代号上自动隐藏。\n- **桌面原生体验**：应用内标签页（⌘T 新开）、⌘K 命令面板、系统菜单、窗口状态记忆、盘前/盘后/夜盘实时推送、应用内自动更新。\n## 本地优先\n- 行情和账户数据从你自己的长桥账户拉，不经过任何中间服务器。\n- 均线、MACD、RS、趋势模板、成交分布、K 线形态、背离/背驰等指标全部在本机用 TypeScript 实算。\n- AI key 加密存在本地 SQLite；用哪个模型、花了多少钱，都在你自己的账上。\n- 分析结论和图表快照落成本地 markdown / JSON，随时可审计、可迁移。\n## 开发\n仓库根是 pnpm workspace，共享库与宿主分离：\n```text\npacka",
+   "Afilmory/afilmory": "<p align=\"center\">\n</p>\n# <p align=\"center\">Afilmory</p>\n<p align=\"center\">\n  <em>A modern, high-performance photo gallery platform for photographers</em>\n</p>\n<p align=\"center\">\n  <a href=\"https://afilmory.art/\">Official SaaS</a> •\n  <a href=\"https://docs.afilmory.art/\">Documentation</a> •\n  <a href=\"#-live-galleries\">Live Examples</a> •\n  <a href=\"#-self-hosting\">Self-Hosting</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://testflight.apple.com/join/ywnq5mns\">\n  </a>\n</p>\n---\n**Afilmory** (/əˈfɪlməri/, \"uh-FIL-muh-ree\") is a comprehensive photo gallery solution that combines **Auto Focus (AF)**, **Aperture** (light control), **Film** (vintage medium), and **Memory** (captured moments). Built with React + TypeScript, it offers automatic photo synchronization from multiple storage sources, a GPU-accelerated image viewer (WebGPU first, WebGL fallback) with HDR gain-map support, professional EXIF metadata display, and a native iOS companion app.\n## 🚀 Quick Start\n### Option 1: Official SaaS (Recommended)\n**👉 [Get Started at afilmory.art](https://afilmory.art/)** - Zero setup, live in minutes!\nThe easiest way to create your photo gallery. No deployment, no servers, no maintenance required.\n**Why Choose SaaS?**\n- ✅ **Zero Configuration** - Sign up and go live immediately\n- ✅ **Live CMS** - Edit photos, titles, and metadata in real-time\n- ✅ **Custom Domains** - Bind your own domain with DNS verification\n- ✅ **Auto Updates** - Always running the latest features\n- ✅ **Managed Infrastructure** - We handle scaling, backups, and maintenance\n[**Start Your Gallery Now →**](https://afilmory.art/)\n### Option 2: Self-Hosting\nFor developers who need full control over their deployment:\n**Docker (Recommended)**\n```bash\n# See our Docker deployment guide\nhttps://github.com/Afilmory/docker\n```\n**Manual Installation**\n```bash\n# 1. Clone and install\ngit clone https://github.com/Afilmory/Afilmory.git\ncd Afilmory\npnpm install\n# 2. Configure\ncp config.example.json config.json\ncp builder.config.default.ts builder.config.ts\n# Edit both files with your settings\n# 3. Build manifest and thumbnails\npnpm run build:manifest\n# 4. Start the application\npnpm dev\n```\nFor detailed self-hosting instructi",
+   "Innei/lody-ios": "<div align=\"center\">\n  <h1>Lody iOS</h1>\n  <p><b>Independent iOS Native Client</b> · AI Collaboration & Session Companion for Mobile</p>\n  <p>\n  </p>\n  <p>\n    <a href=\"https://testflight.apple.com/join/1rR6Ku8f\">\n    </a>\n  </p>\n</div>\nhttps://github.com/user-attachments/assets/0bc0ab48-6f12-44e9-ae13-07af9c6b780d\n---\n> [!IMPORTANT]\n> **This is a third-party project.** Lody iOS is an independent, community-maintained client. It is not affiliated with, endorsed by, or supported by the official Lody team. Report issues in this repository, not upstream.\n>\n> **The project is still under development.** It iterates quickly, so APIs, sync behavior, and UI may change without notice, and builds can be unstable or break existing sessions. Evaluate the risk yourself before relying on it.\n> [!IMPORTANT]\n> **本项目为第三方项目。** Lody iOS 由社区独立维护，与 Lody 官方团队无关，也不代表官方立场；本项目的问题请在本仓库反馈，不要提交给上游。\n>\n> **项目仍在开发中。** 迭代速度较快，接口、同步行为与界面可能随时调整，版本可能不稳定甚至破坏已有会话数据，请在评估风险后使用。\n---\n## TestFlight Beta\nInstall the current build on your iPhone through TestFlight:\n**<https://testflight.apple.com/join/1rR6Ku8f>**\nRequires iOS 26 or later. Beta builds track `main` and update automatically; they are pre-release and may be unstable, as described above.\n---\n## Overview\n**Lody iOS** is an independent open-source client crafted for iPhone, providing a lightweight and secure bridge between remote Lody services and local workspaces.\nThe project uses a hybrid architecture of **React Native + a deeply customized Swift native module (LodyKit)**. While preserving the rapid iteration advantages of declarative cross-platform UI, critical interactions (infinite chat collection, streaming text rendering, code diff highlighting, file tree, etc.) are built with native Swift and CoreText to deliver an authentic iOS system feel.\n---\n## How this was built\nLody iOS started as a one-day prototype and became a usable TestFlight client in about a week, driven by coding agents under tight product constraints: iOS only, one native kit module, system UI when React Native cannot meet HIG, and an offscreen WebView for Flock/Loro because official Node/CRDT packages do not bundle in Metro.\nThe full first-person write-up is **[Prototype ",
+   "Torrent-Vibe/Torrent-Vibe": "# Torrent Vibe - Modern qBittorrent Client\nA modern, elegant web interface for qBittorrent that transforms your torrent management experience with enhanced performance, intuitive design, and cross-platform compatibility.\n## What is Torrent Vibe?\nTorrent Vibe is an enhanced web interface designed to replace or complement the default qBittorrent WebUI. It provides a fresh, modern approach to torrent management while maintaining all the powerful features you expect from qBittorrent.\n## Download Application\nTry the latest application of Torrent Vibe to experience the modern features:\n[🚀 Go to Releases to Download Application](https://github.com/Torrent-Vibe/Torrent-Vibe/releases)\n### Alternative Web UI Setup\nTo use Torrent Vibe as an alternative web interface for your existing qBittorrent installation:\n1. **Download the Web Package**\n   - Go to the [Releases](https://github.com/Torrent-Vibe/Torrent-Vibe/releases) page\n   - Download the `Torrent.Vibe-X.X.X.X-web.tar.gz` file (where X.X.X.X is the version number)\n2. **Extract the Package**\n   - Extract the downloaded file to a location accessible by qBittorrent\n   - After extraction, you'll find a `public` directory containing the web interface files\n3. **Configure qBittorrent**\n   - Open qBittorrent and go to **Tools** → **Preferences**\n   - Navigate to the **Web UI** tab\n   - Check **\"Use alternative Web UI\"**\n   - Set the **Files location** to the path where you extracted the `public` directory\n   - Apply the settings and refresh the page\n## Key Features\n### 🎨 Modern Interface\n- Clean, intuitive design optimized for both desktop and mobile devices\n- Dark mode support for comfortable viewing in any lighting condition\n- Smooth animations and responsive interactions\n### ⚡ Real-time Monitoring\n- Live tracking of download and upload speeds\n- Real-time progress updates and detailed torrent statistics\n- Instant status notifications\n### 📁 Smart Organization\n- Advanced filtering and search capabilities\n- Category and tag management system\n- Customizable torrent organization tools\n### ⚙️ Advanced Controls\n- Fine-grained bandwidth control and scheduling\n- Complete qBittorrent preferences management\n- Enhanced torrent manipula"
+  }
+ },
+ "apps": [
+  {
+   "name": "Nyatabi: AI Travel Planner",
+   "artist": "Moeru AI",
+   "genre": "Travel",
+   "price": "Free",
+   "released": "2026-10-15",
+   "updated": "2026-10-20",
+   "version": "1.2.1",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/nyatabi-ai-travel-planner/id6816475346",
+   "desc": "A little trip, a lovely story. Nyatabi helps you plan the days, split the bills and keep the places you loved. Musubi, your AI travel companion, is right there on each page to lend a hand.\n\nPLAN IN ONE SENTENCE\nTell Musubi where, how long and who's coming. It drafts the trip and a plan for each day. Nothing is saved until you tap Create.\n\nBOOKINGS LAND ON THE RIGHT DAY\nPaste a flight or hotel confirmation, or a screenshot of one. It becomes a plan on the right day, and the cost goes into the ledger.\n\nSNAP THE RECEIPT, SAY THE EXCEPTION\nMusubi reads every line of a receipt. Tell it who skipped what, and the split follows the items. Spend in any currency; Nyatabi converts it for you.\n\nASK FROM ANY PAGE\nThe map, a day, the stats: Musubi answers about what you're looking at, and can suggest places nearby.\n\nFIND EACH OTHER\nDuring a trip, companions can share where they are. Anyone can turn it",
+   "country": "us"
+  }
+ ]
+}

@@ -2,184 +2,219 @@
  "name": "Lauren Tan",
  "role": "React Compiler 核心成员 · xAI 工程师",
  "title": "Lauren Tan：让开发者<em>忘掉 memo</em>的人",
- "dek": "从 Ember 与 Elixir 社区，到 Netflix、Meta 的 React 团队，再到 Cursor 和 xAI。poteto 主导推动的 React Compiler，让无数 React 开发者终于不用再手写 useMemo。",
- "card": "React Compiler 核心成员，hiring-without-whiteboards 发起人，前 Netflix / Meta / Cursor。",
+ "dek": "以 UI 设计师身份入行，经历过一次失败的创业，在 Netflix 从工程师做到工程经理，又主动辞去管理岗回去写代码；在 Meta 推动 React Compiler 从 Beta 走到 1.0，之后去了 Cursor 和 xAI。她发起的「不用白板面试的公司清单」有 5.3 万星。",
+ "card": "React Compiler 核心成员；hiring-without-whiteboards（★5.3 万）发起人；曾在 Netflix 任工程经理，后于 Meta、Cursor，现于 xAI。",
  "location": "美国加州橙县",
- "tags": [
-  "React",
-  "编译器",
-  "Agent",
-  "Ember",
-  "招聘"
- ],
+ "updated": "2026-10-21",
+ "tags": ["React", "编译器", "工程管理", "AI Agent", "Ember / Elixir"],
  "links": [
-  {
-   "label": "GitHub",
-   "url": "https://github.com/poteto"
-  },
-  {
-   "label": "React Compiler",
-   "url": "https://react.dev/learn/react-compiler"
-  },
-  {
-   "label": "pstack",
-   "url": "https://x.ai/bot/plugin/9717366?pstack"
-  }
+  {"label": "GitHub", "url": "https://github.com/poteto"},
+  {"label": "no.lol 博客", "url": "https://www.no.lol/"},
+  {"label": "React Compiler", "url": "https://react.dev/learn/react-compiler"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一位在 Ember、React 两大前端社区都留下重要足迹的工程师，React Compiler 核心团队成员，如今在 xAI 做 Grok 的编程 Agent。",
-  "<strong>代表作：</strong>React Compiler（与 Joe Savona、Mofei Zhang 等人一起在 2025 年 10 月发布 1.0）、hiring-without-whiteboards（★5 万+，列出不用白板面试的公司）。",
-  "<strong>为什么值得关注：</strong>她做的是让「正确的事」变成默认：编译器替你做记忆化，好的招聘流程被公开列出来，Agent 工作流讲究「先深后快」。"
+  "<strong>一句话：</strong>一位总在「把专家知识变成默认值」的工程师：React 的记忆化以前需要开发者理解引用相等、依赖数组和闭包陷阱，React Compiler 把这些知识放进了构建工具。",
+  "<strong>代表作：</strong>React Compiler（核心团队）、hiring-without-whiteboards（★52,826）、Ember 与 Elixir 时代的一系列插件和会议总结，以及 2026 年的 Agent 工具 how、noodle、brainmaxxing 和 Grok Bot 插件 pstack。",
+  "<strong>关键数字：</strong>X 关注者约 20.5 万；GitHub 粉丝 1.37 万，近一年贡献 22,148 次；所属 GitHub 组织包括 reactjs、anysphere（Cursor）和 xai-org。",
+  "<strong>看点：</strong>她在 2020 年写过一篇很坦诚的长文《Does It Spark Joy?》，讲自己为什么辞去 Netflix 工程经理、回去当工程师。"
  ],
- "lead": "poteto 的 GitHub 头像旁边写着一只小狗颜文字「▼・ᴥ・▼」。在这个可爱的签名背后，是一份横跨 Elixir、Ember、Relay、React Compiler 和 AI Agent 的硬核履历。",
+ "lead": "Lauren 在旧博客的自我介绍里写道：「我以 UI 设计师的身份进入科技行业，但把自己的设计亲手实现出来的诱惑实在太大了。」从那以后，她写过 Ember、Elixir、TypeScript、Rust，带过团队，也做过编译器，但一直没有离开「让别人的工作更轻松」这件事。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师；React Compiler 核心团队成员；GitHub 资料写「Software Engineer @xai-org」"],
+     ["所在地", "美国南加州（橙县）"],
+     ["经历", "UI 设计师 → 一家失败的创业公司（约 2 年）→ 软件工程师 → Netflix 工程经理 → Facebook / Meta（React、Relay）→ Cursor → xAI"],
+     ["代表作", "React Compiler、hiring-without-whiteboards、ember-crumbly、terraform（Elixir）、how、noodle、brainmaxxing、pstack"],
+     ["常用语言", "JavaScript / TypeScript、Elixir、Rust、Go、Python"],
+     ["关键数字", "X 关注者约 20.5 万；GitHub 粉丝 13,742；hiring-without-whiteboards ★52,826"],
+     ["写作", "个人博客 no.lol（2014–2020，用 Gatsby 搭建），主题覆盖 Ember、TypeScript、Elixir、领导力与面试"]
+    ]},
+    {"h3": "她到底在做什么？"},
+    {"p": "Lauren 的工作有两条并行的线。<strong>一条是基础设施：</strong>在 Meta 时她带头原型化 Server Components 并接入 Relay，后来投入 React Compiler（原名 React Forget），让组件和 Hook 在构建时被自动记忆化，开发者不用再手写 useMemo、useCallback 和 React.memo。"},
+    {"p": "<strong>另一条是「整理与分享」：</strong>为没能到场的人汇总 EmberConf、ElixirConf、RustConf 的全部演讲和资料；把「不做白板算法题面试的公司」列成清单；2026 年又把自己用 AI Agent 的方法写成一组 Skill 开源出来。"},
+    {"note": "本页依据 no.lol 博客、GitHub、react.dev 博客、React Conf 讲者介绍和各项目 README 整理，资料截至 2026 年 10 月。她在 Cursor 和 xAI 的具体工作内容未见公开细节，因此只写 GitHub 组织和 X 简介可以核实的部分。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2015–2016",
-       "title": "Ember 与 Elixir 社区",
-       "text": "在 Ember 社区非常活跃：写了 ember-crumbly 等插件，并为 EmberConf 2015/2016、ElixirConf 2016 整理了被广泛引用的会议总结。Elixir 插件 terraform 演示了如何把旧 API 渐进式迁移到 Phoenix。"
-      },
-      {
-       "when": "2017 前后",
-       "title": "Netflix",
-       "text": "在 Netflix 做 Web 工程（她的 X 简介里写着 prev netflix）。同年发起 hiring-without-whiteboards：一份「不用白板算法题面试」的公司清单，后来成为 GitHub 上最知名的招聘类仓库之一。"
-      },
-      {
-       "when": "Meta 时期",
-       "title": "Relay、Server Components 与工程管理",
-       "text": "在 Meta 带头原型化 Server Components，并在 Relay 的编译器和运行时中加入支持，之后转向工程管理（据 React Conf 讲者介绍）。"
-      },
-      {
-       "when": "2024–2025",
-       "title": "React Compiler",
-       "text": "React Conf 2024 演讲《Forget About Memo》介绍了原名 React Forget 的编译器：自动做记忆化，开发者不用再手写 useMemo / useCallback。2024 年 10 月发布 Beta，2025 年 10 月发布 1.0。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "Cursor → xAI",
-       "text": "短暂加入 Cursor 后，转到 xAI（GitHub 组织 @xai-org），参与 Grok 的编程 Agent，同时仍在 React Compiler 核心团队。2026 年开源了 noodle（用 Skill 编排 Agent）、how（解释架构的 Skill）、brainmaxxing（极简持久记忆）等 Agent 工具。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "入行", "title": "从 UI 设计师开始", "text": "据 no.lol 自述，她最初是 UI 设计师，因为想亲手实现自己的设计而转向编程。在成为职业工程师之前，她在一家最终失败的创业公司做了大约两年。"},
+     {"when": "2014", "title": "开始写博客", "text": "第一批文章几乎都是 Ember.js 实战技巧：拖放、视口检测、Slack 风格的加载提示。年底写下《My 2014 in Review — Or How I Beat Impostor Syndrome》（我的 2014：如何战胜冒充者综合征）。"},
+     {"when": "2015–2016", "title": "Ember 与 Elixir 社区", "text": "写了 ember-crumbly 等插件，做了「Component Best Practices」演讲，并为 EmberConf 2015/2016、ElixirConf 2016 整理会议总结；用 Elixir 写了 terraform，演示如何把旧 API 渐进式迁移到 Phoenix。"},
+     {"when": "2017", "title": "发起面试清单", "text": "3 月发起 hiring-without-whiteboards，收录用真实工作相关考察（结对、带薪或不带薪的作业题）代替算法题的公司。"},
+     {"when": "2018–2019", "title": "成为工程经理", "text": "她的经理离职后，上级邀请她接任团队的工程经理。她在文章里回忆，那时职业生涯才刚开始，「我不觉得自己准备好了」，但仍在几天后接受，因为这是一个可以反悔的决定，而她的原则是「去做让你害怕的事」。这段时间写了《Should I Become a Tech Lead?》《Maximizing Success in Engineering Interviews》。"},
+     {"when": "2020.02", "title": "辞去管理岗", "text": "发表《Does It Spark Joy?》：「这周我从 Netflix 辞职，回去做软件工程师。」之后加入 Facebook，从事 React 与 Relay 相关工作。"},
+     {"when": "2024–2025", "title": "React Compiler", "text": "React Conf 2024 演讲《Forget About Memo》；2024 年 10 月 21 日发布 Beta，2025 年 10 月 7 日发布 1.0。"},
+     {"when": "2025–2026", "title": "Cursor → xAI", "text": "先后加入 Cursor（GitHub 组织 anysphere）和 xAI（xai-org），同时仍在 React Compiler 核心团队；2026 年开源了一组 Agent 工具。"}
+    ]},
+    {"p": "这条路线最难得的是<strong>两次主动转身</strong>：从设计转向工程，从管理回到工程。两次她都写下了理由，并且都把选择的标准落在「什么事能带给我最大的快乐」上。"}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "React Compiler",
-       "meta": "2024–2025 · 核心团队",
-       "text": "在构建时自动为组件和 Hook 做记忆化，让「默认就快」成为 React 的新常态。",
-       "url": "https://react.dev/learn/react-compiler"
-      },
-      {
-       "name": "hiring-without-whiteboards",
-       "meta": "2017 · ★5.2 万",
-       "text": "收录不做白板算法面试、而用真实工作相关考察的公司清单。",
-       "url": "https://github.com/poteto/hiring-without-whiteboards"
-      },
-      {
-       "name": "pstack",
-       "meta": "2026 · Grok Bot 插件",
-       "text": "「想快，先深」。帮你写更少但更高质量代码的严谨 Agent 工作流，可放心并行。",
-       "url": "https://x.ai/bot/plugin/9717366?pstack"
-      },
-      {
-       "name": "noodle / how / brainmaxxing",
-       "meta": "2026 · Agent 工具",
-       "text": "用 Skill 编排多个 Agent、解释代码架构、给 Agent 加持久记忆与技能改进的一组小工具。",
-       "url": "https://github.com/poteto/noodle"
-      }
+    {"work": {
+     "name": "React Compiler", "url": "https://react.dev/learn/react-compiler",
+     "meta": ["2024 Beta → 2025 1.0", "核心团队", "构建时优化"],
+     "paras": [
+      "在 React 里，组件每次重新渲染都会重新计算所有值、重新创建所有函数。为了避免不必要的工作，开发者需要手动包上 useMemo、useCallback 和 React.memo，并且维护正确的依赖数组，稍有不慎就会出 bug 或者白忙一场。",
+      "React Compiler 在构建时分析组件和 Hook 的数据流，自动插入记忆化，让「默认就快」成为新常态。官方文档为它准备了渐进式接入、调试排错、编译库等完整指南，并有一个 React Compiler 工作组公开讨论设计。"
+     ],
+     "facts": [["Beta", "2024-10-21"], ["1.0", "2025-10-07"], ["原名", "React Forget"], ["相关演讲", "Forget About Memo（React Conf 2024）"]]
+    }},
+    {"work": {
+     "name": "hiring-without-whiteboards", "url": "https://github.com/poteto/hiring-without-whiteboards",
+     "meta": ["2017", "社区清单", "★52,826"],
+     "paras": [
+      "「Companies that don't have a broken hiring process.」收录不做「白板」面试的公司和团队。README 特意说明：白板只是一个比喻，「白板本身不坏，坏的是计算机科学冷知识题」；LeetCode、HackerRank 式的考察大概也属于同一类。被收录的公司使用贴近日常工作的方式，比如结对解决真实问题，或者布置带回家的作业。",
+      "这个仓库至今仍在接受社区更新，还附有一份「如何改进面试」的建议文档。它是她作为管理者思考招聘的副产品，也是 GitHub 上最知名的招聘类仓库之一。"
+     ],
+     "facts": [["GitHub", "★52,826 · ⑂3,973"], ["创建", "2017-03"], ["最近更新", "2026-09"]]
+    }},
+    {"work": {
+     "name": "how · noodle · brainmaxxing", "url": "https://github.com/poteto/how",
+     "meta": ["2026", "Agent 工具", "Cursor / Claude Code"],
+     "paras": [
+      "三个小工具，代表了她怎样把工程习惯交给 Agent："
+     ],
+     "bullets": [
+      "<strong>how</strong>（★916）：一个 Cursor 插件，提供 <code>/how</code> 技能。问「某个子系统怎么工作」，Agent 会像资深工程师入职新领域一样，给出概览、关键概念、工作原理、代码位置和坑点。复杂问题会拆成 2–4 个方向并行探索，再由一个综合 Agent 合并结论；「批评」模式还会召集多个不同模型的独立评审来找架构问题。",
+      "<strong>noodle</strong>（★526，Go）：基于 Skill 的 Agent 编排工具。安装方式本身就很有代表性：把一句「按这个文件的说明安装」交给你的 Agent。",
+      "<strong>brainmaxxing</strong>（★342）：「简单到傻」的 Claude Code 持久记忆。一个 Markdown 库（同时也是 Obsidian 库），Agent 在会话开始时读、学到东西时写；附带 16 条工程原则和 reflect、ruminate、meditate、plan、review 等技能，形成「复盘—反刍—审视—修剪」的学习循环。",
+      "<strong>verification-skill-example</strong>（★160）：一个虚构的大型桌面应用的「验证技能 + 功能地图」示例。README 里的一句话很精辟：wiki 适合人看，但「Agent 每重读一个 token 都要付费」，所以应该给它按功能拆分、可执行的地图。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "pstack", "url": "https://x.ai/bot/plugin/9717366?pstack",
+     "meta": ["2026", "Grok Bot 插件", "Cursor Marketplace"],
+     "paras": [
+      "「if you want to go fast, go deep first.」（想要快，先要深。）pstack 是一套严谨的 Agent 工作流，目标是「写更少但质量更高的代码」，并且可以放心地并行运行。它以 Grok Bot 插件的形式发布在 Cursor Marketplace 上，X 简介里她称自己正在用它交付工作。"
+     ]
+    }},
+    {"h3": "整理型开源：会议总结"},
+    {"table": {
+     "cols": ["仓库", "★", "年份", "内容"],
+     "rows": [
+      ["elixirconf-2016", "567", "2016", "ElixirConf 2016 全部演讲、幻灯片与讨论的总结"],
+      ["rustconf-2020", "354", "2020", "RustConf 2020 链接汇总，欢迎 PR"],
+      ["emberconf-2016", "270", "2016", "EmberConf 2016 发生的一切"],
+      ["emberconf-2015", "246", "2015", "EmberConf 2015 链接合集"],
+      ["elixirconf-2017", "112", "2017", "ElixirConf 2017 总结"]
+     ]
+    }},
+    {"p": "这些仓库本身没有一行代码，却被几千人收藏。它们的价值在于：把一场只有少数人能去的会议，变成所有人都能补课的资料。"}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub 主页的置顶很能说明她的定位：自己的 hiring-without-whiteboards 和团队维护的 react、react.dev、react-native、cursor/plugins 放在一起。个人仓库的语言分布依次是 JavaScript、TypeScript、Elixir、Rust、Go，正是她从 Ember 到 React 再到 Agent 工具的足迹。主页 README 则是一张 Rick Astley 的动图，附一句给读屏用户的 alt 文本：「你可能用了读屏器，但你还是被 rickroll 了。」"},
+    {"table": {
+     "cols": ["仓库", "★", "时间", "说明"],
+     "rows": [
+      ["hiring-without-whiteboards", "52,826", "2017", "不做白板面试的公司清单"],
+      ["how", "916", "2026", "解释代码架构的 Skill"],
+      ["noodle", "526", "2026", "用 Skill 编排 Agent（Go）"],
+      ["terraform", "422", "2016", "把旧 API 渐进迁移到 Phoenix 的 Elixir Plug"],
+      ["brainmaxxing", "342", "2026", "Claude Code 的极简持久记忆"],
+      ["ember-crumbly", "171", "2015", "Ember 声明式面包屑导航（已归档）"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站与线上形象",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://github.com/poteto",
-      "paras": [
-       "她目前没有活跃的个人网站，GitHub 是最完整的作品档案：从 2015 年的 Ember 插件到 2026 年的 Agent Skill，十年的技术路线一目了然。",
-       "X 简介写着：Grok @Bot，「React compiler core team, prev cursor, meta, netflix」。"
-      ]
-     }
-    },
-    {
-     "p": "她早年的会议总结仓库（EmberConf、ElixirConf、RustConf 2020）也是一种独特的「个人网站」：把一场会议的所有演讲、幻灯片和讨论整理成链接合集，免费送给没能到场的人。"
-    }
+    {"site": {"url": "https://www.no.lol/", "paras": [
+     "域名只有三个字母：no.lol。首页是「Writing」和「Speaking」两个入口，开头一句「Lauren Tan is a leader, speaker, and software engineer」，再往下是按时间排列的文章卡片，每篇带封面图、日期、阅读时长和分类。",
+     "博客 2019 年从 Medium 迁到 Gatsby（她专门写了一篇迁移记录），最后一篇更新停在 2020 年 5 月的《This Time Is Different》。之后她的公开表达主要转到了 X 和 React 官方渠道。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术栈", "Gatsby（2019 年由 Medium 迁入）"],
+      ["内容分布", "2014–2016 以 Ember.js 技术文章为主；2017–2020 转向领导力、沟通、面试与 TypeScript"],
+      ["系列", "带编号的职业系列：#1《Should I Become a Tech Lead?》、#2《Maximizing Success in Engineering Interviews》"],
+      ["现状", "自 2020 年起基本停更，作为职业早期的档案保留"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "Lauren 的工作有一条清晰的主线：<strong>把专家才懂的优化，变成所有人的默认值</strong>。React 的记忆化以前需要开发者理解引用相等、依赖数组和闭包陷阱；编译器把这些知识放进了工具链。"
-    },
-    {
-     "quote": "if you want to go fast, go deep first.",
-     "cite": "pstack 的介绍"
-    },
-    {
-     "p": "这种思路也延续到了 AI 时代：pstack 强调「写更少但更高质量的代码」，用严谨的工作流让 Agent 并行工作而不失控。她关心的从来不是写得多快，而是能不能放心地交给别人（或机器）去跑。"
-    }
+    {"posts": [
+     {"date": "2020-05-11", "title": "This Time Is Different", "url": "https://www.no.lol/2020-05-11-this-time-is-different/", "note": "「白纸一张，地基牢固，这次我一定要用正确的方式来建。」关于重写冲动的反思。"},
+     {"date": "2020-02-17", "title": "Does It Spark Joy?", "url": "https://www.no.lol/2020-01-17-does-it-spark-joy/", "note": "从 Netflix 工程经理回到工程师的决定。"},
+     {"date": "2019-03-25", "title": "#2 Maximizing Success in Engineering Interviews", "url": "https://www.no.lol/2019-03-25-maximizing-success-in-engineering-interviews/"},
+     {"date": "2019-03-09", "title": "#1 Should I Become a Tech Lead?", "url": "https://www.no.lol/2019-03-09-should-i-become-a-tech-lead/"},
+     {"date": "2018-02-26", "title": "An Engineer's Guide to Communication", "url": "https://www.no.lol/2018-02-26-an-engineers-guide-to-communication/"},
+     {"date": "2017-05-30", "title": "I Am Still Learning", "url": "https://www.no.lol/2017-05-30-i-am-still-learning/"},
+     {"date": "2014-12-28", "title": "My 2014 in Review — Or How I Beat Impostor Syndrome", "url": "https://www.no.lol/2014-12-28-my-2014-in-review-or-how-i-beat-impostor-syndrome/"}
+    ]},
+    {"quote": "One guiding principle that has shaped my career is: do things that scare you. Fears tend to disguise opportunities for personal growth.", "cite": "Lauren Tan，《Does It Spark Joy?》"},
+    {"p": "在那篇文章里，她讲到接任经理时给自己定下两个承诺：一是无论多难都全力以赴；二是每年重新评估这是不是自己的理想角色，如果不是，就回去，不要困在一份不爱的工作里。后来她的新经理问她：「什么能给你带来终极的快乐？」这个问题最终让她回到了写代码。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["技术", "从框架插件到编译器都能做，跨 Ember、Elixir、React 多个生态", "React Compiler 是团队作品，她的个人贡献边界需要参考官方资料"],
+      ["管理", "做过工程经理，对招聘、沟通、技术领导力有系统思考", "相关文章集中在 2017–2020，近年少有更新"],
+      ["社区", "整理型开源影响了数万人；乐于把方法公开", "近年的公开表达主要在 X 上，零散、不易检索"],
+      ["AI 时代", "把「先深后快」的工程原则写成可执行的 Skill", "在 Cursor、xAI 的具体工作未公开，外界难以评估"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从她身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>把知识编进工具：</strong>与其写文档教大家用 useMemo，不如让编译器自动完成。",
-      "<strong>为社区做整理：</strong>会议总结、公司清单这类「整理型开源」同样能影响几万人。",
-      "<strong>跨社区学习：</strong>Ember、Elixir、Relay、React 的经验在她身上互相滋养。",
-      "<strong>先深后快：</strong>在 Agent 时代，深入理解问题依然是速度的前提。"
-     ]
-    }
+    {"checklist": [
+     "<strong>把知识编进工具：</strong>与其写文档教大家用 useMemo，不如让编译器自动完成。",
+     "<strong>为社区做整理：</strong>会议总结、公司清单这类「整理型开源」同样能影响几万人。",
+     "<strong>给职业选择设一个复盘点：</strong>每年问自己一次「这还是我的理想角色吗」。",
+     "<strong>给 Agent 写地图，而不是 wiki：</strong>按功能拆分、可以直接执行，节省 Agent 的每一个 token。",
+     "<strong>先深后快：</strong>在 Agent 时代，深入理解问题依然是速度的前提。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Does It Spark Joy?", "url": "https://www.no.lol/2020-01-17-does-it-spark-joy/", "why": "如果你正在纠结要不要转管理，或者要不要回去写代码，这篇值得认真读。"},
+     {"name": "React Compiler 1.0 发布文", "url": "https://react.dev/blog/2025/10/07/react-compiler-1", "why": "了解编译器能为你做什么，以及如何在现有项目里渐进接入。"},
+     {"name": "how", "url": "https://github.com/poteto/how", "why": "看一个结构清晰的 Agent Skill 怎样拆问题、并行探索、再综合结论。"}
+    ]}
    ]
   }
  ],
- "cta": "读一读 React Compiler 文档，或者给 hiring-without-whiteboards 补一家你知道的好公司。",
+ "cta": "在你的 React 项目里试试 React Compiler，或者读一读 no.lol 上那几篇关于职业选择的文章。",
  "sources": [
-  {
-   "label": "poteto 的 X 个人资料",
-   "url": "https://x.com/poteto"
-  },
-  {
-   "label": "GitHub：poteto",
-   "url": "https://github.com/poteto"
-  },
-  {
-   "label": "React Compiler Beta 发布（react.dev）",
-   "url": "https://fr.react.dev/blog/2024/10/21/react-compiler-beta-release"
-  },
-  {
-   "label": "React Compiler 1.0 发布（react.dev）",
-   "url": "https://react.dev/blog/2025/10/07/react-compiler-1"
-  },
-  {
-   "label": "React Conf 2021 讲者介绍",
-   "url": "https://conf.reactjs.org/speakers/lauren"
-  },
-  {
-   "label": "React 团队页面",
-   "url": "https://18.react.dev/community/team"
-  },
-  {
-   "label": "pstack for Grok Bot",
-   "url": "https://x.ai/bot/plugin/9717366?pstack"
-  }
+  {"label": "poteto 的 X 个人资料", "url": "https://x.com/poteto"},
+  {"label": "GitHub：poteto", "url": "https://github.com/poteto"},
+  {"label": "no.lol 博客首页", "url": "https://www.no.lol/"},
+  {"label": "no.lol：Does It Spark Joy?（2020）", "url": "https://www.no.lol/2020-01-17-does-it-spark-joy/"},
+  {"label": "React Compiler Beta 发布（react.dev，2024-10-21）", "url": "https://react.dev/blog/2024/10/21/react-compiler-beta-release"},
+  {"label": "React Compiler 1.0 发布（react.dev，2025-10-07）", "url": "https://react.dev/blog/2025/10/07/react-compiler-1"},
+  {"label": "React Compiler 文档", "url": "https://react.dev/learn/react-compiler"},
+  {"label": "React Conf 2021 讲者介绍", "url": "https://conf.reactjs.org/speakers/lauren"},
+  {"label": "hiring-without-whiteboards", "url": "https://github.com/poteto/hiring-without-whiteboards"},
+  {"label": "how README", "url": "https://github.com/poteto/how"},
+  {"label": "noodle", "url": "https://github.com/poteto/noodle"},
+  {"label": "brainmaxxing README", "url": "https://github.com/poteto/brainmaxxing"},
+  {"label": "pstack for Grok Bot", "url": "https://x.ai/bot/plugin/9717366?pstack"}
  ]
 }

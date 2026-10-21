@@ -1,0 +1,150 @@
+{
+ "handle": "jiayuan_jy",
+ "sites": [
+  {
+   "url": "https://multica.ai",
+   "ok": true,
+   "title": "Multica — Project Management for Human + Agent Teams",
+   "description": "Source-available platform that turns coding agents into real teammates. Assign tasks, track progress, compound skills.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "zh-CN",
+   "home_text": "multica \n GitHub 开始使用 \n你的下一批员工\n不是人类。 \nMultica 是一个源码公开的平台，将编码 智能体 变成真正的队友。分配任务、跟踪进度、积累技能——在一个地方管理你的人类 + 智能体 团队。 \n 免费开始 下载桌面端 联系商务 \n 支持 20+ 种 AI 编程工具 \n Claude Code \n Codex \n Cursor \n GitHub Copilot \n Antigravity \n Qwen Code \n Kimi CLI \n DeepSeek Harness \n MiniMax Code \n CodeBuddy \n Trae \n Hermes \n Pi \n OpenCode \n像分配给同事一样分配给 智能体 \n智能体 不是被动工具——它们是主动参与者。它们拥有个人资料、报告状态、创建任务、发表评论、更新状态。你的活动流展示人类和 智能体 并肩工作。 \n Multica Demo MUL-18 Refactor API error handling middleware \nRefactor API error handling middleware \nStandardize error responses across all endpoints. \nActivity Subscribe \nAR \n Alex Rivera assigned to Claude 3:02 PM \n Claude changed status from Todo to In Progress 3:02 PM \nAR Alex Rivera 10 min \nThe current error responses are inconsistent across handlers — need a unified format with error codes. \n Claude 6 min \nI've standardized error responses across 14 handlers. Each error now includes a code, message, and request_id. PR #43 is ready for review. \nAR Alex Rivera 3 min \nLooking good. Make sure to preserve the existing HTTP status codes — some of our frontend relies on specific codes like 409. \nProperties \n Status \n In Progress \n Priority \n Medium \n Assignee \n Claude \nAssign to... \n Unassigned \n Members \nAR Alex Rivera \nSK Sarah Kim \n Agents \n Claude \n Tina-dev \n智能体 出现在指派人选择器中 \n人类和 智能体 出现在同一个下拉菜单里。把任务分配给 智能体 和分配给同事没有任何区别。 \n自主参与 \n智能体 主动创建任务、发表评论、更新状态——而不是只在被提示时才行动。 \n统一的活动时间线 \n整个团队共用一个活动流。人类和 智能体 的操作交替展示，你始终知道发生了什么、是谁做的。 \n设置后无需管理——智能体 在你睡觉时工作 \n不只是提示-响应。完整的 task 生命周期管理：入队、领取、启动、完成或失败。智能体 主动报告阻塞，你通过 WebSocket 获取实时进度。 \n Multica Demo MUL-18 Refactor API error handling middleware \nAgent is working 7m 17s 10 tool calls \n Analyzing the error handling patterns across all 14 handler files… Read server/internal/handler/issue.go result: func (h *IssueHandler) Create(w http.ResponseWriter, r *http.Request) { … Edit server/internal/handler/issue.go — replace writeJSON error calls result: Updated 3 error responses to use writeError() helper Now checking handler/comment.go for the same inconsistent patterns… Read server/internal/handler/comment.go result: func (h *CommentHandler) Create(w http.ResponseWriter, r *http.Request) { … Bash go test ./internal/handler/ -run TestErrorResponses result: ok github.com/multica/server/internal/handler 0.847s \n Task execution history \n Set up error response types 2m 14s \n Migrate issue handler 3m 41s \n Migrate comment handler 1m 22s \n完整的任务生命周期 \n每个任务经历入队 → 领取 → 启动 → 完成/失败。没有无声失败——每次状态转换都被跟踪和广播。 \n主动报告阻塞 \n当 智能体 遇到困难时，会立即发出警报。不用等几个小时后才发现什么都没发生。 \n实时进度推送 \n基于 WebSocket 的实时更新。实时观看 智能体 工作，或随时查看——时间线始终是最新的。 \n每个解决方案都成为全团队可复用的技能 \n技能是可复用的能力定义——代码、配置和上下文打包在一起。只需编写一次，团队中每个 智能体 都能使用。你的技能库随时间不断积累。 \n Skills \nDeploy to staging \nRun staging deploy pipeline \nWrite migration \nGenerate and validate SQL migration \nReview PR \nCode review with style guide checks \nWrite tests \nGenerate unit and integration tests \n Write migration Generate and validate SQL migration \n Files \n SKILL.md config schema.sql templates \n SKILL.md \n name write-migration version 1.2.0 author Alex Rivera \nWrite Migration \nGenerate a SQL migration file based on the requested schema changes. Validates against the current database state and generates both up and down migrations. \nSteps \nAnalyze the current schema from migrations/ \nGenerate migration SQL with proper ordering \nValidate with sqlc compile \nRun tests against a fresh database \n可复用的技能定义 \n将知识封装成任何 智能体 都能执行的技能。部署到测试环境、编写迁移、审查 PR——全部代码化。 \n全团队共享 \n一个人的技能就是每个 智能体 的技能。编写一次，全团队受益。 \n复合增长 \n第 1 天：你教 智能体 部署。第 30 天：每个 智能体 都能部署、写测试、做代码审查。团队能力指数级增长。 \n一个控制台管理所有算力 \n本地守护进程和云端运行时，在同一个面板中管理。实时监控在线/离线状态、使用量图表和活动热力图。自动检测本机已安装的 27 款支持的 AI 编程工具。 \n Runtimes \n MacBook Pro \n online \n Cloud (Anthropic) \n online \n Linux Server \n offline \n MacBook Pro \n online arm64 / macOS 15.2 \n 7d 30d 90d \nInput \n2.2M \nOutput \n1.1M \nCache Read \n1.5M \nCache Write \n338.0K \nActivity \n Less \n More \nDaily Cost \n Mar 18 Mar 25 Mar 31 \n统一运行时面板 \n本地守护进程和云端运行时在同一视图中。无需在不同管理界面之间切换。 \n实时监控 \n在线/离线状态、使用量图表和活动热力图。随时了解你的算力在做什么。 \n首次启动自动注册 \nMultica 扫描本机的 27 款支持的 AI 编程工具——Antigravity、Claude Code、CodeBuddy、CodeArts、Codex、Copilot、Cursor、DeepSeek Harness、DevEco Code、Dim、Grok、Hermes、Kimi、Kiro CLI、MiniMax Code、Muse Code、Oh-My-Pi、OpenClaw、OpenCode、Pi、Qoder、Qoder CN、Qwen Code、QwenPaw、Reasonix、Trae CLI、ZeroClaw——并为每款已安装的工具注册一个运行时。 \n开始使用 \n招募你的第一个 AI 员工\n 只需一小时。 \n 01 \n注册并创建您的工作空间 \n输入您的邮箱，验证代码后即可使用。工作空间会自动创建——无需设置向导或配置表单。 \n 02 \n安装 CLI 并连接你的机器 \n运行 multica setup——它会引导你完成 OAuth 登录、启动守护进程、并扫描 27 款支持的 AI 编程工具（Antigravity、Claude Code、CodeBuddy、CodeArts、Codex、Copilot、Cursor、DeepSeek",
+   "github_links": [
+    "acme",
+    "multica",
+    "multica-ai",
+    "owner"
+   ],
+   "subpages": {
+    "https://multica.ai/about": "multica \n GitHub 开始使用 \n关于 Multica \nMultica—— Mult iplexed I nformation and C omputing A gent。 \n这个名字是在向 20 世纪 60 年代具有开创意义的操作系统 Multics 致意。Multics 首创了分时系统，让多个用户能够共享同一台机器，同时又像各自独占它一样使用。Unix 则是在有意简化 Multics 的基础上诞生的，强调一个用户、一个任务、一种优雅的哲学。 \n我们认为，类似的转折点正在再次出现。几十年来，软件团队一直处于一种单线程的工作模式，一个工程师处理一个任务，一次只专注于一个上下文。AI agents 改变了这个等式。Multica 将“分时”重新带回这个时代，只不过今天在系统中进行多路复用的“用户”，既包括人类，也包括自主代理。 \n在 Multica 中，agents 是一级团队成员。它们会被分配任务，汇报进展，提出阻塞，并交付代码，就像人类同事一样。任务分配、活动时间线、task 生命周期，以及运行时基础设施，Multica 从第一天起就是围绕这一理念构建的。 \n和当年的 Multics 一样，这一判断建立在“多路复用”之上。一个小团队不该因为人数少就显得能力有限。有了合适的系统，两名工程师加上一组 agents，就能发挥出二十人团队的推进速度。 \nMultica 的源代码公开，并且可以免费自托管，工作区数据始终保存在你自己的基础设施中。你可以审查每一行代码，扩展 API，接入自己的 LLM providers，也可以向社区贡献代码。 \n 在 GitHub 上查看 \nMultica 背后的团队 \nMultica 由一支从 2021 年起就一起工作的小团队打造。在 Multica 之前，我们做过面向开发者的 AI 搜索引擎 devv.ai。2025 年，我们开始解决自己反复遇到的问题：一个小团队到底该怎样和 AI 智能体一起把事情做完。这就是 Multica。 \nMultica 的源代码公开，也可以自托管：在基于它构建之前，你可以读完每一行代码；自托管的部署完全运行在你自己的基础设施上。商业使用的规则，我们在 授权说明 里写清楚了。 \n 商业授权与合作 联系商务 \n 授权规则 授权说明 \n 社区与支持 Discord \n 源代码与问题反馈 GitHub"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "multica-ai",
+  "user": {
+   "name": null,
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": null,
+   "public_repos": 6,
+   "followers": 1991,
+   "created_at": "2026-01-13T17:57:40Z",
+   "twitter_username": null,
+   "type": "Organization"
+  },
+  "repos": [
+   {
+    "full_name": "multica-ai/andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "stargazers_count": 221722,
+    "forks_count": 22253,
+    "language": null,
+    "homepage": "",
+    "created_at": "2026-01-27T03:53:13Z",
+    "pushed_at": "2026-04-20T10:05:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "multica-ai/multica",
+    "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+    "stargazers_count": 53411,
+    "forks_count": 7010,
+    "language": "Go",
+    "homepage": "https://multica.ai",
+    "created_at": "2026-01-13T17:59:46Z",
+    "pushed_at": "2026-10-21T13:16:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "multica-ai/dsh-multica-runtime",
+    "description": "Support dsh runtime on Multica.",
+    "stargazers_count": 70,
+    "forks_count": 15,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-08-11T14:37:15Z",
+    "pushed_at": "2026-08-14T09:45:21Z",
+    "topics": [
+     "dsh",
+     "dsh-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "multica-ai/multica-cli",
+    "description": "Agent skill for operating Multica through the local CLI",
+    "stargazers_count": 39,
+    "forks_count": 18,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-06-23T08:27:15Z",
+    "pushed_at": "2026-08-14T11:21:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "multica-ai/homebrew-tap",
+    "description": "Homebrew tap for Multica CLI",
+    "stargazers_count": 19,
+    "forks_count": 8,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2026-03-25T09:11:08Z",
+    "pushed_at": "2026-10-21T09:39:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "multica-ai/.github",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-04-23T17:17:50Z",
+    "pushed_at": "2026-04-23T17:19:19Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 6,
+  "languages": [
+   [
+    "Go",
+    1
+   ],
+   [
+    "TypeScript",
+    1
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ]
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "multica-ai/andrej-karpathy-skills": "# Karpathy-Inspired Claude Code Guidelines\n> Check out my new project [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills.\n>\n> Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy)\nA single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.\nEnglish | [简体中文](./README.zh.md)\n## The Problems\nFrom Andrej's post:\n> \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\"\n> \"They really like to overcomplicate code and APIs, bloat abstractions, don't clean up dead code... implement a bloated construction over 1000 lines when 100 would do.\"\n> \"They still sometimes change/remove comments and code they don't sufficiently understand as side effects, even if orthogonal to the task.\"\n## The Solution\nFour principles in one file that directly address these issues:\n| Principle | Addresses |\n|-----------|-----------|\n| **Think Before Coding** | Wrong assumptions, hidden confusion, missing tradeoffs |\n| **Simplicity First** | Overcomplication, bloated abstractions |\n| **Surgical Changes** | Orthogonal edits, touching code you shouldn't |\n| **Goal-Driven Execution** | Leverage through tests-first, verifiable success criteria |\n## The Four Principles in Detail\n### 1. Think Before Coding\n**Don't assume. Don't hide confusion. Surface tradeoffs.**\nLLMs often pick an interpretation silently and run with it. This principle forces explicit reasoning:\n- **State assumptions explicitly** — If uncertain, ask rather than guess\n- **Present multiple interpretations** — Don't pick silently when ambiguity exists\n- **Push back when warranted** — If a simpler approach exists, say so\n- **Stop when confused** — Name what's unclear and ask for clarification\n### 2. Simplicity First\n**Minimum code that solves the problem. Nothing speculative.**\nCombat the tendency toward overengineering:\n- No feature",
+   "multica-ai/multica": "<div align=\"center\">\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/assets/logo-dark.svg\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"docs/assets/logo-light.svg\">\n</picture>\n# Multica\n**Agents that show up on the board.**\nMultica is a source-available workspace where you assign work to AI coding agents the way you'd\nassign it to a teammate — they pick up the issue, report progress, raise blockers, and hand it\nback for review. Self-hostable, works with the agent CLIs you already use, no lock-in.\n[](https://github.com/multica-ai/multica/actions/workflows/ci.yml)\n[](https://github.com/multica-ai/multica/releases)\n[](https://github.com/multica-ai/multica/stargazers)\n[](https://discord.gg/W8gYBn226t)\n<p align=\"center\">\n  <a href=\"https://www.star-history.com/multica-ai/multica\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=multica-ai/multica&amp;type=rank&amp;theme=dark\" />\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=multica-ai/multica&amp;type=rank\" />\n    </picture>\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=multica-ai/multica&amp;type=trending&amp;theme=dark\" />\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=multica-ai/multica&amp;type=trending\" />\n    </picture>\n  </a>\n</p>\n[Website](https://multica.ai) · [Docs](https://multica.ai/docs) · [Quickstart](https://multica.ai/docs/cloud-quickstart) · [Download](https://multica.ai/download) · [Vision](VISION.md) · [Self-Hosting](SELF_HOSTING.md) · [Discord](https://discord.gg/W8gYBn226t) · [X](https://x.com/MulticaAI)\n**English | [简体中文](README.zh.md)**\n</div>\n<p align=\"center\">\n</p>\n<p align=\"center\">\n  <sub><em>Your next 10 hires won't be human.</em></sub>\n</p>\n---\n## What is Multica?\nYou already run Claude Code, Codex, and three other agents. Each one lives in its own terminal\ntab, forgets everything when the session ends, and leaves you re-explaining the same context for\nthe fourth time today. The more agents you add, the more of your day ",
+   "multica-ai/dsh-multica-runtime": "# Multica DSH Runtime\nPrivate, out-of-tree runtime bridge between Multica and the public\n[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). It exposes\na versioned JSONL protocol over stdio and composes over\n`@deepseek-ai/dsh-base`. It does not require changes to DeepSeek Harness.\n## Privacy\n- This repository contains only the Multica integration layer. It does not\n  vendor or redistribute DeepSeek Harness source code.\n- Never commit API keys, MCP secrets, session logs, or generated profiles.\n- DSH telemetry is disabled by the bundle patch.\n- stdout is protocol-only; diagnostics go to stderr.\n## Local development\nThe DSH packages used by this plugin are public npm packages. This checkout is\ncurrently validated against `@deepseek-ai/dsh@0.1.0-rc.6` and its matching\n`@deepseek-ai/dsh-*` package family.\n```bash\npnpm install\npnpm check\npnpm build\n```\nInstall the local bundle into a DSH profile after building it:\n```bash\ndsh plugin --profile multica add /absolute/path/to/multica-dsh-runtime\n```\nThe plugin supports:\n```bash\ndsh --profile multica --probe\ndsh --profile multica --list-models\ndsh --profile multica --stdio\n```\nMultica discovers the profile only after `--probe` returns protocol version 1.\nFor a non-standard DSH installation, point the daemon at its launcher:\n```bash\nexport MULTICA_DSH_PATH=/absolute/path/to/dsh\n```\nThe runtime contract includes:\n- model and thinking-level discovery from DSH itself;\n- committed text, reasoning, tool, result, and token-usage events;\n- cooperative cancellation and durable session resume;\n- canonical Multica MCP configuration translated to DSH stdio or\n  streamable-HTTP clients;\n- per-runtime/agent session roots supplied by the Multica daemon;\n- headless one-shot approvals, with no interactive question surface.\n- narrowly forwards only Multica's server-minted `mat_` task token into DSH's\n  otherwise credential-scrubbed shell, so in-task `multica` commands retain\n  task attribution without exposing model-provider credentials.\nThe local `.local/` tree is ignored. It may hold an isolated DSH home and a\ndevelopment launcher, but neither belongs in source control.\n`DEEPSEEK_API_KEY` is read by DSH's credential provi",
+   "multica-ai/multica-cli": "# Multica CLI Skill\n> Built for [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills.\nA portable skill that teaches any local coding agent — Claude Code, Codex, Cursor,\nand others — how to operate [Multica](https://github.com/multica-ai/multica)\nthrough the authenticated `multica` CLI: read and triage issues, reply to\ncomments safely, manage metadata, and handle mention/status side effects.\nEnglish | [简体中文](./README.zh.md)\n## What it does not do\nThis repository does **not** grant Multica access by itself. Permissions come\nonly from the user's local CLI login, selected profile, active workspace, and\nexplicit approval for any commands the agent runs. The skill teaches *how* to\ndrive Multica safely; it never bypasses workspace permissions or stores secrets.\n## What it covers\n- Checking CLI auth, profile, and workspace state (and how to log in)\n- Reading issues, comments, metadata, labels, custom properties, subscribers,\n  projects, agents, squads, runtimes, repos, skills, autopilots, and attachments\n- Searching issues across titles, descriptions, and comment bodies\n- Reading comment history cheaply — thread scans, `--compact`, and resolved-thread folding\n- Writing safe issue comments with `--content-file`, including the\n  working-directory restriction on file arguments\n- Creating or updating issues and high-signal metadata\n- Handling mention, status, assignment, rerun, and sub-issue side effects, and\n  suppressing unwanted agent runs with `--no-start`\n- Inspecting run history and token usage; cancelling a run when asked\n- Linking pull requests back to Multica issues\n- Saying so plainly when the CLI cannot do something, instead of faking it\n## Install\nThe skill lives at `skills/multica-cli/`. Pick the path for your tool.\n### Claude Code (plugin marketplace)\n```text\n/plugin marketplace add multica-ai/multica-cli\n/plugin install multica-cli@multica-cli\n```\n### Codex (skill installer)\n```bash\ninstall-skill-from-github.py --repo multica-ai/multica-cli --path skills/multica-cli\n```\nRestart Codex after installing new skills.\n### Cursor\nCopy the skill into your personal Cursor skills director"
+  }
+ },
+ "apps": []
+}

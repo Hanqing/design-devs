@@ -1,0 +1,319 @@
+{
+ "handle": "dalonng",
+ "sites": [
+  {
+   "url": "https://dalonng.github.io",
+   "ok": true,
+   "title": "滋啦滋啦滋啦文",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "",
+   "home_text": "[滋啦滋啦滋啦文](https://dalonng.github.io/)\n[](https://dalonng.github.io/#)\n[About](https://dalonng.github.io/about/)\n## 滋啦文\n*   Jan 7, 2017\n## [Fastlane](https://dalonng.github.io/2017/01/07/fastlane.html)\n*   Apr 5, 2016\n## [防止push 到主线的 git hook](https://dalonng.github.io/git/2016/04/05/gitpushhook.html)\n*   Apr 2, 2016\n## [Swift中的类型和元类型](https://dalonng.github.io/translation/2016/04/02/swiftmetatype.html)\n*   Dec 2, 2014\n## [个人简历](https://dalonng.github.io/jekyll/update/2014/12/02/resume.html)\n*   Dec 1, 2014\n## [假如生活欺骗了你!](https://dalonng.github.io/jekyll/update/2014/12/01/first.html)\nsubscribe [via RSS](https://dalonng.github.io/feed.xml)",
+   "github_links": [
+    "dalonng"
+   ],
+   "subpages": {
+    "https://dalonng.github.io/about/": "[滋啦滋啦滋啦文](https://dalonng.github.io/)[](https://dalonng.github.io/about/#)\n[About](https://dalonng.github.io/about/)\n# About\n翻译和整理的一些滋啦滋啦滋啦\n## 滋啦滋啦滋啦文\n*   滋啦滋啦滋啦文\n*   [dalonng@gmail.com](mailto:dalonng@gmail.com)\n*   [dalonng](https://github.com/dalonng)\n*   [dalonng](https://twitter.com/dalonng)",
+    "https://dalonng.github.io/jekyll/update/2014/12/02/resume.html": "滋啦滋啦滋啦文 \n个人简历 \nDec 2, 2014 \n姜大龙 \ndalonng@gmail.com \n 大连民族大学 2006-2010 软件工程专业 \n简介 & 技能 \n技术娴熟的 iOS 开发程序员，拥有 12 年的 iOS 开发经验，善于沟通和发现问题并优化工作流程。拥有过完整的 Flutter 开发经验。开发 iOS Native 应用程序经验丰富，擅长 Swift、Objective-C、UIKit、自定义动画，架构设计等。具有组件化、构建优化、Swift 混编经验。帮助公司解决 Swift 组建混编问题。 \n技能 \n熟练掌握 Swift、Objective-C、C，了解 Flutter、Dart； \n项目管理和大型项目执行主R； \nXcode、VSCode、PyCharm、RubyMine、Linux; \nPython、Ruby、Shell、git； \nAgile 和 Scrum 工作流开发； \n工作经历 \n快手 （ 2020年2月 ~ NOW ） \n快手 & A 站 \n设计、开发和维护 Swift 和 Objective-C 的 iOS 应用程序； \n实现 Swift 组建混编方案，并推广到公司级工具链中，解决 Swift 组建混编和二进制化的痛点; \n组件化、工程构建优化、架构设计; \n与其他开发人员、设计师和产品负责人合作，确保项目的成功交付; \n研究并及时了解最新的iOS技术和趋势; \n开发和维护技术文档； \n小米 （ 2017年10月 ~ 2020年2月 ） \n小米手环 SDK \n小米手环 iOS 公交卡 SDK 的开发，通过蓝牙实现公交卡开卡、充值、门禁卡功能； \n天星银行 \n设计、开发和维护 Swift 和 Flutter 的 iOS 应用程序； \n天星银行 App 的转账功能以及 Jenkins、CI 搭建； \nBoss直聘 （ 2016年8月 ~ 2017年10月 ） \n负责店长直聘iOS负责人，对原有App进行了重构，确立了层次结构。提高了开发效率。 \n实践了敏捷开发方法，完善了git开发流程和测试包分发流程，明确隔离了开发阶段和测试阶段。 \n在重构和实践敏捷开发过程中，App架构设计能力有明显提高。对软件开发流程有更深刻的理解。 \n猫眼 （ 2015年5月 ~ 2016年8月 ） \n负责猫眼电影iOS客户端开发，主要在订单部分业务。 \n对订单管理模块进行了重构，对订单数据用CoreData进行了合理的管理。规范订单数据结构，使用UI逻辑更加清晰。 \n大连慧搜网络技术公司 （ 2014年6月 ~ 2015年5月 ） \nComico 项目 \n主要功能:漫画浏览(台湾版) \nAppStore: Comico \n工作职责: 网络接口更新,用户行为追踪功能，维护新版本. \n技术要点: HTTP，JSON，sqlite. \n自由职业 （ 2013年5月 ~ 2014年6月 ） \nFidelity-Investments 项目 \n公司:富达信息技术有限公司(外派) \n主要功能:股票基金交易(美国版) \nAppStore: Fidelity-Investments \n工作职责: 股票价格表功能重构及扩展. \n技术要点: HTTP，XML，CoreData，git. \n银联随行 项目 \n公司:中国银联公司(外派) \n主要功能:生活缴费,购物支付 \nAppStore: 银联随行 \n工作职责: 历史查询及提醒日功能开发. \n技术要点: HTTP，XML，ssl, rsa, RESTAPI, sqlite. \n招行掌上生活 项目 \n远程工作 \n主要功能:招行信用卡管理,还款,商城购物 \nAppStore: 掌上生活 NOW \n工作职责: 登陆,支付,安全键盘功能开发. \n技术要点: HTTP，XML，ssl, rsa. \n大连慧搜网络技术公司 （ 2011年10月 ~ 2013年4月 ） \n生活绘画词典 项目 \n主要功能:旅游常用句子十三国语言翻译(日本版) \n工作职责 sqlite,Http update部分开发. \n技术要点: HTTP, sqlite. \n亿达信息技术公司 （ 2010年3月 ~ 2011年10月 ） \n银联支付插件 项目 \n主要功能:银联卡支付插件(SDK) \nAppStore: 爱买 集成了该SDK \n工作职责:实现加密协议,安全键盘开发. \n技术要点: HTTP，XML，ssl, rsa, sqlite. \n邦购商城 项目 \n主要功能:服装购买 \nAppStore: 邦购商城 集成了该SDK \n工作职责:购物列表,购物车功能开发. \n技术要点: HTTP，JSON，CoreData."
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "dalonng",
+  "user": {
+   "name": "dalonng",
+   "company": null,
+   "blog": "",
+   "location": "Tokyo",
+   "bio": null,
+   "public_repos": 24,
+   "followers": 29,
+   "created_at": "2010-05-20T00:44:12Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "dalonng/AAONetworking",
+    "description": "AAONetworking",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-02-22T12:31:12Z",
+    "pushed_at": "2025-07-04T08:47:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/Atelier",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-10-07T02:52:33Z",
+    "pushed_at": "2026-10-21T09:21:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/Bourne",
+    "description": "自动解析JSON，Struct、let",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-05-14T09:12:54Z",
+    "pushed_at": "2026-01-20T13:50:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/cis194",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Haskell",
+    "homepage": null,
+    "created_at": "2016-01-08T03:57:19Z",
+    "pushed_at": "2020-10-23T01:47:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/dalonng.github.io",
+    "description": "Jackg",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "SCSS",
+    "homepage": "",
+    "created_at": "2014-09-02T01:06:51Z",
+    "pushed_at": "2026-03-04T14:00:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/Eien",
+    "description": "学习 SwiftUI",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-05-03T09:03:54Z",
+    "pushed_at": "2023-05-12T05:22:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/FileHandleExt",
+    "description": "FileHandleExt",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-06-05T15:09:48Z",
+    "pushed_at": "2023-06-06T07:14:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/find_objc_class_and_enum_from_dir",
+    "description": "从目录中查找定义的 objc 类和枚举",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2023-08-06T05:05:46Z",
+    "pushed_at": "2023-08-09T13:17:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/HelloOCRuntime",
+    "description": "Learn Objective-C runtime",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2023-07-22T15:47:29Z",
+    "pushed_at": "2023-11-22T16:27:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/MLottery",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2015-04-14T07:19:24Z",
+    "pushed_at": "2015-04-17T10:02:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/mototo",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Astro",
+    "homepage": null,
+    "created_at": "2023-03-27T16:16:34Z",
+    "pushed_at": "2023-07-13T02:19:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/mototo-emacs",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2016-11-01T03:18:45Z",
+    "pushed_at": "2023-04-11T09:10:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/my-config",
+    "description": "J-config",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2014-03-06T08:18:41Z",
+    "pushed_at": "2026-10-16T10:51:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/swift-macho",
+    "description": "A Swift library for examining and modifying Mach-O files.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-03-07T11:57:19Z",
+    "pushed_at": "2023-05-01T16:21:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/UINavigationBarTransitionsIssue",
+    "description": "iOS 17 转屏之后导航栏偏移问题",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-09-15T00:34:48Z",
+    "pushed_at": "2023-09-15T00:55:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dalonng/vocsy-otel",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Dockerfile",
+    "homepage": null,
+    "created_at": "2026-10-17T11:07:59Z",
+    "pushed_at": "2026-10-17T11:13:54Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 16,
+  "languages": [
+   [
+    "Swift",
+    7
+   ],
+   [
+    "Objective-C",
+    2
+   ],
+   [
+    "Emacs Lisp",
+    2
+   ],
+   [
+    "Haskell",
+    1
+   ],
+   [
+    "SCSS",
+    1
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "Astro",
+    1
+   ],
+   [
+    "Dockerfile",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "dalonng/MachOView",
+    "stargazerCount": 0,
+    "description": "MachOView fork",
+    "primaryLanguage": {
+     "name": "C"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "dalonng/my-config",
+    "stargazerCount": 0,
+    "description": "J-config",
+    "primaryLanguage": {
+     "name": "Emacs Lisp"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "dalonng/FileHandleExt",
+    "stargazerCount": 0,
+    "description": "FileHandleExt",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "dalonng/HelloOCRuntime",
+    "stargazerCount": 0,
+    "description": "Learn Objective-C runtime",
+    "primaryLanguage": {
+     "name": "Objective-C"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 37,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "dalonng/MachOView": "```\n   _____                .__     ____________   ____.__               \n  /     \\ _____    ____ |  |__  \\_____  \\   \\ /   /|__| ______  _  __\n /  \\ /  \\\\__  \\ _/ ___\\|  |  \\  /   |   \\   Y   / |  |/ __ \\ \\/ \\/ /\n/    Y    \\/ __ \\\\  \\___|   Y  \\/    |    \\     /  |  \\  ___/\\     / \n\\____|__  (____  /\\___  >___|  /\\_______  /\\___/   |__|\\___  >\\/\\_/  \n        \\/     \\/     \\/     \\/         \\/                 \\/        \n```\n## Update - 16/05/2023\nThis code has return from the dead and updated to version 3.0. \nVersion 3.0 is now a x86_64/arm64 universal binary, with 10.13+ as the minimum version.\nBuilding has been tested with Xcode 13 or higher. The best option is to build with latest available Xcode (14.3) and SDK since I stopped including local copies of latest headers and using the system ones as much as possible. It's annoying to have to use latest version to have all features, but also annoying to keep those headers in sync. This time opting for latest version way.\nBesides the universal binary, some bug fixes and small updates were merged, warnings were fixed (and then I found psaghelyi had also done this modernization effort 4 years ago), and Capstone has been updated to next branch to benefit from aarch64 updates. I haven't merged the modern Objective-C syntax since I find it a bit meh. Something I'm thinking of changing is the indent since I'm not a fan of 2 spaces.\n### What's the future for this fork and project?\nOver the last years I have been puzzled how people kept forking and staring this project on my GitHub despite being dead. I'm using Apple Silicon more often and missed this tool so decided to give it some love again.\nThere is still a lot of work ahead to make it better, mostly adding parsing for new and old commands that doesn't exist, and more important for me, making the mach-o parsing way more robust than it is.\nI'm still divided on the latter. Blacktop has a nice Go based mach-o parser called [go-macho](https://github.com/blacktop/go-macho) and some months ago I was working on my own fork of it, where I changed the API a bit according to personal taste and more important made the parser a lot more robust (most of the time I'm dealing with po",
+   "dalonng/my-config": "jconfig\n=======\nJ-config\n",
+   "dalonng/FileHandleExt": "# FileHandleExt\nFileHandleExt\nFileHandle 对字节操作的增强\n",
+   "dalonng/HelloOCRuntime": "# HelloOCRuntime\nLearn Objective-C runtime\n## 获取 property\n```objective-c\n//  class_copyPropertyList\n@interface Oak : NSObject\n@property (nonatomic, assign) NSInteger count;\n@property (nonatomic, strong) NSNumber* size;\n@property (nonatomic, copy) NSString* name;\n@property (nonatomic, strong) Barrel* barrel;\n@end\n@interface Oak(Ext)\n@property (nonatomic, assign) BOOL isWine;\n@end\n```\n```shell\nOak properties: (\n    \"<0x60000022a740: name: isWine, attributes: TB,N>\",\n    \"<0x60000022bfc0: name: count, attributes: Tq,N,V_count>\",\n    \"<0x60000022bfe0: name: size, attributes: T@\\\"NSNumber\\\",&,N,V_size>\",\n    \"<0x60000021f620: name: name, attributes: T@\\\"NSString\\\",C,N,V_name>\",\n    \"<0x60000021e9c0: name: barrel, attributes: T@\\\"Barrel\\\",&,N,V_barrel>\"\n)\n```\n通过 `class_copyPropertyList` 可以获取一个类中声明的所有 `@property`，包括在分类中。\n但是不会取到基类中的属性。\n",
+   "dalonng/Atelier": "# Atelier\n工程使用 Tuist 管理，`Project.swift` 负责组装工程，`Tuist/ProjectDescriptionHelpers/` 统一管理 Target、Scheme、Info.plist 生成设置和构建配置。\n`Atelier/Sources/` 存放代码，`Atelier/Resources/` 存放资源（包括 Asset Catalog 和 App Icon）。\n源码按功能组织：`Sources/App/` 存放应用入口和根导航，`Sources/Features/Mental/` 按 `Triangle/`、`Square/`、`Texture/`、`Grayscale/` 分组，每组包含页面、独立渲染器和 shader；`Shared/` 存放共用画布、渲染协议、Uniforms 和 shader 类型。新增功能放在 `Sources/Features/<功能名>/` 下。\nMental 中的 Grayscale 示例使用计算着色器将 `k.jpg` 转成灰度图，上方显示原图，下方显示计算结果。输入纹理以 `access::read` 读取，输出纹理以 `access::write` 写入；Swift 端按管线能力配置线程组，用 `dispatchThreads` 派发整张图片，在同一队列上依次提交计算和渲染命令缓冲区。底部显示首次灰度处理的 GPU 计算耗时，以及从 CPU 编码开始到 GPU 完成回调的总耗时（含排队，不含图片加载和渲染）；不提供 GPU 时间戳的环境会显示不可用。\n`Sources/Features/ImageClassification/` 提供图片分类页面：从系统相册选择图片后，使用 `Resources/MobileNetV2.mlmodel` 在本机推理，展示前 5 个分类及置信度。模型标签沿用模型的英文输出，页面文案支持中文和英文。\n## 开发\n安装 [mise](https://mise.jdx.dev/)，然后运行：\n```sh\nmise install\njust generate\n```\n打开生成的 `Atelier.xcworkspace`，选择 `Atelier` Scheme。\nBundle ID 和签名团队由开发者本地配置：\n```sh\ncp .env.example .env\n# 编辑 .env，填写自己的 TUIST_DEVELOPMENT_TEAM 和 TUIST_BUNDLE_ID\njust generate\n```\n`.env` 不提交到版本控制，`just` 会自动加载它。不配置时，Bundle ID 使用 `com.example.Atelier`，签名团队为空，仍可进行无签名构建。真机运行或归档前执行 `just check-signing` 检查配置，再重新生成工程。\n直接执行 `tuist generate` 不会自动加载 `.env`，需要先导出上述 `TUIST_` 环境变量；CI 也可直接注入这两个变量。\n支持 iPhone、iPad、macOS 和 visionOS，最低系统版本均为 27.0，需要 Xcode 27 或更高版本。\nMental 中的 Triangle 和 Square 使用 Metal 绘制。首次构建前安装 Xcode 的 Metal 编译组件：\n```sh\nxcodebuild -downloadComponent MetalToolchain\n```\n如果环境设置了 `TOOLCHAINS=swift` 并提示找不到 Metal 编译器，使用 `env -u TOOLCHAINS just build-ios` 构建。\n```sh\njust generate\nxcodebuild -workspace Atelier.xcworkspace -scheme Atelier \\\n  -configuration Debug -destination 'generic/platform=iOS Simulator' \\\n  CODE_SIGNING_ALLOWED=NO build\n```\n应用名称、版本、最低系统版本及本地配置读取逻辑位于 `Tuist/ProjectDescriptionHelpers/AppSettings.swift`。应用构建设置位于 `AppBuildSettings.swift`，工程共用及 Debug/Release 设置位于 `ProjectBuildSettings.swift`。新增源码和资源或修改工程配置后，重新运行 `just generate`。生成的 Xcode 工程、Workspace 和 `Derived` 目录不提交到版本控制。\n## just 命令\n安装 `just` 和 `mise` 后，可使用以下快捷命令；运行 `just` 查看完整列表。\n```sh\njust setup                # 安装固定版本的工具\njust format               # 格式化 Swift 源码和 Tuist 配置\njust generate             # 生成工程\njust open         "
+  }
+ },
+ "apps": []
+}

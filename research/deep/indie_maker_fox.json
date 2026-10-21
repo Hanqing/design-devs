@@ -1,0 +1,159 @@
+{
+ "handle": "indie_maker_fox",
+ "sites": [
+  {
+   "url": "https://tanstarter.dev",
+   "ok": true,
+   "title": "TanStarter - Ship Faster with TanStack, Cost Less with Cloudflare",
+   "description": "TanStarter is the TanStack Start boilerplate for AI SaaS with auth, payments, database, storage, email, blog, SEO & more, deployed on Cloudflare Workers.",
+   "stack": [
+    "Tailwind CSS",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Skip to main content \n Log in Sign up \n Join Discord (3000+ members) \nShip Faster with TanStack, Cost Less with Cloudflare \nTanStarter is the complete TanStack Start boilerplate for building profitable SaaS, packed with AI, auth, payments, database, storage, email, newsletter, blog, dashboard, SEO and more, fully deployed on Cloudflare Workers \n Get TanStarter See Demo \n 250 + \n250+ \nCustomers \n3000+ \nDiscord members \n500+ \nCommits \n Private GitHub access \n Lifetime updates \n Unlimited projects \nAI-Powered \nCodebase + AI = Launch your idea INSTANTLY \nTanStarter is built for AI coding tools. The clean code structure, consistent naming conventions, and well-organized architecture give AI assistants like Claude Code, Codex, and Cursor the context they need to build complete features in seconds. \n Claude \n Codex \n Gemini \n Cursor \n Copilot \n Windsurf \nBuild faster with AI \nShip full features in minutes, not days. AI understands your codebase structure and generates contextually accurate code. \nBest practices built-in \nEvery feature follows industry best practices — TypeScript, clean architecture, proper error handling, and tested patterns. \nWorks with your favorite tools \nSeamlessly integrate with Claude Code, Codex, Gemini, Cursor, GitHub Copilot, Windsurf, and other AI coding assistants. \nTanStarter CLI \nDeploy TanStarter in about 5 minutes \nRun one command and let TanStarter CLI clone the template, create Cloudflare D1/R2/KV resources, write env files, deploy Workers and push the project to GitHub. \nTanstarter CLI \n$ npx tanstarter-cli@latest create \n Checking Node, pnpm, git, gh and Cloudflare credentials \n Creating D1 database, R2 bucket and KV namespace \n Writing wrangler.jsonc, .env and .env.production \n Running database migrations and deploying to Cloudflare Workers \n Pushing the initialized project codebase to GitHub \n Provisioning pipeline Live \n Codebase Github repository \n Cloudflare D1 / R2 / KV / Email \n Build Github Actions \n Deploy Cloudflare Worker \nCLI workflow \nFrom setup to launch in 5 minutes \nThe CLI turns template setup, environment sync, and deployment into one guided flow. \n TanStarter CLI Docs \nTime saved \n Auth, roles and session handling 18+ hrs \n Stripe / Creem / Waffo payments and webhooks 26+ hrs \n D1 database schema and migrations 14+ hrs \n R2 file storage and user file flows 14+ hrs \n Transactional email and newsletter 14+ hrs \n AI text, chat, image and TTS demos 26+ hrs \n Landing, pricing, blog and legal pages 30+ hrs \n SEO, sitemap, OG images and i18n 18+ hrs \n Dashboard, admin users and API keys 20+ hrs \n Cloudflare Workers deployment setup 20+ hrs \n Setup work you can avoid 200+ hrs \nWhat you get \nA production SaaS foundation, not just another landing template \nTanStarter packages the repeated parts of every SaaS so your first week goes into product logic, customer workflows and launch polish instead of vendor setup. \nRevenue stack \nStripe, Creem, or Waffo checkout, subscriptions, one-time payments, webhooks and customer portal flows. \nCloudflare-native \nTanStack Start on Workers with D1, R2 and Cloudflare Email patterns ready for production. \nAI product base \nAI text, chat, image, image editing and TTS examples that fit modern SaaS workflows. \nProduction dashboard \nUser settings, billing, files, API keys, admin pages and account management. \n250+ \nCustomers \n180+ \nComponents \n500+ \nCommits \n3000+ \nMembers \n Private GitHub repositories Lifetime updates Unlimited projects \nMore Codebases \n2 production-ready templates, one purchase \nGet the TanStarter boilerplate and the complete MkImage AI image SaaS template at no extra cost. \nTanStarter template \nA complete TanStack Start SaaS foundation with AI, auth, payments, database, storage, email, dashboard, and Cloudflare deployment. Get TanStarter \nMkImage template \nA production AI image SaaS built on TanStarter, with 1,400+ prompts, generation workflows, credit purchases, and multi-provider support. View Details Previous slide Next slide \nTanStarter \nMkImage \nPricing \nPay once, Build unlimited websites \nTanStarter Lifetime \n 🔥 Only 50 spots left for the first 300 customers \n $139 $ 199 \n Get TanStarter \nSecure checkout · Instant private GitHub repo invite \n 250 + \n Complete TanStack Start boilerplate \n Seamless Stripe, Creem & Waffo payments and webhooks \n Secure authentication and authorization \n Sleek UI components and marketing blocks \n Built-in blog system and marketing pages \n Auto-generated sitemap and OG metadata \n Showcase your prod",
+   "github_links": [
+    "MkFastHQ",
+    "mkfasthq"
+   ],
+   "subpages": {
+    "https://tanstarter.dev/blog": "Skip to main content \n Log in Sign up \nBlog \nInsights, updates and stories from our team \n Feature 2026/04/22 \nAI Built Into Your Stack \nCloudflare Workers AI and Fal.ai powered AI capabilities, ready out of the box. \n Engineering 2026/04/18 \nWhy Cost Less with Cloudflare \nA breakdown of how Cloudflare's edge infrastructure cuts operational costs for web apps. \n Engineering 2026/04/15 \nWhy Ship Faster with TanStack \nHow TanStack Start cuts the time from idea to production for full-stack React apps. \n General 2026/03/05 \nFrequently asked questions \nCommon questions about TanStarter, answered. \n Feature 2026/03/03 \nWhat's included in TanStarter \nA walkthrough of every feature that ships with TanStarter. \n Tech 2026/03/01 \nThe tech stack of TanStarter \nThe technologies behind TanStarter and why we picked them.",
+    "https://tanstarter.dev/about": "Skip to main content \n Log in Sign up \n 👋 Hey, it's Fox. \nI'm the founder of TanStarter , MkSaaS , MkImage and Mkdirs .\nThe goal of TanStarter is to save your valuable time, and provide you with everything you need to build your SaaS, so you can focus on your core business, no more coding from scratch.\nAs an indie maker, I've built this product from the ground up, and every feature is crafted with care. I have served 600+ customers of MkSaaS and 300+ customers of Mkdirs, and now I'm here to serve more and more customers of TanStarter.\nThank you for supporting indie products and for being a part of this journey. Feel free to contact me if you have any questions or feedback.\n Follow me on X Talk with me"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://mksaas.com",
+   "ok": true,
+   "title": "MkSaaS - Make Your AI SaaS Product in a Weekend",
+   "description": "The complete Next.js boilerplate for building profitable SaaS, packed with AI, auth, payments, i18n, newsletter, dashboard, blog, docs, blocks, themes, SEO and more.",
+   "stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Umami",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Toggle mode Switch language \n 780 + makers are building with MkSaaS \nMake Your AI SaaS Product in a weekend \n The complete Next.js boilerplate for building profitable SaaS, packed with AI, auth, payments, i18n, newsletter, dashboard, blog, docs, blocks, themes, SEO and more. \n Get MkSaaS \n See Demo \n 780 + \n780+ \nCustomers \n200+ \nProducts \n360+ \nComponents \n Private GitHub access \n Lifetime updates \n Unlimited projects \nAI-Powered \nCodebase + AI = Launch your idea INSTANTLY \nMkSaaS is built for AI coding tools. The clean code structure, consistent naming conventions, and well-organized architecture give AI assistants like Claude Code, Codex, and Cursor the context they need to build complete features in seconds. \n Claude \n Codex \n Gemini \n Cursor \n Copilot \n Windsurf \nBuild faster with AI \nShip full features in minutes, not days. AI understands your codebase structure and generates contextually accurate code. \nBest practices built-in \nEvery feature follows industry best practices — TypeScript, clean architecture, proper error handling, and tested patterns. \nWorks with your favorite tools \nSeamlessly integrate with Claude Code, Codex, Gemini, Cursor, GitHub Copilot, Windsurf, and other AI coding assistants. \nTime saved \n Auth, roles, session handling 16+ hrs \n Stripe payments and webhooks 24+ hrs \n Billing, invoices and customer portal 20+ hrs \n Landing, pricing, blog and docs 32+ hrs \n Emails, newsletter and notifications 14+ hrs \n SEO, sitemap, OG images and i18n 18+ hrs \n Dashboard, admin users and API keys 18+ hrs \n UI components, blocks and themes 22+ hrs \n Analytics, chat, captcha and affiliates 16+ hrs \n Vercel, Docker and Cloudflare deployment 20+ hrs \n Setup work you can avoid 200+ hrs \nWhat you get \nA production SaaS foundation, not just a landing template \nMkSaaS packages the repeated parts of every AI SaaS so you can spend your first week building the product, not wiring vendors. \nRevenue stack \nStripe, Creem or Waffo checkout, subscriptions, one-time payments, webhooks and invoices. \nAI product base \nAI SDK integrations, text, image and chat demos, plus an agent-friendly code structure. \nGrowth pages \nLanding page, pricing page, blog, docs, legal pages, sitemap, metadata and OG setup. \nProduction dashboard \nUser settings, billing, API keys, admin users and account management. \n780+ \nCustomers \n200+ \nProducts \n360+ \nComponents \n1500+ \nCommits \n Private GitHub repositories Lifetime updates Unlimited projects \nMore Codebases \n2 templates, 8 codebases \nNot only 1 template, but 2 templates with 8 codebases you can use \nMkSaaS template \nMkSaaS template demo.mksaas.com , the demo website of MkSaaS boilerplate . \nAI SaaS website \nYou can get access to the codebase of the SaaS website , which is built with MkSaaS, and you can use it to build your own SaaS. \nBlog demo website \nYou can get access to the codebase of the blog website , which is built with MkSaaS, and you can use it to build your own blog. \nDirectory demo website \nYou can get access to the codebase of the directory website , which is built with MkSaaS, and you can use it to build your own directory. \nAI Outfit SaaS website \nYou can get access to the codebase of the AI Outfit website, which is built with MkSaaS, and you can use it to build your own one. \nMkdirs template \nMkdirs template demo.mkdirs.com , the demo website of Mkdir boilerplate . \nIndieHub (MRR $300) \nIndieHub indiehub.best , the best all-in-one directory for Indie Makers, built with Mkdirs. \nBoilerplateHunt (MRR $30) \nBoilerplateHunt boilerplatehunt.com , find the best boilerplates to ship faster, built with Mkdirs. Previous slide Next slide \n MkSaaS template \n AI SaaS website \n Blog demo website \n Directory demo website \n AI Outfit SaaS website \n Mkdirs template \n IndieHub (MRR $300) \n BoilerplateHunt (MRR $30) \nPricing \nPay once, Lifetime updates, Build unlimited SaaS websites \nLifetime \n🎁 Get $70 OFF for now 🎁 \n $ 129 199 \n Get MkSaaS \nPay once, Build unlimited SaaS websites \n 780 + \n Complete Next.js boilerplate for AI SaaS \n Seamless Stripe, Creem, or Waffo payments \n Secure authentication and authorization \n Sleek UI components and marketing blocks \n Built-in blog and documentation system \n Auto-generated sitemap and OG metadata \n Showcase your products on MkSaaS for free \n Get directory template of Mkdirs for free 🔥 \n Technical support via email and Discord 🛟 \n Access to 7+ official Github repositories 🎁 \n Lifetime updates with no extra cost 🤑 \nVideo Tutorial \nHow to configure and ",
+   "github_links": [
+    "MkSaaSHQ"
+   ],
+   "subpages": {
+    "https://mksaas.com/blog": "Toggle mode Switch language \nBlog \nLatest news and updates from our team \nAll \nFeature \nTutorial \n Categories All \n2025年的年终总结 \n2025年的年终总结，回顾过去独立开发之路，展望未来产品出海规划 \n Fox 2026/01/03 \n Feature \nAI Features: Chat, Image and Text \nExplore MkSaaS AI features for chat, image generation, and text workflows, including supported providers, demos, and the underlying AI SDK setup. \n Fox 2025/11/16 \n Feature \nAuthentication: Better Auth and OAuth \nSee how MkSaaS handles email sign-in, Google and GitHub OAuth, password resets, account linking, and profile management with Better Auth. \n Fox 2025/11/16 \n Feature \nMkSaaS Blog Module \nDeep dive into MkSaaS template's blog module, including MDX, multi-language support, categories, authors, SEO, and custom components \n Fox 2025/11/16 \n Feature \nMkSaaS Component Module \nDeep dive into MkSaaS template's component module, including comprehensive component libraries like Shadcn UI, Magic UI, Animate UI, Tailark marketing components, helping you quickly build beautiful and modern SaaS application interfaces \n Fox 2025/11/16 \n Feature \nMkSaaS Deployment Module \nDeep dive into MkSaaS template's deployment module, supporting multiple deployment methods including Vercel, Cloudflare Workers, Docker, and more, allowing you to easily deploy your SaaS application to any platform \n Fox 2025/11/16 \n Feature \nMkSaaS DX Optimization \nDeep dive into MkSaaS template's development experience optimization features, including AI-assisted development tool support, MCP servers, IDE configuration, code quality tools, development workflow optimization, helping you improve development efficiency and code quality \n Fox 2025/11/16 \n Feature \nMkSaaS Documentation Module \nDeep dive into MkSaaS template's documentation module, a powerful documentation system built on Fumadocs with multi-language support, custom MDX components, code highlighting, image zoom, and rich features to help you quickly build a professional documentation site \n Fox 2025/11/16 \n Feature \nMkSaaS Email and Newsletter Module \nDeep dive into MkSaaS template's built-in email and newsletter module, email templates, and waitlist functionality to help you quickly build a professional email communication system \n Fox 2025/11/16 \n Feature \nMkSaaS Pages Module \nDeep dive into MkSaaS template's pages module, including landing pages, pricing pages, about pages, contact pages, legal pages, and other rich built-in pages to help you quickly build a complete SaaS website \n Fox 2025/11/16 \n Feature \nMkSaaS Payment Module \nDeep dive into MkSaaS template's payment module, including price configuration, subscriptions, one-time payments, Webhooks, billing management, and provider integrations \n Fox 2025/11/16 \n Feature \nMkSaaS SaaS Foundation Module \nDeep dive into MkSaaS template's SaaS foundation module, including core features like internationalization support, affiliate marketing system, real-time notifications, online customer service, theme system, statistical analysis, SEO optimization, help",
+    "https://mksaas.com/about": "[MkSaaS](https://mksaas.com/)\n*   [Features](https://mksaas.com/#features)\n*   [Pricing](https://mksaas.com/#pricing)\n*   [Blog](https://mksaas.com/blog)\n*   [Docs](https://mksaas.com/docs)\n*   AI Playground\n*   [Showcase](https://mksaas.com/showcase)\n*   Demos\nToggle mode Switch language Log in[Sign up](https://mksaas.com/auth/register)\n[MkSaaS](https://mksaas.com/)\n# Fox\nFounder of MkSaaS\n👋 Hi, I'm Fox. I built MkSaaS to help makers spend less time wiring up authentication, payments, and other common SaaS features. I also founded TanStarter and Mkdirs. If you have questions or feedback, please get in touch.\n[Follow me on X](https://mksaas.link/twitter)\n[Talk with me](https://mksaas.com/contact)\nMkSaaS\nMake Your AI SaaS Product in a Weekend\n[](https://github.com/MkSaaSHQ)[](https://mksaas.link/twitter)[](https://mksaas.link/bsky)[](https://mksaas.link/discord)[](https://mksaas.link/youtube)[](mailto:support@mksaas.com)\n[Built withMkSaaS](https://mksaas.com/?utm_source=built-with-mksaas)\nProduct\n*   [Features](https://mksaas.com/#features)\n*   [Pricing](https://mksaas.com/#pricing)\n*   [FAQ](https://mksaas.com/blog/faq)\nResources\n*   [Blog](https://mksaas.com/blog)\n*   [Documentation](https://mksaas.com/docs)\n*   [Changelog](https://mksaas.com/changelog)\n*   [Commits](https://mksaas.com/commits)\nCompany\n*   [About](https://mksaas.com/about)\n*   [💰 Affiliates](https://mksaas.affonso.io/)\n*   [🤟 Submit](https://mksaas.com/submit)\n*   [💬 Join Discord](https://mksaas.link/discord)\n*   [🔥 MkSaaS vs TanStarter](https://mksaas.com/tanstarter)\n*   [📮 Contact](https://mksaas.com/contact)\nLegal\n*   [License Policy](https://mksaas.com/license)\n*   [Privacy Policy](https://mksaas.com/privacy)\n*   [Terms of Service](https://mksaas.com/terms)\n[](https://www.producthunt.com/products/mksaas?embed=true&utm_s…)\n[](https://frogdr.com/mksaas.com?via=javayhu&utm_source=mksaas.com)[](https://peerlist.io/javayhu/project/mksaas)[](https://open-launch.com/projects/mksaas \"Open-Launch Top 2 Daily Winner\")\n[](https://fazier.com/launches/mksaas.com)[](https://www.uneed.best/tool/mksaas)[](https://startupfa.me/s/mksaas?utm_source=mksaas.com)[](https://saasboilerplates.dev/)\n© 2026 MkSaaS. All Rights Reserved."
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://mkdirs.com",
+   "ok": true,
+   "title": "Mkdirs - The Best Directory Boilerplate with AI",
+   "description": "The best directory boilerplate, packed with AI, Listings, Payment, Submission, CMS, Blog, Authentication, Newsletter, SEO, Themes and more.",
+   "stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Umami",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Toggle mode Switch language \n Join Discord with 3000 + makers \n Launch AI-powered directory in 30 minutes \n The open-source directory boilerplate, packed with AI, Listings, Payment, Submission, CMS, Blog, Authentication, Newsletter, SEO, Themes and more. \n View on GitHub \n See Demo \n 350 + \n350 + makers ship faster with Mkdirs \nPowered by \nIndustry-standard Tech Stack \nNext.js \nFull stack React framework for production. \nAuth.js \nOpen source authentication library for Next.js. \nShadcn UI \nComponents for building modern websites. \nTailwind CSS \nCSS framework for rapid UI development. \nSanity \nHeadless CMS for modern websites. \nResend \nModern email service for developers. \nStripe \nBest and most secure online payment service. \nVercel AI SDK \nThe open source AI Toolkit for TypeScript. \nMonetization \nHow to make money from directory? \n🤑 \nAffiliation \nUse affiliate links on your items to earn a commission for each person buying any of the services. \n💰 \nPaid Submissions \nOffer paid submissions to receive payments from businesses seeking backlinks and exposure to your audience. \n💸 \nSponsored Ads \nOffer premium advertising spaces for businesses to showcase their products to your targeted audience. \nHow it works? \nJust 3 steps to get started \n 1. Configure your directory \n Clone the repository, customize the website. \n 2. Deploy your directory \n Deploy the project to your preferred platform. \n 3. Manage the content \n Manage the content in CMS (built-in Sanity Studio). \n1. Configure your directory \nClone the repository, customize the website. \n2. Deploy your directory \nDeploy the project to your preferred platform. \n3. Manage the content \nManage the content in CMS (built-in Sanity Studio). \nFeatures \nWhat makes Mkdirs different \nMkdirs comes with everything you need to build your directory website \nFeature Rich Directory \nEverything you need to run a directory website. \nAdvanced Search \nSearch by keywords from name, description, or rich text content. \nFilterable and Sortable \nDetailed Item Page \nSanity CMS Integrated \nIntegrated with the world-class headless CMS Sanity. \nContent Management \nManage items, categories, tags, blogs, users in Sanity Studio. \nFully Customizable \nNo Database or Storage Setup \nSecure Authentication \nBuilt-in secure authentication system, powered by Auth.js. \nEmail/Password Login \nEmail verification and password reset are supported. \nGoogle or GitHub Login \nUser Account Settings \nBuilt-in Submission \nFree and paid submissions, easily monetize your directory. \nSubmission Form (AI Suppported) \nAI Autofill supported, rich text editing and image uploads. \nPaid Submission \nSponsor Ad Submission \nBlog \nBlog system, easy to share your content. \nBlog System \nBlog with categories, authors and rich text content. \nBlog Categories \nRich Text Content \nEmail \nReact email templates, easy to send emails. \nNewsletter Subscription \nSupport for newsletter subscription and unsubscription. \nEmail Templates \nLayouts & Components \nBuilt-in layouts and components, easy to customize. \nLayouts \nMultiple pre-built page layouts to showcase your directory. \nComponents \nItem Cards \nDocs & Videos \nDocumentation and video tutorials to help you get started. \nDocumentation \nComprehensive documentation to help you get started. \nVideo Tutorials \nMultiple Languages \nSEO Optimization \nGet more traffic from search engines by optimized SEO. \nSEO Metadata \nBuilt-in SEO metadata for all pages (especially items and blogs). \nOpen Graph \nAuto-generated Sitemap \nBatteries Included \nDark mode, responsive design, and customizable theme. \nCustomizable Theme \nCustomize the theme to match your brand and style. \nDark Mode \nResponsive Design \nMore codebases \n1 template, 3 codebases \nYes, you get not only one template, but 1 template with 3 codebases! \nMkdirs Template \nMkdirs Template demo.mkdirs.com , the demo website of Mkdirs boilerplate. \nIndieHub (MRR $300) \nIndieHub indiehub.best , the best all-in-one directory for Indie Makers, built with Mkdirs. \nBoilerplateHunt (MRR $30) \nBoilerplateHunt boilerplatehunt.com , find the best boilerplates to ship faster, built with Mkdirs. Previous slide Next slide \n Mkdirs Template \n IndieHub (MRR $300) \n BoilerplateHunt (MRR $30) \nVideo Tutorial \nHow to build and deploy MkDirs \nTestimonials \nWhat our customers are saying \nJoin the Discord community \nConnect with 3000 + makers and get help with your project. Join Discord for free \nIntroduction \nMkdirs is run by an indie maker \n 👋 Hey, it's Fox. \nI'm the founder of T",
+   "github_links": [
+    "MkThingsHQ",
+    "MkdirsHQ"
+   ],
+   "subpages": {
+    "https://mkdirs.com/blog": "[Mkdirs](https://mkdirs.com/)\n*   [Features](https://mkdirs.com/#features)\n*   [Blog](https://mkdirs.com/blog)\n*   [Docs](https://docs.mkdirs.com/)\n*   [Showcase](https://mkdirs.com/showcase)\n*   [Demos](https://demo.mkdirs.com/)\nToggle mode Switch language Log in[Sign up](https://mkdirs.com/auth/register)\n[Mkdirs](https://mkdirs.com/)\n# Blog\n## Latest news and updates from our team\n## [All](https://mkdirs.com/blog)## [Feature](https://mkdirs.com/blog/category/feature)## [Tutorial](https://mkdirs.com/blog/category/tutorial)\nCategories\nAll\n[ Tutorial ### FAQ Frequently asked questions before you buy Mkdirs template  Fox 2024/10/24](https://mkdirs.com/blog/faq)[ Tutorial ### What is Mkdirs Introducing Mkdirs, a complete Next.js boilerplate for building directory websites  Fox 2024/10/23](https://mkdirs.com/blog/what-is-mkdirs)\n*   [Previous](https://mkdirs.com/blog)\n*   [1](https://mkdirs.com/blog)\n*   [Next](https://mkdirs.com/blog)\nMkdirs\nThe Best Directory Boilerplate with AI\n[](https://github.com/MkThingsHQ/mkdirs)[](https://mksaas.link/twitter)[](https://mksaas.link/bsky)[](https://mksaas.link/discord)[](https://www.youtube.com/@MkdirsHQ)[](mailto:Mkdirs <support@mkdirs.com>)\n[Built withMkSaaS](https://mksaas.com/?utm_source=built-with-mksaas)\nProduct\n*   [Features](https://mkdirs.com/#features)\n*   [FAQ](https://mkdirs.com/blog/faq)\nResources\n*   [Blog](https://mkdirs.com/blog)\n*   [Documentation](https://docs.mkdirs.com/)\n*   [Changelog](https://mkdirs.com/changelog)\n*   [Commits](https://mkdirs.com/commits)\nCompany\n*   [🤟 Submit](https://mkdirs.com/submit)\n*   [💬 Join Discord](https://mksaas.link/discord)\n*   [🔥 MkSaaS vs TanStarter](https://mkdirs.com/tanstarter)\nLegal\n*   [License Policy](https://mkdirs.com/license)\n*   [Privacy Policy](https://mkdirs.com/privacy)\n*   [Terms of Service](https://mkdirs.com/terms)\n[](https://www.producthunt.com/posts/mkdirs?embed=true&utm_sour…)\n[](https://peerlist.io/javayhu/project/mkdirs)[](https://frogdr.com/mkdirs.com?via=javayhu&utm_source=mkdirs.com)[](https://open-launch.com/projects/mkdirs \"Open-Launch Top 1 Daily Winner\")\n[](https://fazier.com/launches/mkdirs)[](https://www.uneed.best/tool/mkdirs)[](https://startupfa.me/s/mkdirs?utm_source=mkdirs.com)[](https://saasboilerplates.dev/)\n© 2026 Mkdirs. All Rights Reserved."
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://mksaas.link/discord",
+   "ok": true,
+   "title": "MkSaaS",
+   "description": "Talk about Indie Hacking and Share about building AI SaaS websites | 3108 位成员",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github_guess": true,
+ "github": {
+  "login": "MkFastHQ",
+  "user": {
+   "name": "TanStarter",
+   "company": null,
+   "blog": "https://tanstarter.dev",
+   "location": null,
+   "bio": "Ship Faster with TanStack, Cost Less with Cloudflare",
+   "public_repos": 2,
+   "followers": 33,
+   "created_at": "2026-02-13T02:11:21Z",
+   "twitter_username": "tanstarter",
+   "type": "Organization"
+  },
+  "repos": [
+   {
+    "full_name": "MkFastHQ/mkfast-lite",
+    "description": "A multilingual starter for a simple, fast public website.",
+    "stargazers_count": 96,
+    "forks_count": 25,
+    "language": "TypeScript",
+    "homepage": "https://lite.tanstarter.dev",
+    "created_at": "2026-08-12T14:22:19Z",
+    "pushed_at": "2026-08-13T08:04:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "MkFastHQ/tanstarter-cli",
+    "description": "Create and launch TanStarter projects on Cloudflare.",
+    "stargazers_count": 55,
+    "forks_count": 21,
+    "language": "TypeScript",
+    "homepage": "https://tanstarter.dev",
+    "created_at": "2026-07-04T01:22:47Z",
+    "pushed_at": "2026-09-26T06:55:22Z",
+    "topics": [
+     "cli",
+     "cloudflare",
+     "tanstack",
+     "tanstarter",
+     "wrangler"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 2,
+  "languages": [
+   [
+    "TypeScript",
+    2
+   ]
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "MkFastHQ/mkfast-lite": "<h1 align=\"center\">TanStarter Lite</h1>\n<p align=\"center\">\n  A multilingual starter for a simple, fast public website.\n</p>\n<p align=\"center\">\n  <a href=\"./LICENSE\"></a>\n  <a href=\"https://react.dev\"></a>\n  <a href=\"https://workers.cloudflare.com\"></a>\n</p>\n<p align=\"center\">\n  <a href=\"#getting-started\">Quick Start</a> ·\n  <a href=\"#customize-the-template\">Customize</a> ·\n  <a href=\"#deploy-to-cloudflare-workers\">Deploy</a>\n</p>\n[](https://github.com/MkFastHQ/mkfast-lite)\nTanStarter Lite is the lightweight, open-source edition of\n[TanStarter](https://tanstarter.dev): a deliberately small starter for a\nmultilingual public website. It includes a complete localized landing page,\nlight/dark/system themes, SEO endpoints, tests, and Cloudflare Workers\ndeployment—without the operational surface of a SaaS starter.\nIt intentionally does not include authentication, payments, persistence,\nstorage, cache, transactional email, newsletters, or an admin surface. Add\nthose only when they match the product you are building.\n## Features\n- **Multilingual by default** — English at `/` and Simplified Chinese at `/zh`,\n  with typed Paraglide messages and a language menu that keeps the current\n  section anchor.\n- **A focused landing page** — responsive navigation, hero, stack,\n  architecture, template, FAQ, and closing sections.\n- **Theme choices** — light, dark, and system themes; the selection persists\n  in local storage.\n- **Search-ready public surface** — localized canonical and alternate links,\n  Open Graph and Twitter metadata, JSON-LD, `robots.txt`, `sitemap.xml`, and\n  `manifest.webmanifest`.\n- **No required services** — the default Worker has no D1, R2, KV, or secret\n  bindings and deploys to `workers.dev`.\n## Tech stack\n- [React 19](https://react.dev/) and [TypeScript](https://www.typescriptlang.org/)\n- [TanStack Start](https://tanstack.com/start) and TanStack Router\n- [Tailwind CSS](https://tailwindcss.com/)\n- [Paraglide](https://inlang.com/m/gerre34r/library-inlang-paraglideJs) for\n  type-safe localization\n- [Cloudflare Workers](https://workers.cloudflare.com/) and\n  [Wrangler](https://developers.cloudflare.com/workers/wrangler/)\n- [Vitest](https://vitest.dev/) and [Playw",
+   "MkFastHQ/tanstarter-cli": "# TanStarter CLI\nEnglish | [简体中文](README.zh-CN.md)\nCreate a production-ready TanStarter app from the template and deploy it to Cloudflare Workers in about 10 minutes.\n## Quick Start\n```bash\nexport CLOUDFLARE_ACCOUNT_ID=\"...\"\nexport CLOUDFLARE_API_TOKEN=\"...\"\n# Optional: enable Waffo payments during setup\nexport WAFFO_MERCHANT_ID=\"MER_...\"\nexport WAFFO_PRIVATE_KEY=\"-----BEGIN PRIVATE KEY-----...\"\nnpx tanstarter-cli@latest create\n```\nTanStarter CLI will ask for the project name, resource names, and payment method before creating anything. When you pick Waffo, it also creates a Waffo store, the three template products, and the webhook automatically.\nTo keep the payment prompt but accept every other default (domain, D1/R2/KV names, GitHub repository, and final confirmation), pass `--yes`:\n```bash\nnpx tanstarter-cli@latest create my-app --yes\n```\n## Install\n### Agent skill\nInstall the TanStarter creation skill for Codex, Claude Code, or another supported agent:\n```bash\nnpx skills add MkFastHQ/tanstarter-cli --skill tanstarter-create\n```\nRun without installing:\n```bash\nnpx tanstarter-cli@latest create\n```\nOr install globally:\n```bash\nnpm install -g tanstarter-cli\n```\nThen run:\n```bash\ntanstarter create\n```\n## Commands\n```bash\ntanstarter create [options]\ntanstarter delete <project-name> [options]\ntanstarter create <project-name> --resume\n```\nOptions:\n- `--domain <domain>`: configure a Cloudflare custom domain route.\n- `--payment <none|waffo>`: payment method for the generated project. With `waffo`, the CLI uses the template's built-in monthly, yearly, and lifetime products, then creates the Waffo store, products, and webhook during setup.\n- `-y, --yes`: accept default domain, resource names, GitHub repository, and final confirmation. It still asks for payment unless `--payment` is set.\n- `--repo <owner/name>`: create this GitHub repository. If omitted, TanStarter CLI defaults to the current GitHub CLI login and project name, for example `open-fox/my-app`.\n- `--resume`: continue a failed setup from `.tanstarter/state.json`.\n- `-h, --help`: show help.\n- `-v, --version`: show version.\nExample:\n```bash\ntanstarter create --domain app.example.com --repo mkfasthq/my-app\n```\nI"
+  }
+ },
+ "apps": []
+}

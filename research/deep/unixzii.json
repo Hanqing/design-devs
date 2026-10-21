@@ -1,0 +1,532 @@
+{
+ "handle": "unixzii",
+ "sites": [
+  {
+   "url": "https://cy4n.dev",
+   "ok": true,
+   "title": "Cyandev",
+   "description": "Cyandev",
+   "stack": [
+    "Google Fonts",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "_ \nA random guy on the internet, a software engineer. \n 为 Electron App 设计扩展系统 July 24, 2026 \n 2025 更新日志 December 30, 2025 \n 用 WebGPU 来造一场雪 December 20, 2025 \n 从 Cloudflare 故障到代码安全 November 22, 2025 \n 再见，Next.js November 15, 2025 \n 编译期安全的 Builder October 18, 2025 \n 基于原则的性能优化 September 28, 2025 \n What Remains of Us August 21, 2025 \n 终端的那些“黑魔法” August 10, 2025 \n Swift Concurrency 中的隔离 June 14, 2025 \n 一种优雅处理 UserDefaults 的实践 May 20, 2025 \n 写在考驾照之后 March 31, 2025 \n 为什么所有权很重要 June 7, 2023 \n But What is Send and Sync? May 30, 2023 \n 编程中的“元” May 20, 2023 \n Idiomatic Signals for React May 13, 2023 \n Thoughts on React Server Components April 26, 2023 \n 为什么 Objective-C 的属性还需要 atomic July 27, 2022 \n Swift Package Plugin 和 Sandbox 的那些事 July 1, 2022",
+   "github_links": [
+    "unixzii"
+   ],
+   "subpages": {
+    "https://cy4n.dev/page/about": "About Me \nHey, I’m Cyan, a random guy on the internet, and a software engineer. Glad to meet you and I hope we can be good friends! \nI enjoy writing code and tweaking things, with passion being my driving force. I’m fascinated by user interface and interaction design. And if you happen to be interested in them, maybe we can have a lot to talk about. I don’t set limits for myself. As long as I can achieve the goal, I’m always willing to learn by doing. Curiosity is also one of my motivations ^ . I love digging into the essence of things and thinking with the first principle. \n \"What I cannot create, I do not understand.\" \n— Richard Feynman \nI’m now working on Mac client development at a “video conference software” company. And before that, I was at ByteDance and Alibaba. \nLike many other people, I’m also an Apple fan (or at least was). I love Steve Jobs' product philosophy and Apple's taste in design. Maybe Apple has changed a lot, but its original spirit has always inspired me. \nHere are some impressions on me, and I’d like to share with you: \nA minimalist, prefer original over customized. \nBelieve that open-source can change the world. \nNative-firstist, hate browsers everywhere ^ . \nConsole gamer, enjoyed RDR2, Unravel and ACU… \nUsed to be active in Zhihu and various tech forums, but has quit. \nInterested in digital archaeology, user of Mountain Lion, Vista and KDE 4. \n…… \nTo be continued."
+   },
+   "feed": {
+    "url": "https://cy4n.dev/rss",
+    "count_seen": 19,
+    "items": [
+     {
+      "title": "为 Electron App 设计扩展系统",
+      "date": "Fri, 24 Jul 2026 07:22:08",
+      "url": "https://cy4n.dev/post/designing-ext-system-in-electron"
+     },
+     {
+      "title": "2025 更新日志",
+      "date": "Tue, 30 Dec 2025 12:26:09",
+      "url": "https://cy4n.dev/post/2025-update-notes"
+     },
+     {
+      "title": "用 WebGPU 来造一场雪",
+      "date": "Fri, 19 Dec 2025 17:10:45",
+      "url": "https://cy4n.dev/post/make-a-snowfall-with-webgpu"
+     },
+     {
+      "title": "从 Cloudflare 故障到代码安全",
+      "date": "Fri, 21 Nov 2025 17:38:59",
+      "url": "https://cy4n.dev/post/from-cloudflare-outage-to-code-safety"
+     },
+     {
+      "title": "再见，Next.js",
+      "date": "Sat, 15 Nov 2025 15:49:19",
+      "url": "https://cy4n.dev/post/farewell-nextjs"
+     },
+     {
+      "title": "编译期安全的 Builder",
+      "date": "Sat, 18 Oct 2025 14:58:35",
+      "url": "https://cy4n.dev/post/compile-time-builder"
+     },
+     {
+      "title": "基于原则的性能优化",
+      "date": "Sun, 28 Sep 2025 12:23:57",
+      "url": "https://cy4n.dev/post/optimization-on-principle"
+     },
+     {
+      "title": "What Remains of Us",
+      "date": "Thu, 21 Aug 2025 15:30:53",
+      "url": "https://cy4n.dev/post/what-remains-of-us"
+     },
+     {
+      "title": "终端的那些“黑魔法”",
+      "date": "Sun, 10 Aug 2025 09:00:33",
+      "url": "https://cy4n.dev/post/terminal-behind-the-scenes"
+     },
+     {
+      "title": "Swift Concurrency 中的隔离",
+      "date": "Sat, 14 Jun 2025 12:00:00",
+      "url": "https://cy4n.dev/post/isolation-in-swift-concurrency"
+     },
+     {
+      "title": "一种优雅处理 UserDefaults 的实践",
+      "date": "Tue, 20 May 2025 12:00:00",
+      "url": "https://cy4n.dev/post/my-user-defaults-practice"
+     },
+     {
+      "title": "写在考驾照之后",
+      "date": "Mon, 31 Mar 2025 07:31:00",
+      "url": "https://cy4n.dev/post/take-driving-license"
+     },
+     {
+      "title": "为什么所有权很重要",
+      "date": "Wed, 07 Jun 2023 05:15:20",
+      "url": "https://cy4n.dev/post/why-ownership-matters"
+     },
+     {
+      "title": "But What is Send and Sync?",
+      "date": "Tue, 30 May 2023 02:20:00",
+      "url": "https://cy4n.dev/post/demystify-send-n-sync"
+     },
+     {
+      "title": "编程中的“元”",
+      "date": "Sat, 20 May 2023 08:53:23",
+      "url": "https://cy4n.dev/post/meta-in-programming"
+     },
+     {
+      "title": "Idiomatic Signals for React",
+      "date": "Sat, 13 May 2023 04:45:08",
+      "url": "https://cy4n.dev/post/idiomatic-signals-for-react"
+     },
+     {
+      "title": "Thoughts on React Server Components",
+      "date": "Wed, 26 Apr 2023 12:00:00",
+      "url": "https://cy4n.dev/post/thoughts-on-rsc"
+     },
+     {
+      "title": "为什么 Objective-C 的属性还需要 atomic",
+      "date": "Wed, 27 Jul 2022 00:00:00",
+      "url": "https://cy4n.dev/post/why-objc-needs-atomic"
+     },
+     {
+      "title": "Swift Package Plugin 和 Sandbox 的那些事",
+      "date": "Fri, 01 Jul 2022 00:00:00",
+      "url": "https://cy4n.dev/post/spm-n-sandbox"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "unixzii",
+  "user": {
+   "name": "Cyandev",
+   "company": null,
+   "blog": "https://cy4n.dev",
+   "location": "Beijing, China",
+   "bio": "vibe coder by day, real coder by night.",
+   "public_repos": 118,
+   "followers": 1051,
+   "created_at": "2012-12-23T10:41:56Z",
+   "twitter_username": "unixzii",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "unixzii/ibackupextractor",
+    "description": "A simple tool for extracting files from iOS backup archive.",
+    "stargazers_count": 1333,
+    "forks_count": 59,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2023-09-21T12:27:34Z",
+    "pushed_at": "2026-03-10T12:37:16Z",
+    "topics": [
+     "apple",
+     "backup",
+     "cli",
+     "ios",
+     "itunes",
+     "rust",
+     "tools"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/SwiftUI-2048",
+    "description": "A 2048 game writing with SwiftUI.",
+    "stargazers_count": 734,
+    "forks_count": 72,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2019-06-05T14:00:21Z",
+    "pushed_at": "2020-07-17T18:13:28Z",
+    "topics": [
+     "demo",
+     "ios",
+     "macos",
+     "sample",
+     "swift",
+     "swiftui",
+     "swiftui-example",
+     "wwdc"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/Daysquare",
+    "description": "📆 An elegant calendar control for iOS.",
+    "stargazers_count": 698,
+    "forks_count": 75,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2016-06-09T11:31:03Z",
+    "pushed_at": "2018-08-28T03:54:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/swiftui-for-react-devs",
+    "description": "A cheat sheet that helps React developers to quickly start with SwiftUI.",
+    "stargazers_count": 438,
+    "forks_count": 15,
+    "language": null,
+    "homepage": "",
+    "created_at": "2020-06-26T12:23:16Z",
+    "pushed_at": "2020-06-27T08:31:19Z",
+    "topics": [
+     "cheatsheet",
+     "ios",
+     "javascript",
+     "react",
+     "swift",
+     "swiftui",
+     "swiftui-learning",
+     "tutorial"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/SimRun",
+    "description": "Run iOS Simulator apps directly on your Mac.",
+    "stargazers_count": 302,
+    "forks_count": 20,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2026-10-10T09:09:19Z",
+    "pushed_at": "2026-10-19T05:19:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/android-FancyBehaviorDemo",
+    "description": "A simple demo of customized CoordinatorLayout behavior.",
+    "stargazers_count": 183,
+    "forks_count": 38,
+    "language": "Java",
+    "homepage": null,
+    "created_at": "2016-12-15T03:06:40Z",
+    "pushed_at": "2016-12-15T03:13:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/CVPasscodeController",
+    "description": "🔒 A native looks passcode input interface.",
+    "stargazers_count": 97,
+    "forks_count": 11,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2016-07-07T06:26:28Z",
+    "pushed_at": "2016-07-07T08:16:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/XcodePatch",
+    "description": "A patch collection to save your Xcode.",
+    "stargazers_count": 97,
+    "forks_count": 1,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2022-03-29T11:36:16Z",
+    "pushed_at": "2022-05-17T07:20:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/little-agent",
+    "description": "A lightweight embedded agent framework (similar to Claude Code and OpenAI Codex).",
+    "stargazers_count": 94,
+    "forks_count": 7,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2026-01-29T14:04:40Z",
+    "pushed_at": "2026-02-13T04:08:34Z",
+    "topics": [
+     "agent",
+     "agentic-ai",
+     "ai",
+     "chatbot",
+     "llm"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/MetalPlayer",
+    "description": "A video player using Metal.",
+    "stargazers_count": 91,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-04-30T12:38:03Z",
+    "pushed_at": "2019-06-12T09:41:53Z",
+    "topics": [
+     "macos",
+     "metal",
+     "sample",
+     "shaders",
+     "swift",
+     "video-player"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/SwiftUI-Hooks",
+    "description": "A PoC for implementing hooks in SwiftUI",
+    "stargazers_count": 82,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-06-12T05:28:09Z",
+    "pushed_at": "2019-06-12T13:55:16Z",
+    "topics": [
+     "apple",
+     "hooks",
+     "ios",
+     "react",
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/StringExplorer",
+    "description": "A handy tool to explore various string encoding.",
+    "stargazers_count": 65,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-02-24T06:25:09Z",
+    "pushed_at": "2024-02-24T06:26:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/CyandevToys",
+    "description": "🎉 Sort of fusion code.",
+    "stargazers_count": 63,
+    "forks_count": 63,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2016-04-07T11:30:11Z",
+    "pushed_at": "2017-12-29T11:34:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/agent-explorer",
+    "description": "A browser-based explorer for agent session logs.",
+    "stargazers_count": 60,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "https://agent-explorer.cy4n.dev/",
+    "created_at": "2026-06-24T14:57:30Z",
+    "pushed_at": "2026-09-05T09:03:45Z",
+    "topics": [
+     "agent",
+     "ai",
+     "claude-code",
+     "codex"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/android-source-codes",
+    "description": "⚙️ Code analysis of common Android projects and components.",
+    "stargazers_count": 59,
+    "forks_count": 6,
+    "language": "Java",
+    "homepage": "",
+    "created_at": "2017-06-15T16:58:15Z",
+    "pushed_at": "2017-11-12T09:27:01Z",
+    "topics": [
+     "android",
+     "android-library",
+     "articles",
+     "java",
+     "source-code",
+     "source-code-analysis",
+     "source-code-study"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/swift-signal",
+    "description": "A Swift package that provides reactivity computation inspired by Solid.",
+    "stargazers_count": 56,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-03-12T13:22:05Z",
+    "pushed_at": "2024-04-01T03:50:48Z",
+    "topics": [
+     "reactive",
+     "signal",
+     "solid",
+     "state-management",
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/EnhancedMirror",
+    "description": "An experimental Mirror alternative that utilizes Swift Macros for static reflection.",
+    "stargazers_count": 51,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-06-09T13:10:56Z",
+    "pushed_at": "2023-12-19T06:50:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "unixzii/ZhihuDaily-iOS",
+    "description": "A minimal Zhihu daily app for iOS without any 3rd-party frameworks.",
+    "stargazers_count": 47,
+    "forks_count": 5,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2016-05-23T06:51:35Z",
+    "pushed_at": "2016-05-25T12:16:19Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 95,
+  "languages": [
+   [
+    "Swift",
+    19
+   ],
+   [
+    "Objective-C",
+    13
+   ],
+   [
+    "JavaScript",
+    13
+   ],
+   [
+    "Rust",
+    8
+   ],
+   [
+    "TypeScript",
+    8
+   ],
+   [
+    "Java",
+    7
+   ],
+   [
+    "C++",
+    4
+   ],
+   [
+    "HTML",
+    3
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "Helixform/CodeCursor",
+    "stargazerCount": 1824,
+    "description": "An extension for using Cursor in Visual Studio Code. ",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=ktiays.aicursor"
+   },
+   {
+    "nameWithOwner": "Helixform/TeleGPT",
+    "stargazerCount": 237,
+    "description": "An out-of-box ChatGPT bot for Telegram.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://icystudio.github.io/TeleGPT/telegpt_core"
+   },
+   {
+    "nameWithOwner": "unixzii/swiftui-for-react-devs",
+    "stargazerCount": 438,
+    "description": "A cheat sheet that helps React developers to quickly start with SwiftUI.",
+    "primaryLanguage": null,
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "unixzii/ibackupextractor",
+    "stargazerCount": 1333,
+    "description": "A simple tool for extracting files from iOS backup archive.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "unixzii/SwiftUI-2048",
+    "stargazerCount": 734,
+    "description": "A 2048 game writing with SwiftUI.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "Byron/dua-cli",
+    "stargazerCount": 6369,
+    "description": "View disk space usage and delete unwanted data, fast.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://lib.rs/crates/dua-cli"
+   }
+  ],
+  "contrib_last_year": 1326,
+  "orgs": [
+   "shimohq",
+   "dingtalk-dev",
+   "Helixform"
+  ],
+  "profile_readme": "<img src=\"https://github.com/unixzii/unixzii/raw/master/hero.png\"></img>\n\n## 👋 Hi there, I'm Cyandev.\n\n```\n(lldb) po [self description]\n{\n    📱 = \"I'm a software developer focused on desktop and mobile applications\";\n    🤔 = \"I study GUI techniques and everything related to user interface\";\n    🌟 = \"I love crafting delightful user experience and wonderful things\";\n    🔨 = \"I use Swift, Objective-C, Rust, TypeScript, Kotlin, C++, etc.\";\n    💼 = \"I work at Zoom, and before that I was at ByteDance and Alibaba\";\n    💬 = \"I'm active on Twitter (@unixzii), DMs are welcomed\";\n}\n```\n",
+  "readmes": {
+   "Helixform/CodeCursor": "# CodeCursor (Cursor for Visual Studio Code)\n**Use Cursor right in the editor you love!**\nFirst of all, we would like to thank **Cursor Team** for their brilliant works. Please give their [app](https://www.cursor.so) a try!\n## What's Cursor? And Why This Extension?\nCursor is an AI code editor based on OpenAI GPT models. You can write, edit, and chat about your code with it. At this time, Cursor is only provided as a dedicated app, and the team currently has no plans to develop extensions for other editors or IDEs.\nWe believe there are more developers actively using Visual Studio Code as their main tool for serious work. This is why we built **CodeCursor**. It's not going to replace the Cursor app, but it provides another way to use Cursor.\n## Getting Started\nYou must sign into your Cursor account or configure you own API keys to use this extension. Please refer to the [Custom API Keys](#custom-api-keys) section for details.\n### 🌟 **Experimental**: Generate entire projects with the AI 🌟\nWe bring the experimental features of Cursor's latest AI-generated projects to CodeCursor. Now you can directly create entire projects through AI in VS Code.\nWhen you have opened a workspace, you will be able to see the `Generate Project` command in the Command Palette.\nIf the currently opened workspace is not empty, you will receive a warning dialog asking if you want to continue.\nWhile project generation is in progress, a progress dialog will be displayed. You can click the cancel button on the progress bar at any time to cancel the task.\n### Code Generation\nJust open a document and type `CodeCursor` in Command Palette. You will see the command below:\nType your prompt and the code generation will just begin. To edit some existing code, you can also select something before performing this command. When accepting the change, the selected code will be replaced with the generated one.\nWhile code generation is in progress, the following status bar item will be displayed:\nClick on it to cancel the request. Upon completion of code generation, the status bar item will change to a \"check mark\". You can click it to reopen the generated result at any time.\nThe generated contents will be li",
+   "Helixform/TeleGPT": "# TeleGPT\n[API Docs](https://icystudio.github.io/TeleGPT/telegpt_core) | [Releases](https://github.com/IcyStudio/TeleGPT/releases) | [Twitter](https://twitter.com/unixzii)\nAn out-of-box ChatGPT bot for Telegram.\nTeleGPT is a Telegram bot based on [**teloxide**](https://github.com/teloxide/teloxide) framework and [**async_openai**](https://github.com/64bit/async-openai). It provides an easy way to interact with the latest ChatGPT models utilizing your own API key.\n## Features\n🦀 **Lightning fast** with pure Rust codebase.  \n📢 **All types of chat** (private and group) supports.  \n🚀 **Live streaming tokens** to your message bubble.  \n⌨️ **Telegram-flavoured Markdown** rendering supports.  \n💸 **Token usage** statistic recording and queryable via commands.  \n⚙️ **Fully customizable** with file-based configuration.  \n✋ **Admin features** (Beta) and user access control supports.\n## Getting TeleGPT\n### Docker\nWe recommend you to use the prebuilt docker image when deploying a dedicated server, it is published through GitHub Container Registry by GitHub Action. Currently, machines with amd64 architecture are supported.\n1. Sign in to GitHub Container Registry (needed if unauthorized when pull):\n```shell\ndocker login -u your_github_username -p your_personal_access_token https://ghcr.io\n```\n2. Create a `config.json` file with the template:\n```shell\ncp config.json.example config.json\n```\nFollow the instructions below to fill in tokens in `config.json`.\n- Get Telegram Bot tokens: [https://core.telegram.org/bots/tutorial](https://core.telegram.org/bots/tutorial)\n- Get OpenAI API tokens: [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)\n3. Start the docker container:\n```shell\ndocker-compose up -d # start the container\n```\nOther commands you may find useful:\n```shell\ndocker-compose logs -f # check the logs, press ctrl+c to stop viewing\ndocker-compose down # stop the container\ndocker-compose pull # pull the latest image\n```\n### Download from release\nTo deploy or test in-house, you can download the pre-built binary directly from the [releases](https://github.com/IcyStudio/TeleGPT/releases) page. Currently, Linux and macOS (Intel and Apple S",
+   "unixzii/swiftui-for-react-devs": "============================\nSwiftUI for React Developers\n============================\nThis is a cheat sheet that helps you React developers to quickly start with SwiftUI.\n.. note:: I assume that you are familiar with React Hooks. For the transformation from **Class Components** to **Hooks**, I highly recommend you to visit `Thinking in React Hooks`_, which is a great visualized explanation.\n.. contents:: :local:\nBasics\n======\nBuilding the Contents\n---------------------\nOne of the core parts of these declarative UI frameworks is its DSL syntax,\nboth of them do provide the special inline syntax for building the content.\nFor React, that calls JSX and need to be transpiled by **Babel (with plugins)**\nor **tsc**. For SwiftUI, it's a built-in syntax in Swift 5.1 called\n**Function Builders**.\nIn React:\n.. code-block:: javascript\n  const Hello = () => {\n    return (\n      <div>\n        <p>Hello</p>\n        <p>React is awesome!</p>\n      </div>\n    );\n  };\nIn SwiftUI:\n.. code-block:: swift\n  struct Hello: View {\n      var body: some View {\n          VStack {\n              Text(\"Hello\")\n              Text(\"SwiftUI is awesome!\")\n          }\n      }\n  }\nAs you can see, Swift's syntax feels more natural and JSX seems to be more exotic.\nActually, Web developers should be more familiar with JSX, after all, it's just\nlike HTML.\nProps\n-----\nMost of components render different contents depend on what input is given to it.\nThat is what props comes to play.\nIn React:\n.. code-block:: javascript\n  const Hello = ({name}) => {\n    return <p>Hello, {name}!</p>;\n  };\nIn SwiftUI:\n.. code-block:: swift\n  struct Hello: View {\n      let name: String\n      var body: some View {\n          Text(\"Hello, \\(name)!\")\n      }\n  }\nAlmost the same in semantic!\nConditional & List\n------------------\nStructure of the contents can be dynamic, the most common patterns are conditional\nand list.\nIn React:\n.. code-block:: javascript\n  const UserList = ({ users }) => {\n    if (!users.length) {\n      return <p>No users</p>;\n    }\n    return (\n      <ul>\n        {users.map(e => (\n          <li key={e.id}>{e.username}</li>\n        ))}\n      </ul>\n    );\n  }\nIn SwiftUI:\n.. code-block:: swift\n  struct UserList: Vi",
+   "unixzii/ibackupextractor": "# iBackupExtractor\nA simple tool for extracting files from iOS backup archive.\niOS backup files are not stored with their original directory\nlayouts. Retrieving a particular file from the app sandbox can be\ndifficult. This tool can extract all the files from a backup archive,\nand then you can view the sandbox filesystem as it was originally\nstored in your iPhone or iPad.\n## Install\n### Download From GitHub Releases\nFor Mac users, you can download the pre-built binaries directly from\nthe [releases](https://github.com/unixzii/ibackupextractor/releases)\npage.\n### Build Locally\nTo build the project locally, use Cargo:\n```\ncargo build --release\n```\n## Usage\nFirst, locate the backup archive you want to extract. Usually, they can\nbe found in \n`/Users/<username>/Library/Application Support/MobileSync/Backup`\n**The archive is a directory that contains a `Manifest.db` file.**\nExcept when performing migrations, `Manifest.db` is opened in\nread-only mode, so it will work even when the archive is on a\nread-only filesystem (e.g. HFS+ on Linux).  However, never work on the\nonly copy of your data!\n### Show Backup Information\nThe `info` subcommand shows a summary of the backup archive,\nincluding the manifest location, timestamps, device and iTunes\nmetadata, total files/domains, and the overall size on disk:\n```\nibackupextractor info /path/to/your_backup_archive\n```\nThe `info` command is designed to show _archive-level_ metadata, while\n`list-domains` (see below) shows information related to the _domains_\ninside the archive.\n### List Domains\nBackup files are grouped by iOS \"domains\", and the `list-domains`\nsubcommand will show all the domains in a particular archive, sorted\nby the amount of exportable data in each:\n```\nibackupextractor list-domains /path/to/your_backup_archive\n```\n### Extracting Files\nTo extract files, use the `extract` subcommand, followed by either\n`-d` to select a particular domain or `--all` to extract every domain\nwith data, then the path to the archive directory, and a destination\ndirectory to write the extracted data to.\nFor example, to extract all files from an archive, run:\n```\nibackupextractor extract --all /path/to/your_backup_archive /path/to/dest_dir\n`",
+   "unixzii/SwiftUI-2048": "#  2048 Game (SwiftUI app)\nThis is a simple game to demonstrate the new SwiftUI framework.\n> Note that the game algorithm may have issues, and this is still WIP.\n## Supported Platforms\n* iOS 13.0+\n* macOS 10.15+\n* macOS 11+ (macCatalyst version) \n## License\nMIT\n"
+  }
+ },
+ "apps": []
+}

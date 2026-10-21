@@ -1,0 +1,410 @@
+{
+ "handle": "nikitabobko",
+ "sites": [
+  {
+   "url": "https://www.nbobko.com",
+   "ok": true,
+   "title": "Nikita Bobko @ nbobko.com",
+   "description": "",
+   "stack": [
+    "Asciidoctor 2.0.23",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "Nikita Bobko \n public@nbobko.com \n Home \n| RSS \n| GitHub \n| Mastodon \n| Twitter \n| Bluesky \nHello, web stranger! I am Nikita - a Software Engineer. \nCreator of AeroSpace - tiling window manager for macOS. ex-Kotlin, ex-JetBrains. \nIf you want to contact me, I prefer email: public@nbobko.com \n2026 \n02 Mar 2026. [RU] Podlodka #466 – Window Managers. Podlodka site , Pocketcasts , Castbox , YouTube \n2025 \n23 May 2025. KotlinConf 2025. Swift concurrency for curious Kotliners",
+   "github_links": [
+    "nikitabobko"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://www.nbobko.com/rss.xml",
+    "count_seen": 2,
+    "items": [
+     {
+      "title": "https://nbobko.com [RU] Podlodka #466 – Window Managers",
+      "date": "Tue, 3 Mar 2026 12:50:00 ",
+      "url": "https://podlodka.io/466"
+     },
+     {
+      "title": "https://nbobko.com KotlinConf 2025. Swift concurrency for curious Kotliners",
+      "date": "Fri, 20 Jun 2025 21:28:00",
+      "url": "https://youtu.be/Jyj4kdK8a6o"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "nikitabobko",
+  "user": {
+   "name": "Nikita Bobko",
+   "company": null,
+   "blog": "www.nbobko.com",
+   "location": "Amsterdam, The Netherlands",
+   "bio": "Amateur yak shaver. Creator of AeroSpace - tiling window manager for macOS. ex-Kotlin, ex-JetBrains",
+   "public_repos": 67,
+   "followers": 799,
+   "created_at": "2016-07-18T13:15:37Z",
+   "twitter_username": "nikitabobko",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "nikitabobko/AeroSpace",
+    "description": "AeroSpace is an i3-like tiling window manager for macOS",
+    "stargazers_count": 23575,
+    "forks_count": 752,
+    "language": "Swift",
+    "homepage": "https://nikitabobko.github.io/AeroSpace/guide",
+    "created_at": "2023-05-21T20:20:17Z",
+    "pushed_at": "2026-10-02T11:37:43Z",
+    "topics": [
+     "apple",
+     "i3",
+     "i3wm",
+     "mac",
+     "macos",
+     "swift",
+     "tiling",
+     "tiling-window-manager",
+     "window-manager"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/dotfiles",
+    "description": "My Linux & macOS .dotfiles",
+    "stargazers_count": 50,
+    "forks_count": 0,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2023-11-30T21:12:49Z",
+    "pushed_at": "2023-11-30T21:47:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/gcal-notifier-kotlin-gtk",
+    "description": "Simple Google Calendar notifier for Linux written in Kotlin using GTK lib",
+    "stargazers_count": 18,
+    "forks_count": 0,
+    "language": "Kotlin",
+    "homepage": "",
+    "created_at": "2018-06-27T23:47:19Z",
+    "pushed_at": "2022-06-21T22:34:00Z",
+    "topics": [
+     "calendar",
+     "google-calendar",
+     "gtk",
+     "java-gnome",
+     "java-gnome-lib",
+     "kotlin",
+     "linux",
+     "linux-app"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "nikitabobko/brew-install-path",
+    "description": "Simple script that allows installing homebrew formulas/casks from paths",
+    "stargazers_count": 15,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2025-08-28T17:45:32Z",
+    "pushed_at": "2026-10-07T09:24:50Z",
+    "topics": [
+     "brew",
+     "homebrew",
+     "mac",
+     "macos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/homebrew-tap",
+    "description": "Homebrew tap repo for my software",
+    "stargazers_count": 12,
+    "forks_count": 6,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2023-10-29T18:50:54Z",
+    "pushed_at": "2026-10-06T11:30:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/bobko-intellij-keymap",
+    "description": "My IntelliJ keymaps extracted into the plugin",
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2023-01-08T21:31:54Z",
+    "pushed_at": "2026-01-14T17:12:51Z",
+    "topics": [
+     "intellij",
+     "intellij-plugin",
+     "intellij-plugins"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/commit-newer-older-indicators",
+    "description": "Browser extension that adds simple visual indicators to commit lists on GitHub and JetBrains Space",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-10-02T15:21:04Z",
+    "pushed_at": "2026-02-02T10:50:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/applied-algebra-tests",
+    "description": "Tests for BCH problem of CMC MSU applied algebra course (Тесты для задания БЧХ курса прикладной алгебры ВМК МГУ)",
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2018-12-27T16:18:48Z",
+    "pushed_at": "2019-05-15T21:46:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/nvim-git-sha-goto-declaration",
+    "description": "Vibecoded Nvim plugin to resolve git sha in rebase/cherry-pick todo files",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2026-06-24T16:26:22Z",
+    "pushed_at": "2026-09-10T15:56:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/android-stitch-screenshots",
+    "description": "A simple application to stitch screenshots on Android. Long Screenshots",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Kotlin",
+    "homepage": "",
+    "created_at": "2026-04-25T16:21:02Z",
+    "pushed_at": "2026-05-02T11:27:54Z",
+    "topics": [
+     "android",
+     "long-screenshot",
+     "screenshot",
+     "screenshots"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/android-web-shortcuts",
+    "description": "Simple Android app for creating Web Shortcuts on homescreen",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Kotlin",
+    "homepage": null,
+    "created_at": "2026-07-23T12:32:10Z",
+    "pushed_at": "2026-10-01T11:12:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/bug-reports",
+    "description": "Repository which holds references to the code used in bug reports",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2021-10-31T17:44:26Z",
+    "pushed_at": "2025-08-28T18:33:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/jacobi-eigenvalue-algorithm-cpp",
+    "description": "Jacobi eigenvalue algorithm realization in C++",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "C++",
+    "homepage": "",
+    "created_at": "2018-10-28T12:11:44Z",
+    "pushed_at": "2021-09-15T21:27:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/java-gnome-bin",
+    "description": "Binaries of Java bindings to the GNOME platform (including gtk, glib and glade)",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2019-03-02T12:24:00Z",
+    "pushed_at": "2020-08-02T14:21:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/my-first-code-ever",
+    "description": "Repository contains only one dates.c file which solves some problems linked with dates. It was my first codding experience so code is awful",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2018-03-11T10:46:56Z",
+    "pushed_at": "2021-09-15T21:03:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/sso-github-autoclick",
+    "description": "Automatically clicks the Continue button on GitHub Single Sign-On pages",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2026-02-19T16:35:16Z",
+    "pushed_at": "2026-02-20T12:04:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/todomail",
+    "description": "Todomail makes it possible to use email as your TODO app. Send emails from preconfigured emails to other preconfigured emails",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Kotlin",
+    "homepage": "",
+    "created_at": "2021-10-24T18:59:23Z",
+    "pushed_at": "2022-01-05T01:49:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nikitabobko/applied-algebra",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TeX",
+    "homepage": null,
+    "created_at": "2019-02-10T19:36:24Z",
+    "pushed_at": "2019-02-10T19:40:13Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 28,
+  "languages": [
+   [
+    "Kotlin",
+    7
+   ],
+   [
+    "Shell",
+    6
+   ],
+   [
+    "C",
+    3
+   ],
+   [
+    "Ruby",
+    2
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "Java",
+    2
+   ],
+   [
+    "Swift",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "nikitabobko/AeroSpace",
+    "stargazerCount": 23575,
+    "description": "AeroSpace is an i3-like tiling window manager for macOS",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://nikitabobko.github.io/AeroSpace/guide"
+   },
+   {
+    "nameWithOwner": "JetBrains/kotlin",
+    "stargazerCount": 53495,
+    "description": "The Kotlin Programming Language. ",
+    "primaryLanguage": {
+     "name": "Kotlin"
+    },
+    "homepageUrl": "https://kotlinlang.org"
+   },
+   {
+    "nameWithOwner": "JetBrains/intellij-community",
+    "stargazerCount": 20648,
+    "description": "IntelliJ IDEA & IntelliJ Platform",
+    "primaryLanguage": {
+     "name": "Java"
+    },
+    "homepageUrl": "https://jetbrains.com/idea"
+   },
+   {
+    "nameWithOwner": "nikitabobko/dotfiles",
+    "stargazerCount": 50,
+    "description": "My Linux & macOS .dotfiles",
+    "primaryLanguage": {
+     "name": "Shell"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "Kotlin/KEEP",
+    "stargazerCount": 3774,
+    "description": "Kotlin Evolution and Enhancement Process",
+    "primaryLanguage": {
+     "name": "Markdown"
+    },
+    "homepageUrl": "https://kotlinlang.org/docs/kotlin-language-features-and-proposals.html"
+   },
+   {
+    "nameWithOwner": "nikitabobko/brew-install-path",
+    "stargazerCount": 15,
+    "description": "Simple script that allows installing homebrew formulas/casks from paths",
+    "primaryLanguage": {
+     "name": "Ruby"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 660,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "nikitabobko/AeroSpace": "# AeroSpace Beta [](https://github.com/nikitabobko/AeroSpace/actions/workflows/build.yml)\nAeroSpace is an i3-like tiling window manager for macOS\nVideos:\n- [YouTube 91 sec Demo](https://www.youtube.com/watch?v=UOl7ErqWbrk)\n- [YouTube Guide by Josean Martinez](https://www.youtube.com/watch?v=-FoWClVHG5g)\nDocs:\n- [AeroSpace Guide](https://nikitabobko.github.io/AeroSpace/guide)\n- [AeroSpace Commands](https://nikitabobko.github.io/AeroSpace/commands)\n- [AeroSpace Goodies](https://nikitabobko.github.io/AeroSpace/goodies)\n## Key features\n- Tiling window manager based on a [tree paradigm](https://nikitabobko.github.io/AeroSpace/guide#tree)\n- [i3](https://i3wm.org/) inspired\n- Fast workspaces switching without animations and without the necessity to disable SIP\n- AeroSpace employs its [own emulation of virtual workspaces](https://nikitabobko.github.io/AeroSpace/guide#emulation-of-virtual-workspaces) instead of relying on native macOS Spaces due to [their considerable limitations](https://nikitabobko.github.io/AeroSpace/guide#emulation-of-virtual-workspaces)\n- Plain text configuration (dotfiles friendly). See: [default-config.toml](https://nikitabobko.github.io/AeroSpace/guide#default-config)\n- CLI first (manpages and shell completion included)\n- Doesn't require disabling SIP (System Integrity Protection)\n- [Proper multi-monitor support](https://nikitabobko.github.io/AeroSpace/guide#multiple-monitors) (i3-like paradigm)\n## Installation\nInstall via [Homebrew](https://brew.sh/) to get autoupdates (Preferred)\n```\nbrew install --cask nikitabobko/tap/aerospace\n```\nIn multi-monitor setup please make sure that monitors [are properly arranged](https://nikitabobko.github.io/AeroSpace/guide#proper-monitor-arrangement).\nOther installation options: https://nikitabobko.github.io/AeroSpace/guide#installation\n> [!NOTE]\n> By using AeroSpace, you acknowledge that it's not [notarized](https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution).\n>\n> Notarization is a \"security\" feature by Apple.\n> You send binaries to Apple, and they either approve them or not.\n> In reality, notarization is about building binaries the way Apple likes it.\n>\n> I don't ha",
+   "JetBrains/kotlin": "[](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)\n[](https://teamcity.jetbrains.com/buildConfiguration/Kotlin_KotlinPublic_Compiler?branch=%3Cdefault%3E&buildTypeTab=overview&mode=builds)\n[](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.jetbrains.kotlin%22)\n[](https://www.apache.org/licenses/LICENSE-2.0)\n[](https://ge.jetbrains.com/scans?search.rootProjectNames=Kotlin)\n# Kotlin Programming Language\nWelcome to [Kotlin](https://kotlinlang.org/)!   \nKotlin is a concise multiplatform language developed by [JetBrains](https://www.jetbrains.com/) and [contributors](https://kotlinlang.org/docs/contribute.html).\nSome handy links:\n * [Kotlin Site](https://kotlinlang.org/)\n * [Getting Started Guide](https://kotlinlang.org/docs/tutorials/getting-started.html)\n * [Try Kotlin](https://play.kotlinlang.org/)\n * [Kotlin Standard Library](https://kotlinlang.org/api/latest/jvm/stdlib/index.html)\n * [Issue Tracker](https://youtrack.jetbrains.com/issues/KT)\n * [Kotlin YouTube Channel](https://www.youtube.com/channel/UCP7uiEZIqci43m22KDl0sNw)\n * [Forum](https://discuss.kotlinlang.org/)\n * [Kotlin Blog](https://blog.jetbrains.com/kotlin/)\n * [Subscribe to Kotlin YouTube channel](https://www.youtube.com/channel/UCP7uiEZIqci43m22KDl0sNw)\n * [Follow Kotlin on Twitter](https://twitter.com/kotlin)\n * [Public Slack channel](https://slack.kotlinlang.org/)\n * [TeamCity CI build](https://teamcity.jetbrains.com/project.html?tab=projectOverview&projectId=Kotlin)\n * [Kotlin Foundation](https://kotlinfoundation.org/)\n## Kotlin Multiplatform capabilities\nSupport for multiplatform programming is one of Kotlin’s key benefits. It reduces time spent writing and maintaining the same code for [different platforms](https://kotlinlang.org/docs/reference/mpp-supported-platforms.html) while retaining the flexibility and benefits of native programming.\n * [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) and [Compose Multiplatform](https://www.jetbrains.com/compose-multiplatform/) for sharing business logic and UI between Android, iOS, desktop, and web.\n * [Get started with Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-star",
+   "JetBrains/intellij-community": "[](https://github.com/JetBrains/.github/blob/main/profile/README.md) [](https://github.com/JetBrains/intellij-community/actions/workflows/IntelliJ_IDEA.yml?query=branch%3Amaster) [](https://github.com/JetBrains/intellij-community/actions/workflows/PyCharm.yml?query=branch%3Amaster)\n# IntelliJ Open Source Repository\nThis repository is the open-source part of the JetBrains IDEs codebase.\nIt also serves as the basis for [IntelliJ Platform development](https://www.jetbrains.com/opensource/idea). \nThese instructions will help you build and run open source parts of IntelliJ Platform / IntelliJ IDEA / PyCharm.\nIf you are new to the community and would like to contribute code or help others learn,\nsee [CONTRIBUTING.md](https://github.com/JetBrains/intellij-community/blob/master/CONTRIBUTING.md) to get started.\nThe following conventions will be used to refer to directories on your machine:\n* `<USER_HOME>` is your OS user's home directory.\n* `<IDEA_HOME>` is the root directory for the **IntelliJ source code**.\n---\n## Getting the Source Code\nThis section will guide you through getting the project sources and help avoid common issues in Git config and other steps before opening it in the IDE.\n### Prerequisites\n- Install [Git](https://git-scm.com/).\n- On **Windows**, set these Git options to avoid common issues during cloning:\n  ```shell\n  git config --global core.longpaths true\n  git config --global core.autocrlf input\n  ```\n### Clone Main Repository\nIntelliJ open source repository is available from the [GitHub repository](https://github.com/JetBrains/intellij-community),\nwhich can be cloned or downloaded as a zip file (based on a branch) into `<IDEA_HOME>`. \nThe **master** (_default_) branch contains the source code which will be used to create the next major version of all JetBrains IDEs. \nThe branch names and build numbers for older releases of JetBrains IDEs can be found on the\n[Build Number Ranges](https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html) page.\nYou can [clone this project](https://www.jetbrains.com/help/idea/manage-projects-hosted-on-github.html#clone-from-GitHub) using IntelliJ IDEA\n(see [Opening the IntelliJ IDEA Source Code in the IDE](#",
+   "nikitabobko/dotfiles": "# Bobko Linux & macOS .dotfiles\nThe repo contains my configs for the CLI and some GUI apps. It's mostly CLI oriented environment\n## Highlights\n### ⭐ VIM as a default $EDITOR\nI always thought that VIM is some sort of ancient software that people still use for some reason, but one day I read \"Practical\nVIM\", and it changed everything. VIM is awesome. IMO, the best way to explore VIM by reading \"Practical Vim\" by Drew Neil.\n- VIM isn't just a editor, it's entirely different paradigm. It's a concept that allows a more efficient text manipulations. If\n  you do programming or a lot of writing, then VIM is a must learn\n- VIM is so popular that its \"hotkeys\" are the only hotkeys you find supported in majority of software. You can stop learning a\n  set of hotkeys for each software, and apply your knowledge of VIM hotkeys for:\n  - [browsers](https://github.com/philc/vimium)\n  - Other text editors and IDEs [IntelliJ IDEA](https://github.com/JetBrains/ideavim),\n    [VS Code](https://github.com/vscode-neovim/vscode-neovim), [Xcode](https://developer.apple.com/forums/thread/681968) (Though\n    XCode supports a limited set of keys), [Obsidian](https://obsidian.md/), etc\n  - VIM mode for macOS - https://kindavim.app/ (Though I didn't try it)\n- VIM \"hotkeys\" are OS independent. The only modifier that VIM uses is CTRL, which is hopefully is on the same place on the\n  keyboard (bottom left corner) on all computer OS'es. All other operations are performed using only QWERTY, which is obviously\n  the same on all OS'es. (Yes, macOS, I'm looking at you with your custom CMD and OPT modifiers)\n### ⭐ grep shortcut for 90% of use cases\n[`gp`](../.bin/gp) - Basically, it's a `grep --fixed-string --ignore-case` alias. But there are small tweaks.\n- If you pipe something into `gp`, then it searched in stdin. Otherwise, it searches in text files in current dir recursively\n- Searches for the plain text match, not regex (because it's what's needed in 90%)\n- Ignores case by default (because it's what's needed in 90%)\n- No need to put quotes around the search query. `gp search query` and `gp \"search query\"` are equivalent\n- Uses `-n` to print line number by default. It's needed to make it possible ",
+   "Kotlin/KEEP": "[](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [](https://github.com/Kotlin/KEEP/actions/workflows/check-uniq-keep-ids.yml)\n# KEEP - Kotlin Evolution and Enhancement Process\nThis repository contains proposals for the [Kotlin Programming Language](https://kotlinlang.org), including \ndraft design notes and discussions for in-progress proposals as well as\nthe design documentation on the changes that were already implemented. \nThe proposals themselves are colloquially referred to as KEEPs. \nThey cover both the language itself and its standard library. \nThe implementation of the corresponding design enhancements usually lives in \nthe [Kotlin Source Code Repository](https://github.com/JetBrains/kotlin).\n## KEEP document lifecycle\n**1. The proposal is published.**\nEvery new proposal gets a KEEP number (previous proposal number + 1).\nThe Markdown file is prefixed with the `KEEP-xxxx-` number and merged to the `main` branch.\n**2. Public KEEP review stage.**\nImmediately after publishing the proposal, a new [GitHub Discussion](https://github.com/Kotlin/KEEP/discussions) is opened.\nAt this stage, we invite the community to read the proposal and share their opinion in the discussion.\n**3. The final decision on the proposal.**\nThe proposal is either Accepted, Rejected, or requires further refinement.\nFor the specific proposals of your interest, it's also worth following an appropriate YouTrack issue\nwhich is usually mentioned in the KEEP document header.\nThe up-to-date status of each proposal must be recorded in the KEEP document header.\nGenerally we use the following statuses:\n- `Public discussion`\n- `In progress`\n- `Experimental in 2.0.0`\n- `Stable` (discouraged, old status)\n- `Stable in 2.1.0`\n- `Declined`\n- `Unknown` (discouraged, used for old proposals)\n- `Superseded by KEEP-xxxx`\n## Follow for updates\nEvery time a new KEEP proposal is published,\nwe notify the community in the following channels:\n* [#language-proposals](https://kotlinlang.slack.com/messages/language-proposals/) channel in Kotlin public Slack\n  (get an invite [here](http://slack.kotlinlang.org/));\n* [GitHub Discussions RSS feed](https://github.com/Kotlin/KEEP/discussions/categories/k"
+  }
+ },
+ "apps": []
+}
