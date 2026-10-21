@@ -1,165 +1,168 @@
 {
  "name": "Mark（mkdir700）",
- "role": "UniClipboard 作者 · 外企工程师",
+ "role": "UniClipboard 作者 · 上海的产品工程师",
  "title": "Mark：在一台设备上复制，<em>在任何设备上粘贴</em>",
- "dek": "上海一家世界五百强外企的工程师，GitHub 简介写着「Slow is Smooth, Smooth is Fast」。TA 用 Rust 写了端到端加密、无需账号和服务器的跨平台剪贴板 UniClipboard；在博客里认真思考「要不要离职，回老家做一人公司」，也写下哥哥「一场被截断的人生」。",
- "card": "UniClipboard（跨平台 E2E 加密剪贴板，★1.9k）作者，上海外企工程师，博客 z2blog。",
+ "dek": "上海一家世界五百强外企的工程师，GitHub 签名是「Slow is Smooth, Smooth is Fast」。TA 用 Rust 写了端到端加密、无需账号和服务器的跨平台剪贴板 UniClipboard，覆盖 Mac、Windows、Linux、iPhone 和 Android，获得近两千颗星；也做了语言学习播放器 EchoPlayer，在博客里写 Rust、Agent，以及「要不要离职，回老家做一人公司」。",
+ "card": "UniClipboard（★1.9 千）、EchoPlayer、wx-ime-sdk 作者；上海的本地优先软件工程师。",
  "location": "中国上海",
- "tags": [
-  "Rust",
-  "跨平台",
-  "剪贴板",
-  "AI 编程",
-  "写作"
- ],
+ "updated": "2026-10-21",
+ "tags": ["Rust", "本地优先", "端到端加密", "跨平台", "开源"],
  "links": [
-  {
-   "label": "UniClipboard",
-   "url": "https://uniclipboard.app"
-  },
-  {
-   "label": "博客",
-   "url": "http://z2blog.com"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/mkdir700"
-  }
+  {"label": "UniClipboard", "url": "https://uniclipboard.app"},
+  {"label": "Mkdir700's Notes", "url": "http://z2blog.com"},
+  {"label": "GitHub", "url": "https://github.com/mkdir700"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个踏实的工程师，相信「慢就是稳，稳就是快」，在稳定的工作之外认真打磨自己的开源产品。",
-  "<strong>代表作：</strong>UniClipboard（Mac / Windows / Linux / iPhone / Android 之间的剪贴板共享，端到端加密，无账号无服务器，GitHub 1.9k 星）、wx-ime-sdk（微信输入法跨设备剪贴板的独立 Rust 客户端）、EchoPlayer（用真实影视训练听力与口语）、x-summary（X 推文智能摘要）、早期的超星学习通签到脚本。",
-  "<strong>为什么值得关注：</strong>TA 的博客把技术、职业选择和家庭生活放在一起写，真实而克制。"
+  "<strong>一句话：</strong>GitHub 主页「I build software that feels native, stays understandable, and keeps your data yours.」（做感觉原生、始终可理解、让数据属于你的软件。）",
+  "<strong>代表作：</strong>UniClipboard（★1,914）、UniClip 移动端、UniClipboard Engine、EchoPlayer、wx-ime-sdk（★86）、x-summary。",
+  "<strong>关键数字：</strong>GitHub 159 个公开仓库，近一年 8,335 次贡献；UniClipboard 覆盖 5 个平台，官网有 7 篇工程博客和一份技术白皮书。",
+  "<strong>TA 的立场：</strong>「剪贴板应该是一种能力，而不是一项云服务。」"
  ],
- "lead": "Mark 在 2026 年 3 月写了一篇《要不要离职，回老家做一人公司？》。TA 列出了现在工作的好：上海、世界五百强外企、不怎么加班、15 天病假、15 天年假、门诊全额报销，每月还能结余一万多。然后 TA 开始认真思考另一种可能。",
+ "lead": "剪贴板里常常是密码、验证码和私人内容。大多数跨设备剪贴板工具要你注册账号、把数据经过别人的服务器。UniClipboard 反过来：本地优先、点对点、端到端加密，没有账号，没有云依赖，没有中心服务器。连搜索都是加密的：索引在磁盘上加密，靠匹配 HMAC 词条标签而不是明文来查找。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "产品工程师，构建本地优先软件"],
+     ["所在地", "中国上海"],
+     ["工作", "世界五百强外企工程师"],
+     ["技术栈", "Rust、Python、TypeScript、Tauri / Electron、Neovim"],
+     ["代表作", "UniClipboard、EchoPlayer、wx-ime-sdk"],
+     ["开源组织", "UniClipboard"],
+     ["博客", "Mkdir700's Notes（2020 至今）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Mark 业余时间几乎都在做 UniClipboard。桌面端和移动端共用同一个用 Rust 写的同步引擎，「你的手机从来不是二等设备」。引擎负责设备身份、配对、同步、历史、加密搜索、文件传输和本地密文存储，并为 macOS、Windows、Linux、iOS、Android 和鸿蒙提供跨平台绑定。"},
+    {"p": "2026 年 10 月，TA 又开源了 wx-ime-sdk：微信输入法跨设备剪贴板的独立 Rust 客户端，并写了一篇《微信输入法 vs UniClipboard：保留你的键盘，扩展你的剪贴板》。"},
+    {"note": "本页依据 z2blog.com、uniclipboard.app（首页与博客）、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。博客中涉及家人的私人内容未收录。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2019–2021",
-       "title": "从脚本开始",
-       "text": "2019 年注册 GitHub。2020 年写了超星学习通课堂签到与健康打卡脚本（★310）和打卡签到合集；2021 年做过某期刊检索接口的逆向分析。"
-      },
-      {
-       "when": "2024",
-       "title": "UniClipboard 起步",
-       "text": "用 Rust 开始做跨平台剪贴板共享工具，目标是「无缝的剪贴板体验」；同年为 Solana 交易解析器做了 Python 绑定。"
-      },
-      {
-       "when": "2025",
-       "title": "EchoPlayer 与 x-summary",
-       "text": "EchoPlayer 让你用真实电影和剧集系统训练听力、发音和口语；x-summary 一键生成 X 推文与搜索结果的摘要。博客写下《在 zsh 里同时用上 Vim 和 Emacs 快捷键》。"
-      },
-      {
-       "when": "2026",
-       "title": "AI 编程与人生思考",
-       "text": "写《Agent Teams 完全配置手册》《月成本 100 元内爽用 Codex》《暴力而优雅：DOS 程序员如何用两个字节控制屏幕》《为什么熵增定律反而说明 AI 很难真正取代人》，以及《一场被截断的人生》《要不要离职，回老家做一人公司？》；开源 wx-ime-sdk。UniClipboard 扩展到 iPhone 与 Android，并提供在线试用。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2019–2021", "title": "从脚本开始", "text": "2019 年注册 GitHub；学生时代写过学习通签到与健康打卡等自动化脚本（★311），做过期刊检索接口的逆向分析。"},
+     {"when": "2023", "title": "Neovim", "text": "基于 LunarVim 的开箱即用 IDE 配置；通过 SSH 转发切换输入法的 Vim 插件 im-select-remote.nvim。"},
+     {"when": "2024", "title": "UniClipboard 起步", "text": "用 Rust 开始做跨平台剪贴板共享工具；为 Solana 交易解析器做了 Python 绑定，参与开源 Solana 交易机器人项目。"},
+     {"when": "2025", "title": "EchoPlayer 与 Rust 笔记", "text": "EchoPlayer 让你用真实影视逐句精听，训练听力、发音和口语；x-summary 一键总结 X 推文；博客写 Tokio 异步锁、objc2 重复编译、WebRTC、向量数据库、macOS 代码签名。"},
+     {"when": "2026", "title": "AI 编程与人生选择", "text": "写《Agent Teams 完全配置手册》《暴力而优雅：DOS 程序员如何用两个字节控制屏幕》《为什么熵增定律反而说明 AI 很难真正取代人》《要不要离职，回老家做一人公司？》；UniClipboard 扩展到 iPhone 与 Android，推出在线试用和技术白皮书；开源 wx-ime-sdk。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "UniClipboard",
-       "meta": "Rust · 开源 · ★1.9k",
-       "text": "One clipboard. Every device you own. 文本、图片、文件只在你自己的设备之间流动，端到端加密。",
-       "url": "https://uniclipboard.app"
-      },
-      {
-       "name": "EchoPlayer",
-       "meta": "2025 · TypeScript",
-       "text": "用真实影视内容系统训练听力、发音与口语。",
-       "url": "https://github.com/mkdir700/EchoPlayer"
-      },
-      {
-       "name": "wx-ime-sdk",
-       "meta": "2026 · Rust",
-       "text": "微信输入法跨设备剪贴板的独立 Rust 客户端。",
-       "url": "https://github.com/mkdir700/wx-ime-sdk"
-      },
-      {
-       "name": "x-summary",
-       "meta": "2025 · 浏览器扩展",
-       "text": "一键生成 X 推文和搜索结果的智能摘要。",
-       "url": "https://github.com/mkdir700/x-summary"
-      }
+    {"work": {
+     "name": "UniClipboard", "url": "https://uniclipboard.app",
+     "meta": ["2024 起", "Rust + TypeScript", "开源"],
+     "paras": [
+      "「One clipboard. Every device you own.」文本、图片和文件只在你自己的设备之间流动，端到端加密，不需要账号，也不需要运行服务器。系统剪贴板从此跨平台、可搜索、加密。",
+      "官网有浏览器在线试用、使用场景、对比、文档、更新日志和技术白皮书；工程博客讲清楚加密搜索等设计取舍。"
+     ],
+     "facts": [["GitHub", "★1,914"], ["平台", "Mac · Windows · Linux · iPhone · Android"]]
+    }},
+    {"work": {
+     "name": "EchoPlayer", "url": "https://github.com/mkdir700/EchoPlayer",
+     "meta": ["2025", "Electron + React", "语言学习"],
+     "paras": [
+      "「专为语言学习者设计的视频播放器。」通过逐句精听，用电影、剧集、纪录片系统地训练听力、发音与表达。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "wx-ime-sdk", "url": "https://github.com/mkdir700/wx-ime-sdk",
+     "meta": ["2026.10", "Rust"],
+     "paras": [
+      "微信输入法（WeType）跨设备剪贴板的独立 Rust 客户端，发布当月获得 86 颗星。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["UniClipboard Engine", "2026", "跨六个平台共享的端到端加密 P2P 核心"],
+      ["x-summary", "2025", "一键生成 X 推文和搜索结果摘要的浏览器扩展"],
+      ["im-select-remote.nvim", "2023", "基于 SSH 转发的 Vim 输入法切换插件"],
+      ["trade-calc-bot", "2024", "仓位管理计算机器人（Go）"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://z2blog.com",
-      "paras": [
-       "「Mkdir700's Notes」：首页、标签、归档、友链。文章按日期排列，技术长文与生活随笔交替出现。",
-       "UniClipboard 的官网则很完整：在线试用、对比、使用场景、文档、更新日志、技术白皮书和赞助入口。"
-      ]
-     }
-    },
-    {
-     "p": "《一场被截断的人生》写的是 TA 的大哥：农村长大、奶奶带大、一路读到研究生、考进林业局成为公务员……这是整个博客最沉重也最真实的一篇。"
-    }
+    {"site": {"url": "http://z2blog.com", "paras": [
+     "「Mkdir700's Notes」：首页、标签、归档、友链。文章按日期排列，技术长文（Rust、分布式事务、WebRTC、Agent 配置）与生活随笔交替出现。",
+     "《要不要离职，回老家做一人公司？》认真盘点了一份「其实已经很好」的外企工作，以及离开它意味着什么。这种公开思考，比结论更有价值。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["时间", "2020–2026"],
+      ["内容", "Rust、前端、AI 编程、人生选择"],
+      ["产品站", "UniClipboard：Next.js + Vercel，中英文工程博客"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "UniClipboard 的设计原则很明确：<strong>无账号、无服务器、端到端加密</strong>。剪贴板里常常是密码、验证码和私人内容，所以「只在你自己的设备之间流动」比任何功能都重要。"
-    },
-    {
-     "quote": "Slow is Smooth, Smooth is Fast.",
-     "cite": "mkdir700 的 GitHub 简介"
-    }
+    {"posts": [
+     {"date": "2026-03-11", "title": "要不要离职，回老家做一人公司？", "url": "http://z2blog.com"},
+     {"date": "2026-03-09", "title": "为什么熵增定律，反而说明 AI 很难真正「取代人」", "url": "http://z2blog.com"},
+     {"date": "2026-03-09", "title": "Agent Teams 完全配置手册：终端、记忆与工作流", "url": "http://z2blog.com"},
+     {"date": "2026-02-12", "title": "暴力而优雅：DOS 程序员如何用两个字节控制屏幕", "url": "http://z2blog.com"},
+     {"date": "2025-03-15", "title": "Tokio：为什么异步互斥锁比同步互斥锁更「昂贵」", "url": "http://z2blog.com"}
+    ]},
+    {"quote": "Slow is Smooth, Smooth is Fast.", "cite": "Mark，GitHub 简介"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["架构", "本地优先、P2P、端到端加密，隐私即设计", "P2P 在复杂网络下的稳定性需要持续打磨"],
+      ["工程", "Rust 核心、跨六平台绑定、白皮书公开", "引擎仍在 1.0 之前"],
+      ["写作", "技术与人生并重，真诚", "部分 AI 订阅教程涉及平台条款，需自行判断"],
+      ["节奏", "业余时间高产", "主业之外精力有限"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>隐私即架构：</strong>不需要服务器的设计，天然更安全。",
-      "<strong>稳定工作 + 开源产品：</strong>先积累，再决定要不要跳。",
-      "<strong>技术文章与人生随笔并重：</strong>完整的人比单一的技术人设更打动人。",
-      "<strong>慢就是快：</strong>扎实做好每一步。"
-     ]
-    }
+    {"checklist": [
+     "<strong>隐私即架构：</strong>不需要服务器的设计，天然更安全。",
+     "<strong>手机不是二等设备：</strong>所有平台共用同一个核心引擎。",
+     "<strong>公开设计取舍：</strong>白皮书和工程博客让用户放心。",
+     "<strong>稳定工作 + 开源产品：</strong>先积累，再决定要不要跳。",
+     "<strong>慢就是快：</strong>扎实做好每一步。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "UniClipboard", "url": "https://uniclipboard.app", "why": "先在浏览器里试一下跨设备粘贴。"},
+     {"name": "UniClipboard Blog", "url": "https://uniclipboard.app/blog", "why": "看加密搜索是怎么实现的。"},
+     {"name": "EchoPlayer", "url": "https://github.com/mkdir700/EchoPlayer", "why": "用一部喜欢的电影练听力。"}
+    ]}
    ]
   }
  ],
- "cta": "在浏览器里试试 UniClipboard，体验跨设备复制粘贴。",
+ "cta": "装上 UniClipboard，在 Mac 上复制，在手机上粘贴。",
  "sources": [
-  {
-   "label": "Mark 的 X 个人资料",
-   "url": "https://x.com/mkdir700"
-  },
-  {
-   "label": "Mkdir700's Notes",
-   "url": "http://z2blog.com"
-  },
-  {
-   "label": "UniClipboard 官网",
-   "url": "https://uniclipboard.app"
-  },
-  {
-   "label": "GitHub：mkdir700",
-   "url": "https://github.com/mkdir700"
-  }
+  {"label": "Mark 的 X 个人资料", "url": "https://x.com/mkdir700"},
+  {"label": "Mkdir700's Notes", "url": "http://z2blog.com"},
+  {"label": "UniClipboard 官网", "url": "https://uniclipboard.app"},
+  {"label": "GitHub：UniClipboard", "url": "https://github.com/UniClipboard/UniClipboard"},
+  {"label": "GitHub：mkdir700", "url": "https://github.com/mkdir700"}
  ]
 }

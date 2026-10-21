@@ -1,135 +1,153 @@
 {
- "name": "Shawn Gong（Shawn_0）",
+ "name": "Shawn Gong",
  "role": "LumiFlow 开发者 · 海螺电台主播",
  "title": "Shawn：帮你<em>决定今天做什么</em>的睡眠教练",
- "dek": "杭州的独立开发者和播客人。TA 是播客「海螺电台 The Spiral」的创作者与主播之一，这档节目记录「行动和探索的过程」；现在 TA 在做 LumiFlow：一个围绕晨光、咖啡因截止和数字日落三个习惯的睡眠与精力教练。",
- "card": "LumiFlow（睡眠与精力教练）开发者，播客「海螺电台 The Spiral」创作者与主播，杭州。",
+ "dek": "杭州的独立开发者和播客人。TA 和 LeeThree 一起创作播客「海螺电台 The Spiral」，一档「记录行动和探索过程」的节目，聊过城市选择、远程与自由职业、产品经理的未来、在日本和美国的生活。现在 TA 在做 LumiFlow：一个围绕晨光、咖啡因截止和数字日落三个习惯的睡眠与精力教练。",
+ "card": "LumiFlow 开发者；播客「海螺电台 The Spiral」创作者与主播，杭州。",
  "location": "中国杭州",
- "tags": [
-  "iOS",
-  "健康",
-  "Apple Watch",
-  "播客",
-  "习惯"
- ],
+ "updated": "2026-10-21",
+ "tags": ["健康", "睡眠", "播客", "iOS", "习惯"],
  "links": [
-  {
-   "label": "LumiFlow",
-   "url": "https://apps.apple.com/us/app/lumiflow-sleep-energy-coach/id6753916133"
-  },
-  {
-   "label": "海螺电台",
-   "url": "https://podwise.ai/podcasts/4703"
-  }
+  {"label": "LumiFlow（App Store）", "url": "https://apps.apple.com/us/app/lumiflow-sleep-energy-coach/id6753916133"},
+  {"label": "海螺电台（Podwise）", "url": "https://podwise.ai/podcasts/4703"},
+  {"label": "X", "url": "https://x.com/G_Z_Y"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个既做播客、也做 App 的创作者，关注人如何更好地生活、休息与探索。",
-  "<strong>代表作：</strong>LumiFlow（DangoCat Tech 出品，iPhone，结合 Apple Watch 与健康数据）；播客「海螺电台 The Spiral」（与 LeeThree 一起主持，聊家居生活、日本生活初体验、美国读书生活等）。",
-  "<strong>为什么值得关注：</strong>LumiFlow 的定位很清醒：「大多数睡眠 App 告诉你昨晚发生了什么，LumiFlow 帮你决定今天做什么。」"
+  "<strong>一句话：</strong>X 简介「Building \"LumiFlow\" for better sleep and routines. Creator & host of @Spiralpodcast」。",
+  "<strong>代表作：</strong>LumiFlow: Sleep & Energy Coach（2026 年 5 月上架，已更新到 v1.2.0）；播客海螺电台 The Spiral（42 期）。",
+  "<strong>关键数字：</strong>2009 年注册 Twitter，推文 1.7 万条；海螺电台 2019 年前后开播，第 27 期庆祝两周岁。",
+  "<strong>LumiFlow 的一句话：</strong>「大多数睡眠 App 告诉你昨晚发生了什么，LumiFlow 帮你决定今天做什么。」"
  ],
- "lead": "LumiFlow 的 App Store 介绍第一句：「Most sleep apps tell you what happened last night. LumiFlow helps you decide what to do today.」把「事后统计」换成「当下行动」，是这款 App 最核心的设计决定。",
+ "lead": "睡眠 App 通常给你一堆数据：深睡多少分钟、心率变异性多少。LumiFlow 反过来做：不再给你更多数据去解读，而是把模式翻译成每天三个简单的动作：早上晒晒太阳，下午定一个最后一杯咖啡的时间，睡前减少屏幕。好的睡眠，从今天的选择开始。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者、播客创作者"],
+     ["所在地", "中国杭州"],
+     ["产品", "LumiFlow（开发者名称 DangoCat Tech）"],
+     ["播客", "海螺电台 The Spiral（与 LeeThree 共同主持）"],
+     ["平台", "iPhone + Apple Watch + Apple 健康"],
+     ["X", "2009 年注册，ID 是 G_Z_Y"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Shawn 现在专注 LumiFlow。它可以和你现有的睡眠追踪器一起使用，关注的是<strong>影响睡眠的输入</strong>：光照、咖啡因时间、屏幕和日常节律。你设定自己的节律计划，在关键时刻收到提醒，并按周看到习惯带来的变化。"},
+    {"p": "在做产品之前，TA 用播客记录自己和朋友的「行动和探索过程」。这种把复杂的事讲清楚、让人愿意听下去的能力，也体现在 LumiFlow 的极简设计上。"},
+    {"note": "本页依据 App Store 资料、Podwise 上的海螺电台节目列表和 X 资料整理，资料截至 2026 年 10 月。播客原网站 thespiral.fm 目前提示需要续费，无法访问。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2009",
-       "title": "早期推友",
-       "text": "2009 年就注册了 Twitter，ID 是 G_Z_Y。"
-      },
-      {
-       "when": "2021–2023",
-       "title": "海螺电台 The Spiral",
-       "text": "与 LeeThree 一起创作播客「海螺电台」：一个「记录行动和探索过程」的创作计划。节目在第 27 期庆祝了两周岁，话题包括家居生活、在日本和美国的生活与读书经历。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "LumiFlow",
-       "text": "以 DangoCat Tech 发布 LumiFlow：围绕三个每日节律习惯（Morning Light 晨光、Caffeine Cutoff 咖啡因截止、Digital Sunset 数字日落），结合 Apple Watch 与 Apple 健康数据，帮你看见白天的选择如何影响睡眠质量与恢复。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2009", "title": "早期推友", "text": "2009 年注册 Twitter，至今发了 1.7 万条推文。"},
+     {"when": "2019–2021", "title": "海螺电台开播", "text": "和 LeeThree 一起创作「海螺电台 The Spiral」，第 27 期（2021 年 3 月）庆祝两周岁；聊过「市井雄心：我应该选择去哪个城市」、大公司做 To B 等话题。"},
+     {"when": "2022", "title": "关于工作的讨论", "text": "节目聊「无所不能」的产品经理未来该去向何方、远程与自由职业「找到自己喜欢的状态才是最重要的」、阿斯汤加瑜伽带来的身体掌控感，以及 2022 年春天在上海小区做志愿者的经历。"},
+     {"when": "2023", "title": "生活在别处", "text": "「生活在别处」系列聊日本生活初体验、美国安娜堡和纽约的读书生活；最后两期和奶昔羊聊家居：「生活方式是你生活的结果，而不是你追求的目标」。"},
+     {"when": "2026", "title": "LumiFlow", "text": "5 月 LumiFlow 上架，10 月更新到 v1.2.0。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "LumiFlow",
-       "meta": "iPhone · 健康与健身",
-       "text": "睡眠与精力教练：晨光、咖啡因截止、数字日落三个习惯。",
-       "url": "https://apps.apple.com/us/app/lumiflow-sleep-energy-coach/id6753916133"
-      },
-      {
-       "name": "海螺电台 The Spiral",
-       "meta": "播客",
-       "text": "记录行动和探索过程的创作计划。",
-       "url": "https://podwise.ai/podcasts/4703"
-      }
+    {"work": {
+     "name": "LumiFlow", "url": "https://apps.apple.com/us/app/lumiflow-sleep-energy-coach/id6753916133",
+     "meta": ["2026", "iPhone · Apple Watch", "健康与健身"],
+     "paras": [
+      "三个每日节律习惯：<strong>Morning Light</strong>：醒来后接触自然光，帮你锚定生物钟；<strong>Caffeine Cutoff</strong>：给最后一杯咖啡定时，让身体能放松下来；<strong>Digital Sunset</strong>：睡前减少屏幕，让大脑慢下来。",
+      "借助 Apple Watch 和 Apple 健康数据，它帮你把白天的选择和睡眠质量、恢复情况的变化联系起来。"
+     ],
+     "facts": [["App Store", "★5.0（2 个评分）"], ["最新版本", "v1.2.0（2026-10）"]]
+    }},
+    {"work": {
+     "name": "海螺电台 The Spiral", "url": "https://podwise.ai/podcasts/4703",
+     "meta": ["播客", "42 期", "Arts & Culture"],
+     "paras": [
+      "「『海螺电台』播客是一个记录行动和探索过程的创作计划。」正片之外还有短一些的「海螺壳」系列，比如《请注意，我要开始刷抖音了》《Pod Jam：孤岛中的便利店》。"
      ]
-    }
+    }},
+    {"table": {
+     "cols": ["海螺电台精选", "日期", "话题"],
+     "rows": [
+      ["041 和奶昔羊聊家居生活（上）", "2023-09", "生活方式是你生活的结果，而不是你追求的目标"],
+      ["039 闲聊美国读书生活", "2023-02", "宁静的安娜堡和繁华的纽约"],
+      ["036 远程与自由职业", "2022-08", "找到自己喜欢的状态，才是最重要的"],
+      ["032 产品经理的未来", "2022-04", "「无所不能」的产品经理，未来该去向何方？"],
+      ["029 市井雄心 2", "2021-05", "我应该选择去哪个城市？"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "线上形象",
+   "title": "线上形象研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://podwise.ai/podcasts/4703",
-      "paras": [
-       "播客「海螺电台 The Spiral」原本的网站 thespiral.fm 目前无法访问（托管服务提示需要续费），节目可以在 Podwise 等播客平台找到。TA 的 X 简介把 LumiFlow 和播客并列，说明了他的两种身份：做产品的人，和讲故事的人。"
-      ]
-     }
-    }
+    {"site": {"url": "https://podwise.ai/podcasts/4703", "paras": [
+     "播客原本托管在 Typlog 的 thespiral.fm 上，目前因订阅到期无法访问；节目仍可在 Podwise 等播客平台找到，主持人署名 Shawn Gong / LeeThree。",
+     "LumiFlow 的服务条款与隐私政策用 Craft 文档发布，App Store 描述则写得简洁直接。X 简介把 LumiFlow 和播客并列，这是 TA 的两种身份：做产品的人和讲故事的人。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["产品", "App Store + Craft 文档"],
+      ["内容", "播客 42 期，2023 年后暂停更新"],
+      ["社交", "X 上发布开发进展"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "观点",
    "blocks": [
-    {
-     "p": "LumiFlow 没有试图做一个功能大全的睡眠 App，而是<strong>只抓三个可执行的习惯</strong>。科学研究里的结论，被翻译成了每天早上、下午和晚上各一个明确的动作。"
-    },
-    {
-     "p": "做播客的经验也许正是 TA 的优势：知道怎样把复杂的东西讲得简单，让人愿意听下去、做下去。"
-    }
+    {"quote": "Instead of giving you more data to interpret, LumiFlow turns your sleep and recovery patterns into simple daily guidance.", "cite": "LumiFlow App Store 描述"},
+    {"p": "从播客到产品，Shawn 关心的一直是「怎么生活得更好」：选哪座城市、怎样工作、怎样安顿一个家，现在是怎样睡个好觉。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "定位清晰：只抓三个可执行习惯", "刚上架，评分样本很少"],
+      ["方法", "把研究结论翻译成每日动作", "健康建议不能替代医疗意见"],
+      ["表达", "播客经验带来好的叙事能力", "播客 2023 年后暂停，原网站失效"],
+      ["生态", "与 Apple Watch、Apple 健康打通", "仅限 Apple 平台"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>把数据变成行动：</strong>不只告诉用户过去，还要指导今天。",
-      "<strong>少即是多：</strong>三个习惯比三十个指标更有用。",
-      "<strong>内容与产品互相加持：</strong>播客积累的受众和表达能力，都能用在产品上。",
-      "<strong>记录探索过程：</strong>海螺电台本身就是一种「公开构建」。"
-     ]
-    }
+    {"checklist": [
+     "<strong>把数据变成行动：</strong>不只告诉用户过去，还要指导今天。",
+     "<strong>少即是多：</strong>三个习惯比三十个指标更有用。",
+     "<strong>和现有工具共存：</strong>LumiFlow 不替代你的睡眠追踪器。",
+     "<strong>内容与产品互相加持：</strong>播客积累的表达能力，能用在产品上。",
+     "<strong>记录探索过程：</strong>海螺电台本身就是一种公开构建。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "LumiFlow", "url": "https://apps.apple.com/us/app/lumiflow-sleep-energy-coach/id6753916133", "why": "明天早上先去晒十分钟太阳。"},
+     {"name": "海螺电台 036", "url": "https://podwise.ai/podcasts/4703", "why": "如果你在纠结远程还是自由职业。"},
+     {"name": "海螺电台 041", "url": "https://podwise.ai/podcasts/4703", "why": "听一场关于家和生活方式的聊天。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你总是睡不好，试试 LumiFlow 的三个习惯。",
+ "cta": "今晚试一次「数字日落」：睡前一小时放下手机。",
  "sources": [
-  {
-   "label": "Shawn_0 的 X 个人资料",
-   "url": "https://x.com/G_Z_Y"
-  },
-  {
-   "label": "LumiFlow App Store 页面",
-   "url": "https://apps.apple.com/us/app/lumiflow-sleep-energy-coach/id6753916133"
-  },
-  {
-   "label": "Podwise：海螺电台 The Spiral",
-   "url": "https://podwise.ai/podcasts/4703"
-  }
+  {"label": "Shawn_0 的 X 个人资料", "url": "https://x.com/G_Z_Y"},
+  {"label": "LumiFlow（App Store）", "url": "https://apps.apple.com/us/app/lumiflow-sleep-energy-coach/id6753916133"},
+  {"label": "Podwise：海螺电台 The Spiral", "url": "https://podwise.ai/podcasts/4703"}
  ]
 }

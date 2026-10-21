@@ -2,125 +2,143 @@
  "name": "RobinJ",
  "role": "iOS 独立开发者 · 前 TikTok 工程师",
  "title": "RobinJ：给混乱的<em>推特书签</em>一个家",
- "dek": "一位住在新加坡、曾在 TikTok 做工程师的独立 iOS 开发者。X 让你收藏帖子，却从不帮你再找到它们，于是 TA 做了 Twitfold：同步所有书签，全文搜索，用 AI 自动分类，导出 Markdown、CSV 或 PDF，即使原帖被删也能保留一份。",
- "card": "前 TikTok 工程师，新加坡的独立 iOS 开发者，Twitfold（X 书签管理）作者。",
+ "dek": "一位住在新加坡、曾在 TikTok 做工程师的独立 iOS 开发者。「X 让你收藏帖子，却从不帮你再找到它们。」于是 TA 做了 Twitfold：同步所有书签，全文搜索，用 AI 自动分类，导出 Markdown、CSV、JSON、HTML 或 PDF，即使原帖被删也能在手机上保留一份。",
+ "card": "Twitfold 作者；前 TikTok 工程师，新加坡的独立 iOS 开发者。",
  "location": "新加坡",
- "tags": [
-  "iOS",
-  "iPadOS",
-  "AI 分类",
-  "信息管理",
-  "独立开发"
- ],
+ "updated": "2026-10-21",
+ "tags": ["iOS", "X / Twitter", "书签", "第二大脑", "AI 分类"],
  "links": [
-  {
-   "label": "Twitfold（App Store）",
-   "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807"
-  },
-  {
-   "label": "@TwitfoldApp",
-   "url": "https://x.com/TwitfoldApp"
-  }
+  {"label": "Twitfold（App Store）", "url": "https://apps.apple.com/us/app/twitfold-twitter-bookmarks/id6740401807"},
+  {"label": "@TwitfoldApp", "url": "https://x.com/TwitfoldApp"},
+  {"label": "X", "url": "https://x.com/robinjdev"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「Indie iOS dev • Ex-TikTok engineer • Built Twitfold to tame my bookmarks chaos.」",
-  "<strong>代表作：</strong>Twitfold（iPhone / iPad，4.7 分）：全文搜索所有书签（文本、作者、链接标题、长文），按作者 / 日期 / 类型筛选，时间线式阅读模式，文件夹与标签，AI 智能分类，批量操作，导出 Markdown / CSV / PDF。",
-  "<strong>为什么值得关注：</strong>一个从大厂出来的工程师，用「自己的痛点」做出了一个非常聚焦的工具。"
+  "<strong>一句话：</strong>X 简介「Indie iOS dev • Ex-TikTok engineer • Built @TwitfoldApp to tame my bookmarks chaos 🛠️」。",
+  "<strong>代表作：</strong>Twitfold（App Store 4.7 分）；同一开发者账号下还有 TweetSnap（推文截图）和 Repost（社交内容二次创作）。",
+  "<strong>关键数字：</strong>Twitfold 2025 年 1 月上架，已更新到 v1.8.4；支持 iPhone 与 iPad、多种语言；X 推文约 830 条。",
+  "<strong>目标用户：</strong>研究者、写作者、创业者，以及所有把 X 书签当稍后读或第二大脑、却总找不到它们的人。"
  ],
- "lead": "Twitfold 的介绍里有一句话说得很准：「X lets you save posts. It never helped you find them again.」（X 让你保存帖子，却从未帮你再找到它们。）",
+ "lead": "很多人在 X 上收藏了几千条帖子，却几乎从不回头看，因为根本找不到。RobinJ 也是这样。于是 TA 做了一个只解决这件事的 App：把书签同步到手机，全文搜索作者、正文、链接标题和长文，用 AI 自动归档，导出到 Obsidian 或 Notion。收藏是为了未来的自己，Twitfold 让这件事真正成立。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立 iOS 开发者"],
+     ["此前", "TikTok 工程师（据 X 简介）"],
+     ["所在地", "新加坡"],
+     ["产品", "Twitfold（主力）、TweetSnap、Repost"],
+     ["平台", "iPhone、iPad"],
+     ["X", "2010 年注册"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "RobinJ 专注把 Twitfold 做好：一个把 X 书签变成<strong>可搜索资料库</strong>的 App。它不是又一个稍后读工具，而是专门针对 X 的书签、你自己的帖子和长文（Articles）做本地存档，离线也能读，连图片一起保存。"},
+    {"p": "隐私写得很清楚：资料库存在设备上、不出售、无广告；只有在使用 AI 功能时，帖子文本才会发送到服务器。App 也明确声明与 X Corp. 无关。"},
+    {"note": "本页依据 App Store 资料和 X 资料整理，资料截至 2026 年 10 月。作者公开的个人信息很少，未收录未经证实的背景。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2010",
-       "title": "注册 Twitter",
-       "text": "很早就是 Twitter 用户，也是重度书签收藏者。"
-      },
-      {
-       "when": "TikTok",
-       "title": "大厂工程师",
-       "text": "在 TikTok 担任工程师（据其 X 简介），在新加坡工作。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "Twitfold",
-       "text": "离开大厂做独立 iOS 开发，第一款作品就是解决自己书签混乱问题的 Twitfold，并为它开设了独立的 X 账号。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2010", "title": "注册 Twitter", "text": "很早就是 Twitter 用户，也是重度书签收藏者。"},
+     {"when": "TikTok", "title": "大厂工程师", "text": "在 TikTok 担任工程师（据其 X 简介），在新加坡工作。"},
+     {"when": "2025.01", "title": "Twitfold 上架", "text": "第一款独立作品，解决自己的书签混乱问题，并为它开设独立的 X 账号 @TwitfoldApp。"},
+     {"when": "2026", "title": "持续迭代与新尝试", "text": "Twitfold 加入 AI 智能分类、长文存档、多种导出格式，2026 年 10 月更新到 v1.8.4；同一账号下上架了 TweetSnap 和 Repost。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Twitfold",
-       "meta": "iOS / iPadOS · 4.7★",
-       "text": "把 X 书签变成手机上可搜索的资料库：同步、搜索、AI 分类、导出，原帖删除也能保留。",
-       "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807"
-      }
+    {"work": {
+     "name": "Twitfold", "url": "https://apps.apple.com/us/app/twitfold-twitter-bookmarks/id6740401807",
+     "meta": ["2025", "iOS / iPadOS", "免费 + Pro"],
+     "paras": [
+      "<strong>找到任何保存的内容</strong>：全文搜索书签的正文、作者、链接标题和长文，按作者、日期或内容类型筛选，阅读模式像时间线一样滚动。<strong>无需费力的整理</strong>：文件夹和标签，设置一次文件夹后让 AI 自动归档新书签，批量移动、打标签。",
+      "<strong>即使原帖消失也能保留</strong>：书签、你自己的帖子和长文存在设备上，离线可读，iCloud 备份与恢复。<strong>数据随你带走</strong>：导出 Markdown、CSV、JSON、HTML、PDF，适配 Obsidian、Notion 和表格。"
+     ],
+     "facts": [["App Store", "★4.71（7 个评分）"], ["Pro", "周 / 月 / 年订阅，或一次性终身买断"], ["最新版本", "v1.8.4（2026-10）"]]
+    }},
+    {"table": {
+     "cols": ["其他功能", "说明"],
+     "rows": [
+      ["分享菜单", "在 X App 里直接把帖子存进 Twitfold"],
+      ["社交数据", "同步关注、粉丝和列表"],
+      ["系统集成", "Spotlight 搜索和快捷指令"],
+      ["界面", "iPhone 与 iPad、深色模式、多语言"]
      ]
-    }
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "线上形象",
+   "title": "线上形象研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807",
-      "paras": [
-       "TA 的 X 主页直接链接到 Twitfold 的 App Store 页面。产品介绍按「找到任何保存的内容」「无需费力的整理」「即使原帖消失也能保留」三部分展开，结构清晰。",
-       "App 支持英语等七种语言。"
-      ]
-     }
-    }
+    {"site": {"url": "https://apps.apple.com/us/app/twitfold-twitter-bookmarks/id6740401807", "paras": [
+     "RobinJ 的 X 主页直接链接到 Twitfold 的 App Store 页面。产品介绍按「找到任何保存的内容」「无需费力的整理」「即使原帖消失也能保留」「数据随你带走」四部分展开，结构清晰。",
+     "开头一句话点出痛点：「X lets you save posts. It never helped you find them again.」这是很好的产品文案范例。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["渠道", "App Store + 产品专属 X 账号"],
+      ["文案", "痛点一句话 + 四段功能"],
+      ["透明", "写清隐私、AI 数据流向和与 X 的关系"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "产品观",
    "blocks": [
-    {
-     "p": "Twitfold 的设计关键是<strong>「只整理一次」</strong>：设置好文件夹后，AI 会自动把新书签归档。用户真正想要的不是整理，而是在需要时找到。"
-    },
-    {
-     "p": "「保留一份副本，即使原帖被删」这一点，也说明 TA 理解收藏的本质：收藏是为了未来的自己。"
-    }
+    {"quote": "X lets you save posts. It never helped you find them again.", "cite": "Twitfold App Store 描述"},
+    {"p": "Twitfold 的设计关键是「只整理一次」：设置好文件夹后，AI 自动归档新书签。用户真正想要的不是整理，而是在需要时找到。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["定位", "痛点明确，功能聚焦", "依赖 X 平台的接口与政策"],
+      ["数据", "本地存储、多格式导出", "AI 分类需要把文本发送到服务器"],
+      ["迭代", "一年多持续更新", "评分样本较少"],
+      ["公开信息", "产品说明完整", "个人背景资料很少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>从自己的混乱出发：</strong>你收藏的几千条书签就是产品需求。",
-      "<strong>平台缺的功能就是机会：</strong>X 不做书签搜索，TA 来做。",
-      "<strong>AI 用在「省力」上：</strong>自动分类比生成内容更实用。",
-      "<strong>给产品一个独立账号：</strong>方便发布更新、积累用户。"
-     ]
-    }
+    {"checklist": [
+     "<strong>从自己的混乱出发：</strong>你收藏的几千条书签就是产品需求。",
+     "<strong>平台缺的功能就是机会：</strong>X 不做书签搜索，TA 来做。",
+     "<strong>AI 用在省力上：</strong>自动分类比生成内容更实用。",
+     "<strong>把数据还给用户：</strong>导出格式越多，用户越放心。",
+     "<strong>给产品一个独立账号：</strong>方便发布更新、积累用户。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Twitfold", "url": "https://apps.apple.com/us/app/twitfold-twitter-bookmarks/id6740401807", "why": "把你的 X 书签同步下来搜一搜。"},
+     {"name": "@TwitfoldApp", "url": "https://x.com/TwitfoldApp", "why": "看一个小产品如何在 X 上发布更新。"},
+     {"name": "RobinJ 的 X", "url": "https://x.com/robinjdev", "why": "前大厂工程师的独立开发日常。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你的 X 书签已经多到找不到，试试 Twitfold。",
+ "cta": "把 X 书签导出成 Markdown，放进你的 Obsidian。",
  "sources": [
-  {
-   "label": "RobinJ 的 X 个人资料",
-   "url": "https://x.com/robinjdev"
-  },
-  {
-   "label": "Twitfold App Store 页面",
-   "url": "https://apps.apple.com/us/app/twifold-save-tweet-bookmarks/id6740401807"
-  }
+  {"label": "RobinJ 的 X 个人资料", "url": "https://x.com/robinjdev"},
+  {"label": "Twitfold（App Store）", "url": "https://apps.apple.com/us/app/twitfold-twitter-bookmarks/id6740401807"},
+  {"label": "@TwitfoldApp", "url": "https://x.com/TwitfoldApp"}
  ]
 }

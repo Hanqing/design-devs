@@ -1,157 +1,164 @@
 {
  "name": "青年小哲 Ethan Zhao",
  "role": "AI 产品构建者 · 全栈工程师",
- "title": "青年小哲：从<em>不会恢复数据库备份</em>到做出一串产品",
- "dek": "2019 年 TA 第一次搭博客时，还写着自己「完全没有编程背景，连 WordPress 数据库备份都不会恢复」。几年后，TA 在飞书生态里做企业级 AI 应用，业余做了全球 App Store 价格对比 App Store Price、iOS 关注清单 Pinlist 和 AI 编程用量统计 AIUsage。",
- "card": "杭州的 AI 产品构建者，飞书生态企业 AI 开发，App Store Price、Pinlist、AIUsage 作者。",
+ "title": "青年小哲：从不会恢复数据库备份，到<em>做出一串产品</em>",
+ "dek": "2019 年 TA 第一次搭博客时，还写着自己「完全没有编程背景，连 WordPress 数据库备份都不会恢复」。几年后，TA 在飞书生态里做企业级 AI 应用，业余做了全球 App Store 价格对比 App Store Price、App 关注清单 Pinlist、AI 编程用量统计 AIUsage，以及照片整理 Phote 和 Mac 选片工具 Picwser。",
+ "card": "App Store Price、Pinlist、AIUsage、Phote 作者；在飞书生态做企业 AI 的杭州全栈工程师。",
  "location": "中国杭州",
- "tags": [
-  "AI 应用",
-  "全栈",
-  "iOS",
-  "自托管",
-  "飞书"
- ],
+ "updated": "2026-10-21",
+ "tags": ["企业 AI", "飞书", "iOS", "价格透明", "自托管"],
  "links": [
-  {
-   "label": "yizhe.me",
-   "url": "https://www.yizhe.me"
-  },
-  {
-   "label": "App Store Price",
-   "url": "https://appstoreprice.org"
-  }
+  {"label": "yizhe.me", "url": "https://www.yizhe.me"},
+  {"label": "App Store Price", "url": "https://appstoreprice.org"},
+  {"label": "Pinlist（App Store）", "url": "https://apps.apple.com/us/app/pinlist-app-wishlist/id6761153745"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「最佩服两种人：一种代码写得牛的，一种文章写得牛的。」一个靠好奇心一路自学成长的全栈工程师。",
-  "<strong>代表作：</strong>App Store Price（实时采集并对比各国 App Store 定价，帮助开发者理解全球定价差异）、Pinlist（专注的 iOS 关注清单）、AI Token Usage Statistics（扫描本地会话日志，统计 Claude Code、Codex 等工具的 Token 用量与成本，可自托管）。",
-  "<strong>个人：</strong>河南洛阳人，沈阳读大学，杭州读研，北京工作后回杭州成家；痴迷电子维修，认真想过去 Apple Store 学修设备。"
+  "<strong>一句话：</strong>X 简介「最佩服两种人：一种代码写的牛的，一种文章写的牛的（两种人不分先后）」。个人网站：「I design and build AI-driven tools, focusing on practical systems rather than just concepts.」",
+  "<strong>代表作：</strong>App Store Price（全球价格对比与追踪）、Pinlist（App Store 4.2 分）、AIUsage、Phote、Picwser、Calends、doc2md、SurgeToolkit。",
+  "<strong>关键数字：</strong>GitHub 近一年 6,229 次贡献；Pinlist 半年更新到 v1.9.1、16 个评分；X 关注者约 3,100。",
+  "<strong>TA 对「完成」的定义：</strong>不只是跑起来，而是正确的结果送到真实的人手里，并且六个月后自己还能看懂、还能修改这个系统。"
  ],
- "lead": "Ethan 在关于页里写：「我做东西的方式看起来有点矛盾。我喜欢尽早让最小版本跑起来，但到了要发布的时候，又会在一个像素、一个错误分支或一条生产日志上花很长时间。」TA 认为，结果真正送到人手里、半年后自己还能看懂并修改系统，才算完成。",
+ "lead": "做 App Store Price 的起因很具体：同一个 Claude 月度订阅，美国区是 20 美元，约合 141.67 元人民币；在尼日利亚区只要 73.03 元，几乎省一半。而且按当天汇率，有不少地区比美国还贵。TA 自己写了个小站，每天抓各区的内购价格和汇率，一眼就能看出差异。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "AI 产品构建者、全栈工程师"],
+     ["所在地", "中国杭州"],
+     ["工作", "在飞书生态里做企业软件与应用型 AI（aPaaS、机器人、Lark 集成）"],
+     ["经历", "河南洛阳 → 沈阳读大学 → 杭州读研 → 北京工作 → 回到杭州"],
+     ["技术栈", "TypeScript、Next.js、Astro、Swift、Go、Python、Cloudflare Workers"],
+     ["产品公司", "FrameFlow Technology（App Store 开发者名称）"],
+     ["爱好", "电子维修：「顺着故障一点点追下去，把坏掉的东西修好」"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "工作上，TA 在飞书生态做企业 AI：「模型往往只是其中一块，周围是业务流程、数据、权限、消息和真实的人。」开源的 aPaaS OpenAPI Node / Go 客户端、飞书抽奖机器人、DeepSeek Harness 的飞书双向控制器，都来自这条线。"},
+    {"p": "业余时间，TA 做「解决自己遇到的问题」的小产品：App Store Price 让订阅价格更透明；Pinlist 跨区浏览、关注 App 的更新；AIUsage 统计你在各种 AI 编程工具上花了多少 Token 和钱；Calends 是自托管的订阅账本。"},
+    {"note": "本页依据 yizhe.me（首页、About、博客）、appstoreprice.org、GitHub 仓库与 README、App Store 资料和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "求学",
-       "title": "洛阳 → 沈阳 → 杭州",
-       "text": "来自河南洛阳，在沈阳读大学，到杭州读研究生。"
-      },
-      {
-       "when": "2019",
-       "title": "零基础开博客",
-       "text": "搭博客时还完全没有编程背景，「连 WordPress 数据库备份都不会恢复」。"
-      },
-      {
-       "when": "北京 → 杭州",
-       "title": "企业 SaaS",
-       "text": "在北京工作后回到杭州成家，做过企业 SaaS，学会了 iOS / macOS 开发和运维自托管服务。"
-      },
-      {
-       "when": "现在",
-       "title": "飞书生态的企业 AI",
-       "text": "在飞书生态里做企业软件与应用型 AI：「模型往往只是其中一块，周围是业务流程、数据、权限、消息和真实的人。」"
-      },
-      {
-       "when": "业余",
-       "title": "一串小产品",
-       "text": "App Store Price、Pinlist、AIUsage 和更多小工具，都从 TA 自己遇到的问题开始。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "求学", "title": "洛阳 → 沈阳 → 杭州", "text": "来自河南洛阳，在沈阳读大学，到杭州读研究生。"},
+     {"when": "2019", "title": "零基础开博客", "text": "搭博客时还完全没有编程背景，「连 WordPress 数据库备份都不会恢复」。「从来没有宏大的计划。我通常是碰到不懂的东西，决定把它弄明白，结果一路追得比预想远得多。」"},
+     {"when": "北京 → 杭州", "title": "企业 SaaS", "text": "在北京工作后回到杭州，做过企业 SaaS，考过 ITIL Foundation，学会了 iOS / macOS 开发和运维自托管服务；开始维护 Surge 模块合集 SurgeToolkit。"},
+     {"when": "2025", "title": "飞书生态", "text": "开源 aPaaS OpenAPI 客户端、飞书抽奖机器人、文档转 Markdown 工具 doc2md。"},
+     {"when": "2026", "title": "一串产品", "text": "Pinlist（3 月）、AIUsage（4 月）、Picwser（8 月）、Phote（9 月）、Calends（10 月）陆续发布；App Store Price 推出 2.0 和 iOS App；写《把 Codex 变成手机上的服务器运维入口》。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "App Store Price",
-       "meta": "SaaS",
-       "text": "全球 App Store 价格对比与追踪，让订阅价格更透明。",
-       "url": "https://appstoreprice.org"
-      },
-      {
-       "name": "Pinlist",
-       "meta": "iOS",
-       "text": "专注的关注清单：保存、整理、回访值得关注的人、话题和事物。",
-       "url": "https://www.yizhe.me"
-      },
-      {
-       "name": "AIUsage",
-       "meta": "自托管",
-       "text": "扫描本地会话日志，统计 Claude Code、Codex 等 AI 编程工具的 Token 与成本。",
-       "url": "https://www.yizhe.me"
-      }
+    {"work": {
+     "name": "App Store Price", "url": "https://appstoreprice.org",
+     "meta": ["SaaS + iOS", "Next.js", "每日更新"],
+     "paras": [
+      "「发现全球 App Store 订阅的最佳价格，用技术让省钱变得简单。」覆盖绝大多数国家和地区，每日检查价格、自动更新汇率，同一结算货币的地区以代表区展示，并有 AI 分析帮你判断购买时机。热门应用包括 Claude、ChatGPT、1Password、Infuse、YouTube Premium 等。",
+      "博客里有不少跨区订阅的实测教程。读者需要自行评估各平台关于地区和支付方式的条款。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "Pinlist", "url": "https://apps.apple.com/us/app/pinlist-app-wishlist/id6761153745",
+     "meta": ["2026", "iOS", "App 关注清单"],
+     "paras": [
+      "按名称、开发者或 App Store ID 跨区搜索 App，追踪更新，把关注的 App 放在一处。"
+     ],
+     "facts": [["App Store", "★4.19（16 个评分）"], ["最新版本", "v1.9.1（2026-10）"]]
+    }},
+    {"work": {
+     "name": "AIUsage", "url": "https://github.com/imetn/aiusage",
+     "meta": ["2026", "TypeScript", "自托管"],
+     "paras": [
+      "「Tracks token usage and costs across all your AI tools and devices.」通过 <code>npm i -g @aiusage/cli</code> 安装，扫描本地会话日志，把数据同步到你自己的 Cloudflare Worker，并在公开仪表盘上可视化。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Phote", "2026", "一次一张地重新整理照片库，重遇差点忘记的瞬间"],
+      ["Picwser", "2026", "原生 Mac 选片工具，直接打开文件夹，无需导入、无需账号（$1.99）"],
+      ["Calends", "2026", "自托管、AI 原生的订阅账本，支持多币种与共享订阅"],
+      ["doc2md", "2025", "文档转 Markdown"],
+      ["SurgeToolkit", "2023", "Surge iOS / macOS 模块与脚本合集"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://www.yizhe.me",
-      "paras": [
-       "标题「Ethan Zhao - AI-Driven Product Builder」，首页写着「I design and build AI-driven tools, focusing on practical systems rather than just concepts.」，然后是精选项目卡片。",
-       "关于页非常坦诚，讲了自学经历、做事方式、故乡与城市，以及对电子维修的痴迷。"
-      ]
-     }
-    }
+    {"site": {"url": "https://www.yizhe.me", "paras": [
+     "标题「Ethan Zhao - AI-Driven Product Builder」，用 Astro 构建、托管在 Cloudflare。首页一句定位、一段关于我、精选项目卡片；博客叫「Journal · Essays」，写 AI 原生产品、应用研究和「把软件做得用心」的手艺。",
+     "About 页非常坦诚：自学经历、做事方式、故乡与城市，以及对电子维修的痴迷。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Cloudflare"],
+      ["语言", "英文为主，产品站中文"],
+      ["内容", "项目、AI 运维实践、Claude / Codex 使用经验"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与方法",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "quote": "Running is only the beginning. It feels done when the right result reaches a real person and I can still understand and change the system six months later.",
-     "cite": "Ethan Zhao，About"
-    },
-    {
-     "p": "TA 喜欢「顺着故障一点点追下去，把坏掉的东西修好」。这种维修师的耐心，也是 TA 做产品的方式：先跑起来，再把每一个错误分支都修干净。"
-    }
+    {"quote": "Running is only the beginning. It feels done when the right result reaches a real person and I can still understand and change the system six months later.", "cite": "Ethan Zhao，yizhe.me About"},
+    {"p": "TA 的做事方式是：先把最小版本尽早跑起来，再把每一个错误分支修干净。这和 TA 喜欢的电子维修是同一种耐心。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["成长", "零基础自学到全栈 + 企业 AI", "—"],
+      ["产品", "选题来自真实不便，迭代快", "产品多，部分评分样本少"],
+      ["透明", "价格、用量工具让决策有依据", "跨区订阅教程涉及平台条款，需谨慎"],
+      ["企业 AI", "理解流程、数据、权限的复杂度", "工作项目多不公开"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>零基础也能走很远：</strong>好奇心是最好的老师。",
-      "<strong>先跑起来，再打磨：</strong>最小版本尽早上线，发布前抠细节。",
-      "<strong>AI 落地在模型之外：</strong>流程、数据、权限才是企业 AI 的难点。",
-      "<strong>为开发者做透明工具：</strong>价格、用量，让决策有依据。"
-     ]
-    }
+    {"checklist": [
+     "<strong>零基础也能走很远：</strong>碰到不懂的，就追下去。",
+     "<strong>重新定义「完成」：</strong>半年后还能看懂、还能改，才算做完。",
+     "<strong>AI 落地在模型之外：</strong>流程、数据、权限才是企业 AI 的难点。",
+     "<strong>为自己做透明工具：</strong>价格、用量，让决策有依据。",
+     "<strong>先跑起来，再打磨：</strong>最小版本尽早上线。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "App Store Price", "url": "https://appstoreprice.org", "why": "看看你常用的订阅在各地区差多少。"},
+     {"name": "AIUsage", "url": "https://github.com/imetn/aiusage", "why": "算算这个月在 AI 编程上花了多少。"},
+     {"name": "yizhe.me About", "url": "https://www.yizhe.me/about", "why": "一个零基础自学者的真诚自述。"}
+    ]}
    ]
   }
  ],
- "cta": "去 App Store Price 看看你的 App 在各国卖多少钱。",
+ "cta": "装上 AIUsage，看看你这个月的 Token 都花在了哪里。",
  "sources": [
-  {
-   "label": "青年小哲的 X 个人资料",
-   "url": "https://x.com/qingnianxiaozhe"
-  },
-  {
-   "label": "yizhe.me",
-   "url": "https://www.yizhe.me"
-  },
-  {
-   "label": "yizhe.me：About",
-   "url": "https://www.yizhe.me/about"
-  },
-  {
-   "label": "App Store Price",
-   "url": "https://appstoreprice.org"
-  }
+  {"label": "青年小哲的 X 个人资料", "url": "https://x.com/qingnianxiaozhe"},
+  {"label": "yizhe.me", "url": "https://www.yizhe.me"},
+  {"label": "yizhe.me：About", "url": "https://www.yizhe.me/about"},
+  {"label": "App Store Price：关于", "url": "https://appstoreprice.org/zh/about"},
+  {"label": "GitHub：imetn", "url": "https://github.com/imetn"},
+  {"label": "Pinlist（App Store）", "url": "https://apps.apple.com/us/app/pinlist-app-wishlist/id6761153745"}
  ]
 }
