@@ -1,166 +1,165 @@
 {
  "name": "Hal Lee",
  "role": "设计工程师 · Figma 插件与 Mac 小工具作者",
- "title": "Hal Lee：一台热爱设计与前端的<em>「制冷机」</em>",
- "dek": "TA 自称「设计和前端爱好者，制冷机」。TA 做了一整套 Figma 插件（Heron 系列、图标自动发布）、一门面向设计师的 Figma 进阶课、一个 Mac 菜单栏应用精选站，以及提醒你看看窗外的 SkyBreak。",
- "card": "设计工程师，Heron 系列 Figma 插件、Figmacode 课程、MacMenuBar.app、SkyBreak、TweetWood 作者。",
- "location": "火星（未公开）",
- "tags": [
-  "Figma",
-  "设计工程",
-  "macOS",
-  "浏览器扩展",
-  "设计系统"
- ],
+ "title": "Hal Lee：<em>像写代码一样做设计</em>的人",
+ "dek": "TA 自称「设计和前端爱好者，制冷机」，GitHub 签名是「code + design = codesigner」。TA 的设计生涯大多和设计系统有关：做了用户量 3.7 万的 Figma 交付插件 Heron Handoff、被多家公司用于生产的 Figma Icon Automation、一门教设计师用工程思维做设计的专栏 Figmacode，还有 Mac 菜单栏应用精选站 MacMenuBar.app 和提醒你看看窗外的 SkyBreak。",
+ "card": "Heron Handoff、Figma Icon Automation、Figmacode、MacMenuBar.app、SkyBreak 作者；烟台的设计工程师。",
+ "location": "中国烟台",
+ "updated": "2026-10-21",
+ "tags": ["设计工程", "Figma", "设计系统", "Mac 工具", "策展"],
  "links": [
-  {
-   "label": "hallee.me",
-   "url": "https://hallee.me"
-  },
-  {
-   "label": "MacMenuBar.app",
-   "url": "https://macmenubar.app"
-  },
-  {
-   "label": "Figmacode",
-   "url": "https://figmacode.com"
-  }
+  {"label": "hallee.me", "url": "https://hallee.me"},
+  {"label": "Figmacode", "url": "https://figmacode.com"},
+  {"label": "MacMenuBar.app", "url": "https://macmenubar.app"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「Hal Lee is a design engineer creating thoughtful digital experiences through design and code.」一个专门给设计师造工具的设计工程师。",
-  "<strong>代表作：</strong>Figma 插件 Heron Handoff（导出离线标注）、Heron Variable Tools、Heron Toolbox、Figma Icon Automation（把 Figma 图标发布到 NPM）；macOS 应用 SkyBreak、Figma Activity Calendar；浏览器扩展 TweetWood、QuickTube Organizer；网站 MacMenuBar.app、Figmacode.com。",
-  "<strong>为什么值得关注：</strong>TA 站在设计与开发的交界处，解决的是「设计交付」这个最常见也最痛的环节。"
+  "<strong>一句话：</strong>「我是一个热爱创造的设计师。经常冒出天马行空的想法，有时会用设计和代码把它们变成现实。」",
+  "<strong>代表作：</strong>Heron Handoff（3.7 万用户）、Figma Icon Automation、Figmacode 专栏、MacMenuBar.app、SkyBreak、FigmaActivityCalendar、程序员的婚礼邀请函（★804）。",
+  "<strong>关键数字：</strong>X 关注者约 1.5 万；MacMenuBar.app 收录上百款应用，仅生产力类就有 179 款、系统工具 128 款；从 2018 年起在公众号写 Figma 文章。",
+  "<strong>现在的工具：</strong>Codex、Zed、React、Figma；关注设计与开发工具。"
  ],
- "lead": "Hal 的个人网站只有三个入口：Blog、Products 和一个叫「Organize Stuff」的板块。Products 页按类型整理得清清楚楚：macOS Apps、Browser Extensions、Website、Figma Plugins。这种「整理癖」，正是一个设计工程师的职业本能。",
+ "lead": "Figmacode 的作者介绍里有一句很直接的观察：「我的设计生涯大多和设计系统有关……正是因为此，我才知道设计师群体在工程化和系统化思维方面的缺乏，这也是我写这个专栏的用意所在。」于是专栏的标题是：像写代码一样去设计。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计工程师（Design Engineer）"],
+     ["所在地", "中国烟台"],
+     ["年龄", "36 岁（个人网站自述）"],
+     ["工具栈", "Codex、Zed、React、Figma"],
+     ["专注", "设计 / 开发工具、设计系统、设计交付"],
+     ["代表作", "Heron Handoff、Figma Icon Automation、Figmacode、MacMenuBar.app、SkyBreak"],
+     ["爱好", "徒步、露营、滑板、器乐摇滚"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Hal 的工具都在解决同一类问题：<strong>设计稿到代码之间的损耗</strong>。Heron Handoff 把 Figma 设计导出为可离线浏览的标注文档；Figma Icon Automation 借助 GitHub Actions，把图标设计稿直接转成 React 组件并发布到 NPM；Figmacode 则从思维层面教设计师用组件化、自动布局和变量去「工程化设计」。"},
+    {"p": "近两年 TA 把注意力转向 Mac：策展网站 MacMenuBar.app、在菜单栏显示 Figma 活跃度的 FigmaActivityCalendar，以及 2026 年上架的休息提醒 SkyBreak。"},
+    {"note": "本页依据 hallee.me、figmacode.com、macmenubar.app、GitHub 仓库与 README、App Store 资料和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2014",
-       "title": "加入 X",
-       "text": "以设计和前端爱好者的身份分享，后来积累了一万五千多关注者。"
-      },
-      {
-       "when": "Figma 时代",
-       "title": "为设计交付造工具",
-       "text": "做了 Heron 系列插件：Heron Handoff 把 Figma 设计导出为离线标注，Heron Variable Tools 让变量管理更强大，Heron Toolbox 收集设计工作流里的实用小工具；Figma Icon Automation 把图标从 Figma 一键发布到 NPM。"
-      },
-      {
-       "when": "教育",
-       "title": "Figmacode.com",
-       "text": "面向设计师的 Figma 进阶课程。"
-      },
-      {
-       "when": "Mac 与浏览器",
-       "title": "小工具",
-       "text": "SkyBreak（「是时候看看窗外了」的休息提醒）、Figma Activity Calendar（在菜单栏追踪 Figma 活跃度）、TweetWood（把推文和长文存为本地 Markdown）、QuickTube Organizer（终于把 YouTube 订阅整理好了）。"
-      },
-      {
-       "when": "策展",
-       "title": "MacMenuBar.app",
-       "text": "精选「生活里最好用的菜单栏应用」，按生产力、AI、灵动岛 / 刘海、开发、计时、日历、系统工具等分类，收录上百款。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2015–2017", "title": "Framer 时代", "text": "2015 年注册 GitHub；翻译 Framer 中文文档，写豆瓣专栏的 Framer 示例，做了在 Framer 里加载 Lottie 动画的模块。"},
+     {"when": "2018", "title": "Figma 布道", "text": "开始在公众号持续写 Figma 文章，传播 Figma 的理念；做了适合设计师的 Hexo 主题，开源了「程序员的婚礼邀请函」：打开后先模拟写代码、执行，成功后才打开邀请函。"},
+     {"when": "2019–2020", "title": "Heron 与图标自动化", "text": "发布 Heron Handoff 和 Figma Icon Automation，以及配套的 React / Vue 图标库模板。"},
+     {"when": "2022–2023", "title": "更多工具", "text": "飞书文档转 Markdown、Figma 查看器 Chrome 插件、FigmaActivityCalendar。"},
+     {"when": "2024–2026", "title": "课程与 Mac", "text": "Figmacode 专栏加入「重新构建设计系统（变量版）」；创建 MacMenuBar.app；2026 年 9 月 SkyBreak 上架。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "MacMenuBar.app",
-       "meta": "网站 · 策展",
-       "text": "最好的 Mac 菜单栏应用精选清单，分类清晰，可提交。",
-       "url": "https://macmenubar.app"
-      },
-      {
-       "name": "Heron Handoff",
-       "meta": "Figma 插件",
-       "text": "把 Figma 设计导出为离线标注文档，方便开发交付。",
-       "url": "https://hallee.me/products"
-      },
-      {
-       "name": "SkyBreak",
-       "meta": "macOS",
-       "text": "It's time to look outside of your window. 休息提醒。",
-       "url": "https://hallee.me/products"
-      },
-      {
-       "name": "TweetWood",
-       "meta": "浏览器扩展",
-       "text": "把 X 帖子与长文保存为本地 Markdown。",
-       "url": "https://hallee.me/products"
-      }
+    {"work": {
+     "name": "Heron Handoff", "url": "https://github.com/hallee9000/heron-handoff",
+     "meta": ["2019", "Figma 插件", "3.7 万用户"],
+     "paras": [
+      "把 Figma 设计导出为带标注的开发交付文件，支持离线查看。开发不需要 Figma 账号，也能量尺寸、取颜色、拿切图。它是 TA 最出名的插件。",
+      "README 目前标注插件处于维护状态，不再更新。"
+     ],
+     "facts": [["用户", "37.4k（Figmacode 作者介绍）"], ["GitHub", "★351"]]
+    }},
+    {"work": {
+     "name": "Figmacode", "url": "https://figmacode.com",
+     "meta": ["专栏", "部分章节免费"],
+     "paras": [
+      "「掌握 Figma 的组件化、自动布局与变量，用工程思维提升设计效率。」分为开始之前、系统地设计、工程化设计、用代码做设计、完整项目示例（设计一个播客应用）几部分，还有一篇「写给开发的使用指南」。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "MacMenuBar.app", "url": "https://macmenubar.app",
+     "meta": ["策展网站", "Next.js"],
+     "paras": [
+      "「Best Mac Menu Bar Apps」：按生产力、AI、灵动岛 / 刘海、开发、计时、日历、剪贴板、系统工具、音频等三十多个分类收录菜单栏应用，并标注是否上架 App Store、是否开源。"
+     ],
+     "facts": [["收录", "生产力 179 · 系统工具 128 · AI 59 等"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Figma Icon Automation", "2019", "图标设计稿 → React 组件 → NPM，多家公司用于生产（★204）"],
+      ["SkyBreak", "2026", "Mac 休息提醒与专注计时，「是时候看看窗外了」"],
+      ["FigmaActivityCalendar", "2023", "在菜单栏追踪 Figma 活跃度"],
+      ["程序员的婚礼邀请函", "2018", "模拟写代码再打开的邀请函（★804）"],
+      ["feishu-to-markdown", "2022", "把飞书文档导出为 Markdown"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://hallee.me",
-      "paras": [
-       "标题「Hal Lee — Design Engineer」，中英双语。首页极简，产品页按平台分组，每个产品一行名字和一句话。",
-       "「Organize Stuff」这个栏目名本身就很能说明 TA 的性格。"
-      ]
-     }
-    }
+    {"site": {"url": "https://hallee.me", "paras": [
+     "标题「Hal Lee — Design Engineer」。首页是一张「About me」卡片，像一份个人档案：年龄、角色、所在地、工具栈、爱好、关注方向，日期就是今天。下面是 Figma、GitHub、Are.na 和 X 的链接。",
+     "Are.na 的出现很能说明 TA 的审美取向：这是一个设计师用来收集灵感的慢节奏平台。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "React，Cloudflare"],
+      ["结构", "档案卡片 + 产品页"],
+      ["语言", "中英双语"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "观点与方法",
    "blocks": [
-    {
-     "p": "Hal 的工具都在解决同一类问题：<strong>设计稿到代码之间的损耗</strong>。离线标注、变量工具、图标自动发布，每一个都能让设计与开发的协作少一次来回。"
-    },
-    {
-     "p": "MacMenuBar.app 则体现了策展的价值：在信息过载的时代，一份认真分类的清单就是一个产品。"
-    }
+    {"p": "Hal 认为设计师缺的不是审美，而是工程化和系统化的思维：设计稿应该更接近开发实现，交付才会更容易。所以 TA 的课程里有「动态地设计」「响应式设计」「组件式设计」，也有「用代码来操作 Figma」「实现一个简单的插件」。"},
+    {"quote": "像一个工程师那样思考设计，让我们的设计稿更接近开发实现，交付更容易。", "cite": "Figmacode「工程化设计」章节"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计交付", "Heron Handoff 用户量大，解决真实痛点", "插件目前处于维护状态"],
+      ["教育", "专栏体系完整，从理念到代码", "部分内容需付费"],
+      ["策展", "MacMenuBar.app 分类细致", "收录多，质量需读者自行判断"],
+      ["Mac 工具", "SkyBreak 等新作刚起步", "评分样本尚少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>为自己的职业造工具：</strong>设计师最懂设计师的痛。",
-      "<strong>插件是很好的起点：</strong>Figma 插件分发成本低、反馈快。",
-      "<strong>策展也是产品：</strong>精选清单能长期获得流量。",
-      "<strong>把作品整理好：</strong>分类清楚的作品页，本身就是设计能力的证明。"
-     ]
-    }
+    {"checklist": [
+     "<strong>为自己的职业造工具：</strong>设计师最懂设计师的痛。",
+     "<strong>插件是很好的起点：</strong>Figma 插件分发成本低、反馈快。",
+     "<strong>把经验写成课程：</strong>系统化的知识比零散的技巧更有价值。",
+     "<strong>策展也是产品：</strong>认真分类的清单能长期获得流量。",
+     "<strong>给自己的爱好留时间：</strong>徒步和摇滚乐也是灵感来源。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Figmacode", "url": "https://figmacode.com", "why": "先读免费的「Figma 的基本理念」。"},
+     {"name": "MacMenuBar.app", "url": "https://macmenubar.app", "why": "给你的菜单栏找一个好工具。"},
+     {"name": "SkyBreak", "url": "https://apps.apple.com/us/app/skybreak-break-reminder/id6808182119", "why": "提醒自己离开屏幕，看看窗外。"}
+    ]}
    ]
   }
  ],
- "cta": "去 MacMenuBar.app 找一个你的菜单栏新工具。",
+ "cta": "打开 Figmacode，读一章「万物皆 Frame」。",
  "sources": [
-  {
-   "label": "Hal 的 X 个人资料",
-   "url": "https://x.com/hal__lee"
-  },
-  {
-   "label": "hallee.me",
-   "url": "https://hallee.me"
-  },
-  {
-   "label": "hallee.me：Products",
-   "url": "https://hallee.me/products"
-  },
-  {
-   "label": "MacMenuBar.app",
-   "url": "https://macmenubar.app"
-  }
+  {"label": "Hal 的 X 个人资料", "url": "https://x.com/hal__lee"},
+  {"label": "hallee.me", "url": "https://hallee.me"},
+  {"label": "Figmacode", "url": "https://figmacode.com"},
+  {"label": "MacMenuBar.app", "url": "https://macmenubar.app"},
+  {"label": "GitHub：hallee9000", "url": "https://github.com/hallee9000"},
+  {"label": "SkyBreak（App Store）", "url": "https://apps.apple.com/us/app/skybreak-break-reminder/id6808182119"}
  ]
 }

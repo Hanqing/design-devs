@@ -1,147 +1,166 @@
 {
- "name": "citron 🍢🍋",
+ "name": "citron",
  "role": "Photon 创始设计工程师 · iOS 开发者 · Swift Student Challenge 2026 获奖者",
  "title": "citron：学生、设计工程师，和一个 <em>NeoDB 客户端</em>",
- "dek": "一位年轻的 iOS 开发者，2026 年 Swift Student Challenge 获奖者，同时是 Photon（把 AI Agent 带进 iMessage、WhatsApp 等日常聊天渠道的创业公司）的创始设计工程师。TA 做的 Piecelet 是 Mastodon 与开源书影音社区 NeoDB 的 iOS 客户端。",
- "card": "Swift Student Challenge 2026 获奖者，Photon 创始设计工程师，Piecelet（NeoDB / Mastodon 客户端）作者。",
- "location": "联邦宇宙 @lcandy@m.cmx.im",
- "tags": [
-  "iOS",
-  "SwiftUI",
-  "设计工程",
-  "联邦宇宙",
-  "AI Agent"
- ],
+ "dek": "一位年轻的设计工程师，2026 年 Swift Student Challenge 获奖者，曾在腾讯和 Dify 背后的 LangGenius 工作，现在是 Photon（把 AI Agent 带进 iMessage、WhatsApp 等日常聊天渠道的创业公司）的创始设计工程师。TA 做了开源书影音社区 NeoDB 的 iOS 客户端 Piecelet，还写了一堆小而好用的开源工具：近两千星的 enable-chrome-ai、给学生的 WebVPN 转换器、管理 Apple Containers 的原生 Mac 应用 Crane。",
+ "card": "Piecelet、enable-chrome-ai、Crane 作者；Photon 创始设计工程师，前腾讯、LangGenius。",
+ "location": "未公开（X 资料写着「出逃要趁早」）",
+ "updated": "2026-10-21",
+ "tags": ["设计工程", "iOS", "联邦宇宙", "AI Agent", "开源工具"],
  "links": [
-  {
-   "label": "Piecelet",
-   "url": "https://x.com/PieceletNeoDB"
-  },
-  {
-   "label": "Photon",
-   "url": "http://tryphoton.ai"
-  }
+  {"label": "GitHub：lcandy2", "url": "https://github.com/lcandy2"},
+  {"label": "Piecelet for NeoDB", "url": "https://apps.apple.com/us/app/piecelet-for-neodb/id6739444863"},
+  {"label": "Photon", "url": "https://photon.codes"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个同时在学生竞赛和创业公司里发光的设计工程师，关心开放网络与小众社区。",
-  "<strong>代表作：</strong>Piecelet（Mastodon 与 NeoDB 的 iOS 应用：评价与讨论书、影、剧、音乐、游戏和播客）；在 Photon 负责设计工程；2026 年 Swift Student Challenge 获奖作品。",
-  "<strong>个人标签：</strong>🏳️‍🌈、🌠，X 位置写着「出逃要趁早」，并留下了联邦宇宙账号。"
+  "<strong>一句话：</strong>X 简介「founding design engineer @photonhq / SSC 26 Winner / iOS developer, made @PieceletNeoDB」；GitHub 简介「Design Engineer, former @Tencent, @Langgenius」。",
+  "<strong>代表作：</strong>Piecelet for NeoDB（App Store 4.9 分）、enable-chrome-ai（★2 千）、webvpn-converter（★250）、Crane / container-ui（★176）、sim-agentation、tweet-talk（AdventureX 获奖）。",
+  "<strong>关键数字：</strong>X 关注者约 5,000；GitHub 123 个公开仓库、粉丝 251；Photon 的开源仓库 spectrum-ts ★2.1 千、imessage-kit ★1.5 千。",
+  "<strong>活跃在：</strong>X 与联邦宇宙（@lcandy@m.cmx.im）。"
  ],
- "lead": "citron 的 X 简介非常紧凑：「founding design engineer @photonhq / SSC 26 Winner / iOS developer, made @PieceletNeoDB」。三个身份分别代表了三件事：在创业公司里做设计，在苹果的学生竞赛中获奖，以及为开源社区做客户端。",
+ "lead": "NeoDB 是一个开源、联邦化的书影音标记社区，常被看作豆瓣的开放替代。它有好的理念，却缺好用的手机端。citron 做了 Piecelet：一个原生 iOS 应用，记录、评分、讨论你读的书、看的电影和剧、听的音乐、玩的游戏。为开放社区做一个好客户端，往往比再造一个平台更能帮到人。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计工程师、iOS 开发者、学生开发者"],
+     ["现任", "Photon，创始设计工程师"],
+     ["此前", "腾讯；LangGenius（Dify.AI 背后的公司）"],
+     ["荣誉", "Swift Student Challenge 2026 获奖；AdventureX 黑客松一等奖、Dify.AI & GenAI 二等奖"],
+     ["代表作", "Piecelet、enable-chrome-ai、Crane、webvpn-converter、sim-agentation"],
+     ["技术栈", "Swift / SwiftUI、TypeScript、Python、Svelte"],
+     ["社区", "X、Mastodon（@lcandy@m.cmx.im）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "citron 的作品有两条线。一条是<strong>开放网络与原生体验</strong>：Piecelet 让 NeoDB 在 iPhone 上好用；Crane 给 Apple 的 container 命令行做了原生 Mac 界面；SymbolKit、DominantColors 是写给 Swift 开发者的小包。另一条是<strong>解决身边的小麻烦</strong>：不重装就能打开 Chrome 里的 Gemini 功能、把校内链接一键转换成学校的 WebVPN 地址、把 Arc 书签导出来。"},
+    {"p": "在 Photon，TA 参与把 AI Agent 带到人们已经在用的聊天渠道：iMessage、WhatsApp、SMS、Telegram、Slack，而不是把 Agent 困在网页聊天框里。"},
+    {"note": "本页依据 GitHub（lcandy2 与 photon-hq）、App Store 资料、Photon 官网和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2020",
-       "title": "加入 X",
-       "text": "开始以 citron 的名字在中文开发者圈分享，同时活跃在联邦宇宙（Mastodon）。"
-      },
-      {
-       "when": "Piecelet",
-       "title": "为 NeoDB 做客户端",
-       "text": "NeoDB 是一个开源、联邦化的书影音标记与评论社区（常被视作豆瓣的开放替代）。citron 做了 Piecelet，把 Mastodon 和 NeoDB 合在一个原生 iOS 应用里。"
-      },
-      {
-       "when": "2026",
-       "title": "Swift Student Challenge 获奖",
-       "text": "在苹果 WWDC 的学生 Swift 编程挑战赛中获奖。"
-      },
-      {
-       "when": "现在",
-       "title": "Photon 创始设计工程师",
-       "text": "加入 Photon，作为创始设计工程师参与把 AI Agent 带到 iMessage、WhatsApp 等「数百万人已经在用的渠道」里。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2018–2021", "title": "开始写代码", "text": "2018 年注册 GitHub；2021 年做了 Select-like-a-Boss（像普通文字一样选中链接文字）和 oSearch。"},
+     {"when": "2022–2023", "title": "给学生的小工具", "text": "一批用户脚本；webvpn-converter 帮同学把普通网址转换为学校 WebVPN 地址；还有自动完成课程评教的插件、一键更换 Mac App 图标的 macIconChanger。"},
+     {"when": "2024", "title": "黑客松与大厂", "text": "tweet-talk 在 AdventureX 获得一等奖和 Dify.AI & GenAI 二等奖；做了 Arc 书签导出工具和 Calibre KFX 繁体中文修复插件；先后在腾讯和 LangGenius 工作。"},
+     {"when": "2025", "title": "Piecelet 与 Crane", "text": "1 月 Piecelet for NeoDB 上架；6 月开源 Crane，给 Apple Containers 做原生 Mac 应用。"},
+     {"when": "2026", "title": "SSC 与 Photon", "text": "获得 Swift Student Challenge 2026；enable-chrome-ai 走红；加入 Photon 担任创始设计工程师；10 月开源 sim-agentation：在浏览器里给运行中的 iOS 模拟器做标注，再交给编程 Agent。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Piecelet",
-       "meta": "iOS · Mastodon & NeoDB",
-       "text": "在一个应用里使用 Mastodon，并评价、讨论你的书、电影、剧集、音乐、游戏和节目。",
-       "url": "https://x.com/PieceletNeoDB"
-      },
-      {
-       "name": "Photon",
-       "meta": "创始设计工程师",
-       "text": "Bring agents to iMessage, WhatsApp and channels millions already use.",
-       "url": "http://tryphoton.ai"
-      },
-      {
-       "name": "SSC 2026",
-       "meta": "Swift Student Challenge",
-       "text": "苹果面向学生开发者的年度编程挑战获奖作品。",
-       "url": "https://developer.apple.com/swift-student-challenge/"
-      }
+    {"work": {
+     "name": "Piecelet for NeoDB", "url": "https://apps.apple.com/us/app/piecelet-for-neodb/id6739444863",
+     "meta": ["2025", "iOS", "NeoDB + Mastodon"],
+     "paras": [
+      "在一个 App 里使用 Mastodon，并记录、评价、讨论你的书、电影、剧集、音乐、游戏和播客。支持快速记录、离线查看、搜索 NeoDB 数据库和自定义片单书单。",
+      "Piecelet 有独立的 X 账号 @PieceletNeoDB 发布更新。"
+     ],
+     "facts": [["App Store", "★4.9（8 个评分）"], ["版本", "v1.3.3"]]
+    }},
+    {"work": {
+     "name": "enable-chrome-ai", "url": "https://github.com/lcandy2/enable-chrome-ai",
+     "meta": ["2026", "Python", "★2 千"],
+     "paras": [
+      "不清除数据、不重装，就能在 Google Chrome 里启用 Gemini、AI 历史搜索和 DevTools 的 AI 功能。一个解决地区与配置限制的小脚本，很快收获近两千颗星。"
+     ],
+     "facts": [["GitHub", "★1,986"]]
+    }},
+    {"work": {
+     "name": "Crane（container-ui）", "url": "https://github.com/lcandy2/container-ui",
+     "meta": ["2025", "Swift", "macOS"],
+     "paras": [
+      "Apple 在 WWDC 2025 发布 container 命令行工具后不久，TA 就做了一个原生 macOS 桌面应用来管理它。"
+     ],
+     "facts": [["GitHub", "★176"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["webvpn-converter", "2023", "把常规网址一键转为学校 WebVPN 地址（★250）"],
+      ["sim-agentation", "2026", "在浏览器里标注 iOS 模拟器，把笔记交给编程 Agent"],
+      ["tweet-talk", "2024", "AI 推文，AdventureX 主题一等奖"],
+      ["arc-bookmarks-export", "2024", "导出 Arc 浏览器书签"],
+      ["SymbolKit", "2025", "统一 SF Symbols 与自定义图标的 Swift 包"]
      ]
-    }
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "线上形象",
+   "title": "线上形象研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://x.com/vanillaCitron",
-      "paras": [
-       "citron 没有公开的个人网站，主要在 X 和联邦宇宙（@lcandy@m.cmx.im）上分享开发与设计。",
-       "Piecelet 有自己的 X 账号，用来发布版本更新与功能介绍。"
-      ]
-     }
-    }
+    {"site": {"url": "https://github.com/lcandy2", "paras": [
+     "citron 没有公开的个人博客，GitHub 就是作品集：从学生时代给同学写的小插件，到 Swift 包、Mac 应用和 AI 工具，按年份能看到清楚的成长线。",
+     "日常分享主要在 X 和联邦宇宙。Photon 的官网和开源仓库则展示了 TA 现在参与的方向：一个把 Agent 接入 iMessage、WhatsApp、Telegram 等渠道的开源框架。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["作品集", "GitHub 123 个公开仓库"],
+      ["社区", "X + Mastodon 双线"],
+      ["公司", "Photon：spectrum-ts、imessage-kit 等开源 SDK"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "观点与取向",
    "blocks": [
-    {
-     "p": "citron 的作品有一种清晰的价值取向：<strong>开放网络与原生体验</strong>。为联邦化社区做一个好用的原生客户端，往往比做一个新平台更能帮到用户。"
-    },
-    {
-     "p": "在 Photon，TA 把同样的思路带进了 AI：不要求用户去一个新地方，而是把 Agent 放进他们已经在用的聊天工具里。"
-    }
+    {"p": "从作品看，citron 的取向很清楚：支持开放网络（NeoDB、Mastodon），尊重原生体验（SwiftUI、Mac 原生应用），以及「去用户已经在的地方」：无论是校园网的 WebVPN，还是人们每天打开的 iMessage。"},
+    {"quote": "Bring agents to the interfaces millions already use.", "cite": "Photon 官网"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计工程", "设计与 Swift 开发兼备，获 SSC 认可", "—"],
+      ["开源", "实用小工具多，命中真实痛点", "部分是脚本型项目，长期维护不确定"],
+      ["产品", "Piecelet 评分高", "NeoDB 用户群本身较小"],
+      ["公开信息", "作品丰富", "没有个人网站，背景需从各处拼合"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>为开放社区造工具：</strong>好客户端能让小众平台被更多人用起来。",
-      "<strong>学生也能做真实产品：</strong>竞赛和上架应用可以同时进行。",
-      "<strong>设计工程师是新角色：</strong>在 AI 创业公司里尤其重要。",
-      "<strong>去用户已经在的地方：</strong>iMessage 比新 App 更容易被接受。"
-     ]
-    }
+    {"checklist": [
+     "<strong>为开放社区造工具：</strong>好客户端能让小众平台被更多人用起来。",
+     "<strong>从身边的麻烦开始：</strong>校园网、评教、书签导出，都可以是第一个项目。",
+     "<strong>学生也能做真实产品：</strong>竞赛、上架应用和工作可以同时进行。",
+     "<strong>新工具出来就跟上：</strong>Apple container 发布后很快就有了 GUI。",
+     "<strong>去用户已经在的地方：</strong>iMessage 比新 App 更容易被接受。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Piecelet for NeoDB", "url": "https://apps.apple.com/us/app/piecelet-for-neodb/id6739444863", "why": "用开放社区记录你的书影音。"},
+     {"name": "Crane", "url": "https://github.com/lcandy2/container-ui", "why": "给 Apple 容器一个原生界面。"},
+     {"name": "sim-agentation", "url": "https://github.com/lcandy2/sim-agentation", "why": "在模拟器上圈出问题，交给 Agent 修。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你在用 NeoDB 记录书影音，试试 Piecelet。",
+ "cta": "装上 Piecelet，在 NeoDB 上标记你最近读完的一本书。",
  "sources": [
-  {
-   "label": "citron 的 X 个人资料",
-   "url": "https://x.com/vanillaCitron"
-  },
-  {
-   "label": "Piecelet 的 X 账号",
-   "url": "https://x.com/PieceletNeoDB"
-  },
-  {
-   "label": "Photon 的 X 账号",
-   "url": "https://x.com/photonhq"
-  }
+  {"label": "citron 的 X 个人资料", "url": "https://x.com/vanillaCitron"},
+  {"label": "GitHub：lcandy2", "url": "https://github.com/lcandy2"},
+  {"label": "Piecelet for NeoDB（App Store）", "url": "https://apps.apple.com/us/app/piecelet-for-neodb/id6739444863"},
+  {"label": "Piecelet 的 X 账号", "url": "https://x.com/PieceletNeoDB"},
+  {"label": "Photon", "url": "https://photon.codes"},
+  {"label": "GitHub：photon-hq", "url": "https://github.com/photon-hq"}
  ]
 }
