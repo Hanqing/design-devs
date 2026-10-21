@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build the static site into docs/ from x-design-devs.md + data/people/*.json."""
-import json, os, re, shutil, html, datetime
+import json, os, re, shutil, subprocess, html, datetime
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, 'docs')
@@ -83,6 +83,25 @@ def head(title, desc, prefix, image=None):
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2326251e'/%3E%3Ctext x='16' y='21' font-family='monospace' font-size='13' font-weight='700' fill='%23e6532f' text-anchor='middle'%3EDd%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="{prefix}style.css">
 </head>'''
+
+
+GROUPS = []
+GROUPS_PEOPLE = []
+
+
+def site_footer(prefix, n):
+    groups = ''.join(f'<li><a href="{prefix}index.html#g-{esc(g)}">{esc(g)}</a></li>' for g in GROUPS)
+    return f'''<footer class="drop" data-drop>
+<div class="drop-scene" aria-hidden="true"><canvas></canvas><div class="drop-cue" hidden></div></div>
+<nav class="drop-grid" aria-label="页脚">
+<div class="drop-say"><h3>{n} 位开发者，<br>正从天而降。</h3><p>按住空白处把头像聚到一起，松开让大家落下；点一下头像，打开 TA 的人物页。</p></div>
+<div><h2>人物志</h2><ul><li><a href="{prefix}index.html">全部 {n} 位</a></li>{groups}</ul></div>
+<div><h2>项目</h2><ul><li><a href="{prefix}index.html#about">关于这个项目</a></li><li><a href="https://github.com/Hanqing/design-devs" target="_blank" rel="noopener">GitHub 仓库</a></li><li><a href="https://github.com/Hanqing/design-devs/blob/main/x-design-devs.md" target="_blank" rel="noopener">研究池名单</a></li></ul></div>
+<div><h2>致谢</h2><ul><li><a href="https://air.build/blog/" target="_blank" rel="noopener">AirBuild · 版式参考</a></li><li><a href="https://brm.io/matter-js/" target="_blank" rel="noopener">Matter.js · 物理引擎</a></li></ul></div>
+</nav>
+<div class="drop-bar"><span>{SITE_NAME} · 生成于 {TODAY}</span><a href="#">回到顶部 ↑</a></div>
+</footer>
+<script src="{prefix}drop.js" defer></script>'''
 
 
 def render_block(b):
@@ -197,12 +216,12 @@ def render_person(p, row, prev, nxt, prefix='../../'):
 <section class="sources" id="sources"><h2>资料来源</h2><ol>{sources}</ol>
 <p style="margin-top:12px">本页由公开资料整理，可能存在遗漏或过时之处；以本人公开发布的信息为准。</p></section>
 <div class="next">{nav(prev, 'l', '← 上一位')}{nav(nxt, 'r', '下一位 →')}</div>
-<footer class="footer"><p>{SITE_NAME} · 研究池来自 <code>x-design-devs.md</code> · <a href="{prefix}index.html">返回全部人物</a></p></footer>
 </div>
 </article>
 <aside class="toc"><p>本页目录</p><ol>{''.join(toc)}</ol>
 <div class="toc-acts"><a href="https://x.com/{esc(h)}" target="_blank" rel="noopener">X 主页 ↗</a>{links}<a href="{prefix}index.html">← 返回全部</a></div></aside>
 </main>
+{site_footer(prefix, len(GROUPS_PEOPLE))}
 <script>
 (()=>{{const a=[...document.querySelectorAll('.toc ol a')];const m=new Map(a.map(x=>[x.getAttribute('href').slice(1),x]));
 const io=new IntersectionObserver(es=>{{es.forEach(e=>{{if(e.isIntersecting){{a.forEach(x=>x.removeAttribute('aria-current'));const l=m.get(e.target.id);l&&l.setAttribute('aria-current','true')}}}})}},{{rootMargin:'-20% 0px -70% 0px'}});
@@ -253,8 +272,8 @@ def render_index(people, rows):
 <p>名单来自一个持续维护的研究池 <code>x-design-devs.md</code>：先由种子账号出发，再按「设计感 × 工程能力」分三批扩展，并给出 3–5 分的主观评分。</p>
 <p>每篇人物志都基于公开资料整理：X 个人资料、GitHub、个人网站与博客、播客与采访等，并在页尾列出来源。视觉风格参考了 AirBuild 的博客排版。</p>
 </section>
-<footer class="footer"><p>{SITE_NAME} · 生成于 {TODAY}</p></footer>
 </main>
+{site_footer('', n)}
 <script>
 (()=>{{const bs=[...document.querySelectorAll('.filters button')],q=document.querySelector('.filters input');let f='';
 function run(){{const t=q.value.trim().toLowerCase();document.querySelectorAll('.group').forEach(g=>{{let n=0;g.querySelectorAll('.card').forEach(c=>{{const ok=(!f||c.dataset.group===f)&&(!t||c.dataset.q.includes(t));c.style.display=ok?'':'none';n+=ok}});g.style.display=n?'':'none'}})}}
@@ -263,10 +282,27 @@ bs.forEach(b=>b.onclick=()=>{{bs.forEach(x=>x.setAttribute('aria-pressed','false
 </body></html>'''
 
 
+def write_drop(people):
+    """页脚掉落动效：生成 128px 头像缩略图，并把人物名单写进 drop.js。"""
+    small = os.path.join(OUT, 'avatars', 's')
+    os.makedirs(small, exist_ok=True)
+    for p in people:
+        src = os.path.join(OUT, 'avatars', f'{p["handle"]}.jpg')
+        dst = os.path.join(small, f'{p["handle"]}.jpg')
+        if os.path.exists(src) and not os.path.exists(dst) and shutil.which('sips'):
+            subprocess.run(['sips', '-Z', '128', src, '--out', dst], capture_output=True)
+    roster = [{'h': p['handle'], 'n': p.get('name') or p['handle']} for p in people]
+    js = open(os.path.join(ROOT, 'site', 'drop.js'), encoding='utf-8').read()
+    js = js.replace('__PEOPLE__', json.dumps(roster, ensure_ascii=False, separators=(',', ':')))
+    open(os.path.join(OUT, 'drop.js'), 'w', encoding='utf-8').write(js)
+
+
 def main():
     rows = parse_roster()
     os.makedirs(OUT, exist_ok=True)
     shutil.copy(os.path.join(ROOT, 'site', 'style.css'), os.path.join(OUT, 'style.css'))
+    os.makedirs(os.path.join(OUT, 'vendor'), exist_ok=True)
+    shutil.copy(os.path.join(ROOT, 'site', 'vendor', 'matter.min.js'), os.path.join(OUT, 'vendor', 'matter.min.js'))
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
     people = []
     for r in rows:
@@ -275,6 +311,11 @@ def main():
             p['handle'] = r['handle']
             people.append(p)
     rowmap = {r['handle']: r for r in rows}
+    for r in rows:
+        if r['group'] not in GROUPS:
+            GROUPS.append(r['group'])
+    GROUPS_PEOPLE[:] = people
+    write_drop(people)
     for i, p in enumerate(people):
         d = os.path.join(OUT, 'people', p['handle'])
         os.makedirs(d, exist_ok=True)
