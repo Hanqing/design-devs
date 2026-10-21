@@ -1,152 +1,157 @@
 {
- "name": "Steve 的花园儿",
+ "name": "Steve（GOTSTAR）",
  "role": "产品经理 · 儿童故事叙事设计师 · GOTSTAR",
- "title": "Steve：「余生皆假期」，用 <em>Vibe Coding</em> 实现创意",
- "dek": "一位在游戏和在线教育行业做过产品经理与儿童故事叙事设计的创作者，在北京生活工作了将近二十年，现在住在香港。TA 是摄影和插画爱好者，参与过智能客服、儿童陪伴玩具等 AI 项目，如今用 Vibe Coding 做了一组小而专注的软件：GOTSTAR。",
- "card": "产品经理与儿童故事叙事设计师，GOTSTAR 小软件（Braun Player、Mimi、KINE Skills）作者，香港。",
- "location": "中国香港",
- "tags": [
-  "Vibe Coding",
-  "AIGC",
-  "产品设计",
-  "插画",
-  "摄影"
- ],
+ "title": "Steve：「余生皆假期」，<em>用 Vibe Coding 实现创意</em>",
+ "dek": "一位在游戏和在线教育行业做过产品经理与儿童故事叙事设计的创作者，在北京生活工作了近二十年。TA 是摄影和插画爱好者，近几年参与过智能客服、儿童陪伴玩具等 AI 项目，如今用 Vibe Coding 做了一组小而专注的软件：安静的 Mac 播放器、程序化生成的纸猫头像、给 Codex 的图像动画工作流 Skill，以及一个学英语的海岛冒险游戏。",
+ "card": "GOTSTAR：Braun Player、Mimi、KINE Skills、Glimmering Isles；产品经理与儿童故事叙事设计师。",
+ "location": "中国（博客自述在成都生活、苏州工作；X 资料写着香港）",
+ "updated": "2026-10-21",
+ "tags": ["Vibe Coding", "叙事设计", "AIGC", "摄影", "插画"],
  "links": [
-  {
-   "label": "GOTSTAR",
-   "url": "https://gotsai.club/"
-  },
-  {
-   "label": "博客 vibeday.dev",
-   "url": "https://vibeday.dev"
-  },
-  {
-   "label": "Notes",
-   "url": "https://notes.gotsai.club/"
-  }
+  {"label": "GOTSTAR", "url": "https://gotsai.club/"},
+  {"label": "余生皆假期（博客）", "url": "https://vibeday.dev"},
+  {"label": "Notes", "url": "https://notes.gotsai.club/"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「Independent projects, thoughtfully made.」一个非工程背景、却用 AI 把创意一个个做出来的产品人。",
-  "<strong>代表作：</strong>Braun Player（一个安静的 Mac 视频播放器）、Mimi（为网页生成程序化的纸猫头像）、KINE Skills（给 Codex 的图像与动画制作工作流）、KINE TEAM（由 Codex 驱动的本地 AI 团队工作区，即将推出）、Glimmering Isles（学英语的海岛冒险游戏，即将推出）。",
-  "<strong>为什么值得关注：</strong>从游戏与儿童叙事出发，TA 的软件都带着一点故事感和温柔。"
+  "<strong>一句话：</strong>「Hello, I'm Steve. Welcome to my digital garden.」X 简介标签：#AIGC #ViberCoding #AI探索者 #Midjourney；Photography｜Product Manager｜Illustration Lover。",
+  "<strong>代表作：</strong>Braun Player（Mac）、Mimi（纸猫头像库）、KINE Skills（Codex 图像与动画工作流）、KINE TEAM（即将推出）、Glimmering Isles（即将推出）、SkillSync。",
+  "<strong>关键数字：</strong>博客从 2016 年写到 2026 年，栏目包括 Blog、Sparks、Bites、Fotos、Illus；GOTSTAR 有 5 个项目，各有独立子域名。",
+  "<strong>身份：</strong>产品经理 + 儿童故事叙事设计师，还经营一个不定期更新的 AI 资讯与交流社群。"
  ],
- "lead": "Steve 的博客叫「余生皆假期」。TA 在 About 里写：「我是一名产品经理和儿童故事叙事设计师，在游戏和在线教育行业工作过……我很喜欢研究新奇有趣的 AI 工具，也喜欢用 Vibe Coding 把我的创意变成现实。」",
+ "lead": "GOTSTAR 的首页只有一句话：「Independent projects, thoughtfully made. Small, focused software.」然后是五个项目：一个安静的视频播放器，名字向博朗致敬；一个为网页生成纸猫头像的库；一套给 Codex 的图像与动画 Skill；一个本地 AI 团队工作区；一个用来学英语的海岛冒险。每个都像一个有角色、有故事的小东西，这是叙事设计师的本能。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "产品经理、儿童故事叙事设计师、独立创作者"],
+     ["行业", "游戏、在线教育；近三年参与智能客服、儿童陪伴玩具等 AI 项目"],
+     ["所在地", "曾在北京生活工作近二十年；博客自述现在成都生活、苏州工作"],
+     ["工作室", "GOTSTAR"],
+     ["工具", "Codex、Midjourney、Three.js、Blender"],
+     ["爱好", "摄影、插画"],
+     ["博客", "余生皆假期（Bear Blog）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Steve 用 AI 把创意直接变成软件。TA 的 Notes 站记录了 Glimmering Isles 的角色制作过程：从 Three.js、Blender 到图转 3D，8 组制作测试、1 组修正记录，写清楚输入素材、过程和实际结果。"},
+    {"p": "博客「余生皆假期」则是 TA 的数字花园：AI 编程的第一次尝试、更新 Discord 机器人、做 Chrome 翻译插件、自动同步 Skill 到 GitHub 的 SkillSync，以及多年的摄影合集和生活随笔。"},
+    {"note": "本页依据 gotsai.club、notes.gotsai.club、vibeday.dev（About 与文章列表）和 X 资料整理，资料截至 2026 年 10 月。博客中的私人生活内容未展开。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "北京近二十年",
-       "title": "游戏与在线教育",
-       "text": "做产品经理和儿童故事的叙事设计，在北京生活和工作了将近二十年。"
-      },
-      {
-       "when": "近三年",
-       "title": "AI 项目",
-       "text": "参与了智能客服、儿童陪伴玩具等多个 AI 相关项目；同时经营一个不定期更新的 AI 资讯与交流社群（#AIGC #Midjourney）。"
-      },
-      {
-       "when": "现在",
-       "title": "香港与 GOTSTAR",
-       "text": "移居香港，以 GOTSTAR 之名发布小而专注的独立软件，并在 vibeday.dev 记录 Vibe Coding 的过程，用 Notes 收集灵感。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "北京近二十年", "title": "游戏与在线教育", "text": "做产品经理和儿童故事的叙事设计；2016 年起在博客发布年度摄影合集。"},
+     {"when": "2020–2022", "title": "产品思考", "text": "写《叨叨 01：关于理想和现实的撕扯》《叨叨 02：产品系统与业务逻辑双视角思考框架》，关注 AI 产品与超写实虚拟人。"},
+     {"when": "2023", "title": "第一次用 AI 编程", "text": "写下《我用 AI 进行编程的第一次尝试》，用 AI 更新自己的 Discord 机器人。"},
+     {"when": "2025", "title": "Vibe Coding", "text": "用 AI 做了基于 Chrome 的翻译插件；写《过去一段时间，我用 AI 做了什么》《对 AI 的一些小感想》。"},
+     {"when": "2026", "title": "GOTSTAR", "text": "做了 SkillSync，以 GOTSTAR 之名发布 Braun Player、Mimi、KINE Skills，并在 Notes 记录 Glimmering Isles 的 3D 制作测试。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Braun Player",
-       "meta": "Mac App",
-       "text": "A quiet video player for your Mac。名字向博朗的极简设计致敬。",
-       "url": "https://braun.gotsai.club"
-      },
-      {
-       "name": "Mimi",
-       "meta": "Web 库",
-       "text": "为网页程序化生成纸猫头像。",
-       "url": "https://mimi.gotsai.club"
-      },
-      {
-       "name": "KINE Skills",
-       "meta": "Codex Skill",
-       "text": "图像与动画制作工作流。",
-       "url": "https://kineskills.gotsai.club"
-      },
-      {
-       "name": "Glimmering Isles",
-       "meta": "游戏 · 即将推出",
-       "text": "一个用来学英语的海岛冒险。",
-       "url": "https://isles.gotsai.club/"
-      }
+    {"work": {
+     "name": "Braun Player", "url": "https://braun.gotsai.club",
+     "meta": ["App", "macOS"],
+     "paras": [
+      "「A quiet video player for your Mac.」名字向博朗（Braun）的极简工业设计致敬：少即是多，安静地播放。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "Mimi", "url": "https://mimi.gotsai.club",
+     "meta": ["Library", "Web"],
+     "paras": [
+      "「Procedural paper cat avatars for the web.」为网页程序化生成纸猫头像：每个用户都能得到一只独一无二的小纸猫。"
+     ]
+    }},
+    {"work": {
+     "name": "KINE Skills", "url": "https://kineskills.gotsai.club",
+     "meta": ["Skill", "Codex"],
+     "paras": [
+      "「Image and animation production workflows for Codex.」把图像和动画的制作流程打包成 Codex 能执行的 Skill；配套的 KINE TEAM 是一个由 Codex 驱动的本地 AI 团队工作区，即将推出。"
+     ]
+    }},
+    {"work": {
+     "name": "Glimmering Isles", "url": "https://isles.gotsai.club/",
+     "meta": ["Game", "即将推出"],
+     "paras": [
+      "「An island adventure for learning English.」把儿童故事叙事设计的经验带进学英语的游戏。Notes 站公开了角色 3D 制作的测试记录。"
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://gotsai.club/",
-      "paras": [
-       "GOTSTAR 的首页只有一句「Independent projects, thoughtfully made. Small, focused software from GOTSTAR.」，然后是五个项目，每个标注类型（App、Library、Skill、Game）和独立子域名。",
-       "博客「余生皆假期」的栏目有 Blog、Sparks、Bites、Fotos、Illus，摄影和插画与文章并列。"
-      ]
-     }
-    }
+    {"site": {"url": "https://gotsai.club/", "paras": [
+     "GOTSTAR 的首页极简：一句定位、五个项目，每个标注类型（App、Library、Skill、Game）和独立子域名。导航只有 Projects、Notes、Blog 和 X。",
+     "博客「余生皆假期」用 Bear Blog 搭建，栏目有 Blog、Sparks、Bites、Fotos、Illus：摄影和插画与文章并列，像一个人的完整作品集。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["结构", "工作室站 + 制作笔记 + 个人博客"],
+      ["技术", "Cloudflare；Notes 用 Three.js"],
+      ["风格", "安静、留白、有叙事感"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "观点",
    "blocks": [
-    {
-     "p": "Steve 的作品体现了叙事设计师的本能：<strong>给每个小东西一个角色和一段故事</strong>。纸猫头像、海岛冒险、安静的播放器，都不只是功能，而是一种氛围。"
-    },
-    {
-     "p": "Vibe Coding 对 TA 这样的创作者意义重大：创意不再被「会不会写代码」挡住。"
-    }
+    {"quote": "I enjoy researching new and interesting AI tools and love using VIBE CODING to bring my creative ideas to life.", "cite": "Steve，余生皆假期 About"},
+    {"p": "对 Steve 这样的创作者来说，Vibe Coding 的意义在于：创意不再被「会不会写代码」挡住。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["创意", "叙事感强，每个项目都有角色与氛围", "—"],
+      ["跨界", "产品、叙事、摄影、插画兼具", "—"],
+      ["产品", "小而专注", "多个项目仍在「即将推出」阶段"],
+      ["公开信息", "博客真诚", "作品的用户数据尚未公开"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>非工程师也能造软件：</strong>AI 让创意直接变成产品。",
-      "<strong>小而专注：</strong>每个项目只做一件事，做得安静、好用。",
-      "<strong>把故事带进产品：</strong>叙事感让工具更有温度。",
-      "<strong>摄影、插画、写作都是作品：</strong>个人网站可以容纳一个完整的人。"
-     ]
-    }
+    {"checklist": [
+     "<strong>非工程师也能造软件：</strong>AI 让创意直接变成产品。",
+     "<strong>小而专注：</strong>每个项目只做一件事。",
+     "<strong>把故事带进产品：</strong>叙事感让工具更有温度。",
+     "<strong>公开制作过程：</strong>失败的测试也值得记录。",
+     "<strong>个人网站容纳完整的人：</strong>摄影、插画、写作都是作品。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "GOTSTAR", "url": "https://gotsai.club/", "why": "五个小而安静的项目。"},
+     {"name": "3D 制作测试记录", "url": "https://notes.gotsai.club/3d-production-review/", "why": "看非工程师如何用 AI 做游戏角色。"},
+     {"name": "余生皆假期", "url": "https://vibeday.dev", "why": "一个产品经理的数字花园。"}
+    ]}
    ]
   }
  ],
- "cta": "去 GOTSTAR 给你的网站生成一只纸猫头像。",
+ "cta": "去 Mimi 生成一只属于你的纸猫头像。",
  "sources": [
-  {
-   "label": "Steve的花园儿 的 X 个人资料",
-   "url": "https://x.com/TvWoo"
-  },
-  {
-   "label": "GOTSTAR",
-   "url": "https://gotsai.club/"
-  },
-  {
-   "label": "余生皆假期 vibeday.dev",
-   "url": "https://vibeday.dev"
-  }
+  {"label": "Steve的花园儿 的 X 个人资料", "url": "https://x.com/TvWoo"},
+  {"label": "GOTSTAR", "url": "https://gotsai.club/"},
+  {"label": "GOTSTAR Notes", "url": "https://notes.gotsai.club/"},
+  {"label": "余生皆假期 vibeday.dev", "url": "https://vibeday.dev"}
  ]
 }

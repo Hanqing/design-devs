@@ -1,133 +1,160 @@
 {
- "name": "蓝星 songofhawk",
- "role": "Doco 创作者 · 独立开发者 · AI 传播者",
+ "name": "蓝星（宋辉）",
+ "role": "豆蔻 Doco 创作者 · 独立开发者 · AI 传播者",
  "title": "蓝星：一张纸，<em>两支笔</em>",
- "dek": "TA 在做「豆蔻 Doco」：一个人和 AI Agent 共同写作的文档基础设施。人用编辑器，Agent 用 MCP、CLI 和 API，两者在同一份文档里做块级编辑、版本校验和实时协作。TA 还做了多机智能远控 Agent dsh-alpha，并分享 AI 编程、产品与投资思考。",
- "card": "豆蔻 Doco（人与 Agent 协作的文档基础设施）创作者，dsh-alpha 作者，独立开发者。",
+ "dek": "TA 在做「豆蔻 Doco」：一个人和 AI Agent 共同写作的开源文档基础设施。人用编辑器，Agent 用 MCP、CLI 和 API，两者在同一份文档里做块级编辑、版本校验和实时协作。更早之前，TA 写过基于图像识别的开源 RPA 工具 SimpleRPA、在大图里找小图的 findimage；2026 年还做了多机多 Agent 编排平台 dsh-alpha。",
+ "card": "豆蔻 Doco、dsh-alpha、SimpleRPA 作者；做人与 Agent 共写基础设施的独立开发者。",
  "location": "中国",
- "tags": [
-  "AI Agent",
-  "文档协作",
-  "MCP",
-  "独立开发",
-  "投资"
- ],
+ "updated": "2026-10-21",
+ "tags": ["人机协作", "文档", "MCP", "RPA", "开源"],
  "links": [
-  {
-   "label": "Doco 豆蔻",
-   "url": "https://doco.page"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/songofhawk"
-  }
+  {"label": "豆蔻 Doco", "url": "https://doco.page"},
+  {"label": "GitHub：doco", "url": "https://github.com/songofhawk/doco"},
+  {"label": "dsh-alpha", "url": "https://songofhawk.github.io/dsh-alpha/"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「探索 AI 时代，技术、商业与个人的新可能。」一个把「人机共写」当作基础设施来做的独立开发者。",
-  "<strong>代表作：</strong>豆蔻 Doco（共享文档层：编辑器 + MCP / CLI / REST API，稳定的块 ID、版本校验与实时协作，公测期免费）、dsh-alpha（多机智能远控 Agent）。",
-  "<strong>为什么值得关注：</strong>Doco 回答的是一个越来越重要的问题：当 Agent 也在写文档，人和 Agent 该在哪里协作？"
+  "<strong>一句话：</strong>X 简介「探索 AI 时代，技术、商业与个人的新可能。Doco 创作者｜独立开发者｜AI 传播者」，分享 AI 编程、产品创新、技术趋势与投资思考。",
+  "<strong>代表作：</strong>豆蔻 Doco（开源，公测期免费）、doco-dsh 插件、dsh-alpha、SimpleRPA（★37）、findimage（★33）、objtyping、DeskAnchor。",
+  "<strong>关键数字：</strong>Doco 内置 29 个工具的 MCP 服务器；GitHub 65 个公开仓库；2010 年注册 X，2012 年注册 GitHub。",
+  "<strong>Doco 的一句话：</strong>「One sheet of paper, two pens.」（一张纸，两支笔。）"
  ],
- "lead": "Doco 的首页写着：「One sheet of paper, two pens.」（一张纸，两支笔。）它的中文名「豆蔻」与 Doco 谐音，意思是小豆蔻，「一个让转瞬即逝的想法生根的地方，你和你的 Agent 一起写」。",
+ "lead": "Agent 改文档时，最怕的是把人刚写的内容覆盖掉；人看 Agent 的改动时，最怕的是不知道它改了哪里。豆蔻 Doco 用两件事解决：每个块都有稳定的 ID，Agent 按块寻址读写；每次写入都带版本校验，冲突时不会静默覆盖。这是人机共写从玩具走向基础设施的前提。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者、AI 传播者"],
+     ["所在地", "中国"],
+     ["代表作", "豆蔻 Doco、dsh-alpha、SimpleRPA、findimage"],
+     ["技术栈", "TypeScript、Python、JavaScript、Swift、Java"],
+     ["接口", "Doco：编辑器 + MCP + CLI + API"],
+     ["个人主页", "React + Vite + GitHub Pages，文章来自 GitHub Issues，中英双语"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "豆蔻 Doco 是一个开源的富文本协作编辑器和知识库，「把数据交还给你」，同时也认真对待你的 AI Agent：块级稳定寻址、乐观并发控制、29 个工具的 MCP 服务器。Claude Code、Cursor、Codex 都能通过 MCP、CLI 或 API 读写同一份文档。"},
+    {"p": "TA 也在为 DeepSeek Harness 生态做工具：doco-dsh 让 dsh 用块级寻址搜索、阅读、查看大纲和保存草稿；dsh-alpha 是一个多机多 Agent 编排与控制平台，可以跨设备、工作区和 Agent 运行时路由任务。"},
+    {"note": "本页依据 doco.page、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2010–2012",
-       "title": "注册 X 与 GitHub",
-       "text": "早期互联网用户，长期关注技术与商业。"
-      },
-      {
-       "when": "2026",
-       "title": "豆蔻 Doco",
-       "text": "推出面向人类与 AI Agent 的文档基础设施：从起草、人工审阅到 Agent 持续维护，给不同的 Agent 提供同一个文档与知识库接口，让协作沉淀为人可以编辑、引用和导出的知识。"
-      },
-      {
-       "when": "2026",
-       "title": "dsh-alpha",
-       "text": "多机智能远控 Agent。同时在 X 上分享 AI 编程、产品创新、技术趋势与投资思考。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2010–2012", "title": "注册 X 与 GitHub", "text": "早期互联网用户，长期关注技术与商业。2017 年做过 JavaScript 十进制计算库 decimaljs。"},
+     {"when": "2021–2022", "title": "Python 自动化", "text": "objtyping：在字典列表和带类型注解的对象之间转换；SimpleRPA：用 YAML 配置、基于图像识别的开源 RPA，「理论上可以支持所有 Windows 软件和网页的自动化」；findimage：因为 aircv 长期无人维护，自己重写了在大图里找小图的功能。"},
+     {"when": "2025", "title": "AI 小工具", "text": "图片切片工具 snaplab、一系列小工具 artifacts、AI 交易和 AI 教育实验。"},
+     {"when": "2026", "title": "豆蔻 Doco 与 dsh-alpha", "text": "2 月开始做 Doco；6 月做了 macOS 窗口布局保存工具 DeskAnchor；8 月发布 dsh-alpha 和 doco-dsh。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "豆蔻 Doco",
-       "meta": "公测中 · 免费",
-       "text": "人用编辑器，Agent 用 MCP、CLI 和 API：块级编辑、版本校验、实时协作。",
-       "url": "https://doco.page"
-      },
-      {
-       "name": "dsh-alpha",
-       "meta": "Agent",
-       "text": "多机智能远控 Agent。",
-       "url": "https://x.com/songofhawk"
-      }
+    {"work": {
+     "name": "豆蔻 Doco", "url": "https://doco.page",
+     "meta": ["2026", "TypeScript", "开源 · 公测免费"],
+     "paras": [
+      "「The document space where humans and AI agents write together.」从起草、人工审阅到 Agent 持续维护，Doco 给不同的 Agent 提供同一个文档与知识库接口，让协作沉淀为人可以编辑、引用和导出的知识。",
+      "官网「Behind the name」一节解释了名字：豆蔻与 Doco 谐音，意为小豆蔻，「Small beginnings. Growing ideas.」一个让一闪而过的想法生根的地方。"
+     ],
+     "facts": [["MCP", "29 个工具"], ["价格", "公测期免费，无需信用卡"]]
+    }},
+    {"work": {
+     "name": "dsh-alpha", "url": "https://github.com/songofhawk/dsh-alpha",
+     "meta": ["2026", "JavaScript", "DSH 生态"],
+     "paras": [
+      "「Multi-machine, multi-agent orchestration and control platform for DSH.」跨设备、工作区和 Agent 运行时路由任务，支持流式输出和审批。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "SimpleRPA", "url": "https://github.com/songofhawk/simplerpa",
+     "meta": ["2021", "Python", "MIT"],
+     "paras": [
+      "用 YAML 配置实现桌面软件的自动化控制，适合运营发消息打标签、项目管理采集数据、测试人员做简单自动化。TA 认为常见 RPA 工具变成了图形化编程工具，场景一复杂就要写大量跳转；SimpleRPA 针对真实场景做了更合理的抽象。"
+     ],
+     "facts": [["GitHub", "★37"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["doco-dsh", "2026", "DeepSeek Harness 的 Doco 知识库插件"],
+      ["DeskAnchor", "2026", "保存与恢复 macOS 窗口布局"],
+      ["findimage", "2022", "在大图中定位模板小图（★33）"],
+      ["objtyping", "2021", "dict / list 与类型化对象互转"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "网站",
+   "title": "网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://doco.page",
-      "paras": [
-       "Doco 的官网中英双语，导航分为 Edit、Live、Collaborate、Infrastructure、Tech、API、Docs。「Behind the name」一节专门解释豆蔻的名字：「Small beginnings. Growing ideas.」",
-       "「Craft」一节写着：「流畅的写作是底线。打开就写，边想边排。工具快到可以被忘记，思考才会登场。」"
-      ]
-     }
-    }
+    {"site": {"url": "https://doco.page", "paras": [
+     "Doco 的官网中英双语，开头是「豆蔻 Cardamom · Room to grow」和「One sheet of paper, two pens.」，然后分节讲编辑、实时、协作、基础设施、技术、API 和文档。",
+     "「Craft」一节写着：「流畅的写作是底线。打开就写，边想边排。工具快到可以被忘记，思考才会登场。」"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Cloudflare"],
+      ["叙事", "名字故事 + 人机双接口"],
+      ["个人主页", "博客文章直接来自 GitHub Issues"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "观点",
    "blocks": [
-    {
-     "p": "Doco 的关键设计是<strong>稳定的块 ID 与版本校验</strong>：Agent 修改文档时不会覆盖人刚写的内容，人也能看到 Agent 改了哪一块。这是「人机共写」从玩具走向基础设施的前提。"
-    },
-    {
-     "quote": "The tool is fast enough to be forgotten, and only then does the thinking take the stage.",
-     "cite": "Doco 官网"
-    }
+    {"quote": "The tool is fast enough to be forgotten, and only then does the thinking take the stage.", "cite": "豆蔻 Doco 官网"},
+    {"p": "从 RPA 到 Doco，蓝星一直在做「让机器替人干活，同时让人看得见、管得住」的工具。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计", "块级寻址 + 版本校验，切中人机共写痛点", "—"],
+      ["开源", "数据可导出、可自托管", "仓库星数尚少，社区刚起步"],
+      ["生态", "MCP、CLI、API、DSH 插件齐全", "仍在公测，商业模式未定"],
+      ["表达", "命名与文案有温度", "个人公开写作较少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>给新协作方式做基础设施：</strong>人和 Agent 需要同一份文档。",
-      "<strong>名字也是设计：</strong>「豆蔻」让技术产品有了温度。",
-      "<strong>同时服务人和机器：</strong>编辑器 + MCP + API。",
-      "<strong>工具要快到被遗忘：</strong>让思考成为主角。"
-     ]
-    }
+    {"checklist": [
+     "<strong>给新协作方式做基础设施：</strong>人和 Agent 需要同一份文档。",
+     "<strong>名字也是设计：</strong>「豆蔻」让技术产品有了温度。",
+     "<strong>同时服务人和机器：</strong>编辑器 + MCP + API。",
+     "<strong>维护者消失时就自己写：</strong>findimage 就是这样来的。",
+     "<strong>工具要快到被遗忘：</strong>让思考成为主角。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "豆蔻 Doco", "url": "https://doco.page", "why": "把你的 Agent 接进同一份文档。"},
+     {"name": "Doco 源码", "url": "https://github.com/songofhawk/doco", "why": "看块级寻址和乐观并发怎么实现。"},
+     {"name": "SimpleRPA", "url": "https://github.com/songofhawk/simplerpa", "why": "用 YAML 自动化一个重复的桌面操作。"}
+    ]}
    ]
   }
  ],
- "cta": "在 Doco 里开一份文档，让你的 Agent 也来写两笔。",
+ "cta": "在 Doco 里写一段笔记，再让你的 Agent 通过 MCP 续写下一块。",
  "sources": [
-  {
-   "label": "蓝星的 X 个人资料",
-   "url": "https://x.com/songofhawk"
-  },
-  {
-   "label": "Doco 豆蔻",
-   "url": "https://doco.page"
-  }
+  {"label": "蓝星的 X 个人资料", "url": "https://x.com/songofhawk"},
+  {"label": "豆蔻 Doco", "url": "https://doco.page"},
+  {"label": "GitHub：songofhawk", "url": "https://github.com/songofhawk"},
+  {"label": "GitHub：doco", "url": "https://github.com/songofhawk/doco"}
  ]
 }

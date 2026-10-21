@@ -1,158 +1,162 @@
 {
- "name": "大桥 dalonng",
- "role": "iOS 开发者 · 东京涩谷",
+ "name": "大桥（姜大龙）",
+ "role": "资深 iOS 开发者 · 东京涩谷",
  "title": "大桥：在涩谷写 Swift、<em>读 Mach-O</em> 的人",
- "dek": "一位低调的 iOS 开发者，X 简介一片空白，只写着「涩谷」。TA 的 GitHub 从 2010 年延续到今天：维护了十二年的 Emacs 配置、学 Haskell 的 CIS 194 练习、Objective-C 运行时与 Mach-O 文件的研究，以及用 Swift 宏做的 JSON 库和一个带 Metal 着色器与端侧图像分类的新 App。",
- "card": "东京涩谷的 iOS 开发者，Swift 宏 JSON 库 Bourne、swift-macho、Atelier 作者，十二年 Emacs 用户。",
+ "dek": "一位低调的 iOS 开发者，X 简介一片空白，只写着「渋谷」。TA 从 2010 年开始做 iOS，经历过银联支付插件、招行掌上生活、猫眼电影、店长直聘、小米手环公交卡、天星银行、快手与 A 站。GitHub 上是维护了十二年的 Emacs 配置、学 Haskell 的练习、Objective-C 运行时与 Mach-O 的研究，以及用 Swift 宏做的 JSON 库和一个 Metal 着色器实验 App。",
+ "card": "前快手、小米、Boss 直聘、猫眼 iOS 工程师；Bourne、swift-macho、Atelier 作者，东京涩谷。",
  "location": "日本东京涩谷",
- "tags": [
-  "Swift",
-  "iOS",
-  "Mach-O",
-  "Emacs",
-  "Metal"
- ],
+ "updated": "2026-10-21",
+ "tags": ["iOS", "Swift", "Objective-C", "Mach-O", "Emacs"],
  "links": [
-  {
-   "label": "GitHub",
-   "url": "https://github.com/dalonng"
-  },
-  {
-   "label": "博客「滋啦文」",
-   "url": "https://dalonng.github.io"
-  }
+  {"label": "GitHub：dalonng", "url": "https://github.com/dalonng"},
+  {"label": "滋啦滋啦滋啦文", "url": "https://dalonng.github.io"},
+  {"label": "X", "url": "https://x.com/dalonng"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个公开资料很少、但代码记录很长的 iOS 工程师，对底层（运行时、Mach-O）和工具（Emacs、Tuist、mise）都有持续的兴趣。",
-  "<strong>代表作：</strong>Bourne（用 Swift 宏自动生成 Codable，缺字段用安全默认值，面向 struct + let 的不可变设计）、swift-macho（检查和修改 Mach-O 文件的 Swift 库）、HelloOCRuntime、Atelier（2026，Metal 着色器实验 + MobileNetV2 端侧图像分类）、AAONetworking、my-config（Emacs 配置，2014 年至今）。",
-  "<strong>说明：</strong>大桥几乎不在公开场合介绍自己，本页主要依据其 GitHub 与早期博客整理。"
+  "<strong>一句话：</strong>简历自述「技术娴熟的 iOS 开发程序员」，擅长 Swift、Objective-C、UIKit、自定义动画和架构设计，做过组件化、构建优化和 Swift 混编。",
+  "<strong>代表作：</strong>快手的 Swift 组件混编方案；Bourne（Swift 宏 JSON 解析）、swift-macho、Atelier、HelloOCRuntime、my-config（Emacs，2014 至今）。",
+  "<strong>关键数字：</strong>2010 年入行；十几年里经历 7 家公司和多个外派项目；X 推文约 4,000 条。",
+  "<strong>风格：</strong>不追热点，不写长篇宣传，只是不停地研究自己好奇的东西：类型与元类型、Mach-O、运行时、着色器。"
  ],
- "lead": "大桥 2009 年就注册了 Twitter，2010 年注册 GitHub，个人简介始终是空的。但 TA 的提交记录很诚实：2026 年 10 月，TA 还在给 2014 年创建的 Emacs 配置推送新的提交。",
+ "lead": "大桥的 Emacs 配置仓库叫 J-config，从 2014 年 3 月一直更新到 2026 年 10 月。十二年里 TA 换了好几家公司、好几座城市，用的编辑器配置却一直在同一个仓库里慢慢生长。这很像 TA 做技术的方式：安静、长期、往下多走一层。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 开发者"],
+     ["所在地", "日本东京涩谷"],
+     ["教育", "大连民族大学软件工程（2006–2010）"],
+     ["经历", "亿达信息 → 大连慧搜 → 自由职业（外派富达、银联等）→ 猫眼 → Boss 直聘 → 小米 → 快手"],
+     ["技术栈", "Swift、Objective-C、C、Flutter / Dart、Python、Ruby、Metal"],
+     ["工具", "Emacs、Tuist、mise、Fastlane"],
+     ["博客", "滋啦滋啦滋啦文（Jekyll，2014–2017）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "根据公开简历，大桥在快手负责快手与 A 站的 iOS 应用，设计并推广了 Swift 组件混编方案，解决公司级工具链里 Swift 混编和二进制化的痛点，并做组件化、构建优化和架构设计。"},
+    {"p": "业余时间 TA 往系统底层走：用 Swift 解析和修改 Mach-O 文件、写 Objective-C 运行时的学习笔记、从目录里扫描 ObjC 类和枚举。2026 年的新项目 Atelier 用 Tuist 组织工程，包含三角形、方块、纹理、灰度等 Metal 着色器实验，以及用 MobileNetV2 在本机给相册图片分类。"},
+    {"note": "本页依据 GitHub 仓库与 README、博客「滋啦滋啦滋啦文」（含公开简历）和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2014",
-       "title": "博客与 Emacs",
-       "text": "开了博客「滋啦滋啦滋啦文」，写《Swift 中的类型和元类型》、防止推送到主线的 git hook、Fastlane；同年开始维护自己的 Emacs 配置 J-config。"
-      },
-      {
-       "when": "2015–2016",
-       "title": "Objective-C 与 Haskell",
-       "text": "写过 Objective-C 抽奖小程序 MLottery，并跟着宾大 CIS 194 课程学 Haskell。"
-      },
-      {
-       "when": "2023",
-       "title": "深入底层",
-       "text": "swift-macho（Swift 版 Mach-O 解析与修改）、MachOView fork、HelloOCRuntime（学习 OC 运行时）、从目录中查找 ObjC 类与枚举的脚本、FileHandle 扩展；记录 iOS 17 转屏后导航栏偏移的问题；用 Eien 学 SwiftUI。"
-      },
-      {
-       "when": "2024–2025",
-       "title": "Swift 宏与网络库",
-       "text": "Bourne：用 Swift 宏自动解析 JSON 到 struct 与 let；AAONetworking 网络库。"
-      },
-      {
-       "when": "2026",
-       "title": "Atelier",
-       "text": "用 Tuist 管理工程、mise 管理工具链的新 App：Metal 着色器的三角、方块、纹理实验，以及用 MobileNetV2 在本机给相册图片做分类，界面支持中英文。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2010–2013", "title": "大连起步", "text": "在亿达信息开发银联支付插件 SDK（加密协议、安全键盘）和邦购商城；在大连慧搜做日本版旅行翻译词典。"},
+     {"when": "2013–2015", "title": "自由职业与外派", "text": "外派参与富达投资美国版 App 的股票价格表重构、银联随行、招行掌上生活的登录、支付和安全键盘；之后做台湾版漫画 App Comico。"},
+     {"when": "2014", "title": "博客与 Emacs", "text": "开博客「滋啦滋啦滋啦文」，第一篇叫《假如生活欺骗了你！》；开始维护 Emacs 配置 J-config。"},
+     {"when": "2015–2017", "title": "猫眼与 Boss 直聘", "text": "在猫眼电影重构订单模块；在 Boss 直聘负责店长直聘 iOS，重构 App、完善 git 流程和测试包分发；翻译《Swift 中的类型和元类型》，写 git hook 和 Fastlane；跟着宾大 CIS 194 学 Haskell。"},
+     {"when": "2017–2020", "title": "小米", "text": "开发小米手环 iOS 公交卡 SDK（蓝牙开卡、充值、门禁卡）；参与天星银行 Swift 与 Flutter App 的转账功能和 CI 搭建。"},
+     {"when": "2020 起", "title": "快手", "text": "负责快手与 A 站 iOS，推广 Swift 组件混编方案。2023 年深入 Mach-O 与 OC 运行时，学习 SwiftUI。"},
+     {"when": "2024–2026", "title": "Swift 宏与 Metal", "text": "Bourne、AAONetworking；2026 年 10 月开始 Atelier。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Bourne",
-       "meta": "Swift 宏",
-       "text": "自动生成 Codable 实现，缺失字段用默认值而不是抛错，鼓励不可变数据模型。",
-       "url": "https://github.com/dalonng/Bourne"
-      },
-      {
-       "name": "swift-macho",
-       "meta": "2023 · Swift",
-       "text": "检查和修改 Mach-O 文件的 Swift 库。",
-       "url": "https://github.com/dalonng/swift-macho"
-      },
-      {
-       "name": "Atelier",
-       "meta": "2026 · Swift · Metal",
-       "text": "Metal 着色器实验与端侧图像分类，工程由 Tuist 组织。",
-       "url": "https://github.com/dalonng/Atelier"
-      },
-      {
-       "name": "my-config",
-       "meta": "2014 至今 · Emacs Lisp",
-       "text": "维护了十二年的 Emacs 配置。",
-       "url": "https://github.com/dalonng/my-config"
-      }
+    {"work": {
+     "name": "Bourne", "url": "https://github.com/dalonng/Bourne",
+     "meta": ["2024", "Swift 宏"],
+     "paras": [
+      "「自动解析 JSON，Struct、let。」用 Swift 宏自动生成解码实现，缺失字段用默认值而不是抛错，鼓励不可变的数据模型，避免多线程数据竞争。这是一个在真实项目里吃过 JSON 解析苦头的人才会做的取舍。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "swift-macho", "url": "https://github.com/dalonng/swift-macho",
+     "meta": ["2023", "Swift"],
+     "paras": [
+      "「A Swift library for examining and modifying Mach-O files.」同期还 fork 了 MachOView，并写了 FileHandle 的字节操作扩展。理解 Mach-O，是做构建优化和二进制化的基础。"
+     ]
+    }},
+    {"work": {
+     "name": "Atelier", "url": "https://github.com/dalonng/Atelier",
+     "meta": ["2026", "Swift · Metal", "Tuist"],
+     "paras": [
+      "工程由 Tuist 管理，源码按功能组织：Triangle、Square、Texture、Grayscale 每组都有页面、独立渲染器和 shader，共用画布与渲染协议。还有用 MobileNetV2 做的本地相册图片分类，界面支持中英文。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["my-config（J-config）", "2014–2026", "维护十二年的 Emacs 配置"],
+      ["HelloOCRuntime", "2023", "Objective-C 运行时学习笔记与示例"],
+      ["cis194", "2016", "宾大 Haskell 课程练习"],
+      ["AAONetworking", "2025", "Swift 网络库"],
+      ["Eien", "2023", "学习 SwiftUI"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "线上形象",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://dalonng.github.io",
-      "paras": [
-       "早年的 Jekyll 博客「滋啦滋啦滋啦文」，最后一篇停在 2017 年的 Fastlane。2014 年的文章里还有一篇《假如生活欺骗了你！》。",
-       "如今 TA 的「作品集」就是 GitHub：仓库按更新时间排列，最新的总是 Atelier 和 Emacs 配置。"
-      ]
-     }
-    }
+    {"site": {"url": "https://dalonng.github.io", "paras": [
+     "早年的 Jekyll 博客「滋啦滋啦滋啦文」，About 页只有一句「翻译和整理的一些滋啦滋啦滋啦」。最后一篇文章停在 2017 年的 Fastlane；一篇个人简历持续更新，完整列出了十几年的项目经历。",
+     "如今 TA 的作品集就是 GitHub：仓库按更新时间排列，最新的总是 Atelier 和 Emacs 配置。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Jekyll，GitHub Pages"],
+      ["内容", "翻译、工具笔记、简历"],
+      ["X", "简介为空，只有所在地"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "手艺与方法",
+   "id": "voice",
+   "title": "风格",
    "blocks": [
-    {
-     "p": "大桥的代码有一种<strong>「工匠的安静」</strong>：不追热点，不写长篇宣传，只是不停地研究自己好奇的东西：类型与元类型、Mach-O 结构、运行时、着色器。"
-    },
-    {
-     "p": "Bourne 的设计选择也很有观点：用不可变的 struct + let 避免多线程数据竞争，用安全默认值代替解析失败。这是一个在真实项目里吃过 JSON 解析苦头的人才会做的取舍。"
-    }
+    {"p": "大桥几乎不做自我宣传。简历里最有分量的一句是：「帮助公司解决 Swift 组件混编问题。」这是很多大型 iOS 团队都绕不过去的工程难题。"},
+    {"quote": "翻译和整理的一些滋啦滋啦滋啦。", "cite": "大桥，博客 About"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["经验", "十几年 iOS，金融、电商、硬件、视频都做过", "—"],
+      ["深度", "构建、二进制化、Mach-O、运行时", "底层研究多为个人学习，未成体系发表"],
+      ["开源", "长期维护自己的工具", "仓库几乎没有星标，影响力有限"],
+      ["写作", "早期博客扎实", "2017 年后基本停更"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>长期维护自己的工具：</strong>一份 Emacs 配置可以陪你十二年。",
-      "<strong>向下多走一层：</strong>理解 Mach-O 和运行时，会让你更懂 iOS。",
-      "<strong>用新语言特性解决老问题：</strong>Swift 宏让 JSON 解析更安全。",
-      "<strong>不必张扬：</strong>代码本身就是最好的自我介绍。"
-     ]
-    }
+    {"checklist": [
+     "<strong>长期维护自己的工具：</strong>一份 Emacs 配置可以陪你十二年。",
+     "<strong>向下多走一层：</strong>理解 Mach-O 和运行时，会让你更懂 iOS。",
+     "<strong>用新语言特性解决老问题：</strong>Swift 宏让 JSON 解析更安全。",
+     "<strong>持续更新简历：</strong>把每个项目做了什么、用了什么写清楚。",
+     "<strong>不必张扬：</strong>代码本身就是最好的自我介绍。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Swift 中的类型和元类型", "url": "https://dalonng.github.io/translation/2016/04/02/swiftmetatype.html", "why": "一篇经典概念的中文翻译。"},
+     {"name": "Bourne", "url": "https://github.com/dalonng/Bourne", "why": "看 Swift 宏怎么简化 JSON 解析。"},
+     {"name": "Atelier", "url": "https://github.com/dalonng/Atelier", "why": "一套结构清晰的 Metal 着色器练习。"}
+    ]}
    ]
   }
  ],
- "cta": "看看 Bourne 的设计，想想你的 JSON 模型是否足够安全。",
+ "cta": "打开你的编辑器配置，给它写一行说明，然后提交到 Git。",
  "sources": [
-  {
-   "label": "大桥的 X 个人资料",
-   "url": "https://x.com/dalonng"
-  },
-  {
-   "label": "GitHub：dalonng",
-   "url": "https://github.com/dalonng"
-  },
-  {
-   "label": "博客「滋啦滋啦滋啦文」",
-   "url": "https://dalonng.github.io"
-  }
+  {"label": "大桥的 X 个人资料", "url": "https://x.com/dalonng"},
+  {"label": "GitHub：dalonng", "url": "https://github.com/dalonng"},
+  {"label": "博客「滋啦滋啦滋啦文」", "url": "https://dalonng.github.io"},
+  {"label": "个人简历（博客）", "url": "https://dalonng.github.io/jekyll/update/2014/12/02/resume.html"}
  ]
 }

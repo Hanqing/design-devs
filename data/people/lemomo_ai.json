@@ -2,147 +2,158 @@
  "name": "Lemomo",
  "role": "独立开发者 · Claude Code 插件与 Skill 作者",
  "title": "Lemomo：不用视频模型，<em>用纯代码拍短片</em>",
- "dek": "一位在墨尔本「公开构建」的程序员与独立开发者，GitHub 简介写着「给 AI 炒作做压力测试的独立开发者」。TA 的 Lemo-Opuscar 让 Claude 用纯代码生成短片，51 种影片风格，获得四千多星；还有一张图变循环动图的 lemo-wake、给 Claude Code 换皮肤的 lemo-mod，以及在复印件上盖「仅供××使用」的小章。",
- "card": "墨尔本独立开发者，Lemo-Opuscar（★4.3k）、lemo-wake、lemo-mod、Stampy 作者。",
+ "dek": "一位在墨尔本「公开构建」的程序员与独立开发者，GitHub 简介写着「给 AI 炒作做压力测试的独立开发者」。TA 的 Lemo-Opuscar 让 Claude 用纯代码生成短片，51 种影片风格，获得四千七百多颗星；还有一张图变循环动图的 lemo-wake、给 Claude Code 换皮肤的 lemo-mod、评估你和 Codex 协作质量的 codex-radar，以及给复印件盖「仅供××使用」的小章 Stampy。",
+ "card": "Lemo-Opuscar（★4.7 千）、lemo-wake、lemo-mod、codex-radar、Stampy 作者；墨尔本的独立开发者。",
  "location": "澳大利亚墨尔本",
- "tags": [
-  "Claude Code",
-  "Agent Skill",
-  "创意编程",
-  "macOS",
-  "公开构建"
- ],
+ "updated": "2026-10-21",
+ "tags": ["Claude Code", "Skill", "创意编程", "开源", "Codex"],
  "links": [
-  {
-   "label": "GitHub",
-   "url": "https://github.com/lemomo-ai"
-  },
-  {
-   "label": "Lemo-Opuscar",
-   "url": "https://github.com/lemomo-ai/lemo-opuscar"
-  }
+  {"label": "GitHub：lemomo-ai", "url": "https://github.com/lemomo-ai"},
+  {"label": "Lemo-Opuscar", "url": "https://lemomo-ai.github.io/lemo-opuscar/"},
+  {"label": "X", "url": "https://x.com/lemomo_ai"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「帮每个人都用好 AI，让每颗星星都能闪耀。」把真正好用的方法做成开源项目。",
-  "<strong>代表作：</strong>Lemo-Opuscar（51 种影片风格，每种附风格提示词和一部完全由代码生成的示范短片）、lemo-wake（一张静态图变成约 5 秒的无缝循环动画，支持 MP4 / GIF / WebP / Live Photo）、lemo-mod（21 套 Claude Code 风格 + 16 个 mod）、codex-radar（从 9 个维度评估你与 Codex 的协作）、Stampy 小章（macOS 菜单栏）。",
-  "<strong>为什么值得关注：</strong>TA 总能找到 AI 能力的「非常规用法」：不用视频模型也能拍片。"
+  "<strong>一句话：</strong>「程序员，独立开发者。致力于分享真正好用的方法做成开源项目，让每个人都能用 AI 得到更好的结果。」口号：「帮每个人都用好 AI，让每颗星星都能闪耀。」",
+  "<strong>代表作：</strong>Lemo-Opuscar（★4,705）、lemo-wake（★98）、codex-radar、lemo-mod（21 套风格）、Stampy 小章。",
+  "<strong>关键数字：</strong>X 关注者约 3,100；5 个开源项目全部中英双语；Lemo-Opuscar 一个多月 500 多次分叉。",
+  "<strong>自我定位：</strong>X 简介「Sexy Developer｜Building in Public」，承诺「坚持做好内容输出」。"
  ],
- "lead": "Lemomo 的 X 简介很大胆：「Sexy Developer | Building in Public」。中文部分则很真诚：「程序员，独立开发者。帮每个人都用好 AI，让每颗星星都能闪耀。坚持做好内容输出！」",
+ "lead": "没有视频模型，能拍短片吗？Lemo-Opuscar 的回答是可以：选一种风格，说出你的故事，让编程 Agent 当导演。51 种影片风格，每种都配一份风格提示词、一份导演与技术指南，以及一支完全由 Claude 用代码做出来的样片。这不是一个提示词，而是一套被打包好的方法。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "程序员、独立开发者、AI 内容创作者"],
+     ["所在地", "澳大利亚墨尔本"],
+     ["方向", "Claude Code / Codex 插件、Skill 与 mod；macOS 小工具"],
+     ["技术栈", "JavaScript、TypeScript、Python、Swift"],
+     ["代表作", "Lemo-Opuscar、lemo-wake、lemo-mod、codex-radar、Stampy"],
+     ["风格", "每个项目都有中英双语 README 和一个作品展示页"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Lemomo 把「真正好用的 AI 方法」做成开源项目。作品有一种<strong>产品化的创意</strong>：不是一句提示词，而是风格 + 指南 + 示范作品的完整交付。用户只需要选择和描述，剩下的交给 Agent。"},
+    {"p": "TA 也做反向的工具：codex-radar 读取你已有的 Codex 会话，从 3 大类 9 个维度评估你和 Codex 的协作质量，由你自己的模型写诊断，并给出至少 5 条可以直接粘贴的改进提示词，全程本地运行。"},
+    {"note": "本页依据 GitHub 组织 lemomo-ai（个人 README 与各项目 README）和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2020",
-       "title": "加入 X",
-       "text": "在墨尔本以程序员身份分享，后来专注 AI 内容输出。"
-      },
-      {
-       "when": "2022",
-       "title": "注册 GitHub",
-       "text": "开始以 lemomo-ai 之名开源。"
-      },
-      {
-       "when": "2026",
-       "title": "一系列 Claude Code 作品",
-       "text": "Lemo-Opuscar 迅速走红：选一个风格、说出想拍的内容，Agent 用纯代码生成短片；随后发布 lemo-wake、lemo-mod、codex-radar 和 macOS 小工具 Stampy。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2020", "title": "加入 X", "text": "在墨尔本以程序员身份分享，后来专注 AI 内容输出。"},
+     {"when": "2022", "title": "注册 GitHub", "text": "以 lemomo-ai 之名开始开源。"},
+     {"when": "2026.06", "title": "codex-radar", "text": "一个评估你和 Codex 协作质量的 Codex CLI 插件，单文件本地仪表盘。"},
+     {"when": "2026.09", "title": "Lemo-Opuscar", "text": "用 Claude 纯代码生成短片的 Skill 迅速走红，后来扩展到 51 种风格，新增「实证影像」（Evidence Films）系列。"},
+     {"when": "2026.10", "title": "一个月三款新作", "text": "lemo-wake（10 月 15 日新增 Logo Motion）、lemo-mod（21 套 Claude Code 风格）和 macOS 菜单栏小工具 Stampy。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Lemo-Opuscar",
-       "meta": "2026 · ★4.3k",
-       "text": "51 种影片风格，非视频模型，用 Claude 纯代码生成短片。",
-       "url": "https://github.com/lemomo-ai/lemo-opuscar"
-      },
-      {
-       "name": "lemo-wake",
-       "meta": "2026 · Python",
-       "text": "把一张图交给 Agent，「叫醒它」，得到一段精美的循环动图。",
-       "url": "https://github.com/lemomo-ai/lemo-wake"
-      },
-      {
-       "name": "lemo-mod",
-       "meta": "2026 · TypeScript",
-       "text": "一键给 Claude Code 换上新风格，外加面板、用量条、周报、番茄钟、会话小结等 mod。",
-       "url": "https://github.com/lemomo-ai/lemo-mod"
-      },
-      {
-       "name": "Stampy 小章",
-       "meta": "2026 · Swift · MIT",
-       "text": "在预览里点一下，给复印件盖上「仅供××使用，他用无效」，原件不动。",
-       "url": "https://github.com/lemomo-ai/lemo-stampy"
-      }
+    {"work": {
+     "name": "Lemo-Opuscar", "url": "https://github.com/lemomo-ai/lemo-opuscar",
+     "meta": ["2026.09", "Claude Code Skill", "★4.7 千"],
+     "paras": [
+      "「51 film styles, each with a short film made entirely in code.」每种风格是一份风格提示词加一支纯代码样片，配有导演指南和技术指南，包括 OPUSCAR 98 和新的「实证影像」系列。作品墙展示了全部样片。"
+     ],
+     "facts": [["GitHub", "★4,705 · ⑂508"], ["作品墙", "lemomo-ai.github.io/lemo-opuscar"]]
+    }},
+    {"work": {
+     "name": "lemo-wake", "url": "https://github.com/lemomo-ai/lemo-wake",
+     "meta": ["2026.10", "Python", "Claude Code 插件"],
+     "paras": [
+      "「把你的照片叫醒。」一张图进去，一段约 5 秒、无缝循环的动图出来，支持 MP4、GIF、WebP 和实况照片；新增的 Logo Motion 能让品牌标志动起来。"
+     ],
+     "facts": [["GitHub", "★98"]]
+    }},
+    {"work": {
+     "name": "Stampy 小章", "url": "https://github.com/lemomo-ai/lemo-stampy",
+     "meta": ["2026.10", "Swift", "MIT · 免费"],
+     "paras": [
+      "「给复印件，盖个小小的章。」住在 Mac 菜单栏里，在预览里点一下，就给文件副本盖上「仅供××使用」，原件不动。证件复印件交出去之前，写清楚只给谁用。"
      ]
-    }
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["lemo-mod", "2026", "一键给 Claude Code 换风格，21 套风格，按需开启面板、用量条、周报、番茄钟等"],
+      ["codex-radar", "2026", "9 维评估你和 Codex 的协作，给出可粘贴的改进提示词，全程本地"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "线上形象",
+   "title": "线上形象研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://github.com/lemomo-ai",
-      "paras": [
-       "TA 的 X 主页直接链接到 GitHub。个人 README 中英双语，每个项目一个 emoji：🎬 Opuscar、📸 wake、🍋 mod、🟥 Stampy，配一句中文和一句英文。",
-       "README 写着：「致力于分享真正好用的方法做成开源项目，让每个人都能用 AI 得到更好的结果。」"
-      ]
-     }
-    }
+    {"site": {"url": "https://github.com/lemomo-ai", "paras": [
+     "TA 的 X 主页直接链接到 GitHub。个人 README 中英双语，每个项目一个 emoji 和一句中英文介绍，顶部徽章显示总星数和开源项目数。",
+     "每个项目都有 GitHub Pages 展示页：Opuscar 的作品墙、wake 的动图墙、mod 的风格预览，让人不用安装就能先看效果。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["展示", "每个项目一个可视化作品页"],
+      ["语言", "全部中英双语"],
+      ["节奏", "2026 年 6–10 月发布 5 个项目"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "观点",
    "blocks": [
-    {
-     "p": "Lemomo 的作品都有一种「产品化的创意」：<strong>不是一个提示词，而是一套风格 + 导演指南 + 技术指南 + 示范作品</strong>。用户只需要选择和描述，剩下的交给 Agent。"
-    },
-    {
-     "p": "Stampy 小章则提醒我们，隐私保护可以很小很具体：证件复印件交出去之前，写清楚只给谁用。"
-    }
+    {"quote": "Indie dev stress-testing the AI hype.", "cite": "Lemomo，GitHub 简介"},
+    {"p": "「给 AI 炒作做压力测试」：Lemomo 的作品都在验证 AI 到底能做到什么。没有视频模型能不能拍片？能。你和 Codex 的协作到底好不好？量一下就知道。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["创意", "换个思路用 AI，作品有辨识度", "—"],
+      ["交付", "风格、指南、样片打包完整", "效果依赖底层模型能力"],
+      ["开源", "中英双语，展示页直观", "除 Opuscar 外其他项目星数尚少"],
+      ["公开信息", "作品丰富", "个人背景资料很少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>换个思路用 AI：</strong>没有视频模型，就用代码生成视频。",
-      "<strong>把方法打包成 Skill：</strong>风格、指南、示例一起交付。",
-      "<strong>中英双语开源：</strong>让项目同时进入两个社区。",
-      "<strong>小工具解决真问题：</strong>一个印章也能保护隐私。"
-     ]
-    }
+    {"checklist": [
+     "<strong>换个思路用 AI：</strong>没有视频模型，就用代码生成视频。",
+     "<strong>把方法打包成 Skill：</strong>风格、指南、示例一起交付。",
+     "<strong>先让人看到效果：</strong>每个项目一个作品墙。",
+     "<strong>中英双语开源：</strong>让项目同时进入两个社区。",
+     "<strong>小工具解决真问题：</strong>一个印章也能保护隐私。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Lemo-Opuscar 作品墙", "url": "https://lemomo-ai.github.io/lemo-opuscar/", "why": "看 51 支纯代码短片。"},
+     {"name": "lemo-wake", "url": "https://lemomo-ai.github.io/lemo-wake/", "why": "把一张照片变成循环动图。"},
+     {"name": "Stampy 小章", "url": "https://github.com/lemomo-ai/lemo-stampy", "why": "下次交证件复印件前盖个章。"}
+    ]}
    ]
   }
  ],
- "cta": "装上 Lemo-Opuscar，让 Claude 用代码给你拍一部短片。",
+ "cta": "挑一种 Opuscar 风格，让你的 Agent 拍一支 30 秒的短片。",
  "sources": [
-  {
-   "label": "Lemomo 的 X 个人资料",
-   "url": "https://x.com/lemomo_ai"
-  },
-  {
-   "label": "GitHub：lemomo-ai",
-   "url": "https://github.com/lemomo-ai"
-  },
-  {
-   "label": "Lemo-Opuscar",
-   "url": "https://github.com/lemomo-ai/lemo-opuscar"
-  }
+  {"label": "Lemomo 的 X 个人资料", "url": "https://x.com/lemomo_ai"},
+  {"label": "GitHub：lemomo-ai", "url": "https://github.com/lemomo-ai"},
+  {"label": "Lemo-Opuscar", "url": "https://github.com/lemomo-ai/lemo-opuscar"},
+  {"label": "lemo-wake", "url": "https://github.com/lemomo-ai/lemo-wake"},
+  {"label": "codex-radar", "url": "https://github.com/lemomo-ai/codex-radar"}
  ]
 }

@@ -1,167 +1,171 @@
 {
- "name": "郝海龙 Hailong",
+ "name": "郝海龙",
  "role": "推理小说作家 · 澳洲持证私家侦探 · Antidote Studio 主理人",
  "title": "郝海龙：写推理小说的<em>持证私家侦探</em>",
- "dek": "这可能是名单里最特别的一位：推理小说作家、作词人、老师，澳大利亚维多利亚州持证私家侦探，也是一个会写代码的人。TA 在 2014 年汉化 WordPress 主题、写 Octopress 插件，2026 年又做了修复 EPUB 的离线 PWA、双页 PDF 切割工具和一键复制链接的浏览器扩展。",
- "card": "推理小说作家、澳洲持证私家侦探，Antidote Studio 主理人，EPUB Tweaker 等工具作者。",
+ "dek": "这可能是名单里最特别的一位：推理小说作家、译者、作词人、老师，澳大利亚维多利亚州持证私家侦探，也是一个会写代码的人。TA 写过获星火奖的推理小说《死者不在现场》、少数派年度销量第一的《英语自学手册》，翻译过奥威尔的《动物庄园》；2026 年又做了修复 EPUB 的离线 PWA、双页 PDF 切割工具和一键复制链接的浏览器扩展。",
+ "card": "《死者不在现场》《英语自学手册》作者、《动物庄园》译者；EPUB Tweaker、PDF Slicer 开发者，堪培拉。",
  "location": "澳大利亚堪培拉",
- "tags": [
-  "写作",
-  "推理",
-  "PWA",
-  "电子书",
-  "播客"
- ],
+ "updated": "2026-10-21",
+ "tags": ["推理小说", "写作", "翻译", "隐私优先工具", "播客"],
  "links": [
-  {
-   "label": "郝海龙的网志",
-   "url": "https://haohailong.com"
-  },
-  {
-   "label": "Mastodon",
-   "url": "https://mastodon.social/@haohailong"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/haohailong"
-  }
+  {"label": "环尾堂（网志）", "url": "https://haohailong.com"},
+  {"label": "EPUB Tweaker", "url": "https://epub-tweaker.olo.la/"},
+  {"label": "GitHub", "url": "https://github.com/haohailong"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「在下行的电梯里做一个清醒的人。」一个用文字、侦探执照和代码同时理解世界的人。",
-  "<strong>代表作：</strong>写作：推理小说与评论、「推理之象」社群的推象谜题（如《望乡驿》）；工具：EPUB Tweaker（本地修复 EPUB，解决 Send to Kindle 失败与中文直排问题）、PDF Slicer（浏览器本地把双页扫描切成单页）、LinkTap（修饰键点击复制链接）、MarkEdit 扩展（发布到 Typlog、导出 Textpack）；早年的 Wilson WordPress 主题汉化和 banlan.show 播客网络主页。",
-  "<strong>为什么值得关注：</strong>TA 提醒我们，「有设计感的开发者」不一定以开发为主业，代码可以是写作者手里的一把好用的工具。"
+  "<strong>一句话：</strong>X 简介「推理小说作家。澳洲持证私家侦探（VIC）。Antidote Studio 主理人。在下行的电梯里做一个清醒的人。」GitHub 简介「Writer, Lyricist, Teacher & Learner.」",
+  "<strong>代表作：</strong>推理小说《死者不在现场》（首届中国原创推理小说星火奖「奇想天动奖」）、长篇《少年阿珵》、《英语自学手册》、译著《动物庄园》、音乐专辑《一万公里》（与王念北合作）；工具 EPUB Tweaker、PDF Slicer、LinkTap、两个 MarkEdit 扩展。",
+  "<strong>关键数字：</strong>X 关注者约 8,100、推文 1.78 万条；网志 RSS 50 篇近作；2009 年注册 Twitter。",
+  "<strong>做过的事：</strong>斑斓播客网络、付费会员通讯《林中来信》（已关停）、推理之象社群谜题。"
  ],
- "lead": "郝海龙的 GitHub 简介写着：「Writer, Lyricist, Teacher & Learner.」X 简介则更有故事：「推理小说作家。澳洲持证私家侦探（VIC）。Antidote Studio 主理人。在下行的电梯里做一个清醒的人。」",
+ "lead": "《死者不在现场》的谜面是这样的：停车场四角都有监控，通往盲区的每条路都在镜头之下，影片没有剪辑痕跡，可死者的尸体却「瞬间转移」到了盲区中央。写这个故事的人，后来真的成了一名持证私家侦探；又在 2026 年用侦探的方式写代码：找到一个具体的「案件」（Kindle 发送失败、中文直排错乱），一步步排查，直到解决它。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "推理小说作家、译者、作词人、老师；澳大利亚维多利亚州持证私家侦探"],
+     ["所在地", "澳大利亚堪培拉"],
+     ["工作室", "Antidote Studio 主理人"],
+     ["写作", "《死者不在现场》《少年阿珵》《英语自学手册》；译《动物庄园》"],
+     ["媒体", "斑斓播客；Telegram 频道「海龙说」；推理之象社群"],
+     ["工具", "EPUB Tweaker、PDF Slicer、LinkTap、MarkEdit 扩展"],
+     ["网志", "环尾堂（Typlog）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "郝海龙的主业是写作：推理小说、书评、谜题、随笔。2026 年，TA 开始为读者和写作者做工具，全部<strong>本地运行、隐私优先</strong>：EPUB Tweaker 在浏览器里修复和微调 EPUB，解决 Send to Kindle 失败和 Kindle 中文直排问题；PDF Slicer 把双页扫描的书或乐谱切成按顺序排列的单页；两个 MarkEdit 扩展分别导出 TextBundle 和直接发布到 Typlog。"},
+    {"p": "这些工具都来自自己的读写流程：读电子书、扫描纸书、在 MarkEdit 里写稿、在 Typlog 上发布。"},
+    {"note": "本页依据 haohailong.com（关于、作品、近期文章）、bio.link 主页、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2009–2014",
-       "title": "早期博客与主题",
-       "text": "2009 年注册 Twitter，2013 年注册 GitHub。2014 年汉化了瑞典设计师 Anders Norén 的 Wilson WordPress 主题，为 Octopress 写了 GitHub 风格的 CodeRay 代码块插件。"
-      },
-      {
-       "when": "2019",
-       "title": "班兰播客网络",
-       "text": "为 banlan.show 播客网络制作主页。"
-      },
-      {
-       "when": "澳洲",
-       "title": "私家侦探",
-       "text": "移居澳大利亚，取得维多利亚州私家侦探执照；在博客里写《奇遇东京谈话会：我有一个朋友是私家侦探！》。"
-      },
-      {
-       "when": "写作",
-       "title": "推理小说与谜题",
-       "text": "写推理小说和书评（如纸城境介《你的解谜由我证明》、雨穴《诡地图》），在「推理之象」社群不定期发布谜题，并整理《郝海龙读过的东野圭吾作品列表》。"
-      },
-      {
-       "when": "2026",
-       "title": "为读者和写作者造工具",
-       "text": "EPUB Tweaker、PDF Slicer、LinkTap 和两个 MarkEdit 扩展：全部本地运行、注重隐私，解决 TA 自己读书和写作时遇到的麻烦。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2009–2014", "title": "早期博客与主题", "text": "2009 年注册 Twitter，2013 年注册 GitHub；2014 年汉化瑞典设计师 Anders Norén 的 Wilson WordPress 主题，为 Octopress 写 GitHub 风格的 CodeRay 代码块插件。"},
+     {"when": "2019", "title": "斑斓播客", "text": "为 banlan.show 播客网络制作主页，参与科技等节目。"},
+     {"when": "写作与翻译", "title": "小说、教程与译著", "text": "推理小说《死者不在现场》获首届中国原创推理小说星火奖「奇想天动奖」，由《明星大侦探》编剧张小猫作序推荐；《英语自学手册》是少数派年度销量第一的付费教程；翻译奥威尔《动物庄园》；与王念北合作音乐专辑《一万公里》。"},
+     {"when": "澳洲", "title": "私家侦探", "text": "移居澳大利亚，取得维多利亚州私家侦探执照，主理 Antidote Studio；办过付费会员通讯《林中来信》（已关停）。"},
+     {"when": "2026", "title": "谜题与工具", "text": "在推理之象社群发布谜题《望乡驿》；写《郝海龙读过的东野圭吾作品列表》、纸城境介和雨穴的书评、东京谈话会；9–10 月连续发布 LinkTap、PDF Slicer、EPUB Tweaker 和 MarkEdit 扩展。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "EPUB Tweaker",
-       "meta": "2026 · PWA",
-       "text": "隐私优先、本地运行的 EPUB 修复与微调工具，解决 Send to Kindle 失败和 Kindle 中文直排问题。",
-       "url": "https://github.com/haohailong/EPUB-Tweaker"
-      },
-      {
-       "name": "PDF Slicer",
-       "meta": "2026 · Web",
-       "text": "把双页扫描的 PDF 切成单页，100% 在浏览器本地完成。",
-       "url": "https://github.com/haohailong/pdf-slicer-web"
-      },
-      {
-       "name": "推象谜题《望乡驿》",
-       "meta": "2026 · 推理",
-       "text": "推理之象社群的谜题，含谜题篇与解答篇。",
-       "url": "https://haohailong.com"
-      },
-      {
-       "name": "LinkTap",
-       "meta": "2026 · Chrome 扩展",
-       "text": "按住修饰键点击即可复制任意链接地址，快速、私密、多语言。",
-       "url": "https://github.com/haohailong/LinkTap"
-      }
+    {"work": {
+     "name": "死者不在现场", "url": "https://haohailong.com/works",
+     "meta": ["推理小说", "星火奖「奇想天动奖」"],
+     "paras": [
+      "启元商城开业前夕，本市最大监控设备供应商的儿子死在了停车场中央。监控系统无异常、影片无剪辑，可影像显示案发时根本没有人来过。刚升任刑警队长的苏东被迫承诺三天破案。",
+      "电子书在读墨（Readmoo）、Google Play Books 等平台发售。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "EPUB Tweaker", "url": "https://github.com/haohailong/EPUB-Tweaker",
+     "meta": ["2026", "TypeScript · PWA", "本地运行"],
+     "paras": [
+      "「Repair and fine-tune EPUB files for better e-reader compatibility.」隐私优先，文件不离开你的设备；修复常见的 Send to Kindle 失败，解决 Kindle 中文直排问题。README 有英文、繁体和简体三个版本。"
+     ],
+     "facts": [["在线", "epub-tweaker.olo.la"]]
+    }},
+    {"work": {
+     "name": "英语自学手册", "url": "https://sspai.com/series/77/",
+     "meta": ["少数派付费教程"],
+     "paras": [
+      "少数派年度销量第一的付费教程，备受读者好评的英语学习指南。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["译著《动物庄园》", "乔治·奥威尔 Animal Farm 中译"],
+      ["《少年阿珵》", "长篇小说"],
+      ["PDF Slicer", "把双页扫描 PDF 切成单页，100% 浏览器本地完成"],
+      ["LinkTap", "按住修饰键点击即可复制链接地址的 Chrome 扩展"],
+      ["MarkEdit → Typlog", "从 MarkEdit 直接创建或更新 Typlog 草稿"],
+      ["推象谜题《望乡驿》", "推理之象社群谜题，含谜题篇与解答篇"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://haohailong.com",
-      "paras": [
-       "「郝海龙的网志」由 Typlog 驱动，栏目有关于、作品、闪念、媒体、索引和一个叫「环尾堂」的入口。",
-       "文章流里，App 发布、推理谜题、书评、东京谈话会和小说片段交错出现。"
-      ]
-     }
-    }
+    {"site": {"url": "https://haohailong.com", "paras": [
+     "网志名叫「环尾堂」，由 Typlog 驱动。文章流里，App 发布、推理谜题、书评、旅行、东京谈话会和小说片段交错出现，像一个人的多面生活。",
+     "「作品」页把每本书写得很完整：获奖信息、推荐人、故事梗概和购买链接；bio.link 主页则把博客、Telegram 频道、小说、译著、教程、音乐专辑、NeoDB 和豆瓣放在一起。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["平台", "Typlog，Cloudflare"],
+      ["内容", "推理、书评、随笔、工具发布"],
+      ["社区", "Mastodon、Telegram、NeoDB"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "郝海龙做工具的方式和写推理小说很像：<strong>先找到一个具体的「案件」</strong>（Kindle 发送失败、中文直排错乱、双页扫描），再一步步排查，直到找到真相并解决它。"
-    },
-    {
-     "quote": "在下行的电梯里做一个清醒的人。",
-     "cite": "郝海龙的 X 简介"
-    }
+    {"posts": [
+     {"date": "2026-10-01", "title": "EPUB Tweaker：解决 Send to Kindle 失败和 Kindle 中文直排问题", "url": "https://haohailong.com"},
+     {"date": "2026-09-19", "title": "推象谜题003《望乡驿》完整版（含解答篇）", "url": "https://haohailong.com"},
+     {"date": "2026-08-16", "title": "奇遇东京谈话会：我有一个朋友是私家侦探！", "url": "https://haohailong.com"},
+     {"date": "2026-07-28", "title": "郝海龙读过的东野圭吾作品列表", "url": "https://haohailong.com"},
+     {"date": "2026-06-12", "title": "重复：或许是最重要的说服方式｜自我教育04", "url": "https://haohailong.com"}
+    ]},
+    {"quote": "在下行的电梯里做一个清醒的人。", "cite": "郝海龙，X 简介"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["写作", "获奖小说、畅销教程、经典译著", "—"],
+      ["工具", "隐私优先，解决真实读写问题", "仓库星数少，传播有限"],
+      ["多面", "侦探、作家、开发者互相滋养", "精力分散在多条线上"],
+      ["社群", "谜题让读者成为参与者", "会员通讯等项目曾关停"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>代码可以服务写作：</strong>工具让读与写都更顺手。",
-      "<strong>隐私优先：</strong>文件处理全在本地，读者更安心。",
-      "<strong>多重身份互相滋养：</strong>侦探的观察力、作家的叙事力、开发者的动手能力。",
-      "<strong>为小社群做内容：</strong>推理谜题让读者变成参与者。"
-     ]
-    }
+    {"checklist": [
+     "<strong>代码可以服务写作：</strong>工具让读与写都更顺手。",
+     "<strong>隐私优先：</strong>文件处理全在本地，读者更安心。",
+     "<strong>多重身份互相滋养：</strong>侦探的观察力、作家的叙事力、开发者的动手能力。",
+     "<strong>为小社群做内容：</strong>推理谜题让读者变成参与者。",
+     "<strong>结束也要说明：</strong>关停的项目都写了说明。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "EPUB Tweaker", "url": "https://epub-tweaker.olo.la/", "why": "如果你的 EPUB 发不进 Kindle。"},
+     {"name": "郝海龙的作品", "url": "https://haohailong.com/works", "why": "读一读《死者不在现场》的谜面。"},
+     {"name": "英语自学手册", "url": "https://sspai.com/series/77/", "why": "一本被很多人推荐的英语自学教程。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你的 Kindle 总收不到中文 EPUB，试试 EPUB Tweaker。",
+ "cta": "读完《望乡驿》的谜题篇，先别看答案，自己推理一次。",
  "sources": [
-  {
-   "label": "海龍的 X 个人资料",
-   "url": "https://x.com/haohailong"
-  },
-  {
-   "label": "郝海龙的网志",
-   "url": "https://haohailong.com"
-  },
-  {
-   "label": "GitHub：haohailong",
-   "url": "https://github.com/haohailong"
-  },
-  {
-   "label": "Mastodon：@haohailong",
-   "url": "https://mastodon.social/@haohailong"
-  }
+  {"label": "海龍的 X 个人资料", "url": "https://x.com/haohailong"},
+  {"label": "环尾堂（郝海龙的网志）", "url": "https://haohailong.com"},
+  {"label": "郝海龙：关于", "url": "https://haohailong.com/about"},
+  {"label": "郝海龙的作品", "url": "https://haohailong.com/works"},
+  {"label": "GitHub：haohailong", "url": "https://github.com/haohailong"},
+  {"label": "Mastodon：@haohailong", "url": "https://mastodon.social/@haohailong"}
  ]
 }
