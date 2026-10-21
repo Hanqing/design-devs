@@ -2,164 +2,165 @@
  "name": "Lukáš Kubánek",
  "role": "Diagrams for Mac 作者 · Swift 自由开发者",
  "title": "Lukáš Kubánek：<em>痴迷于结构化</em>的 Mac 开发者",
- "dek": "来自捷克、住在德国德累斯顿的 Swift 开发者。TA 创办了 Structured Path GmbH，独自打造原生、基于文档的图表编辑器 Diagrams for Mac，如今也作为自由职业者为客户做 iOS 和 macOS 应用。",
- "card": "Diagrams for Mac 作者，Structured Path GmbH 创始人，捷克人、现居德累斯顿。",
- "location": "德国德累斯顿",
- "tags": [
-  "macOS",
-  "AppKit",
-  "SwiftUI",
-  "文档型 App",
-  "TCA"
- ],
+ "dek": "来自捷克、住在德国德累斯顿的 Swift 开发者。读计算机时他从 Windows 换到 Mac，被独立开发者的原生应用打动，于是决定做一个画软件架构图的 Mac 原生编辑器。这个想法从 2011 年走到 2020 年上架，就是 Diagrams。为了它，他从零写了一个受 React / Redux 启发的画布框架 CanvasKit。",
+ "card": "Diagrams for Mac 作者、Structured Path GmbH 创始人；LoremSwiftum、OrderedDictionary 开源作者，德累斯顿的 Swift 自由开发者。",
+ "location": "德国德累斯顿（来自捷克）",
+ "updated": "2026-10-21",
+ "tags": ["macOS", "Swift", "AppKit", "图表", "自由职业"],
  "links": [
-  {
-   "label": "lukaskubanek.com",
-   "url": "http://lukaskubanek.com"
-  },
-  {
-   "label": "Diagrams",
-   "url": "https://diagrams.app"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/lukaskubanek"
-  }
+  {"label": "lukaskubanek.com", "url": "https://lukaskubanek.com"},
+  {"label": "Diagrams", "url": "https://diagrams.app"},
+  {"label": "GitHub", "url": "https://github.com/lukaskubanek"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「Obsessed with structuring things.」一个热爱把细节做对的 AppKit 开发者。",
-  "<strong>代表作：</strong>Diagrams（2017 至今，原生 Mac 图表编辑器）；开源 LoremIpsum / LoremSwiftum（占位文本生成）、OrderedDictionary、DetachablePopoverExample、iA-Writer-Export。",
-  "<strong>技能：</strong>AppKit、SwiftUI、UIKit、Combine、Swift Concurrency、TCA、CloudKit 同步、逆向工程，以及用 Claude Code 的 Agentic Coding。"
+  "<strong>一句话：</strong>X 简介「Obsessed with structuring things」。个人网站上写：「我喜欢整个过程，但尤其喜欢工程部分。我的热情在于把所有细节做对。」",
+  "<strong>代表作：</strong>Diagrams for Mac（Mac App Store 与 Setapp，多次获 Apple 推荐）、LoremIpsum / LoremSwiftum、OrderedDictionary、DetachablePopoverExample、自定义键盘布局 Lupulus。",
+  "<strong>关键数字：</strong>2022 年时 Diagrams 每周约 1,300 名独立用户；2022 年起改为免费下载 + 5 天试用 + 22.99 美元一次性买断；GitHub 近一年 1,867 次贡献。",
+  "<strong>媒体评价：</strong>MacStories 的 John Voorhees 说它「Mac-native, and it shows」；John Sundell 说它是自己设计软件架构时「最喜欢的可视化工具」。"
  ],
- "lead": "Lukáš 的个人网站开头写：「我热爱在数字世界里建造东西。我享受整个过程，但尤其喜欢工程部分。我的热情在于把所有细节都做对。」TA 偶尔会利用「位置自由」，在捷克、加那利群岛和保加利亚工作。",
+ "lead": "Diagrams 最难的部分是画布。2017 年，Mac 上没有任何可以借用的第一方框架，Swift 还很年轻，工具链也弱得多。Lukáš 决定自己写一个，叫 CanvasKit，借鉴了 JavaScript 世界里 React 和 Redux 的声明式 UI 与单向数据流。这个决定让 Diagrams 晚了几年上架，也让它成为 Mac 上手感最「原生」的图表工具之一。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "macOS / iOS 开发者、自由职业者"],
+     ["公司", "Structured Path GmbH（2017 年创办）"],
+     ["所在地", "德国德累斯顿；常在加那利群岛、保加利亚班斯科等地远程工作"],
+     ["出身", "捷克；计算机科学学士（论文源码开源在 GitHub）"],
+     ["代表作", "Diagrams for Mac、CanvasKit（内部框架）、LoremSwiftum、OrderedDictionary"],
+     ["技术栈", "Swift、AppKit、SwiftUI、Objective-C"],
+     ["社区", "CocoaHeads Dresden、WDCM Dresden"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Lukáš 现在两条腿走路：继续维护 Diagrams，同时以自由职业者身份为客户的 iOS 和 macOS 项目做 Swift 开发。他的个人网站把这件事讲得很清楚：「What am I doing now?」去看 Now 页；「Interested in working with me?」去看 Work 页。"},
+    {"p": "Diagrams 的设计核心是「<strong>结构优先</strong>」：它不是自由画布，而是由元素和关系构成、有规则的结构。这和他「痴迷于结构化」的个性完全一致。"},
+    {"note": "本页依据 lukaskubanek.com（首页、Work、博客）、diagrams.app（About、博客）、GitHub 仓库与 README、App Store 资料和 X 资料整理，资料截至 2026 年 10 月。博客中的私人生活与健康细节未展开。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2012–2014",
-       "title": "从 Mac 工具开始",
-       "text": "2012 年做了给 iA Writer 增加 PDF 导出的 Mac 服务；2013 年开源 Objective-C 的 LoremIpsum 生成器，次年 Swift 发布后又写了 LoremSwiftum；还做了展示 Yosemite NSPopover 分离 API 的示例。2014 年完成学士论文。"
-      },
-      {
-       "when": "2015",
-       "title": "Swift 数据结构",
-       "text": "开源 OrderedDictionary 等 Swift 实现，以及 Mac 图标预览小工具。"
-      },
-      {
-       "when": "2017-11",
-       "title": "Structured Path 与 Diagrams",
-       "text": "创办 Structured Path GmbH，独立打造 Diagrams：一款原生、基于文档的 Mac 图表编辑器，TA 负责产品愿景、架构与开发。"
-      },
-      {
-       "when": "现在",
-       "title": "自由职业 + Diagrams",
-       "text": "继续开发 Diagrams，同时作为自由职业者为客户的 iOS / macOS 项目提供 Swift 开发服务。每年在博客发布年度回顾。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2011", "title": "想法的起点", "text": "刚开始学软件开发，他发现用图表描述系统很有价值，却找不到合适的 Mac 工具：要么偏重图形设计，要么复杂得让人望而却步。"},
+     {"when": "2012–2015", "title": "Mac 小工具与开源", "text": "做了给 iA Writer 增加 PDF 导出的 Mac 服务；开源 Objective-C 的 LoremIpsum、Swift 版 LoremSwiftum、OrderedDictionary、展示 Yosemite 可分离 NSPopover 的示例；2014 年完成学士论文；还记录了一个「我遇到的 Swift bug」仓库。"},
+     {"when": "2017", "title": "Structured Path", "text": "创办 Structured Path GmbH，全力投入 Diagrams，从零写画布框架 CanvasKit。"},
+     {"when": "2020", "title": "Diagrams 上架", "text": "2020 年初在 Mac App Store 和 Setapp 上线，多次获 Apple 推荐。设计师 Alex 与他合作三年，奠定了 Diagrams 的界面与视觉。"},
+     {"when": "2022", "title": "转折点", "text": "销量回落、合作者离开，他把定价改为免费下载 + 5 天试用 + 一次性买断，并开始做自由职业；同年起公开发布年度回顾，写下《The Diagrams Story》。"},
+     {"when": "2023–2024", "title": "游牧与安家", "text": "冬天在加那利群岛和保加利亚班斯科远程工作；从柏林搬到德累斯顿；从 Twitter 转到 Mastodon。"},
+     {"when": "2026", "title": "放慢节奏", "text": "在《Stuck in Low Power Mode》里解释了博客为何安静：他经历了一段健康上的挫折，正在调整工作与生活的节奏。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Diagrams",
-       "meta": "2017 至今 · Swift / AppKit",
-       "text": "原生、基于文档的 Mac 图表编辑器，专注结构与清晰。",
-       "url": "https://diagrams.app"
-      },
-      {
-       "name": "LoremSwiftum",
-       "meta": "2014 · Swift",
-       "text": "轻量的 Swift 占位文本生成器。",
-       "url": "https://github.com/lukaskubanek/LoremSwiftum"
-      },
-      {
-       "name": "OrderedDictionary",
-       "meta": "2015 · Swift",
-       "text": "有序字典数据结构的 Swift 实现。",
-       "url": "https://github.com/lukaskubanek/OrderedDictionary"
-      },
-      {
-       "name": "Lupulus",
-       "meta": "2018",
-       "text": "TA 自己设计的键盘布局：结构化的极致。",
-       "url": "https://github.com/lukaskubanek/Lupulus"
-      }
+    {"work": {
+     "name": "Diagrams", "url": "https://diagrams.app",
+     "meta": ["2020", "macOS 12+", "Mac App Store / Setapp"],
+     "paras": [
+      "「Create beautiful, structured diagrams. As fast as you think.」一个原生、基于文档的 Mac 图表编辑器，适合画流程图和软件架构图。2.2 版加入快捷指令支持和更多形状、箭头。",
+      "9to5Mac 的评价是「目标极其直接，你不用花时间去理解这个 App 怎么用」。"
+     ],
+     "facts": [["定价", "免费下载，5 天试用，一次性买断 22.99 美元"], ["用户", "约 1,300 名周活（2022）"], ["开发者", "Structured Path GmbH"]]
+    }},
+    {"work": {
+     "name": "LoremIpsum / LoremSwiftum", "url": "https://github.com/lukaskubanek/LoremSwiftum",
+     "meta": ["2013 / 2014", "Objective-C / Swift"],
+     "paras": [
+      "轻量的占位文本生成器：单词、句子、段落，以及姓名、URL、日期等假数据和占位图片。Objective-C 版受静态站点生成器 Middleman 启发，Swift 发布当年就有了 Swift 版。两个仓库分别维护到 2023 和 2024 年。"
+     ],
+     "facts": [["GitHub", "★232 / ★226"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["OrderedDictionary", "2015", "有序字典的 Swift 实现（★204）"],
+      ["DetachablePopoverExample", "2014", "用现代写法重做 Apple 过时的 Popover 示例（★99）"],
+      ["iA-Writer-Export", "2012", "给 iA Writer 增加 PDF 导出的 Mac 服务"],
+      ["Lupulus", "2018", "他自己设计的键盘布局"],
+      ["MacIconPreviewer", "2015", "拖入图片即可预览 Mac App 图标"]
      ]
-    }
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://lukaskubanek.com",
-      "paras": [
-       "导航有 Work、TIL、Blog、Now。首页用几个问题组织内容：「What am I doing now?」「Interested in working with me?」「Where do I write?」「Where can you find me online?」",
-       "Work 页像一份精心组织的技能树：每项技能一句话说明熟练程度，比如 Swift Concurrency：「这可不容易，所以肯定还在学习」。"
-      ]
-     }
-    },
-    {
-     "p": "TIL（Today I Learned）栏目记录开发中学到的小知识，是工程师个人网站里非常值得借鉴的形式。"
-    }
+    {"site": {"url": "https://lukaskubanek.com", "paras": [
+     "首页开头是一张照片和一段自我介绍，然后用几个问题组织内容：「What am I doing now?」「Interested in working with me?」「Where do I write?」「Where can you find me online?」导航只有 Work、TIL、Blog、Now。",
+     "Work 页像一棵技能树：每项技能一句话说明熟练程度，比如 Swift Concurrency：「这可不容易，所以肯定还在学习。」TIL（Today I Learned）栏目记录开发中学到的小知识。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "静态站点，Netlify"],
+      ["结构", "问题驱动的首页 + Now 页 + TIL"],
+      ["博客", "以年度回顾为主，2022 年起公开"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "Diagrams 的设计核心是<strong>「结构优先」</strong>：图表不是自由画布，而是有规则的结构。这与 TA「痴迷于结构化」的个性完全一致。"
-    },
-    {
-     "quote": "Not a designer, but something I care deeply about and have a strong eye for making it feel right.",
-     "cite": "Lukáš Kubánek 谈 UX 设计"
-    }
+    {"posts": [
+     {"date": "2026-09-27", "title": "Stuck in Low Power Mode", "url": "https://lukaskubanek.com/blog/stuck-in-low-power-mode/"},
+     {"date": "2025-02-16", "title": "The Year 2024 in Review", "url": "https://lukaskubanek.com/blog/review-of-2024/"},
+     {"date": "2023-12-31", "title": "The Year 2023 in Review", "url": "https://lukaskubanek.com/blog/review-of-2023/"},
+     {"date": "2022-12-31", "title": "The Year 2022 in Review", "url": "https://lukaskubanek.com/blog/review-of-2022/", "note": "坦率讲述独立开发的困难：销量下滑、合作者离开、转向自由职业。"},
+     {"date": "2022-09-23", "title": "The Diagrams Story", "url": "https://lukaskubanek.com/blog/diagrams-story/"}
+    ]},
+    {"quote": "I enjoy the entire process, but I especially like the engineering part. My passion lies in getting all the details right.", "cite": "Lukáš Kubánek，lukaskubanek.com"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "专注、原生、口碑好，获 Apple 推荐", "图表工具市场小众，销量曾下滑"],
+      ["工程", "自研画布框架，架构严谨", "自研框架开发周期长"],
+      ["商业", "两条腿走路：产品 + 自由职业", "Diagrams 更新节奏放缓"],
+      ["写作", "年度回顾坦诚，包括失败与调整", "博客更新不多"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
-   "title": "可以从 TA 身上学什么",
+   "title": "可以从他身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>把一个 App 做很多年：</strong>Diagrams 从 2017 年持续至今。",
-      "<strong>诚实地标注能力：</strong>技能页写清楚擅长什么、还在学什么。",
-      "<strong>写 TIL：</strong>零碎的学习记录也有长期价值。",
-      "<strong>独立产品 + 自由职业：</strong>两条腿走路，更可持续。"
-     ]
-    }
+    {"checklist": [
+     "<strong>做自己需要的工具：</strong>Diagrams 源于他画架构图的真实需求。",
+     "<strong>诚实地标注能力：</strong>技能页写清楚擅长什么、还在学什么。",
+     "<strong>独立开发需要调整：</strong>定价、团队、收入来源都可以改。",
+     "<strong>写 TIL：</strong>零碎的学习记录也有长期价值。",
+     "<strong>照顾好自己：</strong>节奏放慢不是失败。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Diagrams", "url": "https://diagrams.app", "why": "用它画一张你项目的架构图。"},
+     {"name": "The Diagrams Story", "url": "https://lukaskubanek.com/blog/diagrams-story/", "why": "一个独立 Mac App 从想法到上架的完整故事。"},
+     {"name": "The Year 2022 in Review", "url": "https://lukaskubanek.com/blog/review-of-2022/", "why": "独立开发遇到瓶颈时，他如何做决定。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你在 Mac 上画流程图，试试 Diagrams。",
+ "cta": "下载 Diagrams 试用 5 天，画一张你自己的系统图。",
  "sources": [
-  {
-   "label": "Lukas Kubanek 的 X 个人资料",
-   "url": "https://x.com/lukaskubanek"
-  },
-  {
-   "label": "lukaskubanek.com",
-   "url": "http://lukaskubanek.com"
-  },
-  {
-   "label": "lukaskubanek.com：Work",
-   "url": "https://lukaskubanek.com/work"
-  },
-  {
-   "label": "GitHub：lukaskubanek",
-   "url": "https://github.com/lukaskubanek"
-  }
+  {"label": "Lukas Kubanek 的 X 个人资料", "url": "https://x.com/lukaskubanek"},
+  {"label": "lukaskubanek.com", "url": "https://lukaskubanek.com"},
+  {"label": "The Diagrams Story", "url": "https://lukaskubanek.com/blog/diagrams-story/"},
+  {"label": "Diagrams：About Us", "url": "https://diagrams.app/about"},
+  {"label": "Diagrams Changes Its Pricing Model", "url": "https://diagrams.app/blog"},
+  {"label": "GitHub：lukaskubanek", "url": "https://github.com/lukaskubanek"}
  ]
 }
