@@ -2,58 +2,193 @@
  "name": "Cyandev",
  "role": "Mac 客户端工程师 · 博主",
  "title": "Cyandev：一个<em>原生优先主义者</em>的工程笔记",
- "dek": "前字节跳动、阿里巴巴工程师，现在在一家「视频会议软件」公司做 Mac 客户端。他写 SwiftUI 版 2048、给 React 开发者的 SwiftUI 速查表、iOS 备份提取工具，也在博客里认真讨论所有权、Send/Sync 和 Swift 并发隔离。",
- "card": "前字节 / 阿里，现做 Mac 客户端；博客 cy4n.dev 横跨 Swift、Rust、React 与图形。",
+ "dek": "前阿里巴巴、字节跳动工程师，现在在 Zoom 做桌面客户端。他写过 SwiftUI 版 2048、给 React 开发者的 SwiftUI 速查表、Rust 写的 iOS 备份提取工具，2023 年和朋友做了在 VS Code 里用 Cursor 的扩展；博客里认真讨论所有权、Send/Sync、Swift 并发隔离和 Electron 扩展系统。",
+ "card": "ibackupextractor、SwiftUI-2048、CodeCursor 作者；Zoom 桌面客户端工程师，博客 cy4n.dev。",
  "location": "中国北京",
- "tags": ["macOS", "Swift", "Rust", "React", "交互设计"],
- "links": [{"label": "博客 cy4n.dev", "url": "https://cy4n.dev"}, {"label": "GitHub", "url": "https://github.com/unixzii"}],
+ "updated": "2026-10-21",
+ "tags": ["Swift / Objective-C", "Rust", "macOS", "React", "写作"],
+ "links": [
+  {"label": "cy4n.dev", "url": "https://cy4n.dev"},
+  {"label": "About", "url": "https://cy4n.dev/page/about"},
+  {"label": "GitHub", "url": "https://github.com/unixzii"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>一个对用户界面和交互设计着迷的软件工程师，「原生优先主义者，讨厌到处都是浏览器」。",
-  "<strong>代表作：</strong>ibackupextractor（Rust，★1.3k）、SwiftUI-2048、Daysquare（优雅的 iOS 日历控件）、swiftui-for-react-devs、SimRun（在 Mac 上直接运行模拟器 App）、little-agent（轻量嵌入式 Agent 框架）。",
-  "<strong>为什么值得关注：</strong>他的博客把系统编程的深度和对交互的审美结合在一起，是中文技术写作里很难得的风格。"
+  "<strong>一句话：</strong>一个研究 GUI 技术和一切与用户界面相关事物的客户端工程师；GitHub 简介写着「vibe coder by day, real coder by night」（白天 vibe coding，晚上真写代码）。",
+  "<strong>代表作：</strong>ibackupextractor（★1.3 千）、CodeCursor（Helixform，★1.8 千）、SwiftUI-2048、Daysquare、swiftui-for-react-devs、SimRun（2026，★302）、little-agent、agent-explorer。",
+  "<strong>关键数字：</strong>X 关注者约 1.7 万；GitHub 118 个公开仓库，语言分布依次是 Swift、Objective-C、JavaScript、Rust、TypeScript。",
+  "<strong>自我介绍：</strong>About 页引用费曼：「What I cannot create, I do not understand.」"
  ],
- "lead": "Cyandev 的 GitHub 简介写着：「vibe coder by day, real coder by night.」他的 About 页引用了费曼的一句话：「What I cannot create, I do not understand.」（我不能创造的，我就不理解。）",
+ "lead": "Cyandev 的 GitHub 主页是一段 LLDB 调试输出：<code>(lldb) po [self description]</code>，下面依次列出：专注桌面和移动应用；研究 GUI 技术和一切与界面相关的东西；喜欢打造令人愉悦的体验；用 Swift、Objective-C、Rust、TypeScript、Kotlin、C++；在 Zoom 工作，之前在字节跳动和阿里巴巴。一个客户端工程师的自我介绍，就该长这样。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2012", "title": "注册 GitHub 与 X", "text": "早年活跃在知乎和各种技术论坛，后来都退出了。他自称「数字考古」爱好者，用过 Mountain Lion、Vista 和 KDE 4。"},
-    {"when": "2016", "title": "iOS 与 Android 组件", "text": "Daysquare（一个优雅的 iOS 日历控件）、CVPasscodeController（原生观感的密码输入界面）、android-FancyBehaviorDemo（自定义 CoordinatorLayout 行为）。"},
-    {"when": "2019–2020", "title": "SwiftUI 时代", "text": "SwiftUI 发布当年就写了 SwiftUI-2048 和基于 Metal 的视频播放器；2020 年整理了给 React 开发者的 SwiftUI 速查表。"},
-    {"when": "阿里巴巴 → 字节跳动", "title": "大厂客户端", "text": "先后在阿里巴巴和字节跳动工作，积累了大型客户端工程的经验。2022 年写了 XcodePatch（拯救 Xcode 的补丁合集）和关于 Objective-C atomic、Swift Package Plugin 沙盒的文章。"},
-    {"when": "2023", "title": "Rust 与 React 的思考", "text": "用 Rust 写了 iOS 备份提取工具 ibackupextractor；博客里写《为什么所有权很重要》《But What is Send and Sync?》《Idiomatic Signals for React》《Thoughts on React Server Components》。"},
-    {"when": "现在", "title": "视频会议软件的 Mac 客户端", "text": "在一家「视频会议软件」公司做 Mac 客户端开发。2025–2026 年博客写了 Swift Concurrency 隔离、基于原则的性能优化、用 WebGPU 造一场雪、《再见，Next.js》和《为 Electron App 设计扩展系统》；2026 年开源 SimRun 和 little-agent。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "ibackupextractor", "meta": "2023 · Rust · ★1.3k", "text": "从 iOS 备份归档中提取文件的简单工具。", "url": "https://github.com/unixzii/ibackupextractor"},
-    {"name": "SimRun", "meta": "2026 · Objective-C", "text": "在 Mac 上直接运行 iOS 模拟器里的 App。", "url": "https://github.com/unixzii/SimRun"},
-    {"name": "swiftui-for-react-devs", "meta": "2020", "text": "帮 React 开发者快速上手 SwiftUI 的速查表。", "url": "https://github.com/unixzii/swiftui-for-react-devs"},
-    {"name": "little-agent", "meta": "2026 · Rust", "text": "类似 Claude Code / Codex 的轻量嵌入式 Agent 框架。", "url": "https://github.com/unixzii/little-agent"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://cy4n.dev", "paras": ["首页用等宽字体拼出「c y a n d e v _」，像一个闪烁的终端光标。下面是一列只有标题和日期的文章，没有任何多余装饰。", "About 页列出了他的「印象」：极简主义者，偏爱原版胜过定制；相信开源能改变世界；原生优先；主机玩家，喜欢《荒野大镖客 2》《毛线小精灵》《刺客信条：大革命》。"]}},
-   {"p": "博客是自己写的单页应用，标题、日期、正文，就这三样。正好对应他的自我描述：「A minimalist, prefer original over customized.」"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"quote": "I'm fascinated by user interface and interaction design… I love digging into the essence of things and thinking with the first principle.", "cite": "Cyandev，About 页"},
-   {"p": "他说自己是 Apple 粉（「至少曾经是」），喜欢乔布斯的产品哲学和苹果的设计品味：「也许苹果已经变了很多，但它最初的精神一直启发着我。」他的作品与文章，都是这种精神在工程层面的延续。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>跨语言思考：</strong>用 Rust 的所有权理解 Swift 并发，用 SwiftUI 理解 React。",
-    "<strong>做速查表：</strong>帮别人跨越技术栈，是最受欢迎的开源形式之一。",
-    "<strong>从第一性原理写文章：</strong>讲清楚「为什么」，而不只是「怎么做」。",
-    "<strong>白天 vibe，晚上 real：</strong>拥抱 AI，但保持亲手写底层代码的能力。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "桌面与移动客户端工程师（Zoom）；曾在阿里巴巴、字节跳动工作（据 GitHub 主页）"],
+     ["所在地", "中国北京"],
+     ["开源组织", "Helixform（CodeCursor、TeleGPT）、shimohq（石墨文档）、dingtalk-dev"],
+     ["代表作", "ibackupextractor、CodeCursor、SwiftUI-2048、Daysquare、SimRun、little-agent"],
+     ["技术栈", "Swift、Objective-C、Rust、TypeScript、Kotlin、C++；Electron + Rust 混合架构"],
+     ["博客", "cy4n.dev（自己写的 React 单页应用，Vercel / Cloudflare）"],
+     ["爱好", "主机游戏（《荒野大镖客 2》《毛线小精灵》《刺客信条：大革命》）、数字考古"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Cyandev 的作品和文章有一条主线：<strong>跨语言、跨平台地理解同一个问题</strong>。用 SwiftUI 理解 React（反过来也一样），用 Rust 的所有权理解 Swift 的并发隔离，用 Chromium 的服务机制给 Electron 设计扩展系统。他的博客很少写「怎么做」，更多在写「为什么」。"},
+    {"p": "2026 年，他把这种好奇心用在了 AI Agent 上：用 Rust 写了一个类似 Claude Code / Codex 的轻量嵌入式 Agent 框架 little-agent，又做了在浏览器里浏览 Agent 会话日志的 agent-explorer；10 月发布的 SimRun 则能把 iOS 模拟器里的 App 直接跑在 Mac 上。"},
+    {"note": "本页依据 cy4n.dev（含 About 与文章）、GitHub 个人主页与仓库 README、X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012", "title": "注册 GitHub 与 X", "text": "早年活跃在知乎和各种技术论坛，后来都退出了。他自称「数字考古」爱好者，用过 Mountain Lion、Vista 和 KDE 4。"},
+     {"when": "2016", "title": "iOS 与 Android 组件", "text": "Daysquare（优雅的 iOS 日历控件，★698）、CVPasscodeController（原生观感的密码输入界面）、android-FancyBehaviorDemo（自定义 CoordinatorLayout 行为）。"},
+     {"when": "2019", "title": "SwiftUI 元年", "text": "SwiftUI 发布当月就写了 SwiftUI-2048（★734）和在 SwiftUI 里实现 Hooks 的概念验证；同年还写了基于 Metal 的视频播放器。"},
+     {"when": "2020", "title": "SwiftUI for React Developers", "text": "一份帮 React 开发者快速上手 SwiftUI 的速查表（★438）。"},
+     {"when": "2022", "title": "大厂客户端经验", "text": "写了 XcodePatch（拯救 Xcode 的补丁合集）和《为什么 Objective-C 的属性还需要 atomic》《Swift Package Plugin 和 Sandbox 的那些事》。"},
+     {"when": "2023", "title": "CodeCursor、TeleGPT 与 Rust", "text": "和朋友在 Helixform 组织下做了 CodeCursor（在 VS Code 里使用 Cursor 的扩展，★1.8 千）和 Rust 写的 Telegram ChatGPT 机器人 TeleGPT；用 Rust 写了 ibackupextractor；博客连写所有权、Send/Sync、React Signals 与 Server Components。"},
+     {"when": "2025", "title": "回归写作", "text": "沉寂两年后重新密集更新博客：考驾照感想、UserDefaults 实践、Swift 并发隔离、终端「黑魔法」、基于原则的性能优化、编译期安全的 Builder、《再见，Next.js》、用 WebGPU 造一场雪，年底写了「2025 更新日志」。"},
+     {"when": "2026", "title": "Agent 与 SimRun", "text": "1 月开源 little-agent；6 月发布 agent-explorer；7 月写《为 Electron App 设计扩展系统》；10 月开源 SimRun。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "ibackupextractor", "url": "https://github.com/unixzii/ibackupextractor",
+     "meta": ["2023", "Rust", "★1.3 千"],
+     "paras": [
+      "iOS 备份文件并不按原始目录结构存储，想从某个 App 的沙盒里取回一个文件非常困难。这个工具可以把整个备份归档还原成 iPhone / iPad 上原来的文件系统布局，让你像浏览普通文件夹一样查看。Mac 用户可以直接从 GitHub Releases 下载。"
+     ]
+    }},
+    {"work": {
+     "name": "CodeCursor", "url": "https://github.com/Helixform/CodeCursor",
+     "meta": ["2023", "TypeScript", "Helixform"],
+     "paras": [
+      "「Use Cursor right in the editor you love!」2023 年 Cursor 还只是一个独立的 App 时，这个扩展让你在 VS Code 里直接用 Cursor 的 AI 能力写代码、改代码、和代码聊天。README 第一句是感谢 Cursor 团队，并推荐大家去试用他们的 App。"
+     ],
+     "facts": [["GitHub", "★1,824"]]
+    }},
+    {"work": {
+     "name": "SimRun", "url": "https://github.com/unixzii/SimRun",
+     "meta": ["2026.10", "Objective-C", "macOS"],
+     "paras": [
+      "「Run iOS Simulator apps directly on your Mac.」把 iOS 模拟器里构建的 App 直接作为 Mac 应用运行。发布当月就获得了 300 星，是他对苹果平台底层理解的又一次展示。"
+     ],
+     "facts": [["GitHub", "★302"]]
+    }},
+    {"work": {
+     "name": "little-agent 与 agent-explorer", "url": "https://github.com/unixzii/little-agent",
+     "meta": ["2026", "Rust / TypeScript", "AI Agent"],
+     "paras": [
+      "little-agent 是一个轻量的嵌入式 Agent 框架，思路类似 Claude Code 和 OpenAI Codex，可以嵌进自己的应用里；agent-explorer 则是一个在浏览器里查看 Agent 会话日志的工具，在线版部署在 agent-explorer.cy4n.dev。"
+     ]
+    }},
+    {"work": {
+     "name": "swiftui-for-react-devs", "url": "https://github.com/unixzii/swiftui-for-react-devs",
+     "meta": ["2020", "速查表", "★438"],
+     "paras": [
+      "假设你熟悉 React Hooks，这份速查表逐项对照：组件、状态、属性、副作用在 SwiftUI 里分别怎么写。帮别人跨越技术栈，是最受欢迎的开源形式之一。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "★", "说明"],
+     "rows": [
+      ["SwiftUI-2048", "734", "SwiftUI 写的 2048，支持 iOS、macOS 与 Mac Catalyst"],
+      ["Daysquare", "698", "优雅的 iOS 日历控件"],
+      ["TeleGPT", "237", "Rust 写的开箱即用 Telegram ChatGPT 机器人"],
+      ["XcodePatch", "97", "拯救 Xcode 的补丁合集"],
+      ["MetalPlayer", "91", "用 Metal 渲染的视频播放器"],
+      ["StringExplorer", "65", "查看字符串在各种编码下的样子"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://cy4n.dev", "paras": [
+     "首页只有一个闪烁的下划线光标和一句「A random guy on the internet, a software engineer.」，下面是一列只有标题和日期的文章，没有任何多余装饰。",
+     "About 页列出了他的「印象」：极简主义者，偏爱原版胜过定制；相信开源能改变世界；原生优先；说自己是苹果粉（「至少曾经是」），喜欢乔布斯的产品哲学，「也许苹果已经变了很多，但它最初的精神一直启发着我」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "自己写的 React 单页应用，Google Fonts，Vercel + Cloudflare"],
+      ["语言", "中文为主，部分文章英文"],
+      ["节奏", "2022–2023 一波、2025–2026 一波"],
+      ["风格", "标题、日期、正文，就这三样，对应他「偏爱原版」的自我描述"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-07-24", "title": "为 Electron App 设计扩展系统", "url": "https://cy4n.dev/post/designing-ext-system-in-electron", "note": "用 Electron 的 utilityProcess 为每个扩展提供独立宿主进程，像 VS Code 一样暴露封装好的 API。"},
+     {"date": "2025-12-20", "title": "用 WebGPU 来造一场雪", "url": "https://cy4n.dev"},
+     {"date": "2025-11-15", "title": "再见，Next.js", "url": "https://cy4n.dev"},
+     {"date": "2025-09-28", "title": "基于原则的性能优化", "url": "https://cy4n.dev"},
+     {"date": "2025-06-14", "title": "Swift Concurrency 中的隔离", "url": "https://cy4n.dev"},
+     {"date": "2023-06-07", "title": "为什么所有权很重要", "url": "https://cy4n.dev"},
+     {"date": "2023-05-30", "title": "But What is Send and Sync?", "url": "https://cy4n.dev"}
+    ]},
+    {"p": "《为 Electron App 设计扩展系统》是他工作方式的一个缩影：他维护的内部工具集成了很多平台能力，「即便是有 AI 的加持，我也无法一个人满足日益增长的用户需求」，于是给它设计了一套扩展系统，让每个人都能定制和分享自己的功能。文章从现有进程拓扑（Electron 主进程 + Rust 核心 + 渲染进程）讲起，比较 iframe、child_process 和 utilityProcess 三种方案，再讲安全边界。"},
+    {"quote": "What I cannot create, I do not understand.", "cite": "费曼，Cyandev About 页引用"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["技术", "跨 Apple 平台、Rust、Web 多栈，能讲清底层原理", "多为个人工具与实验，大多不是长期维护的产品"],
+      ["写作", "从第一性原理出发，概念讲得透", "更新呈阶段性，2023–2025 年间有空档"],
+      ["开源", "速查表、小工具实用，CodeCursor 一度流行", "部分项目（如 CodeCursor）随 Cursor 自身发展而失去意义"],
+      ["职业", "大厂客户端经验扎实", "公司内部工作细节无法公开"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>跨语言思考：</strong>用 Rust 的所有权理解 Swift 并发，用 SwiftUI 理解 React。",
+     "<strong>做速查表：</strong>帮别人跨越技术栈，是最受欢迎的开源形式之一。",
+     "<strong>从第一性原理写文章：</strong>讲清楚「为什么」，而不只是「怎么做」。",
+     "<strong>白天 vibe，晚上 real：</strong>拥抱 AI，但保持亲手写底层代码的能力。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "为 Electron App 设计扩展系统", "url": "https://cy4n.dev/post/designing-ext-system-in-electron", "why": "如果你在做桌面应用，这是一篇难得的架构实战。"},
+     {"name": "swiftui-for-react-devs", "url": "https://github.com/unixzii/swiftui-for-react-devs", "why": "React 开发者转 SwiftUI，从这份速查表开始。"},
+     {"name": "SimRun", "url": "https://github.com/unixzii/SimRun", "why": "看看怎样把模拟器里的 iOS App 直接跑在 Mac 上。"}
+    ]}
+   ]
+  }
  ],
- "cta": "从《为什么所有权很重要》开始读他的博客。",
+ "cta": "去 cy4n.dev 读一篇，从「为什么所有权很重要」开始。",
  "sources": [
   {"label": "Cyandev 的 X 个人资料", "url": "https://x.com/unixzii"},
   {"label": "博客 cy4n.dev", "url": "https://cy4n.dev"},
   {"label": "Cyandev：About", "url": "https://cy4n.dev/page/about"},
-  {"label": "GitHub：unixzii", "url": "https://github.com/unixzii"}
+  {"label": "为 Electron App 设计扩展系统（2026）", "url": "https://cy4n.dev/post/designing-ext-system-in-electron"},
+  {"label": "GitHub：unixzii（含个人简介）", "url": "https://github.com/unixzii"},
+  {"label": "ibackupextractor README", "url": "https://github.com/unixzii/ibackupextractor"},
+  {"label": "CodeCursor README", "url": "https://github.com/Helixform/CodeCursor"},
+  {"label": "SimRun", "url": "https://github.com/unixzii/SimRun"},
+  {"label": "little-agent", "url": "https://github.com/unixzii/little-agent"}
  ]
 }

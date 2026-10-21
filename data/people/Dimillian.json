@@ -1,167 +1,206 @@
 {
  "name": "Thomas Ricouard",
  "role": "OpenAI Codex 开发者体验 · SwiftUI 开源作者",
- "title": "Thomas Ricouard：用开源 App <em>教会大家 SwiftUI</em>",
- "dek": "从 Google、Glose 到 Medium，再到 OpenAI 的 Codex 团队。TA 用 MovieSwiftUI、Ice Cubes 等完整开源 App 示范了 SwiftUI 应该怎么写，如今又在为 Codex 的开发者体验打造工具和 Skills。",
- "card": "Ice Cubes、MovieSwiftUI 作者，前 Medium iOS 负责人，现在 OpenAI 做 Codex 开发者体验。",
+ "title": "Thomas Ricouard：用<em>开源 App</em> 教会大家 SwiftUI",
+ "dek": "从联合创业、Google、Glose 到 Medium，再到 OpenAI 的 Codex 团队。TA 用 MovieSwiftUI、Curiosity、AC Helper、Ice Cubes 这些完整的开源 App 示范了 SwiftUI 应该怎么写，如今又在为 Codex 的开发者体验打造 CodexMonitor、Skills 和 SkillManager。",
+ "card": "Ice Cubes、MovieSwiftUI、CodexMonitor 作者；前 Medium iOS 工程师，现负责 OpenAI Codex 开发者体验。",
  "location": "法国巴黎",
- "tags": [
-  "SwiftUI",
-  "iOS",
-  "开源",
-  "Codex",
-  "开发者体验"
- ],
+ "updated": "2026-10-21",
+ "tags": ["SwiftUI", "iOS / macOS", "开源 App", "Codex", "AI 编程"],
  "links": [
-  {
-   "label": "dimillian.app",
-   "url": "https://dimillian.app"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/Dimillian"
-  },
-  {
-   "label": "Ice Cubes",
-   "url": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884"
-  }
+  {"label": "dimillian.app", "url": "https://dimillian.app"},
+  {"label": "Ice Cubes", "url": "https://github.com/Dimillian/IceCubesApp"},
+  {"label": "GitHub", "url": "https://github.com/Dimillian"}
  ],
  "summary": [
-  "<strong>一句话：</strong>法国 iOS 工程师、创业者，SwiftUI 社区最有影响力的开源 App 作者之一，现于 OpenAI 负责 Codex 的开发者体验。",
-  "<strong>代表作：</strong>Ice Cubes（★7k，SwiftUI Mastodon 客户端）、MovieSwiftUI（★6.5k）、Curiosity / RedditOS、AC Helper（动森助手）、CodexMonitor、CodexSkillManager。",
-  "<strong>经历：</strong>Google（参与 Chrome iOS）、联合创办 MySeeen 与 Robin Browser、Glose（阅读应用，后被 Medium 收购）、Medium、OpenAI。"
+  "<strong>一句话：</strong>一位「用完整产品开源」的 iOS 工程师：不是一个组件、一个 Demo，而是一个能上架、有真实用户的 App。现在 TA 在 OpenAI 负责 Codex 的开发者体验。",
+  "<strong>代表作：</strong>Ice Cubes（Mastodon 客户端，★7.1 千）、MovieSwiftUI（★6.5 千）、CodexMonitor（★4.3 千）、Curiosity / RedditOS（★4 千）、Skills（★4 千）、AC Helper（★1.7 千）、SwiftHN、PokeSwift。",
+  "<strong>关键数字：</strong>X 关注者约 6.3 万、推文 6.5 万多条；GitHub 176 个公开仓库，其中 41 个是 Swift；近一年贡献 3,450 次。",
+  "<strong>看点：</strong>每当新技术出现（Swift、SwiftUI、Mastodon、Codex），TA 几乎都是第一批用它做出完整开源作品的人。"
  ],
- "lead": "Thomas 的个人网站第一行写着：「🤖 Developer Experience, Builder, Codex @OpenAI」。往下看，是一排 TA 做过或参与过的 App 图标：Medium、Glose、Ice Cubes、AC Helper、Google Chrome。每一个都是很多人每天在用的东西。",
+ "lead": "Thomas 的个人网站首页只有几行 emoji：🤖 Codex @OpenAI；🍎 iOS/macOS、Swift/SwiftUI；🐙 做开源 App；🇫🇷 创业者；🫡 曾在 Glose、Google、Medium。下面是一排 App 图标，直接链接到 App Store：一份可以点击的简历。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "OpenAI Codex 开发者体验（Developer Experience）；iOS / macOS 开发者、创业者"],
+     ["所在地", "法国巴黎附近"],
+     ["经历", "联合创办 MySeeen（电影分享）与 Robin Browser → Google → Glose（社交阅读）→ Medium（Glose 被收购后）→ OpenAI"],
+     ["代表作", "Ice Cubes、MovieSwiftUI、Curiosity、AC Helper、CodexMonitor、Codex Skill Manager、IcySky"],
+     ["技术栈", "Swift / SwiftUI、Combine、Objective-C、TypeScript（Tauri）、Lua"],
+     ["演讲", "Swift Connection 2025、FrenchKit 2022、dotSwift 2020、UIKonf 2020"],
+     ["关键数字", "GitHub 粉丝 4,386；X 关注者约 6.3 万"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Thomas 的开源有一个固定模式：<strong>新技术一出来，就用它做一个完整的、能上架的 App 开源出来</strong>。Swift 发布当月，TA 写了 Hacker News 阅读器 SwiftHN；SwiftUI 发布当月，写了带自定义 Redux 的 MovieSwiftUI；Mastodon 爆发时，写了 Ice Cubes；Bluesky 起来时，开始写 IcySky。这些代码库成了很多人学习 SwiftUI 架构的范本。"},
+    {"p": "加入 OpenAI 之后，TA 把同样的方式用到了 Codex 上：CodexMonitor 用来同时编排多个 Codex Agent，Codex Skill Manager 用来管理本地的 Codex 和 Claude Code 技能，Skills 仓库则公开了自己的日常技能。"},
+    {"note": "本页依据 dimillian.app（About、Talks、Articles、Open Source）、GitHub 与项目 README 整理，资料截至 2026 年 10 月。TA 在 Google 的具体工作未见公开细节。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2010 年代初",
-       "title": "创业：MySeeen 与 Robin",
-       "text": "联合创办电影分享应用 MySeeen 与智能浏览器 Robin Browser。2014 年 Swift 发布当年就写了 Hacker News 阅读器 SwiftHN。"
-      },
-      {
-       "when": "Google",
-       "title": "Chrome for iOS",
-       "text": "在 Google 参与 iOS 相关开发，TA 的作品列表里包括 Google Chrome。"
-      },
-      {
-       "when": "Glose → Medium",
-       "title": "阅读产品",
-       "text": "在社交阅读应用 Glose 工作，Glose 被 Medium 收购后加入 Medium，负责 iOS 客户端。"
-      },
-      {
-       "when": "2019–2020",
-       "title": "SwiftUI 布道",
-       "text": "SwiftUI 发布后立刻写出 MovieSwiftUI（含自定义 Flux/Redux 实现）和 SwiftUIFlux，成为大量开发者学习 SwiftUI 架构的范例；2020 年又做了 macOS Reddit 客户端 Curiosity 和动森助手 AC Helper。"
-      },
-      {
-       "when": "2022",
-       "title": "Ice Cubes",
-       "text": "Mastodon 爆发时，用 SwiftUI 开源 Ice Cubes，迅速成为最受欢迎的 Mastodon 客户端之一，同时是一个完整的开源 SwiftUI 产品级代码库。之后还有 Bluesky 客户端 IcySky。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "OpenAI Codex",
-       "text": "加入 OpenAI，负责 Codex 的开发者体验。开源了自己的 Codex Skills、CodexMonitor（监控 Codex 状态的应用）和 CodexSkillManager（管理 Skills 的 macOS App）。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2008–2010", "title": "注册 X 与 GitHub", "text": "X 账号 2008 年注册，至今 6.5 万多条推文。"},
+     {"when": "2010 年代初", "title": "创业：MySeeen 与 Robin", "text": "联合创办电影分享应用 MySeeen 和「智能浏览器」Robin Browser。GitHub 上至今保留着这两个组织。"},
+     {"when": "2014.06", "title": "SwiftHN", "text": "Swift 发布当月就写了 Hacker News 阅读器 SwiftHN（★1.7 千），是最早的一批 Swift 开源 App 之一。"},
+     {"when": "Google", "title": "在 Google 工作", "text": "TA 的个人网站把 Google 列为曾经的雇主。"},
+     {"when": "Glose → Medium", "title": "阅读产品", "text": "在社交阅读应用 Glose 工作，Glose 被 Medium 收购后加入 Medium，负责 iOS 客户端，并在 Medium Engineering 博客写了 SwiftUI 在 Medium iOS App 中的实践和架构演进。"},
+     {"when": "2019.06", "title": "MovieSwiftUI", "text": "SwiftUI 发布当月写出 MovieSwiftUI（SwiftUI + Combine + 自定义 Flux / Redux）和 SwiftUIFlux，成为大量开发者学习 SwiftUI 架构的范例。"},
+     {"when": "2020", "title": "Curiosity 与 AC Helper", "text": "macOS Big Sur 上的 SwiftUI Reddit 客户端 Curiosity（RedditOS），以及《集合啦！动物森友会》助手 AC Helper（上架 App Store）；同年在 dotSwift 和 UIKonf 演讲。"},
+     {"when": "2022.11", "title": "Ice Cubes", "text": "Mastodon 爆发时用 SwiftUI 开源 Ice Cubes，迅速成为最受欢迎的 Mastodon 客户端之一。"},
+     {"when": "2025", "title": "加入 OpenAI", "text": "负责 Codex 的开发者体验；同年写了 iOS 26 端侧模型、Agentic iOS 工作流（XcodeBuildMCP + Cursor）、用 Claude 4 vibe coding 一个 iOS App 等文章，并在 Swift Connection 2025 演讲。"},
+     {"when": "2026", "title": "CodexMonitor 与 PokeSwift", "text": "1 月发布 CodexMonitor 和 Codex Skill Manager；3 月用 Swift 和 SwiftUI 重新实现了《宝可梦 红 / 蓝》的游戏引擎。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Ice Cubes",
-       "meta": "2022 · SwiftUI · ★7k",
-       "text": "优雅的开源 Mastodon 客户端，也是学习 SwiftUI 大型应用的最佳代码之一。",
-       "url": "https://github.com/Dimillian/IceCubesApp"
-      },
-      {
-       "name": "MovieSwiftUI",
-       "meta": "2019 · ★6.5k",
-       "text": "SwiftUI + Combine 的电影 App，带自定义 Flux 实现。",
-       "url": "https://github.com/Dimillian/MovieSwiftUI"
-      },
-      {
-       "name": "CodexMonitor",
-       "meta": "2026 · ★4.3k",
-       "text": "一个监控 Codex 运行状况的 App。",
-       "url": "https://github.com/Dimillian/CodexMonitor"
-      },
-      {
-       "name": "Skills",
-       "meta": "2025 · ★4k",
-       "text": "TA 自己日常使用的 Codex Skills 合集。",
-       "url": "https://github.com/Dimillian/Skills"
-      }
+    {"work": {
+     "name": "Ice Cubes", "url": "https://github.com/Dimillian/IceCubesApp",
+     "meta": ["2022", "SwiftUI", "AGPL-3.0 · App Store"],
+     "paras": [
+      "「An open-source application for accessing the decentralized social network Mastodon!」完全用 SwiftUI 写成，同时上架 App Store。它的价值有两层：对用户，它是最好用的 Mastodon 客户端之一；对开发者，它是一个真实的、产品级的大型 SwiftUI 代码库：导航、时间线、多账号这些常见难题，都能在这里找到参考实现。"
+     ],
+     "facts": [["GitHub", "★7,089 · ⑂730"], ["创建", "2022-11"], ["最近更新", "2026-10"]]
+    }},
+    {"work": {
+     "name": "CodexMonitor", "url": "https://www.codexmonitor.app",
+     "meta": ["2026.01", "Tauri + TypeScript", "macOS"],
+     "paras": [
+      "「An app to monitor the (Codex) situation.」一个用来在多个本地工作区里编排多个 Codex Agent 的 Tauri 应用：侧栏管理项目，首页放快捷操作，会话视图基于 Codex 的 app-server 协议。可以添加并持久化工作区，分组、排序，快速跳回最近的线程。"
+     ],
+     "facts": [["GitHub", "★4,348"], ["官网", "codexmonitor.app"]]
+    }},
+    {"work": {
+     "name": "MovieSwiftUI", "url": "https://github.com/Dimillian/MovieSwiftUI",
+     "meta": ["2019.06", "SwiftUI + Combine", "★6.5 千"],
+     "paras": [
+      "使用 TMDb API 的电影 App，带一个自定义的 Flux（Redux）实现。在 SwiftUI 刚发布、官方示例还很少的时候，它回答了很多人最关心的问题：一个真实的 SwiftUI App 该怎么组织状态？"
      ]
-    }
+    }},
+    {"work": {
+     "name": "Skills 与 Codex Skill Manager", "url": "https://github.com/Dimillian/Skills",
+     "meta": ["2025–2026", "Agent Skills", "SwiftUI"],
+     "paras": [
+      "Skills（★4 千）是 TA 自己日常使用的 Codex 技能合集；Codex Skill Manager（★1.4 千）则是一个 SwiftUI 写的 macOS App，用来管理本地的 Codex 和 Claude Code 技能。2025 年 7 月 TA 还公开过自己的 Claude Code 配置。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他开源 App", "★", "年份", "说明"],
+     "rows": [
+      ["Curiosity / RedditOS", "4,022", "2020", "macOS 上的 SwiftUI Reddit 客户端，「when it was cool」"],
+      ["SwiftHN", "1,737", "2014", "Swift 写的 Hacker News 阅读器"],
+      ["AC Helper", "1,724", "2020", "动森助手，已上架 App Store"],
+      ["IcySky", "534", "2024", "用 iOS 26 SDK 新特性写的 Bluesky 客户端，也是自定义 UI 的试验场"],
+      ["AppRouter", "474", "2025", "简单的 SwiftUI 路由"],
+      ["MortyUI", "466", "2020", "Rick & Morty 主题的 GraphQL + SwiftUI 示例"],
+      ["PokeSwift", "363", "2026", "用 Swift 和 SwiftUI 重新实现《宝可梦 红 / 蓝》引擎"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub 主页 README 只是一张表格，列出「目前在更新和维护的项目」，每个都配一张截图。仓库语言分布里 Swift 有 41 个、TypeScript 13 个、Objective-C 11 个，还有 6 个 Lua（游戏相关）。"},
+    {"table": {
+     "cols": ["仓库", "★", "创建", "说明"],
+     "rows": [
+      ["IceCubesApp", "7,089", "2022", "Mastodon 客户端"],
+      ["MovieSwiftUI", "6,527", "2019", "SwiftUI + Combine + Redux"],
+      ["CodexMonitor", "4,348", "2026", "编排多个 Codex Agent"],
+      ["RedditOS", "4,022", "2020", "macOS Reddit 客户端"],
+      ["Skills", "4,006", "2025", "个人 Codex 技能"],
+      ["CodexSkillManager", "1,377", "2026", "技能管理 App"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://dimillian.app",
-      "paras": [
-       "导航有 About me、Talks、Games、Articles、Open Source、Snippets。首页用 emoji 列出身份：🤖 Codex、🍎 iOS/macOS、🐙 开源 App、🇫🇷 创业者、🫡 曾在 Glose 📖、Google 🔍、Medium。",
-       "下方是一排 App 图标，直接链接到 App Store，相当于一份「可点击的简历」。"
-      ]
-     }
-    }
+    {"site": {"url": "https://dimillian.app", "paras": [
+     "导航是 About me、Talks、Games、Articles、Open Source、Snippets。首页用 emoji 列出身份，然后是各个社交平台的链接（Bluesky、Mastodon、X、GitHub、Threads、Medium），最后是一排「我做过或参与过的 App」图标。",
+     "Articles 页按主题分组：Medium Engineering 时期的架构文章，以及 AI 时代的实践：iOS 26 端侧 Foundation Models、用 XcodeBuildMCP + Cursor 的 Agentic iOS 工作流、《Where is Swift Assist?》《Is Software Engineering Over?》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，部署在 Vercel"],
+      ["Talks", "Swift Connection 2025、FrenchKit 2022、dotSwift 2020、UIKonf 2020，均附视频"],
+      ["Open Source", "每个 App 一张卡片，附 App Store 与 GitHub 链接"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "Thomas 的特点是<strong>用完整的产品来开源</strong>：不是一个组件、一个 Demo，而是一个可以上架、有真实用户的 App。这让 TA 的代码既是教程，又是产品。"
-    },
-    {
-     "p": "从 SwiftUI 到 Codex，TA 始终站在「新工具如何被开发者真正用起来」的位置。Codex Skills 和 SkillManager 延续的是同一件事：把最佳实践变成别人可以直接复用的东西。"
-    }
+    {"posts": [
+     {"date": "2025", "title": "FoundationChat: Building an AI Chat App with iOS 26's On-Device Models", "url": "https://dimillian.app/articles"},
+     {"date": "2025", "title": "Agentic iOS Workflow with XcodeBuildMCP and Cursor", "url": "https://dimillian.app/articles"},
+     {"date": "2025", "title": "Vibe Coding: An iOS App with Claude 4", "url": "https://dimillian.app/articles"},
+     {"date": "2025", "title": "Is Software Engineering Over?", "url": "https://dimillian.app/articles"},
+     {"date": "Medium 时期", "title": "How do we use SwiftUI in the Medium iOS application", "url": "https://dimillian.app/articles"},
+     {"date": "Medium 时期", "title": "Building a ChatGPT Plugin for Medium", "url": "https://dimillian.app/articles"}
+    ]},
+    {"p": "从 SwiftUI 到 Codex，TA 始终站在同一个位置：<strong>新工具如何被开发者真正用起来</strong>。SwiftUI 时代是写出完整的参考 App；AI 时代是写工作流文章、公开自己的 Agent 配置、做管理工具。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["开源", "完整、可上架的 App 代码库，学习价值极高", "部分早期项目（MovieSwiftUI 等）已不再积极维护"],
+      ["时机", "总是第一批用新技术做出作品", "追新带来的项目多，有的停留在「TBD」状态（如 IcySky）"],
+      ["影响力", "从社区布道走到 OpenAI 负责开发者体验", "在 OpenAI 的工作以团队成果为主，个人贡献边界不易看清"],
+      ["表达", "文章、演讲、开源三线并进", "博客文章分散在 Medium 等多个平台"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>开源一个完整 App：</strong>比写十篇教程更有说服力。",
-      "<strong>新技术发布当天就动手：</strong>SwiftUI、Mastodon、Codex，每次都很快做出作品。",
-      "<strong>做自己会用的工具：</strong>动森助手、Codex 监控，都是自用需求。",
-      "<strong>把兴趣变成职业：</strong>开源影响力最终把 TA 带到了 OpenAI。"
-     ]
-    }
+    {"checklist": [
+     "<strong>开源一个完整 App：</strong>比写十篇教程更有说服力。",
+     "<strong>新技术发布当天就动手：</strong>Swift、SwiftUI、Mastodon、Codex，每次都很快做出作品。",
+     "<strong>做自己会用的工具：</strong>动森助手、Codex 监控，都是自用需求。",
+     "<strong>把兴趣变成职业：</strong>开源影响力最终把 TA 带到了 OpenAI。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Ice Cubes 源码", "url": "https://github.com/Dimillian/IceCubesApp", "why": "想看一个大型 SwiftUI App 怎么组织代码，从这里开始。"},
+     {"name": "CodexMonitor", "url": "https://www.codexmonitor.app", "why": "如果你同时跑多个 Codex Agent，试试这个编排工具。"},
+     {"name": "Articles", "url": "https://dimillian.app/articles", "why": "读读 TA 的 Agentic iOS 工作流，看 AI 怎样进入 Xcode 开发。"}
+    ]}
    ]
   }
  ],
- "cta": "读一读 Ice Cubes 的源码，看一个产品级 SwiftUI App 怎么组织。",
+ "cta": "读一读 Ice Cubes 的源码，或者装一个 CodexMonitor。",
  "sources": [
-  {
-   "label": "Thomas Ricouard 的 X 个人资料",
-   "url": "https://x.com/Dimillian"
-  },
-  {
-   "label": "dimillian.app",
-   "url": "https://dimillian.app"
-  },
-  {
-   "label": "GitHub：Dimillian",
-   "url": "https://github.com/Dimillian"
-  }
+  {"label": "Thomas Ricouard 的 X 个人资料", "url": "https://x.com/Dimillian"},
+  {"label": "dimillian.app", "url": "https://dimillian.app"},
+  {"label": "dimillian.app：Talks", "url": "https://dimillian.app/talks"},
+  {"label": "dimillian.app：Articles", "url": "https://dimillian.app/articles"},
+  {"label": "dimillian.app：Open Source", "url": "https://dimillian.app/apps"},
+  {"label": "GitHub：Dimillian", "url": "https://github.com/Dimillian"},
+  {"label": "IceCubesApp README", "url": "https://github.com/Dimillian/IceCubesApp"},
+  {"label": "CodexMonitor README", "url": "https://github.com/Dimillian/CodexMonitor"},
+  {"label": "Skills", "url": "https://github.com/Dimillian/Skills"},
+  {"label": "App Store：Ice Cubes", "url": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884"}
  ]
 }

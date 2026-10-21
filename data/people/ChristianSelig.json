@@ -2,59 +2,205 @@
  "name": "Christian Selig",
  "role": "iOS 独立开发者 · Apollo / Pixel Pals 作者",
  "title": "Christian Selig：做出 Apollo，然后<em>体面地告别</em>",
- "dek": "他一个人做的 Reddit 客户端 Apollo，被很多人称为 iOS 上最好的第三方 App 之一。2023 年 Reddit 的 API 定价让它每年要付出约 2000 万美元，他选择关停，并公开了全部过程。之后他做了灵动岛宠物 Pixel Pals、Vision Pro 上的 Juno，还自己设计了一把键盘。",
- "card": "Apollo for Reddit、Pixel Pals、Juno 作者；用 Vision Pro 设计自己的房子。",
+ "dek": "他一个人做的 Reddit 客户端 Apollo 在 App Store 上有 18 万个评分、平均 4.76，被很多人称为 iOS 上最好的第三方 App 之一。2023 年 Reddit 的 API 定价让它每年要付出约 2,000 万美元，他选择关停，并公开了全部过程。之后他做了住在灵动岛里的 Pixel Pals（3.7 万个评分），设计了一把开源键盘，2026 年又用自己写的 Vision Pro App 规划第一栋房子。",
+ "card": "Apollo for Reddit（18 万评分）、Pixel Pals 的作者；前 Apple 员工；公开关停 Apollo 的全过程。",
  "location": "加拿大新斯科舍省哈利法克斯",
- "tags": ["iOS", "Swift", "visionOS", "UI 动效", "独立开发"],
- "links": [{"label": "christianselig.com", "url": "https://christianselig.com"}, {"label": "GitHub", "url": "https://github.com/christianselig"}],
+ "updated": "2026-10-21",
+ "tags": ["iOS", "SwiftUI / UIKit", "visionOS", "独立开发", "开源组件"],
+ "links": [
+  {"label": "christianselig.com", "url": "https://christianselig.com"},
+  {"label": "Pixel Pals", "url": "https://apps.apple.com/us/app/pixel-pals-widget-pet-game/id6443919232"},
+  {"label": "GitHub", "url": "https://github.com/christianselig"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>一个来自加拿大东海岸、曾在 Apple 工作过的 iOS 开发者，以极致打磨的交互和坦诚的写作著称。",
-  "<strong>代表作：</strong>Apollo for Reddit（2017–2023）、Pixel Pals（灵动岛上的像素宠物）、Juno（visionOS 上的 YouTube 客户端）、Caldera 分体键盘、Prospector（用 Vision Pro 预览建筑图纸）。",
-  "<strong>为什么值得关注：</strong>Apollo 事件成为「平台风险」的标志性案例；而他面对危机时的透明与体面，同样值得学习。"
+  "<strong>一句话：</strong>一位以细节著称的 iOS 独立开发者，曾在 Apple 工作；他的 App 完全遵循 iOS 的手势和视觉语言，却在每个交互细节上比官方走得更远。",
+  "<strong>代表作：</strong>Apollo for Reddit（2017–2023，4.76 分，180,267 个评分）、Pixel Pals（灵动岛宠物，4.57 分，37,082 个评分）、Amplosion（Safari 去 AMP 扩展，4.9 分）、Achoo（Safari HTML 查看器）、Juno（Vision Pro 上的 YouTube 客户端）、Caldera 键盘、Prospector。",
+  "<strong>关键数字：</strong>X 关注者约 7.4 万、推文 5 万多条；apollo-backend 开源后获得 3.7 千星。",
+  "<strong>看点：</strong>面对每年 2,000 万美元的 API 账单，他没有偷偷关门，而是公开数字、公开与 Reddit 的通话录音、开源后端。透明本身成了一种设计。"
  ],
- "lead": "Christian 的个人网站开头很朴素：「I'm an iOS developer and creator of Pixel Pals, Apollo, and other apps!」最新的一篇文章，讲的是他和女朋友开始建造第一个家：程序员的大脑很难接受「墙一旦砌错就不能删掉」，于是他发现了 Vision Pro 最酷的用途，在真实土地上 1:1 预览房子。",
+ "lead": "Apollo 如今在 App Store 上的描述只剩一段话：「Apollo 是 2015 年到 2023 年间在 iOS 上浏览 Reddit 的 App。2023 年，Reddit 宣布大幅调整 API 价格，从免费变成可能……」但它仍然挂着 18 万个评分。很少有一款已经关停的 App，被这么多人记得。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2008", "title": "注册 X", "text": "很早就进入 iOS 开发世界。X 简介里「Previously at 」是一个苹果 Logo：他曾在 Apple 工作。"},
-    {"when": "2017", "title": "Apollo for Reddit", "text": "一个人做的 Reddit 客户端，以手势、细节和速度著称，多次获得设计类推荐，拥有大量忠实付费用户。他还公开了 Apollo 的 Bug 追踪器。"},
-    {"when": "2021", "title": "开源组件", "text": "开源 ChidoriMenu（类 iOS 14 下拉菜单）、Markdownosaur（用 Apple 的 Swift Markdown 解析器输出 NSAttributedString）、TableOfContentsSelector 等，均来自 Apollo 的实际需求。"},
-    {"when": "2022", "title": "Pixel Pals", "text": "iPhone 14 Pro 推出灵动岛后，他做了住在灵动岛和锁屏实时活动里的像素宠物。"},
-    {"when": "2023-06", "title": "Apollo 关停", "text": "Reddit 宣布 API 收费，按 Apollo 的用量计算每年约需 2000 万美元。他公开了与 Reddit 的沟通录音和计算过程，最终在 6 月 30 日关停 Apollo，并开源了 apollo-backend。"},
-    {"when": "2024", "title": "Juno、键盘与 TinyStorage", "text": "为 Vision Pro 做了 YouTube 客户端 Juno（后因 YouTube 方面的意见下架），开源了 JunoSlider；自己设计了分体式人体工学无线键盘 Caldera，并开源了 UserDefaults 替代品 TinyStorage。"},
-    {"when": "2026", "title": "Prospector", "text": "开始建造第一个家，用自己写的 visionOS App 在土地上按真实比例预览建筑方案。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Apollo for Reddit", "meta": "2017–2023", "text": "iOS 上最受喜爱的第三方 Reddit 客户端之一，因 API 收费关停，后端已开源。", "url": "https://github.com/christianselig/apollo-backend"},
-    {"name": "Pixel Pals", "meta": "2022 · iOS", "text": "住在灵动岛里的像素宠物，可以喂养、互动。", "url": "https://christianselig.com"},
-    {"name": "Caldera Keyboard", "meta": "2024 · 硬件", "text": "他自己设计的分体式、人体工学无线键盘，开源设计。", "url": "https://github.com/christianselig/caldera-keyboard"},
-    {"name": "Prospector", "meta": "2026 · visionOS", "text": "在真实世界里按比例预览大型模型，比如房屋设计图。", "url": "https://github.com/christianselig/Prospector"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://christianselig.com", "paras": ["一个非常传统的个人博客：一句自我介绍，然后是按时间排列的长文。文章常常配大量截图和视频。", "博客里的技术长文也很有名，比如如何在 iOS 上实现某个系统级动效，他会一步步拆解并给出代码。"]}},
-   {"p": "X 简介里有一句「Pronounced See-lig. i love aminals. 🌱」。这种轻松可爱的语气，也出现在他的每一款 App 里。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"p": "Apollo 的设计哲学是<strong>尊重平台、超越平台</strong>：完全遵循 iOS 的手势和视觉语言，却在每一个交互细节上比官方 App 走得更远。他开源的组件几乎都在「模仿 Apple 的感觉，再多一点点好处」。"},
-   {"callout": "面对每年 2000 万美元的 API 账单，他没有偷偷关门，而是公开数字、公开录音、给用户退款方案并开源后端。透明本身成了一种设计。", "t": "体面地告别"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>把一个 App 做到极致：</strong>细节堆出来的口碑，能撑起一个人的事业。",
-    "<strong>警惕平台依赖：</strong>Apollo 是所有第三方客户端开发者的教科书案例。",
-    "<strong>快速拥抱新硬件：</strong>灵动岛、Vision Pro，每次都第一时间做出有趣的东西。",
-    "<strong>用技术解决生活问题：</strong>从键盘到房子，工具都可以自己做。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 独立开发者；X 简介「Previously at 」（苹果 Logo），曾在 Apple 工作"],
+     ["所在地", "加拿大新斯科舍省哈利法克斯"],
+     ["代表作", "Apollo、Pixel Pals、Amplosion、Achoo、Juno、Caldera 键盘、Prospector"],
+     ["技术栈", "Swift、UIKit / SwiftUI、visionOS、Go（Apollo 后端）、Godot（嵌入 iOS 的小游戏）"],
+     ["关键数字", "Apollo 180,267 个评分；Pixel Pals 37,082 个评分；X 关注者约 7.4 万"],
+     ["博客", "christianselig.com（Hugo），技术长文与生活随笔"],
+     ["自我介绍", "「he/him. Pronounced See-lig. i love aminals. 🌱」"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Christian 的产品有一个共同点：<strong>第一时间拥抱苹果的新能力，然后把它做得很可爱</strong>。iOS 15 开放 Safari 扩展，他做了 Amplosion 和 Achoo；iPhone 14 Pro 推出灵动岛，他做了住在灵动岛里的像素宠物；Vision Pro 上市，他做了 YouTube 客户端 Juno；2026 年，他又用 visionOS 在真实土地上按比例预览自己未来的房子。"},
+    {"p": "他的博客则是另一种贡献：《Beware UserDefaults》讲一个难以发现、会丢数据的 bug，并顺手开源了替代品 TinyStorage；《CKSyncEngine questions and answers》《Embedding Godot games in iOS apps is easy now》都是给同行省时间的实战文章。"},
+    {"note": "本页依据 christianselig.com、GitHub、App Store 与 apollo-backend README 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2008", "title": "注册 X", "text": "很早就进入 iOS 开发世界，至今发了五万多条推文。X 简介里一个苹果 Logo 表示他曾在 Apple 工作。"},
+     {"when": "2015–2017", "title": "Apollo 诞生", "text": "Apollo 的 App Store 描述说它从 2015 年起服务 Reddit 用户；当前这个 App 条目上架于 2017 年 10 月。它以手势、细节和速度著称，拥有大量忠实付费用户。2019 年他还公开了 Apollo 的 bug 追踪器。"},
+     {"when": "2021", "title": "开源组件与 Safari 扩展", "text": "从 Apollo 的实际需求里抽出 ChidoriMenu、TableOfContentsSelector、Markdownosaur、AccessibleAuthorLabel 等组件开源；iOS 15 发布时推出去 AMP 扩展 Amplosion（4.9 分）和 HTML 查看器 Achoo。"},
+     {"when": "2022.10", "title": "Pixel Pals", "text": "灵动岛发布后不久，推出住在灵动岛、锁屏和主屏小组件里的像素宠物。"},
+     {"when": "2023.06", "title": "Apollo 关停", "text": "Reddit 宣布 API 收费，按 Apollo 的用量计算每年约需 2,000 万美元。他公开了与 Reddit 的沟通录音和计算过程，6 月 30 日关停 Apollo，并开源了 apollo-backend。"},
+     {"when": "2024", "title": "Juno、键盘与 TinyStorage", "text": "为 Vision Pro 做 YouTube 客户端 Juno（10 月因 YouTube 方面的意见下架），开源 JunoSlider；用 Ergogen 和 KiCad 设计了分体式、人体工学无线键盘 Caldera；发现 UserDefaults 会丢数据后开源了 TinyStorage；还用 3D 打印「治好了 Mac mini M4 焦虑」。"},
+     {"when": "2025", "title": "Godot、GIF 与 App Clip", "text": "写了在 iOS App 里嵌入 Godot 游戏、制作高质量低体积 GIF、App Clip 本地体验等文章。"},
+     {"when": "2026", "title": "Prospector 与第一个家", "text": "和女朋友开始建造第一栋房子，他写了 visionOS App Prospector，在土地上按真实比例预览建筑方案；同年还写了对 iPhone Air、Fitbit Air、Rivian R2 的看法。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Apollo for Reddit", "url": "https://github.com/christianselig/apollo-backend",
+     "meta": ["2015 / 2017–2023", "iOS", "已关停"],
+     "paras": [
+      "一个人做的 Reddit 客户端：可定制的手势、精致的媒体浏览、快速的列表滚动，以及无数「比官方多想一步」的细节。它的设计哲学是尊重平台、再超越平台。",
+      "2023 年 Reddit 宣布 API 收费后，Christian 算出 Apollo 每年要付约 2,000 万美元。他选择了一条少见的路：公开数字、公开录音、给订阅用户处理方案，然后在 6 月 30 日关停，并把后端（通知检查与 subreddit 监视器，Go 编写）开源出来，「希望这些代码能对别人有用」。"
+     ],
+     "facts": [["App Store 评分", "4.76（180,267）"], ["apollo-backend", "★3,651 · Go"], ["关停", "2023-06-30"]]
+    }},
+    {"work": {
+     "name": "Pixel Pals", "url": "https://apps.apple.com/us/app/pixel-pals-widget-pet-game/id6443919232",
+     "meta": ["2022", "iOS", "灵动岛宠物"],
+     "paras": [
+      "「把可爱的像素宠物放进你的主屏、锁屏和实时活动里。」你可以喂养它们、和它们互动，看它们在灵动岛里走来走去。这是一个只有在苹果推出新硬件形态那一刻才会诞生的点子，而他是第一批把它做出来的人。"
+     ],
+     "facts": [["首发", "2022-10-24"], ["评分", "4.57（37,082）"], ["价格", "免费 + 内购"]]
+    }},
+    {"work": {
+     "name": "Caldera 键盘", "url": "https://github.com/christianselig/caldera-keyboard",
+     "meta": ["2024", "硬件 · 开源", "分体式人体工学"],
+     "paras": [
+      "他自己设计的分体式、人体工学无线键盘。仓库里有 Ergogen v4 配置、KiCad PCB 文件和 JSCAD 定位板，外壳在 Fusion 360 里完成。一个 iOS 开发者跨界做硬件，并把设计完整开源（★356，⑂97）。"
+     ]
+    }},
+    {"work": {
+     "name": "Prospector", "url": "https://github.com/christianselig/Prospector",
+     "meta": ["2026", "visionOS", "开源"],
+     "paras": [
+      "「The coolest use for the Vision Pro.」他在博客里写，建房子的每个决定都很难回头：「软件里不喜欢一个功能可以改掉，墙放错了可不行。」于是他做了一个 visionOS App，把大型模型（比如房屋设计图）按真实比例放在真实的土地上预览。"
+     ]
+    }},
+    {"h3": "其他作品"},
+    {"table": {
+     "cols": ["作品", "年份", "说明"],
+     "rows": [
+      ["Amplosion", "2021", "Safari 扩展：自动把 AMP 链接重定向回原始页面，$1.99，4.9 分（1,513 个评分）"],
+      ["Achoo", "2021", "在 Safari 里查看网页 HTML、内联 CSS 与 JS，带语法高亮，$0.99"],
+      ["Juno", "2024", "Vision Pro 上的 YouTube 客户端，后因 YouTube 方面的意见下架"],
+      ["TinyStorage", "2024", "UserDefaults 的轻量替代，原生支持 Codable"],
+      ["Markdownosaur", "2021", "用 Apple 的 Swift Markdown 解析器输出 NSAttributedString，只有几百行"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "他的开源几乎都是「从产品里长出来的组件」：每个都在模仿 Apple 的感觉，再多一点点好处。"},
+    {"table": {
+     "cols": ["仓库", "★", "年份", "说明"],
+     "rows": [
+      ["apollo-backend", "3,651", "2021", "Apollo 的后端服务，2023 年关停后归档开源"],
+      ["Markdownosaur", "557", "2021", "Swift Markdown → NSAttributedString"],
+      ["TinyStorage", "492", "2024", "UserDefaults 替代品"],
+      ["caldera-keyboard", "356", "2024", "开源分体式键盘设计"],
+      ["OpenInApolloExtension", "258", "2021", "用 Apollo 打开 Reddit 链接的 Safari 扩展"],
+      ["apollo-bugs", "218", "2019", "Apollo 公开的 bug 追踪器"],
+      ["ChidoriMenu", "190", "2021", "类 iOS 14 下拉菜单，多一些好处"],
+      ["JunoSlider", "147", "2024", "模仿 Apple 可展开滑块的 visionOS 控件"],
+      ["AccessibleAuthorLabel", "47", "2021", "让读屏器能正常朗读那些花体字用户名"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://christianselig.com", "paras": [
+     "一个非常传统的个人博客：Hugo 生成，首页就是按时间排列的长文，配大量截图和视频。页面顶部有一行赞助商文案：「Mobile application monitoring software considered \"not bad\" by four million developers.」连广告都写得带着他的幽默。",
+     "文章从技术细节（UserDefaults 丢数据、CKSyncEngine、Godot 嵌入）到生活随笔（换 MacBook 硅脂、Rivian 车主的愿望、给 iPhone Air 的一个软件建议）都有。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Hugo 0.149"],
+      ["更新", "2024–2026 年每月一到两篇"],
+      ["风格", "长文、配图多、语气轻松，代码与截图并重"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-07-29", "title": "The coolest use for the Vision Pro", "url": "https://christianselig.com", "note": "用自己写的 App 在土地上预览未来的家。"},
+     {"date": "2026-01-07", "title": "CKSyncEngine questions and answers", "url": "https://christianselig.com/posts"},
+     {"date": "2025-05-31", "title": "Embedding Godot games in iOS apps is easy now", "url": "https://christianselig.com/posts"},
+     {"date": "2024-10-05", "title": "Beware UserDefaults: a tale of hard to find bugs, and lost data", "url": "https://christianselig.com/2024/10/beware-userdefaults/"},
+     {"date": "2024-10-01", "title": "Juno for YouTube has been removed from the App Store", "url": "https://christianselig.com/posts"}
+    ]},
+    {"quote": "In software if you don't end up liking a feature after playing around with it for awhile, you can tweak it or remove it entirely (try doing that with a poorly placed wall).", "cite": "Christian Selig，《The coolest use for the Vision Pro》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "细节与口碑极佳，Apollo 和 Pixel Pals 都有数万到十几万评分", "两款产品先后受平台政策影响（Reddit API、YouTube），平台依赖风险明显"],
+      ["时机", "总能第一时间用上苹果的新能力", "新平台（如 Vision Pro）用户规模有限"],
+      ["透明", "关停 Apollo 的方式成为行业范本", "—"],
+      ["开源", "组件实用、文档清楚", "GitHub 近一年公开贡献很少，开源以阶段性发布为主"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把一个 App 做到极致：</strong>细节堆出来的口碑，能撑起一个人的事业。",
+     "<strong>警惕平台依赖：</strong>Apollo 是所有第三方客户端开发者的教科书案例。",
+     "<strong>体面地告别：</strong>公开原因、照顾用户、开源代码。",
+     "<strong>快速拥抱新硬件：</strong>灵动岛、Vision Pro，每次都第一时间做出有趣的东西。",
+     "<strong>用技术解决生活问题：</strong>从键盘到房子，工具都可以自己做。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Pixel Pals", "url": "https://apps.apple.com/us/app/pixel-pals-widget-pet-game/id6443919232", "why": "在你的灵动岛里养一只像素宠物。"},
+     {"name": "Beware UserDefaults", "url": "https://christianselig.com/2024/10/beware-userdefaults/", "why": "每个 iOS 开发者都应该读的一篇「丢数据」排查记录。"},
+     {"name": "apollo-backend", "url": "https://github.com/christianselig/apollo-backend", "why": "看一个优秀 App 的后端长什么样，以及它为什么不再运行。"}
+    ]}
+   ]
+  }
  ],
- "cta": "读读他关于 Vision Pro 和房子的那篇文章。",
+ "cta": "养一只 Pixel Pals，或者读读他博客里那些给同行省时间的长文。",
  "sources": [
   {"label": "Christian Selig 的 X 个人资料", "url": "https://x.com/ChristianSelig"},
   {"label": "christianselig.com", "url": "https://christianselig.com"},
+  {"label": "christianselig.com 全部文章", "url": "https://christianselig.com/posts"},
+  {"label": "Beware UserDefaults（2024）", "url": "https://christianselig.com/2024/10/beware-userdefaults/"},
   {"label": "GitHub：christianselig", "url": "https://github.com/christianselig"},
-  {"label": "apollo-backend", "url": "https://github.com/christianselig/apollo-backend"}
+  {"label": "apollo-backend README", "url": "https://github.com/christianselig/apollo-backend"},
+  {"label": "Caldera Keyboard", "url": "https://github.com/christianselig/caldera-keyboard"},
+  {"label": "App Store：Apollo for Reddit", "url": "https://apps.apple.com/us/app/apollo-for-reddit/id979274575"},
+  {"label": "App Store：Pixel Pals", "url": "https://apps.apple.com/us/app/pixel-pals-widget-pet-game/id6443919232"}
  ]
 }
