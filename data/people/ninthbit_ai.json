@@ -1,160 +1,172 @@
 {
  "name": "Kieran Zhang",
  "role": "AI 原生独立开发者 · 前华为 IDE 工程师",
- "title": "Kieran Zhang：在 AI 时代，<em>一个人能做的事</em>远超从前",
- "dek": "在华为做了多年 IDE 与开发者工具：自研编程语言的语言服务、鸿蒙的 IDE 集成与性能调优、把 AI 带进移动开发与运维。2026 年 TA 离开大厂做自己的产品：Pi 编程 Agent 的桌面 GUI、开源语音输入法、AI 编程订阅价值基准。",
- "card": "前华为 IDE / 鸿蒙开发工具工程师，2026 年起独立开发 Pace、Voily、Pi Index、SubWorth。",
+ "title": "Kieran Zhang：为 <em>Pi 编程 Agent</em> 搭生态的独立开发者",
+ "dek": "TA 在华为做了多年 IDE 与开发者工具：自研编程语言的语言服务、鸿蒙的 IDE 集成与性能调优、把 AI 带进移动开发与运维。2026 年 6 月起全职独立，围绕终端编程 Agent Pi 做了社区目录 Pi Index、桌面 GUI Pace、可自托管的持久化 Agent PiNomad 和 PR 审查机器人 dureview。",
+ "card": "Pi Index、Pace、PiNomad、Voily 作者；前华为 IDE 与开发者工具工程师，南京的 AI 原生独立开发者。",
  "location": "中国南京",
- "tags": [
-  "AI Agent",
-  "开发者工具",
-  "macOS",
-  "摄影",
-  "写作"
- ],
+ "updated": "2026-10-21",
+ "tags": ["AI Agent", "开发者工具", "Pi", "独立开发", "开源"],
  "links": [
-  {
-   "label": "kieran.build",
-   "url": "https://kieran.build"
-  },
-  {
-   "label": "Pi Index",
-   "url": "https://piindex.dev"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/BubblePtr"
-  }
+  {"label": "kieran.build", "url": "https://kieran.build"},
+  {"label": "Pi Index", "url": "https://piindex.dev"},
+  {"label": "PiNomad", "url": "https://pinomad.si"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个从 IDE 与编程语言工具链走出来的「AI 原生独立开发者」，相信「软件工程里一切都是权衡」。",
-  "<strong>代表作：</strong>Pi Index（Pi 编程 Agent 扩展、主题、技能与提示词模板的精选索引）、Pace（Pi 编程 Agent 的桌面 GUI）、Voily（开源 macOS 语音转文字）、SubWorth（衡量 AI 编程订阅「值多少 API 钱」的开放基准）。",
-  "<strong>为什么值得关注：</strong>TA 的离职理由很有代表性：「不是对大厂失望，而是在 AI 时代，一个人能做的东西已经远超从前。」"
+  "<strong>一句话：</strong>GitHub 横幅写着「Build useful things. Share what works. Keep compounding.」，简介是「天行健，君子以自强不息」。",
+  "<strong>代表作：</strong>Pi Index / awesome-pi（★141）、PiNomad、dureview、Pace、Voily、dsh-holdem（一名真人对五个 LLM 的德州扑克）。",
+  "<strong>关键数字：</strong>Pi Index 收录 179 个资源、26 个分类；GitHub 近一年 3,386 次贡献；博客 28 篇中英双语文章。",
+  "<strong>TA 的信条：</strong>「如果这些年教会了我一件事，那就是：在软件工程里，一切都是权衡。」"
  ],
- "lead": "Kieran 把个人网站称为「数字花园」：文章、项目笔记、摄影和工程反思。项目卡片有一个小交互：「Click a card to lift it. Click again to open the project.」（点一下卡片会抬起来，再点一下才打开。）",
+ "lead": "Pi 是一个带有 VS Code 式扩展系统的终端编程 Agent，社区里的扩展、主题和技能越来越多，却没有一个地方能找到它们。Kieran 做了 Pi Index：一个双语、可搜索、能直接复制安装命令的目录。新生态里最早的基础设施，往往就是一份好目录。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "全栈 AI 独立开发者（2026 年 6 月起全职）"],
+     ["所在地", "中国南京"],
+     ["经历", "小公司起步 → 华为（2022–2026）：IDE 与开发者工具"],
+     ["方向", "Agent、自动化、语音、开源，聚焦 AI 与开发者工具的交叉点"],
+     ["技术栈", "TypeScript、Electron + React、Swift、Rust、Go、Python、Astro"],
+     ["代表作", "Pi Index、PiNomad、Pace、dureview、Voily"],
+     ["兴趣", "分析哲学、儒家思想、摄影（尼康 Z5 II）、德州扑克、量化交易"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Kieran 的项目几乎都围绕 <strong>Pi 编程 Agent</strong> 展开：Pi Index 帮人找扩展；Pace 把 Pi 的会话、轨迹、真实的 Token 与成本搬到桌面 GUI 上；PiNomad 基于 Pi Durable，在你自己的机器上运行、每次模型和工具调用都做检查点，Mac、Web、iPhone 三端连接同一次运行；dureview 让你在 PR 里评论 /dureview，就用你自己的 ChatGPT 订阅得到 P0–P3 分级的审查意见。"},
+    {"p": "这些工具都很「实在」：真实成本、可恢复的运行、自托管。这和 TA 在大厂做开发者工具的背景一致。"},
+    {"note": "本页依据 kieran.build（About、项目、文章）、piindex.dev、pinomad.si、GitHub 主页与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "早期",
-       "title": "小公司起步",
-       "text": "职业生涯从一家小公司开始。"
-      },
-      {
-       "when": "2022–2026",
-       "title": "华为：IDE 与开发者工具",
-       "text": "加入华为，主要做 IDE 与开发者工具：为自研编程语言做语言服务、为鸿蒙做 IDE 集成与性能调优，以及把 AI 引入移动开发、测试、运维与故障排查。"
-      },
-      {
-       "when": "2026",
-       "title": "独立开发",
-       "text": "离开华为做自己的产品，聚焦 Agentic Engineering：发布 Pi Index，开发 Pace、Voily、SubWorth；写《Pi Agent 配置指南》《Weekly》系列（体验 Raft、搭建自动化内容系统、思考 Agent 团队架构），以及从编程语言视角谈 RAII 的文章。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "早期", "title": "小公司起步", "text": "职业生涯从一家小公司开始。"},
+     {"when": "2022–2026", "title": "华为：IDE 与开发者工具", "text": "为自研编程语言做语言服务、为鸿蒙做 IDE 集成与性能调优，并把 AI 引入移动开发、测试、运维与故障排查。"},
+     {"when": "2025", "title": "业余项目与写作", "text": "做了 Next.js + Tauri 2 的图片上传工具 imgtoss、基于 AutoGLM 的生活助手 AutoLife、Astro 博客 ZenBlog；写《穷查理宝典》读后感、《Why Do We Set Out》和 2025 年终回顾。"},
+     {"when": "2026 上半年", "title": "离职与 Pi 生态", "text": "写《Agentic 生产级工程实践的 4 个坑》《量化交易笔记》《Pi Agent 配置指南》；5 月发布 awesome-pi 与 Pi Index；做了 OpenAI Symphony 的 Rust 开源版 concerto；6 月起全职独立。"},
+     {"when": "2026 下半年", "title": "Pace、PiNomad、dureview", "text": "开发 Pace 和 Voily；为 DeepSeek Harness 做德州扑克插件 dsh-holdem；10 月发布 PiNomad 和 dureview；文章涉及 OKLCH、RAII、AI 短片制作、GPT Image 2.5 提示词。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Pi Index",
-       "meta": "已上线",
-       "text": "Pi 编程 Agent 的扩展、主题、技能与提示词模板精选列表，配可搜索的网站。",
-       "url": "https://piindex.dev"
-      },
-      {
-       "name": "Pace",
-       "meta": "开发中",
-       "text": "Pi 编程 Agent 的桌面 GUI：会话、轨迹、真实的 Token 与成本，以及扩展注册的面板。",
-       "url": "https://kieran.build"
-      },
-      {
-       "name": "Voily",
-       "meta": "开发中 · 开源",
-       "text": "macOS 语音转文字：把原始语音变成润色后的文字，直接出现在光标处。",
-       "url": "https://kieran.build"
-      },
-      {
-       "name": "SubWorth",
-       "meta": "开发中",
-       "text": "开放基准：AI 编程订阅实际提供了相当于多少美元的 API 用量。",
-       "url": "https://kieran.build"
-      }
+    {"work": {
+     "name": "Pi Index", "url": "https://piindex.dev",
+     "meta": ["2026", "Astro + React", "已上线"],
+     "paras": [
+      "「Make Pi your own.」Pi 编程 Agent 的社区目录：179 个资源、26 个分类，覆盖网页搜索、子 Agent、安全权限、持久记忆、上下文管理、代码审查、主题等，支持中英文搜索和一键复制安装命令。",
+      "它还有 Talks 栏目，收录 Pi 作者们的访谈并附英文转写和 AI 摘要。About 页写得很清楚：独立维护，与 Pi 官方无关，修正请提 GitHub issue。"
+     ],
+     "facts": [["收录", "179 个资源 · 26 个分类"], ["GitHub", "awesome-pi ★141"]]
+    }},
+    {"work": {
+     "name": "PiNomad", "url": "https://pinomad.si",
+     "meta": ["2026.10", "TypeScript", "自托管"],
+     "paras": [
+      "「The durable coding agent for your own machine.」Agent 在你自己的机器上运行，使用这台机器的 shell 和仓库；每次模型和工具调用后写检查点，宿主崩溃或重启也能从断点继续。设备通过一次性二维码配对，经端到端加密通道通信，可走局域网、tailnet 或只能看到密文的中继。"
+     ],
+     "facts": [["GitHub", "★34"], ["模型", "支持 Pi 支持的任意模型"]]
+    }},
+    {"work": {
+     "name": "Pace", "url": "https://github.com/bubbleptr/pace",
+     "meta": ["2026", "Electron + React", "开发中"],
+     "paras": [
+      "「Move at your own pace.」Pi 的桌面 GUI：会话、轨迹、真实的 Token 与成本，以及由扩展注册的面板，把 Pi 的可扩展性搬到屏幕上。"
      ]
-    }
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["dureview", "2026", "基于 Pi Durable 的自托管 PR 审查机器人，P0–P3 分级"],
+      ["Voily", "2026", "开源 macOS 语音转文字，润色后的文字直接出现在光标处"],
+      ["dsh-holdem", "2026", "一名真人 + 五个 LLM 智能体的六人无限注德州扑克"],
+      ["concerto", "2026", "OpenAI Symphony 的 Rust 开源版本"],
+      ["imgtoss", "2025", "Next.js + Tauri 2 的对象存储图片上传工具"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://kieran.build",
-      "paras": [
-       "导航有 Home、Blog、Photography、About，中英切换与主题切换。首页是精选文章和四张项目卡片，每张标注 building 或 shipped。",
-       "About 页写着 TA 最近在读维特根斯坦的《逻辑哲学论》和《The Book of Elon》，离开屏幕时会带着一台尼康 Z5 II 拍照，偶尔打打德州扑克。"
-      ]
-     }
-    },
-    {
-     "p": "文章话题跨度很大：GPT Image 2.5 提示词指南解读、端到端 AI 短片制作入门、OKLCH 让颜色成为「可推理的参数」、量化交易笔记。"
-    }
+    {"site": {"url": "https://kieran.build", "paras": [
+     "导航有 Home、Blog、Photography、About，支持中英切换与主题切换。首页是精选文章和项目卡片，每张标注 building 或 shipped。项目页的开头写着：「一个痴迷于美学的实用主义者。」",
+     "博客页的题词很有意思：「算法，我想，是这个时代的新迷信。人们在二进制的神殿前顶礼膜拜，却忘了它最初只是为了数清几斤白菜。」About 页写着 TA 最近在读维特根斯坦的《逻辑哲学论》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro + Tailwind，Cloudflare；源码即 ZenBlog"],
+      ["语言", "中英双语，每篇都有两个版本"],
+      ["内容", "Agent 工程、设计（OKLCH）、编程语言、AI 创作、投资、读书"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与思考",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "quote": "If the years taught me one thing, it is this: in software engineering, everything is a trade-off.",
-     "cite": "Kieran Zhang，About"
-    },
-    {
-     "p": "TA 喜欢「用分析哲学的方式拆解问题」，又越来越倾向儒家思想中务实、入世的一面。这种组合让 TA 的工具都很「实在」：Token 真实成本、订阅真实价值、语音真实落到光标处。"
-    }
+    {"posts": [
+     {"date": "2026-09-21", "title": "OpenAI 官方 GPT Image 2.5 提示词指南深度拆解", "url": "https://kieran.build/blog"},
+     {"date": "2026-09-11", "title": "AI 短片制作全流程小白入门教程", "url": "https://kieran.build/blog"},
+     {"date": "2026-08-16", "title": "When RAII Leaves Scope: A Programming Language Perspective on DSH Cordis", "url": "https://kieran.build/blog"},
+     {"date": "2026-08-01", "title": "OKLCH: Turning Color into a Reasoned Parameter", "url": "https://kieran.build/blog"},
+     {"date": "2026-06-21", "title": "周报 #1 独立产品开发和 Agent Team 的思考", "url": "https://kieran.build/blog"},
+     {"date": "2026-04-13", "title": "Agentic 生产级工程实践的 4 个坑", "url": "https://kieran.build/blog"}
+    ]},
+    {"quote": "If the years taught me one thing, it is this: in software engineering, everything is a trade-off.", "cite": "Kieran Zhang，kieran.build About"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["背景", "大厂 IDE 与工具链经验，懂开发者", "—"],
+      ["产品", "选题紧贴 Agent 生态的真实缺口", "多数项目刚起步，用户规模尚小"],
+      ["生态", "Pi Index 是社区入口", "高度依赖 Pi 生态的发展"],
+      ["写作", "中英双语，话题广", "部分文章偏教程与解读"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>把大厂经验带出来：</strong>IDE 与工具链背景让 TA 天然懂开发者。",
-      "<strong>做生态的索引：</strong>Pi Index 这样的「目录」是新生态最早的基础设施。",
-      "<strong>用数据回答争论：</strong>SubWorth 把「哪个订阅更值」变成可测量的问题。",
-      "<strong>写作即思考：</strong>周报和长文帮助 TA 理清方向。"
-     ]
-    }
+    {"checklist": [
+     "<strong>把大厂经验带出来：</strong>开发者工具背景让你天然懂开发者。",
+     "<strong>做新生态的目录：</strong>索引是生态最早的基础设施。",
+     "<strong>让 Agent 可恢复：</strong>检查点和自托管，比更聪明的模型更能解决实际问题。",
+     "<strong>说清楚边界：</strong>非官方就写明非官方。",
+     "<strong>写作即思考：</strong>周报和长文帮助理清方向。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Pi Index", "url": "https://piindex.dev", "why": "如果你在用 Pi，从这里找扩展。"},
+     {"name": "PiNomad", "url": "https://pinomad.si", "why": "在桌前开始任务，在手机上继续。"},
+     {"name": "kieran.build", "url": "https://kieran.build", "why": "读一篇 OKLCH 或 RAII 的文章。"}
+    ]}
    ]
   }
  ],
- "cta": "去 Pi Index 看看 Pi 编程 Agent 的生态。",
+ "cta": "打开 Pi Index，挑一个扩展装进你的 Agent。",
  "sources": [
-  {
-   "label": "Kieran Zhang 的 X 个人资料",
-   "url": "https://x.com/ninthbit_ai"
-  },
-  {
-   "label": "kieran.build",
-   "url": "https://kieran.build"
-  },
-  {
-   "label": "kieran.build：About",
-   "url": "https://kieran.build/about"
-  },
-  {
-   "label": "Pi Index",
-   "url": "https://piindex.dev"
-  }
+  {"label": "Kieran Zhang 的 X 个人资料", "url": "https://x.com/ninthbit_ai"},
+  {"label": "kieran.build", "url": "https://kieran.build"},
+  {"label": "kieran.build：About", "url": "https://kieran.build/about"},
+  {"label": "Pi Index", "url": "https://piindex.dev"},
+  {"label": "PiNomad", "url": "https://pinomad.si"},
+  {"label": "GitHub：bubbleptr", "url": "https://github.com/bubbleptr"}
  ]
 }

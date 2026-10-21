@@ -1,59 +1,174 @@
 {
  "name": "Peter Steinberger",
  "role": "OpenClaw 作者 · PSPDFKit 创始人 · OpenAI",
- "title": "Peter Steinberger：从<em>退休</em>回来，养了一只龙虾",
- "dek": "这位奥地利开发者把 PDF SDK 公司 PSPDFKit 自举成九位数的退出，然后倦怠、退休。2025 年 AI 变得足够好，又把他拉了回来：他用 Agent 疯狂写代码，做出了成为 GitHub 星数最多软件项目的个人 AI Agent OpenClaw，并在 2026 年 2 月加入 OpenAI。",
- "card": "PSPDFKit 创始人，OpenClaw 作者（GitHub 星数最多的软件项目），2026 年加入 OpenAI。",
+ "title": "Peter Steinberger：从退休回来，<em>养了一只龙虾</em>",
+ "dek": "这位奥地利开发者把 PDF SDK 公司 PSPDFKit 自举成九位数的退出，然后倦怠、退休。2025 年 AI 变得足够好，又把他拉了回来：他用 Agent 以「推理速度」写代码，做出了成为 GitHub 星数最多软件项目的个人 AI Agent OpenClaw，并在 2026 年 2 月加入 OpenAI。",
+ "card": "OpenClaw、CodexBar、PSPDFKit 作者；X 60 万关注，2026 年加入 OpenAI 做 Agent。",
  "location": "美国旧金山（奥地利人）",
- "tags": ["AI Agent", "iOS", "开源", "创业", "Agentic Engineering"],
- "links": [{"label": "steipete.me", "url": "https://steipete.me"}, {"label": "GitHub", "url": "https://github.com/steipete"}, {"label": "CodexBar", "url": "https://github.com/steipete/CodexBar"}],
+ "updated": "2026-10-21",
+ "tags": ["AI Agent", "Agentic Engineering", "开源", "Swift", "创业"],
+ "links": [
+  {"label": "steipete.me", "url": "https://steipete.me"},
+  {"label": "OpenClaw", "url": "https://openclaw.ai"},
+  {"label": "GitHub", "url": "https://github.com/steipete"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>「Came back from retirement to mess with AI and help a lobster take over the world.」iOS 时代的传奇工程师，Agent 时代的新偶像。",
-  "<strong>代表作：</strong>PSPDFKit（现 Nutrient）；OpenClaw（开源个人 AI Agent，现由独立基金会托管）；CodexBar（★2.3 万，菜单栏显示 Codex 和 Claude Code 用量）、summarize、oracle、agent-rules、RepoBar；早年的 Aspects、PSTCollectionView、PSStackedView。",
-  "<strong>为什么值得关注：</strong>他公开分享自己的 Agentic Engineering 方法，比如《Just Talk To It》《Shipping at Inference-Speed》，影响了无数开发者使用 AI 的方式。"
+  "<strong>一句话：</strong>X 简介「Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.」",
+  "<strong>代表作：</strong>OpenClaw（★39 万）、CodexBar（★2.3 万）、Aspects（★8.4 千）、agent-scripts、summarize、agent-rules、oracle、Peekaboo、mcporter、RepoBar；更早的 PSPDFKit（现 Nutrient）。",
+  "<strong>关键数字：</strong>X 关注者约 60.8 万；GitHub 粉丝 5.3 万、226 个公开仓库，<strong>近一年 43.3 万次贡献</strong>；2025 年一年写了 37 篇博客。",
+  "<strong>下一个目标：</strong>「做一个连我妈妈都会用的 Agent。」"
  ],
- "lead": "Peter 的 About 页第一句话是：「I made OpenClaw — the open-source personal AI agent that became GitHub's most-starred software project.」最后一句是：「The claw is the law. 🦞」中间是一段浓缩的人生：自举公司到九位数退出、倦怠、退休，然后 AI 变好了，把他拉了回来。",
+ "lead": "2026 年 2 月，Peter 写道：「过去一个月像一场旋风，我从没想到自己的游乐场项目会掀起这么大的浪。」很多人问他要不要把 OpenClaw 做成一家大公司。他的回答是：「我当然能看到它成为一家巨大的公司。但这对我来说并不令人兴奋。我已经玩过创办公司的游戏，为它付出了 13 年。」",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "2009–2012", "title": "iOS 开源", "text": "在维也纳活跃于 iOS 社区：PSStackedView（「做对了」的 Twitter iPad 堆叠界面）、PSTCollectionView（兼容 iOS 4.3 的 UICollectionView 替代品）。"},
-    {"when": "2011", "title": "PSPDFKit", "text": "从一个 PDF 阅读组件起步，创立 PSPDFKit，成为被众多大公司使用的跨平台 PDF SDK。2014 年开源的 Aspects（Objective-C 面向切面编程）至今仍有 8.4k 星。"},
-    {"when": "2021 前后", "title": "退出与倦怠", "text": "把完全自举的 PSPDFKit 做到九位数级别的退出（公司后来更名为 Nutrient），随后经历倦怠并「退休」。"},
-    {"when": "2025", "title": "被 AI 拉回来", "text": "AI 编程工具变得足够好后重新开始写代码，一年内发布大量工具：CodexBar、summarize、oracle（卡住时召唤 GPT-5 Pro）、agent-rules、agent-scripts、RepoBar。写下《Just Talk To It——不炒作的 Agentic Engineering》《Shipping at Inference-Speed》，并发起「Claude Code Anonymous」线下聚会。"},
-    {"when": "2025–2026", "title": "OpenClaw 🦞", "text": "做出开源个人 AI Agent（最初名为 Clawdbot），以龙虾为吉祥物，迅速成为 GitHub 星数最多的软件项目，并移交给独立的 OpenClaw 基金会。"},
-    {"when": "2026-02", "title": "加入 OpenAI", "text": "加入 OpenAI，致力于「把 Agent 带给每一个人」。下一个目标：「一个连我妈妈都会用的 Agent」。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "OpenClaw", "meta": "2025–2026 · 开源 Agent", "text": "开源的个人 AI Agent，GitHub 星数最多的软件项目，现由 OpenClaw 基金会维护。", "url": "https://steipete.me/about"},
-    {"name": "CodexBar", "meta": "2025 · Swift · ★2.3 万", "text": "不用登录，在菜单栏查看 OpenAI Codex 和 Claude Code 的用量。", "url": "https://github.com/steipete/CodexBar"},
-    {"name": "summarize", "meta": "2025 · TypeScript", "text": "指向任意 URL、YouTube、播客或文件，得到要点。CLI + Chrome 扩展。", "url": "https://github.com/steipete/summarize"},
-    {"name": "PSPDFKit / Nutrient", "meta": "2011 · 创始人", "text": "被大量企业使用的跨平台 PDF SDK，自举至九位数退出。", "url": "https://www.nutrient.io"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://steipete.me", "paras": ["首页副标题：「AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.」下面是带阅读时长的文章列表。", "一个小彩蛋：把 steipete.me 改成 steipete.md，就能得到整站的 Markdown 版本，专门给 AI 读。文章以 CC BY 4.0、代码以 MIT 授权，标注「Steal this post ➜」。"]}}
-  ]},
-  {"id": "craft", "title": "方法与思考", "blocks": [
-   {"p": "Peter 的 Agentic Engineering 方法可以概括为<strong>「直接跟它说话」</strong>：少一些复杂的框架和仪式，多一些清晰的上下文、规则文件和可复用脚本。他把自己的 agent-rules 和 agent-scripts 全部开源。"},
-   {"quote": "Why I stopped reading code and started watching it stream by.", "cite": "Peter Steinberger《Shipping at Inference-Speed》"},
-   {"note": "他也很坦诚地谈论倦怠：做到九位数退出之后，他并没有立刻找到下一个方向。是 AI 带来的创造乐趣，让他重新找回了「火花」（见他的文章《Finding My Spark》）。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>自举也能做大：</strong>不融资，同样可以做到九位数。",
-    "<strong>为 AI 写网站：</strong>.md 版本、开放授权，让知识被 Agent 读取。",
-    "<strong>把工作流开源：</strong>规则、脚本、工具，都可以帮到别人。",
-    "<strong>倦怠之后还能重来：</strong>找到让你兴奋的东西，再出发。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开发者、创业者、Agentic Engineering 布道者"],
+     ["现任", "OpenAI（2026 年 2 月起），负责「把 Agent 带给每个人」"],
+     ["开源", "OpenClaw 发起人，现由独立的 OpenClaw 基金会维护"],
+     ["此前", "PSPDFKit 创始人（2011 起，13 年），自举至九位数退出，后更名 Nutrient"],
+     ["所在地", "美国旧金山（来自奥地利维也纳，也常在伦敦）"],
+     ["技术栈", "Swift、Objective-C、TypeScript、Go；Codex、Claude Code"],
+     ["社区", "CocoaHeads Austria；发起「Claude Code Anonymous」线下聚会"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Peter 现在做两件事：在 OpenAI 做面向大众的 Agent，同时守护 OpenClaw 的开放与独立。OpenClaw 是一个开源的个人 AI Agent，口号是「The AI that really does things. Any OS. Any Platform. The lobster way. 🦞」。它 2025 年 11 月才建仓，到 2026 年 10 月已有约 39 万颗星。"},
+    {"p": "在此之前，他用 Agent 以惊人的速度发布了一大批开发者工具：菜单栏查看 Codex / Claude Code 用量的 CodexBar、让 Agent 截屏和点击的 Peekaboo、把 MCP 当 TypeScript API 调用的 mcporter、卡住时召唤 GPT-5 Pro 的 oracle，以及他开源的整套 agent-rules 和 agent-scripts。"},
+    {"note": "本页依据 steipete.me（About 与文章）、GitHub 仓库与 README、OpenClaw 仓库数据和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2009–2012", "title": "维也纳的 iOS 开源", "text": "PSStackedView（「做对了」的 Twitter iPad 堆叠界面，★1.9 千）、PSTCollectionView（100% API 兼容、支持 iOS 4.3 的 UICollectionView 替代品，★2.5 千）、AFDownloadRequestOperation。"},
+     {"when": "2011", "title": "PSPDFKit", "text": "从一个 PDF 阅读组件起步，做成被大量企业使用的跨平台 PDF SDK。2014 年开源 Aspects（Objective-C 面向切面编程），至今约 8.4 千星。"},
+     {"when": "约 2021", "title": "退出、倦怠、退休", "text": "把完全自举的 PSPDFKit 做到九位数退出（后更名 Nutrient），随后倦怠、退休。"},
+     {"when": "2025", "title": "被 AI 拉回来", "text": "AI 编程变得足够好后重新写代码：VibeTunnel、Peekaboo、Poltergeist、claude-code-mcp、macOS Automator MCP；写《Just Talk To It》《My Current AI Dev Workflow》，发起 Claude Code Anonymous 聚会。年底的 CodexBar、summarize、oracle、RepoBar 都迅速走红。"},
+     {"when": "2025.11", "title": "OpenClaw 🦞", "text": "开源个人 AI Agent（最初名为 Clawdbot），以龙虾为吉祥物，很快成为 GitHub 星数最多的软件项目。"},
+     {"when": "2026.02", "title": "加入 OpenAI", "text": "在旧金山与各大实验室交流一周后，选择加入 OpenAI；OpenClaw 移交基金会，OpenAI 承诺支持他投入时间并赞助项目。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "OpenClaw", "url": "https://github.com/openclaw/openclaw",
+     "meta": ["2025.11", "开源个人 AI Agent", "OpenClaw 基金会"],
+     "paras": [
+      "「The AI that really does things.」一个真正替你动手做事的个人 Agent，跨操作系统、跨平台。Peter 说它的目标是成为「思考者、黑客以及想拥有自己数据的人」的地方。",
+      "他坚持让它保持开源和独立：成立基金会，自己在 OpenAI 工作的同时继续守护项目。"
+     ],
+     "facts": [["GitHub", "★392,676 · ⑂82,541"], ["官网", "openclaw.ai"]]
+    }},
+    {"work": {
+     "name": "CodexBar", "url": "https://github.com/steipete/CodexBar",
+     "meta": ["2025.11", "Swift", "macOS 菜单栏"],
+     "paras": [
+      "「Show usage stats for OpenAI Codex and Claude Code, without having to login.」不用登录网页，就能在菜单栏看到两大编程 Agent 的用量。一个解决重度 Agent 用户日常焦虑的小工具，两万多颗星。"
+     ],
+     "facts": [["GitHub", "★22,713"], ["官网", "codex.bar"]]
+    }},
+    {"work": {
+     "name": "PSPDFKit（现 Nutrient）", "url": "https://www.nutrient.io",
+     "meta": ["2011", "PDF SDK", "13 年"],
+     "paras": [
+      "从一个 iOS PDF 组件起步，扩展为覆盖 iOS、Android、Web、桌面和服务器的 PDF SDK。没有融资，完全自举，最终实现九位数退出。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["agent-scripts", "2025", "在他所有仓库间共享的 Agent 脚本（★7.4 千）"],
+      ["summarize", "2025", "指向任意 URL、YouTube、播客或文件，得到要点（★6.7 千）"],
+      ["agent-rules", "2025", "让 Claude Code、Cursor 更好工作的规则与知识（★5.7 千）"],
+      ["Peekaboo", "2025", "让 AI Agent 截屏、看屏幕、点击的 macOS CLI / MCP（★5.4 千）"],
+      ["mcporter", "2025", "把 MCP 工具当 TypeScript API 或 CLI 调用（★5.1 千）"],
+      ["oracle", "2025", "卡住时带上下文召唤 GPT-5 Pro（★4.1 千）"],
+      ["Trimmy", "2025", "「Paste once, run once.」把多行 shell 片段压成一行"],
+      ["Aspects", "2014", "Objective-C / Swift 面向切面编程（★8.4 千，已归档）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://steipete.me", "paras": [
+     "首页副标题：「AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.」下面是带阅读时长的文章列表，每篇都有「Edit on GitHub」。",
+     "一个小彩蛋：把 steipete.me 改成 steipete.md，就能得到整站的 Markdown 版本，专门给 AI 读。文章以 CC BY 4.0、代码以 MIT 授权，标注「Steal this post ➜」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Vercel"],
+      ["节奏", "2025 年 37 篇，2026 年起明显变少"],
+      ["开放", "Markdown 版本、开放授权、可在 GitHub 上编辑"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-02-14", "title": "OpenClaw, OpenAI and the future", "url": "https://steipete.me/posts/2026/openclaw/"},
+     {"date": "2025-12-28", "title": "Shipping at Inference-Speed", "url": "https://steipete.me/posts/2025/shipping-at-inference-speed/", "note": "「我现在不怎么读代码了，我看着它流过去。」CLI 优先，TypeScript 做 Web、Go 做 CLI、Swift 做 Mac。"},
+     {"date": "2025-12-17", "title": "The Signature Flicker", "url": "https://steipete.me/posts/2025/signature-flicker/"},
+     {"date": "2025-10-14", "title": "Just Talk To It - the no-bs Way of Agentic Engineering", "url": "https://steipete.me/posts/just-talk-to-it/"}
+    ]},
+    {"quote": "The amount of software I can create is now mostly limited by inference time and hard thinking.", "cite": "Peter Steinberger，《Shipping at Inference-Speed》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产出", "以推理速度发布工具，影响力巨大", "工具更新快，部分很快归档"],
+      ["创业", "自举至九位数退出", "—"],
+      ["方法", "把工作流全部开源，可复制", "「不读代码」的做法对大多数团队需要谨慎采用"],
+      ["开源治理", "坚持开放，成立基金会", "OpenClaw 作为个人 Agent，使用时需注意权限与安全"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>自举也能做大：</strong>不融资，同样可以做到九位数。",
+     "<strong>倦怠之后还能重来：</strong>找到让你兴奋的东西，再出发。",
+     "<strong>CLI 优先：</strong>Agent 能直接调用、验证输出，闭环最快。",
+     "<strong>为 AI 写网站：</strong>.md 版本、开放授权，让知识被 Agent 读取。",
+     "<strong>选择改变世界而不是做大公司：</strong>他把这当作 OpenClaw 之后的方向。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Just Talk To It", "url": "https://steipete.me/posts/just-talk-to-it/", "why": "一份不炒作的 Agentic Engineering 实践指南。"},
+     {"name": "CodexBar", "url": "https://github.com/steipete/CodexBar", "why": "如果你同时用 Codex 和 Claude Code。"},
+     {"name": "OpenClaw", "url": "https://github.com/openclaw/openclaw", "why": "看看 GitHub 星数最多的软件项目长什么样。"}
+    ]}
+   ]
+  }
  ],
- "cta": "读一读《Just Talk To It》，然后装一个 CodexBar。",
+ "cta": "读《Shipping at Inference-Speed》，然后试试让 Agent 先写一个 CLI。",
  "sources": [
   {"label": "Peter Steinberger 的 X 个人资料", "url": "https://x.com/steipete"},
   {"label": "steipete.me", "url": "https://steipete.me"},
   {"label": "steipete.me：About", "url": "https://steipete.me/about"},
-  {"label": "GitHub：steipete", "url": "https://github.com/steipete"}
+  {"label": "OpenClaw, OpenAI and the future", "url": "https://steipete.me/posts/2026/openclaw/"},
+  {"label": "GitHub：steipete", "url": "https://github.com/steipete"},
+  {"label": "GitHub：openclaw/openclaw", "url": "https://github.com/openclaw/openclaw"}
  ]
 }
