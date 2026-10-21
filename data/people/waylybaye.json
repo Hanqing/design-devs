@@ -1,62 +1,198 @@
 {
- "name": "Baye（邹振鲁）",
+ "name": "Baye",
  "role": "独立开发者 · 以卖 App 为生",
- "title": "Baye：一边<em>全球旅居</em>，一边卖 App 的程序员",
- "dek": "熊猫吃短信用手机端机器学习拦截「澳门赌场」，HyperApp / ServerCat 让你在手机上管服务器，OpenCat 是最早一批原生 ChatGPT 客户端。Baye 是中文独立开发圈最有代表性的「产品型程序员」之一。",
- "card": "熊猫吃短信、ServerCat、OpenCat 作者，边全球旅居边做产品的独立开发者。",
+ "title": "Baye：一边全球旅居，一边<em>卖 App</em> 的程序员",
+ "dek": "熊猫吃短信用手机端机器学习拦截「澳门赌场」，ServerCat 让你在手机上管服务器，OpenCat 是最早一批原生 ChatGPT 客户端，DAMA 自动给截图打码。他以 Early Moon, LLC 的名义维护着六七款 App，评分加起来超过两千七百个，人则在世界各地旅居。",
+ "card": "熊猫吃短信、ServerCat、OpenCat、DAMA 的作者；X 上 16 万关注，「一个自由的程序员，以卖 App 为生」。",
  "location": "全球旅居",
- "tags": ["iOS", "macOS", "CoreML", "独立开发", "SwiftUI"],
- "links": [{"label": "OpenCat", "url": "https://opencat.app"}, {"label": "ServerCat", "url": "https://servercat.app"}, {"label": "GitHub", "url": "https://github.com/waylybaye"}],
+ "updated": "2026-10-21",
+ "tags": ["iOS / macOS", "端侧机器学习", "独立开发", "开发者工具", "AI 客户端"],
+ "links": [
+  {"label": "OpenCat", "url": "https://opencat.app"},
+  {"label": "ServerCat", "url": "https://servercat.app"},
+  {"label": "GitHub", "url": "https://github.com/waylybaye"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>89 年的程序员，不习惯坐班，远程工作多年后转为全职独立开发，如今「以卖 App 为生，边全球旅居边创作产品」。",
-  "<strong>代表作：</strong>熊猫吃短信（国内最早用 CoreML 本地拦截垃圾短信的 App 之一）、HyperApp → ServerCat（服务器状态、Docker 管理与 SSH 客户端）、OpenCat（原生 AI 聊天客户端）、XcodeCleaner、DAMA、Miley。",
-  "<strong>为什么值得关注：</strong>他的产品哲学非常直接：跳过冗长调研，先迅速做出最小可用产品，交给潜在用户试，用反馈判断方向。"
+  "<strong>一句话：</strong>中文独立开发圈最有代表性的「产品型程序员」之一。X 简介写：「一个自由的程序员，以卖 App 为生。边全球旅居边创作产品。」GitHub 上则自嘲「Poor Indie developer」。",
+  "<strong>代表作：</strong>熊猫吃短信（1 代 4.79 分、2 代 4.62 分）、ServerCat（1,004 个评分，4.6 分）、OpenCat（847 个评分，4.64 分）、DAMA（自动打码，4.67 分）、Cleaner for Xcode、Miley AI。",
+  "<strong>关键数字：</strong>X 关注者约 16.4 万；GitHub 近一年贡献 10,525 次；熊猫吃短信 1 代售价 12.99 美元。",
+  "<strong>看点：</strong>他的 App 都用「年.月.序号」的日历版本号（比如 26.10.2），一眼就能看出最近一次更新是什么时候，几乎每个月都在发版。"
  ],
- "lead": "爱范儿给他的专访起了一个标题：《那个与「澳门赌场」抗争的男人》。那时 iOS 11 刚开放垃圾短信过滤接口，Baye 自己也深受骚扰，又觉得市面上的 App 都不够好，于是花了两周手动标注样本，验证了「在手机上用 CoreML 本地分类短信」是可行的。《熊猫吃短信》就这样诞生了。",
+ "lead": "爱范儿的专访标题是《那个与「澳门赌场」抗争的男人》。被垃圾短信骚扰的 Baye 没有去写更多关键词规则，而是先花两周时间手动标注样本，证明本地机器学习可行，再做出了一个不请求网络权限、完全离线的短信过滤 App。这个「先验证、再动手」的习惯，贯穿了他之后所有的产品。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "毕业后", "title": "从坐班到远程", "text": "真名邹振鲁，80 后（89 年）。毕业后一直从事开发工作，最早在公司上班但不习惯，之后大部分时间远程工作。早年的开源作品包括 django-upyun（又拍云存储）。"},
-    {"when": "2017", "title": "HyperApp 与 XcodeCleaner", "text": "HyperApp 能在服务器上自动安装软件、部署网站，管理和监控服务器、智能路由器、群晖 NAS，少数派专文推荐；XcodeCleaner 用 react-native-macos 写成，帮你清理 Xcode 的海量缓存（后来用 SwiftUI 重写）。"},
-    {"when": "2017–2018", "title": "全职独立开发：熊猫吃短信", "text": "使用机器学习在本地拦截垃圾短信，无需服务器、不上传隐私。App 内置样本提交通道，用户一起帮「熊猫」进化，后来还被「12321 网络不良与垃圾信息举报受理中心」邀请去交流。"},
-    {"when": "2019–2021", "title": "ServerCat 与 Swapman", "text": "HyperApp 演化为 ServerCat：服务器状态、Docker 管理与 SSH 客户端，覆盖 iOS 与 macOS；Swapman 则用于监控 macOS Big Sur 的 swap 文件。"},
-    {"when": "2023", "title": "OpenCat", "text": "ChatGPT API 开放后迅速推出原生 AI 聊天客户端 OpenCat，支持多种模型与机器人，是 Apple 平台上最早的一批原生 AI 客户端。"},
-    {"when": "现在", "title": "全球旅居", "text": "作品列表增加了 DAMA、Miley，人则在世界各地旅居，用 App 收入维持一种自由的生活方式。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "熊猫吃短信", "meta": "iOS · CoreML", "text": "本地机器学习拦截垃圾短信，持续学习新套路，保持高准确率。", "url": "https://www.ifanr.com/app/1249422"},
-    {"name": "ServerCat", "meta": "iOS / macOS", "text": "服务器状态、Docker 管理和 SSH 客户端，前身是 HyperApp。", "url": "https://servercat.app"},
-    {"name": "OpenCat", "meta": "2023 · macOS / iOS", "text": "原生 AI 聊天客户端：和各种 AI 机器人顺畅对话。", "url": "https://opencat.app"},
-    {"name": "XcodeCleaner", "meta": "2017 · 开源 · ★1.5k", "text": "「Make Xcode Clean Again」，清理 Xcode 占用的磁盘空间。", "url": "https://github.com/waylybaye/XcodeCleaner-SwiftUI"}
-   ]}
-  ]},
-  {"id": "site", "title": "线上形象", "blocks": [
-   {"site": {"url": "https://github.com/waylybaye", "paras": ["Baye 没有维护个人博客，他的 X 是主要阵地，十六万关注者。简介里一句「一个自由的程序员，以卖 App 为生」概括了全部。", "GitHub 简介则自嘲为「Poor Indie developer, full stack programmer」。"]}},
-   {"p": "他的产品官网都很简洁：ServerCat 的首页只有一句「Server Status, Docker Management and SSH client for iOS/macOS」、一个下载按钮和截图。OpenCat 则用宣传语「Start a smooth chat with your AI」直奔主题。"}
-  ]},
-  {"id": "craft", "title": "设计与方法", "blocks": [
-   {"quote": "我一般会跳过这个过程，自己先迅速做一个最小可用产品出来，然后直接让潜在用户试用，根据反馈和自己的思考来判断方向到底对不对。", "cite": "Baye 接受爱范儿 AppSo 专访"},
-   {"p": "他很早就意识到独立开发者的优势：<strong>可以直接和用户建立联系</strong>，快速响应需求。熊猫吃短信承诺「不低于一个月一个版本」，用户则热心地帮他扩充样本库。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>做自己痛的问题：</strong>被垃圾短信骚扰，就去拦截它。",
-    "<strong>先验证技术可行性：</strong>两周手动标注，证明本地 ML 能用。",
-    "<strong>抓住平台新接口：</strong>iOS 11 的短信过滤、ChatGPT API，每个窗口期都是机会。",
-    "<strong>产品养活生活方式：</strong>独立开发不只是职业，也可以是全球旅居的自由。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者；App Store 开发者主体为 Early Moon, LLC"],
+     ["本名", "邹振鲁（据爱范儿专访）"],
+     ["所在地", "全球旅居"],
+     ["代表作", "熊猫吃短信 1 / 2、ServerCat（前身 HyperApp）、OpenCat、DAMA、Cleaner for Xcode、Swapman、Miley AI"],
+     ["技术栈", "Swift / SwiftUI、Core ML、Python（早年 Django）、react-native-macos、Docker / SSH"],
+     ["关键数字", "X 关注者约 16.4 万；主要 App 在美区 App Store 的评分合计超过 2,700 个"],
+     ["版本号", "日历版本：年.月.序号（如 26.10.2）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Baye 的产品可以分成三条线。<strong>隐私与安全</strong>：熊猫吃短信在手机端用 Core ML 离线拦截垃圾短信，DAMA 在手机端自动给截图里的人脸、证件号、电话、二维码打码。<strong>开发者工具</strong>：ServerCat 在手机上看服务器状态、管 Docker、开 SSH；Cleaner for Xcode 清理 Xcode 的海量缓存。<strong>AI</strong>：OpenCat 是 ChatGPT API 开放两天后就上架的原生 AI 客户端，如今已支持本地模型、Apple Intelligence 和 MCP。"},
+    {"p": "这三条线有一个共同点：<strong>能在本地做的，绝不上传</strong>。熊猫吃短信甚至「都不会请求网络权限，直到您第一次主动向我们举报垃圾短信」；DAMA「即使在飞行模式下」也能完成全部检测。"},
+    {"note": "本页依据爱范儿专访、少数派与 V2EX 发布帖、GitHub、各产品官网与 App Store 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2009–2013", "title": "Python 与 Django", "text": "X 账号 2009 年注册，GitHub 2011 年注册。早年开源作品包括又拍云的 Django 存储后端 django-upyun 和一套 Django 部署脚本。据专访，他最早在公司上班但不习惯，之后大部分时间远程工作。"},
+     {"when": "2017.03", "title": "HyperApp", "text": "基于 SSH 和 Docker 的自动化部署工具：几十个常见应用做成商店，点一下就出可视化配置界面，一键装到你的服务器上，还集成了 Let's Encrypt 证书。少数派专文推荐，用户手册在 GitHub 上有 1.5 千星。"},
+     {"when": "2017.10", "title": "XcodeCleaner", "text": "用 react-native-macos 写成的 Xcode 清理工具（★1.5 千），2019 年用 SwiftUI 重写为 Cleaner for Xcode。"},
+     {"when": "2017.12", "title": "熊猫吃短信", "text": "利用 iOS 11 新开放的短信过滤接口，用 Core ML 在本地拦截垃圾短信。用户主动举报垃圾短信来扩充样本库，后来他还被「12321 网络不良与垃圾信息举报受理中心」邀请去交流。获少数派和最美应用的年度应用。"},
+     {"when": "2020", "title": "ServerCat 与 DAMA", "text": "4 月，HyperApp 演化为 ServerCat：服务器状态、Docker 管理与 SSH 客户端；10 月发布自动打码工具 DAMA。2021 年又开源了监控 M1 Mac swap 用量的 Swapman。"},
+     {"when": "2022.09", "title": "熊猫吃短信 2", "text": "新的机器学习模型架构，适配 iOS 16 的短信分类：在正常和垃圾之外，还能识别财务、订单、运营商、天气等更细的类别。"},
+     {"when": "2023.03", "title": "OpenCat", "text": "ChatGPT API 3 月 1 日开放，OpenCat 3 月 3 日就上架了，是 Apple 平台上最早的一批原生 AI 客户端。"},
+     {"when": "2024–2026", "title": "Miley 与持续迭代", "text": "2024 年发布语音输入的 AI 生活助手 Miley；2026 年 OpenCat 加入 Agent 与 MCP 支持，几款主力 App 都保持每月更新。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "熊猫吃短信", "url": "https://apps.apple.com/us/app/%E7%86%8A%E7%8C%AB%E5%90%83%E7%9F%AD%E4%BF%A12-%E5%9E%83%E5%9C%BE%E7%9F%AD%E4%BF%A1%E6%8B%A6%E6%88%AA/id1642682818",
+     "meta": ["2017 / 2022", "iOS · Core ML", "完全离线"],
+     "paras": [
+      "「使用 Core ML 机器学习框架在设备端离线过滤垃圾短信，能准确地通过语义识别垃圾短信，不需要手动配置任何过滤规则，开箱即用。」它的模型是用基于统计学的机器学习算法，从几十万（2 代说是百万）条用户举报的短信样本中学习而成，Baye 称之为「集体智慧」。",
+      "隐私承诺写得非常具体：不上传用户短信，拒绝云端识别；1 代甚至不请求网络权限，直到你第一次主动举报。V2EX 发布时他承诺「不低于一个月一个版本」，如今 2 代仍在按月更新。"
+     ],
+     "facts": [["1 代", "2017-12 · $12.99 · 4.79（486）"], ["2 代", "2022-09 · 免费 · 4.62（252）"], ["荣誉", "少数派年度应用、最美应用年度应用"]]
+    }},
+    {"work": {
+     "name": "ServerCat", "url": "https://servercat.app",
+     "meta": ["2020", "iOS · macOS", "SSH + Docker"],
+     "paras": [
+      "「Server Status, Docker Management and SSH client for iOS/macOS.」只需要一个 SSH 账号、不装任何依赖，就能在手机上看到 Linux 服务器和 Docker 容器的详细运行状态，并直接开终端操作。它是 Baye 评分最多的作品。官网极简：一句话、一个下载按钮、几张截图。"
+     ],
+     "facts": [["首发", "2020-04-27"], ["评分", "4.6（1,004）"], ["前身", "HyperApp（2017）"]]
+    }},
+    {"work": {
+     "name": "OpenCat", "url": "https://opencat.app",
+     "meta": ["2023.03", "macOS · iOS · iPadOS", "AI 客户端"],
+     "paras": [
+      "「与您的 AI 开始流畅的聊天。」从最初的 ChatGPT 客户端，长成了一个 AI 平台：语音聊天、文生图、图片对话、翻译、全局键盘扩展（在消息、备忘录、邮件里直接用 AI）、Siri 快捷指令、团队版共享提示词、多模型并存。2026 年的版本支持本地模型、自带 API Key、云订阅和 Apple Intelligence，并加入 MCP 与工具调用。",
+      "定价也很有代表性：免费版够入门；Pro 一次性买断 68 元，解锁键盘扩展、iCloud 同步、Siri 等；云端 AI 订阅 18 元 / 月或 128 元 / 年，给不想折腾密钥的人。"
+     ],
+     "facts": [["首发", "2023-03-03"], ["评分", "4.64（847）"], ["官网", "Astro · Cloudflare"]]
+    }},
+    {"work": {
+     "name": "DAMA", "url": "https://apps.apple.com/us/app/dama-auto-redact-privacy/id1534690075",
+     "meta": ["2020", "iOS", "自动打码"],
+     "paras": [
+      "「DAMA hides the private information in your screenshots and photos — automatically, and without ever uploading them.」对着一张截图，它会自动找出人脸、身份证号、电话、邮箱、二维码和聊天头像并打码，全部检测在 iPhone 本地完成，飞行模式下也能用。名字就是「打码」的拼音。"
+     ],
+     "facts": [["首发", "2020-10-13"], ["评分", "4.67（175）"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Cleaner for Xcode", "2017 / 2019", "清理 Xcode 遗留与废弃文件；先用 react-native-macos，后用 SwiftUI 重写，均开源"],
+      ["Swapman", "2021", "监控 M1 Mac 的 swap 读写，找出是哪个进程在用 swap"],
+      ["Miley AI", "2024", "用语音记录日记、待办、健康、心情和账本的 AI 助手"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub 简介：「Poor Indie developer, full stack programer, creator of 熊猫吃短信、ServerCat。」他的开源多是产品的「周边」：用户手册、清理工具、监控小工具，以及 OpenCat 官网本身。语言分布以 Python 和 Shell 为主，这是 HyperApp 时代大量部署脚本留下的痕迹。"},
+    {"table": {
+     "cols": ["仓库", "★", "年份", "说明"],
+     "rows": [
+      ["HyperApp-Guide", "1,548", "2017", "HyperApp 用户手册（中英文）"],
+      ["XcodeCleaner", "1,544", "2017", "react-native-macos 版 Xcode 清理工具，已归档"],
+      ["XcodeCleaner-SwiftUI", "1,424", "2019", "SwiftUI 重写版，仍在维护"],
+      ["Swapman", "286", "2021", "macOS swap 监控"],
+      ["opencat.app", "276", "2023", "OpenCat 官网源码"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象",
+   "blocks": [
+    {"p": "Baye 没有维护个人博客，X 是他的主要阵地，16 万多人关注。他的产品官网都很简洁："},
+    {"site": {"url": "https://opencat.app", "paras": [
+     "OpenCat 官网用 Astro 搭建，托管在 Cloudflare：首屏一句「与您的 AI 开始流畅的聊天」和一个下载按钮，往下是四个核心特色、六个进阶功能、一段用户评价，最后是三档清晰的价格。",
+     "ServerCat 的官网更极致：只有一句话、一个下载按钮和截图。"
+    ]}}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "方法与观点",
+   "blocks": [
+    {"quote": "我一般会跳过这个过程，自己先迅速做一个最小可用产品出来，然后直接让潜在用户试用，根据反馈和自己的思考来判断方向到底对不对。", "cite": "Baye，爱范儿专访"},
+    {"ul": [
+     "<strong>做自己痛的问题：</strong>被垃圾短信骚扰，就去拦截它；Xcode 占满硬盘，就去清理它。",
+     "<strong>先验证技术可行性：</strong>两周手动标注样本，证明本地机器学习能用，再全力投入。",
+     "<strong>抓住平台新接口：</strong>iOS 11 的短信过滤、Core ML、ChatGPT API、iOS 16 短信分类，每个窗口期都是机会。",
+     "<strong>让用户参与进化：</strong>举报样本让「熊猫」越来越聪明。",
+     "<strong>按月发版：</strong>日历版本号本身就是一种承诺。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "多款 App 长期维护、评分稳定在 4.6 以上", "Miley 等新品评价较少，未复制主力产品的成绩"],
+      ["隐私", "端侧处理是核心卖点，承诺具体可验证", "端侧模型的能力受限于设备"],
+      ["商业", "买断、订阅、免费多种模式并存，养活全球旅居", "部分产品（OpenCat）所在的 AI 客户端赛道竞争激烈"],
+      ["表达", "X 上影响力大", "没有博客，系统性的经验分享较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>做自己痛的问题：</strong>最好的需求验证，是自己每天都在被它困扰。",
+     "<strong>先验证技术可行性：</strong>花两周确认能做，比花两个月做完才发现不行好得多。",
+     "<strong>隐私是产品力：</strong>「不请求网络权限」比任何隐私声明都更有说服力。",
+     "<strong>抓住平台新接口：</strong>苹果每开放一个新能力，都是独立开发者的窗口期。",
+     "<strong>产品养活生活方式：</strong>独立开发不只是职业，也可以是全球旅居的自由。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "爱范儿专访", "url": "https://www.ifanr.com/app/1249422", "why": "了解熊猫吃短信怎么从一个念头变成一款年度应用。"},
+     {"name": "ServerCat", "url": "https://servercat.app", "why": "如果你有服务器，在手机上装一个，体会「一个 SSH 账号就够了」。"},
+     {"name": "OpenCat", "url": "https://opencat.app", "why": "看一个 AI 客户端怎样用免费、买断、订阅三档覆盖不同用户。"}
+    ]}
+   ]
+  }
  ],
- "cta": "如果你管理服务器，试试 ServerCat；如果你被垃圾短信困扰，试试熊猫吃短信。",
+ "cta": "装一个熊猫吃短信或 ServerCat，感受一个「以卖 App 为生」的程序员的手艺。",
  "sources": [
   {"label": "Baye 的 X 个人资料", "url": "https://x.com/waylybaye"},
   {"label": "爱范儿：专访 Baye，那个与「澳门赌场」抗争的男人", "url": "https://www.ifanr.com/app/1249422"},
   {"label": "少数派：HyperApp 介绍", "url": "https://sspai.com/post/38846"},
   {"label": "V2EX：熊猫吃短信发布帖", "url": "https://www.v2ex.com/t/411764"},
   {"label": "GitHub：waylybaye", "url": "https://github.com/waylybaye"},
+  {"label": "HyperApp 用户手册", "url": "https://github.com/waylybaye/HyperApp-Guide"},
+  {"label": "OpenCat 官网", "url": "https://opencat.app"},
   {"label": "ServerCat 官网", "url": "https://servercat.app"},
-  {"label": "OpenCat 官网", "url": "https://opencat.app"}
+  {"label": "App Store：ServerCat", "url": "https://apps.apple.com/us/app/servercat-ssh-terminal/id1501532023"},
+  {"label": "App Store：OpenCat", "url": "https://apps.apple.com/us/app/opencat-ai-chat-agent-mcp/id6445999201"},
+  {"label": "App Store：熊猫吃短信 2", "url": "https://apps.apple.com/us/app/%E7%86%8A%E7%8C%AB%E5%90%83%E7%9F%AD%E4%BF%A12-%E5%9E%83%E5%9C%BE%E7%9F%AD%E4%BF%A1%E6%8B%A6%E6%88%AA/id1642682818"},
+  {"label": "App Store：DAMA", "url": "https://apps.apple.com/us/app/dama-auto-redact-privacy/id1534690075"}
  ]
 }

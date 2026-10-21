@@ -1,63 +1,221 @@
 {
  "name": "Sindre Sorhus",
  "role": "全职开源者 · Mac App 匠人",
- "title": "Sindre Sorhus：一个人，<em>一千多个仓库</em>和六十一款 App",
- "dek": "2014 年辞职去东南亚背包旅行顺便写开源，结果旅行结束了，开源一直没停。他创建了 GitHub 上星数最多的仓库之一 Awesome，维护着上千个 npm 包，又一个人做了 61 款精致的 Mac / iOS 小工具。",
- "card": "Awesome 列表创始人、上千个 npm 包维护者，61 款 Apple 平台小工具的作者。",
+ "title": "Sindre Sorhus：一个人，一千多个仓库和<em>六十多款 App</em>",
+ "dek": "2014 年辞掉办公室工作去东南亚背包旅行顺便写开源，结果旅行结束了，开源一直没停。他创建了 GitHub 上星数最多的仓库之一 Awesome（★52 万），维护着上千个 npm 包，又一个人做了 60 多款精致的 Mac / iOS 小工具，用户超过 600 万。2026 年 10 月，他把个人网站改成了用 Swift 编写。",
+ "card": "Awesome（★52 万）、got、ky、type-fest、pure 的作者；一人做了 60 多款 Mac / iOS App。",
  "location": "挪威人，常年在东南亚旅居",
- "tags": ["开源", "Swift", "JavaScript", "macOS", "npm"],
- "links": [{"label": "sindresorhus.com", "url": "https://sindresorhus.com"}, {"label": "Apps", "url": "https://sindresorhus.com/apps"}, {"label": "GitHub", "url": "https://github.com/sindresorhus"}],
+ "updated": "2026-10-21",
+ "tags": ["开源", "npm", "Swift / macOS", "TypeScript", "独立开发"],
+ "links": [
+  {"label": "sindresorhus.com", "url": "https://sindresorhus.com"},
+  {"label": "Apps", "url": "https://sindresorhus.com/apps"},
+  {"label": "GitHub", "url": "https://github.com/sindresorhus"}
+ ],
  "summary": [
-  "<strong>一句话：</strong>「Not a company, just me.」一个人全职做开源和 Apple 平台 App，十五年开源、十二年做 App。",
-  "<strong>代表作：</strong>Awesome（★52 万）、got / ky（HTTP 客户端）、type-fest、ora、pure（ZSH 提示符）；App 有 Supercharge、Dato、Velja、Plash、Gifski、One Thing 等 61 款。",
-  "<strong>为什么值得关注：</strong>他把「小而专注、只解决一个问题」做到了极致，无论是一个 npm 包还是一款菜单栏 App。"
+  "<strong>一句话：</strong>「Full-Time Open-Sourcerer & App Maker」。不开公司，只靠自己和社区赞助，同时维护 JavaScript 生态里依赖最广的一批基础包，以及一长串「本该是系统自带」的 Mac 小工具。",
+  "<strong>代表作：</strong>Awesome（★522,173）、awesome-nodejs（★6.7 万）、type-fest（★1.7 万）、ky（★1.7 万）、got（★1.5 万）、pure（★1.4 万）、ora、execa、np；App 有 Gifski、Velja、Plash、Dato、Supercharge、Text Lens、Mailway 等。",
+  "<strong>关键数字：</strong>GitHub 粉丝 8.5 万、公开仓库 1,145 个；官网写着 61 款 App、12 年 App 匠龄、600 万以上用户、回复过 1 万多封支持邮件；X 关注者约 6.7 万。",
+  "<strong>此刻：</strong>Now 页面（2026-10-20）写着：在越南旅行，喝着越南咸咖啡，在做一个新的秘密 Mac App，并「试图修复我所有开源项目里的所有 bug（是的，真的）」。"
  ],
- "lead": "Sindre 的 About 页面开头写着几个数字：61 apps、12 years of app craft、1.1K+ repos、15 years of open source。紧接着是一句话：「2014 年，我辞掉办公室工作，去东南亚背包旅行，顺便做开源。旅行结束了，但开源从未停止。」",
+ "lead": "他的 About 页开头只有三句话：「2014 年，我辞掉办公室的工作，去东南亚背包旅行，顺便写开源。背包旅行结束了，开源却一直没有停。」十二年后，这个挪威人成了开源世界里最高产、也最有辨识度的个人维护者之一。",
  "sections": [
-  {"id": "story", "title": "成长与经历", "blocks": [
-   {"steps": [
-    {"when": "童年", "title": "挪威、乐高与 Flash", "text": "在挪威长大，乐高城市几乎占满整个卧室；九岁做简单网页。上学时大家课间玩 Flash 游戏，他想知道怎么做的，于是反编译、重画角色、加新敌人和排行榜。「我改东西、搞坏、再改回来，直到游戏按我想的那样运行。这仍然是我学习的方式。」"},
-    {"when": "二十多岁", "title": "真正学会编程", "text": "此前只是复制 PHP 和 JavaScript 而不完全理解。通过给 TodoMVC 做贡献进入开源，后来成为它的维护者之一。"},
-    {"when": "2012–2014", "title": "pure、got 与 Awesome", "text": "2012 年做了极简快速的 ZSH 提示符 pure；2014 年开始写 got；同年创建 Awesome：各种主题的精选列表，后来成为 GitHub 上星数最多的仓库之一，衍生出成千上万个「awesome-xxx」。他还发明了「ponyfill」这个词。"},
-    {"when": "2014", "title": "辞职背包，全职开源", "text": "离开办公室，在东南亚旅行的同时写开源，靠赞助和捐赠维持，从此再没回去上班。"},
-    {"when": "2014 起", "title": "Mac App 匠人", "text": "从 Gifski（与 Kornel Lesiński 合作，把视频转成高质量 GIF）开始，陆续做了 Plash（网页做桌面壁纸）、Velja（浏览器选择器）、Dato（菜单栏日历）、Supercharge 等 61 款 App，很多免费。"},
-    {"when": "现在", "title": "越南、咸咖啡与新的秘密 App", "text": "「Now」页面写着：在越南旅行，喝着 Cà phê muối（越南咸咖啡），在做一个新的秘密 Mac App，并「试图修复我所有开源项目里的所有 bug（是的，真的）」。"}
-   ]}
-  ]},
-  {"id": "works", "title": "代表作品", "blocks": [
-   {"cards": [
-    {"name": "Awesome", "meta": "2014 · ★52 万", "text": "关于各种有趣主题的精选列表，开源世界的「目录」。", "url": "https://github.com/sindresorhus/awesome"},
-    {"name": "Supercharge", "meta": "macOS App", "text": "给 Mac 加上一系列系统本该有的增强功能。", "url": "https://sindresorhus.com/supercharge"},
-    {"name": "ky / got", "meta": "TypeScript · ★1.7 万 / 1.5 万", "text": "优雅的 Fetch 封装与 Node.js 上人性化的 HTTP 库。", "url": "https://github.com/sindresorhus/ky"},
-    {"name": "pure", "meta": "2012 · Shell · ★1.4 万", "text": "漂亮、极简、快速的 ZSH 提示符。", "url": "https://github.com/sindresorhus/pure"},
-    {"name": "Gifski", "meta": "macOS App", "text": "把视频转换成高质量 GIF，与 Kornel Lesiński 合作。", "url": "https://sindresorhus.com/gifski"},
-    {"name": "type-fest", "meta": "2019 · ★1.7 万", "text": "一组必不可少的 TypeScript 类型。", "url": "https://github.com/sindresorhus/type-fest"}
-   ]}
-  ]},
-  {"id": "site", "title": "个人网站", "blocks": [
-   {"site": {"url": "https://sindresorhus.com", "paras": ["首页标题「Full-Time Open-Sourcerer & App Maker」，App 可以按全部、免费、付费、Mac、iPhone & iPad、菜单栏筛选，还有「Wall of Love」用户留言墙、「Timeline」时间线和一个「Guess the App」小游戏。", "最妙的是一个叫「Visit 1999」的入口，用 1999 年的网页风格重做了整个网站。页脚写着：「The people who are crazy enough to think they can change the world are the ones who do 🦄」。"]}},
-   {"p": "About 页列了一串关于他的小事：用 Tab 缩进从 90 年代至今；永久深色模式；曾连续编码 43 小时（不推荐）；「到处都是独角兽，开源是辛苦的工作，所以也应该有趣」。"}
-  ]},
-  {"id": "craft", "title": "设计与手艺", "blocks": [
-   {"quote": "The apps are small, focused tools that each solve one problem well, and many of them are free.", "cite": "Sindre Sorhus，About 页"},
-   {"p": "他的 npm 包和 App 有同一种设计哲学：<strong>一个模块只做一件事</strong>。这让他的包成为 JavaScript 生态里依赖最广的基础件之一，也让他的 App 有一种「本该是系统自带」的自然感。"},
-   {"note": "Awesome 和 awesome-nodejs 的 README 里能看到另一面：「因为太多垃圾和低质量提交，暂停接收」。长期维护一个超级项目的疲惫，同样真实。"}
-  ]},
-  {"id": "learn", "title": "可以从他身上学什么", "blocks": [
-   {"checklist": [
-    "<strong>小而专注：</strong>每一个包、每一个 App，都只解决一个问题。",
-    "<strong>边玩边学：</strong>改、坏、再改回来，是最原始也最有效的学习方式。",
-    "<strong>把乐趣放进工作：</strong>独角兽、1999 版网站、猜 App 游戏。",
-    "<strong>一个人也可以很大：</strong>不开公司，只靠自己和社区支持。"
-   ]}
-  ]}
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "全职开源维护者、独立 App 开发者，靠社区赞助与 App 收入生活"],
+     ["所在地", "挪威人，常年在东南亚旅居（2026 年 10 月在越南）"],
+     ["开源组织", "h5bp、editorconfig、gruntjs、yeoman、tastejs（TodoMVC）、awesome-lists、avajs、babel、xojs、chalk"],
+     ["代表作", "Awesome、got、ky、type-fest、pure、ora、execa、np、Gifski、Velja、Supercharge"],
+     ["技术栈", "JavaScript / TypeScript（npm 包）、Swift / SwiftUI（Apple 平台 App）"],
+     ["关键数字", "1,145 个公开仓库；GitHub 粉丝 84,982；近一年贡献约 5,700 次"],
+     ["发明", "「ponyfill」这个词"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Sindre 的工作有两条线，遵循同一个原则：<strong>一个东西只做好一件事</strong>。在 npm 上，他写了上千个小而专注的模块（他有一篇博客就叫《Small Focused Modules》），让更大的系统可以像积木一样拼起来。在 Apple 平台上，他做了 60 多款小工具：把视频转成高质量 GIF、选择用哪个浏览器打开链接、在菜单栏放世界时钟、复制屏幕上无法选中的文字……「每一款都只解决一个问题，很多是免费的。」"},
+    {"p": "支撑这一切的是一套很「人」的价值观：他写过《Empathy in Open Source》，提醒大家开源不只是代码，更是人；也写过《Issue Bumping》，解释为什么在旧 issue 下评论「有进展吗？」并没有帮助。"},
+    {"note": "本页依据 sindresorhus.com（About、Now、Apps、Timeline、Blog）、GitHub 与项目 README 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "童年", "title": "挪威、乐高与 Flash", "text": "在挪威长大，乐高城市几乎占满整个卧室；九岁做简单网页。课间大家玩 Flash 游戏，他想知道怎么做的，于是反编译、重画角色、加新敌人和排行榜。「我改东西、搞坏、再改回来，直到游戏按我想的那样运行。这仍然是我学习的方式。」"},
+     {"when": "二十多岁", "title": "真正学会编程", "text": "此前只是复制 PHP 和 JavaScript 而不完全理解。通过给 TodoMVC 做贡献进入开源，后来成为它的维护者之一；也参与了 HTML5 Boilerplate、Yeoman、Grunt 等项目。"},
+     {"when": "2012", "title": "pure", "text": "漂亮、极简、快速的 ZSH 提示符，至今 ★1.4 万。"},
+     {"when": "2013–2014", "title": "Quick Look 清单、got、Awesome", "text": "2013 年整理开发者 Quick Look 插件清单；2014 年 3 月开始写 Node.js HTTP 库 got；7 月创建 Awesome：各种有趣主题的精选列表，后来成为 GitHub 上星数最多的仓库之一，衍生出成千上万个 awesome-xxx。同年辞职去东南亚。"},
+     {"when": "2015–2016", "title": "工具链", "text": "np（更好的 npm publish）、execa（给人用的进程执行）、ora（优雅的终端加载动画）、awesome-electron 等相继发布。"},
+     {"when": "2018", "title": "Gifski 与 ky", "text": "与 Kornel Lesiński 合作的 Gifski 把视频转成高质量 GIF；ky 是基于 Fetch 的小巧 HTTP 客户端。"},
+     {"when": "2019", "title": "type-fest", "text": "「一组必不可少的 TypeScript 类型」，如今是 TypeScript 生态的常用依赖之一。"},
+     {"when": "2024–2026", "title": "App 井喷", "text": "2024 年发布 Supercharge、Scratchpad、App Buddy 等；2025 年发布 Default Browser、Shortcutie、Googly Eyes、Text Lens、Simple Color Palette、Short Run、Menu Drop、Zone Bar；2026 年发布 DS_Store Inspector、Imago（Flux 2 文生图）、Mailway。10 月把个人网站重写为 Swift。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Awesome", "url": "https://github.com/sindresorhus/awesome",
+     "meta": ["2014", "精选列表", "★52 万"],
+     "paras": [
+      "「Awesome lists about all kinds of interesting topics.」它不是代码，而是开源世界的「目录」：每个主题一份精选清单，由社区维护，再链接到更多的 awesome-xxx。它定义了一种开源协作的格式，也成为 GitHub 上星数最多的仓库之一。",
+      "长期维护一个超级项目的疲惫同样真实：Awesome 的描述里写着「在我有时间处理积压之前，暂时关闭 PR」；awesome-nodejs 写着「因为太多垃圾和低质量提交，暂停接收」；awesome-electron 则直接说「因为我厌倦了审核低质量的东西」。"
+     ],
+     "facts": [["GitHub", "★522,173 · ⑂37,608"], ["衍生", "awesome-nodejs ★6.7 万、awesome-electron ★2.7 万"]]
+    }},
+    {"work": {
+     "name": "got · ky · execa · type-fest", "url": "https://github.com/sindresorhus/ky",
+     "meta": ["2014–2019", "TypeScript / JavaScript", "npm 基础件"],
+     "paras": [
+      "这几个包几乎出现在每个现代 JavaScript 项目的依赖树里：<strong>got</strong>（★1.5 万）是「人性化且强大的」Node.js HTTP 库；<strong>ky</strong>（★1.7 万）是基于 Fetch 的小巧客户端，支持现代浏览器、Node.js、Bun 和 Deno，零依赖；<strong>execa</strong>（★7.6 千）是「给人用的进程执行」；<strong>type-fest</strong>（★1.7 万）提供一组 TypeScript 标准库里没有、但人人都需要的类型。",
+      "它们的共同点是 API 小而友好、文档详尽、几乎每周都在更新。Now 页面实时显示：这一周他在开源上有 157 次贡献、关闭了 101 个 issue、更新了 14 个 npm 包。"
+     ]
+    }},
+    {"work": {
+     "name": "Supercharge", "url": "https://sindresorhus.com/supercharge",
+     "meta": ["2024", "macOS", "付费 · 免费试用"],
+     "paras": [
+      "「Elevate your Mac experience.」把一系列「系统本该有」的增强功能装进一个 App。它是 Sindre 目前最主推的作品：GitHub 主页和 Awesome 的 README 顶部都放着它的推荐位。"
+     ]
+    }},
+    {"work": {
+     "name": "Gifski", "url": "https://sindresorhus.com/gifski",
+     "meta": ["2018", "Swift · 开源", "与 Kornel Lesiński 合作"],
+     "paras": [
+      "「Convert videos to high-quality GIFs on your Mac.」基于 Kornel Lesiński 的 gifski 编码器，能生成色彩远好于常规工具的 GIF。它也是 Sindre 少数开源的 App 之一（★8.6 千），是学习 SwiftUI Mac App 的好范例。"
+     ],
+     "facts": [["GitHub", "★8,585"]]
+    }},
+    {"h3": "最近两年的 App"},
+    {"table": {
+     "cols": ["App", "年份", "做什么"],
+     "rows": [
+      ["Mailway", "2026", "把 mailto 链接交给任意邮件 App 或网页邮箱"],
+      ["Imago", "2026", "用 Flux 2 从文字生成图像（免费）"],
+      ["DS_Store Inspector", "2026", "查看 .DS_Store 文件的内容（免费）"],
+      ["Zone Bar", "2025", "菜单栏里的世界时钟"],
+      ["Menu Drop", "2025", "菜单栏里的快速隔空投送（免费）"],
+      ["Text Lens", "2025", "复制屏幕上无法选中的文字"],
+      ["Googly Eyes", "2025", "菜单栏里一对盯着你鼠标的眼睛"],
+      ["Velja", "—", "强大的浏览器选择器"],
+      ["Plash", "—", "把网页设成桌面壁纸"],
+      ["Dato", "—", "菜单栏日历与时间"]
+     ]
+    }},
+    {"p": "他还把做 App 时写的基础组件开源成了 Swift 包，比如 KeyboardShortcuts（★2.7 千，几分钟给 macOS App 加上可自定义的全局快捷键，完全沙盒、兼容 Mac App Store）和 Defaults（★2.5 千，现代化的 UserDefaults）。"}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub 主页 README 是一张故意做旧的 90 年代网页：欢迎动图、打字的猫、独角兽、「施工中」标志、访客计数器、火焰 GIF，以及一句「i love code and unicorns」。简介则写：「Full-Time Open-Sourcerer. Focused on Swift & JavaScript. Makes macOS apps, CLI tools, npm packages.」"},
+    {"table": {
+     "caption": "星数最高的仓库（2026 年 10 月）",
+     "cols": ["仓库", "★", "年份", "说明"],
+     "rows": [
+      ["awesome", "522,173", "2014", "各种主题的精选列表"],
+      ["awesome-nodejs", "67,196", "2014", "Node.js 包与资源"],
+      ["awesome-electron", "27,324", "2015", "Electron 资源"],
+      ["quick-look-plugins", "18,788", "2013", "开发者 Quick Look 插件"],
+      ["type-fest", "17,458", "2019", "TypeScript 类型合集"],
+      ["ky", "17,128", "2018", "基于 Fetch 的 HTTP 客户端"],
+      ["got", "14,952", "2014", "Node.js HTTP 库"],
+      ["pure", "14,452", "2012", "ZSH 提示符"],
+      ["ora", "9,769", "2016", "终端加载动画"],
+      ["Gifski", "8,585", "2018", "视频转 GIF"]
+     ]
+    }},
+    {"p": "他的开源靠 GitHub Sponsors 和企业赞助支撑：几乎每个热门仓库的 README 顶部都写着「Sindre Sorhus' open source work is supported by the community」，下面列着赞助商。"}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://sindresorhus.com", "paras": [
+     "首页标题「Full-Time Open-Sourcerer & App Maker」，导航是 Apps、Blog、Now、About、Contact、Donate。App 区可以按全部、免费、付费、Mac、iPhone & iPad、菜单栏筛选，还有「Wall of Love」用户留言墙、「Timeline」时间线（2013 年至今 64 款 App）和一个「Guess the App」小游戏。",
+     "Now 页面是一个实时仪表盘：此刻在 GitHub 上提交了什么、你在页面停留期间他的 npm 包被下载了多少次、这周关闭了多少 issue。页脚则写着：「The people who are crazy enough to think they can change the world are the ones who do 🦄」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "2026 年 10 月起用 Swift 编写：自研的 SiteKit，类 SwiftUI 的组件、用修饰符写样式，编译器会在访客之前发现坏链接"],
+      ["彩蛋", "「Visit 1999」入口，用 1999 年的网页风格重做了整个网站"],
+      ["About", "一串关于他的小事：从 90 年代起就用 Tab 缩进、永久深色模式、曾连续编码 43 小时（不推荐）"],
+      ["博客", "约 67 篇，多为新 App 发布与开源观点"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-11", "title": "This Website Is Now Made in Swift", "url": "https://sindresorhus.com/blog", "note": "SwiftUI 式组件、修饰符样式，以及一个能在访客之前抓到坏链接的编译器。"},
+     {"date": "2024-08-13", "title": "The Micro-Benchmark Fallacy", "url": "https://sindresorhus.com/blog", "note": "「这是个陷阱。」"},
+     {"date": "—", "title": "Goodbye, Node.js Buffer", "url": "https://sindresorhus.com/blog", "note": "是时候从 Buffer 迁移到 Uint8Array 了。"},
+     {"date": "—", "title": "Empathy in Open Source", "url": "https://sindresorhus.com/blog", "note": "开源不只是代码，更是人。"},
+     {"date": "—", "title": "Issue Bumping", "url": "https://sindresorhus.com/blog", "note": "为什么评论「有进展吗？」没有帮助，以及什么时候可以催。"},
+     {"date": "—", "title": "Small Focused Modules", "url": "https://sindresorhus.com/blog", "note": "做小而专注的模块，才能复用、才能拼出更大的东西。"}
+    ]},
+    {"quote": "The apps are small, focused tools that each solve one problem well, and many of them are free.", "cite": "sindresorhus.com/about"},
+    {"quote": "独角兽无处不在。开源是辛苦的工作，所以也应该有趣。", "cite": "Sindre Sorhus，About 页"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["开源", "数量与质量兼具，基础包被整个生态依赖", "一人维护上千个仓库，积压的 issue 与 PR 难免（他本人也在公开处理）"],
+      ["App", "小而专注、原生、很多免费，600 万以上用户", "大部分 App 闭源，且只面向 Apple 平台"],
+      ["社区", "定义了 awesome 列表文化", "热门列表因低质量提交多次暂停接收"],
+      ["可持续", "赞助 + 付费 App 支撑全职开源十二年", "收入高度依赖个人，存在「巴士因子」风险"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>小而专注：</strong>每一个包、每一个 App，都只解决一个问题。",
+     "<strong>边玩边学：</strong>改、坏、再改回来，是最原始也最有效的学习方式。",
+     "<strong>把组件也开源：</strong>KeyboardShortcuts、Defaults 让别人做 App 更轻松。",
+     "<strong>把乐趣放进工作：</strong>独角兽、1999 版网站、猜 App 游戏。",
+     "<strong>一个人也可以很大：</strong>不开公司，只靠自己和社区支持。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "sindresorhus.com/apps", "url": "https://sindresorhus.com/apps", "why": "挑一款免费的菜单栏小工具装上，感受「本该是系统自带」的手感；顺便玩一局 Guess the App。"},
+     {"name": "Awesome", "url": "https://github.com/sindresorhus/awesome", "why": "任何你想学的主题，都可以从这里找到一份精选清单。"},
+     {"name": "Empathy in Open Source", "url": "https://sindresorhus.com/blog", "why": "想参与开源之前，先读读维护者希望你怎样与他们相处。"}
+    ]}
+   ]
+  }
  ],
- "cta": "打开他的 App 列表，挑一个免费的菜单栏小工具试试。",
+ "cta": "去 sindresorhus.com 挑一款小工具，然后点一下那个「Visit 1999」。",
  "sources": [
   {"label": "Sindre Sorhus 的 X 个人资料", "url": "https://x.com/sindresorhus"},
   {"label": "sindresorhus.com", "url": "https://sindresorhus.com"},
   {"label": "About Sindre Sorhus", "url": "https://sindresorhus.com/about"},
+  {"label": "Now", "url": "https://sindresorhus.com/now"},
+  {"label": "App Timeline", "url": "https://sindresorhus.com/apps/timeline"},
+  {"label": "Blog", "url": "https://sindresorhus.com/blog"},
   {"label": "GitHub：sindresorhus", "url": "https://github.com/sindresorhus"},
-  {"label": "Awesome", "url": "https://github.com/sindresorhus/awesome"}
+  {"label": "Awesome", "url": "https://github.com/sindresorhus/awesome"},
+  {"label": "ky README", "url": "https://github.com/sindresorhus/ky"},
+  {"label": "KeyboardShortcuts README", "url": "https://github.com/sindresorhus/KeyboardShortcuts"},
+  {"label": "Gifski", "url": "https://github.com/sindresorhus/Gifski"}
  ]
 }

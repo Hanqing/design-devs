@@ -2,181 +2,188 @@
  "name": "fenx",
  "role": "UI 设计师 · 博主 · 收集者",
  "title": "fenx：一个 UI 设计师的<em>折腾记录</em>",
- "dek": "写过 76 期设计周刊，做过 Figma 插件，用「全网最尊重宝可梦」的方式测试 LLM 画 SVG 的能力，最近还做出了自己的第一款 iOS App「干饭手册」。TA 的博客叫 Design Scenes。",
- "card": "UI 设计师，Design Scenes 博客与 Design Fragments 收集站作者，Figma 插件与 iOS 新手开发者。",
- "location": "中国大连 / 北京",
- "tags": [
-  "UI 设计",
-  "Figma",
-  "Vibe Coding",
-  "字体排版",
-  "博客"
- ],
+ "dek": "写过 76 期设计周刊，做过两个 Figma 插件和一个 Figma 搜索扩展，用「全网最尊重宝可梦」的方式测试大模型画 SVG 的能力，2026 年做出了第一款 iOS App「干饭手册」和一个会在桌面上播报 Agent 状态的 macOS 小伙伴。TA 的博客叫 Design Scenes，收集站叫 Design Fragments。",
+ "card": "UI 设计师；Design Scenes 博客与 Design Fragments 收集站作者，LLM 表情包合集 llm-things（★618）。",
+ "location": "中国大连",
+ "updated": "2026-10-21",
+ "tags": ["UI 设计", "Figma 插件", "Vibe Coding", "写作", "游戏"],
  "links": [
-  {
-   "label": "Design Scenes",
-   "url": "https://fenx.work"
-  },
-  {
-   "label": "Design Fragments",
-   "url": "https://df.fenx.work"
-  },
-  {
-   "label": "Profile",
-   "url": "https://fenx.design"
-  }
+  {"label": "Design Scenes", "url": "https://fenx.work"},
+  {"label": "Design Fragments", "url": "https://df.fenx.work"},
+  {"label": "GitHub", "url": "https://github.com/fenxer"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一名自称「普通」的 UI 设计师，一个人打理博客、周刊和收集站，用 AI 把设计师的好奇心变成了可以运行的工具。",
-  "<strong>代表作：</strong>Design Scenes 博客（96 篇以上）、Design Scenes Weekly（76 期）、Design Fragments（碎片信息收集站）、Figma 插件 Image Histogram、宝可梦 SVG 基准、iOS App「干饭手册」、New Games Hub。",
-  "<strong>为什么值得关注：</strong>TA 代表了一种正在发生的转变：设计师借助 AI 直接写代码，从「画出来」走到「做出来」。"
+  "<strong>一句话：</strong>自称「一名普通的 UI 设计师」，GitHub 简介写「Ignorant Designer」，却在一年多里用 AI 编程做出了 Figma 插件、Chrome 扩展、Astro 网站、iOS App 和原生 macOS 应用。",
+  "<strong>代表作：</strong>Design Scenes 博客（#85–#96）、Design Scenes Weekly 76 期、Design Fragments 2.0、Image Stroke 与 Image Histogram 两个 Figma 插件、llm-things、agent-aibo、干饭手册、LLM SVG 基准测试平台、New Games Hub。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 1,369 次；Design Fragments 当前收录 80 条 2026 年 10 月的碎片；周刊共 76 期。",
+  "<strong>自我介绍：</strong>X 上写「Designer ↑ Blogger → Collector → Gamer」，用箭头把四个身份串起来。"
  ],
- "lead": "fenx 的 X 简介用箭头把自己的几个身份连起来：「Designer ↑ Blogger → Collector → Gamer →」。在博客的关于页里，TA 写自己是「一名普通的 UI 设计师」，「职业背景应该没有任何让你感兴趣的地方」，「偶尔会让女友帮忙检查错字，有两只猫可以让我放松心情」。",
+ "lead": "fenx 在 Design Fragments 的 About 页里写过一句很好笑也很真实的话：「我的开发能力也随着模型变强而提升了（？）」1.0 版主要靠 Claude Sonnet 3.7，2.0 版则换成了 Grok 4.5、Composer 2.5 和 GPT-5 系列。这句话几乎可以概括 AI 时代很多设计师的变化。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "UI 设计师、博主、信息收集者、游戏玩家"],
+     ["所在地", "中国大连"],
+     ["代表作", "Design Scenes、Design Fragments、Image Stroke、Image Histogram、llm-things、agent-aibo、干饭手册"],
+     ["工具栈", "Ghost、fly.io、Mailgun、Umami、Vercel、Supabase、Astro、Figma、Cursor、Zed、Tana、Capacities（据博客 About 页）"],
+     ["字体偏好", "SF Pro、PP Pangaia、PP Editorial New"],
+     ["公开渠道", "博客、X、小红书、Figma 社区、GitHub、Bangumi"],
+     ["彩蛋", "把自己的简历做成了一个 Agent Skill：fenx-resume，装上后可以直接问 AI「fenx 是谁」"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "fenx 的工作有一条清晰的变化轨迹：<strong>从「转述别人做的东西」，到「记录自己折腾的结果」，再到「自己动手做东西」</strong>。早年的周刊是设计视角的资讯节选；回归后的博客是长文实验报告；2025 年起，文章里开始出现自己写的插件、扩展、网站和 App。"},
+    {"p": "TA 的选题有很强的个人趣味：用宝可梦测试大模型的审美、给 Delta 模拟器做皮肤、介绍 40 家独立游戏厂商、逆向 macOS 的摘要服务、把经典的 Genie 最小化动画搬到网页上。"},
+    {"note": "本页依据 Design Scenes 博客与 About 页、Design Fragments、GitHub 与 X 资料整理，资料截至 2026 年 10 月。个人主页 fenx.design 在本次检查时无法访问。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "p": "TA 在关于页里给 Design Scenes 写了一条时间线：先写文章；觉得每日获取的信息越来越多，开始整理发到微博；之后在微信公众号做每周总结；因为公众号环境封闭，转到竹白做 Newsletter；因身体原因停更；然后——「我回来了」。"
-    },
-    {
-     "steps": [
-      {
-       "when": "早期",
-       "title": "微博 → 公众号 → Newsletter",
-       "text": "以设计视角观察互联网资讯：界面设计、字体、品牌、产品体验、数码、商业与创投。Design Scenes Weekly 一共出了 76 期，归档在 GitHub。"
-      },
-      {
-       "when": "转型",
-       "title": "回归博客",
-       "text": "停更后重新出发，不再做每周资讯，而是「将自己一段时间折腾的结果记录并分享给他人」。博客用 Ghost 搭建，托管在 fly.io，邮件走 Mailgun，统计用自部署的 Umami。"
-      },
-      {
-       "when": "2025-01",
-       "title": "Figma 插件",
-       "text": "做了 Image Histogram 插件：在 Figma 里查看图片直方图，复制粘贴曝光、对比度等参数；随后又做了 Figma Deep Search Chrome 扩展。"
-      },
-      {
-       "when": "2025-05",
-       "title": "Design Fragments",
-       "text": "用 Vibe Coding 建了一个碎片信息收集站。TA 调侃说「仅需 21600 分钟，用 AI 建立网站！」"
-      },
-      {
-       "when": "2025-06",
-       "title": "《Liquid Glass 之外 Apple 的改变》",
-       "text": "一篇对苹果设计方向的辛辣评论。"
-      },
-      {
-       "when": "2026",
-       "title": "LLM 基准与第一款 iOS App",
-       "text": "6 月：设计了一个测试 LLM 生成 SVG 能力的平台，「全网最尊重宝可梦的 Benchmark」；8 月：发布第一款 iOS App「干饭手册」，写下 39 分钟长文复盘「踩坑是最好的老师」；同月还做了 New Games Hub，每天看看有哪些新游戏。"
-      }
-     ]
-    }
+    {"p": "TA 在博客 About 页给 Design Scenes 写了一条时间线：先写文章；觉得每日获取的信息越来越多，开始整理发到微博；之后在微信公众号做每周总结；因为公众号环境太封闭，转到竹白做 Newsletter；因身体原因停更；然后：「我回来了」。"},
+    {"steps": [
+     {"when": "2011–2012", "title": "注册 X 与 GitHub", "text": "X 账号 2011 年注册，GitHub 2012 年注册。"},
+     {"when": "周刊时期", "title": "Design Scenes Weekly", "text": "设计视角下的互联网资讯观察：界面设计、字体、品牌、产品体验、数码、商业与创投。共出 76 期，之后归档在 GitHub。"},
+     {"when": "2024", "title": "回归博客", "text": "不再做每周资讯，而是「写一些想写的东西……将自己一段时间折腾的结果记录并分享给他人」。这一年写了《偷窥 Ferret-UI》、Delta 模拟器皮肤、iii 计划背后的 40 家独立游戏厂商。"},
+     {"when": "2025.01–02", "title": "Figma 插件与扩展", "text": "Image Stroke（给位图加矢量描边）、Image Histogram（在 Figma 里看直方图、复制粘贴曝光和对比度参数），以及 Figma Deep Search Chrome 扩展；还给 Ghost 博客加上了 llms.txt。"},
+     {"when": "2025.05", "title": "Design Fragments 1.0", "text": "用 Vibe Coding 建起碎片信息收集站，把写周刊以来的碎片信息集中起来。标题调侃：「仅需 21600 分钟，用 AI 建立网站！」"},
+     {"when": "2025.06", "title": "《Liquid Glass 之外 Apple 的改变》", "text": "一篇对苹果设计方向的辛辣评论，副标题是一长串「劝 Apple 牢记初心……树立正确设计观」。"},
+     {"when": "2026.06", "title": "LLM 画 SVG 的基准", "text": "设计了一个测试大模型生成 SVG 能力的平台，「全网最尊重宝可梦的 Benchmark」。"},
+     {"when": "2026.07–08", "title": "第一款 iOS App 与 macOS 小伙伴", "text": "发布 iOS App「干饭手册」并写下长篇复盘《踩坑是最好的老师》；做了桌面伙伴 aibo；8 月又做了每天看新游戏的 New Games Hub。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Design Scenes",
-       "meta": "博客 · Ghost",
-       "text": "设计、技术与「折腾」的长文记录，话题含 UI、字体排版、Dev、Game、LLM。",
-       "url": "https://fenx.work"
-      },
-      {
-       "name": "Design Fragments",
-       "meta": "2025 · Vibe Coding",
-       "text": "碎拼信息搜集站，设计师的灵感素材库。",
-       "url": "https://df.fenx.work"
-      },
-      {
-       "name": "干饭手册",
-       "meta": "2026 · iOS",
-       "text": "TA 制作的第一款 iOS App，以及一篇完整的踩坑复盘。",
-       "url": "https://fenx.work"
-      },
-      {
-       "name": "Image Histogram",
-       "meta": "2025 · Figma 插件",
-       "text": "在 Figma 里查看图片直方图，复制粘贴图片调整参数。",
-       "url": "https://fenx.work"
-      }
+    {"work": {
+     "name": "Design Fragments", "url": "https://df.fenx.work",
+     "meta": ["2025 → 2026 2.0", "Astro + Supabase", "碎片收集站"],
+     "paras": [
+      "「Knowledge Has No Bounds.」一个设计师的灵感素材库：每条碎片是一段两三行的评述，话题从品牌设计、字体、网页动效，到「用柠檬黄让鸡肉变半透明」的实验、在 PS5 上跑大模型。2.0 版补齐了文章条目、提高了信息密度，About 页说「可能最终的形式是每个条目都有各自的展现形式」。",
+      "About 页也是一份公开的技术清单：Cloudflare 托管，Astro 框架，原生 JS，Tailwind，Supabase，Figma 设计，Cursor 编码，Zed 编辑器；还致谢了 GSAP、Shiki、marked、pinyin-pro 等库。"
+     ],
+     "facts": [["1.0 主要模型", "Claude Sonnet 3.7"], ["2.0 主要模型", "Grok 4.5、Composer 2.5、GPT-5 系列"], ["统计", "自部署 Umami"]]
+    }},
+    {"work": {
+     "name": "agent-aibo", "url": "https://aibo.fenx.work",
+     "meta": ["2026", "Swift", "macOS 桌面伙伴"],
+     "paras": [
+      "「あいぼう，エージェント走らせるぜ！」一个蹲在桌面上的原生 macOS 小伙伴，用对话气泡播报两类信息：通过 hooks 接收 Cursor、Codex 等本地 Agent 的实时思考、工具调用和完成事件；以及通过你自己的隧道收到的远程 Webhook 通知，比如部署状态和 CI 结果。README 里还自嘲了一句：「享受正宗的 SwiftUI 卡顿」（加了删除线）。"
+     ],
+     "facts": [["GitHub", "★7"], ["官网", "aibo.fenx.work"]]
+    }},
+    {"work": {
+     "name": "llm-things", "url": "https://df.fenx.work/llm-things/",
+     "meta": ["2025", "贴纸合集", "PNG + SVG"],
+     "paras": [
+      "一套大模型表情包贴纸，「Just for kicks」：有 Claude Code 回复开头那句标志性的话，有「Wait, reset again?」，有「胖猫拯救世界」，还有「龙虾千万条，安全第一条」。同时发布在 Figma 社区，是 TA 星数最多的仓库。"
+     ],
+     "facts": [["GitHub", "★618"]]
+    }},
+    {"work": {
+     "name": "Figma 插件：Image Stroke 与 Image Histogram", "url": "https://www.figma.com/community/plugin/1457662942651611491/image-stroke",
+     "meta": ["2025.01", "Figma 插件", "中英双语"],
+     "paras": [
+      "Image Stroke 只做一件事：给位图生成外轮廓的矢量描边，不处理内部细节，开箱即用，支持中英文切换，适配 Figma 的明暗主题。Image Histogram 则让你在 Figma 里直接看图片直方图，并复制粘贴曝光、对比度等调整参数。两篇博客完整记录了一个设计师第一次做插件的过程。"
      ]
-    }
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["干饭手册", "2026", "第一款 iOS App，附长篇踩坑复盘"],
+      ["LLM SVG 基准", "2026", "测试大模型生成 SVG 能力的平台，以宝可梦为题"],
+      ["New Games Hub", "2026", "每天看看有哪些新游戏"],
+      ["steam-review-mcp", "2025", "获取 Steam 商店评测的 MCP 服务"],
+      ["genie-web", "2026", "用 WebGL 网格变形在网页上复刻 macOS 经典的 Genie 动画"],
+      ["macos-summarize-internals", "2026", "逆向 macOS 摘要服务的 TF-IDF 算法，并用 Python 逐字节复现"],
+      ["fenx-resume", "2026", "把个人简历做成 Agent Skill"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://fenx.work",
-      "paras": [
-       "Design Scenes 的副标题是「Design, tech or something else to seek higher Scenes」。每篇文章带编号（#88、#96）和阅读时长，导航有「写作计划」「赞助墙」「友情链接」。",
-       "侧栏推荐了 The Type、安妮薇看看、歸藏的 AIGC Weekly、Ding 的 DEX 周刊，勾勒出中文设计 × 技术圈的一张地图。"
-      ]
-     }
-    },
-    {
-     "p": "关于页公开了完整的工具栈：Ghost、fly.io、Mailgun、Umami、Vercel、Supabase、Tana、Capacities、Warp、Cursor、Arc、Figma。对设计师来说，这份清单本身就很有参考价值。"
-    }
+    {"site": {"url": "https://fenx.work", "paras": [
+     "Design Scenes 的副标题是「Design, tech or something else to seek higher Scenes」。每篇文章带编号（#85 到 #96，外加 #SP 特别篇）和一行幽默的副标题；导航有「写作计划」「赞助墙」「友情链接」。话题标签里 UI 最多（12 篇），其次是 Dev、Game、Ghost、Product。",
+     "侧栏推荐了 The Type、安妮薇看看、歸藏的 AIGC Weekly、Ding 的 DEX 周刊，勾勒出中文设计 × 技术圈的一张地图。"
+    ]}},
+    {"table": {
+     "cols": ["站点", "技术", "特点"],
+     "rows": [
+      ["fenx.work", "Ghost 6，fly.io + Cloudflare，Mailgun 发信", "编号长文、邮件订阅、llms.txt"],
+      ["df.fenx.work", "Astro，Cloudflare，Supabase", "碎片信息流，按月归档"],
+      ["aibo.fenx.work", "—", "agent-aibo 的产品页"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "fenx 的文章标题很有幽默感：「Tana 迷雾」「祝顺利」「劝 Apple 牢记初心……树立正确设计观」。在幽默背后是设计师对细节的敏感：给 Ghost 加 llms.txt、自定义代码高亮主题、为宝可梦设计尊重原作的评测标准。"
-    },
-    {
-     "quote": "不勤快，写作也可能是为了麻痹。",
-     "cite": "fenx，Design Scenes 关于页"
-    }
+    {"posts": [
+     {"date": "2026-08-30", "title": "#96 构建游戏源：New Games Hub", "url": "https://fenx.work"},
+     {"date": "2026-08-09", "title": "#95 制作我的第一款 iOS App：干饭手册", "url": "https://fenx.work", "note": "副标题：踩坑是最好的老师。"},
+     {"date": "2026-06-07", "title": "#94 如何设计测试 LLM 生成 SVG 能力的平台", "url": "https://fenx.work", "note": "全网最尊重宝可梦的 Benchmark。"},
+     {"date": "2025-06-17", "title": "#92 Liquid Glass 之外 Apple 的改变", "url": "https://fenx.work"},
+     {"date": "2025-05-06", "title": "#91 建立 Design Fragments - Vibe Coding 实践", "url": "https://fenx.work"},
+     {"date": "2025-02-13", "title": "#89 Tana 迷雾", "url": "https://fenx.work", "note": "我对 Tana 的不满之处。"}
+    ]},
+    {"p": "TA 的标题自带幽默：「Tana 迷雾」「Paper (Alpha) 体验：祝顺利」「仅需 21600 分钟，用 AI 建立网站！」。幽默背后是设计师对细节的敏感：给 Ghost 加 llms.txt、为宝可梦设计尊重原作的评测标准、把 Genie 动画的网格变形一点点调出来。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计", "职业 UI 设计师，审美与细节扎实", "作品以个人小项目为主，规模有限"],
+      ["动手", "借助 AI 从插件做到原生 App，学习曲线陡峭", "自述开发能力「随模型变强而提升」，工程深度仍在积累"],
+      ["写作", "编号长文 + 碎片站，信息量大、趣味强", "更新不定期，曾因身体原因停更"],
+      ["开放", "公开工具栈、开源小项目、简历做成 Skill", "个人主页 fenx.design 目前无法访问"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>设计师也可以做工具：</strong>从 Figma 插件到 iOS App，AI 让门槛降到了动手就能做。",
-      "<strong>公开工具栈：</strong>帮助同行少走弯路。",
-      "<strong>允许停更，也欢迎回来：</strong>写作是长跑，不必一直冲刺。",
-      "<strong>用热爱设计评测：</strong>一个宝可梦基准，比抽象的分数更能看出模型的审美。"
-     ]
-    }
+    {"checklist": [
+     "<strong>设计师也可以做工具：</strong>从 Figma 插件到 iOS App，AI 让门槛降到了动手就能做。",
+     "<strong>公开工具栈：</strong>帮同行少走弯路，也是一种自我介绍。",
+     "<strong>允许停更，也欢迎回来：</strong>写作是长跑，不必一直冲刺。",
+     "<strong>用热爱设计评测：</strong>一个宝可梦基准，比抽象的分数更能看出模型的审美。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Design Fragments", "url": "https://df.fenx.work", "why": "每天花五分钟刷一遍，就是一份高质量的设计灵感流。"},
+     {"name": "Design Scenes", "url": "https://fenx.work", "why": "从 #95 干饭手册的踩坑复盘读起，看一个设计师怎样做出第一款 App。"},
+     {"name": "llm-things", "url": "https://df.fenx.work/llm-things/", "why": "给你的聊天群加一套大模型表情包。"}
+    ]}
    ]
   }
  ],
- "cta": "订阅 Design Scenes，看一个设计师怎样「折腾」。",
+ "cta": "去 Design Fragments 逛一逛，或者在 Design Scenes 订阅 TA 的下一次折腾。",
  "sources": [
-  {
-   "label": "fenx 的 X 个人资料",
-   "url": "https://x.com/haxfenx"
-  },
-  {
-   "label": "Design Scenes 博客",
-   "url": "https://fenx.work"
-  },
-  {
-   "label": "Design Scenes：关于",
-   "url": "https://fenx.work/about/"
-  },
-  {
-   "label": "Design Fragments",
-   "url": "https://df.fenx.work"
-  },
-  {
-   "label": "Design Scenes Weekly 归档",
-   "url": "https://github.com/fenxer/design-scenes-weekly-archive"
-  }
+  {"label": "fenx 的 X 个人资料", "url": "https://x.com/haxfenx"},
+  {"label": "Design Scenes 博客", "url": "https://fenx.work"},
+  {"label": "Design Scenes：关于", "url": "https://fenx.work/about/"},
+  {"label": "Design Fragments", "url": "https://df.fenx.work"},
+  {"label": "Design Fragments：About", "url": "https://df.fenx.work/about"},
+  {"label": "GitHub：fenxer", "url": "https://github.com/fenxer"},
+  {"label": "agent-aibo README", "url": "https://github.com/fenxer/agent-aibo"},
+  {"label": "llm-things", "url": "https://github.com/fenxer/llm-things"},
+  {"label": "Design Scenes Weekly 归档", "url": "https://github.com/fenxer/design-scenes-weekly-archive"},
+  {"label": "Figma 社区：Image Stroke", "url": "https://www.figma.com/community/plugin/1457662942651611491/image-stroke"}
  ]
 }

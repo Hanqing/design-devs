@@ -1,199 +1,213 @@
 {
- "name": "Kevin Zhow（周楷雯）",
+ "name": "Kevin Zhow",
  "role": "独立开发者 · 设计师 · 日语学习 App 作者",
- "title": "Kevin Zhow：住在埼玉、<em>为学日语的人</em>做 App",
- "dek": "十多年前写下 GitHub 上近万星的 iOS 图表库 PNChart；七年前离开公司独立做产品，后来搬到日本，做了 Oyomi（捧读）、Kana Origin、Hanami、Miraa 等一系列语言学习工具。",
- "card": "PNChart 作者；Oyomi、Kana Origin、Miraa 等日语学习 App 的开发者，现居日本埼玉。",
+ "title": "Kevin Zhow：住在埼玉、为<em>学日语的人</em>做 App",
+ "dek": "十多年前写下 GitHub 上近万星的 iOS 图表库 PNChart，参与过开源社交 App Yep；2018 年离开公司独立做产品，后来搬到日本，做了 Kana Origin、Oyomi（捧读）、Hanami 等一系列日语学习工具，如今参与 App Store 上 1,300 多人评分的 AI 跟读应用 Miraa。",
+ "card": "PNChart（★9.6 千）作者；Kana Origin、Oyomi、Hanami 等日语学习 App 的独立开发者，参与 Miraa。",
  "location": "日本埼玉县越谷市 / 中国青岛",
- "tags": [
-  "iOS",
-  "Swift",
-  "设计",
-  "语言学习",
-  "独立开发"
- ],
+ "updated": "2026-10-21",
+ "tags": ["iOS", "日语学习", "设计", "Swift", "独立开发"],
  "links": [
-  {
-   "label": "Kevin Blog",
-   "url": "https://blog.kevinzhow.com"
-  },
-  {
-   "label": "Miraa",
-   "url": "https://miraa.app"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/kevinzhow"
-  }
+  {"label": "Kevin Blog", "url": "https://blog.kevinzhow.com"},
+  {"label": "Miraa", "url": "https://miraa.app"},
+  {"label": "GitHub", "url": "https://github.com/kevinzhow"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个「Code, Design and Crafts」的开发者，用设计师的眼光写 iOS，又用开发者的耐心做语言学习产品。",
-  "<strong>代表作：</strong>PNChart（★9.6k，Objective-C 图表库）、Waver（类 Siri 声波动画）、Oyomi 捧读（AI 日语阅读器）、Kana Origin（假名学习）、Hanami（日语手写输入法）、Miraa（AI 听写与跟读）；著有《PRODUCTER：从 0 到 1 打造产品》。",
-  "<strong>为什么值得关注：</strong>TA 把「学习一门语言」这件事拆成了阅读、书写、听说多个产品，每一个都打磨得很有温度。"
+  "<strong>一句话：</strong>一个「Code Design and Crafts」（GitHub 简介）的人：在 iOS 开源圈以漂亮的动效库成名，独立后把设计和代码都用在了语言学习上。",
+  "<strong>代表作：</strong>Kana Origin（App Store 4.92 分，377 个评分）、Oyomi 捧读（4.82 分）、Hanami 日语手写输入法、小记、PNChart（★9,632）、Waver、Yep（Catch 团队）；2026 年的 Rungic 与 Raft Flutter 客户端。",
+  "<strong>关键数字：</strong>X 关注者约 4 万、推文 4 万多条；GitHub 粉丝 3,912；参与的 Miraa 在 App Store 有 1,329 个评分、平均 4.58。",
+  "<strong>自我介绍：</strong>「Maker｜INTP-T｜Nikon Z6 📸」；Base 在日本越谷和中国青岛；著有《PRODUCTER：Build a product from 0 to 1》。"
  ],
- "lead": "Kevin 的 X 账号 2009 年就注册了，GitHub 简介是三个词：「Code Design and Crafts」。2025 年 3 月，TA 在博客上写：「最近经常想起自己为什么离开公司自己做产品，都已经是 7 年前的事情了。当时为了能够按照自己的意志去做产品，做一款足够独特、有趣的产品。」",
+ "lead": "2025 年 3 月，Kevin 在博客写下一段短短的文字：「最近经常想起自己为什么离开公司自己做产品，都已经是 7 年前的事情了。当时为了能够按照自己的意志去做产品，做一款足够独特、有趣的产品。这些年事情虽然做得慢了些，但现在对这个目标有了更好的想法、更成熟的思考。」",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者、设计师、作者（App Store 开发者署名：楷雯 周）"],
+     ["所在地", "日本埼玉县越谷市 / 中国青岛"],
+     ["经历", "iOS 开源作者 → Catch 团队（Yep）→ 2018 年独立 → 移居日本做日语学习工具 → 参与 Miraa（Myoland, Inc.）"],
+     ["代表作", "Kana Origin、Oyomi、Hanami、小记、一炷香、FilmMentor、PNChart、Waver、Rungic"],
+     ["技术栈", "Swift、Objective-C、Dart / Flutter、Python、Kotlin；服务端写过 Swift on Server"],
+     ["书", "《PRODUCTER：Build a product from 0 to 1》"],
+     ["设计", "在 Dribbble 分享设计；Nikon Z6 摄影"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Kevin 的产品围绕一个主题展开：<strong>学日语</strong>。Kana Origin 从假名和汉字的渊源教你认假名；Oyomi 用机器学习给日语句子分词、标注词性和汉字读音，帮你读小说和新闻；Hanami 是注重准确和隐私的日语手写输入法；Oyomi TV 把单词卡搬上 Apple TV；而 Miraa 则用 AI 把你喜欢的视频和播客转写成双语字幕，再陪你一句句跟读。"},
+    {"p": "这是一个典型的「在生活的地方找需求」的故事：住在日本，身边就是需要学日语的人，自己也是。"},
+    {"note": "本页依据 Kevin Blog、GitHub 主页、App Store 与 Miraa 官网整理，资料截至 2026 年 10 月。TA 在 Miraa / Myoland 的具体角色未见公开说明。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2013",
-       "title": "PNChart",
-       "text": "一个「简单又漂亮」的 iOS 图表库，最初用于 TA 参与的 Piner 和 CoinsMan 两款 App。它成为国人开源 iOS 库里最知名的作品之一，接近一万星。"
-      },
-      {
-       "when": "2014–2015",
-       "title": "动效与设计实验",
-       "text": "Waver（Siri 式声波）、RealtimeGradientText、NaughtyImageView（精灵图动画）、RichTextView（基于 TextKit），还有一个名为「ios-with-girlfriend」的教学 Demo。设计与代码的结合在这一时期成形，TA 也在 Dribbble 上分享设计。"
-      },
-      {
-       "when": "2015",
-       "title": "Catch 与 Yep",
-       "text": "与 Nix Zhu 等人在 Catch 团队开发社交 App Yep（「Meet Genius」，帮人找到身边有技能的人）。项目后来完整开源，获得近六千星，是当年国内最知名的 Swift 开源 App 之一。"
-      },
-      {
-       "when": "2018",
-       "title": "离开公司，独立做产品",
-       "text": "按照自己的意志去做「独特、有趣」的产品。之后来到日本，开始做日语学习工具。"
-      },
-      {
-       "when": "2019–2023",
-       "title": "Oyomi 捧读 与 Kana Origin",
-       "text": "Oyomi 是 AI 日语阅读器：语法分析、词性标注、EPUB 阅读、朗读，2023 年加入「OCR 工作台」，一拍扫尽不懂的日语。Kana Origin 帮助入门者学习假名，Hanami 则是日语手写输入法。"
-      },
-      {
-       "when": "2023",
-       "title": "Swift on Server Tour",
-       "text": "在博客连载七篇《Swift on Server Tour》，从「为什么这可能是你的好选择」讲到构建完整 API，此前还写过用 Swift 编写 WebAssembly。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "新的副本：Miraa 与 Agent",
-       "text": "2025 年 3 月写下《写在新的旅程开始前》，之后参与 Miraa（AI 转写 + 跟读的多语言学习助手）。2026 年开源 Rungic（「掌上 AgentOS」：一台 Android 手机就是一台 Linux 桌面电脑 + 帮你干活的助手），以及 Raft 的原生 Flutter 客户端。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2009–2011", "title": "注册 X 与 GitHub", "text": "X 账号 2009 年注册，至今四万多条推文。"},
+     {"when": "2013.11", "title": "PNChart", "text": "「一个简单又漂亮、带动画的 iOS 图表库」，最初用在 Piner 和 CoinsMan 两款 App 里，后来近万星，并有 Swift 版本（★1.4 千）。"},
+     {"when": "2014–2015", "title": "动效与设计实验", "text": "Waver（Siri 式声波，★790）、RealtimeGradientText（★627，配套博文《Fun With CALayer Mask》）、NaughtyImageView（精灵图动画）、基于 TextKit 的 RichTextView、POP 动画演示，以及一个叫 ios-with-girlfriend 的教学 Demo。"},
+     {"when": "2015", "title": "Catch 与 Yep；小记、一炷香", "text": "与 Nix Zhu 等人在 Catch 团队做社交 App Yep，后来完整开源。同年发布用「聚珍仿宋」字体和竖排留白做的笔记 App 小记，以及古风冥想白噪音 App 一炷香。"},
+     {"when": "2018", "title": "离开公司，独立做产品", "text": "4 月发布 Mac 视频片段管理工具 FilmMentor；11 月发布 Kana Origin，开启日语学习产品线。"},
+     {"when": "2020", "title": "Oyomi 捧读", "text": "AI 日语阅读器：机器学习分词与词性标注、语义分析、EPUB 阅读与朗读。2023 年加入「OCR 工作台」，「将不懂的日语一拍扫尽」。"},
+     {"when": "2023", "title": "Hanami 与 Swift on Server Tour", "text": "发布 Hanami 手写输入法和 Oyomi TV；在博客连载七篇《Swift on Server Tour》，此前还写过用 Swift 编写 WebAssembly。"},
+     {"when": "2025.03", "title": "新的副本", "text": "写下《写在新的旅程开始前》：「7 年间发生了很多事情……但今天我真的迈入新的副本了。」之后开始参与 Miraa。"},
+     {"when": "2026", "title": "Rungic 与 Raft", "text": "开源 Rungic：「掌上 AgentOS」，一台 Android 手机就是一台完整的 Linux 桌面电脑，外加一个替你干活的助手；10 月发布 Raft 的原生 Flutter 客户端。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Miraa",
-       "meta": "AI 语言学习",
-       "text": "转写 + 跟读的双语 AI 学习助手，支持英、日、德、意、法、中。",
-       "url": "https://miraa.app"
-      },
-      {
-       "name": "Oyomi 捧读",
-       "meta": "iOS · 日语阅读",
-       "text": "AI 日语阅读器：语法分析、词性标注、EPUB、TTS、OCR 工作台。",
-       "url": "https://apps.apple.com/cn/app/id1474251984"
-      },
-      {
-       "name": "PNChart",
-       "meta": "2013 · Objective-C · ★9.6k",
-       "text": "简单又漂亮的 iOS 图表库，后来还有 Swift 版本。",
-       "url": "https://github.com/kevinzhow/PNChart"
-      },
-      {
-       "name": "Rungic",
-       "meta": "2026 · Python",
-       "text": "把一台 Android 手机变成完整的 Linux 桌面电脑，外加一个替你干活的助手。",
-       "url": "https://github.com/kevinzhow/Rungic"
-      }
+    {"work": {
+     "name": "Kana Origin", "url": "https://apps.apple.com/us/app/kana-origin/id1439222882",
+     "meta": ["2018", "iOS + Android", "假名学习"],
+     "paras": [
+      "「This is an app for learning Japanese Kana, but it's more than that.」它从假名的起源讲起：每个假名来自哪个汉字、两者是什么关系，帮你理解而不是死记、并区分形近的假名；还带快速查询。377 个评分、平均 4.92 分，是 Kevin 口碑最好的作品。"
+     ],
+     "facts": [["首发", "2018-11-13"], ["评分", "4.92（377）"], ["最近更新", "v1.3.32（2025-09）"]]
+    }},
+    {"work": {
+     "name": "Oyomi 捧读", "url": "https://apps.apple.com/us/app/oyomi-ai-japanese-reader/id1474251984",
+     "meta": ["2020", "iOS + Android", "AI 日语阅读器"],
+     "paras": [
+      "一个日语「语法分析器」和学习 App：用机器学习自动断句，标注句子和段落里的词性与汉字读音，做语义分析，支持 EPUB 阅读和朗读。2023 年的「OCR 工作台」让你拍一张照片就能把不懂的日语全部解析出来。Kevin 还专门写过英文教程，教人用它读小说和新闻学日语。"
+     ],
+     "facts": [["首发", "2020-03-25"], ["评分", "4.82（120）"], ["最近更新", "v1.5.19（2026-07）"]]
+    }},
+    {"work": {
+     "name": "Miraa", "url": "https://miraa.app",
+     "meta": ["2024", "iOS + Android", "Myoland, Inc."],
+     "paras": [
+      "「Seamlessly transcribe your media into echoing material.」把你喜欢的视频和播客用 AI 转写成字幕，实时翻译成你的语言，跟着指示条按自己的节奏跟读，遇到难点可以直接和 AI 对话请它解释。支持英、日、德、意、法、中等多种语言。Kevin 在 X 简介里把它列为自己正在做的产品之一。"
+     ],
+     "facts": [["App Store 首发", "2024-02-12"], ["评分", "4.58（1,329）"], ["版本", "1.15.0（2026-09）"]]
+    }},
+    {"work": {
+     "name": "PNChart", "url": "https://github.com/kevinzhow/PNChart",
+     "meta": ["2013", "Objective-C", "★9.6 千"],
+     "paras": [
+      "折线图、柱状图、饼图、圆环图，每种都带入场动画。它当年成为国人开源 iOS 库里最知名的作品之一，重点不在功能多，而在「简单又漂亮」：一个设计师式的开源库。"
+     ],
+     "facts": [["GitHub", "★9,632 · ⑂1,733"], ["Swift 版", "★1,366"]]
+    }},
+    {"h3": "其他 App"},
+    {"table": {
+     "cols": ["App", "年份", "说明"],
+     "rows": [
+      ["小记", "2015", "「聚珍仿宋」刻本字体 + 竖排留白的笔记 App，iCloud 同步，可显示农历，4.62 分"],
+      ["一炷香", "2015", "古风冥想与白噪音：「焚香静坐，去浊存清」"],
+      ["FilmMentor", "2018", "给视频片段打标签、可检索、可导出 GIF / ProRes 的 Mac 工具"],
+      ["Hanami", "2023", "注重准确与隐私的日语手写输入法"],
+      ["Oyomi TV", "2023", "Apple TV 上的日语单词卡"]
      ]
-    }
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub 简介是「Code Design and Crafts」。仓库语言分布（按仓库数）以 Swift 和 Objective-C 为主，近年加入 Dart 和 Python。高星项目几乎都是 2013–2015 年的动效与 UI 库，2026 年则重新活跃。"},
+    {"table": {
+     "cols": ["仓库", "★", "年份", "说明"],
+     "rows": [
+      ["PNChart", "9,632", "2013", "带动画的 iOS 图表库"],
+      ["PNChart-Swift", "1,366", "2014", "PNChart 的 Swift 实现"],
+      ["Waver", "790", "2014", "Siri 式声波效果"],
+      ["RealtimeGradientText", "627", "2015", "实时渐变文字"],
+      ["Rungic", "414", "2026", "把 Android 手机变成 Linux 桌面 + Agent 的「掌上 AgentOS」"],
+      ["NaughtyImageView", "254", "2015", "让 UIImageView 播放精灵图动画"],
+      ["raft-flutter", "89", "2026", "Raft 的原生 Flutter 客户端"],
+      ["albatross", "27", "2022", "Swift 写的 webhook 处理器"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://blog.kevinzhow.com",
-      "paras": [
-       "Kevin Blog 由 Typlog 驱动，副标题「All about life moments and my products」，中英双语切换。",
-       "About 页写着：Maker、INTP-T、Nikon Z6 📸；Base 在日本越谷与中国青岛；下面列出三款 App 的 App Store 评分和 TA 的书《PRODUCTER》。"
-      ]
-     }
-    },
-    {
-     "p": "博客的话题非常「生活」：没有光纤的日子怎么自制家庭 Wi-Fi、在 780M 核显上跑 ROCm 和 Ollama、懒猫微服体验、纪念左耳朵耗子。2025 年的「产品随想」系列则开始系统谈产品力。"
-    }
+    {"site": {"url": "https://blog.kevinzhow.com", "paras": [
+     "Kevin Blog 由 Typlog 驱动，副标题「All about life moments and my products」，中英双语切换。About 页写着 Maker、INTP-T、Nikon Z6 📸，列出 Base 在越谷和青岛，下面是三款 App 的 App Store 评分卡片和那本书。",
+     "话题非常「生活」：没有光纤的日子怎么自制家庭 Wi-Fi、在 780M 核显上跑 ROCm 和 Ollama、懒猫微服体验、纪念左耳朵耗子、想念自然与青春。2025 年的「产品随想」系列则开始系统谈产品力。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["平台", "Typlog（中文独立博客平台），Cloudflare"],
+      ["语言", "中文为主，部分文章有英文版；英文博客另在 Medium"],
+      ["系列", "《Swift on Server Tour》0–6、产品随想 1–2"],
+      ["导航", "Linktree 汇总了 App、书、博客、Dribbble 和社交账号"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "quote": "产品哪里出了问题，就是那里的人才密度出了问题。",
-     "cite": "Kevin Zhow《产品随想 2：产品力与人才密度》"
-    },
-    {
-     "p": "TA 在这篇文章里写：自己对一个产品的想法在发布前至少会变更三次；遇到有产品感的设计师，「最后可能是 TA 告诉你应该怎么做」。这是一个做了十几年产品的人对「谁在做产品」的诚实回答。"
-    },
-    {
-     "p": "TA 的作品在视觉上都很轻：PNChart 的动画曲线、Waver 的声波、Oyomi 的阅读界面，都在追求「看起来简单」。这背后是设计师和工程师两种身份的长期磨合。"
-    }
+    {"posts": [
+     {"date": "2025-08-31", "title": "产品随想 2：产品力与人才密度", "url": "https://blog.kevinzhow.com/posts/chan-pin-sui-xiang-2-chan-pin-li-yu-ren-cai-mi-du/zh"},
+     {"date": "2025-08-29", "title": "产品随想 1：做营销还是做产品", "url": "https://blog.kevinzhow.com/posts/chan-pin-sui-xiang-1-zuo-ying-xiao-huan-shi-zuo-chan-pin/zh"},
+     {"date": "2025-03-20", "title": "写在新的旅程开始前", "url": "https://blog.kevinzhow.com/posts/new-beginning/zh"},
+     {"date": "2023-07-18", "title": "将不懂的日语一拍扫尽，介绍捧读全新的「OCR 工作台」功能", "url": "https://blog.kevinzhow.com"},
+     {"date": "2023-06-11", "title": "Swift on Server Tour 0：为什么这可能是你的好选择", "url": "https://blog.kevinzhow.com"},
+     {"date": "2023-05-15", "title": "纪念左耳朵耗子", "url": "https://blog.kevinzhow.com"}
+    ]},
+    {"quote": "产品哪里出了问题，就是那里的人才密度出了问题。", "cite": "Kevin Zhow，《产品随想 2》"},
+    {"p": "在这篇文章里，TA 写道：对一个产品的想法，自己在发布前至少会变更三次；「碰上有产品感的设计师，最后可能是他告诉你应该怎么做」；而蹩脚的产品、修不完的 Bug，「并没有什么很复杂的原因，这就是人才密度的现状，而且要把自己算进去」。"},
+    {"p": "在《做营销还是做产品》里，TA 把这个老问题拆成「伪产品」和「伪营销」：看不上营销的人，其实看不上的是销售手段；轻视产品的人，看不上的是「自嗨式打磨」，那其实是在做手工艺品。好的营销和产品是一体的。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "围绕「学日语」形成产品矩阵，单品口碑极好（Kana Origin 4.92 分）", "多款 App 评分数量不大，用户规模相对小众"],
+      ["设计", "设计师出身，动效与排版有辨识度", "作者自述「这些年事情做得慢了些」"],
+      ["技术", "从 iOS 到 Swift 服务端、Flutter、Android Agent 都有涉猎", "老开源库（PNChart 等）已多年未更新"],
+      ["写作", "产品随想观点鲜明、篇幅短小", "博客更新不频繁"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>围绕一个主题做产品矩阵：</strong>读、写、听、说，每个环节一个工具。",
-      "<strong>在生活的地方找需求：</strong>住在日本，就为学日语的人做工具。",
-      "<strong>漂亮的开源库是最好的作品集：</strong>PNChart 十几年后仍是 TA 的名片。",
-      "<strong>诚实面对节奏：</strong>「这些年事情虽然做得慢了些，但现在有了更成熟的思考。」"
-     ]
-    }
+    {"checklist": [
+     "<strong>围绕一个主题做产品矩阵：</strong>认字、阅读、输入、跟读，每个环节一个工具。",
+     "<strong>在生活的地方找需求：</strong>住在日本，就为学日语的人做工具。",
+     "<strong>漂亮的开源库是最好的作品集：</strong>PNChart 十几年后仍是 TA 的名片。",
+     "<strong>认清人才密度：</strong>产品是团队状态和能力的映射，要把自己也算进去。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Kana Origin", "url": "https://apps.apple.com/us/app/kana-origin/id1439222882", "why": "如果你正在学日语，从假名的起源开始认字。"},
+     {"name": "产品随想 2：产品力与人才密度", "url": "https://blog.kevinzhow.com/posts/chan-pin-sui-xiang-2-chan-pin-li-yu-ren-cai-mi-du/zh", "why": "一篇很短、但很诚实的关于「产品到底是谁做出来的」的思考。"},
+     {"name": "PNChart", "url": "https://github.com/kevinzhow/PNChart", "why": "看一个设计师怎样写出「简单又漂亮」的开源库。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你在学日语，试试 Oyomi 或 Miraa。",
+ "cta": "如果你在学日语，装一个 Kana Origin 或 Miraa 试试。",
  "sources": [
-  {
-   "label": "kevinzhow 的 X 个人资料",
-   "url": "https://x.com/kevinzhow"
-  },
-  {
-   "label": "Kevin Blog",
-   "url": "https://blog.kevinzhow.com"
-  },
-  {
-   "label": "Kevin Blog：写在新的旅程开始前",
-   "url": "https://blog.kevinzhow.com/posts/new-beginning/zh"
-  },
-  {
-   "label": "Kevin Blog：产品随想 2",
-   "url": "https://blog.kevinzhow.com/posts/chan-pin-sui-xiang-2-chan-pin-li-yu-ren-cai-mi-du/zh"
-  },
-  {
-   "label": "GitHub：kevinzhow",
-   "url": "https://github.com/kevinzhow"
-  },
-  {
-   "label": "Linktree：kevinzhow",
-   "url": "https://linktr.ee/kevinzhow"
-  },
-  {
-   "label": "Oyomi App Store 页面",
-   "url": "https://apps.apple.com/cn/app/id1474251984"
-  },
-  {
-   "label": "GitHub：CatchChat/Yep",
-   "url": "https://github.com/CatchChat/Yep"
-  }
+  {"label": "kevinzhow 的 X 个人资料", "url": "https://x.com/kevinzhow"},
+  {"label": "Kevin Blog", "url": "https://blog.kevinzhow.com"},
+  {"label": "Kevin Blog：写在新的旅程开始前", "url": "https://blog.kevinzhow.com/posts/new-beginning/zh"},
+  {"label": "Kevin Blog：产品随想 2", "url": "https://blog.kevinzhow.com/posts/chan-pin-sui-xiang-2-chan-pin-li-yu-ren-cai-mi-du/zh"},
+  {"label": "Kevin Blog：产品随想 1", "url": "https://blog.kevinzhow.com/posts/chan-pin-sui-xiang-1-zuo-ying-xiao-huan-shi-zuo-chan-pin/zh"},
+  {"label": "GitHub：kevinzhow", "url": "https://github.com/kevinzhow"},
+  {"label": "App Store：Kana Origin", "url": "https://apps.apple.com/us/app/kana-origin/id1439222882"},
+  {"label": "App Store：Oyomi", "url": "https://apps.apple.com/us/app/oyomi-ai-japanese-reader/id1474251984"},
+  {"label": "App Store：Miraa", "url": "https://apps.apple.com/us/app/miraa-ai-transcribe-shadow/id6462883096"},
+  {"label": "Miraa 官网", "url": "https://miraa.app"},
+  {"label": "GitHub：CatchChat/Yep", "url": "https://github.com/CatchChat/Yep"},
+  {"label": "Linktree：kevinzhow", "url": "https://linktr.ee/kevinzhow"}
  ]
 }

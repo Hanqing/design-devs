@@ -1,156 +1,167 @@
 {
- "name": "DTD · CapWords",
+ "name": "CapWords 团队（DTD）",
  "role": "CapWords 团队 · Apple 设计大奖得主",
  "title": "CapWords：把世界<em>撕成贴纸</em>来学语言",
- "dek": "一个父亲陪女儿放学时被一块路牌难住，于是做了一个 App：拍下身边的东西，把它像贴纸一样「撕」下来，变成一张多语言单词卡。它拿下了 2025 年 Apple 设计大奖「趣味与愉悦」类别。",
- "card": "CapWords 团队，2025 Apple 设计大奖「趣味与愉悦」得主、App Store 年度 App。",
- "location": "中国",
- "tags": [
-  "iOS",
-  "语言学习",
-  "AI",
-  "Apple Design Award",
-  "交互设计"
- ],
+ "dek": "一位父亲陪女儿放学时被一块路牌难住，于是和朋友用四个月做了一个 App：拍下身边的东西，把它像贴纸一样「撕」下来，变成一张多语言单词卡。这个只有三个人的北京团队，拿下了 2025 年 Apple 设计大奖「趣味与愉悦」类别，又成为 2025 年 App Store 中国大陆区年度 App。",
+ "card": "CapWords 开发团队：2025 Apple 设计大奖「趣味与愉悦」得主、App Store 中国大陆区年度 App；2026 年推出 CapMusic。",
+ "location": "中国北京",
+ "updated": "2026-10-21",
+ "tags": ["iOS", "语言学习", "交互设计", "VisionKit", "AI"],
  "links": [
-  {
-   "label": "CapWords",
-   "url": "https://www.capwords.app"
-  },
-  {
-   "label": "App Store",
-   "url": "https://apps.apple.com/us/app/capwords-ai-snap-learn-langs/id6738896465"
-  }
+  {"label": "CapWords", "url": "https://www.capwords.app"},
+  {"label": "Our Story", "url": "https://www.capwords.app/about"},
+  {"label": "Apple 开发者专访", "url": "https://developer.apple.com/articles/capwords"}
  ],
  "summary": [
-  "<strong>一句话：</strong>@DTD_STUDIOS 是 CapWords 背后的团队账号，开发商在苹果新闻稿中署名为 HappyPlan Tech（中国）。",
-  "<strong>荣誉：</strong>2025 Apple Design Awards「Delight and Fun（趣味与愉悦）」类别获奖 App（同届游戏类获奖者是 Balatro），并获 App Store Awards 年度 App。",
-  "<strong>为什么值得关注：</strong>它证明了 AI 产品可以很温暖。有用户说它是「我用过最温暖、最有人情味的 AI」。"
+  "<strong>一句话：</strong>@DTD_STUDIOS 是 CapWords 背后的团队账号。开发商 HappyPlan Tech 由 Ace Lee 创办，据 Apple 开发者网站的专访，团队只有 3 个人、在北京，从想法到上线用了四个月。",
+  "<strong>代表作：</strong>CapWords（拍照把物体变成多语言单词贴纸，App Store 604 个评分、平均 4.68）、CapMusic（2026 年 8 月上架，用一张照片生成 Apple Music 歌单）。",
+  "<strong>荣誉：</strong>2025 Apple Design Award「Delight and Fun」类别得主；2025 App Store Awards 中国大陆区年度 App；App Store「今日 App」与编辑推荐。",
+  "<strong>看点：</strong>没有服务器：照片只发给 AI 模型做一次识别就删除，不在本地保存，也不上传；抠图用的是苹果自带的 VisionKit，而不是内置大模型。"
  ],
- "lead": "CapWords 的官网有一页叫「Why We Built CapWords」。故事从 2022 年开始：创始人的女儿在他办公室附近上幼儿园，每天放学路上都会指着东西问「这个用英语怎么说？」直到有一天，她指着一块路牌，他答不上来，打开翻译 App，听到一个机械的声音说：「Signpost.」女儿只是轻轻「哦」了一声。",
+ "lead": "CapWords 官网的「Our Story」完全用第一人称写成：女儿指着路牌问这叫什么，他答不上来，打开翻译 App，听到一个机械的声音说「Signpost」。「她只是轻轻地『哦』了一声，我能感觉到少了点什么。」那一刻他意识到：语言学习应该是自然的、温暖的，是日常生活的一部分。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["团队", "HappyPlan Tech（北京），创始人 Ace Lee；核心开发成员包括他的好友 Clu Soh；团队共 3 人（据 Apple 开发者专访）"],
+     ["账号", "X @DTD_STUDIOS，简介「Building CapWords」"],
+     ["代表作", "CapWords（2025）、CapMusic（2026）"],
+     ["荣誉", "2025 Apple Design Award（Delight and Fun）、2025 App Store Awards 中国大陆区年度 App"],
+     ["技术", "VisionKit 抠图、GPT-4 识别物体、AVAudioEngine 与神经网络语音、CloudKit 同步"],
+     ["开发周期", "从想法到上线约四个月"],
+     ["官网", "capwords.app（Framer）"]
+    ]},
+    {"h3": "他们到底在做什么？"},
+    {"p": "CapWords 的核心体验只有一个动作：<strong>拍一下</strong>。家里的咖啡杯、街边的路障、手里的纸杯蛋糕，拍下来后主体会被抠出来，带着白边，像一张真正的贴纸被揭下；同时给出目标语言的单词、发音和例句，收进你的私人单词本，之后用智能单词卡复习。它支持 9 种语言，没有广告。"},
+    {"p": "2026 年 8 月，团队把同样的思路用到音乐上：CapMusic 读一张照片里的光线、天气、颜色、空间、人物和情绪，生成一份 Apple Music 歌单。「你看到的东西，变成了音乐。」"},
+    {"note": "本页依据 CapWords 官网与 Our Story、Presskit、Apple 开发者网站专访《Behind the appealing design of CapWords》、Apple Newsroom 和 App Store 整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "产品的故事",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2022",
-       "title": "放学路上的提问",
-       "text": "女儿指着路边的东西问英语怎么说，妻子教她 road、building，她学得飞快。一次路牌的提问让创始人意识到：语言学习应该自然、温暖，是日常生活的一部分，而不是冰冷机械的。"
-      },
-      {
-       "when": "灵感",
-       "title": "贴纸",
-       "text": "女儿从两岁起就喜欢到处贴贴纸：冰箱、沙发，甚至爸爸的脸，每次都认真得像在创作。于是他想：「如果能把真实世界里的东西像贴纸一样撕下来收集呢？」"
-      },
-      {
-       "when": "2024–2025",
-       "title": "CapWords 上线",
-       "text": "拍下物体，AI 识别并抠出主体，生成带多语言单词、发音和例句的「贴纸卡片」。家里、街上、旅行中，世界变成了一本私人课本。"
-      },
-      {
-       "when": "2025-06",
-       "title": "Apple 设计大奖",
-       "text": "在 WWDC25 获得 Apple Design Award「Delight and Fun」类别大奖。同年获 App Store Awards 年度 App。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2022", "title": "放学路上的提问", "text": "女儿在办公室附近上幼儿园，每天回家路上都指着东西问「这个用英语怎么说」。妻子教她 road、building，她学得飞快，他自己也跟着学了不少。直到那块答不上来的路牌。"},
+     {"when": "灵感", "title": "贴纸", "text": "女儿从两岁起就喜欢到处贴贴纸：冰箱、沙发，甚至爸爸的脸，每次都认真得像在创作艺术。于是他想：「如果能把真实世界里的东西像贴纸一样『撕』下来收集呢？」Apple 的专访打趣说，这个概念「来自一位更资浅的同事」。"},
+     {"when": "四个月", "title": "从想法到上线", "text": "先研究在设备端运行的抠图模型，发现要么得预先下载、占空间，要么对边缘不清晰的物体效果差；最后改用系统自带的 VisionKit。识别则交给当时刚发布的 GPT-4。"},
+     {"when": "2025.02", "title": "CapWords 上架", "text": "App Store 首发于 2025 年 2 月 14 日。"},
+     {"when": "2025.06", "title": "Apple 设计大奖", "text": "在 WWDC25 获得 Apple Design Award「Delight and Fun」类别大奖。Apple 的介绍是：一款把日常物品的照片变成可交互贴纸的动态语言学习工具。"},
+     {"when": "2025.12", "title": "年度 App", "text": "12 月 5 日，Apple 公布 2025 App Store Awards，CapWords 成为中国大陆区年度 App（这一年中国大陆区单独评选）。同月，Apple 开发者网站发布专访。"},
+     {"when": "2026.08", "title": "CapMusic", "text": "第二款产品上架：用照片生成 Apple Music 歌单。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "作品",
+   "title": "作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "CapWords",
-       "meta": "iOS · 2025 ADA",
-       "text": "New Languages, Familiar World. 把日常物品变成多语言老师：指一指、拍一拍，周围就是语言游乐场。",
-       "url": "https://www.capwords.app"
-      },
-      {
-       "name": "Our Story",
-       "meta": "官网故事页",
-       "text": "一个关于女儿、路牌和贴纸的创业故事。",
-       "url": "https://www.capwords.app/about"
-      }
-     ]
-    }
+    {"work": {
+     "name": "CapWords", "url": "https://www.capwords.app",
+     "meta": ["2025", "iPhone · iPad", "9 种语言"],
+     "paras": [
+      "「New Languages, Familiar World.」它把日常物品变成多语言老师：在家里、在街上、在旅途中，周围就是一本私人课本。官网列出的四个场景是：家庭时光、旅行与跨文化探索、城市冒险、校园学习与工作。",
+      "Apple 专访里，团队把处理流程概括为四步：<strong>拍摄 → 去背景 → 确认 → 展示结果</strong>。中间那个「确认」并不只是交互礼貌：用户确认要收集的物体时，后台正好有时间拿到 AI 的结果；再配上一段微动画，用户几乎感觉不到等待。"
+     ],
+     "bullets": [
+      "<strong>抠图：</strong>VisionKit，「不需要在 App 里塞进大模型，效果却非常好」。",
+      "<strong>识别：</strong>把 VisionKit 抠出来的物体喂给 GPT-4，问「这是什么？请用中文、法语、西班牙语……告诉我」。",
+      "<strong>声音：</strong>AVAudioEngine 播放，神经网络语音让发音更自然。",
+      "<strong>同步：</strong>CloudKit 在 iPhone 和 iPad 之间同步。",
+      "<strong>隐私：</strong>不保存用户图片；照片发给 AI 做一次识别后删除；没有自己的服务器。"
+     ],
+     "facts": [["首发", "2025-02-14"], ["评分", "4.68（604）"], ["最新版本", "2.0.13（2026-10）"], ["开发商", "HappyPlan Tech"]]
+    }},
+    {"work": {
+     "name": "CapMusic", "url": "https://apps.apple.com/us/app/capmusic-ai-photo-playlists/id6756539759",
+     "meta": ["2026.08", "iOS", "照片 → 歌单"],
+     "paras": [
+      "「Turn the World in Front of You into Music.」拍下眼前的场景或从相册选一张照片，AI 读取其中的光线、天气、颜色、空间、人物和感受，为你生成一份 Apple Music 歌单。和 CapWords 一样，交互起点仍然是「拍一下身边的世界」。"
+     ],
+     "facts": [["首发", "2026-08-17"], ["版本", "1.0.9"]]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "网站",
+   "title": "官网研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://www.capwords.app",
-      "paras": [
-       "官网用 Framer 制作，大标题「Learn a new language from familiar things」被逐字母拆开排布，像一张张贴纸。",
-       "场景板块列出：家庭时光、旅行与跨文化探索、城市冒险、校园学习与工作，滚动循环展示。导航只有 Our Story、Press、Support 三项。"
-      ]
-     }
-    },
-    {
-     "p": "「Our Story」页面完全用第一人称讲述，没有任何营销术语，读起来像一封家书。这是这个团队最有辨识度的地方：产品、网站和故事是同一种语气。"
-    }
+    {"site": {"url": "https://www.capwords.app", "paras": [
+     "官网用 Framer 制作，大标题「Learn a new language from familiar things」被逐字母拆开排布，像一张张贴纸。下面是两枚奖项徽章（App Store 年度 App、Apple 设计大奖），再往下是四个使用场景循环滚动。导航只有 Our Story、Press、Support 三项。",
+     "「Our Story」完全用第一人称讲述，没有任何营销术语，读起来像一封家书。Presskit 页则写着：「No ads. No distractions. Just you and the world of words.」"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Framer 搭建并托管，Google Analytics 统计"],
+      ["语气", "官网、故事页、App Store 描述是同一种温暖的语气"],
+      ["媒体", "Presskit 提供产品介绍与联系方式，方便媒体报道"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "设计理念",
    "blocks": [
-    {
-     "p": "CapWords 最核心的交互是「撕贴纸」：识别物体后，主体会被抠出来，带着白边，像一张真正的贴纸被揭下。这个隐喻来自孩子的日常，因此任何年龄的用户都能立刻理解。"
-    },
-    {
-     "quote": "Language learning should feel natural, a part of everyday life — something warm, not cold or mechanical.",
-     "cite": "CapWords「Why We Built CapWords」"
-    },
-    {
-     "p": "有用户形容使用 CapWords 的感觉「像一个住在地球上的外星人，试图收集并命名每一样东西」。好的交互设计，会让用户自己想出这样的比喻。"
-    }
+    {"quote": "Language learning should feel natural, a part of everyday life — something warm, not cold or mechanical.", "cite": "CapWords，Our Story"},
+    {"quote": "CapWords is grounded in real-world physics: sound, touch, and sight cues. That's why it works so well.", "cite": "Clu Soh，Apple 开发者专访"},
+    {"ul": [
+     "<strong>一个所有人都懂的隐喻：</strong>贴纸。三岁的孩子和成年人都能立刻理解「撕下来、收集起来」。",
+     "<strong>主动参与帮助记忆：</strong>点击拍照、看动画、得到反馈，这些动作本身让记忆更牢。",
+     "<strong>意外的用法：</strong>团队没想到家长和孩子会一起用它探索、收词、复习；有朋友说女儿因此不玩《Pokémon Go》了。",
+     "<strong>用户自己想出的比喻：</strong>有人说用 CapWords 的感觉「像一个住在地球上的外星人，试图收集并命名每一样东西」；还有人说它是「我用过的最温暖、最有人情味的 AI」。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计", "核心隐喻清晰，动画与声音反馈获苹果最高设计奖认可", "单词学习偏向具体物体，抽象词汇与语法不是它的强项"],
+      ["技术", "用系统框架解决难题，体积小、隐私友好", "物体识别依赖外部 AI 模型，需要联网"],
+      ["团队", "三人小团队、四个月上线，执行力强", "团队公开信息很少，创始人对外发声不多"],
+      ["产品线", "第二款产品 CapMusic 延续「拍一下世界」的交互", "CapMusic 刚上线，评价尚少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从他们身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>从一个具体的瞬间出发：</strong>一块答不上来的路牌，胜过一百页市场分析。",
-      "<strong>找到一个所有人都懂的隐喻：</strong>贴纸。",
-      "<strong>让 AI 有温度：</strong>技术藏在背后，前台是收集的乐趣。",
-      "<strong>用第一人称讲故事：</strong>官网的 Our Story 就是最好的品牌。"
-     ]
-    }
+    {"checklist": [
+     "<strong>从一个具体的瞬间出发：</strong>一块答不上来的路牌，胜过一百页市场分析。",
+     "<strong>找到一个所有人都懂的隐喻：</strong>贴纸。",
+     "<strong>先用系统能力：</strong>VisionKit 解决了自研模型解决不好的问题。",
+     "<strong>把等待藏进交互：</strong>确认步骤 + 微动画，让 AI 的延迟变得无感。",
+     "<strong>用第一人称讲故事：</strong>官网的 Our Story 就是最好的品牌。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Behind the appealing design of CapWords", "url": "https://developer.apple.com/articles/capwords", "why": "Apple 官方专访：从路牌、贴纸到 VisionKit 的完整幕后。"},
+     {"name": "Why We Built CapWords", "url": "https://www.capwords.app/about", "why": "两分钟读完，学习如何用一个家庭故事讲清楚产品。"},
+     {"name": "CapWords", "url": "https://apps.apple.com/us/app/capwords-ai-language-tutor/id6738896465", "why": "拍一下你桌上的东西，亲手体验一次「撕贴纸」。"}
+    ]}
    ]
   }
  ],
- "cta": "下载 CapWords，从你桌上的杯子开始学一个新单词。",
+ "cta": "拍一下你身边的东西，看看它在另一种语言里叫什么。",
  "sources": [
-  {
-   "label": "DTD 的 X 个人资料",
-   "url": "https://x.com/DTD_STUDIOS"
-  },
-  {
-   "label": "CapWords 官网",
-   "url": "https://www.capwords.app"
-  },
-  {
-   "label": "CapWords：Why We Built CapWords",
-   "url": "https://www.capwords.app/about"
-  },
-  {
-   "label": "Apple Newsroom：2025 Apple Design Awards 获奖名单",
-   "url": "https://www.apple.com/newsroom/2025/06/apple-unveils-winners-and-finalists-of-the-2025-apple-design-awards/"
-  },
-  {
-   "label": "Design Compass：Apple Design Awards 2025",
-   "url": "https://designcompass.org/en/2025/06/04/apple-design-awards-2025/"
-  }
+  {"label": "DTD 的 X 个人资料", "url": "https://x.com/DTD_STUDIOS"},
+  {"label": "CapWords 官网", "url": "https://www.capwords.app"},
+  {"label": "CapWords：Why We Built CapWords", "url": "https://www.capwords.app/about"},
+  {"label": "CapWords Presskit", "url": "https://www.capwords.app/press"},
+  {"label": "Apple Developer：Behind the appealing design of CapWords", "url": "https://developer.apple.com/articles/capwords"},
+  {"label": "Apple Newsroom：2025 Apple Design Awards 获奖名单", "url": "https://www.apple.com/newsroom/2025/06/apple-unveils-winners-and-finalists-of-the-2025-apple-design-awards/"},
+  {"label": "Apple Newsroom（中国）：2025 App Store Awards 获奖名单", "url": "https://www.apple.com.cn/newsroom/2025/12/apple-unveils-the-winners-of-the-2025-app-store-awards/"},
+  {"label": "少数派：2025 App Store Awards 报道", "url": "https://sspai.com/post/104350"},
+  {"label": "App Store：CapWords", "url": "https://apps.apple.com/us/app/capwords-ai-language-tutor/id6738896465"},
+  {"label": "App Store：CapMusic", "url": "https://apps.apple.com/us/app/capmusic-ai-photo-playlists/id6756539759"}
  ]
 }

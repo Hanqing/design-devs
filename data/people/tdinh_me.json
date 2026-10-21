@@ -2,179 +2,210 @@
  "name": "Tony Dinh",
  "role": "越南独立开发者 · TypingMind 作者",
  "title": "Tony Dinh：从年薪 10 万美元的工程师到<em>一人公司</em>",
- "dek": "2021 年 9 月，TA 辞掉新加坡的工作，没有融资、没有团队、没有粉丝。三年里 TA 做了 DevUtils、Black Magic、Xnapper 和 TypingMind，其中 TypingMind 的月收入超过 13 万美元。TA 把这一切写成了一本书。",
- "card": "TypingMind、DevUtils、Xnapper、Black Magic 作者，《My Indie Book》作者。",
+ "dek": "2021 年 9 月，TA 辞掉新加坡年薪 10.56 万美元的工作，没有融资、没有团队、没有粉丝。此后 TA 做了 DevUtils、Black Magic、Xnapper 和 TypingMind，其中 TypingMind 月收入 13.7 万美元。TA 把这一切写成了一本已卖出 1,700 多本的书，2026 年又一口气发布了六款 iOS App 和一个即将登陆 Steam 的游戏。",
+ "card": "TypingMind（月入 13.7 万美元）、DevUtils 作者；《My Indie Book》作者；X 上 20 万人关注。",
  "location": "越南",
- "tags": [
-  "Indie Hacking",
-  "SaaS",
-  "macOS",
-  "AI",
-  "公开构建"
- ],
+ "updated": "2026-10-21",
+ "tags": ["独立开发", "AI 前端", "macOS", "Build in Public", "SaaS"],
  "links": [
-  {
-   "label": "My Indie Book",
-   "url": "https://www.myindiebook.com"
-  },
-  {
-   "label": "TypingMind",
-   "url": "https://www.typingmind.com"
-  },
-  {
-   "label": "DevUtils",
-   "url": "https://devutils.com"
-  }
+  {"label": "TypingMind", "url": "https://www.typingmind.com"},
+  {"label": "My Indie Book", "url": "https://www.myindiebook.com"},
+  {"label": "DevUtils", "url": "https://devutils.com"},
+  {"label": "GitHub", "url": "https://github.com/trungdq88"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个普通的软件工程师，靠「一人、无融资」的方式，四次把产品从零做到盈利，成为全球 indie hacker 圈最知名的人物之一。",
-  "<strong>代表作：</strong>DevUtils（macOS 开发者工具箱，$5K/月）、Black Magic（Twitter 分析增长工具，$14K/月）、Xnapper（截图美化，$6K/月）、TypingMind（LLM 聊天前端，月收入超过 13 万美元）。",
-  "<strong>为什么值得关注：</strong>TA 完整、透明地公开了每一款产品的收入、失败和教训，并整理成《My Indie Book》，已售出一千七百多本。"
+  "<strong>一句话：</strong>一位越南工程师（本名 Dinh Quang Trung），从新加坡的普通软件工程师做成了全球最知名的一人公司之一；X 简介把每个产品后面都直接写上了月收入。",
+  "<strong>代表作：</strong>TypingMind（AI 聊天前端，20,641+ 付费客户，$137K / 月）、DevUtils（47+ 个离线开发者工具，$5K / 月）、Black Magic（曾做到 $14K / 月）、Xnapper（截图美化，$6K / 月）、《My Indie Book》。",
+  "<strong>关键数字：</strong>X 关注者约 20.6 万、推文 2.8 万多条；GitHub 184 个公开仓库、近一年贡献 6,586 次；书已售出 1,733 本。",
+  "<strong>2026 年：</strong>连续发布 Skyline、Pulse、Aside、Make Website、Fabricly、Tailii 六款 iOS App，3D 网页游戏《Survive 10 Waves》将于 11 月 2 日登陆 Steam。"
  ],
- "lead": "Tony 在书的开头写道：「我只是一个普通的软件工程师，在一家普通的公司年薪 105,600 美元，住在新加坡每月 700 美元的出租屋里。」没有富裕的家庭，没有创业经验，没有人脉，没有粉丝，没有社区。三年后，TA 的产品月收入达到 8.3 万美元；如今 TypingMind 一款产品就超过 13 万美元。",
+ "lead": "《My Indie Book》的开头很朴素：「我只是一个普通的软件工程师，在一家普通公司年薪 105,600 美元，住在新加坡每月 700 美元的出租房里。」TA 没有富裕的家庭、没有创业经验、没有商业人脉、没有社交媒体粉丝。三年后，TA 的产品月收入达到 8.3 万美元；如今，单 TypingMind 一款就是 13.7 万美元。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者，一人公司；App Store 开发者署名 Dinh Quang Trung"],
+     ["所在地", "越南（曾在新加坡工作）"],
+     ["经历", "越南、新加坡的软件工程师 → 2021 年 9 月辞职全职独立开发"],
+     ["代表作", "TypingMind、DevUtils、Xnapper、Black Magic、My Indie Book、Survive 10 Waves"],
+     ["技术栈", "JavaScript / TypeScript（Next.js）、Swift（macOS / iOS）、three.js；早年 Java / Android"],
+     ["收入", "X 简介公开：TypingMind $137K / 月，DevUtils $5K / 月"],
+     ["网站", "myindiebook.com、tonydinh.com"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Tony 做的大多是<strong>站在大平台旁边、补齐体验短板</strong>的生意：DevUtils 把开发者每天去可疑网站上粘贴文本的格式化、解码工具，做成了一个离线、尊重数据的原生 App；TypingMind 在 ChatGPT API 开放后，用你自己的 API Key 提供一个比官方界面更强的聊天前端：多模型、文件夹、提示词库、插件、团队版。"},
+    {"p": "与此同时，TA 是「Build in Public」最坚定的实践者之一：收入、失败、增长曲线都公开，最后汇成一本书。2026 年，TA 又进入了一个高产的实验期：iOS 小 App、AI 建站 App、浏览器 3D 游戏，几乎每月一个。"},
+    {"note": "本页依据 My Indie Book 官网、TypingMind 与 DevUtils 官网、GitHub、App Store 和 X 资料整理，资料截至 2026 年 10 月。收入数字均为 TA 本人公开的数据。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2013–2020",
-       "title": "越南、新加坡，普通工程师",
-       "text": "2013 年注册 GitHub，写过 react-router-page-transition、github-explorer（PWA 实验）、logmine（日志模式分析 CLI）。后在新加坡一家公司做软件工程师。"
-      },
-      {
-       "when": "第一次尝试",
-       "title": "日志查看器",
-       "text": "为了做一个原生日志查看器 App，TA 专门学了 Swift。项目失败了，但 TA 学到第一个心态转变：代码只是工具，不要过度工程化。"
-      },
-      {
-       "when": "2020–2021",
-       "title": "DevUtils：第一笔互联网收入",
-       "text": "把开发者日常需要的格式化、转换、解码工具做成离线的 macOS App，赚到第一笔 9 美元，最终稳定在每月 5000 美元左右。同时 TA 在 Twitter 上从零积累了一万关注者。"
-      },
-      {
-       "when": "2021-09",
-       "title": "辞职，全职 indie hacking",
-       "text": "离开新加坡的工作。随后做了 Twitter 分析与增长工具 Black Magic，做到月入 1.4 万美元，但因为一次「意外事件」失去了它（Twitter API 政策变化）。"
-      },
-      {
-       "when": "2022",
-       "title": "Xnapper",
-       "text": "截图美化与分享工具，做到月入 6000 美元。"
-      },
-      {
-       "when": "2023 至今",
-       "title": "TypingMind",
-       "text": "ChatGPT API 开放后推出 LLM 聊天前端 TypingMind，并扩展到 B2B（团队版），6 个月内反弹到月入 4.5 万美元，之后持续增长到 13 万美元以上。"
-      },
-      {
-       "when": "2024–2026",
-       "title": "写书与新实验",
-       "text": "把 25,000 多条推文、45 篇长文整理成《My Indie Book》；同时继续发布小实验：makeawebsite.app、浏览器游戏 survive10waves.com、基于实时音频识别 YouTube 赞助片段的扩展等。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2013", "title": "注册 GitHub", "text": "最早的项目之一是渲染吉他和弦的 Android 库 ChordDroid，还有个人网站 dinhquangtrung.net。"},
+     {"when": "2016", "title": "前端实验", "text": "github-explorer（★728，PWA 实验：网页能否「看起来、用起来」像原生 App）和 react-router-page-transition（★548）。"},
+     {"when": "2019", "title": "工程师的爱好", "text": "跟着 NAND to Tetris 课程在 Logisim 里搭了一台 16 位计算机，也写了日志模式分析命令行 logmine（★202）。"},
+     {"when": "第一次尝试", "title": "失败的日志查看器", "text": "为了做一个原生日志查看器，TA 专门学了 Swift。项目失败了，但 TA 学到了第一个心态转变：代码只是工具，不要过度工程化。"},
+     {"when": "2020.09", "title": "DevUtils：第一笔 9 美元", "text": "离线的开发者工具合集上架，赚到人生第一笔互联网收入 9 美元，后来稳定在每月约 5,000 美元。同时在 Twitter 上从零积累到一万关注者。"},
+     {"when": "2021.09", "title": "辞职", "text": "离开新加坡的工作，全职独立开发。随后做了 Twitter 分析与增长工具 Black Magic，做到每月 1.4 万美元，但因 Twitter API 政策变化失去了它。"},
+     {"when": "2022", "title": "Xnapper 与黑五清单", "text": "截图美化与分享工具 Xnapper 做到每月 6,000 美元；同年发起独立开发者黑五优惠合集（★7.5 千）。"},
+     {"when": "2023.03", "title": "TypingMind", "text": "ChatGPT API 开放后推出，6 个月内把收入反弹到每月 4.5 万美元，之后扩展到团队版，增长到 13.7 万美元。"},
+     {"when": "2024–2025", "title": "《My Indie Book》", "text": "把两万多条推文、几十篇长文整理成一本关于一人创业的书。"},
+     {"when": "2026", "title": "新一轮实验", "text": "5–8 月发布六款 iOS App；Make Website 用几个问题生成一个完整网站；9 月开源一个用实时音频识别 YouTube 赞助片段的扩展；3D 网页游戏《Survive 10 Waves》将于 11 月 2 日在 Steam 发售。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "TypingMind",
-       "meta": "2023 · $137K/月",
-       "text": "比 ChatGPT 更好用的 LLM 聊天界面，自带 Key、插件、团队版。",
-       "url": "https://www.typingmind.com"
-      },
-      {
-       "name": "DevUtils",
-       "meta": "macOS · $5K/月",
-       "text": "离线的开发者工具合集：JSON、Base64、JWT、正则……",
-       "url": "https://devutils.com"
-      },
-      {
-       "name": "My Indie Book",
-       "meta": "书 · 1700+ 本",
-       "text": "一人创业的完整故事与 30 多个主题的方法论。",
-       "url": "https://www.myindiebook.com"
-      },
-      {
-       "name": "Awesome Black Friday",
-       "meta": "开源 · ★7.5k",
-       "text": "独立开发者黑五优惠合集，社区共建。",
-       "url": "https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday"
-      }
+    {"work": {
+     "name": "TypingMind", "url": "https://www.typingmind.com",
+     "meta": ["2023", "Next.js", "AI 聊天前端"],
+     "paras": [
+      "「The best frontend for AI.」用你自己的 API Key 和 ChatGPT、Claude、Gemini 以及任何大模型聊天，只为实际用量付费。它把官方界面缺的东西一次补齐：多模型无缝切换、聊天资料与文件夹、提示词示例库、插件、本地优先的隐私，以及面向企业的团队版（TypingMind for Teams）。",
+      "商业模式以「终身许可证」为主：买断后长期使用，官网上能看到限时的许可证折扣。首页写着「20,641+ happy customers use TypingMind daily」。"
+     ],
+     "facts": [["月收入", "$137K（X 简介）"], ["客户", "20,641+"], ["技术", "Next.js · Vercel"]]
+    }},
+    {"work": {
+     "name": "DevUtils", "url": "https://devutils.com",
+     "meta": ["2020", "macOS 原生", "离线"],
+     "paras": [
+      "「All-in-one Toolbox for Developers.」47 个以上精心打磨的开发者工具：Unix 时间转换、JSON 格式化、Base64、JWT 调试、正则测试……原生 macOS App，离线工作，尊重你的数据，不用再把敏感文本粘贴到「来路不明」的网站上。也可以 <code>brew install devutils</code>。",
+      "它是 Tony 的起点：第一笔 9 美元来自这里。用户评价里反复出现的词是「constantly open」：一直开着。"
+     ],
+     "facts": [["月收入", "$5K（X 简介）"], ["用户", "10,000+ 开发者"], ["评分", "4.9（官网）"], ["版本", "1.17.0"]]
+    }},
+    {"work": {
+     "name": "《My Indie Book》", "url": "https://www.myindiebook.com",
+     "meta": ["书", "Next.js 官网", "已售 1,733 本"],
+     "paras": [
+      "「Stories and notes about building a one-person startup without funding.」书的官网像一封长信：先讲 TA 的故事和数字，再用卡片列出四个成功产品各自从零到多少月收入，最后是目录。未购买的部分被做成了乱码遮挡，既展示了内容，又留下悬念。"
+     ],
+     "facts": [["售价", "$24（早鸟 $9）"], ["已售", "1,733 本"]]
+    }},
+    {"work": {
+     "name": "Survive 10 Waves", "url": "https://survive10waves.com",
+     "meta": ["2026", "three.js", "Steam · 11 月 2 日"],
+     "paras": [
+      "「Ten waves. One arena that closes in on you.」一个在浏览器里就能玩的 3D 射击生存游戏：守住场地、用赚来的金币升级、在竞技场坍塌前撤离。网页版是演示，完整版将于 11 月 2 日在 Steam 登陆 Windows 和 macOS。TA 还开源了用于生成「机械可展开」风格 3D 模型的提示词。"
      ]
-    }
+    }},
+    {"h3": "2026 年的 iOS 小品"},
+    {"table": {
+     "cols": ["App", "上架", "一句话"],
+     "rows": [
+      ["Skyline", "2026-05", "拍一张登机牌就记下航班，在夜光 3D 地球上画出弧线；无账号、无服务器、飞行模式可用"],
+      ["Pulse", "2026-05", "把 Paddle 账户变成干净的收入仪表盘：今日 / 7 天 / 30 天、续费拆分、国家分布"],
+      ["Aside", "2026-05", "基于 Apple Intelligence 的端侧 AI 聊天，对话从不离开手机，售价 $9.99"],
+      ["Make Website", "2026-06", "回答几个问题，几分钟生成一个完整、漂亮的网站"],
+      ["Fabricly", "2026-06", "拍照或扫洗标，AI 告诉你衣服的面料成分和保养方法"],
+      ["Tailii", "2026-08", "给生日、纪念日做一个「惊喜倒数日历」"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "oss",
+   "title": "开源与 GitHub",
+   "blocks": [
+    {"p": "GitHub（trungdq88）简介是「Write code, build the world 🌍」。184 个公开仓库以 JavaScript 为主，记录了一个工程师从 Android、PWA 到 React、再到 AI 的轨迹。很多仓库是「fun little experiment」：实时更新的 Twitter 横幅、用火焰图读超长 HN 帖子、元胞自动机小游戏。"},
+    {"table": {
+     "cols": ["仓库", "★", "年份", "说明"],
+     "rows": [
+      ["Awesome-Black-Friday-Cyber-Monday", "7,493", "2022", "独立开发者黑五优惠合集；2025 版强调只收人工审核过的高质量软件，「no AI slops」"],
+      ["github-explorer", "728", "2016", "PWA 实验"],
+      ["react-router-page-transition", "548", "2016", "React Router 页面过渡组件"],
+      ["logmine", "202", "2019", "日志模式聚类命令行"],
+      ["youtube-sponsor-detection", "116", "2026", "用实时音频和字幕识别 YouTube 赞助片段"],
+      ["real-time-twitter-banner", "106", "2021", "用 Twitter API 做的实时横幅实验"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://www.myindiebook.com",
-      "paras": [
-       "TA 的 X 简介把主页指向了书：「Stories and notes about building a one-person startup without funding.」",
-       "书的页面像一封长信：先讲 TA 的故事和数字，再用卡片列出四个成功产品各自从零到多少月收入，最后是目录，未购买部分做了乱码遮挡，非常巧妙。"
-      ]
-     }
-    },
-    {
-     "p": "X 简介本身也是一张「产品名片」：每个产品前一个 emoji，后面直接写上月收入。这种透明是 indie hacker 文化的核心。"
-    }
+    {"site": {"url": "https://www.myindiebook.com", "paras": [
+     "X 简介把主页指向了这本书。书页的结构本身就是 TA 的方法论：用真实数字建立信任（年薪、房租、每个产品的月收入），用故事拉近距离（没有背景、没有粉丝），最后用「已售 1,733 本」完成社会证明。",
+     "X 简介也是一张「产品名片」：每个产品前一个 emoji，后面直接写上月收入。这种透明是 indie hacker 文化的核心。"
+    ]}},
+    {"table": {
+     "cols": ["站点", "技术", "特点"],
+     "rows": [
+      ["typingmind.com", "Next.js · Vercel", "首页就是产品本身，打开即可开始聊天"],
+      ["devutils.com", "Next.js · Cloudflare", "47+ 工具、4.9 分、10,000+ 开发者，三个数字讲清价值"],
+      ["myindiebook.com", "Next.js · Vercel", "长信式销售页，目录乱码遮挡"],
+      ["survive10waves.com", "three.js", "整个网站就是游戏"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与方法",
+   "id": "voice",
+   "title": "方法与观点",
    "blocks": [
-    {
-     "p": "Tony 的产品界面都很朴素，但非常「顺手」：DevUtils 自动识别剪贴板里的内容并推荐工具；TypingMind 把 ChatGPT 缺的功能（搜索、文件夹、提示词库）一次补齐。TA 做的是<strong>站在现有平台旁边、补齐体验短板</strong>的生意。"
-    },
-    {
-     "quote": "A good product is not enough. Organic growth doesn't always work.",
-     "cite": "《My Indie Book》章节标题"
-    }
+    {"quote": "A good product is not enough. Organic growth doesn't always work.", "cite": "Tony Dinh"},
+    {"ul": [
+     "<strong>先建立受众：</strong>做一个有趣的人，认真回复别人，一万关注者是 TA 所有产品的起点。",
+     "<strong>多次下注：</strong>十几次失败、四次成功，成功率不需要很高，但要足够多次。",
+     "<strong>平台风险真实存在：</strong>Black Magic 做到月入 1.4 万美元，却因为 Twitter API 政策变化失去了它。",
+     "<strong>代码只是工具：</strong>第一次失败教会 TA 不要过度工程化。",
+     "<strong>透明就是营销：</strong>公开收入和失败，换来信任与传播。"
+    ]}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["商业", "多款产品验证过付费意愿，TypingMind 规模可观", "TypingMind 依赖各家模型 API，且官方客户端在不断变强"],
+      ["分发", "20 万 X 关注者，发布即有流量", "增长高度依赖个人影响力"],
+      ["产品", "朴素而顺手，专补平台短板", "2026 年的新 App 评分很少，尚未验证"],
+      ["透明", "收入与失败全部公开，极具参考价值", "公开数字以 TA 自报为准，外界无法完全核实"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>先建立受众：</strong>做一个有趣的人，认真回复别人，一万关注者是 TA 所有产品的起点。",
-      "<strong>多次下注：</strong>10 多次失败、4 次成功，成功率不需要很高。",
-      "<strong>平台风险真实存在：</strong>Black Magic 的教训是不要把命运押在别人的 API 上。",
-      "<strong>透明就是营销：</strong>公开收入和失败，换来信任与传播。"
-     ]
-    }
+    {"checklist": [
+     "<strong>从一个小工具开始：</strong>第一笔 9 美元，比任何商业计划都重要。",
+     "<strong>先有受众，再有产品：</strong>持续在 X 上真诚地分享。",
+     "<strong>不要把命运押在别人的 API 上：</strong>或者至少准备好 B 计划。",
+     "<strong>补齐大平台的短板：</strong>官方做不细的地方，就是独立开发者的机会。",
+     "<strong>把经验写成书：</strong>它既是复盘，也是新的产品。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "My Indie Book", "url": "https://www.myindiebook.com", "why": "读一读开头免费的部分，看一个普通工程师怎样一步步走到一人公司。"},
+     {"name": "DevUtils", "url": "https://devutils.com", "why": "如果你是开发者，装上它，你会明白为什么用户说它「一直开着」。"},
+     {"name": "Awesome Black Friday", "url": "https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday", "why": "每年黑五，看看独立开发者们都在卖什么好软件。"}
+    ]}
    ]
   }
  ],
- "cta": "读一读《My Indie Book》的免费章节，或者试试 TypingMind。",
+ "cta": "从 DevUtils 或 TypingMind 开始，感受一下「补齐短板」的产品哲学。",
  "sources": [
-  {
-   "label": "Tony Dinh 的 X 个人资料",
-   "url": "https://x.com/tdinh_me"
-  },
-  {
-   "label": "My Indie Book",
-   "url": "https://www.myindiebook.com"
-  },
-  {
-   "label": "GitHub：trungdq88",
-   "url": "https://github.com/trungdq88"
-  },
-  {
-   "label": "TypingMind",
-   "url": "https://www.typingmind.com"
-  }
+  {"label": "Tony Dinh 的 X 个人资料", "url": "https://x.com/tdinh_me"},
+  {"label": "My Indie Book", "url": "https://www.myindiebook.com"},
+  {"label": "TypingMind", "url": "https://www.typingmind.com"},
+  {"label": "DevUtils", "url": "https://devutils.com"},
+  {"label": "Survive 10 Waves", "url": "https://survive10waves.com"},
+  {"label": "GitHub：trungdq88", "url": "https://github.com/trungdq88"},
+  {"label": "Awesome Black Friday / Cyber Monday", "url": "https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday"},
+  {"label": "App Store：Skyline", "url": "https://apps.apple.com/us/app/skyline-flight-log-globe/id6770172195"},
+  {"label": "App Store：Make Website", "url": "https://apps.apple.com/us/app/make-website-ai-site-builder/id6773273657"},
+  {"label": "App Store：Aside", "url": "https://apps.apple.com/us/app/aside-on-device-ai-chat/id6771574702"}
  ]
 }
