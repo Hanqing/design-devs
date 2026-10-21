@@ -2,157 +2,164 @@
  "name": "TED*（Pixegen）",
  "role": "App 开发者 · Pixegen 工作室",
  "title": "Pixegen：做<em>没有账号、没有算法</em>的现代工具",
- "dek": "Pixegen 的口号是「Makers of modern tools」。从 iOS 上快速专注的 RSS 阅读器 uRSS 起步，扩展到 Mac 和 Android；随后推出免费开源、给 Lightroom Classic 和 Aperture 老用户的 Mac 原始照片编辑器 PixelLoupe，以及一键切换默认浏览器的 BrowserSwap。",
- "card": "Pixegen 工作室开发者，uRSS、PixelLoupe（开源 RAW 编辑器）、BrowserSwap、Ultravault 作者。",
- "location": "The Beautiful South",
- "tags": [
-  "RSS",
-  "macOS",
-  "iOS",
-  "Android",
-  "摄影"
- ],
+ "dek": "Pixegen 的口号是「Makers of modern tools」。它从 iPhone 上快速专注的 RSS 阅读器 uRSS 起步，半年里扩展到 iPad、Mac 和 Android；随后推出一键切换默认浏览器的 BrowserSwap，以及免费开源、给 Lightroom 和 Aperture 老用户的 Mac RAW 照片编辑器 PixelLoupe。App Store 上的开发者署名是 Theodore Lee。",
+ "card": "uRSS、PixelLoupe、BrowserSwap、Ultravault 作者；主张没有账号、没有算法的独立 App 工作室。",
+ "location": "The Beautiful South（美国南部）",
+ "updated": "2026-10-21",
+ "tags": ["RSS", "macOS", "iOS", "照片", "开源"],
  "links": [
-  {
-   "label": "Pixegen",
-   "url": "http://pixegen.net/"
-  },
-  {
-   "label": "Blog",
-   "url": "https://pixegen.net/blog"
-  }
+  {"label": "Pixegen", "url": "https://pixegen.net/"},
+  {"label": "PixelLoupe", "url": "https://pixegen.net/pixelloupe/"},
+  {"label": "uRSS（App Store）", "url": "https://apps.apple.com/us/app/rss-news-podcasts-urss/id6769118872"}
  ],
  "summary": [
-  "<strong>一句话：</strong>一个坚持「本地、私密、无账号」的应用开发者，用多平台原生应用重新做 RSS 这件「老」事。",
-  "<strong>代表作：</strong>uRSS（iOS / macOS / Android 原生 RSS 阅读器，Mac 版带播客与 Now Playing 窗口）、PixelLoupe（免费开源的 Mac RAW 照片编辑与图库）、BrowserSwap（菜单栏切换默认浏览器）、Ultravault（用 CryptoKit 加密的保险库，即将推出）。",
-  "<strong>为什么值得关注：</strong>在「一切都要账号和云」的时代，TA 的每一款应用都把「no accounts, no algorithms」写在介绍里。"
+  "<strong>一句话：</strong>X 简介「App Developer. Maker of PixelLoupe, uRSS, Ultravault, BrowserSwap and more.」；GitHub 简介只有「Experienced developer.」",
+  "<strong>代表作：</strong>uRSS（iOS / iPadOS / macOS / Android）、PixelLoupe（MIT 开源）、BrowserSwap、即将上线的加密保险库 Ultravault。",
+  "<strong>关键数字：</strong>2026 年 5 月 uRSS 上架，9 月宣布免费；5 个月里写了 13 篇产品博客；PixelLoupe 2026 年 10 月发布，已到 v1.1.0。",
+  "<strong>立场：</strong>「RSS 不属于任何公司。它不能被收购、被劣化，也不会在一次转型中被关掉。」"
  ],
- "lead": "Pixegen 在 uRSS 的介绍里写：「Organize feeds into groups, swipe to mark read or favorite, and read comfortably in light or dark mode — no accounts, no algorithms, just your feeds.」这句话几乎就是整个工作室的产品宣言。",
+ "lead": "「Aperture 已经没了，Lightroom 变成了订阅。」PixelLoupe 的官网这样开头。它想做的是本该接替它们的那个工具：基于 Apple 自己的 RAW 引擎、Core Image 和 Metal 的原生 Mac 应用，能打开几万张照片的图库，导入你多年积累的 Lightroom 目录和预设，保留你的快捷键。然后，它免费、开源。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立 App 开发者，Pixegen 工作室"],
+     ["署名", "App Store：Theodore Lee；GitHub：Ted Lee（twlatl）"],
+     ["所在地", "美国南部（GitHub 资料为亚特兰大）"],
+     ["产品", "uRSS、PixelLoupe、BrowserSwap、Ultravault"],
+     ["技术栈", "Swift、SwiftUI、Core Image、Metal、CryptoKit、Kotlin"],
+     ["网站", "pixegen.net（Astro），博客即产品日志"],
+     ["X", "2024 年 1 月加入，推文约 8,800 条"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Pixegen 的产品有一个共同点：<strong>原生、本地、专注</strong>。uRSS 没有账号、没有同步锁定、没有算法；Ultravault 用 CryptoKit 在设备上加密，只在你同意时通过你自己的 iCloud 同步；PixelLoupe 用 Apple 自己的 RAW 引擎，不需要订阅。"},
+    {"p": "TA 也很擅长找「被放弃的用户」：RSS 用户在 Google Reader 关闭后从未消失；Aperture 停更、Lightroom 改订阅后，有一群摄影师需要一个能接住旧图库和肌肉记忆的工具。"},
+    {"note": "本页依据 pixegen.net（首页、产品页、博客）、App Store 资料、GitHub 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2024",
-       "title": "加入 X",
-       "text": "以 TED* 的名字分享 App 开发进展，简介写着「The Beautiful South」。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "uRSS for iOS",
-       "text": "快速、专注的 iPhone RSS 阅读器，分组、滑动手势、深浅色。2026 年 8 月的 2.2.3 加入标签，9 月的 2.3.0 宣布「Free for all!」"
-      },
-      {
-       "when": "2026-09",
-       "title": "uRSS for Mac 与 Android",
-       "text": "Mac 版是真正的三栏应用：文件夹、智能收藏、屏蔽词和播客 Now Playing 窗口；Android 版用 Kotlin 原生打造。"
-      },
-      {
-       "when": "2026-09",
-       "title": "BrowserSwap",
-       "text": "一款菜单栏小工具：找到你真正安装的浏览器，一键切换默认浏览器，可选定时规则，「actually free」。"
-      },
-      {
-       "when": "2026-10",
-       "title": "PixelLoupe 上线",
-       "text": "为从 Lightroom Classic 和 Aperture 迁移过来的摄影师打造的 RAW 编辑与图库应用：导入原有图库和预设，保留快捷键，免费开源。下一款 Ultravault 正在路上。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2009", "title": "注册 GitHub", "text": "GitHub 账号 twlatl 注册于 2009 年，简介「Experienced developer.」"},
+     {"when": "2026.05", "title": "uRSS for iOS", "text": "发表《Why RSS Still Matters in 2026》和《Designing the uRSS Reading Experience》，uRSS 上架。"},
+     {"when": "2026.06–07", "title": "uRSS 2.0", "text": "2.0 带来大量新功能和 iPad 支持；同期开始开发 Mac 版。"},
+     {"when": "2026.08–09", "title": "免费与 Mac 版", "text": "2.2.3 加入标签；2.3.0 宣布「Free for all!」；uRSS 1.0 for macOS 发布；BrowserSwap 提交 Mac App Store 审核。"},
+     {"when": "2026.10", "title": "PixelLoupe", "text": "发布第一款免费开源 App PixelLoupe；Ultravault 仍在 Apple 审核中，「按被标记的问题重写、重新提交、继续等待」。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "PixelLoupe",
-       "meta": "macOS · RAW · 开源",
-       "text": "Mac 上的 RAW 照片编辑与图库，带着你的 Lightroom / Aperture 图库和预设过来。",
-       "url": "http://pixegen.net/"
-      },
-      {
-       "name": "uRSS",
-       "meta": "iOS / macOS / Android",
-       "text": "快速、专注、本地、私密的 RSS 阅读器，没有账号，没有算法。",
-       "url": "http://pixegen.net/"
-      },
-      {
-       "name": "BrowserSwap",
-       "meta": "macOS · 菜单栏",
-       "text": "一键切换 Mac 的默认浏览器。",
-       "url": "http://pixegen.net/"
-      },
-      {
-       "name": "Ultravault",
-       "meta": "即将推出",
-       "text": "登录信息、通行密钥、卡片、收据的加密保险库，只在你同意时通过你自己的 iCloud 同步。",
-       "url": "http://pixegen.net/"
-      }
+    {"work": {
+     "name": "PixelLoupe", "url": "https://pixegen.net/pixelloupe/",
+     "meta": ["2026.10", "macOS · Swift", "MIT 开源"],
+     "paras": [
+      "「The Lightroom alternative for Mac. Keep your workflows and muscle memory. Leave the subscription behind.」Develop 模块包括直方图、白平衡、HSL 混色、黑白、色彩分级、降噪、校准、变换、颗粒、线性 / 径向蒙版、裁剪拉直，并能载入 Lightroom 预设。",
+      "它基于 Apple 的 RAW 引擎、Core Image 和 Metal，经 Apple 公证，通过 GitHub Releases 分发。"
+     ],
+     "facts": [["版本", "v1.1.0"], ["要求", "macOS 27 或更高"], ["源码", "github.com/twlatl/PixelLoupe"]]
+    }},
+    {"work": {
+     "name": "uRSS", "url": "https://apps.apple.com/us/app/rss-news-podcasts-urss/id6769118872",
+     "meta": ["2026", "iOS / iPadOS / macOS / Android", "免费"],
+     "paras": [
+      "「A fast, focused RSS reader.」把订阅分组，滑动标记已读或收藏，在深浅色模式下舒服地阅读。没有账号，没有算法，只有你的订阅。Mac 版是三栏应用，Android 版用 Kotlin 原生打造。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "BrowserSwap", "url": "https://pixegen.net/blog/browserswap-in-app-review/",
+     "meta": ["2026", "macOS 菜单栏"],
+     "paras": [
+      "一个很小的菜单栏 App：找到你真正装了的浏览器，一键切换 Mac 的默认浏览器。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "状态", "说明"],
+     "rows": [
+      ["Ultravault", "审核中", "登录信息、通行密钥、卡片、收据的加密保险库，CryptoKit 加密，可选 iCloud 同步"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "网站",
+   "title": "网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://pixegen.net/",
-      "paras": [
-       "首页标题「Makers of modern tools.」，副标题说明 Pixegen 做「简单、专注、帮你与重要之物保持连接」的应用。每款 App 一张卡片，标注平台、技术栈和类别。",
-       "博客像一份产品日志：每次版本更新、每个新 App 进入审核，都写一篇短文。"
-      ]
-     }
-    }
+    {"site": {"url": "https://pixegen.net/", "paras": [
+     "首页标题「Makers of modern tools.」，副标题说 Pixegen 做「简单、专注、帮你与重要之物保持连接」的应用。每款 App 一张卡片，标注平台、技术和类别。",
+     "博客像一份产品日志：每次版本更新、每个新 App 进入审核，都写一篇短文，连「Ultravault 还卡在审核」这种不太好的消息也照实写。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro"],
+      ["节奏", "2026 年 5–10 月 13 篇博客"],
+      ["语气", "坦率、轻松，「First the (not so great) news…」"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "p": "Pixegen 的设计原则可以概括为<strong>「原生、本地、专注」</strong>：每个平台都用原生技术重写（Swift、Kotlin），数据留在设备上，功能只围绕一件事展开。"
-    },
-    {
-     "p": "PixelLoupe 的切入点也很聪明：Aperture 停更多年，Lightroom 走向订阅，仍有一群摄影师需要一个能接住他们旧图库和肌肉记忆的工具。"
-    }
+    {"posts": [
+     {"date": "2026-10-19", "title": "PixelLoupe and Ultravault Status", "url": "https://pixegen.net/blog/pixelloupe-and-ultravault-status/"},
+     {"date": "2026-09-04", "title": "uRSS 2.3.0 for iOS：Free for all!", "url": "https://pixegen.net/blog/urss-230-released/"},
+     {"date": "2026-05-18", "title": "Designing the uRSS Reading Experience", "url": "https://pixegen.net/blog/urss-reading-experience/"},
+     {"date": "2026-05-04", "title": "Why RSS Still Matters in 2026", "url": "https://pixegen.net/blog/why-rss-still-matters/", "note": "订阅阅读器是社交时间线的反面：你决定输入，而不是算法。"}
+    ]},
+    {"quote": "It's a protocol, not a platform. RSS doesn't belong to a company. It can't be acquired, enshittified, or shut down in a pivot.", "cite": "Pixegen，《Why RSS Still Matters in 2026》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["速度", "半年内覆盖四个平台、四款产品", "产品都还很新"],
+      ["定位", "抓住被大厂放弃的用户", "Lightroom 替代品门槛极高，功能完整度需时间验证"],
+      ["开源", "PixelLoupe MIT 授权", "仓库刚建立，社区尚未形成"],
+      ["透明", "博客坦诚记录审核与进度", "工作室背景公开信息较少"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>老品类也有机会：</strong>RSS 和照片管理，都还缺好产品。",
-      "<strong>多平台原生：</strong>每个平台都值得认真对待。",
-      "<strong>迁移成本是关键：</strong>帮用户带走旧图库和快捷键，就是最好的营销。",
-      "<strong>用博客记录每一次发布：</strong>透明的产品节奏能建立信任。"
-     ]
-    }
+    {"checklist": [
+     "<strong>老品类也有机会：</strong>RSS 和照片管理，都还缺好产品。",
+     "<strong>迁移成本是关键：</strong>帮用户带走旧图库、预设和快捷键。",
+     "<strong>多平台原生：</strong>每个平台都值得用原生技术认真对待。",
+     "<strong>用博客记录每一次发布：</strong>透明的节奏能建立信任。",
+     "<strong>价值观写在产品里：</strong>没有账号、没有算法、没有订阅。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "PixelLoupe", "url": "https://pixegen.net/pixelloupe/", "why": "如果你还怀念 Aperture。"},
+     {"name": "uRSS", "url": "https://apps.apple.com/us/app/rss-news-podcasts-urss/id6769118872", "why": "一个没有算法的阅读收件箱。"},
+     {"name": "Why RSS Still Matters in 2026", "url": "https://pixegen.net/blog/why-rss-still-matters/", "why": "一分钟读完，重新想想你的信息来源。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你还在读 RSS，试试 uRSS。",
+ "cta": "装上 uRSS，订阅三个你真正想读的网站。",
  "sources": [
-  {
-   "label": "TED* 的 X 个人资料",
-   "url": "https://x.com/sonicbluestrats"
-  },
-  {
-   "label": "Pixegen 官网",
-   "url": "http://pixegen.net/"
-  },
-  {
-   "label": "Pixegen Blog",
-   "url": "https://pixegen.net/blog"
-  }
+  {"label": "TED* 的 X 个人资料", "url": "https://x.com/sonicbluestrats"},
+  {"label": "Pixegen 官网", "url": "https://pixegen.net/"},
+  {"label": "Pixegen Blog", "url": "https://pixegen.net/blog/"},
+  {"label": "PixelLoupe", "url": "https://pixegen.net/pixelloupe/"},
+  {"label": "GitHub：twlatl/PixelLoupe", "url": "https://github.com/twlatl/PixelLoupe"},
+  {"label": "uRSS（App Store）", "url": "https://apps.apple.com/us/app/rss-news-podcasts-urss/id6769118872"}
  ]
 }

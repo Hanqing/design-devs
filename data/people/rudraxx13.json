@@ -2,148 +2,170 @@
  "name": "Rudra Satani",
  "role": "GenAI 工程师 · 小巧 Mac 工具作者",
  "title": "Rudra Satani：让你的 MacBook <em>刘海变得有用</em>",
- "dek": "来自印度苏拉特的 GenAI 工程师，白天构建 AI Agent 和 LLM 评测工具，业余「做一些小小的 Mac 东西」：把刘海变成音乐、文件、剪贴板和 28 个日常工具之家的 NotchMind，以及让每一次敲键盘都有一点快乐的 TapNoise。",
- "card": "印度苏拉特的 GenAI 工程师，NotchMind 与 TapNoise 两款精致 Mac 小工具的作者。",
+ "dek": "来自印度苏拉特、2026 届 AI 与机器学习专业的本科生。TA 一边做 LLM 评测和红队测试（开源 CLI cot-redteam-agent 已发布到 PyPI），一边「做一些小小的 Mac 东西」：把刘海变成音乐、文件、剪贴板和 28 个日常工具之家的 NotchMind，以及让每一次敲键盘都有一点快乐的 TapNoise。",
+ "card": "NotchMind、TapNoise、cot-redteam-agent、vibe-learn 作者；印度苏拉特的 GenAI 工程师与学生开发者。",
  "location": "印度苏拉特",
- "tags": [
-  "macOS",
-  "AI Agent",
-  "LLM 评测",
-  "微交互",
-  "独立开发"
- ],
+ "updated": "2026-10-21",
+ "tags": ["macOS", "LLM 评测", "红队测试", "独立开发", "微交互"],
  "links": [
-  {
-   "label": "rudrasatani.com",
-   "url": "http://rudrasatani.com"
-  },
-  {
-   "label": "NotchMind",
-   "url": "https://notchmind.com"
-  },
-  {
-   "label": "TapNoise",
-   "url": "https://tapnoise.com"
-  }
+  {"label": "rudrasatani.com", "url": "http://rudrasatani.com"},
+  {"label": "NotchMind", "url": "https://notchmind.com"},
+  {"label": "TapNoise", "url": "https://tapnoise.com"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「i build tiny mac things.」一个用小而精致的 Mac 工具展示交互功力的年轻工程师。",
-  "<strong>代表作：</strong>NotchMind（刘海里的音乐控制、文件暂存与 AirDrop、下载进度、剪贴板历史、计时器等 28 个工具，$7.99 买断）、TapNoise（20 种键盘音效，从低沉的 thock 到「小爪子」，还有一个键帽小伙伴 Tappy）。",
-  "<strong>主业：</strong>构建 AI Agent、LLM 评测工具和小型 Web 应用。"
+  "<strong>一句话：</strong>X 简介「i build tiny mac things」。个人网站的信条：「A demo is a promise. Shipping is keeping it.」（演示是承诺，发布才是兑现。）",
+  "<strong>代表作：</strong>NotchMind（$7.99 买断）、TapNoise（20 种键盘音效 + 键帽伙伴 Tappy）、cot-redteam-agent（PyPI，v0.6）、vibe-learn（Claude Code 技能）、AuraFarm、TestMyGear、CubbyPad。",
+  "<strong>关键数字：</strong>TapNoise 已有 200 多名用户；NotchMind 博客 107 篇、TapNoise 博客 115 篇指南；GitHub 近一年 3,748 次贡献。",
+  "<strong>身份：</strong>P. P. Savani University 计算机科学（AI & ML）本科，2026 届。"
  ],
- "lead": "NotchMind 的官网标题是：「Small notch. Big mind.」副标题写着：「你的音乐、你的文件、你的计时器和你一天里的小更新。全都在你的视线本来就会落到的那个地方。」页面上的每一段演示都标注着「Every clip is a real recording」。",
+ "lead": "TapNoise 的键帽小人 Tappy 会跟着你的光标走，对你做的每件事作出反应，甚至会在你的 AI Agent 干完活时告诉你。Rudra 说这就是 TA 的第三条工作原则：「先有趣，再有用。软件可以让你微笑，同时也做正经事。Tappy 就是证明。」",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "GenAI 工程师、独立开发者、红队测试者"],
+     ["所在地", "印度苏拉特"],
+     ["教育", "P. P. Savani University，B.Tech CSE（AI & ML），2022 入学、2026 届"],
+     ["认证", "DeepLearning.AI 神经网络、CU Boulder 量子算法、Google 网络与安全"],
+     ["主攻", "Agents · Evals · Mac apps"],
+     ["产品", "NotchMind、TapNoise、CubbyPad；Web 上的 AuraFarm、TestMyGear"],
+     ["开源", "cot-redteam-agent、vibe-learn"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Rudra 的大脑分两边。一边做 <strong>LLM 评测与红队测试</strong>：cot-redteam-agent 坚持一条规则：模型在拒绝时引用了秘密不算泄露，只有真正的披露或观察到的工具行为才算。另一边做 <strong>让电脑更好玩的 Mac 小工具</strong>：刘海、键盘声、Launchpad。"},
+    {"p": "TA 的四条工作原则写在 About 页：证据胜过感觉；默认本地运行（「你的剪贴板和按键与我无关」）；先有趣，再有用；先发布，再打磨。"},
+    {"note": "本页依据 rudrasatani.com（首页、About、Projects）、notchmind.com、tapnoise.com、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2022",
-       "title": "加入 X",
-       "text": "以 GenAI 工程师身份分享 AI Agent 与 LLM 相关工作。"
-      },
-      {
-       "when": "主业",
-       "title": "GenAI 工程",
-       "text": "构建 AI Agent、LLM 评测工具和小型 Web 应用。"
-      },
-      {
-       "when": "2026",
-       "title": "NotchMind",
-       "text": "把 MacBook 刘海变成一个「悬停即开」的工具中心：音乐控制与切换扬声器、把文件拖到屏幕顶部暂存或 AirDrop、下载进度、剪贴板历史、计时器等。"
-      },
-      {
-       "when": "2026",
-       "title": "TapNoise",
-       "text": "给 Mac 加上梦想键盘的声音：20 种音效，从深沉的 thock 到小爪子，还有一个陪你打字的键帽角色 Tappy。首发限量 500 份优惠。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2020", "title": "加入 GitHub", "text": "「开始推送代码，并公开地把东西弄坏，看看它们怎么运作。」"},
+     {"when": "2022", "title": "AI & ML 本科", "text": "进入 P. P. Savani University 学习深度学习、计算机视觉和数据库，以及「大量深夜的业余项目」。网络安全认证让 TA 对安全产生了长期兴趣。"},
+     {"when": "2026.06", "title": "vibe-learn", "text": "一个 Claude Code 技能：在 AI 写出重要代码后讲解核心概念、给出心智模型和不打断的小测验，把「AI 写的，我不懂」变成「我发布了，而且我懂」。"},
+     {"when": "2026.07", "title": "cot-redteam-agent", "text": "开源 LLM 红队测试 CLI 发布到 PyPI，到 v0.6 加入「proof-of-action」Agent 通道，带 OWASP 标签和 CI 扫描。"},
+     {"when": "2026", "title": "NotchMind 与 TapNoise", "text": "两款付费原生 Mac App 上线；同年还有群聊评分游戏 AuraFarm、浏览器硬件测试 TestMyGear，以及给 macOS 26 带回 Launchpad 的 CubbyPad。"},
+     {"when": "下一步", "title": "更多小东西", "text": "iOS 小组件 HelloOrbita、每日共享谜题 samegrid、《薄伽梵歌》App gitasaar。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "NotchMind",
-       "meta": "macOS 15+ · $7.99",
-       "text": "刘海里的音乐、文件、剪贴板、计时器、下载与 28 个日常工具。",
-       "url": "https://notchmind.com"
-      },
-      {
-       "name": "TapNoise",
-       "meta": "macOS · $7.99",
-       "text": "Every key, a little joy：20 种键盘音效和键帽伙伴 Tappy。",
-       "url": "https://tapnoise.com"
-      }
+    {"work": {
+     "name": "NotchMind", "url": "https://notchmind.com",
+     "meta": ["2026", "macOS 15+", "US$7.99 买断"],
+     "paras": [
+      "「Small notch. Big mind.」把鼠标移到屏幕顶部，刘海就展开：看正在播放的音乐、切歌、切换扬声器；把文件拖到顶部暂存或 AirDrop；查看下载进度、剪贴板历史、计时器，以及 28 个日常小工具。",
+      "官网标注「Every clip is a real recording」：每一段演示都是真实录屏。"
+     ],
+     "facts": [["价格", "1 台 $7.99，2 台 $12.99，一次付费"], ["要求", "macOS 15 或更高"]]
+    }},
+    {"work": {
+     "name": "TapNoise", "url": "https://tapnoise.com",
+     "meta": ["2026", "macOS 14+", "Solo $14.99"],
+     "paras": [
+      "「Every key, a little joy.」给 Mac 加上梦想键盘的声音：20 种音效，从深沉的 thock 到小爪子。桌面上的键帽伙伴 Tappy 会对你的操作作出反应，还会在 AI Agent 完成任务时提醒你。",
+      "首发限 500 份优惠价，提供 7 天无理由退款。"
+     ],
+     "facts": [["用户", "200+"], ["价格", "1 台 $14.99 · 2 台 $20.99"]]
+    }},
+    {"work": {
+     "name": "cot-redteam-agent", "url": "https://github.com/rudrasatani13/cot-redteam-agent",
+     "meta": ["2026", "Python · PyPI", "开源"],
+     "paras": [
+      "「Refusal quotes of a canary are not a finding.」对可见思维链做红队评分，并从观察到的动作证明模拟 Agent 的影响，而不是只看模型怎么说。支持自适应 TUI、CI 扫描、OWASP 标签和 mock provider。"
      ]
-    }
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["vibe-learn", "2026", "边 vibe coding 边学习的 Claude Code 技能"],
+      ["CubbyPad", "2026", "为 macOS 26 带回 Launchpad：全屏网格、文件夹、搜索、F4 键"],
+      ["AuraFarm", "2026", "群聊评分小游戏"],
+      ["TestMyGear", "2026", "在浏览器里测试你的硬件，本地运行"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://notchmind.com",
-      "paras": [
-       "NotchMind 的官网像一部产品短片：一段 1 分 10 秒的影片，然后每个功能配一段真实录屏和一句话，例如「Music, without switching apps」「Drag files up」「Downloads, in view」。",
-       "价格透明：一次付费，macOS 15 以上，提供两台 Mac 的套餐与退款政策。"
-      ]
-     }
-    }
+    {"site": {"url": "http://rudrasatani.com", "paras": [
+     "首页显示苏拉特的实时时间和与访客的时差，然后是名字、「GenAI Engineer」和一个「Live from my notch」区块，直接播放 NotchMind 的录屏。项目页按类型筛选，每个项目都有完整的案例研究。",
+     "两个产品站都配有大量指南博客（NotchMind 107 篇、TapNoise 115 篇），TapNoise 的博客明确披露：新指南使用 AI 辅助，并链接一手资料和源码，不是独立评测。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro + React，Cloudflare，Plausible / Umami 统计"],
+      ["营销", "真实录屏 + 短片 + 交叉推荐"],
+      ["透明", "价格、退款政策、AI 辅助写作均有说明"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "观点与原则",
    "blocks": [
-    {
-     "p": "Rudra 的两款产品都是<strong>微交互</strong>的作品：一个让刘海「悬停即开」，一个让敲键盘有声音反馈。它们不解决大问题，但每天会被使用几百次，所以细节和手感就是全部。"
-    },
-    {
-     "p": "「Every clip is a real recording」这样的标注，也体现了 TA 对真实性的重视：营销页上的每一个动画都是 App 本身。"
-    }
+    {"checklist": [
+     "<strong>Proof over vibes：</strong>能被刷的指标一定会被刷，宁可数观察到的行为。",
+     "<strong>Local by default：</strong>你的剪贴板和按键与我无关。",
+     "<strong>Fun first, then useful：</strong>软件可以让你微笑，同时也做正经事。",
+     "<strong>Ship, then sharpen：</strong>六个发布出去的产品，比任何完美计划教会我的都多。"
+    ]},
+    {"quote": "A demo is a promise. Shipping is keeping it.", "cite": "Rudra Satani，rudrasatani.com About"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产出", "学生阶段已发布多款付费产品", "产品线多，后续维护压力大"],
+      ["安全", "评测与红队方向有清晰的方法论", "开源项目星数尚少"],
+      ["营销", "真实录屏、透明定价", "大量 AI 辅助的 SEO 指南需要读者自行判断"],
+      ["定位", "微交互小工具，日常高频使用", "刘海类工具竞品多"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>小工具也值得精致：</strong>高频使用的东西，手感就是价值。",
-      "<strong>用真实录屏做营销：</strong>比概念图更有说服力。",
-      "<strong>交叉推荐：</strong>两款产品互相导流。",
-      "<strong>主业 AI + 副业 Mac：</strong>两种能力互相加强。"
-     ]
-    }
+    {"checklist": [
+     "<strong>小工具也值得精致：</strong>高频使用的东西，手感就是价值。",
+     "<strong>用真实录屏做营销：</strong>比概念图更有说服力。",
+     "<strong>评测要看证据：</strong>引用不等于泄露，行为才是事实。",
+     "<strong>主业 AI + 副业 Mac：</strong>两种能力互相加强。",
+     "<strong>先发布，再打磨：</strong>学生也可以让产品先上线。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "NotchMind", "url": "https://notchmind.com", "why": "让刘海变成一个工具架。"},
+     {"name": "TapNoise", "url": "https://tapnoise.com", "why": "在网页上先听听 20 种键盘声。"},
+     {"name": "vibe-learn", "url": "https://github.com/rudrasatani13/vibe-learn", "why": "让 Claude Code 边写边教你。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你有一台带刘海的 MacBook，看看 NotchMind 的演示。",
+ "cta": "去 tapnoise.com 听一下 thock，再决定要不要给键盘加点声音。",
  "sources": [
-  {
-   "label": "Rudra Satani 的 X 个人资料",
-   "url": "https://x.com/rudraxx13"
-  },
-  {
-   "label": "rudrasatani.com",
-   "url": "http://rudrasatani.com"
-  },
-  {
-   "label": "NotchMind 官网",
-   "url": "https://notchmind.com"
-  },
-  {
-   "label": "TapNoise 官网",
-   "url": "https://tapnoise.com"
-  }
+  {"label": "Rudra Satani 的 X 个人资料", "url": "https://x.com/rudraxx13"},
+  {"label": "rudrasatani.com", "url": "http://rudrasatani.com"},
+  {"label": "rudrasatani.com：About", "url": "http://rudrasatani.com/about"},
+  {"label": "NotchMind 官网", "url": "https://notchmind.com"},
+  {"label": "TapNoise 官网", "url": "https://tapnoise.com"},
+  {"label": "GitHub：rudrasatani13", "url": "https://github.com/rudrasatani13"}
  ]
 }

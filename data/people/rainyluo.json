@@ -1,136 +1,153 @@
 {
  "name": "rainyluo",
- "role": "iOS 独立开发者 · Manga Capsule 作者",
- "title": "rainyluo：为五万漫画读者做的<em>本地阅读器</em>",
- "dek": "一个想要「做一些有用又好玩的东西」的 iOS 开发者。TA 的 Manga Capsule 支持本地、NAS 与云盘漫画，用端侧 AI 一键超分修复老漫画，iPad 和 iPhone 各有独立交互，被全球五万多名漫画爱好者使用；另一款 translateOff 则是完全离线的本地 AI 翻译。",
- "card": "Manga Capsule（本地漫画阅读器，5 万+ 用户）与 translateOff（离线 AI 翻译）作者。",
- "location": "火星（未公开）",
- "tags": [
-  "iOS",
-  "iPadOS",
-  "端侧 AI",
-  "阅读器",
-  "NAS"
- ],
+ "role": "iOS 独立开发者 · Manga Capsule（漫画胶囊）作者",
+ "title": "rainyluo：为<em>五万漫画读者</em>做的本地阅读器",
+ "dek": "一个想「做一些有用又好玩的东西」的 iOS 开发者。TA 的漫画胶囊 Manga Capsule 支持本地、NAS 与网盘漫画，用端侧 AI 一键提升老漫画的画质，iPad 和 iPhone 各有独立交互，被全球五万多名漫画爱好者使用；另一款 TranslateOff 则把 AI 翻译模型放在手机里，不联网也能翻译。",
+ "card": "漫画胶囊 Manga Capsule、TranslateOff 作者；做本地优先、端侧 AI 的 iOS 开发者。",
+ "location": "未公开（X 资料写着火星）",
+ "updated": "2026-10-21",
+ "tags": ["iOS", "iPadOS", "漫画", "端侧 AI", "本地优先"],
  "links": [
-  {
-   "label": "Manga Capsule",
-   "url": "https://mangacapsule.com"
-  }
+  {"label": "Manga Capsule 官网", "url": "https://mangacapsule.com"},
+  {"label": "漫画胶囊（App Store）", "url": "https://apps.apple.com/us/app/manga-capsule-ai-comic-reader/id6737119574"},
+  {"label": "TranslateOff（App Store）", "url": "https://apps.apple.com/us/app/translateoff-local-ai-model/id6762717786"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「Building something useful & fun.」一个用端侧 AI 和原生交互打磨阅读体验的独立开发者。",
-  "<strong>代表作：</strong>Manga Capsule（CBZ / CBR / PDF / ZIP 漫画阅读，SMB / WebDAV 连接 NAS，条漫模式，端侧 AI 超分，App Store 4.7 分）、translateOff（本地离线 AI 翻译器）。",
-  "<strong>为什么值得关注：</strong>TA 把「端侧 AI」用在了一个非常具体的地方：让老漫画的扫描图重新清晰，且「不上传、不花 Token」。"
+  "<strong>一句话：</strong>X 简介「Building something useful & fun」，列出两款 iOS 应用：MangaCapsule（本地漫画阅读器）和 translateOff（本地离线 AI 翻译）。",
+  "<strong>代表作：</strong>漫画胶囊 Manga Capsule（iPhone / iPad / M 系列 Mac）、TranslateOff（2026 年 4 月上架）。",
+  "<strong>关键数字：</strong>官网称全球 5 万多名用户；中国区 App Store 327 个评分、均分 4.75；美区 20 个评分；2025 年 9 月上架后已更新到 v1.45。",
+  "<strong>态度：</strong>App 描述写明「我们不会提供漫画源和漫画资源内容，我们只提供工具」。"
  ],
- "lead": "Manga Capsule 的官网写着：「More than just reading, it's ultimate collection management.」它尊重每一种阅读方式：日漫从右到左、美漫从左到右、韩国条漫无缝滚动。",
+ "lead": "漫画胶囊的 App 描述开头是：「我们热爱看漫画，同时也热爱产品和设计。」于是有了这些只有真正爱看漫画的人才会在意的细节：从右到左翻页、跨页自动拆分与合并、条漫在大屏幕上的单独画幅适配、按封面最佳位置智能裁切的书架，以及一键让老漫画变清晰的端侧 AI。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 独立开发者"],
+     ["所在地", "未公开"],
+     ["产品", "漫画胶囊 Manga Capsule、TranslateOff"],
+     ["平台", "iPhone、iPad、Apple Silicon Mac"],
+     ["技术方向", "本地文件与 NAS（SMB / WebDAV）、流式读取、端侧 AI 超分与翻译"],
+     ["X", "2009 年注册，推文约 2,000 条"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "rainyluo 做的是<strong>本地优先</strong>的 iOS 工具。漫画胶囊不提供任何漫画资源，只负责把你自己的收藏读好：本地文件、NAS、阿里网盘，epub、mobi、pdf、zip、rar、cbz、cbr 等格式都能打开；AI 画质提升在设备上运行，「不上传，不花 token」。"},
+    {"p": "TranslateOff 延续同样的思路：把 AI 翻译模型放在手机上，离线也能做语音和文字翻译。"},
+    {"note": "本页依据 mangacapsule.com、App Store 资料（美区与中国区）和 X 资料整理，资料截至 2026 年 10 月。作者公开的个人信息很少，未收录未经证实的背景。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2009",
-       "title": "早期互联网用户",
-       "text": "2009 年就注册了 X，长期是数字阅读与收藏的重度用户。"
-      },
-      {
-       "when": "2020",
-       "title": "开始在 GitHub 写代码",
-       "text": "2020 年注册 GitHub，转向 iOS 开发。"
-      },
-      {
-       "when": "Manga Capsule",
-       "title": "本地漫画阅读器",
-       "text": "支持本地文件、NAS（SMB / WebDAV）、云盘等多种来源；漫画 / 美漫 / 条漫三种模式；智能合并跨页、任意旋转修正；iPad 与 iPhone 各自独立的交互逻辑，Mac 上支持完整快捷键。适配 iOS 26，全球五万多名用户。"
-      },
-      {
-       "when": "translateOff",
-       "title": "离线 AI 翻译",
-       "text": "完全在本地运行的 AI 翻译器，不联网也能用。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2009", "title": "注册 X", "text": "很早的互联网用户，长期关注数字阅读。"},
+     {"when": "2025.09", "title": "漫画胶囊上架", "text": "Manga Capsule: AI Comic Reader 在 App Store 上架，中文名「漫画胶囊阅读器」。"},
+     {"when": "2025–2026", "title": "高频迭代", "text": "一年多更新到 v1.45：覆盖 iPhone、iPad 和 M 系列 Mac，适配 iOS 26，加入流式读取、条漫模式、AI 画质提升等功能。"},
+     {"when": "2026.04", "title": "TranslateOff", "text": "本地离线 AI 翻译 App 上架。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "Manga Capsule",
-       "meta": "iOS / iPadOS · 4.7★",
-       "text": "本地与 NAS 漫画阅读、端侧 AI 超分、条漫无缝拼接，五万多名漫画爱好者信赖。",
-       "url": "https://mangacapsule.com"
-      },
-      {
-       "name": "translateOff",
-       "meta": "iOS · 离线 AI",
-       "text": "本地离线的 AI 翻译器，隐私优先。",
-       "url": "https://x.com/rainyluo"
-      }
+    {"work": {
+     "name": "漫画胶囊 Manga Capsule", "url": "https://apps.apple.com/us/app/manga-capsule-ai-comic-reader/id6737119574",
+     "meta": ["2025", "iOS / iPadOS / macOS", "免费 + 订阅"],
+     "paras": [
+      "来源：本地、NAS（WebDAV、SMB）、阿里网盘，云端漫画可下载离线阅读。格式：epub、mobi、pdf、zip、rar、azw3、cbr、cbz、图片等。阅读：日漫从右到左、美漫从左到右、条漫从上到下，支持平移、连续滚动、仿真翻页；可旋转画面、合并下一页、自动拆页。",
+      "官网如实写清流式读取的边界：兼容的 NAS 文件和 ZIP / CBZ 可以按需读取，RAR / CBR、iCloud 挂载文件和部分 PDF 需要先下载，「加载速度取决于文件和网络」。"
+     ],
+     "facts": [["中国区评分", "★4.75（327 个评分）"], ["用户", "5 万+（官网）"], ["最新版本", "v1.45（2026-10）"]]
+    }},
+    {"work": {
+     "name": "TranslateOff", "url": "https://apps.apple.com/us/app/translateoff-local-ai-model/id6762717786",
+     "meta": ["2026", "iOS", "离线 AI"],
+     "paras": [
+      "中国区名为「TranslateOff - 本地离线 AI 语音翻译神器」。模型运行在设备上，没有网络也能翻译，隐私数据不离开手机。"
      ]
-    }
+    }},
+    {"table": {
+     "cols": ["漫画胶囊的细节", "说明"],
+     "rows": [
+      ["独立交互", "iPad 不是放大版的 iPhone，两者有各自的交互逻辑"],
+      ["端侧 AI 画质", "官网提供可拖动的前后对比滑杆"],
+      ["书架", "智能裁切和排序，识别封面的最佳展示位置"],
+      ["条漫适配", "针对大屏幕做单独的画幅适配"],
+      ["跨设备续读", "从手机到平板到 Mac 继续阅读"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "网站",
+   "title": "官网研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://mangacapsule.com",
-      "paras": [
-       "官网首屏是「iOS 26 Ready」和评分、用户数，然后按「来源支持 → 格式 → 流式读取 → 端侧 AI 超分 → 多设备 → 阅读模式 → 复杂场景」逐层展开。",
-       "AI 超分部分有一个可拖动的前后对比滑杆，直观展示老漫画被修复的效果。"
-      ]
-     }
-    },
-    {
-     "p": "官网还如实写清楚了流式读取的边界：哪些格式能边下边读，哪些需要先下载，「加载速度取决于文件和网络」。"
-    }
+    {"site": {"url": "https://mangacapsule.com", "paras": [
+     "首屏是「iOS 26 Ready」、App Store 评分和用户数，然后按「来源支持 → 格式 → 流式读取 → 端侧 AI 超分 → 多设备 → 阅读模式 → 复杂场景」逐层展开。",
+     "AI 超分部分的前后对比滑杆是整个页面最有说服力的部分：老漫画被修复的效果一拖就能看到。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["语言", "英文官网，App Store 有完整中文描述"],
+      ["结构", "功能逐层展开，配真实截图"],
+      ["诚实", "写清格式与网络的限制，声明不提供资源"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "设计与手艺",
+   "id": "voice",
+   "title": "产品态度",
    "blocks": [
-    {
-     "p": "Manga Capsule 最让人印象深刻的是<strong>「iPad 不是放大版的 iPhone」</strong>：两个设备有独立的交互逻辑，iPad 和 Mac 上有常驻侧边栏，Mac 上有完整快捷键。这是对每个平台的尊重。"
-    },
-    {
-     "p": "从右到左翻页、跨页智能拆分与合并、条漫的智能裁切拼接，这些都是只有真正爱看漫画的人才会在意的细节。"
-    }
+    {"quote": "我们热爱看漫画，同时也热爱产品和设计，希望能给大家提供更好的阅读体验。", "cite": "漫画胶囊 App Store 描述"},
+    {"p": "在 X 上，TA 的分享以产品更新为主，很少谈论自己。作品就是 TA 的名片。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["细节", "日漫、美漫、条漫的阅读习惯都照顾到", "功能多，设置项较复杂"],
+      ["技术", "端侧 AI、流式读取、多协议支持", "部分格式仍需先下载"],
+      ["口碑", "中国区评分高、样本量大", "美区评分样本少、均分较低"],
+      ["定位", "只做工具，不碰版权内容", "用户需自备资源"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>为一个热爱的群体做产品：</strong>漫画读者对细节极其敏感。",
-      "<strong>端侧 AI 要用在刀刃上：</strong>超分修复是可感知的价值。",
-      "<strong>每个设备独立设计：</strong>不要只是拉伸界面。",
-      "<strong>诚实说明限制：</strong>格式与网络的边界写清楚。"
-     ]
-    }
+    {"checklist": [
+     "<strong>为一个热爱的群体做产品：</strong>漫画读者对细节极其敏感。",
+     "<strong>端侧 AI 要用在刀刃上：</strong>画质提升是用户一眼能感知的价值。",
+     "<strong>每个设备独立设计：</strong>不要只是拉伸界面。",
+     "<strong>诚实说明限制：</strong>格式与网络的边界写清楚。",
+     "<strong>划清边界：</strong>只提供工具，不提供内容。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "漫画胶囊", "url": "https://apps.apple.com/us/app/manga-capsule-ai-comic-reader/id6737119574", "why": "把你 NAS 里的漫画放到 iPad 上读。"},
+     {"name": "Manga Capsule 官网", "url": "https://mangacapsule.com", "why": "拖一下 AI 超分的对比滑杆。"},
+     {"name": "TranslateOff", "url": "https://apps.apple.com/us/app/translateoff-local-ai-model/id6762717786", "why": "出国旅行时的离线翻译。"}
+    ]}
    ]
   }
  ],
- "cta": "如果你有一堆 CBZ 漫画躺在 NAS 里，试试 Manga Capsule。",
+ "cta": "打开漫画胶囊，用 AI 修复一本你珍藏多年的老漫画。",
  "sources": [
-  {
-   "label": "rainyluo 的 X 个人资料",
-   "url": "https://x.com/rainyluo"
-  },
-  {
-   "label": "Manga Capsule 官网",
-   "url": "https://mangacapsule.com"
-  }
+  {"label": "rainyluo 的 X 个人资料", "url": "https://x.com/rainyluo"},
+  {"label": "Manga Capsule 官网", "url": "https://mangacapsule.com"},
+  {"label": "漫画胶囊（App Store 美区）", "url": "https://apps.apple.com/us/app/manga-capsule-ai-comic-reader/id6737119574"},
+  {"label": "TranslateOff（App Store）", "url": "https://apps.apple.com/us/app/translateoff-local-ai-model/id6762717786"}
  ]
 }
