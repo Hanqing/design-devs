@@ -1,171 +1,165 @@
 {
  "name": "伊恩 Ian",
  "role": "产品设计师 · AI Builder · Indie Builders 主理人",
- "title": "伊恩：一名<em>懂审美</em>的产品设计师，用 AI 做好玩的东西",
- "dek": "Dribbble 上有一万多粉丝，GitHub 上有一万多颗星，X 上也有近两万关注者。TA 一边接产品设计项目，一边用 AI 做自己的产品：给文章自动配手绘插图的「小黑插图 Skill」、每日更新的伊恩日刊、设计灵感站，并经营一个 300 人的 AI 产品圈子。",
- "card": "Dribbble 万粉产品设计师，「小黑插图 Skill」（★1.2 万）作者，Indie Builders 社群主理人。",
+ "title": "伊恩：一名懂审美的产品设计师，把<em>风格写成 Skill</em>",
+ "dek": "Dribbble 上有近一万九千粉丝，GitHub 上一个仓库就有一万两千多颗星，X 上近两万关注者。TA 一边接产品设计项目（餐饮 SaaS、全球钱包、AI 产品点评平台），一边用 AI 做自己的产品：给中文文章配手绘插图的「小黑插图 Skill」、手绘技术 PPT Skill、小红书图文 Skill、每日更新的伊恩日刊，并经营一个 300 人的 AI 产品圈子。",
+ "card": "小黑插图 Skill（★1.27 万）作者；Dribbble 万粉产品设计师，Indie Builders 主理人。",
  "location": "远程",
- "tags": [
-  "产品设计",
-  "AI Skill",
-  "插画",
-  "社群",
-  "审美"
- ],
+ "updated": "2026-10-21",
+ "tags": ["产品设计", "AI Skill", "插画风格", "社群", "审美"],
  "links": [
-  {
-   "label": "ianneo.xyz",
-   "url": "http://ianneo.xyz"
-  },
-  {
-   "label": "Dribbble",
-   "url": "https://dribbble.com/neocurve"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/helloianneo"
-  }
+  {"label": "Ian's workspace", "url": "https://ianneo.xyz"},
+  {"label": "小黑插图 Skill", "url": "https://github.com/helloianneo/ian-xiaohei-illustrations"},
+  {"label": "Dribbble", "url": "https://dribbble.com/neocurve"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「一名懂审美的产品设计师，正在探索一些明天的可能。」摸索一个人怎样长期经营。",
-  "<strong>代表作：</strong>小黑插图 Skill（★1.2 万，中文「小黑」怪诞风正文配图：16:9 白底手绘、少量红橙蓝批注）、伊恩日刊（每日产品设计资讯）、Ian's Inspiration（设计灵感收集）、Indie Builders 社群；作品集在 Dribbble（neocurve）。",
-  "<strong>为什么值得关注：</strong>TA 把「审美」变成了 AI 可以执行的 Skill，这是设计师在 AI 时代最有价值的输出方式之一。"
+  "<strong>一句话：</strong>「你好，我是伊恩，一名懂审美的产品设计师，正在探索一些明天的可能。我也是 Dribbble 万粉玩家、推特万粉玩家、GitHub 万星选手。」",
+  "<strong>代表作：</strong>ian-xiaohei-illustrations（★12,714）、ian-handdrawn-ppt（★1,480）、ian-xiaohei-scenes（★538）、awesome-claude-code-skills（★494）、Obsidian AI 第二大脑指南、Claude Code 高阶指南、ian-xhs-carousel；伊恩日刊、Ian's Inspiration。",
+  "<strong>关键数字：</strong>Dribbble 18,883 位关注者、2,778 个赞；X 关注者约 1.96 万；Indie Builders 约 300 人。",
+  "<strong>核心观点：</strong>「人人都在用 AI，差距从哪来？上手变容易了，判断反而难了。」"
  ],
- "lead": "伊恩的个人网站是一封信：「你好，我是伊恩，一名懂审美的产品设计师……现在我一边接产品设计项目，一边用 AI 做自己的产品，摸索一个人怎样长期经营。」落款是「Cheers, Ian」。",
+ "lead": "小黑插图 Skill 的 README 说它「不是通用插画 prompt，也不是 PPT 信息图模板」。它先理解文章里的认知锚点，再把一个判断、流程、结构、状态或隐喻，画成一张有记忆点的 16:9 手绘图：白底、一个黑色实心、白点眼、细腿、空表情的小角色「小黑」，加上少量红橙蓝批注。伊恩卖的不是「能画图」，而是一种统一、有辨识度的风格。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "产品设计师（Web 与移动端界面、交互流程、体验优化）"],
+     ["所在地", "远程"],
+     ["作品集", "Dribbble @neocurve；ianneo.xyz/portfolio"],
+     ["代表项目", "东南亚餐饮产品与商家 SaaS、PA Wallet 全球钱包、观猹 Insight AI 产品点评平台"],
+     ["开源", "小黑插图、手绘 PPT、小黑 2.0 场景、小红书图文等 Codex / Claude Code Skill"],
+     ["社群", "Indie Builders（约 300 人）；Chat with Ian 一对一 60 分钟"],
+     ["写作", "Notion 专栏「审美开眼」「做了再说」"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "伊恩的工作分三块：<strong>接设计项目</strong>维持收入；<strong>用 AI 做产品和内容</strong>，比如每日更新的伊恩日刊、设计灵感站 Ian's Inspiration，以及一系列把视觉风格封装起来的 AI Skill；<strong>经营社群</strong>，和一群想用 AI 做东西的人一起提升产品与品味判断。"},
+    {"p": "TA 在摸索的是「一个人怎样长期经营」：设计项目、开源作品、社群和一对一咨询，互相支撑。"},
+    {"note": "本页依据 ianneo.xyz（首页、Portfolio、Indie Builders）、GitHub 仓库与 README、Dribbble 主页和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "设计师时期",
-       "title": "Dribbble 万粉",
-       "text": "以 neocurve 之名在 Dribbble 发布产品与界面设计，积累了一万多关注者。"
-      },
-      {
-       "when": "2020",
-       "title": "加入 X",
-       "text": "开始分享产品设计、审美与 AI 实践，后来成为「推特万粉玩家」。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "AI Builder",
-       "text": "用 AI 做内容和小产品：伊恩日刊、Ian's Inspiration；在 Notion 上写「审美开眼」和「做了再说」两个专栏。"
-      },
-      {
-       "when": "2026-05",
-       "title": "小黑插图 Skill",
-       "text": "发布给 Codex 等 Agent 使用的中文正文配图 Skill：统一的「小黑」手绘角色、白底、少量彩色批注，迅速获得一万两千多星。"
-      },
-      {
-       "when": "现在",
-       "title": "Indie Builders",
-       "text": "经营一个约 300 人「一起用 AI 做产品」的圈子，并提供 60 分钟一对一的「Chat with Ian」。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "设计师时期", "title": "Dribbble 万粉", "text": "以 neocurve 之名在 Dribbble 发布产品与界面设计，作品覆盖 AI 数据平台、语音 App、金融钱包、股票投资、Web3 和电商，积累近一万九千关注者。"},
+     {"when": "2020", "title": "加入 X", "text": "开始分享产品设计、审美与 AI 实践。"},
+     {"when": "2026.03–04", "title": "Claude Code 内容", "text": "发布《Claude Code 高阶指南：从会用到用好》（8 章 + 3 附录）、Claude Code Skills 精选合集、基于 Karpathy LLM Wiki 方法论的 Obsidian + Claude 第二大脑搭建指南，以及手绘技术 PPT Skill。"},
+     {"when": "2026.05", "title": "小黑插图 Skill", "text": "发布给 Codex 等 Agent 使用的中文正文配图 Skill，迅速获得一万两千多颗星；6 月推出小黑 2.0：「小黑 + 真实物件 + 物理动作 + 短中文标签 + 留白叙事」。"},
+     {"when": "2026.09–10", "title": "更多 Skill 与社群", "text": "GPT-6 Astra 精选案例馆；小红书 3:4 图文轮播 Skill（20 个母版）；Indie Builders 社群约 300 人。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "小黑插图 Skill",
-       "meta": "2026 · ★1.2 万",
-       "text": "中文小黑怪诞正文配图生成：16:9 白底手绘，少量红橙蓝批注。",
-       "url": "https://github.com/helloianneo/ian-xiaohei-illustrations"
-      },
-      {
-       "name": "伊恩日刊",
-       "meta": "每日更新",
-       "text": "产品设计资讯日刊。",
-       "url": "https://iandaily.xyz/"
-      },
-      {
-       "name": "Ian's Inspiration",
-       "meta": "灵感站",
-       "text": "收集好的设计灵感。",
-       "url": "https://topinspo.design/"
-      },
-      {
-       "name": "Indie Builders",
-       "meta": "约 300 人社群",
-       "text": "一群对 AI 感兴趣、想用它做东西的人，在这里提升产品与品味判断。",
-       "url": "https://ianneo.xyz/ib"
-      }
+    {"work": {
+     "name": "小黑插图 Skill", "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+     "meta": ["2026.05", "Codex Skill", "★1.27 万"],
+     "paras": [
+      "「把中文文章里的判断、流程、状态和隐喻，变成一张张白底、手绘、怪诞但清爽的正文配图。」适用于文章、帖子、博客、Notion 文档和方法论内容。",
+      "它的价值在于<strong>一致性</strong>：同一个 IP、同一种线条、同一套批注颜色，让一个人的内容在信息流里一眼就能被认出来。"
+     ],
+     "facts": [["GitHub", "★12,714 · ⑂1,455"], ["规格", "16:9 · 白底手绘 · 红橙蓝批注"]]
+    }},
+    {"work": {
+     "name": "手绘技术 PPT Skill", "url": "https://github.com/helloianneo/ian-handdrawn-ppt",
+     "meta": ["2026.04", "Codex Skill", "★1.5 千"],
+     "paras": [
+      "把文章、课程笔记或提纲变成一套中文手绘技术解释风格的整页 PNG：21:9 封面、16:9 正文。它先理解材料、提炼叙事结构，再把每一页映射到合适的语义版式，统一锁定手绘视觉 DNA。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "Indie Builders", "url": "https://ianneo.xyz/ib",
+     "meta": ["社群", "约 300 人"],
+     "paras": [
+      "「用 AI 做一个页面、写一份方案，现在一会儿可能就够了。可做完以后，它到底好不好，值不值得接着往下做，很多时候说不清。」这个圈子想解决的就是判断力的问题。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["伊恩日刊", "每天更新的产品设计资讯"],
+      ["Ian's Inspiration", "收集设计灵感的网站"],
+      ["awesome-claude-code-skills", "50+ 精选，按场景分类、带推荐等级和安装命令"],
+      ["claude-code-handbook", "Claude Code 高阶指南，8 章 + 3 附录"],
+      ["obsidian-ai-second-brain", "Obsidian + Claude 个人知识库，4 阶段 12 步，不用写代码"],
+      ["ian-xhs-carousel", "把内容排成 3:4 小红书图文，先出分镜表再出图"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "http://ianneo.xyz",
-      "paras": [
-       "「Ian's workspace」是一页简洁的自我介绍：一段话讲清身份、正在做的事、开源作品、作品集和写作入口，最后是「来找我聊聊」。",
-       "Indie Builders 页面的开场问题很犀利：「人人都在用 AI，差距从哪来？」答案是：「上手变容易了，判断反而难了。」"
-      ]
-     }
-    }
+    {"site": {"url": "https://ianneo.xyz", "paras": [
+     "「Ian's workspace」是一页简洁的自我介绍：一段话讲清身份、正在做的事、开源作品、作品集和写作入口，最后是「来找我聊聊」。",
+     "Portfolio 页写法像设计案例：先讲当时的问题，再讲思路和方案，部分内容注明因保密要求做了脱敏处理。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Cloudflare"],
+      ["结构", "一页式介绍 + 作品集 + 社群页"],
+      ["转化", "合作、社群、一对一咨询入口清晰"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "审美与方法",
+   "id": "voice",
+   "title": "审美与观点",
    "blocks": [
-    {
-     "quote": "用 AI 做一个页面、写一份方案，现在一会儿可能就够了。可做完以后，它到底好不好，值不值得接着往下做，很多时候说不清。",
-     "cite": "Indie Builders 介绍"
-    },
-    {
-     "p": "伊恩的核心观点是：<strong>AI 时代稀缺的是判断力与品味</strong>。小黑插图 Skill 的成功正说明了这一点：它卖的不是「能画图」，而是「一种统一、有辨识度的风格」。"
-    }
+    {"quote": "人人都在用 AI，差距从哪来？上手变容易了，判断反而难了。", "cite": "伊恩，Indie Builders 介绍页"},
+    {"p": "伊恩的观点很一致：AI 时代稀缺的不是执行能力，而是判断力和品味。TA 的 Skill 都把「先理解，再表达」放在第一步：小红书图文先出分镜表让你确认，小黑插图先找文章里的认知锚点。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["审美", "设计作品集扎实，风格辨识度高", "—"],
+      ["开源", "Skill 星数高，传播快", "多为提示与规范类仓库，依赖底层图像模型能力"],
+      ["社群", "聚焦判断力，定位清楚", "付费社群，内容不公开"],
+      ["节奏", "2026 年产出密集", "项目多，长期维护有待观察"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
    "title": "可以从 TA 身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>把风格写成 Skill：</strong>审美可以被封装、复用和传播。",
-      "<strong>设计师的作品集是长期资产：</strong>Dribbble 万粉是 TA 所有事情的起点。",
-      "<strong>社群提升判断：</strong>一个人很难想清楚的问题，一群人可以。",
-      "<strong>项目 + 产品双线：</strong>接设计项目维持收入，用 AI 探索自己的产品。"
-     ]
-    }
+    {"checklist": [
+     "<strong>把风格写成 Skill：</strong>审美可以被封装、复用和传播。",
+     "<strong>作品集是长期资产：</strong>Dribbble 万粉是所有事情的起点。",
+     "<strong>先理解，再表达：</strong>分镜表、认知锚点，都是在 AI 出图前做判断。",
+     "<strong>社群提升判断：</strong>一个人想不清楚的问题，一群人可以。",
+     "<strong>项目 + 产品双线：</strong>接项目维持收入，用 AI 探索自己的产品。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "小黑插图 Skill", "url": "https://github.com/helloianneo/ian-xiaohei-illustrations", "why": "给你的下一篇文章配几张小黑。"},
+     {"name": "Ian's workspace", "url": "https://ianneo.xyz", "why": "看一个设计师怎么介绍自己。"},
+     {"name": "Dribbble：neocurve", "url": "https://dribbble.com/neocurve", "why": "看看万粉设计师的界面作品。"}
+    ]}
    ]
   }
  ],
- "cta": "试试小黑插图 Skill，给你的下一篇文章配一张图。",
+ "cta": "装上小黑插图 Skill，让你的文章有一个固定的视觉角色。",
  "sources": [
-  {
-   "label": "Ian 的 X 个人资料",
-   "url": "https://x.com/ianneo_ai"
-  },
-  {
-   "label": "Ian's workspace",
-   "url": "http://ianneo.xyz"
-  },
-  {
-   "label": "Indie Builders",
-   "url": "https://ianneo.xyz/ib"
-  },
-  {
-   "label": "GitHub：helloianneo",
-   "url": "https://github.com/helloianneo"
-  },
-  {
-   "label": "Dribbble：neocurve",
-   "url": "https://dribbble.com/neocurve"
-  }
+  {"label": "Ian 的 X 个人资料", "url": "https://x.com/ianneo_ai"},
+  {"label": "Ian's workspace", "url": "https://ianneo.xyz"},
+  {"label": "Indie Builders", "url": "https://ianneo.xyz/ib"},
+  {"label": "Portfolio", "url": "https://ianneo.xyz/portfolio/"},
+  {"label": "GitHub：helloianneo", "url": "https://github.com/helloianneo"},
+  {"label": "Dribbble：neocurve", "url": "https://dribbble.com/neocurve"}
  ]
 }

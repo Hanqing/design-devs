@@ -1,171 +1,161 @@
 {
- "name": "TJ（蒋继发 / 天海 原）",
+ "name": "TJ（ThaddeusJiang）",
  "role": "在日本的自由职业全栈开发者",
  "title": "TJ：在镰仓，做一个<em>全周期开发者</em>",
- "dek": "TA 在日本做过全球供应链 SaaS、网店、人事系统、电动车充电服务，自称「Full Cycle Developer」：从业务架构、编码、测试、部署到监控一手包办。TA 用 Elixir 写 Telegram 机器人，用 TiddlyJam 搭自己的博客，在 X 上记录「我看到的日本」。",
- "card": "在日本镰仓的自由职业全栈开发者，Elixir / TypeScript，写「我看到的日本」与数字花园博客。",
+ "dek": "他在日本做过全球供应链 SaaS、网店、人事系统、电动车充电服务和票务系统，自称「Full Cycle Developer」：从业务、架构、编码、测试、部署到监控一手包办。他用 Elixir 写 Telegram 机器人和 CLI，用 TiddlyWiki 搭自己的数字花园，在 X 上记录「我看到的日本」，最近在思考 AI 时代的工程与写作。",
+ "card": "save_it、Vmemo、ZipcodeJP、AIer 作者；在日本镰仓的自由职业全周期开发者。",
  "location": "日本镰仓",
- "tags": [
-  "全栈",
-  "Elixir",
-  "TypeScript",
-  "日本",
-  "自由职业"
- ],
+ "updated": "2026-10-21",
+ "tags": ["全栈", "Elixir", "TypeScript", "日本", "数字花园"],
  "links": [
-  {
-   "label": "thaddeusjiang.com",
-   "url": "https://thaddeusjiang.com"
-  },
-  {
-   "label": "TJ's Blog",
-   "url": "https://thaddeusjiang.com/blog"
-  },
-  {
-   "label": "GitHub",
-   "url": "https://github.com/ThaddeusJiang"
-  }
+  {"label": "thaddeusjiang.com", "url": "https://thaddeusjiang.com"},
+  {"label": "Tech Blog", "url": "https://thaddeusjiang.com/blog.html"},
+  {"label": "GitHub", "url": "https://github.com/ThaddeusJiang"}
  ],
  "summary": [
-  "<strong>一句话：</strong>「I'm a freelance web developer based in Japan.」一个对开发者体验、性能和技术选型有强烈主见的全栈工程师。",
-  "<strong>代表作：</strong>save_it（Elixir 写的 Telegram 机器人，保存并搜索网上的图片和视频）、AIer（用自己的数据训练 AI 做第二大脑）、稲盛和夫 GPT、ZipcodeJP（日本邮编查询 API）、react-sortable-list、omakase-ui、DevOps 启动套件、TiddlyJam。",
-  "<strong>为什么值得关注：</strong>TA 的博客是一个工程师的真实工作日志：短、具体、有观点，比如《Just use PostgreSQL》《形式主义的敏捷开发》《vibe coding 让我重新「慢了」下来》。"
+  "<strong>一句话：</strong>「I'm a freelance web developer based in Japan.」GitHub 自我介绍：擅长前后端、数据库、微服务和基础设施，会说日语、英语和中文。",
+  "<strong>代表作：</strong>save_it（Elixir Telegram 机器人）、Vmemo（视觉备忘）、ZipcodeJP（日本邮编查询 API）、AIer、react-sortable-list、chr、Projectify、coding-skills。",
+  "<strong>关键数字：</strong>X 关注者约 1.1 万；GitHub 114 个公开仓库，<strong>近一年 16,957 次贡献</strong>。",
+  "<strong>一个观点：</strong>「在 AI 时代，代码是 AI 写的，调研也是 AI 做的……那么今后技术类的文章就应该由 AI 来编写。」"
  ],
- "lead": "TJ 的 X 简介只有一个话题标签：「#我看到的日本」。TA 住在镰仓。在 yihong0618 的博客友情链接里，TA 的介绍是：「在日本开发 SaaS 产品，Love OSS」。",
+ "lead": "TJ 的主页像一张极简名片：一行「Full Cycle Developer」，下面列出六个环节：Business、Architecture、Coding、Testing、Deploying、Monitoring。他想表达的是，好的技术选型需要看到系统的全貌：一个只懂编码的人，很难判断该不该「Just use PostgreSQL」。",
  "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "自由职业全栈开发者（Full Cycle Developer）"],
+     ["所在地", "日本镰仓"],
+     ["经验", "全球供应链 SaaS、网店、人事系统、电动车充电服务、票务、IoT 系统"],
+     ["技术栈", "TypeScript、Elixir、React、Vue、PostgreSQL、Terraform"],
+     ["语言", "日语、英语、中文"],
+     ["代表作", "save_it、Vmemo、ZipcodeJP、AIer、chr、react-sortable-list"],
+     ["X", "#我看到的日本；简介提到 @NowledgeMem"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "TJ 的工作分两部分：为日本客户做全栈开发，以及做自己的小产品。后者多半来自生活：save_it 是一个 Telegram 机器人，帮你保存网上的图片视频并用语义搜索；Vmemo 让「视觉型」的人用图片做笔记、用 AI 搜索；campcat 监控露营地的预约信息；ZipcodeJP 号称「世界一番はやい郵便番号検索サービス」。"},
+    {"p": "他的博客是「数字花园，自留地，个人备份」：几百字的工作笔记，标题带日期，比如 PostgreSQL 改了环境变量不会自动改密码、Codex 终端用不了全局工具。"},
+    {"note": "本页依据 thaddeusjiang.com（首页与博客）、GitHub 主页与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
   {
    "id": "story",
    "title": "成长与经历",
    "blocks": [
-    {
-     "steps": [
-      {
-       "when": "2016–2019",
-       "title": "来到日本",
-       "text": "2016 年注册 GitHub。2019 年做了把 Kindle 读书高亮导入 Anki 的 Elixir 工具。"
-      },
-      {
-       "when": "2020–2022",
-       "title": "SaaS 与开源组件",
-       "text": "在日本参与全球供应链 SaaS、网店、人事系统、电动车充电服务等项目；开源 ZipcodeJP、DevOps 启动套件、react-sortable-list、omakase-ui（基于 daisyUI 与 Conform 的精致组件）、chr（命令历史报告 CLI）。"
-      },
-      {
-       "when": "2023",
-       "title": "AI 实验",
-       "text": "AIer：用自己的数据训练 AI，做 PKM 与第二大脑；做了「和稻盛和夫 GPT 对话」。"
-      },
-      {
-       "when": "2024",
-       "title": "save_it 与 TiddlyJam",
-       "text": "用 Elixir 写了 save_it Telegram 机器人，并写下《I built Save_it》《Just use PostgreSQL》《I Analyzed My Browser History》。"
-      },
-      {
-       "when": "2025–2026",
-       "title": "AI 时代的工程反思",
-       "text": "《vibe coding 让我重新「慢了」下来》《拥抱 git worktree》《当 GitHub Actions 配额耗尽：我如何把 iOS CI 搬回本地》《Tech Blog 应该由 AI 编写》；开源给 Codex、Claude Code、Cursor 用的 coding-skills。"
-      }
-     ]
-    }
+    {"steps": [
+     {"when": "2016–2019", "title": "来到日本", "text": "2016 年注册 GitHub；2019 年用 Elixir 写了把 Kindle 读书高亮导入 Anki 的工具。"},
+     {"when": "2020–2022", "title": "SaaS 与开源组件", "text": "参与供应链、网店、人事、充电服务等系统；开源 ZipcodeJP、面向初创公司的开箱即用 DevOps 套件、react-sortable-list（「专注于你要做的功能，而不是拖拽 UI」）、基于 daisyUI 与 Conform 的 omakase-ui，以及受 Fig 报告启发的命令历史报告 CLI chr。"},
+     {"when": "2023", "title": "AI 实验", "text": "AIer：用自己的数据训练 AI，做个人知识管理与第二大脑；做了「和稻盛和夫 GPT 对话」；在 TiddlyWiki 里做项目管理插件 Projectify。"},
+     {"when": "2024", "title": "save_it", "text": "用 Elixir 写了 save_it，并写下《I built Save_it》《Just use PostgreSQL》《I Analyzed My Browser History》。"},
+     {"when": "2025–2026", "title": "AI 时代的工程", "text": "写《vibe coding 让我重新「慢了」下来》《拥抱 git worktree》《为什么我没有尝试 GitHub 的替代品》《当 GitHub Actions 配额耗尽：我如何把 iOS CI 搬回本地》《Tech Blog 应该由 AI 编写》；做了 Vmemo、受 Resend 启发的免费邮件编辑器，开源 coding-skills。"}
+    ]}
    ]
   },
   {
    "id": "works",
-   "title": "代表作品",
+   "title": "代表作品详解",
    "blocks": [
-    {
-     "cards": [
-      {
-       "name": "save_it",
-       "meta": "2024 · Elixir",
-       "text": "Telegram 机器人：轻松保存并搜索网上的图片与视频。",
-       "url": "https://github.com/ThaddeusJiang/save_it"
-      },
-      {
-       "name": "AIer",
-       "meta": "2023 · TypeScript",
-       "text": "用你自己的数据训练 AI，用于个人知识管理与第二大脑。",
-       "url": "https://github.com/ThaddeusJiang/AIer"
-      },
-      {
-       "name": "ZipcodeJP",
-       "meta": "2020 · API",
-       "text": "按邮编查询日本地址的 RESTful API。",
-       "url": "https://github.com/ThaddeusJiang/ZipcodeJP"
-      },
-      {
-       "name": "coding-skills",
-       "meta": "Agent Skills",
-       "text": "可复用的编程技能，适用于 Codex、Claude Code、Cursor 等。",
-       "url": "https://github.com/ThaddeusJiang/coding-skills"
-      }
+    {"work": {
+     "name": "save_it", "url": "https://github.com/ThaddeusJiang/save_it",
+     "meta": ["2024", "Elixir", "Telegram 机器人"],
+     "paras": [
+      "「A Telegram bot that lets you easily save and search images and videos from the internet.」把网上的图片和视频发给它，它负责下载、保存，之后可以用语义词或相似图片找回来。仓库从 2024 年持续维护到 2026 年。"
      ]
-    }
+    }},
+    {"work": {
+     "name": "Vmemo", "url": "https://github.com/ThaddeusJiang/Vmemo",
+     "meta": ["2025", "Elixir", "视觉备忘"],
+     "paras": [
+      "「Visual memo app for every \"wow\" moment, no need to rack your brain for words.」对用图片思考和记忆的人来说，图片笔记比长段文字更自然：拍下来，用 AI 搜索，快速回顾。"
+     ]
+    }},
+    {"work": {
+     "name": "ZipcodeJP", "url": "https://github.com/ThaddeusJiang/ZipcodeJP",
+     "meta": ["2020", "TypeScript", "RESTful API"],
+     "paras": [
+      "按邮编查询日本地址的 API，几乎每个日本网店和表单都需要它。仓库从 2020 年维护到 2026 年，部署在 Zeabur。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["AIer", "2023", "用自己的数据训练 AI，做第二大脑（已归档）"],
+      ["react-sortable-list", "2022", "React 拖拽排序列表组件"],
+      ["chr", "2022", "基于 shell 历史的命令使用报告，不收集任何数据"],
+      ["Projectify", "—", "TiddlyWiki 里的项目管理，受 Todoist 启发（★78）"],
+      ["DevOps", "2021", "给初创公司的开箱即用 DevOps 套件（Terraform）"],
+      ["coding-skills", "2026", "给 Codex、Claude Code、Cursor 的可复用编程技能"]
+     ]
+    }}
    ]
   },
   {
    "id": "site",
-   "title": "个人网站",
+   "title": "个人网站研究",
    "blocks": [
-    {
-     "site": {
-      "url": "https://thaddeusjiang.com",
-      "paras": [
-       "主页像一份极简名片：Full Cycle Developer，下面列出 Business、Architecture、Coding、Testing、Deploying、Monitoring 六个环节，再写经验与技能。由 TA 自己的 TiddlyJam 驱动，中日双语。",
-       "博客副标题是「数字花园，自留地，个人备份」，文章多是几百字的工作笔记，标题带日期。"
-      ]
-     }
-    }
+    {"site": {"url": "https://thaddeusjiang.com", "paras": [
+     "网站由 TiddlyWiki 驱动：主页是一张名片，博客是一组按日期排列的短笔记。每篇文章都很短，直接说问题、原因和解决方法。",
+     "这种写法很适合「个人备份」：踩过的坑记一笔，下次自己搜得到，别人也能顺手用上。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "TiddlyWiki"],
+      ["内容", "工作笔记、工程反思、AI 编程实践"],
+      ["语言", "中文为主，项目 README 有日文和英文"]
+     ]
+    }}
    ]
   },
   {
-   "id": "craft",
-   "title": "思考与方法",
+   "id": "voice",
+   "title": "写作与观点",
    "blocks": [
-    {
-     "quote": "在 AI 时代，代码是 AI 写的，调研也是 AI 做的，人类只做了产品级别的决策……那么今后技术类的文章就应该由 AI 来编写。",
-     "cite": "TJ《Tech Blog 应该由 AI 编写》"
-    },
-    {
-     "p": "TJ 的工程哲学是<strong>务实与简洁</strong>：能用 PostgreSQL 就用 PostgreSQL，能在本地跑 CI 就不依赖配额，拒绝「形式主义的敏捷」。全周期开发者的视角，让 TA 更关心系统整体是否可靠，而不是某个环节是否时髦。"
-    }
+    {"p": "TJ 的工程哲学务实而简洁：能用 PostgreSQL 就用 PostgreSQL；GitHub Actions 配额用完了，就用 gh-signoff 把 iOS CI 搬回本地；用 XState 实现 EffectTS 宣称的特性，同时保持 TypeScript 语法。他也在反思 AI：vibe coding 反而让他「重新慢了下来」。"},
+    {"quote": "如果内容是 AI 发现的，那为什么人类插手文章的编写和分享呢？", "cite": "TJ，《Tech Blog 应该由 AI 编写》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["全周期", "从业务到监控都做过，选型务实", "—"],
+      ["产出", "近一年近 1.7 万次贡献", "个人项目星数不高，多为自用工具"],
+      ["技术", "Elixir 与 TypeScript 双栈", "Elixir 生态相对小众"],
+      ["写作", "短笔记直接、可搜索", "长文较少；部分观点（如技术博客应由 AI 写）有争议"]
+     ]
+    }}
    ]
   },
   {
    "id": "learn",
-   "title": "可以从 TA 身上学什么",
+   "title": "可以从他身上学什么",
    "blocks": [
-    {
-     "checklist": [
-      "<strong>做全周期开发者：</strong>从业务到监控都懂，才能做好技术选型。",
-      "<strong>写短笔记：</strong>每个踩过的坑都值得记一笔。",
-      "<strong>选择无聊的技术：</strong>Just use PostgreSQL。",
-      "<strong>记录你所在的地方：</strong>「我看到的日本」让技术之外的生活也被看见。"
-     ]
-    }
+    {"checklist": [
+     "<strong>做全周期开发者：</strong>从业务到监控都懂，才能做好技术选型。",
+     "<strong>选择无聊的技术：</strong>Just use PostgreSQL。",
+     "<strong>写短笔记：</strong>每个踩过的坑都值得记一笔。",
+     "<strong>为生活写工具：</strong>露营预约、图片收藏、邮编查询。",
+     "<strong>记录你所在的地方：</strong>「我看到的日本」让技术之外的生活也被看见。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Tech Blog", "url": "https://thaddeusjiang.com/blog.html", "why": "一组短小实用的工程笔记。"},
+     {"name": "save_it", "url": "https://github.com/ThaddeusJiang/save_it", "why": "看一个 Elixir Telegram 机器人怎么写。"},
+     {"name": "ZipcodeJP", "url": "https://github.com/ThaddeusJiang/ZipcodeJP", "why": "做日本业务时用得上的邮编 API。"}
+    ]}
    ]
   }
  ],
- "cta": "读一读 TA 的《vibe coding 让我重新「慢了」下来》。",
+ "cta": "读一篇 TJ 的短笔记，然后把你今天踩的坑也记下来。",
  "sources": [
-  {
-   "label": "TJ 的 X 个人资料",
-   "url": "https://x.com/ThaddeusJiang"
-  },
-  {
-   "label": "thaddeusjiang.com",
-   "url": "https://thaddeusjiang.com"
-  },
-  {
-   "label": "TJ's Blog",
-   "url": "https://thaddeusjiang.com/blog"
-  },
-  {
-   "label": "GitHub：ThaddeusJiang",
-   "url": "https://github.com/ThaddeusJiang"
-  },
-  {
-   "label": "yihong0618 gitblog 友情链接",
-   "url": "https://github.com/yihong0618/gitblog"
-  }
+  {"label": "TJ 的 X 个人资料", "url": "https://x.com/ThaddeusJiang"},
+  {"label": "thaddeusjiang.com", "url": "https://thaddeusjiang.com"},
+  {"label": "TJ's Tech Blog", "url": "https://thaddeusjiang.com/blog.html"},
+  {"label": "GitHub：ThaddeusJiang", "url": "https://github.com/ThaddeusJiang"}
  ]
 }
