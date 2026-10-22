@@ -10,7 +10,8 @@ x = (json.load(open(f'{ROOT}/research/x/{h}.json')).get('user') or {}) if os.pat
 print(f'## {h} · X: {x.get("name")} | {x.get("followers")} 关注 | {x.get("following")} 正在关注 | 推文 {x.get("tweets")} | 加入 {x.get("joined")} | {x.get("location")} | {(x.get("website") or {}).get("url")}')
 print('BIO:', (x.get('description') or '').replace('\n', ' '))
 
-d = json.load(open(f'{ROOT}/data/people/{h}.json'))
+dp = f'{ROOT}/data/people/{h}.json'
+d = json.load(open(dp)) if os.path.exists(dp) else {'sections': []}
 print('\n# 现有页面:', d.get('role'), '|', strip(d.get('title')), '|', d.get('location'))
 print('DEK:', strip(d.get('dek')))
 for sec in d['sections']:

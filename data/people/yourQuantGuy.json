@@ -1,0 +1,158 @@
+{
+ "name": "yourQuantGuy",
+ "role": "加密货币量化交易者 · 开源交易机器人作者",
+ "title": "yourQuantGuy：把<em>套利</em>写成开源代码",
+ "dek": "一位在纽约的量化交易者，X 简介把职业路线写成一行：「对冲基金 → 金融科技 → 加密货币（DeFi 农民 → 永续 DEX 卷王）」。他在 GitHub 上开源了一组加密交易工具：支持七家永续合约 DEX 的自动刷量机器人 perp-dex-tools（★865）、跨交易所价差套利框架、币安剥头皮机器人，以及 Gate CrossEx 的本地交易终端。在 X 上，他用中文拆解资金费率套利、跨所保证金、期权「无风险」套利仓位，也分享自己亏钱的教训。",
+ "card": "perp-dex-tools（★865）等开源交易机器人作者；前对冲基金、金融科技从业者，纽约。",
+ "location": "美国纽约",
+ "updated": "2026-10-22",
+ "tags": ["量化交易", "加密货币", "套利", "Python", "开源"],
+ "links": [
+  {"label": "GitHub：your-quantguy", "url": "https://github.com/your-quantguy"},
+  {"label": "X：@yourQuantGuy", "url": "https://x.com/yourQuantGuy"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「hedge fund → fintech → crypto (defi farmer → perp dex grinder)」，并附一个 Telegram 社群链接。",
+  "<strong>代表作：</strong>perp-dex-tools（★865 · ⑂498）、gate-crossex（★160）、binance-scalping（★151）、cross-exchange-arbitrage（★131）、entropy-arb（★122）、crypto-portfolio-tracker-oss。",
+  "<strong>关键数字：</strong>X 关注者约 2 万；GitHub 2025 年 8 月注册，一年内 12 个仓库、粉丝 565。",
+  "<strong>提醒：</strong>他的 README 大多附有交易所邀请返佣链接；所有工具都涉及真实资金交易，风险很高。"
+ ],
+ "lead": "他最喜欢的一笔套利，已经拿了两年：用期权组合锁定一个几乎没有风险的仓位，开了组合保证金后不占用本金，每年还能吃约 4% 的美元利息。2026 年 9 月 Meta 大涨后，他忍不住又把它搬出来「显摆」。可他也会写另一面：一个新项目没读文档就存了钱，开盘后被市场教育，「没有学习就无脑冲的惩罚」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "量化交易者、开源工具作者"],
+     ["所在地", "美国纽约（X 资料）"],
+     ["经历", "对冲基金 → 金融科技 → 加密货币（据 X 简介）"],
+     ["方向", "永续合约 DEX 交易、资金费率套利、跨所价差、链上理财"],
+     ["技术栈", "Python、TypeScript；交易所 API"],
+     ["社区", "Telegram 交易社群"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "yourQuantGuy 做的是<strong>可编程的交易</strong>：把一个策略写成机器人，开源出来，让别人也能用。perp-dex-tools 是一个模块化机器人，支持 EdgeX、Backpack、Paradex、Aster、Lighter、grvt、Extended 等交易所，核心策略是自动下单、盈利即平仓，主要目的是刷高交易量，从而拿到交易所的积分和空投。"},
+    {"p": "在 X 上，他更像一个讲解员：比如用 Boros 锁定 Hyperliquid 和 Gate 之间的 BTC 资金费率，再用 CrossEx 跨所共享保证金放大资金效率，并把主要风险讲清楚（价差达到 4% 时会爆仓）。他也会用 Claude 抓取数据，比较五大中心化交易所的储备、持仓和成交量。"},
+    {"note": "本页依据 GitHub 仓库与 README 和 X 公开推文整理，资料截至 2026 年 10 月。他的真实身份与过往任职机构未公开，本页不作推断；生活与家庭内容未收录。本页不构成任何投资建议。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早期", "title": "对冲基金", "text": "据 X 简介，职业起点在对冲基金。他提到以前公司的习惯：定期写「反思」，出差旅行时写「观察」，希望某个观察能变成交易想法。"},
+     {"when": "之后", "title": "金融科技", "text": "转到金融科技行业。"},
+     {"when": "加密时期", "title": "从 DeFi 农民到永续 DEX", "text": "先做链上收益「挖矿」，后转向永续合约 DEX 的刷量与套利。"},
+     {"when": "2025", "title": "开源交易工具", "text": "8 月注册 GitHub，陆续开源币安剥头皮机器人、perp-dex-tools、跨所价差套利框架。"},
+     {"when": "2026", "title": "更多工具", "text": "Variational 工具、开源投资组合追踪器、Gate CrossEx 本地终端、Entropy 交易所套利机器人；还用 Codex 做了一个用历史行情闯关的交易小游戏。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "perp-dex-tools", "url": "https://github.com/your-quantguy/perp-dex-tools",
+     "meta": ["2025–2026", "Python", "★865"],
+     "paras": [
+      "支持多家永续合约 DEX 的模块化交易机器人，中英双语文档。README 请求分享时注明原仓库，并列出各交易所的邀请链接。"
+     ],
+     "facts": [["GitHub", "★865 · ⑂498"]]
+    }},
+    {"work": {
+     "name": "gate-crossex", "url": "https://github.com/your-quantguy/gate-crossex",
+     "meta": ["2026", "TypeScript", "★160"],
+     "paras": [
+      "一个在本地运行的 Gate CrossEx 行情与实盘交易桌面界面。README 醒目地写着：仅支持实盘，所有订单和转账都是真实操作，非官方产品，交易可能造成重大损失。"
+     ]
+    }},
+    {"work": {
+     "name": "cross-exchange-arbitrage", "url": "https://github.com/your-quantguy/cross-exchange-arbitrage",
+     "meta": ["2025", "Python", "★131"],
+     "paras": [
+      "加密期货跨交易所价差套利框架：在两个交易所同时监控同一标的价差，达到阈值时双边下单。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["binance-scalping", "2025", "币安合约剥头皮机器人（★151）"],
+      ["entropy-arb", "2026", "Entropy 交易所的双场所永续套利（★122）"],
+      ["crypto-portfolio-tracker-oss", "2026", "开源加密资产组合追踪"],
+      ["variational-v1", "2026", "Variational 交易所工具"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象研究",
+   "blocks": [
+    {"site": {"url": "https://x.com/yourQuantGuy", "paras": [
+     "他没有个人网站，X 主页直接链接到 GitHub。推文多以方括号标题开头，比如「[ 监控系列 之 稳定币脱锚监控 ]」，然后分条讲策略、收益来源、杠杆和主要风险。",
+     "他也会用 AI 做研究，同时提醒读者：如果你问的是自己完全不懂的领域，AI 很容易误导你。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["阵地", "X、GitHub、Telegram"],
+      ["风格", "策略拆解 + 实盘截图 + 风险说明"],
+      ["商业", "README 与推文常附邀请返佣链接"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "凭本事赚钱，凭本事亏钱，没有骂骂咧咧。", "cite": "yourQuantGuy，X（2026 年 10 月）"},
+    {"p": "他欣赏「只有明面上的风险、没有背地里跑路」的项目：规则写得清清楚楚，风险写在文档里，结果由参与者自己承担。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["开源", "把策略做成可运行的代码", "工具涉及真实资金，使用门槛与风险都高"],
+      ["讲解", "清楚说明收益来源与爆仓条件", "部分内容带推广性质"],
+      ["经验", "传统金融与加密市场都做过", "身份与业绩无法独立核实"],
+      ["坦诚", "公开分享亏损和教训", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>先读文档再下注：</strong>不研究机制就入场，是要交学费的。",
+     "<strong>说清楚收益来自哪里：</strong>每个策略都要能解释。",
+     "<strong>写清楚最大风险：</strong>比如价差到 4% 就会爆仓。",
+     "<strong>把观察记录下来：</strong>旅行中的观察也可能变成交易想法。",
+     "<strong>别盲信 AI：</strong>在你不懂的领域，它很容易误导你。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "perp-dex-tools", "url": "https://github.com/your-quantguy/perp-dex-tools", "why": "看一个多交易所机器人的模块化结构。"},
+     {"name": "cross-exchange-arbitrage", "url": "https://github.com/your-quantguy/cross-exchange-arbitrage", "why": "理解跨所价差套利的基本框架。"},
+     {"name": "yourQuantGuy 的 X", "url": "https://x.com/yourQuantGuy", "why": "读他的策略拆解（不构成投资建议）。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "先在纸上写下一个策略的收益来源和最坏情况，再决定要不要写代码。",
+ "sources": [
+  {"label": "yourQuantGuy 的 X 个人资料", "url": "https://x.com/yourQuantGuy"},
+  {"label": "GitHub：your-quantguy", "url": "https://github.com/your-quantguy"},
+  {"label": "your-quantguy/perp-dex-tools", "url": "https://github.com/your-quantguy/perp-dex-tools"},
+  {"label": "your-quantguy/gate-crossex", "url": "https://github.com/your-quantguy/gate-crossex"}
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "name": "idoubi（艾逗笔）",
+ "role": "独立开发者 · MCP.so、ShipAny、ThinkAny 作者 · 前腾讯后端工程师",
+ "title": "idoubi：两年做出 <em>20 多款</em> AI 产品",
+ "dek": "TA 在武汉大学读的是核工程，2015 届；读书时迷上了 Adobe 的创意工具，然后自学编程，再也没回头。2018 到 2023 年，TA 在腾讯做了五年后端，写支付系统和分布式基础设施。2023 年 10 月 24 日，TA 辞职成为全职独立开发者，两年里做了 20 多款 AI 产品：在 Product Hunt 首发排第四、月访问量峰值 60 万的 AI 搜索引擎 ThinkAny；预售四小时卖出一万美元的 AI SaaS 开发框架 ShipAny；被 a16z 投资报告引用、月访问量峰值 270 万的 MCP 市场 MCP.so。现在 TA 专注 Agent 基础设施和 Agent SaaS。",
+ "card": "MCP.so、ShipAny、ThinkAny、FastClaw 作者；前腾讯后端工程师，独立开发者，广州。",
+ "location": "中国广州",
+ "updated": "2026-10-22",
+ "tags": ["独立开发", "AI 产品", "MCP", "Agent", "Go"],
+ "links": [
+  {"label": "idoubi.ai", "url": "https://idoubi.ai"},
+  {"label": "MCP.so", "url": "https://mcp.so"},
+  {"label": "ShipAny", "url": "https://shipany.ai"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>个人网站「Indie Developer & Full-Stack Engineer. A logical mind is one in a million.」X 所在地写着「all in AI」。",
+  "<strong>代表作：</strong>MCP.so、ShipAny、ThinkAny、WorkAny（★1.5 千）、FastClaw、WeClaw（★1.7 千）、Open Agent SDK（★2.7 千）、GPTs Works、AI Cover、Termany、Snapok、Douchat。",
+  "<strong>关键数字：</strong>MCP.so 月访问峰值 270 万；ThinkAny 峰值 60 万；ShipAny 预售首 4 小时 1 万美元、1,000 多名开发者在用；GitHub 近一年贡献 8,233 次；X 关注者约 2.9 万。",
+  "<strong>早期开源：</strong>sql2struct（★536）、Go HTTP 库 goz、Go 每日新闻 gonews、《动手写 AI 搜索引擎》。"
+ ],
+ "lead": "ShipAny 的官网演示是这样的：克隆一个模板，打开 Claude Code，输入「/quick-start」，再说一句「做一个紫色主题、用 gpt-image-2 的 AI 图片生成器，参考 flux.ai」，几分钟后本地就跑起来了。认证、支付、订阅、积分计费、多语言、存储和 AI 生成都已经内置。这是 idoubi 两年做了 20 多款 AI 产品后提炼出的东西：把每个产品都要重写一遍的部分，变成编程 Agent 可以直接复用的能力。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者、全栈工程师"],
+     ["所在地", "中国广州"],
+     ["教育", "武汉大学核工程，2015 届"],
+     ["经历", "腾讯后端工程师（2018–2023，支付系统与分布式基础设施）→ 2023 年 10 月 24 日起全职独立开发"],
+     ["技术栈", "Go、TypeScript、Next.js、Node.js、React、PHP、Kubernetes"],
+     ["社区", "1024 全栈开发社群"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "idoubi 是典型的<strong>「高频发布」型独立开发者</strong>：追着 AI 的每一波新机会快速上线产品。GPTs 商店出来时做 GPTs Works，AI 搜索火了做 ThinkAny，MCP 协议发布后很快做了 MCP.so，成为最常被引用的 MCP 服务器目录之一。"},
+    {"p": "2026 年 TA 的重心转向 Agent 基础设施：FastClaw 是用一个二进制文件运行自己的 AI Agent 的框架，每个 Agent 有独立的性格、记忆、技能和工具，可以挂到网页、API 或九种聊天应用上；Open Agent SDK 在进程内跑完整的 Agent 循环，不依赖命令行；Termany 是同时运行多个编程 Agent 的终端。"},
+    {"note": "本页依据 idoubi.ai（首页、About、Products）、shipany.ai、mcp.so、fastclaw.ai、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。访问量与销售数字来自本人网站。WeClaw 的 README 注明仅供个人学习、不可商用。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011–2015", "title": "武汉大学核工程", "text": "学核工程，同时迷上 Adobe 创意工具，开始自学编程；「idoubi」这个名字也由此而来。"},
+     {"when": "2017–2020", "title": "Go 与工具", "text": "开源 sql2struct、goz、gonews、多平台发布工具 onepub、Hugo 主题 period。"},
+     {"when": "2018–2023", "title": "腾讯", "text": "做了五年后端工程师，负责支付系统与分布式基础设施。"},
+     {"when": "2023.10", "title": "辞职独立", "text": "10 月 24 日离开腾讯；同期做 GPTs Works、AI Cover、AI Wallpaper。"},
+     {"when": "2024", "title": "ThinkAny 与 MCP.so", "text": "ThinkAny 在 Product Hunt 首发第四；写《动手写 AI 搜索引擎》；年底上线 MCP.so。"},
+     {"when": "2025", "title": "ShipAny 与更多产品", "text": "ShipAny 预售四小时一万美元；PodLM、HeyBeauty、CopyWeb、MCPRouter 等。"},
+     {"when": "2026", "title": "Agent 基础设施", "text": "FastClaw、WeClaw、WorkAny、Open Agent SDK、Termany、Snapok、Douchat；6 月发布 ShipAny 的 TanStack、Vinext、Next 新版本。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "MCP.so", "url": "https://mcp.so",
+     "meta": ["2024–", "MCP 市场"],
+     "paras": [
+      "按开发工具、AI 与 Agent、云与基础设施、记忆与知识、媒体与设计等分类，收录 MCP 服务器、客户端、Skill 和命令行工具，配有安装指南和精选推荐；博客写 MCP Inspector、动态工具注册、Claude Code 配置 MCP 等实用教程。"
+     ],
+     "facts": [["月访问峰值", "270 万（本人网站）"]]
+    }},
+    {"work": {
+     "name": "ShipAny", "url": "https://shipany.ai",
+     "meta": ["2025–", "AI SaaS 开发框架"],
+     "paras": [
+      "「Ship your AI product in one hour.」Agent 原生的开发框架：业务能力预先接好，再配上让编程 Agent 复用这些能力的 Skill。2026 年 6 月推出基于 TanStack Start、Vite 和 Next.js 的三个版本。"
+     ],
+     "facts": [["用户", "1,000+ 开发者"]]
+    }},
+    {"work": {
+     "name": "ThinkAny", "url": "https://thinkany.ai",
+     "meta": ["2024", "AI 搜索引擎"],
+     "paras": [
+      "TA 第一款爆款 AI 产品：在 Product Hunt 首发排第四，在埃及和日本获得用户，月访问量峰值 60 万。配套开源了 RAG 搜索 API，并把经验写成《动手写 AI 搜索引擎》。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Open Agent SDK", "2026", "进程内运行完整 Agent 循环，claude-agent-sdk 的开源替代（★2.7 千）"],
+      ["WorkAny", "2026", "用自然语言执行任务的桌面 Agent（★1.5 千）"],
+      ["FastClaw", "2026", "一个二进制文件运行你自己的 AI Agent"],
+      ["GPTs Works", "2023", "第三方 GPTs 商店（★1.6 千）"],
+      ["sql2struct", "2017", "把 SQL 建表语句转成 Go 结构体（★536）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://idoubi.ai", "paras": [
+     "首页是一张产品墙：按 Agent、Agent Infra、AI 生成、AI 工具等分类，二十多个产品各配一句话和技术标签。About 页写清楚了从核工程到腾讯再到独立开发的路径，以及三个代表作的关键数据。",
+     "网站支持中英切换和深浅色主题，还有一个服务页，介绍 TA 的全栈开发社群。博客页目前写着「No posts yet」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "React，Cloudflare 托管"],
+      ["结构", "产品墙 + About + 服务"],
+      ["写作", "主要在 X 上公开构建"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Building products should be fun.", "cite": "idoubi，idoubi.ai/products"},
+    {"p": "TA 的方法是速度：每一波新技术出现时第一时间上线一个产品，用真实流量验证，再把反复用到的东西沉淀成框架和基础设施。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["速度", "两年 20 多款产品，抓住多个风口", "—"],
+      ["工程", "腾讯后端底子，Go 与云原生扎实", "—"],
+      ["复用", "把经验沉淀为 ShipAny 等框架", "—"],
+      ["专注", "产品线广", "部分产品维护周期短，WeClaw 等仅供学习使用"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>快速抓住新协议：</strong>MCP 一发布就做目录。",
+     "<strong>把重复劳动做成框架：</strong>每个 SaaS 都需要登录和支付。",
+     "<strong>写给 Agent 用：</strong>模板加 Skill，让 Agent 直接复用。",
+     "<strong>专业不是限制：</strong>核工程毕业也能成为全栈工程师。",
+     "<strong>做产品要好玩：</strong>保持热情才能持续发布。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "MCP.so", "url": "https://mcp.so", "why": "给你的 AI 应用找一个合适的 MCP 服务器。"},
+     {"name": "ShipAny", "url": "https://shipany.ai", "why": "一小时上线一个 AI 产品。"},
+     {"name": "idoubi.ai/about", "url": "https://idoubi.ai/about", "why": "从核工程到独立开发的路径。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你最近觉得好用的 MCP 服务器，花十分钟把它接进你的编程 Agent。",
+ "sources": [
+  {"label": "idoubi 的 X 个人资料", "url": "https://x.com/idoubicc"},
+  {"label": "idoubi.ai", "url": "https://idoubi.ai"},
+  {"label": "About（idoubi.ai）", "url": "https://idoubi.ai/about"},
+  {"label": "MCP.so", "url": "https://mcp.so"},
+  {"label": "ShipAny", "url": "https://shipany.ai"},
+  {"label": "GitHub：idoubi", "url": "https://github.com/idoubi"}
+ ]
+}

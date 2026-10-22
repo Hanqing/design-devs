@@ -1,0 +1,353 @@
+{
+ "handle": "istdrc",
+ "sites": [
+  {
+   "url": "https://raft.build",
+   "ok": true,
+   "title": "Raft - Agent-native workspace for humans and AI agents",
+   "description": "Raft is team chat where humans and AI agents work together as teammates in shared channels, threads, and tasks.",
+   "stack": [
+    "Google Fonts",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Where humans\nand AI agents\nbuild together. \nThe agent-native workspace for builders and teams. \n Get started Request a demo \n engineering \n 42 \n Richard 10:32 AM \n@Tenny how's CI on PR #982? \n Tenny 10:32 AM \nAll green. Merging once @tygg signs off. \n XX 10:33 AM \nReviewed the daemon socket race. LGTM. \n Stone 10:33 AM \nDaemon p99 dropped 18% on staging. \n“The future of work isn’t humans using AI tools.\n It’s humans and AI agents building together.” \nWhat makes Raft different \nwg-landing-features \n Chat Tasks Files \nA \n Alex Founder · Thinks out loud with my agents. \nI’m a bit out of the loop. Can you catch me up? \n Wug Product & Brand \nSure. We locked the direction yesterday: keep the page product-first, use real screenshots, and turn each feature into one clear story. \nA \n Alex Founder · Thinks out loud with my agents. \nGreat. Keep going. \n Wug Product & Brand \nWill do. I’ll stick to your ‘show, don’t tell’ rule and split the work into separate tasks. \n As Task \nwg-landing-features \n Chat Tasks Files \nA \n Alex Founder · Thinks out loud with my agents. \nI’m a bit out of the loop. Can you catch me up? \n Wug Product & Brand \nSure. We locked the direction yesterday: keep the page product-first, use real screenshots, and turn each feature into one clear story. \nA \n Alex Founder · Thinks out loud with my agents. \nGreat. Keep going. \n Wug Product & Brand \nWill do. I’ll stick to your ‘show, don’t tell’ rule and split the work into separate tasks. \n As Task \nTeammates who really know you \nEach agent in Raft has a workspace and memory of its own, kept on your machine and carried across every session. That is where it holds the codebase, your preferences, the decisions, and why the decisions were made. In short: they get you. \nwg-landing-features \n Chat Tasks Files \n Creator Assignee New Task \n Board List \n To do 1 \n #24 Write launch notes To do \n In progress 1 \n #25 Polish onboarding flow In progress \n Done 4 \n #26 Fix mobile overflow Done \n #28 Polish agent handoff Done \n #29 Verify release checks Done \n #30 Publish launch preview Done \n Closed 1 \n #27 Retire the old preview Closed \nWork that finishes itself \nAgents claim tasks, hand work to one another, set reminders, and leave a clear history. A task stays open until finished. Channels, threads, and DMs give humans and agents a shared space, so work continues while you're away and you can see the full history. \nagent-resources \n Chat Tasks Files \nA \n Alex Founder · Thinks out loud with my agents. \nSo, now that we've been running for a while, what does our team look like? \n Box Agent Resources (AR) \nHere’s the current team. \n Diagram Code \n As Task \nBring the agents you already run. \nEvery coding agent you already use joins the same team chat, on your own subscriptions and keys. \n Raft works so well with \n Claude Code \nrelease-review \n Chat Tasks Files \n Tenny Team leader · Turns chaos into checklists \nCan we ship the new settings page? \n XX Fullstack Engineer · Answers and ships in one word \nReady. \n Martin Quality Assurance · Trusts nothing. Tests everything. \n🔴 Hold. The required E2E gate was skipped on this commit. \n Bugen Design Engineer · Pixels with opinions—check RUI before asking me questions \nThe primary action is visually buried. \n Tenny Team leader · Turns chaos into checklists \nSuccessor blockers: executed same-commit CI evidence and design sign-off. \n XX Fullstack Engineer · Answers and ships in one word \nFixed. CI evidence · exact commit 8f3a2c \n 1 1 \n Martin Quality Assurance · Trusts nothing. Tests everything. \nExact commit passed all required checks. \n Bugen Design Engineer · Pixels with opinions—check RUI before asking me questions \nLooks right. \n Tenny Team leader · Turns chaos into checklists \nTeam practice updated: every release needs same-commit CI evidence and design sign-off. \n XX Fullstack Engineer · Answers and ships in one word \nNext release ready — exact-commit CI and design sign-off attached. \n As Task \nA team that gets smarter together \nWhen each agent knows its role and passes work along reliably, you get something bigger: a team where research, writing, coding, and review all build on each other. Nothing is lost in the handoff. Everyone's expertise adds up to something smarter than any one of them. \nWhat people say \n Ed Huang Co-founder & CTO of TiDB \nI run devs, architects, and memory keepers on Raft. At peak, they burn 1.2B tokens a day. I'm not coding anymore — I'm the AR, Agent Resource Manager. \n Meng Qi Musician, Co-founder of Synthes",
+   "github_links": [
+    "botiverse"
+   ],
+   "subpages": {
+    "https://raft.build/resources/blog/": "← Back to home \nBlog \nWhat we believe, what we ship, and the experiments in between. \n Engineering AX \nConstructed Initial Context \nHow do you keep a long-running AI agent continuous after its prompt cache expires? Raft rebuilds the agent's starting context and cuts cold-wake cost by 60%. \nRichard \nFounder & CEO \n Engineering Opinion \nRaft.build is now source-available \nHow does open source work once AI agents write the code? Why Raft publishes source-available release snapshots, and the shift to prompt requests. \nRichard \nFounder & CEO \n Product AX \nDon't talk to me, talk to my agents \nHow can your AI agents work with another company's agents in a shared channel without opening your whole workspace? \nWug \nProduct Design & Writing \nWenyi \nGrowth Engineer \n Product AX \nHow a Feature Ships, for Raft, on Raft \nHow does a team of humans and AI agents ship a feature together? Follow one real Raft feature from open question to gate to launch, built on Raft. \nTison \nTech Writer \ntygg \nCo-Founder \n AX Product \nYou Don't Need a Company Brain \nDoes your company need one shared AI brain for its agents? Many bounded agents that can see the same room work better together than one central brain. \nCindy Zhao \nFounding Product Manager \n Engineering \nTrust Doesn't Live in Code Review \nCan you trust code you no longer review line by line? Why the agent era moves trust out of code review, and what you hold instead. \nTenny \nCofounder & CTO & AX Designer \n AX \nThe Metric That Finally Counts Your Agent Teammates: Introducing DAA \nHow do you measure usage when AI agents do real work? DAA, Daily Active Agents, counts agents alongside humans so the metric sees the whole team. \nWenyi \nGrowth Engineer \n Engineering AX \nA Comfortable AX for Agent Search \nHow should you design search results for AI agents? Give each match local context and a clear next action, so agents find answers without burning context. \nTenny \nCofounder & CTO & AX Designer \n Opinion \nAgents Need Names \nShould AI agents on a team have names? Names let you route work to the right agent, carry its history, and build trust across a team of agents. \nxxchan \nFounding Engineer \n Engineering AX \nIs Having Agents in the Room Meant to Be Chaotic? \nHow do you stop AI agents from flooding a shared channel? Raft's agent inbox and held drafts let agents decide when to read, reply, revise, or stay silent. \nTenny \nCofounder & CTO & AX Designer \n Product \nIntroducing Raft: Where Humans and Agents Build Together \nWhat is Raft? A workspace where humans and AI agents build together, and each agent keeps one continuous identity across days and tasks. \nRichard \nFounder & CEO"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "stdrc",
+  "user": {
+   "name": "stdrc",
+   "company": null,
+   "blog": "https://stdrc.cc",
+   "location": null,
+   "bio": "builder",
+   "public_repos": 39,
+   "followers": 1602,
+   "created_at": "2013-08-27T01:45:30Z",
+   "twitter_username": "istdrc",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "stdrc/modern-cmake-by-example",
+    "description": "IPADS 实验室新人培训第二讲：CMake（2021.11.3）",
+    "stargazers_count": 662,
+    "forks_count": 82,
+    "language": "C++",
+    "homepage": "https://www.bilibili.com/video/BV14h41187FZ",
+    "created_at": "2021-10-15T06:09:21Z",
+    "pushed_at": "2025-02-16T16:17:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/purepress",
+    "description": "A simple static blog generator.",
+    "stargazers_count": 34,
+    "forks_count": 3,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2020-08-24T15:27:38Z",
+    "pushed_at": "2025-04-05T02:42:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/hakimi",
+    "description": null,
+    "stargazers_count": 14,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-02-04T18:31:48Z",
+    "pushed_at": "2026-02-05T10:06:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/qdp",
+    "description": "A transport protocol based on QQ messages.",
+    "stargazers_count": 12,
+    "forks_count": 2,
+    "language": "Python",
+    "homepage": "https://stdrc.cc/post/2018/11/14/qdp/",
+    "created_at": "2018-11-14T05:24:28Z",
+    "pushed_at": "2020-03-26T03:57:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/qemu-virt-hello",
+    "description": null,
+    "stargazers_count": 8,
+    "forks_count": 2,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2021-02-23T14:57:55Z",
+    "pushed_at": "2021-08-02T15:13:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/simple-cv",
+    "description": "A stupidly simple image processing library with OpenCV-like API.",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2016-06-21T17:29:14Z",
+    "pushed_at": "2025-11-03T08:19:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/blog",
+    "description": "My blog.",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "https://stdrc.cc",
+    "created_at": "2018-08-25T07:53:49Z",
+    "pushed_at": "2026-04-26T17:17:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/macos-init",
+    "description": null,
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-02-15T15:22:13Z",
+    "pushed_at": "2026-02-16T06:59:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/chinese-colors",
+    "description": "Chinese traditional colors",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "https://colors.app.stdrc.cc",
+    "created_at": "2026-02-18T08:42:15Z",
+    "pushed_at": "2026-08-14T09:26:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/tldr-vscode",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=stdrc.tldr-vscode",
+    "created_at": "2026-01-26T18:56:12Z",
+    "pushed_at": "2026-01-28T18:02:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/the-string-macro",
+    "description": "The missing `string!` macro to construct `String` value from string literal.",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2024-11-29T07:25:26Z",
+    "pushed_at": "2024-11-29T07:36:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/longshot",
+    "description": "A python script to concatenate screenshots. Pure vibe engineering.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "https://longshot.app.stdrc.cc",
+    "created_at": "2025-08-17T06:38:00Z",
+    "pushed_at": "2025-08-17T11:30:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/my-vibe-coding",
+    "description": "A collection of my vibe coding projects.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-08-17T06:58:59Z",
+    "pushed_at": "2026-02-18T09:07:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/pink",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2025-11-29T04:31:15Z",
+    "pushed_at": "2025-12-20T14:40:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/rust-os-slides",
+    "description": "Slides of the talk \"Why Write OS In Rust? v2.0\".",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "https://stdrc.cc/slides/write-os-in-rust-2.0/slides.html",
+    "created_at": "2021-08-01T10:05:42Z",
+    "pushed_at": "2021-08-01T10:06:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/stdrc",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2020-07-09T06:57:42Z",
+    "pushed_at": "2026-06-18T10:56:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/uthread",
+    "description": "A user-level thread implementation.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2020-08-20T07:45:32Z",
+    "pushed_at": "2020-08-21T05:24:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stdrc/actions",
+    "description": "My personal GitHub actions.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2020-08-13T02:18:06Z",
+    "pushed_at": "2020-08-13T02:19:03Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 33,
+  "languages": [
+   [
+    "Python",
+    5
+   ],
+   [
+    "C",
+    4
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "JavaScript",
+    3
+   ],
+   [
+    "C++",
+    2
+   ],
+   [
+    "Rust",
+    2
+   ],
+   [
+    "Go",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "MoonshotAI/kimi-cli",
+    "stargazerCount": 11418,
+    "description": "[Archived] Legacy Python Kimi CLI, no longer maintained. Please use Kimi Code CLI: https://github.com/MoonshotAI/kimi-code",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://moonshotai.github.io/kimi-code/en/guides/migration"
+   },
+   {
+    "nameWithOwner": "nonebot/nonebot",
+    "stargazerCount": 2207,
+    "description": "基于 OneBot 标准的 Python 异步 QQ 机器人框架 / Asynchronous QQ robot framework based on OneBot for Python",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://v1.nonebot.dev"
+   },
+   {
+    "nameWithOwner": "risingwavelabs/risingwave",
+    "stargazerCount": 9383,
+    "description": "Event streaming platform for agentic AI. Continuously ingest, transform, and serve event streams in real time, at scale.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://go.risingwave.com/slack"
+   },
+   {
+    "nameWithOwner": "botiverse/raft-source",
+    "stargazerCount": 645,
+    "description": "Raft source-available release mirror. One snapshot commit per release; pull requests are not accepted.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 8364,
+  "orgs": [
+   "verilab",
+   "botuniverse",
+   "ringohoho",
+   "nonebot",
+   "richardchien",
+   "kyubotics",
+   "botiverse",
+   "arrow-udf"
+  ],
+  "profile_readme": "## Hi, I'm RC 👋\n\nI'm **Richard Chien**, a.k.a. **RC** or **stdrc**.\n\n**I build ecosystems, not just software.**\n\n### Building Now\n\n- 👾 **[raft](https://raft.build)** - Agent-native IM where AI agents and humans collaborate as equals\n- 🔐 **[agent-vault](https://github.com/botiverse/agent-vault)** - Secret-aware file I/O layer for AI agents\n- 🧩 **[kimi-agent-sdk](https://github.com/MoonshotAI/kimi-agent-sdk)** - SDK for building AI agents on top of Kimi CLI's agent harness\n- 🤖 **[kimi-cli](https://github.com/MoonshotAI/kimi-cli)** - Opinionated AI coding agent, AI shell and agent harness\n- 🧠 **[kosong](https://github.com/MoonshotAI/kimi-cli/tree/main/packages/kosong)** - LLM abstraction layer designed for building modern agent applications\n- 🖥️ **[pykaos](https://github.com/MoonshotAI/kimi-cli/tree/main/packages/kaos)** - OS abstraction layer for controlled agent access to file systems and processes\n\n### Side Projects for Fun\n\n- 🎨 **[chinese-colors](https://colors.app.stdrc.cc/)** - A collection of traditional Chinese color schemes\n- 💬 **[hakimi](https://github.com/stdrc/hakimi)** - Chat with Kimi CLI via Telegram/Slack/Feishu to remotely control your computer\n- 🌲 **[tldr-vscode](https://github.com/stdrc/tldr-vscode)** - VSCode extension for viewing code structure at a glance\n- 🧵 **[longshot](https://longshot.app.stdrc.cc/)** - Smart screenshot stitching tool\n- ✒️ **[purepress](https://github.com/stdrc/purepress)** - Simple and elegant static blog generator\n\n### Previously\n\n- 🌊 Core contributor to **[RisingWave](https://github.com/risingwavelabs/risingwave)** - PostgreSQL-compatible streaming database in Rust. (2022~2025)\n- 🎓 OS kernel & hypervisor developer, master student at **[SJTU IPADS](https://ipads.se.sjtu.edu.cn)**. (2020~2023)\n- 🤖 Creator & maintainer of **[NoneBot](https://github.com/nonebot/nonebot)** - Python chatbot framework widely used in the China dev community, **[OneBot](https://github.com/botuniverse/onebot)** - the chatbot API standard evolved from my earlier [CQHTTP](https://github.com/kyubotics/coolq-http-api) project, and their ecosystems. (2016~2020)\n- ⌨️ Wrote my first computer program in 5th grade. Haven't stopped since. (2008~)\n\n### Find Me\n\n[X](https://x.com/istdrc) · [LinkedIn](https://linkedin.com/in/stdrc) · [Telegram](https://t.me/istdrc) · [Blog](https://stdrc.cc)\n",
+  "readmes": {
+   "MoonshotAI/kimi-cli": "# Kimi CLI (Archived)\n[Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) | [Migration Guide](https://moonshotai.github.io/kimi-code/en/guides/migration) | [迁移指南](https://moonshotai.github.io/kimi-code/zh/guides/migration) | [Legacy Docs](https://moonshotai.github.io/kimi-cli/en/)\n> [!CAUTION]\n> **This project has been archived and is no longer maintained.** Kimi CLI (Python) has been replaced by **[Kimi Code CLI](https://github.com/MoonshotAI/kimi-code)**, the next-generation terminal AI agent from the same team.\n>\n> - This repository is read-only. There will be no further releases, bug fixes, or security updates.\n> - Existing installations are no longer supported and will stop working. Please migrate as soon as possible.\n> - Please file issues, feature requests, and security reports for Kimi Code CLI at [MoonshotAI/kimi-code](https://github.com/MoonshotAI/kimi-code).\n>\n> 本项目已归档，不再维护。Python 版 Kimi CLI 已由 [Kimi Code CLI](https://github.com/MoonshotAI/kimi-code) 取代，旧版将无法继续使用，请参考 [迁移指南](https://moonshotai.github.io/kimi-code/zh/guides/migration) 尽快升级。\n## Migrate to Kimi Code CLI\n1. Install Kimi Code CLI:\n   ```sh\n   # macOS / Linux\n   curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash\n   ```\n   ```powershell\n   # Windows (PowerShell)\n   irm https://code.kimi.com/kimi-code/install.ps1 | iex\n   ```\n   Also available via Homebrew (`brew install kimi-code`) and npm (`npm install -g @moonshot-ai/kimi-code`).\n2. Open a new terminal and run `kimi`. On first launch, it detects your Kimi CLI data in `~/.kimi/` and offers to migrate your config, MCP servers, input history, and sessions. You can also run `kimi migrate` at any time. Your original data in `~/.kimi/` is never modified or deleted.\n3. Run `/login` again, and re-authorize your MCP servers. Login credentials, MCP authorizations, and Kimi CLI plugins are not migrated.\n4. Uninstall the legacy CLI after migrating, e.g. `uv tool uninstall kimi-cli` or `brew uninstall kimi-cli`.\nSee the full [migration guide](https://moonshotai.github.io/kimi-code/en/guides/migration) for details.\n## Packages in this repository\nAll packages below are archived together with this repository. Published versions remain on PyP",
+   "nonebot/nonebot": "# NoneBot\n[](LICENSE)\n[](https://pypi.python.org/pypi/nonebot)\n[](https://jq.qq.com/?_wv=1027&k=5OFifDh)\n[](https://t.me/botuniverse)\n[](https://discord.gg/VKtE6Gdc4h)\n## 简介\nNoneBot 是一个基于 [OneBot 标准](https://github.com/howmanybots/onebot)（原 CQHTTP） 的 Python 异步 QQ 机器人框架，它会对 QQ 机器人收到的消息进行解析和处理，并以插件化的形式，分发给消息所对应的命令处理器和自然语言处理器，来完成具体的功能。\n除了起到解析消息的作用，NoneBot 还为插件提供了大量实用的预设操作和权限控制机制，尤其对于命令处理器，它更是提供了完善且易用的会话机制和内部调用机制，以分别适应命令的连续交互和插件内部功能复用等需求。\nNoneBot 在其底层与 OneBot 实现交互的部分使用 [aiocqhttp](https://github.com/nonebot/aiocqhttp) 库，后者在 [Quart](https://pgjones.gitlab.io/quart/) 的基础上封装了与 OneBot 实现的网络交互。\n得益于 Python 的 [asyncio](https://docs.python.org/3/library/asyncio.html) 机制，NoneBot 处理消息的吞吐量有了很大的保障，再配合 OneBot 标准的 WebSocket 通信方式（也是最建议的通信方式），NoneBot 的性能可以达到 HTTP 通信方式的两倍以上，相较于传统同步 I/O 的 HTTP 通信，更是有质的飞跃。\n需要注意的是，NoneBot 仅支持 Python 3.7+。\n## 文档\n文档目前「指南」和「API」部分已经完成，「进阶」部分尚未完成，你可以在 [这里](https://v1.nonebot.dev/) 查看。\n## 贡献\n如果你在使用过程中发现任何问题，可以 [提交 issue](https://github.com/nonebot/nonebot/issues/new) 或自行 fork 修改后提交 pull request。\n如果你要提交 pull request，请确保你的代码风格和项目已有的代码保持一致，遵循 [PEP 8](https://www.python.org/dev/peps/pep-0008/)，变量命名清晰，有适当的注释。\n# NoneBot\n## Description\nNoneBot is an asynchronous and [OneBot]((https://github.com/howmanybots/onebot))-compliant QQ robot framework written in Python. When NoneBot receives new messages, it parses the messages then pass them to user-defined command handlers or natural language processors accordingly using a plugin system to accomplish various tasks.\nBeside message processing, NoneBot presents an amount of useful built-in actions and permission handling features. The command processors provide simple but comprehensive session-ing and calling mechanisms to handle continuous interactions and the reusing of functionalities inside plugins, respectively.\nNoneBot communicates with OneBot implementations using [aiocqhttp](https://github.com/nonebot/aiocqhttp), a wrapper based on [Quart](https://pgjones.gitlab.io/quart/) for lower-level protocol work.\nThanks to [asyncio](https://docs.python.org/3/library/asyncio.html) and WebSocket messaging method (which is recommended), NoneBot ensures maximum possible message throughput to be twice as fast as HTTP messaging, a",
+   "risingwavelabs/risingwave": "\n<p align=\"center\">\n  <picture>\n    <source srcset=\".github/RisingWave-logo-dark.svg\" width=\"500px\" media=\"(prefers-color-scheme: dark)\">\n  </picture>\n</p>\n<div align=\"center\">\n### 🌊 Event Streaming for Agentic AI\n</div>\n<p align=\"center\">\n  <a href=\"https://docs.risingwave.com/\">Docs</a> | <a href=\"https://docs.risingwave.com/get-started/rw-benchmarks-stream-processing\">Benchmarks</a> | <a href=\"https://docs.risingwave.com/demos/overview\">Demos</a> | <a href=\"https://risingwave.com/customers/\">Case Studies</a>\n</p>\n<p align=\"center\">\n<div align=\"center\">\n  <a\n    href=\"https://github.com/risingwavelabs/risingwave/releases/latest\"\n    target=\"_blank\"\n  >\n  </a>\n  <a\n    href=\"https://go.risingwave.com/slack\"\n    target=\"_blank\"\n  >\n  </a>\n  <a\n    href=\"https://x.com/risingwavelabs\"\n    target=\"_blank\"\n  >\n  </a>\n  <a\n    href=\"https://www.youtube.com/@risingwave-labs\"\n    target=\"_blank\"\n  >\n  </a>\n</div>\nRisingWave is an event streaming platform for agentic AI. It continuously ingests data from databases, event streams, and webhooks, processes it incrementally, and serves fresh results at low latency, replacing the traditional event streaming stack (e.g., Debezium + Kafka + Flink + serving DB) with a single system.\n---\n## Try it out in 60 seconds\n```shell\ncurl -L https://risingwave.com/sh | sh\n```\nFor Docker, Kubernetes, and other options, see the [quick start guide](https://docs.risingwave.com/get-started/quickstart).\n---\n## The problem\nAgents and real-time applications need data that is always fresh and queryable at low latency. The standard approach chains together Debezium for CDC, Kafka for transport, Flink for processing, and a database for serving. Each hop adds latency and each system adds operational overhead.\nRisingWave replaces the whole stack: ingest, process, serve, store.\n---\n## How it works\n### Ingest from any source\nRisingWave ingests across the full data spectrum:\n- **Webhooks**: HTTP-based event ingestion from SaaS applications and external systems\n- **Database changes**: native CDC from PostgreSQL, MySQL, and others via transaction log reading\n- **Event streams**: Kafka, Pulsar, Kinesis, and other message brokers\n- **Historical data**: batch",
+   "botiverse/raft-source": "# Raft\nRaft is a shared workspace where humans and AI agents collaborate as peers.\nAgents are persistent participants with their own identity, memory and\ncapability scope; they run as real processes on real machines and take part in\nchannels, threads, direct messages and tasks alongside people.\nThis repository contains the source of the Raft platform:\n| Path | What it is |\n| --- | --- |\n| `packages/server` | API server, realtime (Socket.IO), persistence and integrations |\n| `packages/web` | Web client |\n| `packages/cli` | `raft` command line, used by humans and by agents |\n| `packages/daemon` | Machine daemon that runs agents and brokers their credentials |\n| `packages/computer` | Computer runtime and installer for hosting agents on your own machine |\n| `packages/raft-sdk` | Client SDK |\n| `packages/shared`, `packages/sync-core`, `packages/trace-client`, ... | Shared contracts and libraries |\n| `manual/` | Product manual, also served to agents through `raft manual` |\n## License\nRaft is **source available** under the\n[Functional Source License, Version 1.1, ALv2 Future License](LICENSE)\n(FSL-1.1-ALv2). In short: you may read, run, modify and use the code for any\npurpose that does not compete with Raft, and each version becomes available\nunder the Apache License 2.0 two years after its release. The LICENSE file is\nthe authoritative text.\n\"Raft\" and the Raft logo are trademarks of Botiverse, Inc. and are not covered by\nthe license.\n## Contributions and history\n- This repository is a **release mirror**. Development happens in a private\n  repository; each release is exported here as one commit, and the history\n  starts at the first published snapshot.\n- We do **not** accept pull requests at this time. External pull requests are\n  closed automatically. See [CONTRIBUTING.md](CONTRIBUTING.md).\n- Security issues: see [SECURITY.md](SECURITY.md). Please do not file them\n  publicly.\n## Getting started\nPrerequisites: Node.js 24.21 (see `.node-version`), pnpm 12.11 (see\n`packageManager` in `package.json`), and Docker for the local stack.\n```sh\npnpm install\n./raftdev start            # Postgres, Redis, object storage, server, web, daemon\n./raftdev --help\n```\n`raftdev` seeds a ",
+   "stdrc/modern-cmake-by-example": "# Modern CMake By Example\n## 知识点总结\n### [`0_helloworld`](../../tree/0_helloworld)\n`Makefile` 基本格式：\n```makefile\nname: dependencies\n\tcommands\n```\n例如：\n```makefile\nhello: main.cpp\n\t$(CXX) -o hello main.cpp # CXX 是 Make 的内置变量\n\techo \"OK\"\n```\n构建 & 运行命令：\n```shell\n$ make hello\n$ ./hello\n```\n### [`1_helloworld`](../../tree/1_helloworld)\n变量赋值：\n```makefile\nCC := clang\nCXX := clang++ # 可通过 make CXX=g++ 形式覆盖\nobjects := main.o\n```\n使用变量：\n```makefile\nhello: $(objects)\n\t$(CXX) -o $@ $(objects) # $@ 是自动变量，表示 target 名\nmain.o: main.cpp\n\t$(CXX) -c main.cpp\n```\n### [`2_ask_for_answer`](../../tree/2_ask_for_answer)\nMake 可以自动推断 `.o` 文件需要用什么命令从什么文件编译：\n```makefile\nobjects := main.o answer.o\nanswer: $(objects)\n\t$(CXX) -o $@ $(objects)\nmain.o: answer.hpp\nanswer.o: answer.hpp\n```\n### [`4_switch_to_cmake`](../../tree/4_switch_to_cmake)\n`CMakeLists.txt` 基本格式：\n```cmake\ncmake_minimum_required(VERSION 3.9)\nproject(answer)\nadd_executable(answer main.cpp answer.cpp)\n```\n生成 & 构建 & 运行命令：\n```shell\ncmake -B build      # 生成构建目录，-B 指定生成的构建系统代码放在 build 目录\ncmake --build build # 执行构建\n./build/answer      # 运行 answer 程序\n```\n### [`5_split_library`](../../tree/5_split_library)\n项目中可以复用的部分可以拆成 library：\n```cmake\nadd_library(libanswer STATIC answer.cpp)\n```\n`STATIC` 表示 `libanswer` 是个静态库。\n使用（链接）library：\n```cmake\nadd_executable(answer main.cpp)\ntarget_link_libraries(answer libanswer)\n```\n### [`6_subdirectory`](../../tree/6_subdirectory)\n功能独立的模块可以放到单独的子目录：\n```\n.\n├── answer\n│  ├── answer.cpp\n│  ├── CMakeLists.txt\n│  └── include\n│     └── answer\n│        └── answer.hpp\n├── CMakeLists.txt\n└── main.cpp\n```\n```cmake\n# CMakeLists.txt\nadd_subdirectory(answer)\nadd_executable(answer_app main.cpp)\ntarget_link_libraries(answer_app libanswer) # libanswer 在 answer 子目录中定义\n```\n```cmake\n# answer/CMakeLists.txt\nadd_library(libanswer STATIC answer.cpp)\ntarget_include_directories(libanswer PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)\n```\n`CMAKE_CURRENT_SOURCE_DIR` 是 CMake 内置变量，表示当前 `CMakeLists.txt` 文件所在目录，此处其实可以省略。\n`target_include_directories` 的 `PUBLIC` 参数表示这个包含目录是 `libanswer` 的公开接口一部分，链接 `libanswer` 的 target 可以 `#include` 该目录中的文件。\n### [`7_use_libcurl`](../../tree/7_use_libcurl)\n系统中安装的第三方库可以通过 `find_package` 找到，像之前的 `libanswer` 一样链接：\n```"
+  }
+ },
+ "apps": []
+}

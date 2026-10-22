@@ -1,0 +1,309 @@
+{
+ "handle": "rauchg",
+ "sites": [
+  {
+   "url": "http://rauchg.com",
+   "ok": true,
+   "title": "Guillermo Rauch's blog",
+   "description": "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Guillermo Rauch \n 2025 The AI Cloud 53,192 \n 2021 Making the web. Faster. 107,628 \n 2020 Next for Vercel 63,203 \n Books people re-read 42,917 \n Develop, preview, test 35,580 \n Static hoisting 41,529 \n An ode to code golf 20,445 \n Vercel 59,054 \n 2019 in review 68,982 \n 2017 It's hard to forego efficiency 48,697 \n 2016 in review 47,337 \n 2016 Addressable errors 23,636 \n 2015 Pure UI 708,586 \n ECMAScript 6 129,223 \n 2014 7 principles of rich web applications 741,301",
+   "github_links": [
+    "rauchg"
+   ],
+   "subpages": {
+    "http://rauchg.com/about": "Guillermo Rauch \nAbout \nI’m a software engineer and CEO of Vercel. I’m originally\nfrom Lanús, Buenos Aires, Argentina. I owe much of my career to the Web\nand Open Source. \nI spent my early teens advocating for and teaching people how to use\nLinux and later developed a passion for JavaScript and Web development. \nAfter joining the MooTools \ncore team, I got my first full-time job as a frontend engineer at 18\nyears old and relocated to San Francisco, CA. \nI started my first company Cloudup in SF which was later acquired by Automattic ,\nthe company behind WordPress, to power their editing and site building\ntechnology. \nAfter being involved in creating numerous influential open source\nprojects like Socket.IO and Mongoose ,\nI saw the opportunity in creating tooling and cloud infrastructure to\nmake the Web faster, with a focus on developer experience (DX). \n Next.js and Vercel were born. Our platform now helps power the online presence of companies\nlike Washington Post, Porsche, Under Armour and Nintendo. \nTechnical contributions \nI contributed to MooTools as part of their core team and led the development of the MooTools Forge package repository. \nAuthored one of the first books on Node.js ( “Smashing Node.js: JavaScript Everywhere” ), after identifying the potential for JS to run on both server and client. \nMy previous startup LearnBoost was one of the earliest adopters of Node.js in production. We made critical contributions to projects in the ecosystem like Express.js , Connect , Jade , Stylus , and many others. \nAuthored Mongoose , which remains the most popular way of accessing MongoDB data in the JavaScript ecosystem. \nAuthored Socket.IO , a popular library for real-time communication. Its underlying engine powers Notion’s realtime sync and the first Coinbase trading product. \nAuthored Hyper , a cross-platform Terminal emulator built on Web technologies with over 42,000 daily active developers. \nDesigned and co-authored Next.js , the most popular React framework. I later introduced it at the ViennaJS meetup and React Conf . \nI collaborated with Shu Ding on the design and conception of SWR . \nBuilt a popular file-sharing platform called Cloudup , building on realtime infrastructure for MongoDB I authored inspired by Firebase and a proprietary predecessor to Electron for cross-platform Web-based desktop apps. \nConceived and co-authored a turn-based, multi-player virtual machine running a copy of Windows XP that went viral , inspired by Twitch plays Pokemon . \nAuthored several other popular, smaller utilities that have accumulated billions of downloads, like ms , wifi-password , spot and slackin ."
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "rauchg",
+  "user": {
+   "name": "Guillermo Rauch",
+   "company": "https://vercel.com",
+   "blog": "http://twitter.com/rauchg",
+   "location": "SF",
+   "bio": null,
+   "public_repos": 143,
+   "followers": 17468,
+   "created_at": "2008-06-09T02:22:48Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "rauchg/slackin",
+    "description": "Public Slack organizations made easy",
+    "stargazers_count": 6488,
+    "forks_count": 1292,
+    "language": "JavaScript",
+    "homepage": "http://rauchg.com/slackin/",
+    "created_at": "2015-01-26T21:23:41Z",
+    "pushed_at": "2023-10-17T10:33:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/wifi-password",
+    "description": "Get the password of the wifi you're on (bash)",
+    "stargazers_count": 4576,
+    "forks_count": 263,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2015-02-14T23:42:50Z",
+    "pushed_at": "2024-06-13T19:16:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/blog",
+    "description": null,
+    "stargazers_count": 1425,
+    "forks_count": 212,
+    "language": "MDX",
+    "homepage": "https://rauchg.com",
+    "created_at": "2017-01-03T00:13:15Z",
+    "pushed_at": "2026-06-10T23:58:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/spot",
+    "description": "Tiny file search utility (bash)",
+    "stargazers_count": 948,
+    "forks_count": 39,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2012-03-04T15:55:44Z",
+    "pushed_at": "2024-01-02T23:45:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/next-ai-news",
+    "description": null,
+    "stargazers_count": 845,
+    "forks_count": 90,
+    "language": "TypeScript",
+    "homepage": "https://next-ai-news.vercel.app",
+    "created_at": "2024-01-08T02:17:41Z",
+    "pushed_at": "2024-02-14T19:01:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/gdp-ts",
+    "description": null,
+    "stargazers_count": 827,
+    "forks_count": 22,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-10-04T18:55:18Z",
+    "pushed_at": "2026-10-19T07:46:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/chat-example",
+    "description": null,
+    "stargazers_count": 800,
+    "forks_count": 2037,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2014-05-28T16:30:50Z",
+    "pushed_at": "2023-09-07T16:12:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/doom-captcha",
+    "description": null,
+    "stargazers_count": 718,
+    "forks_count": 45,
+    "language": "C++",
+    "homepage": "https://doom-captcha.vercel.app",
+    "created_at": "2024-12-29T23:58:32Z",
+    "pushed_at": "2024-12-31T07:33:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/how-is-this-not-illegal",
+    "description": "A demo of using RSC and Vercel Postgres, legally",
+    "stargazers_count": 631,
+    "forks_count": 22,
+    "language": "JavaScript",
+    "homepage": "https://how-is-this-not-illegal.vercel.app",
+    "created_at": "2023-05-02T14:45:43Z",
+    "pushed_at": "2025-12-10T20:14:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/weplay",
+    "description": "Collaborative gameboy emulation powered 100% by JavaScript",
+    "stargazers_count": 608,
+    "forks_count": 90,
+    "language": "JavaScript",
+    "homepage": "https://weplay.io",
+    "created_at": "2014-03-03T07:53:46Z",
+    "pushed_at": "2020-01-01T14:02:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/clif",
+    "description": "Dead easy terminal GIFs, from the terminal.",
+    "stargazers_count": 450,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-02-13T06:15:13Z",
+    "pushed_at": "2016-02-23T20:25:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/node.websocket.js",
+    "description": "WebSocket-compatible realtime HTTP server implemented with Node.JS",
+    "stargazers_count": 269,
+    "forks_count": 25,
+    "language": "JavaScript",
+    "homepage": "http://devthought.com/blog/2009/12/nodejs-and-the-websocket-protocol/",
+    "created_at": "2009-12-06T07:56:13Z",
+    "pushed_at": "2014-08-11T16:57:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/react-postgres-components",
+    "description": "An experiment on deploying remote functions that run inside Postgres using v8",
+    "stargazers_count": 227,
+    "forks_count": 7,
+    "language": "TypeScript",
+    "homepage": "https://react-postgres-components.vercel.app",
+    "created_at": "2024-01-16T03:16:21Z",
+    "pushed_at": "2024-01-17T21:44:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/wingpt",
+    "description": "An AI chatbot in Win95 style",
+    "stargazers_count": 186,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": "https://wingpt.vercel.app",
+    "created_at": "2024-06-03T04:15:06Z",
+    "pushed_at": "2024-06-03T04:17:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/node.dbslayer.js",
+    "description": "DBSlayer (MySQL) support for Node.JS",
+    "stargazers_count": 152,
+    "forks_count": 15,
+    "language": "JavaScript",
+    "homepage": "http://devthought.com",
+    "created_at": "2009-12-07T10:00:25Z",
+    "pushed_at": "2009-12-28T15:19:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/jamstack-ecommerce",
+    "description": null,
+    "stargazers_count": 133,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": "https://jamstack-ecommerce.vercel.app",
+    "created_at": "2020-06-30T02:27:30Z",
+    "pushed_at": "2020-06-30T04:19:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/wordledge",
+    "description": null,
+    "stargazers_count": 125,
+    "forks_count": 15,
+    "language": "TypeScript",
+    "homepage": "wordledge.vercel.app",
+    "created_at": "2022-01-09T01:24:04Z",
+    "pushed_at": "2022-01-18T03:28:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rauchg/chrome-spdy-indicator",
+    "description": "Chrome Extension to see an indicator of SPDY support in the address bar.",
+    "stargazers_count": 114,
+    "forks_count": 21,
+    "language": "JavaScript",
+    "homepage": "http://www.devthought.com/2012/03/10/chrome-spdy-indicator/",
+    "created_at": "2012-03-10T20:22:34Z",
+    "pushed_at": "2022-06-16T23:35:33Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 67,
+  "languages": [
+   [
+    "JavaScript",
+    37
+   ],
+   [
+    "TypeScript",
+    10
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "Shell",
+    3
+   ],
+   [
+    "PHP",
+    2
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "Dockerfile",
+    2
+   ],
+   [
+    "MDX",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 110,
+  "orgs": [
+   "vercel"
+  ],
+  "profile_readme": "\n# rauchg\n\n![](https://cldup.com/tBDGZcr8jt.gif)\n\n```bash\n$ npm install rauchg\n```\n\nand\n\n```js\nconsole.log(require('rauchg'));\n```\n\nTo get my contact information.\n\n## Credits\n\nThanks to John K Paul for the idea, and this\n[tweet](https://twitter.com/RedWolves/status/667848798484324352) for \npointing it out!\n",
+  "readmes": {
+   "rauchg/slackin": "\n## Features\n- A landing page you can point users to fill in their emails and receive an invite (`https://slack.yourdomain.com`)\n- An `<iframe>` badge to embed on any website that shows connected users in *realtime* with socket.io.\n- A SVG badge that works well from static mediums (like GitHub README pages)\n- Abuse prevention via [Google reCAPTCHA](https://www.google.com/recaptcha/intro/)\n## Usage\n### Badges\n#### Realtime ([demo](https://cldup.com/IaiPnDEAA6.gif))\n```html\n<script async defer src=\"https://slack.yourdomain.com/slackin.js\"></script>\n<!-- append \"?large\" to the URL for the large version -->\n```\n#### SVG ([demo](https://cldup.com/jWUT4QFLnq.png))\n```html\n```\n## API\nLoading `slackin` will return a `Function` that creates a `HTTP.Server` instance:\n```js\nconst slackin = require('slackin')\nslackin.default({\n  token: 'yourtoken',                             // required\n  interval: 1000,\n  org: 'your-slack-subdomain',                    // required\n  path: '/some/path/you/host/slackin/under/',     // defaults to '/'\n  channels: 'channel,channel,...',                // for single channel mode\n  silent: false                                   // suppresses warnings\n}).listen(3000)\n```\nThis will show response times from Slack and how many online users you have on the console. The returned `http.Server` has an `app` property that is the `express` application that you can define or override routes on.\nAll the metadata for your organization can be fetched via a JSON HTTP request to `/data`.\n## Caught a Bug?\n1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your local device\n2. Uninstall slackin if it's already installed: `npm uninstall -g slack`\n3. Link it to the global module directory: `npm link`\n4. Transpile the source code and watch for changes: `npm start`\nYey! Now can use the `slack` command everywhere.\n",
+   "rauchg/wifi-password": "\n# wifi-password\nPeople ask you for the Wi-Fi password. Answer quickly. **macOS only**.\n[Windows version](https://github.com/RReverser/WiFi-Password).\n## How to use\n**1. Install it**\nWith [bpkg](https://github.com/bpkg/bpkg):\n```\n$ bpkg install rauchg/wifi-password\n```\nWith [Homebrew](https://github.com/Homebrew/homebrew):\n```\n$ brew install wifi-password\n```\nWith [Antigen](https://github.com/zsh-users/antigen):\nAdd `antigen bundle rauchg/wifi-password` to your `.zshrc` with your other antigen commands\nWith [Zgen](https://github.com/tarjoilija/zgen)\nAdd `zgen load rauchg/wifi-password` to your `.zshrc` with your other zgen commands\nor with `curl`:\n```\ncurl -L https://raw.github.com/rauchg/wifi-password/master/wifi-password.sh -o ~/bin/wifi-password && chmod +x ~/bin/wifi-password\n```\nIf you don't have `~/bin` in your `$PATH`, replace it with `/usr/local/bin` or\nsimilar.\n**2. Use it:**\nTo get the password for the WiFi you're currently logged onto:\n```\n$ wifi-password\n```\nTo get it for a specific SSID:\n```\n$ wifi-password <ssid>\n```\nTo put it straight in your clipboard for pasting elsewhere (OS X only):\n```\n$ wifi-password | pbcopy\n```\n## License\nMIT\n",
+   "rauchg/blog": "# blog\nThis is the blog that powers `rauchg.com`, built on\n[next.js](https://nextjs.org/) and\ndeployed to the cloud via [Vercel](https://vercel.com).\n## How to run\nFirst, install [Vercel CLI](https://vercel.com/download).\n### Development\n```\nvc dev\n```\n### Deployment\n#### Staging\n```bash\nvc\n```\nThis is the equivalent of submitting a PR with the [GitHub integration](https://vercel.com/github)\n#### Production\n```bash\nvc --prod\n```\nThis is the equivalent of `git push` to `master` (or merging a PR to master)\n## Architecture\n### Pure components\nEvery stateless pure component is found under `./components`.\nEvery component that has to do with styling the post's markup\nis found under `./components/post/`\nThese components make up the _style guide_ of the application.\n### Blog posts\nEvery blog post is a static page hosted under `pages/$year/`.\nThis allows every post to load arbitrary modules, have custom layouts\nand take advantage of automatic code splitting and lazy loading.\nThis means that the bloat of a single post doesn't \"rub off on\" the\nrest of the site.\nAn index of all posts is maintained in JSON format as `./posts.json`\nfor practical reasons.\n",
+   "rauchg/spot": "## spot(1)\nTiny ack-style file search utility.\n### Features\n* Short & written in Bash: you can edit it easily to suit your liking.\n* Fast. Just `find` + `grep` + `awk`.\n* Searches most things by default instead of some known predefined extensions.\n* Ignores .git, .hg, .svn, devices and binary files.\n### Usage\n#### Smart phrases\nAll arguments constitute the search text. No need to wrap most searches\nin double quotes.\n#### Smart case\n`spot` is case-insensitive by default. However, if your search term\ncontains an uppercase letter, it becomes sensitive!\n#### Smart targets\nIf the first argument contains a slash _and_ is a valid directory, the\nsearch is constrained to that particular target.\n#### Wildcard matching\nIn `spot(1)` searches, the `.` character acts as the RegExp wildcard,\nmaking it very easy to perform searches that match anything, and to avoid\nescaping characters or including ones that are not necessary for your\nsearch.\n#### Line abbreviation\nIf the line where matches are found is too long (such as minified source files),\n`spot(1)` will only display the surrounding characters.\n#### Options\n`spot -h` to see them.\n### Installation\nIf you have NPM:\n```\n$ npm install -g spot\n```\nOr if you have [bpkg](https://github.com/bpkg/bpkg)\n```\n$ bpkg install -g spot\n```\nYou're done! Otherwise, run this command:\n```\ncurl -L https://raw.github.com/rauchg/spot/master/spot.sh -o ~/bin/spot && chmod +x ~/bin/spot\n```\nIf you don't have `~/bin`, replace it with another directory in your\n`$PATH`, like `/usr/local/bin`.\n### License\n(The MIT License)\nCopyright (c) 2014 Guillermo Rauch &lt;rauchg@gmail.com&gt;\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n'Software'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVI"
+  }
+ },
+ "apps": []
+}

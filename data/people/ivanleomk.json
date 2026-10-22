@@ -1,0 +1,168 @@
+{
+ "name": "Ivan Leo",
+ "role": "Google DeepMind 开发者体验 · Kaggle 基准测试 · 前 Manus Agent 工程师 · Instructor 核心贡献者",
+ "title": "Ivan Leo：<em>写简单的评测</em>，再担心其他",
+ "dek": "一位全栈工程师出身、后来转向大语言模型的 AI 工程师（GitHub 资料写着新加坡）。TA 是 Instructor 的核心贡献者，这个库用 Pydantic 让大模型稳定输出结构化数据；也参与了复现 Anthropic CLIO 论文、用来理解用户对话数据的 Kura。之后 TA 加入 Manus，构建面向知识工作的通用「行动引擎」，并写下《从零到 1 亿美元 ARR 用了 8 个月：我在 Manus 学到的三件事》。现在 TA 在 Google DeepMind 做开发者体验，让人更容易基于 Gemini 构建产品，同时在 Kaggle 做基准测试，长期思考怎样评测自主 Agent。",
+ "card": "Google DeepMind 开发者体验、Kaggle 基准测试；前 Manus，Instructor 与 Kura 核心贡献者，旧金山。",
+ "location": "美国旧金山（GitHub 资料为新加坡）",
+ "updated": "2026-10-22",
+ "tags": ["LLM 评测", "AI Agent", "结构化输出", "开发者体验", "开源"],
+ "links": [
+  {"label": "ivanleo.com", "url": "https://ivanleo.com"},
+  {"label": "GitHub：ivanleomk", "url": "https://github.com/ivanleomk"},
+  {"label": "Instructor", "url": "https://github.com/567-labs/instructor"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Developer Experience @GoogleDeepMind, Benchmarks @kaggle, prev agents @manusai. I write at ivanleo.com.」",
+  "<strong>代表作：</strong>Instructor（★1.4 万，核心贡献者）、Kura（★538）、building-an-agent、modal-grpo、indomee（RAG 指标与统计检验）、Zig HTTP 客户端 gil。",
+  "<strong>关键数字：</strong>X 关注者约 1.2 万；GitHub 218 个公开仓库；个人通讯「Working Notes」每两周一篇。",
+  "<strong>转行故事：</strong>TA 说自己在法语学到 B2 之后，觉得该做点对职业更有用的事，于是开始研究语言模型。"
+ ],
+ "lead": "2024 年，Ivan 写了一篇标题很直白的文章：《Write Stupid Evals》（写简单的评测）。意思是：别一开始就追求完美的评测体系，先写最简单、能二元判断对错的测试，跑起来再说。后来 TA 又写了怎样用统计检验判断「评测分数提升是不是纯属偶然」。在一个人人都在谈 Agent 有多神奇的时期，TA 一直在问：你怎么知道它真的变好了？",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "AI 工程师、开发者体验工程师、天使投资人与顾问"],
+     ["所在地", "美国旧金山（X 资料）；GitHub 写着新加坡"],
+     ["经历", "全栈工程师 → Instructor / 567 Labs 开源 → Manus（已被 Meta 收购）Agent 工程 → Google DeepMind 开发者体验 + Kaggle 基准"],
+     ["开源", "Instructor、Kura、building-an-agent、indomee、gil"],
+     ["技术栈", "TypeScript、Python、Zig、React Ink、Pydantic"],
+     ["写作", "ivanleo.com 与双周通讯「Working Notes」"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Ivan 的主题始终是<strong>让 LLM 应用变得可靠</strong>：结构化输出、合成数据和二元指标。Instructor 让你只定义一个 Pydantic 模型，就能从任何大模型拿到经过校验的 JSON，不用自己解析、处理错误和重试。"},
+    {"p": "在 Manus，TA 做的是通用 Agent：TA 写过怎样从零搭一个编程 Agent（约 200 行 TypeScript），怎样迁移到 React Ink 做流式终端界面，以及「智能体搜索」为什么重要。2026 年 TA 做了一个实验：在 30 万 token 的语料上，简单的 grep 比 SQLite 全文检索便宜 29.6%，准确率还更高。"},
+    {"note": "本页依据 ivanleo.com（首页与博客列表）、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2018–2022", "title": "全栈工程师", "text": "注册 GitHub，写 TypeScript 和 Python 全栈项目；学法语到 B2 水平。"},
+     {"when": "2023", "title": "转向 LLM", "text": "用 GPT-4、Pydantic 和 Instructor 生成 shadcn/ui 组件；成为 Instructor 核心贡献者。"},
+     {"when": "2024", "title": "评测与社区", "text": "做 LLM Paper Club Asia 笔记、RAG 工作坊；写《Write Stupid Evals》《Are your eval improvements just pure chance?》；参与 Kura。"},
+     {"when": "2025", "title": "Manus", "text": "在 Manus 构建面向知识工作的通用行动引擎；写编程 Agent 系列和 Manus 三条经验。"},
+     {"when": "2026", "title": "Google DeepMind", "text": "负责 Gemini 开发者体验，并在 Kaggle 做基准测试；在新加坡 AI Engineer 大会做工作坊；写 Zig HTTP 客户端 gil 和《Value Maxxing》。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Instructor", "url": "https://github.com/567-labs/instructor",
+     "meta": ["2023–", "Python", "★1.4 万"],
+     "paras": [
+      "「Structured outputs for LLMs.」定义一个模型，从自然语言里把数据抽出来，就这么简单。它基于 Pydantic 做校验和类型安全，支持多家模型提供商。Ivan 写过《How Instructor Works》，拆解它的内部机制。"
+     ],
+     "facts": [["GitHub", "★14,047"]]
+    }},
+    {"work": {
+     "name": "Kura", "url": "https://github.com/567-labs/kura",
+     "meta": ["2025", "Python", "★538"],
+     "paras": [
+      "受 Anthropic CLIO 论文启发：用语言模型给对话打标签，再基于向量递归聚类，帮你在不暴露个人信息的前提下，理解成千上万条聊天记录里用户真正需要什么。"
+     ]
+    }},
+    {"work": {
+     "name": "Building An Agent", "url": "https://ivanleo.com/blog/building-an-agent",
+     "meta": ["2025", "TypeScript", "系列文章"],
+     "paras": [
+      "参照 Thorsten Ball 的 Go 版本，用 TypeScript 从一个约 200 行、能读写和列出文件的编程 Agent 开始，一步步加上智能体搜索、子 Agent、待办任务和记忆。核心观点：Agent 就是在对话循环里拿到正确工具的大模型。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["modal-grpo", "2025", "在 Modal 上跑 GRPO 训练的示例"],
+      ["indomee", "2024", "计算 RAG 指标、t 检验和自助法的小库"],
+      ["gil", "2026", "Zig 0.16 的零样板 HTTP 客户端"],
+      ["ML-Notes", "2024", "公开的论文阅读笔记"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://ivanleo.com", "paras": [
+     "首页是一段很有个人色彩的介绍：在 DeepMind 做什么、之前在 Manus 做什么、坐西伯利亚铁路横穿俄罗斯和蒙古一个月、因为法语学到 B2 才转去做语言模型、喜欢吃干锅。",
+     "然后是精选文章和每两周一期的「Working Notes」订阅：关于评测、Agent 和 LLM 工程。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + MDX，源码公开"],
+      ["内容", "评测、Agent、结构化输出"],
+      ["节奏", "2024 年起稳定输出"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-09", "title": "Value Maxxing", "url": "https://ivanleo.com/blog"},
+     {"date": "2026", "title": "How Simple Grep Beats Naive SQL", "url": "https://ivanleo.com/blog"},
+     {"date": "2025-12", "title": "Three Lessons I've Learned at Manus", "url": "https://ivanleo.com/blog"},
+     {"date": "2025-07", "title": "Building a Coding CLI with React Ink", "url": "https://ivanleo.com/blog"},
+     {"date": "2024-11", "title": "Write Stupid Evals", "url": "https://ivanleo.com/blog"}
+    ]},
+    {"quote": "Keep it simple and worry about the rest later.", "cite": "Ivan Leo，Write Stupid Evals"},
+    {"p": "TA 的评测哲学是：用二元指标评估主观任务，用合成数据扩大覆盖，用统计检验确认提升不是偶然。简单的东西更容易被坚持做下去。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["实践", "开源库、创业公司、大厂都经历过", "—"],
+      ["写作", "具体、可复现，常附数据集和代码", "—"],
+      ["评测", "长期专注一个不性感但关键的问题", "—"],
+      ["个人项目", "实验多", "多数个人仓库星数不高"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>先写简单的评测：</strong>能跑起来比完美更重要。",
+     "<strong>怀疑你的提升：</strong>用统计检验排除偶然。",
+     "<strong>Agent 没那么神秘：</strong>就是循环里的大模型加工具。",
+     "<strong>用数据挑战直觉：</strong>grep 有时就是比数据库好。",
+     "<strong>学点完全不同的东西：</strong>一门外语也能改变职业方向。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Write Stupid Evals", "url": "https://ivanleo.com/blog", "why": "给 LLM 应用写第一组评测。"},
+     {"name": "Building An Agent", "url": "https://ivanleo.com/blog/building-an-agent", "why": "200 行 TypeScript 写一个编程 Agent。"},
+     {"name": "Instructor", "url": "https://github.com/567-labs/instructor", "why": "让大模型稳定输出 JSON。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "为你正在做的 AI 功能写 10 条只有「对 / 错」的测试用例，今天就跑一遍。",
+ "sources": [
+  {"label": "Ivan Leo 的 X 个人资料", "url": "https://x.com/ivanleomk"},
+  {"label": "ivanleo.com", "url": "https://ivanleo.com"},
+  {"label": "ivanleo.com/blog", "url": "https://ivanleo.com/blog"},
+  {"label": "GitHub：ivanleomk", "url": "https://github.com/ivanleomk"},
+  {"label": "567-labs/instructor", "url": "https://github.com/567-labs/instructor"},
+  {"label": "567-labs/kura", "url": "https://github.com/567-labs/kura"}
+ ]
+}

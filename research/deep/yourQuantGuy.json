@@ -1,0 +1,151 @@
+{
+ "handle": "yourQuantGuy",
+ "sites": [],
+ "github": {
+  "login": "your-quantguy",
+  "user": {
+   "name": "yourQuantGuy",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": "X@yourquantguy",
+   "public_repos": 12,
+   "followers": 565,
+   "created_at": "2025-08-03T23:28:52Z",
+   "twitter_username": "yourquantguy",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "your-quantguy/perp-dex-tools",
+    "description": null,
+    "stargazers_count": 865,
+    "forks_count": 498,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2025-09-12T12:58:33Z",
+    "pushed_at": "2026-03-18T19:20:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "your-quantguy/gate-crossex",
+    "description": null,
+    "stargazers_count": 160,
+    "forks_count": 92,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-07-10T10:46:02Z",
+    "pushed_at": "2026-09-16T12:24:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "your-quantguy/binance-scalping",
+    "description": null,
+    "stargazers_count": 151,
+    "forks_count": 90,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2025-08-03T23:58:36Z",
+    "pushed_at": "2025-08-05T09:23:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "your-quantguy/cross-exchange-arbitrage",
+    "description": "Framework for cross-exchange spread arbitrage in crypto futures",
+    "stargazers_count": 131,
+    "forks_count": 89,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2025-11-28T00:52:18Z",
+    "pushed_at": "2025-11-28T09:54:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "your-quantguy/entropy-arb",
+    "description": "Open-source two-venue perp arbitrage bot for entropy exchange.",
+    "stargazers_count": 122,
+    "forks_count": 66,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-08-26T14:14:31Z",
+    "pushed_at": "2026-08-26T14:34:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "your-quantguy/crypto-portfolio-tracker-oss",
+    "description": null,
+    "stargazers_count": 38,
+    "forks_count": 19,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-06-02T08:38:44Z",
+    "pushed_at": "2026-06-02T08:42:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "your-quantguy/edgex",
+    "description": null,
+    "stargazers_count": 37,
+    "forks_count": 31,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2025-09-05T10:18:35Z",
+    "pushed_at": "2025-09-18T23:47:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "your-quantguy/variational-v1",
+    "description": "A tool for the Variational crypto exchange.",
+    "stargazers_count": 31,
+    "forks_count": 13,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-03-14T21:19:55Z",
+    "pushed_at": "2026-03-21T10:42:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "your-quantguy/boros",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 2,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-06-01T08:58:16Z",
+    "pushed_at": "2026-07-04T01:12:03Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 9,
+  "languages": [
+   [
+    "Python",
+    7
+   ],
+   [
+    "TypeScript",
+    2
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 211,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "your-quantguy/perp-dex-tools": "##### 关注我 **X (Twitter)**: [@yourQuantGuy](https://x.com/yourQuantGuy)\n---\n**English speakers**: Please read README_EN.md for the English version of this documentation.\n## 📢 分享说明\n**欢迎分享本项目！** 如果您要分享或修改此代码，请务必包含对原始仓库的引用。我们鼓励开源社区的发展，但请保持对原作者工作的尊重和认可。\n---\n## 自动交易机器人\n一个支持多个交易所（目前包括 EdgeX, Backpack, Paradex, Aster, Lighter, grvt, Extended）的模块化交易机器人。该机器人实现了自动下单并在盈利时自动平仓的策略，主要目的是取得高交易量。\n## 邀请链接 (获得返佣以及福利)\n#### EdgeX: [https://pro.edgex.exchange/referral/QUANT](https://pro.edgex.exchange/referral/QUANT)\n永久享受 VIP 1 费率；额外 10% 手续费返佣；10% 额外奖励积分\n#### Backpack: [https://backpack.exchange/join/quant](https://backpack.exchange/join/quant)\n使用我的推荐链接获得 35% 手续费返佣\n#### Paradex: [https://app.paradex.trade/r/quant](https://app.paradex.trade/r/quant)\n使用我的推荐链接获得 10% 手续费返佣以及潜在未来福利\n#### Aster: [https://www.asterdex.com/zh-CN/referral/5191B1](https://www.asterdex.com/zh-CN/referral/5191B1)\n使用我的推荐链接获得 30% 手续费返佣以及积分加成\n#### grvt: [https://grvt.io/exchange/sign-up?ref=QUANT](https://grvt.io/exchange/sign-up?ref=QUANT)\n获得 1.3x 全网最高的积分加成，未来的手续费返佣（官方预计 10 月中上线），以及即将开始的专属交易竞赛\n#### Extended: [https://app.extended.exchange/join/QUANT](https://app.extended.exchange/join/QUANT)\n10%的即时手续费减免；积分加成（官方未公布具体加成公式，但文档里有明确说明，通过官方大使邀请能拿到比自己小号邀请自己更多的分数）\n#### ApeX: [https://join.omni.apex.exchange/quant](https://join.omni.apex.exchange/quant)\n30%返佣; 5%手续费减免; 积分加成; 有资格参与 10 月 20 日至 11 月 2 日的社区专属交易竞赛，总奖金高达$5500\n## 安装\nPython 版本要求（最佳选项是 Python 3.10 - 3.12）：\n- grvt 要求 python 版本在 3.10 及以上\n- Paradex 要求 python 版本在 3.9 - 3.12\n- 其他交易所需要 python 版本在 3.8 及以上\n1. **克隆仓库**：\n   ```bash\n   git clone <repository-url>\n   cd perp-dex-tools\n   ```\n2. **创建并激活虚拟环境**：\n   首先确保你目前不在任何虚拟环境中：\n   ```bash\n   deactivate\n   ```\n   创建虚拟环境：\n   ```bash\n   python3 -m venv env\n   ```\n   激活虚拟环境（每次使用脚本时，都需要激活虚拟环境）：\n   ```bash\n   source env/bin/activate  # Windows: env\\Scripts\\activate\n   ```\n3. **安装依赖**：\n   首先确保你目前不在任何虚拟环境中：\n   ```bash\n   deactivate\n   ```\n   激活虚拟环境（每次使用脚本时，都需要激活虚拟环境）：\n   ```bash\n   source env/bin/activate  # Windows: env\\Scripts\\activate\n   ```\n   ```bash\n   pip install -r requirements.txt\n   ```\n   **grvt 用户**：如果您想使用 grvt 交易所，需要额外安装 grvt 专用依赖：\n   激活虚拟环境（每次使用脚本时，都需要激活虚拟环境）：\n   ```bash\n   source env/bin/activate  # Windows: env\\Scripts",
+   "your-quantguy/gate-crossex": "# Gate CrossEx 本地交易终端 | Gate CrossEx Local Trading Terminal\n一个本地运行的开源 Gate CrossEx 行情与实盘交易桌面界面。\nA local, open-source desktop interface for Gate CrossEx market data and live trading.\n> **仅支持实盘：** 所有已接受的订单和转账都是真实操作。本项目独立开发，并非 Gate 官方产品。交易可能造成重大损失。\n>\n> **Live trading only:** accepted orders and transfers are real. This is an independent project, not an official Gate product. Trading can result in substantial loss.\n## 什么是 CrossEx？ | What is CrossEx?\nCrossEx 将 Gate.io、Binance、OKX、Bybit、Kraken、Hyperliquid、Deribit 和 Lighter 接入同一个跨所账户，在这些交易所之间共享保证金和可用资金，减少在每个平台分别预留资金的需要，从而提高资金效率。[注册 CrossEx](https://www.gate.com/zh/crossex?ref=QUANTGUY)。\nCrossEx connects Gate.io, Binance, OKX, Bybit, Kraken, Hyperliquid, Deribit, and Lighter through one cross-exchange account, sharing margin and available capital across these venues. This reduces the need to reserve funds separately on each exchange and improves capital efficiency. [Sign up for CrossEx](https://www.gate.com/crossex?ref=QUANTGUY).\n## 主要功能 | What it does\n- 实时图表、订单簿、成交、资金费率和持仓量。<br>\n  Live charts, order books, trades, funding rates, and open interest.\n- 跨平台资产、余额、持仓、订单、成交和账户流水。<br>\n  Cross-venue portfolio, balances, positions, orders, fills, and account activity.\n- 直接下单、资金划转、配对对冲、价差机器人、ADR 溢价策略和 Boros 固定资金费率工作流。<br>\n  Direct orders, fund transfers, paired hedges, spread bots, ADR premium strategies, and a Boros fixed-rate workflow.\n- 按资产分组持仓，支持即时或定时分批只减仓平仓。<br>\n  Asset-grouped positions with immediate or timed reduce-only closing.\n- 按交易对比较账户手续费，并按各交易所原生结算周期显示和标准化资金费率。<br>\n  Account fee comparison by market, plus funding rates displayed and normalized using each venue's native settlement interval.\n- 策略启动和直接下单前验证保证金及杠杆风险档位上限。<br>\n  Margin and leverage-tier position-limit checks before strategy launches and direct orders.\n- 仅在你的电脑上运行，只绑定 `127.0.0.1`，不包含遥测或云端后端。<br>\n  Runs on your computer, binds only to `127.0.0.1`, and has no telemetry or hosted backend.\n## 安装并启动 | Install and start\n首次使用需要先运行一次**安装命令**，以后打开 Gate CrossEx 时只需运行**启动命令**。安装程序会下载源码、项目专用的 Node.js 运行时以及锁文件固定的全部依赖项，并完成应用构建。无需预先安装 Node.js、npm、Git、Docker，也无需管理员权限或 `sudo`。\nThe first time you use Gate CrossEx, run the **install command** once. After that, use only the **",
+   "your-quantguy/binance-scalping": "# Binance Futures Arbitrage Bot\n## Prerequisites\n- Python 3.7 or higher\n- Binance Futures account with API access\n- API key with futures trading permissions\n## Installation\n1. **Clone the repository**:\n```bash\ngit clone <repository-url>\ncd binance-bot\n```\n2. **Install dependencies**:\n```bash\npip install -r requirements.txt\n```\n3. **Set up environment variables**:\n   Copy the example environment file and configure your API credentials:\n```bash\ncp .env.example .env\n# Edit .env with your actual Binance API credentials\n```\n### Trading Parameters\nThe bot supports various trading parameters that can be configured via command line arguments:\n- `--symbol`: Trading pair (e.g., BTCUSDC, ETHUSDC, PUMPUSDT)\n- `--quantity`: Quantity per order (if you are trading ETHUSDC, then 0.1 means 0.1 ETH)\n- `--take_profit`: Price offset for profit taking. 0.5 means placing close order for opening price + $0.5\n- `--max-orders`: Maximum number of concurrent orders\n- `--wait-time`: Wait time between orders (seconds)\n- `--direction`: Trading direction (BUY or SELL)\n## Usage\n#### BTC/USDC Trading\n```bash\npython runbot.py --symbol BTCUSDC --quantity 0.001 --take_profit 50 --max-orders 50 --wait-time 30\n```\n#### ETH/USDC Trading\n```bash\npython runbot.py --symbol ETHUSDC --quantity 0.2 --take_profit 0.5 --max-orders 50 --wait-time 30\n```\n### Command Line Arguments\n| Argument        | Description                        | Default | Example |\n| --------------- | ---------------------------------- | ------- | ------- |\n| `--symbol`      | Trading pair symbol                | ETHUSDC | BTCUSDC |\n| `--quantity`    | Order quantity                     | 0.01    | 0.02    |\n| `--take_profit` | Price offset                       | 1       | 50      |\n| `--max-orders`  | Maximum concurrent orders          | 75      | 5       |\n| `--wait-time`   | Wait time between orders (seconds) | 30      | 300     |\n| `--direction`   | Trading direction                  | BUY     | SELL    |\n## Dashboard\nThe bot includes a real-time dashboard for monitoring trading activities:\n### Start the Dashboard\n```bash\npython dashboard.py\n```\n### Dashboard Features\n- **Real-time Account Monitoring**: Live wallet balance, unreal",
+   "your-quantguy/cross-exchange-arbitrage": "##### 关注我 **X (Twitter)**: [@yourQuantGuy](https://x.com/yourQuantGuy)\n---\n**English speakers**: Please read [README_EN.md](README_EN.md) for the English version of this documentation.\n---\n## 邀请链接 (获得返佣以及福利)\n#### edgeX: [https://pro.edgex.exchange/referral/QUANT](https://pro.edgex.exchange/referral/QUANT)\n永久享受 VIP 1 费率；额外 10% 手续费返佣；10% 额外奖励积分\n#### Backpack: [https://backpack.exchange/join/quant](https://backpack.exchange/join/quant)\n使用我的推荐链接获得 35% 手续费返佣\n#### Paradex: [https://app.paradex.trade/r/quant](https://app.paradex.trade/r/quant)\n使用我的推荐链接获得 10% 手续费返佣以及 5% 积分加成\n#### grvt: [https://grvt.io/exchange/sign-up?ref=QUANT](https://grvt.io/exchange/sign-up?ref=QUANT)\n获得 1.3x 全网最高的积分加成；30% 手动反佣\n#### Extended: [https://app.extended.exchange/join/QUANT](https://app.extended.exchange/join/QUANT)\n10%的即时手续费减免；5% 积分加成\n---\n# 跨交易所套利机器人\n本项目是一个加密货币期货跨所套利的框架，仅为分享交流目的，不能直接用于生产环境，实际交易需谨慎使用。\n## 项目简介\n本项目实现了一个跨交易所套利交易机器人，目前主要在 **edgeX** 和 **Lighter** 两个交易所之间进行价差套利。机器人通过在 edgeX 上挂 post-only 限价单（做市单），在 Lighter 上执行市价单来完成套利交易。\n## 功能特性\n- 🔄 **跨交易所套利**：自动检测并利用两个交易所之间的价差\n- 📊 **实时订单簿管理**：通过 WebSocket 实时监控订单簿变化\n- 📈 **仓位跟踪**：实时跟踪和管理交易仓位\n- 🛡️ **风险控制**：支持最大仓位限制和超时控制\n- 📝 **数据记录**：记录交易数据和统计信息\n- ⚡ **异步执行**：基于 asyncio 的高性能异步架构\n## 系统要求\n- Python 3.8+\n- edgeX 和 Lighter 交易所账户\n- API 密钥和访问权限\n## 安装步骤\n### 1. 克隆仓库\n```bash\ngit clone <repository-url>\ncd cross-exchange-arbitrage\n```\n### 2. 创建虚拟环境\n```bash\npython -m venv venv\n```\n激活虚拟环境：\n**macOS/Linux:**\n```bash\nsource venv/bin/activate\n```\n**Windows:**\n```bash\nvenv\\Scripts\\activate\n```\n### 3. 安装依赖\n```bash\npip install -r requirements.txt\n```\n### 4. 配置环境变量\n复制 `env_example.txt` 为 `.env` 并填写您的 API 凭证：\n```bash\ncp env_example.txt .env\n```\n编辑 `.env` 文件，填入你的 API 信息：\n```env\n# edgeX 账户凭证（必需）\nEDGEX_ACCOUNT_ID=your_account_id_here\nEDGEX_STARK_PRIVATE_KEY=your_stark_private_key_here\n# EdgeX API 端点\nEDGEX_BASE_URL=https://pro.edgex.exchange\nEDGEX_WS_URL=wss://quote.edgex.exchange\n# Lighter 配置（必需）\nAPI_KEY_PRIVATE_KEY=your_api_key_private_key_here\nLIGHTER_ACCOUNT_INDEX=your_account_index\nLIGHTER_API_KEY_INDEX=your_api_key_index\n```\n## 使用方法\n### 基本用法\n```bash\npython arbitrage.py --ticker BTC --size 0.002 --max-position 0.1 --long-threshold 10 --short-threshold 10\n```\n### 命令行参数\n- "
+  }
+ },
+ "apps": []
+}

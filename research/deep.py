@@ -280,7 +280,8 @@ def candidates(h, data):
 
 def run(h):
     path = os.path.join(OUT, f'{h}.json')
-    data = json.load(open(os.path.join(ROOT, 'data', 'people', f'{h}.json')))
+    dp = os.path.join(ROOT, 'data', 'people', f'{h}.json')
+    data = json.load(open(dp)) if os.path.exists(dp) else {}
     res = {'handle': h}
     login = ghmap().get(h)
     if not login:

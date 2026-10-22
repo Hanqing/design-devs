@@ -1,0 +1,174 @@
+{
+ "name": "Andrej Karpathy",
+ "role": "AI 研究者与教育者 · Eureka Labs 创始人 · OpenAI 创始成员 · 前特斯拉 AI 总监",
+ "title": "Andrej Karpathy：<em>从零开始</em>，把神经网络讲给所有人",
+ "dek": "他在多伦多大学上过 Geoff Hinton 的课，在斯坦福跟着李飞飞读博，设计并主讲了斯坦福第一门深度学习课程 CS231n；之后成为 OpenAI 创始成员，2017 到 2022 年任特斯拉 AI 总监，带领 Autopilot 的视觉团队，2023 年短暂回到 OpenAI。离开大公司后，他把主要精力放在教育上：YouTube 上的《Neural Networks: Zero to Hero》、一行行手写的 micrograd、nanoGPT、llm.c，以及 100 美元就能训练出一个聊天模型的 nanochat。他还发明了「vibe coding」这个词；2026 年 3 月，他让 AI Agent 自己在单卡上做 nanochat 训练研究，这个 autoresearch 仓库很快拿到了近 10 万颗星。",
+ "card": "Eureka Labs 创始人；OpenAI 创始成员、前特斯拉 AI 总监，CS231n、nanoGPT、nanochat、autoresearch 作者。",
+ "location": "美国（X 上写着「Earth」）",
+ "updated": "2026-10-22",
+ "tags": ["深度学习", "大语言模型", "AI 教育", "开源", "自动驾驶"],
+ "links": [
+  {"label": "karpathy.ai", "url": "https://karpathy.ai"},
+  {"label": "Bear Blog", "url": "https://karpathy.bearblog.dev/blog/"},
+  {"label": "GitHub：karpathy", "url": "https://github.com/karpathy"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「I like to train Deep Neural Nets on large datasets.」个人主页：「AI researcher and educator.」",
+  "<strong>代表作：</strong>CS231n、autoresearch（★9.8 万）、nanoGPT（★6.4 万）、nanochat（★5.9 万）、LLM101n、llm.c、llm-council、minGPT、nn-zero-to-hero、llama2.c、micrograd、char-rnn、convnetjs、arxiv-sanity。",
+  "<strong>关键数字：</strong>X 关注者约 439 万；GitHub 粉丝 22.7 万；CS231n 选课人数从 2015 年的 150 人增长到 2017 年的 750 人。",
+  "<strong>造词：</strong>「Software 2.0」（2017）、「vibe coding」（2025）。"
+ ],
+ "lead": "nanochat 的 README 里有一句很有 Karpathy 风格的话：2019 年训练一个 GPT-2 水平的模型要花约 4.3 万美元，现在用一台 8 卡 H100 节点跑两小时，48 美元就够了；然后你可以在命令行里和它聊天。从分词、预训练、微调、评测到推理，整个流程放在一个精简、可改的仓库里。这就是他做了十年的事：把最前沿的东西拆到最小，让任何人都能从零亲手做一遍。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "AI 研究者、教育者；Eureka Labs 创始人"],
+     ["教育", "多伦多大学计算机与物理双学位（2005–2009）；不列颠哥伦比亚大学硕士（2009–2011）；斯坦福博士，导师李飞飞（2011–2015）"],
+     ["经历", "OpenAI 研究科学家、创始成员（2015–2017）→ 特斯拉 AI 总监（2017–2022）→ 回到 OpenAI（2023–2024）→ Eureka Labs（2024–）"],
+     ["实习", "Google Brain（2011）、Google Research（2013）、DeepMind（2015）"],
+     ["教学", "CS231n 设计者与主讲；YouTube「Zero to Hero」系列"],
+     ["技术栈", "Python、PyTorch、C / CUDA、JavaScript"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Karpathy 现在的身份更接近<strong>全职的 AI 教育者</strong>。他的 YouTube 视频分两条线：技术线是《Zero to Hero》，从反向传播一路手写到 GPT；大众线是《Deep Dive into LLMs like ChatGPT》和《How I use LLMs》。2024 年他创办 Eureka Labs，想做一所「AI 原生」的学校，第一门课是 LLM101n。"},
+    {"p": "他的开源项目都遵循同一个原则：<strong>最小、可读、能跑</strong>。micrograd 用一百来行代码实现自动求导；llama2.c 用约 700 行 C 跑推理；nanochat 覆盖完整训练流程。2026 年的 autoresearch 更进一步：让 AI Agent 自动在单卡上做 nanochat 的训练研究。README 开头是一段科幻式的玩笑：研究曾经由「肉做的计算机」在吃饭睡觉之间完成。"},
+    {"note": "本页依据 karpathy.ai、Bear Blog（2025 年 3 月起）、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2005–2009", "title": "多伦多大学", "text": "计算机与物理双专业、数学辅修；上 Geoff Hinton 的课、参加读书会，第一次接触深度学习。"},
+     {"when": "2009–2011", "title": "UBC 硕士", "text": "与 Michiel van de Panne 研究物理仿真角色的控制器学习。"},
+     {"when": "2011–2015", "title": "斯坦福博士", "text": "研究卷积与循环神经网络在视觉和语言上的应用；设计并主讲 CS231n；做 char-rnn、convnetjs、arxiv-sanity；在 Google Brain、Google Research、DeepMind 实习。"},
+     {"when": "2015–2017", "title": "OpenAI 创始成员", "text": "以研究科学家身份参与创立 OpenAI。"},
+     {"when": "2017–2022", "title": "特斯拉 AI 总监", "text": "带领 Autopilot 视觉团队，负责内部数据标注、神经网络训练和自研推理芯片部署；短暂参与 Optimus；2017 年发表《Software 2.0》。"},
+     {"when": "2022–2024", "title": "教育与回到 OpenAI", "text": "发布 nanoGPT 和《Zero to Hero》；2023–2024 年回到 OpenAI 组建中期训练与合成数据团队；2024 年发布 llm.c、minbpe，创办 Eureka Labs。"},
+     {"when": "2025", "title": "vibe coding 与 nanochat", "text": "2 月提出「vibe coding」；3 月开 Bear Blog；10 月发布 nanochat，11 月发布 llm-council；年底写《2025 LLM Year in Review》。"},
+     {"when": "2026", "title": "autoresearch", "text": "3 月发布 autoresearch；4 月在 Sequoia Ascent 2026 对谈。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "nanochat", "url": "https://github.com/karpathy/nanochat",
+     "meta": ["2025–2026", "Python", "★5.9 万"],
+     "paras": [
+      "「The best ChatGPT that $100 can buy.」最简单的大模型训练实验框架，单节点运行，代码精简可改，覆盖分词、预训练、微调、评测和推理。nanoGPT 的 README 现在第一行就写着：你要找的很可能是 nanochat。"
+     ],
+     "facts": [["GitHub", "★58,848 · ⑂8,244"]]
+    }},
+    {"work": {
+     "name": "autoresearch", "url": "https://github.com/karpathy/autoresearch",
+     "meta": ["2026.03", "Python", "★9.8 万"],
+     "paras": [
+      "让 AI Agent 自动在单卡 nanochat 训练上做研究：提出改动、跑实验、看结果、再迭代。它是他 GitHub 上星数最多的仓库，也代表了他对「研究本身被自动化」的兴趣。"
+     ],
+     "facts": [["GitHub", "★98,392 · ⑂13,607"]]
+    }},
+    {"work": {
+     "name": "CS231n 与 Zero to Hero", "url": "https://github.com/karpathy/nn-zero-to-hero",
+     "meta": ["2015– / 2022–", "课程"],
+     "paras": [
+      "CS231n 是斯坦福第一门深度学习课，也是一代人入门计算机视觉的教材。《Neural Networks: Zero to Hero》则是他离开特斯拉后的 YouTube 系列：从 micrograd 的自动求导开始，到 makemore，再到从零写 GPT 和分词器。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["nanoGPT", "2022", "训练中等规模 GPT 的最简仓库（★6.4 万）"],
+      ["llm.c", "2024", "纯 C / CUDA 训练大模型（★3.1 万）"],
+      ["llm-council", "2025", "让多个大模型组成「议会」回答难题（★2.6 万）"],
+      ["llama2.c", "2023", "一个 C 文件跑 Llama 2 推理（★2 万）"],
+      ["micrograd", "2020", "极简标量自动求导引擎（★1.8 万）"],
+      ["MenuGen", "2025", "vibe coding 出来的菜单配图 App，并写了复盘"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://karpathy.ai", "paras": [
+     "karpathy.ai 按时间倒序列出经历：2024 年的视频、2023–2024 年的 OpenAI、特斯拉、斯坦福一路回到本科。开头还有一段玩笑：他是「独角兽骑士团」的成员，脸上的伤疤是他与独角兽之间神秘联系的标志。",
+     "2025 年 3 月起，他在极简的 Bear Blog 上写作：《Animals vs Ghosts》《Verifiability》《The space of minds》《Digital hygiene》《The append-and-review note》，还有一篇认真比较睡眠追踪器的文章。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["主页", "履历时间线 + 幽默开场"],
+      ["博客", "Bear Blog，纯文字，2025 年 3 月开始"],
+      ["主阵地", "X 和 GitHub（主页原话）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-04-30", "title": "Sequoia Ascent 2026 summary", "url": "https://karpathy.bearblog.dev/sequoia-ascent-2026/"},
+     {"date": "2025-12", "title": "2025 LLM Year in Review", "url": "https://karpathy.bearblog.dev/year-in-review-2025/"},
+     {"date": "2025", "title": "Animals vs Ghosts", "url": "https://karpathy.bearblog.dev/animals-vs-ghosts/"},
+     {"date": "2025", "title": "Vibe coding MenuGen", "url": "https://karpathy.bearblog.dev/vibe-coding-menugen/"},
+     {"date": "2025", "title": "Power to the people: How LLMs flip the script on technology diffusion", "url": "https://karpathy.bearblog.dev/power-to-the-people/"}
+    ]},
+    {"quote": "I like to train Deep Neural Nets on large datasets.", "cite": "Andrej Karpathy，GitHub 简介"},
+    {"p": "《Power to the people》的观点很有意思：以往的新技术总是先被政府和大公司使用，再慢慢扩散到个人；大语言模型反过来了，普通人最先、也最充分地从中受益。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "把最前沿的东西讲到最简单", "—"],
+      ["研究", "OpenAI、特斯拉的一线经历", "近年以教育和实验为主，较少发表论文"],
+      ["开源", "仓库简洁、影响巨大", "很多仓库定位为教学，不面向生产"],
+      ["影响力", "造词能力强，一句话能定义一个趋势", "他的说法常被过度引申"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从零手写一遍：</strong>写过 micrograd，才真正懂反向传播。",
+     "<strong>把东西做到最小：</strong>最小可运行的版本最适合教学。",
+     "<strong>给你的想法起个好名字：</strong>Software 2.0、vibe coding。",
+     "<strong>教是最好的学：</strong>CS231n 让他和学生一起成长。",
+     "<strong>保持幽默：</strong>严肃的研究也可以写得好玩。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Neural Networks: Zero to Hero", "url": "https://github.com/karpathy/nn-zero-to-hero", "why": "从零手写到 GPT 的完整路线。"},
+     {"name": "nanochat", "url": "https://github.com/karpathy/nanochat", "why": "花一百美元训练你自己的聊天模型。"},
+     {"name": "2025 LLM Year in Review", "url": "https://karpathy.bearblog.dev/year-in-review-2025/", "why": "他眼中的大模型这一年。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "打开 micrograd，花一个晚上把它从头敲一遍。",
+ "sources": [
+  {"label": "Andrej Karpathy 的 X 个人资料", "url": "https://x.com/karpathy"},
+  {"label": "karpathy.ai", "url": "https://karpathy.ai"},
+  {"label": "karpathy（Bear Blog）", "url": "https://karpathy.bearblog.dev/blog/"},
+  {"label": "GitHub：karpathy", "url": "https://github.com/karpathy"},
+  {"label": "karpathy/nanochat", "url": "https://github.com/karpathy/nanochat"},
+  {"label": "karpathy/autoresearch", "url": "https://github.com/karpathy/autoresearch"}
+ ]
+}

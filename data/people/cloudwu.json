@@ -1,0 +1,174 @@
+{
+ "name": "云风（吴云洋）",
+ "role": "游戏程序员 · skynet 作者 · 自由职业者",
+ "title": "云风：写了三十年代码，<em>依然只想做游戏</em>",
+ "dek": "二十岁左右，他在大学里写出二维游戏引擎「风魂」；2001 年加入网易，风魂「阴差阳错」挽救了《大话西游》项目，他也参与了《大话西游 2》《梦幻西游》。2011 年他离开网易，与叮当等人在广州创办简悦，写出了被中国游戏行业大量使用的服务端框架 skynet。2017 年底简悦被阿里收购，成为灵犀互娱；他退出管理，专心做自研引擎 Ant。2024 年 5 月 Ant 项目被关停，他离职成为自由职业者，开始用自己写的 Lua 2D 框架做独立游戏。",
+ "card": "skynet（★1.4 万）、sproto、ltask、soluna 作者；前网易、简悦、阿里灵犀，《游戏之旅》作者，广州。",
+ "location": "中国广州",
+ "updated": "2026-10-22",
+ "tags": ["游戏开发", "C", "Lua", "开源", "博客"],
+ "links": [
+  {"label": "云风的 BLOG", "url": "https://blog.codingnow.com"},
+  {"label": "GitHub：cloudwu", "url": "https://github.com/cloudwu"},
+  {"label": "skynet", "url": "https://github.com/cloudwu/skynet"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Coder, Freelancer, Blogger, Gamer, Rock climber」；GitHub 简介只有一行：「coder ( c , lua , open source )」。",
+  "<strong>代表作：</strong>skynet（★14,180）、coroutine（★2,521）、pbc、sproto、mptun、ltask、luaecs、soluna、Lua 5.3 中文文档、《群星》汉化 Mod、风魂引擎、《游戏之旅：我的编程感悟》。",
+  "<strong>关键数字：</strong>GitHub 粉丝 2.17 万；X 关注者 5.3 万；博客从 2005 年前后写到今天，2026 年仍保持每月数篇。",
+  "<strong>离开的理由：</strong>「人生短暂，学习如何管理很多人做事并非我期望的发展方向。」"
+ ],
+ "lead": "2024 年 5 月，云风在博客上写下离职的消息：他负责多年的 Ant 引擎被公司放弃了，「我感觉公司不再想发展自己的游戏客户端引擎」。他给这个引擎打了 80 分。离开以后他没有再找一家大公司，而是回到最初的状态：一个程序员，写自己的框架，做自己想玩的游戏。两年后，他的博客里写的是《缺氧》的地热模块、《群星》的历史、A* 寻路的启发函数，以及 QWERTY 键盘布局的真实来历。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "游戏程序员、开源作者、技术博主；现为自由职业者"],
+     ["所在地", "中国广州"],
+     ["经历", "风魂引擎（大学期间）→ 网易（2001–2011）→ 简悦科技联合创始人（2011）→ 阿里灵犀互娱（2017 年底–2024 年 5 月）→ 自由职业"],
+     ["网易项目", "《大话西游 2》《梦幻西游》"],
+     ["开源", "skynet、sproto、pbc、coroutine、ltask、luaecs、lua-bgfx、soluna"],
+     ["著作", "《游戏之旅：我的编程感悟》"],
+     ["技术栈", "C、Lua"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "云风最广为人知的作品是 <strong>skynet</strong>：一个基于 Actor 模型、用 Lua 写业务的多用户服务端框架。README 写着它「在中国游戏行业被大量使用」，现在也在向其他行业和英语开发者扩散。"},
+    {"p": "离开阿里后，他把精力放在客户端：ltask 是受 skynet 启发的 Lua 多任务库，可以在 N 个系统线程上运行 M 个 Lua 虚拟机；soluna 把 sokol 图形库和 ltask 结合成一个跨平台 Lua 2D 游戏框架，能跑在 Windows、Linux、macOS 和浏览器里。他用它做了桌游《Deep Future》的数字版。"},
+    {"note": "本页依据云风的 BLOG、GitHub 仓库与 README、搜狐与阿里云开发者社区的报道和访谈以及 X 资料整理，资料截至 2026 年 10 月。博客中的家庭与健康内容未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "大学时期", "title": "风魂", "text": "二十岁左右开发二维游戏引擎「风魂」系列，在国内早期游戏开发者中流传很广。"},
+     {"when": "2001", "title": "加入网易", "text": "4 月入职网易，据他的博客，风魂引擎「阴差阳错」挽救了《大话西游》项目；之后参与《大话西游 2》《梦幻西游》。"},
+     {"when": "2005", "title": "《游戏之旅》", "text": "出版《游戏之旅：我的编程感悟》，写下自己的编程与游戏开发经验。"},
+     {"when": "2011", "title": "离开网易，创办简悦", "text": "与丁磊沟通数月后离职，年底与叮当、陈伟安等人在广州创办简悦科技。"},
+     {"when": "2012–2016", "title": "skynet 与手游", "text": "2012 年开源 skynet 和 C 协程库；2013 年为转型手游开发 ejoy2d，用于《陌陌争霸》；2014 年发布 sproto；2015 年翻译 Lua 5.3 中文文档。"},
+     {"when": "2017–2024", "title": "阿里灵犀与 Ant 引擎", "text": "简悦被阿里收购，成为灵犀互娱。2018 年起退出管理，主导自研 3D 引擎 Ant，并做 ltask、luaecs、lua-bgfx 等基础库。"},
+     {"when": "2024", "title": "再次启程", "text": "5 月宣布离职，最后工作日为 5 月 20 日，计划做一款 Windows 平台的独立游戏。"},
+     {"when": "2025–2026", "title": "soluna 与 Deep Future", "text": "发布 Lua 2D 框架 soluna 和桌游《Deep Future》数字版；博客大量写游戏设计分析与算法。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "skynet", "url": "https://github.com/cloudwu/skynet",
+     "meta": ["2012–", "C · Lua", "★1.4 万"],
+     "paras": [
+      "一个轻量的在线游戏服务端框架：每个服务是一个独立的 Lua 虚拟机，通过消息通信，底层用 C 实现调度和网络。它把多线程并发的复杂度藏在框架里，让业务程序员只写顺序的 Lua 代码。",
+      "十多年后它仍在维护，GitHub Wiki 里列出了大量使用它的公司和项目。"
+     ],
+     "facts": [["GitHub", "★14,180 · ⑂4,274"]]
+    }},
+    {"work": {
+     "name": "soluna", "url": "https://github.com/cloudwu/soluna",
+     "meta": ["2025–", "C · Lua", "★383"],
+     "paras": [
+      "「Sokol + Lua = Soluna。」基于 sokol，整合 ltask 做多线程，通过 WebAssembly 也能跑在浏览器里，提供在线示例和每夜构建。这是他离开大公司后，给自己做独立游戏打造的工具。"
+     ]
+    }},
+    {"work": {
+     "name": "Deep Future 数字版", "url": "https://github.com/cloudwu/deepfuture",
+     "meta": ["2025–", "Lua", "可在线游玩"],
+     "paras": [
+      "R. Winder 设计的桌游《Deep Future》的数字版。这是一款「边玩边做」的游戏：开局只有地图、纸和几张卡片，世界、科技和过去文明的遗迹在游戏过程中不断生成。支持中英文，可在 Windows、Linux、macOS 和浏览器上玩。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["coroutine", "2012", "C 语言非对称协程库（★2.5 千）"],
+      ["pbc", "2011", "C 语言的 protobuf 库（★1.6 千，已归档）"],
+      ["sproto", "2014", "比 protobuf 更简单、更快的协议库"],
+      ["mptun", "2015", "多路径隧道"],
+      ["ltask", "2021", "n:m 调度的 Lua 任务库"],
+      ["stellaris_cn", "2016–2026", "《群星》汉化 Mod，维护了十年"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://blog.codingnow.com", "paras": [
+     "「云风的 BLOG」仍然跑在 Movable Type 3.2 上，副标题「思绪来得快去得也快，偶尔会在这里停留」。二十年来几乎没有改过样子：一篇篇长文、固定链接、留言。",
+     "它是中文程序员圈最有名的个人博客之一：引擎设计、内存分配、协议、ECS、离职信，以及越来越多的游戏设计分析。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Movable Type 3.2，Atom 订阅"],
+      ["内容", "底层技术、游戏设计、桌游、读书"],
+      ["节奏", "2026 年每月二到四篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-20", "title": "QWERTY 键盘布局的发展历史", "url": "https://blog.codingnow.com"},
+     {"date": "2026-10-11", "title": "点老救世记的深度体验", "url": "https://blog.codingnow.com"},
+     {"date": "2026-08-09", "title": "用地标改进 A star 寻路的启发函数", "url": "https://blog.codingnow.com"},
+     {"date": "2026-06-11", "title": "对基本有序的序列排序算法", "url": "https://blog.codingnow.com"},
+     {"date": "2026-04-28", "title": "我对《缺氧》的游戏理解", "url": "https://blog.codingnow.com"}
+    ]},
+    {"quote": "人生短暂，学习如何管理很多人做事并非我期望的发展方向。", "cite": "云风，2024 年离职博客"},
+    {"p": "他读论文时也会较真：最近一篇文章考证了「QWERTY 是为了降低打字速度」这个流行说法，发现它源于对 1980 年一篇论文的误读。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["工程", "C 与 Lua 的系统设计，框架被行业广泛采用", "—"],
+      ["坚持", "博客和开源维护长达二十年", "—"],
+      ["引擎", "Ant 引擎积累深厚", "项目被关停，未能成为商业产品"],
+      ["独立游戏", "工具链自给自足", "新作仍在早期，商业成绩未知"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>做你真正想做的角色：</strong>管理不是程序员唯一的上升路径。",
+     "<strong>简单的抽象活得最久：</strong>skynet 十几年仍在被使用。",
+     "<strong>先给自己造工具：</strong>soluna 就是为独立游戏写的。",
+     "<strong>写博客二十年：</strong>思考会在文字里留下来。",
+     "<strong>玩游戏也要做研究：</strong>把体验写成设计分析。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "skynet", "url": "https://github.com/cloudwu/skynet", "why": "中国游戏服务端的经典框架。"},
+     {"name": "云风的 BLOG", "url": "https://blog.codingnow.com", "why": "二十年的技术与游戏思考。"},
+     {"name": "Deep Future", "url": "https://cloudwu.github.io/deepfuture", "why": "在浏览器里玩他做的桌游数字版。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一款你玩了很久的游戏，写一篇文章分析它的核心机制。",
+ "sources": [
+  {"label": "云风的 X 个人资料", "url": "https://x.com/cloudwu"},
+  {"label": "云风的 BLOG", "url": "https://blog.codingnow.com"},
+  {"label": "GitHub：cloudwu", "url": "https://github.com/cloudwu"},
+  {"label": "十年网易，八年灵犀，这位技术大牛再次离职选择自由（搜狐）", "url": "https://www.sohu.com/a/776753619_204824"},
+  {"label": "访谈云风：从大话西游到 skynet 的编程之路（阿里云开发者社区）", "url": "https://developer.aliyun.com/article/801814"}
+ ]
+}

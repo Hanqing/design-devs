@@ -1,0 +1,153 @@
+{
+ "name": "Frank Wang",
+ "role": "OpenCode 创始团队 · SST 联合创始人兼 CTO · Anomaly 联合创始人",
+ "title": "Frank Wang：从 Serverless 到<em>开源编程 Agent</em>",
+ "dek": "TA 和 Jay V 一起创办了 Anomaly：先写了广受欢迎的 Serverless Stack 教程，做了无服务器 CI 服务 Seed，再做出开源框架 SST，让开发者用代码在自己的 AWS 和 Cloudflare 账户上搭全栈应用，并参与维护把 Next.js 部署到 AWS 的 OpenNext。2025 年 4 月，团队开源了终端里的编程 Agent OpenCode；一年多后，它在 GitHub 上有 22 万颗星、950 多位贡献者，官网称每月有 1,600 万开发者使用。Frank 的中文 X 简介只写了一句：「opencode.ai 创始人」。",
+ "card": "OpenCode 创始团队；SST 联合创始人兼 CTO、Anomaly 联合创始人，旧金山 / 多伦多 / 北京。",
+ "location": "旧金山 · 多伦多 · 北京",
+ "updated": "2026-10-22",
+ "tags": ["AI 编程 Agent", "开源", "Serverless", "TypeScript", "开发者工具"],
+ "links": [
+  {"label": "OpenCode", "url": "https://opencode.ai"},
+  {"label": "SST", "url": "https://sst.dev"},
+  {"label": "Anomaly", "url": "https://anoma.ly"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「opencode.ai 创始人」；GitHub 简介「Founder @sst.」",
+  "<strong>代表作：</strong>OpenCode（anomalyco/opencode ★22 万）、SST（★2.6 万）、OpenNext for AWS（★5 千）、Seed、Serverless Stack 教程。",
+  "<strong>关键数字：</strong>OpenCode 官网称 21.5 万+ 星、950 位贡献者、2 万多次提交、每月 1,600 万开发者；SST 2023 年 8 月获 Greylock 与 Reid Hoffman 领投的种子轮。",
+  "<strong>团队：</strong>Anomaly 还做直播答题节目 Rebase，并赞助了一次南极骑行挑战。"
+ ],
+ "lead": "OpenCode 的官网写着：它不存储你的任何代码和上下文数据，所以能在对隐私敏感的环境里运行。你可以用自带的免费模型，也可以接入 Claude、GPT、Gemini 等 75 家以上的模型提供商，甚至直接用 GitHub Copilot 或 ChatGPT Plus 账号登录。这和 SST 的理念一脉相承：开源、跑在你自己的基础设施上、不被某一家锁死。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创业者、工程师"],
+     ["所在地", "旧金山、多伦多、北京（X 资料）"],
+     ["公司", "Anomaly（Anomaly Innovations）：SST、OpenCode、Rebase"],
+     ["经历", "联合创办 Anomaly → Seed CTO → SST 联合创始人兼 CTO → OpenCode"],
+     ["融资", "SST 参加过 Y Combinator；2023 年 8 月种子轮由 Greylock 与 Reid Hoffman 领投"],
+     ["技术栈", "TypeScript、JavaScript、AWS、Pulumi / Terraform"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "OpenCode 是一个<strong>开源的 AI 编程 Agent</strong>：可以在终端、IDE 或桌面应用里使用；自动加载合适的语言服务器（LSP）；支持在同一个项目里并行开启多个 Agent；可以把任意会话分享成链接，方便参考或排查。"},
+    {"p": "在那之前，Frank 和团队用 SST 解决了另一个问题：把全栈应用部署到你自己的云账户里。SST v3 把部署引擎从 AWS CloudFormation 换成了 Pulumi 和 Terraform，可以管理 AWS、Cloudflare 等多家提供商的资源。"},
+    {"note": "本页依据 opencode.ai、anoma.ly、GitHub 仓库与 README、Startup Intros 与 Crunchbase 等创业者资料和 X 资料整理，资料截至 2026 年 10 月。部分第三方资料把 TA 与大疆创始人汪滔（英文名同为 Frank Wang）混为一谈，本页已排除这类错误信息。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2009–2010", "title": "Erlang 与 vim", "text": "注册 Twitter 和 GitHub，写过一个 Erlang 代码折叠的 vim 插件。"},
+     {"when": "2010 年代", "title": "Anomaly 与 Serverless Stack", "text": "与 Jay V 联合创办 Anomaly Innovations，写作 Serverless Stack 教程，做无服务器应用的 CI/CD 服务 Seed，担任 CTO。"},
+     {"when": "2020–2021", "title": "SST", "text": "2020 年 8 月开源 SST，之后参加 Y Combinator。"},
+     {"when": "2022–2024", "title": "OpenNext 与 SST v3", "text": "参与把 Next.js 部署到 AWS 的 OpenNext；2023 年完成种子轮；SST v3 转向 Pulumi 与 Terraform。"},
+     {"when": "2025–2026", "title": "OpenCode", "text": "2025 年 4 月开源 OpenCode；一年多后成为最受欢迎的开源编程 Agent 之一；2026 年 10 月发布 v2。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "OpenCode", "url": "https://opencode.ai",
+     "meta": ["2025–", "TypeScript", "★22 万"],
+     "paras": [
+      "「The open source AI coding agent.」终端界面、桌面应用和 IDE 扩展三种形态；通过 Models.dev 接入 75 家以上的模型提供商，包括本地模型；也提供面向企业的版本和自家的模型服务 Zen。"
+     ],
+     "facts": [["GitHub", "★220,088"], ["月活开发者", "1,600 万（官网）"]]
+    }},
+    {"work": {
+     "name": "SST", "url": "https://sst.dev",
+     "meta": ["2020–", "TypeScript", "★2.6 万"],
+     "paras": [
+      "「Build full-stack apps on your own infrastructure.」用 TypeScript 定义基础设施，支持本地实时调试 Lambda、一键部署 Next.js 等框架；数据和账单都在你自己的云账户里。"
+     ],
+     "facts": [["GitHub", "★26,369"]]
+    }},
+    {"work": {
+     "name": "OpenNext", "url": "https://opennext.js.org",
+     "meta": ["开源", "★5 千"],
+     "paras": [
+      "把 Next.js 的构建产物转换成可以部署到 AWS Lambda 或普通 Node.js 服务器的包，让 Next.js 不必绑定在某一个托管平台上。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://anoma.ly", "paras": [
+     "Anomaly 的官网像一张唱片封套：背景里播放着朋克滑板音乐，标题是「Looking for anomalies.」，下面是三件事：直播答题节目 Rebase、南极骑行挑战，以及合作邀请。顶部一行小字：「Creators of opencode」。",
+     "OpenCode 官网则非常工程化：安装命令、功能列表、星数和贡献者数据、隐私说明和常见问题。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["Anomaly", "实验、体验和野心勃勃的点子"],
+      ["OpenCode", "开发者导向，数据透明"],
+      ["个人站", "无，X 上中英文混用"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Looking for anomalies.", "cite": "Anomaly 官网"},
+    {"p": "Frank 在 X 上很少长篇大论，更多是团队的玩笑和产品的发布。TA 说过，和团队里的工程师共事久了，才发现「自己才是传说中的 junior dev」，现在只能在设计上指导一下。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["开源", "连续做出高星开源项目", "—"],
+      ["理念", "不锁定、自托管、隐私优先", "开源项目的商业化仍在探索"],
+      ["团队", "长期合作的核心团队，执行力强", "—"],
+      ["公开信息", "产品数据透明", "个人经历公开资料少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>写教程，再写工具：</strong>Serverless Stack 教程带出了 SST。",
+     "<strong>不锁定用户：</strong>接入任何模型、部署到任何云。",
+     "<strong>把隐私写在首页：</strong>不存代码，才能进入企业。",
+     "<strong>长期和同一群人做事：</strong>团队比单个项目更重要。",
+     "<strong>保持好玩：</strong>公司也可以办答题节目、去南极骑车。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "OpenCode", "url": "https://opencode.ai", "why": "装一个开源编程 Agent 试试。"},
+     {"name": "SST", "url": "https://sst.dev", "why": "把全栈应用部署到你自己的云账户。"},
+     {"name": "Anomaly", "url": "https://anoma.ly", "why": "看看这家公司还在做什么好玩的事。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你的项目目录里运行一次 OpenCode，让它先读懂代码库，再问它一个你一直没弄懂的问题。",
+ "sources": [
+  {"label": "Frank Wang 的 X 个人资料", "url": "https://x.com/fanjiewang"},
+  {"label": "OpenCode", "url": "https://opencode.ai"},
+  {"label": "anomalyco/opencode", "url": "https://github.com/anomalyco/opencode"},
+  {"label": "anomalyco/sst", "url": "https://github.com/anomalyco/sst"},
+  {"label": "Anomaly", "url": "https://anoma.ly"},
+  {"label": "Frank Wang（Startup Intros）", "url": "https://startupintros.com/people/frank-wang"}
+ ]
+}

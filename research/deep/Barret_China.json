@@ -1,0 +1,591 @@
+{
+ "handle": "Barret_China",
+ "sites": [
+  {
+   "url": "http://www.barretlee.com",
+   "ok": true,
+   "title": "Barret李靖 | 小胡子哥的个人网站",
+   "description": "一个有趣的灵魂 —— 想法，随笔，思考，感叹，瞬间，笔记...",
+   "stack": [
+    "https://hexo.io",
+    "Hexo",
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "zh-cn",
+   "home_text": "## 小胡子哥的个人网站 [](http://www.barretlee.com/entry/)\n### Barret Lee's personal website\n»[博客](http://www.barretlee.com/entry/)/ [留言](http://www.barretlee.com/message/)/ [关于](http://www.barretlee.com/about/)\n»_[鸟](https://twitter.com/barret\\_china)_ _[博](http://weibo.com/173248656)_ _[☃](https://github.com/barretlee)_ _[](http://www.barretlee.com/blogimgs/follow.jpg)_ _[◈](http://www.barretlee.com/rss2.xml)_\n_✈_\n[湘ICP备14007107号-1](https://www.miit.gov.cn/)",
+   "github_links": [
+    "barretlee"
+   ],
+   "subpages": {
+    "http://www.barretlee.com/about/": "◈ Barret李靖 » 关于 ▾ \n 博客 \n 留言 \n 实验室 \n 友情链接 \n 一个有趣的灵魂 / About Me \nMy name is Lee Jing (李靖), but you can call me Barret. I was born in 1992. \nI hold a Bachelor of Engineering degree from HuaZhong University of Science and Technology and currently work for Alibaba in HangZhou. \nTo me, life is a colorful adventure. This website is a window into the vibrant and diverse experiences that shape my life. \nIn my free time, I enjoy programming, reading books, surfing the internet, and traveling. Most of all, I love meeting new people and making friends. 关于内容 / About The Website \n版权声明: 「署名-非商业性使用-禁止演绎 3.0 国际」（ CC BY-NC-ND 3.0 ） \n所有文章非特别说明皆为原创。技术更迭迅猛，部分内容可能会作修改，为保证信息与源同步，转载时请务必注明文章出处！谢谢合作 :-) \n文章皆为个人观点，不代表所服务的公司。 订阅地址 / The RSS Address \n本网站 RSS 订阅地址： https://www.barretlee.com/rss2.xml \n博客源码： https://github.com/barretlee/blog ，本站由 Github Pages 强力驱动。 社交信息 / Social Links \nGithub： @barretlee \nSocial： Twitter | 微博 | 即刻 | 知乎 \nE-mail： barret.china(at)gmail.com \n微信公众号： @barretlee_com \n站点最后修改时间：2025年07月19日 11:01:03 \n 🙈 ©2013-2025 湘ICP备14007107号-1 本站由 Barret李靖 纯手工打造 | 联系方式 \n  目录 \n 显示目录  夜间 \n   ☻ 关于 \n 关于作者 \n  链接 \n 友情链接 ◈ 订阅 \n 订阅我吧！"
+   },
+   "feed": {
+    "url": "https://www.barretlee.com/rss2.xml",
+    "count_seen": 30,
+    "items": [
+     {
+      "title": "Load 持续飙高的原理讲解和应急机制",
+      "date": "Fri Oct 27 2023 15:13:00 ",
+      "url": "https://www.barretlee.com/blog/2023/10/27/sre-load-increase/"
+     },
+     {
+      "title": "海外 App Store 账号和礼品卡",
+      "date": "Thu Sep 14 2023 09:11:01 ",
+      "url": "https://www.barretlee.com/blog/2023/09/14/non-chinese-app-store-account/"
+     },
+     {
+      "title": "接码平台与海外手机卡",
+      "date": "Wed Sep 13 2023 15:28:02 ",
+      "url": "https://www.barretlee.com/blog/2023/09/13/non-chinese-phone-checkcode-and-uk-giffgaff/"
+     },
+     {
+      "title": "构建你自己的信息流",
+      "date": "Sun Sep 10 2023 20:06:00 ",
+      "url": "https://www.barretlee.com/blog/2023/09/10/build-your-own-timeline/"
+     },
+     {
+      "title": "新加坡华侨银行 OCBC 开户小记",
+      "date": "Wed Sep 06 2023 10:07:00 ",
+      "url": "https://www.barretlee.com/blog/2023/09/06/ocbc-bank/"
+     },
+     {
+      "title": "还写博客么？",
+      "date": "Mon Jun 26 2023 13:02:00 ",
+      "url": "https://www.barretlee.com/blog/2023/06/26/blog-writer/"
+     },
+     {
+      "title": "读书笔记《当呼吸化为空气》",
+      "date": "Sun Sep 18 2022 08:20:19 ",
+      "url": "https://www.barretlee.com/blog/2022/09/18/gvnty0/"
+     },
+     {
+      "title": "云服务使用过程的问题小记",
+      "date": "Fri Aug 05 2022 09:01:37 ",
+      "url": "https://www.barretlee.com/blog/2022/08/05/bicgb6/"
+     },
+     {
+      "title": "孩子出生第一天的一些点滴",
+      "date": "Fri Aug 05 2022 02:06:02 ",
+      "url": "https://www.barretlee.com/blog/2022/08/05/dzrya3/"
+     },
+     {
+      "title": "读书笔记《乌合之众》",
+      "date": "Wed Jul 27 2022 12:39:21 ",
+      "url": "https://www.barretlee.com/blog/2022/07/27/wp7gyn/"
+     },
+     {
+      "title": "回味是苦药",
+      "date": "Wed Jul 27 2022 09:20:41 ",
+      "url": "https://www.barretlee.com/blog/2022/07/27/dw6f2k/"
+     },
+     {
+      "title": "不活成他人眼中的自己",
+      "date": "Tue Jul 26 2022 11:58:52 ",
+      "url": "https://www.barretlee.com/blog/2022/07/26/knaauu/"
+     },
+     {
+      "title": "东风不来",
+      "date": "Thu Jun 30 2022 09:34:26 ",
+      "url": "https://www.barretlee.com/blog/2022/06/30/dpltzy/"
+     },
+     {
+      "title": "行左右之事",
+      "date": "Thu Jun 30 2022 09:32:00 ",
+      "url": "https://www.barretlee.com/blog/2022/06/30/fi1zpe/"
+     },
+     {
+      "title": "核酸数据通大难题",
+      "date": "Sun Jun 05 2022 10:52:30 ",
+      "url": "https://www.barretlee.com/blog/2022/06/05/grgoas/"
+     },
+     {
+      "title": "一切都是最好的安排",
+      "date": "Thu Jun 02 2022 10:10:01 ",
+      "url": "https://www.barretlee.com/blog/2022/06/02/uph8bv/"
+     },
+     {
+      "title": "平静、智慧和勇气",
+      "date": "Mon May 30 2022 09:25:16 ",
+      "url": "https://www.barretlee.com/blog/2022/05/30/qnvohn/"
+     },
+     {
+      "title": "放下身段，变成孩子",
+      "date": "Fri May 27 2022 11:28:14 ",
+      "url": "https://www.barretlee.com/blog/2022/05/27/dnqqcs/"
+     },
+     {
+      "title": "是权利，也有义务",
+      "date": "Thu May 26 2022 11:56:07 ",
+      "url": "https://www.barretlee.com/blog/2022/05/26/smroy4/"
+     },
+     {
+      "title": "既要、又要、还要",
+      "date": "Wed May 25 2022 10:03:27 ",
+      "url": "https://www.barretlee.com/blog/2022/05/25/ubc0dc/"
+     },
+     {
+      "title": "难，是因为你觉得它难",
+      "date": "Wed May 25 2022 03:34:30 ",
+      "url": "https://www.barretlee.com/blog/2022/05/25/osocih/"
+     },
+     {
+      "title": "非暴力沟通",
+      "date": "Tue May 24 2022 12:42:06 ",
+      "url": "https://www.barretlee.com/blog/2022/05/24/dmp6yz/"
+     },
+     {
+      "title": "看到闪光点",
+      "date": "Tue May 24 2022 03:10:18 ",
+      "url": "https://www.barretlee.com/blog/2022/05/24/hdw36q/"
+     },
+     {
+      "title": "需要小聪明，也需要笨功夫",
+      "date": "Mon May 23 2022 11:39:13 ",
+      "url": "https://www.barretlee.com/blog/2022/05/23/yr7gk6/"
+     },
+     {
+      "title": "做好自己",
+      "date": "Sun May 22 2022 06:24:38 ",
+      "url": "https://www.barretlee.com/blog/2022/05/22/zaghh5/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "barretlee",
+  "user": {
+   "name": "Barret李靖",
+   "company": "Ant Group",
+   "blog": "https://www.barretlee.com",
+   "location": "Hangzhou,China",
+   "bio": "AI Engineer | Lifelong Learner | Dad of 2 | AI Researcher | Cloud Native | 小胡子哥，一个有趣的灵魂。",
+   "public_repos": 92,
+   "followers": 4700,
+   "created_at": "2012-11-01T10:23:20Z",
+   "twitter_username": "Barret_China",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "barretlee/performance-column",
+    "description": "🚅 性能专栏（Performance Column）",
+    "stargazers_count": 1202,
+    "forks_count": 85,
+    "language": null,
+    "homepage": "http://performance.barretlee.com",
+    "created_at": "2017-03-02T06:19:38Z",
+    "pushed_at": "2020-06-18T01:46:04Z",
+    "topics": [
+     "column",
+     "performance"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/online-markdown",
+    "description": "A online markdown converter specially for Wechat Public formatting.",
+    "stargazers_count": 921,
+    "forks_count": 416,
+    "language": "JavaScript",
+    "homepage": "http://md.barretlee.com/",
+    "created_at": "2017-02-07T05:54:04Z",
+    "pushed_at": "2025-06-27T05:12:53Z",
+    "topics": [
+     "converter",
+     "formatter",
+     "markdown",
+     "online",
+     "wechat"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/cloudflare-proxy",
+    "description": "Cloudflare Worker 代理请求 ChatGPT API，支持 Stream 流式输出",
+    "stargazers_count": 878,
+    "forks_count": 104,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2023-04-03T02:57:29Z",
+    "pushed_at": "2023-08-04T02:37:43Z",
+    "topics": [
+     "chatgpt",
+     "chatgpt-api-wrapper",
+     "cloudflare",
+     "proxy"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/autoconfig-mac-vimrc",
+    "description": "autoconfig mac vimrc with bundle",
+    "stargazers_count": 510,
+    "forks_count": 122,
+    "language": "VimL",
+    "homepage": null,
+    "created_at": "2016-04-13T17:06:55Z",
+    "pushed_at": "2016-04-21T05:19:31Z",
+    "topics": [
+     "autoconfig-mac-vimrc",
+     "mac",
+     "vimrc"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/blogChat",
+    "description": "Chat room source code for Barret Lee's Personal Blog.",
+    "stargazers_count": 498,
+    "forks_count": 120,
+    "language": "HTML",
+    "homepage": "http://www.barretlee.com/",
+    "created_at": "2016-07-22T03:16:41Z",
+    "pushed_at": "2023-08-16T10:17:03Z",
+    "topics": [
+     "blog",
+     "chatroom",
+     "chatroom-client",
+     "chatroom-server",
+     "register"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/kindleBookMaker",
+    "description": "Kindle Book Maker with KindleGen, Make Book from RSS/single URL/directory and so on.",
+    "stargazers_count": 415,
+    "forks_count": 59,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2016-05-18T16:50:19Z",
+    "pushed_at": "2022-02-13T09:26:00Z",
+    "topics": [
+     "book-generator",
+     "kindle",
+     "kindlegen",
+     "rss",
+     "spider"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/algorithms",
+    "description": "All algorithms writing with javascript in the book 'Algorithms Fourth Edition'.",
+    "stargazers_count": 335,
+    "forks_count": 39,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-05-23T15:36:30Z",
+    "pushed_at": "2017-07-06T07:48:38Z",
+    "topics": [
+     "algorithm",
+     "algorithms-fourth-edition",
+     "algorithms-writing",
+     "javascript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/snippets",
+    "description": "Code Snippets",
+    "stargazers_count": 314,
+    "forks_count": 82,
+    "language": "JavaScript",
+    "homepage": "http://snippets.barretlee.com",
+    "created_at": "2015-09-26T15:12:26Z",
+    "pushed_at": "2020-10-01T07:07:49Z",
+    "topics": [
+     "snippets"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/agent-pulse",
+    "description": "Evidence-backed AI industry intelligence — trends, source updates, daily data refreshes, and weekly decision briefs.",
+    "stargazers_count": 239,
+    "forks_count": 23,
+    "language": "TypeScript",
+    "homepage": "https://barretlee.github.io/agent-pulse/",
+    "created_at": "2026-07-11T14:38:25Z",
+    "pushed_at": "2026-08-28T05:27:06Z",
+    "topics": [
+     "ai",
+     "ai-agents",
+     "ai-industry",
+     "ai-intelligence",
+     "ai-news",
+     "artificial-intelligence",
+     "evidence",
+     "fastify",
+     "github-actions",
+     "github-pages",
+     "industry-analysis",
+     "knowledge-graph",
+     "llm",
+     "open-source-intelligence",
+     "sqlite",
+     "timeline",
+     "typescript",
+     "weekly-report"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/daily-algorithms",
+    "description": "算法，每日练习",
+    "stargazers_count": 230,
+    "forks_count": 59,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-06-27T06:51:34Z",
+    "pushed_at": "2017-08-02T02:08:57Z",
+    "topics": [
+     "algorithms",
+     "daily-tasks",
+     "leetcode",
+     "leetcode-javascript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/blog",
+    "description": "Blog & Blog System",
+    "stargazers_count": 181,
+    "forks_count": 33,
+    "language": "HTML",
+    "homepage": "https://www.barretlee.com/",
+    "created_at": "2015-08-30T14:27:13Z",
+    "pushed_at": "2025-07-19T03:02:26Z",
+    "topics": [
+     "blog",
+     "blog-engine",
+     "blog-source",
+     "hexo"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/SuperMarker",
+    "description": "An automatic marking tool better than mark man.",
+    "stargazers_count": 149,
+    "forks_count": 19,
+    "language": "JavaScript",
+    "homepage": "http://barretlee.github.io/SuperMarker/",
+    "created_at": "2014-11-08T15:41:39Z",
+    "pushed_at": "2015-09-20T01:35:10Z",
+    "topics": [
+     "javascript",
+     "markdown",
+     "marker",
+     "markers",
+     "tool"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/chatgpt-text-to-midjourney-image",
+    "description": "Optimize the prompt using ChatGPT, then send it to Replicate to create an image.",
+    "stargazers_count": 148,
+    "forks_count": 24,
+    "language": "JavaScript",
+    "homepage": "https://text2image.awesome-chatgpt.top/",
+    "created_at": "2023-04-03T12:08:47Z",
+    "pushed_at": "2023-04-04T02:25:15Z",
+    "topics": [
+     "chatgpt",
+     "prompt",
+     "replicate"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/javascript-multiple-download",
+    "description": "JavaScript多文件下载",
+    "stargazers_count": 98,
+    "forks_count": 46,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-02-12T13:03:01Z",
+    "pushed_at": "2016-07-04T09:45:51Z",
+    "topics": [
+     "downloader",
+     "javascript",
+     "mutilple"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/lazyload",
+    "description": "Lazyload images or lazy execute scripts. （图片脚本懒加载）",
+    "stargazers_count": 88,
+    "forks_count": 34,
+    "language": "HTML",
+    "homepage": "https://barretlee.github.io/lazyload/demo/index.html",
+    "created_at": "2015-11-16T11:50:49Z",
+    "pushed_at": "2016-07-05T02:01:17Z",
+    "topics": [
+     "javascript",
+     "lazyload",
+     "lazyload-images",
+     "lazyload-script"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/autocreate-ca",
+    "description": "autocreate cetificate authority",
+    "stargazers_count": 64,
+    "forks_count": 31,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2016-04-23T15:27:07Z",
+    "pushed_at": "2016-04-23T17:43:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/babel-plugin-ast",
+    "description": "使用 babel 进行 AST 分析和处理",
+    "stargazers_count": 45,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-03-21T07:20:28Z",
+    "pushed_at": "2018-03-21T07:49:54Z",
+    "topics": [
+     "ast",
+     "babel-plugin",
+     "webpack"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "barretlee/myPromise",
+    "description": "promise",
+    "stargazers_count": 42,
+    "forks_count": 13,
+    "language": "JavaScript",
+    "homepage": "http://barretlee.github.io/myPromise/index.html",
+    "created_at": "2014-09-29T12:32:33Z",
+    "pushed_at": "2014-09-29T14:25:01Z",
+    "topics": [
+     "javascript",
+     "promise"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 68,
+  "languages": [
+   [
+    "JavaScript",
+    35
+   ],
+   [
+    "HTML",
+    13
+   ],
+   [
+    "Shell",
+    4
+   ],
+   [
+    "PHP",
+    2
+   ],
+   [
+    "VimL",
+    1
+   ],
+   [
+    "TypeScript",
+    1
+   ],
+   [
+    "AppleScript",
+    1
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "barretlee/agent-pulse",
+    "stargazerCount": 239,
+    "description": "Evidence-backed AI industry intelligence — trends, source updates, daily data refreshes, and weekly decision briefs.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://barretlee.github.io/agent-pulse/"
+   },
+   {
+    "nameWithOwner": "barretlee/cloudflare-proxy",
+    "stargazerCount": 878,
+    "description": "Cloudflare Worker 代理请求 ChatGPT API，支持 Stream 流式输出",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "barretlee/online-markdown",
+    "stargazerCount": 921,
+    "description": "A online markdown converter specially for Wechat Public formatting.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "http://md.barretlee.com/"
+   },
+   {
+    "nameWithOwner": "barretlee/kindleBookMaker",
+    "stargazerCount": 415,
+    "description": "Kindle Book Maker with KindleGen, Make Book from RSS/single URL/directory and so on.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "barretlee/blogChat",
+    "stargazerCount": 498,
+    "description": "Chat room source code for Barret Lee's Personal Blog.",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "http://www.barretlee.com/"
+   },
+   {
+    "nameWithOwner": "barretlee/autoconfig-mac-vimrc",
+    "stargazerCount": 510,
+    "description": "autoconfig mac vimrc with bundle",
+    "primaryLanguage": {
+     "name": "Vim Script"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 189,
+  "orgs": [
+   "jsteam",
+   "demo-platform",
+   "yuque"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "barretlee/agent-pulse": "<p align=\"right\">\n  <strong>English</strong> · <a href=\"README-zh-cn.md\">简体中文</a>\n</p>\n<p align=\"center\">\n</p>\n<h1 align=\"center\">Agent Pulse</h1>\n> **Evidence-backed AI industry intelligence for people who need to decide, not just keep up.** Agent Pulse turns official releases, research papers, capital moves, policy changes, and public propagation signals into traceable Events, evolving industry judgments, and explicit next signals.\n<p align=\"center\">\n  <a href=\"https://barretlee.github.io/agent-pulse/\"><strong>Open Agent Pulse</strong></a>\n  · <a href=\"https://github.com/barretlee/agent-pulse\"><strong>⭐ Star this repository</strong></a>\n  · <a href=\"README-zh-cn.md\"><strong>Read in Chinese</strong></a>\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/barretlee/agent-pulse/actions/workflows/ci.yml\"></a>\n  <a href=\"https://github.com/barretlee/agent-pulse/actions/workflows/data-refresh.yml\"></a>\n  <a href=\"https://github.com/barretlee/agent-pulse/actions/workflows/source-audit.yml\"></a>\n  <a href=\"https://github.com/barretlee/agent-pulse/releases/latest\"></a>\n  <a href=\"https://github.com/barretlee/agent-pulse\"></a>\n  <a href=\"LICENSE\"></a>\n</p>\n## From signal to decision\nAI has no shortage of news, feeds, or hot takes. What is scarce is a reliable way for investors, executives, founders, business leaders, and technical leaders to answer three questions:\n1. **What materially changed?** Not every announcement deserves a new view.\n2. **Why does it matter?** A fact becomes useful only when connected to an industry shift and the people it affects.\n3. **What would change the judgment?** Every durable view needs a next signal, counter-signal, or invalidation condition.\nAgent Pulse is built around that loop: observe broadly, publish selectively, preserve the evidence trail, and update a judgment only when the evidence changes.\nIf that is the kind of public intelligence infrastructure you want to exist, [star Agent Pulse](https://github.com/barretlee/agent-pulse). It helps more decision-makers and builders discover the project and is the clearest signal that the open version is worth maintaining.\n## Explore the product\n| Product surface | The question it answers | ",
+   "barretlee/cloudflare-proxy": "# cloudflare-proxy\n> 好多调用 ChatGPT 的客户端都是直接使用的 api.openai.com，这个接口很显然是访问不通的，好在有些良心作者还提供了一个自定义 API 域名的入口，在 Cloudflare Worker 上写了一个简单的代理，用起来顺手多了，省得我一直在本机挂全局代理。—— [Barret李靖](https://twitter.com/Barret_China/status/1642725620798087168)\n代理请求到 ChatGPT API，代码部署步骤：\n1. 注册并登录到 Cloudflare 账户\n2. 创建一个新的 Cloudflare Worker\n3. 将 [cloudflare-worker.js](./cloudflare-worker.js) 复制并粘贴到 Cloudflare Worker 编辑器中\n4. 保存并部署 Cloudflare Worker\n5. 在 Worker 详情页 -> Trigger -> Custom Domains 中为这个 Worker 添加一个自定义域名\n为啥需要第五步？因为直接使用 Cloudflare 的域名，依然无法访问。\n### 使用说明\nChatGPT 的 API 默认是非流式输出的，如果想让他变成流式输出，需要将 `payload.stream` 设置为 true，大部分的客户端都已经加上了这个参数。\nhttps://github.com/barretlee/cloudflare-proxy/blob/a7cf8ecfd3eed5c4d76f82f4f4387ed4ef39c6f3/cloudflare-worker.js#L36-L50\n### License\n[MIT](./LICENSE)\n",
+   "barretlee/online-markdown": "# Online Markdown Converter\nA online markdown converter specially for Wechat Public formatting.\n- Online Address: <http://md.barretlee.com/>\n- Issue & Suggestion: <https://github.com/barretlee/online-markdown/issues/new>\n### Changelog\n- 支持更换代码样式主题\n- 代码长度溢出时横向滚动\n### LICENSE\nMIT. Thanks for @Phodal.\n",
+   "barretlee/kindleBookMaker": "Kindle Book Maker\n---\n[中文文档](./README-zh.md)\nThis Project is aimed at creating a kindle book generator. Fetching data from internet, then combo all data to a mini `.mobi` book, what you have to do is just edit profiles and run build commands.\n### Project structure\nData comes in three way:\n- spider fetch a uri content, but you need to config the class the article's title and content\n- spider fetch a rss source\n- from local file\nHere is the structure of project: \nAfter preparing data, The program will filter some dirty data, and transfer remote file link to local file, that means it will download the resources.\nFinally, using [kindleGen](http://www.amazon.com/gp/feature.html?docId=1000765211) generate book. I had put the kindleGen file to [/bin/kindlegen](/bin/kindlegen), 28M.\n### Usage\nFirst, run this command:\n```bash\nchmod +x bin/**/kindlegen\n```\nTry a simple demo:\n```bash\ngit clone https://github.com/barretlee/kindleBookMaker.git;\ncd kindleBookMaker;\nnpm install;\nnode index;\nopen build/*.mobi;\n```\nThere are lots of function, simplify to three command.\n- generate from rss:\n```bash\nnode index --rss http://barretlee.com/rss2.xml\n# node index -r http://barretlee.com/rss2.xml\n```\n- generate from a uri，`-u URL titleQuery ContentQuery FilterRegExp`:\n```bash\nnode index --uri \\\n    http://www.barretlee.com/blog/2016/04/28/mini-query/ \\\n    .post-title \\\n    .post-content \\\n    /<div class=\"shit-spider\"[\\s\\S]+?<\\/div>/\n```\n- generate from local directory:\n```bash\nnode index --dirctory ./src/demo/\n# node index -d ./src/demo/\n```\nand three other arguments:\n- `--verbose`, `-v`, detail about kindle generation.\n- `--help`, `-h`, help.\n- `-push2kindle`, `-p`, push the builded `.mobi` file to your kindle.\n### Configure\n```javascript\nvar moment = require('moment');\nmodule.exports = {\n  // entry: './src/KF8-Demo',\n  entry: {\n    base: './src/KF8-Demo',\n    list: []\n  },\n  bookInfo: {\n    title: \"Barret Lee's Personal Website\",\n    lang: \"zh\",\n    creator: \"Barret Lee\",\n    copyright: \"Barret Lee\",\n    publisher: \"\",\n    coverImage: 'coverImage.png'\n  },\n  /*option*/\n  output: {\n    base: './build',\n    format: '[name]-' + moment().format('YYYYMMDD')\n  },\n  /*option for uri*/\n  si",
+   "barretlee/blogChat": "A Simple Chat System\n===\nIt's a simple chat system, can be inserted to anywhere.\nDemo: http://119.23.13.9:29231/\n### Usage\n```bash\ngit clone https://github.com/barretlee/blogChat.git\ncd blogChat;\nnpm i;\nnode index;\n```\n### Screenshot\n- Register Name：\n- Chat：\n### Changelog\n- execute code at client\n- limit msg length\n- whitelist of hostname\n- detect robot at server\n- detect robot at client\n- support custom username\n- support private chat\n- welcome new user\n### LICENSE\nMIT\nThanks for [socket.io](http://socket.io/).\n"
+  }
+ },
+ "apps": []
+}

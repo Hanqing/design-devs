@@ -1,0 +1,168 @@
+{
+ "name": "Alex Yang（himself65）",
+ "role": "Funda AI 创始工程师 · Node.js 核心成员 · Waku、Jotai 团队成员",
+ "title": "Alex Yang：一个在<em>开源社区</em>里长大的工程师",
+ "dek": "TA 2015 年注册 GitHub，十四岁在一台 MacBook Air 上开始学编程；高中写过 iOS 日记 App、Windows 待办应用和 Unity 小游戏，参加算法竞赛，还在洛谷做过三个月前端。大学时 TA 开始给 Node.js 核心贡献代码，成为 Node.js 核心成员；之后去了美国，先后在 Mask Network 实习，联合创办 Textea，任 AFFiNE 母公司 toeverything 的架构负责人，又做了 LlamaIndex 和 Better Auth 的创始工程师。现在 TA 在多伦多的 Funda AI 构建「AI 投资操作系统」，并开源了一套给 Agent 用的金融分析 Skill。",
+ "card": "Funda AI 创始工程师；前 LlamaIndex、Better Auth 创始工程师，Node.js、Waku、Jotai 成员，finance-skills 作者，多伦多。",
+ "location": "加拿大多伦多",
+ "updated": "2026-10-22",
+ "tags": ["Node.js", "React", "AI Agent", "开源", "金融分析"],
+ "links": [
+  {"label": "himself65.com", "url": "https://himself65.com"},
+  {"label": "GitHub：himself65", "url": "https://github.com/himself65"},
+  {"label": "Finance Skills", "url": "https://skills.himself65.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>个人主页「AI agent engineer, part time on open source. Interested in public market investment.」X 简介：「Engineer at @FundaAI building AI Invest OS. @nodejs @wakujs @jotaijs member.」",
+  "<strong>代表作：</strong>finance-skills（★3.4 千）、trade-skills、@llamaindex/workflow-core、jotai-ai、@textea/json-viewer、y-indexeddb；贡献 Node.js、Waku、Jotai、AFFiNE、BlockSuite、Better Auth。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 10,562 次、411 个公开仓库、粉丝 6,400；所属组织包括 nodejs、tc39、jotaijs、hexojs。",
+  "<strong>履历：</strong>Mask Network 实习（2021）→ Textea 联合创始人（2022）→ toeverything 架构负责人（2022–2023）→ LlamaIndex（2023–2025）→ Better Auth（2025–2026）→ Funda AI（2026–）。"
+ ],
+ "lead": "TA 的个人主页做成了一页 Unix 手册：「HIMSELF65(1) Personal Manual」。往下是一段段「经历」，每一段都是「founding software engineer」：LlamaIndex、Better Auth、Funda AI。这很像 TA 的成长方式：一边在大型开源项目里修 Bug，一边加入一家又一家早期公司，从第一行代码开始搭。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "AI Agent 工程师、开源贡献者"],
+     ["所在地", "加拿大多伦多"],
+     ["经历", "Mask Network 前端实习 → Textea 联合创始人 → toeverything 架构负责人 → LlamaIndex 创始工程师 → Better Auth 创始工程师 → Funda AI 创始工程师"],
+     ["开源身份", "Node.js、Waku、Jotai 成员"],
+     ["技术栈", "TypeScript、JavaScript、React、Node.js、Yjs / CRDT"],
+     ["个人站", "himself65.com（用 Waku 构建）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Alex 现在的两条线是 <strong>AI Agent 工程</strong>和<strong>投资</strong>。在 Funda AI，TA 参与构建 AI 投资操作系统；业余开源的 finance-skills 遵循 Agent Skills 开放标准，可以装进 Codex、Claude Code 等工具，用于市场分析和接入金融数据源。README 第一行就警告：仅供学习参考，不构成投资建议。"},
+    {"p": "TA 也用投资的眼光看技术：2026 年的一篇文章《JavaScript Market Analysis》从投资角度分析 JS 开发者市场。"},
+    {"note": "本页依据 himself65.com（主页与《My past decade》）、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。博客中的家庭内容未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2015", "title": "开始编程", "text": "14 岁注册 GitHub，用 C 和 Objective-C 写 iOS App。"},
+     {"when": "2016–2018", "title": "高中", "text": "机器人社获省二等奖；Swift 日记 App 获奖、UWP 待办应用上架 Windows 商店；参加算法竞赛，在洛谷做了三个月兼职前端，写了 VS Code 洛谷插件。"},
+     {"when": "2019–2020", "title": "Node.js", "text": "进入国内一所公立大学，开始给 Node.js 核心贡献代码并成为核心成员；2020 年离开大学，准备去美国读书。"},
+     {"when": "2021–2022", "title": "到美国与创业", "text": "在 Mask Network 实习做公钥认证；搬到美国；2022 年和一位教授联合创办 NLP 工具公司 Textea，获奇绩创坛种子投资。"},
+     {"when": "2022–2023", "title": "toeverything", "text": "任架构负责人，参与基于 CRDT 的类 Notion 应用 AFFiNE；之后成为 Jotai 成员。"},
+     {"when": "2023–2026", "title": "LlamaIndex 与 Better Auth", "text": "LlamaIndex 创始工程师，做 TypeScript 版和事件驱动的 workflow-core；2025 年加入 Better Auth。"},
+     {"when": "2026", "title": "Funda AI", "text": "在多伦多加入 Funda AI；发布 finance-skills、trade-skills、auth-spec。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "finance-skills", "url": "https://github.com/himself65/finance-skills",
+     "meta": ["2026", "Agent Skills", "★3.4 千"],
+     "paras": [
+      "一组用于金融分析和交易的 Agent Skill，按「市场分析」「数据源」等分组安装，文档与演示放在 skills.himself65.com。它把一个开源工程师对投资的兴趣，变成了别人可以直接装进 Agent 的工具。"
+     ],
+     "facts": [["GitHub", "★3,439 · ⑂388"]]
+    }},
+    {"work": {
+     "name": "@llamaindex/workflow-core", "url": "https://himself65.com",
+     "meta": ["LlamaIndex", "TypeScript"],
+     "paras": [
+      "面向 TypeScript Agent 的事件驱动工作流引擎。TA 在 LlamaIndex 期间负责 TypeScript 生态的核心工作。"
+     ]
+    }},
+    {"work": {
+     "name": "Node.js / Waku / Jotai", "url": "https://github.com/nodejs/node",
+     "meta": ["开源", "核心成员"],
+     "paras": [
+      "Node.js 是 TA 开源生涯的起点；Waku 是极简的 React 框架，支持 React 19 的服务端组件，TA 的个人站就是用它搭的；Jotai 是原子化的 React 状态管理库，TA 还写了 jotai-ai 和 jotai-lazy。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["trade-skills", "2026", "AI 交易 Skill（★463）"],
+      ["@textea/json-viewer", "2022", "React JSON 查看组件"],
+      ["@toeverything/y-indexeddb", "2022–2023", "Yjs 文档的 IndexedDB 持久化"],
+      ["npm-download-stat", "2024", "npm 下载量统计"],
+      ["learn-os", "2020", "操作系统学习指南"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://himself65.com", "paras": [
+     "首页模仿 Unix man page：标题「HIMSELF65(1) Personal Manual」，然后是 Experience、Projects、Contributed to、Writing 四节，支持深色模式。",
+     "博客只有四篇文章，但都很有分量：《My past decade》从中学生写到美国的软件工程师，《How to make your NPM package work?》讲怎样让 npm 包在 Node.js、Deno、Bun 等运行时都能用。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Waku + React，Vercel 托管"],
+      ["风格", "man page 式的极客排版"],
+      ["写作", "2024 年起，中英双语"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-04-06", "title": "JavaScript Market Analysis", "url": "https://himself65.com/blog"},
+     {"date": "2025-07-31", "title": "My past decade", "url": "https://himself65.com/blog/my-past-decade"},
+     {"date": "2024-04-18", "title": "How to make your NPM package work? (01)", "url": "https://himself65.com/blog"}
+    ]},
+    {"quote": "I became a Node.js core member, since I contributed a lot.", "cite": "Alex Yang，My past decade"},
+    {"p": "TA 的路径说明了开源的力量：没有名校光环，靠持续贡献成为 Node.js 核心成员，再一路进入最有活力的早期公司。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["开源", "长期深度参与多个顶级项目", "—"],
+      ["工程", "前端、运行时、CRDT、Agent 都有实战", "—"],
+      ["职业", "多次做创始工程师", "频繁换公司，单个项目周期较短"],
+      ["金融 Skill", "实用、标准化", "金融工具需用户自行判断风险"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从贡献开始：</strong>持续给大项目修 Bug，也能成为核心成员。",
+     "<strong>做早期工程师：</strong>从第一行代码开始，成长最快。",
+     "<strong>把兴趣变成工具：</strong>对投资的兴趣变成了 finance-skills。",
+     "<strong>写一篇十年回顾：</strong>看清自己是怎么走过来的。",
+     "<strong>个人站也能好玩：</strong>一页 man page 就够有辨识度。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "My past decade", "url": "https://himself65.com/blog/my-past-decade", "why": "从中学生到美国工程师的十年。"},
+     {"name": "finance-skills", "url": "https://skills.himself65.com", "why": "给你的 Agent 装上金融分析能力（非投资建议）。"},
+     {"name": "Waku", "url": "https://waku.gg", "why": "试试这个极简 React 框架。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "找一个你每天在用的开源项目，挑一个「good first issue」提交你的第一个 PR。",
+ "sources": [
+  {"label": "Alex Yang 的 X 个人资料", "url": "https://x.com/alexyang"},
+  {"label": "himself65.com", "url": "https://himself65.com"},
+  {"label": "My past decade", "url": "https://himself65.com/blog/my-past-decade"},
+  {"label": "GitHub：himself65", "url": "https://github.com/himself65"},
+  {"label": "himself65/finance-skills", "url": "https://github.com/himself65/finance-skills"}
+ ]
+}

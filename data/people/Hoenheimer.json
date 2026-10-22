@@ -1,0 +1,161 @@
+{
+ "name": "张子恒",
+ "role": "MagicTouch Studio 创始人 · 独立开发者 · 前锤子科技员工",
+ "title": "张子恒：一个 Flag 引出的<em>八款 App</em>",
+ "dek": "七年前，TA 所在的团队搞了个季度 Flag 机制，TA 写下的目标是「自己做出一款产品并上架 App Store」。季度结束时没完成，按规矩请大家吃了火锅；又过了两个月，订阅管理工具 Onebox（现名 Pandora）上线，后来被 App Store Today 推荐。此后 TA 陆续做了桌面小组件 WidgetArt、记账 App 图图记账、私密的两性生活日历 Aphrodite、观影记录 Apollo、RevenueCat 客户端 Hermes，以及 2026 年上线、半年就有十万用户的 AI 饮食与力量训练 App Orea。TA 曾在锤子科技工作，如今在北京经营自己的工作室 MagicTouch Studio。",
+ "card": "MagicTouch Studio 创始人；Pandora、图图记账、Aphrodite、Apollo、Orea 作者，前锤子科技，北京。",
+ "location": "中国北京",
+ "updated": "2026-10-22",
+ "tags": ["iOS", "独立开发", "产品设计", "健康", "工具 App"],
+ "links": [
+  {"label": "App Store：子恒 张", "url": "https://apps.apple.com/cn/developer/id1470560915"},
+  {"label": "Orea", "url": "https://apps.apple.com/cn/app/id6749298830"},
+  {"label": "X", "url": "https://x.com/Hoenheimer"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Founder of MagicTouch Studio. Creator of Aphrodite / Apollo」。",
+  "<strong>代表作：</strong>Orea（6,657 个评分 · 4.75）、图图记账（8,849 · 4.8）、WidgetArt（4,285 · 4.81）、Aphrodite（1,775 · 4.64）、Pandora（446 · 4.68，App Store Today 推荐）、Apollo、Hermes。",
+  "<strong>关键数字：</strong>Orea 2026 年 2 月上线、4 月开始推广，7 月底达到 10 万用户；名下 8 款 App；X 关注者约 7,000。",
+  "<strong>媒体推荐：</strong>App Store「新鲜 App」与「本周编辑推荐」，以及少数派、PriceTag、最美应用、极客公园、小众软件。"
+ ],
+ "lead": "Orea 上线前，TA 在 X 上发了一段演示：一碗胡辣汤的图标「多辣」。为了这个功能，团队准备了 500 多个食物图标；为了几个肌肉部位的图标，又花了很长时间，TA 说这是「同赛道最好的设计，没有之一」。对一个从锤子科技出来的人来说，这种对细节的执着并不意外。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者、产品设计者、工作室创始人"],
+     ["所在地", "中国北京"],
+     ["经历", "曾在锤子科技工作（据 X 自述）→ 2019 年发布第一款 App → 创办 MagicTouch Studio"],
+     ["代表作", "Orea、图图记账、WidgetArt、Aphrodite、Pandora、Apollo、Hermes"],
+     ["技术栈", "Swift、SwiftUI、Figma；用 Codex 辅助开发与数据录入"],
+     ["开源", "SwiftTips（每周更新的 Swift 开发技巧）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "张子恒做的是<strong>「记录类」工具</strong>：记录订阅、花销、看过的电影、亲密生活、饮食和训练。它们的共同点是界面精致、交互顺滑、尊重隐私，比如 Aphrodite 的所有数据只存在手机本地，可选 iCloud 同步。"},
+    {"p": "2026 年的 Orea 是 TA 目前最大的产品：拍一张照片，AI 识别食物热量和营养结构，并根据目标体重和最近的摄入与消耗动态调整每日建议；下半年又加入力量训练跟练和实时活动。团队在扩张，TA 也开始把更多时间放在增长和数据复盘上。"},
+    {"note": "本页依据 App Store 开发者页面与各 App 介绍、GitHub 和 X 公开推文整理，资料截至 2026 年 10 月。在锤子科技的具体职位未见公开说明，本页不作推断。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2016–2019", "title": "锤子科技与 Swift", "text": "注册 GitHub；据 X 自述曾在锤子科技工作；2019 年开始写 SwiftTips。"},
+     {"when": "2019.09", "title": "第一个 App", "text": "因为团队的 Flag 机制，发布订阅管理工具 Onebox（后改名 Pandora），获 App Store Today 推荐。"},
+     {"when": "2020–2022", "title": "工具矩阵", "text": "WidgetArt（2020，赶上 iOS 14 小组件）、图图记账（2021）、Aphrodite（2021）、Apollo（2022）、Hermes（2022）。"},
+     {"when": "2025", "title": "Stone Hunter", "text": "为新项目 Stone Hunter 发布隐私政策与使用条款页面。"},
+     {"when": "2026", "title": "Orea 与团队", "text": "1 月底上架 Orea，7 月达到 10 万用户；陆续招人，加入力量训练和饮食功能；规划 Aphrodite 3.0。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Orea", "url": "https://apps.apple.com/cn/app/id6749298830",
+     "meta": ["2026", "健康与健身", "AI"],
+     "paras": [
+      "拍照识别卡路里，结合目标体重、体重变化趋势和近期摄入消耗，动态调整每日推荐摄入；还有力量训练跟练、肌肉部位图标和锁屏实时活动。"
+     ],
+     "facts": [["App Store", "4.75 · 6,657 个评分"], ["用户", "10 万（2026 年 7 月，本人公布）"]]
+    }},
+    {"work": {
+     "name": "图图记账", "url": "https://apps.apple.com/cn/app/id1546356856",
+     "meta": ["2021", "财务"],
+     "paras": [
+      "简洁优雅的随手记账：自动记账、批量导入账单、资产管理、统计图表、分类预算和存钱目标。曾获 App Store「新鲜 App」栏目推荐。"
+     ],
+     "facts": [["App Store", "4.8 · 8,849 个评分"]]
+    }},
+    {"work": {
+     "name": "Aphrodite", "url": "https://apps.apple.com/cn/app/id1568289454",
+     "meta": ["2021", "健康", "隐私优先"],
+     "paras": [
+      "一款私密的两性生活日历，用日历和统计图表帮助用户了解自己的亲密关系记录。所有数据默认只存在本机。TA 在 X 上透露，新版本的功能都来自用户建议，3.0 版本正在设计中。"
+     ],
+     "facts": [["App Store", "4.64 · 1,775 个评分"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Pandora", "2019", "订阅管理助手，App Store Today 推荐"],
+      ["WidgetArt", "2020", "iOS 14 自定义桌面小组件（4.81 分）"],
+      ["Apollo", "2022", "记录看过的电影和剧集，支持导入豆瓣数据"],
+      ["Hermes", "2022", "第三方 RevenueCat 客户端，在手机上看订阅收入"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象研究",
+   "blocks": [
+    {"site": {"url": "https://x.com/Hoenheimer", "paras": [
+     "TA 没有个人网站，产品集中在 App Store，日常分享在 X：开发进度的录屏、设计细节、增长数据，以及直言不讳的吐槽，比如对抄袭者的不满（TA 说曾为明显侵权打了一年官司）。",
+     "TA 的推文很有个人风格：坦率、好斗、偶尔考据历史，也会认真推荐别人做的好 App。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["阵地", "App Store、X、小红书"],
+      ["风格", "坦率、重细节"],
+      ["节奏", "每年 1–2 款新 App 或大版本"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "这几个肌肉部位的 icon 费了我们好长时间，但当下的设计是我见过的同赛道最好的设计。", "cite": "张子恒，X（2026 年 8 月）"},
+    {"p": "TA 也在反思：一次和 GPT 的长谈后，对方建议 TA 每周只留一天专心做产品，其余时间去做增长。TA 说打算认真执行。对很多偏爱打磨产品的独立开发者来说，这都是一个熟悉的难题。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计", "细节考究，屡获推荐", "—"],
+      ["产品", "多款记录类 App 评分稳定", "早期工具用户规模有限"],
+      ["增长", "Orea 半年 10 万用户", "增长与打磨之间需要取舍"],
+      ["表达", "坦率真诚", "言辞有时较激烈"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>立一个能验证的 Flag：</strong>「上架一款 App」比「学习 iOS」更有用。",
+     "<strong>把图标当产品的一部分：</strong>500 个食物图标值得。",
+     "<strong>隐私优先：</strong>敏感数据只留在本地。",
+     "<strong>记录类 App 有长期价值：</strong>用户会一直用下去。",
+     "<strong>别只顾打磨：</strong>增长同样需要时间。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Orea", "url": "https://apps.apple.com/cn/app/id6749298830", "why": "拍一张饭菜照片试试。"},
+     {"name": "图图记账", "url": "https://apps.apple.com/cn/app/id1546356856", "why": "一款被反复推荐的记账 App。"},
+     {"name": "Pandora", "url": "https://apps.apple.com/cn/app/id1470560916", "why": "TA 的第一款 App。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "给自己立一个这个季度能完成的 Flag：做出一个小东西并发布它。",
+ "sources": [
+  {"label": "张张张子恒的 X 个人资料", "url": "https://x.com/Hoenheimer"},
+  {"label": "App Store 开发者：子恒 张", "url": "https://apps.apple.com/cn/developer/id1470560915"},
+  {"label": "App Store：Orea", "url": "https://apps.apple.com/cn/app/id6749298830"},
+  {"label": "GitHub：hoenheimer", "url": "https://github.com/hoenheimer"}
+ ]
+}

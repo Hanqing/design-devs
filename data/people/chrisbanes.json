@@ -1,0 +1,171 @@
+{
+ "name": "Chris Banes",
+ "role": "The Trade Desk 消费产品技术负责人 · 前 Google Android 开发者关系 · Haze 作者",
+ "title": "Chris Banes：Android 界面细节的<em>守门人</em>",
+ "dek": "他在 Google 的 Android 开发者关系团队待了近九年，主导了 AppCompat 和 Design Support Library 的工程工作，创造了从图片中提取配色的 Palette 库；在那之前，他写的 Android-PullToRefresh 和 PhotoView 是无数 App 的标配。离开 Google 后，他在 Twitter 带领 Android 客户端界面团队；现在在 The Trade Desk 用 Kotlin 多平台和 Compose 多平台构建 Ventura 电视系统的 Android、iOS 和电视客户端。业余时间，他维护 Compose 多平台的背景模糊库 Haze，还写了一套给 AI Agent 用的 Kotlin 与 Compose Skill。",
+ "card": "AppCompat、Design Support Library、Palette 工程负责人；Haze、Tivi、Android-PullToRefresh 作者，英国巴斯。",
+ "location": "英国巴斯",
+ "updated": "2026-10-22",
+ "tags": ["Android", "Jetpack Compose", "Kotlin 多平台", "开源", "UI 细节"],
+ "links": [
+  {"label": "chrisbanes.me", "url": "https://chrisbanes.me"},
+  {"label": "GitHub：chrisbanes", "url": "https://github.com/chrisbanes"},
+  {"label": "Haze", "url": "https://chrisbanes.github.io/haze/"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「Helping developers build through libraries, tools, and sharing what I learn.」GitHub 自述：「我也在意精致的界面：转场、滚动和那些细小的交互细节。」",
+  "<strong>代表作：</strong>AppCompat、Design Support Library、Palette；开源 Android-PullToRefresh（★8.6 千）、Cheesesquare（★7.6 千）、Tivi（★6.7 千）、Haze（★2.6 千）、Insetter、skills（★1.1 千）。",
+  "<strong>关键数字：</strong>GitHub 粉丝 1.9 万、近一年贡献 4,336 次；X 关注者约 5.3 万；博客 98 篇文章。",
+  "<strong>经历：</strong>Google Android 开发者关系近九年 → Twitter Android 客户端界面团队负责人 → The Trade Desk。"
+ ],
+ "lead": "2024 年 11 月，Chris 宣布他维护了约九年的开源追剧 App Tivi「完成」了：刚发布 1.0，他没有时间也没有意愿再继续开发；另外，他不愿意按照 Google Play 新的开发者验证流程公开个人信息，于是账号被限制，他把 iOS 版也一并下架了。他在 README 里写：「C'est la vie.」Tivi 依然是学习现代 Android 架构最好的开源项目之一，只是作者决定把它留在那里。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、开源作者、技术博主"],
+     ["所在地", "英国巴斯"],
+     ["经历", "Google Android 开发者关系（近九年）→ Twitter Client UI Android 团队负责人 → The Trade Desk 消费产品技术负责人"],
+     ["Google 作品", "AppCompat、Design Support Library 工程负责人；Palette 作者"],
+     ["开源", "Haze、Tivi、Insetter、Snapper、Cheesesquare、Android-PullToRefresh、PhotoView"],
+     ["技术栈", "Kotlin、Jetpack Compose、Compose Multiplatform、Java、Swift"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Chris 的工作始终围绕<strong>让 Android（现在是多平台）界面更精致</strong>。Haze 是他现在最主要的开源项目：为 Compose 多平台提供硬件加速的视觉效果，覆盖 Android、iOS、macOS、桌面和 Web。2026 年的 Haze 2.0 把模糊做成可插拔的效果引擎，加入了基于折射的「Glass」效果，并实验性地支持 Android 原生背景模糊。"},
+    {"p": "他也在思考 AI 编程。2025 年底的长文《The Disappearing Middle》担心：新人靠提示词完成实现，资深工程师又把同样的工作交给 Agent，软件行业的「学徒阶梯」就被自动化掉了。2026 年他发布了给 Agent 用的 Kotlin、Compose 与 Android Skill，并写了《Not every agent task needs a plan》。"},
+    {"note": "本页依据 chrisbanes.me（文章与 RSS）、GitHub 个人 README 与各项目 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011–2013", "title": "成名的开源库", "text": "Android-PullToRefresh、ActionBar-PullToRefresh、Android-BitmapCache、photup 和 gradle-mvn-push，成为早期 Android 开发的常用组件。"},
+     {"when": "Google 时期", "title": "AppCompat 与 Design Library", "text": "加入 Google Android 开发者关系团队，近九年里主导 AppCompat 与 Design Support Library 工程，创造 Palette；2015 年用 Cheesesquare 演示新发布的 Design 库。"},
+     {"when": "2017", "title": "Tivi", "text": "开始开发追剧 App Tivi，作为现代 Android 架构的开源样板，后来扩展到 iOS。"},
+     {"when": "2021", "title": "成为前 Google 人", "text": "发表《Becoming a Xoogler》，离开 Google；之后带领 Twitter 的 Android 客户端界面团队。"},
+     {"when": "2021–2023", "title": "Compose 布道", "text": "写《Always provide a Modifier parameter》《Slotting in with Compose UI》《Composable metrics》；2023 年发布 Haze，并开始写给 Compose 开发者的 SwiftUI 系列。"},
+     {"when": "2024", "title": "Haze 1.0 与 Tivi 完结", "text": "11 月发布 Haze 1.0；12 日宣布 Tivi 完成并停止维护。"},
+     {"when": "2025–2026", "title": "Trade Desk 与 AI", "text": "在 The Trade Desk 构建 Ventura TV OS 客户端；发布 Haze 2.0、skills 仓库，写 AI 编程与学徒制的文章。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Haze", "url": "https://github.com/chrisbanes/haze",
+     "meta": ["2023–", "Compose 多平台", "★2.6 千"],
+     "paras": [
+      "最初是 Compose 的实时背景模糊，后来成为一个视觉效果引擎：Haze 2 的模块化 API 支持基于背景或自身内容的模糊、折射驱动的玻璃效果和自定义效果。当 Compose 官方推出渐进模糊 API 后，他专门写了一篇文章解释两者的关系，以及什么时候仍然需要 Haze。"
+     ],
+     "facts": [["GitHub", "★2,617"], ["状态", "Haze 2.0 Beta"]]
+    }},
+    {"work": {
+     "name": "AppCompat、Design Support Library 与 Palette", "url": "https://android-developers.googleblog.com/2015/05/android-design-support-library.html",
+     "meta": ["Google", "Jetpack 前身"],
+     "paras": [
+      "AppCompat 让 Material Design 能在旧版 Android 上运行；Design Support Library 带来了悬浮按钮、Snackbar、折叠工具栏和 NavigationView；Palette 从图片中提取主色，让界面随内容变色。这几样东西塑造了 2014 年后 Android App 的样子。"
+     ]
+    }},
+    {"work": {
+     "name": "Tivi", "url": "https://github.com/chrisbanes/tivi",
+     "meta": ["2017–2024", "Kotlin", "★6.7 千"],
+     "paras": [
+      "一个连接 Trakt.tv 的追剧 App，也是许多人学习 Kotlin、协程、Compose 和多平台架构的参考项目。2024 年发布 1.0 后宣布「完成」并归档。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["skills", "2026", "给 Agent 用的 Kotlin、Compose、Android 与写作 Skill（★1.1 千）"],
+      ["Android-PullToRefresh", "2011", "下拉刷新组件（★8.6 千，已归档）"],
+      ["Cheesesquare", "2015", "Design 库演示（★7.6 千）"],
+      ["Insetter", "2019", "更轻松地处理 WindowInsets"],
+      ["Snapper", "2021", "Compose 的吸附滑动"],
+      ["philm", "2014", "电影收藏与信息 App"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://chrisbanes.me", "paras": [
+     "首页一句话定位，下面是最近的文章，每篇标注阅读时长和一句摘要。还有 Talks 页面，收录他关于 Haze 等主题的技术演讲。",
+     "文章长期聚焦 Compose 的具体问题（Modifier 参数、插槽、指标、视差、状态保留），近两年加入了 AI Agent 工作流和个人自动化，比如用 Agent 把网购订单邮件接进记账软件。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "静态站，Cloudflare 托管"],
+      ["内容", "Compose 实践、Haze 发布、AI 编程反思"],
+      ["节奏", "约 100 篇，2026 年月更"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-20", "title": "Not every agent task needs a plan", "url": "https://chrisbanes.me/posts/not-every-agent-task-needs-a-plan/"},
+     {"date": "2026-09-22", "title": "Haze 2.0", "url": "https://chrisbanes.me/posts/haze-2.0.0/"},
+     {"date": "2026-09-13", "title": "Compose has progressive blur. Do you still need Haze?", "url": "https://chrisbanes.me/posts/compose-progressive-blur/"},
+     {"date": "2025-12-29", "title": "The Disappearing Middle: How AI Coding Tools Are Breaking Software Apprenticeship", "url": "https://chrisbanes.me/posts/disappearing-middle-ai-software-apprenticeship/"},
+     {"date": "2025-02-13", "title": "Should you use Kotlin Sequences for Performance?", "url": "https://chrisbanes.me/posts/use-sequence/"}
+    ]},
+    {"quote": "We've essentially automated away the apprenticeship ladder itself.", "cite": "Chris Banes，The Disappearing Middle"},
+    {"p": "他不是反对 AI 工具，而是认为它们「系统性地不擅长知道自己什么时候错了」。他的建议是：只把可以验证的任务交给 Agent，有意识地把「学习发生的那部分工作」留给人。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响", "参与塑造了 Android 的 UI 基础库", "—"],
+      ["开源", "持续维护、文档完善", "多个老项目已归档"],
+      ["技术", "Compose 与多平台的一线经验", "—"],
+      ["写作", "具体、有立场，也敢写反思", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>在意细节：</strong>转场、滚动和小交互决定了 App 的质感。",
+     "<strong>项目可以「完成」：</strong>Tivi 到了 1.0，就体面地结束。",
+     "<strong>官方出了新 API，就说清关系：</strong>Haze 和渐进模糊的那篇文章是好榜样。",
+     "<strong>只把能验证的工作交给 Agent：</strong>学习的部分留给自己。",
+     "<strong>开源是帮助开发者的方式：</strong>库、工具和分享。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "The Disappearing Middle", "url": "https://chrisbanes.me/posts/disappearing-middle-ai-software-apprenticeship/", "why": "关于 AI 与学徒制的冷静思考。"},
+     {"name": "Haze", "url": "https://chrisbanes.github.io/haze/", "why": "给 Compose 界面加上玻璃效果。"},
+     {"name": "Tivi", "url": "https://github.com/chrisbanes/tivi", "why": "一个完整的现代 Android 架构样板。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "这周把一个你本来想交给 Agent 的小任务自己做一遍，看看能学到什么。",
+ "sources": [
+  {"label": "Chris Banes 的 X 个人资料", "url": "https://x.com/chrisbanes"},
+  {"label": "chrisbanes.me", "url": "https://chrisbanes.me"},
+  {"label": "GitHub：chrisbanes", "url": "https://github.com/chrisbanes"},
+  {"label": "chrisbanes/tivi README", "url": "https://github.com/chrisbanes/tivi"},
+  {"label": "Android Design Support Library（Android Developers Blog）", "url": "https://android-developers.googleblog.com/2015/05/android-design-support-library.html"}
+ ]
+}

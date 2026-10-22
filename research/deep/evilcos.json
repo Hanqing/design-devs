@@ -1,0 +1,316 @@
+{
+ "handle": "evilcos",
+ "sites": [],
+ "github": {
+  "login": "evilcos",
+  "user": {
+   "name": "evilcos",
+   "company": "xeyeteam",
+   "blog": "https://evilcos.me",
+   "location": null,
+   "bio": "//:ALERT(/HACKING SYMBOL/)//余弦，慢雾(@slowmist)",
+   "public_repos": 18,
+   "followers": 6317,
+   "created_at": "2011-09-19T05:36:51Z",
+   "twitter_username": "evilcos",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "evilcos/papers",
+    "description": "my open papers",
+    "stargazers_count": 2239,
+    "forks_count": 503,
+    "language": null,
+    "homepage": null,
+    "created_at": "2014-08-17T13:44:31Z",
+    "pushed_at": "2022-10-30T05:41:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/xssor2",
+    "description": "XSS'OR - Hack with JavaScript.",
+    "stargazers_count": 2218,
+    "forks_count": 380,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-06-25T06:32:10Z",
+    "pushed_at": "2021-12-12T09:58:05Z",
+    "topics": [
+     "csrf",
+     "encoding",
+     "hack",
+     "hacking-tool",
+     "pentest",
+     "pentest-tool",
+     "probe",
+     "xss"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/darkhandbook",
+    "description": "Update by evilcos, for DarkHandBook.io",
+    "stargazers_count": 873,
+    "forks_count": 76,
+    "language": null,
+    "homepage": null,
+    "created_at": "2023-01-07T03:36:55Z",
+    "pushed_at": "2025-12-13T06:01:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/xssor",
+    "description": "XSSOR：方便XSS与CSRF的工具，http://evilcos.me/lab/xssor/",
+    "stargazers_count": 466,
+    "forks_count": 134,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-04-23T08:28:44Z",
+    "pushed_at": "2017-06-25T08:31:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/cookiehacker",
+    "description": "Chrome extension, very easy to use. Cookies from: JavaScript document.cookie/Wireshark Cookies etc.",
+    "stargazers_count": 459,
+    "forks_count": 184,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-10-10T07:29:36Z",
+    "pushed_at": "2021-12-12T09:58:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/crawlers",
+    "description": "Some crawlers u know it:-)",
+    "stargazers_count": 338,
+    "forks_count": 146,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2016-11-25T08:01:19Z",
+    "pushed_at": "2016-11-30T06:07:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/xss.swf",
+    "description": "a tiny tool for swf hacking, just browse it:)",
+    "stargazers_count": 243,
+    "forks_count": 81,
+    "language": null,
+    "homepage": null,
+    "created_at": "2013-03-12T10:40:08Z",
+    "pushed_at": "2013-03-13T00:06:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/xssprobe",
+    "description": "xss probe to steal page info: browser, ua, lang, referer, location, toplocation, cookie, domain, title, screen, flash, etc.",
+    "stargazers_count": 230,
+    "forks_count": 84,
+    "language": "JavaScript",
+    "homepage": "evilcos.me",
+    "created_at": "2012-02-16T07:51:23Z",
+    "pushed_at": "2021-12-12T09:59:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/python-webshell",
+    "description": "webshell writen in python",
+    "stargazers_count": 153,
+    "forks_count": 84,
+    "language": null,
+    "homepage": "",
+    "created_at": "2012-02-04T13:31:04Z",
+    "pushed_at": "2020-10-01T05:03:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/vscode_tasks_command_execute_poc",
+    "description": "Arbitrary command execution on Open Folder via .vscode/tasks.json",
+    "stargazers_count": 57,
+    "forks_count": 8,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2026-01-15T03:16:30Z",
+    "pushed_at": "2026-01-19T01:32:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/storage-inspector",
+    "description": "A powerful Chrome extension for security researchers to inspect and edit localStorage, sessionStorage, and Cookies.",
+    "stargazers_count": 36,
+    "forks_count": 8,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-12-13T05:47:42Z",
+    "pushed_at": "2025-12-13T05:49:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/clonegithubstar",
+    "description": "Easy to git clone the stars of somebody to local backup.",
+    "stargazers_count": 15,
+    "forks_count": 1,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2018-12-11T03:49:20Z",
+    "pushed_at": "2018-12-11T03:51:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/aircombat_webgame",
+    "description": "A tiny air combat web game by ai ide with agents.md.",
+    "stargazers_count": 14,
+    "forks_count": 2,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2025-12-27T13:33:54Z",
+    "pushed_at": "2025-12-27T14:05:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/bip39mrc",
+    "description": "BIP39 Mnemonic Recovery Calculator",
+    "stargazers_count": 8,
+    "forks_count": 3,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2024-09-18T12:41:36Z",
+    "pushed_at": "2024-12-22T07:24:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/slowmist-agent-security",
+    "description": ":D",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-03-18T13:07:30Z",
+    "pushed_at": "2026-03-23T14:46:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/evilcos",
+    "description": "About me:~)",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-01-13T01:50:52Z",
+    "pushed_at": "2026-04-27T02:58:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "evilcos/nextjs-contentlayer",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://nextjs-contentlayer-tawny.vercel.app",
+    "created_at": "2023-05-25T09:35:51Z",
+    "pushed_at": "2023-10-07T02:01:46Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 17,
+  "languages": [
+   [
+    "JavaScript",
+    5
+   ],
+   [
+    "HTML",
+    3
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "TypeScript",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "evilcos/papers",
+    "stargazerCount": 2239,
+    "description": "my open papers",
+    "primaryLanguage": null,
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "slowmist/openclaw-security-practice-guide",
+    "stargazerCount": 2849,
+    "description": "This guide is designed for OpenClaw itself (Agent-facing), not as a traditional human-only hardening checklist.",
+    "primaryLanguage": {
+     "name": "Shell"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "evilcos/darkhandbook",
+    "stargazerCount": 873,
+    "description": "Update by evilcos, for DarkHandBook.io",
+    "primaryLanguage": null,
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "slowmist/Blockchain-dark-forest-selfguard-handbook",
+    "stargazerCount": 6864,
+    "description": "Blockchain dark forest selfguard handbook. Master these, master the security of your cryptocurrency.",
+    "primaryLanguage": null,
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "evilcos/xssor2",
+    "stargazerCount": 2218,
+    "description": "XSS'OR - Hack with JavaScript.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "slowmist/slowmist-agent-security",
+    "stargazerCount": 510,
+    "description": "SlowMist Agent Security Skill: A comprehensive security review framework for AI agents operating in adversarial environments. Core principle: Every external input is untrusted until verified.",
+    "primaryLanguage": null,
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 55,
+  "orgs": [
+   "web2hack",
+   "joinsec",
+   "slowmist"
+  ],
+  "profile_readme": "# Who am I\nA hacker. Curious about everything interesting, including computers, AI, and everyday life:)\n\nTo me, a true hacker needs to possess at least two core abilities: the ability to discover 0days and the ability to engineer hacking solutions. This is a lifelong pursuit of mine.\n\nHACK TO CREARTE.\n",
+  "readmes": {
+   "evilcos/papers": "Papers\n======\nMy open papers. Enjoy:smiley:\n1. Blockchain dark forest selfguard handbook https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook\n2. Web 前端黑客技术揭秘 https://web2hack.org\n3. My blog: https://evilcos.me, it is history.\nBe a nice hacker.\nTwitter: [@evilcos](https://twitter.com/evilcos)<br>\nEmail: evilcos@gmail.com\n",
+   "slowmist/openclaw-security-practice-guide": "# OpenClaw Security Practice Guide\n[](https://github.com/openclaw/openclaw)\n[](https://opensource.org/licenses/MIT)\n[](#)\n*Read this in other languages: [English](README.md), [简体中文](README_zh-CN.md).*\nA definitive security practice guide designed specifically for **High-Privilege Autonomous AI Agents** (OpenClaw). It shifts the paradigm from traditional \"host-based static defense\" to \"Agentic Zero-Trust Architecture\", effectively mitigating risks like destructive operations, prompt injection, supply chain poisoning, and high-risk business logic execution.\n⚠️Before you start playing, please read the disclaimer and FAQ at the bottom.<br>\n⚠️Before you start playing, please read the disclaimer and FAQ at the bottom.<br>\n⚠️Before you start playing, please read the disclaimer and FAQ at the bottom.\n## 🎯 Scope, Scenario & Core Principles\n> **This guide is designed for OpenClaw itself (Agent-facing), not as a traditional human-only hardening checklist.**  \n> In practice, you can send this guide directly to OpenClaw in chat, let it evaluate reliability, and deploy the defense matrix with minimal manual setup.\n> **Important boundary:** This guide does **not** make OpenClaw “fully secure.”  \n> Security is a complex systems engineering problem, and absolute security does not exist.  \n> This guide is built for a specific threat model, scenario, and operating assumptions.  \n> **Final responsibility and last-resort judgment remain with the human operator.**\n### Target Scenario\n- OpenClaw runs with high privileges (terminal/root-capable environment)\n- OpenClaw continuously installs and uses Skills / MCPs / scripts / tools\n- The objective is capability maximization with controllable risk and explicit auditability\n### Core Principles\n1. **Zero-friction operations**: reduce manual security setup burden for users and keep daily interactions seamless, except when hitting a guideline-defined red line  \n2. **High-risk requires confirmation**: irreversible or sensitive actions must pause for human approval  \n3. **Explicit nightly auditing**: all core metrics are reported, including healthy ones (no silent pass)  \n4. **Zero-Trust by default**: assume prompt injection, supply chain poiso",
+   "evilcos/darkhandbook": "# 黑手册(DarkHandBook)\nUpdate by evilcos, for DarkHandBook.io\nBlockchain dark forest selfguard handbook<br>\n*Master these, master the security of your cryptocurrency.<br>*\n:fire:Website: https://darkhandbook.io/<br>\n:cn:中文版：[《区块链黑暗森林自救手册》](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md)<br>\n## 扩展阅读，持续更新...\n这里会列一些我个人总结的、围绕黑手册的扩展阅读，基本都会是 Twitter Thread 形式。\n安全审计时总会 Spec Coding 一些辅助工具，这里开源 Storage Inspector<br>\nhttps://x.com/evilcos/status/1999720785485922457\n😈更新：区块链加密资产追踪手册 Crypto Asset Tracing Handbook<br>\nhttps://x.com/evilcos/status/1998364130466767058\n一笔钓鱼签名确认，Owner 被改，目标用户损失 300 万美金资产<br>\nhttps://x.com/evilcos/status/1996176649612882364\nGMGN 账号模式下的一些安全问题<br>\nhttps://x.com/evilcos/status/1983192656709857721<br>\nhttps://x.com/evilcos/status/1984589834615505181<br>\nhttps://x.com/evilcos/status/1984812963694526914<br>\nhttps://x.com/haze0x/status/1988217009335922861\nx402 支付协议小测试<br>\nhttps://x.com/evilcos/status/1982343697036677212\n扑克牌奇偶随机数生成助记词的安全性<br>\nhttps://x.com/evilcos/status/1980972155501453797\n漏洞小解析：Abracadabra(MIM) 工程管理混乱，条件判断里的关键变量被非预期覆盖<br>\nhttps://x.com/evilcos/status/1975438468219326502\n私钥风险：用 Google/Apple 方式登录 MetaMask，其助记词/私钥，包括之后导入的会被加密上传到 MetaMask 旗下的服务器里<br>\nhttps://x.com/evilcos/status/1974129285368840341\nPendle 大户“玩鹰被啄”，合约存在任意调用漏洞，导致授权资产被盗<br>\nhttps://x.com/evilcos/status/1973313212281135268\nSolana 钓鱼预执行欺骗，篡改用户账号 owner 地址<br>\nhttps://x.com/evilcos/status/1972539076097331346\n安全小考题：找出一个 Rug Pull 项目的一笔资金来源，与 Stargate/Layerzero 跨链细节有关<br>\nhttps://x.com/evilcos/status/1972272831078752421\n利用了 Safe Multi Send 机制 + 前端劫持完成对特定用户的授权钓鱼攻击<br>\nhttps://x.com/evilcos/status/1966327275902972126\n攻击 Venus 大户的黑客，假 Zoom + Venus 协议利用<br>\nhttps://x.com/evilcos/status/1963250077146776003<br>\nhttps://x.com/evilcos/status/1962834677871583256\nEIP-7702 delegate 恶意合约利用，玩家 $WLFI 被盗事件<br>\nhttps://x.com/evilcos/status/1962534941901902057\n100 万美金一笔被钓，涉及 5 个 token，原理是 EIP-7702 利用<br>\nhttps://x.com/evilcos/status/1958826172424626410\n😈区块链加密资产追踪手册 Crypto Asset Tracing Handbook<br>\nhttps://x.com/evilcos/status/1956219995014475906\nTelegram 盗号流程做得越来越方便用户被盗号了…<br>\nhttps://x.com/evilcos/status/1949705260752150998\n假 Zoom 会议钓鱼非常疯狂，好几个受害者上当都是因为感觉实在",
+   "slowmist/Blockchain-dark-forest-selfguard-handbook": "Blockchain dark forest selfguard handbook<br>\n*Master these, master the security of your cryptocurrency.<br>*\n:fire:Website: https://darkhandbook.io/<br>\n:cn:中文版：[《区块链黑暗森林自救手册》](README_CN.md)<br>\n:jp:日本語版：[ブロックチェーンのダークフォレストにおける自己防衛のためのハンドブック](README_JP.md)<br>\n:kr:한국어 버전: [블록체인 다크 포레스트 셀프가드 핸드북](README_KR.md)<br>\n:saudi_arabia:اللغة العربية: [دليل النجاة في الغابة المظلمة للبلوكتشين](README_AR.md)<br>\n:indonesia:Versi Indonesia: [Buku Panduan menjaga diri didalam \"dark forest\"](README_ID.md)<br>\nAuthor: Cos@SlowMist Team<br>\nContact me: Twitter ([@evilcos](https://twitter.com/evilcos)), Jike App (@余弦.jpg)\nTranslator: \n>[Alphatu](https://twitter.com/Alphatu4) | C. | [CJ](https://twitter.com/0xnjars) | [JZ](https://twitter.com/scorpionzhang) | [Lovepeace](https://twitter.com/lovepeace_53) | [Neethan](https://mobile.twitter.com/neethanverse) | [pseudoyu](https://twitter.com/pseudo_yu) | [SassyPanda](https://twitter.com/sassypandacap) | ss | [XL](https://twitter.com/leixing0309)\nProofreader:\n>[SassyPanda](https://twitter.com/sassypandacap) | [JZ](https://twitter.com/scorpionzhang) | [Neethan](https://mobile.twitter.com/neethanverse) | [Alphatu](https://twitter.com/Alphatu4) | [pseudoyu](https://twitter.com/pseudo_yu)\n:anchor:**Contents**\n- [Prologue](#prologue)\n- [A Diagram](#a-diagram)\n  - [Create A Wallet](#create-a-wallet)\n    - [Download](#download)\n    - [Mnemonic Phrase](#mnemonic-phrase)\n    - [Keyless](#keyless)\n  - [Back up your wallet](#back-up-your-wallet)\n    - [Mnemonic Phrase / Private Key](#mnemonic-phrase--private-key)\n    - [Encryption](#encryption)\n  - [How to use Your Wallet](#how-to-use-your-wallet)\n    - [AML](#aml)\n    - [Cold Wallet](#cold-wallet)\n    - [Hot Wallet](#hot-wallet)\n    - [What is DeFi Security](#what-is-defi-security)\n    - [NFT Security](#nft-security)\n    - [BE CAREFUL With Signing!](#be-careful-with-signing)\n    - [Be CAREFUL With Counter-intuitive Signatures Requests!](#be-careful-with-counter-intuitive-signatures-requests)\n    - [Some Advanced Attacking Methodologies](#some-advanced-attacking-methodologies)\n  - [Traditional Privacy Protection](#traditional-privacy-protection)\n    - [Operation System](#operation-system)\n    -",
+   "evilcos/xssor2": "# XSS'OR\nXSS'OR - Hack with JavaScript.\n## ONLINE\nYou can have a try:\nhttps://xssor.io and http://xssor.io/\nIt contains three major modules: Encode/Decode, Codz, Probe.\n## INSTALL\nPython 3 with Django 3.0.* or Python 2 with Django 1.11.*\n* git clone https://github.com/evilcos/xssor2 or download directly\n* cd xssor2\n* modify xssor/payload/probe.js\n```javascript\nxssor.cmd_url = location.protocol + '//xssor.io/cmd'; // replace xssor.io to your domain or ip address\n```\n* pip3/pip install -r requirement.txt\n* python3/python manage.py runserver 0.0.0.0:8000\nBrowser http://[yourip]:8000 to enjoy.\nIf you want to deploy it with Nginx, you can use uWSGI.\nIf you want to delete probe automatically, you can use crontab to this script file(xssor/probeclear.py).\nTry it by yourself.\n## DOCKER\nYou can build this project with docker\n```bash\ndocker build -t xssor:latest .\n```\nRun the app with\n```bash\ndocker run -d -p [port]:8000 xssor:latest [probe domain or ip]\n```\n## CHANGELOG\n```\nUPDATE: 2020/07/28\n*. Increase support for docker.\nUPDATE: 2020/02/05\n*. Compatible with Python 2 and Python 3.\n*. Compatible with Django 1.11.* and Django 3.0.*.\n*. Fix some bugs.\nUPDATE: 2018/07/29\n*. Compatible with HTTP and HTTPS.\nUPDATE: 2017/09/23\n*. Upgrade JS BEAURIFY.\n*. Fix PACKER/UNPACKER error bug.\nUPDATE: 2017/08/20\n*. Increase support for mobile more friendly.\nUPDATE: 2017/08/13\n*. Fix Probe bug to file:// protocol.\n*. Fix Probe bug in mobile app while without cookie.\n*. Improve Probe Status.\nUPDATE: 2017/05/07\n*. Encode/Decode, enhanced.\n*. Codz, enhanced.\n*. Probe, free to try.\n*. Complete rewriting with Python, Django, Bootstrap, jQuery, ...\n*. Independent domain: xssor.io.\n```\nBE EVIL, DON'T BE BAD.\n"
+  }
+ },
+ "apps": []
+}

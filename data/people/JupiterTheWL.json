@@ -1,0 +1,172 @@
+{
+ "name": "术士木星（Jupiter The Warlock）",
+ "role": "独立游戏设计师与开发者 · Game Jam 常客 · AI 原生游戏开发",
+ "title": "术士木星：AI 接管低维，<em>人类专注高维</em>",
+ "dek": "一位在广州做独立游戏的设计师兼开发者，GitHub 自我介绍是「AI Native 的独立游戏开发者」，主力是 C# / Unity，也用 Godot。TA 是 Game Jam 常客：Global Game Jam 2024 的《咸鱼不想死》获得广州站投票第四，2025 年做了 2–4 人手柄联机的《石油之王》，2026 年在 CiGA Game Jam 做了锚定陨石甩飞船的《你抛不过我你信吗？》。同时，TA 把游戏开发经验做成给 AI Agent 用的 Skill：Godot 知识库、游戏设计方法论，以及一套用 AI 做游戏配乐的工作流。",
+ "card": "《咸鱼不想死》《石油之王》《AAA 下水道清理大王》作者；godot-game-dev-skill、Pixel Cosmos Studio 开发者，广州。",
+ "location": "中国广州",
+ "updated": "2026-10-22",
+ "tags": ["独立游戏", "Game Jam", "Unity", "Godot", "Agent Skill"],
+ "links": [
+  {"label": "jupiterthewarlock.com", "url": "https://jupiterthewarlock.com/zh-CN/"},
+  {"label": "itch.io", "url": "https://jupiter-the-warlock.itch.io/"},
+  {"label": "GitHub：JupiterTheWarlock", "url": "https://github.com/JupiterTheWarlock"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「独立游戏制作人 & 设计师，持续发布 AI 游戏开发 Demo / 原型 / 实验，分享开发经验、工具与踩坑记录，互联网大活人」。",
+  "<strong>代表作：</strong>《AAA 下水道清理大王》《你抛不过我你信吗？》《矩形之巢》《野食狂想曲》《咸鱼不想死》《石油之王》；工具 Pixel Cosmos Studio、godot-game-dev-skill、game-design-skill、llm-wiki-cli。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 5,986 次、47 个公开仓库；个人网站四种语言；2025 年 2 月注册 X。",
+  "<strong>座右铭：</strong>网站页脚写着「杀死旧自我，成为新人类」。"
+ ],
+ "lead": "很多关于「AI 原生游戏」的讨论，一开始就想偏了：好像 AI 原生就意味着让 AI 生成整个世界、接管所有角色。术士木星的看法正好相反，GitHub 首页写着：「AI 接管低维，人类专注高维。」让 AI 去做重复、低层次的工作，比如查文档、出素材、搭排行榜；人负责玩法、手感和那个让人记住的点子。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立游戏设计师、开发者"],
+     ["所在地", "中国广州（GitHub 写作「肠粉国」）"],
+     ["学校", "GitHub 资料显示为中山大学"],
+     ["引擎", "Unity（C#）、Godot（GDScript）"],
+     ["工具链", "Cursor、Claude、Rider、n8n、Cloudflare"],
+     ["发布平台", "itch.io、哔哩哔哩、知乎、机核、MakerWorld"],
+     ["个人网站", "简中、繁中、英文、日文四语"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "术士木星同时做两件事：一是<strong>高频参加 Game Jam、快速做原型</strong>，把一个荒诞点子在 48 小时里变成能玩的游戏；二是<strong>把游戏开发知识喂给 AI</strong>，做成 Claude Code 和 Codex 可以直接安装的 Skill 和插件。"},
+    {"p": "TA 的 GitHub 里也有大量「为活动服务」的小工程：CiGA Game Jam 2026 的组队大厅（Cloudflare Pages + D1 + R2）、比赛排行榜、早期验证原型；以及一个离职前帮你清理个人敏感数据的「跑路.skill」。"},
+    {"note": "本页依据 jupiterthewarlock.com、itch.io、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2021", "title": "注册 GitHub", "text": "开始写 Unity 与 Web 小项目。"},
+     {"when": "2024", "title": "《咸鱼不想死》", "text": "Global Game Jam 2024 作品，获广州攻壳站投票第四。"},
+     {"when": "2025", "title": "《石油之王》与 X", "text": "Global Game Jam 2025 作品，2–4 人本地手柄联机；2 月开始在 X 分享 AI 游戏开发。"},
+     {"when": "2026 上半年", "title": "Skill 与 Jam 工具", "text": "GGJ 2026 作品；发布 godot-game-dev-skill、跑路.skill；为 CiGA Game Jam 2026 做组队大厅和排行榜。"},
+     {"when": "2026 下半年", "title": "工具与配乐", "text": "game-design-skill、Pixel Cosmos Studio（Godot 像素 / 体素星球生成器）、AI 游戏配乐工作流；发布《AAA 下水道清理大王》。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "AAA 下水道清理大王", "url": "https://games.jupiterthewarlock.com/aaa-sewer-king/?lang=zh-CN",
+     "meta": ["2026", "网页游戏"],
+     "paras": [
+      "「弹珠清污，收工升级，再下一口井。」用弹珠清理下水道，赚钱升级，然后挑战下一口井。名字里的「AAA」是独立开发者的自嘲。"
+     ]
+    }},
+    {"work": {
+     "name": "你抛不过我你信吗？", "url": "https://jupiterthewarlock.com/zh-CN/",
+     "meta": ["2026", "CiGA Game Jam 广州站"],
+     "paras": [
+      "一款街机游戏：把飞船锚定在陨石上，绕着它旋转充能，然后甩出去加速。核心就是一个手感很好的动作。"
+     ]
+    }},
+    {"work": {
+     "name": "Pixel Cosmos Studio", "url": "https://github.com/JupiterTheWarlock/PixelCosmosStudio",
+     "meta": ["2026", "Godot 4 工具"],
+     "paras": [
+      "生成像素 / 体素 3D 星球与像素星空，导出给游戏用。延续 PixelPlanets / PixelSpace 的色板和图层思路并扩展到三维：8 类星球预设、云层与星环、动态循环动画导出为 PNG 帧序列，还能「复制动态实现说明」直接交给工程接入。界面支持中英切换。"
+     ]
+    }},
+    {"work": {
+     "name": "godot-game-dev-skill", "url": "https://github.com/JupiterTheWarlock/godot-game-dev-skill",
+     "meta": ["2026", "Claude Code 插件"],
+     "paras": [
+      "以 Godot 官方文档为首要依据，支持在线查 docs.godotengine.org 或离线查本地文档，覆盖 GDScript、C#、着色器、UI、物理、网络、导出和性能，并加了一层轻量的 Game Jam 原型护栏。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["咸鱼不想死", "2024", "GGJ 2024，广州攻壳站投票第四"],
+      ["石油之王", "2025", "GGJ 2025，2–4 人手柄本地联机"],
+      ["野食狂想曲", "—", "东汉末年荒诞生存题材"],
+      ["矩形之巢 + 分形之巢 + 矩形之墓 + 茧 + 天空匣", "—", "一组实验性空间作品"],
+      ["game-design-skill", "2026", "从 Claude-Code-Game-Studios 提炼的游戏设计方法"],
+      ["ai-game-music-workflow", "2026", "用 AI 做可复用的游戏音乐动机与场景编曲"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://jupiterthewarlock.com/zh-CN/", "paras": [
+     "网站分为游戏、工具、探索、笔记、联系五块，每个游戏一句话介绍，链接到 itch.io 或网页版；「笔记」直接链接到 X 上的长帖。四种语言切换，说明 TA 在面向海外玩家。",
+     "联系方式一栏列出了 X、GitHub、itch.io、MakerWorld、B 站、知乎和机核，覆盖了游戏、3D 打印和中文社区。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Cloudflare 托管，素材放在 R2"],
+      ["结构", "作品优先，笔记外链到 X"],
+      ["语言", "简中、繁中、英文、日文"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026", "title": "用 AI 零基础做出像《小丑牌》一样的游戏配乐", "url": "https://x.com/JupiterTheWL/status/2100813911104872633"},
+     {"date": "2026", "title": "AI 原生游戏不是让 AI 接管世界", "url": "https://x.com/JupiterTheWL/status/2064052795721085254"}
+    ]},
+    {"quote": "我一直很羡慕那些一听就能认出来的游戏音乐。画面都不用出现，前几个音一响，玩过的人就知道是哪款游戏。", "cite": "术士木星，《用 AI 零基础做出像〈小丑牌〉一样的游戏配乐》"},
+    {"p": "TA 的思路是先做出一个可以反复变奏的音乐动机，再让 AI 按场景编排，让整款游戏的音乐「听得出是同一款」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["原型", "Jam 节奏快，点子多", "多数作品停留在 Jam 版本"],
+      ["工具", "把经验沉淀成 Skill 和工具", "仓库关注度还很低"],
+      ["社区", "积极组织和服务本地 Game Jam", "—"],
+      ["公开信息", "作品与过程透明", "个人背景资料很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>多参加 Game Jam：</strong>限时逼出点子和取舍。",
+     "<strong>让 AI 做低维的事：</strong>查文档、搭工具、出素材。",
+     "<strong>把经验做成 Skill：</strong>下次的自己和别人都能用。",
+     "<strong>为社区造工具：</strong>组队大厅、排行榜都是贡献。",
+     "<strong>游戏要有能被记住的声音：</strong>先做一个音乐动机。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "AAA 下水道清理大王", "url": "https://games.jupiterthewarlock.com/aaa-sewer-king/?lang=zh-CN", "why": "在浏览器里直接玩。"},
+     {"name": "itch.io 作品页", "url": "https://jupiter-the-warlock.itch.io/", "why": "历年 Game Jam 作品合集。"},
+     {"name": "godot-game-dev-skill", "url": "https://github.com/JupiterTheWarlock/godot-game-dev-skill", "why": "让你的 Agent 更懂 Godot。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "报名下一场 Game Jam，48 小时做一个只有一个核心动作的游戏。",
+ "sources": [
+  {"label": "术士木星的 X 个人资料", "url": "https://x.com/JupiterTheWL"},
+  {"label": "jupiterthewarlock.com", "url": "https://jupiterthewarlock.com/zh-CN/"},
+  {"label": "itch.io：Jupiter The Warlock", "url": "https://jupiter-the-warlock.itch.io/"},
+  {"label": "GitHub：JupiterTheWarlock", "url": "https://github.com/JupiterTheWarlock"}
+ ]
+}

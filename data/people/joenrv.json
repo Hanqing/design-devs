@@ -1,0 +1,168 @@
+{
+ "name": "Joaquim Vergès",
+ "role": "Nebula / Agent Labs 创始人 · Falcon Pro 作者 · 前 Twitter、Twitch、thirdweb 工程师",
+ "title": "Joaquim Vergès：从第三方 <em>Twitter 客户端</em>到 Agent 工作区",
+ "dek": "他是 Android 圈的老牌独立开发者：做过备受欢迎的 Twitter 客户端 Falcon Pro 和 Hacker News 阅读器 Hacked。Falcon 撞上了 Twitter 给第三方应用设的 10 万用户上限，他想尽办法绕过限制；2015 年，Twitter 干脆把他招进 Android 核心界面团队。之后他在 Twitch、thirdweb 工作，写过链上游戏 Ethrone 和 Kotlin 多平台框架 Helium。现在他在旧金山做 Nebula：一个让团队成员和 AI Agent 在同一组频道里协作的工作区。",
+ "card": "Nebula（Agent Labs）创始人；Falcon Pro、Hacked、Ethrone 作者，前 Twitter、Twitch、thirdweb，旧金山。",
+ "location": "美国旧金山",
+ "updated": "2026-10-22",
+ "tags": ["Android", "Kotlin", "AI Agent", "Web3", "独立开发"],
+ "links": [
+  {"label": "Nebula", "url": "https://nebula.gg"},
+  {"label": "GitHub：joaquim-verges", "url": "https://github.com/joaquim-verges"},
+  {"label": "Medium", "url": "https://joenrv.medium.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Building @NebulaAi - prev @thirdweb @Twitch, @X. Author of @ethronegame, @falcon_android, @hacked_app. Love @starcraft.」GitHub 简介「AI whisperer」。",
+  "<strong>代表作：</strong>Nebula、Bugpatrol（★143）、Falcon Pro、Hacked、Ethrone、Helium（★337）、ProjectorAndroidStudio（★355）、DeeplabAndroid。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 5,273 次；Nebula iOS 版 2026 年 3 月上架，评分 4.81；X 关注者约 1.1 万。",
+  "<strong>语言：</strong>据 Computerworld 2015 年的采访，他日常用英语、法语和西班牙语打字。"
+ ],
+ "lead": "2015 年，Falcon 的用户数到了 10 万，Twitter 停止了它的新用户登录：这是官方给第三方客户端设的令牌上限。Joaquim 想了一连串变通办法，推出了 Falcon Pro 3。几个月后，Twitter 宣布聘请他加入官方 Android 核心界面团队。他当时说：「我想做一个拥有完整 API 和现代界面的杀手级官方 App。」十年后，他在做的仍是「人和信息流」的产品，只是这一次，频道里多了 AI Agent。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "工程师、独立开发者、创业者"],
+     ["所在地", "美国旧金山"],
+     ["经历", "独立开发 Falcon / Hacked → Twitter Android 核心界面团队（2015）→ Twitch → thirdweb → Agent Labs / Nebula"],
+     ["开源", "Bugpatrol、Helium、ProjectorAndroidStudio、DeeplabAndroid、Twitter4K、blockchain-mcp"],
+     ["技术栈", "Kotlin、Android、TypeScript、Solidity"],
+     ["爱好", "《星际争霸》"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Nebula 自称「agent-native workspace」：频道里既有同事，也有 Agent；你写的、说的、展示的都会被记住，并可以主动触发工作。工程师把编码交给 Claude Code 和 Codex，销售和市场把调研和邮件交给 Nebula 自己的 Agent；它还能旁听团队会议，记住决定并开始跟进。Mac、Windows、Linux、iPhone 和 Android 都有客户端。"},
+    {"p": "同一家公司开源的 Bugpatrol 是一支由 Agent 组成的 QA 团队：探索者 Agent 像测试员一样使用 App，裁判 Agent 判断哪些是真 Bug，修复者 Agent 在独立的 git 工作树里写修复，再回到运行中的 App 复测，最后为每个修复开 PR。"},
+    {"note": "本页依据 nebula.gg（首页与博客）、GitHub 仓库与 README、App Store、Computerworld（2015）与 Android Authority 的报道和 X 资料整理，资料截至 2026 年 10 月。他在 Twitch 与 thirdweb 的具体职位未找到第三方报道，以本人简介为准。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2009–2013", "title": "Android 独立开发", "text": "2009 年注册 Twitter；做 Twitter 客户端 Falcon 和 Hacker News 阅读器 Hacked。"},
+     {"when": "2013–2015", "title": "撞上令牌上限", "text": "Falcon 达到 10 万用户后被 Twitter 停止新用户登录；他尝试多种变通，2015 年初发布 Falcon Pro 3。"},
+     {"when": "2015", "title": "加入 Twitter", "text": "8 月宣布加入 Twitter Android 核心界面团队。"},
+     {"when": "Twitter 之后", "title": "Twitch 与开源", "text": "据个人简介曾在 Twitch 工作；2018–2021 年间开源 Kotlin 多平台框架 Helium、实时图像分割 Demo、在 iPad 上跑 Android Studio 的 Projector 指南。"},
+     {"when": "2022 前后", "title": "thirdweb 与 Ethrone", "text": "在 Web3 开发平台 thirdweb 工作，做链上游戏 Ethrone、NFT 质押合约和 React 示例；2025 年写了让大模型执行链上操作的 MCP 服务器。"},
+     {"when": "2026", "title": "Nebula", "text": "以 Agent Labs 名义推出 Nebula，3 月上架 iOS；开源 Bugpatrol。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Nebula", "url": "https://nebula.gg",
+     "meta": ["2026", "全平台", "Agent 工作区"],
+     "paras": [
+      "「Your team. Your agents. One workspace.」核心理念是「多人协作」：Agent 和同事在同一个频道里工作，任何人都能看到它在做什么，发现不对时随时接手。官网博客写多 Agent 编排模式和「什么是 Agent 原生工作区」。"
+     ],
+     "facts": [["App Store", "4.81 · v1.7.0"]]
+    }},
+    {"work": {
+     "name": "Falcon Pro", "url": "https://www.androidauthority.com/twitter-hires-developer-of-falcon-pro-632358/",
+     "meta": ["2012–2015", "Android", "Twitter 客户端"],
+     "paras": [
+      "以简洁的界面和流畅的手势在 Android 用户中走红，也成了 Twitter 第三方客户端政策下最著名的「受害者」之一。他后来说，会继续把 Falcon 当作实验场，在那里尝试新想法，「没有大公司的迟缓」。"
+     ]
+    }},
+    {"work": {
+     "name": "Helium", "url": "https://github.com/joaquim-verges/Helium",
+     "meta": ["2018–2022", "Kotlin 多平台", "★337"],
+     "paras": [
+      "「如果做一个 App 就像拼乐高一样简单呢？」一个轻量、直观的 Android / iOS 框架，提供核心类、Jetpack Compose 集成、UI 组件和导航组件。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Bugpatrol", "2026", "由探索者、裁判、修复者 Agent 组成的自动化 QA（★143）"],
+      ["Hacked", "—", "Hacker News 阅读器"],
+      ["Ethrone", "2022", "链上「争夺王座」游戏"],
+      ["ProjectorAndroidStudio", "2020", "用 JetBrains Projector 在任何设备上运行 Android Studio（★355）"],
+      ["DeeplabAndroid", "2019", "CameraX + Deeplab v3 实时图像分割"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://nebula.gg", "paras": [
+     "Nebula 官网用一个可交互的工作区示意图讲产品：左侧频道列表（allhands、design、eng、gtm……），中间是 Nebula 发来的每周反馈摘要，右侧是 Agent 列表和任务。文案短促：「Say it once.」「Everyone sees. Anyone steers.」",
+     "他没有独立个人网站，X 主页的所在地写着「localhost:3000」，这是程序员的玩笑。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel 托管"],
+      ["内容", "产品演示 + 多 Agent 编排博客"],
+      ["个人站", "无，Medium 上有早期文章"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-16", "title": "Multi-agent orchestration patterns: a practical field guide", "url": "https://nebula.gg/blog"},
+     {"date": "2026-10-14", "title": "What is an agent-native workspace?", "url": "https://nebula.gg/blog"},
+     {"date": "2020", "title": "How to run Android Studio on any device with JetBrains Projector", "url": "https://joenrv.medium.com/how-to-run-android-studio-on-any-device-with-jetbrains-projector-3d9d23a8c179"}
+    ]},
+    {"quote": "I want to make a killer official app with full API and a modern UI.", "cite": "Joaquim Vergès，2015 年加入 Twitter 时（Computerworld 引述）"},
+    {"p": "Nebula 博客的观点是：一个接入了 Agent 的聊天 App，并不等于为 Agent 设计的工作区。当 Agent 成为频道里的正式成员，可见性和随时接手就变得最重要。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "多次做出用户喜爱的客户端", "—"],
+      ["适应力", "Android → 直播 → Web3 → AI，一直跟着前沿走", "方向切换频繁"],
+      ["开源", "框架与指南实用", "多数仓库已停止维护"],
+      ["Nebula", "全平台、理念清晰", "赛道竞争激烈，仍处早期"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>平台限制也能变成机会：</strong>被限流的第三方客户端作者被官方招安。",
+     "<strong>保留一个实验场：</strong>在自己的 App 里试大公司不敢试的东西。",
+     "<strong>跟着前沿走：</strong>每一波新技术都亲手做点东西。",
+     "<strong>让 Agent 的工作可见：</strong>所有人都能看到、都能接手。",
+     "<strong>用 Agent 测 Agent：</strong>QA 也可以交给一支 Agent 团队。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Nebula", "url": "https://nebula.gg", "why": "体验人和 Agent 共用的工作区。"},
+     {"name": "Bugpatrol", "url": "https://github.com/agent-labs-dev/bugpatrol", "why": "让 Agent 帮你找 Bug、修 Bug、开 PR。"},
+     {"name": "Twitter hires the developer of Falcon Pro", "url": "https://www.androidauthority.com/twitter-hires-developer-of-falcon-pro-632358/", "why": "一段第三方客户端的历史。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你的项目上跑一次 Bugpatrol，看看 Agent 找到的第一个 Bug 是什么。",
+ "sources": [
+  {"label": "Joaquim 的 X 个人资料", "url": "https://x.com/joenrv"},
+  {"label": "Nebula", "url": "https://nebula.gg"},
+  {"label": "GitHub：joaquim-verges", "url": "https://github.com/joaquim-verges"},
+  {"label": "How I use Android: Joaquim Vergès（Computerworld，2015）", "url": "https://www.computerworld.com/article/1629557/how-i-use-android-joaquim-verges.html"},
+  {"label": "Twitter hires developer of Falcon Pro（Android Authority）", "url": "https://www.androidauthority.com/twitter-hires-developer-of-falcon-pro-632358/"},
+  {"label": "App Store：Nebula AI", "url": "https://apps.apple.com/us/app/nebula-ai/id6757687588"}
+ ]
+}

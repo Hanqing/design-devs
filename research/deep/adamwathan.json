@@ -1,0 +1,457 @@
+{
+ "handle": "adamwathan",
+ "sites": [
+  {
+   "url": "https://tailwindcss.com",
+   "ok": true,
+   "title": "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.",
+   "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
+   "stack": [
+    "Next.js",
+    "Webflow",
+    "Tailwind CSS",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "v 4.3 \n ⌘K Ctrl K Docs Play Blog Showcase Partners Plus \n text-4xl text-5xl text-6xl text-8xl text-gray-950 text-white tracking-tighter text-balance \nRapidly build modern websites without ever leaving your HTML. \ntext-lg text-gray-950 text-white font-medium \nA utility-first CSS framework packed with classes like flex , pt-4 , text-center and rotate-90 that can be composed to build any design, directly in your markup. \n Get started \n Get started Quick search ⌘ K Ctrl K \n < div class = \"flex flex-col items-center rounded-2xl\" > < div > < img class = \"size-48 shadow-xl \" alt = \"\" src = \"/img/cover.png\" /> </ div > < div class = \"flex \" > < span > Class Warfare </ span > < span > The Anti-Patterns </ span > < span class = \"flex \" > < span > No. 4 </ span > < span > · </ span > < span > 2025 </ span > </ span > </ div > </ div > \n Class Warfare The Anti-Patterns No. 4 · 2025 \ntext-4xl text-gray-950 text-white tracking-tighter text-balance \nSponsors \nSupported by the best. \ntext-base text-gray-950 text-white \nTailwind is supported by incredible partners and sponsors who make it possible for a team of talented designers and engineers to maintain the framework full-time. \n Become a sponsor \ntext-4xl text-gray-950 text-white tracking-tighter text-balance \nWhy Tailwind CSS? \nBuilt for the modern web. \ntext-base text-gray-950 text-white \nTailwind is unapologetically modern, and takes advantage of all the latest and greatest CSS features to make the developer experience as enjoyable as possible. \n Responsive design \nOkay, it’s not exactly cutting edge, but just throw a screen size in front of literally any utility to apply it at a specific breakpoint. \nMobile \nsm \nmd \nlg \nxl \n Entire house Beach House on Lake Huron Entire house \n Beach House on Lake Huron 2.66 (128 reviews) · Bayfield, ON \n Check availability \nThis sunny and spacious room is for those traveling light and looking for a comfy and cozy place to lay their head for a night... Show more Show more \n Check availability \n Filters \nWhat’s a website these days without a few backdrop blurs? Keep stacking filters until your designer asks you to please, please stop. \nblur-sm \nbrightness-150 \ngrayscale \ncontrast-150 \nsaturate-200 \nsepia \n Dark mode \nIf you’re not a fan of burning your retinas, just stick dark: in front of any color to apply it in dark mode. \n CSS variables \nCustomizing your theme is as simple as creating a few CSS variables. \n @theme { --font-sans : \"Inter\" , sans-serif ; --font-mono : \"IBM Plex Mono\" , monospace ; --text-tiny : 0.625 rem ; --text-tiny--line-height : 1.5 rem ; --color-mint-100 : oklch ( 0.97 0.15 145 ); --color-mint-200 : oklch ( 0.92 0.18 145 ); --color-mint-300 : oklch ( 0.85 0.22 145 ); --color-mint-400 : oklch ( 0.78 0.25 145 ); --color-mint-500 : oklch ( 0.7 0.28 145 ); --color-mint-600 : oklch ( 0.63 0.3 145 ); --color-mint-700 : oklch ( 0.56 0.32 145 ); --color-mint-800 : oklch ( 0.48 0.35 145 ); --color-mint-900 : oklch ( 0.4 0.37 145 ); --color-mint-950 : oklch ( 0.3 0.4 145 ); } \n P3 colors \nThe color palette now uses more vibrant wide gamut colors without you needing to understand what any of that even means. \nred \norange \namber \nyellow \nlime \ngreen \nemerald \nteal \ncyan \nsky \nblue \nindigo \nviolet \npurple \nfuchsia \npink \nrose \n950 \n900 \n800 \n700 \n600 \n500 \n400 \n300 \n200 \n100 \n50 \n CSS grid layout \nUsing grid utilities directly in your HTML makes it so much easier to reason about complex layouts. \nBrowse properties \n Treehouses \n Mansions \n Lakefront cottages \n Designer homes \n Transitions and animations \nTransitions that work the way you'd expect — throw a few utilities on an element and you're in business. \n transition duration-750 linear \n transition duration-750 ease-out \n transition duration-750 ease-in-out \n transition duration-750 ease-in \n Cascade layers \nTailwind uses CSS layers so you don’t have to worry about specificity issues. \n @layer theme , base , components , utilities ; @layer theme { :root { /* Your theme variables */ } } @layer base { /* Preflight styles */ } @layer components { /* Your custom components */ } @layer utilities { /* Your utility classes */ } \n Logical properties \nSupporting multiple language text directions is no longer a nightmare. \nltr \nrtl \n Will Winton Director of Operations \n Kristin Yardly Marketing Coordinator \n Emanual Cuccittini Staff Engineer \n Kiara Smith VP of Engineering \n سارة أحمد مديرة مشاريع \n علي محمد مطور برمجيات \n خالد عمر مصمم واجهات المستخدم \n Container queries \nTag an element a",
+   "github_links": [
+    "tailwindlabs"
+   ],
+   "subpages": {
+    "https://tailwindcss.com/blog": "v 4.3 \n ⌘K Ctrl K Docs Play Blog Showcase Partners Plus \nLatest Updates \nAll the latest Tailwind CSS news, straight from the team. \n Subscribe \nSeptember 9, 2026 \nSeptember 9, 2026 Tailwind Labs is joining Shopify \nBig one today — Tailwind is joining Shopify. When I started working on Tailwind over nine years ago, my only goal was to create something that would make it easier to build beautiful interfaces for my own projects. Read more \nMay 8, 2026 \nMay 8, 2026 Tailwind CSS v4.3: Scrollbars, new colors, and more \nTailwind CSS v4.3 is here with first-party scrollbar styling, even more logical property utilities, new zoom and tab-size utilities, better @variant support, and all the v4.2 stuff we shipped while forgetting blogs existed. Read more \nJuly 25, 2025 \nJuly 25, 2025 Vanilla JavaScript support for Tailwind Plus \nThere are a lot of UI blocks in Tailwind Plus that need JavaScript to really be useful, like dialogs, dropdowns, command palettes, and more. And unless you're a React or Vue user, using those UI blocks has always meant writing all of that tricky JavaScript yourself. Well today that finally changes — every UI block in Tailwind Plus is now fully functional, accessible, and interactive, including the plain HTML examples. Read more \nMay 14, 2025 \nMay 14, 2025 Compass: A starter kit for online courses \nI've been itching to get back into screencasting and teaching lately, and the natural first step was to build our own course platform. So we just released Compass , a Next.js starter kit for publishing your own online course. Read more \nApril 3, 2025 \nApril 3, 2025 Tailwind CSS v4.1: Text shadows, masks, and tons more \nI wasn't sure it would ever happen but we did it — we released a version of Tailwind CSS that includes text shadow utilities. Tailwind CSS v4.1 is here and it's packed with improvements that will help you (or your LLM, you coward) build even better interactive experiences. Read more \nMarch 4, 2025 \nMarch 4, 2025 Tailwind UI is now Tailwind Plus \nWe just shipped a huge rebrand project, turning what was previously known as Tailwind UI into Tailwind Plus. Tailwind Plus is the all same high-quality resources you know from Tailwind UI, but with all-new possibilities and potential. Read more \nJanuary 22, 2025 \nJanuary 22, 2025 Tailwind CSS v4.0 \nWe just released Tailwind CSS v4.0 — an all-new version of the framework optimized for performance and flexibility, with a reimagined configuration and customization experience, and taking full advantage of the latest advancements the web platform has to offer. Read more \nNovember 21, 2024 \nNovember 21, 2024 Tailwind CSS v4.0 Beta 1 \nAbout eight months ago we open-sourced our progress on Tailwind CSS v4.0. Hundreds of hours of fixing bugs, soul-crushing backward compatibility work, and troubleshooting Windows CI failures later, I'm excited to finally tag the first public beta release. Read more \nSeptember 12, 2024 \nSeptember 12, 2024 Radiant: A beautiful new marketing site template \nOver th"
+   },
+   "feed": {
+    "url": "https://tailwindcss.com/feeds/feed.xml",
+    "count_seen": 63,
+    "items": [
+     {
+      "title": "Tailwind Labs is joining Shopify",
+      "date": "Wed, 09 Sep 2026 13:15:00",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify"
+     },
+     {
+      "title": "Tailwind CSS v4.3: Scrollbars, new colors, and more",
+      "date": "Fri, 08 May 2026 20:00:00",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v4-3"
+     },
+     {
+      "title": "Vanilla JavaScript support for Tailwind Plus",
+      "date": "Fri, 25 Jul 2025 14:30:00",
+      "url": "https://tailwindcss.com/blog/vanilla-js-support-for-tailwind-plus"
+     },
+     {
+      "title": "Compass: A starter kit for online courses",
+      "date": "Wed, 14 May 2025 19:00:00",
+      "url": "https://tailwindcss.com/blog/2025-05-14-compass-course-starter-kit"
+     },
+     {
+      "title": "Tailwind CSS v4.1: Text shadows, masks, and tons more",
+      "date": "Thu, 03 Apr 2025 20:00:00",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v4-1"
+     },
+     {
+      "title": "Tailwind UI is now Tailwind Plus",
+      "date": "Tue, 04 Mar 2025 16:00:00",
+      "url": "https://tailwindcss.com/blog/tailwind-plus"
+     },
+     {
+      "title": "Tailwind CSS v4.0",
+      "date": "Wed, 22 Jan 2025 22:00:00",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v4"
+     },
+     {
+      "title": "Tailwind CSS v4.0 Beta 1",
+      "date": "Thu, 21 Nov 2024 18:30:00",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v4-beta"
+     },
+     {
+      "title": "Radiant: A beautiful new marketing site template",
+      "date": "Thu, 12 Sep 2024 10:30:00",
+      "url": "https://tailwindcss.com/blog/2024-09-12-radiant-a-beautiful-new-marketing-site-template"
+     },
+     {
+      "title": "Headless UI v2.1: Simplified transition API and improved multi-dialog support",
+      "date": "Fri, 21 Jun 2024 15:00:00",
+      "url": "https://tailwindcss.com/blog/2024-06-21-headless-ui-v2-1"
+     },
+     {
+      "title": "Automatically clean up whitespace and duplicate class names",
+      "date": "Fri, 31 May 2024 16:30:00",
+      "url": "https://tailwindcss.com/blog/2024-05-30-prettier-plugin-collapse-whitespace"
+     },
+     {
+      "title": "Catalyst: Application layouts, navigation menus, description lists, and more",
+      "date": "Fri, 24 May 2024 20:00:00",
+      "url": "https://tailwindcss.com/blog/2024-05-24-catalyst-application-layouts"
+     },
+     {
+      "title": "Headless UI v2.0 for React",
+      "date": "Tue, 07 May 2024 16:00:00",
+      "url": "https://tailwindcss.com/blog/headless-ui-v2"
+     },
+     {
+      "title": "We're hiring a Design Engineer + Staff Engineer",
+      "date": "Tue, 19 Mar 2024 18:00:00",
+      "url": "https://tailwindcss.com/blog/hiring-a-design-engineer-and-staff-engineer"
+     },
+     {
+      "title": "Open-sourcing our progress on Tailwind CSS v4.0",
+      "date": "Wed, 06 Mar 2024 16:30:00",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v4-alpha"
+     },
+     {
+      "title": "Introducing Catalyst: A modern UI kit for React",
+      "date": "Wed, 20 Dec 2023 20:00:00",
+      "url": "https://tailwindcss.com/blog/introducing-catalyst"
+     },
+     {
+      "title": "Tailwind CSS v3.4: Dynamic viewport units, :has() support, balanced headlines, subgrid, and more",
+      "date": "Tue, 19 Dec 2023 17:45:00",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v3-4"
+     },
+     {
+      "title": "Heroicons Micro: What are these, icons for ants?",
+      "date": "Mon, 18 Dec 2023 16:30:00",
+      "url": "https://tailwindcss.com/blog/heroicons-micro"
+     },
+     {
+      "title": "Meet Studio: Our beautiful new agency site template",
+      "date": "Mon, 07 Aug 2023 10:30:00",
+      "url": "https://tailwindcss.com/blog/2023-08-07-meet-studio-our-new-agency-template"
+     },
+     {
+      "title": "Tailwind Connect 2023: Recap of our first in-person event",
+      "date": "Wed, 19 Jul 2023 17:00:00",
+      "url": "https://tailwindcss.com/blog/2023-07-18-tailwind-connect-2023-recap"
+     },
+     {
+      "title": "New changelog template + the biggest Tailwind UI update ever",
+      "date": "Mon, 24 Apr 2023 14:00:00",
+      "url": "https://tailwindcss.com/blog/2023-04-24-new-changelog-template-and-the-biggest-tailwind-ui-update-ever"
+     },
+     {
+      "title": "Tailwind CSS v3.3: Extended color palette, ESM/TS support, logical properties, and more",
+      "date": "Tue, 28 Mar 2023 14:30:00",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v3-3"
+     },
+     {
+      "title": "Protocol: A beautiful starting point for your next API documentation site",
+      "date": "Thu, 15 Dec 2022 15:00:00",
+      "url": "https://tailwindcss.com/blog/2022-12-15-protocol-api-documentation-template"
+     },
+     {
+      "title": "Tailwind CSS v3.2: Dynamic breakpoints, multi-config, and container queries, oh my!",
+      "date": "Wed, 19 Oct 2022 15:30:00",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v3-2"
+     },
+     {
+      "title": "We built you a new personal website + Heroicons v2.0, Headless UI v1.7, and more",
+      "date": "Fri, 09 Sep 2022 16:24:00",
+      "url": "https://tailwindcss.com/blog/2022-09-09-new-personal-website-heroicons-2-headless-ui-v17"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "adamwathan",
+  "user": {
+   "name": "Adam Wathan",
+   "company": null,
+   "blog": "",
+   "location": "Ontario, Canada",
+   "bio": "Creator of Tailwind CSS, author of Refactoring UI, host of Full Stack Radio.",
+   "public_repos": 178,
+   "followers": 13376,
+   "created_at": "2013-05-02T15:35:48Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "adamwathan/laracon2017",
+    "description": null,
+    "stargazers_count": 502,
+    "forks_count": 81,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2017-08-02T19:04:15Z",
+    "pushed_at": "2018-02-08T18:45:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/workcation",
+    "description": null,
+    "stargazers_count": 420,
+    "forks_count": 52,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2019-06-11T19:26:02Z",
+    "pushed_at": "2022-12-10T19:08:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/bootforms",
+    "description": "Rapid form generation with Bootstrap 3 and Laravel.",
+    "stargazers_count": 414,
+    "forks_count": 99,
+    "language": "PHP",
+    "homepage": "",
+    "created_at": "2013-08-27T17:12:56Z",
+    "pushed_at": "2018-01-10T09:41:02Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "adamwathan/vue-tailwind-examples",
+    "description": null,
+    "stargazers_count": 381,
+    "forks_count": 46,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2019-04-15T11:21:33Z",
+    "pushed_at": "2022-12-09T21:38:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/eloquent-oauth",
+    "description": "Braindead simple social login with Laravel and Eloquent.",
+    "stargazers_count": 366,
+    "forks_count": 44,
+    "language": "PHP",
+    "homepage": "",
+    "created_at": "2013-12-18T04:07:26Z",
+    "pushed_at": "2019-11-19T18:01:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/sublime-phpunit",
+    "description": "Run individual unit test files directly from Sublime",
+    "stargazers_count": 278,
+    "forks_count": 40,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2014-02-21T05:20:36Z",
+    "pushed_at": "2018-07-06T20:20:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/theming-tailwind-demo",
+    "description": null,
+    "stargazers_count": 270,
+    "forks_count": 19,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2018-01-11T14:03:14Z",
+    "pushed_at": "2019-11-05T20:27:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/laravel-preset",
+    "description": null,
+    "stargazers_count": 269,
+    "forks_count": 24,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2018-01-24T16:44:05Z",
+    "pushed_at": "2019-09-18T12:52:32Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "adamwathan/form",
+    "description": "Super basic form HTML builder, only really exists so I can pull it in for some other more useful projects.",
+    "stargazers_count": 233,
+    "forks_count": 113,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2013-09-03T22:46:18Z",
+    "pushed_at": "2018-02-24T14:03:00Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "adamwathan/eloquent-oauth-l5",
+    "description": "Eloquent OAuth service provider and assets for Laravel 5",
+    "stargazers_count": 215,
+    "forks_count": 47,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2015-03-29T13:33:35Z",
+    "pushed_at": "2017-08-02T12:20:01Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "adamwathan/tailwind-take-home-project",
+    "description": null,
+    "stargazers_count": 138,
+    "forks_count": 30,
+    "language": "Vue",
+    "homepage": "",
+    "created_at": "2020-08-09T19:22:47Z",
+    "pushed_at": "2020-08-09T19:23:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/vue-shopify-sortable-demo",
+    "description": null,
+    "stargazers_count": 112,
+    "forks_count": 24,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2018-04-05T15:12:44Z",
+    "pushed_at": "2018-07-17T13:26:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/fullstackradio.com",
+    "description": null,
+    "stargazers_count": 88,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": "https://fullstackradio.com",
+    "created_at": "2020-08-21T02:29:42Z",
+    "pushed_at": "2025-08-21T18:43:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/tailwind-css-variable-text-opacity-demo",
+    "description": null,
+    "stargazers_count": 83,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2020-09-13T19:56:02Z",
+    "pushed_at": "2020-09-13T20:02:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/test-driven-laravel-from-scratch",
+    "description": null,
+    "stargazers_count": 83,
+    "forks_count": 21,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2016-01-11T14:49:02Z",
+    "pushed_at": "2016-01-11T14:49:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/laracon-online-2018",
+    "description": null,
+    "stargazers_count": 66,
+    "forks_count": 13,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2018-02-08T16:43:26Z",
+    "pushed_at": "2018-02-08T19:12:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/entypo-optimized",
+    "description": null,
+    "stargazers_count": 61,
+    "forks_count": 43,
+    "language": null,
+    "homepage": null,
+    "created_at": "2016-08-30T12:28:48Z",
+    "pushed_at": "2016-08-30T12:54:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/tailwindcss-dark-mode-prototype",
+    "description": null,
+    "stargazers_count": 57,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "https://tailwindcss-dark-mode-prototype.vercel.app",
+    "created_at": "2020-07-23T19:56:35Z",
+    "pushed_at": "2020-07-23T20:00:31Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 134,
+  "languages": [
+   [
+    "JavaScript",
+    37
+   ],
+   [
+    "PHP",
+    36
+   ],
+   [
+    "Vue",
+    15
+   ],
+   [
+    "CSS",
+    13
+   ],
+   [
+    "HTML",
+    12
+   ],
+   [
+    "TypeScript",
+    2
+   ],
+   [
+    "Svelte",
+    2
+   ],
+   [
+    "Ruby",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "tailwindlabs/tailwindcss",
+    "stargazerCount": 98019,
+    "description": "A utility-first CSS framework for rapid UI development.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://tailwindcss.com/"
+   }
+  ],
+  "contrib_last_year": 606,
+  "orgs": [
+   "fullstackradio",
+   "nitpickci",
+   "tailwindcss"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "tailwindlabs/tailwindcss": "<p align=\"center\">\n  <a href=\"https://tailwindcss.com\" target=\"_blank\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg\">\n    </picture>\n  </a>\n</p>\n<p align=\"center\">\n  A utility-first CSS framework for rapidly building custom user interfaces.\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/tailwindlabs/tailwindcss/actions\"></a>\n    <a href=\"https://www.npmjs.com/package/tailwindcss\"></a>\n    <a href=\"https://github.com/tailwindlabs/tailwindcss/releases\"></a>\n    <a href=\"https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE\"></a>\n</p>\n---\n## Documentation\nFor full documentation, visit [tailwindcss.com](https://tailwindcss.com).\n## Community\nFor help, discussion about best practices, or feature ideas:\n[Discuss Tailwind CSS on GitHub](https://github.com/tailwindlabs/tailwindcss/discussions)\n## Contributing\nIf you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindlabs/tailwindcss/blob/main/.github/CONTRIBUTING.md) **before submitting a pull request**.\n",
+   "adamwathan/laracon2017": "## Cruddy by Design\nDuring my talk at Laracon 2017, I shared some strategies I use to split large controllers into multiple small controllers.\nThe core idea is to try and stick to the 7 standard REST/CRUD actions in your controllers:\n- Index\n- Show\n- Create\n- Store\n- Edit\n- Update\n- Destroy\nUsing this convention as a \"rule\" is a good way to force yourself to keep your controllers from becoming bloated, and can often lead to learning interesting new things about your domain.\nFor the presentation, I put together a demo app called \"CastHacker\" that showcases podcasts about software development. It's not a \"real\" app by any means (lots of imaginary features, no tests, etc.); it's just enough code to demonstrate the concepts from the presentation. Feel free to clone it and play with it locally if you like though.\nI've written up each refactoring I shared in the presentation as a detailed pull request:\n1. [Give nested resources a dedicated controller](https://github.com/adamwathan/laracon2017/pull/1)\n2. [Treat properties edited independently as separate resources](https://github.com/adamwathan/laracon2017/pull/2)\n3. [Treat pivot models as their own resource](https://github.com/adamwathan/laracon2017/pull/3)\n4. [Think of different states as different resources](https://github.com/adamwathan/laracon2017/pull/4)\n",
+   "adamwathan/workcation": "# Workcation\n[Live preview](https://workcation.netlify.com/)\nWorkcation is the demo project for the upcoming [\"Designing with Tailwind CSS\" course](https://tailwindcss.com/course/) I'm working on.\nIt's a fun Airbnb-inspired UI that includes a bunch of neat ideas which make it perfect for teaching people how to build things with Tailwind.\nThe complete free course will be released early July, but you can watch me build the entire UI from scratch on YouTube in the mean time:\n[Watch the \"Building Workcation\" series](https://www.youtube.com/playlist?list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl)\n## Project setup\n```\nyarn install\n```\n### Compiles and hot-reloads for development\n```\nyarn run serve\n```\n### Compiles and minifies for production\n```\nyarn run build\n```\n### Lints and fixes files\n```\nyarn run lint\n```\n",
+   "adamwathan/bootforms": "> **Important: This package is not actively maintained.** For bug fixes and new features, please fork.\nBootForms\n===============\n[](http://www.repostatus.org/#abandoned)\n[](https://codeclimate.com/github/adamwathan/bootforms)\n[](https://coveralls.io/r/adamwathan/bootforms?branch=master)\nBootForms builds on top of my more general [Form](https://github.com/adamwathan/form) package by adding another layer of abstraction to rapidly generate markup for standard Bootstrap 3 forms. Probably not perfect for your super custom branded ready-for-release apps, but a *huge* time saver when you are still in the prototyping stage!\n- [Installation](#installing-with-composer)\n- [Using BootForms](#using-bootforms)\n    - [Basic Usage](#basic-usage)\n    - [Customizing Elements](#customizing-elements)\n    - [Reduced Boilerplate](#reduced-boilerplate)\n    - [Automatic Validation State](#automatic-validation-state)\n    - [Horizontal Forms](#horizontal-forms)\n    - [Additional Tips](#additional-tips)\n- [Related Resources](#related-resources)\n## Installing with Composer\nYou can install this package via Composer by running this command in your terminal in the root of your project:\n```bash\ncomposer require adamwathan/bootforms\n```\n### Laravel\nIf you are using Laravel 4 or 5, you can get started very quickly by registering the included service provider.\nModify the `providers` array in `config/app.php` to include the `BootFormsServiceProvider`:\n```php\n'providers' => [\n    //...\n    'AdamWathan\\BootForms\\BootFormsServiceProvider'\n  ],\n```\nAdd the `BootForm` facade to the `aliases` array in `config/app.php`:\n```php\n'aliases' => [\n    //...\n    'BootForm' => 'AdamWathan\\BootForms\\Facades\\BootForm'\n  ],\n```\nYou can now start using BootForms by calling methods directly on the `BootForm` facade:\n```php\nBootForm::text('Email', 'email');\n```\n### Outside of Laravel\nUsage outside of Laravel is a little trickier since there's a bit of a dependency stack you need to build up, but it's not too tricky.\n```php\n$formBuilder = new AdamWathan\\Form\\FormBuilder;\n$formBuilder->setOldInputProvider($myOldInputProvider);\n$formBuilder->setErrorStore($myErrorStore);\n$formBuilder->setToken($myCsrfToken);\n$basicBootFo",
+   "adamwathan/vue-tailwind-examples": "# Vue + Tailwind Interactive Component Examples\nA small collection of interactive Vue + Tailwind examples, written from scratch.\n[See the examples live on Netlify &rarr;](https://vue-tailwind-examples.netlify.com/)\n## Project setup\n```\nyarn install\nyarn run serve\n```\nOr\n```\nnpm install\nnpm run serve\n```\n"
+  }
+ },
+ "apps": []
+}

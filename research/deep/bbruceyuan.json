@@ -1,0 +1,501 @@
+{
+ "handle": "bbruceyuan",
+ "sites": [
+  {
+   "url": "https://yuanchaofa.com",
+   "ok": true,
+   "title": "袁朝发 | chaofa用代码打点酱油 — 大模型算法与工程实践技术博客",
+   "description": "袁朝发（Chaofa Yuan）的个人技术博客，专注大模型（LLM）算法与工程实践，涵盖 Transformer、LoRA 微调、RAG、Agent 系统设计等方向，同时分享播客「逃逸速度」与视频创作内容",
+   "stack": [
+    "Google Analytics",
+    "giscus 评论"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "zh-CN",
+   "home_text": "Esc \n📐 精选专题 \n 🧠 Agent 系统设计 \n 从 Prompt Caching 到 Harness Engineering \n Agent 系统中的 Prompt Caching 设计（上）：Cache 破坏、Prompt 布局与工具管理 \n Harness Engineering — Agent 不好用，也许不是模型的问题 \n Agent 系统中的 Prompt Caching 设计（下）：上下文管理与子代理架构 \n 💻 从零手写 LLM \n Attention、LoRA、GQA 从零实现 \n 手写 Self-Attention 的四重境界，从 self-attention 到 multi-head self-attention \n DPO 算法原理与代码实现：让 LLM 对齐变得简单 \n 从零手写 RoPE 位置编码：原理、PyTorch 源码实现与可视化理解 \n 📄 论文精读 \n DeepSeek、Kimi 最新论文深度解析 \n Kimi K2.5 技术解读：原生多模态联合训练与并行 Agent 编排训练 \n MLA(1)：从代码角度学习和彻底理解 DeepSeek MLA 算法 \n 自顶向下方式深度解读 DeepSeek-R1，内含大量细节 \nchaofa用代码打点酱油 \n📝 最新文章 \n AI 狂飙，怎么才能 10 倍 or 100 倍自己的工作效率（2026-09-月度小结） \n认真思考如何利用 Agent 把自己的工作效率提升到 10 倍甚至 100 倍，也尝试用 Multica 和 Hermes Agent 建立属于自己的工作流。同时，因为 B 站计税方式变化，我重新思考视频商业化，并决定放下数据焦虑，继续做让自己开心的视频。 \n 2026年10月04日 \n 月度总结 \n 自媒体 \n AI Agent \n 公开表达 \n month-summary \n 从打点酱油到袁朝发（2026-05-月度小结） \n不写月度总结会死吗？不会，但我知道再不写，我想说的话只会越攒越多，直到我自己都忘记了。以后发的文章、视频，署名都是\"袁朝发\"了 \n 2026年06月01日 \n 月度总结 \n 自媒体 \n 公开表达 \n month-summary \n Harness Engineering — Agent 不好用，也许不是模型的问题 \n同一个模型，只改 Agent Harness，性能从 Top 30 到 Top 5。Harness Engineering 到底是什么？和 Context Engineering 什么关系？以及 The Bitter Lesson 再思考。 \n 2026年03月14日 \n agent system design \n agent \n Agent Harness \n Harness Engineering \n Context Engineering \n Coding Agent \n Kimi K2.5 技术解读：原生多模态联合训练与并行 Agent 编排训练 \n解读 Kimi K2.5 论文核心技术：原生多模态联合训练的反共识发现（Early Fusion + 低视觉比例优于 Late Fusion）、Zero-Vision SFT、跨模态双向迁移、Agent Swarm 并行编排框架（PARL）、Toggle Token 效率优化。关注算法与数据创新，而非 benchmark 秀肌肉。 \n 2026年03月01日 \n paper-reading \n LLM \n paper \n multimodal \n agent \n 2025，浪潮与拧巴 \n2025年，乎乎出生，B站技术分享视频播放破百万，也是工作以来最忙碌的一年。在爸爸、打工人、内容创作者的身份间拧巴挣扎，在AI巨浪中试图不做浪潮过后什么也没得到的大多数人。 \n 2026年02月23日 \n 年终总结 \n 杂谈 \n chaofa \n year-summary \n Agent 系统中的 Prompt Caching 设计（下）：上下文管理与子代理架构 \n深入分析 AI Agent 的上下文管理策略：Context Rot 问题、Cache-Safe Compaction、Plan 模式演进、文件系统作为延展记忆、子代理 Cache 友好设计，以及 The Bitter Lesson。 \n 2026年02月22日 \n agent system design \n agent \n LLM \n KV Cache \n Context Engineering \n Agent 系统中的 Prompt Caching 设计（上）：Cache 破坏、Prompt 布局与工具管理 \n深入分析 AI Agent 为什么比 Chatbot 更需要 Prompt Caching，什么操作会破坏 Cache，以及 Claude Code、Manus、OpenAI Codex 在 Prompt 布局和工具管理上的 Cache-aware 设计实践。 \n 2026年02月22日 \n agent system design \n agent \n LLM \n KV Cache \n Context Engineering \n 理解 KV Cache 与 Prompt Caching：LLM 推理加速的核心机制 \n深入理解 KV Cache 的原理、Prefill/Decode 两阶段与 Compute Bound/Memory Bound 的关系，以及 Prompt Caching（前缀缓存）如何实现推理加速和成本节约。 \n 2026年02月21日 \n agent system design \n LLM \n transformer \n KV Cache \nChaofa Yuan \n袁朝发的个人技术博客，做了一个播客叫做《逃逸速度》，喜欢折腾各种各样的事情，业余野生视频博主，专业大模型算法工程师，尝试做一些有意义的事情 \n 84 \n 归档 \n 84 \n 文章 \n 16 \n 分类 \n 39 \n 标签 \n📬 订阅更新 \n新文章发布时邮件通知你，无垃圾邮件。 \n 订阅 \n🛠️ 我的推荐 \n BytePass.ai（个人推荐） \n 第三方 ClaudeCode/CodeX API 代理 \n 🌟 ApeCode.ai \n AI 工程教育与开源工具 \n LLMs-Zero-to-Hero \n 从零实现 LLM · 2.1K star \n nanoclaw-py \n ~500行 Python AI 代码助手",
+   "github_links": [
+    "ApeCodeAI",
+    "bbruceyuan"
+   ],
+   "subpages": {
+    "https://yuanchaofa.com/about": "Esc \n关于我 \n Chaofa Yuan \n 2019年06月30日\n 大约 1 分钟\n 关于我 \n 个人介绍 \n我是想打酱油与不想打酱油的矛盾体！欢迎通过留言和我交流，也可以通过「 播客-逃逸速度 Escape Velocity 」了解我更多～ \n目前（2024-10）真的开始尝试做对他人有意义的事情了～，可以看「 B 站-chaofa用代码打点酱油 」和「 油管 YouTube-chaofa用代码打点酱油 」视频，这样的生活似乎更有意思一些～ \n 相关信息介绍 \nhi，我是 chaofa，目前是个 大模型算法工程师 ，除了 LLM 之外，对于搜索、广告也有一定的了解~ \n这是我的 notion blog \n记录平常的一些学习记录，主要是 paper阅读方面的内容~ \n此外会记录一些公开的创作计划 \n个人中文博客： chaofa用代码打点酱油 （推荐） \n个人同名公众号 \n如果我的教程哪里有问题，也可以加我wx: bbruceyuan 进行反馈，感激~，如果添加，可以尝试扫码 \n 其他申明 \n对本站的任何问题都可以直接在文章下进行评论。 \n也可以通过 bruceyuan123@gmail.com 联系我。 \n为了节省双方的宝贵时间，作如下几点声明： \n邮件会尽量回复，不能做到有问必答。 \n请尽量在邮件中将需求或问题叙述清楚。 \n 版权说明 \n若无特别声明，本站文章欢迎链接分享，但禁止全文转载，本站保留一切权利。 \n 支持本站 \n坚持探索、尝试新技术，并作总结并不是一件容易的事情，如能对您有所帮助，我感到非常高兴。 \n如果觉得本站文章还不错，欢迎收藏&分享给小伙伴。 \nChaofa Yuan \n袁朝发的个人技术博客，做了一个播客叫做《逃逸速度》，喜欢折腾各种各样的事情，业余野生视频博主，专业大模型算法工程师，尝试做一些有意义的事情 \n GitHub \n Bilibili \n YouTube \n X \n 关注公众号：chaofa用代码打点酱油\n如果觉得文章不错，欢迎关注和分享 🙏 \n此页内容"
+   },
+   "feed": {
+    "url": "https://yuanchaofa.com/rss.xml",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "AI 狂飙，怎么才能 10 倍 or 100 倍自己的工作效率（2026-09-月度小结）",
+      "date": "Sun, 04 Oct 2026 15:00:00",
+      "url": "https://yuanchaofa.com/blog/2026-09-month-summary"
+     },
+     {
+      "title": "从打点酱油到袁朝发（2026-05-月度小结）",
+      "date": "Mon, 01 Jun 2026 13:20:00",
+      "url": "https://yuanchaofa.com/blog/2026-05-month-summary"
+     },
+     {
+      "title": "Harness Engineering — Agent 不好用，也许不是模型的问题",
+      "date": "Sat, 14 Mar 2026 22:00:00",
+      "url": "https://yuanchaofa.com/post/harness-engineering-for-ai-agents"
+     },
+     {
+      "title": "Kimi K2.5 技术解读：原生多模态联合训练与并行 Agent 编排训练",
+      "date": "Sun, 01 Mar 2026 12:00:00",
+      "url": "https://yuanchaofa.com/post/kimi-k2-5-reading-notes"
+     },
+     {
+      "title": "2025，浪潮与拧巴",
+      "date": "Mon, 23 Feb 2026 16:07:00",
+      "url": "https://yuanchaofa.com/blog/2025-year-summary"
+     },
+     {
+      "title": "Agent 系统中的 Prompt Caching 设计（下）：上下文管理与子代理架构",
+      "date": "Sun, 22 Feb 2026 15:06:00",
+      "url": "https://yuanchaofa.com/post/agent-context-management-and-sub-agents"
+     },
+     {
+      "title": "Agent 系统中的 Prompt Caching 设计（上）：Cache 破坏、Prompt 布局与工具管理",
+      "date": "Sun, 22 Feb 2026 10:16:00",
+      "url": "https://yuanchaofa.com/post/prompt-cache-design-for-llm-agents"
+     },
+     {
+      "title": "理解 KV Cache 与 Prompt Caching：LLM 推理加速的核心机制",
+      "date": "Sat, 21 Feb 2026 10:00:00",
+      "url": "https://yuanchaofa.com/post/understanding-kv-cache-and-prompt-cache-basics"
+     },
+     {
+      "title": "DPO 算法原理与代码实现：让 LLM 对齐变得简单",
+      "date": "Sat, 10 Jan 2026 15:07:00",
+      "url": "https://yuanchaofa.com/post/hands-on-dpo-direct-preference-optimization"
+     },
+     {
+      "title": "从零手写 RoPE 位置编码：原理、PyTorch 源码实现与可视化理解",
+      "date": "Thu, 01 Jan 2026 16:57:20",
+      "url": "https://yuanchaofa.com/post/hands-on-rope-position-embedding"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://ApeCode.ai",
+   "ok": true,
+   "title": "ApeCode.ai — 从零手搓 AI Agent · 开源工程实战",
+   "description": "ApeCode.ai 是前腾讯大模型工程师袁朝发的公开构建空间。手搓 AI Agent、500 行 Python 复刻 Claude Code、深度工程课程、AI 开发者工具。每一行代码都开源，每一个工程决策都有「为什么」。",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "",
+   "home_text": "> _ ApeCode.ai \n EN 探索实验室 \n // 公开构建中 \nAPECODE \n释放你内心的 Builder。 \n让每一位 Builder 都能用 AI 创造自己的产品。 \n 探索实验室 学习工程 \n ~/apecode \n$ git clone https://github.com/ApeCodeAI/vmarker \n$ python -m vmarker --video input.mp4 \n[INFO] Generating chapters with AI... \n[DONE] 12 chapters generated >>> output.json \n 前腾讯算法工程师 \n 大厂资深 LLM 工程师 \n GitHub 4k+ Stars（袁朝发） \n B站 3.3万关注 \n // 推荐 \nAI API 路由 \n需要一个 API Key 搞定 Claude Code、Codex、Cursor 等工具？推荐 BytePass —— 一个我们自己在用的第三方 API 路由服务。 试试 BytePass \n // 最新项目 \n开源实验室 查看全部 >>> \n AI 工具 活跃 \nvmarker \nAI 驱动的视频章节生成工具。自动分析视频内容，生成结构化章节。 \n GitHub 课程 \n 开发工具 活跃 \napecode \nNano Claude Code。从零构建的轻量级 AI 编程助手。极简、快速、可高度定制。 \n GitHub \n AI 助手 活跃 \nnanoclaw-py \n本地优先的 AI 代码助手。隐私优先，完全本地运行。Python 驱动。 \n GitHub 课程 \n // 我们的理念 \n我们公开构建。所有代码开源免费。课程只是对工程决策的更深入探讨。 \n代码优先 \n每个项目都从真实代码开始，而非 PPT。在 GitHub 上对所有人开源。 \n做中学 \n不是教程工厂。一个在职工程师周末在「车库」里做的真实项目。 \n开源精神 \nApache 2.0 协议。Fork、魔改、上线。课程只是可选的深入解读。 \n // 逃逸速度 \n为「逃逸速度」而生 \n 「AI 时代，编程不再是少数人的特权，而是每个人实现创造力的本能。我创建 apecode.ai 是为了解决自己的开发需求。现在，我希望它能成为你达到『逃逸速度』的助推器。」 — Chaofa Yuan，apecode.ai 创始人 \n // 深入探讨 \n学习工程 \n代码免费。课程是对每个工程决策背后「为什么」的更深入探讨。 \n ¥299 // 视频课程 \n从零到 Agent：Python 与大模型工程基础 \n5 周从 Python 基础到构建真实 AI Agent。覆盖数据结构、Git 工作流、LLM API、Function Calling 与 ReAct 模式。两个毕业项目：智能财报分析器与 mini-DeepResearch。全程逐行手敲代码讲解。 \n Python LLM Agent \n 加入等候列表 B站试看 \n ¥299 // 视频课程 \n手搓 NanoClaw：本地 AI 代码助手 \n逐行讲解 nanoclaw-py 架构设计。从 LLM API 调用到 Tool Use 实现，掌握本地 AI 代码助手的完整工程链路。 \n Python LLM Tool Use \n 加入等候列表 B站试看 \n // 最新内容 \n最近更新 \n PODCAST \n大模型算法岗校招社招上岸公式（2） 2025.04.20 · 38 min 立即收听 >>> \n BLOG \nAI 狂飙，怎么才能 10 倍 or 100 倍自己的工作效率（2026-09-月度小结） 2026.10.04 · blog 阅读全文 >>> \n PROJECT \nnanoclaw-py：用 Python 构建的本地优先 AI 代码助手 Python · 隐私优先 · 可深度定制 查看项目 >>> \n // 准备好了吗？ \n开始构建 \n克隆仓库。阅读代码。构建你的项目。 \n github.com/ApeCodeAI 浏览课程 \n所有项目采用 Apache 2.0 协议。无任何附加条件。",
+   "github_links": [
+    "ApeCodeAI",
+    "bbruceyuan"
+   ],
+   "subpages": {
+    "https://ApeCode.ai/zh/products": "[>_ ApeCode.ai](https://apecode.ai/zh)\n[实验室](https://apecode.ai/zh/labs)[学习](https://apecode.ai/zh/learn)[产品](https://apecode.ai/zh/products)[工具](https://apecode.ai/zh/tools)[博客](https://yuanchaofa.com/)\n[探索实验室](https://apecode.ai/zh/labs)\n// PRODUCTS\n## 产品\n自研工具与推荐服务。\n## 自研产品\n新工具正在打造中，敬请期待。\n## 推荐\n我们每天在用、真心推荐的第三方服务。\n推荐\n### BytePass\n一个 Key，用上所有 AI Coding Agent\n一个 API Key 搞定 Claude Code、Codex、Cursor、Windsurf 等工具。支持支付宝/微信充值。\n[了解更多](https://bytepass.ai/)\n[开始使用](https://bytepass.ai/register?aff=33F8NTJEPSZK)"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "bbruceyuan",
+  "user": {
+   "name": "Chaofa Yuan｜袁朝发",
+   "company": "ByteDance",
+   "blog": "https://yuanchaofa.com",
+   "location": "Shenzhen",
+   "bio": "博客：https://yuanchaofa.com\r\n\r\n公众号👏：袁朝发\r\n\r\nProduct: @ApeCodeAI ",
+   "public_repos": 24,
+   "followers": 1023,
+   "created_at": "2015-12-10T02:57:36Z",
+   "twitter_username": "bbruceyuan",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "bbruceyuan/Hands-On-Large-Language-Models-CN",
+    "description": "中文翻译的 Hands-On-Large-Language-Models (hands-on-llms)，动手学习大模型",
+    "stargazers_count": 2991,
+    "forks_count": 322,
+    "language": "Jupyter Notebook",
+    "homepage": "https://yuanchaofa.com",
+    "created_at": "2024-10-11T13:43:20Z",
+    "pushed_at": "2026-10-14T14:55:39Z",
+    "topics": [
+     "hands-on-llm",
+     "hands-on-transformers",
+     "hans-on-llms",
+     "llms"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/LLMs-Zero-to-Hero",
+    "description": "从无名小卒到大模型（LLM）大英雄~ 欢迎关注后续！！！",
+    "stargazers_count": 2312,
+    "forks_count": 158,
+    "language": "Jupyter Notebook",
+    "homepage": "https://yuanchaofa.com/llms-zero-to-hero/",
+    "created_at": "2025-01-05T13:47:22Z",
+    "pushed_at": "2026-10-14T14:57:55Z",
+    "topics": [
+     "llm",
+     "llm-from-zero-to-hero",
+     "llm-zero-to-hero",
+     "llm101"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/AI-Interview-Code",
+    "description": "LLM大模型（重点）以及搜广推等 AI 算法中手写的面试题，（非 LeetCode），比如 Self-Attention, AUC等，一般比 LeetCode 更考察一个人的综合能力，又更贴近业务和基础知识一点",
+    "stargazers_count": 620,
+    "forks_count": 30,
+    "language": "Jupyter Notebook",
+    "homepage": "https://yuanchaofa.com/hands-on-code/",
+    "created_at": "2024-10-13T14:21:04Z",
+    "pushed_at": "2026-05-04T12:09:44Z",
+    "topics": [
+     "ai-interview-questions",
+     "hands-on-interview",
+     "interview-codes",
+     "llm-interview",
+     "llm-interview-code"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/DeepMatch-Torch",
+    "description": "「PyTorch」A deep matching model library for recommendations & advertising. It's easy to train models and to export representation vectors which can be used for ANN search.",
+    "stargazers_count": 91,
+    "forks_count": 12,
+    "language": "Python",
+    "homepage": "https://yuanchaofa.com",
+    "created_at": "2022-01-30T06:32:50Z",
+    "pushed_at": "2022-06-12T15:35:55Z",
+    "topics": [
+     "deepmatch",
+     "dssm-pytorch",
+     "mind-pytorch",
+     "youtubednn-pytorch"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/LLMs-101",
+    "description": "从零到一实现一个 miniLLM～（动手学习LLM）",
+    "stargazers_count": 80,
+    "forks_count": 8,
+    "language": "Jupyter Notebook",
+    "homepage": "",
+    "created_at": "2023-10-06T12:20:56Z",
+    "pushed_at": "2026-05-04T12:09:46Z",
+    "topics": [
+     "hands-on-llm",
+     "hands-on-llms",
+     "llm-101",
+     "llm101",
+     "llms-101",
+     "llms101"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/algorithms-and-oj",
+    "description": "Some OJs' answers writren by Python/JS/C++/Java",
+    "stargazers_count": 49,
+    "forks_count": 17,
+    "language": "C++",
+    "homepage": "",
+    "created_at": "2016-10-25T12:56:58Z",
+    "pushed_at": "2020-03-24T06:38:56Z",
+    "topics": [
+     "algorithms",
+     "javascript",
+     "javascript-leetcode",
+     "leetcode",
+     "ojs",
+     "python",
+     "python-leetcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/bit-brain",
+    "description": "最少使用 3090 即可训练自己的比特大脑（miniLLM）🧠（进行中）. Train your own BitBrain(A mini LLM) with just an RTX 3090 minimum. ",
+    "stargazers_count": 42,
+    "forks_count": 2,
+    "language": "Python",
+    "homepage": "https://yuanchaofa.com",
+    "created_at": "2025-03-01T02:39:51Z",
+    "pushed_at": "2026-05-04T12:09:48Z",
+    "topics": [
+     "bitbrain",
+     "large-language-model",
+     "mini-llm"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/ECPE-PyTorch",
+    "description": "Emotion-Cause Pair Extraction, PyTorch Implementations. 情感-原因对抽取，基于PyTorch实现",
+    "stargazers_count": 32,
+    "forks_count": 2,
+    "language": "Python",
+    "homepage": "https://yuanchaofa.com",
+    "created_at": "2020-04-25T10:58:04Z",
+    "pushed_at": "2024-02-17T09:48:52Z",
+    "topics": [
+     "ecpe",
+     "ecpe-pytorch",
+     "emotion-cause",
+     "emotion-cause-pair"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/data-export",
+    "description": "flomo export to markdown for obsidian/logseq",
+    "stargazers_count": 28,
+    "forks_count": 5,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2023-02-09T14:53:27Z",
+    "pushed_at": "2023-06-20T01:45:23Z",
+    "topics": [
+     "flomo",
+     "flomo-export",
+     "flomo2md",
+     "logseq",
+     "markdown",
+     "obsidian"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/FiTSA",
+    "description": "Source code for \"Chinese Financial News Annotation For Target-based Sentiment Analysis\"",
+    "stargazers_count": 14,
+    "forks_count": 0,
+    "language": "Jupyter Notebook",
+    "homepage": "",
+    "created_at": "2019-12-01T09:09:16Z",
+    "pushed_at": "2020-01-21T03:21:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/bbruceyuan.github.io",
+    "description": "chaofa 的个人博客，没有故事，写点技术！https://yuanchaofa.com",
+    "stargazers_count": 13,
+    "forks_count": 7,
+    "language": "Python",
+    "homepage": "https://yuanchaofa.com",
+    "created_at": "2020-03-08T06:58:43Z",
+    "pushed_at": "2026-10-04T07:47:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/pylimit2",
+    "description": "给python加上类型限制，作为pylimit的升级版，支持py3.5+，提供更合理方便的接口",
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2017-11-27T12:19:33Z",
+    "pushed_at": "2017-11-27T15:20:36Z",
+    "topics": [
+     "decorator",
+     "pylimit",
+     "pylimit2",
+     "python-limit",
+     "python3"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "bbruceyuan/Deep-Dive-into-RAG",
+    "description": "深入地动手学习RAG，构建一个硬核一点的RAG项目",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-03-02T00:39:44Z",
+    "pushed_at": "2025-03-02T00:39:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/easy-blog",
+    "description": "This is a esay blog written by Flask and Vue.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2018-07-13T01:26:34Z",
+    "pushed_at": "2019-07-20T07:14:27Z",
+    "topics": [
+     "blog",
+     "easy-blog",
+     "flask",
+     "flask-application",
+     "flask-vue",
+     "spa",
+     "vue"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "bbruceyuan/EnglishPod",
+    "description": "EnglishPod 365 learning ",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "https://englishpod.bruceyuan.com",
+    "created_at": "2024-10-02T01:31:41Z",
+    "pushed_at": "2024-10-02T07:55:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/bbruceyuan",
+    "description": "my profile",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "https://bbruceyuan.github.io",
+    "created_at": "2020-07-17T11:35:49Z",
+    "pushed_at": "2026-10-04T07:47:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bbruceyuan/bugfreepy",
+    "description": "Add monster buff for your code file, no bug since now. ",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2018-04-27T10:05:45Z",
+    "pushed_at": "2018-04-27T13:15:32Z",
+    "topics": [
+     "bug",
+     "bugfreepy",
+     "python-script"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "bbruceyuan/Hands-on-Agents",
+    "description": "动手学习 Agents course 的学习笔记与扩展。A Practical Learning notes about huggingface Agents Course ",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-03-02T02:41:00Z",
+    "pushed_at": "2025-03-02T02:41:01Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 21,
+  "languages": [
+   [
+    "Python",
+    8
+   ],
+   [
+    "Jupyter Notebook",
+    5
+   ],
+   [
+    "C++",
+    1
+   ],
+   [
+    "Vue",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "bbruceyuan/LLMs-Zero-to-Hero",
+    "stargazerCount": 2312,
+    "description": "从无名小卒到大模型（LLM）大英雄~ 欢迎关注后续！！！",
+    "primaryLanguage": {
+     "name": "Jupyter Notebook"
+    },
+    "homepageUrl": "https://yuanchaofa.com/llms-zero-to-hero/"
+   },
+   {
+    "nameWithOwner": "bbruceyuan/Hands-On-Large-Language-Models-CN",
+    "stargazerCount": 2991,
+    "description": "中文翻译的 Hands-On-Large-Language-Models (hands-on-llms)，动手学习大模型",
+    "primaryLanguage": {
+     "name": "Jupyter Notebook"
+    },
+    "homepageUrl": "https://yuanchaofa.com"
+   },
+   {
+    "nameWithOwner": "bbruceyuan/bit-brain",
+    "stargazerCount": 42,
+    "description": "最少使用 3090 即可训练自己的比特大脑（miniLLM）🧠（进行中）. Train your own BitBrain(A mini LLM) with just an RTX 3090 minimum. ",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://yuanchaofa.com"
+   },
+   {
+    "nameWithOwner": "bbruceyuan/AI-Interview-Code",
+    "stargazerCount": 620,
+    "description": "LLM大模型（重点）以及搜广推等 AI 算法中手写的面试题，（非 LeetCode），比如 Self-Attention, AUC等，一般比 LeetCode 更考察一个人的综合能力，又更贴近业务和基础知识一点",
+    "primaryLanguage": {
+     "name": "Jupyter Notebook"
+    },
+    "homepageUrl": "https://yuanchaofa.com/hands-on-code/"
+   },
+   {
+    "nameWithOwner": "bbruceyuan/DeepMatch-Torch",
+    "stargazerCount": 91,
+    "description": "「PyTorch」A deep matching model library for recommendations & advertising. It's easy to train models and to export representation vectors which can be used for ANN search.",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://yuanchaofa.com"
+   },
+   {
+    "nameWithOwner": "ApeCodeAI/apecode",
+    "stargazerCount": 28,
+    "description": "Nano Claude Code - A lightweight AI code agent in Python, inspired by  Claude Code and Kimi-CLI. Now you can give it a try and enjoy it plz~~",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://ApeCode.ai"
+   }
+  ],
+  "contrib_last_year": 97,
+  "orgs": [],
+  "profile_readme": "### Hi there 👋\n\n<div align=\"center\">\n\n  <!-- for beauty 留个空行好看点 -->\n  <div>&nbsp;</div>\n\n  <!-- profile logo 个人资料徽标 -->\n  <div>\n    <a href=\"https://yuanchaofa.com\"><img src=\"https://img.shields.io/badge/yuanchaofa.com-个人博客-pink\" /></a>&emsp;\n    <a href=\"https://space.bilibili.com/12420432\"><img src=\"https://img.shields.io/badge/chaofa用代码打点酱油-Bilibili-ff69b4\" /></a>&emsp;\n    <a href=\"https://www.youtube.com/@bbruceyuan\"><img src=\"https://img.shields.io/badge/chaofa用代码打点酱油-YouTube-red\" /></a>&emsp;\n    <br><br>\n    <a href=\"https://www.zhihu.com/people/bbruceyuan\"><img src=\"https://img.shields.io/badge/bbruceyuan-Zhihu-blue\" /></a>&emsp;\n    <a href=\"https://yuanchaofa.com/llms-zero-to-hero/chaofa-wechat-official-account.png\"><img src=\"https://img.shields.io/badge/chaofa用代码打点酱油-公众号-green\" /></a>&emsp;\n    <a href=\"https://yuanchaofa.com/llms-zero-to-hero/wechat-account-bbruceyuan.png\"><img src=\"https://img.shields.io/badge/bbruceyuan-交流微信（请备注）-green\" /></a>&emsp;\n    <!-- visitor statistics logo 访问量统计徽标 -->\n    <img src=\"https://komarev.com/ghpvc/?username=bbruceyuan&label=Views&color=0e75b6&style=flat\" alt=\"访问量统计\" />\n  </div>\n</div>\n<br />\n\n**关于我：**\n- 🧑‍💻 Vibe Coding @ [ApeCode.ai](https://ApeCode.ai) & [ApeCodeAI](https://github.com/ApeCodeAI)\n  - 使用 [Claude Code、CodeX](https://apecode.ai/zh/products/aperouter)、Cursor 等\n  - 个人推荐 [ClaudeCode/CodeX API 代理](https://apecode.ai/zh/products/aperouter) 获取更好的 vibe 体验\n- 📝 写技术博客 @ [yuanchaofa.com](https://yuanchaofa.com)，专注 LLM、Agent、深度学习\n- 🎬 录视频教程 @ [B站](https://space.bilibili.com/12420432) / [YouTube](https://www.youtube.com/@bbruceyuan) / [视频号](https://yuanchaofa.com/llms-zero-to-hero/chaofa-wechat-official-account.png)，全网同名「[chaofa用代码打点酱油](https://yuanchaofa.com)」\n- 📚 开源项目：[LLMs-Zero-to-Hero](https://github.com/bbruceyuan/LLMs-Zero-to-Hero) - 从零学习大模型\n- 💬 交流微信：`bbruceyuan`（请备注来意）\n\n----\n\n## 最近更新\n\n| 技术文章 | 非技术文章 |\n|----------|------------|\n| 2026-03-14 [Harness Engineering — Agent 不好用，也许不是模型的问题](https://yuanchaofa.com/post/harness-engineering-for-ai-agents) | 2026-10-04 [AI 狂飙，怎么才能 10 倍 or 100 倍自己的工作效率（2026-09-月度小结）](https://yuanchaofa.com/blog/2026-09-month-summary) |\n| 2026-03-01 [Kimi K2.5 技术解读：原生多模态联合训练与并行 Agent 编排训练](https://yuanchaofa.com/post/kimi-k2-5-reading-notes) | 2026-06-01 [从打点酱油到袁朝发（2026-05-月度小结）](https://yuanchaofa.com/blog/2026-05-month-summary) |\n| 2026-02-22 [Agent 系统中的 Prompt Caching 设计（下）：上下文管理与子代理架构](https://yuanchaofa.com/post/agent-context-management-and-sub-agents) | 2026-02-23 [2025，浪潮与拧巴](https://yuanchaofa.com/blog/2025-year-summary) |\n| 2026-02-22 [Agent 系统中的 Prompt Caching 设计（上）：Cache 破坏、Prompt 布局与工具管理](https://yuanchaofa.com/post/prompt-cache-design-for-llm-agents) | 2025-12-06 [Keep Looking, Don't Settle：重听乔布斯演讲（25-11-月度小结）](https://yuanchaofa.com/blog/2025-11-month-summary) |\n| 2026-02-21 [理解 KV Cache 与 Prompt Caching：LLM 推理加速的核心机制](https://yuanchaofa.com/post/understanding-kv-cache-and-prompt-cache-basics) | 2025-11-02 [影视飓风TIM成功背后：一个程序员对自媒体商业化的深度复盘（25年10月月度小结）](https:",
+  "readmes": {
+   "bbruceyuan/LLMs-Zero-to-Hero": "<p align=\"center\">\n<h1 align=\"center\">《LLMs-Zero-to-Hero》</h1>\n<h4 align=\"right\">从大模型无名小卒到LLM大师</h4>\n</p>\n<p align=\"center\">\n  <a href=\"https://apecode.ai/zh\"></a>\n  <a href=\"https://apecode.ai/zh/products/aperouter\"></a>\n  <a href=\"https://yuanchaofa.com\"></a>\n  <a href=\"https://space.bilibili.com/12420432\"></a>\n</p>\n开个新坑，从无名小卒到大模型（LLM）大英雄~ 欢迎关注[B站后续更新](https://space.bilibili.com/12420432)！！！\n目前(2025-10-19)已经**开始在写自己的书籍**了，欢迎大家跟踪[公众号--chaofa用代码打点酱油](https://bruceyuan.com/llms-zero-to-hero/chaofa-wechat-official-account.png)追踪更新～\n当然也可以在 个人 [blog——yuanchaofa.com](https://yuanchaofa.com) 获取到全部内容\n## 特点\n- 完全从零手写，边写边讲知识点，致敬 Andrej Karpathy\n- 体系化，具有完整的实践路线\n- 配套视频讲解，[B站视频](https://www.bilibili.com/video/BV1qWwke5E3K)\n- 配套镜像 GPU，用于模型的训练，有演示和展示 Demo\n- 最小使用 3090，4090 即可训练~\n- 完全从零训练的 miniLLM 可以参考个人仓库 [BitBrain——比特大脑](https://github.com/bbruceyuan/bit-brain) 获取可以体验的 demo，欢迎体验学习～\n> 大家可以用我的 [Featurize 注册链接](https://featurize.cn/srx/gthYt2)获得额外的 GPU 优惠券，仅 9.9 元可使用满血 RTX 4090 24 小时。\n> [!TIP]\n> 🦧 跑代码需要 LLM API？试试我做的 [ApeRouter](https://apecode.ai/zh/products/aperouter) — 国内直连的 LLM API 路由，支持 Claude / GPT / Kimi 等模型，无需翻墙。更多 AI 学习资源和开发工具：[ApeCode.ai](https://apecode.ai/zh)\n## 目录\n- 大模型基础，介绍大模型训练的流程\n    - [Dense Model](https://github.com/bbruceyuan/LLMs-Zero-to-Hero/blob/master/src/video/build_gpt.ipynb) （[B站视频](https://www.bilibili.com/video/BV1qWwke5E3K)）\n    - [MOE Model](https://github.com/bbruceyuan/LLMs-Zero-to-Hero/blob/master/src/video/build_moe_model.ipynb)，（[B站视频](https://www.bilibili.com/video/BV1ZbFpeHEYr/)）\n    - ...\n- 完全从零到一训练 LLM (Pre-Training)\n- 完全从零到一微调 LLM (Supervised Fine-Tuning, SFT)\n- 完全从零到一微调 LLM (Direct Preference Optimization, DPO)\n- 完全从零到一微调 LLM (Reinforcement Learning from Human Feedback, RLHF)\n- 用于写 Python 代码的 Code-LLM\n- 大模型的部署\n    - 推理优化，量化等\n- ...\n> 如果本套教程对你有难度，可以看看 [Hands-On Large Language Models CN(ZH) -- 动手学大模型](https://github.com/bbruceyuan/Hands-On-Large-Language-Models-CN)，先使用 `transformers` 入门，然后再来手把手自己实现大模型。\n## 已更新内容目录\n| 章节 | 文章解读 | 中文 Notebook<br/>复制后可直接运行| 视频讲解 <br/> (可点击)|\n|---|---|------|------|\n| 完全从零手写一个nanoGPT | todo | [](https://github.com/bbruceyuan/LLMs-Zero-to-Hero/blob/master/src/video/build_gpt.ipynb) | [](https://www.bilibili.com/vide",
+   "bbruceyuan/Hands-On-Large-Language-Models-CN": "﻿# Hands-On Large Language Models CN(ZH)  -- 动手学大模型\r\n<p align=\"center\">\r\n  <a href=\"https://apecode.ai/zh\"></a>\r\n  <a href=\"https://apecode.ai/zh/products/aperouter\"></a>\r\n</p>\r\n这本书（Hands-On Large Language Models）原作者是 [Jay Alammar](https://www.linkedin.com/in/jalammar/)，[Maarten Grootendorst](https://www.linkedin.com/in/mgrootendorst/)。 英文好的同学强烈推荐支持原书，访问 [原书地址](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) 。\r\n> 这是[中文版本的 hands-on LLMs](https://github.com/bbruceyuan/Hands-On-Large-Language-Models-CN)，推荐大家访问原书。\r\n> \r\n> 也非常欢迎大家感兴趣可以关注公众号【[chaofa用代码打点酱油](https://mp.weixin.qq.com/s/WxLbKvW4_9g0ajQ0wGRruQ)】获得文字更新推送~ 或者加群来吹水聊天（🤣）\r\n## 中文版有什么特点\r\n- 对代码进行了更详细的注释，并且在**部分内容加上自己的理解**。\r\n- 有更适合国内网络环境使用的 Notebook 版本，不需要翻墙可以使用（主要是更快）\r\n  - 这里我也是为了免费用了 [openbayes](https://openbayes.com/console/signup?r=bbruceyuan_1o6b) 的 GPU，注册可以送 5 小时 CPU 和 3 小时 4090 GPU，如果用[我的链接注册](https://openbayes.com/console/signup?r=bbruceyuan_1o6b)，我们都能多一个小时。能薅一点牛毛是一点是一点，目标是免费录完这次教程。\r\n  - 如果你不太喜欢 notebook 类型，更喜欢实验室这种 Linux 类型的环境，那么推荐你使用  [AIStackDC](https://aistackdc.com/phone-register?invite_code=D872A9) 算力平台，可以直接 ssh，配置好之后就是一个独立的开发机，如果使用[我的邀请链接](https://aistackdc.com/phone-register?invite_code=D872A9)，可以额外获得 2 张 1 折优惠券（5 小时）和 3 张 5 折优惠券（36 小时），这样前一百个小时基本免费吧。\r\n- **配套的中文视频讲解**。\r\n  - [YouTube 视频](https://www.youtube.com/watch?v=BvdAH38BCe8) \r\n  - [B站视频-chaofa用代码打点酱油](https://www.bilibili.com/video/BV16Am3Y4ES3/)\r\n> [!TIP]\r\n> 🦧 跑代码需要 LLM API？试试我做的 [ApeRouter](https://apecode.ai/zh/products/aperouter) — 国内直连的 LLM API 路由，支持 Claude / GPT / Kimi 等模型，无需翻墙。更多 AI 学习资源：[ApeCode.ai](https://apecode.ai/zh)\r\n## 目录\r\n建议海外用户通过 Google Colab 运行所有示例，以获得最简单的设置。Google Colab 允许您免费使用具有 16GB 显存的 T4 GPU。所有示例主要使用 Google Colab 构建和测试，因此它应该是更稳定的平台。然而，任何其他云提供商都应该可以工作。 \r\n国内用户如果想要运行，最好还是用[中文可运行 Notebook](https://openbayes.com/console/bbruceyuan/containers/RhWOr6vTLN4)，你可以复制我的容器直接运行这些代码，[注册链接](https://openbayes.com/console/signup?r=bbruceyuan_1o6b)，这样不需要翻墙，国内网络环境访问 Google Colab 可能比较慢。\r\n| 章节 | Google Colab | 中文 Notebook<br/>复制后可直接运行| 视频讲解 <br/> (可点击)|\r\n|---|---|------|------|\r\n| 第一章: 介绍大模型  | [](https://colab.research.google.com/github/HandsOnLLM/Hands-On-Large-Language-Models/blob/main/chapter01/Chapter%201%20-%20Introduction%",
+   "bbruceyuan/bit-brain": "<p align=\"center\">\n<h1 align=\"center\">🧠 BitBrain - Train Your Own tiny-LLM</h1>\n<h4 align=\"right\">迈出自己训练 LLM 的关键一步～ Let's just take action!</h4>\n</p>\n[](https://apecode.ai/zh) [](https://apecode.ai/zh/products/aperouter)\n最少使用 3090 即可训练自己的比特大脑🧠（进行中）. Train your own BitBrain with just an RTX 3090 minimum.(Stay tuned)\n`Bitbrain-0.6B-base` 是一个基于 `Qwen3-0.6B` 架构的语言模型。我们在大约 `200B` tokens 的高质量中英文数据上对其进行了预训练。\n## 数据与模型\n| 预训练权重 | 训练数据 | 部分细节 | 模型下载链接 |\n| :--- | :--- | :--- | :--- |\n| Bitbrain-0.6B-base | **预训练数据集**:chinese-fineweb-edu-v2<br/>**中英文比例**  3:1（参考原数据集）<br/>**总训练 Token 数** 约 200B  | **在 4 * H800 GPU 上**: MFU 达到了 **46%**。<br/>**在 8 * 4090 GPU 上**: MFU 达到了 **34%**。 <br/>使用了 liger kernel, muon 优化器 | [modelscope链接](https://www.modelscope.cn/models/hh2395959141/Bitbrain-0.6b-base/) |\n| Bitbrain-0.6B-instruct | todo  | todo | todo |\n### C-Eval 评测结果\n| 模型 | 评测方式 | 平均分 |\n| :--- | :--- | :--- |\n| Bitbrain-0.6B-base | C-Eval-PPL | 27.99% |\n| Bitbrain-0.6B-base | C-Eval-GEN | 20.10% |\n## 环境安装\n- step0: 使用 python3.12 （可选）\n- step1: 首先安装 uv。见[链接](https://docs.astral.sh/uv/getting-started/installation/)\n- step2: `uv sync`\n## 推理\n- 方式 1：使用 modelscope 运行，`uv run example/modelscope/run_bitbrain_base.py`\n```python\nfrom modelscope import AutoModelForCausalLM, AutoTokenizer\nmodel_name = \"hh2395959141/Bitbrain-0.6b-base\"\nmodel = AutoModelForCausalLM.from_pretrained(\n    model_name, torch_dtype=\"auto\", device_map=\"auto\"\n)\ntokenizer = AutoTokenizer.from_pretrained(model_name)\nprompt = \"你好，请用一句话介绍一下你自己。\"\ninputs = tokenizer(prompt, return_tensors=\"pt\").to(model.device)\noutputs = model.generate(**inputs, max_new_tokens=1024)\nresponse = tokenizer.decode(outputs[0], skip_special_tokens=True)\nprint(response)\n```\n- 方式 2：使用 transformers 运行，`uv run example/transformers/run_bitbrain_base.py`\n- 样例：\n```\n输入: 你好，请用一句话介绍一下你自己。\n输出：你好，请用一句话介绍一下你自己。我是一个来自中国的程序员，拥有超过十年的编程经验。我的主要技能包括Java、Python和C++。请用简短的一句话来概括你的主要工作内容和技能特点。我的工作风格是逻辑严谨、追求卓越（省略....）\n```\n## 模型详情 (Model Details)\n*   **基础架构 (Base Architecture)**: `Qwen3-0.6B`\n*   **模型参数调整 (Parameter Adjustments)**:\n    *   `rope_theta`: 我们将 `rope_theta` 参数从 `Qwen3-0.6B` 原始的 1M (1,000,000) 调整为 10,000。\n    *   `max_position_embeddings`: 将上下文长度设置为 4096。\n*   **训练序列长",
+   "bbruceyuan/AI-Interview-Code": "# AI-Interview-Code\n[](https://apecode.ai/zh) [](https://apecode.ai/zh/products/aperouter)\nAI 大模型相关算法中手写的面试题，（非 LeetCode），一般比 LeetCode 更考察一个人的综合能力，又更贴近业务和基础知识一点\n- 欢迎关注我的博客：[chaofa用代码打点酱油](https://bruceyuan.com/) ，内容一般会首先更新到博客上面，并且有更好的阅读体验。\n- 当前也欢迎关注同名公众号 **[chaofa用代码打点酱油](https://mp.weixin.qq.com/s/WxLbKvW4_9g0ajQ0wGRruQ)**，这样可以获得订阅更新\n## 目录\n| 题目 | 难度 | 知识点 | 文字解读 | 视频解读 |\n| ---- | ---- | ---- | ---- | ---- |\n| 手写 Self-Attention | ⭐⭐⭐ | 注意力机制 | [手写 Self-Attention 的四重境界](https://bruceyuan.com/hands-on-code/from-self-attention-to-multi-head-self-attention.html#%E9%9D%A2%E8%AF%95%E5%86%99%E6%B3%95-%E5%AE%8C%E6%95%B4%E7%89%88-%E6%B3%A8%E6%84%8F%E6%B3%A8%E9%87%8A) |  [](https://www.bilibili.com/video/BV19YbFeHETz/)<br />[](https://www.youtube.com/watch?v=d_jwwnYCzIg)  |\n| 手写 Multi-Head Self-Attention | ⭐⭐⭐ | 注意力机制 | [手写 Multi-Head Self-Attention](https://bruceyuan.com/hands-on-code/from-self-attention-to-multi-head-self-attention.html#%E9%9D%A2%E8%AF%95%E5%86%99%E6%B3%95-%E5%AE%8C%E6%95%B4%E7%89%88-%E6%B3%A8%E6%84%8F%E6%B3%A8%E9%87%8A) | [](https://www.bilibili.com/video/BV19mxdeBEbu/)<br />[](https://www.youtube.com/watch?v=SsWxatYLB-s) |\n| 手写 Group-Query Attention | ⭐⭐⭐ | 注意力机制 | [手写大模型组件之Group Query Attention，从 MHA -> MQA -> GQA](https://bruceyuan.com/hands-on-code/hands-on-group-query-attention-and-multi-query-attention.html) | [](https://www.bilibili.com/video/BV1ZmqpYfEGY/)<br />[](https://www.youtube.com/watch?v=1jBW7qcyd7A) |\n| 手写 Transformer Decoder（Causal Language Model, LM）| ⭐⭐⭐⭐ | Transformer 架构 | [手写 Transformer Decoder](https://bruceyuan.com/hands-on-code/hands-on-causallm-decoder.html) | [](https://www.bilibili.com/video/BV1Nh1QYCEsS/)<br />[](https://www.youtube.com/watch?v=yzEotGJaQ74)  |\n| 计算 LLM (Decoder) 模型的参数量 | ⭐⭐⭐ | 模型参数量 | TODO | [](https://www.bilibili.com/video/BV1Zw4ue2ELg/)<br />[](https://www.youtube.com/watch?v=q5quYPt2z5s)  |\n| LLM 模型训练推理显存占用预估 | ⭐⭐⭐⭐ | 显存占用 | [LLM 大模型训练-推理显存占用分析](https://bruceyuan.com/post/llm-train-infer-memoery-usage-calculation.html) |  |\n| 手写 AUC | ⭐⭐ | 模型评估 | TODO |  |\n| 手写 KMeans | ⭐⭐⭐⭐⭐ | 聚类 | TODO |  |\n| 手写 线性回归 | ⭐⭐⭐⭐⭐ | 线性回归 | TODO |  |\n| 手写 BPE 分词器 | ⭐⭐⭐⭐⭐ | 分词 | TODO |  |\n| 手写 LayerNorm | ⭐⭐ | 归一化 | TODO |  ",
+   "bbruceyuan/DeepMatch-Torch": "# DeepMatch-Torch\n[DeepMatch-Torch](https://github.com/bbruceyuan/DeepMatch-Torch) is a `PyTorch` version of [DeepMatch](https://github.com/shenweichen/DeepMatch).\n[DeepMatch-Torch](https://github.com/bbruceyuan/DeepMatch-Torch) is a PyTorch Version deep matching model library for recommendations & advertising. It's easy to **train models** and to **export representation vectors** for user and item which can be used for **ANN search**. You can use any complex model with `model.fit()` and `model.predict()`. And you can keep same habit of using DeepMatch.\nLet's [**Get Started!**](https://deepmatch.readthedocs.io/en/latest/Quick-Start.html) or [**Run examples**](./examples/colab_MovieLen1M_YoutubeDNN.ipynb) !\n## 1. Install\n1. Install `deepmatch-torch` by `pip`\n```bash\npip install deepmatch-torch\n```\n2. Install `deepmatch-torch` through source code\n```bash\ngit clone https://github.com/bbruceyuan/DeepMatch-Torch.git\ncd DeepMatch-Torch\npython setup.py install\n```\n## 2. Tutorial \nYou can run [example](https://github.com/bbruceyuan/DeepMatch-Torch/tree/main/examples) by following steps.\n```bash\ncd examples\npython run_youtubednn.py or run_fm_dssm.py\n```\n## 3. Models List\n|    Model   | Paper| \n| :------: | :----------- |\n|  [FM](https://github.com/bbruceyuan/DeepMatch-Torch/blob/main/deepmatch_torch/models/fm.py)  | [ICDM 2010][Factorization Machines](https://www.researchgate.net/publication/220766482_Factorization_Machines) |\n| [DSSM](https://github.com/bbruceyuan/DeepMatch-Torch/blob/main/deepmatch_torch/models/dssm.py) | [CIKM 2013][Deep Structured Semantic Models for Web Search using Clickthrough Data](https://www.microsoft.com/en-us/research/publication/learning-deep-structured-semantic-models-for-web-search-using-clickthrough-data/)    |\n| [YoutubeDNN](https://github.com/bbruceyuan/DeepMatch-Torch/blob/main/deepmatch_torch/models/youtubednn.py)     | [RecSys 2016][Deep Neural Networks for YouTube Recommendations](https://www.researchgate.net/publication/307573656_Deep_Neural_Networks_for_YouTube_Recommendations)            |\n| [NCF](https://github.com/bbruceyuan/DeepMatch-Torch/blob/main/deepmatch_torch/models/ncf.py)  | [WWW 2017][Neural Collaborative Filtering](h"
+  }
+ },
+ "apps": []
+}

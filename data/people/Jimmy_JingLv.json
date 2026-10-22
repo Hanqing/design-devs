@@ -1,0 +1,163 @@
+{
+ "name": "吕立青（JimmyLv）",
+ "role": "BibiGPT 创始人 · 前 Thoughtworks、阿里巴巴工程师 · 内容创作者",
+ "title": "吕立青：用算力<em>节省脑力</em>",
+ "dek": "TA 在 GitHub 上这样介绍自己：「想做产品，却误入程序世界爱上写作的摄影师。」TA 先后在 Thoughtworks 和阿里巴巴做工程师，翻译过《React 学习之道》，用 GitHub Issues 做「敏捷学习」写了十多年博客，是中文 Roam Research 社区的活跃推动者。2023 年 ChatGPT 爆发时，TA 开源了一个给 B 站视频做 AI 总结的小工具 BiliGPT，后来演变成 BibiGPT：粘贴任意视频或播客链接，30 秒得到带时间戳的总结、全文和思维导图，累计服务超过 100 万用户。",
+ "card": "BibiGPT 创始人（100 万+ 用户）；前 Thoughtworks、阿里巴巴工程师，B 站 / YouTube 创作者，成都。",
+ "location": "中国成都",
+ "updated": "2026-10-22",
+ "tags": ["AI 应用", "视频总结", "SaaS", "知识管理", "内容创作"],
+ "links": [
+  {"label": "BibiGPT", "url": "https://bibigpt.co"},
+  {"label": "jimmylv.cn", "url": "https://jimmylv.cn"},
+  {"label": "博客", "url": "https://blog.jimmylv.info"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「building bibigpt.co，learning/earning while helping others，software maker, video storyteller，🔙 alibaba @thoughtworks」。",
+  "<strong>代表作：</strong>BibiGPT（原 BiliGPT / AI 课代表，v1 开源仓库 ★6.3 千）、bibigpt-skill、ChatVox、styled-roam、《React 学习之道》中文版、基于 GitHub Issues 的博客（★729）。",
+  "<strong>关键数字：</strong>BibiGPT 累计用户 100 万+、支持 30 多个平台；GitHub 近一年贡献 17,937 次、275 个公开仓库；全网粉丝超 10 万（BibiGPT 官网）。",
+  "<strong>个人主页：</strong>「AI = All In」「Prompt, Publish, Profit」。"
+ ],
+ "lead": "BibiGPT 的关于页写着一句话：「我们相信，每个人都应该能够用算力节省脑力。」把 1 小时的视频压缩成 5 分钟的要点，把会议录音变成可检索的知识库。它最初只是 2023 年的一个开源小项目，专门总结 B 站视频，因为海外工具解析不了国内平台；三年后，它覆盖了 B 站、YouTube、抖音、小红书、小宇宙、Coursera，并且从第一天起就被设计成可以被 Agent 调用的工具。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创业者、工程师、写作者、讲师、摄影师"],
+     ["所在地", "中国成都"],
+     ["经历", "Thoughtworks 工程师 → 阿里巴巴工程师 → 独立海外 SaaS 创业者"],
+     ["公司", "EvergreenAI（GitHub 资料）；海外品牌 aitodo.co"],
+     ["社区", "#roamcult / #RoamCN 中文 Roam Research 社区"],
+     ["技术栈", "JavaScript、TypeScript、Next.js、React、Python"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "BibiGPT 是一个 <strong>AI 音视频助理</strong>：粘贴链接或上传文件，就能得到结构化总结、字幕、思维导图，并能和内容对话；进阶功能包括字幕翻译压制、看懂 PPT 和白板的视觉分析，以及把视频改写成小红书图文、公众号文章、推特长帖或 PPT 大纲，还能一键存入 Notion、Obsidian、flomo。"},
+    {"p": "2026 年，TA 把 BibiGPT 做成了「Agent 友好」的工具：提供 MCP 服务器、OpenAPI、命令行和给 Claude Code、Codex 用的 Skill，让 AI Agent 也能「看」视频。"},
+    {"note": "本页依据 bibigpt.co（首页与关于页）、jimmylv.cn、GitHub 个人 README 与仓库和 X 资料整理，资料截至 2026 年 10 月。用户数等数字来自 BibiGPT 官网。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2013–2015", "title": "博客与树莓派", "text": "注册 GitHub，开始用 GitHub Issues 写「敏捷学习」博客；做了一个可以用微信控制的树莓派空气质量监测系统。"},
+     {"when": "创业之前", "title": "Thoughtworks 与阿里", "text": "在 Thoughtworks 和阿里巴巴做工程师；做「无后端」网站技术栈、Serverless 阅读追踪系统；参与翻译《React 学习之道》。"},
+     {"when": "2020–2022", "title": "Roam 与课程", "text": "做 Roam Research 主题扩展 styled-roam、Roam 备份到 GitHub 的工具，推动中文 Roam 社区；录制前端自动化测试系列课程。"},
+     {"when": "2023", "title": "BiliGPT", "text": "开源 B 站视频 AI 总结工具 BiliGPT；24 小时黑客松做出 ChatVox。"},
+     {"when": "2024–2025", "title": "BibiGPT", "text": "演进为 SaaS 产品 bibigpt.co；扩展浏览器插件、桌面端和移动端；发布 AI 编程从 0 到 3 的新手教程。"},
+     {"when": "2026", "title": "Agent 与出海", "text": "发布 MCP、Skill 和 CLI 接入，用 aitodo.co 品牌开拓海外市场。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "BibiGPT", "url": "https://bibigpt.co",
+     "meta": ["2023–", "SaaS", "100 万+ 用户"],
+     "paras": [
+      "「1 小时视频，3 分钟看完重点。」它的原则写在关于页：用户上传的文件 30 天后自动删除、总结默认私有；尤其重视海外工具解析不了的国内平台；从知识获取到知识创作一站式；从第一天起就为大模型调用而设计。",
+      "免费版每天可总结 30 分钟以内的视频，付费版提供视觉分析、批量处理和 API。"
+     ],
+     "facts": [["开源 v1", "★6,253"], ["平台", "30 多个"]]
+    }},
+    {"work": {
+     "name": "敏捷学习博客", "url": "https://github.com/JimmyLv/jimmylv.github.io",
+     "meta": ["2013–", "GitHub Issues", "★729"],
+     "paras": [
+      "「基于 GitHub Issues 的敏捷学习，持续行动，持续反思，持续进步。」TA 用看板管理自己的学习计划，用 Issue 记录每一次复盘，把软件开发的方法用在个人成长上。"
+     ]
+    }},
+    {"work": {
+     "name": "styled-roam", "url": "https://github.com/JimmyLv/styled-roam",
+     "meta": ["2020–", "Roam Research 扩展"],
+     "paras": [
+      "为 Roam Research 提供卡片列表、卡片流、树表、文档、日历、专注等多种写作视图和主题。它体现了 TA 对「卡片式写作」和知识管理的长期兴趣。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["bibigpt-skill", "2026", "给 Claude Code、Codex 等用的视频总结 Skill"],
+      ["ChatVox", "2023", "24 小时做出的「和任意视频聊天」"],
+      ["《React 学习之道》", "—", "参与翻译的 React 入门教程中文版"],
+      ["bill-tracker", "2025", "AI 编程新手教程：一套代码做 Web、iOS、安卓三端"],
+      ["RasPi.lv", "2015", "微信控制的树莓派空气质量监测"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://jimmylv.cn", "paras": [
+     "个人主页是一个分发页：Twitter 用来「快速找到 JimmyLv 不成熟的想法」，视频用来「在互动视频里更了解 JimmyLv」，文章是深度内容，Newsletter 讲 AI 应用开发。大字写着「AI = All In」和「Prompt, Publish, Profit」。",
+     "博客则是另一个时代的样子：Jekyll 搭建，十多年的技术、阅读和反思，源码和 Issues 全部公开。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["主页", "Next.js，Vercel；内容分发导航"],
+      ["博客", "Jekyll + GitHub Issues"],
+      ["渠道", "X、B 站、YouTube、Substack、即刻"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "我们相信，每个人都应该能够用算力节省脑力。", "cite": "BibiGPT 关于页"},
+    {"p": "「learning / earning while helping others」是 TA 的 X 简介，也是 BibiGPT 的商业逻辑：帮别人更快地学习，自己也在这个过程中学习和赚钱。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "抓住国内平台的空白，用户规模大", "视频总结赛道竞争者众多"],
+      ["执行", "从开源到 SaaS 到 Agent 接入，迭代极快", "—"],
+      ["渠道", "自己就是内容创作者，懂分发", "—"],
+      ["依赖", "多平台覆盖是优势", "受各视频平台接口与政策变化影响"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从开源小工具起步：</strong>BiliGPT 先验证需求，再做成产品。",
+     "<strong>做海外工具做不到的事：</strong>国内平台是护城河。",
+     "<strong>从第一天就为 Agent 设计：</strong>API、MCP、Skill 一个不少。",
+     "<strong>把工程方法用在个人成长上：</strong>用 Issues 做敏捷学习。",
+     "<strong>自己做内容，自己做分发：</strong>创作者也是最好的产品经理。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "BibiGPT", "url": "https://bibigpt.co", "why": "粘贴一个你收藏很久的长视频试试。"},
+     {"name": "敏捷学习博客", "url": "https://github.com/JimmyLv/jimmylv.github.io/issues", "why": "看十多年的持续复盘。"},
+     {"name": "styled-roam", "url": "https://github.com/JimmyLv/styled-roam", "why": "给你的 Roam 换一种写作视图。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你一直没时间看完的长视频，让 AI 先给你一份带时间戳的提纲。",
+ "sources": [
+  {"label": "吕立青的 X 个人资料", "url": "https://x.com/Jimmy_JingLv"},
+  {"label": "BibiGPT", "url": "https://bibigpt.co"},
+  {"label": "关于 BibiGPT", "url": "https://bibigpt.co/about"},
+  {"label": "jimmylv.cn", "url": "https://jimmylv.cn"},
+  {"label": "GitHub：JimmyLv", "url": "https://github.com/JimmyLv"}
+ ]
+}

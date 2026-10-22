@@ -1,0 +1,171 @@
+{
+ "name": "RC（Richard Chien / stdrc）",
+ "role": "Botiverse 联合创始人兼 CEO · Raft 作者 · 前 Kimi CLI 作者 · 前 RisingWave 数据库内核工程师",
+ "title": "stdrc：<em>造生态</em>，而不只是造软件",
+ "dek": "TA 从 2013 年开始写博客，记录 Octopress、树莓派和 Android NDK；后来写出 NoneBot，一个基于 OneBot 标准的 Python 异步 QQ 机器人框架，成了中文机器人社区的基础设施。TA 在上海交大 IPADS 实验室做过操作系统相关工作（据其培训讲义），写 ARM 虚拟化、用 Rust 写内核、给新人讲 Modern CMake；之后在 RisingWave 做流数据库内核。2025 年，TA 在月之暗面写出了 Kimi CLI 以及配套的 Agent 框架；如今 TA 是 Botiverse 的联合创始人兼 CEO，在做一个让人和 AI Agent 平等协作的即时通讯工作区 Raft。",
+ "card": "Botiverse 联合创始人兼 CEO，Raft 作者；前 Kimi CLI 作者、RisingWave 内核工程师，NoneBot 作者。",
+ "location": "新加坡（据 2024 年博客自述）",
+ "updated": "2026-10-22",
+ "tags": ["AI Agent", "即时通讯", "数据库", "操作系统", "开源"],
+ "links": [
+  {"label": "Project RC（博客）", "url": "https://stdrc.cc"},
+  {"label": "Raft", "url": "https://raft.build"},
+  {"label": "GitHub：stdrc", "url": "https://github.com/stdrc"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 自述「I build ecosystems, not just software.」X 简介「co-founder and CEO @botiverse building raft.build，former author of Kimi CLI，ex-database kernel engineer @RisingWaveLabs」。",
+  "<strong>代表作：</strong>Raft、Kimi CLI（★1.1 万，已归档）、kimi-agent-sdk、kosong、agent-vault、NoneBot（★2.2 千）、Modern CMake By Example（★662）、PurePress。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 8,364 次；博客 2013 年至今；X 关注者约 1.4 万。",
+  "<strong>博客栏目：</strong>演讲、读书、锐评、音乐库，以及一篇虚构短篇小说《D10144》。"
+ ],
+ "lead": "Raft 官网的演示里，工程频道是这样的：Richard 问 @Tenny PR #982 的 CI 怎么样了；Tenny 回答全绿，等 @tygg 签字就合并；XX 说已经审完守护进程的竞态问题；Stone 报告预发环境 p99 降了 18%。你分不出哪些是人、哪些是 Agent，这正是它想要的：「工作的未来不是人使用 AI 工具，而是人和 AI Agent 一起构建。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创业者、工程师、开源作者"],
+     ["所在地", "新加坡（据 2024 年博客自述）"],
+     ["经历", "NoneBot 作者 → 上海交大 IPADS 实验室（操作系统）→ RisingWave 数据库内核工程师 → 月之暗面 Kimi CLI 作者 → Botiverse 联合创始人兼 CEO"],
+     ["开源", "Raft（源码可见）、Kimi CLI、kimi-agent-sdk、kosong、pykaos、agent-vault、NoneBot、PurePress"],
+     ["技术栈", "Python、TypeScript、Rust、C / C++、Go"],
+     ["博客", "Project RC（自研静态博客生成器 PurePress）"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "RC 一直在做<strong>「人和机器人一起工作」</strong>这件事：早年做 QQ 机器人框架，2025 年做终端里的编程 Agent，现在做人和 Agent 平等协作的工作区。Raft 里的 Agent 是持久的参与者，有自己的身份、记忆和能力边界，作为真实进程运行在真实机器上，和人一起出现在频道、话题、私信和任务里。"},
+    {"p": "Raft 的博客也很有意思：他们写怎样在提示缓存过期后重建 Agent 的初始上下文、把冷启动成本降 60%；写「当 AI 来写代码，开源该怎么做」，以及为什么改为发布源码可见的快照、用「提示请求」代替 Pull Request。"},
+    {"note": "本页依据 stdrc.cc（文章列表与关于页）、GitHub 个人 README 与项目 README、raft.build 及其博客和 X 资料整理，资料截至 2026 年 10 月。TA 的学校与在月之暗面的职位未见本人正式说明，本页依据仓库与培训材料推断其所属实验室，不作更多推断。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2013–2016", "title": "早期博客", "text": "写 Octopress 建站、树莓派、Android NDK、JNI、AOSP 编译；做过博客程序 BlogA。"},
+     {"when": "2017–2019", "title": "QQ 机器人与 NoneBot", "text": "写 QQ 机器人教程、VeriPress 博客引擎；做以 QQ 消息为传输介质的协议 QDP；创建 NoneBot。"},
+     {"when": "2020–2022", "title": "操作系统", "text": "研究 ARM GIC 虚拟化、AArch64 内核、用 Rust 写操作系统、ChCore 构建系统；2021 年在 IPADS 实验室给新人讲 Modern CMake。"},
+     {"when": "2023 前后", "title": "RisingWave", "text": "做流数据库内核，写《RisingWave 窗口函数：滑动的艺术与对称的美学》；2024 年初移居新加坡。"},
+     {"when": "2025", "title": "Kimi CLI", "text": "在月之暗面写 Kimi CLI：一个有主见的编程 Agent、AI Shell 和 Agent 框架，配套 kosong、pykaos 和 kimi-agent-sdk；后被新一代 Kimi Code CLI 取代并归档。"},
+     {"when": "2026", "title": "Botiverse 与 Raft", "text": "联合创办 Botiverse，任 CEO，发布 Raft 并公开源码快照；写虚构短篇《D10144》。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Raft", "url": "https://raft.build",
+     "meta": ["2026", "TypeScript", "源码可见"],
+     "paras": [
+      "「Where humans and AI agents build together.」仓库包含服务端（Socket.IO 实时通信）、Web 客户端、人和 Agent 共用的 raft 命令行、在机器上运行 Agent 并代管凭据的守护进程，以及在自己电脑上托管 Agent 的运行时。源码镜像每个版本一个快照，不接受 PR。"
+     ],
+     "facts": [["源码镜像", "★645"]]
+    }},
+    {"work": {
+     "name": "Kimi CLI", "url": "https://github.com/MoonshotAI/kimi-cli",
+     "meta": ["2025", "Python", "★1.1 万"],
+     "paras": [
+      "月之暗面的终端编程 Agent。RC 在个人 README 里把它描述为「有主见的 AI 编程 Agent、AI Shell 和 Agent 框架」，并拆出了大模型抽象层 kosong 和受控访问文件系统与进程的系统抽象层 pykaos。项目现已归档，由 Kimi Code CLI 接替。"
+     ],
+     "facts": [["GitHub", "★11,418"]]
+    }},
+    {"work": {
+     "name": "NoneBot", "url": "https://github.com/nonebot/nonebot",
+     "meta": ["2018–", "Python", "★2.2 千"],
+     "paras": [
+      "基于 OneBot 标准的异步 QQ 机器人框架：解析消息，按插件分发给命令处理器和自然语言处理器，提供会话机制和权限控制。它和后来的社区项目成为中文聊天机器人开发的重要基础。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["agent-vault", "2026", "让 Agent 读写文件时识别并保护密钥"],
+      ["Modern CMake By Example", "2021", "IPADS 新人培训讲义（★662）"],
+      ["PurePress", "2020", "简单的静态博客生成器，驱动自己的博客"],
+      ["chinese-colors", "2026", "中国传统色查询"],
+      ["longshot", "2025", "长截图拼接，「纯 vibe engineering」"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://stdrc.cc", "paras": [
+     "博客叫「Project RC」，用自己写的 PurePress 生成，首页就是从 2013 年到 2026 年的完整文章列表，页脚一句「己所不欲，勿施于人」。导航里有风格指南、演讲、读书、锐评和音乐库。",
+     "文章的变化就是一条成长曲线：从建站和翻墙，到 C++ 陷阱、ARM 虚拟化、Rust 内核，再到数据库窗口函数，最后是哲学、音乐和一篇科幻小说。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "PurePress（自研）"],
+      ["内容", "系统编程、年度回顾、哲学与小说"],
+      ["节奏", "2013 年至今，近年变少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-01-12", "title": "D10144", "url": "https://stdrc.cc/post/2026/01/12/d10144/"},
+     {"date": "2025-05-10", "title": "人是什么 1", "url": "https://stdrc.cc/post/2025/05/10/humanity-1/"},
+     {"date": "2023-09-22", "title": "RisingWave 窗口函数：滑动的艺术与对称的美学", "url": "https://stdrc.cc/post/2023/09/22/risingwave-window-function/"},
+     {"date": "2021-12-19", "title": "对开源的一些感悟", "url": "https://stdrc.cc"},
+     {"date": "2021-01-31", "title": "用 Rust 写操作系统的踩坑记录", "url": "https://stdrc.cc"}
+    ]},
+    {"quote": "I build ecosystems, not just software.", "cite": "RC，GitHub 个人 README"},
+    {"p": "从 NoneBot 的插件生态，到 Kimi CLI 拆出的 SDK 和抽象层，再到 Raft 的开放 CLI 与 SDK，TA 做的东西都希望别人能在上面继续搭建。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["广度", "机器人、操作系统、数据库、Agent 都做到一线", "—"],
+      ["生态", "善于拆出可复用的层", "—"],
+      ["产品", "Raft 理念清晰", "创业早期，赛道竞争激烈"],
+      ["开源", "持续分享", "Raft 为源码可见而非开源许可"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>造生态，不只造软件：</strong>拆出别人能复用的层。",
+     "<strong>把系统底层学扎实：</strong>OS 与数据库经验让 Agent 工程更稳。",
+     "<strong>让 Agent 成为正式成员：</strong>有身份、记忆和边界。",
+     "<strong>重新思考开源：</strong>当 AI 写代码时，贡献方式也会改变。",
+     "<strong>博客写一辈子：</strong>从建站笔记写到哲学。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Raft", "url": "https://raft.build", "why": "体验人和 Agent 同频道协作。"},
+     {"name": "Raft 博客", "url": "https://raft.build/resources/blog/", "why": "读 Agent 工程与开源的新思考。"},
+     {"name": "Modern CMake By Example", "url": "https://github.com/stdrc/modern-cmake-by-example", "why": "一份讲得很清楚的 CMake 入门。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你的团队频道里给 Agent 一个名字和明确的职责边界，再看看协作会有什么变化。",
+ "sources": [
+  {"label": "stdrc 的 X 个人资料", "url": "https://x.com/istdrc"},
+  {"label": "Project RC（stdrc.cc）", "url": "https://stdrc.cc"},
+  {"label": "GitHub：stdrc", "url": "https://github.com/stdrc"},
+  {"label": "Raft", "url": "https://raft.build"},
+  {"label": "MoonshotAI/kimi-cli", "url": "https://github.com/MoonshotAI/kimi-cli"},
+  {"label": "nonebot/nonebot", "url": "https://github.com/nonebot/nonebot"}
+ ]
+}

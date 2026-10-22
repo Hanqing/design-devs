@@ -1,0 +1,514 @@
+{
+ "handle": "oldj",
+ "sites": [
+  {
+   "url": "https://oldj.net",
+   "ok": true,
+   "title": "oldj's blog",
+   "description": "oldj's blog",
+   "stack": [
+    "Next.js",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [],
+   "lang": "zh",
+   "home_text": "oldj's blog \n编程，写作，以及涂鸦 \n 首页 文章 \n 产品 \n WonderPen - 妙笔 Tuji - 图几 SwitchHosts 留言 关于 \n 从网文看独立开发 \n2026-09-21 \nAI 让写软件的门槛大大降低了，于是这两年独立开发者和软件数量都有了一个爆发式的增长。但很多人一头扎进来之后，发现自己写的软件似乎没人用，也几乎没有赚到钱。这个情况其实和隔壁的网文圈很类似，在网络小说... 阅读全文 \n WonderPen 存储格式迁移历程 \n2026-08-18 \n最近几年我一直在开发写作软件&nbsp;WonderPen，去年我对 WonderPen 的底层数据存储格式做了一个重大重构，将原本使用 JSON 存储的数据迁移到了 SQLite 数据库。这儿回顾记... 阅读全文 \n 挖井 \n2026-07-19 \nAI 时代，软件开发的门槛大大降低了。这两年经常看到有人说，用 AI 每个月 vibe 一个 App 出来，不成功就换一个，做上 n 个总会有成功的。这个说法让我想起来以前看过的一幅漫画：一个人挖井，... 阅读全文 \n SwitchHosts 5.0 \n2026-05-26 \n一转眼，SwitchHosts 已经存在了 15 年了，距离上一个大版本更新也过去 5 年了。最近抽空把 SwitchHosts 升级到了 5.0，最大的变化是将底层从 Electron 换成了 Ta... 阅读全文 \n 开源本站博客系统 - Publa \n2026-05-12 \n自从 2010 年注册了域名 oldj.net 并架设了这个博客，一转眼已经 16 年了，这么长的时间足够发生很多事，比如杨过和小龙女都已经再次重逢了，本站也经历过了 N 次重构甚至推倒重来。最近，在... 阅读全文 \n 当写作软件遇上 AI：Scrivener 论坛上一场持续三年的产品哲学之争 \n2026-05-02 \n老牌写作软件 Scrivener 的论坛上有一篇关于是否要支持 AI 的帖子，我花了一些时间仔细地把这篇帖子以及所有回复读了一遍。读完之后，我发现这不是一个简单的“要不要 AI”的技术讨论，更是一场关... 阅读全文 \n 使用 GitHub Action 自动更新 SSL 证书 \n2026-04-10 \n之前写过一篇使用 acme.sh 申请 SSL 证书的帖子，最近把这个流程放到了 GitHub Action 上自动化完成，在这儿记录一下要点。GitHub Action 是托管在 GitHub 上的... 阅读全文 \n AB 工作法 \n2026-03-25 \n什么是 AB 工作法\n想象一下，你有两个工作台：\nA 工作台上摆着你最重要的那个大项目——可能是一个复杂的架构设计，可能是一本书的核心章节，或者是一个需要深度思考的研究课题。这个工作需要你全神贯注，不... 阅读全文 \n 使用 uv 管理 Python 依赖 \n2025-11-29 \n我有一个运行了好几年的 Django 项目，之前一直在使用默认的 pip 管理和安装依赖，最近切换到了 uv，感觉还不错，在这儿记录一下。\n什么是 uv\n根据官网的介绍，uv 是一个 Python 包... 阅读全文 \n 富文本框架体验 \n2025-06-21 \n由于项目中要使用富文本编辑器，过去一段时间我深入研究了一下几个知名的富文本框架，在这儿写一下体验。\n这不是一个全面的分析，仅代表个人观点。\nQuill\n我最开始尝试的是 Quill 项目，因为它看起来... 阅读全文 \n 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26",
+   "github_links": [],
+   "subpages": {
+    "https://oldj.net/posts": "oldj's blog \n编程，写作，以及涂鸦 \n 首页 文章 \n 产品 \n WonderPen - 妙笔 Tuji - 图几 SwitchHosts 留言 关于 \n文章 \n2026 \n 09/21 从网文看独立开发 \n 08/18 WonderPen 存储格式迁移历程 \n 07/19 挖井 \n 05/26 SwitchHosts 5.0 \n 05/12 开源本站博客系统 - Publa \n 05/02 当写作软件遇上 AI：Scrivener 论坛上一场持续三年的产品哲学之争 \n 04/10 使用 GitHub Action 自动更新 SSL 证书 \n 03/25 AB 工作法 \n2025 \n 11/29 使用 uv 管理 Python 依赖 \n 06/21 富文本框架体验 \n 05/02 使用函数计算运行定时任务 \n 04/20 使用 Dokploy 部署网站服务 \n2024 \n 11/28 Electron 中的 Kiosk 窗口 \n 09/23 使用 acme.sh 申请 SSL 证书 \n 08/09 处理苹果平台的 CONSUMPTION_REQUEST 消息 \n 06/27 在 Flutter 中适配 1Password 登录 \n 04/21 从打牌想到的 \n 03/08 读《星震》 \n 02/23 不要做“微操”型管理者 \n 01/07 怀念爷爷 \n2023 \n 12/31 也谈西方伪史论 \n 12/19 增加新的柜员后会发生什么？ \n 08/01 Electron 使用 OV 代码签名证书 \n 06/27 Discourse 集成 Django 登录 \n 06/05 批量修改图片的 DPI \n 05/04 关于我的 Name.com 账号被关闭这件事 \n 04/28 使用 GPT-4 开发熄灯游戏 \n 04/06 一些只能看不能读的文字 \n 02/27 AI 将是新的农业 \n 02/15 读《老后破产》 \n 02/03 基于 Next.js 建立文档站点 \n 01/13 大志、良谋与机志 \n 01/09 笔记软件与写作软件的不同 \n2022 \n 12/09 奇点临近：Copilot 与 ChatGPT \n 11/19 参加阅读马拉松活动 \n 10/04 读《糖贝贝日记》 \n 09/29 回忆一位长辈 \n 09/16 从提前完成作业想到的 \n 07/15 Electron 在 Windows 下的代码签名 \n 07/08 使用 React 开发 Chrome 扩展 \n 06/24 使用 umami 统计 \n 06/17 关于战争的一个科幻预测 \n 06/05 博客系统（2022） \n 05/07 读《龙蛋》 \n 04/17 K3s + Rancher 安装笔记 \n 02/26 无法用语言描述的数字 \n2021 \n 12/12 一个关于产品需求的幸存者偏差 \n 04/18 SwitchHosts v4.0 发布 \n 01/13 也谈 996 \n2020 \n 09/20 原子的故事 \n 09/13 哈雷彗星的故事 \n 06/06 涂鸦之水兵月重绘挑战 \n 05/14 数列找规律的问题 \n 04/18 涂鸦之《表里不一》 \n 04/11 涂鸦之《梦中的故事》 \n 04/06 涂鸦之《奇怪的恐惧》 \n 03/31 一个关于成长的经验公式 \n 01/19 冠军之路一瞥 \n2019 \n 12/29 macOS 下 Electron 程序的签名及公证 \n 12/22 读《宇宙晶卵》 \n 11/30 一个 UED 团队的自我修养 \n 11/01 一个随机字符串生成 App \n 10/18 读《魔鬼数学》 \n 10/05 读《神们自己》 \n 10/04 读《永恒的终结》 \n 10/03 博客迁移记录 \n 07/27 SwitchHosts! v3.4 \n 07/09 一道无穷个 x 乘方的数学题 \n 06/30 CodeMirror 中固定滚动位置 \n 06/15 如何获取浏览器的语言 \n 06/08 使用 PICO-8 开发迷宫小游戏 \n 05/24 素数日 \n 05/23 真理与少数人的悖论 \n 04/27 涂鸦之《各退一步》 \n 01/11 未来 50 年外星人降临地球的概率 \n 01/05 设计目标的三个层次 \n2018 \n 11/16 使用 Python 生成不规则形状的图形 \n 08/24 改进版迷宫 \n 07/27 用三个数字计算 6 的问题 \n 04/23 一个简单的有限状态机（easy-fsm） \n 02/25 因贫穷而贫穷 \n 02/04 读《中国史纲》 \n 01/21 用遗传算法求解旅行商问题（JavaScript 版） \n 01/05 修仙过滤器与费米悖论 \n2017 \n 11/12 Sequelize.js + SQLite 路径中包含空格的问题 \n 11/01 使用 Node.js 模拟滑动验证码操作 \n 04/24 加法器原理 \n 04/03 SwitchHosts! 支持 Alfred 小记 \n 03/26 涂鸦之《彩虹恐龙》 \n 03/05 关于智慧的思考 \n 02/06 Electron 中读取系统字体列表 \n 01/23 关于 JavaScript 的数组随机排序 \n 01/13 迁移到 WordPress.com \n2016 \n 11/21 妙笔 - 一款专注于写作的软件 \n 06/14 黑客的统计学 \n 04/01 代码是如何被写短再写长的 \n 01/31 涂鸦之《年会绝技》 \n 01/17 涂鸦之意外 \n2015 \n 12/20 SwitchHosts! 3 \n 09/07 HTML5 塔防游戏小更新 \n 07/19 一个简单的 JavaScript 模块加载器 \n 06/29 一道数学题及其证明 \n 04/30 《代码英雄传》 \n2014 \n 12/29 涂鸦之老婆大人 \n 06/05 查 IP 归属地的 Chrome 插件 \n 05/18 《Web 性能实践日志》 \n 03/15 涂鸦之南方巨兽龙 \n 02/15 IE 中使用 location.href 跳转丢失 referrer 的问题 \n 02/01 关于 2014 的最大算式 \n2013 \n 11/25 当你被人拒绝的时候 \n 10/29 在线生成热图的 JavaScript 库：heatmap.js \n 09/21 关于乱停车的概率题 \n 09/07 网格路径问题 \n 08/11 如何判断用户是否访问过某个网址 \n 07/19 图片：A/B 测试与多变量测试要点 \n 07/15 A/B 测试案例 (1) \n 05/25 关于切尾均值 \n 03/29 使用 new Image() 打点时的一个注意事项 \n 03/21 用户体验的数据与数据的用户体验 \n 03/03 当浏览器默认禁用第三方 cookie \n 02/17 Ier 与 Ter \n 01/25 《jQuery Mobile 即学即用》译者序 \n 01/12 涂鸦之听风者 \n2012 \n 12/31 我的 2012 \n 12/27 代码中的 Zipf 定律 \n 11/26 JavaScript 写的网页迷宫游戏（三） \n 11/2",
+    "https://oldj.net/about": "oldj's blog \n编程，写作，以及涂鸦 \n 首页 文章 \n 产品 \n WonderPen - 妙笔 Tuji - 图几 SwitchHosts 留言 关于 \n关于 \n本站是 oldj 的个人博客网站。 \n oldj（老杰），男，80 后中年人，住在杭州。毕业于中科大，曾在阿里工作超过 8\n 年，目前在一个小而美的团队，负责产品和技术工作。主要专长于 Web\n 端技术，也对用户体验、算法、数据分析、AI\n 等领域有着浓厚的兴趣。爱编程，也爱涂鸦；爱生活，也爱折腾。\n如无特别说明，本站文章都是原创，转载请注明出处。 \n我的项目 \n 妙笔 / WonderPen \n 专业的写作应用 \n 图几 / Tuji \n 截图 + 标注 + 美化 \n ccReader \n 清爽的 TXT 电子书阅读器 \n我的开源项目 \n SwitchHosts \n 在多个 hosts 方案之间切换的小工具 \n Publa \n 博客系统，当前博客即是基于这个系统 \n HTML5塔防游戏 \n 纯前端技术实现的塔防游戏 \n big-int.js \n JavaScript 大整数算术运算库 \n pyHeatMap \n Python 生成热图的库 \n我的翻译 \n 《JavaScript权威指南》第6版 \n 译者之一 \n 《jQuery Mobile即学即用》 \n 译者之一 \n 《Web性能实践日志》 \n 译者之一 \n我的书/文集 \n 《川流》 \n 科幻小说 \n 《代码英雄传》 \n 武侠小说 \n 《地球上的背包客》 \n 科幻小说 \n* 本站基于 Publa 系统搭建。 \n联系我 \n Twitter \n 新浪微博 \n GitHub \n oldj.wu@gmail.com \n 留言"
+   },
+   "feed": {
+    "url": "https://oldj.net/rss.xml",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "从网文看独立开发",
+      "date": "Mon, 21 Sep 2026 07:25:44",
+      "url": "https://oldj.net/posts/what-web-fiction-can-teach-us-about-indie-development"
+     },
+     {
+      "title": "WonderPen 存储格式迁移历程",
+      "date": "Tue, 18 Aug 2026 11:47:36",
+      "url": "https://oldj.net/posts/wonderpen-storage-evolution"
+     },
+     {
+      "title": "挖井",
+      "date": "Sun, 19 Jul 2026 03:11:15",
+      "url": "https://oldj.net/posts/dig-a-well"
+     },
+     {
+      "title": "SwitchHosts 5.0",
+      "date": "Tue, 26 May 2026 02:40:32",
+      "url": "https://oldj.net/posts/switchhosts-5"
+     },
+     {
+      "title": "开源本站博客系统 - Publa",
+      "date": "Tue, 12 May 2026 03:24:59",
+      "url": "https://oldj.net/posts/hello-publa"
+     },
+     {
+      "title": "当写作软件遇上 AI：Scrivener 论坛上一场持续三年的产品哲学之争",
+      "date": "Sat, 02 May 2026 05:30:55",
+      "url": "https://oldj.net/posts/three-year-ai-debate-on-scrivener-forum"
+     },
+     {
+      "title": "使用 GitHub Action 自动更新 SSL 证书",
+      "date": "Fri, 10 Apr 2026 04:34:41",
+      "url": "https://oldj.net/posts/update-ssl-with-github-actions"
+     },
+     {
+      "title": "AB 工作法",
+      "date": "Wed, 25 Mar 2026 11:20:00",
+      "url": "https://oldj.net/posts/the-ab-method"
+     },
+     {
+      "title": "使用 uv 管理 Python 依赖",
+      "date": "Sat, 29 Nov 2025 07:26:00",
+      "url": "https://oldj.net/posts/python-with-uv"
+     },
+     {
+      "title": "富文本框架体验",
+      "date": "Sat, 21 Jun 2025 09:31:00",
+      "url": "https://oldj.net/posts/rich-text-editor-experience"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://WonderPen.app",
+   "ok": true,
+   "title": "WonderPen | 妙笔 - 专业的长文写作应用",
+   "description": "专业的长文写作应用",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "zh",
+   "home_text": "简体中文 登录 \n妙笔 / WonderPen \n让浩瀚文思绽放如花 \n妙笔是一款专业的写作应用，为小说、论文、短文、日记等创作提供专注且流畅的写作体验。 \n 免费下载 查看定价 \n 支持 Windows、macOS、Linux、iOS 与 Android \n Highlights \n为长文写作而生 \n从整理设定、搭建结构、沉浸写作到排版导出，每一步都有趁手的工具。 \n 01 · 构思 \n设定与灵感，随手可查 \n人物、地点、时间线……，写作时需要参考的资料，用卡片、白板和思维导图集中管理，不必在多个文件之间来回切换。 \n思维导图发散灵感、梳理情节 \n卡片列表记录人物与设定 \n正文中高亮卡片标题，随时参考 \n 思维导图 正文高亮卡片 \n 02 · 组织 \n用树状目录驾驭长篇 \n用树状目录组织文档，层级不限。无论短篇还是长篇，结构都清清楚楚。 \n无限层级目录 \n章节随时切分与合并 \n大纲视图总览各章节 \n 无限层级 每章字数统计 \n 03 · 写作 \n沉浸其中，只管写下去 \n专注、极简、打字机三种模式帮你屏蔽干扰；写作目标与码字统计，让每天的进展看得见。 \n专注模式、极简模式、打字机模式 \n编辑器分栏，对照参考 \n写作目标与码字统计 \n 专注 · 极简 · 打字机 \n 04 · 完稿 \n排版导出，轻松完稿 \n写完之后，一键排版让全文整齐有序，再导出为图片、PDF、Word、Epub、网页等格式；多个章节还可以批量导出为一部完整的作品。 \n一键排版，全文整齐有序 \n导出为图片、PDF、Word、Epub、网页等格式 \n多个章节批量导出为一部作品 \n 一键排版 合并导出 \n Features \n更多贴心功能 \n从构思到完稿，每个环节都有趁手的工具。 \n构思 灵感与资料 \n 白板 自由摆放卡片，规划情节与设定 \n 思维导图 发散灵感，梳理情节与时间线 \n 卡片列表 记录人物与设定，随时翻看 \n 高亮卡片 正文中的卡片标题自动高亮 \n 文档备注 每篇文档都有专属备注 \n 编辑器分栏 双栏对照，边看资料边写 \n组织 结构与排版 \n 树状目录 无限层级，长篇短篇都好管理 \n 大纲视图 表格总览章节，可自定义字段 \n 章节切分与合并 先写后分，随时拆分或合并 \n 自动编号 新建章节，编号自动延续 \n 一键排版 一键让全文整洁有序 \n 码字统计 每章、每日字数一目了然 \n写作 专注与舒适 \n 专注模式 全屏或极简界面，只留下文字 \n 打字机模式 光标始终停在屏幕中间 \n 写作目标 设定目标，实时跟踪进度 \n 所见即所得 粗体、列表、公式直接编辑 \n 自动替换 标点自动配对，简写自动展开 \n 主题与外观 多种主题，字体、行距随心调 \n交付与守护 导出与数据安全 \n 多格式导出 图片、PDF、Word、Epub、网页 \n 离线优先 数据存在本地，断网也能写 \n 云同步 云文档库在多设备间同步 \n 自动备份 默认每 15 分钟全库备份一次 \n 文档快照 随时找回文档的历史版本 \n 界面锁定 临时离开时，不让他人看到 \n还有更多功能，详见 使用手册 \n Everywhere \n在每一台设备上写作 \n桌面端与移动端均可使用。 \n Windows Windows 10 / 11 macOS Intel 与 Arm 芯片 Linux DEB / AppImage iOS App Store Android APK 安装包 \n数据保存在本地，离线也能写作；云文档库可在设备间同步。 \n Testimonials \n深受作者喜爱 \n来自签约作者、书评人与自由撰稿人的真实评价 \n妙笔很不一样，它让我感受到了对用户的尊重和体贴。从下载那天起不到一个月，今天我修文结束，感谢妙笔，这次修文全程流畅又快乐！ \n 红摇 代表作品《引郎入室》《宠爱有加》等。 头条文章作者 \n你大概体会不到我有多喜欢这个产品，这么说吧，自从用了妙笔，我就几乎不用 Word 了。 \n 一只圆飞机 上海译文签约书评人 \n我是妙笔最早期的一批用户，在我用妙笔写文的同时，妙笔也在不断成长。快照功能、白板卡片、自定义元数据、写作目标，越来越多好用的功能被程序员大大创造出来，码起字来的体验简直太棒了！自从用了妙笔写文，我已经离不开它了~。希望我用妙笔创作出更多精彩的故事，一路妙笔生花！ \n 大虎子 自由撰稿人 \n作为文字工作者，能找到这样一款完美契合中文写作的软件太不容易了，很惊喜！ \n Vidaant Mac App Store 用户 \n很容易上手的写作利器，让人可以专注地写作。在篇幅长且复杂的情景下，修改调整章节和顺序很方便。谢谢妙笔在《糖贝贝日记》写作过程中的助力！ \n 朱泓默 生活的研习室主理人，自由摄影师，著有《梦想花园》《糖贝贝日记》等 \n妙笔对于文字工作者来说是一个不错的创作利器，这么多年一直不断更新完善，开发者非常用心，尤其是对国产系统的支持，更是做到了无微不至，功能强悍。希望以后它会做得更好，让更多的人认可。 \n 明月之舞 17k 签约作者、湖南网络作家协会会员 \n试用了一天后便果断入手，从此写文就只用它了。最让人感到暖心的是软件开发者细致的服务态度，总会不厌其烦地亲自给予回应与反馈。就我个人平时写文的经验来看，妙笔 2.0 在使用体验上已十分 OK，功能也基本齐全，是很值得写文者入手的软件之一。再加上作者那份责任心，相信妙笔软件将会越来越完美，大家使用起来也会越来越顺手。 \n 玫瑰猪头 自由写作人 \n一款非常有用、有思想的应用程序，它应该更知名。 \n Wombloid Mac App Store 用户 \n写作五六年，妙笔三四年，一直见证着妙笔的成长，喜欢妙笔的原因有很多，在好用的基础上，还有就是那种共情：“软件与写作的作者，都在键耕不缀的更新，都在聆听每一个声音，都在努力做到满意。”\n 有妙思不如有妙笔，一人鸣不如一同鸣！ \n 不要香菜要芫荽 自由撰稿人 \n妙笔，简洁高效，让浩瀚文思绽放如花不再是过去式。 \n 黄焖鸡米饭 番茄小说网签约作者 \n在成神的路上，你应该有一个好的写作软件——妙笔。 \n 猫哥 起点中文网签约作者 \n这些年来，我使用了很多写作应用程序，从简单的记事本到 Ulysses 和 Scrivener。虽然高端应用在作家的生活中占有一席之地，但我发现 WonderPen 满足了我对专注于写作的写作应用的需求。开发人员在回答问题时响应很快，支持你们！ \n Scruffy_Dog Mac App Store 用户 \n 展开全部评价 \n Pricing \n选择适合你的版本 \n基础功能免费使用，需要时再升级。 \n基础版 \n提供基础写作功能，免费下载和使用。 \n 免费 \n无需付费 免费下载 \n文档创建与编辑 \n白板与卡片 \n导入 txt 文件 \n导出为 Word / PDF / Epub \n文档库备份与恢复 \n1 个云文档库 \nPro \n解锁各项高级功能，适用于本地写作场景或单机模式。 \n ￥ 128 \n一次性购买，可永久使用，无需订阅 购买 Pro \n所有基础版功能 \n多种主题配色 \n自定义 CSS \n更多的卡片数量支持 \n云端快照保留 30 天 \n1 个云文档库 \n 推荐 \nPro+ \n 年付 省 40% 月付 \n更多的云端功能和额度，多设备同步，随时随地写作。 \n ￥ 128 / 年 \n按月或按年订阅 订阅 Pro+ \n所有 Pro 版功能 \n1000 个云文档库 \n每个云文档库 2 万条目 \n每个条目 10 万字符 \n云端快照保留 90 天 \n更大的附件空间 \n 订阅满 18 个月， 额外赠送永久 Pro 版 \n 查看完整功能对比 \n FAQ \n常见问题 \n 妙笔是什么？ \n妙笔是一款专业的写作应用，适合小说、论文、短文、日记等写作场景。从构思、组织到写作、完稿，每个环节都有趁手的工具，助你专注且流畅地写下去。 妙笔免费吗？ \n基础版可免费下载和使用，包含文档编辑、白板与卡片、导出为 Word / PDF / Epub、文档库备份与恢复等功能，还自带 1 个云文档库（最多 500 个条目）。 \n需要多种主题配色、自定义 CSS 等高级功能时，可以购买 Pro；需要更多云文档库和云端空间时，可以订阅 Pro+。 支持哪些设备？可以在多台设备上同步吗？ \n妙笔支持 Windows、macOS、Linux、iOS 与 Android，可在 下载页 获取。使用云文档库时，内容修改后会自动同步，在电脑上写了一半，可以在手机上接着写。 \n手机端目前只支持云文档库，基础版、Pro 版自带 1 个云文档库。 我的稿件存在哪里？安全吗？ \n本地文档库只保存在你的电脑上，不会上传；云文档库会同步到妙笔的服务器，方便多设备写作。妙笔默认每 15 分钟自动备份一次当前文档库，并保留文档快照，可以随时找回历史版本。 \n建议在设置中再添加一个额外备份位置（如另一块硬盘或网盘文件夹），让稿件多一份保障。 Pro 和 Pro+ 有什么区别？ \nPro 一次购买、永久使用，解锁各项高级功能，但只含 1 个云文档库，条目数和附件空间也较少，适合主要使用本地文档库写作的场景。 \nPro+ 按月或按年订阅，包含 Pro 的全部功能，另有 1000 个云文档库，每个库的条目数、附件空间等额度也大幅提高，适合需要经常在不同设备写作的场景。 \n两者的区别主要在云文档库，详见 完整功能对比 ；本地文档库则不分版本，所有用户（包括免费版）都可以无限创建。 \n免费下载，即刻开始写作 \n基础写作功能免费使用，需要更多高级功能时再升级会员。 \n 免费下载 查看定价方案",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://Tuji.app",
+   "ok": true,
+   "title": "图几 - Mac 截图、标注与美化工具",
+   "description": "图几是一款 macOS 截图应用。截下画面，圈出重点，再配上背景、圆角与阴影，一键复制或保存。",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "zh",
+   "home_text": "图几 \n EN 中文 下载 \n图几 / Mac 截图工具 \n 截图 、 标注 、 美化 ，\n 一气呵成。 \n图几是一款 macOS 截图应用。截下画面，圈出重点，再配上背景、圆角与阴影，一键复制或保存。 \n Mac App Store 自动更新 · App Store 统一管理 \n 直接下载 官网授权 · .dmg \n适用于 macOS 12.3 及以上 · 免费使用 · Pro 一次买断 \n 三步 一个窗口 \n 01 截图 02 标注 03 美化 \n 01 / 截图 \n窗口、区域或整个屏幕，按一下快捷键。 \n刚截下来的原图 \n为 Mac 而做 \n菜单栏、浮动工具栏、全局快捷键，随时一键唤起。 \n留在本机 \n截图、编辑与文字识别都在本机完成，图片只保存在你的硬盘里。 \n一次买断 \n基础功能免费使用；Pro 一次购买，无需订阅。 \n编辑器 \n一个窗口，从原图到 成图。 \n左边是工具，中间是画布，右边是参数。不必翻菜单找功能。 \n功能 \n一张截图需要的，都在这里。 \n01 / 截图 \n屏幕截图，想截哪里就截哪里。 \n整个屏幕、单个窗口，或者拖出任意区域。也可以使用「组合截图」，按下快捷键之后再决定截哪一种。 \n全局快捷键，均可自定义 \n记住最近的选区，重复截同一位置更快 \n可保留鼠标指针，可自动裁掉窗口阴影 \n硬盘和剪贴板里的图片也能直接打开 \n默认快捷键 \n截图 \n 组合截图 ⌃ ⇧ 1 \n 全屏截图 ⌃ ⇧ 2 \n 窗口截图 ⌃ ⇧ 3 \n 区域截图 ⌃ ⇧ 4 \n编辑器内 \n 复制图片 ⇧ ⌘ C \n 保存图片 ⌘ S \n 置顶显示 ⌘ T \n 复制选中标注 ⌘ D \n所有快捷键都可以在设置中修改。 \n02 / 标注 \n截图标注，清楚表达。 \n箭头、形状、文字、气泡标注、序号、马赛克、聚焦、放大镜……十三种工具，每种都有一个单键快捷键。 \n经典与手绘两种风格 \n曲线箭头，锚点可随时调整 \n双击文字，就地修改 \n可将当前样式设为该工具的默认样式 \n 经典 手绘 聚焦 \n工具与快捷键 \n R 矩形 \n E 椭圆 \n L 线条 \n A 箭头 \n P 画笔 \n T 文字 \n N 标注 \n I 图片 \n C 计数 \n M 马赛克 \n F 聚焦 \n Q 二维码 \n G 放大镜 \n K 裁剪 \n03 / 美化 \n截图美化，随手分享。 \n在截图后面铺上渐变、墙纸或纯色背景，再调整边距、圆角、阴影与玻璃边框。选定比例后，空白处自动用背景填满。 \n内置多款渐变与墙纸，也可以添加自己的 \n1:1、16:9、4:3、3:2 等常用比例 \n文字水印，大小、透明度、角度都能调 \n整套效果可存为模板，一键复用 \n 渐变 墙纸 16:9 \n04 / 提取文字 \nOCR 识别，提取图片文字。 \n在本机识别截图中的文字，结果可以直接修改，选中需要的部分复制即可。 \n使用 macOS 自带的文字识别能力 \n可自动检测语言，也可手动指定 \n可选语言取决于 macOS 版本 \n还有这些 \n细节之处，同样用心。 \n 05 \n模板 \n画布设置和标注可以存为模板，下次一键套用；设为默认后，新截图会自动应用。 免费 2 个 · Pro 不限 \n 06 \n历史记录 \n不小心关掉了编辑器？从历史记录里重新打开，接着上次的进度继续编辑。 免费最近 3 条 · Pro 不限 \n 07 \n置顶显示 \n让截图浮在所有窗口之上，写文档、写代码、填表格时随时对照。 ⌘T \n 08 \n导出 \n「复制」和「保存」按钮按下后做什么，由你决定：复制、存盘、打开文件夹、关闭窗口。导出时还可以压缩，或转换为 JPEG、WebP。 PNG · JPEG · WebP \n 09 \n外观 \n浅色、深色或跟随系统，十三种强调色任选。 13 种强调色 \n 10 \n语言 \n界面支持简体中文、繁体中文、英语、日语、韩语、德语、法语、西班牙语等。 15 种语言 \n价格 \n免费开始，\n需要时再升级 Pro。 \nPro · 一次买断 \n ¥ 88 CNY \nPro 一次买断，无需订阅，包含图几未来所有大版本升级与新增功能，无需额外付费。 \n 前往 App Store 购买 前往官网购买 \n官网每份许可证可在最多 3 台 Mac 上激活直接下载版。App Store 版通过应用内购买升级，适用 App Store 的使用规则。两个渠道的购买权益不互通。 查看软件许可与服务协议 \n 功能 免费版 Pro \n 截图、标注 支持 支持 \n 深色主题、自定义强调色 支持 支持 \n 打开并标注本地图片 支持 支持 \n 打开并标注剪贴板中的图片 不支持 支持 \n 自定义背景、墙纸 不支持 支持 \n 预设模板 2 个 不限 \n 历史记录 3 条 不限 \n常见问题 \n你可能想问。 \n 「图几」这个名字有什么含义？ \n你可以把它想象为「图片茶几」，即一张用来处理图片的小桌子。希望这个小工具能帮你更好地处理截图及相关工作。 可以免费使用吗？ \n可以。从 Mac App Store 或本站下载后即可免费使用，日常所需的大部分功能都包含在内；少数高级功能需要一次性升级为 Pro 版。Pro 无需订阅，包含图几未来所有大版本升级与新增功能，无需额外付费。 两个版本有什么区别？ \n功能一致。App Store 版通过 App Store 更新和应用内购买升级，适用 App Store 的使用规则；直接下载版自带更新功能，官网每份许可证最多可激活 3 台 Mac。两个渠道的购买权益不互通，请在购买前确认所需版本。 查看软件许可与服务协议 支持哪些系统？ \n支持 macOS 12.3 及以上版本。 我的截图会被上传吗？ \n不会。截图、编辑与文字识别都在你的 Mac 上完成，截图保存在你指定的本地文件夹里。 查看隐私政策 如何联系开发团队？ \n可以点击页面底部的「联系我们」，或者发邮件到 tuji.app@tominlab.com。所有来信我们都会认真阅读并尽快回复。 联系我们 \n获取图几 \n下一张截图， 从图几开始。 \n Mac App Store 自动更新 · App Store 统一管理 \n 直接下载 官网授权 · .dmg \n适用于 macOS 12.3 及以上",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": [
+    "6479216439"
+   ]
+  },
+  {
+   "url": "https://SwitchHosts.app",
+   "ok": true,
+   "title": "SwitchHosts",
+   "description": "",
+   "stack": [
+    "Next.js",
+    "Umami",
+    "Google Analytics",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "zh",
+   "home_text": "SwitchHosts \nSwitchHosts 是一个管理、切换多个 hosts 方案的工具。\n它是一个免费开源软件。 \n 下载 \n功能特性 \n语法高亮 \n使用不同的颜色显示 IP、域名以及注释，各类信息一目了然。 \n方案多选 \n通过多选模式组合不同方案，完成复杂环境的配置。 \n托盘窗口 \n在系统托盘菜单显示快捷菜单，点击可快速查看/切换 hosts 方案。 \n远程方案 \n支持本地和远程方案，可从网络下载并自动定时同步远程方案。 \n导入 & 导出 \n可方便地将本地所有方案导出，分享给团队其他成员。 \n快速注释 \n点击行号，或者使用快捷键 Ctrl + / （macOS 下为 ⌘ + / ），可快速切换指定行的注释状态。 \n夜间模式 \n支持明亮模式和夜间模式，可根据你的偏好随意切换。 \nAlfred 支持 \n 与 Alfred 集成，可通过 Workflow 快速切换 hosts。 \n Star Fork or Feedback on GitHub | \n Project maintained by oldj",
+   "github_links": [
+    "oldj"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "oldj",
+  "user": {
+   "name": "oldj",
+   "company": null,
+   "blog": "https://oldj.net",
+   "location": "Hangzhou, China",
+   "bio": "JavaScript / Python",
+   "public_repos": 29,
+   "followers": 1248,
+   "created_at": "2010-09-26T05:37:23Z",
+   "twitter_username": "oldj",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "oldj/SwitchHosts",
+    "description": "Switch hosts quickly!",
+    "stargazers_count": 27304,
+    "forks_count": 2688,
+    "language": "TypeScript",
+    "homepage": "https://switchhosts.app",
+    "created_at": "2011-09-02T09:38:09Z",
+    "pushed_at": "2026-10-22T06:05:49Z",
+    "topics": [
+     "electron",
+     "hosts",
+     "hostseditor",
+     "hostsfile",
+     "switch-hosts",
+     "switchhosts"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/html5-tower-defense",
+    "description": "HTML5 tower defense",
+    "stargazers_count": 385,
+    "forks_count": 176,
+    "language": "JavaScript",
+    "homepage": "https://oldj.net/static/html5-tower-defense/td.html",
+    "created_at": "2010-12-05T03:02:01Z",
+    "pushed_at": "2019-03-15T07:25:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/node-font-list",
+    "description": "Get the list of fonts installed in the system.",
+    "stargazers_count": 151,
+    "forks_count": 24,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-02-06T02:57:45Z",
+    "pushed_at": "2026-05-21T10:25:57Z",
+    "topics": [
+     "electron",
+     "font",
+     "nodejs"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/pyheatmap",
+    "description": "python heat map library",
+    "stargazers_count": 135,
+    "forks_count": 52,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2012-09-03T07:55:28Z",
+    "pushed_at": "2018-11-08T02:18:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/ga-tsp-js",
+    "description": "Travelling Salesman Problem with GA and JavaScript",
+    "stargazers_count": 42,
+    "forks_count": 11,
+    "language": "JavaScript",
+    "homepage": "https://oldj.net/static/tsp/ga/index.html",
+    "created_at": "2018-01-21T14:18:41Z",
+    "pushed_at": "2021-03-30T15:16:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/big-int.js",
+    "description": "Big Integer for JavaScript.",
+    "stargazers_count": 30,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": "https://oldj.net/static/js-BIO/eg.html",
+    "created_at": "2012-10-13T08:23:05Z",
+    "pushed_at": "2017-05-14T14:49:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/heatmap.js",
+    "description": null,
+    "stargazers_count": 23,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-09-23T02:52:19Z",
+    "pushed_at": "2015-11-11T16:27:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/code-heroes",
+    "description": "Code Heros.",
+    "stargazers_count": 19,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2014-12-29T14:44:08Z",
+    "pushed_at": "2015-01-04T03:10:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/SearchIP",
+    "description": "A Chrome Extension to search IP address.",
+    "stargazers_count": 19,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-06-04T13:05:15Z",
+    "pushed_at": "2019-12-24T01:53:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/easy-fsm",
+    "description": "An easy-to-use finite state machine system for JavaScript.",
+    "stargazers_count": 13,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2018-04-20T09:22:42Z",
+    "pushed_at": "2024-06-06T13:43:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/simple-js-module-loader",
+    "description": "a simple js module loader.",
+    "stargazers_count": 11,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-07-19T07:44:08Z",
+    "pushed_at": "2016-01-20T09:29:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/publa",
+    "description": "A dynamic blog application based on Next.js",
+    "stargazers_count": 8,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "https://publa.app",
+    "created_at": "2026-03-31T13:46:41Z",
+    "pushed_at": "2026-06-24T13:02:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/fe-demo",
+    "description": "front-end demos",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-08-30T11:06:46Z",
+    "pushed_at": "2017-08-31T12:28:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/potdb",
+    "description": "A text based key-value database for Node and Electron. ☕️",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2017-12-27T02:56:33Z",
+    "pushed_at": "2024-09-24T04:53:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/drjs",
+    "description": "前端上古时代的一个绘图库。",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-04-13T07:41:15Z",
+    "pushed_at": "2013-04-13T07:57:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/wp-epub-gen",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-03-25T09:56:09Z",
+    "pushed_at": "2026-08-23T07:43:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/wp-html-to-docx",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-04-25T15:46:35Z",
+    "pushed_at": "2026-08-16T02:36:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "oldj/kheatmap",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-09-23T03:02:51Z",
+    "pushed_at": "2013-09-23T10:44:18Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 21,
+  "languages": [
+   [
+    "JavaScript",
+    10
+   ],
+   [
+    "TypeScript",
+    6
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "oldj/SwitchHosts",
+    "stargazerCount": 27304,
+    "description": "Switch hosts quickly!",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://switchhosts.app"
+   },
+   {
+    "nameWithOwner": "oldj/html5-tower-defense",
+    "stargazerCount": 385,
+    "description": "HTML5 tower defense",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://oldj.net/static/html5-tower-defense/td.html"
+   },
+   {
+    "nameWithOwner": "miao-lang/miao-lang",
+    "stargazerCount": 634,
+    "description": "喵语翻译：将人类语言翻译为喵语言。",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://miao-lang.vercel.app/"
+   },
+   {
+    "nameWithOwner": "oldj/node-font-list",
+    "stargazerCount": 151,
+    "description": "Get the list of fonts installed in the system.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "oldj/ga-tsp-js",
+    "stargazerCount": 42,
+    "description": "Travelling Salesman Problem with GA and JavaScript",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://oldj.net/static/tsp/ga/index.html"
+   },
+   {
+    "nameWithOwner": "oldj/pyheatmap",
+    "stargazerCount": 135,
+    "description": "python heat map library",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 9657,
+  "orgs": [],
+  "profile_readme": "### Hi there 👋\n\nI am a full-stack engineer and independent developer living in beautiful Hangzhou.\n\n- 🐦 X.com - [@oldj](https://x.com/oldj)\n- 📝 Blog - [https://oldj.net](https://oldj.net)\n- ✉️ Email - [oldj.wu@gmail.com](mailto:oldj.wu@gmail.com)\n\n![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?logo=javascript&logoColor=%23F7DF1E&style=flat-square)\n![TypeScript](https://img.shields.io/badge/Typescript-%23007acc.svg?logo=typescript&logoColor=white&style=flat-square)\n![Python](https://img.shields.io/badge/Python-%23336c9c.svg?logo=python&logoColor=white&style=flat-square)\n",
+  "readmes": {
+   "oldj/SwitchHosts": "<div align=\"center\" markdown=\"1\">\n  <sup>Special thanks to:</sup>\n  <br>\n  <a href=\"https://go.warp.dev/SwitchHosts\">\n  </a>\n### [Warp, the intelligent terminal for developers](https://go.warp.dev/SwitchHosts)\n[Available for MacOS, Linux, & Windows](https://go.warp.dev/SwitchHosts)<br>\n</div>\n---\n# SwitchHosts\n- [Polski](README.pl.md)\n- [简体中文](README.zh_hans.md)\n- [繁體中文](README.zh_hant.md)\nHomepage: [https://switchhosts.app](https://switchhosts.app)\nSwitchHosts is an App for managing hosts file, it is based on [Tauri](https://tauri.app/), [React](https://facebook.github.io/react/), [Jotai](https://jotai.org/), [Mantine](https://mantine.dev/), etc.\n## Screenshot\n## Features\n- Manage system, local, remote, group, and folder hosts entries\n- Switch hosts quickly from the main window or system tray\n- Syntax highlighting for hosts files\n- Find and replace across hosts entries\n- Refresh remote hosts manually, on a schedule, or at startup\n- Import/export hosts data, including importing backups from a URL\n- Move entries to the trashcan and restore or delete them later\n- Preferences for write mode, proxy, update checks, launch at login, post-apply commands, and the local HTTP API\n## Install\n### Download\nYou can download the source code and build it yourself, or download the built version from following\nlinks:\n- [SwitchHosts Download Page (GitHub release)](https://github.com/oldj/SwitchHosts/releases)\nYou can also install the built version using the [package manager Chocolatey](https://community.chocolatey.org/packages/switchhosts):\n```powershell\nchoco install switchhosts\n```\n## Backup\nSwitchHosts stores data at `~/.SwitchHosts` (Or folder `.SwitchHosts` under the current user's home\npath on Windows). In the v5 data layout:\n- `~/.SwitchHosts/manifest.json` stores the hosts tree\n- `~/.SwitchHosts/entries/` stores local and remote hosts content\n- `~/.SwitchHosts/trashcan.json` stores trashcan entries\n- `~/.SwitchHosts/internal/config.json` stores preferences\n- `~/.SwitchHosts/internal/histories/` stores system hosts and command run history\nFor a complete manual backup, copy the whole `~/.SwitchHosts` folder. The in-app export creates a hosts data backup JSON; it does not inc",
+   "oldj/html5-tower-defense": "# HTML5 塔防游戏\n * Author: oldj\n * Email: oldj.wu@gmail.com\n * Blog: [http://oldj.net/](http://oldj.net/)\n * Source: https://github.com/oldj/html5-tower-defense\n * License: MIT\n## 运行\n进入 `src` 或 `build` 目录，用浏览器（如 Chrome、IE9 ）打开 td.html 即可运行本游戏。\n或者查看[线上Demo](http://oldj.net/static/html5-tower-defense/td.html)。\n## 说明\n 1. 本游戏完全使用 HTML5 / JavaScript / CSS 实现，没有用到 Flash、SilverLight 等技术。\n 2. 这一个版本没有用到图片，游戏中的所有物品都是使用 HTML5 画出来的。\n 3. 这一个版本部分地方为 IE9 做了专门的优化，可正常运行在 IE9 下。\n## 目录\n    /build          压缩后的可发布的文件\n    /screenshorts   屏幕截图\n    /src            源码\n        /css        样式表\n        /js         JavaScripts 源文件\n    /tools          小工具、脚本\n    /README.md      本文件\n## 作弊方法\n为方便测试，本游戏内置了几个作弊方法，在命令行中执行如下命令即可：\n 1. 增加 100 万金钱：`_TD.cheat=\"money+\";`\n 2. 难度增倍：`_TD.cheat=\"difficulty+\";`\n 3. 难度减半：`_TD.cheat=\"difficulty-\";`\n 4. 生命值恢复：`_TD.cheat=\"life+\";`\n 5. 生命值降为最低：`_TD.cheat=\"life-\";`\n注意，以上作弊方法主要是为测试设计，正常游戏过程中请酌情使用，否则可能会降低游戏乐趣。\n## 更新历史\n - 2015-09-06 支持 retina 显示屏。\n - 2011-01-01 调整参数，同时根据网友建议，新建建筑时添加检查，禁止用建筑把怪物包围起来（v0.1.14）。\n - 2010-12-29 根据网友建议，增加生命自动恢复功能（每隔 5 波生命恢复 5 点，每隔 10 波生命恢复 10 点）。调整参数，减小了激光枪的射程，增强了重机枪的威力（v0.1.12）。\n - 2010-12-18 添加新武器“激光枪”（v0.1.8.0）。\n - 2010-12-12 暂停图片资源版本分支的开发，继续优化、开发圈圈版（v0.1.7.0）。\n - 2010-11-28 第一个图片资源版本（v0.2.1.3267）。\n - 2010-11-23 发布 [圈圈版（v0.1.6.2970）](http://oldj.net/article/html5-td-circle-version/)。\n - 2010-11-14 线上发布第一个版本。\n - 2010-11-11 开始编写这个游戏。\n## 开发计划\n - 添加新武器“加农炮”，特性：击中怪物时会发生爆炸，造成面攻击。\n - 添加关卡编辑器。\n - 添加保存进度的功能。\n",
+   "miao-lang/miao-lang": "# 喵语言（Miao-lang）\n这是一个可以将人类语言翻译为喵语言的程序。\n在线演示：[https://miao-lang.com](https://miao-lang.com)\n## 特性\n - 可以将任意文本转为由若干“喵”组成的喵语言，且这个过程是可逆的\n - 支持网页、微信等常见应用，将喵语言复制到这些应用并发送不会损失信息\n## 安装\n```bash\nnpm install miao-lang\n```\n## 使用方法\n```ts\nimport Miao from 'miao-lang'\nlet human_msg = 'Hello 喵星人！'\nlet miao_msg = Miao.encode(human_msg)\nconsole.log(miao_msg) // 喵​‍‍‌‌‌​‌‍‍‌‌​‍‍‌‍‍​‍‍‍‌​‍‌‍​‌‍‍‌‌​‌‍‌​‌‌‍‌​‍‍喵​‍‍‍‍‍​‍‌‌​‍​‍‍​‍‌‍‍​‌‍‌‌​‌‌‌‍​‍‍​‍‌‌‌‍​‍‍‌‌​‌喵‌‌​‌‌‍​‌‌‍​‌‌‍‌‌​‌‌‍‍‍喵。\nlet msg2 = Miao.decode(miao_msg)\nconsole.log(msg2) // Hello 喵星人！\nconsole.log(msg2 === human_msg) // true\n```\n### API\n - `Miao.encode(t: string, options?: Human2miaoOptions): string` 将普通文本转为喵语言\n - `Miao.decode(t: string): string` 将喵语言转为普通文本\n - `Miao.isMiao(t: string): string` 判断输入的文本是否为喵语言\n#### Types\n- `Human2miaoOptions`\n  - `calls`: `string` 动物叫声, 如: `汪`, `咕`, `嗷`\n  - `halfwidthSymbol`: `boolean` 是否使用半角符号，如`,.?!`\n### 多种族化\n示例:\n```ts\nimport Miao from 'miao-lang'\nlet human_msg = 'Hello 鸽子精！'\nlet gu_msg = Miao.encode(human_msg, { calls: '咕' })\nconsole.log(gu_msg) // 咕咕咕咕。\n```\n### 国际化\n示例:\n```ts\nimport Miao from 'miao-lang'\nlet human_msg = 'Hello Guys.'\nlet msg = Miao.encode(human_msg, { calls: 'Meow ', halfwidthSymbol: true})\nconsole.log(msg) // Meow ​‍‍‌‌‌​‌‍‍‌‌​‍‍‌‍‍​‍‍‍‌​‍‌‍​‌‍‍‌‌​‌‍‌​‌‌‍‌​‍‌Meow ‍‍‍​‌‍​‍‍‌‍‍​‍‍​‍‍‌​‌‌‍‌‌​‍‌​‌‌‌‌‍‌Meow .\n```\n## 工作原理\n喵语言本质上是一种文本编码、解码算法，其原理为使用零宽字符将原文编码，并隐藏于若干“喵”之中。目前版本中所用到的零宽字符有 `\\u200b`、`\\u200c`、`\\u200d` 。\n其中编码流程如下：\n 0. 生成 Base64 字符与零宽字符的对照表；\n 1. 将原文转为 Base64 编码；\n 2. 使用对照表将 Base64 编码后的内容转为由零宽字符组成的不可见的新编码；\n 3. 根据一定规则，在新编码的最前、最后以及中间位置，插入若干“喵”以及标点符号；\n 4. 完成。\n解码过程则是以上流程的逆运算。\n## 最后\n本项目纯属娱乐，祝大家玩得开心！\n愿喵之力与你同在！\n",
+   "oldj/node-font-list": "# font-list\nA Node.js package for listing system fonts with support for both CommonJS and ES modules.\n[](https://badge.fury.io/js/font-list)\n[](https://opensource.org/licenses/MIT)\n## Features\n- 🖥️ **Cross-platform support**: Works on macOS, Windows, and Linux\n- 📦 **Dual module support**: Compatible with both CommonJS and ES modules\n- 🔍 **Two API methods**: Basic font listing and detailed font information\n- 📝 **TypeScript support**: Includes TypeScript type definitions\n- ⚡ **Async/Promise based**: Modern asynchronous API\n## Installation\n```bash\nnpm install font-list\n```\n## Quick Start\n### CommonJS\n```js\nconst { getFonts } = require('font-list')\ngetFonts()\n  .then(fonts => {\n    console.log(fonts)\n  })\n  .catch(err => {\n    console.error(err)\n  })\n```\n### ES Modules\n```js\nimport { getFonts } from 'font-list'\nconst fonts = await getFonts()\nconsole.log(fonts)\n```\n### TypeScript\n```ts\nimport { getFonts, FontInfo } from 'font-list'\nconst fonts: string[] = await getFonts()\nconst detailedFonts: FontInfo[] = await getFonts2()\n```\n## API Reference\n### `getFonts(options?)`\nReturns a list of font family names available on the system.\n**Parameters:**\n- `options` (optional): Configuration object\n  - `disableQuoting` (boolean): If `true`, font names with spaces won't be wrapped in quotes. Default: `false`\n**Returns:** `Promise<string[]>`\n**Example output:**\n```js\n[\n  '\"Adobe Arabic\"',\n  '\"Adobe Caslon Pro\"',\n  'Arial',\n  'Helvetica',\n  ...\n]\n```\n**Usage examples:**\n```js\n// Default behavior (with quotes for names containing spaces)\nconst fonts = await getFonts()\n// Result: ['\"Adobe Arabic\"', 'Arial', ...]\n// Disable quoting\nconst fonts = await getFonts({ disableQuoting: true })\n// Result: ['Adobe Arabic', 'Arial', ...]\n```\n### `getFonts2(options?)`\nReturns detailed font information including both family names and PostScript names.\n**Parameters:**\n- `options` (optional): Same as `getFonts()`\n  - `disableQuoting` (boolean): Default: `false`\n**Returns:** `Promise<FontInfo[]>`\n**FontInfo interface:**\n```ts\ninterface FontInfo {\n  name: string           // Original family name\n  familyName: string     // Standardized family name\n  postScriptName: string // PostScript name\n  weight:",
+   "oldj/ga-tsp-js": "# tsp-ga-js\nTravelling Salesman Problem with GA and JavaScript.\nDemo: [https://oldj.net/static/tsp/ga/index.html](https://oldj.net/static/tsp/ga/index.html)\n"
+  }
+ },
+ "apps": [
+  {
+   "name": "WonderPen",
+   "artist": "Hangzhou Tongming Technology Company Limited",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2024-06-20",
+   "updated": "2026-10-08",
+   "version": "0.9.48",
+   "rating": 4,
+   "ratings": 9,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/wonderpen/id6476477820",
+   "desc": "WonderPen is an application focused on writing, dedicated to providing authors with a smooth writing experience. Whether you are a writer, student, or writing enthusiast, you can use it to complete your writing.\n\n## Born for Writing\n\n- Supports a tree-like directory, making it easy to handle even the longest documents\n- Each document has its own dedicated memos for recording chapter memoranda\n- Also supports a global card list to record various information needed for reference or fleeting inspiration\n- Supports one-click typesetting to keep your text format neat with ease\n- The content can be exported as plain text or Markdown at any time, making it easy to migrate data between different applications\n\n## Personalized Settings\n\n- Supports light, night modes, and various editor backgrounds\n- Adjust font size, line spacing, and other formats to create a personalized writing scheme\n\n## Secur",
+   "country": "us"
+  },
+  {
+   "name": "Tuji",
+   "artist": "Hangzhou Tongming Technology Company Limited",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2024-04-01",
+   "updated": "2026-10-04",
+   "version": "1.0.4",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/tuji/id6479216439",
+   "desc": "Tuji is a screen capture and annotation software designed to boost work efficiency and enhance the learning experience. Whether you need to capture information from web pages, create presentation slides for training courses, or propose changes to design sketches, Tuji offers an all-in-one solution to meet your various needs.\n\n## Screenshot and Annotation Features\n\n- Multiple Screenshot Modes: Full screen, specific window, or a custom-selected area – capture every moment as you wish.\n- Rich Annotation Tools: Equipped with text, shapes, arrows, images, and mosaic tools. It also supports magnifying glass effects and QR codes for clearer information expression.\n- Personalized Customization: Freely adjust the color, size, transparency, and other style attributes to make your annotations stand out.\n\n## Design and Beautification\n\n- Diverse Background Selection: Supports various backgrounds incl",
+   "country": "us"
+  },
+  {
+   "name": "ccReader",
+   "artist": "Hangzhou Tongming Technology Company Limited",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2020-10-13",
+   "updated": "2021-01-15",
+   "version": "1.0.2",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/ccreader/id1499239315",
+   "desc": "ccReader 是一款清爽易用的 TXT 电子书阅读器，可用于在 macOS 平台上阅读各类 TXT 小说等电子书籍。\n\n## 功能特性\n\n- 支持多 Tab 阅读，快速在不同书籍之间切换\n- 记住阅读进度\n- 自动识别常见编码\n- 智能章节划分\n- 可自动去掉正文中多余的空格、空行\n- 可设置字体、间距、页面宽度等，适合各种阅读习惯\n- 全文搜索及快速跳转\n- 多种主题切换\n\n## 说明\n\nccReader 是阅读工具，并不提供电子书下载资源。\n\n## 联系方式\n\n如有任何问题或建议，欢迎给我们发邮件：support@atominn.com 。",
+   "country": "us"
+  }
+ ]
+}

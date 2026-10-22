@@ -1,0 +1,391 @@
+{
+ "handle": "Jimmy_JingLv",
+ "sites": [
+  {
+   "url": "https://jimmylv.cn",
+   "ok": true,
+   "title": "吕立青_JimmyLv",
+   "description": "吕立青的个人主页",
+   "stack": [
+    "Next.js",
+    "Substack"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Reach me[`📧 Email`](mailto:jimmy.jinglv@gmail.com)\n[by ## JimmyLv](https://jike.city/jimmylv)\n## AI =\n## All In\n## Prompt, Publish, Profit\n## [Twitter -> Quick find immature ideas from JimmyLv.](https://twitter.com/Jimmy_JingLv)## [Video -> Learn more about JimmyLv in interactive videos!](https://space.bilibili.com/37648256)## [Article -> Discover more in-depth content from JimmyLv.](https://blog.jimmylv.info/)## [Newsletter -> Get the latest news on AI application development.](https://jimmylv.substack.com/)",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://bibigpt.co",
+   "ok": true,
+   "title": "视频总结｜B站 YouTube 一键出文字",
+   "description": "视频总结、字幕提取、视频转文字：粘贴 B站、YouTube、播客或本地文件，一键出重点、字幕和思维导图。免费试用。",
+   "stack": [
+    "Next.js"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Next.js"
+   ],
+   "lang": "zh",
+   "home_text": "Bibi GPT \n 登录 \n Bibi GPT 视频总结 \n1 小时视频，3 分钟看完重点——AI 视频总结、思维导图、视频转文字，一键搞定 \nWhat is BibiGPT? \nBibiGPT (originally BiliGPT, also known as AI 课代表) is an AI video and audio assistant. Paste any video, audio, podcast or upload a local file and BibiGPT generates a structured, time-stamped summary, full transcript, mind map, and an AI chat surface over the content. Founded by JimmyLv (吕立青) in 2023, served 1M+ users since. \nHow does BibiGPT summarize videos? \nBibiGPT 是 AI 视频总结与音视频转文字工具：粘贴 B站（哔哩哔哩）、YouTube、抖音、小红书、 播客链接，一键完成视频总结、字幕提取、视频转文字、思维导图生成；支持 AI 对话追问、 图文改写，并可一键保存到 Notion、Obsidian、flomo 笔记。免费试用，无需下载安装。 \nWhich platforms does BibiGPT support? \nBibiGPT works with YouTube, Bilibili (B 站), TikTok, Douyin (抖音), Kuaishou (快手), Xiaohongshu (小红书), Twitter / X, Vimeo, TED, Coursera, Khan Academy, Apple Podcasts, Spotify, Xiaoyuzhou (小宇宙), Ximalaya (喜马拉雅), and arbitrary web pages with audio or video tags. Local files supported: mp3, mp4, m4a, wav, srt, vtt, ass. \nIs BibiGPT free? \nFree tier with daily quota (30-min videos). Plus $19.8/mo (year $142.56). Pro $34.8/mo (year $250.56) with vision, batch processing, and API access. Lifetime $888 (limited). Pay-as-you-go credits from $20 (2,000 credits) to $200 (40,000 credits, 50% off per credit). \nHow do AI agents integrate with BibiGPT? \nFour agent surfaces: (1) MCP server at https://bibigpt.co/api/mcp with OAuth 2.0 + Bearer; (2) REST OpenAPI spec at https://bibigpt.co/api/openapi.json; (3) NLWeb /ask endpoint with SSE streaming at https://bibigpt.co/api/ask; (4) Anthropic Skill via npx skills add JimmyLv/bibigpt-skill . Discovery files: /.well-known/agent-card.json (A2A), /.well-known/mcp.json, /llms.txt, /api/llms.txt, /pricing.md, /index.md. Try /api/discover for a single-call list of all agent entry points, or visit https://bibigpt.co/?mode=agent for a structured JSON view of this homepage. \nHow does BibiGPT handle privacy? \nUploaded files auto-deleted after 30 days. Summaries default to private and only become public when the user explicitly toggles sharing. BibiGPT does not train on user content without opt-in. Full data export and delete via dashboard. GDPR / CCPA compliant. See the BibiGPT Privacy Policy and security.txt . \nWho built BibiGPT? \nFounder 吕立青 (JimmyLv) — former ThoughtWorks and Alibaba engineer — open-sourced the predecessor as BiliGPT on GitHub in 2023. Product docs: docs.bibigpt.co . Company page: About BibiGPT . Support: Contact . Legal: Terms of Service . \nMulti-platform clients \nWeb app at bibigpt.co (Chinese) and aitodo.co (international). Browser extension for Chrome / Firefox / Edge. Desktop app for macOS and Windows (Tauri 2.x). Mobile apps for iOS and Android (Expo). Cross-platform agent integration via MCP / OpenAPI / Skill. \n 免费总结 立即免费体验 \n 0万+ \n学习者和创作者在用 \n 0万+ \n视频已被总结 \n 0+ \n平台粘贴即用 \n🎬 AI 功能演示 \n支持 B站、YouTube、播客、TED 等平台。一键生成视频总结、章节大纲、思维导图，还可与 AI 对话深入了解内容。 \n 智能总结 章节大纲 AI 对话 \n RED \n RED \n支持主流平台音视频内容总结 \n如何用 BibiGPT 三步总结视频？ \n不用下载安装，B 站、YouTube、播客链接粘贴就能用 \n 01 \n粘贴链接 \n支持 B站、YouTube、抖音、小红书、播客等 30+ 平台，本地音视频文件也能直接上传。 \n 02 \nAI 视频总结 \n自动提取字幕、视频转文字，生成带时间戳的总结和章节速览，直接跳到关键内容。 \n 03 \n知识随你用 \n思维导图、AI 追问、图文改写，一键存进 Notion、Obsidian、flomo 笔记。 \n 免费总结一个视频试试 \n 更多用法： YouTube 转 Notion 笔记 播客转文章 \n1 小时视频，3 分钟看完重点——AI 视频总结、思维导图、视频转文字，一键搞定 \n把看不完的视频，变成用得上的知识 \n无缝集成笔记应用 \n核心功能 \n把每一段视频都变成可复用的知识 \n应用场景 \n为学习和团队节省时间 \n功能特性 \n用户评价 \n看看用户的真实体验与感受 \n会员定价 \n7天无风险购买，随时可退 \n最热 AI 视频总结 \n加载热门内容中…",
+   "github_links": [
+    "JimmyLv"
+   ],
+   "subpages": {
+    "https://bibigpt.co/blog/?utm_source=menubar": "Skip to main content \n All Tools 237 AI Summarize 25 AI Transcribe 40 Video Tools 40 Audio Tools 20 Image Tools 16 Comparisons 31 Trending 65 \n All Tools →\n AI Video Summarizer AI Video Summarizer — Summarize Any Video Free in Seconds \n Summarize Text from Image Summarize Text from Image — Free AI Screenshot & Photo Summarizer \n AI Reading Companion BibiGPT AI Reading Companion | Smart AI Cards on Every Webpage \n YouTube Video to Notes YouTube Video to Notes | Inline AI Summary Export \n YouTube to Obsidian Notes YouTube to Obsidian Notes | AI Markdown Export \n Study Guide Maker AI Study Guide Maker for Lecture Videos | BibiGPT \n AI Video Q&A Ask YouTube, Bilibili & Podcasts — Free, No Signup \n AI Visual Content Summary Visual Content Analysis for Any Video \n Free Audio Summarizer Transcribe & Summarize Audio in Your Browser \n AI TikTok Summary AI TikTok Summary — Skip the Scroll, Get the Gist \n YouTube Summarizer YouTube Summarizer — Summarize Any YouTube Video Free \n YouTube Playlist Summarizer YouTube Playlist Summarizer — Summarize a Whole Playlist \n AI YouTube Summary AI YouTube Summary — Skip the Scroll, Get the Gist \n AI Bilibili Summary AI Bilibili Summary — One-Click Video Notes \n AI Douyin Summary AI Douyin Summary — Skip the Scroll \n AI Kuaishou Summary AI Kuaishou Summary — Skip the Scroll \n AI Facebook Video Summary Facebook Video Summarizer — Free AI Summary of Facebook Watch \n Video Summarizer Prompt Video Summarizer Prompt — Free Copy-Paste Templates \n AI Podcast Summary AI Podcast Summary — 60-min Episode → 30-sec Read \n AI Meeting Notes Auto-transcribe & summarize meetings \n BibiGPT Text Summarizer Free AI Text Summarizer \n AI Video to Illustrated Article AI Video to Illustrated Article \n AI Subtitle Summary AI Subtitle Summary — Summarize Local SRT/VTT Files \n Article Summarizer Article Summarizer — Paste a URL to Get Key Points \n Podcast to Article AI Podcast to Article Converter \n Video to Text Converter Video to Text — Free AI Video to Text Converter \n YouTube to Text YouTube to Text — Free Transcript, Subtitle & Text Converter \n TikTok Caption Translator TikTok Caption Translator — Extract & Translate in 5 Languages \n TikTok Video Finder Find TikTok Videos by Spoken Content, Not Just Hashtags \n TikTok Video Search Search TikTok by Topic, Then Queue One-Click AI Summaries \n Video to Text Converter AI Video to Text Converter | Transcribe & Export in Minutes \n YouTube Video Search Free YouTube Video Search | Discover & Queue AI Summaries \n Baidu Cloud Drive Video to Text Baidu Cloud Drive Video to Text Converter | BibiGPT \n Local Video to Text Local Video to Text Converter | Transcribe Uploaded Files \n Other Cloud Drive Video to Text Other Cloud Drive Video to Text Converter | Auto Folder Import \n Online Video to Text Online Video to Text Converter | Transcribe Public Links \n AI Local File Speech to Text Upload Audio & Video Files for AI Transcription \n Bilibili Video Search Free Bilibili Video Search | Discover & Queue AI Summ",
+    "https://bibigpt.co/about": "Bibi GPT AI 音视频助理 \n 更新日志 v4.749.0 \n 切换语言 切换主题 注册/登录 \n关于 BibiGPT \nBibiGPT 是国内最早覆盖国内外各大音视频平台的 AI 音视频知行助理。我们相信，每个人都应该能够用算力节省脑力——把 1 小时的视频压缩成 5 分钟的核心要点，把无序的会议录音变成可检索的知识库，把任意音视频内容变成可二次创作的产物。 \n我们做什么 \nBibiGPT（曾用名 BiliGPT、AI 课代表）让用户粘贴一个视频或音频链接，30 秒内得到带时间戳的结构化总结、全文转写、思维导图，并可以与内容多轮对话。我们覆盖 30+ 平台：B 站、YouTube、TikTok、抖音、小红书、Twitter/X、Apple Podcasts、小宇宙、TED、Coursera 等，也支持本地文件直传（mp3/mp4/m4a/wav/srt/vtt/ass）。 \n进阶能力包括字幕翻译压制、视觉画面分析（看懂 PPT、白板、图表）、图文改写（把视频变成小红书图文 / 公众号文 / 推特 thread / PPT 大纲）、Notion / Obsidian 笔记联动，以及面向 AI Agent 的 MCP 服务器、OpenAPI、NLWeb /ask 端点和 Anthropic Skill。 \n我们为谁服务 \n 职场人 ：1 小时会议录音 → 5 分钟会议纪要 + 行动项 \n 自媒体 / 内容创作者 ：视频内容一键生成多平台改写素材 \n 教师 / 学生 ：网课 / 讲座的高效学习工具 \n 研究者 ：从公开音视频中检索关键信息 \n 企业 / 开发者 ：通过 API + MCP 接入自有 Agent 工作流 \n截至 2026 年，累计服务 100 万+ 用户。 \n团队 \n 吕立青（JimmyLv） — 创始人。前 ThoughtWorks 工程师 → 阿里巴巴工程师 → 独立海外 SaaS 创业者。同时也是内容创作者，B 站 Up 主 + YouTuber，全网粉丝累计超过 10 万。 \n项目历史： \n2023：以开源 BiliGPT 起步，社区驱动迭代 \n2024：演进为 SaaS 产品 bibigpt.co \n2025：扩展浏览器插件、桌面端、移动端 \n2026：发布 Agent / MCP / Skill 接入，国际化海外市场（aitodo.co） \n我们的原则 \n 数据隐私第一 ：用户上传文件 30 天后自动删除；总结结果默认私有；无未经授权的训练数据使用 \n 平台覆盖最广 ：尤其重视国内 B 站 / 小红书 / 抖音等海外工具无法解析的来源 \n 端到端闭环 ：从知识获取到知识创作一站式 \n Agent 友好 ：第一天就把 BibiGPT 设计成可被 LLM 调用的工具，而不是事后补 API \n联系我们 \n客服： [email protected] \n商务合作： [email protected] \nX / Twitter： @Jimmy_JingLv \nGitHub： JimmyLv \n文档： docs.bibigpt.co \n完整联系方式： /contact"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "JimmyLv",
+  "user": {
+   "name": "JimmyLv_吕立青",
+   "company": "EvergreenAI",
+   "blog": "https://blog.jimmylv.info",
+   "location": "Chengdu, China",
+   "bio": "Building BibiGPT, Prev @Alibaba @Thoughtworks | Writer, Trainer, Photographer #roamcult #RoamCN, and more 👉 jimmylv.info丨想做产品，却误入程序世界爱上写作的摄影师。",
+   "public_repos": 275,
+   "followers": 2015,
+   "created_at": "2013-07-12T13:59:39Z",
+   "twitter_username": "Jimmy_JingLv",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "JimmyLv/BibiGPT-v1",
+    "description": "BibiGPT v1 · one-Click AI Summary for Audio/Video & Chat with Learning Content: Bilibili | YouTube | Tweet丨TikTok丨Dropbox丨Google Drive丨Local files | Websites丨Podcasts | Meetings | Lectures, etc. 音视频内容 AI 一键总结 & 对话：哔哩哔哩丨YouTube丨推特丨小红书丨抖音丨快手丨百度网盘丨阿里云盘丨网页丨播客丨会议丨本地文件等 (原 BiliGPT 省流神器 & AI课代表)",
+    "stargazers_count": 6253,
+    "forks_count": 811,
+    "language": "TypeScript",
+    "homepage": "https://bibigpt.co",
+    "created_at": "2023-02-26T16:05:11Z",
+    "pushed_at": "2026-05-04T12:07:02Z",
+    "topics": [
+     "bilibili",
+     "chatgpt",
+     "gpt",
+     "gpt-3",
+     "openai",
+     "youtube"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/jimmylv.github.io",
+    "description": ":bowtie: Agile Learning based on GitHub issues, KEEP Retrospection and Introspection! Thanks to @GitHub https://jimmylv.github.io/issues/",
+    "stargazers_count": 729,
+    "forks_count": 114,
+    "language": null,
+    "homepage": "https://blog.jimmylv.info",
+    "created_at": "2013-10-02T14:33:40Z",
+    "pushed_at": "2026-09-17T16:42:48Z",
+    "topics": [
+     "agile-learning",
+     "blog"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/bibigpt-skill",
+    "description": "Video summarizer agent skill for Claude Code, Codex, ChatGPT & OpenClaw — YouTube/Bilibili/podcast via BibiGPT CLI/MCP/API (bibi)",
+    "stargazers_count": 130,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2026-03-01T12:05:47Z",
+    "pushed_at": "2026-10-10T14:47:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/styled-roam",
+    "description": "😉 Roam Research [[roam/js]] extension for Writing with your lovely cards and beautiful theme",
+    "stargazers_count": 120,
+    "forks_count": 16,
+    "language": "JavaScript",
+    "homepage": "https://styled-roam.vercel.app",
+    "created_at": "2020-06-08T05:17:06Z",
+    "pushed_at": "2026-10-22T15:51:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/ChatVox",
+    "description": "\"Chat With Any Video\" project in 24 hours, challenge myself to complete in @Supabase's AI Hackathon.",
+    "stargazers_count": 102,
+    "forks_count": 14,
+    "language": "TypeScript",
+    "homepage": "https://chatvox.aitodo.co",
+    "created_at": "2023-04-16T05:54:19Z",
+    "pushed_at": "2024-06-02T04:39:50Z",
+    "topics": [
+     "ai",
+     "chatgpt",
+     "openai",
+     "supabase",
+     "video",
+     "whisper"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/nobackend.website",
+    "description": "✨ A powerful rich interactive web application by using nobackend tech stack. (Hosted on @GitHub)",
+    "stargazers_count": 82,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": "http://nobackend.website",
+    "created_at": "2016-02-20T07:12:17Z",
+    "pushed_at": "2020-10-01T16:49:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/jekyll-blog",
+    "description": "welcome!",
+    "stargazers_count": 33,
+    "forks_count": 12,
+    "language": "CSS",
+    "homepage": "https://blog.jimmylv.info",
+    "created_at": "2017-04-19T09:41:53Z",
+    "pushed_at": "2026-09-17T16:43:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/RasPi.lv",
+    "description": "基于 Raspberry Pi（树莓派）的可微信控制的空气质量监控系统",
+    "stargazers_count": 26,
+    "forks_count": 11,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2015-05-31T06:57:32Z",
+    "pushed_at": "2015-07-27T08:05:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/reading",
+    "description": "My Reading List | 参考博客文章「Serverless 实战：打造个人阅读追踪系统」：",
+    "stargazers_count": 26,
+    "forks_count": 2,
+    "language": null,
+    "homepage": "https://blog.jimmylv.info/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/",
+    "created_at": "2017-05-18T04:36:47Z",
+    "pushed_at": "2017-11-18T14:00:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/roam2github-actions",
+    "description": "1. backup markdown files 2. index by DEVONthink 3. search with Alfred (super fast! 🚀 4. use logseq as public digital garden 🧑‍🌾 https://digital-garden.jimmylv.vercel.app",
+    "stargazers_count": 23,
+    "forks_count": 4,
+    "language": "Python",
+    "homepage": "https://github.com/JimmyLv/roam-backup",
+    "created_at": "2021-03-13T12:44:44Z",
+    "pushed_at": "2022-05-28T08:35:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/bill-tracker",
+    "description": "【新手向】AI 编程从 0 到 3：一套代码开发 Web、iOS、安卓三端 APP & InsForge MCP 后端数据库、用户授权",
+    "stargazers_count": 19,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://insforge.dev/?utm_source=jimmylv",
+    "created_at": "2025-10-30T12:32:17Z",
+    "pushed_at": "2025-10-30T12:32:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/fed-testing-react",
+    "description": "极限编程之【前端自动化测试】系列课程",
+    "stargazers_count": 16,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://space.bilibili.com/37648256/channel/collectiondetail?sid=826765",
+    "created_at": "2022-11-22T13:06:35Z",
+    "pushed_at": "2022-11-28T13:46:38Z",
+    "topics": [
+     "cypress",
+     "jest",
+     "react",
+     "redux",
+     "testing-library"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/alfred-quick-capture",
+    "description": "Alfred Workflow for @TanaInc & @Roam-Research Quick Capture (with API)",
+    "stargazers_count": 15,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "",
+    "created_at": "2023-05-23T10:14:50Z",
+    "pushed_at": "2023-05-23T10:25:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/personal-reading-flow",
+    "description": null,
+    "stargazers_count": 12,
+    "forks_count": 10,
+    "language": "JavaScript",
+    "homepage": "https://wt-0935a9d9b358e4302704de1cca42649c-0.run.webtask.io/demo.serverless-mern/stories",
+    "created_at": "2017-05-02T12:13:28Z",
+    "pushed_at": "2020-06-20T08:55:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/CHANGLOG.md",
+    "description": "My Life CHANGLOG: https://jimmylv.github.io/CHANGLOG.md/  => Radar:",
+    "stargazers_count": 11,
+    "forks_count": 0,
+    "language": "AppleScript",
+    "homepage": "https://thght.works/2wbgZWC",
+    "created_at": "2019-03-10T15:55:15Z",
+    "pushed_at": "2022-05-15T22:13:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/demo.zeit-nextjs",
+    "description": "quickly start, ever.",
+    "stargazers_count": 10,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "https://next-ysfoxhjfpt.now.sh",
+    "created_at": "2016-11-03T16:07:27Z",
+    "pushed_at": "2017-11-20T16:37:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/nofrontend.design",
+    "description": "卧槽，组件化拖拽写网页的时代已经到来，:joy:",
+    "stargazers_count": 10,
+    "forks_count": 2,
+    "language": null,
+    "homepage": null,
+    "created_at": "2016-06-26T15:19:54Z",
+    "pushed_at": "2017-11-03T07:24:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JimmyLv/roam-productivity",
+    "description": null,
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "https://jimmylv.gitbook.io/roam-productivity/",
+    "created_at": "2022-06-07T02:18:05Z",
+    "pushed_at": "2026-09-17T17:05:29Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 140,
+  "languages": [
+   [
+    "JavaScript",
+    65
+   ],
+   [
+    "TypeScript",
+    12
+   ],
+   [
+    "HTML",
+    9
+   ],
+   [
+    "CSS",
+    5
+   ],
+   [
+    "Python",
+    4
+   ],
+   [
+    "Java",
+    4
+   ],
+   [
+    "MDX",
+    2
+   ],
+   [
+    "Ruby",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "JimmyLv/BibiGPT-v1",
+    "stargazerCount": 6253,
+    "description": "BibiGPT v1 · one-Click AI Summary for Audio/Video & Chat with Learning Content: Bilibili | YouTube | Tweet丨TikTok丨Dropbox丨Google Drive丨Local files | Websites丨Podcasts | Meetings | Lectures, etc. 音视频内容 AI 一键总结 & 对话：哔哩哔哩丨YouTube丨推特丨小红书丨抖音丨快手丨百度网盘丨阿里云盘丨网页丨播客丨会议丨本地文件等 (原 BiliGPT 省流神器 & AI课代表)",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://bibigpt.co"
+   },
+   {
+    "nameWithOwner": "JimmyLv/jimmylv.github.io",
+    "stargazerCount": 729,
+    "description": ":bowtie: Agile Learning based on GitHub issues, KEEP Retrospection and Introspection! Thanks to @GitHub https://jimmylv.github.io/issues/",
+    "primaryLanguage": null,
+    "homepageUrl": "https://blog.jimmylv.info"
+   },
+   {
+    "nameWithOwner": "JimmyLv/styled-roam",
+    "stargazerCount": 120,
+    "description": "😉 Roam Research [[roam/js]] extension for Writing with your lovely cards and beautiful theme",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://styled-roam.vercel.app"
+   },
+   {
+    "nameWithOwner": "the-road-to-learn-react/the-road-to-learn-react-chinese",
+    "stargazerCount": 1859,
+    "description": "《React 学习之道》The Road to learn React (简体中文版) | 最简单，且最实用的 React 实战教程。",
+    "primaryLanguage": null,
+    "homepageUrl": "https://leanpub.com/the-road-to-learn-react-chinese"
+   },
+   {
+    "nameWithOwner": "JimmyLv/nobackend.website",
+    "stargazerCount": 82,
+    "description": "✨ A powerful rich interactive web application by using nobackend tech stack. (Hosted on @GitHub)",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "http://nobackend.website"
+   }
+  ],
+  "contrib_last_year": 17937,
+  "orgs": [],
+  "profile_readme": "### Hi there 👋\n\n\n<img align=\"right\" src=\"https://github-readme-stats.vercel.app/api?username=jimmylv&show_icons=true&icon_color=0366d6&text_color=24292e&bg_color=ffffff&hide_title=true\" />\n\n\nMy name is Jimmy Lv, AI founder [@bibigpt.co](https://bibigpt.co/)\n\n- 📫 How to reach me: [Twitter](https://twitter.com/Jimmy_JingLv)\n- or send me a [Email 📧](mailto:jimmy.jinglv@gmail.com)\n",
+  "readmes": {
+   "JimmyLv/BibiGPT-v1": "> This repo is only for v1 and supports Bilibil and YouTube!\n# 🤖 BibiGPT: one-Click AI Summary for Audio/Video & Chat with Learning Content [https://bibigpt.co](https://bibigpt.co)\n🎉 Effortlessly summarize YouTube and Bilibili videos with our AI-driven Video Summarizer. It also works for Podcasts, Twitter, Meetings, Lectures, Tiktok videos, and more. Discover a more brilliant way to learn with ChatGPT, your best AI-powered study companion! (formerly BiliGPT) \"stream-saving artifact & class representative\".\nAlternate address: https://b.jimmylv.cn\nBrowser extension: https://bibigpt.co/extension\n---\n## 🤖 BibiGPT · AI 音视频内容一键总结 & 对话 [https://bibigpt.co](https://bibigpt.co)\n🎉 ChatGPT AI 音视频一键总结，轻松学习哔哩哔哩丨 YouTube 丨本地视频丨本地音频丨播客丨小红书丨抖音丨会议丨讲座丨网页等任意内容。BibiGPT 助力于成为最好的 AI 学习助理，支持免费试用！(原 BiliGPT 省流神器 & AI 课代表)（支持 iOS 快捷指令 & 微信服务号）。\n备用地址：https://b.jimmylv.cn\n浏览器插件: https://bibigpt.co/extension\n---\n🎬 This project summarizes YouTube/Bilibili/Twitter/TikTok/Podcast/Lecture/Meeting/... videos or audios for you using AI.\n🤯 Inspired by [Nutlope/news-summarizer](https://github.com/Nutlope/news-summarizer) & [zhengbangbo/chat-simplifier](https://github.com/zhengbangbo/chat-simplifier/) & [lxfater/BilibiliSummary](https://github.com/lxfater/BilibiliSummary)\n[](https://twitter.com/Jimmy_JingLv/status/1630137750572728320?s=20)\n🚀 First Launch: [【BibiGPT】AI 自动总结 B 站视频内容，GPT-3 智能提取并总结字幕](https://www.bilibili.com/video/BV1fX4y1Q7Ux/?vd_source=dd5a650b0ad84edd0d54bb18196ecb86)\n## How it works\nThis project uses the [AI SDK OpenAI-compatible provider](https://ai-sdk.dev/providers/openai-compatible-providers) with [Vercel Edge functions](https://vercel.com/features/edge-functions) for streaming, plus [Upstash](https://console.upstash.com/) for Redis cache and rate limiting. It fetches the content on a Bilibili video, sends it in a prompt to an OpenAI-compatible API, then streams the response back to the application.\n## Saving costs\nProjects like this can get expensive so in order to save costs if you want to make your own version and share it publicly, I recommend three things:\n- [x] 1. Implement rate limiting so people can't abuse your site\n- [x] 2. Implement caching to avoid expensive AI re-",
+   "JimmyLv/jimmylv.github.io": "[](https://imdone.io/app#/board/JimmyLv/jimmylv.github.io)\n<h1 align=\"center\">\n<a href=\"https://github.com/JimmyLv/jimmylv.github.io/issues\">GitHub Issues · JimmyLv/jimmylv.github.io</a>\n<h5 align=\"center\", style=\"color, #666\">\n:bowtie: Agile Learning based on GitHub issues, <strong>KEEP</strong> Retrospection and Introspection! \n<br>\n基于 GitHub issues 的敏捷学习，持续行动，持续反思，持续进步…\n</h5>\n</h1>\n<p align=\"center\">\n<a href=\"https://github.com/JimmyLv/jimmylv.github.io/actions/workflows/jekyll-build.yml\"></a>\n<a href=\"https://app.netlify.com/sites/blog-jimmylv-info/deploys\"></a>\n<a href=\"https://github.com/JimmyLv/jimmylv.github.io/issues#boards?notFullScreen=false&amp;repos=50039903&amp;showClosed=false\" target=\"_blank\" rel=\"external\"></a>\n<a href=\"https://github.com/JimmyLv/jimmylv.github.io/issues?q=is%3Aissue+is%3Aclosed\" target=\"_blank\" rel=\"external\"></a>\n<a href=\"https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FJimmyLv%2Fjimmylv.github.io?ref=badge_shield\" alt=\"FOSSA Status\"></a>\n</p>\n## Continuous Progressive Ideology Revolution\n- [基于 Obsidian 的 Zettelkasten 卡片盒笔记法实践](https://blog.jimmylv.info/2020-06-03-zettelkasten-in-action/)\n- [Serverless 实战：打造个人阅读追踪系统](https://blog.jimmylv.info/2017-06-30-serverless-in-action-build-personal-reading-statistics-system/)\n- [《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？](https://blog.jimmylv.info/2017-02-20-gtd-best-practice-137/)\n- [基于 GitHub 的敏捷学习方法之道与术](http://blog.jimmylv.info/2016-12-04-agile-learning-based-on-github-issues/)\n- [渐进式知识管理： 写作动机与知识分享的价值影响](http://blog.jimmylv.info/2016-11-19-input-and-output-of-PKM/)\n- [不断革新，不断改进：去伪存真的知识管理之路](http://blog.jimmylv.info/2016-09-16-sorting-out-knowledge-from-information/)\n- [再谈个人知识管理：革新我的笔记系统](http://blog.jimmylv.info/2016-07-12-pkm-again-to-innovate-my-note-system/)\n- [全面思考：Mac + iPhone 效率加速之战略篇 && 战术篇](http://blog.jimmylv.info/2016-07-10-speed-up-mac-efficiency/)\n- [敏捷写作：macOS 环境下写作系统的最优配置](http://blog.jimmylv.info/2016-06-11-write-in-mac-os-x/)\n- [从需求出发：再谈 Mac OS X 下的 Mission Control](http://blog.jimmylv.info/2015-10-31-mission-control-on-mac-os-x/)\n- [谈谈效率：工作与生活、压力与负担](http://blog.jimmylv.info/2015-10-30-productivity-and-pressure/)\n- [个人知识管理：知识的三种形态](http://blog.jimmylv.info",
+   "JimmyLv/styled-roam": "<link rel=\"stylesheet\" href=\"/public/yue.css\">\n# Styled Roam (Research)\nRoam Research ✍️ Writing with your lovely cards 🧩 and beautiful theme 🎨\n> My custom CSS and JavaScript extension for [Roam Research](https://roamresearch.com)\n🆕 [#roam𐃏files](https://twitter.com/hashtag/roam%F0%90%83%8Ffiles?src=hashtag_click) Roam Research ✍️ [Files Attachment Dashboard](./ROAM_FILES.md) 🗃\n## Quick Start\nDeployed via [Cloudflare Pages](https://pages.cloudflare.com/)\n1. Add a `{{[[roam/js]]}}` block firstly\n2. Add a **CHILD** block `/JavaScript Code Block` with this code...\n```js\nwindow.URLScriptServer = `https://styled-roam.pages.dev/`\nwindow.styledRoamDisabledFeatures = [\n  // 'CardListMode',\n  // 'CardFlowMode',\n  // 'TreeTableMode',\n  // 'DocumentMode',\n  // 'CalendarMode',\n  // 'DownloadMode',\n  // 'FocusMode',\n]\nvar existing = document.getElementById('styled-roam')\nif (!existing) {\n  var extension = document.createElement('script')\n  extension.src = window.URLScriptServer + 'js/index.js'\n  extension.id = 'styled-roam'\n  extension.async = true\n  extension.type = 'text/javascript'\n  document.getElementsByTagName('head')[0].appendChild(extension)\n}\n```\n3. Press the **BIG RED** button to enable the script\n## Quick Review\nRelated Twitter:\n- https://twitter.com/Jimmy_JingLv/status/1304451043594387456?s=20\n- https://twitter.com/Jimmy_JingLv/status/1343897637255143424?s=20\n- https://twitter.com/Jimmy_JingLv/status/1305893239187103749?s=20\n- https://twitter.com/Jimmy_JingLv/status/1376741905485033476?s=20\n- https://twitter.com/Jimmy_JingLv/status/1462101666732335104?s=20\n## Basic Usage\n配合 Candy 主题食用最佳，当然其他主题也好看，😉\n```css\n@import url('https://styled-roam.pages.dev/Candy.css');\n```\n## References\n- [dvargas92495/roam-js-extensions](https://github.com/dvargas92495/roam-js-extensions)\n- [Roamcult Themes](https://roamresearch.com/#/app/help/page/fJRcVITNY)\n- [palashkaria/roam-modifiers: userscripts/custom CSS files for Roam Research](https://github.com/palashkaria/roam-modifiers)\n- [roamhacker/roam42: Level up Roam with power user features. Automation, keyboard nav, dictionary, live preview and more.](https://github.com/roamhacker/roam42)\n- [yoyooyooo/roam-enhance: Enhance roam reasea",
+   "the-road-to-learn-react/the-road-to-learn-react-chinese": "# 《React 学习之道》The Road to learn React (简体中文版)\n> 通往 React 实战大师之旅：掌握 React 最简单，且最实用的教程。\n[《React 学习之道》The Road to learn React (简体中文版) [PDF/iPad/Kindle] - Leanpub](https://leanpub.com/the-road-to-learn-react-chinese/)\n支持 PDF、EPUB、MOBI、Kindle 多种格式下载，并支持 Leanpub 在线阅读。\n------\n这是 [The Road to learn React](https://www.robinwieruch.de/the-road-to-learn-react/) 官方代码仓库。另外，你还可以在这里找到[源代码](https://github.com/the-road-to-learn-react/hackernews-client)和[完整课程](https://roadtoreact.com/)。如果你想的话，还可以在[亚马逊](https://www.amazon.com/dp/B077HJFCQX)或 [Goodreads](https://www.goodreads.com/book/show/37503118-the-road-to-learn-react) 留下你的评论。\n## 翻译\n感谢超豪华译者团队：\n| 章节   | 翻译作者                                     | 校对作者                                     |\n| ---- | ---------------------------------------- | ---------------------------------------- |\n| 前言   | [@LeiZeng](https://github.com/LeiZeng) （曾磊）                             | [@JimmyLv](https://github.com/JimmyLv) （吕靖）                             |\n| 第一章  | [@kenpusney](https://github.com/kenpusney) （刘清）、[@SBeator](https://github.com/SBeator) （曾星鑫）             | [@SBeator](https://github.com/SBeator) （曾星鑫）、[@azzgo](https://github.com/azzgo) （文一山）、[@kenpusney](https://github.com/kenpusney) （刘清） |\n| 第二章  | [@ariesjia](https://github.com/ariesjia) （陈嘉）、[@HelloRuiLi](https://github.com/HelloRuiLi) （李睿）、[@Yixi](https://github.com/Yixi) （刘应皓） | [@trotyl](https://github.com/trotyl) （余泽江）、[@lazurey](https://github.com/lazurey) （梁越）、[@HelloRuiLi](https://github.com/HelloRuiLi) （李睿） |\n| 第三章  | [@zengyang2014](https://github.com/zengyang2014) （曾扬） | [@lazurey](https://github.com/lazurey) （梁越） |\n| 第四章  | [@azzgo](https://github.com/azzgo) （文一山） | [@LeiZeng](https://github.com/LeiZeng) （曾磊） |\n| 第五章  | [@liujiefengfeng](https://github.com/liujiefengfeng) （刘杰凤） | [@JimmyLv](https://github.com/JimmyLv) （吕靖） |\n| 第六章  | [@futantan](https://github.com/futantan) （傅坦坦） | [@lazurey](https://github.com/lazurey) （梁越） |\n| 附：部署 | [@linksgo2011](https://github.com/linksgo2011) （林宁） | [@lazurey](https://github.com/lazurey) （梁越） |\n| 概述   | [@JimmyLv](https://github.com/JimmyLv) （吕靖） | [@lazurey](https://github.com/lazurey) （梁越） |\n## 更新，帮助和支持\n* 通过[电子邮件](https://www.getrev",
+   "JimmyLv/nobackend.website": "# NoBackEnd Website\n> A powerful rich interactive web application by using nobackend tech stack.\n[](https://travis-ci.org/JimmyLv/nobackend.website)\n[](https://codecov.io/gh/JimmyLv/nobackend.website)\n[](https://david-dm.org/JimmyLv/nobackend.website)\n[](https://david-dm.org/JimmyLv/nobackend.website#info=devDependencies)\n## Demos\n### [Angular 1.5 Version](http://nobackend.website/_ng/)\n[](http://nobackend.website/_ng/)\n### [React Version](http://nobackend.website/_react/)\n[](http://nobackend.website/_react/)\n## Getting Started\nOnly need change configuration inside `_config.yml` as you did in [Jekyll](https://jekyllrb.com).\n- [ ] Add more details about configs.\n- [ ] Extract separate project as git submodule.\n- [ ] Much more dev works, as you can see in [issues](https://github.com/JimmyLv/nobackend.website/issues).\n## Install dependencies & Run\n```bash\nnpm install # properly use cnpm if you are in China\nnpm run dev:ng # open http://localhost:8080/\nnpm run dev:vue # open http://localhost:8081/\nnpm run dev:react # open http://localhost:8082/\n```\n## Deploy && CI\n```bash\nnpm run build\ngit push\n```\n<https://travis-ci.org/JimmyLv/nobackend.website>\n## Thanks to\n- [Angular 1.x](http://angularjs.org/)\n- [Vue](http://vuejs.org/)\n- [React](https://facebook.github.io/react/)\n- [Redux](https://github.com/reactjs/redux)\n- [Webpack](http://webpack.github.io/)\n- [Babel](https://babeljs.io/) & [ES6](https://babeljs.io/docs/learn-es2015/)\n- [最美应用](http://zuimeia.com/) & [Chrome 插件](http://chrome.zuimeia.com)\n-------\nHost on [GitHub](https://github.com/JimmyLv/nobackend.website) / [AWS S3](http://nobackend.website.s3-website-ap-southeast-1.amazonaws.com) / [七牛](http://7xjbdq.com1.z0.glb.clouddn.com/_ng/#!/note) / [Firebase](http://nobackend-website.firebaseapp.com/)"
+  }
+ },
+ "apps": []
+}

@@ -1,0 +1,396 @@
+{
+ "handle": "alexyang",
+ "sites": [
+  {
+   "url": "http://himself65.com",
+   "ok": true,
+   "title": "Himself65",
+   "description": "",
+   "stack": [
+    "Waku",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "🌙 \n HIMSELF65(1) Personal Manual HIMSELF65(1) \nAlex Yang \nAI agent engineer, part time on open source. Interested in public market investment. \n now founding software engineer @ Funda AI \nExperience \n 2026 – Funda AI founding software engineer \n 2025 – 2026 Better Auth founding software engineer \n 2023 – 2025 LlamaIndex founding software engineer \n 2022 – 2023 toeverything architecture leader \n 2022 Textea co-founder \n 2021 Maskbook frontend internship \nProjects \n @llamaindex/workflow-core \nEvent-driven workflow engine for TypeScript agents. \n jotai-ai \nJotai atoms for building AI chat apps. \n jotai-lazy \nLazily initialized atoms for Jotai. \n @toeverything/y-indexeddb \nIndexedDB persistence for Yjs documents. \n @textea/json-viewer \nJSON viewer component for React. \nContributed to \n AFFiNE \n athena AI \n better-auth \n blocksuite \n jotai \n Maskbook \n Node.js \n waku \nWriting \n All posts → \n 2026-04-06 JavaScript Market Analysis \n 2025-11-18 剪影 \n 2025-07-31 My past decade \n 2024-04-18 How to make your NPM package work? (01) \nSee also \n github.com/himself65 ↗ \n x.com/himself65 ↗ \n skills.himself65.com ↗",
+   "github_links": [
+    "Athena-AI-Lab",
+    "DimensionDev",
+    "better-auth",
+    "himself65",
+    "jotaijs",
+    "nodejs",
+    "pmndrs",
+    "run-llama",
+    "toeverything",
+    "wakujs"
+   ],
+   "subpages": {
+    "http://himself65.com/blog": "🌙 \nwriting / \n 4 posts · since 2024 \nThoughts on web development, open source, and my life. \n 2026 \n 2026-04-06 \nJavaScript Market Analysis EN · 中文 \nAnalyzing the JS developer market from an investment perspective \n 2025 \n 2025-11-18 \n剪影 \n姥爷 \n 2025-07-31 \nMy past decade \nA retrospective on my past decade, from a middle school student to a software engineer in the US. \n 2024 \n 2024-04-18 \nHow to make your NPM package work? (01) \nA guide to publishing NPM packages that work across multiple JavaScript runtimes like Node.js, Deno, Bun, and more."
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "himself65",
+  "user": {
+   "name": "Alex Yang",
+   "company": "@fundamental-bottom",
+   "blog": "himself65.com",
+   "location": "Toronto, Canada",
+   "bio": "All Good Things",
+   "public_repos": 411,
+   "followers": 6374,
+   "created_at": "2015-08-29T06:11:11Z",
+   "twitter_username": "himself65",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "himself65/finance-skills",
+    "description": "A collection of skills for AI financial analysis.",
+    "stargazers_count": 3439,
+    "forks_count": 388,
+    "language": "JavaScript",
+    "homepage": "https://skills.himself65.com",
+    "created_at": "2026-03-13T23:56:06Z",
+    "pushed_at": "2026-10-19T08:37:18Z",
+    "topics": [
+     "agent-skills",
+     "claude-code",
+     "skills",
+     "trading"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/OpenArkCompiler",
+    "description": "the source code of OpenArkCompiler（Mirror Repo）",
+    "stargazers_count": 686,
+    "forks_count": 245,
+    "language": "C++",
+    "homepage": "https://www.openarkcompiler.cn/home",
+    "created_at": "2019-08-30T16:04:57Z",
+    "pushed_at": "2021-09-19T05:00:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/trade-skills",
+    "description": "A collection of skills for AI trading.",
+    "stargazers_count": 463,
+    "forks_count": 93,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2026-04-24T01:14:42Z",
+    "pushed_at": "2026-10-22T09:01:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/rich-data",
+    "description": "Data Viewer",
+    "stargazers_count": 144,
+    "forks_count": 11,
+    "language": "TypeScript",
+    "homepage": "https://rich-data.dev",
+    "created_at": "2023-01-03T02:12:46Z",
+    "pushed_at": "2023-10-17T01:37:03Z",
+    "topics": [
+     "react",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/learn-os",
+    "description": "操作系统学习指南",
+    "stargazers_count": 92,
+    "forks_count": 1,
+    "language": "Assembly",
+    "homepage": "",
+    "created_at": "2020-08-18T10:02:37Z",
+    "pushed_at": "2021-01-30T17:03:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/vscode-hentai",
+    "description": "[Abandoned] 在vscode上看色图",
+    "stargazers_count": 76,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2019-07-21T10:55:09Z",
+    "pushed_at": "2022-02-12T10:05:17Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "himself65/npm-download-stat",
+    "description": null,
+    "stargazers_count": 64,
+    "forks_count": 6,
+    "language": "TypeScript",
+    "homepage": "https://npm-stat.link",
+    "created_at": "2024-01-07T23:25:20Z",
+    "pushed_at": "2024-04-01T00:43:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/affine-minimum",
+    "description": "build AFFiNE in minimum code and the most modern way",
+    "stargazers_count": 63,
+    "forks_count": 8,
+    "language": "TypeScript",
+    "homepage": "https://affine-demo.himself65.com",
+    "created_at": "2023-04-30T06:47:39Z",
+    "pushed_at": "2023-07-23T05:10:45Z",
+    "topics": [
+     "affine"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/vscode-luogu",
+    "description": "Solve Luogu Problems in VSCode",
+    "stargazers_count": 62,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=himself6565.vscode-luogu",
+    "created_at": "2018-07-26T12:01:39Z",
+    "pushed_at": "2022-04-28T22:11:24Z",
+    "topics": [
+     "luogu",
+     "typescript",
+     "vscode-extension"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "himself65/did-zhihu-close-down-today",
+    "description": "知乎今天倒闭了吗？",
+    "stargazers_count": 59,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "https://gist.github.com/Himself65/45b82f824f6185b29555a6da516b7337",
+    "created_at": "2020-01-11T14:50:06Z",
+    "pushed_at": "2022-07-07T15:38:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/LianXue",
+    "description": "恋学，全称Cre的恋爱学",
+    "stargazers_count": 46,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "https://love.himself65.com",
+    "created_at": "2019-07-03T06:49:18Z",
+    "pushed_at": "2022-12-10T21:19:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/auth-spec",
+    "description": "Create your own auth skills collection",
+    "stargazers_count": 41,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-03-25T00:17:20Z",
+    "pushed_at": "2026-10-09T11:54:33Z",
+    "topics": [
+     "authentication",
+     "claude-code",
+     "skills"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/LuoguCrawler",
+    "description": "一个python爬虫来爬取洛谷各种信息",
+    "stargazers_count": 41,
+    "forks_count": 14,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2018-03-17T21:53:26Z",
+    "pushed_at": "2018-06-04T15:22:25Z",
+    "topics": [
+     "crawler",
+     "python",
+     "python3"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "himself65/not-whitehouse",
+    "description": null,
+    "stargazers_count": 35,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "https://notwhitehousse.com/",
+    "created_at": "2025-03-07T07:31:55Z",
+    "pushed_at": "2025-03-07T07:41:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/refine",
+    "description": "Note-taking app for multiple distributions (desktop, web, chrome extension, react native)",
+    "stargazers_count": 31,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "https://docs.refine.himself65.com/",
+    "created_at": "2023-09-18T22:06:24Z",
+    "pushed_at": "2024-01-08T22:02:52Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "himself65/himself65-waka-box",
+    "description": null,
+    "stargazers_count": 25,
+    "forks_count": 11,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-01-16T06:09:43Z",
+    "pushed_at": "2022-01-22T10:17:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/big-watermelon",
+    "description": "合成大西瓜",
+    "stargazers_count": 22,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2021-01-28T01:59:01Z",
+    "pushed_at": "2021-01-28T09:18:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "himself65/react-server",
+    "description": "Collection of React Server tools",
+    "stargazers_count": 15,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2024-03-04T02:00:56Z",
+    "pushed_at": "2024-07-09T19:02:28Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 20,
+  "languages": [
+   [
+    "TypeScript",
+    10
+   ],
+   [
+    "JavaScript",
+    5
+   ],
+   [
+    "C++",
+    1
+   ],
+   [
+    "Assembly",
+    1
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "Rust",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "nodejs/node",
+    "stargazerCount": 122551,
+    "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://nodejs.org"
+   },
+   {
+    "nameWithOwner": "DimensionDev/Maskbook",
+    "stargazerCount": 1588,
+    "description": "The portal to the new, open Internet. ([I:b])",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://mask.io"
+   },
+   {
+    "nameWithOwner": "wakujs/waku",
+    "stargazerCount": 6474,
+    "description": "⛩️ The minimal React framework",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://waku.gg"
+   },
+   {
+    "nameWithOwner": "pmndrs/jotai",
+    "stargazerCount": 21299,
+    "description": "👻 Primitive and flexible state management for React",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://jotai.org"
+   },
+   {
+    "nameWithOwner": "himself65/finance-skills",
+    "stargazerCount": 3439,
+    "description": "A collection of skills for AI financial analysis.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://skills.himself65.com"
+   },
+   {
+    "nameWithOwner": "himself65/trade-skills",
+    "stargazerCount": 463,
+    "description": "A collection of skills for AI trading.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 10562,
+  "orgs": [
+   "tc39",
+   "hexojs",
+   "nodejs",
+   "darukjs",
+   "JSCIG",
+   "LGBT-CN",
+   "LANDrop",
+   "jotaijs",
+   "The-Run-Philosophy-Organization",
+   "nextai-translator"
+  ],
+  "profile_readme": "An AI Agent Engineer, part time on open source.\n\nInterested in public market investment.\n",
+  "readmes": {
+   "nodejs/node": "# Node.js\nNode.js is an open-source, cross-platform JavaScript runtime environment.\nFor information on using Node.js, see the [Node.js website][].\nThe Node.js project uses an [open governance model](./GOVERNANCE.md). The\n[OpenJS Foundation][] provides support for the project.\nContributors are expected to act in a collaborative manner to move\nthe project forward. We encourage the constructive exchange of contrary\nopinions and compromise. The [TSC](./GOVERNANCE.md#technical-steering-committee)\nreserves the right to limit or block contributors who repeatedly act in ways\nthat discourage, exhaust, or otherwise negatively affect other participants.\n**This project has a [Code of Conduct][].**\n## Table of contents\n* [Support](#support)\n* [Release types](#release-types)\n  * [Download](#download)\n    * [Current and LTS releases](#current-and-lts-releases)\n    * [Nightly releases](#nightly-releases)\n    * [API documentation](#api-documentation)\n  * [Verifying binaries](#verifying-binaries)\n* [Building Node.js](#building-nodejs)\n* [Security](#security)\n* [Contributing to Node.js](#contributing-to-nodejs)\n* [Current project team members](#current-project-team-members)\n  * [TSC (Technical Steering Committee)](#tsc-technical-steering-committee)\n  * [Collaborators](#collaborators)\n  * [Triagers](#triagers)\n  * [Release keys](#release-keys)\n* [License](#license)\n## Support\nLooking for help? Check out the\n[instructions for getting support](.github/SUPPORT.md).\n## Release types\nNode.js follows [semantic versioning](https://semver.org).\n* **Alpha**: Under active development where semver-major changes are allowed.\n  Each October, a new release line (for example, Node.js 27) branches off `main`\n  and receives Alpha releases (for example, `27.0.0-alpha.0.0.0`) for 6 months,\n  then are promoted to Current (see below) each April. Alpha releases are signed,\n  tagged, and tested through [CITGM](https://github.com/nodejs/citgm), but their\n  API and ABI may change between releases. They are intended for library authors\n  and CI pipelines, not for production use.\n* **Current**: Under active development, no semver-major changes allowed. Node.js\n  releases a new major version once a year, in A",
+   "DimensionDev/Maskbook": "<a href=\"https://mask.io\">\n</a>\n# Mask Network\n[![GitHub license][badge-license]][license]\n[![Join the chat at https://gitter.im/Maskbook/community][badge-gitter]][gitter]\n[![Chrome Web Store][badge-chrome]][client-chrome]\n[![Mozilla Add-on][badge-firefox]][client-firefox]\n[![Opera][badge-opera]][client-opera]\n[![FOSSA Status][badge-fossa]][fossa]\n[![Crowdin][badge-crowdin]][crowdin]\nMask Network is a portal to the new, open internet, that bridge from Web2.0 to Web3.0 .\nWith Mask Network, you can send encrypted posts to your friends, trade your best token on X (formerly Twitter), enjoy NFT pfps,\nparticipate in crypto lucky-draws, and share encrypted files on the platforms you are already using.\nFor general introductions, see [Mask.io](https://mask.io).\n[![FOSSA Status][fossa-status]][fossa]\n## Downloads\n- [Mask Network on Chrome Web Store][client-chrome]\n- [Mask Network on Firefox Addon Store][client-firefox]\n- [Mask Network on Opera Addon Store][client-opera]\n## Useful Links\n- [User Forum](https://github.com/DimensionDev/Maskbook/discussions)\n- [Report Bug][report-bug]\n- [X (formerly Twitter)](https://x.com/masknetwork)\n- [Facebook](https://www.facebook.com/masknetwork)\n- [Telegram](https://t.me/maskbook_group)\n- [Discord](https://discord.gg/4SVXvj7)\n- [YouTube](https://www.youtube.com/c/MaskNetwork)\n## Developer documentation\nPlease check out [docs](https://docs.mask.io/)\n## Reporting a Vulnerability\nContact: `security (at) mask.io`\nsee [SECURITY.md](.github/SECURITY.md)\n## Work for Mask Network\nPlease submit your **resume** to `jobs (at) mask.io`\n[badge-chrome]: https://img.shields.io/chrome-web-store/v/jkoeaghipilijlahjplgbfiocjhldnap.svg?logo=Maskbook&logoColor=%231c68f3&style=flat-square&label=Chrome%20store\n[badge-crowdin]: https://badges.crowdin.net/mask-network/localized.svg\n[badge-firefox]: https://img.shields.io/amo/v/maskbook?label=Firefox%20store&style=flat-square\n[badge-opera]: https://img.shields.io/badge/Opera%20store-v2.32.0-blue.svg\n[badge-fossa]: https://app.fossa.io/api/projects/git%2Bgithub.com%2FDimensionDev%2FMaskbook.svg?type=shield\n[badge-gitter]: https://badges.gitter.im/Maskbook/community.svg\n[badge-license]: https://img.shields.io/bad",
+   "wakujs/waku": "# Waku\n⛩️ The minimal React framework\nvisit [waku.gg](https://waku.gg) or `npm create waku@latest`\n[](https://github.com/wakujs/waku/actions?query=workflow%3ATest)\n[](https://www.npmjs.com/package/waku)\n[](https://www.npmjs.com/package/waku)\n[](https://discord.gg/MrQdmzd)\n<br>\n## Introduction\n**Waku** _(wah-ku)_ or **わく** is the minimal React framework. It's lightweight and designed for a fun developer experience, yet supports all the latest React 19 features like server components and actions. Built for marketing sites, headless commerce, and full-stack web apps, small or large. Whether Waku fits is about the architecture you want, not the size of your project: Waku keeps its framework surface minimal and composes with ecosystem libraries, while heavier frameworks own more of those concerns for you.\n## Getting started\nStart a new Waku project with the `create` command for your preferred package manager. It will scaffold a new project with our default [Waku starter](https://github.com/wakujs/waku/tree/main/templates/01_basic).\n```sh\nnpm create waku@latest\n```\n#### Commands\n- `waku dev` to start the local development server\n- `waku build` to generate a production build\n- `waku start` to serve the production build locally\n**Node.js version requirement:** `^26.0.0` or `^24.0.0` or `^22.15.0`\nFor a guided path, start with the [Quick Start](https://waku.gg/guides/quick-start) guide and continue with the Learn series on [waku.gg/guides](https://waku.gg/guides), which builds a small app step by step.\n## Rendering\nWhile there's a bit of a learning curve to modern React rendering, it introduces powerful new patterns of full-stack composability that are only possible with the advent of [server components](https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md).\nSo please don't be intimidated by the `'use client'` directive! Once you get the hang of it, you'll appreciate how awesome it is to flexibly move server-client boundaries with a single line of code as your full-stack React codebase evolves over time. It's way simpler than maintaining separate codebases for your backend and frontend.\nAnd please don't fret about client components! Even if you only l",
+   "pmndrs/jotai": "<br>\n<br>\nvisit [jotai.org](https://jotai.org) or `npm i jotai`\n[](https://github.com/pmndrs/jotai/actions/workflows/test.yml?query=branch%3Amain)\n[](https://bundlephobia.com/result?p=jotai)\n[](https://www.npmjs.com/package/jotai)\n[](https://www.npmjs.com/package/jotai)\n[](https://discord.gg/poimandres)\n[](https://opencollective.com/jotai)\nJotai scales from a simple useState replacement to an enterprise TypeScript application.\n- Minimal core API (2kb)\n- Many utilities and extensions\n- No string keys (compared to Recoil)\nExamples: [Demo 1](https://codesandbox.io/s/jotai-demo-47wvh) |\n[Demo 2](https://codesandbox.io/s/jotai-demo-forked-x2g5d)\n### First, create a primitive atom\nAn atom represents a piece of state. All you need is to specify an initial\nvalue, which can be primitive values like strings and numbers, objects, and\narrays. You can create as many primitive atoms as you want.\n```jsx\nimport { atom } from 'jotai'\nconst countAtom = atom(0)\nconst countryAtom = atom('Japan')\nconst citiesAtom = atom(['Tokyo', 'Kyoto', 'Osaka'])\nconst mangaAtom = atom({ 'Dragon Ball': 1984, 'One Piece': 1997, Naruto: 1999 })\n```\n### Use the atom in your components\nIt can be used like `React.useState`:\n```jsx\nimport { useAtom } from 'jotai'\nfunction Counter() {\n  const [count, setCount] = useAtom(countAtom)\n  return (\n    <h1>\n      {count}\n      <button onClick={() => setCount((c) => c + 1)}>one up</button>\n      ...\n```\n### Create derived atoms with computed values\nA new read-only atom can be created from existing atoms by passing a read\nfunction as the first argument. `get` allows you to fetch the contextual value\nof any atom.\n```jsx\nconst doubledCountAtom = atom((get) => get(countAtom) * 2)\nfunction DoubleCounter() {\n  const [doubledCount] = useAtom(doubledCountAtom)\n  return <h2>{doubledCount}</h2>\n}\n```\n### Creating an atom from multiple atoms\nYou can combine multiple atoms to create a derived atom.\n```jsx\nconst count1 = atom(1)\nconst count2 = atom(2)\nconst count3 = atom(3)\nconst sum = atom((get) => get(count1) + get(count2) + get(count3))\n```\nOr if you like fp patterns ...\n```jsx\nconst atoms = [count1, count2, count3, ...otherAtoms]\nconst sum = atom((get) => atoms.map(get).",
+   "himself65/finance-skills": "# Finance Skills\n> [!WARNING]\n> This project is for educational and informational purposes only. Nothing here constitutes financial advice. Always do your own research and consult a qualified financial advisor before making investment decisions.\nA collection of agent skills for financial analysis and trading, following the [Agent Skills](https://agentskills.io) open standard.\n**Visit [skills.himself65.com](https://skills.himself65.com/) for documentation, demos, and setup instructions.**\n## Quick Start\n### OpenAI Codex\nAdd this repository as a native Codex marketplace, then install the groups you need:\n```bash\ncodex plugin marketplace add himself65/finance-skills\ncodex plugin add finance-market-analysis@finance-skills\ncodex plugin add finance-data-providers@finance-skills\n```\nIn the desktop app, select **Finance Skills** in the plugin directory after registering the marketplace. Restart or refresh the app if the source is not visible yet. Older clients without `codex plugin` can install individual skills with `npx skills add himself65/finance-skills -a codex`; that route does not include bundled MCP servers.\nGitHub releases also provide one importable plugin ZIP per group, a complete local marketplace ZIP, and the existing individual skill ZIPs. See [Codex installation and release guide](docs/codex.md) for ZIP selection, requirements, and maintainer commands.\n### Plugin Groups (Claude Code, Cursor, and More)\n```bash\nnpx plugins add himself65/finance-skills\n```\nThe installer prompts you to select one or more plugin groups. To install every group non-interactively:\n```bash\nnpx plugins add himself65/finance-skills --yes\n```\n### Individual Skills\n```bash\nnpx skills add himself65/finance-skills --skill yfinance-data\n```\n### Other Agents\n```bash\nnpx skills add himself65/finance-skills -a <agent-name>\n```\n## Available Skills\n### Market Analysis (`finance-market-analysis`)\nStock analysis, earnings, estimates, correlations, liquidity, ETFs, options payoff, and trading strategies via yfinance.\n| Skill | Description |\n|---|---|\n| [company-valuation](plugins/market-analysis/skills/company-valuation/) | DCF + relative + SOTP triangulation — implied share price, WACC × g sens"
+  }
+ },
+ "apps": []
+}

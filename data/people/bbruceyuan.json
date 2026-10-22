@@ -1,0 +1,171 @@
+{
+ "name": "袁朝发（Chaofa Yuan）",
+ "role": "大模型算法工程师 · LLM 教程作者 · ApeCode.ai 创始人",
+ "title": "袁朝发：<em>从零手写</em>大模型，再从零手搓 Agent",
+ "dek": "他是一名大模型算法工程师，先后在腾讯和字节跳动做过大模型与搜广推相关工作，X 简介写着「ex-ByteDance staff engineer」。业余时间，他以「chaofa 用代码打点酱油」之名在 B 站、YouTube、公众号和博客上讲大模型：从零手写 Self-Attention、LoRA、RoPE，翻译《Hands-On Large Language Models》，用一张 3090 训练自己的小模型；2026 年他改用真名署名，创办 ApeCode.ai，用 500 行 Python 复刻 Claude Code。",
+ "card": "LLMs-Zero-to-Hero、Hands-On LLMs 中文版作者；ApeCode.ai 创始人，前字节跳动、腾讯大模型工程师。",
+ "location": "中国深圳",
+ "updated": "2026-10-22",
+ "tags": ["大模型", "Agent", "教程", "开源", "播客"],
+ "links": [
+  {"label": "yuanchaofa.com", "url": "https://yuanchaofa.com"},
+  {"label": "GitHub：bbruceyuan", "url": "https://github.com/bbruceyuan"},
+  {"label": "ApeCode.ai", "url": "https://apecode.ai"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>博客自述「专业大模型算法工程师，业余野生视频博主」，做了一个播客叫《逃逸速度》，「尝试做一些有意义的事情」。",
+  "<strong>代表作：</strong>Hands-On-Large-Language-Models-CN（★3 千）、LLMs-Zero-to-Hero（★2.3 千）、AI-Interview-Code（★620）、BitBrain（0.6B 小模型）、apecode（Nano Claude Code）。",
+  "<strong>关键数字：</strong>据 2025 年终总结，20 个 B 站教学视频累计播放超 100 万、3.3 万关注；X 简介称在 LLM 领域全网 6 万多关注者。",
+  "<strong>正在写：</strong>一本大模型书，书名暂为《大语言模型：从菜鸟到大师》。"
+ ],
+ "lead": "2026 年 6 月，他宣布把用了多年的「chaofa 用代码打点酱油」改成真名「袁朝发」。理由有三：旧名字暗含「随便做做」的心态；要为自己的内容负责，「不会让 AI 接管我的思考」；以及，书的封面上应该印真名。这一年他在写书、录课、做开源，也在 Agent 浪潮里认真思考怎样把自己的效率提高十倍。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "大模型算法工程师、技术内容创作者、ApeCode.ai 创始人"],
+     ["所在地", "中国深圳（GitHub 资料）"],
+     ["经历", "腾讯（ApeCode 介绍）、字节跳动（X 与 GitHub 资料）"],
+     ["方向", "LLM 训练与对齐、Agent 系统设计、搜索广告推荐"],
+     ["内容", "博客、B 站 / YouTube「chaofa 用代码打点酱油」、公众号、播客《逃逸速度》"],
+     ["技术栈", "Python、PyTorch、Jupyter"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "袁朝发的内容有一个鲜明的特点：<strong>完全从零手写，边写边讲</strong>。LLMs-Zero-to-Hero 的 README 写着「致敬 Andrej Karpathy」，从 Attention、GQA、LoRA、DPO、RoPE 一路写下来，配套视频讲解，最低一张 3090 就能训练。"},
+    {"p": "2026 年他把重心从模型转向 Agent：写 Prompt Caching、Harness Engineering 的长文，创办 ApeCode.ai「公开构建」，开源轻量编程助手 apecode 和本地优先的 nanoclaw-py，并准备配套的工程课程。"},
+    {"note": "本页依据 yuanchaofa.com（关于页、文章与年度 / 月度总结）、ApeCode.ai、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。博客中的家庭内容未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2015–2020", "title": "刷题与 NLP", "text": "2015 年注册 GitHub，维护各 OJ 题解；2019 年开博客；做金融新闻情感分析数据集 FiTSA 和情感-原因对抽取（ECPE）的 PyTorch 实现。"},
+     {"when": "2022", "title": "推荐系统", "text": "把推荐召回库 DeepMatch 移植为 PyTorch 版 DeepMatch-Torch，可以导出用户和物品向量做 ANN 检索。"},
+     {"when": "2023–2024", "title": "转向大模型", "text": "开始 LLMs-101「从零实现 miniLLM」；2024 年 10 月起正式做视频，启动 Hands-On LLMs 中文版和 AI 面试手写题。"},
+     {"when": "2025", "title": "百万播放", "text": "LLMs-Zero-to-Hero 与 BitBrain 上线；B 站视频累计播放破百万；工作主线是 Agent 落地，担任子项目 Owner。"},
+     {"when": "2026", "title": "真名与 ApeCode", "text": "发表 Prompt Caching、Harness Engineering、Kimi K2.5 解读；6 月改用真名署名；创办 ApeCode.ai；X 简介更新为「ex-@bytedance staff engineer」。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "LLMs-Zero-to-Hero", "url": "https://github.com/bbruceyuan/LLMs-Zero-to-Hero",
+     "meta": ["2025–", "Jupyter Notebook", "★2.3 千"],
+     "paras": [
+      "「从无名小卒到大模型大英雄。」体系化的实践路线：完全从零手写、配套 B 站视频、配套 GPU 镜像，最低用 3090 或 4090 就能训练。完全从零训练的小模型放在姊妹仓库 BitBrain。"
+     ],
+     "facts": [["GitHub", "★2,312 · ⑂158"]]
+    }},
+    {"work": {
+     "name": "Hands-On LLMs 中文版", "url": "https://github.com/bbruceyuan/Hands-On-Large-Language-Models-CN",
+     "meta": ["2024–", "翻译 + 注释", "★3 千"],
+     "paras": [
+      "Jay Alammar 与 Maarten Grootendorst 原著《Hands-On Large Language Models》的中文版。他给代码加了更详细的注释和自己的理解，并做了更适合国内网络环境的 Notebook。README 第一句就是「英文好的同学强烈推荐支持原书」。"
+     ],
+     "facts": [["GitHub", "★2,991 · ⑂322"]]
+    }},
+    {"work": {
+     "name": "BitBrain 比特大脑", "url": "https://github.com/bbruceyuan/bit-brain",
+     "meta": ["2025–", "Python", "进行中"],
+     "paras": [
+      "基于 Qwen3-0.6B 架构，在约 2000 亿 token 的中英文数据上预训练。README 公开了训练效率：4 张 H800 上 MFU 46%，8 张 4090 上 34%，以及并不漂亮的 C-Eval 成绩。重点是把训练过程完整走一遍。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["AI-Interview-Code", "2024–", "大模型与搜广推面试中的手写题（★620）"],
+      ["apecode", "2026", "Nano Claude Code：轻量 Python 编程 Agent"],
+      ["nanoclaw-py", "2026", "本地优先的 AI 代码助手"],
+      ["vmarker", "2026", "用 AI 给视频生成章节"],
+      ["DeepMatch-Torch", "2022", "推荐与广告的深度召回模型库"],
+      ["data-export", "2023", "把 flomo 导出为 Obsidian / Logseq 的 Markdown"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://yuanchaofa.com", "paras": [
+     "博客首页先是三组「精选专题」：Agent 系统设计、从零手写 LLM、论文精读；然后是最新文章，技术长文和月度总结交替出现。关于页写着：「我是想打酱油与不想打酱油的矛盾体！」",
+     "ApeCode.ai 则是另一种风格：终端式界面、「公开构建中」，免费开源代码，付费课程讲「每个工程决策背后的为什么」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "博客 Vercel 托管 + giscus 评论；ApeCode 用 Next.js"],
+      ["内容", "技术长文、论文解读、月度与年度总结"],
+      ["商业化", "开源免费，课程和 API 路由推荐付费"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-04", "title": "AI 狂飙，怎么才能 10 倍 or 100 倍自己的工作效率", "url": "https://yuanchaofa.com/blog/2026-09-month-summary"},
+     {"date": "2026-06-01", "title": "从打点酱油到袁朝发", "url": "https://yuanchaofa.com/blog/2026-05-month-summary"},
+     {"date": "2026-03-14", "title": "Harness Engineering：Agent 不好用，也许不是模型的问题", "url": "https://yuanchaofa.com/post/harness-engineering-for-ai-agents"},
+     {"date": "2026-03-01", "title": "Kimi K2.5 技术解读", "url": "https://yuanchaofa.com/post/kimi-k2-5-reading-notes"},
+     {"date": "2026-02-23", "title": "2025，浪潮与拧巴", "url": "https://yuanchaofa.com/blog/2025-year-summary"}
+    ]},
+    {"quote": "AI 时代，编程不再是少数人的特权，而是每个人实现创造力的本能。", "cite": "袁朝发，ApeCode.ai"},
+    {"p": "他在《Harness Engineering》里提出：同一个模型，只改 Agent 的「外壳」，排名就能从前 30 升到前 5。Agent 不好用，未必是模型的问题。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "从零手写 + 视频讲解，门槛低", "—"],
+      ["一线经验", "大厂算法工作与面试官视角", "公司内工作细节公开不多"],
+      ["开源", "教程类仓库星数高", "BitBrain 等训练项目仍在进行中"],
+      ["商业化", "开源与课程分层清晰", "内容中带有推广链接，读者需自行判断"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从零手写一遍：</strong>写过 Self-Attention，才真正懂它。",
+     "<strong>翻译也是贡献：</strong>但要先推荐原书。",
+     "<strong>公开训练过程：</strong>包括不漂亮的评测分数。",
+     "<strong>用真名为内容负责：</strong>不让 AI 接管自己的思考。",
+     "<strong>坚持写月度总结：</strong>让想法不会被遗忘。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "LLMs-Zero-to-Hero", "url": "https://github.com/bbruceyuan/LLMs-Zero-to-Hero", "why": "一条从零到训练大模型的路线。"},
+     {"name": "手写 Self-Attention 的四重境界", "url": "https://yuanchaofa.com/hands-on-code/from-self-attention-to-multi-head-self-attention.html", "why": "面试和理解都用得上。"},
+     {"name": "Harness Engineering", "url": "https://yuanchaofa.com/post/harness-engineering-for-ai-agents", "why": "理解为什么 Agent 的外壳同样重要。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "打开 LLMs-Zero-to-Hero 的第一个 Notebook，亲手写一遍 Self-Attention。",
+ "sources": [
+  {"label": "袁朝发的 X 个人资料", "url": "https://x.com/bbruceyuan"},
+  {"label": "yuanchaofa.com", "url": "https://yuanchaofa.com"},
+  {"label": "关于我（yuanchaofa.com）", "url": "https://yuanchaofa.com/about"},
+  {"label": "ApeCode.ai", "url": "https://apecode.ai"},
+  {"label": "GitHub：bbruceyuan", "url": "https://github.com/bbruceyuan"},
+  {"label": "2025，浪潮与拧巴", "url": "https://yuanchaofa.com/blog/2025-year-summary"}
+ ]
+}

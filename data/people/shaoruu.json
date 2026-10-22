@@ -1,0 +1,169 @@
+{
+ "name": "Ian Huang（黄绍儒）",
+ "role": "Cursor 早期创始工程师 · Voxelize 作者 · SpaceX",
+ "title": "Ian Huang：从浏览器里的 <em>Minecraft</em> 到 Cursor",
+ "dek": "他从高中起就在浏览器里造体素世界：2019 年用 Three.js、React、GraphQL 和 Node 写出开源 Minecraft 克隆 mc.js，后来用 Rust 重写成 MineJS，再演化成全栈体素引擎 Voxelize。据台湾 iThome 的讲者介绍，他自学编程，原本在伊利诺伊大学香槟分校读本科，被 Cursor 创始人亲自招募，休学成为 Cursor 的 2 号工程师。如今他的个人网站写着 SpaceXSI，此前在 Cursor 创始团队。",
+ "card": "Cursor 创始团队工程师；Voxelize（★690）、mc.js（★2.7 千）、typehere.app 作者，旧金山。",
+ "location": "美国旧金山（来自台湾）",
+ "updated": "2026-10-22",
+ "tags": ["Cursor", "体素引擎", "Three.js", "Rust", "图形学"],
+ "links": [
+  {"label": "shaoruu.io", "url": "https://shaoruu.io"},
+  {"label": "GitHub：shaoruu", "url": "https://github.com/shaoruu"},
+  {"label": "Voxelize", "url": "https://github.com/voxelize/voxelize"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「building @bot @spacexsi, prev @cursor_ai occasionally @withvoxelize」；GitHub 简介「making @cursor better，creator of @voxelize」。",
+  "<strong>代表作：</strong>Cursor（创始团队）、Voxelize（★690）、mc.js（★2,677）、MineJS（★331）、typehere.app、blobrogue、GraphQL 教程。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 13,340 次；X 关注者约 3 万；据 iThome，他曾是 ModernWeb 大会史上最年轻的讲者。",
+  "<strong>个人网站：</strong>一个仿 IDE 界面的作品集，内嵌可以多人在线一起搭建的体素世界 create.town。"
+ ],
+ "lead": "「很长一段时间里，我都没法让 Voxelize 的透明效果正确。」2026 年 10 月，Ian 写了一篇长文：玻璃、水、树叶、烟雾在体素世界里互相交叠，根本不存在一个正确的绘制顺序，每修一个排序 Bug 就会冒出下一个。最后他用 2013 年的「加权混合无序透明」算法，在不改 Three.js 源码的前提下彻底绕开排序。这个问题从大学起就困扰他，七年后终于解决。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师；Cursor 创始团队成员"],
+     ["所在地", "美国旧金山"],
+     ["教育", "伊利诺伊大学香槟分校（UIUC）本科，休学加入 Cursor"],
+     ["经历", "Cursor（Anysphere）2 号工程师 → SpaceXSI"],
+     ["开源", "Voxelize、mc.js、MineJS、typehere.app、rust-typescript-template"],
+     ["技术栈", "TypeScript、JavaScript、Rust、Three.js、WebAssembly、Python"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "白天，Ian 做的是 AI 编程工具：据 iThome 介绍，他在 Cursor 设计和构建产品的核心架构，并主张早期创业公司应该专注把产品做好，而不是追逐增长指标和社交媒体热度。据维基百科援引的报道，SpaceX 在 2026 年 6 月以全股票方式收购了 Cursor 的母公司。"},
+    {"p": "业余时间，他一直在做同一件事：<strong>在浏览器里跑一个可多人联机的体素世界</strong>。Voxelize 支持自定义方块与实体、实时多人和持久化世界，后端用 Rust、前端用 TypeScript 和 Three.js。"},
+    {"note": "本页依据 shaoruu.io（主页与博客）、GitHub 仓库与 README、iThome Hello World Dev Conference 2025 讲者介绍、Cursor 官方博客和 X 资料整理，资料截至 2026 年 10 月。SpaceX 收购一事以公开报道为准。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2018", "title": "自学编程", "text": "注册 GitHub，用 pygame 写 Flappy Bird，用 p5.js 写生命游戏和鸟群模拟。"},
+     {"when": "2019", "title": "mc.js 与 ModernWeb", "text": "用 Three.js、React、GraphQL、Node 写出开源 Minecraft 克隆 mc.js（★2.7 千）；写 GraphQL 入门教程；据 iThome，成为 ModernWeb 史上最年轻的讲者。"},
+     {"when": "2019–2021", "title": "MineJS", "text": "mc.js 在 2019 年 8 月因 DMCA 通知被屏蔽，他用 Rust + TypeScript 重写为 MineJS；2020 年用遗传算法做月球着陆器 AI。"},
+     {"when": "2021–2023", "title": "Voxelize", "text": "把 MineJS 改写成可定制的全栈库 Voxelize；做 Rust + WASM + TypeScript 库模板、Markdown 新标签页扩展。"},
+     {"when": "Cursor 早期", "title": "加入 Cursor", "text": "早早用 Cursor 写个人项目，被创始人亲自招募，从 UIUC 休学，成为 2 号工程师。"},
+     {"when": "2024–2025", "title": "create.town 与演讲", "text": "上线多人体素世界 create.town 和多人在线作品集；2025 年 10 月在台北演讲《我从在 Cursor 工作学到的几件事》。"},
+     {"when": "2026", "title": "SpaceXSI", "text": "个人网站写着 SpaceXSI；发布 blobrogue 和《Transparency without sorting》。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Voxelize", "url": "https://github.com/voxelize/voxelize",
+     "meta": ["2021–", "TypeScript · Rust", "★690"],
+     "paras": [
+      "「A multiplayer, super fast, voxel engine in your browser!」不用安装、不用插件，在任何现代浏览器里运行持久化的多人体素世界：自定义任意形状和材质的方块，方块可以带元数据；自定义会走动、会交互的实体；实时多人同步。",
+      "create.town 是它在生产环境运行的实例，也是 Ian 个人网站的一部分。"
+     ],
+     "facts": [["包", "npm @voxelize/core · crates.io voxelize"]]
+    }},
+    {"work": {
+     "name": "mc.js", "url": "https://github.com/github/dmca/blob/master/2019/08/2019-08-22-minecraft.md",
+     "meta": ["2019", "JavaScript", "★2,677"],
+     "paras": [
+      "一个用 Three.js、React、GraphQL 和 Node 写的开源 Minecraft 克隆，是他最早被大量关注的项目。2019 年 8 月，仓库因一份与 Minecraft 相关的 DMCA 通知被 GitHub 屏蔽，至今无法访问。他随后改名为 MineJS 并用 Rust 重写；MineJS 的 README 特别声明，项目只是出于热爱，不隶属于 Minecraft 或任何授权引擎，素材均为免费授权。"
+     ]
+    }},
+    {"work": {
+     "name": "typehere.app", "url": "https://typehere.app",
+     "meta": ["2023–2026", "Web", "★115"],
+     "paras": [
+      "他常用的 typehere.co 下线后，他自己做了一个：一开始只是把内容存进 localStorage 的文本框，后来加了 Vim 模式、⌘K 模糊搜索、工作区和导入导出。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["blobrogue", "2026", "浏览器里的俯视角肉鸽射击，可实时联机，README 说由 AI 自主迭代开发"],
+      ["not-so-modern-graphql-tutorial", "2019", "GraphQL 入门教程（★324）"],
+      ["rust-typescript-template", "2021", "把 wasm-pack 产物嵌进 TypeScript 库的模板"],
+      ["three-extruded-image", "2024", "把透明背景 PNG 挤出成 Three.js 网格"],
+      ["lunar-lander-ai", "2020", "用遗传算法学会登月"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://shaoruu.io", "paras": [
+     "网站做成了一个代码编辑器：左侧是文件树（create.town、lab、mars、terrain、projects、experiments），右侧以 README.md 的形式介绍自己，还有「Split Editor Right ⌘\\」「Zen Mode」这样的菜单。",
+     "最特别的是它内嵌了 create.town 大厅：一个可以和其他访客一起搭方块的多人世界。他在 GitHub 上称之为「第一个多人在线个人作品集」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + Three.js，Vercel 托管"],
+      ["交互", "IDE 式导航 + 可游玩的体素世界 + 小实验"],
+      ["博客", "只有两篇，都是 Voxelize 的深度技术文"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-09", "title": "Transparency without sorting", "url": "https://shaoruu.io/blog/transparency-without-sorting"},
+     {"date": "2024-06-09", "title": "What is Voxelize?", "url": "https://shaoruu.io/blog/what-is-voxelize"}
+    ]},
+    {"quote": "For the longest time I couldn't get transparency right in Voxelize.", "cite": "Ian Huang，Transparency without sorting"},
+    {"p": "这篇文章写得非常工程：问题是什么、为什么排序注定失败、算法怎么接进 Three.js、水面折射和彩色玻璃怎么特殊处理、帧时间从 3.96 毫秒降到 3.08 毫秒、还有哪些已知局限。他也坦白，这一版是在 AI 模型的帮助下实现的。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["执行力", "高中起持续交付大型图形项目", "—"],
+      ["深度", "图形渲染、网络同步、Rust/WASM 都能落地", "Voxelize 社区规模仍小"],
+      ["职业", "Cursor 早期成员，经历完整的高速成长", "公司内工作细节公开不多"],
+      ["写作", "技术长文扎实", "博客更新很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一个项目做七年：</strong>mc.js → MineJS → Voxelize，一直在长。",
+     "<strong>开源作品就是简历：</strong>GitHub 上的星让 Cursor 找到了他。",
+     "<strong>把作品集做成可玩的东西：</strong>访客可以一起搭方块。",
+     "<strong>为自己做工具：</strong>喜欢的网站下线了，就自己写一个。",
+     "<strong>写清楚局限：</strong>技术文章不只写成功。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "shaoruu.io", "url": "https://shaoruu.io", "why": "在他的作品集里搭几块方块。"},
+     {"name": "Transparency without sorting", "url": "https://shaoruu.io/blog/transparency-without-sorting", "why": "一篇讲透无序透明渲染的文章。"},
+     {"name": "Voxelize", "url": "https://github.com/voxelize/voxelize", "why": "在浏览器里跑你自己的体素世界。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "打开 shaoruu.io，在 create.town 里留下一块方块。",
+ "sources": [
+  {"label": "ian 的 X 个人资料", "url": "https://x.com/shaoruu"},
+  {"label": "shaoruu.io", "url": "https://shaoruu.io"},
+  {"label": "GitHub：shaoruu", "url": "https://github.com/shaoruu"},
+  {"label": "黄绍儒（Ian Huang）讲者介绍（iThome Hello World Dev Conference 2025）", "url": "https://hwdc.ithome.com.tw/2025/speaker-page/1979"},
+  {"label": "Early team · Cursor", "url": "https://cursor.com/blog/team"},
+  {"label": "Michael Truell（维基百科，含 SpaceX 收购）", "url": "https://en.wikipedia.org/wiki/Michael_Truell"}
+ ]
+}

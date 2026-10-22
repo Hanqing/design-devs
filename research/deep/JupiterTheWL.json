@@ -1,0 +1,303 @@
+{
+ "handle": "JupiterTheWL",
+ "sites": [
+  {
+   "url": "https://jupiterthewarlock.com",
+   "ok": true,
+   "title": "Jupiter The Warlock — Indie Game Designer & Developer",
+   "description": "Games, open-source projects, and development notes by Jupiter The Warlock.",
+   "stack": [
+    "Next.js"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en-US",
+   "home_text": "Choose language 简体中文 繁體中文 English 日本語 \nJupiter The Warlock \nIndie game designer & developer \nShipping AI game dev demos, prototypes and experiments \nGames \n AAA Sewer King Clear sewers with marbles. Upgrade, then take on the next well. Bet You Can’t Out-Throw Me! An arcade game where you anchor to asteroids to spin up and accelerate your spaceship. M… Nest of Rectangles + Nest of Fractals + Tomb of Rectangles + Cocoon + Skybox Once you step into the Nest of Rectangles, it will no longer be just a nest of rectangle… YeShit Rhapsody In the final years of the Eastern Han dynasty, war and turmoil leave people starving. Th… The Reluctant Salted Fish A Global Game Jam 2024 entry, voted fourth at the Guangzhou Gongke jam site. Single-vector Strike Escape the Single-vector Strike King of Petroleum A Global Game Jam 2025 entry for 2–4 local players. Controllers only. \nExploring \n godot-game-dev-skill Portable Godot game development knowledge skill for AI coding agents game-design-skill Source-grounded game design methodology distilled from Claude-Code-Game-Studios for Clau… llm-wiki-cli AI-native personal knowledge engine CLI jthewl-skills Jupiter The Warlock’s personal Agent Skills Marketplace. \nNotes \n Making a Balatro-Like Game Soundtrack with AI, Starting from Zero I have always envied game music you can recognize immediately. Before any visuals appear… AI-Native Games Don’t Mean Letting AI Take Over the World I increasingly feel that many discussions of AI-native games start by approaching the pr… \nContact \n [email protected] ↗ \n X ↗ GitHub ↗ itch.io ↗ MakerWorld ↗ Bilibili ↗ Zhihu ↗ Gcores ↗",
+   "github_links": [
+    "JupiterTheWarlock"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "JupiterTheWarlock",
+  "user": {
+   "name": "术士木星",
+   "company": "中山大学",
+   "blog": "https://www.jthewl.cc",
+   "location": "肠粉国",
+   "bio": null,
+   "public_repos": 47,
+   "followers": 6,
+   "created_at": "2021-05-18T13:36:57Z",
+   "twitter_username": "JupiterTheWL",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "JupiterTheWarlock/PixelCosmosStudio",
+    "description": "Godot pixel and voxel planet generator, procedural space skyboxes, and looping animation export",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "GDScript",
+    "homepage": null,
+    "created_at": "2026-09-23T14:57:32Z",
+    "pushed_at": "2026-09-30T17:26:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/cgj2026-team-lobby",
+    "description": "CGJ2026 组队大厅",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-06-29T06:04:28Z",
+    "pushed_at": "2026-06-29T08:13:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/FavoriteBoard",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-06-26T07:46:06Z",
+    "pushed_at": "2025-12-05T16:29:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/godot-game-dev-skill",
+    "description": "Portable Godot game development knowledge skill for AI coding agents",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-05-12T09:12:27Z",
+    "pushed_at": "2026-05-12T09:19:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/locus-ralph-loop",
+    "description": "Locus plugin that drives Ralph-style iterative agent loops through a Locus View",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2026-06-12T07:43:17Z",
+    "pushed_at": "2026-06-16T09:09:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/paolu-skill",
+    "description": "跑路.skill — 离职前全面扫描并清理个人敏感数据的 Agent Skill",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2026-05-26T11:13:05Z",
+    "pushed_at": "2026-05-26T11:24:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/StarsBoard",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-12-30T05:40:32Z",
+    "pushed_at": "2026-10-21T06:29:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/ai-game-music-workflow",
+    "description": "Build a reusable game-music motif and consistent scene arrangements with AI.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-09-17T03:31:22Z",
+    "pushed_at": "2026-09-18T01:42:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/booom-gamejam-test",
+    "description": "Early validation web prototype for Shijiexian gamejam",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "https://booom2026.jthewl.cc",
+    "created_at": "2026-05-11T09:05:13Z",
+    "pushed_at": "2026-05-11T11:04:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/cgj-2026-leaderboard",
+    "description": "Cloudflare Workers D1 leaderboard for CGJ 2026",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-07-04T17:47:37Z",
+    "pushed_at": "2026-07-05T05:15:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/cultivagent",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-07-01T03:43:47Z",
+    "pushed_at": "2026-09-12T10:43:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/game-design-skill",
+    "description": "Source-grounded game design methodology distilled from Claude-Code-Game-Studios for Claude Code and Codex.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-07-23T03:47:29Z",
+    "pushed_at": "2026-07-23T11:27:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/GGJ2026ByIO",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2026-01-31T03:45:40Z",
+    "pushed_at": "2026-02-01T01:05:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/info-pipeline",
+    "description": "Personal information collection & aggregation pipeline. Collect → Analyze → Push.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-06-03T10:12:11Z",
+    "pushed_at": "2026-06-08T10:34:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/jthewl-blog",
+    "description": "jthewl's public blog",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://jthewl-blog.vercel.app",
+    "created_at": "2026-04-16T07:46:57Z",
+    "pushed_at": "2026-10-21T06:29:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/jthewl-skills",
+    "description": "术士木星的个人 Agent Skills Marketplace",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-05-22T03:51:45Z",
+    "pushed_at": "2026-09-21T04:14:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/jthewl-skills-hub",
+    "description": "Public web hub for browsing JupiterTheWarlock's Claude Code skills marketplace",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://jthewl-skills-hub.vercel.app",
+    "created_at": "2026-05-25T08:00:08Z",
+    "pushed_at": "2026-06-03T08:31:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JupiterTheWarlock/JupiterTheWarlock",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-08-26T02:44:37Z",
+    "pushed_at": "2026-06-08T03:23:59Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 27,
+  "languages": [
+   [
+    "JavaScript",
+    8
+   ],
+   [
+    "TypeScript",
+    6
+   ],
+   [
+    "Python",
+    6
+   ],
+   [
+    "GDScript",
+    1
+   ],
+   [
+    "Vue",
+    1
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "C#",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 5986,
+  "orgs": [],
+  "profile_readme": "# AI Native的独立游戏开发者\n**AI 接管低维，人类专注高维**\n\nC# / Unity｜高频 Game Jam中\n\n>  正在尝试/捣鼓：独立开发 | 独立游戏开发 | 自托管 | 上下文工程 | 自动化 | 超级个体 | 自媒体\n---\n\n\n### 👋 关于我\n- 正在尝试自动构建自动化构建自动化工作流的工作流\n- 正在探索将AI融入Unity游戏开发工作流\n- 正在尝试构建无限流\n\n### 🛠️ 技术栈 / 工具\n<p>\n  <a href=\"https://unity.com/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/unity.svg?color=%23888888\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://cursor.com/cn/home?from=agents\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/cursor.svg?color=%23888888\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://claude.ai/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/claude.svg?color=%23D97757\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://www.jetbrains.com/rider/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/rider.svg?color=%23888888\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://n8n.io/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/n8n.svg?color=%23FF6D5B\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://dotnet.microsoft.com/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/dotnet.svg?color=%23512BD4\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://www.typescriptlang.org/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/typescript.svg?color=%233178C6\" width=\"32\" height=\"32\" /></a>\n</p>\n\n### 🎮 日常生活\n<p>\n  <a href=\"https://store.steampowered.com/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/steam.svg?color=%23888888\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://x.com/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/x.svg?color=%23888888\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://github.com/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/github.svg?color=%23888888\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://itch.io/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/itchdotio.svg?color=%23FA5C5C\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://claude.ai/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/claude.svg?color=%23D97757\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://obsidian.md/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/obsidian.svg?color=%23483699\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://bambulab.com/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/bambulab.svg?color=%2300AE42\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://www.docker.com/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/docker.svg?color=%232496ED\" width=\"32\" height=\"32\" /></a>\n  <a href=\"https://www.markdownguide.org/\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/markdown.svg?color=%23888888\" width=\"32\" height=\"32\" /></a>\n</p>\n\n### 🌐 社交媒体 / 个人主页\n<p>\n  <a href=\"https://x.com/JupiterTheWL\" target=\"_blank\"><img src=\"https://api.iconify.design/simple-icons/x.svg?color=%23888888\" width=\"32\" height=\"32\" /></a>\n  <a",
+  "readmes": {
+   "JupiterTheWarlock/PixelCosmosStudio": "# Pixel Cosmos Studio v2\n独立 Godot 4 工具：生成像素/体素 3D 星球与像素星空，导出供游戏使用。沿用 PixelPlanets / PixelSpace 的色板与图层思路，并适配三维空间。\n## 打开与使用\n使用 Godot 4.4.1 导入 `project.godot`，按 F5。Windows 可在配置 `GODOT_EXECUTABLE` 或将 `godot` 加入 PATH 后双击 `start.cmd`。运行验证后，截图和报告生成到 `exports/v2`。\n1. 在“星球生成”“星空生成”两个页面之间切换。参数、相机和结果分别保存。\n2. 左侧预览，右侧配置，与原仓库布局对齐。“常用”页直接选择类型、种子、配色和图层；修改后自动更新。星球提供 8 类预设、球体/体素形态、独立云层与星环。\n3. 拖动预览旋转视角，滚轮缩放。下方环境光、点光源/方向光实时生效，不必重新生成。\n4. “高级”页保留全部细节参数；“配置”页保存/载入完整配置。色板可单独导入导出、重置，星空提供原版 13 组配色方案。预览更新完成后即可导出。\n5. “动态”页设置云、海水、气态条带或星云的变化幅度、循环时长和次数。下方时间轴支持播放、暂停、定位。\n6. “导出静态资产”输出第 0 秒；“动态”页的“导出循环动画”输出 PNG 帧序列及播放配置。“复制动态实现说明”复制同一套算法、参数与接入约定。详细使用方式见 docs/ANIMATION_GUIDE.md。\n7. 启动后默认播放噪声、自转并显示星空背景；三个开关可分别关闭。\n8. 右上角“设置”切换简体中文 / English，语言选择会保存；面板内可访问原作者项目及 PixelSpace fork。\n9. “配置”页的“我的预设”支持命名保存、选择应用、JSON 检视、复制、粘贴导入及删除。桌面保存到 `user://preset_library.json`，Web 保存到当前浏览器的站点存储。详见 [预设存储与 Web 准备](docs/PRESET_STORAGE.md)。\n10. 体素模式同时应用于星球、云和星环，三者共用像素 / 体素密度。首次启动默认英文，已有语言存档时按上次选择恢复。\n11. 星空“常用 → 图层与显示”关闭 **Pixel art / 像素风格**，使用 [PixelSpace fork](https://github.com/JupiterTheWarlock/PixelSpace) 的平滑模式思路：连续噪声采样、连续色板过渡、柔和的远景行星边缘。预览、静态导出、动画和实现说明共用这个开关。详见 [fork 复用说明](docs/SKY_FORK_REUSE.md)。\n效果参数滑条的中点为默认效果，两端保留完整范围，数值不是等距分布。直接输入可精确调整；点击 ↺ 或双击滑条回到默认。种子及没有双向空间的边界参数保留输入框。与原项目的面板对照及取舍见 docs/UI_COMPARISON.md。\n星球 70 项配置，星空 47 项，另有预览灯光控制。不同类型只使用适用的地形和动态参数。具体对应见 docs/PARAMETER_COVERAGE.md。\n## 导出与接入\n- 星球：标准 GLB、几何法线、UV、本色 PNG 或体素顶点颜色、独立云层/星环。普通受光材质，灯光没有烘焙进资产。\n- 星空：六面 PNG、2:1 全景 PNG、可选 Godot Sky/Cubemap 资源。\n- manifest.json：版本、参数、轴向、单位、色彩空间、过滤与动画约定。preset.json 可重新载入工具。\n- adapters：Godot 可选分段光照 shader、three.js 示例、Unity glTFast 加载脚本、UE 导入辅助脚本。详见 docs/IMPORT_GUIDE.md。\n生成器在工具内运行；导出资产在游戏中受实时光照、可旋转、更换材质。GLB 本身没有噪声动画轨道。动画包另带真实 PNG 帧序列和参考算法，实现说明供 Agent 移植可编辑噪声。不同引擎需要各自调整灯光、曝光和色调映射，不保证逐像素一致。\n## itch 发布包\n提供网页版和 Windows 下载版，免费使用，可自愿付费。新编写的源码采用 [MIT 许可](LICENSE)，原作、字体和素材继续保留各自的条款。\n运行 `./tools/build_release.ps1` 可生成两个 ZIP；依赖准备、网页本机预览和截图生成见 [构建说明](docs/RELEASE_BUILD.md)，上架文案见 [itch 页面草稿](docs/ITCH_PAGE.md)。网页版资产与动画下载为 ZIP，配置和色板通过 JSON 文件导入导出。复制文本在浏览器弹窗中完成。\n## 验证\n在项目目录使用 Godot 4.4.1：\n~~~powershell\nGodot_v4.4.1-stable_win64_console.exe --path . --editor --headless --import --quit\nGodot_v4.4.1-stable_win64_console.exe --path . -- --smoke\nGo",
+   "JupiterTheWarlock/cgj2026-team-lobby": "# CGJ2026组队大厅\nCGJ2026 活动组队大厅。前端使用 Vite + React，部署在 Cloudflare Pages，API 使用 Pages Functions，数据存在 D1，队徽存在 R2。\n## 功能\n- 活动码进入大厅，避免公开暴露微信号。\n- 开发者页：看板 view、表格 view、技能筛选、自填标签。\n- 队伍页：组建中的队伍、全部队伍、状态/技能/关键词筛选。\n- 队伍字段：队伍名称、状态、成员、联系微信、队徽、当前技能、寻找技能、介绍。\n- 管理后台：管理员密码进入，查看统计，导出开发者/队伍 CSV。\n## 本地开发\n```bash\nnpm install\nCopy-Item .dev.vars.example .dev.vars\nnpm run build\nnpm run pages:dev\n```\n`.dev.vars` 里配置：\n```txt\nACTIVITY_CODE=\"活动码\"\nADMIN_PASSWORD=\"管理员密码\"\n```\n## Cloudflare 资源\nProduction URL: <https://cgj2026-team-lobby.pages.dev/>\n已创建：\n```bash\nnpx wrangler d1 create cgj2026-team-lobby\nnpx wrangler r2 bucket create cgj2026-team-crests\n```\n`wrangler.jsonc` 已写入当前 D1 `database_id`。重新部署：\n```bash\nnpm run deploy\n```\nGitHub Pages 集成也可以在 Cloudflare Dashboard 里连接本仓库，构建命令为 `npm run build`，输出目录为 `dist`。\n如果 Wrangler 报 `User->Memberships->Read` 或 `Authentication error [code: 10000]`，按 [Cloudflare 部署手册](docs/cloudflare-deploy.md) 恢复权限后再部署。\n## 数据安全\n- 不提交 `.dev.vars`。\n- 不提交 D1 导出的活动数据。\n- 队徽文件通过 R2 保存，D1 只保存 R2 key。\n- 微信号只在活动码或管理员密码通过后返回。\n",
+   "JupiterTheWarlock/FavoriteBoard": "# FavoriteBoard\n## ✨ 功能特性\n### 🏗️ 核心架构\n- **📋 模块化分层系统**：采用事件驱动和状态管理的现代化架构\n- **🔄 事件总线**：组件间松耦合通信机制\n- **📊 状态管理**：集中式状态管理，单向数据流\n### 📊 数据面板\n- **数据可视化**：直观展示收藏夹使用情况\n- **收藏统计**：了解你的收藏习惯\n- **活动记录**：查看最近的收藏操作\n### 📁 收藏管理\n- **层级展示**：完整的树形结构展示\n- **智能展开**：记住文件夹展开状态\n- **卡片界面**：美观的链接卡片\n- **快速搜索**：多维度搜索功能\n- **右键菜单**：完整的操作支持\n- **常用网页**：智能识别和管理常用网站\n### 🎯 用户体验\n- **响应式设计**：适配各种屏幕尺寸\n- **现代化界面**：流畅动画和交互\n- **智能图标**：自动获取网站图标\n- **跨浏览器支持**：支持 Chrome 和 Edge 浏览器\n- **智能存储兼容**：自动检测浏览器类型，优化存储策略\n## 🚀 使用方法\n1. **安装扩展**：在 Chrome 或 Edge 浏览器扩展管理页面加载解压缩扩展（开发者模式）\n2. **打开面板**：点击工具栏中的扩展图标\n3. **开始管理**：在新标签页中管理你的收藏夹\n### 🌐 Edge浏览器特别说明\nEdge浏览器用户请注意：\n- **自动兼容性检测**：扩展会自动检测Edge浏览器并优化存储策略\n- **数据迁移功能**：如果检测到同步存储数据，会自动迁移到本地存储\n- **存储状态通知**：会显示当前存储状态和兼容性信息\n- **测试工具**：可使用 `test-edge-compatibility.html` 测试兼容性\n## 📁 项目结构\n```\nFavoriteBoard/\n├── js/\n│   ├── main.js               # 应用容器\n│   ├── core/                 # 核心系统\n│   │   ├── event-bus.js      # 事件总线\n│   │   ├── state-manager.js  # 状态管理\n│   │   └── init.js           # 初始化脚本\n│   ├── data/                 # 数据层\n│   │   ├── bookmark-manager.js # 收藏夹数据管理\n│   │   ├── data-processor.js # 数据处理\n│   │   └── frequently-used-manager.js # 常用网页管理（支持Edge兼容性）\n│   ├── ui/                   # UI管理层\n│   │   ├── ui-manager.js     # UI总管理器\n│   │   ├── sidebar-manager.js # 侧边栏\n│   │   ├── dialog-manager.js # 对话框\n│   │   ├── context-menu-manager.js # 右键菜单管理器\n│   │   ├── card-context-menu.js # 卡片右键菜单\n│   │   ├── frequently-used-context-menu.js # 常用网页右键菜单\n│   │   ├── frequently-used-panel.js # 常用网页面板\n│   │   ├── notification-manager.js # 通知\n│   │   ├── tab-container.js  # Tab容器\n│   │   ├── tab-context-menu.js # Tab右键菜单\n│   │   └── folder-selector.js # 文件夹选择器\n│   ├── tabs/                 # Tab实现\n│   │   ├── base-tab.js       # Tab基类\n│   │   ├── tab-factory.js    # Tab工厂\n│   │   ├── dashboard-tab.js  # 仪表板Tab\n│   │   ├── bookmark-tab.js   # 收藏夹Tab\n│   │   └── settings-tab.js   # 设置Tab\n│   ├── utils/                # 工具函数\n│   │   ├── dom-utils.js      # DOM操作\n│   │   ├── data-utils.js     # 数据处理\n│   │   ├── ui-utils.js       # UI工具\n│   │   ├── tab-utils.js      # Tab工具\n│   │   └── card-interaction-utils.js # 卡片交互工具\n│   └── config/               # 配置\n│       └── app-config.js     # 应用配置\n├─",
+   "JupiterTheWarlock/godot-game-dev-skill": "# Godot Game Dev Skill\nA portable Godot game development knowledge plugin for Claude Code and other skill-capable agents.\nThis skill uses the official Godot documentation as the primary source for API and engine behavior. It supports both online search against `docs.godotengine.org` and offline search against a local `godotengine/godot-docs` checkout.\n## What It Covers\n- Godot 4 projects and migration checks\n- GDScript, C#, GDExtension, scenes, nodes, signals, and resources\n- Shaders, UI, input, audio, animation, physics, navigation, networking, exports, and performance\n- Lightweight gamejam/prototype guardrails\n- A small curated extract from Claude-Code-Game-Studios, used only as heuristics\n## Claude Code Marketplace Install\nAdd this repository as a Claude Code plugin marketplace:\n```bash\nclaude plugin marketplace add JupiterTheWarlock/godot-game-dev-skill\n```\nInstall the plugin:\n```bash\nclaude plugin install godot-game-dev@jthewl-godot-skills\n```\nInside Claude Code, the skill is namespaced as:\n```text\n/godot-game-dev:godot-game-dev\n```\nFor local development before publishing changes:\n```bash\nclaude --plugin-dir ./plugins/godot-game-dev\nclaude plugin validate .\n```\n## Manual Skill Install\nIf your agent does not support Claude Code plugins, copy the skill folder directly:\n```bash\nplugins/godot-game-dev/skills/godot-game-dev -> ~/.codex/skills/godot-game-dev\nplugins/godot-game-dev/skills/godot-game-dev -> ~/.claude/skills/godot-game-dev\n```\nRestart the agent app after installing so it can discover the skill.\n## Online Docs Search\nUse this when network access is available:\n```bash\npython plugins/godot-game-dev/skills/godot-game-dev/scripts/search_godot_docs_online.py \"CharacterBody2D move_and_slide\" --version stable\npython plugins/godot-game-dev/skills/godot-game-dev/scripts/search_godot_docs_online.py --class CharacterBody2D --version stable\n```\nSupported versions follow Godot docs URL names, such as `stable`, `latest`, `4.6`, `4.5`, or `3.6`.\n## Offline Docs Search\nClone the official docs under your home directory:\n```bash\ngit clone --depth 1 --filter=blob:none https://github.com/godotengine/godot-docs.git ~/godot-docs\n```\nThen search locally:\n```bash\npython plu"
+  }
+ },
+ "apps": []
+}

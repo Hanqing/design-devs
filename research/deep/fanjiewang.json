@@ -1,0 +1,329 @@
+{
+ "handle": "fanjiewang",
+ "sites": [
+  {
+   "url": "https://anoma.ly",
+   "ok": true,
+   "title": "Anoma.ly",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "[Audio 2](https://anoma.ly/skateboard-punk.mp3)[](https://x.com/anomalyco)[Creators of](https://opencode.ai/)\n# Looking for anomalies.\nExperiments, experiences, and ambitious ideas from Anomaly.\n[[Video 3](https://anoma.ly/rebase-title.mp4)01 / Entertainment ## Rebase Live trivia. Real prizes. Play Rebase](https://rebase.tv/)[[Video 4](https://anoma.ly/antarctica-title.m4v)02 / Adventure ## Antarctica A bike challenge at the edge of the world. Follow the journey](https://www.instagram.com/reel/Daf-lKUz7iD/?utm_source=ig_we…)[03 / Partnerships ## Let's connect We partner with incredible people doing incredible things. Talk to our team](mailto:marketing@anoma.ly)",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://opencode.ai",
+   "ok": true,
+   "title": "OpenCode | The open source AI coding agent",
+   "description": "OpenCode - The open source coding agent.",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "The open source AI coding agent \n Free models included or connect any model from any provider, including Claude, GPT, Gemini and more. \n curl npm bun brew paru yay \n curl -fsSL https:// opencode.ai/v2/install | bash \n Your browser does not support the video tag. \nWhat is OpenCode? \nOpenCode is an open source agent that helps you write code in your terminal, IDE, or desktop. \n [*] \n LSP enabled Automatically loads the right LSPs for the LLM \n [*] \n Multi-session Start multiple agents in parallel on the same project \n [*] \n Share links Share a link to any session for reference or to debug \n [*] \n GitHub Copilot Log in with GitHub to use your Copilot account \n [*] \n ChatGPT Plus/Pro Log in with OpenAI to use your ChatGPT Plus or Pro account \n [*] \n Any model 75+ LLM providers through Models.dev, including local models \n [*] \n Any editor Available as a terminal interface, desktop app, and IDE extension Read docs \nThe open source AI coding agent \n [*] \nWith over 215,000 GitHub stars, 950 contributors, and over 20,000 commits, OpenCode is used and trusted by over 16M developers every month. \n Fig 1. 215K GitHub Stars \n Fig 2. 950 Contributors \n Fig 3. 16M Monthly Devs \nBuilt for privacy first \n [*] \n OpenCode does not store any of your code or context data, so that it can operate in privacy sensitive environments. Learn more about privacy . \nFAQ \nWhat is OpenCode? \nOpenCode is an open source agent that helps you write and run code with any AI model. It's available as a terminal-based interface, desktop app, or IDE extension. \nHow do I use OpenCode? \nThe easiest way to get started is to read the intro . \nDo I need extra AI subscriptions to use OpenCode? \nNot necessarily. OpenCode comes with a set of free models that you can use without creating an account. Aside from these, you can use any of the popular coding models by creating a Zen account. While we encourage users to use Zen, OpenCode also works with all popular providers such as OpenAI, Anthropic, xAI etc. You can even connect your local models . \nCan I use my existing AI subscriptions with OpenCode? \nYes, OpenCode supports subscription plans from all major providers. You can use your Claude Pro/Max, ChatGPT Plus/Pro, or GitHub Copilot subscriptions. Learn more . \nCan I only use OpenCode in the terminal? \nNot anymore! OpenCode is now available as an app for your desktop and web ! \nHow much does OpenCode cost? \nOpenCode is 100% free to use. It also comes with a set of free models. There might be additional costs if you connect any other provider. \nWhat about data and privacy? \nYour data and information is only stored when you use our free models. Learn more about our models . \nIs OpenCode open source? \nYes, OpenCode is fully open source. The source code is public on GitHub under the MIT License , meaning anyone can use, modify, or contribute to its development. Anyone from the community can file issues, submit pull requests, and extend functionality. \n Access reliable optimized models for coding agents \nZen gives you access to a handpicked set of AI models that OpenCode has tested and benchmarked specifically for coding agents. No need to worry about inconsistent performance and quality across providers. Use validated models that work. \n Learn about Zen \nBe the first to know when we release new products \nJoin the waitlist for early access. Subscribe \n © 2026 Anomaly Brand Privacy Terms \n English",
+   "github_links": [
+    "anomalyco"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "fwang",
+  "user": {
+   "name": "Frank",
+   "company": "@AnomalyInnovations",
+   "blog": "https://anoma.ly",
+   "location": "San Francisco | Toronto",
+   "bio": "Founder @sst.",
+   "public_repos": 75,
+   "followers": 703,
+   "created_at": "2009-05-12T04:57:37Z",
+   "twitter_username": "fanjiewang",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "fwang/sst-playground",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Makefile",
+    "homepage": null,
+    "created_at": "2022-06-07T14:41:19Z",
+    "pushed_at": "2023-11-02T16:06:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/vim_erlang_folding",
+    "description": "Erlang syntax folding for vim",
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "language": null,
+    "homepage": "",
+    "created_at": "2010-10-23T01:41:15Z",
+    "pushed_at": "2010-10-23T02:04:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-dotnet6",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "C#",
+    "homepage": null,
+    "created_at": "2022-06-05T03:46:07Z",
+    "pushed_at": "2022-06-05T04:22:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-new-relic",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-01-31T20:18:34Z",
+    "pushed_at": "2022-01-31T20:19:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/terminal",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 79,
+    "language": null,
+    "homepage": null,
+    "created_at": "2024-08-20T20:35:25Z",
+    "pushed_at": "2024-08-20T20:35:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/testing-release-notes",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2021-01-01T01:51:26Z",
+    "pushed_at": "2021-05-04T07:55:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/next-test-middleware",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "CSS",
+    "homepage": "https://next-test-middleware.vercel.app",
+    "created_at": "2023-03-28T20:47:57Z",
+    "pushed_at": "2023-03-28T20:48:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/nextjs13",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "nextjs13-eight.vercel.app",
+    "created_at": "2022-11-28T03:59:15Z",
+    "pushed_at": "2022-12-01T09:18:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sls-yarn3",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-01-20T18:30:35Z",
+    "pushed_at": "2022-01-20T18:30:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-api-with-lambda-version",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-02-23T22:10:18Z",
+    "pushed_at": "2022-02-23T22:10:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-ci-demo",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-11-15T20:30:21Z",
+    "pushed_at": "2023-11-16T16:59:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-copy-files-test",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2021-07-13T09:16:21Z",
+    "pushed_at": "2021-07-13T09:16:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-custom-stack-name",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-02-07T08:20:30Z",
+    "pushed_at": "2022-04-21T04:18:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-edge-lambda-test",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2021-07-08T07:21:59Z",
+    "pushed_at": "2021-07-08T07:22:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-gastby",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2021-11-12T23:05:32Z",
+    "pushed_at": "2021-11-12T23:07:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-grant-permission-to-imported-function",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-01-04T10:17:00Z",
+    "pushed_at": "2022-01-04T10:17:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-load-ssm",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-01-04T11:04:46Z",
+    "pushed_at": "2022-01-04T11:12:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "fwang/sst-nextjs-counter",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2021-09-20T12:09:23Z",
+    "pushed_at": "2021-09-20T20:49:10Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 52,
+  "languages": [
+   [
+    "TypeScript",
+    22
+   ],
+   [
+    "JavaScript",
+    20
+   ],
+   [
+    "CSS",
+    3
+   ],
+   [
+    "Makefile",
+    1
+   ],
+   [
+    "C#",
+    1
+   ],
+   [
+    "Vue",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "anomalyco/sst",
+    "stargazerCount": 26369,
+    "description": "Build full-stack apps on your own infrastructure.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://sst.dev"
+   },
+   {
+    "nameWithOwner": "opennextjs/opennextjs-aws",
+    "stargazerCount": 5040,
+    "description": "Open-source Next.js adapter for AWS",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://opennext.js.org"
+   }
+  ],
+  "contrib_last_year": 782,
+  "orgs": [
+   "AnomalyInnovations"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "anomalyco/sst": "<p align=\"center\">\n  <a href=\"https://sst.dev/\">\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://sst.dev/discord\"></a>\n  <a href=\"https://www.npmjs.com/package/sst\"></a>\n  <a href=\"https://github.com/anomalyco/sst/actions/workflows/build.yml\"></a>\n</p>\n---\nBuild full-stack apps on your own infrastructure.\n## Installation\nFor JavaScript projects, install SST locally so the CLI version is tracked with your app. You can then run the CLI with the same package manager.\n```bash\nnpm install sst\n# pnpm add sst\n# bun add sst\n# yarn add sst\n```\nIf you are not using JavaScript, you can install the CLI globally.\n```bash\ncurl -fsSL https://sst.dev/install | bash\n```\nTo install a specific version.\n```bash\ncurl -fsSL https://sst.dev/install | VERSION=0.0.403 bash\n```\nTo use a package manager, [check out our docs](https://sst.dev/docs/reference/cli/).\n#### Manually\nDownload the pre-compiled binaries from the [releases](https://github.com/sst/sst/releases/latest) page and copy to the desired location.\n## Get Started\nGet started with your favorite framework:\n- [Next.js](https://sst.dev/docs/start/aws/nextjs)\n- [Remix](https://sst.dev/docs/start/aws/remix)\n- [Astro](https://sst.dev/docs/start/aws/astro)\n- [API](https://sst.dev/docs/start/aws/api)\n## Learn More\nLearn more about some of the key concepts:\n- [Live](https://sst.dev/docs/live)\n- [Linking](https://sst.dev/docs/linking)\n- [Console](https://sst.dev/docs/console)\n- [Components](https://sst.dev/docs/components)\n## Contributing\nHere's how you can contribute:\n- Help us improve our docs\n- Find a bug? Open an issue\n- Feature request? Submit a PR \n## Running Locally\nRun `bun run setup`. You need [Go](https://go.dev/) and [Bun](https://bun.sh/) installed.\nNow you can run the CLI locally on any of the `examples/` apps.\n```bash\ncd examples/aws-api\ngo run ../../cmd/sst <command>\n```\nIf you want to build the CLI binary, run `bun run build:cli`. This will create a `sst` binary that you can use.\nFor building the docs, run `bun run docs:generate` and `bun run docs:dev`.\n---\n**Join our community** [Discord](https://sst.dev/discord) | [YouTube](https://www.youtube.com/c/sst-dev) | [X.com](https://x.com/SST_dev)\n",
+   "opennextjs/opennextjs-aws": "<p align=\"center\">\n  <a href=\"https://opennext.js.org\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/public/logo-dark.svg\">\n    </picture>\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://discord.gg/opennextjs\"></a>\n  <a href=\"https://www.npmjs.com/package/@opennextjs/aws\"></a>\n</p>\n---\n<h1 align=\"center\">\n  <a href=\"https://opennext.js.org/aws\">Docs</a>\n</h1>\n## Description\nOpenNext takes the Next.js build output and converts it into packages that can be deployed across a variety of environments. Natively OpenNext has support for AWS Lambda, and classic Node.js Server.\n## Features\nOpenNext aims to support all Next.js 15 features. Some features are work in progress. If you are running into any problems make sure to check the [docs](https://opennext.js.org/aws) first before you open a [new issue](/issues/new) or visit our [Discord](https://discord.gg/opennextjs) to let us know!\n- [x] App & Pages Router\n- [x] API routes\n- [x] Dynamic routes\n- [x] Static site generation (SSG)\n- [x] Server-side rendering (SSR)\n- [x] Incremental static regeneration (ISR)\n- [x] Middleware\n- [x] Server actions\n- [x] Image optimization\n- [x] [NextAuth.js](https://next-auth.js.org)\n- [x] Running at edge\n- [x] [Almost no coldstart (\\*)](#coldstart)\n## Who is using OpenNext?\n[Gymshark UK](https://uk.gymshark.com), [Udacity](https://engineering.udacity.com/deploying-next-js-on-the-edge-with-sst-is-sst-the-game-changer-its-claimed-to-be-1f05a0abc27c), [TUDN](https://www.tudn.com), [NHS England](https://github.com/nhs-england-tools/terraform-aws-opennext)\n## Configuration\n### Configuration file\nFor personalisation you need to create a file `open-next.config.ts` at the same place as your `next.config.js`, and export a default object that satisfies the `OpenNextConfig` interface. It is possible to not have an open-next.config.ts file, the default configuration will then be applied automatically.\n### Debug mode\nOpenNext can be executed in debug mode by setting the environment variable `OPEN_NEXT_DEBUG=true` before your build.\nThis will output A LOT of additional logs to the console. This also disable minifying in esbuild, and add source maps to the output. This ",
+   "fwang/vim_erlang_folding": "=== Vim Erlang Folding plugin ===\nOrigin:\nThe plugin is a stripped down version of vimerl from http://github.com/jimenezrick/vimerl.\nFeatures:\n\t1. Upon folding a function, standard erlang documentation above each funtion will be included in the fold.\n\t\t\tie. Before folding\n\t\t\t\t\t%% @spec hello_world(Text::string()) -> string()\n\t\t\t\t\t%% @doc Send hello world text.\n\t\t\t\t\thello_world(Text) ->\n\t\t\t\t\t\t\"Hello \" ++ Text.\n\t\t\tie. After folding\n\t\t\t\t\thello_world/1 (5 lines)--------------------\n\t2. Folding takes into account of empty lines between functions.\n=== Installation ===\n\t1. Copy erlfolding.vim into ~/.vim/plugin\n\t2. Added the following lines to ~/.vimrc\n\t\tset foldenable\n\t\tmap <F5> <Esc>:EnableErlangFolds<Cr>\n=== How To Use ===\n\tUpon opening up an erlang file. Press F5 to fold the code.\n",
+   "fwang/sst-new-relic": "# Getting Started with Serverless Stack (SST)\nThis project was bootstrapped with [Create Serverless Stack](https://docs.serverless-stack.com/packages/create-serverless-stack).\nStart by installing the dependencies.\n```bash\n$ npm install\n```\n## Commands\n### `npm run start`\nStarts the local Lambda development environment.\n### `npm run build`\nBuild your app and synthesize your stacks.\nGenerates a `.build/` directory with the compiled files and a `.build/cdk.out/` directory with the synthesized CloudFormation stacks.\n### `npm run deploy [stack]`\nDeploy all your stacks to AWS. Or optionally deploy, a specific stack.\n### `npm run remove [stack]`\nRemove all your stacks and all of their resources from AWS. Or optionally removes, a specific stack.\n### `npm run test`\nRuns your tests using Jest. Takes all the [Jest CLI options](https://jestjs.io/docs/en/cli).\n## Documentation\nLearn more about the Serverless Stack.\n- [Docs](https://docs.serverless-stack.com)\n- [@serverless-stack/cli](https://docs.serverless-stack.com/packages/cli)\n- [@serverless-stack/resources](https://docs.serverless-stack.com/packages/resources)\n## Community\n[Follow us on Twitter](https://twitter.com/ServerlessStack) or [post on our forums](https://discourse.serverless-stack.com).\n"
+  }
+ },
+ "apps": []
+}

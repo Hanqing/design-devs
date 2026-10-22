@@ -1,0 +1,330 @@
+{
+ "handle": "karpathy",
+ "sites": [],
+ "github": {
+  "login": "karpathy",
+  "user": {
+   "name": "Andrej",
+   "company": null,
+   "blog": "https://twitter.com/karpathy",
+   "location": "Stanford",
+   "bio": "I like to train Deep Neural Nets on large datasets.",
+   "public_repos": 63,
+   "followers": 227338,
+   "created_at": "2010-04-10T17:55:32Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "karpathy/autoresearch",
+    "description": "AI agents running research on single-GPU nanochat training automatically",
+    "stargazers_count": 98392,
+    "forks_count": 13607,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-03-06T22:00:43Z",
+    "pushed_at": "2026-03-26T00:07:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/nanoGPT",
+    "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+    "stargazers_count": 64009,
+    "forks_count": 10991,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2022-12-28T00:51:12Z",
+    "pushed_at": "2025-11-12T19:52:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/nanochat",
+    "description": "The best ChatGPT that $100 can buy.",
+    "stargazers_count": 58848,
+    "forks_count": 8244,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2025-10-13T13:46:35Z",
+    "pushed_at": "2026-09-07T20:06:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/LLM101n",
+    "description": "LLM101n: Let's build a Storyteller",
+    "stargazers_count": 37481,
+    "forks_count": 2082,
+    "language": null,
+    "homepage": "",
+    "created_at": "2024-05-27T00:23:38Z",
+    "pushed_at": "2024-08-01T01:20:33Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "karpathy/llm.c",
+    "description": "LLM training in simple, raw C/CUDA",
+    "stargazers_count": 31201,
+    "forks_count": 3776,
+    "language": "Cuda",
+    "homepage": "",
+    "created_at": "2024-04-08T16:58:11Z",
+    "pushed_at": "2025-06-26T17:03:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/llm-council",
+    "description": "LLM Council works together to answer your hardest questions",
+    "stargazers_count": 25772,
+    "forks_count": 4452,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2025-11-22T23:24:14Z",
+    "pushed_at": "2025-11-22T23:35:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/minGPT",
+    "description": "A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
+    "stargazers_count": 24964,
+    "forks_count": 3334,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2020-08-17T07:08:48Z",
+    "pushed_at": "2024-08-15T04:09:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/nn-zero-to-hero",
+    "description": "Neural Networks: Zero to Hero",
+    "stargazers_count": 24912,
+    "forks_count": 3613,
+    "language": "Jupyter Notebook",
+    "homepage": null,
+    "created_at": "2022-09-08T21:23:25Z",
+    "pushed_at": "2024-08-18T12:16:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/llama2.c",
+    "description": "Inference Llama 2 in one file of pure C",
+    "stargazers_count": 20201,
+    "forks_count": 2651,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2023-07-23T05:15:06Z",
+    "pushed_at": "2024-08-06T09:44:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/micrograd",
+    "description": "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API",
+    "stargazers_count": 18014,
+    "forks_count": 2873,
+    "language": "Jupyter Notebook",
+    "homepage": "",
+    "created_at": "2020-04-13T04:31:18Z",
+    "pushed_at": "2026-08-03T04:04:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/char-rnn",
+    "description": "Multi-layer Recurrent Neural Networks (LSTM, GRU, RNN) for character-level language models in Torch",
+    "stargazers_count": 12128,
+    "forks_count": 2623,
+    "language": "Lua",
+    "homepage": null,
+    "created_at": "2015-05-21T17:25:24Z",
+    "pushed_at": "2023-10-24T17:15:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/convnetjs",
+    "description": "Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.",
+    "stargazers_count": 11212,
+    "forks_count": 2069,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-01-05T00:12:15Z",
+    "pushed_at": "2023-01-07T21:33:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/minbpe",
+    "description": "Minimal, clean code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization.",
+    "stargazers_count": 10848,
+    "forks_count": 1119,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2024-02-16T16:18:15Z",
+    "pushed_at": "2024-07-01T14:20:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/arxiv-sanity-preserver",
+    "description": "Web interface for browsing, search and filtering recent arxiv submissions",
+    "stargazers_count": 5801,
+    "forks_count": 1353,
+    "language": "Python",
+    "homepage": "http://www.arxiv-sanity.com/",
+    "created_at": "2015-11-28T04:47:22Z",
+    "pushed_at": "2021-11-27T22:20:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/neuraltalk2",
+    "description": "Efficient Image Captioning code in Torch, runs on GPU",
+    "stargazers_count": 5604,
+    "forks_count": 1267,
+    "language": "Jupyter Notebook",
+    "homepage": null,
+    "created_at": "2015-11-20T01:27:58Z",
+    "pushed_at": "2017-11-07T05:59:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/build-nanogpt",
+    "description": "Video+code lecture on building nanoGPT from scratch",
+    "stargazers_count": 5587,
+    "forks_count": 901,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2024-06-09T05:16:13Z",
+    "pushed_at": "2024-08-13T12:28:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/neuraltalk",
+    "description": "NeuralTalk is a Python+numpy project for learning Multimodal Recurrent Neural Networks that describe images with sentences.",
+    "stargazers_count": 5511,
+    "forks_count": 1330,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2014-11-27T23:22:39Z",
+    "pushed_at": "2020-12-22T22:26:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "karpathy/ng-video-lecture",
+    "description": null,
+    "stargazers_count": 5045,
+    "forks_count": 1378,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2023-01-17T05:27:03Z",
+    "pushed_at": "2024-01-31T13:43:36Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 54,
+  "languages": [
+   [
+    "Python",
+    24
+   ],
+   [
+    "Jupyter Notebook",
+    8
+   ],
+   [
+    "JavaScript",
+    5
+   ],
+   [
+    "HTML",
+    5
+   ],
+   [
+    "C++",
+    2
+   ],
+   [
+    "Cuda",
+    1
+   ],
+   [
+    "C",
+    1
+   ],
+   [
+    "Lua",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "karpathy/nanoGPT",
+    "stargazerCount": 64009,
+    "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "karpathy/nanochat",
+    "stargazerCount": 58848,
+    "description": "The best ChatGPT that $100 can buy.",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "karpathy/llm.c",
+    "stargazerCount": 31201,
+    "description": "LLM training in simple, raw C/CUDA",
+    "primaryLanguage": {
+     "name": "Cuda"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "karpathy/llama2.c",
+    "stargazerCount": 20201,
+    "description": "Inference Llama 2 in one file of pure C",
+    "primaryLanguage": {
+     "name": "C"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "karpathy/micrograd",
+    "stargazerCount": 18014,
+    "description": "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API",
+    "primaryLanguage": {
+     "name": "Jupyter Notebook"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 455,
+  "orgs": [],
+  "profile_readme": "I like deep neural nets.\n",
+  "readmes": {
+   "karpathy/nanoGPT": "\n# nanoGPT\n---\n**Update Nov 2025** nanoGPT has a new and improved cousin called [nanochat](https://github.com/karpathy/nanochat). It is very likely you meant to use/find nanochat instead. nanoGPT (this repo) is now very old and deprecated but I will leave it up for posterity.\n---\nThe simplest, fastest repository for training/finetuning medium-sized GPTs. It is a rewrite of [minGPT](https://github.com/karpathy/minGPT) that prioritizes teeth over education. Still under active development, but currently the file `train.py` reproduces GPT-2 (124M) on OpenWebText, running on a single 8XA100 40GB node in about 4 days of training. The code itself is plain and readable: `train.py` is a ~300-line boilerplate training loop and `model.py` a ~300-line GPT model definition, which can optionally load the GPT-2 weights from OpenAI. That's it.\nBecause the code is so simple, it is very easy to hack to your needs, train new models from scratch, or finetune pretrained checkpoints (e.g. biggest one currently available as a starting point would be the GPT-2 1.3B model from OpenAI).\n## install\n```\npip install torch numpy transformers datasets tiktoken wandb tqdm\n```\nDependencies:\n- [pytorch](https://pytorch.org) <3\n- [numpy](https://numpy.org/install/) <3\n-  `transformers` for huggingface transformers <3 (to load GPT-2 checkpoints)\n-  `datasets` for huggingface datasets <3 (if you want to download + preprocess OpenWebText)\n-  `tiktoken` for OpenAI's fast BPE code <3\n-  `wandb` for optional logging <3\n-  `tqdm` for progress bars <3\n## quick start\nIf you are not a deep learning professional and you just want to feel the magic and get your feet wet, the fastest way to get started is to train a character-level GPT on the works of Shakespeare. First, we download it as a single (1MB) file and turn it from raw text into one large stream of integers:\n```sh\npython data/shakespeare_char/prepare.py\n```\nThis creates a `train.bin` and `val.bin` in that data directory. Now it is time to train your GPT. The size of it very much depends on the computational resources of your system:\n**I have a GPU**. Great, we can quickly train a baby GPT with the settings provided in the [config/train_shakespeare_c",
+   "karpathy/nanochat": "# nanochat\nnanochat is the simplest experimental harness for training LLMs. It is designed to run on a single GPU node, the code is minimal/hackable, and it covers all major LLM stages including tokenization, pretraining, finetuning, evaluation, and inference. For example, you can train your own GPT-2 capability LLM (which cost ~$43,000 to train in 2019) for only $48 (~2 hours of 8XH100 GPU node) and then talk to it over a simple CLI. On a spot instance, the total cost can be closer to ~$15. More generally, nanochat is configured out of the box to train an entire miniseries of compute-optimal models by setting one single complexity dial: `--depth`, the number of layers in the GPT transformer model (GPT-2 capability happens to be approximately depth 26). All other hyperparameters (the width of the transformer, number of heads, learning rate adjustments, training horizons, weight decays, ...) are calculated automatically in an optimal way.\nFor questions about the repo, I recommend either using [DeepWiki](https://deepwiki.com/karpathy/nanochat) from Devin/Cognition to ask questions about the repo, or use the [Discussions tab](https://github.com/karpathy/nanochat/discussions), or come by the [#nanochat](https://discord.com/channels/1020383067459821711/1427295580895314031) channel on Discord.\n## Time-to-GPT-2 Leaderboard\nPresently, the main focus of development is on tuning the pretraining stage, which takes the most amount of compute. Inspired by the modded-nanogpt repo and to incentivise progress and community collaboration, nanochat maintains a leaderboard for a \"GPT-2 speedrun\", which is the wall-clock time required to train a nanochat model to GPT-2 grade capability, as measured by the DCLM CORE score. The [runs/speedrun.sh](runs/speedrun.sh) script always reflects the reference way to train GPT-2 grade model and talk to it. The current leaderboard looks as follows:\n| # | time | val_bpb | CORE | Description | Date | Commit | Contributors |\n|---|-------------|---------|------|-------------|------|--------|--------------|\n| 0 | 168 hours | - | 0.2565 | Original OpenAI GPT-2 checkpoint | 2019 | - | OpenAI |\n| 1 | 3.04 | 0.74833 | 0.2585 | d24 baseline, slightly ove",
+   "karpathy/llm.c": "# llm.c\nLLMs in simple, pure C/CUDA with no need for 245MB of PyTorch or 107MB of cPython. Current focus is on pretraining, in particular reproducing the [GPT-2](https://github.com/openai/gpt-2) and [GPT-3](https://arxiv.org/abs/2005.14165) miniseries, along with a parallel PyTorch reference implementation in [train_gpt2.py](train_gpt2.py). You'll recognize this file as a slightly tweaked [nanoGPT](https://github.com/karpathy/nanoGPT), an earlier project of mine. Currently, llm.c is a bit faster than PyTorch Nightly (by about 7%). In addition to the bleeding edge mainline code in [train_gpt2.cu](train_gpt2.cu), we have a simple reference CPU fp32 implementation in ~1,000 lines of clean code in one file [train_gpt2.c](train_gpt2.c). I'd like this repo to only maintain C and CUDA code. Ports to other languages or repos are very welcome, but should be done in separate repos, and I am happy to link to them below in the \"notable forks\" section. Developer coordination happens in the [Discussions](https://github.com/karpathy/llm.c/discussions) and on Discord, either the `#llmc` channel on the [Zero to Hero](https://discord.gg/3zy8kqD9Cp) channel, or on `#llmdotc` on [GPU MODE](https://discord.gg/gpumode) Discord.\n## quick start\nThe best introduction to the llm.c repo today is reproducing the GPT-2 (124M) model. [Discussion #481](https://github.com/karpathy/llm.c/discussions/481) steps through this in detail. We can reproduce other models from the GPT-2 and GPT-3 series in both llm.c and in the parallel implementation of PyTorch. Have a look at the [scripts README](scripts/README.md).\ndebugging tip: when you run the `make` command to build the binary, modify it by replacing `-O3` with `-g` so you can step through the code in your favorite IDE (e.g. vscode).\n## quick start (1 GPU, fp32 only)\nIf you won't be training on multiple nodes, aren't interested in mixed precision, and are interested in learning CUDA, the fp32 (legacy) files might be of interest to you. These are files that were \"checkpointed\" early in the history of llm.c and frozen in time. They are simpler, more portable, and possibly easier to understand. Run the 1 GPU, fp32 code like this:\n```bash\nchmod u+x .",
+   "karpathy/llama2.c": "## llama2.c\n<p align=\"center\">\n</p>\nHave you ever wanted to inference a baby [Llama 2](https://ai.meta.com/llama/) model in pure C? No? Well, now you can!\nTrain the Llama 2 LLM architecture in PyTorch then inference it with one simple 700-line C file ([run.c](run.c)). You might think that you need many billion parameter LLMs to do anything useful, but in fact very small LLMs can have surprisingly strong performance if you make the domain narrow enough (ref: [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) paper). This repo is a \"fullstack\" train + inference solution for Llama 2 LLM, with focus on minimalism and simplicity.\nAs the architecture is identical, you can also load and inference Meta's Llama 2 models. However, the current code only inferences models in fp32, so you will most likely not be able to productively load models larger than 7B. Work on model quantization is currently ongoing.\nPlease note that this repo started recently as a fun weekend project: I took my earlier [nanoGPT](https://github.com/karpathy/nanoGPT), tuned it to implement the Llama-2 architecture instead of GPT-2, and the meat of it was writing the C inference engine in [run.c](run.c). So the project is young and moving quickly. Hat tip to the awesome [llama.cpp](https://github.com/ggerganov/llama.cpp) for inspiring this project. Compared to llama.cpp, I wanted something super simple, minimal, and educational so I chose to hard-code the Llama 2 architecture and just roll one inference file of pure C with no dependencies.\n## feel the magic\n[](https://colab.research.google.com/github/karpathy/llama2.c/blob/master/run.ipynb)\nFirst, navigate to the folder where you keep your projects and clone this repository to this folder:\n```bash\ngit clone https://github.com/karpathy/llama2.c.git\n```\nThen, open the repository folder:\n```bash\ncd llama2.c\n```\nNow, let's just run a baby Llama 2 model in C. You need a model checkpoint. Download this 15M parameter model I trained on the [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) dataset (~60MB download):\n```bash\nwget https://huggingface.co/karpathy/tinyllamas/resolve/main/stories15M.bin\n```\nCompile and run the ",
+   "karpathy/autoresearch": "# autoresearch\n*One day, frontier AI research used to be done by meat computers in between eating, sleeping, having other fun, and synchronizing once in a while using sound wave interconnect in the ritual of \"group meeting\". That era is long gone. Research is now entirely the domain of autonomous swarms of AI agents running across compute cluster megastructures in the skies. The agents claim that we are now in the 10,205th generation of the code base, in any case no one could tell if that's right or wrong as the \"code\" is now a self-modifying binary that has grown beyond human comprehension. This repo is the story of how it all began. -@karpathy, March 2026*.\nThe idea: give an AI agent a small but real LLM training setup and let it experiment autonomously overnight. It modifies the code, trains for 5 minutes, checks if the result improved, keeps or discards, and repeats. You wake up in the morning to a log of experiments and (hopefully) a better model. The training code here is a simplified single-GPU implementation of [nanochat](https://github.com/karpathy/nanochat). The core idea is that you're not touching any of the Python files like you normally would as a researcher. Instead, you are programming the `program.md` Markdown files that provide context to the AI agents and set up your autonomous research org. The default `program.md` in this repo is intentionally kept as a bare bones baseline, though it's obvious how one would iterate on it over time to find the \"research org code\" that achieves the fastest research progress, how you'd add more agents to the mix, etc. A bit more context on this project is here in this [tweet](https://x.com/karpathy/status/2029701092347630069) and [this tweet](https://x.com/karpathy/status/2031135152349524125).\n## How it works\nThe repo is deliberately kept small and only really has three files that matter:\n- **`prepare.py`** — fixed constants, one-time data prep (downloads training data, trains a BPE tokenizer), and runtime utilities (dataloader, evaluation). Not modified.\n- **`train.py`** — the single file the agent edits. Contains the full GPT model, optimizer (Muon + AdamW), and training loop. Everything is fair game: archite"
+  }
+ },
+ "apps": []
+}

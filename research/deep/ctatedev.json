@@ -1,0 +1,453 @@
+{
+ "handle": "ctatedev",
+ "sites": [
+  {
+   "url": "https://ctate.dev",
+   "ok": true,
+   "title": "ctate",
+   "description": "Building the web since 1997",
+   "stack": [
+    "Vercel Analytics"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "ctate \nBuilding for the web since 1997 \nRecent Ships at ▲ \n zerolang Language \n Markdown Experience Guidelines Specification \n zero-native Framework \n wterm Library \n emulate Library \n webreel Library \n visual-json Library \n portless Library \n json-render Library \n agent-browser Library \n opensrc Library \n ralph-loop-agent Library \n Workflow Builder Template \n Coding Agent Platform Template \n vterm Web App \n Type-Z Game \n v0 Platform API API \n v0 Model API API \n v0 SDK Library \n v0 SDK Playground Web App \n v0 Clone Template \n Liquid Glass Template \n 3D Maze Art \n Tetrahedron Physics Art \n Classic v0 Template \n Simple v0 Template \n v0 MCP MCP \n @v0-sdk/ai-tools Package \n OpenUI Specification \n Next.js Conf 2024 Art \n Halftone Waves Art \n Neon Maze Art \n SEV0 Game \n v0 CLI Concept \n 3D Model Generator Web App \n p0 Template \n VS Code extension for v0 Extension \n Image to SVG Template \n Prompting Is All You Need Template \n We're Snow Back Game \n Audio Visualizer Template",
+   "github_links": [
+    "ctate",
+    "vercel-labs"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://agent-browser.dev",
+   "ok": true,
+   "title": "agent-browser | Browser Automation for AI",
+   "description": "Browser automation CLI for AI agents",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "agent-browser \n Search… ⌘K \n Search… ⌘K \n Menu \nagent-browser \n Copy page \n Copy for LLM View Markdown \nBrowser automation CLI designed for AI agents. Compact text output minimizes context usage. 100% native Rust. \n npm install -g agent-browser # all platforms \n brew install agent-browser # macOS \n agent-browser install # Download Chrome (first time) \n # or try without installing \n npx agent-browser open example.com \n Features \n Agent-first : Compact text output uses fewer tokens than JSON, designed for AI context efficiency \n Ref-based : Snapshot returns accessibility tree with refs for deterministic element selection \n Complete : 50+ commands for navigation, forms, screenshots, network, storage, files, tabs, frames, and debugging \n Observable : Video recording , streaming , debugging , profiler , and diffing tools are built in \n Modern apps : Network control , React & Web Vitals , init scripts , Next.js + Vercel , and eve Extension workflows have first-class docs \n Stateful : Sessions , profiles, auth state, cookies, storage, proxy, and security controls support long-running agents \n Cross-platform : macOS, Linux, Windows with native binaries \n Works with \nClaude Code, Cursor, GitHub Copilot, OpenAI Codex, Google Gemini, opencode, and any agent that can run shell commands. \n Example \n # Navigate and get snapshot \n agent-browser open example.com \n agent-browser snapshot -i \n # Output: \n # - heading \"Example Domain\" [ref=e1] \n # - link \"More information...\" [ref=e2] \n # Interact using refs \n agent-browser click @e2 \n agent-browser screenshot page.png \n agent-browser close \n Why refs? \nThe snapshot command returns a compact accessibility tree where each element has a unique ref like @e1 , @e2 . This provides: \n Context-efficient : Text output uses ~200-400 tokens vs ~3000-5000 for full DOM \n Deterministic : Ref points to exact element from snapshot \n Fast : No DOM re-query needed \n AI-friendly : LLMs parse text output naturally \n Architecture \nClient-daemon architecture for optimal performance: \n Rust CLI : Parses commands, communicates with daemon \n Native Daemon : Pure Rust daemon using direct CDP, manages Chrome via Chrome DevTools Protocol \nThe daemon starts automatically and persists between commands. By default, it saves configured restore state, closes its headless browser, and exits after one hour without commands or dashboard input. Without --restore or another restore key, shutdown discards transient browser state and open tabs. Headed browsers, Safari and iOS WebDriver sessions, and user-attached browsers are exempt from the default timeout; provider-owned cloud browsers are not. Use --idle-timeout <time> or AGENT_BROWSER_IDLE_TIMEOUT_MS to tune the timeout, and use 0 to disable it. \n Platforms \nNative Rust binaries for macOS (ARM64, x64), Linux (ARM64, x64), and Windows (x64). \n Next Installation \n Ask AI ⌘ I \n agent-browser Docs \n What is agent-browser? How do I install it? What commands are available? How do snapshots work? How do I use CDP mode?",
+   "github_links": [
+    "vercel",
+    "vercel-labs"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://portless.sh",
+   "ok": true,
+   "title": "portless | Named .localhost URLs for Development",
+   "description": "Replace port numbers with stable, named .localhost URLs. For humans and agents.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "portless \n Search… ⌘K \n Search… ⌘K \n Menu \nGetting Started \n Copy page \n Copy for LLM View Markdown \nPortless replaces port numbers with stable, named .localhost URLs for local development. For humans and agents. \n - \"dev\": \"next dev\" # http://localhost:3000 \n + \"dev\": \"portless myapp next dev\" # https://myapp.localhost \n Install \n Global (recommended): \n npm install -g portless \n Or as a project dev dependency: \n npm install -D portless \nportless is pre-1.0. When installed per-project, different contributors may run different versions. The state directory format may change between releases, which can require re-running portless trust . \n Run your app \nJust run portless . It reads the \"dev\" script from package.json and runs it through the proxy: \n portless \n # -> runs \"dev\" script, https://<project>.localhost \nThe app name is inferred from package.json , git root, or directory name. Use a portless.json to override (e.g. { \"name\": \"myapp\" } for https://myapp.localhost ). \nYou can also run with an explicit command: \n portless myapp next dev \n # -> https://myapp.localhost \nHTTPS with HTTP/2 is enabled by default. On first run, portless generates a local CA, trusts it, and binds port 443 (auto-elevates with sudo on macOS/Linux). Use --no-tls for plain HTTP. \nThe proxy auto-starts when you run an app. A random port (4000--4999) is assigned via the PORT environment variable. Most frameworks (Next.js, Express, Nuxt, etc.) respect this automatically. For frameworks that ignore PORT (Vite, VitePlus, Astro, React Router, Angular, Expo, React Native), portless auto-injects the right --port flag and, when needed, a matching --host flag. Injection reaches through a package script whose command starts with the framework or a known runner ( \"dev\": \"vite\" , \"dev\": \"bunx vite\" ). Only the framework's server commands get the flags ( dev , serve , preview , start , or a bare vite ); a command that does not serve, such as vite build , vite optimize , vp test or astro check , rejects them and is left alone. A script portless cannot classify is left alone too: a flag before the subcommand on a CLI whose flag grammar it does not track ( vp --mode dev build ). Portless also leaves a script alone when appending flags to it would not work: a compound command ( && , | , ; ), a trailing # comment, its own -- option terminator, an env prefix ( NODE_ENV=production vite ), delegation to another script ( \"dev\": \"npm run dev:vite\" ), or runner flags before the script name ( bun run --bun dev ). Those keep their own port, so set it in the script yourself. \n Use in package.json \nYour scripts stay clean: \n { \n \" scripts \" : { \n \" dev \" : \" next dev \" \n } \n } \nThen run portless or portless run to go through the proxy. \nYou can also use portless directly in scripts: \n { \n \" scripts \" : { \n \" dev \" : \" portless myapp next dev \" \n } \n } \n Subdomains \nOrganize services with subdomains: \n portless api.myapp pnpm start \n # -> https://api.myapp.localhost \n portless docs.myapp next dev \n # -> https://docs.myapp.localhost \n Git Worktrees \n portless run automatically detects git worktrees. In a linked worktree, the branch name is prepended as a subdomain so each worktree gets its own URL without any config changes: \n # Main worktree (no prefix) \n portless run next dev # -> https://myapp.localhost \n # Linked worktree on branch \"fix-ui\" \n portless run next dev # -> https://fix-ui.myapp.localhost \nPut portless run in your package.json once and it works everywhere. The main checkout uses the plain name, each worktree gets a unique subdomain. No collisions, no --force . \nUse --name to override the inferred base name while keeping the worktree prefix: \n portless run --name myapp next dev # -> https://fix-ui.myapp.localhost \n Custom TLD \nBy default, portless uses .localhost which auto-resolves to 127.0.0.1 in most browsers. If you prefer a different TLD (e.g. .test ), use --tld : \n portless proxy start --tld test \n portless myapp next dev \n # -> https://myapp.test \nThe proxy auto-syncs /etc/hosts for route hostnames, so .test and other dev hostnames resolve on your machine. If a route hostname will not resolve, the command that registered it warns instead of failing silently and points you to portless hosts sync . Note that .localhost names resolve without a hosts entry on current macOS and Linux, so a skipped write is often invisible; a custom TLD needs the entry. \nRepeat --tld to serve the same app names under multiple TLDs from one proxy: \n portless proxy start --tld",
+   "github_links": [
+    "vercel",
+    "vercel-labs"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://json-render.dev",
+   "ok": true,
+   "title": "json-render | The Generative UI\nFramework",
+   "description": "The Generative UI framework. Generate dashboards, widgets, and apps from prompts — safely constrained to components you define.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "json-render \n Search… ⌘K \n Search… ⌘K \nThe Generative UI Framework \nAI → json-render → UI \nGenerate dynamic, personalized UIs from prompts without sacrificing reliability. Predefined components and actions for safe, predictable output. \n Recipe card with rating and ingredients Order receipt with item list and total \n json nested stream catalog \nwaiting... \n components (41) actions (6) \n Accordion \nCollapsible sections. Items as [{title, content}]. Type 'single' (default) or 'multiple'. \n items : array type : enum? \n Alert \nAlert banner \n title : string message : string? type : enum? \n Avatar \nUser avatar with fallback initials \n src : string? name : string size : enum? \n Badge \nStatus badge \n text : string variant : enum? \n BarGraph \nVertical bar chart \n title : string? data : array \n Button \nClickable button. primary = solid fill, outline = bordered/transparent, secondary = muted fill. Bind on.press for handler. \n label : string variant : enum? disabled : boolean? \n on. press \n ButtonGroup \nSegmented button group. Use { $bindState } on selected for selected value. \n buttons : array selected : string? \n on. change \n Card slots: default \nContainer card for content sections. Use for forms/content boxes, NOT for page headers. \n title : string? description : string? maxWidth : enum? centered : boolean? \n Carousel \nHorizontally scrollable carousel of cards. \n items : array \n Checkbox \nCheckbox input. Use { $bindState } on checked for binding. \n label : string name : string checked : boolean? \n on. change \n Collapsible slots: default \nCollapsible section with trigger. Children render inside. \n title : string defaultOpen : boolean? \n Dialog slots: default \nModal dialog. Set openPath to a boolean state path. Use setState to toggle. \n title : string description : string? openPath : string \n Drawer slots: default \nBottom sheet drawer. Set openPath to a boolean state path. Use setState to toggle. \n title : string description : string? openPath : string \n DropdownMenu \nDropdown menu with trigger button and selectable items. \n label : string items : array \n on. select \n Grid slots: default \nGrid layout (1-6 columns) \n columns : number? gap : enum? \n Heading \nHeading text (h1-h4) \n text : string level : enum? \n Icon \nLucide icon by name. PascalCase: MapPin, Mail, Globe, Calendar, Star, Heart, Check, X, ArrowRight, Phone, Building, Clock, Shield, Zap, Users, Eye, Download, Upload, Search, Filter, Settings, Bell, ChevronRight, ExternalLink, Info, AlertTriangle, CheckCircle, XCircle. Use in horizontal Stacks with Text for icon+label patterns. Never use emoji — always use Icon. \n name : string size : enum? color : enum? \n Image \nPlaceholder image (displays alt text in a styled box) \n alt : string width : number? height : number? \n Input \nText input field. Use { $bindState } on value for two-way binding. Use checks for validation (e.g. required, email, minLength). \n label : string name : string type : enum? placeholder : string? value : string? checks : array? \n on. submit on. focus on. blur \n LineGraph \nLine chart with points \n title : string? data : array \n Link \nAnchor link. Bind on.press for click handler. \n label : string href : string \n on. press \n Metric \nKey metric / stat display. Shows a large value with label and optional change indicator. Use for dashboard KPIs. \n label : string value : string change : string? changeType : enum? prefix : string? suffix : string? \n Pagination \nPage navigation. Use { $bindState } on page for current page number. \n totalPages : number page : number? \n on. change \n Popover \nPopover that appears on click of trigger. \n trigger : string content : string \n Progress \nProgress bar (value 0-100) \n value : number max : number? label : string? \n Radio \nRadio button group. Use { $bindState } on value for binding. \n label : string name : string options : array value : string? \n on. change \n Rating \nInteractive star rating. Use { $bindState } on value for binding. Set interactive: false for read-only display. \n value : number max : number? label : string? interactive : boolean? \n on. change \n Select \nDropdown select input. Use { $bindState } on value for binding. Use checks for validation. \n label : string name : string options : array placeholder : string? value : string? checks : array? \n on. change \n Separator \nVisual separator line \n orientation : enum? \n Skeleton \nLoading placeholder skeleton \n width : string? height : string? rounded : boolean? \n Slider \nRange slider input. Use { $bindState } on value",
+   "github_links": [
+    "vercel",
+    "vercel-labs"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "ctate",
+  "user": {
+   "name": "Chris Tate",
+   "company": "Vercel",
+   "blog": "ctate.dev",
+   "location": "Austin, TX",
+   "bio": "Dev @Vercel",
+   "public_repos": 154,
+   "followers": 2565,
+   "created_at": "2010-08-16T22:16:23Z",
+   "twitter_username": "ctatedev",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "ctate/3d-model-generator",
+    "description": "Generate 3D models with AI",
+    "stargazers_count": 269,
+    "forks_count": 28,
+    "language": "TypeScript",
+    "homepage": "https://3d-model-generator.ctate.dev",
+    "created_at": "2025-04-10T01:54:08Z",
+    "pushed_at": "2026-02-05T18:42:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/openui",
+    "description": "AI-Native Specification for UIs",
+    "stargazers_count": 69,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "https://openuispec.org",
+    "created_at": "2024-10-09T03:37:11Z",
+    "pushed_at": "2025-12-11T23:08:45Z",
+    "topics": [
+     "openui",
+     "openui-specification",
+     "ui",
+     "ui-components"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/tooly",
+    "description": "APIs as AI Tools",
+    "stargazers_count": 65,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "https://tooly.ctate.dev",
+    "created_at": "2025-06-27T17:21:26Z",
+    "pushed_at": "2025-12-09T19:40:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/codeless",
+    "description": "Use AI to craft UIs",
+    "stargazers_count": 62,
+    "forks_count": 7,
+    "language": "TypeScript",
+    "homepage": "https://codelessai.vercel.app/",
+    "created_at": "2023-09-22T05:34:03Z",
+    "pushed_at": "2025-12-11T22:48:04Z",
+    "topics": [
+     "ai",
+     "code-generation",
+     "react",
+     "tailwind",
+     "ui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/crystal",
+    "description": "AI client for Ollama, Groq, Anthropic and OpenAI",
+    "stargazers_count": 11,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-05-17T01:40:37Z",
+    "pushed_at": "2024-05-27T06:06:55Z",
+    "topics": [
+     "ai",
+     "anthropic",
+     "groq",
+     "llama3",
+     "ollama",
+     "openai"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/vercel-dashboard-mba",
+    "description": "Put Vercel Dashboard in your menu bar",
+    "stargazers_count": 10,
+    "forks_count": 2,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2023-09-20T22:31:01Z",
+    "pushed_at": "2023-09-21T05:43:16Z",
+    "topics": [
+     "javascript",
+     "nextjs",
+     "rust",
+     "tauri",
+     "vercel"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/prompting-is-all-you-need",
+    "description": "An interactive pixel-based pong game",
+    "stargazers_count": 9,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://prompting-is-all-you-need.ctate.dev",
+    "created_at": "2025-04-10T05:01:17Z",
+    "pushed_at": "2025-12-15T17:45:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/v0-blocks",
+    "description": "Build with blocks",
+    "stargazers_count": 9,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "https://v0-blocks.ctate.dev",
+    "created_at": "2025-04-10T01:27:09Z",
+    "pushed_at": "2026-02-04T18:05:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/halftone-waves",
+    "description": "Mesmerizing wave patterns using halftone dots",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://halftone-waves.ctate.dev",
+    "created_at": "2025-04-10T05:20:17Z",
+    "pushed_at": "2025-12-07T18:50:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/chatgpt-mba",
+    "description": "Put ChatGPT in your menu bar",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2023-09-21T05:38:35Z",
+    "pushed_at": "2023-09-21T06:05:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/nextjs-conf-2024",
+    "description": "3D visualization of Next.js Conf logo",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://nextjs-conf-2024.ctate.dev",
+    "created_at": "2025-04-10T04:53:25Z",
+    "pushed_at": "2025-12-07T20:24:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/autocode-atom",
+    "description": "official Atom plugin of Autocode",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "CoffeeScript",
+    "homepage": "https://crystal.sh",
+    "created_at": "2015-09-26T22:42:00Z",
+    "pushed_at": "2015-09-27T18:06:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/io",
+    "description": "Information Overload - Copy and paste AI-optimized docs in one click",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://io.ctate.dev",
+    "created_at": "2024-10-26T19:34:44Z",
+    "pushed_at": "2025-12-11T23:07:59Z",
+    "topics": [
+     "ai",
+     "documentation"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/neon-maze",
+    "description": "Isometric maze with vibrant neon colors",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://neon-maze.ctate.dev",
+    "created_at": "2025-04-10T01:45:54Z",
+    "pushed_at": "2025-12-07T19:04:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/snow-back",
+    "description": "A fast-paced skiing game",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://snow-back.ctate.dev",
+    "created_at": "2025-04-10T01:05:00Z",
+    "pushed_at": "2025-12-07T20:24:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/tetrahedron-physics",
+    "description": "3D physics simulation with tetrahedron and bouncing balls",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://tetrahedron-physics.ctate.dev",
+    "created_at": "2025-04-10T13:48:07Z",
+    "pushed_at": "2025-12-07T20:25:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/veganize-ai",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-09-12T01:42:30Z",
+    "pushed_at": "2023-09-12T08:35:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ctate/bundles",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-07-12T02:04:24Z",
+    "pushed_at": "2018-07-12T05:25:40Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 42,
+  "languages": [
+   [
+    "TypeScript",
+    27
+   ],
+   [
+    "JavaScript",
+    4
+   ],
+   [
+    "Rust",
+    2
+   ],
+   [
+    "Swift",
+    1
+   ],
+   [
+    "CoffeeScript",
+    1
+   ],
+   [
+    "Go",
+    1
+   ],
+   [
+    "CSS",
+    1
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "vercel-labs/agent-browser",
+    "stargazerCount": 44432,
+    "description": "Browser automation CLI for AI agents",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://agent-browser.dev"
+   },
+   {
+    "nameWithOwner": "vercel-labs/json-render",
+    "stargazerCount": 18761,
+    "description": "The Generative UI framework",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://json-render.dev"
+   },
+   {
+    "nameWithOwner": "vercel-labs/scriptc",
+    "stargazerCount": 6372,
+    "description": "TypeScript-to-Native Compiler",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://scriptc.dev"
+   },
+   {
+    "nameWithOwner": "vercel-labs/wterm",
+    "stargazerCount": 3511,
+    "description": "A terminal emulator for the web",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://wterm.dev"
+   },
+   {
+    "nameWithOwner": "ctate/3d-model-generator",
+    "stargazerCount": 269,
+    "description": "Generate 3D models with AI",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://3d-model-generator.ctate.dev"
+   },
+   {
+    "nameWithOwner": "ctate/prompting-is-all-you-need",
+    "stargazerCount": 9,
+    "description": "An interactive pixel-based pong game",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://prompting-is-all-you-need.ctate.dev"
+   }
+  ],
+  "contrib_last_year": 18244,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "vercel-labs/agent-browser": "# agent-browser\nBrowser automation CLI for AI agents. Fast native Rust CLI.\n<p>\n  <a href=\"https://vercel.com/labs#labs-products\"></a>\n  <a href=\"https://www.npmjs.com/package/agent-browser\"></a>\n  <a href=\"https://github.com/vercel-labs/agent-browser/blob/main/LICENSE\"></a>\n  <a href=\"https://www.npmjs.com/package/agent-browser\"></a>\n  <a href=\"https://skills.sh/vercel-labs/agent-browser\"></a>\n</p>\n## Installation\n### Global Installation (recommended)\nInstalls the native Rust binary:\n```bash\nnpm install -g agent-browser\nagent-browser install  # Download Chrome from Chrome for Testing (first time only)\n```\n### Project Installation (local dependency)\nFor projects that want to pin the version in `package.json`:\n```bash\nnpm install agent-browser\nagent-browser install\n```\nThen use via `package.json` scripts or by invoking `agent-browser` directly.\n### Homebrew (macOS)\n```bash\nbrew install agent-browser\nagent-browser install  # Download Chrome from Chrome for Testing (first time only)\n```\n### Cargo (Rust)\n```bash\ncargo install agent-browser\nagent-browser install  # Download Chrome from Chrome for Testing (first time only)\n```\n### From Source\nRequires Node.js 24+, pnpm 11+, and Rust.\n```bash\ngit clone https://github.com/vercel-labs/agent-browser\ncd agent-browser\npnpm install\npnpm build\npnpm build:native   # Requires Rust (https://rustup.rs)\npnpm link --global  # Makes agent-browser available globally\nagent-browser install\n```\n### Linux Dependencies\nOn Linux, install system dependencies:\n```bash\nagent-browser install --with-deps\n```\nThis exits nonzero if the package manager cannot install every required browser library.\n### Updating\nUpgrade to the latest version:\n```bash\nagent-browser upgrade\n```\nDetects your installation method (npm, Homebrew, or Cargo) and runs the appropriate update command automatically.\n### Requirements\n- **Chrome** - Run `agent-browser install` to download Chrome from [Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing/) (Google's official automation channel). Existing Chrome, Brave, Playwright, and Puppeteer installations are detected automatically. No Playwright or Node.js required for the daemon.\n- **Node.js 24+ and pnpm ",
+   "vercel-labs/json-render": "# json-render\n**The Generative UI framework.**\nGenerate dynamic, personalized UIs from prompts without sacrificing reliability. Predefined components and actions for safe, predictable output.\n<p>\n  <a href=\"https://vercel.com/labs#labs-products\"></a>\n  <a href=\"https://www.npmjs.com/package/@json-render/core\"></a>\n  <a href=\"https://github.com/vercel-labs/json-render/blob/main/LICENSE\"></a>\n  <a href=\"https://www.npmjs.com/package/@json-render/core\"></a>\n</p>\n```bash\n# for React\nnpm install @json-render/core @json-render/react\n# for React with pre-built shadcn/ui components\nnpm install @json-render/shadcn\n# or for React Native\nnpm install @json-render/core @json-render/react-native\n# or for video\nnpm install @json-render/core @json-render/remotion\n# or for PDF documents\nnpm install @json-render/core @json-render/react-pdf\n# or for HTML email\nnpm install @json-render/core @json-render/react-email @react-email/components @react-email/render\n# or for Vue\nnpm install @json-render/core @json-render/vue\n# or for Svelte\nnpm install @json-render/core @json-render/svelte\n# or for SolidJS\nnpm install @json-render/core @json-render/solid\n# or for terminal UIs\nnpm install @json-render/core @json-render/ink ink react\n# or for full Next.js apps (routes, layouts, SSR, metadata)\nnpm install @json-render/core @json-render/react @json-render/next\n# or for 3D scenes (and gaussian splatting via the GaussianSplat component)\nnpm install @json-render/core @json-render/react-three-fiber @react-three/fiber @react-three/drei three\n```\n## Why json-render?\njson-render is a **Generative UI** framework: AI generates interfaces from natural language prompts, constrained to components you define. You set the guardrails, AI generates within them:\n- **Guardrailed** - AI can only use components in your catalog\n- **Predictable** - JSON output matches your schema, every time\n- **Fast** - Stream and render progressively as the model responds\n- **Cross-Platform** - React, Vue, Svelte, Solid (web), React Native (mobile) from the same catalog\n- **Batteries Included** - 36 pre-built shadcn/ui components ready to use\n## Quick Start\n### 1. Define Your Catalog\n```typescript\nimport { defineCatalog } from \"@",
+   "vercel-labs/scriptc": "# scriptc\n<p>\n  <a href=\"https://vercel.com/labs#active-experiments\"></a>\n  <a href=\"https://www.npmjs.com/package/scriptc\"></a>\n  <a href=\"https://github.com/vercel-labs/scriptc/blob/main/LICENSE\"></a>\n  <a href=\"https://www.npmjs.com/package/scriptc\"></a>\n</p>\nscriptc compiles TypeScript and JavaScript to native executables and WebAssembly. It uses the types checked by the TypeScript compiler to generate machine code, and the output runs without Node.js installed. npm packages your program imports compile along with it. Code scriptc can't compile is reported at build time with a diagnostic and, where available, a rewrite hint.\nscriptc is experimental and supports a subset of JavaScript, TypeScript, and Node.js APIs. Run `scriptc coverage` on an existing program to see how much of it compiles, and see the [limitations](https://scriptc.dev/docs/limitations) and [Node.js compatibility reference](https://scriptc.dev/compatibility) for details.\n## Installation\nInstall with Node.js 24 or later and npm:\n```console\n$ npm install -g scriptc\n```\nThe installed compiler runs natively on macOS, Linux, and Windows. Node.js is needed only to install it and to run WASI modules with `scriptc run`. Standalone compiler archives are also available from [GitHub Releases](https://github.com/vercel-labs/scriptc/releases).\nBuilding executables requires a linker and the platform SDK or sysroot. See the [quickstart](https://scriptc.dev/docs/quickstart) for prerequisites and [platform support](https://scriptc.dev/docs/platforms) for host requirements, cross-compilation, and WebAssembly.\n## Build a program\nCreate `hello.ts`:\n```ts\nconst who = process.argv.length > 2 ? process.argv[2] : \"world\";\nconsole.log(`hello, ${who}`);\n```\n`scriptc run` compiles the file and runs the result:\n```console\n$ scriptc run hello.ts\nhello, world\n```\n`scriptc build` writes an executable:\n```console\n$ scriptc build hello.ts -o hello >/dev/null\n$ ./hello scriptc\nhello, scriptc\n```\nThese examples use POSIX shell syntax. On Windows, build `hello.exe` and run it with `.\\hello.exe`.\nUse `scriptc coverage hello.ts` to check what compiles before you build. See [coverage reports](https://scriptc.dev/docs/coverage) fo",
+   "vercel-labs/wterm": "# wterm\n<p>\n  <a href=\"https://vercel.com/labs#active-experiments\"></a>\n  <a href=\"https://www.npmjs.com/package/@wterm/core\"></a>\n  <a href=\"https://github.com/vercel-labs/wterm/blob/main/LICENSE\"></a>\n  <a href=\"https://www.npmjs.com/package/@wterm/core\"></a>\n</p>\nA terminal emulator for the web.\nwterm (\"dub-term\") renders to the DOM — native text selection, copy/paste, find, and accessibility work directly on the mounted rows. The core is written in Zig and compiled to WASM for near-native performance.\n## Packages\n| Package | Description |\n|---|---|\n| [`@wterm/core`](packages/@wterm/core) | Headless WASM bridge, `TerminalCore` interface, WebSocket transport |\n| [`@wterm/dom`](packages/@wterm/dom) | DOM renderer, input handler — vanilla JS terminal |\n| [`@wterm/react`](packages/@wterm/react) | React component + `useTerminal` hook (TypeScript) |\n| [`@wterm/vue`](packages/@wterm/vue) | Vue 3 component + template ref API |\n| [`@wterm/svelte`](packages/@wterm/svelte) | Svelte component + callback API |\n| [`@wterm/ghostty`](packages/@wterm/ghostty) | Full-featured VT emulation core powered by libghostty |\n| [`@wterm/just-bash`](packages/@wterm/just-bash) | In-browser Bash shell powered by just-bash 3 |\n| [`@wterm/markdown`](packages/@wterm/markdown) | Render Markdown in the terminal |\n## Features\n- **Pluggable cores** — built-in lightweight Zig core or opt-in [libghostty](packages/@wterm/ghostty) backend for full VT compliance\n- **Lower idle memory** — Ghostty allocates terminal pages as needed, reducing memory reserved by idle terminals and alternate screens\n- **Shared WASM loading** — both cores reuse compiled modules while keeping separate terminal memory; the built-in binary loads only when selected and is decoded once, and supported browsers compile separately served binaries during download\n- **Zig + WASM core** — VT100/VT220/xterm escape sequence parser compiled to a ~26 KB `.wasm` binary (release build)\n- **DOM rendering** — native text selection, clipboard, browser find, and screen reader support for mounted rows\n- **Named terminal input** — the editable control exposes host labels and descriptions to assistive technology and follows the host's tab order; ",
+   "ctate/3d-model-generator": "<a href=\"https://v0.dev/community/3-d-model-generator-powered-by-hyper3-d-rodin-bTIhXEOJa8w\">\n  <h1 align=\"center\">3D Model Generator</h1>\n</a>\n<p align=\"center\">\n  A 3D model generation application powered by Hyper3D Rodin API.\n</p>\n<p align=\"center\">\n  <a href=\"https://v0.dev/community/3-d-model-generator-powered-by-hyper3-d-rodin-bTIhXEOJa8w\">\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"#about\"><strong>About</strong></a> ·\n  <a href=\"#how-to-use\"><strong>How to Use</strong></a> ·\n  <a href=\"#tech\"><strong>Tech</strong></a> ·\n  <a href=\"#features\"><strong>Features</strong></a> ·\n  <a href=\"#author\"><strong>Author</strong></a>\n</p>\n<br/>\n## About\n3D Model Generator is an AI-powered application that allows you to create 3D models from text prompts or images. Powered by the Hyper3D Rodin API, this tool makes 3D creation accessible to everyone, regardless of their 3D modeling experience.\n## How to Use\n1. **Enter a prompt**: Describe the 3D model you want to create\n2. **Upload images** (optional): Add reference images to guide the generation\n3. **Adjust settings**: Customize quality, format, and other parameters\n4. **Generate**: Click the submit button to create your 3D model\n5. **Download**: Once generated, download your model in the selected format\n## Tech\n- React & Next.js\n- Three.js for 3D rendering and visualization\n- Hyper3D Rodin API for 3D model generation\n- Tailwind CSS for styling\n- Shadcn/UI components\n## Features\n- Text-to-3D generation\n- Image-to-3D generation\n- Multiple file format support (GLB, USDZ, FBX, OBJ, STL)\n- Adjustable quality settings\n- Real-time 3D preview\n- Responsive design for desktop and mobile\n- Advanced options for fine-tuning generation\n## Author\n- Chris Tate ([@ctatedev](https://x.com/ctatedev))\n"
+  }
+ },
+ "apps": []
+}

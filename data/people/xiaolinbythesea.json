@@ -1,0 +1,162 @@
+{
+ "name": "笑林（李笑林）",
+ "role": "字节跳动设计工程师 · 动效与原型设计",
+ "title": "笑林：把<em>动效</em>从设计稿带进代码",
+ "dek": "一位在字节跳动做设计工程的动效设计师，个人网站只有三行履历：2020 年今日头条动效设计负责人、2021 年 PICO 视频互动设计负责人、2023 年豆包手机动效设计负责人。TA 关注图形特效、界面动力学、原型与动效，也自己写代码：After Effects 缓动插件、Compose 动效练习、Svelte 物理弹簧、Figma 式平滑圆角的 CSS 库，以及一个把网页 Shader 特效「扒」下来本地复现的 Agent Skill。",
+ "card": "今日头条、PICO、豆包手机动效设计负责人；web-shader-extractor Skill（★765）作者，北京。",
+ "location": "中国北京",
+ "updated": "2026-10-22",
+ "tags": ["动效设计", "原型设计", "设计工程", "Shader", "Agent Skill"],
+ "links": [
+  {"label": "xiaolin.work", "url": "https://xiaolin.work"},
+  {"label": "GitHub：lixiaolin94", "url": "https://github.com/lixiaolin94"},
+  {"label": "X", "url": "https://x.com/xiaolinbythesea"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「原型设计，交互设计，动效设计」；个人网站：「在字节跳动，从事设计工程，专注图形特效、界面动力学、原型设计与动效设计。」",
+  "<strong>代表作：</strong>web-shader-extractor（skills 仓库 ★765）、smooth-corners（CSS 平滑圆角）、Timing（AE 缓动表达式插件）、svelte-physics-spring、dialkit-android。",
+  "<strong>关键数字：</strong>GitHub 近一年 489 次贡献，2026 年新建十多个仓库；X 关注者约 2,100。",
+  "<strong>方向：</strong>设计师写代码：用工程手段解决动效在 iOS、Android、Web 之间「做不出来、对不上」的问题。"
+ ],
+ "lead": "动效设计师最常遇到的麻烦，是设计稿里流畅的曲线到了工程那边就变了样。笑林的 GitHub 几乎都在解决这件事：给 After Effects 写一套能直接对应 Android、iOS、Web 的缓动表达式；用 Compose 把 WWDC 讲的弹簧参数做成设计师能调的面板；把 Figma 的「平滑圆角」翻译成 CSS 新属性。TA 站在设计和工程之间，把两边的语言对齐。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计工程师、动效设计师"],
+     ["公司", "字节跳动"],
+     ["所在地", "中国北京"],
+     ["经历", "2020 今日头条动效设计负责人 → 2021 PICO 视频互动设计负责人 → 2023 豆包手机动效设计负责人"],
+     ["专注", "图形特效、界面动力学、原型设计、动效设计"],
+     ["技术栈", "JavaScript、TypeScript、Swift、Kotlin / Compose、Svelte、After Effects"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "在公司里，笑林负责的是几条大产品线的动效：资讯 App、VR 视频、AI 手机。在 GitHub 上，TA 做的是<strong>让动效可以被精确传递的工具</strong>：缓动函数、弹簧参数、圆角曲线，这些在设计稿和代码之间最容易「走样」的东西。"},
+    {"p": "2026 年起，TA 把这套能力带进 AI 编程：web-shader-extractor 让 Agent 先锁定网页上的渲染画面，记录 Shader、资源、渲染图、时序和输入，再生成一个和原效果对得上的本地基线，最后整理成可编辑的项目。"},
+    {"note": "本页依据 xiaolin.work（个人网站链接到 @xiaolinbythesea）、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。TA 在公司内的具体作品未公开，本页不作推断。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2014", "title": "注册 GitHub 与 X", "text": "开始在网上分享原型与动效。"},
+     {"when": "2020", "title": "今日头条", "text": "担任今日头条动效设计负责人。"},
+     {"when": "2021", "title": "PICO", "text": "担任 PICO 视频互动设计负责人，进入 VR 交互领域。"},
+     {"when": "2023", "title": "豆包手机与 Timing", "text": "担任豆包手机动效设计负责人；发布 After Effects 插件 Timing；开始 Compose 动效练习项目。"},
+     {"when": "2025", "title": "Svelte 物理弹簧", "text": "svelte-physics-spring：为 Svelte 5 runes 写的物理弹簧。"},
+     {"when": "2026", "title": "Skill 与小工具", "text": "skills 仓库与 web-shader-extractor、smooth-corners、feishu-cli、dialkit-android，以及若干 macOS 与 Chrome 小工具。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "web-shader-extractor", "url": "https://github.com/lixiaolin94/skills",
+     "meta": ["2026", "Agent Skill", "★765"],
+     "paras": [
+      "看到一个网站背景特效很漂亮，想知道它怎么做的？这个 Skill 的工作顺序是：锁定目标画面 → 追踪源码或运行时证据 → 做出可运行的基线 → 再整理成项目。它明确写着不用于普通的 DOM/CSS 页面克隆，只针对 WebGL、WebGPU、Canvas 和 Shader。",
+      "安装方式是 npx skills add，README 中英双语，并致谢了贡献 2D Canvas 提取方案的合作者。"
+     ],
+     "facts": [["GitHub", "★765 · ⑂45"], ["协议", "MIT"]]
+    }},
+    {"work": {
+     "name": "smooth-corners", "url": "https://github.com/lixiaolin94/smooth-corners-web",
+     "meta": ["2026", "CSS · npm"],
+     "paras": [
+      "把 Figma / iOS 风格的「平滑圆角」转换成 CSS 的 border-radius + corner-shape: superellipse(K)。零依赖、渐进增强：浏览器不支持时退回普通圆角。默认平滑度 0.6，对应 Figma 的 60%。"
+     ]
+    }},
+    {"work": {
+     "name": "Timing（AE 插件）", "url": "https://github.com/lixiaolin94/timing-cep",
+     "meta": ["2023", "After Effects 扩展"],
+     "paras": [
+      "为 After Effects 提供通用缓动函数的表达式，兼容 Android、iOS 和 Web 平台：设计师在 AE 里调好的曲线，工程师可以原样实现。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["motion-playground-compose", "2023–2025", "学习 Jetpack Compose 的动效练习，参考 fluid-interfaces 与 WWDC23 的弹簧参数"],
+      ["svelte-physics-spring", "2025", "Svelte 5 的物理弹簧，支持数组、对象和日期"],
+      ["dialkit-android", "2026", "仿 DialKit 的 Android 实时调参面板，无需悬浮窗权限"],
+      ["feishu-cli", "2026", "飞书开放平台命令行工具"],
+      ["qright", "2026", "右键网页二维码直接打开或复制"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://xiaolin.work", "paras": [
+     "极简到只有名字、一句定位和三行履历，用繁体中文书写，下面是邮箱、X 和 GitHub。没有作品集截图，没有长文。",
+     "对一个动效设计师来说，这种克制本身就是一种表达：作品留给代码仓库，网站只负责告诉你「我是谁」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Vite 构建，Cloudflare 托管"],
+      ["内容", "一句定位 + 三段履历"],
+      ["语言", "繁体中文"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "风格",
+   "blocks": [
+    {"quote": "Start from the target visual. Lock the surface group. Trace source or runtime facts. Build a runnable baseline. Then projectize.", "cite": "web-shader-extractor，SKILL.md"},
+    {"p": "这几句话也概括了 TA 的工作方式：先盯住目标效果，再找证据，再做出能跑的版本，最后才谈工程化。这是动效设计师的耐心，也是工程师的严谨。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["跨界", "设计与工程两边都能落地", "—"],
+      ["工具", "解决动效交付的真实痛点", "多数仓库星数很少"],
+      ["经历", "多条大产品线的动效负责人", "公司内作品无法公开展示"],
+      ["公开信息", "代码透明", "几乎不写长文，背景资料少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>设计师学一点代码：</strong>动效最终要在代码里成立。",
+     "<strong>统一两边的语言：</strong>缓动、弹簧、圆角都要有可传递的参数。",
+     "<strong>做给设计师用的面板：</strong>让参数可以实时调。",
+     "<strong>先复现，再改造：</strong>做出对得上的基线，再工程化。",
+     "<strong>个人网站可以很短：</strong>三行履历就够了。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "web-shader-extractor", "url": "https://github.com/lixiaolin94/skills", "why": "让 Agent 帮你拆解一个网页特效。"},
+     {"name": "smooth-corners", "url": "https://github.com/lixiaolin94/smooth-corners-web", "why": "在网页里用上 iOS 式圆角。"},
+     {"name": "xiaolin.work", "url": "https://xiaolin.work", "why": "看看最短的个人主页能有多好看。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "找一个你喜欢的网页背景特效，试着用 web-shader-extractor 在本地复现它。",
+ "sources": [
+  {"label": "笑林的 X 个人资料", "url": "https://x.com/xiaolinbythesea"},
+  {"label": "xiaolin.work", "url": "https://xiaolin.work"},
+  {"label": "GitHub：lixiaolin94", "url": "https://github.com/lixiaolin94"},
+  {"label": "lixiaolin94/skills", "url": "https://github.com/lixiaolin94/skills"}
+ ]
+}

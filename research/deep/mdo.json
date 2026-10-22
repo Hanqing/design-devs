@@ -1,0 +1,493 @@
+{
+ "handle": "mdo",
+ "sites": [
+  {
+   "url": "https://markdotto.com",
+   "ok": true,
+   "title": "@mdo",
+   "description": "Designer, developer, and advisor. Building Pierre. Previously at GitHub and Twitter. Creator of Bootstrap. Huge nerd.",
+   "stack": [
+    "Astro v7.2.3",
+    "Astro",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "@ mdo \n Home \n Blog \n Work \n Stuff \n About \nMark Otto is a designer and developer. He’s currently building at The Pierre Computer Company and advises growing teams through Studio MDO. He created Bootstrap and has worked with companies like GitHub, Twitter, Vercel, Zed, and more . And he’s a huge nerd. \n Twitter \n GitHub \n LinkedIn \nProjects \nHighlights of recent ships from some of my favorite teams, and some more prominent open source projects. \nWork \n The Pierre Computer Company The Pierre Computer Company is building modern tools for developers, including pierre.computer and code.storage. \n Pierre.co Pierre.co was an experiment in building a more modern product engineering and code review tool. Shut down in 2025. \n LiveKit Worked with the LiveKit team to design and ship updates to their marketing site. \n LiveKit Docs Led a refresh of the LiveKit documentation site through a series of incremental updates. \n Zed Collaborated with the Zed team to refine their brand and reimagine their home page. View all work \nOpen Source \n Bootstrap The most popular, responsive, and mobile-first front-end framework. \n Bootstrap Icons Official open source SVG icon library for Bootstrap featuring 500+ icons. \n diffs An open source diff and code rendering library built on Shiki for syntax highlighting, theming, and more. \n trees An open source file tree rendering library built for performance, flexibility, and customization. \n Code Guide Standards and best practices for developing flexible, durable, and sustainable HTML and CSS. \n config Personal dotfiles and computer setup script for fresh installs of macOS. \n mdoml An experiment in creating custom HTML elements based on today’s most common interface elements. \nBlog \nIncludes design deep dives, technical write-ups, and more. \n Working with MDX in Next.js Redesigning and building Pierre's new documentation site with Next.js and MDX—plus the learnings and challenges that came with it. June 3, 2024 \n Shipping Blended Diffs How we designed and shipped blended diffs in Pierre, a new way to render code changes and make code review more efficient. January 17, 2024 \n macOS web apps Experimenting with building desktop web apps in macOS that appear in the dock, with a brief rundown of using them with Pierre. October 1, 2023 \n Using Bootstrap in Hugo with npm A look at how you can import Bootstrap into Hugo-powered sites like our blog or docs sites via npm and the Hugo mounts system. May 23, 2022 \n Fun with the dialog element Playing around with the new dialog HTML element after support for has now landed across all evergreen browsers March 16, 2022 More in the archive",
+   "github_links": [
+    "mdo"
+   ],
+   "subpages": {
+    "https://markdotto.com/blog": "@ mdo \n Home \n Blog \n Work \n Stuff \n About \n2024 \n Working with MDX in Next.js \n June 3, 2024 \n Shipping Blended Diffs \n January 17, 2024 \n2023 \n macOS web apps \n October 1, 2023 \n2022 \n Using Bootstrap in Hugo with npm \n May 23, 2022 \n Fun with the dialog element \n March 16, 2022 \n Horizontal scrolling nav \n March 10, 2022 \n Toggling classes with JavaScript \n March 2, 2022 \n2021 \n Diffing Sass maps \n September 16, 2021 \n Learning CSS with utilities \n August 10, 2021 \n Force pushing to different Git remotes \n July 27, 2021 \n2020 \n Global CSS options with custom properties \n May 20, 2020 \n Publishing npm packages with dist tags \n April 1, 2020 \n Faster rebasing with git reset \n March 24, 2020 \n Moving RSS \n January 8, 2020 \n2019 \n Null variables in Sass \n August 30, 2019 \n2018 \n CSS dark mode \n November 5, 2018 \n Shipping system fonts to GitHub.com \n February 7, 2018 \n2015 \n Managing features in Bootstrap \n September 28, 2015 \n Nesting in Sass and Less \n July 20, 2015 \n Introducing Primer \n March 23, 2015 \n Recent projects \n January 10, 2015 \n2014 \n Using Sass with Jekyll \n September 25, 2014 \n Shipping GitHub's split diffs \n September 4, 2014 \n Shipping the new GitHub Issues \n August 4, 2014 \n GitHub's CSS \n July 23, 2014 \n GitHub.com flow \n May 2, 2014 \n Dream on \n April 7, 2014 \n Including CSS in Jekyll \n February 28, 2014 \n Introducing Poole \n January 2, 2014 \n2013 \n Introducing Hyde \n October 14, 2013 \n CSS and #noparents \n October 9, 2013 \n Go Beyond Pixels \n May 10, 2013 \n Formatting code on GitHub \n April 23, 2013 \n The Designer-Developer spectrum \n April 22, 2013 \n Future Insights Live \n April 3, 2013 \n Feedback \n April 1, 2013 \n Make everything an experience \n March 20, 2013 \n Reintroducing Preboot \n February 28, 2013 \n Improved Terminal hotness \n January 13, 2013 \n2012 \n Terminal hotness \n October 18, 2012 \n Don't recreate the platform \n October 3, 2012 \n GitHub bound! \n September 30, 2012 \n Take action \n August 17, 2012 \n GitHub all the things \n August 9, 2012 \n Simpler \n July 11, 2012 \n Comma-separated values in LESS mixins \n April 5, 2012 \n Learnings from open-sourcing Bootstrap \n April 2, 2012 \n Bootstrap 2.0.2 released \n March 12, 2012 \n Stop the cascade \n March 2, 2012 \n Designing dropdowns in Bootstrap \n February 27, 2012 \n Bootstrap 2.0.1 released \n February 17, 2012 \n Scope CSS classes with prefixes \n February 16, 2012 \n Bootstrap 2 ready for testing and feedback \n January 24, 2012 \n Bootstrap in A List Apart No. 342 \n January 17, 2012 \n2011 \n New grid system coming to Bootstrap 2 \n December 16, 2011 \n CSS commenting strategy \n December 12, 2011 \n Formatting vendor-prefixed CSS \n December 6, 2011 \n CSS property order \n November 29, 2011 \n Introducing (Unofficial) GitHub Buttons \n November 26, 2011 \n Coming in Bootstrap 2: Improved documentation \n November 21, 2011 \n Breaking down Bootstrap \n November 14, 2011 \n How to deploy sites via GitHub \n November 2, 2011 \n Floored \n October 28, 2011 \n Simple GitHub.com userstyle \n October",
+    "https://markdotto.com/work": "@ mdo \n Home \n Blog \n Work \n Stuff \n About \nWork \nFrom product design to frontend development, product marketing to content strategy, and team leadership to brand design, I've had the pleasure of working on some amazing products and brands. \n The Pierre Computer Company \n2026 \nThe Pierre Computer Company is building modern tools for developers. \n Pierre Computer \n Code Storage \n Diffs \n Trees \n DiffsHub \n Pierre.co \n2023 \nPierre was a new, modern product engineering tool that reimagine decades old industry primitives. Code hosting, code review, docs, and CI. It’s one place for product engineers and their teams to focus on what they do best—building products. \n Pierre.co \n Pierre Changelog \n LiveKit \n2023 \nWorked with the LiveKit team to design and ship updates to their marketing site, including the home, about, security, and use case pages. Also lead the design for the all new LiveKit Meet and Components open source projects across web and native devices, producing mockups in Figma and implementing them with the team across multiple codebases. \n LiveKit \n livekit/components-js \n LiveKit Docs \n2023 \nWorking with LiveKit’s team to refresh their documentation site through a series of incremental updates. Focus areas included refining the navigation experience on desktop and mobile, refreshing typography, and introducing a new complete color palette. \n LiveKit Docs \n Zed \n2023 \nCollaborated with Zed’s founder and lead designer to refine their logo concepts, introduce a new logotype, design and produce a new brand guidelines kit, help write their new landing page narrative, and design a unique, new website. \n Zed \n Dragonfly \n2022 \nWorked with Dragonfly’s founder to create a new brand, brand guidelines, icon set, and marketing website. Worked with Matthew Skiles on initial brand concepts for the logo. Designed and deslivered a custom 45-page brand guide, new logo lockup, various brand assets like icons and backgrounds, and a five page mobile and desktop website design (with dark mode, too). \n Dragonfly \n Vercel's Next.js Conf \n2021 \nContracted with Vercel to help design their Next.js Conf event. Worked with Vercel designers, developers, and more to design event badges, produce custom illustrations, and design the event platform interface. \n Vercel's Next.js Conf \n GitHub Codespaces \n2021 \nLed the content strategy, product marketing, and copywriting for the GitHub Codespaces landing page. Worked with the Site Design and Brand Studio teams to provide context around product and platform features while contributing to design direction over months of iteration. \n GitHub Codespaces \n GitHub Issues Site \n2021 \nLed the content strategy, product marketing, and copywriting for the new incarnation of GitHub Issues with project tables. Worked with the Site Design and Brand Studio teams to provide context around product and platform features while contributing to design direction over months of iteration. \n GitHub Issues Site \n GitHub.com homepage \n2020 \nLed the c",
+    "https://markdotto.com/about": "@ mdo \n Home \n Blog \n Work \n Stuff \n About \nAbout \nMark Otto is a designer and developer. He’s currently building at The Pierre Computer Company and advises growing teams through Studio MDO. He created Bootstrap and has worked with companies like GitHub, Twitter, Vercel, Zed, and more . And he’s a huge nerd. \nMark Otto is a designer, developer, and advisor in the San Francisco Bay Area. In 2007, he dropped out of college and moved to California to work at a design agency where he designed and developed dozens of projects for clients like Photobucket, Facebook, and his personal favorite, Britney Spears. \nIn 2008, he became a Product and Platform Designer at Twitter working on Promoted Tweets, Twitter.com during #NewNewTwitter, the Twitter Help Center , and several internal tools. \nWhile at Twitter, he also created the popular open source front-end toolkit Bootstrap with @fat . In late 2012, he left to join GitHub as a Product Designer. \nAt GitHub, he worked on GitHub Enterprise, redesigned Issues , redesigned conversations , designed split diffs , shipped mobile web notifications , and iterated on GitHub.com's overall aesthetic with ships like redesigned repositories , system fonts , dark header , and more. \nFrom 2015 to 2017, he served as Director of Design, growing and managing a team of 30 designers, artists, and writers across Product and Marketing. \nIn 2017, the GitHub Product and Marketing Design teams split and he took over the Marketing half as Senior Director of Design. For over two years, he managed an extremely talented team of web designers, engineers, videographers, and artists that maintained GitHub's brand, marketing sites, and creative campaigns. \nIn July 2019, he left management to become GitHub's first Principal Designer, focusing on designing, building, and shipping various brand projects , marketing sites , and other special projects. Some highlights include The GitHub Shop , special projects like GitHub's intranet (aka The Hub), and keynotes for GitHub Universe and GitHub Satellite . \nSince late 2021, he's been working with growing companies as an advisor and contractor on product design, marketing, narrative and storytelling, web design, and brand design under the moniker Studio MDO. Clients have included Vercel , Zed , Dragonfly , and more. \nAfter more than 10 years at GitHub, he left in March 2023 to work on something different at The Pierre Computer Company , building open source tooling and code hosting for AI agents . \nExperience \n Chief Product Officer · The Pierre Computer Company\n2023–Present \n Founder & Designer · Studio MDO\n2021–Present \n Principal Designer · GitHub\n2019–2023 \n Senior Director of Design · GitHub\n2017–2019 \n Director of Design · GitHub\n2015–2017 \n Senior Product Designer · GitHub\n2012–2015 \n Product Designer · Twitter\n2010–2012 \n Designer · ZURB\n2007–2010 \nAbout the site \nThis URL has been my online home for many years, manifesting at times as a blog or a portfolio until landing on this current singl"
+   },
+   "feed": {
+    "url": "https://markdotto.com/rss.xml",
+    "count_seen": 84,
+    "items": [
+     {
+      "title": "Global CSS options with custom properties",
+      "date": "",
+      "url": "https://markdotto.com/blog/2020-05-20-global-css-options-custom-properties/"
+     },
+     {
+      "title": "3D text using just CSS",
+      "date": "",
+      "url": "https://markdotto.com/blog/3d-text-using-just-css/"
+     },
+     {
+      "title": "About the new design",
+      "date": "",
+      "url": "https://markdotto.com/blog/about-the-new-design/"
+     },
+     {
+      "title": "An update on Less.js &amp; nesting your CSS",
+      "date": "",
+      "url": "https://markdotto.com/blog/an-update-on-less-js-nesting-your-css/"
+     },
+     {
+      "title": "Shipping Blended Diffs",
+      "date": "",
+      "url": "https://markdotto.com/blog/blended-diffs/"
+     },
+     {
+      "title": "Bootstrap 2.0.1 released",
+      "date": "",
+      "url": "https://markdotto.com/blog/bootstrap-2-0-1-released/"
+     },
+     {
+      "title": "Bootstrap 2.0.2 released",
+      "date": "",
+      "url": "https://markdotto.com/blog/bootstrap-2-0-2-released/"
+     },
+     {
+      "title": "Bootstrap 2 ready for testing and feedback",
+      "date": "",
+      "url": "https://markdotto.com/blog/bootstrap-2-ready-for-testing-and-feedback/"
+     },
+     {
+      "title": "Designing dropdowns in Bootstrap",
+      "date": "",
+      "url": "https://markdotto.com/blog/bootstrap-explained-dropdowns/"
+     },
+     {
+      "title": "Managing features in Bootstrap",
+      "date": "",
+      "url": "https://markdotto.com/blog/bootstrap-features/"
+     },
+     {
+      "title": "Using Bootstrap in Hugo with npm",
+      "date": "",
+      "url": "https://markdotto.com/blog/bootstrap-hugo-npm/"
+     },
+     {
+      "title": "Bootstrap in A List Apart No. 342",
+      "date": "",
+      "url": "https://markdotto.com/blog/bootstrap-in-a-list-apart-342/"
+     },
+     {
+      "title": "Bootstrap updated",
+      "date": "",
+      "url": "https://markdotto.com/blog/bootstrap-updated/"
+     },
+     {
+      "title": "Breaking down Bootstrap",
+      "date": "",
+      "url": "https://markdotto.com/blog/breaking-down-bootstrap/"
+     },
+     {
+      "title": "Coming in Bootstrap 2: Improved documentation",
+      "date": "",
+      "url": "https://markdotto.com/blog/coming-in-bootstrap-2-improved-documentation/"
+     },
+     {
+      "title": "Comma-separated values in LESS mixins",
+      "date": "",
+      "url": "https://markdotto.com/blog/comma-separated-values-in-less-mixins/"
+     },
+     {
+      "title": "CSS and #noparents",
+      "date": "",
+      "url": "https://markdotto.com/blog/css-and-noparents/"
+     },
+     {
+      "title": "CSS commenting strategy",
+      "date": "",
+      "url": "https://markdotto.com/blog/css-commenting-strategy/"
+     },
+     {
+      "title": "CSS dark mode",
+      "date": "",
+      "url": "https://markdotto.com/blog/css-dark-mode/"
+     },
+     {
+      "title": "Nesting in Sass and Less",
+      "date": "",
+      "url": "https://markdotto.com/blog/css-nesting/"
+     },
+     {
+      "title": "CSS property order",
+      "date": "",
+      "url": "https://markdotto.com/blog/css-property-order/"
+     },
+     {
+      "title": "Daring Fireball user style",
+      "date": "",
+      "url": "https://markdotto.com/blog/daring-fireball-user-style/"
+     },
+     {
+      "title": "Daring Fireball user style now on GitHub",
+      "date": "",
+      "url": "https://markdotto.com/blog/daring-fireball-user-style-now-on-github/"
+     },
+     {
+      "title": "The Designer-Developer spectrum",
+      "date": "",
+      "url": "https://markdotto.com/blog/designer-developer-spectrum/"
+     },
+     {
+      "title": "Fun with the dialog element",
+      "date": "",
+      "url": "https://markdotto.com/blog/dialog-element/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mdo",
+  "user": {
+   "name": "Mark Otto",
+   "company": "@pierredotco ",
+   "blog": "https://markdotto.com",
+   "location": "San Francisco, CA",
+   "bio": "Designer, developer, and advisor. Building Pierre. Creator of Bootstrap (@twbs). Previously @github and @twitter. Huge nerd.",
+   "public_repos": 33,
+   "followers": 23892,
+   "created_at": "2009-06-25T02:06:14Z",
+   "twitter_username": "mdo",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mdo/code-guide",
+    "description": "Standards for developing consistent, flexible, and sustainable HTML and CSS.",
+    "stargazers_count": 8458,
+    "forks_count": 1103,
+    "language": "SCSS",
+    "homepage": "https://codeguide.co",
+    "created_at": "2012-09-20T22:53:37Z",
+    "pushed_at": "2024-07-26T02:51:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/github-buttons",
+    "description": "Showcase the success of any GitHub repo or user with these simple, static buttons with dynamic counts.",
+    "stargazers_count": 2897,
+    "forks_count": 264,
+    "language": "JavaScript",
+    "homepage": "https://ghbtns.com",
+    "created_at": "2011-11-05T21:49:51Z",
+    "pushed_at": "2026-10-19T14:43:49Z",
+    "topics": [
+     "github"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/wtf-forms",
+    "description": "Friendlier HTML form controls with a little CSS magic. ",
+    "stargazers_count": 2666,
+    "forks_count": 151,
+    "language": "CSS",
+    "homepage": "http://wtfforms.com",
+    "created_at": "2014-05-12T00:43:19Z",
+    "pushed_at": "2020-09-28T05:00:37Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mdo/preboot",
+    "description": "A collection of LESS mixins and variables for writing better CSS.",
+    "stargazers_count": 1658,
+    "forks_count": 162,
+    "language": "CSS",
+    "homepage": "http://getpreboot.com",
+    "created_at": "2011-03-20T05:51:23Z",
+    "pushed_at": "2016-01-20T20:45:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/wtf-html-css",
+    "description": "Common reasons your HTML and CSS may be fucked.",
+    "stargazers_count": 1437,
+    "forks_count": 79,
+    "language": "CSS",
+    "homepage": "http://wtfhtmlcss.com",
+    "created_at": "2014-03-24T01:19:21Z",
+    "pushed_at": "2022-03-04T00:45:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/config",
+    "description": "Personal checklist for setting up a new Mac's dev environment.",
+    "stargazers_count": 629,
+    "forks_count": 87,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2014-12-08T08:20:49Z",
+    "pushed_at": "2021-07-18T03:36:33Z",
+    "topics": [
+     "checklist",
+     "config",
+     "shell"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/css-perf",
+    "description": "**Archived.** Derping around with measuring CSS performance.",
+    "stargazers_count": 567,
+    "forks_count": 21,
+    "language": "HTML",
+    "homepage": "http://mdo.github.io/css-perf/",
+    "created_at": "2014-02-26T05:43:15Z",
+    "pushed_at": "2017-06-22T15:39:17Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mdo/jekyll-snippets",
+    "description": "Library of commonly used snippets for Jekyll sites.",
+    "stargazers_count": 540,
+    "forks_count": 20,
+    "language": null,
+    "homepage": "",
+    "created_at": "2015-01-09T09:46:13Z",
+    "pushed_at": "2015-08-23T22:19:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/github-wide",
+    "description": "Userstyle for making all of GitHub completely fluid.",
+    "stargazers_count": 499,
+    "forks_count": 79,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2014-09-05T00:01:10Z",
+    "pushed_at": "2020-12-11T00:57:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/table-grid",
+    "description": "Simple CSS grid system using `display: table;`.",
+    "stargazers_count": 468,
+    "forks_count": 44,
+    "language": "CSS",
+    "homepage": "http://mdo.github.io/table-grid/",
+    "created_at": "2014-02-26T00:06:07Z",
+    "pushed_at": "2023-03-23T06:46:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/ocean-terminal",
+    "description": "An OS X Terminal.app profile based on the base16 Ocean theme.",
+    "stargazers_count": 408,
+    "forks_count": 17,
+    "language": null,
+    "homepage": null,
+    "created_at": "2015-01-05T23:37:27Z",
+    "pushed_at": "2015-01-22T02:35:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/mdoml",
+    "description": "An experiment in creating custom HTML elements based on today’s most common interface elements.",
+    "stargazers_count": 172,
+    "forks_count": 16,
+    "language": "CSS",
+    "homepage": "http://mdo.github.io/mdoml",
+    "created_at": "2014-12-17T09:46:20Z",
+    "pushed_at": "2016-12-29T04:51:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/sublime-snippets",
+    "description": "Custom snippets for Sublime Text 2",
+    "stargazers_count": 151,
+    "forks_count": 36,
+    "language": null,
+    "homepage": "",
+    "created_at": "2011-08-24T20:15:14Z",
+    "pushed_at": "2019-07-02T12:31:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/twitter-userstyle",
+    "description": "Bring the aesthetic of Twitter for iOS to the new Twitter.com.",
+    "stargazers_count": 138,
+    "forks_count": 28,
+    "language": "CSS",
+    "homepage": "",
+    "created_at": "2014-01-14T23:15:06Z",
+    "pushed_at": "2015-07-31T16:39:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/jekyll-example",
+    "description": "Example Jekyll site with basic defaults and Sass enabled.",
+    "stargazers_count": 132,
+    "forks_count": 39,
+    "language": "CSS",
+    "homepage": "http://mdo.github.io/jekyll-example/",
+    "created_at": "2014-09-25T22:40:49Z",
+    "pushed_at": "2018-02-25T01:31:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/bsu",
+    "description": "Bootstrap University is a hands-on code lab specially designed to familiarize you with building on the Web with Bootstrap by quickly taking you through building an example page with the latest beta version of Bootstrap 3.",
+    "stargazers_count": 86,
+    "forks_count": 9,
+    "language": "CSS",
+    "homepage": "http://mdo.github.io/bsu",
+    "created_at": "2012-12-12T07:06:05Z",
+    "pushed_at": "2016-07-04T18:24:08Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mdo/css-output",
+    "description": "Comparing the differences in compiled CSS when using different Sass/Less methods to build reusable components.",
+    "stargazers_count": 58,
+    "forks_count": 3,
+    "language": "CSS",
+    "homepage": "http://mdo.github.io/css-output/",
+    "created_at": "2015-07-20T17:19:11Z",
+    "pushed_at": "2015-08-05T20:34:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mdo/bootstrap-css-grid-layout",
+    "description": "Attempting to rebuild Bootstrap's grid in CSS Grid Layout.",
+    "stargazers_count": 54,
+    "forks_count": 6,
+    "language": "CSS",
+    "homepage": "https://mdo.github.io/bootstrap-css-grid-layout/",
+    "created_at": "2017-11-10T19:27:58Z",
+    "pushed_at": "2017-11-10T19:36:03Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 22,
+  "languages": [
+   [
+    "CSS",
+    13
+   ],
+   [
+    "Shell",
+    3
+   ],
+   [
+    "SCSS",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "twbs/bootstrap",
+    "stargazerCount": 175005,
+    "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+    "primaryLanguage": {
+     "name": "MDX"
+    },
+    "homepageUrl": "https://getbootstrap.com"
+   },
+   {
+    "nameWithOwner": "twbs/icons",
+    "stargazerCount": 8157,
+    "description": "Official open source SVG icon library for Bootstrap.",
+    "primaryLanguage": {
+     "name": "Astro"
+    },
+    "homepageUrl": "https://icons.getbootstrap.com"
+   },
+   {
+    "nameWithOwner": "mdo/code-guide",
+    "stargazerCount": 8458,
+    "description": "Standards for developing consistent, flexible, and sustainable HTML and CSS.",
+    "primaryLanguage": {
+     "name": "SCSS"
+    },
+    "homepageUrl": "https://codeguide.co"
+   },
+   {
+    "nameWithOwner": "mdo/github-buttons",
+    "stargazerCount": 2897,
+    "description": "Showcase the success of any GitHub repo or user with these simple, static buttons with dynamic counts.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://ghbtns.com"
+   },
+   {
+    "nameWithOwner": "mdo/config",
+    "stargazerCount": 629,
+    "description": "Personal checklist for setting up a new Mac's dev environment.",
+    "primaryLanguage": {
+     "name": "Shell"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mdo/wtf-forms",
+    "stargazerCount": 2666,
+    "description": "Friendlier HTML form controls with a little CSS magic. ",
+    "primaryLanguage": {
+     "name": "CSS"
+    },
+    "homepageUrl": "http://wtfforms.com"
+   }
+  ],
+  "contrib_last_year": 1471,
+  "orgs": [
+   "twbs",
+   "poole"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "twbs/bootstrap": "<p align=\"center\">\n  <a href=\"https://getbootstrap.com/\">\n  </a>\n</p>\n<h3 align=\"center\">Bootstrap</h3>\n<p align=\"center\">\n  Sleek, intuitive, and powerful front-end framework for faster and easier web development.\n  <br>\n  <a href=\"https://getbootstrap.com/docs/6.0/\"><strong>Explore Bootstrap docs »</strong></a>\n  <br>\n  <br>\n  <a href=\"https://github.com/twbs/bootstrap/issues/new?assignees=-&labels=bug&template=bug_report.yml\">Report bug</a>\n  ·\n  <a href=\"https://github.com/twbs/bootstrap/issues/new?assignees=&labels=feature&template=feature_request.yml\">Request feature</a>\n  ·\n  <a href=\"https://blog.getbootstrap.com/\">Blog</a>\n</p>\n## Bootstrap 6\nOur default branch is for development of our Bootstrap 6 release. Head to the [`v5-dev` branch](https://github.com/twbs/bootstrap/tree/v5-dev) to view the readme, documentation, and source code for Bootstrap 5.\n## Table of contents\n- [Quick start](#quick-start)\n- [Status](#status)\n- [What’s included](#whats-included)\n- [Bugs and feature requests](#bugs-and-feature-requests)\n- [Documentation](#documentation)\n- [Contributing](#contributing)\n- [Community](#community)\n- [Versioning](#versioning)\n- [Creators](#creators)\n- [Thanks](#thanks)\n- [Copyright and license](#copyright-and-license)\n## Quick start\nSeveral quick start options are available:\n- [Download the latest release](https://github.com/twbs/bootstrap/archive/v6.0.0-alpha.1.zip)\n- Clone the repo: `git clone https://github.com/twbs/bootstrap.git`\n- Install with [npm](https://www.npmjs.com/): `npm install bootstrap@6.0.0-alpha.1`\n- Install with [yarn](https://yarnpkg.com/): `yarn add bootstrap@6.0.0-alpha.1`\n- Install with [Bun](https://bun.sh/): `bun add bootstrap@6.0.0-alpha.1`\n- Install with [Composer](https://getcomposer.org/): `composer require twbs/bootstrap:6.0.0-alpha.1`\n- Install with [NuGet](https://www.nuget.org/): CSS: `Install-Package bootstrap` Sass: `Install-Package bootstrap.sass`\nRead the [Getting started page](https://getbootstrap.com/docs/6.0/getting-started/) for information on the framework contents, templates, examples, and more.\n## Status\n[](https://github.com/twbs/bootstrap/actions/workflows/js.yml?query=workflow%3AJS+branch%3Amain)\n[](htt",
+   "twbs/icons": "<p align=\"center\">\n  <a href=\"https://getbootstrap.com/\">\n  </a>\n</p>\n<h3 align=\"center\">Bootstrap Icons</h3>\n<p align=\"center\">\n  Official open source SVG icon library for Bootstrap with over 2,000 icons.\n  <br>\n  <a href=\"https://icons.getbootstrap.com/\"><strong>Explore Bootstrap Icons »</strong></a>\n  <br>\n  <br>\n  <a href=\"https://getbootstrap.com/\">Bootstrap</a>\n  ·\n  <a href=\"https://blog.getbootstrap.com/\">Blog</a>\n  <br>\n</p>\n[](https://icons.getbootstrap.com/)\n## Install\nThe published package includes individual SVG files, the combined SVG sprite, icon fonts, CSS, and Sass.\n```shell\nnpm i bootstrap-icons\n```\nFor those [using Packagist](https://packagist.org/packages/twbs/bootstrap-icons), Bootstrap Icons are also available via Composer:\n```shell\ncomposer require twbs/bootstrap-icons\n```\nYou can also [download the latest release archive](https://github.com/twbs/icons/releases/latest/).\n### CDN\nFor the icon font, include the versioned jsDelivr stylesheet in your document head or import it from your stylesheet:\n```html\n<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css\">\n```\n```css\n@import url(\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css\");\n```\n## Usage\nBootstrap Icons are SVGs, so they scale quickly and easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.\n### Embedded SVG\nEmbed an icon's SVG directly in your HTML. A width and height of `1em` lets the icon scale with the surrounding text.\n```html\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1em\" height=\"1em\" fill=\"currentColor\" class=\"bi bi-heart-fill\" viewBox=\"0 0 16 16\" aria-hidden=\"true\">\n  <path d=\"M4 1c2 0 3 1.5 4 3 1-1.5 2-3 4-3 2.5 0 4 2 4 4.5 0 3-2.5 5.5-8 9.5C2.5 11 0 8.5 0 5.5 0 3 1.5 1 4 1\"/>\n</svg>\n```\n### External image\nCopy an SVG into your project and reference it like any other image. Use useful alt text when the image conveys meaning and an empty `alt` when it is decorative.\n```html\n```\n### SVG sprite\nThe package includes `bootstrap-icons.svg`. Copy it to your own origin and use an icon filename as the fragment identifier. Cross-origin external spr",
+   "mdo/code-guide": "<h3 align=\"center\">\n  <a href=\"https://codeguide.co/\">\n  </a>\n  <br>\n  Code Guide\n</h3>\n<p align=\"center\" markdown=\"1\">\n  Standards for developing consistent, flexible, and sustainable HTML and CSS.\n  <br>\n  <a href=\"https://codeguide.co\"><strong>Start reading ☞</strong></a>\n</p>\n---\n## Setup\nCode Guide is built on Jekyll and hosted on GitHub Pages. To install Jekyll:\n```sh\ngem install jekyll\n```\nTo start the local server:\n```sh\njekyll serve\n```\nOpen `localhost:4000` in your browser.\n## License\nReleased under MIT by, and copyright, @mdo.\n## Translations\nTranslations are maintained by their creators and may not always be up to date with the original here.\n- [Chinese](http://zoomzhao.github.io/code-guide/) - Translated by [Zoom Zhao](https://github.com/ZoomZhao)\n- [Chinese](http://codeguide.bootcss.com/) - Translated by [Wang Sai](https://github.com/wangsai)\n- [Dutch](http://chunfeilung.github.io/code-guide/) - Translated by [Chun Fei Lung](https://github.com/chunfeilung)\n- [French](http://pixelastic.github.io/code-guide/) - Translated by [Tim Carry](https://github.com/pixelastic/)\n- [German](http://BackendButters.github.io/code-guide/) - Translated by [BackendButters](https://github.com/BackendButters)\n- [German](https://philipbrembeck.github.io/code-guide/) - Translated by [Philip Brembeck](https://github.com/philipbrembeck)\n- [Hindi](https://hidaytrahman.github.io/code-guide/) - Translated by [Hidaytullah Rahmani](https://github.com/hidaytrahman)\n- [Indonesian](http://diagramatics.github.io/code-guide-id) - Translated by [Steven Sinatra](http://diagramatics.me)\n- [Japanese](http://kia-king.com/code-guide/) - Translated by [Kia King Ishii](https://github.com/kiaking)\n- [Korean](http://code-guide.aliencube.org/) - Translated by [Aliencube](https://github.com/aliencube)\n- [Persian](https://cg.arash-hatami.ir/) - Translated by [Arash Hatami](https://github.com/hatamiarash7)\n- [Polish](http://bondarewicz.github.io/code-guide/) - Translated by [Łukasz Bondarewicz](https://github.com/bondarewicz)\n- [Portuguese](http://diegoeis.github.io/code-guide/) - Translated by [Diego Eis](http://tableless.com.br/)\n- [Romanian](http://vmazare.github.io/code-guide-romanian/) - Tran",
+   "mdo/github-buttons": "# GitHub Buttons [](https://github.com/mdo/github-buttons/actions/workflows/ci.yml?query=branch%3Amaster)\nShowcase your GitHub (repo's) success with these static buttons featuring links to your GitHub repo or profile page and up-to-date watch, fork, sponsor, and follower counts.\nTo get started, checkout <https://ghbtns.com/>!\n## Bug tracker\nHave a bug? Please create an issue here on GitHub at <https://github.com/mdo/github-buttons/issues>.\n## Development\nClone the project and install dependencies before getting started. GitHub Buttons require Node.js, Ruby, and Bundler for local development.\n```shell\nnpm i\nbundle i\n```\nThe GitHub buttons source code is split across three files in `src/`—the HTML, CSS, and JS. We use inline-source-cli and html-minifer to include it all in the compiled [`docs/github-btn.html`](docs/github-btn.html) file. To build this file:\n```shell\nnpm run build\n```\nThe `https://ghbtns.com/` site is built with Jekyll. After installing the dependencies, you can run a local server:\n```shell\nbundle exec jekyll serve\n```\nOpen `http://127.0.0.1:4000` to browse locally.\n## See also\n* [ntkme/github-buttons](https://buttons.github.io/)\n## Twitter account\nKeep up to date on announcements and more by following Mark on Twitter, [@mdo](https://twitter.com/mdo).\n## Author\n**Mark Otto**\n* <https://twitter.com/mdo>\n* <https://github.com/mdo>\n## Copyright and license\nCopyright 2014-2022 Mark Otto. Released under the [Apache 2.0 License](LICENSE).\n",
+   "mdo/config": "# Config\n**Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, Jekyll, and more so I can more quickly get back to coding.\n## Contents\n| File | Description |\n| --- | --- |\n| `.bash_profile` | Customizes the Terminal.app prompt and echoes the currently checked out Git branch. |\n| `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |\n| `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |\n## Shell script (WIP)\nThis repository includes a shell script for executing the bulk of the configuration process. First, install and agree to terms for Xcode, then download and run Strap. Then, enter the following in Terminal:\n```bash\ncurl https://raw.githubusercontent.com/mdo/config/master/config.sh > ~/Downloads/config.sh && bash ~/Downloads/config.sh\n```\nMany of the included macOS Terminal customizations are taken from <https://github.com/pawelgrzybek/dotfiles> and <https://github.com/mathiasbynens/dotfiles>.\n## Checklist\n### 1. Prep OS X\n- Download and install latest version of Xcode from the Mac App Store.\n- Open Terminal and trigger Xcode Command Line Tools installation: `xcode-select --install`\n**Be sure to open Xcode and agree to the terms of use.**\n### 2. Prep Terminal.app\n- Load [`.bash_profile`](/.bash_profile)\n- Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`\n- Load up the Atom theme from <https://github.com/nathanbuchar/atom-one-dark-terminal>\n### 3. Secure Git(Hub) access\n- [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.\n### 4. GitHub dev setup\n- Download the Strap setup script for GitHub's foundational development setup.\n- Clone the `github/github` repository and run `script/bootstrap`.\n### 5. Setup Ruby\n- Install rbenv via Homebrew: `brew install rbenv`.\n- Download a version of Ruby via rbenv (e.g., `rbenv install 2.5.1`). See <https://gorails.com/setup/osx/10.11-el-capitan>.\n- Make it the global version of Ruby: `rbenv global 2.5.1`.\n"
+  }
+ },
+ "apps": []
+}

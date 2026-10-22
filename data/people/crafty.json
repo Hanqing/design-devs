@@ -1,0 +1,166 @@
+{
+ "name": "Nick Butcher",
+ "role": "Google Jetpack Compose 产品经理 · 前 Android 开发者关系工程师 · Plaid 作者",
+ "title": "Nick Butcher：让 Android 应用<em>好看又好动</em>",
+ "dek": "他在 GitHub 上的自我介绍只有一句：「Android designer and developer.」作为 Google Android 开发者关系团队的一员，他写了 Plaid：一个汇集设计资讯的开源 App，也是 Material Design 在真实应用里的样板，获得了 1.6 万颗星。他在 Google I/O 和 Android 开发者博客上讲动画、矢量图、主题与样式，写下《Motional Intelligence》《Android styling》等系列。后来他转任产品经理，负责 Android 新一代声明式界面工具包 Jetpack Compose。",
+ "card": "Google Jetpack Compose 产品经理；Plaid（★1.6 万）作者，Android 设计与动画布道者，伦敦。",
+ "location": "英国伦敦",
+ "updated": "2026-10-22",
+ "tags": ["Android", "Jetpack Compose", "Material Design", "动画", "开发者关系"],
+ "links": [
+  {"label": "GitHub：nickbutcher", "url": "https://github.com/nickbutcher"},
+  {"label": "Medium：@crafty", "url": "https://medium.com/@crafty"},
+  {"label": "Mastodon", "url": "https://androiddev.social/@crafty"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Product Manager @Google for #JetpackCompose」；GitHub 简介「Android designer and developer.」",
+  "<strong>代表作：</strong>Plaid（★16,162）、AdaptiveIconPlayground（★1.4 千）、AnimatorDurationTile（★1.4 千）；Android 开发者博客上的矢量图、动画、主题与样式系列。",
+  "<strong>关键数字：</strong>X 关注者约 2.9 万；GitHub 粉丝 4,400；2007 年注册 Twitter。",
+  "<strong>角色转变：</strong>从开发者关系工程师（Google I/O 2022 讲者页）到 Jetpack Compose 产品经理（Android 开发者博客 2024 年署名）。"
+ ],
+ "lead": "Material Design 刚推出时，很多开发者不知道它在真实 App 里该是什么样子。Nick Butcher 的回答是做一个：Plaid 聚合 Dribbble、Designer News 和 Product Hunt 的设计资讯，里面充满共享元素转场、动态配色和细腻的动画。它成了无数 Android 开发者打开源码学习的那个 App。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "Android 设计师兼开发者；Google 产品经理"],
+     ["所在地", "英国伦敦"],
+     ["经历", "Google Android 开发者关系工程师（UI 与 Compose 方向）→ Jetpack Compose 产品经理"],
+     ["开源", "Plaid、AdaptiveIconPlayground、AnimatorDurationTile"],
+     ["技术栈", "Kotlin、Java、Android View 系统、Jetpack Compose、矢量图形"],
+     ["社交", "X、Mastodon（androiddev.social）、Medium"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Nick 的长期主题是 <strong>Android 上的视觉与动效</strong>：怎样用 VectorDrawable 画图标、怎样让动画「有智能」、怎样用主题属性代替硬编码颜色、怎样让自适应图标在不同设备的遮罩下都好看。他的文章常常配有可下载的小工具，比如一键把系统动画放慢 5 倍的快捷设置开关，方便开发者检查动画细节。"},
+    {"p": "现在他作为产品经理负责 Jetpack Compose，也会在 The Android Show 等节目里回答开发者的问题。"},
+    {"note": "本页依据 GitHub 仓库与 README、Medium / Android Developers 博客文章、Google I/O 2022 讲者页、Android 开发者博客署名和 X 资料整理，资料截至 2026 年 10 月。加入 Google 之前的经历未找到可靠来源，未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2007–2010", "title": "注册 Twitter 与 GitHub", "text": "以 @crafty 之名活跃于开发者社区。"},
+     {"when": "2015", "title": "Plaid", "text": "发布 Plaid，用真实应用展示 Material Design 的实现方式。"},
+     {"when": "2016–2017", "title": "小工具", "text": "AnimatorDurationTile（快速切换动画速度）、AdaptiveIconPlayground（实验 Android 8.0 自适应图标）。"},
+     {"when": "2018", "title": "矢量图系列与 Plaid 2.0", "text": "写 VectorDrawable 三部曲；与同事一起用 Kotlin 和架构组件重写 Plaid。"},
+     {"when": "2019–2020", "title": "动画与样式", "text": "《Motional Intelligence: Build smarter animations》；2020 年的 Android styling 系列和《We Recommend Material Design Components》。"},
+     {"when": "2022–", "title": "Compose", "text": "Google I/O 2022 以 UI 与 Compose 方向开发者关系工程师身份演讲；之后担任 Jetpack Compose 产品经理。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Plaid", "url": "https://github.com/nickbutcher/plaid",
+     "meta": ["2015–2024", "Kotlin", "★1.6 万"],
+     "paras": [
+      "「一个提供设计资讯与灵感的 Android App，也是实现 Material Design 的范例。」README 写道，它的目标是在真实应用中展示 Material Design；后来团队用架构组件和 Kotlin 重写为 Plaid 2.0，同时把它变成一个架构示例。"
+     ],
+     "facts": [["GitHub", "★16,162 · ⑂3,073"]]
+    }},
+    {"work": {
+     "name": "AdaptiveIconPlayground", "url": "https://github.com/nickbutcher/AdaptiveIconPlayground",
+     "meta": ["2017", "Kotlin", "★1.4 千"],
+     "paras": [
+      "找出手机上所有采用自适应图标的 App，排成网格，让你切换不同厂商的遮罩形状，并试验滚动视差和触摸缩放等图层效果。README 特别注明：这些效果只是演示，不代表未来功能，「但它们很好玩」。"
+     ]
+    }},
+    {"work": {
+     "name": "Android styling 系列", "url": "https://medium.com/androiddevelopers/android-styling-themes-vs-styles-ebe05f917578",
+     "meta": ["2020", "Android Developers 博客"],
+     "paras": [
+      "四篇文章讲清楚 Android 里最容易混淆的概念：主题和样式的区别、常用主题属性、为什么优先用主题属性、怎样用主题叠加。它们至今仍是理解 Android 视觉体系的好入门。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["AnimatorDurationTile", "2016", "快捷设置开关，一键把动画放慢 5 倍（★1.4 千）"],
+      ["VectorDrawable 三部曲", "2018", "Android 矢量图格式、渲染与使用"],
+      ["Motional Intelligence", "2019", "让动画可中断、可响应的实践"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象研究",
+   "blocks": [
+    {"site": {"url": "https://medium.com/@crafty", "paras": [
+     "他没有独立个人网站，作品集中在 GitHub、Android Developers 的 Medium 刊物和会议演讲。X 主页链接指向 Mastodon 的 androiddev.social 实例。",
+     "文章风格很「设计师」：大量动图和示意图，每个概念都配一个可以动手试的例子。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["阵地", "Medium（Android Developers）、GitHub、Google I/O"],
+      ["风格", "图解 + 小工具 + 示例代码"],
+      ["节奏", "2018–2020 年写作最密集"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2020-08-25", "title": "We Recommend Material Design Components", "url": "https://medium.com/androiddevelopers/we-recommend-material-design-components-81e6d165c2dd"},
+     {"date": "2020-02-18", "title": "Android styling: prefer theme attributes", "url": "https://medium.com/androiddevelopers/android-styling-prefer-theme-attributes-412caa748774"},
+     {"date": "2019-08-27", "title": "Motional Intelligence: Build smarter animations", "url": "https://medium.com/androiddevelopers/motional-intelligence-build-smarter-animations-821af4d5f8c0"},
+     {"date": "2018-11-27", "title": "Understanding Android's vector image format: VectorDrawable", "url": "https://medium.com/androiddevelopers/understanding-androids-vector-image-format-vectordrawable-ab09e41d5c68"}
+    ]},
+    {"quote": "Plaid was written with one big goal: showcase material design in Android in a real application.", "cite": "Plaid README"},
+    {"p": "他一直主张：设计规范要靠真实可运行的代码来证明。与其写一份长文档，不如做一个人人都能打开的 App。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["跨界", "设计与工程两边都精通", "—"],
+      ["影响", "Plaid 成为一代 Android 开发者的样板", "Plaid 已多年未更新，部分写法过时"],
+      ["表达", "图解清晰、工具实用", "转任产品经理后公开写作减少"],
+      ["公开信息", "作品与文章完整", "早年经历资料少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>用一个真实 App 证明规范：</strong>Plaid 比任何文档都有说服力。",
+     "<strong>给自己做调试工具：</strong>把动画放慢 5 倍看细节。",
+     "<strong>用主题属性，不要硬编码：</strong>视觉体系才能统一。",
+     "<strong>动画要能被打断：</strong>响应用户比播放完整更重要。",
+     "<strong>从布道者到产品经理：</strong>最懂开发者痛点的人来定方向。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Plaid", "url": "https://github.com/nickbutcher/plaid", "why": "读一读 Material Design 的经典实现。"},
+     {"name": "Android styling: themes vs styles", "url": "https://medium.com/androiddevelopers/android-styling-themes-vs-styles-ebe05f917578", "why": "弄清 Android 主题与样式。"},
+     {"name": "Motional Intelligence", "url": "https://medium.com/androiddevelopers/motional-intelligence-build-smarter-animations-821af4d5f8c0", "why": "让你的动画更聪明。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "打开开发者选项，把动画速度调到 5 倍慢，重新看一遍你的 App。",
+ "sources": [
+  {"label": "Nick Butcher 的 X 个人资料", "url": "https://x.com/crafty"},
+  {"label": "GitHub：nickbutcher", "url": "https://github.com/nickbutcher"},
+  {"label": "Medium：@crafty", "url": "https://medium.com/@crafty"},
+  {"label": "Google I/O 2022 讲者页：Nick Butcher", "url": "https://io.google/2022/speakers/nick-butcher/"},
+  {"label": "Mastodon：@crafty@androiddev.social", "url": "https://androiddev.social/@crafty"}
+ ]
+}

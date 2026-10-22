@@ -1,0 +1,157 @@
+{
+ "name": "Thalia Echevarría Fiol",
+ "role": "OpenAI 图标设计负责人 · 前 Apple SF Symbols 首席设计师 · 字体设计师",
+ "title": "Thalia Echevarría Fiol：<em>用小小的形状</em>思考",
+ "dek": "她以字体设计实习生的身份进入 Apple，一待就是十多年：从字母做起，最后成为 SF Symbols 的首席设计师，为这套每天被数以百万计的人使用的图标语言画了一万多个图标，并在 WWDC 2020 到 2024 连续五年登台讲 SF Symbols。如今她在 OpenAI 负责图标设计。下班后，她在自己的凸版印刷工作室 tilde press 里用金属活字、油墨和纸，继续思考同样的问题：比例、间距和一个小细节能改变多少。",
+ "card": "OpenAI 图标设计负责人；前 Apple SF Symbols 首席设计师，绘制 1 万多个图标，旧金山。",
+ "location": "美国旧金山",
+ "updated": "2026-10-22",
+ "tags": ["图标设计", "SF Symbols", "字体设计", "凸版印刷", "OpenAI"],
+ "links": [
+  {"label": "Iconic（博客）", "url": "https://thaliaeche.is/iconic/"},
+  {"label": "About", "url": "https://thaliaeche.is/about/"},
+  {"label": "X", "url": "https://x.com/thaliaeche"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I think in tiny shapes. Sometimes, in words.」X 简介：Icon Designer @openai，Previously: SF Symbols @apple，Type Designer，MATD15。",
+  "<strong>代表作：</strong>SF Symbols（2019 年起的 Apple 系统图标库）、OpenAI 的图标体系；WWDC 演讲《SF Symbols 2》到《What's new in SF Symbols 6》。",
+  "<strong>关键数字：</strong>在 Apple 设计了 1 万多个图标；获 D&AD 黑铅笔（2024）、黄铅笔（2022）、石墨铅笔（2021）、木铅笔（2020），以及 TDC67–69、ADC 银方块。",
+  "<strong>手工：</strong>tilde press 工作室有 Vandercook 4、Chandler & Price、Pearl 3 和 C&P Pilot 四台印刷机。"
+ ],
+ "lead": "最简单的形状是什么？圆。可在 Thalia 的文章《The Almost-Perfect Circle》里，用贝塞尔曲线画一个「看起来」完美的圆，远比想象中复杂：数学上精确的圆，放在一组图标里常常显得偏小、偏弱，需要做光学上的修正。她的工作就是这样：在很小的尺寸里，为一条曲线、一点额外的空隙、一点比例的变化反复斟酌。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "图标设计师、字体设计师"],
+     ["所在地", "美国旧金山"],
+     ["经历", "Apple 字体设计实习生 → Apple 十余年，SF Symbols 首席设计师 → OpenAI 图标设计负责人"],
+     ["教育", "X 简介标注「MATD15」，通常指英国雷丁大学字体设计硕士 2015 届（未找到其他来源确认）"],
+     ["演讲", "WWDC 2020–2024 连续五届 SF Symbols 专场；TypeCon 2026"],
+     ["工作室", "tilde press（凸版印刷）"]
+    ]},
+    {"h3": "她到底在做什么？"},
+    {"p": "SF Symbols 是 Apple 2019 年推出的系统图标库，和 San Francisco 字体配套设计：每个符号有 9 种字重、3 种尺寸，能和文字一起对齐和缩放。Thalia 在 About 页写道，在这样的规模下工作，让她学会在意最小的决定：「一条曲线、一点额外的空间，或者一点比例的变化，都会改变一个符号的读法。」"},
+    {"p": "现在她在 OpenAI 负责图标设计，并开了一个叫 Iconic 的博客，写图标背后的故事：心形符号的来历、几乎完美的圆，以及 AI 时代被滥用的「闪光」符号。"},
+    {"note": "本页依据 thaliaeche.is（Iconic 博客与 About 页）、Apple 开发者网站的 WWDC 视频页和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早期", "title": "字体设计", "text": "以字体设计实习生身份进入 Apple，从字母形态开始职业生涯。"},
+     {"when": "2019", "title": "SF Symbols", "text": "工作逐渐转向图标，参与 SF Symbols 的诞生；同年获 ADC 银方块奖。"},
+     {"when": "2020", "title": "第一次登上 WWDC", "text": "与 Paolo Mazzetti 共同主讲《SF Symbols 2》：新符号、对齐、从右到左本地化、多色符号。获 D&AD 木铅笔。"},
+     {"when": "2021–2024", "title": "SF Symbols 首席设计师", "text": "主讲《What's new in SF Symbols》到《SF Symbols 6》：渲染模式、可变颜色、动画符号。连续获得 D&AD 石墨、黄、黑铅笔和 TDC 奖项。"},
+     {"when": "2025–2026", "title": "OpenAI", "text": "加入 OpenAI 负责图标设计；2026 年 1 月开博客 Iconic，在 TypeCon 2026 演讲。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SF Symbols", "url": "https://developer.apple.com/sf-symbols/",
+     "meta": ["2019–", "Apple", "1 万多个图标"],
+     "paras": [
+      "Apple 平台上几乎每个按钮、菜单和设置项都在用的图标库。它的特别之处是像字体一样工作：跟随文字字重和大小变化，支持单色、分层、多色和调色板渲染，后来又加入了可变颜色和动画。",
+      "Thalia 在 About 页说，她为这套视觉语言设计了一万多个图标。"
+     ],
+     "facts": [["奖项", "D&AD 黑铅笔（2024）等"]]
+    }},
+    {"work": {
+     "name": "WWDC：SF Symbols 系列演讲", "url": "https://developer.apple.com/videos/play/wwdc2021/10097",
+     "meta": ["2020–2024", "五届"],
+     "paras": [
+      "每年 WWDC，她都会站出来讲这一年 SF Symbols 的变化，以及开发者怎样设计自己的自定义符号。2021 年那一场她是唯一的主讲人，系统讲解了本地化、颜色定制和不同渲染模式下的自定义符号设计。"
+     ]
+    }},
+    {"work": {
+     "name": "tilde press", "url": "https://www.instagram.com/tildepress",
+     "meta": ["凸版印刷工作室"],
+     "paras": [
+      "她把对字体和小形状的热爱变成可以拿在手里的东西：用金属活字、油墨和纸做实验。她写道，凸版印刷让她用另一种方式思考屏幕上的同一些问题：比例、间距、质感，以及「一个小细节能改变整体多少」。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://thaliaeche.is/iconic/", "paras": [
+     "域名本身就是一句话：thaliaeche.is/iconic。首页只有一句自我介绍和按时间排列的文章，每篇配一句副标题。另有 About 和 Printing 两个页面。",
+     "文字安静、具体，像她的图标一样：每篇只讲一个形状，从历史、几何讲到感知。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "静态站，Cloudflare 托管"],
+      ["结构", "Iconic 博客 + About + Printing"],
+      ["节奏", "2026 年开始写，约两个月一篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-09-19", "title": "For the Love of Sparkles", "url": "https://thaliaeche.is/post/for-the-love-of-sparkles/"},
+     {"date": "2026-03-13", "title": "The Almost-Perfect Circle", "url": "https://thaliaeche.is/post/the-almost-perfect-circle/"},
+     {"date": "2026-01-31", "title": "Shape of My Heart", "url": "https://thaliaeche.is/post/shape-of-my-heart/"}
+    ]},
+    {"quote": "“Summarize” tells me what I can do. “AI” tells me something about how it might be done.", "cite": "Thalia Echevarría Fiol，For the Love of Sparkles"},
+    {"p": "在《For the Love of Sparkles》里，这位 AI 公司的图标负责人认为「闪光」符号被要求承担太多：它来自排版装饰，后来成了代表美好与魔法的表情，如今却挤满了每个菜单。用户能认出「这和 AI 有关」，却分不清具体会发生什么。她没有主张弃用它，而是建议少用、给基础图形留位置、多依靠文字标签。她还开玩笑说：「看到闪光上再加一个闪光，我也不会惊讶。」"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["规模", "主导过世界上使用最广的图标库之一", "—"],
+      ["专业", "字体设计出身，懂光学与比例", "—"],
+      ["表达", "WWDC 演讲 + 博客，讲得清楚", "博客刚起步，文章还不多"],
+      ["公开信息", "履历与奖项清晰", "OpenAI 的具体作品尚未公开讲述"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从她身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从字母学起：</strong>字体设计是图标设计最好的基础。",
+     "<strong>在意最小的决定：</strong>一条曲线也会改变读法。",
+     "<strong>相信光学，而不只是数学：</strong>几乎完美的圆才看起来完美。",
+     "<strong>图标不该替代文字：</strong>「总结」比「AI」更有用。",
+     "<strong>用手做点东西：</strong>凸版印刷让屏幕上的问题变得可触摸。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "For the Love of Sparkles", "url": "https://thaliaeche.is/post/for-the-love-of-sparkles/", "why": "关于 AI 闪光图标的冷静思考。"},
+     {"name": "The Almost-Perfect Circle", "url": "https://thaliaeche.is/post/the-almost-perfect-circle/", "why": "一个圆背后的光学修正。"},
+     {"name": "WWDC21：What's new in SF Symbols", "url": "https://developer.apple.com/videos/play/wwdc2021/10097", "why": "听她讲怎样设计自定义符号。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "打开 SF Symbols App，挑一个图标，把它放大到 400%，看看每条曲线是怎么收尾的。",
+ "sources": [
+  {"label": "Thalia Echevarría Fiol 的 X 个人资料", "url": "https://x.com/thaliaeche"},
+  {"label": "Iconic", "url": "https://thaliaeche.is/iconic/"},
+  {"label": "About（thaliaeche.is）", "url": "https://thaliaeche.is/about/"},
+  {"label": "WWDC20：SF Symbols 2", "url": "https://developer.apple.com/videos/play/wwdc2020/10207"},
+  {"label": "WWDC21：What's new in SF Symbols", "url": "https://developer.apple.com/videos/play/wwdc2021/10097"}
+ ]
+}

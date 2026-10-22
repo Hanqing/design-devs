@@ -1,0 +1,159 @@
+{
+ "name": "迈克 Mike Chong",
+ "role": "ScreenKite、PilotCut 创始人 · 前微软工程师 · AI 内容创作者",
+ "title": "Mike Chong：让每个人<em>无负担</em>做视频",
+ "dek": "TA 在微软做了五年工程师，后来在加拿大开始 AI 领域的创业。TA 做了一款 Mac 录屏和视频编辑软件 ScreenKite，主打比同类产品导出快三倍、录像只留在本地、一次买断；2026 年又推出 PilotCut：你告诉 Claude Code、Codex 或 Gemini CLI 想要什么样的视频，它就在 Mac 原生时间线上自动剪掉口癖和停顿、配好 B-roll。TA 同时经营中文和英文两个 X 账号，写自己从 GitHub Copilot 内测到 Claude Code 的「vibe coding」经历。",
+ "card": "ScreenKite、PilotCut 创始人；前微软工程师，Ultra MCP 作者，加拿大。",
+ "location": "加拿大",
+ "updated": "2026-10-22",
+ "tags": ["Mac 应用", "视频编辑", "AI Agent", "MCP", "独立创业"],
+ "links": [
+  {"label": "ScreenKite", "url": "https://screenkite.com"},
+  {"label": "PilotCut", "url": "https://pilotcut.com"},
+  {"label": "realmikechong.com", "url": "https://realmikechong.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>中文 X 简介「努力让一起用 AI 创造属于我们自己的不公平优势。做最好最快 Mac 录屏软件 @ScreenKite_com，最 AI native 的视频编辑器 @PilotCutCom，让每个人可以无负担做视频」。",
+  "<strong>代表作：</strong>ScreenKite（Mac 录屏 + 编辑，另有 Windows 测试版）、PilotCut（Agent 驱动的视频编辑器，40 多个 MCP 工具）、Ultra MCP（★277）。",
+  "<strong>关键数字：</strong>中文 X 关注者约 1.5 万；ScreenKite 一次付费 79.99 美元、可用 3 台 Mac；PilotCut 宣称 10 分钟内出第一版剪辑。",
+  "<strong>经历：</strong>微软工程师 5 年 → 在加拿大创业。"
+ ],
+ "lead": "做视频最累的不是创意，而是体力活：拖着进度条找停顿、剪掉「嗯」「啊」和说错的开头、把屏幕录像对到解说的节拍上。PilotCut 的做法是把这些交给你已经在用的编程 Agent：一句提示，它就在原生 Mac 时间线上完成一整轮剪辑，而素材从不离开你的电脑，也不按次收 AI 费用。这是一个程序员看视频剪辑的方式：既然 Agent 能改代码，为什么不能改时间线？",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "工程师、创业者、内容创作者"],
+     ["所在地", "加拿大"],
+     ["经历", "微软工程师 5 年 → AI 领域创业"],
+     ["产品", "ScreenKite、PilotCut"],
+     ["开源", "Ultra MCP"],
+     ["渠道", "中文 X @mike_chong_zh、英文 X @realMikeChong、YouTube、Newsletter"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Mike 的两款产品都围绕<strong>让做视频变轻松</strong>。ScreenKite 是录屏和编辑一体的 Mac 应用，包含 AI 辅助剪辑；它不收 AI 费用，而是使用你自己的 Agent 订阅，录像默认只存在本机。PilotCut 更进一步，把整个剪辑交给 Agent：支持 Claude Code、Codex、Gemini CLI、MCP 和本地模型。"},
+    {"p": "TA 也提供付费咨询，内容是「AI 优先」的策略，以及怎样设计全栈应用的架构，让 AI 能快速把它做出来。"},
+    {"note": "本页依据 realmikechong.com（首页与 About）、screenkite.com、pilotcut.com、GitHub 仓库和 X 资料整理，资料截至 2026 年 10 月。产品性能对比为官网自述。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "微软", "text": "在微软担任工程师 5 年；早早参与 GitHub Copilot 内测。"},
+     {"when": "2023", "title": "开通中文 X", "text": "2 月开始用中文分享 AI 与创业。"},
+     {"when": "2025", "title": "博客与 Ultra MCP", "text": "1 月开博客，写《My Vibe Coding Journey》；6 月发布 Ultra MCP；下半年写 DHH、Rails、Codex、Shopify CEO 等主题文章。"},
+     {"when": "2025–2026", "title": "ScreenKite", "text": "推出 Mac 录屏与编辑软件 ScreenKite，并发布 Windows 测试版。"},
+     {"when": "2026", "title": "PilotCut", "text": "发布 Agent 驱动的视频编辑器 PilotCut；写《Production Code Is Dead. Long Live Test Code.》等文章。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "ScreenKite", "url": "https://screenkite.com",
+     "meta": ["macOS 15+", "录屏 + 编辑", "一次买断"],
+     "paras": [
+      "「The best screen recorder and video editor for Mac.」官网列出的卖点：导出速度比 Screen Studio 快三倍、AI 费用为零（走你自己的 Agent 订阅）、录像留在本地、79.99 美元一次付费可用三台 Mac 且不续费。首页的「用户之声」直接嵌入 X 上的评价。"
+     ]
+    }},
+    {"work": {
+     "name": "PilotCut", "url": "https://pilotcut.com",
+     "meta": ["2026", "Mac · Windows 测试版", "Agent 驱动"],
+     "paras": [
+      "「The video editor that does the editing.」一句提示完成一整轮剪辑：去口癖、压缩停顿、放置 B-roll，结果是可以继续手动调整的原生时间线。素材 100% 本地，自带 Agent，没有点数计费。"
+     ],
+     "facts": [["MCP 工具", "40+"]]
+    }},
+    {"work": {
+     "name": "Ultra MCP", "url": "https://github.com/RealMikeChong/ultra-mcp",
+     "meta": ["2025", "TypeScript", "★277"],
+     "paras": [
+      "「All Models. One Interface. Zero Friction.」一个 MCP 服务器，把 OpenAI、Gemini、Azure OpenAI 和 xAI Grok 的模型统一暴露给 Claude Code 和 Cursor，用 npx 一条命令启动。README 里有一句玩笑：「别再和人类开会浪费时间了，现在该让 AI 模型开会。」"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://realmikechong.com", "paras": [
+     "首页一句「Exploring my turn of life」和「白天是工程师，晚上是想成为创作者的人」，然后是文章列表和咨询入口。",
+     "文章观点鲜明，常常回应行业大人物：《DHH Is Wrong: Rails Isn't a Great Fit for AI-Era Development》《Let's End Merchants of Complexity Together》，也有《Apple Is Quietly Terminating Developer Accounts》这样的开发者维权话题。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Cloudflare，Substack 通讯"],
+      ["内容", "AI 编程、行业评论、阅读推荐"],
+      ["节奏", "2025 年起，月更数篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-08", "title": "Thank You Microsoft for the Sponsorship. I May Never Use Azure Again.", "url": "https://realmikechong.com"},
+     {"date": "2026-04", "title": "Two Books Everyone Should Read in the AI Age: The Pathless Path & The Good Work", "url": "https://realmikechong.com"},
+     {"date": "2026-03", "title": "Production Code Is Dead. Long Live Test Code.", "url": "https://realmikechong.com"},
+     {"date": "2025-08", "title": "DHH Is Wrong: Rails Isn't a Great Fit for AI-Era Development", "url": "https://realmikechong.com"},
+     {"date": "2025-01", "title": "My Vibe Coding Journey - From GitHub Copilot Beta to Claude Code", "url": "https://realmikechong.com"}
+    ]},
+    {"quote": "Engineer by day, aspiring creator by night.", "cite": "Mike Chong，realmikechong.com"},
+    {"p": "《Production Code Is Dead. Long Live Test Code.》的观点是：当 AI 能快速生成生产代码，人真正该花心思的是测试，用测试来定义和约束正确的行为。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "本地优先、买断制、Agent 原生", "录屏赛道竞争激烈"],
+      ["技术", "大厂工程背景，MCP 实践早", "—"],
+      ["表达", "中英双语、观点鲜明", "部分文章偏评论，深度不一"],
+      ["公开信息", "经历清楚", "产品数据多为官网自述"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>让 Agent 操作专业软件：</strong>时间线也可以像代码一样被编辑。",
+     "<strong>本地优先是卖点：</strong>素材不上传，用户更安心。",
+     "<strong>别向用户收重复的 AI 费：</strong>让他们用自己的 Agent 订阅。",
+     "<strong>把测试当成核心资产：</strong>AI 时代的代码观。",
+     "<strong>双语经营：</strong>两个账号覆盖两个社区。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "PilotCut", "url": "https://pilotcut.com", "why": "让 Agent 帮你剪第一版视频。"},
+     {"name": "ScreenKite", "url": "https://screenkite.com", "why": "一款本地优先的 Mac 录屏工具。"},
+     {"name": "Ultra MCP", "url": "https://github.com/RealMikeChong/ultra-mcp", "why": "在 Claude Code 里调用多家模型。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "录一段 3 分钟的屏幕演示，然后试着用一句话让 Agent 帮你剪掉所有停顿。",
+ "sources": [
+  {"label": "迈克 Mike Chong 的 X 个人资料", "url": "https://x.com/mike_chong_zh"},
+  {"label": "realmikechong.com", "url": "https://realmikechong.com"},
+  {"label": "About Mike Chong", "url": "https://realmikechong.com/en/article/about"},
+  {"label": "ScreenKite", "url": "https://screenkite.com"},
+  {"label": "PilotCut", "url": "https://pilotcut.com"},
+  {"label": "RealMikeChong/ultra-mcp", "url": "https://github.com/RealMikeChong/ultra-mcp"}
+ ]
+}

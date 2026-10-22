@@ -1,0 +1,174 @@
+{
+ "name": "Guillermo Rauch",
+ "role": "Vercel 创始人兼 CEO · Next.js、Socket.IO、Mongoose 作者",
+ "title": "Guillermo Rauch：把 <em>Web 开发者体验</em>做成一家公司",
+ "dek": "他来自阿根廷布宜诺斯艾利斯的拉努斯，十几岁就在网上教人用 Linux，后来成为 MooTools 核心成员，18 岁拿到第一份全职前端工作并搬到旧金山。他写出了 Socket.IO 和 Mongoose，创办的 Cloudup 被 WordPress 的母公司 Automattic 收购；2015 年创办 ZEIT（后改名 Vercel），2016 年发布 Next.js。如今 Vercel 把自己定位为「AI Cloud」，v0 让人用一句话生成界面。",
+ "card": "Vercel CEO；Next.js、Socket.IO、Mongoose、v0 背后的人，旧金山。",
+ "location": "美国旧金山（出生于阿根廷布宜诺斯艾利斯）",
+ "updated": "2026-10-22",
+ "tags": ["Next.js", "Vercel", "开源", "开发者体验", "AI Cloud"],
+ "links": [
+  {"label": "rauchg.com", "url": "https://rauchg.com"},
+  {"label": "GitHub：rauchg", "url": "https://github.com/rauchg"},
+  {"label": "Vercel", "url": "https://vercel.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介只有「@vercel CEO」。个人网站自述：「我的职业生涯很大程度上要归功于 Web 和开源。」",
+  "<strong>代表作：</strong>Next.js、Vercel、v0、Socket.IO、Mongoose、ms、wifi-password（★4.6 千）、slackin（★6.5 千），以及《Smashing Node.js》一书。",
+  "<strong>关键数字：</strong>X 关注者约 91 万、推文 5.3 万条；GitHub 粉丝 1.7 万；Vercel 2025 年 9 月 F 轮估值 93 亿美元。",
+  "<strong>写作：</strong>《Pure UI》和《7 principles of rich web applications》两篇各有 70 多万次阅读，是前端圈反复被引用的文章。"
+ ],
+ "lead": "2014 年，Guillermo Rauch 写了一篇《富 Web 应用的 7 条原则》：服务端渲染不是可选项、要立即响应用户输入、要对数据变化做出反应、要预加载……十年后回头看，这几乎就是 Next.js 和 Vercel 的产品路线图。他先在文章里把一件事想清楚，再用开源项目把它做出来，最后用一家公司把它推给全世界。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、Vercel 创始人兼 CEO"],
+     ["出身", "阿根廷布宜诺斯艾利斯省拉努斯"],
+     ["所在地", "美国旧金山"],
+     ["公司", "LearnBoost（早期员工）→ Cloudup（创始人，被 Automattic 收购）→ ZEIT / Vercel（2015 年创办）"],
+     ["开源", "Next.js、Socket.IO、Mongoose、ms、slackin、wifi-password、MooTools 核心团队"],
+     ["著作", "《Smashing Node.js: JavaScript Everywhere》"],
+     ["技术栈", "JavaScript、TypeScript、Node.js、React"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Rauch 的主线始终是<strong>让 Web 更快、让开发者更省心</strong>。他在个人网站上说，做过 Socket.IO 和 Mongoose 之后，他看到了一个机会：为「开发者体验」（DX）构建工具和云基础设施。于是有了 Next.js 这个 React 框架，以及部署它的平台 Vercel。"},
+    {"p": "2023 年起，Vercel 推出 v0，用自然语言生成 React 界面；2025 年他在博客里写《The AI Cloud》，把 Vercel 重新定位为承载 AI 应用和 Agent 的云。据 Vercel 官方公告，公司 2025 年 9 月完成 3 亿美元 F 轮融资，投后估值 93 亿美元。"},
+    {"note": "本页依据 rauchg.com（关于页与文章列表）、GitHub 仓库与 README、Vercel 官方融资公告和 X 资料整理，资料截至 2026 年 10 月。融资与用户数字以公司公告为准。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "少年时代", "title": "Linux 与 JavaScript", "text": "十几岁在阿根廷推广 Linux、教别人使用，之后迷上 JavaScript 和 Web 开发。"},
+     {"when": "2008 前后", "title": "MooTools 核心团队", "text": "加入 MooTools 核心团队，主导 MooTools Forge 包仓库。18 岁得到第一份全职前端工作，搬到旧金山。"},
+     {"when": "2010–2012", "title": "LearnBoost 与 Node.js", "text": "LearnBoost 是最早在生产环境用 Node.js 的公司之一，团队为 Express、Connect、Jade、Stylus 做了关键贡献。他写出 Socket.IO 和 Mongoose，并出版《Smashing Node.js》。"},
+     {"when": "2012–2013", "title": "Cloudup", "text": "在旧金山创办第一家公司 Cloudup，后被 Automattic 收购，用于 WordPress 的编辑和建站技术。"},
+     {"when": "2014–2015", "title": "两篇长文", "text": "发表《7 principles of rich web applications》和《Pure UI》；2015 年创办 ZEIT。"},
+     {"when": "2016", "title": "Next.js", "text": "发布 Next.js，主张零配置、服务端渲染、按页面拆分代码。"},
+     {"when": "2020", "title": "ZEIT 改名 Vercel", "text": "写《Vercel》《Next for Vercel》《Develop, preview, test》，阐述「预览部署」工作流。"},
+     {"when": "2023–2026", "title": "v0 与 AI Cloud", "text": "推出 v0；2025 年发表《The AI Cloud》，Vercel 完成 F 轮融资。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Next.js", "url": "https://nextjs.org",
+     "meta": ["2016", "React 框架", "开源"],
+     "paras": [
+      "Next.js 把 2014 年那篇文章里的原则落到了代码里：页面默认在服务端渲染，按路由拆分代码，开发者几乎不用写配置。之后它不断加入静态生成、增量再生、App Router 和 React Server Components，成为最常用的 React 框架之一。"
+     ]
+    }},
+    {"work": {
+     "name": "Vercel", "url": "https://vercel.com",
+     "meta": ["2015 年创办", "前身 ZEIT"],
+     "paras": [
+      "Vercel 的核心体验是「git push 就上线」：每次提交都生成一个可以分享的预览地址。Rauch 在关于页里写到，这个平台支撑着 Washington Post、Porsche、Under Armour、Nintendo 等公司的线上业务。",
+      "2025 年起它自称「AI Cloud」，在托管网站之外，提供 AI SDK、AI Gateway 和运行 Agent 的基础设施。"
+     ],
+     "facts": [["融资", "2025 年 9 月 F 轮，估值 93 亿美元"]]
+    }},
+    {"work": {
+     "name": "Socket.IO", "url": "https://socket.io",
+     "meta": ["2010", "实时通信"],
+     "paras": [
+      "让浏览器和服务器之间的实时通信变得简单。Rauch 在关于页里提到，它的底层引擎曾支撑 Notion 的实时同步和 Coinbase 的第一个交易产品。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Mongoose", "JavaScript 生态里访问 MongoDB 最流行的方式"],
+      ["v0", "用自然语言生成 React 界面"],
+      ["ms", "毫秒与时间字符串互转的小工具，下载量以十亿计"],
+      ["slackin（★6.5 千）", "让公开 Slack 社区可以自助加入"],
+      ["wifi-password（★4.6 千）", "在 macOS 终端里显示当前 Wi-Fi 密码"],
+      ["doom-captcha", "2024 年的趣味实验：玩《毁灭战士》来证明你是人"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://rauchg.com", "paras": [
+     "首页只是一份按年份排列的文章清单，每篇标题旁标着阅读数：《7 principles of rich web applications》74 万、《Pure UI》70 万。没有头图，没有订阅弹窗，只有文字。",
+     "博客本身开源（rauchg/blog，★1.4 千），用 Next.js 搭建、部署在 Vercel 上：它既是写作的地方，也是自家产品的样板间。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + MDX，Vercel 托管，源码公开"],
+      ["结构", "文章列表 + 关于页"],
+      ["节奏", "2014–2021 年较密，之后以 X 为主，2025 年发表《The AI Cloud》"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2025", "title": "The AI Cloud", "url": "https://rauchg.com/2025/the-ai-cloud"},
+     {"date": "2021", "title": "Making the web. Faster.", "url": "https://rauchg.com/2021/making-the-web-faster"},
+     {"date": "2020", "title": "Develop, preview, test", "url": "https://rauchg.com/2020/develop-preview-test"},
+     {"date": "2015", "title": "Pure UI", "url": "https://rauchg.com/2015/pure-ui"},
+     {"date": "2014", "title": "7 principles of rich web applications", "url": "https://rauchg.com/2014/7-principles-of-rich-web-applications"}
+    ]},
+    {"quote": "I owe much of my career to the Web and Open Source.", "cite": "Guillermo Rauch，rauchg.com/about"},
+    {"p": "《Pure UI》提出，界面应该被看成「状态到视图的纯函数」，设计师和工程师应该一起把所有状态画出来。这篇文章影响了很多团队讨论设计与组件的方式。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["远见", "先写文章想清楚，再用开源和产品兑现", "—"],
+      ["开源", "多个项目成为行业基础设施", "Next.js 与 Vercel 的绑定常被社区讨论"],
+      ["产品", "把开发者体验做成商业模式", "平台定价与锁定问题时有争议"],
+      ["写作", "长文影响深远", "近年个人长文较少，主要在 X 上表达"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>先把原则写下来：</strong>2014 年的 7 条原则，后来成了产品路线图。",
+     "<strong>开源是最好的名片：</strong>Socket.IO 和 Mongoose 带来了后来的一切。",
+     "<strong>用自己的产品搭自己的网站：</strong>博客就是 Next.js 的样板。",
+     "<strong>小工具也值得发布：</strong>ms、wifi-password 这样的工具被用了十亿次。",
+     "<strong>跟着时代重新定位：</strong>从前端云到 AI Cloud。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "7 principles of rich web applications", "url": "https://rauchg.com/2014/7-principles-of-rich-web-applications", "why": "Next.js 背后的思想。"},
+     {"name": "Pure UI", "url": "https://rauchg.com/2015/pure-ui", "why": "设计师和工程师都该读的一篇。"},
+     {"name": "v0", "url": "https://v0.app", "why": "用一句话生成一个界面试试。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读一遍《Pure UI》，然后把你正在做的界面所有状态画在一张纸上。",
+ "sources": [
+  {"label": "Guillermo Rauch 的 X 个人资料", "url": "https://x.com/rauchg"},
+  {"label": "rauchg.com", "url": "https://rauchg.com"},
+  {"label": "rauchg.com：About", "url": "https://rauchg.com/about"},
+  {"label": "GitHub：rauchg", "url": "https://github.com/rauchg"},
+  {"label": "Vercel Closes Series F at $9.3B Valuation（Business Wire）", "url": "https://www.businesswire.com/news/home/20250930898216/en/Vercel-Closes-Series-F-at-$9.3B-Valuation-to-Scale-the-AI-Cloud"}
+ ]
+}

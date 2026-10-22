@@ -1,0 +1,166 @@
+{
+ "name": "Roman Nurik",
+ "role": "Google Labs 产品设计工程师 · Firebase Studio 创始设计师 · Muzei、Android Asset Studio 作者",
+ "title": "Roman Nurik：<em>为开发者做设计，为设计师写代码</em>",
+ "dek": "他在个人网站上写道：「几十年来，我一直在为开发者做设计，为设计师做工具。」在 Google，他是 Google I/O Android App 的首席设计师和前端工程师（2014 年版是最早采用 Material Design 的 Android App 之一）；做了被并入 Android Studio 的 Android Asset Studio；在 Firebase 担任设计负责人和经理长达十年；又作为创始设计师兼工程师参与了 Google 的云端 IDE Project IDX，也就是后来的 Firebase Studio。业余时间，他做出了安装量超百万的动态壁纸 Muzei，以及 DashClock 小部件。如今他在纽约的 Google Labs 探索设计、开发和软件的未来。",
+ "card": "Google Labs 产品设计工程师；Firebase Studio 创始设计师，Muzei、DashClock、Android Asset Studio、IconKitchen 作者，纽约。",
+ "location": "美国纽约",
+ "updated": "2026-10-22",
+ "tags": ["设计工程", "Android", "Material Design", "Firebase", "开发者工具"],
+ "links": [
+  {"label": "roman.nurik.net", "url": "https://roman.nurik.net"},
+  {"label": "Projects", "url": "https://roman.nurik.net/projects/"},
+  {"label": "GitHub：romannurik", "url": "https://github.com/romannurik"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Product Design Engineer @GoogleLabs exploring the future of design, dev, and software」。",
+  "<strong>代表作：</strong>Firebase Studio（Project IDX）、Firebase 控制台设计系统、Google I/O Android App、Android Asset Studio（★6.6 千）、IconKitchen、Muzei（★5 千）、DashClock、Android Icon Animator。",
+  "<strong>关键数字：</strong>Muzei 安装超 100 万次、DashClock 超 300 万次（个人网站数据）；GitHub 粉丝 1.07 万；X 关注者约 4.3 万。",
+  "<strong>工具癖：</strong>Material Colors Mac App、幻灯片代码高亮工具、Sketch 与 Figma 插件、DataURL.app。"
+ ],
+ "lead": "2013 年，Roman 用大约四个月，从构思、设计、开发到上线并开源了 Muzei：一款每天给你的 Android 主屏幕换上一幅名画的动态壁纸。它会自动模糊和压暗画面，让图标和小部件更清楚；双击壁纸，名画又会完整显现。它被安装了一百多万次，还开放了 API，让其他开发者可以提供自己的图片源。这是 Roman 一贯的做法：一个设计上的好点子，加上一份让别人也能扩展它的工程。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "产品设计工程师、设计负责人"],
+     ["所在地", "美国纽约"],
+     ["经历", "Google：Android 开发者工具与 I/O App（2010–2014）→ Firebase UX 设计负责人与经理（2015–2025）→ Project IDX / Firebase Studio 创始设计师兼工程师（2021–2025）→ Google Labs"],
+     ["开源", "Muzei、DashClock、Android Asset Studio、Android Icon Animator、LayerVisualizer、SwipeToDismiss"],
+     ["技术栈", "JavaScript / TypeScript、Java / Kotlin、React、Angular、Docker、Figma 与 Sketch 插件"],
+     ["社区", "联合创办 FORM 设计大会"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Roman 的特点是<strong>设计和工程都做到一线水平</strong>。在 Project IDX，他负责产品与系统设计、品牌，参与产品与技术架构，做出了影响生成式 AI 和工具集成路线的原型，同时还是 AI（自定义 Agent 框架）、前端、IDE 扩展和基础设施方向贡献最多的三位工程师之一。"},
+    {"p": "他还亲手调了编辑器的浅色和深色主题：既要平衡前景和背景的对比，也要照顾相邻语法元素之间的对比；足够大胆以形成独特识别，又足够克制，能让人每天看好几个小时。"},
+    {"note": "本页依据 roman.nurik.net（首页与 Projects）、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。安装量等数字来自他本人网站。家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2007–2009", "title": "注册 Twitter 与 GitHub", "text": "开始分享 Android 相关的设计与代码。"},
+     {"when": "2010–2014", "title": "Google I/O App 与 Asset Studio", "text": "担任 Google I/O Android App 首席设计师和前端工程师，其中两年任技术负责人；2010 年发布 Android Asset Studio，后来被并入 Android Studio。"},
+     {"when": "2012–2013", "title": "DashClock 与 Muzei", "text": "2012 年发布第一个上架的 App DashClock；2013 年用四个月做出并开源 Muzei；与人合写 Android Design Preview。"},
+     {"when": "2014", "title": "Material Design 与 FORM", "text": "I/O 2014 App 成为最早采用 Material Design 的 Android App 之一；联合创办 FORM 设计大会，做了配套字体工具和表盘。"},
+     {"when": "2015–2025", "title": "Firebase", "text": "先后任 Remote Config、A/B Testing 的 UX 负责人，后成为设计负责人和经理，主管「Build」产品线、引导与计费等平台能力和控制台设计系统；2019 年主导以无障碍为重点的视觉改版。"},
+     {"when": "2016", "title": "Icon Animator", "text": "做出 Android 图标动画工具，后来成为 Alex Lockwood 的 Shape Shifter 的基础。"},
+     {"when": "2021–2025", "title": "Project IDX / Firebase Studio", "text": "创始设计师兼工程师；同期把 Asset Studio 改版为跨平台图标生成器 IconKitchen。"},
+     {"when": "现在", "title": "Google Labs", "text": "在纽约探索设计、开发和软件的未来。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Firebase Studio（Project IDX）", "url": "https://firebase.studio",
+     "meta": ["2021–2025", "Google", "云端 IDE"],
+     "paras": [
+      "Google 的实验性网页开发环境，后来并入 Firebase 品牌。Roman 是创始设计师兼工程师：设计产品与品牌，搭技术架构，做 AI 原型，也写大量生产代码。官网则是他和设计工作室 Monogram 合作完成的，包括定制的 JS 和 CSS 动画。"
+     ]
+    }},
+    {"work": {
+     "name": "Muzei", "url": "https://github.com/muzei/muzei",
+     "meta": ["2013", "Android", "100 万+ 安装"],
+     "paras": [
+      "「A living museum for your Android home screen.」每天换一幅名画，模糊压暗以突出图标；也可以轮播自己的照片。开放的 Muzei API 让其他 App 能成为它的图片源。"
+     ],
+     "facts": [["GitHub", "★4,954"]]
+    }},
+    {"work": {
+     "name": "Android Asset Studio / IconKitchen", "url": "https://icon.kitchen",
+     "meta": ["2010 / 2021–", "Web 工具"],
+     "paras": [
+      "在浏览器里生成启动图标、操作栏图标、通知图标和九宫格图。它后来被并入 Android Studio；原仓库现已停止维护，README 引导用户使用他重新做的 IconKitchen，后者能为 Android、iOS 和 Web 生成图标。"
+     ],
+     "facts": [["GitHub", "★6,591"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["DashClock Widget", "2012", "第一个上架的 App，安装超 300 万次"],
+      ["Android Icon Animator", "2016", "矢量图标动画工具，Shape Shifter 的前身"],
+      ["LayerVisualizer", "2016", "网页 3D 图层可视化，用来讲 Material 的层级与阴影"],
+      ["Material Colors for Mac", "2016–2021", "快速取用 Material 色板的 Mac App"],
+      ["SlidesCodeHighlighter", "2017–", "把带语法高亮的代码粘进幻灯片"],
+      ["Figma Contrast / Sketch Stickers", "2017–", "检查文字对比度、快速拖放组件的设计插件"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://roman.nurik.net", "paras": [
+     "首页只有三句话和一排链接。Projects 页是真正的作品集：可以按 Featured、Web、Desktop、Android 筛选，每个项目写清楚年份、他的角色和贡献，比如「top-3 production eng contributor」。",
+     "这是一份工程师式的作品集：不夸张，但把「我具体做了什么」写得非常清楚。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["结构", "极简首页 + 可筛选的项目页"],
+      ["叙事", "每个项目明确写出个人角色与贡献"],
+      ["社交", "X、Bluesky、Mastodon、Medium、Dribbble"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "I've been designing for devs and building for designers for decades.", "cite": "Roman Nurik，roman.nurik.net"},
+    {"p": "这句话概括了他的全部作品：给开发者用的 IDE、控制台和图标生成器，给设计师用的 Sketch / Figma 插件和配色工具。他站在两群人中间，把彼此需要的东西做出来。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["跨界", "设计负责人兼一线工程师", "—"],
+      ["工具", "多个工具成为行业标配", "不少老项目已停止维护"],
+      ["规模", "Firebase、Android 等大平台经验", "多数成果属于 Google 产品，个人署名有限"],
+      ["表达", "作品集清晰", "很少写长文"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>写清楚你做了什么：</strong>作品集里的角色和贡献比截图更重要。",
+     "<strong>为两边的人做工具：</strong>开发者和设计师都缺好工具。",
+     "<strong>一个好点子 + 一个开放 API：</strong>Muzei 就是这样长大的。",
+     "<strong>编辑器主题也值得设计：</strong>人们每天要看好几个小时。",
+     "<strong>老工具可以重生：</strong>Asset Studio 变成了 IconKitchen。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "roman.nurik.net/projects", "url": "https://roman.nurik.net/projects/", "why": "一份写得很好的设计工程师作品集。"},
+     {"name": "IconKitchen", "url": "https://icon.kitchen", "why": "几秒钟生成全平台 App 图标。"},
+     {"name": "Muzei", "url": "https://github.com/muzei/muzei", "why": "把名画放到你的主屏幕上。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "重写你的作品集：每个项目只写一句「我具体负责了什么」。",
+ "sources": [
+  {"label": "Roman Nurik 的 X 个人资料", "url": "https://x.com/romannurik"},
+  {"label": "roman.nurik.net", "url": "https://roman.nurik.net"},
+  {"label": "Projects（roman.nurik.net）", "url": "https://roman.nurik.net/projects/"},
+  {"label": "GitHub：romannurik", "url": "https://github.com/romannurik"},
+  {"label": "muzei/muzei", "url": "https://github.com/muzei/muzei"}
+ ]
+}

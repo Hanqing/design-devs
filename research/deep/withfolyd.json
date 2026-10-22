@@ -1,0 +1,325 @@
+{
+ "handle": "withfolyd",
+ "sites": [
+  {
+   "url": "https://folyd.com",
+   "ok": true,
+   "title": "Welcome — Folyd",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "",
+   "home_text": "A virtuous idealist and minimalist\n[Blog What I thought and wrote](https://folyd.com/blog)[Projects What I built and created](https://folyd.com/projects)[About Who am I and how to contact me](https://folyd.com/about)",
+   "github_links": [],
+   "subpages": {
+    "https://folyd.com/blog": "Blog — Folyd \n Blog \n 我的 2022 总结\n Rust Pin 进阶\n 优化 Rust 标准库的 binary_search\n Rust 的 Pin 与 Unpin\n Rust 未来 Generator 语法探索之 Propane\n Moonlit Sailor - 我的年度乐队\n 发布 Anyshortcut CLI 版以及 Rust 使用半年之后的感受\n Folyd 的由来\n我的 2022 总结 \n -- 发布于 2023-01-05\n从来没有写过年终总结，今年尝试总结一下，主要希望自己多年以后再来回顾能有新的感触和收获。废话不多说，开始： \n回顾 \nTo-D 观察室 \n2021 年 12 月 23 号开始在字节内部搞了一个叫《To-D 观察室》的专栏 (对外版: https://2d2d.io/ )，主要是分享 To-D 开发者行业相关的动态和故事，可能有点类似于开发者版的《浪潮之巅》。大概四个月时间里，我总共发布了两季，写了 12 篇文章，后来因为 4 月份有其他事情，所以就停更了。可一旦停更了，要想继续更新真的就没那么容易了。因为要写这些文章实在需要花太多时间，我想把这些时间用来做一些其他事情。不过我对 To-D 行业的关注依然没有中断，于是我搞了一个同名的 《To-D 观察室》飞书群和 Telegram 频道 ，不定期在里面分享我了解到的最新行业动态，每一篇都比较短，我只需要在几句话之类把某个动态的重点讲清楚就行，不需要花太多时间，所以这件事我一直坚持下来了。截止到 2022 年底，《To-D 观察室》的飞书群有 639 人，Telegram 上有 737 个订阅，个人感觉还是很不错的，特别是飞书群里面还有好多字节内部的大佬加入，其实还挺有压力的。 \n我很希望《To-D 观察室》可以一直帮助到关注这个领域的人，但更重要的是他对我个人也很有帮助，一方面丰富了自己的行业知识和阅历，也锻炼了自己归纳分析、总结重点的能力，另一方面，好记性不如烂笔头，我总结的这些也是为了方便我以后检索。一举多得，何乐而不为呢！ \n2023 年我会一如既往保持更新的！ \nZine \n写这个《To-D 观察室》专栏的时候确实没有想到这件无心插柳的事情能得到了字节内部很多人的喜欢，所以让我萌发了一个把他对外发布出去的想法。不过我是一个早期互联网去中心化、开放理念的忠实拥趸，所以我从来没有考虑过要把我的这些文章发布到微信公众号或者知乎专栏这样的平台，就算这些平台可以更方便获取流量甚至投放广告变现。因为最初我搞《To-D 观察室》就是按 10 篇文章为一季的方式发布的，这种比较类似杂志，因此我决定依然以杂志的方式对外发布。简单调研过社区上的项目，我发现并没有一个专门针对杂志的静态网站生成器，于是我决定用 Rust 自己写一个，名字就叫 zine 。 \n zine 发布没多久很快就上了 GitHub Rust trending 榜，没过多久又被国外的人发到 HackerNews 上了，并且还 上了 HackerNews 热榜，当时 star 数涨得飞快！想起我以前提交过好几次 HackerNews 都是石沉大海，没想到别人帮我提交反而上了热榜。 \n从 2 月 25 号开始写第一行代码，到 3 月 20 号发布第一个版本，过去一年 zine 总共发布了 9 个版本。Star 数超过 760，fork 数 30，但下载量只有 1.3k，属于是一个非常小众的产品了。不过不管多少人下载，我都会一直更新下去的。毕竟 2022 年我用 zine 搞了至少 5 份杂志，我从小就喜欢看杂志，我也很喜欢杂志这种出版物，所以开发 zine 永远会让我乐在其中。 \n 2d2d.io -《To-D 杂志》，这也是我用 zine 创建的第一份杂志。 \n o11y.cn -《O11Y 杂志》，本来想搞一份专注于可观测性(Observability)领域的技术杂志，但是精力有限没搞了。 \n 现代诗杂志 - 搞着玩的现代诗杂志。 \n The Whitepaper - “某运动”当天马上搞出来的杂志，现在这个杂志每天都会有一个叫 Paranoic 的机器人提交一篇空白文章，只要 Github 没有倒闭，他就会永远更新下去。 \nParanoic 是痴心妄想者的意思，也意味着所谓的言论自由并不知道会不会实现，也不知道什么时候会实现。 \n Rust Magazine - 这是我 12 月份搞的 Rust 英文杂志，其实很早就想搞了，但是对自己的英文写作能力还很担忧，没想到 11 月底 ChatGPT 的出现马上就提高了我搞这份杂志的信心。这份杂志的很多内容我都是用 ChatGPT 帮忙写的。我只准备了一篇 Announcing 的文章就发布到社区了，没想到收到了非常大的反响，这让我欣慰至极也倍感压力。 \nRust Search Extension \n Rust Search Extension 诞生于 2018 年 10 月，如今已经进入第 5 个年头了，我依然在维护这个产品。2022 年总共发布了 5 个版本，我也很高兴它收到了越来越多人的喜爱。值得一提的是，今年在 Reddit 上有两条评论让我感触很深。 \n第一条是一位用户回复了一段很长的内容，大概意思就是我应该把这些好用的功能往 rustdoc， docs.rs 上提 PR，插件自身专注于搜索。这真的是一个非常好的问题，我之前也思考过，但是我没有这么做，最大的原因可能是因为我更追求\" 自由 \"。自己的产品，想做什么功能都是我一个人能决定的，如果往 rust 提 PR，事情就没那么容易了，没有那种“ 自由 ”。 \n第二条的评论则是感动，被人认可真的是世界上最幸福的事情啊。 \nAfter having used this extension for a while now, I'm in awe of the genius idea to make it. At first, I thought to myself that this is largely unnecessary thing, and a rather silly thing. I was just shocked of how much I love it now. It is beyond invaluable to me, atleast compared to my initial impression. \nduo \n duo 是一个集成 tracing 和 JeagerTracing 的可观测性项目，把 demo 搞完之后，还很荣幸受 Datenlord 的邀请参加了 2022 年的 开源之夏活动 ，活动也顺利完成。不过今年实在没有太多额外的时间，所以后面基本上属于挖坑不填的状态了。2023 年要不要继续做我也不知道，时间永远都是有限的，如果我没有继续做，那说明我去做其他我认为更重要的事情去了。 \n其他值得一提的事情 \n年初参加了 RustTalk 播客的 第一期录制 ，也是我第一次受邀录制播客，在播客软件里面听到自己的声音感觉非常有意思。 \n上半年很荣幸获得 Rust Foundation 的 赞助",
+    "https://folyd.com/projects": "[](https://folyd.com/)\n[](https://folyd.com/)[](https://folyd.com/blog/ \"Blog - What I thought and wrote\")[](https://folyd.com/projects/ \"Projects - What I built and created\")[](https://folyd.com/about/ \"About - Who am I and how to contact me\")\nProjects[](https://folyd.com/feed.xml \"Atom Feed\")\n[Meiguo](https://folyd.com/projects/meiguo/)[Aiberm](https://folyd.com/projects/aiberm/)[Arrfounder](https://folyd.com/projects/arrfounder/)[Geddle](https://folyd.com/projects/geddle/)[AIScript](https://folyd.com/projects/aiscript/)[Query.rs](https://folyd.com/projects/query-rs/)[Rust Magazine](https://folyd.com/projects/rust-magazine/)[2d2d.io](https://folyd.com/projects/2d2d/)[Zine](https://folyd.com/projects/zine/)[Huhu.io](https://folyd.com/projects/huhu-io/)[C/C++ Search Extension](https://folyd.com/projects/cpp-search-extension/)[Go Search Extension](https://folyd.com/projects/go-search-extension/)[Rust Search Extension](https://folyd.com/projects/rust-search-extension/)[Anyshortcut](https://folyd.com/projects/anyshortcut/)[Paybase](https://folyd.com/projects/paybase/)\nMeiguo\n[https://meiguo.app](https://meiguo.app/)\n优质美国信用卡，即时交付，验证激活。\n © Copyright 2025 by Folyd. ·[Geddle](https://geddle.com/)·[Arrfounder](https://arrfounder.com/)·[Aiberm.com](https://aiberm.com/)",
+    "https://folyd.com/about": "Introduction\nMy name is Shuang Zhu.\n**Github:**[@Folyd](https://github.com/folyd)\n**Twitter:**[@Folyd](https://twitter.com/_hisriver)\n**Telegram:**[@hisriver](https://t.me/hisriver)\n## Hobbies\n*   Programming\n*   Reading\n*   Swimming\n*   Jazz drum\n*   Bass guitar\n*   Piano\n*   Skateboard\n## Tech stack\n*   Rust\n*   Python\n*   Javascript\n*   Java\n*   C++\n**Table of content**\n*   [Social](https://folyd.com/about#social)\n*   [Hobbies](https://folyd.com/about#hobbies)\n*   [Tech stack](https://folyd.com/about#tech-stack)"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "http://geddle.com",
+   "ok": true,
+   "title": "Geddle - AI & SaaS Affiliate Marketplace",
+   "description": "Join high-paying affiliate programs for AI and SaaS products. Earn recurring commissions up to 50% promoting innovative tools to your audience.",
+   "stack": [
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Sign In \nTurn Your Influence Into Recurring Revenue \nJoin 10,000+ creators earning $2,000-$15,000/month promoting AI tools their audience actually needs \n Explore Now \nPollo.ai: 30% Lifetime Recurring Commissions \nPromote the hottest AI video creation tool and earn $270/month from just 10 referrals \n Explore Now \nEarn Like @SarahTech \nMicro-creators earning $12,300/month with just 5K followers \n Explore Now \nStart Earning in 3 Simple Steps \nJoin programs → Create content → Earn monthly recurring commissions \n Explore Now \n50% Commission Programs Available \nBe first to promote new AI tools with the highest rates on the platform \n Explore Now \nTrusted by 500+ AI Companies \nDirect Stripe integration ensures you get paid on time, every time \n Explore Now \n All Categories Content & Writing Image & Design Video & Media Audio & Voice Code & Development Business & Productivity Marketing & Sales Chatbots & Agents Data & Analytics Education & Research Translation & Language 3D & Gaming \nAll Affiliate Programs \n17 available \n Newest First \n Newest First Highest Commission Most Popular \nHeyEmmett AEO/SEO Agent \nHeyEmmett AEO/SEO Agent \nhttps://heyemmett.com \nGet found in Claude, Google AI Overview, ChatGPT in 90 days with Emmett \n Commission: 30 % \n Duration: 12 months \n Per 10 referrals: $ 300 -$ 600 /mo \nAitoearn \nAitoearn \nhttps://aitoearn.ai \nCreate content in natural language and distribute it to over 10 social media platforms. \n Commission: 30 % \n Duration: 12 months \n Per 10 referrals: $ 18 -$ 597 /mo \nTripo \nTripo \n $1M+ ARR \nhttps://studio.tripo3d.ai/ \nTripo is a leading AI platform that empowers everyone to create, edit, and share 3D content with powerful 3D foundation models and all-in-one web tools. \n Commission: 30 % \n Duration: 12 months \n Per 10 referrals: $ 60 -$ 417 /mo \nAtoms \nAtoms \nhttps://atoms.dev \n AI vibe business team that turns your ideas into business \n Commission: 30 % \n Duration: 12 months \n Per 10 referrals: $ 60 -$ 300 /mo \nRuumix \nRuumix \nhttps://www.ruumix.ai/ \nRuumix turns any room photo into a beautifully redesigned, fully shoppable AI room in seconds. \n Commission: 30 % \n Duration: Lifetime \n Per 10 referrals: $ 60 -$ 120 /mo \nPartGenie \nPartGenie \nhttps://www.partgenie.ai/ \nAI for Electronics Designing & Sourcing \n Commission: 70 % \n Duration: 12 months \n Per 10 referrals: $ 203 /mo \nPikame AI \nPikame AI \nhttp://www.pikame.ai \nCreate Your AI Emoji\nTransform your photos into unique emoji styles with AI. Choose a style, upload your image, and watch the magic happen! \n Commission: 30 % \n Duration: Lifetime \n Per 10 referrals: $ 21 -$ 36 /mo \nCitely \nCitely \nhttps://citely.ai/ \nAI citation verification tool that finds real sources, detects fake references, and ensures academic integrity for research and writing. \n Commission: 30 % \n Duration: 12 months \n Per 10 referrals: $ 57 /mo \nLumis AI \nLumis AI \nhttps://app.uselumis.ai/ \nLumis is your communication avatar, redefining communication through understanding, memory, and intelligence \n Commission: 30 % \n Duration: 12 months \n Per 10 referrals: $ 45 -$ 117 /mo \nPlanby Now \nPlanby Now \nhttps://www.planbynow.app \nSmart schedules & agendas in minutes with AI \n Commission: 50 % \n Duration: 36 months \n Per 10 referrals: $ 295 -$ 995 /mo \nJobnova \nJobnova \nhttps://jobnova.ai/ \nJobnova.ai is an AI-powered job assistant that instantly matches job seekers with the most relevant opportunities while helping companies hire smarter and faster. \n Commission: 30 % \n Duration: 12 months \n Per 10 referrals: $ 21 -$ 48 /mo \nTWT Chat \nTWT Chat \nhttps://www.twt.com/chat \nAn all-channel customer service solution integrating customer service, chat, audio and video calls, and remote assistance. It is simple and easy to use, allowing small teams to serve customers effortlessly. \n Commission: 80 % \n Duration: 12 months \n Per 10 referrals: $ 480 -$ 1352 /mo \nSlash \nSlash \nhttps://slash.cool \nBuild web scraping and browser automation by chatting with AI. \n Commission: 30 % \n Duration: 12 months \n Per 10 referrals: $ 60 -$ 297 /mo \nHyNote AI \nHyNote AI \n $1M+ ARR \nhttps://hynote.ai/ \nHyNote is your all-in-one AI note-taking solution, supporting multiple platforms and document formats — instantly turning scattered information into actionable insights. \n Commission: 30 % \n Duration: Lifetime \n Per 10 referrals: $ 36 -$ 75 /mo \nPollo AI \nPollo AI \n $10M+ ARR \nhttps://pollo.ai/ \nPollo.ai makes it easy for anyone—from content creators to everyday users—to create stunning AI-gener",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://wanderboat.ai",
+   "ok": true,
+   "title": "Just a moment...",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en-US",
+   "home_text": "## wanderboat.ai\n## Performing security verification\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://aiberm.com",
+   "ok": true,
+   "title": "Aiberm - Discounted AI API services for developers",
+   "description": "Discounted AI APIs for developers. One unified API for 30+ AI models including OpenAI, Claude, and Gemini. 99.9% uptime SLA.",
+   "stack": [
+    "React"
+   ],
+   "hosting": [],
+   "lang": "en",
+   "home_text": "[](http://aiberm.com/ \"Home - Aiberm\")\n# Discounted AI API services for developers\n[Get Started](http://aiberm.com/console \"Get Started - Access Aiberm Console\")[Documentation](http://aiberm.com/docs \"View Documentation - Aiberm API Documentation\")\nAPI Base URL\nhttps://aiberm.com\n## Featured Models\n[View More →](http://aiberm.com/pricing \"View More AI Models - Pricing Page\")\n[ ### claude-opus-5 by Anthropic Input $0.500-90.0% Output $2.498-90.0%/ M tokens](http://aiberm.com/pricing?tab=anthropic \"View claude-opus-5 pricing - Anthropic AI model\")[ ### GPT-5.5 by OpenAI Input $0.690-86.2% Output $5.520-81.6%/ M tokens](http://aiberm.com/pricing?tab=openai \"View GPT-5.5 pricing - OpenAI AI model\")[ ### Gemini 3 Pro by Google Input $0.460-77.0% Output $2.760-77.0%/ M tokens](http://aiberm.com/pricing?tab=gemini \"View Gemini 3 Pro pricing - Google AI model\")\n### Coding Models\n[ ### GPT-5.3 Codex Input $0.179-89.7% Output $1.435-89.7%/ M tokens](http://aiberm.com/pricing?tab=openai \"View GPT-5.3 Codex pricing - OpenAI AI model\")[ ### claude-opus-5 Input $0.500-90.0% Output $2.498-90.0%/ M tokens](http://aiberm.com/pricing?tab=anthropic \"View claude-opus-5 pricing - Anthropic AI model\")[ ### claude-opus-4-5-20251101 Input $0.749-85.0% Output $3.747-85.0%/ M tokens](http://aiberm.com/pricing?tab=anthropic \"View claude-opus-4-5-20251101 pricing - Anthropic AI model\")[ ### claude-sonnet-4-5-20250929 Input $0.450-85.0% Output $2.248-85.0%/ M tokens](http://aiberm.com/pricing?tab=anthropic \"View claude-sonnet-4-5-20250929 pricing - Anthropic AI model\")[ ### claude-haiku-4-5-20251001 Input $0.115-88.5% Output $0.575-88.5%/ M tokens](http://aiberm.com/pricing?tab=anthropic \"View claude-haiku-4-5-20251001 pricing - Anthropic AI model\")[ ### GPT-5.2 Codex Input $0.276-84.2% Output $2.208-84.2%/ M tokens](http://aiberm.com/pricing?tab=openai \"View GPT-5.2 Codex pricing - OpenAI AI model\")[ ### Grok 4.5 Input $0.380-81.0% Output $1.140-81.0%/ M tokens](http://aiberm.com/pricing?tab=xai \"View Grok 4.5 pricing - xAI AI model\")\n### High Performance Models\n[ ### Claude Opus 5 Input $3.680-26.4% Output $18.400-26.4%/ M tokens](http://aiberm.com/pricing?tab=anthropic \"View Claude Opus 5 pricing - Anthropic AI model\")[ ### GPT-5.2 Input $0.690-21.6% Output $5.520-21.1%/ M tokens](http://aiberm.com/pricing?tab=openai \"View GPT-5.2 pricing - OpenAI AI model\")[ ### Gemini 3 Pro Input $0.460-77.0% Output $2.760-77.0%/ M tokens](http://aiberm.com/pricing?tab=gemini \"View Gemini 3 Pro pricing - Google AI model\")[ ### Claude Opus 4.5 Input $3.680-26.4% Output $18.400-26.4%/ M tokens](http://aiberm.com/pricing?tab=anthropic \"View Claude Opus 4.5 pricing - Anthropic AI model\")[ ### Claude Sonnet 4.5 Input $2.392-20.3% Output $11.960-20.3%/ M tokens](http://aiberm.com/pricing?tab=anthropic \"View Claude Sonnet 4.5 pricing - Anthropic AI model\")[ ### DeepSeek v3.2 Input $0.207-26.1% Output $0.311-26.1%/ M tokens](http://aiberm.com/pricing?tab=deepseek \"View DeepSeek v3.2 pricing - DeepSeek AI model\")[ ### Grok 4.5 Input $0.380-81.0% Output $1.140-81.0%/ M tokens](http://aiberm.com/pricing?tab=xai \"View Grok 4.5 pricing - xAI AI model\")\n### Affordable Models\n[ ### GPT-5-mini Input $0.069-72.4% Output $0.552-72.4%/ M tokens](http://aiberm.com/pricing?tab=openai \"View GPT-5-mini pricing - OpenAI AI model\")[ ### GPT-4o-mini Input $0.035-77.0% Output $0.138-77.0%/ M tokens](http://aiberm.com/pricing?tab=openai \"View GPT-4o-mini pricing - OpenAI AI model\")[ ### Gemini 3 Flash Input $0.101-79.8% Output $0.810-73.0%/ M tokens](http://aiberm.com/pricing?tab=gemini \"View Gemini 3 Flash pricing - Google AI model\")[ ### Gemini 3.5 Flash Input $0.460-69.3% Output $2.760-69.3%/ M tokens](http://aiberm.com/pricing?tab=gemini \"View Gemini 3.5 Flash pricing - Google AI model\")[ ### Grok 4.5 Input $0.380-81.0% Output $1.140-81.0%/ M tokens](http://aiberm.com/pricing?tab=xai \"View Grok 4.5 pricing - xAI AI model\")[ ### Xiaomi Mimo v2 Input $0.097-3.4% Output $0.290-3.4%/ M tokens](http://aiberm.com/pricing?tab=xiaomi \"View Xiaomi Mimo v2 pricing - Xiaomi AI model\")\n[View More →](http://aiberm.com/pricing \"View More Discount Models - Pricing Page\")\nNote: Model prices may change, please refer to the [pricing page](http://aiberm.com/pricing \"View Pricing Page - Model Prices\") for accurate pricing\n## Core Features\n### Unified API\nOne consistent interface for all AI providers. Supports OpenAI, Claude, and Gemini formats. Switch models without changing code.\n### Better Pricing\n",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "Folyd",
+  "user": {
+   "name": "Folyd",
+   "company": "@geddle",
+   "blog": "https://folyd.com",
+   "location": null,
+   "bio": "Rust, Music enthusiast. Founder of @geddle. ",
+   "public_repos": 68,
+   "followers": 777,
+   "created_at": "2013-01-24T13:21:38Z",
+   "twitter_username": "withfolyd",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "Folyd/robotstxt",
+    "description": "A native Rust port of Google's robots.txt parser and matcher C++ library.",
+    "stargazers_count": 102,
+    "forks_count": 13,
+    "language": "Rust",
+    "homepage": "https://crates.io/crates/robotstxt",
+    "created_at": "2020-04-02T03:36:39Z",
+    "pushed_at": "2021-02-13T07:56:55Z",
+    "topics": [
+     "google-robots-parser",
+     "robotstxt",
+     "rust"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Folyd/lox-lang",
+    "description": "Lox language interpreter written in Rust",
+    "stargazers_count": 20,
+    "forks_count": 2,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2024-09-24T07:18:18Z",
+    "pushed_at": "2024-10-24T04:20:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Folyd/variant-counter",
+    "description": "Rust's Enum variant counter",
+    "stargazers_count": 15,
+    "forks_count": 1,
+    "language": "Rust",
+    "homepage": "https://crates.io/crates/variant_counter",
+    "created_at": "2021-08-11T09:08:42Z",
+    "pushed_at": "2021-09-15T08:44:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Folyd/folyd.com",
+    "description": null,
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "https://folyd.com",
+    "created_at": "2018-05-05T14:08:30Z",
+    "pushed_at": "2026-09-13T05:58:41Z",
+    "topics": [
+     "bulma",
+     "lektor"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Folyd/curl-http",
+    "description": "A lightweight RESTful client base on curl",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": "https://crates.io/crates/curl-http",
+    "created_at": "2018-09-07T16:17:22Z",
+    "pushed_at": "2019-08-11T05:33:36Z",
+    "topics": [
+     "curl",
+     "rest-client",
+     "rust"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Folyd/mdbook-hub",
+    "description": "The hub for mdbook",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": "https://mdbook.org",
+    "created_at": "2022-10-19T05:34:41Z",
+    "pushed_at": "2022-10-25T16:40:04Z",
+    "topics": [
+     "mdbook",
+     "rust"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Folyd/alda-workspace",
+    "description": "My personal alda workspace",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2023-08-07T08:53:32Z",
+    "pushed_at": "2023-08-07T08:54:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Folyd/Folyd",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2024-09-10T13:39:04Z",
+    "pushed_at": "2025-12-15T17:04:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Folyd/iter-enhancement",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2021-01-09T09:12:25Z",
+    "pushed_at": "2021-01-09T09:20:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Folyd/AndroidBuildChannels",
+    "description": "Build android channels version apk.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Java",
+    "homepage": null,
+    "created_at": "2015-06-18T07:17:07Z",
+    "pushed_at": "2018-06-06T06:23:54Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Folyd/zoom-fix",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2019-09-09T06:16:44Z",
+    "pushed_at": "2019-09-09T12:16:46Z",
+    "topics": [],
+    "archived": true
+   }
+  ],
+  "repo_count_nonfork": 11,
+  "languages": [
+   [
+    "Rust",
+    7
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "Java",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "huhu/rust-search-extension",
+    "stargazerCount": 1271,
+    "description": "🦀 The ultimate search extension for Rust",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://rust.extension.sh"
+   },
+   {
+    "nameWithOwner": "zineland/zine",
+    "stargazerCount": 925,
+    "description": "Zine - a simple and opinionated tool to build your own magazine.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://zineland.github.io"
+   },
+   {
+    "nameWithOwner": "RustMagazine/rustmagazine",
+    "stargazerCount": 620,
+    "description": "A publication dedicated to the Rust programming language",
+    "primaryLanguage": {
+     "name": "CSS"
+    },
+    "homepageUrl": "https://rustmagazine.org"
+   },
+   {
+    "nameWithOwner": "aiscriptdev/aiscript",
+    "stargazerCount": 320,
+    "description": "AIScript is a unique combination of interpreter programming language and web framework, both written in Rust, designed to help developers build AI applications effortlessly. ",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://aiscript.dev"
+   },
+   {
+    "nameWithOwner": "huhu/query.rs",
+    "stargazerCount": 286,
+    "description": "A search engine for Rust",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://query.rs"
+   },
+   {
+    "nameWithOwner": "duo-rs/duo",
+    "stargazerCount": 77,
+    "description": "A lightweight Logging and Tracing observability solution for Rust, built with Apache Arrow, Apache Parquet and Apache DataFusion.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 2177,
+  "orgs": [
+   "anyshortcut",
+   "huhu",
+   "zineland",
+   "aiscriptdev",
+   "aiberm",
+   "geddle"
+  ],
+  "profile_readme": "## Hi there 👋\n\nI'm Folyd, an ex-Bytedancer and Rust enthusiast from Beijing, China. I love to build products people enjoy using.\n\n### 🚀 Products I've built:\n\n| Name    | Url   |\n|:-----|-----------|\n| Geddle | https://geddle.com |\n| Meiguo.app | https://meiguo.app |\n| Arrfounder | https://arrfounder.com |\n| Aiberm | https://aiberm.com |\n|AIScript| https://aiscript.dev|\n|Query.rs| https://query.rs|\n|Rust Magazine| https://rustmagazine.org |\n|Rust Search Extension | https://rust.extension.sh |\n|2d2d.io Magazine| https://2d2d.io |\n|Paybase| https://paybase.cn |\n|Anyshortcut| https://anyshortcut.com |\n\n## 🌟 Rust projects I've contributed to most:\n\n- [rust-lang/rust](https://github.com/rust-lang/rust/issues?q=author%3Afolyd)\n- [tokio-rs/tracing](https://github.com/tokio-rs/tracing/issues?q=author%3Afolyd)\n- [apache/arrow-rs](https://github.com/apache/arrow-rs/issues?q=author%3Afolyd)\n- [apache/datafusion](https://github.com/apache/datafusion/issues?q=author%3Afolyd)\n\n## 📝 Articles I've written\n\n- [2d2d.io Magazine articles](https://2d2d.io/@folyd/)\n- [Rust Magazine articles](https://rustmagazine.org/@folyd/)\n- [Blog posts](https://folyd.com/blog/)\n",
+  "readmes": {
+   "huhu/rust-search-extension": "\n# Rust Search Extension\n[简体中文](README-ZH.md)\n### The ultimate search extension for Rust\n[](https://chrome.google.com/webstore/detail/rust-search-extension/ennpfpdlaclocpomkiablnmbppdnlhoh)\n[](https://addons.mozilla.org/firefox/addon/rust-search-extension/)\n[](https://microsoftedge.microsoft.com/addons/detail/olemfibpaicdoooacpfffccidjjagmoe)\n[](https://github.com/huhu/rust-search-extension/blob/master/LICENSE-MIT)\n[](https://github.com/huhu/rust-search-extension/blob/master/LICENSE-APACHE)\n[](https://discord.gg/xucZNVd)\nSearch **docs**, **crates**, builtin **attributes**, official **books**, and **error codes**, etc in your address bar instantly.\n[https://rust.extension.sh/](https://rust.extension.sh/)\n**Query.rs is the next generation search engine for Rust: https://query.rs**\n## Installation\n- [Chrome Web Store](https://chrome.google.com/webstore/detail/rust-search-extension/ennpfpdlaclocpomkiablnmbppdnlhoh)\n- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/rust-search-extension/)\n- [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/olemfibpaicdoooacpfffccidjjagmoe)\n## Features\n- Search Primitive Types and Modules\n- Search Structs, Traits and Enums\n- Search Functions, Methods and Macros\n- Search builtin attributes\n- Search nightly and rustc docs\n- Search crates on https://crates.io or https://lib.rs\n- Search any third-party crate's docs\n- Search [Compiler Error Index](https://doc.rust-lang.org/error-index.html) with error codes\n- Search Rust official book chapters\n- Search Cargo Clippy lints\n- Search [Caniuse.rs](https://caniuse.rs) and RFC\n- Offline mode supported, search local Rust docs (`rustup docs --std`)\n- Builtin commands (`:yet`, `:book`, `:stable`, `:label`, `:tool`, `:mirror`, `:update` and `:history` etc)\n- Docs.rs enhancements (display Feature flags, show table of content)\n- Github rust-lang release page enhancements (show table of content)\n- docs.rust-lang.org enhancements (link all \"since\" and \"issue\" label)\n- Support import/export your local data\n## How to use it\nInput keyword **rs** in the address bar, press `Space` to activate the search bar. Then enter any word you want to search, the extension will response the rela",
+   "zineland/zine": "<p align=\"center\">\n</p>\n# zine\n[](https://crates.io/crates/zine)\n[](./LICENSE)\n[](https://deps.rs/crate/zine)\nZine - a simple and opinionated tool to build your own magazine.\nhttps://zineland.github.io\n- Mobile-first.\n- Intuitive and elegant magazine design.\n- Best reading experiences.\n- Theme customizable, extend friendly.\n- RSS Feed supported.\n- Open Graph Protocol supported.\n- Article topic supported.\n- I18n and l10n supported.\n- Build into a static website, hosting anywhere.\n## Installation\n`cargo install zine`\nor `brew install zineland/tap/zine`\nor `brew tap zineland/tap`, then `brew install zine`\n## Get Started\nRun `zine new your-zine-site`, you'll get following directory:\n```\n$ tree your-zine-site\nyour-zine-site\n├── content             # The content directory your issues located\n│   └── issue-1         # The first issue directory\n│       ├── 1-first.md  # The first markdown article in this issue\n│       └── zine.toml   # The issue Zine config file\n└── zine.toml           # The root Zine config file of this project\n2 directories, 3 files\n```\nRun `zine serve` to preview your zine site on your local computer:\n```\n$ cd your-zine-site\n$ zine serve\n███████╗██╗███╗   ██╗███████╗\n╚══███╔╝██║████╗  ██║██╔════╝\n  ███╔╝ ██║██╔██╗ ██║█████╗\n ███╔╝  ██║██║╚██╗██║██╔══╝\n███████╗██║██║ ╚████║███████╗\n╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝\nlistening on http://127.0.0.1:3000\n```\nRun `zine build` to build your zine site into a static website:\n```\n$ cd your-zine-site\n$ zine build\nBuild success! The build directory is `build`.\n```\n## Some cool magazines powered by Zine\n- [https://zineland.github.io](https://zineland.github.io) The zine documentation is built by zine itself.\n- [https://rustmagazine.org](https://rustmagazine.org) The Rust Magazine.\n- [https://2d2d.io](https://2d2d.io)\n- [https://o11y.cn](https://o11y.cn)\n- [https://thewhitepaper.github.io](https://thewhitepaper.github.io)\n## Docmentations\n- [Getting started](https://zineland.github.io/getting-started)\n- [Customization](https://zineland.github.io/customization)\n- [Code blocks](https://zineland.github.io/code-blocks)\n- [Advanced](https://zineland.github.io/advanced)\n## TODO\n- [x] Support RSS Feed\n- [x] Support render OGP",
+   "RustMagazine/rustmagazine": "# Rust Magazine\n[](https://github.com/RustMagazine/rustmagazine/blob/main/LICENSE)\n[](https://discord.gg/DdwgBuReJe)\nA publication dedicated to the Rust programming language.\nhttps://rustmagazine.org\n## Sponsor us\n[](https://opencollective.com/rustmagazine)\n## License\n- The source code of the magazine is licensed under the [MIT LICENSE](./LICENSE).\n- The content of the magazine is licensed under the [CC BY-NC-SA 4.0 LICENSE](https://creativecommons.org/licenses/by-nc-sa/4.0/) by default unless otherwise specified.\n",
+   "aiscriptdev/aiscript": "<p align=\"center\">\n</p>\n<h1 align=\"center\">AIScript</h1>\n<p align=\"center\"><em>The next generation language for human and AI.</em></p>\n<p align=\"center\"><a href=\"https://aiscript.dev\">https://aiscript.dev</a></p>\n<p align=\"center\">\n  <a href=\"https://github.com/aiscript-dev/aiscript/blob/main/LICENSE\">\n  </a>\n  <!-- <a href=\"https://github.com/aiscript-dev/aiscript/actions\">\n  </a> -->\n  <a href=\"https://discord.gg/bXRqsweNPb\">\n  </a>\n</p>\n## Introduction\nAIScript is a unique combination of interpreter programming language and web framework, both written in Rust, designed to help developers build AI applications effortlessly. The language syntax draws inspiration from Python, JavaScript, and Rust, combining their strengths to create something that's intuitive, powerful, and easy to use.\n> [!WARNING]\n> `AIScript` is in early development. Please do not use it in production yet.\n## Programming Language\nAs a programming language, AIScript is built with a custom interpreter from the ground up:\n- Functions are first-class citizens with support for object-oriented programming paradigms\n- Built-in AI primitives, including prompt, AI functions, and agent capabilities\n- Dynamic typing system with targeted static type checking for improved safety\n- Built-in data validation similar to Python's [Pydantic](https://docs.pydantic.dev/latest/)\n- Simple yet powerful error handling, inspired by Rust, Go, and Zig\n- Rich standard library leveraging Rust's ecosystem underneath\n- Automatic garbage collection for memory management\n## Web Framework\nAIScript isn't just a language—it's a complete web development solution:\n- Elegant and intuitive route DSL for defining endpoints\n- Automatic parameter validation with clear error messages\n- Automatic OpenAPI schema and documentation generation\n- Built on Rust's best practices, using [axum](https://github.com/tokio-rs/axum) and [sqlx](https://github.com/launchbadge/sqlx) under the hood\n- Combines Rust's axum performance with Python's Flask-like simplicity\n- Built-in database modules ([`std.db.pg`](https://aiscript.dev/std/db/pg) and [`std.db.redis`](https://aiscript.dev/std/db/redis))\n- Built-in authentication and social login capabilities\n- ",
+   "huhu/query.rs": "<p align=\"center\">\n</p>\n# Query.rs\n[](https://github.com/huhu/query.rs/blob/master/LICENSE)\n[](https://discord.gg/rPWWBqxBhp)\n**A search engine for Rust.**\nhttps://query.rs\n## Future plan\n- [x] Top Reddit posts search [https://query.rs/reddit](https://query.rs/reddit)\n- [ ] Full-text docs search\n- [ ] Rust articles/blogs search\n- [ ] Rust jobs search\n"
+  }
+ },
+ "apps": []
+}

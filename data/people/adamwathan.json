@@ -1,0 +1,161 @@
+{
+ "name": "Adam Wathan",
+ "role": "Tailwind CSS 作者 · Tailwind Labs 创始人 · 《Refactoring UI》合著者",
+ "title": "Adam Wathan：<em>工具类优先</em>，改变了一代人写 CSS 的方式",
+ "dek": "他原本是一名加拿大的 Laravel 开发者，写过 Laravel 表单和 OAuth 小库，做播客 Full Stack Radio，在 Laracon 上讲「Cruddy by Design」。为了一个副业项目，他和 Jonathan Reinink 写出了一套「工具类优先」的 CSS 框架，2017 年开源，就是 Tailwind CSS。之后他与设计师 Steve Schoger 合写了面向开发者的设计书《Refactoring UI》，创办 Tailwind Labs，推出 Headless UI、Heroicons 和付费组件库。2026 年，Tailwind 的周安装量超过 1 亿；同年 9 月，他宣布 Tailwind Labs 加入 Shopify，Tailwind CSS 继续以 MIT 协议开源。",
+ "card": "Tailwind CSS（★9.8 万）作者、Tailwind Labs 创始人，《Refactoring UI》合著者；2026 年加入 Shopify，加拿大安大略。",
+ "location": "加拿大安大略",
+ "updated": "2026-10-22",
+ "tags": ["Tailwind CSS", "CSS", "设计", "开源", "Laravel"],
+ "links": [
+  {"label": "Tailwind CSS", "url": "https://tailwindcss.com"},
+  {"label": "GitHub：adamwathan", "url": "https://github.com/adamwathan"},
+  {"label": "Full Stack Radio", "url": "https://fullstackradio.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Building at @shopify. Creator of @tailwindcss.」GitHub 简介「Creator of Tailwind CSS, author of Refactoring UI, host of Full Stack Radio.」",
+  "<strong>代表作：</strong>Tailwind CSS（★98,019）、《Refactoring UI》、Tailwind UI / Tailwind Plus、Headless UI、Full Stack Radio 播客、Laracon 演讲「Cruddy by Design」。",
+  "<strong>关键数字：</strong>X 关注者约 30 万；GitHub 粉丝 1.3 万；据报道 Tailwind CSS 周安装量超过 1.1 亿。",
+  "<strong>2026 年：</strong>9 月 9 日宣布 Tailwind Labs 加入 Shopify；Tailwind Plus 停止向新用户销售。"
+ ],
+ "lead": "Tailwind 刚出来时，很多人觉得它「丑」：HTML 里塞满了 `flex`、`pt-4`、`text-gray-700` 这样的类名，看起来违背了「样式与结构分离」的老规矩。Adam 的回答是一篇长文和一个框架：别再为每个组件想语义化的类名，直接在标记里组合小而单一的工具类，设计约束由配置文件来保证。几年后，它成了最流行的 CSS 框架之一。他后来在 X 上说，有些工具「你得用了才懂为什么更好，就像当年的 Tailwind」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开发者、开源作者、创业者"],
+     ["所在地", "加拿大安大略"],
+     ["经历", "Laravel 开发者与讲师 → Tailwind CSS 作者 → Tailwind Labs 创始人 → 2026 年随团队加入 Shopify"],
+     ["著作", "《Refactoring UI》（与 Steve Schoger 合著）"],
+     ["播客", "Full Stack Radio"],
+     ["技术栈", "CSS、JavaScript / TypeScript、PHP / Laravel、Vue、React"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Adam 的核心作品是 <strong>Tailwind CSS</strong>：一个工具类优先的 CSS 框架，让人不离开 HTML 就能快速搭出定制化界面。围绕它，Tailwind Labs 做了无样式的可访问组件 Headless UI、图标库 Heroicons、付费的组件与模板库，以及免费的视频课程。"},
+    {"p": "2026 年对他是剧烈变化的一年：有报道称，AI 工具让文档流量和收入下滑，团队年初裁减了工程人员；9 月，他宣布 Tailwind Labs 加入 Shopify，为框架找到一个「长期、稳定的家」，Tailwind CSS 保持 MIT 开源，团队继续主导开发。现在他在 X 上大量讨论 AI 编程工作流，比如怎样在代码里微调界面细节而不被 Agent 的反馈循环拖慢。"},
+    {"note": "本页依据 Tailwind CSS 官方博客《Tailwind Labs is joining Shopify》、GitHub 仓库与 README、CMSWire 等报道和 X 资料整理，资料截至 2026 年 10 月。裁员与收入相关信息来自二手报道。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2013–2016", "title": "Laravel 时期", "text": "开源 Laravel 表单生成器 BootForms、Eloquent OAuth 社交登录、Sublime 里跑 PHPUnit 的插件；主持 Full Stack Radio。"},
+     {"when": "2017", "title": "Tailwind CSS 与 Laracon", "text": "开源 Tailwind CSS；在 Laracon 2017 讲「Cruddy by Design」，主张控制器只用七个标准 REST 动作。"},
+     {"when": "2018", "title": "《Refactoring UI》", "text": "与 Steve Schoger 出版《Refactoring UI》，教开发者用具体技巧做出好看的界面。"},
+     {"when": "2019–2020", "title": "Tailwind Labs", "text": "Tailwind 1.0、免费课程「Designing with Tailwind CSS」（示例项目 Workcation）、Tailwind UI；公司扩张为 Tailwind Labs。"},
+     {"when": "2021–2025", "title": "持续迭代", "text": "JIT 引擎、Headless UI、Catalyst 等；Tailwind 4 用新引擎重写。"},
+     {"when": "2026", "title": "加入 Shopify", "text": "年初据报道因 AI 冲击裁减工程团队；9 月 9 日宣布加入 Shopify。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Tailwind CSS", "url": "https://tailwindcss.com",
+     "meta": ["2017–", "MIT", "★9.8 万"],
+     "paras": [
+      "「A utility-first CSS framework for rapid UI development.」用小而单一的类组合界面，配置文件定义间距、颜色、字号等设计约束，构建时只生成用到的样式。它也非常适合 AI 生成代码：样式和结构在同一处，模型容易读写。"
+     ],
+     "facts": [["GitHub", "tailwindlabs/tailwindcss ★98,019"]]
+    }},
+    {"work": {
+     "name": "《Refactoring UI》", "url": "https://www.refactoringui.com",
+     "meta": ["2018", "图书", "与 Steve Schoger 合著"],
+     "paras": [
+      "写给开发者的界面设计书：不讲抽象的设计理论，而是给出可以立刻应用的具体技巧，比如用灰度而不是字号建立层级、少用边框、用阴影表达深度。"
+     ]
+    }},
+    {"work": {
+     "name": "Full Stack Radio", "url": "https://fullstackradio.com",
+     "meta": ["播客"],
+     "paras": [
+      "Adam 主持的技术播客，和嘉宾聊产品设计、测试、架构和开发工具。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Cruddy by Design（Laracon 2017）", "2017", "用 REST 七个动作拆分臃肿的控制器（★502）"],
+      ["Workcation", "2019", "Tailwind 课程的示例项目（★420）"],
+      ["BootForms", "2013", "Laravel + Bootstrap 3 表单生成器（★414）"],
+      ["eloquent-oauth", "2013", "Laravel 社交登录（★366）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://tailwindcss.com", "paras": [
+     "Tailwind 的官网本身就是框架最好的演示：首页的交互示例、细致的文档和在线编辑器 Playground。2026 年 9 月的公告也发在这里的博客上。",
+     "他没有独立的个人网站，日常表达都在 X 上：工具推荐、团队工作方式，以及健身记录。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["官网", "文档优先、交互演示多"],
+      ["个人", "X 是主要阵地"],
+      ["播客", "fullstackradio.com"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Still find prompting UI tweaks to be way too slow compared to direct manipulation like in a design tool.", "cite": "Adam Wathan，X（2026 年 10 月）"},
+    {"p": "他是一个非常重视「手感」的工具作者：既推崇 Agent 带来的效率，也坦白说微调界面细节时，直接拖动仍然比写提示词快得多。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响", "改变了前端写样式的主流方式", "工具类写法至今仍有争议"],
+      ["商业", "开源 + 付费组件的模式曾很成功", "AI 时代文档流量下滑，冲击了商业模式"],
+      ["教学", "《Refactoring UI》与课程广受好评", "—"],
+      ["未来", "加入 Shopify 获得长期支持", "交易结构未公开"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>挑战旧规矩：</strong>「关注点分离」不一定是唯一答案。",
+     "<strong>用约束代替自由：</strong>设计系统写进配置文件。",
+     "<strong>开发者也能学设计：</strong>《Refactoring UI》给出具体方法。",
+     "<strong>开源要有可持续的模式：</strong>商业产品养活开源。",
+     "<strong>时代变了就调整：</strong>为项目找到长期的家。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Tailwind CSS", "url": "https://tailwindcss.com", "why": "在 Playground 里试几个工具类。"},
+     {"name": "Tailwind Labs is joining Shopify", "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify", "why": "了解这个开源项目的新阶段。"},
+     {"name": "Refactoring UI", "url": "https://www.refactoringui.com", "why": "开发者最实用的设计书之一。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你写过的按钮组件，只用 Tailwind 工具类重写一遍，比较一下哪种更好维护。",
+ "sources": [
+  {"label": "Adam Wathan 的 X 个人资料", "url": "https://x.com/adamwathan"},
+  {"label": "GitHub：adamwathan", "url": "https://github.com/adamwathan"},
+  {"label": "Tailwind Labs is joining Shopify（Tailwind CSS 博客）", "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify"},
+  {"label": "Shopify acquires Tailwind Labs（CMSWire）", "url": "https://www.cmswire.com/digital-experience/shopify-acquires-tailwind-labs-to-secure-css-framework/"},
+  {"label": "Shopify Brings In Tailwind Labs As Tailwind CSS Tops 110 Million Weekly Installs（Pulse 2.0）", "url": "https://pulse2.com/shopify-acquires-tailwind-labs-as-tailwind-css-tops-110-million-weekly-installs/"}
+ ]
+}

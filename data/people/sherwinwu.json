@@ -1,0 +1,148 @@
+{
+ "name": "Sherwin Wu",
+ "role": "OpenAI 开发者平台工程负责人",
+ "title": "Sherwin Wu：<em>工程师正在变成魔法师</em>",
+ "dek": "他在 OpenAI 负责 API 开发者平台的工程团队，也就是让全世界开发者用上 OpenAI 模型的那一层：模型接口、微调、Agent 构建工具和底层基础设施。2025 年底，他在 a16z 播客上和 Martin Casado 聊 OpenAI 怎样为 8 亿周活用户构建平台、为什么从「一个通用模型」走向「专用模型与微调」；2026 年初在 Lenny's Podcast 上说，OpenAI 约 95% 的工程师在用 Codex，很多人同时指挥 10 到 20 个并行 Agent。他的 X 简介只有一个词：@OpenAI。",
+ "card": "OpenAI API 开发者平台工程负责人；a16z、Lenny's Podcast、BG2Pod 嘉宾，旧金山湾区。",
+ "location": "美国旧金山湾区",
+ "updated": "2026-10-22",
+ "tags": ["OpenAI", "API 平台", "AI 工程", "Codex", "企业 AI"],
+ "links": [
+  {"label": "X：@sherwinwu", "url": "https://x.com/sherwinwu"},
+  {"label": "Lenny's Podcast", "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers"},
+  {"label": "a16z Podcast", "url": "https://podcasts.apple.com/gb/podcast/how-openai-builds-for-800-million-weekly-users-model/id842818711?i=1000738780411"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介只写「@OpenAI」；多个播客介绍他为 OpenAI Platform 的工程负责人。",
+  "<strong>代表作：</strong>OpenAI API 平台及其上的模型接口、微调与 Agent 构建能力；2026 年他在 X 上推介了 ChatGPT 插件扩展、ChatGPT for Financial Services、Astra for Law 等发布。",
+  "<strong>关键数字：</strong>X 关注者约 3.2 万；据 Lenny's Podcast，OpenAI 约 95% 的工程师使用 Codex；代码评审时间从 10–15 分钟降到 2–3 分钟。",
+  "<strong>评价：</strong>a16z 合伙人 Martin Casado 称他是「AI 领域最好的系统思考者之一」。"
+ ],
+ "lead": "Lenny's Podcast 那一期的标题是：「工程师正在变成魔法师」。Sherwin 描述的是 OpenAI 内部的日常：工程师不再一行行写代码，而是同时指挥一群 Agent；会用和不会用 AI 的工程师之间，生产力差距正在拉大。他还有一句被反复引用的话：模型会把你搭的脚手架「当早餐吃掉」，所以要为模型将要到达的地方构建产品。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "OpenAI 开发者平台（API Platform）工程负责人"],
+     ["所在地", "美国旧金山湾区"],
+     ["公开亮相", "a16z Podcast（2025 年 11 月）、BG2Pod、Lenny's Podcast（2026 年 2 月）、YouTube 炉边对谈"],
+     ["关注领域", "模型专用化与微调、上下文工程、企业 AI、开发者生态"],
+     ["阵地", "X"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Sherwin 的团队负责 OpenAI 的<strong>开发者平台</strong>：外部开发者和 OpenAI 自家产品用的是同一套模型和工具。他在 X 上说过，自己最喜欢 OpenAI 的一点就是「让每个人都能用我们自己产品里用的同一套技术来构建」，比如把 ChatGPT 语音背后的双工技术开放到 API 里，或者让企业用和 Codex 相同的 Agent 框架构建自己的内部 Agent。"},
+    {"p": "在 a16z 播客上，他谈到行业观点的转变：单一模型还是多模型、应用层还是 API 层更有价值、上下文工程有多重要，以及开发者为什么会因为信任、优化甚至情感依恋而「黏」在熟悉的模型家族上。"},
+    {"note": "本页依据 X 个人资料与公开推文、Lenny's Newsletter 节目页、a16z 播客介绍、01cloud 工程博客的节目总结和 Martin Casado 的推文整理，资料截至 2026 年 10 月。他加入 OpenAI 之前的经历未找到可靠来源，未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "加入 OpenAI 后", "title": "开发者平台", "text": "负责 OpenAI API 平台的工程工作，与平台产品负责人 Olivier Godement 搭档。"},
+     {"when": "2025.11", "title": "a16z Podcast", "text": "与 Martin Casado 对谈《How OpenAI Builds for 800 Million Weekly Users》。"},
+     {"when": "2025", "title": "BG2Pod", "text": "与 Olivier Godement 一起谈 OpenAI 企业业务与前线部署工程。"},
+     {"when": "2026.02", "title": "Lenny's Podcast", "text": "《Engineers are becoming sorcerers》：Codex 在 OpenAI 内部的使用、并行 Agent、代码评审提速。"},
+     {"when": "2026.09", "title": "一连串平台发布", "text": "在 X 上推介 ChatGPT 插件扩展、ChatGPT for Word、金融服务版和法律版产品，以及新的语音 API。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表工作",
+   "blocks": [
+    {"work": {
+     "name": "OpenAI API 平台", "url": "https://platform.openai.com",
+     "meta": ["OpenAI", "开发者平台"],
+     "paras": [
+      "从模型接口、微调到 Agent 构建工具，这是第三方开发者接入 OpenAI 模型的入口。据 OpenAI 的招聘说明，这个组织为第一方和第三方开发者构建产品与基础设施。"
+     ]
+    }},
+    {"work": {
+     "name": "行业版 ChatGPT", "url": "https://x.com/sherwinwu",
+     "meta": ["2026", "金融 · 法律"],
+     "paras": [
+      "他在 X 上特别提到法律版的一个做法：不是把一堆插件包装成自家产品，而是邀请法律科技社区自己发布「社区插件」。金融版则接入了投行和研究团队常用的数据源。"
+     ]
+    }},
+    {"work": {
+     "name": "播客中的方法论", "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers",
+     "meta": ["2025–2026", "a16z · Lenny's"],
+     "paras": [
+      "核心观点：为模型将要到达的地方构建；脚手架会被更强的模型吸收；会用 AI 的工程师与其他人的差距会越来越大。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象研究",
+   "blocks": [
+    {"site": {"url": "https://x.com/sherwinwu", "paras": [
+     "他没有个人网站，X 上大多是 OpenAI 平台和产品发布的推介，夹杂个人使用体验，比如用 Codex 一周后，40% 到 50% 的下一条消息建议他都会直接接受。",
+     "他的推文常带工程视角：比如提醒大家「每百万 token 的标价」可能误导人，因为不同模型完成同一任务用的 token 数差很多。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["阵地", "X、播客"],
+      ["内容", "平台发布、使用体验、成本与工程观察"],
+      ["个人站", "无"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Models will eat your scaffolding for breakfast.", "cite": "Sherwin Wu，Lenny's Podcast（节目要点）"},
+    {"p": "另一个他反复强调的趋势是：AI 让小企业主和「高主动性的个人」少吃一点苦。他认为这是他个人最兴奋的方向之一。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["视角", "最前沿平台的一线工程负责人", "公开表达多代表公司立场"],
+      ["表达", "系统性强，播客内容扎实", "—"],
+      ["公开信息", "近年的公开亮相较多", "早年经历公开资料少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>为模型的未来构建：</strong>今天的脚手架明天可能多余。",
+     "<strong>学会指挥 Agent：</strong>并行的 Agent 是新的生产力。",
+     "<strong>看真实成本：</strong>按任务算，而不是按 token 标价算。",
+     "<strong>平台要和自家产品用同一套技术：</strong>开发者才会信任。",
+     "<strong>让社区参与：</strong>行业插件由行业的人来做。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Engineers are becoming sorcerers", "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers", "why": "看 OpenAI 工程师怎样用 Codex。"},
+     {"name": "How OpenAI Builds for 800 Million Weekly Users", "url": "https://www.youtube.com/watch?v=3x0jhpEj_6o", "why": "平台、专用模型与微调。"},
+     {"name": "Sherwin Wu 的 X", "url": "https://x.com/sherwinwu", "why": "OpenAI 平台的一手动态。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "这周试着同时开三个 Agent 处理三个小任务，记录一下你的瓶颈在哪里。",
+ "sources": [
+  {"label": "Sherwin Wu 的 X 个人资料", "url": "https://x.com/sherwinwu"},
+  {"label": "Engineers are becoming sorcerers（Lenny's Newsletter）", "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers"},
+  {"label": "How OpenAI Builds for 800 Million Weekly Users（a16z Podcast）", "url": "https://podcasts.apple.com/gb/podcast/how-openai-builds-for-800-million-weekly-users-model/id842818711?i=1000738780411"},
+  {"label": "Insights from Sherwin Wu（01cloud Engineering Blog）", "url": "https://engineering.01cloud.com/2025/12/22/how-openai-scales-to-800-million-weekly-active-users-insights-from-sherwin-wu-on-model-specialization-and-fine-tuning/"},
+  {"label": "Martin Casado 的推荐", "url": "https://x.com/martin_casado/status/1995893428375478579"}
+ ]
+}

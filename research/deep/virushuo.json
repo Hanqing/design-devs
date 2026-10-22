@@ -1,0 +1,367 @@
+{
+ "handle": "virushuo",
+ "sites": [
+  {
+   "url": "https://jhuo.ca",
+   "ok": true,
+   "title": "HuoJu's BLOG",
+   "description": "huoju's blog",
+   "stack": [
+    "Hugo 0.136.5 with theme even",
+    "Hexo"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "HuoJu's BLOG \n HuoJu's BLOG \n 围绕RMS、开源、自由软件的两场“战争” \n 2021-04-25 \n我不是 Stallman (RMS)的粉丝，不是自由软件基金会的会员，我用vim而不是emacs，除了最近两三年，我之前的日常应用BSD也多于Linux。但是围绕Stallman产生的争吵，逐渐变成了一个重要事件。 \n它有太多的特殊性，这个事件不应该被看作针对一个人的评价，而是开源软件和自由软件社区历史冲突的一次爆发，长期以来美国政治和社会影响下产生的社会分裂波及技术社区，最终落在了这个人身上，而他又是以一人之力开创自由软件运动，建立这些社区的人，历史头尾相接，在这里相遇。 \n Read more... \n Ocsp Stapling 和iOS界面卡顿问题 \n 2020-04-29 \n这个问题成功的吸引了我的注意。 \n起因：一个Flutter写的app在iOS上偶尔会发生了界面卡顿甚至冻结10多秒，但在Android正常。 \n开始这个问题没太引起重视，觉得是flutter的问题。但后来随着dart的 issue 里面报告的人逐渐多起来，看起来不是那么简单。不过非常令人迷惑的是这个现象只在iOS偶尔出现，Android从来不出现，这种不确定性使得重现和调试非常困难。 \n在issue里面发现报告的人大部分疑似是中国用户，之后发现有人提到更换了阿里云证书之后问题不再重现，这使得我们把问题方向放在https上。最终发现服务器的OCSP Stapling失效，造成了soft failure。之后的行为要看客户端实现，有的浏览器接受soft failure，不进行客户端检查，一切正常。但有一些客户端比如Safari会自己去检查了OCSP状态，从而造成界面无响应。检查nginx log发现ocsp.int-x3.letsencrypt.org请求超时，随后确认此域名遭到了DNS污染。 \n在服务器开启OCSP Stapling对于提升速度 帮助很大 。所以无论如何也是应该开启的。 \n但是仍然有两个问题没有解释： \n为什么Android没问题，iOS有问题 \n为什么有时候可以重现，有时候不可以重现 \n为了回答这几个问题，顺便找一个解决方案，我顺着读了一圈代码和协议，从nginx到openssl，从tls到ocsp。最后终于能回答这两个问题了。 \n Read more... \n 开源是自由的，永远 \n 2019-05-21 \n开源软件到底受不受美国政府管制？会不会应美国政府的要求禁运？最近这个话题成了热点。遗憾的是，到现在中文文章里我没看到能把这个事情说清楚的文章，这让我非常惊讶。中国科技和互联网行业从开源软件中受益极大，也有无数直接和间接参与者，但是这些基本事实还是糊涂的，比较遗憾。 \n Read more... \n 别闹，买图片根本不贵，但前提… \n 2019-04-15 \n买图片根本不贵，只是现在这阶段在中国买有一些困难而已。 \n Read more... \n 互联网之子 Aaron Swarts 想要看到的世界 \n 2019-01-29 \n首发于： https://mp.weixin.qq.com/s/z4J2KI8LjcfOIZLhGbi_QQ \nJade和我偶尔会聊起一些宏大的话题，最近聊到了Aaron和互联网创建者们的一些历史。她觉得应该正经的来一次对话，记录下来分享给其他人。我们约了个时间，原计划聊2个小时，实际上聊了5个小时。最后形成了一篇交谈形式的文字，她称之为文字版的Podcast。我很喜欢这种形式，我也更认同文字的价值，更好分享，更好检索，也更好修改或者摘录使用。以后我们应该还会继续这样的对话，这次聊天里面很多东西都可以继续讲下去。希望你也喜欢这个形式。 \n Read more...",
+   "github_links": [
+    "dart-lang",
+    "huo-ju",
+    "olOwOlo"
+   ],
+   "subpages": {
+    "https://jhuo.ca/post/": "HuoJu's BLOG \n HuoJu's BLOG \n2021 \n 04-25\n 围绕RMS、开源、自由软件的两场“战争”\n2020 \n 04-29\n Ocsp Stapling 和iOS界面卡顿问题\n2019 \n 05-21\n 开源是自由的，永远\n 04-15\n 别闹，买图片根本不贵，但前提…\n 01-29\n 互联网之子 Aaron Swarts 想要看到的世界\n2018 \n 12-31\n 穿越寒冬的独行者\n 12-15\n 惩罚加拿大完整指南\n 06-25\n 内容电商毁掉了内容\n 05-25\n 三年多过去了，我钉下的这跟钉子还在\n 04-01\n Facebook、隐私、监听广告以及我们如何失去自由的互联网的\n 03-02\n 中文分析比特币最早的文章之一是我写的，七年后的今天我写了第二篇\n2017 \n 12-03\n 凶险、罪恶还是自由？暗网到底是什么？\n 09-09\n 李笑来，那个一顿饭点8条鲈鱼的人\n 08-03\n 互联网完蛋了，已经。\n 05-06\n 请伸出你的小圆手\n 04-20\n 是真的，我基本已经不再用苹果的产品了\n 04-06\n 像素大战的72小时结束了，但传奇还没结束\n 04-02\n 参与这场线上大战之后，我觉得人类未来还是有希望的\n 03-20\n “假新闻”时代，我是如何阅读新闻和媒体的\n 02-02\n 和程序员打官司的第一季结束，第二季即将开始",
+    "https://jhuo.ca/about/": "[HuoJu's BLOG](https://jhuo.ca/)\n*   [Home](https://jhuo.ca/)\n*   [Archives](https://jhuo.ca/post/)\n*   [Tags](https://jhuo.ca/tags/)\n*   [Lists](https://jhuo.ca/mylists/)\n*   [About](https://jhuo.ca/about/)\n这里将来会有一些介绍。但是现在什么都还没有。"
+   },
+   "feed": {
+    "url": "https://jhuo.ca/index.xml",
+    "count_seen": 4,
+    "items": [
+     {
+      "title": "About",
+      "date": "Tue, 01 Jan 2019 19:13:08",
+      "url": "https://jhuo.ca/about/"
+     },
+     {
+      "title": "Posts",
+      "date": "Sun, 25 Apr 2021 18:03:05",
+      "url": "https://jhuo.ca/post/"
+     },
+     {
+      "title": "Lists",
+      "date": "Sat, 06 Apr 2019 21:11:32",
+      "url": "https://jhuo.ca/lists/"
+     },
+     {
+      "title": "我的列表",
+      "date": "Sat, 06 Apr 2019 21:08:24",
+      "url": "https://jhuo.ca/mylists/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "huo-ju",
+  "user": {
+   "name": "Ju Huo",
+   "company": null,
+   "blog": "https://jhuo.ca/",
+   "location": "Ottawa, ON",
+   "bio": null,
+   "public_repos": 76,
+   "followers": 1428,
+   "created_at": "2011-01-13T02:26:45Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "huo-ju/dfserver",
+    "description": "A distributed backend AI pipeline server",
+    "stargazers_count": 343,
+    "forks_count": 25,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2022-09-12T00:59:22Z",
+    "pushed_at": "2023-02-21T06:55:47Z",
+    "topics": [
+     "ai-art",
+     "ai-pipeline",
+     "diffusers",
+     "pipeline",
+     "stable-diffusion"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "huo-ju/Go-Apns",
+    "description": "Go library for Apple Push Notification Service (APNs)",
+    "stargazers_count": 100,
+    "forks_count": 24,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2012-04-19T11:16:44Z",
+    "pushed_at": "2014-12-20T06:39:25Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "huo-ju/actionne",
+    "description": null,
+    "stargazers_count": 92,
+    "forks_count": 6,
+    "language": "Clojure",
+    "homepage": null,
+    "created_at": "2019-02-17T03:49:27Z",
+    "pushed_at": "2020-05-19T01:48:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/photoprism-freebsd-port",
+    "description": "The photoprism port for FreeBSD",
+    "stargazers_count": 80,
+    "forks_count": 19,
+    "language": "Makefile",
+    "homepage": null,
+    "created_at": "2021-01-03T02:44:23Z",
+    "pushed_at": "2026-05-24T14:21:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/harley_the_bot",
+    "description": "A bert powered bot help you identify users.",
+    "stargazers_count": 76,
+    "forks_count": 5,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2019-12-10T07:15:05Z",
+    "pushed_at": "2021-01-07T23:17:55Z",
+    "topics": [
+     "bert",
+     "tensorflow"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "huo-ju/mixin-node",
+    "description": "The nodejs SDK for mixin.one",
+    "stargazers_count": 40,
+    "forks_count": 11,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-05-03T09:37:51Z",
+    "pushed_at": "2023-07-12T02:24:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/hexo-zeronet-comments",
+    "description": "A hexo plugin that add the comment feature for the zeronet site.",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-08-06T11:03:04Z",
+    "pushed_at": "2017-08-06T11:36:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/virushuo.github.io",
+    "description": null,
+    "stargazers_count": 9,
+    "forks_count": 3,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2019-01-02T01:05:00Z",
+    "pushed_at": "2026-09-03T03:01:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/tgsearchbot",
+    "description": "A bot to search your telegram group messages. It depend on cypress search and can't work alone.",
+    "stargazers_count": 7,
+    "forks_count": 2,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2020-11-28T06:22:17Z",
+    "pushed_at": "2023-03-17T03:06:55Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "huo-ju/cooking-recipes",
+    "description": null,
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2017-03-01T04:21:18Z",
+    "pushed_at": "2022-02-22T22:59:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/cloud-storage-consistency-test",
+    "description": "a cmd script that test the file consistency on the cloud. It could be use for s3fs or other fuse based tool test.",
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2012-05-26T19:20:19Z",
+    "pushed_at": "2012-05-29T03:35:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/actionne-twitter",
+    "description": "Actionne twitter plugin",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Clojure",
+    "homepage": null,
+    "created_at": "2019-05-20T04:43:59Z",
+    "pushed_at": "2019-09-30T04:49:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/mixin-roulette",
+    "description": "The mixin-based american roulette wheel game service.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-07-20T23:16:01Z",
+    "pushed_at": "2018-07-21T01:13:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/gopngext",
+    "description": "Fork of the Go standard png library, to add tEXt chunks",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2022-12-04T05:10:25Z",
+    "pushed_at": "2022-12-04T05:42:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/prs-utility-rust",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2019-09-15T00:48:28Z",
+    "pushed_at": "2019-11-28T07:25:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/qs-rs",
+    "description": "stringifying Json to query strings with nesting support in rust",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2019-09-14T05:19:02Z",
+    "pushed_at": "2019-09-14T06:25:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/bm25f",
+    "description": "A simple BM25F search tool written in Zig for indexing and searching local English Markdown documents",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Zig",
+    "homepage": null,
+    "created_at": "2026-04-27T00:17:34Z",
+    "pushed_at": "2026-04-27T00:19:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "huo-ju/fairshares",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2021-02-20T05:52:10Z",
+    "pushed_at": "2021-11-24T06:27:17Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 22,
+  "languages": [
+   [
+    "Go",
+    7
+   ],
+   [
+    "JavaScript",
+    3
+   ],
+   [
+    "Clojure",
+    2
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "Rust",
+    2
+   ],
+   [
+    "Makefile",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "Zig",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "rumsystem/quorum",
+    "stargazerCount": 330,
+    "description": "RUM: The internet alternatives",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": "https://rumsystem.net/"
+   },
+   {
+    "nameWithOwner": "huo-ju/photoprism-freebsd-port",
+    "stargazerCount": 80,
+    "description": "The photoprism port for FreeBSD",
+    "primaryLanguage": {
+     "name": "Makefile"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 44,
+  "orgs": [
+   "briko-org"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "rumsystem/quorum": "# RUM: The internet alternatives\n### An open source peer-to-peer application infrastructure to offer the internet alternatives in a decentralized and privacy oriented way.\n## Summary\nThe internet has become too centralized, and RUM is trying to find an alternative way to build online applications.\nIn the RUM system users are organized into groups, and each group will share a blockchain.\nGroup’s data will be encrypted and sync with all related users as events. All data will be stored in the group-shared-blockchain and eventually be consistent.\nApplications can replay the blockchain locally and render the results on the user interface and interact with users.\nThere are no centralized server providers to store or process data.\n## Concepts\n**Peer**: A user with a pair of keys and connects to the peer-to-peer network.\n**Group**: Multi peers or single peer can be organized into groups. A group can represent any online applications, a twitter-like SNS, a reddit-like community or a personal cloud notebook.\n**Group Owner**: The creator of a group is the group owner, who will record any valid events transactions in this group and produce new blocks onto old blocks.\nGroup owners have more privileges, including authorizing other peers (as producers) to produce new blocks, or denying some peers to send events in this group.\n**Producer**: Any peers with a public IP address and open ports (including port forwarding/UPnP) can become a producer, who can help the group owner to produce new blocks without reading encrypted events/messages. Producers may receive crypto incentives as reward from the group owner or users, depending on the consensus.\n**Event/Message**: Any activity from users is regarded as an event, for example, creating a post, updating avatars, and replying to a post. Event transactions will be broadcast to the group owner and all producers, waiting to be recorded into the new block. RUM uses a subset of Activity Vocabulary Core Types to represent event types.\n**Blockchain**: Events transactions will be recorded into blocks, then be linked together to become a blockchain.\n**Gossip Network**: There are no centralized servers in the RUM network, the network is only c",
+   "huo-ju/photoprism-freebsd-port": "# The photoprism port for FreeBSD\nThe port will compile and install\n[photoprism](https://github.com/photoprism/photoprism) from source on FreeBSD.\n## Dependencies\nThis port depends on science/py-tensorflow (**2.13.1**)\n### Download and Install\n```\ngit clone [...]/photoprism-freebsd-port\ncd photoprism-freebsd-port\nmake && make install\n```\n### Upgrade from an old version\n```\ncd photoprism-freebsd-port\ngit pull\nmake reinstall clean\n```\n### Poudriere\n`ALLOW_NETWORKING_PACKAGES=\"photoprism\"` is needed in `/usr/local/etc/poudriere.conf` so build it in poudriere.\n## Add entries to rc.conf\n```\nphotoprism_enable=\"YES\"\nphotoprism_assetspath=\"/var/db/photoprism/assets\"\nphotoprism_storagepath=\"/var/db/photoprism/storage\"\n```\n## Set an initial admin password (fresh install)\n```\nphotoprism --assets-path=/var/db/photoprism/assets --storage-path=/var/db/photoprism/storage --originals-path=/var/db/photoprism/storage/originals --import-path=/var/db/photoprism/storage/import passwd\n```\n## Run the service\n```\nservice photoprism start\n```\n## Go to http://your_server_IP_address:2342/ in your browser\n",
+   "huo-ju/dfserver": "# dfserver\nDFserver is an open-sourced distributed backend AI pipeline server for building self-hosted distributed GPU cluster to run the [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) and various AI image or prompt building model, but also has a potential to expend large-scale production service, and etc.\nGive us a star and your valuable feedback :)\n***news***\nTry Stable Diffusion 2 experimental worker: [SD2.md](SD2.md)\nhttps://user-images.githubusercontent.com/561810/199627149-a8e0716d-3200-41ee-9fe6-77ff870431af.mp4\nThe service can uses idle fancy GPUs shared by your friends to build a GPU cluster for running various AI models or just be deployed on your own computer. In the future we will support counting and distributing possible revenue based on the workload of each GPU (Worker).\nI have a beautiful vision for DFserver, which can be an enterprise-level service application that can flexibly extend the pipeline to connect models for different tasks in the AI image generation workflow, such as DeepL for supporting multi language prompt input, or Gobig by DD for filling more rendering details while upscale, etc.\nWill soon support the generation of multiple images with a single command, and functions related to init-image.\n## Tasks currently supported in DFserver Pipeline server\n- AI image generator: Stable Diffusion 1.4 (with negative prompt) and Waifu Diffusion 1.3 \n- Image Upscaling (Default realesrgan-x4plus model)\n- Guess prompt from an image (CLIP Interrogator)\n- Prompt Build Assist (finetuned from a GPT Neo2.7B model by using 200K prompts selected and preprocessed from krea-ai open-prompts. Model download: [https://huggingface.co/huoju/gptneoforsdprompt](https://huggingface.co/huoju/gptneoforsdprompt))\n# System Topology\n# Architecture\n# Task Sequence Diagram\n# Getting Start\n### Server Prerequisites\n- [RabbitMQ](https://www.rabbitmq.com/)\n- [discord developer](https://discord.com/developers/docs/intro#bots-and-apps) account and a discord bot token\n### Worker Prerequisites\n- A group of friends who have fancy GPUs 🤪\n- [pytorch](https://github.com/pytorch/pytorch)\n- [diffusers](https://github.com/huggingface/diffusers) and [mode",
+   "huo-ju/Go-Apns": "Go-Apns\n=======\nGo library for Apple Push Notification Service (APNs)\n## Install Go-Apns\ngo get github.com/virushuo/Go-Apns\n## Use Go-Apns to send Push Notification\nsee `example/sendmsg.go`\n",
+   "huo-ju/actionne": "# actionne\n一个基于规则的动作触发器框架\n## Features\n* 用简单的DSL定义条件和定义动作\n* 用plugin定义输入数据集和动作函数\n* 自定义配置项\n## Usage\nCheck out this [dummy guide](doc/Installation-for-dummies.md) if you're new to the framework :)\nactionne 的目的是实现一个基于规则运行某个函数的框架。它可以解决很多问题，从删除符合一组自定义规则的信息，到控制智能家居设备，都可以基于它实现。\n为了足够的灵活性和可扩充性，actionne使用了插件和DSL设计。用户可以使用DSL语言描述业务规则，当获得了符合规则的消息，actionne会直接调用插件中的函数，从而完成用户预期的动作。\nactionne requires Clojure 1.9.0 or later.\nRun actionne:\n    java -Dhomedir=\"/YOUR_PATH\" -jar actionne-0.1.0-SNAPSHOT-standalone.jar\n## Set up actionne\n如果是第一次运行，actionne会创建 /YOUR_PATH 目录，并因为无法找到配置文件退出。\n目录结构如下：\n/YOUR_PATH\n          /config  配置文件\n          /data    用户数据\n          /plugins 插件\n          /scripts DSL脚本\n可以参考examples目录的例子。\n### 插件\n* 目前只有 twitter 插件: [twitter_actionne](https://github.com/virushuo/actionne-twitter) \n* 复制 actionne_twitter-0.1.0-SNAPSHOT.jar 到 /YOUR_PATH/plugins 目录\n### DSL脚本\n在/YOUR_PATH/scripts 下建立规则脚本，如 myscript.act\n一个最简单的脚本，必须包含以下文件头：\n```\nVer 1.0.0\nNamespace huoju/actionne_twitter\nDesc testsnsrules\n```\nNamespaces: 任意的用户名字/插件名\nDesc 任意描述字符\n下面可以开始写自己的规则了:\n```\nDo delete created_at laterthan 12 hour category = str:reply\n```\n这条规则会调用插件中的 delete 函数，条件是: created_at早于12个小时，并且category是reply。其中 created_at/category等字段都是在插件的输入数据集中定义的，随后会详述。\n规则条件可以任意组合，比如更复杂一点的：\n```\nDo delete created_at laterthan 12 hour category = str:reply favorite_count < 20 id != str:1171575426201862144 id != str:1171576952588853248 id != str:1171572788785795074\n```\n这条规则会调用插件中的 delete 函数，条件是: created_at早于12个小时，并且category是reply，并且favorite_count 小于 20，并且id 不是 1171575426201862144 并且id 不是 str:1171576952588853248 并且id 不是 str:1171572788785795074。\n所有的条件之间都是 And （并且）的关系。\n这里提供一个更复杂的脚本例子： [myscript.act](https://github.com/virushuo/actionne/blob/master/examples/scripts/myscript.act)\n这个例子使用了4条触发删除动作的规则，分别为：\n1. 删除 创建超过12小时 并且 like数量小于20 的全部回复\n2. 删除 创建超过24小时 的全部retweet\n3. 删除 创建超过24小时 并且 like数量小于20 并且 id不为\"824653\" （保留它的原因是我想保留我发过的第一条推） 并且不包含 #k 或者 #t 这两个标记的推\n4. 和3类似，只是在96小时的时候改变一些参数\n### 配置文件\n配置文件用来定义运行周期，脚本名称，插件所需的环境变量和参数等。\n一个配置文件的例子：\n```\n{ :actionne_twitter {\n    :consumer-key \"\"\n    :consumer-secret \"\"\n    :user-token \"\" \n    :user-token-secret \"\" \n    :screen_name \"YOURNAME\"\n    :search_term \"from:YOURNAME\"\n    :watching \"3 days\"\n    :"
+  }
+ },
+ "apps": []
+}

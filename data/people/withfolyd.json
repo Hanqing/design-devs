@@ -1,0 +1,164 @@
+{
+ "name": "Folyd（朱爽）",
+ "role": "Geddle 创始人 · Wanderboat 前联合创始人 · Rust 社区建设者 · 前字节跳动工程师",
+ "title": "Folyd：「有德行的理想主义者，<em>极简主义者</em>」",
+ "dek": "TA 是一位来自北京的 Rust 爱好者和前字节跳动工程师，GitHub 上写着：「我喜欢做人们喜欢用的产品。」TA 做了 Rust 开发者几乎人手一个的浏览器扩展 Rust Search Extension、Rust 搜索引擎 Query.rs、社区刊物 Rust Magazine，以及为了出版杂志而用 Rust 写的静态站点生成器 Zine；还给 rust-lang/rust、tokio tracing、Apache Arrow 和 DataFusion 贡献过代码。之后 TA 联合创办了 AI 旅行应用 Wanderboat，做了 AI 编程语言 AIScript，现在经营面向 AI 与 SaaS 产品的联盟营销平台 Geddle。",
+ "card": "Geddle 创始人、Wanderboat 前联合创始人；Rust Search Extension、Zine、Rust Magazine、AIScript 作者，北京。",
+ "location": "中国北京",
+ "updated": "2026-10-22",
+ "tags": ["Rust", "开源", "AI 应用", "社区", "联盟营销"],
+ "links": [
+  {"label": "folyd.com", "url": "https://folyd.com"},
+  {"label": "GitHub：Folyd", "url": "https://github.com/Folyd"},
+  {"label": "Geddle", "url": "https://geddle.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>个人网站首页只有一句「A virtuous idealist and minimalist」；GitHub 简介「Rust, Music enthusiast. Founder of @geddle.」",
+  "<strong>代表作：</strong>Rust Search Extension（★1.3 千）、Zine（★925）、Rust Magazine（★620）、AIScript（★320）、Query.rs（★286）、duo、robotstxt；产品 Geddle、Wanderboat、Arrfounder、Anyshortcut、2d2d.io。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 2,177 次；《To-D 观察室》到 2022 年底有 639 人飞书群和 737 个 Telegram 订阅；X 关注者约 1.1 万。",
+  "<strong>爱好：</strong>阅读、游泳、爵士鼓、贝斯、钢琴、滑板。"
+ ],
+ "lead": "2021 年底，Folyd 在字节跳动内部开了一个专栏《To-D 观察室》，分享面向开发者行业的动态和故事，「有点像开发者版的《浪潮之巅》」。专栏很受欢迎，TA 想把它公开发布，但作为「早期互联网去中心化、开放理念的忠实拥趸」，TA 不想发到公众号或知乎。既然专栏是按十篇一季发布的，那就做成杂志；既然没有专门做杂志的静态网站生成器，那就用 Rust 自己写一个。这就是 Zine 的由来。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创业者、Rust 开发者、社区建设者"],
+     ["所在地", "中国北京"],
+     ["经历", "字节跳动工程师 → Wanderboat 联合创始人 → Geddle 创始人"],
+     ["开源贡献", "rust-lang/rust、tokio-rs/tracing、apache/arrow-rs、apache/datafusion"],
+     ["技术栈", "Rust、Python、JavaScript、Java、C++"],
+     ["组织", "huhu、zineland、aiscriptdev、RustMagazine"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Folyd 的作品分成两类。一类是<strong>给开发者的工具和社区</strong>：在浏览器地址栏里即时搜索 Rust 文档、crate、属性、官方书籍和错误码的扩展；面向 Rust 的搜索引擎；Rust 社区刊物；用 Arrow、Parquet 和 DataFusion 做的 Rust 可观测性工具 duo；以及把 Google robots.txt 解析器移植到 Rust 的库。"},
+    {"p": "另一类是<strong>商业产品</strong>：AIScript 把解释型语言和 Web 框架合二为一，帮开发者快速做 AI 应用；Geddle 是 AI 与 SaaS 产品的联盟营销市场，让创作者推广工具、按月拿分成。TA 还经营 Arrfounder、Aiberm 等多款面向出海开发者的服务。"},
+    {"note": "本页依据 folyd.com（首页、博客、项目、关于）、GitHub 个人 README 与仓库、geddle.com 和 X 资料整理，资料截至 2026 年 10 月。Wanderboat 官网检查时需要人机验证，未能读取。部分付费服务涉及第三方账户与额度转售，读者使用前请自行评估合规性。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2013–2018", "title": "Android 与工具", "text": "注册 GitHub，做 Android 多渠道打包工具；2018 年开始个人网站，做快捷键插件 Anyshortcut 和支付工具 Paybase。"},
+     {"when": "2018–2021", "title": "爱上 Rust", "text": "2018 年开始做 Rust Search Extension，后来又做了 C/C++、Go 版本；发布 Anyshortcut CLI，写使用 Rust 半年的感受；给 Rust 标准库优化 binary_search，写 Pin 与 Unpin 的长文；移植 robotstxt。"},
+     {"when": "2021–2022", "title": "字节跳动与 To-D 观察室", "text": "在字节内部开设《To-D 观察室》专栏，写了两季 12 篇；对外发布为 2d2d.io；2022 年 2 月发布 Zine、年初开始做可观测性工具 duo，11 月创办 Rust Magazine。"},
+     {"when": "2023–2024", "title": "Wanderboat 与 Query.rs", "text": "联合创办 AI 旅行产品 Wanderboat；2024 年 6 月做 Query.rs，9 月用 Rust 写 Lox 语言解释器，10 月开始 AIScript。"},
+     {"when": "2025–2026", "title": "AIScript 与 Geddle", "text": "公开发布 AIScript；创办 Geddle；推出 Arrfounder、Aiberm 等服务。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Rust Search Extension", "url": "https://rust.extension.sh",
+     "meta": ["2018–", "浏览器扩展", "★1.3 千"],
+     "paras": [
+      "在 Chrome、Firefox 和 Edge 的地址栏里即时搜索 Rust 的文档、crate、内置属性、官方书籍和错误码。它的「下一代」是独立的搜索引擎 Query.rs，已经支持搜索 Reddit 热帖。"
+     ]
+    }},
+    {"work": {
+     "name": "Zine", "url": "https://github.com/zineland/zine",
+     "meta": ["2022", "Rust", "★925"],
+     "paras": [
+      "「一个简单、有主见的工具，用来做你自己的杂志。」移动优先、优雅的杂志式排版、按期组织内容，支持 RSS、Open Graph、话题和多语言，最终生成静态网站。Rust Magazine 和 2d2d.io 都用它构建。"
+     ]
+    }},
+    {"work": {
+     "name": "AIScript", "url": "https://aiscript.dev",
+     "meta": ["2024–2025", "Rust", "★320"],
+     "paras": [
+      "「The next generation language for human and AI.」一门解释型语言加一个 Web 框架，都用 Rust 写成，语法借鉴 Python、JavaScript 和 Rust，目标是让开发者轻松构建 AI 应用。"
+     ]
+    }},
+    {"work": {
+     "name": "Geddle", "url": "https://geddle.com",
+     "meta": ["2025–", "联盟营销平台"],
+     "paras": [
+      "连接 AI / SaaS 公司和内容创作者：创作者加入推广计划、制作内容、按月领取经常性佣金，最高 50%；通过 Stripe 直接结算。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://folyd.com", "paras": [
+     "首页只有一句话和三个入口：Blog（我想了什么、写了什么）、Projects（我做了什么）、About（我是谁）。项目页列了十几个产品，从 Rust 工具到出海服务。",
+     "博客文章不多，但有深度：Rust 的 Pin 与 Unpin、优化标准库的二分查找、Generator 语法探索，也有年度总结和「我的年度乐队」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "GitHub Pages 托管"],
+      ["结构", "Blog / Projects / About 三栏"],
+      ["风格", "极简，正如首页那句自我描述"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2023-01-05", "title": "我的 2022 总结", "url": "https://folyd.com/blog"},
+     {"date": "—", "title": "优化 Rust 标准库的 binary_search", "url": "https://folyd.com/blog"},
+     {"date": "—", "title": "Rust 的 Pin 与 Unpin", "url": "https://folyd.com/blog"},
+     {"date": "—", "title": "发布 Anyshortcut CLI 版以及 Rust 使用半年之后的感受", "url": "https://folyd.com/blog"}
+    ]},
+    {"quote": "I love to build products people enjoy using.", "cite": "Folyd，GitHub 个人 README"},
+    {"p": "TA 坚持把内容发在自己控制的地方：宁愿自己写一个杂志生成器，也不把文章交给流量平台。这是 TA 对早期开放互联网的认同。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["Rust", "工具、社区、上游贡献俱全", "—"],
+      ["产品", "从开发者工具到 AI 应用都能做", "产品线多，部分已停更"],
+      ["社区", "Rust Magazine、To-D 观察室有影响", "—"],
+      ["商业", "多元化服务", "部分服务处于灰色地带，需用户自行判断"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>缺工具就自己写：</strong>Zine 就是这样来的。",
+     "<strong>内容放在自己的地盘：</strong>开放互联网值得坚持。",
+     "<strong>给上游做贡献：</strong>优化标准库是最好的学习。",
+     "<strong>把短内容坚持下去：</strong>几句话讲清一条动态也有价值。",
+     "<strong>工作之外有爱好：</strong>爵士鼓、贝斯和滑板。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Rust Search Extension", "url": "https://rust.extension.sh", "why": "Rust 开发者的必装扩展。"},
+     {"name": "Zine", "url": "https://github.com/zineland/zine", "why": "做一本属于你的线上杂志。"},
+     {"name": "我的 2022 总结", "url": "https://folyd.com/blog", "why": "看 Zine 和 To-D 观察室的来历。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "安装 Rust Search Extension，在地址栏输入「rs」加空格，搜一个你常用的 API。",
+ "sources": [
+  {"label": "Folyd 的 X 个人资料", "url": "https://x.com/withfolyd"},
+  {"label": "folyd.com", "url": "https://folyd.com"},
+  {"label": "folyd.com/about", "url": "https://folyd.com/about"},
+  {"label": "GitHub：Folyd", "url": "https://github.com/Folyd"},
+  {"label": "Geddle", "url": "https://geddle.com"},
+  {"label": "zineland/zine", "url": "https://github.com/zineland/zine"}
+ ]
+}

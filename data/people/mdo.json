@@ -1,0 +1,172 @@
+{
+ "name": "Mark Otto",
+ "role": "Bootstrap 作者 · Pierre 首席产品官 · 前 GitHub 首席设计师",
+ "title": "Mark Otto：给整个 Web <em>一套默认样式</em>的设计师",
+ "dek": "2007 年他从大学退学，搬到加州的设计公司 ZURB 做设计和开发；之后加入 Twitter，与 Jacob Thornton（@fat）一起做出了 Bootstrap，后来成为世界上最流行的前端框架之一。2012 年底他加入 GitHub，重新设计了 Issues、对话页和分栏 Diff，一路做到设计总监、高级设计总监和 GitHub 第一位首席设计师。2023 年他离开工作十年多的 GitHub，在 The Pierre Computer Company 担任首席产品官，为开发者和 AI Agent 做代码托管和 Diff 渲染工具。",
+ "card": "Bootstrap（★17.5 万）作者；前 Twitter、GitHub 设计负责人，Pierre 首席产品官，加州米尔谷。",
+ "location": "美国加州米尔谷（旧金山湾区）",
+ "updated": "2026-10-22",
+ "tags": ["Bootstrap", "CSS", "产品设计", "开源", "代码评审"],
+ "links": [
+  {"label": "markdotto.com", "url": "https://markdotto.com"},
+  {"label": "GitHub：mdo", "url": "https://github.com/mdo"},
+  {"label": "Bootstrap", "url": "https://getbootstrap.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Designer, developer, and advisor. Working on @pierrecomputer. Creator of @getbootstrap. Previously @github and @twitter. Huge nerd.」",
+  "<strong>代表作：</strong>Bootstrap（★175,005）、Bootstrap Icons、Code Guide（★8.5 千）、GitHub Buttons、WTF Forms、Primer；Pierre 的开源库 diffs 与 trees。",
+  "<strong>关键数字：</strong>GitHub 粉丝 2.4 万、近一年贡献 1,471 次；在 GitHub 任职十年多，曾管理 30 人的设计团队；X 关注者约 6.9 万。",
+  "<strong>工作室：</strong>2021 年起以 Studio MDO 名义为 Vercel、Zed、LiveKit、Dragonfly 等公司做设计顾问。"
+ ],
+ "lead": "Bootstrap 诞生在 Twitter 内部：两个人想给内部工具一套统一的样式，结果它成了无数网站的起点。十多年后，GitHub 上 Bootstrap 仓库有 17.5 万颗星，默认分支正在开发第 6 版。Mark Otto 的职业路线也像这个项目一样，一直在「工具」这一层：给开发者用的框架、给开发者用的 GitHub，现在是给开发者和 Agent 用的代码托管与 Diff。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、开发者、顾问"],
+     ["所在地", "美国加州米尔谷（旧金山湾区）"],
+     ["经历", "ZURB 设计师（2007–2010）→ Twitter 产品设计师（2010–2012）→ GitHub（2012–2023）→ Pierre 首席产品官（2023–）"],
+     ["GitHub 职位", "高级产品设计师 → 设计总监 → 高级设计总监 → 首位首席设计师"],
+     ["工作室", "Studio MDO（2021–）"],
+     ["开源", "Bootstrap、Bootstrap Icons、Code Guide、GitHub Buttons、Primer、diffs、trees"],
+     ["技术栈", "CSS / Sass、HTML、JavaScript、Jekyll、Astro"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Mark 是少有的<strong>既画稿又写 CSS 的设计负责人</strong>。在 GitHub，他亲手设计并上线了新版 Issues、对话页、分栏 Diff、系统字体和深色顶栏；管理过 30 人的设计、插画和写作团队；后来又放下管理，专心做品牌项目、GitHub Shop、内网和 Universe 大会的主视觉。"},
+    {"p": "在 Pierre，他做的是新一代开发者工具：pierre.computer 和 code.storage 面向开发者与 AI Agent 提供代码托管，开源库 diffs 基于 Shiki 渲染代码差异，trees 负责高性能文件树。此前的实验产品 Pierre.co（代码托管、代码评审、文档和 CI 一体）已在 2025 年关闭。"},
+    {"note": "本页依据 markdotto.com（About、Work、Blog）、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2007", "title": "退学去加州", "text": "从大学退学，搬到加州加入设计公司 ZURB，为 Photobucket、Facebook 等客户设计和开发了几十个项目，他最喜欢的客户是 Britney Spears。"},
+     {"when": "2010–2012", "title": "Twitter 与 Bootstrap", "text": "在 Twitter 做推广推文、新版 Twitter.com、帮助中心和内部工具；与 @fat 一起创造 Bootstrap，2011 年开源。"},
+     {"when": "2012–2015", "title": "加入 GitHub", "text": "重新设计 Issues 和对话页，设计分栏 Diff；2015 年发布 GitHub 的 CSS 工具包 Primer，写下《GitHub's CSS》。"},
+     {"when": "2015–2019", "title": "设计总监", "text": "管理 30 人的设计团队；2017 年产品与市场设计拆分后，带领市场设计团队维护 GitHub 的品牌和营销站。"},
+     {"when": "2019–2023", "title": "首席设计师", "text": "2019 年 7 月离开管理岗，成为 GitHub 第一位首席设计师；2021 年起以 Studio MDO 为 Vercel、Zed 等公司做顾问。"},
+     {"when": "2023–", "title": "Pierre", "text": "2023 年 3 月离开 GitHub，任 The Pierre Computer Company 首席产品官；2024 年写《Shipping Blended Diffs》；2025 年关闭 Pierre.co，转向面向 Agent 的代码托管。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Bootstrap", "url": "https://getbootstrap.com",
+     "meta": ["2011–", "CSS · JS", "★17.5 万"],
+     "paras": [
+      "「最流行的响应式、移动优先前端框架。」网格系统、组件、工具类和完整文档，让不擅长设计的开发者也能快速做出像样的界面。它的影响远超代码本身：一代 Web 应用都带着 Bootstrap 的影子。",
+      "配套的 Bootstrap Icons 提供 2,000 多个开源 SVG 图标；仓库默认分支已经在开发 Bootstrap 6。"
+     ],
+     "facts": [["GitHub", "twbs/bootstrap ★175,005"]]
+    }},
+    {"work": {
+     "name": "Code Guide", "url": "https://codeguide.co",
+     "meta": ["2012", "规范", "★8.5 千"],
+     "paras": [
+      "「编写一致、灵活、可持续的 HTML 和 CSS 的标准。」一份简洁的代码风格指南，被翻译成多种语言，其中有两份中文译本。"
+     ]
+    }},
+    {"work": {
+     "name": "diffs 与 trees", "url": "https://markdotto.com/work",
+     "meta": ["2026", "Pierre 开源"],
+     "paras": [
+      "diffs 是基于 Shiki 的代码差异渲染库，支持语法高亮和主题；trees 是追求性能和可定制的文件树组件。它们延续了他在 GitHub 设计分栏 Diff 时的关注点：怎样让人看清代码到底改了什么。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["GitHub Buttons", "2011–", "显示星数、Fork 数的静态按钮（★2.9 千）"],
+      ["WTF Forms", "2014", "更友好的表单控件样式"],
+      ["Primer", "2015", "GitHub 的 CSS 工具包"],
+      ["config", "2014–", "新 Mac 开发环境配置清单"],
+      ["mdoml", "2014", "用自定义 HTML 元素表达常见界面组件的实验"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://markdotto.com", "paras": [
+     "首页用第三人称写一段介绍，然后是 Work（Pierre、LiveKit、Zed 等）、Open Source 和 Blog。About 页有完整的履历时间表，从 ZURB 一直写到 Pierre。",
+     "博客从 2011 年写到 2024 年，大量是 Bootstrap 发布记录和 GitHub 上线复盘：《Shipping the new GitHub Issues》《Shipping GitHub's split diffs》《Shipping system fonts to GitHub.com》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Vercel 托管"],
+      ["结构", "Home / Blog / Work / Stuff / About"],
+      ["写作", "以「Shipping…」为题的上线复盘最有价值"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2024-06-03", "title": "Working with MDX in Next.js", "url": "https://markdotto.com/blog"},
+     {"date": "2024-01-17", "title": "Shipping Blended Diffs", "url": "https://markdotto.com/blog"},
+     {"date": "2018-02-07", "title": "Shipping system fonts to GitHub.com", "url": "https://markdotto.com/blog"},
+     {"date": "2014-09-04", "title": "Shipping GitHub's split diffs", "url": "https://markdotto.com/blog"},
+     {"date": "2014-07-23", "title": "GitHub's CSS", "url": "https://markdotto.com/blog"}
+    ]},
+    {"quote": "Designer, developer, and advisor. Huge nerd.", "cite": "Mark Otto，X 与 GitHub 简介"},
+    {"p": "他的文章很少谈抽象理念，几乎都是「我们怎么把这个东西做出来的」：遇到了什么约束、做了什么取舍、最后上线成什么样。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "Bootstrap 改变了一代 Web 开发", "Bootstrap 风格曾被批评让网站长得太像"],
+      ["跨界", "设计、前端、管理、品牌都做过", "—"],
+      ["工具", "长期专注开发者工具与代码评审", "Pierre.co 未能成功，已关闭"],
+      ["写作", "上线复盘具体可学", "2024 年后博客更新很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>设计师也写代码：</strong>能亲手上线，才能把细节做对。",
+     "<strong>从内部工具做起：</strong>Bootstrap 最初只是给 Twitter 内部用的。",
+     "<strong>写上线复盘：</strong>「Shipping…」系列比任何作品集都有说服力。",
+     "<strong>管理不是唯一的路：</strong>他从总监回到了首席设计师。",
+     "<strong>失败了就换方向：</strong>Pierre.co 关闭后，开源了 diffs 和 trees。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Code Guide", "url": "https://codeguide.co", "why": "一份经得起时间的 HTML/CSS 规范。"},
+     {"name": "markdotto.com/about", "url": "https://markdotto.com/about", "why": "一位设计师从退学到首席的完整路径。"},
+     {"name": "Bootstrap", "url": "https://getbootstrap.com", "why": "重新看看这套影响了整个 Web 的框架。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你最近上线的功能，写一篇「Shipping…」式的复盘：约束、取舍、结果。",
+ "sources": [
+  {"label": "Mark Otto 的 X 个人资料", "url": "https://x.com/mdo"},
+  {"label": "markdotto.com", "url": "https://markdotto.com"},
+  {"label": "markdotto.com：About", "url": "https://markdotto.com/about"},
+  {"label": "markdotto.com：Work", "url": "https://markdotto.com/work"},
+  {"label": "GitHub：mdo", "url": "https://github.com/mdo"},
+  {"label": "twbs/bootstrap", "url": "https://github.com/twbs/bootstrap"}
+ ]
+}

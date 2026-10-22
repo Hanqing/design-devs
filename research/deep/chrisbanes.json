@@ -1,0 +1,482 @@
+{
+ "handle": "chrisbanes",
+ "sites": [
+  {
+   "url": "https://chrisbanes.me",
+   "ok": true,
+   "title": "Chris Banes",
+   "description": "",
+   "stack": [
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "↓ \nSkip to main content \n Chris Banes \n Close menu \nChris Banes \nHelping developers build through libraries, tools, and sharing what I learn. \nRecent \nNot every agent task needs a plan \n 20 October 2026 · 6 mins \nTwo Haze tasks show when direct implementation is enough, when planning earns its place, and which checks still matter either way. \nHaze 2.0 \n 22 September 2026 · 6 mins \nHaze 2.0 brings Glass, a new effects API, performance improvements, and experimental Android native backdrop support to Compose Multiplatform. \nCompose has progressive blur. Do you still need Haze? \n 13 September 2026 · 4 mins \nCompose’s new progressive blur API blurs a composable’s own content. Here’s how that relates to Haze and Android’s new backdrop API. \nShopping Is Not a Category \n 22 July 2026 · 5 mins \nHermes connected my marketplace order emails to Actual Budget, turning opaque Shopping transactions into useful item-level categories. \nHaze 2.0 Alpha: A Pluggable Visual Effects Engine \n 29 April 2026 · 3 mins \nHaze 2.0-alpha01 turns blur into a pluggable effect, splitting it into a separate module and opening the door to custom visual effects built on top of a shared rendering infrastructure. \nShow More \n ↑",
+   "github_links": [
+    "chrisbanes"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://chrisbanes.me/index.xml",
+    "count_seen": 98,
+    "items": [
+     {
+      "title": "Not every agent task needs a plan",
+      "date": "Tue, 20 Oct 2026 10:00:00",
+      "url": "https://chrisbanes.me/posts/not-every-agent-task-needs-a-plan/"
+     },
+     {
+      "title": "Haze 2.0",
+      "date": "Tue, 22 Sep 2026 10:54:00",
+      "url": "https://chrisbanes.me/posts/haze-2.0.0/"
+     },
+     {
+      "title": "Compose has progressive blur. Do you still need Haze?",
+      "date": "Sun, 13 Sep 2026 14:46:16",
+      "url": "https://chrisbanes.me/posts/compose-progressive-blur/"
+     },
+     {
+      "title": "Shopping Is Not a Category",
+      "date": "Wed, 22 Jul 2026 10:00:00",
+      "url": "https://chrisbanes.me/posts/shopping-is-not-a-category/"
+     },
+     {
+      "title": "Haze 2.0 Alpha: A Pluggable Visual Effects Engine",
+      "date": "Wed, 29 Apr 2026 09:25:00",
+      "url": "https://chrisbanes.me/posts/haze-2.0-alpha/"
+     },
+     {
+      "title": "The Disappearing Middle: How AI Coding Tools Are Breaking Software Apprenticeship",
+      "date": "Mon, 29 Dec 2025 12:07:00",
+      "url": "https://chrisbanes.me/posts/disappearing-middle-ai-software-apprenticeship/"
+     },
+     {
+      "title": "Multiplatform Strings",
+      "date": "Thu, 20 Feb 2025 11:45:00",
+      "url": "https://chrisbanes.me/posts/multiplatform-strings/"
+     },
+     {
+      "title": "Should you use Kotlin Sequences for Performance?",
+      "date": "Thu, 13 Feb 2025 11:45:00",
+      "url": "https://chrisbanes.me/posts/use-sequence/"
+     },
+     {
+      "title": "Haze - Real time background blurring",
+      "date": "Fri, 06 Dec 2024 14:00:00",
+      "url": "https://chrisbanes.me/talks/haze-tech-talk/"
+     },
+     {
+      "title": "Haze 1.0",
+      "date": "Thu, 07 Nov 2024 12:07:00",
+      "url": "https://chrisbanes.me/posts/haze-1.0/"
+     },
+     {
+      "title": "Retaining beyond ViewModels",
+      "date": "Thu, 21 Mar 2024 11:20:00",
+      "url": "https://chrisbanes.me/posts/retaining-beyond-viewmodels/"
+     },
+     {
+      "title": "SwiftUI for Jetpack Compose developers - State (I)",
+      "date": "Mon, 04 Dec 2023 14:00:00",
+      "url": "https://chrisbanes.me/posts/swiftui-for-jetpack-compose-devs-state/"
+     },
+     {
+      "title": "Parallax effect in Jetpack Compose",
+      "date": "Tue, 12 Sep 2023 13:54:00",
+      "url": "https://chrisbanes.me/posts/parallax-effect-compose/"
+     },
+     {
+      "title": "Branching out to Jetpack Compose",
+      "date": "Fri, 03 Jun 2022 17:54:21",
+      "url": "https://chrisbanes.me/talks/branching-out-to-jetpack-compose/"
+     },
+     {
+      "title": "Composable metrics",
+      "date": "Mon, 11 Apr 2022 11:08:47",
+      "url": "https://chrisbanes.me/posts/composable-metrics/"
+     },
+     {
+      "title": "Slotting in with Compose UI",
+      "date": "Mon, 06 Dec 2021 14:37:55",
+      "url": "https://chrisbanes.me/posts/slotting-in-with-compose-ui/"
+     },
+     {
+      "title": "Always provide a Modifier parameter",
+      "date": "Fri, 22 Oct 2021 10:52:00",
+      "url": "https://chrisbanes.me/posts/always-provide-a-modifier/"
+     },
+     {
+      "title": "Becoming a Xoogler",
+      "date": "Fri, 20 Aug 2021 12:18:00",
+      "url": "https://chrisbanes.me/posts/becoming-xoogler/"
+     },
+     {
+      "title": "Publishing to Maven Central",
+      "date": "Thu, 04 Feb 2021 09:26:44",
+      "url": "https://chrisbanes.me/posts/publishing-to-maven-central/"
+     },
+     {
+      "title": "New website... again",
+      "date": "Tue, 05 Jan 2021 13:39:00",
+      "url": "https://chrisbanes.me/posts/new-website/"
+     },
+     {
+      "title": "Chris Banes",
+      "date": "Sat, 28 Nov 2020 16:18:21",
+      "url": "https://chrisbanes.me/resume/"
+     },
+     {
+      "title": "Me",
+      "date": "Sat, 28 Nov 2020 16:17:33",
+      "url": "https://chrisbanes.me/me/"
+     },
+     {
+      "title": "Compose for Existing Apps",
+      "date": "Fri, 09 Oct 2020 14:00:00",
+      "url": "https://chrisbanes.me/talks/compose-for-existing-apps-dcemea/"
+     },
+     {
+      "title": "Compose for Existing Apps",
+      "date": "Wed, 26 Aug 2020 12:00:00",
+      "url": "https://chrisbanes.me/talks/compose-for-existing-apps-11w/"
+     },
+     {
+      "title": "Animating your Keyboard",
+      "date": "Mon, 24 Aug 2020 14:00:00",
+      "url": "https://chrisbanes.me/talks/animating-your-keyboard/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "chrisbanes",
+  "user": {
+   "name": "Chris Banes",
+   "company": "Software Engineer",
+   "blog": "https://chrisbanes.me",
+   "location": "Bath, UK",
+   "bio": null,
+   "public_repos": 28,
+   "followers": 18952,
+   "created_at": "2010-03-21T20:53:45Z",
+   "twitter_username": "chrisbanes",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "chrisbanes/Android-PullToRefresh",
+    "description": "DEPRECATED",
+    "stargazers_count": 8627,
+    "forks_count": 4609,
+    "language": "Java",
+    "homepage": "",
+    "created_at": "2011-11-29T09:59:56Z",
+    "pushed_at": "2017-10-13T08:40:58Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "chrisbanes/cheesesquare",
+    "description": "Demos the new Android Design library.",
+    "stargazers_count": 7628,
+    "forks_count": 1776,
+    "language": "Kotlin",
+    "homepage": "",
+    "created_at": "2015-05-28T22:54:34Z",
+    "pushed_at": "2020-12-07T17:39:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "chrisbanes/tivi",
+    "description": "Tivi is a TV show tracking Android app, which connects to trakt.tv",
+    "stargazers_count": 6718,
+    "forks_count": 892,
+    "language": "Kotlin",
+    "homepage": "",
+    "created_at": "2017-08-17T16:35:58Z",
+    "pushed_at": "2024-11-12T18:56:00Z",
+    "topics": [
+     "android-application",
+     "jetpack-compose",
+     "kotlin",
+     "kotlin-coroutines",
+     "kotlin-multiplatform-mobile",
+     "trakt"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "chrisbanes/ActionBar-PullToRefresh",
+    "description": "DEPRECATED",
+    "stargazers_count": 3115,
+    "forks_count": 933,
+    "language": "Java",
+    "homepage": "",
+    "created_at": "2013-06-04T14:44:53Z",
+    "pushed_at": "2014-04-28T14:57:28Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "chrisbanes/haze",
+    "description": "Background blurring for Compose Multiplatform / Jetpack Compose",
+    "stargazers_count": 2617,
+    "forks_count": 85,
+    "language": "Kotlin",
+    "homepage": "https://chrisbanes.github.io/haze/",
+    "created_at": "2023-10-26T17:23:57Z",
+    "pushed_at": "2026-10-22T15:25:25Z",
+    "topics": [
+     "blur",
+     "compose-multiplatform",
+     "jetpack-compose"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "chrisbanes/philm",
+    "description": "Movie collection and information app for Android.",
+    "stargazers_count": 2061,
+    "forks_count": 469,
+    "language": "Java",
+    "homepage": "",
+    "created_at": "2014-06-18T16:08:18Z",
+    "pushed_at": "2020-10-01T17:16:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "chrisbanes/insetter",
+    "description": "Insetter is a library to help apps handle WindowInsets more easily",
+    "stargazers_count": 1126,
+    "forks_count": 40,
+    "language": "Kotlin",
+    "homepage": "https://chrisbanes.github.io/insetter",
+    "created_at": "2019-10-11T00:51:05Z",
+    "pushed_at": "2024-09-30T15:54:27Z",
+    "topics": [
+     "android-ui",
+     "windowinsets"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "chrisbanes/skills",
+    "description": "Skills for Kotlin, Jetpack Compose, and Android development",
+    "stargazers_count": 1117,
+    "forks_count": 55,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-05-12T07:34:30Z",
+    "pushed_at": "2026-10-22T07:35:18Z",
+    "topics": [
+     "android",
+     "compose-multiplatform",
+     "coroutines",
+     "jetpack-compose",
+     "kotlin",
+     "kotlin-multiplatform",
+     "skills"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "chrisbanes/gradle-mvn-push",
+    "description": "Helper to upload Gradle Android Artifacts to Maven repositories",
+    "stargazers_count": 1042,
+    "forks_count": 277,
+    "language": null,
+    "homepage": "",
+    "created_at": "2013-11-08T08:23:42Z",
+    "pushed_at": "2020-09-12T20:44:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "chrisbanes/photup",
+    "description": "photup",
+    "stargazers_count": 941,
+    "forks_count": 318,
+    "language": "Java",
+    "homepage": null,
+    "created_at": "2013-01-15T09:55:53Z",
+    "pushed_at": "2018-01-07T08:51:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "chrisbanes/Android-BitmapCache",
+    "description": "Android-BitmapCache is a specialised cache, for use with Android Bitmap objects.",
+    "stargazers_count": 828,
+    "forks_count": 215,
+    "language": "Java",
+    "homepage": "",
+    "created_at": "2012-07-01T07:27:31Z",
+    "pushed_at": "2013-11-22T16:08:21Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "chrisbanes/snapper",
+    "description": "A snapping fling behavior for Jetpack Compose",
+    "stargazers_count": 461,
+    "forks_count": 19,
+    "language": "Kotlin",
+    "homepage": "https://chrisbanes.github.io/snapper",
+    "created_at": "2021-10-08T15:42:44Z",
+    "pushed_at": "2022-11-10T10:40:53Z",
+    "topics": [
+     "android-library",
+     "compose"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "chrisbanes/material3-windowsizeclass-multiplatform",
+    "description": "Material 3 Window Size Class for Compose Multiplatform",
+    "stargazers_count": 361,
+    "forks_count": 15,
+    "language": "Kotlin",
+    "homepage": "",
+    "created_at": "2023-06-20T07:25:51Z",
+    "pushed_at": "2024-10-15T21:39:22Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "chrisbanes/compose-bom",
+    "description": "Compose BOM (bill of materials) - alpha edition",
+    "stargazers_count": 256,
+    "forks_count": 6,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2023-01-12T12:07:11Z",
+    "pushed_at": "2024-09-24T14:00:37Z",
+    "topics": [
+     "android-library",
+     "jetpack-compose"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "chrisbanes/verity",
+    "description": null,
+    "stargazers_count": 31,
+    "forks_count": 2,
+    "language": "Kotlin",
+    "homepage": null,
+    "created_at": "2026-03-11T09:21:41Z",
+    "pushed_at": "2026-10-22T06:08:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "chrisbanes/grove",
+    "description": null,
+    "stargazers_count": 22,
+    "forks_count": 0,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2026-02-17T10:18:27Z",
+    "pushed_at": "2026-02-25T23:05:28Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "chrisbanes/portico",
+    "description": "A private doorway to your local apps",
+    "stargazers_count": 19,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "https://chrisbanes.github.io/portico/",
+    "created_at": "2026-08-03T12:23:53Z",
+    "pushed_at": "2026-10-08T15:25:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "chrisbanes/ensemble",
+    "description": null,
+    "stargazers_count": 12,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-03-28T21:10:24Z",
+    "pushed_at": "2026-10-22T16:31:25Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 25,
+  "languages": [
+   [
+    "Kotlin",
+    8
+   ],
+   [
+    "Java",
+    5
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "Go",
+    1
+   ],
+   [
+    "Swift",
+    1
+   ],
+   [
+    "TypeScript",
+    1
+   ],
+   [
+    "Elixir",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "chrisbanes/haze",
+    "stargazerCount": 2617,
+    "description": "Background blurring for Compose Multiplatform / Jetpack Compose",
+    "primaryLanguage": {
+     "name": "Kotlin"
+    },
+    "homepageUrl": "https://chrisbanes.github.io/haze/"
+   },
+   {
+    "nameWithOwner": "chrisbanes/skills",
+    "stargazerCount": 1117,
+    "description": "Skills for Kotlin, Jetpack Compose, and Android development",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 4336,
+  "orgs": [],
+  "profile_readme": "# Hi, I'm Chris 👋\n\nI love helping developers build, whether through libraries, tools, or sharing what I learn.\n\nI'm the Consumer Products Tech Lead at [The Trade Desk](https://www.thetradedesk.com/), building the Android, iOS, and TV clients for [Ventura TV OS](https://www.thetradedesk.com/ventura-streaming-tv-os) with Kotlin Multiplatform and Compose Multiplatform.\n\nPreviously, I led the Client UI Android team at Twitter and spent nearly nine years in Android Developer Relations at Google. There, I led engineering on [AppCompat](https://developer.android.com/jetpack/androidx/releases/appcompat) and the [Design Support Library](https://android-developers.googleblog.com/2015/05/android-design-support-library.html), and created [Palette](https://developer.android.com/develop/ui/views/graphics/palette-colors).\n\nI also care about polished UI: transitions, scrolling, and the small interaction details that shape how software feels.\n\n**Open source:** [Haze](https://github.com/chrisbanes/haze) (Compose Multiplatform blur effects) · [Tivi](https://github.com/chrisbanes/tivi) (a TV show tracking app) · [Accompanist](https://github.com/google/accompanist) · [PhotoView](https://github.com/Baseflow/PhotoView)\n\n**Elsewhere:** [Writing](https://chrisbanes.me/posts/) · [Talks](https://chrisbanes.me/talks/) · [Resume](https://chrisbanes.me/resume/) · [LinkedIn](https://www.linkedin.com/in/chrisbanes/)\n",
+  "readmes": {
+   "chrisbanes/haze": "<p align=\"center\">\n</p>\n# Haze\n[](https://search.maven.org/search?q=g:dev.chrisbanes.haze) \nComposable visual effects for Compose Multiplatform.\nhttps://github.com/user-attachments/assets/836dd79a-abdc-4cdc-b27d-baee394c1e26\nHaze provides hardware-accelerated visual effects for Compose Multiplatform — Android, iOS, macOS, Desktop, and Web. Its modular Haze 2 API lets you apply source-backed or own-content Blur, refraction-driven Glass, and custom effects with explicit, reusable configuration.\nHaze 2.0 is currently in beta. If you are upgrading from Haze 1.x or an earlier Haze 2 prerelease, see the [Haze 2 migration guide](https://chrisbanes.github.io/haze/migrating-2.0/).\n## Platforms\n| Platform | Support |\n|---|---|\n| Android | ✅ |\n| Desktop (JVM) | ✅ |\n| iOS | ✅ |\n| macOS | ✅ |\n| Wasm / JS | ✅ |\n## Modules\nAdd the core module and only the effect modules you use. Keep every Haze artifact on the same version.\n| Artifact | Purpose |\n|---|---|\n| `haze` | Source capture and the typed custom-effect API. |\n| `haze-blur` | Blur for captured sources or a modifier's own content. |\n| `haze-blur-materials` | Optional ready-made Blur Styles, including `HazeMaterials.thin()`. |\n| `haze-blur-material3` | Optional Compose Material 3 Blur Style factory. |\n| `haze-glass` | Refraction-driven Glass effect. |\n| `haze-glass-material3` | Optional Compose Material 3 Glass Style factory. |\n## Download\n```kotlin\ndependencies {\n    // Core infrastructure and Blur\n    implementation(\"dev.chrisbanes.haze:haze:<version>\")\n    implementation(\"dev.chrisbanes.haze:haze-blur:<version>\")\n    // Optional: ready-made Blur styles\n    implementation(\"dev.chrisbanes.haze:haze-blur-materials:<version>\")\n}\n```\nFor Glass, add the core module and the Glass artifact:\n```kotlin\ndependencies {\n    implementation(\"dev.chrisbanes.haze:haze:<version>\")\n    implementation(\"dev.chrisbanes.haze:haze-glass:<version>\")\n}\n```\n## Blur\n```kotlin\nval hazeState = rememberHazeState()\nBox {\n    Image(\n        painter = painter,\n        contentDescription = null,\n        modifier = Modifier.hazeSource(hazeState),\n    )\n    Box(\n        modifier = Modifier\n            .matchParentSize()\n            .hazeBlur(\n             ",
+   "chrisbanes/skills": "\n# Skills\nA set of skills for Kotlin, Jetpack Compose, Android development, and grounded\nwriting.\nThe repository is also a portable [Agent Plugins](https://agent-plugins.org/)\nv1.0.0 package. Conforming clients discover the root [`plugin.json`](plugin.json)\nand the immediate skill directories under [`skills/`](skills/).\n## Install\nWith the [skills CLI](https://skills.sh):\n```\nnpx skills add chrisbanes/skills\n```\nOr install as a Claude Code plugin:\n```\n/plugin marketplace add chrisbanes/skills\n/plugin install chrisbanes-skills@chrisbanes-skills\n```\nOr install as a Codex plugin:\n```\ncodex plugin marketplace add chrisbanes/skills --ref main\ncodex plugin add chrisbanes-skills@chrisbanes-skills\n```\nOr install as an OpenCode V2 plugin (2.0.22 or newer):\n```json\n{\n  \"plugins\": [\"chrisbanes-skills@git+https://github.com/chrisbanes/skills.git\"]\n}\n```\nOpenCode V1 1.18.29 or newer uses `plugin` instead of `plugins`.\nSee [`.opencode/INSTALL.md`](.opencode/INSTALL.md) for details.\n### External skill providers\nMost skills in this repository are self-contained. The workflows below compose\nwith skills from other repositories; installing `chrisbanes/skills` does not\ninstall them, and the workflows never install them implicitly.\n| Consumer | Requirement | Provider | Source and install |\n|---|---|---|---|\n| `deliver-spec` GitHub readiness | Conditional | `triage` | [Matt Pocock's skills](https://github.com/mattpocock/skills): `npx skills add mattpocock/skills --skill triage` |\n| [`implement-with-subagents`](skills/implement-with-subagents/SKILL.md) behavior tasks | Conditional | `tdd` at approved test seams | [Matt Pocock's skills](https://github.com/mattpocock/skills): `npx skills add mattpocock/skills --skill tdd` |\n| [`run-github-project`](skills/run-github-project/SKILL.md) explicit/repository-required test-first work | Conditional | `tdd` | [Matt Pocock's skills](https://github.com/mattpocock/skills): `npx skills add mattpocock/skills --skill tdd` |\n| `run-github-project` Todo triage | Conditional | `triage` | [Matt Pocock's skills](https://github.com/mattpocock/skills): `npx skills add mattpocock/skills --skill triage` |\n| `run-github-project` Wayfinder lane | Conditional | ",
+   "chrisbanes/Android-PullToRefresh": "# PLEASE NOTE, THIS PROJECT IS NO LONGER BEING MAINTAINED\n* * *\n# Pull To Refresh Views for Android\nThis project aims to provide a reusable Pull to Refresh widget for Android. It was originally based on Johan Nilsson's [library](https://github.com/johannilsson/android-pulltorefresh) (mainly for graphics, strings and animations), but these have been replaced since.\n## Features\n * Supports both Pulling Down from the top, and Pulling Up from the bottom (or even both).\n * Animated Scrolling for all devices.\n * Over Scroll supports for devices on Android v2.3+.\n * Currently works with:\n \t* **ListView**\n \t* **ExpandableListView**\n \t* **GridView**\n \t* **WebView**\n \t* **ScrollView**\n \t* **HorizontalScrollView**\n \t* **ViewPager**\n * Integrated End of List Listener for use of detecting when the user has scrolled to the bottom.\n * Maven Support.\n * Indicators to show the user when a Pull-to-Refresh is available.\n * Support for **ListFragment**!\n * Lots of [Customisation](https://github.com/chrisbanes/Android-PullToRefresh/wiki/Customisation) options!\nRepository at <https://github.com/chrisbanes/Android-PullToRefresh>.\n## Sample Application\nThe sample application (the source is in the repository) has been published onto Google Play for easy access:\n[](http://play.google.com/store/apps/details?id=com.handmark.pulltorefresh.samples)\n## Usage\nTo begin using the library, please see the [Quick Start Guide](https://github.com/chrisbanes/Android-PullToRefresh/wiki/Quick-Start-Guide) page.\n### Customisation\nPlease see the [Customisation](https://github.com/chrisbanes/Android-PullToRefresh/wiki/Customisation) page for more information on how to change the behaviour and look of the View.\n### Pull Up to Refresh\nBy default this library is set to Pull Down to Refresh, but if you want to allow Pulling Up to Refresh then you can do so. You can even set the View to enable both Pulling Up and Pulling Down using the 'both' setting. See the [Customisation](https://github.com/chrisbanes/Android-PullToRefresh/wiki/Customisation) page for more information on how to set this.\n## Apps\nWant to see which Apps are already using Android-PullToRefresh? Have a look [here](https://github.com/chrisbanes/A",
+   "chrisbanes/cheesesquare": "\nCheesesquare Sample\n===================================\nDemos the new Android Design library. This is not an exhaustive sample, but shows\nsome of the important features in the Design library:\n- Collapsing Toolbar\n- FloatingActionButton\n- View anchoring\n- NavigationView\n- Snackbar\nPre-requisites\n--------------\n- Android SDK v22\n- Android Build Tools v22.0.1\n- Android Support Repository r16 (for v22.2.1)\nLicense\n-------\nCopyright 2014 The Android Open Source Project, Inc.\nLicensed to the Apache Software Foundation (ASF) under one or more contributor\nlicense agreements.  See the NOTICE file distributed with this work for\nadditional information regarding copyright ownership.  The ASF licenses this\nfile to you under the Apache License, Version 2.0 (the \"License\"); you may not\nuse this file except in compliance with the License.  You may obtain a copy of\nthe License at\nhttp://www.apache.org/licenses/LICENSE-2.0\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT\nWARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the\nLicense for the specific language governing permissions and limitations under\nthe License.\n",
+   "chrisbanes/tivi": "# Tivi has now deprecated\nAfter roughly 9 years of development, I've decided that now (12th November 2024) is the time for Tivi to be 'complete'. After releasing 1.0.0 recently, I unfortunately just don't have the time or inclination to keep developing the app.\nAnother reason which has prompted this change is that I have no intention of allowing Google Play to publish my home address (through it's '[verification](https://support.google.com/googleplay/android-developer/answer/14177239?hl=en)' process), therefore my developer account has been restricted and locked. C'est la vie. \nI've also delisted the app on the iOS App Store.\nThanks to everyone who has used and tested the app. I hope that it's been useful to learn from.\n🫡\n---\nTivi is a TV show tracking application which connects to [Trakt.tv](https://www.trakt.tv). It has been updated over the years to target a number of platforms, built upon Kotlin Multiplatform and Compose Multiplatform.\n## Download\n<a href=\"https://play.google.com/store/apps/details?id=app.tivi\" target=\"_blank\">\n</a>\n## Platforms\n### Android\nTivi started out as an open source Android app, showcasing cutting technologies through its development. The codebase was transformed in late-2022 to be built upon [Kotlin Multiplatform](https://kotlinlang.org/docs/multiplatform.html), allowing us to re-use a large proportion of the code across different platforms.\n### iOS\nThe iOS app is well maintained (the main developers uses it daily). To aid development time, most of the UIs are shared with the Android app, enabled through [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/).\n### Desktop JVM\nTivi is built for Desktop running as a Java app. Unfortunately we don’t have feature parity on the desktop target due to either missing APIs, or lack of priority by the maintainer to implement them. However the basics of the app do work.\n## Development Setup\n### Android and Desktop\nTivi is a standard Gradle project which can be opened in recent versions of Android Studio or IntelliJ.\n- The Android application module is located at [android-app/app/](android-app/app) (`:android-app:app`).\n- The Desktop application module is located at [deskt"
+  }
+ },
+ "apps": []
+}

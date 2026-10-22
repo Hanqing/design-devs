@@ -1,0 +1,170 @@
+{
+ "name": "Kevin Ma",
+ "role": "独立开发者 · SentiaRead 作者 · AI 内容创作者 · 前创业公司合伙人",
+ "title": "Kevin Ma：<em>被迫独立</em>的第三年",
+ "dek": "TA 有十六年产品研发经验，做过移动应用、高并发后端和物联网系统：GitHub 自述设计过连接数十万台设备的 IoT 平台，支撑过数十亿次 API 请求。2023 年底，原公司调整架构、把研发团队迁往其他城市，TA 选择离开一线城市，开始「被迫独立开发」：第一年靠外包挣了 35 万元，第二年收入骤降，产品还没起色。2026 年，TA 推出了 AI 英文阅读器 SentiaRead，同时在 X 和博客上分享用 Claude 处理公司事务、用 Agent 开发产品的方法。",
+ "card": "SentiaRead 作者；16 年研发经验的独立开发者与 AI 内容创作者，前创业公司合伙人。",
+ "location": "中国",
+ "updated": "2026-10-22",
+ "tags": ["独立开发", "AI 应用", "英语学习", "物联网", "Go"],
+ "links": [
+  {"label": "Kevin Ma 个人主页", "url": "https://kevinma2010.net/bio/"},
+  {"label": "SentiaRead", "url": "https://sentiaread.com"},
+  {"label": "博客", "url": "https://kevinma2010.net"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「独立开发者，开发了 sentiaread.com，让英文阅读更容易理解」；个人主页「资深独立开发者 · AI 内容创作者，前创业公司合伙人 · 16 年产品研发经验 · 曾服务千万用户」。",
+  "<strong>代表作：</strong>SentiaRead（iPhone、iPad、Android、Mac、Windows、墨水屏、Chrome）、Smart Tab Switcher、signal-craft、kevin-skills；早年的 jfinal-api-scaffold、hexo-theme-vno、sunflower-ioc。",
+  "<strong>关键数字：</strong>X 关注者约 1.6 万、推文近 1 万条（2024 年 4 月才注册）；独立第一年外包收入 35 万元。",
+  "<strong>信条：</strong>「活下去永远是最重要的。」"
+ ],
+ "lead": "「今年是我被迫独立开发的第二年，头一年做外包赚了 35 万，今年还在为生计发愁。」2025 年 9 月，Kevin 写下这句话，没有粉饰。两个月后，TA 又写了一篇《为什么我说现在是个人开发者最好的时代》：用 AI Agent 两个月独立开发出一款完整的产品后，TA 对「被 AI 取代」有了不一样的看法。这款产品就是 SentiaRead。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者、AI 内容创作者"],
+     ["所在地", "中国（2016 年博客写过在深圳的生活）"],
+     ["经历", "16 年产品研发；前创业公司合伙人；2023 年底起独立开发"],
+     ["专长", "Go、Java、React Native；高并发分布式系统；大规模 IoT"],
+     ["公司", "SentiaRead 的 App Store 开发者为 PathLink Digital"],
+     ["服务", "网站 / App / 智能硬件定制开发、一对一咨询"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "SentiaRead 是一款 <strong>AI 英文阅读器</strong>：把你本来就想读的小说、文章和网页变成学习材料。读到生词时，它给出贴合上下文的释义，而不是一串生硬的翻译；遇到绕来绕去的长句，它帮你拆开；查过的词会在之后的阅读里反复出现，帮你真正记住。"},
+    {"p": "在 X 和博客上，Kevin 分享的是一个独立开发者的「全栈」生活：怎样用 Claude Code 给每类公司事务建目录、积累上下文、完成一次银行合规核查；怎样把美国公司的银行从一家迁到另一家；以及回音法这样的英语学习方法。"},
+    {"note": "本页依据 kevinma2010.net（个人主页与博客）、sentiaread.com、App Store、GitHub 个人 README 与仓库和 X 资料整理，资料截至 2026 年 10 月。前公司名称未公开，本页不作推断；家庭内容未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012–2016", "title": "Java 与 Node.js", "text": "开源 Java IoC 小工具、给 App 做 HTTP API 的脚手架、Hexo 主题；2016 年写 Nginx 日志异常监控和自驱力。"},
+     {"when": "2016–2023", "title": "创业与 IoT", "text": "作为创业公司合伙人，做移动应用、物联网平台和高并发服务；2020 年起写 Go 代码生成器和 AST 解析库。"},
+     {"when": "2023 年底", "title": "被迫独立", "text": "原公司拆分研发团队并迁往其他城市，TA 选择离开。"},
+     {"when": "2024", "title": "外包第一年", "text": "4 月起通过前合伙人接到 App 外包，约 8 个月收入 35 万元；4 月注册 X。"},
+     {"when": "2025", "title": "低谷与转向", "text": "外包收入只剩几万元；发布 Smart Tab Switcher；年底写《为什么我说现在是个人开发者最好的时代》。"},
+     {"when": "2026", "title": "SentiaRead", "text": "3 月上架 App Store，覆盖七个平台；发布 signal-craft 与个人 Skill 集。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SentiaRead", "url": "https://sentiaread.com",
+     "meta": ["2026", "全平台", "AI 英语阅读"],
+     "paras": [
+      "官网把痛点写得很具体：查词打断思路、每个词都认识却读不懂句子、背过的单词在文章里又不认识、读两页英文就犯困。SentiaRead 用上下文释义、长句拆解、生词复现来逐一解决。",
+      "它支持 iPhone、iPad、Android、Mac、Windows、墨水屏设备和 Chrome，并跨设备同步。"
+     ],
+     "facts": [["App Store", "v1.18.0（2026-10）"]]
+    }},
+    {"work": {
+     "name": "Smart Tab Switcher", "url": "https://github.com/kevinma2010/smart-tab-switcher",
+     "meta": ["2025", "浏览器扩展"],
+     "paras": [
+      "⌘⇧K 唤起，模糊搜索标签页和书签，用前缀切换模式（b: 书签、u: 网址、g: 谷歌），按相关度、频率和使用习惯排序。上架 Chrome 和 Firefox 商店。"
+     ]
+    }},
+    {"work": {
+     "name": "signal-craft", "url": "https://github.com/kevinma2010/signal-craft",
+     "meta": ["2026", "TypeScript"],
+     "paras": [
+      "一个开源的 AI 情报 Agent，用来追踪建造者、一手信源和前沿话题。"
+     ]
+    }},
+    {"table": {
+     "cols": ["早期作品", "年份", "说明"],
+     "rows": [
+      ["jfinal-api-scaffold", "2015", "为 App 开发 HTTP API 的 Java 脚手架（★153）"],
+      ["hexo-theme-vno", "2014", "把 onevcat 的 Ghost 主题 Vno 移植到 Hexo（★156）"],
+      ["sunflower-ioc", "2014", "一个很小的 Java IoC 工具"],
+      ["go-rocket", "2020", "生成 HTTP / gRPC 服务的 Go 代码生成器"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://kevinma2010.net/bio/", "paras": [
+     "Bio 页是一张名片：一句定位、三行履历、四个社交图标，以及 SentiaRead、定制开发和一对一咨询三个入口，还有一个手机扫码查看的二维码。",
+     "博客跨度很大：2016 年的深圳春夏和自驱力，2018–2019 年的年终总结，然后是 2025–2026 年密集的独立开发、AI 工作流和英语学习文章。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Cloudflare 托管"],
+      ["结构", "Bio 名片 + 博客 + 服务页"],
+      ["内容", "独立开发复盘、Claude 工作流、英语学习"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-08-16", "title": "grill-me：让 AI 帮你找出方案里的盲区", "url": "https://kevinma2010.net"},
+     {"date": "2026-06-22", "title": "我怎么用 Claude 处理公司事务", "url": "https://kevinma2010.net/posts/claude-company-workflow/"},
+     {"date": "2025-12-27", "title": "为什么我说现在是个人开发者最好的时代", "url": "https://kevinma2010.net/posts/best-era-for-indie-developers/"},
+     {"date": "2025-12-20", "title": "独立开发者，别只顾着写代码", "url": "https://kevinma2010.net"},
+     {"date": "2025-09-11", "title": "被迫独立开发的第二年", "url": "https://kevinma2010.net/posts/2025-indie-hacker-journey/"}
+    ]},
+    {"quote": "活下去永远是最重要的。", "cite": "Kevin Ma，《被迫独立开发的第二年》"},
+    {"p": "TA 给还在上班的人的建议很务实：先想清楚收入来源和生活开销，用业余时间快速上线多个产品试错，把更多精力放在 SEO 和营销上，等有了稳定的正反馈再辞职。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["经验", "16 年研发，后端、移动、IoT 都做过", "—"],
+      ["坦诚", "公开收入起伏和教训", "—"],
+      ["产品", "SentiaRead 覆盖七个平台", "上线不久，评分样本少"],
+      ["商业", "外包、咨询、产品多条腿", "产品收入尚未稳定"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>先活下去：</strong>外包和咨询能给产品争取时间。",
+     "<strong>别只顾写代码：</strong>营销和 SEO 同样重要。",
+     "<strong>用 Agent 放大一个人：</strong>两个月做出一款完整产品。",
+     "<strong>给事务建上下文：</strong>每类事一个目录，让 AI 越来越懂你。",
+     "<strong>做自己需要的东西：</strong>想读英文原著，就做一个阅读器。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "被迫独立开发的第二年", "url": "https://kevinma2010.net/posts/2025-indie-hacker-journey/", "why": "一份不粉饰的独立开发复盘。"},
+     {"name": "SentiaRead", "url": "https://sentiaread.com", "why": "用 AI 读一本你一直想读的英文书。"},
+     {"name": "我怎么用 Claude 处理公司事务", "url": "https://kevinma2010.net/posts/claude-company-workflow/", "why": "把 AI 用在写代码之外。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "算一算：如果明天开始独立开发，你的存款能撑几个月？",
+ "sources": [
+  {"label": "Kevin Ma 的 X 个人资料", "url": "https://x.com/kevinma_dev_zh"},
+  {"label": "Kevin Ma 个人主页", "url": "https://kevinma2010.net/bio/"},
+  {"label": "被迫独立开发的第二年", "url": "https://kevinma2010.net/posts/2025-indie-hacker-journey/"},
+  {"label": "SentiaRead", "url": "https://sentiaread.com"},
+  {"label": "GitHub：kevinma2010", "url": "https://github.com/kevinma2010"},
+  {"label": "App Store：SentiaRead", "url": "https://apps.apple.com/us/app/sentiaread-ai-english-reader/id6756271685"}
+ ]
+}

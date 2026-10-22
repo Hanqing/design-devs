@@ -1,0 +1,163 @@
+{
+ "name": "余弦（Cos）",
+ "role": "慢雾科技（SlowMist）创始人 · 安全研究者 · 《Web 前端黑客技术揭秘》作者",
+ "title": "余弦：在区块链<em>黑暗森林</em>里写自救手册",
+ "dek": "他是中国 Web 安全圈的老牌黑客：曾任知道创宇技术副总裁、带领 404 安全团队，参与打造漏洞平台 Seebug 和网络空间搜索引擎 ZoomEye，写过畅销书《Web 前端黑客技术揭秘》。2018 年 1 月，他创办慢雾科技，转向区块链生态安全。他写的《区块链黑暗森林自救手册》被翻译成日、韩、阿拉伯、印尼等多种语言，教普通人保护自己的加密资产；2026 年，慢雾又发布了面向高权限 AI Agent 的安全实践指南。",
+ "card": "慢雾科技创始人；《区块链黑暗森林自救手册》《Web 前端黑客技术揭秘》作者，前知道创宇技术副总裁。",
+ "location": "中国",
+ "updated": "2026-10-22",
+ "tags": ["网络安全", "区块链安全", "Web 安全", "AI Agent 安全", "开源"],
+ "links": [
+  {"label": "GitHub：evilcos", "url": "https://github.com/evilcos"},
+  {"label": "黑暗森林自救手册", "url": "https://darkhandbook.io/"},
+  {"label": "慢雾科技", "url": "https://www.slowmist.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Founder of @SlowMist_Team // 分身一号 / 捉虫大师 / 救火运动员」；GitHub 自述：「A hacker. HACK TO CREATE.」",
+  "<strong>代表作：</strong>《区块链黑暗森林自救手册》（★6.9 千）、OpenClaw 安全实践指南（★2.8 千）、slowmist-agent-security Skill、papers（★2.2 千）、XSS'OR（★2.2 千）、《Web 前端黑客技术揭秘》。",
+  "<strong>关键数字：</strong>X 关注者约 12.6 万；慢雾成立于 2018 年 1 月；GitHub 粉丝 6,300。",
+  "<strong>信条：</strong>真正的黑客至少要有两种核心能力：发现 0day 的能力，和把攻防方案工程化的能力。"
+ ],
+ "lead": "「掌握这些，你就掌握了加密资产的安全。」《区块链黑暗森林自救手册》开头这样写。区块链世界像一片黑暗森林：钓鱼签名、恶意授权、假钱包、供应链投毒，一个确认按钮就可能让你损失全部资产。余弦把多年安全事件应急的经验写成了一本普通人也能读懂的手册，开源、免费、多语言，还在持续更新。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "安全研究者、创业者、技术作者"],
+     ["所在地", "中国"],
+     ["经历", "知道创宇技术副总裁、404 团队负责人 → 2018 年创办慢雾科技"],
+     ["知道创宇时期", "参与打造 Seebug 漏洞平台、ZoomEye 网络空间搜索引擎和安全大会"],
+     ["著作", "《Web 前端黑客技术揭秘》；《区块链黑暗森林自救手册》"],
+     ["社区", "Joinsec Red Team 联合创始人；Telegram 频道「灾备」"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "慢雾科技是一家<strong>区块链安全公司</strong>：做智能合约与交易所审计、安全事件应急响应、链上资金追踪和反洗钱情报。余弦本人常在 X 上第一时间分析钓鱼与盗币事件，提醒用户避坑，他自嘲是「救火运动员」。"},
+    {"p": "2025 年起，他把注意力扩展到 AI Agent 安全：慢雾发布了面向高权限自主 Agent 的安全实践指南，主张从「基于主机的静态防御」转向「Agent 零信任架构」；还有一个给 Agent 用的安全审查 Skill，核心原则是：「每一个外部输入在验证前都不可信。」他也公开过一个打开项目文件夹即可能触发命令执行的编辑器配置问题的概念验证。"},
+    {"note": "本页依据 GitHub 个人 README 与慢雾相关仓库、慢雾官网、36 氪与安全内参等报道和 X 资料整理，资料截至 2026 年 10 月。本页不展开任何攻击技术细节。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2008–2011", "title": "Web 安全研究", "text": "2008 年注册 Twitter，在博客 evilcos.me 上写 Web 前端安全研究。"},
+     {"when": "知道创宇", "title": "404 团队", "text": "任技术副总裁、带领 404 团队，参与打造 Seebug、ZoomEye 和安全大会；开源 XSS 与 Cookie 相关的研究工具。"},
+     {"when": "2013 前后", "title": "《Web 前端黑客技术揭秘》", "text": "出版这本 Web 前端安全畅销书，配套网站 web2hack.org。"},
+     {"when": "2018", "title": "慢雾科技", "text": "1 月创办慢雾，转向区块链生态安全。"},
+     {"when": "2022–2023", "title": "黑暗森林自救手册", "text": "发布《区块链黑暗森林自救手册》并持续扩展，配套网站 darkhandbook.io。"},
+     {"when": "2025–2026", "title": "AI Agent 安全", "text": "发布加密资产追踪手册、Storage Inspector 扩展、OpenClaw 安全实践指南与 Agent 安全 Skill；用 AI IDE 做了一个小空战网页游戏。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "区块链黑暗森林自救手册", "url": "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook",
+     "meta": ["2022–", "开源手册", "★6.9 千"],
+     "paras": [
+      "面向普通用户的加密资产安全指南：钱包怎么选、私钥怎么存、签名前看什么、被盗后怎么办。中文版之外，社区志愿者翻译了日语、韩语、阿拉伯语和印尼语版本。"
+     ],
+     "facts": [["网站", "darkhandbook.io"]]
+    }},
+    {"work": {
+     "name": "OpenClaw 安全实践指南", "url": "https://github.com/slowmist/openclaw-security-practice-guide",
+     "meta": ["2026", "AI Agent 安全", "★2.8 千"],
+     "paras": [
+      "专为高权限自主 AI Agent 设计，而且写给 Agent 自己读，而不只是一份给人看的加固清单。它关注破坏性操作、提示词注入、供应链投毒和高风险业务逻辑，README 反复提醒先读免责声明和常见问题。"
+     ]
+    }},
+    {"work": {
+     "name": "《Web 前端黑客技术揭秘》", "url": "https://web2hack.org",
+     "meta": ["图书", "Web 安全"],
+     "paras": [
+      "中文 Web 安全领域的经典读物之一，系统讲解浏览器与前端相关的攻防原理。余弦在 papers 仓库里把它和自救手册列为自己最重要的公开作品。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["slowmist-agent-security", "2026", "Agent 安全审查 Skill（★510）"],
+      ["papers", "2014–", "公开论文与演讲合集（★2.2 千）"],
+      ["XSS'OR", "2017", "前端安全研究工具集：编解码、代码片段与探针（★2.2 千）"],
+      ["Storage Inspector", "2025", "给安全研究者查看和编辑浏览器存储的扩展"],
+      ["BIP39 助记词恢复计算器", "2024", "帮助恢复残缺助记词的离线工具"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "线上形象研究",
+   "blocks": [
+    {"site": {"url": "https://github.com/evilcos", "paras": [
+     "他的 X 主页链接直接指向 GitHub。个人 README 很短：「一个黑客，对一切有趣的东西好奇，包括计算机、AI 和日常生活。」老博客 evilcos.me 他自己说「已成历史」。",
+     "真正的内容在 X 长帖里：每次重大安全事件，他都会写一串分析，并把重要的帖子整理到黑手册仓库的「扩展阅读」里。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["阵地", "X 长帖、GitHub、Telegram 频道"],
+      ["风格", "短、快、实战"],
+      ["受众", "加密用户、安全从业者、开发者"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "To me, a true hacker needs to possess at least two core abilities: the ability to discover 0days and the ability to engineer hacking solutions.", "cite": "余弦，GitHub 个人 README"},
+    {"p": "他的另一句口号是「HACK TO CREATE」：黑客技术的意义在于创造，而创造的一部分，就是把防御经验写成人人都能用的手册和工具。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["专业", "Web 与区块链安全一线经验", "—"],
+      ["普及", "自救手册把安全知识带给普通人", "—"],
+      ["前瞻", "较早关注 AI Agent 安全", "相关实践仍在快速变化"],
+      ["公开信息", "作品与观点公开", "个人博客已停更，内容分散在 X 上"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把经验写成手册：</strong>应急响应的教训应该让更多人受益。",
+     "<strong>每个外部输入都不可信：</strong>对 Agent 和对人一样。",
+     "<strong>签名前看清楚：</strong>一次确认可能损失全部资产。",
+     "<strong>发现问题，也要工程化地解决：</strong>黑客的两种能力。",
+     "<strong>开源、多语言：</strong>安全知识不该有门槛。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "区块链黑暗森林自救手册", "url": "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_CN.md", "why": "持有加密资产的人都该读一遍。"},
+     {"name": "OpenClaw 安全实践指南", "url": "https://github.com/slowmist/openclaw-security-practice-guide", "why": "给你的 Agent 加上零信任护栏。"},
+     {"name": "papers", "url": "https://github.com/evilcos/papers", "why": "他多年的公开演讲与论文。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "检查一下你的钱包授权列表，撤销那些你已经不再使用的授权。",
+ "sources": [
+  {"label": "余弦的 X 个人资料", "url": "https://x.com/evilcos"},
+  {"label": "GitHub：evilcos", "url": "https://github.com/evilcos"},
+  {"label": "slowmist/Blockchain-dark-forest-selfguard-handbook", "url": "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook"},
+  {"label": "慢雾科技六周年", "url": "https://www.slowmist.com/6year/"},
+  {"label": "余弦相关报道（36 氪）", "url": "https://www.36kr.com/p/1722466697217"},
+  {"label": "余弦分享（安全内参）", "url": "https://www.secrss.com/articles/14744"}
+ ]
+}

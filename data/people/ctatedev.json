@@ -1,0 +1,163 @@
+{
+ "name": "Chris Tate",
+ "role": "Vercel Labs 工程师 · agent-browser、json-render、portless、scriptc 作者",
+ "title": "Chris Tate：为 <em>Agent</em> 重新造一遍开发工具",
+ "dek": "他的个人网站写着「Building for the web since 1997」。在 Vercel，他参与了 v0 的平台 API、模型 API、SDK 和 MCP；后来在 Vercel Labs 连续发布了一串给 AI Agent 用的开发工具：用 Rust 写的浏览器自动化命令行 agent-browser（★4.4 万），让大模型安全生成界面的 json-render（★1.9 万），把端口号换成好记名字的 portless，把 TypeScript 编译成原生可执行文件的 scriptc，以及核心用 Zig 写、编译到 WebAssembly 的网页终端 wterm。他住在得克萨斯州奥斯汀，也是音乐人、太空迷和素食者。",
+ "card": "Vercel Labs；agent-browser（★4.4 万）、json-render（★1.9 万）、scriptc、portless、wterm 作者，奥斯汀。",
+ "location": "美国得克萨斯州奥斯汀",
+ "updated": "2026-10-22",
+ "tags": ["AI Agent", "开发者工具", "Vercel", "Rust", "TypeScript"],
+ "links": [
+  {"label": "ctate.dev", "url": "https://ctate.dev"},
+  {"label": "agent-browser", "url": "https://agent-browser.dev"},
+  {"label": "GitHub：ctate", "url": "https://github.com/ctate"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「@Vercel Labs | Created agent-browser.dev, portless.sh, json-render.dev, scriptc.dev | Musician, Space Nerd, Foodie | Vegan」。",
+  "<strong>代表作：</strong>agent-browser（★44,432）、json-render（★18,761）、scriptc（★6,372）、wterm（★3,511）、portless、emulate、webreel、visual-json；v0 Platform API / SDK / MCP。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 18,244 次；X 关注者约 6.9 万；个人网站「Recent Ships」列出 40 多个作品。",
+  "<strong>风格：</strong>每个工具的文档页都有「Copy for LLM」和「View Markdown」按钮，从第一天就写给 Agent 读。"
+ ],
+ "lead": "agent-browser 的文档开头写着它的设计原则：Agent 优先。输出是紧凑的文本，而不是 JSON，因为这样更省 token；页面快照返回带引用编号的无障碍树，让 Agent 能确定地选中元素；五十多个命令覆盖导航、表单、截图、网络、存储和调试。这是 Chris 一系列工具的共同出发点：如果用户不再是人，而是 Agent，开发工具应该长什么样？",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师（Vercel Labs）"],
+     ["所在地", "美国得克萨斯州奥斯汀"],
+     ["经历", "1997 年开始做 Web；2015 年前后做 Autocode / crystal.sh 代码生成工具；Vercel：v0 平台与 SDK → Vercel Labs"],
+     ["代表作", "agent-browser、json-render、scriptc、wterm、portless、emulate、webreel、visual-json、opensrc"],
+     ["技术栈", "TypeScript、Rust、Zig、Swift"],
+     ["爱好", "音乐、太空、美食"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Chris 在 Vercel Labs 做的是<strong>为 Agent 时代重新设计的开发者基础设施</strong>。agent-browser 让编程 Agent 能可靠地操作浏览器、录像、看网络请求和 Web Vitals；portless 把 localhost:3000 换成 https://myapp.localhost 这样稳定好记的地址，「为人类，也为 Agent」；json-render 把大模型生成的界面限制在你定义好的组件和动作里，兼顾灵活与安全。"},
+    {"p": "scriptc 走得更远：利用 TypeScript 编译器检查过的类型直接生成机器码，输出的程序不需要安装 Node.js 就能运行，依赖的 npm 包也一起编译；无法编译的代码会在构建时给出诊断。"},
+    {"note": "本页依据 ctate.dev、各工具官网与 GitHub README 和 X 资料整理，资料截至 2026 年 10 月。他加入 Vercel 之前的经历公开资料很少，本页只引用其网站和仓库中的信息；家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "1997", "title": "开始做 Web", "text": "个人网站标语「Building for the web since 1997」。"},
+     {"when": "2015", "title": "Autocode", "text": "做代码生成工具 Autocode（crystal.sh）及其 Atom 插件。"},
+     {"when": "2023–2024", "title": "AI 小工具", "text": "把 ChatGPT 和 Vercel 控制台放进 Mac 菜单栏；用 AI 生成界面的 Codeless；Swift 写的多模型客户端 Crystal；OpenUI 规范。"},
+     {"when": "2024–2025", "title": "v0 平台", "text": "参与 v0 Platform API、Model API、SDK、MCP 和 VS Code 扩展；做 3D 模型生成器等 v0 社区模板。"},
+     {"when": "2025–2026", "title": "Vercel Labs", "text": "发布 agent-browser、json-render、portless、scriptc、wterm、emulate、webreel 等；探索 zerolang 语言与 zero-native 框架。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "agent-browser", "url": "https://agent-browser.dev",
+     "meta": ["Rust", "CLI", "★4.4 万"],
+     "paras": [
+      "给 AI Agent 用的浏览器自动化命令行，100% 原生 Rust。可以用 npm、Homebrew 安装，也能 npx 免安装试用；内置录像、串流、调试、性能分析和差异对比，支持网络控制、React 与 Web Vitals 观测。"
+     ],
+     "facts": [["GitHub", "★44,432"]]
+    }},
+    {"work": {
+     "name": "json-render", "url": "https://json-render.dev",
+     "meta": ["TypeScript", "生成式 UI", "★1.9 万"],
+     "paras": [
+      "「The Generative UI framework.」用提示词生成仪表盘、小组件甚至应用，但输出被约束在预先定义的组件和动作里，结果安全、可预测。提供 React 和 shadcn/ui 预置组件包。"
+     ],
+     "facts": [["GitHub", "★18,761"]]
+    }},
+    {"work": {
+     "name": "scriptc", "url": "https://github.com/vercel-labs/scriptc",
+     "meta": ["TypeScript → 原生", "★6.4 千"],
+     "paras": [
+      "把 TypeScript 和 JavaScript 编译成原生可执行文件和 WebAssembly。它用类型信息生成机器码，产物不依赖 Node.js 运行时。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["wterm", "网页终端模拟器，核心用 Zig 写并编译为 WASM，渲染到 DOM 以支持原生选择、查找和无障碍（★3.5 千）"],
+      ["portless", "用命名的 .localhost 地址代替端口号"],
+      ["3D Model Generator", "用 AI 生成 3D 模型的 v0 模板（★269）"],
+      ["OpenUI", "AI 原生的界面描述规范"],
+      ["emulate / webreel / visual-json", "Vercel Labs 的其他实验库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://ctate.dev", "paras": [
+     "首页就是一张「Recent Ships at ▲」清单：语言、规范、框架、库、模板、游戏、艺术作品，每一项标注类型。没有长篇自述，作品本身就是介绍。",
+     "清单里既有严肃的基础设施（zerolang、zero-native、wterm），也有好玩的小东西：游戏 Type-Z 和 SEV0、霓虹迷宫、半调波纹和 Next.js Conf 的 3D 标志。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Vercel 托管"],
+      ["结构", "单页作品清单"],
+      ["工具文档", "统一提供 Copy for LLM 与 Markdown 视图"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Replace port numbers with stable, named .localhost URLs. For humans and agents.", "cite": "portless 官网"},
+    {"p": "「For humans and agents」几乎是他所有工具的副标题：同一个工具，既要让人用得舒服，也要让 Agent 用得准确、省 token。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产出", "一年内发布多个高星开源工具", "—"],
+      ["设计", "Agent 优先、文档友好", "—"],
+      ["成熟度", "迭代快", "多数工具仍处早期（如 portless 未到 1.0）"],
+      ["公开信息", "作品透明", "个人经历资料很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把 Agent 当成用户：</strong>输出要紧凑、可确定。",
+     "<strong>文档也给 LLM 读：</strong>一键复制 Markdown。",
+     "<strong>约束让生成更可靠：</strong>json-render 只用你定义的组件。",
+     "<strong>小痛点也值得做成工具：</strong>端口号就是一个。",
+     "<strong>持续发布：</strong>作品清单就是最好的简历。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "agent-browser", "url": "https://agent-browser.dev", "why": "让你的编程 Agent 学会用浏览器。"},
+     {"name": "json-render", "url": "https://json-render.dev", "why": "安全地让 AI 生成界面。"},
+     {"name": "ctate.dev", "url": "https://ctate.dev", "why": "看一份由作品组成的个人主页。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 npx agent-browser open 打开你自己的网站，看看 Agent 眼中的页面长什么样。",
+ "sources": [
+  {"label": "Chris Tate 的 X 个人资料", "url": "https://x.com/ctatedev"},
+  {"label": "ctate.dev", "url": "https://ctate.dev"},
+  {"label": "agent-browser", "url": "https://agent-browser.dev"},
+  {"label": "json-render", "url": "https://json-render.dev"},
+  {"label": "portless", "url": "https://portless.sh"},
+  {"label": "GitHub：ctate", "url": "https://github.com/ctate"}
+ ]
+}

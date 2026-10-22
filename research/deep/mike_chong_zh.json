@@ -1,0 +1,72 @@
+{
+ "handle": "mike_chong_zh",
+ "sites": [
+  {
+   "url": "https://realmikechong.com",
+   "ok": true,
+   "title": "Mike Chong – Software Engineer & Technical Leader",
+   "description": "Experienced software engineer and technical leader. Building scalable solutions and documenting the journey.",
+   "stack": [
+    "Next.js",
+    "Google Analytics",
+    "Google Fonts",
+    "React",
+    "Substack"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Next.js"
+   ],
+   "lang": "en",
+   "home_text": "Mike Chong Mike Chong \n Newsletter \nHello \nMike Chong \nExploring my turn of life \nEngineer by day, aspiring creator by night. Former Microsoft engineer, now building AI solutions and sharing insights about technology, growth, and entrepreneurship. \nWriting \n Thank You Microsoft for the Sponsorship. I May Never Use Azure Again. Aug 2026 · 8 min read \n How to know if you have GPT-5.6 access of OpenAI ChatGPT / Codex in June 2026 Jun 2026 · 1 min read \n Two Books Everyone Should Read in the AI Age: The Pathless Path & The Good Work Apr 2026 · 7 min read \n Apple Is Quietly Terminating Developer Accounts, And We Had No Idea Mar 2026 · 4 min read \n Production Code Is Dead. Long Live Test Code. Mar 2026 · 7 min read \n Convex is Not Efficient for AI-First Devs Sep 2025 · 2 min read \n Shopify CEO on the Future of Software Engineering and AI Sep 2025 · 7 min read \n OpenAI Codex CLI AMA: Key Insights from the Team's Internal Usage Sep 2025 · 5 min read \n 10,000 hours vibe coding experience: My reaction to reddit post: \"How we vibe code at a FAANG.\" Sep 2025 · 5 min read \n The Subscription-Based OpenAI Codex is Super Cheap Sep 2025 · 2 min read \n Let's End Merchants of Complexity Together (Thank You DHH) Sep 2025 · 7 min read \n Goodbye, Search Box. Hello, Chat Box. Sep 2025 · 4 min read \n DHH Is Wrong: Rails Isn’t a Great Fit for AI‑Era Development Aug 2025 · 4 min read \n The Dream is Dead: Xcode on iPad? Who Cares! Jun 2025 · 2 min read \n Why Apple is facing Backlash with the Liquid Glass UI refresh Jun 2025 · 2 min read \n AI Prompt Engineering for Everyone Jun 2025 · 1 min read \n About Mike Chong May 2025 · 1 min read \n Author of The Minimalist Entrepreneur, Sahil Lavingia, Through My Eyes May 2025 · 7 min read \n My Vibe Coding Journey - From GitHub Copilot Beta to Claude Code Jan 2025 · 6 min read \n Welcome to Mike Chong's Blog Jan 2025 · 1 min read \nContact \nFormer Microsoft engineer building AI solutions. Open for consulting and collaborations. \n hello@realmikechong.com Book a consultation →",
+   "github_links": [
+    "imWildCat"
+   ],
+   "subpages": {
+    "https://realmikechong.com/en/article/about": "Mike Chong Mike Chong \n Newsletter \n ← Back to Writing \nAbout Mike Chong \nMay 18, 2025 · 5 min read \nHi there! I’m an engineer by day, aspiring creator by night, and this is my website. I live in Canada. \nI love creating things which can make a better world. \nI used to work at Microsoft for 5 years and am currently starting a business in the AI field. I also recently started making YouTube videos, so feel free to follow my channel. \n https://www.youtube.com/@RealMikeChong \n https://cal.com/michael-chong/30min is my calendar.\nI have paid consultations about AI first strategies or how to architect your full stack app in order to use AI to build it quickly.\nAlternatively, I can also share my view of how to build effective AI-related products which maximize your chance of success."
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "RealMikeChong",
+  "user": {
+   "name": null,
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": null,
+   "public_repos": 2,
+   "followers": 5,
+   "created_at": "2025-06-28T15:40:59Z",
+   "twitter_username": null,
+   "type": "Organization"
+  },
+  "repos": [
+   {
+    "full_name": "RealMikeChong/ultra-mcp",
+    "description": "100x Your Claude Code, Gemini CLI, Cursor and/or any coding tools with MCP client support",
+    "stargazers_count": 277,
+    "forks_count": 20,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-06-28T15:41:40Z",
+    "pushed_at": "2025-08-25T20:29:35Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 1,
+  "languages": [
+   [
+    "TypeScript",
+    1
+   ]
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "RealMikeChong/ultra-mcp": "# Ultra MCP\n> **All Models. One Interface. Zero Friction.**\n[](https://badge.fury.io/js/ultra-mcp)\n[](https://www.npmjs.com/package/ultra-mcp)\n🚀 **Ultra MCP** - A Model Context Protocol server that exposes OpenAI, Gemini, Azure OpenAI, and xAI Grok AI models through a single MCP interface for use with Claude Code and Cursor.\n> Stop wasting time having meetings with human. Now it's time to ask AI models do this.\n## Inspiration\nThis project is inspired by:\n- **[Agent2Agent (A2A)](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)** by Google - Thank you Google for pioneering agent-to-agent communication protocols\n- **[Zen MCP](https://github.com/BeehiveInnovations/zen-mcp-server)** - The AI orchestration server that enables Claude to collaborate with multiple AI models\n## Why Ultra MCP?\nWhile inspired by zen-mcp-server, Ultra MCP offers several key advantages:\n### 🚀 **Easier to Use**\n- **No cloning required** - Just run `npx ultra-mcp` to get started\n- **NPM package** - Install globally with `npm install -g ultra-mcp`\n- **Interactive setup** - Guided configuration with `npx ultra-mcp config`\n- **Zero friction** - From zero to AI-powered coding in under a minute\n### 📊 **Built-in Usage Analytics**\n- **Local SQLite database** - All usage data stored locally using libSQL\n- **Automatic tracking** - Every LLM request is tracked with token counts and costs\n- **Usage statistics** - View your AI usage with `npx ultra-mcp db:stats`\n- **Privacy first** - Your data never leaves your machine\n### 🌐 **Modern Web Dashboard**\n- **Beautiful UI** - React dashboard with Tailwind CSS\n- **Real-time stats** - View usage trends, costs by provider, and model distribution\n- **Easy access** - Just run `npx ultra-mcp dashboard`\n- **Configuration UI** - Manage API keys and model priorities from the web\n### 🔧 **Additional Benefits**\n- **Simplified tools** - Maximum 4 parameters per tool (vs zen's 10-15)\n- **Smart defaults** - Optimal model selection out of the box\n- **TypeScript first** - Full type safety and better developer experience\n- **Regular updates** - Active development with new features weekly\n## Features\n- 🤖 **Multi-Model Support**: Integrate OpenAI (GPT-"
+  }
+ },
+ "apps": []
+}

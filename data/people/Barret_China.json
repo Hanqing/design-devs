@@ -1,0 +1,167 @@
+{
+ "name": "Barret 李靖（小胡子哥）",
+ "role": "AI 工程师 · 阿里系资深工程师 · 技术博主",
+ "title": "小胡子哥：写了十年博客的<em>「有趣的灵魂」</em>",
+ "dek": "他是华中科技大学工学学士，毕业后在杭州的阿里巴巴工作，GitHub 资料显示目前在蚂蚁集团。从 2013 年起，他在「小胡子哥的个人网站」上写前端、性能、算法、读书笔记和生活随笔，一写就是十年；开源过给公众号排版的在线 Markdown 转换器、性能专栏、从 RSS 生成 Kindle 电子书的工具，以及在 Cloudflare Worker 上代理 ChatGPT API 的小项目。如今他的 X 简介写着「AI Engineer | Cloud Native」，2026 年发布了一个用证据追踪 AI 行业动态的开源项目 Agent Pulse。",
+ "card": "AI 工程师，阿里 / 蚂蚁；online-markdown、性能专栏、Agent Pulse 作者，「小胡子哥」，杭州。",
+ "location": "中国杭州",
+ "updated": "2026-10-22",
+ "tags": ["前端", "性能", "云原生", "AI 工程", "博客"],
+ "links": [
+  {"label": "小胡子哥的个人网站", "url": "https://www.barretlee.com"},
+  {"label": "GitHub：barretlee", "url": "https://github.com/barretlee"},
+  {"label": "Agent Pulse", "url": "https://barretlee.github.io/agent-pulse/"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「AI Engineer | Lifelong Learner | Cloud Native | Sharing insights and experiences | 小胡子哥，一个有趣的灵魂」。",
+  "<strong>代表作：</strong>性能专栏（★1.2 千）、online-markdown（★921）、cloudflare-proxy（★878）、autoconfig-mac-vimrc、blogChat、kindleBookMaker、Agent Pulse（★239）。",
+  "<strong>关键数字：</strong>X 关注者约 8.4 万；GitHub 粉丝 4,700、92 个公开仓库；博客 2013 年至今。",
+  "<strong>背景：</strong>华中科技大学工学学士；关于页写着在杭州的阿里巴巴工作，GitHub 公司栏为 Ant Group。"
+ ],
+ "lead": "2023 年，小胡子哥在博客上问自己：「还写博客么？」这个博客从 2013 年开始，每年都会输出一点东西，写着写着就写了十年；最近两年他在推特上更活跃，长文写得少了。这个问题很多老博主都问过。他的答案是继续保留这块自留地：写服务器 Load 飙高的应急机制，写怎样「构建你自己的信息流」，也写读书笔记和人生感悟。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "AI 工程师、资深工程师、技术博主"],
+     ["所在地", "中国杭州"],
+     ["教育", "华中科技大学，工学学士"],
+     ["公司", "阿里巴巴（关于页）；GitHub 公司栏为蚂蚁集团"],
+     ["方向", "前端与性能 → 云原生与 SRE → AI 工程"],
+     ["技术栈", "JavaScript、TypeScript、Node.js、Shell、Vim"],
+     ["博客", "小胡子哥的个人网站（Hexo，GitHub Pages）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "小胡子哥的作品大多是<strong>给自己和同行解决小麻烦的工具</strong>：公众号排版难，就做一个专门的 Markdown 转换器；想在 Kindle 上读博客，就写一个从 RSS 生成电子书的工具；客户端直连 OpenAI 接口不通，就在 Cloudflare Worker 上写个代理。"},
+    {"p": "2026 年的 Agent Pulse 则更像一个信息产品：把官方发布、论文、资本动向、政策变化和传播信号整理成可追溯的「事件」，再形成会随证据更新的行业判断，每天刷新数据，每周输出决策简报。它的口号是：「给需要做决定的人，而不只是想跟上节奏的人。」"},
+    {"note": "本页依据 barretlee.com（关于页与 RSS）、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。他在公司内的具体团队与职位未见公开说明，本页不作推断；博客中的家庭内容未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "大学", "title": "华中科技大学", "text": "获工学学士学位；2011 年注册 Twitter，2012 年注册 GitHub。"},
+     {"when": "2013", "title": "开始写博客", "text": "博客上线，此后每年都有输出。"},
+     {"when": "2014–2016", "title": "前端工具", "text": "SuperMarker 标注工具、多文件下载、代码片段库、Mac Vim 自动配置、博客聊天室、Kindle 电子书生成器。"},
+     {"when": "2017–2020", "title": "性能与算法", "text": "开设「性能专栏」；用 JavaScript 实现《算法（第 4 版）》全部算法；发布公众号 Markdown 排版工具。"},
+     {"when": "2022–2023", "title": "云原生与 ChatGPT", "text": "写读书笔记和人生随笔；2023 年开源 cloudflare-proxy 和提示词优化生成图片的小工具；写 Load 飙高的应急机制。"},
+     {"when": "2026", "title": "AI 工程", "text": "X 简介改为 AI Engineer；发布 Agent Pulse。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Agent Pulse", "url": "https://github.com/barretlee/agent-pulse",
+     "meta": ["2026", "TypeScript", "★239"],
+     "paras": [
+      "「Evidence-backed AI industry intelligence for people who need to decide, not just keep up.」每条判断都能追溯到来源事件，并标出下一步要观察的信号。GitHub Actions 负责每日数据刷新和来源审计，中英双语。"
+     ]
+    }},
+    {"work": {
+     "name": "online-markdown", "url": "http://md.barretlee.com/",
+     "meta": ["2017–2025", "JavaScript", "★921"],
+     "paras": [
+      "专门为微信公众号排版做的在线 Markdown 转换器，支持切换代码主题、代码横向滚动。被 Fork 了 400 多次，很多技术公众号作者用过它。"
+     ]
+    }},
+    {"work": {
+     "name": "性能专栏", "url": "https://github.com/barretlee/performance-column",
+     "meta": ["2017–2020", "专栏", "★1.2 千"],
+     "paras": [
+      "一个关于 Web 与服务端性能的系列专栏，是他 GitHub 上星数最多的项目。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["cloudflare-proxy", "2023", "Cloudflare Worker 代理 ChatGPT API，支持流式输出（★878）"],
+      ["autoconfig-mac-vimrc", "2016", "Mac 上一键配置 Vim（★510）"],
+      ["blogChat", "2016", "可嵌入博客的聊天室（★498）"],
+      ["kindleBookMaker", "2016", "从 RSS / URL / 目录生成 Kindle 电子书（★415）"],
+      ["algorithms", "2016", "用 JavaScript 实现《算法（第 4 版）》"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.barretlee.com", "paras": [
+     "首页只有标题「小胡子哥的个人网站」和几个符号式链接：「鸟」指向推特，「博」指向微博，「☃」指向 GitHub。博客有夜间模式、目录、留言板和友情链接，是典型的中文技术博客形态。",
+     "关于页用英文写：「To me, life is a colorful adventure.」网站由他「纯手工打造」，源码公开。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Hexo，GitHub Pages"],
+      ["内容", "技术、读书笔记、生活随笔"],
+      ["节奏", "2013–2023 年较密，之后以 X 为主"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2023-10-27", "title": "Load 持续飙高的原理讲解和应急机制", "url": "https://www.barretlee.com/blog/2023/10/27/sre-load-increase/"},
+     {"date": "2023-09-10", "title": "构建你自己的信息流", "url": "https://www.barretlee.com/blog/2023/09/10/build-your-own-timeline/"},
+     {"date": "2023-06-26", "title": "还写博客么？", "url": "https://www.barretlee.com/blog/2023/06/26/blog-writer/"}
+    ]},
+    {"quote": "To me, life is a colorful adventure.", "cite": "Barret 李靖，barretlee.com/about"},
+    {"p": "他的 SRE 文章很实用：Load 连续报警要格外注意；Load 高、CPU 也高就去做 CPU Profile；Load 高、CPU 不高就看 I/O 等待和超时日志，确认是网络问题就直接换机器。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["坚持", "十年博客，持续开源小工具", "—"],
+      ["广度", "前端、性能、SRE、AI 都有涉猎", "单个方向的深度作品较少"],
+      ["影响", "X 上 8 万多关注者", "长文近年明显变少"],
+      ["公开信息", "教育与公司清楚", "具体工作内容公开不多"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>给自己的麻烦写工具：</strong>排版、电子书、代理都是这样来的。",
+     "<strong>保留一块自留地：</strong>社交媒体之外，博客能留住长内容。",
+     "<strong>构建自己的信息流：</strong>主动聚合，而不是被算法喂。",
+     "<strong>判断要有证据：</strong>Agent Pulse 的每条结论都能溯源。",
+     "<strong>应急要有原则：</strong>先看指标组合，再决定动作。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Agent Pulse", "url": "https://barretlee.github.io/agent-pulse/", "why": "用证据追踪 AI 行业。"},
+     {"name": "构建你自己的信息流", "url": "https://www.barretlee.com/blog/2023/09/10/build-your-own-timeline/", "why": "把散落各处的好信息聚到一起。"},
+     {"name": "online-markdown", "url": "http://md.barretlee.com/", "why": "公众号排版利器。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "列出你每天看的五个信息源，试着把它们聚合到一个阅读器里。",
+ "sources": [
+  {"label": "Barret 李靖的 X 个人资料", "url": "https://x.com/Barret_China"},
+  {"label": "小胡子哥的个人网站", "url": "https://www.barretlee.com"},
+  {"label": "关于（barretlee.com）", "url": "https://www.barretlee.com/about/"},
+  {"label": "GitHub：barretlee", "url": "https://github.com/barretlee"},
+  {"label": "barretlee/agent-pulse", "url": "https://github.com/barretlee/agent-pulse"}
+ ]
+}

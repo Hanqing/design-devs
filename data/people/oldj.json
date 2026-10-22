@@ -1,0 +1,173 @@
+{
+ "name": "oldj（老杰）",
+ "role": "SwitchHosts、WonderPen 妙笔、图几作者 · 前阿里巴巴工程师 · 科幻写作者",
+ "title": "oldj：挖一口井，<em>挖了十五年</em>",
+ "dek": "他毕业于中国科学技术大学，在阿里巴巴工作了八年多，如今在杭州一个「小而美」的团队里负责产品和技术。他写的 SwitchHosts 是无数开发者电脑上切换 hosts 的必备工具，2011 年发布，到 2026 年已经 15 岁、有 2.7 万颗星，最近刚从 Electron 换到 Tauri 发布 5.0。这几年他主要在做长文写作软件 WonderPen 妙笔，以及 Mac 截图标注工具图几。他翻译过《JavaScript 权威指南》第 6 版，写科幻小说《川流》《地球上的背包客》和武侠小说《代码英雄传》，博客 oldj.net 从 2010 年写到今天。",
+ "card": "SwitchHosts（★2.7 万）、WonderPen 妙笔、图几作者；前阿里巴巴工程师，《JavaScript 权威指南》译者之一，杭州。",
+ "location": "中国杭州",
+ "updated": "2026-10-22",
+ "tags": ["开源", "写作软件", "Electron / Tauri", "独立开发", "科幻"],
+ "links": [
+  {"label": "oldj's blog", "url": "https://oldj.net"},
+  {"label": "SwitchHosts", "url": "https://switchhosts.app"},
+  {"label": "WonderPen 妙笔", "url": "https://wonderpen.app"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「程序员，科幻迷，业余写作爱好者。翻译过一些技术书，开发了并维护着 WonderPen、Tuji、SwitchHosts 等项目」；博客副标题「编程，写作，以及涂鸦」。",
+  "<strong>代表作：</strong>SwitchHosts（★27,304）、WonderPen 妙笔（全平台写作软件）、图几 Tuji（Mac 截图）、ccReader、喵语翻译（★634）、HTML5 塔防游戏、pyHeatMap、Publa 博客系统。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 9,657 次；博客 16 年；X 关注者约 1.4 万。",
+  "<strong>译著：</strong>《JavaScript 权威指南（第 6 版）》《jQuery Mobile 即学即用》《Web 性能实践日志》（均为译者之一）。"
+ ],
+ "lead": "2026 年 7 月，oldj 写了一篇短文《挖井》。AI 让做软件的门槛大大降低，他经常看到有人说，每个月 vibe 一个 App，不成就换，做 n 个总有一个会成。这让他想起一幅流传很广的漫画：一个人挖井，挖一段没见到水就换个地方再挖。他自己的做法正好相反：SwitchHosts 维护了十五年，WonderPen 一做就是好几年，连底层存储都从 JSON 重构成了 SQLite。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "全栈工程师、独立开发者、译者、业余作家"],
+     ["所在地", "中国杭州"],
+     ["教育", "中国科学技术大学"],
+     ["经历", "阿里巴巴八年多 → 在杭州一个小团队负责产品和技术（其 App 的开发者为杭州同明科技）"],
+     ["产品", "WonderPen 妙笔、图几 Tuji、ccReader"],
+     ["开源", "SwitchHosts、Publa、HTML5 塔防、big-int.js、pyHeatMap、font-list、喵语翻译"],
+     ["技术栈", "JavaScript / TypeScript、Python、Electron、Tauri、React、Next.js、Flutter"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "oldj 的产品都是<strong>为长期使用而做的工具</strong>。WonderPen 妙笔是一款为长文写作设计的软件：用卡片、白板和思维导图管理设定，用无限层级目录组织章节，有专注、极简、打字机三种写作模式，最后一键排版导出为 PDF、Word、Epub 等格式；它离线优先，数据存在本地，每 15 分钟自动备份，并支持 Windows、macOS、Linux、iOS 和 Android。"},
+    {"p": "图几是他给 Mac 做的截图工具：截图、标注、美化在一个窗口里完成，十三种标注工具各有单键快捷键，文字识别在本机完成，基础功能免费、Pro 一次买断。"},
+    {"note": "本页依据 oldj.net（文章列表、About 与 RSS）、wonderpen.app、tuji.app、switchhosts.app、GitHub 仓库与 README、App Store 和 X 资料整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2009–2010", "title": "博客与塔防", "text": "注册 Twitter 和 GitHub，架设博客 oldj.net；用纯 HTML5 写出不用一张图片的塔防游戏。"},
+     {"when": "2011", "title": "SwitchHosts", "text": "发布 hosts 切换工具，此后在阿里巴巴工作八年多。"},
+     {"when": "2012–2018", "title": "开源与翻译", "text": "pyHeatMap、big-int.js、遗传算法解旅行商问题；参与翻译《JavaScript 权威指南》第 6 版等技术书。"},
+     {"when": "2020–2021", "title": "独立产品", "text": "上架 TXT 阅读器 ccReader；发布 SwitchHosts v4.0。"},
+     {"when": "2022–2024", "title": "WonderPen 与图几", "text": "写《笔记软件与写作软件的不同》；2024 年图几和 WonderPen 先后上架 App Store。"},
+     {"when": "2025–2026", "title": "重构与开源", "text": "WonderPen 存储从 JSON 迁移到 SQLite；5 月开源博客系统 Publa，发布 SwitchHosts 5.0（换用 Tauri）。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SwitchHosts", "url": "https://switchhosts.app",
+     "meta": ["2011–", "Tauri · React", "★2.7 万"],
+     "paras": [
+      "管理和切换多个 hosts 方案：语法高亮、方案多选组合、系统托盘快速切换、远程方案定时同步、导入导出、快捷注释、夜间模式、Alfred 集成。免费开源，有简体中文、繁体中文和波兰语文档。",
+      "2026 年的 5.0 版本把底层从 Electron 换成 Tauri，这是五年来的第一个大版本。"
+     ],
+     "facts": [["GitHub", "★27,304 · ⑂2,688"]]
+    }},
+    {"work": {
+     "name": "WonderPen 妙笔", "url": "https://wonderpen.app",
+     "meta": ["全平台", "长文写作"],
+     "paras": [
+      "「让浩瀚文思绽放如花。」为小说、论文、短文、日记等创作提供专注流畅的体验。他在博客里专门写过笔记软件和写作软件的区别，也仔细读完了 Scrivener 论坛上一场持续三年的「要不要支持 AI」之争。"
+     ]
+    }},
+    {"work": {
+     "name": "图几 Tuji", "url": "https://tuji.app",
+     "meta": ["macOS 12.3+", "截图 · 标注 · 美化"],
+     "paras": [
+      "「截图、标注、美化，一气呵成。」左边工具、中间画布、右边参数；经典与手绘两种标注风格；渐变、墙纸背景和常用比例；模板一键复用；图片只保存在本机。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["喵语翻译", "—", "把人类语言可逆地翻译成「喵」（★634）"],
+      ["HTML5 塔防", "2010", "纯前端实现、不用图片的塔防游戏（★385）"],
+      ["Publa", "2026", "驱动 oldj.net 的 Next.js 博客系统"],
+      ["font-list", "2017–2026", "跨平台获取系统字体列表的 Node.js 包"],
+      ["pyHeatMap", "2012", "Python 热图库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://oldj.net", "paras": [
+     "博客副标题「编程，写作，以及涂鸦」。文章列表跨越 16 年：技术笔记（uv、Dokploy、K3s、Electron 代码签名）、产品思考（幸存者偏差、不要做微操型管理者）、读书笔记、科普（原子的故事、哈雷彗星的故事），还有涂鸦和怀念亲人的文章。",
+     "博客系统 Publa 是他自己写的，并在 2026 年开源。他在介绍里写：16 年足够发生很多事，「比如杨过和小龙女都已经再次重逢了」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "自研 Publa（Next.js）"],
+      ["内容", "技术、产品、阅读、科普、生活"],
+      ["节奏", "2010 年至今，约每月一篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-09-21", "title": "从网文看独立开发", "url": "https://oldj.net/posts"},
+     {"date": "2026-08-18", "title": "WonderPen 存储格式迁移历程", "url": "https://oldj.net/posts"},
+     {"date": "2026-07-19", "title": "挖井", "url": "https://oldj.net/posts"},
+     {"date": "2026-05-26", "title": "SwitchHosts 5.0", "url": "https://oldj.net/posts"},
+     {"date": "2026-05-02", "title": "当写作软件遇上 AI：Scrivener 论坛上一场持续三年的产品哲学之争", "url": "https://oldj.net/posts"}
+    ]},
+    {"quote": "爱编程，也爱涂鸦；爱生活，也爱折腾。", "cite": "oldj，oldj.net 关于页"},
+    {"p": "《从网文看独立开发》把独立开发者和网文作者类比：AI 降低门槛后，人人都能写、都能做，但大多数作品没人看、赚不到钱。他的答案依然是那口井：选一个方向，持续挖下去。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["坚持", "一个开源项目维护 15 年", "—"],
+      ["产品", "写作与截图工具打磨细致，全平台", "WonderPen 在 App Store 上评分样本少"],
+      ["写作", "技术、科普、小说都写", "—"],
+      ["工程", "敢于做底层重构（JSON → SQLite、Electron → Tauri）", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>挖一口深井：</strong>别每个月换一个方向。",
+     "<strong>老项目也值得重写：</strong>15 年后换 Tauri 发布 5.0。",
+     "<strong>离线优先、自动备份：</strong>写作者的数据最重要。",
+     "<strong>工具要有温度：</strong>喵语翻译这样的小玩具也很可爱。",
+     "<strong>博客写一辈子：</strong>技术和生活都值得记录。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "SwitchHosts", "url": "https://switchhosts.app", "why": "开发者切换 hosts 的老牌工具。"},
+     {"name": "WonderPen 妙笔", "url": "https://wonderpen.app", "why": "写一部长篇试试。"},
+     {"name": "oldj's blog", "url": "https://oldj.net", "why": "读读《挖井》和《从网文看独立开发》。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "回头看看你开过的项目，挑一个最值得继续挖的，这周再给它提交一次更新。",
+ "sources": [
+  {"label": "oldj 的 X 个人资料", "url": "https://x.com/oldj"},
+  {"label": "oldj's blog", "url": "https://oldj.net"},
+  {"label": "关于（oldj.net）", "url": "https://oldj.net/about"},
+  {"label": "GitHub：oldj", "url": "https://github.com/oldj"},
+  {"label": "SwitchHosts", "url": "https://switchhosts.app"},
+  {"label": "WonderPen 妙笔", "url": "https://wonderpen.app"},
+  {"label": "图几 Tuji", "url": "https://tuji.app"}
+ ]
+}

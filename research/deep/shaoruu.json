@@ -1,0 +1,502 @@
+{
+ "handle": "shaoruu",
+ "sites": [
+  {
+   "url": "https://shaoruu.io",
+   "ok": true,
+   "title": "Ian Huang | Building Cursor",
+   "description": "Ian Huang - Founding Engineer at Cursor. Creator of Voxelize, an open-source voxel engine to build Minecraft in TypeScript and the browser.",
+   "stack": [
+    "Next.js",
+    "three.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "shaoruu.io \n create.town \n lobby \n lab \n mars \n terrain \n projects \n inko.cat \n README.md \n www.inko.cat \n experiments \n lunar-lander.js \n blobrogue.ts \n extrude.ts \n particles.ts \n sorting.ts \n README.md \n About Me \nShaoru Ian Huang \n SpaceXSI , previously founding team at Cursor , creator of Voxelize . Read more → \n Welcome! You're visitor # 69420 +99 this week \n README.md \n lobby \n Split Editor Right ⌘\\ Zen Mode \n create.town/hub Reload Open in New Tab",
+   "github_links": [
+    "shaoruu",
+    "voxelize"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://shaoruu.io/atom.xml",
+    "count_seen": 2,
+    "items": [
+     {
+      "title": "Transparency without sorting",
+      "date": "2026-10-09T00:00:00.000Z",
+      "url": "https://shaoruu.io/blog/transparency-without-sorting"
+     },
+     {
+      "title": "What is Voxelize?",
+      "date": "2024-06-09T00:00:00.000Z",
+      "url": "https://shaoruu.io/blog/what-is-voxelize"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "shaoruu",
+  "user": {
+   "name": "Ian Huang (Shaoru)",
+   "company": "@anysphere",
+   "blog": "shaoruu.io",
+   "location": "San Francisco, CA",
+   "bio": "making @cursor better @anysphere\r\n\r\ncreator of @voxelize",
+   "public_repos": 97,
+   "followers": 1108,
+   "created_at": "2018-01-08T08:01:53Z",
+   "twitter_username": "shaoruu",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "shaoruu/mc.js",
+    "description": "Open source Minecraft clone built with ThreeJS, ReactJS, GraphQL, and NodeJS.",
+    "stargazers_count": 2677,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2019-03-12T12:15:30Z",
+    "pushed_at": "2019-08-22T14:42:57Z",
+    "topics": [
+     "baltazar",
+     "dvfcfbgv",
+     "game",
+     "graphql",
+     "huang",
+     "ian",
+     "javascript",
+     "mcjs",
+     "minecraft",
+     "minecraftjs",
+     "multithreading",
+     "node",
+     "prisma",
+     "react",
+     "reactjs",
+     "ruiz",
+     "shaoru",
+     "threejs",
+     "webworkers",
+     "zuniga"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/mine.js",
+    "description": ":mount_fuji: A voxel world built with JS/TS/RS. (formerly mc.js) (maybe mine.ts? or even mine.rs?)",
+    "stargazers_count": 331,
+    "forks_count": 31,
+    "language": "Rust",
+    "homepage": "https://github.com/voxelize/voxelize",
+    "created_at": "2019-08-25T03:08:07Z",
+    "pushed_at": "2024-03-23T03:33:38Z",
+    "topics": [
+     "actix",
+     "ecs",
+     "engine",
+     "freshkoala",
+     "game",
+     "gamedev",
+     "javascript",
+     "mcjs",
+     "minecraft",
+     "multiplayer",
+     "nodejs",
+     "protobuf",
+     "rust",
+     "shaoru",
+     "shaoruu",
+     "specs",
+     "threejs",
+     "voxel",
+     "websocket"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/not-so-modern-graphql-tutorial",
+    "description": ":book: A simple and easy GraphQL tutorial to get started with GraphQL.",
+    "stargazers_count": 324,
+    "forks_count": 32,
+    "language": "JavaScript",
+    "homepage": "https://blog.shaoruu.io/modern-graphql-tutorial/",
+    "created_at": "2019-05-27T16:33:17Z",
+    "pushed_at": "2024-04-19T01:49:22Z",
+    "topics": [
+     "apollo",
+     "dvfcfbgv",
+     "graphql",
+     "graphql-yoga",
+     "huang",
+     "ian",
+     "modern",
+     "prisma",
+     "react",
+     "shaoruu",
+     "tutorial"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/typehere.app",
+    "description": "✎ A quick, simple, and powerful textarea",
+    "stargazers_count": 115,
+    "forks_count": 9,
+    "language": "CSS",
+    "homepage": "https://typehere.app",
+    "created_at": "2023-10-27T05:30:03Z",
+    "pushed_at": "2026-05-26T22:45:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/rust-typescript-template",
+    "description": "📝 A template for creating WASM + Typescript + Rust workflow libraries.",
+    "stargazers_count": 42,
+    "forks_count": 4,
+    "language": "Rust",
+    "homepage": "https://shaoruu.github.io/rust-typescript-template/",
+    "created_at": "2021-12-27T16:33:17Z",
+    "pushed_at": "2024-05-20T00:00:53Z",
+    "topics": [
+     "javascript",
+     "rust",
+     "shaoruu",
+     "template",
+     "typescript",
+     "wasm",
+     "wasm-pack"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/lunar-lander-ai",
+    "description": ":rocket: Lunar Lander with Genetic Algorithm",
+    "stargazers_count": 30,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "http://shaoruu.github.io/lunar-lander-ai",
+    "created_at": "2020-05-07T14:47:06Z",
+    "pushed_at": "2020-05-25T18:06:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/mdtab",
+    "description": "✏️ A new tab extension for convenient note-taking",
+    "stargazers_count": 15,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://chrome.google.com/webstore/detail/mdtab/bincngeefkdehfpilfnfgjmigfmgfgfh?hl=en&authuser=0",
+    "created_at": "2022-08-28T06:50:26Z",
+    "pushed_at": "2022-09-08T15:12:08Z",
+    "topics": [
+     "chrome",
+     "markdown",
+     "mdtab",
+     "react",
+     "shaoruu"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/three-extruded-image",
+    "description": "Extrude any transparent background PNG to ThreeJS mesh",
+    "stargazers_count": 15,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "https://extrude.create.town",
+    "created_at": "2024-06-21T22:40:58Z",
+    "pushed_at": "2024-07-12T03:04:45Z",
+    "topics": [
+     "baltaazr",
+     "bruh",
+     "shaoruu",
+     "threejs",
+     "typescript",
+     "voxelize",
+     "webdev"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/hi.shaoruu.io",
+    "description": "🌰 First ever multiplayer personal portfolio (Come build something!)",
+    "stargazers_count": 13,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": "https://shaoruu.io",
+    "created_at": "2023-09-20T07:23:43Z",
+    "pushed_at": "2024-06-12T09:02:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/flapp5",
+    "description": ":bird: A Flappy Bird clone built with p5.js.",
+    "stargazers_count": 11,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "https://shaoruu.github.io/flapp5/",
+    "created_at": "2019-06-01T11:48:50Z",
+    "pushed_at": "2019-06-01T11:50:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/Gooseberries",
+    "description": "A multi-functional social media webpage created with GraphQL, Django, and React.js.",
+    "stargazers_count": 10,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-01-06T13:14:37Z",
+    "pushed_at": "2019-11-01T20:40:01Z",
+    "topics": [
+     "django",
+     "dvfcfbgv",
+     "gooseberries",
+     "graphene",
+     "graphql",
+     "huang",
+     "ian",
+     "javascript",
+     "multifunctional",
+     "python",
+     "social-media",
+     "web",
+     "website"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "shaoruu/py-floopy-bird",
+    "description": ":baby_chick: A clone of the famous game Flappy Bird written in python with pygame",
+    "stargazers_count": 10,
+    "forks_count": 2,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2018-11-30T16:12:06Z",
+    "pushed_at": "2020-10-01T07:02:52Z",
+    "topics": [
+     "pygame",
+     "python"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/boids.py",
+    "description": ":cloud: A visualization of Craig Reynold's 'Boids'",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2020-02-11T07:52:55Z",
+    "pushed_at": "2024-05-13T23:35:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/game-of-life",
+    "description": ":zap: A Conway's Game of Life",
+    "stargazers_count": 9,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "https://shaoruu.github.io/game-of-life/",
+    "created_at": "2019-08-22T12:26:45Z",
+    "pushed_at": "2023-01-04T07:52:08Z",
+    "topics": [
+     "game-of-life",
+     "huang",
+     "ian",
+     "javascript",
+     "p5js",
+     "shaoruu"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/cube-wars",
+    "description": ":octocat: A shooter game like Boxhead2",
+    "stargazers_count": 8,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "https://shaoruu.github.io/cube-wars/",
+    "created_at": "2019-11-16T09:48:49Z",
+    "pushed_at": "2019-11-18T07:27:07Z",
+    "topics": [
+     "algorithm",
+     "astar",
+     "boxhead",
+     "cubes",
+     "javascript-game",
+     "pathfinding",
+     "shaoruu",
+     "squares",
+     "zombies"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/blobrogue",
+    "description": "A cozy top-down roguelike shooter — you're an amber cowboy-blob blasting through the depths. Built & evolved autonomously.",
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://blobrogue.vercel.app",
+    "created_at": "2026-07-06T19:43:20Z",
+    "pushed_at": "2026-07-30T16:05:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/pacman",
+    "description": "Pacman in Javascript with PIXI.JS",
+    "stargazers_count": 6,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "https://iantheearl.github.io/pacman/",
+    "created_at": "2019-11-28T13:51:40Z",
+    "pushed_at": "2019-12-04T01:28:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shaoruu/anytime",
+    "description": ":watch: Seamlessly convert time zones and add to your calendar with AnyTime.",
+    "stargazers_count": 5,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "https://chrome.google.com/webstore/detail/anytime/afenjmeaoeobpikeliigimidhakelggd",
+    "created_at": "2020-10-11T15:10:53Z",
+    "pushed_at": "2020-10-16T00:07:28Z",
+    "topics": [
+     "anytime",
+     "chrome-extension",
+     "guochen1808",
+     "material-ui",
+     "productivity",
+     "reactjs",
+     "shaoruu"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 75,
+  "languages": [
+   [
+    "JavaScript",
+    31
+   ],
+   [
+    "TypeScript",
+    11
+   ],
+   [
+    "Python",
+    7
+   ],
+   [
+    "C++",
+    4
+   ],
+   [
+    "Rust",
+    3
+   ],
+   [
+    "CSS",
+    3
+   ],
+   [
+    "Svelte",
+    3
+   ],
+   [
+    "Jupyter Notebook",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "voxelize/voxelize",
+    "stargazerCount": 690,
+    "description": ":mushroom: Full stack voxel engine",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://shaoruu.io"
+   },
+   {
+    "nameWithOwner": "shaoruu/mine.js",
+    "stargazerCount": 331,
+    "description": ":mount_fuji: A voxel world built with JS/TS/RS. (formerly mc.js) (maybe mine.ts? or even mine.rs?)",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://github.com/voxelize/voxelize"
+   },
+   {
+    "nameWithOwner": "shaoruu/typehere.app",
+    "stargazerCount": 115,
+    "description": "✎ A quick, simple, and powerful textarea",
+    "primaryLanguage": {
+     "name": "CSS"
+    },
+    "homepageUrl": "https://typehere.app"
+   },
+   {
+    "nameWithOwner": "shaoruu/rust-typescript-template",
+    "stargazerCount": 42,
+    "description": "📝 A template for creating WASM + Typescript + Rust workflow libraries.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://shaoruu.github.io/rust-typescript-template/"
+   },
+   {
+    "nameWithOwner": "shaoruu/blobrogue",
+    "stargazerCount": 6,
+    "description": "A cozy top-down roguelike shooter — you're an amber cowboy-blob blasting through the depths. Built & evolved autonomously.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://blobrogue.vercel.app"
+   },
+   {
+    "nameWithOwner": "shaoruu/bump",
+    "stargazerCount": 4,
+    "description": "ian's terminal",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 13340,
+  "orgs": [
+   "bottable",
+   "anysphere",
+   "voxelize",
+   "cursor",
+   "inko-cat"
+  ],
+  "profile_readme": "<a target=\"_blank\" href=\"https://www.youtube.com/watch?v=q7gN_iKpp5w&ab_channel=shaoruu\">\n  <p align=\"center\">\n    <img width=\"1920\" height=\"1080\" alt=\"minejs\" src=\"./hi.jpg\" />\n  </p>\n</a>\n",
+  "readmes": {
+   "voxelize/voxelize": "<div align=\"center\">\n<h1>Voxelize</h1>\n<p>A multiplayer, <i>super fast</i>, voxel engine in your browser!</p>\n<a href=\"https://discord.gg/9483RZtWVU\">\n</a>\n<a href=\"https://www.npmjs.com/package/@voxelize/core\">\n</a>\n<a href=\"https://crates.io/crates/voxelize\">\n</a>\n<p>\n  <a href=\"https://docs.voxelize.io\">Documentation</a>\n  ·\n  <a href=\"https://docs.rs/voxelize/latest/voxelize/\">Rust API</a>\n  ·\n  <a href=\"https://create.town\">Live Showcase</a>\n</p>\n</div>\n<p align=\"center\"><i><a href=\"https://create.town\">Town</a>, a live multiplayer world running on Voxelize in production.</i></p>\n## Why Voxelize\nVoxelize powers persistent, multiplayer voxel worlds that run in any modern browser. No installs, no plugins. \n- **Build custom blocks**: register any blocks of any shape, size, and material. Blocks can also hold custom metadata through block entities.\n- **Create custom entities**: pigs, cows, sheeps, any entities you can imagine. They can roam around and interact with blocks and players.\n- **Realtime multiplayer**: authoritative server with entity, chat, and event synchronization out of the box.\n- **Any world generation**: define your own world generation and generate infinitely large worlds.\n<p align=\"center\">\n</p>\n<p align=\"center\"><i>Custom blocks, instanced creatures, water, and voxel lighting in the browser.</i></p>\n## Architecture\nBoth the server and the client are extremely optimized for performance and scalability. The server is written in Rust, and the client is written in TypeScript.\n```text\n┌───────────────────────────────┐                      ┌───────────────────────────────┐\n│   Browser client (TS)         │      WebSocket       │   Authoritative server (Rust) │\n│                               │◄────────────────────►│                               │\n│   @voxelize/core (Three.js)   │  @voxelize/protocol  │   voxelize (ECS worlds)       │\n│   physics-engine · raycast    │  @voxelize/transport │   voxelize-mesher (meshing)   │\n│   voxelize-wasm-mesher (WASM) │  (shared protobuf)   │   voxelize-core (voxel data)  │\n└───────────────────────────────┘                      └───────────────────────────────┘\n```\n- **Rust authoritative server** — `voxelize` runs",
+   "shaoruu/mine.js": "## [A BETTER MINEJS](https://github.com/voxelize/voxelize)\nMineJS has been rewritten into a customizable fullstack library called [voxelize](https://github.com/voxelize/voxelize)\n# [MineJS](http://mine.shaoruu.io/)\nMineJS is a multiplayer voxel engine that runs in your browser! (Probably should change the name to MineRS/MineTS)\n**Any PRs are welcomed!** \nHere's the quick TODO list that we're following: [Link](https://www.notion.so/f61d8c4ce1e245b6aba980adf0f1ea7c?v=77f64c4f1ed342a1b25d8af524cb9da0)\n## :dart: Disclaimers\nThis is purely a passionate project. Although inspired, I have no intention for this game to be affiliated with Minecraft, or any licensed voxel engines. Further, textures and assets used in the game are all licensed for free use. More information can be found in the last section.\n## :crown: Motivation\nWe thought it would be interesting to design a game that is inspired by popular voxel engines such as \"Minetest\" and \"Veloren\". With the combination of Rust and TypeScript, we hope to deliver quality graphics and performance, as well as interactive multiplayer game play within a 3D voxel-based environment.\n## :camera: Gallery\n## :construction_worker: WIP (all help welcomed!)\n##### Terrain Generation\n##### [Entities (Robot ATM)](https://www.youtube.com/watch?v=zZYVJUPB0xc&t=9s&ab_channel=iantheearl)\n## :video_game: Controls\n- <kbd>V</kbd>: Toggle zoom\n- <kbd>R</kbd>: Toggle sprint\n- <kbd>T</kbd>: Toggle chat\n- <kbd>J</kbd>: Toggle debug \n- <kbd>F</kbd>: Toggle physics\n- <kbd>C</kbd>: Toggle perspective\n- <kbd>K</kbd>: Toggle fullscreen\n- <kbd>Z</kbd>: Bulk placement\n- <kbd>X</kbd>: Bulk destruction \n- <kbd>0-n</kbd>: Change block placement\n- <kbd>Space</kbd>: Jump / fly up\n- <kbd>W/A/S/D</kbd>: Movements\n- <kbd>L-Shift</kbd>: Fly down\n- <kbd>L-Mouse</kbd>: Break block\n- <kbd>M-Mouse</kbd>: Get block of looking\n- <kbd>R-Mouse</kbd>: Place block\n- <kbd>Tab</kbd>: Player list\n## :ram: Installation\n```bash\n# go to the folder you save ur projects\ncd path/to/folder\n# clone the repository\ngit clone https://github.com/ian13456/mine.js\n# cd into mine.js\ncd mine.js\n# you need yarn for this project\n# somewhere here https://classic.yarnpkg.com/en/docs/install/#",
+   "shaoruu/typehere.app": "# Type Here: A Powerful Textarea\nA textarea (with vim)\n## Inspirations\nI used to use typehere.co a lot until the site was taken down, so I created [typehere.app](https://typehere.app). For a long while, it was also just a textarea that saved its contents to `localStorage`, but recently I've decided to add more features that I would find useful myself.\n## How To Use\n- Most things are in the ctrl/cmd-K menu. I will call it cmd-K for this guide.\n- Cmd-K uses fuzzy search. There are two types of things that cmd-K has: notes and commands.\n  - Notes are the notes you've created, commands are things like theme toggle, vim toggle, show/hide scrollbar, import/export, etc.\n- Navigate in the Cmd-K menu by up/down arrows.\n- Create a new note by typing the note title and run the create note command.\n  - Or you could do cmd+shift+enter. \n- Enter a note or run a command by pressing \"Enter\" or clicking on it.\n- Workspaces is the way to separate notes into different \"groups\" under cmd-K.\n  - You can create a workspace by doing cmd-K, type in a workspace name, and \"Create workspace\". This creates a workspace with an empty note.\n  - You can switch between workspaces in cmd-K by doing left/right arrow keys.\n  - You can also switch between workspace by just typing in the workspace name you want to go to and run the command.\n  - You can select a note you want (arrow up/down), and cmd + left/right arrow to move it between workspace.\n  - If there are no notes in a workspace, the workspace is automatically deleted. Under the hood, each note has a workspace string, and all workspace is just a set of all the notes workspaces.\n- For vim/keyboard-only users (like me)\n  - Toggle vim by doing cmd-K, toggle vim.\n  - Arrow up/down keys work the same as cmd+J/K inside the cmd-K menu.\n  - Cmd+B to open a note. This means to switch between the top two notes, hold cmd, and press K-J-B.\n  - Cmd+U/I to switch between workspaces.\n  - Cmd+E to toggle narrow screen view.\n  - Cmd+G to pin a note to all workspaces. this means the note will be displayed no matter which workspace you're in.\n  - Cmd+H to hide a note. In order to access hidden notes, you need to type the first 5 characters of the title right ",
+   "shaoruu/rust-typescript-template": "\n<p style=\"text-align: center\">Create Rust + TypeScript libraries with ease! PR'S WELCOMED!</p>\n## :sparkles: Inspiration\nI wanted to create a WebAssembly/Rust library with additional JS features, but I couldn't find any resources on how to integrate the npm-ready library built by `wasm-pack` with TypeScript. All the examples online either seemed to use the output of `wasm-pack` using `npm link`, or didn't have TypeScript support. So, I created this, a template that allows you to embed `wasm-pack` all within one single TypeScript-based library. Enjoy!\n## :building_construction: Install\nBefore development, make sure you have installed:\n- [wasm-pack](https://github.com/rustwasm/wasm-pack)\n- [cargo-watch](https://github.com/watchexec/cargo-watch)\n```bash\n# clone the repo\ngit clone --depth 1 --branch master https://github.com/iantheearl/rust-typescript-template.git your-project-name\ncd your-project-name\n# install dependencies\nyarn\n# start development\nyarn run dev\n# run example\nyarn run example\n# visit http://localhost:8080\n```\nAfter installation, start developing here:\n- `./pkg`: Rust source files\n- `./src`: TypeScript source files\n## :printer: Publish \n```bash\n# build the library to ./dist, including .wasm\nyarn build\n# push to npm\nnpm publish --access public\n```\n## :tv: Deployment\n```bash\n# build the example to `./example/build`, and push that folder to the gh-pages branch\nyarn deploy\n```\nConfigure github to deploy branch gh-pages.\n## :open_file_folder: Structure\n- `./core`: Rust code, the core of your library\n- `./pkg`: `wasm-pack` built npm-ready library\n- `./src`: TypeScript source code, where u can import from `wasm-pack`\n- `./example`: A web app that uses your library directly from `./dist`\n- `./tests`: To test your library\n## License\nMIT © [Rust TypeScript Template](https://github.com/iantheearl/rust-typescript-template)\n",
+   "shaoruu/blobrogue": "# blobrogue\nA cozy little top-down roguelike shooter you play right in the browser. You're an\namber cowboy-blob blasting through procedurally generated depths — solo, or in\nreal-time co-op with friends. Inspired by Soul Knight.\n**▶ Play:** https://blobrogue.vercel.app\n<p align=\"center\">\n</p>\n## Controls\n| | |\n|---|---|\n| **WASD / Arrows** | move |\n| **Mouse** | aim |\n| **Click / hold** | shoot |\n| **Shift** | dash (brief i-frames) |\n| **F** | kit ultimate (when charged) |\n| **E** | interact / shop · **hold** to revive a downed teammate |\n| **Tab** (hold) | run + all-time stats |\n| **Esc** | pause + settings |\nClear a floor, step into the glowing exit to descend, and see how deep you can get.\n## What's in it\n- **4 kits, 4 playstyles** — Gunner (DPS), Mender (healer), Bulwark (tank), Phantom\n  (mobility), each with a signature ultimate.\n- **Deep loadouts** — 49 weapons and 45+ blessings that stack into wild builds. No two\n  runs play the same.\n- **Real bosses** — a hand-authored boss every 5 floors, each with its own telegraphed\n  signature attack and counterplay (not just a bullet-sponge).\n- **Online co-op** — quick-play or share a 4-letter room code. Everyone lands in the same\n  authoritative server world, with a 25s reconnect grace so a Wi-Fi blip is never a death.\n- **Juice** — hit-stop, screen shake, particles, muzzle flash, and a fully **procedural\n  WebAudio** soundtrack + SFX (zero audio files).\n- **Pixel art, all generated** — every sprite runs through a custom art pipeline.\n## Stack\nVite + TypeScript on a raw HTML5 canvas (no engine). Real-time multiplayer, accounts, and\nsaved stats via [Convex](https://convex.dev); deployed on Vercel; authoritative game server\nin [`server/`](server/README.md).\n---\n<details>\n<summary><b>Architecture & deployment (for devs)</b></summary>\n### Multiplayer\nCo-op, logins, and saved data are powered by Convex and are **opt-in** via a single env var\n(`VITE_CONVEX_URL`). With it unset, the game runs exactly like solo v0. Full provisioning\nsteps and architecture: **[MULTIPLAYER.md](MULTIPLAYER.md)**.\n### Authoritative game server (Stage C) + rooms\nA real **authoritative WebSocket server** runs the same `src/sim/stepWorld` as the "
+  }
+ },
+ "apps": []
+}

@@ -1,0 +1,347 @@
+{
+ "handle": "ivanleomk",
+ "sites": [
+  {
+   "url": "http://ivanleo.com",
+   "ok": true,
+   "title": "Ivan Leo",
+   "description": "Personal blog",
+   "stack": [
+    "Next.js",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Next.js"
+   ],
+   "lang": "en",
+   "home_text": "Ivan Leo /blog \nI work on Developer Experience at Google DeepMind , where I focus on making it easy to build on Gemini and spend a lot of time thinking about evaluating autonomous agents. Previously, I built general-purpose action engines for knowledge work at Manus (acquired by Meta) and worked on open-source libraries like Instructor which made it easy to get reliable structured outputs for language models using Pydantic. \nI like large wide spaces and once spent a month traveling across Russia and Mongolia on the Trans Siberian Railway. I started working on Language Models after becoming fluent in French (B2) and decided I should do something more productive for my career. I like spicy food a lot - especially a good 干锅。 \nI also angel invest and advise companies. Reach out if interested. \nSelected Essays \n Value Maxxing Sep 2026 \nDon't forget to have fun \n Three Lessons I've Learned at Manus Dec 2025 \nLessons learnt from going from zero to $100M ARR in 8 months. \n Write Stupid Evals Nov 2024 \nKeep it simple and worry about the rest later. \n Building a Coding CLI with React Ink Jul 2025 \nMigrating our basic command-line agent to a rich, streaming terminal interface built with React Ink. \nWorking Notes \nEssays on evals, agents, and LLM engineering. Every two weeks. \n Subscribe",
+   "github_links": [
+    "ivanleomk",
+    "jxnl"
+   ],
+   "subpages": {
+    "http://ivanleo.com/blog": "Ivan Leo /blog \nWriting \nTechnical deep-dives, systems architecture, and essays on production agent evaluations. \n 2026 \n Value Maxxing \nDon't forget to have fun \n 2026 \n How Simple Grep Beats Naive SQL \nI benchmarked bash vs SQLite FTS across 300k tokens. grep won: 29.6% cheaper ($2.45 vs $3.48), better accuracy. Here's why + the dataset. \n 2025 \n Three Lessons I've Learned at Manus \nLessons learnt from going from zero to $100M ARR in 8 months. \n 2025 \n Agentic Search \nModels can't do much without the right context, agentic search does just that. \n 2025 \n Building a Coding CLI with React Ink \nMigrating Our Coding Agent to React Ink. \n 2025 \n Building Reliable LLM Applications \nHow to build reliable LLM applications with structured outputs, synthetic data and binary metrics \n 2024 \n Simplify your LLM Evals \nA practical guide to writing binary evals for subjective tasks \n 2024 \n Are your eval improvements just pure chance? \nGrokking simple statistical analysis for LLM evals \n 2024 \n Write Stupid Evals \nKeep it simple and worry about the rest later. \n 2024 \n You're probably not doing experiments right \nHow to get the results that you want from your LLM experiments \n 2024 \n How Instructor Works: from_openai, AsyncOpenAI, and response_model Explained \nComplete guide to Instructor's from_openai wrapper, AsyncOpenAI support, and response_model parameter. Learn how chat completions become validated Pydantic models with OpenAI structured outputs."
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "ivanleomk",
+  "user": {
+   "name": "Ivan Leo",
+   "company": "567-labs",
+   "blog": "ivanleomk@gmail.com",
+   "location": "Singapore",
+   "bio": "Full Stack programmer turned LLM affectionado. I am a core contributor to the instructor and kura package. :) ",
+   "public_repos": 218,
+   "followers": 218,
+   "created_at": "2018-12-10T12:39:17Z",
+   "twitter_username": "ivanleomk",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "ivanleomk/gil",
+    "description": null,
+    "stargazers_count": 35,
+    "forks_count": 0,
+    "language": "Zig",
+    "homepage": null,
+    "created_at": "2026-04-28T14:41:15Z",
+    "pushed_at": "2026-04-28T15:20:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/modal-grpo",
+    "description": null,
+    "stargazers_count": 19,
+    "forks_count": 2,
+    "language": "Jupyter Notebook",
+    "homepage": null,
+    "created_at": "2025-03-16T15:29:55Z",
+    "pushed_at": "2025-03-16T15:30:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/build-hackathon-rag-ws",
+    "description": null,
+    "stargazers_count": 10,
+    "forks_count": 4,
+    "language": "Jupyter Notebook",
+    "homepage": null,
+    "created_at": "2024-06-06T02:15:43Z",
+    "pushed_at": "2024-06-08T02:33:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/rag-ws",
+    "description": null,
+    "stargazers_count": 7,
+    "forks_count": 1,
+    "language": "Jupyter Notebook",
+    "homepage": null,
+    "created_at": "2024-05-14T13:35:55Z",
+    "pushed_at": "2024-06-19T11:18:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/ML-Notes",
+    "description": "A public note repository of everything I've read thus far",
+    "stargazers_count": 6,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2024-02-25T03:26:27Z",
+    "pushed_at": "2024-09-08T09:06:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/xml-experiments",
+    "description": null,
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-01-26T05:21:36Z",
+    "pushed_at": "2025-01-26T05:33:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/aie-workshop-2026-singapore",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-05-08T03:58:43Z",
+    "pushed_at": "2026-05-15T06:52:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/GPT-React",
+    "description": "Generating @shadcn/ui components with GPT-4, Pydantic and Instructor",
+    "stargazers_count": 4,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-10-22T08:18:22Z",
+    "pushed_at": "2023-10-22T08:18:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/building-an-agent",
+    "description": "This repository demonstrates how to build a functional AI coding agent using Claude and the Anthropic API.  Following Thorsten Ball's original Go implementation, this TypeScript version shows how agents are just LLMs with the right tools in a conversation loop.",
+    "stargazers_count": 3,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2025-07-16T07:51:58Z",
+    "pushed_at": "2025-10-11T07:02:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/deep-manus",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-10-18T05:55:44Z",
+    "pushed_at": "2025-10-18T05:55:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/indomee",
+    "description": "A simple python package that helps compute rag metrics, t-tests and bootstrapping",
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "Jupyter Notebook",
+    "homepage": null,
+    "created_at": "2024-11-07T07:19:27Z",
+    "pushed_at": "2024-12-26T08:54:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/Antigravity-Demo",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 3,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-08-23T13:47:36Z",
+    "pushed_at": "2026-09-08T09:17:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/ivanleo.com",
+    "description": "This is my new personal website which i've built to host my blog articles and other interesting tidbits.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "MDX",
+    "homepage": "https://ivanleo.com",
+    "created_at": "2023-04-17T03:36:22Z",
+    "pushed_at": "2026-08-16T03:49:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/llm-paper-club-asia-notes",
+    "description": "Notes for LLM Paper Club asia",
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "language": "MDX",
+    "homepage": "https://llm-paper-club-asia-notes.vercel.app",
+    "created_at": "2024-01-19T16:01:48Z",
+    "pushed_at": "2024-05-23T14:19:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/next-r2-file-upload",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-08-15T13:11:43Z",
+    "pushed_at": "2023-08-15T13:57:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/teul",
+    "description": "Teul is a CLI framework written in Zig. it uses Zig's comptime reflection to map command-line arguments to strongly typed zig, providing a clean ergonomic way to build CLIs",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Zig",
+    "homepage": null,
+    "created_at": "2026-04-26T05:29:05Z",
+    "pushed_at": "2026-04-28T05:54:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/ai-wednesday-presentation",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2024-07-03T03:24:19Z",
+    "pushed_at": "2024-07-03T03:32:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ivanleomk/aie-slides",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2026-05-06T16:07:09Z",
+    "pushed_at": "2026-05-06T20:19:28Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 176,
+  "languages": [
+   [
+    "TypeScript",
+    51
+   ],
+   [
+    "Python",
+    48
+   ],
+   [
+    "JavaScript",
+    13
+   ],
+   [
+    "Jupyter Notebook",
+    11
+   ],
+   [
+    "CSS",
+    6
+   ],
+   [
+    "Zig",
+    5
+   ],
+   [
+    "MDX",
+    5
+   ],
+   [
+    "HTML",
+    5
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "jxnl/kura",
+    "stargazerCount": 538,
+    "description": "Kura is a simple reproduction of the CLIO paper which uses language models to label user behaviour before clustering them based on embeddings recursively. This helps us understand user behaviour on a higher level without sacrificing PII.",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "567-labs/instructor",
+    "stargazerCount": 14047,
+    "description": "structured outputs for llms ",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://python.useinstructor.com/"
+   },
+   {
+    "nameWithOwner": "ivanleomk/building-an-agent",
+    "stargazerCount": 3,
+    "description": "This repository demonstrates how to build a functional AI coding agent using Claude and the Anthropic API.  Following Thorsten Ball's original Go implementation, this TypeScript version shows how agents are just LLMs with the right tools in a conversation loop.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "ivanleomk/website-v4",
+    "stargazerCount": 0,
+    "description": "This is the source code for my personal website",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://website-v4-jet-one.vercel.app"
+   }
+  ],
+  "contrib_last_year": 811,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "jxnl/kura": "# Kura: Procedural API for Chat Data Analysis\n[](https://pypi.org/project/kura/)\n[](https://github.com/567-labs/kura/stargazers)\n[](https://567-labs.github.io/kura/)\n[](https://opensource.org/licenses/MIT)\n[](https://pypi.org/project/kura/)\n[](https://pypi.org/project/kura/)\n**Your AI assistant handles thousands of conversations daily. But do you know what users actually need?**\nKura is an open-source library for understanding chat data through machine learning, inspired by [Anthropic's CLIO](https://www.anthropic.com/research/clio). It automatically clusters conversations to reveal patterns, pain points, and opportunities hidden in your data.\n## The Hidden Cost of Not Understanding Your Users\nEvery day, your AI assistant or chatbot has thousands of conversations. Within this data lies critical intelligence:\n- **80% of support tickets** might stem from the same 5 unclear features\n- **Key feature requests** repeated by hundreds of users in different ways\n- **Revenue opportunities** from unmet needs you didn't know existed\n- **Critical failures** affecting user trust that go unreported\nManually reviewing conversations doesn't scale. Traditional analytics miss semantic meaning. **Kura bridges this gap.**\n## What Kura Does\nKura transforms unstructured conversation data into structured insights:\n```\n10,000 conversations → AI Analysis → 20 clear patterns\n```\n- **Automatic Intent Discovery**: Find what users actually want (not what they say)\n- **Failure Pattern Detection**: Identify where your AI falls short before users complain\n- **Feature Priority Insights**: See which missing features impact the most users\n- **Semantic Clustering**: Group by meaning, not keywords\n- **Privacy-First Design**: Analyze patterns without exposing individual conversations\n## Real-World Impact\n### E-commerce Support Bot\n**Challenge**: 50,000 weekly conversations, unknown pain points\n**Discovery**: 35% of conversations about shipping clustered into 3 issues\n**Result**: Fixed root causes, reduced support volume by 40%\n### Developer Documentation Assistant\n**Challenge**: Users struggling but not reporting specific issues\n**Discovery**: 2,000+ conversations revealed 5 consistently confusing AP",
+   "567-labs/instructor": "# Instructor: Structured Outputs for LLMs\nGet reliable JSON from any LLM. Built on Pydantic for validation, type safety, and IDE support.\n```python\nimport instructor\nfrom pydantic import BaseModel\n# Define what you want\nclass User(BaseModel):\n    name: str\n    age: int\n# Extract it from natural language\nclient = instructor.from_provider(\"openai/gpt-4o-mini\")\nuser = client.chat.completions.create(\n    response_model=User,\n    messages=[{\"role\": \"user\", \"content\": \"John is 25 years old\"}],\n)\nprint(user)  # User(name='John', age=25)\n```\n**That's it.** No JSON parsing, no error handling, no retries. Just define a model and get structured data.\n[](https://pypi.org/project/instructor/)\n[](https://pypi.org/project/instructor/)\n[](https://github.com/567-labs/instructor)\n[](https://discord.gg/bD9YE9JArw)\n[](https://twitter.com/jxnlco)\n> **Use Instructor for fast extraction, reach for PydanticAI when you need agents.** Instructor keeps schema-first flows simple and cheap. If your app needs richer agent runs, built-in observability, or shareable traces, try [PydanticAI](https://ai.pydantic.dev/). PydanticAI is the official agent runtime from the Pydantic team, adding typed tools, replayable datasets, evals, and production dashboards while using the same Pydantic models. Dive into the [PydanticAI docs](https://ai.pydantic.dev/) to see how it extends Instructor-style workflows.\n## Why Instructor?\nGetting structured data from LLMs is hard. You need to:\n1. Write complex JSON schemas\n2. Handle validation errors  \n3. Retry failed extractions\n4. Parse unstructured responses\n5. Deal with different provider APIs\n**Instructor handles all of this with one simple interface:**\n<table>\n<tr>\n<td><b>Without Instructor</b></td>\n<td><b>With Instructor</b></td>\n</tr>\n<tr>\n<td>\n```python\nresponse = openai.chat.completions.create(\n    model=\"gpt-5.4-mini\",\n    messages=[{\"role\": \"user\", \"content\": \"...\"}],\n    tools=[\n        {\n            \"type\": \"function\",\n            \"function\": {\n                \"name\": \"extract_user\",\n                \"parameters\": {\n                    \"type\": \"object\",\n                    \"properties\": {\n                        \"name\": {\"type\": \"string\"},\n              ",
+   "ivanleomk/building-an-agent": "# Building An Agent\n> Accompanying code for [Building An Agent](https://ivanleo.com/blog/building-an-agent) - implementing a coding agent in TypeScript.\nThis repository demonstrates how to build a functional AI coding agent. We go all the way from implementing a simple poc to a fully functional agent with advanced capabilities such as agentic search, subagents, todo-tasks and even memory.\nFollowing Thorsten Ball's original [Go implementation](https://ampcode.com/how-to-build-an-agent), this TypeScript version shows how agents are just LLMs with the right tools in a conversation loop.\n## What's Included\n**Article 1**: [Building An Agent](https://ivanleo.com/blog/building-an-agent) - We build a complete coding agent in around 200 lines of TypeScript that can read, create, edit, and list files by giving Claude four simple tools with clear descriptions. The agent maintains conversation context and naturally combines tools to solve complex tasks like refactoring code or creating new projects. ([Commit `3c9b2c2`](https://github.com/ivanleomk/building-an-agent/commit/3c9b2c2))\n**Article 2**: [Migrating to React Ink](https://ivanleo.com/blog/migrating-to-react-ink) - We migrate our basic coding agent to use React Ink for an interactive CLI with streaming responses and real-time updates. This enhances the user experience with a richer terminal interface while integrating file system tools for reading, writing, editing, and listing files. ([Commit `4e9f0ac`](https://github.com/ivanleomk/building-an-agent/commit/4e9f0ac))\n**Article 3**: [Building an AI SDK](https://ivanleo.com/blog/building-an-ai-sdk) - We build a provider-agnostic abstraction layer that works with multiple AI providers (Anthropic, xAI, etc.). This makes our agent more flexible and easier to swap between different LLM providers. ([Commit `5446951`](https://github.com/ivanleomk/building-an-agent/commit/5446951))\n**Article 4**: [Agentic Search](https://ivanleo.com/blog/agentic-search) - We extend our agent with powerful search capabilities including grep for code search, glob for file pattern matching, web search, and bash execution. This enables the agent to efficiently navigate large codebases and gather i",
+   "ivanleomk/website-v4": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n## Getting Started\nFirst, run the development server:\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n## Learn More\nTo learn more about Next.js, take a look at the following resources:\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n## Deploy on Vercel\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.\n",
+   "ivanleomk/gil": "# gil\n**Zero-ceremony, ergonomic HTTP client for Zig 0.16.0**\n`gil` is a simple, high-level HTTP client library for Zig that aims to minimize boilerplate. It provides a convenient API for making GET and POST requests, handling JSON serialization/deserialization, and automatically decompressing responses (gzip, deflate, zstd).\n## Features\n- **One-Liner Requests**: Simple `gil.get()` and `gil.post()` for common operations.\n- **Ergonomic Headers**: Support for both explicit struct fields (`.{ .name = \"...\", .value = \"...\" }`) and tuple shorthand (`.{ \"Name\", \"Value\" }`).\n- **Seamless JSON Handling**: Pass any Zig struct directly as a JSON payload, and decode responses into specific structs or dynamic `std.json.Value` types.\n- **Automatic Decompression**: Transparent support for `gzip`, `deflate`, and `zstd` out of the box.\n## Why `gil`? (Zig vs Gil)\nHere is a comparison of making a simple JSON POST request.\n**With Standard Zig (`std.http.Client`):**\n```zig\nvar client = std.http.Client{ .allocator = allocator };\ndefer client.deinit();\nconst uri = try std.Uri.parse(\"https://httpbin.org/post\");\nvar buf: [4096]u8 = undefined;\nvar req = try client.open(.POST, uri, .{ .server_header_buffer = &buf });\ndefer req.deinit();\nreq.transfer_encoding = .chunked;\ntry req.send();\n// Serialize JSON manually to the request writer\ntry std.json.stringify(.{ .hello = \"world\" }, .{}, req.writer());\ntry req.finish();\ntry req.wait();\n// Checking status\nif (req.response.status != .ok) return error.RequestFailed;\n// Reading body requires a separate allocator or bounded buffer\nconst body = try req.reader().readAllAlloc(allocator, 1024 * 1024);\ndefer allocator.free(body);\n```\n**With `gil`:**\n```zig\nconst res = try gil.post(\"https://httpbin.org/post\", .{\n    .json = .{ .hello = \"world\" }\n});\ntry res.raiseForStatus();\n// res.body is automatically fully buffered, decompressed, and available!\n```\n## Installation\nAdd `gil` to your `build.zig.zon`:\n```sh\nzig fetch --save https://github.com/ivanleomk/gil/archive/refs/tags/v0.1.1.tar.gz\n```\nThen add it to your `build.zig`:\n```zig\nconst gil_dep = b.dependency(\"gil\", .{\n    .target = target,\n    .optimize = optimize,\n});\n// For an executable\nexe.root_mo"
+  }
+ },
+ "apps": []
+}

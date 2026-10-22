@@ -1,0 +1,171 @@
+{
+ "name": "Hzao（Zac）",
+ "role": "Google 软件工程师 · 周末独立开发者 · Stealward、Numpkin 作者",
+ "title": "Hzao：把<em>毕业论文</em>做成一款上架的产品",
+ "dek": "2021 年高考后的毕业旅行，几个同学轮流垫钱、各自消费，回来以后算不清账。于是他开始学 iOS 开发，大学里和同学一起做出多人旅行 AA 记账 App Numpkin。2024 年，他把「在咖啡馆离开座位时电脑怎么办」写成了本科毕业论文；毕业后入职 Google，用周末继续做，2026 年发布了 AI 防盗 App Stealward。X 简介里，他自称两次获得 Apple Swift Student Challenge。",
+ "card": "Stealward、Numpkin 开发者；PocketChest（★466）作者，Google 软件工程师。",
+ "location": "中国上海",
+ "updated": "2026-10-22",
+ "tags": ["iOS", "macOS", "独立开发", "Cloudflare", "SwiftUI"],
+ "links": [
+  {"label": "Stealward", "url": "https://stealward.app"},
+  {"label": "Numpkin", "url": "https://numpkin.app"},
+  {"label": "Hzao's Blog", "url": "https://blog.hzao.top"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Weekend indie developer，Weekday software engineer @Google（views my own），2× Apple Swift Student Challenge winner」。",
+  "<strong>代表作：</strong>Stealward（Mac、iPad、iPhone 防盗）、Numpkin（多人旅行 AA 记账）、PocketChest（Cloudflare 上的临时文件分享，★466）、edu-offer-dispatcher。",
+  "<strong>关键数字：</strong>Stealward 从 2024 年做到 2026 年 7 月上架；Numpkin 2023 年上线，2026 年 9 月更新到 2.2.2；X 关注者约 5,700。",
+  "<strong>身份：</strong>2025 年 6 月毕业，次日起在 Google 上海工作；Stealward 网站特别注明它是独立项目，与 Google 无关。"
+ ],
+ "lead": "在咖啡馆起身去接水，你有三个选择：把东西全部收起来、请陌生人帮忙看着，或者留下来碰碰运气。Hzao 把这个问题写成了毕业论文：我们随身带的设备，能不能安静地互相看护？毕业时他有了一个能用的项目，但「还不是这个问题配得上的产品」。于是他在 Google 上班，周末接着做，两年后它变成了 Stealward。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师（Google）、周末独立开发者"],
+     ["所在地", "中国上海"],
+     ["开发者名", "App Store 上为「正浩 何」"],
+     ["经历", "2021 年高考后开始学开发 → 大学期间做 Numpkin → 2025 年 6 月毕业入职 Google 上海"],
+     ["荣誉", "Apple Swift Student Challenge 获奖者（2023 年经少数派报道，自述共两次）"],
+     ["技术栈", "Swift、SwiftUI、TypeScript、Cloudflare Workers / R2、Astro"],
+     ["博客", "Hzao's Blog（WordPress）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Hzao 的产品都从<strong>自己真实遇到的麻烦</strong>开始：毕业旅行算不清账，就做 Numpkin；想给自己的 App 发教育优惠，就用 Cloudflare Worker 写一个自动验证教育邮箱、发优惠码的服务；想临时分享大文件，就做了支持 200GB 的 PocketChest；在图书馆离开座位不放心，就做 Stealward。"},
+    {"p": "Stealward 是他目前的主力作品：把留在原地的 Mac 或 iPad 变成 AI 看守，用摄像头和传感器监控设备和旁边的包，异常时提醒你手里的 iPhone，并能打开端到端加密的低延迟实时画面。"},
+    {"note": "本页依据 Hzao's Blog、stealward.app（含 About）、numpkin.app、App Store、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。少数派 2023 年 6 月的采访确认他是当年 Swift Student Challenge 获奖者（作品是讲解调度算法的交互式 Playground）；「两次获奖」为本人自述。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2021", "title": "毕业旅行与第一个想法", "text": "高考后和同学旅行，各人垫付、各自消费，结账成了难题，他决定做一个分账 App，并开始学开发。"},
+     {"when": "大学", "title": "Numpkin", "text": "把想法告诉同学 SilentE，对方负责服务端，他做 iOS。官网写着：Beta 版在两人 20 岁生日前完成，「给青春期留个纪念」。2023 年 4 月上架，同年在少数派发表开发历程。"},
+     {"when": "2023", "title": "Swift Student Challenge 与小工具", "text": "大二时以一个交互式讲解操作系统调度算法的作品获得 Swift Student Challenge；写两篇《让你的 iOS App 支持教育优惠》并开源 edu-offer-dispatcher；做了让 B 站链接在各平台显示预览的 bilibilibb.com。"},
+     {"when": "2024", "title": "毕业论文", "text": "开始做 Stealward，作为本科毕业论文课题，在学校图书馆测试早期版本。"},
+     {"when": "2025", "title": "Google 与 PocketChest", "text": "6 月毕业，次日起在 Google 上海工作；8 月发布 PocketChest。"},
+     {"when": "2026", "title": "Stealward 上架", "text": "7 月 Beta 1.0.0 发布，App Store 7 月底上架，官网称 8 月正式发布。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Stealward", "url": "https://stealward.app",
+     "meta": ["2026", "macOS · iPadOS · iOS 26", "AI 防盗"],
+     "paras": [
+      "为咖啡馆、图书馆和机场休息室设计。三步：摆好设备、开启保护、离开座位。锁定与警报、加密实时画面、AI Watchdog 看守、运动 / 电源 / 网络传感器一起工作；锁屏上的实时活动显示状态，异常时立刻提醒，事后还能回放每个时刻。",
+      "他在 About 页里说，市面上的防盗 App 大多只有一种本地检测，提醒延迟、信息不全，却要一年 10 到 30 美元。他的标准是：「Awareness, not just an alarm.」"
+     ],
+     "facts": [["官网语言", "英、西、法、简中、繁中"], ["App Store", "1.0.3（2026-08）"]]
+    }},
+    {"work": {
+     "name": "Numpkin", "url": "https://numpkin.app",
+     "meta": ["2023", "iOS", "多人旅行 AA 记账"],
+     "paras": [
+      "支持一笔支出里不同人不同金额、选择消费者和代付人、记录内部预付和转账、多币种、分组结算和图片导出，内置算式识别，不用切出去开计算器。About 页里，后端同学「在这页上涂鸦」，Hzao「强烈谴责」，是一个很有少年感的官网。"
+     ],
+     "facts": [["最新版本", "2.2.2（2026-09）"]]
+    }},
+    {"work": {
+     "name": "PocketChest", "url": "https://github.com/Hzao/PocketChest",
+     "meta": ["2025", "TypeScript · Cloudflare", "★466"],
+     "paras": [
+      "上传文件或文本，得到一个 6 位取件码，在哪都能取。基于 Cloudflare Workers、Pages 和 R2，分片上传支持最大 200GB，到期自动删除，无需注册，可选 TOTP 限制上传者。"
+     ],
+     "facts": [["GitHub", "★466 · ⑂78"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["edu-offer-dispatcher", "2023", "用 Cloudflare Worker 验证教育邮箱并自动发放 App 优惠码"],
+      ["bilibilibb.com / b23bb.tv", "2023", "让 B 站链接在各平台正确显示视频预览"],
+      ["proxyman-localization", "—", "为 Proxyman 做的本地化"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://stealward.app", "paras": [
+     "Stealward 官网用 Astro 搭建，五种语言。首页用三个场景（咖啡馆、图书馆、休息室）讲清用途，About 页则是一篇完整的创作自述：从毕业论文到产品，再到他为安全类 App 定下的标准：响应快、可靠、私密。",
+     "个人博客 Hzao's Blog 用 WordPress，写生日感想、开发踩坑（「git reflog 保存了我的生活」）和教程，2025 年以《不再是学生》收尾。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["产品站", "Astro + Cloudflare；Numpkin 用 WordPress"],
+      ["叙事", "每个产品都讲清楚「为什么做」"],
+      ["博客", "2022–2025，更新不多但真诚"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-07-10", "title": "Stealward beta is here — 1.0.0 (iOS + Mac)", "url": "https://stealward.app"},
+     {"date": "2025-06-07", "title": "不再是学生", "url": "https://blog.hzao.top/2025/06/07/%e4%b8%8d%e5%86%8d%e6%98%af%e5%ad%a6%e7%94%9f/"},
+     {"date": "2023-08-06", "title": "让你的 iOS App 支持教育优惠（上）：获取配置变量", "url": "https://blog.hzao.top/2023/08/06/enabling-your-ios-app-to-support-educational-discounts-for-obtaining-configuration-variables-part-1"}
+    ]},
+    {"quote": "You shouldn't have to choose between losing your seat and losing your device.", "cite": "Stealward 官网"},
+    {"p": "在《不再是学生》里他写：「Google 肯定不是我的终点。」周末的 Stealward 就是答案的一部分。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["选题", "每个产品都来自真实困扰", "—"],
+      ["工程", "Apple 全平台 + Cloudflare 无服务器都能落地", "edu-offer-dispatcher README 坦言代码多由 GPT 生成、仍有编译警告"],
+      ["产品", "Stealward 叙事清晰、多语言", "刚上架，评分样本很少"],
+      ["时间", "坚持周末开发", "全职工作下更新节奏受限"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把论文做成产品：</strong>毕业时的「能用」，离「配得上这个问题」还有两年。",
+     "<strong>从生活里的小麻烦出发：</strong>分账、优惠码、离开座位。",
+     "<strong>说清楚为什么再做一个：</strong>Stealward 的 About 页值得一读。",
+     "<strong>善用无服务器：</strong>Cloudflare 免费额度能撑起不少工具。",
+     "<strong>坦白局限：</strong>在 README 里写明哪些代码是 AI 生成的。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Stealward：Why I built it", "url": "https://stealward.app/about", "why": "从毕业论文到产品的完整故事。"},
+     {"name": "Numpkin", "url": "https://numpkin.app", "why": "下次和朋友旅行时用来分账。"},
+     {"name": "PocketChest", "url": "https://github.com/Hzao/PocketChest", "why": "自己部署一个临时文件分享站。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "下次在咖啡馆离开座位前，想一想：你的设备能不能帮你看着包？",
+ "sources": [
+  {"label": "Hzao 的 X 个人资料", "url": "https://x.com/HzaoHzao"},
+  {"label": "Stealward：About", "url": "https://stealward.app/about"},
+  {"label": "Numpkin：About Us", "url": "https://numpkin.app/about/"},
+  {"label": "Hzao's Blog", "url": "https://blog.hzao.top"},
+  {"label": "GitHub：Hzao", "url": "https://github.com/Hzao"},
+  {"label": "又一届 Swift 学生挑战赛，我们和今年的获奖学生们聊了聊（少数派）", "url": "https://sspai.com/post/80154"},
+  {"label": "App Store：Stealward", "url": "https://apps.apple.com/us/app/stealward/id6547866977"}
+ ]
+}

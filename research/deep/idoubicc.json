@@ -1,0 +1,477 @@
+{
+ "handle": "idoubicc",
+ "sites": [
+  {
+   "url": "https://idoubi.ai",
+   "ok": true,
+   "title": "idoubi",
+   "description": "idoubi — indie developer & full-stack engineer. Shipping AI products globally, writing about MCP, agents, and building in public.",
+   "stack": [
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "idoubi \n Switch language Toggle theme \nidoubi \nIndie Developer & Full-Stack Engineer \nA logical mind is one in a million. \n About Me \nI'm idoubi — studied Nuclear Engineering at Wuhan University (class of 2015), fell in love with Adobe's creative tools along the way, taught myself to code, and never looked back. The name idoubi started as a nod to that origin story. \nI spent five years at Tencent (2018–2023) as a backend engineer, building payment systems and distributed infrastructure. Deep expertise in Go, cloud-native architectures, and high-scale system design. \nOn October 24, 2023, I quit Tencent to go full-time indie. Shipped 20+ AI products in 2 years — ThinkAny, ShipAny, MCP.so among them. Currently focused on Agent infrastructure and Agent SaaS. \n Learn More \nMy Products \nBuilding products should be fun. \nFastClaw \nAgent Framework \n Agent Personal Assistant Go \nMCP.so \nMCP Marketplace \n MCP Marketplace Agent \nShipAny \nAI SaaS Boilerplate \n AI Boilerplate Next.js \nThinkAny \nAI Search Engine \n AI Search Engine RAG \nWeClaw \nPersonal Agent \n Agent Runtime Agent Framework Go \nWorkAny \nDesktop Agent \n AI Desktop Agent Tauri \n View All \nMy Book \n MCP \nThis is MCP \nMy first book — a hands-on guide to MCP: the design, the internals, and how to build with it. Buy the book \nServices \nConsulting, communities, and courses for builders shipping AI products globally. \nAI Product Club \nUse AI to build and ship your idea into a product. \n Live Course ¥699 / quarter \n1024 Full-Stack Community \nLearn full-stack development, exchange overseas experience. \n Live Community ¥1024 / year \nTech Consulting \nProduct discussion, technical consulting, career planning. \n Consulting ¥2048 / hour \nCoffee Chat \nLearn product development face-to-face, and grab a coffee with me. \n Offline Discussion ¥4096 / session \nTalks & Training \nGo to the specified venue to give a talk or run a training session. \n Offline Sharing ¥8192 / session \nTech Advisor \nParticipate in your product development, solve technical problems. \n Assistant Development ¥60k / mo \n Contact Me",
+   "github_links": [
+    "all-in-aigc",
+    "chatmcp",
+    "fastclaw-ai",
+    "idoubi",
+    "thinkany-ai",
+    "weclaw-ai",
+    "workany-ai"
+   ],
+   "subpages": {
+    "https://idoubi.ai/blog": "[idoubi](https://idoubi.ai/)[Blog](https://idoubi.ai/blog)[Products](https://idoubi.ai/products)[Services](https://idoubi.ai/services)[About](https://idoubi.ai/about)\nSwitch language Toggle theme\n# Blog\nThoughts on indie hacking, AI products, and building in public.\nNo posts yet — check back soon.\nA logical mind is one in a million.\nFeature\n*   [Blog](https://idoubi.ai/blog)\n*   [Products](https://idoubi.ai/products)\n*   [Services](https://idoubi.ai/services)\n*   [About](https://idoubi.ai/about)\nProduct\n*   [ThinkAny](https://thinkany.ai/)\n*   [ShipAny](https://shipany.ai/)\n*   [WorkAny](https://workany.ai/)\n*   [CodeAny](https://codeany.ai/)\n*   [MCP.so](https://mcp.so/)\nOpen Source\n*   [FastClaw](https://github.com/fastclaw-ai/fastclaw)\n*   [WeClaw](https://github.com/fastclaw-ai/weclaw)\n*   [AnyClaw](https://github.com/fastclaw-ai/anyclaw)\n*   [ChatClaw](https://github.com/fastclaw-ai/chatclaw)\n*   [ClawHost](https://github.com/fastclaw-ai/clawhost)\nServices\n*   [1024 全栈开发社群](https://1024.is/)\n*   [AI 编程小桌课](https://codefree.cafe/)\n*   [AI 产品实战社团](https://cdn.shipany.ai/imgs/44cbda6b2168699a37234e47cca6dfa8.png)\nLegal\n*   [Privacy Policy](https://idoubi.ai/privacy-policy)\n*   [Terms of Service](https://idoubi.ai/terms-of-service)\n[](https://github.com/idoubi)[](https://x.com/idoubicc)[](mailto:me@idoubi.cc)\nEnglish\n[Built with❤️ShipAny](https://shipany.ai/?utm_source=idoubi.ai)© 2026 idoubi.ai",
+    "https://idoubi.ai/products": "idoubi \n Switch language Toggle theme \nMy Products \nBuilding products should be fun. \n All Agent Agent Infra AI Generator AI Tools Others \nAutoJev \nA local model router that lets you plug different models into any agent harness. \n AI Model Router Agent Harness \nCopyWeb \nAI Web Cloner \n AI Web Design Agent \nDouchat \nA desktop workspace where AI agents work and talk together. \n AI Multi-Agent Electron \nFastClaw \nAgent Framework \n Agent Personal Assistant Go \nHeyBeauty \nAI Virtual Try On \n AI Virtual Try On \nMCP.so \nMCP Marketplace \n MCP Marketplace Agent \nPodLM \nAI Podcast Generator \n AI Podcast Generator \nShipAny \nAI SaaS Boilerplate \n AI Boilerplate Next.js \nSnapok \nThe best screenshot tool out there. \n Screenshot macOS Productivity \nSpotcat \nA fast, native launcher for macOS — apps, files, the web, extensions and AI in one box. \n macOS Launcher Swift \nTermany \nA terminal for running many coding agents at once. \n Terminal Coding Agent Tauri \nThinkAny \nAI Search Engine \n AI Search Engine RAG \nWeClaw \nPersonal Agent \n Agent Runtime Agent Framework Go \nWorkAny \nDesktop Agent \n AI Desktop Agent Tauri \nAI Cover Archived \nAI Cover Generator \n AI Cover Generator \nAI Wallpaper Archived \nAI Wallpaper Generator \n AI Wallpaper Generator \n G \nGPTalk Archived \nAI Chatbot \n AI Chatbot \nGPTs Works Archived \nGPTs Directory \n AI GPTs Directory \nMelodisco Archived \nAI Music Player \n AI Music Player \nNano Banana 2 Archived \nAI Image Generator \n AI Nano Banana Generator \nPagen Archived \nAI Landing Page Generator \n AI Landing Page Generator \nSoraFM Archived \nAI Video Generator \n AI Video Generator \n 知 \n知了阅读 Archived \nAI Knowledge Base \n AI Knowledge",
+    "https://idoubi.ai/about": "idoubi \n Switch language Toggle theme \n Back to home \nAbout Me \nIndie Developer & Full-Stack Engineer \n Last updated : 2026-06-16 \nI'm idoubi — studied Nuclear Engineering at Wuhan University (class of 2015), fell in love with Adobe's creative tools along the way, taught myself to code, and never looked back. The name idoubi started as a nod to that origin story. \nI spent five years at Tencent (2018–2023) as a backend engineer, building payment systems and distributed infrastructure. Deep expertise in Go, cloud-native architectures, and high-scale system design. \nOn October 24, 2023, I quit Tencent to go full-time indie. Shipped 20+ AI products in 2 years — ThinkAny, ShipAny, MCP.so among them. Currently focused on Agent infrastructure and Agent SaaS. \nHighlights \nThinkAny \nAI search engine — debuted at #4 on Product Hunt, gained traction in Egypt and Japan, peaked at 600K monthly visits. \nShipAny \nAgent-native development framework — pre-sale hit $10K in the first four hours, now a go-to framework for many developers building AI apps. \nMCP.so \nMCP marketplace — cited in an a16z investment report, globally recognized, peaked at 2.7M monthly visits. \nAll Products \n🚀 FastClaw - Agent framework \n💼 WeClaw - Multi-role agent \n💼 WorkAny - Desktop agent \n🚀 ShipAny - Agent-native dev framework \n🔍 ThinkAny - AI search engine \n🌐 MCP.so - MCP marketplace \n🖼️ CopyWeb - AI website cloner \n🎙️ PodLM - AI podcast generator \n👗 HeyBeauty - AI virtual try-on \n🎨 Pagen - AI landing page generator \n🛠️ MCPRouter - Cloud MCP tool platform \n🎵 Melodisco - AI music player \n🧧 AI Cover - AI cover image generator \n🖼️ AI Wallpaper - AI wallpaper generator \n🌟 GPTS Works - GPTs directory \nContact \n🐦 Twitter: @idoubicc \n💻 GitHub: @idoubi \n📧 Email: me@idoubi.cc"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "http://shipany.ai",
+   "ok": true,
+   "title": "ShipAny: Ship Your AI Product in One Hour",
+   "description": "ShipAny is an agent-native framework with built-in auth, payments, subscriptions, credit billing, i18n, storage, AI generation, and production-ready templates that help coding agents launch your AI product in hours.",
+   "stack": [
+    "ShipAny",
+    "Tailwind CSS",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "ShipAny \n Toggle theme Switch language \n Limited-time offer \nShip your AI product in one hour \nShipAny is an agent-native development framework with auth, payments, subscriptions, credit billing, i18n, storage, AI generation, and more built in — so coding agents can reuse proven template capabilities and help you launch faster. \n Start building Getting Started Guide \n1,000+ builders use ShipAny to launch AI products \nDeeply integrated with popular tools and platforms \nStart your AI project in one minute \nClone a ShipAny template, launch your coding agent, and run the Skills \n $ git clone git@github.com:shipany-ai/shipany-tanstack my-shipany-project Resolving deltas: 100% (1978/1978), done. $ cd my-shipany-project $ claude Welcome to Claude Code! > /quick-start Build ImgAny, an AI image generator for imgany.ai with a purple theme and gpt-image-2, inspired by flux.ai ✓ Project ready — opening preview Local: http://localhost:3000 \nBuild faster with Agent Skills \nBuilt for coding agents and packed with ready-to-use Skills, ShipAny helps you turn AI product ideas into production apps faster. \n / quick-start Build a full SaaS from one sentence / clone-website Clone any website pixel-perfect / new-module Add a business module + API / new-page Add a dashboard page / new-static-page Add a static content page / generate-image AI-generate page artwork / security-scan Pre-commit security scan / sync-upstream Sync upstream template updates / deploy-cloudflare One-command Cloudflare deploy \n > /quick-start Build ImgAny, an AI image generator with a purple theme ✓ Project info and brand theme configured ✓ Landing page, auth, payments & credits wired Local: http://localhost:3000 \nWorks with popular models, tools, and platforms \nBuild AI products with ShipAny using any coding agent \n Dev Tools \n Models & Skills \n Deployment Platforms \nSaaS essentials, ready out of the box \nShipAny includes nearly 100 built-in SaaS essentials, all ready to customize and extend. \n0 1 \nLanding Pages & Essentials \nReady-made pages and core capabilities you can reshape around your product \n Landing blocks Pricing page Blog MDX static pages Auth pages shadcn/ui components i18n Light & dark theme \n0 2 \nUser Dashboard \nA self-service dashboard with subscriptions, credits, and API keys at a glance \n Subscription plan Billing Payment history Credits balance API keys Usage stats Support tickets Profile \n0 3 \nAdmin Panel \nManage users, content, payments, and system settings from one place \n User management Invite codes RBAC roles & permissions Content management Orders & subscriptions Credit grants System settings Provider config (payment/email/storage/AI) \n View the full feature map \nMore templates. More tech stacks. \nExplore premium templates built by ShipAny and unlock member pricing with ShipAny Premium. \nShipAny TanStack New \nAn agent-native SaaS engine on TanStack Start — auth, payments, credits and admin pre-wired, built to be driven by Claude Code. \n $199 $1.99 Member price View Template \nShipAny Video Lite New \nA production-ready AI video generator with Seedance 2.5 and MiniMax H3 — text-to-video, image-to-video, credits and billing included. \n $199 $69 Member price View Template \nShipAny Image Generator New \nA production-ready AI image SaaS — text-to-image, image editing and focused image tools with credits, billing and an admin console. \n $199 $99 Member price View Template \nShipAny Video Agent New \nTurn a sentence or a still into a finished shot, then keep every revision in one conversation — an AI video SaaS ready to rebrand. \n $199 $99 Member price View Template \nShipAny Image Agent New \nA conversational AI image product — users describe an edit, an agent picks the tool, renders the image and charges credits. \n $199 $99 Member price View Template \nShipAny Image Lite New \nA focused AI image generator — text and reference-image generation with accounts, credits, subscriptions and an admin console. \n $199 $49 Member price View Template \n Browse all templates \nThe go-to framework for developers building AI products \nMore modules. More power. Faster launches. \n 1,000+ \nPaying Customers \n 2000+ \nLive Websites \n 100+ \nFeature Modules \n 1 Hour \nRapid Launch \nAI products built with ShipAny \nFrom AI image and video generators to chat apps and beyond \nAITDK \nExplore a range of free AI SEO tools and AI generators designed to enhance your search engine optimization strategies. Boost your website's visibility and rankings with the power of artificial intelligenc",
+   "github_links": [],
+   "subpages": {
+    "http://shipany.ai/blog": "ShipAny \n Toggle theme Switch language \nBlog \nProduct updates, guides, and engineering notes from the team. Write for us \n All \nShipAny TanStack: the agent-native framework on TanStack Start \nThe newest member of the ShipAny family runs on TanStack Start (Vite + Nitro + React 19) — file-based routing, TanStack Query/Form/Table, Paraglide i18n, with all the business logic pre-wired. \n Jun 5, 2026 ShipAny Team \nShipAny Vinext: a Vite-powered full-stack React SaaS template \nWant Vite's instant dev loop without being locked into one framework? ShipAny Vinext runs the same ShipAny business engine on Vite-powered full-stack React. \n Jun 4, 2026 ShipAny Team \nShipAny Next: a headless SaaS engine on Next.js \nShipAny Next is a headless SaaS engine — auth, payments, subscriptions, credits, RBAC, and i18n pre-wired on the Next.js App Router so you can focus on your product. \n Jun 3, 2026 ShipAny Team \nShipAny Two: the all-in-one AI SaaS starter \nThe second-generation ShipAny template — richer page blocks, a more refined design system, and deeper AI integration to stand up a revenue-ready AI product out of the box. \n Jun 2, 2026 ShipAny Team \nShipAny One: the starting point for shipping an AI startup in hours \nThe first-generation ShipAny template — the most classic, most battle-tested AI SaaS starter kit, taking the shortest path from idea to a launchable product. \n Jun 1, 2026 ShipAny Team"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "http://mcp.so",
+   "ok": true,
+   "title": "What Is MCP? MCP Servers, Clients & AI Tools | MCP.so",
+   "description": "MCP (Model Context Protocol) lets AI apps like Claude, ChatGPT and Cursor use external tools and data. Find MCP servers, clients, skills and CLI tools with setup guides.",
+   "stack": [
+    "ShipAny",
+    "Framer",
+    "Google Analytics",
+    "three.js",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Advertise \n MCP.so \n Search MCP servers, tools, integrations… ⌘ K \n Advertise Submit Switch language Toggle theme Sign In \nDiscover useful MCP servers \nConnect AI apps to tools, data, and automated workflows. \n Browse featured \n 1 / 5 \nTop categories \nDeveloper Tools \nAI & Agents \nCloud & Infrastructure \nMemory & Knowledge \nMedia & Design \nFeatured servers \nHand-picked, production-ready View all \n Featured \nx402-list-mcp \nmcccsm \nMCP server for x402-list.com: discover x402 payment services and on-chain-verified facilitator settlement volumes. Published on npm as x402-list-mcp. \n Learn more \nARVX \nCentric AI, Inc. \nEmail for long-term client relationships: ARVX reads each person first and remembers every pair. \n Added 3 days ago \nAIsa \nAIsa \nAIsa is one key for 950+ data APIs across SEO and AI visibility, finance, social, web search, sales and agent mail — the go-to-market data stack behind prospecting, competitor research and brand monitoring. Five tools ra \n Added last month \nAOI — Environmental Intelligence \namin shojaei \nAOI is a commercial environmental-intelligence gateway that gives AI agents programmatic access to 38 real-world intelligence capabilities — climate risk, satellite monitoring, methane detection, water & soil, vegetation \n Added last month \nOfficial Porkbun MCP Server \nPorkbun LLC \nOfficial Porkbun MCP server, maintained by Porkbun. Check domain availability and pricing, register, renew and transfer domains, and manage DNS records, nameservers, URL forwarding, glue records, DNSSEC and domain contac \n Added 23 days ago \n 32 \nOpenZiti MCP Gateway \nopenziti \nNetFoundry MCP Gateway enables secure, isolated access to Model Context Protocol (MCP) tools across distributed systems without exposing public endpoints. Zero trust gateway for MCP servers. Aggregate, filter, and secure \n Added last month \n 48 \nGoogle Search MCP Server \nHasData \nHosted Google Search / SERP MCP server from HasData, no Google Cloud project. Organic results, AI Overview, People Also Ask, AI Mode, news and shopping for Claude, Cursor and any MCP client. \n Added last month \n 23 \n A \nAccountHub \nOne MCP connection for all your Gmail, Google Calendar, Drive and Contacts accounts, Slack workspaces and Notion — free. \n Added 24 days ago \nLocal MCP (LMCP) \nlanchuske \nLocal tools that let your AI use Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion, Outlook and Office files on Mac and Windows. Runs on your computer. \n Added last month \n 54 \nFeatured clients \nApps, IDEs, and frameworks that speak MCP View all \nRoamzy \nroamzy-io \nAgent-native global eSIM over MCP — an AI agent buys one eSIM for 193 countries, anonymously, per-MB in USDT/USDC crypto, and earns 20% referral forever. Claude/Cursor/Continue + any MCP client. \n Other \nFormLM \nformlm \nBuild smart forms, scoring quizzes, and evaluation reports through natural language. An MCP Server that lets any AI agent create and manage complete assessment apps end-to-end. \n Other \nCreceRank | Mejor herramienta GEO en Español \nCreceRank | Mejor herramienta GEO en Español \nCreceRank es la mejor herramienta GEO en Español. Puedes usar su MCP con esta url: https://crecerank.onrender.com/mcp \n Agent Frameworks \nKapwing MCP \nkapwing.com \nConnect Kapwing to Claude and ChatGPT via the Model Context Protocol (MCP). Upload footage, pull your latest export, add subtitles, translate them, or dub a video into another language — using your existing Kapwing accou \n Other \nFeatured CLI tools \nOfficial and agent-ready command-line tools for everyday workflows View all \n >_ Official \nBun \n$ bun \nAn all-in-one JavaScript runtime, package manager, bundler, and test runner. \n Developer tools \n >_ Official \nCloudflare Wrangler \n$ wrangler \nThe official Cloudflare developer CLI for Workers, D1, R2, KV, Queues, Workflows, and more. \n Cloud & DevOps \n >_ Official \nDuckDB CLI \n$ duckdb \nQuery local files and analytical datasets with an in-process SQL database. \n Database \n >_ Official \nFFmpeg \n$ ffmpeg \nRecord, convert, stream, inspect, and process audio and video. \n Media \nFeatured loops \nReusable prompts and workflows for coding agents View all \n Quality manual \nA11y Audit Until Clean \nRun automated accessibility checks on changed routes, fix violations, and repeat until the audit is clean. \n Testing manual \nBuild Until Green \nRun the production build, fix compile and bundling errors, and loop until the build succeeds. \n Testing manual \nCoverage Until Threshold \nAdd focused tests until ",
+   "github_links": [
+    "chatmcp"
+   ],
+   "subpages": {
+    "http://mcp.so/blog": "Advertise \n MCP.so \n Search MCP servers, tools, integrations… ⌘ K \n Advertise Submit Switch language Toggle theme Sign In \nBlog \nProduct updates, guides, and engineering notes from the team. Write for us \nMCP Inspector: The Practical Guide to Testing MCP Servers \nHow to use MCP Inspector v2: run it with npx, connect stdio and Streamable HTTP servers, test tools, resources and prompts, script it in CI, and fix errors. \n Oct 15, 2026 MCP.so Team \nMCP Dynamic Tool Registration and Discovery, Explained \nMCP dynamic tool registration and discovery: how clients find tools via tools/list, pagination and list_changed, and how to add or remove tools at runtime. \n Oct 15, 2026 MCP.so Team \nClaude Code MCP: Add, Configure and Manage MCP Servers \nClaude Code MCP guide: add servers with claude mcp add (stdio, HTTP, SSE), pick local, project or user scope, share .mcp.json, log in via /mcp and fix errors. \n Oct 15, 2026 MCP.so Team \nPlaywright MCP Claude Code Setup: Step-by-Step Guide \nSet up Playwright MCP in Claude Code in one command, then tune headless, browser, isolated and caps options, try example prompts and fix the most common errors. \n Oct 15, 2026 MCP.so Team \nBest MCP Servers for Business, Sales & Marketing (2026) \nThe best MCP servers for business, sales and marketing in 2026: official CRM, email, analytics, design, research and automation servers, with setup notes. \n Oct 15, 2026 MCP.so Team \nMCP vs RAG: Key Differences, When to Use Each, How to Combine \nMCP vs RAG explained: RAG retrieves knowledge to ground answers, MCP connects AI apps to live tools and data. Comparison table, use cases and combined designs. \n Oct 15, 2026 MCP.so Team \nCodex MCP Setup: Add MCP Servers to OpenAI Codex (2026) \nCodex MCP guide: add stdio and streamable HTTP servers with codex mcp add, edit ~/.codex/config.toml, log in with OAuth, set timeouts and fix startup errors. \n Oct 15, 2026 MCP.so Team \nChatGPT MCP: How to Add a Custom MCP Server (October 2026) \nChatGPT MCP explained for October 2026: add a remote MCP server as a plugin, pick OAuth or no auth, handle write approvals, reach private servers, fix errors. \n Oct 15, 2026 MCP.so Team \nMCP Security Best Practices: Threats, Fixes and a Checklist \nMCP security best practices from the official spec: prompt injection, tool poisoning, confused deputy, token passthrough, SSRF, local servers, plus a checklist. \n Oct 15, 2026 MCP.so Team \nMCP Authentication: How OAuth 2.1 Works in MCP (2026 Guide) \nMCP authentication explained: OAuth 2.1, protected resource metadata, PKCE, client ID metadata, resource indicators, stdio env credentials and API keys. \n Oct 15, 2026 MCP.so Team \nDocker MCP Gateway Setup: Profiles, Clients and Secrets \nSet up Docker MCP Gateway step by step: run docker mcp gateway run, build profiles from a catalog, connect Claude Code, Cursor and VS Code, and manage secrets. \n Oct 15, 2026 MCP.so Team \nMCP Resources vs Tools (vs Prompts): When to Use Each \nMCP resources vs tools explained: who controls each "
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "http://fastclaw.ai",
+   "ok": true,
+   "title": "FastClaw — Run your own AI agents. One binary. Any LLM.",
+   "description": "FastClaw is an agent factory: create, manage and run AI agents — each with its own personality, memory, skills and tools — and put them on the web, your API, or nine chat apps.",
+   "stack": [
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "FastClaw \n Switch language Toggle theme Get Started \n Source-available · Single Go binary \n Run your own AI agents. One binary. Any LLM. \nFastClaw is an agent factory: create, manage and run AI agents — each with its own personality, memory, skills and tools — and put them on the web, your API, or nine chat apps. \n Get started free Self-host on GitHub \n $ curl -fsSL https://raw.githubusercontent.com/fastclaw-ai/fastclaw/main/install.sh | bash \nmacOS · Linux · Windows. Drops one binary into ~/.local/bin. \n localhost:18953/chat \nYour agents, in the chat apps your users already open \n Telegram \n Discord \n Slack \n Feishu \n WeCom \n WeChat \n WhatsApp \n LINE \n iMessage \n See it in action. One console for every agent. \nChat with your agents, shape their personality, connect channels and schedule work — all from the FastClaw console. \n Chat Agents SOUL.md Channels Scheduler \nAgents answer with rich markdown and code — here a Code Reviewer catches a SQL injection and a race condition before merge. \n localhost:18953/chat \n Everything an agent needs, built into the runtime. \nFastClaw handles model calls, tool execution, sandboxing, sessions and channels — so you can spend your time on what your agents do. \n Explore all features \nAgents \nCreate and run many AI agents from one FastClaw install — each with its own SOUL.md personality, memory, skills, model and sharing settings. \nModels \nRun FastClaw agents on OpenAI, Anthropic, DeepSeek, Ollama, OpenRouter, Groq, Mistral or any OpenAI-compatible API, with per-agent overrides and retries. \nChannels \nBind any FastClaw agent to Telegram, Discord, Slack, Feishu, WeCom, WeChat, WhatsApp, LINE or iMessage — with per-chat session isolation and owner pairing. \nTools & Sandbox \nBuilt-in exec, file and web tools, run in an E2B cloud sandbox or a Docker container, with automatic skill and workspace hydration and file sync. \nSkills & MCP \nInstall skills from ClawHub, skills.sh or GitHub, connect MCP servers, add JSON-RPC plugins and let agents read Notion, GitHub and Linear. \nRuntime API \nDrive FastClaw agents from any app: OpenAI-compatible chat completions, agent management, per-end-user isolation, usage reporting and ACP. \nScheduler \nFastClaw agents schedule their own jobs — one-off reminders, intervals or cron expressions — and deliver results to the chat that asked. \n One directory. Everything your agents need. \nNo config file to mount. The database is the source of truth; skills live on disk next to it. \n ~/.fastclaw/ Your FastClaw home \n ├── fastclaw.db Users, agents, sessions, keys, configs \n ├── skills/ Shared skills — bundled + installed \n ├── agents/ One folder per agent \n │ └── <agentId>/agent/skills/ Agent-private skills \n └── users/ Per-account data \n └── <uid>/skills/ Personal skills \nEnv-only bootstrap \nPort, bind, storage and sandbox come from FASTCLAW_* env vars. Everything else is edited live in the console. \nSQLite to Postgres \nStart on one SQLite file. Point FASTCLAW_STORAGE_DSN at Postgres when you go multi-pod. \nLaptop to Kubernetes \nThe same binary runs in the foreground, as a launchd / systemd daemon, in Docker or on k8s. \n Built for people who ship agents to real users. \nFrom a personal assistant on your Mac to the agent backend of a multi-tenant SaaS. \n See all use cases \nSaaS builders \nGive every customer their own AI agent without building a runtime. FastClaw handles agents, end-user isolation, sandboxed tools and usage metering over an API. \nDevelopers \nRun your own AI agents on your laptop or server with one Go binary. Any model, local or hosted, reachable from the terminal, the web or your chat apps. \nTeams \nDeploy shared AI agents inside the chat tools your team already uses. Self-hosted, with per-person sessions, shared skills and scheduled reports. \nCommunities \nRun an AI agent for your community on Telegram, Discord or LINE. Every member gets their own session, and untrusted chatters stay inside a sandbox. \nAgencies \nBuild an agent once, fork it for each client, and deliver it on WeChat, WhatsApp or the web — all from one FastClaw deployment with per-client quotas. \nRunning in under a minute \nInstall the binary, run the setup wizard, and open the dashboard. No config files — bootstrap is env-only. \n 01 \nInstall \nOne command drops the fastclaw binary into ~/.local/bin and adds it to your PATH. \n $ curl -fsSL https://raw.githubusercontent.com/fastclaw-ai/fastclaw/main/install.sh | bash \n 02 \nFirst run \nLaunch fastclaw to open the setup wizard — configure an LL",
+   "github_links": [
+    "fastclaw-ai"
+   ],
+   "subpages": {
+    "http://fastclaw.ai/blog": "FastClaw \n Switch language Toggle theme Get Started \n Notes on running AI agents in production. \nGuides, tutorials and deep dives from the FastClaw team. \nDeploy your own Telegram AI bot in 15 minutes \nStep-by-step: install FastClaw, connect a model provider, give your agent a personality, bind it to a Telegram bot and pair it with your account — no public URL or webhook required. \n Oct 13, 2026 FastClaw Team \nHow to add AI agents to your SaaS without building an agent platform \nA practical guide to giving every customer their own AI agent: user-scope API keys, per-user agents, end-user isolation, streaming, files and usage-based billing with the FastClaw /v1 API. \n Oct 10, 2026 FastClaw Team \nWhat is an AI agent runtime? (And how it differs from a framework or a chat app) \nFrameworks help you write an agent. Chat apps let you talk to one. An agent runtime runs many agents for real users — sessions, tools, sandboxes, memory and channels included. \n Oct 8, 2026 FastClaw Team \n Try it on your own agents \nStart free in FastClaw Cloud, or self-host the single binary in a minute. \n Get started free See pricing"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "idoubi",
+  "user": {
+   "name": "idoubi",
+   "company": "ThinkAny",
+   "blog": "https://idoubi.ai",
+   "location": null,
+   "bio": "All in AI",
+   "public_repos": 22,
+   "followers": 1723,
+   "created_at": "2014-11-13T04:44:14Z",
+   "twitter_username": "idoubicc",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "idoubi/sql2struct",
+    "description": "A developer-friendly tool for transfering sql statement to go struct.",
+    "stargazers_count": 536,
+    "forks_count": 113,
+    "language": "TypeScript",
+    "homepage": "https://dou.tools/sql2struct/",
+    "created_at": "2017-10-29T15:42:56Z",
+    "pushed_at": "2023-12-29T09:20:42Z",
+    "topics": [
+     "go",
+     "golang",
+     "sql"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/gonews",
+    "description": "golang每日新闻检索平台",
+    "stargazers_count": 287,
+    "forks_count": 45,
+    "language": "Go",
+    "homepage": "http://gonews.idoubi.cc",
+    "created_at": "2018-01-08T14:51:12Z",
+    "pushed_at": "2022-12-11T23:38:54Z",
+    "topics": [
+     "golang",
+     "gonews",
+     "vue"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/goz",
+    "description": "A fantastic HTTP request libarary used in Golang.",
+    "stargazers_count": 261,
+    "forks_count": 56,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2017-09-10T14:49:03Z",
+    "pushed_at": "2023-10-13T04:47:28Z",
+    "topics": [
+     "curl",
+     "golang",
+     "goz",
+     "http",
+     "request"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/book-of-ai-search",
+    "description": "《动手写 AI 搜索引擎》",
+    "stargazers_count": 55,
+    "forks_count": 0,
+    "language": "Makefile",
+    "homepage": "https://ai-search.1024.is/",
+    "created_at": "2024-06-11T05:42:16Z",
+    "pushed_at": "2024-06-11T06:34:59Z",
+    "topics": [
+     "ai-search",
+     "book"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/onepub",
+    "description": "多端发布工具。写一篇markdown文章，使用onepub一键发布到多个平台。",
+    "stargazers_count": 18,
+    "forks_count": 6,
+    "language": null,
+    "homepage": null,
+    "created_at": "2019-07-14T06:08:21Z",
+    "pushed_at": "2020-05-26T12:56:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/hugo-theme-period",
+    "description": "A beautiful theme for Hugo.",
+    "stargazers_count": 14,
+    "forks_count": 4,
+    "language": "CSS",
+    "homepage": "https://idoubi.cc",
+    "created_at": "2020-11-14T14:22:47Z",
+    "pushed_at": "2025-03-10T08:37:59Z",
+    "topics": [
+     "blog",
+     "hugo",
+     "period"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/idoubi.github.io",
+    "description": "idoubi's blog",
+    "stargazers_count": 10,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "https://idoubi.cc",
+    "created_at": "2020-01-04T10:26:37Z",
+    "pushed_at": "2022-03-28T14:16:09Z",
+    "topics": [
+     "blog",
+     "hexo",
+     "hugo",
+     "idoubi"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/thinknote-desktop",
+    "description": "想记 桌面版",
+    "stargazers_count": 10,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-07-22T07:36:45Z",
+    "pushed_at": "2023-02-12T04:16:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/tellme",
+    "description": "a cli tool to get information",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2019-12-29T07:28:15Z",
+    "pushed_at": "2020-01-18T10:34:47Z",
+    "topics": [
+     "cli",
+     "go-tool",
+     "tellme"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/cutesdk",
+    "description": "各平台sdk集合",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2020-08-25T00:53:29Z",
+    "pushed_at": "2022-01-04T15:03:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/goutils",
+    "description": "go utils",
+    "stargazers_count": 3,
+    "forks_count": 3,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2020-08-25T00:56:57Z",
+    "pushed_at": "2023-02-14T04:18:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/docs",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "MDX",
+    "homepage": null,
+    "created_at": "2024-12-26T08:02:59Z",
+    "pushed_at": "2024-12-26T08:03:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/feesue",
+    "description": "Feedback page generator based on Github Issues.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-03-01T08:08:16Z",
+    "pushed_at": "2022-12-12T03:13:16Z",
+    "topics": [
+     "feeback",
+     "feesue",
+     "gitalk",
+     "gitment",
+     "issues"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/idoubi",
+    "description": "Config files for my GitHub profile.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "https://github.com/idoubi",
+    "created_at": "2022-10-06T04:24:37Z",
+    "pushed_at": "2026-06-30T09:27:51Z",
+    "topics": [
+     "config",
+     "github-config"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/motphp",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2022-02-28T14:51:20Z",
+    "pushed_at": "2023-05-12T12:02:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/sqlresult",
+    "description": "Transfer sql result to csv file",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2021-03-19T07:30:38Z",
+    "pushed_at": "2021-03-19T08:08:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/ai-product-club",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-06-30T12:40:36Z",
+    "pushed_at": "2026-06-30T12:40:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "idoubi/blog-comments",
+    "description": "idoubi blog comments",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2022-07-21T15:15:34Z",
+    "pushed_at": "2022-07-21T15:15:35Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 22,
+  "languages": [
+   [
+    "Go",
+    6
+   ],
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "Makefile",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "MDX",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "codeany-ai/open-agent-sdk-typescript",
+    "stargazerCount": 2743,
+    "description": "Agent-SDK without CLI dependencies, as an alternative to claude-agent-sdk, completely open source",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "workany-ai/workany",
+    "stargazerCount": 1526,
+    "description": "Desktop Agent for Any Task",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://workany.ai"
+   },
+   {
+    "nameWithOwner": "fastclaw-ai/weclaw",
+    "stargazerCount": 1687,
+    "description": "Connect to any agents with WeChat ClawBot.",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": "https://weclaw.im"
+   },
+   {
+    "nameWithOwner": "all-in-aigc/gpts-works",
+    "stargazerCount": 1628,
+    "description": "A Third-party GPTs store",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://gpts.works"
+   },
+   {
+    "nameWithOwner": "all-in-aigc/aicover",
+    "stargazerCount": 1798,
+    "description": "ai cover generator",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://imgany.ai?utm_source=github_aicover"
+   },
+   {
+    "nameWithOwner": "thinkany-ai/rag-search",
+    "stargazerCount": 1178,
+    "description": "RAG Search API",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://thinkany.ai"
+   }
+  ],
+  "contrib_last_year": 8233,
+  "orgs": [],
+  "profile_readme": "# Hi, I'm idoubi 👋\n\n📍 Guangzhou, China | 🚀 Indie Hacker\n\n![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)\n![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)\n![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)\n![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)\n![AI](https://img.shields.io/badge/-AI-FF6F00?style=flat-square&logo=openai&logoColor=white)\n![MCP](https://img.shields.io/badge/-MCP-5A67D8?style=flat-square&logo=anthropic&logoColor=white)\n![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)\n![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)\n![Kubernetes](https://img.shields.io/badge/-K8S-326CE5?style=flat-square&logo=kubernetes&logoColor=white)\n\n> Building AI-powered products for the global market. After 5 years at Tencent, quit to become an indie developer in 2023.\n\n🔗 [idoubi.ai](https://idoubi.ai) — My personal website with blog posts about AI, indie hacking, and full-stack development.\n\n## Current Projects\n\n- 🚀 [ShipAny](https://shipany.ai) - Agent-native Framework\n- 🏭 [FastClaw](https://fastclaw.ai) - Agent Factory\n- ☁️ [CCOnline](https://cconline.sh) - Claude Code in your browser\n- 👭 [WeClaw](https://weclaw.im) - Your first AI Friend\n- 💼 [WorkAny](https://workany.ai) - Desktop agent for working faster at any job\n- 🔍 [ThinkAny](https://thinkany.ai) - AI-powered search engine\n- 🌐 [MCP.so](https://mcp.so) - The largest MCP servers directory. 11M visits & 1.5M users in 2025\n- 🖼️ [CopyWeb](https://copyweb.ai) - AI-powered website cloning tool\n- 🎙️ [PodLM](https://podlm.ai) - AI podcast generator (NotebookLM alternative)\n- 👗 [HeyBeauty](https://heybeauty.ai) - AI virtual try-on for fashion\n- ☕️ [CodeFree](https://codefree.cafe) - Make something real, over coffee.\n\n## Open Source Projects\n\n- 🚀 [FastClaw](https://github.com/fastclaw-ai/fastclaw) - Multi-Agent Framework\n- 🛰 [WeClaw](https://github.com/fastclaw-ai/weclaw) - Connect to any agents with WeChat ClawBot\n- 🔗 [AnyClaw](https://github.com/fastclaw-ai/anyclaw) - The universal tool adapter for AI agents\n- 🫧 [ChatClaw](https://github.com/fastclaw-ai/chatclaw) - Multi-agent chat platform\n- 🦞 [ClawHost](https://github.com/fastclaw-ai/clawhost) - Openclaw hosting service\n- 💻 [CodeAny](https://github.com/codeany-ai/codeany) - Open-source AI-powered terminal agent\n- 👋 [open-agent-sdk](https://github.com/codeany-ai/open-agent-sdk-typescript) - Agent-SDK without CLI dependencies\n- 🎨 [Pagen](https://github.com/all-in-aigc/pagen-ai-landing-page-template) - AI landing page generator\n- 🛠️ [MCPRouter](https://github.com/chatmcp/mcprouter) - Cloud-based MCP tools platform (building)\n- 🎵 [melodisco](https://github.com/all-in-aigc/melodisco) - AI music player\n- 🧧 [aicover](https://github.com/all-in-aigc/aicover) - ",
+  "readmes": {
+   "codeany-ai/open-agent-sdk-typescript": "# Open Agent SDK (TypeScript)\n[](https://www.npmjs.com/package/@codeany/open-agent-sdk)\n[](https://nodejs.org)\n[](./LICENSE)\nOpen-source Agent SDK that runs the full agent loop **in-process** — no subprocess or CLI required. Supports both **Anthropic** and **OpenAI-compatible** APIs. Deploy anywhere: cloud, serverless, Docker, CI/CD.\nAlso available in **Go**: [open-agent-sdk-go](https://github.com/codeany-ai/open-agent-sdk-go)\n## Get started\n```bash\nnpm install @codeany/open-agent-sdk\n```\nSet your API key:\n```bash\nexport CODEANY_API_KEY=your-api-key\n```\n### OpenAI-compatible models\nWorks with OpenAI, DeepSeek, Qwen, Mistral, or any OpenAI-compatible endpoint:\n```bash\nexport CODEANY_API_TYPE=openai-completions\nexport CODEANY_API_KEY=sk-...\nexport CODEANY_BASE_URL=https://api.openai.com/v1\nexport CODEANY_MODEL=gpt-4o\n```\n### Third-party Anthropic-compatible providers\n```bash\nexport CODEANY_BASE_URL=https://openrouter.ai/api\nexport CODEANY_API_KEY=sk-or-...\nexport CODEANY_MODEL=anthropic/claude-sonnet-4\n```\n## Quick start\n### One-shot query (streaming)\n```typescript\nimport { query } from \"@codeany/open-agent-sdk\";\nfor await (const message of query({\n  prompt: \"Read package.json and tell me the project name.\",\n  options: {\n    allowedTools: [\"Read\", \"Glob\"],\n    permissionMode: \"bypassPermissions\",\n  },\n})) {\n  if (message.type === \"assistant\") {\n    for (const block of message.message.content) {\n      if (\"text\" in block) console.log(block.text);\n    }\n  }\n}\n```\n### Simple blocking prompt\n```typescript\nimport { createAgent } from \"@codeany/open-agent-sdk\";\nconst agent = createAgent({ model: \"claude-sonnet-4-6\" });\nconst result = await agent.prompt(\"What files are in this project?\");\nconsole.log(result.text);\nconsole.log(\n  `Turns: ${result.num_turns}, Tokens: ${result.usage.input_tokens + result.usage.output_tokens}`,\n);\n```\n### OpenAI / GPT models\n```typescript\nimport { createAgent } from \"@codeany/open-agent-sdk\";\nconst agent = createAgent({\n  apiType: \"openai-completions\",\n  model: \"gpt-4o\",\n  apiKey: \"sk-...\",\n  baseURL: \"https://api.openai.com/v1\",\n});\nconst result = await agent.prompt(\"What files are in this project?\");\nconsole.log(result.text);\n```\nThe `apiT",
+   "workany-ai/workany": "# WorkAny\nWorkAny is a desktop AI agent application that executes tasks through natural language. It provides real-time code generation, tool execution, and workspace management.\n**Website:** [workany.ai](https://workany.ai)\n## Previews\n- Organize files\n- Generate website\n- Generate document\n- Generate data table\n- Generate slides\n- Use custom model provider for Agent.\n## ❤️ Sponsor\n<a href='https://302.ai/?utm_source=workany_github' target='_blank'>\n</a>\n[302.AI](https://302.ai/?utm_source=workany_github) is a pay-as-you-go AI application platform that offers the most comprehensive AI APIs and online applications available.\n> If you want to sponsor this project, please contact us via email: [hello@workany.ai](mailto:hello@workany.ai)\n## Features\n- **Task Execution** - Natural language task input with real-time streaming\n- **Agent Runtime** - Powered by [@codeany/open-agent-sdk](https://github.com/codeany-ai/open-agent-sdk-typescript), runs entirely in-process with no external CLI dependency\n- **30+ Built-in Tools** - File I/O, shell execution, web search, code editing, and more\n- **Sandbox** - Isolated code execution environment\n- **Artifact Preview** - Live preview for HTML/React/code files\n- **MCP Support** - Model Context Protocol server integration (stdio/SSE/HTTP)\n- **Skills Support** - Custom agent skills for extended capabilities\n- **Multi-provider** - OpenRouter, Anthropic, OpenAI, and any compatible API endpoint\n## Project Structure\n```\nworkany/\n├── src/                # Frontend (React + TypeScript)\n├── src-api/            # Backend API (Hono + @codeany/open-agent-sdk)\n└── src-tauri/          # Desktop app (Tauri + Rust)\n```\n## Tech Stack\n| Layer | Technologies |\n|-------|--------------|\n| Frontend | React 19, TypeScript, Vite, Tailwind CSS 4 |\n| Backend | Hono, @codeany/open-agent-sdk, MCP SDK |\n| Desktop | Tauri 2, SQLite |\n## Architecture\n## Development\n### Requirements\n- Node.js >= 20\n- pnpm >= 9\n- Rust >= 1.70\n### Quick Start\n```bash\n# Install dependencies\npnpm install\n# Start API server\npnpm dev:api\n# Start Web and Desktop App (recommended)\npnpm dev:app\n# Start Web only (Optional)\npnpm dev:web\n```\n## Contributing\nContributions are welcome! Pleas",
+   "fastclaw-ai/weclaw": "# WeClaw\n[中文文档](README_CN.md)\nWeChat AI Agent Bridge — connect WeChat to AI agents (Claude, Codex, Gemini, Kimi, etc.).\n> This project is inspired by [@tencent-weixin/openclaw-weixin](https://npmx.dev/package/@tencent-weixin/openclaw-weixin). For personal learning only, not for commercial use.\n| | | |\n|:---:|:---:|:---:|\n|  |  |  |\n## Quick Start\n```bash\n# One-line install\ncurl -sSL https://raw.githubusercontent.com/fastclaw-ai/weclaw/main/install.sh | sh\n# Start (first run will prompt QR code login)\nweclaw start\n```\nThat's it. On first start, WeClaw will:\n1. Show a QR code — scan with WeChat to login\n2. Auto-detect installed AI agents (Claude, Codex, Gemini, etc.)\n3. Save config to `~/.weclaw/config.json`\n4. Start receiving and replying to WeChat messages\nUse `weclaw login` to add additional WeChat accounts.\n### Other install methods\n```bash\n# Via Go\ngo install github.com/fastclaw-ai/weclaw@latest\n# Via Docker\ndocker run -it -v ~/.weclaw:/root/.weclaw ghcr.io/fastclaw-ai/weclaw start\n```\n## How It Works\n<p align=\"center\">\n</p>\n**Agent modes:**\n| Mode | How it works | Examples |\n|------|-------------|----------|\n| ACP  | Long-running subprocess, JSON-RPC over stdio. Fastest — reuses process and sessions. | Claude, Codex, Kimi, Gemini, Cursor, OpenCode, OpenClaw |\n| CLI  | Spawns a new process per message. Supports session resume via `--resume`. | Claude (`claude -p`), Codex (`codex exec`) |\n| HTTP | OpenAI-compatible chat completions API. | OpenClaw (HTTP fallback) |\nAuto-detection picks ACP over CLI when both are available.\n## Chat Commands\nSend these as WeChat messages:\n| Command | Description |\n|---------|-------------|\n| `hello` | Send to default agent |\n| `/codex write a function` | Send to a specific agent |\n| `/cc explain this code` | Send to agent by alias |\n| `/claude` | Switch default agent to Claude |\n| `/cwd /path/to/project` | Switch workspace directory |\n| `/new` | Start a new conversation (clear session) |\n| `/info` | Show current agent info |\n| `/help` | Show help message |\n### Aliases\n| Alias | Agent |\n|-------|-------|\n| `/cc` | claude |\n| `/cx` | codex |\n| `/cs` | cursor |\n| `/km` | kimi |\n| `/gm` | gemini |\n| `/ocd` | opencode |\n| `/oc` | ope",
+   "all-in-aigc/gpts-works": "# GPTs Works\nGPTs Works is a Third-party GPTs store.\n## Introduction\nThis project consists of the following three parts👇\n1. Website\ncode located in the `web` directory.\nyou can view a live demo at: [https://gpts.works](https://gpts.works)\n2. Index System\ncode located in the `index` directory.\nindex system is used for searching GPTs with vector.\nthere is a GPTs built with index system: [https://chat.openai.com/g/g-EBKM6RsBl-gpts-works](https://chat.openai.com/g/g-EBKM6RsBl-gpts-works)\n3. Browser Extension\ncode located in the `extension` directory.\nbrowser extension is used to show Third-party GPTs beside ChatGPT Explore page.\n## Dependencies\n- [Vercel](https://vercel.com/): used for deploying website\n- [Vercel Storage Postgres](https://vercel.com/docs/storage/vercel-postgres): used for storing data.\n- [Zilliz Cloud](https://cloud.zilliz.com/): used for vector storing and searching\n## Deploy with Vercel\n[](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fall-in-aigc%2Fgpts-works&env=POSTGRES_URL,INDEX_API_BASE_URI,INDEX_API_KEY&envDescription=Create%20your%20Vercel%20Postgres%20DB%20firstly%20before%20set%20POSTGRES_URL%20value.&envLink=https%3A%2F%2Fgithub.com%2Fall-in-aigc%2Fgpts-works%3Ftab%3Dreadme-ov-file%23dependencies&project-name=my-gpts-works&repository-name=my-gpts-works&redirect-url=https%3A%2F%2Fgpts.works&demo-title=GPTs%20Works&demo-description=A%20Third-party%20GPTs%20Store.&demo-url=https%3A%2F%2Fgpts.works&demo-image=https%3A%2F%2Fgpts.works%2Flogo.png)\n## Local development\n### Clone project\n```shell\ngit clone https://github.com/all-in-aigc/gpts-works.git path-to-project\n```\n### Prepare data\n1. create table in your postgres database with sql:\n```sql\nCREATE TABLE gpts (\n    id SERIAL PRIMARY KEY,\n    uuid VARCHAR(255) UNIQUE NOT NULL,\n    org_id VARCHAR(255),\n    name VARCHAR(255),\n    description TEXT,\n    avatar_url TEXT,\n    short_url VARCHAR(255),\n    author_id VARCHAR(255),\n    author_name VARCHAR(255),\n    created_at timestamptz,\n    updated_at timestamptz,\n    detail JSON,\n    index_updated_at INT NOT NULL DEFAULT 0\n);\n```\n2. insert your own GPTs data into your postgres database\n### Start with Website\n1. locate a .env f",
+   "all-in-aigc/aicover": "# AI Cover\nAI Cover Generator by [aicover.design](https://aicover.design)\n[中文说明](/README_CN.md)\n## Live Demo\n[https://aicover.design](https://aicover.design)\n## Quick Start\n1. clone project\n```shell\ngit clone https://github.com/all-in-aigc/aicover\n```\n2. install dependencies\n```shell\ncd aicover\npnpm install\n```\n3. init database\ncreate your database use [local postgres](https://wiki.postgresql.org/wiki/Homebrew) or [vercel-postgres](https://vercel.com/docs/storage/vercel-postgres) or [supabase](https://supabase.com/)\ncreate tables from sql at `data/install.sql`\n4. set environmental values\nput `.env.local` under `aicover` root dir with values list below\n```\nOPENAI_API_KEY=\"\"\nPOSTGRES_URL=\"\"\nAWS_AK=\"\"\nAWS_SK=\"\"\nAWS_REGION=\"\"\nAWS_BUCKET=\"\"\nNEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=\"\"\nNEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in\nNEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up\nNEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/\nNEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/\nSTRIPE_PUBLIC_KEY=\"\"\nSTRIPE_PRIVATE_KEY=\"\"\nWEB_BASE_URI=\"\"\n```\n5. local development\n```shell\npnpm dev\n```\nopen `http://localhost:3000` for preview\n## Credit to\n- [aiwallpaper](https://aiwallpaper.shop) for code reference\n- [nextjs](https://nextjs.org/docs) for full-stack development\n- [clerk](https://clerk.com/docs/quickstarts/nextjs) for user auth\n- [aws s3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html) for image storage\n- [stripe](https://stripe.com/docs/development) for payment\n- [node-postgres](https://node-postgres.com/) for data processing\n- [tailwindcss](https://tailwindcss.com/) for page building\n## Other Things\nyou can contact me at Twitter: https://twitter.com/idoubicc\nif this project is helpful to you, buy me a coffee.\n<a href=\"https://www.buymeacoffee.com/idoubi\" target=\"_blank\"></a>\n"
+  }
+ },
+ "apps": []
+}
