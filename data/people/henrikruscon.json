@@ -1,0 +1,326 @@
+{
+ "name": "Henrik Ruscon",
+ "role": "独立 Mac 开发者 · Alcove（Mac 上的灵动岛）、Klack（机械键盘音效）作者",
+ "title": "Henrik Ruscon：把<em>灵动岛</em>搬到 Mac 上",
+ "dek": "TA 是瑞典的独立开发者，作品不多，但每一款都很完整。Klack 让 MacBook 的每一次敲击都发出机械键盘的声音，可以选 Cherry MX、NovelKeys Cream 等多种轴体，带空间音频和随机音高，上线后登上 Mac App Store 付费榜第一。Alcove 把 iPhone 的灵动岛搬到 Mac 的刘海上：音乐、通知、实时活动、日历、锁屏小组件都可以在那里展开和收起。TA 在 X 上只关注两个人，几乎只发产品视频，平均一条就有上千个赞。",
+ "card": "瑞典独立 Mac 开发者；Alcove（Mac 灵动岛）与 Klack（键盘音效，付费榜第一）作者。",
+ "location": "瑞典",
+ "updated": "2026-10-23",
+ "tags": [
+  "独立开发",
+  "macOS",
+  "交互动效",
+  "音效",
+  "Swift"
+ ],
+ "links": [
+  {
+   "label": "Alcove",
+   "url": "https://tryalcove.com"
+  },
+  {
+   "label": "Klack",
+   "url": "https://tryklack.com"
+  },
+  {
+   "label": "GitHub：henrikruscon",
+   "url": "https://github.com/henrikruscon"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介只有两行：「Alcove → tryalcove.com / Klack → tryklack.com」。",
+  "<strong>代表作：</strong>Alcove（$13.99，macOS 15+）、Klack（2023 年上架，$4.99，2026 年发布 Klack 2）；早年开源 Hyper 终端插件和 Zed 主题 Quill。",
+  "<strong>关键数字：</strong>Klack 官网标注 Mac App Store 付费榜第一；GitHub 近一年贡献 1,438 次；X 关注者约 1.1 万。",
+  "<strong>风格：</strong>两款应用的官网首页都可以直接交互，按一下键盘、点一下刘海就能体验。"
+ ],
+ "lead": "Klack 的官网是一块可以按的键盘：你按下哪个键，网页就发出哪个键的声音，还可以在 Cherry MX 黑轴、Everglide 水晶紫轴、Gateron 奶黄轴之间切换。卖点写得很直白：高保真音效、沉浸式空间音频、按下和抬起两种声音、随机音高、原生应用、极快。这个看起来像玩具的小应用做得非常认真，2026 年 5 月 TA 推出了 Klack 2，作为免费更新送给所有老用户。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {
+     "t": "Profile",
+     "profile": [
+      [
+       "身份",
+       "独立 Mac 开发者"
+      ],
+      [
+       "所在地",
+       "瑞典"
+      ],
+      [
+       "产品",
+       "Alcove、Klack"
+      ],
+      [
+       "开源",
+       "hyper-statusline、hyper-tabs-enhanced、hyper-chesterish、Zed 主题 Quill"
+      ],
+      [
+       "技术栈",
+       "Swift、SwiftUI / AppKit、JavaScript"
+      ]
+     ]
+    },
+    {
+     "h3": "TA 到底在做什么？"
+    },
+    {
+     "p": "Henrik 做的是<strong>让 Mac 更有感觉的小工具</strong>。Alcove 把刘海变成一块会动的区域：播放音乐时显示封面和进度，通知到来时展开，滑动手势切换内容，还能自定义音量和亮度的提示样式。这一年里 TA 陆续加入了锁屏音乐播放器、日历、放大的专辑封面，以及适配新版 macOS 的玻璃质感。"
+    },
+    {
+     "p": "Klack 则把声音当成交互反馈：每一次按键都有声音，而且每次音高略有不同，避免机械重复的感觉。后续更新加入了鼠标点击音和一个「非常令人满足」的提示音。"
+    },
+    {
+     "note": "本页依据 tryalcove.com、tryklack.com、Mac App Store、GitHub 和 X 帖子整理，资料截至 2026 年 10 月。所在地取自其 GitHub 资料；更多个人经历未公开。性别未见本人明确表述，本页用 TA。"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2016–2017",
+       "title": "Hyper 插件",
+       "text": "为 Hyper 终端写状态栏、标签页增强和多款主题插件。"
+      },
+      {
+       "when": "2023.03",
+       "title": "Klack",
+       "text": "机械键盘音效应用上架 Mac App Store，登上付费榜第一。"
+      },
+      {
+       "when": "2024",
+       "title": "Quill 与 Alcove",
+       "text": "发布 Zed 主题 Quill；11 月推出 Alcove：「Dynamic Island now for your Mac」。"
+      },
+      {
+       "when": "2025",
+       "title": "持续打磨",
+       "text": "Klack 加入奶黄轴和鼠标音效；Alcove 加入新的提示样式和锁屏音乐播放器。"
+      },
+      {
+       "when": "2026",
+       "title": "Klack 2",
+       "text": "Alcove 加入日历和放大封面；5 月 Klack 2 作为免费更新发布。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {
+     "work": {
+      "name": "Alcove",
+      "url": "https://tryalcove.com",
+      "meta": [
+       "2024–",
+       "macOS 15+",
+       "$13.99"
+      ],
+      "paras": [
+       "「Dynamic Island. Now for your Mac.」官网列出的功能：流畅过渡、即时通知、实时活动、滑动手势、自定义提示、锁屏小组件、原生应用。官网首页本身就是一个可以点的演示。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "Klack",
+      "url": "https://tryklack.com",
+      "meta": [
+       "2023–",
+       "macOS",
+       "$4.99"
+      ],
+      "paras": [
+       "「Satisfying sound with every keystroke.」菜单栏应用，提供多套真实采样的轴体声音，支持按下和抬起两种音效、随机音高和空间音频。"
+      ],
+      "facts": [
+       [
+        "Mac App Store",
+        "2023-03-23 上架"
+       ]
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "其他作品",
+       "说明"
+      ],
+      "rows": [
+       [
+        "hyper-statusline",
+        "Hyper 终端的可点击状态栏（★393）"
+       ],
+       [
+        "hyper-tabs-enhanced",
+        "Hyper 标签页增强（★191）"
+       ],
+       [
+        "Quill",
+        "「舒缓的」Zed 编辑器主题"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "产品网站研究",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://tryalcove.com",
+      "paras": [
+       "Alcove 和 Klack 的官网是同一种风格：首页就是产品本身。Alcove 页面顶部有一个仿刘海的灵动岛，正在播放歌曲，显示日期和天气，旁边一行小字写着「Psst… it’s interactive!」",
+       "两个网站都没有长篇介绍，只有 FAQ、更新日志、下载和购买按钮。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "观察"
+      ],
+      "rows": [
+       [
+        "形式",
+        "可交互的产品演示"
+       ],
+       [
+        "销售",
+        "Stripe 直接购买 + App Store"
+       ],
+       [
+        "托管",
+        "Cloudflare"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "公开表达",
+   "blocks": [
+    {
+     "p": "Henrik 几乎不发观点，TA 的 X 是一条产品视频时间线：「Calendar in Alcove」「Expanded Artwork on macOS」「Did someone say glass?」。每条只有一个短句加一段录屏，很多都有一两千个赞。这本身就是一种表达：让作品替你说话。"
+    },
+    {
+     "quote": "Free update for everyone as a big thank you for all the support I’ve gotten over the years from all of you.",
+     "cite": "Henrik，Klack 2 发布帖，X"
+    }
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "长处",
+       "局限 / 需要留意"
+      ],
+      "rows": [
+       [
+        "交互",
+        "动画和声音细节出色",
+        "—"
+       ],
+       [
+        "产品",
+        "定位清晰、一次买断",
+        "Alcove 需要 macOS 15 或更高版本"
+       ],
+       [
+        "营销",
+        "演示视频传播力强",
+        "—"
+       ],
+       [
+        "公开信息",
+        "—",
+        "个人背景几乎未公开"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>官网就是演示：</strong>让访客直接上手。",
+      "<strong>借一个大家熟悉的概念：</strong>灵动岛一说就懂。",
+      "<strong>声音也是界面：</strong>随机音高让反馈更自然。",
+      "<strong>回报老用户：</strong>大版本免费升级。",
+      "<strong>只发作品：</strong>一条好视频胜过十条观点。"
+     ]
+    },
+    {
+     "h3": "推荐先看这三个"
+    },
+    {
+     "try": [
+      {
+       "name": "Alcove",
+       "url": "https://tryalcove.com",
+       "why": "在官网上点一点那个灵动岛。"
+      },
+      {
+       "name": "Klack",
+       "url": "https://tryklack.com",
+       "why": "在网页上按几个键听听。"
+      },
+      {
+       "name": "Quill",
+       "url": "https://github.com/henrikruscon/zed-theme-quill",
+       "why": "给 Zed 换一个安静的主题。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "把你下一个项目的官网首页做成一个可以直接玩的演示，而不是一张截图。",
+ "sources": [
+  {
+   "label": "Henrik 的 X 个人资料",
+   "url": "https://x.com/henrikruscon"
+  },
+  {
+   "label": "Alcove",
+   "url": "https://tryalcove.com"
+  },
+  {
+   "label": "Klack",
+   "url": "https://tryklack.com"
+  },
+  {
+   "label": "Mac App Store：Klack",
+   "url": "https://apps.apple.com/us/app/klack/id6446206067"
+  },
+  {
+   "label": "GitHub：henrikruscon",
+   "url": "https://github.com/henrikruscon"
+  }
+ ]
+}

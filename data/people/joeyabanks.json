@@ -1,0 +1,135 @@
+{
+ "name": "Joey Banks",
+ "role": "Baseline Design 创始人 · 设计系统设计师 · 前 Twitter、Webflow 设计系统负责人 · 前 Figma 设计师布道师",
+ "title": "Joey Banks：<em>系统是手段，人才是目的</em>",
+ "dek": "他住在俄亥俄州哥伦布市，是一位设计系统设计师。他曾带领 Twitter 和 Webflow 的设计系统，也在 Figma 做过设计师布道师（Designer Advocate），教大家用好组件、变量和工作流。后来他独立出来，创办了设计系统咨询公司 Baseline Design，为团队提供设计系统的策略、搭建与培训：组件和令牌、治理规则、让系统保持健康的工作流，以及「不用我们在场也能运转系统」的培训。他在 X 上有八万多关注者，常常拆解 Apple 发布会里的界面细节。",
+ "card": "Baseline Design 创始人（哥伦布）；前 Twitter、Webflow 设计系统负责人，前 Figma 设计师布道师。",
+ "location": "美国俄亥俄州哥伦布",
+ "updated": "2026-10-23",
+ "tags": ["设计系统", "Figma", "设计培训", "咨询", "界面细节"],
+ "links": [
+  {"label": "Baseline Design", "url": "https://baselinedesign.com"},
+  {"label": "Notes on design systems", "url": "https://baselinedesign.com/posts"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Design systems for the teams building what’s next. Founder @ Baseline Design.」",
+  "<strong>经历：</strong>Twitter 设计系统负责人 → Webflow 设计系统负责人 → Figma 设计师布道师 → 创办 Baseline Design。",
+  "<strong>服务：</strong>设计系统策略、实施与培训，覆盖 Figma、设计令牌、治理、文档和工作流。",
+  "<strong>关键数字：</strong>X 关注者约 8.2 万。"
+ ],
+ "lead": "2026 年 10 月，Joey 分享了他最喜欢的设计工作流：先在 Claude Code 里把真实的东西做出来，再用 Figma Console MCP 把最重要的界面决策和组件拉回 Figma。代码负责做出最好的版本，Figma 负责记录和共享决策。这条帖子收获了六百多个赞。他说，自己对设计这个角色的未来「感到非常乐观和兴奋」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计系统设计师、创始人、讲师"],
+     ["所在地", "美国俄亥俄州哥伦布"],
+     ["公司", "Baseline Design"],
+     ["经历", "Twitter、Webflow 设计系统负责人；Figma 设计师布道师"],
+     ["专长", "组件与令牌、治理、Figma 培训"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Baseline 的工作是<strong>打好设计系统的地基</strong>。官网写道：有的团队带着一个需要重构的组件库来找他们，有的已经有了组件库，但需要一个懂得如何运营它的团队，还有的团队必须先解决一个设计系统战略问题，才谈得上开始搭建。客户评价说，经过 Baseline 的指导，设计团队都理解了组件和工具，还顺便搭起了内部设计系统。"},
+    {"p": "他也在考虑开一门 Framer 进阶课程，因为这一年他用 Framer 学到了「超多东西」。"},
+    {"note": "本页依据 baselinedesign.com 和 X 帖子整理，资料截至 2026 年 10 月。他在各公司的任职年份未在官网写明；家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "Twitter 时期", "title": "设计系统负责人", "text": "带领 Twitter 的设计系统。"},
+     {"when": "Webflow 时期", "title": "设计系统负责人", "text": "带领 Webflow 的设计系统。"},
+     {"when": "Figma 时期", "title": "设计师布道师", "text": "在 Figma 做设计师布道和培训。"},
+     {"when": "独立之后", "title": "Baseline Design", "text": "创办设计系统咨询公司；在通讯里写独立时最可怕的那些部分。"},
+     {"when": "2026", "title": "回归社区", "text": "7 月重新活跃于 X；与 Inflight 合作；分享代码优先的设计流程。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Baseline Design", "url": "https://baselinedesign.com",
+     "meta": ["咨询", "设计系统"],
+     "paras": [
+      "「A good design system makes better products possible, and makes the people building them quicker and more sure of their own decisions.」服务覆盖组件和令牌、治理、工作流与团队培训。"
+     ]
+    }},
+    {"work": {
+     "name": "Notes on design systems", "url": "https://baselinedesign.com/posts",
+     "meta": ["通讯", "写作"],
+     "paras": [
+      "「Writing from inside the work: what’s changing, what still holds, and what the day-to-day looks like right now.」"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://baselinedesign.com", "paras": [
+     "Baseline 官网用 Framer 搭建，语气温和：「Systems are our thing, but people are the point.」首页说明服务类型和合作方式，Posts 页是设计系统通讯的存档。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Framer，Cloudflare"],
+      ["结构", "服务介绍 + 通讯"],
+      ["定位", "策略、实施、培训"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Systems are our thing, but people are the point.", "cite": "Baseline Design 官网"},
+    {"p": "他在一条自我介绍的帖子里说：如果没有那么多人给他建议、帮他成长，他「远远到不了今天的位置」。他也是界面细节的热心观察者，比如「自然延伸到屏幕边缘的界面和容器，永远是令人满足的设计细节」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["经验", "大公司设计系统实战", "—"],
+      ["教学", "擅长 Figma 培训", "—"],
+      ["公开作品", "—", "开源代码和公开文章较少，更多在付费咨询中"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>设计系统是为人服务的。</strong>",
+     "<strong>先回答战略问题，再动手搭。</strong>",
+     "<strong>培训到团队能自己运转。</strong>",
+     "<strong>代码优先，再回写到设计工具。</strong>"
+    ]},
+    {"h3": "推荐先看这两个"},
+    {"try": [
+     {"name": "Baseline Design", "url": "https://baselinedesign.com", "why": "看一个设计系统咨询怎么介绍自己。"},
+     {"name": "Notes on design systems", "url": "https://baselinedesign.com/posts", "why": "订阅他的设计系统通讯。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "列出你们设计系统里最常被「绕开」的三个组件，问问团队为什么不用它们。",
+ "sources": [
+  {"label": "Joey Banks 的 X 个人资料", "url": "https://x.com/joeyabanks"},
+  {"label": "Baseline Design", "url": "https://baselinedesign.com"},
+  {"label": "Baseline Posts", "url": "https://baselinedesign.com/posts"}
+ ]
+}

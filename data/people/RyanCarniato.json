@@ -1,0 +1,157 @@
+{
+ "name": "Ryan Carniato",
+ "role": "SolidJS 作者 · Sentry · 前 Marko 核心团队 · 细粒度响应式与 Signals 布道者 · 波特兰",
+ "title": "Ryan Carniato：<em>got signals?</em>",
+ "dek": "他住在俄勒冈州波特兰，是 SolidJS（★3.6 万）的作者。Solid 用 JSX 写组件，但没有虚拟 DOM：组件只运行一次，之后由细粒度的响应式「Signals」精确地更新 DOM，在性能基准测试里长期名列前茅。Solid 的影响远超它自己的用户规模：这几年 Angular、Preact、Svelte 5 等都走向了 Signals 式的响应式，甚至有 TC39 提案要把 Signals 写进 JavaScript。他的底层库 dom-expressions 也被用来给 MobX、Vue 响应式、Knockout 等做 JSX 渲染。他曾在 eBay 参与 HTML 模板语言 Marko 的开发，现在在 Sentry 工作。他每周在 YouTube 直播，常常一讲几个小时框架架构。",
+ "card": "SolidJS（★3.6 万）作者；Sentry，前 Marko 核心团队；Signals 布道者，波特兰。",
+ "location": "美国俄勒冈州波特兰",
+ "updated": "2026-10-23",
+ "tags": ["SolidJS", "Signals", "响应式", "性能", "框架设计"],
+ "links": [
+  {"label": "SolidJS", "url": "https://www.solidjs.com"},
+  {"label": "YouTube：ryansolid", "url": "https://www.youtube.com/@ryansolid"},
+  {"label": "dev.to/ryansolid", "url": "https://dev.to/ryansolid"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「got signals?」",
+  "<strong>代表作：</strong>SolidJS（★36,170）、SolidStart、dom-expressions（★1,018）、Marko（参与，★14,458）、mobx-jsx、vuerx-jsx、ko-jsx、component-register、Frontend Masters《Reactivity with Solid》课程。",
+  "<strong>关键数字：</strong>X 关注者约 5.9 万；GitHub 粉丝约 3.9 千、近一年贡献 1,833 次。",
+  "<strong>2026 年：</strong>Solid 2.0 推进中；ViteConf 2026 演讲《Are Metaframeworks Dead?》；直播探索「Live Server Components」。"
+ ],
+ "lead": "2026 年 10 月，有人宣布「前端已死」，他回应：「不。前端远没有死，这个领域仍在快速变化。人们讨论得少了，主要是因为前端的讨论多年来越来越流于表面。」几天后，他在 ViteConf 上做了题为《元框架死了吗？》的演讲，他说录制时一直在想象，如果站在台下坐满几乎所有知名元框架作者和维护者的现场讲，会有多紧张。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "框架作者、工程师、主播"],
+     ["所在地", "美国俄勒冈州波特兰"],
+     ["工作", "Sentry"],
+     ["此前", "eBay（Marko 团队）等"],
+     ["开源", "SolidJS、SolidStart、dom-expressions"],
+     ["技术栈", "TypeScript、JavaScript、编译器"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Ryan 一边推进<strong>Solid 2.0</strong>，一边在直播里系统地思考框架架构。他画了一张「统一架构网格」，把客户端渲染、服务器渲染、服务器组件等组合放进不同象限，最近在探索最后一个象限：Live Server Components，即「一次渲染，所有观看者共享」。"},
+    {"p": "他也在想 AI 会如何改变框架设计。他说 Rich Harris 关于编译器的一篇旧文「是过去十年大多数 JS 框架编译器工作的神谕」，但 AI 让人们需要重新思考它：既然代码大多不是人写的，能不能在编译时做更多事，哪怕生成的代码很丑？"},
+    {"note": "本页依据 SolidJS 官网与 GitHub 仓库、dev.to 文章、X 帖子和直播公告整理，资料截至 2026 年 10 月。他的完整任职经历与各段任期未逐一核实。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2016", "title": "Web Components", "text": "component-register、webcomponent-router。"},
+     {"when": "2018", "title": "细粒度渲染", "text": "babel-plugin-jsx-dom-expressions、ko-jsx、mobx-jsx；Solid 成形。"},
+     {"when": "2019–2021", "title": "Solid 走红", "text": "dom-expressions；dev.to 长文；Solid 1.0（2021）。"},
+     {"when": "2021 前后", "title": "Marko", "text": "在 eBay 参与 Marko 开发；Qwik 与 Marko 的 Hacker News 演示。"},
+     {"when": "2022–", "title": "SolidStart 与课程", "text": "元框架 SolidStart；Frontend Masters 课程。"},
+     {"when": "2026", "title": "Solid 2.0", "text": "Sentry；Solid 2.0、ViteConf 演讲、每周直播。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SolidJS", "url": "https://www.solidjs.com",
+     "meta": ["2018–", "TypeScript", "★3.6 万"],
+     "paras": [
+      "「A declarative, efficient, and flexible JavaScript library for building user interfaces.」用 Signals、Memo 和 Effect 构建界面，没有虚拟 DOM，组件函数只执行一次。"
+     ],
+     "facts": [["GitHub", "★36,170"]]
+    }},
+    {"work": {
+     "name": "dom-expressions", "url": "https://github.com/ryansolid/dom-expressions",
+     "meta": ["2019–", "JavaScript", "★1 千"],
+     "paras": [
+      "「A Fine-Grained Runtime for Performant DOM Rendering」Solid 的底层渲染运行时，也可以接任意响应式库。"
+     ]
+    }},
+    {"work": {
+     "name": "Marko", "url": "https://markojs.com",
+     "meta": ["eBay 开源", "参与", "★1.4 万"],
+     "paras": [
+      "「A declarative, HTML-based language that makes building web apps fun」他把细粒度响应式的经验带进了 Marko 的新版本。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["mobx-jsx", "不受虚拟 DOM 限制的 MobX 渲染"],
+      ["vuerx-jsx", "Vue 响应式 + 细粒度渲染"],
+      ["solid-course", "Frontend Masters 课程网站"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "公开表达",
+   "blocks": [
+    {"site": {"url": "https://dev.to/ryansolid", "paras": [
+     "Ryan 没有传统的个人网站：X 简介链接到 YouTube 频道，GitHub 链接到 dev.to。dev.to 上是他多年来的长文，深入讲解响应式、编译器、服务器渲染和框架之间的取舍；YouTube 则是每周的长时间直播。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["长文", "dev.to"],
+      ["直播", "YouTube 每周"],
+      ["社交", "X"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Nah. Frontend is far from dead. Huge movement still happening in the space at rapid rate. People are discussing it less mostly because discussion on frontend has been trending superficial for years.", "cite": "Ryan Carniato，X，2026-10"},
+    {"p": "他乐于为其他框架说公道话：即使是他「没什么好感」的 Next.js，他也尊重设计它所付出的工作。他也说自己为在 Sentry 工作而自豪，因为开源需要使用者的帮助才能持续。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["思想影响", "推动整个行业转向 Signals", "—"],
+      ["性能", "基准测试长期领先", "—"],
+      ["生态", "社区热情", "生态规模远小于 React"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把一个核心想法做到极致：</strong>细粒度响应式。",
+     "<strong>公开、长篇地讲清楚取舍。</strong>",
+     "<strong>尊重其他框架，</strong>从中学习。",
+     "<strong>用基准测试说话。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "SolidJS 教程", "url": "https://www.solidjs.com/tutorial", "why": "体验没有虚拟 DOM 的 JSX。"},
+     {"name": "dev.to/ryansolid", "url": "https://dev.to/ryansolid", "why": "读他关于响应式的长文。"},
+     {"name": "YouTube 直播", "url": "https://www.youtube.com/@ryansolid", "why": "跟着他思考框架架构。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 Solid 的 createSignal 写一个计数器，在组件函数里加一行 console.log，看看它执行了几次。",
+ "sources": [
+  {"label": "Ryan Carniato 的 X 个人资料", "url": "https://x.com/RyanCarniato"},
+  {"label": "SolidJS", "url": "https://www.solidjs.com"},
+  {"label": "GitHub：solidjs/solid", "url": "https://github.com/solidjs/solid"},
+  {"label": "GitHub：ryansolid", "url": "https://github.com/ryansolid"},
+  {"label": "dev.to/ryansolid", "url": "https://dev.to/ryansolid"}
+ ]
+}

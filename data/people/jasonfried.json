@@ -1,0 +1,162 @@
+{
+ "name": "Jason Fried",
+ "role": "37signals 联合创始人兼 CEO（Basecamp、HEY、ONCE）·《Rework》《Remote》作者 · 芝加哥",
+ "title": "Jason Fried：<em>够了</em>就是最好的增长",
+ "dek": "他是 37signals 的联合创始人兼 CEO，公司做了项目管理软件 Basecamp、邮件服务 HEY 和一次买断制的软件系列 ONCE。据维基百科，37signals 1999 年由他和 Carlos Segura、Ernest Kim 在芝加哥创办，最初是网页设计公司，名字来自天文学家识别出的 37 个可能来自外星的无线电信号；2004 年起转向自己的 Web 应用，第一款就是 Basecamp，而 Ruby on Rails 正是 David Heinemeier Hansson 从 Basecamp 的开发中抽取出来开源的。2006 年杰夫·贝佐斯通过个人投资公司入股少量股份。他和 DHH 合写了《Getting Real》《Rework》《Remote》《It Doesn't Have to Be Crazy at Work》等书，主张小公司、低成本、不融资、不加班、「够了」比增长更重要。他自称「不是连续创业者，而是连续作者」，X 关注者约 530 万。",
+ "card": "37signals 联合创始人兼 CEO（Basecamp、HEY、ONCE）；《Rework》《Remote》作者，芝加哥。",
+ "location": "美国芝加哥",
+ "updated": "2026-10-23",
+ "tags": ["创业", "产品设计", "远程工作", "商业写作", "SaaS"],
+ "links": [
+  {"label": "HEY World：Jason", "url": "https://world.hey.com/jason"},
+  {"label": "37signals", "url": "https://37signals.com"},
+  {"label": "Basecamp", "url": "https://basecamp.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Started & runs 37signals (makers of Basecamp, HEY, and ONCE). Non-serial entrepreneur, serial author.」",
+  "<strong>代表作：</strong>Basecamp（2004–，现为 Basecamp 5）、HEY、ONCE、Highrise、Campfire；书《Getting Real》《Rework》《Remote》《It Doesn't Have to Be Crazy at Work》。",
+  "<strong>关键数字：</strong>X 关注者约 530 万、推文约 5.6 万条。",
+  "<strong>公司：</strong>1999 年创办；2014 年更名 Basecamp 专注单一产品；2022 年改回 37signals。"
+ ],
+ "lead": "2026 年 8 月，他在博客上讲了一个小实验。免费线下活动总有很多人报名了却不来，于是这次他们要求每人付 100 美元入场，到场就当面全额退还。他去银行取了 5,300 美元的百元钞票。结果：55 人付了钱，50 人到场，到场率 90%，「对一个免费活动来说高得出奇」；没来的 5 人的 500 美元，他们捐了出去。这就是他一贯的风格：用一个简单、有点反常规的办法，解决一个真实的小问题，然后把结果写出来。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创业者、CEO、作者"],
+     ["所在地", "美国芝加哥"],
+     ["公司", "37signals（1999 年联合创办）"],
+     ["合作者", "David Heinemeier Hansson（DHH）"],
+     ["产品", "Basecamp、HEY、ONCE"],
+     ["写作", "HEY World 博客与多本商业书"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Jason 正在推广 <strong>Basecamp 5</strong>：他在 X 上几乎每天转发用户的评价，并配一句「某某懂了」。他说最喜欢的评价来自「不情愿的客户」，那些以前用不惯 Basecamp、这一版终于用顺手的人。Basecamp 也推出了官方 ChatGPT 插件，用户可以把 Claude 等 AI 接到 Basecamp 里干活。"},
+    {"p": "对 AI 热潮，他有冷静的判断。他在《The bespoke software revolution? I'm not buying it.》里说，定制软件早就存在，「几乎总是很烂」，对它最兴奋的其实是做软件的人自己。在《Mistaking making for the thing you've made》里他写道：开发速度、提交次数、投入的人或 Agent 数量、加班时长，都不会让产品本身变得更好或更差。"},
+    {"note": "本页依据 world.hey.com/jason、维基百科 37signals 条目和 X 帖子整理，资料截至 2026 年 10 月。他的 GitHub 没有公开仓库；涉及公司内部政策争议与政治话题的内容未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "1999", "title": "37signals", "text": "在芝加哥与 Carlos Segura、Ernest Kim 创办网页设计公司。"},
+     {"when": "2003–2004", "title": "Basecamp", "text": "开始做 Basecamp；DHH 从中抽出 Ruby on Rails 开源。"},
+     {"when": "2006", "title": "Getting Real", "text": "出版《Getting Real》；贝佐斯少量入股。"},
+     {"when": "2010–2018", "title": "商业书", "text": "《Rework》《Remote》《It Doesn't Have to Be Crazy at Work》。"},
+     {"when": "2014", "title": "更名 Basecamp", "text": "专注单一产品。"},
+     {"when": "2020–2026", "title": "HEY、ONCE 与 Basecamp 5", "text": "推出 HEY 邮件；2022 年改回 37signals；ONCE 买断制产品；Basecamp 5。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Basecamp", "url": "https://basecamp.com",
+     "meta": ["2004–", "项目管理", "Basecamp 5"],
+     "paras": [
+      "把项目、待办、讨论、文件和日程放在一个地方的协作软件；很多客户从 2004 年用到现在。"
+     ]
+    }},
+    {"work": {
+     "name": "HEY", "url": "https://hey.com",
+     "meta": ["2020–", "邮件与日历"],
+     "paras": [
+      "重新设计的邮件服务：陌生人第一次来信要先经过你的筛选。他的博客也托管在 HEY World 上。"
+     ]
+    }},
+    {"work": {
+     "name": "《Rework》", "url": "https://basecamp.com/books",
+     "meta": ["2010", "与 DHH 合著", "商业书"],
+     "paras": [
+      "用短章节挑战创业常识：不需要外部投资，不需要做大，计划是猜测。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["ONCE", "一次付费、自己托管的软件系列"],
+      ["《Getting Real》", "37signals 的产品开发方法"],
+      ["《Remote》", "远程工作指南"],
+      ["《It Doesn't Have to Be Crazy at Work》", "平静公司的工作方式"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://world.hey.com/jason", "paras": [
+     "他的博客在 HEY World 上：一个「把邮件发到网上」的博客平台，读者可以用邮件或 RSS 订阅。首页只有一句自我介绍和文章列表，文章短而直接，主题是商业、设计、产品开发，以及「脑子里想到的其他任何事」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["平台", "HEY World"],
+      ["订阅", "邮件、RSS"],
+      ["风格", "短文、观点鲜明"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-08-28", "title": "$5300 in $100s: The verdict", "url": "https://world.hey.com/jason/5300-in-100s-the-verdict-74c41080"},
+     {"date": "2026-07-24", "title": "Mistaking making for the thing you've made", "url": "https://world.hey.com/jason/mistaking-making-for-the-thing-you-ve-made-bd348df9"},
+     {"date": "2026-03-20", "title": "The bespoke software revolution? I'm not buying it.", "url": "https://world.hey.com/jason/the-bespoke-software-revolution-i-m-not-buying-it-4bfad9ec"},
+     {"date": "2026-01-14", "title": "Great design was a Cuisinart", "url": "https://world.hey.com/jason/great-design-was-a-cuisinart-86a83d1f"},
+     {"date": "2026-01-06", "title": "The joy of delegating to competence", "url": "https://world.hey.com/jason/the-joy-of-delegating-to-competence-55f50d4d"}
+    ]},
+    {"quote": "The speed at which a product is developed doesn't inherently make the product better or worse.", "cite": "Jason Fried，《Mistaking making for the thing you've made》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["经营", "二十多年盈利的小公司", "—"],
+      ["写作", "观点清晰、影响广泛", "立场鲜明，部分观点有争议"],
+      ["产品", "长期打磨少数产品", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>为自己做产品。</strong>",
+     "<strong>低成本、小团队、足够多的客户。</strong>",
+     "<strong>别把忙碌误当成成果。</strong>",
+     "<strong>用简单的实验解决真实的小问题。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Mistaking making for the thing you've made", "url": "https://world.hey.com/jason/mistaking-making-for-the-thing-you-ve-made-bd348df9", "why": "AI 时代的一剂清醒药。"},
+     {"name": "Great design was a Cuisinart", "url": "https://world.hey.com/jason/great-design-was-a-cuisinart-86a83d1f", "why": "两个按钮里的好设计。"},
+     {"name": "37signals 的书", "url": "https://basecamp.com/books", "why": "从《Getting Real》读起。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "列出你这周做的所有事，划掉那些只是「看起来很忙」、并没有让产品变好的。",
+ "sources": [
+  {"label": "Jason Fried 的 X 个人资料", "url": "https://x.com/jasonfried"},
+  {"label": "HEY World：Jason Fried", "url": "https://world.hey.com/jason"},
+  {"label": "维基百科：37signals", "url": "https://en.wikipedia.org/wiki/37signals"},
+  {"label": "37signals", "url": "https://37signals.com"}
+ ]
+}

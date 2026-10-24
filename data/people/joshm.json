@@ -1,0 +1,145 @@
+{
+ "name": "Josh Miller",
+ "role": "The Browser Company 联合创始人兼 CEO（Arc、Dia）· 布鲁克林",
+ "title": "Josh Miller：重新发明<em>浏览器</em>",
+ "dek": "他是 The Browser Company 的联合创始人兼 CEO，2019 年和 Hursh Agrawal 在纽约创办了这家公司。他们做的 Arc 浏览器 2022 年发布：竖排侧栏、Spaces 分区、命令栏、分屏，被称为「网页的操作系统」，在设计圈和开发者中拥有大批忠实用户。2025 年公司把全部精力转向 AI 浏览器 Dia，同年 9 月宣布被 Atlassian 以约 6.1 亿美元现金收购，他继续担任 CEO。2026 年 10 月，Dia 推出 Windows 版；也是在这个月，他宣布 Arc 将于 12 月 22 日停止服务，并感谢所有参与过「代码和像素」的人：「一个苦乐参半、令人动容的时刻。」",
+ "card": "The Browser Company 联合创始人兼 CEO（Arc、Dia）；公司 2025 年被 Atlassian 收购，布鲁克林。",
+ "location": "美国纽约布鲁克林",
+ "updated": "2026-10-23",
+ "tags": ["浏览器", "产品", "AI", "创业", "设计"],
+ "links": [
+  {"label": "Dia", "url": "https://diabrowser.com"},
+  {"label": "The Browser Company", "url": "https://thebrowser.company"},
+  {"label": "Arc（维基百科）", "url": "https://en.wikipedia.org/wiki/Arc_(web_browser)"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「CEO of The @BrowserCompany (Arc, Dia)」，同时是 UCLA Health 琼森综合癌症中心（JCCC）的理事。",
+  "<strong>代表作：</strong>Arc（2022–2026）、Dia（AI 浏览器，macOS 与 Windows）。",
+  "<strong>公司里程碑：</strong>2019 年创立；2024 年 3 月以 5 亿美元估值融资 5,000 万美元；2025 年 9 月宣布被 Atlassian 以约 6.1 亿美元收购；Arc 于 2026 年 12 月 22 日停服。",
+  "<strong>关键数字：</strong>X 关注者约 9.3 万。"
+ ],
+ "lead": "2026 年 8 月，Josh 发了一条很有感触的帖子：ChatGPT 的 Atlas 浏览器当天停止服务，Perplexity 的 Comet 进入「僵尸模式」。「我们刚开始做 The Browser Company 时，没人在乎浏览器；后来所有人都在乎了（复制 Dia）；然后所有人都放弃了。」但他说，自己对浏览器从未这样有信心过。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创始人兼 CEO"],
+     ["所在地", "美国纽约布鲁克林"],
+     ["公司", "The Browser Company of New York（2019–，2025 年起归属 Atlassian）"],
+     ["联合创始人", "Hursh Agrawal（CTO）"],
+     ["产品", "Arc、Dia"],
+     ["其他", "UCLA Health JCCC 理事会成员"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Josh 现在专注于 <strong>Dia：「工作日更美好」的浏览器</strong>。Dia 的 Morning Brief 在一天开始前整理好日历、收件箱和关键链接；它能跨 Slack、Notion、Teams、Google 等工具收集信息，合成一份可以分享的报告；你只问一次，它就在完整的上下文里找答案。2026 年 8 月，Dia 把 Arc 最受欢迎的 Spaces 带了过来，还给每个空间配上独立的 AI 模型、Agent 和记忆，可以滑动切换。"},
+    {"p": "他也对 AI 的普及保持清醒：2026 年 8 月他写道，「除了工程师和早期用户，其实没有人真正在用 AI Agent」，不像当年大家在朋友群里聊新应用那样。为了庆祝 Dia 登陆 Windows，团队还特意做了一组「我们自己也想在早上通勤时看到」的广告。"},
+    {"note": "本页依据 diabrowser.com、维基百科 Arc 条目、关于 Atlassian 收购的报道（BetaNews、Capital Brief 等）和 X 帖子整理，资料截至 2026 年 10 月。他创办 The Browser Company 之前的经历本次未能从可靠来源核实，本页不写。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2019", "title": "创办 The Browser Company", "text": "与 Hursh Agrawal 在纽约创立。"},
+     {"when": "2022", "title": "Arc 发布", "text": "4 月在 Twitter 上宣布，此前约 100 人签保密协议内测。"},
+     {"when": "2023–2024", "title": "Arc 扩展", "text": "Arc 正式推出，陆续支持 Windows、iOS、Android；2024 年 3 月以 5 亿美元估值融资。"},
+     {"when": "2025", "title": "Dia 与收购", "text": "Arc 进入维护模式，全力做 Dia；9 月宣布被 Atlassian 收购。"},
+     {"when": "2026", "title": "Dia 扩张，Arc 告别", "text": "Dia 加入 Spaces、Windows 版；宣布 Arc 12 月 22 日停服。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Arc", "url": "https://en.wikipedia.org/wiki/Arc_(web_browser)",
+     "meta": ["2022–2026", "Chromium + Swift"],
+     "paras": [
+      "设计目标是成为「网页的操作系统」：竖排侧栏容纳搜索、标签页和书签，Spaces 分区可以有不同主题和配置，命令栏像 Spotlight，还有分屏、内置广告拦截等。安装时让用户挑选主题色，设计师 Karla Cole 说，团队想营造「电影开场时的那种感觉」。"
+     ]
+    }},
+    {"work": {
+     "name": "Dia", "url": "https://diabrowser.com",
+     "meta": ["2025–", "AI 浏览器", "macOS · Windows"],
+     "paras": [
+      "「The browser for better days at work.」Morning Brief、跨应用合成报告、上下文问答、Profiles 隔离工作与生活；2026 年 9 月换上手绘风格的新品牌。他还发布了一期播客，讲述 Arc 的完整幕后故事，并把 Arc 的大部分经典功能和一键导入做进了 Dia。"
+     ]
+    }},
+    {"table": {
+     "cols": ["相关", "说明"],
+     "rows": [
+      ["Atlassian 收购", "约 6.1 亿美元现金，团队保持独立，资源集中于 Dia"],
+      ["设计团队", "成员中有人发明了 WhatsApp 的滑动回复，有人带过 Safari 的设计"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://diabrowser.com", "paras": [
+     "Josh 没有独立的个人网站，X 链接到 Dia 官网。Dia 官网用三个编号段落讲清楚产品价值，再展示 Profiles、Spaces 和与 Granola、Notion、Slack、Gmail 等应用的集成。公司还通过 Substack 发布设计拆解视频。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "无"],
+      ["产品官网", "Next.js，Vercel"],
+      ["内容", "Substack 视频与播客"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "When we started @browsercompany nobody cared about browsers, then everyone did (copying Dia), then everyone bailed.", "cite": "Josh Miller，X，2026-08"},
+    {"p": "他常把一句话挂在心上：「What happens if everything goes right?」很容易陷入末日情绪，觉得世界在崩塌，但他说自己每天都更乐观：AI 工具、精准医疗……如果一切都朝好的方向走呢？"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "Arc 定义了新一代浏览器交互", "Arc 最终停服，老用户需要迁移"],
+      ["战略", "早早押注 AI 浏览器，被收购", "AI 浏览器赛道竞争激烈、变化快"],
+      ["表达", "坦诚、有感染力", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>敢挑战被认为「已经做完」的产品。</strong>",
+     "<strong>该转向时就转向：</strong>从 Arc 到 Dia。",
+     "<strong>告别也要体面：</strong>感谢每一个贡献者，给用户迁移路径。",
+     "<strong>问自己：如果一切顺利会怎样？</strong>"
+    ]},
+    {"h3": "推荐先看这两个"},
+    {"try": [
+     {"name": "Dia", "url": "https://diabrowser.com", "why": "试试 Morning Brief。"},
+     {"name": "Arc（维基百科）", "url": "https://en.wikipedia.org/wiki/Arc_(web_browser)", "why": "回顾一个浏览器的设计史。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "列出你每天打开的五个工具，想一想：如果浏览器能替你把它们的信息汇总成一页，你最想看到什么？",
+ "sources": [
+  {"label": "Josh Miller 的 X 个人资料", "url": "https://x.com/joshm"},
+  {"label": "Dia", "url": "https://diabrowser.com"},
+  {"label": "维基百科：Arc (web browser)", "url": "https://en.wikipedia.org/wiki/Arc_(web_browser)"},
+  {"label": "BetaNews：Atlassian 以 6.1 亿美元收购 The Browser Company", "url": "https://betanews.com/2025/09/05/atlassian-moves-into-ai-browsers-with-610-million-purchase-of-the-browser-company/"}
+ ]
+}

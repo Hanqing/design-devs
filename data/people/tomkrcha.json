@@ -1,0 +1,145 @@
+{
+ "name": "Tom Krcha",
+ "role": "pen.dev（原 pencil.dev）创始人 · a16z speedrun 校友 · 设计工具与图形编程 · 旧金山",
+ "title": "Tom Krcha：一块会和 <em>Agent</em> 一起设计的画布",
+ "dek": "TA 是 pen.dev 的创始人。pen.dev 原名 pencil.dev，自称「一块为大胆的想法而生的 Agent 画布」：你可以在画布上直接让 Agent 做设计，再用手精修每个细节，最后导出回代码。它可以接 Claude、OpenAI、Grok、Qwen、Gemini、Kimi、DeepSeek、MiniMax 等模型，支持用 ChatGPT 或 Claude 订阅登录、填 API 密钥，或者通过 MCP、WebMCP、命令行连接；成千上万个图层靠自研的 WebGL 管线保持流畅。TA 入选过 a16z 的 speedrun 创业加速计划。很早以前，TA 就在做「设计和代码之间的桥」：Drawscript 能把 Illustrator 里的形状变成 Objective-C、C++、JavaScript、Processing、ActionScript 等语言的绘图代码；TA 还写过不少 Photoshop 脚本和 Adobe Generator 教程，以及基于 P2P 的 Flash 实时多人游戏库。",
+ "card": "pen.dev（Agent 设计画布）创始人，a16z speedrun 校友；Drawscript、Photoshop 脚本与 Flash 实时游戏库作者，旧金山。",
+ "location": "美国旧金山",
+ "updated": "2026-10-23",
+ "tags": ["设计工具", "AI Agent", "WebGL", "着色器", "图形编程"],
+ "links": [
+  {"label": "pen.dev", "url": "https://pen.dev"},
+  {"label": "GitHub：tomkrcha", "url": "https://github.com/tomkrcha"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>pen.dev 官网「Design with agents, refine every detail on canvas, and ship it back to code.」",
+  "<strong>代表作：</strong>pen.dev（Vibe Shaders、标签页、MCP 服务器支持、HTML / Figma 导入、开放格式、内置浏览器）；早年开源 Drawscript（★583）、RealtimeGameLib、LayerMiner、Adobe Generator 入门教程。",
+  "<strong>关键数字：</strong>X 关注者约 2.6 万。",
+  "<strong>经历：</strong>a16z speedrun 校友。"
+ ],
+ "lead": "2026 年 10 月，Tom 在 pen.dev 里重新推出了着色器功能，叫「Vibe Shaders」。它们作为 GLSL 文件放在 .pen 设计文件旁边，可以在画布上直接用自然语言改；还可以给矢量图形加上着色器效果。TA 说：「没有别的东西像它一样。」一周后，TA 又发了一条：Haiku 5.5「能做设计了，而且超级便宜」，视觉效果让 TA 想起年初还被认为惊人的 Opus 4.5、4.6。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创始人、设计工具开发者"],
+     ["所在地", "美国旧金山"],
+     ["公司", "pen.dev（原 pencil.dev）"],
+     ["加速器", "a16z speedrun"],
+     ["早期作品", "Drawscript、RealtimeGameLib、LayerMiner、Photoshop 脚本"],
+     ["技术栈", "WebGL、GLSL、JavaScript、ActionScript、Arduino"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "pen.dev 想解决的是<strong>设计和代码之间来回搬运</strong>的问题。你可以从任何应用导入界面到画布上，也可以导入 HTML 或 Figma 文件；画布上有组件，文件是开放格式；内置浏览器让你在应用里打开任意网页。设计时，你可以手动调整，也可以召唤 Agent；做完后导出回代码。最近的更新包括标题栏里的多文件标签页和完整的 MCP 服务器支持。"},
+    {"p": "TA 自己的开发方式也很「Agent 化」：TA 说用 GitButler 同时在同一个运行中的构建里处理多个分支、配多个 Agent，开发速度提高了十倍。"},
+    {"note": "本页依据 pen.dev、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。性别未见本人明确表述，本页用 TA。TA 创办 pen.dev 之前的工作经历没有找到可靠的公开来源，本页只列出其开源作品，不作推断。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011–2012", "title": "Flash 实时游戏", "text": "RealtimeGameLib：用 P2P 和 Flash Media Server 做多人实时游戏的库。"},
+     {"when": "2013", "title": "设计到代码", "text": "Drawscript 插件：把 Illustrator 形状转成多种语言的绘图代码；LayerMiner、Photoshop 脚本。"},
+     {"when": "2013–2014", "title": "Adobe Generator 与硬件", "text": "Adobe Generator 入门教程；Arduino 贪吃蛇。"},
+     {"when": "近年", "title": "pencil.dev → pen.dev", "text": "创办 Agent 设计画布，参加 a16z speedrun；后改名 pen.dev。"},
+     {"when": "2026.10", "title": "Vibe Shaders", "text": "重新推出着色器、着色器模式、矢量着色、标签页、MCP 支持。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "pen.dev", "url": "https://pen.dev",
+     "meta": ["Agent 画布", "WebGL"],
+     "paras": [
+      "「pen.dev is an agentic canvas for building bold ideas.」提供网站、移动应用、社交与营销等模板，任何模型都能接入画布；即使有成千上万个图层，平移、缩放和编辑也能保持流畅。"
+     ]
+    }},
+    {"work": {
+     "name": "Drawscript", "url": "https://github.com/tomkrcha/drawscript",
+     "meta": ["2013", "Illustrator 插件", "★583"],
+     "paras": [
+      "把 Illustrator 中的形状转成 Obj-C、C++、JavaScript、Processing、ActionScript 3、JSON 或原始贝塞尔点。项目已停止，但思路和今天的 pen.dev 一脉相承：让设计直接变成代码。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["RealtimeGameLib", "Flash 上基于 P2P 的多人实时游戏库"],
+      ["LayerMiner", "把 Photoshop 图层样式导出为 JSON 的脚本实验"],
+      ["generator-getting-started", "用 Node.js 脚本化 Photoshop 的教程"],
+      ["Vibe Shaders", "pen.dev 里与设计文件并存、可用自然语言修改的 GLSL 着色器"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "产品网站研究",
+   "blocks": [
+    {"site": {"url": "https://pen.dev", "paras": [
+     "pen.dev 官网的首屏是一个输入框：「Design me a website for a coffee shop in San Francisco」，下面是几种主题风格和一块正在加载的画布。页面依次介绍：从零开始太难就导入、任何模型都能用、在画布上和 Agent 一起设计、流畅的 WebGL 性能。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + Tailwind，Vercel"],
+      ["连接方式", "订阅登录、API 密钥、MCP、WebMCP、CLI"],
+      ["个人网站", "无，X 链接到 pen.dev"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Haiku 5.5 can design, super ultra cheap.", "cite": "Tom Krcha，X，2026-10"},
+    {"p": "TA 认为模型的设计能力在快速下沉到小模型：如果照这个速度，下一代 Haiku 很快就能做出不错的 3D 设计。TA 业余还在给 Game Boy 写自己的「渐变贪吃蛇」，吃的是色板上的颜色。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "多模型、开放格式、性能好", "仍在快速迭代，竞争激烈"],
+      ["技术", "图形与工具开发经验长", "—"],
+      ["公开信息", "—", "早期职业经历公开资料少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一个问题可以做十几年：</strong>设计如何变成代码。",
+     "<strong>不绑定单一模型。</strong>",
+     "<strong>性能是设计工具的底线。</strong>",
+     "<strong>把着色器交给每个设计师。</strong>"
+    ]},
+    {"h3": "推荐先看这两个"},
+    {"try": [
+     {"name": "pen.dev", "url": "https://pen.dev", "why": "让 Agent 在画布上做一个网页。"},
+     {"name": "Drawscript", "url": "https://github.com/tomkrcha/drawscript", "why": "看十年前的「设计转代码」。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "把你最近一个设计稿里的一个按钮，交给 Agent 直接生成代码，看看还差多少需要你手动修。",
+ "sources": [
+  {"label": "Tom Krcha 的 X 个人资料", "url": "https://x.com/tomkrcha"},
+  {"label": "pen.dev", "url": "https://pen.dev"},
+  {"label": "GitHub：tomkrcha", "url": "https://github.com/tomkrcha"}
+ ]
+}

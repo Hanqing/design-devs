@@ -1,0 +1,155 @@
+{
+ "name": "Jordan Walke",
+ "role": "React 创造者 · ReasonML 创造者 · 前 Facebook 工程师 · Replit 产品",
+ "title": "Jordan Walke：<em>React</em> 是从这里开始的",
+ "dek": "他在 Facebook 当软件工程师时创造了 React。据维基百科，他先做了一个叫 F-Bolt 的原型，后来改名为 FaxJS；React 2011 年首先用在 Facebook 的动态消息（News Feed）上，2012 年进入 Instagram，2013 年 5 月 29 日开源。如今 React 是世界上使用最广的前端库之一。之后他又创造了 ReasonML：一种基于 OCaml、语法接近 JavaScript 的语言，并参与了原生包管理器 esy 和一系列 Reason 工具。离开 Facebook 后，他现在在 Replit 做产品，X 简介写着「Vibe coder」。他至今仍在思考交互的细节：他希望有一个跑在 iOS 主线程上的 React Native，让开发者必须在意不要阻塞主线程超过 8 到 16 毫秒。",
+ "card": "React 与 ReasonML 的创造者；前 Facebook 工程师，现在在 Replit 做产品。",
+ "location": "未公开",
+ "updated": "2026-10-23",
+ "tags": ["React", "ReasonML", "OCaml", "交互设计", "AI 编程"],
+ "links": [
+  {"label": "GitHub：jordwalke", "url": "https://github.com/jordwalke"},
+  {"label": "FaxJs", "url": "https://github.com/jordwalke/FaxJs"},
+  {"label": "Replit", "url": "https://replit.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「Created ReactJS.」",
+  "<strong>代表作：</strong>React、FaxJs（★442，React 前身）、ReasonML、esy / pesy、flex（Reason 写的 Flexbox 实现）、rehp、VimBox（★909）、one-click.js、paradoc。",
+  "<strong>关键数字：</strong>X 关注者约 6.7 万、推文约 2.1 万条；GitHub 粉丝约 9.7 千。",
+  "<strong>现在：</strong>Replit 产品，关注移动端和 AI 设计流程。"
+ ],
+ "lead": "2026 年 8 月，Jordan 在 X 上贴出一个 GitHub 链接：「我十五年前就在写 CSS-in-JS 了。2011 年。」链接指向 FaxJs 的 README，那是 React 诞生前的原型。同一周，他发了一条「暴论」：工具提示（tooltip）会让你的应用显得廉价，尤其是在你刚要点击时弹出来；每个应用都应该在角落里放一个小帮助栏，悬停时立即显示说明，不会有奇怪的时机问题，也不会遮住你正在看的区域。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、语言设计者、产品人"],
+     ["所在地", "未公开"],
+     ["经历", "Facebook（React、ReasonML）→ Replit（产品）"],
+     ["开源", "React、FaxJs、ReasonML、esy、VimBox"],
+     ["技术栈", "JavaScript、OCaml、Reason"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Jordan 现在在 Replit 做<strong>产品</strong>，关注移动端开发和 AI 如何改变设计流程。他公开招募过熟悉 React Native 的开发者，也和 Replit 设计团队一起在 X Spaces 上讨论 AI 对设计的影响。"},
+    {"p": "他对框架的思考一直围绕「交互质量」。他说，如果 React Native 能在主线程上运行 React，它的交互可以好得多、可定制得多；这是他从「传奇级的移动交互工程师」那里学到并且从未忘记的一课。他也认为 AI 编程节省下来的时间，可以用来维护多套原生代码，也可以继续用跨平台框架，然后把时间花在别处。"},
+    {"note": "本页依据维基百科 React 条目、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。他离开 Facebook 和加入 Replit 的具体时间未核实；他没有个人网站。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011", "title": "FaxJs", "text": "在 Facebook 做出 F-Bolt / FaxJs 原型；React 首先用于 News Feed。"},
+     {"when": "2012", "title": "Instagram", "text": "React 进入 Instagram。"},
+     {"when": "2013", "title": "React 开源", "text": "5 月 29 日开源，与 Tom Occhino 讲《JS Apps at Facebook》。"},
+     {"when": "2016–2020", "title": "ReasonML", "text": "创造 Reason；esy、pesy、rehp、Reason 版 Flexbox。"},
+     {"when": "现在", "title": "Replit", "text": "在 Replit 做产品，自称「Vibe coder」。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "React", "url": "https://react.dev",
+     "meta": ["2013–", "JavaScript", "★25 万"],
+     "paras": [
+      "「The library for web and native user interfaces.」声明式组件、单向数据流和虚拟 DOM 改变了整个前端行业的写法；后来由 Meta 和社区共同维护。"
+     ]
+    }},
+    {"work": {
+     "name": "FaxJs", "url": "https://github.com/jordwalke/FaxJs",
+     "meta": ["2011", "JavaScript", "★442"],
+     "paras": [
+      "「Fax Javascript Ui Framework」React 的前身，README 里已经有组件、样式表和 CSS-in-JS 的雏形。"
+     ]
+    }},
+    {"work": {
+     "name": "ReasonML", "url": "https://reasonml.github.io",
+     "meta": ["2016–", "OCaml", "语言"],
+     "paras": [
+      "给 OCaml 一套更接近 JavaScript 的语法和工具链，可以编译到 JavaScript 和原生代码。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["VimBox", "简单现代的 MacVim 配置（★909）"],
+      ["esy / pesy", "原生 Reason / OCaml 包管理与构建"],
+      ["flex", "Reason 写的 CSS Flexbox 实现"],
+      ["one-click.js", "浏览器里离线运行 CommonJS 模块"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "公开表达",
+   "blocks": [
+    {"site": {"url": "https://github.com/jordwalke", "paras": [
+     "Jordan 没有个人网站，X 简介的链接直接指向 GitHub。他的公开表达几乎都在 X 上：对 React Native、交互设计、AI 编程和教育的短评，偶尔带一点幽默。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "无"],
+      ["主要平台", "X（约 2.1 万条推文）"],
+      ["GitHub", "近一年公开贡献很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "It's just so weird that we call the first quart of your life \"education\". If you're not treating your entire life as an educational pursuit you're not gonna make it.", "cite": "Jordan Walke，X，2026-08"},
+    {"p": "他认为自己在「做」的阶段学到的东西，比十几年「学」的阶段还多，「尤其是在 AI 时代，重要的只是你能不能做出来」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "React 改变了前端行业", "—"],
+      ["语言设计", "ReasonML 思路超前", "Reason 生态规模有限"],
+      ["公开信息", "—", "没有个人网站，经历细节少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从真实产品的痛点出发设计抽象。</strong>",
+     "<strong>交互的毫秒级细节决定质量。</strong>",
+     "<strong>敢于把想法带到新语言里。</strong>",
+     "<strong>把一生当作学习过程。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "FaxJs", "url": "https://github.com/jordwalke/FaxJs", "why": "看看 React 诞生前的样子。"},
+     {"name": "JS Apps at Facebook", "url": "https://www.youtube.com/watch?v=GW0rj4sNH2w", "why": "2013 年 React 首次公开亮相。"},
+     {"name": "ReasonML", "url": "https://reasonml.github.io", "why": "体验 OCaml 的另一种写法。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读一遍 FaxJs 的 README，找出三个后来在 React 里保留下来的想法。",
+ "sources": [
+  {"label": "Jordan Walke 的 X 个人资料", "url": "https://x.com/jordwalke"},
+  {"label": "维基百科：React (software)", "url": "https://en.wikipedia.org/wiki/React_(software)"},
+  {"label": "GitHub：jordwalke", "url": "https://github.com/jordwalke"},
+  {"label": "GitHub：FaxJs", "url": "https://github.com/jordwalke/FaxJs"},
+  {"label": "YouTube：JS Apps at Facebook（2013）", "url": "https://www.youtube.com/watch?v=GW0rj4sNH2w"}
+ ]
+}

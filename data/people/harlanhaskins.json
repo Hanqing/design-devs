@@ -1,0 +1,329 @@
+{
+ "name": "Harlan Haskins",
+ "role": "Apple 平台工程师 · 前 Swift 编译器团队、visionOS SwiftUI / UIKit · LLVMSwift、Trill、Silt 作者 · 纽约",
+ "title": "Harlan Haskins：会写<em>编译器</em>的 App 工程师",
+ "dek": "TA 住在纽约，2018 年从罗切斯特理工学院（RIT）计算机科学专业毕业，方向是编程语言和开发者工具。之后 TA 在 Apple 待了多年：先后在 HomeKit 团队、Swift 编译器团队，以及为 visionOS 做 SwiftUI 和 UIKit。TA 的个人网站写着 TA 目前在 Typo 担任工程负责人，GitHub 简介则写着 Apple 的 Swift 测试框架工程师。大学时 TA 就在写编译器：用 Swift 写的 LLVM 封装库 LLVMSwift（★761）、受 Swift 启发的编译型语言 Trill、依赖类型的函数式语言 Silt，还写过一个三篇连载的「用 Swift 和 LLVM 写编译器」教程。",
+ "card": "Apple 平台工程师（纽约）；前 Swift 编译器团队、visionOS UI 框架；LLVMSwift、Trill、Silt 作者。",
+ "location": "美国纽约",
+ "updated": "2026-10-23",
+ "tags": [
+  "Swift",
+  "编译器",
+  "visionOS",
+  "开发者工具",
+  "编程语言"
+ ],
+ "links": [
+  {
+   "label": "harlanhaskins.com",
+   "url": "https://harlanhaskins.com"
+  },
+  {
+   "label": "LLVMSwift",
+   "url": "https://github.com/llvm-swift/LLVMSwift"
+  },
+  {
+   "label": "GitHub：harlanhaskins",
+   "url": "https://github.com/harlanhaskins"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Swift enthusiast」；个人网站「Software Engineer in New York specializing in Apple platforms」。",
+  "<strong>经历：</strong>RIT 计算机科学（2018）→ Apple：HomeKit、Swift 编译器、visionOS 的 SwiftUI 与 UIKit → 现职（个人网站写 Typo 工程负责人，GitHub 写 Apple Swift 测试框架）。",
+  "<strong>代表作：</strong>LLVMSwift（★761）、Punctual.swift（★322）、Trill（★276）、Probably（★268）、Silt（★244）、SwiftGBA、LinkPreviewSwift、MorphingView、AsyncItemProvider。",
+  "<strong>关键数字：</strong>GitHub 114 个公开仓库、近一年贡献 1,446 次；X 帖子约 2 万条。"
+ ],
+ "lead": "Harlan 的 GitHub 上有一个仓库叫 SwiftGBA：让 Swift 跑在 Game Boy Advance 上。还有一个更早的玩笑项目 Goto.swift：在 Swift 里实现 goto。这些项目说明了 TA 的兴趣所在：语言能走多远，编译器能做什么，以及如何让写代码这件事更好玩。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {
+     "t": "Profile",
+     "profile": [
+      [
+       "身份",
+       "软件工程师"
+      ],
+      [
+       "所在地",
+       "美国纽约"
+      ],
+      [
+       "教育",
+       "罗切斯特理工学院计算机科学学士（2018）；Computer Science House 成员"
+      ],
+      [
+       "经历",
+       "Apple：HomeKit → Swift 编译器 → visionOS 的 SwiftUI / UIKit"
+      ],
+      [
+       "开源",
+       "LLVMSwift、Trill、Silt、Probably、Punctual.swift、SwiftGBA"
+      ],
+      [
+       "技术栈",
+       "Swift、C++、Haskell、Python、LLVM"
+      ]
+     ]
+    },
+    {
+     "h3": "TA 到底在做什么？"
+    },
+    {
+     "p": "Harlan 的专长是<strong>在语言、编译器和应用框架之间穿梭</strong>。TA 在 Apple 做过 Swift 编译器，也做过 visionOS 上的 SwiftUI 和 UIKit；TA 的 visionOS 示例项目 PizzaBuilder 演示了跨场景的坐标空间转换。近两年的小库都很实用：用 Swift 并发安全地包装 NSItemProvider、客户端或服务端生成链接预览、UIKit 与 SwiftUI 通用的变形容器视图。"
+    },
+    {
+     "p": "TA 对 Swift 6 有一句很好的总结：采用 Swift 6 主要的烦人之处，是它逼你把原本就在做的假设写出来；但从此不必再做这些假设，带来的自由是巨大的。"
+    },
+    {
+     "note": "本页依据 harlanhaskins.com（About、Blog）、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。TA 的个人网站与 GitHub 简介对现职的描述不同，本页并列呈现，未做推断。性别未见本人明确表述，本页用 TA。"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2013–2014",
+       "title": "早期 iOS",
+       "text": "条码扫描视图控制器；「用秘密无线协议控制天气」的 RIT 玩笑 iPad 应用。"
+      },
+      {
+       "when": "2015–2017",
+       "title": "语言与编译器",
+       "text": "Haskell 写的汇编语言解释器 hasm、Letter 语言、Punctual.swift、Probably、Trill、Silt、LLVMSwift；三篇编译器教程。"
+      },
+      {
+       "when": "2018",
+       "title": "毕业与 Apple",
+       "text": "RIT 毕业，加入 Apple。"
+      },
+      {
+       "when": "Apple 时期",
+       "title": "HomeKit、Swift、visionOS",
+       "text": "先后在 HomeKit、Swift 编译器和 visionOS UI 框架团队工作。"
+      },
+      {
+       "when": "2024–2025",
+       "title": "新的小库",
+       "text": "SwiftGBA、MorphingView、LinkPreviewSwift、AsyncItemProvider、PizzaBuilder 示例。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {
+     "work": {
+      "name": "LLVMSwift",
+      "url": "https://github.com/llvm-swift/LLVMSwift",
+      "meta": [
+       "Swift",
+       "LLVM C API 封装",
+       "★761"
+      ],
+      "paras": [
+       "「A pure Swift interface to the LLVM API」，提供原生、易用的组件，「让编译器开发变得有趣」。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "Trill",
+      "url": "https://github.com/trill-lang/trill",
+      "meta": [
+       "编程语言",
+       "★276"
+      ],
+      "paras": [
+       "一门简单、类型安全的编译型语言，部分受 Swift 启发：函数、结构体、指针、带方法的类型、垃圾回收类型、重载、元组和闭包。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "Silt",
+      "url": "https://github.com/silt-lang/silt",
+      "meta": [
+       "编程语言",
+       "★244"
+      ],
+      "paras": [
+       "进行中的依赖类型函数式语言，语法和类型系统类似 Idris 和 Agda，通过 LLVM 直接编译成原生代码，目标是不需要垃圾回收。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "其他作品",
+       "说明"
+      ],
+      "rows": [
+       [
+        "Probably",
+        "Swift 概率与统计库"
+       ],
+       [
+        "Punctual.swift",
+        "让 Swift 日期更有趣（★322）"
+       ],
+       [
+        "SwiftGBA",
+        "在 Game Boy Advance 上运行 Swift"
+       ],
+       [
+        "Kaleidoscope-Swift",
+        "用 Swift 写的 Kaleidoscope 编译器"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://harlanhaskins.com",
+      "paras": [
+       "个人网站分为 About、Blog、Projects、Resume、Contact。博客最有名的是 2017 年的三篇连载《Building a Compiler in Swift with LLVM》：从词法分析器、语法分析器写到 LLVM IR 代码生成。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "观察"
+      ],
+      "rows": [
+       [
+        "托管",
+        "Cloudflare / Fastly"
+       ],
+       [
+        "博客",
+        "编译器教程为主"
+       ],
+       [
+        "社交",
+        "Bluesky、X"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {
+     "quote": "Adopting Swift 6 is mostly just annoying because it makes you spell out the assumptions you were already making, but the freedom of not having to make those assumptions anymore is huge.",
+     "cite": "Harlan Haskins，X，2025-11"
+    },
+    {
+     "p": "TA 的 X 上也有很多冷笑话，比如「Liquid Glass 已经过时了，现在流行 Solid Glass」。"
+    }
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "长处",
+       "局限 / 需要留意"
+      ],
+      "rows": [
+       [
+        "深度",
+        "从编译器到 UI 框架都做过",
+        "—"
+       ],
+       [
+        "开源",
+        "语言实验有教学价值",
+        "多数语言项目已不活跃"
+       ],
+       [
+        "公开信息",
+        "—",
+        "现职描述在不同平台不一致"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>写一个玩具编译器：</strong>它会让你更懂你每天用的语言。",
+      "<strong>把学到的写成教程。</strong>",
+      "<strong>拥抱严格的语言特性：</strong>显式假设带来自由。",
+      "<strong>做点好玩的：</strong>Swift 也能跑在 GBA 上。"
+     ]
+    },
+    {
+     "h3": "推荐先看这三个"
+    },
+    {
+     "try": [
+      {
+       "name": "Building a Compiler in Swift with LLVM",
+       "url": "https://harlanhaskins.com/blog/",
+       "why": "三篇入门编译器教程。"
+      },
+      {
+       "name": "LLVMSwift",
+       "url": "https://github.com/llvm-swift/LLVMSwift",
+       "why": "用 Swift 生成 LLVM IR。"
+      },
+      {
+       "name": "SwiftGBA",
+       "url": "https://github.com/harlanhaskins/SwiftGBA",
+       "why": "看 Swift 跑在掌机上。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "跟着教程写一个只支持加减乘除的小解释器，体会一下词法、语法、求值三步。",
+ "sources": [
+  {
+   "label": "Harlan Haskins 的 X 个人资料",
+   "url": "https://x.com/harlanhaskins"
+  },
+  {
+   "label": "harlanhaskins.com",
+   "url": "https://harlanhaskins.com"
+  },
+  {
+   "label": "GitHub：harlanhaskins",
+   "url": "https://github.com/harlanhaskins"
+  },
+  {
+   "label": "GitHub：llvm-swift/LLVMSwift",
+   "url": "https://github.com/llvm-swift/LLVMSwift"
+  }
+ ]
+}

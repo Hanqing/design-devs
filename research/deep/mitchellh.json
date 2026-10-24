@@ -1,0 +1,491 @@
+{
+ "handle": "mitchellh",
+ "sites": [
+  {
+   "url": "https://mitchellh.com",
+   "ok": true,
+   "title": "Mitchell Hashimoto",
+   "description": "Mitchell Hashimoto's personal website.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Mitchell Hashimoto \n Mitchell Hashimoto \nI'm a developer living in Los Angeles, CA. I'm currently the co-founder\nof Superlogical . I previously co-founded HashiCorp . \nI started Ghostty and libghostty ,\na standalone and embeddable terminal emulator. \nI was part of the initial engineering team behind most of the HashiCorp products,\nsuch as\n Vagrant ,\n Packer ,\n Consul ,\n Terraform ,\n Vault ,\n Nomad ,\n Waypoint ,\nand more. I don't work on any of those projects anymore.\nI was CEO for ~4 years, CTO for ~5 years, an\n individual contributor \nfor ~2 years,\nand then left the company in 2023 . \nI'm an FAA licensed private pilot ✈️ with an instrument\nrating (PPL ASEL IR). I most recently flew a Cirrus SF50 Vision Jet and frequently\n shared \n pictures \n of my flights .\nI stopped flying in 2026 to have more time to focus on family and work.",
+   "github_links": [
+    "mitchellh"
+   ],
+   "subpages": {
+    "https://mitchellh.com/writing": "Mitchell Hashimoto \n Mitchell Hashimoto \nA Terminal Protocol for Program Status (OSC 7501) \nOctober 6, 2026 \nSuperlogical \nJuly 29, 2026 \nEveryone Should Know SIMD \nJuly 22, 2026 \nPledging Another $400,000 to the Zig Software Foundation \nJune 21, 2026 \nGhostty Is Leaving GitHub \nApril 28, 2026 \nSimdutf Can Now Be Used Without libc++ or libc++abi \nApril 15, 2026 \nThe Building Block Economy \nApril 7, 2026 \nMy AI Adoption Journey \nFebruary 5, 2026 \nDon't Trip[wire] Yourself: Testing Error Recovery in Zig \nJanuary 21, 2026 \nFinding and Fixing Ghostty's Largest Memory Leak \nJanuary 10, 2026 \nGhostty Is Now Non-Profit \nDecember 3, 2025 \nVibing a Non-Trivial Ghostty Feature \nOctober 11, 2025 \nZig Builds Are Getting Faster \nOctober 3, 2025 \nLibghostty Is Coming \nSeptember 22, 2025 \nYou Have to Feel It \nAugust 30, 2025 \nAdvice for Tech Non-Profits \nAugust 20, 2025 \nWe Rewrote the Ghostty GTK Application \nAugust 14, 2025 \n\"As Code\" \nMarch 4, 2025 \nWelcoming Ghostty Subsystem Maintainers \nFebruary 7, 2025 \nGhostty: Reflecting on Reaching 1.0 \nDecember 26, 2024 \nGhostty 1.0 is Coming \nOctober 22, 2024 \nPledging $300,000 to the Zig Software Foundation \nOctober 1, 2024 \nTagged Union Subsets with Comptime in Zig \nSeptember 23, 2024 \nConditionally Disabling Code with Comptime in Zig \nSeptember 12, 2024 \nJoining Polar as an Advisor \nApril 4, 2024 \nGhostty Devlog 006 \nFebruary 12, 2024 \nGhostty Devlog 005 \nDecember 6, 2023 \nGrapheme Clusters and Terminal Emulators \nOctober 2, 2023 \nReorient GitHub Pull Requests Around Changesets \nSeptember 30, 2023 \nGhostty Devlog 004 \nSeptember 28, 2023 \nTalk: Introducing Ghostty and Some Useful Zig Patterns \nSeptember 12, 2023 \nGhostty Devlog 003 \nAugust 24, 2023 \nGhostty Devlog 002 \nAugust 5, 2023 \nGhostty Devlog 001 \nJuly 13, 2023 \nMy Approach to Building Large Technical Projects \nJune 1, 2023 \nIntegrating Zig and SwiftUI \nMay 27, 2023 \nPrompt Engineering is for Transactional Prompting \nApril 24, 2023 \nUsing Nix with Dockerfiles \nApril 23, 2023 \nPrompt Engineering vs. Blind Prompting \nApril 14, 2023 \nGrowth of AI Through a Cloud Lens \nApril 4, 2023 \nMy Startup Banking Story \nMarch 14, 2023 \nContributing to Complex Projects \nMarch 13, 2022 \nZig Build System Internals \nFebruary 24, 2022 \nZig Sema: ZIR => AIR \nFebruary 13, 2022 \nZig AstGen: AST => ZIR \nFebruary 12, 2022 \nZig Parser \nFebruary 11, 2022 \nZig Tokenizer \nFebruary 10, 2022 \nComparing Filesystem Performance in Virtual Machines \nJanuary 10, 2014 \nPacker \nJune 28, 2013 \nThe Tao of Vagrant \nJune 18, 2013 \nAutomation Obsessed \nJune 6, 2013 \nAbandoning Rubygems \nMarch 21, 2013 \nAPPLE: My Key to Success \nMarch 4, 2013 \nThe New Normal \nJanuary 21, 2013"
+   },
+   "feed": {
+    "url": "https://mitchellh.com/feed.xml",
+    "count_seen": 54,
+    "items": [
+     {
+      "title": "A Terminal Protocol for Program Status (OSC 7501)",
+      "date": "Tue, 06 Oct 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/program-status-osc7501"
+     },
+     {
+      "title": "Superlogical",
+      "date": "Wed, 29 Jul 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/superlogical"
+     },
+     {
+      "title": "Everyone Should Know SIMD",
+      "date": "Wed, 22 Jul 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/everyone-should-know-simd"
+     },
+     {
+      "title": "Pledging Another $400,000 to the Zig Software Foundation",
+      "date": "Sun, 21 Jun 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/zig-donation-2026"
+     },
+     {
+      "title": "Ghostty Is Leaving GitHub",
+      "date": "Tue, 28 Apr 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/ghostty-leaving-github"
+     },
+     {
+      "title": "Simdutf Can Now Be Used Without libc++ or libc++abi",
+      "date": "Wed, 15 Apr 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/simdutf-no-libcxx"
+     },
+     {
+      "title": "The Building Block Economy",
+      "date": "Tue, 07 Apr 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/building-block-economy"
+     },
+     {
+      "title": "My AI Adoption Journey",
+      "date": "Thu, 05 Feb 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey"
+     },
+     {
+      "title": "Don't Trip[wire] Yourself: Testing Error Recovery in Zig",
+      "date": "Wed, 21 Jan 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/tripwire"
+     },
+     {
+      "title": "Finding and Fixing Ghostty's Largest Memory Leak",
+      "date": "Sat, 10 Jan 2026 00:00:00",
+      "url": "https://mitchellh.com/writing/ghostty-memory-leak-fix"
+     },
+     {
+      "title": "Ghostty Is Now Non-Profit",
+      "date": "Wed, 03 Dec 2025 00:00:00",
+      "url": "https://mitchellh.com/writing/ghostty-non-profit"
+     },
+     {
+      "title": "Vibing a Non-Trivial Ghostty Feature",
+      "date": "Sat, 11 Oct 2025 00:00:00",
+      "url": "https://mitchellh.com/writing/non-trivial-vibing"
+     },
+     {
+      "title": "Zig Builds Are Getting Faster",
+      "date": "Fri, 03 Oct 2025 00:00:00",
+      "url": "https://mitchellh.com/writing/zig-builds-getting-faster"
+     },
+     {
+      "title": "Libghostty Is Coming",
+      "date": "Mon, 22 Sep 2025 00:00:00",
+      "url": "https://mitchellh.com/writing/libghostty-is-coming"
+     },
+     {
+      "title": "You Have to Feel It",
+      "date": "Sat, 30 Aug 2025 00:00:00",
+      "url": "https://mitchellh.com/writing/feel-it"
+     },
+     {
+      "title": "Advice for Tech Non-Profits",
+      "date": "Wed, 20 Aug 2025 00:00:00",
+      "url": "https://mitchellh.com/writing/advice-for-tech-nonprofits"
+     },
+     {
+      "title": "We Rewrote the Ghostty GTK Application",
+      "date": "Thu, 14 Aug 2025 00:00:00",
+      "url": "https://mitchellh.com/writing/ghostty-gtk-rewrite"
+     },
+     {
+      "title": "\"As Code\"",
+      "date": "Tue, 04 Mar 2025 00:00:00",
+      "url": "https://mitchellh.com/writing/as-code"
+     },
+     {
+      "title": "Welcoming Ghostty Subsystem Maintainers",
+      "date": "Fri, 07 Feb 2025 00:00:00",
+      "url": "https://mitchellh.com/writing/ghostty-subsystem-maintainers"
+     },
+     {
+      "title": "Ghostty: Reflecting on Reaching 1.0",
+      "date": "Thu, 26 Dec 2024 00:00:00",
+      "url": "https://mitchellh.com/writing/ghostty-1-0-reflection"
+     },
+     {
+      "title": "Ghostty 1.0 is Coming",
+      "date": "Tue, 22 Oct 2024 00:00:00",
+      "url": "https://mitchellh.com/writing/ghostty-is-coming"
+     },
+     {
+      "title": "Pledging $300,000 to the Zig Software Foundation",
+      "date": "Tue, 01 Oct 2024 00:00:00",
+      "url": "https://mitchellh.com/writing/zig-donation"
+     },
+     {
+      "title": "Tagged Union Subsets with Comptime in Zig",
+      "date": "Mon, 23 Sep 2024 00:00:00",
+      "url": "https://mitchellh.com/writing/zig-comptime-tagged-union-subset"
+     },
+     {
+      "title": "Conditionally Disabling Code with Comptime in Zig",
+      "date": "Thu, 12 Sep 2024 00:00:00",
+      "url": "https://mitchellh.com/writing/zig-comptime-conditional-disable"
+     },
+     {
+      "title": "Joining Polar as an Advisor",
+      "date": "Thu, 04 Apr 2024 00:00:00",
+      "url": "https://mitchellh.com/writing/polar"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mitchellh",
+  "user": {
+   "name": "Mitchell Hashimoto",
+   "company": "@superlogical ",
+   "blog": "https://mitchellh.com",
+   "location": "Los Angeles, CA",
+   "bio": null,
+   "public_repos": 119,
+   "followers": 24832,
+   "created_at": "2008-02-27T23:27:54Z",
+   "twitter_username": "mitchellh",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mitchellh/mapstructure",
+    "description": "Go library for decoding generic map values into native Go structures and vice versa.",
+    "stargazers_count": 8011,
+    "forks_count": 748,
+    "language": "Go",
+    "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+    "created_at": "2013-05-20T05:24:34Z",
+    "pushed_at": "2024-06-25T15:17:23Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/vouch",
+    "description": "A community trust management system based on explicit vouches to participate.",
+    "stargazers_count": 5131,
+    "forks_count": 91,
+    "language": "Nushell",
+    "homepage": "",
+    "created_at": "2026-02-05T20:50:58Z",
+    "pushed_at": "2026-10-11T03:24:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitchellh/gox",
+    "description": "A dead simple, no frills Go cross compile tool",
+    "stargazers_count": 4567,
+    "forks_count": 345,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2013-11-17T03:11:35Z",
+    "pushed_at": "2023-05-02T06:26:10Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/libxev",
+    "description": "libxev is a cross-platform, high-performance event loop that provides abstractions for non-blocking IO, timers, events, and more and works on Linux (io_uring or epoll), macOS (kqueue), and Wasm + WASI. Available as both a Zig and C API.",
+    "stargazers_count": 3590,
+    "forks_count": 199,
+    "language": "Zig",
+    "homepage": "",
+    "created_at": "2023-01-07T19:52:16Z",
+    "pushed_at": "2026-10-20T15:32:30Z",
+    "topics": [
+     "async",
+     "c",
+     "epoll",
+     "io-uring",
+     "kqueue",
+     "wasi",
+     "webassembly",
+     "zig"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mitchellh/nixos-config",
+    "description": "My NixOS configurations.",
+    "stargazers_count": 3116,
+    "forks_count": 245,
+    "language": "Nix",
+    "homepage": "https://twitter.com/mitchellh/status/1346136404682625024",
+    "created_at": "2020-05-05T05:13:41Z",
+    "pushed_at": "2026-09-28T16:39:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitchellh/vagrant-aws",
+    "description": "Use Vagrant to manage your EC2 and VPC instances.",
+    "stargazers_count": 2584,
+    "forks_count": 565,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2013-02-06T04:22:19Z",
+    "pushed_at": "2021-06-04T16:51:42Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/cli",
+    "description": "A Go library for implementing command-line interfaces.",
+    "stargazers_count": 1733,
+    "forks_count": 126,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2013-11-03T06:47:54Z",
+    "pushed_at": "2024-07-22T20:43:09Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/gon",
+    "description": "Sign, notarize, and package macOS CLI tools and applications written in any language. Available as both a CLI and a Go library.",
+    "stargazers_count": 1496,
+    "forks_count": 104,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2019-10-31T23:27:31Z",
+    "pushed_at": "2023-10-31T20:48:52Z",
+    "topics": [
+     "build-tool",
+     "golang",
+     "macos",
+     "notary"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/go-ps",
+    "description": "Find, list, and inspect processes from Go (golang).",
+    "stargazers_count": 1489,
+    "forks_count": 254,
+    "language": "Go",
+    "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+    "created_at": "2014-04-06T23:40:00Z",
+    "pushed_at": "2022-11-20T06:29:31Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/go-homedir",
+    "description": "Go library for detecting and expanding the user's home directory without cgo.",
+    "stargazers_count": 1417,
+    "forks_count": 133,
+    "language": "Go",
+    "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+    "created_at": "2014-08-19T18:44:22Z",
+    "pushed_at": "2024-03-21T10:31:41Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/go-server-timing",
+    "description": "Go (golang) library for creating and consuming HTTP Server-Timing headers",
+    "stargazers_count": 859,
+    "forks_count": 37,
+    "language": "Go",
+    "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+    "created_at": "2018-02-12T03:56:02Z",
+    "pushed_at": "2023-12-08T11:37:45Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/hashstructure",
+    "description": "Get hash values for arbitrary values in Go (golang).",
+    "stargazers_count": 762,
+    "forks_count": 104,
+    "language": "Go",
+    "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+    "created_at": "2016-01-07T18:30:08Z",
+    "pushed_at": "2023-01-03T15:13:06Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/goamz",
+    "description": "Golang Amazon Library",
+    "stargazers_count": 671,
+    "forks_count": 208,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2013-05-10T20:26:17Z",
+    "pushed_at": "2016-12-08T16:53:59Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/golicense",
+    "description": "Scan and analyze OSS dependencies and licenses from compiled Go binaries",
+    "stargazers_count": 661,
+    "forks_count": 49,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2018-11-03T18:33:20Z",
+    "pushed_at": "2021-03-23T09:33:08Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/zig-overlay",
+    "description": "Nix flake for the Zig compiler.",
+    "stargazers_count": 558,
+    "forks_count": 62,
+    "language": "Nix",
+    "homepage": null,
+    "created_at": "2022-08-22T22:57:15Z",
+    "pushed_at": "2026-10-23T12:26:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitchellh/ioprogress",
+    "description": "Go (golang) package for progress bars around io.Reader/Writers.",
+    "stargazers_count": 503,
+    "forks_count": 32,
+    "language": "Go",
+    "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+    "created_at": "2014-12-06T22:04:04Z",
+    "pushed_at": "2021-10-30T02:37:19Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/go-mruby",
+    "description": "Go (golang) bindings to mruby.",
+    "stargazers_count": 476,
+    "forks_count": 35,
+    "language": "Go",
+    "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+    "created_at": "2014-03-15T05:01:38Z",
+    "pushed_at": "2020-08-01T15:36:50Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitchellh/panicwrap",
+    "description": "panicwrap is a Go library for catching and handling panics in Go applications.",
+    "stargazers_count": 452,
+    "forks_count": 70,
+    "language": "Go",
+    "homepage": "https://gist.github.com/mitchellh/90029601268e59a29e64e55bab1c5bdc",
+    "created_at": "2013-08-05T19:00:46Z",
+    "pushed_at": "2024-04-05T14:22:42Z",
+    "topics": [],
+    "archived": true
+   }
+  ],
+  "repo_count_nonfork": 106,
+  "languages": [
+   [
+    "Go",
+    43
+   ],
+   [
+    "Ruby",
+    24
+   ],
+   [
+    "Zig",
+    11
+   ],
+   [
+    "C",
+    11
+   ],
+   [
+    "Shell",
+    3
+   ],
+   [
+    "HCL",
+    3
+   ],
+   [
+    "C++",
+    3
+   ],
+   [
+    "Nix",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "ghostty-org/ghostty",
+    "stargazerCount": 62551,
+    "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+    "primaryLanguage": {
+     "name": "Zig"
+    },
+    "homepageUrl": "https://ghostty.org"
+   },
+   {
+    "nameWithOwner": "mitchellh/libxev",
+    "stargazerCount": 3590,
+    "description": "libxev is a cross-platform, high-performance event loop that provides abstractions for non-blocking IO, timers, events, and more and works on Linux (io_uring or epoll), macOS (kqueue), and Wasm + WASI. Available as both a Zig and C API.",
+    "primaryLanguage": {
+     "name": "Zig"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mitchellh/zig-overlay",
+    "stargazerCount": 558,
+    "description": "Nix flake for the Zig compiler.",
+    "primaryLanguage": {
+     "name": "Nix"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "mitchellh/vouch",
+    "stargazerCount": 5131,
+    "description": "A community trust management system based on explicit vouches to participate.",
+    "primaryLanguage": {
+     "name": "Nushell"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 8379,
+  "orgs": [
+   "ircrelay"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "ghostty-org/ghostty": "<!-- LOGO -->\n<h1>\n<p align=\"center\">\n  <br>Ghostty\n</h1>\n  <p align=\"center\">\n    Fast, native, feature-rich terminal emulator pushing modern features.\n    <br />\n    A native GUI or embeddable library via <code>libghostty</code>.\n    <br />\n    <a href=\"#about\">About</a>\n    ·\n    <a href=\"https://ghostty.org/download\">Download</a>\n    ·\n    <a href=\"https://ghostty.org/docs\">Documentation</a>\n    ·\n    <a href=\"CONTRIBUTING.md\">Contributing</a>\n    ·\n    <a href=\"HACKING.md\">Developing</a>\n  </p>\n</p>\n## About\nGhostty is a terminal emulator that differentiates itself by being\nfast, feature-rich, and native. While there are many excellent terminal\nemulators available, they all force you to choose between speed,\nfeatures, or native UIs. Ghostty provides all three.\n**`libghostty`** is a cross-platform, zero-dependency C and Zig library\nfor building terminal emulators or utilizing terminal functionality\n(such as style parsing). Anyone can use `libghostty` to build a terminal\nemulator or embed a terminal into their own applications. See\n[Ghostling](https://github.com/ghostty-org/ghostling) for a minimal complete project\nexample or the [`examples` directory](https://github.com/ghostty-org/ghostty/tree/main/example)\nfor smaller examples of using `libghostty` in C and Zig.\nFor more details, see [About Ghostty](https://ghostty.org/docs/about).\n## Download\nSee the [download page](https://ghostty.org/download) on the Ghostty website.\n## Documentation\nSee the [documentation](https://ghostty.org/docs) on the Ghostty website.\n## Contributing and Developing\nIf you have any ideas, issues, etc. regarding Ghostty, or would like to\ncontribute to Ghostty through pull requests, please check out our\n[\"Contributing to Ghostty\"](CONTRIBUTING.md) document. Those who would like\nto get involved with Ghostty's development as well should also read the\n[\"Developing Ghostty\"](HACKING.md) document for more technical details.\n## Roadmap and Status\nGhostty is stable and in use by millions of people and machines daily.\nThe high-level ambitious plan for the project, in order:\n|  #  | Step                                                    | Status |\n| :-: | -------------------------------------",
+   "mitchellh/libxev": "# libxev\nlibxev is a cross-platform event loop. libxev provides a unified event loop\nabstraction for non-blocking IO, timers, signals, events, and more that\nworks on macOS, Windows, Linux, and WebAssembly (browser and WASI). It is\nwritten in [Zig](https://ziglang.org/) but exports a C-compatible API (which\nfurther makes it compatible with any language out there that can communicate\nwith C APIs).\n**Project Status: Stable for most use cases.** libxev is in daily use by\nlarge projects such as [Ghostty](https://ghostty.org),\n[zml](https://github.com/zml/zml), and more. For most use cases, libxev\nhas been shown to be stable at scale. libxev has a broad featureset and\nthere are likely less well-used corners of the library, but for most\nuse cases libxev is already heavily used in production environments.\n**Why a new event loop library?** A few reasons. One, I think Zig lacks\na generalized event loop comparable to libuv in features (\"generalized\"\nbeing a key word here). Two, I wanted to build a library like this around\nthe design patterns of [io_uring](https://unixism.net/loti/what_is_io_uring.html),\neven mimicking its style on top of other OS primitives (\n[credit to this awesome blog post](https://tigerbeetle.com/blog/a-friendly-abstraction-over-iouring-and-kqueue/)).\nThree, I wanted an event loop library that could build to WebAssembly\n(both WASI and freestanding) and that didn't really fit well\ninto the goals of API style of existing libraries without bringing in\nsomething super heavy like Emscripten. The motivation for this library\nprimarily though is scratching my own itch!\n## Features\n**Cross-platform.** Linux (`io_uring` and `epoll`), macOS (`kqueue`),\nWebAssembly + WASI (`poll_oneoff`, threaded and non-threaded runtimes).\n(Windows support is planned and coming soon)\n**[Proactor API](https://en.wikipedia.org/wiki/Proactor_pattern).** Work\nis submitted to the libxev event loop and the caller is notified of\nwork _completion_, as opposed to work _readiness_.\n**Zero runtime allocations.** This helps make runtime performance more\npredictable and makes libxev well suited for embedded environments.\n**Timers, TCP, UDP, Files, Processes.** High-level platform-agnostic API",
+   "mitchellh/zig-overlay": "# Nix Flake for Zig\nThis repository is a Nix flake packaging the [Zig](https://ziglang.org)\ncompiler. The flake mirrors the binaries built officially by Zig and\ndoes not build them from source.\nThis repository is meant to be consumed primarily as a flake but the\n`default.nix` can also be imported directly by non-flakes, too.\nThe flake outputs are documented in `flake.nix` but an overview:\n* Default package and \"app\" is the latest released version\n* `packages.<version>` for a tagged release\n* `packages.master` for the latest nightly release\n* `packages.master-<date>` for a nightly release\n* `packages.brew.<version>` for a Homebrew bottle build (macOS only)\n* `overlays.default` is an overlay that adds `zigpkgs` to be the packages\n    exposed by this flake\n* `templates.compiler-dev` to setup a development environment for Zig\n    compiler development.\n## Usage\n### Flake\nIn your `flake.nix` file:\n```nix\n{\n  inputs.zig.url = \"github:mitchellh/zig-overlay\";\n  outputs = { self, zig, ... }: {\n    ...\n  };\n}\n```\nIn a shell:\n```sh\n# run the latest released version\n$ nix run 'github:mitchellh/zig-overlay'\n# open a shell with nightly version dated 2021-02-13 (oldest version available)\n$ nix shell 'github:mitchellh/zig-overlay#master-2021-02-13'\n# open a shell with latest nightly version\n$ nix shell 'github:mitchellh/zig-overlay#master'\n# open a shell with a specific zig version\n$ nix shell 'github:mitchellh/zig-overlay#\"0.14.0\"'\n```\n### Homebrew Bottles\nThe `brew` package set provides Zig builds from Homebrew's official\nbinary bottles. These are built from source by Homebrew with\nmacOS-specific patches applied. The derivations are fully\nself-contained — all dylib dependencies (LLVM, LLD, zstd) are\nbundled and patched so no Homebrew installation is required at\nruntime.\nThese can be useful because in some situations Homebrew backports\nmore patches to their bottles than the official Zig releases to keep\ncompatibility with newer macOS versions.\nBrew packages are only available on macOS (`aarch64-darwin` and\n`x86_64-darwin`).\n```sh\n# use the Homebrew-built Zig 0.16.0\n$ nix shell 'github:mitchellh/zig-overlay#brew.\"0.16.0\"'\n```\nVia the overlay:\n```nix\nzigpkgs.brew.\"0.16.0\"\n```\n###",
+   "mitchellh/vouch": "<h1 align=\"center\">Vouch</h1>\n<p align=\"center\">\n  A community trust management system.\n</p>\n<p align=\"center\">\n  <a href=\"FAQ.md\">FAQ</a> · <a href=\"COOKBOOK.md\">Cookbook</a> · <a href=\"CONTRIBUTING.md\">Contributing</a>\n</p>\n---\nPeople must be **vouched for** before\ninteracting with certain parts of a project (the exact parts are\nconfigurable to the project to enforce). People can also be explicitly\n**denounced** to block them from interacting with the project.\nThe implementation is generic and can be used by any project on any code forge,\nbut we provide **GitHub integration** out of the box via GitHub actions\nand the CLI.\nThe vouch list is maintained in a single flat file using a minimal format\nthat can be trivially parsed using standard POSIX tools and any programming\nlanguage without external libraries.\nThis project is based on the already successful system in use by\nthe [Pi project](https://github.com/badlogic/pi-mono). I took what they\nalready do and extracted it into a more generalizable system with some\nother changes.\n> [!WARNING]\n>\n> This is an experimental system in use by [Ghostty](https://github.com/ghostty-org/ghostty).\n> We'll continue to improve the system based on experience and feedback.\n## Why?\nOpen source has always worked on a system of _trust and verify_.\nHistorically, the effort required to understand a codebase, implement\na change, and submit that change for review was high enough that it\nnaturally filtered out many low quality contributions from unqualified people.\nFor over 20 years of my life, this was enough for my projects as well\nas enough for most others.\nUnfortunately, the landscape has changed particularly with the advent\nof AI tools that allow people to trivially create plausible-looking but\nextremely low-quality contributions with little to no true understanding.\nContributors can no longer be trusted based on the minimal barrier to entry\nto simply submit a change.\nBut, open source still works on trust! And every project has a definite\ngroup of trusted individuals (maintainers) and a larger group of probably\ntrusted individuals (active members of the community in any form). So,\nlet's move to an explicit trust model where trusted i",
+   "mitchellh/mapstructure": "# mapstructure [](https://godoc.org/github.com/mitchellh/mapstructure)\nmapstructure is a Go library for decoding generic map values to structures\nand vice versa, while providing helpful error handling.\nThis library is most useful when decoding values from some data stream (JSON,\nGob, etc.) where you don't _quite_ know the structure of the underlying data\nuntil you read a part of it. You can therefore read a `map[string]interface{}`\nand use this library to decode it into the proper underlying native Go\nstructure.\n## Installation\nStandard `go get`:\n```\n$ go get github.com/mitchellh/mapstructure\n```\n## Usage & Example\nFor usage and examples see the [Godoc](http://godoc.org/github.com/mitchellh/mapstructure).\nThe `Decode` function has examples associated with it there.\n## But Why?!\nGo offers fantastic standard libraries for decoding formats such as JSON.\nThe standard method is to have a struct pre-created, and populate that struct\nfrom the bytes of the encoded format. This is great, but the problem is if\nyou have configuration or an encoding that changes slightly depending on\nspecific fields. For example, consider this JSON:\n```json\n{\n  \"type\": \"person\",\n  \"name\": \"Mitchell\"\n}\n```\nPerhaps we can't populate a specific structure without first reading\nthe \"type\" field from the JSON. We could always do two passes over the\ndecoding of the JSON (reading the \"type\" first, and the rest later).\nHowever, it is much simpler to just decode this into a `map[string]interface{}`\nstructure, read the \"type\" key, then use something like this library\nto decode it into the proper structure.\n"
+  }
+ },
+ "apps": []
+}

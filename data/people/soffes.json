@@ -1,0 +1,161 @@
+{
+ "name": "Sam Soffes",
+ "role": "软件工程师 · 前 Apple 播客团队 · Bible App 初代开发者 · Redacted、Contrast 作者 · 开着房车旅行",
+ "title": "Sam Soffes：App Store <em>第一天</em>就在的人",
+ "dek": "2008 年 iPhone SDK 发布时，他写的 Bible 应用在 App Store 开张的第一天就上架了，后来被极多的人使用，他说「这让人很谦卑」。此后十几年，他在 Lyft、Venmo、GitHub、Hipstamatic、Houseparty 等公司和客户项目里做 iOS 与 Mac 开发，也做自己的应用：待办应用 Cheddar、给截图打码的 Redacted、取色和对比度工具 Contrast；最近几年他在 Apple 做 Podcasts。现在他离开了 Apple，开着自己改装的露营车去潜水、徒步，「去看看外面有什么」。他开源的 SAMKeychain 有五千多颗星，Braun 风格的时钟屏保 Clock.saver 也很受欢迎。他在 X 上的简介是：「I'm not here anymore.」",
+ "card": "前 Apple Podcasts 工程师；Bible App 初代开发者，Cheddar、Redacted、Contrast 作者；SAMKeychain（★5.4 千）。",
+ "location": "美国旧金山（目前开房车旅行）",
+ "updated": "2026-10-23",
+ "tags": ["iOS", "macOS", "独立开发", "开源", "旅行"],
+ "links": [
+  {"label": "soff.es", "url": "https://soff.es"},
+  {"label": "Résumé", "url": "https://soff.es/resume"},
+  {"label": "GitHub：soffes", "url": "https://github.com/soffes"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I’m a software engineer who’d rather be outside. I’ve made apps since the first day of the App Store.」",
+  "<strong>代表作：</strong>Bible（App Store 首日上架）、Apple Podcasts、Cheddar、Redacted、Contrast；开源 SAMKeychain（★5,353）、SSToolkit（★3,280）、Cheddar for iOS 源码（★2,958）、HotKey、Clock.saver、Countdown、Motivation 屏保。",
+  "<strong>参与过的产品：</strong>Lyft、Lyft Driver、Venmo、GitHub、Hipstamatic、Houseparty、Over、Roon 等。",
+  "<strong>关键数字：</strong>X 帖子约 9.7 万条；GitHub 176 个公开仓库。"
+ ],
+ "lead": "Sam 的个人网站首页有一个「Now」区块，写着下一次冒险的计划，还有一个按年份整理的照片墙，2025 年就有 87 张。他在 About 页写道：「我刚离开 Apple 的工作，开着自己动手改装的露营车去环游世界。」对一个从 iPhone 第一天就开始写应用的工程师来说，这是另一种「发布」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、独立开发者"],
+     ["所在地", "旧金山（目前开房车旅行）"],
+     ["经历", "Bible App（2008）→ 自己的公司、自由职业与客户项目 → Apple（Podcasts）→ 旅行"],
+     ["开源", "SAMKeychain、SSToolkit、HotKey、GradientView、SyntaxKit、Clock.saver"],
+     ["爱好", "潜水、徒步"],
+     ["技术栈", "Swift、Objective-C、Ruby"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Sam 现在<strong>主要在生活，而不是在发布软件</strong>。他的博客近几年以年度回顾和潜水游记为主（菲律宾、科苏梅尔），偶尔写技术笔记，比如在 Apple Silicon 上装 Ruby 和 Homebrew、在 LLDB 里调试 JSON 数据、用 Home Assistant 把 Sonos 接进 Siri。"},
+    {"p": "他早年的开源项目影响了很多 iOS 开发者：SAMKeychain 让钥匙串读写变得简单，SSToolkit 是一个从 2008 年开始的「iOS 好东西合集」；他把 Redacted 和 Contrast 的源码公开存档，「仅供学习」。"},
+    {"note": "本页依据 soff.es（首页、About、Résumé、博客）、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他在 Apple 的具体年份未在网站上写明。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2008", "title": "Bible App", "text": "iPhone SDK 发布后写出 Bible 应用，在 App Store 首日上架。"},
+     {"when": "2010–2013", "title": "开源与自己的应用", "text": "SAMKeychain、SSToolkit、SSPullToRefresh；做待办应用 Cheddar 并开源 iOS 版。"},
+     {"when": "2014–2018", "title": "Mac 小作品", "text": "Clock.saver、Countdown、Motivation 屏保，HotKey，SyntaxKit。"},
+     {"when": "此后", "title": "公司与客户", "text": "参与 Lyft、Venmo、GitHub、Hipstamatic、Houseparty 等产品；做 Contrast 和 Redacted。"},
+     {"when": "近年", "title": "Apple 与房车", "text": "在 Apple 做 Podcasts，之后离职开房车旅行。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Bible", "url": "https://soff.es/about",
+     "meta": ["2008", "iOS", "App Store 首日"],
+     "paras": [
+      "iPhone 上最早的应用之一。他说现在仍有很多人在用，这让他感到谦卑。"
+     ]
+    }},
+    {"work": {
+     "name": "SAMKeychain", "url": "https://github.com/soffes/SAMKeychain",
+     "meta": ["2010–2020", "Objective-C", "★5.4 千"],
+     "paras": [
+      "「Simple Objective-C wrapper for the keychain that works on Mac and iOS.」在 Objective-C 时代被大量 iOS 应用用来读写钥匙串。"
+     ]
+    }},
+    {"work": {
+     "name": "Clock.saver", "url": "https://github.com/soffes/Clock.saver",
+     "meta": ["2014–", "Swift", "★809"],
+     "paras": [
+      "受 Braun 手表启发的 Mac 时钟屏保，可以选型号和样式，也能用 Homebrew 安装。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Cheddar", "简洁的待办应用，iOS 版源码已开源（★2,958）"],
+      ["Redacted", "给截图打码的 Mac / iOS 应用，源码公开存档"],
+      ["Contrast", "macOS 取色与对比度检查工具 v1"],
+      ["Motivation", "一个「吓人地」显示你年龄的屏保"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://soff.es", "paras": [
+     "首页像一本旅行手账：Now（最近更新于 10 月 20 日）、下一次冒险、最新照片、历年回顾，最后才是「做过的应用」和简历。博客 RSS 里有三百多篇文章，从技术笔记到每年生日写的「Thirty-One」「Thirty-Two」「Thirty-Three」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Netlify"],
+      ["结构", "Now、旅行、照片、简历、博客"],
+      ["博客", "319 篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2025-12-31", "title": "2025", "url": "https://soff.es/blog"},
+     {"date": "2021-05-10", "title": "Deep Hobbies", "url": "https://soff.es/blog"},
+     {"date": "2020-12-31", "title": "Ruby on Apple Silicon", "url": "https://soff.es/blog"},
+     {"date": "2020-11-17", "title": "Homebrew on Apple Silicon", "url": "https://soff.es/blog"}
+    ]},
+    {"quote": "I’m a software engineer who’d rather be outside.", "cite": "Sam Soffes，soff.es"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["经历", "从 App Store 第一天开始的完整履历", "—"],
+      ["开源", "早期 iOS 生态的常用库", "大部分仓库已归档"],
+      ["近况", "—", "目前主要在旅行，公开新作很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>平台第一天就上车。</strong>",
+     "<strong>把旧作公开存档，</strong>供后来者学习。",
+     "<strong>工作之外要有深度爱好。</strong>",
+     "<strong>允许自己按下暂停键。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "soff.es", "url": "https://soff.es", "why": "看一个工程师的房车旅行。"},
+     {"name": "Clock.saver", "url": "https://github.com/soffes/Clock.saver", "why": "装一个 Braun 风格屏保。"},
+     {"name": "Résumé", "url": "https://soff.es/resume", "why": "一份横跨 iOS 全历史的作品单。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "写下你工作之外最想深入的一个爱好，这个月给它安排一个完整的周末。",
+ "sources": [
+  {"label": "Sam Soffes 的 X 个人资料", "url": "https://x.com/soffes"},
+  {"label": "soff.es", "url": "https://soff.es"},
+  {"label": "About（soff.es）", "url": "https://soff.es/about"},
+  {"label": "Résumé（soff.es）", "url": "https://soff.es/resume"},
+  {"label": "GitHub：soffes", "url": "https://github.com/soffes"}
+ ]
+}

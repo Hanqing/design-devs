@@ -1,0 +1,165 @@
+{
+ "name": "Aiden Bai",
+ "role": "Million 创始人 · Million.js、React Scan、React Grab、React Doctor 作者 · ReactBench · 旧金山",
+ "title": "Aiden Bai：<em>修好 Web</em>",
+ "dek": "TA 16 岁时写出了 Million.js：一个让 React 更快的编译器，被 Fireship 做成视频后一夜走红，TA 也因此「爱上了开源」。高中时 TA 是 Hack Club 的成员，参加过两届国际科学与工程大奖赛（ISEF），还拿到 ACM SAC 2023 最佳论文；在华盛顿大学读了三个月后，退学去读 Y Combinator（W24）。之后 TA 做了 React 性能扫描工具 React Scan（★2.2 万）、把任意界面元素复制给 Agent 的 React Grab、捕捉 Agent 写出的糟糕 React 代码的 React Doctor，三者合计四万五千颗星；也做过并关掉了 Same 和 Million Lint，「用户增长到 40 多万，收入数百万美元」。现在 Million 是一个专注前端代码数据的研究实验室，为前沿编程 Agent 构建训练环境和评测，比如 ReactBench。",
+ "card": "Million 创始人（旧金山）；Million.js、React Scan（★2.2 万）、React Grab、React Doctor 作者；YC W24。",
+ "location": "美国旧金山",
+ "updated": "2026-10-23",
+ "tags": ["React", "性能", "AI 编程评测", "开源", "创业"],
+ "links": [
+  {"label": "aidenybai.com", "url": "https://aidenybai.com"},
+  {"label": "Million", "url": "https://million.dev"},
+  {"label": "ReactBench", "url": "https://reactbench.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I’m on a mission to fix the web. It’s how great technology reaches everyone, and everything I build (old and new) comes back to that.」",
+  "<strong>代表作：</strong>React Scan（★21,872）、Million.js（★17,657）、React Doctor（★15,041）、React Grab（★7,678）、bippy（★1,433）、cnfast（★1,180）、element-source、ReactBench。",
+  "<strong>经历：</strong>Hack Club → ISEF 2021、2022 → ACM SAC 2023 最佳论文 → 华盛顿大学三个月 → YC W24 → Million。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 16,314 次；X 关注者约 7 万；投资人包括 Evan You、Amjad Masad、Koen Bok 等。"
+ ],
+ "lead": "2026 年 10 月，Aiden 发了一条设计工程小技巧：做骨架屏时，让 Agent 用 Playwright 去测量页面加载完成后的真实界面，再按这些尺寸和位置来摆放骨架，避免加载完成时布局跳动。这条帖子收获了两千五百多个赞。这就是 TA 一直在做的事：把「让网页更快、更稳」的经验变成可以自动执行的检查。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创始人、开源作者、研究者"],
+     ["所在地", "美国旧金山"],
+     ["公司", "Million Software, Inc."],
+     ["教育", "华盛顿大学（三个月后退学参加 YC W24）"],
+     ["荣誉", "ISEF 2021、2022；ACM SAC 2023 最佳论文"],
+     ["技术栈", "TypeScript、React、编译器、WebGPU"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Million 现在是<strong>一家前端编程数据研究实验室</strong>：为前沿编程 Agent 构建环境和评测，让 Agent 在从未见过的代码库里做工程师每天做的事：开发功能、部署应用、调试问题。ReactBench 就是其中之一，在真实代码库上给编程 Agent 的前端能力打分。"},
+    {"p": "开源工具则把同样的目标交给开发者：React Scan 无需改代码就能高亮渲染过多的组件；React Doctor 对代码做确定性检查，覆盖状态与副作用、性能、架构、安全和无障碍；React Grab 让 Agent 直接定位到你选中元素背后的源码，官方称能让 Agent 快两倍、更准确；bippy 则「黑进」React 内部，读取 Fiber 树。"},
+    {"note": "本页依据 aidenybai.com、million.dev、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。性别未见本人明确表述，本页用 TA；个人健康和作息内容未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "高中", "title": "Hack Club 与竞赛", "text": "Hack Club 成员；参加 ISEF 2021、2022；2020 年写 3 KB 小框架 Lucia。"},
+     {"when": "2021", "title": "Million.js", "text": "16 岁写出 React 优化编译器，经 Fireship 视频走红。"},
+     {"when": "2023", "title": "论文与实验", "text": "ACM SAC 2023 最佳论文；零运行时模式匹配 pattycake、用 AI 优化 React 的 reaict。"},
+     {"when": "2024", "title": "YC 与 React Scan", "text": "退学参加 YC W24；9 月发布 React Scan；做 Million Lint（后关闭）。"},
+     {"when": "2025", "title": "React Grab", "text": "10 月发布 React Grab；此前做过的 Same 等项目已关闭。"},
+     {"when": "2026", "title": "研究实验室", "text": "React Doctor、ReactBench v1、cnfast、element-source；Million 转向前端编程数据。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "React Scan", "url": "https://react-scan.com",
+     "meta": ["2024–", "TypeScript", "★2.2 万"],
+     "paras": [
+      "「Scan and fix React performance issues.」放进页面即可，不用改代码，直接标出哪些组件在不必要地重新渲染。README 现在推荐使用面向 Agent 的 React Doctor。"
+     ],
+     "facts": [["GitHub", "★21,872"]]
+    }},
+    {"work": {
+     "name": "Million.js", "url": "https://github.com/aidenybai/million",
+     "meta": ["2021–", "React 编译器", "★1.8 万"],
+     "paras": [
+      "「Optimizing compiler for React.」用预计算的虚拟 DOM 让 React 组件渲染更快，是 TA 进入开源世界的起点。"
+     ]
+    }},
+    {"work": {
+     "name": "React Doctor", "url": "https://react.doctor",
+     "meta": ["2026", "TypeScript", "★1.5 万"],
+     "paras": [
+      "「Your agent writes bad React. This catches it.」把 React Scan 的性能关注扩展到架构、安全和无障碍，做成编程 Agent 可以调用的静态检查。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["React Grab", "复制任意界面元素给 Agent，并指向源码（★7,678）"],
+      ["bippy", "访问 React 内部 Fiber 树（★1,433）"],
+      ["cnfast", "比 cn 快 25 倍的直接替代品"],
+      ["element-source", "获取任意 DOM 元素的源文件位置，支持多框架"],
+      ["ReactBench", "前端编程 Agent 评测"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://aidenybai.com", "paras": [
+     "个人网站开头一句「I’m building Million」，然后是一段「背景故事」：在西雅图读了三个月大学，高中在 Hack Club，参加科研竞赛，做过又关掉了哪些项目。博客最近写了在 WebGPU 上训练 CartPole、《How to Demo》和给 Agent 的写作指南。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel"],
+      ["结构", "自述 + 背景故事 + 博客 + 照片"],
+      ["博客节奏", "2026 年约每月一篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-02", "title": "Training CartPole on WebGPU", "url": "https://aidenybai.com/blog/cartpole"},
+     {"date": "2026-09-12", "title": "How to Demo", "url": "https://aidenybai.com/blog/how-to-demo"},
+     {"date": "2026-09-11", "title": "Agent Writing Guidelines", "url": "https://aidenybai.com/blog/write"},
+     {"date": "2025-12-17", "title": "People I look up to", "url": "https://aidenybai.com/blog/people-i-look-up-to"}
+    ]},
+    {"quote": "the holy grail is formal verification for all code", "cite": "Aiden Bai，X，2026-10"},
+    {"p": "TA 认为测试只是代码行为的「有损代理」，代码应该更像数学。TA 也坦诚：和 Agent 一起工作很容易得「闪亮物体综合征」，过去十个月 TA 搁置了不少副业项目，需要不断提醒自己「少推理，更简单、更专注」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["开源", "多个爆款 React 工具", "部分项目迭代后被新工具取代"],
+      ["速度", "从想法到发布极快", "自称项目搁置较多"],
+      ["方向", "前端 Agent 评测与数据", "商业模式仍在演进"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>年轻不是问题：</strong>16 岁也能写出走红的编译器。",
+     "<strong>把经验变成自动检查。</strong>",
+     "<strong>让骨架屏与真实布局一致。</strong>",
+     "<strong>敢于关掉项目：</strong>做过、学到、再出发。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "React Scan", "url": "https://react-scan.com", "why": "看看你的应用哪里在过度渲染。"},
+     {"name": "React Grab", "url": "https://react-grab.com", "why": "让 Agent 找到你指的那个组件。"},
+     {"name": "ReactBench", "url": "https://reactbench.com", "why": "看各个模型的前端能力排名。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你的 React 项目里装上 React Scan，找出渲染次数最多的那个组件。",
+ "sources": [
+  {"label": "Aiden Bai 的 X 个人资料", "url": "https://x.com/aidenybai"},
+  {"label": "aidenybai.com", "url": "https://aidenybai.com"},
+  {"label": "Million", "url": "https://million.dev"},
+  {"label": "GitHub：aidenybai", "url": "https://github.com/aidenybai"},
+  {"label": "GitHub：millionco/react-doctor", "url": "https://github.com/millionco/react-doctor"}
+ ]
+}

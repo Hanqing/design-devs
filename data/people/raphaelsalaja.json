@@ -1,0 +1,365 @@
+{
+ "name": "Raphael Salaja",
+ "role": "Design Engineer · Warp · userinterface.wiki、Pond、web-kits/audio 作者",
+ "title": "Raphael Salaja：为<em>没人注意却人人能感到</em>的细节工作",
+ "dek": "TA 是住在爱尔兰的设计工程师，个人网站上写：「我被那些大多数人从不注意、却总能感觉到的细节吸引。」TA 和 Avara、OpenSea、Daybreak 等团队合作过，现在在 Warp。TA 写了一本免费的「活的界面手册」userinterface.wiki，讲动画原则、弹簧曲线、伪元素和网页声音；做了一个把声音写成数据的网页音频库 web-kits/audio；2026 年 10 月又发布了 Pond，一个免费开源、在后台静静归档你在 X、Instagram、Pinterest 上收藏内容的桌面应用。",
+ "card": "Warp 设计工程师（爱尔兰）；userinterface.wiki、Pond、web-kits/audio、Calligraph 作者。",
+ "location": "爱尔兰",
+ "updated": "2026-10-23",
+ "tags": [
+  "Design Engineering",
+  "动效",
+  "网页声音",
+  "React",
+  "开源"
+ ],
+ "links": [
+  {
+   "label": "raphaelsalaja.com",
+   "url": "https://www.raphaelsalaja.com"
+  },
+  {
+   "label": "userinterface.wiki",
+   "url": "https://www.userinterface.wiki"
+  },
+  {
+   "label": "Pond",
+   "url": "https://pond.raphaelsalaja.com"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I’m a design engineer based in Ireland. I enjoy pushing boundaries and exploring new ways to express myself without limitations.」",
+  "<strong>代表作：</strong>userinterface.wiki（★929）、web-kits/audio（★589）、Calligraph（★439）、Pond（★331）、Sylph 作品集模板（★341）、Toldo 对话框、Cambio 共享动画、SwiftUI 的 Metallurgy 与 Layers。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 2,044 次；X 关注者约 1.5 万，只关注 5 个人。",
+  "<strong>合作过的团队：</strong>Avara、OpenSea、Daybreak；现任职 Warp。"
+ ],
+ "lead": "2026 年 4 月，Raphael 发帖说：「网页已经安静很久了。」TA 花了几个月做 web-kits/audio：把一个声音描述成普通的数据对象，一次函数调用就能播放，压缩后约 11 kB，可以按需引入，原生 JavaScript 和 React 都能用。TA 在 userinterface.wiki 里也写过：自己不是音效工程师，但知道好声音听起来是什么样，于是借助 AI 把这些声音做了出来。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {
+     "t": "Profile",
+     "profile": [
+      [
+       "身份",
+       "设计工程师"
+      ],
+      [
+       "所在地",
+       "爱尔兰"
+      ],
+      [
+       "现任",
+       "Warp"
+      ],
+      [
+       "合作过",
+       "Avara、OpenSea、Daybreak 等"
+      ],
+      [
+       "开源",
+       "userinterface.wiki、Pond、web-kits/audio、Calligraph、Cambio、Toldo、Sylph"
+      ],
+      [
+       "技术栈",
+       "TypeScript、React、Motion、Base UI、Swift / Metal"
+      ]
+     ]
+    },
+    {
+     "h3": "TA 到底在做什么？"
+    },
+    {
+     "p": "Raphael 做的是<strong>界面里看不见的那一层</strong>：文字切换时共享字符滑到新位置（Calligraph），元素在两个状态之间平滑过渡（Cambio），按钮按下时有一声合适的音效（web-kits/audio）。TA 把这些经验整理成 userinterface.wiki 上的长文，又把文章写成给 AI Agent 用的 Skill 文件。"
+    },
+    {
+     "p": "Pond 是 TA 目前最大的项目：一个跨 Mac 和 Windows 的个人网页归档工具，配合浏览器扩展，在后台保存你在各个平台收藏的内容，按你记得的样子找回来。上线后一周内又加了画布、从 Eagle 和 mymind 导入等功能。"
+    },
+    {
+     "note": "本页依据 raphaelsalaja.com、userinterface.wiki、pond.raphaelsalaja.com、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。TA 与各团队合作的具体时间未公开。性别未见本人明确表述，本页用 TA。"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2023",
+       "title": "SwiftUI 实验",
+       "text": "开源 Metal 着色器库 Metallurgy 和模态视图库 Layers。"
+      },
+      {
+       "when": "2024",
+       "title": "网页组件",
+       "text": "发布作品集模板 Sylph 和对话框组件 Toldo。"
+      },
+      {
+       "when": "2025",
+       "title": "userinterface.wiki",
+       "text": "写《12 Principles of Animation》《The Rise of Design Engineering》；9 月上线界面手册，发布 Cambio。"
+      },
+      {
+       "when": "2026 上半年",
+       "title": "声音与文字动画",
+       "text": "Calligraph、web-kits/audio；把 wiki 写成 Agent Skill。"
+      },
+      {
+       "when": "2026.10",
+       "title": "Pond",
+       "text": "发布免费开源的个人归档工具，随后推出 v1.1、画布和导入功能。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {
+     "work": {
+      "name": "userinterface.wiki",
+      "url": "https://www.userinterface.wiki",
+      "meta": [
+       "2025–",
+       "Fumadocs",
+       "★929"
+      ],
+      "paras": [
+       "「Knowledge should be shared.」一本免费、随领域演进的界面手册：UX 定律、容器尺寸动画、形变图标、AI 生成声音、AnimatePresence、网页声音、要不要用弹簧、伪元素、动画十二原则。每篇都配有可交互示例。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "Pond",
+      "url": "https://pond.raphaelsalaja.com",
+      "meta": [
+       "2026",
+       "macOS · Windows",
+       "开源"
+      ],
+      "paras": [
+       "「Keep what you save on X, Instagram, Pinterest, and more in a folder on your Mac or Windows PC.」TA 认为现有收藏工具都没有解决关键问题，也就是成为日常浏览中「看不见的一层」。仓库附有负责任使用说明和开发者文档。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "web-kits/audio",
+      "url": "https://audio.raphaelsalaja.com",
+      "meta": [
+       "2026",
+       "TypeScript",
+       "★589"
+      ],
+      "paras": [
+       "声明式网页音频合成：用 <code>defineSound</code> 描述声音，调用一次即可播放。从头到尾开源。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "其他作品",
+       "说明"
+      ],
+      "rows": [
+       [
+        "Calligraph",
+        "基于 Motion 的流畅文字过渡（★439）"
+       ],
+       [
+        "Cambio",
+        "基于 Base UI 和 Motion 的共享动画组件"
+       ],
+       [
+        "Toldo",
+        "更精致的 React 对话框"
+       ],
+       [
+        "Metallurgy",
+        "SwiftUI Metal 着色器库（★266）"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://www.raphaelsalaja.com",
+      "paras": [
+       "首页是一句自我介绍加一个文章列表，文章按 Thoughts、Animation、Fashion 分类：从《The Concept of Taste》《Building vs. Banking》到一篇关于白 T 恤的短文。Work 页是一面视频墙，展示低电量通知、Linear 风格菜单等交互实验。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "观察"
+      ],
+      "rows": [
+       [
+        "技术",
+        "Next.js，Vercel / Cloudflare"
+       ],
+       [
+        "内容",
+        "设计思考、动画、时尚"
+       ],
+       [
+        "作品",
+        "19 个以上交互实验视频"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {
+     "posts": [
+      {
+       "date": "2026-02-17",
+       "title": "Laws of UX",
+       "url": "https://www.userinterface.wiki/laws-of-ux"
+      },
+      {
+       "date": "2026-02-09",
+       "title": "Animating Container Bounds",
+       "url": "https://www.userinterface.wiki/animating-container-bounds"
+      },
+      {
+       "date": "2026-02-01",
+       "title": "Morphing Icons",
+       "url": "https://www.userinterface.wiki/morphing-icons"
+      },
+      {
+       "date": "2025-04-08",
+       "title": "12 Principles of Animation",
+       "url": "https://www.userinterface.wiki"
+      }
+     ]
+    },
+    {
+     "quote": "if you try hard enough, you can build an entire interface without dialogs or modals",
+     "cite": "Raphael Salaja，X"
+    },
+    {
+     "p": "TA 对 AI 的态度有所保留：TA 观察到，有人花在用 Skill 训练 AI 上的时间，比发展自己技能的时间还多。"
+    }
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "长处",
+       "局限 / 需要留意"
+      ],
+      "rows": [
+       [
+        "细节",
+        "动效、文字过渡、声音都很讲究",
+        "—"
+       ],
+       [
+        "分享",
+        "wiki 免费，项目大多开源",
+        "—"
+       ],
+       [
+        "产品",
+        "Pond 迭代很快",
+        "刚发布不久，长期维护待观察"
+       ],
+       [
+        "公开信息",
+        "作品丰富",
+        "履历时间线较少公开"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>别忘了声音：</strong>界面也可以有恰当的听觉反馈。",
+      "<strong>把知识写成手册：</strong>一篇篇积累，最后就是一本书。",
+      "<strong>减少弹窗：</strong>试试不用对话框完成整个界面。",
+      "<strong>做自己需要的工具：</strong>Pond 源于对收藏工具的不满。",
+      "<strong>先发展自己，再训练 AI。</strong>"
+     ]
+    },
+    {
+     "h3": "推荐先看这三个"
+    },
+    {
+     "try": [
+      {
+       "name": "userinterface.wiki",
+       "url": "https://www.userinterface.wiki",
+       "why": "从《动画十二原则》读起。"
+      },
+      {
+       "name": "web-kits/audio",
+       "url": "https://audio.raphaelsalaja.com",
+       "why": "给按钮加一个声音试试。"
+      },
+      {
+       "name": "Pond",
+       "url": "https://pond.raphaelsalaja.com",
+       "why": "把散落各处的收藏归档到本地。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "找出你的产品里一个最常点的按钮，想一想：如果它有声音，应该是什么声音？",
+ "sources": [
+  {
+   "label": "Raphael Salaja 的 X 个人资料",
+   "url": "https://x.com/raphaelsalaja"
+  },
+  {
+   "label": "raphaelsalaja.com",
+   "url": "https://www.raphaelsalaja.com"
+  },
+  {
+   "label": "userinterface.wiki",
+   "url": "https://www.userinterface.wiki"
+  },
+  {
+   "label": "Pond",
+   "url": "https://pond.raphaelsalaja.com"
+  },
+  {
+   "label": "GitHub：raphaelsalaja",
+   "url": "https://github.com/raphaelsalaja"
+  }
+ ]
+}

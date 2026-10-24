@@ -1,0 +1,565 @@
+{
+ "handle": "frostming90",
+ "sites": [
+  {
+   "url": "https://frostming.com",
+   "ok": true,
+   "title": "Frost's Blog",
+   "description": "Frost Ming",
+   "stack": [
+    "Astro",
+    "Umami",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "zh-CN",
+   "home_text": "October 11, 2026 Frost Ming\nPosts No.1 1 7\n[ # Frost's Blog](https://frostming.com/)[RSS](https://frostming.com/feed.xml)\nNew posts  every now and then\n[](https://twitter.com/frostming90)[](https://github.com/frostming)[](https://t.me/fming_weekly)\n[关于](https://frostming.com/about)[友情链接](https://frostming.com/blogroll)[标签](https://frostming.com/tags)\n*    Oct 5, '26 ·[随笔](https://frostming.com/tags/%E9%9A%8F%E7%AC%94)  [变与不变](https://frostming.com/posts/2026/old-house)\n*    Jul 8, '26 ·[随笔](https://frostming.com/tags/%E9%9A%8F%E7%AC%94)  [楞次定律](https://frostming.com/posts/2026/changes)\n*    Apr 7, '26 ·[AI](https://frostming.com/tags/AI)[Python](https://frostming.com/tags/Python)  [我们为什么要重写 bub?](https://frostming.com/posts/2026/why-rewrite-bub)\n*    Feb 12, '26 ·[AI](https://frostming.com/tags/AI)  [创造一只龙虾，需要些什么?](https://frostming.com/posts/2026/create-a-claw)\n*    Feb 8, '26 ·[历史](https://frostming.com/tags/%E5%8E%86%E5%8F%B2)[阅读](https://frostming.com/tags/%E9%98%85%E8%AF%BB)  [读《昂贵的和平》后感](https://frostming.com/posts/2026/expensive-harmony)\n*    Jan 7, '26 ·[总结](https://frostming.com/tags/%E6%80%BB%E7%BB%93)  [2025 的号与外](https://frostming.com/posts/2026/2025-recap)\n[查看全部 →](https://frostming.com/archive)\nCopyright © 2026 Frost Ming\nDesigned and built with Astro",
+   "github_links": [
+    "frostming"
+   ],
+   "subpages": {
+    "https://frostming.com/about": "## About[](https://frostming.com/about#about)\n我是一名 Python 开发工程师，坐标深圳。平时喜欢折腾技术，写写技术文章。也是个开源爱好者。\n*   Python\n*   HTML/CSS\n*   Web\n*   Javascript\n*   Golang\n> 人生苦短，我用 Python\n我的 PGP 指纹：\n[1A21 DF26 CF48 7A9B 9E9B C482 7B28 4C8F CC08 5EFF](https://keys.openpgp.org/vks/v1/by-fingerprint/1A21DF26CF487…)\n## 演讲[](https://frostming.com/about#%E6%BC%94%E8%AE%B2)\n见 [我的演讲](https://slides.fming.dev/)。\n## 摄影[](https://frostming.com/about#%E6%91%84%E5%BD%B1)\n平时有空时外出拍拍照（虽然现在越来越少了），欢迎访问[我的照片墙](https://photos.frostming.com/)。 使用的机器有：\n*   ~~Nikon D7100~~\n*   Fujifilm XT-30\n## 赞助[](https://frostming.com/about#%E8%B5%9E%E5%8A%A9)\n[](https://github.com/sponsors/frostming)[](https://afdian.net/a/frostming)"
+   },
+   "feed": {
+    "url": "https://frostming.com/feed.xml",
+    "count_seen": 117,
+    "items": [
+     {
+      "title": "变与不变",
+      "date": "Mon, 05 Oct 2026 00:00:00",
+      "url": "https://frostming.com/posts/2026/old-house/"
+     },
+     {
+      "title": "楞次定律",
+      "date": "Wed, 08 Jul 2026 00:00:00",
+      "url": "https://frostming.com/posts/2026/changes/"
+     },
+     {
+      "title": "我们为什么要重写 bub?",
+      "date": "Tue, 07 Apr 2026 00:00:00",
+      "url": "https://frostming.com/posts/2026/why-rewrite-bub/"
+     },
+     {
+      "title": "创造一只龙虾，需要些什么?",
+      "date": "Thu, 12 Feb 2026 00:00:00",
+      "url": "https://frostming.com/posts/2026/create-a-claw/"
+     },
+     {
+      "title": "读《昂贵的和平》后感",
+      "date": "Sun, 08 Feb 2026 00:00:00",
+      "url": "https://frostming.com/posts/2026/expensive-harmony/"
+     },
+     {
+      "title": "2025 的号与外",
+      "date": "Wed, 07 Jan 2026 00:00:00",
+      "url": "https://frostming.com/posts/2026/2025-recap/"
+     },
+     {
+      "title": "友好的 Python：从其他语言移植",
+      "date": "Tue, 30 Dec 2025 00:00:00",
+      "url": "https://frostming.com/posts/2025/friendly-python-port/"
+     },
+     {
+      "title": "珍重",
+      "date": "Mon, 22 Dec 2025 00:00:00",
+      "url": "https://frostming.com/posts/2025/take-care/"
+     },
+     {
+      "title": "被嫌弃的松子的一生",
+      "date": "Tue, 02 Dec 2025 00:00:00",
+      "url": "https://frostming.com/posts/2025/county-woman/"
+     },
+     {
+      "title": "PyCome",
+      "date": "Mon, 22 Sep 2025 00:00:00",
+      "url": "https://frostming.com/posts/2025/pycon/"
+     },
+     {
+      "title": "河南行拾遗",
+      "date": "Sun, 11 May 2025 00:00:00",
+      "url": "https://frostming.com/posts/2025/henan/"
+     },
+     {
+      "title": "再也别问 Singleton 了好吗？",
+      "date": "Wed, 05 Mar 2025 00:00:00",
+      "url": "https://frostming.com/posts/2025/singleton/"
+     },
+     {
+      "title": "我的 2024",
+      "date": "Tue, 24 Dec 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/review/"
+     },
+     {
+      "title": "一个 monkeypatch 引起的循环引用问题",
+      "date": "Wed, 18 Dec 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/circular-ref-monkeypatch/"
+     },
+     {
+      "title": "功不唐捐",
+      "date": "Thu, 07 Nov 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/efforts/"
+     },
+     {
+      "title": "表达的阈值",
+      "date": "Sun, 20 Oct 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/express-threshold/"
+     },
+     {
+      "title": "《21世纪》与主流文化",
+      "date": "Wed, 24 Jul 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/21-centry-trend/"
+     },
+     {
+      "title": "我「接见」了诺奖得主",
+      "date": "Thu, 30 May 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/meet-with-paul/"
+     },
+     {
+      "title": "友好的 Python：封装和复用",
+      "date": "Thu, 09 May 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/friendly-python-reuse/"
+     },
+     {
+      "title": "我们生活在差异里",
+      "date": "Fri, 19 Apr 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/diversity/"
+     },
+     {
+      "title": "PDM 的内部实现(2)",
+      "date": "Mon, 01 Apr 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/pdm-lock-strategy/"
+     },
+     {
+      "title": "PDM Internals(2)",
+      "date": "Mon, 01 Apr 2024 00:00:00",
+      "url": "https://frostming.com/posts/en/2024/pdm-lock-strategy/"
+     },
+     {
+      "title": "PDM 的内部实现(1)",
+      "date": "Mon, 11 Mar 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/pdm-lockfile/"
+     },
+     {
+      "title": "PDM Internals(1)",
+      "date": "Mon, 11 Mar 2024 00:00:00",
+      "url": "https://frostming.com/posts/en/2024/pdm-lockfile/"
+     },
+     {
+      "title": "通过辨析去学习",
+      "date": "Thu, 18 Jan 2024 00:00:00",
+      "url": "https://frostming.com/posts/2024/learn-by-analysis/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "frostming",
+  "user": {
+   "name": "Frost Ming",
+   "company": null,
+   "blog": "https://frostming.com",
+   "location": "Shenzhen, China",
+   "bio": "Love 🐍 Python, 📷 Photography and beautiful things",
+   "public_repos": 128,
+   "followers": 1719,
+   "created_at": "2015-12-17T12:44:13Z",
+   "twitter_username": "frostming90",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "frostming/legit",
+    "description": "Git for Humans, Inspired by GitHub for Mac™.",
+    "stargazers_count": 5679,
+    "forks_count": 212,
+    "language": "Python",
+    "homepage": "https://frostming.github.io/legit",
+    "created_at": "2011-06-25T05:58:18Z",
+    "pushed_at": "2023-10-09T19:32:28Z",
+    "topics": [
+     "cli",
+     "git",
+     "kennethreitz",
+     "tool"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/marko",
+    "description": "A markdown parser with high extensibility.",
+    "stargazers_count": 470,
+    "forks_count": 64,
+    "language": "Python",
+    "homepage": "https://marko-py.readthedocs.io/",
+    "created_at": "2018-08-06T01:19:56Z",
+    "pushed_at": "2026-10-19T07:57:37Z",
+    "topics": [
+     "commonmark",
+     "extensible",
+     "markdown",
+     "parser",
+     "regexp"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/fxzhihu",
+    "description": "为知乎生成可分享的卡片及 Instant View",
+    "stargazers_count": 469,
+    "forks_count": 19,
+    "language": "TypeScript",
+    "homepage": "https://t.me/fxzhihu_bot",
+    "created_at": "2024-09-25T05:18:39Z",
+    "pushed_at": "2026-07-07T02:47:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/tetos",
+    "description": "A unified interface for multiple Text-to-Speech (TTS) providers.",
+    "stargazers_count": 277,
+    "forks_count": 17,
+    "language": "Python",
+    "homepage": "https://tetos.readthedocs.io/",
+    "created_at": "2024-04-17T03:55:47Z",
+    "pushed_at": "2026-03-26T01:41:21Z",
+    "topics": [
+     "azure",
+     "edge",
+     "openai",
+     "text-to-speech",
+     "tts",
+     "volcengine"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/Flog",
+    "description": "A Simple Blog Powered by Flask",
+    "stargazers_count": 194,
+    "forks_count": 51,
+    "language": "Vue",
+    "homepage": "",
+    "created_at": "2017-09-09T15:56:06Z",
+    "pushed_at": "2022-08-04T09:11:23Z",
+    "topics": [
+     "admin",
+     "blog",
+     "blog-engine",
+     "bootstrap",
+     "dynamic",
+     "flask"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/python-cfonts",
+    "description": "Sexy fonts for the console",
+    "stargazers_count": 192,
+    "forks_count": 12,
+    "language": "Python",
+    "homepage": "https://python-cfonts.fming.dev",
+    "created_at": "2018-06-21T09:33:57Z",
+    "pushed_at": "2026-04-05T04:53:18Z",
+    "topics": [
+     "cli",
+     "click",
+     "command-line-app",
+     "command-line-tools",
+     "terminal-colors"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/unearth",
+    "description": "A utility to fetch and download python packages",
+    "stargazers_count": 160,
+    "forks_count": 23,
+    "language": "Python",
+    "homepage": "https://unearth.readthedocs.io",
+    "created_at": "2022-05-16T07:59:20Z",
+    "pushed_at": "2026-10-19T20:05:13Z",
+    "topics": [
+     "downloader",
+     "pypi",
+     "utility"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/flask-crontab",
+    "description": "Simple Flask scheduled tasks without extra daemons",
+    "stargazers_count": 101,
+    "forks_count": 7,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2019-12-07T01:13:16Z",
+    "pushed_at": "2021-11-10T19:28:52Z",
+    "topics": [
+     "background-jobs",
+     "crontab",
+     "extension",
+     "flask"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/monas",
+    "description": "Python monorepo made easy",
+    "stargazers_count": 77,
+    "forks_count": 3,
+    "language": "Python",
+    "homepage": "https://monas.fming.dev",
+    "created_at": "2022-04-04T04:19:49Z",
+    "pushed_at": "2023-10-25T09:22:38Z",
+    "topics": [
+     "cli",
+     "efficiency",
+     "monorepo",
+     "package-manager",
+     "python"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/wordle-tui",
+    "description": "Play WORDLE game in your terminal.",
+    "stargazers_count": 60,
+    "forks_count": 5,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2022-01-17T11:02:31Z",
+    "pushed_at": "2022-04-24T00:30:30Z",
+    "topics": [
+     "game",
+     "reverse-engineering",
+     "tui",
+     "wordle"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "frostming/flask-vue-todo",
+    "description": "A todo app with Vue and backed by Flask",
+    "stargazers_count": 52,
+    "forks_count": 18,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2018-09-18T05:43:23Z",
+    "pushed_at": "2018-09-18T14:09:11Z",
+    "topics": [
+     "flask",
+     "frontend-backend",
+     "python",
+     "todoapp",
+     "vuejs",
+     "vuejs2",
+     "vuex"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "frostming/pipfile-requirements",
+    "description": "A CLI tool to covert Pipfile/Pipfile.lock to requirments.txt",
+    "stargazers_count": 52,
+    "forks_count": 3,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2019-01-10T01:55:10Z",
+    "pushed_at": "2021-03-13T11:54:31Z",
+    "topics": [
+     "cli-app",
+     "deployment",
+     "package-management",
+     "pipenv",
+     "pipfile"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/pdm-packer",
+    "description": "A PDM plugin that packs your packages into a zipapp",
+    "stargazers_count": 50,
+    "forks_count": 5,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2021-05-31T05:52:27Z",
+    "pushed_at": "2026-10-19T20:05:05Z",
+    "topics": [
+     "packaging",
+     "pdm",
+     "zipapp"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/onepm",
+    "description": "Picks the right package manager for you",
+    "stargazers_count": 49,
+    "forks_count": 1,
+    "language": "Python",
+    "homepage": "https://pypi.org/project/onepm",
+    "created_at": "2022-06-20T07:48:26Z",
+    "pushed_at": "2024-10-11T08:01:16Z",
+    "topics": [
+     "efficiency",
+     "package-manager",
+     "python"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/findpython",
+    "description": "A utility to find python versions on your system",
+    "stargazers_count": 39,
+    "forks_count": 17,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2022-02-21T02:34:10Z",
+    "pushed_at": "2026-10-23T09:12:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/picguessr",
+    "description": null,
+    "stargazers_count": 38,
+    "forks_count": 3,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2024-04-03T03:23:01Z",
+    "pushed_at": "2025-09-26T23:10:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/fix-future-annotations",
+    "description": "A CLI and pre-commit hook to fix future annotations",
+    "stargazers_count": 35,
+    "forks_count": 3,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2022-12-01T03:35:51Z",
+    "pushed_at": "2023-02-16T01:00:07Z",
+    "topics": [
+     "pre-commit",
+     "pre-commit-hook",
+     "python",
+     "typing"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "frostming/oven",
+    "description": null,
+    "stargazers_count": 29,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://pyoven.org",
+    "created_at": "2024-04-26T03:50:42Z",
+    "pushed_at": "2026-10-18T05:18:56Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 65,
+  "languages": [
+   [
+    "Python",
+    45
+   ],
+   [
+    "TypeScript",
+    4
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "Vue",
+    2
+   ],
+   [
+    "Rust",
+    2
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "PowerShell",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "pdm-project/pdm",
+    "stargazerCount": 8662,
+    "description": "A modern Python package and dependency manager supporting the latest PEP standards",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://pdm-project.org"
+   },
+   {
+    "nameWithOwner": "frostming/marko",
+    "stargazerCount": 470,
+    "description": "A markdown parser with high extensibility.",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://marko-py.readthedocs.io/"
+   },
+   {
+    "nameWithOwner": "frostming/unearth",
+    "stargazerCount": 160,
+    "description": "A utility to fetch and download python packages",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://unearth.readthedocs.io"
+   },
+   {
+    "nameWithOwner": "frostming/fxzhihu",
+    "stargazerCount": 469,
+    "description": "为知乎生成可分享的卡片及 Instant View",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://t.me/fxzhihu_bot"
+   },
+   {
+    "nameWithOwner": "frostming/tetos",
+    "stargazerCount": 277,
+    "description": "A unified interface for multiple Text-to-Speech (TTS) providers.",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://tetos.readthedocs.io/"
+   }
+  ],
+  "contrib_last_year": 1616,
+  "orgs": [
+   "sarugaku"
+  ],
+  "profile_readme": "\n<div align=\"center\">\n\n[![Typing SVG](https://readme-typing-svg.demolab.com?font=Lobster&size=36&pause=1000&color=F7F7F7&background=8639FF&center=true&vCenter=true&random=true&width=435&lines=Hello%2C+I'm+Frost+Ming)](https://git.io/typing-svg)\n\n[![](https://img.shields.io/badge/telegram-D14836?color=2CA5E0&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/frostming)\n[![](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/frostming90)\n[![](https://img.shields.io/badge/Blog-%23FFA500.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://frostming.com)\n\n</div>\n\n<p align=\"center\">\n  <img height=\"200\" src=\"https://github-readme-stats-inky-two-14.vercel.app/api?username=frostming&show_icons=true&theme=dracula&include_all_commits=true\" />\n  <img height=\"200\" src=\"https://github-readme-stats-inky-two-14.vercel.app/api/top-langs/?username=frostming&theme=dracula&show_icons=true\" />\n</p>\n<div align=\"center\">\n\n![Python](https://img.shields.io/badge/-Python-%233776ab?logo=python&style=for-the-badge&logoColor=white)\n![Flask](https://img.shields.io/badge/-Flask-%23eeeeee?logo=flask&style=for-the-badge&logoColor=black)\n![Django](https://img.shields.io/badge/-Django-%23092E20?logo=django&style=for-the-badge&logoColor=white)\n![Vue.js](https://img.shields.io/badge/-Vue.js-%234fc08d?logo=vue.js&style=for-the-badge&logoColor=white)\n![React](https://img.shields.io/badge/-React-%2357d8fb?logo=react&style=for-the-badge&logoColor=white)\n\n</div>\n",
+  "readmes": {
+   "pdm-project/pdm": "<div align=\"center\">\n# PDM\n[](https://github.com/sponsors/frostming)\nA modern Python package and dependency manager supporting the latest PEP standards.\n[中文版本说明](README_zh.md)\n[](https://pdm-project.org)\n[](https://twitter.com/pdm_project)\n[](https://discord.gg/Phn8smztpv)\n[](https://pypi.org/project/pdm)\n[](https://codecov.io/gh/pdm-project/pdm)\n[](https://repology.org/project/pdm/versions)\n[](https://pepy.tech/project/pdm)\n[](https://pdm-project.org)\n<a href=\"https://trackgit.com\">\n</a>\n[](https://asciinema.org/a/jnifN30pjfXbO9We2KqOdXEhB)\n</div>\n## What is PDM?\nPDM is meant to be a next-generation package manager.\nIt was originally built for personal use. If you feel you are going well\nwith `Pipenv` or `Poetry` and don't want to introduce another package manager,\njust stick to it. But if you are missing something that is not present in those tools,\nyou can probably find some goodness in `pdm`.\n## Highlights of features\n- Simple and fast dependency resolver, mainly for large binary distributions.\n- A [PEP 517] build backend.\n- [PEP 621] project metadata.\n- Flexible and powerful plug-in system.\n- Versatile user scripts.\n- Install Pythons using [astral-sh's python-build-standalone](https://github.com/astral-sh/python-build-standalone).\n- Opt-in, centralized installation cache like [pnpm](https://pnpm.io/motivation#saving-disk-space-and-boosting-installation-speed).\n[pep 517]: https://www.python.org/dev/peps/pep-0517\n[pep 621]: https://www.python.org/dev/peps/pep-0621\n[pnpm]: https://pnpm.io/motivation#saving-disk-space-and-boosting-installation-speed\n## Comparisons to other alternatives\n### [Pipenv](https://pipenv.pypa.io)\nPipenv is a dependency manager that combines `pip` and `venv`, as the name implies.\nIt can install packages from a non-standard `Pipfile.lock` or `Pipfile`.\nHowever, Pipenv does not handle any packages related to packaging your code,\nso it’s useful only for developing non-installable applications (Django sites, for example).\nIf you’re a library developer, you need `setuptools` anyway.\n### [Poetry](https://python-poetry.org)\nPoetry manages environments and dependencies in a similar way to Pipenv,\nbut it can also build .whl files with your code,",
+   "frostming/marko": "# 𝓜𝓪𝓻𝓴𝓸\n> A markdown parser with high extensibility.\n[](https://pypi.org/project/marko/)\n[](https://pypi.org/project/marko/)\n[](https://marko-py.readthedocs.io/en/latest/?badge=latest)\n[][spec]\n[](https://codecov.io/gh/frostming/marko)\n[](https://www.codacy.com/app/frostming/marko?utm_source=github.com&utm_medium=referral&utm_content=frostming/marko&utm_campaign=Badge_Grade)\nMarko is a pure Python markdown parser that adheres to the specifications of [CommonMark's spec v0.31.2][spec]. It has been designed with high extensibility in mind, as detailed in the [Extensions](#extensions) section.\nMarko requires Python 3.9 or higher.\n## Why Marko\nOf all the Python markdown parsers available, a common issue is the difficulty for users to add their own features. Additionally, both [Python-Markdown][pymd] and [mistune][mistune] do not comply with CommonMark specifications. This has prompted me to develop a new markdown parser.\nMarko's compliance with the complex CommonMark specification can impact its performance. However, using a parser that does not adhere to this spec may result in unexpected rendering outcomes. According to benchmark results, Marko is three times slower than Python-Markdown but slightly faster than Commonmark-py and significantly slower than mistune. If prioritizing performance over spec compliance is crucial for you, it would be best to opt for another parser.\n[spec]: https://spec.commonmark.org/0.31.2/\n[pymd]: https://github.com/waylan/Python-Markdown\n[mistune]: https://github.com/lepture/mistune\n[cmpy]: https://github.com/rtfd/CommonMark-py\n## Use Marko\nThe installation is very simple:\n    $ pip install marko\nAnd to use it:\n```python\nimport marko\nprint(marko.convert(text))\n```\nMarko also provides a simple CLI, for example, to render a document and output to a html file:\n    $ cat my_article.md | marko > my_article.html\n## Extensions\nIt is super easy to use an extension:\n```python\nfrom marko import Markdown\nfrom marko.ext.footnote import make_extension\n# Add footnote extension\nmarkdown = Markdown(extensions=[make_extension()])\n# Or you can just:\nmarkdown = Markdown(extensions=['footnote'])\n# Alternatively you can register an extension later\nmarkdown",
+   "frostming/unearth": "# unearth\n<!--index start-->\n[](https://github.com/frostming/unearth/actions?query=workflow%3Aci)\n[](https://pypi.org/project/unearth/)\n[](https://github.com/psf/black)\n[](https://pdm-project.org)\nA utility to fetch and download python packages\n## Why this project?\nThis project exists as the last piece to complete the puzzle of a package manager. The other pieces are:\n- [resolvelib](https://pypi.org/project/resolvelib/) - Resolves concrete dependencies from a set of (abstract) requirements.\n- [unearth](https://pypi.org/project/unearth/) _(This project)_ - Finds and downloads the best match(es) for a given requirement.\n- [build](https://pypi.org/project/build/) - Builds wheels from the source code.\n- [installer](https://pypi.org/project/installer/) - Installs packages from wheels.\nThey provide all the low-level functionalities that are needed to resolve and install packages.\n## Why not pip?\nThe core functionality is basically extracted from pip. However, pip is not designed to be used as a library and hence the API is not very stable.\nUnearth serves as a stable replacement for pip's `PackageFinder` API. It will follow the conventions of [Semantic Versioning](https://semver.org/) so that downstream projects can use it to develop their own package finding and downloading.\n## Requirements\nunearth requires Python >=3.8\n## Installation\n```bash\n$ python -m pip install --upgrade unearth\n```\n## Quickstart\nGet the best matching candidate for a requirement:\n```python\n>>> from unearth import PackageFinder\n>>> finder = PackageFinder(index_urls=[\"https://pypi.org/simple/\"])\n>>> result = finder.find_best_match(\"flask>=2\")\n>>> result.best\nPackage(name='flask', version='2.1.2')\n```\nUsing the CLI:\n```bash\n$ unearth \"flask>=2\"\n{\n  \"name\": \"flask\",\n  \"version\": \"3.0.0\",\n  \"link\": {\n    \"url\": \"https://files.pythonhosted.org/packages/36/42/015c23096649b908c809c69388a805a571a3bea44362fe87e33fc3afa01f/flask-3.0.0-py3-none-any.whl\",\n    \"comes_from\": \"https://pypi.org/simple/flask/\",\n    \"yank_reason\": null,\n    \"requires_python\": \">=3.8\",\n    \"metadata\": \"https://files.pythonhosted.org/packages/36/42/015c23096649b908c809c69388a805a571a3bea44362fe87e33fc3afa01f/flask-3.0.0-py3-none-any",
+   "frostming/fxzhihu": "# Fix 知乎\n众所周知，在 2024 年的今天，非登录用户无法阅读知乎的答案，导致一些优质内容无法在互联网上分享，许多人只能选择转载或截图。\n所以，我写了这个项目，方便大家在社群里分享知乎的内容。\n## 使用方法\n在知乎里找到你想要分享的答案，复制答案的链接，将链接中的 `https://www.zhihu.com` 替换为 `https://www.fxzhihu.com` 即可。\n例如这个答案：`https://www.zhihu.com/question/586886503/answer/2922442098`\n替换后：\n```\nhttps://www.fxzhihu.com/question/586886503/answer/2922442098\n```\n问题：\n```\nhttps://www.fxzhihu.com/question/586886503\n```\n专栏文章：\n```\nhttps://zhuanlan.fxzhihu.com/p/425664231\n```\n想法\n```\nhttps://www.fxzhihu.com/pin/1802686122138144770\n```\n在 URL 末尾添加 `?redirect=false` 可以禁止跳转到知乎原贴。\n<details>\n<summary>展开：复制答案链接的方法</summary>\n找到答案底部的发布时间，复制链接即可。\n</details>\n## 支持 URL\n- [x] 答案\n- [x] 问题\n- [x] 专栏\n- [x] 想法\n## 部署\nCloudflare Workers\n## Telegram 机器人\n[@fxzhihu_bot](https://t.me/fxzhihu_bot)\n## 油猴脚本\nhttps://greasyfork.org/zh-CN/scripts/510234-zhihu-link-fixer\n## 常见问题\n### 为什么默认跳转到知乎？\n虽然 `redirect=false` 可以生成一个静态的网页允许非登录用户阅读全文，然而，这个项目主要是方便在 Telegram 中分享知乎的内容，这时 Telegram 会生成 Instant View 方便用户阅读。而用户点击链接时，通常是对原贴原作感兴趣，我希望尊重原创，所以默认重定向到知乎原链接，所以:\n**这个项目不是知乎的镜像工具，不会保存任何原创的内容。**\n---\n## 开发\n```\npnpm dev\n```\n专栏文章接口现在需要知乎的 `d_c0` cookie 参与请求签名。部署前需要用 `wrangler secret put D_C0` 配置 `d_c0` 的值；如果 `ZSE_CK` 使用完整 cookie 字符串，代码也会从中读取 `d_c0`。\n专栏链接是 `https://zhuanlan.zhihu.com/p/NUMBER`, 访问 <http://localhost:8787/p/NUMBER?redirect=no> 就能看到效果\n回答是 `https://www.zhihu.com/question/N1/answer/N2`，访问 <http://localhost:8787/question/N1/answer/N2?redirect=no> 就能看到效果\n",
+   "frostming/tetos": "# TeToS\n<!--index start-->\n[](https://pypi.org/project/tetos/)\n[](https://pypi.org/project/tetos/)\n[](https://www.apache.org/licenses/LICENSE-2.0)\n[](https://pepy.tech/project/tetos)\n[](https://tetos.readthedocs.io/latest/?badge=latest)\nA unified interface for multiple Text-to-Speech (TTS) providers.\n## Supported TTS providers\n| Provider                                                                                             | Requirements                                                                                                                                                                                                                                                      |\n| ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| [Edge-TTS](https://github.com/rany2/edge-tts)                                                        | -                                                                                                                                                                                                                                                                 |\n| [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech)                                 | `api_key`: OpenAI API key                                                                                                                                                                                                                                         |\n| [Azure TTS](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/text-to-speech) | `speech_key`: Azure Speech service key<br>`speech_region`: Azure Speech service region                                                                                                                                                                            |\n| [Google TTS](https://cloud.google.com/text-t"
+  }
+ },
+ "apps": []
+}

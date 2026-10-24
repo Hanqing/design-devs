@@ -1,0 +1,159 @@
+{
+ "name": "Simon Willison",
+ "role": "Datasette、LLM 命令行工具作者 · Django 联合创造者 · Lanyrd 联合创始人 · Python 软件基金会理事 · 加州半月湾",
+ "title": "Simon Willison：在公开场合<em>学习 AI</em>",
+ "dek": "他是英国程序员，现在住在加州半月湾，X 简介自述 He/Him。据维基百科，2003 到 2004 年他和 Adrian Holovaty、Jacob Kaplan-Moss、Wilson Miner 一起创造了 Python Web 框架 Django；毕业后在雅虎技术开发团队工作，参与早期的 Fire Eagle 地理定位服务；2008 年成为英国《卫报》的软件架构师；2010 年底与 Natalie Downe 联合创办会议目录网站 Lanyrd，获得 Y Combinator 投资，2013 年被 Eventbrite 收购。现在他全职做开源：数据探索与发布工具 Datasette（★1.2 万）和在命令行里使用大语言模型的 LLM（★1.3 万）。他从 2022 年起担任 Python 软件基金会理事。他的博客 simonwillison.net 是 AI 领域最勤奋、最被广泛引用的个人博客之一，他在 2025 年 6 月提出的「致命三要素」（lethal trifecta）成了讨论 AI Agent 安全的常用概念。",
+ "card": "Datasette、LLM 作者，Django 联合创造者，Lanyrd 联合创始人，PSF 理事；AI 博主，加州半月湾。",
+ "location": "美国加州半月湾",
+ "updated": "2026-10-23",
+ "tags": ["AI", "Python", "数据工具", "技术博客", "开源"],
+ "links": [
+  {"label": "simonwillison.net", "url": "https://simonwillison.net/"},
+  {"label": "Datasette", "url": "https://datasette.io"},
+  {"label": "LLM", "url": "https://llm.datasette.io"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Creator @datasetteproj, co-creator Django. PSF board.」",
+  "<strong>代表作：</strong>LLM（★12,660）、Datasette（★11,521）、files-to-prompt（★2,799）、shot-scraper（★2,597）、sqlite-utils（★2,180）、tools.simonwillison.net（★1,918）、claude-code-transcripts、TIL、showboat、rodney；Django（联合创造）、Lanyrd。",
+  "<strong>关键数字：</strong>X 关注者约 24.3 万、推文约 6.2 万条；GitHub 995 个公开仓库、近一年贡献 13,238 次；博客 datasette 标签 1,551 篇。",
+  "<strong>概念：</strong>「lethal trifecta」：私有数据访问、不可信内容、对外通信能力三者同时具备的 AI Agent 风险。"
+ ],
+ "lead": "2026 年 10 月 20 日，他发布了一个几乎完全用 Claude Opus 5.5 写的浏览器游戏：类似《命令与征服》的即时战略游戏 Battle Drones，还支持通过音频信号在两台设备之间联机。他提醒大家：音频联机会全程播放刺耳的高频声。当天晚上他就加上了通过一个小型 WebSocket 中继服务器的在线联机。他前一天给代码加上了 Apache 2.0 许可证，第二天就有人做出了一个带新模型、新音乐和片头动画的法语分支，「我完全没想到会这么快出现这么棒的东西」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "程序员、开源作者、博主"],
+     ["所在地", "美国加州半月湾"],
+     ["工作", "全职开发 Datasette 与相关开源项目"],
+     ["此前", "雅虎、《卫报》、Lanyrd、Eventbrite"],
+     ["社区", "Python 软件基金会理事（2022–）"],
+     ["技术栈", "Python、SQLite、JavaScript、Go"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Simon 的主业是 <strong>Datasette 与 LLM 工具链</strong>：Datasette 把 SQLite 数据库变成可以浏览、查询和发布的网站与 API；LLM 让你在命令行和 Python 里调用各家模型，配有大量插件；sqlite-utils、shot-scraper 等工具围绕它们组成一个生态。他在 tools.simonwillison.net 上放了一大批「几乎完全由 LLM 生成」的小工具，比如 2026 年 10 月用 Claude 做的「Quick Study」。"},
+    {"p": "他也是 AI 领域最勤奋的<strong>公共笔记作者</strong>：每有新模型发布，他都会写测试笔记（他的固定测试是让模型画「骑自行车的鹈鹕」SVG）；他持续追踪提示注入和 Agent 安全；也会引用和点评别人的观点，比如 Armin Ronacher 的帖子。"},
+    {"note": "本页依据维基百科 Simon Willison 条目、simonwillison.net（关于页与文章）、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2003–2004", "title": "Django", "text": "与 Adrian Holovaty 等人在报社工作时创造 Django。"},
+     {"when": "2005–2008", "title": "雅虎与咨询", "text": "雅虎技术开发团队、Fire Eagle；OpenID 与 Web 开发咨询。"},
+     {"when": "2008", "title": "《卫报》", "text": "成为软件架构师。"},
+     {"when": "2010–2013", "title": "Lanyrd", "text": "联合创办会议目录网站，获 YC 投资，2013 年被 Eventbrite 收购。"},
+     {"when": "2017", "title": "Datasette", "text": "发布数据探索与发布工具。"},
+     {"when": "2022–2026", "title": "AI 与 PSF", "text": "PSF 理事；2023 年发布 LLM 工具；2025 年提出「lethal trifecta」。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Datasette", "url": "https://datasette.io",
+     "meta": ["2017–", "Python", "★1.2 万"],
+     "paras": [
+      "「An open source multi-tool for exploring and publishing data」数据记者和研究者用它把数据集一键发布成可查询的网站。"
+     ],
+     "facts": [["GitHub", "★11,521"]]
+    }},
+    {"work": {
+     "name": "LLM", "url": "https://llm.datasette.io",
+     "meta": ["2023–", "Python", "★1.3 万"],
+     "paras": [
+      "「Access large language models from the command-line」所有对话自动记录到 SQLite，插件支持数十家模型服务和本地模型。"
+     ],
+     "facts": [["GitHub", "★12,660"]]
+    }},
+    {"work": {
+     "name": "Django", "url": "https://www.djangoproject.com",
+     "meta": ["2003–", "Python", "联合创造"],
+     "paras": [
+      "「为有截稿期限的完美主义者准备的 Web 框架」，诞生于报社的新闻开发工作。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["sqlite-utils", "操作 SQLite 的命令行与 Python 库（★2,180）"],
+      ["shot-scraper", "网页截图、录屏与抓取（★2,597）"],
+      ["files-to-prompt", "把整个目录拼成一个提示词（★2,799）"],
+      ["TIL", "「今天我学到了」笔记库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://simonwillison.net/", "paras": [
+     "simonwillison.net 从 2002 年写到现在，内容分为文章、链接、引用、笔记、指南和「Elsewhere」，每篇都有标签，按标签就能看到他对某个主题多年的追踪。他每天会发多条内容，还有一份 Substack 周报。网站托管在 Cloudflare 上，有赞助位。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["历史", "2002 年至今"],
+      ["结构", "文章、链接、引用、笔记、指南"],
+      ["节奏", "每天多条"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "When I slapped an Apache 2.0 License on the code yesterday I did not expect anything this neat to come out of it, and certainly not so fast", "cite": "Simon Willison，X，2026-10"},
+    {"p": "他评价新模型时很具体：Kimi K3.1 是「第一次一个（即将）开放权重的模型如此可信地与当前前沿模型竞争」。他也乐于公开提问，比如在 60 GB 内存里跑哪个开放权重的混合专家模型写代码最好。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["写作", "极其勤奋、信息密度高", "更新量大，需按标签筛选"],
+      ["工具", "Datasette、LLM 生态完整", "—"],
+      ["安全", "长期追踪提示注入风险", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>在公开场合学习，</strong>把每次实验写下来。",
+     "<strong>用固定的小测试比较模型。</strong>",
+     "<strong>小工具也值得发布。</strong>",
+     "<strong>给代码加上开源许可证，</strong>惊喜就会发生。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "LLM", "url": "https://llm.datasette.io", "why": "在命令行里用任何模型。"},
+     {"name": "tools.simonwillison.net", "url": "https://tools.simonwillison.net", "why": "看 AI 生成的小工具能做什么。"},
+     {"name": "simonwillison.net", "url": "https://simonwillison.net/", "why": "跟进 AI 的每日笔记。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "装上 LLM 工具，用三个不同的模型回答同一个问题，然后用 llm logs 看看记录。",
+ "sources": [
+  {"label": "Simon Willison 的 X 个人资料", "url": "https://x.com/simonw"},
+  {"label": "维基百科：Simon Willison", "url": "https://en.wikipedia.org/wiki/Simon_Willison"},
+  {"label": "simonwillison.net：About", "url": "https://simonwillison.net/about/"},
+  {"label": "GitHub：simonw", "url": "https://github.com/simonw"},
+  {"label": "Datasette", "url": "https://datasette.io"}
+ ]
+}

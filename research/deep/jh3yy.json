@@ -1,0 +1,426 @@
+{
+ "handle": "jh3yy",
+ "sites": [
+  {
+   "url": "http://jhey.dev",
+   "ok": true,
+   "title": "Jhey Tompkins",
+   "description": "Making your ideas click. Jhey Tompkins is the one who crafts. Design Engineer, Craftsman, Speaker, Educator.",
+   "stack": [
+    "Astro",
+    "Vercel Analytics"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Jhey Tompkins \nDesigner · Engineer · Tastemaker\nBrand Design Studio @ Shopify\nCrafting interfaces, prototypes , and experiments for the web. Known for making complex ideas approachable, that leave you wondering, “ Wait, how did you do that? ”. I speak at conferences around the world. Worked at Google and Vercel. \n Index \n·\n Email \n·\n AMA \n·\n Follow \nLatest \n Echo Fluid \n Holo stickers \n Hyperspace Button \n Knockout Video Card \n Progressive blur cards View all",
+   "github_links": [
+    "jh3y"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "jh3y",
+  "user": {
+   "name": "Jhey Tompkins",
+   "company": "Brand Design Studio @shopify 👨‍🍳",
+   "blog": "jhey.dev",
+   "location": "Null Island",
+   "bio": "You bring ideas, I show you how to build them 🚀✨ ʕ　·ᴥ·ʔ",
+   "public_repos": 144,
+   "followers": 3431,
+   "created_at": "2011-06-10T14:03:45Z",
+   "twitter_username": "jh3yy",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "jh3y/whirl",
+    "description": "CSS loading animations with minimal effort!",
+    "stargazers_count": 1836,
+    "forks_count": 249,
+    "language": "SCSS",
+    "homepage": "https://whirl.netlify.app",
+    "created_at": "2014-02-22T02:19:51Z",
+    "pushed_at": "2023-01-03T17:33:53Z",
+    "topics": [
+     "animation",
+     "css",
+     "css-loading-animations",
+     "hacktoberfest",
+     "hacktoberfest2020",
+     "loader",
+     "loading",
+     "loading-animation",
+     "loading-animations",
+     "loading-bar",
+     "loading-indicator",
+     "loading-screen",
+     "loading-spinner",
+     "loading-spinners",
+     "progress",
+     "pseudo-elements",
+     "spinner",
+     "spinners",
+     "whirl"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/tyto",
+    "description": "manage and organise things",
+    "stargazers_count": 678,
+    "forks_count": 74,
+    "language": "JavaScript",
+    "homepage": "https://jh3y.github.io/tyto",
+    "created_at": "2013-12-06T20:23:30Z",
+    "pushed_at": "2023-01-11T22:29:13Z",
+    "topics": [
+     "backbone",
+     "backbone-marionette",
+     "backbonejs",
+     "gulp",
+     "javascript",
+     "localstorage",
+     "marionette",
+     "mvc",
+     "mvvm",
+     "organisation",
+     "todo",
+     "todo-app",
+     "tyto"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/ep",
+    "description": "enhance your HTML5 progress bars with minimal effort!",
+    "stargazers_count": 642,
+    "forks_count": 46,
+    "language": "JavaScript",
+    "homepage": "http://jh3y.github.io/ep",
+    "created_at": "2014-02-06T19:43:54Z",
+    "pushed_at": "2017-10-22T18:57:50Z",
+    "topics": [
+     "css-helper",
+     "html5",
+     "html5-elements",
+     "html5-progress",
+     "js-helpers",
+     "progress-bar",
+     "progressbar"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/driveway",
+    "description": "pure CSS masonry layouts",
+    "stargazers_count": 638,
+    "forks_count": 85,
+    "language": "HTML",
+    "homepage": "https://jh3y.github.io/driveway",
+    "created_at": "2016-01-21T00:30:36Z",
+    "pushed_at": "2017-09-05T22:19:26Z",
+    "topics": [
+     "cluster",
+     "css",
+     "css-masonry-layouts",
+     "css3",
+     "html",
+     "html5",
+     "layout",
+     "layout-engine",
+     "layouts",
+     "masonry",
+     "panel",
+     "segment",
+     "ui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/vincent-van-git",
+    "description": "Use your Github commit history as a canvas! ",
+    "stargazers_count": 312,
+    "forks_count": 24,
+    "language": "JavaScript",
+    "homepage": "https://vincent-van-git.netlify.app",
+    "created_at": "2020-10-12T16:14:32Z",
+    "pushed_at": "2025-12-29T17:22:47Z",
+    "topics": [
+     "electron",
+     "electron-app",
+     "hacktoberfest",
+     "javascript",
+     "node",
+     "nodejs",
+     "react",
+     "reactjs"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/lid-plane",
+    "description": "Your MacBook has the folding animation at home. A lid-angle-driven progressive blur for macOS.",
+    "stargazers_count": 242,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-09-10T15:43:38Z",
+    "pushed_at": "2026-09-13T15:39:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/meanderer",
+    "description": "A JavaScript micro-library for responsive CSS motion paths! :sparkles:",
+    "stargazers_count": 222,
+    "forks_count": 6,
+    "language": "JavaScript",
+    "homepage": "https://meanderer.netlify.com",
+    "created_at": "2020-03-28T15:32:33Z",
+    "pushed_at": "2023-01-05T17:34:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/gulp-boilerplate",
+    "description": "a simple gulp boilerplate",
+    "stargazers_count": 145,
+    "forks_count": 31,
+    "language": "JavaScript",
+    "homepage": "https://jh3y.github.io/gulp-boilerplate",
+    "created_at": "2014-04-11T01:09:23Z",
+    "pushed_at": "2018-11-12T09:52:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/kody",
+    "description": ".files and environment configuration manager created with node",
+    "stargazers_count": 140,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2014-05-16T04:15:14Z",
+    "pushed_at": "2022-12-02T07:32:08Z",
+    "topics": [
+     "cli-app",
+     "dotfile",
+     "dotfiles",
+     "dotfiles-automation",
+     "dotfiles-install",
+     "dotfiles-installer",
+     "dotfiles-manager",
+     "dotfiles-resources",
+     "dotfiles-setup",
+     "javascript",
+     "nodejs",
+     "osx",
+     "symlink-files",
+     "utility"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/doormat",
+    "description": "Let's take a scroll!",
+    "stargazers_count": 110,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": "https://jh3y.github.io/doormat",
+    "created_at": "2014-03-03T08:53:00Z",
+    "pushed_at": "2017-08-07T16:18:12Z",
+    "topics": [
+     "css",
+     "doormat",
+     "layout",
+     "site-navigation",
+     "ui",
+     "ux"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/jh3y",
+    "description": null,
+    "stargazers_count": 85,
+    "forks_count": 346,
+    "language": null,
+    "homepage": null,
+    "created_at": "2020-07-19T03:19:17Z",
+    "pushed_at": "2026-05-27T22:41:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/pxl",
+    "description": "A React app for drawing pixel art",
+    "stargazers_count": 76,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": "https://pxl.netlify.app",
+    "created_at": "2020-06-06T12:04:15Z",
+    "pushed_at": "2023-01-05T21:03:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/osaka-card",
+    "description": null,
+    "stargazers_count": 65,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": "https://osaka-card.vercel.app",
+    "created_at": "2024-04-19T22:36:29Z",
+    "pushed_at": "2024-09-22T22:40:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/tips",
+    "description": "CSS tooltips!",
+    "stargazers_count": 48,
+    "forks_count": 7,
+    "language": "CSS",
+    "homepage": "http://jh3y.github.io/tips",
+    "created_at": "2014-06-28T12:11:28Z",
+    "pushed_at": "2015-03-31T23:34:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/a-guide-to-css-animation",
+    "description": "Demo code for \"A Guide to CSS Animation\" ",
+    "stargazers_count": 46,
+    "forks_count": 12,
+    "language": "CSS",
+    "homepage": "https://medium.com/@jh3y/a-guide-to-css-animation-part-1-8777f5beb1f8",
+    "created_at": "2018-06-07T19:32:10Z",
+    "pushed_at": "2022-02-12T13:37:58Z",
+    "topics": [
+     "animation",
+     "css",
+     "css-animation",
+     "css-animation-effects",
+     "css-animation-timmings",
+     "css-animations"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/use-caret-position",
+    "description": "A custom React hook for grabbing the caret position in a text input.",
+    "stargazers_count": 37,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "https://use-caret-position.netlify.app/",
+    "created_at": "2020-10-27T18:43:29Z",
+    "pushed_at": "2022-08-05T03:07:50Z",
+    "topics": [
+     "caret",
+     "dom",
+     "dom-manipulation",
+     "hacktoberfest",
+     "hooks",
+     "hooks-api-react",
+     "react",
+     "reactjs",
+     "ui",
+     "ui-components"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/parcel-boilerplate",
+    "description": "a boilerplate for using Parcel JS :sunglasses:",
+    "stargazers_count": 30,
+    "forks_count": 3,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2018-02-12T19:22:10Z",
+    "pushed_at": "2018-02-13T05:41:04Z",
+    "topics": [
+     "boilerplate",
+     "javascript",
+     "parcel-boilerplate",
+     "parcel-bundler",
+     "parceljs"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jh3y/culr",
+    "description": "color search engine",
+    "stargazers_count": 29,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "https://culr.netlify.app",
+    "created_at": "2020-07-14T15:13:38Z",
+    "pushed_at": "2023-01-06T13:54:07Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 99,
+  "languages": [
+   [
+    "JavaScript",
+    60
+   ],
+   [
+    "CSS",
+    8
+   ],
+   [
+    "HTML",
+    6
+   ],
+   [
+    "TypeScript",
+    5
+   ],
+   [
+    "Astro",
+    3
+   ],
+   [
+    "Python",
+    3
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "SCSS",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "jh3y/ama",
+    "stargazerCount": 8,
+    "description": "ask me anything",
+    "primaryLanguage": null,
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 12319,
+  "orgs": [
+   "shiftbear"
+  ],
+  "profile_readme": "[![spinning gem](https://github.com/jh3y/jh3y/raw/master/assets/gem.svg)](https://jhey.dev)\n",
+  "readmes": {
+   "jh3y/ama": "# ama\nhey 👋 ʕ•ᴥ•ʔ\nthis repo is a place to:\n- ask me questions\n- request UI demos or breakdowns\n- suggest topics for Craft of UI\n- talk about design engineering, CSS, motion, prototyping, tooling, workflow, etc.\n- share interesting UI patterns or experiments\n…or just ask random stuff like:\n- tools I use\n- workflow habits\n- my training split\n- keyboard/setup gear\n- how I approach learning\n- what's inspiring me lately\npretty much anything 🤙\n## before posting\na few quick notes:\n- search existing issues first — your question might already have an answer\n- keep requests specific when possible\n- context helps a lot (screenshots, videos, links, code snippets, references, etc.)\n- i can't promise i'll answer everything, but i do read through them\n## good questions\nexamples of things that work well:\n- “how would you approach recreating this interaction?”\n- “can you break down this motion pattern?”\n- “would love a demo showing how to build X”\n- “how do you think about balancing accessibility with heavy motion?”\n- “could you explain why this UI feels ‘off’?”\n- “what keyboard are you using lately?”\n- “what’s your current training split?”\n- “how do you structure UI prototypes?”\n## what this isn't\nthis repo isn't really for:\n- bug reports on unrelated projects\n- private support requests\n- consultation requests\n- mentorship requests\n- ai-generated slop prompts\n- generic “how do i become successful?” questions with no context\n_that said, if you're clever about your requests, you can probably get quite a bit out of me for free..._\n## how to ask\nopen an issue using one of the templates:\n- question\n- demo request\n- topic suggestion\n## elsewhere\n- X/Twitter: [@jh3yy](https://x.com/intent/follow?screen_name=jh3yy)\n- CodePen: [jh3y](https://codepen.io/jh3y)\n- Craft of UI: coming soon™\nthanks for stopping by ʕᵔᴥᵔʔ\n",
+   "jh3y/whirl": "[](https://travis-ci.org/jh3y/whirl)\n[](https://app.netlify.com/sites/whirl/deploys)\n<!-- DROP SOME TRAVIS AND NETLIFY GOODIES HERE -->\n# Whirl\n## CSS loading animations with minimal effort!\n[](https://raw.github.com/jh3y/pics/master/whirl/whirl.gif)\n`whirl` is a curation of CSS loading animations(whirls! 😅). It started as a drop in `CSS` file to get easy animations using `:pseudo` elements. It's now a collection of loading animations to use, take inspiration from, change and do what you want with 👍\n### No CSS distro?\nIt's inefficient. It's likely an app will only use one or two loaders. Pulling them all into an app would be overkill. Most projects use some form of bundling making it possible to import a single loader's styles.\n### Usage\nYou've got different options here.\nYou can install `whirl` and import the styles you want. You get both CSS and SASS files 👍\n```shell\nnpm i @jh3y/whirl\nyarn add @jh3y/whirl\n```\nAlternatively, you can grab the [CSS or SASS](https://github.com/jh3y/whirl/tags) and change to your needs. There's a dynamic link in the demo. Or visit the latest versions tag branch 👍\n⚠️ Be aware that if you're bundling, you'll likely have to override some styles. Be careful with conflicting classnames or animation names.\n### Contributing\nSee [`CONTRIBUTING`](https://github.com/jh3y/whirl/blob/master/.github/CONTRIBUTING.md).\n---\n@jh3y 🐻 2019\n",
+   "jh3y/tyto": "[](https://travis-ci.org/jh3y/tyto)\ntyto \n===\n__tyto__ is an extensible and customizable management and organisation tool\njust visit [jh3y.github.io/tyto](http://jh3y.github.io/tyto)!\n### Features\n* minimal UI\n* no accounts necessary\n* intuitive\n* extensible\n* localStorage persistence\n* time tracking\n* sortable UI\n* task linking\n* Markdown support\n* etc.\n### Why tyto? What's it for?\nTyto arose from the want for an electronic post-it board without the need for accounts. Something simple and intuitive that could be easily shared.\nIt's also the product of my own curiosity being used as an opportunity to pick up new tech stacks. It started as a vanilla JS app utilising one file and experimenting with HTML5 drag and drop. It then grew a little more, and a little more after that. Now it uses Backbone w/ Marionette. The next step? Most likely Angular 2.0 or React.\nIn truth, most organisations have some form of tool for what Tyto is doing. In my experience though, they can be cumbersome, clunky and just a bit noisy. Some employees tend to dislike internal tools. You still see whiteboards and walls plastered in sticky notes.\nThis is where Tyto came from, It's my personal intuitive and minimal TodoMVC. No accounts necessary and the source isn't too hard to grasp making it rather easy to extend and customise.\n### Who's it for?\nDeveloper and project managers were the original target audience. A means to share project progression on a more _personal_ level. As opposed to publicly through an internal system. Almost like a complimentary attachment to an email.\nThere are no restrictions though, it's open source. Not quite right out of the box? Change it :smile:\nExtensibility provides a means to create a bespoke version based on theme or functionality.\nTyto is a personal pet of mine and if it can help others, that's great!\n###Using tyto\nJust want to use it? Do that by visiting [jh3y.github.io/tyto](http://jh3y.github.io/tyto).\nGitHub flavored markdown is supported thanks to `marked`.\nThis also enables you to link to boards, columns and other tasks by using the `#` character\nChanges are persistent thanks to `localStorage`.\nWant to move to a different browser or machine though? Us",
+   "jh3y/ep": "[](https://travis-ci.org/jh3y/ep)\n## enhance your HTML5 `<progress>` bars with minimal effort!\nThe `<progress>` element doesn't always play nice.\nIt doesn't have a consistent appearance across the popular browsers. In addition, different browsers impose different limitations on the `<progress>` element.\nBecause of this, it's often overlooked in favor of styled `<div>` combos.\n`ep` tackles this;\n* Cross browser reset and styling to pull `<progress>` element in line with modern slim-style bars\n* CSS helpers that provide classes and attributes to deal with things like positioning, growth style, simulation etc.\n* Optional JS helper for better control and interaction with `<progress>` elements. For example; being able to hook into network request status and display this to the end user.\n* Plays nice wherever the `<progress>` element is supported!\n```js\n  const myEp = new Ep(document.querySelector('progress'));\n  const makeRequest = () => {\n    myEp.simulate();\n    const xhttp = new XMLHttpRequest();\n    xhttp.onreadystatechange = function() {\n      if (this.readyState == 4 && this.status == 200) {\n        myEp.complete();\n      }\n    };\n    xhttp.open('GET', '/index.html', true);\n    xhttp.send();\n  };\n  (myEp._VALUE) ? myEp.set(0, makeRequest) : makeRequest();\n```\n## Index\n* [Browser support](https://github.com/jh3y/ep#browser-support)\n  * [Caveats](https://github.com/jh3y/ep#caveats)\n* [Usage](https://github.com/jh3y/ep#usage)\n  * [Install](https://github.com/jh3y/ep#install)\n  * [Just using the stylesheet](https://github.com/jh3y/ep#just-using-the-stylesheet)\n  * [Including the optional JS helper](https://github.com/jh3y/ep#including-the-optional-js-helper)\n  * [Integrating with your own SASS files](https://github.com/jh3y/ep#integrating-with-your-own-sass-files)\n  * [CSS Helpers Api](https://github.com/jh3y/ep#css-helpers-api)\n    * [Aesthetic helpers](https://github.com/jh3y/ep#aesthetic-helpers)\n    * [Behavioural helpers](https://github.com/jh3y/ep#behavioural-helpers)\n    * [Sass variables](https://github.com/jh3y/ep#sass-variables)\n    * [Sass mixin](https://github.com/jh3y/ep#sass-mixin)\n  * [Javascript Helper Api](https://github.com/jh3y/ep#javascript-help",
+   "jh3y/driveway": "\ndriveway\n===\npure CSS masonry layout aid\n`driveway` is an explorative project for developing pure CSS masonry layouts. It is developed using `stylus`.\n* easy to use\n* interactive\n* responsive\n* config driven\n* customisable\n* extendable\n```html\n<div class=\"dw\">\n  <div class=\"dw-panel \">\n    <div class=\"dw-panel__content\">\n      <p>Some content.</p>\n    </div>\n  </div>\n</div>\n```\n## _\"I just want a copy\"_\nYou may have come here from the [blog post](https://medium.com/@_jh3y/how-to-pure-css-masonry-layouts-a8ede07ba31a#.9v5aqxclp) I wrote about pure CSS masonry layouts. If that's the case and you want the exact code I used in that post(_with vendor prefixing_), you'll be best served looking in the `dist` folder for `driveway.blog.css` and `driveway.blog.min.css`. Alternatively, use `bower` to pull in the repo.\n## browser support\n| Chrome  | Firefox | Safari  | Opera   | Edge    | IE       |\n|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|\n| :smile: | :smile: | :smile: | :smile: | :smile: | :sweat:* |\n__*__ _`driveway` will play nice in `IE10+`_\n`driveway` relies on Flexbox and multi-column layout properties. For further details on browser support for these check out [caniuse.com](http://caniuse.com).\n## usage\nIn order to start using  `driveway`, drop the `driveway{.min}.css` file into your page and start building your markup.\n`driveway` simply provides the basic means to layout your content in a masonry style and provides no aesthetic styling. This should ideally be covered by your own `theme` files. There are some notes about theming below.\nIf you would like a similar theme to that used in the [demo](http://jh3y.github.io/driveway), check out the `theme.styl` file in the sources.\n### anatomy\n`driveway` is built up of different blocks;\n* `container`\n* `panels`\n* `clusters`\n* `segments`\n* `flip panels(optional)`\n* `focus curtain(optional)`\nBelow is an explanation of these blocks. It may be easier to inspect the [demo](http://jh3y.github.io/driveway) page or source in the repo to get a further understanding of how these piece together.\n#### layout container\nWe start our layout with a container;\n```html\n<div class=\"dw\"></div>\n```\n##### class reference\n*"
+  }
+ },
+ "apps": []
+}

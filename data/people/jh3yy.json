@@ -1,0 +1,159 @@
+{
+ "name": "Jhey Tompkins",
+ "role": "Design Engineer · Shopify Brand Design Studio · 前 Google Chrome DevRel、Vercel",
+ "title": "Jhey Tompkins：<em>「等等，这是怎么做到的？」</em>",
+ "dek": "他的 X 简介写着「designing interfaces. engineering experiences. many can build it. few can explain it.」他是网页创意交互圈最高产的人之一：在 X 上发了将近五万条帖子，几乎每天一个用 CSS、JavaScript、WebGL 或 Web Audio 做的小实验。他做过多年 Web 外包，客户包括 Monzo、Eurostar、Nike 和 Uber；后来在 Google 做 Chrome 的开发者关系工程师，再到 Vercel 做设计工程，现在在 Shopify 的品牌设计工作室。他把这些实验拆解成教程，放在「Craft of UI」上。",
+ "card": "Shopify 品牌设计工作室；前 Google Chrome DevRel、Vercel；CSS 与交互实验高产作者，Craft of UI。",
+ "location": "未公开（X 写着 null island）",
+ "updated": "2026-10-23",
+ "tags": ["CSS", "创意编程", "Design Engineering", "动效", "教学"],
+ "links": [
+  {"label": "jhey.dev", "url": "https://jhey.dev"},
+  {"label": "Craft of UI", "url": "https://craftofui.dev"},
+  {"label": "CodePen：jh3y", "url": "https://codepen.io/jh3y"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>个人网站「Designer · Engineer · Tastemaker」「以把复杂的想法讲得平易近人著称，让人看完忍不住问：等等，这是怎么做到的？」",
+  "<strong>代表作：</strong>whirl CSS 加载动画（★1,836）、纯 CSS 瀑布流 driveway、把 GitHub 贡献图当画布的 vincent-van-git、macOS 合盖角度驱动的渐进模糊 lid-plane、数百个 CodePen 与原型。",
+  "<strong>关键数字：</strong>X 关注者约 14.8 万、帖子 4.9 万条；GitHub 近一年贡献 12,319 次；jhey.dev 上 2026 年的原型就有几十个。",
+  "<strong>经历：</strong>Web 外包（Monzo、Eurostar、Nike、Uber）→ Google Chrome DevRel → Vercel → Shopify Brand Design Studio。"
+ ],
+ "lead": "2026 年 10 月的一周里，Jhey 发了这些东西：一组带有不同材质、声音和磨损痕迹的贴纸，可以用 CSS 或 WebGL 实现；一个用 Web Audio 在浏览器里搓碟的唱片机；一个靠交错 CSS 遮罩做出的噪点揭示对话框，还附上拆解图；一群小鸟，靠太近就会飞走。他说：「不要怕在作品里展示个性。网页值得比『千禧灰』更好的东西。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计工程师、讲师、会议演讲者"],
+     ["现任", "Shopify Brand Design Studio"],
+     ["经历", "多年 Web 开发与外包 → Google（Chrome 开发者关系工程师）→ Vercel → Shopify"],
+     ["教学", "Craft of UI、Chrome for Developers 文章、会议演讲"],
+     ["技术栈", "CSS、JavaScript、WebGL、Web Audio、Astro、Swift"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Jhey 的工作方式是<strong>先做出来，再讲清楚</strong>。他几乎每天把一个界面想法做成可以玩的原型：全息贴纸、超空间按钮、渐进模糊卡片、分格翻牌显示屏、数字拨盘，然后录屏、发帖，常常附上一段核心 CSS。比如用 <code>mix-blend-mode: multiply</code> 做镂空文字，这条帖子收获了两千多个赞。"},
+    {"p": "Craft of UI 是这些实验的系统化版本：不是一门固定的课，而是不断增长的作品库。每个条目从一个真实界面出发，拆解哪些重要、哪些不重要、约束从哪里来，以及结构、行为和动效如何共同决定结果。"},
+    {"note": "本页依据 jhey.dev、craftofui.dev、GitHub、SmashingConf 2022 讲者介绍和 X 帖子整理，资料截至 2026 年 10 月。他在各家公司的起止时间没有公开，本页只写顺序；家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011–2016", "title": "前端小工具", "text": "注册 GitHub；发布 tyto 看板、ep 进度条、whirl 加载动画、driveway 纯 CSS 瀑布流等。"},
+     {"when": "外包时期", "title": "为大公司做网页", "text": "SmashingConf 介绍称他为 Monzo、Eurostar、Nike、Uber 等客户工作过。"},
+     {"when": "约 2022", "title": "Google", "text": "作为 Chrome 开发者关系工程师写文章、做演讲，推广新的 CSS 能力。"},
+     {"when": "约 2024", "title": "Vercel", "text": "在 Vercel 做设计工程，并在 Config 2024 演讲「从设计到工程」。"},
+     {"when": "2025–2026", "title": "Shopify 与 Craft of UI", "text": "加入 Shopify 品牌设计工作室；持续更新 Craft of UI 和个人原型库。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Craft of UI", "url": "https://craftofui.dev",
+     "meta": ["教程库", "持续更新"],
+     "paras": [
+      "「能复刻一个界面不是目标，理解它为什么成立才是。」网站强调先用足 HTML 和 CSS，只在真正有价值时引入 JavaScript，只在确实能走得更远时才用库。"
+     ]
+    }},
+    {"work": {
+     "name": "jhey.dev 原型库", "url": "https://jhey.dev/index",
+     "meta": ["2026", "数十个原型"],
+     "paras": [
+      "按年份整理的原型目录：echo-fluid、holo-stickers、split-flap、number-roll、liquid-membrane、reaction-picker……甚至有跑在 ESP32 开发板上的粒子模拟和魔力八号球。"
+     ]
+    }},
+    {"work": {
+     "name": "whirl", "url": "https://whirl.netlify.app",
+     "meta": ["2014–", "SCSS", "★1.8 千"],
+     "paras": [
+      "一组 CSS 加载动画。最初是一个直接引入的 CSS 文件，用伪元素实现；后来改成可以按需导入单个动画，避免把所有动画都打进项目。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["lid-plane", "2026", "用 MacBook 合盖角度驱动渐进模糊的 macOS 小玩具（Swift，★242）"],
+      ["vincent-van-git", "2020", "把 GitHub 提交记录当像素画布（★312）"],
+      ["meanderer", "2020", "响应式 CSS 运动路径微型库"],
+      ["driveway", "2016", "纯 CSS 瀑布流布局（★638）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://jhey.dev", "paras": [
+     "首页只有一句定位、几个最新原型和链接：Index、Email、AMA。Index 是一棵目录树，每个原型都是独立的静态页面，可以直接打开玩。",
+     "他用 GitHub 上的 ama 仓库接收提问：可以请他拆解某个交互，也可以问他的工具、习惯和训练计划。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Vercel 托管"],
+      ["结构", "极简首页 + 原型目录"],
+      ["互动", "GitHub AMA 仓库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "taste without creative risk eventually becomes conformity", "cite": "Jhey Tompkins，X，2026-10"},
+    {"p": "他也写到工具的两面：工具要么降低你交付的门槛，要么抬高你能做出的上限。他说自己从来没有能同时探索这么多想法，又这么在意细节。他的建议简单直接：「post like nobody’s watchin’」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["创意", "原型产出极高，题材多样", "很多实验依赖新浏览器特性，兼容性需自行评估"],
+      ["教学", "擅长拆解和讲解", "—"],
+      ["开源", "早年小工具多", "多数老仓库已不再维护"],
+      ["公开信息", "作品丰富", "职业时间线公开较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>每天做一个小东西：</strong>积累比灵感更可靠。",
+     "<strong>能做出来，还要能讲清楚：</strong>拆解图和代码片段很重要。",
+     "<strong>先用平台：</strong>HTML 和 CSS 能做的，不急着上库。",
+     "<strong>敢于有个性：</strong>别让作品变成千篇一律的灰。",
+     "<strong>公开发：</strong>就当没人在看。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "jhey.dev/index", "url": "https://jhey.dev/index", "why": "挑几个原型玩一玩。"},
+     {"name": "Craft of UI", "url": "https://craftofui.dev", "why": "看他如何拆解一个界面。"},
+     {"name": "CodePen：jh3y", "url": "https://codepen.io/jh3y", "why": "多年的 CSS 实验都能看源码。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "今天花半小时，用 CSS 给你网站上的一个按钮加点个性，录个视频发出去。",
+ "sources": [
+  {"label": "Jhey 的 X 个人资料", "url": "https://x.com/jh3yy"},
+  {"label": "jhey.dev", "url": "https://jhey.dev"},
+  {"label": "Craft of UI", "url": "https://craftofui.dev"},
+  {"label": "SmashingConf SF 2022 讲者介绍", "url": "https://smashingconf.com/sf-2022/speakers/jhey-tompkins/"},
+  {"label": "GitHub：jh3y", "url": "https://github.com/jh3y"},
+  {"label": "GitHub：jh3y/ama", "url": "https://github.com/jh3y/ama"}
+ ]
+}

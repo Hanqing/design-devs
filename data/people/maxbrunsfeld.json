@@ -1,0 +1,158 @@
+{
+ "name": "Max Brunsfeld",
+ "role": "Tree-sitter 作者 · Zed 联合创始人 · 前 GitHub Atom 团队 · counterfeiter 作者",
+ "title": "Max Brunsfeld：让编辑器<em>真正读懂代码</em>",
+ "dek": "他住在俄勒冈州波特兰，是 Tree-sitter 的作者。Tree-sitter 是一个解析器生成器和增量解析库：它能为源文件建立具体语法树，并在你每次敲键时高效地更新它。今天，Neovim、Helix、Zed、GitHub 的代码导航和无数工具都用它来做语法高亮、代码折叠和结构化编辑，GitHub 上有 2.7 万颗星。他在 GitHub 时是 Atom 团队成员，Tree-sitter 最早就是为 Atom 写的；之后他和 Nathan Sobo 联合创办了 Zed。他还写过 Go 测试替身生成器 counterfeiter（★1,144），以及 Vim 插件 vim-yankstack。业余时间他玩音乐和攀岩。",
+ "card": "Tree-sitter（★2.7 万）作者，Zed 联合创始人（波特兰）；前 GitHub Atom 团队，counterfeiter 作者。",
+ "location": "美国俄勒冈州波特兰",
+ "updated": "2026-10-23",
+ "tags": ["解析器", "代码编辑器", "Rust", "开发工具", "开源"],
+ "links": [
+  {"label": "Tree-sitter", "url": "https://tree-sitter.github.io/tree-sitter/"},
+  {"label": "Zed", "url": "https://zed.dev"},
+  {"label": "GitHub：maxbrunsfeld", "url": "https://github.com/maxbrunsfeld"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「@zeddotdev co-founder. Tree-sitter creator. Musician. Boulderer.」",
+  "<strong>代表作：</strong>Tree-sitter（★27,264）、Zed（联合创始人）、counterfeiter（★1,144）、vim-yankstack（★441）、tree-tags、node-flame-graph、llama-rs。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 2,000、77 个公开仓库。",
+  "<strong>Zed 里的工作：</strong>语言扩展、编辑预测（与 Baseten 合作）、Delta。"
+ ],
+ "lead": "Tree-sitter 的 README 列出它的目标：足够通用，能解析任何编程语言；足够快，能在文本编辑器里每敲一个键就解析一次；足够健壮，即使有语法错误也能给出有用的结果；没有依赖，用纯 C 写的运行时库可以嵌进任何应用。正是这四点，让它从 Atom 的一个子项目变成了整个开发工具生态的基础设施。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "工程师、创始人"],
+     ["所在地", "美国俄勒冈州波特兰"],
+     ["经历", "GitHub（Atom 团队）→ Zed 联合创始人（2021–）"],
+     ["开源", "Tree-sitter 及多种语言语法、counterfeiter、vim-yankstack"],
+     ["爱好", "音乐、攀岩"],
+     ["技术栈", "Rust、C、JavaScript、Go、Ruby"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Max 的核心工作是<strong>让工具理解代码结构</strong>。Tree-sitter 给编辑器的不是一串彩色的字符，而是一棵随编辑实时更新的语法树：编辑器可以据此选中整个函数、按结构折叠、查找符号，甚至让 Agent 更准确地理解上下文。他在 2024 年写过一篇博客，介绍如何给 Zed 加语言扩展，他说那是他很久以来给 Tree-sitter 加的最酷的功能之一。"},
+    {"p": "在 Zed，他参与了编辑预测模型的迭代（与推理平台 Baseten 合作），以及 2026 年的 Delta：一个摆脱 Pull Request 局限的协作开发流程。他说团队在过去几个月里已经全面切换到了 Delta。"},
+    {"note": "本页依据 Tree-sitter 与 Zed 的 GitHub 仓库和 README、zed.dev 和 X 帖子整理，资料截至 2026 年 10 月。家庭信息未收录；他在 GitHub 的具体年份未公开。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011–2014", "title": "Vim 与测试", "text": "vim-yankstack、vim-emacs-bindings、vimbot；2014 年写 Go 测试替身生成器 counterfeiter。"},
+     {"when": "GitHub 时期", "title": "Atom 与 Tree-sitter", "text": "在 Atom 团队工作，为 Atom 写出 Tree-sitter。"},
+     {"when": "2017–2019", "title": "工具链实验", "text": "node-flame-graph、基于 Tree-sitter 的代码搜索 tree-tags、Rust 与 C 混写的 WASM。"},
+     {"when": "2021", "title": "联合创办 Zed", "text": "和 Nathan Sobo 等人一起用 Rust 重写编辑器。"},
+     {"when": "2023–2024", "title": "本地模型与扩展", "text": "llama-rs（Metal 上的 llama.cpp 绑定）；Zed 语言扩展。"},
+     {"when": "2026", "title": "Delta", "text": "Zed 推出 Delta，替代 Pull Request 的协作流程。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Tree-sitter", "url": "https://tree-sitter.github.io/tree-sitter/",
+     "meta": ["Rust + C", "增量解析", "★2.7 万"],
+     "paras": [
+      "「An incremental parsing system for programming tools.」解析器生成器 + 增量解析库，有上百种语言的社区语法，绑定覆盖 Rust、JavaScript、Python 等多种语言。"
+     ],
+     "facts": [["GitHub", "★27,264"]]
+    }},
+    {"work": {
+     "name": "Zed", "url": "https://zed.dev",
+     "meta": ["联合创始人", "Rust"],
+     "paras": [
+      "「from the creators of Atom and Tree-sitter」。Zed 的语法高亮、大纲、结构化选择都建立在 Tree-sitter 之上。"
+     ]
+    }},
+    {"work": {
+     "name": "counterfeiter", "url": "https://github.com/maxbrunsfeld/counterfeiter",
+     "meta": ["2014–", "Go", "★1.1 千"],
+     "paras": [
+      "Go 没法在运行时构造接口的假实现，于是只能手写。counterfeiter 自动生成独立、类型安全的测试替身，至今仍在维护。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["vim-yankstack", "Vim 版的 Emacs kill-ring（★441）"],
+      ["tree-tags", "基于 Tree-sitter 的命令行代码搜索"],
+      ["node-flame-graph", "生成 CPU 火焰图"],
+      ["llama-rs", "macOS Metal 上的 llama.cpp Rust 绑定"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://tree-sitter.github.io/tree-sitter/", "paras": [
+     "Max 没有个人博客，X 主页直接链接到 GitHub。Tree-sitter 的文档站讲清楚了如何使用解析器、如何编写语法、如何做语法高亮和代码导航，还有一个在线 Playground，可以实时查看语法树。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "无，以 GitHub 为主页"],
+      ["文档", "Tree-sitter 官方文档 + Playground"],
+      ["写作", "偶尔在 Zed 博客发文"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Glad I learned how to write good tests early in my programming career.", "cite": "Max Brunsfeld，X，2024-01"},
+    {"p": "他接着说：有时候写到一半会觉得写测试是浪费时间，但没有比这更好的办法能逼你想清楚。他也在找「以工程为主题的儿童故事」讲给孩子听，比如罗伯特·劳森的《The Great Wheel》。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["基础设施", "Tree-sitter 被整个生态采用", "—"],
+      ["工程", "解析器、编辑器、测试工具都精通", "—"],
+      ["公开表达", "—", "很少写长文，公开信息有限"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>为一个产品写的库，可能服务整个行业。</strong>",
+     "<strong>增量计算：</strong>只更新变化的部分。",
+     "<strong>容错比完美更重要：</strong>有错误的代码也要能解析。",
+     "<strong>早点学会写测试。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Tree-sitter Playground", "url": "https://tree-sitter.github.io/tree-sitter/7-playground.html", "why": "实时看一段代码的语法树。"},
+     {"name": "Zed", "url": "https://zed.dev", "why": "Tree-sitter 驱动的编辑器。"},
+     {"name": "counterfeiter", "url": "https://github.com/maxbrunsfeld/counterfeiter", "why": "给 Go 接口生成测试替身。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在 Tree-sitter Playground 里粘贴一段你写的代码，看看它的语法树长什么样。",
+ "sources": [
+  {"label": "Max Brunsfeld 的 X 个人资料", "url": "https://x.com/maxbrunsfeld"},
+  {"label": "GitHub：tree-sitter/tree-sitter", "url": "https://github.com/tree-sitter/tree-sitter"},
+  {"label": "Tree-sitter 文档", "url": "https://tree-sitter.github.io/tree-sitter/"},
+  {"label": "GitHub：maxbrunsfeld", "url": "https://github.com/maxbrunsfeld"},
+  {"label": "Zed", "url": "https://zed.dev"}
+ ]
+}

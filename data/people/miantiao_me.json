@@ -1,0 +1,156 @@
+{
+ "name": "面条（MT）",
+ "role": "Sink 短链接、BroadcastChannel、Hacker Podcast、bm.md 作者 · Cloudflare 玩家 · 南京",
+ "title": "面条：把一切都<em>跑在 Cloudflare 上</em>",
+ "dek": "TA 在南京，自称「前端切图仔，后端三脚猫，运维挖坑人，AI 门外汉」，是专注前端的 Web 开发工程师，也是自托管和 Homelab 爱好者。TA 最受欢迎的作品是 Sink（★7.2 千、被复刻 5 千多次）：一个「简单、快速、安全」、带访问统计、完全运行在 Cloudflare 上的短链接服务。TA 的其他项目也都很有想法：BroadcastChannel 把 Telegram 频道变成微博客；Hacker Podcast 每天自动抓取 Hacker News 热门文章，用 AI 生成中文总结和播客；bm.md 是为微信公众号等平台设计的 Markdown 排版助手；ssh-ai-chat 让你通过 SSH 和 AI 聊天；还有号称「最长域名」的网址加长器 looooo…ong。2026 年 10 月，TA 发布了自己第一款原生 iOS 应用 SeeEat，帮你和伴侣找到都想吃的菜。",
+ "card": "Sink（★7.2 千）、BroadcastChannel、Hacker Podcast、bm.md 作者；Cloudflare 与自托管玩家，南京。",
+ "location": "中国南京",
+ "updated": "2026-10-23",
+ "tags": ["Cloudflare", "Serverless", "自托管", "AI 应用", "开源"],
+ "links": [
+  {"label": "Buy MT a Coffee", "url": "https://buy.mt.a.coffee"},
+  {"label": "Sink", "url": "https://sink.cool"},
+  {"label": "GitHub：miantiao-me", "url": "https://github.com/miantiao-me"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「前端切图仔🧑🏻‍💻，后端三脚猫🤷🏻‍♂️，运维挖坑人🤦🏻‍♂️，AI 门外汉🧐。」",
+  "<strong>代表作：</strong>Sink（★7,229）、Hacker Podcast（★2,597）、BroadcastChannel（★2,092）、ssh-ai-chat（★924）、bm.md（★618）、AIGC 周刊（★561）、cloud-code（★560）、RSS.Beauty、DNS.Surf、astro-aria、ip-api、SeeEat。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 1.5 千、94 个公开仓库；X 关注者约 1.1 万、推文约 8 千条。",
+  "<strong>品牌：</strong>很多新项目挂在 Agili（agi.li）名下。"
+ ],
+ "lead": "TA 的 GitHub 主页用一串很有画面感的自我介绍：毕业于计算机专业的「业余选手」，Self-hosting 爱好者，Homelab「理性玩家」，「拥有最长的域名」（已划掉）。这种自嘲贯穿 TA 的作品：网址加长器专门把你的链接变得超长；SeeEat 的设置页里，长按版本号可以打开「单身狗模式」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "Web 开发工程师（前端为主）"],
+     ["所在地", "中国南京"],
+     ["爱好", "自托管、Homelab"],
+     ["开源", "Sink、BroadcastChannel、Hacker Podcast、bm.md、ssh-ai-chat"],
+     ["技术栈", "TypeScript、Nuxt、Astro、Cloudflare Workers、Rust"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "面条的大部分项目都有一个共同点：<strong>用 Cloudflare 的免费或廉价服务，做出别人可以一键部署的小产品</strong>。Sink 用 Workers 和 Analytics Engine，cloudflare-worker-image 用 Worker 加 Container 处理图片，ip-api 用边缘函数返回 IP 和地理位置，cloud-code 和 cloud-claw 把 OpenCode、OpenClaw 这样的 Agent 搬到 Cloudflare Containers 上。"},
+    {"p": "TA 也在做「由 AI 驱动的内容」：Hacker Podcast 每天自动生成中文科技播客，AIGC 周刊由 Agent 精选内容。bm.md 则解决中文写作者的老问题：把 Markdown 排版好，复制到微信公众号里不走样，还能生成图片和矢量 PDF。"},
+    {"note": "本页依据 buy.mt.a.coffee、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。任职公司未公开；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012", "title": "注册 GitHub", "text": "计算机专业毕业，从事前端开发。"},
+     {"when": "2023", "title": "Cloudflare 小工具", "text": "cloudflare-worker-image、ip-api。"},
+     {"when": "2024", "title": "Sink 与 BroadcastChannel", "text": "短链接服务 Sink、Telegram 微博客、DNS.Surf、RSS.Beauty、最长域名。"},
+     {"when": "2025", "title": "AI 内容", "text": "Hacker Podcast、ssh-ai-chat、AIGC 周刊。"},
+     {"when": "2026", "title": "排版与原生应用", "text": "bm.md、cloud-code、cloud-claw；第一款 iOS 应用 SeeEat。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Sink", "url": "https://sink.cool",
+     "meta": ["2024–", "Nuxt + Cloudflare", "★7.2 千"],
+     "paras": [
+      "「A Simple, Speedy, Secure, and Serverless Link Shortener with Analytics, Running Entirely on Cloudflare.」复刻数超过 5,300，很多人用它搭自己的短链接服务。"
+     ],
+     "facts": [["GitHub", "★7,229 · 复刻 5,356"]]
+    }},
+    {"work": {
+     "name": "Hacker Podcast", "url": "https://hacker-podcast.agi.li",
+     "meta": ["2025–", "AI 播客", "★2.6 千"],
+     "paras": [
+      "每天自动抓取 Hacker News 热门文章，用 AI 生成中文总结并转成播客。"
+     ]
+    }},
+    {"work": {
+     "name": "BroadcastChannel", "url": "https://github.com/miantiao-me/BroadcastChannel",
+     "meta": ["2024–", "Astro", "★2.1 千"],
+     "paras": [
+      "「Turn your Telegram Channel into a MicroBlog.」把 Telegram 频道内容渲染成一个可以被搜索引擎收录的博客。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["bm.md", "公众号与多平台 Markdown 排版助手"],
+      ["ssh-ai-chat", "通过 SSH 和 AI 聊天"],
+      ["DNS.Surf", "查看全球各地的 DNS 解析结果"],
+      ["SeeEat", "和伴侣一起决定吃什么的 iOS 应用"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://buy.mt.a.coffee", "paras": [
+     "TA 把 X 上的链接放在赞助页 Buy.MT.a.Coffee 上：一句中英双语的自我介绍、精选项目卡片和赞助按钮，可以切换语言和主题。TA 的域名很有趣：Sink.Cool、Slite.Cool、bm.md、DNS.Surf、RSS.Beauty，每个项目一个好记的域名。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Netlify"],
+      ["结构", "简介 + 项目 + 赞助"],
+      ["域名", "每个项目一个短域名"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "以前一个 JS 写的 HTTP Server Docker 镜像最小可以做到 40M, 现在借助 VercelLabs 的 scriptc 可以做到不到 2M 了", "cite": "面条，X，2026-10"},
+    {"p": "TA 的 X 时间线是技术小发现和轻松吐槽的混合：微信公众号后台支持 RSS 音频导入却有域名白名单，「有了 AI 才发现充电头路由器是多么无趣」，还有提议用 agent://ask?q=hello 做一个通用的 Agent 协议。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["实用", "一键部署、成本极低", "强依赖 Cloudflare 平台"],
+      ["创意", "选题有趣、命名好记", "部分项目已停止更新"],
+      ["产出", "持续推出新项目", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>用 Serverless 平台把小工具的成本降到接近零。</strong>",
+     "<strong>做别人能一键部署的项目，</strong>复刻就是传播。",
+     "<strong>给每个项目起一个好记的域名。</strong>",
+     "<strong>幽默感是产品的一部分。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Sink", "url": "https://github.com/miantiao-me/Sink", "why": "在 Cloudflare 上部署自己的短链接。"},
+     {"name": "bm.md", "url": "https://bm.md", "why": "给公众号文章排版。"},
+     {"name": "Hacker Podcast", "url": "https://hacker-podcast.agi.li", "why": "听 AI 生成的中文 HN 播客。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "把你的一个小工具部署到 Cloudflare Workers 上，算一算它每月的成本。",
+ "sources": [
+  {"label": "面条的 X 个人资料", "url": "https://x.com/miantiao_me"},
+  {"label": "Buy MT a Coffee", "url": "https://buy.mt.a.coffee"},
+  {"label": "GitHub：miantiao-me", "url": "https://github.com/miantiao-me"},
+  {"label": "GitHub：Sink", "url": "https://github.com/miantiao-me/Sink"},
+  {"label": "bm.md", "url": "https://bm.md"}
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "name": "Tanner Linsley",
+ "role": "TanStack 创始人（Query、Table、Router、Start、Form、Virtual）· Nozzle 联合创始人 · 犹他州",
+ "title": "Tanner Linsley：一整套<em>开源应用栈</em>",
+ "dek": "他住在犹他州，是 TanStack 的创始人，也是 SEO 数据公司 Nozzle 的联合创始人。他最早为人熟知的是 React Table 和 React Query：一个是无样式的表格与数据网格工具，一个让「服务器状态」管理变得简单，后者几乎成了 React 应用请求数据的默认选择。后来这些库都去掉了 React 前缀，变成可以用于 React、Vue、Solid、Svelte、Angular 的 TanStack Query、TanStack Table，再加上 Router、Start、Form、Virtual、Ranger、Charts，以及 2026 年 10 月刚发布 1.0 的 TanStack AI。TanStack 官网显示总下载量约 184 亿次、每周约 1.77 亿次。2026 年 10 月，全栈框架 TanStack Start 发布 1.0 正式版。更早，他也参与过 Chart.js、React Static 和 Crossfilter。",
+ "card": "TanStack 创始人（Query ★5 万、Table、Router、Start）；Nozzle 联合创始人，犹他州。",
+ "location": "美国犹他州",
+ "updated": "2026-10-23",
+ "tags": ["开源", "React", "TypeScript", "数据请求", "全栈框架"],
+ "links": [
+  {"label": "TanStack", "url": "https://tanstack.com"},
+  {"label": "TanStack 博客", "url": "https://tanstack.com/blog"},
+  {"label": "GitHub：tannerlinsley", "url": "https://github.com/tannerlinsley"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>TanStack 官网「The open source application stack for the web. Headless, type-safe, composable tools… that work naturally for developers and reliably for agents.」",
+  "<strong>代表作：</strong>TanStack Query（★50,467）、Table（★28,514）、Virtual（★7,158）、Form（★6,743）、Router、Start、Ranger、Charts、AI；早年 React Charts、React Static、swimmer。",
+  "<strong>关键数字（官网）：</strong>总下载约 184 亿次、每周约 1.77 亿次、GitHub 星约 13 万；他个人 X 关注者约 11.5 万。",
+  "<strong>2026 年：</strong>Table v9、Form v2 alpha、Charts 1.0、Start 1.0、AI 1.0；与 Vercel、Scarf 达成合作。"
+ ],
+ "lead": "TanStack 的原则写在官网上：库的核心与框架无关、由逻辑驱动，所以同一套逻辑可以在 React、Vue、Svelte、Solid 等框架里使用；从头用 TypeScript 构建，「类型安全是设计出来的」；而且这些库都是围绕真实产品和真正在交付的开发者构建的。这也是 Tanner 一路走来的方式：他的库几乎都源于他在 Nozzle 遇到的实际问题。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开源作者、创始人"],
+     ["所在地", "美国犹他州"],
+     ["公司", "TanStack（所有者）；Nozzle（联合创始人）"],
+     ["早期参与", "Chart.js、React Static、Crossfilter"],
+     ["技术栈", "TypeScript、React、Vue、Solid、Svelte"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Tanner 正在把 TanStack 从「一组好用的库」变成<strong>一整套应用栈</strong>：Router 提供类型安全的路由，Start 是基于它的全栈框架，Query 管服务器状态，Form 管表单，Table 和 Virtual 处理大数据量的界面，AI 则提供「你的 AI，你的方式」的模型集成和实验性的 Agent 框架。官网首页甚至有一个输入框，让你描述想做的东西，从提示词开始搭项目。"},
+    {"p": "团队也会公开一些逆潮流的工程决定，比如博客《We Stopped Using RSC on TanStack.com》。TanStack 有一个越来越大的维护者团队，Query 的 TkDodo、AI 的 Alem Tuzlak 和 Jack Herrington 等都是核心成员。"},
+    {"note": "本页依据 tanstack.com（首页与博客）、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。下载与星数为官网实时统计；宗教与家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2014–2017", "title": "早期开源", "text": "AngularJS 开关组件、Tour.js；参与 Chart.js；react-show、springer 弹簧缓动。"},
+     {"when": "2017–2019", "title": "React Table 与 React Static", "text": "React Table 走红；React Static 静态站生成器；swimmer 任务池。"},
+     {"when": "2020", "title": "React Query", "text": "发布 React Query，开课程和工作坊推广「服务器状态」概念。"},
+     {"when": "2022", "title": "TanStack", "text": "各库更名为 TanStack，支持多个框架。"},
+     {"when": "2024–2025", "title": "Router 与 Start", "text": "TanStack Router、Start 进入测试。"},
+     {"when": "2026", "title": "1.0 之年", "text": "Start 1.0、Charts 1.0、AI 1.0；Table v9、Form v2 alpha；新品牌形象。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "TanStack Query", "url": "https://tanstack.com/query",
+     "meta": ["2020–", "TypeScript", "★5 万"],
+     "paras": [
+      "「Powerful asynchronous state management, server-state utilities and data fetching for the web.」缓存、去重、后台刷新、乐观更新、分页和无限加载都内置；有 React、Solid、Svelte、Vue 等版本。"
+     ],
+     "facts": [["GitHub", "★50,467"]]
+    }},
+    {"work": {
+     "name": "TanStack Table", "url": "https://tanstack.com/table",
+     "meta": ["2017–", "无头 UI", "★2.9 万"],
+     "paras": [
+      "「Headless UI for building powerful tables & datagrids.」只提供逻辑，不提供样式，2026 年 8 月发布 v9。"
+     ]
+    }},
+    {"work": {
+     "name": "TanStack Start", "url": "https://tanstack.com/start",
+     "meta": ["2026", "全栈框架", "1.0"],
+     "paras": [
+      "基于 TanStack Router 的全栈框架，2026 年 10 月 13 日宣布 1.0 稳定版。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["TanStack Virtual", "大列表虚拟化（★7,158）"],
+      ["TanStack Form", "无头、高性能、类型安全的表单状态（★6,743）"],
+      ["TanStack AI", "2026 年 10 月发布 1.0"],
+      ["TanStack Charts", "2026 年 10 月发布 1.0；旧版 React Charts 已停止维护"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://tanstack.com", "paras": [
+     "TanStack 官网首页滚动显示实时下载数和星数，下面是原则：框架无关、类型安全、为真实产品而建。博客更新密集，既有版本发布，也有《Inside a TanStack Router Navigation》这样的深度文章，还有安全公告和合作伙伴消息。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Cloudflare"],
+      ["内容", "文档、博客、「Ask AI」"],
+      ["节奏", "每月多篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-23", "title": "TanStack AI 1.0: Still Your AI, Still Your Way", "url": "https://tanstack.com/blog"},
+     {"date": "2026-10-13", "title": "TanStack Start 1.0 is Stable", "url": "https://tanstack.com/blog"},
+     {"date": "2026-08-04", "title": "Announcing TanStack Table V9", "url": "https://tanstack.com/blog"},
+     {"date": "2026-07-24", "title": "We Stopped Using RSC on TanStack.com", "url": "https://tanstack.com/blog"}
+    ]},
+    {"p": "他在 X 上很直接地分享对工具的感受：他认为 Codex 的本地电脑操作能力非常好，其他工具在他真实机器上做事时总让他失望。他也会玩点别的，比如反编译游戏《细胞分裂：混沌理论》。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "Query、Table 是行业标配", "—"],
+      ["设计", "无头、框架无关、类型安全", "部分新库仍在快速演进"],
+      ["生态", "维护者团队壮大", "产品线扩张快，需要用户自行选择"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从自己的产品需求里长出开源库。</strong>",
+     "<strong>无头设计：</strong>逻辑与样式分离。",
+     "<strong>框架无关的核心，</strong>让库活得更久。",
+     "<strong>敢于做与潮流不同的工程决定。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "TanStack Query", "url": "https://tanstack.com/query", "why": "用它替换你的手写请求状态。"},
+     {"name": "TanStack Start", "url": "https://tanstack.com/start", "why": "试试 1.0 的全栈框架。"},
+     {"name": "TanStack 博客", "url": "https://tanstack.com/blog", "why": "读《We Stopped Using RSC》。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你的项目里找一个手写的 loading / error / data 三件套，试着用 TanStack Query 替换它。",
+ "sources": [
+  {"label": "Tanner Linsley 的 X 个人资料", "url": "https://x.com/tannerlinsley"},
+  {"label": "TanStack", "url": "https://tanstack.com"},
+  {"label": "TanStack 博客", "url": "https://tanstack.com/blog"},
+  {"label": "GitHub：tannerlinsley", "url": "https://github.com/tannerlinsley"},
+  {"label": "GitHub：TanStack/query", "url": "https://github.com/TanStack/query"}
+ ]
+}

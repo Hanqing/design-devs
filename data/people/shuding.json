@@ -1,0 +1,163 @@
+{
+ "name": "Shu Ding",
+ "role": "Vercel 工程师 · Next.js 核心维护者 · SWR、Satori、Nextra、COBE 作者 · v0 联合创造者",
+ "title": "Shu Ding：<em>不能让沉默更好，就别开口</em>",
+ "dek": "他高中起就参加算法竞赛、做网页设计和开发，2017 年从复旦大学计算机系毕业，进入微软做软件工程师；2018 年作为最早的一批工程师加入 Vercel（当时叫 ZEIT），参与核心平台、Next.js、AI SDK 和 v0。2019 年他和 Guillermo Rauch 一起做了 SWR，第一个基于 Hook、「先返回缓存再重新验证」的数据请求库；2020 年起他是 Next.js 的核心维护者，主导了流式 SSR、Edge Runtime、React Server Components 和 Server Actions 的开发。他还写了不需要浏览器就能把 HTML 和 CSS 渲染成 SVG 的 Satori（已成为各大框架生成社交分享图的标准做法）、只有 5 KB 的 WebGL 地球 COBE，以及 Next.js 文档框架 Nextra。",
+ "card": "Vercel 工程师，Next.js 核心维护者；SWR（★3.2 万）、Satori、Nextra（★1.4 万）、COBE 作者，v0 联合创造者。",
+ "location": "未公开",
+ "updated": "2026-10-23",
+ "tags": ["Next.js", "React", "Vercel", "图形渲染", "开源"],
+ "links": [
+  {"label": "shud.in", "url": "https://shud.in"},
+  {"label": "Projects", "url": "https://shud.in/projects"},
+  {"label": "GitHub：shuding", "url": "https://github.com/shuding"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Don’t talk unless you can improve the silence.」GitHub 引用 Aaron Swartz：「Be curious. Read widely. Try new things.」",
+  "<strong>代表作：</strong>SWR（★32,495）、Satori（★14,122）、Nextra（★13,941）、COBE（★6,002）、React Wrap Balancer（★4,214）、next-view-transitions、liquid-glass、GPU Lexer、React Best Practices（Agent Skill）。",
+  "<strong>Next.js：</strong>2020 年起为核心维护者；2018 年设计并开发了 Next.js 官网。",
+  "<strong>关键数字：</strong>GitHub 159 个公开仓库、近一年贡献 3,112 次；X 关注者约 6.3 万。"
+ ],
+ "lead": "2022 年，Shu 为了让 Vercel 博客的标题换行更好看，写了一个小组件 React Wrap Balancer，后来又被移植到 Vue 和 Svelte。他在个人网站上写道：「我相信它推动了 CSS 标准 <code>text-wrap: balance</code> 的出现。」这就是他的风格：从一个具体的页面需求出发，做一个很小的东西，最后影响整个生态。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师（Vercel）"],
+     ["教育", "复旦大学计算机科学学士（2017）"],
+     ["经历", "高中算法竞赛 → 微软软件工程师（2017）→ Vercel / ZEIT（2018–）"],
+     ["主导工作", "Next.js 流式 SSR、Edge Runtime、RSC、Server Actions；v0 架构；AI SDK 客户端 Hook"],
+     ["兴趣", "视觉、Web、数学、游戏设计、人机交互"],
+     ["技术栈", "TypeScript、JavaScript、WebGL / WebGPU、Rust、C++"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Shu 同时站在<strong>框架架构</strong>和<strong>图形渲染</strong>两端。在 Next.js 里，他和 React 团队紧密合作，主导了服务端渲染的一系列架构升级。在 Vercel，他做了快速图片生成、分析图表的曲线拟合、控制台性能优化；2023 年他和 Jared Palmer、Max Leiter、shadcn 一起做出 v0，参与设计架构，实现了核心 AI、流式渲染管线和 Design Mode。"},
+    {"p": "2026 年他在做两类实验。一类是小模型：GPU Lexer 用神经网络和 WebGPU 在浏览器里做语法高亮，「如果把源代码的每个词当成像素，语法高亮本质上就是一维图像的分割」；很快社区就跟进了一批 gpu-* 小模型库。另一类是纯 CSS：既然 HTML/CSS 是图灵完备的，为什么不把程序编译成零 JavaScript 的网页？这延续了他 11 年前的学校项目 css-computer。"},
+    {"note": "本页依据 shud.in（首页与 Projects）、GitHub 和 X 帖子整理，资料截至 2026 年 10 月。他的中文名和所在地未在其网站上写明，本页不作推测。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "高中", "title": "算法竞赛", "text": "多年参加算法竞赛，同时做网页设计与开发。"},
+     {"when": "2013–2017", "title": "复旦大学", "text": "计算机科学学士；写出 Y86 流水线 CPU 模拟器和 css-computer。"},
+     {"when": "2017", "title": "微软", "text": "毕业后加入微软任软件工程师。"},
+     {"when": "2018", "title": "加入 ZEIT / Vercel", "text": "最早的工程师之一；设计并开发 Next.js 官网。"},
+     {"when": "2019–2021", "title": "SWR、Nextra、Satori、COBE", "text": "2019 年与 Guillermo Rauch 做 SWR；2020 年起任 Next.js 核心维护者并创建 Nextra；2021 年写 Satori 和 COBE。"},
+     {"when": "2022–2023", "title": "架构与 v0", "text": "主导 RSC、Server Actions 等；2023 年联合创造 v0。"},
+     {"when": "2025–2026", "title": "Liquid Glass、小模型、Agent 规则", "text": "liquid-glass 着色器；React Best Practices 规则集；GPU Lexer；新版 Satori。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SWR", "url": "https://swr.vercel.app",
+     "meta": ["2019–", "React Hooks", "★3.2 万"],
+     "paras": [
+      "名字来自 HTTP 缓存策略 stale-while-revalidate：先返回缓存数据，再在后台请求，最后更新。它是第一个基于 Hook 的这类数据请求库。Logo 由 Evil Rabbit 和 Paco Coursey 设计。"
+     ]
+    }},
+    {"work": {
+     "name": "Satori", "url": "https://github.com/vercel/satori",
+     "meta": ["2021–", "HTML/CSS → SVG", "★1.4 万"],
+     "paras": [
+      "「第一个不需要浏览器的 CSS 到 SVG 渲染引擎」，为 Vercel 的 OG 图片生成而写，现在是 Next.js、Nuxt、SvelteKit、Astro 生成社交卡片的通用方案。2026 年 10 月他预告了下一版：支持 grid、定位、浮动、计数器、混合模式等大量 CSS 特性，宣传视频的每一帧都由 Satori 渲染。"
+     ]
+    }},
+    {"work": {
+     "name": "COBE", "url": "https://cobe.vercel.app",
+     "meta": ["2021–", "WebGL", "★6 千"],
+     "paras": [
+      "可能是网页上最小的 3D 地球（约 5 KB），最初是为了加快 Vercel 首页的加载速度。任何 DOM 元素都可以作为标记点绑定上去，CSS 过渡、动画、滤镜都能正常工作。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Nextra", "基于 Next.js 的文档与站点生成框架（★13,941）"],
+      ["React Wrap Balancer", "让标题换行更平衡（★4,214）"],
+      ["next-view-transitions", "在 App Router 里使用 CSS View Transitions"],
+      ["GPU Lexer", "用 WebGPU 和神经网络做语言无关的语法高亮"],
+      ["better-all", "自动优化依赖的 Promise.all"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://shud.in", "paras": [
+     "首页只有一段话：兴趣、教育、工作。Projects 页是一份详细的作品史，每个项目写清楚他做了什么、和谁一起做、带来了什么影响。Thoughts 栏目收集随笔，比如 2026 年 9 月的《Metaphors》。",
+     "网站本身开源，用 MDX 写成。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + MDX，Vercel"],
+      ["结构", "简介、项目、随笔"],
+      ["开源", "shuding/shud.in"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Don’t talk unless you can improve the silence.", "cite": "Shu Ding，X 简介"},
+    {"p": "面对 GPU Lexer 引来的批评，他的回应很坦率：「也许这是个蠢主意。它是实验性的，不打算用于生产，也不打算取代现有工具。」这种「先做出来再讨论」的态度贯穿了他的大部分开源作品。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "多个库成为生态标准", "—"],
+      ["广度", "框架架构到 GPU 图形都很深", "—"],
+      ["实验", "敢做激进的想法", "部分实验明确不适合生产"],
+      ["公开信息", "作品史清晰", "个人信息很少公开"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从真实页面出发：</strong>Wrap Balancer 来自博客标题。",
+     "<strong>小体积就是功能：</strong>5 KB 的地球比 3D 库好用。",
+     "<strong>换个视角看老问题：</strong>语法高亮也可以是图像分割。",
+     "<strong>写一份作品史：</strong>每个项目写清贡献和影响。",
+     "<strong>少说话，多做东西。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "shud.in/projects", "url": "https://shud.in/projects", "why": "一份范本级的作品集。"},
+     {"name": "COBE", "url": "https://cobe.vercel.app", "why": "给你的首页放一个 5 KB 的地球。"},
+     {"name": "Satori", "url": "https://github.com/vercel/satori", "why": "用 HTML 和 CSS 生成分享图。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "给你的标题加上 text-wrap: balance，再看看页面是不是更好读了。",
+ "sources": [
+  {"label": "Shu Ding 的 X 个人资料", "url": "https://x.com/shuding"},
+  {"label": "shud.in", "url": "https://shud.in"},
+  {"label": "Projects（shud.in）", "url": "https://shud.in/projects"},
+  {"label": "GitHub：shuding", "url": "https://github.com/shuding"},
+  {"label": "GitHub：vercel/satori", "url": "https://github.com/vercel/satori"},
+  {"label": "GitHub：vercel/swr", "url": "https://github.com/vercel/swr"}
+ ]
+}

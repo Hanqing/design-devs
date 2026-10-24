@@ -1,0 +1,168 @@
+{
+ "name": "Rasmus Andersson",
+ "role": "Inter 字体设计者 · Playbit 创始人 · Spotify 创始设计总监 · Figma 早期成员",
+ "title": "Rasmus Andersson：设计师，也写<em>编译器</em>",
+ "dek": "他是瑞典人，现在住在加州伯克利。他是 Spotify 最早的员工之一，在那里几乎负责了整个设计部门四年；之后去了 Facebook，主导一个操作系统项目的设计（Facebook Home 由此诞生），又当了一年软件工程师，和 Lee Byron、Nick Schrock、Dan Schafer 一起创造了 GraphQL；再后来是 Dropbox，以及「整个公司能坐进一张沙发」时的 Figma。他设计的 Inter 字体被 GitHub、Mozilla、Figma、Pixar 等数百万人使用。业余时间他写虚拟机、编程语言和编译器。现在他在做自己的公司 Playbit。",
+ "card": "Inter 字体设计者；Spotify 创始设计总监、Figma 早期设计负责人、GraphQL 创始成员；Playbit 创始人，伯克利。",
+ "location": "美国加州伯克利",
+ "updated": "2026-10-23",
+ "tags": ["字体设计", "设计工具", "编译器", "系统编程", "Figma"],
+ "links": [
+  {"label": "rsms.me", "url": "https://rsms.me"},
+  {"label": "Inter", "url": "https://rsms.me/inter/"},
+  {"label": "GitHub：rsms", "url": "https://github.com/rsms"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「Software is the medium through which I express myself. You can call me a Designer if you want.」",
+  "<strong>代表作：</strong>Inter 字体（★19,990）、peertalk（★3,489）、Mac 版 Messenger 封装（★2,835）、Kod 编辑器、markdown-wasm、estrella 构建工具、Compis 语言、RSM 虚拟计算机、figplug。",
+  "<strong>关键数字：</strong>GitHub 182 个公开仓库、近一年贡献 6,078 次；X 2007 年注册，关注者约 9.4 万。",
+  "<strong>经历：</strong>Lear（1999）→ 设计工作室 Flajm/Notion（2001）→ Spotify（2006–2010）→ Facebook → Dropbox → Figma → Playbit。"
+ ],
+ "lead": "rsms.me 的工作页这样开头：他的设计生涯始于 1990 年代和朋友们办的一本网络杂志。2006 年他「冒了一个很大的险」，作为最早的员工之一加入 Spotify。他说那是自己一生中影响最大的决定之一。十年后他又冒了一次险：加入还很小的 Figma，用他的话说，去「塑造下一代设计工具」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、软件工程师、字体设计师、创始人"],
+     ["所在地", "美国加州伯克利（瑞典人）"],
+     ["经历", "Lear Corporation 研发（1999）→ Flajm/Notion 设计工作室（2001–2012）→ Spotify 设计总监（2006–2010）→ Facebook → Dropbox → Figma → Playbit"],
+     ["代表作", "Inter、GraphQL（创始成员）、Facebook Home、UILayer（早期 Framer 的基础）"],
+     ["社区", "与人共同发起 CocoaHeads Stockholm"],
+     ["技术栈", "C、Objective-C、Go、JavaScript、TypeScript、LLVM、WebAssembly"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Rasmus 横跨<strong>视觉设计和底层系统</strong>两端。Inter 是一款为屏幕设计的字体：高 x 字高、可变字重、丰富的 OpenType 特性，比如根据周围字形自动调整标点的上下文替代，以及带斜线的零。另一边，他写了 RSM 虚拟计算机、类 C 的系统语言 Compis、可移植的 LLVM 工具箱 llvmbox，还做过 WebAssembly 入门教程。"},
+    {"p": "他的公司 Playbit 目前官网只写着「something new coming soon」。从他最近的帖子看，他在用一台二手 Mac mini 搭 CI 和性能追踪，也会给 ChatGPT 做一个 ESP32 实体小设备当周末项目。"},
+    {"note": "本页依据 rsms.me（About、Work、Projects）、GitHub 仓库与 README 和 X 资料整理，资料截至 2026 年 10 月。Playbit 尚未公开产品细节，本页不作推测。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "1990 年代", "title": "网络杂志", "text": "和朋友办网络杂志，开始帮别人做设计和网站。"},
+     {"when": "1999–2001", "title": "第一份工作与工作室", "text": "Lear Corporation 斯堪的纳维亚研发部门；2001 年与人创办设计工作室 Flajm（后改名 Notion）。"},
+     {"when": "2006–2010", "title": "Spotify", "text": "最早的员工之一，任设计总监，也写过用户数据后端等高性能基础设施。"},
+     {"when": "2010 起", "title": "Facebook", "text": "主导操作系统项目设计，产出 Facebook Home；做 Messenger；当一年工程师，共同创造 GraphQL。"},
+     {"when": "2013", "title": "Dropbox", "text": "研发项目与桌面应用。"},
+     {"when": "Figma 时期", "title": "Figma 与 Inter", "text": "早期成员和首席设计师；2017 年开源 Inter 字体。"},
+     {"when": "2020 年代", "title": "Playbit", "text": "创办 Playbit；同时写编译器、虚拟机和编程语言。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Inter", "url": "https://rsms.me/inter/",
+     "meta": ["2017–", "开源字体", "★2 万"],
+     "paras": [
+      "为电脑屏幕精心设计的字体家族。他在工作页写道，Unity、Pixar、GitHub、Mozilla、Figma 等都在用 Inter。它也是无数网站和设计系统的默认字体。"
+     ],
+     "facts": [["GitHub", "★19,990"]]
+    }},
+    {"work": {
+     "name": "GraphQL", "url": "https://graphql.org",
+     "meta": ["Facebook", "创始成员"],
+     "paras": [
+      "在 Facebook 当软件工程师的那一年，他和 Nick Schrock、Lee Byron、Dan Schafer 一起创造了 GraphQL。"
+     ]
+    }},
+    {"work": {
+     "name": "Compis / RSM", "url": "https://github.com/rsms/compis",
+     "meta": ["C", "系统编程"],
+     "paras": [
+      "Compis 是「C 精神」的现代系统语言，可以和 C 混写，把 clang、lld 等 LLVM 工具打包进一个可执行文件；名字来自瑞典语 kompis（伙伴）。RSM 是一台带简单 RISC 指令集和虚拟内存的虚拟计算机。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["peertalk", "iOS 与 Mac 之间通过 USB 通信的库（★3,489）"],
+      ["Kod", "2010 年的 Mac 程序员编辑器（已停止）"],
+      ["markdown-wasm", "基于 md4c 的 WebAssembly Markdown 解析器"],
+      ["estrella", "基于 esbuild 的轻量构建工具"],
+      ["Dream Together", "协作式生成艺术项目"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://rsms.me", "paras": [
+     "导航只有 About、Projects、Work、Photography、Shop。Projects 页把兴趣项目和小实验混在一起：生成艺术、编程语言、从旧硬盘恢复出的 2000 年代早期素材、WebGL 压缩纹理演示，以及他在 Handmade Seattle 2021 的主题演讲《Quality in Software》。",
+     "他还保留了 1998.rsms.me，存放自己最早写的软件。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "静态站点，Cloudflare / Fastly"],
+      ["结构", "关于、项目、履历、摄影、商店"],
+      ["博客", "旧博客 2012–2017，讲语言、虚拟机和 WebAssembly"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2017-01", "title": "Introduction to WebAssembly", "url": "https://rsms.me/wasm-intro"},
+     {"date": "2012-12", "title": "The Definition of Design", "url": "https://rsms.me"},
+     {"date": "2012-10", "title": "Sol — a sunny little virtual machine", "url": "http://rsms.me/2012/10/14/sol-a-sunny-little-virtual-machine.html"}
+    ]},
+    {"quote": "Software is the medium through which I express myself.", "cite": "Rasmus Andersson，rsms.me/about"},
+    {"p": "他的关注点从来不局限于「设计」这个标签：字形、编译器、CI 硬件、实体小设备，在他看来都是同一件事，就是用软件表达。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["广度", "设计、字体、语言、系统都做到很深", "—"],
+      ["影响力", "Inter、GraphQL、Spotify、Figma", "—"],
+      ["开源", "仓库多、质量高", "不少老项目已停止维护"],
+      ["近况", "—", "Playbit 产品尚未公开"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>早期团队值得赌：</strong>Spotify 和 Figma 都是这样加入的。",
+     "<strong>不要被头衔限制：</strong>设计师也可以写编译器。",
+     "<strong>做一件工具级的作品：</strong>一款字体可以服务几百万人。",
+     "<strong>保留旧作：</strong>1998 年的软件也有一个家。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Inter", "url": "https://rsms.me/inter/", "why": "看看它的 OpenType 特性。"},
+     {"name": "rsms.me/work", "url": "https://rsms.me/work/", "why": "一份罕见的完整职业自述。"},
+     {"name": "Compis", "url": "https://github.com/rsms/compis", "why": "设计师写的系统语言。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "把你的项目字体换成 Inter，打开 tnum 和 ss01 等特性，看看数字和标点有什么变化。",
+ "sources": [
+  {"label": "Rasmus Andersson 的 X 个人资料", "url": "https://x.com/rsms"},
+  {"label": "rsms.me", "url": "https://rsms.me"},
+  {"label": "About（rsms.me）", "url": "https://rsms.me/about/"},
+  {"label": "Work（rsms.me）", "url": "https://rsms.me/work/"},
+  {"label": "Inter", "url": "https://rsms.me/inter/"},
+  {"label": "GitHub：rsms", "url": "https://github.com/rsms"}
+ ]
+}

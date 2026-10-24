@@ -1,0 +1,405 @@
+{
+ "handle": "geoffreylitt",
+ "sites": [
+  {
+   "url": "https://www.geoffreylitt.com",
+   "ok": true,
+   "title": "Geoffrey Litt",
+   "description": "",
+   "stack": [
+    "Google Analytics",
+    "React",
+    "Buttondown"
+   ],
+   "hosting": [
+    "Netlify"
+   ],
+   "lang": "",
+   "home_text": "Your browser is ancient! Upgrade to a different browser or install Google Chrome Frame to experience this site. \nWelcome! I work on malleable software : computing environments where anyone can adapt their software to meet their needs with minimal friction. To see what that means to me, read this essay or listen to this interview . \nI'm also tinkering with AI-assisted programming, which I think can help usher in a new era of personal software tools , help programmers have more fun , and create new interaction patterns for working with software. \nI currently work at Notion . Previously I was a senior researcher at the independent research lab Ink & Switch , and I did a PhD in HCI at MIT advised by Daniel Jackson . Earlier in my career I did design and engineering at startups . My core skill is designing and prototyping environments for thinking. \nYou can reach me via email . I enjoy hearing from people making cool stuff! I also do a bit of startup advising for companies related to my work. \nIf you'd like to hear occasional updates on my work, you can subscribe to my email newsletter or follow via RSS . \nMalleable Software \nEmbark\n New! \nDynamic documents for travel planning \nPotluck\nDynamic documents as personal software \nWildcard\nCustomize a web app with a spreadsheet \nProgramming Interfaces \nMargin Notes\nAutomatic code docs w/ recorded examples from runtime \nTodoMVC Vis\nVisualizing the internal behavior of TodoMVC in Redux \nJSON Sheets\nA reactive programming environment for building GUIs \nWriting \n Understanding is the new bottleneck \n Code like a surgeon \n AI as teleportation \n Enough AI copilots! We need AI HUDs \n Is chat a good UI for AI? A Socratic dialogue \n Malleable software: Restoring user agency in a world of locked-down apps \n Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs \n Avoid the nightmare bicycle \n AI-generated tools can make programming more fun \n Your pie doesn't need to be original (unless you claim it so) \n 7 books that stood the test of time in 2023 \n Codifying a ChatGPT workflow into a malleable GUI \n Malleable software in the age of LLMs \n ChatGPT as muse, not oracle \n Fuzzy API composition: querying NBA stats with GPT-3 + Statmuse + Langchain \n For your next side project, make a browser extension \n Dynamic documents // LLMs + end-user programming \n Bring Your Own Client \n How tweet threads cured my writer's block: Twitter as a medium for sketching \n Foam: Software as Curation \n Climate art, hacking Autodesk, and other funemployment projects \n Browser extensions are underrated: the promise of hackable software \n Adding tail call optimization to a Lisp interpreter in Ruby \n ENHANCE!: Upscaling images CSI-style with generative adversarial neural networks \n No Redis Needed: building a Postgres-backed recommendation engine for Rails \n The Virtual Cafe: a better way to hang out remotely \n Building Waze for the Boston subway: my first adventure in civic hacking \n 2014: A year in review with iPhone pedometer data \nInterviews \n Dialectic Podcast: Software You Can Shape \n Metamuse Podcast: Bring your own client \n Metamuse Podcast: Dynamic documents \n Superorganizers Newsletter: on research tools/process \nContact me \n Please reach out if you're interested in chatting about ideas, or if I might be able to help you in some way. You can contact me via email or on Twitter . \nSubscribe \nI periodically write about programming tools, end-user programming, and software design. To get updates about new posts:\nJoin my email newsletter\nFollow me on Twitter\nSubscribe via RSS\n📦 The Archive... (older work less immediately relevant to my current interests) \nLocal-First Software \nRiffle\nBuilding data-centric apps with a reactive relational database \nPeritext\nA CRDT for rich text, to enable async collaborative writing \nCambria\nBetter cross-app data compatibility using bidirectional lenses \nProgramming interface explorations \nladybug\nA Ruby debugger backend for the Chrome Dev Tools UI \nExperiments in Dynamicland\nExploring in the dynamic medium \nConference Talks \nDynamic Documents as Personal Software (Causal Islands 2023)\nA vision for dynamic documents + AI \nENHANCE! (BangBangCon 2017)\nExplaining Generative Adversarial Neural Networks using CSI \nRuby, A Family History (RailsConf 2018)\nExploring how Ruby was influenced by Lisp, Smalltalk, and Perl \nDeep Learning: an Introduction (BostonRB)\nAn introduction to deep learning techniques for Ruby developers \nOther software projects \nclas",
+   "github_links": [],
+   "subpages": {},
+   "feed": {
+    "url": "https://www.geoffreylitt.com/feed.xml",
+    "count_seen": 11,
+    "items": [
+     {
+      "title": "Understanding is the new bottleneck",
+      "date": "2026-07-02T10:00:00+00:00",
+      "url": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html"
+     },
+     {
+      "title": "Code like a surgeon",
+      "date": "2025-10-24T14:59:00+00:00",
+      "url": "https://geoffreylitt.com/2025/10/24/code-like-a-surgeon.html"
+     },
+     {
+      "title": "AI as teleportation",
+      "date": "2025-09-10T19:40:00+00:00",
+      "url": "https://geoffreylitt.com/2025/09/10/ai-as-teleportation.html"
+     },
+     {
+      "title": "Enough AI copilots! We need AI HUDs",
+      "date": "2025-07-27T20:50:00+00:00",
+      "url": "https://geoffreylitt.com/2025/07/27/enough-ai-copilots-we-need-ai-huds.html"
+     },
+     {
+      "title": "Is chat a good UI for AI? A Socratic dialogue",
+      "date": "2025-06-29T14:17:00+00:00",
+      "url": "https://geoffreylitt.com/2025/06/29/chat-ai-dialogue.html"
+     },
+     {
+      "title": "Malleable software: Restoring user agency in a world of locked-down apps",
+      "date": "2025-06-15T12:00:00+00:00",
+      "url": "https://geoffreylitt.com/2025/06/15/malleable-software.html"
+     },
+     {
+      "title": "Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs",
+      "date": "2025-04-12T14:40:00+00:00",
+      "url": "https://geoffreylitt.com/2025/04/12/how-i-made-a-useful-ai-assistant-with-one-sqlite-table-and-a-handful-of-cron-jobs.html"
+     },
+     {
+      "title": "Avoid the nightmare bicycle",
+      "date": "2025-03-03T22:13:00+00:00",
+      "url": "https://geoffreylitt.com/2025/03/03/the-nightmare-bicycle.html"
+     },
+     {
+      "title": "AI-generated tools can make programming more fun",
+      "date": "2024-12-22T14:05:00+00:00",
+      "url": "https://geoffreylitt.com/2024/12/22/making-programming-more-fun-with-an-ai-generated-debugger.html"
+     },
+     {
+      "title": "Your pie doesn't need to be original (unless you claim it so)",
+      "date": "2024-08-25T15:39:00+00:00",
+      "url": "https://geoffreylitt.com/2024/08/25/your-pie-doesnt-need-be-original.html"
+     },
+     {
+      "title": "7 books that stood the test of time in 2023",
+      "date": "2023-12-17T17:01:00+00:00",
+      "url": "https://geoffreylitt.com/2023/12/17/seven-books-that-stuck-with-me-in-2023.html"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "geoffreylitt",
+  "user": {
+   "name": "Geoffrey Litt",
+   "company": "MIT",
+   "blog": "http://geoffreylitt.com",
+   "location": "Cambridge, MA",
+   "bio": null,
+   "public_repos": 91,
+   "followers": 513,
+   "created_at": "2011-07-23T10:32:32Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "geoffreylitt/wildcard",
+    "description": "A browser extension for customizing web apps with a spreadsheet view",
+    "stargazers_count": 302,
+    "forks_count": 21,
+    "language": "TypeScript",
+    "homepage": "https://www.geoffreylitt.com/wildcard/",
+    "created_at": "2019-11-05T16:57:39Z",
+    "pushed_at": "2025-01-08T02:18:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/simple_recommender",
+    "description": "A simple recommendation engine for Rails/Postgres",
+    "stargazers_count": 129,
+    "forks_count": 12,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2017-01-23T03:17:25Z",
+    "pushed_at": "2023-01-20T06:18:53Z",
+    "topics": [
+     "postgres",
+     "rails",
+     "recommendation-engine"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/ladybug",
+    "description": "🐞 Debug Ruby programs using Chrome Devtools",
+    "stargazers_count": 44,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2018-01-22T04:44:20Z",
+    "pushed_at": "2021-08-10T13:54:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/json-sheets",
+    "description": "Riffs on spreadsheets for manipulating JSON and building GUIs",
+    "stargazers_count": 25,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2019-08-12T17:34:47Z",
+    "pushed_at": "2020-02-25T23:04:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/mini-adapton",
+    "description": "Typescript Implementation of mini-adapton (https://arxiv.org/pdf/1609.05337.pdf)",
+    "stargazers_count": 24,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-02-01T21:22:38Z",
+    "pushed_at": "2022-02-01T21:28:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/ambsheet",
+    "description": "tiny spreadsheet language with ambiguous values",
+    "stargazers_count": 12,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2024-03-29T20:20:31Z",
+    "pushed_at": "2024-03-29T23:57:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/automerge-slate-playground",
+    "description": "Playing with Automerge + Slate",
+    "stargazers_count": 9,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "https://automerge-slate-playground.netlify.app/",
+    "created_at": "2021-02-09T05:15:03Z",
+    "pushed_at": "2022-06-22T19:28:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/homepage",
+    "description": "Code for my personal homepage http://www.geoffreylitt.com",
+    "stargazers_count": 7,
+    "forks_count": 4,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2015-02-28T20:05:14Z",
+    "pushed_at": "2026-08-24T17:49:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/laser-scanner",
+    "description": "Senior project for Yale Univ. B.S. Electrical Engineering & Computer Science (EENG 472)",
+    "stargazers_count": 7,
+    "forks_count": 2,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2014-04-24T10:36:23Z",
+    "pushed_at": "2014-05-17T20:02:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/margin-notes-recorder",
+    "description": "Ruby instrumentation library for recording function calls",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": "https://geoffreylitt.com/margin-notes/",
+    "created_at": "2018-06-28T03:00:20Z",
+    "pushed_at": "2018-11-23T17:01:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/margin-notes-ui",
+    "description": "📝 Automatic code documentation with recorded examples from runtime",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "Vue",
+    "homepage": "https://geoffreylitt.com/margin-notes/",
+    "created_at": "2018-07-01T20:12:00Z",
+    "pushed_at": "2018-11-26T17:10:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/meta-spreadsheet",
+    "description": "a meta spreadsheet with pluggable coordinate systems",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-11-05T21:54:55Z",
+    "pushed_at": "2023-11-05T22:01:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/instacart-notion-worker",
+    "description": "A Notion Worker for shopping on Instacart",
+    "stargazers_count": 5,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-03-15T15:52:09Z",
+    "pushed_at": "2026-05-31T17:37:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/classroulette",
+    "description": "A simple, serendipity-inducing interface to the Yale Bluebook course catalog",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2012-07-21T03:10:55Z",
+    "pushed_at": "2022-10-19T08:00:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/notion-skills",
+    "description": "Skills marketplace synced from Notion",
+    "stargazers_count": 4,
+    "forks_count": 2,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-06-29T15:27:06Z",
+    "pushed_at": "2026-07-16T15:05:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/todomvc-vis",
+    "description": "visualizing internal state of todomvc. final project for MIT 6.894 data vis class.",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "TeX",
+    "homepage": "",
+    "created_at": "2020-04-29T01:36:53Z",
+    "pushed_at": "2024-04-23T02:18:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/mentorme",
+    "description": "TakeFlight - a video mentoring web application for the Arab world developed in 3 days, winner of the NYUAD Hackathon 2013.",
+    "stargazers_count": 3,
+    "forks_count": 2,
+    "language": "Ruby",
+    "homepage": "takeflight.herokuapp.com",
+    "created_at": "2013-02-22T12:40:04Z",
+    "pushed_at": "2013-02-27T04:51:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "geoffreylitt/pastepals-client",
+    "description": "the client half of a stupid idea: a universal clipboard, shared with everybody",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2020-05-02T16:04:56Z",
+    "pushed_at": "2022-12-11T04:17:37Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 61,
+  "languages": [
+   [
+    "JavaScript",
+    18
+   ],
+   [
+    "Ruby",
+    13
+   ],
+   [
+    "TypeScript",
+    11
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "TeX",
+    3
+   ],
+   [
+    "OCaml",
+    2
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "Vue",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "geoffreylitt/wildcard",
+    "stargazerCount": 302,
+    "description": "A browser extension for customizing web apps with a spreadsheet view",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://www.geoffreylitt.com/wildcard/"
+   },
+   {
+    "nameWithOwner": "geoffreylitt/ladybug",
+    "stargazerCount": 44,
+    "description": "🐞 Debug Ruby programs using Chrome Devtools",
+    "primaryLanguage": {
+     "name": "Ruby"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "geoffreylitt/simple_recommender",
+    "stargazerCount": 129,
+    "description": "A simple recommendation engine for Rails/Postgres",
+    "primaryLanguage": {
+     "name": "Ruby"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "geoffreylitt/json-sheets",
+    "stargazerCount": 25,
+    "description": "Riffs on spreadsheets for manipulating JSON and building GUIs",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 214,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "geoffreylitt/wildcard": "# Wildcard\nWildcard is a platform that empowers anyone to build browser extensions and modify websites to meet their own specific needs.\nWildcard shows a simplified view of the data in a web page as a familiar table view. People can directly manipulate the table to sort/filter content, add annotations, and even use spreadsheet-style formulas to pull in data from other websites.\n* [Documentation](https://geoffreylitt.github.io/wildcard)\n* [Project homepage](https://www.geoffreylitt.com/wildcard/)\n* [Research paper](https://www.geoffreylitt.com/wildcard/salon2020/) presented at the Convivial Computing Salon 2020\n## Install Wildcard\nBe aware: Wildcard is still pre-release software.\n**The current master branch is stable, but missing a few important features\nthat have yet to be ported over from previous versions of the codebase: mainly filtering the table and formulas.**\nTo get an email when a full featured version is ready, [sign up for the email newsletter](https://tinyletter.com/wildcard-extension).\nIf you want to install Wildcard today, there are two options:\nTo use Wildcard with an existing library of supported websites, follow the [quick start instructions](https://geoffreylitt.github.io/wildcard/#/quickstart).\n## Contribute\nFollow the [dev env install instructions](https://geoffreylitt.github.io/wildcard/#/devenv).\nTo run the build watcher: `yarn run dev`\nTo run the extension in a new browser and auto-reload it when you update the code: `yarn run chrome` or `yarn run firefox`",
+   "geoffreylitt/ladybug": "# 🐞 ladybug\nladybug is a visual debugger for Ruby web applications that uses\nChrome Devtools as a user interface.\nIt aims to provide a rich backend debugging experience in a UI that many\nweb developers are already familiar with for debugging frontend Javascript.\n**This project is currently in an experimental phase.** Expect many limitations and bugs. If you try it out, please file\nGithub issues or [email me](mailto:gklitt@gmail.com) to help make this a\nmore useful tool.\n## Get started\n1) Install the gem, or add it to your Gemfile:\n`gem install ladybug`\n2) ladybug is implemented as a Rack middleware, so you'll need to add\n`Ladybug::Middleware` to the Rack middleware stack.\nFor example, in Rails 5, add\nthe following line to `config/application.rb`:\n```\nconfig.middleware.use(Ladybug::Middleware)\n```\n3) Make sure you're using the puma web server, which is currently the\nonly server that ladybug has been tested with.\nTo use puma in Rails: add `gem 'puma'` to your `Gemfile` and `bundle install`.\n4) Then start up your server and try making a request.\nYou should see your server program output something like:\n`Debug in Chrome: chrome-devtools://devtools/bundled/inspector.html?ws=localhost:3000`\n5) Navigate to that URL, and you'll see a Chrome Devtools window.\nIn the Sources tab, you can view your Ruby source code.\nIf you set a breakpoint and then make another request to your server,\nit should pause on the breakpoint and you'll be able to inspect\nlocal and instance variables in Devtools.\n6) You can then use the \"step over\" button to step through your code,\n   or \"continue\" to continue code execution. \"Step into\" and \"Step out\"\n   also work in some contexts.\n**Security warning:** This debugger should only be run in local development.\nRunning it on a server open to the internet could allow anyone to\nexecute code on your server without authenticating.\n## Development status\n* So far, ladybug has been tested with simple Rails applications running on\nRails 5 with the puma web server. Eventually it aims to support more Rack\napplications and web servers (and perhaps even non-Rack applications).\n* inspecting primtive objects like strings and numbers works okay; support for more com",
+   "geoffreylitt/simple_recommender": "# simple_recommender\n🔍 A quick and easy way to get \"Users who liked X also liked Y\" recommendations\nfor related items in your Rails/Postgres application.\n```ruby\nbook = Book.find_by(name: \"Harry Potter\")\n# Find the books most similar to Harry Potter, based on users' likes\nbook.similar_items\n# => [#<Book id: 1840, name: \"Twilight\">,\n      #<Book id: 1231, name: \"Redwall\">,\n      #<Book id: 1455, name: \"Lord of the Rings\">...]\n```\n**Why should I used this gem?**\nUnlike similar gems like [predictor](https://github.com/Pathgather/predictor) and [recommendable](https://github.com/davidcelis/recommendable) that require you to track relationships between entities in Redis, simple_recommender uses the associations you already have in your Postgres database.\nThis means you don't have to maintain a separate copy of your data, and also don't incur the operational complexity of needing to use Redis. Hooray for simplicity!\nFor more background on the idea behind the gem, see [this blog post](https://www.geoffreylitt.com/2017/03/19/building-a-rails-recommendation-engine.html).\n**But is it fast enough?**\nsimple_recommender uses fast integer array operations built into Postgres,\nso it's fast enough to return realtime recommendations for many applications.\nAs a rough guideline based on benchmarking with a Heroku Standard 0 database:\nif you have under 100,000 records in your join table (e.g., less than 100,000\nLikes in the above example), then simple_recommender can return queries within\na couple hundred milliseconds.\nIf you're not sure if this is fast enough for your use case, I would recommend\ntrying it out on your data; it's just a couple lines of code to get started.\nIf you know that you have way more data than that, I would recommend looking into\none of the Redis-based gems that allow for offline precomputation. I'm also\nconsidering adding offline precomputation to this gem to allow for higher scale.\n## Getting started\n### Prerequisites\nThis gem requires:\n* Rails 4+\n* PostgreSQL ([setup guide](https://www.digitalocean.com/community/tutorials/how-to-setup-ruby-on-rails-with-postgres))\n### Installation\n##### Install the gem\n* Add the gem to your Gemfile: `gem 'simple_recommende",
+   "geoffreylitt/json-sheets": "# JSON Sheets\nA research prototype exploring ideas for extending spreadsheets.\nNo coherent result yet, just various explorations. Use at your own risk and don't expect good code inside.\nSee [Twitter](https://twitter.com/geoffreylitt/status/1161033775872118789) for a tad more explanation.\nSome of the concepts in play:\n* named cells containing JSON\n* JQ as a formula language\n* build a GUI in a spreadsheet -- input events in the UI\n  are represented as an append-only immutable stream,\n  which is then processed by further cells\nThe `redesign` branch has an alternate version from the `master` one.\n## To run\n`npm start`, then view the app at `localhost:3000`\n"
+  }
+ },
+ "apps": []
+}

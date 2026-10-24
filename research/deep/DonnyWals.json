@@ -1,0 +1,347 @@
+{
+ "handle": "DonnyWals",
+ "sites": [
+  {
+   "url": "https://www.donnywals.com",
+   "ok": true,
+   "title": "Donny Wals – Swift and iOS development tutorials, books, and workshops",
+   "description": "Learn Swift and iOS Development with practical tutorials, books, and workshops that help you stay up to date with Swift’s evolution.",
+   "stack": [
+    "WordPress",
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en-US",
+   "home_text": "Skip to content \nHi, my name is Donny \nMy goal is to help you learn Swift and iOS Development through practical tutorials and more. \nRecent articles See all \n Installing simulator runtimes from the command line June 9, 2026 \n Xcode \nAfter installing the Xcode 27 beta, I tried to download all the simulator runtimes that I needed. The watchOS runtime installed flawlessly, but I had issues installing the iOS runtime. I kept seeing a dialog that said that Xcode was fetching download information and no matter how long I waited; that dialog would not go […] Read post \n How I use FlowDeck to let my AI agent build and run my apps April 17, 2026 \n App Development \nA while back, I posted on X about how folks manage the context windows for their AI agents. In response to that post, the person who built FlowDeck reached out and asked if I’d give it a try. My workflow was mostly fine as-is (build with Cursor, tell it to check builds with xcodebuild, and […] Read post \n Setting up a delivery pipeline for your agentic iOS projects February 16, 2026 \n App Development \nA while back, my app crashed mid-workout at the gym. I uploaded the crash report, gave my AI agent some context, and went back to my set. By the time I finished, there was a pull request waiting for me. I reviewed it, merged it, and had a fixed TestFlight build on my device shortly […] Read post \n The importance of human touch in AI-driven development February 6, 2026 \n App Development \nAI is changing how we build apps. That’s not news. What might be less obvious is how this shift is forcing us to think differently about what actually matters in development. In this post, I want to share my balanced thoughts on AI-driven coding. I’d like to give you my perspective on why tons of […] Read post \n Migrating an iOS app from Paid up Front to Freemium January 30, 2026 \n App Development \nPaid up front apps can be a tough sell on the App Store. You might be getting plenty of views on your product page, but if those views aren’t converting to downloads, something has to change. That’s exactly where I found myself with Maxine: decent traffic, almost no sales. So I made the switch to […] Read post \n A Deep Dive into SwiftData migrations January 19, 2026 \n SwiftData \nSwiftData migrations are one of those things that feel optional… right until you ship an update and real users upgrade with real data on disk. In this post we’ll dig into: How to implement schema versions with VersionedSchema When you should introduce new schema versions When SwiftData can migrate automatically and when you’ll have to […] Read post \nNewsletter \nSubscribe to my newsletter and never miss a post \n Yes, I want to receive the weekly donnywals.com newsletter. \n HP \nPopular categories \n Swift Concurrency \n SwiftUI \n Swift \n App Development \n Testing \nRecently updated \n How I use FlowDeck to let my AI agent build and run my apps \nLast updated: April 19, 2026 \n The importance of human touch in AI-driven development \nLast updated: February 9, 2026 \n Migrating an iOS app from Paid up Front to Freemium \nLast updated: February 2, 2026 \n Configuring projects with xcconfig \nLast updated: January 30, 2026 \n Using KeyPaths as functions in Swift \nLast updated: November 5, 2025 \nMy books \nPractical Swift Concurrency \nLearn everything you need to know to make optimal use of Swift Concurrency in your applications. This book covers everything from awaiting asynchronous method calls to building your own highly concurrent systems. It’s a great introduction for those looking to familiarize themselves with everything Swift Concurrency has to offer. Buy on Gumroad \nPractical Combine \nPractical Combine is a book aimed at intermediate to advanced developers who want to learn more about Apple's Combine framework. This book takes you all the way from the basics to building custom Combine publishers using Practical, useful examples that you can start using immediately. Buy on Gumroad \nPractical Core Data \nPractical Core Data is for intermediate to advanced developers who want to learn more about Core Data. Whether you're new to Core Data, or tried using it years ago, you'll find that Practical Core Data introduces you to all the essentials to get you up and running with the framework. Buy on Gumroad",
+   "github_links": [
+    "js-cookie"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://www.donnywals.com/feed",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "Installing simulator runtimes from the command line",
+      "date": "Tue, 09 Jun 2026 13:49:17",
+      "url": "https://www.donnywals.com/installing-simulator-runtimes-from-the-command-line/"
+     },
+     {
+      "title": "How I use FlowDeck to let my AI agent build and run my apps",
+      "date": "Fri, 17 Apr 2026 12:43:41",
+      "url": "https://www.donnywals.com/how-i-use-flowdeck-to-let-my-ai-agent-build-and-run-my-apps/"
+     },
+     {
+      "title": "Setting up a delivery pipeline for your agentic iOS projects",
+      "date": "Mon, 16 Feb 2026 07:00:39",
+      "url": "https://www.donnywals.com/setting-up-a-delivery-pipeline-for-your-agentic-ios-projects/"
+     },
+     {
+      "title": "The importance of human touch in AI-driven development",
+      "date": "Fri, 06 Feb 2026 08:00:00",
+      "url": "https://www.donnywals.com/the-importance-of-human-touch-in-ai-driven-development/"
+     },
+     {
+      "title": "Migrating an iOS app from Paid up Front to Freemium",
+      "date": "Fri, 30 Jan 2026 08:34:51",
+      "url": "https://www.donnywals.com/migrating-an-ios-app-from-paid-up-front-to-freemium/"
+     },
+     {
+      "title": "A Deep Dive into SwiftData migrations",
+      "date": "Mon, 19 Jan 2026 12:23:36",
+      "url": "https://www.donnywals.com/a-deep-dive-into-swiftdata-migrations/"
+     },
+     {
+      "title": "A deep dive into Collections, Sequences, and Iterators in Swift",
+      "date": "Wed, 05 Nov 2025 11:49:20",
+      "url": "https://www.donnywals.com/a-deep-dive-into-collections-sequences-and-iterators-in-swift/"
+     },
+     {
+      "title": "Using Observations to observe @Observable model properties",
+      "date": "Wed, 24 Sep 2025 11:27:53",
+      "url": "https://www.donnywals.com/using-observations-to-observe-observable-model-properties/"
+     },
+     {
+      "title": "How to unwrap [weak self] in Swift Concurrency Tasks?",
+      "date": "Thu, 18 Sep 2025 13:56:57",
+      "url": "https://www.donnywals.com/how-to-use-weak-self-in-swift-concurrency-tasks/"
+     },
+     {
+      "title": "Should you opt-in to Swift 6.2’s Main Actor isolation?",
+      "date": "Thu, 11 Sep 2025 13:59:33",
+      "url": "https://www.donnywals.com/should-you-opt-in-to-swift-6-2s-main-actor-isolation/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "donnywals",
+  "user": {
+   "name": "Donny Wals",
+   "company": "donnywals.com",
+   "blog": "https://www.donnywals.com",
+   "location": "Amsterdam area",
+   "bio": null,
+   "public_repos": 40,
+   "followers": 340,
+   "created_at": "2011-12-19T08:07:04Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "donnywals/SwiftUIPropertyWrapperTalk",
+    "description": null,
+    "stargazers_count": 48,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-06-15T13:56:58Z",
+    "pushed_at": "2022-06-24T10:03:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/HomeTasks",
+    "description": "An experimental SwiftUI project",
+    "stargazers_count": 47,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-06-25T22:32:06Z",
+    "pushed_at": "2020-08-04T08:10:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/MultipartRequestURLSession",
+    "description": "Example code to show how to make a multipart request using nothing but URLSession and a URLRequest",
+    "stargazers_count": 23,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-10-14T18:27:49Z",
+    "pushed_at": "2019-10-30T07:54:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/LiquidPath",
+    "description": null,
+    "stargazers_count": 13,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-07-01T17:53:53Z",
+    "pushed_at": "2025-07-01T18:23:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/CustomCollectionViewLayout",
+    "description": "A sample project to accompany a blogpost",
+    "stargazers_count": 11,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-07-07T20:19:50Z",
+    "pushed_at": "2019-10-17T17:45:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/swiftui-view-redraw",
+    "description": "Repo to demonstrate some of SwiftUI's redraw / diffing behaviors",
+    "stargazers_count": 11,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-11-05T09:25:13Z",
+    "pushed_at": "2025-11-09T18:48:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/CoreDataInSwiftUI",
+    "description": "Example repo of working with Core Data in a SwiftUI application",
+    "stargazers_count": 9,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-10-06T14:15:05Z",
+    "pushed_at": "2021-10-06T14:17:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/SwiftUI-Coordinators",
+    "description": "Experiment to build a moderately complex flow with SwiftUI + Coordinators + UIKit",
+    "stargazers_count": 6,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-04-07T11:36:34Z",
+    "pushed_at": "2022-04-07T13:58:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/AsyncStuff",
+    "description": null,
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-06-08T19:00:02Z",
+    "pushed_at": "2021-06-09T17:22:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/donnywals",
+    "description": "it me!",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2020-07-16T09:23:06Z",
+    "pushed_at": "2024-07-26T07:59:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/ScopedObservable",
+    "description": "Helps with scoping observable objects to a select few properties to avoid extraneous body evaluations in SwiftUI",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2023-04-24T09:07:39Z",
+    "pushed_at": "2023-04-24T09:07:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/AsyncTaskQueue",
+    "description": "Simple example of an async task queue",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2022-02-16T13:21:49Z",
+    "pushed_at": "2022-02-16T13:24:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/HelloUnitTests",
+    "description": "Repository to accompany a blogpost",
+    "stargazers_count": 1,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-09-23T14:14:00Z",
+    "pushed_at": "2019-09-23T14:14:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/AppAcademyDemo",
+    "description": "Demo project for the App Academy",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-12-06T14:55:53Z",
+    "pushed_at": "2016-12-10T09:57:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/ExperimentalLocalization",
+    "description": "Experimental Localization example that uses Combine,SwiftUI and callAsFunction",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-02-20T12:32:06Z",
+    "pushed_at": "2020-02-20T12:37:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/InstrumentsPackage",
+    "description": "attempt at getting an instruments package to work",
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2018-06-25T08:44:24Z",
+    "pushed_at": "2018-09-14T12:41:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/InstrumentsWorkshop",
+    "description": "Repository to accompany the Instruments workshop at Swift Island",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2018-07-03T11:38:39Z",
+    "pushed_at": "2018-07-04T11:54:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "donnywals/jera-app",
+    "description": "iOS timetable app for Jera On Air 2026",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-06-26T07:43:32Z",
+    "pushed_at": "2026-06-26T11:37:09Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 27,
+  "languages": [
+   [
+    "Swift",
+    19
+   ],
+   [
+    "HTML",
+    3
+   ],
+   [
+    "TypeScript",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 1693,
+  "orgs": [],
+  "profile_readme": "# Hi There!\n\nMy name is Donny, and I'm an iOS engineer, blogger, and author. I love learning, sharing what I know, and playing the guitar 🎸.\n\n* 📝 You can find my blog [right here](http://donnywals.com/)! I regularly publish new iOS related content there.\n* 📗 If you want to learn more about Apple's Combine framework, I recommend you read my book [Practical Combine](https://practicalcombine.com).\n* 🎁 I built a website that helps you understand [SwiftUI's property wrappers](https://swiftuipropertywrappers.com).\n* 🐦 Follow my [Twitter account](https://twitter.com/donnywals) where I make semi-regular attempts at tweeting cool stuff.\n* 📹 I have a [YouTube channel](https://www.youtube.com/channel/UCCBE9yHihCjh0ga8IIDEBhw) where I post iOS development related videos\n\n",
+  "readmes": {
+   "donnywals/SwiftUIPropertyWrapperTalk": "# Hey!\nThis repo is just a small sample to go along with my talk on property wrappers in SwiftUI.\n",
+   "donnywals/HomeTasks": "# HomeTasks\nAn experimental SwiftUI project\n## Warning\nI have no idea if this project is any good. It's just me learning and messing around in the open. It should not be used by anybody as a definitive source of good SwiftUI code.\n",
+   "donnywals/MultipartRequestURLSession": "# MultipartRequestURLSession\nExample code to show how to make a multipart request using nothing but URLSession and a URLRequest.\nUsed as a sample project for [this blogpost](https://www.donnywals.com/uploading-images-and-forms-to-a-server-using-urlsession/)\n"
+  }
+ },
+ "apps": []
+}

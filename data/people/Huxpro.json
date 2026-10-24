@@ -1,0 +1,164 @@
+{
+ "name": "黄玄（Xuan Huang · Hux）",
+ "role": "字节跳动 Lynx 架构师 · 前 Meta React / React Native / Hermes 团队 · TC39 / W3C · 纽约 · 加州 · 中国",
+ "title": "黄玄：梦想<em>更好的界面</em>",
+ "dek": "TA 十岁开始做 Flash 游戏，靠动态图形挣到第一笔钱；中国传媒大学数字媒体艺术本科，罗切斯特理工学院计算机硕士，方向是编程语言和类型理论。2010 年代 TA 在阿里巴巴、娱票儿、饿了么做 Web 和移动应用，并撰文介绍了饿了么升级为 PWA 的过程。之后加入 Meta，为 Web（ReasonML）、XR、React Native 的 Hermes 引擎和 React 做编译器，在 React Conf 2021 上讲了后来成为 React Compiler 的《React without memo》。现在 TA 在字节跳动担任跨平台框架 Lynx 的架构师，Lynx 支撑着 TikTok 的搜索、商城、直播和 TikTok Studio，2025 年开源。TA 的 Jekyll 博客主题（★7.6 千）被复刻了 6,500 多次。",
+ "card": "字节跳动 Lynx 架构师；前 Meta React、React Native、Hermes 团队；TC39 / W3C；博客主题 ★7.6 千。",
+ "location": "美国纽约、加州与中国",
+ "updated": "2026-10-23",
+ "tags": ["React", "跨平台", "编译器", "编程语言", "PWA"],
+ "links": [
+  {"label": "hux.pro", "url": "https://hux.pro"},
+  {"label": "Lynx", "url": "https://lynxjs.org"},
+  {"label": "GitHub：Huxpro", "url": "https://github.com/Huxpro"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I dream of better interfaces: the ones we use, and the ones we use to build them.」",
+  "<strong>代表作：</strong>Lynx（★15,202，架构）、ReactLynx、Vue Lynx（★574）、React Compiler 早期工作、Hermes、WasmCert（WebAssembly 规范的 Coq 形式化）、言说 Yanshuo.io、Hux Blog 主题（★7,618 / 复刻 6,552）。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 7.9 千、近一年贡献 10,750 次；X 关注者约 1.7 万。",
+  "<strong>演讲：</strong>React Conf 2021《React without memo》、COSCon 2022《React State of the Union》、React Universe Conf《React for Two Threads》。"
+ ],
+ "lead": "TA 的个人网站把自己建模成一个操作系统：桌面上有 React、Lynx、Flappy Bird 和 Vue Lynx 的图标，有天气和时钟小组件，还有可以拖动的窗口。页面上写着：「十岁时在 Flash 里画画的孩子，和在类型理论里做证明的研究生，想要的是同一样东西：界面。」脚注说灵感来自 Mercury OS、ryOS 和 Apple 的人机界面指南。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "框架架构师、编译器工程师"],
+     ["所在地", "纽约、加州与中国"],
+     ["教育", "中国传媒大学数字媒体艺术本科；罗切斯特理工学院计算机硕士"],
+     ["经历", "阿里巴巴 → 娱票儿 → 饿了么 → Meta → 字节跳动"],
+     ["标准组织", "TC39、W3C"],
+     ["技术栈", "JavaScript、TypeScript、C++、Coq、OCaml / Reason"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "黄玄在字节跳动<strong>架构 Lynx</strong>：一套让开发者用已有的 Web 技能，为移动端和 Web 写出真正原生界面的技术家族，包含渲染引擎、性能导向的双线程 UI 编程模型和基于 Rust 的工具链。官方开源博客写道：「原生是必需品。」TA 在 React Universe Conf 上讲的正是如何让 React 适应双线程。"},
+    {"p": "2026 年，TA 做了 Vue Lynx（Vue 3 在 Lynx 上的自定义渲染器，仍是预览版），还在 Lynx 上做了 Flappy Bird 演示。TA 称赞 Preact 11 在保留精简基础的同时补上了现代 React 特性，适合 Lynx 在上面搭建双线程模型。"},
+    {"note": "本页依据 hux.pro、lynxjs.org 开源公告、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。TA 在各公司的具体职级和任期未逐一核实；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "童年", "title": "Flash 与动态图形", "text": "十岁做 Flash 游戏，后来靠动态图形挣到第一笔钱。"},
+     {"when": "2010 年代中期", "title": "Web 前端", "text": "阿里巴巴、娱票儿；Hux Blog 主题；言说 Yanshuo.io；PWA 布道。"},
+     {"when": "此后", "title": "饿了么 PWA", "text": "参与饿了么升级为渐进式 Web 应用，文章被广泛引用。"},
+     {"when": "2019", "title": "类型理论", "text": "罗切斯特理工读编程语言方向；WasmCert。"},
+     {"when": "2020–2022", "title": "Meta", "text": "Hermes（2020–2021）、React（2021–2022）；React Conf 2021 讲《React without memo》。"},
+     {"when": "2023–", "title": "字节跳动 Lynx", "text": "架构 Lynx；2025 年开源；2026 年 Vue Lynx。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Lynx", "url": "https://lynxjs.org",
+     "meta": ["2023–", "C++ / Rust / TS", "★1.5 万"],
+     "paras": [
+      "「Empower the Web community and invite more to build across platforms.」在 TikTok 内部从高频的搜索面板一路用到完整的 TikTok Studio 应用、电商商城和直播。"
+     ],
+     "facts": [["GitHub", "★15,202"]]
+    }},
+    {"work": {
+     "name": "React without memo", "url": "https://www.youtube.com/watch?v=lGEMwh32soc",
+     "meta": ["React Conf 2021", "演讲"],
+     "paras": [
+      "展示一个能自动记忆化的编译器原型，让开发者不必手写 useMemo 和 useCallback，这是后来 React Compiler 的早期公开亮相。"
+     ]
+    }},
+    {"work": {
+     "name": "Hux Blog", "url": "https://github.com/Huxpro/huxpro.github.io",
+     "meta": ["2015–", "Jekyll / PWA", "★7.6 千"],
+     "paras": [
+      "TA 的个人博客，同时是一个 Jekyll 主题，被复刻 6,552 次，成为很多中文开发者建博客的起点。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Vue Lynx", "Vue 3 的 Lynx 渲染器（预览版）"],
+      ["WasmCert", "WebAssembly 规范的 Coq 形式化"],
+      ["言说 Yanshuo.io", "2016 年的在线幻灯片工具"],
+      ["forcify", "在任何设备上模拟 3D Touch"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://hux.pro", "paras": [
+     "hux.pro 是一个「操作系统」形态的个人网站：可拖动的应用图标、天气和时间组件、写作列表、项目徽章、演讲视频，还有一个「prompts」栏目，记录 TA 如何「提示自己」。支持中英文切换和 ⌘K 搜索。旧博客 huangxuan.me 仍在。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["形态", "桌面操作系统隐喻"],
+      ["语言", "中英双语"],
+      ["灵感", "Mercury OS、ryOS、Apple HIG"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2020-07", "title": "Beyond Being a Frontend Engineer", "url": "https://hux.pro/writing/reflection-2020/en"},
+     {"date": "2020-05", "title": "My Biased View of Programming Languages", "url": "https://hux.pro/writing/pl-chart/en"},
+     {"date": "2020-04", "title": "React Is Not Vue, Obviously", "url": "https://hux.pro/writing/react-hooks-vue-composition/en"},
+     {"date": "", "title": "Upgrading Ele.me to Progressive Web App", "url": "https://hux.pro/writing/upgrading-eleme-to-pwa/en"}
+    ]},
+    {"quote": "I used to prefer Claude over Codex because Codex tended to overengineer things. UNTIL I started making new frameworks and realized that was exactly its strength: abstractions, constraints, invariants, math.", "cite": "黄玄，X，2026-10"},
+    {"p": "TA 也会抛出开放问题，比如「AI 正在吃掉前端，但它不也在吃掉后端吗？后端工程师真正的护城河是什么？」"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["深度", "从设计到类型理论都懂", "—"],
+      ["影响", "React Compiler 早期工作、Lynx", "大部分工作以团队名义发布"],
+      ["写作", "文章质量高", "个人写作 2020 年后较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>设计和计算机科学可以兼修。</strong>",
+     "<strong>用编译器解决开发者的手工劳动。</strong>",
+     "<strong>原生体验是必需品，</strong>不是锦上添花。",
+     "<strong>把个人网站当作作品。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "hux.pro", "url": "https://hux.pro", "why": "玩一下「操作系统」个人网站。"},
+     {"name": "Lynx 开源公告", "url": "https://lynxjs.org/blog/lynx-unlock-native-for-more.html", "why": "理解双线程跨平台思路。"},
+     {"name": "React without memo", "url": "https://www.youtube.com/watch?v=lGEMwh32soc", "why": "React Compiler 的起点。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读《My Biased View of Programming Languages》，然后画一张你自己的编程语言偏好图。",
+ "sources": [
+  {"label": "黄玄的 X 个人资料", "url": "https://x.com/Huxpro"},
+  {"label": "hux.pro", "url": "https://hux.pro"},
+  {"label": "Lynx：Unlock Native for More", "url": "https://lynxjs.org/blog/lynx-unlock-native-for-more.html"},
+  {"label": "GitHub：Huxpro", "url": "https://github.com/Huxpro"},
+  {"label": "GitHub：lynx-family/lynx", "url": "https://github.com/lynx-family/lynx"}
+ ]
+}

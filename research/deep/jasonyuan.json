@@ -1,0 +1,36 @@
+{
+ "handle": "jasonyuan",
+ "sites": [
+  {
+   "url": "http://jasonyuan.design",
+   "ok": true,
+   "title": "Jason Yuan",
+   "description": "Designer and Entrepreneur",
+   "stack": [],
+   "hosting": [
+    "Netlify"
+   ],
+   "lang": "en",
+   "home_text": "",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://mercuryOS.com",
+   "ok": true,
+   "title": "Mercury",
+   "description": "Mercury is a reimaging of the operating system as a fluid modeless experience drive by human intent.",
+   "stack": [],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "[Overview](http://mercuryos.com/)[Architecture](http://mercuryos.com/architecture)[Art Direction](http://mercuryos.com/art-direction)[Credits](http://mercuryos.com/credits)\nHumane.\nMercury rejects the Desktop Metaphor and App Ecosystems as fundamentally inhumane. Inspired by Jef Raskin’s principles, Mercury seeks to deliver a more humane take on human-computer interaction.\n[Read More on Medium](https://medium.com/@jasonyuan/f4de45a04289)\nFluid.\nInstead of asking people to modify the way they think and do around the arbitrary sandboxes of Apps, Mercury responds fluidly to the needs and intentions of its user.\nFocused.\nThe clutter we take for granted in today’s operating systems can be overwhelming, especially for folks sensitive to stimulation. Mercury is respectful of limited bandwidths and attention spans.\nFamiliar.\nMercury provides a glimpse into the systems of tomorrow using familiar interaction paradigms. It is designed for multi-touch tablets with keyboard support, a category of devices often overlooked as awkward hybrids straddling two worlds.\n## Architecture\nThere are no Apps or Folders in Mercury. Instead, content and actions are fluidly assembled based on your intentions.\n[Learn more about Architecture](http://mercuryos.com/architecture)\nModules\nModules are the building blocks of Mercury. Modules can be freely defined using Natural Language Input (text and voice). Think of them as browsers capable of generating UI on demand.\nFlows\nMercury is designed to help you enter and stay in flowstate. When one module isn’t enough, you can generate an adjacent Module by tapping the + button or by pressing Tab . Each new module will further inform Mercury as it aims to predict what you might need moving forward. This process can be repeated indefinitely.\nSpaces\nInstead of hiding files inside folders and functions inside Apps, Mercury generates Spaces based on your intentions. Spaces can scale from a single module to multiple flows. It all depends on the specificity of your declared intent.\n## Art Direction\nMercury’s visual identity fuses the rational structures of Western Modernist design with the East Asian instinct to seek tranquility in chaos.\n[Learn more about Art Direction](http://mercuryos.com/art-direction)",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "apps": []
+}

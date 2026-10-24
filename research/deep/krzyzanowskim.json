@@ -1,0 +1,623 @@
+{
+ "handle": "krzyzanowskim",
+ "sites": [
+  {
+   "url": "https://krzyzanowskim.com",
+   "ok": true,
+   "title": "Marcin Krzyżanowski",
+   "description": "Marcin Krzyżanowski - iOS/macOS software engineer and open-source contributor. Creator of CryptoSwift, ObjectivePGP, STTextView, Notepad.exe, and Commander.",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en-US",
+   "home_text": "Marcin Krzyżanowski \n I'm a software engineer specializing in iOS development, recognized for my contributions to open-source projects. Notably I created CryptoSwift , a Swift library for cryptographic operations, or ObjectivePGP , an iOS/macOS open-source library for secure OpenPGP encryption and digital signature, or Online Swift Playground , and SwiftStudio . Recently, I did a deep dive into TextKit with the STTextView component, which is a reusable and extensible text view built from scratch. Another tool is VMDesktop which is a Linux Virtual Machine launcher for macOS. Notepad.exe is a lightweight IDE for Mac that lets you write and run Swift, Python, and JavaScript code instantly—no project setup required, with integrated iOS Simulator support and a Smart Notes Library. Commander is a native macOS app for AI-powered coding with Claude Code and Codex CLI, featuring integrated git workflow and worktree support. My passion for programming and software design drives me to continuously explore new technologies and contribute to the advancement of the software engineering field. My work in the tech community has involved not only developing innovative tools but also sharing knowledge through speaking engagements at technology conferences and active participation in software development forums.\n You can find me on X (Twitter) , and Instagram or Mastodon , Bluesky . I occasionally blog too. Feel free to email me at [email protected] . You can see my code on GitHub and my résumé if you want 🤓\nPublic speaking \n Swift Connection 2025: Swift on Linux on Mac \n TrySwift Tokyo 2024: Getting to Know TextKit \n The Challenges in Open Source projects - Roundtable | Swift Heroes 2024 Talk \n Harnessing text layout with TextKit 2 (OLX Masterclass Mobile) \n Swiftable 2022: TBC (Virtualization.framework) \n NSSpain 2022: Server-Driven UI, from macOS to iOS \n plSwift 2022: TextEditor: featuring TextKit2 \n Swift Heroes 2022: TextKit2 is about to make text easier \n Swift Heroes 2021: Let's Make That Label with CoreText \n try! Swift World 2020. CoreText Workshop \n AppBuilders 2019 \n FrenchKit 2019 \n iOSConf.sg 2017 \n Mobile Warsaw #25 #55 #76 \n Cocoaheads Berlin \n swift.map \n Mobius Moscow \n Mobius Saint Petersburg 2017 \n SwiftSummit London 2015 \n Swift London \n Mobiconf 2018 \n Mobilization 2018 \n DevFest Baltics 2018 \n DevFest Baltics 2017 \n MobileOptimized Minsk 2016 \nPodcast appearances \n “Building various kinds of editors” with special guest Marcin Krzyzanowski \n “Apple Treats - episode 23: New Year resolutions \n Empower Apps: Cryptography with Marcin Krzyżanowski \n Living By The Code \n SwiftCoders Podcast #61 \n Swift by Sundell #3 \n iPhreaks #177 \n iOSBytes Podcast \n Mój Mac Magazyn 03.2016 (Polish) \n MacPodcast #55 (Polish)",
+   "github_links": [
+    "krzyzanowskim"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://NotepadExe.com",
+   "ok": true,
+   "title": "Notepad.exe: Lightweight Mac Code Editor",
+   "description": "Notepad.exe is a lightweight Mac code editor. Run Swift, Python, JavaScript, Go, and Rust without a project, test on Linux, and export a Mac app.",
+   "stack": [
+    "Substack"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Lightweight Mac code editor \n Make something. Run it. Keep it. \nFive lines of Swift, Python, JavaScript, Go, or Rust shouldn’t need a project. Open a blank note and run the file. Add packages, a Linux target, or a Mac app when the idea sticks. \n Download Mac app \nFree, no account · macOS 15.6+, Universal binary \nSmall ideas should run right away. \nOpen a file, hit Run, and see what happens. Notepad.exe is quick for scratch work, but it still has room for packages, platform testing, and app work. \nIt writes the same code you’d write by hand. You can read it, edit it, and learn from it. \nRun Swift, Python, JavaScript, Go, and Rust \nTry scripts, snippets, CLIs, and UI experiments from one editor without setting up a full project first. \nPrototype iPhone and iPad screens \nRun SwiftUI and UIKit ideas in Simulator when an experiment needs a real screen. \nTest code on Mac and Linux \nKeep quick experiments close to the platform they need to match, from local tools to server-side work. \nBuild small tools \nStick with one editor from the first experiment to a reusable utility, desktop app, or shareable script. \nMore than a scratchpad. \nRun code, keep notes close, add dependencies, and export or share the things worth keeping. \nDistribute Mac apps \nDistribute a macOS Swift note as a local Mac app when the experiment is worth opening on its own. \nPython requirements \nKeep Python dependencies with the file and run them through the interpreter you choose. \nJavaScript with Bun \nRun JavaScript snippets, automation, and package experiments from the same editor. \nGo workflows \nBuild quick CLIs, server experiments, and package tests without switching tools. \nOrganize and share snippets \nSearch the Notes Library, pin scratch windows above other apps, and export polished code images. \nChoose where the assistant runs. \nOn-Device Model stays on the Mac. Notepad AI is the default and sends the conversation through Cloudflare. ChatGPT and Claude do too. \nUse Simulator when a UI idea needs a real screen. \nYou can try SwiftUI and UIKit in the iOS Simulator without starting in Xcode. \nStay in the same editor as the work grows. \nAdd Swift packages, Python requirements, JavaScript dependencies, and Go modules without switching tools. \nOpen a file and run it. \nSwift, Python, JavaScript, Go, and Rust work without a project. Start small, then add your own interpreters, flags, and targets when you need them. \n Run Quick experiments without setup \n Adjust Interpreters, flags, and targets when you need them \n Build Distribute a macOS Swift note as a local app when it is worth keeping \nA few notes from people using Notepad.exe. \nSome came for Swift, some for quick experiments, all wanted something lighter than a full IDE. \nCot does too little for me, Xcode is overkill for small things, so I really love this. \n Jakob \nAn excellent small code editor to explore Swift ideas without launching a heavy IDE like Xcode. \n Thomas Ricouard \nI was really impressed with the performance, only to learn Notepad.exe is a native app. \n Sash Zats \nFast, lightweight and refreshingly low-friction, allowing one to jump straight into experimenting with code snippets. \n Konstantin \nStart free. Pay when it earns a spot in your toolkit. \nAll paid plans work on up to 3 devices. Students and educators can apply for free academic access. \n Recommended \nPro \n$19.99 / year \nEverything, always up to date \nAll features unlocked \nContinuous updates \nWorks on 3 devices \nCancel anytime \nPriority support \n Get Pro \nFree \n$0 / try it first \nStart with the basics \nCore editor features \nLimited advanced features \nOccasional reminders \nUpgrade anytime \n Download free \n Prefer to buy once? See the perpetual license → \n Students and educators get free academic access through an annual subscription at 100% off.\n Apply \nGuides \nGuides for a Swift file, a SwiftUI screen, Python, JavaScript, Go, and a Linux run. \nRun Swift on a Mac without an Xcode project \nCommand-R runs a Swift note without creating an Xcode project. \nPrototype SwiftUI without an Xcode project \nSwiftUI and UIKit templates run in the iOS Simulator next to the source. \nRun Python on a Mac without a project \nYour interpreter, a .venv the app creates, and pip for the note's dependencies. \nRun JavaScript on a Mac with Bun \nOne file, Command-R, and Bun. A Node project can wait until you need it. \nTest code on Linux from a Mac \nSwift and Go cross-compile, then run in a Linux container. Python, Bun, and Rust run there too. \nWhere the assis",
+   "github_links": [
+    "notepadhq"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://NotepadExe.com/news/feed.xml",
+    "count_seen": 39,
+    "items": [
+     {
+      "title": "Notepad.exe 1.6.9",
+      "date": "Sat, 26 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-9"
+     },
+     {
+      "title": "Notepad.exe 1.6.8",
+      "date": "Mon, 21 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-8"
+     },
+     {
+      "title": "Notepad.exe 1.6.7",
+      "date": "Mon, 21 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-7"
+     },
+     {
+      "title": "Notepad.exe 1.6.6",
+      "date": "Mon, 14 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-6"
+     },
+     {
+      "title": "Notepad.exe 1.6.5",
+      "date": "Mon, 14 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-5"
+     },
+     {
+      "title": "Notepad.exe 1.6.4",
+      "date": "Fri, 11 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-4"
+     },
+     {
+      "title": "Notepad.exe 1.6.3",
+      "date": "Fri, 11 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-3"
+     },
+     {
+      "title": "Notepad.exe 1.6.2",
+      "date": "Fri, 11 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-2"
+     },
+     {
+      "title": "Notepad.exe 1.6.1",
+      "date": "Tue, 08 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-1"
+     },
+     {
+      "title": "Notepad.exe 1.6.0",
+      "date": "Mon, 07 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-6-0"
+     },
+     {
+      "title": "Notepad.exe 1.5.21",
+      "date": "Thu, 03 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-21"
+     },
+     {
+      "title": "Notepad.exe 1.5.20",
+      "date": "Tue, 01 Sep 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-20"
+     },
+     {
+      "title": "Notepad.exe 1.5.19",
+      "date": "Fri, 28 Aug 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-19"
+     },
+     {
+      "title": "Notepad.exe 1.5.18",
+      "date": "Sun, 23 Aug 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-18"
+     },
+     {
+      "title": "Notepad.exe 1.5.17",
+      "date": "Sat, 22 Aug 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-17"
+     },
+     {
+      "title": "Notepad.exe 1.5.16",
+      "date": "Fri, 21 Aug 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-16"
+     },
+     {
+      "title": "Notepad.exe 1.5.15",
+      "date": "Thu, 20 Aug 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-15"
+     },
+     {
+      "title": "Notepad.exe 1.5.14",
+      "date": "Wed, 19 Aug 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-14"
+     },
+     {
+      "title": "Notepad.exe 1.5.13",
+      "date": "Wed, 19 Aug 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-13"
+     },
+     {
+      "title": "Notepad.exe 1.5.12",
+      "date": "Tue, 04 Aug 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-12"
+     },
+     {
+      "title": "Notepad.exe 1.5.11",
+      "date": "Thu, 30 Jul 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-11"
+     },
+     {
+      "title": "Notepad.exe 1.5.10",
+      "date": "Mon, 27 Jul 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-10"
+     },
+     {
+      "title": "Notepad.exe 1.5.9",
+      "date": "Sun, 26 Jul 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-9"
+     },
+     {
+      "title": "Notepad.exe 1.5.8",
+      "date": "Sun, 26 Jul 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-8"
+     },
+     {
+      "title": "Notepad.exe 1.5.7",
+      "date": "Fri, 24 Jul 2026 00:00:00",
+      "url": "https://notepadexe.com/news/#release-1-5-7"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://CryptoSwift.io",
+   "ok": true,
+   "title": "",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "[](https://cryptoswift.io/#requirements)\n[](https://cryptoswift.io/#requirements)[](https://github.com/swiftlang/swift-package-manager)[](https://github.com/Carthage/Carthage)[](https://cocoapods.org/pods/CryptoSwift)\nPure Swift cryptographic primitives and utilities for [Swift](https://swift.org/). ([#PureSwift](https://twitter.com/hashtag/pureswift))\n**Note**: The current release line builds with Swift 5.6 and newer toolchains. If you need an older compiler, use the matching legacy branch listed in [Swift version support](https://cryptoswift.io/#swift-version-support). Older branches are not actively maintained.\n* * *\n[Requirements](https://cryptoswift.io/#requirements) | [Features](https://cryptoswift.io/#features) | [Recommended Defaults](https://cryptoswift.io/#recommended-defaults) | [Contribution](https://cryptoswift.io/#contribution) | [Installation](https://cryptoswift.io/#installation) | [Swift Version Support](https://cryptoswift.io/#swift-version-support) | [How-to](https://cryptoswift.io/#how-to) | [Author](https://cryptoswift.io/#author) | [License](https://cryptoswift.io/#license) | [Changelog](https://cryptoswift.io/#changelog)\n### Support & Sponsors\n[](https://cryptoswift.io/#support--sponsors)\nThe financial sustainability of the project is possible thanks to the ongoing contributions from our [GitHub Sponsors](https://github.com/sponsors/krzyzanowskim)\n### Premium Sponsors\n[](https://cryptoswift.io/#premium-sponsors)\nNone\n## Requirements\n[](https://cryptoswift.io/#requirements)\nGood mood\n*   Swift 5.6 or newer\n*   Apple deployment targets: iOS 11, macOS 10.13, Mac Catalyst 13, tvOS 11, watchOS 4, visionOS 1\n*   Linux and Android are exercised in CI\n## Features\n[](https://cryptoswift.io/#features)\n*   Pure Swift implementation\n*   Convenient extensions for `String`, `Data`, and `Array<UInt8>`\n*   Support for incremental updates and streaming APIs\n*   Apple platforms, Linux, and Android support\n#### Hash (Digest)\n[](https://cryptoswift.io/#hash-digest)\n[MD5](https://tools.ietf.org/html/rfc1321) | [SHA1](https://tools.ietf.org/html/rfc3174) | [SHA2-224](https://tools.ietf.org/html/rfc6234) | [SHA2-256](https://tools.ietf.org/html/rfc6234) | [SHA2-384](https://tools.ietf.org/html/rfc6234) | [SHA2-512](https://tools.ietf.org/html/rfc6234) | [SHA3](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf)\n#### Cyclic Redundancy Check (CRC)\n[](https://cryptoswift.io/#cyclic-redundancy-check-crc)\n[CRC32](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) | [CRC32C](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) | [CRC16](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)\n#### Cipher\n[](https://cryptoswift.io/#cipher)\n[AES-128, AES-192, AES-256](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf) | [ChaCha20](http://cr.yp.to/chacha/chacha-20080128.pdf) | [XChaCha20](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-xchacha) | [Rabbit](https://tools.ietf.org/html/rfc4503) | [Blowfish](https://www.schneier.com/academic/blowfish/)\n#### RSA (public-key encryption algorithm)\n[](https://cryptoswift.io/#rsa-public-key-encryption-algorithm)\n[Encryption, Signature](https://github.com/krzyzanowskim/CryptoSwift#rsa)\n#### Message authenticators\n[](https://cryptoswift.io/#message-authenticators)\n[Poly1305](https://cr.yp.to/mac/poly1305-20050329.pdf) | [HMAC (MD5, SHA1, SHA256)](https://www.ietf.org/rfc/rfc2104.txt) | [CMAC](https://tools.ietf.org/html/rfc4493) | [CBC-MAC](https://en.wikipedia.org/wiki/CBC-MAC)\n#### Cipher mode of operation\n[](https://cryptoswift.io/#cipher-mode-of-operation)\n*   Electronic codebook ([ECB](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation…))\n*   Cipher-block chaining ([CBC](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation…))\n*   Propagating Cipher Block Chaining ([PCBC](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation…))\n*   Cipher feedback ([CFB](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation…))\n*   Output Feedback ([OFB](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation…))\n*   Counter Mode ([CTR](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation…))\n*   Galois/Counter Mode ([GCM](https://csrc.nist.gov/publications/detail/sp/800-38d/final))\n*   Counter with Cipher Block Chaining-Message Authentication Code ([CCM](https://csrc.nist.gov/publications/detail/sp/800-38c/final))\n*   OCB Authenticated-Encryption Algorithm ([OCB](https://tools.ietf.org/html/rfc7253))\n#### Password-Based Key Derivat",
+   "github_links": [
+    "Carthage",
+    "krzyzanowskim",
+    "swiftlang"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "krzyzanowskim",
+  "user": {
+   "name": "Marcin Krzyzanowski",
+   "company": "@GoodNotes ",
+   "blog": "https://krzyzanowskim.com",
+   "location": "Disappointment Islands",
+   "bio": "Passionate about open source & developer productivity. Follow me on socials where I live.",
+   "public_repos": 111,
+   "followers": 1847,
+   "created_at": "2011-04-28T23:56:37Z",
+   "twitter_username": "krzyzanowskim",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "krzyzanowskim/CryptoSwift",
+    "description": "CryptoSwift is a growing collection of standard and secure cryptographic algorithms implemented in Swift",
+    "stargazers_count": 10578,
+    "forks_count": 1809,
+    "language": "Swift",
+    "homepage": "http://cryptoswift.io",
+    "created_at": "2014-07-06T07:31:39Z",
+    "pushed_at": "2026-08-19T14:45:33Z",
+    "topics": [
+     "aes",
+     "aes-gcm",
+     "cipher",
+     "commoncrypto",
+     "cryptography",
+     "cryptoswift",
+     "digest",
+     "hmac",
+     "hmac-authentication",
+     "md5",
+     "sha1",
+     "sha3",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/STTextView",
+    "description": "Performant and reusable text view component (TextKit 2), with line numbers and more. UITextView / NSTextView replacement.",
+    "stargazers_count": 1606,
+    "forks_count": 107,
+    "language": "Swift",
+    "homepage": "https://swift.best",
+    "created_at": "2022-02-16T16:53:58Z",
+    "pushed_at": "2026-10-06T12:05:38Z",
+    "topics": [
+     "appkit",
+     "cococa",
+     "editor",
+     "macos",
+     "nstextview",
+     "sttextview",
+     "swift",
+     "swiftui",
+     "text",
+     "textkit",
+     "textkit2",
+     "textview"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/Natalie",
+    "description": "Natalie - Storyboard Code Generator (for Swift)",
+    "stargazers_count": 1159,
+    "forks_count": 67,
+    "language": "Swift",
+    "homepage": "http://blog.krzyzanowskim.com/2015/04/15/natalie-storyboard-code-generator/",
+    "created_at": "2015-04-15T01:46:56Z",
+    "pushed_at": "2018-11-14T08:40:18Z",
+    "topics": [
+     "segues",
+     "storyboard",
+     "swift"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "krzyzanowskim/OpenSSL",
+    "description": "OpenSSL package for SwiftPM, CocoaPod, and Carthage, multiplatform",
+    "stargazers_count": 1022,
+    "forks_count": 373,
+    "language": "C",
+    "homepage": "https://swift.best",
+    "created_at": "2013-10-07T15:06:35Z",
+    "pushed_at": "2026-10-02T12:24:46Z",
+    "topics": [
+     "carthage",
+     "cocoapods",
+     "ios",
+     "macos",
+     "openssl",
+     "spm",
+     "swift-package-manager",
+     "tvos",
+     "visionos",
+     "watchos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/ObjectivePGP",
+    "description": "ObjectivePGP is an open-source library for iOS and macOS that provides developers with tools for implementing OpenPGP encryption and decryption, digital signing, and signature verification in their applications, thereby enhancing security and data integrity.",
+    "stargazers_count": 727,
+    "forks_count": 122,
+    "language": "Objective-C",
+    "homepage": "https://objectivepgp.com",
+    "created_at": "2014-07-25T14:21:11Z",
+    "pushed_at": "2024-05-20T15:48:44Z",
+    "topics": [
+     "encryption",
+     "framework",
+     "ios",
+     "macos",
+     "macos-swift",
+     "objective-c",
+     "openpgp",
+     "osx",
+     "pgp",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/claude-better",
+    "description": "better claude harness",
+    "stargazers_count": 415,
+    "forks_count": 48,
+    "language": null,
+    "homepage": "https://blog.krzyzanowskim.com/2026/03/30/shipping-snake-oil/",
+    "created_at": "2026-03-27T12:27:41Z",
+    "pushed_at": "2026-03-29T22:16:53Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "krzyzanowskim/OnlineSwiftPlayground",
+    "description": "Online Swift Playground",
+    "stargazers_count": 256,
+    "forks_count": 32,
+    "language": "Swift",
+    "homepage": "http://online.SwiftPlayground.run",
+    "created_at": "2018-01-08T00:12:47Z",
+    "pushed_at": "2025-06-24T08:52:57Z",
+    "topics": [
+     "kitura",
+     "server-side-swift",
+     "swift",
+     "swift-on-server",
+     "web"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/CoreTextSwift",
+    "description": "CoreText Swift bindings",
+    "stargazers_count": 168,
+    "forks_count": 7,
+    "language": "Swift",
+    "homepage": "https://swift.best",
+    "created_at": "2020-06-13T21:58:12Z",
+    "pushed_at": "2024-06-23T22:04:59Z",
+    "topics": [
+     "coretext",
+     "ios",
+     "macos",
+     "swift",
+     "text-processing"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/SwiftUI.TextEdit",
+    "description": "SwiftUI proof-of-concept text edit component",
+    "stargazers_count": 92,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": "https://swift.best",
+    "created_at": "2021-04-27T20:24:56Z",
+    "pushed_at": "2021-09-22T09:08:46Z",
+    "topics": [
+     "swiftui",
+     "swiftui-components",
+     "swiftui-example"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/NSTableView-Sections",
+    "description": "NSTableView with sections (similar to UITableView)",
+    "stargazers_count": 89,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": "http://blog.krzyzanowskim.com/2015/05/29/lets-talk-about-sections-for-nstableview/",
+    "created_at": "2015-05-31T19:25:40Z",
+    "pushed_at": "2019-07-17T14:19:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/JSONCodable",
+    "description": "JSON Codable is what we need 90% of the time",
+    "stargazers_count": 75,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": "https://twitter.com/krzyzanowskim/status/1213943161309011969",
+    "created_at": "2020-01-05T22:13:09Z",
+    "pushed_at": "2020-01-09T11:48:25Z",
+    "topics": [
+     "json",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/unnetpgp",
+    "description": "*Deprecated* NetPGP wrapper. Use ObjectivePGP",
+    "stargazers_count": 65,
+    "forks_count": 15,
+    "language": "C",
+    "homepage": "http://objectivepgp.com",
+    "created_at": "2013-10-09T10:56:33Z",
+    "pushed_at": "2017-07-11T08:46:05Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "krzyzanowskim/STTextKitPlus",
+    "description": "Collection of useful TextKit 2 helpers",
+    "stargazers_count": 59,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": "https://swift.best",
+    "created_at": "2023-10-19T11:39:24Z",
+    "pushed_at": "2026-09-08T14:06:30Z",
+    "topics": [
+     "sttextview",
+     "textkit",
+     "textkit2"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/reorder",
+    "description": "Reorder Swift functions",
+    "stargazers_count": 57,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "https://krzyzanowskim.com",
+    "created_at": "2019-10-05T18:43:33Z",
+    "pushed_at": "2019-10-25T07:30:54Z",
+    "topics": [
+     "command-line-tool",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/SwiftUI.AnimatedImage",
+    "description": "SwiftUI AnimatedImage View",
+    "stargazers_count": 57,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2021-07-31T00:21:43Z",
+    "pushed_at": "2021-07-31T00:54:16Z",
+    "topics": [
+     "animation",
+     "gif-animation",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/STTextView-Plugin-Neon",
+    "description": "Source Code Syntax Highlighting",
+    "stargazers_count": 56,
+    "forks_count": 48,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2023-08-19T14:07:04Z",
+    "pushed_at": "2026-07-16T09:03:51Z",
+    "topics": [
+     "plugin",
+     "sttextview",
+     "textview"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/SwiftUI.SplitView",
+    "description": null,
+    "stargazers_count": 54,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "https://swift.best",
+    "created_at": "2022-07-25T11:15:38Z",
+    "pushed_at": "2022-07-25T14:47:25Z",
+    "topics": [
+     "splitview",
+     "swiftui",
+     "swiftui-components"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "krzyzanowskim/KQueue",
+    "description": "Swift wrapper for kqueue file system monitoring",
+    "stargazers_count": 42,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2026-01-05T10:36:48Z",
+    "pushed_at": "2026-01-05T17:19:22Z",
+    "topics": [
+     "darwin",
+     "kqueue",
+     "swift"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 56,
+  "languages": [
+   [
+    "Swift",
+    35
+   ],
+   [
+    "C",
+    7
+   ],
+   [
+    "Objective-C",
+    5
+   ],
+   [
+    "TypeScript",
+    2
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "Vue",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "krzyzanowskim/CryptoSwift",
+    "stargazerCount": 10578,
+    "description": "CryptoSwift is a growing collection of standard and secure cryptographic algorithms implemented in Swift",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "http://cryptoswift.io"
+   },
+   {
+    "nameWithOwner": "krzyzanowskim/STTextView",
+    "stargazerCount": 1606,
+    "description": "Performant and reusable text view component (TextKit 2), with line numbers and more. UITextView / NSTextView replacement.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://swift.best"
+   },
+   {
+    "nameWithOwner": "krzyzanowskim/OpenSSL",
+    "stargazerCount": 1022,
+    "description": "OpenSSL package for SwiftPM, CocoaPod, and Carthage, multiplatform",
+    "primaryLanguage": {
+     "name": "C"
+    },
+    "homepageUrl": "https://swift.best"
+   },
+   {
+    "nameWithOwner": "krzyzanowskim/SwiftUI.TextEdit",
+    "stargazerCount": 92,
+    "description": "SwiftUI proof-of-concept text edit component",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://swift.best"
+   },
+   {
+    "nameWithOwner": "krzyzanowskim/OnlineSwiftPlayground",
+    "stargazerCount": 256,
+    "description": "Online Swift Playground",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "http://online.SwiftPlayground.run"
+   },
+   {
+    "nameWithOwner": "krzyzanowskim/ObjectivePGP",
+    "stargazerCount": 727,
+    "description": "ObjectivePGP is an open-source library for iOS and macOS that provides developers with tools for implementing OpenPGP encryption and decryption, digital signing, and signature verification in their applications, thereby enhancing security and data integrity.",
+    "primaryLanguage": {
+     "name": "Objective-C"
+    },
+    "homepageUrl": "https://objectivepgp.com"
+   }
+  ],
+  "contrib_last_year": 5407,
+  "orgs": [
+   "swiftstudio-app"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "krzyzanowskim/CryptoSwift": "[](#requirements)\n[](#requirements)\n[](https://github.com/swiftlang/swift-package-manager)\n[](https://github.com/Carthage/Carthage)\n[](https://cocoapods.org/pods/CryptoSwift)\n# CryptoSwift\nPure Swift cryptographic primitives and utilities for [Swift](https://swift.org). ([#PureSwift](https://twitter.com/hashtag/pureswift))\n**Note**: The current release line builds with Swift 5.6 and newer toolchains. If you need an older compiler, use the matching legacy branch listed in [Swift version support](#swift-version-support). Older branches are not actively maintained.\n---\n[Requirements](#requirements) | [Features](#features) | [Recommended Defaults](#recommended-defaults) | [Contribution](#contribution) | [Installation](#installation) | [Swift Version Support](#swift-version-support) | [How-to](#how-to) | [Author](#author) | [License](#license) | [Changelog](#changelog)\n### Support & Sponsors\nThe financial sustainability of the project is possible thanks to the ongoing contributions from our [GitHub Sponsors](https://github.com/sponsors/krzyzanowskim)\n### Premium Sponsors\nNone\n## Requirements\nGood mood\n- Swift 5.6 or newer\n- Apple deployment targets: iOS 11, macOS 10.13, Mac Catalyst 13, tvOS 11, watchOS 4, visionOS 1\n- Linux and Android are exercised in CI\n## Features\n- Pure Swift implementation\n- Convenient extensions for `String`, `Data`, and `Array<UInt8>`\n- Support for incremental updates and streaming APIs\n- Apple platforms, Linux, and Android support\n#### Hash (Digest)\n  [MD5](https://tools.ietf.org/html/rfc1321)\n| [SHA1](https://tools.ietf.org/html/rfc3174)\n| [SHA2-224](https://tools.ietf.org/html/rfc6234)\n| [SHA2-256](https://tools.ietf.org/html/rfc6234)\n| [SHA2-384](https://tools.ietf.org/html/rfc6234)\n| [SHA2-512](https://tools.ietf.org/html/rfc6234)\n| [SHA3](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf)\n#### Cyclic Redundancy Check (CRC)\n  [CRC32](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)\n| [CRC32C](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)\n| [CRC16](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)\n#### Cipher\n  [AES-128, AES-192, AES-256](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)\n| [ChaCha20](",
+   "krzyzanowskim/STTextView": "\n# STTextView\nPerformant [macOS](https://www.apple.com/macos) and [iOS](https://www.apple.com/ios) TextView with line numbers and much more. (NSTextView/UITextView reimplementation)\nThe goal of this project is to build [NSTextView](https://developer.apple.com/documentation/appkit/nstextview)/[UITextView](https://developer.apple.com/documentation/uikit/uitextview) replacement reusable component utilizing [TextKit 2](https://developer.apple.com/videos/play/wwdc2021/10061/) framework. [due to many good reasons](#-textkit-2-bug-reports-list).\nThe component is mainly developed to serve [Swift Studio](https://swiftstudio.app) needs as a **source code editor**.\n[TextKit 2](https://developer.apple.com/forums/tags/wwdc21-10061) was announced during [WWDC 2021](https://developer.apple.com/videos/play/wwdc2021/10061/) as a TextKit 1 replacement for text layout and whatnot. Apple announced that `NSTextView`, the view component specialized for text editing, will adopt TextKit 2 and provide support along TextKit 1 bit. As I started to learn more about `NSTextView` + TextKit2, I realized that as of today (Feb 2022), neither `NSTextView` nor TextKit 2 classes are fully functional. Along the way, I reported several bug reports to Apple requesting DTS (support tickets). Eventually, I got blocked by specific bugs that pushed me to start this project.\n## Platform Requirements\n- **macOS**: 14.0+\n- **iOS**: 16.0+\n- **Mac Catalyst**: 16.0+\n- **Swift**: 5.9+\n- **Xcode**: 26.0+\n## Features\n- macOS text system integration\n- Performant Text editing\n- Display line numbers\n- Display invisible characters\n- Customization of colors and fonts\n- Toggle line wrapping on and off\n- Adjust the height of lines\n- Highlight/Select ranges in the text view\n- Multi-cursor editing\n- Search/Replace the text\n- Spelling and Grammar\n- Dictation\n- Customizable Completion support\n- Smooth scrolling of long content\n- LTR (Left To Right) / RTL (Right To Left) layout\n- Undo/Redo\n- Plugins\n- Anchored annotations (via plugin)\n- Source Code syntax highlighting (via plugin)\n<div align=\"center\">\n  <video src=\"https://github.com/user-attachments/assets/e18c058b-8a58-47e0-a57c-a3b01f3d93db\" width=\"90%\" />\n</div>\n## Roadma",
+   "krzyzanowskim/OpenSSL": "# OpenSSL-Universal\nOpenSSL [CocoaPods](https://cocoapods.org/), [Carthage](https://github.com/Carthage/Carthage) and [Swift Package Manager](https://swift.org/package-manager/) package for iOS, macOS, Catalyst, tvOS, visionOS, watchOS. A complete solution to OpenSSL. The package comes with precompiled libraries and includes a script to build newer versions if necessary.\n### Support & Sponsors\nThe financial sustainability of the project is possible thanks to the ongoing contributions from our [GitHub Sponsors](https://github.com/sponsors/krzyzanowskim)\n### Architectures\n- iOS with architectures: arm64 + simulator (x86_64, arm64)\n- macOS with architectures: x86_64, arm64 (including Catalyst target)\n- tvOS with architectures: arm64\n- visionOS with archtectures: arm64\n- watchOS with architectures: arm64, arm64_32\n#### Output Formats\n- Static library [libcrypto.a, libssl.a](iphoneos/lib/)\n- Frameworks [OpenSSL.framework](Frameworks/)\n- XCFramework [OpenSSL.xcframework](https://github.com/krzyzanowskim/OpenSSL/releases/latest/download/OpenSSL.xcframework.zip)\n### Why?\n[Apple says](https://developer.apple.com/library/mac/documentation/security/Conceptual/cryptoservices/GeneralPurposeCrypto/GeneralPurposeCrypto.html):\n\"Although OpenSSL is commonly used in the open source community, OpenSSL does not provide a stable API from version to version. For this reason, although OS X provides OpenSSL libraries, the OpenSSL libraries in OS X are deprecated, and OpenSSL has never been provided as part of iOS.\"\n### Installation\n#### Build\nYou don't have to use the pre-built binaries I provide.\nYou can build it locally on your trusted machine.\n```\n$ git clone https://github.com/krzyzanowskim/OpenSSL.git\n$ cd OpenSSL\n$ make\n```\nThe result of a build process is put inside [Frameworks](Frameworks/) directory.\n### Swift Package Manager\nI advised you to use [OpenSSL-Package](https://github.com/krzyzanowskim/OpenSSL-Package) which is a pure binary distribution that distribute the very same binary but avoid fetching this git repository which is significant in size.\n```swift\ndependencies: [\n    .package(url: \"https://github.com/krzyzanowskim/OpenSSL-Package.git\", from: \"3.6.5000\")\n]\n```\nand",
+   "krzyzanowskim/SwiftUI.TextEdit": "\n# SwiftUI TextEdit View\nA proof-of-concept text edit component in SwiftUI & CoreText. No UIKit, No AppKit, no UITextView/NSTextView/UITextField involved.\n*Note* Due to SwiftUI limitations (as of May 2021) it's not possible to handle keystrokes just with SwiftUI. To overcome this limitation, the `UIKeyboardViewController` is responsible for handling keys and forward to SwiftUI codebase.\nIf you have questions or want to reach to me, use this thread: https://twitter.com/krzyzanowskim/status/1269402396217745410\n## Authors\n[Marcin Krzyzanowski](http://krzyzanowskim.com)\n[@krzyzanowskim](https://twitter.com/krzyzanowskim)\n## Screenshots\n## Usage/Examples\n```swift\nstruct TextEditingView: View {\n    @State private var text = \"type here...\\n\"\n    @State private var font = UIFont.preferredFont(forTextStyle: .body) as CTFont\n    @State private var carretWidth = 2.0 as CGFloat\n    var body: some View {\n        TextEdit(\n            text: $text,\n            font: $font,\n            carretWidth: $carretWidth\n        )\n    }\n}\n```\n## FAQ\n#### How?\nCoreText + SwiftUI.\n#### Why?\nFor fun and profit.\n## Related\nHere are some related projects\n[CoreTextSwift](https://github.com/krzyzanowskim/CoreTextSwift)\n",
+   "krzyzanowskim/OnlineSwiftPlayground": "# SwiftPlayground.run\n[](#installation)\n[](https://twitter.com/krzyzanowskim)\nOnline Swift Playground. Implemented in Swift.\nTBA. Checkout http://SwiftPlayground.run\n## Installation & Run\n```shell\n$ git clone https://github.com/krzyzanowskim/OnlineSwiftPlayground.git\n$ cd OnlineSwiftPlayground\n$ ./run.sh\n```\nThe `run.sh` script will generate Xcode project (on macOS) and bootstrap the environment. `run.sh` needs `npm` to be installed to work properly.\nBootstraping involves\n1. Download Swift Toochains supported by the playground\n2. Pre-build support module using the toolchains\n3. Install dependencies\n4. Launches web server on localhost on port 8080\nNow you could access playground pointing web browser to 127.0.0.1:8080.\n## Development\n### Xcode\nGenerate Xcode project\n```\n$ swift package generate-xcodeproj\n```\n### React\nWeb user interface is build with [React](https://reactjs.org/) and [webpack](https://webpack.js.org/).\n```\n$ npm run build\n```\n## Docker\n[krzyzanowskim/onlineswiftplayground](https://store.docker.com/community/images/krzyzanowskim/onlineswiftplayground)\nDownload the latest image:\n```\n$ docker pull krzyzanowskim/onlineswiftplayground\n```\nor build docker image by yourself:\n```\n$ git clone https://github.com/krzyzanowskim/OnlineSwiftPlayground.git\n$ cd OnlineSwiftPlayground\n$ docker buildx create --use\n$ docker buildx build --platform=linux/amd64,linux/arm64 . -t krzyzanowskim/onlineswiftplayground\n```\nthen run container:\n```\n$ docker run -d -p 8080:8080 --name onlineswiftplayground -t krzyzanowskim/onlineswiftplayground\n```\nand wait until docker container is up (usually several seconds).\nPlayground is available at [http://localhost:8080](http://localhost:8080).\nIf the docker setup uses VirtualBox, the you can get the IP address from `docker-machine ip` command.\n```\n$ open http://$(docker-machine ip):8080\n```\n## Config\nThird party frameworks should be copied to `Frameworks` directory (Frameworks are for **macOS** host only)\nSee `config/` for GitHub auth. sample config.\n## Author\nSwiftPlayground.run is owned and maintained by [Marcin Krzyzanowski](https://www.krzyzanowskim.com)\nYou can follow me on Twitter at [@krzyzanowskim](https://twitter.com/krzyzano"
+  }
+ },
+ "apps": []
+}

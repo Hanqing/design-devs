@@ -1,0 +1,237 @@
+{
+ "handle": "mattgperry",
+ "sites": [
+  {
+   "url": "http://motion.dev",
+   "ok": true,
+   "title": "Motion (prev Framer Motion): JavaScript & React animation library",
+   "description": "Motion (prev Framer Motion) is a fast, production-grade animation library for React, JavaScript and Vue. Build smooth UI animations at a tiny footprint.",
+   "stack": [
+    "three.js",
+    "GSAP",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Skip to content \nMotion is deployed and sponsored\nby the best teams in the industry \n The animation library loved by humans and agents alike. \n Layout, scroll, gestures, 3D, and hardware acceleration for React, Vue and JavaScript. \n Free and open source. Previously Framer Motion. \n npm install motion && npx motion-ai Get started Get started Learn more \nSmall APIs.\nExpressive interfaces. \nIt only takes a few lines of Motion to bring an interface to life in React, JavaScript or Vue. Learn once, build anything. \n Runway Backstage Objects \n Showcase Layout animations \nLayout animations \nAnimate changes to size, position and order that CSS can’t, even from one component to another, with fast transforms. \n < motion.img layoutId ={id} onClick ={() => setOpen (id)} /> \n < AnimatePresence > \n {open && < motion.img layoutId ={open} className = \"detail\" />} \n </ AnimatePresence > \n Layout docs Layout examples \nGesture animations \nGestures that feel native. Press works from the keyboard, hover ignores touch, and drag throws with momentum. \n < motion.div \n drag \n dragSnapToOrigin \n whileHover ={{ scale: 1.1 }} \n whileTap ={{ scale: 1 }} \n whileDrag ={{ scale: 1.2 }} \n /> \n Gestures docs Gestures examples \n 0% \nScroll animations \nLink any value to scroll progress. Motion uses the browser’s ScrollTimeline when possible for smooth, hardware-accelerated scroll effects. \n const { scrollXProgress } = useScroll ({ container }) \n < motion.div style ={{ scaleX: scrollXProgress }} /> \n Scroll docs Scroll examples \n Stiffness 200 Damping 18 Mass 1 \nSpring animations \nPhysics springs that carry velocity. A value follows its target with real stiffness, damping and mass, and stays fluid when the target moves again mid-flight. \n const x = useSpring ( 0 , { stiffness: 200 , damping: 18 , mass: 1 }) \n const y = useSpring ( 0 , { stiffness: 200 , damping: 18 , mass: 1 }) \n < div onPointerMove ={(e) => { x. set (e.clientX); y. set (e.clientY) }}> \n < motion.div style ={{ x, y }} /> \n </ div > \n Springs docs Springs examples \n Hardware acceleration \nMost animations run on the browser’s own animation engine, so they stay smooth while your JavaScript is busy. \n Exit animations \n AnimatePresence keeps a component on the page until its exit animation finishes. \n 3D \nAnimate Three.js meshes, materials and shader uniforms with the same springs and timelines as the DOM. \n Small by default \nStart at 3.2kb with the mini animate function, or load features as you need them with LazyMotion. \nMotion+ unlocks the full animation workflow. \nFrom beginners to experts, Motion+ helps you ship animations that look great and perform even better. Components, examples, tutorials, visual editing, and our powerful AI Kit. \nPremium Motion UI components \nAccessible, beautiful components that adopt to your existing design with CSS, AI or shadcn. Explore Motion UI \nAccess the full vault \nA trove of performance-graded examples and tutorials for React, JavaScript and Vue. Adapt to your site with one click. Browse the examples \nYour agent, now a Motion expert \nGive your agent the latest docs, the full examples vault, and access to Motion UI, before it writes an animation. About AI Kit \n Rank B 3 of 18 animations need work. Fix them to reach rank A Fix all 3 Fix all 3 \n F → A Layout thrashing components/Parallax.tsx:18 \n - const top = card.getBoundingClientRect().top + frame.read(() => top = card.getBoundingClientRect().top) \n D → S Animating width components/Drawer.tsx:34 \n - animate={{ width: open ? 320 : 0 }} + animate={{ scaleX: open ? 1 : 0 }} \nFind and fix slow animations \nThe Performance Doctor skill finds and fixes slow animations via code analysis and local runtime audits. About Performance Doctor \n 0.0 0.5 1.0 1.5 \n h1 \n .description \n buttons \n 0.00 / 1.52 s \nEdit animations visually \nTune timing, easing and springs on a visual timeline editor directly in your real website, then send changes to your local coding agent to implement with one click. \n About Motion Studio \n Examples with source 0+ ​ ​ 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 ​ ​ + \n Tutorials 0+ ​ ​ 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 ​ ​ + \n Motion UI components 0 ​ ​ 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 ​ ​ \n Motion UI sections 0 ​ ​ 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 ​ ​ \n Explore Motion+ Explore Motion+ \n Helix Barrel Ring Sphere \n Showcase Gallery Motion + exclusive \nMade with Motion. \nRecent work from the Motion community. Show more \nLatest from Motion. \nNew examples, release notes and magazine stor",
+   "github_links": [
+    "motiondivision"
+   ],
+   "subpages": {
+    "http://motion.dev/about": "> Motion / About \nAbout Motion \nMotion is an independent animation library, built and maintained by Matt Perry. \n Matt Perry Creator of Motion \nHello! I'm Matt Perry, creator of Motion. \nI've been writing animation libraries for over a decade. You could call it a problem, but I'm enjoying myself 😅 \nI started writing my own animation libraries back in 2014 because I was unsatisfied with the feeling of the UIs I could create with CSS alone. \nFor lack of a better word, they felt \"webby\", or a little janky. \nCSS and native browser JavaScript APIs were really limited back then. So I was determined to make my first library, Popmotion, one where anything was possible. \nFrom there, I joined Framer to make Framer Motion. With Framer Motion, I concentrated on the simplicity of the API, while retaining Popmotion's limitless possibilities. \nSince then, browser APIs have come a long way, with new advances like the Web Animations API and Intersection Observer. \nNow, with Motion, I'm making an API that packages all the power and performance of these native browser animations into a user-friendly library, while also adding the superpowers of Framer Motion. \nAs an independent developer, Motion is sustained by Motion+ and company sponsorships . Your support will keep Motion running into the future!"
+   },
+   "feed": {
+    "url": "https://motion.dev/magazine/rss.xml",
+    "count_seen": 19,
+    "items": [
+     {
+      "title": "Introducing Motion UI Gallery",
+      "date": "Wed, 14 Oct 2026 00:00:00",
+      "url": "https://motion.dev/magazine/introducing-motion-ui-gallery"
+     },
+     {
+      "title": "Introducing Motion Studio",
+      "date": "Tue, 22 Sep 2026 00:00:00",
+      "url": "https://motion.dev/magazine/introducing-motion-studio"
+     },
+     {
+      "title": "Introducing Motion UI",
+      "date": "Thu, 23 Jul 2026 00:00:00",
+      "url": "https://motion.dev/magazine/introducing-motion-ui"
+     },
+     {
+      "title": "A View Transition API for the rest of us",
+      "date": "Tue, 30 Jun 2026 00:00:00",
+      "url": "https://motion.dev/magazine/a-view-transitions-api-for-the-rest-of-us"
+     },
+     {
+      "title": "Crashing cars and improving hover detection",
+      "date": "Thu, 04 Jun 2026 00:00:00",
+      "url": "https://motion.dev/magazine/collision-detection-in-hover-detection"
+     },
+     {
+      "title": "How To: Hardware-accelerate your favourite GSAP easing functions",
+      "date": "Mon, 26 Jan 2026 00:00:00",
+      "url": "https://motion.dev/magazine/how-to-use-your-favourite-gsap-easings-with-waapi"
+     },
+     {
+      "title": "Interview: David Haz, creator of React Bits",
+      "date": "Thu, 08 Jan 2026 00:00:00",
+      "url": "https://motion.dev/magazine/interview-david-haz-creator-of-react-bits"
+     },
+     {
+      "title": "Introducing the Motion+ Carousel",
+      "date": "Tue, 25 Nov 2025 00:00:00",
+      "url": "https://motion.dev/magazine/introducing-the-motion-carousel"
+     },
+     {
+      "title": "Motion's independence: One year in review",
+      "date": "Mon, 17 Nov 2025 00:00:00",
+      "url": "https://motion.dev/magazine/motion-independence-one-year-in-review"
+     },
+     {
+      "title": "The Web Animation Performance Tier List",
+      "date": "Wed, 05 Nov 2025 00:00:00",
+      "url": "https://motion.dev/magazine/web-animation-performance-tier-list"
+     },
+     {
+      "title": "Building the ultimate ticker",
+      "date": "Thu, 05 Jun 2025 00:00:00",
+      "url": "https://motion.dev/magazine/building-the-ultimate-ticker"
+     },
+     {
+      "title": "Introducing magnetic and zoning features in Motion+ Cursor",
+      "date": "Tue, 13 May 2025 00:00:00",
+      "url": "https://motion.dev/magazine/introducing-magnetic-cursors-in-motion-cursor"
+     },
+     {
+      "title": "Supercharging the GTA VI website with Motion",
+      "date": "Wed, 07 May 2025 00:00:00",
+      "url": "https://motion.dev/magazine/supercharging-the-gta-vi-website-with-motion"
+     },
+     {
+      "title": "Introducing Motion for Vue",
+      "date": "Wed, 19 Mar 2025 00:00:00",
+      "url": "https://motion.dev/magazine/introducing-motion-for-vue"
+     },
+     {
+      "title": "Revealed: React's experimental animations API",
+      "date": "Mon, 13 Jan 2025 00:00:00",
+      "url": "https://motion.dev/magazine/reacts-experimental-view-transition-api"
+     },
+     {
+      "title": "How to add cmd-k search shortcut to your Framer site",
+      "date": "Wed, 20 Nov 2024 00:00:00",
+      "url": "https://motion.dev/magazine/how-to-add-cmd-k-search-shortcut-to-your-framer-site"
+     },
+     {
+      "title": "Framer Motion is now independent, introducing Motion",
+      "date": "Tue, 12 Nov 2024 00:00:00",
+      "url": "https://motion.dev/magazine/framer-motion-is-now-independent-introducing-motion"
+     },
+     {
+      "title": "Do you still need Framer Motion?",
+      "date": "Wed, 29 May 2024 00:00:00",
+      "url": "https://motion.dev/magazine/do-you-still-need-framer-motion"
+     },
+     {
+      "title": "When browsers throttle requestAnimationFrame",
+      "date": "Thu, 01 Oct 2020 00:00:00",
+      "url": "https://motion.dev/magazine/when-browsers-throttle-requestanimationframe"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mattgperry",
+  "user": {
+   "name": "Matt Perry",
+   "company": "@motiondivision  ",
+   "blog": "https://motion.dev",
+   "location": "Amsterdam",
+   "bio": "Author of Motion.",
+   "public_repos": 9,
+   "followers": 1674,
+   "created_at": "2014-06-10T15:29:01Z",
+   "twitter_username": "mattgperry",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mattgperry/vekta",
+    "description": "A JavaScript vector type with GLSL-inspired swizzling",
+    "stargazers_count": 123,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-04-14T09:49:20Z",
+    "pushed_at": "2018-05-11T14:00:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mattgperry/hey-listen",
+    "description": "Dev-ex warning functions with added childhood flashbacks.",
+    "stargazers_count": 33,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-05-09T10:57:03Z",
+    "pushed_at": "2022-12-08T21:43:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mattgperry/affluent",
+    "description": "A reactive stream primitive that accepts other streams as input.",
+    "stargazers_count": 22,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2019-02-12T20:44:28Z",
+    "pushed_at": "2019-02-18T08:26:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mattgperry/next-motion-page-transitions",
+    "description": null,
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-07-31T14:37:53Z",
+    "pushed_at": "2025-08-01T09:05:40Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 4,
+  "languages": [
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "TypeScript",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "motiondivision/motion",
+    "stargazerCount": 34476,
+    "description": "A modern animation library for React and JavaScript",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://motion.dev"
+   },
+   {
+    "nameWithOwner": "Popmotion/popmotion",
+    "stargazerCount": 20151,
+    "description": "Simple animation libraries for delightful user interfaces",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://popmotion.io"
+   }
+  ],
+  "contrib_last_year": 1685,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "motiondivision/motion": "<h1 align=\"center\"> <br />Motion</h1>\n<h3 align=\"center\">\n  An open source animation library<br />for JavaScript, React and Vue\n</h3>\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/motion\" rel=\"noopener noreferrer nofollow\" ></a>\n  <a href=\"https://www.npmjs.com/package/motion\" rel=\"noopener noreferrer nofollow\" ></a>\n  <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.jsdelivr.com/package/npm/motion\"></a>\n  <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://score.motion.dev/site/motion.dev?utm_source=github&utm_medium=readme-badge\"></a>\n</p>\n```bash\n# React / JavaScript\nnpm install motion\n# Vue\nnpm install motion-v\n```\n## Table of Contents\n1. [Why Motion?](#why-motion)\n2. [🍦 Platforms](#-platforms)\n3. [🎓 Examples](#-examples)\n4. [🎨 Motion Studio](#-motion-studio)\n4. [🤖 Using Motion with AI](#-using-motion-with-ai)\n5. [⚡️ Motion+](#-motion)\n6. [👩🏻‍⚖️ License](#-license)\n7. [💎 Contribute](#-contribute)\n8. [✨ Sponsors](#-sponsors)\n## Why Motion?\n-   **Simple API:** First-class React, JavaScript, and Vue packages.\n-   **Hybrid engine:** Power of JavaScript combined with native browser APIs for 120fps, GPU-accelerated animations.\n-   **Production-ready:** TypeScript, extensive test suite, tree-shakable, tiny footprint.\n    **Batteries included:** Gestures, springs, layout transitions, scroll-linked effects, timelines.\n## 🍦 Platforms\nMotion is available for [React](https://motion.dev/docs/react), [JavaScript](https://motion.dev/docs/quick-start) and [Vue](https://motion.dev/docs/vue).\n### React\n```jsx\nimport { motion } from \"motion/react\"\nfunction Component() {\n    return <motion.div animate={{ x: 100 }} />\n}\n```\nGet started with [Motion for React](https://motion.dev/docs/react).\n**Note:** Framer Motion is now Motion. Import from `motion/react` instead of `framer-motion`.\n### JS\n```javascript\nimport { animate } from \"motion\"\nanimate(\"#box\", { x: 100 })\n```\nGet started with [JavaScript](https://motion.dev/docs/quick-start).\n### Vue\n```html\n<script>\n    import { motion } from \"motion-v\"\n</script>\n<template> <motion.div :animate={{ x: 100 }} /> </template>\n```\nGet started with [Motion for Vue](https://motion.dev/docs/v",
+   "Popmotion/popmotion": "# <a href=\"https://popmotion.io\"></a>\n### The animator's toolbox\n[](https://www.npmjs.com/package/popmotion)\n[](https://www.npmjs.com/package/popmotion)\n[](http://twitter.com/popmotionjs)\nPopmotion is:\n- **Powerful**: It supports keyframe and spring animations for numbers, colors and complex strings.\n- **Low level**: It's designed to be composable and portable into any JavaScript environment, with an eye on worklets in the future.\n- **Stable**: It's written in TypeScript and enjoys over 95% test coverage.\n- **Tiny**: `animate` is just ~4.5kb, and every function is individually importable.\n<!-- Documentation -->\n## Quick start\n```bash\nnpm install popmotion\n```\n```javascript\nimport { animate } from \"popmotion\"\nanimate({\n  from: 0,\n  to: 100,\n  onUpdate: latest => console.log(latest)\n})\n```\n## Animation\n### animate\n`animate` performs a keyframes or spring animation.\n```javascript\nimport { animate } from \"popmotion\"\nanimate({\n  from: 0, \n  to: 100,\n  onUpdate: latest => console.log(latest)\n})\n```\nIt can animate numbers:\n```javascript\nanimate({ from: 0, to: 100 })\n```\nOr strings of the same type:\n```javascript\nanimate({ from: \"0px\", to: \"100px\" })\nanimate({ from: \"#fff\", to: \"#000\" })\n```\nThe strings can be pretty complex, for instance box shadows or SVG path definitions. The only limitation is that the numbers and colors contained within must be in the same order:\n```javascript\nanimate({\n  from: \"0px 0px 0px rgba(0, 0, 0, 0)\",\n  to: \"10px 10px 0px rgba(0, 0, 0, 0.2)\"\n})\n```\n<!--\nArrays of the above:\n```javascript\nanimate({\n  from: [0, \"#fff\"],\n  to: [100, \"#000\"]\n})\n```\nAnd objects of the above:\n```javascript\nanimate({\n  from: { x: 0, backgroundColor: \"#fff\" },\n  to: { x: 100, backgroundColor: \"#000\" }\n})\n```\n-->\nThe type of animation performed will be automatically detected from the provided options, or can be chosen manually by defining `type` as `\"keyframes\"`, `\"spring\"` or `\"decay\"`.\n#### Options\nThese options can be set for **all animations**:\n##### from\nAn initial value to start the animation from.\nDefaults to `0`\n```javascript\nanimate({\n  from: \"linear-gradient(#e66465, #9198e5)\",\n  to: \"linear-gradient(#9198e5, #e66465)\"\n})\n```\n##### elapsed\nSets an initial ",
+   "mattgperry/vekta": "# </a>\n### A JavaScript vector type with GLSL-inspired swizzling\n```javascript\nconst pos = vec2(0); // [0, 0]\npos.y += 1; // [0, 1]\npos.xy = pos.yx; // [1, 0]\nconst pos3d = vec3(pos, 10); // [1, 0, 10]\n```\n## Features\n* [Iterable vectors](#iterate)\n* [Swizzling](#access)\n* [Custom vector types](#create-vector-types)\n* Tiny (< 1kb), zero-dependencies\n## Install\nVia package managers:\n```bash\nnpm install vekta --save\n```\n```bash\nyarn add vekta\n```\nVia CDN (Loads Vekta into `window.vekta`):\n```\nhttps://unpkg.com/vekta/dist/vekta.js\n```\n## Usage\n### Import\nAll [included types](#included-types) can be imported as named imports, like so:\n```javascript\nimport { vec2 } from 'vekta';\n```\n### Create\nEach vector function returns a proxied array:\n```javascript\nconst pos = vec2(0, 10); // [0, 10]\n```\n### Fill forward\nIf the number of provided arguments doesn't match the expected size of the vector, the rest of the array will be filled by cycling through the provided values:\n```javascript\nconst pos = vec4(0, 1); // [0, 1, 0, 1]\n```\n### Access\nThese values are accessible both by their index and by their `x`, `y`, `z` and `w` axis labels:\n```javascript\nconst pos = vec3(0, 10, 20);\npos[1]; // 10\npos.y; // 10\n```\nThis is known as **swizzling** and is inspired by the vector types in [GLSL](https://www.khronos.org/opengl/wiki/Data_Type_%28GLSL%29#Vectors).\nWe can return multiple values as a new vector by naming multiple properties:\n```javascript\npos.xy; // [0, 10]\n```\nThese values will be returned in the order defined:\n```javascript\npos.yx; // [10, 0]\n```\nWe can define up to four dimensions to return:\n```javascript\npos.zzzz; // [20, 20, 20, 20]\n```\n### Cast into higher dimension\nBy passing one vector into another, we can cast existing vectors into higher dimensions.\n```javascript\nconst a = vec2(1, 2);\nconst b = vec3(a, 3); // [1, 2, 3]\nconst c = vec4(4, b); // [4, 1, 2, 3]\n```\nCombined with swizzling and the `rgba` vector type, we can create a new number by casting only the `rgb` values and providing a new alpha:\n```javascript\nconst red = rgba(255, 0, 0, 1);\nconst semiTransparentRed = rgba(red.rgb, 0.5);\n```\n### Iterate\nAs vectors are just proxied arrays, they offer all the same ite",
+   "mattgperry/hey-listen": "# Hey, Listen!\n### Dev-ex warning functions with added childhood flashbacks\n[](https://www.npmjs.com/package/hey-listen)\n[](https://www.npmjs.com/package/hey-listen)\n[](http://twitter.com/popmotionjs)\n[](https://spectrum.chat/popmotion)\nHey, Listen! provides simple versions of the popular `warning` and `invariant` dev-experience functions.\nThe library checks against `process.env.NODE_ENV` to minify away messages in production.\n## Install\n### npm\n```bash\nnpm install hey-listen\n```\n### Yarn\n```bash\nyarn add hey-listen\n```\n## Usage\n### `warning`\n```javascript\nimport { warning } from 'hey-listen';\nwarning(false, 'Warning message'); // console.warn \"Warning message\"\n```\n### `invariant`\n```javascript\nimport { invariant } from 'hey-listen';\ninvariant(false, 'Error message'); // throws \"Error message\"\n```\n",
+   "mattgperry/affluent": "# \nA reactive stream primitive that natively supports other streams as input.\n## Say what?\nThis is a typical stream:\n```javascript\nspring({ from: 0,  to: 100 })\n  .start(v => v)\n```\nIt accepts numbers and strings as props to affect the way it behaves, and emits values to a function.\nAn Affluent stream is the same, except those props can be other streams.\n```javascript\nspring({\n  from: 0,\n  to: tween({ to: 100, yoyo: Infinity })\n}).start(v => v)\n```\nNow every prop can be a dynamic stream.\nThese streams above don't exist yet, but when they do, they can be built with Affluent.\n## Install\n```bash\nnpm install affluent\n```\n## Use\nA stream can be defined with the `stream` function.\n```typescript\nimport { stream } from 'affluent'\n```\n`stream` accepts two arguments: An initialisation function, and some default props.\n```\nstream(init, defaultProps)\n```\nThe initialisation function returns an `update` function that will run once every frame that the stream is active.\nHere's a basic stream that outputs how many frames its been running:\n```javascript\nconst frameCount = stream(() => {\n  let count = 0\n  return () => {\n    count++\n    return count\n  }\n})\n```\nThis `update` function receives on argument, the stream's props.\nIf any of these props are also streams, those streams will be resolved prior to being passed to the `update` function.\n### Example\nGiven this stream:\n```javascript\nconst frameCount = stream(({ complete, initialProps }) => {\n  let count = initialProps.initialCount\n  return ({ increment }) => {\n    count += increment\n    return count\n  }\n}, {\n  increment: 1,\n  initialCount: 0 \n})\n```\nIf we now create `frameCount`:\n```javascript\nframeCount().start(v => v)\n```\nWe'll get a count of `1, 2, 3...` etc, incrementing once per frame.\nIt's using the `increment` prop to increment by one each frame.\nWe can change this default using a prop:\n```javascript\nframeCount({ increment: 2 }).start(v => v)\n// 2, 4, 6...\n```\nBut we can also set `increment` as another stream. In the following code, `increment` itself will increase by `1` every frame:\n```javascript\nframeCount({\n  increment: frameCount()\n}).start(v => v)\n// 1, 3, 6...\n```\n## API\n### `stream`\n`stream` defines a stream. It a"
+  }
+ },
+ "apps": []
+}

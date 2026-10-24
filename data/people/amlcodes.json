@@ -1,0 +1,152 @@
+{
+ "name": "Alex Lane",
+ "role": "全栈产品工程师 · 多家创业公司创始工程师 · AI / NLP 经验 · 纽约",
+ "title": "Alex Lane：注重<em>体验细节</em>的产品工程师",
+ "dek": "TA 住在纽约，是一名全栈产品工程师，个人网站写着：「有 AI / NLP 经验、重视设计的产品工程师。我端到端地交付产品，执着于用户体验、开发者体验，以及那些让软件用起来理所当然的小细节。」TA 的经历几乎都在早期团队：一家由「世界第二大播客主」创办的播客托管、数据分析和变现平台的创始工程师；一家前 LLM 时代的 AI / NLP 保险科技平台的创始工程师和第一位员工；一个「给军队和政府用的 Slack」的扩展团队负责人和开发者体验负责人；还做过 DeFi 协议的贡献奖励系统、AI 教育平台的移动端，以及支付处理商的数据、自动化和 CRM 工程。TA 的 X 简介写着「为需要进行艰难对话的团队服务的产品工程师」，GitHub 简介说自己在纽约写代码、玩滑板，「避开单调」。",
+ "card": "纽约全栈产品工程师，播客平台、AI 保险科技等多家创业公司的创始工程师。",
+ "location": "美国纽约",
+ "updated": "2026-10-23",
+ "tags": ["产品工程", "全栈", "AI / NLP", "创业公司", "用户体验"],
+ "links": [
+  {"label": "aml.codes", "url": "http://aml.codes"},
+  {"label": "GitHub：amlcodes", "url": "https://github.com/amlcodes"},
+  {"label": "X：@amlcodes", "url": "https://x.com/amlcodes"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「Design-forward Product Engineer with AI/NLP experience.」",
+  "<strong>经历：</strong>播客托管平台创始工程师；AI / NLP 保险科技平台创始工程师与首位员工；军政通讯平台扩展团队负责人与 DevEx 负责人；DeFi、AI 教育、支付处理等项目。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 3,354 次（多为私有仓库）；X 推文约 1.1 千条。",
+  "<strong>技术栈：</strong>Next.js、React、Tailwind CSS（个人网站）。"
+ ],
+ "lead": "Alex 的个人网站像一份精炼的作品简历：开头是一句定位，然后是「Key Highlights」，每段经历只写角色和一句话的公司描述，不写公司名字。页面上还有一个「预约通话」按钮。和许多公开表达很多的开发者不同，TA 的公开信息很少，作品大多在私有仓库和客户产品里。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "全栈产品工程师"],
+     ["所在地", "美国纽约"],
+     ["专长", "端到端产品交付、AI / NLP、开发者体验"],
+     ["经历", "多家创业公司的创始工程师"],
+     ["技术栈", "Next.js、React、Tailwind CSS"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Alex 的长处是<strong>在早期团队里从零做出完整产品</strong>：从想法到上线，同时照顾用户体验和开发者体验。TA 的经历横跨播客、保险、军政通讯、加密金融、教育和支付，每一段几乎都是团队里最早的工程师之一。"},
+    {"p": "TA 在 AI 上的经验早于大语言模型时代：在保险科技平台做过「前 LLM 时代」的 AI / NLP 系统；之后又在 AI 教育平台做过研究、总结和学习计划的 AI Agent。"},
+    {"note": "本页依据 aml.codes 和 GitHub、X 个人资料整理，资料截至 2026 年 10 月。TA 的网站没有写出各家公司的名字，本页也不推测；公开帖子极少，属资料较少的一页。性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2015", "title": "注册 GitHub", "text": "开始在 GitHub 上写代码（以下经历顺序未公开）。"},
+     {"when": "曾任", "title": "数据与支付", "text": "支付处理商的数据、自动化与 CRM 工程。"},
+     {"when": "曾任", "title": "AI / NLP 保险科技", "text": "创始工程师与第一位员工。"},
+     {"when": "曾任", "title": "军政通讯平台", "text": "扩展团队负责人与开发者体验负责人。"},
+     {"when": "曾任", "title": "播客平台", "text": "播客托管、数据分析与变现平台的创始工程师。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表经历",
+   "blocks": [
+    {"work": {
+     "name": "播客托管平台", "url": "http://aml.codes",
+     "meta": ["创始工程师"],
+     "paras": [
+      "「Podcast hosting, analytics, and monetization platform founded by the second largest podcaster in the world」"
+     ]
+    }},
+    {"work": {
+     "name": "AI / NLP 保险科技平台", "url": "http://aml.codes",
+     "meta": ["创始工程师", "首位员工"],
+     "paras": [
+      "「Pre-LLM AI/NLP Insuretech platform for insurance companies and brokers」"
+     ]
+    }},
+    {"work": {
+     "name": "军政通讯平台", "url": "http://aml.codes",
+     "meta": ["扩展团队负责人", "DevEx 负责人"],
+     "paras": [
+      "「Slack for military and governments」"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他经历", "说明"],
+     "rows": [
+      ["DeFi 协议", "贡献奖励与追踪系统的全栈工程师"],
+      ["AI 教育平台", "自学类移动游戏与研究、总结 Agent"],
+      ["支付处理商", "数据、自动化与 CRM 工程师"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "http://aml.codes", "paras": [
+     "aml.codes 用 Next.js 和 Tailwind 搭建、托管在 Vercel 上，标题是「Full-stack Product Engineer」。结构是一句定位、预约通话和邮件按钮、关键经历列表，以及一张 GitHub 贡献图（需要配置令牌才能加载实时数据）。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + Tailwind，Vercel"],
+      ["定位", "面向客户与招聘"],
+      ["公司名", "均未写出"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "自我描述",
+   "blocks": [
+    {"quote": "I ship end-to-end products and obsess over user experience, developer experience, and the small details that make software feel obvious to use.", "cite": "Alex Lane，aml.codes"},
+    {"p": "TA 的 GitHub 简介很随性：「web, ai, ecom, product, software experiences. coding and skating in nyc. avoiding the monotonous」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["经验", "多次担任创始工程师", "—"],
+      ["广度", "跨多个行业", "—"],
+      ["公开信息", "—", "作品与公司名均未公开，难以独立核实"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>做早期团队里能端到端交付的人。</strong>",
+     "<strong>同时照顾用户体验和开发者体验。</strong>",
+     "<strong>在意让软件「理所当然」的小细节。</strong>",
+     "<strong>用一页简洁的网站介绍自己。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "aml.codes", "url": "http://aml.codes", "why": "看一份简洁的工程师作品页。"},
+     {"name": "GitHub：amlcodes", "url": "https://github.com/amlcodes", "why": "TA 的公开资料。"},
+     {"name": "X：@amlcodes", "url": "https://x.com/amlcodes", "why": "关注 TA 的动态。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "把你的工作经历写成五行，每行只写角色和一句话的成果，看看能不能让陌生人一眼看懂你。",
+ "sources": [
+  {"label": "Alex Lane 的 X 个人资料", "url": "https://x.com/amlcodes"},
+  {"label": "aml.codes", "url": "http://aml.codes"},
+  {"label": "GitHub：amlcodes", "url": "https://github.com/amlcodes"}
+ ]
+}

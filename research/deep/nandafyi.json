@@ -1,0 +1,366 @@
+{
+ "handle": "nandafyi",
+ "sites": [
+  {
+   "url": "http://nan.fyi",
+   "ok": true,
+   "title": "Not a Number",
+   "description": "An interactive blog on computer science and web development, by Nanda Syahrasyad.",
+   "stack": [
+    "Next.js",
+    "Framer",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Not a Number \n Interactive blog posts on computer science and web development by Nanda Syahrasyad. Subscribe \n Interactive SVG Animations An interactive course on making whimsical SVGs and SVG animations. \n Build Your Own Database \nOctober 22, 2025 \nHow would you reinvent the database? In this post, we'll build a key-value database from the ground up. \n A Deep Dive Into SVG Path Commands \nJuly 4, 2023 \nThe mystical d attribute in SVG paths is actually a series of small commands. In this guide, we'll take a look at each path command and how we can use them to draw icons. \n The Power of Keys in Framer Motion \nFebruary 22, 2023 \nThe React key prop is often only used to suppress React warnings, but it's actually a super powerful tool when used together with Framer Motion. In this post, we'll explore how to use it to make some pretty cool animations. \n Inside Framer's Magic Motion \nNovember 15, 2022 \nHow does Framer Motion make layout changes look seamless? In this post, we're taking a deep dive into FLIP, the technique used by Framer Motion to animate changes in layout without sacrificing performance. \n Rebuilding Babel: The Tokenizer \nFebruary 20, 2022 \nHow do you build a modern JavaScript compiler from scratch? In this post, we'll rebuild the first piece of a compiler: the tokenizer. \n How do Arrays Work? \nNovember 13, 2021 \nWhat goes on under the hood of the most popular data structure? In this post, we'll uncover the secrets of the array by reinventing one ourselves. \n Building a Debugger \nMay 15, 2021 \nIf you want to build your own debugger, where would you start? In this post, we'll take a look at the inner workings of Playground — an online JS debugger. \n The Sliding Window Pattern \nMarch 21, 2021 \nAn interactive look at a classic array algorithm pattern.",
+   "github_links": [
+    "nandanmen"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://svg.guide",
+   "ok": true,
+   "title": "Interactive SVG Animations",
+   "description": "An interactive mini-course on creating SVG animations by Nanda Syahrasyad.",
+   "stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Login \nInteractive\nSVG Animations \n By Nanda Syahrasyad \n Enroll Preview \n“SVGs are hard.” \nIf you're anything like me, you've always thought of SVGs as a kind of black box; nothing more than a string of code you export from Figma and paste in your code editor, hoping that everything looks right. And sometimes, it does! \nBut other times, something's not quite right. The color is off. The spacing is a little too tight. The icon's not big enough. When these issues come up, you try to fix them—but you can't. Because the SVG code doesn't make sense. \n Everything you need to know about SVGs and how to animate them. \n Interactive SVG Animations is the single course you need to learn all things SVG. Across five chapters, you'll learn how the SVG syntax works, the various ways to animate them, and even dive into SVG features that allow for effects typically impossible with HTML, CSS, and JavaScript alone. \nModule 0 0 . \n0 . Foundations \nSVG is a markup language, just like HTML. But while HTML has elements for describing documents like p and h1 , SVG has elements for describing images like rect and circle . \n < circle cx = \"30\" cy = \"30\" r = \"15\" > \n < rect x = \"25\" y = \"35\" width = \"40\" height = \"30\" > \nTry changing the positions of the circle and rectangle on the canvas and notice how it changes the values in the code! \nIn this chapter, we'll dive deeper into how to draw various things with SVGs and take a look at how its coordinate system works. \nModule 0 1 . \n1 . Your First Animation \nMany SVG attributes are also CSS properties, which means you can animate them the same way you would any other CSS property. There are just a few little quirks you need to be mindful of. \n .lid { \n transform : rotate (30deg); \n transform-origin : 55px 30px; \n } \nIn this chapter, we'll make our first SVG animation by taking a closer look at how CSS interacts with SVG and a few techniques for chaining animations together. \nModule 0 2 . \n2 . Animating the Unanimatable \nCSS doesn't let you animate every single SVG attribute. To animate those attributes that CSS doesn't support, we'll use SMIL —the \"built-in\" way of animating SVGs. \n < polyline \n points = \"10,50 30,70 50,30 70,50\" \n fill = \"none\" \n stroke = \"currentColor\" \n stroke-linejoin = \"round\" \n stroke-linecap = \"round\" \n > \n < animate \n attributeName = \"points\" \n to = \"10,50 30,30 50,70 70,50\" \n dur = \"1s\" \n /> \n </ polyline > Toggle \nIn this chapter, we'll explore how to use SMIL and how we can integrate it in modern codebases. \nModule 0 3 . \n3 . Paths and Path Animations \nThe SVG path element is the most powerful element in SVG. Using its mysterious d attribute, the path element can mold into every other SVG shape and everything in between. \n M17 3 Move to \n L20 6 Line to \n L17 9 Line to \n M19 6 Move to \n H10.5 Horizontal line to \n C7 6 4 9 4 12.5 Curve to \n C4 16 7 19 10.5 19 Curve to \n H18 Horizontal line to \nIn this chapter, we'll take apart the d attribute, explore the world of path commands and, of course, take a look at how to animate them. \nModule 0 4 . \n4 . Advanced SVG Details \nSVGs start to really shine when you dive into its weirder features. In this chapter, we'll take a look at gradients, masks, and the downright magical world of SVG filters, before looking at ways to animate SVGs when SMIL falls short. \n < defs > \n < mask id = \"circle-mask\" > \n < circle cx = \"25\" cy = \"25\" r = \"15\" /> \n < circle cx = \"55\" cy = \"55\" r = \"15\" /> \n </ mask > \n </ defs > \n < rect mask = \"url(#circle-mask)\" fill = \"gray\" /> \n Trusted by the world's best frontend teams. \n It's so good. So much love and care put into this! \n This is the ultimate SVG resource—nobody has SVG expertise like Nanda. \n Static books and abstract documentation never helped me learn how to make real animations. \nBeen wanting a course like this for ages. \n One of the best animation courses out there on one of the most niche topics in UI. \n (This course) convinced me even more that SVG Animations is the future of UI. \n First exercise in and I'm hooked—clear, concise, and awesome interactive exercises. \n Hi, I'm Nanda. \nI'm a product designer and software engineer currently leading design engineering at Cloudflare . Before that, I was a design engineer at Vercel where I helped build v0 , marketing sites , the dashboard , the design system, and more. \nI'm also the author of NaN Not a Number , a blog that breaks down various complex computer science concepts in a visual way—read by over 10,000 people a month. \n Get access today",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "nandanmen",
+  "user": {
+   "name": "Nanda Syahrasyad",
+   "company": null,
+   "blog": "nan.fyi",
+   "location": "Vancouver, BC",
+   "bio": "occasional writer @ nan.fyi",
+   "public_repos": 108,
+   "followers": 1097,
+   "created_at": "2017-08-23T04:42:34Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "nandanmen/NotANumber",
+    "description": "An interactive blog on computer science and web dev 💡",
+    "stargazers_count": 1508,
+    "forks_count": 74,
+    "language": "TypeScript",
+    "homepage": "https://nan.fyi",
+    "created_at": "2021-01-03T01:54:19Z",
+    "pushed_at": "2026-05-24T23:55:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/visualizer",
+    "description": "Visualizer for common algorithm patterns 👀",
+    "stargazers_count": 93,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": "https://visualizer-sepia.vercel.app",
+    "created_at": "2020-09-03T21:56:10Z",
+    "pushed_at": "2021-04-22T18:35:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/playground",
+    "description": "Playground for algorithm writing 🔍",
+    "stargazers_count": 87,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": "playground.narendras.vercel.app",
+    "created_at": "2020-12-07T23:48:10Z",
+    "pushed_at": "2020-12-19T06:08:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/compiler",
+    "description": null,
+    "stargazers_count": 57,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2021-11-29T01:04:56Z",
+    "pushed_at": "2022-01-22T18:50:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/wakaranai",
+    "description": null,
+    "stargazers_count": 41,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": "https://wakaranai.app",
+    "created_at": "2023-02-04T23:35:04Z",
+    "pushed_at": "2023-04-29T18:54:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/site",
+    "description": "My website 🥳",
+    "stargazers_count": 31,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://narendras.io",
+    "created_at": "2020-10-28T02:22:18Z",
+    "pushed_at": "2021-05-09T16:55:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/ast-editor",
+    "description": null,
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "ast-editor.vercel.app",
+    "created_at": "2022-02-18T19:01:36Z",
+    "pushed_at": "2022-02-18T19:06:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/journal-recreation",
+    "description": null,
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://journal-recreation.vercel.app",
+    "created_at": "2023-03-19T17:29:59Z",
+    "pushed_at": "2023-03-19T17:30:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/compilers",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "babel-editor.vercel.app",
+    "created_at": "2021-10-26T23:49:03Z",
+    "pushed_at": "2022-02-18T18:03:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/css-transitions-sandbox",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "css-transitions-sandbox.narendras.vercel.app",
+    "created_at": "2021-02-10T04:54:56Z",
+    "pushed_at": "2021-02-11T05:13:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/nothub",
+    "description": "Simple Notion-GitHub integration.",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2020-10-13T06:55:46Z",
+    "pushed_at": "2021-02-06T05:22:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/svg-filter-playground",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://svg-filters.vercel.app",
+    "created_at": "2024-11-05T00:48:12Z",
+    "pushed_at": "2024-11-14T01:26:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/svg-paths",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://svg-paths-iota.vercel.app",
+    "created_at": "2023-01-02T18:41:06Z",
+    "pushed_at": "2023-01-21T19:40:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/algo",
+    "description": "My solutions to common algorithm problems",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-06-20T04:54:22Z",
+    "pushed_at": "2023-01-04T00:48:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/css-weights",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "css-weights.vercel.app",
+    "created_at": "2022-06-21T23:27:33Z",
+    "pushed_at": "2022-06-25T17:38:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/v3",
+    "description": "Version 3 of personal website",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "https://narendras.io",
+    "created_at": "2019-07-08T07:49:15Z",
+    "pushed_at": "2023-01-11T19:46:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/coin-v2",
+    "description": "Minimalist money management.",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "https://narendras-coin.netlify.com/",
+    "created_at": "2019-05-13T17:19:32Z",
+    "pushed_at": "2023-01-03T21:46:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nandanmen/finance-app",
+    "description": "Vanilla Javascript app for creating budgets / financial management",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-12-10T03:31:11Z",
+    "pushed_at": "2018-12-23T10:50:14Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 100,
+  "languages": [
+   [
+    "TypeScript",
+    45
+   ],
+   [
+    "JavaScript",
+    33
+   ],
+   [
+    "HTML",
+    5
+   ],
+   [
+    "Rust",
+    2
+   ],
+   [
+    "Java",
+    2
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "Jupyter Notebook",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "nandanmen/NotANumber",
+    "stargazerCount": 1508,
+    "description": "An interactive blog on computer science and web dev 💡",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://nan.fyi"
+   },
+   {
+    "nameWithOwner": "nandanmen/playground",
+    "stargazerCount": 87,
+    "description": "Playground for algorithm writing 🔍",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "playground.narendras.vercel.app"
+   },
+   {
+    "nameWithOwner": "nandanmen/visualizer",
+    "stargazerCount": 93,
+    "description": "Visualizer for common algorithm patterns 👀",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://visualizer-sepia.vercel.app"
+   },
+   {
+    "nameWithOwner": "nandanmen/wakaranai",
+    "stargazerCount": 41,
+    "description": null,
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://wakaranai.app"
+   }
+  ],
+  "contrib_last_year": 1129,
+  "orgs": [
+   "PekoTech"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "nandanmen/NotANumber": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).\n## Getting Started\nFirst, run the development server:\n```bash\nnpm run dev\n# or\nyarn dev\n```\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\nYou can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.\n[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.\nThe `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.\n## Learn More\nTo learn more about Next.js, take a look at the following resources:\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!\n## Deploy on Vercel\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.\n",
+   "nandanmen/playground": "# Playground\n<p align=\"center\">\nA visual debugger for your algorithms 🔍\n</p>\n",
+   "nandanmen/visualizer": "# Visualizer\n<p align=\"center\">\n</p>\nA visualizer for common algorithm patterns made with Next.js, Tailwind, and Framer Motion, based off the patterns described in the [Grokking the Coding Interview](https://www.educative.io/courses/grokking-the-coding-interview) course on Educative. The visualizer comes packed with editable inputs, steppable animations and configurable animations. [Check it out now!](https://visualizer-sepia.vercel.app/patterns/sliding-window/find-all-averages)\n> DISCLAIMER: This project is very much still a WIP so the design is not polished, not optimized for mobile, features are missing, etc. Check back regularly for updates!\n## Roadmap\nI'm currently actively working on this but between school, work, and other commitments, features are coming along slowly. Nevertheless the two main features I'm working towards include:\n- Implementing a skeleton for _every_ pattern described in Grokking the Coding Interview, and\n- Integrating some form of post or text that goes along with the visualization.\n",
+   "nandanmen/wakaranai": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).\n## Getting Started\nFirst, run the development server:\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n```\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\n[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.\nThis project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.\n## Learn More\nTo learn more about Next.js, take a look at the following resources:\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!\n## Deploy on Vercel\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.\n",
+   "nandanmen/compiler": "Given the following code:\n```js\nfunction hello(message) {\n  console.log(message);\n}\n```\nWhat would the corresponding tokens be?\n- keyword `function`\n- identifier `hello`\n- left paren `(`\n- identifier `message`\n- right paren `)`\n- left curly `{`\n- identifier `console`\n- dot `.`\n- identifier `log`\n- left paren `(`\n- identifier `message`\n- right paren `)`\n- semicolon `;`\n- right curly `}`\nI tested this against Babel's tokenizer which returns this same output ^\nA few issues with my implementation:\n- Errors anywhere in the pipeline stops the program completely (in a real compiler, these errors are collected and reported to the user)\n"
+  }
+ },
+ "apps": []
+}

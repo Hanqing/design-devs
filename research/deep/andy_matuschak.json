@@ -1,0 +1,314 @@
+{
+ "handle": "andy_matuschak",
+ "sites": [
+  {
+   "url": "https://andymatuschak.org",
+   "ok": true,
+   "title": "Andy Matuschak",
+   "description": "",
+   "stack": [
+    "Next.js"
+   ],
+   "hosting": [],
+   "lang": "",
+   "home_text": "Andy\nMatuschak \n Andy Matuschak \n Email X Bsky \nI'm an applied researcher, focused on creating user interfaces that expand what people can think and do. more… \nI'm an applied researcher, focused on creating user interfaces that expand what people can think and do. My current focus is an augmented book which actively helps people understand, remember, and use what they read. \nI believe personal computers can enable transformative tools for thought : environments that radically transform what people can think and do, so much so that we expand the set of thoughts it’s possible to think. I want to produce alien cognitive and creative powers —as wondrous and magical to us today as a modern visual effects artist might seem to a cave painter. \nI’ve been independently funded by my Patreon community since 2019. But as of late 2025, I’m on “para-academic leave”, helping make Pico , a conservatory for human attention. \nPrior to my current work, I helped build iOS at Apple and led R&D at Khan Academy . \n Email \n X Bsky \n Want to hear when I publish new work? \n Subscribe \nProjects:\ntools for thought \nProjects: tools for thought \nAugmenting cognition and creativity; \"how to create magicians?\"; \"what comes after the book?\"; enabling environments. \nWhat comes after the book? \nHow might we learn? \nTowards convivial AI-augmented learning \nHow can we develop transformative tools for thought? \nBarriers and opportunities, joint with Michael Nielsen \n Q uantum Country \nAn experimental “mnemonic book,” joint with Michael Nielsen \nWhy books don’t work \nOn designing media to reflect how people think and learn \nTimeful texts \nExtending the reading experience over time; joint with Michael Nielsen \nMore \nMore work \nApps and programming: two accidental tyrannies \nCoding agents, malleable software, and invention \nOrbit \nA platform for memory system experiments \nHow to write good prompts \nUsing spaced repetition to create understanding \nNotes \nWorking notes \nWhat‘s top of mind \nAn index of the questions and ideas I‘m exploring \nThe mnemonic medium \nDesign properties, evidence of impact, top questions \nEvergreen notes \nMethods for developing ideas over time \nEnabling environments, video games, and the Primer \nIncomplete notes on a new kind of growth environment \nProgrammable attention \nSystems which systematically orchestrate your mind \nTaking knowledge work seriously \nAthletes and musicians vs. knowledge workers \nLetters from\nthe lab \nLetters from the lab \nMonthly essays on work in progress. Most are initially written for my patrons , but some are later made available to the public. \nLess formal essays (some patron -only) \nWorking with blips: our second system \nA year of augmented attention work \nAugmenting scholarship: a proto-proposal \nTowards dynamic media for reading and synthesis \nPreparatory notes for a manifesto \nSome core beliefs behind my work \nA malleable reading environment \nTowards an improvisatory digital reading environment \nA startling glimpse of malleable software \nCase study for an AI-mediated software ecosystem \nTools for tools for thought \nSome principles for inventing tools for thought \nDesign-in-action: book markup grid \nA look inside my design process \nInvention, influence, and impact \nNotes on my theory of change \nA primitive for enabling environments \nEarly work on machine-generated prompts \nWhat can malleable software learn from Realtalk? \nConnecting two dreams of software liberation \nOn sitting down to study independently \nA catalog of problems for self-motivated students \nFive years of evergreen notes \nSome long-term reflections on networked notes \nExorcising us of the Primer \nTranscending The Diamond Age's vision for learning \nA spring flood of projects \nApril '24 updates on Orbit, BookBridge, etc \nWhat's worth learning if we have AGI? \nWhat kinds of knowledge remain meaningful? \nWhat does spatial computing want to become? \nPouring the silicon into the concrete \nIn praise of the particular \n…and other lessons from 2023 \nInitial results from highlight-driven prototype \nObservations from working with 14 students \nOn breadth vs. depth in learning \nHow to distribute time in study? \nHighlight-driven practice/comprehension support \nA new reading augmentation design concept \nStudying myself studying linear algebra \nSome problems with problem-solving practice \nInitial experiments in self-explanation support \nPainting a text with explanation \nReading comprehension and memory systems \nMemory failures are often not the root proble",
+   "github_links": [],
+   "subpages": {},
+   "feed": {
+    "url": "https://andymatuschak.org/feed.xml",
+    "count_seen": 1,
+    "items": [
+     {
+      "title": "Apps and programming: two accidental tyrannies",
+      "date": "Tue, 03 Mar 2026 00:00:00",
+      "url": "https://andymatuschak.org/tat"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "andymatuschak",
+  "user": {
+   "name": "Andy Matuschak",
+   "company": null,
+   "blog": "http://andymatuschak.org",
+   "location": "San Francisco, CA",
+   "bio": "Wonder, blunder, salve, solve! \r\n\r\nWorking on tools that expand what people can think and do.\r\n\r\nPast: led R&D @khanacademy; helped build iOS @apple.",
+   "public_repos": 74,
+   "followers": 3405,
+   "created_at": "2008-03-10T21:23:20Z",
+   "twitter_username": "andy_matuschak",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "andymatuschak/orbit",
+    "description": "Experimental spaced repetition platform for exploring ideas in memory augmentation and programmable attention",
+    "stargazers_count": 1837,
+    "forks_count": 64,
+    "language": "TypeScript",
+    "homepage": "https://withorbit.com",
+    "created_at": "2020-03-24T17:47:54Z",
+    "pushed_at": "2026-10-20T20:41:15Z",
+    "topics": [
+     "memory-augmentation",
+     "mnemonic-medium",
+     "research-platform",
+     "spaced-repetition"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/note-link-janitor",
+    "description": "Maintains backlink structure among interlinked Markdown notes",
+    "stargazers_count": 858,
+    "forks_count": 99,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2020-01-11T18:11:06Z",
+    "pushed_at": "2021-05-07T01:49:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/refactor-the-mega-controller",
+    "description": "Commits contain refactoring steps taken in my talk, \"Let's Play: Refactor the Mega-Controller\"",
+    "stargazers_count": 448,
+    "forks_count": 33,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-09-17T10:14:14Z",
+    "pushed_at": "2017-04-13T06:51:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/scrying-pen",
+    "description": "A strange pen that draws in both the past and the future // a realtime implementation of SketchRNN",
+    "stargazers_count": 139,
+    "forks_count": 19,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-03-04T01:19:14Z",
+    "pushed_at": "2018-03-27T04:45:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/Khan-Academy-Offer-Acceptance-Toy",
+    "description": "The playful way that I joined Khan Academy.",
+    "stargazers_count": 94,
+    "forks_count": 1,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-07-05T15:18:58Z",
+    "pushed_at": "2014-07-05T23:35:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/interactive-transcripts",
+    "description": "Interactive editable audio transcripts for Obsidian",
+    "stargazers_count": 62,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-07-01T05:23:23Z",
+    "pushed_at": "2026-09-09T03:26:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/react-native-leveldown",
+    "description": "Native bindings to LevelDB for React Native, exposed as leveldown-compatible interface",
+    "stargazers_count": 22,
+    "forks_count": 5,
+    "language": "Java",
+    "homepage": "",
+    "created_at": "2020-04-29T02:37:13Z",
+    "pushed_at": "2021-12-14T23:06:25Z",
+    "topics": [
+     "leveldb",
+     "react-native"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "andymatuschak/orbit-summer-2022-demo",
+    "description": "Prototype implementation of Aug 2022 mnemonic medium design",
+    "stargazers_count": 12,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-09-06T19:50:53Z",
+    "pushed_at": "2024-04-16T18:10:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/DOMNodeAndChildOffsetContainingViewportLocation",
+    "description": "What is at this location—to the letter?",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "language": "CoffeeScript",
+    "homepage": "",
+    "created_at": "2012-03-10T22:13:06Z",
+    "pushed_at": "2012-03-11T06:54:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/bear-link-janitor",
+    "description": "A fairly dangerous script which monitors + fixes broken wiki-style links in one's Bear library",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2019-07-22T04:31:09Z",
+    "pushed_at": "2019-08-07T13:42:09Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "andymatuschak/66",
+    "description": "Quartz Composer-based reinterpretation of Tangent Spaces' reinterpretation of Geometry Daily #66",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2014-08-10T14:37:47Z",
+    "pushed_at": "2014-08-10T14:45:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/dynamicland-video-dropzone",
+    "description": "Physical-to-digital-to-physical bridge for video in Dynamicland: video uploading webserver",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2018-01-20T23:06:55Z",
+    "pushed_at": "2018-01-20T23:30:44Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "andymatuschak/obsidian-potluck-replications",
+    "description": "LLM-generated replications of featured examples from Potluck",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2025-03-31T22:04:21Z",
+    "pushed_at": "2025-03-31T22:10:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/appbot-asana-adapter",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-12-10T01:02:04Z",
+    "pushed_at": "2016-12-13T22:59:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/bun-tarball-workspace-bug",
+    "description": "Minimal repro for https://github.com/oven-sh/bun/issues/7608",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2023-12-12T21:27:46Z",
+    "pushed_at": "2023-12-12T21:29:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/pangram-safari-extension",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-06-03T04:26:39Z",
+    "pushed_at": "2026-09-25T17:54:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/catalyst-expo-constants-fix",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2023-12-19T00:36:37Z",
+    "pushed_at": "2023-12-19T17:23:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "andymatuschak/expo-video-audiomixingmode-bug",
+    "description": "A repository for expo-video-audiomixingmode-bug",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2026-06-29T20:17:52Z",
+    "pushed_at": "2026-06-29T21:14:08Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 19,
+  "languages": [
+   [
+    "TypeScript",
+    7
+   ],
+   [
+    "JavaScript",
+    5
+   ],
+   [
+    "Swift",
+    2
+   ],
+   [
+    "Objective-C",
+    1
+   ],
+   [
+    "Java",
+    1
+   ],
+   [
+    "CoffeeScript",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 2519,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "andymatuschak/orbit": "# Orbit\nOrbit is an experimental platform for publishing and engaging with small tasks repeatedly over time. In the short term, it's focused on supporting the \"[mnemonic medium](https://numinous.productions/ttft/)\", a way of augmenting texts so that readers can easily remember all the key details. For an example, see [Quantum Country](https://quantum.country), a textbook on quantum computation. More abstractly, Orbit aspires to offer a more general form of spaced repetition systems like [Anki](https://apps.ankiweb.net), as part of a connected cloud service. Learn more on the [home page](https://withorbit.com).\nOrbit stores a collection of tasks and manages their schedules. Tasks can be ingested from around the web, via APIs or embedded iframes, or through various services running on your local computer. You can complete scheduled tasks in desktop, mobile, and web applications. A backend service syncs user data and orchestrates notifications.\nYou should also understand that Orbit is (for now) first and foremost a vehicle for research. We hope that it's useful, of course, but the main goal is not implementing features or polishing loose screws. We're focused on trying to understand the scope of systems like this, and what they one day want to become.\nIf you’re an author interested in using Orbit in your own texts, please view [the preliminary documentation](https://docs.withorbit.com).\n## Packages\nThis is Orbit's mono-repo, comprising many modular packages. You'll want to run `bun install` in the root to install dependencies before doing anything else. (We use [Bun](https://bun.sh) as our package manager and script runner.) From there, `bun build` will build all the packages, and `bun test` will run all the tests.\nWhile everything is written in Typescript, components of Orbit must run in Node, web browsers, and react-native environments, which can require some care. See the table below for an overview, and see Readme files in individual package folders for details on each package.\n| Package | Description | Node | Browser | react-native  | License |\n| --- | --- | --- | --- | --- | --- |\n| `app` | Orbit client apps (webapp, native mobile / desktop) | | ✅ | ✅ | AGPL3",
+   "andymatuschak/note-link-janitor": "# note-link-janitor\nThis script reads in a folder of Markdown files, notes all the [[wiki-style links]] between them, then adds a special \"backlinks\" section which lists passages which reference a given file.\nFor example, this text might get added to `Sample note.md`:\n```\n## Backlinks\n* [[Something that links here]]\n    * The block of text in the referencing note which contains the link to [[Sample note]].\n    * Another block in that same note which links to [[Sample note]].\n* [[A different note that links here]]\n    * This is a paragraph from another note which links to [[Sample note]].\n```\nThe script is idempotent; on subsequent runs, _it will update that backlinks section in-place_.\nThe backlinks section will be initially inserted at the end of the file. If there happens to be a HTML-style `<!-- -->` block at the end of your note, the backlinks will be inserted before that block.\n## Assumptions/warnings\n1. Links are formatted `[[like this]]`.\n2. Note titles are inferred from the first line of each note, which is assumed to be formatted as a heading, i.e. `# Note title`.\n3. All `.md` files are siblings; the script does not currently recursively traverse subtrees (though that would be a simple modification if you need it; see `lib/readAllNotes.ts`)\n4. The backlinks \"section\" is defined as the AST span between `## Backlinks` and the next heading tag (or `<!-- -->` tag). Any text you might add to this section will be clobbered. Don't append text after the backlinks list without a heading in between! (I like to leave my backlinks list at the end of the file)\n### This is FYI-style open source\nThis is FYI-style open source. I'm sharing it for interested parties, but without any stewardship commitment. Assume that my default response to issues and pull requests will be to ignore or close them without comment. If you do something interesting with this, though, [please let me know](mailto:andy@andymatuschak.org).\n## Usage\nTo install a published release, run:\n```\nyarn global add @andymatuschak/note-link-janitor\n```\nThen to run it (note that it will modify your `.md` files _in-place_; you may want to make a backup!):\n```\nnote-link-janitor path/to/folder/containing/md/fil",
+   "andymatuschak/refactor-the-mega-controller": "# Let's Play: Refactor the Mega-Controller\nHello! This project needs some explanation.\nThis is the companion source for [a talk I've been giving](https://vimeo.com/140037432) under the same name. You can also [watch a more \"improvised\" version](https://realm.io/news/andy-matuschak-refactor-mega-controller/) of it I gave at Realm.\nThe idea is to take a highly-coupled, highly-ugly view controller implementation and to incrementally isolate, abstract, and test components of it, reducing dependencies of each piece along the way.\nI've tried to use this project to demonstrate some of the architectural design principles I've been developing for Swift. The source probably won't make much sense outside of the context of the talk, but perhaps in time I'll annotate the source with docstrings so that it can be read on its own.\nIf you're reading this outside the context of my talk, I'll offer this caveat: all added layers of abstraction also add complexity. Not all of these steps will necessarily be worth it given the tradeoffs of your own project. This project attempts to demonstrate aggressive isolation for instructive purposes, but I don't always advocate that in practice.\n## How to read the refactorings\nThe progressive refactorings are represented in the Git history. `HEAD` represents where the refactoring stopped. You'll want to step back to the first revision, then step forward to see how each step was refactored.\n## Now you try!\nI did these refactorings pretty quickly. You should feel free to try your hand at cleaning up this awful view controller on your own; send me pull requests, and we'll chat about 'em!\n",
+   "andymatuschak/scrying-pen": "# Scrying Pen\nThis pen's ink stretches backwards into the past and forwards into possible futures. The two sides make a strange loop: the future ink influences how you draw, which in turn becomes the new \"past\" ink influencing further future ink.\nPut another way: this is a realtime implementation of [SketchRNN](https://arxiv.org/abs/1704.03477) which predicts future strokes while you draw.\n[Play with it here!](http://andymatuschak.org/scrying-pen) (You'll need to use Chrome for now.)\nLet it guide your hand, or not, while you draw. Enjoy the gentle interplay between your volition and the machine's.\n## Background\nI'm excited about applications of machine learning to human augmentation—as opposed to automating tedious work or solving number-crunching problems. I believe effective media for human augmentation require feedback loops tight enough to work at the speed of thought. All that is to say: I'm interested in what happens when we take complex operations and make them interactive in real-time.\n## Thanks\nI'm grateful to David Ha, Douglas Eck, and their team for their great work with SketchRNN. The paper's wonderful to read; the models from Quick, Draw! are a great resource to the community; the demo implementations were a very helpful reference.\nI'm also grateful to Michael Nielsen, Robert Ochshorn, and M Eifler for useful conversations about this project.\nThanks also to the [OpenAI Hackathon](https://blog.openai.com/hackathon/) for providing a nice venue for polishing the last bits of this project up.\n"
+  }
+ },
+ "apps": []
+}

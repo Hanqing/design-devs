@@ -1,0 +1,160 @@
+{
+ "name": "Javi（rameerez）",
+ "role": "PromptHero 创始人（已出售）· RailsFast 作者 · 15+ 个开源 Ruby gem 作者 · 独立开发者",
+ "title": "rameerez：一个人<em>设计、写代码、运营</em>",
+ "dek": "他叫 Javier，网名 rameerez，自称「业余站长」，是做了十多年软件产品的独立开发者。他最有名的作品是 PromptHero：一个搜索和分享 AI 提示词的网站，也是最大的 AI 图像生成网站之一，团队还做了开源模型 Openjourney；他从零把它做到每月 400 多万用户，然后卖掉了。之后他做了 AI 求职工具 Jobician、延时摄影应用 Hustl 等项目，2024 到 2025 年开源了 15 个以上的 Ruby gem（累计下载 33 万次以上），专门解决 Rails SaaS 的常见需求：用量计费、定价方案限制、API 密钥、MRR 仪表盘、健康检查页、屏蔽一次性邮箱。现在他在做 RailsFast，一个「为 AI 编程准备的」Rails 模板。他的项目大多一个人完成：「我独自设计、写代码、运营它们」，好把精力留给用户，而不是投资人。",
+ "card": "PromptHero 创始人（4M+ 月活，已出售），RailsFast 作者，15+ 开源 Ruby gem 作者，独立开发者。",
+ "location": "未公开",
+ "updated": "2026-10-23",
+ "tags": ["独立开发", "Ruby on Rails", "SaaS", "AI 产品", "开源"],
+ "links": [
+  {"label": "rameerez.com", "url": "https://rameerez.com"},
+  {"label": "RailsFast", "url": "https://railsfast.com"},
+  {"label": "GitHub：rameerez", "url": "https://github.com/rameerez"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Amateur webmaster. Built and sold @PromptHero after scaling it to 4M+ users/mo, now making more startups & open-source 💎 Ruby gems (330k+ downloads)」",
+  "<strong>代表作：</strong>PromptHero、Openjourney（团队）、RailsFast、Jobician、Hustl、VisualHound、allgood（★272）、usage_credits（★167）、profitable（★98）、pricing_plans、api_keys、nondisposable、Clipbasket（Omarchy 插件）。",
+  "<strong>关键数字：</strong>PromptHero 月用户 400 万以上；Ruby gem 下载 33 万次以上；GitHub 近一年贡献 18,393 次；X 关注者约 1 万。",
+  "<strong>报道：</strong>他的作品被《华尔街日报》、Vox、Fast Company、The Next Web 等报道（据本人网站）。"
+ ],
+ "lead": "2026 年 7 月，他在开发一个 Ruby gem 时遇到一个 bug，让 AI 分析后发现问题出在 Rails 本身。他们一起写了修复并提交 PR，后来被合并进了 Rails。他还写道，LLM 编程意外地让他成了更好的「资本配置者」：以前他觉得自己的编程能力几乎是免费的，因为只是花时间；现在他意识到，自己的工作越来越像「把 token 分配给正确的任务」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者、创业者"],
+     ["所在地", "未公开"],
+     ["公司", "Latent Software（GitHub 资料）"],
+     ["产品", "RailsFast；此前 PromptHero、Jobician、Hustl"],
+     ["技术栈", "Ruby on Rails、Python"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "rameerez 正在用<strong>Rails + AI 编程</strong>做新的创业项目，并把通用部分抽成开源 gem。usage_credits 给 Rails 应用加上按用量计费的额度系统，pricing_plans 定义并执行套餐限制，profitable 计算 MRR、ARR、流失率、LTV 和估值，allgood 一分钟搭好健康检查页，api_keys 安全地管理 API 密钥。"},
+    {"p": "他也是「离开云」的实践者：2024 年他写了《How I exited the cloud》和《Kamal's missing tutorial》，讲怎样用 Kamal 把 Rails 8 和 Postgres 部署到自己的 VPS 上。2026 年他还给 DHH 的 Linux 发行版 Omarchy 写了剪贴板管理插件 Clipbasket。"},
+    {"note": "本页依据 rameerez.com（关于、项目、博客）、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。PromptHero 的出售时间与金额未公开；用户数等数字来自本人；政治相关言论未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2010 年代", "title": "独立开发", "text": "做各类网站和应用；Hustl 延时摄影应用等。"},
+     {"when": "2019–2020", "title": "AI 教育", "text": "在 Saturdays.AI 做脑机接口加 AI 的训练营课程。"},
+     {"when": "2022 前后", "title": "PromptHero", "text": "AI 提示词搜索与分享网站，增长到每月 400 万以上用户；Openjourney；12 月做了 VisualHound。"},
+     {"when": "2023–", "title": "出售与新项目", "text": "11 月推出 AI 求职工具 Jobician；PromptHero 后来被出售（时间未公开）。"},
+     {"when": "2024–2025", "title": "Ruby gems", "text": "开源 15 个以上 Rails SaaS 工具 gem；离开云，迁到 VPS。"},
+     {"when": "2026", "title": "RailsFast", "text": "为 AI 编程准备的 Rails 模板；向 Rails 提交修复。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "PromptHero", "url": "https://prompthero.com",
+     "meta": ["AI 提示词社区", "已出售"],
+     "paras": [
+      "搜索和分享 AI 图像提示词的网站，他把它做成最大的 AI 图像生成网站之一，然后出售。"
+     ]
+    }},
+    {"work": {
+     "name": "RailsFast", "url": "https://railsfast.com",
+     "meta": ["2026", "Rails 模板"],
+     "paras": [
+      "「The template for AI coding」一个预先配好常用功能、适合用 AI 快速开发的 Rails 项目模板。"
+     ]
+    }},
+    {"work": {
+     "name": "usage_credits", "url": "https://usagecredits.com",
+     "meta": ["2025–", "Ruby gem", "★167"],
+     "paras": [
+      "「Add usage-based credits to your Rails app」给 AI 应用这类按次计费的产品加上额度系统。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["allgood", "Rails 应用健康检查页（★272）"],
+      ["profitable", "计算 MRR、ARR、流失率和估值（★98）"],
+      ["pricing_plans", "定价方案限制与功能开关"],
+      ["nondisposable", "屏蔽一次性邮箱注册"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://rameerez.com", "paras": [
+     "rameerez.com 是一个 WordPress 网站，标题列出他做过的产品。首页有「被报道于」的媒体标志墙，项目页按年份列出从 RailsFast 到早年作品的长清单，博客讲创业、软件和离开云。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "WordPress，Cloudflare"],
+      ["结构", "项目 + 博客 + 媒体报道"],
+      ["博客", "2024 年后更新较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2024-11-11", "title": "Kamal's missing tutorial – how to deploy a Rails 8 app with Postgres to your VPS", "url": "https://rameerez.com/blog/"},
+     {"date": "2024-10-04", "title": "Send this article to your friend who still thinks the cloud is a good idea", "url": "https://rameerez.com/blog/"},
+     {"date": "2024-10-02", "title": "How I exited the cloud", "url": "https://rameerez.com/blog/"}
+    ]},
+    {"quote": "I'm just a token allocator now. My entire job description has been reduced to \"allocate tokens to the right tasks\"", "cite": "rameerez，X，2026-07"},
+    {"p": "他也坦白自己的毛病：总在做东西，却很少讲自己做了什么，因为做完时多巴胺已经满足了，马上就跳去下一个项目。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "做出并卖掉过大流量产品", "—"],
+      ["开源", "gem 实用、聚焦 SaaS", "单个 gem 规模较小"],
+      ["公开表达", "—", "X 上部分言论较激进"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一个人也能做出百万级用户的产品。</strong>",
+     "<strong>把每个项目里的通用部分开源。</strong>",
+     "<strong>认真算清楚成本，</strong>包括你自己的时间。",
+     "<strong>做完了，也要讲出来。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "profitable", "url": "https://github.com/rameerez/profitable", "why": "给你的 SaaS 加一个 MRR 仪表盘。"},
+     {"name": "usage_credits", "url": "https://usagecredits.com", "why": "按用量计费的现成方案。"},
+     {"name": "rameerez.com/projects", "url": "https://rameerez.com/projects", "why": "看一位独立开发者的十年项目清单。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "列出你的 SaaS 每个月的固定成本，算一算有多少可以通过迁到一台 VPS 省下来。",
+ "sources": [
+  {"label": "rameerez 的 X 个人资料", "url": "https://x.com/rameerez"},
+  {"label": "rameerez.com：About", "url": "https://rameerez.com/about/"},
+  {"label": "rameerez.com：Projects", "url": "https://rameerez.com/projects"},
+  {"label": "GitHub：rameerez", "url": "https://github.com/rameerez"}
+ ]
+}

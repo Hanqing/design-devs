@@ -1,0 +1,517 @@
+{
+ "handle": "ianstormtaylor",
+ "sites": [
+  {
+   "url": "https://ianstormtaylor.com",
+   "ok": true,
+   "title": "Ian Storm Taylor",
+   "description": "Co-founder of Segment, and ex-RISD Graphic Design. I write about design, programming, and pretty much anything systems related.",
+   "stack": [
+    "Google Fonts",
+    "React"
+   ],
+   "hosting": [
+    "Netlify"
+   ],
+   "lang": "",
+   "home_text": "Ian Storm Taylor \n Co-founder of Segment \n Summer 2013 \n Refactoring Github’s Design \nReducing an interface until only the absolutely necessary elements remain is one of the most satisfying tasks in design. \n Spring 2013 \n What’s Wrong with the iOS 7 Icons? \n“It looks childish.” \n Media Queries are a Hack \nThe big buzzwords in CSS these days are “modular” and “responsive”—and for good reasons. But we’re still trying to achieve those goals with the wrong tool: Media Queries. What we really need is a tool that doesn’t exist yet… \n Winter 2012 \n Walking Through the Design Process \nI was rummaging through my drafts folder and stumbled on this old post walking through the process of designing the “Goals” feature on our old product, before we switched to what Segment is now. I think it’s an interesting… \n Fall 2012 \n OOCSS + Sass = The Best Way to Write CSS \nObject-oriented CSS is awesome. But littering your markup with non-semantic classes is not awesome. Those classes sprinkled all over your HTML are going to change, and that’s not gonna be fun. But if you combine OOCSS and… \n Summer 2012 \n Break Apart Your Backbone.js Render Methods \nAfter my article on rendering views in Backbone, Jeremy Ashkenas pointed out that my examples were doing extra, expensive work by re-rendering everything on every call to render. He’s absolutely right, but they were just… \n Design Tip: Never Use Black \nOne of the most important color tricks I’ve ever learned was to avoid using the color black in my work. Mrs. Zamula, my childhood art teacher, first warned me about black when I was in middle school. And I heard the same… \n Assigning Backbone Subviews Made Even Cleaner \nAfter my post about rendering subviews in Backbone.js, Tim Branyen asked me if I had taken a look at Layout Manager because it aims to solve a lot of the problems that crop up with managing complex application layouts. I’ll… \n Rendering Views in Backbone.js Isn’t Always Simple \nWhen I first started using Backbone, one of my biggest unsolved problems was finding a good pattern for rendering views. It should be easy, but there are lots of pitfalls that crop up in larger apps, so I’ll show you what we… \n Backbone.js Configuration Logic Should Be Extendable \nBackbone’s flexible design makes it really easy to structure apps any way you see fit. But it also means that you’ll always need to augment Backbone if you have a decent-sized project—which is fine because you can tweak… \n Spring 2011 \n Audience on the Web \nThere’s no question that audience is an important consideration in design. Hell, it isn’t even design if there isn’t an audience. But the web has transformed that audience from a passive group into a powerful one. It has… \n Skeumorphism and the iPad \nWhen the iPad was released last April, several applications on the device were derided bydesigners for their “kitsch” use of real-world interface metaphors, a practice promoted in the company’s Human Interface Guidelines for… \n Fall 2010 \n Spec Work or Dialogue? \nThe Gap redesign has sparked a lot of discussion in the design community about crowd-sourcing and spec work. In a recent article, Francisco Inchauste argued that designers’ reaction to Gap’s new logo was serving to lessen the… \n Good for Good’s Sake \nA recent post on Drawar criticizing some designers’ reaction to Gap’s new brand seemed so off-base to me I have to respond. While Scrivs makes some good points about the redesign’s intentions, one paragraph stood out to me: \n Summer 2010 \n WebAdvisor Simplified \nAs designers we are con­stantly both­ered by all of the poorly designed things around us. We can whine about the worst offenders to friends, but by now they’ve learned to filter our com­plaints. It’s a tough life.",
+   "github_links": [],
+   "subpages": {},
+   "feed": {
+    "url": "https://ianstormtaylor.com/atom.xml",
+    "count_seen": 15,
+    "items": [
+     {
+      "title": "Refactoring Github’s Design",
+      "date": "2013-06-27T17:57:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/refactoring-githubs-design"
+     },
+     {
+      "title": "What’s Wrong with the iOS 7 Icons?",
+      "date": "2013-06-12T19:08:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/whats-wrong-with-the-ios-7-icons"
+     },
+     {
+      "title": "Media Queries are a Hack",
+      "date": "2013-04-01T17:52:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/media-queries-are-a-hack"
+     },
+     {
+      "title": "Walking Through the Design Process",
+      "date": "2013-02-28T17:58:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/walking-through-the-design-process"
+     },
+     {
+      "title": "OOCSS + Sass = The Best Way to Write CSS",
+      "date": "2012-10-14T22:12:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/oocss-plus-sass-is-the-best-way-to-css"
+     },
+     {
+      "title": "Break Apart Your Backbone.js Render Methods",
+      "date": "2012-08-14T17:08:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/break-apart-your-backbonejs-render-methods"
+     },
+     {
+      "title": "Design Tip: Never Use Black",
+      "date": "2012-08-07T17:15:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/design-tip-never-use-black"
+     },
+     {
+      "title": "Assigning Backbone Subviews Made Even Cleaner",
+      "date": "2012-08-03T20:45:34.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/assigning-backbone-subviews-made-even-cleaner"
+     },
+     {
+      "title": "Rendering Views in Backbone.js Isn’t Always Simple",
+      "date": "2012-07-14T19:48:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/rendering-views-in-backbonejs-isnt-always-simple"
+     },
+     {
+      "title": "Backbone.js Configuration Logic Should Be Extendable",
+      "date": "2012-06-26T19:56:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/backbonejs-configuration-logic-should-be-extendable"
+     },
+     {
+      "title": "Audience on the Web",
+      "date": "2011-05-25T03:00:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/audience-on-the-web"
+     },
+     {
+      "title": "Skeumorphism and the iPad",
+      "date": "2011-04-12T02:01:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/skeumorphism-on-the-ipad"
+     },
+     {
+      "title": "Spec Work or Dialogue?",
+      "date": "2010-10-06T21:02:30.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/spec-work-or-dialogue"
+     },
+     {
+      "title": "Good for Good’s Sake",
+      "date": "2010-10-05T16:52:31.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/good-for-goods-sake"
+     },
+     {
+      "title": "WebAdvisor Simplified",
+      "date": "2010-09-18T22:04:00.000Z",
+      "url": "https:&#x2F;&#x2F;ianstormtaylor.com/webadvisor-simplified"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "ianstormtaylor",
+  "user": {
+   "name": "Ian Storm Taylor",
+   "company": null,
+   "blog": "https://ianstormtaylor.com",
+   "location": "San Francisco, CA",
+   "bio": null,
+   "public_repos": 202,
+   "followers": 3030,
+   "created_at": "2010-06-22T13:42:12Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "ianstormtaylor/slate",
+    "description": "A completely customizable framework for building rich text editors. (Currently in beta.)",
+    "stargazers_count": 31741,
+    "forks_count": 3305,
+    "language": "TypeScript",
+    "homepage": "http://slatejs.org",
+    "created_at": "2016-06-18T01:52:42Z",
+    "pushed_at": "2026-10-22T03:41:57Z",
+    "topics": [
+     "browser",
+     "editor",
+     "framework",
+     "javascript",
+     "react",
+     "rich-text",
+     "slate",
+     "text-editor"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/superstruct",
+    "description": "A simple and composable way to validate data in JavaScript (and TypeScript).",
+    "stargazers_count": 7129,
+    "forks_count": 224,
+    "language": "TypeScript",
+    "homepage": "https://docs.superstructjs.org",
+    "created_at": "2017-11-23T03:03:25Z",
+    "pushed_at": "2024-10-01T02:42:53Z",
+    "topics": [
+     "interface",
+     "javascript",
+     "schema",
+     "structs",
+     "types",
+     "typescript",
+     "validation"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/permit",
+    "description": "An unopinionated authentication library for building Node.js APIs.",
+    "stargazers_count": 1679,
+    "forks_count": 54,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-04-19T00:43:11Z",
+    "pushed_at": "2022-12-06T19:46:38Z",
+    "topics": [
+     "authentication",
+     "express",
+     "fastify",
+     "hapi",
+     "koa",
+     "nodejs"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/react-values",
+    "description": "A set of tiny React components for handling state with render props.",
+    "stargazers_count": 1005,
+    "forks_count": 31,
+    "language": "JavaScript",
+    "homepage": "https://git.io/react-values",
+    "created_at": "2018-07-09T20:51:35Z",
+    "pushed_at": "2019-03-05T10:55:57Z",
+    "topics": [
+     "components",
+     "headless",
+     "react",
+     "render-props",
+     "state-management"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "ianstormtaylor/is-hotkey",
+    "description": "Check whether a browser event matches a hotkey.",
+    "stargazers_count": 376,
+    "forks_count": 26,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-10-16T01:10:04Z",
+    "pushed_at": "2026-10-18T11:40:34Z",
+    "topics": [
+     "browser",
+     "events",
+     "hotkeys",
+     "javascript",
+     "keyboard"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/awesome-heroku",
+    "description": "A curated list of helpful Heroku resources.",
+    "stargazers_count": 319,
+    "forks_count": 36,
+    "language": null,
+    "homepage": null,
+    "created_at": "2016-03-17T01:35:45Z",
+    "pushed_at": "2021-07-06T18:57:23Z",
+    "topics": [
+     "awesome",
+     "awesome-list",
+     "heroku",
+     "list",
+     "paas"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/slate-plugins",
+    "description": "A set of my personal Slate editor plugins, in a monorepo.",
+    "stargazers_count": 244,
+    "forks_count": 64,
+    "language": "JavaScript",
+    "homepage": "https://slate-plugins.netlify.com",
+    "created_at": "2017-09-13T17:13:04Z",
+    "pushed_at": "2022-12-03T01:08:30Z",
+    "topics": [
+     "editor",
+     "javascript",
+     "plugins",
+     "react",
+     "rich-text",
+     "slate",
+     "slate-plugin",
+     "text-editor"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/hpmor",
+    "description": "A set of covers for \"Harry Potter and the Methods of Rationality\".",
+    "stargazers_count": 125,
+    "forks_count": 17,
+    "language": null,
+    "homepage": "",
+    "created_at": "2016-02-06T01:13:15Z",
+    "pushed_at": "2021-02-07T20:11:15Z",
+    "topics": [
+     "book",
+     "design",
+     "fanfiction",
+     "harry-potter"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/to-case",
+    "description": "Simple case detection and conversion for strings.",
+    "stargazers_count": 123,
+    "forks_count": 8,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2013-09-19T19:59:41Z",
+    "pushed_at": "2016-01-21T20:07:35Z",
+    "topics": [
+     "case",
+     "javascript",
+     "utility"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/minify",
+    "description": "Simple, clean API for minifying Javascript, HTML or CSS.",
+    "stargazers_count": 110,
+    "forks_count": 13,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-11-20T23:33:34Z",
+    "pushed_at": "2015-02-07T04:05:20Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "ianstormtaylor/css-color-function",
+    "description": "A parser and converter for Tab Atkins's proposed color function in CSS.",
+    "stargazers_count": 90,
+    "forks_count": 13,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2013-12-16T08:59:02Z",
+    "pushed_at": "2017-10-12T00:24:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/is",
+    "description": "Simple type checking.",
+    "stargazers_count": 76,
+    "forks_count": 8,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-08-26T00:09:05Z",
+    "pushed_at": "2016-06-10T01:14:13Z",
+    "topics": [
+     "type",
+     "utility"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "ianstormtaylor/void",
+    "description": "A toolkit for making generative art.",
+    "stargazers_count": 75,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2022-09-16T02:07:24Z",
+    "pushed_at": "2022-12-01T17:11:07Z",
+    "topics": [
+     "art",
+     "canvas",
+     "editor",
+     "generative",
+     "sketch",
+     "studio",
+     "svg"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/router",
+    "description": "A nice client-side router.",
+    "stargazers_count": 70,
+    "forks_count": 11,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-07-16T05:36:54Z",
+    "pushed_at": "2014-08-29T18:39:22Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "ianstormtaylor/bump",
+    "description": "Easily bump the version of all the different package.json equivalents.",
+    "stargazers_count": 64,
+    "forks_count": 10,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2014-02-05T21:40:32Z",
+    "pushed_at": "2015-08-02T22:30:04Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "ianstormtaylor/heroku-logger",
+    "description": "A dead simple logger, designed to be perfect for Heroku apps.",
+    "stargazers_count": 61,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-04-12T18:16:21Z",
+    "pushed_at": "2022-04-07T02:44:25Z",
+    "topics": [
+     "heroku",
+     "logger",
+     "logging",
+     "nodejs"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ianstormtaylor/is-empty",
+    "description": "Check whether a value is empty.",
+    "stargazers_count": 46,
+    "forks_count": 15,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-08-29T00:36:11Z",
+    "pushed_at": "2019-03-07T23:13:12Z",
+    "topics": [
+     "browser",
+     "javascript",
+     "node",
+     "utility"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "ianstormtaylor/browser-logger",
+    "description": "A dead simple logger, designed to be perfect for the browser.",
+    "stargazers_count": 45,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-10-08T23:03:17Z",
+    "pushed_at": "2017-10-08T23:38:32Z",
+    "topics": [
+     "browser",
+     "logger",
+     "logging",
+     "nodejs"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 95,
+  "languages": [
+   [
+    "JavaScript",
+    71
+   ],
+   [
+    "TypeScript",
+    6
+   ],
+   [
+    "CSS",
+    3
+   ],
+   [
+    "Makefile",
+    2
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "Gosu",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "ianstormtaylor/slate",
+    "stargazerCount": 31741,
+    "description": "A completely customizable framework for building rich text editors. (Currently in beta.)",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "http://slatejs.org"
+   },
+   {
+    "nameWithOwner": "ianstormtaylor/superstruct",
+    "stargazerCount": 7129,
+    "description": "A simple and composable way to validate data in JavaScript (and TypeScript).",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://docs.superstructjs.org"
+   },
+   {
+    "nameWithOwner": "ianstormtaylor/void",
+    "stargazerCount": 75,
+    "description": "A toolkit for making generative art.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "ianstormtaylor/permit",
+    "stargazerCount": 1679,
+    "description": "An unopinionated authentication library for building Node.js APIs.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "metalsmith/metalsmith",
+    "stargazerCount": 7817,
+    "description": "An extremely simple, pluggable static site generator for Node.js",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://metalsmith.io"
+   },
+   {
+    "nameWithOwner": "segmentio/myth",
+    "stargazerCount": 4286,
+    "description": "A CSS preprocessor that acts like a polyfill for future versions of the spec.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 0,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "ianstormtaylor/slate": "<p align=\"center\">\n  <a href=\"#\"></a>\n</p>\n<p align=\"center\">\n  A <em>completely</em> customizable framework <br/>\n  for building rich text editors.\n</p>\n<br/>\n<p align=\"center\">\n  <a href=\"#why\"><strong>Why?</strong></a> ·\n  <a href=\"#principles\"><strong>Principles</strong></a> ·\n  <a href=\"http://slatejs.org\"><strong>Demo</strong></a> ·\n  <a href=\"#examples\"><strong>Examples</strong></a> ·\n  <a href=\"http://docs.slatejs.org\"><strong>Documentation</strong></a> ·\n  <a href=\"#contributing\"><strong>Contributing!</strong></a>\n</p>\n<br/>\n<p align=\"center\">\n  <a href=\"http://slatejs.org\"></a>\n</p>\n<p align=\"center\">\n  <a href=\"https://unpkg.com/slate/dist/slate.min.js\">\n  </a>\n  <a href=\"https://join.slack.com/t/slate-js/shared_invite/zt-f8t986ip-7dA1DyiqPpzootz1snKXkw\">\n  </a>\n  <a href=\"./packages/slate/package.json\">\n  </a>\n</p>\n<br/>\nSlate lets you build rich, intuitive editors like those in [Medium](https://medium.com/), [Dropbox Paper](https://www.dropbox.com/paper) or [Google Docs](https://www.google.com/docs/about/)—which are becoming table stakes for applications on the web—without your codebase getting mired in complexity.\nIt can do this because all of its logic is implemented with a series of plugins, so you aren't ever constrained by what _is_ or _isn't_ in \"core\". You can think of it like a pluggable implementation of `contenteditable` built on top of [React](https://facebook.github.io/react/). It was inspired by libraries like [Draft.js](https://facebook.github.io/draft-js/), [Prosemirror](http://prosemirror.net/) and [Quill](http://quilljs.com/).\n> 🤖 **Slate is currently in beta.** Its core API is useable right now, but you might need to pull request improvements for advanced use cases, or fixes for some bugs. Some of its APIs are not \"finalized\" and will have breaking changes over time as we discover better solutions. There isn't currently a `1.0` release schedule, we're still getting the architecture right.\n> 🤖 **Slate is also contributor-driven.** It is not backed by any huge company, which means that all contributions are voluntary and done by the people who need them. If you need something improved, added, or fixed, please contribute it yourself o",
+   "ianstormtaylor/superstruct": "<p align=\"center\">\n  <a href=\"#\"></a>\n</p>\n<p align=\"center\">\n  A simple and composable way  <br/>\n  to validate data in JavaScript (and TypeScript).\n</p>\n<br/>\n<br/>\n<p align=\"center\">\n  <a href=\"#usage\">Usage</a> •\n  <a href=\"#why\">Why?</a> •\n  <a href=\"#principles\">Principles</a> •\n  <a href=\"#demo\">Demo</a> •\n  <a href=\"#examples\">Examples</a> •\n  <a href=\"#documentation\">Documentation</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://unpkg.com/superstruct/umd/superstruct.min.js\">\n  </a>\n  <a href=\"./package.json\">\n  </a>\n  <a href=\"https://jsr.io/@superstruct/core\">\n  </a>\n</p>\n<br/>\n<br/>\nSuperstruct makes it easy to define interfaces and then validate JavaScript data against them. Its type annotation API was inspired by [Typescript](https://www.typescriptlang.org/docs/handbook/basic-types.html), [Flow](https://flow.org/en/docs/types/), [Go](https://gobyexample.com/structs), and [GraphQL](http://graphql.org/learn/schema/), giving it a familiar and easy to understand API.\nBut Superstruct is designed for validating data at runtime, so it throws (or returns) detailed runtime errors for you or your end users. This is especially useful in situations like accepting arbitrary input in a REST or GraphQL API. But it can even be used to validate internal data structures at runtime when needed.\n<br/>\n### Usage\nSuperstruct allows you to define the shape of data you want to validate:\n```js\nimport { assert, object, number, string, array } from 'superstruct'\nconst Article = object({\n  id: number(),\n  title: string(),\n  tags: array(string()),\n  author: object({\n    id: number(),\n  }),\n})\nconst data = {\n  id: 34,\n  title: 'Hello World',\n  tags: ['news', 'features'],\n  author: {\n    id: 1,\n  },\n}\nassert(data, Article)\n// This will throw an error when the data is invalid.\n// If you'd rather not throw, you can use `is()` or `validate()`.\n```\nSuperstruct ships with validators for all the common JavaScript data types, and you can define custom ones too:\n```js\nimport { is, define, object, string } from 'superstruct'\nimport isUuid from 'is-uuid'\nimport isEmail from 'is-email'\nconst Email = define('Email', isEmail)\nconst Uuid = define('Uuid', isUuid.v4)\nconst User = object({\n  id: Uu",
+   "ianstormtaylor/void": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"./docs/images/banner-dark.png\">\n  </picture>\n</p>\n<p align=\"center\">\n  A toolkit for making generative art.\n</p>\n<p align=\"center\">\n  <a href=\"#introduction\">Introduction</a> •\n  <a href=\"#examples\">Examples</a> •\n  <a href=\"#documentation\">Documentation</a>\n</p>\n<br/>\nVoid makes it easy to create and explore generative art. It gives you the workflows you know from modern graphics programs, paired with a simple, powerful library for building sketches with [HTML's `<canvas>`](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API).\n- **Tweak variables.** The traits of a sketch can be changed directly in the UI, so you can experiment quickly, and create a variety of different outputs.\n- **Export artwork.** The output of a sketch can be exported to raster formats like PNG or JPG, as well as vector formats like SVG out of the box!\n- **Control randomness.** Changing the random seed for a sketch allows you to reproduce existing outputs, or create entirely new outputs.\n- **Customize layout.** Use common presets like `Letter`, `A4`, or `1080p`, or define a custom size, add margins, change orientations, etc.\n- **Import dependencies.** Sketches are just JavaScript (or TypeScript) files, so you can import useful helpers from [npm](https://www.npmjs.com/) packages or neighboring files as usual.\n- **Bundle efficiently.** The Void library is designed to be completely treeshake-able, so it produces the absolute smallest bundle sizes when packaging up your code.\n- **Feel familiar.** Void's UI is inspired by modern tools like [Figma](https://www.figma.com/) and [Blender](https://www.blender.org/), its API is inspired by creative coding frameworks like [P5.js](https://p5js.org/) and [canvas-sketch](https://github.com/mattdesl/canvas-sketch).\n<br/>\n<p align=\"center\">\n</p>\n<br/>\n### Introduction\nTo get started, download the Void desktop app:\n<a href=\"https://github.com/ianstormtaylor/void/releases/latest/download/Void-macOS-arm64.dmg\">\n</a>\n<a href=\"https://github.com/ianstormtaylor/void/releases/latest/download/Void-macOS-x64.dmg\">\n</a>\n<a href=\"https://github.com/ianstormtaylor/void/relea",
+   "ianstormtaylor/permit": "<p align=\"center\">\n  <a href=\"#\"></a>\n</p>\n<p align=\"center\">\n  An <em>unopinionated</em> authentication library <br/>\n  for building Node.js APIs.\n</p>\n<br/>\n<br/>\n<p align=\"center\">\n  <a href=\"#usage\">Usage</a> •\n  <a href=\"#why\">Why?</a> •\n  <a href=\"#principles\">Principles</a> •\n  <a href=\"#examples\">Examples</a> •\n  <a href=\"#documentation\">Documentation</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://travis-ci.org/ianstormtaylor/permit\">\n  </a>\n  <a href=\"./package.json\">\n  </a>\n  <a href=\"./License.md\">\n  </a>\n</p>\n<br/>\n<br/>\nPermit makes it easy to add an authentication layer to any Node.js API. It can be used with any of the popular server frameworks (eg. Express, Koa, Hapi, Fastify) and it can be used for any type of API (eg. REST, GraphQL, etc.) due to its simple, unopinionated design.\n<br/>\n### Usage\nPermit lets you authenticate via the two schemes most APIs need: a single secret bearer token, or a set of username and password credentials. For example, here's how to authenticate a bearer token:\n```js\nimport { Bearer } from 'permit'\n// A permit that checks for HTTP Bearer Auth, falling back to a query string.\nconst permit = new Bearer({\n  query: 'access_token',\n})\nasync function handler({ req, res }) {\n  // Try to find the bearer token in the request.\n  const token = permit.check(req)\n  // No token, that means they didn't pass credentials!\n  if (!token) {\n    permit.fail(res)\n    throw new Error(`Authentication required!`)\n  }\n  // Authenticate the token however you'd like...\n  const user = await db.users.findByToken(token)\n  // No user, that means their credentials were invalid!\n  if (!user) {\n    permit.fail(res)\n    throw new Error(`Authentication invalid!`)\n  }\n  // They were authenticated, so continue with your business logic...\n  ...\n}\n```\nSince Permit isn't tightly coupled to a framework or data model, it gives you complete control over how you write your authentication logic—the exact same way you'd write any other request handler.\n<br/>\n### Why?\nBefore Permit, the only real choice for authentication libraries in Node.js was [Passport.js](http://www.passportjs.org/). But it has a bunch of issues that complicate your codebase...\n* **It is not f",
+   "metalsmith/metalsmith": "# Metalsmith\n[![npm: version][npm-badge]][npm-url]\n[![ci: build][ci-badge]][ci-url]\n[![code coverage][codecov-badge]][codecov-url]\n[![license: MIT][license-badge]][license-url]\n[![Gitter chat][gitter-badge]][gitter-url]\n> An extremely simple, _pluggable_ static site generator for NodeJS.\nIn Metalsmith, all of the logic is handled by plugins. You simply chain them together.\nHere's what the simplest blog looks like:\n```js\nimport { fileURLToPath } from 'node:url'\nimport { dirname } from 'path'\nimport Metalsmith from 'metalsmith'\nimport layouts from '@metalsmith/layouts'\nimport markdown from '@metalsmith/markdown'\nconst __dirname = dirname(fileURLToPath(import.meta.url))\nMetalsmith(__dirname)\n  .use(markdown())\n  .use(\n    layouts({\n      pattern: '**/*.html'\n    })\n  )\n  .build(function (err) {\n    if (err) throw err\n    console.log('Build finished!')\n  })\n```\n## Installation\nNPM:\n```\nnpm install metalsmith\n```\nYarn:\n```\nyarn add metalsmith\n```\n## Quickstart\nWhat if you want to get fancier by hiding unfinished drafts, grouping posts in collections, and using custom permalinks? Just add plugins...\n```js\nimport { fileURLToPath } from 'node:url'\nimport { dirname } from 'node:path'\nimport Metalsmith from 'metalsmith'\nimport collections from '@metalsmith/collections'\nimport layouts from '@metalsmith/layouts'\nimport markdown from '@metalsmith/markdown'\nimport permalinks from '@metalsmith/permalinks'\nimport drafts from '@metalsmith/drafts'\nconst __dirname = dirname(fileURLToPath(import.meta.url))\nconst t1 = performance.now()\nconst devMode = process.env.NODE_ENV === 'development'\nMetalsmith(__dirname) // parent directory of this file\n  .source('./src') // source directory\n  .destination('./build') // destination directory\n  .clean(true) // clean destination before\n  .env({\n    // pass NODE_ENV & other environment variables\n    DEBUG: process.env.DEBUG,\n    NODE_ENV: process.env.NODE_ENV\n  })\n  .metadata({\n    // add any variable you want & use them in layout-files\n    sitename: 'My Static Site & Blog',\n    siteurl: 'https://example.com/',\n    description: \"It's about saying »Hello« to the world.\",\n    generatorname: 'Metalsmith',\n    generatorurl: 'https://metalsmith.io/'\n"
+  }
+ },
+ "apps": []
+}

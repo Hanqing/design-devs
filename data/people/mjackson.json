@@ -1,0 +1,157 @@
+{
+ "name": "Michael Jackson（MJ）",
+ "role": "Remix 联合创始人与负责人 · React Router 联合作者 · UNPKG 作者 · Shopify · 加州卡尔斯巴德",
+ "title": "Michael Jackson：做了<em>很多网站都在跑</em>的工具",
+ "dek": "他住在加州卡尔斯巴德，在 Shopify 领导 Remix 项目。他的个人网站说：「在那之前我联合创办了 Remix Software，再之前，我花了十年时间做了很多网站都在用的工具。」这份清单确实很长：2014 年和 Ryan Florence 一起做了 React Router，「十多年后它仍是大多数 React 应用的骨架」；2015 年做了 UNPKG，「npm 上一切内容的 CDN」，任何包里的任何文件都能通过一个 URL 访问；管理浏览器会话历史的 history 库；最初的 expect 断言库，后来捐给了 Jest；以及 2000 年代末流行的图片视频灯箱 Shadowbox.js。他和 Ryan 还联合创办了给工程团队上 React 课的 React Training。2020 年两人创办 Remix Software，2022 年被 Shopify 收购。2026 年 8 月，不再基于 React 的 Remix 3 发布候选版。",
+ "card": "Remix 联合创始人（Shopify 负责人）、React Router 联合作者、UNPKG 作者，加州卡尔斯巴德。",
+ "location": "美国加州卡尔斯巴德",
+ "updated": "2026-10-23",
+ "tags": ["Remix", "React Router", "npm 生态", "Web 标准", "开源"],
+ "links": [
+  {"label": "mjackson.me", "url": "https://mjackson.me"},
+  {"label": "Remix", "url": "https://remix.run"},
+  {"label": "UNPKG", "url": "https://unpkg.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>网站描述「I write a lot of code. Mostly for the web.」",
+  "<strong>代表作：</strong>Remix、React Router、UNPKG、history、expect（★2,267，捐给 Jest）、Shadowbox.js、mach、strata、citrus（Ruby 解析表达式文法）、remix-the-web。",
+  "<strong>经历：</strong>React Training 联合创始人 → Remix Software 联合创始人（2020）→ Shopify（2022 收购后领导 Remix）。",
+  "<strong>关键数字：</strong>X 关注者约 7.2 万、推文约 4.4 万条；GitHub 粉丝约 7.5 千。"
+ ],
+ "lead": "2024 年，他开了一个叫 remix-the-web 的仓库：「给 Remix（或任何框架！）用的开源工具。」里面是一个个基于 Web 标准、可以在任何 JavaScript 环境里运行的小包：流式解析 multipart 的 multipart-parser、给 File 对象做键值存储的 file-storage、惰性流式文件 lazy-file。这个仓库后来归档，开发并入 Remix 3；它也体现了他一以贯之的偏好：贴着 Web 平台做小而可组合的工具。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "框架作者、创始人"],
+     ["所在地", "美国加州卡尔斯巴德"],
+     ["工作", "Shopify（领导 Remix）"],
+     ["合作者", "Ryan Florence"],
+     ["开源", "Remix、React Router、UNPKG、history、expect"],
+     ["技术栈", "JavaScript、TypeScript、Ruby"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "MJ 正在把<strong>Remix 3</strong>推向正式版：一个「全栈」的 Web 框架，把服务器、路由、数据、UI、资源和测试统一在 Web 标准之上。2026 年 10 月，他发布了一个演讲，用几个例子展示 Remix 3 如何简化 Web 开发，并诚恳地请观众告诉他怎样成为更好的演讲者；团队也在直播里介绍了 Remix 3「不打包」的资源交付方式 remix/assets。"},
+    {"p": "他对 AI 时代的软件工程非常乐观：「这是软件和软件工程的开端。我们才刚刚开始。」"},
+    {"note": "本页依据 mjackson.me、remix.run 博客、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。他的网站写 Remix 3 已于 2026 年发布，Remix 官方博客最新一篇为 8 月的候选版公告。宗教信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2007", "title": "Shadowbox.js", "text": "做出流行的图片视频灯箱。"},
+     {"when": "2010–2013", "title": "Ruby 与 Node", "text": "citrus 解析库；strata、mach HTTP 服务器；then-redis。"},
+     {"when": "2014", "title": "React Router", "text": "与 Ryan Florence 共同创造。"},
+     {"when": "2015", "title": "UNPKG 与 React Training", "text": "UNPKG、history、expect；联合创办 React Training。"},
+     {"when": "2020–2022", "title": "Remix", "text": "联合创办 Remix Software；2022 年被 Shopify 收购。"},
+     {"when": "2024–2026", "title": "Remix 3", "text": "remix-the-web 小包；Remix 3 测试版（4 月）与候选版（8 月）。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "UNPKG", "url": "https://unpkg.com",
+     "meta": ["2015–", "CDN", "npm"],
+     "paras": [
+      "「The CDN for everything on npm.」在 HTML 里写一个 URL 就能引用 npm 包的任意文件，无数示例、演示和原型都依赖它。"
+     ]
+    }},
+    {"work": {
+     "name": "React Router", "url": "https://reactrouter.com",
+     "meta": ["2014–", "路由", "联合作者"],
+     "paras": [
+      "他的网站说，十多年后，它依然是「大多数 React 应用的骨架」。"
+     ]
+    }},
+    {"work": {
+     "name": "Remix", "url": "https://remix.run",
+     "meta": ["2020–", "全栈框架", "联合创始人"],
+     "paras": [
+      "2022 年被 Shopify 收购后，他在 Shopify 领导这个项目；Remix 3 以 Web API 为中心，用自己的组件模型。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["history", "管理 JavaScript 会话历史的小库"],
+      ["expect", "最初的断言库，后来捐给 Jest（★2,267）"],
+      ["Shadowbox.js", "2000 年代末流行的灯箱"],
+      ["remix-the-web", "基于 Web 标准的小工具集（已归档并入 Remix）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://mjackson.me", "paras": [
+     "个人网站是一份编号的「精选作品」清单，从 (01) Remix 一直排到 (07) Shadowbox.js，每项一个年份和一两句说明。博客栏目写着「Nothing here yet.」，托管在 GitHub Pages 上。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["结构", "编号作品清单"],
+      ["博客", "暂无文章"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "This is the beginning of software and software engineering. We are just getting started.", "cite": "Michael Jackson，X，2026-10"},
+    {"p": "他的 X 时间线混合了 Remix 进展、体育、音乐（他称巴赫的音乐是「纯粹的创造能量」）和对 AI 的乐观判断。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["基础设施", "UNPKG、React Router 被大量依赖", "—"],
+      ["方向", "坚持 Web 标准", "Remix 多次大改，用户需跟进"],
+      ["公开写作", "—", "长文很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>做一个 URL 就能用的工具。</strong>",
+     "<strong>把好用的库捐给更大的项目。</strong>",
+     "<strong>贴着 Web 平台做小而可组合的包。</strong>",
+     "<strong>长期和信任的伙伴一起做事。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "UNPKG", "url": "https://unpkg.com", "why": "用一个 URL 引用任意 npm 包。"},
+     {"name": "Remix", "url": "https://remix.run", "why": "看 Remix 3 如何简化全栈开发。"},
+     {"name": "mjackson.me", "url": "https://mjackson.me", "why": "一份十几年的工具清单。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在一个空白 HTML 文件里用 UNPKG 引入一个 npm 包，不装任何构建工具，看你能做出什么。",
+ "sources": [
+  {"label": "Michael Jackson 的 X 个人资料", "url": "https://x.com/mjackson"},
+  {"label": "mjackson.me", "url": "https://mjackson.me"},
+  {"label": "Remix 博客", "url": "https://remix.run/blog"},
+  {"label": "GitHub：mjackson", "url": "https://github.com/mjackson"},
+  {"label": "GitHub：remix-the-web", "url": "https://github.com/mjackson/remix-the-web"}
+ ]
+}

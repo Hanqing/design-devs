@@ -1,0 +1,381 @@
+{
+ "handle": "mrdoob",
+ "sites": [
+  {
+   "url": "https://mrdoob.com",
+   "ok": true,
+   "title": "Mr.doob",
+   "description": "",
+   "stack": [
+    "three.js"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "-->",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mrdoob",
+  "user": {
+   "name": null,
+   "company": null,
+   "blog": "https://mrdoob.com",
+   "location": null,
+   "bio": null,
+   "public_repos": 60,
+   "followers": 25663,
+   "created_at": "2009-06-19T16:54:00Z",
+   "twitter_username": "mrdoob",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mrdoob/three.js",
+    "description": "JavaScript 3D Library.",
+    "stargazers_count": 116839,
+    "forks_count": 36706,
+    "language": "JavaScript",
+    "homepage": "https://threejs.org/",
+    "created_at": "2010-03-23T18:58:01Z",
+    "pushed_at": "2026-10-23T18:43:41Z",
+    "topics": [
+     "3d",
+     "augmented-reality",
+     "canvas",
+     "html5",
+     "javascript",
+     "svg",
+     "virtual-reality",
+     "webaudio",
+     "webgl",
+     "webgl2",
+     "webgpu",
+     "webxr"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/stats.js",
+    "description": "JavaScript Performance Monitor",
+    "stargazers_count": 9151,
+    "forks_count": 1184,
+    "language": "JavaScript",
+    "homepage": "http://mrdoob.github.io/stats.js/",
+    "created_at": "2010-04-08T11:54:17Z",
+    "pushed_at": "2024-10-11T03:59:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/texgen.js",
+    "description": "JavaScript Texture Generator",
+    "stargazers_count": 1867,
+    "forks_count": 137,
+    "language": "JavaScript",
+    "homepage": "http://texgenjs.org/",
+    "created_at": "2015-01-26T00:10:43Z",
+    "pushed_at": "2021-01-23T11:10:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/glsl-sandbox",
+    "description": "Shader editor and gallery.",
+    "stargazers_count": 1686,
+    "forks_count": 280,
+    "language": "JavaScript",
+    "homepage": "https://glslsandbox.com/",
+    "created_at": "2011-11-09T15:29:49Z",
+    "pushed_at": "2026-08-25T16:17:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/frame.js",
+    "description": "JavaScript Sequence Editor",
+    "stargazers_count": 1175,
+    "forks_count": 189,
+    "language": "JavaScript",
+    "homepage": "https://framejs.org",
+    "created_at": "2012-11-26T13:04:23Z",
+    "pushed_at": "2025-09-18T11:27:38Z",
+    "topics": [
+     "animation",
+     "demoscene",
+     "editing",
+     "javascript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/htmleditor",
+    "description": "Simple editor for messing around.",
+    "stargazers_count": 628,
+    "forks_count": 174,
+    "language": "JavaScript",
+    "homepage": "https://mrdoob.com/projects/htmleditor/",
+    "created_at": "2012-09-02T21:02:27Z",
+    "pushed_at": "2021-01-17T06:31:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/three.wasm",
+    "description": "8x Faster JavaScript 3D Library.",
+    "stargazers_count": 534,
+    "forks_count": 34,
+    "language": "TypeScript",
+    "homepage": "https://mrdoob.github.io/three.wasm/",
+    "created_at": "2026-04-01T03:44:47Z",
+    "pushed_at": "2026-04-02T06:51:19Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mrdoob/three-quake",
+    "description": "A port of Quake to Three.js.",
+    "stargazers_count": 340,
+    "forks_count": 39,
+    "language": "JavaScript",
+    "homepage": "https://mrdoob.github.io/three-quake/",
+    "created_at": "2026-01-27T00:21:02Z",
+    "pushed_at": "2026-08-14T14:28:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/Starter-Kit-Racing",
+    "description": "Basic template for a racing game.",
+    "stargazers_count": 332,
+    "forks_count": 76,
+    "language": "JavaScript",
+    "homepage": "https://mrdoob.github.io/Starter-Kit-Racing/",
+    "created_at": "2026-03-24T02:33:34Z",
+    "pushed_at": "2026-07-07T03:01:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/eventdispatcher.js",
+    "description": "JavaScript events for custom objects",
+    "stargazers_count": 329,
+    "forks_count": 81,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2011-10-26T02:45:59Z",
+    "pushed_at": "2022-06-08T02:05:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/Hi-ReS-Stats",
+    "description": "Performance monitor for Actionscript3 and haXe",
+    "stargazers_count": 325,
+    "forks_count": 83,
+    "language": "Haxe",
+    "homepage": "",
+    "created_at": "2010-07-07T20:02:09Z",
+    "pushed_at": "2016-05-31T19:56:15Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mrdoob/harmony",
+    "description": "Procedural Drawing Tool",
+    "stargazers_count": 236,
+    "forks_count": 57,
+    "language": "JavaScript",
+    "homepage": "https://mrdoob.github.io/harmony/",
+    "created_at": "2010-03-23T13:10:50Z",
+    "pushed_at": "2026-07-07T08:41:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/slop-newyork",
+    "description": null,
+    "stargazers_count": 228,
+    "forks_count": 62,
+    "language": "JavaScript",
+    "homepage": "https://mrdoob.github.io/slop-newyork/",
+    "created_at": "2026-10-20T09:16:37Z",
+    "pushed_at": "2026-10-23T16:27:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/system.js",
+    "description": "JavaScript object with the user's system information.",
+    "stargazers_count": 210,
+    "forks_count": 41,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2011-05-20T04:14:44Z",
+    "pushed_at": "2017-06-16T18:53:05Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mrdoob/draco.js",
+    "description": "A small, drop-in, pure-JavaScript Draco mesh loader for three.js.",
+    "stargazers_count": 202,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": "https://mrdoob.github.io/draco.js/",
+    "created_at": "2026-06-03T08:44:06Z",
+    "pushed_at": "2026-09-25T07:48:24Z",
+    "topics": [
+     "3d",
+     "draco",
+     "geometry",
+     "gltf",
+     "loader",
+     "mesh-compression",
+     "threejs",
+     "webgl"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mrdoob/daydream-controller.js",
+    "description": "WebBluetooth Daydream Controller",
+    "stargazers_count": 165,
+    "forks_count": 28,
+    "language": "HTML",
+    "homepage": "https://mrdoob.github.io/daydream-controller.js/",
+    "created_at": "2017-02-16T02:11:35Z",
+    "pushed_at": "2019-10-14T11:49:39Z",
+    "topics": [
+     "daydream",
+     "javascript",
+     "vr",
+     "webbluetooth"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "mrdoob/model-tag",
+    "description": "Custom Elements for easily displaying 3D models.",
+    "stargazers_count": 144,
+    "forks_count": 25,
+    "language": "JavaScript",
+    "homepage": "https://mrdoob.github.io/model-tag/",
+    "created_at": "2016-11-17T01:58:36Z",
+    "pushed_at": "2016-12-16T03:46:23Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mrdoob/svg-editor",
+    "description": "SVG Editor",
+    "stargazers_count": 136,
+    "forks_count": 32,
+    "language": "HTML",
+    "homepage": "https://mrdoob.github.io/svg-editor/",
+    "created_at": "2017-09-05T01:46:42Z",
+    "pushed_at": "2020-07-20T15:03:23Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 49,
+  "languages": [
+   [
+    "JavaScript",
+    41
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "TypeScript",
+    1
+   ],
+   [
+    "Haxe",
+    1
+   ],
+   [
+    "ActionScript",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "mrdoob/three.js",
+    "stargazerCount": 116839,
+    "description": "JavaScript 3D Library.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://threejs.org/"
+   },
+   {
+    "nameWithOwner": "mrdoob/stats.js",
+    "stargazerCount": 9151,
+    "description": "JavaScript Performance Monitor",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "http://mrdoob.github.io/stats.js/"
+   },
+   {
+    "nameWithOwner": "mrdoob/frame.js",
+    "stargazerCount": 1175,
+    "description": "JavaScript Sequence Editor",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://framejs.org"
+   },
+   {
+    "nameWithOwner": "mrdoob/harmony",
+    "stargazerCount": 236,
+    "description": "Procedural Drawing Tool",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://mrdoob.github.io/harmony/"
+   },
+   {
+    "nameWithOwner": "mrdoob/netex",
+    "stargazerCount": 54,
+    "description": "A minimal Android browser with a built-in devtools panel.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "mrdoob/Starter-Kit-Racing",
+    "stargazerCount": 332,
+    "description": "Basic template for a racing game.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://mrdoob.github.io/Starter-Kit-Racing/"
+   }
+  ],
+  "contrib_last_year": 2629,
+  "orgs": [
+   "xplsv",
+   "threejs"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "mrdoob/three.js": "# three.js\n[![NPM Package][npm]][npm-url]\n[![Build Size][build-size]][build-size-url]\n[![NPM Downloads][npm-downloads]][npmtrends-url]\n[![jsDelivr Downloads][jsdelivr-downloads]][jsdelivr-url]\n[![Discord][discord]][discord-url]\n#### JavaScript 3D library\nThe aim of the project is to create an easy-to-use, lightweight, cross-browser, general-purpose 3D library. The current builds only include WebGL and WebGPU renderers but SVG and CSS3D renderers are also available as addons.\n[Examples](https://threejs.org/examples/) &mdash;\n[Docs](https://threejs.org/docs/) &mdash;\n[Manual](https://threejs.org/manual/) &mdash;\n[Wiki](https://github.com/mrdoob/three.js/wiki) &mdash;\n[Migrating](https://github.com/mrdoob/three.js/wiki/Migration-Guide) &mdash;\n[Questions](https://stackoverflow.com/questions/tagged/three.js) &mdash;\n[Forum](https://discourse.threejs.org/) &mdash;\n[Discord](https://discord.gg/56GBJwAnUS)\n### Usage\nThis code creates a scene, a camera, and a geometric cube, and it adds the cube to the scene. It then creates a `WebGL` renderer for the scene and camera, and it adds that viewport to the `document.body` element. Finally, it animates the cube within the scene for the camera.\n```javascript\nimport * as THREE from 'three';\nconst width = window.innerWidth, height = window.innerHeight;\n// init\nconst camera = new THREE.PerspectiveCamera( 70, width / height, 0.01, 10 );\ncamera.position.z = 1;\nconst scene = new THREE.Scene();\nconst geometry = new THREE.BoxGeometry( 0.2, 0.2, 0.2 );\nconst material = new THREE.MeshNormalMaterial();\nconst mesh = new THREE.Mesh( geometry, material );\nscene.add( mesh );\nconst renderer = new THREE.WebGLRenderer( { antialias: true } );\nrenderer.setSize( width, height );\nrenderer.setAnimationLoop( animate );\ndocument.body.appendChild( renderer.domElement );\n// animation\nfunction animate( time ) {\n\tmesh.rotation.x = time / 2000;\n\tmesh.rotation.y = time / 1000;\n\trenderer.render( scene, camera );\n}\n```\nIf everything goes well, you should see [this](https://jsfiddle.net/w43x5Lgh/).\n### Cloning this repository\nCloning the repo with all its history results in a ~2 GB download. If you don't need the whole history you can use the `depth` parameter",
+   "mrdoob/stats.js": "stats.js\n========\n#### JavaScript Performance Monitor ####\nThis class provides a simple info box that will help you monitor your code performance.\n* **FPS** Frames rendered in the last second. The higher the number the better.\n* **MS** Milliseconds needed to render a frame. The lower the number the better.\n* **MB** MBytes of allocated memory. (Run Chrome with `--enable-precise-memory-info`)\n* **CUSTOM** User-defined panel support.\n### Screenshots ###\n### Installation ###\n```bash\nnpm install stats.js\n```\n### Usage ###\n```javascript\nvar stats = new Stats();\nstats.showPanel( 1 ); // 0: fps, 1: ms, 2: mb, 3+: custom\ndocument.body.appendChild( stats.dom );\nfunction animate() {\n\tstats.begin();\n\t// monitored code goes here\n\tstats.end();\n\trequestAnimationFrame( animate );\n}\nrequestAnimationFrame( animate );\n```\n### Bookmarklet ###\nYou can add this code to any page using the following bookmarklet:\n```javascript\njavascript:(function(){var script=document.createElement('script');script.onload=function(){var stats=new Stats();document.body.appendChild(stats.dom);requestAnimationFrame(function loop(){stats.update();requestAnimationFrame(loop)});};script.src='https://mrdoob.github.io/stats.js/build/stats.min.js';document.head.appendChild(script);})()\n```\n",
+   "mrdoob/frame.js": "# frame.js\nWork in progress.\n### Editor\n* https://framejs.org/\n### Examples\n* https://framejs.org/player.html?file=examples/html_colors.md\n* https://framejs.org/player.html?file=examples/threejs_cube.md\n* https://framejs.org/player.html?file=examples/threejs_shaders.md\n### Projects\n* https://spite.github.io/solskogen-2020/player.html ([editor](https://spite.github.io/solskogen-2020/editor.html))\n* https://with.in/watch/what-you-dont-know/ ([editor](https://within-unlimited.github.io/what-you-dont-know/editor/))\n* https://with.in/watch/under-neon-lights/ ([editor](https://within-unlimited.github.io/under-neon-lights/))\n* http://fernandojsg.com/lab/thiswayjs/\n* https://xplsv.github.io/obsidian/\n",
+   "mrdoob/netex": "# Netex Browser\nA minimal Android browser with a built-in devtools panel. Drag up the\nbottom bar to open it — four tabs:\n- **Console** — live page logs plus a JS prompt that evaluates in\n  the page's global scope.\n- **Source** — formatted page HTML.\n- **Network** — fetch/XHR log with inline image / glTF previews.\n- **Three.js** — the vendored\n  [Three.js DevTools](https://github.com/mrdoob/three.js/tree/dev/devtools)\n  Chrome extension running in-process via a minimum `chrome.*` shim.\n  Its background script drives the revision badge on the logo.\n## Install\n[Download the latest APK](https://github.com/mrdoob/netex/releases) and\nsideload it. You may need to allow \"install unknown apps\" for the\nbrowser or file manager you opened the file from.\n## Dev Log\nhttps://x.com/mrdoob/status/2051185470344953969\n## Build from source\n```sh\n./gradlew :app:installDebug\n```\nYou'll need the Android SDK with platform 35 installed and a\n`local.properties` pointing to it (`sdk.dir=/path/to/Android/sdk`).\n",
+   "mrdoob/Starter-Kit-Racing": "# Starter Kit Racing\nA JavaScript/Three.js port of [Kenney's Starter Kit Racing](https://github.com/KenneyNL/Starter-Kit-Racing).\n[Play](https://mrdoob.github.io/Starter-Kit-Racing/) · [Devlog](https://x.com/mrdoob/status/2048358619985690935)\n## Credits\n- Game assets by [Kenney](https://kenney.nl/) (CC0)\n- Physics engine: [crashcat](https://github.com/isaac-mason/crashcat)\n- Ported to JavaScript with [Claude](https://claude.ai/)\n"
+  }
+ },
+ "apps": []
+}

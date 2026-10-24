@@ -1,0 +1,156 @@
+{
+ "name": "Mikkel Malmberg（mikker）",
+ "role": "Brainbow 工作室创始人 · GitHub Next 研究 · Tuna、Leader Key、Moves 作者 · passwordless gem 作者 · 丹麦",
+ "title": "Mikkel Malmberg：为<em>挑剔的人</em>做 Mac 应用",
+ "dek": "TA 住在丹麦，经营一家很小的产品工作室 Brainbow，专门为创作者做平台：Backers Club（丹麦品牌 10er.com 的国际版）让播客和视频创作者按期收取支持，不用经营会员等级，「为你已经在发布的内容收钱」。TA 同时在 GitHub Next 做研究。TA 做 Mac 小工具很出名：Leader Key 是一个「比你的启动器更快的启动器」（★2.3 千），现在被更完整的启动器 Tuna 取代；Moves 让你按住修饰键动动鼠标就能移动和缩放窗口；Dinky 是一个平铺窗口管理器；还有文本扩展器 Poof、极简文本编辑器 Fst。在 Ruby 社区，TA 写的 passwordless 让 Rails 应用用「魔法链接」免密码登录。TA 也做视频，参与丹麦国家广播 P1 的科技与社会节目，还做过丹麦第一档喜剧播客。",
+ "card": "Brainbow 工作室创始人（丹麦），GitHub Next 研究；Tuna、Leader Key（★2.3 千）、Moves、Dinky 作者，passwordless gem 作者。",
+ "location": "丹麦",
+ "updated": "2026-10-23",
+ "tags": ["macOS", "独立产品", "Ruby on Rails", "创作者经济", "AI 工具"],
+ "links": [
+  {"label": "mikkelmalmberg.com", "url": "https://mikkelmalmberg.com"},
+  {"label": "Tuna", "url": "https://tunaformac.com"},
+  {"label": "Backers Club", "url": "https://backers.club"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I make macOS apps for advanced connoisseurs, like Tuna.」",
+  "<strong>代表作：</strong>Tuna（启动器）、Leader Key（★2,299）、passwordless（★1,342）、Moves（★275）、steve（用无障碍 API 操控 Mac 应用的命令行）、fut、Dinky、Poof、Fst、Sprinkles、nitro_kit、semantic-review；Backers Club / 10er。",
+  "<strong>关键数字：</strong>GitHub 170 个公开仓库、近一年贡献 5,870 次；X 帖子约 2.4 万条。",
+  "<strong>媒体：</strong>个人 YouTube 频道、播客、丹麦 P1 电台科技节目、丹麦第一档喜剧播客。"
+ ],
+ "lead": "Tuna 的官网写着：「像一个句子一样构建。」它沿用了老牌启动器 Quicksilver 的一个结构：找到一个东西，选择要对它做什么，再可选地说它要去哪里。应用、文件、文字、笔记、任务、剪贴板、窗口，全都用同一种方式操作，「学会一次，每个新来源和扩展都自然就懂了」。它用原生 Swift 从头写起，不需要订阅，不需要云端，默认保护隐私。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "产品开发者、工作室创始人、研究者、媒体人"],
+     ["所在地", "丹麦"],
+     ["工作室", "Brainbow（为创作者做平台）"],
+     ["研究", "GitHub Next"],
+     ["Mac 应用", "Tuna、Leader Key、Moves、Dinky、Poof、Fst、Sprinkles"],
+     ["技术栈", "Swift、Ruby / Rails、Rust、Go、TypeScript"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Mikkel 的作品可以分成三条线：<strong>键盘至上的 Mac 工具</strong>、<strong>Rails 生态</strong>，以及<strong>帮创作者赚钱的平台</strong>。Mac 工具都很「小而极致」：Moves「只做一件事，并且做好」；Dinky 的介绍是「不用了亲爱的，我们家里有 Hyprland」；fut 是一个带快捷键、分屏输出和 YAML 配置的小型 TUI 任务运行器。"},
+    {"p": "TA 也在探索 AI 编程工作流：semantic-review 给编程 Agent 做语义级的 diff 审阅；steve 让 Agent 通过无障碍 API 操控 Mac 应用；TA 还在试验把 Pi 的持久化 Agent 和 Rails 应用结合，用 Rails 的约定和工具承载 Agent 的存储与工具。"},
+    {"note": "本页依据 mikkelmalmberg.com、tunaformac.com、backers.club、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。TA 在 GitHub Next 的具体研究内容未公开；家庭信息未收录；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2008 起", "title": "Rails 与 Web", "text": "长期写 Ruby on Rails；2017 年开源 passwordless。"},
+     {"when": "此后", "title": "Brainbow 与 10er", "text": "创办 Brainbow，为丹麦创作者做付费支持平台 10er。"},
+     {"when": "2024", "title": "Mac 工具", "text": "Leader Key、Moves、Sprinkles；Rails UI 库 nitro_kit。"},
+     {"when": "2026", "title": "Tuna 与更多工具", "text": "Tuna 启动器；steve、Poof、semantic-review、fut、Dinky、Fst；10er 推出国际品牌 Backers Club。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Tuna", "url": "https://tunaformac.com",
+     "meta": ["2026", "macOS 15+", "v0.108"],
+     "paras": [
+      "「Sleek, fast and native launcher for macOS. No subscription. No cloud required.」四种模式是进入同一个系统的四扇门；按 Tab 查看任何结果能做什么。Leader Key 的功能已内置其中。"
+     ]
+    }},
+    {"work": {
+     "name": "Leader Key", "url": "https://github.com/mikker/LeaderKey",
+     "meta": ["2024–", "Swift", "★2.3 千"],
+     "paras": [
+      "「The *faster than your launcher* launcher.」按一个前导键，再按几个字母就触发动作。README 说明它会一直免费开源，但重心已经转向 Tuna。"
+     ]
+    }},
+    {"work": {
+     "name": "Backers Club", "url": "https://backers.club",
+     "meta": ["创作者平台", "8% + Stripe 手续费"],
+     "paras": [
+      "「Get paid for the episodes you already make.」按期或按月支持，夏天停更就不扣款，支持者名单可以随时导出。官网直接回答第一个问题：「为什么不用 Patreon？」"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["passwordless", "Rails 应用的魔法链接免密码登录（★1,342）"],
+      ["Moves", "按住修饰键移动和缩放窗口"],
+      ["Dinky", "macOS 平铺窗口管理器"],
+      ["Sprinkles", "用自己的 JS 和 CSS 定制任意网站"],
+      ["semantic-review", "给编程 Agent 的语义 diff 审阅"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://mikkelmalmberg.com", "paras": [
+     "个人网站开头「Hi, I’m Mikkel Malmberg. Maybe you know me as mikker.」，然后是工作室、Mac 应用、视频和社交账号；「Media」列出 TA 参与的播客和电台节目；「Curiosities」是一长串小实验，每个一句话。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Cloudflare"],
+      ["结构", "自述 + 媒体 + 小实验"],
+      ["语气", "幽默、轻松"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Always update. Like @aarondfrancis would say “be like water.” You gotta move with the times.", "cite": "Mikkel Malmberg，X，2026-10"},
+    {"p": "TA 认为 Claude 等模型「现在品味很好」，连界面和审美也是，只要你让它们跳出训练时的模板。TA 也直言希望 Apple 为窗口管理这类功能提供真正的 API。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产出", "小工具多、迭代快", "部分工具被新项目取代"],
+      ["跨界", "开发、创业、媒体都做", "—"],
+      ["产品", "Tuna 理念清晰", "仍处于 0.x 版本"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一个工具只做一件事，并做好。</strong>",
+     "<strong>借鉴经典交互：</strong>Quicksilver 的「名词—动词—宾语」。",
+     "<strong>正面回答用户的第一个疑问。</strong>",
+     "<strong>开源旧项目，专注新项目。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Tuna", "url": "https://tunaformac.com", "why": "试试「像句子一样」的启动器。"},
+     {"name": "Leader Key", "url": "https://github.com/mikker/LeaderKey", "why": "用前导键触发一切。"},
+     {"name": "passwordless", "url": "https://github.com/mikker/passwordless", "why": "给 Rails 应用加魔法链接登录。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑你每天重复最多的一个 Mac 操作，给它设计一个两三个按键就能完成的快捷方式。",
+ "sources": [
+  {"label": "Mikkel Malmberg 的 X 个人资料", "url": "https://x.com/mikker"},
+  {"label": "mikkelmalmberg.com", "url": "https://mikkelmalmberg.com"},
+  {"label": "Tuna", "url": "https://tunaformac.com"},
+  {"label": "Backers Club", "url": "https://backers.club"},
+  {"label": "GitHub：mikker", "url": "https://github.com/mikker"}
+ ]
+}

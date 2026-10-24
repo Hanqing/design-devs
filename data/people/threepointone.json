@@ -1,0 +1,162 @@
+{
+ "name": "Sunil Pai",
+ "role": "PartyKit 创始人（2024 年被 Cloudflare 收购）· 前 Cloudflare 首席系统工程师（Agents）· 前 React 核心团队 · 伦敦",
+ "title": "Sunil Pai：我为<em>做东西的人</em>做工具",
+ "dek": "他住在伦敦，说自己是「产品导向的系统工程师、创始人和开发者工具构建者」。他曾在 Facebook 的 React 核心团队工作，写过 <code>act()</code> 的说明与示例；在 Oculus 做过社交 VR；在 Cloudflare 领导过 Workers 的开发者工具；后来创办了让多人实时应用变简单的 PartyKit，2024 年被 Cloudflare 收购。回到 Cloudflare 后，他做的是 Agents SDK（★5.9 千）和长时间运行的 AI 系统，即「为 AI Agent 打造的持久化基础设施」。更早，他写过 React 时代有名的 CSS-in-JS 库 glamor（★3.7 千）。2026 年 10 月 23 日，他宣布这是自己在 Cloudflare 的最后一天：「（又一次。）这是我一生中最好的职业和机会。」",
+ "card": "PartyKit 创始人（2024 年被 Cloudflare 收购），前 Cloudflare Agents 首席工程师，前 React 核心团队；glamor 作者，伦敦。",
+ "location": "英国伦敦",
+ "updated": "2026-10-23",
+ "tags": ["Cloudflare", "AI Agent", "实时协作", "React", "写作"],
+ "links": [
+  {"label": "sunilpai.dev", "url": "https://sunilpai.dev"},
+  {"label": "Cloudflare Agents", "url": "https://github.com/cloudflare/agents"},
+  {"label": "PartyKit", "url": "https://www.partykit.io"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I make tools for people who make things.」",
+  "<strong>代表作：</strong>PartyKit（★5,734）、Cloudflare Agents SDK（★5,879）、partyserver、glamor（★3,666）、markdown-in-js（★791）、react-act-examples（★543）、durable-chat、partyvite。",
+  "<strong>经历：</strong>React 核心团队 → Oculus 社交 VR → Cloudflare Workers 开发者工具 → PartyKit 创始人 → Cloudflare（2024–2026.10）。",
+  "<strong>关键数字：</strong>X 关注者约 6.3 万、推文约 8.3 万条；博客 41 篇文章。"
+ ],
+ "lead": "他的网站说，这里「与其说是一份履历，不如说是一本工作笔记」。他把自己所有工作的主线写得很清楚：一个强大的技术想法如何变成有用的东西——API、界面、解释，以及让一切连贯起来的那一点品味。2026 年秋天，他密集地写了一批短文：《the senior engineer death spiral》《the task isn't the job》《every company needs a cassandra》《Do you actually like hard problems?》。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "系统工程师、创始人、开发者工具构建者"],
+     ["所在地", "英国伦敦"],
+     ["经历", "Facebook React 核心团队、Oculus、Cloudflare Workers、PartyKit、Cloudflare Agents"],
+     ["开源", "PartyKit、Agents SDK、glamor"],
+     ["技术栈", "TypeScript、JavaScript、Durable Objects"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Sunil 最近几年的核心是<strong>有状态的分布式系统</strong>：PartyKit 让开发者用很少的代码做多人协作和实时应用；在 Cloudflare，他把这套思路扩展到 AI Agent，让 Agent 可以长时间运行、保存状态、按计划唤醒。他喜欢「把新的基础设施原语变成人们能理解、采用并在上面构建的产品和抽象」。"},
+    {"p": "他的写作越来越多地讨论这门手艺本身：当编程的「材料」在变，资深工程师的判断、品味和职责会变成什么。离开 Cloudflare 的同一周，他在 Cloudflare Connect 大会上展出了一个叫「City That Remembers」的装置。"},
+    {"note": "本页依据 sunilpai.dev（首页、关于、文章）、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他离开 Cloudflare 后的去向尚未公布；X 资料中的所在地为纽卡斯尔，网站写伦敦，本页采用网站说法。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2016–2017", "title": "CSS-in-JS", "text": "glamor、glam、markdown-in-js、react-modules。"},
+     {"when": "此后", "title": "React 核心团队", "text": "在 Facebook 的 React 团队工作；react-act-examples（2019）。"},
+     {"when": "此后", "title": "Oculus 与 Cloudflare", "text": "社交 VR；领导 Cloudflare Workers 开发者工具。"},
+     {"when": "约 2023", "title": "PartyKit", "text": "创办 PartyKit，让多人应用变简单。"},
+     {"when": "2024", "title": "被收购", "text": "Cloudflare 收购 PartyKit；他回到 Cloudflare 做 Agents。"},
+     {"when": "2026.10", "title": "离开", "text": "10 月 23 日是他在 Cloudflare 的最后一天。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Cloudflare Agents", "url": "https://github.com/cloudflare/agents",
+     "meta": ["TypeScript", "★5.9 千"],
+     "paras": [
+      "「Build and deploy AI Agents on Cloudflare」基于 Durable Objects，每个 Agent 都有自己的状态、存储和定时任务。"
+     ],
+     "facts": [["GitHub", "★5,879"]]
+    }},
+    {"work": {
+     "name": "PartyKit", "url": "https://www.partykit.io",
+     "meta": ["2023–", "实时协作", "★5.7 千"],
+     "paras": [
+      "「PartyKit simplifies developing multiplayer applications」如今以 partyserver 的形式成为 Cloudflare Workers 的一部分。"
+     ]
+    }},
+    {"work": {
+     "name": "glamor", "url": "https://github.com/threepointone/glamor",
+     "meta": ["2016–", "JavaScript", "★3.7 千"],
+     "paras": [
+      "「inline css for react et al」React 早期很受欢迎的 CSS-in-JS 库之一。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["react-act-examples", "ReactTestUtils.act() 的说明与示例"],
+      ["durable-chat", "用 Durable Objects 做的聊天应用"],
+      ["partyvite", "partyserver + Vite + React + Tailwind 模板"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://sunilpai.dev", "paras": [
+     "网站标题是「Solving the decision problem」，呼应他 X 简介里的德语词「Entscheidungsproblem」（判定问题）。网站用 Astro 搭建，托管在 Cloudflare 上，首页是简介和最近的文章，文章页按时间倒序列出 41 篇。关于页最后写着：离开电脑时，他喜欢弹吉他、长距离散步和给人做饭。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Cloudflare"],
+      ["内容", "工作笔记式短文"],
+      ["节奏", "2026 年秋季每周多篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-12", "title": "original thoughts have terrible UX", "url": "https://sunilpai.dev/posts/"},
+     {"date": "2026-10-06", "title": "Do you actually like hard problems?", "url": "https://sunilpai.dev/posts/"},
+     {"date": "2026-09-19", "title": "the senior engineer death spiral", "url": "https://sunilpai.dev/posts/"},
+     {"date": "2026-08-14", "title": "the task isn't the job", "url": "https://sunilpai.dev/posts/"},
+     {"date": "2026-08-09", "title": "every company needs a cassandra", "url": "https://sunilpai.dev/posts/"}
+    ]},
+    {"p": "他在 X 上非常活跃（8 万多条推文），语气随性、爱开玩笑，也常常真诚地谈自我接纳和友谊。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品化", "善于把底层原语变成好用的 API", "—"],
+      ["经历", "UI、平台、分布式系统都做过", "—"],
+      ["表达", "写作真诚、有洞察", "X 上的语气非常随意"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>技术想法要配上 API、界面和解释，</strong>才算完成。",
+     "<strong>围绕一个新原语创业。</strong>",
+     "<strong>把网站当作工作笔记，</strong>而不是履历。",
+     "<strong>持续反思自己的手艺。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "sunilpai.dev", "url": "https://sunilpai.dev", "why": "读他关于工程师手艺的短文。"},
+     {"name": "Cloudflare Agents", "url": "https://github.com/cloudflare/agents", "why": "做一个有状态的 AI Agent。"},
+     {"name": "PartyKit", "url": "https://www.partykit.io", "why": "十分钟做一个多人应用。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读《the task isn't the job》，然后想一想：你现在的工作里，哪些是「任务」，哪些才是「工作」？",
+ "sources": [
+  {"label": "Sunil Pai 的 X 个人资料", "url": "https://x.com/threepointone"},
+  {"label": "sunilpai.dev", "url": "https://sunilpai.dev"},
+  {"label": "sunilpai.dev：About", "url": "https://sunilpai.dev/about/"},
+  {"label": "GitHub：threepointone", "url": "https://github.com/threepointone"},
+  {"label": "GitHub：cloudflare/agents", "url": "https://github.com/cloudflare/agents"}
+ ]
+}

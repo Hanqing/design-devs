@@ -1,0 +1,437 @@
+{
+ "handle": "rsms",
+ "sites": [
+  {
+   "url": "https://rsms.me",
+   "ok": true,
+   "title": "rsms",
+   "description": "",
+   "stack": [
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Fastly"
+   ],
+   "lang": "en",
+   "home_text": "Hello, I'm Rasmus \n ● \n About \n Projects \n Work \n Photography \n Shop \n Projects \n dream together \nCollaborative generative art project\n hophop \nSimple programming language\n stuff \nRandom media I’ve collected since the early 2000s, restored from an old hard drive. I’ve added some new stuff, too.\n llvmbox \nPortable, self contained llvm tools & libs with cross-compilation capability\n rsm \nVirtual computer\n WebGL compressed texture loading demo \nDemonstrates loading high-resolution photos into WebGL with compressed textures vs “naïve” uncompressed textures from JPEG images\n Quality in Software \nKeynote talk at Handmade Seattle 2021\n xsys browser demo \nProof of concept to implement a virtual OS interface as a syscall that works on many platforms\n LLVM 13 coroutine example \nMinimal C & LLVM IR program compiled to WASM, demonstrating the new coroutine intrinsics in LLVM 13\n 1998.rsms.me \nHomepage for old software (no SSL)\n Browser pixel-rounding playground \nTests how different web browsers round geometry to pixels, dp, etc.\n Estrella \nLight-weight runner for the esbuild compiler\n Pointer latency playground \nExplore web browser input pointer latency and try predictive tracking\n Bézier tangent \nToy that derives the tangent and normal from an arbitrary point of a Bézier curve\n Markdown WASM \nFast Markdown parser and HTML renderer implemented in WebAssembly\n See all 75 projects → \n Thoughts & ideas \n Introduction to WebAssembly \n WebAssembly is a new technology for running portable programs in a safe and efficient manner, represented by a low-level virtual-machine assembly, primarily aimed at the web platform. This article gives a practical introduction to WebAssembly.\n Jan 2017\n Gotalk \n Gotalk exists to make it easy for programs to talk with one another over the internet, like a web app coordinating with a web server, or a bunch of programs dividing work amongst eachother.\n Jan 2015\n The 1950s called and wanted their toolbox back \n Your favourite fancy-pants modern programming language is from the 1950s. Pretty much any programming language used today is a derivative of Fortran or Lisp, both born in the 1950s. Okay, reality check: It’s 2013—yes, 60 years later—and we have cars that drive themselves on the street, robots roaming the surface of alien planets and tiny networked devices with interactive surfaces that we keep in our pockets, which are orders of magnitude more powerful than the computers of the 1950s.\n Jan 2013\n The Definition of Design \n Q&A with Charles Eames\n Dec 2012\n Sol — a sunny little virtual machine \n During this weekend, together with a few evenings earlier this week, I created a rather simple virtual machine dubbed Sol, after the Swedish word for sun. It’s register based with multitasking and timers.\n Oct 2012\n Browse all 512 articles → \n I’m a Swedish he/him living in San Francisco, California.\n Software is the medium through which I express myself.\n AaBbCc123\n The Inter typeface family →\n Buy a nice poster →",
+   "github_links": [
+    "rsms"
+   ],
+   "subpages": {
+    "https://rsms.me/about/": "Hej \n ● \n About \n Projects \n Work \n Photography \n Shop \nMy name is Rasmus Andersson. I’m a Swedish he/him living in San Francisco, California. Software is the medium through which I express myself. \nYou can call me a Designer if you want.\nInterested in learning more about my work?\n Read about my work → \nIn my spare time I enjoy tinkering with software engineering projects, like building compilers and designing programming languages that no one will ever use, ha ha. Making typefaces and tinkering with electronics is fun, too.\n List of projects → \nI’m an avid motoring enthusiast and try to spend time driving the various amazing race tracks around the SF bay area. Laguna Seca is a favorite. \nPhotography used to be a big part of my life, but has lately taken a back seat as a past time hobby. My photography has been published by The New York Times, The BBC, Forbes, The Economist, Wired Magazine, The Guardian, among others. \n Twitter @rsms \n GitHub /rsms \n Figma @rsms \n Are.na /rsms \n Instagram @rasmusfabbe \n Flickr /rsms \n Facebook @rsms \n Email [email protected] \n This website \n This website is very simple, built primarily in HTML and Markdown.\n Preprocessed by Jekyll.\n It's hosted by Github and distributed globally by Cloudflare.\n Colors on this website makes use of the wide P3 color space to produce rich, deep amazing color\n when viewed in a web browser that supports the\n color(display-p3 R G B) CSS function,\n like for example Safari, in combination with a wide-gamut display.\n Programming \n There are so many great programming languages. It would be hard to pick a favorite. Really, the craft of programming is 99% \"the fuzzy parts\"—concepts, data structures, best practices, people, culture and many other aspects that are agnostic to a particular programming language.\n For making things that need to reach a wide audience,\n something that spits out JavaScript or WebAssembly is a good idea,\n running on the web platform.\n The web may be carrying the weight an ocean of legacy, but it is without comparison\n the most well-distributed platform.\n Go is one of those languages where it took me years to see and truly understand its brilliance. I've probably programmed real programs in 20 or so programming languages by now, not to mention the countless languages I've created as hobby projects or studied and at the end of the day I think Go is the closes to what I'd consider a \"good\" programming languages to be.",
+    "https://rsms.me/projects/": "Passion projects and fun little experiments \n ● \n About \n Projects \n Work \n Photography \n Shop \n dream together \nCollaborative generative art project \n hophop \nSimple programming language \n stuff \nRandom media I’ve collected since the early 2000s, restored from an old hard drive. I’ve added some new stuff, too. \n llvmbox \nPortable, self contained llvm tools & libs with cross-compilation capability \n rsm \nVirtual computer \n WebGL compressed texture loading demo \nDemonstrates loading high-resolution photos into WebGL with compressed textures vs “naïve” uncompressed textures from JPEG images \n Quality in Software \nKeynote talk at Handmade Seattle 2021 \n xsys browser demo \nProof of concept to implement a virtual OS interface as a syscall that works on many platforms \n LLVM 13 coroutine example \nMinimal C & LLVM IR program compiled to WASM, demonstrating the new coroutine intrinsics in LLVM 13 \n 1998.rsms.me \nHomepage for old software (no SSL) \n Browser pixel-rounding playground \nTests how different web browsers round geometry to pixels, dp, etc. \n Estrella \nLight-weight runner for the esbuild compiler \n Pointer latency playground \nExplore web browser input pointer latency and try predictive tracking \n Bézier tangent \nToy that derives the tangent and normal from an arbitrary point of a Bézier curve \n Markdown WASM \nFast Markdown parser and HTML renderer implemented in WebAssembly \n Chaitin-Briggs visualization \nInteractive visualization of the Chaitin-Briggs “graph coloring” approach to register allocation \n Web Clipboard Promise \nDemo of clipboard promises on the Web \n Figma Minimap plugin \nGame-like miniature map that provides an overview of the Figma canvas \n Graphviz playground \nGraphviz as a service (web worker and playground) \n Scripter \nFigma plugin for running scripts and playing with code \n figplug \nProgram for creating Figma plugins \n Raster Simple Grid System \nMinimal and straight-forward CSS grid system \n Color sort \nPlayground to sort colors in different ways \n CSS Grid \nCSS Grid experiment with viewport-relative typography & scale \n Snow scape \nFun little snowy landscape in ortographic projection with day-night cycle \n Sunrise/Sunset \nFun graphic day-night cycle simulation \n Inter typeface \nA font family for text on computer screens \n Hovden Stitch \nA typeface from 2002 with a classic “stitching”/”embroidery” look \n FFysics \nFun little physics simulation with the Figma icon \n Messenger for Mac \nMac app around Facebook’s stand-alone Messenger.com \n Gotalk \nMakes it easy for programs to talk with one another over the internet. \n Sol \nEducational virtual machine implementation. (github) \n Hue \nFunctional programming language. (github) \n PeerTalk \nSmall iOS and OS X Cocoa library for communicating over USB. \n Time Counter \nAnimated radial time counter using SVG. View source for configuration options. \n UILayer \nAPI on top of the WebKit DOM for working with the concept of layers. High performance UI rendering and animation. \n Move \nSimple pro",
+    "https://rsms.me/work/": "Professional highlights \n ● \n About \n Projects \n Work \n Photography \n Shop \nMy career as a designer started in the 1990s with an online magazine I created with a few friends. I started helping others with design and websites to learn more. It eventually led me to my first job as a designer, at Lear Corporation in 1999. \nTwo years later I started a design agency together with Tobias Friberg and Andreas Fabbe. We called it Flajm and later renamed it to Notion. \nIn 2006 I took a big risk and jumped on the opportunity to join a start-up; Spotify, as one of the very first employees. It was one of the most impactful and important life choices I’ve made and I’m forever grateful for the experience I had. \nCome 2010 I left Spotify after pretty much running the entire design department for four years. I joined Soleio and the rest of the incredibly talented folks at Facebook. I led the design of an operating system, working closely with Brett Taylor, Aaron Sittig, Mark Zuckerberg and several other inspiring people. Facebook Home was one of the products shipping from that project. After that I worked on Messenger for a while and then did a year as a software engineer, creating GraphQL together with Nick Schrock, Lee Byron and Daniel Schafer. \nAfter an incredible time at Facebook, I moved to Dropbox where I worked on several research & development projects and their desktop app. This was an exciting time in Dropbox’s history as the company took its first steps outside the file syncing world, exploring photography, writing, machine intelligence and several other interesting fields. All this while also finding its own personality, its own voice as a bigger company. \nFigma happened next for me, joining as one of the early employees when the whole company could fit in a couch. Much like Spotify, Figma was—and still is—one of those risks I took that came with an unimaginable reward in terms of experience, bonding with incredible people and having a lot of fun. Here I had the opportunity to shape the next generation of design tools: an incredible and humbling opportunity to have real positive impact, for real passionate people. \n Notable work and contributions \nThe Inter typeface\nused by millions world-wide, including big names like\nUnity, Pixar, GitHub, Mozilla, Figma and many others.\nFigma\nLead designer, with Dylan Field, Evan Wallace, Sho Kuwamoto and many others\nSpotify\nDirector of design & founding member, with Daniel Ek and many other people\nGraphQL\nFounding member with\n Lee Byron ,\n Nick Schrock and\n Dan Schafer \nUILayer\nFoundation of the early Framer design tool, with\n Koen Bok \nOrigami / Quartz Composer at Facebook with\n Brandon Walkin \nFacebook for iOS\nwith many people \nFacebook Messenger with\n Soleio and\n Rob Mason \nFacebook OS & Home with\n Bret Taylor ,\n Julie Zhuo ,\n Francis Luu ,\n Joey Flynn \nand many others and many others \nSpotify user data backend, high-perf infrastructure software, with\n Jon Åslund \nEarly NodeJS, 2009–2010, with\n Ryan Dahl and man"
+   },
+   "feed": {
+    "url": "https://rsms.me/atom.xml",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "Introduction to WebAssembly",
+      "date": "2017-01-16T00:00:00+00:00",
+      "url": "https://rsms.me/wasm-intro"
+     },
+     {
+      "title": "Gotalk",
+      "date": "2015-01-21T00:00:00+00:00",
+      "url": "https://rsms.me/gotalk"
+     },
+     {
+      "title": "DBX 2013",
+      "date": "2013-07-09T00:00:00+00:00",
+      "url": "https://rsms.me/dbx2013"
+     },
+     {
+      "title": "Hello, Dropbox",
+      "date": "2013-03-21T00:00:00+00:00",
+      "url": "https://rsms.me/hello-dropbox"
+     },
+     {
+      "title": "The 1950s called and wanted their toolbox back",
+      "date": "2013-01-01T00:00:00+00:00",
+      "url": "https://rsms.me/1950s-called-wanted-toolbox-back"
+     },
+     {
+      "title": "The Definition of Design",
+      "date": "2012-12-01T00:00:00+00:00",
+      "url": "https://rsms.me/eames-definition-of-design"
+     },
+     {
+      "title": "Sol — a sunny little virtual machine",
+      "date": "2012-10-14T00:00:00+00:00",
+      "url": "https://rsms.me/sol-a-sunny-little-virtual-machine"
+     },
+     {
+      "title": "Our own little computer language",
+      "date": "2012-10-07T00:00:00+00:00",
+      "url": "https://rsms.me/mylang-tutorial1"
+     },
+     {
+      "title": "Factorial and Fib in Hue",
+      "date": "2012-05-29T00:00:00+00:00",
+      "url": "https://rsms.me/hue-factorial-fib"
+     },
+     {
+      "title": "Hue — a functional programming language for fun & play",
+      "date": "2012-05-14T00:00:00+00:00",
+      "url": "https://rsms.me/hue-intro"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "rsms",
+  "user": {
+   "name": "Rasmus",
+   "company": "Playbit",
+   "blog": "https://rsms.me/",
+   "location": "Berkeley",
+   "bio": "Personal Software, languages, compilers, Humans & Computers, and other fun things.\r\nPast professional life at Figma, Facebook, Spotify, Dropbox, etc.",
+   "public_repos": 182,
+   "followers": 8030,
+   "created_at": "2009-01-16T10:29:16Z",
+   "twitter_username": "rsms",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "rsms/inter",
+    "description": "The Inter font family",
+    "stargazers_count": 19990,
+    "forks_count": 487,
+    "language": "Python",
+    "homepage": "https://rsms.me/inter/",
+    "created_at": "2017-08-22T07:14:17Z",
+    "pushed_at": "2024-11-19T03:16:13Z",
+    "topics": [
+     "design",
+     "font",
+     "typeface"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/peertalk",
+    "description": "iOS and Mac Cocoa library for communicating over USB",
+    "stargazers_count": 3489,
+    "forks_count": 507,
+    "language": "Objective-C",
+    "homepage": "https://rsms.me/peertalk/",
+    "created_at": "2012-03-23T19:02:59Z",
+    "pushed_at": "2022-04-27T17:30:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/fb-mac-messenger",
+    "description": "⚡️ Mac app wrapping Facebook's Messenger for desktop",
+    "stargazers_count": 2835,
+    "forks_count": 231,
+    "language": "Objective-C",
+    "homepage": "https://fbmacmessenger.rsms.me/",
+    "created_at": "2015-04-08T19:24:26Z",
+    "pushed_at": "2026-02-15T16:32:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/kod",
+    "description": "Programmers' editor for OS X [DEAD PROJECT]",
+    "stargazers_count": 2275,
+    "forks_count": 164,
+    "language": "Objective-C",
+    "homepage": "https://rsms.me/why-i-wrote-a-programmers-text-editor",
+    "created_at": "2010-08-29T15:27:04Z",
+    "pushed_at": "2011-09-28T13:57:20Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "rsms/node-imagemagick",
+    "description": "Imagemagick module for NodeJS — NEW MAINTAINER: @yourdeveloper",
+    "stargazers_count": 1817,
+    "forks_count": 330,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2010-05-09T12:52:50Z",
+    "pushed_at": "2020-10-14T19:22:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/markdown-wasm",
+    "description": "Very fast Markdown parser and HTML generator implemented in WebAssembly, based on md4c",
+    "stargazers_count": 1673,
+    "forks_count": 69,
+    "language": "C",
+    "homepage": "https://rsms.me/markdown-wasm/",
+    "created_at": "2019-12-09T04:19:41Z",
+    "pushed_at": "2022-11-22T17:28:20Z",
+    "topics": [
+     "markdown",
+     "parser",
+     "wasm",
+     "webassembly"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/gotalk",
+    "description": "Async peer communication protocol & library",
+    "stargazers_count": 1205,
+    "forks_count": 77,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2015-01-21T22:34:24Z",
+    "pushed_at": "2023-02-25T01:31:21Z",
+    "topics": [
+     "golang",
+     "protocol-communication",
+     "streaming",
+     "websocket"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/estrella",
+    "description": "Lightweight and versatile build tool based on the esbuild compiler",
+    "stargazers_count": 1102,
+    "forks_count": 36,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2020-05-21T23:20:55Z",
+    "pushed_at": "2024-06-16T13:48:32Z",
+    "topics": [
+     "compiler",
+     "esbuild",
+     "javascript",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/raster",
+    "description": "Raster — simple CSS grid system",
+    "stargazers_count": 816,
+    "forks_count": 41,
+    "language": "CSS",
+    "homepage": "https://rsms.me/raster/",
+    "created_at": "2019-02-16T22:39:14Z",
+    "pushed_at": "2022-09-08T01:09:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/js-lru",
+    "description": "A fast, simple & universal Least Recently Used (LRU) map for JavaScript",
+    "stargazers_count": 796,
+    "forks_count": 88,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2010-03-30T20:32:37Z",
+    "pushed_at": "2025-02-12T14:00:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/sol",
+    "description": "A sunny little virtual machine",
+    "stargazers_count": 524,
+    "forks_count": 42,
+    "language": "C",
+    "homepage": "http://rsms.me/2012/10/14/sol-a-sunny-little-virtual-machine.html",
+    "created_at": "2012-10-11T07:32:19Z",
+    "pushed_at": "2015-07-15T17:32:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/scrup",
+    "description": "Take a screenshot (in OS X) — paste the URL somewhere a second later",
+    "stargazers_count": 403,
+    "forks_count": 41,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2009-11-21T02:15:48Z",
+    "pushed_at": "2014-01-23T18:14:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/chromium-tabs",
+    "description": "[historical] Chromium tabs for cocoa applications (project no longer maintained)",
+    "stargazers_count": 387,
+    "forks_count": 61,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2010-08-24T01:59:10Z",
+    "pushed_at": "2016-05-04T17:25:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/figplug",
+    "description": "Figma plugin builder",
+    "stargazers_count": 370,
+    "forks_count": 15,
+    "language": "TypeScript",
+    "homepage": "https://rsms.me/figplug/",
+    "created_at": "2019-06-27T01:26:08Z",
+    "pushed_at": "2023-05-06T03:57:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/llvmbox",
+    "description": "Self contained, fully static llvm tools & libs",
+    "stargazers_count": 369,
+    "forks_count": 7,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2023-01-14T01:49:31Z",
+    "pushed_at": "2023-03-01T00:20:05Z",
+    "topics": [
+     "clang",
+     "llvm"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/wasm-util",
+    "description": "WebAssembly utilities",
+    "stargazers_count": 361,
+    "forks_count": 22,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2017-01-09T08:33:39Z",
+    "pushed_at": "2019-02-06T00:17:34Z",
+    "topics": [
+     "typescript",
+     "wasm",
+     "wasm-bytecode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/cocui",
+    "description": "Cocoa meets WebKit for more rapid UI development",
+    "stargazers_count": 325,
+    "forks_count": 12,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2009-09-04T22:53:39Z",
+    "pushed_at": "2010-05-20T16:19:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "rsms/ec2-webapp",
+    "description": "A template I use to quickly set up Node.js-backed web apps on Amazon EC2",
+    "stargazers_count": 321,
+    "forks_count": 83,
+    "language": null,
+    "homepage": "",
+    "created_at": "2011-03-22T13:55:01Z",
+    "pushed_at": "2016-02-28T22:30:47Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 159,
+  "languages": [
+   [
+    "JavaScript",
+    37
+   ],
+   [
+    "C",
+    30
+   ],
+   [
+    "Objective-C",
+    20
+   ],
+   [
+    "Go",
+    16
+   ],
+   [
+    "C++",
+    11
+   ],
+   [
+    "TypeScript",
+    7
+   ],
+   [
+    "Shell",
+    7
+   ],
+   [
+    "Python",
+    6
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "rsms/inter",
+    "stargazerCount": 19990,
+    "description": "The Inter font family",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://rsms.me/inter/"
+   },
+   {
+    "nameWithOwner": "rsms/rsm",
+    "stargazerCount": 310,
+    "description": "Virtual computer",
+    "primaryLanguage": {
+     "name": "C"
+    },
+    "homepageUrl": "https://rsms.me/rsm/"
+   },
+   {
+    "nameWithOwner": "rsms/compis",
+    "stargazerCount": 226,
+    "description": "Contemporary systems programming language in the spirit of C",
+    "primaryLanguage": {
+     "name": "C"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "rsms/rsms-utils",
+    "stargazerCount": 127,
+    "description": "Collection of CLI programs to help with everyday computer life",
+    "primaryLanguage": {
+     "name": "Shell"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "rsms/markdown-wasm",
+    "stargazerCount": 1673,
+    "description": "Very fast Markdown parser and HTML generator implemented in WebAssembly, based on md4c",
+    "primaryLanguage": {
+     "name": "C"
+    },
+    "homepageUrl": "https://rsms.me/markdown-wasm/"
+   }
+  ],
+  "contrib_last_year": 6078,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "rsms/inter": "# Inter\nInter is a typeface carefully crafted & designed for computer screens.\nInter features a tall x-height to aid in readability of mixed-case and lower-case text.\nInter is a [variable font](https://rsms.me/inter/#variable) with\nseveral [OpenType features](https://rsms.me/inter/#features), like contextual alternates that adjusts punctuation depending on the shape of surrounding glyphs, slashed zero for when you need to disambiguate \"0\" from \"o\", tabular numbers, etc.\n[**Download Inter font files…**](https://github.com/rsms/inter/releases/latest)\n<br>\n[](https://rsms.me/inter/)\n### Quick questions\n- **Where can I get Inter?** [Here](https://github.com/rsms/inter/releases/latest)\n- **I think I found a bug. How can I let you know?** [Open an issue here](https://github.com/rsms/inter/issues/new?template=bug_report.md)\n- **I have a question. Where can I get help?** [Post in Discussions Q&A](https://github.com/rsms/inter/discussions/categories/q-a)\n- **Should I use Inter from Google Fonts?** No, unless you have no other choice.\n  (outdated, no italics)\n- **Can I legally use Inter for my purpose?** Most likely _yes!_ Inter is free and open source.\n  ([Read the license](LICENSE.txt) for details.)\n## Using & installing Inter\n[**Download the latest font files…**](https://github.com/rsms/inter/releases/latest)\nUsing Inter on a web page:\n```html\n<link rel=\"preconnect\" href=\"https://your-font-file-host/\">\n<link rel=\"stylesheet\" href=\"https://your-font-file-host/inter.css\">\n```\n```css\n:root { font-family: 'Inter', sans-serif; }\n@supports (font-variation-settings: normal) {\n  :root { font-family: 'Inter var', sans-serif; }\n}\n```\nFor web pages, there's an official [CDN distribution](https://rsms.me/inter/inter.css) that you can use directly without having to host the font files yourself:\n```html\n<link rel=\"preconnect\" href=\"https://rsms.me/\">\n<link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\">\n```\n### Alternate distributions\n- [NPM `inter-ui`](https://www.npmjs.com/package/inter-ui)\n- [Homebrew `font-inter`](https://github.com/Homebrew/homebrew-cask-fonts)\n- [Ubuntu `fonts-inter`](https://packages.ubuntu.com/search?keywords=fonts-inter)\n- [List of Inter available ",
+   "rsms/rsm": "\nRSM is a virtual computer, a form of virtual machine.\n- [simple RISC instruction set](#isa) with plenty of general-purpose registers.\n- [virtual memory](etc/vmem.txt) means programs have no access to host memory addresses and all memory accesses are checked. It also means all RSM programs have the same address space (currently 48 bits; 256 TiB) and could even be migrated across hosts at runtime.\n- embraces the linear memory model -- addressing memory is a simple and easy to-understand way to deal with data. Prefer memory-mapped I/O over custom system calls.\n- [multi-threaded Go-style task scheduler](src/sched.h)\n- portable and embeddable, without dependencies. (RSM can even build without libc.)\n  - entire API in one header: [src/rsm.h](src/rsm.h)\n- simple explicit [assembly language](#assembly-language)\n  - compiles to very compact, self-contained [\"ROM\" files](etc/rom-layout.txt)\n  - RSM comes with an integrated assembler, making it possible to compile & run code at runtime. (It can be disabled with a macro if desired in embedding scenarios.)\n  - includes an AST API for code generation without an intermediate assembly step, useful if you want to make a compiler that targets RSM.\nProject goals:\n1. learn, have fun -- simplicity\n2. substrate, a thing to make other thing on\n3. longevity -- I want to be able to run a (multimedia) program in 10+ years\n\"RSM\" initially stands for \"rsms's smol machine\" but can also be interpreted as\n\"Really smol machine\", or \"Raggedy-ass special mumbojumbo\", or\nthe recursive acronym \"RSM smol machine\" (in case you miss the golden days of PHP), or\nanything you'd like it to mean! Your imagination is really the limit here my friend.\n> **Status of this project:** This is a passion project and thus is not \"production grade\" stuff. The instruction set and semantics are changing. I'd be thrilled and happy if you play with RSM and build stuff on it, but please do keep in mind that stuff will change. Contributions are welcome after [an initial discussion](https://twitter.com/rsms)\nWork in progress, TODO:\n- Finish the scheduler\n- Framebuffer for drawing graphics (maybe even webgpu?)\n- Audio\n- Lots of little small pieces here and there [marked wi",
+   "rsms/compis": "Compis is a contemporary systems programming language in the spirit of C.\nThe compiler supports writing programs in mixed Compis and C;\nyou can mix .c and .co source files. It accomplishes this by bundling some LLVM tools, like clang and lld into one executable. The LLVM dependency might go away someday.\n\"Compis\" is a variation on the Swedish word \"kompis\", meaning \"buddy\" or \"comrade.\" It's also [a nod to one of the first computers I used as a kid.](https://en.wikipedia.org/wiki/Compis)\n> **Note:** Compis is under development\nUsage:\n```shell\n$ compis build -o foo main.co\n$ ./foo\n```\nSince Compis bundles clang & lld, you can use it as a C and C++ compiler\nwith cross-compilation capabilities:\n```shell\n$ compis cc hello.c -o hello\n$ ./hello\nHello world\n$ compis cc --target=aarch64-macos hello.c -o hello-mac\n$ file hello-mac\nhello-mac: Mach-O 64-bit executable arm64\n$ compis c++ --target=wasm32-wasi hello.cc -o hello.wasm\n$ wasmtime hello.wasm\nHello world\n```\n## Features\n- Memory safety via ownership `let x *Thing = thing // move, not copy`\n- Simple: primitive values, arrays, structs and functions.\n- Convention over configuration: Sensible defaults. One way to do something.\n- Compiler is a statically-linked, single executable.\n- Hackable pragmatic compiler (parse → type-check → static analysis → codegen → link)\n# Tour of the language\n## Clarity\nCompis attempts to make local reasoning about code as easy as possible.\nThere are no implicit type conversion, no side effects from language constructs\nand the lifetime constraints of a value is explicitly encoded in its type.\nHere's a parts list:\n- booleans `bool` (`true, false`)\n- machine-sized integers `int, uint` (`-123, 0xbeef, 0b1111011`)\n- size-specific integers `i8, u8, i16, u16, i32, u32, i64, u64`\n- size-specific floating-point numbers `f32, f64` (`1.2`, `1.e39`)\n- fixed-size arrays `[i32 3]` (`let a = [1, 2, 3]`)\n- runtime-sized arrays `[i32]` (`let a [i32] = [1, 2, 3]`)\n- unicode character literals `'A' == 0x0041, '↔' == 0x2194, '🆎' == 0x1F18E` (`u32`)\n- ASCII byte-sized character literals `u8('A')`\n- structure types `struct MyThing { field1, field2 type; field3 type; }`\n- functions `fun name(x, y int, z str) int",
+   "rsms/rsms-utils": "# rsms-utils\nCollection of command-line programs to help with everyday computer life.\n- [autorun](bin/autorun) — Run a command when some files changes\n- [color-space](bin/color-space) — Inspect and convert color spaces of images\n- [logbook](bin/logbook) — Manage a simle journal per project\n- [lserrno](bin/lserrno) — List & search libc error codes along with description\n- [mkgif](bin/mkgif) — Creates an animated GIF from a video file\n**Installation:** The idea is to add these tools to your `PATH`. Something like this:\n```\ncd ~/src\ngit clone https://github.com/rsms/rsms-utils.git\n# edit your ~/.bashrc or ~/.zshrc shell file, adding:\nexport PATH=$PATH:$HOME/src/rsms-utils/bin\n```\n## Usage\nSee each program's help with `program --help`\nSome notes:\n### color-space\nFor example, if you are designing in P3 in Figma and export a PNG, the resulting PNG file will not have the Display P3 profile embedded which means it will incorrectly be interpreted as sRGB and your colors will not look right. Say you intend to display this image in a web browser, then you will need to produce both a file with the P3 profile and a file converted to sRGB (for browsers without P3 support.) You'd do the following:\n1. Assign the P3 profile: `color-space assign p3 image.png`\n2. Convert & generate sRGB variant: `color-space convert srgb image.png -o image.srgb.png`\n3. Use the `<picture>` element to provide the browser with the two images:\n```html\n<picture>\n  <source media=\"(color-gamut: p3)\" srcset=\"image.png\">\n</picture>\n```\n",
+   "rsms/markdown-wasm": "# markdown-wasm\nVery fast Markdown parser & HTML renderer implemented in WebAssembly\n- Zero dependencies (31 kB gzipped)\n- Portable & safe (WASM executes in isolated memory and can run almost anywhere)\n- [Simple API](#api)\n- [Very fast](#benchmarks)\n- Based on [md4c](http://github.com/mity/md4c) — compliant to the CommonMark specification\n## Examples\nIn NodeJS, single file with embedded compressed WASM\n```js\nconst markdown = require(\"./dist/markdown.node.js\")\nconsole.log(markdown.parse(\"# hello\\n*world*\"))\n```\nES module with WASM loaded separately\n```js\nimport * as markdown from \"./dist/markdown.es.js\"\nawait markdown.ready\nconsole.log(markdown.parse(\"# hello\\n*world*\"))\n```\nWeb browser\n```html\n<script src=\"markdown.js\"></script>\n<script>\nwindow[\"markdown\"].ready.then(markdown => {\n  console.log(markdown.parse(\"# hello\\n*world*\"))\n})\n</script>\n```\n## Install\n```\nnpm install markdown-wasm\n```\n## Benchmarks\nThe [`test/benchmark`](test/benchmark) directory contain a benchmark suite which you can\nrun yourself. It tests a few popular markdown parser-renderers by parsing & rendering a bunch\nof different sample markdown files.\nThe following results were samples on a 2.9 GHz MacBook running macOS 10.15, NodeJS v14.11.0\n#### Average ops/second\nOps/second represents how many times a library is able to parse markdown and render HTML\nduring a second, on average across all sample files.\n#### Average throughput\nThroughput is the average amount of markdown data processed during a second while both parsing\nand rendering to HTML. The statistics does not include HTML generated but only bytes of markdown\nsource text parsed.\n#### Min–max parse time\nThis graph shows the spread between the fastest and slowest parse-and-render operations\nfor each library. Lower numbers are better.\nSee [`test/benchmark`](test/benchmark#readme) for more information.\n## API\n```ts\n/**\n * parse reads markdown source at s and converts it to HTML.\n * When output is a byte array, it will be a reference.\n */\nexport function parse(s :Source, o? :ParseOptions & { bytes? :never|false }) :string\nexport function parse(s :Source, o? :ParseOptions & { bytes :true }) :Uint8Array\n/** Markdown source code can be provided"
+  }
+ },
+ "apps": []
+}

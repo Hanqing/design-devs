@@ -1,0 +1,478 @@
+{
+ "handle": "mattie",
+ "sites": [
+  {
+   "url": "http://massicotte.org",
+   "ok": true,
+   "title": "Matt Massicotte",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "AWS"
+   ],
+   "lang": "",
+   "home_text": "Matt Massicotte \n blog \n about \n hire me \nHello \n My name is Matt. It's possible you are here because I do a lot of work with Swift Concurrency. But I do other stuff too. I swear.\nLatest \n Revisiting \"Split Isolation\" \nThe pattern was so common and so problematic I gave it a name. But, does is it actually bad? \n Cognitive Forces \nThere was a time when human understanding was a necessary part of creating, but have the economics of this changed? \n Experimenting with Godot \nGames development has always been fascinating and intimidating, and I'm very glad I put some time into Godot. \nHere to learn about Swift Concurrency? \n This series is a good place to start:\n A Network Request \n Reading from Storage \n Stateful Systems \n Conforming to Protocols \n Designing Protocols \n If you need more help, get in touch with me .",
+   "github_links": [
+    "mattmassicotte"
+   ],
+   "subpages": {
+    "http://massicotte.org/blog": "Matt Massicotte \n blog \n about \n hire me \nPosts \n 2026-10-05\n Revisiting \"Split Isolation\" \nThe pattern was so common and so problematic I gave it a name. But, does is it actually bad? \n 2026-09-30\n Cognitive Forces \nThere was a time when human understanding was a necessary part of creating, but have the economics of this changed? \n 2026-09-10\n Experimenting with Godot \nGames development has always been fascinating and intimidating, and I'm very glad I put some time into Godot. \n 2026-08-26\n Public Stuff Sends Signals \nThe social costs of social stuff is real. \n 2026-08-19\n Looking for Maintainers! \nI have a whole bunch of open source repos. Would you like one? \n 2026-08-03\n An Even Closer Look at Protocols and Global Actors \nThe interaction between protocols and global actors can be subtle. Let's take a closer look. \n 2026-07-06\n Beachfront Property in Camarina \nSome observations on two essays about the risks and rewards of AI \n 2026-06-10\n (Some) Unanswered Swift Group Questions \nHere's my attempt at answers to some Swift Group Lab session questions that there wasn't time for. \n 2026-05-29\n Stateless Actors \nThe purpose of an actor is to protect mutable state. But even an actor with no state to protect can serve a purpose. \n 2026-05-26\n WWDC 2026 Watch List \nWWDC is an exciting time. Here's what I'm paying attention to. \n 2026-04-26\n Concurrency Step-by-Step: Designing Protocols \nSwift protocols comes with trade-offs at every turn. Understanding them is the key to a successful design. \n 2026-04-06\n The Tiny Languages of Task Runners \nThere are a ton of cli-based task automation tools out there but I'm still looking. \n 2026-03-27\n Package Traits in Xcode \nAt long last, package traits are now supported in Xcode and I think it's a big deal. \n 2026-02-18\n Testing with Event Streams \nA relatively easy way to verify a sequence of events. \n 2026-02-13\n The Journey \nContemplating the existence, meaning, and value of knowledge debt. \n 2026-01-26\n Act different. \nWhat kind of community do we have if we do nothing? \n 2026-01-13\n Swift Compiler Changes the Easy Way \nThe secret is to do as little of work yourself as possible. \n 2025-12-29\n Versioned Package.swift Files \nThe foundation of a Swift package is worth understanding. \n 2025-12-17\n Non-Sendable First Design \nThe easiest way to design concurrent systems in Swift was hiding in plain sight. \n 2025-12-05\n (updated: 2026-05-13)\n What Setting Should I Use? \nHere's a place to start if you are trying to get a handle on Swift compiler settings. \n 2025-11-20\n MainActor by Default \nIt's enabled for new projects, but I wouldn't recommend it. \n 2025-11-19\n A Prank Ten Years in the Making \nThe delightful little mystery involving shell scripts and kittens. \n 2025-10-31\n The Problem With Combine Annotations \nCombine and Swift Concurrency aren't always easy to use together. One reason is missing annotations. \n 2025-10-25\n Concurrency Step-by-Step: Conforming to Protocols \nProtocols are all over the place, but mixin",
+    "http://massicotte.org/about": "Matt Massicotte \n blog \n about \n hire me \nI'm Matt, a long-time developer for Apple platforms. I'm into programming, the outdoors, video games, music, and progress towards a safe and fair world for all people. \nI'm also available for consulting work, in case that's of interest. \ntalks I've done \n How to Approach Approachable Concurrency (2025) \n Swift Concurrency is new and hard, and you can do it (2024) \n The Bleeding Edge of Swift Concurrency (2023) \n Crashlytics Crash Reporting (2015) \nSwift Evolution proposals I've helped with \n SE-0540 Default Target Settings \n SE-0530 Async Result Support \n SE-0434 Usability of global-actor-isolated types"
+   },
+   "feed": {
+    "url": "https://www.massicotte.org/atom.xml",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "Revisiting \"Split Isolation\"",
+      "date": "2026-10-05T00:00:00+0000",
+      "url": "https://massicotte.org/blog/revisiting-split-isolation/"
+     },
+     {
+      "title": "Cognitive Forces",
+      "date": "2026-09-30T00:00:00+0000",
+      "url": "https://massicotte.org/blog/cognitve-forces/"
+     },
+     {
+      "title": "Experimenting with Godot",
+      "date": "2026-09-10T00:00:00+0000",
+      "url": "https://massicotte.org/blog/experimenting-with-godot/"
+     },
+     {
+      "title": "Public Stuff Sends Signals",
+      "date": "2026-08-26T00:00:00+0000",
+      "url": "https://massicotte.org/blog/public-stuff-sends-signals/"
+     },
+     {
+      "title": "Looking for Maintainers!",
+      "date": "2026-08-19T00:00:00+0000",
+      "url": "https://massicotte.org/blog/looking-for-maintainers/"
+     },
+     {
+      "title": "An Even Closer Look at Protocols and Global Actors",
+      "date": "2026-08-03T00:00:00+0000",
+      "url": "https://massicotte.org/blog/protocols-and-global-actors/"
+     },
+     {
+      "title": "Beachfront Property in Camarina",
+      "date": "2026-07-06T00:00:00+0000",
+      "url": "https://massicotte.org/blog/beachfront-property-in-camarina/"
+     },
+     {
+      "title": "(Some) Unanswered Swift Group Questions",
+      "date": "2026-06-10T00:00:00+0000",
+      "url": "https://massicotte.org/blog/wwdc26-unanswered-qa/"
+     },
+     {
+      "title": "Stateless Actors",
+      "date": "2026-05-29T00:00:00+0000",
+      "url": "https://massicotte.org/stateless-actors/"
+     },
+     {
+      "title": "WWDC 2026 Watch List",
+      "date": "2026-05-26T00:00:00+0000",
+      "url": "https://massicotte.org/blog/wwdc-26-watchlist/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mattmassicotte",
+  "user": {
+   "name": "Matt Massicotte",
+   "company": "Chime Systems Inc.",
+   "blog": "https://www.massicotte.org",
+   "location": "Montreal, Canada",
+   "bio": "I only came here to do two things, write some code and drink some tea. And I will NEVER run out of tea.",
+   "public_repos": 35,
+   "followers": 858,
+   "created_at": "2009-05-16T19:30:28Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mattmassicotte/Empire",
+    "description": "A local persistence system for Swift",
+    "stargazers_count": 141,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-06-29T10:01:31Z",
+    "pushed_at": "2026-01-19T20:06:59Z",
+    "topics": [
+     "database",
+     "ios",
+     "lmdb",
+     "macos",
+     "macros",
+     "persistence",
+     "storage",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/nsui",
+    "description": "AppKit and UIKit without conditional compilation",
+    "stargazers_count": 85,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-02-01T14:16:32Z",
+    "pushed_at": "2026-04-28T10:25:38Z",
+    "topics": [
+     "appkit",
+     "swift",
+     "uikit"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/PackageTemplate",
+    "description": "A template for Swift packages on GitHub",
+    "stargazers_count": 67,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-08-31T09:55:15Z",
+    "pushed_at": "2026-04-27T14:28:41Z",
+    "topics": [
+     "ios",
+     "macos",
+     "spm",
+     "swift",
+     "tvos",
+     "visionos",
+     "watchos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/Multipass",
+    "description": "Multi-service social client for macOS and iOS",
+    "stargazers_count": 64,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-11-13T16:47:46Z",
+    "pushed_at": "2026-03-20T18:26:33Z",
+    "topics": [
+     "bluesky",
+     "ios",
+     "macos",
+     "mastodon",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/Packet",
+    "description": "AsyncSequence Data transforms",
+    "stargazers_count": 27,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-04-18T10:59:36Z",
+    "pushed_at": "2024-04-23T00:22:31Z",
+    "topics": [
+     "asyncsequence",
+     "concurrency",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/swift-passkeys",
+    "description": "An experiment building passkey-based auth with Swift and AWS",
+    "stargazers_count": 22,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-12-24T12:21:42Z",
+    "pushed_at": "2023-01-28T21:48:12Z",
+    "topics": [
+     "aws",
+     "swift",
+     "webauthn"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/StableView",
+    "description": "A TableView implementation that can preserve position for iOS and macOS",
+    "stargazers_count": 21,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-04-03T11:21:33Z",
+    "pushed_at": "2025-04-26T15:25:32Z",
+    "topics": [
+     "ios",
+     "macos",
+     "swift",
+     "swiftui",
+     "tableview"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/ATM",
+    "description": "A simple cache for Swift",
+    "stargazers_count": 18,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-05-01T18:52:49Z",
+    "pushed_at": "2026-03-20T18:17:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/WebFinger",
+    "description": "A WebFinger library for Swift",
+    "stargazers_count": 12,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-07-14T12:35:27Z",
+    "pushed_at": "2026-08-23T18:44:36Z",
+    "topics": [
+     "swift",
+     "webfinger"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/Reblog",
+    "description": "Little library for working with the Mastodon API",
+    "stargazers_count": 10,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-02-10T11:33:24Z",
+    "pushed_at": "2026-08-23T18:43:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/ATAT",
+    "description": "Little library for working with the AT Protocol",
+    "stargazers_count": 9,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-02-08T11:18:17Z",
+    "pushed_at": "2026-08-23T18:25:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/JSONLD",
+    "description": "A JSON-LD library for Swift",
+    "stargazers_count": 9,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-07-17T09:42:09Z",
+    "pushed_at": "2026-09-14T17:33:47Z",
+    "topics": [
+     "json-ld",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/three",
+    "description": "Three Programming Language",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "language": "C++",
+    "homepage": null,
+    "created_at": "2013-07-10T11:44:01Z",
+    "pushed_at": "2015-11-08T12:28:21Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattmassicotte/Nero",
+    "description": "A watchOS app to help you care for aquariums",
+    "stargazers_count": 6,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-04-15T09:52:54Z",
+    "pushed_at": "2025-05-16T19:38:46Z",
+    "topics": [
+     "aquarium",
+     "swift",
+     "watchos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/NodeInfo",
+    "description": "A NodeInfo library for Swift",
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-07-15T06:33:43Z",
+    "pushed_at": "2026-08-23T18:41:40Z",
+    "topics": [
+     "nodeinfo",
+     "nodeinfo2",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/VoxelEditor",
+    "description": "A Godot editor plugin for working with godot_voxel",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "GDScript",
+    "homepage": null,
+    "created_at": "2026-09-04T18:06:00Z",
+    "pushed_at": "2026-10-07T19:30:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/CrossHostAWS",
+    "description": "CrossHost implementation for AWS Lambda",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-07-13T03:34:48Z",
+    "pushed_at": "2026-08-23T18:27:09Z",
+    "topics": [
+     "activitypub",
+     "atproto",
+     "aws",
+     "lambda",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattmassicotte/CrossHost",
+    "description": "Multi-service social platform implemented in Swift",
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-07-10T10:48:14Z",
+    "pushed_at": "2026-08-25T19:21:01Z",
+    "topics": [
+     "activitypub",
+     "atproto",
+     "server",
+     "swift"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 28,
+  "languages": [
+   [
+    "Swift",
+    18
+   ],
+   [
+    "Ruby",
+    5
+   ],
+   [
+    "C++",
+    1
+   ],
+   [
+    "GDScript",
+    1
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "Makefile",
+    1
+   ],
+   [
+    "Rust",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "dimasusername/Queue",
+    "stargazerCount": 439,
+    "description": "A queue for Swift concurrency",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "hisaac/XCLint",
+    "stargazerCount": 141,
+    "description": "Xcode project linting",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mattmassicotte/Empire",
+    "stargazerCount": 141,
+    "description": "A local persistence system for Swift",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mattmassicotte/nsui",
+    "stargazerCount": 85,
+    "description": "AppKit and UIKit without conditional compilation",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mattmassicotte/Multipass",
+    "stargazerCount": 64,
+    "description": "Multi-service social client for macOS and iOS",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "ATProtoKit/Jot",
+    "stargazerCount": 34,
+    "description": "Very simple JWT/JWK library for Swift",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 468,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "dimasusername/Queue": "<div align=\"center\">\n[![Build Status][build status badge]][build status]\n[![Platforms][platforms badge]][platforms]\n[![Documentation][documentation badge]][documentation]\n</div>\n# Queue\n> Originally created by @mattmassicotte. Now maintained by @dimasusername.\nA queue for Swift concurrency\nThis package exposes a single type: `AsyncQueue`. Conceptually, `AsyncQueue` is very similar to a `DispatchQueue` or `OperationQueue`. However, unlike these an `AsyncQueue` can accept async blocks. This exists to more easily enforce ordering across unstructured tasks without requiring explicit dependencies between them.\nI've found this helpful when interfacing stateful asynchronous systems with synchronous code.\nIf you are looking for help handling actor reentrancy, check out [TaskGate](https://github.com/dimasusername/TaskGate) and [Semaphore][semaphore].\n## Integration\n```swift\ndependencies: [\n    .package(url: \"https://github.com/dimasusername/Queue\", from: \"0.2.2\")\n]\n```\n## Usage\n```swift\nlet queue = AsyncQueue()\nqueue.addOperation {\n    await asyncFunction()\n    await anotherAsyncFunction()\n}\n// This can can also return the underlying Task,\n// so you can cancel, or await a value\nlet task = queue.addOperation {\n    return await makeValue()\n}\nlet value = try await task.value\n```\nBy default, `AsyncQueue` will only run one operation at a time. But, it can be configured as a concurrent queue.\n```swift\nlet queue = AsyncQueue(attributes: [.concurrent])\n// these two may run concurrently\nqueue.addOperation { await asyncFunction() }\nqueue.addOperation { await asyncFunction() }\n// This will only run once existing operations are complete, and will\n// prevent new operations from starting until done\nqueue.addBarrierOperation {\n    await asyncFunction()\n}\n```\nThe `AsyncQueue` type has an `errorSequence` property, which can be used to detect uncaught errors out of band.\n```swift\nlet queue = AsyncQueue(attributes: [.publishErrors])\nTask {\n    for await error in queue.errorSequence {\n        print(error)\n    }\n}\n```\nThis package was inspired by [Semaphore][semaphore], which is another concurrency-related synchronization system that I've found very useful.\n## Alternatives\n- [swift-async-que",
+   "hisaac/XCLint": "# XCLint\nXcode project linting\nOriginally created by @mattmassicotte. Now maintained by @hisaac.\n## Installation\nXCLint is available as both a commandline tool and a library.\nTool:\n```shell\nbrew tap hisaac/XCLint https://github.com/hisaac/XCLint.git\nbrew install xclint\n```\nPackage:\n```swift\ndependencies: [\n\t.package(url: \"https://github.com/hisaac/XCLint\", branch: \"main\")\n],\ntargets: [\n\t.testTarget(name: \"MyTarget\", dependencies: [\"XCLinting\"]),\n]\n```\n## Tool Usage\nJust run the `xclint` binary in your project directory. Check out its `-h` flag for more usage.\n```shell\ncd my/project\nxclint\n```\nThis will run a default set of rules. But, you can customize its behavior with a `.xclint.yml` file. The basic structure borrows a lot from [SwiftLint](https://github.com/realm/SwiftLint).\n```yaml\n# Some rules may not be appropriate for all projects. You must opt-in those.\nopt_in_rules:\n  - embedded_build_setting    # checks for build settings in the project file\n  - groups_sorted             # checks that all group contents are alphabetically sorted\n  - implicit_dependencies     # checks for any schemes that have \"Find Implicit Dependencies\" enabled\n  - targets_use_xcconfig      # checks for any targets without a XCConfig file set\n  - projects_use_xcconfig     # checks for any projects without a XCConfig file set\n  - shared_scheme_skips_tests # checks for any shared schemes that have disabled tests\n  - shared_schemes            # checks that all targets have a shared scheme present\n# Other rules make sense for all projects by default. You must opt-out of those.\ndisabled_rules:\n  - build_files_ordered       # checks that the ordering of techincally-unordered collections Xcode writes out is preserved\n  - validate_build_settings   # checks that build settings have valid values\n  - relative_paths            # checks for any absolute file references\n```\n## Alternatives\nThere are some similar projects out there, but none I've found are maintained any longer 😞\n- [ProjLint](https://github.com/JamitLabs/ProjLint)\n- [XcodeProjLint](https://github.com/RocketLaunchpad/XcodeProjLint)\n- [xcprojectlint](https://github.com/americanexpress/xcprojectlint)\n## Contributing and Collaboration\nI",
+   "mattmassicotte/Empire": "<div align=\"center\">\n[![Build Status][build status badge]][build status]\n[![Platforms][platforms badge]][platforms]\n[![Documentation][documentation badge]][documentation]\n[![Matrix][matrix badge]][matrix]\n</div>\n# Empire\nIt's a record store for Swift.\nEmpire is a minimalistic local persistence system with an emphasis on type safety and low overhead. It is backed by a sorted key-value store that is far simpler than a full SQL database. SQL is very powerful, but for many problem domains you just don't need it.\nThis might be appealing to you if need more than just a flat file, more than `UserDefaults`, but not an entire relational database.\n- Schema is defined by your types\n- Macro-based API that is both typesafe and low-overhead\n- Built for concurrency and cancellation\n- Support for CloudKit's `CKRecord`\n- Serialization implemented using `Span`\n- Backed by a sorted-key index data store ([LMDB][LMDB])\nThe core LMDB support is also available as a standalone library within the package, just in case that's of interest as well.\n> [!WARNING]\n> This library is still pretty new and doesn't have great deal of real-world testing yet.\n```swift\nimport Empire\n// define your records with types\n@IndexKeyRecord(\"name\")\nstruct Person {\n    let name: String\n    let age: Int\n}\n// create a local database\nlet store = try BackgroundableStore(url: Self.storeURL)\n// interact with it using transactions\ntry store.main.withTransaction { context in\n    try context.insert(Person(name: \"Korben\", age: 45))\n    try context.insert(Person(name: \"Leeloo\", age: 2000))\n}\n// run queries\nlet records = try store.main.withTransaction { context in\n    try Person.select(in: context, limit: 1, name: .lessThan(\"Zorg\"))\n}\nprint(records.first!) // Person(name: \"Leeloo\", age: 2000)\n// move work to the background\ntry await store.background.withTransaction { ctx in\n    try Person.delete(in: ctx, name: \"Korben\")\n}\n```\n## Integration\n```swift\ndependencies: [\n    .package(url: \"https://github.com/mattmassicotte/Empire\", branch: \"main\")\n]\n```\n## Concept\nEmpire stores records in a sorted-key index, which resembles an ordered-map data structure. This has profound implications on query capabilities and how data is model",
+   "mattmassicotte/nsui": "<div align=\"center\">\n[![Build Status][build status badge]][build status]\n[![Platforms][platforms badge]][platforms]\n[![Matrix][matrix badge]][matrix]\n</div>\n# NSUI\nAppKit and UIKit without conditional compilation\nThere are small differences between otherwise-compatible classes in AppKit and UIKit and it drives everyone bananas. I was inspired by [Nick Lockwood](https://gist.github.com/nicklockwood/19569dc738b565c67f4d97302bf48697) to make this into a package.\nIn general, the goal here is pure source compatibility. There are considerable platform-specific behavioral differences, and those are up to you to understand and account for.\nWhen in doubt, UIKit wins. This keeps things familiar to the most people.\nOther libraries you might like:\n- [ColorToolbox](https://github.com/raymondjavaxx/ColorToolbox): AppKit/UIKit-compatible Color abstraction and utilities\n- [KeyCodes](https://github.com/ChimeHQ/KeyCodes): AppKit Carbon key codes to UIKey-compatible enums\n- [Ligature](https://github.com/ChimeHQ/Ligature): AppKit/UIKit-compatible UITextInputTokenizer and text system support\n## Integration\nSwift Package Manager:\n```swift\ndependencies: [\n    .package(url: \"https://github.com/mattmassicotte/NSUI\", from: \"1.2.0\")\n]\n```\n## Usage\n```swift\n// not only does this import the NSUI package, but it also will correctly make either AppKit or UIKit accessible depending on the build target platform.\nimport NSUI\n// Make use of the cross-platform wrappers\nlet textView = NSUITextView()\n```\nThere are cases where it is necessary to provide cross-platform wrappers around functions, accessors, or initializers. These account for type differences, including cases where value differ only in optionality.\n```swift\n// SwiftUI\nColor(nsuiColor: NSUIColor)\nImage(nsuiImage: NSUIImage)\nNSUIControlActiveState\n// AppKit/UIKit\nNSUIFont.init(nsuiDescriptor:, size:)\nNSUIFontDescriptor.nsuiWithSymbolicTraits(_:)\nNSUITextView.nsuiLayoutManager\nNSUITextView.nsuiSelectedRange\n```\n## SwiftUI\nNSUI also includes both `NSUIViewRepresentable` and `NSUIViewControllerRepresentable` to expose your custom view subclasses in SwiftUI.\n## Alternatives\n- [UXKit](https://github.com/ZeeZide/UXKit)\n## Contributing and Colla",
+   "mattmassicotte/Multipass": "# Multipass\nYes she knows it's a multipass\nMultipass can merge Bluesky and Mastodon feeds into a unified timeline. Supports macOS and iOS.\n> [!WARNING]\n> This app is juuust barely functional. I just cannot stress enough what a poor state this is currently in.\n<p align=\"center\">\n</p>\n<p align=\"center\">\n</p>\n## Usage\nYou can add and remove accounts and they will be persisted in the Keychain. You do this from settings.\n### Building\n**Note**: requires Xcode 16\n- clone the repo\n- `cp User.xcconfig.template User.xcconfig`\n- update `User.xcconfig` with your personal information\n- build/run with Xcode\n### Sub-Projects\nA number of subprojects have either been pulled out of this app or influenced by it. They might be of interest as well.\n- [ATAT](https://github.com/mattmassicotte/ATAT): Little library for working with the AT Protocol\n- [ATResolve](https://github.com/mattmassicotte/ATResolve): AT Protocol PLC Resolver\n- [Empire](https://github.com/mattmassicotte/Empire): A sorted-key index persistence system\n- [Jot](https://github.com/mattmassicotte/Jot): Very simple JWT/JWK library for Swift\n- [OAuthenticator](https://github.com/ChimeHQ/OAuthenticator): OAuth 2.0 request authentication\n- [Reblog](https://github.com/mattmassicotte/Reblog): Little library for working with the Mastodon API\n## Acknowledgements \nThis project uses symbols from [social-symbols](https://github.com/jeremieb/social-symbols). It rocks.\n## Contributing and Collaboration\nI would love to hear from you! Issues or pull requests work great. Both a [Matrix space][matrix] and [Discord][discord] are also available. You can also find me [here](https://www.massicotte.org/about).\nIt is always a good idea to discuss before taking on a significant task. That said, I have a strong bias towards enthusiasm. If you are excited about doing something, I'll do my best to get out of your way.\nI prefer collaboration, and would love to find ways to work together if you have a similar project.\nI prefer indentation with tabs for improved accessibility. But, I'd rather you use the system you want and make a PR than hesitate because of whitespace.\nBy participating in this project you agree to abide by the [Contributor Code of "
+  }
+ },
+ "apps": []
+}

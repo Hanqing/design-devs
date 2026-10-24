@@ -1,0 +1,537 @@
+{
+ "handle": "tannerlinsley",
+ "sites": [
+  {
+   "url": "https://tanstack.com",
+   "ok": true,
+   "title": "TanStack | The open-source application stack for the web.",
+   "description": "Headless, type-safe, composable tools for building modern web applications that work naturally for developers and reliably for agents.",
+   "stack": [
+    "Google Fonts",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Skip to content \n Search \n Ask AI \nThe open source \n application stack\n for the web \nHeadless, type-safe, composable tools for building modern web applications that work naturally for developers and reliably for agents \n Browse the Stack Start with a prompt \n 00.0B 18.4B Total Downloads 00,000,000 176,697,797 Weekly Downloads 000,000 129,908 GitHub Stars \nDescribe what you want to build. \n Blank starter \n Press Shift + Enter \nPrinciples \nWhy TanStack? \nOur libraries are built around real products and the developers shipping them. \nPortable core \nFramework Agnostic \nOur library cores are provider-agnostic and logic-driven, meaning you can use the same logic in React, Vue, Svelte, Solid, and more. \n React Vue Solid Angular Vanilla core \nCompile-time contracts \nType-Safe by Design \nBuilt with TypeScript from the ground up, providing incredible autocomplete and safety across your entire data-fetching and state management stack. \n params.postId string \n query.data Project[] \n form.email Field<string> \nReal workloads \nProduction-Grade \nBattle-tested in the world's largest apps. We build for scale, handling complex concurrency, caching, and state synchronization with ease. \n npm downloads 18,383,011,464 \n per week 176,697,797 \n github stars 129,908 \nIndependent tools \nNo Vendor Lock-in \nOpen source and independent. We aren't beholden to any single cloud provider or framework team, ensuring the best tools for the community. \n license MIT \n hosting self-host anywhere \n governance community-driven \n paid tiers none \n Read our product tenets \n Partners \n Gold \n Silver \n Bronze \n OSS Sponsors \nSponsors get special perks like private discord channels, priority issue requests, and direct support ! \n Become a Sponsor \n View Previous Partners \n Blog & Release Notes \nTanStack AI 1.0: Still Your AI, Still Your Way \nTanStack AI 1.0 is here, with stable core APIs, rewritten docs, and an experimental agent harness. Your AI, your way. \nAlem Tuzlak, Jack Herrington, Tom Beckenham, and Tanner Linsley · Oct 23, 2026 \nTanStack Start 1.0 is Stable \nTanStack Start 1.0 is stable and ready for production. \nTanner Linsley · Oct 13, 2026 \nTanStack Charts 1.0 \nCharts you don’t have to outgrow. \nTanner Linsley · Oct 5, 2026 \n View All Posts \n Core Maintainers \n Tanner Linsley \n Dominik Dorfmeister \n Corbin Crutchley \n Manuel Schiller \n Kevin Van Cott \n Jack Herrington \n Sean Cassiere \n Christopher Horobin \n Damian Pieczynski \n Kyle Mathews \n Alem Tuzlak \n Sam Willis \n Sarah Gerrard \n Lachlan Collins \n View All Maintainers \nNewsletter \nSubscribe to TanStack News \nNew posts, releases, and ecosystem updates from TanStack. \n Log in to subscribe \nWe'll use your TanStack login email.",
+   "github_links": [
+    "AlemTuzlak",
+    "KyleAMathews",
+    "TanStack",
+    "chorobin",
+    "crutchcorn",
+    "jherr",
+    "kevinvandy",
+    "lachlancollins",
+    "ladybluenotes",
+    "piecyk",
+    "samwillis",
+    "schiller-manuel",
+    "seancassiere",
+    "tannerlinsley",
+    "tanstack",
+    "tkdodo"
+   ],
+   "subpages": {
+    "https://tanstack.com/blog": "Skip to content \n Search \n Ask AI \n TanStack Blog \nThe latest news and blog posts from TanStack \n All topics All authors All years \n All topics All authors All years \nTanStack AI 1.0: Still Your AI, Still Your Way \nTanStack AI 1.0 is here, with stable core APIs, rewritten docs, and an experimental agent harness. Your AI, your way. \n AI · Alem Tuzlak, Jack Herrington, Tom Beckenham, and Tanner Linsley · Oct 23, 2026 \n2026 \nTanStack Start 1.0 is Stable \nTanStack Start 1.0 is stable and ready for production. \n Start · Tanner Linsley · Oct 13, 2026 \nTanStack Charts 1.0 \nCharts you don’t have to outgrow. \n Charts · Tanner Linsley · Oct 5, 2026 \nIntent 0.5: Skills You Can Maintain \nThe maintainer release: check your examples, review source changes, and ship guidance with your library. \n Intent · Sarah Gerrard · Sep 30, 2026 \nTanStack + Scarf Partnership \nScarf joins TanStack as a Bronze partner, supporting the people and work behind our open-source tools. \nTanner Linsley · Sep 30, 2026 \nTanStack Start security update: CVE-2026-102989 \nA fix for a reflected XSS vulnerability in TanStack Start is available on npm. Upgrade and redeploy affected applications. \n Start · Tanner Linsley · Sep 30, 2026 \nTanStack + Vercel Partnership \nVercel is a Gold TanStack partner, supporting our open-source work with integrations for TanStack Start, AI Gateway, and Sandbox. \n Start · Tanner Linsley · Sep 8, 2026 \nTanStack + Render Partnership \nRender joins TanStack to make shipping full-stack apps easier, with managed services and versioned infrastructure. \n Start · Tanner Linsley · Sep 1, 2026 \nTanStack AI Enters the RC Phase \nTanStack AI enters the release candidate phase. The architecture is locked in, with 24 providers, AG-UI, media generation, MCP, sandboxes, and persistence. \n AI · Alem Tuzlak, Jack Herrington, and Tom Beckenham · Aug 21, 2026 \nReliable Query Prefetching with TanStack Router \nPrefetching in route loaders is great, but comes at a cost. We have to keep loaders in-sync with components... \n Query · Dominik Dorfmeister · Aug 18, 2026 \nInside a TanStack Router Navigation \nA navigation looks like one asynchronous operation. Inside TanStack Router, separate owners coordinate matching, loaders, pending UI, redirects, caching, and rendering. \n Router · Florian Pellet · Aug 14, 2026 \nForm v2 is here: All you need to know about the alpha \nThe TanStack Form v2 alpha is here with more flexible validators, schema-oriented forms, safer form composition, and simpler SSR. \n Form · Luca Jakob · Aug 6, 2026 \nAnnouncing TanStack Table V9 \nTanStack Table V9 is here with a tree-shakable feature architecture, fine-grained reactivity, improved performance, and first-class support for more frameworks. \n Table · Kevin Van Cott · Aug 4, 2026 \n Load more posts 106 more \n Partners Become a Partner \n Gold \n Silver \n Bronze"
+   },
+   "feed": {
+    "url": "https://tanstack.com/rss.xml",
+    "count_seen": 50,
+    "items": [
+     {
+      "title": "TanStack AI 1.0: Still Your AI, Still Your Way",
+      "date": "Fri, 23 Oct 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-ai-1-0"
+     },
+     {
+      "title": "TanStack Start 1.0 is Stable",
+      "date": "Tue, 13 Oct 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-start-1-0"
+     },
+     {
+      "title": "TanStack Charts 1.0",
+      "date": "Mon, 05 Oct 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-charts-1-0"
+     },
+     {
+      "title": "Intent 0.5: Skills You Can Maintain",
+      "date": "Wed, 30 Sep 2026 12:00:00",
+      "url": "https://tanstack.com/blog/intent-0.5-skills-you-can-maintain"
+     },
+     {
+      "title": "TanStack + Scarf Partnership",
+      "date": "Wed, 30 Sep 2026 12:00:00",
+      "url": "https://tanstack.com/blog/scarf-partnership"
+     },
+     {
+      "title": "TanStack Start security update: CVE-2026-102989",
+      "date": "Wed, 30 Sep 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-start-security-update-cve-2026-102989"
+     },
+     {
+      "title": "TanStack + Vercel Partnership",
+      "date": "Tue, 08 Sep 2026 12:00:00",
+      "url": "https://tanstack.com/blog/vercel-partnership"
+     },
+     {
+      "title": "TanStack AI Enters the RC Phase",
+      "date": "Fri, 21 Aug 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-ai-rc"
+     },
+     {
+      "title": "Inside a TanStack Router Navigation",
+      "date": "Fri, 14 Aug 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-router-navigation-lanes"
+     },
+     {
+      "title": "Form v2 is here: All you need to know about the alpha",
+      "date": "Thu, 06 Aug 2026 12:00:00",
+      "url": "https://tanstack.com/blog/announcing-tanstack-form-v2-alpha"
+     },
+     {
+      "title": "Announcing TanStack Table V9",
+      "date": "Tue, 04 Aug 2026 12:00:00",
+      "url": "https://tanstack.com/blog/announcing-tanstack-table-v9"
+     },
+     {
+      "title": "TanStack Has a New Look",
+      "date": "Wed, 29 Jul 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-has-a-new-look"
+     },
+     {
+      "title": "Introducing TanStack Markdown and TanStack Highlight",
+      "date": "Fri, 24 Jul 2026 12:00:00",
+      "url": "https://tanstack.com/blog/introducing-tanstack-markdown-and-highlight"
+     },
+     {
+      "title": "We Stopped Using RSC on TanStack.com",
+      "date": "Fri, 24 Jul 2026 12:00:00",
+      "url": "https://tanstack.com/blog/we-stopped-using-rsc-on-tanstack-com"
+     },
+     {
+      "title": "Inside TanStack Table V9 Reactivity",
+      "date": "Sun, 19 Jul 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-table-v9-reactivity"
+     },
+     {
+      "title": "Run Any Coding Agent in a Sandbox, With One chat() Call",
+      "date": "Tue, 30 Jun 2026 12:00:00",
+      "url": "https://tanstack.com/blog/run-coding-agents-in-a-sandbox"
+     },
+     {
+      "title": "TanStack Start and TanStack AI Win 2026 Open Source Awards",
+      "date": "Mon, 22 Jun 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-open-source-awards-2026"
+     },
+     {
+      "title": "How an Underrated Refactor Saved 90% Memory Usage",
+      "date": "Mon, 22 Jun 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-table-v9-memory-performance"
+     },
+     {
+      "title": "TypeScript Performance in TanStack Table V9",
+      "date": "Sun, 14 Jun 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-table-v9-typescript-performance"
+     },
+     {
+      "title": "TanStack AI Beta: The Switzerland of AI Tooling Grows Up",
+      "date": "Tue, 09 Jun 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-ai-beta"
+     },
+     {
+      "title": "TanStack Table V9: Taking Form",
+      "date": "Sun, 07 Jun 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-table-v9-taking-form"
+     },
+     {
+      "title": "TanStack AI: Your MCP, your way",
+      "date": "Fri, 05 Jun 2026 12:00:00",
+      "url": "https://tanstack.com/blog/your-mcp-your-way"
+     },
+     {
+      "title": "TanStack Start Adds First-Class Rsbuild Support",
+      "date": "Tue, 02 Jun 2026 12:00:00",
+      "url": "https://tanstack.com/blog/start-adds-rsbuild-support"
+     },
+     {
+      "title": "Introducing Experimental Workflows and Orchestrators in TanStack AI",
+      "date": "Thu, 28 May 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-ai-orchestration"
+     },
+     {
+      "title": "Chat UIs Are Lists Until They Aren't",
+      "date": "Mon, 25 May 2026 12:00:00",
+      "url": "https://tanstack.com/blog/tanstack-virtual-chat"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "tannerlinsley",
+  "user": {
+   "name": "Tanner Linsley",
+   "company": "@tanstack & @nozzle",
+   "blog": "https://tanstack.com",
+   "location": "Utah",
+   "bio": "🎉TypeScript + React ⚛️Open Source💡UI/UX 💼Co-Founder \r\n@NozzleIO\r\n 🛠Owner @TanStack - #ReactQuery #ReactTable #ReactLocation #ReactCharts",
+   "public_repos": 171,
+   "followers": 15079,
+   "created_at": "2013-09-30T21:34:41Z",
+   "twitter_username": "tannerlinsley",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "tannerlinsley/react-query-devtools",
+    "description": "⚛️ Devtools for React Query",
+    "stargazers_count": 984,
+    "forks_count": 45,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2020-03-04T15:36:21Z",
+    "pushed_at": "2021-01-01T20:46:40Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "tannerlinsley/react-query-essentials",
+    "description": "Module source code for the React Query Essentials course",
+    "stargazers_count": 444,
+    "forks_count": 82,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-07-29T14:49:01Z",
+    "pushed_at": "2023-01-06T00:44:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/react-show",
+    "description": "⚛️ A 3kb css animation component for React.",
+    "stargazers_count": 399,
+    "forks_count": 30,
+    "language": "JavaScript",
+    "homepage": "https://codesandbox.io/s/2v66j7pm8y",
+    "created_at": "2017-08-05T22:52:03Z",
+    "pushed_at": "2022-12-07T01:01:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/swimmer",
+    "description": "🏊 Swimmer - An async task pooling and throttling utility for JS",
+    "stargazers_count": 231,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": "https://codesandbox.io/s/mq2j7jq39x?expanddevtools=1&hidenavigation=1",
+    "created_at": "2018-01-25T18:40:12Z",
+    "pushed_at": "2020-08-29T03:14:09Z",
+    "topics": [
+     "async",
+     "await",
+     "concurrency",
+     "javascript",
+     "pooling",
+     "promises",
+     "task",
+     "throttling"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/react-query-blog-refactor-example",
+    "description": "A commit-by-commit story of building your own global async server-state management, then migrating it to React Query",
+    "stargazers_count": 225,
+    "forks_count": 58,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-04-08T21:00:14Z",
+    "pushed_at": "2023-01-06T02:59:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/react-query-blog-demo",
+    "description": "An example repo I used to teach a React Query workshop",
+    "stargazers_count": 98,
+    "forks_count": 56,
+    "language": "JavaScript",
+    "homepage": "react-summit-2020-react-query.vercel.app",
+    "created_at": "2020-10-11T05:25:41Z",
+    "pushed_at": "2021-07-20T10:18:08Z",
+    "topics": [
+     "react-query",
+     "workshop"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/astro-tanstack-start",
+    "description": null,
+    "stargazers_count": 95,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-10-10T23:12:49Z",
+    "pushed_at": "2026-10-01T15:59:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/tour",
+    "description": "Touring and on-boarding for javascript applications",
+    "stargazers_count": 95,
+    "forks_count": 19,
+    "language": "JavaScript",
+    "homepage": "http://tourjs.github.io/tour",
+    "created_at": "2016-06-28T18:17:49Z",
+    "pushed_at": "2024-07-20T08:14:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/use-react-hooks",
+    "description": "Use hooks in classes in React 16.5+",
+    "stargazers_count": 82,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "https://codesandbox.io/s/wor3rxopv8",
+    "created_at": "2018-11-06T19:00:52Z",
+    "pushed_at": "2018-11-23T19:56:04Z",
+    "topics": [
+     "hooks",
+     "javascript",
+     "react",
+     "react-hooks"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/springer",
+    "description": "A spring that generates realistic easing functions",
+    "stargazers_count": 66,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "http://codepen.io/tannerlinsley/pen/MmyMEK",
+    "created_at": "2017-04-21T14:12:28Z",
+    "pushed_at": "2017-04-21T16:04:57Z",
+    "topics": [
+     "animation",
+     "easing",
+     "function",
+     "motion",
+     "physics",
+     "spring",
+     "tension",
+     "wobble"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/nz-toggle",
+    "description": "Dual and triple-state toggles for AngularJS",
+    "stargazers_count": 41,
+    "forks_count": 28,
+    "language": "JavaScript",
+    "homepage": "http://codepen.io/anon/pen/yNjyME",
+    "created_at": "2014-07-03T20:57:37Z",
+    "pushed_at": "2020-01-17T15:55:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/reprism",
+    "description": "🖍Modular Syntax highlighting for the web",
+    "stargazers_count": 41,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-05-04T16:27:12Z",
+    "pushed_at": "2018-05-04T17:52:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/react-query-cached-in-60-minutes",
+    "description": null,
+    "stargazers_count": 39,
+    "forks_count": 8,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-06-24T23:49:42Z",
+    "pushed_at": "2022-12-06T10:24:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/react-smackdown",
+    "description": "⚛️ Drop in markdown rendering and syntax highlighting for React.",
+    "stargazers_count": 30,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-08-07T01:08:57Z",
+    "pushed_at": "2018-05-23T04:01:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/babel-plugin-source",
+    "description": "Extract source code to strings at build-time",
+    "stargazers_count": 14,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-04-29T03:09:38Z",
+    "pushed_at": "2019-07-10T14:26:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/react-state",
+    "description": "React-State - Superpowers for managing local and reusable state in React",
+    "stargazers_count": 14,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "https://react-state.js.org",
+    "created_at": "2017-04-05T14:36:55Z",
+    "pushed_at": "2018-05-09T16:34:58Z",
+    "topics": [
+     "component",
+     "local",
+     "react",
+     "redux",
+     "reusable",
+     "state",
+     "state-management"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/react-img",
+    "description": "<Img src={url}> - Image processing/resizing, CDNs, blur-in, progressive/lazy-loading superpowers.",
+    "stargazers_count": 13,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-01-26T21:44:25Z",
+    "pushed_at": "2018-01-31T20:05:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "tannerlinsley/tannerlinsley",
+    "description": null,
+    "stargazers_count": 9,
+    "forks_count": 5,
+    "language": null,
+    "homepage": null,
+    "created_at": "2020-07-08T23:59:39Z",
+    "pushed_at": "2023-04-19T14:28:23Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 96,
+  "languages": [
+   [
+    "JavaScript",
+    34
+   ],
+   [
+    "TypeScript",
+    34
+   ],
+   [
+    "PHP",
+    2
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "CSS",
+    1
+   ],
+   [
+    "Alloy",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "TanStack/query",
+    "stargazerCount": 50467,
+    "description": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://tanstack.com/query"
+   },
+   {
+    "nameWithOwner": "TanStack/table",
+    "stargazerCount": 28514,
+    "description": "🤖 Headless UI for building powerful tables & datagrids for TS/JS -  React-Table, Vue-Table, Solid-Table, Svelte-Table",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://tanstack.com/table"
+   },
+   {
+    "nameWithOwner": "TanStack/react-charts",
+    "stargazerCount": 3135,
+    "description": "⚛️ Simple, immersive & interactive charts for React",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "https://react-charts.tanstack.com"
+   },
+   {
+    "nameWithOwner": "TanStack/virtual",
+    "stargazerCount": 7158,
+    "description": "🤖 Headless UI for Virtualizing Large Element Lists in JS/TS, React, Solid, Vue and Svelte",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://tanstack.com/virtual"
+   },
+   {
+    "nameWithOwner": "TanStack/ranger",
+    "stargazerCount": 841,
+    "description": "🤖 Headless utilities for building range and multi-range sliders in React, Preact, Solid, Vue, Svelte and Angular",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://tanstack.com/ranger"
+   },
+   {
+    "nameWithOwner": "TanStack/form",
+    "stargazerCount": 6743,
+    "description": "🤖 Headless, performant, and type-safe form state management for TS/JS, React, Vue, Angular, Solid, and Lit.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://tanstack.com/form"
+   }
+  ],
+  "contrib_last_year": 5934,
+  "orgs": [
+   "TanStack"
+  ],
+  "profile_readme": "### Supercharging the React ecosystem via [TanStack](https://tanstack.com) with projects and products like:\n- 🤖 TanStack Query\n- 🤖 TanStack Table\n- 🤖 TanStack Router\n- 🤖 TanStack Start\n- 🤖 TanStack Virtual\n- 🤖 TanStack Form\n- ⚛️ React Charts\n- 🏊‍♂️ Swimmer JS\n\n> Previously 📊 Chart.js, ⚛️ React Static and 🔀 Crossfilter\n\n---\n\nHello! I build open source software that is currently used by hundreds of thousands of developers at companies ranging from fortune 500 companies like Apple, Google, Facebook, Amazon, Netflix, Walmart, and Target all the way down to startups and indie developers.\n\nMost of my open source software is written in Javascript and focused on Headless UI, State Management, Data Viz, and Enterprise Application Architecture.\n\n### For Developers\n\nBy helping your company become a Github Sponsor, you will not only feel great about giving back to the open source tools that run your business, but also get some awesome perks! Each of the sponsorship tiers on this page have their perks listed on them. If you believe your company could become a sponsor, then please reach out!\n\n### For Companies and Businesses\n\nBy becoming a Github Sponsor, your company and brand will be recognized as a one that gives back to the open source tools that run your business and one that respects your developers time and your customers' experience. You also receive premium perks based on your sponsorship tier for things like free advertising on my web properties, free course vouchers, exclusive access to private repos and tools, free consultation hours with yours truly, and even on-demand support!\n\n### Perks\n\nTo see all available perks, refer to the sponsorship tiers on this page :)\n\nThe latest recorded stats for all TanStack properties:\n\n- 90,000+ Unique Monthly Visitors\n- Over 2 million monthly downloads on NPM\n- Over 18k personal stars on Github (50k+ external star contributions)\n\nIf you have any further questions, feel free to send me a tweet or DM [@tannerlinsley](https://twitter.com/tannerlinsley) on Twitter. Thanks!\n",
+  "readmes": {
+   "TanStack/query": "\n<div align=\"center\">\n  <picture>\n    <source\n      media=\"(prefers-color-scheme: dark)\"\n      srcset=\"https://tanstack.com/api/readme/query.png?theme=dark\"\n    />\n    <source\n      media=\"(prefers-color-scheme: light)\"\n      srcset=\"https://tanstack.com/api/readme/query.png\"\n    />\n  </picture>\n</div>\n<br />\n<div align=\"center\">\n<a href=\"https://www.npmjs.com/package/@tanstack/query-core\" target=\"_parent\">\n</a>\n <a href=\"https://github.com/TanStack/query/stargazers\" target=\"_parent\">\n</a>\n<a href=\"https://bundlejs.com/?q=%40tanstack%2Freact-query&config=%7B%22esbuild%22%3A%7B%22external%22%3A%5B%22react%22%2C%22react-dom%22%5D%7D%7D&badge=\" target=\"_parent\">\n</a>\n</div>\n<div align=\"center\">\n<a href=\"#badge\">\n  </a>\n<a href=\"https://bestofjs.org/projects/tanstack-query\"></a>\n  <a href=\"https://twitter.com/tan_stack\"></a>\n</div>\n<div align=\"center\">\n### [Become a Sponsor!](https://github.com/sponsors/tannerlinsley/)\n</div>\n# TanStack Query\nAn async state management library built to simplify fetching, caching, synchronizing, and updating server state.\n- Protocol‑agnostic fetching (REST, GraphQL, promises, etc.)\n- Caching, refetching, pagination & infinite scroll\n- Mutations, dependent queries & background updates\n- Prefetching, cancellation & React Suspense support\n### <a href=\"https://tanstack.com/query\">Read the docs →</b></a>\n## Get Involved\n- We welcome issues and pull requests!\n- Participate in [GitHub discussions](https://github.com/TanStack/query/discussions)\n- Chat with the community on [Discord](https://discord.com/invite/WrRKjPJ)\n- See [CONTRIBUTING.md](./CONTRIBUTING.md) for setup instructions\n## Partners\n<table align=\"center\">\n  <tr>\n    <td>\n      <a href=\"https://www.coderabbit.ai/?via=tanstack&dub_id=aCcEEdAOqqutX6OS\" >\n        <picture>\n          <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://tanstack.com/assets/coderabbit-dark-D643Zkrv.svg\" />\n          <source media=\"(prefers-color-scheme: light)\" srcset=\"https://tanstack.com/assets/coderabbit-light-CIzGLYU_.svg\" />\n        </picture>\n      </a>\n    </td>\n    <td>\n      <a href=\"https://www.cloudflare.com?utm_source=tanstack\">\n        <picture>\n          <source media=\"(prefers-colo",
+   "TanStack/table": "<div align=\"center\">\n  <picture>\n    <source\n      media=\"(prefers-color-scheme: dark)\"\n      srcset=\"https://tanstack.com/api/readme/table.png?theme=dark\"\n    />\n    <source\n      media=\"(prefers-color-scheme: light)\"\n      srcset=\"https://tanstack.com/api/readme/table.png\"\n    />\n  </picture>\n</div>\n<br />\n<div align=\"center\">\n<a href=\"https://npmjs.com/package/@tanstack/react-table\" target=\"\\_parent\">\n</a>\n<a href=\"https://github.com/tanstack/table\" target=\"\\_parent\">\n</a>\n<a href=\"https://bundlephobia.com/result?p=@tanstack/react-table@latest\" target=\"\\_parent\">\n</a>\n</div>\n<div align=\"center\">\n<a href=\"#badge\">\n</a>\n<a href=\"https://bestofjs.org/projects/tanstack-table\"></a>\n  <a href=\"https://twitter.com/tan_stack\"></a>\n</div>\n### [Become a Sponsor!](https://github.com/sponsors/tannerlinsley/)\n</div>\n# TanStack Table\n> [!NOTE]\n> You may know TanStack Table by the adapter names:\n>\n> - [Angular Table](https://tanstack.com/table/latest/docs/framework/angular/angular-table)\n> - [Lit Table](https://tanstack.com/table/latest/docs/framework/lit/lit-table)\n> - [Octane Table](https://tanstack.com/table/latest/docs/framework/octane/quick-start)\n> - [Preact Table](https://tanstack.com/table/latest/docs/framework/preact/quick-start)\n> - [React Table](https://tanstack.com/table/latest/docs/framework/react/react-table)\n> - [Solid Table](https://tanstack.com/table/latest/docs/framework/solid/solid-table)\n> - [Svelte Table](https://tanstack.com/table/latest/docs/framework/svelte/svelte-table)\n> - [Vue Table](https://tanstack.com/table/latest/docs/framework/vue/vue-table)\n> - [Alpine Table](https://tanstack.com/table/latest/docs/framework/alpine/alpine-table)\n> - [Ember Table](https://tanstack.com/table/latest/docs/framework/ember/ember-table)\nA headless table library for building powerful datagrids with full control over markup, styles, and behavior.\n- Framework-agnostic core with bindings for React, Preact, Octane, Vue, Solid, Svelte, Angular, Ember, Lit, and Alpine\n- 100% customizable — bring your own UI, components, and styles\n- Sorting, filtering, grouping, aggregation & row selection\n- Lightweight, virtualizable & server‑side friendly\n### <a href=\"https://tanstack.co",
+   "TanStack/react-charts": "\n# ⚠️ No Longer Maintained ⚠️\nThis project is no longer actively maintained. No further updates, bug fixes, or support will be provided.\n----\nSimple, immersive and interactive charts for React\n<a href=\"https://twitter.com/intent/tweet?button_hashtag=TanStack\" target=\"\\_parent\">\n</a>\n<a href=\"https://npmjs.com/package/react-charts\" target=\"\\_parent\">\n</a>\n<a href=\"https://bundlephobia.com/result?p=react-charts\" target=\"\\_parent\">\n</a>\n<a href=\"https://discord.com/invite/WrRKjPJ\" target=\"\\_parent\">\n</a>\n<a href=\"https://github.com/react-charts/react-charts\" target=\"\\_parent\">\n</a>\n<a href=\"https://twitter.com/tannerlinsley\" target=\"\\_parent\">\n</a>\n<br />\n<br />\nEnjoy this library? Try the entire [TanStack](https://tanstack.com)! [React Table](https://github.com/tannerlinsley/react-table), [React Query](https://github.com/tannerlinsley/react-query), [React Form](https://github.com/tannerlinsley/react-form)\n## Visit [react-charts.tanstack.com](https://react-charts.tanstack.com) for docs, guides, API and more!\n## Quick Features\n- Line Charts\n- Bar Charts\n- Column Charts\n- Bubble Charts\n- Area Charts\n- Axis Stacking\n- Inverted Axes\n- Hyper Responsive\n- Invisibly Powered by D3\n- Declarative\n- Mutliple Axes\n### [Become a Sponsor!](https://github.com/sponsors/tannerlinsley/)\n# Contributors ✨\nThanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):\n<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n<table>\n  <tr>\n    <td align=\"center\"><a href=\"https://tannerlinsley.com\"><br /><sub><b>Tanner Linsley</b></sub></a><br /><a href=\"https://github.com/tannerlinsley/react-charts/commits?author=tannerlinsley\" title=\"Code\">💻</a> <a href=\"#ideas-tannerlinsley\" title=\"Ideas, Planning, & Feedback\">🤔</a> <a href=\"#example-tannerlinsley\" title=\"Examples\">💡</a> <a href=\"#maintenance-tannerlinsley\" title=\"Maintenance\">🚧</a> <a href=\"https://github.com/tannerlinsley/react-charts/pulls?q=is%3Apr+reviewed-by%3Atannerlinsley\" title=\"Reviewed Pull Requests\">👀</a></td>\n  </tr>\n</table>\n<!-- markdownlint-enable -->\n<!-- prettier-ignore-end -->\n<!-- ALL-CONTRIBUTORS-LI",
+   "TanStack/virtual": "<div align=\"center\">\n  <picture>\n    <source\n      media=\"(prefers-color-scheme: dark)\"\n      srcset=\"https://tanstack.com/api/readme/virtual.png?theme=dark\"\n    />\n    <source\n      media=\"(prefers-color-scheme: light)\"\n      srcset=\"https://tanstack.com/api/readme/virtual.png\"\n    />\n  </picture>\n</div>\n<br />\n<div align=\"center\">\n\t<a href=\"https://npmjs.com/package/@tanstack/virtual-core\" target=\"\\_parent\">\n</a>\n\t<a href=\"https://github.com/tanstack/virtual\" target=\"\\_parent\">\n</a>\n<a href=\"https://bundlephobia.com/result?p=@tanstack/virtual-core@latest\" target=\"\\_parent\">\n</a>\n</div>\n<div align=\"center\">\n\t<a href=\"#badge\">\n  </a>\n\t<a href=\"https://bestofjs.org/projects/tanstack-virtual\">\n\t</a>\n\t<a href=\"https://twitter.com/tan_stack\">\n\t</a>\n</div>\n<div align=\"center\">\n### [Become a Sponsor!](https://github.com/sponsors/tannerlinsley/)\n</div>\n# TanStack Virtual\nA headless, framework‑agnostic virtualization library for rendering massive lists, grids, and tables at 60FPS while giving you full control over markup and styles.\n- Framework‑agnostic & headless\n- Virtualizes vertical, horizontal & grid layouts with a single hook/function\n- Lightweight (10–15kb) yet powerful, with dynamic & measured sizing support\n- Smooth 60FPS scrolling with sticky items and window‑scrolling utilities\n### <a href=\"https://tanstack.com/virtual\" >Read the docs →</a>\n## Get Involved\n- We welcome issues and pull requests!\n- Participate in [GitHub discussions](https://github.com/TanStack/virtual/discussions)\n- Chat with the community on [Discord](https://discord.com/invite/WrRKjPJ)\n- See [CONTRIBUTING.md](./CONTRIBUTING.md) for setup instructions\n## Partners\n<table align=\"center\">\n  <tr>\n    <td>\n      <a href=\"https://www.coderabbit.ai/?via=tanstack&dub_id=aCcEEdAOqqutX6OS\" >\n        <picture>\n          <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://tanstack.com/assets/coderabbit-dark-D643Zkrv.svg\" />\n          <source media=\"(prefers-color-scheme: light)\" srcset=\"https://tanstack.com/assets/coderabbit-light-CIzGLYU_.svg\" />\n        </picture>\n      </a>\n    </td>\n    <td>\n      <a href=\"https://www.cloudflare.com?utm_source=tanstack\">\n        <picture>\n          <source m",
+   "TanStack/ranger": "\nHeadless UI for building ranger component in TS/JS and React\n<a href=\"https://twitter.com/intent/tweet?button_hashtag=TanStack\" target=\"\\_parent\">\n</a><a href=\"https://github.com/TanStack/ranger/actions/workflows/ci.yml\">\n</a><a href=\"https://npmjs.com/package/@tanstack/ranger\" target=\"\\_parent\">\n</a><a href=\"https://bundlephobia.com/result?p=@tanstack/ranger@latest\" target=\"\\_parent\">\n</a><a href=\"#badge\">\n  </a><a href=\"https://github.com/tanstack/ranger/discussions\">\n</a><a href=\"https://github.com/tanstack/ranger\" target=\"\\_parent\">\n</a><a href=\"https://twitter.com/tannerlinsley\" target=\"\\_parent\">\n</a>\n<br />\n<br />\nEnjoy this library? Try the entire [TanStack](https://tanstack.com)! [React Query](https://github.com/TanStack/react-query), [TanStack Table](https://github.com/TanStack/table), [React Charts](https://github.com/TanStack/react-charts)\n## Visit [tanstack.com/ranger](https://tanstack.com/ranger) for docs, guides, API and more!\n## Quick Features\n- Headless!\n- Single or Multiple Handles\n- Handle Divider Items\n- Custom Steps or Step-Size\n- Custom Ticks\n<!-- Force  -->\n"
+  }
+ },
+ "apps": []
+}

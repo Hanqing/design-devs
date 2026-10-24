@@ -1,0 +1,225 @@
+{
+ "handle": "thdxr",
+ "sites": [
+  {
+   "url": "https://thdxr.com",
+   "ok": true,
+   "title": "Dax Raad",
+   "description": "I build things then try to remember to write about them",
+   "stack": [
+    "Plausible",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "AWS"
+   ],
+   "lang": "en",
+   "home_text": "Dax Raad \nI build things then try to remember to write about them. Currently building Serverless Stack and Bumi \n @thdxr GitHub \nServerless Relational Showdown \nPerformance benchmarks of the various ways to use a relational database with AWS Lambda \nOct 20, 2021 \n4 min read \nHow AWS Lambda Runs Your Code \nA breakdown of the surprisingly simple Lambda Runtime API \nOct 06, 2021 \n3 min read \nIntel RAID and Arch Linux \nGetting FakeRaid working in an Arch Linux installation \nSep 17, 2017 \n2 min read \nReading Named Pipes with Elixir \nHow to go about reading data from special files like named pipes \nAug 14, 2017 \n4 min read \nThe Blockchain Problem Space \nAn engineering breakdown on when to choose blockchain \nAug 13, 2017 \n5 min read",
+   "github_links": [
+    "thdxr"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "thdxr",
+  "user": {
+   "name": "Dax",
+   "company": null,
+   "blog": "https://thdxr.com/",
+   "location": "NYC",
+   "bio": "building opencode",
+   "public_repos": 47,
+   "followers": 5397,
+   "created_at": "2011-06-03T02:56:47Z",
+   "twitter_username": "thdxr",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "thdxr/environment",
+    "description": null,
+    "stargazers_count": 154,
+    "forks_count": 12,
+    "language": "Lua",
+    "homepage": null,
+    "created_at": "2015-05-04T09:12:32Z",
+    "pushed_at": "2026-07-02T03:53:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thdxr/blog",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2021-10-06T02:48:07Z",
+    "pushed_at": "2021-10-11T00:46:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thdxr/docs",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "MDX",
+    "homepage": null,
+    "created_at": "2025-12-05T20:38:49Z",
+    "pushed_at": "2025-12-05T20:38:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thdxr/twitch",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-12-10T23:49:50Z",
+    "pushed_at": "2023-07-27T15:19:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thdxr/battle",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Elixir",
+    "homepage": null,
+    "created_at": "2018-01-06T20:01:19Z",
+    "pushed_at": "2018-01-06T20:21:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thdxr/all-my-stuff",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2015-09-08T07:31:23Z",
+    "pushed_at": "2015-09-08T07:36:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thdxr/ampt-api",
+    "description": "Ampt app for ampt-api",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2023-09-22T20:42:15Z",
+    "pushed_at": "2023-09-22T20:42:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thdxr/my-sst-app",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-05-20T19:49:28Z",
+    "pushed_at": "2022-05-20T20:05:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thdxr/overlay",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2022-08-14T03:03:09Z",
+    "pushed_at": "2022-08-14T03:03:09Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 9,
+  "languages": [
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "Lua",
+    1
+   ],
+   [
+    "MDX",
+    1
+   ],
+   [
+    "Elixir",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "anomalyco/sst",
+    "stargazerCount": 26372,
+    "description": "Build full-stack apps on your own infrastructure.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://sst.dev"
+   },
+   {
+    "nameWithOwner": "anomalyco/opencode",
+    "stargazerCount": 220617,
+    "description": "The open source coding agent.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://opencode.ai"
+   },
+   {
+    "nameWithOwner": "anomalyco/openauth",
+    "stargazerCount": 7416,
+    "description": "▦ Universal, standards-based auth provider.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://openauth.js.org"
+   },
+   {
+    "nameWithOwner": "opennextjs/opennextjs-aws",
+    "stargazerCount": 5042,
+    "description": "Open-source Next.js adapter for AWS",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://opennext.js.org"
+   }
+  ],
+  "contrib_last_year": 18491,
+  "orgs": [
+   "ironbay",
+   "anomalyco"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "anomalyco/sst": "<p align=\"center\">\n  <a href=\"https://sst.dev/\">\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://sst.dev/discord\"></a>\n  <a href=\"https://www.npmjs.com/package/sst\"></a>\n  <a href=\"https://github.com/anomalyco/sst/actions/workflows/build.yml\"></a>\n</p>\n---\nBuild full-stack apps on your own infrastructure.\n## Installation\nFor JavaScript projects, install SST locally so the CLI version is tracked with your app. You can then run the CLI with the same package manager.\n```bash\nnpm install sst\n# pnpm add sst\n# bun add sst\n# yarn add sst\n```\nIf you are not using JavaScript, you can install the CLI globally.\n```bash\ncurl -fsSL https://sst.dev/install | bash\n```\nTo install a specific version.\n```bash\ncurl -fsSL https://sst.dev/install | VERSION=0.0.403 bash\n```\nTo use a package manager, [check out our docs](https://sst.dev/docs/reference/cli/).\n#### Manually\nDownload the pre-compiled binaries from the [releases](https://github.com/sst/sst/releases/latest) page and copy to the desired location.\n## Get Started\nGet started with your favorite framework:\n- [Next.js](https://sst.dev/docs/start/aws/nextjs)\n- [Remix](https://sst.dev/docs/start/aws/remix)\n- [Astro](https://sst.dev/docs/start/aws/astro)\n- [API](https://sst.dev/docs/start/aws/api)\n## Learn More\nLearn more about some of the key concepts:\n- [Live](https://sst.dev/docs/live)\n- [Linking](https://sst.dev/docs/linking)\n- [Console](https://sst.dev/docs/console)\n- [Components](https://sst.dev/docs/components)\n## Contributing\nHere's how you can contribute:\n- Help us improve our docs\n- Find a bug? Open an issue\n- Feature request? Submit a PR \n## Running Locally\nRun `bun run setup`. You need [Go](https://go.dev/) and [Bun](https://bun.sh/) installed.\nNow you can run the CLI locally on any of the `examples/` apps.\n```bash\ncd examples/aws-api\ngo run ../../cmd/sst <command>\n```\nIf you want to build the CLI binary, run `bun run build:cli`. This will create a `sst` binary that you can use.\nFor building the docs, run `bun run docs:generate` and `bun run docs:dev`.\n---\n**Join our community** [Discord](https://sst.dev/discord) | [YouTube](https://www.youtube.com/c/sst-dev) | [X.com](https://x.com/SST_dev)\n",
+   "anomalyco/opencode": "<p align=\"center\">\n  <a href=\"https://opencode.ai\">\n    <picture>\n      <source srcset=\"packages/console/app/src/asset/logo-ornate-dark.svg\" media=\"(prefers-color-scheme: dark)\">\n      <source srcset=\"packages/console/app/src/asset/logo-ornate-light.svg\" media=\"(prefers-color-scheme: light)\">\n    </picture>\n  </a>\n</p>\n<p align=\"center\">The open source AI coding agent.</p>\n<p align=\"center\">\n  <a href=\"https://opencode.ai/discord\"></a>\n  <a href=\"https://www.npmjs.com/package/@opencode/cli\"></a>\n  <a href=\"https://github.com/anomalyco/opencode/actions/workflows/publish.yml\"></a>\n</p>\n<p align=\"center\">\n  <a href=\"README.md\">English</a> |\n  <a href=\"README.zh.md\">简体中文</a> |\n  <a href=\"README.zht.md\">繁體中文</a> |\n  <a href=\"README.ko.md\">한국어</a> |\n  <a href=\"README.de.md\">Deutsch</a> |\n  <a href=\"README.es.md\">Español</a> |\n  <a href=\"README.fr.md\">Français</a> |\n  <a href=\"README.it.md\">Italiano</a> |\n  <a href=\"README.da.md\">Dansk</a> |\n  <a href=\"README.ja.md\">日本語</a> |\n  <a href=\"README.pl.md\">Polski</a> |\n  <a href=\"README.ru.md\">Русский</a> |\n  <a href=\"README.bs.md\">Bosanski</a> |\n  <a href=\"README.ar.md\">العربية</a> |\n  <a href=\"README.no.md\">Norsk</a> |\n  <a href=\"README.br.md\">Português (Brasil)</a> |\n  <a href=\"README.th.md\">ไทย</a> |\n  <a href=\"README.tr.md\">Türkçe</a> |\n  <a href=\"README.uk.md\">Українська</a> |\n  <a href=\"README.bn.md\">বাংলা</a> |\n  <a href=\"README.gr.md\">Ελληνικά</a> |\n  <a href=\"README.vi.md\">Tiếng Việt</a>\n</p>\n[](https://opencode.ai)\n---\n### Installation\n```bash\n# YOLO\ncurl -fsSL https://opencode.ai/v2/install | bash\n# Package managers\nnpm i -g @opencode/cli@latest      # or bun/pnpm/yarn\nbrew install anomalyco/tap/opencode-v2 # macOS and Linux (recommended, always up to date)\nbrew install opencode              # macOS and Linux (official brew formula, updated less)\nsudo pacman -S opencode            # Arch Linux (Stable)\nparu -S opencode-beta              # Arch Linux (Latest from AUR)\nmise use -g opencode               # Any OS\nnix run github:anomalyco/opencode  # Nix\n```\n> [!TIP]\n> Remove versions older than 0.1.x before installing.\n### Desktop App (BETA)\nOpenCode is also available as a desktop application. Download it from [open",
+   "anomalyco/openauth": "<p align=\"center\">\n  <a href=\"https://openauth.js.org\">\n    <picture>\n      <source srcset=\"https://raw.githubusercontent.com/toolbeam/identity/main/openauth/logo-dark.svg\" media=\"(prefers-color-scheme: dark)\">\n      <source srcset=\"https://raw.githubusercontent.com/toolbeam/identity/main/openauth/logo-light.svg\" media=\"(prefers-color-scheme: light)\">\n    </picture>\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://sst.dev/discord\"></a>\n  <a href=\"https://www.npmjs.com/package/@openauthjs/openauth\"></a>\n  <a href=\"https://github.com/toolbeam/openauth/actions/workflows/release.yml\"></a>\n</p>\n---\n[OpenAuth](https://openauth.js.org) is a standards-based auth provider for web apps, mobile apps, single pages apps, APIs, or 3rd party clients. It is currently in beta.\n- **Universal**: You can deploy it as a standalone service or embed it into an existing application. It works with any framework or platform.\n- **Self-hosted**: It runs entirely on your infrastructure and can be deployed on Node.js, Bun, AWS Lambda, or Cloudflare Workers.\n- **Standards-based**: It implements the OAuth 2.0 spec and is based on web standards. So any OAuth client can use it.\n- **Customizable**: It comes with prebuilt themeable UI that you can customize or opt out of.\n<picture>\n  <source srcset=\"https://raw.githubusercontent.com/toolbeam/identity/main/openauth/assets/themes-dark.png\" media=\"(prefers-color-scheme: dark)\">\n  <source srcset=\"https://raw.githubusercontent.com/toolbeam/identity/main/openauth/assets/themes-light.png\" media=\"(prefers-color-scheme: dark)\">\n</picture>\n## Quick Start\nIf you just want to get started as fast as possible you can jump straight into the [code examples](https://github.com/toolbeam/openauth/tree/master/examples) folder and copy paste away. There are also [SST components](https://sst.dev/docs/component/aws/auth) for deploying everything OpenAuth needs.\n## Approach\nWhile there are many open source solutions for auth, almost all of them are libraries that are meant to be embedded into a single application. Centralized auth servers typically are delivered as SaaS services - eg Auth0 or Clerk.\nOpenAuth instead is a centralized auth server that runs on your own inf",
+   "opennextjs/opennextjs-aws": "<p align=\"center\">\n  <a href=\"https://opennext.js.org\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/public/logo-dark.svg\">\n    </picture>\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://discord.gg/opennextjs\"></a>\n  <a href=\"https://www.npmjs.com/package/@opennextjs/aws\"></a>\n</p>\n---\n<h1 align=\"center\">\n  <a href=\"https://opennext.js.org/aws\">Docs</a>\n</h1>\n## Description\nOpenNext takes the Next.js build output and converts it into packages that can be deployed across a variety of environments. Natively OpenNext has support for AWS Lambda, and classic Node.js Server.\n## Features\nOpenNext aims to support all Next.js 15 features. Some features are work in progress. If you are running into any problems make sure to check the [docs](https://opennext.js.org/aws) first before you open a [new issue](/issues/new) or visit our [Discord](https://discord.gg/opennextjs) to let us know!\n- [x] App & Pages Router\n- [x] API routes\n- [x] Dynamic routes\n- [x] Static site generation (SSG)\n- [x] Server-side rendering (SSR)\n- [x] Incremental static regeneration (ISR)\n- [x] Middleware\n- [x] Server actions\n- [x] Image optimization\n- [x] [NextAuth.js](https://next-auth.js.org)\n- [x] Running at edge\n- [x] [Almost no coldstart (\\*)](#coldstart)\n## Who is using OpenNext?\n[Gymshark UK](https://uk.gymshark.com), [Udacity](https://engineering.udacity.com/deploying-next-js-on-the-edge-with-sst-is-sst-the-game-changer-its-claimed-to-be-1f05a0abc27c), [TUDN](https://www.tudn.com), [NHS England](https://github.com/nhs-england-tools/terraform-aws-opennext)\n## Configuration\n### Configuration file\nFor personalisation you need to create a file `open-next.config.ts` at the same place as your `next.config.js`, and export a default object that satisfies the `OpenNextConfig` interface. It is possible to not have an open-next.config.ts file, the default configuration will then be applied automatically.\n### Debug mode\nOpenNext can be executed in debug mode by setting the environment variable `OPEN_NEXT_DEBUG=true` before your build.\nThis will output A LOT of additional logs to the console. This also disable minifying in esbuild, and add source maps to the output. This ",
+   "thdxr/blog": "# SolidStart\nEverything you need to build a Solid project, powered by [`solid-start`](https://github.com/ryansolid/solid-start/tree/master/packages/solid-start);\n## Creating a project\n```bash\n# create a new project in the current directory\nnpm init solid@next\n# create a new project in my-app\nnpm init solid@next my-app\n```\n> Note: the `@next` is temporary\n## Developing\nOnce you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:\n```bash\nnpm run dev\n# or start the server and open the app in a new browser tab\nnpm run dev -- --open\n```\n## Building\nSolid apps are built with _adapters_, which optimise your project for deployment to different environments.\nBy default, `npm run build` will generate a Node app that you can run with `node build`. To use a different adapter, add it to the `devDependencies` in `package.json` and specify in your `vite.config.js`."
+  }
+ },
+ "apps": []
+}

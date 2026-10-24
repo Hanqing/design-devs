@@ -1,0 +1,162 @@
+{
+ "name": "Josh Hrach",
+ "role": "U-Haul 资深 iOS 开发者 · Random Projects 创始人（Countr、DoMarks）· 亚利桑那",
+ "title": "Josh Hrach：白天上班，晚上<em>做自己的应用</em>",
+ "dek": "他住在亚利桑那州，GitHub 简介写着：现在是 U-Haul 的资深 iOS 开发者，2002 年开始写程序，2013 年开始做 iOS 应用。「很多时候我都是一个人在做项目，所以我很清楚能及时得到解答和帮助有多重要。」在工作之外，他用自己的公司 Random Projects 做应用：计数器 Countr 2014 年上架，2026 年 8 月满 12 岁，他说「明年我的第一款应用就进入青春期了」；书签待办应用 DoMarks 2021 年上架，把「稍后再看」的链接变成可以勾掉的任务。他也是音乐人，给 Today’s iPhone、Noted Tech 写过稿，参与过播客 Apple Core。",
+ "card": "U-Haul 资深 iOS 开发者；Random Projects 创始人，Countr（2014–）、DoMarks（2021–）作者，亚利桑那。",
+ "location": "美国亚利桑那州（凤凰城地区）",
+ "updated": "2026-10-23",
+ "tags": ["独立开发", "iOS", "SwiftUI", "副业应用", "开发者社区"],
+ "links": [
+  {"label": "joshspadd.com", "url": "https://www.joshspadd.com"},
+  {"label": "DoMarks", "url": "https://apps.apple.com/us/app/domarks/id1518886084"},
+  {"label": "Countr", "url": "https://apps.apple.com/us/app/countr-quick-count/id911664683"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「iOS Developer. Creator of Countr, DoMarks, and other apps.」",
+  "<strong>代表作：</strong>Countr（2014–，v4.2）、DoMarks（2021–，★4.65）；开源 WWDC-Summaries（2014–2026 年 WWDC 会议摘要）、AutomatedScreenshots、CustomFontSystem、ActivityIndicatorView。",
+  "<strong>关键数字：</strong>X 帖子约 6.5 万条；Countr 在 App Store 上已 12 年。",
+  "<strong>写作与播客：</strong>Today’s iPhone、Noted Tech；Apple Core 播客；博客 joshspadd.com。"
+ ],
+ "lead": "2026 年，Josh 开源了一个仓库 WWDC-Summaries：把 2014 到 2026 年 Apple WWDC 的开发者会议整理成一份份以 API 为重点的 Markdown 摘要，每场一个文件，按主题分组，新增或变化的 API 标上 [NEW]，仅 2026 年就有 117 场。这是一个典型的「为自己、也为别人省时间」的项目，就像他一直强调的：一个人做项目时，最需要的就是及时找到答案。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 开发者、独立应用作者"],
+     ["所在地", "美国亚利桑那州"],
+     ["工作", "U-Haul 资深 iOS 开发者"],
+     ["公司", "Random Projects, LLC"],
+     ["经历", "2002 年开始编程，2013 年开始做 iOS"],
+     ["技术栈", "Swift、SwiftUI、UIKit、App Intents"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Josh 是<strong>上班之余坚持做产品的独立开发者</strong>。DoMarks 是「书签的待办应用」：保存链接，整理它们，看完就勾掉，文章、视频、播客都能变成一个专注的清单；2026 年 3 月，他在 DoMarks 五岁时发布了 3.0，夏天开始做支持 Liquid Glass 的下一版。Countr 是一个「快速计数任何东西」的小工具，比游戏计分、会议点人数、钩针织到第几行都行，4.1 版加入了 App Intents 和快捷指令。"},
+    {"p": "他也把工作经验做成工具：AutomatedScreenshots 不用 fastlane，只靠 Xcode、zsh 和 Python，就能为每种设备、语言和外观批量生成 App Store 截图；CustomFontSystem 让应用更容易定义和使用一套自定义字体。"},
+    {"note": "本页依据 joshspadd.com（博客与 About）、App Store、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。宗教信仰和家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2002", "title": "开始编程", "text": "自学写程序。"},
+     {"when": "2013–2014", "title": "iOS 与 Countr", "text": "开始做 iOS；2014 年 8 月发布 Countr。"},
+     {"when": "2017", "title": "开源小库", "text": "Provincial：快速获取各国州 / 省列表。"},
+     {"when": "2020–2021", "title": "SwiftUI 与 DoMarks", "text": "ActivityIndicatorView；2021 年 3 月发布 DoMarks。"},
+     {"when": "2023–2024", "title": "博客", "text": "UIViewRepresentable 系列、iOS 小组件与内存、带副标题的菜单按钮。"},
+     {"when": "2026", "title": "DoMarks 3.0 与开源工具", "text": "DoMarks 3.0、Countr 4.x；WWDC-Summaries、AutomatedScreenshots。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "DoMarks", "url": "https://apps.apple.com/us/app/domarks/id1518886084",
+     "meta": ["2021–", "效率", "v4.1"],
+     "paras": [
+      "「DoMarks is the to-do app for bookmarks.」为链接分配一个行动（读、看、听），把收藏变成可以完成的清单。"
+     ],
+     "facts": [["App Store", "★4.65 · 69 条评分"]]
+    }},
+    {"work": {
+     "name": "Countr", "url": "https://apps.apple.com/us/app/countr-quick-count/id911664683",
+     "meta": ["2014–", "工具", "v4.2"],
+     "paras": [
+      "「Countr 4 makes it even easier to quickly count or tally anything!」他的第一款应用，已在 App Store 上 12 年。"
+     ]
+    }},
+    {"work": {
+     "name": "WWDC-Summaries", "url": "https://github.com/JoshHrach/WWDC-Summaries",
+     "meta": ["2026", "Markdown"],
+     "paras": [
+      "2014–2026 年 WWDC 会议的 API 摘要库，每年一个索引，新 API 标注 [NEW]。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["AutomatedScreenshots", "无需 fastlane 的多设备多语言截图脚本"],
+      ["CustomFontSystem", "简化自定义字体体系的库"],
+      ["ActivityIndicatorView", "SwiftUI 版加载指示器（已被系统 ProgressView 取代）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.joshspadd.com", "paras": [
+     "个人网站是一个 WordPress 博客，文章以 SwiftUI 实践为主，也有对 Apple 硬件的随想，比如 AirTag 的设计是否受到了某个东西的启发。About 页简单列出他的身份、公司、写作和播客经历。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "WordPress"],
+      ["内容", "SwiftUI 技巧、Apple 随想"],
+      ["社交", "Mastodon（iosdev.space）、Bluesky"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2024-02-23", "title": "Creating a Menu Button with Subtitles in SwiftUI", "url": "https://www.joshspadd.com"},
+     {"date": "2024-01-16", "title": "UIViewRepresentable: Showing UIKit components in SwiftUI", "url": "https://www.joshspadd.com"},
+     {"date": "2023-12-29", "title": "iOS Widgets, Loops, and Memory", "url": "https://www.joshspadd.com"},
+     {"date": "2022-05-10", "title": "Did this inspire the AirTag design?", "url": "https://www.joshspadd.com"}
+    ]},
+    {"quote": "Much of that time was spent working alone on projects, so I value the importance of getting answers and assistance when needed.", "cite": "Josh Hrach，GitHub 个人简介"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["坚持", "副业应用维护十多年", "用户规模较小"],
+      ["分享", "乐于回答问题、整理资料", "—"],
+      ["开源", "实用小工具", "多为个人工具"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>副业也能长期经营。</strong>",
+     "<strong>用新系统能力给老应用续命。</strong>",
+     "<strong>把学习资料整理出来分享。</strong>",
+     "<strong>自动化发布中最烦的那一步：</strong>截图。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "DoMarks", "url": "https://apps.apple.com/us/app/domarks/id1518886084", "why": "把稍后再看变成待办。"},
+     {"name": "WWDC-Summaries", "url": "https://github.com/JoshHrach/WWDC-Summaries", "why": "快速翻阅历年 WWDC。"},
+     {"name": "AutomatedScreenshots", "url": "https://github.com/JoshHrach/AutomatedScreenshots", "why": "一键生成全部截图。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "给你最早的那个副业项目发一次更新，哪怕只是适配最新的系统外观。",
+ "sources": [
+  {"label": "Josh Hrach 的 X 个人资料", "url": "https://x.com/JoshHrach"},
+  {"label": "joshspadd.com", "url": "https://www.joshspadd.com"},
+  {"label": "App Store：DoMarks", "url": "https://apps.apple.com/us/app/domarks/id1518886084"},
+  {"label": "App Store：Countr", "url": "https://apps.apple.com/us/app/countr-quick-count/id911664683"},
+  {"label": "GitHub：JoshHrach", "url": "https://github.com/JoshHrach"}
+ ]
+}

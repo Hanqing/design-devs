@@ -1,0 +1,157 @@
+{
+ "name": "小弟调调（王楚江 · Kenny）",
+ "role": "Awesome Mac 作者 · 30+ 款 Mac 应用独立开发者 · Linux 命令大全、Reference 速查表作者 · 苏州",
+ "title": "小弟调调：<em>人没了，代码还在</em>",
+ "dek": "TA 是苏州的全栈开发者，网名小弟调调，GitHub 上最有名的作品是 Awesome Mac（★11.7 万），一份按类别整理的高质量 macOS 软件清单，从 2016 年维护至今，被复刻近万次。TA 的另外几个中文开源项目也是很多开发者的书签：Linux 命令大全（★3.7 万）、面向开发者的速查表合集 Reference（★1.5 万）、MySQL、Docker、Nginx 入门教程、可商用免费字体合集。近几年 TA 转向 Swift，做了 30 多款 Mac 小应用：解压工具 Zipora、截图标注 Scap、键盘控制鼠标的 Mousio、动态壁纸 Vidwall、开发者离线工具箱 DevHub、SwiftUI 学习应用 DevTutor 等。TA 的 X 账号每天都在分享开源 Mac 应用，推文已超过 1.2 万条。",
+ "card": "Awesome Mac（★11.7 万）、Linux 命令大全（★3.7 万）作者；30+ 款 Mac 应用独立开发者，苏州。",
+ "location": "中国苏州",
+ "updated": "2026-10-23",
+ "tags": ["macOS", "Swift", "开源清单", "独立开发", "中文技术文档"],
+ "links": [
+  {"label": "wangchujiang.com", "url": "https://wangchujiang.com"},
+  {"label": "Awesome Mac", "url": "https://github.com/jaywcjlove/awesome-mac"},
+  {"label": "GitHub：jaywcjlove", "url": "https://github.com/jaywcjlove"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>个人网站标题「撸码的乐趣，“人没了，™代码还在”」。",
+  "<strong>代表作：</strong>Awesome Mac（★116,845）、Linux 命令大全（★37,171）、Reference（★15,244）、hotkeys-js（★7,127）、MySQL 教程（★4,801）、handbook（★4,382）、free-font（★4,079）、github-rank、DevHub（★2,040）、awesome-swift-macos-apps。",
+  "<strong>Mac 应用：</strong>DockLift、Zipora、Scap、Mousio、Vidwall、Keyzer、Paste Quick、Quick RSS、Copybook Generator、DevTutor、Regex Mate 等 30 余款。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 9.5 千、226 个公开仓库、近一年贡献 9,367 次；X 关注者约 1.4 万。"
+ ],
+ "lead": "TA 的 X 时间线像一份每天更新的 Mac 开源杂志。2026 年 10 月 23 日这一天，TA 推荐了剪贴板历史工具 Clippo、跨平台 Redis 客户端 Tiny RDM、按链接规则切换浏览器配置的 Profiley、实时网速监控 NetworkMonitor、Dock 窗口列表 DockFlip、开源桌面 AI 智能体 CoWork OS、Telegram 非官方客户端 FinchGram……每条都是一句中文介绍加一个 GitHub 链接。这些发现，很多最后会被收进 Awesome Mac。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "全栈开发者、独立 Mac 应用开发者"],
+     ["所在地", "中国苏州"],
+     ["GitHub 组织", "uiwjs（React UI 组件库）、kktjs、chinese-poetry、tsbbjs"],
+     ["应用", "30+ 款 macOS / iOS 应用"],
+     ["技术栈", "Swift、SwiftUI、TypeScript、JavaScript"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "小弟调调做两类东西：<strong>帮人找东西的清单和速查表</strong>，以及<strong>解决一个具体小问题的 Mac 应用</strong>。Awesome Mac 的 README 说，它「已远远超出最初的预期，变得更加全面和精细」；Awesome Swift macOS Apps 则专门收集用 Swift 写的开源 Mac 应用，给学 Swift 的人当范例。"},
+    {"p": "TA 的应用都很小而直接：DockLift 点击 Dock 里的窗口就把它拉回当前屏幕，Deskmark 给桌面加水印方便录视频，Screen Test 测试显示器画质，Time Passage 问你「我还能活多少天」。PermissionFlow 是一个帮 macOS 应用引导用户授权的开源库。TA 在各项目 README 里写着：使用 TA 的应用也是支持 TA 的一种方式。"},
+    {"note": "本页依据 wangchujiang.com、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。各应用的下载量与收入未公开；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012", "title": "注册 GitHub", "text": "开始写前端和 JavaScript 工具。"},
+     {"when": "2015–2016", "title": "中文笔记与清单", "text": "hotkeys-js、handbook；2016 年创建 Awesome Mac 和 Linux 命令大全。"},
+     {"when": "2017–2019", "title": "教程与组件", "text": "Docker、Nginx、MySQL 教程；uiw React 组件库；github-rank 排行榜。"},
+     {"when": "2022", "title": "Reference", "text": "开发者速查表合集上线。"},
+     {"when": "2024–2026", "title": "转向 Swift", "text": "DevHub、Copybook Generator、awesome-swift-macos-apps 和 30 多款 Mac 应用。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Awesome Mac", "url": "https://github.com/jaywcjlove/awesome-mac",
+     "meta": ["2016–", "软件清单", "★11.7 万"],
+     "paras": [
+      "「This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.」中英双语，按类别标注开源、免费和 App Store 应用，另有网站版。"
+     ],
+     "facts": [["GitHub", "★116,845 · 复刻 9,651"]]
+    }},
+    {"work": {
+     "name": "Linux 命令大全", "url": "https://jaywcjlove.github.io/linux-command",
+     "meta": ["2016–", "Markdown", "★3.7 万"],
+     "paras": [
+      "Linux 命令手册、详解和搜索工具，中文开发者查命令时最常落到的网站之一。"
+     ]
+    }},
+    {"work": {
+     "name": "Reference", "url": "https://jaywcjlove.github.io/reference",
+     "meta": ["2022–", "速查表", "★1.5 万"],
+     "paras": [
+      "「面向开发者的技术速查清单（Cheat Sheets）集合」，覆盖语言、工具与开发流程。"
+     ]
+    }},
+    {"table": {
+     "cols": ["Mac 应用（部分）", "说明"],
+     "rows": [
+      ["DevHub", "离线开发者工具箱，开源（★2,040）"],
+      ["Zipora", "Zip / RAR / 7Z 解压"],
+      ["Scap", "截图、标注、美化"],
+      ["Mousio", "只用键盘移动和点击鼠标"],
+      ["DevTutor for SwiftUI", "学习 SwiftUI 的应用"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://wangchujiang.com", "paras": [
+     "个人网站首页就是一整面应用墙：每个应用一个图标、平台标签和一句话介绍，链接到各自的独立页面。导航只有应用、项目、赞助、关于和联系。网站托管在 GitHub Pages 上，是前端单页应用。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["结构", "应用墙 + 项目 + 赞助"],
+      ["语言", "英文为主，应用页多语言"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "分享风格",
+   "blocks": [
+    {"quote": "Hi, I'm Kenny, Fullstack developer from Suzhou, China.", "cite": "小弟调调的 GitHub 简介"},
+    {"p": "TA 在 X 上几乎不发观点，几乎全部是「名称 + 一句话 + 链接」的推荐帖，每天十几条。这种稳定的节奏本身就是 TA 的风格。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["坚持", "清单和教程维护十年", "—"],
+      ["产出", "应用数量多、更新勤", "单个应用规模小"],
+      ["商业化", "README 中有赞助位", "清单中赞助与推荐需要读者自行区分"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一份认真维护的清单可以影响十万人。</strong>",
+     "<strong>把学习笔记公开出来。</strong>",
+     "<strong>每天分享，长期积累。</strong>",
+     "<strong>一个应用解决一个小问题。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Awesome Mac", "url": "https://github.com/jaywcjlove/awesome-mac", "why": "给你的 Mac 找几款好用的软件。"},
+     {"name": "Reference", "url": "https://jaywcjlove.github.io/reference", "why": "收藏一份速查表。"},
+     {"name": "awesome-swift-macos-apps", "url": "https://github.com/jaywcjlove/awesome-swift-macos-apps", "why": "找开源 Swift 应用来学习。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在 Awesome Mac 里找一个你没用过的开源工具，装上用一周，再决定要不要留下。",
+ "sources": [
+  {"label": "小弟调调的 X 个人资料", "url": "https://x.com/jaywcjlove"},
+  {"label": "wangchujiang.com", "url": "https://wangchujiang.com"},
+  {"label": "GitHub：jaywcjlove", "url": "https://github.com/jaywcjlove"},
+  {"label": "GitHub：awesome-mac", "url": "https://github.com/jaywcjlove/awesome-mac"},
+  {"label": "GitHub：linux-command", "url": "https://github.com/jaywcjlove/linux-command"}
+ ]
+}

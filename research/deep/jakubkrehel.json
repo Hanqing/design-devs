@@ -1,0 +1,191 @@
+{
+ "handle": "jakubkrehel",
+ "sites": [
+  {
+   "url": "http://jakub.kr",
+   "ok": true,
+   "title": "Jakub Krehel",
+   "description": "Founding Design Engineer at Interfere",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "New Interfaces issue is live! Read Read Now (opens in a new tab) \nJakub Krehel Design Engineer at Interfere \nI’m currently a founding design engineer at Interfere (opens in a new tab) , where we’re building the self-healing layer of the internet. \nPreviously, I worked at a few other (opens in a new tab) companies. You can reach me at @jakubkrehel (opens in a new tab) and via email . You can see some of my code on GitHub (opens in a new tab) and if you’d like to know something else, feel free to ask . \nProjects \n interfaces.dev Design engineering magazine (opens in a new tab) \n loading.dev Loader library for React (opens in a new tab) \n /skills Skills for design engineers \n oklch.fyi A guide to OKLCH colors (opens in a new tab) \nWriting \n Notes Thoughts & Changelog \n How we built Interfere's new website User Interface (opens in a new tab) \n The invisible side of design engineering Thoughts \n Less is more, more or less Thoughts \n Details that make interfaces feel better User interfaces \n Using gestures in Motion Animations \n Drag gestures on the web Animations \n Using AI as a design engineer Thoughts \n How I use shared layout animations Animations \n Understanding gradients Colors \n What are OKLCH colors? Colors \nInterface Newsletter \nNew articles, resources and occasional newsletter-only content. \n Email address \n Subscribe Subscribe \nJoin 2,663 other subscribers. \n index.md",
+   "github_links": [
+    "jakubkrehel"
+   ],
+   "subpages": {
+    "http://jakub.kr/writing/notes": "New Interfaces issue is live! Read Read Now (opens in a new tab) \nNotes \nSince I started working on my personal website in 2023, I've done and built things that I wanted to share, but some of them felt too small or uninteresting for a full blog post. I figured it would be nice to create a place to collect these and that's what this page is for. \nI've set up an agent to scan my commits and suggest a note entry whenever I add something \"interesting\" so it this page should be pretty lively, like a mini-changelog. \n Oct 12, 2026 \nI added a small AI agent to this website. It can answer questions about me, my work and anything from my blog posts. At first I thought it was a bit of a gimmick, but I ended up liking it a lot. If you’re curious about something, feel free to ask it . \n Oct 11, 2026 \nI updated the styling of the demo components across the website. The toolbars and footers used to be full-width with a border on top. Now they’re a nested container. I prefer this look way more; it feels cleaner. \n X Axis Y Axis Both \n Oct 6, 2026 \n Luke (opens in a new tab) showed me Is Your Site Agent-Ready? (opens in a new tab) today and I gotta say it’s pretty cool. As a result, all of the content on this website and all my other projects is now served as markdown to agents. \n Oct 5, 2026 \nAdded a new skill: /state-machine . It renders every state of a component on a throwaway page and makes it easier to work on them at the same time. I’ve been enjoying working with it a lot for the past few weeks. \n Sep 30, 2026 \nI removed dark mode a while ago because I generally prefer light mode and how it looks, I added it again and removed it again. Then I realized that dark mode is more than a visual preference, it’s an accessibility feature in a way, so I brought it back again. \n Sep 25, 2026 \nI switched from Biome (opens in a new tab) to Oxlint (opens in a new tab) for linting. \n Aug 8, 2026 \nI added remark-smartypants (opens in a new tab) to the MDX pipeline. It lets me write straight quotes like \" and ' and they get curled at build time. This is important because when searching for text I’m used to typing straight quotes on my keyboard. \n May 27, 2026 \nI switched the syntax highlighting themes in the code block component to Pierre’s (opens in a new tab) themes. I use these in my IDE too and they’re great. \n next.config.ts \n import pierreDarkVibrant from \"@pierre/theme/pierre-dark-vibrant\" ; \n import pierreLightVibrant from \"@pierre/theme/pierre-light-vibrant\" ; \n const withMDX = createMDX ({ \n options : { \n rehypePlugins : [ \n [ \n \"rehype-pretty-code\" , \n { \n theme : { dark : pierreDarkVibrant , light : pierreLightVibrant }, \n }, \n ], \n ], \n }, \n });"
+   },
+   "feed": {
+    "url": "https://jakub.kr/api/rss",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "How we built Interfere's new website",
+      "date": "Tue, 01 Sep 2026 00:00:00",
+      "url": "https://interfere.com/blog/how-we-built-interferes-new-website"
+     },
+     {
+      "title": "The invisible side of design engineering",
+      "date": "Fri, 14 Aug 2026 00:00:00",
+      "url": "https://jakub.kr/writing/the-invisible-side-of-design-engineering"
+     },
+     {
+      "title": "Less is more, more or less",
+      "date": "Tue, 23 Jun 2026 00:00:00",
+      "url": "https://jakub.kr/writing/less-is-more"
+     },
+     {
+      "title": "Details that make interfaces feel better",
+      "date": "Tue, 10 Mar 2026 00:00:00",
+      "url": "https://jakub.kr/writing/details-that-make-interfaces-feel-better"
+     },
+     {
+      "title": "Using gestures in Motion",
+      "date": "Wed, 11 Feb 2026 00:00:00",
+      "url": "https://jakub.kr/work/motion-gestures"
+     },
+     {
+      "title": "Drag gestures on the web",
+      "date": "Tue, 27 Jan 2026 00:00:00",
+      "url": "https://jakub.kr/work/drag-gesture"
+     },
+     {
+      "title": "Using AI as a design engineer",
+      "date": "Wed, 14 Jan 2026 00:00:00",
+      "url": "https://jakub.kr/work/using-ai-as-a-design-engineer"
+     },
+     {
+      "title": "How I use shared layout animations",
+      "date": "Mon, 24 Nov 2025 00:00:00",
+      "url": "https://jakub.kr/work/shared-layout-animations"
+     },
+     {
+      "title": "Understanding gradients",
+      "date": "Thu, 16 Oct 2025 00:00:00",
+      "url": "https://jakub.kr/work/gradients"
+     },
+     {
+      "title": "What are OKLCH colors?",
+      "date": "Thu, 21 Aug 2025 00:00:00",
+      "url": "https://jakub.kr/components/oklch-colors"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "http://interfaces.dev",
+   "ok": true,
+   "title": "Interfaces › Design Engineering Magazine",
+   "description": "Interfaces is a design engineering magazine about building great interfaces that covers topics such as animation, typography, layout and color.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Interfaces x-height oklch(0.991 0 0) oklch(0.173 0 0) \nThe Design Engineering 294 × 58 Magazine font-libre-baskerville \nby Jakub Krehel \n 32 px \n Subscribe Now \n Call to action \nWhat makes an interface feel great? \nI think a lot about what makes an interface feel great. \nWhen you go from using a good product to a great one, you can feel the difference. It’s often hard to point to what makes the difference though. \nIt’s usually not a single thing, but instead a lot of small things that add up. \nwrap \nDesigning interfaces that feel natural and intuitive \nGreat design is invisible. It guides users without them ever noticing. \n Not recommended \nbalance + pretty \nDesigning interfaces that feel natural and intuitive \nGreat design is invisible. It guides users without them ever noticing. \n Recommended \n Width 260px \n12px \n12px \n Not recommended \n20px \n12px \n Recommended \n Show values \n Show border \nIn the age of artificial intelligence, speed alone is no longer an advantage. When most things can be replicated with a single prompt, just building something isn’t enough. \nProducts that stand out and last are built extremely well, with intent and extraordinary care. \nThat’s what Interfaces focuses on. \nRead by 1356 designers, engineers and design engineers at companies like \nAbout Interfaces \nDesign engineering is growing in popularity, but learning about it is still surprisingly difficult. The best information is scattered across blog posts, courses, tweets and all other corners of the internet. \nI write about a number of design engineering topics on my personal website and my posts have been read more than 1,000,000 times. \nInterfaces brings all of those topics together in one place, where I share everything I know and continue to learn about design engineering and building great interfaces. \nIssue \n14 \n Aa 00 \n Bb 01 \n Cc 02 \nPP Mondwest\nRegular 400 \nGlyphs Aa-Cc\nFigures 00-02 \n Typography manual for the web July 2026 \nIssue \n12 \n Sign In \n Email Phone Passkey \n email@acme.com \n Or Connect Wallet \n Building an animated sign-in dialog June 2026 \nIssue \n9 \n Claude Code Opus 4.8 \n > /make-interfaces-feel-better \n /make-interfaces-feel-better Design engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover states, shadows, borders, typography, micro-interactions, enter/exit animations, or any visual detail work. Triggers on UI polish, design details, \"make it feel better\", \"feels off\", stagger animations, border radius, optical alignment, font smoothing, tabular numbers, image outlines, box shadows. \n Details that make interfaces feel better May 2026 \nIssue \n2 \n What are OKLCH colors? May 2026 \nInterfaces is a completely custom-built digital magazine. Each issue is a deep dive into a specific topic and combines writing, interactive demos and code snippets. \nWhat you’ll get \nA subscription gives you access to every Interfaces issue, plus the full resources and tools library, agent skills and the private Discord community. \nApril 2026 \nMay 2026 \nJune 2026 \nJuly 2026 \nNew issue every month \nAt least one new issue is released every month. \n Border Radius 16px \nInteractive demos \nExplore concepts through interactive demos instead of text alone. \n Back \n Copy link \n < AnimatePresence mode = \"popLayout\" initial = { false } > \n < motion.div \n key = { isCopied ? \"check\" : \"copy\" } \n initial = { { opacity : 0 , scale : 0.25 , filter : \"blur(4px)\" } } \n animate = { { opacity : 1 , scale : 1 , filter : \"blur(0px)\" } } \n exit = { { opacity : 0 , scale : 0.25 , filter : \"blur(4px)\" } } \n transition = { { duration : 0.2 , ease : \"easeOut\" } } \n > \n { isCopied ? < IconCheck /> : < IconCopy /> } \n </ motion.div > \n </ AnimatePresence > \nSource code \nMost examples and demos include the full source code. \n / better-ui \n / better-typography \n / better-colors \nAgent skills \nSkills based on topics covered throughout the magazine. \nResources and tools \nA curated library of design engineering resources and tools I use. \nPrivate Discord community \nDiscuss issues, share your work and meet other design engineers. \nBuilt for the age of AI \nYou probably work with AI every day. There’s a lot to keep up with, so Interfaces tries to bring what you learn into how you and your agents work. \n┌────────────────────────────────────────────┐\n│ │\n│ ┌───────────────┐ │\n│ │ SKILL.md │ │\n│ └───────┬───────┘ │\n│ ┌───────┼───────┐ │\n│ ▼ ▼ ▼ │\n│ Claude Cursor Codex │\n│ │\n└────────────",
+   "github_links": [
+    "jakubkrehel"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "jakubkrehel",
+  "user": {
+   "name": "Jakub Krehel",
+   "company": null,
+   "blog": "jakub.kr",
+   "location": null,
+   "bio": null,
+   "public_repos": 4,
+   "followers": 1025,
+   "created_at": "2021-07-16T12:21:49Z",
+   "twitter_username": "jakubkrehel",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "jakubkrehel/skills",
+    "description": "A collection of agent skills that help you build great interfaces.",
+    "stargazers_count": 8205,
+    "forks_count": 310,
+    "language": "Markdown",
+    "homepage": "https://jakub.kr/skills",
+    "created_at": "2026-07-10T08:58:36Z",
+    "pushed_at": "2026-10-13T02:06:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakubkrehel/make-interfaces-feel-better",
+    "description": "An agent skill that helps make your interface feel better.",
+    "stargazers_count": 3788,
+    "forks_count": 159,
+    "language": "Markdown",
+    "homepage": "https://jakub.kr/writing/details-that-make-interfaces-feel-better",
+    "created_at": "2026-03-13T00:25:09Z",
+    "pushed_at": "2026-08-29T16:59:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakubkrehel/loading",
+    "description": "A lightweight library full of beautiful loading indicators for React.",
+    "stargazers_count": 336,
+    "forks_count": 15,
+    "language": "TypeScript",
+    "homepage": "https://loading.dev/",
+    "created_at": "2026-09-14T20:24:41Z",
+    "pushed_at": "2026-10-22T03:23:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakubkrehel/oklch-skill",
+    "description": "An agent skill that helps you work with OKLCH colors.",
+    "stargazers_count": 269,
+    "forks_count": 10,
+    "language": "Markdown",
+    "homepage": "oklch.fyi",
+    "created_at": "2026-03-31T22:19:12Z",
+    "pushed_at": "2026-10-07T03:47:03Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 4,
+  "languages": [
+   [
+    "Markdown",
+    3
+   ],
+   [
+    "TypeScript",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 6176,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "jakubkrehel/skills": "<a href=\"https://interfaces.dev/\">\n</a>\n[](https://skills.sh/jakubkrehel/skills)\nA collection of agent skills that cover UI, typography, colors, accessibility, layout, product writing and help you build a great interface.\nThese skills cover topics that I write about on [my personal website](https://jakub.kr/) and my design engineering magazine, [Interfaces](https://interfaces.dev/).\n## Skills that help build great interfaces\n- [**better-interface**](skills/better-interface/SKILL.md): Combines all of the `better-*` skills into a single review across **accessibility**, **layout**, **writing**, **typography**, **color** and **UI polish**.\n- [**better-ui**](skills/better-ui/SKILL.md): Polishes the surfaces, icons and motion in your project with exact values for **border radius**, **optical alignment**, **shadows**, **icon states** and **animation**.\n- [**better-typography**](skills/better-typography/SKILL.md): Sets and reviews how text renders in your product, from the **type scale** and **spacing** to **font features**, **wrapping**, **truncation** and **punctuation**.\n- [**better-colors**](skills/better-colors/SKILL.md): Helps you build and check a color system for your project. It **generates palettes**, **names semantic tokens**, **converts between formats** and **measures contrast**.\n- [**better-accessibility**](skills/better-accessibility/SKILL.md): Reviews and fixes **keyboard and focus behavior**, **ARIA**, **accessible names**, **forms**, **screen-reader announcements**, **motion** and **zoom** in your project against WCAG 2.2.\n- [**better-layout**](skills/better-layout/SKILL.md): Helps with **grouping**, **alignment**, **reading order**, **responsive structure** and room for translated text, so a layout holds up when it is resized, translated or mirrored.\n- [**better-writing**](skills/better-writing/SKILL.md): Writes and reviews your interface copy, from **labels** and **errors** to **empty states** and **confirmations**, so it matches your product's voice and tells people what to do next.\n- [**interface-review**](skills/interface-review/SKILL.md): Reviews a **branch**, **pull request** or **uncommitted change** for the interface problems it introduced or ",
+   "jakubkrehel/make-interfaces-feel-better": "<a href=\"https://interfaces.dev/\">\n</a>\n[](https://skills.sh/jakubkrehel/make-interfaces-feel-better)\nAn agent skill focused on the small details that make interfaces feel better.\nThe [skill](skills/make-interfaces-feel-better/SKILL.md) covers animations, typography, icons, hover states, optical alignment, concentric border radius, shadows, hit areas and more.\n## Install\n```bash\nnpx skills add jakubkrehel/make-interfaces-feel-better\n```\n",
+   "jakubkrehel/loading": "# loading-dev\nBeautiful loading indicators for React.\n```sh\nnpm install loading-dev\n```\n```tsx\nimport { Arc } from \"loading-dev\";\n<Arc size={16} />\n```\nAll indicators support `size`, `color` and `duration`. Some also expose additional controls like `easing`, `cap` or spinner-specific props.\nThe library exposes `playState` and you can customize any indicator with your own styles.\nThe spinners respect reduced motion out of the box and require React 19 or later.\nCurrent list of indicators:\n`Arc`, `Atom`, `Blocks`, `BouncingDots`, `Cascade`, `CircularDots`, `Classic`, `ClassicV2`, `Clock`, `Comet`, `Compass`, `Dual`, `Eclipse`, `Flip`, `Gather`, `Leap`, `LinearDots`, `Loading`, `Morph`, `Orbit`, `Pulse`, `Radar`, `Ring`, `Ripple`, `Slide`, `Snake`, `Swirl`, `Trace`, `Wave`.\nDocs and live previews are available at [loading.dev](https://loading.dev).\n## License\nMIT\n",
+   "jakubkrehel/oklch-skill": "<a href=\"https://oklch.fyi/\">\n</a>\n[](https://skills.sh/jakubkrehel/oklch-skill)\nAn agent skill that helps work with the OKLCH color space.\nYou can convert colors, generate palettes, check contrast, gamut clamp, set up fallbacks and more.\n## Install\n```bash\nnpx skills add jakubkrehel/oklch-skill\n```\n"
+  }
+ },
+ "apps": []
+}

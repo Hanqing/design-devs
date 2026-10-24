@@ -1,0 +1,325 @@
+{
+ "handle": "mjackson",
+ "sites": [
+  {
+   "url": "https://mjackson.me",
+   "ok": true,
+   "title": "Michael Jackson (@mjackson)",
+   "description": "I write a lot of code. Mostly for the web.",
+   "stack": [
+    "Google Fonts",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "@mjackson \nHi, I'm \nMichael Jackson \nI work on Remix at Shopify. Before that I co-founded Remix Software, and before that I spent a decade building tools that a lot of the web runs on. \nSelected work \n (01) Remix 2020 \nCo-founded Remix Software with Ryan Florence. Acquired by Shopify in 2022, and I now lead the project there. Remix 3 shipped in 2026. \n (02) React Router 2014 \nCo-created the routing library for React. Over a decade later it is still the backbone for most React apps. \n (03) UNPKG 2015 \nThe CDN for everything on npm. Any file from any package available over a URL. \n (04) history 2015 \nA small library for managing session history in JavaScript. \n (05) expect 2015 \nWrote the original expect assertion library, then donated it to Jest. \n (06) React Training 2015 \nCo-founded a company that taught React to engineering teams around the world. \n (07) Shadowbox.js 2007 \nA popular JavaScript lightbox for photos and video in the late 2000s.",
+   "github_links": [
+    "mjackson",
+    "remix-run"
+   ],
+   "subpages": {
+    "https://mjackson.me/blog": "[@mjackson](https://mjackson.me/)[blog](https://mjackson.me/blog)[github](https://github.com/mjackson)\nBlog\n## Writing\nNotes on the web, JavaScript, and building Remix.\nNothing here yet."
+   },
+   "feed": {
+    "url": "https://mjackson.me/feed.xml",
+    "count_seen": 0,
+    "items": []
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mjackson",
+  "user": {
+   "name": "Michael Jackson",
+   "company": "@Shopify",
+   "blog": "https://remix.run",
+   "location": "Carlsbad, California",
+   "bio": "Founder @remix-run, creator @unpkg. Thriller.",
+   "public_repos": 206,
+   "followers": 7488,
+   "created_at": "2009-06-07T14:26:52Z",
+   "twitter_username": "mjackson",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mjackson/expect",
+    "description": "Write better assertions",
+    "stargazers_count": 2267,
+    "forks_count": 114,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2014-03-09T22:14:21Z",
+    "pushed_at": "2018-05-10T20:54:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/remix-the-web",
+    "description": "Open source tools for Remix (or any framework!)",
+    "stargazers_count": 970,
+    "forks_count": 35,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2024-07-12T06:39:45Z",
+    "pushed_at": "2025-10-08T03:13:20Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mjackson/mach",
+    "description": "HTTP for JavaScript",
+    "stargazers_count": 801,
+    "forks_count": 36,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2012-10-26T04:24:55Z",
+    "pushed_at": "2018-05-08T08:12:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/http-client",
+    "description": "Compose HTTP clients using JavaScript's fetch API",
+    "stargazers_count": 503,
+    "forks_count": 22,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2016-02-26T19:10:00Z",
+    "pushed_at": "2022-02-07T12:07:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/citrus",
+    "description": "Parsing Expressions for Ruby",
+    "stargazers_count": 411,
+    "forks_count": 23,
+    "language": "Ruby",
+    "homepage": "http://mjackson.github.io/citrus",
+    "created_at": "2010-04-24T16:10:33Z",
+    "pushed_at": "2021-08-28T16:49:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/web-starter",
+    "description": "Build and deploy a React website quickly on Heroku",
+    "stargazers_count": 411,
+    "forks_count": 19,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2016-05-11T01:32:33Z",
+    "pushed_at": "2024-05-12T12:06:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/strata",
+    "description": "A modular, streaming HTTP server for node.js",
+    "stargazers_count": 364,
+    "forks_count": 32,
+    "language": "JavaScript",
+    "homepage": "http://stratajs.org",
+    "created_at": "2011-07-30T23:43:32Z",
+    "pushed_at": "2014-07-04T20:39:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/multipart-parser",
+    "description": "A fast, efficient parser for multipart streams in any JavaScript environment",
+    "stargazers_count": 348,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2024-07-11T04:56:04Z",
+    "pushed_at": "2024-09-05T08:32:28Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mjackson/then-redis",
+    "description": "A fast, promise-based Redis client for node.js",
+    "stargazers_count": 312,
+    "forks_count": 43,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2013-03-05T00:55:51Z",
+    "pushed_at": "2016-08-04T17:16:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/shadowbox",
+    "description": "A beautiful, versatile lightbox for photos and videos",
+    "stargazers_count": 293,
+    "forks_count": 110,
+    "language": "JavaScript",
+    "homepage": "http://shadowbox-js.com/",
+    "created_at": "2009-11-19T22:28:21Z",
+    "pushed_at": "2022-12-23T21:09:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/file-storage",
+    "description": "Key/value storage for JavaScript File objects",
+    "stargazers_count": 148,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-08-21T18:18:06Z",
+    "pushed_at": "2024-09-10T21:55:37Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mjackson/rollup-plugin-url-resolve",
+    "description": "Use URLs in your Rollup imports",
+    "stargazers_count": 137,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-06-11T05:46:36Z",
+    "pushed_at": "2021-06-03T22:55:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/react-loop-2019",
+    "description": "Notes and code examples from my React Loop 2019 Keynote",
+    "stargazers_count": 115,
+    "forks_count": 16,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-06-21T12:52:55Z",
+    "pushed_at": "2019-09-25T06:46:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/lazy-file",
+    "description": "Lazy, streaming files for JavaScript",
+    "stargazers_count": 93,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-08-21T22:35:52Z",
+    "pushed_at": "2024-09-05T08:30:46Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mjackson/form-data-parser",
+    "description": "A request.formData() wrapper with pluggable file upload handling",
+    "stargazers_count": 87,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-08-19T21:38:43Z",
+    "pushed_at": "2024-09-05T07:20:55Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mjackson/resolve-pathname",
+    "description": "Resolve URL pathnames using JavaScript",
+    "stargazers_count": 66,
+    "forks_count": 11,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-03-10T18:47:00Z",
+    "pushed_at": "2021-10-23T05:37:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/expect-element",
+    "description": "Write better assertions for DOM nodes",
+    "stargazers_count": 60,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-10-31T04:10:28Z",
+    "pushed_at": "2017-05-25T11:22:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mjackson/my-react",
+    "description": "An experimental drop-in replacement for React without ES6 classes or \"this\"",
+    "stargazers_count": 57,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-07-31T18:07:03Z",
+    "pushed_at": "2017-12-13T00:24:50Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 79,
+  "languages": [
+   [
+    "JavaScript",
+    49
+   ],
+   [
+    "Ruby",
+    12
+   ],
+   [
+    "TypeScript",
+    8
+   ],
+   [
+    "PHP",
+    3
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "Vim script",
+    1
+   ],
+   [
+    "C",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "mjackson/remix-the-web",
+    "stargazerCount": 970,
+    "description": "Open source tools for Remix (or any framework!)",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 1676,
+  "orgs": [
+   "ReactTraining",
+   "unpkg",
+   "reach",
+   "remix-run"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "mjackson/remix-the-web": "> [!WARNING]\n> **📦 This repository has moved!**  \n> Development continues at [remix-run/remix](https://github.com/remix-run/remix).  \n> Please follow us there for the latest updates and contributions.\nThis collection of packages empowers you to build modern web applications with maximum interoperability and portability, leveraging the power of web standards. Whether you're using [Remix](https://remix.run) or another framework, these tools are designed to seamlessly integrate into your workflow.\nThis repository is laying the groundwork for the next major evolution of Remix.\n## Philosophy\nOur core philosophy is simple: **build on web standards, embrace single responsibility.**\nEach package in this repository:\n- Adheres to the [single-responsibility principle](https://en.wikipedia.org/wiki/Single-responsibility_principle).\n- Prioritizes web standards to ensure maximum interoperability and portability across JavaScript runtimes.\n- Augments standards unobtrusively where they are missing or incomplete, minimizing incompatibility risks.\nThis approach means the JavaScript you write is **portable by default**. These packages work seamlessly across [Node.js](https://nodejs.org/), [Bun](https://bun.sh/), [Deno](https://deno.com/), [Cloudflare Workers](https://workers.cloudflare.com/), and other environments.\nWe leverage server-side web APIs like:\n- [The Web Streams API](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API) instead of Node.js streams\n- [`Uint8Array`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array) instead of Node.js `Buffer`s\n- [The Web Crypto API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API) instead of the Node.js crypto library\n- [`Blob`](https://developer.mozilla.org/en-US/docs/Web/API/Blob) and [`File`](https://developer.mozilla.org/en-US/docs/Web/API/File) instead of some bespoke runtime-specific API\nThe benefit? Code that's not just reusable, but **future-proof**.\nThe goal is that these packages should be useful for anyone who is building for the web. If you're using [Remix](https://remix.run), we've designed it from the start to work with web standards. If you're using some othe",
+   "mjackson/expect": "# expect [![Travis][build-badge]][build] [![npm package][npm-badge]][npm]\n[build-badge]: https://img.shields.io/travis/mjackson/expect/master.svg?style=flat-square\n[build]: https://travis-ci.org/mjackson/expect\n[npm-badge]: https://img.shields.io/npm/v/expect.svg?style=flat-square\n[npm]: https://www.npmjs.org/package/expect\n## Notice\nThis package [has been donated](https://github.com/facebook/jest/issues/1679) to [Jest](https://github.com/facebook/jest/tree/master/packages/expect). This means that all future development of `expect` v21+ will take place at [facebook/jest](https://github.com/facebook/jest).\nYou can use [`jest-codemods`](https://github.com/skovhus/jest-codemods) to automatically migrate your old tests using `expect@1.x` to the new jest version of `expect` (>= 21)\nVersions prior to v21 will receive limited support and bugfixes, and any future < v21 releases will be published on an npm tag that is not \"latest\", to avoid causing problems for v21+ users.\n## expect@1.x documentation\n[expect](https://github.com/mjackson/expect) lets you write better assertions.\nWhen you use `expect`, you write assertions similarly to how you would say them, e.g. \"I expect this value to be equal to 3\" or \"I expect this array to contain 3\". When you write assertions in this way, you don't need to remember the order of actual and expected arguments to functions like `assert.equal`, which helps you write better tests.\nYou can think of `expect` as a more compact alternative to [Chai](http://chaijs.com/) or [Sinon.JS](http://sinonjs.org/), just without the pretty website. ;)\n## Installation\nUsing [npm](https://www.npmjs.org/):\n    $ npm install --save expect\nThen, use as you would anything else:\n```js\n// using ES6 modules\nimport expect, { createSpy, spyOn, isSpy } from 'expect'\n// using CommonJS modules\nvar expect = require('expect')\nvar createSpy = expect.createSpy\nvar spyOn = expect.spyOn\nvar isSpy = expect.isSpy\n```\nThe UMD build is also available on [unpkg](https://unpkg.com):\n```html\n<script src=\"https://unpkg.com/expect@%3C21/umd/expect.min.js\"></script>\n```\nYou can find the library on `window.expect`.\n## Assertions\n### toExist\n> `expect(object).toExist([message])`\nAsser",
+   "mjackson/mach": "[](https://travis-ci.org/mjackson/mach)\n[](https://www.npmjs.org/package/mach)\n[Mach](https://github.com/mjackson/mach) is an HTTP server and client library that runs in both node.js and the browser. It has the following goals:\n  * Simplicity: straightforward mapping of HTTP requests to JavaScript function calls\n  * Asynchronous: responses can be deferred using Promises/A+ promises\n  * Streaming: request and response bodies can be streamed\n  * Composability: middleware composes easily using promises\n  * Robustness: promises propagate errors up the call stack, simplifying error handling\n### Servers\nWriting a \"Hello world\" HTTP server in Mach is simple.\n```js\nvar mach = require('mach');\nmach.serve(function (conn) {\n  return \"Hello world!\";\n});\n```\nAll mach applications receive a single argument: a [Connection](https://github.com/mjackson/mach/blob/master/modules/Connection.js) object. This object contains information about both the request and the response, as well as metadata including the `method` used in the request, the [location](https://github.com/mjackson/mach/blob/master/modules/Location.js) of the request, the `status` of the response, and some helper methods.\nApplications can send responses asynchronously using JavaScript promises. Simply return a promise from your app that resolves when the response is ready.\n```js\nvar app = mach.stack();\napp.use(mach.logger);\napp.get('/users/:id', function (conn) {\n  var id = conn.params.id;\n  return getUser(id).then(function (user) {\n    conn.json(200, user);\n  });\n});\n```\nThe call to `app.use` above illustrates how middleware is used to compose applications. Mach ships with the following middleware:\n- [`mach.basicAuth`](https://github.com/mjackson/mach/blob/master/modules/middleware/basicAuth.js): Provides authentication using [HTTP Basic auth](http://en.wikipedia.org/wiki/Basic_access_authentication)\n- [`mach.catch`](https://github.com/mjackson/mach/blob/master/modules/middleware/catch.js): Error handling at any position in the stack\n- [`mach.charset`](https://github.com/mjackson/mach/blob/master/modules/middleware/charset.js): Provides a default [charset](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14",
+   "mjackson/http-client": "# http-client [![Travis][build-badge]][build] [![npm package][npm-badge]][npm]\n[build-badge]: https://img.shields.io/travis/mjackson/http-client/master.svg?style=flat-square\n[build]: https://travis-ci.org/mjackson/http-client\n[npm-badge]: https://img.shields.io/npm/v/http-client.svg?style=flat-square\n[npm]: https://www.npmjs.org/package/http-client\n[http-client](https://www.npmjs.com/package/http-client) lets you compose HTTP clients using JavaScript's [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API). This library has the following goals:\n  - Preserve the full capabilities of the fetch API\n  - Provide an extendable middleware API\n  - Use the same API on both client and server\n## Installation\nUsing [npm](https://www.npmjs.com/):\n    $ npm install --save http-client\nhttp-client requires you to bring your own [global `fetch`](https://developer.mozilla.org/en-US/docs/Web/API/GlobalFetch/fetch) function (for convenience when using the top-level `createFetch` function). [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) is a great polyfill if you need to support environments that don't already have a global `fetch` function.\nThen, use as you would anything else:\n```js\n// using ES6 modules\nimport { createFetch } from 'http-client'\n// using CommonJS modules\nvar createFetch = require('http-client').createFetch\n```\nThe UMD build is also available on [unpkg](https://unpkg.com):\n```html\n<script src=\"https://unpkg.com/http-client/umd/http-client.min.js\"></script>\n```\nYou can find the library on `window.HTTPClient`.\n## Usage\nhttp-client simplifies the process of creating flexible HTTP clients that work in both node and the browser. You create your own `fetch` function using the `createFetch` method, optionally passing [middleware](#middleware) as arguments.\n```js\nimport { createFetch, base, accept, parse } from 'http-client'\nconst fetch = createFetch(\n  base('https://api.stripe.com/v1'),  // Prefix all request URLs\n  accept('application/json'),         // Set \"Accept: application/json\" in the request headers\n  parse('json')                       // Read the response as JSON and put it in response.body\n)\nfetch('/customers/5').then(re"
+  }
+ },
+ "apps": []
+}

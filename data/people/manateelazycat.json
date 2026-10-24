@@ -1,0 +1,164 @@
+{
+ "name": "王勇（Andy Stewart / ManateeLazyCat）",
+ "role": "懒猫微服 CEO · 前 Deepin（深度操作系统）CTO · Emacs 生态作者（EAF、lsp-bridge）",
+ "title": "王勇：在 Emacs 里<em>生活了二十年</em>",
+ "dek": "TA 自学计算机和编程，2005 到 2007 年做手机游戏开发，2007 到 2009 年开过一家服装厂，2010 到 2018 年是深度操作系统（Deepin）的 CTO；2019 年起经营多家 IT 公司，现在是懒猫微服的 CEO。懒猫做的是给开发者和技术爱好者的私有云硬件：7 盘位全固态、最高 96 TB 的「懒猫微服」，号称 2070T 算力、128 GB 显存、可跑 2,840 亿参数大模型的「懒猫 AI 算力舱」，以及 AI 摄像头。TA 也是 Emacs 圈最高产的作者之一：用 PyQt 把浏览器、PDF 阅读器等图形程序嵌进 Emacs 的 EAF，「极快」的 LSP 客户端 lsp-bridge，以及几十个插件。TA 的博客写了 867 篇文章、一百五十多万字。",
+ "card": "懒猫微服 CEO，前 Deepin CTO；Emacs Application Framework（★3.5 千）、lsp-bridge（★1.8 千）作者。",
+ "location": "中国武汉（公司所在地）",
+ "updated": "2026-10-23",
+ "tags": ["Emacs", "Linux", "私有云硬件", "AI 推理", "创业"],
+ "links": [
+  {"label": "ManateeLazyCat 博客", "url": "https://manateelazycat.github.io"},
+  {"label": "懒猫微服", "url": "https://lazycat.cloud"},
+  {"label": "EAF", "url": "https://github.com/emacs-eaf/emacs-application-framework"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「Linux、Emacs 开源社区从业二十余载；懒猫微服 CEO，不端不装，仗剑走天涯」。",
+  "<strong>代表作：</strong>Emacs Application Framework（★3,493）、lsp-bridge（★1,754）、lazycat-emacs、aweshell、awesome-tab、snails、awesome-tray、holo-layer、blink-search、color-rg、Deepin Terminal；二十个 Omarchy 插件；懒猫微服、懒猫 AI 算力舱。",
+  "<strong>关键数字：</strong>博客 867 篇、约 156 万字；X 帖子约 6.7 万条、关注者约 5.4 万；GitHub 160 个公开仓库。",
+  "<strong>近况：</strong>2026 年 10 月作为英伟达中国区四家 ISV 之一，在英伟达大会分享 DeepSeek、GLM、Qwen 的推理优化。"
+ ],
+ "lead": "EAF 的 README 开头写道：Emacs 这个可扩展的「文本编辑器」已经四十五岁了，比今天人们使用的几乎所有操作系统都老。但 Emacs 的框架和历史包袱让它很难支持多线程和多媒体。EAF 用 X11 的窗口嵌入技术和 PyQt，把任意图形程序嵌进 Emacs 窗口，和 Emacs 原有生态协作，「实现我多年 Live in Emacs 的小梦想」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创业者、开源作者、工程师"],
+     ["公司", "懒猫微服（武汉）"],
+     ["经历", "自学编程 → 手机游戏开发（2005–2007）→ 服装厂（2007–2009）→ Deepin CTO（2010–2018）→ 多家 IT 公司（2019–）"],
+     ["开源", "EAF、lsp-bridge、holo-layer、blink-search、Omarchy 插件"],
+     ["技术栈", "Emacs Lisp、Python、C++ / Qt、Vala、Go"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "现在王勇的主业是<strong>给工程师造私有 AI 基础设施</strong>。懒猫微服是一台带自家 LZCOS 系统、内网穿透、零信任硬件设计和应用商店的家用服务器；最近应用商店上线了「打赏榜」和「催更榜」，网盘加了文件保险箱。懒猫 AI 算力舱则主打大模型推理：TA 在一个月里移植了六十多个模型，把主流推理引擎都深度试了一遍，还自己优化 GLM 5.3 Flash 的预填充性能。"},
+    {"p": "TA 的另一面是 Emacs 和 Linux 桌面。lsp-bridge 把所有计算放到外部 Python 进程，让 Emacs 保持流畅；holo-layer 是 Emacs 的多媒体图层；2026 年 TA 又迷上了 Arch 系发行版 Omarchy，写到了第二十个插件。"},
+    {"note": "本页依据 manateelazycat.github.io（首页、About、Projects）、lazycat.cloud、GitHub 个人简介与 README、维基百科 Deepin 条目和 X 帖子整理，资料截至 2026 年 10 月。算力和容量数字来自懒猫官网宣传；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "自学", "text": "自学计算机和编程，长期活跃于 Emacs 社区（EmacsWiki 上的 AndyStewart）。"},
+     {"when": "2005–2009", "title": "游戏与服装厂", "text": "做手机游戏开发，后来开了一家服装厂。"},
+     {"when": "2010–2018", "title": "Deepin CTO", "text": "深度操作系统的 CTO；写过 Vala 版深度终端。"},
+     {"when": "2018–2022", "title": "Emacs 插件井喷", "text": "aweshell、awesome-tab、snails、EAF、nox、lsp-bridge。"},
+     {"when": "2019–", "title": "懒猫微服", "text": "创办并出任 CEO，做私有云硬件与系统。"},
+     {"when": "2026", "title": "AI 算力舱", "text": "大模型推理优化；参加英伟达中国大会分享。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Emacs Application Framework", "url": "https://github.com/emacs-eaf/emacs-application-framework",
+     "meta": ["Python + PyQt", "Emacs", "★3.5 千"],
+     "paras": [
+      "「A free/libre and open-source extensible framework that revolutionizes the graphical capabilities of Emacs.」在 Emacs 里运行浏览器、PDF 阅读器、视频播放器、终端等图形应用，目标是「Live in Emacs」。"
+     ]
+    }},
+    {"work": {
+     "name": "lsp-bridge", "url": "https://github.com/manateelazycat/lsp-bridge",
+     "meta": ["2022–", "Emacs Lisp + Python", "★1.8 千"],
+     "paras": [
+      "「A blazingly fast LSP client for Emacs.」把语言服务器通信放到外部进程，避免 Emacs 单线程卡顿，至今仍在维护。"
+     ]
+    }},
+    {"work": {
+     "name": "懒猫微服", "url": "https://lazycat.cloud",
+     "meta": ["私有云", "硬件 + 系统"],
+     "paras": [
+      "「懒猫，顶尖工程师的私有 AI 基础设施。」产品线包括懒猫微服（AI 数据中心）、懒猫 AI 算力舱和懒猫 AI 摄像头，配套应用商店和开发者文档。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["blink-search", "多源搜索框架，计算都交给外部 Python 进程"],
+      ["holo-layer", "为 Emacs 设计的多媒体图层"],
+      ["color-rg", "基于 ripgrep 的搜索与重构工具"],
+      ["Deepin Terminal", "用 Vala 写的深度终端（已归档）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://manateelazycat.github.io", "paras": [
+     "博客首页的标语是「生活可以更简单，欢迎来到我的开源世界」，统计着 867 篇文章和 155 万多字。最近的文章一半是技术（AI 推理引擎怎么选、Omarchy 插件），一半是经营思考（机会是创造出来的、小公司不要把精力都花在内部管理上、做好生意光有好产品还不够）。",
+     "About 页自评：「擅长研究用户心理，可以快速从 0 到 1 构建交互体验极佳的产品；全能选手，上到客户需求沟通、研发团队管理，下到接网线写代码。」"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["规模", "867 篇、约 156 万字"],
+      ["节奏", "几乎每天一篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-21", "title": "128GB 推理设备的 AI 模型推理引擎怎么选？", "url": "https://manateelazycat.github.io"},
+     {"date": "2026-10-14", "title": "机会是创造出来的", "url": "https://manateelazycat.github.io"},
+     {"date": "2026-10-13", "title": "小公司不要把精力都花在内部管理上", "url": "https://manateelazycat.github.io"},
+     {"date": "2026-10-12", "title": "AI 时代的承载力", "url": "https://manateelazycat.github.io"}
+    ]},
+    {"quote": "如果这些事情导致了这个企业成功，那即将要做的事情就是继续保持就好了，不要膨胀，不要膨胀，不要膨胀。", "cite": "王勇，X，2026-10"},
+    {"p": "TA 总结一家企业成功的原因：产品给客户带来足够多的价值；每天都专注于客户服务；团队认知足够高，每天都在事情上，而不是在理想上。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["开源", "Emacs 生态影响大，产出极高", "部分插件已归档或不再维护"],
+      ["跨度", "从系统、编辑器到硬件和 AI 推理", "—"],
+      ["产品", "懒猫微服面向开发者定位清晰", "性能数字多为厂商宣传，需自行评估"],
+      ["表达", "坦率、高产", "X 上产品推广内容较多"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把一个梦想做二十年：</strong>Live in Emacs。",
+     "<strong>耗时的计算交给外部进程，</strong>主界面保持流畅。",
+     "<strong>写作即思考：</strong>每天一篇。",
+     "<strong>成功后别膨胀。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "lsp-bridge", "url": "https://github.com/manateelazycat/lsp-bridge", "why": "让 Emacs 的代码补全飞起来。"},
+     {"name": "EAF", "url": "https://github.com/emacs-eaf/emacs-application-framework", "why": "在 Emacs 里打开浏览器。"},
+     {"name": "ManateeLazyCat 博客", "url": "https://manateelazycat.github.io", "why": "技术与创业的日更记录。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "找出你编辑器里最卡的一个插件，看看它是不是在主线程做了不该做的计算。",
+ "sources": [
+  {"label": "王勇的 X 个人资料", "url": "https://x.com/manateelazycat"},
+  {"label": "ManateeLazyCat 博客", "url": "https://manateelazycat.github.io"},
+  {"label": "懒猫微服", "url": "https://lazycat.cloud"},
+  {"label": "GitHub：manateelazycat", "url": "https://github.com/manateelazycat"},
+  {"label": "维基百科：Deepin", "url": "https://en.wikipedia.org/wiki/Deepin"}
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "name": "Folke Lemaitre",
+ "role": "LazyVim、lazy.nvim、tokyonight.nvim、snacks.nvim 作者 · Neovim 组织成员 · 比利时根特",
+ "title": "Folke Lemaitre：让 Neovim <em>开箱即用</em>",
+ "dek": "TA 住在比利时根特，是 Neovim 生态里最多产、最有影响力的插件作者之一，也是 Neovim GitHub 组织的成员。TA 写的 LazyVim（★2.8 万）是一套开箱即用的 Neovim 配置，把编辑器变成功能完整的 IDE，同时保持完全可定制；它背后的 lazy.nvim（★2.2 万）是现代 Neovim 插件管理器，几乎成了新配置的标准。TA 的作品清单很长：配色方案 tokyonight.nvim（★8.2 千）、一组提升生活质量的插件 snacks.nvim（★8.2 千）、显示快捷键提示的 which-key.nvim、诊断列表 trouble.nvim、完全替换消息和命令行界面的 noice.nvim、跳转工具 flash.nvim、待办注释高亮 todo-comments.nvim，以及 2025 年发布的 AI 助手插件 sidekick.nvim。2026 年 7 月，TA 预告了一个叫 Zaly 的新项目，内置几十套主题和漂亮的 diff 显示。",
+ "card": "LazyVim（★2.8 万）、lazy.nvim（★2.2 万）、tokyonight、snacks.nvim 作者；Neovim 组织成员，比利时根特。",
+ "location": "比利时根特",
+ "updated": "2026-10-23",
+ "tags": ["Neovim", "Lua", "编辑器", "开发者工具", "开源"],
+ "links": [
+  {"label": "LazyVim", "url": "https://www.lazyvim.org"},
+  {"label": "lazy.nvim", "url": "https://lazy.folke.io"},
+  {"label": "GitHub：folke", "url": "https://github.com/folke"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Never stop exploring 🏃 🏄 🧘‍♂️ 👨‍💻 🌴 🌊 ⛰️ ☀️ #LazyVim」",
+  "<strong>代表作：</strong>LazyVim（★27,706）、lazy.nvim（★21,668）、tokyonight.nvim（★8,227）、snacks.nvim（★8,165）、which-key.nvim（★7,321）、trouble.nvim（★6,904）、noice.nvim（★5,825）、flash.nvim（★4,264）、todo-comments.nvim（★4,216）、sidekick.nvim（★2,799）、zen-mode.nvim、lazydev.nvim。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 1.1 万、132 个公开仓库、近一年贡献 3,058 次；X 关注者约 9.5 千。",
+  "<strong>2026 年：</strong>预告新项目 Zaly。"
+ ],
+ "lead": "2025 年 9 月 30 日，TA 发布了 sidekick.nvim：「你的 Neovim AI 助手」，获得 800 多个赞。几个月后，TA 发了一条更像「工具链宣言」的帖子：「⚡️ bun + biome + tsgo，🪦 pnpm + tsc + eslint + prettier + vtsls」，后来又补充说自己在新项目里把 Biome 换成了 Oxc。TA 也直言困惑：喜欢 Pi、OpenCode 这样的开源编程 Agent，但用最强的模型时，怎么才能不每月烧掉上千美元？",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开源开发者"],
+     ["所在地", "比利时根特"],
+     ["组织", "Neovim GitHub 组织成员"],
+     ["开源", "LazyVim、lazy.nvim、snacks.nvim、tokyonight.nvim 等"],
+     ["技术栈", "Lua、TypeScript"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Folke 的作品几乎覆盖了<strong>一个现代 Neovim 环境的方方面面</strong>：用 lazy.nvim 管理插件，用 LazyVim 提供合理的默认配置，用 which-key 记住快捷键，用 trouble 看诊断，用 flash 在代码里跳转，用 snacks 补齐各种小功能，用 tokyonight 统一配色（还附带 Kitty、Alacritty 等终端主题）。sidekick.nvim 则把 AI 编程助手带进 Neovim。"},
+    {"p": "TA 也在折腾自己的 Linux 环境：Niri 窗口管理器加 DankMaterialShell 被 TA 称为「完美」。2026 年 7 月起，TA 在 X 上陆续放出新项目 Zaly 的预览，包括 ayu、catppuccin、dracula、gruvbox 等内置主题和 diff 视图，还在征求主题建议。"},
+    {"note": "本页依据 GitHub 仓库与 README、lazyvim.org、lazy.folke.io 和 X 帖子整理，资料截至 2026 年 10 月。Zaly 尚未正式发布，具体是什么以 TA 的公告为准；职业背景未公开。性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2019", "title": "dotfiles", "text": "公开自己的配置文件（★1,290）。"},
+     {"when": "2021", "title": "Lua 插件爆发", "text": "tokyonight、which-key、trouble、todo-comments、zen-mode、twilight、neodev。"},
+     {"when": "2022", "title": "noice 与 lazy.nvim", "text": "9 月 noice.nvim；11 月 lazy.nvim；12 月底开始 LazyVim。"},
+     {"when": "2023–2024", "title": "LazyVim 生态", "text": "flash.nvim、lazydev.nvim；11 月 snacks.nvim。"},
+     {"when": "2025", "title": "sidekick.nvim", "text": "把 AI 助手带进 Neovim。"},
+     {"when": "2026", "title": "Zaly", "text": "预告新项目。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "LazyVim", "url": "https://www.lazyvim.org",
+     "meta": ["2022–", "Lua", "★2.8 万"],
+     "paras": [
+      "「Neovim config for the lazy」装好即用的 Neovim IDE 配置，所有部分都可以通过「extras」开关和覆盖。"
+     ],
+     "facts": [["GitHub", "★27,706"]]
+    }},
+    {"work": {
+     "name": "lazy.nvim", "url": "https://lazy.folke.io",
+     "meta": ["2022–", "Lua", "★2.2 万"],
+     "paras": [
+      "「A modern plugin manager for Neovim」按需懒加载、锁文件、自动缓存和漂亮的界面。"
+     ]
+    }},
+    {"work": {
+     "name": "tokyonight.nvim", "url": "https://github.com/folke/tokyonight.nvim",
+     "meta": ["2021–", "Lua", "★8.2 千"],
+     "paras": [
+      "「A clean, dark Neovim theme written in Lua」支持 LSP、Treesitter 和大量插件，附带多款终端的主题。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["snacks.nvim", "提升生活质量的插件合集（★8,165）"],
+      ["which-key.nvim", "边输入边提示可用快捷键（★7,321）"],
+      ["noice.nvim", "替换消息、命令行和弹出菜单的界面（★5,825）"],
+      ["sidekick.nvim", "Neovim AI 助手（★2,799）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "公开表达",
+   "blocks": [
+    {"site": {"url": "https://github.com/folke", "paras": [
+     "Folke 的 X 简介直接链接到 GitHub，个人域名 folke.io 也跳转到 GitHub 主页。TA 的作品文档做得很用心：LazyVim 和 lazy.nvim 都有独立的文档网站，README 里有大量配置示例和截图。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "folke.io 跳转 GitHub"],
+      ["文档", "lazyvim.org、lazy.folke.io"],
+      ["社交", "X，发帖不多但传播广"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "It seems like everyone in my feed is building either an agent terminal multiplexer, or an agent memory store. I'm definitely not working on a multiplexer.", "cite": "Folke Lemaitre，X，2026-04"},
+    {"p": "TA 对工具的选择很坦率，也乐于根据体验调整：先推荐 Biome，后来又转向 Oxc；同时承认 pnpm「仍然是最好的之一」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "定义了现代 Neovim 配置方式", "—"],
+      ["质量", "插件精致、文档完善", "—"],
+      ["可持续", "—", "大量插件主要由一人维护"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>好的默认值降低门槛，</strong>可定制性留住高手。",
+     "<strong>一个生态可以由一组小插件组成。</strong>",
+     "<strong>给每个工具配上好文档。</strong>",
+     "<strong>持续尝试新工具链。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "LazyVim", "url": "https://www.lazyvim.org", "why": "五分钟把 Neovim 变成 IDE。"},
+     {"name": "which-key.nvim", "url": "https://github.com/folke/which-key.nvim", "why": "再也不怕忘记快捷键。"},
+     {"name": "sidekick.nvim", "url": "https://github.com/folke/sidekick.nvim", "why": "在 Neovim 里用 AI。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "装上 LazyVim，用一周时间只在 Neovim 里写代码，每天学会 which-key 提示里的一个新快捷键。",
+ "sources": [
+  {"label": "Folke Lemaitre 的 X 个人资料", "url": "https://x.com/Folke"},
+  {"label": "GitHub：folke", "url": "https://github.com/folke"},
+  {"label": "LazyVim", "url": "https://www.lazyvim.org"},
+  {"label": "lazy.nvim", "url": "https://lazy.folke.io"}
+ ]
+}

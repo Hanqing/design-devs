@@ -1,0 +1,426 @@
+{
+ "handle": "ryanashcraft",
+ "sites": [
+  {
+   "url": "https://ryanashcraft.com",
+   "ok": true,
+   "title": "Ryan Wesley",
+   "description": "Hi! I'm Ryan. I design and build software products. I write about what I learn here.",
+   "stack": [
+    "Ghost 6.73",
+    "Ghost",
+    "Plausible"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Fastly"
+   ],
+   "lang": "en",
+   "home_text": "Ryan Wesley\nHi! I'm Ryan. I design and build software products. I write about what I learn here. \n Subscribe now \n Login \n Jan\n 26\nIntroducing FabBar: The Liquid Glass Tab Bar I Wish Apple Made \n 1 min read\n Jan\n 05\nMy Beef with the iOS 26 Tab Bar \n 7 min read\n May\n 13\nSQLite Databases in App Group Containers: Just Don't \n 4 min read\n Apr\n 21\nA Series of Unfortunate Events: April 14 Foodnoms Outage Postmortem \n 5 min read\n Mar\n 13\nIndie, Not Alone \n 4 min read",
+   "github_links": [],
+   "subpages": {},
+   "feed": {
+    "url": "https://ryanwesley.com/rss/",
+    "count_seen": 15,
+    "items": [
+     {
+      "title": "Introducing FabBar: The Liquid Glass Tab Bar I Wish Apple Made",
+      "date": "Mon, 26 Jan 2026 20:56:07",
+      "url": "https://ryanwesley.com/introducing-fabbar/"
+     },
+     {
+      "title": "My Beef with the iOS 26 Tab Bar",
+      "date": "Mon, 05 Jan 2026 18:14:07",
+      "url": "https://ryanwesley.com/ios-26-tab-bar-beef/"
+     },
+     {
+      "title": "SQLite Databases in App Group Containers: Just Don't",
+      "date": "Tue, 13 May 2025 22:57:30",
+      "url": "https://ryanwesley.com/sqlite-databases-in-app-group-containers/"
+     },
+     {
+      "title": "A Series of Unfortunate Events: April 14 Foodnoms Outage Postmortem",
+      "date": "Tue, 22 Apr 2025 01:12:22",
+      "url": "https://ryanwesley.com/april-14-2025-foodnoms-outage-postmortem/"
+     },
+     {
+      "title": "Indie, Not Alone",
+      "date": "Thu, 13 Mar 2025 17:52:35",
+      "url": "https://ryanwesley.com/indie-not-alone/"
+     },
+     {
+      "title": "Fool Me Once…",
+      "date": "Fri, 10 Jan 2025 20:03:08",
+      "url": "https://ryanwesley.com/fool-me-once/"
+     },
+     {
+      "title": "Introducing Expandable: A Little SwiftUI View for Expandable Text",
+      "date": "Thu, 17 Oct 2024 18:52:34",
+      "url": "https://ryanwesley.com/introducing-expandable/"
+     },
+     {
+      "title": "A Paywall Optimization Success Story",
+      "date": "Thu, 25 Jul 2024 20:57:42",
+      "url": "https://ryanwesley.com/paywall-optimization-success-story/"
+     },
+     {
+      "title": "Splitting Up a Monolith: From 1 to 25 Swift Packages",
+      "date": "Mon, 08 Apr 2024 16:29:57",
+      "url": "https://ryanwesley.com/splitting-up-a-monolithic-swift-package/"
+     },
+     {
+      "title": "Growth Design Retrospective – Driving Users to Sign Into the Community Database",
+      "date": "Fri, 02 Jun 2023 23:02:02",
+      "url": "https://ryanwesley.com/driving-users-to-sign-into-the-community-database/"
+     },
+     {
+      "title": "What I Learned Writing My Own CloudKit Syncing Library",
+      "date": "Thu, 13 Apr 2023 17:40:00",
+      "url": "https://ryanwesley.com/what-i-learned-writing-my-own-cloudkit-sync-library/"
+     },
+     {
+      "title": "Dev Notes #7 – Inevitable Complexity",
+      "date": "Wed, 04 Jan 2023 19:49:09",
+      "url": "https://ryanwesley.com/dev-notes-7-inevitable-complexity/"
+     },
+     {
+      "title": "Dev Notes #6 – VoiceOver Audit",
+      "date": "Sat, 24 Dec 2022 22:48:27",
+      "url": "https://ryanwesley.com/dev-notes-6-voiceover-audit/"
+     },
+     {
+      "title": "Dev Notes #5 – The Initial Wave of Feedback",
+      "date": "Thu, 22 Dec 2022 18:11:47",
+      "url": "https://ryanwesley.com/dev-notes-5-the-initial-wave-of-feedback/"
+     },
+     {
+      "title": "Dev Notes #4 – Scaling the Beta",
+      "date": "Tue, 20 Dec 2022 18:23:52",
+      "url": "https://ryanwesley.com/dev-notes-4-scaling-the-beta/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "ryanashcraft",
+  "user": {
+   "name": "Ryan Ashcraft",
+   "company": null,
+   "blog": "https://ryanashcraft.com",
+   "location": "San Francisco Bay Area",
+   "bio": "Web/iOS Software Engineer",
+   "public_repos": 74,
+   "followers": 109,
+   "created_at": "2010-12-15T02:55:21Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "ryanashcraft/CloudSyncSession",
+    "description": "Swift package that makes it easier to write CloudKit sync-enabled, offline-capable apps",
+    "stargazers_count": 355,
+    "forks_count": 14,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-07-28T22:43:39Z",
+    "pushed_at": "2026-08-12T03:52:41Z",
+    "topics": [
+     "cloudkit",
+     "icloud",
+     "icloud-sync",
+     "ios",
+     "macos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/FabBar",
+    "description": "A faithful recreation of the iOS 26 Liquid Glass tab bar with a tinted floating action button.",
+    "stargazers_count": 353,
+    "forks_count": 31,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2026-01-23T01:03:44Z",
+    "pushed_at": "2026-03-01T18:02:42Z",
+    "topics": [
+     "ios",
+     "liquid-glass",
+     "swiftui",
+     "uikit"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/CollaborativeFiltering",
+    "description": "In-memory recommendation algorithm for Swift apps",
+    "stargazers_count": 49,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-04-13T05:57:48Z",
+    "pushed_at": "2023-04-14T16:19:34Z",
+    "topics": [
+     "collaborative-filtering",
+     "ios",
+     "recommendation-engine",
+     "statistics",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/Expandable",
+    "description": null,
+    "stargazers_count": 35,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-10-16T23:04:52Z",
+    "pushed_at": "2024-10-17T18:58:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/SwiftUI-TodoMVC",
+    "description": "TodoMVC implemented in SwiftUI",
+    "stargazers_count": 22,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-07-09T18:47:54Z",
+    "pushed_at": "2020-06-16T18:00:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/gatsby-plugin-amplitude-analytics",
+    "description": "Gatsby plugin to add Amplitude analytics onto a site",
+    "stargazers_count": 4,
+    "forks_count": 10,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-06-25T02:30:39Z",
+    "pushed_at": "2023-01-06T01:43:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/BadAccessPlayground",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-10-03T23:27:49Z",
+    "pushed_at": "2023-10-10T01:34:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/Classified-C",
+    "description": "A toy project that attempts to twist C into a classical object-oriented language with Objective-C style message passing.",
+    "stargazers_count": 2,
+    "forks_count": 2,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2012-04-11T18:43:42Z",
+    "pushed_at": "2012-08-29T02:44:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/js-reactor",
+    "description": "Opinionated JS dev tool",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-12-30T02:19:01Z",
+    "pushed_at": "2015-12-30T02:43:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/DaftMan",
+    "description": "A take on the classic \"Bomberman\" video game.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "http://ryanashcraft.github.io/DaftMan/",
+    "created_at": "2012-02-25T02:31:33Z",
+    "pushed_at": "2026-02-07T00:48:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/swift-pid",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2024-01-10T22:12:48Z",
+    "pushed_at": "2024-01-10T22:53:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/vroom-vroom",
+    "description": "An HTTP server that interprets server-side JavaScript with the V8 JavaScript engine.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2012-10-08T03:56:39Z",
+    "pushed_at": "2012-11-21T02:38:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/file-transfer",
+    "description": "TCP/UDP client/server suite.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2013-04-03T20:10:14Z",
+    "pushed_at": "2013-04-03T20:16:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/flappy-bird",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-02-11T16:24:08Z",
+    "pushed_at": "2014-02-11T16:24:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/gatsby-starter-netlify-cms",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-07-17T15:41:28Z",
+    "pushed_at": "2023-01-11T20:37:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/gulp-ecstatic",
+    "description": "Isomorphic static site generator",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-01-18T00:37:33Z",
+    "pushed_at": "2015-01-20T02:41:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/libprototype",
+    "description": "Library to facilitate prototypal object-oriented programming in C",
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2013-02-10T06:12:41Z",
+    "pushed_at": "2013-02-16T20:59:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryanashcraft/music-sandbox",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2018-08-13T01:00:16Z",
+    "pushed_at": "2018-08-13T01:00:39Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 24,
+  "languages": [
+   [
+    "JavaScript",
+    11
+   ],
+   [
+    "Swift",
+    7
+   ],
+   [
+    "C",
+    3
+   ],
+   [
+    "TypeScript",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "ryanashcraft/CloudSyncSession",
+    "stargazerCount": 355,
+    "description": "Swift package that makes it easier to write CloudKit sync-enabled, offline-capable apps",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "ryanashcraft/CollaborativeFiltering",
+    "stargazerCount": 49,
+    "description": "In-memory recommendation algorithm for Swift apps",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "ryanashcraft/SwiftUI-TodoMVC",
+    "stargazerCount": 22,
+    "description": "TodoMVC implemented in SwiftUI",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "amplitude/redux-query",
+    "stargazerCount": 1099,
+    "description": "A library for managing network state in Redux",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://amplitude.github.io/redux-query"
+   }
+  ],
+  "contrib_last_year": 7512,
+  "orgs": [
+   "AntarcticApps"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "ryanashcraft/CloudSyncSession": "# CloudSyncSession\nCloudSyncSession is a Swift library that builds on top of the CloudKit framework to make it easier to write sync-enabled, offline-capable apps.\nSimilar to [NSPersistentCloudKitContainer](https://developer.apple.com/documentation/coredata/nspersistentcloudkitcontainer), CloudSyncSession works for apps that need to sync all records in a zone between iCloud and the client. Unlike NSPersistentCloudKitContainer, which offers local persistence, CloudSyncSession does not persist state to disk in any way. As such, it can be used in conjunction with any local persistence solution (e.g. GRDB, Core Data, user defaults and file storage, etc.).\n## Design Principles\n1. Persistence-free. Data is not persisted to disk.\n2. Testable. Code is structured in a way to maximize how much behavior can be tested.\n3. Modular. To the extent that it makes sense, different behaviors are handled separately by different components.\n4. Event-based. State is predictable, as it is updated based on the series of events that have previously occurred.\n5. Resilient. Recoverable errors are gracefully handled using retries and backoffs. Non-recoverable errors halt further execution until the app signals that work should be resumed.\n6. Inspectable. The current state of the session can be evaluated for troubleshooting and diagnostics.\n7. Focused. This project aims to solve a particular use case and do it well.\n## Usage\n1. Initialize the session.\n```swift\nstatic let storeIdentifier: String\nstatic let zoneID: CKRecordZone.ID\nstatic let subscriptionID: String\nstatic let log: OSLog\nstatic func makeSharedSession() -> CloudSyncSession {\n    let container = CKContainer(identifier: Self.storeIdentifier)\n    let database = container.privateCloudDatabase\n    let session = CloudSyncSession(\n        operationHandler: CloudKitOperationHandler(\n            database: database,\n            zoneID: Self.zoneID,\n            subscriptionID: Self.subscriptionID,\n            log: Self.log\n        ),\n        zoneID: Self.zoneID,\n        resolveConflict: resolveConflict,\n        resolveExpiredChangeToken: resolveExpiredChangeToken\n    )\n    session.appendMiddleware(\n        AccountStatusMiddleware(\n         ",
+   "ryanashcraft/CollaborativeFiltering": "# CollaborativeFiltering\n[Collaborative filtering](https://en.wikipedia.org/wiki/Collaborative_filtering) is a type of recommendation algorithm that utilizes the preferences and behavior of similar users to suggest items (e.g. movies, music, products, etc.) that a user may like. It works by finding patterns in the preferences of different users and using these patterns to predict the preferences of new users. This is based on the assumption that people who have similar preferences in the past will have similar preferences in the future.\nThis library provides one form of collaborative filtering that runs in-memory and uses [Jaccard similarity](https://en.wikipedia.org/wiki/Jaccard_index) to measure the similarity between users' preferences. It provides item recommendations for a user based on users with a similar taste.\nYou can also apply this algorithm to single-user use cases, where you aim to predict future behavior based on past behavior. In scenarios like this, \"users\" can instead represent distinct user sessions instead.\nThis library is largely a straightforward port from [collaborative-filtering](https://github.com/TSonono/collaborative-filtering), a JavaScript open-source project by TSonono.\n## Usage\n1. Prepare input data (\"ratings\").\nYou need to structure your input data as a two-dimensional array. Each row represents a user (or user session), and each column represents an item rating. Each item rating value can either be 0 or 1. 1 is a positive rating, e.g. a \"like\", rating, purchase, or some type of feature engagement. 0 indicates null or no usage.\n```\n     I0 I1 I2 . . .\n    [\nU0  [1  1  1  .  .  .],\nU1  [1  0  1  .  .  .],\nU2  [1  0  0  .  .  .],\n.   [.  .  .  .  .  .],\n.   [.  .  .  .  .  .],\n.   [.  .  .  .  .  .],\n    ]\n```\nThe algorithm in this library runs in-memory and has a runtime complexity of approximately O(U(I^2)), where U is the number of users and I is the number of items. Therefore, it is best suited for use cases with a reasonably small scale.\nThe current user must be included in this 2D array. When preparing this data, you'll need to remember which row represents the current user and what each column index represents.\n```swift\nlet re",
+   "ryanashcraft/SwiftUI-TodoMVC": "# SwiftUI-TodoMVC\n[TodoMVC](http://todomvc.com/) implemented in [SwiftUI](https://developer.apple.com/xcode/swiftui/).\n",
+   "amplitude/redux-query": "# redux-query\n[](https://travis-ci.org/amplitude/redux-query)\n[](https://codecov.io/gh/amplitude/redux-query)\nA library for managing network state in Redux.\n## Why use redux-query?\n- **It's simply Redux**: Follow best practices for storing and handling network state in Redux, with support for features like optimistic updates and cancellation. There's no magic here, just middleware, actions, selectors, and reducers.\n- **It's extensible**: Built to fit most use cases out-of-the-box, but can easily be extended with custom Redux middleware, UI integrations, and network interfaces.\n- **It works great with React**: With the provided React hooks and higher-order component in redux-query-react (optional), colocate data dependencies with your components and run requests when components mount or update.\n## Docs\n- **[Getting Started and Installation](https://amplitude.github.io/redux-query/docs/getting-started)**\n- [Entities](https://amplitude.github.io/redux-query/docs/entities)\n- [Requests vs. Mutations](https://amplitude.github.io/redux-query/docs/requests-vs-mutations)\n- [Query Configs](https://amplitude.github.io/redux-query/docs/query-configs)\n- [Query State](https://amplitude.github.io/redux-query/docs/query-state)\n- [Error State](https://amplitude.github.io/redux-query/docs/error-state)\n- [Network Interfaces](https://amplitude.github.io/redux-query/docs/network-interfaces)\n- [Flow Support](https://amplitude.github.io/redux-query/docs/flow)\n- [Typescript Support](https://amplitude.github.io/redux-query/docs/typescript)\n## Redux API\n- [Redux Actions](https://amplitude.github.io/redux-query/docs/redux-actions)\n- [Redux Selectors](https://amplitude.github.io/redux-query/docs/redux-selectors)\n## React API\n- [useRequest](https://amplitude.github.io/redux-query/docs/use-request)\n- [useRequests](https://amplitude.github.io/redux-query/docs/use-requests)\n- [useMutation](https://amplitude.github.io/redux-query/docs/use-mutation)\n- [connectRequest](https://amplitude.github.io/redux-query/docs/connect-request)\n## Examples\n- [Simple example](https://amplitude.github.io/redux-query/docs/examples/simple): This example is a very simple web app that has only one feature – you can v",
+   "ryanashcraft/FabBar": "# FabBar\nA faithful recreation of the iOS 26 Liquid Glass tab bar with a tinted floating action button.\n> **Warning:** This library relies on internal UIKit view hierarchy manipulation that may break in future iOS updates. Use at your own risk.\n## Why FabBar?\nMany apps have a primary action that users perform frequently: composing a social media post, logging a meal, creating a task. Placing this action at the bottom of the screen keeps it in the thumb zone and always visible, reducing friction for the most common user flow.\nWith iOS 26's tab bar, developers can declare a tab with `role: .search` and abuse it as a primary action, but this approach has several issues:\n- You're lying to the system, it's not actually a search tab\n- VoiceOver reads it as a tab, not a button\n- Requires listening for tab changes and undoing them in SwiftUI, which is prone to race conditions\n- No ability to tint, so it looks like a search tab rather than a primary action\nDevelopers have another option: placing a custom floating action button above the tab bar. Typically, this is placed on the right side of the screen. However, with iOS 26's centered tab bar, this creates an awkward layout. With fewer than four tabs, there's negative space on either side of the bar, and placing a FAB on the trailing edge creates unbalanced empty space below it. And there's no way to customize the native tab bar's placement or sizing to work around this.\nFabBar provides one solution: recreate the tab bar entirely for full control.\n## How It Works\nFabBar provides a SwiftUI API but uses UIKit internally.\nThe key challenge in faithfully recreating the tab bar is the bubbly interactive glass effect on touch down. This effect is only available to tab bars and one other component: segmented controls. FabBar uses a `UISegmentedControl` as its foundation, hiding the default labels and overlaying custom tab item views.\nWhy UIKit? FabBar manipulates `UISegmentedControl`'s internal view hierarchy to hide the native labels and overlay custom views. This isn't possible with SwiftUI's Picker. Additionally, mixing custom UIKit controls with SwiftUI's `.glassEffect()` causes framerate issues during touch interactions.\nT"
+  }
+ },
+ "apps": []
+}

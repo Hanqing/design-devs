@@ -1,0 +1,156 @@
+{
+ "name": "Fabio Spampinato",
+ "role": "Notable 笔记应用作者 · Voby 框架作者 · cash 作者 · Meta 工程师 · 伦敦",
+ "title": "Fabio Spampinato：<em>努力写好软件</em>",
+ "dek": "TA 住在伦敦，在 Meta 工作，所有简介都只有一句话：「Trying to write good software.」TA 最有名的作品是 Notable（★2.3 万），「一个不烂的、基于 Markdown 的笔记应用」：笔记就是普通的 Markdown 文件，编辑器和 VS Code 用的是同一个，支持 KaTeX 公式和 Mermaid 图表，没有厂商锁定。TA 还写了「小得离谱的 jQuery 替代品」cash（★7 千），基于 Signals 的高性能前端框架 Voby，以及一个不到 1 KB、为代码清晰而优化的 Solid 响应式核心简化实现 flimsy。TA 在 GitHub 上有 429 个公开仓库，大多是追求极小体积、零依赖的工具库：原子化读写文件的 atomically、构建漂亮命令行的 tiny-bin、一键发版的 bump，以及 VS Code 插件 Todo+。",
+ "card": "Notable（★2.3 万）、cash（★7 千）、Voby 作者；Meta 工程师，伦敦。",
+ "location": "英国伦敦",
+ "updated": "2026-10-23",
+ "tags": ["Markdown", "笔记应用", "Signals", "小型库", "VS Code"],
+ "links": [
+  {"label": "fabiospampinato.com", "url": "https://fabiospampinato.com"},
+  {"label": "Notable", "url": "https://notable.app"},
+  {"label": "GitHub：fabiospampinato", "url": "https://github.com/fabiospampinato"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「Trying to write good software.」",
+  "<strong>代表作：</strong>Notable（★23,492）、cash（★7,033）、cliflix（★1,494）、vscode-todo-plus（★998）、Voby（★909）、autogit、bump、noty、flimsy、atomically、tiny-bin、vscode-highlight。",
+  "<strong>关键数字：</strong>GitHub 429 个公开仓库、粉丝约 2 千；X 关注者约 2.3 千、推文约 8.4 千条。",
+  "<strong>工作：</strong>Meta（GitHub 资料写 @facebook）。"
+ ],
+ "lead": "2026 年 8 月，TA 发了一段关于 AI 的观察：「有点烦人的是，做丑陋软件的人恰恰是从 AI 里获益最多的人。」如果你不在乎读代码、不在乎理解它，AI 能帮你更快地产出；而在乎代码之美的人，反而要花更多时间审视 AI 写的东西。这也解释了 TA 的作品风格：一个文件、不到 1 KB、为「干净的代码」而优化。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、独立应用作者"],
+     ["所在地", "英国伦敦"],
+     ["工作", "Meta"],
+     ["开源", "cash、Voby、flimsy、atomically、tiny-bin、Todo+"],
+     ["技术栈", "TypeScript、JavaScript"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Fabio 的作品有两条线：<strong>Notable 这样的桌面应用</strong>，和<strong>大量极小、极专注的库</strong>。Voby 是 TA 对 Signals 响应式的完整实践，flimsy 则把 Solid 的响应式核心压缩到一个文件里，方便人读懂。cash 用现代浏览器 API 实现 jQuery 风格的 API，体积小得多。"},
+    {"p": "TA 在 X 上的话题很广：语法高亮其实不需要构建完整的语法树、Web 仍然缺一个好用的持久化存储方案（「你还在用 IndexedDB？太蠢了」应该成为常识）、Firefox 的性能分析器比 Chrome 的更好用、RSA 加密的几个冷知识。"},
+    {"note": "本页依据 fabiospampinato.com、notable.app、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。Notable 的 GitHub 仓库目前主要用于发布与问题反馈；TA 在 Meta 的具体工作未公开。性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2014", "title": "cash", "text": "开始维护极小的 jQuery 替代品。"},
+     {"when": "2017", "title": "工具爆发", "text": "VS Code 插件 Todo+、Terminals；cliflix、noty、Phoenix 配置。"},
+     {"when": "2018–2019", "title": "Notable", "text": "Markdown 笔记应用走红；autogit、bump。"},
+     {"when": "2020–2022", "title": "小型库", "text": "atomically、store；2022 年 Voby、flimsy。"},
+     {"when": "2023–2026", "title": "持续打磨", "text": "tiny-bin 等；在 Meta 工作。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Notable", "url": "https://notable.app",
+     "meta": ["2018–", "桌面应用", "★2.3 万"],
+     "paras": [
+      "「The Markdown-based note-taking app that doesn't suck.」笔记存成普通 Markdown 文件，编辑器有多光标、缩略图等 VS Code 同款功能。"
+     ],
+     "facts": [["GitHub", "★23,492"]]
+    }},
+    {"work": {
+     "name": "cash", "url": "https://github.com/fabiospampinato/cash",
+     "meta": ["2014–", "JavaScript", "★7 千"],
+     "paras": [
+      "「An absurdly small jQuery alternative for modern browsers.」保留熟悉的 <code>$()</code> 写法，体积只有 jQuery 的一小部分。"
+     ]
+    }},
+    {"work": {
+     "name": "Voby", "url": "https://github.com/vobyjs/voby",
+     "meta": ["2022–", "TypeScript", "★909"],
+     "paras": [
+      "「A high-performance framework with fine-grained observable/signal-based reactivity for building rich applications.」"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["vscode-todo-plus", "VS Code 里管理待办清单（★998）"],
+      ["flimsy", "不到 1 KB 的 Solid 响应式核心简化实现"],
+      ["atomically", "原子化、可靠地读写文件"],
+      ["bump", "更新版本、生成更新日志、打标签并发布"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://fabiospampinato.com", "paras": [
+     "个人网站只有头像、一句「Trying to write good software.」和四个链接：GitHub、X、邮箱，以及一个用 GitHub 仓库做的「Ask Me Anything」。托管在 GitHub Pages 上。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["结构", "一句话 + 四个链接"],
+      ["互动", "GitHub AMA 仓库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "It's a bit annoying that people making ugly software are some of the people that benefit the most from AI 🤔", "cite": "Fabio Spampinato，X，2026-08"},
+    {"p": "TA 的帖子常带一点冷幽默：BT 协议和洗衣机计时器一定是同一个人设计的；学匹克球规则的感觉，和学一个过度复杂的库很像。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["品味", "极致的小而清晰", "—"],
+      ["产出", "数百个工具库", "单个库的社区规模较小"],
+      ["应用", "Notable 用户多", "近年更新节奏放缓"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>为读懂而写代码，</strong>不只为运行。",
+     "<strong>能小就小，能零依赖就零依赖。</strong>",
+     "<strong>用普通文件格式保存用户数据。</strong>",
+     "<strong>把复杂系统简化到一个文件来理解它。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "flimsy", "url": "https://github.com/fabiospampinato/flimsy", "why": "一个文件读懂 Signals。"},
+     {"name": "Notable", "url": "https://notable.app", "why": "试试 Markdown 笔记。"},
+     {"name": "cash", "url": "https://github.com/fabiospampinato/cash", "why": "看 jQuery 风格 API 能有多小。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读完 flimsy 的源代码，然后不看它，自己用 50 行写一个 createSignal 和 createEffect。",
+ "sources": [
+  {"label": "Fabio Spampinato 的 X 个人资料", "url": "https://x.com/fabiospampinato"},
+  {"label": "fabiospampinato.com", "url": "https://fabiospampinato.com"},
+  {"label": "Notable", "url": "https://notable.app"},
+  {"label": "GitHub：fabiospampinato", "url": "https://github.com/fabiospampinato"},
+  {"label": "GitHub：vobyjs/voby", "url": "https://github.com/vobyjs/voby"}
+ ]
+}

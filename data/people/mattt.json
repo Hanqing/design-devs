@@ -1,0 +1,159 @@
+{
+ "name": "Mattt",
+ "role": "NSHipster 创始人 · AFNetworking、Alamofire 作者 · iMCP、AnyLanguageModel · 前 Apple、GitHub、Heroku、Replicate · 波特兰",
+ "title": "Mattt：他的代码<em>跑在大多数 Apple 设备上</em>",
+ "dek": "他住在俄勒冈州波特兰。在 iOS 开发的早年，他写的网络库 AFNetworking 几乎是每个应用的标配，后来的 Swift 版 Alamofire 有 4.2 万颗星；他创办的 NSHipster 专门讲 Objective-C、Swift 和 Cocoa「被忽视的角落」，影响了一代 Apple 开发者。他在 GitHub 个人简介里写：「我的代码运行在全球大多数 Apple 设备上。」他在 Apple、GitHub、Heroku 和 Replicate 工作过。这两年他把精力转向 AI 与 Apple 平台的交汇：iMCP 让 Claude、ChatGPT 等通过 MCP 访问 Mac 上的信息、通讯录、提醒事项、日历、HomeKit；AnyLanguageModel 是 Apple Foundation Models 框架的「即插即用替代品」，可以接 OpenAI、Anthropic、Gemini、本地模型和 Hugging Face。他还在推动一项把波特兰市和马尔特诺马县政府合并的公民倡议。",
+ "card": "NSHipster 创始人，AFNetworking、Alamofire（★4.2 万）作者；iMCP、AnyLanguageModel、emcee；前 Apple、GitHub、Heroku、Replicate。",
+ "location": "美国俄勒冈州波特兰",
+ "updated": "2026-10-23",
+ "tags": ["Apple 平台", "Swift", "开源", "MCP / AI", "写作"],
+ "links": [
+  {"label": "NSHipster", "url": "https://nshipster.com"},
+  {"label": "iMCP", "url": "https://iMCP.app"},
+  {"label": "GitHub：mattt", "url": "https://github.com/mattt"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I founded NSHipster and created some of the most widely used open-source libraries in the Apple ecosystem, including AFNetworking and Alamofire.」",
+  "<strong>代表作：</strong>Alamofire（★42,395）、AFNetworking、NSHipster、iMCP（★1,785）、swift-transformers（★1,360）、AnyLanguageModel（★961）、emcee、Ono（★2,591）、GroundControl、CargoBay、Flight School 系列书。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 1.9 万、149 个公开仓库、近一年贡献 5,437 次；X 关注者约 3.5 万（帖子仅一百多条）。",
+  "<strong>公民行动：</strong>MultNoMo 倡议的首席请愿人；即将攻读波特兰州立大学公共管理行政硕士。"
+ ],
+ "lead": "2026 年 9 月，Mattt 做了一个小东西 trifle.day：每天一道编程冷知识题，由你的 AI 助手通过 MCP 出题。起因是编程 Agent 跑长任务时，他总会去刷 Hacker News，想要一个更小的分心方式；而灵感来自很多年前，他在开发者聚会和几届 WWDC 期间办的 NSHipster 酒吧问答，那时他常去奥斯汀一家叫 Ginger Man 的酒吧参加每周问答，希望有人问问 Cocoa 的冷门角落。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、作者、开源维护者"],
+     ["所在地", "美国俄勒冈州波特兰"],
+     ["经历", "Heroku、GitHub、Apple、Replicate"],
+     ["开源", "AFNetworking、Alamofire、iMCP、emcee、AnyLanguageModel、swift-transformers"],
+     ["写作", "NSHipster、Flight School 书系"],
+     ["技术栈", "Swift、Objective-C、Ruby、Go、TypeScript"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Mattt 现在在做<strong>让 AI 接入 Apple 设备上的个人数据</strong>。iMCP 是一个免费开源的 macOS 应用，向任何支持 MCP 的客户端提供信息、通讯录、提醒事项、日历、电话记录、语音信箱和 HomeKit 等服务；1.7 版本加入了「家」服务，可以编辑提醒和日历事件。emcee 则能为任何带 OpenAPI 描述的网络服务生成一个 MCP 服务器。"},
+    {"p": "在模型层面，他和 Hugging Face 的工程师一起维护 swift-transformers，以及 AnyLanguageModel：开发者可以沿用 Apple Foundation Models 的 API，自由选择模型和提供方，包括 OS 27 的私有云计算；它甚至能在 Linux 上运行。为了更快从 Hub 下载模型，他们还写了 swift-huggingface 和 swift-xet。"},
+    {"note": "本页依据 GitHub 个人简介与仓库 README、NSHipster 和 X 帖子整理，资料截至 2026 年 10 月。他在各公司的任职年份未公开；家庭和住所等个人信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2009–2012", "title": "Web 与 Ruby", "text": "Chroma-Hash 密码可视化、sinatra-param、rack-scaffold。"},
+     {"when": "2011–2014", "title": "AFNetworking 与 NSHipster", "text": "AFNetworking 成为 iOS 网络库标配；创办 NSHipster；GroundControl、CargoBay、Ono 等。"},
+     {"when": "2014 起", "title": "Alamofire", "text": "Swift 时代的网络库，后由社区组织维护。"},
+     {"when": "这些年", "title": "Flight School 与大公司", "text": "写 Flight School 系列书；先后在 Heroku、GitHub、Apple、Replicate 工作（顺序以其简介为准）。"},
+     {"when": "2025", "title": "iMCP 与 AnyLanguageModel", "text": "3 月发布 iMCP；10 月发布 AnyLanguageModel。"},
+     {"when": "2026", "title": "AI 与公民行动", "text": "AnyLanguageModel 1.0、iMCP 1.7、trifle.day、Pollen Pet；领导 MultNoMo 倡议。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Alamofire / AFNetworking", "url": "https://github.com/Alamofire/Alamofire",
+     "meta": ["Swift / ObjC", "网络库", "★4.2 万"],
+     "paras": [
+      "「Elegant HTTP Networking in Swift.」它的前身 AFNetworking 是 Objective-C 时代最流行的 iOS 网络库。如今 Alamofire 支持 Apple 全平台以及 Linux、Windows、Android。"
+     ]
+    }},
+    {"work": {
+     "name": "NSHipster", "url": "https://nshipster.com",
+     "meta": ["写作", "Apple 开发"],
+     "paras": [
+      "专门记录 Objective-C、Swift 和 Cocoa 里「被忽视的部分」的周刊式网站，后来出版成书，也办过线下问答活动。"
+     ]
+    }},
+    {"work": {
+     "name": "iMCP", "url": "https://iMCP.app",
+     "meta": ["2025–", "macOS", "★1.8 千"],
+     "paras": [
+      "「A macOS app that provides an MCP server to your Messages, Contacts, Reminders and more.」免费开源，支持 Claude 桌面版、ChatGPT 桌面版和 llama.cpp 等本地模型；用 Homebrew 安装，自动更新。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["AnyLanguageModel", "Apple Foundation Models 的兼容替代，支持多家模型（1.0）"],
+      ["emcee", "为任意 OpenAPI 服务生成 MCP 服务器"],
+      ["swift-transformers", "Hugging Face 的 Swift 版 transformers 风格 API"],
+      ["Ono", "iOS / macOS 上合理处理 XML 和 HTML（★2,591）"],
+      ["trifle.day", "由 AI 助手每天出一道编程冷知识题"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://nshipster.com", "paras": [
+     "Mattt 的 X 主页直接链接到 GitHub，GitHub 的个人简介就是他的「关于我」：职业、公民行动、个人生活三部分，末尾写着他的信条：「手段决定目的：过程的诚实决定结果的质量。」NSHipster 则保留了他多年的写作。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人主页", "GitHub 个人简介"],
+      ["写作", "NSHipster"],
+      ["X", "2006 年注册，只发过一百多条"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "I believe the means justify the ends: the integrity of the process determines the quality of the outcome.", "cite": "Mattt，GitHub 个人简介"},
+    {"p": "他最近在波特兰约见「做东西、也希望城市运转得更好」的人喝咖啡，说这是他今年的高光时刻之一。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "Apple 开源生态的基石作者", "—"],
+      ["写作", "NSHipster 深入浅出", "近年更新较少"],
+      ["新方向", "AI × Apple 平台的实用工具", "iMCP 访问个人数据，需自行评估隐私边界"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>写人人都需要的基础库。</strong>",
+     "<strong>记录冷门知识：</strong>NSHipster 证明它有价值。",
+     "<strong>兼容现有 API：</strong>AnyLanguageModel 让迁移零成本。",
+     "<strong>技术之外，也参与你的城市。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "NSHipster", "url": "https://nshipster.com", "why": "挑一篇你没听说过的 API。"},
+     {"name": "iMCP", "url": "https://iMCP.app", "why": "让 AI 助手读懂你的日历。"},
+     {"name": "AnyLanguageModel", "url": "https://github.com/huggingface/AnyLanguageModel", "why": "在 Swift 里自由切换模型。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你的 Agent 跑长任务时，试试 trifle.day 的一道题，而不是去刷信息流。",
+ "sources": [
+  {"label": "Mattt 的 X 个人资料", "url": "https://x.com/mattt"},
+  {"label": "GitHub：mattt", "url": "https://github.com/mattt"},
+  {"label": "NSHipster", "url": "https://nshipster.com"},
+  {"label": "GitHub：mattt/iMCP", "url": "https://github.com/mattt/iMCP"},
+  {"label": "GitHub：huggingface/AnyLanguageModel", "url": "https://github.com/huggingface/AnyLanguageModel"},
+  {"label": "trifle.day", "url": "https://trifle.day"}
+ ]
+}

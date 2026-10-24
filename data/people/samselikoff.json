@@ -1,0 +1,157 @@
+{
+ "name": "Sam Selikoff",
+ "role": "Vercel Next.js 团队 · Mirage.js 作者 · Build UI 联合创始人 · Frontend First 播客 · 纽约曼哈顿",
+ "title": "Sam Selikoff：把<em>前端 UI 开发</em>教好",
+ "dek": "TA 住在纽约曼哈顿，现在是 Vercel Next.js 团队的成员。TA 的个人网站写着：「从 2016 年起，我以教授 Web 上的 JavaScript UI 开发为生。」TA 早年活跃在 Ember 社区，和朋友 Ryan Toronto 一起做了视频教学网站 EmberMap，2022 年 10 月又一起推出了面向前端开发者的订阅视频网站 Build UI。TA 还创造了 Mirage.js（★5.5 千），一个在客户端模拟服务器的工具，让前端可以在没有后端的情况下构建、测试和分享应用；和 Ryan 一起主持每周的 Frontend First 播客；在 React Conf 2024 上讲了《React Unpacked: A Roadmap to React 19》。TA 的 YouTube 视频以一步步手写复杂交互闻名：iOS 音乐应用的仿制、可调整大小的面板、交互式日历。",
+ "card": "Vercel Next.js 团队；Mirage.js 作者，Build UI 联合创始人，Frontend First 播客，纽约。",
+ "location": "美国纽约曼哈顿",
+ "updated": "2026-10-23",
+ "tags": ["Next.js", "React", "前端教学", "视频课程", "交互动画"],
+ "links": [
+  {"label": "samselikoff.com", "url": "https://samselikoff.com"},
+  {"label": "Build UI", "url": "https://buildui.com"},
+  {"label": "Mirage.js", "url": "https://miragejs.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「since 2016 I've made a living teaching JavaScript UI development on the web.」",
+  "<strong>代表作：</strong>Mirage.js（★5,527）、Build UI、EmberMap、Frontend First 播客、Next.js 16 Recipes、ios-apple-music-clone（★349）、Egghead Tailwind 课程、Ember CLI Addon Docs。",
+  "<strong>关键数字：</strong>X 关注者约 3.4 万；GitHub 317 个公开仓库，大多是视频配套演示。",
+  "<strong>演讲：</strong>React Conf 2024、Next.js Conf 2023、Next.js Conf 2022、Big Sky Dev Con 2024。"
+ ],
+ "lead": "2026 年 8 月，TA 发帖说，刚加入 Next.js 团队时，对 Cache Components 并不怎么兴奋，因为它唯一的用例是文档、电商、营销这类偏静态生成的网站。但到了 16.3，Cache Components 可以完全在浏览器里工作：<code>\"use cache\"</code> 不再只是构建时预渲染，还能把请求时渲染的 RSC 存在浏览器里。同月 TA 开玩笑说，是时候在所有项目里全局搜索那段老写法了：<code>useState(false)</code> 加 <code>useEffect</code> 判断是不是在浏览器里。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "前端教育者、工程师"],
+     ["所在地", "美国纽约曼哈顿"],
+     ["工作", "Vercel（Next.js 团队）"],
+     ["合作者", "Ryan Toronto（EmberMap、Build UI、Frontend First）"],
+     ["开源", "Mirage.js、Ember CLI Addon Docs、ember-data-storefront"],
+     ["技术栈", "React、Next.js、Tailwind、Framer Motion"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Sam 现在在 Next.js 团队做<strong>开发者教育和框架功能的落地</strong>：写《Next.js 16 Recipes》系列，比如「用 promise 和 Client Components 共享数据，让页面尽早渲染甚至预渲染」；跟进 Cache Components 和 Activity 相关变化，在 GitHub issue 里给开发者写详细的更新说明；在大会上做现场编码演讲。"},
+    {"p": "TA 的教学风格是<strong>从零手写</strong>。2026 年 1 月，TA 发布了一个用 Next.js 16 构建混合式 AI 聊天机器人的演讲，并自问：「这会不会是我最后一次每一行都亲手写的现场编码演讲？」"},
+    {"note": "本页依据 samselikoff.com（项目、演讲、博客）、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。个人网站仍写着在做 Build UI，尚未更新到加入 Vercel 后的工作；加入时间未核实。性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2013–2015", "title": "Ember 社区", "text": "演讲代码仓库、Ember Data 博客文章。"},
+     {"when": "2016 起", "title": "以教学为生", "text": "和 Ryan Toronto 做 EmberMap；创造 Mirage.js。"},
+     {"when": "2020–2022", "title": "转向 React", "text": "YouTube 交互视频、Egghead Tailwind 课程；Next.js Conf 2022。"},
+     {"when": "2022.10", "title": "Build UI", "text": "推出前端订阅视频网站。"},
+     {"when": "2024", "title": "React Conf", "text": "《React Unpacked: A Roadmap to React 19》。"},
+     {"when": "2025–2026", "title": "Next.js 团队", "text": "加入 Vercel；Next.js 16 Recipes、Cache Components。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Mirage.js", "url": "https://miragejs.com",
+     "meta": ["开源", "JavaScript", "★5.5 千"],
+     "paras": [
+      "「A client-side server to build, test and share your JavaScript app」TA 说自己已不再积极参与，但项目仍被广泛使用。"
+     ],
+     "facts": [["GitHub", "★5,527"]]
+    }},
+    {"work": {
+     "name": "Build UI", "url": "https://buildui.com",
+     "meta": ["2022–", "视频课程", "订阅"],
+     "paras": [
+      "面向前端开发者的订阅视频网站，是 EmberMap 的进化版，主打 React、Tailwind 和动画交互。"
+     ]
+    }},
+    {"work": {
+     "name": "Frontend First", "url": "https://frontendfirst.fm",
+     "meta": ["播客", "每周"],
+     "paras": [
+      "和 Ryan Toronto 及嘉宾聊 JavaScript UI 开发的一切。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["ios-apple-music-clone", "iOS 音乐应用界面仿制（★349）"],
+      ["resizable-panel", "用 Framer Motion 做可调整大小的面板"],
+      ["instant-search-params-nextjs", "Next.js 中的即时搜索参数"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://samselikoff.com", "paras": [
+     "个人网站有工作日志、项目、播客、演讲和博客五个栏目，用 Next.js 搭建、托管在 Vercel 上。演讲页列出了从 React Conf 到 UX Burlington 的历次演讲；博客里保留着 Ember 时代的文章，比如《8 Tips to Make Your Website Feel Like an iOS App》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel"],
+      ["结构", "工作日志 + 项目 + 播客 + 演讲 + 博客"],
+      ["状态", "部分内容尚未更新"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "\"use cache\" finally does something outside of just SSG-style prerendering. It's now also lets you store RSCs rendered at request time entirely in the browser.", "cite": "Sam Selikoff，X，2026-06"},
+    {"p": "TA 也会对平台细节发表意见，比如吐槽 iOS 的 Liquid Glass 让 Safari 在显示导航栏时不改变网页高度。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "讲解清晰、手写演示", "—"],
+      ["开源", "Mirage.js 仍被使用", "已不再积极维护"],
+      ["网站", "—", "部分内容滞后"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>通过教学把技术吃透。</strong>",
+     "<strong>每个视频配一个可运行的仓库。</strong>",
+     "<strong>和长期伙伴一起做教育产品。</strong>",
+     "<strong>对新功能保持诚实的态度。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Build UI", "url": "https://buildui.com", "why": "学做精致的交互组件。"},
+     {"name": "Mirage.js", "url": "https://miragejs.com", "why": "在没有后端时开发前端。"},
+     {"name": "samselikoff.com/talks", "url": "https://samselikoff.com/talks", "why": "看 React Conf 2024 演讲。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你喜欢的 iOS 交互，试着用 React 和 Framer Motion 从零复刻它。",
+ "sources": [
+  {"label": "Sam Selikoff 的 X 个人资料", "url": "https://x.com/samselikoff"},
+  {"label": "samselikoff.com", "url": "https://samselikoff.com"},
+  {"label": "samselikoff.com：Projects", "url": "https://samselikoff.com/projects"},
+  {"label": "GitHub：samselikoff", "url": "https://github.com/samselikoff"},
+  {"label": "Mirage.js", "url": "https://miragejs.com"}
+ ]
+}

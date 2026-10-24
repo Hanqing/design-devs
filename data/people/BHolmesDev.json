@@ -1,0 +1,162 @@
+{
+ "name": "Ben Holmes",
+ "role": "Warp 开发者体验负责人（「Factory Foreman」）· 前 Astro 核心维护者 · 白板视频作者 · 南卡罗来纳州查尔斯顿",
+ "title": "Ben Holmes：<em>白板</em>上讲清楚一切",
+ "dek": "他来自美国南卡罗来纳州查尔斯顿，自称「会写点代码的白板人」。他以一分钟左右的白板短视频出名：用几支马克笔把 React Server Components、HTMX、SQLite 这类话题讲得一清二楚。他曾是 Astro 的全职核心维护者，还特意在 GitHub 上澄清：「我没有发明 Astro」，但在那里的经历把他对设计的热爱变成了让开发更容易的热爱。他也发明过自己的元框架 Slinkity。现在他在 Warp 担任开发者体验负责人，X 简介写着「Factory Foreman」：他在帮团队运营一座由 AI Agent 组成的「软件工厂」，做了评估 PR 合并风险的 /merge-risk、改进 Agent 技能的 /skill-doctor 等工具。他还在做一款给人和 Agent 共用的笔记本 Hubble（★1.5 千）。",
+ "card": "Warp 开发者体验负责人，前 Astro 核心维护者；白板短视频作者，Hubble 笔记作者，查尔斯顿。",
+ "location": "美国南卡罗来纳州查尔斯顿",
+ "updated": "2026-10-23",
+ "tags": ["AI Agent", "开发者体验", "Astro", "技术视频", "Web 框架"],
+ "links": [
+  {"label": "bholmes.dev", "url": "https://bholmes.dev"},
+  {"label": "YouTube：bholmesdev", "url": "https://www.youtube.com/@bholmesdev"},
+  {"label": "Hubble", "url": "https://hubble.md"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>网站描述「The whiteboard guy at Astro that codes kinda well.」",
+  "<strong>代表作：</strong>Hubble（★1,483）、simple-rsc（★753）、simple-stack（★458）、simplestack-store、simple-sync-engine、Slinkity、astro-on-rails、keymatch、Warp 的 /merge-risk 与 /skill-doctor。",
+  "<strong>关键数字：</strong>X 关注者约 4.9 万；GitHub 近一年贡献 2,093 次。",
+  "<strong>经历：</strong>Web 开发者 → Astro 核心维护者 → Warp（开发者体验负责人）。"
+ ],
+ "lead": "2026 年 10 月，他在 AI Engineer 大会上介绍了 /skill-doctor：一个「改进你的 Agent 技能的技能」，它汇总过去的 Agent 会话，给质量打分，并提出修复常见问题的建议。同一周，他发布的 /merge-risk 获得近千个赞：它从五个维度给一个 PR 的合并风险打分，帮开发者放心地把低风险改动交给 Agent。他的结论是：「工程师的工作在团队层面，而不是个人层面。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "产品工程师、教育者"],
+     ["所在地", "美国南卡罗来纳州查尔斯顿"],
+     ["工作", "Warp（开发者体验负责人）"],
+     ["此前", "Astro 全职核心维护者"],
+     ["开源", "Hubble、simple-rsc、simple-stack、Slinkity"],
+     ["技术栈", "TypeScript、Rust、Astro、React"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Ben 在 Warp 做的是<strong>「软件工厂」</strong>：用 Agent 持续处理 issue、提交 PR，再用另一批 Agent 审查和改进它们。他们把工厂的配置格式称为「给 Agent 的 Terraform」。他的经验很具体：先让 Agent 每天（甚至每周）只捡一个闲置 issue；PR 不好就改进流程，而不是停掉自动化；没有截图或录屏的 Agent PR 不值得花时间审；Agent 的会话应该存到共享的地方，方便安排「自我改进」Agent 去复盘。"},
+    {"p": "他一直喜欢「自己动手造一个」的教学方式：simple-rsc 让你亲手实现一个最简单的 React Server Components，simple-sync-engine 是一个可以自己搭的 SQLite 同步引擎。2026 年他写了《Build a Self-Updating LLM Knowledge Base》，用 Agent 给 Markdown 笔记打标签、建反向链接，自动生成维基和可视化。"},
+    {"note": "本页依据 bholmes.dev（首页、关于、博客）、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。他在 Astro 与 Warp 的任期未逐一核实。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "前 npm 时代", "text": "做 Web 开发，用过 Bower；Svelte 3 起步模板。"},
+     {"when": "2021 前后", "title": "Slinkity", "text": "发明自己的元框架；写单页应用与路由的长文。"},
+     {"when": "此后", "title": "Astro", "text": "成为 Astro 全职核心维护者；白板短视频走红。"},
+     {"when": "2023–2025", "title": "simple 系列", "text": "simple-rsc、simple-stack、simple-sync-engine；Vite Conf 2024 演讲。"},
+     {"when": "2025–2026", "title": "Warp", "text": "加入 Warp；Hubble 笔记；/merge-risk、/skill-doctor。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Hubble", "url": "https://hubble.md",
+     "meta": ["2026–", "TypeScript", "★1.5 千"],
+     "paras": [
+      "「The best notepad for you and your agents」一个帮你记住自己写下的一切的笔记应用，人和 Agent 都能读写。"
+     ],
+     "facts": [["GitHub", "★1,483"]]
+    }},
+    {"work": {
+     "name": "simple-rsc", "url": "https://github.com/bholmesdev/simple-rsc",
+     "meta": ["2023–", "JavaScript", "★753"],
+     "paras": [
+      "「A simple React Server Components implementation that you can build yourself」配有讲解视频，是理解 RSC 的热门入门材料。"
+     ]
+    }},
+    {"work": {
+     "name": "simple-stack", "url": "https://simple-stack.dev",
+     "meta": ["2023–", "TypeScript", "★458"],
+     "paras": [
+      "「Web apps made simple」一组让 Astro 等框架更好用的小工具，包括状态管理 simplestack-store。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["/merge-risk", "从五个维度评估 PR 合并风险的 Agent 技能"],
+      ["/skill-doctor", "汇总会话、给技能打分并提出改进"],
+      ["astro-on-rails", "用 Astro 作为 Ruby on Rails 的视图层"],
+      ["keymatch", "跨平台匹配浏览器键盘事件"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://bholmes.dev", "paras": [
+     "个人网站本身就是一块白板：页面上有画布，可以用红、蓝、绿笔涂画，还有橡皮擦。关于页可以在「个人模式」和「招聘者模式」之间切换，招聘者模式下他列出一长串技能关键词，然后说：「好了，我打字打累了。」博客里他坦言：「说实话，我现在做视频比写博客多。」"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro + Tailwind，Netlify"],
+      ["互动", "可涂画的白板画布"],
+      ["主要媒介", "YouTube 短视频"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-07-06", "title": "Build a Self-Updating LLM Knowledge Base", "url": "https://bholmes.dev/blog"},
+     {"date": "2025-09-22", "title": "Hubble Note", "url": "https://bholmes.dev/blog"},
+     {"date": "2025-07-20", "title": "Response to DHH on the gift of open source", "url": "https://bholmes.dev/blog"},
+     {"date": "2024-09-01", "title": "The python environment setup cheatsheet", "url": "https://bholmes.dev/blog"}
+    ]},
+    {"quote": "Stop reviewing agent PRs without verification! If there isn't a screenshot or screen recording, it's not worth your time.", "cite": "Ben Holmes，X，2026-10"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "白板视频简洁有趣", "—"],
+      ["实践", "Agent 工厂经验具体可复用", "部分工具与 Warp 产品绑定"],
+      ["写作", "—", "博客更新少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>用一块白板讲清楚复杂概念。</strong>",
+     "<strong>自己造一个简化版，</strong>才算真懂。",
+     "<strong>Agent 的产出必须附带验证。</strong>",
+     "<strong>改进流程，而不是放弃自动化。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "simple-rsc", "url": "https://github.com/bholmesdev/simple-rsc", "why": "亲手实现 RSC。"},
+     {"name": "YouTube 短视频", "url": "https://www.youtube.com/@bholmesdev", "why": "一分钟一个概念。"},
+     {"name": "Hubble", "url": "https://hubble.md", "why": "试试人和 Agent 共用的笔记。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你最近学会的概念，用一张纸和三种颜色的笔，在一分钟内把它讲给朋友听。",
+ "sources": [
+  {"label": "Ben Holmes 的 X 个人资料", "url": "https://x.com/BHolmesDev"},
+  {"label": "bholmes.dev", "url": "https://bholmes.dev"},
+  {"label": "bholmes.dev：About", "url": "https://bholmes.dev/about"},
+  {"label": "GitHub：bholmesdev", "url": "https://github.com/bholmesdev"},
+  {"label": "Warp：Factories", "url": "https://warp.dev/factories"}
+ ]
+}

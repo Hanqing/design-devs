@@ -1,0 +1,364 @@
+{
+ "handle": "harlanhaskins",
+ "sites": [
+  {
+   "url": "https://harlanhaskins.com",
+   "ok": true,
+   "title": "About Me - Harlan Haskins",
+   "description": "Software Engineer in New York specializing in Apple platforms",
+   "stack": [
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Fastly"
+   ],
+   "lang": "",
+   "home_text": "-->\n Harlan Haskins \nSoftware Engineer\n | Blog | Projects | Resume | Contact \nAbout Me \nHi, I’m Harlan Haskins, and I’m a Software Engineer in New York. \nI currently work at Typo* as the engineering lead. \nI previously worked on SwiftUI and UIKit for visionOS at Apple, and before that\nI worked on the Swift compiler team and the HomeKit team. \nI graduated from RIT in 2018 with a Bachelor’s \ndegree in Computer Science and a focus on languages and developer\ntooling. I’m a member of\n Computer Science House . \nYou can find me on Bluesky and on \n GitHub . My resume is available \n here.",
+   "github_links": [
+    "harlanhaskins"
+   ],
+   "subpages": {
+    "https://harlanhaskins.com/blog/": "Harlan Haskins \nSoftware Engineer\n | Blog | Projects | Resume | Contact \n Building a Compiler in Swift with LLVM, Part 3: Code Generation to LLVM IR \n 11 January, 2017 \nIf you’ve gotten this far in the tutorial, then you’ll have built a Lexer and\nParser for the\n Kaleidoscope programming language.\nIf you haven’t read those, I’d strongly recommend reading Part 1 and Part 2 first. This time we’ll be turning this parser into a proper compiler by turning the\nparsed code into\n LLVM Intermediate Representation (LLVM IR) . \n Read this article \n Building a Compiler in Swift with LLVM, Part 2: AST and the Parser \n 09 January, 2017 \nIn Part 1 of this tutorial ,\nwe built a lexer in Swift that can tokenize the\n Kaleidoscope language . Now we’re going to write\na parser that can turn code from this language into an Abstract Syntax Tree,\nor AST. \n Read this article \n Building a Compiler in Swift with LLVM, Part 1: Introduction and the Lexer \n 08 January, 2017 \nCompilers are some of the most fascinating programs because they touch every\naspect of Computer Science, from CLI and API design to calling conventions and\nplatform-specific optimizations. Yet, many developers have a fearful reverence\nfor them that makes them seem unapproachable. I think this is unnecessary. \n Read this article"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "harlanhaskins",
+  "user": {
+   "name": "Harlan Haskins",
+   "company": null,
+   "blog": "https://www.harlanhaskins.com",
+   "location": "NYC",
+   "bio": "Swift Testing Frameworks engineer at Apple",
+   "public_repos": 114,
+   "followers": 595,
+   "created_at": "2011-06-16T01:06:21Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "harlanhaskins/Punctual.swift",
+    "description": "Swift dates, more fun.",
+    "stargazers_count": 322,
+    "forks_count": 11,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2015-04-08T04:14:35Z",
+    "pushed_at": "2016-11-29T18:36:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/Probably",
+    "description": "A Swift probability and statistics library",
+    "stargazers_count": 268,
+    "forks_count": 9,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-10-07T18:09:51Z",
+    "pushed_at": "2016-10-21T18:14:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/Kaleidoscope-Swift",
+    "description": "A compiler for the Kaleidoscope sample project, written in Swift",
+    "stargazers_count": 46,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2017-01-11T02:50:50Z",
+    "pushed_at": "2018-02-14T19:30:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/AsyncItemProvider",
+    "description": "A safe Swift Concurrency interface for NSItemProvider",
+    "stargazers_count": 35,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-10-02T15:49:26Z",
+    "pushed_at": "2025-10-03T16:13:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/LinkPreviewSwift",
+    "description": "A Swift library for generating link previews client-side or server-side",
+    "stargazers_count": 31,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-02-05T18:33:08Z",
+    "pushed_at": "2025-06-04T23:43:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/MorphingView",
+    "description": "A morphing container view for UIKit and SwiftUI",
+    "stargazers_count": 24,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-01-09T05:34:58Z",
+    "pushed_at": "2025-01-09T05:40:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/SwiftGBA",
+    "description": "Swift for Game Boy Advance",
+    "stargazers_count": 20,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-04-18T03:43:12Z",
+    "pushed_at": "2025-03-06T01:46:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/RIT-Weather-Control",
+    "description": "An iPad app for controlling the weather using Bill Destler's secret wireless control protocol.",
+    "stargazers_count": 17,
+    "forks_count": 3,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-04-01T18:32:43Z",
+    "pushed_at": "2014-04-12T19:44:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/hasm",
+    "description": "An Assembly-like programming language and interpreter in Haskell",
+    "stargazers_count": 16,
+    "forks_count": 3,
+    "language": "Haskell",
+    "homepage": "",
+    "created_at": "2015-08-24T20:41:26Z",
+    "pushed_at": "2015-11-04T20:27:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/HHBarCodeViewController",
+    "description": "A simple modal view controller that allows for quick, native, iOS 7 bar code detection.",
+    "stargazers_count": 12,
+    "forks_count": 2,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2013-12-18T21:20:52Z",
+    "pushed_at": "2014-02-18T17:11:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/Letter",
+    "description": "A simplistic, integer-only programming language",
+    "stargazers_count": 11,
+    "forks_count": 1,
+    "language": "C++",
+    "homepage": "",
+    "created_at": "2015-10-30T20:50:08Z",
+    "pushed_at": "2016-01-04T05:53:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/PizzaBuilder-Sample",
+    "description": "A visionOS sample demonstrating cross-scene coordinate space conversions",
+    "stargazers_count": 11,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-04-30T17:09:05Z",
+    "pushed_at": "2025-04-30T17:09:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/Goto.swift",
+    "description": "An implementation of Goto in Swift",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-01-09T06:23:28Z",
+    "pushed_at": "2025-11-01T16:24:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/loop.js",
+    "description": "Javascript image looper to replace GIFs with image sequences, to step around colorspace compression of the GIF standard.",
+    "stargazers_count": 9,
+    "forks_count": 3,
+    "language": "HTML",
+    "homepage": "http://harlanhaskins.com/files/loopjs",
+    "created_at": "2012-10-24T15:37:28Z",
+    "pushed_at": "2015-04-28T16:22:05Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "harlanhaskins/SWON",
+    "description": "Swift Object Notation",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-02-14T02:16:40Z",
+    "pushed_at": "2025-02-15T16:58:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/SwiftSAT",
+    "description": "An implementation of the DPLL boolean satisfiability algorithm in Swift",
+    "stargazers_count": 6,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2017-09-22T00:22:15Z",
+    "pushed_at": "2017-10-12T19:02:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/Bogo-Sort",
+    "description": "A BogoSort algorithm written in Python and C.",
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "C",
+    "homepage": "",
+    "created_at": "2013-10-13T22:16:10Z",
+    "pushed_at": "2015-05-13T21:51:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "harlanhaskins/HealthNet",
+    "description": "A web-based hospital management system created for my Introduction to Software Engineering class",
+    "stargazers_count": 5,
+    "forks_count": 8,
+    "language": "Python",
+    "homepage": "https://djangomaintained.com",
+    "created_at": "2015-05-15T15:08:18Z",
+    "pushed_at": "2015-08-25T20:04:46Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 93,
+  "languages": [
+   [
+    "Swift",
+    44
+   ],
+   [
+    "Python",
+    9
+   ],
+   [
+    "Objective-C",
+    8
+   ],
+   [
+    "Haskell",
+    5
+   ],
+   [
+    "Java",
+    4
+   ],
+   [
+    "HTML",
+    3
+   ],
+   [
+    "C",
+    3
+   ],
+   [
+    "JavaScript",
+    3
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "llvm-swift/LLVMSwift",
+    "stargazerCount": 761,
+    "description": "A Swift wrapper for the LLVM C API (version 11.0)",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "trill-lang/trill",
+    "stargazerCount": 276,
+    "description": "A type safe, compiled language inspired by (and written in) Swift",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "silt-lang/silt",
+    "stargazerCount": 244,
+    "description": "An in-progress fast, dependently typed, functional programming language implemented in Swift.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "harlanhaskins/Probably",
+    "stargazerCount": 268,
+    "description": "A Swift probability and statistics library",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "harlanhaskins/Punctual.swift",
+    "stargazerCount": 322,
+    "description": "Swift dates, more fun.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "harlanhaskins/hasm",
+    "stargazerCount": 16,
+    "description": "An Assembly-like programming language and interpreter in Haskell",
+    "primaryLanguage": {
+     "name": "Haskell"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 1446,
+  "orgs": [
+   "llvm-swift"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "llvm-swift/LLVMSwift": "# LLVMSwift\n[](https://travis-ci.org/llvm-swift/LLVMSwift) [](https://llvm-swift.github.io/LLVMSwift) [](https://llvmswift-slack.herokuapp.com)\nLLVMSwift is a pure Swift interface to the [LLVM](http://llvm.org) API and its associated libraries. It provides native, easy-to-use components to make compiler development fun.\n## Introduction\n### LLVM IR\nThe root unit of organization of an LLVM IR program is a `Module`\n```swift\nlet module = Module(name: \"main\")\n```\nLLVM IR construction is handled by `IRBuilder` objects.  An `IRBuilder` is a cursor pointed inside a context, and as such has ways of extending that context and moving around inside of it.\nDefining a function and moving the cursor to a point where we can begin inserting instructions is done like so:\n```swift\nlet builder = IRBuilder(module: module)\nlet main = builder.addFunction(\"main\",\n                               type: FunctionType([], IntType.int64))\nlet entry = main.appendBasicBlock(named: \"entry\")\nbuilder.positionAtEnd(of: entry)\n```\nInserting instructions creates native `IRValue` placeholder objects that allow us to structure LLVM IR programs just like Swift programs:\n```swift\nlet constant = IntType.int64.constant(21)\nlet sum = builder.buildAdd(constant, constant)\nbuilder.buildRet(sum)\n```\nThis simple program generates the following IR:\n```llvm\n// module.dump()\ndefine i64 @main() {\nentry:\n  ret i64 42\n}\n```\n### Types\nLLVM IR is a strong, statically typed language.  As such, values and functions\nare tagged with their types, and conversions between them must be explicit (see\n[Conversion Operators](http://llvm.org/docs/LangRef.html#conversion-operations)).\nLLVMSwift represents this with values conforming to the `IRType` protocol and defines\nthe following types:\n|**Type** | **Represents** |\n|:---:|:---:|\n| VoidType | Nothing; Has no size |\n| IntType | Integer and Boolean values (`i1`) |\n| FloatType | Floating-point values |\n| FunctionType | Function values |\n| LabelType | Code labels |\n| TokenType | Values paired with instructions |\n| MetadataType | Embedded metadata |\n| X86MMXType | X86 MMX values |\n| PointerType | Pointer values |\n| VectorType | SIMD data |\n| ArrayType | Homogeneous values |\n| Structure",
+   "trill-lang/trill": "# Trill\n[](https://circleci.com/gh/trill-lang/trill)\nTrill is a simple, type-safe, compiled programming language. Partially inspired by Swift, Trill has most simple language features one would expect (functions, structures, pointers) and some more high-level language features, like types with methods, garbage collected types, overloading,  tuples/multiple returns, and closures.\nTrill is not to be confused with [Microsoft/Trill](https://github.com/Microsoft/trill), an engine for streaming data processing.\n## Example\nThe following program finds the `n` th Fibonacci number:\n```swift\nfunc fib(_ n: Int) -> Int {\n  var previous = 0\n  var current = 1\n  for var i = 0; i < n; i += 1 {\n    let tmp = previous\n    previous = current\n    current = previous + tmp\n  }\n  return current\n}\nfunc main() {\n  printf(\"%d\\n\", fib(10)) // prints 89\n}\n```\nSee the `examples` folder for more examples of Trill’s language features.\n### LLVM\nThe main backend for Trill is LLVM. It uses LLVM and Clang’s C APIs to call into LLVM’s code generation and clang importing features from within Swift. It currently makes a best effort to import all supported declarations from the C standard library headers as `foreign` declarations, ready for use in Trill.\n## Building and Using\nTrill builds on macOS and Linux using CMake. We have a convenient build script that obviates the need for using CMake directly.\nOnce you've got LLVM and CMake installed, you'll need to generate pkgconfig files for LLVM and Clang -- we have a tool for this in the\n`utils` directory. You'll only need to run it once.\n```bash\nutils/build --pkgconfig\n```\nTo install the build script dependencies:\n```bash\npip install pkgconfig\npip install git+https://github.com/kronenthaler/mod-pbxproj.git\n```\nThen, you should be able to run our build script. Just running the build script gets you a build of `trill` in the `.build/debug` folder.\n```bash\nusage: build [-h] [--swift SWIFT] [-r RELEASE] [-x] [-t]\noptional arguments:\n  -h, --help            show this help message and exit\n  --swift SWIFT         Path to custom swift executable.\n  -r RELEASE, --release RELEASE\n                        Build the executable in the Release configuration\n  -x, --xco",
+   "silt-lang/silt": "# silt [](https://travis-ci.org/silt-lang/silt)\nSilt is an work-in-progress dependently typed functional programming language. Its\nsyntax and type system are reminiscent of Idris and Agda, but it compiles\ndirectly to native code through LLVM. We aim for silt to be GC-free by\nlowering to an intermediate representation that tracks object lifetimes.\n# Building\nSilt builds with the Swift Package Manager. Clone the repository and run\n```bash\nswift build\n```\nand an executable will be produced at `.build/debug/silt`.\n# License\nSilt is released under the MIT License, a copy of which is available in this\nrepository.\n# Contributing\nWe welcome contributions from programmers of all backgrounds and experience\nlevels. We've strived to create an environment that encourages learning through\ncontribution, and we pledge to always treat contributors with the respect they\ndeserve. We have adopted the Contributor Covenant as our code of conduct,\nwhich can be read in this repository.\nFor more info, and steps for a successful contribution, see the\n[Contribution Guide](.github/CONTRIBUTING.md).\n# Authors\nRobert Widmann ([@CodaFi](https://github.com/codafi))\nHarlan Haskins ([@harlanhaskins](https://github.com/harlanhaskins))\n",
+   "harlanhaskins/Probably": "# Probably [](https://travis-ci.org/harlanhaskins/Probably) [](https://codecov.io/gh/harlanhaskins/Probably?branch=master)\nProbably is a set of Swift structures for computing the probability and\ncumulative distributions of different probablistic functions.\nRight now, it supports:\n  - Standard distributions with explicit event probabilities\n  - Continuous distributions\n  - Binomial distributions\n  - Hypergeometric distributions\n  - Poisson distributions\n  - Gaussian distributions\n  - Negative Binomial distributions\n# Installation\nProbably is available through the Swift Package Manager.\nJust add this git repository as a dependency:\n```\n.Package(url: \"https://github.com/harlanhaskins/Probably.git\", majorVersion: 0, minorVersion: 1)\n```\nAnd it should download the project and link it in.\n# Author\nHarlan Haskins [@harlanhaskins](https://github.com/harlanhaskins)\n# License\nProbably is released under the MIT license, a copy of which is\nincluded in this repo.\n",
+   "harlanhaskins/Punctual.swift": "# Punctual\nSwift dates, more fun. Heavily inspired by [ObjectiveSugar](https://github.com/supermarin/objectivesugar)\n# Installation\nPunctual is available through the [Swift Package Manager](https://github.com/apple/swift-package-manager)!\nJust add this as a dependency in your `Package.swift`:\n```\n.Package(url: \"https://github.com/harlanhaskins/Punctual.swift.git\", majorVersion: 1)\n```\n# Contents\n`Punctual` extends `Int`, `NSDateComponents`, `NSDate`, and `NSCalendarUnit`, and adds features to make them work well together. It uses the robust `NSCalendar` APIs, so you can be sure it's accurate!\n```swift\nprint(1.day.ago)\n// Optional(2015-04-08 04:49:30 +0000)\nprint(10.days.until(Date()))\n// Optional(2015-03-30 04:11:03 +0000)\nprint((1.day + 2.months - 9.years).ago)\n// Optional(2024-02-08 18:28:26 +0000)\nprint(Date() - 1.day.ago!)\nprint(1.year.timeInterval)\n// Optional(31622400.0)\nprint((Date() + 30.minutes)!.nearestHour)\n// 1\nprint(4.years.fromNow?.longTimeString)\n// Optional(\"12:11:44 AM EDT\")\nprint(4.years.fromNow?.stringWithFormat(\"HH:mm\"))\n// Optional(\"00:11\")\n```\n"
+  }
+ },
+ "apps": []
+}

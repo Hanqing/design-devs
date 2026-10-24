@@ -1,0 +1,162 @@
+{
+ "name": "Ian Storm Taylor",
+ "role": "Segment 联合创始人 · Slate 富文本编辑器框架作者 · Superstruct 作者 · RISD 平面设计 · 华盛顿特区",
+ "title": "Ian Storm Taylor：会写框架的<em>平面设计师</em>",
+ "dek": "他在罗德岛设计学院（RISD）学平面设计，后来成为数据基础设施公司 Segment 的联合创始人。他也是一位很受尊重的开源作者：Slate 是一个「完全可定制」的富文本编辑器框架，GitHub 上有 3.2 万颗星，被大量产品用来构建自己的编辑器；Superstruct 是一个简单、可组合的数据校验库；Permit 是不预设立场的 Node.js 认证库。Segment 早期开源的静态站点生成器 Metalsmith 和 CSS 预处理器 Myth 也有他的参与。2022 年他开源了一个生成艺术工具包 Void，用来做笔式绘图仪作品。他的 X 简介写着：designer, coder, hiker, gamer, learner，「现在很少来这里了」。",
+ "card": "Segment 联合创始人；Slate（★3.2 万）、Superstruct（★7.1 千）、Permit 作者；RISD 平面设计出身。",
+ "location": "美国华盛顿特区",
+ "updated": "2026-10-23",
+ "tags": ["富文本编辑", "开源", "设计", "创业", "生成艺术"],
+ "links": [
+  {"label": "ianstormtaylor.com", "url": "https://ianstormtaylor.com"},
+  {"label": "Slate", "url": "https://github.com/ianstormtaylor/slate"},
+  {"label": "Superstruct", "url": "https://docs.superstructjs.org"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>个人网站「Co-founder of Segment, and ex-RISD Graphic Design. I write about design, programming, and pretty much anything systems related.」",
+  "<strong>代表作：</strong>Slate（★31,741）、Superstruct（★7,129）、Permit（★1,679）、react-values、is-hotkey、Void 生成艺术工具包；参与 Metalsmith（★7,817）和 Myth（★4,286）。",
+  "<strong>关键数字：</strong>GitHub 202 个公开仓库、粉丝约 3,000。",
+  "<strong>写作：</strong>2010–2013 年的设计与前端文章，如《Design Tip: Never Use Black》《Media Queries are a Hack》《Refactoring Github’s Design》。"
+ ],
+ "lead": "他 2012 年写过一篇很短的设计贴士《Design Tip: Never Use Black》：屏幕上的纯黑几乎从来不是你真正想要的颜色。另一篇《Refactoring Github’s Design》开头写道：「把一个界面削减到只剩绝对必要的元素，是设计中最令人满足的任务之一。」这些文章至今仍被设计师转发，也解释了 Slate 的设计哲学：不替你做决定，只给你最必要的积木。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、程序员、创始人"],
+     ["所在地", "美国华盛顿特区（GitHub 写旧金山）"],
+     ["教育", "罗德岛设计学院（RISD）平面设计"],
+     ["公司", "Segment 联合创始人"],
+     ["开源", "Slate、Superstruct、Permit、is-hotkey、Void"],
+     ["技术栈", "TypeScript、JavaScript、React、CSS"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Ian 的开源作品都遵循同一个原则：<strong>完全可定制、不预设立场</strong>。Slate 不提供一个现成的编辑器，而是提供构建编辑器的框架：数据模型、插件、渲染都可以替换，所以能做出从 Notion 式块编辑器到协作文档的各种东西。Superstruct 让你用可组合的结构定义和校验数据，而不是写一大堆 if。"},
+    {"p": "近几年他把兴趣转向生成艺术：Void 是一个创意编程工作室应用，可以调节草图的变量、随机种子和特征，带图层面板，导出给笔式绘图仪。他在 X 上记录过一个发现：p5.js 的 random() 用的是老式线性同余生成器，会产生「看起来不怎么随机」的图案。"},
+    {"note": "本页依据 ianstormtaylor.com、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他已转到 Mastodon，X 帖子停留在 2022 年；他离开 Segment 的时间和之后的工作未公开。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "RISD", "title": "平面设计", "text": "在罗德岛设计学院学平面设计。"},
+     {"when": "2010–2013", "title": "博客与 Segment", "text": "写设计和 Backbone.js 文章；联合创办 Segment，参与 Metalsmith、Myth 等开源项目。"},
+     {"when": "2016", "title": "Slate", "text": "开源富文本编辑器框架 Slate。"},
+     {"when": "2017–2018", "title": "Superstruct 与 Permit", "text": "数据校验库和 Node.js 认证库；react-values。"},
+     {"when": "2022", "title": "Void", "text": "开源生成艺术工作室应用，用于笔式绘图仪创作。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Slate", "url": "https://github.com/ianstormtaylor/slate",
+     "meta": ["2016–", "TypeScript", "★3.2 万"],
+     "paras": [
+      "「A completely customizable framework for building rich text editors.」README 里有专门的「Why?」和「Principles」章节，解释为什么现有编辑器都不够灵活。项目仍标注为 beta，但已被广泛用于生产。"
+     ],
+     "facts": [["GitHub", "★31,741 · ⑂3,305"]]
+    }},
+    {"work": {
+     "name": "Superstruct", "url": "https://docs.superstructjs.org",
+     "meta": ["2017–", "TypeScript", "★7.1 千"],
+     "paras": [
+      "「A simple and composable way to validate data in JavaScript (and TypeScript).」用组合的方式描述数据结构，并提供清晰的错误信息。"
+     ]
+    }},
+    {"work": {
+     "name": "Void", "url": "https://github.com/ianstormtaylor/void",
+     "meta": ["2022", "生成艺术"],
+     "paras": [
+      "「A toolkit for making generative art.」可以编辑草图变量、随机性和特征，自动根据种子生成特征，快速翻看大量独特输出，并逐个锁定或修改。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Permit", "不预设立场的 Node.js API 认证库（★1,679）"],
+      ["is-hotkey", "判断浏览器事件是否匹配某个快捷键"],
+      ["Metalsmith", "极简、插件化的 Node.js 静态站点生成器（Segment 出品）"],
+      ["hpmor", "为《哈利·波特与理性之道》设计的一组封面"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://ianstormtaylor.com", "paras": [
+     "个人网站按季节排列文章，最新一篇停留在 2013 年夏天。早期文章讨论 iPad 的拟物设计、iOS 7 图标、媒体查询的局限、面向对象 CSS 与 Sass，也有 Segment 前身产品「Goals」功能的设计过程复盘。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Netlify"],
+      ["文章", "2010–2013"],
+      ["社交", "Mastodon（自建实例）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2013-06-27", "title": "Refactoring Github’s Design", "url": "https://ianstormtaylor.com"},
+     {"date": "2013-06-12", "title": "What’s Wrong with the iOS 7 Icons?", "url": "https://ianstormtaylor.com"},
+     {"date": "2013-04-01", "title": "Media Queries are a Hack", "url": "https://ianstormtaylor.com"},
+     {"date": "2012-08-07", "title": "Design Tip: Never Use Black", "url": "https://ianstormtaylor.com"}
+    ]},
+    {"quote": "Reducing an interface until only the absolutely necessary elements remain is one of the most satisfying tasks in design.", "cite": "Ian Storm Taylor，《Refactoring Github’s Design》"},
+    {"p": "他也提出过一个很有意思的观察：用户名、域名、邮件里「差一个字符」的诈骗那么常见，我们却仍在用小写 L 和大写 i 长得一样的字体。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["开源", "Slate、Superstruct 影响深远", "Slate 长期标为 beta，API 曾多次大改"],
+      ["设计", "设计与工程兼修", "—"],
+      ["公开活动", "—", "近年公开活动很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>框架只给必要的积木。</strong>",
+     "<strong>把原则写进 README。</strong>",
+     "<strong>设计师学会编程，会做出不一样的工具。</strong>",
+     "<strong>删到只剩必要的元素。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Slate", "url": "https://github.com/ianstormtaylor/slate", "why": "读它的「Principles」。"},
+     {"name": "Superstruct", "url": "https://docs.superstructjs.org", "why": "用组合方式校验数据。"},
+     {"name": "Void", "url": "https://github.com/ianstormtaylor/void", "why": "做一张生成艺术。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "检查你的界面里所有的纯黑色（#000），试着换成带一点色调的深灰，看看效果。",
+ "sources": [
+  {"label": "Ian Storm Taylor 的 X 个人资料", "url": "https://x.com/ianstormtaylor"},
+  {"label": "ianstormtaylor.com", "url": "https://ianstormtaylor.com"},
+  {"label": "GitHub：ianstormtaylor/slate", "url": "https://github.com/ianstormtaylor/slate"},
+  {"label": "GitHub：ianstormtaylor", "url": "https://github.com/ianstormtaylor"}
+ ]
+}

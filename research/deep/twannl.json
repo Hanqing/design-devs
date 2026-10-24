@@ -1,0 +1,421 @@
+{
+ "handle": "twannl",
+ "sites": [
+  {
+   "url": "https://www.swiftconcurrencyplaybook.com/?ref=x_bio&utm_source=x&utm_medium=bio&utm_campaign=x_bio",
+   "ok": true,
+   "title": "The Swift Concurrency Playbook",
+   "description": "A 5-Day Email Course To Help You Avoid 5 Biggest Mistakes iOS Developers Make With Swift Concurrency And Async/Await (Even If You’ve Been Writing Swift For Years)",
+   "stack": [
+    "Google Analytics",
+    "Google Fonts",
+    "React"
+   ],
+   "hosting": [],
+   "lang": "en",
+   "home_text": "​ \n The Swift Concurrency Playbook \nA FREE , 5-day email course breaking down the 5 biggest mistakes iOS Developers make with async/await that lead to App Store Rejections, your UI freezing for 5 seconds, and migration projects taking months instead of days (even if you’ve been writing Swift for years) \n SEND me Lesson #1 \n Created by Antoine van der Lee, who has... \n 15+ years of experience developing iOS apps \n Specialized in Swift Concurrency and Swift 6 migration \n Experience transitioning large SDKs and apps through Swift Concurrency adoption \n Migrated 20+ packages recently to Strict Concurrency & Swift 6 \n​ \n ​ \n Want to make sure this 5-Day Email Course is \"worth it\" before you opt-in? \nHere's everything that's inside: \n DAY #1 \nMistake 1: Treating async for loops as normal for loops ( and why your app processes only 20% of users’ data, but shows “Upload Complete!” anyway ) \n DAY #2 \nMistake 2: Assuming async methods run in the background by default ( and why Apple ends up rejecting your app with “We discovered one or more bugs. The app became unresponsive during normal use.” ) \n DAY #3 \nMistake 3: Ignoring Task cancellation checks in your async operations ( and why this leads to App Store reviews “This app drained 73% of my battery in 45 minutes” with 247 people marking it “helpful” ) \n DAY #4 \nMistake 4: Manually migrating existing code to Swift Concurrency ( and why this leads your existing code behaving differently than before, causing 2-week migration becoming a 3 month project ) \n DAY #5 \nMistake 5: Manually creating tasks inside onAppear ( and why this will lead to duplicate API calls that compound into thousands of dollars ) \n​ \n Sign me up for the course! \n​ \n Powered By Kit",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "AvdLee",
+  "user": {
+   "name": "Antoine van der Lee",
+   "company": "SwiftLee",
+   "blog": "https://www.avanderlee.com",
+   "location": "Amsterdam, the Netherlands",
+   "bio": "Founder of SwiftLee, Indie Dev behind RocketSim\r\n",
+   "public_repos": 100,
+   "followers": 3239,
+   "created_at": "2013-05-03T07:42:53Z",
+   "twitter_username": "twannl",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "AvdLee/SwiftUI-Agent-Skill",
+    "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
+    "stargazers_count": 3745,
+    "forks_count": 173,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-01-21T14:42:30Z",
+    "pushed_at": "2026-10-06T06:57:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/appstoreconnect-swift-sdk",
+    "description": "The Swift SDK to work with the App Store Connect API from Apple.",
+    "stargazers_count": 1694,
+    "forks_count": 225,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2018-11-05T19:27:31Z",
+    "pushed_at": "2026-10-17T20:26:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Swift-Concurrency-Agent-Skill",
+    "description": "Add expert Swift Concurrency guidance to your AI coding tool (Agent Skills open format): safe concurrency, performance optimization, and Swift 6 migration.",
+    "stargazers_count": 1692,
+    "forks_count": 101,
+    "language": null,
+    "homepage": "https://www.swiftconcurrencycourse.com",
+    "created_at": "2026-01-07T09:19:00Z",
+    "pushed_at": "2026-09-14T09:10:13Z",
+    "topics": [
+     "agent-skills",
+     "async-await",
+     "swift",
+     "swift-actor",
+     "swift-concurrency"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Diagnostics",
+    "description": "Allow users to easily share Diagnostics with your support team to improve the flow of fixing bugs.",
+    "stargazers_count": 1309,
+    "forks_count": 67,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2019-12-02T10:43:07Z",
+    "pushed_at": "2026-09-26T07:00:27Z",
+    "topics": [
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Xcode-Build-Optimization-Agent-Skill",
+    "description": "An Agent Skill helping you to optimize Xcode incremental and clean builds by running benchmarks and optimizing build settings.",
+    "stargazers_count": 1263,
+    "forks_count": 51,
+    "language": "Python",
+    "homepage": "https://www.rocketsim.app",
+    "created_at": "2026-03-13T12:04:00Z",
+    "pushed_at": "2026-09-14T09:05:25Z",
+    "topics": [
+     "agent",
+     "agent-skills",
+     "ios",
+     "ios-development",
+     "skills",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/CombineSwiftPlayground",
+    "description": "A Swift playground explaining the concepts of the new Combine framework",
+    "stargazers_count": 1179,
+    "forks_count": 92,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2019-06-12T15:56:49Z",
+    "pushed_at": "2024-02-01T12:19:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Roadmap",
+    "description": "Publish your roadmap inside your app and allow users to vote for upcoming features",
+    "stargazers_count": 982,
+    "forks_count": 60,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-02-18T15:46:20Z",
+    "pushed_at": "2025-10-27T14:16:07Z",
+    "topics": [
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/RocketSimApp",
+    "description": "RocketSim — 30+ tools for Xcode's iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.",
+    "stargazers_count": 810,
+    "forks_count": 37,
+    "language": "Swift",
+    "homepage": "https://www.rocketsim.app",
+    "created_at": "2020-04-26T07:16:14Z",
+    "pushed_at": "2026-10-23T08:39:05Z",
+    "topics": [
+     "accessibility",
+     "agent-skill",
+     "ai-automation",
+     "debugging",
+     "developer-tools",
+     "ios",
+     "ios-development",
+     "macos",
+     "network-monitoring",
+     "rocketsim",
+     "simulator",
+     "swift",
+     "testing",
+     "xcode",
+     "xcode-simulator"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/SwiftUIKitView",
+    "description": "Easily use UIKit views in your SwiftUI applications. Create Xcode Previews for UIView elements",
+    "stargazers_count": 785,
+    "forks_count": 23,
+    "language": "Swift",
+    "homepage": "https://www.avanderlee.com",
+    "created_at": "2020-12-28T13:32:25Z",
+    "pushed_at": "2022-07-30T14:18:15Z",
+    "topics": [
+     "previews",
+     "swiftui",
+     "uikit",
+     "uiview",
+     "uiviewrepresentable",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/CoreDataBestPractices",
+    "description": "Best Practices in Core Data explained within a demo application",
+    "stargazers_count": 479,
+    "forks_count": 44,
+    "language": "Swift",
+    "homepage": "https://www.avanderlee.com/category/core-data/",
+    "created_at": "2020-11-02T17:35:33Z",
+    "pushed_at": "2021-07-01T08:01:27Z",
+    "topics": [
+     "best-practices",
+     "coredata",
+     "ios",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Swift-Testing-Agent-Skill",
+    "description": "An agent skill focused entirely on Swift Testing, helping you write better tests, migrate from XCTest, improve test architecture, and adopt modern Swift testing patterns with confidence.",
+    "stargazers_count": 476,
+    "forks_count": 20,
+    "language": null,
+    "homepage": "",
+    "created_at": "2026-02-12T16:15:38Z",
+    "pushed_at": "2026-09-14T09:05:26Z",
+    "topics": [
+     "agent-skills",
+     "swift",
+     "swift-testing"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Poes",
+    "description": "A Swift command-line tool to easily send push notifications to the iOS simulator",
+    "stargazers_count": 466,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-02-07T16:08:25Z",
+    "pushed_at": "2026-07-29T09:57:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Core-Data-Agent-Skill",
+    "description": "An Agent Skill focused on Apple’s Core Data framework, helping with data modeling, fetch requests, performance, and common persistence patterns.",
+    "stargazers_count": 318,
+    "forks_count": 16,
+    "language": null,
+    "homepage": "https://www.avanderlee.com",
+    "created_at": "2026-01-30T08:09:39Z",
+    "pushed_at": "2026-09-14T09:05:25Z",
+    "topics": [
+     "agent-skill",
+     "coredata",
+     "ios-development",
+     "swift-development",
+     "swift-language"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/WhatTheErrorCode",
+    "description": "Convert unreadable errors into understandable descriptions",
+    "stargazers_count": 159,
+    "forks_count": 7,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-03-16T17:02:04Z",
+    "pushed_at": "2026-06-15T07:25:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Moya-SwiftyJSONMapper",
+    "description": "Map objects through SwiftyJSON in combination with Moya",
+    "stargazers_count": 118,
+    "forks_count": 37,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-01-26T16:12:28Z",
+    "pushed_at": "2022-09-26T08:07:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Swift-Concurrency-Course",
+    "description": "Sample code and materials for the Swift Concurrency Course by Antoine van der Lee — SwiftLee Courses",
+    "stargazers_count": 106,
+    "forks_count": 31,
+    "language": "Swift",
+    "homepage": "https://www.swiftconcurrencycourse.com",
+    "created_at": "2025-02-19T10:59:06Z",
+    "pushed_at": "2026-10-21T07:17:42Z",
+    "topics": [
+     "actors",
+     "async",
+     "await",
+     "concurrency",
+     "mainactor",
+     "sendable",
+     "swift",
+     "swiftconcurrency",
+     "swiftevolution"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/AsyncOperations",
+    "description": "Asynchronous Operations in Swift explained in a Swift Playground",
+    "stargazers_count": 99,
+    "forks_count": 14,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-01-22T16:42:00Z",
+    "pushed_at": "2020-03-23T08:29:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "AvdLee/Xcode-Disk-Cleanup-Agent-Skill",
+    "description": "Audit Xcode developer storage, report recoverable GiB, and clean only explicitly approved items.",
+    "stargazers_count": 76,
+    "forks_count": 4,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-07-24T11:31:38Z",
+    "pushed_at": "2026-09-14T09:05:24Z",
+    "topics": [
+     "agent-skill",
+     "derived-data",
+     "developer-tools",
+     "disk-cleanup",
+     "ios-simulator",
+     "macos",
+     "swiftpm",
+     "xcode"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 45,
+  "languages": [
+   [
+    "Swift",
+    29
+   ],
+   [
+    "Python",
+    3
+   ],
+   [
+    "Objective-C",
+    2
+   ],
+   [
+    "Ruby",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "Astro",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "AvdLee/Swift-Concurrency-Agent-Skill",
+    "stargazerCount": 1692,
+    "description": "Add expert Swift Concurrency guidance to your AI coding tool (Agent Skills open format): safe concurrency, performance optimization, and Swift 6 migration.",
+    "primaryLanguage": null,
+    "homepageUrl": "https://www.swiftconcurrencycourse.com"
+   },
+   {
+    "nameWithOwner": "AvdLee/RocketSimApp",
+    "stargazerCount": 810,
+    "description": "RocketSim — 30+ tools for Xcode's iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://www.rocketsim.app"
+   },
+   {
+    "nameWithOwner": "AvdLee/appstoreconnect-swift-sdk",
+    "stargazerCount": 1694,
+    "description": "The Swift SDK to work with the App Store Connect API from Apple.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "AvdLee/Diagnostics",
+    "stargazerCount": 1309,
+    "description": "Allow users to easily share Diagnostics with your support team to improve the flow of fixing bugs.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "AvdLee/Roadmap",
+    "stargazerCount": 982,
+    "description": "Publish your roadmap inside your app and allow users to vote for upcoming features",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "AvdLee/CoreDataBestPractices",
+    "stargazerCount": 479,
+    "description": "Best Practices in Core Data explained within a demo application",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://www.avanderlee.com/category/core-data/"
+   }
+  ],
+  "contrib_last_year": 8747,
+  "orgs": [],
+  "profile_readme": "[![SwiftLee Supporter](https://www.avanderlee.com/public-assets/github_profile_header.jpg)](https://www.avanderlee.com/supporters)\n\n<!--\n**AvdLee/AvdLee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->\n\nYou can support my [open-source repositories](https://github.com/AvdLee?tab=repositories&q=&type=public&language=), [Mac App](https://rocketsim.app/), weekly blog and newsletter containing [free Swift content](https://www.avanderlee.com).\n\nAll my content is completely free which is made possible by your support.\n\n## Follow me on socials\n- [Follow me on X](https://twitter.com/intent/user?original_referer=https%3A%2F%2Fwww.github.com&region=count_link&screen_name=twannl&tw_p=followbutton)  \n- [Follow me on LinkedIn](https://www.linkedin.com/in/ajvanderlee)  \n- [Follow me on Bluesky](https://bsky.app/profile/avanderlee.com)\n\n## My work\n- Blogging weekly at [SwiftLee](https://www.avanderlee.com) ***(240K+ Monthly Views)***\n- Curating articles in [SwiftLee Weekly](https://avanderlee.com/swiftlee-weekly-subscribe) ***(27.4K Subscribers)***\n- Teaching concurrency via [swiftconcurrencycourse.com](https://www.swiftconcurrencycourse.com)\n\n## My Apps\n\nAlongside SwiftLee, I build tools for iOS developers and for everyday iPhone users.\n\n- **[RocketSim](https://rocketsim.app/?utm_source=avanderlee&utm_medium=referral&utm_campaign=rocketsim&utm_content=about)**: Build apps faster with extra tools for the iOS Simulator, such as recording, inspection and automation.\n- **[RocketTrace](https://rockettrace.app/?utm_source=avanderlee&utm_medium=referral&utm_campaign=rockettrace&utm_content=about)**: Find performance problems in Xcode Instruments traces.\n- **[MCP Beast](https://mcp-beast.ai/mac-app-ios-developers?utm_source=avanderlee&utm_medium=referral&utm_campaign=mcp_beast&utm_content=about)**: One private gateway for the MCP servers and tools in your developer stack.\n- **[Video Compressor](https://videocompression.app/?utm_source=avanderlee&utm_medium=referral&utm_campaign=video_compressor&utm_content=about)**: An iPhone app that finds your largest videos, shows the saving before you compress, and compresses on-device so nothing is uploaded.\n",
+  "readmes": {
+   "AvdLee/Swift-Concurrency-Agent-Skill": "<p align=\"center\">\n    <a href=\"https://www.swiftconcurrencycourse.com?utm_source=github&utm_medium=agent-skill&utm_campaign=swift-concurrency-skill\">\n    </a>\n</p>\n# Swift Concurrency Agent Skill\nExpert guidance for any AI coding tool that supports the [Agent Skills open format](https://agentskills.io/home) — safe concurrency, performance, and Swift 6+ migration.\nBased on the comprehensive [Swift Concurrency Course](https://www.swiftconcurrencycourse.com?utm_source=github&utm_medium=agent-skill&utm_campaign=swift-concurrency-skill), distilled into actionable, concise references for agents.\nThis repository is packaged as a portable [Agent Plugin](https://agent-plugins.org) (spec 1.0.0): compatible clients discover the skill automatically from the root `plugin.json` manifest and the `skills/` directory. Client-specific manifests for Claude Code, Cursor, Codex, and pi are included as well, and the plugin is published in the OpenAI Plugins Directory for ChatGPT and Codex.\n## Who this is for\n- Teams migrating to Swift 6 / strict concurrency who need safe defaults and quick triage.\n- Developers debugging data races, isolation errors, or flaky async tests.\n- Anyone wanting performance-minded concurrency patterns (actors, tasks, Sendable, async streams).\n## See also my other skills:\n- [SwiftUI Expert](https://github.com/AvdLee/SwiftUI-Agent-Skill)\n- [Core Data Expert](https://github.com/AvdLee/Core-Data-Agent-Skill)\n- [Swift Testing Expert](https://github.com/AvdLee/Swift-Testing-Agent-Skill)\n## How to Use This Skill\n### Option A: Using skills.sh (recommended)\nInstall this skill with a single command:\n```bash\nnpx skills@latest add https://github.com/avdlee/swift-concurrency-agent-skill --skill swift-concurrency\n```\nFor more information, visit the [skills.sh platform page](https://skills.sh/avdlee/swift-concurrency-agent-skill/swift-concurrency).\n> Installed before the Agent Plugins migration? Run `npx skills@latest update` using skills CLI 1.5.24 or newer. It migrates the saved skill path without treating the skill as deleted.\nThen use the skill in your AI agent, for example:  \n> Use the swift concurrency skill and analyze the current project for Swift Concurrency impr",
+   "AvdLee/RocketSimApp": "\n# RocketSim - Build Apps Faster\nRocketSim enhances the iOS Simulator with tools for testing, debugging, captures, accessibility, app actions, and more. It helps iOS developers move faster by making common Simulator workflows easier to inspect, automate, and repeat.\nDevelopers use RocketSim to:\n- Inspect and debug simulator behavior faster\n- Trigger app actions and test flows without leaving their coding environment\n- Capture screenshots and recordings with less manual work\n- Automate simulator interaction through the RocketSim CLI and bundled agent skill\n## RocketSim Agent Skill\nThe RocketSim agent skill gives AI coding tools a reliable way to work with the iOS Simulator through RocketSim. It detects the installed RocketSim version, uses the matching RocketSim CLI, and enables agents to inspect what is visible on screen before interacting with the app.\nIn practice, this gives your agents eyes. Instead of guessing with brittle simulator automation, they can use RocketSim to understand the current UI state and interact with it efficiently using the same stateful tooling that powers RocketSim itself.\nThis is especially useful if you want an agent to:\n- Navigate and test iOS Simulator apps\n- Read visible accessibility elements before interacting\n- Tap, type, swipe, and trigger flows more reliably\n- Audit the visible screen for accessibility issues, fix them, and validate the result\n- Use the RocketSim version already installed on your machine\nThe RocketSim Agent Skill now lives in its own repository with full installation instructions, packaging metadata, and release workflow:\n- [RocketSim-Agent-Skill](https://github.com/AvdLee/RocketSim-Agent-Skill)\n## Learn More\nIf you want to learn more about RocketSim itself, use the canonical product resources:\n- [RocketSim website](https://www.rocketsim.app)\n- [RocketSim documentation](https://www.rocketsim.app/docs)\n- [RocketSim on the Mac App Store](https://apps.apple.com/us/app/rocketsim-for-xcode-simulator/id1504940162)\n## Support And Feedback\n- Open a GitHub issue for bugs or feature requests related to RocketSim.\n- Use the documentation site for feature guides and setup help.\nRocketSim is developed by [Antoine van der L",
+   "AvdLee/appstoreconnect-swift-sdk": "# App Store Connect Swift SDK\nThe Swift SDK to work with the App Store Connect API from Apple.\n[](https://swiftpackageindex.com/AvdLee/appstoreconnect-swift-sdk)  [](https://x.com/twannl)\n## Kickstart information on the API\n- [Automate your workflow with the App Store Connect API](https://developer.apple.com/app-store-connect/api/)\n- [Official Apple Documentation](https://developer.apple.com/documentation/appstoreconnectapi)\n- WWDC 2018 Talk [Automating App Store Connect](https://developer.apple.com/videos/play/wwdc2018/303/)\n- [App Store Connect API adoption with use case examples](https://www.avanderlee.com/general/app-store-connect-api-adoption/)\n## Included in this SDK\n- [x] Configuration with API Key\n- [x] APIProvider with endpoints structure\n- [x] Add models for all endpoints\n- [x] JWT Logic to sign requests\n- [x] Get started section in the readme\n- [x] Support for all Apple platforms\n- [x] Supports _all_ requests due to OpenAPI generated requests and entities\n## Requesting API Access\nTo request access, go to the new API Keys section in Users and Access in App Store Connect. Please note that you must be the Team Agent (Legal role) of a development team enrolled as an organization. Access for developers enrolled as an individual is coming soon.\n## How to use the SDK?\n_Not all endpoints are available yet, we're working hard to implement them all (see [Endpoints](Sources/Endpoints))._\n#### 1. Import the framework:\n```swift\nimport AppStoreConnect_Swift_SDK\n```\n#### 2. Create your API Configuration\nGo to [https://appstoreconnect.apple.com/access/integrations/api](https://appstoreconnect.apple.com/access/integrations/api) and create your own key. This is also the page to find your private key ID and the issuer ID.\nAfter downloading your private key, you can open the .p8 file containing the private key in a text editor which will show like the following content:\n```\n-----BEGIN PRIVATE KEY-----\nFDFDGgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwQgPaXyFvZfNydDEjxgjUCUxyGjXcQxiulEdGxoVbasV3GgCgYIKomokDj0DAQehRANCAAASffd/DU3TUWAoLmqE6hZL9A7i0DWpXtmIDCDiITRznC6K4/WjdIcuMcixy+m6O0IrffxJOablIX2VM8sHRpoiuy\n-----END PRIVATE KEY-----\n```\nCopy the contents and remove the whitelines,",
+   "AvdLee/Diagnostics": "<p align=\"center\">\n</p>\n<p align=\"center\">\n</p>\n| Example mail composer | Example Report |\n| --- | --- |\n|  |  |\nDiagnostics is a library written in Swift which makes it really easy to share Diagnostics Reports to your support team.\n- [Features](#features)\n- [Requirements](#requirements)\n- [Usage](#usage)\n    - [Agent-friendly reports](#agent-friendly-reports)\n    - [Install the Agent Skill](#install-the-agent-skill)\n\t- [Using a custom UserDefaults type](#using-a-custom-userdefaults-type) \n\t- [Filtering out sensitive data](#filtering-out-sensitive-data) \n\t- [Adding your own custom logs](#adding-your-own-custom-logs)\n\t- [Adding your own custom report](#adding-your-own-custom-report)\n    - [Smart insights](#smart-insights)   \n- [Communication](#communication)\n- [Installation](#installation)\n- [Release Notes](#release-notes)\n- [License](#license)\n## Features\nThe library allows to easily attach the Diagnostics Report as an attachment to the `MFMailComposeViewController`.\n- [x] Integrated with the `MFMailComposeViewController`\n- [x] Default reporters include:\n    - App metadata\n    - System metadata\n    - System logs divided per session\n- [x] Possibility to filter out sensitive data using a `DiagnosticsReportFilter`\n- [x] A custom `DiagnosticsLogger` to add your own logs\n- [x] Agent-friendly single-file HTML reports with embedded structured JSON or standalone JSON output\n- [x] Smart insights like _\"⚠️ User is low on storage\"_ and *\"✅ User is using the latest app version\"*\n- [x] Flexible setup to add your own smart insights\n- [x] Flexible setup to add your own custom diagnostics\n- [x] Native cross-platform support, e.g. iOS, iPadOS and macOS\n## Usage\nThe default report already contains a lot of valuable information and could be enough to get you going. \nMake sure to set up the `DiagnosticsLogger` as early as possible to catch all the system logs, for example in the `didLaunchWithOptions`:\n```swift\nfunc application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {\n    do {\n        try DiagnosticsLogger.setup()\n    } catch {\n        print(\"Failed to setup the Diagnostics Logger\")\n    }\n    return",
+   "AvdLee/Roadmap": "\n# Roadmap\nPublish your roadmap inside your app and allow users to vote for upcoming features, without having to create a backend!\n## Example\n## Setting up Roadmap\n### Create a Roadmap JSON\nRoadmap works with a remote JSON configuration listing all features and their statuses. We recommend hosting it with [Sidetrack](https://roadmap.sidetrack.app) which provides an all-in-one solution, but you can also host it on GitHub Pages or [simplejsoncms.com](https://simplejsoncms.com).\nAn example JSON looks as follows:\n```json\n[\n    {\n        \"id\": \"1\",\n        \"title\": \"Combine sentences\",\n        \"status\": \"planned\",\n        \"description\" : \"You can add a little bit of extra context here.\"\n    },\n    {\n        \"id\": \"2\",\n        \"title\": \"Open with Finder support\",\n        \"status\": \"planned\"\n    },\n    {\n        \"id\": \"3\",\n        \"title\": \"Initial Launch\",\n        \"status\": \"finished\",\n        \"description\" : \"Release v1 to the public.\",\n        \"isFinished\": true\n    }\n]\n```\nThe keys `id`, `title` are mandatory and all have to be strings. You can use any value for `status` or `description`.\n#### Support For Localization \nIf you are looking to support localization, then you need to add extra optional parameters in your JSON `localizedTitle`, `localizedDescription` and `localizedStatus` like:\n```json\n[\n  {\n    \"id\": \"0\",\n    \"title\": \"Adding a map\",\n    \"localizedTitle\": [\n      {\n        \"language\": \"ar\",\n        \"value\": \"اضافة خارطة\"\n      },\n      {\n        \"language\": \"en\",\n        \"value\": \"Adding a map\"\n      }\n    ],\n    \"status\": \"planned\",\n    \"localizedStatus\": [\n      {\n        \"language\": \"ar\",\n        \"value\": \"مجدولة\"\n      },\n      {\n        \"language\": \"en\",\n        \"value\": \"Planned\"\n      }\n    ],\n    \"description\": \"some description\",\n    \"localizedDescription\": [\n      {\n        \"language\": \"ar\",\n        \"value\": \"اضافة خارطة لمعرفة الاماكن القريبة\"\n      },\n      {\n        \"language\": \"en\",\n        \"value\": \"Adding a map to view nearby places\"\n      }\n    ]\n  }\n]\n```\n#### Keep a list of finished features\nIf you add `isFinished` as `true` to a feature in your JSON, the voting view will be hidden for the users & no API call will be made to fetch vot"
+  }
+ },
+ "apps": []
+}

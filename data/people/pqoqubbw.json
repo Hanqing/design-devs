@@ -1,0 +1,147 @@
+{
+ "name": "dmytro（pqoqubbw）",
+ "role": "Mintlify 设计工程师 · lucide-animated 作者 · Invisible Details 课程 · 布达佩斯",
+ "title": "dmytro：<em>看起来没问题，感觉却不对</em>",
+ "dek": "TA 来自乌克兰哈尔科夫，现在住在布达佩斯，是文档平台 Mintlify 的设计工程师。TA 最有名的作品是 lucide-animated：把流行的 Lucide 图标库做成三百五十多个带动画的 React 图标，免费开源，复制即用，GitHub 上有八千多颗星，还进入了 Vercel 的开源支持计划。TA 的课程 Invisible Details 讲的是界面里那些看不见的细节：时机、分量、状态和反馈。TA 在 X 上几乎每天发一个小组件改进：表格日期单元格、版本历史抽屉、键盘快捷键组件、切换标签时页面不跳动……",
+ "card": "Mintlify 设计工程师（布达佩斯）；lucide-animated（★8.2 千，350+ 动画图标）作者，Invisible Details 课程。",
+ "location": "匈牙利布达佩斯（来自乌克兰哈尔科夫）",
+ "updated": "2026-10-23",
+ "tags": ["Design Engineering", "动画图标", "React", "Motion", "课程"],
+ "links": [
+  {"label": "pqoqubbw.dev", "url": "https://pqoqubbw.dev"},
+  {"label": "lucide-animated", "url": "https://lucide-animated.com"},
+  {"label": "Invisible Details", "url": "https://invisibledetails.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「i care about the craft and building things that feel right for the person on the other side of the screen.」",
+  "<strong>代表作：</strong>lucide-animated（★8,234，MIT 许可，支持 shadcn 命令安装）、Invisible Details 课程、cal.com 动画网格复刻、为 Paper 设计的图标包。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 4,899 次；X 关注者约 9,700。",
+  "<strong>生态：</strong>社区已把 lucide-animated 移植到 Svelte（movingicons.dev）和 Vue。"
+ ],
+ "lead": "Invisible Details 的开头是一段坦白：一个页面做完，一切都对齐了，颜色也平衡，没有哪里明显出错，但就是哪里不对。也许是按钮的过渡晚了一点点，也许是列表在设计稿里很好，一动起来就显得廉价。「最糟的是，我说不出问题在哪。」这门课就是 TA 后来开始认真观察之后找到的答案。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计工程师、课程作者"],
+     ["所在地", "匈牙利布达佩斯（来自乌克兰哈尔科夫）"],
+     ["现任", "Mintlify"],
+     ["作品", "lucide-animated、Invisible Details"],
+     ["技术栈", "React、Next.js、Motion、Tailwind CSS"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "dmytro 专注于<strong>组件层面的「感觉」</strong>。TA 发布的改进都很具体：图表用纯 div 和 SVG 按百分比绘制，不需要在客户端测量，刷新不闪烁；日期只在不是今年时才显示年份；表格日期单元格先显示相对时间，一周后切换成完整日期，日历日期不会因时区偏移一天；版本历史里同一批人 15 分钟内的多次保存会折叠成一行；键盘快捷键组件在首次绘制前识别 Mac 还是 Windows，双击就能选中整个快捷键。"},
+    {"p": "TA 也做好玩的东西：打开冰箱选壁纸的界面、只有五个人能看懂的 404 页面，以及一个收录手写家传食谱的菜谱网站。"},
+    {"note": "本页依据 pqoqubbw.dev、lucide-animated.com、invisibledetails.com、GitHub 和 X 帖子整理，资料截至 2026 年 10 月。性别未见本人明确表述，本页用 TA。更早的工作经历未公开。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2020", "title": "注册 GitHub", "text": "开始写前端。"},
+     {"when": "2023", "title": "开始在 X 上公开作品", "text": "持续分享界面细节实验。"},
+     {"when": "2024", "title": "lucide-animated", "text": "10 月发布动画图标库；复刻 cal.com 动画网格。"},
+     {"when": "约 2025–2026", "title": "Mintlify 与课程", "text": "加入 Mintlify；推出 Invisible Details；10 月上线新版个人网站。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "lucide-animated", "url": "https://lucide-animated.com",
+     "meta": ["2024–", "React · Motion", "★8.2 千"],
+     "paras": [
+      "「Beautifully crafted animated icons.」三百五十多个基于 Motion 和 Lucide 的动画 SVG 图标，可以用 shadcn 命令一键加入项目。网站本身支持 ⌘F 搜索，并提供 llms.txt 方便 Agent 读取。"
+     ],
+     "facts": [["GitHub", "★8,234 · ⑂291"]]
+    }},
+    {"work": {
+     "name": "Invisible Details", "url": "https://invisibledetails.com",
+     "meta": ["课程", "界面细节"],
+     "paras": [
+      "「A course on the invisible details of interface design: the timing, weight and small decisions that separate good software from great.」每个页面都提供 Markdown 版本，加 .md 后缀即可，Agent 也能读。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Paper 图标包", "为 Paper 的新项目设计的自定义图标"],
+      ["cal-com-animated-grid", "复刻 cal.com 的动画网格"],
+      ["个人网站", "2026 年 10 月改版，带自定义文本选区等细节"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://pqoqubbw.dev", "paras": [
+     "全小写的极简页面：一句定位、两件作品、一个「下一个项目，即将推出」。TA 说做新版网站「非常开心」，里面藏了不少小细节。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel"],
+      ["风格", "全小写、极简"],
+      ["Agent 友好", "课程与图标站都提供 llms.txt"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "you can tell when an interface feels right - saying why is the hard part.", "cite": "dmytro，lucide-animated.com"},
+    {"p": "TA 的判断标准很朴素：「如果有什么感觉不对，我就一直改，直到不再不对为止。」"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["细节", "组件级打磨非常细", "—"],
+      ["开源", "lucide-animated 广受欢迎", "依赖 Motion，包体需自行评估"],
+      ["公开信息", "作品透明", "履历很少公开"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>给熟悉的东西加一点动：</strong>图标库也能做出新意。",
+     "<strong>日期、快捷键、表格都值得打磨。</strong>",
+     "<strong>说出「为什么不对」：</strong>把直觉变成可以复用的规则。",
+     "<strong>为身边的人做软件：</strong>一本菜谱也是好产品。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "lucide-animated", "url": "https://lucide-animated.com", "why": "给你的按钮换一个会动的图标。"},
+     {"name": "Invisible Details", "url": "https://invisibledetails.com", "why": "学习界面的「分量感」。"},
+     {"name": "pqoqubbw.dev", "url": "https://pqoqubbw.dev", "why": "找找网站里藏着的细节。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "检查你产品里所有显示日期的地方：今年的日期有没有多余地显示年份？",
+ "sources": [
+  {"label": "dmytro 的 X 个人资料", "url": "https://x.com/pqoqubbw"},
+  {"label": "pqoqubbw.dev", "url": "https://pqoqubbw.dev"},
+  {"label": "lucide-animated", "url": "https://lucide-animated.com"},
+  {"label": "Invisible Details", "url": "https://invisibledetails.com"},
+  {"label": "GitHub：pqoqubbw/icons", "url": "https://github.com/pqoqubbw/icons"}
+ ]
+}

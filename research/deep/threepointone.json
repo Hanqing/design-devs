@@ -1,0 +1,477 @@
+{
+ "handle": "threepointone",
+ "sites": [
+  {
+   "url": "https://sunilpai.dev",
+   "ok": true,
+   "title": "Sunil Pai • Solving the decision problem",
+   "description": "Sunil Pai writes about developer tools, distributed systems, AI agents, and the craft of making software.",
+   "stack": [
+    "Astro",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en-GB",
+   "home_text": "skip to content\n Sunil Pai \n Close \nSoftware, systems, and making things \nI make tools for people who make things. \nI’m a product-minded systems engineer, founder, and developer-tools builder in London.\n I’ve worked on React, Cloudflare Workers, PartyKit, and now durable infrastructure for AI\n agents.\nThis is where I write about software, new computing primitives, and what the work feels\n like while it is changing beneath us.\nFind me on \n Github \n Twitter \n Instagram \n LinkedIn \nRecent writing \n 12 Oct 2026 \n original thoughts have terrible UX \n thinking for yourself is a terrible business model. \n 8 Oct 2026 \n Collecting favours \n Notes on reputation; A thing I learnt from dad \n 6 Oct 2026 \n Do you actually like hard problems? \n I spent years becoming the engineer people reached for. Now they still reach for me, but for different reasons. \n 19 Sept 2026 \n the senior engineer death spiral \n on proving yourself, burning out, and being a good teammate \n 7 Sept 2026 \n the appeal \n what does the creator owe you \n 14 Aug 2026 \n the task isn't the job \n a new role, and some questions I want to build my way through \n 12 Aug 2026 \n startups need an asymmetry \n A quick note on startups \n 9 Aug 2026 \n every company needs a cassandra \n an ai agent for the socially expensive work of organizational dissent \n 20 Jul 2026 \n one document, two hands \n the agent belongs beside you, not between you and the app \n 24 Jun 2026 \n a letter from the orchestra pit \n the work of the musician is not the work of the machine \n 15 Jun 2026 \n never waste a token \n durable inference: resumable streams, crash recovery, and why the LLM request shouldn't die with your process. \n 28 May 2026 \n Tlön, Uqbar, LLMs, Tertius \n The World Will Be Prompt \n 2 Apr 2026 \n developer relations after the cheat code machine \n (corollary- developer relations is becoming more about helping humans develop judgment around these systems) \n 13 Mar 2026 \n let the code do the talking \n (why llms and safe sandboxes may change the basic contract between users and software) \n 7 Jan 2026 \n the context is the work (what the day-to-day looks like now) \n (corollary- pr descriptions are becoming the apprenticeship surface for remote teams and coding agents) \n 3 Jan 2026 \n where good ideas come from (for coding agents) \n (and the part where users have to level up) \n 14 Apr 2025 \n guitars and javascript - the case for jank \n worse is better (and that’s why i still write javascript) \n 17 Mar 2025 \n drop that meet link \n just keep talking \n 27 Feb 2025 \n an event bus for ai agents \n it is very professional yes \n 16 Feb 2025 \n ai agents are local first clients \n sync engines finally have a killer app \n 10 Feb 2025 \n call me maybe \n AI agents should be addressable \n 2 Feb 2025 \n Full Stack AI Agents \n a UI for every man, woman, child, and ai agent \n 31 Jan 2025 \n Durable Objects Callbacks are Weird \n but it's also convenient to solve human-in-the-loop for ai agents \n 27 Jan 2025 \n Reliable UX for AI chat with Durable Objects \n A simpler architecture for reliable, realtime AI chat using Durable Objects \n 24 Jan 2025 \n let's talk about a task tracking system for ai agents \n AI agents need tracking software, and we need to build it. \n 21 Jan 2025 \n The unfortunate truth of software for technologists \n It's all about the money, baby \n 10 Dec 2024 \n A list of reasons why you should be using Cloudflare Workers for building your AI agent infrastructure/product/personal assistant \n (It's only shilling if it's posted during working hours. I'm on my lunch break.) \n 3 Dec 2024 \n Three missing primitives in every UI framework \n (please build them) \n 2 Dec 2024 \n Durable Objects are Computers / Containers / Servers \n (everything old is new again) \n 23 Sept 2024 \n Partial Prerendering for Everyone with Cloudflare Workers \n Implementing Next.js-style PPR in a normal React SSR app \n 19 Aug 2024 \n spatial compute \n Let the network decide where in the world to run your code \n 6 Feb 2024 \n The next evolution of serverless is stateful \n (A lot of words about where I think serverless computing is going.) \n 5 Sept 2023 \n Odeon Plus \n I bought a membership to the movies and it's awesome \n 22 May 2023 \n smol party: Hello Wololo! \n Founder to founder, Shawn and I swap stories and thoughts on building a startup \n 6 Mar 2021 \n Chatting with Jason Lengstorf about esbuild \n An hour and a half discussion about why esbuild is a big deal. \n 18 Feb 2021 \n ui (a short story) \n “Wake up, Computer” \n 13 Feb 2021 \n The proble",
+   "github_links": [
+    "threepointone"
+   ],
+   "subpages": {
+    "https://sunilpai.dev/about/": "skip to content\n Sunil Pai \n Close \nA little context \nHi, I’m Sunil. \nI’m a product-minded systems engineer, founder, and developer-tools builder based in\n London.\nI like turning new infrastructure primitives into products and abstractions that people\n can understand, adopt, and build on. My work has moved between user interfaces,\n open-source frameworks, developer platforms, stateful distributed systems, and durable\n infrastructure for AI agents.\nThese days I’m a principal systems engineer at Cloudflare, working on agents and\n long-running AI systems. Before that I founded PartyKit ,\n which Cloudflare acquired in 2024. Further back, I worked on the React core team, led\n developer tooling for Cloudflare Workers, built social VR at Oculus, and made a fair\n amount of web infrastructure along the way.\nThe thread through all of it is an interest in how a powerful technical idea becomes a\n useful thing: the API, the interface, the explanation, and the bit of taste that makes it\n cohere.\nThis site is less a record of employment and more a working notebook. I write about\n software and systems, but also about tools, judgment, and what happens to a craft when its\n materials change.\nAway from computers, I like playing guitars, taking long walks, and cooking for people.\nFind me on \n Github \n Twitter \n Instagram \n LinkedIn",
+    "https://sunilpai.dev/posts/": "skip to content\n Sunil Pai \n Close \nWriting \nThe archive. \nEssays and notes about software, systems, developer tools, and the changing craft of\n programming.\nAll writing \n41 pieces · newest first \n 12 Oct 2026 \n original thoughts have terrible UX \n thinking for yourself is a terrible business model. \n 8 Oct 2026 \n Collecting favours \n Notes on reputation; A thing I learnt from dad \n 6 Oct 2026 \n Do you actually like hard problems? \n I spent years becoming the engineer people reached for. Now they still reach for me, but for different reasons. \n 19 Sept 2026 \n the senior engineer death spiral \n on proving yourself, burning out, and being a good teammate \n 7 Sept 2026 \n the appeal \n what does the creator owe you \n 14 Aug 2026 \n the task isn't the job \n a new role, and some questions I want to build my way through \n 12 Aug 2026 \n startups need an asymmetry \n A quick note on startups \n 9 Aug 2026 \n every company needs a cassandra \n an ai agent for the socially expensive work of organizational dissent \n 20 Jul 2026 \n one document, two hands \n the agent belongs beside you, not between you and the app \n 24 Jun 2026 \n a letter from the orchestra pit \n the work of the musician is not the work of the machine \n 15 Jun 2026 \n never waste a token \n durable inference: resumable streams, crash recovery, and why the LLM request shouldn't die with your process. \n 28 May 2026 \n Tlön, Uqbar, LLMs, Tertius \n The World Will Be Prompt \n 2 Apr 2026 \n developer relations after the cheat code machine \n (corollary- developer relations is becoming more about helping humans develop judgment around these systems) \n 13 Mar 2026 \n let the code do the talking \n (why llms and safe sandboxes may change the basic contract between users and software) \n 7 Jan 2026 \n the context is the work (what the day-to-day looks like now) \n (corollary- pr descriptions are becoming the apprenticeship surface for remote teams and coding agents) \n 3 Jan 2026 \n where good ideas come from (for coding agents) \n (and the part where users have to level up) \n 14 Apr 2025 \n guitars and javascript - the case for jank \n worse is better (and that’s why i still write javascript) \n 17 Mar 2025 \n drop that meet link \n just keep talking \n 27 Feb 2025 \n an event bus for ai agents \n it is very professional yes \n 16 Feb 2025 \n ai agents are local first clients \n sync engines finally have a killer app \n 10 Feb 2025 \n call me maybe \n AI agents should be addressable \n 2 Feb 2025 \n Full Stack AI Agents \n a UI for every man, woman, child, and ai agent \n 31 Jan 2025 \n Durable Objects Callbacks are Weird \n but it's also convenient to solve human-in-the-loop for ai agents \n 27 Jan 2025 \n Reliable UX for AI chat with Durable Objects \n A simpler architecture for reliable, realtime AI chat using Durable Objects \n 24 Jan 2025 \n let's talk about a task tracking system for ai agents \n AI agents need tracking software, and we need to build it. \n 21 Jan 2025 \n The unfortunate truth of software for technologists \n It's all about th"
+   },
+   "feed": {
+    "url": "https://sunilpai.dev/rss.xml",
+    "count_seen": 41,
+    "items": [
+     {
+      "title": "original thoughts have terrible UX",
+      "date": "Mon, 12 Oct 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/original-ideas/"
+     },
+     {
+      "title": "Collecting favours",
+      "date": "Thu, 08 Oct 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/collecting-favours/"
+     },
+     {
+      "title": "Do you actually like hard problems?",
+      "date": "Tue, 06 Oct 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/the-wrong-hard-things/"
+     },
+     {
+      "title": "the senior engineer death spiral",
+      "date": "Sat, 19 Sep 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/the-senior-engineer-death-spiral/"
+     },
+     {
+      "title": "the appeal",
+      "date": "Mon, 07 Sep 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/the-appeal/"
+     },
+     {
+      "title": "the task isn't the job",
+      "date": "Fri, 14 Aug 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/the-task-isnt-the-job/"
+     },
+     {
+      "title": "startups need an asymmetry",
+      "date": "Wed, 12 Aug 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/startups-need-an-asymmetry/"
+     },
+     {
+      "title": "every company needs a cassandra",
+      "date": "Sun, 09 Aug 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/every-company-needs-a-cassandra/"
+     },
+     {
+      "title": "one document, two hands",
+      "date": "Mon, 20 Jul 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/one-document-two-hands/"
+     },
+     {
+      "title": "a letter from the orchestra pit",
+      "date": "Wed, 24 Jun 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/a-letter-from-the-orchestra-pit/"
+     },
+     {
+      "title": "never waste a token",
+      "date": "Mon, 15 Jun 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/never-waste-a-token/"
+     },
+     {
+      "title": "Tlön, Uqbar, LLMs, Tertius",
+      "date": "Thu, 28 May 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/tlon-uqbar-llms-tertius/"
+     },
+     {
+      "title": "developer relations after the cheat code machine",
+      "date": "Thu, 02 Apr 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/developer-relations/"
+     },
+     {
+      "title": "let the code do the talking",
+      "date": "Fri, 13 Mar 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/after-wimp/"
+     },
+     {
+      "title": "the context is the work (what the day-to-day looks like now)",
+      "date": "Wed, 07 Jan 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/context-is-the-work/"
+     },
+     {
+      "title": "where good ideas come from (for coding agents)",
+      "date": "Sat, 03 Jan 2026 00:00:00",
+      "url": "https://sunilpai.dev/posts/seven-ways/"
+     },
+     {
+      "title": "guitars and javascript - the case for jank",
+      "date": "Mon, 14 Apr 2025 00:00:00",
+      "url": "https://sunilpai.dev/posts/on-guitars-and-javascript/"
+     },
+     {
+      "title": "drop that meet link",
+      "date": "Mon, 17 Mar 2025 00:00:00",
+      "url": "https://sunilpai.dev/posts/drop-that-meet-link/"
+     },
+     {
+      "title": "an event bus for ai agents",
+      "date": "Thu, 27 Feb 2025 00:00:00",
+      "url": "https://sunilpai.dev/posts/an-event-bus-for-ai-agents/"
+     },
+     {
+      "title": "ai agents are local first clients",
+      "date": "Sun, 16 Feb 2025 00:00:00",
+      "url": "https://sunilpai.dev/posts/local-first-ai-agents/"
+     },
+     {
+      "title": "call me maybe",
+      "date": "Mon, 10 Feb 2025 00:00:00",
+      "url": "https://sunilpai.dev/posts/addressable-ai-agents/"
+     },
+     {
+      "title": "Full Stack AI Agents",
+      "date": "Sun, 02 Feb 2025 00:00:00",
+      "url": "https://sunilpai.dev/posts/full-stack-ai-agents/"
+     },
+     {
+      "title": "Durable Objects Callbacks are Weird",
+      "date": "Fri, 31 Jan 2025 00:00:00",
+      "url": "https://sunilpai.dev/posts/durable-object-callbacks-are-weird/"
+     },
+     {
+      "title": "Reliable UX for AI chat with Durable Objects",
+      "date": "Mon, 27 Jan 2025 00:00:00",
+      "url": "https://sunilpai.dev/posts/reliable-ux-for-ai-chat-with-durable-objects/"
+     },
+     {
+      "title": "let's talk about a task tracking system for ai agents",
+      "date": "Fri, 24 Jan 2025 00:00:00",
+      "url": "https://sunilpai.dev/posts/ai-agents-need-tracking/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "threepointone",
+  "user": {
+   "name": "Sunil Pai",
+   "company": "Cloudflare, Inc.",
+   "blog": "https://sunilpai.dev",
+   "location": "Newcastle Upon Tyne, England",
+   "bio": null,
+   "public_repos": 358,
+   "followers": 4578,
+   "created_at": "2008-07-29T12:17:53Z",
+   "twitter_username": "threepointone",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "threepointone/glamor",
+    "description": "inline css for react et al",
+    "stargazers_count": 3666,
+    "forks_count": 197,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-07-18T11:25:39Z",
+    "pushed_at": "2023-12-21T09:00:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/markdown-in-js",
+    "description": "inline markdown for react/jsx",
+    "stargazers_count": 791,
+    "forks_count": 20,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-11-19T14:33:23Z",
+    "pushed_at": "2022-12-06T21:00:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/react-act-examples",
+    "description": "Notes and examples on ReactTestUtils.act(...)",
+    "stargazers_count": 543,
+    "forks_count": 44,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-02-17T04:50:18Z",
+    "pushed_at": "2023-04-21T13:15:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/glam",
+    "description": "crazy good css in your js",
+    "stargazers_count": 509,
+    "forks_count": 16,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-04-25T17:35:48Z",
+    "pushed_at": "2018-04-25T15:36:20Z",
+    "topics": [
+     "babel-plugin",
+     "css"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/redux-react-local",
+    "description": "local component state via redux",
+    "stargazers_count": 368,
+    "forks_count": 21,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-01-16T15:34:50Z",
+    "pushed_at": "2022-12-06T21:00:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/css-suspense",
+    "description": "css loading for react ",
+    "stargazers_count": 309,
+    "forks_count": 14,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-07-26T21:11:20Z",
+    "pushed_at": "2020-10-15T14:26:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/rakt",
+    "description": "fast websites, by default ",
+    "stargazers_count": 294,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-02-10T20:51:42Z",
+    "pushed_at": "2017-03-19T12:01:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/ratpack",
+    "description": "ready. set. go!",
+    "stargazers_count": 201,
+    "forks_count": 10,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-01-04T14:03:53Z",
+    "pushed_at": "2017-02-07T12:23:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/bs-nice",
+    "description": "css-in-reason",
+    "stargazers_count": 184,
+    "forks_count": 14,
+    "language": "OCaml",
+    "homepage": null,
+    "created_at": "2017-12-21T10:48:27Z",
+    "pushed_at": "2018-02-08T16:05:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/freezus",
+    "description": "magic component for transitions between screens",
+    "stargazers_count": 183,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-02-11T11:31:15Z",
+    "pushed_at": "2018-05-30T10:50:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/react-modules",
+    "description": "code splitting as a component",
+    "stargazers_count": 171,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-09-21T11:20:32Z",
+    "pushed_at": "2016-09-24T04:54:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/partyvite",
+    "description": "A starter template for 🎈 partyserver ⨉ ⚡️ vite ⨉ ⚛️ react ⨉ 🌊 tailwindcss ⨉ ⛅️ cloudflare workers",
+    "stargazers_count": 158,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-02-12T20:14:23Z",
+    "pushed_at": "2025-04-09T14:54:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/durable-chat",
+    "description": "Chat, with Durable Objects",
+    "stargazers_count": 135,
+    "forks_count": 11,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-08-11T11:09:49Z",
+    "pushed_at": "2024-12-11T23:38:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/react-springs",
+    "description": "react+rebound",
+    "stargazers_count": 91,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-06-07T20:53:46Z",
+    "pushed_at": "2015-08-31T05:26:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/emojico",
+    "description": "CLI tool to convert emoji to favicon assets",
+    "stargazers_count": 85,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-01-12T22:46:04Z",
+    "pushed_at": "2026-02-28T15:02:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/react-tpl",
+    "description": "abusing the platform",
+    "stargazers_count": 80,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-11-20T05:59:33Z",
+    "pushed_at": "2018-11-27T14:21:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/shawarma",
+    "description": null,
+    "stargazers_count": 79,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-11-05T00:28:33Z",
+    "pushed_at": "2026-10-23T22:26:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "threepointone/favre",
+    "description": "jsx -> favicon",
+    "stargazers_count": 75,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-04-24T21:27:23Z",
+    "pushed_at": "2017-04-25T12:47:35Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 20,
+  "languages": [
+   [
+    "JavaScript",
+    15
+   ],
+   [
+    "TypeScript",
+    4
+   ],
+   [
+    "OCaml",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "cloudflare/agents",
+    "stargazerCount": 5879,
+    "description": "Build and deploy AI Agents on Cloudflare ",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://developers.cloudflare.com/agents/"
+   },
+   {
+    "nameWithOwner": "cloudflare/partykit",
+    "stargazerCount": 1298,
+    "description": "PartyKit, for Workers",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "partykit/partykit",
+    "stargazerCount": 5734,
+    "description": "PartyKit simplifies developing multiplayer applications",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://docs.partykit.io/"
+   },
+   {
+    "nameWithOwner": "threepointone/glamor",
+    "stargazerCount": 3666,
+    "description": "inline css for react et al",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "threepointone/markdown-in-js",
+    "stargazerCount": 791,
+    "description": "inline markdown for react/jsx",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "cloudflare/ai",
+    "stargazerCount": 1199,
+    "description": null,
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 2624,
+  "orgs": [],
+  "profile_readme": "THREE \n\nPOINT \n\nONE ",
+  "readmes": {
+   "cloudflare/agents": "# Cloudflare Agents\n[](https://www.npmjs.com/package/agents)\n[](https://www.npmjs.com/package/agents)\nAgents are persistent, stateful execution environments for agentic workloads, powered by Cloudflare [Durable Objects](https://developers.cloudflare.com/durable-objects/). Each agent has its own state, storage, and lifecycle — with built-in support for real-time communication, scheduling, AI model calls, MCP, workflows, and more.\nAgents hibernate when idle and wake on demand. You can run millions of them — one per user, per session, per game room — each costs nothing when inactive.\n```sh\nnpm create cloudflare@latest -- --template cloudflare/agents-starter\n```\nOr add to an existing project:\n```sh\nnpm install agents\n```\n**[Read the docs](https://developers.cloudflare.com/agents/)** — getting started, API reference, guides, and more.\n## Quick Example\nA counter agent with persistent state, callable methods, and real-time sync to a React frontend:\n```typescript\n// server.ts\nimport { Agent, routeAgentRequest, callable } from \"agents\";\nexport type CounterState = { count: number };\nexport class CounterAgent extends Agent<Env, CounterState> {\n  initialState = { count: 0 };\n  @callable()\n  increment() {\n    this.setState({ count: this.state.count + 1 });\n    return this.state.count;\n  }\n  @callable()\n  decrement() {\n    this.setState({ count: this.state.count - 1 });\n    return this.state.count;\n  }\n}\nexport default {\n  async fetch(request: Request, env: Env, ctx: ExecutionContext) {\n    return (\n      (await routeAgentRequest(request, env)) ??\n      new Response(\"Not found\", { status: 404 })\n    );\n  }\n};\n```\n```tsx\n// client.tsx\nimport { useAgent } from \"agents/react\";\nimport { useState } from \"react\";\nimport type { CounterAgent, CounterState } from \"./server\";\nfunction Counter() {\n  const [count, setCount] = useState(0);\n  const agent = useAgent<CounterAgent, CounterState>({\n    agent: \"CounterAgent\",\n    onStateUpdate: (state) => setCount(state.count)\n  });\n  return (\n    <div>\n      <span>{count}</span>\n      <button onClick={() => agent.stub.increment()}>+</button>\n      <button onClick={() => agent.stub.decrement()}>-</button>\n    </div>\n  );\n}\n```\nState changes syn",
+   "cloudflare/partykit": "## 🎈 PartyServer\n_Much like life, this is a Work in Progress._\nLibraries / Examples / Documentation for building real-time apps (and more!) with [Cloudflare Workers](https://workers.cloudflare.com/). Powered by Durable Objects, Inspired by [PartyKit](https://www.partykit.io/).\nThis is the main repository for PartyServer. It contains the following packages:\n[PartyServer](/packages/partyserver/README.md) - The core library for building real-time applications with Durable Objects. This library enhances a standard Durable Object to make it easier to work with WebSockets, as well as adding some additional features like lifecycle hooks and broadcasting.\n[PartySocket](/packages/partysocket/README.md) - A library for working with WebSockets. It features reconnections, buffering, resilience, and more.\n[Y-PartyServer](/packages/y-partyserver/README.md) - A library that adds Yjs support to PartyServer. Yjs is a CRDT library that allows for real-time collaborative editing. This library exposes a base class extending PartyServer that adds Yjs support, with utility hooks for loading/saving Yjs documents from any external storage.\n[🥖 partysub](/packages/partysub/README.md) - A library for doing pubsub at scale with PartyServer. It lets you configure a \"room\" to be backed by N separate Durable Object instances, and a strategy for spreading the load across the world concentrated in configurable locations.\n[partysync](/packages/partysync/README.md) - An experimental library to synchronise state from a Durable Object to a client.\n[⏱️ partywhen](/packages/partywhen/README.md) - A library for scheduling tasks at scale.\n[hono-party](/packages/hono-party/README.md) - A middleware for Hono to handle PartyServer requests.\n### Fixtures\nWe have a set of small examples for PartyServer in the [`fixtures`](/fixtures/) directory. These are small, self-contained examples that demonstrate how to use PartyServer in different ways. We will expand this repository with broader (and deeper!) examples in the future.\nReach out to [@threepointone on twitter](https://twitter.com/threepointone) or the [Cloudflare Workers Discord](https://discord.com/invite/cloudflaredev) to follow progress, and if you ha",
+   "partykit/partykit": "\n[](https://discord.gg/g5uqHQJc3z)\n[PartyKit](https://partykit.io/) simplifies developing multiplayer applications.\nWith PartyKit, you can focus on building multiplayer apps or adding real-time experiences to your existing projects with as little as one line of code. Meanwhile, PartyKit will handle operational complexity and real-time infrastructure scaling.\n> [!NOTE]  \n> Current development of this project is in [cloudflare/partykit](https://github.com/cloudflare/partykit).\n## Documentation\nGo to [docs.partykit.io](https://docs.partykit.io) for documentation, guides and examples.\n## Quick start\nNote: to run PartyKit, you need to have Node v. 17 or higher installed.\nYou can create a PartyKit project by running:\n```sh\nnpm create partykit@latest\n```\nThis will ask a few questions about your project and create a new directory with a PartyKit application, that includes a server and a client.\nAlternatively, you can add PartyKit to your existing project using the following command in the project's root directory:\n```sh\nnpx partykit@latest init\n```\nFrom inside the directory, you can then run `npm run dev` to start the development server. When you're ready, you can deploy your application on to the PartyKit cloud with `npm run deploy`.\n## Developers\n- [Documentation](https://docs.partykit.io/) - [`/apps/docs`](./apps/docs)\n- [Examples](https://docs.partykit.io/examples) - [`/apps/docs/src/content/docs/examples`](./apps/docs/src/content/docs/examples)\n- [API References](https://docs.partykit.io/reference/) - [`./apps/docs/src/content/docs/reference`](./apps/docs/src/content/docs/reference)\n- [Guides](https://docs.partykit.io/guides) - [`./apps/docs/src/content/docs/guides`](./apps/docs/src/content/docs/guides)\n- [Release Notes](https://github.com/partykit/partykit/releases)\n- [Blog](https://blog.partykit.io/) - [`/apps/blog`](./apps/blog)\n## Community and support\n- [GitHub issues](./issues) to report bugs 🐛\n- [Discord](https://discord.gg/vwDWs68C) to ask questions, share your ideas and feedback, and help us celebrate your PartyKit projects 💕\n- [Twitter](https://x.com/partykit_io) to say \"hi\" and get the freshest updates!\n## Contributing\nWe encourage contributions to Party",
+   "threepointone/glamor": "# glamor\n[](https://gitter.im/glamor-css/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\ncss in your javascript\n`npm install glamor --save`\nusage\n```jsx\nimport { css } from 'glamor'\n// make css rules\nlet rule = css({\n  color: 'red',\n  ':hover': {\n    color: 'pink'\n  },\n  '@media(min-width: 300px)': {\n    color: 'green',\n    ':hover': {\n      color: 'yellow'\n    }\n  }\n})\n// add as data attributes\n<div {...rule} {...another}>\n  zomg\n</div>\n// or as classes\n<div className={`${rule} ${another}`}>\n  zomg\n</div>\n// merge rules for great justice\nlet mono = css({\n  fontFamily: 'monospace'\n})\nlet bolder = css({\n  fontWeight: 'bolder'\n})\n<div {...css(mono, bolder)}>\n  bold code!\n</div>\n```\nmotivation\n---\nThis expands on ideas from @vjeux's [2014 css-in-js talk](https://speakerdeck.com/vjeux/react-css-in-js).\nWe introduce an api to annotate arbitrary dom nodes with style definitions (\"rules\") for, um, the greater good.\nfeatures\n---\n- fast / efficient, with a fluent api\n- framework independent\n- adds vendor prefixes / fallback values\n- supports all the pseudo :classes/::elements\n- `@media` queries\n- `@supports` statements\n- `@font-face` / `@keyframes`\n- escape hatches for parent / child / contextual selectors\n- dev helper to simulate pseudo classes like `:hover`, etc\n- server side / static rendering\n- tests / coverage\n- experimental - [write real css](https://github.com/threepointone/glamor/blob/master/docs/css.md), with syntax highlighting and linting\n(thanks to [BrowserStack](https://www.browserstack.com/) for providing the infrastructure that allows us to run our build in real browsers.)\ndocs\n---\n- [api documentation](https://github.com/threepointone/glamor/blob/master/docs/api.md)\n- [howto](https://github.com/threepointone/glamor/blob/master/docs/howto.md) - a comparison of css techniques in glamor\n- [plugins](https://github.com/threepointone/glamor/blob/master/docs/plugins.md)\n- [server side rendering](https://github.com/threepointone/glamor/blob/master/docs/server.md)\n- [performance tips](https://github.com/threepointone/glamor/blob/master/docs/performance.md)\n- [what happens when I call css(...rules)?](https://github.com/threepointone",
+   "threepointone/markdown-in-js": "markdown-in-js\n---\nzero-overhead markdown in your react components\nusage\n---\nadd `'markdown-in-js/babel'` to the `plugins` field of your babel config\n```jsx\nimport markdown from 'markdown-in-js'\nconst App = () => markdown`\n## This is some content.\nYou can write _markdown_ as you'd like.\n${ <span> interpolate more <Content/> </span> }\nyou can <i>inline *html*</i> or even <OtherComponents/>, wow\n<div style=${{ fontWeight: 'bold' }}\n    className=${'some more styles'}\n    onClick=${handler}>\n  interpolate attributes as expected\n</div>\n`\n```\n- gets compiled to react elements via a babel plugin\n- preserves interpolations\n- built with [commonmark](https://github.com/jgm/commonmark.js)\n- optionally add [prismjs](http://prismjs.com/) for syntax highlighting of code blocks\ncustom components\n---\nYou can use custom components for markdown primitives like so -\n```jsx\nimport md from 'markdown-in-js'\nimport { MyHeading, MyLink } from './path/to/components'\nconst App = () => md({ h1: MyHeading, a: MyLink })`\n# this will be a custom header\n[custom link component](/url/to/link)\n`\n```\ntodo\n---\n- optionally no-wrap paragraphs\n- optionally return array of elements\n- instructions for in-editor syntax highlighting\n- add gotchas to docs\n- precompile code blocks\n- commonmark options\n- tests!\n"
+  }
+ },
+ "apps": []
+}

@@ -1,0 +1,394 @@
+{
+ "handle": "shadcn",
+ "sites": [
+  {
+   "url": "https://shadcn.com",
+   "ok": true,
+   "title": "shadcn",
+   "description": "design engineer",
+   "stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "shadcn / twitter / github \nI'm a design engineer on the AI team at Vercel. I created shadcn/ui and shadcn/registry . I co-created v0 with Jared, Shu and Max. \nshadcn/numbers \n github stars 166K \n npm downloads / month 96M \n Served by the official shadcn/registry. Does not include third-party registries. components / month * 45M \n x followers 245K \n newsletter subscribers 50K \nshadcn/newsletter \n Sign up \n50K+ subscribers \nshadcn/copper \nThe useful parts of a to-do list, a clipboard, and a scratchpad in one app built for AI-assisted work. Capture with a keystroke, copy it back when you need it. Buy Copper for Mac – $39 \nshadcn/ui \nThe most popular \"component library\". Built for AI. Now in ChatGPT, Claude, Gemini, Muse and all major LLMs. \nshadcn/ds \nComponents for building design tools like Framer, Canva, and more. \nshadcn/registry \nDistribution system for code. Now serving 10M+ components per week. \nSponsors \nFeatured Sponsors \nCurrent Sponsors \n Sponsor My Work",
+   "github_links": [
+    "Brunito06",
+    "CoolSpot",
+    "Gomah",
+    "Gustavohps10",
+    "ItsChrisHickman",
+    "Junnyyy",
+    "Mesh1313",
+    "Steellgold",
+    "TheOrcDev",
+    "aidenybai",
+    "charlesrhoward",
+    "dangphung4",
+    "danmindru",
+    "dgesteves",
+    "dominiksipowicz",
+    "dringrayson",
+    "dvnold",
+    "gokaygurcan",
+    "huntabyte",
+    "karenrebecag",
+    "knpaing",
+    "marcelbaklouti",
+    "mateusz-owczarek",
+    "mchenla",
+    "michivonah",
+    "ncdai",
+    "oliviertassinari",
+    "peiris",
+    "peterkharitonov",
+    "roprgm",
+    "shabanhr",
+    "shadcn",
+    "stvenchg",
+    "toxuh",
+    "uixmat",
+    "ulrichstark",
+    "unmonk",
+    "xiaoluoboding",
+    "y0u-0",
+    "zbowling"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "shadcn",
+  "user": {
+   "name": "shadcn",
+   "company": "@vercel",
+   "blog": "",
+   "location": null,
+   "bio": "I own a computer.",
+   "public_repos": 228,
+   "followers": 17154,
+   "created_at": "2009-09-08T17:49:59Z",
+   "twitter_username": "shadcn",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "shadcn/improve",
+    "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+    "stargazers_count": 9250,
+    "forks_count": 412,
+    "language": null,
+    "homepage": "",
+    "created_at": "2026-06-10T11:06:58Z",
+    "pushed_at": "2026-09-12T11:29:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/next-contentlayer",
+    "description": "A template with Next.js 13 app dir, Contentlayer, Tailwind CSS and dark mode.",
+    "stargazers_count": 717,
+    "forks_count": 106,
+    "language": "TypeScript",
+    "homepage": "https://next-contentlayer.vercel.app",
+    "created_at": "2023-04-27T14:58:10Z",
+    "pushed_at": "2024-01-11T17:57:49Z",
+    "topics": [
+     "contentlayer",
+     "dark-mode",
+     "mdx",
+     "nextjs",
+     "tailwindcss"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/app-tailwind-v4",
+    "description": "shadcn/ui + tailwind v4",
+    "stargazers_count": 223,
+    "forks_count": 28,
+    "language": "TypeScript",
+    "homepage": "https://app-tailwind-v4.vercel.app",
+    "created_at": "2025-01-23T18:18:32Z",
+    "pushed_at": "2025-12-12T04:11:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/next-mdx",
+    "description": "next-mdx provides a set of helper functions for fetching and rendering local MDX files. It handles relational data, supports custom components, is TypeScript ready and really fast.",
+    "stargazers_count": 202,
+    "forks_count": 13,
+    "language": "TypeScript",
+    "homepage": "http://next-mdx.org",
+    "created_at": "2021-02-26T11:49:03Z",
+    "pushed_at": "2022-02-27T08:22:15Z",
+    "topics": [
+     "mdx",
+     "mdx-js",
+     "nextjs",
+     "nextjs-plugin"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "shadcn/shadcn-electron-app",
+    "description": "electron-vite + shadcn/ui",
+    "stargazers_count": 162,
+    "forks_count": 13,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-11-12T17:03:40Z",
+    "pushed_at": "2024-11-12T17:03:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/example-ui-themes",
+    "description": null,
+    "stargazers_count": 110,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://example-ui-themes.vercel.app",
+    "created_at": "2024-04-02T17:23:48Z",
+    "pushed_at": "2024-04-02T18:12:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/next-template-jsx",
+    "description": "A Next.js 13 template for building apps with Radix UI and Tailiwnd CSS.",
+    "stargazers_count": 65,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2023-07-18T10:16:58Z",
+    "pushed_at": "2023-07-18T10:17:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/tree-to-image",
+    "description": "A tree to image generator using @vercel/og",
+    "stargazers_count": 57,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "tree-to-image.vercel.app",
+    "created_at": "2022-10-24T12:28:55Z",
+    "pushed_at": "2022-10-24T12:37:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/rico-chart",
+    "description": null,
+    "stargazers_count": 52,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-07-18T12:29:02Z",
+    "pushed_at": "2025-07-18T12:32:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/next-cms-wordpress",
+    "description": "An example Next.js 13 app built from WordPress data.",
+    "stargazers_count": 45,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-10-28T13:23:09Z",
+    "pushed_at": "2022-10-28T13:27:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/vite-template-v3",
+    "description": "shadcn/ui + vite + tailwind v3 template",
+    "stargazers_count": 43,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-02-17T07:43:57Z",
+    "pushed_at": "2025-02-17T08:15:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/vite-template",
+    "description": "Created with CodeSandbox",
+    "stargazers_count": 32,
+    "forks_count": 15,
+    "language": "TypeScript",
+    "homepage": "https://codesandbox.io/p/github/124599/vite-template",
+    "created_at": "2023-04-18T17:23:09Z",
+    "pushed_at": "2023-04-21T05:43:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/example-battlefield-chart",
+    "description": "example chart",
+    "stargazers_count": 28,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-07-17T18:27:11Z",
+    "pushed_at": "2024-07-17T18:30:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/gatsby-theme-twentytwentyone",
+    "description": "This is the WordPress Twenty Twenty-One theme built for Gatsby.",
+    "stargazers_count": 24,
+    "forks_count": 3,
+    "language": "CSS",
+    "homepage": "https://2021.reflexjs.org",
+    "created_at": "2021-02-23T17:40:41Z",
+    "pushed_at": "2022-04-07T16:33:05Z",
+    "topics": [
+     "gatsby",
+     "gatsby-theme",
+     "wordpress"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/shadcn-vite-geist",
+    "description": "Example app with shadcn + vite + geist",
+    "stargazers_count": 24,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-01-22T16:46:22Z",
+    "pushed_at": "2026-01-22T16:48:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/create-shadcn",
+    "description": "Template",
+    "stargazers_count": 19,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2024-09-03T11:06:41Z",
+    "pushed_at": "2024-09-03T11:06:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/next-template-debug",
+    "description": "next-template-debug",
+    "stargazers_count": 14,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-05-27T09:47:46Z",
+    "pushed_at": "2024-01-17T15:51:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shadcn/CrossBrowse",
+    "description": "Simple proof of concept for tracking element position across clients.",
+    "stargazers_count": 13,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "https://www.youtube.com/watch?v=n8Dv-t10sos",
+    "created_at": "2011-05-31T06:24:44Z",
+    "pushed_at": "2014-03-24T09:23:55Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 148,
+  "languages": [
+   [
+    "JavaScript",
+    35
+   ],
+   [
+    "PHP",
+    33
+   ],
+   [
+    "TypeScript",
+    32
+   ],
+   [
+    "CSS",
+    14
+   ],
+   [
+    "Ruby",
+    6
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "CoffeeScript",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "shadcn-ui/ui",
+    "stargazerCount": 126361,
+    "description": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://ui.shadcn.com"
+   },
+   {
+    "nameWithOwner": "shadcn-ui/taxonomy",
+    "stargazerCount": 19281,
+    "description": "An open source application built using the new router, server components and everything new in Next.js 13.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "shadcn/improve",
+    "stargazerCount": 9250,
+    "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+    "primaryLanguage": null,
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "shadcn-ui/cn",
+    "stargazerCount": 1709,
+    "description": "cn is a new engine for Tailwind class merging and conflict resolution. It replaces tailwind-merge and clsx. Same APIs. Full parity. And it is 30× faster.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 4298,
+  "orgs": [
+   "sul-dlss"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "shadcn-ui/ui": "# shadcn/ui\nA set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code. **Use this to build your own component library**.\n## Documentation\nVisit https://ui.shadcn.com/docs to view the documentation.\n## Contributing\nPlease read the [contributing guide](/CONTRIBUTING.md).\n## License\nLicensed under the [MIT license](./LICENSE.md).\n",
+   "shadcn-ui/taxonomy": "> [!NOTE]\n> This project has been officially archived and will no longer receive updates. See the [Templates](https://vercel.com/templates/next.js) directory for Next.js starters.\n> \n> I started this project when the Next.js App Router was in public preview. Because the framework has since stabilized and undergone significant architectural changes, the code in this repository:\n> - Does not reflect current best practices.\n> - May contain deprecated APIs or patterns.\n> - Is not recommended for use in production environments.\n# Taxonomy\nAn open source application built using the new router, server components and everything new in Next.js 13.\n## About this project\nThis project as an experiment to see how a modern app (with features like authentication, subscriptions, API routes, static pages for docs ...etc) would work in Next.js 13 and server components. \n## Features\n- New `/app` dir,\n- Routing, Layouts, Nested Layouts and Layout Groups\n- Data Fetching, Caching and Mutation\n- Loading UI\n- Route handlers\n- Metadata files\n- Server and Client Components\n- API Routes and Middlewares\n- Authentication using **NextAuth.js**\n- ORM using **Prisma**\n- Database on **PlanetScale**\n- UI Components built using **Radix UI**\n- Documentation and blog using **MDX** and **Contentlayer**\n- Subscriptions using **Stripe**\n- Styled using **Tailwind CSS**\n- Validations using **Zod**\n- Written in **TypeScript**\n## Roadmap\n- [x] ~Add MDX support for basic pages~\n- [x] ~Build marketing pages~\n- [x] ~Subscriptions using Stripe~\n- [x] ~Responsive styles~\n- [x] ~Add OG image for blog using @vercel/og~\n- [x] Dark mode\n## Known Issues\nA list of things not working right now:\n1. ~GitHub authentication (use email)~\n2. ~[Prisma: Error: ENOENT: no such file or directory, open '/var/task/.next/server/chunks/schema.prisma'](https://github.com/prisma/prisma/issues/16117)~\n3. ~[Next.js 13: Client side navigation does not update head](https://github.com/vercel/next.js/issues/42414)~\n4. [Cannot use opengraph-image.tsx inside catch-all routes](https://github.com/vercel/next.js/issues/48162)\n## Why not tRPC, Turborepo or X?\nI might add this later. For now, I want to see how far we can get using Next.js only.\n",
+   "shadcn/improve": "# improve\nAn agent skill that audits any codebase and writes implementation plans for other agents to execute.\nThe idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models. The skill never implements anything itself. The plan is the product.\n```\nyou          →  /improve                    (expensive model, advises)\nplans/       →  001-fix-n-plus-one.md       (self-contained specs)\nother agent  →  implements, tests, ships    (cheap model, executes)\n```\n## Install\n```bash\nnpx skills add shadcn/improve\n```\nWorks in any agent that supports [Agent Skills](https://agentskills.io) format. The plans it writes are plain markdown, so any agent (or human) can pick them up.\n## Usage\n```\n/improve                        full audit → prioritized findings → plans\n/improve quick                  cheap pass: hotspots, top findings only\n/improve deep                   exhaustive: every package, every category\n/improve security               focused audit (also: perf, tests, bugs, ...)\n/improve branch                 audit only what the current branch changes\n/improve next                   feature suggestions — where to take the project\n/improve plan <description>     skip the audit, spec one thing\n/improve review-plan <file>     critique and tighten an existing plan\n/improve execute <plan>         dispatch a cheaper executor, review its work\n/improve reconcile              refresh the backlog: verify, unblock, retire\n/improve ... --issues           also publish plans as GitHub issues\n```\n## How to use\nA typical first run, start to finish:\n1. Open your agent in the repo and run `/improve` (or `/improve quick` to keep it cheap).\n2. It maps the repo, audits it, and comes back with a findings table. Reply with the ones you want planned — \"plan 1, 3 and 5\".\n3. Plans land in `plans/` — one file each, plus an index with the recommended order. Read them; they're meant to be reviewed.\n4. Hand a plan to any agent (\"implement plans/001-*.md\"), or let the skill run it: `/improve execute 001`. It dispatches a cheaper model in an isolated worktree, reviews the di",
+   "shadcn-ui/cn": "# cn\n`cn` is a [new engine](https://github.com/shadcn-ui/cn/blob/main/docs/how-it-works.md) for Tailwind class merging and\nconflict resolution. It replaces `tailwind-merge` and `clsx`. Same APIs.\nFull parity. **And it is [30× faster](#how-much-faster).**\n```ts\nimport { cn } from \"cn\"\n// conditional joining (like clsx) + conflict resolution (like tailwind-merge)\ncn(\"px-2 py-1\", isActive && \"bg-blue-500\", { \"text-white\": isActive })\n```\n`cn` has zero dependencies and is framework-agnostic: it works with React,\nVue, Svelte, Solid, Astro, or plain server templates, and runs in browsers,\nNode, Bun, Deno, and edge runtimes. **It works in any Tailwind CSS project. You don't need shadcn/ui.**\n**If you want an even smaller bundle with the same performance, see\n[`cn build`](https://github.com/shadcn-ui/cn/blob/main/docs/build-setup.md).**\n`cn` is built and maintained by [aidenybai](https://x.com/aidenybai) and [shadcn](https://x.com/shadcn).\n## Can I use this today?\nYes. You can replace `tailwind-merge` and `clsx` with `cn` today. It's a drop-in replacement.\nHere's a command to migrate:\n```bash\nnpx shadcn@latest migrate cn\n```\n## Install\n```bash\nnpm i cn\n```\n### New project\nImport it and go. Nothing to configure:\n```tsx\nimport { cn } from \"cn\"\nexport function Button({\n  className,\n  active,\n  ...props\n}: React.ComponentProps<\"button\"> & { active?: boolean }) {\n  return (\n    <button\n      className={cn(\n        \"rounded-md px-4 py-2 text-sm\",\n        active && \"bg-primary\",\n        className\n      )}\n      {...props}\n    />\n  )\n}\n```\n### Existing shadcn/ui project\n#### Using the `shadcn` CLI\n```bash\nnpx shadcn@latest migrate cn\n```\n#### Manually\nYour components already import `cn` from `@/lib/utils`. Replace the wrapper with the one from `cn`.\n```diff\n// lib/utils.ts\n- import { clsx, type ClassValue } from \"clsx\";\n- import { twMerge } from \"tailwind-merge\";\n- export function cn(...inputs: ClassValue[]) {\n-   return twMerge(clsx(inputs));\n- }\n+ export { cn } from \"cn\";\n```\nThen remove `clsx` and `tailwind-merge` from your dependencies. If other\npackages still import them, [alias them to `cn`](https://github.com/shadcn-ui/cn/blob/main/docs/aliasing.md)\nso your bundle only c",
+   "shadcn/next-contentlayer": "# Next.js + Contentlayer\nA template with Next.js 13 app dir, Contentlayer, Tailwind CSS and dark mode.\nhttps://next-contentlayer.vercel.app\n"
+  }
+ },
+ "apps": []
+}

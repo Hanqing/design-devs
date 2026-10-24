@@ -1,0 +1,515 @@
+{
+ "handle": "BHolmesDev",
+ "sites": [
+  {
+   "url": "https://bholmes.dev",
+   "ok": true,
+   "title": "Ben Holmes",
+   "description": "The whiteboard guy at Astro that codes kinda well.",
+   "stack": [
+    "Astro",
+    "Tailwind CSS",
+    "Plausible"
+   ],
+   "hosting": [
+    "Netlify"
+   ],
+   "lang": "en",
+   "home_text": "## Social links\n*   [](https://youtube.com/@bholmesdev)\n*   [](https://x.com/bholmesdev)\n*   [](https://bsky.app/profile/bholmes.dev)\n*   [](https://github.com/bholmesdev)\n## Site links\n*   [Ben](https://bholmes.dev/)\n*   [About](https://bholmes.dev/about)\n*   [Blog](https://bholmes.dev/blog)\n*   [Videos](https://youtube.com/@bholmesdev/shorts)\n# Hi,  I'm **Ben.**\nThe whiteboard guy who codes kinda well.\n[Watch](https://bholmes.dev/#videos) Draw \nYour browser does not support the canvas element.\nEraser \nClose\nRed Blue Green \n## I make videos\n**[Subscribe](https://youtube.com/@bholmesdev?sub_confirmation=1)** for weekly content on the hardest parts of web dev.\nPlay Random \n[More about me](https://bholmes.dev/about)\n© 2020-present Ben Holmes. All rights reserved.",
+   "github_links": [
+    "bholmesdev"
+   ],
+   "subpages": {
+    "https://bholmes.dev/about": "Your browser does not support the canvas element. \n Eraser \n Close \n Red \n Blue \n Green \nAbout me \nToggle between personal and recruiter view modes Personal Mode Recruiter Mode \nHey there! I’m Ben, a product engineer from Charleston SC, USA. You\n might know me as someone who uses and builds Warp, a product that I genuinely think is the future of development. You might\n also know me from my short whiteboard videos breaking down all sorts of topics (React Server Components, HTMX, and\n SQLite to name a few).\nHeck, maybe you know me as the inventor of Astro. I didn't invent Astro. But my time there definitely channeled\n my love for design into a love for making development easier.\nI've been a web programmer since the pre-npm days. This taught me\n some... Bower-ful lessons on what it takes to build scalable software.\n It's a lot more than JQuery and a dream.\nI've since picked up every meta-framework you can think of, and even invented my own . As much as I love building web experiences, I've realized I'm into\n tech for the tech itself. So, I've devoted myself to helping\n you build better software. Through tools, through videos, through\n puns, and a love for Rust (...and JavaScript I guess).\nI'm a full-time software developer at Warp , so I'm not looking for employment.\nStill, here's all my skills / buzzwords you were going to search for: Rust, TypeScript, NodeJS, ES6, ReactJS, NextJS, semantic HTML,\n understanding of a11y, Angular 2+, SolidJS, SvelteJS, SCSS,\n Postgres, MySQL, NoSQL, OOP programming, C Basic, unit testing w/\n Jest, and more ...\nOkay I'm getting tired typing.\n Just browse my LinkedIn. \nWatch some videos",
+    "https://bholmes.dev/blog": "Blog Archive \nTo be honest, I don’t blog as much as I make videos these days :) This is my archive of old posts and (maybe) future thoughts.\nBuild a Self-Updating LLM Knowledge Base \nHave agents tag, backlink, and compound your markdown notes into wikis and visualizations, all on a schedule. \n Jul 6, 2026 \nHubble Note \nA notes app that helps you remember everything you wrote down. \n Sep 22, 2025 \nResponse to DHH on the gift of open source \nOpen source is like a gift exchange. DHH thinks these gifts should be crafted out of self interest, but I disagree. Here's why. \n Jul 20, 2025 \nThe python environment setup cheatsheet \nA checklist for setting up your Python 3 environment in any editor \n Sep 1, 2024 \nBuilding serverless applications with Fauna + GraphQL \nLet's learn how \"serverless\" and \"GraphQL\" compliment each other when building frontend-focused web apps. \n Mar 24, 2022 \nUnderstanding single page apps & client-side routing \nLet's get some clarity on what single page apps are, how they work, and where they differ from server-side routing. \n Jul 6, 2021 \nGrabbing subsets of JS object properties with... GraphQL? \nIt's easy to grab keys out of JSON objects, but what if we want to grab entire, nested sets of object keys without destructuring? \n Jun 7, 2021 \nSexy, accessible show-hide animations in any web framework \nIt's easy to build fancy fade transitions, but how do we include keyboard-ists and screenreaders in the mix? \n May 24, 2021 \nWant CSS variables in media query declarations? Try this! \nLet's see why CSS variables / custom properties fail in media queries + some workarounds to try \n May 12, 2021 \nPicture perfect image optimization for any web framework \nImage optimization is never fun to deal with. Let's learn how the picture element + 11ty can save any static site from bloated load times. \n May 4, 2021 \nHow ES Modules have redefined web development \nThe world has been moving away from \"pancake\" bundling and towards dynamic module imports. Let's see the latest trends and what they mean for us. \n Mar 31, 2021 \n4 Git shortcuts that define my workflow \nHere's 4 bash snippets that let me push, pop, and pull my way to victory as a web dev! \n Feb 18, 2021 \n4 Conference talks that changed my perspective as a web dev \nLet's explore architecture complexity, when abstractions are bad, how React Hooks work, and the importance of SvelteJS \n Feb 10, 2021 \nAnother way to understand JavaScript's array.reduce \nI struggled with understanding array.reduce for a while. So I found my own way of explaining it that clicks 💡 \n Feb 5, 2021 \nA shiny-on-hover effect that follows your mouse (CSS) ✨ \nUsing CSS variables + any frontend framework to add a metallic shine to your UI \n Jan 28, 2021 \nMocking browser APIs in Jest (localStorage, fetch and more!) \nTurns out, Jest gives you access to all sorts of browser APIs (fetch, localStorage, etc) that you can mock at a moment's notice! Let's see how. \n Jan 19, 2021 \nLeaving Notion to build a second brain in VS Code \nWh"
+   },
+   "feed": {
+    "url": "https://bholmes.dev/rss.xml",
+    "count_seen": 37,
+    "items": [
+     {
+      "title": "Build a Self-Updating LLM Knowledge Base",
+      "date": "Mon, 06 Jul 2026 12:00:00",
+      "url": "https://bholmes.dev/blog/llm-knowledge-bases/"
+     },
+     {
+      "title": "Hubble Note",
+      "date": "Mon, 22 Sep 2025 02:21:57",
+      "url": "https://bholmes.dev/blog/hubble-note/"
+     },
+     {
+      "title": "Response to DHH on the gift of open source",
+      "date": "Sun, 20 Jul 2025 21:13:41",
+      "url": "https://bholmes.dev/blog/open-source-gift-exchange/"
+     },
+     {
+      "title": "The python environment setup cheatsheet",
+      "date": "Sun, 01 Sep 2024 22:02:02",
+      "url": "https://bholmes.dev/blog/simple-python-env-setup/"
+     },
+     {
+      "title": "Building serverless applications with Fauna + GraphQL",
+      "date": "Thu, 24 Mar 2022 22:48:29",
+      "url": "https://bholmes.dev/blog/serverless-apps-fauna-gql-astro/"
+     },
+     {
+      "title": "Understanding single page apps & client-side routing",
+      "date": "Tue, 06 Jul 2021 20:01:36",
+      "url": "https://bholmes.dev/blog/spas-clientside-routing/"
+     },
+     {
+      "title": "Grabbing subsets of JS object properties with... GraphQL?",
+      "date": "Mon, 07 Jun 2021 20:01:36",
+      "url": "https://bholmes.dev/blog/query-json-objects-graphql/"
+     },
+     {
+      "title": "Sexy, accessible show-hide animations in any web framework",
+      "date": "Mon, 24 May 2021 20:01:36",
+      "url": "https://bholmes.dev/blog/accessible-show-hide-animations/"
+     },
+     {
+      "title": "Want CSS variables in media query declarations? Try this!",
+      "date": "Wed, 12 May 2021 14:01:23",
+      "url": "https://bholmes.dev/blog/alternative-to-css-variable-media-queries/"
+     },
+     {
+      "title": "Picture perfect image optimization for any web framework",
+      "date": "Tue, 04 May 2021 20:01:36",
+      "url": "https://bholmes.dev/blog/picture-perfect-image-optimization/"
+     },
+     {
+      "title": "How ES Modules have redefined web development",
+      "date": "Wed, 31 Mar 2021 20:01:36",
+      "url": "https://bholmes.dev/blog/how-es-modules-have-redefined-web-development/"
+     },
+     {
+      "title": "4 Git shortcuts that define my workflow",
+      "date": "Thu, 18 Feb 2021 23:38:56",
+      "url": "https://bholmes.dev/blog/4-git-shortcuts-that-define-my-workflow/"
+     },
+     {
+      "title": "4 Conference talks that changed my perspective as a web dev",
+      "date": "Wed, 10 Feb 2021 21:44:22",
+      "url": "https://bholmes.dev/blog/conference-talks-that-changed-my-perspective-as-a-web-dev/"
+     },
+     {
+      "title": "Another way to understand JavaScript's array.reduce",
+      "date": "Fri, 05 Feb 2021 16:26:05",
+      "url": "https://bholmes.dev/blog/another-way-to-understand-array-reduce/"
+     },
+     {
+      "title": "A shiny-on-hover effect that follows your mouse (CSS) ✨",
+      "date": "Thu, 28 Jan 2021 17:40:13",
+      "url": "https://bholmes.dev/blog/a-shiny-on-hover-effect-that-follows-your-mouse-css/"
+     },
+     {
+      "title": "Mocking browser APIs in Jest (localStorage, fetch and more!)",
+      "date": "Tue, 19 Jan 2021 22:48:29",
+      "url": "https://bholmes.dev/blog/mocking-browser-apis-fetch-localstorage-dates-the-easy-way-with-jest/"
+     },
+     {
+      "title": "Leaving Notion to build a second brain in VS Code",
+      "date": "Mon, 11 Jan 2021 22:34:17",
+      "url": "https://bholmes.dev/blog/giving-up-on-notion-to-build-a-second-brain/"
+     },
+     {
+      "title": "The web dev tools that helped me get s*** done in 2020",
+      "date": "Mon, 04 Jan 2021 16:33:47",
+      "url": "https://bholmes.dev/blog/the-web-dev-tools-that-helped-me-get-s-done-in-2020/"
+     },
+     {
+      "title": "NextJS, Contentful CMS, GraphQL, oh my!",
+      "date": "Wed, 04 Nov 2020 22:42:55",
+      "url": "https://bholmes.dev/blog/nextjs-contentful-cms-graphql-oh-my/"
+     },
+     {
+      "title": "Understanding the spectrum of CSS frameworks",
+      "date": "Wed, 21 Oct 2020 22:44:21",
+      "url": "https://bholmes.dev/blog/understanding-the-spectrum-of-css-frameworks/"
+     },
+     {
+      "title": "Building a sexy, mobile-ready navbar in any web framework",
+      "date": "Tue, 06 Oct 2020 22:44:09",
+      "url": "https://bholmes.dev/blog/building-a-sexy-mobile-ready-navbar-in-any-web-framework/"
+     },
+     {
+      "title": "Writing a state machine in one line with TypeScript",
+      "date": "Wed, 02 Sep 2020 15:35:45",
+      "url": "https://bholmes.dev/blog/writing-a-state-machine-in-one-line-with-typescript/"
+     },
+     {
+      "title": "Before building your next static site with React, consider this",
+      "date": "Tue, 07 Jul 2020 13:48:25",
+      "url": "https://bholmes.dev/blog/before-building-your-next-static-site-with-react-consider-this/"
+     },
+     {
+      "title": "Use flexbox? Here's when CSS Grid is better",
+      "date": "Tue, 26 May 2020 16:34:01",
+      "url": "https://bholmes.dev/blog/flexbox-diehards-here-s-some-concrete-examples-of-when-css-grid-is-just-better/"
+     },
+     {
+      "title": "How you can (sort of) write SASS @mixins in plain CSS",
+      "date": "Fri, 08 May 2020 22:13:48",
+      "url": "https://bholmes.dev/blog/how-you-can-sort-of-write-sass-mixins-in-plain-css/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "bholmesdev",
+  "user": {
+   "name": "Ben Holmes",
+   "company": "@warpdotdev ",
+   "blog": "https://bholmes.dev",
+   "location": null,
+   "bio": "Web developer, teacher, whiteboardist. Building the next terminal @warpdotdev ",
+   "public_repos": 113,
+   "followers": 1407,
+   "created_at": "2019-06-04T20:20:28Z",
+   "twitter_username": "bholmesdev",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "bholmesdev/hubble.md",
+    "description": "The best notepad for you and your agents",
+    "stargazers_count": 1483,
+    "forks_count": 97,
+    "language": "TypeScript",
+    "homepage": "https://hubble.md",
+    "created_at": "2026-02-17T14:24:06Z",
+    "pushed_at": "2026-10-23T21:29:50Z",
+    "topics": [
+     "markdown",
+     "note-taking"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/simple-rsc",
+    "description": "A simple React Server Components implementation that you can build yourself 🙌",
+    "stargazers_count": 753,
+    "forks_count": 66,
+    "language": "JavaScript",
+    "homepage": "https://www.youtube.com/watch?v=Fctw7WjmxpU",
+    "created_at": "2023-03-29T16:50:05Z",
+    "pushed_at": "2025-10-24T00:54:55Z",
+    "topics": [
+     "react",
+     "video"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/simple-stack",
+    "description": "🌱 Web apps made simple ",
+    "stargazers_count": 458,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": "https://simple-stack.dev",
+    "created_at": "2023-11-28T01:54:37Z",
+    "pushed_at": "2026-05-14T09:04:08Z",
+    "topics": [
+     "astro",
+     "twitter",
+     "video"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/simplestack-store",
+    "description": null,
+    "stargazers_count": 243,
+    "forks_count": 17,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-09-02T13:58:28Z",
+    "pushed_at": "2026-03-19T13:14:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/skills",
+    "description": null,
+    "stargazers_count": 179,
+    "forks_count": 3,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-03-06T18:35:05Z",
+    "pushed_at": "2026-10-18T22:13:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/bholmesdev",
+    "description": "The whiteboard guy homepage 🖍️",
+    "stargazers_count": 153,
+    "forks_count": 8,
+    "language": "Roff",
+    "homepage": "https://bholmes.dev",
+    "created_at": "2020-04-30T16:22:46Z",
+    "pushed_at": "2026-07-31T14:25:33Z",
+    "topics": [
+     "astro",
+     "video"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/simple-sync-engine",
+    "description": "A SQLite-backed sync engine you can build yourself",
+    "stargazers_count": 130,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "https://www.youtube.com/live/5mn3EpWCcJs?t=2356",
+    "created_at": "2025-03-05T12:19:11Z",
+    "pushed_at": "2025-03-19T11:10:58Z",
+    "topics": [
+     "talk",
+     "video"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/keymatch",
+    "description": "Utility for matching browser keyboard events across platforms",
+    "stargazers_count": 65,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-07-28T12:15:29Z",
+    "pushed_at": "2025-09-15T01:20:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/astro-on-rails",
+    "description": "Ruby on Rails with Astro as the view layer",
+    "stargazers_count": 63,
+    "forks_count": 3,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2024-06-03T12:38:41Z",
+    "pushed_at": "2025-10-27T01:25:42Z",
+    "topics": [
+     "astro",
+     "ruby",
+     "twitter"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/llm-knowledge-base-skills",
+    "description": "Agent skills that turn raw markdown notes into a self-updating LLM knowledge base",
+    "stargazers_count": 46,
+    "forks_count": 6,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2026-06-24T20:25:06Z",
+    "pushed_at": "2026-07-07T13:00:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/svelte-starter-template",
+    "description": "A small starter template to get up and running with Svelte v3 🚀",
+    "stargazers_count": 42,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-03-19T18:01:28Z",
+    "pushed_at": "2021-05-18T01:55:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/local-first-vite-conf-2024",
+    "description": "Vite Conf 2024 - SQLite and Tensorflow",
+    "stargazers_count": 32,
+    "forks_count": 1,
+    "language": "Astro",
+    "homepage": "",
+    "created_at": "2024-09-09T22:07:00Z",
+    "pushed_at": "2024-09-10T12:57:33Z",
+    "topics": [
+     "video"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/fixgpt",
+    "description": null,
+    "stargazers_count": 23,
+    "forks_count": 2,
+    "language": "Dart",
+    "homepage": null,
+    "created_at": "2025-05-27T22:59:50Z",
+    "pushed_at": "2025-05-28T21:22:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/astro-client-when-rainy-in-ny",
+    "description": "Only hydrate components when you have rain water 😉",
+    "stargazers_count": 22,
+    "forks_count": 0,
+    "language": "Astro",
+    "homepage": "",
+    "created_at": "2023-06-02T21:27:08Z",
+    "pushed_at": "2023-06-02T21:44:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/vite-conf-islands-arch",
+    "description": "DIY islands architecture demo",
+    "stargazers_count": 21,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2022-09-20T02:58:33Z",
+    "pushed_at": "2022-09-20T02:58:36Z",
+    "topics": [
+     "talk",
+     "video"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/womp",
+    "description": "Astro + React soundboard",
+    "stargazers_count": 19,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://womp-1wq.pages.dev/login/",
+    "created_at": "2023-12-23T18:46:42Z",
+    "pushed_at": "2024-06-14T06:16:13Z",
+    "topics": [
+     "astro",
+     "react",
+     "talk",
+     "video"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/astro-soundboard",
+    "description": "Initial version of WOMP using TanStack query",
+    "stargazers_count": 18,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://astro-soundboard.vercel.app",
+    "created_at": "2023-08-28T20:37:26Z",
+    "pushed_at": "2023-11-15T12:53:51Z",
+    "topics": [
+     "astro",
+     "livestream",
+     "react"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "bholmesdev/eventbrite-astro-db",
+    "description": "Eventbrite built on Astro DB",
+    "stargazers_count": 18,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2024-01-18T21:56:00Z",
+    "pushed_at": "2024-04-18T16:59:51Z",
+    "topics": [
+     "astro",
+     "twitter",
+     "video"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 92,
+  "languages": [
+   [
+    "TypeScript",
+    31
+   ],
+   [
+    "JavaScript",
+    17
+   ],
+   [
+    "Astro",
+    15
+   ],
+   [
+    "HTML",
+    6
+   ],
+   [
+    "Rust",
+    4
+   ],
+   [
+    "Svelte",
+    2
+   ],
+   [
+    "Vue",
+    2
+   ],
+   [
+    "Python",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "bholmesdev/bholmesdev",
+    "stargazerCount": 153,
+    "description": "The whiteboard guy homepage 🖍️",
+    "primaryLanguage": {
+     "name": "Roff"
+    },
+    "homepageUrl": "https://bholmes.dev"
+   },
+   {
+    "nameWithOwner": "bholmesdev/simple-rsc",
+    "stargazerCount": 753,
+    "description": "A simple React Server Components implementation that you can build yourself 🙌",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://www.youtube.com/watch?v=Fctw7WjmxpU"
+   },
+   {
+    "nameWithOwner": "bholmesdev/simple-sync-engine",
+    "stargazerCount": 130,
+    "description": "A SQLite-backed sync engine you can build yourself",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://www.youtube.com/live/5mn3EpWCcJs?t=2356"
+   },
+   {
+    "nameWithOwner": "bholmesdev/simple-stack",
+    "stargazerCount": 458,
+    "description": "🌱 Web apps made simple ",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://simple-stack.dev"
+   }
+  ],
+  "contrib_last_year": 2093,
+  "orgs": [],
+  "profile_readme": "# Hi, I'm Ben 👋\n\nHey there! I’m Ben, DevEx lead at [Warp](https://warp.dev) and core maintainer of [Astro](https://astro.build). You might know me from my short whiteboard videos breaking down all sorts of topics (React Server Components, HTMX, and SQLite to name a few). You also might know me as the inventor of Astro. **I didn't invent Astro.** But I'm a proud full time developer driving it forward :)\n\n## Find repositories from my content\n\nYou may have seen one of my GitHub repositories featured in a recent video, tweet, blog post, friend flashing their phone in your face, etc. I've labeled these repositories using [topics](https://github.com/topics). You can search my repositories using the syntax `topic:video`, or use one of these quick search links:\n\n- 🎥 [Repo from a video](https://github.com/bholmesdev?tab=repositories&q=topic:video&type=&language=&sort=)\n- 🐦 [Repo from a tweet](https://github.com/bholmesdev?tab=repositories&q=topic:twitter&type=&language=&sort=)\n- 🔴 [Repo from a livetream](https://github.com/bholmesdev?tab=repositories&q=topic:livestream&type=&language=&sort=)\n- 🎥 [Repo from a talk](https://github.com/bholmesdev?tab=repositories&q=topic:talk&type=&language=&sort=)\n- 📝 [Repo from a blog post](https://github.com/bholmesdev?tab=repositories&q=topic:blog&type=&language=&sort=)\n\n## Run the bholmes.dev site\n\nIf you're reading this README from the [bholmes.dev repository](https://github.com/bholmesdev/bholmesdev), visit the [SETUP.md](https://github.com/bholmesdev/bholmesdev/blob/main/SETUP.md) guide.\n",
+  "readmes": {
+   "bholmesdev/bholmesdev": "# Hi, I'm Ben 👋\nHey there! I’m Ben, DevEx lead at [Warp](https://warp.dev) and core maintainer of [Astro](https://astro.build). You might know me from my short whiteboard videos breaking down all sorts of topics (React Server Components, HTMX, and SQLite to name a few). You also might know me as the inventor of Astro. **I didn't invent Astro.** But I'm a proud full time developer driving it forward :)\n## Find repositories from my content\nYou may have seen one of my GitHub repositories featured in a recent video, tweet, blog post, friend flashing their phone in your face, etc. I've labeled these repositories using [topics](https://github.com/topics). You can search my repositories using the syntax `topic:video`, or use one of these quick search links:\n- 🎥 [Repo from a video](https://github.com/bholmesdev?tab=repositories&q=topic:video&type=&language=&sort=)\n- 🐦 [Repo from a tweet](https://github.com/bholmesdev?tab=repositories&q=topic:twitter&type=&language=&sort=)\n- 🔴 [Repo from a livetream](https://github.com/bholmesdev?tab=repositories&q=topic:livestream&type=&language=&sort=)\n- 🎥 [Repo from a talk](https://github.com/bholmesdev?tab=repositories&q=topic:talk&type=&language=&sort=)\n- 📝 [Repo from a blog post](https://github.com/bholmesdev?tab=repositories&q=topic:blog&type=&language=&sort=)\n## Run the bholmes.dev site\nIf you're reading this README from the [bholmes.dev repository](https://github.com/bholmesdev/bholmesdev), visit the [SETUP.md](https://github.com/bholmesdev/bholmesdev/blob/main/SETUP.md) guide.\n",
+   "bholmesdev/simple-rsc": "# Simple RSC ⚛️\n> A simple React Server Components implementation that you can build yourself.\n[Watch the \"build from scratch\" code-along video](https://www.youtube.com/watch?v=MaebEqhZR84) to learn how all of the pieces fit together. Or... just read the in-line documentation in this codebase :)\n## Goals\n- 🌊 Show how React server components are streamed to the browser with a simple Node server.\n- ⚙️ Demo a build process to bundle server components and handle client components with the `\"use client\"` directive.\n## Getting started\nInstall dependencies using `npm` and start the Node development server:\n```bash\nnpm i\nnpm run dev\n```\nThis should trigger a build and start your server at http://localhost:3000.\n### Developer note on the `dev` script\nYou'll notice the `dev` script maps to the following command in the `package.json`:\n```bash\nnode --conditions react-server server.js\n```\nThe `--conditions` flag is part of the [Node.js conditional exports system](https://nodejs.org/api/cli.html#-c-condition---conditionscondition). This allows packages to export different versions of a module depending on your environment.\nWhen passed `react-server`, `react-server-dom-esm` will expose a server-only module that omits React's client-side or browser-specific APIs, ensuring compatibility with the server-rendered environment.\n## Project structure\nThis project is broken up into the `app/` and `server/` directories. The most important entrypoints are listed below:\n```sh\n# Your full-stack application\napp/\n  page.jsx # server entrypoint.\n  _client.jsx # client script that requests and renders your `page.jsx`.\n# Your backend that builds and renders the `app/`\nserver.js\n```\n## What is _not_ included?\n- **File-based routing conventions.** This repo includes a _single_ index route, with support for processing query params. If you need multiple routes, you can try [NextJS' new `app/` directory.](https://beta.nextjs.org/docs/routing/defining-routes)\n- **Advance bundling for CSS-in-JS.** [A Tailwind script](https://tailwindcss.com/docs/installation/play-cdn) is included for playing with styles.\n- **Advice on production deploys.** This is a learning tool to show how React Server Components ar",
+   "bholmesdev/simple-sync-engine": "# Simple Sync Engine\n[**As seen at JS world**](https://www.youtube.com/live/5mn3EpWCcJs?t=2356) 🎥\nThis is a simple, not-so-production-ready implementation of a sync engine. We use SQLite on the client and server, and use a simplified version of [Replicache's \"push\" and \"pull\" model](https://doc.replicache.dev/concepts/how-it-works#sync-details) to sync changes.\n## Purpose 🎯\nThis project is a teaching tool, _not_ the bedrock of your next side hustle. I hope it becomes your springboard to implement a robust sync engine of your own!\n## Run the project 🏃‍♂️\nEnsure you have [Node.js v20 or later](https://nodejs.org) installed on your machine, along with [pnpm](https://pnpm.io) for package management.\nThen, install dependencies and start the development server:\n```sh\npnpm install\npnpm dev\n```\n## Project Structure 📂\nThese are the primary files that drive the sync engine:\n```sh\n/\n├── src/\n│   ├── lib/ # Utilities to query the server and client databases\n│   ├── pages/\n│   │   ├── api/\n│   │   │   ├── push.ts # Push mutations to the server\n│   │   │   └── pull.ts # Pull updates from the server\n│   ├── App.tsx # The client-side app\n│   ├── migrations.ts # Migrations to initialize the database\n│   └── queries.ts # Queries to read and write data on the server and client\n```\n## How it works 🔄\nThis project uses a simplified version of [Replicache's \"push\" and \"pull\" model](https://doc.replicache.dev/concepts/how-it-works#sync-details) to sync changes.\n### Queries\nThe `queries.ts` file contains all of the queries and mutations that the client can perform. When a mutation is performed, the client will send the name of the mutation along with its arguments to the server.\n### Push\n`push` is triggered by the client when the user performs runs a mutation (say, `createIssue()`). The client sends the name and arguments of the mutation to the server, which then executes the mutation against its own database. The server will also add a `mutation_log` entry to store a running history of mutations that have been performed.\n### Pull\n`pull` is run periodically by the client to sync changes from the server. The client will send a pull request to the server, which will return a list of mutat",
+   "bholmesdev/simple-stack": "# Simple Stack documentation 🌱\nThis is the repository for managing the documentation on [simple-stack.dev](https://simple-stack.dev). We've also included legacy `simple-stack` packages for archival purposes.\n## Contributing\nContributions to our docs are welcome! Read the CONTRIBUTING.md to see how to set up the documentation site locally and contribute your first PR.\n",
+   "bholmesdev/hubble.md": "# Hubble.md\n**The best notepad for you and your agents.** Free, open source, backed by Markdown and HTML.\n<p align=\"center\">\n  <a href=\"https://github.com/bholmesdev/hubble.md/releases/latest\">Download</a>\n  ·\n  <a href=\"https://github.com/bholmesdev/hubble.md/releases\">Releases</a>\n  ·\n  <a href=\"CONTRIBUTING.md\">Contributing</a>\n  ·\n  <a href=\"https://twitter.com/bholmesdev\">@bholmesdev</a>\n</p>\n## What is Hubble?\nHubble is a free, open-source notetaking app for you and your agents.\n- **Feels familiar.** The same writing experience you're used to from Notion or Apple Notes, but for Markdown. `/` commands, Markdown shortcuts, and file properties / frontmatter are supported.\n- **Agent ready.** Point your agent at your notes folder to start collaborating. Hubble will live-reloads as your agent edits.\n- **Build any view.** Beyond Markdown, you can build and view HTML-based apps. [Install the skills](https://github.com/bholmesdev/hubble-skills) and tell your coding agent what to build. Turn a folder of notes into a table, a bookshelf, a map... anything you can think of.\n## Download\nHubble ships as a desktop app. Install the latest build from the [releases page](https://github.com/bholmesdev/hubble.md/releases/latest).\nmacOS, Windows, and Linux are supported. macOS builds are signed and notarized; Windows and Linux builds are unsigned, so your OS may warn before the first launch.\n## Compile from source\nWant to build Hubble directly? First, install the prerequisites:\n- [Node.js](https://nodejs.org/en/download)\n- [pnpm](https://pnpm.io/installation)\n- macOS desktop builds: Xcode Command Line Tools via `xcode-select --install`\nThen from the repo root:\n```sh\npnpm install\npnpm bundle:desktop:mac\n# or for windows:\npnpm bundle:desktop:win\n# or for linux:\npnpm bundle:desktop:linux\n```\nThis creates a production desktop bundle under `apps/desktop/release/`. For the live dev flow and packaging detail, see [`apps/desktop/README.md`](./apps/desktop/README.md).\n## Repository structure\nThis repo is a pnpm workspace:\n```text\n.\n├── apps\n│   ├── desktop  # Electron desktop app (the main Hubble app)\n│   ├── web      # Astro landing page (hubble.md homepage)\n│   └── www      # React + "
+  }
+ },
+ "apps": []
+}

@@ -1,0 +1,484 @@
+{
+ "handle": "nathansobo",
+ "sites": [
+  {
+   "url": "https://zed.dev",
+   "ok": true,
+   "title": "Zed — Your last next editor",
+   "description": "Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+   "stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Zed Industries \nAdvancing the state of the art for collaborative software development. \nDelta Est 2026 \nA multiplayer environment for coding with agents, powered by DeltaDB. \n Download Learn More \nZed Est 2021 \nThe world's fastest IDE. Open source. AI optional. \n Download Learn More \n Pinned \n Trace dropped keystrokes in GPUI inputs \n Review element cache invalidation rules \n Projects \n zed \n gpui \n Cache SumTree node summaries \n Investigate cache invalidation Trace summary propagation paths Check cursor invalidation callers \n Fix IME candidate window positioning \n Add scroll wheel phase events on macOS \n Simplify Entity subscription cleanup \n Reproduce stale text after window resize \n cosmic-text \n Threads \n Summarize feedback on my first GPUI PR \n Find a small rendering issue to work on \n Explain retained mode rendering \n Compare Metal frame capture tools \n Draft release notes for accessibility fixes \n nathansobo Zed \n Cache SumTree node summaries \n Share \nCursor::seek recomputes each internal node's summary on every descent — for a rope of a few MB that's most of our seek time. Can we cache the summaries on the nodes and invalidate on edit? \n Thought 3 times, ran 1 search, read 2 files \n Edit crates/sum_tree/src/sum_tree.rs \n Internal { height : u8 , summary : T :: Summary , summary_cache : SummaryCache < T :: Summary > , children : Vec < SumTree < T >> , \n Edit crates/sum_tree/src/cursor.rs \n let mut end = self . position . clone ( ) ; end . add_summary ( & child . compute_summary ( ) ) ; end . add_summary ( child . cached_summary ( ) ) ; if end . cmp ( target ) . is_ge ( ) { \n $ cargo test -p sum_tree 2>&1 | tail -20 \nDone — internal nodes now carry a SummaryCache keyed on a generation counter, and structural edits (push, remove, rebalance) bump the counter instead of recomputing eagerly. Cursor::seek reads through the cache, so it only recomputes summaries for nodes whose subtree actually changed — repeated seeks over an unedited region are pure cache hits . All 47 tests pass, including two new ones covering invalidation on push and on rebalancing. \n 1 comment \n repeated seeks over an unedited region are pure cache hits \n do we have a benchmark proving this? \n repeated seeks over an unedited region are pure cache hits \n do we have a benchmark proving this? \nlet's back that claim with data before we merge — add a criterion benchmark that seeks randomly through a tree of a million items, and share before/after numbers. i'd also like one seek-after-push case so we can see the invalidation cost on the spine. \n Thought 2 times, read 1 file \n $ cargo bench -p sum_tree -- seek \nBenchmarked on a tree of one million items: random seeks went from 41.2µs to 3.4µs (12x), and seek-after-push lands at 5.1µs — the spine invalidation only forces one recompute per level. Criterion configs and the raw numbers are in benches/seek.rs. \nnice numbers. before we merge, extract SummaryCache into its own module and re-export it from lib.rs — rope is going to want the same trick for chunk summaries. \n Thought 1 time, ran 1 search \n Edit crates/sum_tree/src/lib.rs \n mod cursor ; mod sum_tree ; mod summary_cache ; pub use cursor :: Cursor ; pub use summary_cache :: SummaryCache ; \nExtracted — SummaryCache lives in summary_cache.rs now and lib.rs re-exports it, so rope can depend on it without reaching into sum_tree's internals. No behavior change; the test suite is green. \nwhat's the per-node memory overhead of the cache? we have trees with tens of millions of nodes in large buffers. \n16 bytes per internal node on 64-bit targets: a usize generation plus Option<S> where the niche fits in the summary's padding for our summary types. Leaves carry nothing. For a 10M-node tree that's ~160MB in internal nodes — but internal nodes are only ~1/32 of the total at our branching factor, so in practice it's closer to 5MB per 10M items . \n 1 comment \n closer to 5MB per 10M items \n Can we link the benchmark for this estimate? \n delta / main + 6 − 4 \n High Fable 5 \n Changes \n sum_tree.rs \n cursor.rs \n Since origin/main + 6 − 4 \n sum_tree.rs crates/sum_tree/src/ \n enum Node < T : Item > { 22 Internal { 23 height : u8 , summary : T :: Summary , 24 summary_cache : SummaryCache < T :: Summary > , 25 children : Vec < SumTree < T > > , 26 } , 27 Leaf { 28 items : Vec < T > , 29 } , } \n pub fn push ( & mut self , item : T ) { 87 match Arc :: make_mut ( & mut self . 0 ) { 88 Node :: Internal { summary , 89 summary_cache , 90 children , 91 .. 92 } => { * summary",
+   "github_links": [],
+   "subpages": {},
+   "feed": {
+    "url": "https://zed.dev/blog.rss",
+    "count_seen": 144,
+    "items": [
+     {
+      "title": "Replace PRs with Delta – Now in Public Beta",
+      "date": "Wed, 16 Sep 2026 00:00:00",
+      "url": "https://zed.dev/blog/delta-public-beta"
+     },
+     {
+      "title": "Xanadu Was Waiting for Agents",
+      "date": "Tue, 01 Sep 2026 00:00:00",
+      "url": "https://zed.dev/blog/agentic-xanadu"
+     },
+     {
+      "title": "Introducing Delta",
+      "date": "Wed, 12 Aug 2026 00:00:00",
+      "url": "https://zed.dev/blog/introducing-delta"
+     },
+     {
+      "title": "Sandboxing",
+      "date": "Wed, 05 Aug 2026 00:00:00",
+      "url": "https://zed.dev/blog/sandboxing"
+     },
+     {
+      "title": "Hidden Gems: Part 4",
+      "date": "Tue, 23 Jun 2026 00:00:00",
+      "url": "https://zed.dev/blog/hidden-gems-part-4"
+     },
+     {
+      "title": "Zed Guild: What We Built, What We Learned",
+      "date": "Tue, 16 Jun 2026 00:00:00",
+      "url": "https://zed.dev/blog/zed-guild-retrospective"
+     },
+     {
+      "title": "Software Is Made Between Commits",
+      "date": "Thu, 11 Jun 2026 00:00:00",
+      "url": "https://zed.dev/blog/introducing-deltadb"
+     },
+     {
+      "title": "The Community Champions Program",
+      "date": "Tue, 02 Jun 2026 00:00:00",
+      "url": "https://zed.dev/blog/community-champions"
+     },
+     {
+      "title": "What GitHub Copilot's Usage-Based Billing Means for Zed Users",
+      "date": "Mon, 01 Jun 2026 00:00:00",
+      "url": "https://zed.dev/blog/github-copilot-usage-based-billing"
+     },
+     {
+      "title": "Terminal Threads Are Live in Zed",
+      "date": "Wed, 20 May 2026 00:00:00",
+      "url": "https://zed.dev/blog/terminal-threads"
+     },
+     {
+      "title": "Why and How to Run Local Models in Zed",
+      "date": "Tue, 19 May 2026 00:00:00",
+      "url": "https://zed.dev/blog/local-ai-in-zed"
+     },
+     {
+      "title": "Use Your ChatGPT Subscription in Zed",
+      "date": "Fri, 15 May 2026 00:00:00",
+      "url": "https://zed.dev/blog/chatgpt-subscription-in-zed"
+     },
+     {
+      "title": "What Anthropic's New Claude Billing Means for Zed Users",
+      "date": "Thu, 14 May 2026 00:00:00",
+      "url": "https://zed.dev/blog/anthropic-subscription-changes"
+     },
+     {
+      "title": "Zeta2.1: 3x Fewer Tokens, 50ms Faster",
+      "date": "Fri, 08 May 2026 00:00:00",
+      "url": "https://zed.dev/blog/zeta2-1"
+     },
+     {
+      "title": "Introducing Zed for Business",
+      "date": "Wed, 06 May 2026 00:00:00",
+      "url": "https://zed.dev/blog/zed-for-business"
+     },
+     {
+      "title": "We're Not Building AI Features for the Money",
+      "date": "Tue, 05 May 2026 00:00:00",
+      "url": "https://zed.dev/blog/not-building-ai-for-the-money"
+     },
+     {
+      "title": "Zed is 1.0",
+      "date": "Wed, 29 Apr 2026 00:00:00",
+      "url": "https://zed.dev/blog/zed-1-0"
+     },
+     {
+      "title": "Community Champion Spotlight: Jason Lee",
+      "date": "Mon, 27 Apr 2026 00:00:00",
+      "url": "https://zed.dev/blog/community-champion-jason-lee"
+     },
+     {
+      "title": "Introducing Parallel Agents in Zed",
+      "date": "Wed, 22 Apr 2026 00:00:00",
+      "url": "https://zed.dev/blog/parallel-agents"
+     },
+     {
+      "title": "Introducing Zed's Agent Metrics",
+      "date": "Thu, 09 Apr 2026 00:00:00",
+      "url": "https://zed.dev/blog/agent-metrics"
+     },
+     {
+      "title": "How We Developed Zeta2",
+      "date": "Tue, 07 Apr 2026 00:00:00",
+      "url": "https://zed.dev/blog/how-we-developed-zeta2"
+     },
+     {
+      "title": "We Rebuilt Zeta from the Training Data Up",
+      "date": "Wed, 25 Mar 2026 00:00:00",
+      "url": "https://zed.dev/blog/zeta2"
+     },
+     {
+      "title": "Hiring at Zed: Building in Real Time",
+      "date": "Fri, 20 Mar 2026 00:00:00",
+      "url": "https://zed.dev/blog/hiring"
+     },
+     {
+      "title": "Introducing Zed for Education",
+      "date": "Mon, 09 Mar 2026 00:00:00",
+      "url": "https://zed.dev/blog/student-plan"
+     },
+     {
+      "title": "Hidden Gems: Part 3",
+      "date": "Tue, 03 Mar 2026 00:00:00",
+      "url": "https://zed.dev/blog/hidden-gems-part-3"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "nathansobo",
+  "user": {
+   "name": "Nathan Sobo",
+   "company": "GitHub",
+   "blog": "",
+   "location": "Boulder, CO",
+   "bio": null,
+   "public_repos": 103,
+   "followers": 2325,
+   "created_at": "2008-02-29T18:26:45Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "nathansobo/treetop",
+    "description": "A Ruby-based parsing DSL based on parsing expression grammars.",
+    "stargazers_count": 1010,
+    "forks_count": 108,
+    "language": "Ruby",
+    "homepage": "http://treetop.rubyforge.org",
+    "created_at": "2008-02-29T18:29:24Z",
+    "pushed_at": "2018-05-09T12:50:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/screw-unit",
+    "description": "A Javascript BDD Framework with nested describes, a convenient assertion syntax, and an intuitive test browser.",
+    "stargazers_count": 186,
+    "forks_count": 45,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2008-03-09T04:18:52Z",
+    "pushed_at": "2010-12-29T02:18:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/monarch",
+    "description": "A client-side relational modeling framework. Like a blend of ActiveRecord and  Backbone, but different and better.",
+    "stargazers_count": 37,
+    "forks_count": 6,
+    "language": "CoffeeScript",
+    "homepage": "",
+    "created_at": "2011-08-23T21:13:41Z",
+    "pushed_at": "2013-03-27T04:27:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/spawn-server",
+    "description": "A server that spawns subprocesses on behalf of other processes",
+    "stargazers_count": 27,
+    "forks_count": 3,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2017-11-05T05:46:28Z",
+    "pushed_at": "2018-01-20T00:40:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/hyperarchy",
+    "description": "A ranked-pairs-based collaborative decision making site.",
+    "stargazers_count": 25,
+    "forks_count": 6,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2008-03-23T01:45:20Z",
+    "pushed_at": "2022-10-05T22:44:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/disco",
+    "description": "A client-side application framework with support for view generation and an in-memory relational model.",
+    "stargazers_count": 13,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2008-05-23T17:16:05Z",
+    "pushed_at": "2008-06-14T00:50:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/monarch-old",
+    "description": "A relational framework for realtime client/server web applications in JavaScript.",
+    "stargazers_count": 8,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2010-05-26T18:03:58Z",
+    "pushed_at": "2011-07-11T01:02:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/atom-journal",
+    "description": null,
+    "stargazers_count": 7,
+    "forks_count": 10,
+    "language": "CoffeeScript",
+    "homepage": null,
+    "created_at": "2015-04-14T00:19:14Z",
+    "pushed_at": "2017-04-08T17:44:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/unison",
+    "description": null,
+    "stargazers_count": 6,
+    "forks_count": 3,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2008-07-03T19:02:11Z",
+    "pushed_at": "2008-11-18T07:52:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/dot-atom",
+    "description": "My dot-atom directory",
+    "stargazers_count": 5,
+    "forks_count": 3,
+    "language": "CoffeeScript",
+    "homepage": null,
+    "created_at": "2013-12-11T20:15:59Z",
+    "pushed_at": "2014-06-06T05:54:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/prequel",
+    "description": "A Ruby ORM build from the ground up on top of the relational algebra. Uses Sequel as its low-level database interface.",
+    "stargazers_count": 5,
+    "forks_count": 3,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2011-03-01T05:50:18Z",
+    "pushed_at": "2013-04-07T17:35:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/cast",
+    "description": "Ideas for an everything-is-an-actor scripting language.",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2008-07-22T15:54:39Z",
+    "pushed_at": "2008-07-30T05:51:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/hoverboard-original",
+    "description": "A web-based virtual keyboard for OS X.",
+    "stargazers_count": 4,
+    "forks_count": 3,
+    "language": "CoffeeScript",
+    "homepage": null,
+    "created_at": "2012-12-06T19:42:32Z",
+    "pushed_at": "2012-12-21T02:02:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/princess",
+    "description": "A rails engine that lets you serve jasmine specs out of your rails applications.",
+    "stargazers_count": 4,
+    "forks_count": 2,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2011-07-25T17:12:07Z",
+    "pushed_at": "2012-04-04T02:34:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/control_freak",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 4,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2009-09-04T16:51:33Z",
+    "pushed_at": "2010-03-16T14:53:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/naan",
+    "description": "Naan of the Above Website",
+    "stargazers_count": 3,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2010-08-11T02:26:25Z",
+    "pushed_at": "2010-08-30T07:27:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/posture",
+    "description": "Real-time posture monitoring with ML-based pose estimation, alignment feedback, and correlation analysis",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2026-02-15T18:43:18Z",
+    "pushed_at": "2026-02-16T03:39:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathansobo/data-observer",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-06-30T04:56:13Z",
+    "pushed_at": "2015-07-13T19:19:40Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 30,
+  "languages": [
+   [
+    "Ruby",
+    11
+   ],
+   [
+    "CoffeeScript",
+    7
+   ],
+   [
+    "JavaScript",
+    6
+   ],
+   [
+    "Rust",
+    3
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "Objective-C",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "atom/atom",
+    "stargazerCount": 60710,
+    "description": ":atom: The hackable text editor",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://atom.io"
+   },
+   {
+    "nameWithOwner": "atom-archive/xray",
+    "stargazerCount": 8417,
+    "description": "An experimental next-generation Electron-based text editor",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "atom/teletype",
+    "stargazerCount": 2396,
+    "description": "Share your workspace with team members and collaborate on code in real time in Atom",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://teletype.atom.io"
+   },
+   {
+    "nameWithOwner": "atom/teletype-crdt",
+    "stargazerCount": 755,
+    "description": "String-wise sequence CRDT powering peer-to-peer collaborative editing in Teletype for Atom.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "atom/text-buffer",
+    "stargazerCount": 145,
+    "description": "Atom's underlying text buffer",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "atom/etch",
+    "stargazerCount": 555,
+    "description": "Builds components using a simple and explicit API around virtual-dom",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 1917,
+  "orgs": [
+   "tree-sitter"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "atom/atom": "# Atom\n[](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)\n> Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)\nAtom is a hackable text editor for the 21st century, built on [Electron](https://github.com/electron/electron), and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.\nVisit [atom.io](https://atom.io) to learn more or visit the [Atom forum](https://github.com/atom/atom/discussions).\nFollow [@AtomEditor](https://twitter.com/atomeditor) on Twitter for important\nannouncements.\nThis project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).\nBy participating, you are expected to uphold this code. Please report unacceptable behavior to atom@github.com.\n## Documentation\nIf you want to read about using Atom or developing packages in Atom, the [Atom Flight Manual](https://flight-manual.atom.io) is free and available online. You can find the source to the manual in [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io).\nThe [API reference](https://atom.io/docs/api) for developing packages is also documented on Atom.io.\n## Installing\n### Prerequisites\n- [Git](https://git-scm.com)\n### macOS\nDownload the latest [Atom release](https://github.com/atom/atom/releases/latest).\nAtom will automatically update when a new release is available.\n### Windows\nDownload the latest [Atom installer](https://github.com/atom/atom/releases/latest). `AtomSetup.exe` is 32-bit. For 64-bit systems, download `AtomSetup-x64.exe`.\nAtom will automatically update when a new release is available.\nYou can also download `atom-windows.zip` (32-bit) or `atom-x64-windows.zip` (64-bit) from the [releases page](https://github.com/atom/atom/releases/latest).\nThe `.zip` version will not automatically update.\nUsing [Chocolatey](https://chocolatey.org)? Run `cinst Atom` to install the latest version of Atom.\n### Linux\nAtom is only available for 64-bit Linux systems.\nConfigure your distribution's package manager to",
+   "atom-archive/xray": "**Attention:** GitHub has decided not to move forward with any aspect of this project. We'll archive the repository in case anybody finds value here, but we don't expect to actively work on this in the foreseeable future. Thanks to everyone for their interest and support.\n# Xray\n[](https://travis-ci.org/atom/xray)\nXray is an experimental Electron-based text editor informed by what we've learned in the four years since the launch of Atom. In the short term, this project is a testbed for rapidly iterating on several radical ideas without risking the stability of Atom. The longer term future of the code in this repository will become clearer after a few months of progress. For now, our primary goal is to iterate rapidly and learn as much as possible.\n## Q3 2018 Focus\nWe're currently focused on a sub-project of Xray called [Memo](./memo_core), which will serve as the foundation of Xray but also be available as a standalone tool. Memo is an operation-based version control system that tracks changes at the level of individual keystrokes and synchronizes branches in real time.\n## Updates\n* [October 2, 2018](./docs/updates/2018_10_02.md)\n* [September 14, 2018](./docs/updates/2018_09_14.md)\n* [August 28, 2018](./docs/updates/2018_08_28.md)\n* [August 21, 2018](./docs/updates/2018_08_21.md)\n* [July 31, 2018](./docs/updates/2018_07_31.md)\n* [July 23, 2018](./docs/updates/2018_07_23.md)\n* [July 16, 2018](./docs/updates/2018_07_16.md)\n* [July 10, 2018](./docs/updates/2018_07_10.md)\n* [Archives](./docs/updates/)\n## Foundational priorities\nOur goal is to build a cross-platform text editor that is designed from the beginning around the following foundational priorities:\n### Collaboration\n*Xray makes it as easy to code together as it is to code alone.*\nWe design features for collaborative use from the beginning. Editors and other relevant UI elements are designed to be occupied by multiple users. Interactions with the file system and other resources such as subprocesses are abstracted to work over network connections.\n### High performance\n*Xray feels lightweight and responsive.*\nWe design our features to be responsive from the beginning. We reliably provide visual feedback within",
+   "atom/teletype": "##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)\n # Teletype for Atom\nAn Atom package that lets developers share their workspace with team members and collaborate on code in real time.\nLearn more at [teletype.atom.io](https://teletype.atom.io).\n## Installation\n### Command Line\n1. Install [Atom 1.22](https://atom.io) or newer\n2. In the terminal, install the package via apm:\n    ```sh\n    apm install teletype\n    ```\n### GUI\n1. Install [Atom 1.22](https://atom.io) or newer\n1. Launch Atom\n1. Open Settings View using <kbd>Cmd+,</kbd> on macOS or <kbd>Ctrl+,</kbd> on other platforms\n1. Click the Install tab on the left side\n1. Enter `teletype` in the search box and press <kbd>Enter</kbd>\n1. Click the \"Install\" button that appears\n## Hacking\nThis package is powered by three main components:\n- [teletype-crdt](https://github.com/atom/teletype-crdt): The string-wise sequence CRDT that enables peer-to-peer collaborative editing.\n- [teletype-server](https://github.com/atom/teletype-server): The server-side application that facilitates peer discovery.\n- [teletype-client](https://github.com/atom/teletype-client): The editor-agnostic library that manages the interaction with other clients.\n### Dependencies\nTo run teletype tests locally, you'll first need to have:\n- Atom 1.22 or later\n- Node 7+\n- PostgreSQL 9.x\n### Running locally\n1. Clone and bootstrap\n    ```\n    git clone https://github.com/atom/teletype.git\n    cd teletype\n    createdb teletype-test\n    apm install\n    ```\n2. Run the tests\n    ```\n    atom --test test\n    ```\n",
+   "atom/teletype-crdt": "##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)\n # teletype-crdt\nThe string-wise sequence CRDT powering peer-to-peer collaborative editing in [Teletype for Atom](https://github.com/atom/teletype).\n## Hacking\nAfter cloning this repository, you can install its dependencies by running:\n```\nnpm install\n```\nAnd then run tests via:\n```\nnpm test\n```\n## Background\nFor more details on the techniques used for this data structure, we recommend reading the following papers:\n* [Data consistency for P2P Collaborative Editing](https://doi.org/10.1145/1180875.1180916)\n* [Supporting String-Wise Operations and Selective Undo for Peer-to-Peer Group Editing](https://doi.org/10.1145/2660398.2660401)\n* [High Responsiveness for Group Editing CRDTs](https://doi.org/10.1145/2957276.2957300)\n## TODO\n* [ ] Document APIs\n",
+   "atom/text-buffer": "##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)\n # Atom TextBuffer Core\n[](https://github.com/atom/text-buffer/actions/workflows/ci.yml)\nThis is the core of the Atom text buffer, separated into its own module so its tests can be run headless. It handles the storage and manipulation of text and associated regions (markers).\n"
+  }
+ },
+ "apps": []
+}

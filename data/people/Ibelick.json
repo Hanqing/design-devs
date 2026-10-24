@@ -1,0 +1,331 @@
+{
+ "name": "Julien Thibeaut（Ibelick）",
+ "role": "Design Engineer · Interface Office 创始人 · Mesurer、UI Skills、prompt-kit、motion-primitives 作者 · 巴黎",
+ "title": "Ibelick：<em>function is beauty</em>",
+ "dek": "TA 是巴黎的设计工程师，经营一家叫 Interface Office 的设计工程工作室，帮 AI 创业公司打造产品，客户包括 Quiver AI、Arena AI、Antimetal 和 Cloudflare。TA 开源了一系列被大量项目直接复制粘贴的界面组件：基于 Motion 和 Tailwind 的动画组件库 motion-primitives、给 AI 应用用的聊天组件 prompt-kit、开源多模型聊天界面 Zola。2026 年 TA 推出 UI Skills，一个收录设计工程 Skill 的目录站，汇集了 TA 自己、Anthropic、Emil Kowalski 等人的 Skill；以及 Mesurer，一个在真实页面上测量、标注、把反馈直接交给编程 Agent 的检查工具。",
+ "card": "巴黎设计工程师，Interface Office 创始人；UI Skills（★1 万）、motion-primitives（★6.8 千）、prompt-kit、Mesurer 作者。",
+ "location": "法国巴黎",
+ "updated": "2026-10-23",
+ "tags": [
+  "Design Engineering",
+  "React",
+  "Tailwind",
+  "AI 界面",
+  "Agent Skills"
+ ],
+ "links": [
+  {
+   "label": "ibelick.com",
+   "url": "https://ibelick.com"
+  },
+  {
+   "label": "Mesurer",
+   "url": "https://mesurer.dev"
+  },
+  {
+   "label": "UI Skills",
+   "url": "https://www.ui-skills.com"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I love building interfaces and softwares, obsessing over every detail until the experience feels right.」GitHub 简介只有三个词：function is beauty。",
+  "<strong>代表作：</strong>UI Skills（★10,110）、motion-primitives（★6,796）、prompt-kit（★3,133）、background-snippets（★2,030）、Zola（★1,534）、Tailwind 按钮合集、Nim 个人网站模板、webclaw、Mesurer（★569）。",
+  "<strong>客户：</strong>Quiver AI、Arena AI、Antimetal、Cloudflare。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 3,239 次；X 关注者约 1.2 万；UI Skills 称每月触达 8 万多名设计工程从业者。"
+ ],
+ "lead": "Mesurer 的口号是「Stop describing what you have in mind, show it instead」。在页面上选中一个元素，就能看到它的数值、样式和间距；拉参考线，随手涂画，留下指向具体元素的评论，再一键把这些反馈交给编程 Agent。2026 年秋天，TA 几乎每周都给它加一项功能：评论线程、深色模式、录屏、动画检查、多尺寸响应式预览。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {
+     "t": "Profile",
+     "profile": [
+      [
+       "身份",
+       "设计工程师、工作室创始人"
+      ],
+      [
+       "所在地",
+       "法国巴黎"
+      ],
+      [
+       "工作室",
+       "Interface Office（为 AI 创业公司做产品设计与开发）"
+      ],
+      [
+       "开源",
+       "Mesurer、UI Skills、prompt-kit、motion-primitives、Zola、Nim、webclaw"
+      ],
+      [
+       "技术栈",
+       "React、Next.js、TypeScript、Tailwind CSS、Motion、shadcn/ui"
+      ]
+     ]
+    },
+    {
+     "h3": "TA 到底在做什么？"
+    },
+    {
+     "p": "Ibelick 做的是<strong>可以直接复制进项目的高质量界面</strong>。motion-primitives 提供一套动画组件，prompt-kit 提供 AI 聊天界面的核心构件（建立在 shadcn/ui 之上），background-snippets 和 buttons 是复制即用的背景与按钮合集。这些库在 AI 应用爆发期被大量采用。"
+    },
+    {
+     "p": "2026 年 TA 把重心转向「设计师和 Agent 一起工作」：UI Skills 提供命令行和 MCP 接口，Agent 可以按主题检索最合适的 Skill；TA 自己写的 component-canvas 和 create-canvas 会把代码库里的所有组件和变体铺在一张画布上，方便比较、迭代，再用 Mesurer 审阅后把反馈交给 Agent。"
+    },
+    {
+     "note": "本页依据 ibelick.com、mesurer.dev、ui-skills.com、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。性别未见本人明确表述，本页用 TA。"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2023",
+       "title": "复制即用的组件",
+       "text": "ui-snippets、Tailwind 动画、background-snippets、按钮合集、仿 read.cv 简历模板。"
+      },
+      {
+       "when": "2024",
+       "title": "motion-primitives",
+       "text": "7 月发布动画组件库；年底发布个人网站模板 Nim。"
+      },
+      {
+       "when": "2025",
+       "title": "AI 界面",
+       "text": "prompt-kit（2 月）、开源多模型聊天 Zola（4 月）。"
+      },
+      {
+       "when": "2026",
+       "title": "Skills 与 Mesurer",
+       "text": "1 月 UI Skills，2 月 webclaw，4 月 Mesurer；经营 Interface Office 工作室。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {
+     "work": {
+      "name": "Mesurer",
+      "url": "https://mesurer.dev",
+      "meta": [
+       "2026–",
+       "Chrome 扩展 + npm",
+       "v0.2.7"
+      ],
+      "paras": [
+       "「Build precise software with your coding agent.」五个动作：检查、设计（参考线）、标注、指向元素的反馈、与人和 Agent 分享。它的定位是：设计师越来越靠近代码，就需要在那个环境里守住质量的工具。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "UI Skills",
+      "url": "https://www.ui-skills.com",
+      "meta": [
+       "2026–",
+       "Skill 目录",
+       "★1 万"
+      ],
+      "paras": [
+       "「Curated skills for design engineering」：无障碍、动效、前端工艺、界面质量。除了 Skill，还收录了真实产品的 DESIGN.md 文件，并提供设计工程师招聘板。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "motion-primitives",
+      "url": "https://motion-primitives.com",
+      "meta": [
+       "2024–",
+       "Motion + Tailwind",
+       "★6.8 千"
+      ],
+      "paras": [
+       "「UI kit to make beautiful, animated interfaces, faster.」为工程师和设计师准备的动画组件，易于集成和定制；README 注明仍是 beta，会持续大幅更新。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "其他作品",
+       "说明"
+      ],
+      "rows": [
+       [
+        "prompt-kit",
+        "AI 应用的聊天、Agent 界面组件（★3,133）"
+       ],
+       [
+        "Zola",
+        "开源、可自托管的多模型聊天界面，支持 BYOK"
+       ],
+       [
+        "background-snippets",
+        "复制即用的现代背景（★2,030）"
+       ],
+       [
+        "easing-gradients",
+        "给 Tailwind 渐变加缓动函数"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://ibelick.com",
+      "paras": [
+       "个人网站像一张名片：一句话自述、工作室、两篇文章（《Anatomy of AI Input》《AI Glossary》）、精选项目和精选客户。没有长篇履历，项目和客户就是履历。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "观察"
+      ],
+      "rows": [
+       [
+        "技术",
+        "Next.js，Vercel"
+       ],
+       [
+        "结构",
+        "单页名片"
+       ],
+       [
+        "写作",
+        "AI 输入框剖析、AI 术语表"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {
+     "quote": "Stop describing what you have in mind, show it instead.",
+     "cite": "Mesurer 官网"
+    },
+    {
+     "p": "TA 的观点藏在工具里：反馈应该指向具体元素，而不是一段描述；评审应该在真实页面上进行，而不是在截图上；组件应该一次看全所有变体和状态。"
+    }
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "长处",
+       "局限 / 需要留意"
+      ],
+      "rows": [
+       [
+        "组件",
+        "美观、实用，复制即用",
+        "motion-primitives 仍为 beta"
+       ],
+       [
+        "生态",
+        "UI Skills 汇集社区 Skill",
+        "—"
+       ],
+       [
+        "产品",
+        "Mesurer 迭代快",
+        "仍在 0.x 版本"
+       ],
+       [
+        "商业",
+        "工作室服务 AI 公司",
+        "—"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>做别人能直接复制的东西。</strong>",
+      "<strong>在风口上做基础构件：</strong>AI 应用都需要聊天组件。",
+      "<strong>反馈要指向元素：</strong>别再写「左边那个按钮」。",
+      "<strong>开源带来客户：</strong>作品就是工作室的招牌。"
+     ]
+    },
+    {
+     "h3": "推荐先看这三个"
+    },
+    {
+     "try": [
+      {
+       "name": "Mesurer",
+       "url": "https://mesurer.dev",
+       "why": "在你的页面上做一次设计评审。"
+      },
+      {
+       "name": "UI Skills",
+       "url": "https://www.ui-skills.com",
+       "why": "给你的 Agent 装几个设计 Skill。"
+      },
+      {
+       "name": "motion-primitives",
+       "url": "https://motion-primitives.com",
+       "why": "给界面加一点动效。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "下一次给同事或 Agent 提界面意见时，直接在页面上圈出元素，而不是写一段描述。",
+ "sources": [
+  {
+   "label": "Ibelick 的 X 个人资料",
+   "url": "https://x.com/Ibelick"
+  },
+  {
+   "label": "ibelick.com",
+   "url": "https://ibelick.com"
+  },
+  {
+   "label": "Mesurer",
+   "url": "https://mesurer.dev"
+  },
+  {
+   "label": "UI Skills",
+   "url": "https://www.ui-skills.com"
+  },
+  {
+   "label": "GitHub：ibelick",
+   "url": "https://github.com/ibelick"
+  }
+ ]
+}

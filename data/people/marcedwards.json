@@ -1,0 +1,165 @@
+{
+ "name": "Marc Edwards",
+ "role": "Bjango 创始人兼设计师 · iStat Menus、Pinwheel、Skala · 音乐人 · 墨尔本",
+ "title": "Marc Edwards：为设计师造一把<em>更精确的尺</em>",
+ "dek": "他是澳大利亚墨尔本的设计师，Bjango 的创始人。Bjango 最有名的产品是 Mac 系统监控工具 iStat Menus，2024 年发布了「全部重写」的第 7 版。这几年他把精力放在为设计师做工具上：2024 年 11 月发布色彩转换与设计系统工具 Pinwheel，正在开发一款「设计师的设计工具」Skala，承诺性能极快，文件格式开放、可以放进 Git。他在 Bjango 网站上写了大量关于色彩管理、SVG 导出精度、设计工具内存占用的硬核文章，还录了一系列「图标速画」视频。他也写音乐：1998 年和朋友合写的歌《Believe》在 25 周年时出了重混版，Bjango 甚至还卖声码器和合成器插件。",
+ "card": "Bjango 创始人（墨尔本）；iStat Menus、Pinwheel、开发中的设计工具 Skala；色彩管理与设计工具性能文章作者，音乐人。",
+ "location": "澳大利亚墨尔本",
+ "updated": "2026-10-23",
+ "tags": ["设计工具", "Mac", "色彩管理", "图标设计", "音频插件"],
+ "links": [
+  {"label": "Bjango", "url": "https://bjango.com"},
+  {"label": "Skala", "url": "https://bjango.com/mac/skala/"},
+  {"label": "Bjango 文章", "url": "https://bjango.com/articles/"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Founder and designer at @bjango. Currently building @skala. I also write music.」",
+  "<strong>代表作：</strong>iStat Menus 7（Mac 系统监控）、Pinwheel（色彩与设计系统）、Skala（开发中）；音频插件 Robot Rocket（声码器）、Chaos Line、Robot Vowels、Reality Distortion。",
+  "<strong>写作：</strong>Bjango Articles：色彩管理系列、设计工具性能特征、模糊半径对比、光学校正公式、菜单栏图标设计。",
+  "<strong>关键数字：</strong>X 帖子约 6 万条；关注者约 1.9 万。"
+ ],
+ "lead": "大多数设计师不会去测设计工具的内存占用，Marc 会。他在 Bjango 的文章里对比了主流设计工具打开同一份文件时用了多少内存，量过各家模糊半径的实际效果，研究过 SVG 导出的小数精度，还写过一个四篇连载的色彩管理系列。这些测量最后都指向一件事：他要自己做一款设计工具 Skala，并承诺它会是「同类工具里最快的之一」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、创始人、音乐人"],
+     ["所在地", "澳大利亚墨尔本"],
+     ["公司", "Bjango"],
+     ["产品", "iStat Menus、Pinwheel、Skala（开发中）、音频插件"],
+     ["专长", "图标与界面设计、色彩管理、设计工具性能"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Marc 正在做的 <strong>Skala</strong> 被描述为「the designer’s design tool」：既尊重经典设计工具的传统，又要激进地拓展可能性。官网已经透露了一些细节：参考线本身就是图层，有名字、颜色和透明度，可以分组、复制到其他文档，可以一起移动、旋转和错切；文档格式是开放规范，可以存进 Git 仓库。"},
+    {"p": "Pinwheel 是这条路线上的第一个产品：一个转换颜色、创建设计系统和测试无障碍对比度的 Mac 应用。它支持四种颜色混合方式，因为他认为 OKLCH 虽然好看，但色相差太远时效果并不理想。"},
+    {"note": "本页依据 bjango.com（产品页、Skala、Articles）、X 帖子和 GitHub 资料整理，资料截至 2026 年 10 月。Bjango 的创立年份和团队构成未在官网查到，本页不写。Skala 尚未发布。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "1998", "title": "音乐", "text": "和朋友合写歌曲《Believe》，2023 年发行 25 周年重混版。"},
+     {"when": "Bjango 早期", "title": "iStat Menus", "text": "Bjango 的系统监控工具成为 Mac 上的经典菜单栏应用。"},
+     {"when": "2020–2023", "title": "设计文章", "text": "色彩管理系列、SVG 精度、设计工具性能、图标速画视频。"},
+     {"when": "2024", "title": "iStat Menus 7 与 Pinwheel", "text": "7 月发布全面重写的 iStat Menus 7；11 月发布 Pinwheel。"},
+     {"when": "2025–2026", "title": "Skala", "text": "写《Design systems need a colour space》；持续开发 Skala。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "iStat Menus", "url": "https://bjango.com/mac/istatmenus/",
+     "meta": ["Mac", "系统监控", "v7"],
+     "paras": [
+      "「The ultimate system monitor.」在菜单栏显示 CPU、GPU、内存、网络、磁盘、传感器、电池和天气。第 7 版「什么都是新的」，界面全部重新设计，有数百处大大小小的改进。"
+     ]
+    }},
+    {"work": {
+     "name": "Pinwheel", "url": "https://bjango.com/mac/pinwheel/",
+     "meta": ["2024", "Mac", "设计系统"],
+     "paras": [
+      "转换颜色、生成色阶、管理设计系统并测试无障碍对比度。设计系统文件同样可以放进 Git。"
+     ]
+    }},
+    {"work": {
+     "name": "Skala", "url": "https://bjango.com/mac/skala/",
+     "meta": ["开发中", "设计工具"],
+     "paras": [
+      "「Skala will be one of the fastest tools of its kind.」重视性能、渲染质量和资源占用，取色器和色彩管理也是重点。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Robot Rocket", "声码器音频插件"],
+      ["Chaos Line", "随机演奏音序器"],
+      ["Reality Distortion", "重合成效果插件"],
+      ["天文摄影", "Bjango 拍摄的天文照片，出售海报和印刷品"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://bjango.com", "paras": [
+     "Bjango 官网把 Mac 应用、音频插件和天文摄影放在同一个首页上，很像一个设计师兼音乐人的工作室。Articles 区是精华：大多数文章都有实测数据、对比图和可以下载的示例文件。",
+     "图标速画系列（指纹、钢笔、图钉、旗帜、相机光圈、磁铁、足球、拼图）用视频完整记录一个图标从零到完成的过程。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["结构", "应用、插件、文章、帮助"],
+      ["文章", "约每年数篇，偏技术测量"],
+      ["社交", "YouTube、Mastodon、RSS"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2025-03", "title": "Design systems need a colour space", "url": "https://bjango.com/articles/"},
+     {"date": "2024-01", "title": "Blur radius comparison", "url": "https://bjango.com/articles/"},
+     {"date": "2023-09", "title": "Design tool memory usage", "url": "https://bjango.com/articles/"},
+     {"date": "2023-05", "title": "Shape builder vs pathfinder", "url": "https://bjango.com/articles/shapebuildervspathfinder/"},
+     {"date": "2023-01", "title": "Smaller Mac app icons", "url": "https://bjango.com/articles/smallermacappicons/"}
+    ]},
+    {"quote": "It respects the long history and conventions established by classic design tools, while radically pushing the boundaries of what is possible.", "cite": "Skala 官网"},
+    {"p": "他对设计工具生态很敏感：Figma 宣布社区付费内容只能通过 Figma 支付、抽成 15% 时，他第一时间在 X 上摘录了条款。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["专业", "色彩、渲染、图标设计功底深", "—"],
+      ["产品", "iStat Menus 久经考验", "—"],
+      ["新品", "Skala 方向清晰", "尚未发布，开发周期长"],
+      ["开源", "—", "GitHub 上几乎没有公开代码"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>测量，而不是凭感觉：</strong>内存、精度、模糊都可以量化。",
+     "<strong>开放文件格式：</strong>设计文件也应该能进 Git。",
+     "<strong>录下你的过程：</strong>图标速画就是最好的教程。",
+     "<strong>多一个爱好：</strong>音乐和天文摄影也能成为产品。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Bjango Articles", "url": "https://bjango.com/articles/", "why": "从色彩管理系列读起。"},
+     {"name": "Pinwheel", "url": "https://bjango.com/mac/pinwheel/", "why": "给你的设计系统建一个色板。"},
+     {"name": "Skala", "url": "https://bjango.com/mac/skala/", "why": "留个邮箱，等它发布。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "检查你的设计文件和代码用的是不是同一个色彩空间。如果不确定，读一读 Marc 的色彩管理系列。",
+ "sources": [
+  {"label": "Marc Edwards 的 X 个人资料", "url": "https://x.com/marcedwards"},
+  {"label": "Bjango", "url": "https://bjango.com"},
+  {"label": "Bjango Articles", "url": "https://bjango.com/articles/"},
+  {"label": "Skala", "url": "https://bjango.com/mac/skala/"},
+  {"label": "iStat Menus", "url": "https://bjango.com/mac/istatmenus/"},
+  {"label": "Pinwheel", "url": "https://bjango.com/mac/pinwheel/"}
+ ]
+}

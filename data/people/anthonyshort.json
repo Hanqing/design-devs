@@ -1,0 +1,148 @@
+{
+ "name": "Anthony Short",
+ "role": "Deku 作者 · 来自澳大利亚的 Web 设计师与开发者 · 前 Airbnb、Segment · 旧金山",
+ "title": "Anthony Short：用<em>纯函数</em>渲染界面",
+ "dek": "他是来自澳大利亚的 Web 设计师和开发者，现在住在旧金山，曾在 Airbnb 和 Segment 工作。他在开源社区最有名的作品是 Deku（★3.4 千）：一个「用纯函数和虚拟 DOM 渲染界面」的库。在 React 还以类组件为主的 2014 到 2015 年，Deku 就主张不用类和局部状态，只用函数，把状态管理和副作用交给 Redux 这样的工具，可以替代 React 并兼容它的生态。更早，他写过 Sass 编码规范 idiomatic-sass、Compass 的 CSS 模式库 stitch-css、一系列 Backbone 插件，以及 Mac 编辑器 Espresso 的主题和插件。他也在保险科技公司 Newfront 工作过，后来在一家约 20 人的航空航天创业公司招聘前端工程师，技术栈是 Radix、Tailwind、Next.js 和 tRPC。",
+ "card": "Deku（★3.4 千）作者；来自澳大利亚的 Web 设计师与开发者，前 Airbnb、Segment，旧金山。",
+ "location": "美国旧金山",
+ "updated": "2026-10-23",
+ "tags": ["虚拟 DOM", "函数式 UI", "Sass", "前端", "设计开发"],
+ "links": [
+  {"label": "Deku", "url": "https://github.com/anthonyshort/deku"},
+  {"label": "idiomatic-sass", "url": "https://github.com/anthonyshort/idiomatic-sass"},
+  {"label": "GitHub：anthonyshort", "url": "https://github.com/anthonyshort"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Web designer & developer from Australia. Previously @airbnb, @segment.」",
+  "<strong>代表作：</strong>Deku（★3,386）、stitch-css（★258）、idiomatic-sass（★227）、use-next-route、backbone.collectionsubset、virtualize、waypoints、Espresso 主题与 Sugar 插件。",
+  "<strong>关键数字：</strong>X 推文约 2.3 万条、关注者约 1.7 千；GitHub 近一年贡献 3,068 次。",
+  "<strong>经历：</strong>澳大利亚 Newism → Segment → Airbnb → Newfront → 航空航天创业公司（据 X 帖子）。"
+ ],
+ "lead": "他在 X 上写过一段对 Remix 的感受：「终于试了 Remix。我爱它。我爱它想回到 Web 的基本原则。」他说自己过去五年在 JavaScript 生态里钻得很深，而 Remix 让他想起当年在澳大利亚的 Newism 工作室和同事们一起学做网页的时候：「那时我们还没有在状态管理和数据请求上走火入魔。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "Web 设计师、前端开发者"],
+     ["所在地", "美国旧金山（来自澳大利亚）"],
+     ["经历", "Newism、Segment、Airbnb、Newfront"],
+     ["开源", "Deku、idiomatic-sass、stitch-css"],
+     ["技术栈", "JavaScript、TypeScript、Ruby、Sass"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Anthony 近年公开活动很少：他自己说有将近一年没用 Twitter，再次发帖是为了给一家约 20 人的航空航天创业公司招前端工程师。他的公开作品主要集中在 2010 到 2019 年：从 Espresso 编辑器插件、Sass 和 Compass 模式，到 Backbone 组件，再到 Deku 和 Next.js 路由 hook。"},
+    {"p": "Deku 的价值在于<strong>早早指出了方向</strong>：组件就是函数，状态和副作用放到外面。几年后 React 的函数组件和 Hooks 成为主流，这个思路被整个行业接受。"},
+    {"note": "本页依据 GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他的个人网站 anthonyshort.me 目前无法访问；X 上的帖子多为数年前，当前职位与雇主未能核实，属资料较少的一页。家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2008–2010", "title": "澳大利亚", "text": "Espresso 编辑器主题和 Sugar 插件；在 Newism 工作室做网页。"},
+     {"when": "2011–2013", "title": "CSS 与 Backbone", "text": "stitch-css、idiomatic-sass、Backbone 插件、waypoints。"},
+     {"when": "2014–2018", "title": "Deku", "text": "用纯函数和虚拟 DOM 渲染界面。"},
+     {"when": "此后", "title": "旧金山", "text": "Segment、Airbnb；Newfront；use-next-route（2019）。"},
+     {"when": "近年", "title": "航空航天", "text": "在约 20 人的航空航天创业公司招前端工程师。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Deku", "url": "https://github.com/anthonyshort/deku",
+     "meta": ["2014–2018", "JavaScript", "★3.4 千"],
+     "paras": [
+      "「Deku is a library for rendering interfaces using pure functions and virtual DOM.」由 element、diff、dom、string、createApp 五个模块组成，只支持现代浏览器以保持简单。"
+     ],
+     "facts": [["GitHub", "★3,386"]]
+    }},
+    {"work": {
+     "name": "idiomatic-sass", "url": "https://github.com/anthonyshort/idiomatic-sass",
+     "meta": ["2013–", "规范", "★227"],
+     "paras": [
+      "「Principles for writing consistent, clean, friendly Sass」一份 Sass 写作原则。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["stitch-css", "Compass 的 CSS 模式（★258）"],
+      ["use-next-route", "Next.js 应用内路由的 React hook"],
+      ["virtualize", "构建虚拟 DOM 树的小 DSL"],
+      ["backbone.collectionsubset", "从集合创建同步的子集合"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "公开表达",
+   "blocks": [
+    {"site": {"url": "https://github.com/anthonyshort", "paras": [
+     "他的个人网站 anthonyshort.me 目前打不开，X 简介也没有链接。GitHub 是了解他作品最完整的地方，仓库时间线从 2008 年的 Espresso 插件一直到 2019 年的 Next.js 工具。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "无法访问"],
+      ["主要渠道", "GitHub"],
+      ["X", "近年很少发帖"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Got around to trying out @remix_run. Gotta say, I love it. I love that it's trying to go back to basic web principles.", "cite": "Anthony Short，X"},
+    {"p": "他也很在意设计：他说澳大利亚银行 Up 的品牌形象是自己最喜欢的之一，「他们设计得太好了，却没得到足够的称赞」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["前瞻", "早早提出函数式组件思路", "Deku 已停止维护"],
+      ["跨界", "设计和开发兼顾", "—"],
+      ["公开信息", "—", "近年资料很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>组件就是函数，</strong>状态放到外面。",
+     "<strong>为团队写下清楚的编码原则。</strong>",
+     "<strong>只支持现代环境，</strong>让库保持简单。",
+     "<strong>偶尔回到 Web 的基本原则。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Deku", "url": "https://github.com/anthonyshort/deku", "why": "看函数式 UI 的早期实践。"},
+     {"name": "idiomatic-sass", "url": "https://github.com/anthonyshort/idiomatic-sass", "why": "一份简洁的 Sass 原则。"},
+     {"name": "virtualize", "url": "https://github.com/anthonyshort/virtualize", "why": "一个小小的虚拟 DOM DSL。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读 Deku 的 README，然后用不到 100 行代码写一个自己的 element 和 diff 函数。",
+ "sources": [
+  {"label": "Anthony Short 的 X 个人资料", "url": "https://x.com/anthonyshort"},
+  {"label": "GitHub：anthonyshort", "url": "https://github.com/anthonyshort"},
+  {"label": "GitHub：deku", "url": "https://github.com/anthonyshort/deku"},
+  {"label": "GitHub：idiomatic-sass", "url": "https://github.com/anthonyshort/idiomatic-sass"}
+ ]
+}

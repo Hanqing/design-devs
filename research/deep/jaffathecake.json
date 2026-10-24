@@ -1,0 +1,291 @@
+{
+ "handle": "jaffathecake",
+ "sites": [
+  {
+   "url": "http://www.jakearchibald.com",
+   "ok": false
+  }
+ ],
+ "github": {
+  "login": "jakearchibald",
+  "user": {
+   "name": "Jake Archibald",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": null,
+   "public_repos": 263,
+   "followers": 11614,
+   "created_at": "2009-06-09T14:32:50Z",
+   "twitter_username": "jaffathecake",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "jakearchibald/idb",
+    "description": "IndexedDB, but with promises",
+    "stargazers_count": 7429,
+    "forks_count": 384,
+    "language": "TypeScript",
+    "homepage": "https://www.npmjs.com/package/idb",
+    "created_at": "2015-08-06T15:02:03Z",
+    "pushed_at": "2026-10-06T08:17:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/svgomg",
+    "description": "Web GUI for SVGO",
+    "stargazers_count": 6206,
+    "forks_count": 524,
+    "language": "JavaScript",
+    "homepage": "https://jakearchibald.github.io/svgomg/",
+    "created_at": "2014-12-17T10:11:35Z",
+    "pushed_at": "2025-09-29T08:33:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/idb-keyval",
+    "description": "A super-simple-small promise-based keyval store implemented with IndexedDB",
+    "stargazers_count": 3253,
+    "forks_count": 150,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2016-08-11T13:53:46Z",
+    "pushed_at": "2026-07-08T10:34:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/sprite-cow",
+    "description": "Sprite Cow helps you get the background-position, width and height of sprites within a spritesheet as a nice bit of copyable css.",
+    "stargazers_count": 1327,
+    "forks_count": 139,
+    "language": "JavaScript",
+    "homepage": "http://www.spritecow.com",
+    "created_at": "2011-06-18T16:31:47Z",
+    "pushed_at": "2022-12-06T17:12:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/offline-wikipedia",
+    "description": "Demo of how something like Wikipedia could be offline-first",
+    "stargazers_count": 827,
+    "forks_count": 96,
+    "language": "HTML",
+    "homepage": "https://wiki-offline.jakearchibald.com",
+    "created_at": "2015-04-16T10:44:54Z",
+    "pushed_at": "2022-01-27T14:46:31Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "jakearchibald/isserviceworkerready",
+    "description": "Tracking the status of ServiceWorker in browsers",
+    "stargazers_count": 569,
+    "forks_count": 64,
+    "language": "HTML",
+    "homepage": "https://jakearchibald.github.io/isserviceworkerready/",
+    "created_at": "2014-05-21T15:04:13Z",
+    "pushed_at": "2022-05-11T20:05:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/simple-serviceworker-tutorial",
+    "description": "A really simple ServiceWorker example, designed to be an interactive introduction to ServiceWorker",
+    "stargazers_count": 397,
+    "forks_count": 77,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-02-16T12:02:17Z",
+    "pushed_at": "2016-12-16T11:44:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/wittr",
+    "description": "Silly demo app for an online course",
+    "stargazers_count": 382,
+    "forks_count": 542,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-08-21T13:22:08Z",
+    "pushed_at": "2020-12-01T06:32:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/navigation-transitions",
+    "description": null,
+    "stargazers_count": 332,
+    "forks_count": 11,
+    "language": null,
+    "homepage": null,
+    "created_at": "2016-10-23T15:23:43Z",
+    "pushed_at": "2017-09-22T06:03:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/trained-to-thrill",
+    "description": "Trains! Yey!",
+    "stargazers_count": 329,
+    "forks_count": 195,
+    "language": "JavaScript",
+    "homepage": "https://jakearchibald.github.io/trained-to-thrill/",
+    "created_at": "2014-05-01T09:50:28Z",
+    "pushed_at": "2017-04-17T07:10:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/jakearchibald.com",
+    "description": null,
+    "stargazers_count": 267,
+    "forks_count": 43,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2020-05-19T17:21:38Z",
+    "pushed_at": "2026-10-21T09:21:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/appcache-demo",
+    "description": null,
+    "stargazers_count": 245,
+    "forks_count": 42,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2012-01-28T16:03:19Z",
+    "pushed_at": "2012-04-15T15:54:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/sass-ie",
+    "description": "Writing mobile-first styles without leaving IE<9 behind",
+    "stargazers_count": 183,
+    "forks_count": 16,
+    "language": "Shell",
+    "homepage": "http://jakearchibald.github.com/sass-ie/",
+    "created_at": "2012-06-03T21:13:26Z",
+    "pushed_at": "2014-07-14T12:13:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/linear-easing-generator",
+    "description": null,
+    "stargazers_count": 164,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-03-10T08:39:55Z",
+    "pushed_at": "2024-08-23T14:52:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/stacked-alpha-video",
+    "description": null,
+    "stargazers_count": 134,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2024-07-23T00:53:04Z",
+    "pushed_at": "2025-01-15T09:26:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/wordle-analyzer",
+    "description": null,
+    "stargazers_count": 112,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-01-14T12:39:05Z",
+    "pushed_at": "2026-06-30T14:56:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/big-web-quiz",
+    "description": null,
+    "stargazers_count": 108,
+    "forks_count": 28,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-10-13T14:50:48Z",
+    "pushed_at": "2022-12-06T21:25:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jakearchibald/tweetdeck-prototype",
+    "description": "(mobile|offline)-first Tweetdeck prototype",
+    "stargazers_count": 80,
+    "forks_count": 13,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-07-24T07:36:15Z",
+    "pushed_at": "2015-01-16T14:55:17Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 135,
+  "languages": [
+   [
+    "JavaScript",
+    68
+   ],
+   [
+    "TypeScript",
+    28
+   ],
+   [
+    "HTML",
+    17
+   ],
+   [
+    "Shell",
+    4
+   ],
+   [
+    "CSS",
+    4
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "PHP",
+    1
+   ],
+   [
+    "GLSL",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 1007,
+  "orgs": [
+   "mozilla",
+   "mozilla-standards"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "jakearchibald/idb": "# IndexedDB with usability.\nThis is a tiny (~1.19kB brotli'd) library that mostly mirrors the IndexedDB API, but with small improvements that make a big difference to usability.\n1. [Installation](#installation)\n1. [Changes](#changes)\n1. [Browser support](#browser-support)\n1. [API](#api)\n   1. [`openDB`](#opendb)\n   1. [`deleteDB`](#deletedb)\n   1. [`unwrap`](#unwrap)\n   1. [`wrap`](#wrap)\n   1. [General enhancements](#general-enhancements)\n   1. [`IDBDatabase` enhancements](#idbdatabase-enhancements)\n   1. [`IDBTransaction` enhancements](#idbtransaction-enhancements)\n   1. [`IDBCursor` enhancements](#idbcursor-enhancements)\n   1. [Async iterators](#async-iterators)\n1. [Examples](#examples)\n1. [TypeScript](#typescript)\n# Installation\n## Using npm\n```sh\nnpm install idb\n```\nThen, assuming you're using a module-compatible system (like webpack, Rollup etc):\n```js\nimport { openDB, deleteDB, wrap, unwrap } from 'idb';\nasync function doDatabaseStuff() {\n  const db = await openDB(…);\n}\n```\n## Directly in a browser\n### Using the modules method directly via jsdelivr:\n```html\n<script type=\"module\">\n  import { openDB, deleteDB, wrap, unwrap } from 'https://cdn.jsdelivr.net/npm/idb@8/+esm';\n  async function doDatabaseStuff() {\n    const db = await openDB(…);\n  }\n</script>\n```\n### Using external script reference\n```html\n<script src=\"https://cdn.jsdelivr.net/npm/idb@8/build/umd.js\"></script>\n<script>\n  async function doDatabaseStuff() {\n    const db = await idb.openDB(…);\n  }\n</script>\n```\nA global, `idb`, will be created, containing all exports of the module version.\n# Changes\n[See details of (potentially) breaking changes](CHANGELOG.md).\n# Browser support\nThis library targets modern browsers, as in Chrome, Firefox, Safari, and other browsers that use those engines, such as Edge. IE is not supported.\n# API\n## `openDB`\nThis method opens a database, and returns a promise for an enhanced [`IDBDatabase`](https://w3c.github.io/IndexedDB/#database-interface).\n```js\nconst db = await openDB(name, version, {\n  upgrade(db, oldVersion, newVersion, transaction, event) {\n    // …\n  },\n  blocked(currentVersion, blockedVersion, event) {\n    // …\n  },\n  blocking(currentVersion, blockedVersion",
+   "jakearchibald/svgomg": "# SVGOMG!\n[SVGOMG](https://jakearchibald.github.io/svgomg/) is **[SVGO](https://github.com/svg/svgo)**'s **M**issing **G**UI, aiming to expose the majority, if not all the configuration options of SVGO.\n## Feature requests\n[Check out the issues](https://github.com/jakearchibald/svgomg/issues) to see what's planned, or suggest ideas of your own!\n## Running locally\nInstall dependencies:\n```sh\nnpm install\n```\nRun dev server:\n```sh\nnpm run dev\n```\n",
+   "jakearchibald/idb-keyval": "# IDB-Keyval\n[](https://www.npmjs.com/package/idb-keyval)\nThis is a super-simple promise-based keyval store implemented with IndexedDB, originally based on [async-storage by Mozilla](https://github.com/mozilla-b2g/gaia/blob/master/shared/js/async_storage.js).\nIt's small and tree-shakeable. If you only use get/set, the library is 295 bytes (brotli'd), if you use all methods it's 573 bytes.\n[localForage](https://github.com/localForage/localForage) offers similar functionality, but supports older browsers with broken/absent IDB implementations. Because of that, it's orders of magnitude bigger (~7k).\nThis is only a keyval store. If you need to do more complex things like iteration & indexing, check out [IDB on NPM](https://www.npmjs.com/package/idb) (a little heavier at 1k). The first example in its README is how to create a keyval store.\n## Installing\n### Recommended: Via npm + webpack/rollup/parcel/etc\n```sh\nnpm install idb-keyval\n```\nNow you can require/import `idb-keyval`:\n```js\nimport { get, set } from 'idb-keyval';\n```\nIf you're targeting IE10/11, use the compat version, and import a `Promise` polyfill.\n```js\n// Import a Promise polyfill\nimport 'es6-promise/auto';\nimport { get, set } from 'idb-keyval/compat';\n```\n### All bundles\nA well-behaved bundler should automatically pick the ES module or the CJS module depending on what it supports, but if you need to force it either way:\n- `idb-keyval/dist/index.js` EcmaScript module.\n- `idb-keyval/dist/index.cjs` CommonJS module.\nLegacy builds:\n- `idb-keyval/compat` transpiled for older browsers; a well-behaved bundler will pick the ES module or CJS module as appropriate.\n- `idb-keyval/umd` UMD module, transpiled for older browsers; a well-behaved bundler will pick the appropriate module.\n- `idb-keyval/dist/compat.js` EcmaScript module, transpiled for older browsers.\n- `idb-keyval/dist/compat.cjs` CommonJS module, transpiled for older browsers.\n- `idb-keyval/dist/umd.js` UMD module, also transpiled for older browsers.\nThese built versions are also available on jsDelivr, e.g.:\n```html\n<script src=\"https://cdn.jsdelivr.net/npm/idb-keyval@6/dist/umd.js\"></script>\n<!-- Or in modern browsers: -->\n<script type=\"module\">\n  im",
+   "jakearchibald/sprite-cow": "Sprite Cow\n==========\nSprite Cow helps you get the background-position, width and height of sprites within a spritesheet as a nice bit of copyable css.\nAutomated spritesheet generators are pretty cool, but I prefer the control over optimisation and compression you get by making them manually.\nHowever, copying all the positions & sizes from graphics apps wasted a ton of my time, so I made this!\nCurrently available online for you to use at http://spritecow.com\nChanges\n=======\n2012-06-27\n----------\n* Added option for percent-based positioning\n* Added option to scale sprite 50% for retina users\n2012-06-06\n----------\n* Switching to Sass for CSS\n* New logo, thanks to [Stephen Waller](https://twitter.com/bruised_blood)\n* Tidied up some design bits and pieces\n2011-12-05\n----------\n* Fixed issue in Firefox that prevented filename being picked up\n* Added appcache for offline use & faster loading while offline\n2011-09-05\n----------\n* Making more room for the spritesheet view\n2011-08-07\n----------\n* Adding Twitter details\n2011-08-05\n----------\n* Added \"Reload image\" button\n* If you open the same image twice, it now reloads the image\n2011-07-25\n----------\n* Bits of CSS & JS that stopped things working in Opera\n* Bits of CSS & JS that stopped things working in IE10 (some remaining layout issues though)\n2011-07-20\n----------\n* Picks up the file name through drag & drop as well as the 'open' button\n2011-07-04\n----------\n* Can change CSS path\n* Changing labels from 'Select' to 'Open' when opening files"
+  }
+ },
+ "apps": []
+}

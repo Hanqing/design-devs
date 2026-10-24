@@ -1,0 +1,163 @@
+{
+ "name": "Christopher Chedeau（vjeux）",
+ "role": "Excalidraw 创造者 · React Native、Prettier 联合创造者 · Yoga、CSS-in-JS、React Conf 发起者 · Facebook · 湾区",
+ "title": "vjeux：<em>空格与 Tab 圣战</em>是怎么结束的",
+ "dek": "他是来自法国的前端工程师，毕业于法国计算机学校 EPITA，之后加入 Facebook。他的 X 简介是一份惊人的清单：React Native 和 Prettier 的联合创造者，Excalidraw、「CSS-in-JS」、Yoga 和 React Conf 的创造者。2014 年他的一场演讲让「CSS-in-JS」成了一个概念；Yoga 是一个面向 Web 标准的可嵌入布局引擎，让 React Native 能用 Flexbox 布局；代码格式化工具 Prettier（★5.2 万）终结了团队之间关于代码风格的争论。据维基百科，2020 年 1 月 1 日他把 Excalidraw 当作个人项目做出来，两天后注册域名，如今这个手绘风格的白板 GitHub 星数超过 12 万，由捷克公司 Excalidraw s.r.o. 维护。2026 年，他用 Claude Code 在一个月内把 10 万行的《宝可梦对战》引擎从 TypeScript 移植到 Rust，还让 AI Agent 在《我的世界》里设计活塞门。",
+ "card": "Excalidraw 创造者，React Native、Prettier 联合创造者，Yoga、CSS-in-JS、React Conf 发起者；Facebook。",
+ "location": "美国加州湾区",
+ "updated": "2026-10-23",
+ "tags": ["React Native", "Prettier", "Excalidraw", "开发者工具", "AI 编程"],
+ "links": [
+  {"label": "blog.vjeux.com", "url": "https://blog.vjeux.com"},
+  {"label": "Excalidraw", "url": "https://excalidraw.com"},
+  {"label": "Prettier", "url": "https://prettier.io"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Co-creator of React Native and Prettier. Creator of Excalidraw, \"CSS-in-JS\", Yoga and React Conf.」",
+  "<strong>代表作：</strong>Excalidraw（★12 万以上）、React Native（联合创造）、Prettier（★52,380，联合创造）、Yoga（★18,932）、React Conf、pokemon-showdown-rs、mp4-h264-re-encode、浏览器里的视频编辑器。",
+  "<strong>关键数字：</strong>X 关注者约 5.6 万、推文约 3.2 万条；GitHub 近一年贡献 6,754 次。",
+  "<strong>早年：</strong>EPITA 毕业；做过《魔兽世界》模型的 WebGL 查看器、JS 光线追踪器、二进制解析库 jParser。"
+ ],
+ "lead": "2025 年 10 月，他写了《Birth of Prettier》，讲「空格与 Tab 圣战」是怎么结束的：不是哪一方赢了，而是一项技术发明让争吵的根源不复存在。故事从他在 EPITA 读书时说起：学校发一份格式规则 PDF，作业每违反一条就扣 2 分（满分 20），十处格式问题就是零分。他想写个工具自动修复，但对一年级学生来说太难了。后来他到 Facebook，第一次代码评审就收到一堆格式修改意见，因为公司的规范和学校的不一样。这个问题在他脑中埋了很多年，最终变成了 Prettier。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "前端工程师、开发者工具创造者"],
+     ["所在地", "美国加州（GitHub 写东帕洛阿尔托）"],
+     ["工作", "Facebook（Meta）"],
+     ["教育", "法国 EPITA"],
+     ["开源", "Excalidraw、Prettier、React Native、Yoga"],
+     ["技术栈", "JavaScript、TypeScript、C++、Rust"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "vjeux 最近在用 AI Agent <strong>做各种「不可能」的实验</strong>：把 Pokémon Showdown 对战引擎移植到 Rust，为训练对战 AI 做准备；让 Agent 在《我的世界》里自动建造并缩小 3x3 活塞门，两天就找到了一个花了社区多年才发现的 7x8x1 设计；几个提示词之后，就得到一个在浏览器里渲染这些门的《我的世界》渲染器。"},
+    {"p": "他也让 Agent 帮团队修 JS 错误，并分享它们发现的冷门问题：Playwright 的 <code>page.route()</code> 会关掉 Chrome 的 HTTP 缓存，让整套端到端测试慢 5 倍；swc 压缩器在某种代码模式下内存会指数增长；WebKit 的 WebSocket 实现会截断数据。"},
+    {"note": "本页依据 blog.vjeux.com、维基百科 Excalidraw 条目、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。GitHub 与 X 简介显示雇主为 Facebook，他当前在 Meta 的具体团队未核实。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2010–2012", "title": "EPITA 与 WebGL", "text": "《魔兽世界》模型查看器、JS 光线追踪器、jParser、jspp。"},
+     {"when": "此后", "title": "加入 Facebook", "text": "做 React 生态；2014 年演讲提出「CSS-in-JS」。"},
+     {"when": "2015 前后", "title": "React Native", "text": "联合创造 React Native；做布局引擎 Yoga（前身 css-layout）；发起 React Conf。"},
+     {"when": "2017", "title": "Prettier", "text": "联合创造 Prettier，写《Anatomy of a JavaScript Pretty Printer》。"},
+     {"when": "2020", "title": "Excalidraw", "text": "1 月 1 日做出 Excalidraw；2021 年交给捷克团队运营。"},
+     {"when": "2025–2026", "title": "AI 实验", "text": "《Birth of Prettier》；TS→Rust 移植；《我的世界》Agent。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Excalidraw", "url": "https://excalidraw.com",
+     "meta": ["2020–", "TypeScript + React", "★12 万+"],
+     "paras": [
+      "开源的手绘风格虚拟白板，用 Rough.js 模拟手绘线条，支持端到端加密的实时协作：密钥放在 URL 的 # 片段里，服务器永远读不到内容。"
+     ]
+    }},
+    {"work": {
+     "name": "Prettier", "url": "https://prettier.io",
+     "meta": ["2017–", "JavaScript", "★5.2 万"],
+     "paras": [
+      "「Prettier is an opinionated code formatter.」把代码解析成语法树再重新打印，彻底绕开了「哪条规则被违反」的思路。"
+     ],
+     "facts": [["GitHub", "★52,380"]]
+    }},
+    {"work": {
+     "name": "Yoga", "url": "https://github.com/facebook/yoga",
+     "meta": ["C++", "★1.9 万"],
+     "paras": [
+      "「Yoga is an embeddable layout engine targeting web standards.」让 React Native 等原生框架可以用 Flexbox 布局。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["React Native", "用 React 构建原生应用（联合创造）"],
+      ["pokemon-showdown-rs", "宝可梦对战引擎的 Rust 移植"],
+      ["mp4-h264-re-encode", "纯 Web API 重编码视频并详解原理"],
+      ["video-editor", "浏览器里的视频编辑器"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://blog.vjeux.com", "paras": [
+     "vjeux 的博客从 2010 年前后一直写到现在，是一个经典的 WordPress 博客，按年份和主题归档。2024 年他把自己多年来的演讲和播客整理成文章，包括 Excalidraw 在 React Europe 和 Next.js Conf 的两次演讲，以及 React 纪录片。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "WordPress"],
+      ["内容", "长文、演讲、播客合集"],
+      ["节奏", "不定期，近年篇篇有分量"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026", "title": "From $0 to $100 million in DonutSMP over the weekend", "url": "https://blog.vjeux.com/2026/minecraft/from-0-to-100-million-in-donutsmp-over-the-weekend.html"},
+     {"date": "2026", "title": "Porting 100k lines from TypeScript to Rust using Claude Code in a month", "url": "https://blog.vjeux.com/2026/analysis/porting-100k-lines-from-typescript-to-rust-using-claude-code-in-a-month.html"},
+     {"date": "2025-10", "title": "Birth of Prettier", "url": "https://blog.vjeux.com/2025/javascript/birth-of-prettier.html"},
+     {"date": "2017", "title": "Anatomy of a JavaScript Pretty Printer", "url": "https://blog.vjeux.com/2017/javascript/anatomy-of-a-javascript-pretty-printer.html"}
+    ]},
+    {"quote": "One thing I've learned is that if there's a big problem that a lot of people faced, many people must have tried to solve it.", "cite": "vjeux，《Birth of Prettier》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "多个项目成为行业标准", "—"],
+      ["好奇心", "从视频编码到《我的世界》都钻研", "—"],
+      ["写作", "长文透彻、坦诚", "更新不频繁"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>先研究别人为什么失败。</strong>",
+     "<strong>换一个角度，</strong>让争论本身消失。",
+     "<strong>把个人项目交给能长期运营的团队。</strong>",
+     "<strong>用游戏和玩具项目试探新技术的边界。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Birth of Prettier", "url": "https://blog.vjeux.com/2025/javascript/birth-of-prettier.html", "why": "一个工具如何结束一场圣战。"},
+     {"name": "Excalidraw", "url": "https://excalidraw.com", "why": "画一张手绘风格的架构图。"},
+     {"name": "TS 到 Rust 的移植", "url": "https://blog.vjeux.com/2026/analysis/porting-100k-lines-from-typescript-to-rust-using-claude-code-in-a-month.html", "why": "看他如何让 AI 连续工作数小时。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你的项目里装上 Prettier，然后在团队规范里删掉所有关于格式的条目。",
+ "sources": [
+  {"label": "vjeux 的 X 个人资料", "url": "https://x.com/Vjeux"},
+  {"label": "blog.vjeux.com", "url": "https://blog.vjeux.com"},
+  {"label": "Birth of Prettier", "url": "https://blog.vjeux.com/2025/javascript/birth-of-prettier.html"},
+  {"label": "维基百科：Excalidraw", "url": "https://en.wikipedia.org/wiki/Excalidraw"},
+  {"label": "GitHub：vjeux", "url": "https://github.com/vjeux"}
+ ]
+}

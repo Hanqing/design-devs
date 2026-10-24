@@ -1,0 +1,156 @@
+{
+ "name": "Bramus Van Damme（Bramus）",
+ "role": "Google Chrome 开发者关系（CSS 与 Web UI）· CSS 工作组成员 · bram.us 博主（2001 年至今）· 前大学讲师 · 比利时",
+ "title": "Bramus：从 view-source 爱上 <em>Web</em>",
+ "dek": "他是来自比利时的 Web 开发者，现在在 Google Chrome 开发者关系团队，专注 CSS、Web UI 和 DevTools，也是 CSS 工作组（CSSWG）的成员。他在个人简介里写道：14 岁那年（1997 年）发现了 view-source，从此爱上了 Web。加入 Google 之前，他做过多年自由职业的前后端开发，还当了七年大学「Web 与移动」讲师，教本科生 HTML、CSS 和 JavaScript，「按这个顺序」。他的技术博客 bram.us 从 2001 年写到现在。在 Chrome，他是滚动驱动动画、视图过渡（View Transitions）等新特性最活跃的布道者之一，做了调试滚动驱动动画的 DevTools 扩展，还正在和同事起草用 CSS 声明路由与导航匹配的新提案。业余时间他是 PADI 潜水长（Divemaster）。",
+ "card": "Google Chrome DevRel（CSS 与 Web UI），CSSWG 成员；bram.us 博主（2001–），前大学讲师，比利时。",
+ "location": "比利时",
+ "updated": "2026-10-23",
+ "tags": ["CSS", "View Transitions", "滚动动画", "Web 标准", "技术博客"],
+ "links": [
+  {"label": "bram.us", "url": "https://www.bram.us/"},
+  {"label": "bram.us：Talks", "url": "https://www.bram.us/talks/"},
+  {"label": "GitHub：bramus", "url": "https://github.com/bramus"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>bram.us 标题「A rather geeky/technical weblog, est. 2001, by Bramus」。",
+  "<strong>代表作：</strong>滚动驱动 / 滚动触发动画调试扩展、style-observer（★480）、specificity、css-typed-om polyfill、&lt;calc-input&gt;、rich-input、GTA.js、PHP router（★1,124）、react-native-maps-directions（★1,280）、freshinstall。",
+  "<strong>关键数字：</strong>X 推文约 5.1 万条、关注者约 1.4 万；GitHub 150 个公开仓库。",
+  "<strong>演讲：</strong>Google I/O 2026《What's new in Web UI》（与 Una Kravets 合讲，45 分钟介绍 34 个新特性）。"
+ ],
+ "lead": "2026 年 10 月，他在博客上发了一个用 token 堆出来的业余项目：GTA.js，用 JavaScript 和 WebGL 重新实现 1997 年初代《侠盗猎车手》的引擎。同一个月，他还发布了滚动触发动画的 DevTools 调试扩展、一个经过 Web 平台测试（WPT）验证的完整 CSS Typed OM polyfill，以及一个接受数学表达式的自定义输入框 &lt;calc-input&gt;。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开发者关系工程师、Web 标准参与者"],
+     ["所在地", "比利时"],
+     ["工作", "Google Chrome DevRel（CSS、Web UI、DevTools）"],
+     ["此前", "自由职业开发者；七年大学讲师"],
+     ["标准组织", "CSS 工作组"],
+     ["技术栈", "CSS、JavaScript、TypeScript、PHP"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Bramus 的工作是<strong>让新的 CSS 能力被理解和用起来</strong>：写文章、做 CodePen 演示、做调试工具、出 polyfill。他把多年视图过渡实验里反复写的代码打包成工具库；做了 view-transitions-mock，一个同文档视图过渡的非视觉 polyfill；还演示了「可重定向」（可中断）的视图过渡和元素级视图过渡。"},
+    {"p": "他正在和同事一起推动<strong>用 CSS 做导航样式</strong>：用 <code>@route</code> 定义路由，用 <code>@navigation</code> 查询当前导航，用 <code>:nav-source</code> 选择触发导航的元素。他们已经在 CSS Day 上做了初步介绍，并在博客上征求反馈。"},
+    {"note": "本页依据 bram.us（首页、关于、演讲）、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他已主要转到 Bluesky 发帖。姓氏 Van Damme 见于 bram.us，他平时通常只用 Bramus。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "1997", "title": "view-source", "text": "14 岁发现查看源代码，从此爱上 Web。"},
+     {"when": "2001", "title": "bram.us", "text": "开始写技术博客，延续至今。"},
+     {"when": "2010 年代", "title": "讲师与自由职业", "text": "七年大学 Web 与移动讲师；PHP router、Google Maps 切图脚本等开源项目。"},
+     {"when": "2016–2017", "title": "潜水", "text": "成为 PADI 名人潜水员，后完成潜水长训练。"},
+     {"when": "加入 Google 后", "title": "Chrome DevRel", "text": "滚动驱动动画、视图过渡、锚点定位等新特性的文章与演示。"},
+     {"when": "2026", "title": "Web UI 新特性", "text": "Google I/O 演讲；CSS 路由提案；GTA.js。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "style-observer", "url": "https://github.com/bramus/style-observer",
+     "meta": ["2024–", "TypeScript", "★480"],
+     "paras": [
+      "「MutationObserver for CSS.」当某个 CSS 属性的计算值变化时得到通知。"
+     ]
+    }},
+    {"work": {
+     "name": "Scroll-Driven Animations Debugger", "url": "https://github.com/bramus/scroll-driven-animations-debugger-extension",
+     "meta": ["浏览器扩展", "DevTools"],
+     "paras": [
+      "可视化调试滚动驱动动画的时间线和范围；2026 年又推出了滚动触发动画的版本。"
+     ]
+    }},
+    {"work": {
+     "name": "bramus/router", "url": "https://github.com/bramus/router",
+     "meta": ["2013–", "PHP", "★1.1 千"],
+     "paras": [
+      "「A lightweight and simple object oriented PHP Router」他早年最受欢迎的开源项目之一。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["specificity", "计算 CSS 选择器优先级的 JS 包"],
+      ["css-typed-om", "经 WPT 测试的 CSS Typed OM polyfill"],
+      ["GTA.js", "用 JS 和 WebGL 重写 1997 年 GTA 引擎"],
+      ["freshinstall", "自动配置新 Mac"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.bram.us/", "paras": [
+     "bram.us 是一个运行了 25 年的 WordPress 博客，分为原创内容和链接分享两部分，主题除了 CSS、JS、PHP，还有机器人、太空、地图、音乐和电影。演讲页说，他喜欢用讲师的方式、从教育的角度讲技术。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "WordPress，Cloudflare"],
+      ["历史", "2001 年至今"],
+      ["节奏", "每月多篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "One of the things that we at Chrome have been thinking about is a way to do declarative route and navigation matching in CSS.", "cite": "Bramus，X，2026-07"},
+    {"p": "他发过一条获得近两千赞的实用帖：Chrome 145 测试版里可以通过 flag 打开垂直标签页。他也在文章里主张学 Web 要先 HTML、再 CSS、再 JavaScript。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "讲师背景，循序渐进", "—"],
+      ["前沿", "新 CSS 特性第一手资料", "很多特性目前仅 Chrome 支持"],
+      ["坚持", "博客写了 25 年", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>先 HTML，再 CSS，再 JavaScript。</strong>",
+     "<strong>为新特性配一个调试工具。</strong>",
+     "<strong>把重复的实验代码打包成库。</strong>",
+     "<strong>一个博客，可以写一辈子。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "bram.us", "url": "https://www.bram.us/", "why": "跟进最新 CSS 特性。"},
+     {"name": "style-observer", "url": "https://github.com/bramus/style-observer", "why": "监听 CSS 计算值变化。"},
+     {"name": "What's new in Web UI（I/O 2026）", "url": "https://youtu.be/uT7MVcCQ4rw", "why": "45 分钟看 34 个新特性。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你用 JavaScript 写的滚动动画，试着用 CSS 的 animation-timeline 重写它。",
+ "sources": [
+  {"label": "Bramus 的 X 个人资料", "url": "https://x.com/bramus"},
+  {"label": "bram.us", "url": "https://www.bram.us/"},
+  {"label": "bram.us：About", "url": "https://www.bram.us/about/"},
+  {"label": "GitHub：bramus", "url": "https://github.com/bramus"}
+ ]
+}

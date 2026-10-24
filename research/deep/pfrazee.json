@@ -1,0 +1,390 @@
+{
+ "handle": "pfrazee",
+ "sites": [
+  {
+   "url": "http://pfrazee.com",
+   "ok": true,
+   "title": "Paul's Dev Notes",
+   "description": "Random dev notes about work at Bluesky by Paul Frazee",
+   "stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Umami",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en-us",
+   "home_text": "Paul's Dev Notes \n Blog Tags About \nLatest \nRandom dev notes about work at Bluesky by Paul Frazee \n Published on February 25, 2026 \n Practical Decentralization \n atproto \nThe point of decentralization is to guarantee the rights of individuals and communities on the Internet. Pulling that off is a balancing act between practicality and ideology. \n Read more → \n Published on January 5, 2026 \n My leaflets now show on my personal blog \nPublish On PDS, Syndicate To Any Reader \n Read more → \n Published on December 31, 2025 \n Atmospheric Computing \n atproto bsky \nCloud computing has been extremely successful, but it lost the values that drove personal computing. We can solve this by evolving forward. \n Read more → \n Published on November 13, 2025 \n The politics of purely client-side apps \nThere's a surprisingly nuanced discussion in development about the political economy of clients and servers in the Atmosphere \n Read more → \n Published on November 3, 2025 \n 100% cooked \nSome reflections on the product design discussions from the last weekend \n Read more → \n All Posts →",
+   "github_links": [
+    "pfrazee",
+    "timlrx"
+   ],
+   "subpages": {
+    "http://pfrazee.com/blog": "Paul's Dev Notes \n Blog Tags About \nAll Posts \nAll Posts \n atproto (6) \n bsky (5) \n Published on February 25, 2026 \n Practical Decentralization \n atproto \nThe point of decentralization is to guarantee the rights of individuals and communities on the Internet. Pulling that off is a balancing act between practicality and ideology. \n Published on January 5, 2026 \n My leaflets now show on my personal blog \nPublish On PDS, Syndicate To Any Reader \n Published on December 31, 2025 \n Atmospheric Computing \n atproto bsky \nCloud computing has been extremely successful, but it lost the values that drove personal computing. We can solve this by evolving forward. \n Published on November 13, 2025 \n The politics of purely client-side apps \nThere's a surprisingly nuanced discussion in development about the political economy of clients and servers in the Atmosphere \n Published on November 3, 2025 \n 100% cooked \nSome reflections on the product design discussions from the last weekend",
+    "http://pfrazee.com/about": "Paul's Dev Notes \n Blog Tags About \nAbout \nPaul Frazee \nSoftware Engineer \nBluesky \n mail github bluesky \nPaul Frazee is a software engineer at Bluesky. He leads the team building the Bluesky social application and is frequently working with React Native. Paul co-authored the AT Protocol . \nPreviously Paul was one of the early developers of Secure Scuttlebutt peer-to-peer social network, largely working in the application and DX. Paul then created the Beaker Browser , a peer-to-peer Web browser, and was heavily involved in the Dat/Hypercore protocol's development. Afterwards, Paul live-streamed the entire development of yet another distributed social network called CTZN. \nPaul was not trained for any of this."
+   },
+   "feed": {
+    "url": "http://pfrazee.com/feed.xml",
+    "count_seen": 6,
+    "items": [
+     {
+      "title": "Practical Decentralization",
+      "date": "Wed, 25 Feb 2026 00:00:00",
+      "url": "https://pfrazee.com/blog/practical-decentralization"
+     },
+     {
+      "title": "Atmospheric Computing",
+      "date": "Wed, 31 Dec 2025 08:00:00",
+      "url": "https://pfrazee.com/blog/atmospheric-computing"
+     },
+     {
+      "title": "Guidance on Authoring Lexicons",
+      "date": "Thu, 27 Mar 2025 00:00:00",
+      "url": "https://pfrazee.com/blog/lexicon-guidance"
+     },
+     {
+      "title": "Why isn't Bluesky a peer-to-peer network?",
+      "date": "Sun, 21 Jan 2024 00:00:00",
+      "url": "https://pfrazee.com/blog/why-not-p2p"
+     },
+     {
+      "title": "Why not RDF in the AT Protocol?",
+      "date": "Thu, 18 Jan 2024 00:00:00",
+      "url": "https://pfrazee.com/blog/why-not-rdf"
+     },
+     {
+      "title": "Why RichText facets in Bluesky",
+      "date": "Mon, 15 Jan 2024 00:00:00",
+      "url": "https://pfrazee.com/blog/why-facets"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "pfrazee",
+  "user": {
+   "name": "Paul Frazee",
+   "company": "Bluesky",
+   "blog": "",
+   "location": "Austin, TX",
+   "bio": "Developer at Bluesky",
+   "public_repos": 254,
+   "followers": 2458,
+   "created_at": "2011-12-17T20:02:32Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "pfrazee/crdt_notes",
+    "description": null,
+    "stargazers_count": 1056,
+    "forks_count": 63,
+    "language": null,
+    "homepage": null,
+    "created_at": "2014-09-13T17:49:23Z",
+    "pushed_at": "2015-07-26T19:11:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/local",
+    "description": "An Ajax library that can target local JS code and web workers.",
+    "stargazers_count": 429,
+    "forks_count": 19,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2012-05-06T18:05:02Z",
+    "pushed_at": "2014-07-30T01:02:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/base-emoji",
+    "description": "Output a buffer (0xdeadbeef) in emojis (:snowflake::panda_face::police_car::tongue:)",
+    "stargazers_count": 262,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2014-11-13T22:20:45Z",
+    "pushed_at": "2017-06-03T15:29:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/electron-browser",
+    "description": "browser ui for electron, written in react",
+    "stargazers_count": 227,
+    "forks_count": 63,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-09-08T15:14:17Z",
+    "pushed_at": "2022-12-08T02:29:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/http-template-literal",
+    "description": "Make HTTP requests the way TBL intended.",
+    "stargazers_count": 215,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-02-10T21:37:39Z",
+    "pushed_at": "2021-04-06T10:05:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/vitra",
+    "description": "Cooperative databases using smart contracts.",
+    "stargazers_count": 182,
+    "forks_count": 8,
+    "language": "TypeScript",
+    "homepage": "https://pfrazee.github.io/vitra/",
+    "created_at": "2021-12-20T21:07:28Z",
+    "pushed_at": "2022-06-03T21:17:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/suggest-box",
+    "description": ":speech_balloon: decorates a textarea with GitHub-style suggestion popups (eg for emojis and users)",
+    "stargazers_count": 77,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2014-12-24T18:35:11Z",
+    "pushed_at": "2023-04-24T15:11:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/nodevms",
+    "description": "A cryptographically auditable VM service using Nodejs and Dat.",
+    "stargazers_count": 69,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": "https://nodevms.com",
+    "created_at": "2017-08-04T23:03:56Z",
+    "pushed_at": "2017-08-13T16:41:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/infocivics",
+    "description": "Information Civics paper",
+    "stargazers_count": 56,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2018-06-02T10:32:14Z",
+    "pushed_at": "2020-12-28T18:02:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/dat-gateway",
+    "description": "Quick Dat to HTTP gateway",
+    "stargazers_count": 46,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-05-27T03:32:51Z",
+    "pushed_at": "2019-02-12T19:08:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/webterm",
+    "description": "A web based command line interface (Beaker)",
+    "stargazers_count": 38,
+    "forks_count": 6,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-08-29T15:49:18Z",
+    "pushed_at": "2019-01-01T16:53:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/pauls-electron-rpc",
+    "description": "My RPC solution for exporting APIs from the electron background process to renderers and webviews",
+    "stargazers_count": 37,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-07-09T13:46:03Z",
+    "pushed_at": "2022-11-10T18:00:34Z",
+    "topics": [
+     "electron"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/citizen",
+    "description": "A social web API for beaker/dat applications",
+    "stargazers_count": 32,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-08-14T00:36:36Z",
+    "pushed_at": "2018-08-17T02:46:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/pretty-hash",
+    "description": "Output binary buffers as a nice shortened hex string",
+    "stargazers_count": 28,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-11-17T20:06:23Z",
+    "pushed_at": "2019-07-14T13:50:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/diff-file-tree",
+    "description": "Compare two file-trees, get a list of changes, then apply left or right",
+    "stargazers_count": 27,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-04-22T18:23:33Z",
+    "pushed_at": "2023-01-11T09:20:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/node-http-dat-forum",
+    "description": "A Web forum built on Nodejs, Dat and HTTP",
+    "stargazers_count": 27,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-07-09T00:45:09Z",
+    "pushed_at": "2018-07-09T16:27:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/on-wakeup",
+    "description": "Watches for the computer to fall asleep and then triggers an event callback on wakeup",
+    "stargazers_count": 25,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-09-30T23:29:06Z",
+    "pushed_at": "2016-06-14T14:24:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pfrazee/ctznry",
+    "description": "A decentralized social networking webapp using CTZN",
+    "stargazers_count": 24,
+    "forks_count": 11,
+    "language": "CSS",
+    "homepage": "ctznry-git-master.pfrazee.vercel.app",
+    "created_at": "2021-02-02T18:27:33Z",
+    "pushed_at": "2021-05-06T02:23:11Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 158,
+  "languages": [
+   [
+    "JavaScript",
+    119
+   ],
+   [
+    "TypeScript",
+    9
+   ],
+   [
+    "CSS",
+    6
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "Java",
+    1
+   ],
+   [
+    "PHP",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "bluesky-social/atproto",
+    "stargazerCount": 9710,
+    "description": "Social networking technology created by Bluesky",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "bluesky-social/social-app",
+    "stargazerCount": 18351,
+    "description": "The Bluesky Social application for Web, iOS, and Android",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://bsky.app"
+   },
+   {
+    "nameWithOwner": "beakerbrowser/beaker",
+    "stargazerCount": 6736,
+    "description": "An experimental peer-to-peer Web browser",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://beakerbrowser.com/"
+   },
+   {
+    "nameWithOwner": "ssbc/patchwork",
+    "stargazerCount": 3571,
+    "description": "A decentralized messaging and sharing app built on top of Secure Scuttlebutt (SSB).",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://www.scuttlebutt.nz"
+   }
+  ],
+  "contrib_last_year": 5275,
+  "orgs": [
+   "beakerbrowser",
+   "datprotocol",
+   "dat-land"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "bluesky-social/atproto": "# AT Protocol Reference Implementation (TypeScript)\nWelcome friends!\nThis repository contains Bluesky's reference implementation of AT Protocol, and of the `app.bsky` microblogging application service backend.\n## About AT Protocol\nThe Authenticated Transfer Protocol (\"ATP\" or \"atproto\") is a decentralized social media protocol, developed by [Bluesky Social PBC](https://bsky.social). Third-party software can be as seamless as first-party: custom feeds, federated services, and alternative clients are all built against the same APIs, so developers are never locked out of the ecosystems they help build. Learn more at:\n- [Overview and Guides](https://atproto.com/guides/overview) 👈 Best starting point\n- [Github Discussions](https://github.com/bluesky-social/atproto/discussions) 👈 Great place to ask questions\n- [Protocol Specifications](https://atproto.com/specs/atp)\nThe Bluesky Social application encompasses a set of schemas and APIs built in the overall AT Protocol framework. The namespace for these \"Lexicons\" is `app.bsky.*`.\n## What is in here?\n**Lexicons:** for both the `com.atproto.*` and `app.bsky.*` are canonically versioned in this repo, for now, under `./lexicons/`. These are JSON files in the [Lexicon schema definition language](https://atproto.com/specs/lexicon), similar to JSON Schema or OpenAPI.\n**TypeScript Packages:** everything under [`./packages/`](./packages/) is published to npm under the `@atproto/*` scope (except for the shared utilities in [`./packages/internal/`](./packages/internal/), which use the `@atproto-labs/*` scope). Each package has its own README; [`packages/README.md`](./packages/README.md) lists them all. The short version, if you're new here:\n- **Building an app or bot?** Start with [`@atproto/lex`](./packages/lex/lex/README.md) — the type-safe SDK that generates TypeScript from Lexicon schemas and gives you an HTTP (XRPC) client. The rest of [`./packages/lex/`](./packages/lex/) contains its building blocks (data model, JSON/CBOR encoding, schema validation, server routing), which you rarely need to install directly. The older [`@atproto/api`](./packages/api/README.md) client still exists and is still used in parts of this repo, but",
+   "bluesky-social/social-app": "# Bluesky Social App\nWelcome friends! This is the codebase for the Bluesky Social app.\nGet the app itself:\n- **Web: [bsky.app](https://bsky.app)**\n- **iOS: [App Store](https://apps.apple.com/us/app/bluesky-social/id6444370199)**\n- **Android: [Play Store](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app)**\n## Development Resources\nThis is a [React Native](https://reactnative.dev/) application, written in the TypeScript programming language. It builds on the `atproto` TypeScript packages (like [`@atproto/api`](https://www.npmjs.com/package/@atproto/api)), which are also open source, but in [a different git repository](https://github.com/bluesky-social/atproto).\nThere is a small amount of Go language source code (in `./bskyweb/`), for a web service that returns the React Native Web application.\nThe [Build Instructions](./docs/build.md) are a good place to get started with the app itself.\nThe Authenticated Transfer Protocol (\"AT Protocol\" or \"atproto\") is a decentralized social media protocol. You don't *need* to understand AT Protocol to work with this application, but it can help. Learn more at:\n- [Overview and Guides](https://atproto.com/guides/overview)\n- [GitHub Discussions](https://github.com/bluesky-social/atproto/discussions) 👈 Great place to ask questions\n- [Protocol Specifications](https://atproto.com/specs/atp)\n- [Blogpost on self-authenticating data structures](https://bsky.social/about/blog/3-6-2022-a-self-authenticating-social-protocol)\nThe Bluesky Social application encompasses a set of schemas and APIs built in the overall AT Protocol framework. The namespace for these \"Lexicons\" is `app.bsky.*`.\n## Contributions\n> [!NOTE]\n> While we do accept contributions, we prioritize high quality issues and pull requests. Adhering to the below guidelines will ensure a more timely review.\n**Rules:**\n- We may not respond to your issue or PR.\n- We may close an issue or PR without much feedback.\n- We may lock discussions or contributions if our attention is getting DDOSed.\n- We're not going to provide support for build issues.\n**Guidelines:**\n- Check for existing issues before filing a new one please.\n- Open an issue and give some time for discussion",
+   "beakerbrowser/beaker": "Beaker Browser\n======\n# [This project is now archived.](./archive-notice.md)\nBeaker was an experimental peer-to-peer Web browser. It adds new APIs for building hostless applications while remaining compatible with the rest of the Web. [Visit the website.](https://beakerbrowser.com/)\n## Table of Contents\n<!-- START doctoc generated TOC please keep comment here to allow auto update -->\n<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->\n- [Installing](#installing)\n  - [Binaries](#binaries)\n  - [Building from source](#building-from-source)\n- [Documentation](#documentation)\n  - [Env Vars](#env-vars)\n- [Vulnerability disclosure](#vulnerability-disclosure)\n- [Known issues](#known-issues)\n  - [tmux](#tmux)\n- [Contributors](#contributors)\n  - [Backers](#backers)\n  - [Sponsors](#sponsors)\n- [License](#license)\n<!-- END doctoc generated TOC please keep comment here to allow auto update -->\n## Installing\n### Binaries\n**Visit the [Releases Page](https://github.com/beakerbrowser/beaker/releases) to find the installer you need.**\n### Building from source\nRequires node 12 or higher.\nIn Linux (and in some cases macOS) you need libtool, m4, autoconf, and automake:\n```bash\nsudo apt-get install libtool m4 make g++ autoconf # debian/ubuntu\nsudo dnf install libtool m4 make gcc-c++ libXScrnSaver  # fedora\nbrew install libtool autoconf automake # macos\n```\nIn Windows, you'll need to install [Python 2.7](https://www.python.org/downloads/release/python-2711/), Visual Studio 2015 or 2017, and [Git](https://git-scm.com/download/win). (You might try [windows-build-tools](https://www.npmjs.com/package/windows-build-tools).) Then run:\n```powershell\nnpm config set python c:/python27\nnpm config set msvs_version 2017\nnpm install -g node-gyp\nnpm install -g gulp\n```\nTo build:\n```bash\ngit clone https://github.com/beakerbrowser/beaker.git\ncd beaker/scripts\nnpm install # don't worry about v8 api errors building native modules - rebuild will fix\nnpm run rebuild # needed after each install. see https://github.com/electron/electron/issues/5851\nnpm start\n```\nIf you pull latest from the repo and get weird module errors, do:\n```bash\nnpm run burnthemall\n```\nThis invokes [the mad king](http://",
+   "ssbc/patchwork": "# :warning: **Patchwork v3.18.1 was the last release!** :warning:\nThis release is meant to tide us over so that other clients can take it from here.\nThank you to everyone who contributed to this release and all the ones preceding it!\n[Paul](https://github.com/pfrazee), [Matt McKegg](https://github.com/mmckegg), and [Christian Bundy](https://github.com/christianbundy) first and foremost, but by now the [contributors page](https://github.com/ssbc/patchwork/graphs/contributors) shows 94 contributors! 💓\n### Where do we go from here? Do I have to change client now?\nFor the time being (the next couple of months) you should be fine to just keep Patchwork running. However, as time progresses and security of the underlying components \"degrades\" (read: already existing issues are *discovered*) it will become a bad idea to keep running Patchwork.\nBy that time, you should pick a different ssb client.\n### Why retire Patchwork? Can I keep it alive?\nOf course Patchwork is, as always, released under the AGPL license. So if you really wanted to, you could fork it and keep it alive. However, let me (Daan) explain why this is a bad idea:\n**All the devs say \"Don't do it!\"**\nEveryone who has spent significant time in the codebase agrees that it is time to retire Patchwork. Over the years, it has seen multiple iterations of developers coming in, trying to change things in a structural way, then burning out on it. It's a pattern, so be warned. This is due to the fact that Patchwork makes some architectural decisions that make it hard to maintain, and even harder for *new* developers to get into the codebase:\n* **depject** is a bespoke dependency injection system, which breaks any kind of navigation and tool support for debugging.\n* **mutant** is another bespoke implementation of observables. It is also used for generating HTML, which makes a transition to component-based UI toolkits very hard.\n* **custom sbot**: Patchwork doesn't really work except with its own, bundled `ssb-server`. This is considered bad form for ssb applications.\n* **ssb-db**, the bespoke database of the original ssb stack, is deeply baked into patchwork. Migrating to the new #ssb-db2 would be a long and painful pr",
+   "pfrazee/crdt_notes": "# CRDT notes\nExcerpts collected from papers and articles published on the Web.\n## Network design\nFrom [\"Key-CRDT Stores\"](http://run.unl.pt/bitstream/10362/7802/1/Sousa_2012.pdf) (the Swiftcloud paper)\n### Replication\n#### Pessimistic vs. Optimistic Replication\n> In pessimistic replication, the system simulates that there is a unique copy of the object despite all client requests to different replicas (one copy serializability). This method requires synchronization among replicas to guarantee that no stale data is retrieved. \n> In wide area networks this technique may not be adequate because the synchronization requirements would imply a great latency overhead. But, in local area networks, it can be acceptable because the latency to contact another replica is low.\n> Optimistic solutions allow replicas to diverge. This means that clients can read/write different values, for the same object, if they contact different replicas. When using such level of consistency the application must be aware of this fact.\n> These solutions are more adequate to large scale systems providing good fault-tolerance and responsiveness since every replica can reply to a read or write request without coordinating with others.\n#### Active vs. Passive Replication\n> In active replication (or synchronous), all replicas are contacted inside a transaction to get their values updated. This replication mechanism can be implemented using a peer-to-peer approach, where all replicas have the same responsibilities and can be accessed by any client. Alternatively, a primary replica may have the responsibility of coordinating all other replicas.\n> Passive replication (or asynchronous) model assumes a replica will propagate the updates to the other replicas outside the context of a transaction. As usual, replicas must receive all the updates.\n#### Operation Based vs. State Based replication\n> There are two fundamental methods to propagate updates among replicas. In State based replication, updates contain the full object state (or in optimized versions, a delta of the state). In operation based, the updates contain the operations that modify the object and must be executed in all replicas. The size of "
+  }
+ },
+ "apps": []
+}

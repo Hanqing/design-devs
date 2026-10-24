@@ -1,0 +1,155 @@
+{
+ "name": "Josh Puckett",
+ "role": "设计师 · Interface Craft 作者 · DialKit 作者 · Graphical、Iteration、Upperstudy 联合创始人 · 前 Dropbox、Wealthfront、Groupon 设计负责人",
+ "title": "Josh Puckett：用<em>不寻常的用心</em>做设计",
+ "dek": "他是设计师、投资人和顾问，在 Dropbox、Wealthfront、Groupon 等公司带过设计团队，现在联合创办了几家公司：设计工作室 Iteration（「结合创意、手艺和计算，帮创始人快速把想法聚焦」）、Upperstudy，以及 2026 年的新工具 Graphical：一个创建视觉主题和设计系统、再交给 ChatGPT、Claude、Cursor 等去搭界面的工具。他的 Interface Craft 是一个「为那些致力于以不寻常的用心做设计的人准备的工作库」，Emil Kowalski 评价说「很少有人能像 Josh 那样思考界面」。他写的 DialKit 让你在运行中的应用里直接拧旋钮调参数，被很多团队使用。",
+ "card": "Interface Craft、DialKit（★1.3 千）作者；Graphical、Iteration、Upperstudy 联合创始人；前 Dropbox、Wealthfront、Groupon 设计负责人。",
+ "location": "美国加州",
+ "updated": "2026-10-23",
+ "tags": ["界面设计", "设计工具", "动效", "教学", "设计系统"],
+ "links": [
+  {"label": "joshpuckett.me", "url": "https://joshpuckett.me"},
+  {"label": "Interface Craft", "url": "https://interfacecraft.dev"},
+  {"label": "DialKit", "url": "https://dialkit.dev"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「I help startups with design. Co-founder Iteration, Upperstudy. Previously led teams at Dropbox, Wealthfront, Groupon & more.」",
+  "<strong>代表作：</strong>Interface Craft、DialKit（★1,255）、Graphical、Bloom 变形下拉按钮（★175）、Pasito 步进组件；早年 Sketch 插件（★253）、Framer 模块（★174）、咖啡馆环境音应用 Ristretto。",
+  "<strong>关键数字：</strong>X 关注者约 4.4 万。",
+  "<strong>写作：</strong>joshpuckett.me，例如《Seamless mobile Safari》讲如何避免网页被 iOS Safari 的界面遮挡。"
+ ],
+ "lead": "Interface Craft 的开头是一段宣言：做软件一天比一天容易，大多数做出来的东西大概都还行，能用，但会被忘记，做得太快、想得不够。「这是给想做点别的东西的人准备的」：被人喜爱的产品，感觉永恒的界面，像是有人花了几乎不合理的心思去考虑过的软件。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、投资人、顾问、创始人"],
+     ["所在地", "美国加州"],
+     ["经历", "Groupon、Wealthfront、Dropbox 等公司设计负责人 → Iteration、Upperstudy、Graphical 联合创始人"],
+     ["作品", "Interface Craft、DialKit、Graphical、Bloom、Pasito"],
+     ["技术栈", "TypeScript、React、Motion、Framer / Sketch（早期）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Josh 关心的是<strong>怎样凭手感调好界面</strong>。DialKit 是一个实时调参面板：绑定几个值，就可以在运行中的应用里拖动滑块调圆角、颜色、间距和动画时长，对比不同版本，编辑时间轴，支持 React、Solid、Svelte、Vue 和原生 JavaScript。它的官网把这句话做成了可以拖的字体粗细：「a tool for shaping your ideas by feel」。"},
+    {"p": "Graphical 是他 2026 年的新项目：先创建主题、配色、组件、字体、间距、图标、效果和动效，再下载或用 shadcn 安装，交给 AI 去构建界面。他也在 X 上分享更多元的创作：手绘图标、花艺，以及一款可以自己设计形状的灯，第一批很快售罄。"},
+    {"note": "本页依据 interfacecraft.dev、dialkit.dev、withgraphical.com、iteration.design、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他在各公司的任职年份未公开；家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "带领设计团队", "text": "在 Groupon、Wealthfront、Dropbox 等公司带设计团队。"},
+     {"when": "2014–2018", "title": "原型工具", "text": "Sketch 插件、Framer 模块与网页查看器、Quartz Composer 辅助应用、Ristretto。"},
+     {"when": "2024", "title": "Iteration", "text": "联合创办设计工作室 Iteration。"},
+     {"when": "2026", "title": "DialKit 与 Graphical", "text": "1 月开源 DialKit 和 Bloom；9 月推出 Graphical；运营 Interface Craft。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Interface Craft", "url": "https://interfacecraft.dev",
+     "meta": ["工作库", "付费会员"],
+     "paras": [
+      "「A working library for those committed to designing with uncommon care.」他把自己关于设计的一切持续整理在这里。Emil Kowalski 的推荐语就放在首页。"
+     ]
+    }},
+    {"work": {
+     "name": "DialKit", "url": "https://dialkit.dev",
+     "meta": ["2026–", "TypeScript", "★1.3 千"],
+     "paras": [
+      "「Live controls for tuning interfaces.」挂上一个 DialRoot，用 useDialKit 绑定数值，就能实时调整。原生 JS 适配器没有任何运行时依赖。"
+     ]
+    }},
+    {"work": {
+     "name": "Graphical", "url": "https://withgraphical.com",
+     "meta": ["2026", "主题与设计系统"],
+     "paras": [
+      "「A tool to create visual themes… and build interfaces with ChatGPT, Claude, Cursor, Grok, anything.」创建主题后可以直接下载，或通过 shadcn 注册表安装。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Bloom", "按钮本身变形成菜单的 React 组件"],
+      ["Pasito", "小巧、可换主题、无依赖的流畅步进组件"],
+      ["FramerModules", "扩展 Framer.js 的模块，如 SVG 图层"],
+      ["Ristretto", "在状态栏播放咖啡馆环境音的小应用"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://joshpuckett.me", "paras": [
+     "个人网站以文章为主，比如《Seamless mobile Safari》讲如何让网页内容正确延伸到 iOS Safari 的界面下方，不被截断。这条分享在 X 上收获了近一千五百个赞。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "文章与作品"],
+      ["课程", "Interface Craft"],
+      ["工具", "DialKit、Graphical"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "We used to buy things made one at a time. Mass production made products cheaper and more accessible, but largely identical. What if the future takes us back to a world where everything is one-of-one?", "cite": "Josh Puckett，X，2026-10"},
+    {"p": "他认为一个越来越有杠杆的机会，是让技艺精湛的小团队像雇佣兵一样，为传统品牌重建软件。他也立了规矩：谁在他帖子下发 AI 垃圾回复，直接拉黑。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["手艺", "界面细节和教学口碑好", "Interface Craft 为付费内容"],
+      ["工具", "DialKit 被广泛采用", "Graphical 刚起步"],
+      ["经历", "多家公司设计负责人", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>凭手感调参数：</strong>用滑块代替反复改代码。",
+     "<strong>以不寻常的用心做设计。</strong>",
+     "<strong>设计系统先行，再交给 AI 搭界面。</strong>",
+     "<strong>小团队也能重建大品牌的软件。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "DialKit", "url": "https://dialkit.dev", "why": "给你的动画加一个调参面板。"},
+     {"name": "Interface Craft", "url": "https://interfacecraft.dev", "why": "看看「不寻常的用心」是什么样。"},
+     {"name": "Seamless mobile Safari", "url": "https://joshpuckett.me/seamless-mobile-safari", "why": "修好你网站在 iPhone 上的边缘。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你下一个动画里接入 DialKit，用滑块把时长和弹性调到「感觉对了」为止。",
+ "sources": [
+  {"label": "Josh Puckett 的 X 个人资料", "url": "https://x.com/joshpuckett"},
+  {"label": "Interface Craft", "url": "https://interfacecraft.dev"},
+  {"label": "DialKit", "url": "https://dialkit.dev"},
+  {"label": "Graphical", "url": "https://withgraphical.com"},
+  {"label": "Iteration", "url": "https://iteration.design"},
+  {"label": "GitHub：joshpuckett", "url": "https://github.com/joshpuckett"}
+ ]
+}

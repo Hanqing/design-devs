@@ -1,0 +1,543 @@
+{
+ "handle": "lencx_",
+ "sites": [
+  {
+   "url": "https://lencx.me",
+   "ok": true,
+   "title": "lencx | 👻 Life’s attitude to you depends on your attitude to it.",
+   "description": "👻 Life’s attitude to you depends on your attitude to it.",
+   "stack": [
+    "Jekyll v3.10.0",
+    "Gatsby",
+    "React"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en-US",
+   "home_text": "lencx \n👻 Life's attitude to you depends on your attitude to it. \n View My GitHub Profile \n {折腾 ⇌ 迷茫 ⇌ 思考]ing，在路上... \nProjects \n Noi : 🚀 Less chaos. More flow. \n ChatGPT : 🔮 ChatGPT Desktop Application (Mac, Windows and Linux) \n rsw : 🦞 wasm-pack based build tool \n gg : 🦄 GG (Gatsby + GitHub) - A gatsby website builder based on github discussions \n QR Code Generator : 🔲 Stable Diffusion WebUI’s QR Code Generator \n…",
+   "github_links": [
+    "lencx",
+    "orderedlist",
+    "rwasm"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "lencx",
+  "user": {
+   "name": null,
+   "company": null,
+   "blog": "lencx.me",
+   "location": null,
+   "bio": null,
+   "public_repos": 137,
+   "followers": 4943,
+   "created_at": "2015-12-05T10:05:19Z",
+   "twitter_username": "lencx_",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "lencx/ChatGPT",
+    "description": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
+    "stargazers_count": 54652,
+    "forks_count": 6151,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2022-12-07T09:43:02Z",
+    "pushed_at": "2024-08-29T17:58:11Z",
+    "topics": [
+     "ai",
+     "app",
+     "application",
+     "chatgpt",
+     "desktop-app",
+     "gpt",
+     "gpt-3",
+     "linux",
+     "macos",
+     "notes-app",
+     "openai",
+     "rust",
+     "tauri",
+     "webview",
+     "windows"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/Noi",
+    "description": "🚀 Less chaos. More flow.",
+    "stargazers_count": 9063,
+    "forks_count": 718,
+    "language": "TypeScript",
+    "homepage": "https://noib.app",
+    "created_at": "2023-10-16T09:27:58Z",
+    "pushed_at": "2026-08-21T16:42:55Z",
+    "topics": [
+     "ai",
+     "application",
+     "browser",
+     "chatgpt",
+     "claude",
+     "copilot",
+     "deepseek",
+     "extension",
+     "gemini",
+     "grok",
+     "macos",
+     "noi",
+     "perplexity",
+     "qwen",
+     "tools",
+     "windows"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/nofwl",
+    "description": "NoFWL Desktop Application",
+    "stargazers_count": 4130,
+    "forks_count": 387,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2023-02-22T02:36:16Z",
+    "pushed_at": "2024-01-23T09:27:13Z",
+    "topics": [
+     "application",
+     "chatgpt",
+     "desktop",
+     "linux",
+     "macos",
+     "tauri",
+     "windows"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/Minke",
+    "description": "🐳 DeepSeek Harness Desktop",
+    "stargazers_count": 691,
+    "forks_count": 73,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-08-15T01:49:38Z",
+    "pushed_at": "2026-10-18T13:48:05Z",
+    "topics": [
+     "agent",
+     "ai-agents",
+     "codex",
+     "cordis",
+     "deekseek",
+     "desktop",
+     "dsh",
+     "dsh-plugin",
+     "harness",
+     "linux",
+     "macos",
+     "skills",
+     "windows"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/tauri-tutorial",
+    "description": "📚 Tauri Tutorial (系列教程 - 打造属于自己的跨端应用)",
+    "stargazers_count": 638,
+    "forks_count": 50,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2022-05-10T13:15:17Z",
+    "pushed_at": "2022-11-18T05:54:04Z",
+    "topics": [
+     "application",
+     "desktop",
+     "devtools",
+     "linux-desktop",
+     "macos",
+     "react",
+     "tauri",
+     "toolbox",
+     "tools",
+     "unocss",
+     "vite",
+     "wasm",
+     "windows-desktop"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/GPTHub",
+    "description": "🔍 Discover the Best in Custom GPT at OpenAI's GPT Store – Your Adventure Begins Here!",
+    "stargazers_count": 561,
+    "forks_count": 58,
+    "language": "TypeScript",
+    "homepage": "https://gpthub.nofwl.com",
+    "created_at": "2023-11-10T00:54:24Z",
+    "pushed_at": "2023-11-13T07:46:06Z",
+    "topics": [
+     "ai",
+     "chatgpt",
+     "gpts",
+     "gptstore",
+     "openai",
+     "store"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/awesome-ai",
+    "description": "🤖 Awesome AI",
+    "stargazers_count": 358,
+    "forks_count": 50,
+    "language": null,
+    "homepage": "",
+    "created_at": "2023-03-26T05:17:11Z",
+    "pushed_at": "2023-06-02T19:29:08Z",
+    "topics": [
+     "ai",
+     "application",
+     "chatgpt",
+     "gpt",
+     "stable-diffusion",
+     "tools"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/chat-todo-plugin",
+    "description": "✅ ChatGPT Plugin for managing a TODO list",
+    "stargazers_count": 253,
+    "forks_count": 41,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2023-03-24T03:12:01Z",
+    "pushed_at": "2023-03-24T18:27:57Z",
+    "topics": [
+     "chat-plugin",
+     "chatgpt",
+     "chatgpt-plugins",
+     "openai",
+     "plugin",
+     "todo-list"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/skills",
+    "description": "💡 Turn experience into repeatable execution.",
+    "stargazers_count": 196,
+    "forks_count": 17,
+    "language": "Shell",
+    "homepage": "https://skills.lencx.me",
+    "created_at": "2026-04-13T01:55:15Z",
+    "pushed_at": "2026-08-21T16:41:22Z",
+    "topics": [
+     "agent",
+     "ai",
+     "architecture",
+     "claude",
+     "claude-code",
+     "codex",
+     "coding",
+     "docs",
+     "dsh",
+     "gpt",
+     "grok",
+     "keel",
+     "openai",
+     "skills"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/z",
+    "description": "〽️   浮之静",
+    "stargazers_count": 156,
+    "forks_count": 12,
+    "language": "TypeScript",
+    "homepage": "https://lencx.tech",
+    "created_at": "2020-08-23T02:48:17Z",
+    "pushed_at": "2024-01-21T20:10:44Z",
+    "topics": [
+     "algorithms",
+     "application",
+     "awesome",
+     "blog",
+     "command",
+     "config",
+     "design",
+     "ebook",
+     "extensions",
+     "macos",
+     "online",
+     "toolset",
+     "vscode",
+     "webassembly"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/awesome",
+    "description": "😎 Awesome lists about all kinds of interesting topics",
+    "stargazers_count": 145,
+    "forks_count": 7,
+    "language": null,
+    "homepage": "https://lencx.me/awesome",
+    "created_at": "2021-09-22T02:06:40Z",
+    "pushed_at": "2025-06-12T11:05:38Z",
+    "topics": [
+     "application",
+     "awesome",
+     "development",
+     "front-end",
+     "language",
+     "languages",
+     "os",
+     "rust",
+     "terminal",
+     "weekly"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/WA",
+    "description": "🤩 WA+ = W(eb) + A(pp) + more...",
+    "stargazers_count": 96,
+    "forks_count": 25,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2022-10-16T10:27:04Z",
+    "pushed_at": "2022-11-29T12:48:08Z",
+    "topics": [
+     "application",
+     "desktop",
+     "mac",
+     "react",
+     "rust",
+     "tauri",
+     "vite",
+     "windows-desktop"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/app",
+    "description": " 🏖️ No Free Work Life",
+    "stargazers_count": 88,
+    "forks_count": 41,
+    "language": "JavaScript",
+    "homepage": "https://app.nofwl.com",
+    "created_at": "2023-01-29T03:07:05Z",
+    "pushed_at": "2023-05-25T04:05:06Z",
+    "topics": [
+     "chatgpt",
+     "desktop",
+     "prompts",
+     "tips-tricks"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/rust-fe",
+    "description": "🦀 Rust in front-end (系列教程 - 用前端视角学习 Rust)",
+    "stargazers_count": 74,
+    "forks_count": 5,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2022-11-20T10:24:38Z",
+    "pushed_at": "2022-11-25T10:22:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/opsail",
+    "description": "⛵ Native tools that agents can rely on.",
+    "stargazers_count": 63,
+    "forks_count": 9,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2026-07-15T08:34:04Z",
+    "pushed_at": "2026-08-21T16:43:50Z",
+    "topics": [
+     "agent",
+     "ai",
+     "cli",
+     "codex",
+     "json",
+     "markdown"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/create-mpl",
+    "description": "⚡️ Create a project in seconds!",
+    "stargazers_count": 59,
+    "forks_count": 14,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2021-10-30T06:49:04Z",
+    "pushed_at": "2022-11-25T16:51:36Z",
+    "topics": [
+     "cli",
+     "electron",
+     "extension",
+     "miniprogram",
+     "mpl",
+     "react",
+     "remix",
+     "scaffold",
+     "template",
+     "vite",
+     "vue",
+     "wasm"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/gg",
+    "description": "🦄 GG (Gatsby + GitHub) - A gatsby website builder based on github discussions",
+    "stargazers_count": 55,
+    "forks_count": 22,
+    "language": "TypeScript",
+    "homepage": "https://gg.nofwl.com",
+    "created_at": "2022-03-22T03:08:09Z",
+    "pushed_at": "2025-05-10T20:26:28Z",
+    "topics": [
+     "docs",
+     "gatsby",
+     "github",
+     "pwa",
+     "website"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "lencx/code-snippets",
+    "description": "✍️ code - 手写系列",
+    "stargazers_count": 43,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://code.lencx.tech/",
+    "created_at": "2021-07-14T04:53:06Z",
+    "pushed_at": "2021-09-25T04:30:22Z",
+    "topics": [
+     "css",
+     "implementation",
+     "interview",
+     "javascript"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 108,
+  "languages": [
+   [
+    "TypeScript",
+    32
+   ],
+   [
+    "JavaScript",
+    21
+   ],
+   [
+    "Rust",
+    14
+   ],
+   [
+    "Python",
+    4
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "Shell",
+    3
+   ],
+   [
+    "CSS",
+    3
+   ],
+   [
+    "Vue",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "lencx/Noi",
+    "stargazerCount": 9063,
+    "description": "🚀 Less chaos. More flow.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://noib.app"
+   },
+   {
+    "nameWithOwner": "lencx/skills",
+    "stargazerCount": 196,
+    "description": "💡 Turn experience into repeatable execution.",
+    "primaryLanguage": {
+     "name": "Shell"
+    },
+    "homepageUrl": "https://skills.lencx.me"
+   },
+   {
+    "nameWithOwner": "lencx/Minke",
+    "stargazerCount": 691,
+    "description": "🐳 DeepSeek Harness Desktop",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "lencx/opsail",
+    "stargazerCount": 63,
+    "description": "⛵ Native tools that agents can rely on.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "lencx/ChatGPT",
+    "stargazerCount": 54652,
+    "description": "❄️ ChatGPT Desktop Application (Mac, Windows and Linux)",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "rwasm/rsw-rs",
+    "stargazerCount": 143,
+    "description": "🦞 wasm-pack based build tool",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 1868,
+  "orgs": [
+   "rwasm",
+   "fe-cool"
+  ],
+  "profile_readme": "<p>\n  <img src=\"https://emojis.slackmojis.com/emojis/images/1588866973/8934/hellokittydance.gif?1588866973\" alt=\"Hi\" width=\"42\" />\n  <b>{折腾 ⇌ 迷茫 ⇌ 思考]ing，在路上...</b>\n</p>\n\n![wechat](https://img.shields.io/badge/-lencx0-%23323031?style=flat&logo=wechat)\n[![公众号](https://img.shields.io/badge/公众号-浮之静-%23323031?style=flat&labelColor=323031)](https://mp.weixin.qq.com/s/K9UtoDSL2mMh_hWm-xPPtg)\n[![Noi](https://img.shields.io/badge/-Join「Noi」-%23323031?style=flat&logo=discord)](https://discord.gg/kq2HXcpJSQ)\n[![twitter](https://img.shields.io/badge/lencx__-%23323031?style=flat&logo=x)](https://twitter.com/lencx_)\n[![reddit](https://img.shields.io/badge/-lencx-%23323031?style=flat&logo=reddit)](https://www.reddit.com/user/lencx)\n[![youtube](https://img.shields.io/youtube/channel/subscribers/UC__gTZL-OZKDPic7s_6Ntgg?style=social)](https://www.youtube.com/@lencx)\\\n![HTML5](https://img.shields.io/badge/-HTML5-%23E34C26?style=flat&logo=html5&logoColor=ffffff)\n![CSS3](https://img.shields.io/badge/-CSS3-%23197CBE?style=flat&logo=css3)\n![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23ECD83E&color=%23ECD83E)\n![React](https://img.shields.io/badge/-React-%2320232A?logoColor=61DAFB&style=flat&logo=react)\n![Sass](https://img.shields.io/badge/-Sass-%23CB6498?style=flat&logo=sass&logoColor=ffffff)\n![Node.js](https://img.shields.io/badge/-Node.js-%23579050?style=flat&logo=node.js&logoColor=ffffff)\n![Rust](https://img.shields.io/badge/-Rust-%23DEA584?style=flat&logo=rust&logoColor=000000)\n![Shell](https://img.shields.io/badge/-Shell-%2389E051?style=flat&logo=gnubash&logoColor=ffffff)\n![WebAssembly](https://img.shields.io/badge/-WebAssembly-654FF0?style=flat&logo=webassembly&logoColor=ffffff)\n![Git](https://img.shields.io/badge/-Git-%23ED5A47?style=flat&logo=git&logoColor=%23ffffff)\n![VS Code](https://img.shields.io/badge/-VSCode-%230066B8?style=flat&logo=visual-studio-code)\n![Sketch](https://img.shields.io/badge/-Sketch-%23FDAD00?style=flat&logo=sketch&logoColor=ffffff)\\\n<a href=\"https://www.buymeacoffee.com/lencx\" target=\"_blank\"><img width=\"100\" src=\"https://cdn.buymeacoffee.com/buttons/v2/default-blue.png\" alt=\"Buy Me A Coffee\"></a>\n\n<img alt=\"lencx stats\" width=\"360\" src=\"https://lencx-stats.vercel.app/api?username=lencx&show_icons=true&bg_color=320,323031,84a59d&icon_color=b0c4b1&title_color=eec170&text_color=a2a392&include_all_commits=true\">\n",
+  "readmes": {
+   "lencx/Noi": "<p align=\"center\">\n  <p align=\"center\">🚀 Less chaos. More flow.</p>\n</h2>\n> [!TIP]\n> **Noi**: *`/nɔɪ/`*  (sounds like \"noy\")\n[](https://github.com/lencx/Noi/releases) [](https://discord.gg/kq2HXcpJSQ)\n<a href=\"https://www.buymeacoffee.com/lencx\" target=\"_blank\"></a>\n### Features\n* **Interaction-first workflow refresh** for a tighter, more focused browsing loop\n* **Multi-window management** to run parallel workspaces side by side\n* **Session isolation** to keep contexts clean, separated, and predictable\n* **Local-first data**: history, prompts, and settings stay on-device\n* **Prompt management for AI chats**: organize, reuse, and iterate on workflows\n* **Built-in terminal** for fast local commands, scripts, and tooling\n* **`noi` CLI command**: control Noi from tools like Claude Code, Codex, and Gemini CLI (more commands coming)\n* **Multiple themes & visual styles** to fit different setups and vibes\n* ...\n[Download...](https://github.com/lencx/Noi/releases/tag/v1.1.0)\n## 中国用户\n国内用户如果遇到使用问题或者想交流 Noi，可以关注公众号「**浮之静**」，发送 “**noi**” 进群参与讨论。如果 Noi 应用对你有帮助可以分享给更多人，或者微信扫码打赏。\n",
+   "lencx/skills": "<p align=\"center\">\n</p>\n<h1 align=\"center\">lencx-skills</h1>\n<p align=\"center\">\n  <a href=\"https://skills.sh/lencx/skills\"></a>\n</p>\n> 💡 Rooted in lencx’s hands-on experience — turning hard-won lessons into repeatable execution.\nEnglish | [中文](https://skills.lencx.me/zh/)\n<a href=\"https://www.buymeacoffee.com/lencx\" target=\"_blank\"></a>\n## Installation\nChoose either the skills installer or the native plugin. Using both makes each skill available twice.\n### Quick Install (Recommended)\n```bash\nnpx skills@latest add lencx/skills\n```\n### Specific Install (Global)\n```bash\n# Claude Code\nnpx skills@latest add lencx/skills -a claude-code -g\n# Codex\nnpx skills@latest add lencx/skills -a codex -g\n```\n### Plugin Install\n#### Codex\n```bash\ncodex plugin marketplace add lencx/skills\ncodex plugin add lencx-skills@lencx\n```\n#### Claude Code\n```bash\nclaude plugin marketplace add lencx/skills\nclaude plugin install lencx-skills@lencx\n```\n## Skills\n- [keel](./skills/keel): Load-bearing architecture design, review, and governance for new and existing systems—authority, ownership, contracts, dependency and state boundaries, recovery, structural change, drift, guards, migration, and deletion.\n- [coding-protocol](./skills/coding-protocol): Risk-scaled repository execution and code-evidence guardrails for authority, target scope, evidence, user-work preservation, environment assumptions, verification, and truthful reporting (ref: [Andrej Karpathy's public observations](https://x.com/karpathy/status/2015883857489522876)).\n### Recommended Companions\n`coding-protocol` and `keel` pair well with:\n- [Matt Pocock's Skills](https://github.com/mattpocock/skills) for software engineering workflows.\n- [Impeccable](https://github.com/pbakaus/impeccable) for design and UI/UX workflows.\nUsing them together broadens coverage across product design, engineering practice, architecture governance, and risk-scaled execution. These are independent projects and should be installed separately.\nTip: describe the goal, success criteria, and relevant constraints, then let the agent plan the steps. For example: \"Implement this change and make sure the relevant tests pass.\"\n## License\nMIT\n",
+   "lencx/Minke": "<p align=\"center\">\n</p>\n<h1 align=\"center\">Minke</h1>\n<p align=\"center\">\n  <strong>A local-first desktop agent workspace powered by DeepSeek Harness</strong>\n</p>\n<p align=\"center\">\n  English · <a href=\"./README.zh-CN.md\">简体中文</a>\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/lencx/Minke/releases\"></a>\n  <a href=\"https://discord.gg/XMX5BEX8K\"></a>\n  <a href=\"https://x.com/lencx_\"></a>\n  <a href=\"https://www.buymeacoffee.com/lencx\"></a>\n</p>\nMinke brings conversations, files, terminals, and a shared browser into a local-first desktop agent workspace powered by [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness). Available on macOS, Windows, and Linux, with sessions and settings stored on your computer.\n> Minke is an independent community project under active development. Packaged releases may differ from the current source.\n## Highlights\n- **Shared browser control** — Watch the agent work in visible browser tabs, take over at any time, and send annotated page context back to the conversation.\n- **One workspace** — Keep conversations, files, and terminals side by side. Organize work with split views and a bottom panel; edit files, preview documents, and review changes in place.\n- **Access across devices** — Reach your workspace through Web / PWA on a phone or another computer, or start tasks through WeChat, Telegram, and Discord.\n- **Cloud and local models** — Use cloud providers or custom endpoints, discover LM Studio and Ollama models, and optionally start local services.\n- **Agents and plugins** — Use DSH's presets, skills, subagents, and scheduled tasks, and extend the workspace through native plugin management.\n<table>\n  <tr>\n    <td width=\"50%\"></td>\n    <td width=\"50%\"></td>\n  </tr>\n  <tr>\n    <td width=\"50%\"></td>\n    <td width=\"50%\"></td>\n  </tr>\n  <tr>\n    <td width=\"50%\"></td>\n    <td width=\"50%\"></td>\n  </tr>\n</table>\n## Remote access from another device\nMinke remote access is a responsive Web client backed by Minke Host—not a\nvideo stream or touch-controlled projection of the Electron window. From a\nphone you can continue conversations, start agent tasks, manage project files,\nand use a terminal that runs on the Minke computer.",
+   "lencx/opsail": "<p align=\"center\">\n</p>\n<h1 align=\"center\">Opsail</h1>\n<p align=\"center\"><strong>Native tools that agents can rely on.</strong></p>\n<p align=\"center\">\n  English | <a href=\"https://github.com/lencx/opsail/blob/main/README.zh-CN.md\">简体中文</a>\n</p>\n<a href=\"https://www.buymeacoffee.com/lencx\" target=\"_blank\"></a>\nOpsail is a modular native toolkit that gives software agents small, composable, and reliable capabilities through one command-line entry point. Its Rust crates keep acquisition, browser control, content extraction, and application-specific refits behind explicit boundaries, while the Node.js package makes the same native runtime easy to embed.\n## Core characteristics\n- **Native and predictable.** Long-running work, process ownership, transport, validation, and cleanup are implemented in Rust rather than shell scripts or proxy services.\n- **Small composable capabilities.** Each package owns one clear boundary and can be used independently or through the `opsail` CLI.\n- **Agent-ready contracts.** Commands expose stable output, structured diagnostics, bounded resource use, and quiet failure modes suitable for automation.\n- **Explicit trust boundaries.** Borrowed browsers, owned processes, remote content, and application refits are validated according to their actual ownership and security model.\n- **Reversible by design.** Refit features are target-validated, idempotent, and removable without modifying the target application bundle.\n## Core capabilities\n### Read HTML\n`opsail read` turns static HTML or a browser-rendered DOM into readable Markdown, sanitized HTML, or versioned JSON. It accepts URLs, files, stdin, an Opsail-owned isolated Chrome process, or an explicitly borrowed CDP endpoint.\n```sh\nopsail read https://example.com/article\nopsail read https://example.com/app --launch\n```\nSee [`opsail-read`](https://github.com/lencx/opsail/blob/main/crates/opsail-read/README.md) for acquisition, extraction, result contracts, and Rust APIs. See [`opsail-chrome`](https://github.com/lencx/opsail/blob/main/crates/opsail-chrome/README.md) for Chrome discovery, owned launch, borrowed CDP, navigation, and rendered DOM capture.\n### Refit Codex\n`opsail refit codex` provid",
+   "lencx/ChatGPT": "<p align=\"center\">\n  <p align=\"center\">ChatGPT Desktop Application (Available on Mac, Windows, and Linux)</p>\n</p>\n[](https://github.com/lencx/ChatGPT/releases)\n[](https://discord.gg/aPhCRf4zZr)\n[](https://twitter.com/lencx_)\n[](https://www.youtube.com/@lencx)\n<a href=\"https://www.buymeacoffee.com/lencx\" target=\"_blank\"></a>\n---\n> [!NOTE]\n> **If you want to experience a more powerful AI wrapper application, you can try the Noi (https://github.com/lencx/Noi), which is a successor to the ChatGPT desktop application concept.**\nThank you very much for your interest in this project. OpenAI has now released the macOS version of the application, and a Windows version will be available later ([Introducing GPT-4o and more tools to ChatGPT free users](https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/)). If you prefer the official application, you can stay updated with the latest information from OpenAI.\nIf you want to learn about or download the previous version (v1.1.0), please click [here](https://github.com/lencx/ChatGPT/tree/release-v1.1.0).\nI am currently looking for some differentiating features to develop version 2.0. If you are interested in this, please stay tuned.\n"
+  }
+ },
+ "apps": []
+}

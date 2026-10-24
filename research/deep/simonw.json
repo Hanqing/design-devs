@@ -1,0 +1,676 @@
+{
+ "handle": "simonw",
+ "sites": [
+  {
+   "url": "https://simonwillison.net/",
+   "ok": true,
+   "title": "Simon Willison’s Weblog",
+   "description": "",
+   "stack": [
+    "Plausible",
+    "Bear Blog"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en-gb",
+   "home_text": "Simon Willison’s Weblog \nOn datasette 1,551 llm-release 238 ai-security-research 50 codex 61 open-source 324 ... \n Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access \n Entries Links Quotes Notes Guides Elsewhere \nFriday, 23rd October 2026 \n Tool \n Quick Study \nPrompt to Claude Opus 5.5 High : \n Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush \nSee also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. \nQuick Study uses Sobel edge detection , with no external libraries beyond Google Fonts. \n 23rd Oct 2026, 9:35 pm · tools \n Introducing Kimi K3.1 Pro \n ( via )\n Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". \nThey're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). \nThe US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5. \nMoonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others. \nArtificial Analysis scored Kimi at 55 - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58). \nThis is the first time a (soon-to-be) open weight model has scored this highly against the frontier. \nI tried it out via the Moonshot API using the llm openai endpoint command I added to LLM 0.32 back in August: \n llm openai endpoint \\\n https://api.moonshot.ai/v1 \\\n --key kimi \\\n -m kimi-k3.1-pro \\\n \"Generate an SVG of a pelican riding a bicycle\" \\\n --responses \\\n -o reasoning_effort low \\\n > kimi-k3.1-pro-pelican-low.stdout.txt \\\n 2> kimi-k3.1-pro-pelican-low.stderr.txt\n llm openai endpoint can run prompts against any OpenAI-compatible endpoint but doesn't log the results, hence the extra options to save stdout and stderr (the reasoning trace). \nHere are the pelicans I got for Kimi K3.1 Pro on the three reasoning levels it supports - low, medium, and max. This is max: \nFor comparison, I ran fresh pelicans against Kimi K3 on those three reasoning levels. \n # \n 7:40 pm \n / ai , generative-ai , llms , llm , llm-pricing , pelican-riding-a-bicycle , llm-release , ai-in-china , moonshot , kimi \nThursday, 22nd October 2026 \n DE STAAT—FREEDOM (Official Music Video) \n ( via )\n OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : \nThe visual effects are credited to Matties Grooten of Fake it or Leave it . \n # \n 7:42 pm \n / music , ai , generative-ai , pelican-riding-a-bicycle \n Donating Agent Skills to the Agentic AI Foundation .\n News today from Anthropic: \nWe’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). \nI'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": \nI wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. \nFun side note: since my blog content is available to Claude via the datasette-mcp \nplugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". \n # \n 6:09 pm \n / standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills \nAs fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. \n— Armin Ronacher \n # \n 3:34 pm \n / security , generative-ai , armin-ronacher , ai , ai-security-research , llms \nWednesday, 21st October 2026 \n Today’s PHP Security Release, and How We’re Strengthening PHP Security \n ( via )\n If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. \nThis post from the PHP Foundation explain what went so wrong: \nOn Tuesday, October 20t",
+   "github_links": [
+    "arena-ai",
+    "astral-sh",
+    "certifi",
+    "cure53",
+    "datasette",
+    "galadran",
+    "mathjax",
+    "menufactory43",
+    "nodeca",
+    "pydantic",
+    "pypa",
+    "simonw"
+   ],
+   "subpages": {
+    "https://simonwillison.net/about/": "Simon Willison’s Weblog \n Newsletter \n Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access \n Sponsored banner color scheme: \nAbout me \nHere's my most recent conference bio: \nSimon Willison is the creator of Datasette , an open source tool for exploring and publishing data. He currently works full-time building open source tools for data journalism, built around Datasette and SQLite. \nPrior to becoming an independent open source developer, Simon was an engineering director at Eventbrite. Simon joined Eventbrite through their acquisition of Lanyrd, a Y Combinator funded company he co-founded in 2010. \nHe is a co-creator of the Django Web Framework, and has been blogging about web development and programming since 2002 at simonwillison.net \nSubscribe \nExplore my newsletters and past issues , including my weekly-ish Substack and monthly briefing for sponsors. You can also follow my writing using Atom feeds or on Mastodon, Bluesky or Twitter. \nFree weekly-ish newsletter \nI send out a newsletter version of this blog once every week or so. You can subscribe to that here: \nPaid monthly newsletter \nI write a lot of stuff. If you like you can pay me to send you less . At the end of every month I send out a much shorter newsletter to anyone who sponsors me for $10 or more on GitHub . It's intended to be a ten minute read that catches you up on the most important developments from the past month in LLMs and my other projects and research. \nMastodon and Bluesky and Twitter \n @simon@simonwillison.net on Mastodon \n simonwillison.net on Bluesky \n @simonw on Twitter \nAtom feeds \nThe main feed for my site combines my blog entries, my blogmarks, my collected quotations, notes, guide chapters and beats : \n https://simonwillison.net/atom/everything/ \nIf you want that combined feed without beats, use this: \n https://simonwillison.net/atom/everything-but-beats/ \nIf you just want my longer form blog entries you can subscribe to this feed instead: \n https://simonwillison.net/atom/entries/ \nOr this feed for just my links (excluding quotes): \n https://simonwillison.net/atom/links/ \nEvery tag on my blog has its own feed. You can subscribe to those by adding .atom to the URL to the tag page. \nFor example, to subscribe to just my content about Datasette, use the following: \n https://simonwillison.net/tags/datasette.atom \nDisclosures \nI do not receive any compensation for writing about specific topics on this blog. I plan to continue this policy. If I ever change this I will disclose that both here and in the post itself. \nAs of February 2026 I accept weekly sponsorship in the form of a text banner on my blog and a message at the top of my newsletter . Sponsors do not have any influence over my editorial content. \nPart of work on Datasette Cloud is sponsored by Fly.io . I have a generous set of GitHub Sponsors who support my work on Datasette and other open source projects. \nI do one day of work a week for Prime Radiant , Jesse Vincen",
+    "https://simonwillison.net/notes/": "Simon Willison’s Weblog \n Newsletter \n Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access \nNotes \n Filters:\n Sorted by date \n 160 results \n page 1 / 6\n next » \n last »» \nI remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. \nI went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: \nMarch 2013: \"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thingy with no immediate upside\" \nMarch 2016: \"I don’t even use version control. If you don’t know what that is then you’re not gonna yell at me. If you even know what version control is you’re gonna be like, ‘You don’t use version control? You don’t use source control? What is wrong with you? How can you even work? I’m just not cut out for it, in a sense. It’s been 15 years, so the reasons have change over time, but that’s my current understanding of it.\" \nMarch 2023: \"I've got Discord channels to check and version control stuff to use now, so the process is definitely a little more involved\" \nThat March 2023 quote comes from an interview about the release on Steam which made them millionaires . I'm a tiny bit sad that they gave in before they hit that milestone, but what an impressive run. \n # \n 11th October 2026 ,\n 12:52 am \n / version-control \nI just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . \nThis month: \nMore Fable class models \nA pricing war \n3D graphics, Blender, and pixel art \nLLMs come for mathematics \nSo many more accidental cyberattacks \nThe vulnapocalypse comes for Datasette \nWhat I'm using right now \nMy software releases this month \n2026 in LLMs (so far) \nHere's a copy of the August newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! \n # \n 3rd October 2026 ,\n 10 pm \n / newsletter \nI visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model , the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard. \nIt exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance. \n # \n 30th September 2026 ,\n 9:54 pm \n / museums , new-york \nThe more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. \nWe can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. \n # \n 24th September 2026 ,\n 11:31 pm \n / coding-agents , ai , llms \nBeing a computer scientist who refuses to find anything about LLMs interesting right now is a bi",
+    "https://simonwillison.net/tags/projects/": "Simon Willison’s Weblog \n Newsletter \n Sponsored by: WorkOS Airlock — intent-based access control for AI agents. Request early access \n Random\n560 posts tagged “projects” \nPosts about projects I have worked on. \n2026 \n Battle Drones—a vibe coded RTS with audio-based multiplayer \nMy latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I’m somewhat embarrassed to admit that I got there by telling Claude to “Make it a LOT more fun”. It also supports multiplayer between nearby devices using audio to synchronize game state! Here’s what I’ve built so far, and some of the things I learned along the way. \n [... 4,288 words ] \n 7:34 pm / 20th October 2026 / game-design , projects , ai , generative-ai , llms , claude , vibe-coding , coding-agents , claude-code \n Release \n web-edit 0.1a2 \nweb-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. \nI added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. \n 17th Oct 2026, 1:16 pm · projects , pelican-riding-a-bicycle , deepseek \n Release \n web-edit 0.1a1 \nIncludes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. \n 13th Oct 2026, 1:40 am · profiling , projects \n Release \n web-edit 0.1a0 \nI was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. \nSo... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone. \nHere's the interface for browsing files in a folder: \nEditing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet. \n 12th Oct 2026, 3:54 pm · projects , python , ai , tailscale , generative-ai , llms , codex \n Release \n ttok 1.0 \nI released ttok 0.4 , ran uv tool upgrade ttok , piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead! \nI figured switching the default was a reasonable excuse to finally ship a 1.0. \nOpenAI haven't actually confirmed that GPT-6 uses the same tokenizer as the GPT-5 family yet - there's an angry issue about it - but I found this commit by William Liu which reports on an experiment he ran confirming that the tokenizers are likely the same: \nAll seven GPT models (5.5, 5.6 Sol/Terra/Luna,"
+   },
+   "feed": {
+    "url": "https://simonwillison.net/atom/everything/",
+    "count_seen": 30,
+    "items": [
+     {
+      "title": "Quick Study",
+      "date": "2026-10-23T21:35:13+00:00",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/"
+     },
+     {
+      "title": "Introducing Kimi K3.1 Pro",
+      "date": "2026-10-23T19:40:54+00:00",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+     },
+     {
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "date": "2026-10-22T19:42:26+00:00",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/"
+     },
+     {
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "date": "2026-10-22T18:09:56+00:00",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+     },
+     {
+      "title": "Quoting Armin Ronacher",
+      "date": "2026-10-22T15:34:13+00:00",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/"
+     },
+     {
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "date": "2026-10-21T18:41:53+00:00",
+      "url": "https://simonwillison.net/2026/Oct/21/php-security-release/"
+     },
+     {
+      "title": "Panache — RTS Belle Époque pour mobile",
+      "date": "2026-10-21T16:25:16+00:00",
+      "url": "https://simonwillison.net/2026/Oct/21/panache/"
+     },
+     {
+      "title": "eMudhra Intermediate CA Compromise",
+      "date": "2026-10-20T23:50:25+00:00",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/"
+     },
+     {
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "date": "2026-10-20T19:34:19+00:00",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/"
+     },
+     {
+      "title": "My obituary for programming",
+      "date": "2026-10-19T23:58:25+00:00",
+      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+     },
+     {
+      "title": "llm-tools-datasette 0.1.1",
+      "date": "2026-10-18T23:43:09+00:00",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/"
+     },
+     {
+      "title": "llm-echo 0.5",
+      "date": "2026-10-18T23:16:16+00:00",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/"
+     },
+     {
+      "title": "Inline rendering with document​.currentScript",
+      "date": "2026-10-17T21:11:12+00:00",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/"
+     },
+     {
+      "title": "web-edit 0.1a2",
+      "date": "2026-10-17T13:16:49+00:00",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/"
+     },
+     {
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "date": "2026-10-16T22:06:37+00:00",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/"
+     },
+     {
+      "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
+      "date": "2026-10-16T01:58:00+00:00",
+      "url": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/"
+     },
+     {
+      "title": "Chirp Pong",
+      "date": "2026-10-15T19:47:52+00:00",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/"
+     },
+     {
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "date": "2026-10-15T13:04:03+00:00",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/"
+     },
+     {
+      "title": "LaTeX renderer",
+      "date": "2026-10-15T02:07:28+00:00",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/"
+     },
+     {
+      "title": "Tree Appreciator",
+      "date": "2026-10-14T21:23:01+00:00",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
+     },
+     {
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "date": "2026-10-14T16:26:53+00:00",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+     },
+     {
+      "title": "Redesigning source control at Anthropic",
+      "date": "2026-10-13T23:00:06+00:00",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
+     },
+     {
+      "title": "llm-gemini 0.35",
+      "date": "2026-10-13T22:28:54+00:00",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/"
+     },
+     {
+      "title": "Quoting Geoffrey Huntley",
+      "date": "2026-10-13T13:32:00+00:00",
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/"
+     },
+     {
+      "title": "web-edit 0.1a1",
+      "date": "2026-10-13T01:40:05+00:00",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://fedi.simonwillison.net/@simon",
+   "ok": true,
+   "title": "Simon Willison (@simon@simonwillison.net) - Mastodon",
+   "description": "",
+   "stack": [
+    "React",
+    "Vue"
+   ],
+   "hosting": [],
+   "lang": "zh-CN",
+   "home_text": "*   [Skip to main content](https://fedi.simonwillison.net/@simon#skip-link-target-content-1)Hotkey 1\n*   [Skip to main navigation](https://fedi.simonwillison.net/@simon#skip-link-target-nav)Hotkey 2\n#### Recent searches\nNo recent searches\n#### Search options\nOnly available when logged in.\n**simonwillison.net** is one of the many independent Mastodon servers you can use to participate in the fediverse.\n[](https://fedi.simonwillison.net/about)\n‌  \n‌  \n‌\n#### Administered by:\n[‌ **‌**‌](https://fedi.simonwillison.net/@undefined)\n#### Server stats:\n**‌**  \n‌\n## simonwillison.net:\n*   [About simonwillison.net](https://fedi.simonwillison.net/about)\n*   [Profiles directory](https://fedi.simonwillison.net/directory)\n*   [Privacy policy](https://fedi.simonwillison.net/privacy-policy)\n## Mastodon:\n*   [About Mastodon](https://joinmastodon.org/)\n*   [Get the app](https://joinmastodon.org/apps)\n*   [Keyboard shortcuts](https://fedi.simonwillison.net/keyboard-shortcuts)\n*   [View source code](https://github.com/mastodon/mastodon)\n*   v4.7.3\n[](https://fedi.simonwillison.net/)\n*   [Trending](https://fedi.simonwillison.net/explore)\n*   [Live feeds](https://fedi.simonwillison.net/public/local)\n*   [About](https://fedi.simonwillison.net/about)\n*   \n* * *\n**Mastodon is the best way to keep up with what's happening.**\nFollow anyone across the fediverse and see it all in chronological order. No algorithms, ads, or clickbait in sight.\nCreate account[Login](https://fedi.simonwillison.net/auth/sign_in) \nCreate account[Login](https://fedi.simonwillison.net/auth/sign_in)\nDrag & drop to upload",
+   "github_links": [
+    "mastodon"
+   ],
+   "subpages": {
+    "https://fedi.simonwillison.net/about": "*   [Skip to main content](https://fedi.simonwillison.net/about#skip-link-target-content-1)Hotkey 1\n*   [Skip to main navigation](https://fedi.simonwillison.net/about#skip-link-target-nav)Hotkey 2\n#### Recent searches\nNo recent searches\n#### Search options\nOnly available when logged in.\n**simonwillison.net** is one of the many independent Mastodon servers you can use to participate in the fediverse.\n[](https://fedi.simonwillison.net/about)\n#### Administered by:\n[ **Simon Willison**@simon](https://fedi.simonwillison.net/@simon \"simon\")\n#### Server stats:\n**1**  \nactive users\n## simonwillison.net:\n*   [About simonwillison.net](https://fedi.simonwillison.net/about)\n*   [Profiles directory](https://fedi.simonwillison.net/directory)\n*   [Privacy policy](https://fedi.simonwillison.net/privacy-policy)\n## Mastodon:\n*   [About Mastodon](https://joinmastodon.org/)\n*   [Get the app](https://joinmastodon.org/apps)\n*   [Keyboard shortcuts](https://fedi.simonwillison.net/keyboard-shortcuts)\n*   [View source code](https://github.com/mastodon/mastodon)\n*   v4.7.3\nALT\n# simonwillison.net\nDecentralized social media powered by [Mastodon](https://joinmastodon.org/)\n#### Administered by:\n[ **Simon Willison**@simon](https://fedi.simonwillison.net/@simon \"simon\")\n* * *\n#### Contact:\n[plaster-07nods@icloud.com](mailto:plaster-07nods@icloud.com)\n About\nThis information has not been made available on this server.\n Server rules\n Moderated servers\n## simonwillison.net:\n*   [About simonwillison.net](https://fedi.simonwillison.net/about)\n*   [Profiles directory](https://fedi.simonwillison.net/directory)\n*   [Privacy policy](https://fedi.simonwillison.net/privacy-policy)\n## Mastodon:\n*   [About Mastodon](https://joinmastodon.org/)\n*   [Get the app](https://joinmastodon.org/apps)\n*   [Keyboard shortcuts](https://fedi.simonwillison.net/keyboard-shortcuts)\n*   [View source code](https://github.com/mastodon/mastodon)\n*   v4.7.3\nMastodon is free, open-source software, and a trademark of Mastodon GmbH.\n[](https://fedi.simonwillison.net/)\n*   [Trending](https://fedi.simonwillison.net/explore)\n*   [Live feeds](https://fedi.simonwillison.net/public/local)\n*   [About](https://fedi.simonwillison.net/about)\n*   \n* * *\n**Mastodon is the best way to keep up with what's happening.**\nFollow anyone across the fediverse and see it all in chronological order. No algorithms, ads, or clickbait in sight.\nCreate account[Login](https://fedi.simonwillison.net/auth/sign_in) \nCreate account[Login](https://fedi.simonwillison.net/auth/sign_in)\nDrag & drop to upload"
+   },
+   "feed": {
+    "url": "https://fedi.simonwillison.net/@simon.rss",
+    "count_seen": 20,
+    "items": [
+     {
+      "title": "",
+      "date": "Mon, 12 Oct 2026 18:22:38",
+      "url": "https://fedi.simonwillison.net/@simon/117429328860904720"
+     },
+     {
+      "title": "",
+      "date": "Sat, 03 Oct 2026 23:36:19",
+      "url": "https://fedi.simonwillison.net/@simon/117379601493499039"
+     },
+     {
+      "title": "",
+      "date": "Tue, 22 Sep 2026 23:50:58",
+      "url": "https://fedi.simonwillison.net/@simon/117317373702122379"
+     },
+     {
+      "title": "",
+      "date": "Sun, 16 Aug 2026 23:09:32",
+      "url": "https://fedi.simonwillison.net/@simon/117107705258642031"
+     },
+     {
+      "title": "",
+      "date": "Sun, 16 Aug 2026 22:41:25",
+      "url": "https://fedi.simonwillison.net/@simon/117107594734952396"
+     },
+     {
+      "title": "",
+      "date": "Sun, 16 Aug 2026 22:20:23",
+      "url": "https://fedi.simonwillison.net/@simon/117107511994840560"
+     },
+     {
+      "title": "",
+      "date": "Fri, 14 Aug 2026 20:28:46",
+      "url": "https://fedi.simonwillison.net/@simon/117095748533276757"
+     },
+     {
+      "title": "",
+      "date": "Wed, 05 Aug 2026 00:03:28",
+      "url": "https://fedi.simonwillison.net/@simon/117039969641535860"
+     },
+     {
+      "title": "",
+      "date": "Tue, 28 Jul 2026 21:31:25",
+      "url": "https://fedi.simonwillison.net/@simon/116999735604063558"
+     },
+     {
+      "title": "",
+      "date": "Sat, 25 Jul 2026 23:05:29",
+      "url": "https://fedi.simonwillison.net/@simon/116983118501756774"
+     },
+     {
+      "title": "",
+      "date": "Wed, 22 Jul 2026 23:53:33",
+      "url": "https://fedi.simonwillison.net/@simon/116966320573837709"
+     },
+     {
+      "title": "",
+      "date": "Thu, 16 Jul 2026 20:25:12",
+      "url": "https://fedi.simonwillison.net/@simon/116931527467804953"
+     },
+     {
+      "title": "",
+      "date": "Tue, 14 Jul 2026 01:08:15",
+      "url": "https://fedi.simonwillison.net/@simon/116915653538415821"
+     },
+     {
+      "title": "",
+      "date": "Thu, 09 Jul 2026 19:50:38",
+      "url": "https://fedi.simonwillison.net/@simon/116891755405576882"
+     },
+     {
+      "title": "",
+      "date": "Thu, 09 Jul 2026 19:49:00",
+      "url": "https://fedi.simonwillison.net/@simon/116891748926526007"
+     },
+     {
+      "title": "",
+      "date": "Tue, 07 Jul 2026 19:54:06",
+      "url": "https://fedi.simonwillison.net/@simon/116880444406031754"
+     },
+     {
+      "title": "",
+      "date": "Tue, 07 Jul 2026 19:38:20",
+      "url": "https://fedi.simonwillison.net/@simon/116880382363576515"
+     },
+     {
+      "title": "",
+      "date": "Tue, 30 Jun 2026 16:55:54",
+      "url": "https://fedi.simonwillison.net/@simon/116840107518193284"
+     },
+     {
+      "title": "",
+      "date": "Mon, 22 Jun 2026 23:52:18",
+      "url": "https://fedi.simonwillison.net/@simon/116796446406270408"
+     },
+     {
+      "title": "",
+      "date": "Sun, 21 Jun 2026 23:36:44",
+      "url": "https://fedi.simonwillison.net/@simon/116790722874297346"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "simonw",
+  "user": {
+   "name": "Simon Willison",
+   "company": "Datasette",
+   "blog": "https://simonwillison.net/",
+   "location": "Half Moon Bay, California",
+   "bio": null,
+   "public_repos": 995,
+   "followers": 17437,
+   "created_at": "2008-05-07T17:22:14Z",
+   "twitter_username": "simonw",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "simonw/llm",
+    "description": "Access large language models from the command-line",
+    "stargazers_count": 12660,
+    "forks_count": 1062,
+    "language": "Python",
+    "homepage": "https://llm.datasette.io",
+    "created_at": "2023-04-01T21:16:57Z",
+    "pushed_at": "2026-10-21T14:29:00Z",
+    "topics": [
+     "ai",
+     "llms",
+     "openai"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/datasette",
+    "description": "An open source multi-tool for exploring and publishing data",
+    "stargazers_count": 11521,
+    "forks_count": 931,
+    "language": "Python",
+    "homepage": "https://datasette.io",
+    "created_at": "2017-10-23T00:39:03Z",
+    "pushed_at": "2026-10-23T13:04:41Z",
+    "topics": [
+     "asgi",
+     "automatic-api",
+     "csv",
+     "datasets",
+     "datasette",
+     "datasette-io",
+     "docker",
+     "json",
+     "python",
+     "sql",
+     "sqlite"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/files-to-prompt",
+    "description": "Concatenate a directory full of files into a single prompt for use with LLMs",
+    "stargazers_count": 2799,
+    "forks_count": 185,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2024-03-22T15:42:41Z",
+    "pushed_at": "2025-02-19T05:57:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/shot-scraper",
+    "description": "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript",
+    "stargazers_count": 2597,
+    "forks_count": 134,
+    "language": "Python",
+    "homepage": "https://shot-scraper.datasette.io",
+    "created_at": "2022-03-08T21:21:02Z",
+    "pushed_at": "2026-10-14T03:21:49Z",
+    "topics": [
+     "playwright",
+     "playwright-python",
+     "scraping",
+     "screenshot-utility",
+     "screenshots"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/sqlite-utils",
+    "description": "Python CLI utility and library for manipulating SQLite databases",
+    "stargazers_count": 2180,
+    "forks_count": 199,
+    "language": "Python",
+    "homepage": "https://sqlite-utils.datasette.io",
+    "created_at": "2018-07-14T03:21:46Z",
+    "pushed_at": "2026-10-11T00:15:55Z",
+    "topics": [
+     "cli",
+     "click",
+     "datasette",
+     "datasette-io",
+     "datasette-tool",
+     "python",
+     "sqlite",
+     "sqlite-database"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/tools",
+    "description": "Assorted useful tools, almost entirely generated using LLMs",
+    "stargazers_count": 1918,
+    "forks_count": 196,
+    "language": "HTML",
+    "homepage": "https://tools.simonwillison.net",
+    "created_at": "2024-03-29T20:31:18Z",
+    "pushed_at": "2026-10-23T22:13:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/claude-code-transcripts",
+    "description": "Tools for publishing transcripts for Claude Code sessions",
+    "stargazers_count": 1718,
+    "forks_count": 204,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2025-12-24T21:23:30Z",
+    "pushed_at": "2026-02-12T20:49:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/til",
+    "description": "Today I Learned",
+    "stargazers_count": 1464,
+    "forks_count": 120,
+    "language": "HTML",
+    "homepage": "https://til.simonwillison.net",
+    "created_at": "2020-04-19T14:35:59Z",
+    "pushed_at": "2026-10-06T19:09:04Z",
+    "topics": [
+     "datasette",
+     "til"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/showboat",
+    "description": "Create executable documents that demonstrate an agent's work",
+    "stargazers_count": 1241,
+    "forks_count": 47,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2026-02-06T07:29:29Z",
+    "pushed_at": "2026-03-14T21:07:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/csvs-to-sqlite",
+    "description": "Convert CSV files into a SQLite database",
+    "stargazers_count": 939,
+    "forks_count": 69,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2017-11-13T06:38:21Z",
+    "pushed_at": "2026-07-15T15:50:44Z",
+    "topics": [
+     "click",
+     "csv",
+     "datasette",
+     "datasette-io",
+     "datasette-tool",
+     "pandas",
+     "python",
+     "sqlite"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/claude-skills",
+    "description": "The contents of /mnt/skills in Claude's code interpreter environment",
+    "stargazers_count": 929,
+    "forks_count": 133,
+    "language": null,
+    "homepage": "",
+    "created_at": "2025-10-10T02:04:10Z",
+    "pushed_at": "2025-12-12T22:32:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/research",
+    "description": "Research projects",
+    "stargazers_count": 786,
+    "forks_count": 54,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2025-10-20T03:16:41Z",
+    "pushed_at": "2026-10-16T04:25:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/rodney",
+    "description": "CLI tool for interacting with the web",
+    "stargazers_count": 763,
+    "forks_count": 58,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2026-02-09T19:54:35Z",
+    "pushed_at": "2026-03-12T18:19:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/db-to-sqlite",
+    "description": "CLI tool for exporting tables or queries from any SQL database to a SQLite file",
+    "stargazers_count": 496,
+    "forks_count": 34,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2019-01-17T04:16:48Z",
+    "pushed_at": "2023-02-28T07:16:21Z",
+    "topics": [
+     "datasette",
+     "datasette-io",
+     "datasette-tool",
+     "sqlalchemy",
+     "sqlite"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/llm-cmd",
+    "description": "Use LLM to generate and execute commands in your shell",
+    "stargazers_count": 477,
+    "forks_count": 39,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2024-03-26T15:00:34Z",
+    "pushed_at": "2025-05-30T05:05:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/django-sql-dashboard",
+    "description": "Django app for building dashboards using raw SQL queries",
+    "stargazers_count": 471,
+    "forks_count": 38,
+    "language": "Python",
+    "homepage": "https://django-sql-dashboard.datasette.io/",
+    "created_at": "2021-03-13T03:38:23Z",
+    "pushed_at": "2026-08-01T05:57:26Z",
+    "topics": [
+     "dashboards",
+     "datasette-io",
+     "datasette-tool",
+     "django",
+     "sql"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/llm-gemini",
+    "description": "LLM plugin to access Google's Gemini family of models",
+    "stargazers_count": 466,
+    "forks_count": 61,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2023-12-13T20:17:45Z",
+    "pushed_at": "2026-10-13T22:28:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonw/simonw",
+    "description": "https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/",
+    "stargazers_count": 448,
+    "forks_count": 146,
+    "language": "Python",
+    "homepage": "https://github.com/simonw",
+    "created_at": "2020-07-09T13:02:21Z",
+    "pushed_at": "2026-10-22T23:21:17Z",
+    "topics": [
+     "github-actions",
+     "github-api",
+     "graphql",
+     "profile-readme"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 20,
+  "languages": [
+   [
+    "Python",
+    14
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "Go",
+    2
+   ],
+   [
+    "Rust",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "simonw/datasette",
+    "stargazerCount": 11521,
+    "description": "An open source multi-tool for exploring and publishing data",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://datasette.io"
+   },
+   {
+    "nameWithOwner": "simonw/sqlite-utils",
+    "stargazerCount": 2180,
+    "description": "Python CLI utility and library for manipulating SQLite databases",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://sqlite-utils.datasette.io"
+   },
+   {
+    "nameWithOwner": "simonw/llm",
+    "stargazerCount": 12660,
+    "description": "Access large language models from the command-line",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://llm.datasette.io"
+   },
+   {
+    "nameWithOwner": "simonw/shot-scraper",
+    "stargazerCount": 2597,
+    "description": "A CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://shot-scraper.datasette.io"
+   },
+   {
+    "nameWithOwner": "simonw/files-to-prompt",
+    "stargazerCount": 2799,
+    "description": "Concatenate a directory full of files into a single prompt for use with LLMs",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "simonw/s3-credentials",
+    "stargazerCount": 258,
+    "description": "A tool for creating credentials for accessing S3 buckets",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://s3-credentials.readthedocs.io"
+   }
+  ],
+  "contrib_last_year": 13238,
+  "orgs": [],
+  "profile_readme": "Currently working on [Datasette](https://datasette.io/), [LLM](https://llm.datasette.io/) and associated projects. Read [my blog](https://simonwillison.net/), subscribe to [my newsletter](https://simonw.substack.com/), follow me <a href=\"https://fedi.simonwillison.net/@simon\">on Mastodon</a> or [on Bluesky](https://bsky.app/profile/simonwillison.net).\n\n<table><tr><td valign=\"top\" width=\"33%\">\n\n### Recent releases\n<!-- recent_releases starts -->\n[datasette-mcp 0.3](https://github.com/datasette/datasette-mcp/releases/tag/0.3) - 2026-10-22\n\n[battledrones v13: Online multiplayer](https://github.com/simonw/battledrones/releases/tag/v13) - 2026-10-20\n\n[llm-public-ai 0.1](https://github.com/simonw/llm-public-ai/releases/tag/0.1) - 2026-10-20\n\n[llm-tools-datasette 0.1.1](https://github.com/simonw/llm-tools-datasette/releases/tag/0.1.1) - 2026-10-18\n\n[llm-echo 0.5](https://github.com/simonw/llm-echo/releases/tag/0.5) - 2026-10-18\n\n[web-edit 0.1a2](https://github.com/simonw/web-edit/releases/tag/0.1a2) - 2026-10-17\n\n[llm-gemini 0.35](https://github.com/simonw/llm-gemini/releases/tag/0.35) - 2026-10-13\n\n[llm-meta-ai 0.2](https://github.com/simonw/llm-meta-ai/releases/tag/0.2) - 2026-10-12\n<!-- recent_releases ends -->\nMore [recent releases](https://github.com/simonw/simonw/blob/main/releases.md)\n</td><td valign=\"top\" width=\"34%\">\n\n### On my blog\n<!-- blog starts -->\n[Battle Drones - a vibe coded RTS with audio-based multiplayer](https://simonwillison.net/2026/Oct/20/battledrones/) - 2026-10-20\n\n[Hello Python 3.15, goodbye 3.10, and now I can use 3.11](https://simonwillison.net/2026/Oct/12/python-3-15/) - 2026-10-12\n\n[A new feature for my blog, built using my voice](https://simonwillison.net/2026/Oct/9/built-using-my-voice/) - 2026-10-09\n\n[Claude Haiku 5.5](https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/) - 2026-10-07\n\n[We're going to need default hard budget caps on pretty much everything](https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/) - 2026-10-03\n\n[OpenAI DevDay 2026 live blog](https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/) - 2026-09-29\n<!-- blog ends -->\nMore on [simonwillison.net](https://simonwillison.net/)\n</td><td valign=\"top\" width=\"33%\">\n\n### TIL\n<!-- tils starts -->\n[Using Parseable with Datasette for OpenTelemetry traces](https://til.simonwillison.net/datasette/datasette-parseable-opentelemetry) - 2026-10-06\n\n[Using Blender with coding agents on macOS](https://til.simonwillison.net/llms/blender-coding-agents-macos) - 2026-09-05\n\n[Adding a custom MCP server to Claude and ChatGPT](https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt) - 2026-07-29\n\n[Using uvx in GitHub Actions in a cache-friendly way](https://til.simonwillison.net/github-actions/uvx-github-actions-cache) - 2026-07-14\n\n[Cloudflare CAPTCHA on at least one ampersand](https://til.simonwillison.net/cloudflare/captcha-on-at-least-one-ampersand) - 2026-06-16\n\n[Setting a custom price for a model in AgentsView](https://til.simonwillison.n",
+  "readmes": {
+   "simonw/datasette": "\n[](https://pypi.org/project/datasette/)\n[](https://docs.datasette.io/en/latest/changelog.html)\n[](https://pypi.org/project/datasette/)\n[](https://github.com/simonw/datasette/actions?query=workflow%3ATest)\n[](https://docs.datasette.io/en/latest/?badge=latest)\n[](https://github.com/simonw/datasette/blob/main/LICENSE)\n[](https://hub.docker.com/r/datasetteproject/datasette)\n[](https://datasette.io/discord)\n*An open source multi-tool for exploring and publishing data*\nDatasette is a tool for exploring and publishing data. It helps people take data of any shape or size and publish that as an interactive, explorable website and accompanying API.\nDatasette is aimed at data journalists, museum curators, archivists, local governments, scientists, researchers and anyone else who has data that they wish to share with the world.\n[Explore a demo](https://datasette.io/global-power-plants/global-power-plants), watch [a video about the project](https://simonwillison.net/2021/Feb/7/video/) or try it out [on GitHub Codespaces](https://github.com/datasette/datasette-studio).\n* [datasette.io](https://datasette.io/) is the official project website\n* Latest [Datasette News](https://datasette.io/news)\n* Comprehensive documentation: https://docs.datasette.io/\n* Examples: https://datasette.io/examples\n* Live demo of current `main` branch: https://latest.datasette.io/\n* Questions, feedback or want to talk about the project? Join our [Discord](https://datasette.io/discord)\nWant to stay up-to-date with the project? Subscribe to the [Datasette newsletter](https://datasette.substack.com/) for tips, tricks and news on what's new in the Datasette ecosystem.\n## Installation\nIf you are on a Mac, [Homebrew](https://brew.sh/) is the easiest way to install Datasette:\n    brew install datasette\nYou can also install it using `pip` or `pipx`:\n    pip install datasette\nDatasette requires Python 3.11 or higher. We also have [detailed installation instructions](https://docs.datasette.io/en/stable/installation.html) covering other options such as Docker.\n## Basic usage\n    datasette serve path/to/database.db\nThis will start a web server on port 8001 - visit http://localhost:8001/ to access the web interfa",
+   "simonw/sqlite-utils": "# sqlite-utils\n[](https://pypi.org/project/sqlite-utils/)\n[](https://sqlite-utils.datasette.io/en/stable/changelog.html)\n[](https://pypi.org/project/sqlite-utils/)\n[](https://github.com/simonw/sqlite-utils/actions?query=workflow%3ATest)\n[](http://sqlite-utils.datasette.io/en/stable/?badge=stable)\n[](https://codecov.io/gh/simonw/sqlite-utils)\n[](https://github.com/simonw/sqlite-utils/blob/main/LICENSE)\n[](https://discord.gg/Ass7bCAMDw)\nPython CLI utility and library for manipulating SQLite databases.\n## Some feature highlights\n- [Pipe JSON](https://sqlite-utils.datasette.io/en/stable/cli.html#inserting-json-data) (or [CSV or TSV](https://sqlite-utils.datasette.io/en/stable/cli.html#inserting-csv-or-tsv-data)) directly into a new SQLite database file, automatically creating a table with the appropriate schema\n- [Run in-memory SQL queries](https://sqlite-utils.datasette.io/en/stable/cli.html#querying-data-directly-using-an-in-memory-database), including joins, directly against data in CSV, TSV or JSON files and view the results\n- [Configure SQLite full-text search](https://sqlite-utils.datasette.io/en/stable/cli.html#configuring-full-text-search) against your database tables and run search queries against them, ordered by relevance\n- Run [transformations against your tables](https://sqlite-utils.datasette.io/en/stable/cli.html#transforming-tables) to make schema changes that SQLite `ALTER TABLE` does not directly support, such as changing the type of a column\n- [Extract columns](https://sqlite-utils.datasette.io/en/stable/cli.html#extracting-columns-into-a-separate-table) into separate tables to better normalize your existing data\n- [Manage database migrations](https://sqlite-utils.datasette.io/en/stable/migrations.html) using Python migration files and the `sqlite-utils migrate` command\n- [Install plugins](https://sqlite-utils.datasette.io/en/stable/plugins.html) to add custom SQL functions and additional features\nUpgrading from sqlite-utils 3.x? See the [4.0 upgrade guide](https://sqlite-utils.datasette.io/en/stable/upgrading.html#upgrading-from-3-x-to-4-0).\nRead more on my blog, in this series of posts on [New features in sqlite-utils](https://simonwillison.net/",
+   "simonw/llm": "<!-- [[[cog\n# README.md is generated from docs/index.md using sphinx_markdown_builder\nimport tempfile\nimport subprocess\nfrom pathlib import Path\nreadme_markdown = ''\nwith tempfile.TemporaryDirectory() as tmpdir:\n    tmp_path = Path(tmpdir)\n    # Run: sphinx-build -M markdown ./docs ./tmpdir\n    subprocess.run([\n        \"sphinx-build\",\n        \"-M\", \"markdown\",\n        \"./docs\",\n        str(tmp_path)\n    ], check=True)\n    index_file = tmp_path / \"markdown\" / \"index.md\"\n    readme_markdown = index_file.read_text(encoding=\"utf-8\")\ncog.out(readme_markdown)\n]]] -->\n# LLM\n[](https://github.com/simonw/llm)\n[](https://pypi.org/project/llm/)\n[](https://llm.datasette.io/en/stable/changelog.html)\n[](https://github.com/simonw/llm/actions?query=workflow%3ATest)\n[](https://github.com/simonw/llm/blob/main/LICENSE)\n[](https://datasette.io/discord-llm)\n[](https://formulae.brew.sh/formula/llm)\nA CLI tool and Python library for interacting with **OpenAI**, **Anthropic’s Claude**, **Google’s Gemini**, **Qwen**, **Gemma**, **Kimi**, **DeepSeek**, **Mistral**, and dozens of other Large Language Models, both via remote APIs and with models that can be installed and run on your own machine.\nWatch **[Language models on the command-line](https://www.youtube.com/watch?v=QUXQNi6jQ30)** on YouTube for a demo or [read the accompanying detailed notes](https://simonwillison.net/2024/Jun/17/cli-language-models/).\nWith LLM you can:\n- [Run prompts from the command-line](https://llm.datasette.io/en/stable/usage.html#usage-executing-prompts)\n- [Store prompts and responses in SQLite](https://llm.datasette.io/en/stable/logging.html#logging)\n- [Generate and store embeddings](https://llm.datasette.io/en/stable/embeddings/index.html#embeddings)\n- [Extract structured content from text and images](https://llm.datasette.io/en/stable/schemas.html#schemas)\n- [Grant models the ability to execute tools](https://llm.datasette.io/en/stable/tools.html#tools)\n- … and much, much more\n## Quick start\nFirst, install LLM using `pip` or Homebrew or `pipx` or `uv`:\n```bash\npip install llm\n```\nOr with Homebrew (see [warning note](https://llm.datasette.io/en/stable/setup.html#homebrew-warning)):\n```bash\nbrew install llm\n`",
+   "simonw/shot-scraper": "# shot-scraper\n[](https://pypi.org/project/shot-scraper/)\n[](https://github.com/simonw/shot-scraper/releases)\n[](https://github.com/simonw/shot-scraper/actions?query=workflow%3ATest)\n[](https://github.com/simonw/shot-scraper/blob/master/LICENSE)\n[](https://discord.gg/EE7Hx4Kbny)\nA CLI utility for taking screenshots of websites, recording video demos and scraping sites using JavaScript\nFor background on this project see [shot-scraper: automated screenshots for documentation, built on Playwright](https://simonwillison.net/2022/Mar/10/shot-scraper/).\n## Documentation\n- [Full documentation for shot-scraper](https://shot-scraper.datasette.io/)\n- [Tutorial: Automating screenshots for the Datasette documentation using shot-scraper](https://simonwillison.net/2022/Oct/14/automating-screenshots/)\n- [Release notes](https://github.com/simonw/shot-scraper/releases)\n## Get started with GitHub Actions\nTo get started without installing any software, use the [shot-scraper-template](https://github.com/simonw/shot-scraper-template) template to create your own GitHub repository which takes screenshots of a page using `shot-scraper`. See [Instantly create a GitHub repository to take screenshots of a web page](https://simonwillison.net/2022/Mar/14/shot-scraper-template/) for details.\n## Quick installation\nYou can install the `shot-scraper` CLI tool using [pip](https://pip.pypa.io/):\n    pip install shot-scraper\n    # Now install the browser it needs:\n    shot-scraper install\n## Taking your first screenshot\nYou can take a screenshot of a web page like this:\n    shot-scraper https://datasette.io/\nThis will create a screenshot in a file called `datasette-io.png`.\nMany more options are available, see [Taking a screenshot](https://shot-scraper.datasette.io/en/stable/screenshots.html) for details.\n## Examples\n- The [shot-scraper-demo](https://github.com/simonw/shot-scraper-demo) repository uses this tool to capture recently spotted owls in El Granada, CA according to [this page](https://www.owlsnearme.com/?place=127871), and to  generate an annotated screenshot illustrating a Datasette feature as described [in my blog](https://simonwillison.net/2022/Mar/10/shot-scraper/#a-complex-example).",
+   "simonw/files-to-prompt": "# files-to-prompt\n[](https://pypi.org/project/files-to-prompt/)\n[](https://github.com/simonw/files-to-prompt/releases)\n[](https://github.com/simonw/files-to-prompt/actions/workflows/test.yml)\n[](https://github.com/simonw/files-to-prompt/blob/master/LICENSE)\nConcatenate a directory full of files into a single prompt for use with LLMs\nFor background on this project see [Building files-to-prompt entirely using Claude 3 Opus](https://simonwillison.net/2024/Apr/8/files-to-prompt/).\n## Installation\nInstall this tool using `pip`:\n```bash\npip install files-to-prompt\n```\n## Usage\nTo use `files-to-prompt`, provide the path to one or more files or directories you want to process:\n```bash\nfiles-to-prompt path/to/file_or_directory [path/to/another/file_or_directory ...]\n```\nThis will output the contents of every file, with each file preceded by its relative path and separated by `---`.\n### Options\n- `-e/--extension <extension>`: Only include files with the specified extension. Can be used multiple times.\n  ```bash\n  files-to-prompt path/to/directory -e txt -e md\n  ```\n- `--include-hidden`: Include files and folders starting with `.` (hidden files and directories).\n  ```bash\n  files-to-prompt path/to/directory --include-hidden\n  ```\n- `--ignore <pattern>`: Specify one or more patterns to ignore. Can be used multiple times. Patterns may match file names and directory names, unless you also specify `--ignore-files-only`. Pattern syntax uses [fnmatch](https://docs.python.org/3/library/fnmatch.html), which supports `*`, `?`, `[anychar]`, `[!notchars]` and `[?]` for special character literals.\n  ```bash\n  files-to-prompt path/to/directory --ignore \"*.log\" --ignore \"temp*\"\n  ```\n- `--ignore-files-only`: Include directory paths which would otherwise be ignored by an `--ignore` pattern.\n  ```bash\n  files-to-prompt path/to/directory --ignore-files-only --ignore \"*dir*\"\n  ```\n- `--ignore-gitignore`: Ignore `.gitignore` files and include all files.\n  ```bash\n  files-to-prompt path/to/directory --ignore-gitignore\n  ```\n- `-c/--cxml`: Output in Claude XML format.\n  ```bash\n  files-to-prompt path/to/directory --cxml\n  ```\n- `-m/--markdown`: Output as Markdown with fenced code blocks.\n  ```"
+  }
+ },
+ "apps": []
+}

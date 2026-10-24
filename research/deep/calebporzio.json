@@ -1,0 +1,761 @@
+{
+ "handle": "calebporzio",
+ "sites": [
+  {
+   "url": "http://calebporzio.com",
+   "ok": true,
+   "title": "Caleb Porzio",
+   "description": "Caleb is a web developer.",
+   "stack": [
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "Caleb Porzio \nMy Newsletter \n I send out an email every so often about cool stuff I'm working on or launching. If you dig, go ahead and sign up!\nMy Writings \n I just crossed $1 million on GitHub Sponsors. 💰🎉 \n Reactive switchboard: making a big, slow Vue/Alpine page \"blazingly\" fast \n I'm out of a job... \n How Livewire works (a deep dive) \n Livewire isn’t actually “live” \n Making $100k As An Employee Versus Being Self-Employed \n Easy, Free, Serverless Laravel With Vercel \n 5 Annoying Things In VS Code You Can Fix Right Now \n I Just Hit $100k/yr On GitHub Sponsors! 🎉❤️ (How I Did It) \n Easy, Free Laravel CI Using GitHub Actions \n Introducing Sponsorware: How A Small Open Source Package Increased My Salary By $11k in Two Days \n Live-Updating Status Page With Livewire \n Using Babel Without The Build (Inline JS FTW!!!) \n Sketch Tip: Easier Pen Tool Drawing By Simply Zooming In \n 8 Accessibility Mistakes We Need To Stop Making \n My #1 Productivity Tip \n Playing Around With Jonathan Reinink's InertiaJS \n Essential Laravel Knowledge: How A Facade Works \n Make Your \"git\" Command Awesome \n [Video] Real-time Livewire w/ Laravel Echo & Pusher \n On Leaving My Day Job \n Building UIs With Livewire: Dynamic Input Group \n Equivalent of PHP Class Traits in JavaScript \n Fun Building A UI Component From Scratch With Livewire \n Designing The \"No Plans To Merge\" Logo \n Parsing Markdown: The Easy Way (With Code Highlighting) \n Sign Up for Livewire Updates \n A simple trick to auto-retry pesky Dusk tests \n [Video] Livewire/personal life update \n Livewire: No Need For Controllers Anymore! \n 5 New Features In Livewire That I’m Ridiculously Excited About \n 11 Awesome Laravel Helper Functions (that aren't in Laravel) \n Laravel Lightwire (LiveView): Taking Shape \n Proof of Concept: Phoenix LiveView for Laravel \n How To Publish a Vue Component as an NPM Package \n Feather Icons: Easy way to get SVG icons in Vue components \n Helper Functions: A Love Note (and a package) \n Bash Alias: composer-link - Require Local Folders as Composer Dependencies \n Using inline SVGs in Vue components \n My VS Code Setup \n How I Keep Notes About My Laravel Projects: scratch.md \n Acceptance Testing Laravel & VueJs Apps with Codeception \n Better Vuejs form handling with SparkForm \n Ajax loading wheels and forgotten Promises \n Build it for yourself",
+   "github_links": [],
+   "subpages": {
+    "https://calebporzio.com/projects": "Caleb Porzio \nMy Creations \nOpen Source \n Livewire \n Alpine.js \n Sushi \n Better PHPUnit \n Parental \n Simple PHP CS Fixer \n GitDown \n Awesome Helpers \n Laravel Onboard \nPodcasts \n No Plans To Merge \n Building Livewire \n Twenty Percent Time (Discontinued) \nCourse \n Make VS Code Awesome \nFun Lil' Projects \n Laravel Sticker Contest \n My Sticker Pack \nPosts I Wrote While Working At Tighten \n It's Time to Test Your Vue Components: Getting Started With Jest\n Dot Env Files: The Silent Killer\n Writing Better CSS Selectors in Dusk\n Extending Models in Eloquent\n Testing Laravel framework contributions in a local Laravel install\n Laravel Tip: Bootable Model Traits\n Supercharge Your Laravel Tinker Workflow\n The Magic of Laravel Macros\n Q&A With The Speakers from Laracon Online 2017\n On Being New to Tighten\nLaracasts Videos \n Refactoring To Lookup Tables\n Building Data-Tables With Livewire",
+    "https://calebporzio.com/talks": "Caleb Porzio \nConference Talks \nAll The Cool New Stuff In Livewire (2020) \nSay No To Complexity With AlpineJS \nLivewire 1.0 Launch & Demo \nIntroducing: Livewire (Laracon US 2019) \n Write Less JS (Full Stack EU 2019) \n(No video yet) \nWrite Less JS (Erie Day Of Code 2019) \nEmbrace The Backend (Laracon US 2018) \nWriting Code That Speaks: (Erie Day Of Code 2017) \nInterviews \nBringing simplicity, joy, and order to web development (The GitHub Readme Project) \n (Read Here) \nRouting and Blade, with Caleb Porzio (The Laravel Podcast) \nLiveView VS Livewire, Alpine.js (Thinking Elixir) \n (Listen Here) \nThe Dawn Of Sponsorware (The Changelog) \nAlpine.js is like Tailwind CSS for JavaScript (devMode.fm) \n (Listen here) \nFull-Time Income On GitHub Sponsors (Solo Coder) \n (Listen here) \nAll About AlpineJS (Learn With Us) \n (Listen here) \nJust Enough JavaScript with AlpineJS (Full Stack Radio) \n (Listen here) \nSingle Page Apps - Fat frontend or fat backend, not both (Prismic Headquarters 2019) \nDealing with General Anxiety and Phobias (Happy Dev Podcast) \n (Listen here) \nJourney from PHP to Vue.js + Laravel (Prismic Headquarters 2019) \nEmbrace the Backend with Livewire (Full Stack Radio) \n (Listen here) \nIntrospection with Caleb Porzio (Bits And Trees Podcast)"
+   },
+   "feed": {
+    "url": "https://calebporzio.com/feed",
+    "count_seen": 45,
+    "items": [
+     {
+      "title": "Build it for yourself",
+      "date": "2016-01-20T00:00:00+00:00",
+      "url": "http://calebporzio.com/build-it-for-yourself"
+     },
+     {
+      "title": "Ajax loading wheels and forgotten Promises",
+      "date": "2016-06-24T00:00:00+00:00",
+      "url": "http://calebporzio.com/loading-wheel-for-ajax-data-using-vuejs"
+     },
+     {
+      "title": "Better Vuejs form handling with SparkForm",
+      "date": "2016-06-24T00:00:00+00:00",
+      "url": "http://calebporzio.com/using-sparkform"
+     },
+     {
+      "title": "Acceptance Testing Laravel & VueJs Apps with Codeception",
+      "date": "2016-11-11T00:00:00+00:00",
+      "url": "http://calebporzio.com/acce"
+     },
+     {
+      "title": "How I Keep Notes About My Laravel Projects: scratch.md",
+      "date": "2017-09-05T00:00:00+00:00",
+      "url": "http://calebporzio.com/keep-notes-about-your-laravel-projects-scratch-md"
+     },
+     {
+      "title": "My VS Code Setup",
+      "date": "2017-12-11T00:00:00+00:00",
+      "url": "http://calebporzio.com/my-vs-code-setup-2"
+     },
+     {
+      "title": "Using inline SVGs in Vue components",
+      "date": "2018-02-20T00:00:00+00:00",
+      "url": "http://calebporzio.com/using-inline-svgs-in-vue-compoments"
+     },
+     {
+      "title": "Bash Alias: composer-link - Require Local Folders as Composer Dependencies",
+      "date": "2018-04-20T00:00:00+00:00",
+      "url": "http://calebporzio.com/bash-alias-composer-link-use-local-folders-as-composer-dependancies"
+     },
+     {
+      "title": "Helper Functions: A Love Note (and a package)",
+      "date": "2018-11-12T00:00:00+00:00",
+      "url": "http://calebporzio.com/introducing-laravel-helpers-file-package"
+     },
+     {
+      "title": "Feather Icons: Easy  way to get SVG icons in Vue components",
+      "date": "2018-11-12T00:00:00+00:00",
+      "url": "http://calebporzio.com/my-new-svg-icon-workflow"
+     },
+     {
+      "title": "How To Publish a Vue Component as an NPM Package",
+      "date": "2018-11-19T00:00:00+00:00",
+      "url": "http://calebporzio.com/how-to-publish-a-vue-component-as-an-npm-package"
+     },
+     {
+      "title": "Proof of Concept: Phoenix LiveView for Laravel",
+      "date": "2019-01-16T00:00:00+00:00",
+      "url": "http://calebporzio.com/proof-of-concept-phoenix-liveview-for-laravel"
+     },
+     {
+      "title": "Laravel Lightwire (LiveView): Taking Shape",
+      "date": "2019-01-23T00:00:00+00:00",
+      "url": "http://calebporzio.com/laravel-lightwire-liveview-part-2"
+     },
+     {
+      "title": "11 Awesome Laravel Helper Functions (that aren't in Laravel)",
+      "date": "2019-02-01T00:00:00+00:00",
+      "url": "http://calebporzio.com/11-awesome-laravel-helper-functions"
+     },
+     {
+      "title": "5 New Features In Livewire That I’m Ridiculously Excited About",
+      "date": "2019-02-08T00:00:00+00:00",
+      "url": "http://calebporzio.com/a-bunch-of-cool-new-things-in-laravel-livewire"
+     },
+     {
+      "title": "Livewire: No Need For Controllers Anymore!",
+      "date": "2019-02-16T00:00:00+00:00",
+      "url": "http://calebporzio.com/livewire-no-need-for-controllers-anymore"
+     },
+     {
+      "title": "[Video] Livewire/personal life update",
+      "date": "2019-03-02T00:00:00+00:00",
+      "url": "http://calebporzio.com/video-livewire-personal-life-update"
+     },
+     {
+      "title": "A simple trick to auto-retry pesky Dusk tests",
+      "date": "2019-03-04T00:00:00+00:00",
+      "url": "http://calebporzio.com/a-simple-trick-to-auto-retry-failing-dusk-tests"
+     },
+     {
+      "title": "Parsing Markdown: The Easy Way (With Code Highlighting)",
+      "date": "2019-03-07T00:00:00+00:00",
+      "url": "http://calebporzio.com/parsing-markdown-the-easy-way-with-code-highlighting"
+     },
+     {
+      "title": "Sign Up for Livewire Updates",
+      "date": "2019-03-06T00:00:00+00:00",
+      "url": "http://calebporzio.com/sign-up-for-livewire-updates"
+     },
+     {
+      "title": "Designing The \"No Plans To Merge\" Logo",
+      "date": "2019-03-15T00:00:00+00:00",
+      "url": "http://calebporzio.com/on-designing-the-no-plans-to-merge-logo"
+     },
+     {
+      "title": "Fun Building A UI Component From Scratch With Livewire",
+      "date": "2019-03-21T00:00:00+00:00",
+      "url": "http://calebporzio.com/video-building-vue-select-select2-in-livewire"
+     },
+     {
+      "title": "Equivalent of PHP Class Traits in JavaScript",
+      "date": "2019-03-22T00:00:00+00:00",
+      "url": "http://calebporzio.com/equivalent-of-php-class-traits-in-javascript"
+     },
+     {
+      "title": "Building UIs With Livewire: Dynamic Input Group",
+      "date": "2019-04-03T00:00:00+00:00",
+      "url": "http://calebporzio.com/building-uis-with-livewire-add-multiple-emails-form"
+     },
+     {
+      "title": "On Leaving My Day Job",
+      "date": "2019-04-10T00:00:00+00:00",
+      "url": "http://calebporzio.com/n-leaving-my-day-job"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://fluxui.dev",
+   "ok": true,
+   "title": "Flux · Livewire UI kit",
+   "description": "The official Livewire component library. Built by the folks behind Livewire and Alpine.",
+   "stack": [
+    "Tailwind CSS"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "{ if (window.scrollY > 25) { $el.setAttribute('data-border', '') } else { $el.removeAttribute('data-border') } })\" x-init=\"if (window.scrollY > 25) { $el.setAttribute('data-border', '') } else { $el.removeAttribute('data-border') }; setTimeout(() => $el.classList.add('transition', 'duration-300'))\" data-flux-header>\n Toggle dark mode\n D \n Light\n Dark\n System\n Search \n ⌘K \n Log in\n Livewire v4 is here!\nRead the upgrade guide \nLivewire \nTailwind CSS \nThe official Livewire component library \nWorld-class components, built specifically for your Livewire interfaces. Fully flexible, functional, and accessible. \n Get started \n Browse components \nFree components \nThe essentials \nFlux has a generous free tier of essential components that every application needs. Buttons, dropdowns, modals, etc. \nDark + Responsive \nEvery component was built to look and function great both in dark mode and on mobile devices. \nAccessiblity \nEach component has been designed and tested to be used with keyboards and screenreaders. \nComposable syntax \nWe want using Flux to feel like playing with building blocks that can be mixed and matched as needed. \nLivewire ready \nBecause we built Livewire, making components that work seamlessly with it is table stakes. \n Button\n Primary\n Danger\nButton \nA composable button component \n Options \n New post\n[data-flux-menu-item-has-icon])_&]:block\"> \n Sort by\n Name\n Date\n Popularity\n[data-flux-menu-item-has-icon])_&]:block\"> \n Filter\n Draft\n Published\n Archived\n Delete Author\nDropdown \nA versatile dropdown menu component \n Role\n Administrator\n Administrator users can perform any action.\n Editor\n Editor users have the ability to read, create, and update.\n Viewer\n Viewer users only have the ability to read.\nCheckbox Group \nA group of related checkbox inputs \n Communication emails\n Receive emails about your account activity.\n Marketing emails\n Receive emails about new products, features, and more.\n Social emails\n Receive emails for friend requests, follows, and more.\n Security emails\n Receive emails about your account activity and security.\nSwitch Group \nA group of toggle switch controls \n Select your payment method\n Credit Card\n Paypal\n Bank transfer\nRadio Group \nA group of radio button inputs \n Email\nInput \nA flexible input field component \n Industry\n Choose industry... \n Photography \n Design services \n Web development \n Accounting \n Legal services \n Consulting \n Other \nSelect \nA dropdown select input component \n Browse all components -> \nFlux Pro \nGo further with \nPro \nOn top of our free components, we offer a suite of premium components that are designed to help you build your next big idea. Things like editors, charts, date pickers, and the like. \nVisitors \nViews \nCharts \nA lightweight, zero-dependency chart component \nCalendar + Date picker \nA flexible calendar component \n Assign to…\n ⌘A \n Create new file\n Create new project\n ⌘⇧N \n Documentation\n Changelog\n Settings\n ⌘, \n No results found\nCommand palette \nA searchable command palette component \nText \n Styles\n svg]:text-zinc-400 [&[data-active]>svg]:text-zinc-800 dark:[&[data-active]>svg]:text-white\">\nText \n svg]:text-zinc-400 [&[data-active]>svg]:text-zinc-800 dark:[&[data-active]>svg]:text-white\">\nHeading 1 \n svg]:text-zinc-400 [&[data-active]>svg]:text-zinc-800 dark:[&[data-active]>svg]:text-white\">\nHeading 2 \n svg]:text-zinc-400 [&[data-active]>svg]:text-zinc-800 dark:[&[data-active]>svg]:text-white\">\nHeading 3 \n Bold\n ⌘B \n Italic\n ⌘I \n Strikethrough\n ⌘+Shift+S \n Bullet list\n Ordered list\n Blockquote\n ⌘+Shift+B \n Insert link\n ⌘K \n Insert link\n Unlink\nLeft \n Align\n svg]:text-zinc-400 [&[data-active]>svg]:text-zinc-800 dark:[&[data-active]>svg]:text-white\">\nLeft \n svg]:text-zinc-400 [&[data-active]>svg]:text-zinc-800 dark:[&[data-active]>svg]:text-white\">\nCenter \n svg]:text-zinc-400 [&[data-active]>svg]:text-zinc-800 dark:[&[data-active]>svg]:text-white\">\nRight \nRich text editor \nA powerful rich text editor component \n Browse all 16+ Pro components -> \nLayouts \nBetter navigation \nGood layouts are essential to any application. We've constructed a set of re-usable layout components and assembled them into different templates that you can grab and go off the shelf. \nHeader \nA layout with top navigation \nSidebar \nA mobile-friendly sidebar app layout \nYou ready to dive in? \nWe promise Flux will improve your applications and delight your users or your money back. \n Get started\n See pricing \n Copyright © 2026 Wireable LLC · Terms of Service \n Built with \n by\n Caleb Porz",
+   "github_links": [],
+   "subpages": {
+    "https://fluxui.dev/blog": "{ if (window.scrollY > 25) { $el.setAttribute('data-border', '') } else { $el.removeAttribute('data-border') } })\" x-init=\"if (window.scrollY > 25) { $el.setAttribute('data-border', '') } else { $el.removeAttribute('data-border') }; setTimeout(() => $el.classList.add('transition', 'duration-300'))\" data-flux-header>\n Toggle dark mode\n D \n Light\n Dark\n System\n Search \n ⌘K \n Log in\nThe Changelog \nWhat's new around here? \n Succinct and informative updates about Flux.\n RSS feed \n October 22, 2026\n Datetime picker\nMeet the new Datetime picker : a date and a time, picked together from a single field. Perfect for scheduling events, publishing posts, setting reminders, or booking a window of time. \n $el.parentElement.removeAttribute('data-copied'), 2000)\" tooltip=\"Copy to clipboard\" aria-label=\"Copy to clipboard\">\n Copy to clipboard\n < flux:datetime-picker wire:model = \"startsAt\" /> \nChoose a day from the calendar and a time from the list beside it. Picking a time closes the picker, and changing just the date updates the value straight away. No extra clicks. \nOn the Livewire side, type hint a Carbon property and you're done: \n $el.parentElement.removeAttribute('data-copied'), 2000)\" tooltip=\"Copy to clipboard\" aria-label=\"Copy to clipboard\">\n Copy to clipboard\n public ? Carbon $startsAt ; \n Made for mobile\nA calendar and a time list don't fit side by side on a phone, so on small screens the time moves into a dropdown below the calendar. Selections are confirmed with a \"Select\" button, so a stray tap never changes the value. \n Ranges, with a time on each end\nAdd mode=\"range\" for event schedules, maintenance windows, or bookings. Each end of the range gets its own time, and the range is applied when \"Select range\" is pressed: \n $el.parentElement.removeAttribute('data-copied'), 2000)\" tooltip=\"Copy to clipboard\" aria-label=\"Copy to clipboard\">\n Copy to clipboard\n < flux:datetime-picker mode = \"range\" wire:model = \"schedule\" /> \nBind it to a Flux\\DateTimeRange and you get Carbon instances for the start and end. It's a CarbonPeriod under the hood, so you can pass it straight to whereBetween() : \n $el.parentElement.removeAttribute('data-copied'), 2000)\" tooltip=\"Copy to clipboard\" aria-label=\"Copy to clipboard\">\n Copy to clipboard\n $deploys = Deploy :: whereBetween ( 'deployed_at' , $this -> schedule )-> get (); \nWhen most ranges share the same hours, set them once with default-time and users only need to pick dates: \n $el.parentElement.removeAttribute('data-copied'), 2000)\" tooltip=\"Copy to clipboard\" aria-label=\"Copy to clipboard\">\n Copy to clipboard\n < flux:datetime-picker mode = \"range\" default-time = \"09:00/17:00\" /> \n Learn more about range mode → \n Business hours and booked slots\nUse min and max to limit which dates can be picked, and min-time and max-time to limit the times of day. Together they cover things like \"any future time between 9 AM and 5 PM\": \n $el.parentElement.removeAttribute('data-copied'), 2000)\" tooltip=\"Copy to clipboard\" aria-label=\"C"
+   },
+   "feed": {
+    "url": "https://fluxui.dev/blog/feed.xml",
+    "count_seen": 20,
+    "items": [
+     {
+      "title": "Datetime picker",
+      "date": "Thu, 22 Oct 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-10-22-datetime-picker"
+     },
+     {
+      "title": "Card",
+      "date": "Mon, 28 Sep 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-09-28-card"
+     },
+     {
+      "title": "Phone input",
+      "date": "Tue, 15 Sep 2026 00:02:00",
+      "url": "https://fluxui.dev/blog/2026-09-15-phone-input"
+     },
+     {
+      "title": "New demo: Account overview",
+      "date": "Tue, 15 Sep 2026 00:01:00",
+      "url": "https://fluxui.dev/blog/2026-09-15-account-overview-demo"
+     },
+     {
+      "title": "2xl headings",
+      "date": "Tue, 15 Sep 2026 00:00:30",
+      "url": "https://fluxui.dev/blog/2026-09-15-heading-2xl"
+     },
+     {
+      "title": "Search keywords for select options",
+      "date": "Tue, 15 Sep 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-09-15-select-search-keywords"
+     },
+     {
+      "title": "Pie charts",
+      "date": "Tue, 08 Sep 2026 00:02:00",
+      "url": "https://fluxui.dev/blog/2026-09-08-pie-charts"
+     },
+     {
+      "title": "Inverted toasts",
+      "date": "Tue, 08 Sep 2026 00:01:00",
+      "url": "https://fluxui.dev/blog/2026-09-08-inverted-toasts"
+     },
+     {
+      "title": "Toast actions",
+      "date": "Tue, 08 Sep 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-09-08-toast-actions"
+     },
+     {
+      "title": "Colored buttons",
+      "date": "Mon, 07 Sep 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-09-07-colored-buttons"
+     },
+     {
+      "title": "Toast timers now pause in hidden tabs",
+      "date": "Mon, 31 Aug 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-08-31-toast-timers-pause-in-hidden-tabs"
+     },
+     {
+      "title": "Flags",
+      "date": "Sat, 29 Aug 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-08-29-flags"
+     },
+     {
+      "title": "AI-ready documentation",
+      "date": "Mon, 24 Aug 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-08-24-ai-ready-docs"
+     },
+     {
+      "title": "Horizontal charts",
+      "date": "Wed, 19 Aug 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-08-19-horizontal-charts"
+     },
+     {
+      "title": "Find hidden content with ⌘F",
+      "date": "Thu, 13 Aug 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-08-13-find-hidden-content-with-command-f"
+     },
+     {
+      "title": "Toggle",
+      "date": "Mon, 10 Aug 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-08-10-toggle"
+     },
+     {
+      "title": "Richer select options",
+      "date": "Sun, 09 Aug 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-08-09-richer-select-options"
+     },
+     {
+      "title": "Dot ticks for sliders",
+      "date": "Sat, 08 Aug 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-08-08-slider-dot-ticks"
+     },
+     {
+      "title": "Carousel",
+      "date": "Thu, 04 Jun 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-06-04-carousel"
+     },
+     {
+      "title": "Color picker",
+      "date": "Fri, 17 Apr 2026 00:00:00",
+      "url": "https://fluxui.dev/blog/2026-04-17-color-picker"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://notesonwork.transistor.fm/",
+   "ok": true,
+   "title": "Notes On Work - by Caleb Porzio",
+   "description": "",
+   "stack": [],
+   "hosting": [],
+   "lang": "en",
+   "home_text": "Brief thoughts and insights from Caleb. Mostly on work. Mostly while drinking tea. \n Latest Episodes\n By golly if I'm not all in on Opus \n October 15, 2026 \n / \n 21:06 / E636 \n What makes a man \n October 7, 2026 \n / \n 11:34 / E635 \n WHAT DID YOU EXPECT! \n October 7, 2026 \n / \n 15:45 / E634 \n Business is Catan (and im building something new) \n October 6, 2026 \n / \n 18:38 / E633 \n AI music is sooo good \n October 5, 2026 \n / \n 12:23 / E632 \n More Episodes » \n Listen Anywhere \n More Options » \n Broadcast by",
+   "github_links": [],
+   "subpages": {},
+   "feed": {
+    "url": "https://feeds.transistor.fm/building-livewire",
+    "count_seen": 631,
+    "items": [
+     {
+      "title": "By golly if I'm not all in on Opus",
+      "date": "Thu, 15 Oct 2026 08:38:12",
+      "url": "https://share.transistor.fm/s/26282318"
+     },
+     {
+      "title": "What makes a man",
+      "date": "Wed, 07 Oct 2026 11:58:11",
+      "url": "https://share.transistor.fm/s/1aa3331b"
+     },
+     {
+      "title": "WHAT DID YOU EXPECT!",
+      "date": "Wed, 07 Oct 2026 11:43:06",
+      "url": "https://share.transistor.fm/s/f4df293c"
+     },
+     {
+      "title": "Business is Catan (and im building something new)",
+      "date": "Tue, 06 Oct 2026 09:29:53",
+      "url": "https://share.transistor.fm/s/c970cf8e"
+     },
+     {
+      "title": "AI music is sooo good",
+      "date": "Mon, 05 Oct 2026 08:47:29",
+      "url": "https://share.transistor.fm/s/1c418b74"
+     },
+     {
+      "title": "Are you gonna be the person who wants it the most",
+      "date": "Sat, 03 Oct 2026 08:27:20",
+      "url": "https://share.transistor.fm/s/530ca38b"
+     },
+     {
+      "title": "Motion graphics have been solved and its an absolute dream",
+      "date": "Tue, 29 Sep 2026 13:55:42",
+      "url": "https://share.transistor.fm/s/ab1e798e"
+     },
+     {
+      "title": "I dont frickin know",
+      "date": "Fri, 25 Sep 2026 08:17:07",
+      "url": "https://share.transistor.fm/s/8a742a3f"
+     },
+     {
+      "title": "Im pretty darn conflicted about all this AI stuff right now",
+      "date": "Fri, 25 Sep 2026 08:02:42",
+      "url": "https://share.transistor.fm/s/fd6625bf"
+     },
+     {
+      "title": "Things I'm doing to have more success with AI lately",
+      "date": "Tue, 15 Sep 2026 08:47:26",
+      "url": "https://share.transistor.fm/s/91c020a2"
+     },
+     {
+      "title": "Create something more original by starting with a seed",
+      "date": "Mon, 14 Sep 2026 13:50:01",
+      "url": "https://share.transistor.fm/s/43a48b7d"
+     },
+     {
+      "title": "Some dudes rust macro",
+      "date": "Wed, 09 Sep 2026 09:15:41",
+      "url": "https://share.transistor.fm/s/084b159b"
+     },
+     {
+      "title": "Pre-K orientation",
+      "date": "Fri, 04 Sep 2026 10:47:59",
+      "url": "https://share.transistor.fm/s/97f57486"
+     },
+     {
+      "title": "Me reading a chapter of \"Hidden Multipliers\" by Jason Cohen",
+      "date": "Fri, 04 Sep 2026 09:26:50",
+      "url": "https://share.transistor.fm/s/1eb0d003"
+     },
+     {
+      "title": "I hate everything after two weeks",
+      "date": "Sun, 30 Aug 2026 17:02:08",
+      "url": "https://share.transistor.fm/s/7a2fbd81"
+     },
+     {
+      "title": "I FINALLY CRACKED UNDERSTANDING CODE THAT AI WRITES",
+      "date": "Fri, 28 Aug 2026 10:09:22",
+      "url": "https://share.transistor.fm/s/51d91481"
+     },
+     {
+      "title": "I tried Amp and Claude desktop today to see what I'm missing",
+      "date": "Thu, 27 Aug 2026 17:19:55",
+      "url": "https://share.transistor.fm/s/75aff5d9"
+     },
+     {
+      "title": "Meteors and space peanuts and identifying wrong-turns",
+      "date": "Thu, 27 Aug 2026 17:05:37",
+      "url": "https://share.transistor.fm/s/c413b3c0"
+     },
+     {
+      "title": "I MADE A SALE!",
+      "date": "Mon, 24 Aug 2026 16:48:47",
+      "url": "https://share.transistor.fm/s/a62e78fd"
+     },
+     {
+      "title": "Zoom in and zoom out",
+      "date": "Thu, 20 Aug 2026 11:04:21",
+      "url": "https://share.transistor.fm/s/ef4527ba"
+     },
+     {
+      "title": "Agents are like the movie Click",
+      "date": "Wed, 19 Aug 2026 07:38:01",
+      "url": "https://share.transistor.fm/s/973b28bc"
+     },
+     {
+      "title": "The \"understanding an AI PR\" big guns",
+      "date": "Wed, 19 Aug 2026 07:29:26",
+      "url": "https://share.transistor.fm/s/3dd07e31"
+     },
+     {
+      "title": "A dollar is a dollar and a stroke is a stroke",
+      "date": "Fri, 14 Aug 2026 16:31:06",
+      "url": "https://share.transistor.fm/s/4b5c6eba"
+     },
+     {
+      "title": "Everything besides Codex is cooked. I'm all in.",
+      "date": "Thu, 13 Aug 2026 15:04:28",
+      "url": "https://share.transistor.fm/s/3784a3af"
+     },
+     {
+      "title": "Codex made me a bunch of money this morning",
+      "date": "Wed, 12 Aug 2026 08:20:57",
+      "url": "https://share.transistor.fm/s/e385c9be"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "calebporzio",
+  "user": {
+   "name": "Caleb Porzio",
+   "company": null,
+   "blog": "calebporzio.com",
+   "location": "Buffalo NY",
+   "bio": "worker on the web",
+   "public_repos": 93,
+   "followers": 5662,
+   "created_at": "2013-02-22T14:58:02Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "calebporzio/sushi",
+    "description": "Eloquent's missing \"array\" driver.",
+    "stargazers_count": 3007,
+    "forks_count": 182,
+    "language": "PHP",
+    "homepage": "https://usesushi.dev",
+    "created_at": "2020-01-25T03:42:39Z",
+    "pushed_at": "2026-02-21T02:54:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/awesome-helpers",
+    "description": "Helper functions I find super-duper handy",
+    "stargazers_count": 623,
+    "forks_count": 50,
+    "language": "PHP",
+    "homepage": "",
+    "created_at": "2019-02-01T01:24:06Z",
+    "pushed_at": "2021-05-07T21:03:41Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "calebporzio/onboard",
+    "description": "A Laravel package to help track user onboarding steps.",
+    "stargazers_count": 434,
+    "forks_count": 45,
+    "language": "PHP",
+    "homepage": "",
+    "created_at": "2017-01-13T21:57:55Z",
+    "pushed_at": "2022-06-22T15:34:08Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "calebporzio/gitdown",
+    "description": "A simple package to parse Github Flavored Markdown in PHP",
+    "stargazers_count": 217,
+    "forks_count": 8,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2019-03-06T00:14:57Z",
+    "pushed_at": "2023-01-06T01:42:06Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "calebporzio/better-phpunit",
+    "description": "A better PHPUnit test runner for VS Code",
+    "stargazers_count": 216,
+    "forks_count": 48,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2017-10-27T20:47:35Z",
+    "pushed_at": "2025-02-19T17:51:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/laracasts-livewire-datatable",
+    "description": "The Laravel project I used during the \"Building DataTables with Livewire\" Laracasts video",
+    "stargazers_count": 117,
+    "forks_count": 21,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2019-11-22T21:13:28Z",
+    "pushed_at": "2023-01-05T01:29:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/bear-sync",
+    "description": "Access your Bear notes in Laravel",
+    "stargazers_count": 108,
+    "forks_count": 7,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2020-01-06T12:09:40Z",
+    "pushed_at": "2021-04-29T22:51:41Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "calebporzio/tailbuild",
+    "description": "A simple command to build a Tailwind CSS file for your project (with JIT compiling and watching)",
+    "stargazers_count": 90,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2021-04-23T01:45:41Z",
+    "pushed_at": "2021-06-07T09:43:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/laravel-helpers-file",
+    "description": "Because I can never remember exactly how to autoload my helpers.php file.",
+    "stargazers_count": 61,
+    "forks_count": 6,
+    "language": "PHP",
+    "homepage": "",
+    "created_at": "2018-11-11T04:31:16Z",
+    "pushed_at": "2022-03-26T01:17:14Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "calebporzio/laravel-frontend-preset",
+    "description": "My personal frontend preset for new laravel applications.",
+    "stargazers_count": 31,
+    "forks_count": 5,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2018-04-15T19:24:07Z",
+    "pushed_at": "2021-06-29T07:18:09Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "calebporzio/laracasts-building-alpine",
+    "description": null,
+    "stargazers_count": 27,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-03-27T02:04:36Z",
+    "pushed_at": "2020-03-27T02:12:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/laracon-online-2020",
+    "description": "The Laravel project used in my Laracon Online 2020 talk",
+    "stargazers_count": 27,
+    "forks_count": 4,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2020-02-26T21:44:33Z",
+    "pushed_at": "2023-01-05T08:24:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/sprout",
+    "description": "A zero-dependancy library for turning JSON into reactive DOM.",
+    "stargazers_count": 26,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-05-29T18:08:49Z",
+    "pushed_at": "2025-08-04T03:44:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/simple-php-cs-fixer",
+    "description": "A VS Code extension for simple php-cs-fixer integration",
+    "stargazers_count": 24,
+    "forks_count": 8,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2017-10-24T05:01:54Z",
+    "pushed_at": "2026-08-19T14:10:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/sps",
+    "description": null,
+    "stargazers_count": 20,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2020-08-11T01:51:11Z",
+    "pushed_at": "2020-12-21T14:22:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/click",
+    "description": "The podcast recording and editing suite of your dreams. Featuring just the one button.",
+    "stargazers_count": 19,
+    "forks_count": 3,
+    "language": "Crystal",
+    "homepage": null,
+    "created_at": "2020-01-17T18:24:46Z",
+    "pushed_at": "2020-02-21T05:09:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/vercel-laravel",
+    "description": null,
+    "stargazers_count": 19,
+    "forks_count": 10,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2020-10-30T14:44:14Z",
+    "pushed_at": "2020-12-23T09:16:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "calebporzio/vue-form-state",
+    "description": null,
+    "stargazers_count": 19,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-08-01T21:08:14Z",
+    "pushed_at": "2016-08-03T02:25:16Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 45,
+  "languages": [
+   [
+    "PHP",
+    24
+   ],
+   [
+    "JavaScript",
+    5
+   ],
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "HTML",
+    3
+   ],
+   [
+    "CSS",
+    3
+   ],
+   [
+    "Vue",
+    2
+   ],
+   [
+    "Crystal",
+    1
+   ],
+   [
+    "Shell",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "livewire/livewire",
+    "stargazerCount": 23591,
+    "description": "A full-stack framework for Laravel that takes the pain out of building dynamic UIs.",
+    "primaryLanguage": {
+     "name": "PHP"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "alpinejs/alpine",
+    "stargazerCount": 31992,
+    "description": "A rugged, minimal framework for composing JavaScript behavior in your markup. ",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "https://alpinejs.dev"
+   },
+   {
+    "nameWithOwner": "calebporzio/sushi",
+    "stargazerCount": 3007,
+    "description": "Eloquent's missing \"array\" driver.",
+    "primaryLanguage": {
+     "name": "PHP"
+    },
+    "homepageUrl": "https://usesushi.dev"
+   },
+   {
+    "nameWithOwner": "calebporzio/better-phpunit",
+    "stargazerCount": 216,
+    "description": "A better PHPUnit test runner for VS Code",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "tighten/parental",
+    "stargazerCount": 1540,
+    "description": "Use single table inheritance in your Laravel app",
+    "primaryLanguage": {
+     "name": "PHP"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "calebporzio/gitdown",
+    "stargazerCount": 217,
+    "description": "A simple package to parse Github Flavored Markdown in PHP",
+    "primaryLanguage": {
+     "name": "PHP"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 2092,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "livewire/livewire": "<p align=\"center\"></p>\n<p align=\"center\">\n    <a href=\"https://packagist.org/packages/livewire/livewire\">\n    </a>\n    <a href=\"https://packagist.org/packages/livewire/livewire\">\n    </a>\n    <a href=\"https://packagist.org/packages/livewire/livewire\">\n    </a>\n</p>\n## Introduction\nLivewire is a full-stack framework for Laravel that allows you to build dynamic UI components without leaving PHP.\n## Official Documentation\nYou can read the official documentation on the [Livewire website](https://livewire.laravel.com/docs).\n## Local Development\n```bash\ngit clone git@github.com:livewire/livewire.git && cd livewire\ncomposer setup\n```\nThis installs PHP and JS dependencies and sets up ChromeDriver for browser tests.\n```bash\ncomposer test:unit                                   # unit tests\ncomposer test:browser                                # browser tests (headless)\ncomposer test:browser:headed                         # browser tests (opens Chrome)\ncomposer test:browser -- --filter=\"SupportCSP\"       # specific tests\n```\nTo build the JS assets after making changes: `npm run build`\n## Contributing\n<a name=\"contributing\"></a>\nThank you for considering contributing to Livewire! You can read the contribution guide [here](.github/CONTRIBUTING.md).\n## Code of Conduct\n<a name=\"code-of-conduct\"></a>\nIn order to ensure that the Laravel community is welcoming to all, please review and abide by Laravel's [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).\n## Security Vulnerabilities\n<a name=\"security-vulnerabilities\"></a>\nPlease review [our security policy](https://github.com/livewire/livewire/security/policy) on how to report security vulnerabilities.\n## License\n<a name=\"license\"></a>\nLivewire is open-sourced software licensed under the [MIT license](LICENSE.md).\n",
+   "alpinejs/alpine": "# Alpine.js\nGo to the Alpine docs for most things: [Alpine Docs](https://alpinejs.dev)\nYou are welcome to submit updates to the docs by submitting a PR to this repo. Docs are located in the [`/packages/docs`](/packages/docs) directory.\nStay here for contribution-related information.\n> Looking for V2 docs? [here they are](https://github.com/alpinejs/alpine/tree/v2.8.2)\n<p align=\"center\"><a href=\"https://alpinejs.dev/patterns\"></a></p>\n## Contribution Guide:\n### Quickstart\n* clone this repo locally\n* run `npm install` & `npm run build`\n* Include the `/packages/alpinejs/dist/cdn.js` file from a `<script>` tag on a webpage and you're good to go!\n### Brief Tour\nYou can get everything installed with: `npm install` in the root directory of this repo after cloning it locally.\nThis repo is a \"mono-repo\" using npm workspaces for managing the packages. Each package has its own folder in the `/packages` directory.\nRather than having to run separate builds for each package, all package bundles are handled with the same command: `npm run build`\nHere's a brief look at each package in this repo:\nPackage | Description\n--- | ---\n[alpinejs](packages/alpinejs) | The main Alpine repo with all of Alpine's core\n[collapse](packages/collapse) | A plugin for expanding and collapsing elements using smooth animations\n[csp](packages/csp) | A repo to provide a \"CSP safe\" build of Alpine\n[docs](packages/docs) | The Alpine documentation\n[focus](packages/focus) | A plugin that allows you to manage focus inside an element\n[history](packages/history) | A plugin for binding data to query string parameters using the history API (name is likely to change)\n[intersect](packages/intersect) | A plugin for triggering JS expressions based on elements intersecting with the viewport\n[mask](packages/mask) | A plugin for automatically formatting a text input field as a user types\n[morph](packages/morph) | A plugin for morphing HTML (like morphdom) inside the page intelligently\n[persist](packages/persist) | A plugin for persisting Alpine state across page loads\nThe compiled JS files (as a result of running `npm run [build/watch]`) to be included as a `<script>` tag for example are stored in each package's `pac",
+   "calebporzio/sushi": "# Sushi 🍣\nEloquent's missing \"array\" driver.\nSometimes you want to use Eloquent, but without dealing with a database.\n## This Package Is Sponsorware 💰💰💰\nOriginally, this package was only available to my sponsors on GitHub Sponsors until I reached 75 sponsors.\nNow that we've reached the goal, the package is fully open source.\nEnjoy, and thanks for the support! ❤️\nLearn more about **Sponsorware** at [github.com/sponsorware/docs](https://github.com/sponsorware/docs) 💰.\n## Requirements\nThe [`pdo-sqlite` PHP extension](https://www.php.net/manual/en/ref.pdo-sqlite.php) must be installed on your system to use this package.\n## Install\n```\ncomposer require calebporzio/sushi\n```\n## Use\nUsing this package consists of two steps:\n1. Add the `Sushi` trait to a model.\n2. Add a `$rows` property to the model.\nThat's it.\n```php\nclass State extends Model\n{\n    use \\Sushi\\Sushi;\n    protected $rows = [\n        [\n            'abbr' => 'NY',\n            'name' => 'New York',\n        ],\n        [\n            'abbr' => 'CA',\n            'name' => 'California',\n        ],\n    ];\n}\n```\nNow, you can use this model anywhere you like, and it will behave as if you created a table with the rows you provided.\n```php\n$stateName = State::whereAbbr('NY')->first()->name;\n```\nThis is really useful for \"Fixture\" data, like states, countries, zip codes, user_roles, sites_settings, etc...\n### Relationships\nLet's say you created a `Role` model, based on an array using Sushi, that looked like this:\n```php\nclass Role extends Model\n{\n    use \\Sushi\\Sushi;\n    protected $rows = [\n        ['id' => 1, 'label' => 'admin'],\n        ['id' => 2, 'label' => 'manager'],\n        ['id' => 3, 'label' => 'user'],\n    ];\n}\n```\nYou can add a relationship to another standard model, just like you normally would:\n```php\nclass User extends Model\n{\n    ...\n    public function role()\n    {\n        return $this->belongsTo(Role::class);\n    }\n}\n```\nAssuming the `users` table has a `role_id` column, you can do things like this:\n```php\n// Grab a User.\n$user = User::first();\n// Grab a Role.\n$role = Role::whereLabel('admin')->first();\n// Associate them.\n$user->role()->associate($role);\n// Access like normal.\n$user->role;\n// Eager l",
+   "calebporzio/better-phpunit": "# Better PHPUnit\nBetter PHPUnit is the most popular, cleanest, and fastest PHPUnit runner for VS Code.\n## Run a test method:\n- Place your cursor in/on the method you want to run\n- Open the command menu: `cmd+shift+p`\n- Select: `Better PHPUnit: run`\n## Run a test file:\n- Open the command menu: `cmd+shift+p`\n- Select: `Better PHPUnit: run-file`\n## Run the entire suite:\n- Open the command menu: `cmd+shift+p`\n- Select: `Better PHPUnit: run suite`\n## Run the previous test:\n- Open the command menu: `cmd+shift+p`\n- Select: `Better PHPUnit: run previous`\n## Features:\n- Color output!\n- Run individual methods by placing your cursor anywhere in/on the method\n- Test failures are displayed in the \"Problems\" panel for quick access\n> Note: this plugin registers \"tasks\" to run phpunit, not a command like other extensions. This makes it possible to leverage the problem output and color terminal.\nKeybindings:\n```\n{\n    \"key\": \"cmd+k cmd+r\",\n    \"command\": \"better-phpunit.run\"\n},\n{\n    \"key\": \"cmd+k cmd+f\",\n    \"command\": \"better-phpunit.run-file\"\n},\n{\n    \"key\": \"cmd+k cmd+p\",\n    \"command\": \"better-phpunit.run-previous\"\n}\n```\nConfig:\n```\n{\n    \"better-phpunit.commandSuffix\": null, // This string will be appended to the phpunit command, it's a great place to add flags like '--stop-on-failure'\n    \"better-phpunit.phpunitBinary\": null, // A custom phpunit binary. Ex: 'phpunit', '/usr/local/bin/phpunit'\n    \"better-phpunit.suiteSuffix\": null // Specify options to appended only to the 'run suite' command, for example add options like '--testsuite unit' or '--coverage --coverage-xml'.\n}\n```\nRunning tests over ssh (For VMs like Laravel Homestead):\n```\n{\n    \"better-phpunit.ssh.enable\": true,\n    \"better-phpunit.ssh.paths\": {\n        \"/your/local/path\": \"/your/remote/path\"\n    },\n    \"better-phpunit.ssh.user\": \"user\",\n    \"better-phpunit.ssh.host\": \"host\",\n    \"better-phpunit.ssh.port\": \"22\",\n    \"better-phpunit.ssh.binary\": \"putty -ssh\"\n}\n```\nRunning tests in already running Docker containers:\n```\n{\n    \"better-phpunit.docker.enable\": true,\n    \"better-phpunit.docker.command\": \"docker exec container-name\",\n    \"better-phpunit.docker.paths\": {\n        \"/your/local/path\": \"/your/remote/p",
+   "tighten/parental": "\n# Parental\nParental is a Laravel package that brings STI (Single Table Inheritance) capabilities to Eloquent.\n### What is single table inheritance (STI)?\nIt's a fancy name for a simple concept: Extending a model (usually to add specific behavior), but referencing the same table.\n## Installation\n```bash\ncomposer require tightenco/parental\n```\n## Simple Usage\n```php\nnamespace App\\Models;\nuse Illuminate\\Database\\Eloquent\\Model;\nuse Parental\\HasChildren;\n// The \"parent\"\nclass User extends Model\n{\n    use HasChildren;\n    //\n}\n```\n```php\nnamespace App\\Models;\nuse Parental\\HasParent;\n// The \"child\"\nclass Admin extends User\n{\n    use HasParent;\n    public function impersonate($user) {\n        //...\n    }\n}\n```\n```php\nuse App\\Models\\Admin;\n// Returns \"Admin\" model, but reference \"users\" table:\n$admin = Admin::first();\n// Can now access behavior exclusive to \"Admin\"s\n$admin->impersonate($user);\n```\n### What problem did we just solve?\nWithout Parental, calling `Admin::first()` would throw an error because Laravel would be looking for an `admins` table. Laravel generates expected table names, as well as foreign keys and pivot table names, using the model's class name. By adding the `HasParent` trait to the Admin model, Laravel will now reference the parent model's class name `users`.\n## Accessing Child Models from Parents\n```php\n// First, we need to create a `type` column on the `users` table\nSchema::table('users', function ($table) {\n    $table->string('type')->nullable();\n});\n```\n```php\nnamespace App\\Models;\nuse Illuminate\\Database\\Eloquent\\Model;\nuse Parental\\HasChildren;\n// The \"parent\"\nclass User extends Model\n{\n    use HasChildren;\n    protected $fillable = ['type'];\n}\n```\n```php\nnamespace App\\Models;\nuse Parental\\HasParent;\n// A \"child\"\nclass Admin extends User\n{\n    use HasParent;\n}\n```\n```php\nnamespace App\\Models;\nuse Parental\\HasParent;\n// Another \"child\"\nclass Guest extends User\n{\n    use HasParent;\n}\n```\n```php\nuse App\\Models\\Admin;\nuse App\\Models\\Guest;\nuse App\\Models\\User;\n// Adds row to \"users\" table with \"type\" column set to: \"App/Admin\"\nAdmin::create(...);\n// Adds row to \"users\" table with \"type\" column set to: \"App/Guest\"\nGuest::create(...);\n// Returns 2"
+  }
+ },
+ "apps": []
+}

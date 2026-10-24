@@ -1,0 +1,461 @@
+{
+ "handle": "manateelazycat",
+ "sites": [
+  {
+   "url": "https://manateelazycat.github.io",
+   "ok": true,
+   "title": "ManateeLazyCat",
+   "description": "",
+   "stack": [
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "",
+   "home_text": "ManateeLazyCat \n Tags \n Projects \n Search \n Feeds \n About \n 「生活可以更简单, 欢迎来到我的开源世界」\n 867篇文章\n 1,559,371字\n 128GB 推理设备的 AI 模型推理引擎怎么选？\n 最近一个月陆陆续续移植了60多个AI模型，基本上主流的AI推理引擎都深度玩了一遍，下面是我的结论：\n 单流解码优先选 TensorFol ...\n AI\n Hardware\n 595字\n 2026-10-21\n Omarchy File Previewer 文件预览插件\n 我的第二十个 Omarchy 插件\nOmarchy默认的文件预览功能有几个缺陷\n 预览窗口经常因为鼠标移动而丢失键盘焦点，导致关闭预览 ...\n Omarchy\n 220字\n 2026-10-18\n 机会是创造出来的\n 很多人都羡慕别人创业成功，说别人是因为更聪明、有资源或者运气更好，轮到自己，就是没资源，没条件，没运气\n今天我要给大家分享一个反直觉的创业秘籍，机会不 ...\n Business\n Think\n 1,174字\n 2026-10-14\n 小公司不要把精力都花在内部管理上\n 很多小公司刚刚步入正轨，老板就开始觉得公司不够正规，要向大公司学习，建制度，搞流程，上考核。\n忙了一圈，员工越来越忙，用户越来越少，老板还觉得是不是管 ...\n Business\n Think\n 881字\n 2026-10-13\n Omarchy Switch Display 显示器切换插件\n 我的第十九个 Omarchy 插件\nOmarchy 生态的 hyprmoncfg 非常好用， 但是 Omarchy 生态的 Win + P 切换显示器 ...\n Omarchy\n 358字\n 2026-10-12\n Omarchy Screenshot 新增延迟截图功能\n Omarchy Screenshot 增加了延迟截图的功能\n默认 Ctrl Alt A 会直接启动 Omarchy Screenshot\n今天加了 ...\n Omarchy\n 118字\n 2026-10-12\n 莫行大善\n 中国古话叫莫行大善，年轻的时候觉得这句话很装逼，不明所以，现在年纪大了，反而觉得非常深刻\n什么意思呢？\n以开源项目为例，开源项目首先是自己喜欢的事情 ...\n Think\n 555字\n 2026-10-12\n AI 时代的承载力\n AI 时代，光有编程能力已经没有竞争力了\nAI 时代，技术和产品的执行成本已经非常低了，如果要更好的生活，更有竞争力，就需要锻炼更多的广度和认知\n很 ...\n AI\n Think\n 1,193字\n 2026-10-12\n 做好生意，光有好产品还不够\n 我看推的很多人，要不就在说 AI 很厉害，要不就在说以后不做软件了\n推特上很多大佬，其实只是技术很强，但是你们并不明白生意的本质是什么。所以说你们有了 ...\n Business\n AI\n 996字\n 2026-10-11\n GLM 5.3 Flash 的安全研究能力很强大\n GLM 模型在安全研究方面的能力太牛逼了！\n昨天向 Omarchy 插件商店提交 omarchy-desktop-top 这个插件，Omarchy 的 ...\n AI\n 703字\n 2026-10-07\n 用设计图加速AI编程\n 跟你分享一下我 AI 编程快的秘诀\n 先把所有的想法/素材/混乱都先灌给AI，让AI充分知道信息\n 这一步最关键，不要 ...\n AI\n 258字\n 2026-10-06\n Omarchy Git Sync 插件同步工具\n 我的第十八个 Omarchy 插件\n我自己给 Omarchy 写了很多插件，同时我又在多台电脑上用 Omarchy 开发软件， 在我提交插件到 Oma ...\n Omarchy\n 203字\n 2026-10-05\n Omarchy Desktop Top 桌面系统监视器\n 我的第十七个 Omarchy 插件\n上一个插件主要解决接娃的接地气需求，这个插件主要解决黑客的酷炫装逼需求\nOmarchy Desktop Top ...\n Omarchy\n 170字\n 2026-10-05\n Omarchy 桌面插件优化\n Omarchy Desktop Clock 和 Omarchy Desktop Top 这两个插件太好看了，导致我录制即将发布的 Omarchy 插件 ...\n Omarchy\n 191字\n 2026-10-05\n Omarchy Desktop Clock 桌面时钟\n 我的第十六个 Omarchy 插件\nOmarchy Side Panel 让我的 Omarchy 非常非常全屏、干净，效率得到了最大的提升\n但是没有 ...\n Omarchy\n 213字\n 2026-10-05\n Omarchy Wave 桌面音律动画\n 我的第十五个 Omarchy 插件\n前几天在推特上看到其他 Hypr 发行版有个大佬整了一个桌面音乐控件，非常眼馋\n因为平常写代码累的时候，就喜欢听 ...\n Omarchy\n 308字\n 2026-10-04\n Omarchy Side Panel 侧边任务栏\n 我的第十四个 Omarchy 插件\nOmarchy默认的任务栏在多显示器上并不是最优解\n 浪费多显示器纵向空间，我喜欢所有显示器都全屏的感觉\n ...\n Omarchy\n 421字\n 2026-10-04\n Omarchy Screenshot 新增 Pin 功能\n 最新的 Omarchy Screenshot 终于把 Pin 的功能加上了， 现在方便临时对比一些界面了\n而且这个 Pin 的界面可以在多个显示器任意 ...\n Omarchy\n 80字\n 2026-10-04\n Omarchy Days 日历插件\n 我的第十三个 Omarchy 插件\nOmarchy 现有社区的大部分都是外国人，不能理解中国大陆这种每年一变的调休安排，特别是我这种工作狂，总是忘记明 ...\n Omarchy\n 195字\n 2026-10-04\n Omarchy Screenshot 的长截图交互设计\n Omarchy Screenshot 马上要支持任意位置、任意程序的长截图了。\nOmarchy 社区那些截图工具的长截图交互设计简直反人类，总要问用户 ...\n Omarchy\n 231字\n 2026-10-01\n 关于 vLLM VS TensorFold 的性能真相\n 最近移植了40 多个 AI 大模型，已经小有心得，这两天也深入研究了 TensorFold 这个框架，和大家分享一下 vLLM 和 TensorFold ...\n AI\n 635字\n 2026-09-30\n Omarchy Screenshot 截图工具\n 我的第十二个 Omarchy 插件\nOmarchy 生态的截图工具做的太垃圾了：\n 不支持跨显示截屏，只能截取当前显示器的截图\n 不支持马赛克 ...\n Omarchy\n 239字\n 2026-09-30\n Omarchy Startup Map 启动管理插件\n 我的第十一个 Omarchy 插件\n家里的多显示器，每次启动都需要手动在习惯的屏幕启动制定的应用，做了一个启动管理程序，可以方便的控制应用在制定的显示 ...\n Omarchy\n 286字\n 2026-09-27\n 自动化移植AI模型的方法\n 问题\n @manateelazycat 好奇一个细节：模型移植/优化这种长任务，AGENTS.md 里最关键的约定是哪条？我跑代码类 agent ...\n AI\n Tech\n 270字\n 2026-09-27\n 创业这些年，我发现的五件反直觉的事\n 晚上和武汉的一个朋友聚会，他问了我一个问题，你创业这些年，有什么事情是大众的认知是反的，能不能分享一下？\n我说，这个问题我要想一想，喝了几杯酒，我说有 ...\n Business\n Think\n 1,507字\n 2026-09-27\n Omarchy Language Switcher 语言切换插件\n 我的第十个 Omarchy 插件\n做产品，经常需要切换系统语言去检查英文版的细节，AI跟我说 Omarchy 没有图形化的语言切换程序，要用命令行帮我 ...\n Omarchy\n 175字\n 2026-09-26\n Omarchy Display Reset 显示器信号重置插件\n 我的第九个 Omarchy 插件\n在多显示器的时候，Nvidia的显卡总是会在 Omarchy 锁屏后把信号丢失了，导致我4个显示器底部的两个显示器总 ...\n Omarchy\n 345字\n 2026-09-26\n 英伟达光模块速率提升研究\n 这两天在折腾两台算力舱之间的四条 25G 光口。四条线都通，测速却只有 12～14Gbps；另一组同样的机器能跑到 17～18Gbps，差得有点多。\n ...\n Hardware\n Tech\n 402字\n 2026-09-24\n Omarchy Color Picker 简单易用的屏幕取色器\n 我的第八个 Omarchy 插件\nOmarchy 社区的屏幕取色器都太难用了，我自己从零设计了一个， 点击右上角的图标，光标直接变成屏幕放大镜，移动光 ...\n Omarchy\n 156字\n 2026-09-23\n Omarchy 插件卸载后所有快捷键失效的排查\n 今天试用了一个 Omarchy Workspace Manager 插件，发现不符合自己的需求后就卸载了。结果卸载完以后，Alt + Tab、Super ...\n Omarchy\n 930字\n 2026-09-22\n Omarchy Terminal Clipboard 终端按键重定向\n 我的第六个 Omarch 插件\n我日常用的终端主要有两个： lazycat-terminal 本地快速做研究，LightOS 主要手机和电脑多端远程 ...\n Omarchy\n 393字\n 2026-09-22\n Omarchy Fcitx Status 输入法指示器\n 我的第七个 Omarchy 插件\nrime-ice-installer 解决了中文用户一键搞定输入法安装的问题，但是 Omarchy 的托盘区域没有中 ...\n Omarchy\n 272字\n 2026-09-22\n Omarchy Workspace Gallery 像 GNOME Shell 一样管理工作区\n 我的第五个 Omarchy 插件\n大家是不是都怀念 10 多年前 GNOME 3 最开始发布时带来的惊艳？最惊艳的就是它的工作区预览模式，可以随意地在 ...\n Omarchy\n 257字\n 2026-09-21\n Omarchy Window Switcher 带预览的窗口切换器\n 我的第一个 O",
+   "github_links": [
+    "em",
+    "manateela",
+    "manateelazycat"
+   ],
+   "subpages": {
+    "https://manateelazycat.github.io/projects.html": "ManateeLazyCat \n Tags \n Projects \n Search \n Feeds \n About \n强烈推荐的项目 \n emacs-application-framework\n EAF使用了X11 XReparent技术和PyQt5实现了嵌入任意图形程序到Emacs的窗口中，并与Emacs现有生态形成协作，实现我多年Live in Emacs的小梦想。\n Emacs的框架和历史包袱使其无法很好的支持多线程和多媒体应用，EAF这种无侵入的技术，在给Emacs带来多媒体能力的情况下，保留了Emacs Elisp现有的插件生态和黑客文化。\n lsp-bridge\n lsp-bridge 的目标是实现 Emacs 生态中性能最快的 LSP 客户端。\n lsp-bridge 使用 Python 多线程技术在 Emacs 和 LSP 服务器之间构建高速缓存，在提供行云流水的代码补全体验的前提下，保证永远不会卡住 Emacs。\n cloel\n Cloel 是一个结合 Clojure 和 Elisp 的协同编程框架， 利用 Clojure 的生态和多线程能力来扩展 Emacs。\n Cloel 利用 Clojure 的多线程和JVM生态来开发Emacs插件， 在解决性能问题的同时， 保证外部插件的体感也是 Lisp 风格。\n deno-bridge\n 一款基于 Deno 运行时的编程框架， 使得 Emacs 可以使用 TypeScript/JavaScript 编写 Emacs 插件。\n 基于 deno-bridge, 我们可以在 Emacs 中执行 JavaScript 或 TypeScript 代码并且不需要修改 Emacs 的源代码。 它给 Emacs 带来了 强大的 TypeScript 生态工具和编程能力。\n aweshell\n 基于eshell开发的终端管理器插件，包括Shell命令补全、ZSH风格提示符、底部固定终端、Fish风格最佳匹配建议、语法高亮Cat命令、命令状态提示等高级功能。现在是我最常用的终端插件。\n blink-search\n blink-search是一个多源搜索框架， 有helm的能力和ivy般的性能， 利用Python多线程技术，所有的搜索过滤都在Python端执行， Emacs只渲染搜索结果的可视区域和执行最终的命令， 所以 blink-search 应该是 Emacs 社区中搜索性能最快的搜索框架。\n color-rg\n 原来一直使用color-moccur.el做项目智能重构工具，但是一直有很多小问题，在随州大银杏树旁写了color-rg.el，这个插件主要基于ripgrep实现了项目、目录和单文件的快速搜索，并集成了批量替换和快速过滤等方便的功能。每天我都极度依赖这个插件进行源码分析和重构工作。\n fingertip\n 基于 treesit 生成的AST来实现语法结构编辑，比awesome-pair原理基础更坚固，适应的语言范围更广。\n sort-tab\n sort-tab相对于awesome-tab有两个优势：基于使用频率排序标签和更好的纵向空间利用率，我现在已经用sort-tab替换awesome-tab了。\n holo-layer\n holo-layer是一个利用PyQt和多线层技术构建的全息多媒体图层Emacs插件，通过holo-layer的Qt技术， 我们可以实现类似Neovide那样的果冻光标动效， 更加符合直觉的窗口边框， 实时翻译等惊人惊叹的效果， 将来甚至会实现现代化的标签栏和Org-Mode多媒体文档实时预览等效果。\n mind-wave\n mind-wave是基于ChatGPT开发的AI插件， 支持连续对话、快速翻译、文档润色、修复错别字、代码重构、增加代码注释、解释代码、网站或视频摘要等功能。\n markmacro\n markmacro灵活结合 Emacs 其他插件的编辑能力， 我们可以快速清洗数据成期望的格式， 提升我们日常的编程效率。 同时， 这个插件是基于键盘宏来实现的， 整个数据清洗的过程不管数据格式发生了怎样的变化， 都是用几个基础的函数来组合实现， 大大降低了心智负担。\n awesome-tray\n Emacs的Mode-Line太多冗余信息，其实日常用只需要光标位置、当前位置和模式、电源和时间状态。awesome-tray隐藏了Mode-Line，只把必备信息显示在Minibuffer右侧，既节省纵向代码阅读空间又不会影响Minibuffer正常消息显示。\n one-key\n one-key提供按键组的功能，一组自定义命令只占用一个全局按键，主要解决插件太多时全局按键不够用的问题。同时内置的菜单帮助系统可以在你不记得快捷键的时候， 通过 ？ 按键给予必要的提示。\n lazy-load\n lazy-load主要通过define-key和autoload技术事先把快捷键和命令建立关联，在运行时通过按键动态加插件。因为每个插件的加载速度都在1秒之内完成，通过lazy-load技术可以实现1秒启动Emacs、减少不用插件的内存占用、动态加载插件的效果。我几百个插件启动速度最终可以控制在1秒内加载完毕。\n python-bridge\n EAF、lsp-bridge、mind-wave、blink-search等项目背后的支持技术， 我们可以通过python-bridge项目， 快速实现用Python来扩展Emacs的能力， 包括图形、浏览器和多线程等。\n英语学习插件 \n popweb\n 基于浏览器技术开发的弹窗翻译插件，要比SDCV美观的得多，联网的时候是一个更好的方案。\n company-english-helper\n 通过company-mode和星际译王词典，实现英文单词单词和词语补全，并同步显示每个单词和词语的中文翻译。因为整个词典默认都加载到内存，整个补全流程异常流畅舒适。\n insert-translated-name\n 作为一个中国程序员，世界上最难的事情不是写好一个算法，而是在纷繁的现实逻辑中取一个恰当的名称。这个插件会让你直接输入中文，按下空格自动翻译，因为它能够识别你是写文档还是某个编程语言的语境，基本上按了空格，变量、函数名和注释区域都可以直接生成对应的英文。\n实用小插件 \n auto-save\n 我记得很多年前在成都写程序，因为停电导致写了几天的源代码全部丢失，而且Emacs默认的备份文件太不好用。随即写了这个自动保存插件，当手指头一松，Emacs会趁你思考的空隙自动保存文件，至此十多年期间再也没有丢过源代码。\n thing-edit\n 我们经常要复制很多东西，比如符号、单词、文件名、链接、括号内内容、当前行、段落等内容，如果每个内容，我们都需要手动移动光标来选中开始和结束区域，效率会非常低。thing-edit.el提供了大量内置的复制和剪切命令，不用移动光标，只用调用响应的命令即可快速复制和剪切当前光标下的对象。每天使用上百次的必备插件。\n move-text\n 简单直接，移动当前行或选中内容，快速进行上下移动，不用傻傻的粘贴复制，提高代码编写效率。\n key-echo\n Emacs本身的",
+    "https://manateelazycat.github.io/about.html": "ManateeLazyCat \n Tags \n Projects \n Search \n Feeds \n About \n About Me\n 一个放荡不羁、 努力追求简单生活的人\n IT 技能\n 擅长研究用户心理, 可以快速从 0 到 1 构建交互体验极佳的产品\n 全能选手， 上到客户需求沟通、 研发团队管理， 下到接网线写代码...\n 自学能力极强、 精力旺盛， 平常没事就喜欢看书玩会儿电脑\n 擅长领域\n Emacs\n Linux 操作系统\n 自驾探险\n 编程语言\n 顶级水准: Elisp、 Vala\n 超级熟练： Python、 Haskell、 JavaScript、 TypeScript\n 商业代码水准： C++、 Golang、 Ruby、 Java、 Clojure\n StackOverflow 水准： Rust、 Lua、 OCaml、 Swift、 Perl\n 电脑环境\n 笔记本： ThinkPad, 以前最喜欢的 Dell G16 （带 Cherry 机械键盘的笔记本） CPU炸了\n 台式机： AMD 9950X， Nuphy矮轴机械键盘， 雷神 ML903 无线充电鼠标\n 系统环境： Omarchy\n 开发环境： Emacs + lazycat-terminal\n 商业所需： WPS + Chrome + 微信\n 开源贡献\n Emacs \n Deepin \n Haskell、 Gtk2Hs、 Manatee \n Other \n 商业合作原则\n 合作共赢， 我能帮你什么？\n 永远都认为别人是聪明人， 知道套路， 但是不套路别人\n 勤奋努力是正道， 那些看着很美好的事情都暗藏套路和诱惑\n 时间分配\n 创建锂钠氪锶： 交朋友、 喝酒、 读书思考, 卖我家的 懒猫微服 \n AI创作产品： codex + lazycat-terminal\n 折腾 Emacs： 主要都在编写我的 EAF 和 lsp-bridge 等插件\n 陪家人找好吃好玩的， 嘻嘻哈哈\n 性格\n 真诚， 追求简单真实， 自黑幽默\n 不喜欢玩套路的人, 不喜欢无趣的人\n 希望有一天可以过采菊东篱下的生活\n 喜欢的人\n 1. Richard Stallman: 世界上现存的顶尖黑客， 虽然有时候很极端， 但是 RMS 老人家在计算机哲学上有很多深入的思考\n 2. John Carmack: 我命由我不由天， 最敬佩他的学习能力和动手能力， 有啥困难直接去解决， 不给自己设限制\n 3. 王阳明: 人生最低落的时候看他的书明白了， 至善至真， 只要内心活洒脱了活明白了， 人生的很多事情自然就顺了\n 4. 费曼: 永远保持好奇心， 不装有趣， 很敬佩费曼可以用最简单的语言讲解复杂的原理概念\n 博客字体\n 很多朋友都在问博客用的什么字体， 博客用的字体是仓耳今楷， 这款字体温润明晰而不喧宾夺主， 字形的修饰克制又不失风范， 字体粗细控制的恰到好处， 非常适合中文阅读, 希望你也喜欢。\n 感谢支持\n 如果我的博客对你有帮助，欢迎购买我公司的AI硬件产品 https://lazycat.cloud \n 我的推特\n https://x.com/manateelazycat \n 有事没事， 欢迎和我聊聊人生扯扯淡\n lazycat dot manatee at gmail dot com"
+   },
+   "feed": {
+    "url": "https://manateelazycat.github.io/feed.xml",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "128GB 推理设备的 AI 模型推理引擎怎么选？",
+      "date": "2026-10-21T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/21/128gb-ai-inference-engines/"
+     },
+     {
+      "title": "Omarchy File Previewer 文件预览插件",
+      "date": "2026-10-18T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/18/omarchy-file-previewer/"
+     },
+     {
+      "title": "机会是创造出来的",
+      "date": "2026-10-14T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/14/create-your-own-opportunities/"
+     },
+     {
+      "title": "小公司不要把精力都花在内部管理上",
+      "date": "2026-10-13T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/13/small-company-internal-management/"
+     },
+     {
+      "title": "AI 时代的承载力",
+      "date": "2026-10-12T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/12/ai-era-responsibility/"
+     },
+     {
+      "title": "莫行大善",
+      "date": "2026-10-12T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/12/boundaries-of-kindness/"
+     },
+     {
+      "title": "Omarchy Screenshot 新增延迟截图功能",
+      "date": "2026-10-12T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/12/omarchy-screenshot-delay/"
+     },
+     {
+      "title": "Omarchy Switch Display 显示器切换插件",
+      "date": "2026-10-12T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/12/omarchy-switch-display/"
+     },
+     {
+      "title": "做好生意，光有好产品还不够",
+      "date": "2026-10-11T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/11/good-products-and-business/"
+     },
+     {
+      "title": "GLM 5.3 Flash 的安全研究能力很强大",
+      "date": "2026-10-07T00:00:00+08:00",
+      "url": "https://manateelazycat.github.io/2026/10/07/glm-53-flash-security/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://lazycat.cloud/",
+   "ok": true,
+   "title": "懒猫微服",
+   "description": "懒猫微服是一款专为开发者和技术爱好者打造的私有云解决方案。它结合了强大的AI计算能力和领先的LZCOS操作系统，提供超安全内网穿透、NAT穿透、零信任硬件设计，以及一站式应用商店。告别传统NAS的繁琐，享受安全、稳定与便捷的个人数据中心体验。",
+   "stack": [
+    "Nuxt",
+    "Tailwind CSS",
+    "React",
+    "Vue"
+   ],
+   "hosting": [],
+   "lang": "zh",
+   "home_text": "首页 懒猫AI算力舱 懒猫微服 懒猫AI摄像头 应用商店 攻略 下载 AI 助手 开发者 关于 \n 购买 \nAI时代，尽情创作 \n懒猫，顶尖工程师的私有AI基础设施 \nAI时代，尽情创作 \n懒猫，顶尖工程师的私有AI基础设施 \n懒猫 AI 算力舱 \nAI 算力中心\n2070T算力、128GB超大显存、支持284B大模型 \n 进一步了解 立即购买 \n懒猫 AI 算力舱 \nAI 算力中心 \n2070T算力、128GB超大显存、支持284B大模型 \n 进一步了解 立即购买 \n懒猫微服 \nAI 数据中心\n7 盘位全固态，高性能标压处理器，最高支持 96TB 存储 \n 进一步了解 立即购买 \n懒猫微服 \nAI 数据中心\n7 盘位全固态，高性能标压处理器，最高支持 96TB 存储 \n 进一步了解 立即购买 \n懒猫AI摄像头 \n潮玩外观，私有存储，AI加持，无限可能 \n 进一步了解 立即购买 \n懒猫AI摄像头 \n潮玩外观，私有存储，AI加持，无限可能 \n 进一步了解 立即购买 \n懒猫微服操作系统 \nAI 智算引擎\n业界领先的操作系统、基于 Debian、三层架构超稳定、防黑客攻击 \n 进一步了解 \n懒猫微服操作系统 \nAI 智算引擎 \n业界领先的操作系统、基于 Debian、三层架构超稳定、防黑客攻击 \n 进一步了解 \n懒猫应用商店 \nAI 应用中心\n最大私有云应用商店，超 3000 款应用一键安装 \n 进一步了解 \n懒猫应用商店 \nAI 应用中心\n最大私有云应用商店，超 3000 款应用一键安装 \n 进一步了解 \n懒猫 AI 浏览器 \nAI 数据分析引擎\n基于 Chromium 打造\n手机版支持插件安装，隐私安全 \n 进一步了解 \n懒猫 AI 浏览器 \nAI 数据分析引擎\n基于 Chromium 打造，手机版支持插件安装，隐私安全 \n 进一步了解 \n我们的价值观 \n处处有体现 \n 进一步了解 \n我们的价值观 \n处处有体现 \n 进一步了解",
+   "github_links": [],
+   "subpages": {
+    "https://lazycat.cloud/about": "[首页](https://lazycat.cloud/)[懒猫AI算力舱](https://lazycat.cloud/ai-pod)[懒猫微服](https://lazycat.cloud/lcmd)[懒猫AI摄像头](https://lazycat.cloud/camera)[应用商店](https://lazycat.cloud/appstore)[攻略](https://lazycat.cloud/playground)[下载](https://lazycat.cloud/download)[AI 助手](https://lazycat.cloud/chat)[开发者](https://lazycat.cloud/developer)[关于](https://lazycat.cloud/about)\n购买\n# 关于  \n懒猫微服\n# 关于  \n懒猫微服\n武汉锂钠氪锶科技有限公司（简称\"锂钠氪锶\"）于2019年应运而生，自成立之初便将创新与服务融入企业发展脉络。公司研发人员占比超85%，精英云集的研发团队坐镇于\"九省通衢\"武汉的光谷金融港园区，这里不仅是地理枢纽，更是科技资源汇聚的高地。\n公司核心团队由操作系统、编译器、浏览器及芯片等领域的顶尖技术专家组成。公司核心人员人均拥有超十年的操作系统与基础软件研发经验，在技术的\"深水区\"长期探索，对底层架构、编译原理、芯片协同等关键技术有着精深理解。\n秉持\"捍卫用户数据自主权、降低创新门槛、构筑开放生态系统\"的使命理念，锂钠氪锶稳步前行。我们坚信用户应主宰自己的数字资产，借助自主研发的家庭微服产品等解决方案，用户能自主管理数据、程序及访问权限，摆脱单一服务的禁锢。同时，我们将计算资源分散至家庭，大幅降低个人开发者创业成本，让创新聚焦于创意本身。在生态构建上，坚决摒弃商业壁垒，拥抱开源技术与开放协议，促进硬件兼容，打造无缝数字中枢。\n作为武汉高新技术企业的标杆，公司已顺利通过高新技术企业、双软企业、瞪羚企业、科技型中小企业认定，荣获AAA企业信用等级，通过ISO9001质量管理体系认证。目前持有23项软件著作权，覆盖数据管理、系统优化等关键软件技术；5项发明专利，涉及底层架构创新与核心算法突破；1项外观设计专利，兼顾美学与功能。\n锂钠氪锶以坦诚态度面对用户与行业伙伴，以开放姿态汇聚创新力量，凭借深厚技术积累与先进理念，持续为家庭微服产品赋能。我们矢志不渝，让每一位用户都能通过我们的产品，真正实现对自身数字资产的完全掌控，开启数字生活新征程。\n## 使命理念\n用户数据自主权，我们相信用户应该完全掌控自己的数字资产。 通过家庭服务器， 您可以自主管理数据、 程序和访问权限。 这不仅保护隐私， 还让您可以自由选择和切换应用， 不被单一服务锁定。 我们希望通过这种方式， 为用户提供更多选择， 激发市场活力。\n## 开放生态系统\n我们致力于构建一个开放的生态系统。 我们反对因商业考虑而设置的人为壁垒， 这些壁垒限制了设备间的互联互通。 相反， 我们拥抱开源技术和开放协议， 鼓励开发者充分利用各种 API， 促进不同品牌硬件的兼容性。 我们的目标是为用户创造一个无缝连接的数字中枢。\n## 降低创新门槛\n我们希望让个人开发者也能轻松创业。 通过将计算资源分散到家庭， 我们降低了创业成本。 这样， 开发者可以专注于创意和服务质量， 而不是资本竞争。 我们相信， 这将带来更多样化的服务， 满足用户多元需求， 同时也为经验丰富的开发者提供更多机会。\n## 联系我们\n联系地址：湖北省武汉市东湖新技术开发区光谷大道77号B27栋501\n联系电话：027-65520696\n联系邮箱：[feedback@lazycat.cloud](mailto:feedback@lazycat.cloud)\n工作时间：每周一到周五 9:00 - -18:00\n懒猫微服\n购机优惠\n## 关注我们\n[](https://v.douyin.com/asOsv3yKc7U/)[](https://www.xiaohongshu.com/user/profile/63db8c7500000000260…)\n## 电商平台\n[](https://mall.jd.com/index-12717665.html)[](http://t.weimob.com/C4_UMfD)[](https://shop.lcmd.cloud/collections/lc)\n产品\n服务\n商店与学习\n关于\nCopyright © 2026 武汉懒猫微服科技有限公司\n[鄂ICP备2023030520号-1](https://beian.miit.gov.cn/)\n[鄂公网安备42018502007084](https://beian.mps.gov.cn/#/query/webSearch?code=42018502007084)\n## 产品\n*   [LC-03](https://item.jd.com/10185844259779.html)\n## 服务\n*   [微信群](https://lazycat.cloud/about)\n*   [用户指南](https://lazycat.cloud/guide)\n## 商店与学习\n*   [商店](https://lazycat.cloud/appstore/)\n*   [攻略](https://lazycat.cloud/playground)\n*   [开发者中心](https://developer.lazycat.cloud/)\n*   [论坛](https://bbs.lazycat.cloud/)\n## 关于\n*   [公司简介](https://lazycat.cloud/about)\n*   [联系我们](https://lazycat.cloud/contact)\n*   [加入我们](https://lazycat.cloud/join-us)\n*   [法律声明](https://lazycat.cloud/legal)\nCopyright © 2026 武汉懒猫微服科技有限公司[鄂ICP备2023030520号-1](https://beian.miit.gov.cn/)\n[鄂公网安备42018502007084](https://beian.mps.gov.cn/#/query/webSearch?code=42018502007084)"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "manateelazycat",
+  "user": {
+   "name": "Andy Stewart",
+   "company": "http://www.linakesi.com",
+   "blog": "https://manateelazycat.github.io",
+   "location": "China",
+   "bio": "Linux, Emacs开源社区从业二十余载\r\n懒猫微服CEO， 不端不装， 仗剑走天涯\r\n客官喜欢， 欢迎买我家的懒猫微服 https://lazycat.cloud/",
+   "public_repos": 160,
+   "followers": 3169,
+   "created_at": "2010-04-05T21:41:57Z",
+   "twitter_username": "manateelazycat",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "manateelazycat/lsp-bridge",
+    "description": "A blazingly fast LSP client for Emacs",
+    "stargazers_count": 1754,
+    "forks_count": 240,
+    "language": "Emacs Lisp",
+    "homepage": "",
+    "created_at": "2022-05-03T00:08:34Z",
+    "pushed_at": "2026-09-17T09:23:42Z",
+    "topics": [
+     "codeium",
+     "copilot",
+     "elisp",
+     "emacs",
+     "lsp"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/lazycat-emacs",
+    "description": "Andy Stewart's emacs",
+    "stargazers_count": 495,
+    "forks_count": 82,
+    "language": "Emacs Lisp",
+    "homepage": "https://www.emacswiki.org/emacs/AndyStewart",
+    "created_at": "2016-03-08T13:14:01Z",
+    "pushed_at": "2026-02-23T04:12:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/aweshell",
+    "description": "Awesome shell extension base on eshell with wonderful features!",
+    "stargazers_count": 449,
+    "forks_count": 39,
+    "language": "Emacs Lisp",
+    "homepage": "",
+    "created_at": "2018-08-14T01:44:38Z",
+    "pushed_at": "2024-08-26T00:11:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/awesome-tab",
+    "description": "Emacs package to provide out-of-the-box configuration to use tabs.",
+    "stargazers_count": 389,
+    "forks_count": 40,
+    "language": "Emacs Lisp",
+    "homepage": "",
+    "created_at": "2018-09-17T14:14:05Z",
+    "pushed_at": "2026-01-07T09:28:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/snails",
+    "description": "A modern, easy-to-expand fuzzy search framework",
+    "stargazers_count": 383,
+    "forks_count": 33,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2019-05-17T14:41:57Z",
+    "pushed_at": "2022-11-01T11:47:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/awesome-tray",
+    "description": "Hide mode-line, display necessary information at right of minibuffer.",
+    "stargazers_count": 297,
+    "forks_count": 35,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2018-10-07T01:39:44Z",
+    "pushed_at": "2026-09-18T05:46:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/deepin-terminal",
+    "description": "Deepin Terminal written by vala",
+    "stargazers_count": 253,
+    "forks_count": 39,
+    "language": "Vala",
+    "homepage": null,
+    "created_at": "2016-01-30T06:10:14Z",
+    "pushed_at": "2018-05-14T03:49:46Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "manateelazycat/nox",
+    "description": "Nox is a lightweight, high-performance LSP client for Emacs",
+    "stargazers_count": 204,
+    "forks_count": 15,
+    "language": "Emacs Lisp",
+    "homepage": "",
+    "created_at": "2020-03-28T08:21:36Z",
+    "pushed_at": "2022-05-07T16:13:53Z",
+    "topics": [
+     "code-completion",
+     "code-refrences",
+     "emacs",
+     "intele",
+     "jump-define",
+     "language-server",
+     "lsp",
+     "lsp-client",
+     "mspyls",
+     "syntax-rename"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "manateelazycat/holo-layer",
+    "description": "HoloLayer is a multimedia layer plugin designed specifically for Emacs",
+    "stargazers_count": 200,
+    "forks_count": 18,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2023-08-11T00:29:36Z",
+    "pushed_at": "2026-02-04T14:37:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/color-rg",
+    "description": "Search and refactoring tool based on ripgrep.",
+    "stargazers_count": 183,
+    "forks_count": 36,
+    "language": "Emacs Lisp",
+    "homepage": "",
+    "created_at": "2018-08-26T16:20:41Z",
+    "pushed_at": "2026-03-24T08:21:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/popweb",
+    "description": "Show popup web window for Emacs",
+    "stargazers_count": 164,
+    "forks_count": 20,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2021-11-13T18:01:29Z",
+    "pushed_at": "2024-10-05T22:37:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/mind-wave",
+    "description": "Emacs AI plugin based on ChatGPT API",
+    "stargazers_count": 156,
+    "forks_count": 26,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2023-03-08T17:20:26Z",
+    "pushed_at": "2023-09-15T01:06:11Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "manateelazycat/insert-translated-name",
+    "description": "Insert translated string as variable or function name",
+    "stargazers_count": 137,
+    "forks_count": 21,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2018-09-22T03:00:24Z",
+    "pushed_at": "2024-05-14T18:47:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/blink-search",
+    "description": "In the blink of an eye, the search is complete",
+    "stargazers_count": 128,
+    "forks_count": 18,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2022-10-28T22:45:59Z",
+    "pushed_at": "2024-10-22T13:58:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/company-english-helper",
+    "description": "English helper base on Emacs company-mode",
+    "stargazers_count": 107,
+    "forks_count": 19,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2018-08-18T07:14:18Z",
+    "pushed_at": "2023-02-18T22:34:57Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "manateelazycat/auto-save",
+    "description": "Automatically save files without temporary files to protect your finger. ;)",
+    "stargazers_count": 92,
+    "forks_count": 19,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2018-12-15T09:00:18Z",
+    "pushed_at": "2026-01-12T03:08:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/awesome-pair",
+    "description": "Auto parenthesis pairing with syntax table",
+    "stargazers_count": 84,
+    "forks_count": 8,
+    "language": "Emacs Lisp",
+    "homepage": null,
+    "created_at": "2018-11-11T07:57:47Z",
+    "pushed_at": "2021-11-05T14:32:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "manateelazycat/manateelazycat.github.io",
+    "description": "My personal blog",
+    "stargazers_count": 84,
+    "forks_count": 25,
+    "language": "HTML",
+    "homepage": "",
+    "created_at": "2019-04-26T06:35:04Z",
+    "pushed_at": "2026-10-21T16:29:21Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 107,
+  "languages": [
+   [
+    "Emacs Lisp",
+    56
+   ],
+   [
+    "QML",
+    15
+   ],
+   [
+    "Python",
+    8
+   ],
+   [
+    "C++",
+    7
+   ],
+   [
+    "Vala",
+    3
+   ],
+   [
+    "JavaScript",
+    3
+   ],
+   [
+    "Go",
+    3
+   ],
+   [
+    "C",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "emacs-eaf/emacs-application-framework",
+    "stargazerCount": 3493,
+    "description": "EAF, an extensible framework that revolutionizes the graphical capabilities of Emacs",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "manateelazycat/lsp-bridge",
+    "stargazerCount": 1754,
+    "description": "A blazingly fast LSP client for Emacs",
+    "primaryLanguage": {
+     "name": "Emacs Lisp"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "manateelazycat/popweb",
+    "stargazerCount": 164,
+    "description": "Show popup web window for Emacs",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "manateelazycat/blink-search",
+    "stargazerCount": 128,
+    "description": "In the blink of an eye, the search is complete",
+    "primaryLanguage": {
+     "name": "Emacs Lisp"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "manateelazycat/color-rg",
+    "stargazerCount": 183,
+    "description": "Search and refactoring tool based on ripgrep.",
+    "primaryLanguage": {
+     "name": "Emacs Lisp"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "manateelazycat/sort-tab",
+    "stargazerCount": 60,
+    "description": "Smarter tab solution for Emacs, sort tab with using frequency.",
+    "primaryLanguage": {
+     "name": "Emacs Lisp"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 3386,
+  "orgs": [
+   "emacs-eaf"
+  ],
+  "profile_readme": "## Hi, I'm ManateeLazyCat\n\n### About Me\n\nI often use English name Andy Stewart, my Chinese name is 王勇.\n\nHere are some ideas to get you started:\n+ Self-study computer and programming technology\n+ Mobile game developer (2005 ~ 2007)\n+ Create a clothing factory (2007 ~ 2009)\n+ Pre-CTO of deepin operating system (2010 ~ 2018)\n+ Own several IT companies now (2019 ~ now)\n+ The CEO of [Lazycat MicroServer](https://lazycat.cloud/) (2019 ~ now)\n+ Like self-driving tour, live with kind wife and cute daughter\n+ A lot of hacking time on [EAF](https://github.com/emacs-eaf/emacs-application-framework), [lsp-bridge](https://github.com/manateelazycat/lsp-bridge), [cloel](https://github.com/manateelazycat/cloel), and [Omarchy](https://github.com/omacom/omarchy)\n\nSkills: Python、 C、 C++、 Emacs Lisp、 Haskell、 Golang、 Vala、 JavaScript、 Clojure、 Ruby、 Lua and more\n\nWelcome to my Chinese blog: [manateelazycat.github.io](https://manateelazycat.github.io/)\n\n### My Projects\nBelow are my open-source projects, welcome to fork!\n\n- **[emacs-application-framework](https://github.com/emacs-eaf/emacs-application-framework)** EAF, an extensible framework that revolutionizes the graphical capabilities of Emacs <img align=\"right\" alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/emacs-eaf/emacs-application-framework?style=social\">\n- **[lsp-bridge](https://github.com/manateelazycat/lsp-bridge)** A blazingly fast LSP client for Emacs <img align=\"right\" alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/manateelazycat/lsp-bridge?style=social\">\n- **[lazycat-emacs](https://github.com/manateelazycat/lazycat-emacs)** Andy Stewart's emacs <img align=\"right\" alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/manateelazycat/lazycat-emacs?style=social\">\n- **[lazycat emacs plugins](https://github.com/manateelazycat/lazycat-emacs/tree/master/site-lisp/extensions/lazycat)** 300+ Emacs plugins are maintained by me\n- **[aweshell](https://github.com/manateelazycat/aweshell)** Awesome shell extension base on eshell with wonderful features! <img align=\"right\" alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/manateelazycat/aweshell?style=social\">\n- **[awesome-tab](https://github.com/manateelazycat/awesome-tab)** Emacs package to provide out-of-the-box configuration to use tabs. <img align=\"right\" alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/manateelazycat/awesome-tab?style=social\">\n- **[snails](https://github.com/manateelazycat/snails)** A modern, easy-to-expand fuzzy search framework <img align=\"right\" alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/manateelazycat/snails?style=social\">\n- **[awesome-tray](https://github.com/manateelazycat/awesome-tray)** Hide mode-line, display necessary information at right of minibuffer. <img align=\"right\" alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/manateelazycat/awesome-tray?style=social\">\n- **[eaf-map](https://github.com/emacs-eaf/eaf-map)** OpenSt",
+  "readmes": {
+   "emacs-eaf/emacs-application-framework": "English | [简体中文](./README.zh-CN.md)\n<p align=\"center\">\n  <br>A free/libre and open-source extensible framework that revolutionizes the graphical capabilities of Emacs. <br>The key to ultimately <i>Live in Emacs</i>\n</p>\n## Vision\nEmacs, the extensible *text editor*, is more than 45 years old. It is older than virtually all operating systems people use today, almost as old as the first UNIX system. During the decades of development, the world's brightest hackers have contributed their intelligence and creativity. Together they've constructed the most comprehensive and richest ecosystem that you can find in any software to date.\nIf you are a hacker who works with numerous languages and text, who's keyboard-driven and desires maximum freedom, extensibility, and introspectivity over your tool, maybe to the extent of *living* in it, Emacs will be your best bet.\nUnfortunately, this 45 years of age is also one of the greatest disadvantages of Emacs. Comparing with modern software, Emacs lacks performance. Specifically Emacs Lisp lacks performance. It doesn't have proper multithreading and its graphical capabilities are seriously limited. It is far from what you'd expect from any GUI application today (such as IDEA or VSCode). You may think that Emacs, as a text-centric editor, doesn't need them, but have you ever run into a situation that, you sit comfortably typing commands and doing your Emacs sorcery, but can't help but ponder:\n    What if Emacs had a real browser?\n    What if this PDF or video file could be viewed efficiently without leaving Emacs?\nEmacs, although infinitely extensible in text, is very limited in graphics. It shouldn't have to be this way. However, Emacs Lisp is *the* integral part of the Emacs culture, it carries decades of history with itself, it is what makes Emacs special. It is irreplaceable.\nThe vision of the Emacs Application Framework (EAF) project is, while fully retaining the rich history, culture, and ecosystem of Emacs and Emacs Lisp, to open up completely new doors to the ecosystems of Python, Qt6, and even JavaScript. EAF extends Emacs to the world of modern graphics, but still preserving the extensibility and customizability of Emacs",
+   "manateelazycat/lsp-bridge": "<p align=\"left\">\n<a href=\"https://github.com/manateelazycat/lsp-bridge/actions/workflows/test.yml\"></a> <a href =\"https://github.com/manateelazycat/lsp-bridge/blob/master/README.zh-CN.md\"></a>\n<hr>\n  <a href=\"https://github.com/manateelazycat/lsp-bridge?tab=readme-ov-file#installation\"><strong>Installation</strong></a> •\n  <a href=\"https://github.com/manateelazycat/lsp-bridge?tab=readme-ov-file#supported-language-servers\"><strong>Support languages</strong></a> •\n  <a href=\"https://github.com/manateelazycat/lsp-bridge?tab=readme-ov-file#keymap\"><strong>Keymaps</strong></a> •\n  <a href=\"https://github.com/manateelazycat/lsp-bridge?tab=readme-ov-file#lsp-server-options\"><strong>Customize options</strong></a> •\n  <a href=\"https://github.com/manateelazycat/lsp-bridge?tab=readme-ov-file#join-development\"><strong>Join development</strong></a>\n<hr>\n# lsp-bridge\nThe goal of lsp-bridge is to implement the fastest LSP client in the Emacs ecosystem using multi-threading technology, with a plug-and-play design philosophy to save you time and effort, because time is money.\nAdvantages of lsp-bridge:\n1. Blazingly fast: Offload LSP request and data analysis to an external process, preventing Emacs from getting stuck due to delays or large data triggering garbage collection\n2. Remote Completion: Built-in support for remote server code completion, with various login methods such as passwords and public keys, supports tramp protocol and jump server, supports Docker\n3. Plug and play: Can be used immediately after installation, requires no additional configuration, no need to manually set up frontend completion, backend completion, or multi-backend integration configurations, code completion also works in org-mode src blocks\n4. Multi-server fusion: A simple JSON is all you need to combine multiple LSP Servers into one file that provides services for example Python which offers code completion with Pyright and diagnostic and formatting capabilities with Ruff\n5. Flexible Customization: Customizing LSP server options is as simple as using a JSON file, allowing different projects to have different JSON configurations with just a few lines of rules\n### The video explains the principle of ",
+   "manateelazycat/popweb": "# popweb\nI always wanted a fast and responsive pop-up window to display multimedia content in Emacs, this includes web translation tooltip, LaTeX preview for math equations, code completion, color picker, etc. The creation and success of the [Emacs Application Framework](https://github.com/emacs-eaf/emacs-application-framework) gave a solid foundation for this to happen.\nI consider `popweb` to be a sister project, and a lightweight version of EAF that particularly focuses on multimedia popup functionality, some portion of code is shared between the two projects.\n## Installation\n1. Install PyQt6: ```pip install PyQt6 PyQt6-Qt6 PyQt6-sip PyQt6-WebEngine PyQt6-WebEngine-Qt6``` (macOS need install `pyobjc` additionally)\n2. Install [python-epc](https://github.com/tkf/python-epc): ```pip install epc sexpdata```\n3. Install [browser_cookie3](https://github.com/borisbabic/browser_cookie3)(optional, for import cookies from browser): ```pip install browser_cookie3```\n4. Clone or download this repository (path of the folder is the `<path-to-popweb>` used below).\n5. In your `~/.emacs`, add the following lines:\n```elisp\n(add-to-list 'load-path \"<path-to-popweb>\") ; add popweb to your load-path\n;; Org-Roam ID link and footnote link previewer\n(add-to-list 'load-path \"<path-to-popweb>/extension/org-roam\")\n(require 'popweb-org-roam-link)\n;; LaTeX preview functionality\n(add-to-list 'load-path \"<path-to-popweb>/extension/latex\")\n(require 'popweb-latex)\n(add-hook 'latex-mode-hook #'popweb-latex-mode)\n;; Chinese-English translation popup\n(add-to-list 'load-path \"<path-to-popweb>/extension/dict\") ;\n(require 'popweb-dict)\n;; Anki note review popup\n(add-to-list 'load-path \"<path-to-popweb>/extension/anki-review\")\n(require 'popweb-anki-review)\n```\n## Usage\n* `popweb-latex-mode`: LaTeX math equations preview in `org-mode` and `latex-mode`.\n* `M-x popweb-dict-bing-pointer`: Translation at point with Bing\n* `M-x popweb-dict-bing-input`: Translation given an input with Bing\n* `M-x popweb-dict-youdao-pointer`: Translation at point with Youdao\n* `M-x popweb-dict-youdao-input`: Translation given an input with Youdao\n* `M-x popweb-dict-youglish-pointer`: Translation at point with youglish.com\n* ",
+   "manateelazycat/blink-search": "# blink-search\n<p align=\"center\">\n  <br><strong>In the blink of an eye, the search is complete!</strong>\n</p>\n<br>\nblink-search is the fastest multi-source search framework for Emacs.\nIt uses Python's threading technology to search candidates and offloads all the computation to external Python process, hence, the Emacs session itself stays always responsive, as it has very few things to do, such as, render candidates of visible area.\nblink-search will provide smooth completion experience without compromise to slow down emacs' performance.\n<p align=\"center\">\n  <br>Show search results in split window\n</p>\n<p align=\"center\">\n  <br>Show search results in popup window\n</p>\n## Installation\n1. Install Emacs 28 and above versions\n2. Install Python dependencies: `pip3 install epc requests`\n3. Install external tools: \n+ [fd](https://github.com/sharkdp/fd)\n+ [ripgrep](https://github.com/BurntSushi/ripgrep)\n+ [sqlite3](https://www.sqlite.org) (optional, for sqlite3 backend)\n+ [rga](https://github.com/phiresky/ripgrep-all) (optional, for searching pdf backend)\n4. Clone or download this repository (path of the folder is the `<path-to-blink-search>` used below).\n5. Add following code in your ~/.emacs:\n```elisp\n(add-to-list 'load-path \"<path-to-blink-search>\")\n(require 'blink-search)\n```\n## Usage\n1. Start blink-search: M-x blink-search\n2. C-u M-x `blink-search` to search current symbol\n3. Typed keyword to search from all backends\n4. Search current buffer when keyword starts with `#`\n5. Search current directory when keyword starts with `!`\n6. Press `Ctrl + m` to select candidate or press `Alt + QuickKey` to select candidate match QuickKey\n| Grep Buffer                                          | Grep Directory |\n| :--------:                                       | :----:                                                      |\n|  |  |\n## Keymap\n| Key      | Command                   | Description                                                                  |\n| :---     | :---                      | :---                                                                         |\n| C + n    | blink-search-candidate-select-next           | Select next candidate item                 ",
+   "manateelazycat/color-rg": "\n# What is color-rg?\ncolor-rg is a search and refactoring tool based on ripgrep.\nI'm a big fan of color-moccur.el, this extension's name is a tribute to\ncolor-moccur.el!\n## Installation\nClone or download this repository (path of the folder is the\n`<path-to-color-rg>` used below).\nIn your `~/.emacs`, add the following two lines:\n```Elisp\n(add-to-list 'load-path \"<path-to-color-rg>\") ; add color-rg to your load-path\n(require 'color-rg)\n```\nIf you use Mac, you also need to install\n[exec-path-from-shell](https://github.com/purcell/exec-path-from-shell)\n## Usage\nBind your favorite key to functions:\n| Function                                | Description                                                              |\n| :-------------------------------------- | :----------------------------------------------------------------------- |\n| color-rg-search-input                   | Search user's input with current directory                               |\n| color-rg-search-symbol                  | Search current symbol with current directory                             |\n| color-rg-search-input-in-project        | Search user's input in project                                           |\n| color-rg-search-symbol-in-project       | Search current symbol in project                                         |\n| color-rg-search-symbol-in-current-file  | Search current symbol in current file                                    |\n| color-rg-search-input-in-current-file   | Search user's input in current file                                      |\n| color-rg-search-project-rails           | Search user's input in rails project                                     |\n| color-rg-search-symbol-with-type        | Search current symbol with current directory and special file extensions |\n| color-rg-search-project-with-type       | Search user's input in project and special file extensions               |\n| color-rg-search-project-rails-with-type | Search user's input in rails project and special file extensions         |\n### Keymap for view mode\n| Key      | Description                                                                            |\n| :------: | :------------------------------"
+  }
+ },
+ "apps": []
+}

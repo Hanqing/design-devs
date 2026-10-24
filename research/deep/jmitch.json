@@ -1,0 +1,290 @@
+{
+ "handle": "jmitch",
+ "sites": [
+  {
+   "url": "http://jmitch.com",
+   "ok": true,
+   "title": "Justin Mitchell - I build things…",
+   "description": "I build things…",
+   "stack": [
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://crosspointreader.com",
+   "ok": true,
+   "title": "CrossPoint Reader - Open Source E-Reader Software for ESP32",
+   "description": "CrossPoint is open source e-reader software for ESP32 e-ink devices. Get it for the Xteink, reTerminal Sticky, M5Paper, LilyGo T5, and more.",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Plugins and Bluetooth are now available in CrossPoint Nightly.\nbuilt by readers, for readers\nCrossPoint is **the best way to read on the go**, built in the open, by the community. Get it for the Xteink, reTerminal Sticky, M5Paper, LilyGo T5, and more devices with every release.\nthe reading experience\n### Typography done properly.\nReal **justification** and **hyphenation**. Working **footnote links**, superscripts, and clean section breaks. The text layout you expect from a printed book, with **smoother anti-aliasing** and **faster page turns** in every release. You always **pick up where you left off** when you start reading again.\nyour whole shelf\n### Find any book in seconds.\nThe **Library** shows every book on the SD card, not just the ones you’ve opened. Sort by **Recent**, **Title**, or **Author**, with whatever you’re reading kept at the top. **Search** matches titles and authors together, so it doesn’t matter which folder a book is hiding in.\nmake it yours\n### Bring your own fonts.\nChoose the **typeface, size, margins, and line, word, and letter spacing** that feel right, from fonts like Noto Serif, Domitian, Libre Baskerville, and OpenDyslexic. If the one font you can’t read without isn’t there, the [font builder](http://crosspointreader.com/fonts) converts any font you own. On readers with external RAM, just drop a **TrueType font** onto the SD card and pick it from the menu.\nhola · ciao · hallo\n### Reads your language.\nThe community has translated CrossPoint into **nearly thirty languages**, from Spanish and German to Hebrew, Ukrainian, and Vietnamese. The reader lays out **right-to-left text** properly and **hyphenates each language by its own rules**. There’s even **Focus Reading** for readers who like a guided pace. If your language is missing, a translation is one of the easiest ways to contribute.Indic scripts aren’t supported yet.\nno cables needed\n### Books move over WiFi.\n**Drag and drop** books straight from your web browser, no cables or apps. Send from [Calibre](https://github.com/crosspoint-reader/calibre-plugins/releases/) with the CrossPoint plugin, or browse OPDS libraries right on the device. However you keep your library, someone in the community has built a path for it.\nalways in sync\n### Never lose your page.\n**Quick Resume** shows your page while the device sleeps, and waking drops you straight back into the book. **Bookmark** any passage, give it a name, and flip back in a tap. Finish a book, and CrossPoint **suggests what to read next**. If you read on more than one device, **KOReader sync** keeps them all on the same page.\nlook it up anywhere\n### Look up words offline\nLook up words without leaving your book or connecting to the internet. **Bring your own dictionary** in the StarDict format, then follow the [dictionary guide](https://crosspointreader.com/docs#dictionary) to add it to CrossPoint.\nalways getting better\n## A new release every month.\nUpdates are free, delivered over the air, and planned in the open. Follow along on the [roadmap](http://crosspointreader.com/roadmap), or live on the edge with [nightly builds](http://crosspointreader.com/insider).\n1.   1.0 February 2026\nThe 1.0 milestone: the new Lyra theme and in-firmware over-the-air updates.\n2.   1.1 February 2026\nImages in EPUBs, a web-based settings editor, the interface in eight languages, and more Lyra screens.\n3.   1.2 April 2026\nKerning and ligatures, footnote navigation, and an on-device EPUB optimizer.\n4.   1.3 May 2026\nCustom fonts, tilt-to-turn page turns, Focus Reading, and an OPDS overhaul with in-catalog search.\n5.   1.4 June 2026\nBookmarks, right-to-left reading, Quick Resume, and live font previews.\n6.   1.5 August 2026\nA built-in dictionary, faster book opening, what-to-read-next suggestions, and Arabic reading.\n7.   1.6 September 2026\nX4 Pro and PaperMono support, Reading Night Mode, transparent sleep screens, and styled dictionary definitions.\n8.   1.6.5 September 2026\nA Library for every book on the SD card, TrueType fonts, the Cover Grid home theme, word and character spacing, and X4 Classic support.\ncontributors around the world 264 contributors around the world\ncommunity forks built on CrossPoint 2,109 community forks built on CrossPoint\nchanges in the last major release 126 changes in the last major release\ndevices running CrossPoint 260,422 devices running CrossPoint\n### There’s more where that came from.\n**Tilt the device** to turn the page. **Themes** that restyle the whole interface, including a *",
+   "github_links": [
+    "crosspoint-reader"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "http://crosspointreader.com/blog/rss.xml",
+    "count_seen": 6,
+    "items": [
+     {
+      "title": "CrossPoint 1.6.5",
+      "date": "Sun, 27 Sep 2026 09:22:02",
+      "url": "https://crosspointreader.com/blog/release-1.6.5"
+     },
+     {
+      "title": "CrossPoint 1.6.0",
+      "date": "Sat, 05 Sep 2026 18:03:55",
+      "url": "https://crosspointreader.com/blog/release-1.6.0"
+     },
+     {
+      "title": "Custom Firmware for Dummies",
+      "date": "Wed, 26 Aug 2026 05:36:53",
+      "url": "https://crosspointreader.com/blog/custom-firmware-for-dummies"
+     },
+     {
+      "title": "CrossPoint 1.5.0",
+      "date": "Fri, 07 Aug 2026 07:58:11",
+      "url": "https://crosspointreader.com/blog/release-1.5.0"
+     },
+     {
+      "title": "A call for help",
+      "date": "Sat, 25 Jul 2026 22:00:57",
+      "url": "https://crosspointreader.com/blog/a-call-for-help"
+     },
+     {
+      "title": "CrossPoint Reader now has a blog",
+      "date": "Fri, 24 Jul 2026 12:36:53",
+      "url": "https://crosspointreader.com/blog/hello-world"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github_guess": true,
+ "github": {
+  "login": "crosspoint-reader",
+  "user": {
+   "name": "CrossPoint",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": null,
+   "public_repos": 14,
+   "followers": 351,
+   "created_at": "2026-01-12T11:17:15Z",
+   "twitter_username": null,
+   "type": "Organization"
+  },
+  "repos": [
+   {
+    "full_name": "crosspoint-reader/crosspoint-reader",
+    "description": "Open-source e-reader firmware",
+    "stargazers_count": 8484,
+    "forks_count": 2109,
+    "language": "C",
+    "homepage": "https://crosspointreader.com",
+    "created_at": "2025-12-03T11:01:12Z",
+    "pushed_at": "2026-10-23T14:10:16Z",
+    "topics": [
+     "e-reader",
+     "eink",
+     "epub",
+     "epub-reader",
+     "ereader",
+     "esp32",
+     "firmware"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/calibre-plugins",
+    "description": "Calibre Plugins for CrossPoint Reader",
+    "stargazers_count": 275,
+    "forks_count": 37,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-01-19T12:04:01Z",
+    "pushed_at": "2026-09-25T02:16:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/xteink-flasher",
+    "description": "Web based tool to help flash the Xteink device",
+    "stargazers_count": 140,
+    "forks_count": 21,
+    "language": "TypeScript",
+    "homepage": "https://xteink.dve.al",
+    "created_at": "2025-11-19T12:59:56Z",
+    "pushed_at": "2026-05-20T00:42:19Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "crosspoint-reader/crosspoint-sync",
+    "description": "Lightweight KoSync Server for Syncing Crosspoint/CrossInk stats & progress",
+    "stargazers_count": 88,
+    "forks_count": 26,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-07-13T03:16:14Z",
+    "pushed_at": "2026-10-23T12:11:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/crosspoint-simulator",
+    "description": "Simulate Crosspoint firmware without flashing onto your device",
+    "stargazers_count": 63,
+    "forks_count": 47,
+    "language": "C++",
+    "homepage": null,
+    "created_at": "2026-03-17T18:11:49Z",
+    "pushed_at": "2026-10-20T08:55:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/crosspoint-tools",
+    "description": "Website and tools for CrossPoint & Xteink devices",
+    "stargazers_count": 48,
+    "forks_count": 20,
+    "language": "JavaScript",
+    "homepage": "https://crosspointreader.com",
+    "created_at": "2026-05-15T16:02:43Z",
+    "pushed_at": "2026-10-20T15:40:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/crosspoint-fonts",
+    "description": null,
+    "stargazers_count": 27,
+    "forks_count": 3,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-05-09T00:20:36Z",
+    "pushed_at": "2026-10-13T22:02:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/Murphy",
+    "description": "Firmware Dumps & Initial Support Docs for Murphy (Hamgeek) M3/M4",
+    "stargazers_count": 18,
+    "forks_count": 6,
+    "language": "HTML",
+    "homepage": "",
+    "created_at": "2026-05-25T23:11:55Z",
+    "pushed_at": "2026-08-13T18:57:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/escape-hatch",
+    "description": "A minimal SD-Card firmware flasher for X3/X4 devices at just 400kb",
+    "stargazers_count": 17,
+    "forks_count": 6,
+    "language": "C++",
+    "homepage": null,
+    "created_at": "2026-06-23T05:30:23Z",
+    "pushed_at": "2026-09-28T19:01:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/crosspoint-plugin-hub",
+    "description": "Plugin Hub is a CrossPoint SD-card plugin that discovers, installs, and updates plugins without requiring the CrossPoint firmware repository to host or maintain the catalog.",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2026-10-01T17:56:48Z",
+    "pushed_at": "2026-10-23T21:29:59Z",
+    "topics": [
+     "crosspoint-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/crosspoint-assets",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2026-09-24T10:11:02Z",
+    "pushed_at": "2026-09-24T17:17:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "crosspoint-reader/crosspoint-reader.github.io",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "SCSS",
+    "homepage": null,
+    "created_at": "2026-05-11T17:32:51Z",
+    "pushed_at": "2026-05-11T20:05:42Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 12,
+  "languages": [
+   [
+    "Python",
+    2
+   ],
+   [
+    "TypeScript",
+    2
+   ],
+   [
+    "C++",
+    2
+   ],
+   [
+    "C",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "SCSS",
+    1
+   ]
+  ],
+  "profile_readme": "# CrossPoint Reader\n\n[![Fund contributors](https://img.shields.io/badge/%F0%9F%91%91_Fund_contributors-royalty.dev-BB953A?style=for-the-badge&labelColor=1a1a1a)](https://app.royalty.dev/crosspoint-reader/crosspoint-reader)\n\nCrossPoint is open-source e-reader firmware - community-built, fully hackable, free forever. It's maintained by a growing community of developers and readers who believe your device should do what you want - not what a manufacturer decided for you.\n\n### Now running on:\n\n- **ESP32C3-based** Xteink X4 and X3.\n- **ESP32S3-based** Xteink X4Pro and X4Classic, Seeed reTerminal Sticky, M5PaperMono, Metalio E-Ink 4, EEGOREAD A4 and Boox Picco.\n\nCheck [our Devices page](https://crosspointreader.com/devices) for the full list.\n\n![CrossPoint Reader running on Xteink device](./docs/images/cover.jpg)\n\n> If you're planning to buy an Xteink device, consider purchasing an **X3/X4 Developer Edition** through https://crosspointreader.com. CrossPoint receives a small share of each sale, helping fund development costs.\n\n## What can CrossPoint do?\n\n- **Reader engine**: EPUB 2/3 rendering with embedded-style option, image handling, hyphenation, kerning, adaptive table layouts, native CJK ruby annotations, chapter navigation, footnotes, bookmarks, dictionary lookups ([StarDict](docs/dictionary.md)), go-to-percent, auto page turn, orientation control, focus reading, KOReader progress sync and more.\n\n- **Various formats**: native handling for `.epub`, `.xtc/.xtch`, `.txt`, and `.bmp`.\n\n- **Touch reading**: follow EPUB links and look up words in the dictionary on touch-enabled devices.\n\n- **Highlights and clippings**: highlight text in EPUBs and save excerpts as clippings. Use the reader menu on button devices, or hold a word and drag the selection handles on touch devices. Look up selected words or phrases in the dictionary. Enable Sync Clippings to sync saved excerpts through a compatible CrossPoint Sync server. See [Clippings and Highlights](USER_GUIDE.md#53-clippings-and-highlights).\n\n- **Screenshots.**\n\n- **Custom fonts**: install your favorite fonts on the SD card.\n\n- **Tilt page turn (X3 and Sticky)**.\n\n- **Bluetooth page turners**: pair a remote under Settings → Connectivity → Bluetooth Page Turner. Map short and long presses to page turns, chapter navigation, the reader menu, or clipping selection.\n\n- **USB Drive mode (X4Pro)**: access the SD card as USB mass storage.\n\n- **Library workflow**: indexed title/author search, recently-added and alphabetical views, multilingual grouping, folder browser, recent books, and SD-cache management.\n\n- **Wireless workflows**:\n  \n  - File transfer web UI\n  - EPUB Optimizer\n  - Web settings UI/API (edit many device settings from browser)\n  - WebSocket fast uploads\n  - WebDAV handler\n  - AP mode (hotspot) and STA mode (join existing Wi-Fi), both with QR helpers\n  - Calibre wireless connect flow\n  - OPDS browser with saved servers (up to 8), search, pagination, and direct download\n  - OTA update checks and inst",
+  "readmes": {
+   "crosspoint-reader/crosspoint-reader": "# CrossPoint Reader\n[](https://app.royalty.dev/crosspoint-reader/crosspoint-reader)\nCrossPoint is open-source e-reader firmware - community-built, fully hackable, free forever. It's maintained by a growing community of developers and readers who believe your device should do what you want - not what a manufacturer decided for you.\n### Now running on:\n- **ESP32C3-based** Xteink X4 and X3.\n- **ESP32S3-based** Xteink X4Pro and X4Classic, Seeed reTerminal Sticky, M5PaperMono, Metalio E-Ink 4, EEGOREAD A4 and Boox Picco.\nCheck [our Devices page](https://crosspointreader.com/devices) for the full list.\n> If you're planning to buy an Xteink device, consider purchasing an **X3/X4 Developer Edition** through https://crosspointreader.com. CrossPoint receives a small share of each sale, helping fund development costs.\n## What can CrossPoint do?\n- **Reader engine**: EPUB 2/3 rendering with embedded-style option, image handling, hyphenation, kerning, adaptive table layouts, native CJK ruby annotations, chapter navigation, footnotes, bookmarks, dictionary lookups ([StarDict](docs/dictionary.md)), go-to-percent, auto page turn, orientation control, focus reading, KOReader progress sync and more.\n- **Various formats**: native handling for `.epub`, `.xtc/.xtch`, `.txt`, and `.bmp`.\n- **Touch reading**: follow EPUB links and look up words in the dictionary on touch-enabled devices.\n- **Highlights and clippings**: highlight text in EPUBs and save excerpts as clippings. Use the reader menu on button devices, or hold a word and drag the selection handles on touch devices. Look up selected words or phrases in the dictionary. Enable Sync Clippings to sync saved excerpts through a compatible CrossPoint Sync server. See [Clippings and Highlights](USER_GUIDE.md#53-clippings-and-highlights).\n- **Screenshots.**\n- **Custom fonts**: install your favorite fonts on the SD card.\n- **Tilt page turn (X3 and Sticky)**.\n- **Bluetooth page turners**: pair a remote under Settings → Connectivity → Bluetooth Page Turner. Map short and long presses to page turns, chapter navigation, the reader menu, or clipping selection.\n- **USB Drive mode (X4Pro)**: access the SD card as USB mass storage.\n- **Library ",
+   "crosspoint-reader/calibre-plugins": "# Calibre Plugins\nCalibre plugins for [CrossPoint Reader](https://github.com/crosspoint-reader).\n## Plugins\n### CrossPoint Reader\nA wireless device plugin that uploads EPUB files to CrossPoint Reader over WebSocket. The plugin auto-discovers devices on the local network via UDP broadcast.\nIt can also **optimize EPUBs before transfer** — mirroring the optimizer built into the CrossPoint web server — by resizing images to the device screen (X4 480×800 / X3 528×792, auto-detected), converting them to grayscale JPEG, and rewriting the container. The optimizer is based on the initial work by [@zgredex](https://github.com/zgredex), ported here from the firmware. Enable it in the plugin's settings; see the [usage instructions](crosspoint_reader/README.md#using-the-optimizer).\nSee [crosspoint_reader/README.md](crosspoint_reader/README.md) for protocol details, the optimizer, and configuration.\n## Installation\nDownload the latest release ZIP from the [releases page](https://github.com/crosspoint-reader/calibre-plugins/releases). Do not open or extract the ZIP; install the ZIP file itself in Calibre via **Preferences > Advanced > Plugins > Load plugin from file**.\n## Development\n### Setup\n```sh\n# Build and install the plugin into Calibre\nmake install\n# List all installed plugins\nmake list\n# Remove the plugin\nmake remove\n```\nSee [`calibre-customize` docs](https://manual.calibre-ebook.com/generated/en/calibre-customize.html) for more options.\n### Releasing\nThe version is read from the `version` tuple in `crosspoint_reader/driver.py`.\n```sh\n# Bump the version (updates driver.py in place)\nmake bump-patch   # 1.0.0 -> 1.0.1\nmake bump-minor   # 1.0.0 -> 1.1.0\nmake bump-major   # 1.0.0 -> 2.0.0\n# Package the plugin into a zip (crosspoint_reader-vX.Y.Z.zip)\nmake zip\n# Create a GitHub release with the zip attached (runs `make zip` first)\nmake release\n```\n`make release` uses the [GitHub CLI](https://cli.github.com/) (`gh`) to create a tagged release with auto-generated notes.\nTypical workflow:\n1. `make bump-patch` (or `bump-minor` / `bump-major`)\n2. Commit the version change\n3. `make release`\n### Project structure\n```\ncrosspoint_reader/\n  __init__.py   # Plugin entry point\n  driver",
+   "crosspoint-reader/xteink-flasher": ">[!NOTE] \n> This repo has been archived as https://xteink.dve.al/ will start redirecting to https://crosspointreader.com/\n---\n# Xteink Flasher\nWeb based tool to help flash the Xteink device.\n## Development\n1. Run `yarn install`\n2. Run `yarn dev`\n",
+   "crosspoint-reader/crosspoint-sync": "# crosspoint-sync\nA lightweight, self-hostable sync server for [CrossPoint / CrossInk](https://github.com) e-readers —\nand any KOReader device.\n- **100% KOSync-compatible.** Point stock KOReader or current CrossPoint firmware at it by changing\n  only the sync-server URL. Same accounts, same auth, same endpoints as `sync.koreader.rocks`.\n- **Better multi-device sync.** Progress is stored per device and the newest position wins, fixing\n  the ping-pong you get with stock kosync servers.\n- **Server-side service connectors.** Link services such as Hardcover, Micro.blog, Audiobookshelf, BookOrbit, and Readwise Reader once; readers continue speaking standard KOSync while the server updates external reading state.\n- **BookOrbit on demand.** Reader progress requests fetch the matched book’s latest progress and highlights. On a book’s page, **Connected services → BookOrbit → Sync now** pulls before queueing outbound updates and refreshes that book’s reading history. BookOrbit has no periodic polling; reading-session uploads trigger delivery directly.\n- **Lossless CrossPoint sync.** An extended API carries the full CrossPoint position (spine,\n  paragraph, anchor, page hints), not just a lossy xpath + percentage.\n- **Bookmarks, clippings, and reading stats.** Delta sync with tombstones for bookmarks and\n  clippings; per-device reading-stats snapshots with a server-side combined view (streaks included).\n- **One codebase, one runtime.** A single Node + SQLite server in one Docker image — the hosted\n  service and self-hosted installs run the exact same thing. No native dependencies (uses Node's\n  built-in `node:sqlite`).\nThe full wire contract is in [docs/API.md](docs/API.md).\n## Run it\n### Docker\n```sh\ndocker run -d --name crosspoint-sync \\\n  -p 8080:8080 \\\n  -v crosspoint-data:/data \\\n  ghcr.io/crosspoint-reader/crosspoint-sync:main\n```\nOr from a checkout: `docker compose up -d` uses the published image from\n`docker-compose.yml`.\nFor local image builds from the checkout, use:\n```sh\ndocker compose -f docker-compose.dev.yml up -d --build\n```\n### HTTPS reverse proxy (Caddy, nginx, etc.)\nWhen the proxy handles HTTPS and forwards HTTP to Sync, set `TRUST_PROXY=true`\n**on the Sync"
+  }
+ },
+ "apps": []
+}

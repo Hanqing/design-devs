@@ -1,0 +1,165 @@
+{
+ "name": "Armin Ronacher",
+ "role": "Flask 作者 · Earendil 创始人 · Pi 核心贡献者 · 前 Sentry（十年）· Python 软件基金会院士 · 维也纳",
+ "title": "Armin Ronacher：从 Flask 到 <em>Agent 运行时</em>",
+ "dek": "他是奥地利开源程序员，住在维也纳，以 Python Web 框架 Flask（★7.5 万）闻名，也写了模板引擎 Jinja、WSGI 工具库 Werkzeug、命令行库 Click 等 Pallets 项目。据维基百科，他早年为德国 Ubuntu 社区门户 ubuntuusers 做开发，2005 年成为德国 Ubuntu 协会的创始成员；后来在 Plurk、游戏网络公司 Fireteam 工作，又在 Sentry 投入了整整十年。2012 年成为 Python 软件基金会院士，2014 年获得 PSF 社区服务奖。他现在创办了 Earendil，一家「打造软件和开放协议、增强人的主动性、弥合分歧、培育持久快乐」的公益公司，核心产品之一是极简的 Agent 工具包 Pi（★11.7 万），2026 年 10 月发布 1.0。他的 Rust 作品也很受欢迎：快照测试库 insta、Jinja 兼容的模板引擎 MiniJinja、diff 库 similar。",
+ "card": "Flask（★7.5 万）作者；Earendil 创始人、Pi 核心贡献者；前 Sentry 十年，维也纳。",
+ "location": "奥地利维也纳",
+ "updated": "2026-10-23",
+ "tags": ["Python", "Rust", "AI Agent", "开源", "Web 框架"],
+ "links": [
+  {"label": "ronacher.eu", "url": "https://ronacher.eu"},
+  {"label": "lucumr 博客", "url": "https://lucumr.pocoo.org"},
+  {"label": "Earendil", "url": "https://earendil.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Creator of Flask. Building at earendil.com.」",
+  "<strong>代表作：</strong>Flask（★75,029）、Pi（★117,473，核心贡献者）、Jinja（★11,804）、Werkzeug、Click、insta（★2,976）、MiniJinja（★2,810）、similar、agent-stuff（★3,192）、Lektor CMS、pipsi。",
+  "<strong>关键数字：</strong>X 关注者约 9.8 万、推文约 6.5 万条；GitHub 粉丝约 2.7 万、近一年贡献 9,183 次。",
+  "<strong>荣誉：</strong>2003 年 Prix Ars Electronica U19 第二名；2012 年 PSF 院士；2014 年 PSF 社区服务奖。"
+ ],
+ "lead": "Pi 的官网写着：「Pi 是一个极简的 Agent 运行框架。让 Pi 适应你的工作流，而不是反过来。」它故意不带子 Agent 和计划模式这类功能：你可以让 Pi 自己把需要的东西写出来，或者装一个按你的方式实现的包。「改变运行框架，而不是你的工作流」：需要新命令、新工具或界面调整，就让 Pi 当场修改自己，输入 <code>/reload</code>，继续工作。2026 年 10 月，Earendil 发布了 Pi 1.0 和支持持久运行的 Pi Durable。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开源程序员、创始人"],
+     ["所在地", "奥地利维也纳"],
+     ["公司", "Earendil（公益公司）"],
+     ["此前", "Sentry（十年）、Fireteam、Plurk"],
+     ["教育", "格拉茨工业大学 工商管理与软件工程学士"],
+     ["技术栈", "Python、Rust、TypeScript"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Armin 现在在 Earendil 做<strong>Agent 工具和开放协议</strong>。Pi 支持 15 家以上的模型服务商，有交互、打印 / JSON、RPC 和 SDK 四种模式，可以用扩展、技能、提示模板和主题定制，并打包成 Pi 包通过 npm 或 git 分享。GitHub 贡献统计显示，Pi 的最大贡献者是 badlogic（Mario Zechner），Armin 排在第二。Earendil 的其他项目还包括 Radius 和 Lefos。"},
+    {"p": "他的博客 lucumr.pocoo.org 持续发表关于 AI 编程的思考：什么是 Codemode、如何解读 Pangram、他对 P(doom) 的看法。据维基百科，2026 年 6 月《华尔街日报》报道了他对软件行业过度使用 vibe coding 的批评。他在 X 上的观察也常被大量转发，比如：「AI 再有趣，我们过去 30 年也造了太多糟糕的软件，现在宇宙在惩罚我们的罪过。」"},
+    {"note": "本页依据维基百科 Armin Ronacher 条目、ronacher.eu、earendil.com、pi.dev、lucumr.pocoo.org、GitHub 仓库与 X 帖子整理，资料截至 2026 年 10 月。家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2003", "title": "少年获奖", "text": "以「Be a Bee」获 Prix Ars Electronica U19 第二名。"},
+     {"when": "2005", "title": "ubuntuusers 与 Pocoo", "text": "德国 Ubuntu 协会创始成员；和 Georg Brandl 写 Python 论坛 Pocoo，衍生出许多项目。"},
+     {"when": "2010", "title": "Flask", "text": "发布 Python 微框架 Flask。"},
+     {"when": "2012–2014", "title": "PSF 荣誉", "text": "PSF 院士、社区服务奖、Shuttleworth 基金会资助。"},
+     {"when": "约 2015–2025", "title": "Sentry", "text": "投入十年；同时写 insta、MiniJinja、similar 等 Rust 库。"},
+     {"when": "2025–2026", "title": "Earendil 与 Pi", "text": "创办 Earendil；Pi 1.0 与 Pi Durable。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Flask", "url": "https://flask.palletsprojects.com",
+     "meta": ["2010–", "Python", "★7.5 万"],
+     "paras": [
+      "「The Python micro framework for building web applications.」核心小巧、扩展灵活，是 Python 最流行的 Web 框架之一，现由 Pallets 团队维护。"
+     ],
+     "facts": [["GitHub", "★75,029"]]
+    }},
+    {"work": {
+     "name": "Pi", "url": "https://pi.dev",
+     "meta": ["2025–", "TypeScript", "★11.7 万"],
+     "paras": [
+      "「AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI」官网举的实际集成例子是 OpenClaw。"
+     ]
+    }},
+    {"work": {
+     "name": "insta", "url": "https://insta.rs",
+     "meta": ["2019–", "Rust", "★3 千"],
+     "paras": [
+      "「A snapshot testing library for rust」Rust 生态最常用的快照测试库。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Jinja", "Python 模板引擎（★11,804）"],
+      ["MiniJinja", "Jinja 兼容的 Rust 模板引擎（★2,810）"],
+      ["agent-stuff", "他和 Agent 一起用的命令（★3,192）"],
+      ["deser", "实验性的 Rust 序列化库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://ronacher.eu", "paras": [
+     "ronacher.eu 的标题是「Building Teams, Software and Products」：「我组建团队、编写软件，尤其是开源软件。」页面链接到他的技术博客 lucumr.pocoo.org 和另一个写「更暗的想法」的博客。技术博客从 2000 年代写到现在，2026 年秋天几乎每周一篇。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["博客", "lucumr.pocoo.org"],
+      ["节奏", "近期每周一篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-06", "title": "What is Codemode", "url": "https://lucumr.pocoo.org/2026/10/6/codemode/"},
+     {"date": "2026-09-29", "title": "Deser: Rethinking Rust Serialization", "url": "https://lucumr.pocoo.org/2026/9/29/deser/"},
+     {"date": "2026-09-14", "title": "Interpreting Pangram", "url": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/"},
+     {"date": "2026-09-12", "title": "P(doom)", "url": "https://lucumr.pocoo.org/2026/9/12/pdoom/"},
+     {"date": "2026-09-05", "title": "Latent Powers", "url": "https://lucumr.pocoo.org/2026/9/5/latent-powers/"}
+    ]},
+    {"quote": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.", "cite": "Armin Ronacher，X，2026-10"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "Flask、Jinja 影响整个 Python 生态", "—"],
+      ["前沿", "Pi 成为热门 Agent 运行框架", "Pi 由多人共同开发"],
+      ["表达", "观点犀利、更新频繁", "他自己说「当面聊会更细腻」"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>小核心、可扩展，</strong>从 Flask 到 Pi 一以贯之。",
+     "<strong>让工具适应人，</strong>而不是人适应工具。",
+     "<strong>持续写博客，</strong>把思考公开。",
+     "<strong>在新语言里重写好用的旧工具。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Pi", "url": "https://pi.dev", "why": "试试可以修改自己的 Agent。"},
+     {"name": "What is Codemode", "url": "https://lucumr.pocoo.org/2026/10/6/codemode/", "why": "理解一种新的 Agent 工具调用方式。"},
+     {"name": "Flask", "url": "https://flask.palletsprojects.com", "why": "十行代码写一个 Web 应用。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "给 Pi 提一个小需求，让它当场给自己加一个命令，然后用 /reload 试试看。",
+ "sources": [
+  {"label": "Armin Ronacher 的 X 个人资料", "url": "https://x.com/mitsuhiko"},
+  {"label": "维基百科：Armin Ronacher", "url": "https://en.wikipedia.org/wiki/Armin_Ronacher"},
+  {"label": "ronacher.eu", "url": "https://ronacher.eu"},
+  {"label": "Earendil", "url": "https://earendil.com"},
+  {"label": "Pi", "url": "https://pi.dev"},
+  {"label": "GitHub：mitsuhiko", "url": "https://github.com/mitsuhiko"}
+ ]
+}

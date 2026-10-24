@@ -1,0 +1,156 @@
+{
+ "name": "Loren Brichter",
+ "role": "下拉刷新发明者 · Tweetie、Letterpress 作者 · 前 Apple 初代 iPhone 团队 · Apple 设计奖得主",
+ "title": "Loren Brichter：发明了<em>下拉刷新</em>的人",
+ "dek": "他 1984 年生于纽约曼哈顿，在塔夫茨大学读电子工程、辅修计算机科学。2006 到 2007 年，他在 Apple 一个五人小组里工作，负责让初代 iPhone 的图形硬件和软件协同；iPhone 一完成他就离开了，创办了自己的公司 atebits。2008 年他发布 Twitter 客户端 Tweetie，在 Tweetie 2 里发明了「下拉刷新」：把列表往下拉、松手就刷新。这个手势后来被几乎所有手机应用采用，包括 iOS 自带的邮件。2009 年他获得 Apple 设计奖，2010 年 Twitter 收购了 Tweetie，成为官方 iPhone 客户端。2011 年离开 Twitter 后，他做了一款基于 Game Center 的文字游戏 Letterpress，2016 年把它卖给了 Solebon。",
+ "card": "下拉刷新发明者；Tweetie（2010 年被 Twitter 收购）、Letterpress 作者；前 Apple 初代 iPhone 图形团队。",
+ "location": "未公开",
+ "updated": "2026-10-23",
+ "tags": ["交互设计", "iOS", "独立开发", "手势", "游戏"],
+ "links": [
+  {"label": "维基百科：Loren Brichter", "url": "https://en.wikipedia.org/wiki/Loren_Brichter"},
+  {"label": "Letterpress 词表", "url": "https://github.com/lorenbrichter/Words"},
+  {"label": "GitHub：lorenbrichter", "url": "https://github.com/lorenbrichter"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>他发明的下拉刷新、单元格滑动操作、横向堆叠的滑动面板和竖排图标标签栏，成为移动和桌面应用的常见模式。",
+  "<strong>代表作：</strong>Tweetie（iPhone 2008、Mac 2009）、Twitter for iPad、Letterpress（2012）、Mac 绘图应用 Scribbles（2007）、Borange 与 Textie；开源 SimFinger（★1,225）、Letterpress 词表 Words（★417）。",
+  "<strong>荣誉：</strong>2009 年 Apple 设计奖。",
+  "<strong>关键数字：</strong>X 关注者约 2.9 万。"
+ ],
+ "lead": "在 Tweetie 2 之前，刷新列表要点一个按钮。Loren 的想法是：你本来就在往上滚动看最新内容，滚到顶时再往下拉一点，松手，就刷新了。不需要额外的按钮，也不打断手指的动作。这个小手势后来变得如此普遍，以至于很多人以为它从一开始就是 iOS 的一部分。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件开发者、交互设计师"],
+     ["出生", "1984 年，纽约曼哈顿"],
+     ["教育", "塔夫茨大学电子工程（辅修计算机科学）"],
+     ["经历", "Apple 初代 iPhone 图形团队（2006–2007）→ atebits（2007–2010）→ Twitter（2010–2011）→ 重启 atebits（2011–）"],
+     ["荣誉", "2009 年 Apple 设计奖"],
+     ["技术栈", "Objective-C、Cocoa、自研界面框架"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Loren 的贡献是<strong>一批定义了触屏时代的交互模式</strong>：下拉刷新；在单元格上滑动、露出隐藏操作；Twitter for iPad 里横向堆叠、手势滑入的面板，让你层层深入又能原路返回；Tweetie for Mac 里沿窗口边缘竖排的标签图标，后来被 Slack 等应用沿用。"},
+    {"p": "他从第一款应用起就在写自己的界面框架：Mac 绘图应用 Scribbles 用了混合矢量渲染引擎，缩放和导出都不损失画质。Letterpress 的词表他开源在 GitHub 上，希望帮到其他做文字类应用的人，也让大家帮忙改进。近年他很少公开发布新作品。"},
+    {"note": "本页依据维基百科 Loren Brichter 条目、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。家庭信息未收录；他近年的工作未公开，本页不作推测。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "中学", "title": "Logo 入门", "text": "中学老师用 Logo 带他入门编程；高中学 C、Objective-C 和 Cocoa。"},
+     {"when": "2006–2007", "title": "Apple", "text": "毕业后加入 Apple，参与初代 iPhone 图形软硬件协同。"},
+     {"when": "2007–2008", "title": "atebits 与 Tweetie", "text": "发布 Scribbles 和 Tweetie；同年与人联合创办 Borange。"},
+     {"when": "2009", "title": "Tweetie 2 与设计奖", "text": "发明下拉刷新；推出 Tweetie for Mac；获 Apple 设计奖。"},
+     {"when": "2010–2011", "title": "Twitter", "text": "Tweetie 被收购，成为官方客户端；做 Twitter for iPad。"},
+     {"when": "2012–2016", "title": "Letterpress", "text": "重启 atebits，发布 Letterpress；2016 年出售给 Solebon。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Tweetie", "url": "https://en.wikipedia.org/wiki/Tweetie",
+     "meta": ["2008–2010", "iPhone · Mac"],
+     "paras": [
+      "在 Twitter 还没有官方 iPhone 应用时诞生，以速度和细节著称。Tweetie 2 引入下拉刷新和滑动操作；2010 年被 Twitter 收购，成为官方 iPhone 客户端的基础。"
+     ]
+    }},
+    {"work": {
+     "name": "Letterpress", "url": "https://github.com/lorenbrichter/Words",
+     "meta": ["2012", "iOS 文字游戏"],
+     "paras": [
+      "基于 Game Center 的多人文字游戏：在 5×5 字母格里拼词，占领格子。游戏规则是在内测中逐步打磨出来的。"
+     ]
+    }},
+    {"work": {
+     "name": "SimFinger", "url": "https://github.com/lorenbrichter/SimFinger",
+     "meta": ["2009", "Objective-C", "★1.2 千"],
+     "paras": [
+      "为 iPhone 模拟器录屏做的小工具：在模拟器上叠一个设备外框，鼠标变成一个会「按下」的手指圆点，让演示视频看起来像真机操作。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Scribbles", "受 MacPaint 启发的 Mac 绘图应用（2007）"],
+      ["Borange / Textie", "社交可用性应用与跨设备免费短信（2008）"],
+      ["Words", "Letterpress 的词表（★417）"],
+      ["record-screen", "Mac 命令行录屏工具"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://github.com/lorenbrichter", "paras": [
+     "Loren 没有在 X 上留个人网站。他的 GitHub 只有寥寥几个仓库，大多已归档，但每一个都很「Loren」：一个让录屏更好看的工具，一份可以众包改进的游戏词表，一个签名 OAuth 请求的函数，一个 Unicode 双向文本算法实现。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "无"],
+      ["GitHub", "7 个公开仓库，多已归档"],
+      ["X", "偶尔发帖，讨论 iOS 细节和 AI"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Am I the only person on the planet who is driven nuts by pinch to zoom of PDFs in iOS Safari which has been completely broken for (what feels like) a decade?", "cite": "Loren Brichter，X，2025-03"},
+    {"p": "他对交互细节的敏感从未消失，也会对 AI 生成内容开玩笑：语言模型的输出带着一股「SEO 味」；真正的威胁不是回形针，而是那些内容农场文章。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["交互", "发明了多个行业标准手势", "—"],
+      ["产品", "Tweetie、Letterpress 都是经典", "—"],
+      ["近况", "—", "近十年公开作品很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>顺着手指的动作设计：</strong>下拉刷新不需要按钮。",
+     "<strong>自己写界面框架：</strong>细节需要完全掌控。",
+     "<strong>小团队也能定义行业：</strong>一个人做的 Tweetie 被收购成官方客户端。",
+     "<strong>开放你的数据：</strong>词表也能众包改进。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "维基百科：Loren Brichter", "url": "https://en.wikipedia.org/wiki/Loren_Brichter", "why": "完整的经历与交互发明。"},
+     {"name": "SimFinger", "url": "https://github.com/lorenbrichter/SimFinger", "why": "一个早期 iOS 开发者的小工具。"},
+     {"name": "Words", "url": "https://github.com/lorenbrichter/Words", "why": "Letterpress 背后的词表。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "找一个你应用里需要点按钮才能完成的操作，想想能不能变成一个顺手的手势。",
+ "sources": [
+  {"label": "Loren Brichter 的 X 个人资料", "url": "https://x.com/lorenb"},
+  {"label": "维基百科：Loren Brichter", "url": "https://en.wikipedia.org/wiki/Loren_Brichter"},
+  {"label": "GitHub：lorenbrichter", "url": "https://github.com/lorenbrichter"},
+  {"label": "GitHub：lorenbrichter/Words", "url": "https://github.com/lorenbrichter/Words"}
+ ]
+}

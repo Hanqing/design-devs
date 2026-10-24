@@ -1,0 +1,156 @@
+{
+ "name": "Antoine van der Lee（SwiftLee）",
+ "role": "SwiftLee 创始人 · RocketSim 独立开发者 · 前 WeTransfer Staff iOS 工程师 · 阿姆斯特丹",
+ "title": "Antoine van der Lee：教 <em>15 万开发者</em>写更好的应用",
+ "dek": "TA 住在荷兰阿姆斯特丹，从 2009 年开始开发 iOS 应用，曾是 WeTransfer 的 Staff iOS 工程师，负责月活数百万的 iOS 应用开发。现在 TA 是独立开发者，经营 SwiftLee：每周更新的 Swift 博客 avanderlee.com、发给 3 万多名订阅者的 SwiftLee Weekly 周报、Swift 并发等付费课程，以及 Mac 应用 RocketSim。RocketSim 给 Xcode 的 iOS 模拟器加了 30 多种工具：测试、调试、网络监控、截图录屏、无障碍检查、应用动作，还能让 AI Agent 自动操作模拟器，官网称它是「Apple 推荐的必备开发者工具」。2026 年，TA 发布了一系列给 AI 编程工具用的 Agent Skills（SwiftUI、Swift 并发、Swift Testing、Core Data、Xcode 构建优化），其中 SwiftUI Agent Skill 获得 3.7 千颗星。TA 还维护着 App Store Connect 的 Swift SDK。",
+ "card": "SwiftLee 创始人、RocketSim 独立开发者；前 WeTransfer Staff iOS 工程师；Swift Agent Skills 作者，阿姆斯特丹。",
+ "location": "荷兰阿姆斯特丹",
+ "updated": "2026-10-23",
+ "tags": ["Swift", "SwiftUI", "iOS 工具", "技术博客", "Agent Skills"],
+ "links": [
+  {"label": "avanderlee.com", "url": "https://www.avanderlee.com"},
+  {"label": "RocketSim", "url": "https://www.rocketsim.app"},
+  {"label": "SwiftLee Weekly", "url": "https://swiftlee-weekly.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「I teach 150K developers how to write better apps faster through my developer tool, blog, and newsletter.」",
+  "<strong>代表作：</strong>RocketSim、SwiftUI Agent Skill（★3,745）、appstoreconnect-swift-sdk（★1,694）、Swift Concurrency Agent Skill（★1,692）、Diagnostics（★1,309）、Xcode Build Optimization Skill（★1,263）、CombineSwiftPlayground、Roadmap、Poes、Swift 并发课程。",
+  "<strong>关键数字：</strong>X 关注者约 7.5 万；SwiftLee Weekly 第 346 期发给 30,755 位订阅者；GitHub 近一年贡献 8,747 次。",
+  "<strong>经历：</strong>2009 年开始 iOS 开发 → WeTransfer Staff iOS 工程师 → 独立开发者。"
+ ],
+ "lead": "2026 年 10 月，TA 发帖说自己发现 94% 的 token 都花在了重复读取旧上下文上，于是写了一个免费提示词，让 Agent 在你自己的会话里找出浪费。同一周 TA 又说：「是的，AI 让事情变容易了，但不，我没有因此变轻松。我反而在更多地挑战边界。」TA 正在为 RocketSim 的录屏功能加强对新设备的支持，还在 Swift 大会上征集应用，免费用 Xcode Instruments 分析，作为「用 Agent 解决性能问题」演讲的素材。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者、技术作者、课程讲师"],
+     ["所在地", "荷兰阿姆斯特丹"],
+     ["公司", "SwiftLee"],
+     ["此前", "WeTransfer Staff iOS 工程师"],
+     ["产品", "RocketSim、SwiftLee Weekly、Swift 课程"],
+     ["技术栈", "Swift、SwiftUI、Xcode"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Antoine 把<strong>博客、周报、课程和工具</strong>做成了一个整体：免费的博客和周报吸引读者，五天免费邮件课程「Swift Concurrency Playbook」引向付费的 Swift 并发课程，RocketSim 则是日常开发里天天用得到的工具。最近 TA 又在做 AI 基础课程，并为课程绘制如何用子 Agent 高效管理上下文的示意图。"},
+    {"p": "TA 的 Agent Skills 采用开放的 Agent Skills 格式，把 SwiftUI 最佳实践、Swift 6 迁移、并发安全、Core Data 建模和 Xcode 构建优化的经验交给 AI 编程工具。TA 认为 Agent 写 SwiftUI 视图越来越多，但还不擅长保证性能、避免不必要的重绘，所以要教它用 Instruments。"},
+    {"note": "本页依据 avanderlee.com（首页与关于页）、rocketsim.app、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。「15 万开发者」为本人简介中的说法。性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2009", "title": "开始 iOS 开发", "text": "从此一直做苹果平台应用。"},
+     {"when": "2018–2019", "title": "开源工具", "text": "App Store Connect Swift SDK、Diagnostics、Combine Playground。"},
+     {"when": "2020", "title": "RocketSim", "text": "推出模拟器增强工具；Poes 推送通知工具。"},
+     {"when": "此后", "title": "独立", "text": "离开 WeTransfer，全职经营 SwiftLee。"},
+     {"when": "2026", "title": "Agent Skills", "text": "SwiftUI、并发、测试、Core Data、构建优化等技能；AI 基础课程。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "RocketSim", "url": "https://www.rocketsim.app",
+     "meta": ["2020–", "macOS", "30+ 工具"],
+     "paras": [
+      "「30+ tools for Xcode's iOS Simulator.」测试、调试、网络监控、截图录屏、无障碍、应用动作和 AI Agent 自动化。"
+     ]
+    }},
+    {"work": {
+     "name": "SwiftUI Agent Skill", "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+     "meta": ["2026", "Agent Skills", "★3.7 千"],
+     "paras": [
+      "「Add expert SwiftUI Best Practices guidance to your AI coding tool」让 AI 编程工具写出更规范的 SwiftUI 代码。"
+     ],
+     "facts": [["GitHub", "★3,745"]]
+    }},
+    {"work": {
+     "name": "appstoreconnect-swift-sdk", "url": "https://github.com/AvdLee/appstoreconnect-swift-sdk",
+     "meta": ["2018–", "Swift", "★1.7 千"],
+     "paras": [
+      "「The Swift SDK to work with the App Store Connect API from Apple.」"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Diagnostics", "让用户方便地把诊断信息发给支持团队"],
+      ["Roadmap", "在应用里发布路线图并让用户投票"],
+      ["Poes", "给 iOS 模拟器发送推送通知"],
+      ["SwiftLee Weekly", "每周 Swift 与 iOS 精选周报"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.avanderlee.com", "paras": [
+     "avanderlee.com 是一个 WordPress 博客，导航只有课程、周报、关于和赞助；页面一侧固定着 RocketSim 的推广，顶部是免费并发课程的订阅框。关于页写着：每周写博客、每天发 Swift 小技巧。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "WordPress"],
+      ["结构", "博客 + 课程 + 周报 + 赞助"],
+      ["节奏", "每周更新"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Yes, AI makes things easier, but no, I'm not taking it easier. I'm actually finding myself pushing boundaries more.", "cite": "Antoine van der Lee，X，2026-10"},
+    {"p": "TA 也常分享小技巧，比如在访达里按 ⌘J 打开「计算所有大小」，就能显示文件夹大小。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "内容扎实、更新稳定", "—"],
+      ["商业", "博客、课程、工具形成闭环", "推广内容较多"],
+      ["工具", "RocketSim 实用", "仅面向苹果平台"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把免费内容和付费产品连成一体。</strong>",
+     "<strong>做开发者每天都会用的小工具。</strong>",
+     "<strong>把经验写成 Agent 能用的技能。</strong>",
+     "<strong>用 Instruments 验证性能，</strong>不要凭感觉。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "RocketSim", "url": "https://www.rocketsim.app", "why": "给模拟器加超能力。"},
+     {"name": "SwiftUI Agent Skill", "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill", "why": "让 AI 写更好的 SwiftUI。"},
+     {"name": "SwiftLee Weekly", "url": "https://swiftlee-weekly.com", "why": "每周 Swift 精选。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 Xcode Instruments 录一次你应用的 SwiftUI 性能，找出更新最频繁的那个视图。",
+ "sources": [
+  {"label": "Antoine van der Lee 的 X 个人资料", "url": "https://x.com/twannl"},
+  {"label": "avanderlee.com：About", "url": "https://www.avanderlee.com/about/"},
+  {"label": "RocketSim", "url": "https://www.rocketsim.app"},
+  {"label": "GitHub：AvdLee", "url": "https://github.com/AvdLee"}
+ ]
+}

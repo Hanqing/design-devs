@@ -1,0 +1,163 @@
+{
+ "name": "Jonny Burch",
+ "role": "Dex 设计负责人 · Progression 创始人（2024 年被收购）· Mostly Working 播客 · 前 Deliveroo 消费者设计负责人 · 伦敦",
+ "title": "Jonny Burch：我爱 AI，但它<em>还是不会做设计</em>",
+ "dek": "他住在伦敦，是设计师、产品负责人和建造者，现在是伦敦 AI 创业公司 Dex 的设计负责人。2019 年他创办了 Progression，「世界上第一个职业发展路径平台」，融资超过 600 万美元，2024 年被 Career.io 收购。更早，他在 Deliveroo 领导过一段时间的消费者端设计；疫情期间他参与的 Meals for the NHS 为 30 万名以上的英国医护人员筹集了 180 多万英镑的餐食捐款；他还办过一本给创意专业毕业生的「满口脏话」的杂志，出了 6 期、印了 1.5 万份。现在他和 Tom Harman 一起主持关于设计与 AI 的每周播客 Mostly Working（原 Near Future），业余时间在做团队安全托管小工具的 ooda.run。",
+ "card": "Dex 设计负责人；Progression 创始人（2024 年被收购），前 Deliveroo 设计负责人；Mostly Working 播客，伦敦。",
+ "location": "英国伦敦",
+ "updated": "2026-10-23",
+ "tags": ["产品设计", "AI 与设计", "创业", "播客", "设计工具"],
+ "links": [
+  {"label": "jonnyburch.com", "url": "https://jonnyburch.com"},
+  {"label": "Mostly Working", "url": "https://mostlyworking.co"},
+  {"label": "ooda.run", "url": "https://ooda.run"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>网站描述「Designer, product leader and builder.」",
+  "<strong>代表作：</strong>Progression（2019 创办，2024 被收购）、Mostly Working 播客与峰会、ooda.run、designtools.fyi、Look Normal、Buzz Cut Coffee、Hack Weeks、Meals for the NHS、Shellsuit Zombie 杂志。",
+  "<strong>经历：</strong>Deliveroo 消费者设计 → Progression 创始人 → Toy Studio（2024–2026）→ Dex 设计负责人（2026–）。",
+  "<strong>关键数字：</strong>X 关注者约 2.1 千；博客 57 篇文章。"
+ ],
+ "lead": "2026 年 4 月，他写了一篇标题很直接的文章：《I love AI, but it still can't design for shit》。10 月他又在 X 上说：「求求你们别再让 Claude 写营销网站了，它不擅长这个。」每一个 YC 的套路页面、每一个 vibe coding 项目都长得差不多，「有人在发布前真的读过吗？可能没有」。他的结论是：「也许剩下的唯一护城河，就是能停下来一秒钟，做得比平均水平更好。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、产品负责人、创业者"],
+     ["所在地", "英国伦敦"],
+     ["工作", "Dex（设计负责人，2026–）"],
+     ["创业", "Progression（2019–2024，被 Career.io 收购）"],
+     ["媒体", "Mostly Working 播客与峰会"],
+     ["工具", "Claude Code、Astro"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Jonny 现在在 Dex <strong>领导设计</strong>，这是一家给工程师做 AI 人才经纪人的公司。在此之前，他和 Tom Harman 把 Hack Weeks 发展成 Near Future，为团队做 AI 设计实践的咨询和工作坊；但他们发现那些对话「感觉像在卖培训」，2026 年 9 月便停掉咨询，只保留每周播客，并和 Tom、Simon 的月度活动合并为 Mostly Working。他说自己突然很想「在团队里工作，而不是领导团队」，这是多年来的第一次。"},
+    {"p": "他也一直在动手做东西：designtools.fyi 用来探索和比较新兴的设计工具；Look Normal 是「伪装起来的 Claude Code」；他还写过《在 iOS 上用 Claude Code 写博客》。"},
+    {"note": "本页依据 jonnyburch.com（首页、项目、文章）、GitHub 资料和 X 帖子整理，资料截至 2026 年 10 月。融资与收购信息来自他本人网站；家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "创意社区", "text": "办 Shellsuit Zombie 杂志；在肖迪奇组织 30 天创意节。"},
+     {"when": "此后", "title": "Deliveroo", "text": "领导消费者端设计；参与一家儿童银行产品。"},
+     {"when": "2019", "title": "Progression", "text": "创办职业发展路径平台，融资超过 600 万美元。"},
+     {"when": "2020", "title": "Meals for the NHS", "text": "为 30 万以上 NHS 员工筹集 180 万英镑以上的餐食捐款。"},
+     {"when": "2024", "title": "被收购", "text": "Progression 并入 Career.io；创办 Toy Studio。"},
+     {"when": "2025–2026", "title": "AI 与设计", "text": "Hack Weeks → Near Future → Mostly Working；加入 Dex。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Progression", "url": "https://progression.co",
+     "meta": ["2019–2024", "SaaS", "被收购"],
+     "paras": [
+      "帮公司为员工建立清晰职业发展路径的平台，他称之为世界上第一个职业发展路径平台。"
+     ]
+    }},
+    {"work": {
+     "name": "Mostly Working", "url": "https://mostlyworking.co",
+     "meta": ["2025–", "播客 + 活动", "每周"],
+     "paras": [
+      "关于设计与 AI 的每周播客，还在伦敦办了面向 100 名资深设计师的 Mostly Working 峰会。"
+     ]
+    }},
+    {"work": {
+     "name": "designtools.fyi", "url": "https://designtools.fyi",
+     "meta": ["2026", "目录"],
+     "paras": [
+      "探索并比较 AI 时代涌现的新设计工具。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["ooda.run", "团队安全协作托管（2026–）"],
+      ["Look Normal", "「Claude Code in disguise」"],
+      ["Buzz Cut Coffee", "一个半咖啡因咖啡品牌（2025）"],
+      ["Meals for the NHS", "疫情期间为医护人员筹集餐食"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://jonnyburch.com", "paras": [
+     "个人网站开头是一栏「News」：加入 Dex、峰会、播客、ooda。接着是一段幽默的自我介绍（他还采访过 Goldie，看他用电锯锯了一棵树），然后是「Payin' the bills」的工作列表和文章列表。原来 toy.studio 上的个人项目已经搬回这个网站。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Cloudflare，Substack 订阅"],
+      ["结构", "新闻 + 自述 + 工作 + 文章"],
+      ["语气", "幽默、坦率"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-08-21", "title": "A mile wide", "url": "https://jonnyburch.com/a-mile-wide/"},
+     {"date": "2026-07-09", "title": "Tools for Others", "url": "https://jonnyburch.com"},
+     {"date": "2026-04-23", "title": "I love AI, but it still can't design for shit", "url": "https://jonnyburch.com"},
+     {"date": "2026-02-11", "title": "Life after Figma is coming (and it will be glorious)", "url": "https://jonnyburch.com"},
+     {"date": "2025-10-20", "title": "Writing Blog Posts with Claude Code on iOS", "url": "https://jonnyburch.com"}
+    ]},
+    {"quote": "Maybe the only moat left is being able to slow down for a second and be better than average.", "cite": "Jonny Burch，X，2026-10"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["经历", "设计、创业、公益都做过", "—"],
+      ["观点", "对 AI 设计质量有清醒判断", "—"],
+      ["开源", "—", "GitHub 上几乎没有公开代码作品"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>对自己保持诚实：</strong>我真的在享受这件事吗？",
+     "<strong>发现方向不对，就果断调整。</strong>",
+     "<strong>用 AI，但不放弃品味。</strong>",
+     "<strong>把社区和朋友放在事业中心。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Mostly Working 播客", "url": "https://mostlyworking.co/podcast", "why": "听设计师怎么用 AI。"},
+     {"name": "designtools.fyi", "url": "https://designtools.fyi", "why": "比较新的设计工具。"},
+     {"name": "jonnyburch.com", "url": "https://jonnyburch.com", "why": "读《Life after Figma is coming》。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "打开你最近让 AI 生成的一个页面，逐句读一遍，删掉所有你自己不会这么写的句子。",
+ "sources": [
+  {"label": "Jonny Burch 的 X 个人资料", "url": "https://x.com/jonnyburch"},
+  {"label": "jonnyburch.com", "url": "https://jonnyburch.com"},
+  {"label": "jonnyburch.com：Projects", "url": "https://jonnyburch.com/projects/"},
+  {"label": "Mostly Working", "url": "https://mostlyworking.co"},
+  {"label": "Progression 加入 Career.io", "url": "https://progression.co/blog/progression-is-joining-the-career-io-family/"}
+ ]
+}

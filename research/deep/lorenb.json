@@ -1,0 +1,114 @@
+{
+ "handle": "lorenb",
+ "sites": [],
+ "github": {
+  "login": "lorenbrichter",
+  "user": {
+   "name": "Loren Brichter",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": null,
+   "public_repos": 7,
+   "followers": 1129,
+   "created_at": "2008-12-12T20:28:09Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "lorenbrichter/SimFinger",
+    "description": "Screencasting for iPhone",
+    "stargazers_count": 1225,
+    "forks_count": 129,
+    "language": "Objective-C",
+    "homepage": "http://blog.atebits.com/2009/03/not-your-average-iphone-screencast/",
+    "created_at": "2009-05-16T02:07:23Z",
+    "pushed_at": "2014-11-19T15:43:37Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "lorenbrichter/Words",
+    "description": "Letterpress Word List",
+    "stargazers_count": 417,
+    "forks_count": 93,
+    "language": null,
+    "homepage": null,
+    "created_at": "2013-01-10T17:48:03Z",
+    "pushed_at": "2016-01-29T16:14:18Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "lorenbrichter/OAuthCore",
+    "description": "Simple function to sign requests",
+    "stargazers_count": 104,
+    "forks_count": 30,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2011-07-01T17:45:14Z",
+    "pushed_at": "2016-09-19T08:39:32Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "lorenbrichter/record-screen",
+    "description": "command-line screen recorder for mac",
+    "stargazers_count": 30,
+    "forks_count": 2,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2015-07-18T00:45:57Z",
+    "pushed_at": "2015-07-18T16:14:11Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "lorenbrichter/UAXlib",
+    "description": "Unicode bidirectional algorithm",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2016-05-17T01:23:53Z",
+    "pushed_at": "2016-05-17T01:26:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "lorenbrichter/shape",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-03-26T20:44:49Z",
+    "pushed_at": "2025-03-26T20:44:49Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 6,
+  "languages": [
+   [
+    "Objective-C",
+    3
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 3,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "lorenbrichter/SimFinger": "#SimFinger\nAWESOME SCREENCASTS\n##Summary\nSimFinger itself is composed of two parts. One is a fake “frame” that sits on top of the simulator. The frame consists of the most recent version of the iPhone or iPad (depending on what device your sim is set to). Clicking anywhere on it will just click-through to whatever is below. The other part is a little nub that follows around your cursor. It “indents” when you press down with your mouse, indicating what would be a “touch” on the phone.\nA good screencapture tool is your friend. [SnapzProX](http://www.ambrosiasw.com/utilities/snapzprox/) and [ScreenFlow](http://www.telestream.net/screenflow/) are good choices. \n##Some Caveats\n* Currently set to work with iOS 8.1 simulator in Xcode 6.1\n* Current imagery available for the following:\n  * iPhone 6 Vertical and Landscape (6 Plus not supported)\n  * iPhone 5S Vertical and Landscape\n  * iPhone 4S Vertical and Landscape (when sim is set to 3.5 inches)\n  * iPad Air 2 Vertical and Landscape\n##Instructions\n1. [Launch the iOS Simulator](http://stackoverflow.com/a/5048572/776167)\n2. Hide your dock with shortcut -Option-D (SimFinger locks itself to the lower left of your screen)\n3. Make sure the simulator's scale (Window > Scale) fits SimFinger. For retina devices, scale @ 50%. For non-retina, just use 100%.\n4. Set your simulator device-type to whatever you want to take a screencast of. For example, if you want the landscape iPad, set your simulator device to the iPad and rotate. SimFinger will choose its overlay image based on the dimensions of your simulator.\n5. Launch SimFinger\n  * If you want to build from code, launch the [SimFinger.xcodeproj](Fake/SimFinger/FakeFinger.xcodeproj)\n  * If you want a compiled version, download [SimFingerApp.zip](SimFingerApp.zip)\n###Protips\n* If you want to change the overlay image without restarting SimFinger, just go to Control > Reposition iPhone Simulator Window after you have changed the device-type in the simulator.\n* [Enable Universal Access](http://mizage.com/help/accessibility.html)\n###If you run into issues with installing the homescreen apps, do the following:\n1. Run buildFakeApps.sh from terminal (Should be lots of happy success mes",
+   "lorenbrichter/Words": "Words\n=====\nThe word list behind [Letterpress](http://www.atebits.com/letterpress/). Loosely based on a collection of other word lists with refinements from real-world feedback. I hope this is useful for other word-based-app makers, and as a way to improve Letterpress.\nContributions\n=============\nContributions are welcome! A few guidelines:\n- Keep diffs short. One word (or word+pluralization/conjugation-variations) at a time is probably best.\n- When proposing an addition, links to definitions in _established_ dictionaries are required. (Wiktionary is very liberal, and cannot count as primary evidence).\n- Same rules as Letterpress (and other similar games), no proper nouns, acronyms, etc. (The list does have a few acronyms and abbreviations, but those may remain for historical reasons as they've been allowed in other popular word games).\n- Until a rule is devised that governs them, esoteric and domain-specific words may be rejected.\nStructure\n=========\nEach language should be in a sorted, UTF-8 encoded file \"Words/[ISO 639-1 code].txt\".\nEnglish Notes\n=============\nUS, UK and Australian spellings are combined. Generally speaking, if it's allowed in another popular word game like Scrabble, it should be allowed in Letterpress. (http://www.anagrammer.com/ is a great resource to verify).\nOther Useful Lists\n==================\n- YAWL - http://www.gtoal.com/wordgames/yawl/\n- ENABLE2K - http://everything2.com/title/ENABLE+word+list\n- CSW12 - http://www.scrabbleplayers.org/w/CSW12\n",
+   "lorenbrichter/record-screen": "# record-screen\ncommand-line screen recorder for mac\nUsage:\n./record-screen x y w h duration output.mov\n"
+  }
+ },
+ "apps": []
+}

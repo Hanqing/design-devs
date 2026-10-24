@@ -1,0 +1,155 @@
+{
+ "name": "Jordan Singer",
+ "role": "Mainframe 联合创始人兼 CEO · 前 Figma · Diagram 创始人（被 Figma 收购）· 前 Square · 纽约",
+ "title": "Jordan Singer：<em>I build my ideas</em>",
+ "dek": "他的个人网站和 GitHub 简介都是同一句话：「I build my ideas.」他曾在 Square 工作，后来创办了做 AI 设计工具的 Diagram；Diagram 被 Figma 收购后，他加入了 Figma。他是「设计师写代码」最有感染力的示范者之一：2020 年 macOS Big Sur 发布时，他用 SwiftUI 一口气复刻了「信息」「邮件」「健康」、Twitter、Slack、Rdio 等应用的 Mac 版界面，开源在 lil.software；SwiftUI Kit 演示了所有系统组件的默认样子（★2.5 千）；2023 年他做了 UIDraw，在手机上画一个界面，GPT-4 Vision 就把它变成网页。2024 年他创办了 Mainframe，主题是「生成式计算」。",
+ "card": "Mainframe 联合创始人兼 CEO（纽约）；前 Figma、Diagram（被 Figma 收购）创始人、Square；SwiftUI Kit、UIDraw 作者。",
+ "location": "美国纽约",
+ "updated": "2026-10-23",
+ "tags": ["设计", "AI 产品", "SwiftUI", "原型", "创业"],
+ "links": [
+  {"label": "ibuildmyideas.com", "url": "https://ibuildmyideas.com"},
+  {"label": "Mainframe 博客", "url": "https://blog.mainfra.me"},
+  {"label": "GitHub：jordansinger", "url": "https://github.com/jordansinger"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「co-founder/ceo @mainframe • prev. @figma @diagram (acq) @square」。",
+  "<strong>代表作：</strong>Mainframe（2024–）、Diagram（被 Figma 收购）、SwiftUI Kit（★2,534）、Hook 网页下拉刷新（★1,622）、UIDraw（★470）、lil.software 系列 SwiftUI 示例应用、build-it-figma-ai、lil-wallet。",
+  "<strong>关键数字：</strong>X 关注者约 18.1 万；GitHub 68 个公开仓库、近一年贡献 2,427 次；Mainframe 博客订阅者 1,000+。",
+  "<strong>近况：</strong>2026 年 10 月开始邀请设计师测试 Mainframe 的新应用。"
+ ],
+ "lead": "2026 年 8 月，Jordan 发了一条被转了很多次的帖子：如果一个产品连用来卖给我的那部分都没花心思打磨，那就是一个明确的信号，我不会想用它；如果你不肯花时间做好最该打动我的东西，我就没法相信你在产品的其他部分花了时间。他补充说：好的设计创造信任，它让人觉得自己被考虑过、被照顾到了，「很多人没在想这件事」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、工程师、创始人"],
+     ["所在地", "美国纽约"],
+     ["经历", "Square → Diagram 创始人（被 Figma 收购）→ Figma → Mainframe 联合创始人兼 CEO（2024–）"],
+     ["个人作品", "SwiftUI Kit、lil.software 示例、UIDraw、Hook"],
+     ["技术栈", "Swift / SwiftUI、JavaScript、TypeScript、Ruby"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Mainframe 的博客副标题是「Generative Computing」，2024 年 9 月发布第一篇《Introducing Mainframe》，之后写过《Watch your agents work with Mainframe》。2026 年他在 OpenAI DevDay 上约见设计师，说想和设计师、设计工程师聊聊他们如何用 AI 工作，并开始邀请设计师测试新应用。"},
+    {"p": "他在 X 上的短句反映了他的品味：「stop before you slop」；「我想感受到软件背后的创作者，而不是工厂」；以及对新一代个人 AI 助手泛滥的吐槽。"},
+    {"note": "本页依据 ibuildmyideas.com、blog.mainfra.me、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。Diagram 被收购的具体年份和他在 Figma、Square 的职位未在其个人网站上写明。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2013", "title": "Hook", "text": "做了网页版的下拉刷新 jQuery 插件。"},
+     {"when": "Square 时期", "title": "设计", "text": "在 Square 工作。"},
+     {"when": "2020", "title": "lil.software", "text": "用 SwiftUI 复刻 Big Sur 风格的「信息」「邮件」「健康」、Twitter、Slack、Rdio 等示例应用。"},
+     {"when": "Diagram", "title": "AI 设计工具", "text": "创办 Diagram，后被 Figma 收购，加入 Figma。"},
+     {"when": "2023", "title": "UIDraw 与 Figma AI", "text": "在手机上画界面、用 GPT-4 Vision 生成网页；开源 build-it-figma-ai。"},
+     {"when": "2024–", "title": "Mainframe", "text": "联合创办 Mainframe，2026 年开始邀请设计师测试新应用。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SwiftUI Kit", "url": "https://github.com/jordansinger/SwiftUI-Kit",
+     "meta": ["Swift", "★2.5 千"],
+     "paras": [
+      "「A SwiftUI system components and interactions demo app.」覆盖 iOS、macOS、watchOS、tvOS：按钮、颜色、控件、字体、触感反馈、图片、指示器、形状、文字……看系统默认样式的最快方式。"
+     ]
+    }},
+    {"work": {
+     "name": "UIDraw", "url": "https://github.com/jordansinger/UIDraw",
+     "meta": ["2023", "PencilKit + GPT-4V", "★470"],
+     "paras": [
+      "「Draw and build a website on your phone.」用 PencilKit 画出界面草图，再用 GPT-4 Vision 转成 HTML。演示视频在 2023 年底广为流传。"
+     ]
+    }},
+    {"work": {
+     "name": "Mainframe", "url": "https://blog.mainfra.me",
+     "meta": ["2024–", "生成式计算"],
+     "paras": [
+      "他目前的公司。博客介绍了「生成式计算」的想法，以及如何观察 Agent 的工作过程。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["lil.software 示例", "Messages、Mail、Health、Twitter、Slack、Rdio 的 SwiftUI 复刻"],
+      ["Hook", "网页下拉刷新（★1,622）"],
+      ["lil-wallet", "一个小钱包应用实验"],
+      ["swiftui-ios-14-onboarding", "iOS 14 风格引导页"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://ibuildmyideas.com", "paras": [
+     "域名本身就是他的座右铭。网站内容很少，主要以嵌入的作品演示为主。他的大部分作品通过 X 上的短视频发布。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Vercel"],
+      ["形式", "作品演示"],
+      ["写作", "Mainframe 的 Substack 博客"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "good design creates trust. it's what makes me feel like i've been considered and taken care of", "cite": "Jordan Singer，X，2026-08"},
+    {"p": "他对新工具的判断也很快：看到 DialKit 被很多人和团队使用，他说「这说明了事情的方向」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["原型", "想法到演示极快，传播力强", "多数开源项目是示例，不长期维护"],
+      ["创业", "Diagram 被 Figma 收购", "Mainframe 产品尚在测试"],
+      ["影响力", "设计与 AI 圈关注度高", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把想法做出来：</strong>演示胜过论证。",
+     "<strong>复刻好设计来学框架。</strong>",
+     "<strong>卖点页面也要打磨：</strong>它决定信任。",
+     "<strong>停下来，别产出垃圾：</strong>stop before you slop。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "SwiftUI Kit", "url": "https://github.com/jordansinger/SwiftUI-Kit", "why": "一次看全 SwiftUI 系统组件。"},
+     {"name": "UIDraw", "url": "https://github.com/jordansinger/UIDraw", "why": "在手机上画出一个网页。"},
+     {"name": "Mainframe 博客", "url": "https://blog.mainfra.me", "why": "他对生成式计算的想法。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "打开你产品的落地页，问自己：这一页够不够让陌生人相信，产品的其余部分也被认真做过？",
+ "sources": [
+  {"label": "Jordan Singer 的 X 个人资料", "url": "https://x.com/jsngr"},
+  {"label": "ibuildmyideas.com", "url": "https://ibuildmyideas.com"},
+  {"label": "Mainframe 博客", "url": "https://blog.mainfra.me"},
+  {"label": "GitHub：jordansinger", "url": "https://github.com/jordansinger"}
+ ]
+}

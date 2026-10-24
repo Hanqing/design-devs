@@ -1,0 +1,153 @@
+{
+ "name": "Mohammad Azam（AzamSharp）",
+ "role": "AzamSharp School 创办人 ·《SwiftUI Architecture》《SwiftData Architecture》作者 · iOS 讲师 · 休斯敦",
+ "title": "Mohammad Azam：<em>敲代码就是思考</em>",
+ "dek": "TA 住在德州休斯敦，是 iOS 讲师和作者，经营在线学校 AzamSharp School：27 门以上课程、250 多小时内容，官网称已教过 10 万多名学生，覆盖 SwiftUI、SwiftData、Apple 端侧基础模型、AI、机器学习、架构、测试和服务器端 Swift。TA 写了《SwiftUI Architecture》和《SwiftData Architecture》两本书，讲的是怎样把应用做得「易懂、易维护、能演进」，而不只是演示。TA 在 Udemy 上也有大量课程，GitHub 资料还提到 TA 曾在编程训练营 DigitalCrafts 任教，做过被 Apple 推荐的 Vegetable Tree 应用。2026 年，TA 在 X 和 YouTube 上持续讨论 AI 编程：TA 坚持手写更多代码、让 AI 来审阅，并认为「用 AI Agent 并不意味着你可以免掉软件工程原则」。",
+ "card": "AzamSharp School 创办人，《SwiftUI Architecture》《SwiftData Architecture》作者；iOS 讲师，休斯敦。",
+ "location": "美国德州休斯敦",
+ "updated": "2026-10-23",
+ "tags": ["SwiftUI", "SwiftData", "架构", "在线教育", "AI 与编程"],
+ "links": [
+  {"label": "AzamSharp School", "url": "https://azamsharp.school"},
+  {"label": "AzamSharp 的书", "url": "https://azamsharp.school/books.html"},
+  {"label": "azamsharp.com", "url": "https://azamsharp.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Author of SwiftUI & SwiftData Architecture Books.」",
+  "<strong>代表作：</strong>《SwiftUI Architecture》《SwiftData Architecture》、AzamSharp School 课程、Udemy SwiftUI 系列课程、YouTube 频道、Vegetable Tree 应用、TCam、Movies-App-Flutter-MVVM。",
+  "<strong>关键数字（官网）：</strong>27+ 门课程、250+ 小时内容、10 万+ 学生、20+ 年行业经验；X 推文约 4.5 万条、关注者约 2.1 万；GitHub 334 个公开仓库。",
+  "<strong>经历：</strong>DigitalCrafts 讲师（GitHub 资料）→ 独立讲师与作者。"
+ ],
+ "lead": "2026 年 10 月，TA 在 X 上写道：「开发者手写代码时，会更多地参与决策、探索不同的做法、理解权衡，这个过程帮助他们更好地理解问题。」TA 说自己像「恐龙」一样还在手敲更多代码，再用 AI 工具审阅，结果发现 AI 的建议从架构角度看常常很糟。TA 还抛出一个问题：用 AI 省下来的打字时间，是不是最后又加回到了审阅和理解 AI 代码上？同一周，TA 坦言 AI 让编程课程受到很大冲击：「人们不再看课程，而是直接写提示词。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "讲师、作者、在线学校创办人"],
+     ["所在地", "美国德州休斯敦"],
+     ["学校", "AzamSharp School"],
+     ["书", "《SwiftUI Architecture》《SwiftData Architecture》"],
+     ["技术栈", "Swift、SwiftUI、SwiftData、Flutter"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Azam 的主线是<strong>教人写出能长期维护的 iOS 应用</strong>。《SwiftUI Architecture》讲状态管理、导航、依赖管理、测试和功能之间的通信；《SwiftData Architecture》讲关系、查询、迁移、CloudKit、后台处理、自定义存储、UIKit 集成和性能优化。TA 的博客文章也很具体，比如用 HistoryObserver 把 SwiftData 同步到自定义后端。"},
+    {"p": "TA 的 YouTube 视频最近集中在<strong>AI 时代的软件工程</strong>：《敲代码就是思考》《为什么在 AI 时代软件工程比以往更重要》《AI 写代码更快，但你真的交付得更多吗？》《编程课程正在消亡吗？》。"},
+    {"note": "本页依据 azamsharp.school（首页与书籍页）、GitHub 资料和 X 帖子整理，资料截至 2026 年 10 月。学生人数等数据来自官网；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011–2014", "title": "iOS 早期", "text": "赛车游戏、愤怒的小鸟仿制、仿 Instagram 的 TCam、Apple Watch 笔记应用。"},
+     {"when": "此后", "title": "讲师", "text": "在 DigitalCrafts 任教；Vegetable Tree 被 Apple 推荐。"},
+     {"when": "2017–2022", "title": "架构与跨平台", "text": "MVVM 示例、Flutter 课程、SwiftUI + HealthKit。"},
+     {"when": "近年", "title": "AzamSharp School", "text": "建立在线学校；出版 SwiftUI 与 SwiftData 架构书。"},
+     {"when": "2026", "title": "AI 时代的编程", "text": "新课程与系列视频，讨论手写代码与 AI 的关系。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SwiftUI Architecture", "url": "https://azamsharp.school/swiftui-architecture-book.html",
+     "meta": ["书", "SwiftUI"],
+     "paras": [
+      "「Patterns and Practices for Building Scalable Applications」帮助开发者构建能「超越简单演示」不断成长的应用。"
+     ]
+    }},
+    {"work": {
+     "name": "SwiftData Architecture", "url": "https://azamsharp.school/swiftdata-architecture.html",
+     "meta": ["书", "SwiftData"],
+     "paras": [
+      "讲 SwiftData 在真实应用里如何工作，覆盖从关系、迁移到性能优化的方方面面。"
+     ]
+    }},
+    {"work": {
+     "name": "AzamSharp School", "url": "https://azamsharp.school",
+     "meta": ["在线学校", "27+ 门课程"],
+     "paras": [
+      "课程、书、工作坊和答疑时间，包括用 Apple Intelligence 构建 AI 聊天应用等新内容。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Udemy 课程", "如《SwiftUI Masterclass - Sorting, Filtering and Pagination》"],
+      ["TCam", "仿 Instagram 的早期 iOS 应用（★123）"],
+      ["Movies-App-Flutter-MVVM", "Flutter MVVM 示例（★117）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://azamsharp.school", "paras": [
+     "AzamSharp School 首页是典型的课程平台：「Master modern iOS development」，一组数字（课程、时长、学生、经验），然后是按主题分类的课程卡片和会员入口。书籍页单独介绍两本架构书。技术文章发在 azamsharp.com。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["结构", "课程 + 书 + 会员"],
+      ["内容", "SwiftUI、SwiftData、AI、服务器端 Swift"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "You don't get a free pass on software engineering principles and best practices when you are using AI agents.", "cite": "Mohammad Azam，X，2026-10"},
+    {"p": "TA 也会坦率地谈自己行业的变化：对一位优秀讲师离开课程行业表示感谢，也承认 AI 改变了人们学编程的方式。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "课程量大、覆盖面广", "课程行业受 AI 冲击"],
+      ["观点", "强调工程原则", "对 AI 编程持保留态度，可对照其他观点"],
+      ["开源", "大量示例仓库", "近年 GitHub 公开更新少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>架构是为了让应用能长大。</strong>",
+     "<strong>手写代码帮助理解问题。</strong>",
+     "<strong>AI 产出也要用工程原则审视。</strong>",
+     "<strong>把多年教学沉淀成书。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "SwiftData Architecture", "url": "https://azamsharp.school/swiftdata-architecture.html", "why": "学 SwiftData 的真实用法。"},
+     {"name": "SwiftUI Architecture", "url": "https://azamsharp.school/swiftui-architecture-book.html", "why": "给 SwiftUI 应用一个好结构。"},
+     {"name": "AzamSharp School", "url": "https://azamsharp.school", "why": "按主题挑一门课。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "下次让 AI 生成一个功能前，先自己手写一个最简版本，再比较两者的结构差别。",
+ "sources": [
+  {"label": "Mohammad Azam 的 X 个人资料", "url": "https://x.com/azamsharp"},
+  {"label": "AzamSharp School", "url": "https://azamsharp.school"},
+  {"label": "AzamSharp 的书", "url": "https://azamsharp.school/books.html"},
+  {"label": "GitHub：azamsharp", "url": "https://github.com/azamsharp"}
+ ]
+}

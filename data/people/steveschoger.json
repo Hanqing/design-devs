@@ -1,0 +1,145 @@
+{
+ "name": "Steve Schoger",
+ "role": "Shopify 高级主任设计师 · 《Refactoring UI》合著者 · 前 Tailwind Labs 设计师（Tailwind UI、Heroicons）",
+ "title": "Steve Schoger：教开发者<em>自己把界面做好看</em>",
+ "dek": "他住在加拿大安大略省基奇纳，是 Shopify 的高级主任设计师（Senior Staff Designer）。很多开发者认识他，是因为他和 Adam Wathan 合写的《Refactoring UI》：一本从开发者视角讲具体设计技巧的书，官网称已售出三万多本，Goodreads 评分 4.68。早年他在 X 上发的「设计小贴士」系列图片广为流传，后来成了这本书的雏形。之后他作为设计师加入 Tailwind Labs，设计了 Tailwind UI 的大量组件和模板，以及 Heroicons。2026 年 9 月 Tailwind Labs 加入 Shopify，他也随之加入。最近他在探索用 Claude Code 当主力设计工具，一小时的教学视频收获了六千多个赞，这些经验也在被做成 ui.sh。",
+ "card": "Shopify 高级主任设计师（基奇纳）；《Refactoring UI》合著者，Tailwind UI、Heroicons 设计者。",
+ "location": "加拿大安大略省基奇纳",
+ "updated": "2026-10-23",
+ "tags": ["界面设计", "设计教学", "Tailwind", "图标", "AI 设计工作流"],
+ "links": [
+  {"label": "Refactoring UI", "url": "https://www.refactoringui.com"},
+  {"label": "ui.sh", "url": "https://ui.sh"},
+  {"label": "Heroicons", "url": "https://heroicons.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Senior Staff Designer @Shopify. Previously @tailwindlabs」。",
+  "<strong>代表作：</strong>《Refactoring UI》（与 Adam Wathan 合著，3 万+ 本）、Tailwind UI / Tailwind Plus 组件与模板、Heroicons、Hero Patterns；Claude Code 设计工作流视频；ui.sh。",
+  "<strong>关键数字：</strong>X 关注者约 12.8 万；Refactoring UI Goodreads 4.68 分。",
+  "<strong>经历：</strong>设计师 → Tailwind Labs（约 8 年）→ Shopify（2026 年 9 月起）。"
+ ],
+ "lead": "Refactoring UI 的官网上，Adam Wathan 写了一段自述：他是一个「曾经很不会设计」的全栈开发者，和 Steve 是多年的朋友，一起做过很多副业项目，Steve 负责设计，他负责写代码。很多时候 Steve 只改了几处，界面就变得好看得多，Adam 总想知道为什么。这本书就是对「为什么」的回答：不是讲抽象的设计理论，而是讲开发者能立刻用上的具体战术。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "界面设计师、作者"],
+     ["所在地", "加拿大安大略省基奇纳"],
+     ["现任", "Shopify 高级主任设计师"],
+     ["经历", "Tailwind Labs 设计师（Tailwind UI、Heroicons）→ Shopify"],
+     ["作品", "《Refactoring UI》、Tailwind UI、Heroicons、ui.sh"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Steve 的强项是<strong>把设计直觉拆成可以照做的规则</strong>：从层次、留白、颜色、阴影、文字到图片，每一条都配有修改前后的对比。这种风格也延续到了 Tailwind UI：开发者直接复制组件，就能得到专业设计师的默认值。"},
+    {"p": "2026 年他开始把这些规则交给 AI。他录了一小时视频，演示如何把 Claude Code 当作主要设计工具，又用 Claude Code 加语音输入法 Wispr Flow 设计了一个仪表盘。这些经验被整理进 ui.sh：「给界面构建者的 Agent Skills，一套精心打造、按任务组织的提示词和工作流，用来做出不糟糕的界面。」"},
+    {"note": "本页依据 refactoringui.com、ui.sh、X 帖子，以及本站 Adam Wathan 页面中关于 Tailwind Labs 加入 Shopify 的资料整理，资料截至 2026 年 10 月。研究脚本未找到他本人的 GitHub 账号；他在 Tailwind 之前的经历公开资料较少。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "设计小贴士", "text": "在 X 上分享图解式的界面设计技巧，与 Adam Wathan 合作副业项目。"},
+     {"when": "2018", "title": "《Refactoring UI》", "text": "与 Adam Wathan 出版，面向开发者的设计书。"},
+     {"when": "约 2018–2026", "title": "Tailwind Labs", "text": "设计 Tailwind UI、Heroicons 等，持续约八年。"},
+     {"when": "2026.03–04", "title": "用 Claude Code 设计", "text": "发布一小时教学视频和仪表盘设计视频。"},
+     {"when": "2026.09", "title": "加入 Shopify", "text": "随 Tailwind Labs 加入 Shopify，任高级主任设计师。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Refactoring UI", "url": "https://www.refactoringui.com",
+     "meta": ["2018", "书 + 视频 + 素材"],
+     "paras": [
+      "「Make your ideas look awesome, without relying on a designer.」用开发者能理解的方式讲具体战术。官网附有 SavvyCal、Clearbit、Transistor 等创始人的推荐，可以免费领取两章试读。"
+     ]
+    }},
+    {"work": {
+     "name": "Heroicons 与 Tailwind UI", "url": "https://heroicons.com",
+     "meta": ["Tailwind Labs", "图标与组件"],
+     "paras": [
+      "Heroicons 是 Tailwind 团队出品的免费 SVG 图标集；Tailwind UI（后改名 Tailwind Plus）是官方付费组件与模板库，大量设计出自他手。"
+     ]
+    }},
+    {"work": {
+     "name": "ui.sh", "url": "https://ui.sh",
+     "meta": ["2026", "Agent Skills"],
+     "paras": [
+      "按任务组织的设计技能：比如「以资深设计师的专业水准构建新界面」，或「在浏览器里生成并比较多个设计方向」。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.refactoringui.com", "paras": [
+     "Refactoring UI 官网本身就是书的示范：清晰的层次、恰当的留白、真实的推荐语。它用 Adam 的第一人称讲故事，Steve 的作用体现在每一处视觉细节里。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Tailwind CSS，Cloudflare"],
+      ["主要渠道", "X 上的设计视频与贴士"],
+      ["销售", "3 万+ 本"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "“I know this looks terrible, but I have no idea why.”", "cite": "《Refactoring UI》官网，开发者最常见的困惑"},
+    {"p": "他在视频里用的「假」logo 其实是真的：他自己画了标志，再请 ChatGPT 起名，得到了「Axiom」。他对 AI 的态度很实用：设计规则讲清楚了，AI 就能照着做。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "设计规则具体、可操作", "—"],
+      ["作品", "Tailwind 生态的视觉基础", "—"],
+      ["公开信息", "—", "个人履历与开源代码公开较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把直觉变成规则。</strong>",
+     "<strong>用前后对比来教设计。</strong>",
+     "<strong>设计师和开发者结对，作品会更好。</strong>",
+     "<strong>把规则写给 AI：</strong>ui.sh 就是这样做的。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Refactoring UI", "url": "https://www.refactoringui.com", "why": "先读两章免费试读。"},
+     {"name": "Heroicons", "url": "https://heroicons.com", "why": "给你的项目换一套干净的图标。"},
+     {"name": "ui.sh", "url": "https://ui.sh", "why": "让 Agent 用设计师的方式做界面。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑你应用里最乱的一个页面，只做三件事：减少颜色、拉开层次、加大留白，然后对比前后。",
+ "sources": [
+  {"label": "Steve Schoger 的 X 个人资料", "url": "https://x.com/steveschoger"},
+  {"label": "Refactoring UI", "url": "https://www.refactoringui.com"},
+  {"label": "ui.sh", "url": "https://ui.sh"},
+  {"label": "Heroicons", "url": "https://heroicons.com"}
+ ]
+}

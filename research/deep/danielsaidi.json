@@ -1,0 +1,590 @@
+{
+ "handle": "danielsaidi",
+ "sites": [
+  {
+   "url": "http://danielsaidi.com",
+   "ok": true,
+   "title": "Home",
+   "description": "My name is Daniel Saidi. I'm a freelance software engineer in Stockholm, Sweden, who specializes in mobile product development, with a focus on Apple platfor...",
+   "stack": [
+    "Google Analytics",
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "Daniel Saidi \n Home\n Blog\n Apps\n SDKs\n Open-Source\n Talks\n I'm a freelance engineer who specializes in app & product development, with focus on Apple platforms like iOS, macOS, tvOS & watchOS and tech like Swift & SwiftUI.\n I love building apps & open-source tools. I blog , tweet , toot and give occasional talks .\nBlog \n View more\n How I reduced my DocC documentation web output size with 95%\n The KeyboardKit documentation used to be a massive ~900 MB DocC build with more than 160,000 files. One single build setting brought it down to ~45 MB. Let’s see how.\n Oct 1, 2026\n · \n docc \n Optimizing Claude Code's Xcode build token usage\n This post is based on Antoine van der Lee’s great article How to reduce token usage in Claude Code, Codex, and Cursor on his blog SwiftLee . All credit goes to him. I’m just writing this down as a note to my future self.\n Sep 30, 2026\n · \n ai \nOpen Source \n View more\nApiKit \nAppIconKit \nBadgeIcon \nDeckKit \nSDKs \n View more\nKeyboardKit \nLicenseKit \nMediaKit \nVietnameseInput \nApps \n View more\nKeyboardKit \nEmoji Picker \nWally \nOne Touch Paste \nWork \n View more\nKankoda \nCompileit \nMods \nQapital",
+   "github_links": [
+    "danielsaidi"
+   ],
+   "subpages": {
+    "http://danielsaidi.com/blog/": "Daniel Saidi \n Home\n Blog\n Apps\n SDKs\n Open-Source\n Talks\n Home\nBlog \n Search blog \n ✕ \n show all\n · \n general\n swift\n swiftui\n · \n ai\n android\n apple\n apps\n ar-vr\n async\n authentication\n automation\n codable\n colors\n conferences\n dates\n dependency-injection\n di\n docc\n emojis\n error-handling\n extensions\n gamedev\n geo\n gestures\n git\n github\n images\n ioc\n ios\n keyboard\n keychain\n keypaths\n l10n\n licenses\n localization\n macos\n menubar\n mocking\n multi-platform\n open-source\n pasteboard\n protocols\n sdks\n sf-symbols\n spm\n sponsored\n storekit\n tags\n talks\n terminal\n testing\n tvos\n video\n vision\n watchos\n web\n xcode\n Show tags \n How I reduced my DocC documentation web output size with 95%\n The KeyboardKit documentation used to be a massive ~900 MB DocC build with more than 160,000 files. One single build setting brought it down to ~45 MB. Let’s see how.\n Oct 1, 2026\n · \n docc \n Optimizing Claude Code's Xcode build token usage\n This post is based on Antoine van der Lee’s great article How to reduce token usage in Claude Code, Codex, and Cursor on his blog SwiftLee . All credit goes to him. I’m just writing this down as a note to my future self.\n Sep 30, 2026\n · \n ai \n Compressing images and PDFs from the Finder context menu\n This article shows how to create two Finder Quick Actions that can compress images and PDFs with a single right-click on any file in Finder. Just right click and compress away.\n Sep 15, 2026\n · \n automation \n Using LicenseKit to Protect Closed Software With Commercial Licenses\n Kankoda has just released LicenseKit 2.2 , which ships as a static framework to make it even easier to distribute it with your app/SDK. Let’s take a look at how you can use it to protect your products.\n Sep 4, 2026\n · \n general \n Custom keyboards and mental health research\n Your keyboard may know more about your brain than your doctor does. A study in the Journal of Psychopathology and Clinical Science looks at several research projects with very exciting findings.\n Sep 4, 2026\n · \n general \n Some things are never truly lost - How git recovered two weeks of deleted work\n After spening 2+ weeks working on a major product update, I deleted everything by mistake. Then I got it back. This is a story about panic, and how some tools have your back when disaster strikes.\n Aug 27, 2026\n · \n git \n Wally 7\n 14 years ago, I built my very first native app for iOS together with two friend. Today, Wally 7.0 is out, with a brand new data store, and lots of new features.\n Aug 20, 2026\n · \n swiftui \n apps \n Introducing ListKit - an open-source library for working with lists in SwiftUI\n Say hi to ListKit - a new open-source library for working with lists in SwiftUI. The library has reusable view components and extension for many common challenges.\n Jun 8, 2026\n · \n swiftui \n open-source \n Making a SwiftUI sheet automatically size to fit its content\n An iOS sheet defaults to covering around half the screen, and while you can specify custom detents, it’s not enough. This article sho",
+    "http://danielsaidi.com/apps/": "[Daniel Saidi](http://danielsaidi.com/)\n*   [Home](http://danielsaidi.com/)\n*   [Blog](http://danielsaidi.com/blog/)\n*   [Apps](http://danielsaidi.com/apps/)\n*   [SDKs](http://danielsaidi.com/sdks)\n*   [Open-Source](http://danielsaidi.com/opensource)\n*   [Talks](http://danielsaidi.com/talks/)\n[Home](http://danielsaidi.com/)\n# Apps\nHere are some apps that I have built for myself and actively maintain. Since I currently focus more on [open-source](http://danielsaidi.com/open-source) and [SDKs](http://danielsaidi.com/sdks), some apps are quite old, but I keep most updated to the latest SwiftUI.\n[ KeyboardKit](http://keyboardkit.com/app \"KeyboardKit\")[ Emoji Picker](http://kankoda.com/apps/emojipicker \"Emoji Picker\")[ Wally](https://wally.app/ \"Wally\")[ One Touch Paste](http://kankoda.com/apps/onetouchpaste/ \"One Touch Paste\")[ Appamini](http://appamini.com/ \"Appamini\")[ Lunchrrrrr](https://kankoda.com/apps/lunchrrrrr \"Lunchrrrrr\")[ Vinylsamlaren](http://kankoda.com/apps/vinylsamlaren \"Vinylsamlaren\")\n* * *\nSite\n[Home](http://danielsaidi.com/)[Work](http://danielsaidi.com/work/)[Apps](http://danielsaidi.com/apps/)[SDKs](http://danielsaidi.com/sdks)[Open-Source](http://danielsaidi.com/opensource)[Talks](http://danielsaidi.com/talks/)\nNews\n[Blog](http://danielsaidi.com/blog)[Blog Archive](http://danielsaidi.com/blog/archive)[RSS](https://danielsaidi.com/feed.xml)\nSocial\n[E-mail](mailto:daniel.saidi@gmail.com)[Bluesky](https://bsky.app/profile/danielsaidi.bsky.social)[Mastodon](https://mastodon.social/@danielsaidi)[LinkedIn](http://linkedin.com/in/danielsaidi)\nMusic\n[Bands](http://danielsaidi.com/music)[Daniel Saidi](http://danielsaidi.com/bands/daniel-saidi)[Misfortune](http://danielsaidi.com/bands/misfortune)[sgt. Black](http://danielsaidi.com/bands/sgt-black)[Wakander](http://danielsaidi.com/bands/magnus-wakander)\nBusinesses\n[Company](https://kankoda.com/)[KeyboardKit](https://keyboardkit.com/app)\n © 2009-2026 [Daniel Saidi](https://danielsaidi.com/). All rights reserved.",
+    "http://danielsaidi.com/talks/": "Daniel Saidi \n Home\n Blog\n Apps\n SDKs\n Open-Source\n Talks\n Home\nTalks \n Search blog \n ✕ \n show all\n · \n slides\n video\n · \n buildstuff\n cocoaheads\n cocoaheads-sthlm\n devsum\n ioskonf\n l10n\n luni\n malaga-mobile\n rebla\n sdks\n spm\n swift\n swiftleeds\n try-swift\n Here's a list of talks and workshops that I have given at various conferences, meetups, and events.\n Localizing Swift Packages with String Catalogs\nI gave this talk at CocoaHeads Sthlm on how to localize Swift packages with String Catalogs and how to create a shared localization package that can be used by multiple apps and packages. \n Dec 14, 2025\n · \n cocoaheads-sthlm \n slides \n swift \n l10n \n Best Practices in SDK Development\nI gave this talk at BuildStuff 2025 . It’s a longer version of the talk I gave at SwiftLeeds in October and goes deeper into the discussions on API Design, System Design, Testing, and Versioning. \n Dec 5, 2025\n · \n buildstuff \n slides \n swift \n spm \n sdks \n Best Practices in SDK Development\nI gave this talk at Swift Leeds 2025 , on best practices in SDK development, and how to create a great developer experience, both for your users and yourself. \n Oct 8, 2025\n · \n swiftleeds \n slides \n video \n swift \n spm \n sdks \n Distribute & Monetize Closed-Source SDKs with the Swift Package Manager\nI gave this talk at iOSKonf25 , in Skopje, North Macedonia, in May 2025. on how to set up, distribute, and monetize a closed-source SDK with the Swift Package Manager. \n May 12, 2025\n · \n ioskonf \n slides \n video \n swift \n spm \n sdks \n Lessons Learned: Building SDKs with the Swift Package Manager\nI gave this talk at Luni , in Paris, May 2025, on how to build SDKs with the Swift Package Manager. It was an amazing invite-only event with a few speakers, including Klemens Strasser (the Art of Fauna). \n May 6, 2025\n · \n luni \n slides \n video \n swift \n spm \n sdks \n Mastering the macOS Menu Bar\nI gave this talk at CocoaHeads Stockholm in December 2022, on how to create a great macOS menu bar experience in SwiftUI, and how to control menu focus with focus state. \n Dec 12, 2023\n · \n cocoaheads \n Building Great Documentation with DocC\nI gave this talk at CocoaHeads Stockholm in Oct 2022, on how to build a great documentation experience with DocC. \n Sep 30, 2022\n · \n cocoaheads \n Going Open-Source\nI gave this talk at MalagaMobile in March 2022, and later at Copenhagen Cocoa, on my experiences of creating open- and closed-source projects, and how to get started with your first project. \n Mar 31, 2022\n · \n malaga-mobile \n Building a tvOS app with SwiftUI\nI gave this workshop at try Swift World in 2021, on how to build a video streaming app for tvOS with SwiftUI, including designing grids & shelves, implementing pagination, etc. \n Apr 27, 2021\n · \n try-swift \n Swift Package Manager - How to Distribute Closed-Source Software\nI gave this workshop at try! Swift World in 2021, on how to distribute closed-source software with the Swift Package Manager. \n Apr 6, 2021\n · \n try-swift \n Get Swifty!\nI gave this ",
+    "http://danielsaidi.com/work": "Daniel Saidi \n Home\n Blog\n Apps\n SDKs\n Open-Source\n Talks\n Home\nWork \n Here are some companies that I have had the pleasure of working with over the years.\n Don't hesitate to reach out if you need help with your apps or products, or with things like design, architecture, automation, testing, closed-source product development, etc.\nKankoda \nCompileit \nMods \nQapital \nBambuser \nOribi \nCineasterna \nBookBeat \nVoyado \nTradera",
+    "http://danielsaidi.com/apps": "[Daniel Saidi](http://danielsaidi.com/)\n*   [Home](http://danielsaidi.com/)\n*   [Blog](http://danielsaidi.com/blog/)\n*   [Apps](http://danielsaidi.com/apps/)\n*   [SDKs](http://danielsaidi.com/sdks)\n*   [Open-Source](http://danielsaidi.com/opensource)\n*   [Talks](http://danielsaidi.com/talks/)\n[Home](http://danielsaidi.com/)\n# Apps\nHere are some apps that I have built for myself and actively maintain. Since I currently focus more on [open-source](http://danielsaidi.com/open-source) and [SDKs](http://danielsaidi.com/sdks), some apps are quite old, but I keep most updated to the latest SwiftUI.\n[ KeyboardKit](http://keyboardkit.com/app \"KeyboardKit\")[ Emoji Picker](http://kankoda.com/apps/emojipicker \"Emoji Picker\")[ Wally](https://wally.app/ \"Wally\")[ One Touch Paste](http://kankoda.com/apps/onetouchpaste/ \"One Touch Paste\")[ Appamini](http://appamini.com/ \"Appamini\")[ Lunchrrrrr](https://kankoda.com/apps/lunchrrrrr \"Lunchrrrrr\")[ Vinylsamlaren](http://kankoda.com/apps/vinylsamlaren \"Vinylsamlaren\")\n* * *\nSite\n[Home](http://danielsaidi.com/)[Work](http://danielsaidi.com/work/)[Apps](http://danielsaidi.com/apps/)[SDKs](http://danielsaidi.com/sdks)[Open-Source](http://danielsaidi.com/opensource)[Talks](http://danielsaidi.com/talks/)\nNews\n[Blog](http://danielsaidi.com/blog)[Blog Archive](http://danielsaidi.com/blog/archive)[RSS](https://danielsaidi.com/feed.xml)\nSocial\n[E-mail](mailto:daniel.saidi@gmail.com)[Bluesky](https://bsky.app/profile/danielsaidi.bsky.social)[Mastodon](https://mastodon.social/@danielsaidi)[LinkedIn](http://linkedin.com/in/danielsaidi)\nMusic\n[Bands](http://danielsaidi.com/music)[Daniel Saidi](http://danielsaidi.com/bands/daniel-saidi)[Misfortune](http://danielsaidi.com/bands/misfortune)[sgt. Black](http://danielsaidi.com/bands/sgt-black)[Wakander](http://danielsaidi.com/bands/magnus-wakander)\nBusinesses\n[Company](https://kankoda.com/)[KeyboardKit](https://keyboardkit.com/app)\n © 2009-2026 [Daniel Saidi](https://danielsaidi.com/). All rights reserved.",
+    "http://danielsaidi.com/blog": "Daniel Saidi \n Home\n Blog\n Apps\n SDKs\n Open-Source\n Talks\n Home\nBlog \n Search blog \n ✕ \n show all\n · \n general\n swift\n swiftui\n · \n ai\n android\n apple\n apps\n ar-vr\n async\n authentication\n automation\n codable\n colors\n conferences\n dates\n dependency-injection\n di\n docc\n emojis\n error-handling\n extensions\n gamedev\n geo\n gestures\n git\n github\n images\n ioc\n ios\n keyboard\n keychain\n keypaths\n l10n\n licenses\n localization\n macos\n menubar\n mocking\n multi-platform\n open-source\n pasteboard\n protocols\n sdks\n sf-symbols\n spm\n sponsored\n storekit\n tags\n talks\n terminal\n testing\n tvos\n video\n vision\n watchos\n web\n xcode\n Show tags \n How I reduced my DocC documentation web output size with 95%\n The KeyboardKit documentation used to be a massive ~900 MB DocC build with more than 160,000 files. One single build setting brought it down to ~45 MB. Let’s see how.\n Oct 1, 2026\n · \n docc \n Optimizing Claude Code's Xcode build token usage\n This post is based on Antoine van der Lee’s great article How to reduce token usage in Claude Code, Codex, and Cursor on his blog SwiftLee . All credit goes to him. I’m just writing this down as a note to my future self.\n Sep 30, 2026\n · \n ai \n Compressing images and PDFs from the Finder context menu\n This article shows how to create two Finder Quick Actions that can compress images and PDFs with a single right-click on any file in Finder. Just right click and compress away.\n Sep 15, 2026\n · \n automation \n Using LicenseKit to Protect Closed Software With Commercial Licenses\n Kankoda has just released LicenseKit 2.2 , which ships as a static framework to make it even easier to distribute it with your app/SDK. Let’s take a look at how you can use it to protect your products.\n Sep 4, 2026\n · \n general \n Custom keyboards and mental health research\n Your keyboard may know more about your brain than your doctor does. A study in the Journal of Psychopathology and Clinical Science looks at several research projects with very exciting findings.\n Sep 4, 2026\n · \n general \n Some things are never truly lost - How git recovered two weeks of deleted work\n After spening 2+ weeks working on a major product update, I deleted everything by mistake. Then I got it back. This is a story about panic, and how some tools have your back when disaster strikes.\n Aug 27, 2026\n · \n git \n Wally 7\n 14 years ago, I built my very first native app for iOS together with two friend. Today, Wally 7.0 is out, with a brand new data store, and lots of new features.\n Aug 20, 2026\n · \n swiftui \n apps \n Introducing ListKit - an open-source library for working with lists in SwiftUI\n Say hi to ListKit - a new open-source library for working with lists in SwiftUI. The library has reusable view components and extension for many common challenges.\n Jun 8, 2026\n · \n swiftui \n open-source \n Making a SwiftUI sheet automatically size to fit its content\n An iOS sheet defaults to covering around half the screen, and while you can specify custom detents, it’s not enough. This article sho"
+   },
+   "feed": {
+    "url": "http://danielsaidi.com/feed.xml",
+    "count_seen": 100,
+    "items": [
+     {
+      "title": "How I reduced my DocC documentation web output size with 95%",
+      "date": "2026-10-01T05:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/10/01/how-i-reduced-the-size-of-my-docc-documentation-with-95"
+     },
+     {
+      "title": "Optimizing Claude Code’s Xcode build token usage",
+      "date": "2026-09-30T05:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/09/30/optimizing-claude-code-s-xcode-build-token-usage"
+     },
+     {
+      "title": "Compressing images and PDFs from the Finder context menu",
+      "date": "2026-09-15T05:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/09/15/using-automator-workflows-to-compress-images-and-pdfs"
+     },
+     {
+      "title": "Using LicenseKit to Protect Closed Software With Commercial Licenses",
+      "date": "2026-09-04T06:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/09/04/using-licensekit-to-protect-your-software"
+     },
+     {
+      "title": "Custom keyboards and mental health research",
+      "date": "2026-09-04T05:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/09/04/custom-keyboards-and-mental-health-research"
+     },
+     {
+      "title": "Some things are never truly lost - How git recovered two weeks of deleted work",
+      "date": "2026-08-27T05:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/08/27/some-things-are-never-truly-lost"
+     },
+     {
+      "title": "Wally 7",
+      "date": "2026-08-20T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/08/20/wally-7"
+     },
+     {
+      "title": "Introducing ListKit - an open-source library for working with lists in SwiftUI",
+      "date": "2026-06-08T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/06/08/introducing-listkit"
+     },
+     {
+      "title": "Making a SwiftUI sheet automatically size to fit its content",
+      "date": "2026-05-22T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/05/22/making-a-swiftui-sheet-automatically-size-to-fit-its-content"
+     },
+     {
+      "title": "How to easily present alerts for async errors in SwiftUI",
+      "date": "2026-05-20T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/05/20/how-to-easily-present-alerts-for-async-errors-in-swiftui"
+     },
+     {
+      "title": "Using Xcode MCP with Claude Code",
+      "date": "2026-04-30T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/04/30/using-xcode-mcp-with-claude-code"
+     },
+     {
+      "title": "Detecting text in images with the Vision framework",
+      "date": "2026-01-10T06:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/01/10/detecting-text-in-images-with-the-vision-framework"
+     },
+     {
+      "title": "KeyboardKit 10.2 - New In-Keyboard Dictation Engine",
+      "date": "2026-01-09T06:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2026/01/09/keyboardkit-10-2"
+     },
+     {
+      "title": "Localizing Swift Packages with String Catalogs",
+      "date": "2025-12-14T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/12/14/localizing-swift-packages-with-string-catalogs"
+     },
+     {
+      "title": "A Better Way to Localize Swift Packages with Xcode String Catalogs",
+      "date": "2025-12-02T06:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/12/02/a-better-way-to-localize-swift-packages-with-xcode-string-catalogs"
+     },
+     {
+      "title": "Improving Swift Package Scripts with GitHub Actions workflows",
+      "date": "2025-11-26T06:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/11/26/improving-swift-package-scripts-with-github-action-workflows"
+     },
+     {
+      "title": "Building Closed-Source Binaries with GitHub Actions",
+      "date": "2025-11-09T06:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/11/09/building-closed-source-binaries-with-github-actions"
+     },
+     {
+      "title": "Power-Up SwiftUI Form Validation with Key Paths",
+      "date": "2025-10-24T06:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/10/24/power-up-swiftui-form-validation-with-key-paths"
+     },
+     {
+      "title": "Adding dSYMs from a closed-source Swift SDK to an app",
+      "date": "2025-10-19T06:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/10/19/adding-dsyms-from-a-closed-source-sdk-to-your-app"
+     },
+     {
+      "title": "SwiftLeeds - Questions &amp; Answers",
+      "date": "2025-10-11T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/10/11/swiftleeds-questions-and-answers"
+     },
+     {
+      "title": "KeyboardKit 10",
+      "date": "2025-08-31T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/08/31/keyboardkit-10-developer-preview"
+     },
+     {
+      "title": "Creating amazing loading animations with SF Symbols.",
+      "date": "2025-07-24T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/07/24/creating-amazing-loading-animations-with-sf-symbols"
+     },
+     {
+      "title": "Using VideoKit to add video to your SwiftUI app",
+      "date": "2025-06-19T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/06/19/using-videokit-to-add-video-to-your-swiftui-app"
+     },
+     {
+      "title": "WebView is Finally Coming to SwiftUI",
+      "date": "2025-06-10T09:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/06/10/webview-is-finally-coming-to-swiftui"
+     },
+     {
+      "title": "Introducing PickerKit for SwiftUI",
+      "date": "2025-06-10T07:00:00+00:00",
+      "url": "https://danielsaidi.com/blog/2025/06/10/introducing-pickerkit-for-swiftui"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "danielsaidi",
+  "user": {
+   "name": "Daniel Saidi",
+   "company": "Daniel Saidi",
+   "blog": "danielsaidi.com",
+   "location": "Stockholm, Sweden",
+   "bio": "Building Swift & SwiftUI apps & SDKs.",
+   "public_repos": 39,
+   "followers": 946,
+   "created_at": "2010-10-06T17:59:41Z",
+   "twitter_username": "danielsaidi",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "danielsaidi/SwiftUIKit",
+    "description": "Extra functionality for Swift & SwiftUI.",
+    "stargazers_count": 1753,
+    "forks_count": 66,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2020-03-04T15:18:13Z",
+    "pushed_at": "2026-08-21T09:50:02Z",
+    "topics": [
+     "extensions",
+     "swift",
+     "swiftui",
+     "views"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/Sheeeeeeeeet",
+    "description": "Sheeeeeeeeet is a Swift library for creating menus, custom action sheets, context menus etc.",
+    "stargazers_count": 1750,
+    "forks_count": 114,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2017-11-18T10:08:03Z",
+    "pushed_at": "2023-06-29T08:26:45Z",
+    "topics": [
+     "actionsheet",
+     "carthage",
+     "cocoapods",
+     "context-menu",
+     "ios",
+     "popover",
+     "spm",
+     "swift",
+     "uialertcontroller"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/OnboardingKit",
+    "description": "Create amazing SwiftUI onboarding experiences.",
+    "stargazers_count": 1281,
+    "forks_count": 49,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2016-08-19T12:40:30Z",
+    "pushed_at": "2026-10-21T15:34:01Z",
+    "topics": [
+     "hint",
+     "onboarding",
+     "swift",
+     "swiftui",
+     "tutorial"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/RichTextKit",
+    "description": "View and edit rich text in SwiftUI.",
+    "stargazers_count": 1274,
+    "forks_count": 163,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com",
+    "created_at": "2022-05-10T18:28:15Z",
+    "pushed_at": "2026-06-05T14:27:25Z",
+    "topics": [
+     "appkit",
+     "rich-text",
+     "rich-text-editor",
+     "swift",
+     "swiftui",
+     "uikit"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/SystemNotification",
+    "description": "Mimic the native system notification in SwiftUI.",
+    "stargazers_count": 958,
+    "forks_count": 36,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2021-06-01T08:43:28Z",
+    "pushed_at": "2026-06-05T16:10:32Z",
+    "topics": [
+     "notification",
+     "swift",
+     "swiftui",
+     "system-notification",
+     "toast"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/DeckKit",
+    "description": "Card and deck-based SwiftUI views.",
+    "stargazers_count": 890,
+    "forks_count": 23,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2020-08-31T05:51:52Z",
+    "pushed_at": "2026-06-09T08:07:46Z",
+    "topics": [
+     "card",
+     "deck",
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/ScrollKit",
+    "description": "Powerful SwiftUI scroll capabilities.",
+    "stargazers_count": 870,
+    "forks_count": 36,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2023-02-04T13:24:58Z",
+    "pushed_at": "2026-06-05T14:47:21Z",
+    "topics": [
+     "scrollview",
+     "sticky-header",
+     "stretchy-header",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/EmojiKit",
+    "description": "Emoji-based features and utilities for Swift & SwiftUI.",
+    "stargazers_count": 197,
+    "forks_count": 20,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2024-02-22T08:10:28Z",
+    "pushed_at": "2026-09-15T16:17:45Z",
+    "topics": [
+     "emoji",
+     "emoji-categories",
+     "emoji-picker",
+     "emoji-versions",
+     "emojis",
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/AppIconKit",
+    "description": "Alternate app icons for iOS & macOS.",
+    "stargazers_count": 188,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2024-11-22T12:54:59Z",
+    "pushed_at": "2026-08-06T21:56:10Z",
+    "topics": [
+     "app-icons",
+     "icons",
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/WebViewKit",
+    "description": "A WebView & SafariWebView for SwiftUI.",
+    "stargazers_count": 153,
+    "forks_count": 17,
+    "language": "Shell",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2022-03-31T17:44:51Z",
+    "pushed_at": "2025-06-19T20:34:17Z",
+    "topics": [
+     "ios",
+     "macos",
+     "safari",
+     "swift",
+     "swiftui",
+     "visionos",
+     "web",
+     "webview",
+     "wkwebview"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "danielsaidi/BadgeIcon",
+    "description": "Beautiful, scalable SwiftUI icons.",
+    "stargazers_count": 130,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2023-12-15T09:09:36Z",
+    "pushed_at": "2026-06-08T10:57:36Z",
+    "topics": [
+     "icons",
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/SwiftPackageScripts",
+    "description": "A collection of Swift Package-related scripts.",
+    "stargazers_count": 127,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2024-10-03T22:54:40Z",
+    "pushed_at": "2026-10-23T07:36:39Z",
+    "topics": [
+     "scripts",
+     "shell",
+     "spm",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/PrintingKit",
+    "description": "Print texts, views, images, PDFs etc. from any SwiftUI app.",
+    "stargazers_count": 124,
+    "forks_count": 13,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2023-08-21T11:30:53Z",
+    "pushed_at": "2026-06-05T14:18:37Z",
+    "topics": [
+     "pdf",
+     "print",
+     "printer",
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/StoreKitPlus",
+    "description": "StoreKit 2 extensions and add-ons.",
+    "stargazers_count": 114,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2022-06-20T07:17:36Z",
+    "pushed_at": "2026-08-06T21:30:29Z",
+    "topics": [
+     "extensions",
+     "storekit",
+     "storekit2",
+     "swift",
+     "views"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/MockingKit",
+    "description": "Mock protocols and classes in Swift.",
+    "stargazers_count": 110,
+    "forks_count": 11,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2019-04-14T14:18:09Z",
+    "pushed_at": "2026-08-25T07:54:31Z",
+    "topics": [
+     "mock",
+     "mocking",
+     "swift",
+     "tdd",
+     "unit-testing"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/TagKit",
+    "description": "Tag items and slugify strings in Swift and SwiftUI.",
+    "stargazers_count": 107,
+    "forks_count": 8,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2022-08-18T06:22:00Z",
+    "pushed_at": "2026-06-05T16:12:22Z",
+    "topics": [
+     "slugs",
+     "swift",
+     "swiftui",
+     "tags"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/TextReplacements",
+    "description": "Customize any part of a SwiftUI Text.",
+    "stargazers_count": 105,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2025-04-08T13:29:23Z",
+    "pushed_at": "2026-06-05T16:14:56Z",
+    "topics": [
+     "swiftui",
+     "text"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "danielsaidi/GestureButton",
+    "description": "A SwiftUI button that can trigger many different gesture actions.",
+    "stargazers_count": 88,
+    "forks_count": 5,
+    "language": "Swift",
+    "homepage": "https://danielsaidi.com/opensource",
+    "created_at": "2024-09-02T06:38:16Z",
+    "pushed_at": "2026-08-26T07:25:01Z",
+    "topics": [
+     "button",
+     "gestures",
+     "swift",
+     "swiftui"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 37,
+  "languages": [
+   [
+    "Swift",
+    30
+   ],
+   [
+    "SCSS",
+    3
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "C#",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "danielsaidi/Sheeeeeeeeet",
+    "stargazerCount": 1750,
+    "description": "Sheeeeeeeeet is a Swift library for creating menus, custom action sheets, context menus etc.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "KeyboardKit/KeyboardKit",
+    "stargazerCount": 1895,
+    "description": "Create custom iOS keyboards with Swift & SwiftUI.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://keyboardkit.com"
+   },
+   {
+    "nameWithOwner": "danielsaidi/OnboardingKit",
+    "stargazerCount": 1281,
+    "description": "Create amazing SwiftUI onboarding experiences.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://danielsaidi.com/opensource"
+   },
+   {
+    "nameWithOwner": "danielsaidi/SwiftUIKit",
+    "stargazerCount": 1753,
+    "description": "Extra functionality for Swift & SwiftUI.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://danielsaidi.com/opensource"
+   },
+   {
+    "nameWithOwner": "danielsaidi/MockingKit",
+    "stargazerCount": 110,
+    "description": "Mock protocols and classes in Swift.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://danielsaidi.com/opensource"
+   },
+   {
+    "nameWithOwner": "danielsaidi/RichTextKit",
+    "stargazerCount": 1274,
+    "description": "View and edit rich text in SwiftUI.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://danielsaidi.com"
+   }
+  ],
+  "contrib_last_year": 3701,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "danielsaidi/Sheeeeeeeeet": "<p align=\"center\">\n</p>\n<p align=\"center\">\n</p>\n## About Sheeeeeeeeet\nSheeeeeeeeet is a UIKit library that lets you create menus that can be presented as custom action sheets, context menus, alert controllers, or in any way you like.\nThe result can look like this or completely different:\n<p align=\"center\">\n</p>\nSheeeeeeeeet comes with many item types (standard items, buttons, titles, toggles, etc.) and can be extended with your own custom item types.\n## About this repository\nSince I have personally moved over to SwiftUI, this repository is no longer under active development. I will however gladly merge any PRs that add value to it or fixes problems with new iOS versions.  \n## Installation\nSheeeeeeeeet can be installed with the Swift Package Manager:\n```\nhttps://github.com/danielsaidi/Sheeeeeeeeet.git\n```\nor with CocoaPods:\n```\npod Sheeeeeeeeet\n```\nIf you prefer to not have external dependencies, you can also just copy the source code into your app.\n## Supported Platforms\nSheeeeeeeeet supports `iOS 9` and later.\n## Getting Started\n### Creating a menu\nWith Sheeeeeeeeet, you start with creating a menu, like this:\n```swift\nlet item1 = MenuItem(title: \"Int\", value: 1)\nlet item2 = MenuItem(title: \"Car\", value: Car())\nlet button = OkButton(title: \"OK\")\nlet items = [item1, item2, button]\nlet menu = Menu(title: \"Select a type\", items: items)\n```\nThe library has many built-in item types, e.g. buttons, select items, links, etc. A complete list can be found [here][MenuItems].\nYou can also [create your own custom item types][CustomItems] by inheriting any of the existing ones. For instance, if you build a car rental app, you can create a car-specific item that takes a `Car` model.\nYou can even create your own menu types by subclassing `Menu`. This makes it possible to create app-specific menus that provide specific functionality, handle specific tasks, etc.\n### Presenting a menu as an action sheet\nYou can present menus as custom action sheets:\n```swift\nlet sheet = menu.toActionSheet(...) { sheet, item in ... }\nsheet.present(in: vc, from: view) { sheet, item in ...\n    print(\"You selected \\(item.title)\")\n}\n```\nYou can find more information in [this action sheet guide][ActionS",
+   "KeyboardKit/KeyboardKit": "<p align=\"center\">\n</p>\n<p align=\"center\">\n    <a href=\"https://keyboardkit.github.io/KeyboardKit\"></a>\n</p>\n# KeyboardKit\nKeyboardKit lets you create amazing [custom keyboard extensions][About] with a few lines of code, using Swift & SwiftUI.\n<p align=\"center\">\n</p>\nKeyboardKit extends Apple's limited keyboard APIs with more capabilities. It can be extended with [KeyboardKit Pro][Pro], which unlocks localized keyboards, autocomplete, an emoji keyboard, AI support, themes, and much more.\n## Installation\nKeyboardKit can be installed with the Swift Package Manager:\n```\nhttps://github.com/KeyboardKit/KeyboardKit.git\n```\nSince KeyboardKit is a binary framework, it must only linked to the main app target. All other targets will be able to use it without linking.\n## Getting Started\nThe easiest way to set up KeyboardKit is to first create a `KeyboardApp` value for your app:\n```swift\nimport KeyboardKit\nextension KeyboardApp {\n    static var keyboardKitDemo: KeyboardApp {\n        .init(\n            name: \"KeyboardKit\",\n            licenseKey: \"your-key-here\",                // Needed for KeyboardKit Pro!\n            appGroupId: \"group.com.keyboardkit.demo\",   // Sets up App Group data sync\n            locales: .keyboardKitSupported,             // Sets up the enabled locales\n            autocomplete: .init(                        // Sets up custom autocomplete  \n                nextWordPredictionRequest: .claude(...) // Sets up AI-based prediction\n            ),\n            deepLinks: .init(app: \"kkdemo://\", ...)     // Defines how to open the app\n        )\n    }\n}\n```  \nNext, let your `KeyboardController` inherit ``KeyboardInputViewController`` instead of `UIInputViewController`:\n```swift\nclass KeyboardController: KeyboardInputViewController {}\n```\nThis unlocks additional functions and capabilities, and adds `services` and observable `state` to the controller. \nNext, override `viewDidLoad()` and call `setup(for:)` to set up the keyboard extension for your app:\n```swift\nclass KeyboardViewController: KeyboardInputViewController {\n    override func viewDidLoad() {\n        super.viewDidLoad()\n        // Set up the keyboard with the app we created above\n        setup(for: .k",
+   "danielsaidi/OnboardingKit": "<p align=\"center\">\n</p>\n<p align=\"center\">\n    <a href=\"https://danielsaidi.github.io/OnboardingKit\"></a>\n    <a href=\"https://github.com/danielsaidi/OnboardingKit/blob/main/LICENSE\"></a>\n</p>\n# OnboardingKit\nOnboardingKit is SwiftUI SDK that helps you create amazing onboarding experiences on all major Apple platforms.\n<p align=\"center\">\n</p>\nOnboardingKit has different `Onboarding` types, powerful onboarding view components like ``OnboardingPageView`` and ``OnboardingSlideshow``, an ``OnboardingScreen`` that can wrap any onboarding flow, and much more.\n## Installation\nOnboardingKit can be installed with the Swift Package Manager:\n```\nhttps://github.com/danielsaidi/OnboardingKit.git\n```\n## Supported Platforms\nOnboardingKit supports iOS 17, macOS 15, tvOS 17, watchOS 10, and visionOS 1.\n## Getting started\nOnboardingKit has various onboarding types and views that can be used to tailor an app's onboarding behavior. \nThe various ``Onboarding`` types defines unique onboarding experience behaviors, for instance: \n* ``Onboarding`` is presented right away, and only once.\n* ``Onboarding.Conditional`` is presented when a certain condition returns `true`.\n* ``Onboarding.CorrectBehavior`` is presented when a user is not behaving as intended.\n* ``Onboarding.Delayed`` is presented after a certain number of presentation attempts.\nOnboardingKit has various onboarding flows, and convenient ways to handle page state, for instance:\n* An ``OnboardingPageView`` can be used to present manually scrolling pages. \n* An ``OnboardingSlideshow`` can be used to present an automatically progressing slideshow.\n* An ``OnboardingIntroScreen`` can be used to present a welcome screen on first app launch.\nSee the online [getting started guide][Getting-Started] for more information.\n## Documentation\nThe online [documentation][Documentation] has more information, articles, code examples, etc.\n## Demo Application\nThe `Demo` folder has an app that lets you explore the library.\n## Support My Work\nYou can [become a sponsor][Sponsors] to help me dedicate more time on my various [open-source tools][OpenSource]. Every contribution, no matter the size, makes a real difference in keeping these tools free and",
+   "danielsaidi/SwiftUIKit": "<p align=\"center\">\n</p>\n<p align=\"center\">\n    <a href=\"https://danielsaidi.github.io/SwiftUIKit\"></a>\n    <a href=\"https://github.com/danielsaidi/SwiftUIKit/blob/main/LICENSE\"></a>\n</p>\n# SwiftUIKit\nSwiftUIKit is a library that adds extra functionality to Swift and SwiftUI. It contains additional components, a lot of extensions to native types, and much more.\nSwiftUIKit can kickstart your development and solves many tricky problems.\n## Installation\nSwiftUIKit can be installed with the Swift Package Manager:\n```\nhttps://github.com/danielsaidi/SwiftUIKit.git\n```\n## Supported Platforms\nSwiftUIKit supports iOS 16, macOS 14, tvOS 16, watchOS 9, and visionOS 1.\n## Getting Started\nSwiftUIKit started small, but has grown big over the years. Due to its complexity, I decided to remove the demo. Instead, have a look at the various namespaces and use the live previews to explore the SDK.\nI will extract parts of this project into separate libraries, to provide better documentation & help. Have a look at [my open-source listing page][OpenSource] for some of these.\n## Documentation\nThe [online documentation][Documentation] has more information, code examples, etc.\n## Support My Work\nYou can [become a sponsor][Sponsors] to help me dedicate more time on my various [open-source tools][OpenSource]. Every contribution, no matter the size, makes a real difference in keeping these tools free and actively developed.\n## Contact\nFeel free to reach out if you have questions, or want to contribute in any way:\n* Website: [danielsaidi.com][Website]\n* E-mail: [daniel.saidi@gmail.com][Email]\n* Bluesky: [@danielsaidi@bsky.social][Bluesky]\n* Mastodon: [@danielsaidi@mastodon.social][Mastodon]\n## License\nSwiftUIKit is available under the MIT license. See the [LICENSE][License] file for more info.\n[Email]: mailto:daniel.saidi@gmail.com\n[Website]: https://danielsaidi.com\n[GitHub]: https://github.com/danielsaidi\n[OpenSource]: https://danielsaidi.com/opensource\n[Sponsors]: https://github.com/sponsors/danielsaidi\n[Bluesky]: https://bsky.app/profile/danielsaidi.bsky.social\n[Mastodon]: https://mastodon.social/@danielsaidi\n[Twitter]: https://twitter.com/danielsaidi\n[Documentation]: https://danielsaidi.g",
+   "danielsaidi/MockingKit": "<p align=\"center\">\n</p>\n<p align=\"center\">\n    <a href=\"https://danielsaidi.github.io/MockingKit\"></a>\n        <a href=\"https://github.com/danielsaidi/MockingKit/blob/main/LICENSE\"></a>\n</p>\n# MockingKit\nMockingKit is a mocking library for Swift that lets you create mocks of any protocol or class. This can be used to mock dependencies in unit tests, and to fake not yet implemented features in your apps.  \nMockingKit automatically records every method call, to let you verify that your code behaves as you expect. You can also register register dynamic function results to control your test outcome.\nMockingKit doesn't require any setup or build scripts, and puts no restrictions on your code or architecture. Just create a mock, set up how you want to use and inspect it, and you're good to go.\n## Installation\nMockingKit can be installed with the Swift Package Manager:\n```\nhttps://github.com/danielsaidi/MockingKit.git\n```\n## Getting started\nMockingKit lets you mock any protocol or open class. For instance, consider this simple protocol:\n```swift\nprotocol MyProtocol {\n    func doStuff(int: Int, string: String) -> String\n}\n```\nWith MockingKit, you can easily create a mock implementation of this protocol: \n```swift\nimport MockingKit\nclass MyMock: Mock, MyProtocol {\n    // Define a lazy reference for each function you want to mock\n    lazy var doStuffRef = MockReference(doStuff)\n    // Functions must then call the reference to be recorded\n    func doStuff(int: Int, string: String) -> String {\n        call(doStuffRef, args: (int, string))\n    }\n}\n```\nYou can now use the mock to `register` function results, `call` functions and `inspect` recorded calls.\n```swift\n// Create a mock instance\nlet mock = MyMock()\n// Register a result to be returned by doStuff\nmock.registerResult(for: mock.doStuffRef) { args in String(args.1.reversed()) }\n// Calling doStuff will now return the pre-registered result\nlet result = mock.doStuff(int: 42, string: \"string\") // => \"gnirts\"\n// You can now inspect calls made to doStuff\nlet calls = mock.calls(to: \\.doStuffRef)             // => 1 item\ncalls[0].arguments                                   // => (42, \"string\")\ncalls[0].result                    "
+  }
+ },
+ "apps": []
+}

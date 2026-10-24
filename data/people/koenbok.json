@@ -1,0 +1,151 @@
+{
+ "name": "Koen Bok",
+ "role": "Framer 联合创始人 · 前 Facebook 产品设计师 · Sofa 联合创始人 · Festina 早期基金",
+ "title": "Koen Bok：<em>一半设计师，一半程序员</em>",
+ "dek": "他在阿姆斯特丹和 Jorn van Dijk 一起经营过设计工作室 Sofa，做 Mac 应用和网站；2011 年 Facebook 收购了 Sofa，他到 Facebook 做产品设计师，负责消息、广告和视频。离开后，两人联合创办了 Framer：最初是一个开源 JavaScript 原型框架，用真实的弹簧物理设计交互动画，后来成为桌面设计工具，2022 年前后又转型为面向设计师的网站构建工具。2025 年 8 月，Framer 完成 1 亿美元 D 轮融资，估值 20 亿美元。他和 Jorn 还一起运营早期基金 Festina。他形容自己「一半设计师，一半程序员，再加一点创业者」。",
+ "card": "Framer 联合创始人（阿姆斯特丹）；前 Facebook 产品设计师，Sofa 联合创始人；Cactus 静态站点生成器作者。",
+ "location": "荷兰阿姆斯特丹 / 西班牙巴塞罗那",
+ "updated": "2026-10-23",
+ "tags": ["设计工具", "建站", "创业", "原型", "投资"],
+ "links": [
+  {"label": "koenbok.com", "url": "https://koenbok.com"},
+  {"label": "Framer", "url": "https://www.framer.com"},
+  {"label": "GitHub：koenbok", "url": "https://github.com/koenbok"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I like to think of myself as half designer, half programmer and a little bit of an entrepreneur.」",
+  "<strong>代表作：</strong>Framer（建站与设计工具）、开源 Framer.js 原型库（★5,896）、Cactus 静态站点生成器、Sofa 时期的 Mac 应用；Facebook 消息、广告、视频产品设计。",
+  "<strong>Framer 数据：</strong>2025 年 8 月 D 轮 1 亿美元，估值 20 亿美元（Meritech、Atomico 领投，TechCrunch 报道）。",
+  "<strong>关键数字：</strong>X 关注者约 10.1 万；GitHub 近一年贡献 6,136 次。"
+ ],
+ "lead": "Framer 最早的开源 README 写着：「用真实的弹簧物理或 3D 效果来动画，一切皆有可能。」十多年后，Koen 在 X 上发的是另一种话：「是时候为 AI 进化模板了。模板应该是你 Agent 的品味。」从原型库到设计工具再到建站平台，Framer 的形态一直在变，不变的是他想解决的问题：让设计师直接做出真实的东西。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、程序员、创始人、投资人"],
+     ["所在地", "阿姆斯特丹 / 巴塞罗那"],
+     ["经历", "Sofa 联合创始人 → Facebook 产品设计师（消息、广告、视频）→ Framer 联合创始人"],
+     ["投资", "与 Jorn van Dijk 运营早期基金 Festina"],
+     ["开源", "Framer.js、Cactus、SoundCloud Desktop、Tablet、De Stijl"],
+     ["技术栈", "TypeScript、JavaScript、CoffeeScript、Python、Objective-C"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Koen 现在在 <strong>Framer</strong> 工作，他在个人网站上称它为「一个为网页而建的工具，很多设计师每天都在用」。Framer 让设计师不写代码就能做出可发布的网站：设计、动效、CMS、本地化、SEO 都在一个工具里。客户包括 Miro、Perplexity、Scale AI 等公司。"},
+    {"p": "他的工程底子很深：早年写过 Python 静态站点生成器 Cactus（带 Mac 应用），CoffeeScript 时代的 Framer.js，以及各种小工具。在 AI 时代，他关心的是模板如何成为 Agent 的「品味」。"},
+    {"note": "本页依据 koenbok.com、GitHub、TechCrunch 和 Sacra 关于 Framer 融资的报道以及 X 帖子整理，资料截至 2026 年 10 月。Framer 的成立年份各方说法不一（2013 或 2015），本页不写具体年份。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2000 年代", "title": "Sofa", "text": "与 Jorn van Dijk 等人在阿姆斯特丹经营设计工作室 Sofa。"},
+     {"when": "2011", "title": "加入 Facebook", "text": "Sofa 被 Facebook 收购；在 Facebook 做消息、广告和视频的产品设计。"},
+     {"when": "2012–2014", "title": "Cactus 与 Framer.js", "text": "开源静态站点生成器 Cactus；发布 Framer.js 原型框架。"},
+     {"when": "此后", "title": "Framer 设计工具", "text": "Framer Studio、Framer X 等桌面设计与原型工具。"},
+     {"when": "约 2022", "title": "转向建站", "text": "Framer 转型为设计师的网站构建工具。"},
+     {"when": "2025", "title": "D 轮", "text": "8 月融资 1 亿美元，估值 20 亿美元。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Framer", "url": "https://www.framer.com",
+     "meta": ["设计与建站", "阿姆斯特丹"],
+     "paras": [
+      "从原型工具到网站构建平台。Sacra 估计其 2025 年 8 月年经常性收入约 5,000 万美元，比 2024 年翻倍；公司称月活用户超过五十万。"
+     ]
+    }},
+    {"work": {
+     "name": "Framer.js", "url": "https://github.com/koenbok/Framer",
+     "meta": ["2012–2019", "JavaScript", "★5.9 千"],
+     "paras": [
+      "「An open source JavaScript framework for high fidelity prototyping.」设计师用它写出带弹簧物理和 3D 效果的高保真交互原型，是「设计师写代码」浪潮的代表作之一。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Cactus", "Python 静态站点生成器，附示例博客与模板"],
+      ["SoundCloud Desktop", "最简单的 SoundCloud 桌面封装"],
+      ["Tablet", "TypeScript 数据工具包（2017）"],
+      ["De Stijl", "React CSS 样式方案（2018）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://koenbok.com", "paras": [
+     "个人网站当然是用 Framer 搭的：四句话说完现在在做什么、投资什么、以前在哪里、以及「如果你有创业公司、觉得我能帮上忙，就给我写信」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Framer 托管"],
+      ["结构", "一段话"],
+      ["语气", "简短、友好"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "It’s time to evolve templates for AI. They should be taste for your agent.", "cite": "Koen Bok，X，2026-09"},
+    {"p": "他的 X 简介只有一句玩笑：「Koen sounds like Moon」，提醒大家他名字的发音。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["跨界", "设计与工程兼备", "—"],
+      ["创业", "两次创业，带领 Framer 多次转型", "—"],
+      ["开源", "早期开源影响大", "Framer.js 已不再维护"],
+      ["公开表达", "—", "近年 X 发帖很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>敢于转型：</strong>原型工具也可以变成建站平台。",
+     "<strong>设计师能写代码是巨大优势。</strong>",
+     "<strong>长期搭档：</strong>和同一个合伙人走过 Sofa、Facebook、Framer。",
+     "<strong>模板是品味：</strong>AI 时代也一样。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Framer", "url": "https://www.framer.com", "why": "不写代码做一个网站。"},
+     {"name": "Framer.js（旧版）", "url": "https://github.com/koenbok/Framer", "why": "看「设计师写代码」的起点。"},
+     {"name": "koenbok.com", "url": "https://koenbok.com", "why": "四句话的个人网站。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 Framer 或任何建站工具，花一小时给你的下一个项目做一个单页网站。",
+ "sources": [
+  {"label": "Koen Bok 的 X 个人资料", "url": "https://x.com/koenbok"},
+  {"label": "koenbok.com", "url": "https://koenbok.com"},
+  {"label": "TechCrunch：Framer 估值 20 亿美元", "url": "https://www.techcrunch.com/2025/08/28/no-code-website-builder-framer-reaches-2b-valuation/"},
+  {"label": "Sacra：Framer 研究", "url": "https://sacra.com/research/framer"},
+  {"label": "GitHub：koenbok", "url": "https://github.com/koenbok"}
+ ]
+}

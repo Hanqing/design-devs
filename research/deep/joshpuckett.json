@@ -1,0 +1,318 @@
+{
+ "handle": "joshpuckett",
+ "sites": [
+  {
+   "url": "http://interfacecraft.dev",
+   "ok": true,
+   "title": "Interface Craft: a working library for those committed to designing with uncommon care.",
+   "description": "A working library for those committed to designing with uncommon care.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Login \nInterface Craft \nA working library for those committed to designing with uncommon care. \nEvery day, software gets easier and easier to make. And most of what gets made will probably be fine. Functional, but forgettable. Made too quickly without enough thought. \nThis is for people who want to make something else. \nProducts that are loved. Interfaces that feel timeless . Experiences that welcome you in and anticipate your needs. Software that feels right. Like it was made by someone who took the time to apply an almost unreasonable level of consideration. Things designed with uncommon care. \n“ There are very few people who think about interfaces at Josh’s level. If you care deeply about craft, then this is for you. ” \n Emil Kowalski \nDesign Engineer, Linear \nLibrary \nThis space serves as a container for me to continually create and share everything I know about design with you. Whether you’re a designer, engineer, founder, or involved at all in the creation of digital products, you will find value here. \nThe library is organized into thematic collections, all hosted on a custom platform I created that allows me to communicate in the ideal medium for any given topic. More than 40 detailed articles, walkthroughs, interactive videos, skill files, references, and custom tools created for you. You can preview 3 for free below. \nArticles \nInteractive Walkthroughs \nVideos \n“ With Interface Craft, Josh has gone the extra mile. And then gone another few miles. Most people would have stopped at the finish line. You don’t want to miss out. ” \n Rauno Freiberg \nStaff Design Engineer, Vercel \nAuthor \nMy name is Josh Puckett , and I’ve spent nearly two decades designing and building products like Wealthfront and Dropbox, while advising and helping dozens of early-stage founders create theirs. I’ve also created popular open source design resources like DialKit and Pica. \n DialKit \n Pica \nI’ve apprenticed hundreds of designers who are now working at companies like Apple, Browserbase, Cardless, Vanta, Mercury, and many other fast-growing startups. I’ve learned and discovered much about the art and science of designing exceptional products over my career. I’m excited to share it with you. \n“ Josh has that rare combo of deep expertise and an elegant way of explaining things. He makes complex, abstract ideas feel easy to apply in your daily work. ” \n Lochie Axon \nPrincipal Design Engineer at Aave, Family \nMembership \nJoin thousands of members from all over the world who are designing with uncommon care. Pay once to gain access for life. Your membership includes all content, skills, and resources available today, and all future updates. \n Join for $249 \nQuestions \nIs this for designers, or developers? \nBoth. You will benefit if you are involved in the creation of software, as a designer, developer, or product manager. While some content will touch on technical implementation (though largely using AI assistance), much of this will be agnostic of a specific implementation method such as Figma or Code. \nHow much experience do I need for this to help me? \nThe Library contains material valuable for both newer designers and those who have been building for decades. That said, it assumes a working familiarity with the fundamentals of interface design. In the near future I plan to have more content focused on absolute beginners. \nHow often will the Library be updated? \nI plan to regularly update the content, both refining what exists and adding new material. See the library updates for a full log. \nDo you offer Purchasing Power Parity? \nYes. When visiting from an eligible country, regional pricing is applied automatically. \nDo you offer an educational discount? \nYes, please send me an email with proof of enrollment for an educational discount code. \nCan I purchase a gift membership? \nYes, gift memberships are available here . \nCan I get a bulk purchase discount for my team? \nYes, I’m happy to provide discounts for larger orders, just send me an email . \nCan I access the resources on mobile? \nYes, everything is accessible on mobile, but some resources—particularly the interactive demonstrations—are best experienced on the web.",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://dialkit.dev",
+   "ok": true,
+   "title": "DialKit — Tune interfaces in real time",
+   "description": "Live controls for React, Solid, Svelte, Vue, and plain JavaScript. Tune motion, layout, color, and animation timing directly in your interface.",
+   "stack": [
+    "Next.js",
+    "three.js",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "DialKit is a t t o o o o l l for s s h h a a p p i i n n g g your ideas by f f e e e e l l . \n Strength 0 1 2 3 4 5 6 7 8 9 . 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 \n Weight 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 \n Fancy \n Off On The headline is set to font weight 300 . Fancy type is off . \nDemo Open Demo Link \nInstall \n npm agent pnpm yarn bun \n npm install dialkit motion \nUsage \n React Solid Svelte Vue JavaScript \nMount one DialRoot and use the useDialKit hook to bind live values to your interface. In Next.js App Router, use a client component. \n 'use client' import { DialRoot , useDialKit } from 'dialkit' import 'dialkit/styles.css' export default function App ( ) { const values = useDialKit ( 'Card' , { radius : [ 24 , 0 , 64 ] , color : '#a78bfa' , } ) return ( < > < div style = { { borderRadius : values . radius , background : values . color , } } > Card </ div > < DialRoot /> < /> ) } \nThe editor is hidden in production. Add productionEnabled to DialRoot to keep it visible. \nAdd sliders, colors, images, pads, and spring or easing controls. Save versions as you tune, or use the timeline to edit animation timing. See the README for the full API and examples. \nPrompts \nThe easiest way to start using DialKit is to describe what you want and let your coding agent wire it up. Here are a few prompts to try. \nAdd DialKit to an existing animation: \n I have a card component with a hover animation. Add DialKit controls so I can tune the spring timing (visualDuration and bounce), scale on hover, and shadow blur in real time. Use the adapter for my framework with a spring config and sliders. \nBuild something new with DialKit from scratch: \n Create a spring-animated modal component using Motion. Add DialKit controls for: the entrance spring (visualDuration and bounce), overlay opacity, content border radius, and a \"replay\" action button that re-triggers the entrance animation. \nTune layout and spacing: \n Add DialKit to this grid layout. I want sliders for gap, padding, column count (1-6), and card border radius. Group the card-specific controls into a \"Card\" folder. Use the values directly in the component's style props. \nTune an animation timeline: \n Add a DialKit timeline to this entrance animation using the adapter for my framework. Define clips for the card and its content, mount the timeline dock, and bind the interface to each clip’s current values so I can scrub, move, and resize clips. Include a replay button. \nControl reference \nSlider number \nSet a default, minimum, and maximum. Add a fourth number to choose the step, or use a bare number to infer the range. Drag, click, or press Enter on a focused slider to type a value. \n radius : [ 24 , 0 , 64 ] , spacing : [ 16 , 0 , 64 , 2 ] , scale : 1.2 , \n Radius 24 \n Spacing 16 \n Scale 1.2 \nToggle boolean \nA boolean becomes an Off / On control. Use the returned value to toggle visibility, change a theme, or try an alternate state. \n visible : true , \n Visible \n Off On \nText string \nStrings become text inputs. Use the explicit text config for a placeholder or a string that looks like a color. Enter adds a line break; the field grows up to five lines. \n title : { type : 'text' , default : 'Make room to play.' , placeholder : 'Add a title…' , } , \n Title Make room to play. \nSelect string \nChoose from a list of strings, or use { value, label } objects for custom labels. The first option is selected when no default is given. \n layout : { type : 'select' , options : [ 'stack' , 'fan' , 'grid' ] , default : 'stack' , } , \n Layout \n Stack \nColor CSS color \nHex, RGB, HSL, OKLCH, and Display P3 colors are detected automatically. Pick a color, adjust its opacity, or switch formats. The returned value is a CSS color string. \n accent : '#a78bfa' , // Or use an explicit config: highlight : { type : 'color' , default : 'oklch(0.7 0.2 145)' , } , \nImage URL / data URL \nChoose a supplied image, or upload or drop one up to 10 MB. Uploads stay in the browser. Omit options for an upload-only control; removing an image returns an empty string. \n cover : { type : 'image' , options : [ '/photos/one.avif' , '/photos/two.avif' , '/photos/three.avif' , '/photos/four.avif' , ] , } , \nPad { x, y } \nAdjust any two numbers together, including decimals. Give each axis its own range, step, and label—for example, Duration and Bounce. Values are returned as x and y. Hold Shift to lock an axis, or double-click to restore the defaults. \n timing : { type : 'pad' , x : [ 0.3 , 0.1 , 1 , ",
+   "github_links": [
+    "joshpuckett"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "joshpuckett",
+  "user": {
+   "name": "Josh Puckett",
+   "company": "Iteration",
+   "blog": "https://x.com/joshpuckett",
+   "location": "California, USA",
+   "bio": "I help startups with design. Co-founder \r\nIteration, Upperstudy. Previously led teams at Dropbox, Wealthfront, Groupon & more.\r\n",
+   "public_repos": 27,
+   "followers": 442,
+   "created_at": "2010-09-17T01:27:51Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "joshpuckett/dialkit",
+    "description": "A library to help you dial in interface parameters of any kind",
+    "stargazers_count": 1255,
+    "forks_count": 67,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-01-24T06:44:14Z",
+    "pushed_at": "2026-10-21T19:36:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/SketchPlugins",
+    "description": "A git repo for my Sketch plugins",
+    "stargazers_count": 253,
+    "forks_count": 20,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-05-08T18:36:27Z",
+    "pushed_at": "2016-06-13T21:31:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/bloom",
+    "description": "A morphing pull-down button component for react.",
+    "stargazers_count": 175,
+    "forks_count": 8,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-01-08T01:32:52Z",
+    "pushed_at": "2026-01-08T05:48:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/FramerModules",
+    "description": "Modules that extend Framer.js",
+    "stargazers_count": 174,
+    "forks_count": 14,
+    "language": "CoffeeScript",
+    "homepage": null,
+    "created_at": "2015-11-03T17:19:20Z",
+    "pushed_at": "2018-10-29T06:50:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/FramerWebView",
+    "description": "A web viewer for Framer.JS prototypes",
+    "stargazers_count": 102,
+    "forks_count": 10,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2014-03-31T07:46:58Z",
+    "pushed_at": "2014-04-30T22:49:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/Ristretto",
+    "description": "A simple status bar app to get ambient coffeeshop sounds",
+    "stargazers_count": 73,
+    "forks_count": 9,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-11-20T08:50:39Z",
+    "pushed_at": "2017-11-03T07:05:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/pasito",
+    "description": "A tiny, themeable, dependency-free fluid stepper component.",
+    "stargazers_count": 59,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-03-04T01:57:42Z",
+    "pushed_at": "2026-03-04T04:23:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/ColorTweak",
+    "description": "A simple app to test various blurring and color combinations for image thumbs. ",
+    "stargazers_count": 38,
+    "forks_count": 1,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-01-08T10:57:01Z",
+    "pushed_at": "2014-01-08T23:44:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/FSMirror",
+    "description": "A quick iOS app to take advantage of mirroring in Framer Studio",
+    "stargazers_count": 37,
+    "forks_count": 5,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-08-28T18:37:35Z",
+    "pushed_at": "2014-11-19T08:44:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/PRY",
+    "description": "An app that sends device info to Quartz Composer",
+    "stargazers_count": 31,
+    "forks_count": 2,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-04-09T00:36:21Z",
+    "pushed_at": "2014-04-09T02:52:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/flex-grid",
+    "description": "The simplest and smallest flex-box based responsive grid system in the world",
+    "stargazers_count": 10,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2017-03-16T04:12:31Z",
+    "pushed_at": "2017-03-20T17:50:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/claude",
+    "description": "A collection of Claude skills",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-01-04T18:10:19Z",
+    "pushed_at": "2026-01-04T18:37:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/FrameviewOSX",
+    "description": "Native OSX app to view Framer prototypes",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-04-02T20:13:33Z",
+    "pushed_at": "2014-05-03T18:43:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/blog",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "joshpuckett.github.com",
+    "created_at": "2011-12-21T04:23:13Z",
+    "pushed_at": "2011-12-21T04:24:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/Josh-s-Blog",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "",
+    "created_at": "2011-12-21T04:48:52Z",
+    "pushed_at": null,
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/joshpuckett.github.com",
+    "description": "Blog",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "http://joshpuckett.github.com",
+    "created_at": "2011-12-21T04:57:15Z",
+    "pushed_at": "2011-12-21T05:04:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/pub",
+    "description": "My public files",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2022-12-13T21:51:28Z",
+    "pushed_at": "2022-12-16T00:47:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "joshpuckett/testing",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2016-05-11T23:49:56Z",
+    "pushed_at": "2016-05-11T23:49:56Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 18,
+  "languages": [
+   [
+    "Objective-C",
+    5
+   ],
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "JavaScript",
+    1
+   ],
+   [
+    "CoffeeScript",
+    1
+   ],
+   [
+    "CSS",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 1163,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "joshpuckett/dialkit": "# DialKit\nLive controls for tuning interfaces. Adjust values, compare versions, and edit animation timing in your running app.\nWorks with React, Solid, Svelte, Vue, and plain JavaScript. The vanilla adapter has no runtime dependencies.\n[Quick start](#quick-start) · [Controls](#controls) · [Panel API](#panel-api) · [Timeline](#timeline) · [Reference](https://github.com/joshpuckett/dialkit/blob/main/docs/reference.md)\n## Quick start\nInstall the adapter's dependencies in your existing app:\n| Adapter | Install | Import from |\n| --- | --- | --- |\n| [React](#react) | `npm install dialkit motion` | `dialkit` |\n| [Solid](#solid) | `npm install dialkit motion` | `dialkit/solid` |\n| [Svelte](#svelte) | `npm install dialkit` | `dialkit/svelte` |\n| [Vue](#vue) | `npm install dialkit motion motion-v` | `dialkit/vue` |\n| [Plain JavaScript](#plain-javascript) | `npm install dialkit` | `dialkit/vanilla` |\nFramework support: React 18+, Solid 1.6+, Svelte 5.8+, and Vue 3.3+. Mount one root to display all registered panels.\n### React\n```tsx\nimport { DialRoot, useDialKit } from \"dialkit\";\nimport \"dialkit/styles.css\";\nexport default function App() {\n  const values = useDialKit(\"Card\", {\n    radius: [24, 0, 64],\n    color: \"#a78bfa\",\n  });\n  return (\n    <>\n      <div style={{ borderRadius: values.radius, background: values.color }}>\n        Card\n      </div>\n      <DialRoot />\n    </>\n  );\n}\n```\nIn Next.js App Router, use DialKit in a client component.\n### Solid\n```tsx\nimport { createDialKit, DialRoot } from \"dialkit/solid\";\nimport \"dialkit/styles.css\";\nexport default function App() {\n  const values = createDialKit(\"Card\", { radius: [24, 0, 64] });\n  return (\n    <>\n      <div style={{ \"border-radius\": `${values().radius}px` }}>Card</div>\n      <DialRoot />\n    </>\n  );\n}\n```\nRead values through the returned accessor: `values().radius`.\n### Svelte\n```svelte\n<script>\n  import { createDialKit, DialRoot } from \"dialkit/svelte\";\n  const values = createDialKit(\"Card\", { radius: [24, 0, 64] });\n</script>\n<div style:border-radius={`${values.radius}px`}>Card</div>\n<DialRoot />\n```\nValues are reactive properties. `DialRoot` injects the styles; no CSS import is needed.\n### Vue\n```vue\n<script ",
+   "joshpuckett/SketchPlugins": "SketchPlugins\n=============\nA git repo containing various plugins for [Sketch](http://bohemiancoding.com/sketch/).\n## Installing and Updating\nYou can install these pretty easily just by cloning the Git repo:\n```\n$ cd ~/Library/Containers/com.bohemiancoding.sketch3/Data/Library/Application\\ Support/com.bohemiancoding.sketch3/Plugins\n$ git clone https://github.com/joshpuckett/SketchPlugins.git Puckins\n```\nWhere “Puckins” is the name of the folder you want the plugins to live inside. They’ll also appear under that group in the Plugins menu in Sketch.\nUpdating is easy too!\n```\n$ cd ~/Library/Containers/com.bohemiancoding.sketch3/Data/Library/Application\\ Support/com.bohemiancoding.sketch3/Plugins\n$ git pull\n```\n## Included Plugins\n### Text\nVariety of plugins for working with text layers\n* __Text to Uppercase__: takes a text layer and uppercases it.\n* __Sum Numbers__: sums the numbers in selected text layers and copies the total to the clipboard (works with currency symbols, commas too)\n### Layers\nPlugins to work with layers\n* __Snap to Pixel__ (cmd shift option p): select layer(s), run it, and it snaps the width, height, x and y to the nearest integer. Useful after transforming layers.\n### Align\nAllows you to align layers inside another layer. This doesn't move the bottom selected layer, and is a better implementation I believe that how Sketch handles this currently (where they average the position of all selected layers).\n* __Both in Selection__ (cmd option control x): aligns selected layers vertically and horizontally to the bottom most selected layer\n* __Horizontally in Selection__ (cmd option control h): aligns selected layers horizontally to the bottom most selected layer\n* __Vertically in Selection__ (cmd option control v): aligns selected layers vertically to the bottom most selected layer\n### Save Page to PNG\nHit (Command + Option + Control + E) to save your entire page to a single PNG, in the same directory as your sketch file. This is super useful if you want to show all of your artboards at once.\n### Handy\nHandy is a plugin that makes working with guides easier in Sketch. It includes two plugins currently:\n* __Add Guide__ (cmd shift option g): lets you ad",
+   "joshpuckett/bloom": "# Bloom\nA React component library that creates fluid morphing animations between a trigger element and an expanded menu. The button *becomes* the menu through fluid shape-shifting animation.\n## Features\n- **Fluid Animations** — Smooth spring-based morphing with customizable presets\n- **Directional Expansion** — Menu expands in any direction with anchor alignment\n- **Composable API** — Build exactly what you need with compound components\n- **Tiny Bundle** — Only requires `framer-motion` as a peer dependency\n- **TypeScript First** — Full type safety and IntelliSense support\n## Installation\n```bash\nnpm install bloom-menu framer-motion\n```\n## Quick Start\n```tsx\nimport { Menu } from 'bloom-menu'\nimport { MoreHorizontal, Pencil, Trash } from 'lucide-react'\nfunction Example() {\n  return (\n    <Menu.Root>\n      <Menu.Container buttonSize={48} menuWidth={200} menuRadius={12}>\n        <Menu.Trigger>\n          <MoreHorizontal />\n        </Menu.Trigger>\n        <Menu.Content>\n          <Menu.Item onSelect={() => console.log('edit')}>\n            <Pencil /> Edit\n          </Menu.Item>\n          <Menu.Item onSelect={() => console.log('delete')}>\n            <Trash /> Delete\n          </Menu.Item>\n        </Menu.Content>\n      </Menu.Container>\n    </Menu.Root>\n  )\n}\n```\n## Direction and Anchor\nControl where the menu expands from and how it aligns to the trigger:\n```tsx\n<Menu.Root direction=\"top\" anchor=\"start\">    {/* Expands up, aligned to start */}\n<Menu.Root direction=\"bottom\" anchor=\"center\"> {/* Expands down, centered */}\n<Menu.Root direction=\"left\" anchor=\"end\">      {/* Expands left, aligned to end */}\n```\n## Animation Presets\n```tsx\n<Menu.Root animation=\"snappy\">    {/* Quick ease-out curve */}\n<Menu.Root animation=\"gentle\">    {/* Default, smooth spring */}\n<Menu.Root animation=\"relaxed\">   {/* Slower, laid-back spring */}\n{/* Or use custom spring config */}\n<Menu.Root animation={{ stiffness: 400, damping: 25 }}>\n```\n## Components\n### `<Menu.Root>`\nThe root component that provides context for all other components.\n| Prop | Type | Default | Description |\n|------|------|---------|-------------|\n| `open` | `boolean` | — | Controlled open state |\n| `onOpenChange` | `(ope",
+   "joshpuckett/FramerModules": "##### FramerModules\nModules that extend Framer.js\n* * *\n### SVG Layer\nA module and corresponding Sketch plugin that make it trivial to work with SVG Paths in Framer. \nInstall the Sketch Plugin; select any path layer and run it. This automatically copies code to your clipboard.\nIn Framer Studio, after installing the module and importing it, create SVGLayers like so\n```coffee\n{SVGLayer} = require \"SVGLayer\"\nlayer = new SVGLayer\n```\nThen paste in what the Sketch plugin copied, which will look something like this:\n```coffee\nlayer = new SVGLayer\n  strokeWidth: 4\n  width: 324\n  height: 324\n  path: '<path d=\"M162,324 C251.470129,324 324,251.470129 324,162 C324,72.5298705 251.470129,0 162,0 C72.5298705,0 0,72.5298705 0,162 C0,251.470129 72.5298705,324 162,324 Z\"></path>'\n```\n###### Animation\nUse dashOffset to animate a path from start to end.\n```coffee\nlayer = new SVGLayer\n  dashOffset: 0\n  # include other constructor options from example above\nlayer.animate\n  properties:\n    dashOffset: 1\n```\n[View example using states](http://share.framerjs.com/tyizdr085xj8/)\n###### Properties\n- **`linecap`** *\\<string>* (options: \"round\", \"square\", \"butt\")\n- **`fill`** *\\<string>* (css color)\n- **`stroke`** *\\<string>* (css color)\n- **`strokeWidth`** *\\<string>*\n- **`dashOffset`** *\\<string>* (from -1 to 1, defaults to 0)\n###### Utils\nUse **layer.pathLength** to get the length of the SVG path\n###### Tutorial\nHead over to Medium to read [Working with SVG Paths in Framer](https://medium.com/@joshpuckett/working-with-svg-paths-in-framer-43d3c2d08adc \"Working with SVG Paths in Framer\").\n"
+  }
+ },
+ "apps": []
+}

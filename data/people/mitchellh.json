@@ -1,0 +1,168 @@
+{
+ "name": "Mitchell Hashimoto",
+ "role": "Superlogical 联合创始人 · Ghostty 作者 · HashiCorp 联合创始人（Vagrant、Terraform、Vault）",
+ "title": "Mitchell Hashimoto：为了热爱，<em>重新写一个终端</em>",
+ "dek": "他是 HashiCorp 的联合创始人，参与了 Vagrant、Packer、Consul、Terraform、Vault、Nomad 等几乎所有产品的最初工程，当过约四年 CEO、约五年 CTO、约两年普通工程师，2023 年在公司工作了 11 年后离开。之后他在家做全职父亲，做慈善，写技术文章，并且「从未停止构建」：他用 Zig 写的终端模拟器 Ghostty 从一个打算扔掉的个人项目，长成了每天有数百万人使用的软件，GitHub 上有 6.2 万颗星。2025 年他把 Ghostty 整个捐给了一个联邦认可的非营利组织，承诺永不商业化。2026 年 7 月，他和几位联合创始人创办了新公司 Superlogical，第一个产品是一个基于 libghostty 的终端多路复用器。",
+ "card": "Ghostty（★6.3 万）作者，Superlogical 联合创始人；HashiCorp 联合创始人（Vagrant、Terraform、Vault），洛杉矶。",
+ "location": "美国加州洛杉矶",
+ "updated": "2026-10-23",
+ "tags": ["终端", "Zig", "基础设施", "开源", "非营利"],
+ "links": [
+  {"label": "mitchellh.com", "url": "https://mitchellh.com"},
+  {"label": "Ghostty", "url": "https://ghostty.org"},
+  {"label": "Superlogical", "url": "https://www.superlogical.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I'm a developer living in Los Angeles, CA. I'm currently the co-founder of Superlogical. I previously co-founded HashiCorp.」",
+  "<strong>代表作：</strong>Ghostty 与 libghostty（★62,551）、libxev 事件循环（★3,590）、Vagrant、Terraform、Vault 等 HashiCorp 产品；Go 库 mapstructure（★8,011）、gox、cli、go-homedir；vouch 社区信任系统（★5,131）。",
+  "<strong>关键数字：</strong>X 关注者约 23.4 万；GitHub 粉丝约 2.5 万、近一年贡献 8,379 次；2026 年再次向 Zig 软件基金会承诺捐赠 40 万美元。",
+  "<strong>OSC 7501：</strong>2026 年 10 月提出的「程序状态」终端协议，一周内 Kitty、Codex 等相继支持。"
+ ],
+ "lead": "在宣布 Superlogical 的文章里，Mitchell 解释了自己为什么又创业：做 Ghostty 的这些年，他越来越好奇终端「周边」的问题。为什么终端用得比以往任何时候都多？是什么在推动它增长？什么时候会结束？接下来是什么？「Why? Why? Why!」他说自己并没有在找创业的理由，而是找到了一个愿意花好几年解决的问题、一个需要团队的规模，以及想一起做的人。文章脚注里还特地写着：「没有 AI！手写的，真实的。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开发者、创始人、开源维护者"],
+     ["所在地", "美国加州洛杉矶"],
+     ["经历", "HashiCorp 联合创始人（约 2012–2023；CEO 约 4 年、CTO 约 5 年、工程师约 2 年）→ Ghostty → Superlogical（2026–）"],
+     ["开源", "Ghostty、libghostty、libxev、vouch、nixos-config、大量 Go 库"],
+     ["公益", "Ghostty 捐给非营利组织；资助 Zig 软件基金会"],
+     ["技术栈", "Zig、Go、Ruby、C、Nix"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Mitchell 现在同时做两件事：<strong>维护非营利的 Ghostty</strong>，以及<strong>在 Superlogical 做下一代终端工具</strong>。Ghostty 是一个快速、功能丰富、跨平台、使用原生界面和 GPU 加速的终端，也可以作为 libghostty 库嵌入其他应用；它有十来位核心维护者、近五十位本地化成员，其中一些人由非营利组织支付报酬。"},
+    {"p": "Superlogical 的产品 Rex 正在内测：macOS 测试版一周内邀请了数千人，等候名单接近五万人；iOS 版也已提交审核，专门支持 iPad 和 iPhone Duo。测试者已经能让它在多台机器之间协作，比如「把我昨晚在 Mac Studio 上跑的基准测试放到 Jack 的 Mac 上再跑一遍，然后把两份结果拿回本地对比」。"},
+    {"note": "本页依据 mitchellh.com（首页与文章）、Superlogical、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。家庭和个人生活信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "约 2010", "title": "Vagrant", "text": "写出开发环境工具 Vagrant，随后联合创办 HashiCorp。"},
+     {"when": "2012–2023", "title": "HashiCorp", "text": "参与 Packer、Consul、Terraform、Vault、Nomad、Waypoint 的最初工程；先后任 CEO、CTO 和工程师，2023 年离开。"},
+     {"when": "2023", "title": "Ghostty 与 libxev", "text": "用 Zig 写终端和跨平台事件循环。"},
+     {"when": "2024–2025", "title": "Ghostty 公开与非营利化", "text": "Ghostty 1.0 发布后迅速流行；2025 年推出 libghostty，12 月宣布 Ghostty 归属非营利组织。"},
+     {"when": "2026 上半年", "title": "离开 GitHub、AI 实践", "text": "写《My AI Adoption Journey》《The Building Block Economy》；4 月宣布 Ghostty 离开 GitHub；6 月再捐 40 万美元给 Zig。"},
+     {"when": "2026 下半年", "title": "Superlogical", "text": "7 月创办；10 月提出 OSC 7501 协议，Rex 扩大测试。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Ghostty", "url": "https://ghostty.org",
+     "meta": ["Zig", "终端模拟器", "★6.3 万"],
+     "paras": [
+      "「Fast, native, feature-rich terminal emulator pushing modern features.」既是独立的原生 GUI 应用，也是可嵌入的 libghostty。Vercel 的 Turborepo 等项目都在用 libghostty。他说永远不会把 Ghostty 商业化。"
+     ],
+     "facts": [["GitHub", "★62,551"]]
+    }},
+    {"work": {
+     "name": "Superlogical / Rex", "url": "https://www.superlogical.com",
+     "meta": ["2026–", "终端多路复用器"],
+     "paras": [
+      "Superlogical 从一个终端多路复用器起步，建立在 libghostty 之上，与所有人使用同样的 MIT 许可组件，并把通用改进回馈上游。他也说，多路复用器「不是全部愿景」。"
+     ]
+    }},
+    {"work": {
+     "name": "HashiCorp 产品", "url": "https://www.hashicorp.com",
+     "meta": ["2012–2023", "Go"],
+     "paras": [
+      "Vagrant、Packer、Consul、Terraform、Vault、Nomad、Waypoint。Terraform 成为基础设施即代码的事实标准之一。他在网站上写：「这些项目我都不再参与了。」"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["libxev", "跨平台高性能事件循环，支持 io_uring、kqueue、WASI（★3,590）"],
+      ["vouch", "基于显式担保的社区信任管理系统（★5,131）"],
+      ["OSC 7501", "让程序向终端报告运行状态的协议提案"],
+      ["mapstructure", "把通用 map 解码为 Go 结构体（★8,011，已归档）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://mitchellh.com", "paras": [
+     "首页是一段清楚的自述：住在哪、在做什么、做过什么、在 HashiCorp 各个角色做了多久。Writing 页有五十多篇文章，2025–2026 年更新密集，主题包括 Zig、SIMD、内存泄漏排查、非营利运营建议和 AI 编程。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel"],
+      ["写作", "技术长文 + 个人声明"],
+      ["节奏", "每月一到两篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-06", "title": "A Terminal Protocol for Program Status (OSC 7501)", "url": "https://mitchellh.com/writing"},
+     {"date": "2026-07-29", "title": "Superlogical", "url": "https://mitchellh.com/writing/superlogical"},
+     {"date": "2026-07-22", "title": "Everyone Should Know SIMD", "url": "https://mitchellh.com/writing"},
+     {"date": "2026-04-07", "title": "The Building Block Economy", "url": "https://mitchellh.com/writing/building-block-economy"},
+     {"date": "2026-02-05", "title": "My AI Adoption Journey", "url": "https://mitchellh.com/writing"}
+    ]},
+    {"quote": "Building software is my personal passion, and I continued to learn and build a little every day just for the love of it.", "cite": "Mitchell Hashimoto，《Superlogical》"},
+    {"p": "他对营销潮流很直接：他讨厌那些公司在每个流行事件上用 AI 生成带自家品牌和员工的视频，觉得「俗气、低成本」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["工程", "从基础设施到终端都做到顶级", "—"],
+      ["开源治理", "非营利化、vouch 信任机制", "—"],
+      ["新公司", "团队强、需求热", "Superlogical 产品仍在测试，完整愿景未公开"],
+      ["旧项目", "—", "早年 Go 库多已归档"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>为热爱而写代码：</strong>Ghostty 源于一个打算扔掉的项目。",
+     "<strong>把公共品交给公共机构：</strong>非营利保证开源不变质。",
+     "<strong>做积木：</strong>libghostty 让别人在上面盖房子。",
+     "<strong>一直问「为什么」：</strong>问到底就找到了新公司。",
+     "<strong>回馈依赖：</strong>持续资助 Zig。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Ghostty", "url": "https://ghostty.org", "why": "换一个更快的终端。"},
+     {"name": "Superlogical（文章）", "url": "https://mitchellh.com/writing/superlogical", "why": "读他为什么再次创业。"},
+     {"name": "The Building Block Economy", "url": "https://mitchellh.com/writing/building-block-economy", "why": "关于可复用开源组件的思考。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "看看你的项目依赖了哪些开源「积木」，挑一个最重要的，这个月给它捐一点钱或提一个 PR。",
+ "sources": [
+  {"label": "Mitchell Hashimoto 的 X 个人资料", "url": "https://x.com/mitchellh"},
+  {"label": "mitchellh.com", "url": "https://mitchellh.com"},
+  {"label": "Superlogical（mitchellh.com）", "url": "https://mitchellh.com/writing/superlogical"},
+  {"label": "Ghostty", "url": "https://ghostty.org"},
+  {"label": "GitHub：ghostty-org/ghostty", "url": "https://github.com/ghostty-org/ghostty"},
+  {"label": "GitHub：mitchellh", "url": "https://github.com/mitchellh"}
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "name": "Nathan Sobo",
+ "role": "Zed 创始人 · 前 GitHub Atom 编辑器创始团队 · Teletype、Treetop 作者",
+ "title": "Nathan Sobo：从 Atom 到 Zed，<em>再造编辑器</em>",
+ "dek": "他住在科罗拉多州博尔德，是代码编辑器 Zed 的创始人。在那之前，他在 GitHub 参与创造了 Atom：一个「可以随意改造的 21 世纪文本编辑器」，它催生了 Electron，GitHub 上有六万多颗星。他在 Atom 上做了实时协作编辑 Teletype 和它背后的 CRDT，还尝试过用 Rust 重写 Atom 内核的实验项目 Xray。Atom 在 2022 年停止维护后，他和 Max Brunsfeld 等人用 Rust 从零写了 Zed：自研 GPU 渲染的界面框架 GPUI，多人协作，AI 可选。Zed 2024 年开源，2025 年获红杉 3,200 万美元投资，2026 年 4 月发布 1.0；8 月，他们又推出了 Delta：一个和 Agent 一起写代码、用来替代 Pull Request 的多人环境。",
+ "card": "Zed 创始人（博尔德）；前 GitHub Atom 创始团队，Teletype、Xray、Treetop 作者。",
+ "location": "美国科罗拉多州博尔德",
+ "updated": "2026-10-23",
+ "tags": ["代码编辑器", "Rust", "协作", "AI 编程", "GPU 界面"],
+ "links": [
+  {"label": "Zed", "url": "https://zed.dev"},
+  {"label": "Zed 博客", "url": "https://zed.dev/blog"},
+  {"label": "GitHub：nathansobo", "url": "https://github.com/nathansobo"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Founder of @zeddotdev, a high-performance multiplayer code editor written in Rust. Formerly a founder of Atom at @GitHub.」",
+  "<strong>代表作：</strong>Zed（★9.2 万）、GPUI、Delta 与 DeltaDB；Atom（★6.1 万）、Teletype（★2,396）、teletype-crdt、Xray（★8,417）；早年 Ruby 解析器 DSL Treetop（★1,010）、Monarch、Hyperarchy。",
+  "<strong>Zed 里程碑：</strong>2021 年成立，2023 年公开，2024 年开源，2025 年红杉 3,200 万美元，2026 年 4 月 1.0。",
+  "<strong>关键数字：</strong>GitHub 103 个公开仓库、近一年贡献 1,917 次。"
+ ],
+ "lead": "Nathan 在 X 上写过两句话：「如果你的代码很美，那就是它设计良好的强烈信号。」紧接着补了一句定义：「设计良好 = 快、正确、易于修改、可靠。」这是他做 Zed 的标准：一个编辑器既要像游戏一样以每秒 120 帧渲染，也要能多人实时协作，还要在 AI 时代保持「AI 可选」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创始人、工程师"],
+     ["所在地", "美国科罗拉多州博尔德"],
+     ["经历", "早期 Ruby / JavaScript 框架作者 → GitHub Atom 创始团队 → Zed Industries 创始人（2021–）"],
+     ["产品", "Zed、Delta、GPUI"],
+     ["技术栈", "Rust、CoffeeScript、JavaScript、Ruby"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Zed 官网现在挂着两个产品：<strong>Zed</strong>（2021 年起，「世界上最快的 IDE，开源，AI 可选」）和 <strong>Delta</strong>（2026 年，「由 DeltaDB 驱动、与 Agent 一起写代码的多人环境」）。Nathan 的说法是：写软件已经变成和 Agent 的对话，现在队友也能加入；线程是软件开发的新基本单位，而 delta 是新的提交。"},
+    {"p": "他在 Zed 博客上的文章也在讨论同一件事：《Software Is Made Between Commits》《Xanadu Was Waiting for Agents》。Zed 团队自己已经从 Pull Request 迁移到了 Delta。"},
+    {"note": "本页依据 zed.dev（首页与博客）、维基百科 Zed 条目、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2008", "title": "Treetop 与早期框架", "text": "Ruby 解析表达式文法 DSL Treetop、JavaScript BDD 框架 Screw.Unit。"},
+     {"when": "2010–2012", "title": "关系型前端", "text": "Monarch：客户端关系建模框架；协作决策网站 Hyperarchy。"},
+     {"when": "GitHub 时期", "title": "Atom", "text": "参与创造 Atom；做 Teletype 实时协作和 Xray 实验。"},
+     {"when": "2021", "title": "创办 Zed", "text": "用 Rust 和自研 GPUI 重写编辑器。"},
+     {"when": "2022–2025", "title": "Atom 落幕，Zed 开源", "text": "Atom 2022 年归档；Zed 2023 年公开、2024 年开源、2025 年获红杉投资。"},
+     {"when": "2026", "title": "Zed 1.0 与 Delta", "text": "4 月发布 1.0；8 月推出 Delta，9 月公开测试。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Zed", "url": "https://zed.dev",
+     "meta": ["2021–", "Rust", "★9.2 万"],
+     "paras": [
+      "「A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.」用 GPU 渲染界面，内置实时协作，支持 Vim 键位、Git 和扩展；AI 功能可选，部分 AI 功能付费。它的 Rust 界面框架借鉴了 Tailwind 的思路，他说：「一个想法能走多远真有意思。」"
+     ]
+    }},
+    {"work": {
+     "name": "Delta", "url": "https://zed.dev/blog",
+     "meta": ["2026", "DeltaDB"],
+     "paras": [
+      "「Replace PRs with Delta.」一个没有 Pull Request 限制的协作开发流程，团队成员和 Agent 在同一个线程里工作。Max Brunsfeld 说，这是他们创办 Zed 起就想做的东西。"
+     ]
+    }},
+    {"work": {
+     "name": "Atom", "url": "https://github.com/atom/atom",
+     "meta": ["GitHub", "已于 2022 年归档", "★6.1 万"],
+     "paras": [
+      "「A hackable text editor for the 21st century」，基于 Electron。Teletype 让开发者实时共享工作区，背后是他写的字符串序列 CRDT。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Xray", "用 Rust 重写 Atom 内核的实验（★8,417，未继续）"],
+      ["Treetop", "Ruby 的 PEG 解析 DSL（★1,010）"],
+      ["teletype-crdt", "Teletype 的点对点协作 CRDT"],
+      ["Hyperarchy", "基于排序对投票的协作决策网站"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://zed.dev", "paras": [
+     "Zed 官网首页模拟了一个编辑器界面，侧栏里是项目、线程和「置顶任务」，比如「追踪 GPUI 输入中丢失的按键」。博客更新频繁，2026 年有一百四十多篇文章，覆盖产品发布、AI 计费政策解读、社区计划和工程深度文章。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + Tailwind，Cloudflare"],
+      ["内容", "产品、工程、社区"],
+      ["节奏", "每周多篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "I’ve seen artificial intelligence. I’ve yet to see artificial taste.", "cite": "Nathan Sobo，X，2025-09"},
+    {"p": "他一方面说「用语言模型写代码对我来说到了新的层次」「从没这么想回去上班」，另一方面始终强调质量：他在 2025 年分享过对软件开发现状的看法，主张借 AI 的机会「提高质量的标准」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["工程", "两代编辑器的核心作者", "—"],
+      ["协作", "长期深耕实时协作与 CRDT", "—"],
+      ["产品", "Zed 性能与开源口碑好", "Delta 刚进入公开测试"],
+      ["社区", "—", "Zed 曾因 AI 与使用条款引发分叉 Gram"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>第二次做得更好：</strong>Atom 的教训变成 Zed 的设计。",
+     "<strong>为性能自研底层：</strong>GPUI 就是为此而生。",
+     "<strong>协作是第一等功能。</strong>",
+     "<strong>美的代码往往是好设计。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Zed", "url": "https://zed.dev", "why": "感受一下 120 帧的编辑器。"},
+     {"name": "Zed 博客", "url": "https://zed.dev/blog", "why": "读《Software Is Made Between Commits》。"},
+     {"name": "Atom 源码", "url": "https://github.com/atom/atom", "why": "看一个时代的编辑器。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "下次评审代码时，除了问「对不对」，再问一句「美不美」。",
+ "sources": [
+  {"label": "Nathan Sobo 的 X 个人资料", "url": "https://x.com/nathansobo"},
+  {"label": "Zed", "url": "https://zed.dev"},
+  {"label": "维基百科：Zed (text editor)", "url": "https://en.wikipedia.org/wiki/Zed_(text_editor)"},
+  {"label": "GitHub：nathansobo", "url": "https://github.com/nathansobo"},
+  {"label": "GitHub：atom/atom", "url": "https://github.com/atom/atom"}
+ ]
+}

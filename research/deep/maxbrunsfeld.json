@@ -1,0 +1,339 @@
+{
+ "handle": "maxbrunsfeld",
+ "sites": [],
+ "github": {
+  "login": "maxbrunsfeld",
+  "user": {
+   "name": "Max Brunsfeld",
+   "company": null,
+   "blog": "",
+   "location": "Portland, OR",
+   "bio": null,
+   "public_repos": 77,
+   "followers": 2005,
+   "created_at": "2010-07-08T16:23:58Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "maxbrunsfeld/counterfeiter",
+    "description": "A tool for generating self-contained, type-safe test doubles in go",
+    "stargazers_count": 1144,
+    "forks_count": 101,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2014-05-21T00:12:54Z",
+    "pushed_at": "2026-10-15T01:40:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/vim-yankstack",
+    "description": "A lightweight implementation of emacs's kill-ring for vim",
+    "stargazers_count": 441,
+    "forks_count": 28,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2011-09-23T05:43:04Z",
+    "pushed_at": "2024-01-27T22:53:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/tree-tags",
+    "description": "A command-line code search tool based on Tree-sitter",
+    "stargazers_count": 40,
+    "forks_count": 4,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2018-10-13T21:17:25Z",
+    "pushed_at": "2018-10-16T20:48:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/vim-emacs-bindings",
+    "description": "Add emacs/bash/cocoa key bindings to vim, in insert and command-line modes.",
+    "stargazers_count": 35,
+    "forks_count": 11,
+    "language": "VimL",
+    "homepage": "",
+    "created_at": "2011-05-31T03:41:42Z",
+    "pushed_at": "2014-07-30T14:42:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/vimbot",
+    "description": "test drive vim plugins from ruby",
+    "stargazers_count": 33,
+    "forks_count": 2,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2012-03-12T06:29:42Z",
+    "pushed_at": "2014-08-04T19:58:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/atom-nrepl",
+    "description": "An nrepl client for clojure development in atom",
+    "stargazers_count": 32,
+    "forks_count": 8,
+    "language": "CoffeeScript",
+    "homepage": null,
+    "created_at": "2014-01-11T18:10:10Z",
+    "pushed_at": "2017-07-20T17:20:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/llama-rs",
+    "description": "Rust bindings to llama.cpp, using metal on macOS",
+    "stargazers_count": 12,
+    "forks_count": 1,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2023-08-24T01:59:59Z",
+    "pushed_at": "2023-08-24T02:54:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/node-flame-graph",
+    "description": "A tool for generating flame graphs of CPU profiling data",
+    "stargazers_count": 10,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-12-24T08:45:57Z",
+    "pushed_at": "2023-04-20T01:46:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/rust-wasm-crate-with-c",
+    "description": "A minimal WebAssembly module written in a mixture of Rust and C",
+    "stargazers_count": 9,
+    "forks_count": 2,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2019-09-26T03:44:13Z",
+    "pushed_at": "2019-10-01T21:00:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/zed-extension-in-js",
+    "description": "An attempt to create a Zed extension written in JavaScript",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2024-11-08T22:05:31Z",
+    "pushed_at": "2024-11-22T23:49:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/lego-money",
+    "description": "game",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-03-09T21:34:23Z",
+    "pushed_at": "2025-03-10T02:04:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/nrepl.js",
+    "description": "javascript nrepl client",
+    "stargazers_count": 4,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-12-07T05:41:05Z",
+    "pushed_at": "2014-02-28T07:02:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/requests",
+    "description": "Copy of the requests project for testing",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2020-11-20T05:20:48Z",
+    "pushed_at": "2021-02-24T20:04:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/vim-config",
+    "description": "My vim config files",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "VimL",
+    "homepage": null,
+    "created_at": "2012-09-03T21:57:01Z",
+    "pushed_at": "2015-01-12T04:06:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/atom-flame-graph",
+    "description": "Visualize the time taken by native functions in Atom",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-06-28T00:41:09Z",
+    "pushed_at": "2017-12-27T22:50:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/flask",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2020-11-18T23:40:00Z",
+    "pushed_at": "2020-11-19T23:05:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/my-potion-repo",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-05-20T23:02:13Z",
+    "pushed_at": "2026-05-20T23:06:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "maxbrunsfeld/wedding-site",
+    "description": "source for www.maxandalissa.com",
+    "stargazers_count": 2,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "www.maxandalissa.com",
+    "created_at": "2012-02-23T07:20:09Z",
+    "pushed_at": "2012-03-28T06:09:35Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 30,
+  "languages": [
+   [
+    "JavaScript",
+    7
+   ],
+   [
+    "Ruby",
+    6
+   ],
+   [
+    "Rust",
+    4
+   ],
+   [
+    "VimL",
+    2
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "Clojure",
+    2
+   ],
+   [
+    "Go",
+    1
+   ],
+   [
+    "CoffeeScript",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "zed-industries/zed",
+    "stargazerCount": 92105,
+    "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://zed.dev"
+   },
+   {
+    "nameWithOwner": "tree-sitter/tree-sitter",
+    "stargazerCount": 27264,
+    "description": "An incremental parsing system for programming tools",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://tree-sitter.github.io"
+   },
+   {
+    "nameWithOwner": "atom/atom",
+    "stargazerCount": 60710,
+    "description": ":atom: The hackable text editor",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://atom.io"
+   },
+   {
+    "nameWithOwner": "maxbrunsfeld/counterfeiter",
+    "stargazerCount": 1144,
+    "description": "A tool for generating self-contained, type-safe test doubles in go",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "tree-sitter/tree-sitter-javascript",
+    "stargazerCount": 495,
+    "description": "Javascript grammar for tree-sitter",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "maxbrunsfeld/vim-yankstack",
+    "stargazerCount": 441,
+    "description": "A lightweight implementation of emacs's kill-ring for vim",
+    "primaryLanguage": {
+     "name": "Ruby"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 509,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "zed-industries/zed": "# Zed\n[](https://zed.dev)\n[](https://github.com/zed-industries/zed/actions/workflows/run_tests.yml)\nWelcome to Zed, a high-performance, multiplayer code editor from the creators of [Atom](https://github.com/atom/atom) and [Tree-sitter](https://github.com/tree-sitter/tree-sitter).\n---\n### Installation\nOn macOS, Linux, and Windows you can [download Zed directly](https://zed.dev/download) or install Zed via your local package manager ([macOS](https://zed.dev/docs/installation#macos)/[Linux](https://zed.dev/docs/linux#installing-via-a-package-manager)/[Windows](https://zed.dev/docs/windows#package-managers)).\nOther platforms are not yet available:\n- Web ([tracking discussion](https://github.com/zed-industries/zed/discussions/26195))\n### Developing Zed\n- [Building Zed for macOS](./docs/src/development/macos.md)\n- [Building Zed for Linux](./docs/src/development/linux.md)\n- [Building Zed for Windows](./docs/src/development/windows.md)\n### Contributing\nSee [CONTRIBUTING.md](./CONTRIBUTING.md) for ways you can contribute to Zed.\nAlso... we're hiring! Check out our [jobs](https://zed.dev/jobs) page for open roles.\n### Licensing\nZed source code is licensed primarily under GPL-3.0-or-later, with Apache-2.0 components where marked.\nLicense information for third party dependencies must be correctly provided for CI to pass.\nWe use [`cargo-about`](https://github.com/EmbarkStudios/cargo-about) to automatically comply with open source licenses. If CI is failing, check the following:\n- Is it showing a `no license specified` error for a crate you've created? If so, add `publish = false` under `[package]` in your crate's Cargo.toml.\n- Is the error `failed to satisfy license requirements` for a dependency? If so, first determine what license the project has and whether this system is sufficient to comply with this license's requirements. If you're unsure, ask a lawyer. Once you've verified that this system is acceptable add the license's SPDX identifier to the `accepted` array in `script/licenses/zed-licenses.toml`.\n- Is `cargo-about` unable to find the license for a dependency? If so, add a clarification field at the end of `script/licenses/zed-licenses.toml`, as specified in the [c",
+   "tree-sitter/tree-sitter": "# tree-sitter\n[](https://zenodo.org/badge/latestdoi/14164618)\n[![discord][discord]](https://discord.gg/w7nTvsVJhm)\n[![matrix][matrix]](https://matrix.to/#/#tree-sitter-chat:matrix.org)\nTree-sitter is a parser generator tool and an incremental parsing library. It can build a concrete syntax tree for a source file and efficiently update the syntax tree as the source file is edited. Tree-sitter aims to be:\n- **General** enough to parse any programming language\n- **Fast** enough to parse on every keystroke in a text editor\n- **Robust** enough to provide useful results even in the presence of syntax errors\n- **Dependency-free** so that the runtime library (which is written in pure C) can be embedded in any application\n## Links\n- [Documentation](https://tree-sitter.github.io)\n- [Rust binding](lib/binding_rust/README.md)\n- [Wasm binding](lib/binding_web/README.md)\n- [Command-line interface](crates/cli/README.md)\n[discord]: https://img.shields.io/discord/1063097320771698699?logo=discord&label=discord\n[matrix]: https://img.shields.io/matrix/tree-sitter-chat%3Amatrix.org?logo=matrix&label=matrix\n",
+   "atom/atom": "# Atom\n[](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)\n> Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)\nAtom is a hackable text editor for the 21st century, built on [Electron](https://github.com/electron/electron), and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.\nVisit [atom.io](https://atom.io) to learn more or visit the [Atom forum](https://github.com/atom/atom/discussions).\nFollow [@AtomEditor](https://twitter.com/atomeditor) on Twitter for important\nannouncements.\nThis project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).\nBy participating, you are expected to uphold this code. Please report unacceptable behavior to atom@github.com.\n## Documentation\nIf you want to read about using Atom or developing packages in Atom, the [Atom Flight Manual](https://flight-manual.atom.io) is free and available online. You can find the source to the manual in [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io).\nThe [API reference](https://atom.io/docs/api) for developing packages is also documented on Atom.io.\n## Installing\n### Prerequisites\n- [Git](https://git-scm.com)\n### macOS\nDownload the latest [Atom release](https://github.com/atom/atom/releases/latest).\nAtom will automatically update when a new release is available.\n### Windows\nDownload the latest [Atom installer](https://github.com/atom/atom/releases/latest). `AtomSetup.exe` is 32-bit. For 64-bit systems, download `AtomSetup-x64.exe`.\nAtom will automatically update when a new release is available.\nYou can also download `atom-windows.zip` (32-bit) or `atom-x64-windows.zip` (64-bit) from the [releases page](https://github.com/atom/atom/releases/latest).\nThe `.zip` version will not automatically update.\nUsing [Chocolatey](https://chocolatey.org)? Run `cinst Atom` to install the latest version of Atom.\n### Linux\nAtom is only available for 64-bit Linux systems.\nConfigure your distribution's package manager to",
+   "maxbrunsfeld/counterfeiter": "# `counterfeiter` [](https://github.com/maxbrunsfeld/counterfeiter/actions/workflows/go.yml) [](https://pkg.go.dev/github.com/maxbrunsfeld/counterfeiter/v6)\nGo code declares what it needs from its dependencies as interfaces, usually small ones\ndefined by the package that uses them. Testing that code means supplying fake\nimplementations of those interfaces. Go has no way to build one at runtime, so they are\nwritten by hand or generated.\n`counterfeiter` generates test doubles for a given interface. Given this:\n```go\npackage foo\n//go:generate go tool counterfeiter -generate\n//counterfeiter:generate . MySpecialInterface\ntype MySpecialInterface interface {\n\tDoThings(string, uint64) (int, error)\n}\n```\n`go generate` writes `foofakes/fake_my_special_interface.go`, and your tests can do this:\n```go\nfake := &foofakes.FakeMySpecialInterface{}\nfake.DoThingsReturns(3, nil)\nnum, err := fake.DoThings(\"stuff\", 5)\nExpect(num).To(Equal(3))\nExpect(fake.DoThingsCallCount()).To(Equal(1))\nstr, _ := fake.DoThingsArgsForCall(0)\nExpect(str).To(Equal(\"stuff\"))\n```\n## Getting Started\n`counterfeiter` is run by [`go generate`](https://go.dev/blog/generate), so fakes are regenerated alongside the code they fake. The steps below assume go 1.24 or later, which added `go tool`; for older versions of go, refer to an [older version of this README](https://github.com/maxbrunsfeld/counterfeiter/blob/e39cbe6aaa94a0b6718cf3d413cd5319c3a1f6fa/README.md#using-counterfeiter).\n### Step 1 - Add `counterfeiter` as a tool dependency\nEstablish a tool dependency on counterfeiter by running the following command:\n```shell\ngo get -tool github.com/maxbrunsfeld/counterfeiter/v6\n```\n### Step 2 - Add directives\nAdd one `go:generate` directive per package that runs `counterfeiter -generate`, and one `counterfeiter:generate` directive per interface you want a fake for. You can add them right next to your interface definitions (or not), in any `.go` file in the package.\nIn `myinterface.go`:\n```go\npackage foo\n// You only need **one** of these per package!\n//go:generate go tool counterfeiter -generate\n// You will add lots of directives like these in the same package...\n//counterfeiter:generate . MySpecialInterface\ntype ",
+   "tree-sitter/tree-sitter-javascript": "# tree-sitter-javascript\n[![CI][ci]](https://github.com/tree-sitter/tree-sitter-javascript/actions/workflows/ci.yml)\n[![discord][discord]](https://discord.gg/w7nTvsVJhm)\n[![matrix][matrix]](https://matrix.to/#/#tree-sitter-chat:matrix.org)\n[![crates][crates]](https://crates.io/crates/tree-sitter-javascript)\n[![npm][npm]](https://www.npmjs.com/package/tree-sitter-javascript)\n[![pypi][pypi]](https://pypi.org/project/tree-sitter-javascript)\nJavaScript and JSX grammar for [tree-sitter](https://github.com/tree-sitter/tree-sitter).\nThis grammar intends to be a close approximation of the [ECMAScript](https://ecma-international.org/publications-and-standards/standards/ecma-262/)\nspecification, with some extensions to support JSX syntax. We try to support the\nlatest version of the spec, though it is possible that some very new features may\nnot be supported yet.\nReferences\n- [The ESTree Spec](https://github.com/estree/estree)\n- [The ECMAScript 2025 Spec](https://tc39.es/ecma262/2025/)\n[ci]: https://img.shields.io/github/actions/workflow/status/tree-sitter/tree-sitter-javascript/ci.yml?logo=github&label=CI\n[discord]: https://img.shields.io/discord/1063097320771698699?logo=discord&label=discord\n[matrix]: https://img.shields.io/matrix/tree-sitter-chat%3Amatrix.org?logo=matrix&label=matrix\n[npm]: https://img.shields.io/npm/v/tree-sitter-javascript?logo=npm\n[crates]: https://img.shields.io/crates/v/tree-sitter-javascript?logo=rust\n[pypi]: https://img.shields.io/pypi/v/tree-sitter-javascript?logo=pypi&logoColor=ffd242\n"
+  }
+ },
+ "apps": []
+}

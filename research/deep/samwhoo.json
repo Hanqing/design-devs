@@ -1,0 +1,401 @@
+{
+ "handle": "samwhoo",
+ "sites": [
+  {
+   "url": "https://samwho.dev",
+   "ok": true,
+   "title": "samwho",
+   "description": "Personal website of Sam Rose.",
+   "stack": [],
+   "hosting": [],
+   "lang": "en",
+   "home_text": "👋 Hi. \n I'm Sam. Husband, dad, programmer, whisky-drinker, writer. I\n love video games, lie-ins, cold weather, and being indoors. I\n buy more books than I read, I'm scared of spiders and wasps, and\n I put ice in my whisky.\n It's really nice to meet you.\n🎨 I write. \n I write visual, interactive essays about software. Each post\n takes anywhere from one to three months to create, and I cover\n the material in a bottom-up fashion, starting from the simplest\n example and working up.\nBig O \nReservoir Sampling \nTuring Machines \nQueueing \nBloom Filters \nRetries \nHashing \nMemory Allocation \nLoad Balancing \n I also now write posts like this in my full-time job as a developer\n educator at ngrok :\n Prompt Caching \n Quantization \n💌 I newsletter. \n I only use this to announce new essays, so it only gets a few\n emails per year. If you want to keep up to date with me this\n way, here's the link: https://newsletter.samwho.dev/ \n🎙️ I talk. \n I've been a guest on the following podcasts:\n Hanselminutes\n ep. 953 \n Mostly Technical ep. 36 (I show up around\n 49:40) \n Overcommitted ep. 46 \n Pragmatic AI ep. 7 \n And I've given the following talks:\n Making Things Less Scary Through\n Visualisation at Chester Devs \n📰 I play the NYT games. \n My wife and I compete on the New York Times games , below\n are my results for today.\n Wordle \n Connections \n Mini \n😈 I tinker. \n Quizzes:\n jsdate.wtf a quiz about the JavaScript Date constructor. \n e-mail.wtf a quiz about email addresses. \n Miscellaneous little experiments:\n Six Word Story has you writing stories with everyone in the world, six words at\n a time. \n Ping lets you send me a push notification any time you want. \n⌨️ I write \n As well as my visual essays, I also write blog posts. You can\n see a list of them all here .\n I've recently written a guest post, and would be happy to write\n more!\npiccalil.li: Real\n World Uses of\n TypeScript's Utility Types \n I've written blog posts for companies I've worked for.\n Budibase January 9th 2023\n Incident Report \n Jet Lag: The Traffic \n Using Rust Lambdas in\n Production \n Major Upgrades, Subtle\n Problems \n Deploying CV Partner \n👨🏻‍💻 I code. \n You can find me on GitHub . Here are some of the things I've\n written and am proud of:\n spacer : a silly little CLI tool to add spacers to\n command output \n hmm : a little command line note taking tool written in\n Rust \n rust-debugger : a ptrace-based debugger written\n in Rust \n streamdeck : Go bindings for the StreamDeck API\n livesplit : Go bindings for the LiveSplit API \n📖 I read. \n My all-time favourite things on the internet can be found\n here . If you read them and like them,\n tweet me and tell me! I'd love to chat about them with you.\n I've been reviewing technical books for Pragmatic Bookshelf for many\n years. I started doing it during university as a way to get\n free books, and have carried it on in to my professional\n life. You'll find me acknowledged in the following\n books, and many others:\n A Common-Sense Guide to Data Structures and\n Algorithms \n Programming Elm \n The Definitive ANTLR 4 Reference \n Lean from the Trenches",
+   "github_links": [
+    "samwho"
+   ],
+   "subpages": {
+    "https://samwho.dev/blog": "2025-12-23 — 2025 \n 2025-08-23 — Big O \n 2025-05-07 — Reservoir Sampling \n 2024-12-20 — Turing Machines \n 2024-06-01 — A Commitment to Art and Dogs \n 2024-02-19 — Bloom Filters \n 2023-05-24 — Hashing \n 2023-04-13 — Memory Allocation \n 2023-04-10 — Load Balancing \n 2023-03-25 — Practical Problems with Auto-Increment \n 2023-03-02 — Getting an Autism Diagnosis \n 2022-02-14 — I finally figured out how to take notes! \n 2021-05-02 — Adventures in Homelab: Part 1 \n 2021-04-18 — Simple Complex Easy Hard \n 2021-03-09 — Scale is Poison \n 2020-10-17 — Fun With Rust's Traits \n 2020-09-12 — Dude, where's my main? \n 2020-04-03 — Having a Baby \n 2019-05-27 — A Logical Way to Split Long Lines \n 2019-05-19 — API Design: In The Wild (part 2) \n 2019-04-07 — API Design: In The Wild \n 2019-04-02 — API Design: Errors \n 2019-03-26 — API Design: Optional Parameters \n 2019-03-05 — Life Skills Learned Playing World of Warcraft \n 2019-02-28 — The dos and don'ts of large, online communities \n 2018-04-29 — Language Interoperability From the Ground Up \n 2017-09-06 — Move Your Bugs to the Left \n 2017-04-22 — Emulating Bad Networks \n 2017-01-14 — Not Just Games: Stories \n 2017-01-06 — Visiting Kenya and Mary's Meals \n 2016-05-01 — Creative Writing: Hovering \n 2015-07-18 — Toying with Cryptography: Crib Dragging \n 2015-03-29 — A Beginner's Guide to Money After University \n 2015-02-08 — How does file copying work \n 2014-11-02 — Unpopular Opinion: I like the whiteboard interview \n 2014-10-23 — On Being a World of Warcraft Addict \n 2014-10-20 — Phobias for the Non-Phobic \n 2014-06-28 — The Interweb Isn't Magic \n 2014-06-16 — Journey: A Story of Compassion in Video Games \n 2014-06-08 — From being rejected by McDonald's to working at Google \n 2014-03-30 — A Journey Down the TCP Rabbit Hole \n 2014-02-01 — Ruby GDB Scripts \n 2013-12-15 — On Understanding Computers \n 2013-12-08 — Duplicate Symbol? What? \n 2013-11-02 — Poking Around Inside Ruby \n 2013-10-27 — Improving Careers Days \n 2013-06-01 — Context Switching on x86 \n 2013-05-11 — Stack Overflows and Tail Call Optimisation \n 2013-04-13 — The Birth and Death of a Running Program \n 2013-03-30 — Assam: A VM in Ruby \n 2013-01-21 — GiveMondays, People-Watching and Being Suspicious \n 2013-01-20 — C Declarations \n 2013-01-12 — Moventy-thirteen \n 2013-01-06 — Interesting Findings While Teaching Kids How to Code \n 2012-12-15 — London, Charity, Forward \n 2012-07-08 — Access Control in Ruby \n 2012-07-01 — Vim Sessions: A Little Something \n 2012-07-01 — Adventures in Arduino \n 2012-04-28 — Command Line Blogging in 2 Commands \n 2011-12-03 — Pipes: How They Work and How to Use Them \n 2011-11-16 — Facebook Chat From the Command Line \n 2011-09-25 — Static: What, why, and how?",
+    "https://samwho.dev/links": "Links \nThis page contains my absolute favourite things on the Internet. I collect\neverything I read in to GoodLinks , and I put the best stuff here. \nTech \n How Flash Games Shaped the Video Game Industry \nAn homage to the era of flash games. Jonas Richner writes about their rise\nand fall, what made them so successful, and why it's sad that this era has\ncome to an end. \nWebsites like Newgrounds made it possible for anyone to publish their\ngames without a studio or a publisher. Developers uploaded experimental\ngames, artistic games, brutally violent games, funny games and activist\ngames. It was the wild west of gaming and the creativity that came out of\nthat environment was amazing. People made games just because they wanted to\nmake games, not to turn a profit. \n Detecting Agile Bullshit \nOf all the places to read a PDF with this title, the US Department of\nDefense was not high on my list. Pragmatic advice on how to tell if someone\nis lying to you about how agile their software development is. \nAgile is a buzzword of software development, and so all DoD software\ndevelopment projects are, almost by default, now declared to be “agile.”\nThe purpose of this document is to provide guidance to DoD program\nexecutives and acquisition professionals on how to detect software projects\nthat are really using agile development versus those that are simply\nwaterfall or spiral development in agile clothing (“agile-scrum-fall”). \n 500 Miles \nOne of those bugs that seems impossible, but ends up making complete sense. \n\"We're having a problem sending email out of the department.\"\n\"What's the problem?\" I asked.\n\"We can't send mail more than 500 miles,\" the chairman explained.\nI choked on my latte. \"Come again?\" \n Gallery of Processor Cache Effects \nA visual, practical exploration of the effect CPU cache can have on program\nperformance. A great read if you know programming but haven't had any\nexposure to CPU caching yet. \n Raft: Understandable Distributed Consensus \nDistributed consensus, making multiple networked computers agree about\nthings, is hard. For many years it was essentially impenetrable. Then Raft\ncame along and made it possible for mere mortals to understand. This visual\nguide makes it even more accessible. Even I get it. \n Debugging an Evil Go Runtime Bug \nThere's so much to learn from this post. In programming, debugging is the\nmajority of what we do. Digesting the techniques Hector Martin uses to find\nthis particularly nasty bug will go a long way. \nUsing a heat gun set at a fairly low temperature (130°C) I warmed up two\nmodules at a time (the other two modules are under the rear cover, as my\nlaptop has four SODIMM slots total). Playing around with module order, I\nfound three additional weak bits only detectable at elevated temperature,\nand they were spread around three of my RAM sticks. \n Zip Files All The Way Down \nEver zipped a zip file? Russ Cox takes that idea to its conclusion by\ncreating and infinitely nested zip file. \nThe programming exercise, "
+   },
+   "feed": {
+    "url": "https://samwho.dev/rss.xml",
+    "count_seen": 6,
+    "items": [
+     {
+      "title": "2025",
+      "date": "2025-12-23T00:00:00+00:00",
+      "url": "/2025/"
+     },
+     {
+      "title": "Big O",
+      "date": "2025-08-23T00:00:00+00:00",
+      "url": "/big-o/"
+     },
+     {
+      "title": "Reservoir Sampling",
+      "date": "2025-05-07T00:00:00+00:00",
+      "url": "/reservoir-sampling/"
+     },
+     {
+      "title": "Turing Machines",
+      "date": "2024-12-20T00:00:00+00:00",
+      "url": "/turing-machines/"
+     },
+     {
+      "title": "A Commitment to Art and Dogs",
+      "date": "2024-06-01T00:00:00+00:00",
+      "url": "/dogs/"
+     },
+     {
+      "title": "Bloom Filters",
+      "date": "2024-02-19T00:00:00+00:00",
+      "url": "/bloom-filters/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "samwho",
+  "user": {
+   "name": "Sam Rose",
+   "company": "@ngrok",
+   "blog": "https://samwho.dev",
+   "location": "United Kingdom",
+   "bio": null,
+   "public_repos": 118,
+   "followers": 1546,
+   "created_at": "2010-07-20T00:47:57Z",
+   "twitter_username": "samwhoo",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "samwho/spacer",
+    "description": "CLI tool to insert spacers when command output stops",
+    "stargazers_count": 1818,
+    "forks_count": 24,
+    "language": "Rust",
+    "homepage": "https://github.com/samwho/spacer",
+    "created_at": "2023-06-10T18:00:03Z",
+    "pushed_at": "2025-08-30T18:29:48Z",
+    "topics": [
+     "cli"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/visualisations",
+    "description": "Code behind my visualisation blog posts",
+    "stargazers_count": 375,
+    "forks_count": 11,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-11-23T21:08:27Z",
+    "pushed_at": "2026-10-14T14:53:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/llmwalk",
+    "description": "Explore the answer-space of open LLMs",
+    "stargazers_count": 211,
+    "forks_count": 5,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2025-12-14T16:11:38Z",
+    "pushed_at": "2026-01-19T21:31:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/hmm",
+    "description": "A small command-line note taking app written in Rust. Notes are written in plain text and indexed by the time they were written.",
+    "stargazers_count": 118,
+    "forks_count": 8,
+    "language": "Rust",
+    "homepage": "",
+    "created_at": "2020-03-07T22:48:44Z",
+    "pushed_at": "2024-09-03T21:34:11Z",
+    "topics": [
+     "command-line",
+     "journaling",
+     "note-taking",
+     "rust"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/symbol.wtf",
+    "description": "A dumb website I made for when I need a symbol.",
+    "stargazers_count": 79,
+    "forks_count": 46,
+    "language": "JavaScript",
+    "homepage": "https://symbol.wtf/",
+    "created_at": "2024-04-17T19:34:16Z",
+    "pushed_at": "2026-08-30T13:39:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/todo-txt-gem",
+    "description": "A RubyGem for parsing todo.txt files.",
+    "stargazers_count": 69,
+    "forks_count": 17,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2011-08-19T20:38:55Z",
+    "pushed_at": "2017-06-22T16:31:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/jsdate.wtf",
+    "description": "A quiz about JavaScript the Date object",
+    "stargazers_count": 51,
+    "forks_count": 8,
+    "language": "HTML",
+    "homepage": "https://jsdate-wtf.vercel.app",
+    "created_at": "2025-07-11T15:13:51Z",
+    "pushed_at": "2026-01-03T11:03:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/obsidian-wikidata-importer",
+    "description": "A plugin for importing data from Wikidata into your Obsidian vault.",
+    "stargazers_count": 51,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-08-20T21:33:25Z",
+    "pushed_at": "2026-05-02T14:21:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/assam",
+    "description": "The Assam virtual processor in Ruby.",
+    "stargazers_count": 27,
+    "forks_count": 1,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2013-03-03T13:18:25Z",
+    "pushed_at": "2013-04-12T15:14:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/vimcolorscheme",
+    "description": "A Ruby DSL for creating Vim color schemes.",
+    "stargazers_count": 25,
+    "forks_count": 2,
+    "language": null,
+    "homepage": null,
+    "created_at": "2012-05-01T21:07:12Z",
+    "pushed_at": "2012-05-01T21:23:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/pixijs-layout",
+    "description": "SwiftUI-inspired layout library for PixiJS",
+    "stargazers_count": 23,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2023-08-01T10:22:37Z",
+    "pushed_at": "2024-04-21T21:04:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/streamdeck",
+    "description": "StreamDeck plugin API bindings for Go.",
+    "stargazers_count": 22,
+    "forks_count": 8,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2019-07-14T20:53:41Z",
+    "pushed_at": "2022-01-16T08:56:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/recolor",
+    "description": null,
+    "stargazers_count": 18,
+    "forks_count": 0,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2023-07-07T16:25:04Z",
+    "pushed_at": "2023-07-08T16:24:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/everycron",
+    "description": "Every cron expression in a single enum.",
+    "stargazers_count": 16,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2024-11-02T14:04:45Z",
+    "pushed_at": "2024-11-02T19:58:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/lolreplay",
+    "description": "A Ruby library for accessing LoL Replay metadata in .lrf files",
+    "stargazers_count": 16,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2011-12-11T21:10:28Z",
+    "pushed_at": "2011-12-11T21:21:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/PHP-Routing",
+    "description": "Rails-style routing for PHP.",
+    "stargazers_count": 16,
+    "forks_count": 3,
+    "language": "PHP",
+    "homepage": "",
+    "created_at": "2011-05-17T22:35:59Z",
+    "pushed_at": "2012-04-15T12:36:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/e-mail.wtf",
+    "description": "The email address quiz.",
+    "stargazers_count": 15,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-08-17T12:21:04Z",
+    "pushed_at": "2026-05-02T13:17:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "samwho/rust-debugger",
+    "description": "A ptrace-based debugger written in Rust.",
+    "stargazers_count": 15,
+    "forks_count": 2,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2020-04-07T18:30:35Z",
+    "pushed_at": "2020-05-16T21:13:00Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 98,
+  "languages": [
+   [
+    "Rust",
+    24
+   ],
+   [
+    "Ruby",
+    18
+   ],
+   [
+    "TypeScript",
+    10
+   ],
+   [
+    "Python",
+    9
+   ],
+   [
+    "Java",
+    7
+   ],
+   [
+    "Go",
+    6
+   ],
+   [
+    "JavaScript",
+    5
+   ],
+   [
+    "PHP",
+    3
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "samwho/spacer",
+    "stargazerCount": 1818,
+    "description": "CLI tool to insert spacers when command output stops",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://github.com/samwho/spacer"
+   },
+   {
+    "nameWithOwner": "samwho/symbol.wtf",
+    "stargazerCount": 79,
+    "description": "A dumb website I made for when I need a symbol.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://symbol.wtf/"
+   },
+   {
+    "nameWithOwner": "samwho/hmm",
+    "stargazerCount": 118,
+    "description": "A small command-line note taking app written in Rust. Notes are written in plain text and indexed by the time they were written.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "samwho/visualisations",
+    "stargazerCount": 375,
+    "description": "Code behind my visualisation blog posts",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "samwho/pixijs-layout",
+    "stargazerCount": 23,
+    "description": "SwiftUI-inspired layout library for PixiJS",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "samwho/streamdeck",
+    "stargazerCount": 22,
+    "description": "StreamDeck plugin API bindings for Go.",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 2606,
+  "orgs": [],
+  "profile_readme": "### 👋 Hi\n\nI'm Sam. Husband, dad, programmer, whisky-drinker, writer. I love video games, lie-ins, cold weather, and being indoors. I buy more books than I read, I'm scared of spiders and wasps, and I put ice in my whisky.\n\nIt's really nice to meet you.\n\n### 🔭 I’m currently working on ...\n\nDuring the day I am a developer educator for [ngrok](https://ngrok.com).\n\nDuring the evenings and weekends, I'm usually writing visual introductions to programming concepts at\n<https://samwho.dev>.\n\n### 📫 How to reach me\n\nEmail is best. Please, no spam.\n\n[hello@samwho.dev](mailto:hello@samwho.dev)\n\n<!--\n**samwho/samwho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n",
+  "readmes": {
+   "samwho/spacer": "# spacer\n[](https://github.com/samwho/spacer/actions)\n[](https://crates.io/crates/spacer)\n`spacer` is a simple CLI tool to insert spacers when command output stops.\nIf you're the type of person that habitually presses enter a few times in your\nlog tail to know where the last request ended and the new one begins, this tool\nis for you!\n## Installation\nWith Homebrew:\n```bash\nbrew install spacer\n```\nDirect from Cargo:\n```bash\ncargo install spacer\n```\n## Usage\nBy default, `spacer` outputs a spacer after 1 second with no output. You can\nchange this with the `--after` flag.\n```bash\ntail -f some.log | spacer --after 5\n```\n`--after` accepts a number of seconds, and allows floating point numbers for\nextra precision.\n## STDOUT and STDERR\nSome commands output most of their information on STDERR, not STDOUT. `spacer`\nonly monitors STDOUT, so if you find a situation where `spacer` doesn't seem\nto be working it could be that the program you're piping from is using STDERR.\nTo \"fix\" that, pipe both STDERR to STDOUT to spacer by using `|&` instead of \n`|` as the pipe characters:\n```bash\nmy-command |& spacer\n```\n",
+   "samwho/symbol.wtf": "# ‽\n<https://symbol.wtf> is a dumb website I made so it would be easier to copy\nsymbols I usually have to Google.\nYou're welcome to open a PR adding new symbols, take a look in `symbols.js` for\nan idea of how to do that.\n",
+   "samwho/hmm": "[](https://github.com/samwho/hmm/actions)\n[](https://crates.io/crates/hmmcli)\n`hmm` is a small command-line note taking app written in Rust. Entries are\nwritten in plain text and indexed by the time they were written.\n`hmm` is inspired by [jrnl][1], except with a different use-case in mind.\nWhere `jrnl` excels at a journaling use case, where users to can entries\nwith arbitrary times and the file format is human-readable, `hmm` only\nallows you to add an entry at the current time and has a machine-readable\nformat that's optimised for fast time-based querying.\n* [Comparison to jrnl](#comparison-to-jrnl)\n* [Installation](#installation)\n    * [Arch Linux (AUR)](#arch-linux-aur)\n    * [Using cargo](#using-cargo)\n    * [From source](#from-source)\n* [Usage](#usage)\n* [hmm](#hmm)\n    * [Writing an entry from the CLI](#writing-an-entry-from-the-cli)\n    * [Writing an entry to a different .hmm file](#writing-an-entry-to-a-different-hmm-file)\n    * [Writing long-form entries in your EDITOR](#writing-long-form-entries-in-your-editor)\n* [hmmq](#hmmq)\n    * [Listing your entries](#listing-your-entries)\n        * [Show the most recent 10 entries](#show-the-most-recent-10-entries)\n        * [Show the frst 10 entries](#show-the-frst-10-entries)\n        * [Show entries on a specific day](#show-entries-on-a-specific-day)\n        * [Show entries on a given year](#show-entries-on-a-given-year)\n        * [Count entries in a given year](#count-entries-in-a-given-year)\n        * [Show all entries from a given date](#show-all-entries-from-a-given-date)\n        * [Show a random entry](#show-a-random-entry)\n    * [Formatting entries](#formatting-entries)\n* [hmmp](#hmmp)\n* [Benchmarking](#benchmarking)\n# Comparison to `jrnl`\nFeatures `jrnl` has that `hmm` doesn't:\n- Encryption.\n- Ability to add entries at arbitrary points in time.\n- In-built notion of tags.\n- In-built notion of starring.\n- Ability to edit entries.\n- Ability to parse English dates/times, e.g. \"yesterday\" and \"2 weeks ago.\"\nFeatures `hmm` has that `jrnl` doesn't:\n- Unambigous date-format (RFC3339).\n- File-format optimised for searching by time.\n- Ability to format entries however you want.\n- No external dependencies.\n- Lots o",
+   "samwho/visualisations": "# Visualisation Code\nThis repository contains the source code behind my visualisation blog posts.\n- `numbers` - <https://samwho.dev/numbers>\n- `bloom-filters/` - <https://samwho.dev/bloom-filters>\n- `retries/` - <https://encore.dev/blog/retries>\n- `hashing/` - <https://samwho.dev/hashing>\n- `memory-allocation/` - <https://samwho.dev/memory-allocation>\n- `load-balancing/` - <https://samwho.dev/load-balancing>\n- `queueing/` - <https://encore.dev/blog/queueing>\n- `turing-machines/` - <https://samwho.dev/turing-machines>\n- `reservoir-sampling/` - <https://samwho.dev/reservoir-sampling>\n- `big-o/` - <https://samwho.dev/big-o>\nIn the case of `load-balancing` and `memory-allocation` the code is vanilla\nJavaScript that I include into pages with a simple `<script>` tag. It may\ndepend on other libraries that are also included into the page, and may be\ndifficult to run. I recommend looking at the HTML source of those posts to\nfigure out how to run it, if that's your goal.\nFor `hashing` and `retries` I began using Bun to build my code, as it's in\nTypeScript, is better modularised, and depends on packages from NPM. This\ncode should be building with `bun install && bun run build` in both cases.\nThe output will be put into an `out/` directory and including that in a page\nwill give you access to the custom HTML elements I use throughout those posts.\nFeel free to reach out if you have any questions about the code, and thanks\nfor showing an interest in my work!\n",
+   "samwho/pixijs-layout": "# pixijs-layout\n[](https://github.com/samwho/pixijs-layout/blob/main/LICENSE) [](https://www.npmjs.com/package/pixijs-layout) [](https://github.com/samwho/pixijs-layout/actions) [](https://github.com/samwho/pixijs-layout/actions)\nThis library is designed to make laying out elements on a canvas very easy.\nI've been using PixiJS to write visual explanations of programming concepts\nover at <https://samwho.dev>, and this library tailors specifically to my\nuse-case.\nI tried <https://pixijs.io/layout/> and found it didn't easily suit the work\nI was trying to do.\n## Installation\n```\nnpm install pixijs-layout\n```\n## Examples\n> The tests for this project are the best place to find examples. Every test renders a component to a canvas and saves an image of it in the `screenshots/` directory. All tests are in `tests.ts` and each screenshot is named directly after the test.\nAll of the examples will assume the following structure:\n```typescript\nimport * as PIXI from \"pixi.js\";\nlet canvas = document.createElement(\"canvas\");\ncanvas.width = 800;\ncanvas.height = 600;\ndocument.body.appendChild(canvas);\nlet app = new PIXI.Application({\n  autoStart: false,\n  forceCanvas: true,\n  view: canvas,\n  resizeTo: canvas,\n  backgroundColor: 0xffffff,\n});\napp.renderer.resize(800, 600);\nlet component = null; // <example code goes here>\napp.stage.addChild(component);\ncomponent.arrange(app.screen);\n```\nThey also assume the existence of the following helper:\n```typescript\nimport * as PIXI from \"pixi.js\";\nexport function circle({\n  x,\n  y,\n  radius,\n}: {\n  x?: number;\n  y?: number;\n  radius?: number;\n} = {}): PIXI.Graphics {\n  let circle = new PIXI.Graphics();\n  circle.beginFill(0xff0000);\n  circle.drawCircle(x ?? 0, y ?? 0, radius ?? 50);\n  circle.endFill();\n  return circle;\n}\n```\n### HStack\n```typescript\nimport { HStack } from \"pixijs-layout\";\nlet component = HStack(circle(), circle(), circle()).leaves((leaf) =>\n  leaf.fit().padding(\"5%\"),\n);\n```\n### VStack\n```typescript\nimport { VStack } from \"pixijs-layout\";\nlet component = VStack(circle(), circle(), circle()).leaves((leaf) =>\n  leaf.fit().padding(\"5%\"),\n);\n```\n### HStacks in a VStack\n```typescript\nimport { VStack, HStack } from \"pixijs-layout\""
+  }
+ },
+ "apps": []
+}

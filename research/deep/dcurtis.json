@@ -1,0 +1,109 @@
+{
+ "handle": "dcurtis",
+ "sites": [
+  {
+   "url": "https://dustincurtis.com",
+   "ok": true,
+   "title": "Dustin Curtis",
+   "description": "Dustin Curtis is a person who does things on the internet.",
+   "stack": [
+    "Google Analytics"
+   ],
+   "hosting": [
+    "AWS"
+   ],
+   "lang": "en",
+   "home_text": "designer, investor, nomad\nbuilder of interfaces between machines and humans\n*   [email](mailto:hi@dustincurtis.com?subject=Hi%20from%20dustincurtis.com)\n*   [imessage](imessage://hi@dustincurtis.com)\n*   [thoughts](https://x.com/dcurtis)\n*   [writing](https://dcurt.is/)\n*   [travel](https://conquer.earth/dcurtis)",
+   "github_links": [],
+   "subpages": {},
+   "feed": {
+    "url": "https://dustincurtis.com/rss.xml",
+    "count_seen": 1,
+    "items": [
+     {
+      "title": "Cleaning up the internet",
+      "date": "Sun, 30 Jul 2024 07:35:00",
+      "url": "https://dustincurtis.com/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "dcurtis",
+  "user": {
+   "name": "dustin curtis",
+   "company": "dcurtis",
+   "blog": "https://dustincurtis.com",
+   "location": null,
+   "bio": "Designer. Investor. Nomad. ",
+   "public_repos": 35,
+   "followers": 334,
+   "created_at": "2008-05-20T21:20:20Z",
+   "twitter_username": "dcurtis",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "dcurtis/markdown-mark",
+    "description": "Use this mark to identify Markdown.",
+    "stargazers_count": 1195,
+    "forks_count": 88,
+    "language": "HTML",
+    "homepage": "https://dcurt.is/the-markdown-mark",
+    "created_at": "2012-03-14T06:49:34Z",
+    "pushed_at": "2022-04-16T18:59:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "dcurtis/open-brand",
+    "description": "This is The Open Brand, a framework for clearly and properly defining a brand (for now, the visual brand). The Open Brand aims to help open source projects, companies, and people develop brand definitions that can be used properly, developed quickly, and referenced consistently. Because of its structure, the Open Brand can be used by stakeholders possessing any level of design experience. When published, this description should read: \"Use this mark to identify [brand name].\"",
+    "stargazers_count": 291,
+    "forks_count": 12,
+    "language": null,
+    "homepage": "http://dcurt.is/the-open-brand",
+    "created_at": "2012-03-16T08:48:21Z",
+    "pushed_at": "2012-03-16T23:15:23Z",
+    "topics": [],
+    "archived": true
+   }
+  ],
+  "repo_count_nonfork": 2,
+  "languages": [
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "dcurtis/markdown-mark",
+    "stargazerCount": 1195,
+    "description": "Use this mark to identify Markdown.",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "https://dcurt.is/the-markdown-mark"
+   },
+   {
+    "nameWithOwner": "dcurtis/open-brand",
+    "stargazerCount": 291,
+    "description": "This is The Open Brand, a framework for clearly and properly defining a brand (for now, the visual brand). The Open Brand aims to help open source projects, companies, and people develop brand definitions that can be used properly, developed quickly, and referenced consistently. Because of its structure, the Open Brand can be used by stakeholders possessing any level of design experience. When published, this description should read: \"Use this mark to identify [brand name].\"",
+    "primaryLanguage": null,
+    "homepageUrl": "http://dcurt.is/the-open-brand"
+   }
+  ],
+  "contrib_last_year": 47,
+  "orgs": [
+   "neutralcorp"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "dcurtis/markdown-mark": "\n# The Markdown Mark\nUse this mark to identify Markdown. It can be used to identify user input areas which support Markdown-compiled HTML output or to identify general Markdown support.\nThe Markdown Mark was designed and built by [Dustin Curtis](https://twitter.com/dcurtis) ([https://dustincurtis.com](https://dustincurtis.com)). Important contributions were provided by Mac Tyler ([http://mactyler.com](http://mactyler.com)).\nMarkdown was developed by [John Gruber](https://daringfireball.net) ([https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)) in collaboration with [Aaron Swartz](http://www.aaronsw.com).\n## Design\nThe \"M\" glyph was inspired by the the capital letter M of Gill Sans Bold, a typeface designed by Eric Gill in 1928. The down arrow icon was constructed to proportionally complement the \"M\" glyph. The border radius used for the rounded enclosure box was chosen so that the box looks natural at both small and large sizes.\n## Usage\nThe Markdown Mark is designed to be used for identifying user input areas which support Markdown-compiled HTML output and to identify general Markdown support.\nPlease note that in proper usage the enclosure box border radii change as the mark scales in size. Vector versions of each size class can be found in the [Specimen](specimens/markdown-mark.psd), [Photoshop](psd/markdown-mark.psd), and [Illustrator](ai/markdown-mark.ai) files. [Pixel-fitted](https://dcurt.is/pixel-fitting) raster versions can be found in the [png](png/) folder.\nAlthough you may modify this mark any way you like, without restriction, we ask that you respect the following guidelines:\n1. Please maintain the aspect ratio and border radius of the rounded enclosure box.\n2. Please do not change the relative sizes of the \"M\" glyph, the down arrow icon, and the enclosure box.\n3. Please show the three elements which make up the mark, including the \"M\" glyph, the down arrow icon, and the box enclosure, in the same color.\n4. When possible, please display the mark in a shade of gray, white, or black.\n## Specification\nLet the stem width of the down arrow icon be __&times;__. The vertical lines which make up the \"M\" glyph shall ",
+   "dcurtis/open-brand": "This is The Open Brand, a framework for clearly and properly defining a brand. The Open Brand aims to help open source projects, companies, and people develop brand definitions that can be used properly, developed quickly, and referenced consistently.\nBecause of its structure, the Open Brand can be used by stakeholders possessing any level of design experience.\nIn addition to the following README, see inside the `png/`, `psd/`, `spec/`, and `svg/` folders for individual `README`s which define the structure of an Open Brand. \nFor an example of an Open Brand in use, see [The Markdown Mark](http://github.com/dcurtis/markdown-mark).\n***\n#### [ Main header. Include a banner image showing the spec and two common sizes of the brand here. ]\n# [ Write the name of the brand here. ]\nUse this mark to identify [brand name]. It should be used to identify [ write list of places to use this mark for identification. See \"Examples\" for more information. ]. If you are absolutely unable to use an image to display the [brand name], use this Unicode approximation: [ Show a Unicode approximation, if applicable. ]. See \"Usage\".\n[ Include a list of attributions and sources here, including the creators of the mark. ]\n## Specification\n[ Include an image file of the brand specification, as described in `spec/README`, here. ]\nLet the [ chosen visual anchor, see `spec/README` ] be X. The internal whitespace between [ list other items which are spaced by X ] should be precisely X. [ Write more definitions for the spec here, if necessary. Be specific. ]\n## Usage\nYou should use this mark to identify [ Write list of places to use this mark for identification. See \"Examples\" for more information. Use the same language as in the introduction above. ]. Although you may modify this mark any way you like, without restriction, please respect the following guidelines: \n[ Numbered list of restrictions and guidelines. See \"Examples\" for more information. ]\n### Unicode Approximation\nIf you cannot use an image for the [brand name], use this Unicode approximation: \n__[ Unicode approximation ]__\nDo not use this Unicode approximation unless you are absolutely unable to use an image to display the [brand name]"
+  }
+ },
+ "apps": []
+}

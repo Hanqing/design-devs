@@ -1,0 +1,460 @@
+{
+ "handle": "fabiospampinato",
+ "sites": [
+  {
+   "url": "https://fabiospampinato.com",
+   "ok": true,
+   "title": "Fabio Spampinato",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "[](https://fabiospampinato.com/static/images/avatar.jpg)\nTrying to write good software.\n[GitHub github.com/fabiospampinato](https://github.com/fabiospampinato)[Twitter twitter.com/fabiospampinato](https://twitter.com/fabiospampinato)[Email fabio@notable.app](mailto:fabio@notable.app)[Ask Me Anything github.com/fabiospampinato/ama](https://github.com/fabiospampinato/ama)",
+   "github_links": [
+    "fabiospampinato"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "fabiospampinato",
+  "user": {
+   "name": "Fabio Spampinato",
+   "company": "@facebook",
+   "blog": "fabiospampinato.com",
+   "location": "London, UK",
+   "bio": "Trying to write good software.",
+   "public_repos": 429,
+   "followers": 1977,
+   "created_at": "2012-06-03T12:15:46Z",
+   "twitter_username": "fabiospampinato",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "fabiospampinato/cash",
+    "description": "An absurdly small jQuery alternative for modern browsers.",
+    "stargazers_count": 7033,
+    "forks_count": 270,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2014-09-19T12:47:40Z",
+    "pushed_at": "2026-07-17T21:02:06Z",
+    "topics": [
+     "cash",
+     "dom",
+     "javascript",
+     "jquery",
+     "jquery-alternative",
+     "modern-browsers",
+     "selector",
+     "small",
+     "tiny",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/cliflix",
+    "description": "Watch anything instantaneously, just write its name.",
+    "stargazers_count": 1494,
+    "forks_count": 66,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2017-09-03T01:51:51Z",
+    "pushed_at": "2021-06-14T00:46:49Z",
+    "topics": [
+     "cli",
+     "cliflix",
+     "stream",
+     "torrent",
+     "watch"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "fabiospampinato/vscode-todo-plus",
+    "description": "Manage todo lists with ease. Powerful, easy to use and customizable.",
+    "stargazers_count": 998,
+    "forks_count": 238,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2017-08-19T02:33:14Z",
+    "pushed_at": "2026-07-17T22:15:28Z",
+    "topics": [
+     "extension",
+     "task",
+     "taskpaper",
+     "tasks",
+     "todo",
+     "todos",
+     "vscode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/autogit",
+    "description": "Define commands, using plugins, to execute across all your repositories.",
+    "stargazers_count": 467,
+    "forks_count": 19,
+    "language": "TypeScript",
+    "homepage": "http://fabiospampinato.com/autogit",
+    "created_at": "2018-10-08T04:03:34Z",
+    "pushed_at": "2021-05-12T15:03:15Z",
+    "topics": [
+     "autogit",
+     "automator",
+     "bulk",
+     "git",
+     "plugins"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "fabiospampinato/bump",
+    "description": "Bump updates the project's version, updates/creates the changelog, makes the bump commit, tags the bump commit and makes the release to GitHub. Opinionated but configurable.",
+    "stargazers_count": 417,
+    "forks_count": 15,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2019-01-15T01:19:38Z",
+    "pushed_at": "2026-07-17T22:43:18Z",
+    "topics": [
+     "automation",
+     "bump",
+     "changelog",
+     "commit",
+     "release",
+     "tag",
+     "version"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/phoenix",
+    "description": "My Phoenix setup.",
+    "stargazers_count": 406,
+    "forks_count": 51,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-07-22T15:47:05Z",
+    "pushed_at": "2026-07-16T13:47:44Z",
+    "topics": [
+     "developer-tools",
+     "macos",
+     "phoenix",
+     "productivity"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/noty",
+    "description": "Autosaving sticky note with support for multiple notes without needing multiple windows.",
+    "stargazers_count": 344,
+    "forks_count": 31,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2017-08-02T17:05:31Z",
+    "pushed_at": "2019-11-14T20:57:42Z",
+    "topics": [
+     "codemirror",
+     "electron",
+     "note",
+     "react",
+     "sticky",
+     "webpack"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "fabiospampinato/store",
+    "description": "A beautifully-simple framework-agnostic modern state management library.",
+    "stargazers_count": 225,
+    "forks_count": 7,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2020-02-14T17:18:36Z",
+    "pushed_at": "2022-06-24T21:51:17Z",
+    "topics": [
+     "clean",
+     "fast",
+     "library",
+     "management",
+     "node",
+     "proxy",
+     "react",
+     "reactive",
+     "state",
+     "store"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "fabiospampinato/vscode-highlight",
+    "description": "Advanced text highlighter based on regexes. Useful for todos, annotations etc.",
+    "stargazers_count": 220,
+    "forks_count": 42,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2018-04-03T20:57:42Z",
+    "pushed_at": "2026-07-18T12:42:33Z",
+    "topics": [
+     "annotation",
+     "extension",
+     "highlight",
+     "text",
+     "todo",
+     "vsc",
+     "vscode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/tiny-bin",
+    "description": "A library for building tiny and beautiful command line apps.",
+    "stargazers_count": 194,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2023-02-09T23:38:50Z",
+    "pushed_at": "2026-07-17T22:17:40Z",
+    "topics": [
+     "app",
+     "bin",
+     "cli",
+     "command",
+     "line",
+     "tiny"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/flimsy",
+    "description": "A single-file <1kb min+gzip simplified implementation of the reactive core of Solid, optimized for clean code.",
+    "stargazers_count": 192,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2022-08-13T14:18:30Z",
+    "pushed_at": "2026-07-17T21:10:40Z",
+    "topics": [
+     "reactivity",
+     "simple",
+     "solid",
+     "tiny"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/atomically",
+    "description": "Read and write files atomically and reliably.",
+    "stargazers_count": 183,
+    "forks_count": 13,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2020-07-02T00:21:23Z",
+    "pushed_at": "2026-07-17T21:18:27Z",
+    "topics": [
+     "atomic",
+     "file",
+     "reliable",
+     "write"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/template",
+    "description": "A super-simple way to create new projects based on templates.",
+    "stargazers_count": 151,
+    "forks_count": 11,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2017-08-31T17:00:59Z",
+    "pushed_at": "2026-07-17T22:17:58Z",
+    "topics": [
+     "cli",
+     "handlebars",
+     "picolate",
+     "scaffold",
+     "simple",
+     "template"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/vscode-terminals",
+    "description": "An extension for setting-up multiple terminals at once, or just running some commands.",
+    "stargazers_count": 146,
+    "forks_count": 30,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2017-07-12T23:17:03Z",
+    "pushed_at": "2026-07-17T22:16:05Z",
+    "topics": [
+     "command",
+     "manager",
+     "restore",
+     "setup",
+     "startup",
+     "terminals"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/watcher",
+    "description": "The file system watcher that strives for perfection, with no native dependencies and optional rename detection support.",
+    "stargazers_count": 140,
+    "forks_count": 19,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-11-21T23:00:22Z",
+    "pushed_at": "2026-07-17T22:16:28Z",
+    "topics": [
+     "file",
+     "filesystem",
+     "fs",
+     "system",
+     "watch",
+     "watcher"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/banal",
+    "description": "On-demand bundle analyzer, powered by esbuild.",
+    "stargazers_count": 133,
+    "forks_count": 3,
+    "language": "HTML",
+    "homepage": "",
+    "created_at": "2023-07-16T23:59:51Z",
+    "pushed_at": "2026-06-26T15:17:13Z",
+    "topics": [
+     "analyzer",
+     "bundle",
+     "esbuild"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/shosho",
+    "description": "A modern and powerful shortcuts management library.",
+    "stargazers_count": 116,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2023-05-11T01:06:43Z",
+    "pushed_at": "2026-07-16T22:53:53Z",
+    "topics": [
+     "library",
+     "management",
+     "modern",
+     "shortcuts"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "fabiospampinato/vscode-open-in-github",
+    "description": "Open the current project or file in github.com.",
+    "stargazers_count": 108,
+    "forks_count": 34,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2018-03-15T13:12:16Z",
+    "pushed_at": "2026-07-17T13:14:36Z",
+    "topics": [
+     "extension",
+     "github",
+     "in",
+     "open",
+     "vscode"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 20,
+  "languages": [
+   [
+    "TypeScript",
+    14
+   ],
+   [
+    "JavaScript",
+    4
+   ],
+   [
+    "HTML",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "notable/notable",
+    "stargazerCount": 23492,
+    "description": "The Markdown-based note-taking app that doesn't suck.",
+    "primaryLanguage": null,
+    "homepageUrl": "https://notable.app"
+   },
+   {
+    "nameWithOwner": "vobyjs/voby",
+    "stargazerCount": 909,
+    "description": "A high-performance framework with fine-grained observable/signal-based reactivity for building rich applications.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://voby.dev"
+   },
+   {
+    "nameWithOwner": "fabiospampinato/cash",
+    "stargazerCount": 7033,
+    "description": "An absurdly small jQuery alternative for modern browsers.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "fabiospampinato/vscode-todo-plus",
+    "stargazerCount": 998,
+    "description": "Manage todo lists with ease. Powerful, easy to use and customizable.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "fabiospampinato/monorepo",
+    "stargazerCount": 76,
+    "description": "The homepage for all my repositories.",
+    "primaryLanguage": null,
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "fabiospampinato/bump",
+    "stargazerCount": 417,
+    "description": "Bump updates the project's version, updates/creates the changelog, makes the bump commit, tags the bump commit and makes the release to GitHub. Opinionated but configurable.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 573,
+  "orgs": [
+   "notable",
+   "vobyjs"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "notable/notable": "# [Notable](https://notable.app) <a href=\"https://chat.notable.app\" title=\"Notable's real-time chat\"></a> <a href=\"https://twitter.com/TheNotableApp\" title=\"Notable's Twitter account\"></a> <a href=\"https://reddit.com/r/notable\" title=\"Notable's subreddit\"></a>\n<p align=\"center\">\n  <a href=\"https://img.notable.app/screenshot-main.png\">\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://download.notable.app\">\n  </a>\n</p>\n---\nI couldn't find a note-taking app that ticked all the boxes I'm interested in: notes are written and rendered in GitHub Flavored Markdown, no WYSIWYG, no proprietary formats, I can run a search & replace across all notes, notes support attachments, the app isn't bloated, the app has a pretty interface, tags are indefinitely nestable and can import Evernote notes (because that's what I was using before).\nSo I built my own.\n## [Comparison](https://notable.app/static/images/comparison.png)\n[](https://notable.app/static/images/comparison.png)\nPart of this comparison is personal opinion: you may disagree on the UI front, things I consider bloat may be considered features by somebody else etc. but hopefully this comparison did a good job at illustrating the main differences.\n## Features\n### Markdown-based\nNotes are written in GitHub Flavored Markdown, and you can also write [KaTeX](https://katex.org) expressions, [Mermaid](https://github.com/knsv/mermaid) diagrams and so much more, check out our full [Markdown cheatsheet](https://cheatsheet.notable.app).\nNotable also gives you a very powerful Markdown editor, it's the same one VS Code uses in fact, so features like multi-cursors, a minimap and best-in-class syntax highlighting are built-in.\n<p align=\"center\">\n  <a href=\"https://img.notable.app/screenshot-editor.png\">\n  </a>\n</p>\n### No Vendor Lock-In\nNotes and attachments are simply stored on your disk, this is extremely portable and powerful: you could edit your notes with your favorite editor, have them synchronized via Dropbox, run Git on them, run a regex-based search and replace on them etc.\n<p align=\"center\">\n  <a href=\"https://img.notable.app/screenshot-filesystem.png\">\n  </a>\n</p>\n### Dark Theme\nA dark theme is also available. In the future s",
+   "vobyjs/voby": "\n<p align=\"center\">\n  <a href=\"https://voby.dev\">\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://discord.gg/E6pK7VpnjC\">\n  </a>\n  <a href=\"https://codesandbox.io/s/voby-playground-7w2pxg\">\n  </a>\n  <a href=\"https://opencollective.com/voby\">\n  </a>\n</p>\n# [Voby](https://voby.dev)\nA high-performance framework with fine-grained observable/signal-based reactivity for building rich applications.\n## Features\nThis works similarly to [Solid](https://www.solidjs.com), but without a custom Babel transform and with a different API.\n- **No VDOM**: there's no VDOM overhead, the framework deals with raw DOM nodes directly.\n- **No stale closures**: functions are always executed afresh, no need to worry about previous potential executions of the current function, ever.\n- **No rules of hooks**: hooks are just regular functions, which you can nest indefinitely, call conditionally, use outside components, whatever you want.\n- **No dependencies arrays**: the framework is able to detect what depends on what else automatically, no need to specify dependencies manually.\n- **No props diffing**: updates are fine grained, there's no props diffing, whenever an attribute/property/class/handler/etc. should be updated it's updated directly and immediately.\n- **No key prop**: you can just map over arrays, or use the `For` component with an array of unique values, no need to specify keys explicitly.\n- **No Babel**: there's no need to use Babel with this framework, it works with plain old JS (plus JSX if you are into that). As a consequence we have 0 transform function bugs, because we don't have a transform function.\n- **No magic**: what you see is what you get, your code is not transformed to actually do something different than what you write, there are no surprises.\n- **No server support**: for the time being this framework is focused on local-first rich applications, most server-related features are not implemented: no hydration, no server components, no streaming etc.\n- **Observable-based**: observables, also known as \"signals\", are at the core of our reactivity system. The way it works is very different from a React-like system, it may be more challenging to learn, but it's well worth",
+   "fabiospampinato/cash": "\n<p align=\"center\">\n</p>\n# Cash\nCash is an absurdly small jQuery alternative for modern browsers (IE11+) that provides jQuery-style syntax for manipulating the DOM. Utilizing modern browser features to minimize the codebase, developers can use the familiar chainable methods at a fraction of the file size. 100% feature parity with jQuery isn't a goal, but Cash comes helpfully close, covering most day to day use cases.\n## Comparison\n| Size               | Cash        | Zepto 1.2.0 | jQuery Slim 3.4.1 |\n| ------------------ | ----------- | ----------- | ----------------- |\n| Unminified         | **36.5 KB** | 58.7 KB     | 227 KB            |\n| Minified           | **16 KB**   | 26 KB       | 71 KB             |\n| Minified & Gzipped | **6 KB**    | 9.8 KB      | 24.4 KB           |\nA **76.6%** gain in size reduction compared to jQuery Slim. If you need a smaller bundle, we support [partial builds](https://github.com/fabiospampinato/cash/blob/master/docs/partial_builds.md) too.\n| Features                 | Cash                               | Zepto 1.2.0                    | jQuery Slim 3.4.1              |\n| ------------------------ | ---------------------------------- | ------------------------------ | ------------------------------ |\n| Supports Older Browsers  | ❌                                  | ️❌                             | ✔                              |\n| Supports Modern Browsers | ✔                                  | ️✔                             | ✔                              |\n| Actively Maintained      | ✔                                  | ❌                              | ✔                              |\n| Namespaced Events        | ✔                                  | ️❌                             | ✔                              |\n| Typed Codebase           | ✔ (TypeScript)                     | ️❌                             | ❌                              |\n| TypeScript Types         | ✔ (generated from code)            | ⚠️ (via DefinitelyTyped)       | ⚠️ (via DefinitelyTyped)       |\n| Partial Builds           | ✔ (can exclude individual methods) | ⚠️ (can exclude whole modules) | ⚠️ (can exclude whole modules) |\nIf you're migrating fro",
+   "fabiospampinato/vscode-todo-plus": "# Todo+\n<p align=\"center\">\n</p>\nManage todo lists with ease. Powerful, easy to use and customizable. [View the demo](#demo).\n## Features\n- **Easy to use**: you're just a few shortcuts away from becoming a master\n- **Portable**: being a plain text format you can read and edit it using any editor\n- **Custom symbols**: you can replace the default symbols with any of the supported ones\n  - **Box**: `-` `❍` `❑` `■` `⬜` `□` `☐` `▪` `▫` `–` `—` `≡` `→` `›` `[]` `[ ]`\n  - **Done**: `✔` `✓` `☑` `+` `[x]` `[X]` `[+]`\n  - **Cancelled**: `✘` `x` `X` `[-]`\n- **Custom colors**: all colors can be customized\n- **Custom special tags**: special tags' names and their colors can be customized\n- **Archive**: you can move finished todos to a special \"Archive\" section with a shortcut\n- **Formatting**: you can format text in a markdown-like fashion, we support: **bold**, _italic_, ~~strikethrough~~ and `code`\n- **Go To Symbol**: you can easily move between projects by using the `Go to Symbol in File...` command\n- **[TaskPaper](https://www.taskpaper.com) compatible**: just set `todo.symbols.box`, `todo.symbols.done` and `todo.symbols.cancelled` to `-`\n- **Timekeeping**: you can mark todos as started and track elapsed time until completion\n- **Timer**: a timer can be displayed in the statusbar for started todos\n- **Time estimates**: you can estimate the time it will take to complete a todo by adding a tag to it that looks like this: `@est(3 hours)`, `@est(2h30m)` or `@2h30m`. Then you can use the `[est]`, `[est-total]`, `[est-finished]` and `[est-finished-percentage]` tokens in statistics\n- **Statistics**: statistics about your entire file and/or project-level statistics about your individual projects\n- **Embedded todos**: it's common to have `//TODO` or `//FIXME` comments in our code, this extension can find those as well\n- **Activity bar views**: you can view your todo file and your embedded todos from a custom activity bar section\n## Install\nFollow the instructions in the [Marketplace](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus), or run the following in the command palette:\n```shell\next install fabiospampinato.vscode-todo-plus\n```\n## Usage\nIt ",
+   "fabiospampinato/monorepo": "\n<p align=\"center\">\n</p>\n# Monorepo\nThe homepage for all my repositories.\n## Installation\n```\ngit clone --recurse-submodules git://github.com/fabiospampinato/monorepo.git\n```\n## Badges\nRepositories listed below are marked with some of the following badges.\n- Production dependencies badges:\n  - ![][P] : no production dependencies whatsoever.\n  - ![][PP] : only first-party production dependencies.\n  - ![][PPP] : with third-party production dependencies.\n- Development dependencies badges:\n  - ![][D] : no development dependencies other than [`tsex`](https://github.com/fabiospampinato/tsex), [`fava`](https://github.com/fabiospampinato/fava), [`benchloop`](https://github.com/fabiospampinato/benchloop), [`esbuild`](https://github.com/evanw/esbuild), [`typescript`](https://github.com/microsoft/TypeScript) and `@types/node`.\n  - ![][DD] : only some extra first-party development dependencies.\n  - ![][DDD] : with some extra third-party development dependencies.\n- Runtime badges:\n  - ![][ISO] : isomorphic repository.\n  - ![][BROWSER] : browser-only repository.\n  - ![][NODE] : Node-only repository.\n- Other badges:\n  - ![][BUNDLE] : released in bundled form.\n  - ![][TREE] : released in tree-shakeable form.\n  - ![][CLI] : provides a command line application.\n## Repositories (Active)\n> Some repositories don't have badges yet, this list is still a work in progress <!-- TODO -->\n### JavaScript Packages\n+ [`aborter`](https://github.com/fabiospampinato/aborter) ![][P] ![][D] ![][ISO] : A minimal reimplementation of AbortController and AbortSignal.\n+ [`amuchina`](https://github.com/fabiospampinato/amuchina) ![][P] ![][DDD] ![][ISO] : A work-in-progress HTML sanitizer that strives for: performance like window.Sanitizer, readiness like DOMPurify, and ability to run in a WebWorker like neither of those.\n+ [`ansi-pad`](https://github.com/fabiospampinato/ansi-pad) ![][PP] ![][D] ![][ISO] : A couple tiny functions for padding a string that may contain ANSI escape sequences.\n+ [`ansi-purge`](https://github.com/fabiospampinato/ansi-purge) ![][P] ![][DD] ![][ISO] : A tiny function for deleting ANSI escape sequences from a string.\n+ [`ansi-truncate`](https://github.com/fabiospampinato/ansi-tr"
+  }
+ },
+ "apps": []
+}

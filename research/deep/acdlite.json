@@ -1,0 +1,306 @@
+{
+ "handle": "acdlite",
+ "sites": [
+  {
+   "url": "https://andrewclark.io/",
+   "ok": true,
+   "title": "Andrew Clark",
+   "description": "Andrew Clark's personal website",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Hi! I'm Andrew Clark.\nI'm a core contributor to React. Some of the projects I've worked on include Hooks, Suspense, and Server Components.\n*   Twitter [@acdlite](https://twitter.com/acdlite)\n*   GitHub [@acdlite](https://github.com/acdlite)",
+   "github_links": [
+    "acdlite"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "acdlite",
+  "user": {
+   "name": "Andrew Clark",
+   "company": "@vercel ",
+   "blog": "andrewclark.io",
+   "location": "New York",
+   "bio": "React core team, Next.js, Vercel\r\n",
+   "public_repos": 73,
+   "followers": 15244,
+   "created_at": "2013-02-18T08:08:56Z",
+   "twitter_username": "acdlite",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "acdlite/recompose",
+    "description": "A React utility belt for function components and higher-order components.",
+    "stargazers_count": 14754,
+    "forks_count": 1211,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-10-07T05:54:51Z",
+    "pushed_at": "2022-09-10T03:59:05Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "acdlite/react-fiber-architecture",
+    "description": "A description of React's new core algorithm, React Fiber",
+    "stargazers_count": 13040,
+    "forks_count": 766,
+    "language": null,
+    "homepage": "",
+    "created_at": "2016-07-19T01:15:34Z",
+    "pushed_at": "2024-07-02T17:40:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/redux-router",
+    "description": "Redux bindings for React Router – keep your router state inside your Redux store",
+    "stargazers_count": 2278,
+    "forks_count": 194,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-07-12T06:23:34Z",
+    "pushed_at": "2021-07-07T15:13:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/flummox",
+    "description": "Minimal, isomorphic Flux.",
+    "stargazers_count": 1681,
+    "forks_count": 109,
+    "language": "JavaScript",
+    "homepage": "http://acdlite.github.io/flummox",
+    "created_at": "2014-10-24T20:35:42Z",
+    "pushed_at": "2017-08-04T14:03:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/redux-rx",
+    "description": "RxJS utilities for Redux.",
+    "stargazers_count": 1006,
+    "forks_count": 34,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-07-03T04:56:42Z",
+    "pushed_at": "2016-01-24T16:42:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/react-remarkable",
+    "description": "A React component for rendering Markdown with remarkable",
+    "stargazers_count": 457,
+    "forks_count": 57,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-11-26T21:18:39Z",
+    "pushed_at": "2022-12-06T19:46:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/redux-batched-updates",
+    "description": "Batch React updates that occur as a result of Redux dispatches, to prevent cascading renders. See https://github.com/gaearon/redux/issues/125 for more details.",
+    "stargazers_count": 224,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-07-08T00:26:39Z",
+    "pushed_at": "2016-06-01T05:19:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/realm",
+    "description": null,
+    "stargazers_count": 171,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-11-19T07:56:21Z",
+    "pushed_at": "2016-01-07T06:36:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/redux-transducers",
+    "description": "Transducer utilities for Redux.",
+    "stargazers_count": 132,
+    "forks_count": 6,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-07-05T06:52:42Z",
+    "pushed_at": "2015-10-30T16:39:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/relay-sink",
+    "description": "Use Relay to fetch and store data outside of a React component",
+    "stargazers_count": 126,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-09-27T05:16:27Z",
+    "pushed_at": "2017-06-19T15:46:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/json-sass",
+    "description": "Transforms a JSON stream into scss syntax Sass.",
+    "stargazers_count": 96,
+    "forks_count": 25,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2014-10-26T04:50:22Z",
+    "pushed_at": "2017-04-12T01:11:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/suspense-ssr-demo",
+    "description": null,
+    "stargazers_count": 94,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-04-28T15:55:26Z",
+    "pushed_at": "2018-04-28T15:55:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/flummox-isomorphic-demo",
+    "description": "Demo of how to create isomorphic apps using Flummox and react-router",
+    "stargazers_count": 90,
+    "forks_count": 17,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-02-04T07:29:07Z",
+    "pushed_at": "2017-04-16T21:44:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/react-rx-component",
+    "description": "Yet another RxJS library for React :) Create container components (also known as smart components) by transforming a sequence of props",
+    "stargazers_count": 83,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-07-06T23:45:33Z",
+    "pushed_at": "2015-11-04T06:59:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/jquery.sidenotes",
+    "description": "Transform Markdown footnotes into superpowered sidenotes",
+    "stargazers_count": 77,
+    "forks_count": 12,
+    "language": "CoffeeScript",
+    "homepage": "http://acdlite.github.io/jquery.sidenotes/",
+    "created_at": "2013-11-11T22:00:09Z",
+    "pushed_at": "2019-02-18T03:56:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/realm-redux",
+    "description": null,
+    "stargazers_count": 59,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-11-22T07:37:26Z",
+    "pushed_at": "2015-11-24T19:10:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/change-emitter",
+    "description": "Listen for changes. Like an event emitter that only emits a single event type. Really tiny.",
+    "stargazers_count": 58,
+    "forks_count": 8,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2016-05-15T03:35:54Z",
+    "pushed_at": "2023-01-12T06:08:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "acdlite/the-react-way",
+    "description": "An isomorphic React slide deck, about React.",
+    "stargazers_count": 49,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "https://www.youtube.com/watch?v=HOpyRiXB5WQ",
+    "created_at": "2015-03-19T07:52:05Z",
+    "pushed_at": "2015-06-25T14:42:29Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 33,
+  "languages": [
+   [
+    "JavaScript",
+    28
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "CoffeeScript",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "react/react",
+    "stargazerCount": 251735,
+    "description": "The library for web and native user interfaces.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://react.dev"
+   },
+   {
+    "nameWithOwner": "vercel/next.js",
+    "stargazerCount": 143215,
+    "description": "The React Framework",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://nextjs.org"
+   }
+  ],
+  "contrib_last_year": 3041,
+  "orgs": [
+   "reactjs"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "react/react": "# [React](https://react.dev/) &middot; [](https://github.com/react/react/blob/main/LICENSE) [](https://www.npmjs.com/package/react) [](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml) [](https://github.com/react/react/actions/workflows/compiler_typescript.yml) [](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)\nReact is a JavaScript library for building user interfaces.\n* **Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.\n* **Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM.\n* **Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using [Node](https://nodejs.org/en) and power mobile apps using [React Native](https://reactnative.dev/).\n[Learn how to use React in your project](https://react.dev/learn).\n## Installation\nReact has been designed for gradual adoption from the start, and **you can use as little or as much React as you need**:\n* Use [Quick Start](https://react.dev/learn) to get a taste of React.\n* [Add React to an Existing Project](https://react.dev/learn/add-react-to-an-existing-project) to use as little or as much React as you need.\n* [Create a New React App](https://react.dev/learn/start-a-new-react-project) if you're looking for a powerful JavaScript toolchain.\n## Documentation\nYou can find the React documentation [on the website](https://react.dev/).\nCheck out the [Getting Started](https://react.dev/learn) page for a quick overview.\nThe documentation is divided into several sections:\n* [Quick Start](https://react.dev/learn)\n* [Tutorial](https://react.dev/learn/tutorial",
+   "vercel/next.js": "<div align=\"center\">\n  <a href=\"https://nextjs.org\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png\">\n    </picture>\n  </a>\n  <h1>Next.js</h1>\n<a href=\"https://vercel.com\"></a>\n<a href=\"https://www.npmjs.com/package/next\"></a>\n<a href=\"https://github.com/vercel/next.js/blob/canary/license.md\"></a>\n<a href=\"https://github.com/vercel/next.js/discussions\"></a>\n</div>\n## Getting Started\nUsed by some of the world's largest companies, Next.js enables you to create full-stack web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.\n- Visit our [Learn Next.js](https://nextjs.org/learn) course to get started with Next.js.\n- Visit the [Next.js Showcase](https://nextjs.org/showcase) to see more sites built with Next.js.\n## Documentation\nVisit [https://nextjs.org/docs](https://nextjs.org/docs) to view the full documentation.\n## Community\nThe Next.js community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions) where you can ask questions, voice ideas, and share your projects with other people.\nTo chat with other community members, you can join the Next.js [Discord](https://nextjs.org/discord) server.\nDo note that our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_CONDUCT.md) applies to all Next.js community channels. Users are **highly encouraged** to read and adhere to it to avoid repercussions.\n## Contributing\nContributions to Next.js are welcome and highly appreciated. However, before you jump right into it, we would like you to review our [Contribution Guidelines](/contributing.md) to make sure you have a smooth experience contributing to Next.js.\n### Good First Issues:\nWe have a list of **[good first issues](https://github.com/vercel/next.js/labels/good%20first%20issue)** that contain bugs that have a relatively limited scope. This is a great place for newcomers and beginners alike to get started, gain experience, and get familiar with our contribution process.\n---\n## Security\nIf you believe you have found a security vulnerabili",
+   "acdlite/recompose": "## A Note from the Author (acdlite, Oct 25 2018):\nHi! I created Recompose about three years ago. About a year after that, I joined the React team. Today, we announced a proposal for [*Hooks*](https://reactjs.org/hooks). Hooks solves all the problems I attempted to address with Recompose three years ago, and more on top of that. I will be discontinuing active maintenance of this package (excluding perhaps bugfixes or patches for compatibility with future React releases), and recommending that people use Hooks instead. **Your existing code with Recompose will still work**, just don't expect any new features. Thank you so, so much to [@wuct](https://github.com/wuct) and [@istarkov](https://github.com/istarkov) for their heroic work maintaining Recompose over the last few years.\nRead more discussion about this decision [here](https://github.com/acdlite/recompose/issues/756#issuecomment-438674573).\n***\nRecompose\n-----\n[](https://travis-ci.org/acdlite/recompose)\n[](https://codecov.io/github/acdlite/recompose)\n[](https://codeclimate.com/github/acdlite/recompose)\n[](https://www.npmjs.com/package/recompose)\n[](https://www.npmjs.com/package/recompose)\nRecompose is a React utility belt for function components and higher-order components. Think of it like lodash for React.\n[**Full API documentation**](docs/API.md) - Learn about each helper\n[**Recompose Base Fiddle**](https://jsfiddle.net/evenchange4/p3vsmrvo/1599/) - Easy way to dive in\n```\nnpm install recompose --save\n```\n**📺 Watch Andrew's [talk on Recompose at React Europe](https://www.youtube.com/watch?v=zD_judE-bXk).**\n*(Note: Performance optimizations he speaks about have been removed, more info [here](https://github.com/acdlite/recompose/releases/tag/v0.26.0))*\n### Related modules\n[**recompose-relay**](src/packages/recompose-relay) — Recompose helpers for Relay\n## You can use Recompose to...\n### ...lift state into functional wrappers\nHelpers like `withState()` and `withReducer()` provide a nicer way to express state updates:\n```js\nconst enhance = withState('counter', 'setCounter', 0)\nconst Counter = enhance(({ counter, setCounter }) =>\n  <div>\n    Count: {counter}\n    <button onClick={() => setCounter(n => n + 1)}>In",
+   "acdlite/react-fiber-architecture": "# React Fiber Architecture\n## Introduction\nReact Fiber is an ongoing reimplementation of React's core algorithm. It is the culmination of over two years of research by the React team.\nThe goal of React Fiber is to increase its suitability for areas like animation, layout, and gestures. Its headline feature is **incremental rendering**: the ability to split rendering work into chunks and spread it out over multiple frames.\nOther key features include the ability to pause, abort, or reuse work as new updates come in; the ability to assign priority to different types of updates; and new concurrency primitives.\n### About this document\nFiber introduces several novel concepts that are difficult to grok solely by looking at code. This document began as a collection of notes I took as I followed along with Fiber's implementation in the React project. As it grew, I realized it may be a helpful resource for others, too.\nI'll attempt to use the plainest language possible, and to avoid jargon by explicitly defining key terms. I'll also link heavily to external resources when possible.\nPlease note that I am not on the React team, and do not speak from any authority. **This is not an official document**. I have asked members of the React team to review it for accuracy.\nThis is also a work in progress. **Fiber is an ongoing project that will likely undergo significant refactors before it's completed.** Also ongoing are my attempts at documenting its design here. Improvements and suggestions are highly welcome.\nMy goal is that after reading this document, you will understand Fiber well enough to [follow along as it's implemented](https://github.com/facebook/react/commits/master/src/renderers/shared/fiber), and eventually even be able to contribute back to React.\n### Prerequisites\nI strongly suggest that you are familiar with the following resources before continuing:\n- [React Components, Elements, and Instances](https://facebook.github.io/react/blog/2015/12/18/react-components-elements-and-instances.html) - \"Component\" is often an overloaded term. A firm grasp of these terms is crucial.\n- [Reconciliation](https://facebook.github.io/react/docs/reconciliation.html) - A high-level ",
+   "acdlite/redux-router": "redux-router\n============\n[](https://travis-ci.org/acdlite/redux-router)\n[](https://www.npmjs.com/package/redux-router)\n[](https://discord.gg/0ZcbPKXt5bVkq8Eo)\n## This project is experimental.\n### For bindings for React Router 1.x see [here](https://github.com/acdlite/redux-router/tree/263f623f6e8a8ec165568216888e572a48c5cd54)\n### In most cases, you don’t need any library to bridge Redux and React Router. Just use React Router directly.\n## Please check out [the differences between react-router-redux and redux-router](#differences-with-react-router-redux) before using this library\n[Redux](redux.js.org) bindings for [React Router](https://github.com/reactjs/react-router).\n- Keep your router state inside your Redux Store.\n- Interact with the Router with the same API you use to interact with the rest of your app state.\n- Completely interoperable with existing React Router API. `<Link />`, `router.transitionTo()`, etc. still work.\n- Serialize and deserialize router state.\n- Works with time travel feature of Redux Devtools!\n```sh\n# installs version 2.x.x\nnpm install --save redux-router\n```\nInstall the version 1.0.0 via the `previous` tag\n```sh\nnpm install --save redux-router@previous\n```\n## Why\nReact Router is a fantastic routing library, but one downside is that it abstracts away a very crucial piece of application state — the current route! This abstraction is super useful for route matching and rendering, but the API for interacting with the router to 1) trigger transitions and 2) react to state changes within the component lifecycle leaves something to be desired.\nIt turns out we already solved these problems with Flux (and Redux): We use action creators to trigger state changes, and we use higher-order components to subscribe to state changes.\nThis library allows you to keep your router state **inside your Redux store**. So getting the current pathname, query, and params is as easy as selecting any other part of your application state.\n## Example\n```js\nimport React from 'react';\nimport { combineReducers, applyMiddleware, compose, createStore } from 'redux';\nimport { reduxReactRouter, routerStateReducer, ReduxRouter } from 'redux-router';\nimport { createHistory } "
+  }
+ },
+ "apps": []
+}

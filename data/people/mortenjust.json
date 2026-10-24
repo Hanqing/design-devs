@@ -1,0 +1,159 @@
+{
+ "name": "Morten Just",
+ "role": "Rotato、Convert3D 创始人 · 前 Google 资深 UX 设计师 · 苏黎世",
+ "title": "Morten Just：做出来，<em>发出去</em>，让人能试",
+ "dek": "他在 Google 做了大约十年 UX 设计师，参与过 Google 地图、Android 和公司内部孵化器的项目；离开后创办了 Otato 公司，在苏黎世做 Rotato：一款把截图放进 3D 设备模型、几分钟就能做出产品动画的 Mac 应用，官网称有 20 万以上的用户。他的另一个产品 Convert3D 是在浏览器里本地转换 3D 模型格式的免费工具，自 2023 年起累计用户超过 220 万。他是那种想到就做、做完就发的人：GitHub 上有 161 个公开仓库，X 简介写着「I post stuff you can try」。",
+ "card": "Rotato、Convert3D 创始人（苏黎世）；前 Google 资深 UX 设计师；Android Tool for Mac 等开源小工具作者。",
+ "location": "瑞士苏黎世",
+ "updated": "2026-10-23",
+ "tags": ["设计工具", "3D", "macOS", "独立产品", "AI 原型"],
+ "links": [
+  {"label": "by.mortenjust.com", "url": "https://by.mortenjust.com"},
+  {"label": "Rotato", "url": "https://rotato.app"},
+  {"label": "Convert3D", "url": "https://convert3d.org"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「I post stuff you can try and talk about products.」",
+  "<strong>代表作：</strong>Rotato（Mac 3D 样机动画）、Convert3D（浏览器内 3D 格式转换）、Compresso 视频压缩、Flotato、Dictato；开源 Android Tool for Mac（★5,413）、Cleartext（★3,248）、Drop to GIF（★2,699）、Native Diffusion。",
+  "<strong>关键数字：</strong>Rotato 用户 20 万+，Convert3D 用户 220 万+（官网数据）；GitHub 近一年贡献 4,452 次。",
+  "<strong>经历：</strong>Google 资深 / Staff UX 设计师约十年 → Otato 创始人兼 CEO。"
+ ],
+ "lead": "2015 年，Morten 读了 Randall Munroe 用最常见的一千个英文单词写成的书《Thing Explainer》，然后用几天时间做了一个 Mac 文本编辑器 Cleartext：只允许你使用这一千个最常用的词，其他词会被标红。这个小应用在 GitHub 上拿到三千多颗星。这是他做事的典型方式：一个念头，一个能下载的东西，一条推文。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、开发者、创始人"],
+     ["所在地", "瑞士苏黎世"],
+     ["经历", "Google 资深 / Staff UX 设计师约十年（地图、Android、内部孵化器）→ Otato 创始人兼 CEO"],
+     ["产品", "Rotato（Mac / Web / Edit / Video）、Convert3D、Compresso、Flotato、Dictato、Creato"],
+     ["技术栈", "Swift、SwiftUI、Metal / MPSGraph、TypeScript、Next.js"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Morten 的主线是<strong>让设计师更快做出好看的产品展示</strong>。Rotato 把截图或录屏放进 iPhone、MacBook 等 3D 模型，拖动时间线就能生成产品动画，后来又延伸出网页版、视频编辑器 Rotato Edit 和无时间线的 Rotato Video。"},
+    {"p": "另一条线是<strong>浏览器内的免费工具</strong>：Convert3D 在本地完成 STEP、FBX、OBJ、USDZ 等格式的转换，文件不上传服务器，已经支持 WebMCP 让 AI Agent 直接调用；Rotato Tools 提供压缩、裁剪、变速等视频小工具。最近他还在做给 Agent 用的一次性邮箱 Agent’s Inbox。"},
+    {"note": "本页依据 by.mortenjust.com、rotato.app 作者页、convert3d.org、GitHub 和 X 帖子整理，资料截至 2026 年 10 月。用户数为官网数据。他在 Google 的具体项目和年份以 Rotato 官网介绍为准。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "Google 时期", "title": "UX 设计师", "text": "约十年，参与 Google 地图、Android 和内部孵化器项目。"},
+     {"when": "2015", "title": "开源小工具爆发", "text": "Android Tool for Mac、Cleartext、Drop to GIF 都在这一年发布。"},
+     {"when": "2017", "title": "机器学习实验", "text": "trainer-mac：训练模型后自动生成完整的 Xcode 项目。"},
+     {"when": "Google 之后", "title": "Rotato", "text": "在苏黎世创办 Otato，推出 Rotato。"},
+     {"when": "2022", "title": "Native Diffusion", "text": "用 MPSGraph 在 iOS / macOS 本地运行 Stable Diffusion。"},
+     {"when": "2023–2026", "title": "Convert3D 与工具矩阵", "text": "Convert3D 上线并累计 220 万用户；推出 Compresso、Dictato、Agent’s Inbox 等。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Rotato", "url": "https://rotato.app",
+     "meta": ["Mac + Web", "3D 样机动画", "20 万+ 用户"],
+     "paras": [
+      "「Insanely polished 3D mockups.」设计师用它为应用和网站制作宣传视频与图片，不需要会 3D 软件。"
+     ]
+    }},
+    {"work": {
+     "name": "Convert3D", "url": "https://convert3d.org",
+     "meta": ["2023–", "浏览器内转换", "220 万+ 用户"],
+     "paras": [
+      "「Convert between any 3D file format instantly. No upload. 100% private.」支持 SketchUp、DWG、MAX 等工程格式；更新日志由合作者 Jens Fursund 撰写。2026 年起支持 WebMCP，他说目前使用率还不到 0.05%，但在增长。"
+     ]
+    }},
+    {"work": {
+     "name": "Android Tool for Mac", "url": "https://github.com/mortenjust/androidtool-mac",
+     "meta": ["2015", "Swift", "★5.4 千"],
+     "paras": [
+      "一键截图、录屏、安装应用，最初为 Android 设计师和开发者做，后来也支持 iOS。这是他在 Google 做 Android 设计时自己需要的工具。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Cleartext", "只允许最常见一千个英文单词的编辑器（★3,248）"],
+      ["Drop to GIF", "零点击把视频转成 GIF（★2,699）"],
+      ["Native Diffusion", "本地运行 Stable Diffusion 的 Swift 包"],
+      ["Flotato", "「没有浏览器的浏览器」，把网页变成 Mac 应用"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://by.mortenjust.com", "paras": [
+     "「Sites and tools by Morten Just」：一个产品目录，每个产品一句话，后面附上用户数。没有自我介绍，只有作品和社交账号。",
+     "他另外在 Substack 上写产品文章。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel 托管"],
+      ["结构", "单页产品目录"],
+      ["写作", "Substack"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"p": "他在 X 上分享大量用 AI 做原型的实验：让 Grok 机器人接管 iPhone 锁屏、发实时活动；让 Agent 为一道菜和一家超市生成一整个购物应用；用 ChatGPT 生成可点击的移动端原型。他也做过一个实验：用脚本把 Raycast 和纯原生的 Tinycast 各打开一百次，结果发现基于 Web 和 Node 的新版 Raycast 反而更快。"},
+    {"quote": "I post stuff you can try and talk about products.", "cite": "Morten Just，X 简介"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["速度", "从想法到可下载产品极快", "—"],
+      ["产品", "Rotato、Convert3D 用户量大", "产品线多，部分实验性项目更新少"],
+      ["开源", "多个高星小工具", "2015 年前后的仓库多已停更"],
+      ["隐私", "工具多在本地处理文件", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>做能试的东西：</strong>链接比描述更有说服力。",
+     "<strong>把自己的痛点变成产品：</strong>Android Tool 来自设计工作。",
+     "<strong>免费工具是好入口：</strong>Convert3D 带来数百万用户。",
+     "<strong>本地处理是卖点：</strong>不上传就是隐私保障。",
+     "<strong>用数据回答争论：</strong>原生还是 Web，测一测再说。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Rotato", "url": "https://rotato.app", "why": "给你的应用做一段 3D 宣传动画。"},
+     {"name": "Convert3D", "url": "https://convert3d.org", "why": "在浏览器里转换一个 3D 模型。"},
+     {"name": "by.mortenjust.com", "url": "https://by.mortenjust.com", "why": "看一个创始人的工具矩阵。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "今天把一个你脑子里的小工具做成能下载的版本，哪怕只做一个功能。",
+ "sources": [
+  {"label": "Morten Just 的 X 个人资料", "url": "https://x.com/mortenjust"},
+  {"label": "by.mortenjust.com", "url": "https://by.mortenjust.com"},
+  {"label": "Rotato：作者介绍", "url": "https://rotato.app/author/morten-just"},
+  {"label": "Convert3D", "url": "https://convert3d.org"},
+  {"label": "GitHub：mortenjust", "url": "https://github.com/mortenjust"}
+ ]
+}

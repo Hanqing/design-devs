@@ -1,0 +1,134 @@
+{
+ "handle": "benjitaylor",
+ "sites": [
+  {
+   "url": "https://benji.org",
+   "ok": true,
+   "title": "Benji Taylor",
+   "description": "Born in London, UK. Based in Los Angeles, CA.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Netlify",
+    "Next.js"
+   ],
+   "lang": "en",
+   "home_text": "Benji Taylor Updated Aug 22, 2026 \nI was born in London and now live in Los Angeles. \nI currently work at SpaceX as Head of Design for X and SpaceXSI . \nPreviously, I led design at Base , a division of Coinbase. Before that, I founded Los Feliz Engineering , a consumer software company that created Honk , a real-time messaging app, and Family , a self-custody crypto wallet. LFE was acquired by Aave Labs , where I served as CPO. \nI enjoy building and maintaining open source tools for interface excellence, such as cmdk , Agentation , Liveline , and Drawesome . \nYou can find me on X and Instagram , or reach me via email . \nWriting \nDrawesome 29/07 / 2026 \nLiveline 16/02 / 2026 \nAgentation 21/01 / 2026 \nAnnotating for agents 16/01 / 2026 \nMorphing icons with Claude 13/01 / 2026 \nHonkish 23/05 / 2025 \nFamily Values 08/07 / 2024",
+   "github_links": [
+    "benjitaylor"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "benjitaylor",
+  "user": {
+   "name": "Benji Taylor",
+   "company": null,
+   "blog": "",
+   "location": "Los Angeles",
+   "bio": null,
+   "public_repos": 3,
+   "followers": 651,
+   "created_at": "2017-07-22T21:50:40Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "benjitaylor/agentation",
+    "description": "The visual feedback tool for agents.",
+    "stargazers_count": 5036,
+    "forks_count": 407,
+    "language": "TypeScript",
+    "homepage": "https://agentation.com",
+    "created_at": "2026-01-18T02:01:24Z",
+    "pushed_at": "2026-09-22T02:43:16Z",
+    "topics": [
+     "ai",
+     "design",
+     "tools",
+     "ui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "benjitaylor/liveline",
+    "description": "Real-time animated line chart for React.",
+    "stargazers_count": 972,
+    "forks_count": 75,
+    "language": "TypeScript",
+    "homepage": "https://benji.org/liveline",
+    "created_at": "2026-02-16T22:02:48Z",
+    "pushed_at": "2026-06-07T05:42:52Z",
+    "topics": [
+     "animated",
+     "chart",
+     "crypto"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "benjitaylor/drawesome",
+    "description": "Drawing toolbar for React. ",
+    "stargazers_count": 330,
+    "forks_count": 34,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-07-28T07:36:41Z",
+    "pushed_at": "2026-09-19T19:55:15Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 3,
+  "languages": [
+   [
+    "TypeScript",
+    3
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "benjitaylor/agentation",
+    "stargazerCount": 5036,
+    "description": "The visual feedback tool for agents.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://agentation.com"
+   },
+   {
+    "nameWithOwner": "family/connectkit",
+    "stargazerCount": 1076,
+    "description": "Connecting a wallet, made simple.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://family.co/docs/connectkit"
+   },
+   {
+    "nameWithOwner": "benjitaylor/liveline",
+    "stargazerCount": 972,
+    "description": "Real-time animated line chart for React.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://benji.org/liveline"
+   }
+  ],
+  "contrib_last_year": 3544,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "benjitaylor/agentation": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"package/logo-dark.svg\">\n</picture>\n<br>\n[](https://www.npmjs.com/package/agentation)\n[](https://www.npmjs.com/package/agentation)\n**[Agentation](https://agentation.com)** is an agent-agnostic visual feedback tool. Click elements on your page, add notes, and copy structured output that helps AI coding agents find the exact code you're referring to.\n## Install\n```bash\nnpm install agentation -D\n```\n## Usage\n```tsx\nimport { Agentation } from 'agentation';\nfunction App() {\n  return (\n    <>\n      <YourApp />\n      <Agentation />\n    </>\n  );\n}\n```\nThe toolbar appears in the bottom-right corner. Click to activate, then click any element to annotate it.\n## Connect to your agent\nCopied feedback works with Claude Code, Codex, Gemini, Grok, or any AI tool.\nFor direct sync, register `npx -y agentation-mcp server` with your MCP client and\nconnect the toolbar to its HTTP endpoint:\n```tsx\n<Agentation endpoint=\"http://localhost:4747\" />\n```\nKeep the agent running, add a test annotation, and ask it to read the feedback.\nSee the [setup guide](https://agentation.com/install#agent-integration).\n## Features\n- **Click to annotate** – Click any element with automatic selector identification\n- **Text selection** – Select text to annotate specific content\n- **Multi-select** – Hold Cmd/Ctrl to select elements individually, or drag to select multiple at once\n- **Area selection** – Drag to annotate any region, even empty space\n- **Animation pause** – Pause supported CSS animations, Web Animations, and videos to capture specific states\n- **Structured output** – Copy markdown with selectors, positions, and context\n- **Embedded pages** – Select elements in open shadow roots and same-origin iframes\n- **Integration options** – Capture identifying attributes, choose metadata-only Copy formats, and open detected source locations through your editor integration\n- **Hash routes** – Opt in to separate annotations and sessions for each hash route\n- **Dark/light mode** – Toggle in settings, persists to localStorage\n- **Zero dependencies** – No runtime libraries beyond the React peer dependencies\nSee the [package README](package/README.m",
+   "family/connectkit": "<a href=\"https://docs.family.co/connectkit\">\n</a>\n# ConnectKit\nConnectKit is a powerful [React](https://reactjs.org/) component library for connecting a wallet to your dApp. It supports the most popular connectors and chains out of the box and provides a beautiful, seamless experience.\n## Features\n- 💡 TypeScript Ready — Get types straight out of the box.\n- 🌱 Ecosystem Standards — Uses top libraries such as [wagmi](https://github.com/wagmi-dev/wagmi).\n- 🖥️ Simple UX — Give users a simple, attractive experience.\n- 🎨 Beautiful Themes — Predesigned themes or full customization.\nand much more...\n## Quick Start\nGet started with a ConnectKit + [wagmi](https://wagmi.sh/) + [viem](https://viem.sh) project by following the documentation [here](https://docs.family.co/connectkit/getting-started).\n## Documentation\nYou can find the full ConnectKit documentation in the docs [here](https://docs.family.co/connectkit).\n## API Reference\nYou can find the full API Reference in the docs [here](https://docs.family.co/connectkit/api-reference).\n## Examples\nThere are various runnable examples included in this repository in the [examples folder](https://github.com/family/connectkit/tree/main/examples):\n- [Next.js Example (TypeScript)](https://github.com/family/connectkit/tree/main/examples/nextjs)\n- [Vite Example (TypeScript)](https://github.com/family/connectkit/tree/main/examples/vite)\n### Try in CodeSandbox\nYou can try out some ConnectKit examples directly in your browser through CodeSandbox:\n- [Next.js (TypeScript)](https://codesandbox.io/s/qnvyqe?file=/README.md)\n- [Vite Example (TypeScript)](https://codesandbox.io/s/4jtssh?file=/README.md)\n### Running Examples Locally\nClone the ConnectKit project and install the necessary dependencies:\n```sh\n$ git clone git@github.com:family/connectkit.git\n$ cd connectkit\n$ yarn install\n```\nand start the code bundler:\n```sh\n$ yarn dev:connectkit\n$ yarn dev:connectkit-next-siwe\n```\nand then simply select the example you'd like to run:\n```sh\n$ yarn dev:vite # Vite\n$ yarn dev:nextjs # Next.js\n$ yarn dev:nextjs-siwe # Next.js with SIWE\n```\n## Contribute\nBefore starting on anything, please have a read through our [Contribution Guidelines](https://github",
+   "benjitaylor/liveline": "# Liveline\r\nReal-time animated charts for React. Line, multi-series, and candlestick modes, canvas-rendered, 60fps, zero CSS imports.\r\n## Install\r\n```bash\r\npnpm add liveline\r\n```\r\nPeer dependency: `react >=18`.\r\n## Quick Start\r\n```tsx\r\nimport { Liveline } from 'liveline'\r\nimport type { LivelinePoint } from 'liveline'\r\nfunction Chart() {\r\n  const [data, setData] = useState<LivelinePoint[]>([])\r\n  const [value, setValue] = useState(0)\r\n  // Feed data from WebSocket, polling, etc.\r\n  // Each point: { time: unixSeconds, value: number }\r\n  return (\r\n    <div style={{ height: 300 }}>\r\n      <Liveline data={data} value={value} color=\"#3b82f6\" theme=\"dark\" />\r\n    </div>\r\n  )\r\n}\r\n```\r\nThe component fills its parent container. Set a height on the parent. Pass `data` as a growing array of points and `value` as the latest number — Liveline handles smooth interpolation between updates.\r\n## Props\r\n**Data**\r\n| Prop | Type | Default | Description |\r\n|------|------|---------|-------------|\r\n| `data` | `LivelinePoint[]` | required | Array of `{ time, value }` points |\r\n| `value` | `number` | required | Latest value (smoothly interpolated) |\r\n**Appearance**\r\n| Prop | Type | Default | Description |\r\n|------|------|---------|-------------|\r\n| `theme` | `'light' \\| 'dark'` | `'dark'` | Color scheme |\r\n| `color` | `string` | `'#3b82f6'` | Accent color — all palette colors derived from this |\r\n| `grid` | `boolean` | `true` | Y-axis grid lines + labels |\r\n| `badge` | `boolean` | `true` | Value pill tracking chart tip |\r\n| `badgeVariant` | `'default' \\| 'minimal'` | `'default'` | Badge style: accent-colored or white with grey text |\r\n| `badgeTail` | `boolean` | `true` | Pointed tail on badge pill |\r\n| `fill` | `boolean` | `true` | Gradient under the curve |\r\n| `pulse` | `boolean` | `true` | Pulsing ring on live dot |\r\n| `lineWidth` | `number` | `2` | Stroke width of the main line in pixels |\r\n**Features**\r\n| Prop | Type | Default | Description |\r\n|------|------|---------|-------------|\r\n| `momentum` | `boolean \\| Momentum` | `true` | Dot glow + arrows. `true` = auto-detect, or `'up' \\| 'down' \\| 'flat'` |\r\n| `scrub` | `boolean` | `true` | Crosshair scrubbing on hover |\r\n| `exaggerate` |",
+   "benjitaylor/drawesome": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"logo-dark.svg\">\n</picture>\n<br>\n[](https://www.npmjs.com/package/drawesome)\n[](https://www.npmjs.com/package/drawesome)\n**Drawesome** is a drawing toolbar for React. Seven pens that behave like pens, an eraser that takes away area rather than whole strokes, and SVG or PNG out. No dependencies beyond React.\n## Install\n```bash\nnpm install drawesome\n```\nPeer dependency: `react >=18`.\n## Quick Start\n```tsx\nimport { Draw } from 'drawesome'\nimport 'drawesome/styles.css'\nfunction Canvas() {\n  return (\n    <div style={{ height: 480 }}>\n      <Draw />\n    </div>\n  )\n}\n```\nIt fills its parent container. Set a height on the wrapper.\n## The tools\nEach behaves like the thing it's named after. The pencil, pen and brush thin out the faster you move; the fineliner and highlighter hold one width whatever you do. The fountain pen goes by direction instead: thick one way, hairline the other. No two strokes come out quite the same.\nThe eraser takes away area rather than whole strokes, so you can rub out part of a line and keep the rest.\n## Props\n**Surface**\n| Prop | Type | Default | Description |\n|------|------|---------|-------------|\n| `board` | `{ w, h }` | element size | Fixed drawing area. Omit and it matches the element |\n| `background` | `string` | `\"#ffffff\"` | Any CSS colour, `\"transparent\"` to paint nothing, or `\"checker\"` |\n| `initialStrokes` | `Stroke[]` | `[]` | Strokes to open with |\n| `onChange` | `(strokes) => void` | | Fires on every finished stroke and every erase |\n| `className` | `string` | | Passed to the root element, along with `style` |\n| `style` | `CSSProperties` | | |\n**Tools**\n| Prop | Type | Default | Description |\n|------|------|---------|-------------|\n| `tools` | `PenId[]` | all seven | Which pens appear, and in what order |\n| `eraser` | `boolean` | `true` | Whether the eraser is offered |\n| `ink` | `\"auto\" \\| \"shared\" \\| \"per-tool\"` | `\"auto\"` | Whether a colour applies to every tool or only the one in hand |\n| `swatches` | `string[]` | 18 built-in | Your own palette, clamped to what the bar holds |\n| `look` | `\"classic\" \\| \"studio\"` | `\"classic\"` | Tools shaded flat, or lit as objects "
+  }
+ },
+ "apps": []
+}

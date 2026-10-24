@@ -1,0 +1,155 @@
+{
+ "name": "Tim Neutkens",
+ "role": "Next.js 联合作者与负责人之一 · MDX、Micro、ncc 联合作者 · Vercel · 荷兰",
+ "title": "Tim Neutkens：让 Next.js <em>更快一点</em>",
+ "dek": "他来自荷兰，是 Next.js 的联合作者之一，在 Vercel 工作。他的个人网站只写了一句：「你可能知道我是 Next.js 的作者之一，一个基于 React 的流行开源 Web 开发框架。」据维基百科，Next.js 2016 年 10 月 25 日在 GitHub 开源，如今被沃尔玛、Apple、Nike、Netflix、TikTok 等大量网站使用。除了 Next.js（★14.3 万），他还是「组件时代的 Markdown」MDX（★2 万）、异步 HTTP 微服务框架 Micro（★1.1 万）和把 Node.js 项目编译成单个文件的 ncc（★9.8 千）的联合作者。早年他写 PHP 和 WordPress 工具。2026 年，他带着团队发布了 Next.js 16.3，把开发环境下 React Server Components 的渲染时间最多减少 73%，并在一次清理中关闭了 1,500 个重复、已修复或无法复现的 issue。",
+ "card": "Next.js 联合作者之一，MDX、Micro、ncc 联合作者；Vercel，荷兰。",
+ "location": "荷兰",
+ "updated": "2026-10-23",
+ "tags": ["Next.js", "React", "性能", "MDX", "开源维护"],
+ "links": [
+  {"label": "timn.tech", "url": "https://timn.tech"},
+  {"label": "Next.js", "url": "https://nextjs.org"},
+  {"label": "GitHub：timneutkens", "url": "https://github.com/timneutkens"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「Co-author of Next.js and MDX」。",
+  "<strong>代表作：</strong>Next.js（★143,215，联合作者）、MDX（★19,829）、Micro（★10,624）、ncc（★9,842）、styled-jsx 相关工具、早年的 WordPress 数据库同步工具。",
+  "<strong>关键数字：</strong>X 关注者约 5.5 万、推文约 1 万条；GitHub 粉丝约 6.1 千、近一年贡献 2,089 次。",
+  "<strong>2026 年：</strong>Next.js 16.3、Instant Navigations、Request Insights 开发者工具；Reddit AMA。"
+ ],
+ "lead": "2026 年 7 月，他发帖解释了一个不起眼却很有效的优化：很多框架（包括 Next.js）在开发环境下会提高 JavaScript 的堆栈跟踪深度，这样深层代码或 node_modules 里出错时能看到完整的调用栈。但这在 V8（比如 Node.js）上有代价。基于团队前一年在 React.jsx 里的类似发现，他们把开发环境下 React Server Components 的渲染时间最多减少了 73%。他特别感谢了最初做这项研究的同事。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、框架作者"],
+     ["所在地", "荷兰"],
+     ["工作", "Vercel（Next.js 团队）"],
+     ["开源", "Next.js、MDX、Micro、ncc"],
+     ["技术栈", "JavaScript、TypeScript"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Tim 现在的重心是<strong>Next.js 的性能和开发体验</strong>：16.3 版本带来了「即时导航」和配套的洞察收集，开发者工具里新增了 Request Insights 标签，可以直观看到单个请求的时间花在了哪里。团队还分析了用户分享的真实仪表盘应用，从中找到了包括 React 在内的多处性能问题。"},
+    {"p": "他也在改进开源维护本身：2026 年 9 月，Next.js 团队用一套系统化的调查和复现流程，一次性清理了 1,500 个 issue，减少重复报告和已失效的问题。8 月，团队在 Reddit 上做了一次公开问答。"},
+    {"note": "本页依据 timn.tech、维基百科 Next.js 条目、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。他加入 ZEIT / Vercel 的具体时间未核实。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2016 前", "title": "PHP 与 WordPress", "text": "WordPress 数据库同步工具 wp-cli-dbsync 等。"},
+     {"when": "2016–2017", "title": "Next.js 早期", "text": "Next.js 开源；他贡献示例和工具，后成为核心作者之一。"},
+     {"when": "此后", "title": "ZEIT / Vercel", "text": "加入公司；参与 Micro、ncc、MDX。"},
+     {"when": "2020 年代", "title": "App Router 与 Turbopack", "text": "参与 Next.js 的大版本演进。"},
+     {"when": "2026", "title": "Next.js 16.3", "text": "开发环境 RSC 提速 73%、Instant Navigations、1,500 个 issue 清理。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Next.js", "url": "https://nextjs.org",
+     "meta": ["2016–", "React 框架", "★14.3 万"],
+     "paras": [
+      "「The React Framework」提供服务器渲染、静态生成、路由、缓存和部署优化；React 官方文档把它列为推荐的框架之一。"
+     ],
+     "facts": [["GitHub", "★143,215"]]
+    }},
+    {"work": {
+     "name": "MDX", "url": "https://mdxjs.com",
+     "meta": ["2018–", "JavaScript", "★2 万"],
+     "paras": [
+      "「Markdown for the component era」在 Markdown 里直接写 JSX 组件，被大量文档站和博客使用。"
+     ]
+    }},
+    {"work": {
+     "name": "ncc", "url": "https://github.com/vercel/ncc",
+     "meta": ["Vercel", "JavaScript", "★9.8 千"],
+     "paras": [
+      "「Compile a Node.js project into a single file.」支持 TypeScript、二进制扩展和动态 require，常用来打包 GitHub Actions。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Micro", "异步 HTTP 微服务（★10,624）"],
+      ["micro-graphql", "用 Micro 写 GraphQL 的示例"],
+      ["next-universal-redirect", "Next.js 早期的服务端与客户端重定向"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://timn.tech", "paras": [
+     "timn.tech 是一个只有「关于」和「联系」两部分的极简页面。他的工作几乎都通过 Next.js 博客、GitHub 和 X 发布。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["结构", "关于 + 联系"],
+      ["主要渠道", "Next.js 博客、X"],
+      ["X 简介", "「Opinions are my own.」"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "We've resolved 1500 issues, reducing duplicates, already fixed issues, and issues that no longer reproduce in the latest version.", "cite": "Tim Neutkens，X，2026-09"},
+    {"p": "他的帖子多是版本发布和性能改进说明，配上前后对比视频，并总会点名感谢做了研究或分享了应用的人。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "Next.js 是最常用的 React 框架", "框架复杂度常受批评"],
+      ["工程", "持续做性能优化", "—"],
+      ["社区", "公开问答、清理 issue", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>用真实应用找性能问题。</strong>",
+     "<strong>小优化也值得写清楚原理。</strong>",
+     "<strong>定期清理 issue，</strong>让维护可持续。",
+     "<strong>公开感谢每一位贡献者。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Next.js", "url": "https://nextjs.org", "why": "用最新版本建一个应用。"},
+     {"name": "Instant Navigations", "url": "https://nextjs.org/blog/next-16-3-instant-navigations", "why": "了解 16.3 的核心改进。"},
+     {"name": "MDX", "url": "https://mdxjs.com", "why": "在 Markdown 里用组件。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你的 Next.js 项目里打开开发者工具，找一个最慢的请求，看看时间都花在了哪里。",
+ "sources": [
+  {"label": "Tim Neutkens 的 X 个人资料", "url": "https://x.com/timneutkens"},
+  {"label": "timn.tech", "url": "https://timn.tech"},
+  {"label": "维基百科：Next.js", "url": "https://en.wikipedia.org/wiki/Next.js"},
+  {"label": "Next.js 16.3 Instant Navigations", "url": "https://nextjs.org/blog/next-16-3-instant-navigations"},
+  {"label": "GitHub：timneutkens", "url": "https://github.com/timneutkens"}
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "name": "Nanda Syahrasyad（nanda）",
+ "role": "Cloudflare 设计工程负责人 · 交互式博客 Not a Number 作者 · svg.guide 课程 · 温哥华",
+ "title": "Nanda Syahrasyad：把计算机科学<em>画出来</em>",
+ "dek": "TA 住在加拿大温哥华，是 Cloudflare 的设计工程负责人。TA 的博客 Not a Number（nan.fyi）以交互式长文出名：从零写一个键值数据库、重建 Babel 的分词器、自己发明一个数组、拆解 Framer Motion 的「魔法布局动画」背后的 FLIP 技术，每篇都有可以拖动、单步执行的动画。TA 还开了一门交互式课程 Interactive SVG Animations，用五章讲清 SVG 语法和动画方式。在 Cloudflare，TA 在重新设计控制台：瞬时导航、Workers 预览、路由表，还有一个刷屏的设想：「如果 Cloudflare 控制台是一块画布？」",
+ "card": "Cloudflare 设计工程负责人（温哥华）；交互式博客 nan.fyi（★1.5 千）、svg.guide 课程作者。",
+ "location": "加拿大温哥华",
+ "updated": "2026-10-23",
+ "tags": ["Design Engineering", "交互式写作", "SVG", "可视化", "Cloudflare"],
+ "links": [
+  {"label": "nan.fyi", "url": "https://nan.fyi"},
+  {"label": "svg.guide", "url": "https://svg.guide"},
+  {"label": "GitHub：nandanmen", "url": "https://github.com/nandanmen"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「design engineering lead @cloudflare | teaching svg.guide | writing nan.fyi」。",
+  "<strong>代表作：</strong>Not a Number 交互式博客（★1,508）、Interactive SVG Animations 课程、算法可视化 Visualizer、JS 调试器 Playground、Babel 编辑器与编译器实验、wakaranai。",
+  "<strong>关键数字：</strong>GitHub 108 个公开仓库；X 关注者约 2.9 万。",
+  "<strong>代表文章：</strong>《Build Your Own Database》《A Deep Dive Into SVG Path Commands》《The Power of Keys in Framer Motion》《Inside Framer’s Magic Motion》《Rebuilding Babel: The Tokenizer》。"
+ ],
+ "lead": "Nanda 在 X 上自嘲：「谁来阻止我不停地重做配图，好好把博文写完。」TA 的文章之所以慢，是因为每张图都是可以玩的动画。比如 2026 年 9 月的一个细节：图里新增的连线要从形状的「上一个位置」开始动画，这样它们永远不会断开。前后对比一放，差别一眼就能看出来。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计工程负责人、写作者、讲师"],
+     ["所在地", "加拿大温哥华"],
+     ["现任", "Cloudflare 设计工程负责人"],
+     ["作品", "nan.fyi、svg.guide、Visualizer、Playground"],
+     ["技术栈", "TypeScript、React、Next.js、Framer Motion、SVG、Rust"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Nanda 的专长是<strong>用交互把抽象概念讲明白</strong>。博客里的算法、数据库、编译器文章都配有可编辑输入和可单步执行的动画；SVG 课程从「SVG 是个黑盒」这个普遍感受出发，讲到用 HTML、CSS、JavaScript 难以实现的 SVG 特效。"},
+    {"p": "在 Cloudflare，TA 把同样的思路用在控制台上：在慢速 4G 下也能瞬时切换页面；Workers 的预览要为绑定的资源提供与生产隔离的副本，这让设计「看似简单、实则复杂」；构建失败不用再四处寻找。TA 还在探索更激进的形式，比如画布式控制台、像 Notion 一样的批量操作、把「创建 Worker」做成菜单。"},
+    {"note": "本页依据 nan.fyi、svg.guide、GitHub 和 X 帖子整理，资料截至 2026 年 10 月。性别未见本人明确表述，本页用 TA；加入 Cloudflare 前的经历未公开。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2019–2020", "title": "算法练习", "text": "整理算法题解，做算法可视化工具 Visualizer 和调试器 Playground。"},
+     {"when": "2021", "title": "Not a Number", "text": "开始写交互式博客：滑动窗口、调试器、数组原理。"},
+     {"when": "2022–2023", "title": "编译器与动画", "text": "重建 Babel 分词器；Framer Motion 系列；SVG 路径深度解析。"},
+     {"when": "近年", "title": "svg.guide", "text": "推出交互式 SVG 动画课程；2025 年 10 月写《Build Your Own Database》。"},
+     {"when": "2026", "title": "Cloudflare 控制台", "text": "以设计工程负责人身份推进控制台改版。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Not a Number", "url": "https://nan.fyi",
+     "meta": ["2021–", "交互式博客", "★1.5 千"],
+     "paras": [
+      "「Interactive blog posts on computer science and web development.」每篇都从一个问题出发：「你会怎样重新发明数据库？」「数组背后到底发生了什么？」然后一步步自己造一个。源码开源。"
+     ]
+    }},
+    {"work": {
+     "name": "Interactive SVG Animations", "url": "https://svg.guide",
+     "meta": ["课程", "五章"],
+     "paras": [
+      "「SVGs are hard.」很多人把 SVG 当成从 Figma 导出、贴进编辑器、祈祷它显示正常的一串代码。课程讲清 SVG 语法、各种动画方式，以及只有 SVG 能做到的效果。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Visualizer", "常见算法模式的可视化，可编辑输入、单步执行"],
+      ["Playground", "给算法写的可视化调试器"],
+      ["compiler / ast-editor", "JavaScript 编译器与 AST 编辑实验"],
+      ["svg-filter-playground", "SVG 滤镜试验场"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://nan.fyi", "paras": [
+     "首页是一列文章卡片，最上面是课程入口。文章发布频率不高，从 2021 年到 2025 年一共十来篇，但每篇都是一个小型交互作品。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + Framer Motion"],
+      ["形式", "交互式长文"],
+      ["节奏", "每年一到三篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2025-10-22", "title": "Build Your Own Database", "url": "https://nan.fyi"},
+     {"date": "2023-07-04", "title": "A Deep Dive Into SVG Path Commands", "url": "https://nan.fyi"},
+     {"date": "2023-02-22", "title": "The Power of Keys in Framer Motion", "url": "https://nan.fyi"},
+     {"date": "2022-11-15", "title": "Inside Framer’s Magic Motion", "url": "https://nan.fyi"},
+     {"date": "2022-02-20", "title": "Rebuilding Babel: The Tokenizer", "url": "https://nan.fyi"}
+    ]},
+    {"quote": "what if the cloudflare dashboard was a canvas", "cite": "nanda，X，2026-10"},
+    {"p": "这条只有一句话的帖子收获了一千四百多个赞。TA 的方式总是这样：先抛出一个「如果……会怎样」，再用一段原型视频回答。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "交互式讲解极清楚", "—"],
+      ["设计", "能驾驭复杂的基础设施产品", "—"],
+      ["产出", "质量高", "博客更新慢"],
+      ["公开信息", "—", "履历公开较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>用重造来理解：</strong>想懂数据库，就写一个。",
+     "<strong>让图能动：</strong>一个可交互的示意图胜过三段文字。",
+     "<strong>动画要保持连续：</strong>新元素从上一个位置出发。",
+     "<strong>复杂产品也能好用：</strong>控制台值得重新想象。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Build Your Own Database", "url": "https://nan.fyi", "why": "从零写一个键值数据库。"},
+     {"name": "svg.guide", "url": "https://svg.guide", "why": "终于搞懂 SVG。"},
+     {"name": "Inside Framer’s Magic Motion", "url": "https://nan.fyi", "why": "理解 FLIP 动画技术。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "选一个你最近学会的概念，试着画一张可以拖动的示意图来解释它。",
+ "sources": [
+  {"label": "nanda 的 X 个人资料", "url": "https://x.com/nandafyi"},
+  {"label": "Not a Number（nan.fyi）", "url": "https://nan.fyi"},
+  {"label": "Interactive SVG Animations", "url": "https://svg.guide"},
+  {"label": "GitHub：nandanmen", "url": "https://github.com/nandanmen"}
+ ]
+}

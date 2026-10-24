@@ -1,0 +1,375 @@
+{
+ "handle": "ccgus",
+ "sites": [
+  {
+   "url": "http://shapeof.com",
+   "ok": true,
+   "title": "The Shape of Everything",
+   "description": "",
+   "stack": [
+    "React",
+    "Substack",
+    "Disqus"
+   ],
+   "hosting": [],
+   "lang": "",
+   "home_text": "The Shape of Everything \n A website mostly about Mac stuff, written by August \"Gus\" Mueller \n » Acorn \n » Retrobatch \n » Mastodon \n » Bluesky \n » Micro.blog \n » Instagram \n » Github \n » Maybe Pizza? \n » Archives \n » Feed \n » Micro feed \n Twitter \n -->\n VMPal \n VMPal is described as “Virtual Machines built for Apple silicon and AI agents”. \nStraight from Apple, installed in minutes, with Metal on your Mac’s GPU. VMPal Tools add the clipboard and drag & drop. On macOS 27, setup takes no clicks. \nI’ve used it briefly to setup a new MacOS install, and it worked great. I haven’t tried it yet, but I have dreams of using VMPal to automatically setup a new install for me, run some tests, and tearing everything down. \nThe angle the VMPal developers are taking, where agents can drive the install and usage, is smart. One of the problems that many folks are running into when using agents to drive their Mac* are warnings appearing which agent’s can’t “see”. If MacOS is installed in a VM, and all pixels are drawn to a buffer that an outside agent can see and act on, then that problem just goes away. \n* Personally, I have not done this. I see the appeal though. \n October 19, 2026 at 8:25:15 \n Designed in California Podcast \nOctober 16, 2026 \nA podcast named Designed in California : \nExpertly-told stories about the 50-year history of Apple and the world it created, from Jason Snell and Myke Hurley. We cover the entire range of the last half-century, from Apple’s earliest days in a garage, to the rise of the Mac, to the return of Steve Jobs and the creation of some of Apple’s most iconic products. \nI jumped on the Kickstarter when it was originally announced, and the other day I started listening to the first few episodes. And I didn’t stop. Well, I did stop because I ran out of episodes, but that’s a me problem I guess. I should have paced myself. \nIt’s really good. I have a lot of memories of the events which were covered, so it was really fun to hear them told again and to even hear some new information. \nWhen Apple bought NeXT, myself and my roommates were constantly looking for rumors on how that was all going. My roommate Tim was a huge NeXT fan, and even bought a NeXTcube at some point. I distinctly also remember seeing a PDF of Apple engineers celebrating the first successful boot of OpenStep on PowerPC; I wish I knew the source or the date for that. The internet moved a lot slower back then. I’m super happy Snell and Hurley are making this podcast, it’s really a gift to the community. \n Acorn 8.7 \nOctober 12, 2026 \n Acorn 8.7 is out, and it’s got some fun new features, many of which have been requested for years. \nTwo new brush types: Repair and “Synth Fill”, which let you brush away unwanted objects in your photos. The Repair tool uses Metal kernels to quickly look around the area that needs to be touched up, and fills in using similar pixels to what it finds. Repair is kind of like a super clone tool. The Synth Fill tool uses ML to do a deeper dive into the image to figure out what it can synthetically create to fill in. This is also known as inpainting, or generative fill, and uses a downloaded model to work. (I like the approach of having the ML models downloaded as needed, since it can keep Acorn’s file size small, make updates quicker, and if you aren’t a fan of these things, the models never have to sit on your computer.) \nYou can now resize multiple selected bitmap layers at once, even with a selection. And speaking of selections, there’s a new “Expand Selection” option in the Selection palette which lets you non-destructively expand the current selection by a set number of pixels. (Finally.) \nNew filters: Temperature and Tint, Edge Stroke, and a High Pass filter. \nSVG improvements include new options when opening an SVG file, as well as writing out bitmap layers when exporting (finally). \nPhotoshop image import also has improvements: Support for reading 16-bit-per-channel PSD files, grayscale PSDs, and the Color Overlay layer effect. If you have a PSD that doesn’t open up in Acorn correctly, please let us know ! \nAlso new, which I apparently completely forgot to include in the release notes, is an updated non-Liquid Glass layout. While the edge-to-edge layout looks nice and contemporary, I feel like it doesn’t work best for an image editor. It can be overly distracting and gives the feeling of covering up your images. So I’ve brought back the standard canvas layout, where the tools aren’t floating over the canvas, a",
+   "github_links": [
+    "0x0mer",
+    "ccgus",
+    "refactoringhq"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://shapeof.com/rss.xml",
+    "count_seen": 20,
+    "items": [
+     {
+      "title": "Marco Arment on Apple Watch Fitness",
+      "date": "Fri, 27 Feb 2026 22:09:18",
+      "url": "https://shapeof.com/archives/2026/2/marco_on_apple_watch_fitness.html"
+     },
+     {
+      "title": "CasNum is Amazing",
+      "date": "Sun, 08 Mar 2026 20:14:33",
+      "url": "https://shapeof.com/archives/2026/3/casnum.html"
+     },
+     {
+      "title": "Liquid Pro",
+      "date": "Mon, 16 Mar 2026 16:09:38",
+      "url": "https://shapeof.com/archives/2026/3/liquid_pro.html"
+     },
+     {
+      "title": "25 Years of Mac OS X",
+      "date": "Tue, 24 Mar 2026 19:10:12",
+      "url": "https://shapeof.com/archives/2026/3/25_years_of_mac_os_x.html"
+     },
+     {
+      "title": "Acorn 8.5 Is Out",
+      "date": "Wed, 22 Apr 2026 17:27:56",
+      "url": "https://shapeof.com/archives/2026/4/acorn_8.5_is_out.html"
+     },
+     {
+      "title": "Tolaria, Rust, and Questions About What Makes a Mac App Feel Good to Me",
+      "date": "Fri, 24 Apr 2026 18:44:20",
+      "url": "https://shapeof.com/archives/2026/4/tolaria_ai_and_rust.html"
+     },
+     {
+      "title": "Craig Mod Got a Macbook Neo",
+      "date": "Fri, 24 Apr 2026 23:06:04",
+      "url": "https://shapeof.com/archives/2026/4/craig_mod_got_a_macbook_neo.html"
+     },
+     {
+      "title": "Make Something People Want",
+      "date": "Mon, 27 Apr 2026 17:14:42",
+      "url": "https://shapeof.com/archives/2026/4/geese_backlash_make_something_people_want.html"
+     },
+     {
+      "title": "Zed Is 1.0",
+      "date": "Wed, 29 Apr 2026 17:06:55",
+      "url": "https://shapeof.com/archives/2026/4/zed_is_1.0.html"
+     },
+     {
+      "title": "Some Crop Keyboard Shortcuts in Acorn",
+      "date": "Wed, 29 Apr 2026 21:15:13",
+      "url": "https://shapeof.com/archives/2026/4/some_crop_shortcuts_in_acorn.html"
+     },
+     {
+      "title": "Artem Loenko on Native Text Rendering",
+      "date": "Sun, 17 May 2026 16:49:12",
+      "url": "https://shapeof.com/archives/2026/5/artem_loenko_on_native_text_rendering.html"
+     },
+     {
+      "title": "Free the Icons",
+      "date": "Fri, 26 Jun 2026 18:32:39",
+      "url": "https://shapeof.com/archives/2026/6/free_the_icons.html"
+     },
+     {
+      "title": "Acorn 8.6 Is Out, and Some Geeky Info on the New Brush Tool",
+      "date": "Fri, 26 Jun 2026 21:31:48",
+      "url": "https://shapeof.com/archives/2026/6/acorn_8.6_brushes.html"
+     },
+     {
+      "title": "Toilets Are Meditation Time",
+      "date": "Mon, 10 Aug 2026 17:04:12",
+      "url": "https://shapeof.com/archives/2026/8/toilets_are_meditation_time.html"
+     },
+     {
+      "title": "Jeremy Mann Relink",
+      "date": "Thu, 13 Aug 2026 22:34:44",
+      "url": "https://shapeof.com/archives/2026/8/jeremy_mann_relink.html"
+     },
+     {
+      "title": "Keep Making Weird Art",
+      "date": "Sun, 30 Aug 2026 23:30:19",
+      "url": "https://shapeof.com/archives/2026/8/keep_making_weird_art.html"
+     },
+     {
+      "title": "Happy MacOS Release Day Number 27",
+      "date": "Mon, 14 Sep 2026 15:42:07",
+      "url": "https://shapeof.com/archives/2026/9/happy_macos_release_day_number_27.html"
+     },
+     {
+      "title": "Acorn 8.7",
+      "date": "Mon, 12 Oct 2026 21:08:55",
+      "url": "https://shapeof.com/archives/2026/10/acorn_8.7.html"
+     },
+     {
+      "title": "Designed in California Podcast",
+      "date": "Fri, 16 Oct 2026 18:29:06",
+      "url": "https://shapeof.com/archives/2026/10/designed_in_california_podcast.html"
+     },
+     {
+      "title": "VMPal",
+      "date": "Mon, 19 Oct 2026 15:25:15",
+      "url": "https://shapeof.com/archives/2026/10/vmpal.html"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "ccgus",
+  "user": {
+   "name": "August \"Gus\" Mueller",
+   "company": "Flying Meat Inc.",
+   "blog": "http://shapeof.com/",
+   "location": "Mukilteo, WA",
+   "bio": null,
+   "public_repos": 27,
+   "followers": 986,
+   "created_at": "2009-03-04T19:08:55Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "ccgus/fmdb",
+    "description": "A Cocoa / Objective-C wrapper around SQLite",
+    "stargazers_count": 13820,
+    "forks_count": 2728,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2010-07-06T22:50:17Z",
+    "pushed_at": "2026-03-15T21:06:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/CocoaScript",
+    "description": "JavaScript + the Cocoa frameworks, and then ObjC brackets show up to party as well.",
+    "stargazers_count": 618,
+    "forks_count": 58,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2013-10-25T04:09:47Z",
+    "pushed_at": "2019-08-07T17:14:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/jstalk",
+    "description": null,
+    "stargazers_count": 441,
+    "forks_count": 25,
+    "language": "Objective-C",
+    "homepage": "http://jstalk.org/",
+    "created_at": "2009-03-05T02:51:44Z",
+    "pushed_at": "2017-08-23T16:41:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/letters",
+    "description": "This is a suicide mission. It will almost certainly fail.  But it can't hurt.",
+    "stargazers_count": 315,
+    "forks_count": 15,
+    "language": "Objective-C",
+    "homepage": "http://lettersapp.com/",
+    "created_at": "2010-01-22T20:07:08Z",
+    "pushed_at": "2010-09-07T00:14:03Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "ccgus/fmpsd",
+    "description": "Flying Meat's classes for reading and writing PSD images.",
+    "stargazers_count": 293,
+    "forks_count": 27,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2013-06-19T20:24:44Z",
+    "pushed_at": "2026-10-05T15:55:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/flycode",
+    "description": "Bit's of code from the programmers at Flying Meat",
+    "stargazers_count": 109,
+    "forks_count": 22,
+    "language": "Objective-C",
+    "homepage": "http://flyingmeat.com/",
+    "created_at": "2010-07-06T21:32:19Z",
+    "pushed_at": "2011-06-21T00:58:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/FMMicroPaintPlus",
+    "description": "A hacked up version of Apple's CIMicroPaint sample code, adding scrollbars and a HUD",
+    "stargazers_count": 69,
+    "forks_count": 5,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2013-08-15T04:00:12Z",
+    "pushed_at": "2017-12-16T22:35:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/AcornSDK",
+    "description": "Sample plugins for Flying Meat's Acorn image editor.",
+    "stargazers_count": 62,
+    "forks_count": 3,
+    "language": "Objective-C",
+    "homepage": "http://flyingmeat.com/acorn/",
+    "created_at": "2010-08-23T18:03:43Z",
+    "pushed_at": "2026-05-07T22:10:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/VPExtras",
+    "description": "Extra templates, examples, and plugins for VoodooPad",
+    "stargazers_count": 51,
+    "forks_count": 4,
+    "language": "Objective-C",
+    "homepage": "http://flyingmeat.com/voodoopad/",
+    "created_at": "2012-04-02T19:54:11Z",
+    "pushed_at": "2018-03-03T04:57:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/lift",
+    "description": "A publicly documented image container format based on SQLite",
+    "stargazers_count": 48,
+    "forks_count": 4,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2013-06-20T18:14:34Z",
+    "pushed_at": "2019-11-19T21:39:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/fmjs",
+    "description": "A JavaScript to C/Cocoa bridge",
+    "stargazers_count": 39,
+    "forks_count": 1,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2018-09-15T17:33:09Z",
+    "pushed_at": "2026-09-19T21:07:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/syncdav",
+    "description": "WebDAV syncing classes for Cocoa",
+    "stargazers_count": 17,
+    "forks_count": 4,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2011-06-04T19:54:12Z",
+    "pushed_at": "2011-08-03T04:51:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/Mocha",
+    "description": "Objective-C / JavaScript Bridge",
+    "stargazers_count": 8,
+    "forks_count": 24,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2012-08-04T16:31:08Z",
+    "pushed_at": "2013-02-05T19:15:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/Retrobatch-Samples",
+    "description": "Samples of Retrobatch workflows and scripts",
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-05-24T20:50:14Z",
+    "pushed_at": "2026-03-05T19:58:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/doughcalc",
+    "description": "This is the pizza dough calculator located at https://maybepizza.com/calc/",
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-12-05T17:46:08Z",
+    "pushed_at": "2026-03-22T03:02:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/yellowduck",
+    "description": "A playground for some Cocoa JS things I want to try",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2018-08-20T23:24:06Z",
+    "pushed_at": "2018-09-15T17:33:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ccgus/flycons",
+    "description": "Royalty free icons made in Acorn",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2013-04-13T20:26:40Z",
+    "pushed_at": "2013-04-24T23:26:19Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 17,
+  "languages": [
+   [
+    "Objective-C",
+    14
+   ],
+   [
+    "JavaScript",
+    2
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 48,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "ccgus/fmdb": "# FMDB v2.7\n<!--[](http://cocoadocs.org/docsets/Alamofire)-->\n[](https://img.shields.io/cocoapods/v/FMDB.svg)\n[](https://github.com/Carthage/Carthage)\nThis is an Objective-C wrapper around [SQLite](https://sqlite.org/).\n## The FMDB Mailing List:\nhttps://groups.google.com/group/fmdb\n## Read the SQLite FAQ:\nhttps://www.sqlite.org/faq.html\nSince FMDB is built on top of SQLite, you're going to want to read this page top to bottom at least once.  And while you're there, make sure to bookmark the SQLite Documentation page: https://www.sqlite.org/docs.html\n## Contributing\nDo you have an awesome idea that deserves to be in FMDB?  You might consider pinging ccgus first to make sure he hasn't already ruled it out for some reason.  Otherwise pull requests are great, and make sure you stick to the local coding conventions.  However, please be patient and if you haven't heard anything from ccgus for a week or more, you might want to send a note asking what's up.\n## Installing\n### CocoaPods\nFMDB can be installed using [CocoaPods](https://cocoapods.org/).\nIf you haven't done so already, you might want to initialize the project, to have it produce a `Podfile` template for you:\n```\n$ pod init\n```\nThen, edit the `Podfile`, adding `FMDB`:\n```ruby\n# Uncomment the next line to define a global platform for your project\n# platform :ios, '12.0'\ntarget 'MyApp' do\n    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks\n    use_frameworks!\n    # Pods for MyApp2\n    pod 'FMDB'\n    # pod 'FMDB/FTS'   # FMDB with FTS\n    # pod 'FMDB/standalone'   # FMDB with latest SQLite amalgamation source\n    # pod 'FMDB/standalone/FTS'   # FMDB with latest SQLite amalgamation source and FTS\n    # pod 'FMDB/SQLCipher'   # FMDB with SQLCipher\nend\n```\nThen install the pods:\n```\n$ pod install\n```\nThen open the `.xcworkspace` rather than the `.xcodeproj`.\nFor more information on Cocoapods visit https://cocoapods.org.\n**If using FMDB with [SQLCipher](https://www.zetetic.net/sqlcipher/) you must use the FMDB/SQLCipher subspec. The FMDB/SQLCipher subspec declares SQLCipher as a dependency, allowing FMDB to be compiled with the `-DSQLITE_HAS_CODEC` flag.**\n### Carthage\nOnce ",
+   "ccgus/CocoaScript": "Cocoa Script\n============\nJavaScript + the Cocoa frameworks, and then ObjC brackets show up to party as well.\n",
+   "ccgus/jstalk": "*This project has been superceeded by [CocoaScript](https://github.com/ccgus/CocoaScript), and you should head there instead.*\nWhat is JSTalk?\n===============\nJSTalk is how I imagine AppleScript would be done today, if it was written by a Cocoa programmer who was smitten by Cocoa and Objective-C.\nJSTalk's goal is not to kill off or replace AppleScript, but to provide a compelling alternative by blending together existing technologies.\nJSTalk comes with a command line tool (jstalk), an editor (JSTalk Editor), and a framework that programmers can include in their application to add scripting support with a single line of code.\nAnd finally, JSTalk is open source. So if there is something wrong, or it's not running the way you expect it, you get the chance to peek under the covers and understand what's going on.\nHere's the git repository: <http://github.com/ccgus/jstalk/tree/master>\nYou can also download JSTalk binaries: <http://www.flyingmeat.com/download/latest/JSTalkPreview.zip>\nA sane object model for programmers, using Distributed Objects.\n---------------------------------------------------------------\nAdding AppleScript support to your Cocoa application is a PITA, to put it bluntly. Sure, it's easy to do simple tasks, but once you move away from sample code territory, you are on your own and in many cases, in a world of hurt.\nWhy not do something more modern? Why not add scripting support the Cocoa way? Here's how to make your app scriptable via JSTalk:\n1. Come up with an object model for your application, using standard Cocoa classes. In many cases this is already done, by virtue of writing a maintainable application.\n2. Expose a \"root\" object to JSTalk, via Distributed Objects. In most cases, this will just be NSApplication. If you choose to use the JSTalk framework, it's just one line of code: [JSTalk listen];\n3. Document what methods, properties, and objects you support. There's no magic xml files to fill out!\nExposing your model this way lets your app be scripted from Cocoa, Python, Ruby, and JavaScript- any language that can reach over to Cocoa. And no magic. Did I mention that part yet?\nHow does JSTalk (the language) work?\n------------------------------",
+   "ccgus/letters": "Letters\n=======\n**Letters-Dev:** http://lists.ranchero.com/listinfo.cgi/letters-dev-ranchero.com<br/>\n**irc:** freenode.net ##lettersapp\nWhat you'll find here isn't actually Letters.  It's a prototype named \"CrashyEmailApp\" which, as you might have guessed, is going to crash when you build and run it.\n**What this build is for**\nIt's for a bit of experimentation, and to act as a starting point.  It currently allows you to send plain text email, check your imap inbox, and crashes.\n**TODO**\n  - Pretty much everything\n  - Message caching\n  - Keychain support\n  - Support for multiple accounts\n  - Responding to messages\n  - A sane cache store\n  - Management of the server connections\n  - Activity Monitor (you wanted to cancel something?)\n  - Plugin API\n  - A UI that doesn't make designers faint\n  - Address Book integration for Mail.app-like recipient entry\n  - Etc.\n**Contributing**\nCheck out the file \"README-CONTRIB.markdown\" for how to use github to get the code, make changes, and submit them for inclusion.\n**System Requirements**\na) One Macintosh Personal Microcomputer with at least one 64 bit Intel processor, running Mac OS X 10.7 or later.\n<br/><br/><br/><br/>\nLetters Vision Statement\n========================\nLetters is a lean and programmable IMAP email client, with plugin and automation APIs, designed for developers and power users.\n**Problems Letters will solve**\nExisting email clients are inadequate for many developers and power users.\nMail.app is self-evidently designed for home users. Gmail integrates well with Google services but not with the Mac OS X desktop. Mutt offers speed and customization but lacks basic features like graphics. Pine offers ease-of-use (compared to mutt) but less customization. Thunderbird presents a not-quite-Mac-like UI and integrates less-than-ideally with the Mac OS X desktop. Mailsmith does POP only.\n**Workflow**\nDevelopers and power users have diverse workflow needs.\nWhile Mail offers its own to-dos system, power users often use more powerful applications. Developers may have needs like processing crash logs and bug reports in different ways, sending to different systems, some web-based and some not. Power users are likely to use"
+  }
+ },
+ "apps": []
+}

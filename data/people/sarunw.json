@@ -1,0 +1,154 @@
+{
+ "name": "Sarun Wongpatcharapakorn（Sarun W.）",
+ "role": "iOS 开发者 · sarunw.com 周更博客 · Localization Buddy、Screenshot Studio、LocalizeBot 作者 · 曼谷",
+ "title": "Sarun：每周一篇，<em>把 iOS 细节讲透</em>",
+ "dek": "TA 是泰国曼谷的 iOS 开发者，GitHub 资料写着在 Oozou 工作。TA 的博客 sarunw.com 每周更新，分享工作流程、技巧、工具和一路上遇到的问题，是 Swift 和 SwiftUI 开发者搜索具体问题时常常落到的网站。业余时间 TA 做了一系列围绕「上架 App Store」的小工具：一键本地化和更新 App Store 元数据的 Localization Buddy、制作和上传应用截图的 Screenshot Studio、用 AI 生成本地化截图的 LocalizeShot、翻译应用的 LocalizeBot、生成符合 App Store 要求的预览视频的 App Preview Converter。iOS 27 和 iPhone Duo 发布后，TA 几乎每天都在 X 上分享新 API 的细节：铰链的三种状态、Duo 上的尺寸类别、系统只会移动它自己管理的工具栏等。",
+ "card": "曼谷 iOS 开发者，sarunw.com 周更博客；Localization Buddy、Screenshot Studio、LocalizeBot 作者。",
+ "location": "泰国曼谷",
+ "updated": "2026-10-23",
+ "tags": ["Swift", "SwiftUI", "iOS", "技术博客", "App Store 工具"],
+ "links": [
+  {"label": "sarunw.com", "url": "https://sarunw.com"},
+  {"label": "Sarun 的应用", "url": "https://sarunw.com/apps/"},
+  {"label": "Localization Buddy", "url": "https://localizationbuddy.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I share my working processes, tip and tricks, tools, and problems I found along the way.」",
+  "<strong>代表作：</strong>sarunw.com 博客、Localization Buddy、Screenshot Studio、LocalizeShot、LocalizeBot、App Preview Converter、StoreReviewKit；早年的 SWSegmentedControl、SWFrameButton。",
+  "<strong>关键数字：</strong>X 关注者约 3.1 万、推文约 1.4 万条；GitHub 近一年贡献 2,705 次。",
+  "<strong>工作：</strong>Oozou（GitHub 资料）。"
+ ],
+ "lead": "iOS 27.1 发布后不到两周，TA 的博客就连发了七篇：UIKit 和 SwiftUI 里怎么用 layoutMarginsGuide、Swift 6.4 里不带括号的 <code>some View?</code>、iPhone Duo 上的尺寸类别、怎么把 sheet 放在屏幕一侧、用 <code>splitArrangementLayoutRatio</code> 设置分栏比例。X 上则是每隔两小时一条的小知识：App Store Connect 把 iPhone 截图槽位改了名，不再用英寸，必需的是 6.3 英寸（1206 × 2622）。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 开发者、技术博主、独立应用作者"],
+     ["所在地", "泰国曼谷"],
+     ["工作", "Oozou（GitHub 资料）"],
+     ["应用", "Localization Buddy、Screenshot Studio、LocalizeShot、LocalizeBot、App Preview Converter"],
+     ["技术栈", "Swift、SwiftUI、UIKit、Ruby"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Sarun 的博客文章都<strong>很具体</strong>：一个 API、一个问题、一段代码、一张截图。TA 会追着新系统版本写，也会写多年不变的基础知识。TA 的应用页说：「如果我的博客帮到过你，试用我的一个应用并给个好评，我会非常感激。」"},
+    {"p": "TA 的应用围绕开发者<strong>上架应用的最后一公里</strong>：预览视频、截图、本地化和评价。TA 也关注独立开发者的生意细节，比如收入超过 100 万美元后并不会永久失去 App Store 小企业计划的资格：当年剩余销售按 30% 抽成，如果收入回落到 100 万以下，下一年又能回到 15%。"},
+    {"note": "本页依据 sarunw.com（首页、文章、应用页）、GitHub 资料和 X 帖子整理，资料截至 2026 年 10 月。应用的下载量与收入未公开；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011", "title": "起步", "text": "学 Ruby on Rails 教程。"},
+     {"when": "2014–2016", "title": "iOS 组件", "text": "SWFrameButton、SWSegmentedControl 等开源 UI 组件。"},
+     {"when": "此后", "title": "周更博客", "text": "sarunw.com 每周分享 Swift 与 iOS 知识。"},
+     {"when": "2023–2024", "title": "上架工具", "text": "LocalizeBot、Screenshot Studio、Localization Buddy。"},
+     {"when": "2026", "title": "iOS 27 与 Duo", "text": "LocalizeShot、App Preview Converter；密集写新 API。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "sarunw.com", "url": "https://sarunw.com",
+     "meta": ["周更", "Swift / SwiftUI", "博客"],
+     "paras": [
+      "「In-depth articles about iOS programming, techniques, language features, architectual patterns, and beyond.」"
+     ]
+    }},
+    {"work": {
+     "name": "Localization Buddy", "url": "https://localizationbuddy.com",
+     "meta": ["macOS", "App Store 元数据"],
+     "paras": [
+      "「Easiest way to localize and update App Store metadata.」"
+     ]
+    }},
+    {"work": {
+     "name": "Screenshot Studio", "url": "https://appstorescreenshotstudio.com",
+     "meta": ["macOS", "截图"],
+     "paras": [
+      "「Create, localize, and upload App Store screenshots in minutes.」"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["LocalizeBot", "快速翻译你的应用"],
+      ["LocalizeShot", "用 AI 从原始截图生成本地化截图"],
+      ["App Preview Converter", "生成符合 App Store 要求的预览视频"],
+      ["SWSegmentedControl", "Android 风格的分段控件（★122）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://sarunw.com", "paras": [
+     "首页一句「Hi, I'm Sarun 👋 — an iOS developer」，然后是订阅入口和最新文章。网站托管在 Netlify 上，另有应用页，按「App Store 工具箱」等分类列出 TA 的应用，每个都有独立介绍页。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Netlify"],
+      ["结构", "文章 + 应用"],
+      ["节奏", "每周，系统发布季更密"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "No matter big or small, app rejection is inevitable 😊", "cite": "Sarun W.，X，2026-10"},
+    {"p": "TA 也会评论行业事件，比如某 PaaS 平台密钥泄露后提醒大家及时轮换密钥，并认为这类事件会让独立开发者更倾向于自己搭建部署。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["内容", "具体、及时、可搜索", "—"],
+      ["产品", "工具聚焦上架流程", "单个应用规模较小"],
+      ["公开信息", "—", "个人经历公开较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一篇文章只解决一个问题。</strong>",
+     "<strong>新系统发布时，抢先写清楚。</strong>",
+     "<strong>从自己的痛点做工具。</strong>",
+     "<strong>用博客的信任带动应用。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "sarunw.com", "url": "https://sarunw.com", "why": "查一个你正卡住的 SwiftUI 问题。"},
+     {"name": "Sarun 的应用", "url": "https://sarunw.com/apps/", "why": "看上架工具箱。"},
+     {"name": "Localization Buddy", "url": "https://localizationbuddy.com", "why": "一次本地化所有元数据。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "把你最近解决的一个 iOS 小问题写成 300 字的短文：问题、原因、解决办法、一段代码。",
+ "sources": [
+  {"label": "Sarun W. 的 X 个人资料", "url": "https://x.com/sarunw"},
+  {"label": "sarunw.com", "url": "https://sarunw.com"},
+  {"label": "sarunw.com：Apps", "url": "https://sarunw.com/apps/"},
+  {"label": "GitHub：sarunw", "url": "https://github.com/sarunw"}
+ ]
+}

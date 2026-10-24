@@ -1,0 +1,357 @@
+{
+ "name": "Vadim Demedes",
+ "role": "Ink（React for CLI）作者 · AVA 测试运行器核心成员 · 独立 Mac / Web 应用作者 · 乌克兰",
+ "title": "Vadim Demedes：在<em>停电的夜里</em>做应用",
+ "dek": "TA 是乌克兰的开发者。2017 年，TA 和 Sindre Sorhus 一起维护 Node.js 测试运行器 AVA 时，厌倦了拼字符串来输出漂亮的结果，于是提议用 React 组件来写命令行界面。这就是 Ink：用 React 和 Flexbox 布局构建交互式命令行应用，GitHub 上有四万颗星，Cloudflare、Linear、Terraform、Shopify 的 CLI 都在用它。2024 年 TA 决定离开 Ink，把它交给 Sindre：自从俄罗斯 2022 年全面入侵乌克兰，「我生活里的一切都围着战争转」。TA 一直在做小而精的应用：为乌克兰每天停电而做的离线稍后读 Linkjar、Astro 内容集合的 CMS Darkmatter、截干净网页截图的浏览器 Confectionery、像 Postman 一样操作 SQL 数据库的 Rosefinch。",
+ "card": "Ink（★4 万）、Pastel、Ink UI、tailwind-rn 作者，AVA 核心成员；Darkmatter、Confectionery 等独立应用，乌克兰。",
+ "location": "乌克兰",
+ "updated": "2026-10-23",
+ "tags": [
+  "命令行",
+  "React",
+  "开源",
+  "独立开发",
+  "macOS"
+ ],
+ "links": [
+  {
+   "label": "vadimdemedes.com",
+   "url": "https://vadimdemedes.com"
+  },
+  {
+   "label": "Ink",
+   "url": "https://term.ink"
+  },
+  {
+   "label": "Confectionery",
+   "url": "https://confectioneryapp.com"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I enjoy creating apps and open source projects.」",
+  "<strong>代表作：</strong>Ink（★40,154）、AVA（★20,823，核心成员）、tailwind-rn（★4,264）、Pastel（★2,409）、Trevor、Ink UI（★2,075）、Mongorito、dom-chef、ThemeMirror；应用 Darkmatter、Confectionery、Rosefinch、Linkjar、Lotus、Pulse、Daft Punk Cafe。",
+  "<strong>关键数字：</strong>GitHub 191 个公开仓库、粉丝 2,700+。",
+  "<strong>写作：</strong>网站上有工作日志和读书笔记，比如《Bad Blood》《Talking to Strangers》。"
+ ],
+ "lead": "Ink 的诞生故事是 TA 最爱讲的：2017 年，TA 和 Sindre 在泰国一个偏远小岛上度假，晚上喝了很多酒。TA 提出用 React 组件来生成命令行输出，Sindre 很喜欢这个点子。TA 当时不会写 React 的自定义渲染器，就想「管 TA 呢」，自己重写了一个和终端兼容的 React。后来 Ink 换成了真正的 React 自定义 reconciler，兼容上千个社区库。TA 写道：「我从没想过 Ink 会火。它给了我职业生涯里最好的机会，真正让我的工作和生活变得更好。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {
+     "t": "Profile",
+     "profile": [
+      [
+       "身份",
+       "开源作者、独立应用开发者"
+      ],
+      [
+       "所在地",
+       "乌克兰"
+      ],
+      [
+       "开源",
+       "Ink、Ink UI、Pastel、AVA、tailwind-rn、dom-chef、ThemeMirror"
+      ],
+      [
+       "应用",
+       "Darkmatter、Confectionery、Rosefinch、Lotus、Pulse、Reviewbunny、Daft Punk Cafe"
+      ],
+      [
+       "技术栈",
+       "TypeScript、JavaScript、React、SwiftUI、Rails + Hotwire、Astro"
+      ]
+     ]
+    },
+    {
+     "h3": "TA 到底在做什么？"
+    },
+    {
+     "p": "Vadim 的作品分两类：<strong>改变开发者工具的开源库</strong>，以及<strong>解决自己具体问题的小应用</strong>。Ink 让命令行界面可以像网页一样用组件搭建，Pastel 在 Ink 之上做了一个「类似 Next.js 的 CLI 框架」：在 commands 文件夹里建文件就是命令，用 Zod 定义参数。"
+    },
+    {
+     "p": "TA 的应用常常有一个具体的起因。Linkjar 是因为乌克兰每天都有停电，Wi-Fi 和蜂窝网络都断了，TA 想趁这段「被迫没有干扰的时间」读完攒下的几百篇文章；Darkmatter 让人用表单编辑 Astro 内容集合，2024 年 TA 用 Rails 和 Hotwire 做网页版，「看不到一行 React」；2026 年 9 月 TA 把 Confectionery 从 130 MB 的 Electron 应用重写成 2.8 MB 的原生 SwiftUI 应用。"
+    },
+    {
+     "note": "本页依据 vadimdemedes.com（首页与《Moving on from Ink》）、各应用官网、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。Linkjar 官网注明已停止提供。性别未见本人明确表述，本页用 TA。"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2011–2015",
+       "title": "Node.js 生态",
+       "text": "google-images、MongoDB ODM Mongorito、授权库 cancan、CLI 工具包 ronin、本地 CI Trevor。"
+      },
+      {
+       "when": "2017",
+       "title": "Ink",
+       "text": "与 Sindre Sorhus 维护 AVA 时提出并做出 Ink。"
+      },
+      {
+       "when": "2019–2020",
+       "title": "工具与框架",
+       "text": "Pastel、Draqula GraphQL 客户端、tailwind-rn。"
+      },
+      {
+       "when": "2022–2023",
+       "title": "战争中的应用",
+       "text": "离线稍后读 Linkjar；Astro CMS Darkmatter（2023）；Ink UI。"
+      },
+      {
+       "when": "2024",
+       "title": "离开 Ink",
+       "text": "5 月把 Ink、Ink UI、Pastel 交给 Sindre；开始做 Darkmatter 网页版。"
+      },
+      {
+       "when": "2026",
+       "title": "Confectionery 重启",
+       "text": "用 SwiftUI 重写，体积从 130 MB 降到 2.8 MB。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {
+     "work": {
+      "name": "Ink",
+      "url": "https://term.ink",
+      "meta": [
+       "2017–",
+       "React for CLI",
+       "★4 万"
+      ],
+      "paras": [
+       "「React for interactive command-line apps.」用组件构建和测试 CLI 输出，用 Yoga 做 Flexbox 布局。2024 年 TA 写道，Cloudflare、Linear、Terraform 和 Shopify 的命令行工具都在用 Ink。现由 Sindre Sorhus 维护。"
+      ],
+      "facts": [
+       [
+        "GitHub",
+        "★40,154"
+       ]
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "Darkmatter",
+      "url": "https://getdarkmatter.dev",
+      "meta": [
+       "2023–",
+       "macOS",
+       "Astro CMS"
+      ],
+      "paras": [
+       "扫描 Astro 内容集合的 Zod schema，自动生成表单界面：把 frontmatter 当表单填，把图片从任何地方拖进 Markdown，直接提交并推送到 git。TA 在博客上逐周记录开发进度。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "Confectionery",
+      "url": "https://confectioneryapp.com",
+      "meta": [
+       "2022–",
+       "macOS",
+       "SwiftUI"
+      ],
+      "paras": [
+       "「Beautiful website screenshots. Without the browser clutter.」极简浏览器，只有红绿灯按钮和地址栏，截出的网页截图没有标签页、工具栏和扩展图标。2026 年重启时，TA 还用 AI 图像模型重新做了应用图标，并分享了提示词技巧。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "其他作品",
+       "说明"
+      ],
+      "rows": [
+       [
+        "AVA",
+        "Node.js 测试运行器（★20,823），与 Sindre 共同维护"
+       ],
+       [
+        "tailwind-rn",
+        "在 React Native 里用 Tailwind（★4,264）"
+       ],
+       [
+        "Rosefinch",
+        "「SQL 数据库的 Postman」"
+       ],
+       [
+        "Linkjar",
+        "为停电而做的离线稍后读应用（已停止提供）"
+       ],
+       [
+        "Daft Punk Cafe",
+        "给 Daft Punk 乐迷的电台和游戏"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://vadimdemedes.com",
+      "paras": [
+       "个人网站用 Astro 搭建：一段自述、一长串项目，每个一句话介绍，外加工作日志和读书笔记。TA 说自己总记不住好书里的关键洞见，所以开始把笔记整理到网站上。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "观察"
+      ],
+      "rows": [
+       [
+        "技术",
+        "Astro，Vercel，Plausible"
+       ],
+       [
+        "结构",
+        "项目、工作日志、读书笔记"
+       ],
+       [
+        "GitHub 主页",
+        "顶部是「Stand With Ukraine」横幅"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {
+     "posts": [
+      {
+       "date": "2024-05",
+       "title": "Moving on from Ink",
+       "url": "https://vadimdemedes.com/posts/moving-on-from-ink"
+      },
+      {
+       "date": "2023",
+       "title": "Book notes",
+       "url": "https://vadimdemedes.com/book-notes"
+      }
+     ]
+    },
+    {
+     "quote": "I owe Ink the greatest career opportunities I’ve had. It literally changed my professional and personal life for the better.",
+     "cite": "Vadim Demedes，《Moving on from Ink》"
+    }
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "长处",
+       "局限 / 需要留意"
+      ],
+      "rows": [
+       [
+        "开源",
+        "Ink 改变了 CLI 开发方式",
+        "已不再由 TA 本人维护"
+       ],
+       [
+        "产品",
+        "小应用定位清楚、设计讲究",
+        "部分应用已下线或停止更新"
+       ],
+       [
+        "处境",
+        "在战争中坚持创作",
+        "精力受战争影响，更新节奏不稳定"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>把 Web 的方法带到别处：</strong>组件化的命令行。",
+      "<strong>从具体处境出发：</strong>停电催生了离线阅读应用。",
+      "<strong>敢于重写：</strong>130 MB 变 2.8 MB。",
+      "<strong>放手也是负责：</strong>把项目交给能照顾好它的人。"
+     ]
+    },
+    {
+     "h3": "推荐先看这三个"
+    },
+    {
+     "try": [
+      {
+       "name": "Ink",
+       "url": "https://term.ink",
+       "why": "用 React 写一个命令行工具。"
+      },
+      {
+       "name": "Moving on from Ink",
+       "url": "https://vadimdemedes.com/posts/moving-on-from-ink",
+       "why": "一个开源作者的告别。"
+      },
+      {
+       "name": "Confectionery",
+       "url": "https://confectioneryapp.com",
+       "why": "截一张干净的网页截图。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "用 Ink 和 create-ink-app 做一个小 CLI，给它加一个会转圈的加载指示器。",
+ "sources": [
+  {
+   "label": "Vadim Demedes 的 X 个人资料",
+   "url": "https://x.com/vadimdemedes"
+  },
+  {
+   "label": "vadimdemedes.com",
+   "url": "https://vadimdemedes.com"
+  },
+  {
+   "label": "Moving on from Ink",
+   "url": "https://vadimdemedes.com/posts/moving-on-from-ink"
+  },
+  {
+   "label": "Linkjar",
+   "url": "https://linkjar.app"
+  },
+  {
+   "label": "GitHub：vadimdemedes/ink",
+   "url": "https://github.com/vadimdemedes/ink"
+  }
+ ]
+}

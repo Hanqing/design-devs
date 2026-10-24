@@ -1,0 +1,151 @@
+{
+ "name": "Dustin Curtis",
+ "role": "设计师 · 投资人 · Svbtle 创始人 · Markdown 标志设计者",
+ "title": "Dustin Curtis：一个<em>在网上做事</em>的人",
+ "dek": "他的个人网站描述是「Dustin Curtis is a person who does things on the internet」，自我介绍是「设计师、投资人、游牧者，机器与人之间界面的建造者」。2012 年，他创办了极简博客平台 Svbtle，入选 Y Combinator 夏季批次；TechCrunch 当时称他是「读者众多的设计师」，Svbtle 想「推动博客向前走」。同一年，他设计了 Markdown Mark：那个方框里写着 M 和向下箭头的标志，用来表示「这里支持 Markdown」，GitHub 上有一千多颗星，被无数网站和编辑器采用。他的博客 dcurt.is 至今仍在 Svbtle 上，写设计、科技、平台和 AI。",
+ "card": "Svbtle 创始人（YC S12）；Markdown Mark 设计者；设计师、投资人，博客 dcurt.is。",
+ "location": "未公开（自称游牧者）",
+ "updated": "2026-10-23",
+ "tags": ["设计", "写作", "博客平台", "投资", "品牌"],
+ "links": [
+  {"label": "dustincurtis.com", "url": "https://dustincurtis.com"},
+  {"label": "dcurt.is", "url": "https://dcurt.is"},
+  {"label": "Svbtle", "url": "https://svbtle.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Designer, investor, nomad. Temporarily embarrassed billionaire.」",
+  "<strong>代表作：</strong>Svbtle（2012，YC S12）、Markdown Mark（★1,195）、The Open Brand（开源品牌定义框架）、博客 dcurt.is。",
+  "<strong>关键数字：</strong>X 关注者约 4.3 万；X 2007 年注册。",
+  "<strong>写作：</strong>《Thoughts on thinking》《It is link winter on X》《Block Carefully》《Tesla and Storytelling》。"
+ ],
+ "lead": "他博客顶部置顶的一篇叫《Thoughts on thinking》，开头很坦白：「我卡住了。每次坐下来写博客、写功能、开始一个项目，我都会意识到同一件事：在 AI 的背景下，我做的事情是在浪费时间。」这种对创作意义的追问，在一个以写作和设计成名的人身上格外有分量。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、投资人、写作者"],
+     ["公司", "Svbtle（YC S12）"],
+     ["作品", "Svbtle、Markdown Mark、The Open Brand"],
+     ["网站", "dustincurtis.com、dcurt.is"],
+     ["其他", "旅行足迹页 conquer.earth"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Dustin 现在以<strong>投资和写作</strong>为主。他的博客 dcurt.is 讨论平台和技术对人的影响：X 的算法在不告知的情况下大幅降低带链接帖子的权重，让信息在平台上难以流通（「链接寒冬」）；被知名投资人拉黑后再也看不到对方帖子，于是提醒大家「谨慎拉黑」；以及特斯拉如何用叙事发布产品。"},
+    {"p": "他在 X 上也常评论 Apple 的设计：他批评新一版应用图标「为了绝对的视觉一致性，牺牲了对应用功能的逻辑表达」，也称赞 iOS 27 的新 Siri「几乎无可挑剔」。"},
+    {"note": "本页依据 dustincurtis.com、dcurt.is、GitHub 仓库与 README、Y Combinator 公司页、TechCrunch 2012 年报道和 X 帖子整理，资料截至 2026 年 10 月。他早年的工作经历未在其网站上写明，本页不作推测；X 上的时政转发未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2007", "title": "加入 Twitter", "text": "很早就开始在网上写作和设计。"},
+     {"when": "2012", "title": "Svbtle 与 Markdown Mark", "text": "创办 Svbtle，入选 YC 2012 夏季批次；发布 Markdown Mark 和 The Open Brand。"},
+     {"when": "2024", "title": "平台批评", "text": "写《Block Carefully》《It is link winter on X》等。"},
+     {"when": "近年", "title": "投资与游牧", "text": "以投资人身份活动，四处旅行。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Svbtle", "url": "https://svbtle.com",
+     "meta": ["2012–", "博客平台", "YC S12"],
+     "paras": [
+      "一个极简的写作平台，界面只保留写作和阅读必需的部分。早期以邀请制的作者网络起步，TechCrunch 报道称他邀请了 Stripe 的 John Collison 等人加入。"
+     ]
+    }},
+    {"work": {
+     "name": "Markdown Mark", "url": "https://dcurt.is/the-markdown-mark",
+     "meta": ["2012", "标志设计", "★1.2 千"],
+     "paras": [
+      "「Use this mark to identify Markdown.」用来标识支持 Markdown 的输入区域或软件，开源提供多种格式和尺寸。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["The Open Brand", "帮助开源项目、公司和个人清晰定义视觉品牌的框架（2012）"],
+      ["dcurt.is", "长期写作的博客，托管在 Svbtle"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://dustincurtis.com", "paras": [
+     "dustincurtis.com 现在只有一行身份描述和五个链接：邮件、iMessage、想法（X）、写作（dcurt.is）、旅行。极度克制，像一张名片。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "单行名片"],
+      ["博客", "dcurt.is（Svbtle）"],
+      ["托管", "AWS"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "", "title": "Thoughts on thinking", "url": "https://dcurt.is/thinking"},
+     {"date": "2024-12-05", "title": "It is link winter on X", "url": "https://dcurt.is/it-is-link-winter-on-x"},
+     {"date": "2024-10-16", "title": "Block Carefully", "url": "https://dcurt.is/block-carefully"},
+     {"date": "2024-10-14", "title": "Tesla and Storytelling", "url": "https://dcurt.is/tesla-and-storytelling"}
+    ]},
+    {"quote": "Forcing users to choose how legible they want UI controls to be is wild. Apple's designers should obsess over where this setting belongs and make it the default.", "cite": "Dustin Curtis，X，2026-06"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计", "符号与品牌设计简洁有力", "—"],
+      ["写作", "观点鲜明", "近年更新较少"],
+      ["公开信息", "—", "履历细节公开很少；X 上有大量时政内容"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一个好符号可以服务整个社区。</strong>",
+     "<strong>写作平台也可以极简。</strong>",
+     "<strong>默认值是设计师的责任：</strong>别把选择推给用户。",
+     "<strong>认真追问：在 AI 时代，什么值得做？</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Thoughts on thinking", "url": "https://dcurt.is/thinking", "why": "一个创作者在 AI 时代的困惑。"},
+     {"name": "Markdown Mark", "url": "https://dcurt.is/the-markdown-mark", "why": "看一个开源标志是怎么定义的。"},
+     {"name": "Svbtle", "url": "https://svbtle.com", "why": "极简的写作平台。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "检查你的产品里有没有让用户自己选择的「外观设置」，想一想能不能直接给出一个最好的默认值。",
+ "sources": [
+  {"label": "Dustin Curtis 的 X 个人资料", "url": "https://x.com/dcurtis"},
+  {"label": "dustincurtis.com", "url": "https://dustincurtis.com"},
+  {"label": "dcurt.is", "url": "https://dcurt.is"},
+  {"label": "Y Combinator：Svbtle", "url": "https://www.ycombinator.com/companies/svbtle"},
+  {"label": "TechCrunch：Svbtle（2012）", "url": "https://techcrunch.com/2012/03/24/forget-todays-drama-dustin-curtis-svbtle-is-trying-to-push-blogging-forward"},
+  {"label": "GitHub：dcurtis/markdown-mark", "url": "https://github.com/dcurtis/markdown-mark"}
+ ]
+}

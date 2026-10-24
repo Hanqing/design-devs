@@ -1,0 +1,282 @@
+{
+ "handle": "karrisaarinen",
+ "sites": [
+  {
+   "url": "https://linear.app",
+   "ok": true,
+   "title": "Linear – The system for product development",
+   "description": "Purpose-built for planning and building products with AI agents.",
+   "stack": [
+    "Next.js",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Skip to content → \n The product development system for teams and agents The product development \n system for teams and agents The product development system for teams and agents \n Purpose-built for planning and building products. Designed for the AI era. \n New Loops → \n New Loops → \n DRV-8852 Faster app launch \n 1 / 84 \nFaster app launch \nRender UI before vehicle_state sync when minimum required state is present, instead of blocking on full refresh during iOS startup. \nActivity \n Linear created the issue via Slack on behalf of Karri · 2min ago \n Triage Intelligence added the labels Performance and iOS · 2min ago \n karri · 4 min ago Right now we show a spinner forever, which makes it look like the car disappeared... \n jori · just now @Linear can you take a stab at this? \n Linear connected by Jori · 2 min ago \n Changed 2 files Draft PR awaiting your review · 2 min ago \n Linear moved from Todo to In Progress · just now \n Reviews \n Revert \n Properties \n In Progress \n Medium \n Karri \n Linear \n Cycle 144 \n Labels \n Performance \n iOS \n Releases \n Linear App 1.6881... ⋅ Jun 25 \nPowering the companies building the future \n A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products. \n Purpose-built \nLinear is shaped by the practices and principles of world-class product teams. \n Powered by agents \nDesigned for workflows shared by humans and agents. From drafting PRDs to pushing PRs. \n Designed for speed \nReduces noise and restores momentum to help teams ship with high velocity and focus. \n Fig 0.1 \n Purpose-built \nLinear is shaped by the practices and principles of world-class product teams. \n Fig 0.2 \n Powered by agents Designed for workflows shared by humans and agents. From drafting PRDs to pushing PRs. \nDesigned for workflows shared by humans and agents. From drafting PRDs to pushing PRs. \n Fig 0.3 \n Designed for speed \nReduces noise and restores momentum to help teams ship with high velocity and focus. \nIntake\nand integrations \nAutomatically turn conversations and customer feedback into actionable issues that are instantly routed, labeled, and prioritized for the right team. \n Learn more → \n Backlog 8 \n ENG-2085 \n Reduce UI flicker during autonomy... \n ENG-2094 \n Add buffering for autonomy event streams \n ENG-2092 \n Reduce startup delay caused by vehicle sync \n ENG-2200 \n Fix delayed route updates during rerouting \n Todo 71 \n ENG-926 \n Remove UI inconsistencies \n Bug Design \n ENG-2088 \n TypeError: Cannot read properties \n Bug \n ENG-924 \n Upgrade to Claude Opus 5.5 \n AI \n ENG-1882 \n Optimize load times \n Performance \n In Progress 3 \n ENG-1487 \n Remove contentData from GraphQL API \n 61039 \n MKT-1028 \n Launch page assets \n Design \n ENG-2187 \n Prevent duplicate ride requests on poor... \n Bug 62048 \n Done 53 \n ENG-2074 \n Clean up deprecated APIs... \n API 61002 \n ENG-1912 \n Reduce latency in autonomy st... \n 61005 \n ENG-1951 \n Reduce ETA fluctuations durin... \n 61202 \n ENG-1960 \n Improve fallback messaging \n UI 61149 \n ENG-1991 \n Improve rider visibility into veh... \n Thread #product \n didier Has anyone been looking into the iOS startup performance issues? \n lena Anyone else noticing the iOS app feels slow to open if you haven’t used it in a bit? \n didier Yea, we’re still blocking initial render on a full vehicle_state sync every time… \n andreas Feels like we could render sooner and load the rest in the background. Probably also worth tracking startup timing so we know how often this happens! \n @Linear create issues and assign to me \n Features \n Linear Agent + \n Customer Requests + \n Triage + \n Linear Asks + \nPlanning\nand monitoring \nPlan and navigate from idea to launch. Align your team with product initiatives, strategic roadmaps, and clear, up-to-date PRDs. \n Learn more → \n MAR \n APR \n MAY \n JUN \n JUL \n AUG \n SEP \n 2 \n 9 \n 16 \n 23 \n 6 \n 13 \n 20 \n 27 \n 4 \n 11 \n 18 \n 25 \n 1 \n 8 \n 15 \n 22 \n 6 \n 13 \n 20 \n 27 \n 3 \n 10 \n 17 \n 24 \n 7 \n 14 \n 21 \n 28 \n UI Refresh \n Core screens \n Polish \n Split fares \n Internal \n Public Beta \n Autonomy status clarity \n Alpha \n Autonomy telemetry reliability \n Beta \n GA \n Cycle time by agent \n Oct 2025 \n Nov 2025 \n Dec 2025 \n Jan 2026 \n Feb 2026 \n Features \n Projects + \n Documents + \n Pulse + \n Initiatives + \n Visual planning + \n Insights + \nAI and\nautomations \nBuild and deploy AI agents that work alongside you as teammates. Work on complex tasks together or delegate entire issues end-to-end. \n Learn more →",
+   "github_links": [
+    "linear"
+   ],
+   "subpages": {
+    "https://linear.app/now": "Skip to content → \n Now \n All Changelog Product launches From the team From the community Press \n Search… \nFive principles for working with Loops \n How to turn recurring tasks into shared, reliable workflows. \n Andrew Moedinger · Oct 13, 2026\n→ \nAI coding has made CI a bottleneck, so we reworked ours to keep up \n We cut PR wait time and running costs by rethinking CI as a system, from the infrastructure underneath it to how work gets scheduled and tests get parallelized. \n Mufeez Amjad · Sep 21, 2026\n→ \nThe coding agent behind 75% of Ramp’s merged PRs \n Why and how Ramp built an internal coding agent that’s now responsible three of every four PRs the company merges. \n Customer story · Aug 31, 2026\n→ \nStyling Linear for the future with StyleX \n A long-running migration that became an exercise in tooling, automation, and designing clearer boundaries for both humans and agents. \n Kenneth Skovhus · Aug 26, 2026\n→ \nSharing Linear’s growth with the people building it \n As Linear passes $100 million in ARR, we’re giving our team another opportunity to participate in the upside. \n Karri Saarinen · Aug 26, 2026\n→ \nRebuilding Linear’s delta sync read path \n How we use turbopuffer to keep catch-up latency predictable across more than 20 TB of sync actions. \n Peter Travers · Aug 18, 2026\n→ \nChangelog \n Slack and GitHub loop triggers \n Loops automate product work by responding to changes in Linear and connected tools. You can now trigger them from Slack and GitHub, share them as templates, and customize their reasoning levels. \n Oct 22, 2026 \n Stacked pull requests \n Stacked pull requests are now displayed in Linear Diffs. Move through a stack and see review, CI, and merge status at a glance. Related PRs are grouped into a single collapsible row in Reviews, alongside their issue and project context. \n Oct 8, 2026 \n New controls for Linear coding agent \n Coding sessions are the shortest path from issue to diff. Assign a task to Linear Agent, and it works in a secure cloud environment to write and test the code before opening a pull request for review. \n Sep 24, 2026 \n Loops for product management \n Loops are recurring agent workflows for teams. They now respond to more workspace activity, including changes to initiatives, projects, and cycles. They can also edit Linear documents and post updates to Slack. \n Sep 10, 2026 \n View all → \nHow teams build \n AI usage patterns in software teams: who is adopting AI, how it reshapes where teams spend their time, and how much more they ship. \n Tim Qi · Aug 17, 2026\n→ \nCoinbase’s bet on agent-first development \n In January 2026, Chintan asked his entire engineering organisation to delete their IDEs and write zero lines of code. For two weeks, every engineer at Base would have to do their job without touching a code editor. \n Customer story · Aug 11, 2026\n→ \nHow we built Linear Agent \n The product and engineering decisions we made so Linear Agent can handle complex tasks without becoming unpredictable. \n Matthijs Wolting ·",
+    "https://linear.app/about": "Skip to content → \nBuilding tools for the next\n era of product development \nAI is fundamentally changing how products get built. We are shaping what comes next. \n Elapsed 00:00 \n Remaining time unknown − --:-- 0.25 × 0.5 × 0.75 × 1 × 1.25 × 1.5 × 1.75 × 2 × \nA new species of\n product tool \nSoftware development is at an inflection point. Artificial intelligence is fundamentally reshaping how products are built. \nAI increases what teams can create, but it also raises the bar for clarity and coordination. At Linear, we are building the tools for this new era of product development. A purpose-built system where teams and agents operate together in a shared, structured environment. \nFounded in 2019, Linear has become the tool of choice for more than 40,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products. \nOur team is distributed across North America and Europe, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship. \nMeet the team\n behind Linear \nWe are designers and engineers. Problem solvers and storytellers. We are a diverse team of individuals, all makers at heart. We’re hiring → \n Karri Saarinen Co-founder, CEO \n Jori Lallo Co-founder, CPO \n Tuomas Artman Co-founder, CTO \n Cristina Cordova COO \n Tom Moor Head of Engineering \n Casey Bertenthal Head of Sales \n Jamie Finnigan Head of Security \n Conor Muirhead Head of Product Design \n Tim Qi \n Matthew Roberts \n Jason Wu \n Matthijs Wolting \n Josh Pyles \n Nathalie Alex \n Dominic Wong \n Meg Wayne \n Mingjie Jiang \n Nick Wijmenga \n Sarita Zhu \n Daniel Zhang \n Michelle Fung \n Sam Marley \n Komil Rehill \n Alan Doyle \n Alex Suevalov \n Anthony Vidalez \n Saneel Prabhu \n Sam Candanedo \n Max McKone \n Joseph Yoo \n Igor Sechyn \n Axel Niklasson Yun \n Davina Baker \n Jon Phey \n Duong Vu \n Rhea Purohit \n Mufeez Amjad \n Tony Wooster \n Christa Hein \n Ben Kinney \n Simone Jacobs \n Zoe Wellner \n Bojan Joveski \n Ben Light \n Ben Cooper \n Calum Webb \n Matthew Cunningham \n Matthew Flairty \n Yann-Edern Gillet \n Paul Macgregor \n Emiel Janson \n Dylan Hamilton \n Eitan Meisels \n Scott Pugh \n Amelia Cellar \n Paco Coursey \n Kristin Boyer \n Peter Travers \n Maciek Pekala \n Skyline Lau \n Jesse Hartheimer \n Aaron Quinn \n Lena Vu Sawyer \n Robb Böhnke \n Jacob Shumway \n Emil Kowalski \n Hilary Hobel \n Sean McGivern \n Andreas Eldh \n Allie Hughes \n Uros Smolnik \n Stephanie Yung \n Philip Siu \n Lauren Grant \n Mariah Bardo \n Romain Cascino \n Melissa Ross \n Maya Nedeljković Batić \n Sean Callahan \n Liam O’Connor \n Sarah Barnekow \n Adrien Griveau \n Brando Roche \n Katie Royer \n Bryan Stern \n Alexandra Lapinsky Wilson \n Nikita Prokopov \n Tyler Black \n Lukas Eipert \n Daniel Warner Smith \n Sabin Roman \n Luke Schneider \n Craig Lewis \n Mac Watrous \n Angela King \n Ryan Delaney \n Maxime Heckel \n Cormac Flynn \n Emma Cox \n Adam Hutchinson \n TJ Murphy \n Vanessa Chung \n Steven Molchanov \n Chris Burke \n Devyn Galligher \n Zachary Chukwumah"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github_guess": true,
+ "github": {
+  "login": "linear",
+  "user": {
+   "name": "Linear",
+   "company": null,
+   "blog": "https://linear.app",
+   "location": "United States of America",
+   "bio": "A purpose-built tool for planning and building products",
+   "public_repos": 24,
+   "followers": 1771,
+   "created_at": "2019-01-14T17:56:36Z",
+   "twitter_username": "linear",
+   "type": "Organization"
+  },
+  "repos": [
+   {
+    "full_name": "linear/linear",
+    "description": "Tools, SDK's and plugins for Linear",
+    "stargazers_count": 1640,
+    "forks_count": 299,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2019-04-11T22:54:14Z",
+    "pushed_at": "2026-10-21T16:37:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/claude-managed-agents-demo",
+    "description": "Example for connecting Linear Agents SDK with Claude Managed Agents",
+    "stargazers_count": 92,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-04-09T15:14:06Z",
+    "pushed_at": "2026-04-09T15:18:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/linear-import",
+    "description": "Linear importers",
+    "stargazers_count": 70,
+    "forks_count": 29,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2019-08-13T11:55:07Z",
+    "pushed_at": "2023-01-07T09:07:39Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "linear/linear-release",
+    "description": "CLI to automatically track releases in Linear",
+    "stargazers_count": 68,
+    "forks_count": 18,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-02-04T09:17:01Z",
+    "pushed_at": "2026-10-20T13:54:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/weather-bot",
+    "description": "A demo agent that can figure out coordinates for a city and tell you the current weather or local time there",
+    "stargazers_count": 66,
+    "forks_count": 21,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2025-07-18T20:29:47Z",
+    "pushed_at": "2025-11-07T20:56:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/linear-zapier",
+    "description": "Linear's Zapier integration",
+    "stargazers_count": 61,
+    "forks_count": 22,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2019-10-18T14:49:08Z",
+    "pushed_at": "2026-08-18T13:00:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/linear-release-action",
+    "description": null,
+    "stargazers_count": 52,
+    "forks_count": 8,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2026-02-05T09:40:00Z",
+    "pushed_at": "2026-10-16T05:02:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/linear-vscode-open-issue",
+    "description": "VS Code extension to open the current Linear issue based on its Git branch",
+    "stargazers_count": 32,
+    "forks_count": 14,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-04-01T18:55:00Z",
+    "pushed_at": "2024-03-29T09:04:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/linear-solutions",
+    "description": "Ready-made, agile solutions from the Linear team.",
+    "stargazers_count": 24,
+    "forks_count": 17,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-10-17T15:05:43Z",
+    "pushed_at": "2026-09-29T12:44:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/linear-vscode-connect-extension",
+    "description": "Connect VS Code to the Linear API",
+    "stargazers_count": 21,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-04-01T14:57:05Z",
+    "pushed_at": "2022-11-02T22:39:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/linear-agent-demo",
+    "description": "Demo Linear agent that responds to app user webhooks",
+    "stargazers_count": 15,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-05-13T17:12:44Z",
+    "pushed_at": "2025-05-23T20:06:02Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "linear/linear-airbyte-source",
+    "description": "Airbyte connector to extract data from linear and load it into supported destinations",
+    "stargazers_count": 15,
+    "forks_count": 10,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-06-15T07:12:34Z",
+    "pushed_at": "2026-04-29T06:29:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/cursor-plugin",
+    "description": "Linear's Cursor plugin",
+    "stargazers_count": 13,
+    "forks_count": 9,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-02-05T19:52:47Z",
+    "pushed_at": "2026-09-10T19:23:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/linear-node-sdk",
+    "description": "Linear API SDK for Node.js",
+    "stargazers_count": 6,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2019-01-14T17:58:15Z",
+    "pushed_at": "2019-01-26T03:49:38Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "linear/euro-tour-agents-demo",
+    "description": null,
+    "stargazers_count": 5,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-09-22T10:24:03Z",
+    "pushed_at": "2026-01-08T14:05:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/electron-forge-publisher-google-storage",
+    "description": "Google Cloud Storage publisher for Electron Forge.",
+    "stargazers_count": 4,
+    "forks_count": 8,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2019-03-18T23:06:48Z",
+    "pushed_at": "2022-12-03T02:32:36Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "linear/.github",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-10-16T00:41:29Z",
+    "pushed_at": "2026-10-16T00:54:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "linear/antigravity-plugin",
+    "description": "Linear's Antigravity plugin",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-10-15T06:35:59Z",
+    "pushed_at": "2026-10-15T07:33:52Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 19,
+  "languages": [
+   [
+    "TypeScript",
+    15
+   ],
+   [
+    "Shell",
+    1
+   ]
+  ],
+  "profile_readme": "<!-- TEXT_SECTION:header:START -->\n<p align=\"center\">\n  <a href=\"https://linear.app\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img width=\"64\" src=\"https://raw.githubusercontent.com/linear/linear/master/docs/logo.svg\" alt=\"Linear logo\">\n  </a>\n</p>\n<h1 align=\"center\">\n  Linear API\n</h1>\n<h3 align=\"center\">\n  The purpose-built tool for planning and building products\n</h3>\n<p align=\"center\">\n  Streamline issues, projects, and product roadmaps<br/>\n  with the system for modern software development.\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/linear/linear/blob/master/LICENSE\">\n    <img src=\"https://img.shields.io/badge/license-MIT-blue.svg\" alt=\"Linear is released under the MIT license.\" />\n  </a>\n  <a href=\"https://github.com/linear/linear/actions/workflows/build.yaml\">\n    <img src=\"https://github.com/linear/linear/actions/workflows/build.yaml/badge.svg\" alt=\"Build github action status.\" />\n  </a>\n  <a href=\"https://github.com/linear/linear/actions/workflows/release.yaml\">\n    <img src=\"https://github.com/linear/linear/actions/workflows/release.yaml/badge.svg\" alt=\"Release github action status.\" />\n  </a>\n  <a href=\"https://github.com/linear/linear/actions/workflows/schema.yaml\">\n    <img src=\"https://github.com/linear/linear/actions/workflows/schema.yaml/badge.svg\" alt=\"Schema github action status.\" />\n  </a>\n  <a href=\"https://github.com/linear/linear/actions/workflows/dependencies.yaml\">\n    <img src=\"https://github.com/linear/linear/actions/workflows/dependencies.yaml/badge.svg\" alt=\"Dependencies github action status.\" />\n  </a>\n</p>\n<!-- TEXT_SECTION:header:END -->\n\n<br/>\n\n## ⚠️ Monorepo Readme\n\nIf you are looking for documentation on the Linear SDK or Linear API, visit [**developers.linear.app**](https://developers.linear.app/docs) instead.\n\n<!-- TEXT_SECTION:contribute:START -->\nThe Linear Client uses custom [GraphQL Code Generator](https://graphql-code-generator.com/) plugins to produce a typed SDK for all operations and models exposed by the Linear production API.\n\n### Structure\n\nThis monorepo uses `pnpm` workspaces to manage and publish packages.\n\nGenerated code uses file prefix `_generated` and should never be manually updated.\n\nOpen source packages:\n- [sdk](https://github.com/linear/linear/tree/master/packages/sdk/README.md) - The Linear Client SDK for interacting with the Linear GraphQL API\n- [import](https://github.com/linear/linear/tree/master/packages/import/README.md) - Import tooling for uploading from other systems\n- [codegen-doc](https://github.com/linear/linear/tree/master/packages/codegen-doc/README.md) - GraphQL codegen plugin to generate GraphQL fragments and documents\n- [codegen-sdk](https://github.com/linear/linear/tree/master/packages/codegen-sdk/README.md) - GraphQL codegen plugin to generate TypeScript SDK from fragments and documents\n- [codegen-test](https://github.com/linear/linear/tree/master/packages/codegen-test/README.md) - GraphQL codegen plugin to generate a vitest test for the TypeScript SDK\n\n##",
+  "readmes": {
+   "linear/linear": "<!-- TEXT_SECTION:header:START -->\n<p align=\"center\">\n  <a href=\"https://linear.app\" target=\"_blank\" rel=\"noopener noreferrer\">\n  </a>\n</p>\n<h1 align=\"center\">\n  Linear API\n</h1>\n<h3 align=\"center\">\n  The purpose-built tool for planning and building products\n</h3>\n<p align=\"center\">\n  Streamline issues, projects, and product roadmaps<br/>\n  with the system for modern software development.\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/linear/linear/blob/master/LICENSE\">\n  </a>\n  <a href=\"https://github.com/linear/linear/actions/workflows/build.yaml\">\n  </a>\n  <a href=\"https://github.com/linear/linear/actions/workflows/release.yaml\">\n  </a>\n  <a href=\"https://github.com/linear/linear/actions/workflows/schema.yaml\">\n  </a>\n  <a href=\"https://github.com/linear/linear/actions/workflows/dependencies.yaml\">\n  </a>\n</p>\n<!-- TEXT_SECTION:header:END -->\n<br/>\n## ⚠️ Monorepo Readme\nIf you are looking for documentation on the Linear SDK or Linear API, visit [**developers.linear.app**](https://developers.linear.app/docs) instead.\n<!-- TEXT_SECTION:contribute:START -->\nThe Linear Client uses custom [GraphQL Code Generator](https://graphql-code-generator.com/) plugins to produce a typed SDK for all operations and models exposed by the Linear production API.\n### Structure\nThis monorepo uses `pnpm` workspaces to manage and publish packages.\nGenerated code uses file prefix `_generated` and should never be manually updated.\nOpen source packages:\n- [sdk](https://github.com/linear/linear/tree/master/packages/sdk/README.md) - The Linear Client SDK for interacting with the Linear GraphQL API\n- [import](https://github.com/linear/linear/tree/master/packages/import/README.md) - Import tooling for uploading from other systems\n- [codegen-doc](https://github.com/linear/linear/tree/master/packages/codegen-doc/README.md) - GraphQL codegen plugin to generate GraphQL fragments and documents\n- [codegen-sdk](https://github.com/linear/linear/tree/master/packages/codegen-sdk/README.md) - GraphQL codegen plugin to generate TypeScript SDK from fragments and documents\n- [codegen-test](https://github.com/linear/linear/tree/master/packages/codegen-test/README.md) - GraphQL codegen plugin to gen",
+   "linear/claude-managed-agents-demo": "# Claude + Linear Agent Bridge\n**_This is an example project not meant for production use._**\nA bridge server that connects [Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/overview) to [Linear's Agent Platform](https://linear.app/developers/agents). When users @mention or assign the agent in Linear, the server forwards the request to a Claude Managed Agent session and streams the response back as Linear agent activities.\n## How it works\n1. A user @mentions your agent in a Linear issue or comment\n2. Linear sends an `AgentSessionEvent` webhook to your server\n3. The server acknowledges with a \"thinking\" activity (required within 10s)\n4. A Claude Managed Agent session is created with the issue context\n5. Claude's streamed response is relayed back to Linear as agent activities\n## Prerequisites\n- [Bun](https://bun.sh) runtime\n- An [Anthropic API key](https://console.anthropic.com/settings/keys)\n- A Claude Managed Agent (agent ID and environment ID)\n- A Linear workspace with admin access\n## Setup\n### 1. Install dependencies\n```bash\nbun install\n```\n### 2. Create a Linear OAuth Application\nGo to [Linear API Settings](https://linear.app/settings/api/applications) and create a new application:\n- **Redirect URL**: `<your BASE_URL>/oauth/callback`\n- **Webhook URL**: `<your BASE_URL>/webhook`\n- **Webhook events**: Subscribe to **Agent session events**\nCopy the **Client ID**, **Client Secret**, and **Webhook Signing Secret**.\n### 3. Configure environment\n```bash\ncp .env.example .env.local\n```\nFill in your credentials in `.env.local`:\n| Variable | Description |\n|----------|-------------|\n| `ANTHROPIC_API_KEY` | Your Anthropic API key |\n| `CLAUDE_AGENT_ID` | Claude Managed Agent ID |\n| `CLAUDE_ENVIRONMENT_ID` | Claude environment ID |\n| `LINEAR_CLIENT_ID` | From Linear OAuth app settings |\n| `LINEAR_CLIENT_SECRET` | From Linear OAuth app settings |\n| `LINEAR_WEBHOOK_SIGNING_SECRET` | From Linear OAuth app settings |\n| `PORT` | Server port (default: `3000`) |\n| `BASE_URL` | Public URL of your server |\n| `LINEAR_URL` | Linear app URL (default: `https://linear.app`) |\n| `LINEAR_API_URL` | Linear API URL (default: `https://api.linear.app`) |\n### 4. Start t",
+   "linear/linear-import": "# The Linear CLI importer has moved to a [new repository](https://github.com/linear/linear/tree/master/packages/import)\nPlease file all issues and pull requests against that repository. This one will soon be archived.\n",
+   "linear/linear-release": "<p align=\"center\">\n  <a href=\"https://linear.app\" target=\"_blank\" rel=\"noopener noreferrer\">\n  </a>\n</p>\n<h1 align=\"center\">\n  @linear/release\n</h1>\n<h3 align=\"center\">\n  Automate release tracking in your CI/CD pipeline\n</h3>\n<p align=\"center\">\n  Connect your deployments to Linear releases.<br/>\n  Automatically link issues to releases.\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/linear/linear-release/actions/workflows/test.yml\"></a>\n  <a href=\"https://github.com/linear/linear-release/blob/main/LICENSE\"></a>\n</p>\n## Overview\nLinear Release is a CLI tool that integrates your CI/CD pipeline with [Linear's release management](https://linear.app/docs/releases). After integrating into your CI, it automatically:\n- Scans commits for Linear issue identifiers (e.g., `ENG-123`)\n- Detects pull request references in commit messages\n- Creates and updates releases in Linear\n- Tracks stages for scheduled releases\n- Detects changes in the right directories in monorepos with path filtering\n## Pipeline Types\nLinear Release supports two pipeline styles, created and configured in Linear:\n**Continuous**: Every deployment creates a completed release. Use `sync` after each deploy — the release is created in completed stage.\n**Scheduled**: An ongoing release collects changes over time, then moves through stages (e.g. \"code freeze\", \"qa\") before completion. Useful for release trains. Use `sync` to add issues, `update` to move between stages, and `complete` to finalize (move to released stage).\n## Installation\nDownload the pre-built binary for your platform from the [releases page](https://github.com/linear/linear-release/releases).\n```bash\n# Linux (x64)\ncurl -L https://github.com/linear/linear-release/releases/latest/download/linear-release-linux-x64 -o linear-release\n# macOS (Apple Silicon)\ncurl -L https://github.com/linear/linear-release/releases/latest/download/linear-release-darwin-arm64 -o linear-release\n# macOS (Intel)\ncurl -L https://github.com/linear/linear-release/releases/latest/download/linear-release-darwin-x64 -o linear-release\nchmod +x linear-release\n```\nReleases after `v0.16.0` include a `checksums.txt` asset containing the SHA-256 digest of every executable. The"
+  }
+ },
+ "apps": []
+}

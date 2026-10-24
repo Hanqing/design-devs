@@ -1,0 +1,347 @@
+{
+ "name": "Nathan Gitter",
+ "role": "Apple 人机界面设计师 · Vision Pro / visionOS · WWDC 讲者 · fluid-interfaces 作者",
+ "title": "Nathan Gitter：从<em>流畅界面</em>到空间设计",
+ "dek": "TA 是设计师，也是工程师。2018 年 TA 写了一篇博客，把 Apple WWDC18 演讲「Designing Fluid Interfaces」里的所有主要演示用 Swift 重新实现了一遍，配套仓库 fluid-interfaces 拿到两千五百多颗星。同一年，TA 写了《我做了五个 ARKit 原型之后学到的东西》，又在 10 月宣布加入 Apple，「去探索增强现实的未来」。之后 TA 成为 Apple 设计团队中参与创造 Vision Pro 的一员：2023 年在 WWDC 上与同事一起讲《Principles of spatial design》，2025 年又讲了《Design hover interactions for visionOS》：根据视线做出反应的动画，包括一种只用眼睛滚动的新方式。",
+ "card": "Apple 人机界面设计师（Vision Pro / visionOS）；WWDC23、WWDC25 讲者；fluid-interfaces（★2.6 千）作者。",
+ "location": "美国加州旧金山湾区",
+ "updated": "2026-10-23",
+ "tags": [
+  "空间设计",
+  "visionOS",
+  "交互动画",
+  "iOS",
+  "Apple"
+ ],
+ "links": [
+  {
+   "label": "nathangitter.com",
+   "url": "https://nathangitter.com"
+  },
+  {
+   "label": "fluid-interfaces",
+   "url": "https://github.com/nathangitter/fluid-interfaces"
+  },
+  {
+   "label": "WWDC25：Design hover interactions for visionOS",
+   "url": "https://developer.apple.com/videos/play/wwdc2025/303"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「designer + engineer · human interface design @Apple · Vision Pro / visionOS · only high-quality tweets」。",
+  "<strong>代表作：</strong>Apple Vision Pro 与 visionOS 的界面设计（团队一员）；WWDC23《Principles of spatial design》；WWDC25《Design hover interactions for visionOS》；开源 fluid-interfaces（★2,591）、interactive-animations、HomeButton、sketch-vs-ios。",
+  "<strong>文章：</strong>《Building Fluid Interfaces》《Why Your App Looks Better in Sketch》《What I learned making five ARKit prototypes》。",
+  "<strong>关键数字：</strong>X 只发过 129 条帖子，关注者约 1 万。"
+ ],
+ "lead": "2023 年 6 月，Nathan 发帖：「一直梦想在 Apple 的 WWDC 上演讲，现在梦想成真了。」那场演讲叫《Principles of spatial design》，教开发者如何为 Apple Vision Pro 做空间设计。TA 特别感谢了做渲染、插画和拍摄的团队，以及和 TA 一起演讲的同事 Amy：「在 Apple 工作的好处是，每个人都会出一份力，把一件事做得真正特别。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {
+     "t": "Profile",
+     "profile": [
+      [
+       "身份",
+       "人机界面设计师、工程师"
+      ],
+      [
+       "所在地",
+       "美国加州旧金山湾区"
+      ],
+      [
+       "现任",
+       "Apple 人机界面设计（Vision Pro / visionOS）"
+      ],
+      [
+       "经历",
+       "iOS 开发与设计（奥斯汀 iOS 聚会讲者）→ 2018 年 10 月加入 Apple"
+      ],
+      [
+       "荣誉",
+       "WWDC18 奖学金（Swift Playground）"
+      ],
+      [
+       "技术栈",
+       "Swift、UIKit、ARKit、SwiftUI"
+      ]
+     ]
+    },
+    {
+     "h3": "TA 到底在做什么？"
+    },
+    {
+     "p": "Nathan 在 Apple 设计<strong>空间计算的交互</strong>。visionOS 的核心输入是眼睛和手：你看向哪里，界面就要给出恰到好处的回应，既要让人知道系统「看到了」，又不能让每一次目光扫过都引起干扰。TA 的 WWDC25 演讲讲的就是这类动画的设计方法，还介绍了一种只靠眼睛滚动的新方式。"
+    },
+    {
+     "p": "在加入 Apple 之前，TA 是那种「看完演讲就动手实现」的设计师：WWDC18 演讲一结束，TA 就把弹簧动画、可打断手势、动量投掷等演示全部用 Swift 写了出来；TA 还写过为什么同一个设计在 Sketch 里比在 iPhone 上好看。"
+    },
+    {
+     "note": "本页依据 nathangitter.com、GitHub 仓库与 README、Apple Developer 视频页和 X 帖子整理，资料截至 2026 年 10 月。TA 在 Apple 内部的具体职责以其公开发言为准。性别未见本人明确表述，本页用 TA。"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "2017",
+       "title": "交互动画演讲",
+       "text": "9 月在奥斯汀 iOS 开发者聚会讲 UIViewPropertyAnimator。"
+      },
+      {
+       "when": "2018 上半年",
+       "title": "WWDC 奖学金",
+       "text": "用五声音阶版「生命游戏」赢得 WWDC18 学生奖学金；做 HomeButton、Sketch 与 iOS 渲染对比。"
+      },
+      {
+       "when": "2018.08",
+       "title": "fluid-interfaces",
+       "text": "完整复刻 WWDC18「Designing Fluid Interfaces」的演示。"
+      },
+      {
+       "when": "2018.09–10",
+       "title": "AR 与加入 Apple",
+       "text": "写五个 ARKit 原型的心得；10 月宣布加入 Apple 探索 AR。"
+      },
+      {
+       "when": "2023",
+       "title": "Vision Pro",
+       "text": "Apple Vision Pro 发布；WWDC23 讲《Principles of spatial design》。"
+      },
+      {
+       "when": "2025",
+       "title": "WWDC25",
+       "text": "讲解 visionOS 上根据视线反应的动画。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {
+     "work": {
+      "name": "Principles of spatial design",
+      "url": "https://developer.apple.com/videos/play/wwdc2023/10072/",
+      "meta": [
+       "WWDC23",
+       "visionOS"
+      ],
+      "paras": [
+       "介绍为 Apple Vision Pro 进行空间设计的基本原则。这是 TA 第一次在 WWDC 上演讲，视频中的大量渲染和体验来自整个设计团队。"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "fluid-interfaces",
+      "url": "https://github.com/nathangitter/fluid-interfaces",
+      "meta": [
+       "2018",
+       "Swift",
+       "★2.6 千"
+      ],
+      "paras": [
+       "「Natural gestures and animations inspired by Apple's WWDC18 talk.」动画按钮、可交互手势、弹性弹簧等，配有长文《Building Fluid Interfaces》。TA 说：「在真机上玩有趣得多。」"
+      ],
+      "facts": [
+       [
+        "GitHub",
+        "★2,591"
+       ]
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "其他作品",
+       "说明"
+      ],
+      "rows": [
+       [
+        "HomeButton",
+        "给 iPhone X 加回一个「真能用」的 Home 键（★305）"
+       ],
+       [
+        "sketch-vs-ios",
+        "研究 Sketch 与 iOS 的渲染差异"
+       ],
+       [
+        "interactive-animations",
+        "用 UIViewPropertyAnimator 做可交互弹出菜单（★309）"
+       ],
+       [
+        "AR 开门原型",
+        "用 ARKit 做的「用 AR 开门」演示（2018）"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://nathangitter.com",
+      "paras": [
+       "个人网站只有一行：「nathan gitter · designer + engineer · human interface design at apple」，加上邮箱和社交链接。TA 的长文都发在 Medium 上，近年的公开作品主要是 WWDC 视频。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "观察"
+      ],
+      "rows": [
+       [
+        "托管",
+        "GitHub Pages"
+       ],
+       [
+        "结构",
+        "一行名片"
+       ],
+       [
+        "写作",
+        "Medium（2018 年前后）"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {
+     "posts": [
+      {
+       "date": "2018-09",
+       "title": "What I learned making five ARKit prototypes",
+       "url": "https://medium.com/@nathangitter/what-i-learned-making-five-arkit-prototypes-7a30c0cd3956"
+      },
+      {
+       "date": "2018-08",
+       "title": "Building Fluid Interfaces",
+       "url": "https://medium.com/@nathangitter/building-fluid-interfaces-ios-swift-9732bb934bf5"
+      },
+      {
+       "date": "2018-01",
+       "title": "Why Your App Looks Better in Sketch",
+       "url": "https://medium.com/@nathangitter/why-your-app-looks-better-in-sketch-3a01b22c43d7"
+      }
+     ]
+    },
+    {
+     "quote": "A great part about working at Apple is how everyone pitches in to make something truly special.",
+     "cite": "Nathan Gitter，X，2023-06"
+    }
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "长处",
+       "局限 / 需要留意"
+      ],
+      "rows": [
+       [
+        "设计",
+        "参与定义空间计算交互",
+        "—"
+       ],
+       [
+        "工程",
+        "能把设计理论完整实现成代码",
+        "—"
+       ],
+       [
+        "公开度",
+        "WWDC 演讲权威",
+        "受 Apple 保密限制，个人作品更新很少"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>把演讲变成代码：</strong>亲手实现才能真正理解。",
+      "<strong>比较渲染差异：</strong>设计稿和真机不一样。",
+      "<strong>原型能带你进入新领域：</strong>五个 ARKit 原型换来一份 Apple 的工作。",
+      "<strong>少发但发好：</strong>「only high-quality tweets」。"
+     ]
+    },
+    {
+     "h3": "推荐先看这三个"
+    },
+    {
+     "try": [
+      {
+       "name": "Principles of spatial design",
+       "url": "https://developer.apple.com/videos/play/wwdc2023/10072/",
+       "why": "空间设计入门。"
+      },
+      {
+       "name": "Design hover interactions for visionOS",
+       "url": "https://developer.apple.com/videos/play/wwdc2025/303",
+       "why": "visionOS 交互细节。"
+      },
+      {
+       "name": "fluid-interfaces",
+       "url": "https://github.com/nathangitter/fluid-interfaces",
+       "why": "在真机上感受流畅手势。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "挑一个你最近看过的设计演讲，花一个晚上把其中一个演示亲手实现出来。",
+ "sources": [
+  {
+   "label": "Nathan Gitter 的 X 个人资料",
+   "url": "https://x.com/nathangitter"
+  },
+  {
+   "label": "nathangitter.com",
+   "url": "https://nathangitter.com"
+  },
+  {
+   "label": "WWDC25：Design hover interactions for visionOS",
+   "url": "https://developer.apple.com/videos/play/wwdc2025/303"
+  },
+  {
+   "label": "GitHub：nathangitter/fluid-interfaces",
+   "url": "https://github.com/nathangitter/fluid-interfaces"
+  },
+  {
+   "label": "Medium：Building Fluid Interfaces",
+   "url": "https://medium.com/@nathangitter/building-fluid-interfaces-ios-swift-9732bb934bf5"
+  }
+ ]
+}

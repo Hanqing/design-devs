@@ -1,0 +1,452 @@
+{
+ "handle": "mitsuhiko",
+ "sites": [
+  {
+   "url": "https://ronacher.eu",
+   "ok": true,
+   "title": "Armin Ronacher",
+   "description": "",
+   "stack": [
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "Armin Ronacher \nBuilding Teams, Software and Products \n I build teams and software — particularly Open Source software.\n You might know me as creator of Flask or\n other Open Source projects .\n For a decade I poured my energy into Sentry .\n Now building something new at\n Earendil .\nRead my Technology Blog \nor my Darker Thoughts \nFollow me as @mitsuhiko.at on Bluesky \nor mitsuhiko on Twitter/X \nFind me as mitsuhiko on GitHub \nYou can also sponsor me \nOr send me an email \nOr learn more about me",
+   "github_links": [
+    "mitsuhiko"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://earendil.com",
+   "ok": true,
+   "title": "Earendil",
+   "description": "Earendil is a public benefit corporation crafting software and open protocols to strengthen human agency, bridge division, and cultivate lasting joy.",
+   "stack": [],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "[](http://earendil.com/)\nMENU\n[Purpose](http://earendil.com/purpose/)[Values](http://earendil.com/values/)[Join Us](http://earendil.com/join/)[Posts](http://earendil.com/posts/)[RFC](https://rfc.earendil.com/)\n[Pi](https://pi.dev/)[Radius](https://radius.earendil.com/)[Lefos](https://lefos.com/)[Works](https://github.com/earendil-works/)\nEarendil crafts tools to harness AI with [Pi](https://pi.dev/) and [Lefos](https://lefos.com/).  \nBuilt in the [open](https://github.com/earendil-works),shaped by the humans who use them.\nEARENDIL INC.\nEN\n*   English✓EN\n*   العربية✓عر\n*   বাংলা✓বা\n*   Deutsch✓DE\n*   Español✓ES\n*   فارسی✓فا\n*   Français✓FR\n*   עברית✓עב\n*   हिन्दी✓हि\n*   Bahasa Indonesia✓ID\n*   Italiano✓IT\n*   日本語✓日本\n*   한국어✓한국\n*   Bahasa Melayu✓MS\n*   Nederlands✓NL\n*   Norsk✓NO\n*   Português✓PT\n*   Русский✓РУ\n*   Svenska✓SV\n*   Kiswahili✓SW\n*   தமிழ்✓தமி\n*   తెలుగు✓తె\n*   ไทย✓ไท\n*   Türkçe✓TR\n*   Українська✓УК\n*   Tiếng Việt✓VI\n*   中文✓中文\nAUTO",
+   "github_links": [
+    "earendil-works"
+   ],
+   "subpages": {
+    "http://earendil.com/posts/": "Posts \n Fri, 16 Oct 2026 \n Pi Durable on Cloudflare \n Fri, 09 Oct 2026 \n There are many themes, but this one is yours \n Thu, 01 Oct 2026 \n Pi Durable \n Thu, 01 Oct 2026 \n Pi 1.0 \n Tue, 29 Sep 2026 \n “You Said No MCP!” \n Thu, 10 Sep 2026 \n Measuring the Sloppiness of Code \n Tue, 01 Sep 2026 \n There are many agent harnesses, but this one is mine. \n Thu, 20 Aug 2026 \n What is a Harness? \n Thu, 13 Aug 2026 \n How Compaction Works in Pi \n Tue, 04 Aug 2026 \n Pi, Minimal and Performant \n Thu, 30 Jul 2026 \n The Session You Cannot Take With You \n Wed, 22 Jul 2026 \n Prompt Caching In Agents \n Wed, 08 Apr 2026 \n A Reflection on our Announcement Today \n Wed, 08 Apr 2026 \n Announcing Pi & Lefos \n Thu, 12 Feb 2026 \n The High Ground \n Sun, 18 Jan 2026 \n An Invitation to Begin a Correspondence \n HEAR FROM US"
+   },
+   "feed": {
+    "url": "http://earendil.com/posts/feed.atom",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "Pi Durable on Cloudflare",
+      "date": "2026-10-16T12:45:00+00:00",
+      "url": "https://earendil.com/posts/pi-durable-on-cloudflare/"
+     },
+     {
+      "title": "There are many themes, but this one is yours",
+      "date": "2026-10-09T11:40:16+00:00",
+      "url": "https://earendil.com/posts/system-theme/"
+     },
+     {
+      "title": "Pi Durable",
+      "date": "2026-10-01T19:14:01+00:00",
+      "url": "https://earendil.com/posts/pi-durable/"
+     },
+     {
+      "title": "Pi 1.0",
+      "date": "2026-10-01T19:14:00+00:00",
+      "url": "https://earendil.com/posts/pi-1-0/"
+     },
+     {
+      "title": "“You Said No MCP!”",
+      "date": "2026-09-29T17:30:00+00:00",
+      "url": "https://earendil.com/posts/you-said-no-mcp/"
+     },
+     {
+      "title": "Measuring the Sloppiness of Code",
+      "date": "2026-09-10T15:46:39+00:00",
+      "url": "https://earendil.com/posts/measuring-code-sloppiness/"
+     },
+     {
+      "title": "There are many agent harnesses, but this one is mine.",
+      "date": "2026-09-01T14:23:10+00:00",
+      "url": "https://earendil.com/posts/there-are-many-agent-harnesses-but-this-one-is-mine/"
+     },
+     {
+      "title": "What is a Harness?",
+      "date": "2026-08-20T10:03:55+00:00",
+      "url": "https://earendil.com/posts/what-is-a-harness/"
+     },
+     {
+      "title": "How Compaction Works in Pi",
+      "date": "2026-08-13T06:30:00+00:00",
+      "url": "https://earendil.com/posts/compaction-in-pi/"
+     },
+     {
+      "title": "Pi, Minimal and Performant",
+      "date": "2026-08-03T23:00:00+00:00",
+      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mitsuhiko",
+  "user": {
+   "name": "Armin Ronacher",
+   "company": "Earendil",
+   "blog": "https://lucumr.pocoo.org/",
+   "location": "Austria",
+   "bio": "Software developer and Open Source nut. Creator of the Flask framework. Founder of @earendil-works. Other things of interest: @pallets and @getsentry",
+   "public_repos": 348,
+   "followers": 26500,
+   "created_at": "2008-04-15T10:03:57Z",
+   "twitter_username": "mitsuhiko",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mitsuhiko/agent-stuff",
+    "description": "These are commands I use with agents, mostly Claude",
+    "stargazers_count": 3192,
+    "forks_count": 233,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-11-02T11:14:49Z",
+    "pushed_at": "2026-09-27T21:10:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/insta",
+    "description": "A snapshot testing library for rust",
+    "stargazers_count": 2976,
+    "forks_count": 169,
+    "language": "Rust",
+    "homepage": "https://insta.rs",
+    "created_at": "2019-01-13T22:25:41Z",
+    "pushed_at": "2026-10-10T18:47:23Z",
+    "topics": [
+     "rust",
+     "snapshot-tests",
+     "vscode-extension"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/minijinja",
+    "description": "MiniJinja is a powerful but minimal dependency template engine for Rust compatible with Jinja/Jinja2",
+    "stargazers_count": 2810,
+    "forks_count": 184,
+    "language": "Rust",
+    "homepage": "https://docs.rs/minijinja",
+    "created_at": "2021-09-15T07:51:31Z",
+    "pushed_at": "2026-10-23T05:54:08Z",
+    "topics": [
+     "jinja",
+     "jinja2",
+     "rust",
+     "templates"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/pipsi",
+    "description": "pip script installer",
+    "stargazers_count": 1990,
+    "forks_count": 134,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2014-08-10T17:07:41Z",
+    "pushed_at": "2019-05-24T15:08:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/similar",
+    "description": "A high level diffing library for rust based on diffs",
+    "stargazers_count": 1337,
+    "forks_count": 58,
+    "language": "Rust",
+    "homepage": "https://insta.rs/similar",
+    "created_at": "2021-01-17T21:19:30Z",
+    "pushed_at": "2026-09-28T21:11:17Z",
+    "topics": [
+     "diff",
+     "patch",
+     "rust",
+     "unified-diff"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/pluginbase",
+    "description": "A simple but flexible plugin system for Python.",
+    "stargazers_count": 1140,
+    "forks_count": 140,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2014-06-30T20:51:42Z",
+    "pushed_at": "2021-05-16T16:23:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/self-replace",
+    "description": "Utility library that helps to implement processes that replace themselves",
+    "stargazers_count": 822,
+    "forks_count": 33,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2023-05-14T13:14:47Z",
+    "pushed_at": "2026-04-01T21:28:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/systemfd",
+    "description": "Development helper utility for helping with auto reloading for projects supporting systemd socket activation",
+    "stargazers_count": 663,
+    "forks_count": 18,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2018-05-17T20:02:14Z",
+    "pushed_at": "2025-01-22T07:23:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/flask-oauth",
+    "description": "OAuth Support for Flask",
+    "stargazers_count": 575,
+    "forks_count": 202,
+    "language": "Python",
+    "homepage": "http://flask.pocoo.org/",
+    "created_at": "2010-05-08T15:14:53Z",
+    "pushed_at": "2022-10-16T08:31:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/python-modernize",
+    "description": "Modernizes Python code for eventual Python 3 migration. Build on top of 2to3",
+    "stargazers_count": 531,
+    "forks_count": 26,
+    "language": "Python",
+    "homepage": "",
+    "created_at": "2012-02-04T17:18:11Z",
+    "pushed_at": "2020-07-22T11:35:26Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mitsuhiko/when",
+    "description": "Timezones from the command line",
+    "stargazers_count": 477,
+    "forks_count": 18,
+    "language": "Rust",
+    "homepage": "https://mitsuhiko.github.io/when/",
+    "created_at": "2021-12-03T20:38:57Z",
+    "pushed_at": "2024-07-12T23:18:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/deser",
+    "description": "Experimental rust serialization library",
+    "stargazers_count": 465,
+    "forks_count": 8,
+    "language": "Rust",
+    "homepage": "https://docs.rs/deser",
+    "created_at": "2022-02-03T21:29:00Z",
+    "pushed_at": "2026-10-21T23:19:32Z",
+    "topics": [
+     "rust",
+     "serialization"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/unp",
+    "description": "Unpacks things.",
+    "stargazers_count": 455,
+    "forks_count": 54,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2014-08-23T21:59:41Z",
+    "pushed_at": "2017-05-17T09:23:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/dotfiles",
+    "description": "My dotfiles (vim / bash etc.)",
+    "stargazers_count": 446,
+    "forks_count": 54,
+    "language": "Vim Script",
+    "homepage": "",
+    "created_at": "2010-09-21T20:09:57Z",
+    "pushed_at": "2026-09-24T18:51:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/idasen-control",
+    "description": "Lets you control IKEA IDÅSEN desks from the command line.",
+    "stargazers_count": 440,
+    "forks_count": 26,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2020-05-24T12:55:59Z",
+    "pushed_at": "2026-02-19T23:59:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/better-panic",
+    "description": "A python inspired panic handler for rust",
+    "stargazers_count": 436,
+    "forks_count": 11,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2019-06-20T17:10:43Z",
+    "pushed_at": "2023-09-05T17:12:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/teetty",
+    "description": "A bit like tee, a bit like script, but all with a fake tty. Lets you remote control and watch a process",
+    "stargazers_count": 340,
+    "forks_count": 6,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2022-12-23T12:15:55Z",
+    "pushed_at": "2024-08-22T21:44:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mitsuhiko/platter",
+    "description": "A useful helper for wheel deployments.",
+    "stargazers_count": 334,
+    "forks_count": 50,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2015-02-07T00:25:04Z",
+    "pushed_at": "2018-06-28T15:32:14Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 20,
+  "languages": [
+   [
+    "Rust",
+    8
+   ],
+   [
+    "Python",
+    8
+   ],
+   [
+    "TypeScript",
+    1
+   ],
+   [
+    "Vim Script",
+    1
+   ],
+   [
+    "Go",
+    1
+   ],
+   [
+    "CSS",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "pallets/flask",
+    "stargazerCount": 75029,
+    "description": "The Python micro framework for building web applications.",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://flask.palletsprojects.com"
+   },
+   {
+    "nameWithOwner": "earendil-works/pi",
+    "stargazerCount": 117441,
+    "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mitsuhiko/minijinja",
+    "stargazerCount": 2810,
+    "description": "MiniJinja is a powerful but minimal dependency template engine for Rust compatible with Jinja/Jinja2",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://docs.rs/minijinja"
+   },
+   {
+    "nameWithOwner": "pallets/jinja",
+    "stargazerCount": 11804,
+    "description": "A very fast and expressive template engine.",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://jinja.palletsprojects.com"
+   },
+   {
+    "nameWithOwner": "pallets/click",
+    "stargazerCount": 17800,
+    "description": "Python composable command line interface toolkit",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": "https://click.palletsprojects.com"
+   },
+   {
+    "nameWithOwner": "mitsuhiko/agent-stuff",
+    "stargazerCount": 3192,
+    "description": "These are commands I use with agents, mostly Claude",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 9183,
+  "orgs": [
+   "python",
+   "python-babel",
+   "lektor",
+   "actix",
+   "austrianredcross",
+   "earendil-works"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "pallets/flask": "<div align=\"center\"></div>\n# Flask\nFlask is a lightweight [WSGI] web application framework. It is designed\nto make getting started quick and easy, with the ability to scale up to\ncomplex applications. It began as a simple wrapper around [Werkzeug]\nand [Jinja], and has become one of the most popular Python web\napplication frameworks.\nFlask offers suggestions, but doesn't enforce any dependencies or\nproject layout. It is up to the developer to choose the tools and\nlibraries they want to use. There are many extensions provided by the\ncommunity that make adding new functionality easy.\n[WSGI]: https://wsgi.readthedocs.io/\n[Werkzeug]: https://werkzeug.palletsprojects.com/\n[Jinja]: https://jinja.palletsprojects.com/\n## A Simple Example\n```python\n# save this as app.py\nfrom flask import Flask\napp = Flask(__name__)\n@app.route(\"/\")\ndef hello():\n    return \"Hello, World!\"\n```\n```\n$ flask run\n  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)\n```\n## Donate\nThe Pallets organization develops and supports Flask and the libraries\nit uses. In order to grow the community of contributors and users, and\nallow the maintainers to devote more time to the projects, [please\ndonate today].\n[please donate today]: https://palletsprojects.com/donate\n## Contributing\nSee our [detailed contributing documentation][contrib] for many ways to\ncontribute, including reporting issues, requesting features, asking or answering\nquestions, and making PRs.\n[contrib]: https://palletsprojects.com/contributing/\n",
+   "earendil-works/pi": "<p align=\"center\">\n  <a href=\"https://pi.dev\">\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://discord.com/invite/3cU7Bz4UPx\"></a>\n  <a href=\"https://www.npmjs.com/package/@earendil-works/pi-coding-agent\"></a>\n</p>\n> New issues and PRs from new contributors are auto-closed by default. Maintainers review auto-closed issues daily. See [CONTRIBUTING.md](CONTRIBUTING.md).\n# Pi\nPi is a minimal, extensible agent harness that you can make your own.\nAdapt Pi to your workflows, not the other way around. Customize Pi with [extensions](packages/coding-agent/docs/extensions.md), [skills](packages/coding-agent/docs/skills.md), [prompt templates](packages/coding-agent/docs/prompt-templates.md), and [themes](packages/coding-agent/docs/themes.md). Bundle them as [Pi packages](packages/coding-agent/docs/packages.md) and share via npm or git.\nPi ships with powerful defaults but skips features like sub-agents and plan mode. Ask Pi to build what you want, or install a package that does it your way.\nUse Pi [interactively](packages/coding-agent/docs/usage.md), automate it in [print or JSON mode](packages/coding-agent/docs/cli.md), control it over [RPC](packages/coding-agent/docs/rpc.md), or build apps with the [Pi TypeScript SDK](packages/coding-agent/docs/sdk.md). See [OpenClaw](https://github.com/OpenClaw/OpenClaw) for a real-world integration.\n## Getting started\nInstall the command-line interface:\n```bash\ncurl -fsSL https://pi.dev/install.sh | sh\n```\nOn Windows:\n```shell\npowershell -c \"irm https://pi.dev/install.ps1 | iex\"\n```\nThe installer pins all dependencies and updates Pi with `pi update`. Alternatively, install directly with npm, which does not pin transitive dependencies:\n```bash\nnpm install -g --ignore-scripts @earendil-works/pi-coding-agent\n```\nPi requires Node.js 22.19 or newer. The macOS, Linux, and Windows installers can install it if needed. Pi does not require dependency lifecycle scripts for a normal npm installation.\nStart Pi in the directory where you want it to work:\n```bash\ncd /path/to/project\npi\n```\nFor a built-in AI provider, run `/login` inside Pi to connect a subscription or API key. Then give Pi a task.\nSee the [documentation](https://pi.dev/docs/latest) ",
+   "mitsuhiko/minijinja": "<div align=\"center\">\n  <p><strong>MiniJinja: a powerful template engine with minimal dependencies</strong></p>\n[](https://github.com/mitsuhiko/minijinja/blob/main/LICENSE)\n[](https://crates.io/crates/minijinja)\n[](https://docs.rs/minijinja)\n</div>\nMiniJinja is a powerful but minimal dependency template engine\nwhich is based on the syntax and behavior of the\n[Jinja2](https://jinja.palletsprojects.com/) template engine for Python.\nIt's implemented in [Rust](https://github.com/mitsuhiko/minijinja/tree/main/minijinja) and [Go](https://github.com/mitsuhiko/minijinja/tree/main/minijinja-go) and is also available via WASM for [JavaScript](https://github.com/mitsuhiko/minijinja/tree/main/minijinja-js),\nas a [Python extension module](https://github.com/mitsuhiko/minijinja/tree/main/minijinja-py), and as a [command line utility](https://github.com/mitsuhiko/minijinja/tree/main/minijinja-cli).\nIt supports\n[a range of features from Jinja2](https://github.com/mitsuhiko/minijinja/blob/main/COMPATIBILITY.md)\nincluding inheritance, filters and more.  The goal is that it should be possible\nto use some templates in Rust programs without the fear of pulling in complex\ndependencies for a small problem.  Additionally it tries not to re-invent\nsomething but stay in line with prior art to leverage an already existing\necosystem of editor integrations.  The default build of MiniJinja is entirely\nfree of dependencies, though some users might want to enable the `serde`\ndependency to enable the optional serde support.\n```\n$ cargo tree\nminimal v0.1.0 (examples/minimal)\n└── minijinja v3.0.3 (minijinja)\n```\nAdditionally minijinja is also available as an (optionally pre-compiled) command line executable\ncalled [`minijinja-cli`](https://github.com/mitsuhiko/minijinja/tree/main/minijinja-cli):\n```\n$ curl -sSfL https://github.com/mitsuhiko/minijinja/releases/latest/download/minijinja-cli-installer.sh | sh\n$ echo \"Hello {{ name }}\" | minijinja-cli - -Dname=World\nHello World\n```\nYou can play with MiniJinja online [in the browser playground](https://mitsuhiko.github.io/minijinja/)\npowered by a WASM build of MiniJinja.\n**Goals:**\n* [Well documented](https://docs.rs/minijinja), compact API\n* Minimal d",
+   "pallets/jinja": "<div align=\"center\"></div>\n# Jinja\nJinja is a fast, expressive, extensible templating engine. Special\nplaceholders in the template allow writing code similar to Python\nsyntax. Then the template is passed data to render the final document.\nIt includes:\n-   Template inheritance and inclusion.\n-   Define and import macros within templates.\n-   HTML templates can use autoescaping to prevent XSS from untrusted\n    user input.\n-   A sandboxed environment can safely render untrusted templates.\n-   AsyncIO support for generating templates and calling async\n    functions.\n-   I18N support with Babel.\n-   Templates are compiled to optimized Python code just-in-time and\n    cached, or can be compiled ahead-of-time.\n-   Exceptions point to the correct line in templates to make debugging\n    easier.\n-   Extensible filters, tests, functions, and even syntax.\nJinja's philosophy is that while application logic belongs in Python if\npossible, it shouldn't make the template designer's job difficult by\nrestricting functionality too much.\n## In A Nutshell\n```jinja\n{% extends \"base.html\" %}\n{% block title %}Members{% endblock %}\n{% block content %}\n  <ul>\n  {% for user in users %}\n    <li><a href=\"{{ user.url }}\">{{ user.username }}</a></li>\n  {% endfor %}\n  </ul>\n{% endblock %}\n```\n## Donate\nThe Pallets organization develops and supports Jinja and other popular\npackages. In order to grow the community of contributors and users, and\nallow the maintainers to devote more time to the projects, [please\ndonate today][].\n[please donate today]: https://palletsprojects.com/donate\n## Contributing\nSee our [detailed contributing documentation][contrib] for many ways to\ncontribute, including reporting issues, requesting features, asking or answering\nquestions, and making PRs.\n[contrib]: https://palletsprojects.com/contributing/\n",
+   "pallets/click": "<div align=\"center\"></div>\n# Click\nClick is a Python package for creating beautiful command line interfaces\nin a composable way with as little code as necessary. It's the \"Command\nLine Interface Creation Kit\". It's highly configurable but comes with\nsensible defaults out of the box.\nIt aims to make the process of writing command line tools quick and fun\nwhile also preventing any frustration caused by the inability to\nimplement an intended CLI API.\nClick in three points:\n-   Arbitrary nesting of commands\n-   Automatic help page generation\n-   Supports lazy loading of subcommands at runtime\n## A Simple Example\n```python\nimport click\n@click.command()\n@click.option(\"--count\", default=1, help=\"Number of greetings.\")\n@click.option(\"--name\", prompt=\"Your name\", help=\"The person to greet.\")\ndef hello(count, name):\n    \"\"\"Simple program that greets NAME for a total of COUNT times.\"\"\"\n    for _ in range(count):\n        click.echo(f\"Hello, {name}!\")\nif __name__ == '__main__':\n    hello()\n```\n```\n$ python hello.py --count=3\nYour name: Click\nHello, Click!\nHello, Click!\nHello, Click!\n```\n## Donate\nThe Pallets organization develops and supports Click and other popular\npackages. In order to grow the community of contributors and users, and\nallow the maintainers to devote more time to the projects, [please\ndonate today][].\n[please donate today]: https://palletsprojects.com/donate\n## Contributing\nSee our [detailed contributing documentation][contrib] for many ways to\ncontribute, including reporting issues, requesting features, asking or answering\nquestions, and making PRs.\n[contrib]: https://palletsprojects.com/contributing/\n"
+  }
+ },
+ "apps": []
+}

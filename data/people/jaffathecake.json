@@ -1,0 +1,164 @@
+{
+ "name": "Jake Archibald",
+ "role": "Mozilla / Firefox 开发者 · 前 Google Chrome 开发者关系 · Service Worker 规范编辑之一 · SVGOMG、Squoosh、idb 作者 · 英国海沃兹希斯",
+ "title": "Jake Archibald：<em>没有一个想法</em>不发表",
+ "dek": "他住在英国西萨塞克斯郡的海沃兹希斯，X 简介写着「Firefox 的某种开发者。没有一个想法不发表。He/him。」他在 Google Chrome 开发者关系团队工作了很多年，是 Service Worker 和离线优先（offline-first）理念最重要的推动者之一：他参与编写 Service Worker 规范，做了跟踪各浏览器支持进度的「Is ServiceWorker ready?」，写了经典文章《The offline cookbook》。他做的工具很多人每天都在用：SVG 压缩工具 SVGOMG（★6.2 千）、把 IndexedDB 包装成 Promise 的 idb（★7.4 千）和 idb-keyval，以及和同事一起做的图片压缩应用 Squoosh。他和 Surma 主持的视频节目 HTTP 203 也很受欢迎。现在他在 Mozilla 做 Firefox 和 Web 标准，2026 年他写了大量关于图片格式、CSS 细节和无障碍的深度文章。",
+ "card": "Mozilla / Firefox 开发者，前 Google Chrome DevRel；SVGOMG、idb、Squoosh 作者，英国。",
+ "location": "英国海沃兹希斯",
+ "updated": "2026-10-23",
+ "tags": ["Web 标准", "Service Worker", "图片格式", "CSS", "性能"],
+ "links": [
+  {"label": "jakearchibald.com", "url": "https://jakearchibald.com"},
+  {"label": "SVGOMG", "url": "https://jakearchibald.github.io/svgomg/"},
+  {"label": "GitHub：jakearchibald", "url": "https://github.com/jakearchibald"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Developer of sorts at @firefox. No thought goes unpublished. He/him.」",
+  "<strong>代表作：</strong>idb（★7,429）、SVGOMG（★6,206）、idb-keyval（★3,253）、Squoosh（与同事合作）、Sprite Cow（★1,327）、offline-wikipedia、Is ServiceWorker ready?、wittr、linear-easing-generator、HTTP 203。",
+  "<strong>关键数字：</strong>X 关注者约 10.8 万、推文约 8.3 万条；GitHub 粉丝约 1.2 万。",
+  "<strong>现在：</strong>Mozilla，参与 CSSWG 讨论与 Interop 提案。"
+ ],
+ "lead": "2026 年 10 月，JPEG XL 终于进入了 Web，他写了一篇《JPEG XL vs AVIF for web use-cases》做全面对比。接着他在 X 上批评了一些「JPEG XL 话语里的不诚实」：为什么拿一个 25 年前的格式做对比，而不是更现代的格式？为什么宣称支持 HDR，却不说清楚增益图（gain map）这个关键部分？他的结论是 AVIF 更适合 HDR，因为源文件可以是 10 位，而且浏览器里 JPEG 和 AVIF 都支持增益图，JPEG XL 不支持。他还为 Interop 2027 提议把「渐进式图片渲染」列为重点，让 Safari 支持渐进式 JPEG XL，让 Safari 和 Firefox 支持渐进式 AVIF。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "Web 开发者、标准参与者、作者"],
+     ["所在地", "英国海沃兹希斯"],
+     ["工作", "Mozilla（Firefox）"],
+     ["此前", "Google Chrome 开发者关系团队"],
+     ["开源", "idb、SVGOMG、idb-keyval、Squoosh、Sprite Cow"],
+     ["技术栈", "JavaScript、TypeScript、CSS"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Jake 现在在 Mozilla，一边做 Firefox，一边<strong>推动跨浏览器的互通</strong>：在 CSS 工作组讨论把自定义 <code>&lt;select&gt;</code> 的合理尺寸写进默认样式表，参与 Interop 年度重点的投票（他说比起在 GitHub issue 上点赞，这种方式更难被刷）。"},
+    {"p": "他的文章以<strong>极度认真</strong>著称：一篇讲清楚 CSS 自定义属性到底在什么时候计算，一篇复盘自己在提示框上犯的无障碍错误（<code>aria-describedby</code> 并不总是够用），一篇研究自定义 select 的「刚刚好」高度，一篇比较 import 和 fetch JSON 的差别。他还试验过「响应式代码」：构建脚本用 Prettier 为每段代码生成最多 5 个版本，再用容器查询显示合适的那个。"},
+    {"note": "本页依据 jakearchibald.com、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他在 Google 和 Mozilla 的具体任期未在本页核实。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011–2012", "title": "早期工具", "text": "Sprite Cow 帮你算出雪碧图的 CSS；AppCache 演示与批评。"},
+     {"when": "2014–2015", "title": "Service Worker", "text": "Is ServiceWorker ready?、Trained to Thrill、离线维基百科演示；SVGOMG。"},
+     {"when": "2015–2016", "title": "IndexedDB 与课程", "text": "idb、idb-keyval；在线课程演示应用 wittr。"},
+     {"when": "此后", "title": "Chrome DevRel", "text": "HTTP 203 节目、Squoosh、大量浏览器行为深度文章。"},
+     {"when": "近年", "title": "Mozilla", "text": "加入 Mozilla 做 Firefox 与 Web 标准。"},
+     {"when": "2026", "title": "深度文章", "text": "JPEG XL vs AVIF、CSS 自定义属性计算时机、提示框无障碍。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SVGOMG", "url": "https://jakearchibald.github.io/svgomg/",
+     "meta": ["2014–", "Web 应用", "★6.2 千"],
+     "paras": [
+      "「Web GUI for SVGO」在浏览器里可视化地压缩 SVG，逐项开关优化选项并实时预览，可离线使用。"
+     ],
+     "facts": [["GitHub", "★6,206"]]
+    }},
+    {"work": {
+     "name": "idb", "url": "https://github.com/jakearchibald/idb",
+     "meta": ["2015–", "TypeScript", "★7.4 千"],
+     "paras": [
+      "「IndexedDB, but with promises」一个很小的库，让 IndexedDB 好用得多；idb-keyval 则是更简单的键值存储。"
+     ]
+    }},
+    {"work": {
+     "name": "Squoosh", "url": "https://squoosh.app",
+     "meta": ["Google Chrome Labs", "图片压缩"],
+     "paras": [
+      "在浏览器里用 WebAssembly 运行各种图片编码器，左右对比压缩效果，图片不离开你的设备。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["idb-keyval", "超简单的 Promise 键值存储（★3,253）"],
+      ["Sprite Cow", "算出雪碧图的位置和尺寸（★1,327）"],
+      ["offline-wikipedia", "离线优先的维基百科演示"],
+      ["linear-easing-generator", "生成 CSS linear() 缓动"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://jakearchibald.com", "paras": [
+     "博客首页是一列大图卡片，每篇文章一张配图和一句话：「JPEG XL 来了，但它比起来怎么样？」「默认行为可能不是你想的那样。」文章里常嵌入可交互的演示，比如可以拖动对比的图片。网站源码在 GitHub 上公开。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["形式", "长文 + 交互演示"],
+      ["源码", "GitHub 公开"],
+      ["节奏", "2026 年每月约一篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-15", "title": "JPEG XL vs AVIF for web use-cases", "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/"},
+     {"date": "2026-08-26", "title": "Controlling when CSS custom property values are computed", "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/"},
+     {"date": "2026-07-28", "title": "Fixing my tooltip accessibility mistake", "url": "https://jakearchibald.com/2026/my-tooltip-a11y-mistake/"},
+     {"date": "2026-06-29", "title": "The Goldilocks customizable select height", "url": "https://jakearchibald.com/2026/goldilocks-select-height/"},
+     {"date": "2025", "title": "Importing vs fetching JSON", "url": "https://jakearchibald.com/2025/importing-vs-fetching-json/"}
+    ]},
+    {"quote": "More dishonesty in JPEG XL discourse. Why compare to a 25+ yr old format rather than anything more modern?", "cite": "Jake Archibald，X，2026-10"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["深度", "文章严谨、自带演示", "—"],
+      ["影响", "Service Worker、idb、SVGOMG", "—"],
+      ["表达", "直言不讳", "在格式之争等话题上观点鲜明，可多方对照"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>用真实的 Web 用例去测试宣传。</strong>",
+     "<strong>公开复盘自己的错误。</strong>",
+     "<strong>给难用的 API 包一层小而好用的库。</strong>",
+     "<strong>把演示嵌进文章里。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "JPEG XL vs AVIF", "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/", "why": "学怎么认真比较图片格式。"},
+     {"name": "SVGOMG", "url": "https://jakearchibald.github.io/svgomg/", "why": "压缩你网站上的 SVG。"},
+     {"name": "Squoosh", "url": "https://squoosh.app", "why": "在浏览器里对比图片编码。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "把你网站上最大的一张图片拖进 Squoosh，分别试试 AVIF 和 WebP，看能省下多少字节。",
+ "sources": [
+  {"label": "Jake Archibald 的 X 个人资料", "url": "https://x.com/jaffathecake"},
+  {"label": "jakearchibald.com", "url": "https://jakearchibald.com"},
+  {"label": "GitHub：jakearchibald", "url": "https://github.com/jakearchibald"},
+  {"label": "GitHub：idb", "url": "https://github.com/jakearchibald/idb"},
+  {"label": "GitHub：svgomg", "url": "https://github.com/jakearchibald/svgomg"}
+ ]
+}

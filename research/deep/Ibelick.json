@@ -1,0 +1,457 @@
+{
+ "handle": "Ibelick",
+ "sites": [
+  {
+   "url": "http://ibelick.com",
+   "ok": true,
+   "title": "Julien Thibeaut",
+   "description": "Julien Thibeaut (@Ibelick). Building software with a focus on design, detail, and function.",
+   "stack": [
+    "Next.js"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Julien Thibeaut \nDesign Engineer \nI love building interfaces and softwares, obsessing over every detail until the experience feels right. \nI run Interface Office , a design engineering studio helping AI startups build their products. \nWriting Anatomy of AI Input AI Glossary \nSelected projects \n Mesurer , UI Skills , prompt-kit , motion-primitives \nSelected clients \n Quiver AI , Arena AI , Antimetal , Cloudflare \nLinks",
+   "github_links": [
+    "ibelick"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://mesurer.dev",
+   "ok": true,
+   "title": "Build precise software with your coding agent | Mesurer",
+   "description": "Inspect, annotate, and direct changes on any live interface with Mesurer for Chrome and React.",
+   "stack": [
+    "Tailwind CSS",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Build precise software with your coding agent. \nInspect, annotate, and direct changes directly on your live interface. \n v0.2.7 · 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 , 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 downloads \n Inspect. Check any element’s value, style or spacing. \n Design. Set guides and bring your canvas closer to production. \n Annotate. Scribble what you have in mind on the live interface. \n Direct. Give feedback that points directly at the element. \n Share. Interact seamlessly with human and agents. \nDesign closer to production \nAs designers work closer to the source, Mesurer brings all the essential tools they need to preserve quality in that new environment. \nInspect mode \nMeasurements \nLayout guides \nCollaborate better with your team and agents \nStop describing what you have in mind, show it instead. Mesurer helps you interact faster and in a more effective way with your coding agents. \nComments \nAnnotations \nScreenshot-paste \n Npm package \nRun Mesurer in your project \nEmbed the toolbar in your own project and make it available to all contributors Copy setup prompt \n Chrome extension \nUse Mesurer everywhere \nInstall the chrome extension to access mesurer toolbar on any live interface Install chrome extension \nbro....THANK YOU. \n shadcn @shadcn \nDuuuuuuude this is exactly what I needed. Ty \n David @drgdfyi \nThis is exactly what I've been looking for. Thanks \n Moumen Soliman @moumensoliman \noh nice! was working on something similar but i'm super glad i don't have to now lol \n daniel petho @nonzeroexitcode \nwoah was just wondering whether drag and multi-select could live side by side in a visual editor and then saw this. really well done :) \n Sam Gorman @gormankind \noh man this is awesome \n OrcDev @orcdev \nBuild precise software with your coding agent.",
+   "github_links": [
+    "ibelick"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://ui-skills.com",
+   "ok": true,
+   "title": "UI Skills for Design Engineers | UI Skills",
+   "description": "UI Skills is a collection of design-engineering skills for accessibility, motion, frontend craft, and interface quality.",
+   "stack": [
+    "Astro v7.3.2",
+    "Astro",
+    "VitePress",
+    "Tailwind CSS",
+    "three.js",
+    "GSAP",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "Skip to main content \nCurated skills for design engineering \nCLI \nRun the UI Skills CLI from your terminal. \n npx ui-skills \nMCP \nConnect your agent to the UI Skills catalog. \n Skills \n ui-skills-root ibelick \nUse when the user needs UI help and you must route by topic, stack, and intent to the smallest useful set of UI skills. \n improve-ui ibelick \nAudit an existing product surface against its own design evidence, identify verified UI problems, and write self-contained implementation plans for another agent without modifying product source. \n frontend-design anthropics \nCreate distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code and UI design that avoids generic AI aesthetics. \n improve-animations emilkowalski \nSurvey a codebase's animation and motion code as a senior motion advisor, then produce prioritized audit and self-contained implementation plans. Read-only on source code - it plans improvements, it does not apply them. Use when the user asks to improve animations, audit motion, make an app feel better, or wants a roadmap of animation fixes rather than a review of a single diff. \n improve-react millionco \nSurvey a React codebase using React Doctor's findings, then produce prioritized audits and self-contained implementation plans without modifying source code. \n improve shadcn \nSurvey any codebase as a senior advisor and produce prioritized, self-contained implementation plans for OTHER models/agents to execute. Strictly read-only on source code — never implements, fixes, or refactors anything itself. Use when asked to audit a codebase, find improvement opportunities (bugs, security, performance, test coverage, tech debt, migrations, DX), suggest features or take the project next, or generate handoff plans for another agent to implement. \n better-ui jakubkrehel \nDesign engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover states, shadows, borders, micro-interactions, enter/exit animations, or any visual detail work. Triggers on UI polish, design details, \"make it feel better\", \"feels off\", stagger animations, border radius, optical alignment, image outlines, box shadows. \n design-lab 0xdesign \nInteractive design exploration workflow: conduct interviews, generate variants, and refine UI designs through feedback. \n ui-ux-pro-max nextlevelbuilder \nComprehensive UI/UX design intelligence with 50+ styles, 97 palettes, and 9 technology stacks for building professional interfaces. \n interface-design Dammyjay93 \nSpecialized skill for interface design: dashboards, admin panels, and SaaS apps. Focused on craft and consistency. \n 12-principles-of-animation raphaelsalaja \nApply Disney's 12 animation principles to web interfaces to make motion feel natural, organic, and human. \n impeccable pbakaus \nFlagship design skill for production-grade, anti-generic frontend interfaces with strong craft and consistency. \n bencium-innovative-ux-designer bencium \nCreate distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics. \n gpt-tasteskill Leonxlnx \nHigh-agency UX/UI skill with strict layout variance, typography, and GSAP motion engineering constraints. \n interaction-design wshobson \nDesign and implement microinteractions, motion design, transitions, and user feedback patterns for delightful user experiences. \n frontend-ui-engineering addyosmani \nFrontend UI engineering guidance covering component architecture, responsive design, accessibility, and maintainable implementation patterns. \n New skills \n create-canvas ibelick \nBuild a freeform canvas to explore, compare, and iterate on anything. \n talking-head-recut heygen-com \nPackage an existing talking-head / interview / podcast video with timed, designed GRAPHIC OVERLAY cards — kinetic titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture — synced to the transcript, on a 16:9 / 9:16 / 4:5 canvas of your choice; the clip plays untouched underneath. Trigger on \"graphic overlays\", \"on-screen graphics\", \"package / dress up my video\". Not plain subtitles (/embedded-captions). Unclear → /hyperframes. \n slideshow heygen-com \nAuthor a HyperFrames slideshow — a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branch",
+   "github_links": [
+    "ibelick"
+   ],
+   "subpages": {
+    "https://ui-skills.com/jobs/post": "Skip to main content \nHire top design engineers \nPost your job and reach +80k qualified experts monthly $199 one month listing \n Company name Logo URL Contact email Website Role title \nEmployment type Select employment type Location Job post URL \n Get in touch Submit and purchase \n Mesurer Build precise software with your coding agent."
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "ibelick",
+  "user": {
+   "name": "Julien Thibeaut",
+   "company": null,
+   "blog": "ibelick.com",
+   "location": "Paris",
+   "bio": null,
+   "public_repos": 22,
+   "followers": 1704,
+   "created_at": "2015-09-15T06:01:09Z",
+   "twitter_username": "ibelick",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "ibelick/ui-skills",
+    "description": "Skills for Design Engineers",
+    "stargazers_count": 10110,
+    "forks_count": 473,
+    "language": "TypeScript",
+    "homepage": "https://www.ui-skills.com/",
+    "created_at": "2026-01-07T19:35:54Z",
+    "pushed_at": "2026-10-20T21:11:08Z",
+    "topics": [
+     "skills",
+     "ui-skills"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/motion-primitives",
+    "description": "UI kit to make beautiful, animated interfaces, faster. Customizable. Open Source.",
+    "stargazers_count": 6796,
+    "forks_count": 293,
+    "language": "TypeScript",
+    "homepage": "https://motion-primitives.com",
+    "created_at": "2024-07-03T15:58:42Z",
+    "pushed_at": "2026-09-28T13:32:11Z",
+    "topics": [
+     "animate",
+     "animated",
+     "animation",
+     "components",
+     "framer-motion",
+     "library",
+     "motion",
+     "tailwindcss",
+     "ui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/prompt-kit",
+    "description": "Core building blocks for AI apps.  High-quality, accessible, and customizable components for AI interfaces.",
+    "stargazers_count": 3133,
+    "forks_count": 169,
+    "language": "TypeScript",
+    "homepage": "https://prompt-kit.com",
+    "created_at": "2025-02-10T16:11:29Z",
+    "pushed_at": "2026-09-28T13:33:31Z",
+    "topics": [
+     "ai",
+     "components",
+     "nextjs",
+     "react",
+     "shadcn",
+     "shadcn-ui",
+     "tailwindcss",
+     "ui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/background-snippets",
+    "description": "Modern background snippets: copy, paste, ready-to-use",
+    "stargazers_count": 2030,
+    "forks_count": 91,
+    "language": "TypeScript",
+    "homepage": "https://bg.ibelick.com/",
+    "created_at": "2023-07-05T16:08:48Z",
+    "pushed_at": "2024-09-26T14:05:46Z",
+    "topics": [
+     "background",
+     "css",
+     "tailwind",
+     "tailwindcss"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/zola",
+    "description": "Open chat interface for all your models.",
+    "stargazers_count": 1534,
+    "forks_count": 294,
+    "language": "TypeScript",
+    "homepage": "https://zola.chat",
+    "created_at": "2025-04-02T07:57:31Z",
+    "pushed_at": "2025-12-11T21:27:10Z",
+    "topics": [
+     "ai",
+     "chat",
+     "multi-model",
+     "nextjs",
+     "open-source",
+     "prompt-kit",
+     "shadcn-ui",
+     "supabase",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/buttons",
+    "description": "Tailwind CSS button collection",
+    "stargazers_count": 987,
+    "forks_count": 34,
+    "language": "TypeScript",
+    "homepage": "https://buttons.ibelick.com/",
+    "created_at": "2023-12-11T16:31:54Z",
+    "pushed_at": "2024-03-07T18:56:21Z",
+    "topics": [
+     "button",
+     "css",
+     "tailwindcss"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/nim",
+    "description": "Nim is a free and open-source personal website template built with Next.js 15, React 19, Tailwind CSS v4, and Motion-Primitives.",
+    "stargazers_count": 755,
+    "forks_count": 199,
+    "language": "TypeScript",
+    "homepage": "https://nim-fawn.vercel.app",
+    "created_at": "2024-12-19T08:45:08Z",
+    "pushed_at": "2025-12-18T13:33:06Z",
+    "topics": [
+     "blog",
+     "nextjs",
+     "personal-website",
+     "portfolio-website",
+     "react",
+     "react-portfolio-template",
+     "resume-website",
+     "simple-portfolio"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/webclaw",
+    "description": "Fast web client for OpenClaw",
+    "stargazers_count": 645,
+    "forks_count": 80,
+    "language": "TypeScript",
+    "homepage": "https://webclaw.dev",
+    "created_at": "2026-02-05T07:21:50Z",
+    "pushed_at": "2026-03-17T08:36:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/mesurer",
+    "description": "Inspect, annotate, and give feedback on any live interface.",
+    "stargazers_count": 569,
+    "forks_count": 30,
+    "language": "TypeScript",
+    "homepage": "https://mesurer.dev",
+    "created_at": "2026-04-09T09:05:12Z",
+    "pushed_at": "2026-10-14T15:26:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/ui-snippets",
+    "description": "Collection of dark mode components and effects crafted in React and Tailwind CSS.",
+    "stargazers_count": 555,
+    "forks_count": 32,
+    "language": "TypeScript",
+    "homepage": "https://ui.ibelick.com/",
+    "created_at": "2023-05-09T15:27:38Z",
+    "pushed_at": "2024-07-31T22:18:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/animation",
+    "description": "Copy-paste ready Tailwind CSS animations",
+    "stargazers_count": 219,
+    "forks_count": 11,
+    "language": "TypeScript",
+    "homepage": "http://animation.ibelick.com/",
+    "created_at": "2023-09-22T15:56:25Z",
+    "pushed_at": "2023-10-05T18:01:47Z",
+    "topics": [
+     "animation",
+     "tailwind",
+     "tailwindcss"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/nextjs-resume",
+    "description": "A curriculum vitae inspired by read.cv, build with Next.js and Tailwind CSS",
+    "stargazers_count": 143,
+    "forks_count": 35,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2023-05-26T17:09:19Z",
+    "pushed_at": "2023-06-27T08:40:41Z",
+    "topics": [
+     "cv-template",
+     "nextjs",
+     "react",
+     "react-template",
+     "reactjs",
+     "resume",
+     "resume-template",
+     "resume-website",
+     "tailwindcss",
+     "template"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/easing-gradients",
+    "description": "Adds easing functions to CSS gradients in Tailwind CSS.",
+    "stargazers_count": 41,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "https://easing-gradients.ibelick.com/",
+    "created_at": "2026-03-31T17:03:49Z",
+    "pushed_at": "2026-04-06T11:48:14Z",
+    "topics": [
+     "tailwindcss",
+     "tailwindcss-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/ibelick.com",
+    "description": "my links / currents projects",
+    "stargazers_count": 16,
+    "forks_count": 3,
+    "language": "HTML",
+    "homepage": "https://ibelick.com",
+    "created_at": "2023-08-21T21:31:31Z",
+    "pushed_at": "2024-02-12T13:04:04Z",
+    "topics": [
+     "linktree"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/newfrenz",
+    "description": null,
+    "stargazers_count": 5,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "newfrenz.vercel.app",
+    "created_at": "2022-04-11T13:14:18Z",
+    "pushed_at": "2022-04-27T09:37:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/hellocurator",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "nft-curated-storefront.vercel.app",
+    "created_at": "2022-02-11T13:54:31Z",
+    "pushed_at": "2022-04-21T06:45:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/Ibelick",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 2,
+    "language": null,
+    "homepage": null,
+    "created_at": "2021-12-22T09:45:35Z",
+    "pushed_at": "2025-04-01T16:45:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ibelick/minimal-react-setup",
+    "description": "My minimal react setup",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-03-14T10:50:01Z",
+    "pushed_at": "2018-03-14T11:07:22Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 18,
+  "languages": [
+   [
+    "TypeScript",
+    15
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "ibelick/mesurer",
+    "stargazerCount": 569,
+    "description": "Inspect, annotate, and give feedback on any live interface.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://mesurer.dev"
+   },
+   {
+    "nameWithOwner": "ibelick/ui-skills",
+    "stargazerCount": 10110,
+    "description": "Skills for Design Engineers",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://www.ui-skills.com/"
+   },
+   {
+    "nameWithOwner": "ibelick/prompt-kit",
+    "stargazerCount": 3133,
+    "description": "Core building blocks for AI apps.  High-quality, accessible, and customizable components for AI interfaces.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://prompt-kit.com"
+   },
+   {
+    "nameWithOwner": "ibelick/motion-primitives",
+    "stargazerCount": 6796,
+    "description": "UI kit to make beautiful, animated interfaces, faster. Customizable. Open Source.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://motion-primitives.com"
+   },
+   {
+    "nameWithOwner": "ibelick/zola",
+    "stargazerCount": 1534,
+    "description": "Open chat interface for all your models.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://zola.chat"
+   },
+   {
+    "nameWithOwner": "ibelick/webclaw",
+    "stargazerCount": 645,
+    "description": "Fast web client for OpenClaw",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://webclaw.dev"
+   }
+  ],
+  "contrib_last_year": 3239,
+  "orgs": [],
+  "profile_readme": "function is beauty\n",
+  "readmes": {
+   "ibelick/mesurer": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://mesurer.dev/logo-dark.svg\">\n</picture>\n<br>\n# Mesurer\n[](https://www.npmjs.com/package/mesurer)\n[](https://www.npmjs.com/package/mesurer)\n**Inspect, annotate, and give feedback on any live interface.**\nMesurer runs directly where you build. Share feedback with your agents and your team.\nMesurer is an open-source UI inspector and visual feedback tool for the browser.\nUse guides, rulers, measurements, arrows, freehand pen strokes, text annotations,\ncolor inspection, typography tools, X-ray mode, and screenshots to understand interfaces and communicate precise\nvisual feedback to coding agents. Capture a short video of any visible region to show interaction details that a screenshot cannot.\n[Full documentation](https://mesurer.dev/)\n## Install\n```bash\nnpm install mesurer\n```\n## Usage\n```tsx\nimport { Mesurer } from \"mesurer\";\nfunction App() {\n  return (\n    <>\n      <YourApp />\n      <Mesurer />\n    </>\n  );\n}\n```\n## Props\n| Prop                    | Description                                                                   |\n| ----------------------- | ----------------------------------------------------------------------------- |\n| `highlightColor`        | Base color for selection/hover overlays (defaults to `oklch(0.62 0.18 255)`). |\n| `guideColor`            | Base color for guides (defaults to `oklch(0.63 0.26 29.23)`).                 |\n| `arrowColor`            | Base color for arrows (defaults to `oklch(0.63 0.26 29.23)`).                 |\n| `guideHighlightEnabled` | Highlights guides when they are hovered or selected. Default `true`.          |\n| `hoverHighlightEnabled` | Disables hover highlight and deselects on click when `false`.                 |\n| `layoutDetailsEnabled`  | Shows gap and padding under selected dimensions. Default `true`.              |\n| `persistOnReload`       | Persists workspace state across reloads; defaults to `true`.                  |\n| `shortcutsEnabled`      | Enables global keyboard shortcuts when `true`. Default `true`.                |\n| `persistKey`            | Optional workspace storage key; default workspaces are isolated per browser tab. |\n| `p",
+   "ibelick/ui-skills": "# UI Skills\nSkills for Design Engineers.\nMore on [ui-skills.com](https://www.ui-skills.com/)\n## CLI\nBrowse and fetch skills from your terminal.\n```bash\nnpx ui-skills start\nnpx ui-skills categories\nnpx ui-skills list --category motion\nnpx ui-skills get baseline-ui\n```\n## MCP\nConnect agents to the registry over Model Context Protocol.\n```\nhttps://www.ui-skills.com/mcp\n```\nTools: `list_skills`, `get_skill`\n## Playbook\nDistilled UI lessons from the best design engineering skills.\n[ui-skills.com/playbook](https://www.ui-skills.com/playbook)\n## License\nLicensed under the [MIT license](https://github.com/ibelick/ui-skills/blob/main/LICENSE).\n",
+   "ibelick/prompt-kit": "# prompt-kit\n**Customizable, high-quality components for AI applications.**  \nBuild chat experiences, AI agents, autonomous assistants, and more, quickly and beautifully.\n## Installation\n### Install shadcn/ui\nFirst, you'll need to install and configure [shadcn/ui](https://ui.shadcn.com) in your project.  \nFollow the installation guide in the shadcn/ui documentation.\n### Install prompt-kit components\nOnce shadcn/ui is set up, you can install `prompt-kit` components using the shadcn CLI:\n```sh\nnpx shadcn@latest add prompt-kit/[component]\n```\n### Usage\nAfter installation, import and start using the components in your project:\n```tsx\nimport { PromptInput } from \"@/components/ui/prompt-input\"\n```\n",
+   "ibelick/motion-primitives": "# Motion-Primitives\nBeautifully designed, easy-to-integrate motion components for engineers and designers, built with [motion](https://motion.dev/) and [Tailwind CSS](https://tailwindcss.com/).\n**This project is in beta. Expect new components to be released regularly and significant updates to the code.**\n<p align=\"center\">\n</p>\n## Documentation\nVisit [motion-primitives.com/docs](http://motion-primitives.com/docs) to view the full documentation.\n## Contributing\nPlease read the [contributing guide](/CONTRIBUTING.md).\n## License\nLicensed under the [MIT license](/LICENSE.md).\n",
+   "ibelick/zola": "# Zola\n[zola.chat](https://zola.chat)\n**Zola** is the open-source chat interface for all your models.\n## Features\n- Multi-model support: OpenAI, Mistral, Claude, Gemini, Ollama (local models)\n- Bring your own API key (BYOK) support via OpenRouter\n- File uploads\n- Clean, responsive UI with light/dark themes\n- Built with Tailwind CSS, shadcn/ui, and prompt-kit\n- Open-source and self-hostable\n- Customizable: user system prompt, multiple layout options\n- Local AI with Ollama: Run models locally with automatic model detection\n- Full MCP support (wip)\n## Quick Start\n### Option 1: With OpenAI (Cloud)\n```bash\ngit clone https://github.com/ibelick/zola.git\ncd zola\nnpm install\necho \"OPENAI_API_KEY=your-key\" > .env.local\nnpm run dev\n```\n### Option 2: With Ollama (Local)\n```bash\n# Install and start Ollama\ncurl -fsSL https://ollama.ai/install.sh | sh\nollama pull llama3.2  # or any model you prefer\n# Clone and run Zola\ngit clone https://github.com/ibelick/zola.git\ncd zola\nnpm install\nnpm run dev\n```\nZola will automatically detect your local Ollama models!\n### Option 3: Docker with Ollama\n```bash\ngit clone https://github.com/ibelick/zola.git\ncd zola\ndocker-compose -f docker-compose.ollama.yml up\n```\n[](https://vercel.com/new/clone?repository-url=https://github.com/ibelick/zola)\nTo unlock features like auth, file uploads, see [INSTALL.md](./INSTALL.md).\n## Built with\n- [prompt-kit](https://prompt-kit.com/) — AI components\n- [shadcn/ui](https://ui.shadcn.com) — core components\n- [motion-primitives](https://motion-primitives.com) — animated components\n- [vercel ai sdk](https://vercel.com/blog/introducing-the-vercel-ai-sdk) — model integration, AI features\n- [supabase](https://supabase.com) — auth and storage\n## Sponsors\n<a href=\"https://vercel.com/oss\">\n</a>\n## License\nApache License 2.0\n## Notes\nThis is a beta release. The codebase is evolving and may change.\n"
+  }
+ },
+ "apps": []
+}

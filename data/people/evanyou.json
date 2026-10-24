@@ -1,0 +1,159 @@
+{
+ "name": "尤雨溪（Evan You）",
+ "role": "Vue.js、Vite 作者 · VoidZero 创始人（2026 年被 Cloudflare 收购）· 新加坡",
+ "title": "尤雨溪：从 Vue 到 Vite，<em>再到一整条工具链</em>",
+ "dek": "他是 Vue.js 和 Vite 的作者，现在住在新加坡。据维基百科，他在 Google 用 AngularJS 做过几个项目后萌生了一个想法：「如果我只把 Angular 里我真正喜欢的部分抽出来，做一个非常轻量的东西呢？」2013 年 7 月，Vue 的第一次提交诞生（当时叫 Seed），2014 年 2 月正式发布。从 2016 年起，他靠社区赞助做全职独立开源开发者。2020 年他推出 Vite，用浏览器原生 ES 模块彻底改变了前端开发服务器的体验，如今每周下载超过一亿次。2024 年他创办 VoidZero，融资 460 万美元，要为 JavaScript 和 TypeScript 打造统一的高性能工具链：Vite、Vitest、Rolldown、Oxc、Vite+。2026 年 6 月，VoidZero 被 Cloudflare 收购，这些项目继续以 MIT 协议开源。",
+ "card": "Vue.js（★21 万）、Vite（★8.3 万）作者；VoidZero 创始人（2026 年被 Cloudflare 收购），新加坡。",
+ "location": "新加坡",
+ "updated": "2026-10-23",
+ "tags": ["Vue", "Vite", "构建工具", "Rust 工具链", "开源可持续"],
+ "links": [
+  {"label": "evanyou.me", "url": "https://evanyou.me"},
+  {"label": "Vue.js", "url": "https://vuejs.org"},
+  {"label": "Vite", "url": "https://vite.dev"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>个人网站「I am the founder of VoidZero, a company building the next generation toolchain for JavaScript and TypeScript. VoidZero was acquired by Cloudflare in 2026.」",
+  "<strong>代表作：</strong>Vue 2（★212,631）、Vue 3 / vuejs/core（★54,799）、Vite（★83,492）、VitePress（★18,438）、Rolldown（★13,978）、petite-vue（★9,692）；早年 HTML5 Clear、zoomerang、pod。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 11.2 万；X 关注者约 31.6 万；另有中文账号 @yuxiyou。",
+  "<strong>VoidZero：</strong>2024 年成立，种子轮 460 万美元；2026 年 6 月被 Cloudflare 收购，并设立 100 万美元基金支持 Vite 生态独立贡献者。"
+ ],
+ "lead": "2026 年 10 月，他发了一条两万多人点赞的帖子：「好笑的是，前沿模型依然会估计一个任务要两周，然后在两小时内把它做完。」几天前，他宣布把 VoidZero 收购前就在做的部署平台 Void 开源：它原本打算做成商业产品，「但现在我们不再需要了」。他说自己用 Void 做的大多数应用，一句提示词就能上线。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开源作者、创始人"],
+     ["中文名", "尤雨溪（本人在网站上注明）"],
+     ["所在地", "新加坡"],
+     ["经历", "在 Google 用 AngularJS 做项目 → 创造 Vue（2014 发布）→ 全职独立开源（2016–）→ VoidZero 创始人（2024–）→ Cloudflare（2026 收购）"],
+     ["开源", "Vue、Vite、VitePress、Rolldown、petite-vue、Void"],
+     ["技术栈", "JavaScript、TypeScript、Rust"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "尤雨溪现在的重心是<strong>JavaScript 工具链的「统一」</strong>：Vite 负责开发体验和构建，Rolldown 是用 Rust 写、与 Rollup API 兼容的打包器，Oxc 提供解析、转换和代码检查，Vitest 负责测试，Vite+ 把它们整合起来。加入 Cloudflare 后，团队进入其新兴技术与孵化部门，继续主导这些项目。"},
+    {"p": "他也在思考性能的另一种可能：与其把 TypeScript 编译成原生代码，不如在某些任务上用特定的写法，让普通 TypeScript 也达到接近原生的性能。"},
+    {"note": "本页依据 evanyou.me、GitHub 个人简介与仓库 README、维基百科 Vue.js 条目、VoidZero 关于加入 Cloudflare 的公告和 X 帖子整理，资料截至 2026 年 10 月。家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012", "title": "HTML5 Clear", "text": "用 HTML5 复刻 iPhone 应用 Clear，在 GitHub 上走红。"},
+     {"when": "2013–2014", "title": "Vue 诞生", "text": "2013 年 7 月第一次提交（名为 Seed）；2014 年 2 月公开发布。"},
+     {"when": "2016", "title": "全职开源", "text": "开始靠社区赞助做独立开源开发者；Vue 2 发布。"},
+     {"when": "2020", "title": "Vue 3 与 Vite", "text": "Vue 3 发布；推出基于原生 ES 模块的开发工具 Vite。"},
+     {"when": "2024", "title": "VoidZero", "text": "创办 VoidZero，种子轮 460 万美元；Rolldown、Oxc 加速推进。"},
+     {"when": "2026", "title": "加入 Cloudflare", "text": "6 月 VoidZero 被 Cloudflare 收购；10 月开源部署平台 Void。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Vue.js", "url": "https://vuejs.org",
+     "meta": ["2014–", "渐进式框架", "★21 万（Vue 2）"],
+     "paras": [
+      "「A progressive, incrementally-adoptable JavaScript framework for building UI on the web.」完全由赞助支持的 MIT 开源项目。Vue 2 已于 2023 年 12 月 31 日停止维护，当前版本在 vuejs/core。"
+     ],
+     "facts": [["GitHub", "vuejs/vue ★212,631 · vuejs/core ★54,799"]]
+    }},
+    {"work": {
+     "name": "Vite", "url": "https://vite.dev",
+     "meta": ["2020–", "前端工具", "★8.3 万"],
+     "paras": [
+      "「Next generation frontend tooling. It's fast!」开发时直接利用浏览器原生 ES 模块，冷启动和热更新极快；被 Vue、Svelte、Solid、Astro 等众多框架采用。"
+     ],
+     "facts": [["GitHub", "★83,492"]]
+    }},
+    {"work": {
+     "name": "Rolldown", "url": "https://rolldown.rs",
+     "meta": ["Rust", "打包器", "★1.4 万"],
+     "paras": [
+      "「Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.」目标是成为 Vite 统一的开发与生产构建底层。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["VitePress", "Vite 和 Vue 驱动的静态站点生成器（★18,438）"],
+      ["petite-vue", "6 KB、为渐进增强优化的 Vue 子集（★9,692）"],
+      ["vue-lit", "自定义元素「框架」的概念验证"],
+      ["build-your-own-mint", "用 Plaid 和 Google Sheets 做个人财务分析"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://evanyou.me", "paras": [
+     "个人网站是一段平实的自述：VoidZero、被 Cloudflare 收购、2016 年以来做独立开源、Vue 和 Vite、可以通过 GitHub Sponsors 支持他。他特地写明中文名尤雨溪的读音，并提到自己的中文账号用于「非技术的随想」。业余时间他喜欢魂系和 Roguelike 游戏。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Vue，Netlify"],
+      ["结构", "单页自述"],
+      ["社交", "X 英文号与中文号"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "I figured, what if I could just extract the part that I really liked about Angular and build something really lightweight.", "cite": "尤雨溪，维基百科 Vue.js 条目引述"},
+    {"p": "他在 X 上常对 JavaScript 生态发表短评，比如看到又一个 TypeScript 的 Rust 移植版时说「又一个 TS Rust 移植加入群聊」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "两代前端基础设施的作者", "—"],
+      ["可持续", "从赞助到公司再到被收购", "部分开发者关注 Vite 归属大厂后的中立性"],
+      ["工具链", "统一 Rust 工具链方向清晰", "Rolldown、Oxc 仍在快速演进"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>只保留你真正喜欢的部分。</strong>",
+     "<strong>渐进式采用，</strong>降低门槛。",
+     "<strong>开发体验就是生产力。</strong>",
+     "<strong>为开源找到可持续的路径。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Vite", "url": "https://vite.dev", "why": "感受一秒启动的开发服务器。"},
+     {"name": "Vue.js", "url": "https://vuejs.org", "why": "渐进式框架的代表。"},
+     {"name": "VoidZero 加入 Cloudflare", "url": "https://voidzero.dev/posts/voidzero-cloudflare", "why": "了解这条工具链的未来。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 npm create vite@latest 新建一个项目，感受一下从输入命令到页面打开要多久。",
+ "sources": [
+  {"label": "Evan You 的 X 个人资料", "url": "https://x.com/evanyou"},
+  {"label": "evanyou.me", "url": "https://evanyou.me"},
+  {"label": "维基百科：Vue.js", "url": "https://en.wikipedia.org/wiki/Vue.js"},
+  {"label": "VoidZero：加入 Cloudflare", "url": "https://voidzero.dev/posts/voidzero-cloudflare"},
+  {"label": "GitHub：yyx990803", "url": "https://github.com/yyx990803"}
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "name": "Megabits（金鱼）",
+ "role": "独立 Apple 开发者 · Magic PiP、Code Drawer、TomoNow、SLIT_STUDIO 作者 · 东京",
+ "title": "Megabits：想当个艺术家，<em>但只会写代码</em>",
+ "dek": "TA 在 X 上自称「金鱼一条」，住在东京，用 Megabits Studio 的名字做独立 Apple 应用。TA 在国内读了一年半大学后退学去日本，靠自己打工凑足四年学费，在日本的大学读设计专业，2025 年毕业，毕业设计还被评为优秀。TA 的作品很「Megabits」：Notch Simulator 让旧 MacBook 假装有刘海，GitHub 上有六百多颗星；Magic PiP 能把图片、PDF、PPT、网页统统塞进画中画小窗；TomoNow 是一个长得像真实厨房计时器的番茄钟；SLIT_STUDIO 是一款狭缝扫描相机。TA 还会用 ESP32 单片机让 iPhone 的「家庭」应用控制家里的空调。",
+ "card": "东京独立 Apple 开发者；Magic PiP、Code Drawer、TomoNow、SLIT_STUDIO、Notch Simulator 作者，设计专业毕业。",
+ "location": "日本东京",
+ "updated": "2026-10-23",
+ "tags": ["独立开发", "iOS / macOS", "设计", "硬件 / ESP32", "中文博客"],
+ "links": [
+  {"label": "Megabits Studio", "url": "https://megabits.xyz"},
+  {"label": "Megabits 博客", "url": "https://blog.megabits.xyz"},
+  {"label": "GitHub：megabitsenmzq", "url": "https://github.com/megabitsenmzq"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「金鱼一条 / 想当个艺术家，但只会写代码」；GitHub 简介「Goldfish / Indie Apple Developer」。",
+  "<strong>代表作：</strong>Magic PiP（2022）、Code Drawer 二维码工具箱（2018）、TomoNow 2 计时器（2020）、SLIT_STUDIO 狭缝相机（2025）、Fish Image Viewer（2024）；开源 Notch-Simulator（★665）、Today-Scripts（★383）、LiveUseful、OSWarp、ESP32-HomeKit-Remote。",
+  "<strong>关键数字：</strong>App Store 开发者名 Jinyu Meng；GitHub 51 个公开仓库；X 关注者约 1.1 万，另有英文号 @Megabits_Studio 和日文号。",
+  "<strong>写作：</strong>中文博客写技术教程和长篇个人随笔，如《青春散场，我毕业了》《人有人的用处》和童年回忆系列。"
+ ],
+ "lead": "TA 在《青春散场，我毕业了》里写，日本的大学安排了礼仪课，教毕业生鞠躬要弯多少度，所有人都穿着找工作用的「丑西装」。TA 四年里一次西装都没穿过，入学式、毕业式、毕业答辩都没有；礼仪课上 TA 不跟着做，被教授请了出去，临走时说「这一切不符合我的价值观」。TA 后来写：「如果不尽最大的努力用自己喜欢的样子活着，便不会再有第二次机会。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立 Apple 开发者、设计专业毕业生"],
+     ["所在地", "日本东京"],
+     ["教育", "国内大学一年半后退学；日本大学设计专业，2025 年毕业"],
+     ["工作室", "Megabits Studio（简 / 繁 / 日 / 英四语网站）"],
+     ["应用", "Magic PiP、Code Drawer、TomoNow 2、SLIT_STUDIO、Fish Image Viewer"],
+     ["技术栈", "Swift、SwiftUI、Metal、Objective-C、C / ESP32、Python"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Megabits 擅长<strong>找到系统里没人用过的缝隙</strong>。Magic PiP 利用画中画窗口，让你一边做别的事，一边看文档、幻灯片或剪贴板里的文字，「几乎就像分屏」。LiveUseful 想让锁屏变得有用；Live-Activity-Background-Update-Demo 演示了如何用「声音」后台模式刷新实时活动；Notch Simulator 则是一个玩笑：让你假装拥有最新的 MacBook Pro。"},
+    {"p": "TA 也跨到硬件：用 ESP32 做 HomeKit 遥控器控制空调，做过一个 9 位 VFD 信息屏 MyVFD；2026 年 10 月开源 OSWarp，一键重启进另一个系统，方便 Windows 和 Linux 双系统切换。"},
+    {"note": "本页依据 megabits.xyz、blog.megabits.xyz、App Store、GitHub 和 X 资料整理，资料截至 2026 年 10 月。性别未见本人明确表述，本页用 TA；X 上的时政与签证讨论、博客中的家庭回忆未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "童年", "title": "VB6", "text": "从小学的是 VB6，自学写代码和电路。"},
+     {"when": "2016–2019", "title": "macOS 小工具", "text": "Today-Scripts（通知中心运行脚本）、AirBass（macOS 的 AirPlay 音频服务器）、iDOS 移植。"},
+     {"when": "退学出国", "title": "去日本", "text": "国内大学读了一年半后退学，到日本读设计。"},
+     {"when": "2018–2022", "title": "App Store 作品", "text": "Code Drawer（2018）、TomoNow 2（2020）、Magic PiP（2022）；Notch Simulator（2021）。"},
+     {"when": "2025", "title": "毕业与 SLIT_STUDIO", "text": "3 月发布狭缝扫描相机；7 月写下毕业长文。"},
+     {"when": "2026", "title": "继续独立", "text": "Fish Image Viewer 2.0、Code Drawer 5.9；开源 OSWarp。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Magic PiP", "url": "https://apps.apple.com/us/app/magic-pip/id1613046504",
+     "meta": ["2022–", "iOS", "免费"],
+     "paras": [
+      "「You never think this is even possible.」画中画小窗里可以放多张图片或视频、PDF、TXT、PowerPoint 幻灯片、剪贴板文字和网页，悬浮在其他应用之上。"
+     ],
+     "facts": [["App Store", "美区 ★4.67，日区 ★4.89"]]
+    }},
+    {"work": {
+     "name": "Code Drawer（コードばこ）", "url": "https://apps.apple.com/us/app/code-drawer/id1438149621",
+     "meta": ["2018–", "iPhone · iPad · Watch · Mac"],
+     "paras": [
+      "一站式二维码工具箱：扫描、生成、整理、展示。一次购买全平台可用，2026 年仍在更新。"
+     ]
+    }},
+    {"work": {
+     "name": "TomoNow 2", "url": "https://apps.apple.com/us/app/tomonow-2/id1505296579",
+     "meta": ["2020", "效率", "$3.99"],
+     "paras": [
+      "「你还记得上次用真正的计时器是什么时候吗？」界面像一个实体计时器，帮你专注、避免打扰。日区名为 PomoNow 2。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["SLIT_STUDIO", "高性能狭缝扫描相机，把现实变成艺术（2025）"],
+      ["Notch-Simulator", "让 Mac 屏幕顶部出现刘海（★665）"],
+      ["Fish Image Viewer", "批量浏览文件夹里的图片和视频，读 EXIF"],
+      ["ESP32-HomeKit-Remote", "用 iOS「家庭」控制空调"],
+      ["SwiftUI-Metal-Starting-Point", "SwiftUI + Metal 着色器项目模板"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://megabits.xyz", "paras": [
+     "Megabits Studio 的官网是一个用 Alpine.js 做的极简页面：一个 logo、一层渐变背景、应用 / 创作 / 博客 / 关于四个入口，以及简体、繁体、日文、英文四种语言切换。",
+     "博客 blog.megabits.xyz 分技术文章和随笔两部分。随笔很长，写童年、家人、出国和毕业，文字克制而诚实。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Alpine.js 静态站，Cloudflare"],
+      ["语言", "简 / 繁 / 日 / 英"],
+      ["写作", "技术教程（GitHub Tutorials 存档）+ 个人随笔"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-09-08", "title": "人有人的用处", "url": "https://blog.megabits.xyz/posts/human-use/"},
+     {"date": "2025-07-23", "title": "青春散场，我毕业了", "url": "https://blog.megabits.xyz/posts/my-graduation/"},
+     {"date": "2023-08-26", "title": "值得怀念的东西", "url": "https://blog.megabits.xyz/posts/memorable-things/"}
+    ]},
+    {"quote": "如果不尽最大的努力用自己喜欢的样子活着，便不会再有第二次机会。", "cite": "Megabits，《青春散场，我毕业了》"},
+    {"p": "TA 对产品和安全有自己的判断：评价 Arc「交互非常创新，性能依托答辩」；尽量不用 Passkey，把两步验证放在单独的应用里，因为「我无法保证我用的密码管理器真的坚不可摧」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["创意", "善于利用系统特性做新奇工具", "—"],
+      ["跨界", "设计、软件、硬件都能做", "—"],
+      ["产品", "多款应用长期维护", "用户规模较小，评分样本少"],
+      ["表达", "博客真诚有力", "X 上时政讨论较多"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>在系统缝隙里找机会：</strong>画中画、锁屏、刘海都能做文章。",
+     "<strong>设计和代码可以互补：</strong>在设计专业里，会写代码是优势。",
+     "<strong>硬件也能玩：</strong>一块 ESP32 就能接入 HomeKit。",
+     "<strong>多语言是基本功：</strong>网站和账号覆盖四种语言。",
+     "<strong>用自己喜欢的样子活着。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Magic PiP", "url": "https://apps.apple.com/us/app/magic-pip/id1613046504", "why": "在小窗里看 PDF。"},
+     {"name": "青春散场，我毕业了", "url": "https://blog.megabits.xyz/posts/my-graduation/", "why": "一篇关于自由的长文。"},
+     {"name": "Notch-Simulator", "url": "https://github.com/megabitsenmzq/Notch-Simulator", "why": "给旧 Mac 加一个刘海。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "找一个系统功能（画中画、小组件、快捷指令），想想它还能用来做什么别人没想到的事。",
+ "sources": [
+  {"label": "Megabits 的 X 个人资料", "url": "https://x.com/Megabits_mzq"},
+  {"label": "Megabits Studio", "url": "https://megabits.xyz"},
+  {"label": "Megabits 博客", "url": "https://blog.megabits.xyz"},
+  {"label": "青春散场，我毕业了", "url": "https://blog.megabits.xyz/posts/my-graduation/"},
+  {"label": "App Store：Magic PiP", "url": "https://apps.apple.com/us/app/magic-pip/id1613046504"},
+  {"label": "GitHub：megabitsenmzq", "url": "https://github.com/megabitsenmzq"}
+ ]
+}

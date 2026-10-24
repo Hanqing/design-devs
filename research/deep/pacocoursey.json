@@ -1,0 +1,404 @@
+{
+ "handle": "pacocoursey",
+ "sites": [
+  {
+   "url": "https://paco.me",
+   "ok": true,
+   "title": "Paco Coursey",
+   "description": "",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Paco Coursey \n Crafting interfaces . Building polished software and web experiences. Experimenting with magical details in user interfaces. Webmaster at Linear . \nIn the past I’ve developed the Vercel design system, website, and dashboard. \nBuilding \n Craft \nImplementing interfaces and interactions. \nProjects \n ⌘K \nComposable command menu React component. \n Writer \nPlain text editor with a focus on performance. \n Next Themes \nPerfect dark mode in Next.js apps. \nWriting \n React Hook Getter Pattern \nSimple, efficient React state hook in 50 lines. \n Redesign 2021 \nReturn to simplicity. \n All writing \nInfrequent thoughts on design and code. \nNow \nDeveloping skill through doing, guiltlessly exploring passion and interests, imbuing quality. Mindful that everything around me is someone’s life work. \nAll I want to do is build websites. Typography, motion design, copywriting, performance—the web is an endless medium of opportunity and creativity of which I’ve only scratched the surface. \nEnjoying deep, dark, boring dance music: songs that set the pace in the first ten seconds and maintain it for the next ten minutes. Deep is a curation of my favorites. Soothed by the inherent energy of drum and bass— Drum has my favorites. \nConnect \nReach me at @pacocoursey or .",
+   "github_links": [
+    "pacocoursey"
+   ],
+   "subpages": {
+    "https://paco.me/writing": "Writing \n 2023 \nGet the browser default font size 05/09 \nSafari favicon showing white background on dark mode 04/19 \n 2022 \npx vs rem in font-size 09/01 \n 2021 \nRedesign 2021 11/12 \nReact Hook Getter Pattern 09/27 \n 2020 \nmacOS Color Picker 06/26 \nSVG Caching with <use> 06/25 \nCustom CSS via Serverless Proxy 05/17 \nShared Hook State with SWR 05/09 \nCSS Previous Sibling Selector 03/24 \nDisable transitions on theme toggle 03/19 \nBetter Next.js Imports 03/15 \nCustom text underlines 02/11 \nThoughtless 01/21 \n 2019 \nStyled System with styled-jsx 12/21 \nWrite it down 11/19 \nOn Gaming 11/16 \nGood Writers 10/24 \nCreative Output 08/19 \nPersistent Custom App Icons 03/30 \nUnderstanding package.json 03/11"
+   },
+   "feed": {
+    "url": "https://paco.me/feed.xml",
+    "count_seen": 17,
+    "items": [
+     {
+      "title": "macOS Color Picker",
+      "date": "Fri, 26 Jun 2020 04:00:00",
+      "url": "https://paco.sh/blog/macos-color-picker"
+     },
+     {
+      "title": "SVG Caching with <use>",
+      "date": "Thu, 25 Jun 2020 04:00:00",
+      "url": "https://paco.sh/blog/svg-caching-with-use"
+     },
+     {
+      "title": "Custom CSS via Serverless Proxy",
+      "date": "Sun, 17 May 2020 04:00:00",
+      "url": "https://paco.sh/blog/custom-css-via-proxy"
+     },
+     {
+      "title": "Shared Hook State with SWR",
+      "date": "Sat, 09 May 2020 04:00:00",
+      "url": "https://paco.sh/blog/shared-hook-state-with-swr"
+     },
+     {
+      "title": "CSS Previous Sibling Selector",
+      "date": "Tue, 24 Mar 2020 04:00:00",
+      "url": "https://paco.sh/blog/css-previous-sibling-selector"
+     },
+     {
+      "title": "Disable transitions on theme toggle",
+      "date": "Thu, 19 Mar 2020 04:00:00",
+      "url": "https://paco.sh/blog/disable-theme-transitions"
+     },
+     {
+      "title": "Better Next.js Imports",
+      "date": "Sun, 15 Mar 2020 04:00:00",
+      "url": "https://paco.sh/blog/better-nextjs-imports"
+     },
+     {
+      "title": "Custom text underlines",
+      "date": "Tue, 11 Feb 2020 05:00:00",
+      "url": "https://paco.sh/blog/custom-text-underlines"
+     },
+     {
+      "title": "Thoughtless",
+      "date": "Tue, 21 Jan 2020 05:00:00",
+      "url": "https://paco.sh/blog/be-thoughtless"
+     },
+     {
+      "title": "Styled System with styled-jsx",
+      "date": "Sat, 21 Dec 2019 05:00:00",
+      "url": "https://paco.sh/blog/styled-jsx-system"
+     },
+     {
+      "title": "Write it down",
+      "date": "Tue, 19 Nov 2019 05:00:00",
+      "url": "https://paco.sh/blog/write-it-down"
+     },
+     {
+      "title": "On Gaming",
+      "date": "Sat, 16 Nov 2019 05:00:00",
+      "url": "https://paco.sh/blog/on-gaming"
+     },
+     {
+      "title": "Good Code",
+      "date": "Sat, 02 Nov 2019 04:00:00",
+      "url": "https://paco.sh/blog/good-code"
+     },
+     {
+      "title": "Good Writers",
+      "date": "Thu, 24 Oct 2019 04:00:00",
+      "url": "https://paco.sh/blog/good-writers"
+     },
+     {
+      "title": "Creative Output",
+      "date": "Mon, 19 Aug 2019 04:00:00",
+      "url": "https://paco.sh/blog/creative"
+     },
+     {
+      "title": "Persistent Custom App Icons",
+      "date": "Sat, 30 Mar 2019 04:00:00",
+      "url": "https://paco.sh/blog/persistent-icons"
+     },
+     {
+      "title": "Understanding package.json",
+      "date": "Mon, 11 Mar 2019 04:00:00",
+      "url": "https://paco.sh/blog/understanding-package-json"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "pacocoursey",
+  "user": {
+   "name": "paco",
+   "company": null,
+   "blog": "",
+   "location": null,
+   "bio": null,
+   "public_repos": 17,
+   "followers": 3502,
+   "created_at": "2017-12-29T01:55:31Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "pacocoursey/next-themes",
+    "description": "Perfect Next.js dark mode in 2 lines of code. Support System preference and any other theme with no flashing",
+    "stargazers_count": 6342,
+    "forks_count": 255,
+    "language": "TypeScript",
+    "homepage": "https://next-themes-example.vercel.app/",
+    "created_at": "2020-10-10T05:32:52Z",
+    "pushed_at": "2026-02-25T05:25:42Z",
+    "topics": [
+     "dark-mode",
+     "dark-theme",
+     "nextjs",
+     "react",
+     "themes"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/writer",
+    "description": "plain text editor",
+    "stargazers_count": 582,
+    "forks_count": 38,
+    "language": "JavaScript",
+    "homepage": "https://writer.paco.sh",
+    "created_at": "2021-09-22T16:38:03Z",
+    "pushed_at": "2021-10-28T03:39:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/next-unused",
+    "description": "Find unused files in your Next.js projects",
+    "stargazers_count": 424,
+    "forks_count": 14,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2020-04-17T06:00:18Z",
+    "pushed_at": "2024-08-07T18:43:05Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "pacocoursey/xslt",
+    "description": "Native web build system (XML+XSLT)",
+    "stargazers_count": 327,
+    "forks_count": 5,
+    "language": "XSLT",
+    "homepage": "https://xslt.vercel.app/blog.xml",
+    "created_at": "2025-06-26T23:14:09Z",
+    "pushed_at": "2025-06-27T02:50:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/paco",
+    "description": "personal website and blog",
+    "stargazers_count": 317,
+    "forks_count": 43,
+    "language": "JavaScript",
+    "homepage": "https://paco.sh",
+    "created_at": "2019-02-09T09:08:43Z",
+    "pushed_at": "2022-04-04T22:14:33Z",
+    "topics": [
+     "blog",
+     "design",
+     "javascript",
+     "nextjs",
+     "react"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "pacocoursey/Opus",
+    "description": "minimal note-taking app",
+    "stargazers_count": 314,
+    "forks_count": 19,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-01-21T06:54:30Z",
+    "pushed_at": "2023-01-07T06:50:18Z",
+    "topics": [
+     "electron",
+     "note-taking",
+     "writing"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/Dusk",
+    "description": "simple, customizable macOS application icons",
+    "stargazers_count": 170,
+    "forks_count": 10,
+    "language": "JavaScript",
+    "homepage": "https://dusk.now.sh",
+    "created_at": "2018-10-01T06:12:51Z",
+    "pushed_at": "2024-06-17T21:31:21Z",
+    "topics": [
+     "cli",
+     "design",
+     "icons",
+     "react"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/use-delayed-render",
+    "description": "react hook for delaying the render and unmount of a component",
+    "stargazers_count": 168,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2020-05-13T05:39:06Z",
+    "pushed_at": "2023-01-07T04:43:32Z",
+    "topics": [
+     "hook",
+     "react",
+     "react-hooks"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/state",
+    "description": "merge ideas from zustand + swr + valtio into a simple shared state",
+    "stargazers_count": 126,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2021-09-08T22:05:47Z",
+    "pushed_at": "2022-12-15T15:54:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/use-descendants",
+    "description": "react hook for keeping track of descendant components and their relative indeces",
+    "stargazers_count": 115,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-09-15T02:01:35Z",
+    "pushed_at": "2021-09-28T14:35:33Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "pacocoursey/thoughtless",
+    "description": "Think less, sleep more.",
+    "stargazers_count": 40,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "https://thoughtless.paco.sh",
+    "created_at": "2020-01-02T02:06:55Z",
+    "pushed_at": "2024-05-10T02:41:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/svgcache",
+    "description": "demo for my blost post on SVG Caching with <use>",
+    "stargazers_count": 16,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "https://paco.im/blog/svg-caching-with-use",
+    "created_at": "2020-06-26T02:14:26Z",
+    "pushed_at": "2020-12-18T18:58:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/styled-jsx-system",
+    "description": "Use styled-system with styled-jsx",
+    "stargazers_count": 12,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "https://styled-jsx-system.now.sh/",
+    "created_at": "2019-11-17T21:22:59Z",
+    "pushed_at": "2023-01-07T12:53:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/dusk-react",
+    "description": "react components for dusk icons",
+    "stargazers_count": 8,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-10-23T03:56:26Z",
+    "pushed_at": "2022-12-03T09:03:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/next-cascade-layers",
+    "description": null,
+    "stargazers_count": 6,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://next-cascade-layers.vercel.app/",
+    "created_at": "2024-04-29T17:07:59Z",
+    "pushed_at": "2024-04-29T17:23:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pacocoursey/fable",
+    "description": "Browser based static site generator",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "",
+    "created_at": "2022-04-04T22:15:57Z",
+    "pushed_at": "2025-10-29T05:52:35Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 16,
+  "languages": [
+   [
+    "JavaScript",
+    10
+   ],
+   [
+    "TypeScript",
+    4
+   ],
+   [
+    "XSLT",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "dip/cmdk",
+    "stargazerCount": 13038,
+    "description": "Fast, unstyled command menu React component.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "pacocoursey/next-themes",
+    "stargazerCount": 6342,
+    "description": "Perfect Next.js dark mode in 2 lines of code. Support System preference and any other theme with no flashing",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://next-themes-example.vercel.app/"
+   }
+  ],
+  "contrib_last_year": 1482,
+  "orgs": [
+   "linear"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "dip/cmdk": "<p align=\"center\">\n</p>\n# ⌘K [](https://www.npmjs.com/package/cmdk?activeTab=code) [](https://www.npmjs.com/package/cmdk)\n⌘K is a command menu React component that can also be used as an accessible combobox. You render items, it filters and sorts them automatically. ⌘K supports a fully composable API <sup><sup>[How?](/ARCHITECTURE.md)</sup></sup>, so you can wrap items in other components or even as static JSX.\n## Install\n```bash\npnpm install cmdk\n```\n## Use\n```tsx\nimport { Command } from 'cmdk'\nconst CommandMenu = () => {\n  return (\n    <Command label=\"Command Menu\">\n      <Command.Input />\n      <Command.List>\n        <Command.Empty>No results found.</Command.Empty>\n        <Command.Group heading=\"Letters\">\n          <Command.Item>a</Command.Item>\n          <Command.Item>b</Command.Item>\n          <Command.Separator />\n          <Command.Item>c</Command.Item>\n        </Command.Group>\n        <Command.Item>Apple</Command.Item>\n      </Command.List>\n    </Command>\n  )\n}\n```\nOr in a dialog:\n```tsx\nimport { Command } from 'cmdk'\nconst CommandMenu = () => {\n  const [open, setOpen] = React.useState(false)\n  // Toggle the menu when ⌘K is pressed\n  React.useEffect(() => {\n    const down = (e) => {\n      if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {\n        e.preventDefault()\n        setOpen((open) => !open)\n      }\n    }\n    document.addEventListener('keydown', down)\n    return () => document.removeEventListener('keydown', down)\n  }, [])\n  return (\n    <Command.Dialog open={open} onOpenChange={setOpen} label=\"Global Command Menu\">\n      <Command.Input />\n      <Command.List>\n        <Command.Empty>No results found.</Command.Empty>\n        <Command.Group heading=\"Letters\">\n          <Command.Item>a</Command.Item>\n          <Command.Item>b</Command.Item>\n          <Command.Separator />\n          <Command.Item>c</Command.Item>\n        </Command.Group>\n        <Command.Item>Apple</Command.Item>\n      </Command.List>\n    </Command.Dialog>\n  )\n}\n```\n## Parts and styling\nAll parts forward props, including `ref`, to an appropriate element. Each part has a specific data-attribute (starting with `cmdk-`) that can be used for styling.\n### Command `[cmdk-root]`\nRender this to ",
+   "pacocoursey/next-themes": "# next-themes  [](https://www.npmjs.com/package/next-themes)\nAn abstraction for themes in your React app.\n- ✅ Perfect dark mode in 2 lines of code\n- ✅ System setting with prefers-color-scheme\n- ✅ Themed browser UI with color-scheme\n- ✅ Support for Next.js 13 `appDir`\n- ✅ No flash on load (both SSR and SSG)\n- ✅ Sync theme across tabs and windows\n- ✅ Disable flashing when changing themes\n- ✅ Force pages to specific themes\n- ✅ Class or data attribute selector\n- ✅ `useTheme` hook\nCheck out the [Live Example](https://next-themes-example.vercel.app/) to try it for yourself.\n## Install\n```bash\n$ npm install next-themes\n# or\n$ yarn add next-themes\n```\n## Use\n### With pages/\nYou'll need a [Custom `App`](https://nextjs.org/docs/advanced-features/custom-app) to use next-themes. The simplest `_app` looks like this:\n```jsx\n// pages/_app.js\nfunction MyApp({ Component, pageProps }) {\n  return <Component {...pageProps} />\n}\nexport default MyApp\n```\nAdding dark mode support takes 2 lines of code:\n```jsx\n// pages/_app.js\nimport { ThemeProvider } from 'next-themes'\nfunction MyApp({ Component, pageProps }) {\n  return (\n    <ThemeProvider>\n      <Component {...pageProps} />\n    </ThemeProvider>\n  )\n}\nexport default MyApp\n```\n### With app/\nYou'll need to update your `app/layout.jsx` to use next-themes. The simplest `layout` looks like this:\n```jsx\n// app/layout.jsx\nexport default function Layout({ children }) {\n  return (\n    <html>\n      <head />\n      <body>{children}</body>\n    </html>\n  )\n}\n```\nAdding dark mode support takes 2 lines of code:\n```jsx\n// app/layout.jsx\nimport { ThemeProvider } from 'next-themes'\nexport default function Layout({ children }) {\n  return (\n    <html suppressHydrationWarning>\n      <head />\n      <body>\n        <ThemeProvider>{children}</ThemeProvider>\n      </body>\n    </html>\n  )\n}\n```\nNote that `ThemeProvider` is a client component, not a server component.\n> **Note!** If you do not add [suppressHydrationWarning](https://reactjs.org/docs/dom-elements.html#suppresshydrationwarning:~:text=It%20only%20works%20one%20level%20deep) to your `<html>` you will get warnings because `next-themes` updates that element. This property only applies one level deep, so",
+   "pacocoursey/writer": "# writer\nPlain text editor from scratch, made for the web. Drag and drop files to open them.\n### Architecture\n- Buffer is an array of array of lines\n- Text is manually measured and wrapped with canvas\n- Lines are virtualized on scroll and drawn as divs\n- Cursor and selection are also divs\n- Word boundary operations are emulated with textarea\n- Styling through CSS variables\n### Future\n- B-tree buffer with height map\n- History system\n- Operational transform\n- Alternate canvas renderer with FreeType and Harfbuzz\n",
+   "pacocoursey/next-unused": "> [!IMPORTANT]  \n> This project is no longer maintained. We recommend using [Knip](https://github.com/webpro-nl/knip) instead.\n# next-unused\nnext-unused is an easy way to find unused files in your [Next.js](https://github.com/zeit/next.js) project.\n## Installation\nInstall as a `devDependency`:\n```\n$ yarn add next-unused -D\n```\n### Usage\nIn `package.json`, add a script to find unused files:\n```json\n\"scripts\": {\n  \"find:unused\": \"next-unused\"\n}\n```\nRun the script to list any unused files:\n```\n$ yarn find:unused\n```\n### Configuration\nAdd a property to your `package.json` to configure next-unused:\n```json\n{\n  \"next-unused\": {\n    \"alias\": {},\n    \"include\": [],\n    \"exclude\": [],\n    \"entrypoints\": []\n  }\n}\n```\n| Property      | Type     | Default   | Description                                                            |\n| ------------- | -------- | --------- | ---------------------------------------------------------------------- |\n| `debug`       | boolean  | `false`    | turn on debug messages                                                 |\n| `alias`       | object   | `{}`        | import aliases in webpack format (`{ \"@components\": \"components/\" }`) |\n| `include`     | string[] | `['pages']` | list of directories to search through. `pages` is always included      |\n| `exclude`     | string[] | `[]`        | array of RegExp that exclude matching filenames                        |\n| `entrypoints` | string[] | `['pages']` | list of directories to use as entrypoints. `pages` is always included  |\n### Example\nYour Next.js setup looks like this:\n```\npackage.json\n├─ pages/\n│  ├─ index.js\n└─ components/\n   ├─ button.js\n   └─ image.js\n```\nAnd your `pages/index.js` contains:\n```js\nimport Button from '../components/button'\nexport default () => {\n  return (\n    <Button>Click me</Button>\n  )\n}\n```\nConfigure `next-unused` to include the `components` directory in `package.json`:\n```json\n{\n  \"next-unused\": {\n    \"include\": [\"components\"]\n  }\n}\n```\nRunning `next-unused` will output:\n```\nFound 1 unused file:\ncomponents/image.js\n```\n### Credits\nShu and Luc wrote the initial version of this script.\n- [Shu](https://twitter.com/shuding_)\n- [Luc](https://twitter.com/lucleray)\n",
+   "pacocoursey/xslt": "# XSLT\n[XSLT](https://www.w3.org/TR/xslt) (1999): native, zero-config build system for the Web.\n---\n```\n   From: Grug brain Paco\n     To: Paco\nSubject: XSLT\n```\nmost static websites created like this\n- data (`.json`, `.md`, `.txt`)\n- build system (Hugo, Next.js, Astro, …)\n- output (static HTML)\nme make many website, find build system has much complexity. not understand big project like React Next.js, need many PhD for understand how my markdown blog work\nme want remove framework (many grug do), want use simple HTML and CSS, use sacred spec like HTTP URI HTML. but no build system? this mean writing _lot_ lot HTML by hand. when time come for many webpages, need header and footer same same on all pages: copy paste easy for while. but when, in future, there _many_ many many pages? me need better solution\ncan use HTML import? nope not exist\ncan use web component? nope need JS and now need JavaScript engine\nfor a while me think about this problem. many month me work on other projects, work on tool like web browser, UI components, think about other thing in mind, like how gravity and what make good stylesheet.\nwait, can use web browser like build system? seem good for data → HTML, it understand many format already like `text/html` `text/markdown` `application/xml`. more months me learn about web browser, what make good URL, how email work, take some break, listen music, play game\nlearn that spec best place learn all web stuff. discover many good idea in spec, read carefully, click links, use many feature me not know about for make good app experience\none day me working on RSS feed and want make `/rss/blog.xml` more pretty, not just text, can use stylesheet? yep find [spec about XSLT](https://www.w3.org/TR/xslt/) for making pretty XML document\nme not really know much about XML document, just using `rss` npm package and it work, so me find [XML spec](https://www.w3.org/TR/xml) and read bit…\n```xml\n<?xml version=\"1.0\"?>\n<blog>\n  <post id=\"42\" publishedAt=\"2025-06-26\">\n    <title>Hello XSLT</title>\n    <tags>…</tags>\n  </post>\n</blog>\n```\nok is great! it look like HTML but for all data, not just web data. adding stylesheet very natural just new tag\n```diff\n<?xml version=\"1"
+  }
+ },
+ "apps": []
+}

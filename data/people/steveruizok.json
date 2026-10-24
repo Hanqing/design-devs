@@ -1,0 +1,167 @@
+{
+ "name": "Steve Ruiz",
+ "role": "tldraw 创始人兼 CEO · perfect-freehand、perfect-arrows 作者 · 伦敦",
+ "title": "Steve Ruiz：一个原型<em>长成了公司</em>",
+ "dek": "他住在伦敦，是开发者、设计师，「现在也是创业公司创始人」，学的是视觉艺术。他给 Framer 做过教学内容，帮 Play 设计过 iOS 上的移动端设计工具，同时在 GitHub 上做了一个又一个画布小实验：模拟压感的手绘线条库 perfect-freehand，在两点或两个形状之间画出漂亮箭头的 perfect-arrows，多人光标插值库 perfect-cursors。2022 年，这些实验汇成了 tldraw：一个 React 无限画布 SDK，GitHub 上有 5 万多颗星。他的演示站 tldraw.com 每月有近 50 万活跃用户，公司已完成 A 轮融资。2026 年 10 月，他又放出了一个打磨了八个月的笔记应用测试版。",
+ "card": "tldraw 创始人兼 CEO（伦敦）；perfect-freehand（★5.8 千）、perfect-arrows 作者；视觉艺术出身的画布交互专家。",
+ "location": "英国伦敦",
+ "updated": "2026-10-23",
+ "tags": ["无限画布", "创意工具", "TypeScript", "React", "开源"],
+ "links": [
+  {"label": "steveruiz.me", "url": "https://steveruiz.me"},
+  {"label": "tldraw", "url": "https://tldraw.com"},
+  {"label": "tldraw SDK", "url": "https://github.com/tldraw/tldraw"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I build lots of prototypes. Sometimes those prototypes turn into products.」",
+  "<strong>代表作：</strong>tldraw（★51,058）、perfect-freehand（★5,773）、perfect-arrows（★2,850）、perfect-cursors、State Designer、globs 矢量编辑器、Telestrator、kdtype 儿童打字游戏。",
+  "<strong>关键数字：</strong>tldraw.com 月活近 50 万；GitHub 177 个公开仓库、近一年贡献 8,427 次；X 关注者约 6.2 万。",
+  "<strong>经历：</strong>视觉艺术背景 → Framer 教学内容 → Play 移动设计工具 → 2022 年创办 tldraw。"
+ ],
+ "lead": "Steve 的 GitHub 个人简介只有两句话：「为创意工具做设计和开发。这里有很多副业项目，其中一个变成了创业公司。」那个项目就是 tldraw。它最初只是一个「小小的绘图应用」，用上了他自己写的 perfect-freehand 和 perfect-arrows；后来变成了开发者用来快速搭建白板和画布类应用的 SDK。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开发者、设计师、创始人兼 CEO"],
+     ["所在地", "英国伦敦"],
+     ["背景", "视觉艺术"],
+     ["经历", "Framer（教学内容）→ Play（移动端设计工具）→ tldraw（2022–）"],
+     ["开源", "tldraw、perfect-freehand、perfect-arrows、perfect-cursors、state-designer、globs、rko"],
+     ["技术栈", "TypeScript、React、Canvas / SVG、Dart、C++（嵌入式）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Steve 把<strong>画布交互的难题</strong>一个个拆成小库。手绘线条要模拟压感和速度；箭头要优雅地绕开形状；多人光标在网络延迟下要平滑插值；图层排序要用分数索引。每个问题他都写过文章或开源库，比如博客里的《All About Arcs》和关于排序的两篇连载。"},
+    {"p": "现在他运营 tldraw 公司，同时继续做原型：一个跨 iOS、网页和 Android，支持实时多人协作和离线的笔记应用；一个跑在 M5StickS3 小设备上的聊天项目。他也在招「以前写过代码的设计师」。"},
+    {"note": "本页依据 steveruiz.me（首页与 About）、tldraw GitHub、个人仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。月活和融资信息来自其 About 页。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "视觉艺术", "text": "艺术背景，后来转向网页创意工具。"},
+     {"when": "2017–2019", "title": "Framer 时期", "text": "为 Framer 制作教学内容；开源 gotcha（把 Framer 原型变成开发规范）和 State Designer。"},
+     {"when": "2020–2021", "title": "画布小库", "text": "perfect-arrows（2020）、perfect-freehand 和 globs（2021）；此前或同期为 Play 设计 iOS 设计工具。"},
+     {"when": "2022", "title": "创办 tldraw", "text": "围绕同名无限画布 SDK 成立公司。"},
+     {"when": "此后", "title": "SDK 与 tldraw.com", "text": "tldraw.com 月活接近 50 万；公司完成由 Lux 支持的 A 轮融资。"},
+     {"when": "2026", "title": "新笔记应用", "text": "10 月发布打磨八个月的跨平台多人笔记应用测试版。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "tldraw", "url": "https://github.com/tldraw/tldraw",
+     "meta": ["2021–", "React SDK", "★5.1 万"],
+     "paras": [
+      "给 React 的无限画布 SDK。开发者用它加速开发白板和其他画布类应用；它的演示站 tldraw.com 本身也成了一个受欢迎的白板工具。"
+     ],
+     "facts": [["GitHub", "★51,058"]]
+    }},
+    {"work": {
+     "name": "perfect-freehand", "url": "https://perfectfreehand.com",
+     "meta": ["2021–", "TypeScript", "★5.8 千"],
+     "paras": [
+      "「Draw perfect pressure-sensitive freehand lines.」根据输入点的速度和压力生成手绘线条的轮廓。有 Figma 插件，社区移植到了 Dart、Odin 等语言。"
+     ]
+    }},
+    {"work": {
+     "name": "perfect-arrows", "url": "https://github.com/steveruizok/perfect-arrows",
+     "meta": ["2020", "TypeScript", "★2.9 千"],
+     "paras": [
+      "点到点、框到框的箭头计算函数。他说这个库「带来了一些有趣的推文串」，当时他发布的箭头动画在设计圈广为流传。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["perfect-cursors", "多人光标的平滑插值，用在 tldraw 里"],
+      ["State Designer", "基于状态图的状态管理库，带可视化设计环境"],
+      ["globs", "基于「glob」概念的矢量编辑器实验"],
+      ["Telestrator", "在屏幕上画了就消失的标注工具"],
+      ["kdtype", "给孩子的打字游戏"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://steveruiz.me", "paras": [
+     "博客全是硬核的实现笔记：怎样在 Next.js App Router 里随 Markdown 改动刷新、TypeScript 的「压扁对象联合」类型、给名字自动加序号、圆弧几何、用 Liveblocks 存储 API 做多人项目复制，以及用分数索引实现「置于顶层 / 底层」。",
+     "About 页简短坦白：怎样联系他、怎样赞助他的开源工作。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel 托管"],
+      ["内容", "画布实现、TypeScript 技巧"],
+      ["节奏", "2022 年前后较密，之后较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2023-11-09", "title": "Refreshing the Next.js App Router When Your Markdown Content Changes", "url": "https://steveruiz.me"},
+     {"date": "2022-05-19", "title": "All About Arcs", "url": "https://steveruiz.me"},
+     {"date": "2022-02-14", "title": "Reordering Part 2: Tables and Fractional Indexing", "url": "https://steveruiz.me"}
+    ]},
+    {"quote": "Design and development for creative tools. Lots of side projects here, one of them became a startup.", "cite": "Steve Ruiz，GitHub 简介"},
+    {"p": "他对「tools for thought」这个说法不以为然，开玩笑说更喜欢「softweas for ideas」。他也在尝试让 Agent 优化性能：先花一小时整理所有关心的性能指标，再让「机器人」去找能同时改善多个指标的方案。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["交互", "画布、手绘、箭头细节业界一流", "—"],
+      ["开源", "小库好用、文档清楚", "Telestrator 等项目在找维护者"],
+      ["商业", "开源 SDK 成功转为公司", "tldraw SDK 商用需遵守其许可条款"],
+      ["产出", "原型多、发布快", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>多做原型：</strong>其中一个可能变成公司。",
+     "<strong>把难题拆成小库：</strong>每个都能单独发布。",
+     "<strong>写实现笔记：</strong>几何和排序问题值得记下来。",
+     "<strong>演示站就是产品：</strong>tldraw.com 带来了大量用户。",
+     "<strong>艺术背景是优势：</strong>它让你知道线条应该长什么样。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "tldraw.com", "url": "https://tldraw.com", "why": "画几笔，感受 perfect-freehand。"},
+     {"name": "tldraw SDK", "url": "https://github.com/tldraw/tldraw", "why": "给你的应用加一块无限画布。"},
+     {"name": "perfect-arrows", "url": "https://github.com/steveruizok/perfect-arrows", "why": "学习箭头的几何。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你一直觉得别扭的小交互（比如箭头、拖拽、排序），花一个周末把它做成一个独立的小库。",
+ "sources": [
+  {"label": "Steve Ruiz 的 X 个人资料", "url": "https://x.com/steveruizok"},
+  {"label": "steveruiz.me", "url": "https://steveruiz.me"},
+  {"label": "About（steveruiz.me）", "url": "https://steveruiz.me/about"},
+  {"label": "GitHub：tldraw/tldraw", "url": "https://github.com/tldraw/tldraw"},
+  {"label": "GitHub：steveruizok", "url": "https://github.com/steveruizok"}
+ ]
+}

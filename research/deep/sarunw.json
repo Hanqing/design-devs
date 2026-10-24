@@ -1,0 +1,757 @@
+{
+ "handle": "sarunw",
+ "sites": [
+  {
+   "url": "https://sarunw.com",
+   "ok": true,
+   "title": "Sarunw - A weekly blog about iOS development",
+   "description": "I share my working processes, tip and tricks, tools, and problems I found along the way.",
+   "stack": [
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Netlify"
+   ],
+   "lang": "en",
+   "home_text": "Hi, I'm Sarun 👋 — an iOS developer. \nOn this blog I share my working processes, tip and tricks, tools, and problems I found along the way. \nGet weekly updates on new posts \nLatest Post \n How to use layoutMarginsGuide in SwiftUI \n iOS 27.1 gives SwiftUI its own version of UIKit's layoutMarginsGuide, contentMargins(for: .container). Here is how to apply the system margins to a view, how to read them from a GeometryProxy, and what to do on older iOS.\n 22 Oct 2026 \n ⋅\n 8 min read\n SwiftUI \n iOS \nRecent Posts | See All \n How to use layoutMarginsGuide in UIKit \n layoutMarginsGuide gives your views the system margins, so content lines up with the navigation bar on every device. Learn how it works with the safe area, and how to change it.\n 16 Oct 2026 \n ⋅\n 5 min read\n UIKit \n iOS \n some View? without parentheses in Swift 6.4 \n Swift 6.4 lets us write some View? and any P? without wrapping the type in parentheses. Here is why the short form used to fail, what works now, and the one case that still needs them.\n 16 Oct 2026 \n ⋅\n 4 min read\n Swift \n Swift Evolution \n SwiftUI \n Trending Stories\n01 \n When toolbar items share a glass background in iOS 26 \n 08 Oct 2026 \n ⋅\n 7 min read\n SwiftUI \n Toolbar \n iOS 26 \n02 \n Size classes on iPhone Duo \n 10 Oct 2026 \n ⋅\n 2 min read\n iOS \n SwiftUI \n UIKit \n03 \n Set the split size of ArrangementView with splitArrangementLayoutRatio \n 11 Oct 2026 \n ⋅\n 2 min read\n iOS \n SwiftUI \n04 \n Place a sheet on one side with presentationPlacement on iPhone Duo \n 09 Oct 2026 \n ⋅\n 4 min read\n iOS \n SwiftUI \n UIKit \n05 \n How native SwiftUI controls look different in iOS 26 \n 19 Sep 2026 \n ⋅\n 6 min read\n SwiftUI \n iOS 26 \n Liquid Glass \n06 \n Opt in to vertical bars on iPhone Duo \n 22 Sep 2026 \n ⋅\n 5 min read\n iOS \n SwiftUI \n UIKit \n07 \n Adapting controls for iPhone Duo \n 13 Sep 2026 \n ⋅\n 4 min read\n iOS \n Design \n08 \n Sheets and fold avoidance on iPhone Duo \n 15 Sep 2026 \n ⋅\n 4 min read\n iOS \n Design \n09 \n The new JSON project format in Xcode 27.2 \n 17 Sep 2026 \n ⋅\n 7 min read\n Xcode \n Xcode 27 \n Hidden Gems\n01 \n Built-in symbol animations in UIKit controls \n 29 Jun 2023 \n ⋅\n 2 min read\n UIKit \n iOS 17 \n02 \n Flutter: How much time do you save, and at what cost \n 12 Jul 2021 \n ⋅\n 10 min read\n Flutter \n Development \n03 \n How to join an Array of strings into a Single string in Swift \n 28 Dec 2022 \n ⋅\n 2 min read\n Swift \n String \n Array \n04 \n How to declare Swift protocol for a specific class \n 04 Aug 2020 \n ⋅\n 2 min read\n Swift \n Protocol \n05 \n How to customize automatic synthesizing Codable for enums with associated values \n 13 Jan 2022 \n ⋅\n 5 min read\n Swift \n Enum \n Codable \n06 \n What are Character and Run in AttributedString \n 28 Mar 2023 \n ⋅\n 3 min read\n Foundation \n iOS 15 \n AttributedString \n Localization Buddy: Easiest way to\nlocalize and update\nApp Store metadata. \n Try it for Free\nExplore Topics | See all Tags \n Swift 5.9 \n iOS 13 \n UIToolbar \n Data \n Equtable \n KeyPath \n Form \n UIStackView \n Tutorial \n UITextView \n WWDC22 \n tintColor \n UIKit \n Fastlane \n Hashable \nSwiftUI: Explore the new declarative UI framework \n More posts about SwiftUI \n some View? without parentheses in Swift 6.4 \n Swift 6.4 lets us write some View? and any P? without wrapping the type in parentheses. Here is why the short form used to fail, what works now, and the one case that still needs them.\n 16 Oct 2026 \n ⋅\n 4 min read\n Swift \n Swift Evolution \n SwiftUI \n Set the split size of ArrangementView with splitArrangementLayoutRatio \n In iOS 27.1, splitArrangementLayoutRatio sets how much of the screen each view gets when ArrangementView splits them.\n 11 Oct 2026 \n ⋅\n 2 min read\n iOS \n SwiftUI \n Size classes on iPhone Duo \n The horizontal and vertical size classes, and the display size in points, for every iPhone Duo pose and orientation.\n 10 Oct 2026 \n ⋅\n 2 min read\n iOS \n SwiftUI \n UIKit \n Place a sheet on one side with presentationPlacement on iPhone Duo \n iOS 27 lets you put a sheet on the leading or trailing side of the screen. See what each placement does on iPhone Duo when it is open, half-open, and closed.\n 09 Oct 2026 \n ⋅\n 4 min read\n iOS \n SwiftUI \n UIKit \n More posts about SwiftUI or \n explore other topics \nUIKit: Learn the best of both worlds \n More posts about UIKit \n Size classes on iPhone Duo \n The horizontal and vertical size classes, and the display size in points, for every iPhone Duo pose and orientation.\n 10 Oct 2026 \n ⋅\n 2 min read\n iOS \n SwiftUI \n UIKit \n Place a sheet on one side with presentationPlacement on",
+   "github_links": [
+    "jgthms",
+    "sarunw"
+   ],
+   "subpages": {
+    "https://sarunw.com/posts/": "Articles \nIn-depth articles about iOS programming, techniques, language features, architectual patterns, and beyond. \n How to use layoutMarginsGuide in SwiftUI \n iOS 27.1 gives SwiftUI its own version of UIKit's layoutMarginsGuide, contentMargins(for: .container). Here is how to apply the system margins to a view, how to read them from a GeometryProxy, and what to do on older iOS.\n 22 Oct 2026 \n ⋅\n 8 min read\n SwiftUI \n iOS \n How to use layoutMarginsGuide in UIKit \n layoutMarginsGuide gives your views the system margins, so content lines up with the navigation bar on every device. Learn how it works with the safe area, and how to change it.\n 16 Oct 2026 \n ⋅\n 5 min read\n UIKit \n iOS \n some View? without parentheses in Swift 6.4 \n Swift 6.4 lets us write some View? and any P? without wrapping the type in parentheses. Here is why the short form used to fail, what works now, and the one case that still needs them.\n 16 Oct 2026 \n ⋅\n 4 min read\n Swift \n Swift Evolution \n SwiftUI \n Set the split size of ArrangementView with splitArrangementLayoutRatio \n In iOS 27.1, splitArrangementLayoutRatio sets how much of the screen each view gets when ArrangementView splits them.\n 11 Oct 2026 \n ⋅\n 2 min read\n iOS \n SwiftUI \n Size classes on iPhone Duo \n The horizontal and vertical size classes, and the display size in points, for every iPhone Duo pose and orientation.\n 10 Oct 2026 \n ⋅\n 2 min read\n iOS \n SwiftUI \n UIKit \n Place a sheet on one side with presentationPlacement on iPhone Duo \n iOS 27 lets you put a sheet on the leading or trailing side of the screen. See what each placement does on iPhone Duo when it is open, half-open, and closed.\n 09 Oct 2026 \n ⋅\n 4 min read\n iOS \n SwiftUI \n UIKit \n When toolbar items share a glass background in iOS 26 \n In iOS 26, toolbar items next to each other merge into one Liquid Glass capsule. Learn which items merge, which ones stand alone, and how to split them with ToolbarSpacer.\n 08 Oct 2026 \n ⋅\n 7 min read\n SwiftUI \n Toolbar \n iOS 26 \n Get concentric corner radii from GeometryReader in iOS 27 \n iOS 27 adds concentricCornerRadii to GeometryProxy. It tells you the corner radii a view needs to match the corners of its container or the screen.\n 07 Oct 2026 \n ⋅\n 3 min read\n SwiftUI \n iOS \n Why the navigation title moves to the left in iOS 26 \n In iOS 26, an inline navigation title is centered only when it fits. Add a few toolbar items, and it jumps to the leading edge, or gets cut short next to a back button.\n 06 Oct 2026 \n ⋅\n 3 min read\n SwiftUI \n Toolbar \n iOS 26 \n Toolbar overflow and visibility priority on iPhone Duo \n Choosing between the toolbar and tab bar, consolidating overflow, setting visibility priority, and when to turn vertical bars off.\n 05 Oct 2026 \n ⋅\n 4 min read\n iOS \n SwiftUI \n UIKit \n Adapt custom toolbar views for iPhone Duo \n How to opt a custom toolbar view into the vertical bar, change its layout, and read the vertical bar edge.\n 04 Oct 2026 \n ⋅\n 3 min read\n iOS \n SwiftUI \n UIKit \n How to change line he",
+    "https://sarunw.com/apps/": "Apps \nSmall, focused utilities for the Mac, iPhone, and app makers. \n Designed & developed by Sarun Wongpatcharapakorn \nI write about Swift and iOS development on this blog . If it has ever helped you, trying one of my apps and giving it a nice review would be greatly appreciated. 🙏 \nApp Store toolkit \nEverything around shipping an app — previews, screenshots, localization, and reviews. \n App Preview Converter \n App Store-ready app previews\n Get \n Screenshot Studio \n Create, localize, and upload App Store screenshots in minutes.\n Website \n Get \n LocalizeShot \n Create localized App Store screenshots from your original screenshot set using AI.\n Get \n Localization Buddy \n Easiest way to localize and update App Store metadata.\n Website \n Get \n LocalizeBot \n Quick and easy way to translate your app.\n Website \n Get \n StoreReviewKit \n Read and reply to your App Store reviews.\n Get \nDeveloper tools \nSmall utilities for the everyday work of writing software. \n CodeShot \n Turn your code into a snapshot.\n Website \n Get \n Tiny Lorem \n Lorem ipsum text generator.\n Get \nAI assistants \nPoint your camera at something, or hand over your writing, and let AI do the rest. \n AI Antique \n Identify antiques with a snap\n Website \n Get \n AI Jewelry \n Identify jewelries with a snap\n Website \n Get \n AI Stamp \n Identify stamps with a snap\n Website \n Get \n AI Stone \n Identify stones with a snap\n Website \n Get \n AI Grammar Checker \n Fix grammar and elevate your writing with AI.\n Website \n Get \n Paraphrase \n Reword any sentence with AI when the right words won't come.\n Get \nPhoto & video \nTurn photos and video into something you can use. \n ToonShot \n Turn your photos into cartoons\n Get \n Gabby \n Export an HD video frame into an image.\n Get \n TinyPresso \n Shrink your images without shrinking their quality — fully offline.\n Get \nMac utilities \nLittle Mac apps that take one annoying job off your hands. \n BatchName \n Bulk File Rename\n Get \n Tiny OCR \n Quickly extract text from image.\n Get \n TypeLouder \n Mechanical Keyboard Sounds for Mac\n Website \n Get \nEveryday apps \nApps I built because I wanted them myself. \n Matcha \n Currency Converter\n Get \n Note Taking \n Write it, Speak it, Snap it – Your Notes, Your Way.\n Get \n Offline Transcription \n Fast, privacy-focused way to transcribe audio, video, and podcast files.\n Website \n Get"
+   },
+   "feed": {
+    "url": "https://sarunw.com/feed.xml",
+    "count_seen": 7,
+    "items": [
+     {
+      "title": "How to use layoutMarginsGuide in SwiftUI",
+      "date": "2026-10-22T00:00:00Z",
+      "url": "https://sarunw.com/posts/swiftui-content-margin-guide/"
+     },
+     {
+      "title": "How to use layoutMarginsGuide in UIKit",
+      "date": "2026-10-16T00:00:00Z",
+      "url": "https://sarunw.com/posts/uikit-layoutmarginsguide/"
+     },
+     {
+      "title": "some View? without parentheses in Swift 6.4",
+      "date": "2026-10-16T00:00:00Z",
+      "url": "https://sarunw.com/posts/optional-opaque-and-existential-types/"
+     },
+     {
+      "title": "Set the split size of ArrangementView with splitArrangementLayoutRatio",
+      "date": "2026-10-11T00:00:00Z",
+      "url": "https://sarunw.com/posts/splitarrangementlayoutratio/"
+     },
+     {
+      "title": "Size classes on iPhone Duo",
+      "date": "2026-10-10T00:00:00Z",
+      "url": "https://sarunw.com/posts/size-classes-on-iphone-duo/"
+     },
+     {
+      "title": "Place a sheet on one side with presentationPlacement on iPhone Duo",
+      "date": "2026-10-09T00:00:00Z",
+      "url": "https://sarunw.com/posts/presentation-placement-on-iphone-duo/"
+     },
+     {
+      "title": "When toolbar items share a glass background in iOS 26",
+      "date": "2026-10-08T00:00:00Z",
+      "url": "https://sarunw.com/posts/swiftui-toolbar-item-grouping-ios-26/"
+     }
+    ]
+   },
+   "appstore_ids": [
+    "469774500",
+    "6503285923"
+   ]
+  }
+ ],
+ "github": {
+  "login": "sarunw",
+  "user": {
+   "name": "Sarun Wongpatcharapakorn",
+   "company": "Oozou",
+   "blog": "https://sarunw.com/",
+   "location": "Thailand",
+   "bio": "iOS developer at Oozou.\r\nTweeting stuff about iOS and share iOS experiences on my weekly blog at http://sarunw.com",
+   "public_repos": 80,
+   "followers": 296,
+   "created_at": "2011-05-18T08:59:48Z",
+   "twitter_username": "sarunw",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "sarunw/SWSegmentedControl",
+    "description": "A Android-like tab bar, drop-in replacement for UISegmentedControl.",
+    "stargazers_count": 122,
+    "forks_count": 23,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-01-28T07:29:37Z",
+    "pushed_at": "2020-06-23T04:06:24Z",
+    "topics": [
+     "android",
+     "ios",
+     "segmented-control",
+     "swift",
+     "tabbar"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/SWFrameButton",
+    "description": "iOS7 Style UIButton with border",
+    "stargazers_count": 100,
+    "forks_count": 20,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2014-05-30T08:15:03Z",
+    "pushed_at": "2016-06-10T22:08:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/SWActivityIndicatorView",
+    "description": "A simple flat activity indicator view.",
+    "stargazers_count": 26,
+    "forks_count": 7,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2015-10-20T07:08:23Z",
+    "pushed_at": "2017-01-01T13:46:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/SimpleSwitch",
+    "description": "A minimal Switch UI for iOS",
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-10-06T08:57:54Z",
+    "pushed_at": "2019-01-07T07:24:33Z",
+    "topics": [
+     "flat",
+     "ios",
+     "minimal",
+     "simple",
+     "uiswitch"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/SWAnimatedTabBarController",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2015-04-23T12:20:04Z",
+    "pushed_at": "2015-11-11T16:31:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/SWGradientView",
+    "description": "Simple gradient view",
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2015-12-17T07:14:15Z",
+    "pushed_at": "2016-09-14T09:21:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/NavigationBarManager",
+    "description": "Manage navigation bar",
+    "stargazers_count": 2,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-12-02T05:53:55Z",
+    "pushed_at": "2016-12-08T08:41:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/CoreDataExample",
+    "description": "Playing around with Core Data with iCloud",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2015-01-05T09:15:25Z",
+    "pushed_at": "2015-01-06T05:30:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/demo_app",
+    "description": "Ruby on Rails Tutorial demo application",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2011-10-12T15:36:10Z",
+    "pushed_at": "2011-10-12T16:50:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/first_app",
+    "description": "The first app for Ruby on Rails Tutorial",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2011-10-12T14:36:10Z",
+    "pushed_at": "2011-10-12T15:02:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/sample_app",
+    "description": "Ruby on Rails Tutorial sample application",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2011-10-13T13:52:45Z",
+    "pushed_at": "2011-10-23T16:22:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/SWCardViewController",
+    "description": "A card layout with swipe-up/down to dismiss integrated.",
+    "stargazers_count": 1,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-08-16T05:04:42Z",
+    "pushed_at": "2016-10-11T04:58:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/SWErrorRecovery",
+    "description": "SWErrorRecovery contains class and extension that facilitate crafting error and showing it.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-05-26T15:26:16Z",
+    "pushed_at": "2016-09-14T09:03:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/SWProgressView",
+    "description": "Progress view with gradient support.",
+    "stargazers_count": 1,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-10-03T09:03:38Z",
+    "pushed_at": "2016-10-03T10:18:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/android-developer-interview-test",
+    "description": "This project that is created as a guidance for the lastest Oozou Android team's Design pattern and Architecture.",
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2019-10-01T04:11:11Z",
+    "pushed_at": "2019-08-06T06:51:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/CircleCI-Building-Bot",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2017-03-31T10:04:50Z",
+    "pushed_at": "2017-04-03T06:04:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/demo_app2",
+    "description": "Ruby on Rails Tutorial demo application",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2013-07-25T11:04:16Z",
+    "pushed_at": "2013-07-26T04:51:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sarunw/first_app2",
+    "description": "Ruby on Rails Tutorial first application 2",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2013-07-25T09:07:25Z",
+    "pushed_at": "2013-07-25T10:53:01Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 33,
+  "languages": [
+   [
+    "Swift",
+    10
+   ],
+   [
+    "Ruby",
+    10
+   ],
+   [
+    "Objective-C",
+    6
+   ],
+   [
+    "Shell",
+    4
+   ],
+   [
+    "CSS",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 2705,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "sarunw/SWSegmentedControl": "# SWSegmentedControl\nA Android-like tab bar, drop-in replacement for UISegmentedControl written in Swift.\n## Requirements\nRequires iOS 8.0 and ARC.\n## Installation\nSWSegmentedControl is available through [CocoaPods](http://cocoapods.org). To install\nit, simply add the following line to your Podfile:\n```ruby\npod \"SWSegmentedControl\"\n```\n## Usage\nSWSegmentedControl can only be init in code due to the limitation of @IBDesignable which can't generate array of item like what UISegmentedControl can do, but I make it renderable anyway just in case you want to play around with it.\n### Basic usage\n```swift\nlet sc = SWSegmentedControl(items: [\"A\", \"B\", \"C\"])\nsc.frame = CGRect(x: 0, y: 0, width: 300, height: 44)\nsc.selectedSegmentIndex = 2 // default to 0\n```\n### Change segment programmatically\nSetting property directly will change segment without animation\n```swift\nsc.selectedSegmentIndex = 1\n```\nIf you want fine-grain control over animation, you can use `setSelectedSegmentIndex(index: Int, animated: Bool`\n```swift\nsc.setSelectedSegmentIndex(1, animated: true)\n```\n### Customization\nBy default both text and indicator color are the same with `tintColor`. If you want to change theme independently you can use `titleColor` and `indicatorColor` and you can also change font by set `font`.\n## Author\nSarun Wongpatcharapakorn (artwork.th@gmail.com) Twitter: [@sarunw](https://twitter.com/sarunw)\n## License\nSWSegmentedControl is available under the MIT license. See the LICENSE file for more info.\n",
+   "sarunw/SWFrameButton": "# SWFrameButton\nThis UIButton subclass replicate single line border button see in iOS 7 App Store.\n## Installation\nSWFrameButton is available through [CocoaPods](http://cocoapods.org). To install\nit, simply add the following line to your Podfile:\n    pod \"SWFrameButton\"\nYou may also quickly try the SWFrameButton example project with\n    pod try SWFrameButton\n## Requirements\nRequires iOS 7.0+ and ARC.\n## Usage\nSWFrameButton design to use `tintColor` to determine its color, so try to avoid set text color by `setTitleColor:forState:` it won't break your button, but may raise inconsistent highlighted/selected color state. `Text Color` property in Interface Builder will be ignore for this reason, use `Tint` property in view section instead.\nBasic usage\n```objective-c\nSWFrameButton *button = [[SWFrameButton alloc] init];\n[button setTitle:@\"Green Tint Button\" forState:UIControlStateNormal];\n[button sizeToFit];\nbutton.tintColor = [UIColor greenColor];\n```\nIf you use Interface Builder, add a UIBUtton to your interface and set Class to `SWFrameButton`.\n### Customization\nYou can use customize SWFrameButton using UIAppearance\n```objective-c\n[[SWFrameButton appearance] setTintColor:[UIColor orangeColor]];\n[[SWFrameButton appearance] setBorderWidth:1];\n[[SWFrameButton appearance] setCornerRadius:10];\n```\nor set individual button style via property\n```objective-c\nSWFrameButton *button = [[SWFrameButton alloc] init];\nbutton.tintColor = [UIColor orangeColor];\nbutton.borderWidth = 1;\nbutton.cornerRadius = 10;\n```\n## Author\n[Sarun Wongpatcharapakorn](https://github.com/sarunw) ([@sarunw](https://twitter.com/sarunw))\n## License\nSWFrameButton is available under the MIT license. See the LICENSE file for more info.\n",
+   "sarunw/SWActivityIndicatorView": "# SWActivityIndicatorView\nA simple flat activity indicator view.\n## Installation\nSWActivityIndicatorView is available through [CocoaPods](http://cocoapods.org). To install\nit, simply add the following line to your Podfile:\n```ruby\npod \"SWActivityIndicatorView\"\n```\nYou may also quickly try the SWActivityIndicatorView example project with\n```ruby\npod try SWActivityIndicatorView\n```\n## Requirements\nRequires iOS 8.0+ and ARC.\n## Usage\nBasic usage\n```swift\nlet activityIndicatorView = SWActivityIndicatorView(frame: CGRect(x: 0, y: 0, width: 50, height: 50))\nself.view.addSubview(activityIndicatorView)\nactivityIndicatorView.startAnimating()\n```\nIf you use Interface Builder, add a UIView to your interface and set Class to `SWActivityIndicatorView`.\n### Customization\nYou can use customize SWActivityIndicatorView via property\n```swift\nactivityIndicatorView.lineWidth = 2\nactivityIndicatorView.autoStartAnimating = true\nactivityIndicatorView.hidesWhenStopped = false\nactivityIndicatorView.color = UIColor.lightGrayColor()\n```\n## Author\n[Sarun Wongpatcharapakorn](https://github.com/sarunw) ([@sarunw](https://twitter.com/sarunw))\n## License\nSWActivityIndicatorView is available under the MIT license. See the LICENSE file for more info.\n",
+   "sarunw/SimpleSwitch": "# SimpleSwitch\n[](https://travis-ci.org/Sarun Wongpatcharapakorn/SimpleSwitch)\n[](http://cocoapods.org/pods/SimpleSwitch)\n[](http://cocoapods.org/pods/SimpleSwitch)\n[](http://cocoapods.org/pods/SimpleSwitch)\n## Example\nTo run the example project, clone the repo, and run `pod install` from the Example directory first.\n## Requirements\n## Installation\nSimpleSwitch is available through [CocoaPods](http://cocoapods.org). To install\nit, simply add the following line to your Podfile:\n```ruby\npod \"SimpleSwitch\"\n```\n## Author\nSarun Wongpatcharapakorn, artwork.th@gmail.com\n## License\nSimpleSwitch is available under the MIT license. See the LICENSE file for more info.\n"
+  }
+ },
+ "apps": [
+  {
+   "name": "Thai Showtimes",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Entertainment",
+   "price": "Free",
+   "released": "2012-01-30",
+   "updated": "2019-04-22",
+   "version": "2.4.1",
+   "rating": 4.02,
+   "ratings": 42,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/thai-showtimes/id497171385",
+   "desc": "App for checking movie showtimes in Thailand for both SF, Major, Apex, Major Hollywood and U-Hollywood. App emphasize on simplicity and ease of use, focus on just one thing \"showtimes\". \n\nFeatures:\n- Showtimes from SF, Major, Apex (Lido and Scala), Major Hollywood, U-Hollywood.\n- Support iPad.\n- Bookmark favorite theater for ease of use. \n\nIf you have any questions please contact me via email, twitter or comment.\n\n** Disclaimer: Information presented \"as is\". Reliability and correctness of information depends on provider. Also, this is not in affiliate with SF, Major, Apex, Major Hollywood and U-Hollywood **",
+   "country": "us"
+  },
+  {
+   "name": "Last Time Tracker",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Lifestyle",
+   "price": "$5.99",
+   "released": "2012-06-22",
+   "updated": "2026-10-18",
+   "version": "3.6.4",
+   "rating": 4.61,
+   "ratings": 636,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/last-time-tracker/id534982023",
+   "desc": "Have you ever wondered when you last did something?\nYour last vacation, your last call to your parents, or the last time you changed your toothbrush.\n\nLast Time makes tracking things easy and enjoyable, so you won't forget what matters to you.\n\nTracking ideas:\n- Last time you watched that movie.\n- Last time you hung out with your friends.\n- Last time you visited your parents.\n- Last time you played with your children.\n- Last time you saw the dentist.\n- Last time you read a good book.\n\nNot just the good things — you can also track what you want to quit or cut down on, like smoking or running late. The only limit is your imagination.\n\nYou will find you manage your time better just by knowing when you last did something.\n\nFeatures:\n- Event tracking: see how long it has been since the last time, counted in days.\n- One tap to log: mark something done from the list, with a note or on a date yo",
+   "country": "us"
+  },
+  {
+   "name": "PanTalk Lite for Pantip",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Social Networking",
+   "price": "Free",
+   "released": "2013-04-02",
+   "updated": "2020-08-14",
+   "version": "2.8.13",
+   "rating": 4.61,
+   "ratings": 54,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/pantalk-lite-for-pantip/id625742969",
+   "desc": "PanTalk (ชื่อเดิม Pantip Talk) เป็นแอพสำหรับอำนวยความสะดวกในการใช้งานเว็บไซต์พันทิป โดยจัดรูปแบบให้ง่ายต่อการอ่าน \n\nMAIN FEATURES: \n------------------------------ \nการตั้งกระทู้ \n--------- \n- สร้าง/แก้ไข/ตอบ กระทู้ \n- ใส่ emotion ได้ \n- เซฟ Draft เพื่อกลับมาเขียนต่อภายหลังได้ \n- โพสรูปได้โดยตรงจาก iPhone/iPad \n- จัดรูปแบบ (ตัวหนา, เอียง, เส้นใต้, ใส่ลิงค์, จัดหน้า) \n\nการอ่าน/ค้นหา กระทู้ \n---------------- \n- แสดงกระทู้ที่อ่านแล้ว เพื่อง่ายต่อการดู \n- แสดงจำนวนคอมเมนต์ของกระทู้นั้นๆ \n- ค้นหากระทู้ด้วยระบบ Smart Search\n- อ่านกระทู้โดยแบ่งตาม ห้อง/Tag/Club โดยแสดงทั้งกระทู้ล่าสุดและกระทู้แนะนำ \n- เลือกอ่านเฉพาะประเภทของกระทู้ได้ (กระทู้คำถาม/สนทนา/โพล/รีวิว/ข่าว/ขายของ) \n- สามารถโหวตกระทู้/คอมเมนต์ได้ \n- ตอบและดูผลโพล \n- Share กระทู้ผ่าน Twitter, Facebook ได้ \n- Bookmark เพื่ออ่านทีหลัง \n- มี History เพื่อหากระทู้ที่พึ่งอ่านไป \n\nเมื่อเป็นสมาชิกของพันทิป และ login \n--------------------------",
+   "country": "us"
+  },
+  {
+   "name": "Screenshot Studio - App Mockup",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2023-12-19",
+   "updated": "2026-10-18",
+   "version": "1.35.0",
+   "rating": 4.54,
+   "ratings": 13,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/screenshot-studio-app-mockup/id6473832582",
+   "desc": "Screenshot Studio is a tool for app developers looking for a quick and easy way to create screenshots for the App Store.\n\nKey Features:\n- Easy interface: Select the style you want from a variety of customization options.\n- Customization: Adjust fonts, text size, colors, alignment, device position, and device frame.\n- Template: You can also choose a design from a predefined template. No design skills are required.\n- Localization: Translate texts using AI. You can also manually translate it if you want.\n- Export in a snap: Get all screenshots required for the App Store and Google Play Store.\n- Upload directly to the App Store.\n- Be able to save it as a project for later editing.\n- Four Text Styles to make sure features stand out.\n\nSupport landscape and portrait orientations.\n\nCreated screenshots for these platforms\n- iPhone\n- iPad\n- Mac\n- Apple Watch\n- Apple TV\n- Apple Vision Pro\n- Android",
+   "country": "us"
+  },
+  {
+   "name": "Cabsure",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Travel",
+   "price": "Free",
+   "released": "2011-10-25",
+   "updated": "2025-12-16",
+   "version": "2.0.2",
+   "rating": 4.75,
+   "ratings": 4,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/cabsure/id469774497",
+   "desc": "A friend along your journey, make you feel safe and comfortable when you taking cab in Thailand.\n\nFeatures:\n\n- Real time meter.\n\n- Calculate estimation fare, distance, and time duration.\n\n- Easy to use interface.\n\n- Build-in note.\n\n- Traveling route and other information are keep for later review.\n\n- Share status to facebook.\n\nDisclaimer:\n\n- Accuracy depends on GPS signal strength.\n- Continued use of GPS running in the background can dramatically decrease battery life.\n\nเพื่อนสำหรับทุกการเดินทางด้วยแท็กซี่ของคุณ\n\nคุณสมบัติ\n\n- แสดงมิเตอร์เพื่อให้คุณตรวจสอบได้ตลอดเวลา\n\n- ประเมิณค่าโดยสาร ระยะทาง และเวลาที่ใช้ในการเดินทาง\n\n- โน๊ตสำหรับจดบันทึกเลขทะเบียนและสีรถ\n\n- เส้นทางที่แท็กซี่ใช้และข้อมูลอื่นๆจะถูกเก็บไว้เพื่อเรียกดูได้ในภายหลัง\n\n- โพสข้อความไปยัง facebook\n\nหมายเหตุ\n\n- ความแม่นยำของการคำนวนขึ้นอยู่กับระดับสัญญาณ GPS ในขณะนั้น\n- การใช้งาน GPS อย่างต่อเนื่องเป็นสาเหตุหนึ่งที่ทำให้แบตเตอรี",
+   "country": "us"
+  },
+  {
+   "name": "Paraphrase - Reword Tool AI",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2023-11-01",
+   "updated": "2026-10-17",
+   "version": "1.4.0",
+   "rating": 4.81,
+   "ratings": 16,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/paraphrase-reword-tool-ai/id6470736367",
+   "desc": "Are you tired of staring at your screen, struggling to rephrase sentences, or trying to find the perfect words for your text? \n\nLook no further! AI Paraphrase is here to simplify your life with its advanced paraphrasing capabilities.\n\nFeatures:\n- Effortless Paraphrasing: One tap away from getting a fresh and engaging text.\n- Tone of voice: Select tone of voice of the paraphrased text.\n- User-Friendly Interface: Our intuitive design makes it a breeze to navigate the app. Simply input your text, and watch as it's transformed into a new, unique version.\n- Instant Results: Enjoy quick and efficient paraphrasing that saves you time and energy. Whether you're a student, writer, or professional, AI Paraphrase streamlines your content creation.\n- Support many languages.\n\nTerms of Use: https://aiparaphrase.app/terms/\nPrivacy Policy: https://aiparaphrase.app/privacy/",
+   "country": "us"
+  },
+  {
+   "name": "Offline privacy transcription",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2023-09-24",
+   "updated": "2026-10-18",
+   "version": "1.2.1",
+   "rating": 4.25,
+   "ratings": 4,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/offline-privacy-transcription/id6465955389",
+   "desc": "Offline Transcription provides a fast and privacy-safe way to transcribe audio, video, and podcast files.\n\nIf you are looking for an app to transcribe\n- Minutes of meetings.\n- Classroom audio recording.\n- Create subtitles for YouTube videos.\n- Transcribe podcasts into text.\n- etc.\n\n◼ Features:\n- No data leaves your Mac. Transcription happens locally without the internet.\n- Easy to use interface. Drag and drop + one click are all you need to do.\n- Supported formats: \n   - Audio: mp3, wav, m4a, ogg, aac, and caf \n   - Video: mov and mp4\n- Exported formats: text, srt, vtt, and csv.\n- Transcribes multiple files at once.\n\n◼ Supported 99 different languages\nThe app can transcribe audio in 99 different languages:\n\nAfrikaans, Albanian, Amharic, Arabic, Armenian, Assamese, Azerbaijani, Bangla, Bashkir, Basque, Belarusian, Bosnian, Breton, Bulgarian, Burmese, Catalan, Chinese, Croatian, Czech, Dan",
+   "country": "us"
+  },
+  {
+   "name": "Currency calculator - Matcha",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Travel",
+   "price": "Free",
+   "released": "2024-06-27",
+   "updated": "2026-10-19",
+   "version": "1.4.0",
+   "rating": 5,
+   "ratings": 11,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/currency-calculator-matcha/id6504923811",
+   "desc": "Matcha is a currency converter for travelers.\n\n- All currencies for every country. Over 160 currencies.\n- Works with or without the internet.\n- Search currencies by countries or currency names.\n- Currency Converter\n- Calculator\n\nOver 160 currencies:\n- Convert between dollars, Japanese yen, Mexican pesos, British pounds, euro, yuan, gold, and more\n- USD, JPY, AUD, AUS, CAD, GBP, XE, XAU, MXN, CHF, CNY and more\n\nTerms of Use: https://sarunw.com/apps/matcha/terms/\nPrivacy Policy: https://sarunw.com/apps/matcha/privacy/",
+   "country": "us"
+  },
+  {
+   "name": "Ai grammar checker ゜",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2023-11-13",
+   "updated": "2026-10-17",
+   "version": "1.1.1",
+   "rating": 4.52,
+   "ratings": 27,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/ai-grammar-checker/id6471822366",
+   "desc": "Elevate your writing to new heights with AI Grammar, the advanced grammar corrector app powered by artificial intelligence! Whether you're a student, professional, or just someone who values impeccable communication, AI Grammar is your go-to tool for flawless writing.\n\nKey Features:\n- Correct Grammar\n- Spell Check\n- Check Punctuation\n- Paraphrase\n- One tap away from everything\n- Support many languages\n\nTerms of Use: https://aigrammar.app/terms/\nPrivacy Policy: https://aigrammar.app/privacy/",
+   "country": "us"
+  },
+  {
+   "name": "Cartoon Photo Editor ToonShot",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Photo & Video",
+   "price": "Free",
+   "released": "2025-04-09",
+   "updated": "2026-10-20",
+   "version": "1.2.0",
+   "rating": 3,
+   "ratings": 4,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/cartoon-photo-editor-toonshot/id6744326818",
+   "desc": "Turning your photos into anime or cartoon-style portraits is now easier than ever. \n\nWith ToonShot, you can instantly transform any picture into a hand-drawn masterpiece—no art skills needed.\n\nJust upload a photo and watch yourself come to life in full anime or cartoon character.\n\nSeparate Subscription purchase is needed to use the following features.\nFeatures:\n- Instantly turn your photos into anime-style art.\n- Explore multiple anime styles with one tap\n- Save and share your creations.\n- Powered by cutting-edge AI\n\nWhy ToonShot\n- 15 Cartoon/Animation/3d styles. More styles are coming.\n- Make a viral post for social media\n- Save and share with your friends and families.\n\nTerms of Use: https://sarunw.com/apps/toonshot/terms/\nPrivacy Policy: https://sarunw.com/apps/toonshot/privacy/",
+   "country": "us"
+  },
+  {
+   "name": "Jewelry Identifier - AIJewelry",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Reference",
+   "price": "Free",
+   "released": "2025-05-23",
+   "updated": "2026-10-20",
+   "version": "1.0.3",
+   "rating": 4.67,
+   "ratings": 9,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/jewelry-identifier-aijewelry/id6746194263",
+   "desc": "Snap a photo of any ring, necklace, bracelet, or earring and AI Jewelry tells you what it is, what it is made of, and what it may be worth.\n\nWHAT YOU GET\n- Instant identification: take a photo or pick one from your library.\n- Value estimate: an estimated price range and what drives the value.\n- Materials and gemstones: metals, stones, and other materials explained.\n- Brand and design: possible maker, design features, time period, and origin.\n- Care guide: how to clean and store each piece safely.\n- Your collection: every piece you scan is saved and synced with iCloud.\n\nGREAT FOR\n- Collectors and resellers checking a find\n- Jewelers and appraisers who want a quick first look\n- Anyone curious about an heirloom or a thrift-store piece\n\nResults are an initial assessment only. For an accurate valuation or authentication, please consult a certified jewelry appraiser.\n\nA subscription is require",
+   "country": "us"
+  },
+  {
+   "name": "Codeshot",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Developer Tools",
+   "price": "$5.99",
+   "released": "2020-12-09",
+   "updated": "2026-10-19",
+   "version": "1.8.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/codeshot/id1541665460",
+   "desc": "Codeshot turns code into images worth sharing.\n\nPaste a snippet, pick a theme, and get a clean PNG ready for a blog post, a pull request, a slide, or a post. No screenshots, no cropping, no scrolling back to catch the last line.\n\nREADS YOUR CODE PROPERLY\n• Syntax highlighting for 61 languages, detected automatically or picked by hand\n• 60 themes in light and dark, each previewed in its own real colors\n• The system's monospaced faces, at any size\n• Line numbers and window chrome when you want them, gone when you don't\n• Tidy the source first — Swift through swift-format, web languages through Prettier\n\nWRITTEN FOR A PHONE\n• Source above, snapshot below — switch panes with a tap\n• Pinch to zoom the preview, drag to move it\n• Copy code anywhere, open Codeshot, and it is already waiting\n• Put the keyboard away with a single tap\n\nBACKGROUNDS THAT DO THE WORK\n• 92 gradient presets across 14 co",
+   "country": "us"
+  },
+  {
+   "name": "Note Taking - Voice Photo Memo",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2024-03-12",
+   "updated": "2026-10-20",
+   "version": "1.1.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/note-taking-voice-photo-memo/id6479198427",
+   "desc": "Write it, Speak it, Snap it – Your Notes, Your Way.\n\nQuickly take notes using Voice, Camera, or Typing.\n\nGet ideas to text as fast as possible.\n\nThree input methods:\n1. Keyboard\n2. Voice\n3. Camera\n\nEverything happens locally; nothing leaves your device.\n\nPrivacy policy: https://sarunw.com/apps/note-taking/privacy/\nTerms of service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+   "country": "us"
+  },
+  {
+   "name": "Stamp Identifier - AIStamp",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Reference",
+   "price": "Free",
+   "released": "2025-05-15",
+   "updated": "2026-10-20",
+   "version": "1.1.0",
+   "rating": 4,
+   "ratings": 4,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/stamp-identifier-aistamp/id6745809307",
+   "desc": "Discover the World of Stamps – Instantly.\n\nAI Stamp is your all-in-one tool for identifying, learning about, and organizing postage stamps from around the globe.\n\nUse your camera or a picture to quickly identify stamps with AI.\n\nPerfect for collectors, stamps enthusiasts, and anyone curious about stamps around them.\n\nSeparate Subscription purchase is needed to use the following features.\nFeatures:\n- Instant Stamp Identification: Take a photo or upload an image to identify stamps quickly and accurately.\n- Save Identification History: Keep track of all the stamps you've identified. Review your history anytime.\n- Sync stamp collection using iCloud across all of your devices.\n\nWho is AI Stamp for\n- Collectors\n- Appraisers\n- Stamps enthusiasts\n- Hobbyist\n\nTerms of Use: https://aistamp.app/terms/\nPrivacy Policy: https://aistamp.app/privacy/",
+   "country": "us"
+  },
+  {
+   "name": "Taro - แอพอ่านพันทิป (Lite)",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "News",
+   "price": "Free",
+   "released": "2016-01-09",
+   "updated": "2017-03-29",
+   "version": "1.2.5",
+   "rating": 1,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/taro-%E0%B9%81%E0%B8%AD%E0%B8%9E%E0%B8%AD-%E0%B8%B2%E0%B8%99%E0%B8%9E-%E0%B8%99%E0%B8%97-%E0%B8%9B-lite/id1071099784",
+   "desc": "Taro เป็นแอพสำหรับอำนวยความสะดวกในการใช้งานเว็บไซต์พันทิป (pantip.com) โดยจัดรูปแบบให้ง่ายต่อการอ่าน\n\nMAIN FEATURES:\n------------------------------ \n- สร้าง/แก้ไข/ตอบ กระทู้\n- สามารถโหวตกระทู้/คอมเมนต์ได้\n- อ่านกระทู้ตามห้อง\n- อ่านเฉพาะกระทู้เด็ด (pantip pick/pantip trend)\n- ค้นหากระทู้ด้วยระบบ Smart Search\n- เลือกอ่านเฉพาะประเภทของกระทู้ได้ (กระทู้คำถาม/สนทนา/โพล/รีวิว/ข่าว/ขายของ)\n- ดูผลโพล\n\nเมื่อเป็นสมาชิกของ pantip และ login\n----------------------------\n- ดูกระทู้ที่เคยตั้ง\n- ดูกระทู้ที่เคยตอบ\n- ดูกระทู้โปรด (Bookmark)\n- ดูกระทู้ที่เคยอ่าน (History)\n\n\n** หมายเหตุ **\n- ความสามารถบางอย่างจำเป็นต้องเป็นสมาชิกกับเว็บพันทิป (Pantip) ถึงจะใช้งานได้ เช่น สร้าง/ตอบกระทู้ โดยผู้ใช้งานสามารถทำการสมัครสมาชิกได้ที่เวป http://www.pantip.com **\n- แอพนี้ไม่ใช่แอพของทีมงานเว็บพันทิป (Unofficial app) หากเว็บไซต์พันทิบมีการเปลี่ยนแปลงอาจทำให้ไม่สามารถใช้แอพได้นะครับ แต่ผมจะตามอัพเดทให้นะครับ",
+   "country": "us"
+  },
+  {
+   "name": "Tiny Lorem",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2022-09-05",
+   "updated": "2026-10-22",
+   "version": "1.3.1",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/tiny-lorem/id1640855061",
+   "desc": "Copy Lorem and mock data text right from your menu bar.\n\nSuitable for your day-to-day development and design tasks.\n\nGenerate:\nLorem words, sentences, and paragraphs.\nPredefined short, medium, and long Lorem sentences.\nPortrait\nPerson's name\nEmail\nPhone\nAddress\nProduct Image\nProduct Name\nProduct Description\n\nNotification:\nAllow notification permission to show copied text once copied.\n\nShortcuts:\nEasily change the latest select text with a shortcut you assigned.",
+   "country": "us"
+  },
+  {
+   "name": "Localize App - LocalizeBot",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2023-04-27",
+   "updated": "2025-12-15",
+   "version": "1.8.7",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/localize-app-localizebot/id6448173982",
+   "desc": "Translate your app in 1 click.\n\nUse machine translation service to translate your App.\n- Google Cloud Translation\n- Open AI\n- DeepL\n\nFeatures (Subscription is needed to use the following features):\n- Supported xliff and xcloc files.\n- Apple Glossaries: Use Apple translations for common UI texts such as \"OK\", \"Save\", Cancel\", and \"Done\".\n- You can add a brief description of your app to provide more context for AI translation.\n- Comments are taken into consideration when performing translation.\n\nApp Translation\n- Export xcloc files from Xcode.\n- Just drag and drop your files into the app.\n- One simple click to start translations.\n- Import translated xcloc files back to Xcode.\n\nTerms of Use: https://localizebot.com/terms\nPrivacy Policy: https://localizebot.com/privacy/",
+   "country": "us"
+  },
+  {
+   "name": "Antique Identifier - AIAntique",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Reference",
+   "price": "Free",
+   "released": "2025-05-20",
+   "updated": "2026-10-20",
+   "version": "1.1.0",
+   "rating": 5,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/antique-identifier-aiantique/id6746115241",
+   "desc": "Discover the Secrets of Antiques – Instantly.\n\nAI Antique is your ultimate companion for identifying, exploring, and valuing antiques from around the world.\n\nUse your camera or upload a picture to effortlessly identify antiques with cutting-edge AI.\n\nIdeal for collectors, antique enthusiasts, historians, and anyone curious about antique objects.\n\nA separate subscription is required to access premium features.\nFeatures:\n- Instant Antique Identification: Snap a photo or upload an image to instantly identify antiques with precision.\n- Detailed Information: Learn about the origin, historical context, and time period of your antiques.\n- Accurate Valuations: Receive instant estimates of your antique’s worth and understand the reasons behind its value.\n- Save Identification History: Keep track of every antique you've identified and revisit them anytime.\n- iCloud Sync: Seamlessly synchronize you",
+   "country": "us"
+  },
+  {
+   "name": "Rock Identifier - AIStone",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Reference",
+   "price": "Free",
+   "released": "2025-05-28",
+   "updated": "2026-10-20",
+   "version": "1.1.0",
+   "rating": 4.2,
+   "ratings": 5,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/rock-identifier-aistone/id6746419167",
+   "desc": "Use your camera or a picture to quickly identify rocks, stones, minerals, gems, gemstones, and crystals with AI.\n\nPerfect for geologists, nature enthusiasts, and anyone curious about the rocks around them.\n\nFeatures:\n- Instant Rock Identification:\nTake a photo or upload an image to identify rocks quickly and accurately.\n- Save Identification History:\nKeep track of all the rocks you’ve identified. Review your history anytime.\n* A Separate Subscription purchase is needed to use the features.\n\nWho is AI Stone for\n- Geologists\n- Nature enthusiasts\n- Collectors\n- Anyone who is curious about rocks\n\nTerms of Use: https://sarunw.com/apps/aistone/terms/\nPrivacy Policy: https://sarunw.com/apps/aistone/privacy/",
+   "country": "us"
+  },
+  {
+   "name": "Frame Grabber - Gabby",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Photo & Video",
+   "price": "Free",
+   "released": "2026-04-28",
+   "updated": "2026-10-19",
+   "version": "1.4.0",
+   "rating": 5,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/frame-grabber-gabby/id6763741995",
+   "desc": "Export an HD video frame into an image.\n\nGabby helps you pick the exact moment you want and export it as a high‑quality image, with metadata preserved when possible. \n\nSave the best moments from any video in seconds:\n- Capture the perfect frame from your clips\n- Review ski, gym, golf form frame-by-frame\n- Create clean thumbnails for social posts\n- Turn 4K videos into high-quality photos\n- Share standout moments instantly with others\n- No more manual screenshots.\n\nFeatures (A separate subscription purchase is needed to use the following features)\n- Frame-accurate capture: scrub to the moment you want and export.\n- High-quality possible.\n- Metadata-aware saving: keeps useful info when available.\n- Simple, focused workflow: open a video, pick a frame, save.\n- Privacy: not asking for full photo access. Process within your device.\n\nTerms of Use: https://aigrammar.app/terms/\nPrivacy Policy: ht",
+   "country": "us"
+  },
+  {
+   "name": "App reviews - StoreReviewKit",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2024-09-25",
+   "updated": "2025-12-14",
+   "version": "1.0.5",
+   "rating": 5,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/app-reviews-storereviewkit/id6670761635",
+   "desc": "StoreReviewKit is a tool for app developers to read and reply to App Store reviews.\n\nKey Features:\n- Translation: Translate a review into your preferred language.\n- Response in customer language: Translate your response into a language your customer speaks.\n\nTerms of Use: https://storereviewkit.com/terms/\nPrivacy Policy: https://storereviewkit.com/privacy/",
+   "country": "us"
+  },
+  {
+   "name": "Bulk File Rename - BatchName",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2024-11-18",
+   "updated": "2026-10-19",
+   "version": "1.1.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/bulk-file-rename-batchname/id6738307358",
+   "desc": "BatchName renames hundreds of files at once, and shows you every new name before anything changes.\n\nBuild a name from the parts you need: the original name, a running number, the date, or details from inside the file such as the camera model. Type { to pick a placeholder, or open the cheat sheet to see every option with a live example.\n\nRENAME BY DATE TAKEN\n• Choose whether dates come from when a file was created, captured or last changed\n• Photos keep the time zone where they were taken, so trips abroad sort correctly\n\nUSE WHAT'S INSIDE YOUR FILES\n• Camera make and model, lens, image size, ISO, aperture, shutter speed and focal length\n• Values are safe to use in file names and stay empty for files without them\n\nCLEAN UP MESSY NAMES\n• Find and replace text in file names\n• Change the case: UPPER CASE, lower case, Capitalize, Sentence case, camelCase, PascalCase, snake_case and kebab-case\n",
+   "country": "us"
+  },
+  {
+   "name": "Localization Buddy",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2024-06-03",
+   "updated": "2026-09-16",
+   "version": "1.5.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/localization-buddy/id6503285923",
+   "desc": "The easiest way to localize your App Store metadata.\n\nFeatures (Subscription is needed to use the following features):\n- Bulk metadata localization\n- Bulk metadata update to the App Store\n- Paraphrase text that is too long\n- One-click to remove white spaces in keywords\n- One-click to remove keywords if it is too long\n- Copy over metadata between platforms, e.g., copy metadata from iPhone to Mac\n- Your API key is securely stored in the Keychain.\n\nTerms of Use: https://localizationbuddy.com/terms/\nPrivacy Policy: https://localizationbuddy.com/privacy/",
+   "country": "us"
+  },
+  {
+   "name": "Image to text - Tiny OCR",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2024-03-21",
+   "updated": "2025-12-15",
+   "version": "1.0.1",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/image-to-text-tiny-ocr/id6479683397",
+   "desc": "Copy text directly from your screen.\n\nFeatures:\n- Quickly extract text from your screen by selecting an area of your screen.\n- Support both text and QR.\n- Privacy First: No data leave your machine.\n- Support multiple languages.\n\nPrivacy policy: https://sarunw.com/apps/tiny-ocr/privacy/\nTerms of service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+   "country": "us"
+  },
+  {
+   "name": "TypeLouder: Keyboard Sounds",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Utilities",
+   "price": "$2.99",
+   "released": "2025-12-18",
+   "updated": "2026-08-29",
+   "version": "1.2.2",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/typelouder-keyboard-sounds/id6756606901",
+   "desc": "Mechanical Keyboard Sounds for Mac\n\nTurn every keystroke into a clicky sound. \n\nTypeLouder brings the joy of mechanical keyboards to your Mac keyboard without carrying keyboard around.\n\nFEATURES\n• Play it out loud through speakers or\n• Play it privately via your headphones.\n• Authentic mechanical keyboard sounds with every keystroke\n• Adjustable volume & sound settings\n• Lightweight and low latency — no slowdown or distraction\n\nPRIVACY\n• TypeLouder does not access, read, or monitor your keystrokes. Your typing data is never captured, stored, or transmitted by our app.\n• TypeLouder does not require network permissions. The app operates entirely offline and has no capability to send any data outside of your device. Nothing you do in the app is ever transmitted over the internet.\n\nWhether you miss the feel of a clicky keyboard or just want more audio feedback when typing, TypeLouder makes y",
+   "country": "us"
+  },
+  {
+   "name": "Image Compressor - TinyPresso",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Photo & Video",
+   "price": "Free",
+   "released": "2026-07-22",
+   "updated": "2026-07-28",
+   "version": "1.0.1",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/image-compressor-tinypresso/id6791213837",
+   "desc": "TinyPresso shrinks your images without shrinking their quality — right on your Mac, fully offline.\n\nDrop in PNGs, JPEGs, HEICs, AVIFs, or WebPs and get dramatically smaller files in seconds. Keep the original format, or convert between formats with one click. Perfect for screenshots, web assets, App Store uploads, email attachments, and photo libraries eating your disk.\n\nWHY TINYPRESSO\n• Private by design — images never leave your Mac. No uploads, no ads, no tracking.\n• Smart compression — up to 90%+ smaller, tuned to stay visually identical.\n• Never inflates — if a file can't get smaller, we tell you and keep the original.\n• Converts too — PNG ↔ JPEG ↔ HEIC ↔ AVIF ↔ WebP, with correct handling of transparency.\n• Built for batches — drag in a folder's worth, paste from the clipboard (⌘V), keep the window always on top.\n• Tidy by default — results saved to your chosen folder; optionally m",
+   "country": "us"
+  },
+  {
+   "name": "App Preview Converter",
+   "artist": "Sarun Wongpatcharapakorn",
+   "genre": "Developer Tools",
+   "price": "$2.99",
+   "released": "2026-08-03",
+   "updated": "2026-10-17",
+   "version": "1.1.0",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/app-preview-converter/id6794667210",
+   "desc": "Turn any screen recording into an app preview that App Store Connect accepts.\n\nApp Store Connect rejects app previews for reasons it rarely explains well: the\nvideo runs 14 seconds instead of 15, the resolution is off by a few pixels, the\nframe rate is 29.97 instead of 30, or there is no audio track at all. App Preview\nConverter handles all of it in one pass.\n\nHOW IT WORKS\n1. Drop in a screen recording from your iPhone, iPad, Mac, or the Simulator.\n2. Trim the part you want on a filmstrip timeline built around the 15-30 second rule.\n3. Pick the device and orientation you are submitting for.\n4. Export. The file is ready to upload.\n\nBUILT AROUND THE REQUIREMENTS\n- Exact resolutions for iPhone, iPad, Mac, Apple TV, and Vision Pro\n- Portrait and landscape output\n- H.264 video at a constant 30 fps\n- AAC stereo audio, added silently when your recording has none\n- Rec. 709 color, the standard A",
+   "country": "us"
+  }
+ ]
+}

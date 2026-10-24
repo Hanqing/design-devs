@@ -1,0 +1,164 @@
+{
+ "name": "David Khourshid（David K）",
+ "role": "Stately 创始人 · XState 作者 · 状态机布道者 · 钢琴演奏者 · 奥兰多",
+ "title": "David Khourshid：让<em>不可能的状态</em>真的不可能",
+ "dek": "他住在佛罗里达州奥兰多，是 Stately 的创始人、XState 的作者，X 简介写着「Making state machines at @statelyai · I play piano」。XState 是一个基于状态机、状态图和 Actor 模型的状态管理与编排库，GitHub 上有三万颗星，让复杂的应用逻辑变得显式、可视化、可测试。Stately 在它之上做了一个可视化编辑器：拖拽画出流程图，自动生成 XState 代码、文档和测试，还能直接模拟运行。这两年他把状态机带进 AI：Stately Agent 让 Agent 的控制流由状态机掌握，模型只能挑合法的事件，「让非法的 Agent 动作变得不可能」。他还在 Frontend Masters 上讲过多期状态机课程。",
+ "card": "Stately 创始人（奥兰多）；XState（★3 万）作者，Stately Agent、@statelyai/graph；钢琴演奏者。",
+ "location": "美国佛罗里达州奥兰多",
+ "updated": "2026-10-23",
+ "tags": ["状态机", "前端架构", "AI Agent", "可视化", "教学"],
+ "links": [
+  {"label": "Stately", "url": "https://stately.ai"},
+  {"label": "XState", "url": "https://github.com/statelyai/xstate"},
+  {"label": "davidk.dev", "url": "http://davidk.dev"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「State machines are super underrated: they make complex logic explicit, impossible states impossible, and agents are extremely good at making them now.」",
+  "<strong>代表作：</strong>XState（★30,349）、Stately 可视化编辑器、Stately Agent（★484）、@statelyai/graph、XState Visualizer、flipping（FLIP 动画，★1,420）、useEffectReducer、react-redux-form（★2,037）、sassdash。",
+  "<strong>教学：</strong>Frontend Masters 的 XState、React 状态建模、CSS 等多期工作坊。",
+  "<strong>关键数字：</strong>X 关注者约 9.3 万；GitHub 185 个公开仓库、近一年贡献 6,398 次。"
+ ],
+ "lead": "2026 年 10 月，David 在 X 上提醒大家：「你的软件就是一台巨大的隐式状态机，而所谓漏洞，就是攻击者找到的、通往你没打算让它到达的某个状态的路径。」这正是他多年来推广状态机的理由：把状态显式写出来，就能看清哪些路径存在、哪些不该存在。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创始人、开源作者、讲师"],
+     ["所在地", "美国佛罗里达州奥兰多"],
+     ["公司", "Stately（stately.ai）"],
+     ["开源", "XState、Stately Agent、@statelyai/graph、xstate-python、flipping、useEffectReducer"],
+     ["爱好", "钢琴"],
+     ["技术栈", "TypeScript、JavaScript、CSS / Sass"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "David 的核心主张是<strong>把逻辑画出来</strong>。Stately 官网说：从前端用户流程到后端工作流，都可以用可视化编辑器构建和部署，让它成为单一事实来源；代码、图表、文档、测试生成都在一处，「不再有孤岛，永远保持最新」。AI 在每个阶段都能借助状态机帮忙，人类则用可视化编辑器审核和改进。"},
+    {"p": "他认为用状态机定义 Agent 逻辑「被严重低估」：状态机不是死板的工作流，而是 Agent 可以自主重新组合、改进的乐高积木，而且人能读懂。他的说法是「确定性的内核，Agent 化的外壳」。2026 年 10 月，他还开源了 @statelyai/graph，一个以纯 JSON 表示图、能在 DOT、Mermaid、GraphML 等格式间转换的图算法库。"},
+    {"note": "本页依据 stately.ai（首页与博客）、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他创办 Stately 之前的工作经历未在其 GitHub 和官网上写明。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2015", "title": "Sass 与表单", "text": "sassdash（Sass 版 lodash）、sass-svg、sassport；react-redux-form。"},
+     {"when": "2016–2018", "title": "动画实验", "text": "flipping（FLIP 动画）、RxCSS、nm8；在 CSS Dev Conf、CSSConf AU 演讲。"},
+     {"when": "XState 时期", "title": "状态机", "text": "发布 XState 与可视化工具，写《You don’t need a library for state machines》等文章。"},
+     {"when": "2020–2025", "title": "Frontend Masters", "text": "XState、React 状态建模、XState v2、CSS、状态管理等多期工作坊。"},
+     {"when": "Stately", "title": "创办公司", "text": "可视化编辑器、Studio 与 API。"},
+     {"when": "2026", "title": "Agent 与图", "text": "Stately Agent；10 月开源 @statelyai/graph。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "XState", "url": "https://github.com/statelyai/xstate",
+     "meta": ["TypeScript", "状态机 / Actor", "★3 万"],
+     "paras": [
+      "「Actor-based state management & orchestration for complex app logic.」用状态机和状态图描述逻辑，用 Actor 组织并发，可以在任何 JavaScript 运行时使用，也有 Python 版。"
+     ],
+     "facts": [["GitHub", "★30,349"]]
+    }},
+    {"work": {
+     "name": "Stately 编辑器", "url": "https://stately.ai",
+     "meta": ["可视化", "无代码 + 代码"],
+     "paras": [
+      "「Turn ideas into diagrams and code in minutes.」不写代码也能画流程，模拟测试；还能把原型直接生成为一个可运行的 React 应用，收集团队和客户的反馈。"
+     ]
+    }},
+    {"work": {
+     "name": "Stately Agent", "url": "https://github.com/statelyai/agent",
+     "meta": ["2026", "TypeScript"],
+     "paras": [
+      "「Make invalid agent actions impossible.」状态机掌握控制流，模型只负责在合法事件中做选择；测试、检查和可视化「免费附送」。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["flipping", "实现 FLIP 过渡的库与适配器（★1,420）"],
+      ["useEffectReducer", "useReducer + useEffect（★804）"],
+      ["react-redux-form", "用 Redux 轻松写 React 表单（已归档）"],
+      ["@statelyai/graph", "纯 JSON 图结构与图算法库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://stately.ai", "paras": [
+     "Stately 官网面向团队：可视化语言让不同背景的人一起协作。博客里有不少 David 的经典文章，标题本身就是观点：《No, disabling a button is not app logic》《Redux is half of a pattern》《How to tell a bad boolean from a good boolean》《State machines: How to stop making Horcruxes in your code》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel"],
+      ["内容", "文档、编辑器、博客"],
+      ["个人主页", "davidk.dev"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "", "title": "No, disabling a button is not app logic", "url": "https://stately.ai/blog"},
+     {"date": "", "title": "Redux is half of a pattern", "url": "https://stately.ai/blog"},
+     {"date": "", "title": "How to tell a bad boolean from a good boolean", "url": "https://stately.ai/blog"},
+     {"date": "", "title": "You don’t need a library for state machines", "url": "https://stately.ai/blog"}
+    ]},
+    {"quote": "Deterministic core, agentic shell", "cite": "David Khourshid，X，2026-10"},
+    {"p": "他也分享和 Agent 协作的小方法：用纸和笔把零散想法写下来，再整理成一个连贯的计划交给 Agent，而不是对着它「随口嘟囔」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["思想", "把状态机推广到前端和 AI", "—"],
+      ["工具", "XState 成熟，生态完整", "学习曲线较陡，简单场景未必需要"],
+      ["教学", "课程与文章丰富", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>让不可能的状态真的不可能。</strong>",
+     "<strong>布尔值也有好坏：</strong>多个布尔值往往藏着一个状态机。",
+     "<strong>Agent 需要确定性的内核。</strong>",
+     "<strong>先在纸上想清楚，再交给 Agent。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "XState", "url": "https://github.com/statelyai/xstate", "why": "把一个复杂表单改写成状态机。"},
+     {"name": "Stately 编辑器", "url": "https://stately.ai", "why": "把逻辑画出来。"},
+     {"name": "Stately 博客", "url": "https://stately.ai/blog", "why": "读《How to tell a bad boolean from a good boolean》。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "找出你代码里同时出现的三个以上布尔状态，画一张图，看看它们真正合法的组合有几种。",
+ "sources": [
+  {"label": "David K 的 X 个人资料", "url": "https://x.com/DavidKPiano"},
+  {"label": "Stately", "url": "https://stately.ai"},
+  {"label": "Stately 博客", "url": "https://stately.ai/blog"},
+  {"label": "GitHub：statelyai/xstate", "url": "https://github.com/statelyai/xstate"},
+  {"label": "GitHub：davidkpiano", "url": "https://github.com/davidkpiano"}
+ ]
+}

@@ -1,0 +1,376 @@
+{
+ "handle": "steveruizok",
+ "sites": [
+  {
+   "url": "https://steveruiz.me",
+   "ok": true,
+   "title": "Steve Ruiz",
+   "description": "",
+   "stack": [
+    "Next.js",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Steve Ruiz \n Home \n About \nRefreshing the Next.js App Router When Your Markdown Content Changes \nHow to refresh the Next.js App Router when content in a folder changes. Yes, websockets. Thursday, 9 November 2023 \nThe Smooshed Object Union type in TypeScript \nA utility type for creating keyable union of object types. Tuesday, 6 September 2022 \nIncrement a Name in TypeScript \nHow to increment a name to avoid duplicates. Thursday, 30 June 2022 \nAll About Arcs \nHard-won helpers for working with arcs. Thursday, 19 May 2022 \nCopy to Multiplayer Project \nHow I used Liveblock's Storage APIs to create a new feature. Thursday, 19 May 2022 \nReordering Part 2: Tables and Fractional Indexing \nImplementing reordering commands (Send to Back, Send Backward, Bring Forward, and Bring to Front) in using fractional indexing. Monday, 14 February 2022 \nReordering Part 1: Arrays \nImplementing ordering commands (Send to Back, Send Backward, Bring Forward, and Bring to Front) in an array of items. Friday, 11 February 2022 \nDead Zone Dragging \nImprove dragging experience by adding a spooky dead zone, or a minimum distance before a shape will begin to drag. Thursday, 21 October 2021 \nPerfect Dragging \nHow to drag shapes the right way. And yes, there is a wrong way! But trust me, this is the right way. Wednesday, 20 October 2021 \nFixing the Drift in Shape Rotations \nA look at an obscure bug common to drawing programs, where rotations can cause shapes to move to new positions. Sunday, 19 September 2021 \nCreating a Zoom UI \nAll the code you need to control a camera in a zoom-able, pan-able UI for an infinite canvas. Thursday, 5 August 2021 \nFiltering an Object in TypeScript \nHow to filter properties from an object. Tuesday, 3 August 2021 \nFigma's Interactive Components Were Not Designed For This \nA survey of the bizarre prototypes designers can now make in Figma. Friday, 5 March 2021 \nMaking a Rotating Icon Button in React \nA tutorial on building my this blog's theme-switching microinteraction. Wednesday, 9 September 2020 \nSteve Ruiz © 2025 hey click here",
+   "github_links": [],
+   "subpages": {
+    "https://steveruiz.me/about": "Steve Ruiz \n Home \n About \nAbout \nMy name is Steve Ruiz and I'm a developer, designer, and now startup founder in London. I have a background in visual art and work primarily in creative tools for the web. I build lots of prototypes. Sometimes those prototypes turn into products. \ntldraw \nI'm currently running tldraw , a startup I formed in 2022 around my infinite canvas SDK for React of the same name. Developers use the tldraw SDK to accelerate development of whiteboards and other canvas-like applications. The project's \"demo\" ( tldraw.com ) has become a popular end-user application, too, with close to 500,000 monthly active users. We're a Series A company based by Lux , Definition , Amplify , and others; and we're based in London with our office in Finsbury Park. \nPrevious Work \nI've previously worked with Play , helping to design a mobile-first design application for iOS. Before that, I was creating educational content for Framer . You can read more about my professional history on my LinkedIn . \nOpen Source \nI've created and occassionally maintain several source projects: \n tldraw is a tiny little drawing app. \n globs is a globs-based design app. \n perfect-freehand is a library for drawing freehand lines. \n perfect-arrows is a library for drawing arrows between points and shapes. It made for some fun tweet threads . \n state-designer is a state management library with its own visual design environment . It's based on state charts and is great for prototyping. \nYou can sponsor my work on Github! \nContact \nThe best way to contact me is on twitter . \nSteve Ruiz © 2025 hey click here"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "steveruizok",
+  "user": {
+   "name": "Steve Ruiz",
+   "company": "@tldraw ",
+   "blog": "http://steveruiz.me",
+   "location": "London, UK",
+   "bio": "Founder & CEO, @tldraw ",
+   "public_repos": 177,
+   "followers": 3474,
+   "created_at": "2016-10-26T08:12:27Z",
+   "twitter_username": "steveruizok",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "steveruizok/perfect-freehand",
+    "description": "Draw perfect pressure-sensitive freehand lines.",
+    "stargazers_count": 5773,
+    "forks_count": 215,
+    "language": "HTML",
+    "homepage": "https://perfectfreehand.com",
+    "created_at": "2021-02-19T22:59:03Z",
+    "pushed_at": "2026-04-13T04:44:47Z",
+    "topics": [
+     "drawing",
+     "graphics",
+     "html-canvas",
+     "lines",
+     "pressure",
+     "stroke",
+     "svg",
+     "variable-width"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/perfect-arrows",
+    "description": "Draw perfect arrows between points and shapes.",
+    "stargazers_count": 2850,
+    "forks_count": 64,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2020-07-17T20:29:56Z",
+    "pushed_at": "2023-01-07T20:12:38Z",
+    "topics": [
+     "angles",
+     "arc",
+     "arrow-heads",
+     "draw",
+     "perfect-arrows"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/perfect-cursors",
+    "description": "Perfect interpolation for multiplayer cursors.",
+    "stargazers_count": 707,
+    "forks_count": 13,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-01-07T21:41:41Z",
+    "pushed_at": "2022-01-08T16:02:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/state-designer",
+    "description": "State management with statecharts.",
+    "stargazers_count": 670,
+    "forks_count": 25,
+    "language": "HTML",
+    "homepage": "https://state-designer.com",
+    "created_at": "2019-12-24T20:22:19Z",
+    "pushed_at": "2023-01-07T04:39:42Z",
+    "topics": [
+     "react",
+     "statecharts",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/telestrator",
+    "description": "A disappearing drawing tool for your screen.",
+    "stargazers_count": 411,
+    "forks_count": 22,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2021-02-11T17:59:21Z",
+    "pushed_at": "2026-01-30T08:06:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/perfect-freehand-dart",
+    "description": "Draw perfect freehand lines—in Flutter.",
+    "stargazers_count": 281,
+    "forks_count": 48,
+    "language": "Dart",
+    "homepage": "https://steveruizok.github.io/perfect-freehand-dart/",
+    "created_at": "2021-09-28T21:27:30Z",
+    "pushed_at": "2026-07-04T20:06:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/globs",
+    "description": "A globs-based vector editor.",
+    "stargazers_count": 250,
+    "forks_count": 11,
+    "language": "TypeScript",
+    "homepage": "https://globs.design",
+    "created_at": "2021-03-12T15:31:34Z",
+    "pushed_at": "2026-05-24T09:13:07Z",
+    "topics": [
+     "2d",
+     "globs",
+     "vector"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/rko",
+    "description": "A state manager with undo, redo and persistence.",
+    "stargazers_count": 215,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2021-08-26T14:42:47Z",
+    "pushed_at": "2026-05-24T08:38:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/chat-stick",
+    "description": "A live chat project for the M5StickS3 and other devices.",
+    "stargazers_count": 187,
+    "forks_count": 18,
+    "language": "C++",
+    "homepage": "",
+    "created_at": "2026-04-16T09:19:16Z",
+    "pushed_at": "2026-10-02T14:30:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/gotcha",
+    "description": "Turn your Framer prototype into its own live developer spec.",
+    "stargazers_count": 119,
+    "forks_count": 10,
+    "language": "CoffeeScript",
+    "homepage": "",
+    "created_at": "2017-11-17T17:59:05Z",
+    "pushed_at": "2021-02-25T14:35:46Z",
+    "topics": [
+     "framer",
+     "framer-studio",
+     "front-end-development",
+     "handoff",
+     "prototyping"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/liquorstore",
+    "description": "A reactive store.",
+    "stargazers_count": 105,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-08-02T09:50:37Z",
+    "pushed_at": "2026-05-24T09:13:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/kdtype",
+    "description": "A typing game for kids.",
+    "stargazers_count": 87,
+    "forks_count": 17,
+    "language": "TypeScript",
+    "homepage": "https://kdtype.com",
+    "created_at": "2022-07-09T19:57:03Z",
+    "pushed_at": "2022-07-11T20:53:31Z",
+    "topics": [
+     "kids",
+     "learning",
+     "typing"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/snowcraft",
+    "description": "Snowcraft brood war by Steve Ruiz.",
+    "stargazers_count": 66,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": "https://snowcraft.app",
+    "created_at": "2024-02-20T14:41:50Z",
+    "pushed_at": "2024-02-20T14:41:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/polyclip-js",
+    "description": "A JavaScript implementation of the Greiner-Hormann clipping algorithm.",
+    "stargazers_count": 62,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-12-31T16:41:04Z",
+    "pushed_at": "2026-05-24T08:38:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/trashly",
+    "description": "A reactive store.",
+    "stargazers_count": 51,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-07-30T21:53:25Z",
+    "pushed_at": "2022-08-02T09:32:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/arrows-playground",
+    "description": "A canvas-based arrows playground.",
+    "stargazers_count": 37,
+    "forks_count": 6,
+    "language": "TypeScript",
+    "homepage": "https://arrows-playground.vercel.app/",
+    "created_at": "2020-10-03T19:49:41Z",
+    "pushed_at": "2021-03-28T09:26:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/state-designer-ide",
+    "description": "A design environment for State Designer.",
+    "stargazers_count": 33,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "state-designer-ide.steveruizok.vercel.app",
+    "created_at": "2020-11-26T21:20:36Z",
+    "pushed_at": "2021-05-17T09:54:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "steveruizok/framer-moreutils",
+    "description": "Expand Utils with some handy helper functions.",
+    "stargazers_count": 31,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-12-19T10:54:33Z",
+    "pushed_at": "2018-07-11T09:57:06Z",
+    "topics": [],
+    "archived": true
+   }
+  ],
+  "repo_count_nonfork": 97,
+  "languages": [
+   [
+    "TypeScript",
+    41
+   ],
+   [
+    "JavaScript",
+    22
+   ],
+   [
+    "CoffeeScript",
+    8
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "CSS",
+    4
+   ],
+   [
+    "MDX",
+    3
+   ],
+   [
+    "Dart",
+    1
+   ],
+   [
+    "C++",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "steveruizok/perfect-freehand",
+    "stargazerCount": 5773,
+    "description": "Draw perfect pressure-sensitive freehand lines.",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "https://perfectfreehand.com"
+   },
+   {
+    "nameWithOwner": "steveruizok/perfect-arrows",
+    "stargazerCount": 2850,
+    "description": "Draw perfect arrows between points and shapes.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "steveruizok/telestrator",
+    "stargazerCount": 411,
+    "description": "A disappearing drawing tool for your screen.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "steveruizok/state-designer",
+    "stargazerCount": 670,
+    "description": "State management with statecharts.",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "https://state-designer.com"
+   }
+  ],
+  "contrib_last_year": 8427,
+  "orgs": [],
+  "profile_readme": "Design and development for creative tools.\n\nLots of side projects here, one of them became a startup, see [tldraw](https://github.com/tldraw/tldraw).\n",
+  "readmes": {
+   "steveruizok/perfect-freehand": "# \nDraw perfect pressure-sensitive freehand lines.\n🔗 Curious? Try out a [demo](https://perfect-freehand-example.vercel.app/).\n💅 Designer? Check out the [Figma Plugin](https://www.figma.com/community/plugin/950892731860805817).\n🕊 This library is written in TypeScript but are community ports in:\n- [dart version](https://pub.dev/packages/perfect_freehand)\n- [odin](https://github.com/sibaiper/odin-freehand)\n- [python](https://github.com/bigbluebutton/perfect-freehand-python)\n- [rust](https://crates.io/crates/perfect_freehand)\n- ...and probably more. Make a pull request!\n💕 Love this library? Consider [becoming a sponsor](https://github.com/sponsors/steveruizok?frequency=recurring&sponsor=steveruizok).\n## Table of Contents\n- [Installation](#installation)\n- [Usage](#usage)\n- [Documentation](#documentation)\n- [Community](#community)\n- [Author](#author)\n## Installation\n```bash\nnpm install perfect-freehand\n```\nor\n```bash\nyarn add perfect-freehand\n```\n## Introduction\nThis package exports a function named `getStroke` that will generate the points for a polygon based on an array of points.\nTo do this work, `getStroke` first creates a set of spline points (red) based on the input points (grey) and then creates outline points (blue). You can render the result any way you like, using whichever technology you prefer.\n[](https://codesandbox.io/s/perfect-freehand-example-biwyi?fontsize=14&hidenavigation=1&theme=dark)\n## Usage\nTo use this library, import the `getStroke` function and pass it an array of **input points**, such as those recorded from a user's mouse movement. The `getStroke` function will return a new array of **outline points**. These outline points will form a polygon (called a \"stroke\") that surrounds the input points.\n```js\nimport { getStroke } from 'perfect-freehand'\nconst inputPoints = [\n  [0, 0],\n  [10, 5],\n  [20, 8],\n  // ...\n]\nconst outlinePoints = getStroke(inputPoints)\n```\nYou then can **render** your stroke points using your technology of choice. See the [Rendering](#rendering) section for examples in SVG and HTML Canvas.\nYou can **customize** the appearance of the stroke shape by passing `getStroke` a second parameter: an options object containing one or m",
+   "steveruizok/perfect-arrows": "# Perfect Arrows\nA set of functions for drawing perfect arrows between points and shapes.\n- [`getArrow`](#getarrowx0-y0-x1-y1-options) - For point-to-point arrows.\n- [`getBoxToBoxArrow`](#getboxtoboxarrowx0-y0-w0-h0-x1-y1-w1-h1-options) - For rectangle-to-rectangle arrows.\n👉 [Demo](https://perfect-arrows.now.sh/)\n[](https://codesandbox.io/s/github/steveruizok/perfect-arrows/tree/master/example?fontsize=14&hidenavigation=1&theme=dark)\n<div align=\"center\">\n<p>Other languages</p>\n<p><a href=\".github/README_pt_BR.md\">Português (pt-BR)</a></p></div>\n## Installation\n```\nnpm i perfect-arrows\n```\n_or_\n```\nyarn add perfect-arrows\n```\n## Usage\nThe functions in this library provide only the information needed to draw an arrow. You'll need to draw the arrow yourself using your technology of choice. See below for an example React component with SVG.\n### `getArrow(x0, y0, x1, y1, options)`\nThe `getArrow` function accepts the position of two points and returns an array containing information for:\n- three points: a start, end, and control point\n- three angles: an end, start, and center\nYou can use this information to draw an arc and arrow-heads. You can use the options object to tweak the return values.\n```js\nconst arrow = getArrow(0, 0, 100, 200, {\n  bow: 0,\n  stretch: 0.5,\n  stretchMin: 0,\n  stretchMax: 420,\n  padStart: 0,\n  padEnd: 0,\n  flip: false,\n  straights: true,\n})\nconst [sx, sy, cx, cy, ex, ey, ae, as, sc] = arrow\n```\n#### Arguments\n| Argument | Type   | Description                                                                 |\n| -------- | ------ | --------------------------------------------------------------------------- |\n| `x0`     | number | The x position of the starting point.                                       |\n| `y0`     | number | The y position of the starting point.                                       |\n| `x1`     | number | The x position of the ending point.                                         |\n| `y1`     | number | The y position of the ending point.                                         |\n| options  | object | An (optional) object containing one or more of the options described below. |\n#### Options\n| Option       | Type    | Default |",
+   "steveruizok/telestrator": "# Telestrator\n## [Download the latest release](https://github.com/steveruizok/telestrator/releases)\nAn on-screen drawing tool (aka a [\"telestrator\"](https://en.wikipedia.org/wiki/Telestrator)) by [@steveruizok](https://twitter.com/steveruizok).\nThis project needs a maintainer! (My hands are full with [tldraw](https://github.com/tldraw/tldraw)) DM me!\n## Usage\nWhen open, the app sits on top of your screen as a transparent always-on-top window. When activated, your cursor will interact with the app. When not activated, your cursor will pass through to the windows beneath it.\n- To view the app's toolbar, move your cursor into the lower left corner of your screen.\n- To **activate** the app, select a color or tool. You can now begin drawing.\n- To **deactivate** the app (and release your cursor), press `Escape`.\n## Keyboard Shortcuts\n- `Command + Option + Z` to activate the app.\n- `Escape` to deactivate the app.\n- `E` for ellipse tool.\n- `R` for rectangle tool.\n- `A` for arrow tool.\n- `D` for draw tool.\n- `1` through `6` to select colors.\n- `Command + 1` through `Command + 3` to select sizes.\n- `Command + E` to clear the screen.\n- `Command + F` to toggle fading.\n- `Command + Z` to undo.\n- `Command + Shift + Z` to redo.\n- Clear screen and release pointer with `Command + Shift + E`.\nYou can also activate the app at any time by pressing `Command + Option + Z`.\n## Tips and Tricks\n- Double click the drawing tool to toggle between ink-style drawing and solid drawing.\n## Roadmap\nA loose idea of the features planned for development.\n- [ ] Alert user to deactivate shortcut on first activation.\n- [ ] In-app updates.\n- [ ] Preferences menu.\n- [ ] Customize global shortcut.\n- [ ] Customize sizes.\n- [ ] Customize colors.\n- [ ] Customize background color (e.g. chroma key).\n- [ ] Customize toolbar location (e.g. left, right, bottom, top).\n- [ ] Add as menu icon instead of dock icon.\n## Developing\nThis is an Electron app. If you're set up to do web dev then you'll be able to easily build the app from source. Clone this repo and run `yarn install` and `yarn dev` or `yarn build` just like you would with a regular web project.\n",
+   "steveruizok/state-designer": "# State Designer\nState Designer is a JavaScript and TypeScript library for managing the state of a user interface. It prioritizes the design experience, making it easy to experiment with ideas, iterate on solutions, and communicate the final result.\n- **See examples in [React](https://codesandbox.io/s/state-designer-react-r0z0v) and [TypeScript](https://codesandbox.io/s/state-designer-react-typescript-op1qk).**\n- **Learn more at [state-designer.com](https://state-designer.com).**\n## Features\n- Write [state-charts](https://statecharts.github.io/) in a simple declarative syntax.\n- Create both global and local component states.\n- Use selectors to subscribe to just the data you need.\n## Packages\n- [`@state-designer/core`](https://github.com/steveruizok/state-designer/tree/master/packages/core) - Core library.\n- [`@state-designer/react`](https://github.com/steveruizok/state-designer/tree/master/packages/react) - React hook.\n## Usage\nUsing State Designer involves three steps:\n1. Create a state with a configuration object.\n2. Subscribe to the state's updates.\n3. Send events to the state.\nYour exact usage will depend on your framework:\n- [Usage in JavaScript](https://github.com/steveruizok/state-designer/tree/master/packages/core#usage)\n- [Usage in React](https://github.com/steveruizok/state-designer/tree/master/packages/react#usage)\n## Inspiration\nState Designer is heavily inspired by [xstate](https://github.com/davidkpiano/xstate). Note that, unlike xstate, State Designer does not adhere to the [scxml spec](https://en.wikipedia.org/wiki/SCXML).\n## Author\n- [Steve Ruiz](https://twitter.com/@steveruizok)\n## License\n[MIT](https://oss.ninja/mit/steveruizok)\n",
+   "steveruizok/perfect-cursors": "# perfect-cursors\nPerfect interpolation for animated multiplayer cursors. Used in [tldraw](https://tldraw.com).\n💕 Love this library? Consider [becoming a sponsor](https://github.com/sponsors/steveruizok?frequency=recurring&sponsor=steveruizok).\n[](https://codesandbox.io/s/perfect-cursors-demo-u85tu?fontsize=14&hidenavigation=1&theme=dark)\n## Installation\n```bash\nyarn add perfect-cursors\n# or\nnpm i perfect-cursors\n```\n## Introduction\nYou can use this library to smoothly animate a cursor based on limited information.\n_Above: We are updating the red cursor's position once every 80 milliseconds. The `perfect-cursors` library is being used to correctly animate between these positions._\n### Animating between points\nWhen implementing a multiplayer app, you will most likely be displaying each user's cursor location based on the information you receive from a multiplayer service such as [Pusher](https://pusher.com/), [Liveblocks](https://liveblocks.io/).\nIn a perfect world, these updates would occur \"in real time\": that is, arriving with zero latency and arriving at the same rate as the user's monitor.\n_Above: Updating the cursor instantly._\nIn the real world, however, services often \"throttle\" their updates to roughly one update every 50-80 milliseconds.\nUpdating the cursors' locations directly will cause cursors to \"jump\" between points.\n_Above: Updating the cursor's once position every 80 milliseconds._\nTransitioning between points via CSS can work, however this looks increasingly artificial as the delay increases. Worse, because updates do not come in on an _exact_ interval, some animations will never finish while others will pause between animations.\n_Above: Transitioning the cursor's once position every 80 milliseconds._\nSmart animating with JavaScript and dynamic durations can be better, however this still looks artificial as the delay increases.\n_Above: Animating the cursor once position every 80 milliseconds._\nFor best results, you would animate while _interpolating_ the cursors' locations based on a set of connected curves (e.g. a \"spline\").\n_Above: Animating the cursor once position every 80 milliseconds using spline interpolation._\nIn this way, your animation"
+  }
+ },
+ "apps": []
+}

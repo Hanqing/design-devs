@@ -1,0 +1,150 @@
+{
+ "name": "Jorn van Dijk",
+ "role": "Framer 联合创始人兼 CEO · Festina 早期基金 · 前 Sofa 联合创始人 · 前 Facebook 设计师",
+ "title": "Jorn van Dijk：<em>欲速则慢</em>，做长久的东西",
+ "dek": "他的个人网站开头是：「我和联合创始人 Koen 花了十年，让互联网更有表现力。」在那之前，他们在阿姆斯特丹的 Sofa 做出过获奖的 Mac 应用，2011 年把公司卖给 Facebook，之后在旧金山做了几年设计。现在他是 Framer 的 CEO（X 简介写着「I run Framer」），同时和 Koen 一起通过 Festina 基金投资创意领域的创业公司。Framer 2025 年完成 1 亿美元 D 轮融资、估值 20 亿美元；他现在把它定义为「一个从想法到上线、又不让你失去控制的设计 Agent」，2026 年 10 月发布了 Framer MCP。",
+ "card": "Framer 联合创始人兼 CEO；Festina 基金；前 Sofa 联合创始人（2011 年被 Facebook 收购）。",
+ "location": "荷兰（未具体公开）",
+ "updated": "2026-10-23",
+ "tags": ["设计工具", "建站", "创业", "AI Agent", "投资"],
+ "links": [
+  {"label": "jornvandijk.com", "url": "https://www.jornvandijk.com"},
+  {"label": "Framer", "url": "https://www.framer.com"},
+  {"label": "Notes", "url": "https://www.jornvandijk.com/notes"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「Framer is the design agent that takes you from idea to launch, without giving up control.」",
+  "<strong>经历：</strong>Sofa（Mac 应用，2011 年被 Facebook 收购）→ 在旧金山做设计 → 与 Koen Bok 联合创办 Framer → Framer CEO。",
+  "<strong>投资：</strong>Festina，「投资创意领域的创业公司」。",
+  "<strong>写作：</strong>Notes 栏目：《Agent Templates》《Make Haste, Slowly》《Maker Taste》。"
+ ],
+ "lead": "Festina 这个名字来自拉丁语格言 Festina Lente：欲速则慢，从容地赶路。Jorn 在 2026 年 5 月的短文《Make Haste, Slowly》里说，这是他们给自己的提醒：既要跑得快，又要造得长久。四月的另一篇短文只有一个核心句：「使用给你观点，制作给你品味。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创始人兼 CEO、设计师、投资人"],
+     ["公司", "Framer（CEO）"],
+     ["基金", "Festina（与 Koen Bok）"],
+     ["经历", "Sofa 联合创始人 → Facebook（旧金山）→ Framer"],
+     ["搭档", "Koen Bok"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Jorn 正在带领 Framer <strong>从建站工具转向「设计 Agent」</strong>。他在《Agent Templates》里提出：模板原本是为人做的，只放几页示例对人够用；但要让 Agent 用好模板，模板需要更多东西，比如规则、结构和意图。2026 年 10 月发布的 Framer MCP 让外部 AI 工具也能直接操作 Framer 项目。"},
+    {"p": "他在 X 上转发的多是用户案例：设计工作室 Fuzzco 用 Framer Agent 四天上线一个网站；社区里讲解 fixed、relative、fill、fit 布局的教程。"},
+    {"note": "本页依据 jornvandijk.com（首页与 Notes）、TechCrunch 关于 Framer 融资的报道和 X 帖子整理，资料截至 2026 年 10 月。他没有公开 GitHub 代码，所在城市未在网站上写明。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2000 年代", "title": "Sofa", "text": "在阿姆斯特丹做出获奖的 Mac 应用。"},
+     {"when": "2011", "title": "被 Facebook 收购", "text": "此后在旧金山做了几年设计。"},
+     {"when": "2010 年代", "title": "联合创办 Framer", "text": "从原型工具做起。"},
+     {"when": "约 2022", "title": "转向建站", "text": "Framer 变成设计师的网站构建工具。"},
+     {"when": "2025", "title": "D 轮", "text": "融资 1 亿美元，估值 20 亿美元。"},
+     {"when": "2026", "title": "设计 Agent", "text": "Framer Agent、Framer MCP；写 Notes 系列短文。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Framer", "url": "https://www.framer.com",
+     "meta": ["CEO", "设计 Agent / 建站"],
+     "paras": [
+      "从想法到上线：设计、动效、CMS、发布都在一处。2026 年加入 Agent 能力，让用户用对话生成和修改网站，同时保留对每个细节的控制。"
+     ]
+    }},
+    {"work": {
+     "name": "Festina", "url": "https://www.jornvandijk.com",
+     "meta": ["早期基金"],
+     "paras": [
+      "「Through Festina, we back startups in the creative space.」名字取自 Festina Lente。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他", "说明"],
+     "rows": [
+      ["Sofa", "设计工作室，做获奖 Mac 应用，2011 年被 Facebook 收购"],
+      ["Framer MCP", "2026 年 10 月发布，外部 AI 工具可接入 Framer"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.jornvandijk.com", "paras": [
+     "网站用 Framer 搭建：一段自述加一个 Notes 栏目。Notes 是短小的思考，每篇一句副标题就是论点，比如「Using gives you opinions. Making gives you taste.」"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Framer"],
+      ["结构", "自述 + Notes"],
+      ["节奏", "2026 年每月左右一篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-09-30", "title": "Agent Templates", "url": "https://www.jornvandijk.com/notes/agent-templates"},
+     {"date": "2026-05-07", "title": "Make Haste, Slowly", "url": "https://www.jornvandijk.com/notes/make-haste-slowly"},
+     {"date": "2026-04-28", "title": "Maker Taste", "url": "https://www.jornvandijk.com/notes"}
+    ]},
+    {"quote": "Using gives you opinions. Making gives you taste.", "cite": "Jorn van Dijk，《Maker Taste》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["经营", "带领 Framer 多次转型并高速增长", "—"],
+      ["搭档", "与 Koen 合作二十年", "—"],
+      ["公开信息", "观点清晰", "个人履历细节和代码作品公开很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>动手做才有品味：</strong>只用产品，只会有观点。",
+     "<strong>快，但要长久：</strong>Festina Lente。",
+     "<strong>为 Agent 重新设计模板。</strong>",
+     "<strong>和对的人长期合作。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Agent Templates", "url": "https://www.jornvandijk.com/notes/agent-templates", "why": "模板在 AI 时代该长什么样。"},
+     {"name": "Framer", "url": "https://www.framer.com", "why": "试试 Framer Agent。"},
+     {"name": "Make Haste, Slowly", "url": "https://www.jornvandijk.com/notes/make-haste-slowly", "why": "一个基金名字背后的哲学。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "这周亲手做一个你平时只会「用」的东西，哪怕只是一个网页，然后写下你对它的看法有什么变化。",
+ "sources": [
+  {"label": "Jorn van Dijk 的 X 个人资料", "url": "https://x.com/jornvandijk"},
+  {"label": "jornvandijk.com", "url": "https://www.jornvandijk.com"},
+  {"label": "Notes（jornvandijk.com）", "url": "https://www.jornvandijk.com/notes"},
+  {"label": "TechCrunch：Framer 估值 20 亿美元", "url": "https://www.techcrunch.com/2025/08/28/no-code-website-builder-framer-reaches-2b-valuation/"}
+ ]
+}

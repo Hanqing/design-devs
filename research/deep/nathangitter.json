@@ -1,0 +1,153 @@
+{
+ "handle": "nathangitter",
+ "sites": [
+  {
+   "url": "http://nathangitter.com",
+   "ok": true,
+   "title": "Nathan Gitter | designer + engineer",
+   "description": "Nathan Gitter",
+   "stack": [],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "nathan gitter · designer + engineer · human interface design at apple · email · twitter · linkedin · github · ​",
+   "github_links": [
+    "nathangitter"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "nathangitter",
+  "user": {
+   "name": "Nathan Gitter",
+   "company": null,
+   "blog": "nathangitter.com",
+   "location": "SF Bay Area, CA",
+   "bio": "designer + engineer",
+   "public_repos": 7,
+   "followers": 437,
+   "created_at": "2014-08-25T21:40:01Z",
+   "twitter_username": "nathangitter",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "nathangitter/fluid-interfaces",
+    "description": "Natural gestures and animations inspired by Apple's WWDC18 talk \"Designing Fluid Interfaces\"",
+    "stargazers_count": 2591,
+    "forks_count": 146,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2018-07-08T14:48:27Z",
+    "pushed_at": "2018-12-16T14:39:56Z",
+    "topics": [
+     "animation",
+     "fluid",
+     "gesture",
+     "interfaces",
+     "spring-animation",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "nathangitter/interactive-animations",
+    "description": "A simple popup menu built in Swift with UIViewPropertyAnimator.",
+    "stargazers_count": 309,
+    "forks_count": 40,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2017-09-07T01:23:40Z",
+    "pushed_at": "2018-07-09T15:16:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathangitter/HomeButton",
+    "description": "Bringing the home button back to iPhone X",
+    "stargazers_count": 305,
+    "forks_count": 11,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2018-03-16T20:41:59Z",
+    "pushed_at": "2018-04-01T21:36:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathangitter/sketch-vs-ios",
+    "description": "Exploring rendering differences between Sketch and iOS",
+    "stargazers_count": 91,
+    "forks_count": 8,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2018-01-16T22:12:44Z",
+    "pushed_at": "2018-01-31T14:16:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "nathangitter/PentatonicGameOfLife",
+    "description": "WWDC18 Scholarship Swift Playground",
+    "stargazers_count": 48,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2018-04-21T16:44:49Z",
+    "pushed_at": "2018-04-21T18:20:30Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 5,
+  "languages": [
+   [
+    "Swift",
+    5
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "nathangitter/fluid-interfaces",
+    "stargazerCount": 2591,
+    "description": "Natural gestures and animations inspired by Apple's WWDC18 talk \"Designing Fluid Interfaces\"",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "nathangitter/interactive-animations",
+    "stargazerCount": 309,
+    "description": "A simple popup menu built in Swift with UIViewPropertyAnimator.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "nathangitter/HomeButton",
+    "stargazerCount": 305,
+    "description": "Bringing the home button back to iPhone X",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 0,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "nathangitter/fluid-interfaces": "<p align=\"center\"></p>\n### Check out the accompanying blog post for more details: [Building Fluid Interfaces](https://medium.com/@nathangitter/building-fluid-interfaces-ios-swift-9732bb934bf5)\n⭐️ If you found this repo helpful, please star it. Thanks! ⭐️\n### Background\nAt WWDC 2018, Apple designers gave a talk titled \"Designing Fluid Interfaces\", explaining the design theory behind the gesture-based interface of iPhone X. (The presentation is available here: [Designing Fluid Interfaces](https://developer.apple.com/videos/play/wwdc2018/803/))\nIt was an outstanding talk, inspiring designers and developers to think about animated interfaces in a new way. While some technical guidance was provided, most code-level implementation details were ommitted.\nThe goal with this project is to bridge the gap between inspiration and implementation.\n### Installation\nDownload or clone the repo and open the `FluidInterfaces.xcodeproj` file with Xcode.\n### Interfaces\n[Calculator Button](#calculator-button)\n[Spring Animations](#spring-animations)\n[Flashlight Button](#flashlight-button)\n[Rubberbanding](#rubberbanding)\n[Acceleration Pausing](#acceleration-pausing)\n[Rewarding Momentum](#rewarding-momentum)\n[FaceTime PiP](#facetime-pip)\n[Rotation](#rotation)\n## Calculator Button\nA button that mimics the behavior of buttons in the iOS Calculator app.\n[⚙️ CalculatorButton.swift](FluidInterfaces/FluidInterfaces/CalculatorButton.swift)\n[📺 Designing Fluid Interfaces 50:13](https://developer.apple.com/videos/play/wwdc2018/803/?time=3013)\n## Spring Animations\nA demo showing the ability to define a spring animation with \"design-friendly\" parameters.\n[⚙️ Spring.swift](FluidInterfaces/FluidInterfaces/Spring.swift)\n[📺 Designing Fluid Interfaces 31:40](https://developer.apple.com/videos/play/wwdc2018/803/?time=1900)\n## Flashlight Button\nA button that mimics the behavior of the flashlight button on the lockscreen of iPhone X.\n[⚙️ FlashlightButton.swift](FluidInterfaces/FluidInterfaces/FlashlightButton.swift)\n[📺 Designing Fluid Interfaces 37:59](https://developer.apple.com/videos/play/wwdc2018/803/?time=2279)\n## Rubberbanding\nA demo showing how to implement rubberbanding.\n[⚙️ Rubberbanding.swift](Fl",
+   "nathangitter/interactive-animations": "# interactive-animations\nThis project is an example of using `UIViewPropertyAnimator` to create interactive animations.\nThis was originally created as a demo to accompany a talk I gave at an Austin iOS developer meetup in September, 2017.\n## About\nThe repository's commits are structured to show the various phases of building the animation.\nIn the original talk, I would jump between commits to gradually introduce concepts.\nI wrote a tutorial blog post on how to implement this animation step-by-step. It's available here: [Building Better iOS App Animations](http://www.swiftkickmobile.com/building-better-app-animations-swift-uiviewpropertyanimator/)\nThe animation is inspired by a WWDC 2017 presentation titled \"Advanced Animations with UIKit\".\nhttps://developer.apple.com/videos/play/wwdc2017/230/\n## Instructions\nThis project was built with Xcode 9 Beta 6. To run, download/clone the repo and open `InteractiveAnimations.xcodeproj` in Xcode 9.\n## License\nMIT © 2017 Nathan Gitter. See LICENSE for full details.\n",
+   "nathangitter/HomeButton": "<p align=\"center\">\n</p>\n[](https://travis-ci.org/nathangitter/HomeButton)\n[](http://cocoapods.org/pods/HomeButton)\n[](http://cocoapods.org/pods/HomeButton)\n[](http://cocoapods.org/pods/HomeButton)\nWhen Apple released the iPhone X, they removed iPhone's most iconic feature—the home button.\n`HomeButton` is a CocoaPod that brings back the home button. Best part: **it actually works**.\n## Usage\n`HomeButton` can be added to your poject with zero lines of code. Yes, that's right—no code needed. Simply link the framework in your app, and the home button adds itself.\n## Customization\n`HomeButton` supports four styles: `classic`, `classicWhite`, `modern`, and `modernWhite`.\n<p align=\"center\">\n</p>\nThe default style is `classic`. To change the style, add the following line:\n    HomeButton.style = .modern\nThis can be placed anywhere in your app, but it probably makes the most sense in your AppDelegate's `application(_:didFinishLaunchingWithOptions:)` function.\n## Installation via CocoaPods\n`HomeButton` is available through [CocoaPods](http://cocoapods.org). To install\nit, simply add the following line to your Podfile:\n```ruby\npod 'HomeButton'\n```\n## Frequently Asked Questions\n> Will this cause my app to be rejected from the App Store?\nIt explicity breaks guideline 5.2.1 due to usage of private API's and probably 5.2.5 as well for mimicking system UI. So honestly it depends on the mood of the reviewer.\n> Is this a joke?\nBecause satire is sometimes lost over the internet—yes, this is a joke. It was created as a fun April Fool's project. However, we think it's actually a decent re-creation of the home button, and is valuable as a UI/UX experiment.\n## Authors\n[Nathan Gitter](https://twitter.com/nathangitter) and [Ian McDowell](https://twitter.com/ian_mcdowell)\n## License\nMIT. See the LICENSE file for more info.\n",
+   "nathangitter/sketch-vs-ios": "# sketch-vs-ios\n## About\nThis app was used to investigate some rendering differences between Sketch and iOS. The original post which contains screenshots, gifs, and explanations can be found here:\n[Medium Post — Why Your App Looks Better in Sketch](https://medium.com/@nathangitter/why-your-app-looks-better-in-sketch-3a01b22c43d7)\nThe app is best seen in-person on a real device which is why it is freely available to download, install, and modify.\n## Installation\nTo run the app, download/clone the repo and open `SketchVsQuartz.xcodeproj` in Xcode 9. More details about the app can be found in [README.md](https://github.com/nathangitter/sketch-vs-ios/blob/master/SketchVsQuartz/SketchVsQuartz/README.md) within the Xcode project.\nThe Sketch file is named `Examples.sketch`.\n## About Me\nInterested in the intersection of art and technology? I build/write/share things on the internet:\n[Follow me on Twitter](http://twitter.com/@nathangitter)\n[Follow me on Medium](https://medium.com/@nathangitter)\n## License\nMIT © 2018 Nathan Gitter. See LICENSE for full details."
+  }
+ },
+ "apps": []
+}

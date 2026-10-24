@@ -1,0 +1,319 @@
+{
+ "handle": "steveschoger",
+ "sites": [
+  {
+   "url": "http://www.refactoringui.com",
+   "ok": true,
+   "title": "Refactoring UI",
+   "description": "",
+   "stack": [
+    "Tailwind CSS"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "From the creators of Tailwind CSS \nOver 30,000 copies sold \n 4.68 stars on Goodreads \nMake your ideas look awesome, without relying on a designer. \nLearn how to design beautiful user interfaces by yourself using specific tactics explained from a developer’s point-of-view. \n Get two free chapters Buy now \n Get two free chapters Buy now \n This is the survival kit I wish I had when I was starting out building apps. \nDerrick Reimer \nFounder of SavvyCal \n This book is fantastic for engineers learning how to design. \nAlex MacCaw \nFounder of Clearbit \n This book Refactoring UI is a no-brainer for anyone in the web industry. \nJustin Jackson \nCo-founder of Transistor \n“I know this looks terrible, but I have no idea why.” \nHi! I’m Adam Wathan , a full stack developer who used to suck at design. I’ve been friends with Steve Schoger for years and we’ve worked on a bunch of side projects together — him handling the UI design and me taking care of development. \nLike a lot of developers, I always wished I could make my ideas look awesome without relying on a designer, but any time I tried to design something myself I would always get frustrated and give up. \nI always chalked it up to a left brain/right brain sort of thing — I’m logical and analytical so I’m good at programming, people like Steve are intuitive and creative so he’s good at design. \nBut after working closely with Steve I started picking up little tricks. Tricks that didn’t require any artistic talent, but made things look better instantly for reasons that made sense to me as a developer. \nDesign with tactics, not talent. \nHere’s a concrete design tactic I bet you see applied every day but haven’t explicitly noticed. \n Use fewer borders. \nBorders are a great way to distinguish two elements from one another, but using too many of them can make your design feel busy and cluttered. \nInstead, try adding a box shadow, using contrasting background colors, or simply adding more space between elements. \nIt doesn’t take any talent to make changes like this — once you know the tactic you just need to notice the problem and apply the solution. \nMost design courses are missing the mark. \nThey focus so much on high level principles like color theory and typography which, while important, never helped me make instant improvements like the actionable, specific tactics I was picking up from Steve. \nWorking together, we knew we could create something better. \nOver the last few years, we’ve helped thousands of developers get better at design through quick tips , in-depth articles , and video tutorials . \nRefactoring UI takes everything we know about design and bundles it into one comprehensive package, including a book, screencasts, a component gallery, custom designed assets, and more. \nIt’s exactly what I needed when I was struggling to make my projects look awesome. \nWhat we’ve put together \nIt’s not just a book — it’s everything you need to start producing better designs today. \nWhen we first started working on this project, our ambitions were pretty modest — take all of the tips and tricks we’ve shared on Twitter , bundle them up into one resource, and put it out into the world. \nBut the more time we put into planning it, the more we realized that we had an opportunity to create something better than that. Something that wasn’t just a book, but more like a complete survival kit for designing for the web . \nHere’s what we ended up with… \nThe Book \nA beautiful PDF containing 50 incredibly visual chapters spread across 200+ painstakingly typeset pages. \nThis book contains literally everything we know about web design, distilled into short, easy to read chapters. \nEvery chapter is designed to be as independent as possible, so you can read them in almost any order. And if you want to sit down and read the whole thing at once, you’ll have no trouble getting through it in just a couple of hours. \nWe hate books that repeat the same ideas over and over just to fill out the page count. This book is written a lot like our blog posts — every sentence is highlight-worthy. \nFull table of contents \nStarting from Scratch \n Start with a feature, not a layout 7 \n Detail comes later 10 \n Don’t design too much 13 \n Choose a personality 17 \n Limit your choices 24 \nHierarchy is Everything \n Not all elements are equal 30 \n Size isn’t everything 32 \n Don’t use grey text on colored backgrounds 36 \n De-emphasize to emphasize 39 \n Labels are a last resort 41 \n Separate visual hierarchy from document hierarch",
+   "github_links": [
+    "adamwathan"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github_guess": true,
+ "github": {
+  "login": "adamwathan",
+  "user": {
+   "name": "Adam Wathan",
+   "company": null,
+   "blog": "",
+   "location": "Ontario, Canada",
+   "bio": "Creator of Tailwind CSS, author of Refactoring UI, host of Full Stack Radio.",
+   "public_repos": 178,
+   "followers": 13377,
+   "created_at": "2013-05-02T15:35:48Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "adamwathan/laracon2017",
+    "description": null,
+    "stargazers_count": 501,
+    "forks_count": 81,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2017-08-02T19:04:15Z",
+    "pushed_at": "2018-02-08T18:45:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/workcation",
+    "description": null,
+    "stargazers_count": 420,
+    "forks_count": 52,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2019-06-11T19:26:02Z",
+    "pushed_at": "2022-12-10T19:08:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/bootforms",
+    "description": "Rapid form generation with Bootstrap 3 and Laravel.",
+    "stargazers_count": 414,
+    "forks_count": 99,
+    "language": "PHP",
+    "homepage": "",
+    "created_at": "2013-08-27T17:12:56Z",
+    "pushed_at": "2018-01-10T09:41:02Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "adamwathan/vue-tailwind-examples",
+    "description": null,
+    "stargazers_count": 381,
+    "forks_count": 46,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2019-04-15T11:21:33Z",
+    "pushed_at": "2022-12-09T21:38:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/eloquent-oauth",
+    "description": "Braindead simple social login with Laravel and Eloquent.",
+    "stargazers_count": 366,
+    "forks_count": 44,
+    "language": "PHP",
+    "homepage": "",
+    "created_at": "2013-12-18T04:07:26Z",
+    "pushed_at": "2019-11-19T18:01:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/sublime-phpunit",
+    "description": "Run individual unit test files directly from Sublime",
+    "stargazers_count": 278,
+    "forks_count": 40,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2014-02-21T05:20:36Z",
+    "pushed_at": "2018-07-06T20:20:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/theming-tailwind-demo",
+    "description": null,
+    "stargazers_count": 270,
+    "forks_count": 19,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2018-01-11T14:03:14Z",
+    "pushed_at": "2019-11-05T20:27:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/laravel-preset",
+    "description": null,
+    "stargazers_count": 269,
+    "forks_count": 24,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2018-01-24T16:44:05Z",
+    "pushed_at": "2019-09-18T12:52:32Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "adamwathan/form",
+    "description": "Super basic form HTML builder, only really exists so I can pull it in for some other more useful projects.",
+    "stargazers_count": 232,
+    "forks_count": 113,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2013-09-03T22:46:18Z",
+    "pushed_at": "2018-02-24T14:03:00Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "adamwathan/eloquent-oauth-l5",
+    "description": "Eloquent OAuth service provider and assets for Laravel 5",
+    "stargazers_count": 215,
+    "forks_count": 47,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2015-03-29T13:33:35Z",
+    "pushed_at": "2017-08-02T12:20:01Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "adamwathan/tailwind-take-home-project",
+    "description": null,
+    "stargazers_count": 138,
+    "forks_count": 30,
+    "language": "Vue",
+    "homepage": "",
+    "created_at": "2020-08-09T19:22:47Z",
+    "pushed_at": "2020-08-09T19:23:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/vue-shopify-sortable-demo",
+    "description": null,
+    "stargazers_count": 112,
+    "forks_count": 24,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2018-04-05T15:12:44Z",
+    "pushed_at": "2018-07-17T13:26:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/fullstackradio.com",
+    "description": null,
+    "stargazers_count": 88,
+    "forks_count": 7,
+    "language": "JavaScript",
+    "homepage": "https://fullstackradio.com",
+    "created_at": "2020-08-21T02:29:42Z",
+    "pushed_at": "2025-08-21T18:43:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/tailwind-css-variable-text-opacity-demo",
+    "description": null,
+    "stargazers_count": 83,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2020-09-13T19:56:02Z",
+    "pushed_at": "2020-09-13T20:02:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/test-driven-laravel-from-scratch",
+    "description": null,
+    "stargazers_count": 83,
+    "forks_count": 21,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2016-01-11T14:49:02Z",
+    "pushed_at": "2016-01-11T14:49:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/laracon-online-2018",
+    "description": null,
+    "stargazers_count": 66,
+    "forks_count": 13,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2018-02-08T16:43:26Z",
+    "pushed_at": "2018-02-08T19:12:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/entypo-optimized",
+    "description": null,
+    "stargazers_count": 61,
+    "forks_count": 43,
+    "language": null,
+    "homepage": null,
+    "created_at": "2016-08-30T12:28:48Z",
+    "pushed_at": "2016-08-30T12:54:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "adamwathan/tailwindcss-dark-mode-prototype",
+    "description": null,
+    "stargazers_count": 57,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "https://tailwindcss-dark-mode-prototype.vercel.app",
+    "created_at": "2020-07-23T19:56:35Z",
+    "pushed_at": "2020-07-23T20:00:31Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 134,
+  "languages": [
+   [
+    "JavaScript",
+    37
+   ],
+   [
+    "PHP",
+    36
+   ],
+   [
+    "Vue",
+    15
+   ],
+   [
+    "CSS",
+    13
+   ],
+   [
+    "HTML",
+    12
+   ],
+   [
+    "TypeScript",
+    2
+   ],
+   [
+    "Svelte",
+    2
+   ],
+   [
+    "Ruby",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "tailwindlabs/tailwindcss",
+    "stargazerCount": 98037,
+    "description": "A utility-first CSS framework for rapid UI development.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://tailwindcss.com/"
+   }
+  ],
+  "contrib_last_year": 633,
+  "orgs": [
+   "fullstackradio",
+   "nitpickci",
+   "tailwindcss"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "tailwindlabs/tailwindcss": "<p align=\"center\">\n  <a href=\"https://tailwindcss.com\" target=\"_blank\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg\">\n    </picture>\n  </a>\n</p>\n<p align=\"center\">\n  A utility-first CSS framework for rapidly building custom user interfaces.\n</p>\n<p align=\"center\">\n    <a href=\"https://github.com/tailwindlabs/tailwindcss/actions\"></a>\n    <a href=\"https://www.npmjs.com/package/tailwindcss\"></a>\n    <a href=\"https://github.com/tailwindlabs/tailwindcss/releases\"></a>\n    <a href=\"https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE\"></a>\n</p>\n---\n## Documentation\nFor full documentation, visit [tailwindcss.com](https://tailwindcss.com).\n## Community\nFor help, discussion about best practices, or feature ideas:\n[Discuss Tailwind CSS on GitHub](https://github.com/tailwindlabs/tailwindcss/discussions)\n## Contributing\nIf you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindlabs/tailwindcss/blob/main/.github/CONTRIBUTING.md) **before submitting a pull request**.\n",
+   "adamwathan/laracon2017": "## Cruddy by Design\nDuring my talk at Laracon 2017, I shared some strategies I use to split large controllers into multiple small controllers.\nThe core idea is to try and stick to the 7 standard REST/CRUD actions in your controllers:\n- Index\n- Show\n- Create\n- Store\n- Edit\n- Update\n- Destroy\nUsing this convention as a \"rule\" is a good way to force yourself to keep your controllers from becoming bloated, and can often lead to learning interesting new things about your domain.\nFor the presentation, I put together a demo app called \"CastHacker\" that showcases podcasts about software development. It's not a \"real\" app by any means (lots of imaginary features, no tests, etc.); it's just enough code to demonstrate the concepts from the presentation. Feel free to clone it and play with it locally if you like though.\nI've written up each refactoring I shared in the presentation as a detailed pull request:\n1. [Give nested resources a dedicated controller](https://github.com/adamwathan/laracon2017/pull/1)\n2. [Treat properties edited independently as separate resources](https://github.com/adamwathan/laracon2017/pull/2)\n3. [Treat pivot models as their own resource](https://github.com/adamwathan/laracon2017/pull/3)\n4. [Think of different states as different resources](https://github.com/adamwathan/laracon2017/pull/4)\n",
+   "adamwathan/workcation": "# Workcation\n[Live preview](https://workcation.netlify.com/)\nWorkcation is the demo project for the upcoming [\"Designing with Tailwind CSS\" course](https://tailwindcss.com/course/) I'm working on.\nIt's a fun Airbnb-inspired UI that includes a bunch of neat ideas which make it perfect for teaching people how to build things with Tailwind.\nThe complete free course will be released early July, but you can watch me build the entire UI from scratch on YouTube in the mean time:\n[Watch the \"Building Workcation\" series](https://www.youtube.com/playlist?list=PL7CcGwsqRpSO3J4YU6BkWqjU0XcVSaPXl)\n## Project setup\n```\nyarn install\n```\n### Compiles and hot-reloads for development\n```\nyarn run serve\n```\n### Compiles and minifies for production\n```\nyarn run build\n```\n### Lints and fixes files\n```\nyarn run lint\n```\n",
+   "adamwathan/bootforms": "> **Important: This package is not actively maintained.** For bug fixes and new features, please fork.\nBootForms\n===============\n[](http://www.repostatus.org/#abandoned)\n[](https://codeclimate.com/github/adamwathan/bootforms)\n[](https://coveralls.io/r/adamwathan/bootforms?branch=master)\nBootForms builds on top of my more general [Form](https://github.com/adamwathan/form) package by adding another layer of abstraction to rapidly generate markup for standard Bootstrap 3 forms. Probably not perfect for your super custom branded ready-for-release apps, but a *huge* time saver when you are still in the prototyping stage!\n- [Installation](#installing-with-composer)\n- [Using BootForms](#using-bootforms)\n    - [Basic Usage](#basic-usage)\n    - [Customizing Elements](#customizing-elements)\n    - [Reduced Boilerplate](#reduced-boilerplate)\n    - [Automatic Validation State](#automatic-validation-state)\n    - [Horizontal Forms](#horizontal-forms)\n    - [Additional Tips](#additional-tips)\n- [Related Resources](#related-resources)\n## Installing with Composer\nYou can install this package via Composer by running this command in your terminal in the root of your project:\n```bash\ncomposer require adamwathan/bootforms\n```\n### Laravel\nIf you are using Laravel 4 or 5, you can get started very quickly by registering the included service provider.\nModify the `providers` array in `config/app.php` to include the `BootFormsServiceProvider`:\n```php\n'providers' => [\n    //...\n    'AdamWathan\\BootForms\\BootFormsServiceProvider'\n  ],\n```\nAdd the `BootForm` facade to the `aliases` array in `config/app.php`:\n```php\n'aliases' => [\n    //...\n    'BootForm' => 'AdamWathan\\BootForms\\Facades\\BootForm'\n  ],\n```\nYou can now start using BootForms by calling methods directly on the `BootForm` facade:\n```php\nBootForm::text('Email', 'email');\n```\n### Outside of Laravel\nUsage outside of Laravel is a little trickier since there's a bit of a dependency stack you need to build up, but it's not too tricky.\n```php\n$formBuilder = new AdamWathan\\Form\\FormBuilder;\n$formBuilder->setOldInputProvider($myOldInputProvider);\n$formBuilder->setErrorStore($myErrorStore);\n$formBuilder->setToken($myCsrfToken);\n$basicBootFo",
+   "adamwathan/vue-tailwind-examples": "# Vue + Tailwind Interactive Component Examples\nA small collection of interactive Vue + Tailwind examples, written from scratch.\n[See the examples live on Netlify &rarr;](https://vue-tailwind-examples.netlify.com/)\n## Project setup\n```\nyarn install\nyarn run serve\n```\nOr\n```\nnpm install\nnpm run serve\n```\n"
+  }
+ },
+ "apps": []
+}

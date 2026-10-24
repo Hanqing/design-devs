@@ -1,0 +1,232 @@
+{
+ "handle": "JoshHrach",
+ "sites": [
+  {
+   "url": "http://www.joshspadd.com",
+   "ok": true,
+   "title": "Josh Hrach – iOS Developer",
+   "description": "",
+   "stack": [
+    "WordPress 7.1.3",
+    "WordPress"
+   ],
+   "hosting": [],
+   "lang": "en-US",
+   "home_text": "Skip to content \n Josh Hrach \nBlog \n Creating a Menu Button with Subtitles in SwiftUI \nSwiftUI menus are extremely useful. When you are showing a Button in a Menu , there are a few ways to style it. However, it may not always be obvious. \nFor example, let’s say I want to replicate the appearance of this button in the Contacts app. It has a title, a subtitle, and a trailing icon image. \nAt first glance, you may build something like this: \n Menu { \n Button { /* Action */ } label : { \n HStack { \n VStack { \n Text ( \" work \" ) \n Text ( \" an.email@address.com \" ) \n } \n Image ( systemName : \" envelope \" ) \n } \n } \n } label : { /* The \"mail\" button */ } Swift \nHowever, you’ll quickly see that this is not correct. \nWhile your label in normal circumstances might appear as you’d expect, the menu’s buttons seem to work by mirroring the underlying content. We can imply this by the way the image appears at the trailing edge of the button and not next to the text like our (misaligned?) HStack would suggest. \nWe see similar behavior if we change our button’s label to use an actual Label type. \n Label ( \n title : { \n Text ( \" work \" ) \n Text ( \" an.email@address.com \" ) \n } , \n icon : { Image ( systemName : \" envelope \" ) } \n ) Swift \nAgain, we see the same output as above. \nSo what can we do differently? If the image is “magically” being picked out and put in the right place, then perhaps there’s other magic happening in the Button . In fact, this turns out to be what is happening. Let’s update our button once more: \n Button { /* Action */ } label : { \n Text ( \" work \" ) \n Text ( \" an.email@address.com \" ) \n Image ( systemName : \" envelope \" ) \n } Swift \nNow we’re not specifying anything about text layout or even where the image should appear. Yet, what is our result? \nThere is definitely some underlying mirroring happening to pull out each view and put them in their proper place. In fact, if you were to put the Image before the second Text view, you end up with the same output! Thus, this does appear to be what is happening. \nIn short, if you want to have your menu’s button appear like a contact’s mail or phone buttons, use the following template: \n Button { /* Action */ } label : { \n Text ( \" Title \" ) \n Text ( \" Subtitle \" ) \n Image ( systemName : /* The icon */ ) \n } Swift \n February 23, 2024 \n UIViewRepresentable: Accessing an underlying view \nIn the first post of this series , we looked at how we can display a UIView in a SwiftUI hierarchy, as well as how we can change properties on said view. In the second post , we explored options for exposing this view’s delegate to our SwiftUI view, allowing us to provide both an object to act as delegate as well as a way to respond to the delegate directly in the SwiftUI view. \nOur demo code is presently: \n class ThirdPartyUIView: UIView {\n var shouldAdd: Bool = true\n var delegate: ThirdPartyViewDelegate?\n // Same as button tap in view. Results reported via delegate\n func changeInternalValue() { /*...*/ }\n}\nstruct ThirdPartyViewRepresentable: UIViewRepresentable {\n var delegate: ThirdPartyViewDelegate? = nil\n var shouldAdd: Bool\n func makeUIView(context: Context) -> ThirdPartyUIView {\n let view = ThirdPartyUIView()\n view.shouldAdd = shouldAdd\n view.delegate = delegate\n return view\n }\n func updateUIView(_ uiView: ThirdPartyUIView, context: Context) {\n uiView.shouldAdd = shouldAdd\n }\n}\nstruct ThirdPartyView: View {\n var shouldAdd: Bool\n @State private var coordinator = ThirdPartyCoordinator()\n var body: some View {\n ThirdPartyViewRepresentable(delegate: coordinator, shouldAdd: shouldAdd)\n }\n}\nstruct ThirdPartyDemoView: View {\n @State private var shouldAdd = true\n @State private var currentValue = 0\n var body: some View {\n Text(\"\\(currentValue)\")\n ThirdPartyView(shouldAdd: shouldAdd)\n .viewChangedValueTo { view, newValue in\n currentValue = newValue\n }\n Toggle(\"Add?\", isOn: $shouldAdd)\n Button(\"Perform Action\") {\n // ???\n }\n }\n} \nWhat does our Button ‘s action need to be for us to trigger the ThirdPartyUIView.changeInternalValue() method? \nThere’s several ways we can solve this. One approach might be to have something trigger the action in the view representable’s updateUIView(_:context:) method. As noted in part one, updating the property on the UIViewRepresentable will trigger that method, so we just need to add properties for that to happen. So we could add a new @State boolean that is passed from our view down into the view representable, and when its value changes, we perform the action",
+   "github_links": [
+    "JoshHrach"
+   ],
+   "subpages": {
+    "http://www.joshspadd.com/about/": "Skip to content \n Josh Hrach \nAbout \nI’m Josh. I’m an iOS developer, husband, father, musician, and Apple user. I’m the owner of Random Projects , developing apps including Countr and DoMarks . \nOccasionally, I write, as I did at sites like Today’s iPhone and Noted Tech ; and podcast, as I did on Apple Core . \nWhere To Find Me: \n BlueSky \n Mastodon \n Twitter \n LinkedIn \n YouTube \nEmail: \nYour Name (required)\nYour Email (required)\nSubject\nYour Message\n Δ",
+    "https://www.joshspadd.com/about/": "Skip to content \n Josh Hrach \nAbout \nI’m Josh. I’m an iOS developer, husband, father, musician, and Apple user. I’m the owner of Random Projects , developing apps including Countr and DoMarks . \nOccasionally, I write, as I did at sites like Today’s iPhone and Noted Tech ; and podcast, as I did on Apple Core . \nWhere To Find Me: \n BlueSky \n Mastodon \n Twitter \n LinkedIn \n YouTube \nEmail: \nYour Name (required)\nYour Email (required)\nSubject\nYour Message\n Δ"
+   },
+   "feed": {
+    "url": "https://www.joshspadd.com/feed/",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "Creating a Menu Button with Subtitles in SwiftUI",
+      "date": "Fri, 23 Feb 2024 23:36:54",
+      "url": "https://www.joshspadd.com/2024/02/swiftui-menu-button-with-subtitles/"
+     },
+     {
+      "title": "UIViewRepresentable: Accessing an underlying view",
+      "date": "Tue, 16 Jan 2024 01:04:40",
+      "url": "https://www.joshspadd.com/2024/01/swiftui-view-representable-proxy/"
+     },
+     {
+      "title": "UIViewRepresentable: Working with delegates in SwiftUI",
+      "date": "Tue, 16 Jan 2024 01:03:37",
+      "url": "https://www.joshspadd.com/2024/01/swiftui-view-representable-delegates/"
+     },
+     {
+      "title": "UIViewRepresentable: Showing UIKit components in SwiftUI",
+      "date": "Tue, 16 Jan 2024 01:02:15",
+      "url": "https://www.joshspadd.com/2024/01/swiftui-view-representable/"
+     },
+     {
+      "title": "iOS Widgets, Loops, and Memory",
+      "date": "Fri, 29 Dec 2023 00:42:19",
+      "url": "https://www.joshspadd.com/2023/12/ios-widgets-loops-and-memory/"
+     },
+     {
+      "title": "Did this inspire the AirTag design?",
+      "date": "Tue, 10 May 2022 16:27:14",
+      "url": "https://www.joshspadd.com/2022/05/did-this-inspire-the-airtag-design/"
+     },
+     {
+      "title": "Non-Selectable Rows in a SwiftUI Picker",
+      "date": "Thu, 02 Sep 2021 01:14:29",
+      "url": "https://www.joshspadd.com/2021/09/non-selectable-rows-in-a-swiftui-picker/"
+     },
+     {
+      "title": "iPad: Pushing the MacBook forward",
+      "date": "Fri, 16 Apr 2021 19:51:47",
+      "url": "https://www.joshspadd.com/2021/04/ipad-pushing-the-macbook-forward/"
+     },
+     {
+      "title": "Thought experiment on upcoming Apple Silicon Macs",
+      "date": "Fri, 09 Apr 2021 00:15:36",
+      "url": "https://www.joshspadd.com/2021/04/thought-experiment-on-upcoming-apple-silicon-macs/"
+     },
+     {
+      "title": "The “iOS device supporting the most OS releases” is…",
+      "date": "Fri, 19 Mar 2021 02:45:14",
+      "url": "https://www.joshspadd.com/2021/03/ios-device-supporting-the-most-os-releases/"
+     }
+    ]
+   },
+   "appstore_ids": [
+    "911664683"
+   ]
+  },
+  {
+   "url": "https://iosdev.space/@JoshHrach",
+   "ok": false
+  }
+ ],
+ "github": {
+  "login": "JoshHrach",
+  "user": {
+   "name": "Josh Hrach",
+   "company": null,
+   "blog": "http://www.joshspadd.com",
+   "location": "Phoenix, AZ",
+   "bio": "iOS Developer. Creator of Countr, DoMarks, and other apps. ",
+   "public_repos": 15,
+   "followers": 38,
+   "created_at": "2011-09-21T20:31:50Z",
+   "twitter_username": "JoshHrach",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "JoshHrach/ActivityIndicatorView",
+    "description": "SwiftUI replacement for UIActivityIndicatorView",
+    "stargazers_count": 11,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-05-28T23:52:54Z",
+    "pushed_at": "2024-12-20T22:07:40Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "JoshHrach/Provincial",
+    "description": "Provincial is a small library to quickly get a list of states or provinces from various countries.",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2017-01-17T17:25:21Z",
+    "pushed_at": "2019-05-10T20:43:15Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "JoshHrach/WWDC-Summaries",
+    "description": "Summarizing WWDC sessions for quicker consumption",
+    "stargazers_count": 3,
+    "forks_count": 2,
+    "language": null,
+    "homepage": null,
+    "created_at": "2026-06-11T20:58:37Z",
+    "pushed_at": "2026-06-19T20:49:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JoshHrach/AutomatedScreenshots",
+    "description": "Automate creation and gathering of localized screenshots for your apps in your Xcode project. ",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2026-08-28T01:55:47Z",
+    "pushed_at": "2026-08-28T19:19:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JoshHrach/JoshHrach",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2020-07-10T18:38:20Z",
+    "pushed_at": "2024-10-09T21:08:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "JoshHrach/CustomFontSystem",
+    "description": "A library making it easy to define Font Systems in an app, allowing easy use of custom fonts in a simple way.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-06-06T02:57:08Z",
+    "pushed_at": "2025-06-09T21:56:17Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 6,
+  "languages": [
+   [
+    "Swift",
+    3
+   ],
+   [
+    "Shell",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 523,
+  "orgs": [
+   "RandomProjectsLLC"
+  ],
+  "profile_readme": "### Hi there 👋\n\nI'm Josh. I'm currently a Senior iOS developer at U-Haul. \n\nI've been programming since 2002, and developing iOS apps since 2013. Much of that time was spent working alone on projects, so I value the importance of getting answers and assistance when needed. I'm always happy to help with Swift/iOS questions.\n\n### Current Projects 👨🏻‍💻\n\nBesides my day job, I build apps under [Random Projects](http://www.random-projects.com). Currently, that includes:\n\n* Countr - A simple digital clicker counter. Take a count of anything and everything, across iPhone, iPad, and Apple Watch.\n* [DoMarks](https://www.domarks.app) - The To-Do App For Bookmarks, available for iOS, iPadOS, and macOS\n* More projects in development\n\n### Find Me\n * [Twitter](https://twitter.com/JoshHrach)\n * [Mastodon](https://iosdev.space/@JoshHrach)\n * [Personal Site](http://www.joshspadd.com)\n * [My Apps](http://www.random-projects.com)\n\n<!--\n**JoshHrach/JoshHrach** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🔭 I’m currently working on ...\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n",
+  "readmes": {
+   "JoshHrach/ActivityIndicatorView": "# ActivityIndicatorView\n[](https://twitter.com/JoshHrach)\nA SwiftUI replacement for UIActivityIndicatorView\n**Note**: Apple added `ProgressView` in iOS 14. It is suggested to use this directly; `ActivityIndicatorView` is thus no longer maintained.\n## Requirements\nVersion 1.x supports:\n* Xcode 11.4+\n* Swift 5.2+\n* iOS 13.0+, macOS 10.15+, tvOS 13.0+, watchOS 6.0+\n## Installation\nInstall `ActivityIndicatorView` into your project using `Swift Package Manager`.\n## Usage\nIn your SwiftUI `.swift` file, add `import ActivityIndicatorView`.\nTo use, simply add the view where you would like it to appear. \n```swift\n// Example view\nHStack {\n  // Your content\n  ...\n  // Show indicator next to your content\n  ActivityIndicatorView()\n}\n```\n### Modifier\nYou can easily add an activity indicator to your view similar to how you would add an `Alert` or `ActionSheet`. This will overlay an activity indicator with a maximum frame size of 50 by 50. On iOS, this will appear similar to the default size of `UIActivityIndicatorView`. When overlaid over smaller views, the activity indicator will automatically resize smaller to fit the frame.\n```swift\n// Examples\n// Add a default indicator.\n.activityIndicator(isVisible: true)\n// Add a custom indicator\n.activityIndicator(isVisible: true) {\n    ActivityIndicatorView(foregroundColor: .green, backgroundColor: .black)\n}\n```\n## Appearance\n### Basic\nYou can add the view directly without customization. This will produce a view identical to `UIActivityIndicatorView`.\n### Custom\nYou can customize the view on initialization. By specifying a `foregroundColor` and `backgroundColor`, you can adapt the view for your application.\n## Support\nFeel free to leave any feature requests or issues. \n## Contributing\nIf you'd like to contribute to improving this project, feel free to fork the project and create a pull request with your changes.\n## Author\n[Josh Hrach](https://github.com/JoshHrach)\n[@JoshHrach](https://twitter.com/JoshHrach)\n",
+   "JoshHrach/Provincial": "# Provincial\nProvincial is a small library to quickly get a list of states or provinces from various countries.\n## Goal\nUltimately, the goal of Provincial was to provide a quick way to get a list of US states and Canadian provinces. Instead of hardcoding a list of strings in an array, this library can provide a list of `State` objects that give basic information about each.\n## Requirements\nNone.\n## Installation\n[](http://cocoapods.org/pods/Provincial)\n[](http://cocoapods.org/pods/Provincial)\n[](http://cocoapods.org/pods/Provincial)\nProvincial is available through [CocoaPods](http://cocoapods.org). To install\nit, simply add the following line to your Podfile:\n```swift\npod \"Provincial\"\n```\n## Usage\nAt the top of your .swift file:\n```swift\nimport Provincial\n```\nTo get a list of all US states:\n```swift\nlet states = Provincial.states(in: .usa)\n```\nThis returns a list of `PoliticalEntity` objects representing states.\nThe `PoliticalEntity` protocol requires each to provide a `State` computed property. This `State` struct includes the name and abbreviation of each state. Thus, to print the name of all 50 US States, you could write:\n```swift\nfor state in states {\n  print(state.info.name)\n}\n```\nStates are listed by means of an enum. This can allow you to either check for specifics states while looping through a set, or to get individual information for a particular state.\n```swift\nlet arizona = USState.arizona\nprint(arizona.name)\nprint(arizona.abbreviation)\n```\nIt's also possible to filter or sort the array using Swift's built in `.filter` and `.sorted` methods.\n```swift\nlet newestStates = states.sorted { $0.info.date > $1.info.date }\n```\n## Planned Features and Improvements\n- [ ] All North American states and provinces (currently only US and Canada)\n- [ ] Convenience methods for sorting results\n- [ ] Better storage of data\nFeature suggestions and pull requests are welcome!\n## Author\nJosh Hrach, josh.hrach@gmail.com\n## License\nProvincial is available under the MIT license. See the LICENSE file for more info.\n",
+   "JoshHrach/WWDC-Summaries": "# WWDC Session Summary Library\nA browsable reference of detailed, API-focused Markdown summaries of Apple WWDC developer sessions, spanning **2014–2026**. One file per session, grouped into topic folders, with new/changed APIs flagged **[NEW]**. Each year has its own README index.\n## Years\n- **[WWDC2026](WWDC2026/README.md)** — 117 sessions\n- **[WWDC2025](WWDC2025/README.md)** — 116 sessions\n- **[WWDC2024](WWDC2024/README.md)** — 118 sessions\n- **[WWDC2023](WWDC2023/README.md)** — 177 sessions\n- **[WWDC2022](WWDC2022/README.md)** — 178 sessions\n- **[WWDC2021](WWDC2021/README.md)** — 196 sessions\n- **[WWDC2020](WWDC2020/README.md)** — 206 sessions\n- **[WWDC2019](WWDC2019/README.md)** — 150 sessions\n- **[WWDC2018](WWDC2018/README.md)** — 38 sessions\n- **[WWDC2017](WWDC2017/README.md)** — 35 sessions\n- **[WWDC2016](WWDC2016/README.md)** — 16 sessions\n- **[WWDC2015](WWDC2015/README.md)** — 11 sessions\n- **[WWDC2014](WWDC2014/README.md)** — 6 sessions\n**1364 session summaries total across 13 WWDC events.**\n_Built from Apple's session pages at developer.apple.com (abstracts, chapter summaries, code samples, resource links). Session lists curated from dunfeyhotel.com/transcripts. Pre-2019 years have far fewer transcripted sessions available._\n",
+   "JoshHrach/AutomatedScreenshots": "# AutomatedScreenshots\nApp Store screenshots for iOS, iPadOS, and Mac Catalyst apps across every device, language, and appearance. No fastlane, no gems — just Xcode plus the zsh and Python 3 already on macOS.\nYou write UI tests that capture one screen each. `MakeScreenshots.sh` runs the suite once per device × language × appearance and sorts the PNGs:\n```\nScreenshots/en/iPhone 17 Pro/light/1Home.png\nScreenshots/en/iPhone 17 Pro/dark/1Home.png\nScreenshots/de/…\n```\nNothing here talks to App Store Connect. Framing and upload are up to you.\n## Setup\n1. Copy `MakeScreenshots.sh`, `CollectScreenshots.py`, and `MakeScreenshots.config.example` into your project root. The two scripts must stay together, and both need `chmod +x`.\n2. Copy `Template/ScreenshotSupport.swift` into your UI test target. No edits needed.\n3. Write one test per screenshot (see below), starting from `Template/ExampleScreenshotTests.swift`.\n4. Make the app read `APPEARANCE=` — the only app-side change required.\n5. Copy `MakeScreenshots.config.example` to `MakeScreenshots.config` and set `schemeName` and `devices`.\n6. Run `./MakeScreenshots.sh --dry-run` to check everything without building.\nEach cell rebuilds the app and reruns the suite, so budget several minutes each — a 3 × 5 × 2 matrix is most of a day. Narrow it while you're still working on the tests:\n```bash\nSCREENSHOT_LANGUAGES=en SCREENSHOT_APPEARANCES=light ./MakeScreenshots.sh -v\n```\n## Writing the tests\n```swift\nfunc testHome() {\n    launchApp()\n    tap(ID.homeTab)\n    XCTAssertTrue(app.staticTexts[\"Welcome\"].waitForExistence(timeout: 10))\n    snapshot(\"1Home\")\n}\n```\n- The string in `snapshot(_:)` is the filename. Keep a numeric prefix — most screenshot builders take files in name order.\n- Match on accessibility identifiers, never on text — text moves when the language changes. Declare each identifier twice, in the app and in the test bundle; a UI test bundle can't import the app module.\n- Assert the screen is there before capturing, or a test will pass while photographing the wrong screen.\n- Prefer a deep link over tapping through the UI. Far more reliable across device sizes.\n- Add `ScreenshotRun.launchArguments` to the app's `launchAr"
+  }
+ },
+ "apps": [
+  {
+   "name": "Countr - Quick Count",
+   "artist": "Random Projects, LLC",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2014-08-29",
+   "updated": "2026-10-19",
+   "version": "4.2",
+   "rating": 4.35,
+   "ratings": 48,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/countr-quick-count/id911664683",
+   "desc": "Countr 4 makes it even easier to quickly count or tally anything!\n\nNeed to keep score during a game? Take a quick headcount at a meeting? Count stacks of literature on a counter? Track your row count as you crochet? \n\nWhatever you want to count, Countr makes it easy!\n\nFeatures:\n- Count as many things as you want with separate counts\n- Organize your counts into groups\n- See and manage your counts on all of your devices\n- Set multipliers to count in larger steps\n- Open multiple Countr windows on iPad\n- New Apple Watch app brings all of the power of Countr to your wrist\n- Use the Shortcuts app to add counting to your workflows\n\nPrivacy Policy: https://www.random-projects.com/privacy-policy/\nTerms of Use: https://www.random-projects.com/terms-of-use/",
+   "country": "us"
+  },
+  {
+   "name": "DoMarks",
+   "artist": "Random Projects, LLC",
+   "genre": "Productivity",
+   "price": "Free",
+   "released": "2021-03-01",
+   "updated": "2026-10-19",
+   "version": "4.1",
+   "rating": 4.65,
+   "ratings": 69,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/domarks/id1518886084",
+   "desc": "DoMarks is the to-do app for bookmarks. Save links. Organize them. Check them off. Done!\n\nCreate a Mark, assign an action, and transform your bookmarks into a focused, workable list. Whether it's articles to read, videos to watch, or podcasts to queue up — DoMarks keeps you on top of it all.\n\nFeatures:\n• Actions. Categorize Marks to build lists of videos to watch, articles to read, podcasts to listen to, and more.\n• Tags. Add tags to fine-tune your organization and find exactly what you're looking for.\n• A list built to be worked. Every Mark is a card showing its site icon, its action, and its tags at a glance. Swipe either edge — and choose which actions live there.\n• Cross-platform. Marks sync automatically via iCloud across iPhone, iPad, and Mac.\n• Siri & Apple Intelligence. Ask Siri to save the page you're reading in Safari, or to open, complete, or delete a Mark by name. Refer to wh",
+   "country": "us"
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "name": "Frost Ming（frostming）",
+ "role": "PDM 作者 · Bub 共同开发者 · Marko、unearth、tetos 作者 · Python 工程师 · 深圳",
+ "title": "Frost Ming：人生苦短，<em>我用 Python</em>",
+ "dek": "TA 是深圳的 Python 开发工程师，最有名的作品是 PDM（★8.7 千）：一个支持最新 PEP 标准的现代 Python 包与依赖管理器，2019 年底开始开发，是 Python 社区里 Poetry、uv 之外的重要选择之一。TA 还写了可扩展的 Markdown 解析器 Marko、查找和下载 Python 包的 unearth、统一多家语音合成服务的 tetos，维护「为人类设计的 Git」legit（★5.7 千），并做了为知乎链接生成分享卡片的 Telegram 机器人 fxzhihu。2026 年 OpenClaw 爆火后，TA 和 PsiACE 一起把小型 Python Agent 项目 Bub 改造并重写成「一个可以用插件组合的小型 Agent 运行时」。TA 的 X 简介引用李白《侠客行》：「赵客缦胡缨，吴钩霜雪明」。TA 也爱摄影，在 Telegram 上有一个周刊频道。",
+ "card": "PDM（★8.7 千）作者，Bub 共同开发者；Marko、unearth、tetos 作者，深圳 Python 工程师。",
+ "location": "中国深圳",
+ "updated": "2026-10-23",
+ "tags": ["Python", "包管理", "Agent", "开源", "中文博客"],
+ "links": [
+  {"label": "frostming.com", "url": "https://frostming.com"},
+  {"label": "PDM", "url": "https://pdm-project.org"},
+  {"label": "Bub", "url": "https://bub.build"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「Love 🐍 Python, 📷 Photography and beautiful things」。",
+  "<strong>代表作：</strong>PDM（★8,662）、legit（★5,679，维护）、Marko（★470）、fxzhihu（★469）、tetos（★277）、unearth（★160）、python-cfonts、pdm-packer、monas、onepm、Bub。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 1.7 千、128 个公开仓库；X 关注者约 7.5 千；博客 117 篇文章。",
+  "<strong>其他：</strong>Telegram 周刊频道 fming_weekly；照片墙 photos.frostming.com；演讲幻灯片 slides.fming.dev。"
+ ],
+ "lead": "2026 年 4 月，TA 写了《我们为什么要重写 bub?》。Bub 最早是 PsiACE 的一个小型 Python Agent 项目；OpenClaw 爆发后，TA 不满足于当一个纯粹的使用者，想拆开看看它是怎么做的。他们先把 Bub 改造成在 Telegram 群里用的「龙虾」式自主 Agent，加上基于 tape 的记忆机制。但每加一个消息渠道、每积累一个技能，都要往 Bub 本体里塞代码和开关，TA 意识到「这样下去，bub 迟早会变成另一个 nanobot，甚至另一个 OpenClaw」，于是决定用插件重写它。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "Python 开发工程师、开源维护者"],
+     ["所在地", "中国深圳"],
+     ["开源", "PDM、Bub、Marko、unearth、tetos、legit"],
+     ["爱好", "摄影（富士 X-T30）"],
+     ["技术栈", "Python、TypeScript、Go、Rust"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Frost Ming 的主线是<strong>Python 的打包和工具链</strong>：PDM 遵循 PEP 标准，支持锁文件、依赖组和插件；unearth 负责从索引里找到并下载合适的包；pdm-packer 能把项目打包成 zipapp；onepm 帮你自动挑选正确的包管理器。"},
+    {"p": "2026 年，TA 的另一条线是<strong>Agent 运行时</strong>。Bub 官网写着「Composable · Tape-driven · Channel-agnostic」：从一个能用的 Agent 开始，用插件改变它的思考、记忆和连接方式。TA 在 X 上批评过每家都从零重写 agent loop、工具和 MCP 的做法：「pi 这种项目存在的意义不就是被下游使用吗？」"},
+    {"note": "本页依据 frostming.com（文章与关于页）、bub.build、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。任职公司未公开；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2015–2018", "title": "Python Web", "text": "Flask 博客 Flog、flask-vue-todo；2018 年写 Markdown 解析器 Marko 和 python-cfonts。"},
+     {"when": "2019", "title": "PDM", "text": "12 月开始开发 Python 包管理器 PDM。"},
+     {"when": "2022", "title": "工具链", "text": "unearth、monas、onepm、终端 Wordle。"},
+     {"when": "2024", "title": "小工具", "text": "多服务语音合成 tetos、知乎分享卡片 fxzhihu。"},
+     {"when": "2026", "title": "Bub", "text": "和 PsiACE 一起改造并重写 Agent 运行时 Bub。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "PDM", "url": "https://pdm-project.org",
+     "meta": ["2019–", "Python", "★8.7 千"],
+     "paras": [
+      "「A modern Python package and dependency manager supporting the latest PEP standards」从 pyproject.toml 管理依赖、构建和发布，可通过插件扩展。"
+     ],
+     "facts": [["GitHub", "★8,662"]]
+    }},
+    {"work": {
+     "name": "Bub", "url": "https://bub.build",
+     "meta": ["2026", "Python Agent", "开源"],
+     "paras": [
+      "「A tiny agent runtime, composable with plugins」消息渠道、技能、记忆都可以做成插件，核心保持精简。"
+     ]
+    }},
+    {"work": {
+     "name": "Marko", "url": "https://marko-py.readthedocs.io/",
+     "meta": ["2018–", "Python", "★470"],
+     "paras": [
+      "「A markdown parser with high extensibility.」遵循 CommonMark 规范，易于扩展新语法。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["legit", "「Git for Humans」，受 GitHub for Mac 启发（★5,679）"],
+      ["unearth", "查找和下载 Python 包"],
+      ["tetos", "统一多家语音合成服务的接口"],
+      ["fxzhihu", "为知乎链接生成分享卡片的 Telegram 机器人"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://frostming.com", "paras": [
+     "博客叫 Frost's Blog，用 Astro 搭建，托管在 Cloudflare 上，副标题是「New posts every now and then」。文章有技术，也有随笔和读后感，比如《变与不变》《楞次定律》《读〈昂贵的和平〉后感》。关于页写着「人生苦短，我用 Python」，附 PGP 指纹、演讲、照片墙和赞助链接。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Cloudflare，Umami 统计"],
+      ["语言", "中文"],
+      ["内容", "技术、随笔、年度总结"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-05", "title": "变与不变", "url": "https://frostming.com/posts/2026/old-house"},
+     {"date": "2026-04-07", "title": "我们为什么要重写 bub?", "url": "https://frostming.com/posts/2026/why-rewrite-bub/"},
+     {"date": "2026-02-12", "title": "创造一只龙虾，需要些什么?", "url": "https://frostming.com/posts/2026/create-a-claw/"},
+     {"date": "2025-12-30", "title": "友好的 Python：从其他语言移植", "url": "https://frostming.com"},
+     {"date": "2025-03-05", "title": "再也别问 Singleton 了好吗？", "url": "https://frostming.com"}
+    ]},
+    {"quote": "inference 和 reasoning 的中文都是「推理」，无疑是LLM时代的一大翻译失误。我建议 infer/inference改成「推断」。", "cite": "Frost Ming，X，2026-07"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["标准", "PDM 紧跟 PEP 标准", "Python 包管理竞争激烈，uv 增长很快"],
+      ["设计", "Bub 坚持小内核加插件", "仍在快速演进"],
+      ["写作", "技术与随笔兼具", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>跟着标准走，</strong>工具才不会被时代抛下。",
+     "<strong>想理解一个系统，就动手拆开重写。</strong>",
+     "<strong>警惕功能开关堆积，</strong>及时改成插件。",
+     "<strong>复用已有的好轮子。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "PDM", "url": "https://pdm-project.org", "why": "用标准方式管理 Python 项目。"},
+     {"name": "我们为什么要重写 bub?", "url": "https://frostming.com/posts/2026/why-rewrite-bub/", "why": "一篇关于 Agent 架构的反思。"},
+     {"name": "Bub", "url": "https://bub.build", "why": "看一个精简的插件式 Agent。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 PDM 新建一个 Python 项目，打开生成的 pyproject.toml，读懂每一行在做什么。",
+ "sources": [
+  {"label": "Frost Ming 的 X 个人资料", "url": "https://x.com/frostming90"},
+  {"label": "frostming.com", "url": "https://frostming.com"},
+  {"label": "我们为什么要重写 bub?", "url": "https://frostming.com/posts/2026/why-rewrite-bub/"},
+  {"label": "Bub", "url": "https://bub.build"},
+  {"label": "GitHub：frostming", "url": "https://github.com/frostming"},
+  {"label": "GitHub：pdm-project/pdm", "url": "https://github.com/pdm-project/pdm"}
+ ]
+}

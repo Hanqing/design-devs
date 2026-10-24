@@ -1,0 +1,325 @@
+{
+ "handle": "timneutkens",
+ "sites": [],
+ "github": {
+  "login": "timneutkens",
+  "user": {
+   "name": "Tim Neutkens",
+   "company": "Vercel",
+   "blog": "https://timn.tech",
+   "location": "The Netherlands",
+   "bio": "Co-author of Next.js and MDX",
+   "public_repos": 270,
+   "followers": 6144,
+   "created_at": "2014-01-05T17:48:23Z",
+   "twitter_username": "timneutkens",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "timneutkens/micro-graphql",
+    "description": "Example usage of GraphQL with ZEIT's micro",
+    "stargazers_count": 71,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "",
+    "created_at": "2016-12-03T15:01:35Z",
+    "pushed_at": "2017-06-25T12:52:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/micro-apollo",
+    "description": "Example usage of Apollo GraphQL with ZEIT's micro",
+    "stargazers_count": 18,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "",
+    "created_at": "2017-06-25T12:47:59Z",
+    "pushed_at": "2017-06-25T16:45:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/is-async-supported",
+    "description": "Check if async/await is available natively",
+    "stargazers_count": 16,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-12-18T00:22:11Z",
+    "pushed_at": "2023-01-12T05:06:08Z",
+    "topics": [
+     "async-await"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/next-universal-redirect",
+    "description": "Higher order component to handle both client and server side redirecting with Next.js",
+    "stargazers_count": 13,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-02-21T21:31:26Z",
+    "pushed_at": "2017-02-22T21:15:21Z",
+    "topics": [
+     "javascript",
+     "nextjs",
+     "react"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/timn.tech",
+    "description": null,
+    "stargazers_count": 13,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://timntech.timzeit.now.sh",
+    "created_at": "2018-08-01T15:51:04Z",
+    "pushed_at": "2026-09-25T08:20:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/urlencoded-body-parser",
+    "description": "Small application/x-www-form-urlencoded request body parser",
+    "stargazers_count": 13,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-09-29T06:38:13Z",
+    "pushed_at": "2021-09-01T18:25:43Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "timneutkens/brighten",
+    "description": "Clear terminal screen but keep output history",
+    "stargazers_count": 10,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-08-15T22:56:43Z",
+    "pushed_at": "2017-08-15T23:10:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/hyperrabbit",
+    "description": null,
+    "stargazers_count": 10,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2017-02-16T13:04:41Z",
+    "pushed_at": "2017-02-16T13:06:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/hyper-ligatures",
+    "description": "Enable font ligatures for Hyper",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-07-23T08:03:55Z",
+    "pushed_at": "2017-09-26T20:32:21Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "timneutkens/language-styled-jsx",
+    "description": "Atom css highlighting for styled-jsx",
+    "stargazers_count": 7,
+    "forks_count": 1,
+    "language": null,
+    "homepage": "",
+    "created_at": "2016-12-30T21:12:05Z",
+    "pushed_at": "2017-02-17T18:05:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/website",
+    "description": "basement.studio marketing website :)",
+    "stargazers_count": 7,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "https://basement.studio",
+    "created_at": "2019-07-18T10:43:05Z",
+    "pushed_at": "2019-07-18T17:57:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/wp-cli-dbsync",
+    "description": "Sync remote wordpress database to your local instance",
+    "stargazers_count": 7,
+    "forks_count": 1,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2016-04-30T09:56:14Z",
+    "pushed_at": "2018-06-22T08:00:14Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "timneutkens/bitbucket-open",
+    "description": "Easily open bitbucket.org for your current project",
+    "stargazers_count": 6,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-09-22T07:24:23Z",
+    "pushed_at": "2017-10-02T06:33:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/next-magento2-graphql",
+    "description": null,
+    "stargazers_count": 6,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-09-17T10:43:15Z",
+    "pushed_at": "2017-09-17T10:43:39Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "timneutkens/basics-final-template",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-04-19T10:53:10Z",
+    "pushed_at": "2023-10-25T09:36:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/gulp-sass-error",
+    "description": "Throw error when gulp-sass fails. Useful for build tools",
+    "stargazers_count": 4,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2016-07-05T19:35:17Z",
+    "pushed_at": "2018-01-29T13:05:10Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "timneutkens/http-ping",
+    "description": null,
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2017-12-19T20:17:28Z",
+    "pushed_at": "2018-03-06T15:51:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "timneutkens/utf8-check",
+    "description": "Check if a file is valid UTF-8",
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-11-02T11:26:46Z",
+    "pushed_at": "2016-11-02T14:36:47Z",
+    "topics": [],
+    "archived": true
+   }
+  ],
+  "repo_count_nonfork": 74,
+  "languages": [
+   [
+    "JavaScript",
+    49
+   ],
+   [
+    "TypeScript",
+    8
+   ],
+   [
+    "PHP",
+    5
+   ],
+   [
+    "Vim script",
+    1
+   ],
+   [
+    "SCSS",
+    1
+   ],
+   [
+    "CSS",
+    1
+   ],
+   [
+    "Dockerfile",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "vercel/next.js",
+    "stargazerCount": 143215,
+    "description": "The React Framework",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://nextjs.org"
+   },
+   {
+    "nameWithOwner": "vercel/micro",
+    "stargazerCount": 10624,
+    "description": "Asynchronous HTTP microservices",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mdx-js/mdx",
+    "stargazerCount": 19829,
+    "description": "Markdown for the component era",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://mdxjs.com"
+   },
+   {
+    "nameWithOwner": "vercel/ncc",
+    "stargazerCount": 9842,
+    "description": "Compile a Node.js project into a single file. Supports TypeScript, binary addons, dynamic requires.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://npmjs.com/@vercel/ncc"
+   }
+  ],
+  "contrib_last_year": 2089,
+  "orgs": [
+   "mdx-js"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "vercel/next.js": "<div align=\"center\">\n  <a href=\"https://nextjs.org\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png\">\n    </picture>\n  </a>\n  <h1>Next.js</h1>\n<a href=\"https://vercel.com\"></a>\n<a href=\"https://www.npmjs.com/package/next\"></a>\n<a href=\"https://github.com/vercel/next.js/blob/canary/license.md\"></a>\n<a href=\"https://github.com/vercel/next.js/discussions\"></a>\n</div>\n## Getting Started\nUsed by some of the world's largest companies, Next.js enables you to create full-stack web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.\n- Visit our [Learn Next.js](https://nextjs.org/learn) course to get started with Next.js.\n- Visit the [Next.js Showcase](https://nextjs.org/showcase) to see more sites built with Next.js.\n## Documentation\nVisit [https://nextjs.org/docs](https://nextjs.org/docs) to view the full documentation.\n## Community\nThe Next.js community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions) where you can ask questions, voice ideas, and share your projects with other people.\nTo chat with other community members, you can join the Next.js [Discord](https://nextjs.org/discord) server.\nDo note that our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_CONDUCT.md) applies to all Next.js community channels. Users are **highly encouraged** to read and adhere to it to avoid repercussions.\n## Contributing\nContributions to Next.js are welcome and highly appreciated. However, before you jump right into it, we would like you to review our [Contribution Guidelines](/contributing.md) to make sure you have a smooth experience contributing to Next.js.\n### Good First Issues:\nWe have a list of **[good first issues](https://github.com/vercel/next.js/labels/good%20first%20issue)** that contain bugs that have a relatively limited scope. This is a great place for newcomers and beginners alike to get started, gain experience, and get familiar with our contribution process.\n---\n## Security\nIf you believe you have found a security vulnerabili",
+   "vercel/micro": "# Micro — Asynchronous HTTP microservices\n## Features\n- **Easy**: Designed for usage with `async` and `await`\n- **Fast**: Ultra-high performance (even JSON parsing is opt-in)\n- **Micro**: The whole project is ~260 lines of code\n- **Agile**: Super easy deployment and containerization\n- **Simple**: Oriented for single purpose modules (function)\n- **Standard**: Just HTTP!\n- **Explicit**: No middleware - modules declare all [dependencies](https://github.com/amio/awesome-micro)\n- **Lightweight**: With all dependencies, the package weighs less than a megabyte\n**Disclaimer:** Micro was created for use within containers and is not intended for use in serverless environments. For those using Vercel, this means that there is no requirement to use Micro in your projects as the benefits it provides are not applicable to the platform. Utility features provided by Micro, such as `json`, are readily available in the form of [Serverless Function helpers](https://vercel.com/docs/runtimes#official-runtimes/node-js/node-js-request-and-response-objects).\n## Installation\n**Important:** Micro is only meant to be used in production. In development, you should use [micro-dev](https://github.com/vercel/micro-dev), which provides you with a tool belt specifically tailored for developing microservices.\nTo prepare your microservice for running in the production environment, firstly install `micro`:\n```bash\nnpm install --save micro\n```\n## Usage\nCreate an `index.js` file and export a function that accepts the standard [http.IncomingMessage](https://nodejs.org/api/http.html#http_class_http_incomingmessage) and [http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse) objects:\n```js\nmodule.exports = (req, res) => {\n  res.end('Welcome to Micro');\n};\n```\nMicro provides [useful helpers](https://github.com/vercel/micro#body-parsing) but also handles return values – so you can write it even shorter!\n```js\nmodule.exports = () => 'Welcome to Micro';\n```\nNext, ensure that the `main` property inside `package.json` points to your microservice (which is inside `index.js` in this example case) and add a `start` script:\n```json\n{\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"start\"",
+   "mdx-js/mdx": "[![MDX][githubusercontent-logo]][website]\n# Markdown for the component era\n[![Build][build-badge]][build]\n[![Coverage][coverage-badge]][coverage]\n[![Sponsors][sponsors-badge]][collective]\n[![Backers][backers-badge]][collective]\n[![Chat][chat-badge]][chat]\n[MDX][website] is an authorable format that lets you seamlessly write JSX in\nyour markdown documents.\nYou can import components, such as interactive charts or alerts, and embed them\nwithin your content.\nThis makes writing long-form content with components a blast.\n🚀\n```mdx\nimport {Chart} from './snowfall.js'\nexport const year = 2013\n# Last year’s snowfall\nIn {year}, the snowfall was above average.\nIt was followed by a warm spring which caused\nflood conditions in many of the nearby rivers.\n<Chart year={year} color=\"#fcb32c\" />\n```\nSee [§ What is MDX](https://mdxjs.com/docs/what-is-mdx/) for more info on the\nformat.\nSee [§ Playground](https://mdxjs.com/playground/) to try it out.\n## What is this?\nThis GitHub repository contains several packages for compiling the MDX format to\nJavaScript, integrating with bundlers such as webpack and Rollup, and for using\nit with frameworks such as React, Preact, and Vue.\nSee [§ Getting started](https://mdxjs.com/getting-started/) for how to\nintegrate MDX into your project.\n## Security\nSee [§ Security][security] on our site for information.\n## Contribute\nSee [§ Contribute][contribute] on our site for ways to get started.\nSee [§ Support][support] for ways to get help.\nThis project has a [code of conduct][coc].\nBy interacting with this repository, organization, or community you agree to\nabide by its terms.\n## Sponsor\nSee [§ Sponsor][sponsor] on our site for how to help financially.\n<table>\n<tr valign=\"middle\">\n<td width=\"20%\" align=\"center\" rowspan=\"2\" colspan=\"2\">\n  <a href=\"https://vercel.com\">Vercel</a><br><br>\n  <a href=\"https://vercel.com\"></a>\n</td>\n<td width=\"20%\" align=\"center\" rowspan=\"2\" colspan=\"2\">\n  <a href=\"https://motif.land\">Motif</a><br><br>\n  <a href=\"https://motif.land\"></a>\n</td>\n<td width=\"20%\" align=\"center\" rowspan=\"2\" colspan=\"2\">\n  <a href=\"https://www.hashicorp.com\">HashiCorp</a><br><br>\n  <a href=\"https://www.hashicorp.com\"></a>\n</td>\n<td width=\"20%\" align",
+   "vercel/ncc": "# ncc\n[](https://github.com/vercel/ncc/actions/workflows/ci.yml)\nSimple CLI for compiling a Node.js module into a single file,\ntogether with all its dependencies, gcc-style.\n## Motivation\n- Publish minimal packages to npm\n- Only ship relevant app code to serverless environments\n- Don't waste time configuring bundlers\n- Generally faster bootup time and less I/O overhead\n- Compiled language-like experience (e.g.: `go`)\n## Design goals\n- Zero configuration\n- TypeScript built-in\n- Only supports Node.js programs as input / output\n- Support all Node.js patterns and npm modules\n## Usage\n### Installation\n```bash\nnpm i -g @vercel/ncc\n```\n### Usage\n```bash\n$ ncc <cmd> <opts>\n```\nEg:\n```bash\n$ ncc build input.js -o dist\n```\nIf building an `.mjs` or `.js` module inside a `\"type\": \"module\"` [package boundary](https://nodejs.org/dist/latest-v16.x/docs/api/packages.html#packages_package_json_and_file_extensions), an ES module output will be created automatically.\nOutputs the Node.js compact build of `input.js` into `dist/index.js`.\n> Note: If the input file is using a `.cjs` extension, then so will the corresponding output file.\n> This is useful for packages that want to use `.js` files as modules in native Node.js using\n> a `\"type\": \"module\"` in the package.json file.\n#### Commands:\n```\n  build <input-file> [opts]\n  run <input-file> [opts]\n  cache clean|dir|size\n  help\n  version\n```\n#### Options:\n```\n  -o, --out [dir]          Output directory for build (defaults to dist)\n  -m, --minify             Minify output\n  -C, --no-cache           Skip build cache population\n  -s, --source-map         Generate source map\n  -a, --asset-builds       Build nested JS assets recursively, useful for\n                           when code is loaded as an asset eg for workers.\n  --no-source-map-register Skip source-map-register source map support\n  -e, --external [mod]     Skip bundling 'mod'. Can be used many times\n  -q, --quiet              Disable build summaries / non-error outputs\n  -w, --watch              Start a watched build\n  -t, --transpile-only     Use transpileOnly option with the ts-loader\n  --v8-cache               Emit a build using the v8 compile cache\n  --license [file]       ",
+   "timneutkens/micro-graphql": "# Micro-graphql\nExample usage of GraphQL with ZEIT's micro\n## Installation\n`npm install -g micro` or `yarn global add micro`\n## Usage\nCreate an `index.js` file with the following contents:\n```javascript\nconst { buildSchema } = require('graphql')\nconst graphqlHTTP = require('express-graphql')\nconst schema = buildSchema(`\n  type Query {\n    hello: String\n  }\n`)\nconst rootValue = {\n  hello: () => 'Hello world'\n}\nmodule.exports = graphqlHTTP({\n  schema,\n  rootValue,\n  graphiql: true\n})\n```\nThen run\n`micro index.js`\n## Boilerplates\n[Kennet Postigo](https://github.com/kennetpostigo) made an excellent boilerplate based on the example above:\n[hyperfuse/micro-graphql](https://github.com/hyperfuse/micro-graphql)\n## Alternatives\n[Micro with Apollo](https://github.com/timneutkens/micro-apollo)\n"
+  }
+ },
+ "apps": []
+}

@@ -1,0 +1,396 @@
+{
+ "handle": "mxcl",
+ "sites": [
+  {
+   "url": "https://mxcl.dev",
+   "ok": true,
+   "title": "Max Howell | Creator of Homebrew",
+   "description": "Product naming consultant and rapid app developer Max Howell names technology products and uses AI agents to build polished apps in five days.",
+   "stack": [
+    "Google Fonts"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "mxcl. dev \nHi, I’m Max Howell. \nBritish‐American creator of Homebrew \nI’ve spent decades making software used by tens of millions, with unreasonable attention to detail. I’m available as a consultant. \n Consultancy options ↓ \n mxcl@me.com \n Automic Vault \n A new kind of secrets manager for a new era of development. \n Learn more → \n Package Manager Manager \n Every package. One place. Inventory and update the tools across your Macs. \n Learn more → \n Portal \n Just works comes to remote terminal sessions. \n Learn more → \n Latest writing → \n September 24, 2026 \n One vote per family → \n September 14, 2026 \n Why I lean toward accelerating AI → \nTwo ways to hire me. \nChoose one. \nProduct naming \nA name with the positioning, tone, and future vocabulary already inside it. One flat fee. \n Product naming consultant \n Names and products people remember \n Homebrew \n Automic Vault \n Supermassive Book Hole \n PromiseKit \nRapid app development \nI use AI coding agents to turn the app in your head into a tastefully made product in five days. \n Five-day app build \nWhat do you have in mind? \n Tell Max",
+   "github_links": [
+    "mxcl"
+   ],
+   "subpages": {
+    "https://mxcl.dev/blog/": "Skip to content \n mxcl. dev \nBlog \nThoughts from Max Howell. \n September 24, 2026 \n One vote per family \nWhat if the vote belonged not to an individual, but to a family—and passed from one generation to the next? \n Read the post → \n September 14, 2026 \n Why I lean toward accelerating AI \nI would prefer to slow down. I lean toward accelerating because I worry about what happens if we don’t. \n Read the post →",
+    "https://mxcl.dev/projects/": "mxcl.dev \ncurrent and archived projects \nProjects in one wall. \n Current builds up front, with indexed open-source references for\n PromiseKit, Path.swift, YOLOKit, and older developer tools below.\nAutomic Vault \nautomicvault.com \nA new kind of secrets manager. \n Moves CLI secrets out of plaintext files and controls which signed\n app can run each tool with each credential.\n Open official site \nPackage catalog \npkg.so \npkg \nOpen package index. \n Source-backed intelligence for executable tools, including install\n metadata, aliases, popularity, and upstream facts.\n Explore packages \nClaw Orbit \ncolossalclawadventure.com \nColossal Claw Adventure \n A massively branching story game for humans and their claws.\n Open site \nSupermassive Book Hole \nsupermassivebookhole.com \nYour taste. Your shelf. Your people. \n Shelves, notes, and recommendations built around the people whose\n taste you already trust.\n Visit official site \nGame Studio Simulator \ngamestudiosimulator.com \nBe One w/the Slop \nYou have a game idea. \nWe have the agents. \nPrompt the first build. Play what comes back. \n Start a game build \nBook picks \nnextbookafter.com \nNext Book After \nSpecific book recs for previously loved reads. \n Open site \nMovie picks \nnextmovieafter.com \nNext Movie After \n Find your next watch by matching tone, themes, emotional impact,\n pacing, and storytelling style.\n Open site \nGame picks \nnextgameafter.com \nNext Game After \n Find your next play by matching mechanics, tone, emotional impact,\n pacing, and storytelling style.\n Open site \nVenue Menus \nvenue-menus.com \nVenue Menus \n Open site \nhowell network \nProjects from the Howell Network \n A few related projects, each with its own lane.\nDine Darling \ndinedarling.com \nDine Darling \n Dinner plans with sharper taste and better energy.\n Open site \nStage of Play \nstageofplay.com \nStage of Play \nMontessori-inspired play kits. \n Open site \nChorale \ngetchorale.com \nChorale \n Scheduling for small businesses with AI assistance.\n Open site \nopen source archive \nDeveloper tools people still search for \n Older generated docs and release notes are still useful references.\n These links keep the canonical mxcl.dev paths discoverable from the\n active project index.\nPromiseKit \n PromiseKit is a Swift promises library for asynchronous programming\n on Apple platforms. Current searches land on both the v4 and v7\n generated references.\n [ PromiseKit docs ]\n [ PromiseKit v7 reference ]\n [ PromiseKit v4 reference ]\nPromiseKit release notes \n Versioned release pages explain the Swift API changes people search\n for, including PromiseKit 6, PromiseKit 4, and earlier migration\n notes.\n [ PromiseKit 6.0 released ]\n [ PromiseKit 4.0 released ]\nPath.swift \n Path.swift is a small Swift path library with generated reference\n pages for path types and dynamic path handling.\n [ Path.swift docs ]\nYOLOKit \n YOLOKit is an older Objective-C collection utility project that\n remains indexed under the mxcl.dev archive.\n [ YOLOKit docs ]"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "mxcl",
+  "user": {
+   "name": "Max Howell",
+   "company": null,
+   "blog": "https://mxcl.dev",
+   "location": "Apex, NC, USA",
+   "bio": "Creator @homebrew. Now working on what happens when agents use it @automic-vault.",
+   "public_repos": 86,
+   "followers": 7883,
+   "created_at": "2009-02-28T22:54:13Z",
+   "twitter_username": "mxcl",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mxcl/PromiseKit",
+    "description": "Promises for Swift & ObjC.",
+    "stargazers_count": 14208,
+    "forks_count": 1457,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2014-04-04T13:54:37Z",
+    "pushed_at": "2026-06-03T18:37:03Z",
+    "topics": [
+     "objc",
+     "promises",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/swift-sh",
+    "description": "Easily script with third-party Swift dependencies.",
+    "stargazers_count": 1890,
+    "forks_count": 63,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2019-01-12T03:30:36Z",
+    "pushed_at": "2026-06-03T18:37:10Z",
+    "topics": [
+     "scripting",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/Path.swift",
+    "description": "Delightful, robust, cross-platform and chainable file-pathing functions.",
+    "stargazers_count": 959,
+    "forks_count": 40,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2019-01-17T22:07:03Z",
+    "pushed_at": "2026-06-03T18:37:02Z",
+    "topics": [
+     "filesystem",
+     "micro-framework",
+     "path",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/Workbench",
+    "description": "Seamless, automatic, “dotfile” sync to iCloud.",
+    "stargazers_count": 666,
+    "forks_count": 12,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2018-03-25T19:36:30Z",
+    "pushed_at": "2021-06-30T20:31:56Z",
+    "topics": [
+     "app",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/YOLOKit",
+    "description": "Getting square objects down round holes",
+    "stargazers_count": 661,
+    "forks_count": 34,
+    "language": "Objective-C",
+    "homepage": "http://mxcl.github.io/YOLOKit/",
+    "created_at": "2011-09-05T12:18:14Z",
+    "pushed_at": "2026-06-03T18:37:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/Cake",
+    "description": "A delicious, quality‑of‑life supplement for your app‑development toolbox.",
+    "stargazers_count": 531,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2018-11-10T20:16:48Z",
+    "pushed_at": "2019-06-04T13:20:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/xcodebuild",
+    "description": "A continuously resilient `xcodebuild` “GitHub Action”. Also it’s the best.",
+    "stargazers_count": 352,
+    "forks_count": 36,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2021-06-04T18:25:51Z",
+    "pushed_at": "2026-06-03T18:37:19Z",
+    "topics": [
+     "github-actions",
+     "macos",
+     "xcode",
+     "xcodebuild"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/Version",
+    "description": "semver (Semantic Version) Swift µFramework.",
+    "stargazers_count": 337,
+    "forks_count": 18,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2019-02-10T14:24:58Z",
+    "pushed_at": "2026-04-30T16:01:50Z",
+    "topics": [
+     "micro-framework",
+     "semver",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/OMGHTTPURLRQ",
+    "description": "Vital extensions to NSURLRequest that Apple left out for some reason.",
+    "stargazers_count": 336,
+    "forks_count": 50,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2014-06-25T04:05:33Z",
+    "pushed_at": "2026-06-03T18:36:59Z",
+    "topics": [
+     "omg"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/AppUpdater",
+    "description": "Automatically update open source macOS apps from GitHub releases. Full support for attestations.",
+    "stargazers_count": 288,
+    "forks_count": 9,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2019-02-14T21:07:26Z",
+    "pushed_at": "2026-10-07T13:44:17Z",
+    "topics": [
+     "swift-package-manager"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/Chalk",
+    "description": "Terminal colors using Swift 5’s string interpolation extensions.",
+    "stargazers_count": 224,
+    "forks_count": 8,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2019-02-20T21:47:00Z",
+    "pushed_at": "2026-06-03T18:36:42Z",
+    "topics": [
+     "swift",
+     "terminal-colors"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/LegibleError",
+    "description": "Beating `Error.localizedDescription` at its own game.",
+    "stargazers_count": 187,
+    "forks_count": 9,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2019-02-02T19:37:20Z",
+    "pushed_at": "2026-06-03T18:36:55Z",
+    "topics": [
+     "error-messages",
+     "micro-framework",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/Audioscrobbler.app",
+    "description": "Minimal, robust iTunes scrobbling",
+    "stargazers_count": 137,
+    "forks_count": 18,
+    "language": "Objective-C",
+    "homepage": "http://www.last.fm/group/Audioscrobbler+Beta/forum/30705/_/553795",
+    "created_at": "2009-07-05T13:22:59Z",
+    "pushed_at": "2016-07-23T20:52:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/UIImageWithColor",
+    "description": "[UIImage imageWithColor]",
+    "stargazers_count": 79,
+    "forks_count": 5,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2014-02-01T18:22:22Z",
+    "pushed_at": "2026-06-03T18:37:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/yosemite-menu-inverter",
+    "description": "Invert your Yosemite icons",
+    "stargazers_count": 71,
+    "forks_count": 10,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2014-09-03T20:10:51Z",
+    "pushed_at": "2015-06-23T17:25:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/MBWebSocketServer",
+    "description": "An objc draft 10 websocket implementation",
+    "stargazers_count": 69,
+    "forks_count": 24,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2011-10-18T12:21:33Z",
+    "pushed_at": "2014-05-11T15:54:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/package-manager-manager",
+    "description": "How many Packages would a Package Manager manage if a Package Manager could manage Package Managers?",
+    "stargazers_count": 56,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": "https://mxcl.dev/package-manager-manager/",
+    "created_at": "2026-07-02T13:23:09Z",
+    "pushed_at": "2026-10-12T15:10:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mxcl/AmA",
+    "description": "Ask mxcl anything.",
+    "stargazers_count": 51,
+    "forks_count": 4,
+    "language": null,
+    "homepage": "",
+    "created_at": "2019-01-20T18:22:04Z",
+    "pushed_at": "2021-09-01T17:34:08Z",
+    "topics": [
+     "ama"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 60,
+  "languages": [
+   [
+    "Swift",
+    17
+   ],
+   [
+    "Objective-C",
+    15
+   ],
+   [
+    "TypeScript",
+    4
+   ],
+   [
+    "JavaScript",
+    4
+   ],
+   [
+    "Ruby",
+    3
+   ],
+   [
+    "Rust",
+    3
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "HTML",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "automic-vault/automic-vault",
+    "stargazerCount": 571,
+    "description": "CLI security is broken. The packaging layer is where we fix it.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://www.automicvault.com"
+   },
+   {
+    "nameWithOwner": "mxcl/package-manager-manager",
+    "stargazerCount": 56,
+    "description": "How many Packages would a Package Manager manage if a Package Manager could manage Package Managers?",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://mxcl.dev/package-manager-manager/"
+   },
+   {
+    "nameWithOwner": "mxcl/AppUpdater",
+    "stargazerCount": 288,
+    "description": "Automatically update open source macOS apps from GitHub releases. Full support for attestations.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mxcl/knock-knock",
+    "stargazerCount": 2,
+    "description": "Easy, GitHub sign-in, pre-hosted chat rooms for your GitHub repo",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://knock-knock.mxcl.dev"
+   },
+   {
+    "nameWithOwner": "mxcl/encrypted-folder",
+    "stargazerCount": 3,
+    "description": "Simple per file encryption for the contents of a folder",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 16940,
+  "orgs": [
+   "PromiseKit",
+   "GitHub-Beta-Dev",
+   "git-things-done",
+   "automic-vault"
+  ],
+  "profile_readme": "> British-American software engineer\n\n# Max Howell\n\nHowell, Max (fl. early 21st century), British-American software engineer and open-source developer, best known as the creator of Homebrew, a package management system for macOS and Linux that achieved widespread adoption among software developers globally, with an estimated user base numbering in the tens of millions.\n\nHowell's most consequential technical contribution, and the subject of some professional controversy, was his introduction of the curl-based one-liner installation method, a convention subsequently adopted across a broad range of software projects. He is further credited with popularizing the doctor subcommand pattern in command-line interfaces, a diagnostic utility designed to identify and resolve common configuration errors, and with pioneering automated issue-tracker integration, whereby a tool, upon encountering an error, would query public repositories such as GitHub to surface relevant existing discussions.\n\nHowell has remained a prominent advocate for the open-source software movement throughout his career, contributing to a culture of collaborative, freely distributed software development.\n",
+  "readmes": {
+   "automic-vault/automic-vault": "# Automic Vault\n[English](README.md) · [简体中文](README.zh-Hans.md)\n**macOS protects your apps. We protect your command line.**\nSince I created Homebrew, Apple has transformed Mac app security. I’m bringing\nthat same care to the command line.\n— [Max Howell](https://mxcl.dev/)\nYou install tools to do a job. Their credentials often sit in files or helpers\nthat other code running as you can read. Agents inherit that access.\nAutomic Vault hardens supported CLI tools on macOS. AV understands how supported\ncommands use credentials and classifies operations by sensitivity. Set Access\nLevels in advance for each app and Tool to reduce Approval prompts without\nblanket access. Unknown operations still require Approval.\nWe move exposed credentials into the Keychain and change how the tools request\nthem. You keep your commands; AV checks the complete operation before applying\na protected credential.\n&nbsp;\n## Quickstart\nDownload the [latest release], or install with Homebrew:\n```sh\nbrew install --cask automic-vault/isotopes/automic-vault\nopen /Applications/Automic\\ Vault.app\n```\nScan for exposed credentials, harden a supported Tool, then verify the result:\n```sh\nav scan   # or open the app\nav harden gh\nav doctor gh\n```\n> [!TIP]\n> Automic Vault has several other mechanisms (Blessed Scripts, Launcher\n> Bundles, the Secret Proxy, Direct Secret Access) for situations a Hardener\n> doesn't cover. See [Choosing a Mechanism](docs/choosing-a-mechanism.md) for\n> which one fits your situation.\n&nbsp;\n# Product Overview\n## Detectors\nAutomic Vault continuously checks over 100 developer-tool configurations for\nExposures and Hazards, including plaintext credentials, permissive Keychain\nitems, and ambient credential helpers. Each Finding includes a mitigation.\nDetectors inspect without changing your environment or requesting Secrets. A\nclean Scan means no supported Detector found an issue; it cannot certify that\nyour machine is holistically secure.\n[Detection coverage and interpreting Findings](docs/tool-hardening.md)\n## Hardeners\nHardeners move supported credentials into Secret Custody in the macOS Data\nProtection Keychain and configure the Tool's Authorization Gate. Depending on\nthe Tool, th",
+   "mxcl/package-manager-manager": "\n# Package Manager Manager [](https://knock-knock.mxcl.dev/mxcl/package-manager-manager)\nThe time when one package manager was all you needed is long gone. pkg⋅mgr²\ninventories your package managers and their packages, so you can see what you\nhave, what’s outdated, and what’s taking up space.\nUse whatever you want without compromising visibility into what’s going on.\n> [!TIP]\n> No need to remember to `npx ***@latest` anymore. We update `npx`’d stuff too.\n## Quickstart\n```sh\nbrew install --cask mxcl/made/package-manager-manager\n```\n> No brew? [Download the `.dmg` from `./releases/`](https://github.com/mxcl/pmm/releases/latest).\n&nbsp;\n## Manage Remote Hosts\npkg⋅mgr² can inspect, update, and uninstall packages on hosts you already reach\nover SSH, including hosts on your local network or Tailscale network.\n1. On a remote Mac, install Package Manager Manager in `/Applications`. Linux\n   hosts are agentless; APT/dpkg, apk, DNF/RPM, and Zypper/RPM systems are supported.\n2. Make sure SSH works non-interactively and the host key is trusted:\n   ```sh\n   ssh pangolin true\n   ```\n3. Choose **Package Manager Manager → Add / Edit Hosts…** and add the SSH host\n   or an alias from `~/.ssh/config`.\nEach host gets its own Installed and Outdated sections in the sidebar. Linux\ninventory includes native packages that provide command-line tools, plus global\nnpm, pnpm, and Bun packages, pipx applications, `cargo install` and `go install`\nbinaries, `pkgx` packages, and `uv tool` tools when those managers are present. System-package\nactions use non-interactive sudo; without it, those packages remain visible but read-only.\npkg⋅mgr² uses OpenSSH directly. Your keys, agent, host aliases, and\n`known_hosts` stay where they already live; the app stores no SSH credentials.\n## What It Finds\npkg⋅mgr² currently inventories:\n- Homebrew formulae and casks\n- tools and runtimes installed with `mise`\n- global npm, pnpm, and Bun packages\n- npx cache entries\n- Skills packages installed with `skills` or `npx skills`\n- `uv tool` tools and `uv` Python installs\n- Python applications installed with `pipx`\n- `uvx` cached environments\n- `cargo install` binaries\n- `go install` binaries\n- `pkgx` packages, inclu",
+   "mxcl/AppUpdater": "# AppUpdater\n[![Coverage Status][coveralls-badge]][coveralls]\nA small, self-update library for Developer ID signed macOS apps. AppUpdater checks\nGitHub Releases, validates a DMG, replaces the running app, and relaunches it.\n[coveralls-badge]: https://coveralls.io/repos/github/mxcl/AppUpdater/badge.svg\n[coveralls]: https://coveralls.io/github/mxcl/AppUpdater\nAppUpdater supports macOS 12 and later. Version 4 separates update discovery\nfrom downloading and preparing an installation.\n## Package\n```swift\npackage.dependencies.append(\n    .package(url: \"https://github.com/mxcl/AppUpdater.git\", from: \"4.1.0\")\n)\n```\nWhen Xcode owns your app target it embeds AppUpdater's resources automatically.\nIf you assemble the `.app` yourself, build with Xcode's build system and copy\nthe resource bundle into the app:\n```sh\n$ swift build --build-system xcode --configuration release\n$ SWIFT_BIN=\"$(swift build --build-system xcode --configuration release --show-bin-path)\"\n$ ditto \"$SWIFT_BIN/AppUpdater_AppUpdater.bundle\" \\\n    \"MyApp.app/Contents/Resources/AppUpdater_AppUpdater.bundle\"\n```\n> [!INFO]\n> AppUpdater's Sigstore trust bootstrap is declared as SwiftPM resources.\n> SwiftPM emits declared resources as a separate bundle, and generates\n> `Bundle.module` to load them. AppUpdater 4.1 therefore has no supported\n> bundle-free packaging mode: omitting or renaming\n> `AppUpdater_AppUpdater.bundle` prevents attestation from loading its trust\n> roots. Folding the data into the executable would require a different\n> AppUpdater implementation that generates Swift source instead of packaging\n> the JSON resources; it isn't a choice the consuming app can make.\n## Release layout\nAppUpdater only accepts DMG assets. Name each asset\n`<repository>-<version>.dmg`, for example `MyApp-2.1.0.dmg`. The version is\nread the way the tag is, so a `v2.1` release may name its asset `MyApp-2.1.dmg`.\nThe mounted DMG must contain one top-level app. Its filename must match the\ninstalled app, including case. A release for `MyApp.app` therefore contains:\n```text\nMyApp-2.1.0.dmg\n└── MyApp.app\n```\nAppUpdater ignores ZIP files, tarballs, packages, and DMGs with missing,\nmultiple, or misnamed apps.\n## Usage\n```swift\nimp",
+   "mxcl/knock-knock": "# Knock Knock\n> A temporary, GitHub-native room for every public repository.\nKnock Knock gives a public GitHub repository one small, unnamed chat room. Anyone\nmay read an active room; a GitHub account is required to participate. Messages\nremain visible for 14 days and then leave every normal human-facing view, while\ncomplete logs remain stored for future paid AI support and FAQ generation.\nThink of it as a public conversation with a bouncer beside the microphone: anyone\nmay listen, but speakers must show GitHub identity. Rooms are not indexed by\nsearch engines.\nSee [Privacy and Retained Logs](PRIVACY.md) for the exact storage and visibility\npolicy. See [Product and Technical Plan](PLAN.md) for implementation details.\n## Why\nDevelopers should be able to click a button in a README, authenticate with GitHub,\nsay something to the people around a repository, and leave.\nNo server to join. No channel tree. No permanent public history. No social graph.\nNo commitment.\nThe room should feel like briefly stepping into a repository's hallway—not joining\nanother community platform.\n## MVP product contract\n### One repository, one room\nEvery public GitHub repository maps to:\n```text\nhttps://knock-knock.mxcl.dev/owner/repo\n```\nThe room has one unnamed linear timeline. The MVP has no channels, threads,\ndirect messages, categories, or global room directory.\nThe home page accepts either a GitHub repository URL or `owner/repository`.\nAfter sign-in, it also shows rooms already known to Knock Knock that the user can\nmanage and up to eight rooms where they have posted, ordered by recent activity.\nThese are private, account-specific shelves rather than global discovery.\n### GitHub identity is required to post\nAnyone with the direct URL may see messages in an active room. Users must\nauthenticate with GitHub before posting, reporting, or managing content. Any\nauthenticated GitHub account may participate in an active room.\nMessages snapshot the author's relationship to the repository at posting time:\n- `owner` — owner of a personal repository\n- `maintainer` — GitHub `admin`, `maintain`, or `write`\n- `collaborator` — GitHub `triage`\n- no pill — no repository affiliation\nGitHub remains the a",
+   "mxcl/encrypted-folder": "# Encrypted Folder\nFinder for an encrypted folder. No mount, no container, no plaintext temp files.\n> [!WARNING]\n> This is new software with a new file format. Keep backups of the whole vault, especially `encrypted-folder.json`. Lose that file and the ciphertext is decorative.\n## Why?\nI have used Encrypted Sparse Bundles for encrypting files before, but I am not\na huge fan because:\n- Size is larger than content\n- Not resizable\n- If bitrot† occurs then multiple files or even *the entire* contents is lost\n- Opening files from the sparsebundle hands apps the decrypted files\n- Probably even viewing the contents in Finder may end up storing decrypted copies in caches\n> † All storage formats may randomly flip bits. Hence you want to store data\n> on a RAID with ECC (error-correcting code) enabled. However that is not\n> usually convenient. Bitrot is inevitable, but all the same: unlikely.\nHence this app.\n## Install it\n```sh\n$ brew install --cask mxcl/made/encrypted-folder\n```\n## Build it\nRequires macOS 15 or newer and Xcode 26.\n```sh\n$ make run\nswift build -c release --product EncryptedFolder\nBuilt build/Encrypted Folder.app\n# ^^ signed, sandboxed, opened\n```\nPick an empty folder, choose a password, then drag files in. Drag them back to Finder to export. Images, PDFs, audio and video stay inside the app while viewing.\n## Recover without the app\nEvery new vault includes `RECOVER.command`, a standalone copy of the v1 decryption code. Double-click it, enter the vault password, and it writes the plaintext to a new sibling folder named `<vault>-decrypted`. It never overwrites an existing folder and refuses to put plaintext inside the vault.\nThe script needs Apple's Command Line Tools (`xcode-select --install`). Anyone who can modify the vault can replace its recovery script, so obtain a trusted copy before entering the password if the folder may have been tampered with.\n## What it does not do\n- It does not mount a filesystem.\n- It does not sync anything. Put the vault in iCloud, Dropbox, rsync or whatever already disappoints you least.\n- It does not hand plaintext to Quick Look. Apple's API doesn't promise the cache/process boundary this app requires.\n- It is not gocryptfs-c"
+  }
+ },
+ "apps": []
+}

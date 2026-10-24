@@ -1,0 +1,161 @@
+{
+ "name": "Daniel Saidi",
+ "role": "独立开发者 · Kankoda 创始人 · KeyboardKit、RichTextKit、SwiftUIKit 作者 · 斯德哥尔摩",
+ "title": "Daniel Saidi：给 iPhone <em>造键盘</em>的人",
+ "dek": "TA 是斯德哥尔摩的自由职业软件工程师，专注 Apple 平台的应用和产品开发，经营自己的公司 Kankoda。TA 最知名的作品是 KeyboardKit：用几行 Swift 和 SwiftUI 就能做出自定义 iOS 键盘扩展，支持一百一十多种语言；配套的 KeyboardKit Pro 解锁本地化键盘、自动补全等高级能力。2026 年 10 月的 11.1 版本加入了韩语、高棉语、泰语，以及 iPhone Duo 和 iPad 的分体键盘。TA 还维护着一整套 SwiftUI 开源库：RichTextKit（富文本编辑）、SwiftUIKit、OnboardingKit、ScrollKit、DeckKit、EmojiKit 等，以及 Sheeeeeeeeet 这种名字很好记的菜单库。TA 合作过的公司包括 Qapital、Bambuser、BookBeat、Tradera 等。",
+ "card": "斯德哥尔摩独立开发者，Kankoda 创始人；KeyboardKit（★1.9 千）、RichTextKit、SwiftUIKit、Sheeeeeeeeet 作者。",
+ "location": "瑞典斯德哥尔摩",
+ "updated": "2026-10-23",
+ "tags": ["Swift", "SwiftUI", "SDK", "自定义键盘", "开源"],
+ "links": [
+  {"label": "danielsaidi.com", "url": "https://danielsaidi.com"},
+  {"label": "KeyboardKit", "url": "https://keyboardkit.com"},
+  {"label": "GitHub：danielsaidi", "url": "https://github.com/danielsaidi"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I'm a freelance engineer who specializes in app & product development, with focus on Apple platforms.」",
+  "<strong>代表作：</strong>KeyboardKit（★1,895）、SwiftUIKit（★1,753）、Sheeeeeeeeet（★1,750）、OnboardingKit（★1,281）、RichTextKit（★1,274）、SystemNotification、DeckKit、ScrollKit、EmojiKit、AppIconKit、LicenseKit、ListKit。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 3,701 次；KeyboardKit 支持 110+ 种语言。",
+  "<strong>合作公司：</strong>Kankoda、Compileit、Mods、Qapital、Bambuser、Oribi、Cineasterna、BookBeat、Voyado、Tradera。"
+ ],
+ "lead": "2026 年 10 月，Daniel 写了一篇博客：KeyboardKit 的 DocC 文档曾经构建出约 900 MB、超过 16 万个文件；只改一个构建设置 DOCC_SKIP_SYNTHESIZED_MEMBERS，体积就降到约 45 MB，减少了 95%。这种具体、可复用的经验是 TA 博客的常态，也让 TA 的 SDK 成为很多 Swift 开发者的工具箱。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "自由职业工程师、SDK 作者"],
+     ["所在地", "瑞典斯德哥尔摩"],
+     ["公司", "Kankoda Sweden AB"],
+     ["产品", "KeyboardKit / KeyboardKit Pro、LicenseKit、Wally、Appamini 小游戏"],
+     ["技术栈", "Swift、SwiftUI、DocC、Swift Package Manager"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Daniel 做的是<strong>别的开发者每天都会用到的 SwiftUI 组件</strong>。KeyboardKit 扩展了 Apple 有限的键盘 API；RichTextKit 让 SwiftUI 能查看和编辑富文本；SystemNotification 模仿系统通知；PrintingKit 让任何 SwiftUI 应用都能打印文本、视图、图片和 PDF；SwiftPackageScripts 提供不需要工程文件就能构建 XCFramework 的脚本。"},
+    {"p": "iPhone Duo 发布前，TA 把 Kankoda 的所有应用都做了适配，并发现了一个问题：应用能读取铰链信息，但键盘扩展「完全看不见」它，所以 KeyboardKit 只能另想办法实现分体键盘。TA 也写过一篇《Custom keyboards and mental health research》，讲自定义键盘在心理健康研究中的用途。"},
+    {"note": "本页依据 danielsaidi.com（首页、博客、开源、合作、演讲）、App Store、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2016–2017", "title": "早期 SDK", "text": "OnboardingKit 的前身（2016）、Sheeeeeeeeet 菜单库（2017）。"},
+     {"when": "2020–2022", "title": "SwiftUI 工具箱", "text": "SwiftUIKit、DeckKit、SystemNotification、RichTextKit、StoreKitPlus。"},
+     {"when": "2021", "title": "KeyboardKit 应用", "text": "KeyboardKit 演示应用上架 App Store。"},
+     {"when": "2023–2024", "title": "更多 Kit", "text": "ScrollKit、PrintingKit、EmojiKit、BadgeIcon、AppIconKit、SwiftPackageScripts。"},
+     {"when": "2026", "title": "KeyboardKit 11", "text": "Swift 6.2、110+ 语言、插件架构；11.1 加入韩语、泰语与分体键盘；ListKit、LicenseKit。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "KeyboardKit", "url": "https://keyboardkit.com",
+     "meta": ["Swift / SwiftUI", "★1.9 千", "开源 + Pro"],
+     "paras": [
+      "「Create custom iOS keyboards with Swift & SwiftUI.」开源核心提供键盘布局、按键、手势和回调；KeyboardKit Pro 解锁本地化键盘、自动补全、听写等。"
+     ]
+    }},
+    {"work": {
+     "name": "RichTextKit", "url": "https://github.com/danielsaidi/RichTextKit",
+     "meta": ["2022–", "SwiftUI", "★1.3 千"],
+     "paras": [
+      "在 SwiftUI 中查看和编辑富文本，弥补系统组件的空白。"
+     ]
+    }},
+    {"work": {
+     "name": "SwiftUIKit", "url": "https://github.com/danielsaidi/SwiftUIKit",
+     "meta": ["2020–", "Swift", "★1.8 千"],
+     "paras": [
+      "为 Swift 和 SwiftUI 补充组件和大量扩展，「可以加速你的开发，解决很多棘手的问题」。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Sheeeeeeeeet", "UIKit 菜单、动作表和上下文菜单库（★1,750）"],
+      ["OnboardingKit", "SwiftUI 引导体验 SDK（★1,281）"],
+      ["ScrollKit", "更强的 SwiftUI 滚动能力"],
+      ["LicenseKit", "用商业许可保护闭源软件"],
+      ["MockingKit", "Swift 协议和类的 mock 库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://danielsaidi.com", "paras": [
+     "网站分为 Blog、Apps、SDKs、Open-Source、Talks、Work。博客按标签细分（Swift、SwiftUI、AI、DocC、键盘、本地化……），最近的文章有优化 Claude Code 的 Xcode 构建 token、用 Xcode MCP 配合 Claude Code、从 Finder 右键压缩图片和 PDF。Talks 页列出 TA 在 CocoaHeads Stockholm、try! Swift、SwiftLeeds 等的演讲。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["博客", "100+ 篇，每月数篇"],
+      ["演讲", "CocoaHeads、try! Swift、SwiftLeeds 等"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-01", "title": "How I reduced my DocC documentation web output size with 95%", "url": "https://danielsaidi.com/blog/"},
+     {"date": "2026-09-30", "title": "Optimizing Claude Code's Xcode build token usage", "url": "https://danielsaidi.com/blog/"},
+     {"date": "2026-09-04", "title": "Custom keyboards and mental health research", "url": "https://danielsaidi.com/blog/"},
+     {"date": "2026-08-27", "title": "Some things are never truly lost - How git recovered two weeks of deleted work", "url": "https://danielsaidi.com/blog/"}
+    ]},
+    {"p": "TA 对 iPhone Duo 的评价很直接：打开动画很酷，但仅此而已；翻转方向是一个大失误，给开发者增加了大量不必要的工作，却没有带来真正的好处。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["SDK", "覆盖面广，维护积极", "部分高级功能需购买 Pro"],
+      ["写作", "具体、可复用", "—"],
+      ["商业", "开源 + 商业许可结合", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把一个系统短板做成 SDK。</strong>",
+     "<strong>开源核心，Pro 版养活项目。</strong>",
+     "<strong>把每次踩坑写成博客。</strong>",
+     "<strong>检查文档构建体积：</strong>一个设置可能省下 95%。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "KeyboardKit", "url": "https://keyboardkit.com", "why": "做一个自己的 iOS 键盘。"},
+     {"name": "RichTextKit", "url": "https://github.com/danielsaidi/RichTextKit", "why": "给 SwiftUI 加富文本编辑。"},
+     {"name": "danielsaidi.com/blog", "url": "https://danielsaidi.com/blog/", "why": "大量 Swift 实战笔记。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "看看你的 Swift 包的 DocC 文档构建有多大，试试 DOCC_SKIP_SYNTHESIZED_MEMBERS。",
+ "sources": [
+  {"label": "Daniel Saidi 的 X 个人资料", "url": "https://x.com/danielsaidi"},
+  {"label": "danielsaidi.com", "url": "https://danielsaidi.com"},
+  {"label": "Work（danielsaidi.com）", "url": "https://danielsaidi.com/work"},
+  {"label": "GitHub：KeyboardKit/KeyboardKit", "url": "https://github.com/KeyboardKit/KeyboardKit"},
+  {"label": "GitHub：danielsaidi", "url": "https://github.com/danielsaidi"}
+ ]
+}

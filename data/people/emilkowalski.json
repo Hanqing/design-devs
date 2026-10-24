@@ -1,0 +1,167 @@
+{
+ "name": "Emil Kowalski",
+ "role": "Design Engineer · Sonner、Vaul 作者 · animations.dev 课程 · 前 Linear、Vercel",
+ "title": "Emil Kowalski：动画要<em>少一点</em>，但每一帧都要对",
+ "dek": "他是网页动效领域被引用最多的设计工程师之一。他写的 React 通知组件 Sonner 和抽屉组件 Vaul 被大量产品直接采用；他的动画课程 animations.dev 已经有一万三千多名设计师和工程师学过。2021 年他去 Vercel 面试，卡在一个防抖函数上半小时，没过；十个月后再面，拿到了 offer。之后他在 Vercel 做设计系统和官网，2024 年前后加入 Linear 做了两年，2026 年 10 月离开，目前暂时休息，同时推出了新课程「AI for Designers and Engineers」。他把多年的动效经验写成给 AI Agent 用的 Skill 仓库，半年就有 4.9 万颗星。",
+ "card": "Sonner（★1.3 万）、Vaul、Skills 仓库（★4.9 万）作者；animations.dev 课程；前 Linear、Vercel 设计工程师。",
+ "location": "未公开",
+ "updated": "2026-10-23",
+ "tags": ["Design Engineering", "Web 动效", "React", "课程", "AI 设计"],
+ "links": [
+  {"label": "emilkowal.ski", "url": "https://emilkowal.ski"},
+  {"label": "animations.dev", "url": "https://animations.dev"},
+  {"label": "Sonner", "url": "https://sonner.emilkowal.ski"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>个人网站写「Design Engineer」，「在 Linear 和 Vercel 做过产品与营销页面的视觉部分」，目前「Currently taking a break from work」。",
+  "<strong>代表作：</strong>Sonner（★13,072）、Vaul（★8,649，已停止维护）、emilkowalski/skills（★49,070）、animations.dev、aiforui.dev。",
+  "<strong>关键数字：</strong>animations.dev 学员 13,000+；X 关注者约 11.1 万；GitHub 近一年贡献 1,408 次。",
+  "<strong>代表文章：</strong>《You Don’t Need Animations》《Developing Taste》《Agents with Taste》《Building a Toast Component》《The Magic of Clip Path》。"
+ ],
+ "lead": "2026 年 10 月 22 日，Emil 在 X 上讲了一件旧事：2021 年他去 Vercel 面试，写不出一个防抖函数，卡了大约三十分钟，「挺尴尬的」；十个月后他又去面了一次，拿到了工作。前一天，他刚宣布这是自己在 Linear 的最后一周。这段经历和他教的东西是一致的：品味和手艺都是练出来的，没有人一开始就会。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计工程师（Design Engineer）、课程作者"],
+     ["经历", "Vercel（2022 年起）→ Linear（约 2024–2026.10）→ 暂时休息"],
+     ["开源", "Sonner、Vaul、Skills for Designers and Engineers"],
+     ["课程", "animations.dev（网页动画）、aiforui.dev（用 AI 做界面）"],
+     ["技术栈", "React、TypeScript、CSS、Next.js"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Emil 的专长是<strong>让界面「感觉对」</strong>：缓动曲线、时长、手势阻尼、交错动画这些细节。Sonner 是他把这些细节打包成一个组件的结果：通知可以堆叠、展开、滑动关闭，往上拖时不会被直接拦住，而是感到「摩擦」。"},
+    {"p": "这两年他把同样的经验教给 AI：Skills 仓库里有 /animate、/review-animations、/animation-performance、/mobile-native、/break-ui 等指令，让编程 Agent 在动效和交互上少犯常见错误。他在 Linear 的最后几个月里，用大约一百万 token 把 Linear 的组件从 Radix 迁到了 Base UI。"},
+    {"note": "本页依据 emilkowal.ski、animations.dev、aiforui.dev、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他加入 Linear 的时间依据其「过去两年」的说法推算；所在地等个人信息未公开，本页不作推测。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2021", "title": "第一次面 Vercel", "text": "卡在防抖函数上，没有通过。"},
+     {"when": "2022", "title": "加入 Vercel", "text": "十个月后再面并入职，参与产品与营销页面的视觉部分。"},
+     {"when": "2023", "title": "Sonner 与 Vaul", "text": "先后开源通知组件 Sonner 和抽屉组件 Vaul，并写下构建过程。"},
+     {"when": "约 2024", "title": "加入 Linear", "text": "在 Linear 做了两年设计工程；同期推出 animations.dev 课程。"},
+     {"when": "2026", "title": "Skills 与离开 Linear", "text": "3 月开源 Skills 仓库；10 月离开 Linear，开放新课程 aiforui.dev。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Sonner", "url": "https://sonner.emilkowal.ski",
+     "meta": ["2023–", "React", "★1.3 万"],
+     "paras": [
+      "「An opinionated toast component for React.」放一个 <code>&lt;Toaster /&gt;</code>，在任何地方调用 <code>toast()</code> 即可。它的价值在于默认值：堆叠、悬停展开、滑动关闭、Promise 状态，都已经调好。他在《Building a Toast Component》里详细写了每个决定。"
+     ],
+     "facts": [["GitHub", "★13,072 · ⑂468"]]
+    }},
+    {"work": {
+     "name": "animations.dev", "url": "https://animations.dev",
+     "meta": ["课程", "交互式"],
+     "paras": [
+      "「How do you craft animations that feel right?」一门讲网页动画理论与实践的交互式课程。它的出发点是：很多教程只讲顺利的情况，而一个糟糕的缓动或时长就能毁掉一个动画。课程按期开放报名，官网称已有一万三千多人学过。"
+     ]
+    }},
+    {"work": {
+     "name": "Skills for Designers and Engineers", "url": "https://github.com/emilkowalski/skills",
+     "meta": ["2026–", "Agent Skills", "★4.9 万"],
+     "paras": [
+      "README 写道：这些 Skill 来自他在 Vercel 和 Linear 的多年经验，「AI 不会取代专业能力，而是放大它」，所以去学编程、学设计，或者在任何领域建立专长。9 月他发帖说仓库下载量已经 150 万。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Vaul", "React 抽屉组件（★8,649），README 注明暂停维护，「这一直是个业余项目」"],
+      ["aiforui.dev", "新课程：用 AI 做出好界面，「同时不降低标准」"],
+      ["Linear 界面细节", "对话框动画时长统一、改用 ease-out 等"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://emilkowal.ski", "paras": [
+     "首页很短：一句近况、四个项目、七篇文章。文章都是动效和品味的长文，每篇都嵌着可交互的演示，读者可以直接拖动、对比不同的缓动和时长。",
+     "首页顶部挂着新课程的报名倒计时，这也是他目前的主要工作。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel 托管"],
+      ["内容", "动效、组件构建、品味、AI"],
+      ["形式", "文章内嵌交互演示"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "", "title": "You Don’t Need Animations", "url": "https://emilkowal.ski/ui/you-dont-need-animations"},
+     {"date": "", "title": "Agents with Taste", "url": "https://emilkowal.ski/ui/agents-with-taste"},
+     {"date": "", "title": "Developing Taste", "url": "https://emilkowal.ski/ui/developing-taste"},
+     {"date": "", "title": "Building a Toast Component", "url": "https://emilkowal.ski/ui/building-a-toast-component"},
+     {"date": "", "title": "The Magic of Clip Path", "url": "https://emilkowal.ski/ui/the-magic-of-clip-path"}
+    ]},
+    {"quote": "AI doesn’t replace such expertise, it amplifies what you can get out of it.", "cite": "Emil Kowalski，Skills 仓库 README"},
+    {"p": "他在 X 上的观点很具体：越大的元素动得越慢，因为它「感觉更重」；元素多时要交错出场；长文用 18 到 20 像素字号更好读；<code>text-wrap: pretty</code> 应该全局默认打开。他也对「一天发几百个 PR」的说法表示怀疑：为什么需要发那么多？"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["手艺", "动效细节和默认值极好", "—"],
+      ["教学", "把隐性经验讲清楚，课程和 Skill 都有大量用户", "课程付费，按期开放"],
+      ["开源", "Sonner 被广泛采用", "Vaul 已停止维护"],
+      ["近况", "—", "2026 年 10 月起暂时不在公司任职"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>先问要不要动：</strong>很多地方根本不需要动画。",
+     "<strong>动画要符合物理直觉：</strong>大的慢，小的快，多的交错。",
+     "<strong>组件的价值在默认值：</strong>别人直接用就该是好的。",
+     "<strong>给自己造工具：</strong>调动画、看性能、填测试数据都值得做个小工具。",
+     "<strong>失败一次不算什么：</strong>面试没过，十个月后再来。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "You Don’t Need Animations", "url": "https://emilkowal.ski/ui/you-dont-need-animations", "why": "先学会什么时候不动。"},
+     {"name": "Sonner", "url": "https://sonner.emilkowal.ski", "why": "看一个打磨到位的组件。"},
+     {"name": "Skills 仓库", "url": "https://github.com/emilkowalski/skills", "why": "让你的编程 Agent 学会做动效。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "打开你产品里最常用的一个弹窗，把它的动画时长和缓动曲线写下来，问自己：这真的需要动吗？",
+ "sources": [
+  {"label": "Emil Kowalski 的 X 个人资料", "url": "https://x.com/emilkowalski"},
+  {"label": "X：Vercel 面试经历（2026-10-22）", "url": "https://x.com/emilkowalski/status/2113282719174230440"},
+  {"label": "X：在 Linear 的最后一周（2026-10-21）", "url": "https://x.com/emilkowalski/status/2112878634746986947"},
+  {"label": "emilkowal.ski", "url": "https://emilkowal.ski"},
+  {"label": "animations.dev", "url": "https://animations.dev"},
+  {"label": "aiforui.dev", "url": "https://aiforui.dev"},
+  {"label": "GitHub：emilkowalski", "url": "https://github.com/emilkowalski"}
+ ]
+}

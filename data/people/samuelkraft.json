@@ -1,0 +1,362 @@
+{
+ "name": "Samuel Kraft",
+ "role": "Design Engineer @ Raycast（Glaze）· Shape Calendar 作者 · 斯德哥尔摩",
+ "title": "Samuel Kraft：用<em>一句话</em>排好一次训练",
+ "dek": "TA 是住在斯德哥尔摩的设计工程师，做设计和工程已经 13 年，转行做软件之前学的是摄影。TA 先后在音乐科技创业公司 Tracklib 和电商平台 Bitrefill 工作，现在在 Raycast，参与 ray.so 和桌面应用生成器 Glaze。TA 自己是耐力运动爱好者，2026 年发布了训练计划工具 Shape Calendar：输入「4x800m at threshold」，它就生成一份结构化训练，同步到 Apple Watch、Garmin 或 Wahoo。TA 说这是自己做过「最私人的项目」。",
+ "card": "Raycast 设计工程师（Glaze、ray.so）；Shape Calendar 作者；前 Tracklib、Bitrefill，斯德哥尔摩。",
+ "location": "瑞典斯德哥尔摩",
+ "updated": "2026-10-23",
+ "tags": [
+  "Design Engineering",
+  "Raycast",
+  "运动科技",
+  "Next.js",
+  "设计系统"
+ ],
+ "links": [
+  {
+   "label": "samuelkraft.com",
+   "url": "https://samuelkraft.com"
+  },
+  {
+   "label": "Shape Calendar",
+   "url": "https://shapecalendar.com"
+  },
+  {
+   "label": "Glaze",
+   "url": "https://www.glaze.app"
+  }
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I obsess over UI component api:s, design systems patterns, typography, and animations.」",
+  "<strong>代表作：</strong>Shape Calendar（Web + iOS）、Glaze by Raycast、ray.so（★2,365）、notion-blog-nextjs（★1,022）、Trail Routes、Raycast 的 RevenueCat 扩展。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 3,222 次；Shape 2026 年 4 月上架 App Store，起价每月 5 美元。",
+  "<strong>经历：</strong>摄影 → Tracklib → Bitrefill → Raycast。"
+ ],
+ "lead": "做过结构化训练的人都知道，在手表应用里一格一格填间歇、配速和心率区间有多痛苦。Samuel 在 Shape 里取消了「训练库」这个概念，因为新建一次训练只需要打一句话。TA 还给 Shape 接了 MCP：你可以让 Claude 或 ChatGPT 直接读取训练负荷，问它这周是不是练多了。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {
+     "t": "Profile",
+     "profile": [
+      [
+       "身份",
+       "设计工程师、独立产品作者"
+      ],
+      [
+       "所在地",
+       "瑞典斯德哥尔摩"
+      ],
+      [
+       "教育背景",
+       "转行软件前学摄影"
+      ],
+      [
+       "经历",
+       "Tracklib（音乐科技）→ Bitrefill（电商）→ Raycast"
+      ],
+      [
+       "产品",
+       "Shape Calendar、Glaze（团队成员）、ray.so"
+      ],
+      [
+       "技术栈",
+       "Next.js、TypeScript、Tailwind、Vanilla Extract、React Native、SwiftUI"
+      ]
+     ]
+    },
+    {
+     "h3": "TA 到底在做什么？"
+    },
+    {
+     "p": "在 Raycast，Samuel 是做 <strong>Glaze</strong> 的小团队一员。Glaze 让人用自然语言生成桌面应用，2026 年 7 月公开测试并登上 Product Hunt。TA 自己用它做过两个小应用：一个菜单栏小工具，显示家附近湖里的水温；一个叫 Shader 的应用，模拟任意地点和时间山体、楼房与树木的阴影，因为 TA 「特别迷恋傍晚的阳光」。"
+    },
+    {
+     "p": "业余时间 TA 做 Shape Calendar：周视图里排好跑步、骑行和游泳，看训练负荷、体能、疲劳和状态，同步到手表，再通过 MCP 让 AI Agent 分析每一次训练。"
+    },
+    {
+     "note": "本页依据 samuelkraft.com（首页与博客）、shapecalendar.com、App Store、GitHub 和 X 帖子整理，资料截至 2026 年 10 月。TA 在各公司的任职年份未公开。性别未见本人明确表述，本页用 TA。"
+    }
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {
+     "steps": [
+      {
+       "when": "早年",
+       "title": "摄影",
+       "text": "做软件之前学摄影。"
+      },
+      {
+       "when": "约 2013 起",
+       "title": "设计与工程",
+       "text": "在 Tracklib、Bitrefill 等公司做设计和前端。"
+      },
+      {
+       "when": "2021",
+       "title": "博客高产期",
+       "text": "写 Framer Motion、Notion API 博客、CSS 技巧等十几篇文章；开源 notion-blog-nextjs 和 Trail Routes。"
+      },
+      {
+       "when": "Raycast 时期",
+       "title": "ray.so 与 Glaze",
+       "text": "参与 ray.so；2026 年 7 月 Glaze 公开测试。"
+      },
+      {
+       "when": "2026",
+       "title": "Shape Calendar",
+       "text": "4 月上架 App Store，5 月正式发布；8 月推出 Today 页。"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {
+     "work": {
+      "name": "Shape Calendar",
+      "url": "https://shapecalendar.com",
+      "meta": [
+       "2026",
+       "Web + iOS",
+       "$5/月起"
+      ],
+      "paras": [
+       "给跑者、骑手和铁人三项运动员的训练计划工具。用自然语言创建结构化训练，追踪负荷，同步 Garmin、Apple Watch 和 Wahoo，通过 MCP 让 Claude 或 ChatGPT 回答关于训练的问题。8 月的更新加入了 Today 页：当天计划、准备度、负荷平衡、体能、疲劳和状态。"
+      ],
+      "facts": [
+       [
+        "App Store",
+        "2026-04-24 上架，v1.4.7"
+       ]
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "Glaze by Raycast",
+      "url": "https://www.glaze.app",
+      "meta": [
+       "2026",
+       "桌面应用生成器"
+      ],
+      "paras": [
+       "TA 在个人网站上写：「我是 Raycast 一个小团队的一员，我们在创造一种构建桌面应用的新方式。」"
+      ]
+     }
+    },
+    {
+     "work": {
+      "name": "notion-blog-nextjs",
+      "url": "https://github.com/samuelkraft/notion-blog-nextjs",
+      "meta": [
+       "2021",
+       "Next.js",
+       "★1,022"
+      ],
+      "paras": [
+       "Notion 公开 API 发布后最早的博客示例之一，配有一篇详细教程，至今仍有很多人参考。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "其他作品",
+       "说明"
+      ],
+      "rows": [
+       [
+        "ray.so",
+        "Raycast 的代码截图、AI 提示词与扩展图标工具（★2,365）"
+       ],
+       [
+        "Trail Routes",
+        "解析 GPX 并在 Mapbox 上展示跑步和徒步路线"
+       ],
+       [
+        "RevenueCat for Raycast",
+        "在 Raycast 里看 MRR、订阅和客户"
+       ],
+       [
+        "design-system",
+        "基于 Vanilla Extract 的设计系统起步模板"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {
+     "site": {
+      "url": "https://samuelkraft.com",
+      "paras": [
+       "首页是一段自述加项目卡片；联系方式里除了 X、邮箱、GitHub，还有 Strava。博客写 CSS、动画和设计系统，最近一篇是 2025 年底的《Using SF Pro Rounded with React Native》。",
+       "网站开源，技术栈写在 README 里：Next.js、TypeScript、Tailwind、Contentlayer/MDX、Fauna、Vercel。"
+      ]
+     }
+    },
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "观察"
+      ],
+      "rows": [
+       [
+        "技术",
+        "Next.js，开源（★484）"
+       ],
+       [
+        "内容",
+        "CSS、动画、设计系统"
+       ],
+       [
+        "节奏",
+        "2021 年高产，之后零星更新"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {
+     "posts": [
+      {
+       "date": "2025-12-10",
+       "title": "Using SF Pro Rounded with React Native",
+       "url": "https://samuelkraft.com/blog"
+      },
+      {
+       "date": "2022-12-16",
+       "title": "Using the Strava API with Next.js",
+       "url": "https://samuelkraft.com/blog"
+      },
+      {
+       "date": "2021-12-15",
+       "title": "Styling Radix UI with CSS",
+       "url": "https://samuelkraft.com/blog"
+      },
+      {
+       "date": "2021-06-10",
+       "title": "Responsive Animations with Framer Motion",
+       "url": "https://samuelkraft.com/blog"
+      }
+     ]
+    },
+    {
+     "quote": "Excited by delightful interfaces and building products that feel fast and human.",
+     "cite": "Samuel Kraft，samuelkraft.com"
+    }
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {
+     "table": {
+      "cols": [
+       "维度",
+       "长处",
+       "局限 / 需要留意"
+      ],
+      "rows": [
+       [
+        "产品",
+        "Shape 从自身需求出发，垂直且完整",
+        "订阅制，App Store 评分样本还很少"
+       ],
+       [
+        "工程",
+        "组件 API 与设计系统经验丰富",
+        "—"
+       ],
+       [
+        "写作",
+        "教程实用",
+        "近年更新少"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {
+     "checklist": [
+      "<strong>做你自己天天要用的东西：</strong>训练计划工具来自 TA 的跑步。",
+      "<strong>用自然语言替代表单：</strong>一句话就是一次训练。",
+      "<strong>让 AI 读你的数据：</strong>MCP 让产品直接接入 Agent。",
+      "<strong>跨界是优势：</strong>摄影训练出来的眼光可以带进界面。"
+     ]
+    },
+    {
+     "h3": "推荐先看这三个"
+    },
+    {
+     "try": [
+      {
+       "name": "Shape Calendar",
+       "url": "https://shapecalendar.com",
+       "why": "用一句话安排你的下一次训练。"
+      },
+      {
+       "name": "ray.so",
+       "url": "https://ray.so",
+       "why": "做一张漂亮的代码截图。"
+      },
+      {
+       "name": "samuelkraft.com/blog",
+       "url": "https://samuelkraft.com/blog",
+       "why": "读几篇 CSS 和动画小技巧。"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "cta": "想一想你最常重复填写的一个表单，能不能改成用一句话描述？",
+ "sources": [
+  {
+   "label": "Samuel Kraft 的 X 个人资料",
+   "url": "https://x.com/samuelkraft"
+  },
+  {
+   "label": "samuelkraft.com",
+   "url": "https://samuelkraft.com"
+  },
+  {
+   "label": "Shape Calendar",
+   "url": "https://shapecalendar.com"
+  },
+  {
+   "label": "App Store：Shape",
+   "url": "https://apps.apple.com/us/app/shape-training-planner/id6748612810"
+  },
+  {
+   "label": "GitHub：samuelkraft",
+   "url": "https://github.com/samuelkraft"
+  }
+ ]
+}

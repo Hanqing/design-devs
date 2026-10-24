@@ -1,0 +1,526 @@
+{
+ "handle": "aidenybai",
+ "sites": [
+  {
+   "url": "https://aidenybai.com/",
+   "ok": true,
+   "title": "Aiden Bai",
+   "description": "Tools, writing, & experiments for a faster web.",
+   "stack": [
+    "Next.js",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Aiden Bai \nI’m building Million . We build datasets that teach models to write great frontend code. \nAt 16, I created Million.js , a compiler that made React faster. It went viral (Fireship video) and I fell in love with open source. \nSince then I’ve built React Scan , React Grab , and React Doctor ( 45k GitHub stars ) . \nI’m on a mission to fix the web. It’s how great technology reaches everyone, and everything I build (old and new) comes back to that. \nI occasionally write . \nBackground lore \nI went to University of Washington in Seattle for 3 months. Then I dropped out to do Y Combinator (W24) \nIn high school, I was a part of Hack Club , my home away from home. I also participated in research competitions (ISEF '22 , '21) and won some awards (ACM SAC '23 Best Paper) . \nAlong the way, I've worked on (and shut down) on projects like Same and Million Lint . We grew to 400k+ users and millions of $ in revenue. \nContact \nHit me up @aidenybai or aiden@million.dev :) \nPhotos",
+   "github_links": [
+    "aidenybai",
+    "millionco"
+   ],
+   "subpages": {
+    "https://aidenybai.com/blog": "## Blog\n*   2026[Training CartPole on WebGPU Oct 2](https://aidenybai.com/blog/cartpole)\n*   [How to Demo Sep 12](https://aidenybai.com/blog/how-to-demo)\n*   [Agent Writing Guidelines Sep 11](https://aidenybai.com/blog/write)\n*   [ReactBench v1 Jul 15](https://www.reactbench.com/blog)\n*   [Goodbye 20 Jan 5](https://aidenybai.com/blog/21)\n*   2025[People I look up to Dec 17](https://aidenybai.com/blog/people-i-look-up-to)\n*   2023[Behind the block()Jun 1](https://old.million.dev/blog/behind-the-block)\n*   [Virtual DOM: Back in Block May 1](https://old.million.dev/blog/virtual-dom)"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "https://million.dev",
+   "ok": true,
+   "title": "Million",
+   "description": "Million builds open-source developer tools, datasets, and reinforcement learning environments to help people and frontier coding agents build a better web.",
+   "stack": [
+    "Next.js",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Inspect this page \n Moka · 101 KB · queued \nMillion Software, Inc. \nMillion is a research lab specializing in frontend coding data. \nWe build environments and evals for frontier coding agents. Inside them, agents do the work engineers do every day: ship features, deploy applications, and debug issues in codebases they've never seen. \nOne of these is React Bench , which scores coding agents on frontend work in real codebases. \nWe also open-source developer tools like React Doctor and React Scan . React Doctor has helped developers find issues in their codebases. \nWe believe the next generation of software will be built by agents, and we're working to make sure it's actually built well. \nBacked by Scott Wu , Amjad Masad , Evan You , David Cramer , Matt Biilmann , Sam Lambert , Nikita Shamgunov , Sahil Lavingia , Theo Browne , Koen Bok , John Pham , Ben Vinegar , Dane Knecht , Paul Klein IV , and Y Combinator (W24) . \nIf this resonates with you, reach out: [email protected] . \n Join us",
+   "github_links": [
+    "aidenybai",
+    "millionco"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "aidenybai",
+  "user": {
+   "name": "Aiden Bai",
+   "company": null,
+   "blog": "https://aidenybai.com",
+   "location": "sf",
+   "bio": "building @millionco  ",
+   "public_repos": 195,
+   "followers": 5831,
+   "created_at": "2018-04-03T03:08:03Z",
+   "twitter_username": "aidenybai",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "aidenybai/react-scan",
+    "description": "Scan and fix React performance issues",
+    "stargazers_count": 21872,
+    "forks_count": 392,
+    "language": "TypeScript",
+    "homepage": "https://react-scan.com",
+    "created_at": "2024-09-02T21:52:12Z",
+    "pushed_at": "2026-08-16T09:23:35Z",
+    "topics": [
+     "javascript",
+     "react",
+     "react-dom",
+     "react-scan",
+     "rendering"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/million",
+    "description": "Optimizing compiler for React",
+    "stargazers_count": 17657,
+    "forks_count": 594,
+    "language": "TypeScript",
+    "homepage": "https://old.million.dev/",
+    "created_at": "2021-05-29T18:38:23Z",
+    "pushed_at": "2026-05-20T16:10:55Z",
+    "topics": [
+     "best-practices",
+     "blockdom",
+     "compiler",
+     "hacktoberfest",
+     "memo",
+     "million",
+     "millionjs",
+     "optimization",
+     "optimize",
+     "performance",
+     "preact",
+     "react",
+     "react-hooks",
+     "react-optimize",
+     "renderer",
+     "rendering",
+     "virtual-dom"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/react-grab",
+    "description": "Copy any UI element for your agent",
+    "stargazers_count": 7678,
+    "forks_count": 341,
+    "language": "TypeScript",
+    "homepage": "https://react-grab.com",
+    "created_at": "2025-10-17T10:08:55Z",
+    "pushed_at": "2026-08-22T11:34:22Z",
+    "topics": [
+     "ai",
+     "coding",
+     "react",
+     "react-grab"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/bippy",
+    "description": "⚠️ hack into react internals",
+    "stargazers_count": 1433,
+    "forks_count": 40,
+    "language": "TypeScript",
+    "homepage": "bippy.dev",
+    "created_at": "2024-12-03T12:28:22Z",
+    "pushed_at": "2026-10-23T22:31:03Z",
+    "topics": [
+     "bippy",
+     "fiber",
+     "internal",
+     "react",
+     "reconciler"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/cnfast",
+    "description": "25× faster drop-in replacement for `cn`",
+    "stargazers_count": 1180,
+    "forks_count": 14,
+    "language": "TypeScript",
+    "homepage": "https://cn.aidenybai.com",
+    "created_at": "2026-06-19T19:46:29Z",
+    "pushed_at": "2026-09-01T23:41:38Z",
+    "topics": [
+     "clsx",
+     "cn",
+     "tailwindcss"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/pattycake",
+    "description": "Zero-runtime pattern matching",
+    "stargazers_count": 872,
+    "forks_count": 12,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2023-09-16T18:23:43Z",
+    "pushed_at": "2024-01-29T05:07:21Z",
+    "topics": [
+     "adt",
+     "match",
+     "match-with",
+     "matching",
+     "pattern",
+     "pattern-matching",
+     "switch",
+     "ts-pattern",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/lucia",
+    "description": "🙋‍♀️ 3kb library for tiny web apps",
+    "stargazers_count": 746,
+    "forks_count": 27,
+    "language": "TypeScript",
+    "homepage": "https://lucia.js.org",
+    "created_at": "2020-08-24T03:08:51Z",
+    "pushed_at": "2023-05-19T16:53:57Z",
+    "topics": [
+     "dom",
+     "hacktoberfest",
+     "javascript",
+     "lucia",
+     "luciajs",
+     "tiny",
+     "vue",
+     "vuejs"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "aidenybai/element-source",
+    "description": "Get the source file location of any DOM element. Works with React, Vue, Svelte, Solid, Preact",
+    "stargazers_count": 451,
+    "forks_count": 12,
+    "language": "TypeScript",
+    "homepage": "https://element-source.com",
+    "created_at": "2026-03-11T10:35:57Z",
+    "pushed_at": "2026-03-17T05:22:45Z",
+    "topics": [
+     "element-source",
+     "react",
+     "solid",
+     "source",
+     "svelte",
+     "vue"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/hundred",
+    "description": "precomputed virtual dom",
+    "stargazers_count": 442,
+    "forks_count": 17,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2021-09-16T16:21:55Z",
+    "pushed_at": "2023-06-13T08:46:34Z",
+    "topics": [
+     "block",
+     "block-virtual-dom",
+     "hundred",
+     "hundredjs",
+     "million",
+     "millionjs",
+     "react",
+     "tiny",
+     "vdom",
+     "virtual-dom"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/million-react",
+    "description": "⚛️ Vite starter for Million.js",
+    "stargazers_count": 421,
+    "forks_count": 10,
+    "language": "CSS",
+    "homepage": "https://stackblitz.com/github/aidenybai/million-react",
+    "created_at": "2022-05-31T17:08:43Z",
+    "pushed_at": "2023-04-12T19:42:28Z",
+    "topics": [
+     "compat",
+     "components",
+     "dom",
+     "hooks",
+     "jsx",
+     "million",
+     "preact",
+     "react",
+     "vdom",
+     "virtual-dom"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "aidenybai/reaict",
+    "description": "Optimize React with AI",
+    "stargazers_count": 138,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2023-09-16T20:53:14Z",
+    "pushed_at": "2023-11-14T23:55:15Z",
+    "topics": [
+     "automatic",
+     "javascript",
+     "optimize",
+     "performance",
+     "react",
+     "web"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/tailwind-stylex",
+    "description": "Bring Tailwind design system to StyleX",
+    "stargazers_count": 98,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-08-25T22:37:59Z",
+    "pushed_at": "2026-08-25T23:38:31Z",
+    "topics": [
+     "stylex",
+     "tailwindcss"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/ghast",
+    "description": "multitask with multiple terminals",
+    "stargazers_count": 72,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-03-17T11:14:19Z",
+    "pushed_at": "2026-03-23T04:43:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/hacky-js",
+    "description": "⚙️ Crank.js with tagged templates",
+    "stargazers_count": 49,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2021-08-06T21:11:34Z",
+    "pushed_at": "2022-03-06T10:13:41Z",
+    "topics": [
+     "component",
+     "crankjs",
+     "dom",
+     "fun",
+     "functional",
+     "javascript",
+     "million",
+     "react",
+     "ui-library",
+     "virtual-dom"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/dababy",
+    "description": ":trollface: Data binding so simple even DaBaby could do it!",
+    "stargazers_count": 42,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2021-03-29T17:53:19Z",
+    "pushed_at": "2025-05-12T23:14:05Z",
+    "topics": [
+     "alpine",
+     "dababy",
+     "dom",
+     "javascript",
+     "lucia",
+     "ui",
+     "vue"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "aidenybai/grumpy",
+    "description": "🔑 Painless key-value storage (deprecated)",
+    "stargazers_count": 38,
+    "forks_count": 10,
+    "language": "TypeScript",
+    "homepage": "https://grumpy.js.org/",
+    "created_at": "2019-01-19T00:36:01Z",
+    "pushed_at": "2021-05-16T18:56:18Z",
+    "topics": [
+     "array",
+     "better",
+     "easy",
+     "fast",
+     "group",
+     "grumpy",
+     "map",
+     "set",
+     "util",
+     "utility"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "aidenybai/snip",
+    "description": "✌️ The simple, no-bs link shortener",
+    "stargazers_count": 36,
+    "forks_count": 7,
+    "language": "TypeScript",
+    "homepage": "https://snip.ml",
+    "created_at": "2020-08-01T00:21:15Z",
+    "pushed_at": "2021-04-17T02:05:05Z",
+    "topics": [
+     "hacktoberfest",
+     "link",
+     "netlify",
+     "nodejs",
+     "shortener",
+     "snip",
+     "typescript",
+     "vue"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "aidenybai/yaps",
+    "description": "template repo for my web library projects",
+    "stargazers_count": 30,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-01-06T09:05:23Z",
+    "pushed_at": "2025-01-06T09:30:48Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 148,
+  "languages": [
+   [
+    "TypeScript",
+    48
+   ],
+   [
+    "JavaScript",
+    43
+   ],
+   [
+    "HTML",
+    10
+   ],
+   [
+    "CSS",
+    8
+   ],
+   [
+    "EJS",
+    3
+   ],
+   [
+    "Python",
+    2
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "Swift",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "aidenybai/react-scan",
+    "stargazerCount": 21872,
+    "description": "Scan and fix React performance issues",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://react-scan.com"
+   },
+   {
+    "nameWithOwner": "aidenybai/react-grab",
+    "stargazerCount": 7678,
+    "description": "Copy any UI element for your agent",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://react-grab.com"
+   },
+   {
+    "nameWithOwner": "millionco/react-doctor",
+    "stargazerCount": 15041,
+    "description": "Your agent writes bad React. This catches it",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://react.doctor"
+   },
+   {
+    "nameWithOwner": "aidenybai/million",
+    "stargazerCount": 17657,
+    "description": "Optimizing compiler for React",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://old.million.dev/"
+   },
+   {
+    "nameWithOwner": "aidenybai/bippy",
+    "stargazerCount": 1433,
+    "description": "⚠️ hack into react internals",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "bippy.dev"
+   },
+   {
+    "nameWithOwner": "aidenybai/cnfast",
+    "stargazerCount": 1180,
+    "description": "25× faster drop-in replacement for `cn`",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://cn.aidenybai.com"
+   }
+  ],
+  "contrib_last_year": 16314,
+  "orgs": [
+   "millionco"
+  ],
+  "profile_readme": "\n",
+  "readmes": {
+   "aidenybai/react-scan": "#  React Scan\n> **You can still use React Scan, but we recommend React Doctor**\n>\n> React Doctor brings React Scan’s performance focus to coding agents, with static checks for architecture, security, accessibility, and more. [Try React Doctor →](https://react.doctor)\nReact Scan automatically detects performance issues in your React app.\n- Requires no code changes -- just drop it in\n- Highlights exactly the components you need to optimize\n- Always accessible through a toolbar on page\n### Quick Start\n```bash\nnpx -y react-scan@latest init\n```\n### [**Try out a demo! →**](https://react-scan.million.dev)\n## Install\nThe `init` command will automatically detect your framework, install `react-scan` via npm, and set up your project.\n```bash\nnpx -y react-scan@latest init\n```\n### Manual Installation\nInstall the package:\n```bash\nnpm install -D react-scan\n```\nThen add the script tag to your app. Pick the guide for your framework:\n#### Script Tag\nPaste this before any scripts in your `index.html`:\n```html\n<!-- paste this BEFORE any scripts -->\n<script\n  crossOrigin=\"anonymous\"\n  src=\"//unpkg.com/react-scan/dist/auto.global.js\"\n></script>\n```\n#### Next.js (App Router)\nAdd this inside of your `app/layout.tsx`:\n```tsx\nimport Script from \"next/script\";\nexport default function RootLayout({ children }) {\n  return (\n    <html>\n      <head>\n        <Script\n          src=\"//unpkg.com/react-scan/dist/auto.global.js\"\n          crossOrigin=\"anonymous\"\n          strategy=\"beforeInteractive\"\n        />\n      </head>\n      <body>{children}</body>\n    </html>\n  );\n}\n```\n#### Next.js (Pages Router)\nAdd this into your `pages/_document.tsx`:\n```tsx\nimport { Html, Head, Main, NextScript } from \"next/document\";\nimport Script from \"next/script\";\nexport default function Document() {\n  return (\n    <Html lang=\"en\">\n      <Head>\n        <Script\n          src=\"//unpkg.com/react-scan/dist/auto.global.js\"\n          crossOrigin=\"anonymous\"\n          strategy=\"beforeInteractive\"\n        />\n      </Head>\n      <body>\n        <Main />\n        <NextScript />\n      </body>\n    </Html>\n  );\n}\n```\n#### Vite\nExample `index.html` with React Scan enabled:\n```html\n<!doctype html>\n<html lang=\"en\">\n  <head>\n    <scrip",
+   "aidenybai/react-grab": "#  React Grab\n[](https://npmjs.com/package/react-grab)\n[](https://npmjs.com/package/react-grab)\nCopy any UI element for your agent.\nReact Grab points agents to the actual source behind each selection. Agents are [**2× faster**](https://react-grab.com/benchmarks) and more accurate when using React Grab.\n[**Website →**](https://react-grab.com)\n## Quick Start\nRun this at your project root:\n```bash\nnpx grab@latest init\n```\n## How It Works\nReact Grab turns a browser selection into source context your agent can use:\n1. Hover any UI element in your app.\n2. Press **⌘C** or **Ctrl+C**.\n3. Paste the copied context into your agent.\nThe copied context includes the selected element and its component stack with source locations:\n```txt\n[<a class=\"ml-auto inline-block text-sm\" href=\"#\">Forgot your password?</a> in LoginForm (at components/login-form.tsx:46:19)]\n```\n## Manual Installation\nIf you cannot use the CLI, install React Grab manually for your framework:\n#### Next.js (App router)\nAdd this inside your `app/layout.tsx`:\n```jsx\nimport Script from \"next/script\";\nexport default function RootLayout({ children }) {\n  return (\n    <html>\n      <head>\n        {process.env.NODE_ENV === \"development\" && (\n          <Script\n            src=\"//unpkg.com/react-grab/dist/index.global.js\"\n            crossOrigin=\"anonymous\"\n            strategy=\"beforeInteractive\"\n          />\n        )}\n      </head>\n      <body>{children}</body>\n    </html>\n  );\n}\n```\n#### Next.js (Pages router)\nAdd this into your `pages/_document.tsx`:\n```jsx\nimport { Html, Head, Main, NextScript } from \"next/document\";\nexport default function Document() {\n  return (\n    <Html lang=\"en\">\n      <Head>\n        {process.env.NODE_ENV === \"development\" && (\n          <Script\n            src=\"//unpkg.com/react-grab/dist/index.global.js\"\n            crossOrigin=\"anonymous\"\n            strategy=\"beforeInteractive\"\n          />\n        )}\n      </Head>\n      <body>\n        <Main />\n        <NextScript />\n      </body>\n    </Html>\n  );\n}\n```\n#### Vite\nAdd this at the top of your main entry file (e.g., `src/main.tsx`):\n```tsx\nif (import.meta.env.DEV) {\n  import(\"react-grab\");\n}\n```\n#### Webpack\nFirst, install React Grab:\n```ba",
+   "millionco/react-doctor": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"./assets/react-doctor-readme-logo-dark.svg\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"./assets/react-doctor-readme-logo-light.svg\">\n</picture>\n[](https://npmjs.com/package/react-doctor)\n[](https://npmjs.com/package/react-doctor)\nReact Doctor runs deterministic checks on your code. It reports issues in state and effects, performance, architecture, security, accessibility, and maintainability.\nSupports React projects built with Next.js, Vite, Astro, TanStack, React Native, and Expo.\n[Documentation →](https://react.doctor/docs)\n## Install\n### 1. Run a scan\nRun this command from your project root:\n```bash\nnpx react-doctor@latest\n```\nhttps://github.com/user-attachments/assets/07cc88d9-9589-44c3-aa73-5d603cb1c570\n### 2. Install for agents\nInstall the skill to help your coding agent find and fix React issues:\n```bash\nnpx react-doctor@latest install\n```\nSupports coding agents including Claude Code, Cursor, Codex, and OpenCode.\n### 3. Run in CI\nScan each pull request and report the issues it introduces:\n```bash\nnpx react-doctor@latest ci install\n```\n[CI docs →](https://react.doctor/ci)\n### 4. Configure rules\nChoose rules and scan settings in `doctor.config.ts`.\nWith `customRulesOnly: true`, explicit `rules` settings of `\"warn\"` or `\"error\"`\nenable selected ported rules. Legacy rule names also work. Other ported rules and\nthe React Compiler plugin stay off.\n[Configuration docs →](https://react.doctor/docs/configuration/config-files)\n## Runtime performance traces\nRecord a Chrome DevTools performance trace while you interact with a running React app:\n```bash\nnpx react-doctor@latest scan http://localhost:3000\n```\n[Runtime trace docs →](https://react.doctor/docs/reference/cli-reference#runtime-performance-traces)\n## Telemetry\nThe CLI collects crash reports and anonymous usage data. See [Data use](https://react.doctor/docs/legal/data-use) for details.\nTo opt out, run: `npx react-doctor@latest --no-telemetry`\n## Contributing\n[Report an issue](https://github.com/millionco/react-doctor/issues)\nMIT-licensed\n",
+   "aidenybai/million": "> Want to **automatically find and fix performance issues**? Check out [Million Lint](https://million.dev/).\n<a href=\"https://million.dev\">\n</a>\n<div align=\"center\">\n  <a href=\"https://img.shields.io/github/actions/workflow/status/aidenybai/million/ci.yml?branch=main\" target=\"_blank\"></a>\n  <a href=\"https://www.npmjs.com/package/million\" target=\"_blank\"></a>\n    <a href=\"https://www.npmjs.com/package/million\" target=\"_blank\"></a>\n  <a href=\"https://discord.gg/X9yFbcV2rF\" target=\"_blank\"></a>\n<table>\n    <tbody>\n      <tr>\n        <td>\n          <a href=\"https://million.dev/docs/introduction\">📚 Read the docs</a>\n        </td>\n        <td>\n          <a href=\"https://www.youtube.com/watch?v=VkezQMb1DHw\">🎦 Watch video</a>\n        </td>\n        <td>\n          <a href=\"https://million.dev/chat\">💬 Join our Discord</a>\n        </td>\n        <td>\n          <a href=\"https://twitter.com/milliondotjs\">🌐 Follow on Twitter</a>\n        </td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n## What is Million.js?\nMillion.js is an extremely fast and lightweight optimizing compiler that make [components](https://react.dev) up to [_**70% faster**_](https://krausest.github.io/js-framework-benchmark/current.html).\n> Oh man... Another [`/virtual dom|javascript/gi`](https://regexr.com/6mr5f) framework? I'm fine with [React](https://reactjs.org) already, why do I need this?\nMillion.js works with React and makes reconciliation faster. By using a fine-tuned, optimized virtual DOM, Million.js reduces the overhead of diffing ([_try it out here_](https://demo.million.dev))\n**TL;DR:** Imagine [React](https://react.dev) components running at the speed of raw JavaScript.\n### [**👉 Setup Million.js in seconds! →**](https://million.dev/)\n## Installation\nThe Million.js CLI will automatically install the package and configure your project for you.\n```bash\nnpx million@latest\n```\nOnce your down, just run your project and information should show up in your command line!\n> Having issues installing? [**→ View the installation guide**](https://million.dev/docs/install)\n## Why Million.js?\nTo understand why to use Million.js, we need to understand how React updates interfaces. When an application's state or prop",
+   "aidenybai/bippy": "<h1>\n  bippy\n</h1>\n[](https://npmjs.com/package/bippy)\n[](https://npmjs.com/package/bippy)\nbippy hacks into React internals.\nReact keeps its internals out of reach. bippy opens them up for metaprogramming, letting you inspect the [Fiber](https://youtu.be/ZCuYPiUIONs) tree, track renders, and access the renderer directly.\n> [!WARNING]\n> ⚠️⚠️⚠️ **This project may break production apps and cause unexpected behavior.** ⚠️⚠️⚠️\n>\n> This project uses React internals, which can change at any time. We don’t recommend depending on them unless you have to. By proceeding, you acknowledge the risk of breaking your own code or apps that use your code.\n## Install bippy\nInstall bippy:\n```shell\nnpm install bippy\n```\nImport bippy before React or any React renderer.\n### Next.js\nNext.js 15.3 and later can load bippy through [`instrumentation-client.ts`](https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client). Create the file at the project root or in `src`:\n```typescript\nimport \"bippy\";\n```\n### Vite\nImport bippy at the top of your Vite entry point, before any React imports:\n```typescript\nimport \"bippy\";\nimport { StrictMode } from \"react\";\nimport { createRoot } from \"react-dom/client\";\n```\n### Hook-only install\nIf you only need the React DevTools global hook installed (without the rest of bippy's instrumentation), import the minimal entry point:\n```typescript\nimport \"bippy/install-hook-only\";\n```\n## API Reference\n### `getFiber`\nReturns the Fiber associated with a renderer host instance, such as an element from the Document Object Model (DOM). The result is `null` when no registered renderer recognizes the instance.\n```typescript\nimport { getFiber } from \"bippy\";\nconst element = document.querySelector(\"button\");\nconst fiber = getFiber(element);\n```\n`getFiberFromHostInstance` is an alias for `getFiber`.\n### `useFiber`\nReturns the calling component’s Fiber. During server rendering it returns `undefined` because there is no client Fiber for the component.\n```tsx\nimport { useFiber } from \"bippy\";\nconst Component = () => {\n  const fiber = useFiber();\n  console.log(fiber?.type);\n  return null;\n};\n```\n### `instrument`\nRegisters lifecycle handlers and returns an un"
+  }
+ },
+ "apps": []
+}

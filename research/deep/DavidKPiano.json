@@ -1,0 +1,384 @@
+{
+ "handle": "DavidKPiano",
+ "sites": [
+  {
+   "url": "https://stately.ai",
+   "ok": true,
+   "title": "Visual state machine editor and XState tools | Stately",
+   "description": "Visually design, simulate, and build state machines and statecharts. Turn application logic into executable XState code with the Stately editor.",
+   "stack": [
+    "Next.js",
+    "Plausible",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Turn ideas into diagrams and code in minutes. \nFrom frontend user flows to backend workflows, visually build and deploy any type of logic with Stately as your source of truth. \n Try the visual editor Book a demo \n Design how it works with a visual language for everyone on the team. \nOur drag and drop editor brings together contributors of all backgrounds. Code, diagrams, documentation, test generation, and more in one place. No more silos. Always up to date. \nAIs love helping at each phase with state machines to guide them, while humans use the visual editor to audit and enhance their work. \n Create flows with no code required . Rapidly prototype or gather requirements without worrying about technical details. \n Then simulate your design to test and iterate. You can even instantly try out a prototype as an auto-generated React app. \n Get feedback from your team and clients on how everything is supposed to work. \n Explore community diagrams to inspire your own solutions. Share your work with the community to get feedback and kudos. \n Generate flows with AI to scaffold behavior, suggest variants, turn up edge cases, and even write code. \n Build with executable diagrams and get the best of text-based and visual tools. \n Run diagrams using XState , a best-in-class open source library for orchestrating and managing state in JavaScript and TypeScript apps. No lock-in. \n Read XState docs View on Github \n Use XState on the frontend, backend, or wherever JavaScript runs . Integrations are available for React, Vue, Svelte, and other frameworks. \nXState uses event-driven programming, state machines, statecharts, and the actor model to handle even the most complex logic in predictable, robust, and visual ways . Learn more about statecharts \n Bidirectional updates between code and visualization let you use what makes you most productive. \n Automatically visualize Redux, Zustand, and other code to get the benefits of Stately in your codebase even without XState. \n An IDE extension brings the power of Stately into VS Code. Download the VS Code extension \n Generate React apps from diagrams to jumpstart product development. Keep iterating visually with the help of AI, or dive straight into the code to rapidly extend the scaffolding with your vision. \n Generate tests automatically to keep coverage robust and up-to-date. \n Export all of your generated code in Javascript or Typescript. \n Connect with Github to sync Stately with your codebase. \n Inspect running apps with Stately Inspector to help test, and debug your logic. \n Visualize communication between actors in your running app with sequence diagrams. \nProducts evolve. People are busy. \n Understand and stay aligned with Stately as the source of truth. \n Future proof your code with clear visualizations that are easy to return to and change later. Even years later. \n Living documentation keeps the whole team in sync without extra overhead. \n Save versions as backup and to see the history of your work. \n Export as markdown stories, Mermaid drawings, or JSON documents that can be copied into issues and project documents. \n Generate diagram summaries to get oriented quickly. \nLoved by teams \nAmy Pellegrini \n@ Thoughtworks \nEvery team where I introduced XState has been more effective at handling state management with complex user interfaces. It fills a gap in the JS ecosystem no other tool did before. \nNatalie Cuthbert \n@ Stitch \nWe've been using XState for our new payments product. Shout out to the team that is making designing complex front-end flows a dream. \nPatrick Cavit \n@ Netflix \nXState is a revelation. It makes complex tasks easier to build and debug while also making the code more straightforward and approachable. \nPresley Pizzo \n@ Coder \nXState naturally separates the logic and makes it simple to mock out API calls, so it's easier to test the code and organize it! \nJames Tharpe \n@ T-Mobile \nWe use XState to implement business workflows as statecharts. The visualizer helps us collaborate more closely with customers, the ability to externalize workflows as JSON configuration makes complex workflow changes surprisingly simple to roll out, and test case generation makes it easier than ever to move forward with confidence. XState makes it all possible! \nMaya Shavin \n@ Microsoft \nAdvantages of XState: Visually clear view of the code flow, code reusability, test coverage, easy to debug/ spot bugs, code scalability & maintenance, and better code design & planning. \nSanti Cros \n@ Domes",
+   "github_links": [
+    "statelyai"
+   ],
+   "subpages": {
+    "https://stately.ai/blog": "Search\n ⌘ K \n Docs API Studio Editor Discover Blog \n No, disabling a button is not app logic. \n XState: version 4.7 and the future \n Redux is half of a pattern (1/2) \n Redux is half of a pattern (2/2) \n How to tell a bad boolean from a good boolean \n State machines: How to stop making Horcruxes in your code \n “Just use props”: An opinionated guide to React and XState \n You don’t need a library for state machines \n What’s the difference between Machine and createMachine? \n Should this be a state, or in context? \n Should this be an action, or a service? \n Why I love invoked callbacks \n How to manage global state with XState and React \n useState vs useReducer vs XState - Part 1: Modals \n Introduction to state machines and statecharts \n How do you convince your teammates to use XState? \n What are the biggest benefits of state machines? \n Introducing: TypeScript typegen for XState \n Modelling 101: How to build a statechart from scratch \n Introducing: The XState CLI \n Open VSX XState VSCode extension now available \n Introducing the new Stately homepage \n Stately Changelog #1 - Snap To Elements \n Stately is hiring! \n Introducing the new Stately Roadmap \n Building a video player with XState and Stately tools \n What’s new in May 2022? \n What’s new in June 2022? \n Nesting XState typegen files \n What is XState used for? \n What’s new in July 2022? \n “Just Use Hooks”: XState in React Components \n What’s new in August 2022? \n XState + VS Code: xsm snippet \n “Goodbye, useEffect” at React Next conference \n Building a resizable panel \n Building a resizable panel: Part 2 \n What’s new in September 2022? \n Introducing Stately Studio 1.0 \n Learn the Stately Studio with our new video tutorials \n New: Safari support, new login providers, and more! \n New in the Studio: Import from code \n New in the Studio: Machine restore \n Stately Editor public beta \n Introducing the Stately docs \n What’s new for Stately in 2023 \n Import machines from GitHub \n Import all machines from your GitHub repo \n Book a demo with the Stately team \n Embed URL \n New default machine \n Track changes as you work with Version History \n Introducing ➡️ state . new \n Everything new since Stately Studio 1.0! \n Watch our “best Stately office hours yet” \n Watch in-depth demos in our Stately Streams \n Stately Studio minor improvements \n Explain your machines with annotations \n Context-aware search in the docs \n Announcing XState v5 beta \n Stately Studio minor improvements \n Stately Studio minor improvements \n Supercharge the canvas \n 25 new server-side workflow examples \n New webinar: Intro to Stately Studio and state machines \n Stately Studio minor improvements \n Export to Mermaid \n Improving your flows with color \n Stately Office Hours 68 \n Stately minor improvements \n Markdown in annotations, performance improvements, and more! \n And all the other improvements this week! \n Learn Stately with our new editor videos \n Export descriptions and meta fields, and even more improvements! \n The latest live streams "
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "davidkpiano",
+  "user": {
+   "name": "David Khourshid",
+   "company": "@statelyai",
+   "blog": "",
+   "location": "Orlando, FL",
+   "bio": null,
+   "public_repos": 185,
+   "followers": 4382,
+   "created_at": "2011-09-30T21:04:47Z",
+   "twitter_username": "davidkpiano",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "davidkpiano/react-redux-form",
+    "description": "Create forms easily in React with Redux.",
+    "stargazers_count": 2037,
+    "forks_count": 247,
+    "language": "JavaScript",
+    "homepage": "https://davidkpiano.github.io/react-redux-form",
+    "created_at": "2015-12-11T06:06:34Z",
+    "pushed_at": "2022-06-22T21:07:26Z",
+    "topics": [
+     "form",
+     "forms",
+     "react",
+     "redux"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "davidkpiano/flipping",
+    "description": "Flipping awesome animations.",
+    "stargazers_count": 1420,
+    "forks_count": 51,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2016-09-19T21:09:47Z",
+    "pushed_at": "2022-12-07T17:51:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/useEffectReducer",
+    "description": "useReducer + useEffect = useEffectReducer",
+    "stargazers_count": 804,
+    "forks_count": 26,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2020-04-07T18:04:16Z",
+    "pushed_at": "2026-10-16T13:56:59Z",
+    "topics": [
+     "hacktoberfest",
+     "hook",
+     "react",
+     "reducer",
+     "state"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/RxCSS",
+    "description": null,
+    "stargazers_count": 414,
+    "forks_count": 14,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-04-04T19:04:31Z",
+    "pushed_at": "2017-05-04T10:09:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/sassdash",
+    "description": "The Sass implementation of lodash.",
+    "stargazers_count": 391,
+    "forks_count": 20,
+    "language": "SCSS",
+    "homepage": "http://davidkpiano.github.io/sassdash",
+    "created_at": "2015-01-14T18:49:15Z",
+    "pushed_at": "2023-07-21T14:43:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/sass-svg",
+    "description": "Inline SVG for Sass.",
+    "stargazers_count": 311,
+    "forks_count": 17,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2015-09-15T23:26:06Z",
+    "pushed_at": "2018-06-28T13:37:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/frontend-masters-xstate-workshop",
+    "description": "Frontend Masters State Machines & XState Workshop",
+    "stargazers_count": 239,
+    "forks_count": 108,
+    "language": "JavaScript",
+    "homepage": "https://frontendmasters.com/courses/xstate/",
+    "created_at": "2020-05-10T00:48:51Z",
+    "pushed_at": "2023-01-09T02:58:46Z",
+    "topics": [
+     "workshop"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/frontend-masters-css",
+    "description": null,
+    "stargazers_count": 216,
+    "forks_count": 230,
+    "language": "SCSS",
+    "homepage": null,
+    "created_at": "2022-04-30T00:51:19Z",
+    "pushed_at": "2023-05-07T11:47:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/sassport",
+    "description": "Sass with JavaScript superpowers.",
+    "stargazers_count": 142,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-07-01T15:58:25Z",
+    "pushed_at": "2016-02-15T22:37:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/frontend-masters-xstate-v2",
+    "description": "Frontend Masters XState Workshop v2",
+    "stargazers_count": 139,
+    "forks_count": 86,
+    "language": "JavaScript",
+    "homepage": "https://frontendmasters.com/courses/xstate-v2/",
+    "created_at": "2021-10-04T14:09:19Z",
+    "pushed_at": "2022-12-02T18:33:51Z",
+    "topics": [
+     "workshop"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/frontend-masters-react-workshop",
+    "description": "Code for the Frontend Masters React State Modeling Workshop",
+    "stargazers_count": 135,
+    "forks_count": 84,
+    "language": "JavaScript",
+    "homepage": "https://frontendmasters.com/courses/xstate-react/",
+    "created_at": "2020-10-24T03:13:47Z",
+    "pushed_at": "2023-03-29T20:58:48Z",
+    "topics": [
+     "react",
+     "state",
+     "state-machine",
+     "state-management",
+     "workshop",
+     "xstate"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/nm8",
+    "description": "Ridiculously small animation library.",
+    "stargazers_count": 122,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2017-11-21T21:06:04Z",
+    "pushed_at": "2018-07-30T09:45:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/frontend-masters-state-workshop",
+    "description": null,
+    "stargazers_count": 120,
+    "forks_count": 107,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-05-24T15:47:35Z",
+    "pushed_at": "2025-09-24T13:21:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/react-simple-datepicker",
+    "description": "Simple datepicker for React.",
+    "stargazers_count": 116,
+    "forks_count": 29,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-06-06T13:46:27Z",
+    "pushed_at": "2015-11-07T14:24:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/xstate-test-demo",
+    "description": "Demo React project for model-based testing with @xstate/test",
+    "stargazers_count": 113,
+    "forks_count": 32,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-08-27T20:32:09Z",
+    "pushed_at": "2023-01-04T08:22:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/durable-entities-xstate",
+    "description": "XState + Durable Entities = 🚀",
+    "stargazers_count": 56,
+    "forks_count": 4,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2020-10-06T00:25:56Z",
+    "pushed_at": "2020-11-09T15:29:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/weatherboard",
+    "description": null,
+    "stargazers_count": 25,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://leaderboard.davidkpiano.partykit.dev",
+    "created_at": "2023-10-11T23:16:00Z",
+    "pushed_at": "2023-10-13T11:41:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "davidkpiano/xstate-react-workshop",
+    "description": "React Finland - Modeling React Applications with Statecharts Workshop",
+    "stargazers_count": 24,
+    "forks_count": 10,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-04-23T19:35:28Z",
+    "pushed_at": "2019-04-24T13:57:24Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 92,
+  "languages": [
+   [
+    "JavaScript",
+    32
+   ],
+   [
+    "TypeScript",
+    25
+   ],
+   [
+    "CSS",
+    12
+   ],
+   [
+    "SCSS",
+    3
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "PHP",
+    1
+   ],
+   [
+    "C#",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "statelyai/xstate",
+    "stargazerCount": 30349,
+    "description": "State machines, statecharts, and actors for complex logic",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://stately.ai/docs"
+   },
+   {
+    "nameWithOwner": "statelyai/agent",
+    "stargazerCount": 484,
+    "description": "Create state-machine-powered LLM agents using XState",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://stately.ai/docs/agents"
+   },
+   {
+    "nameWithOwner": "statelyai/xstate-viz",
+    "stargazerCount": 453,
+    "description": "Visualizer for XState machines",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://stately.ai/viz"
+   },
+   {
+    "nameWithOwner": "davidkpiano/flipping",
+    "stargazerCount": 1420,
+    "description": "Flipping awesome animations.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "davidkpiano/useEffectReducer",
+    "stargazerCount": 804,
+    "description": "useReducer + useEffect = useEffectReducer",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "statelyai/xstate-python",
+    "stargazerCount": 199,
+    "description": "XState for Python",
+    "primaryLanguage": {
+     "name": "Python"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 6398,
+  "orgs": [
+   "statelyai"
+  ],
+  "profile_readme": "Hi, I'm [David Khourshid](http://davidk.dev/), the founder of [stately.ai](https://stately.ai).\n",
+  "readmes": {
+   "statelyai/xstate": "<p align=\"center\">\n  <br />\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/statelyai/public-assets/main/logos/xstate-logo-white-nobg.svg\">\n  </picture>\n  <br />\n    <strong>Actor-based state management & orchestration for complex app logic.</strong> <a href=\"https://stately.ai/docs\">→ Documentation</a>\n  <br />\n  <br />\n</p>\nXState is a state management and orchestration solution for JavaScript and TypeScript apps. It has _zero_ dependencies, and is useful for frontend and backend application logic.\nIt uses event-driven programming, state machines, statecharts, and the actor model to handle complex logic in predictable, robust, and visual ways. XState provides a powerful and flexible way to manage application and workflow state by allowing developers to model logic as actors and state machines.\n### ✨ Create state machines visually in Stately Studio → [state.new](https://state.new)\n---\n📖 [Read the documentation](https://stately.ai/docs)\n➡️ [Create state machines with the Stately Editor](https://stately.ai/editor)\n🖥 [Download our VS Code extension](https://marketplace.visualstudio.com/items?itemName=statelyai.stately-vscode)\n📑 Inspired by the [SCXML specification](https://www.w3.org/TR/scxml/)\n💬 Chat on the [Stately Discord Community](https://discord.gg/xstate)\n✍️ Browse through the many [XState examples](https://github.com/statelyai/xstate/tree/main/examples)\n## Which package should I use?\nPick based on what you need:\n<!-- package choices from packages/xstate-store/src/index.ts -->\n- **[`@xstate/store`](#xstate-store)**: simple event-based state management and reactive atoms, with great TypeScript inference, similar in spirit to Redux/Zustand. Start here if you just need a store.\n- **[`xstate`](#super-quick-start)**: state machines, statecharts, actors, effects, and orchestration for complex app logic.\nThey work great together, but you don't need one to use the other.\n## Sponsors\nSpecial thanks to the sponsors who support this open-source project:\n## Templates\nGet started by forking one of these templates on CodeSandbox:\n<table>\n<thead>\n<tr><th>Template</th><th></th></tr>\n</thead>\n<tbody>\n<tr>\n<td>\n[🤖 XState",
+   "statelyai/agent": "# Stately Agent\n**Make invalid agent actions impossible.**\nAgent logic as state machines: deterministic, inspectable, resumable, runs anywhere. The machine owns control flow; the model only ever picks a legal event. Testing, inspection, and visualization fall out for free.\nStately Agent adds model requests and decisions to XState:\n- The machine defines what the agent can do.\n- Your application chooses the model, runs the requests, and stores the state.\n- The model proposes an event; the machine decides whether it is allowed and what happens next.\nEnvironment and policy:\n- The environment is code you own and can verify; the policy is something a model can write inside it.\n- The environment holds the rules and invariants as TypeScript states and guards, fixed and checked with `canReach`.\n- The policy is a JSON machine a model can author and improve from traces, gated before it runs and promoted only on a measured gain. See [Environment and policy](docs/environment-and-policy.md).\nStately Agent 2 is in alpha. APIs may change before the stable release.\n[Documentation](https://stately.ai/docs/packages/agent) · [Examples](examples/README.md) · [XState](https://github.com/statelyai/xstate)\n## Four starting points\n- **Author a new agent.** Build a machine from states, decisions, and typed requests; run it locally with `runAgent`, test it with no API key, then use it in any framework or runtime with zero machine changes. See the [Quickstart](docs/quickstart.md) and [Use in any stack](docs/any-stack.md).\n- **Retrofit an existing agent.** Turn a `while` loop into a machine: your SDK calls, tools, and retry code become the executors; the machine replaces only the control flow. See [Migrating from a hand-rolled loop](docs/from-a-loop.md).\n- **Copy a known pattern.** ReAct, reflection, plan-and-execute, RAG, supervisor, and more, each a single runnable file you lift in 60 seconds. See [Agent patterns](docs/patterns.md).\n- **Let an agent improve its own logic.** Keep the rules in a fixed TypeScript environment and let a model rewrite the JSON policy inside it, gated by `verifyAgentConfig` and promoted only when held-out scenarios improve. See [Environment and policy](docs/envi",
+   "statelyai/xstate-viz": "# XState (Legacy) Visualizer\nVisualize [XState](https://stately.ai/docs/xstate) state machines and statecharts in real-time.\n[🪄 Use the new Stately visual editor](https://state.new?source=viz-readme)\n[🔗 Use the legacy Visualizer](https://stately.ai/viz).\n## Usage\n[Visit stately.ai/viz to use the Visualizer](https://stately.ai/viz?source=viz-readme).\nAlternatively, you can install it locally (see installation)\n## Features\n- Create XState machines in JavaScript or TypeScript right in the visualizer\n- Simulate machines visually by clicking on events\n- Pan and zoom into the visualized machine\n- View current machine state\n- View list of events sent to the simulated machine\n- Access quick features via the command palette: <kbd>cmd</kbd>/<kbd>ctrl</kbd> + <kbd>k</kbd>\n- Inspect machines by setting `url: 'https://stately.ai/viz?inspect'` in `@xstate/inspect`\n## Installation\n1. Clone this GitHub repo\n1. Run `yarn install`\n1. Run `yarn start` and visit [localhost:3000/viz](http://localhost:3000/viz)\n## Releases\nhttps://www.loom.com/share/5357e00577e64387b45de8ee65cb3805\n",
+   "davidkpiano/flipping": "# Flipping\nA library (and collection of adapters) for [implementing FLIP transitions](https://css-tricks.com/animating-layouts-with-the-flip-technique/).\nFor more information about the FLIP technique, view the flipping slides:\n- [CSS Dev Conf 2017](https://slides.com/davidkhourshid/flipping)\n- [CSSConf AU 2018](https://slides.com/davidkhourshid/illusions)\n## Examples\n- https://codepen.io/davidkpiano/pen/xLKBpM\n- https://codepen.io/davidkpiano/pen/vmXErw\n- https://codepen.io/davidkpiano/pen/xPVJwm\n- https://codepen.io/davidkpiano/pen/RjaBpW\n- https://codepen.io/davidkpiano/pen/zWrRye\n## Installation\n```\nnpm install flipping@latest --save\n```\nOr grab the files directly:\n- https://unpkg.com/flipping@latest/dist/flipping.js (core)\n- https://unpkg.com/flipping@latest/dist/flipping.web.js (WAAPI adapter)\n- 🔜 https://unpkg.com/flipping@latest/dist/flipping.css.js (CSS adapter - WIP!)\n## Quick Start\nIn your HTML, add the `data-flip-key=\"...\"` attribute to shared elements (see HTML example below).\n```js\nimport Flipping from 'flipping';\nconst flipping = new Flipping();\n// Before a layout change happens\nflipping.read();\n// Any effect that changes the layout\ndoSomething(); \n// After a layout change happens\n// With an adapter, this will start the FLIP animation\nflipping.flip();\n```\n```html\n<!-- first view -->\n<section class=\"gallery\">\n  <div class=\"photo-1\" data-flip-key=\"photo-1\">\n  </div>\n  <div class=\"photo-2\" data-flip-key=\"photo-2\">\n  </div>\n  <div class=\"photo-3\" data-flip-key=\"photo-3\">\n  </div>\n</section>\n<!-- second view -->\n<section class=\"details\">\n  <div class=\"photo\" data-flip-key=\"photo-1\">\n  </div>\n  <p class=\"description\">\n    Lorem ipsum dolor sit amet...\n  </p>\n</section>\n```\n## API\n### `new Flipping(options?)`\nCreates a new `Flipping` instance. This is the thing that keeps track of all the changes made, and determines if any elements changed positions or size.\n**Parameters for `options`**\nFor greater control and custom animations, you can pass in the following parameters (all optional):\n-  `selector?: (parent: Element) => Element[];` - Selects all \"flippable\" elements. Defaults to all elements that have a `[data-flip-key]` attribute.\n-  `activeSelector: (e",
+   "davidkpiano/useEffectReducer": "# useEffectReducer\nA React hook for managing side-effects in your reducers.\nInspired a looooong time ago by the [`useReducerWithEmitEffect` hook idea](https://gist.github.com/sophiebits/145c47544430c82abd617c9cdebefee8) by Sophie Alpert.\nIf you know how to `useReducer`, you already know how to `useEffectReducer`.\n## Table of Contents\n- [Installation](#installation)\n- [Quick Start](#quick-start)\n- [Named Effects](#named-effects)\n- [Effect Implementations](#effect-implementations)\n- [Initial Effects](#initial-effects)\n- [Effect Entities](#effect-entities)\n- [Effect Cleanup](#effect-cleanup)\n- [Replacing Effects](#replacing-effects)\n- [String Events](#string-events)\n- [API](#api)\n  - [`useEffectReducer` hook](#useeffectreducer-hook)\n  - [`exec(effect)`](#execeffect)\n  - [`exec.stop(entity)`](#execstopentity)\n  - [`exec.replace(entity, effect)`](#execreplaceentity-effect)\n- [TypeScript](#typescript)\n## Installation\n```bash\nnpm install use-effect-reducer\n```\n```js\nimport { useEffectReducer } from 'use-effect-reducer';\n```\n## Quick Start\nAn effect reducer takes 3 arguments:\n1. `state` - the current state\n2. `event` - the event that was dispatched\n3. `exec` - a function that captures effects to be executed and returns an [effect entity](#effect-entities)\n```js\nimport { useEffectReducer } from 'use-effect-reducer';\nconst countReducer = (state, event, exec) => {\n  switch (event.type) {\n    case 'INC':\n      exec(() => {\n        console.log('Going up!');\n      });\n      return {\n        ...state,\n        count: state.count + 1,\n      };\n    default:\n      return state;\n  }\n};\nconst App = () => {\n  const [state, dispatch] = useEffectReducer(countReducer, { count: 0 });\n  return (\n    <div>\n      <output>Count: {state.count}</output>\n      <button onClick={() => dispatch('INC')}>Increment</button>\n    </div>\n  );\n};\n```\n## How It Works\nInternally, `useEffectReducer` abstracts this pattern:\n```js\nconst myReducer = ([state], event) => {\n  const effects = [];\n  const exec = (effect) => effects.push(effect);\n  const nextState = // calculate next state\n  return [nextState, effects];\n};\nconst [[state, effects], dispatch] = useReducer(myReducer);\nuseEffect(() => {\n  effects.forEac"
+  }
+ },
+ "apps": []
+}

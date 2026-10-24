@@ -1,0 +1,160 @@
+{
+ "name": "Devon Govett",
+ "role": "Parcel、Lightning CSS 作者 · Adobe 工程师（React Aria、React Spectrum）· PDFKit、fontkit 作者 · 旧金山",
+ "title": "Devon Govett：零配置，<em>极快</em>",
+ "dek": "他是零配置 Web 构建工具 Parcel 的作者（★4.4 万），也是用 Rust 写的 CSS 解析、转换、打包和压缩工具 Lightning CSS 的作者（★7.7 千），一丝等人也是 Lightning CSS 的核心成员。在 Adobe，他参与 React Aria 和 React Spectrum：一套帮助开发者构建自适应、无障碍、稳健体验的 React 库，React Aria 的组件被大量网站和组件库采用。更早之前，他写了 Node 和浏览器通用的 PDF 生成库 PDFKit（★1.1 万）、字体引擎 fontkit 和 JavaScript 音频解码框架 Aurora.js。2026 年他在为 Parcel v3 设计新的打包算法，并发布了完全用 CSS 滚动吸附实现手势的 React Aria Sheet 组件。",
+ "card": "Parcel（★4.4 万）、Lightning CSS 作者；Adobe React Aria / React Spectrum 工程师；PDFKit、fontkit 作者，旧金山。",
+ "location": "美国旧金山",
+ "updated": "2026-10-23",
+ "tags": ["构建工具", "CSS", "Rust", "无障碍", "React"],
+ "links": [
+  {"label": "Parcel", "url": "https://parceljs.org"},
+  {"label": "Lightning CSS", "url": "https://lightningcss.dev"},
+  {"label": "React Aria", "url": "https://react-aria.adobe.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Creator of @parceljs and @lightningcss. Engineer @adobe working on React Aria and React Spectrum.」",
+  "<strong>代表作：</strong>Parcel（★44,005）、React Spectrum / React Aria（★15,978）、PDFKit（★10,722）、Lightning CSS（★7,714）、regexgen（★3,425）、fontkit（★1,677）、Aurora.js、glob-match、tree-sitter-highlight、napi-wasm。",
+  "<strong>关键数字：</strong>GitHub 239 个公开仓库、粉丝约 3,900；X 帖子约 5.8 万条。",
+  "<strong>Parcel 里程碑：</strong>2021 年 10 月发布 Parcel 2；2022 年推出 Parcel CSS（即 Lightning CSS）；2026 年开发 v3 打包算法。"
+ ],
+ "lead": "2026 年 9 月，Devon 发帖介绍 Parcel v3 的新打包算法：在一个有 450 个页面的网站上，和 v2 相比，每个页面的 HTTP 请求少了 64%，传输字节少了 10%，CSS 顺序也正确了。同一个月，他用 Astra 在一个小时里搭好了 Lightning CSS 的 Web Platform Tests 测试框架，从浏览器引擎使用的同一套测试里抽出两万四千多个 CSS 解析用例。他说这件事他想做了好几年，一直没时间。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、开源作者"],
+     ["所在地", "美国旧金山"],
+     ["工作", "Adobe：React Aria、React Spectrum"],
+     ["开源", "Parcel、Lightning CSS、PDFKit、fontkit、Aurora.js、regexgen"],
+     ["技术栈", "JavaScript、TypeScript、Rust、C++"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Devon 同时推动两件事：<strong>让构建工具更快、更省心</strong>，以及<strong>让组件天生无障碍</strong>。Parcel 的口号是「a build tool for the rest of us」：从开始一个项目、迭代调试到发布，「不用再折腾配置」。Lightning CSS 用 Rust 写成，解析和压缩大文件只要几毫秒。"},
+    {"p": "React Aria 则把无障碍和交互细节封装好：最近的 NavigationTree 组件支持方向键移动、展开折叠、Tab 进入操作按钮；新的 Sheet 组件的滑动手势完全用 CSS 滚动吸附和视图时间线实现，「没有任何 JS 手势处理或动画」，所以能得到和原生一致的高帧率惯性与弹性。他度假订营地时，发现 recreation.gov 用的正是 React Aria 的日期选择器。"},
+    {"note": "本页依据 parceljs.org、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他加入 Adobe 的时间和更早的工作经历未在公开资料中写明。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011–2014", "title": "早期 JS 库", "text": "PDFKit、Aurora.js 音频解码、slang 字符串工具、node-wkhtmltopdf、blob-stream。"},
+     {"when": "2013", "title": "Reader", "text": "Google Reader 关闭时，写了一个 API 兼容的替代品。"},
+     {"when": "2016", "title": "regexgen", "text": "根据一组字符串自动生成匹配它们的正则表达式。"},
+     {"when": "2017–2021", "title": "Parcel", "text": "发布零配置构建工具，2021 年 10 月推出 Parcel 2。"},
+     {"when": "2022", "title": "Lightning CSS", "text": "以 Parcel CSS 之名发布 Rust 版 CSS 工具，后改名 Lightning CSS。"},
+     {"when": "2024–2026", "title": "React Aria 与 Parcel v3", "text": "RSC 与宏插件；React Aria 新组件；Parcel v3 打包算法。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Parcel", "url": "https://parceljs.org",
+     "meta": ["2017–", "JavaScript + Rust", "★4.4 万"],
+     "paras": [
+      "「The zero configuration build tool for the web.」JavaScript、CSS、HTML、TypeScript、React、图片、Vue、Elm、WebGL、MDX……开箱即用，架构可以从小项目一路扩展到大型生产应用。"
+     ],
+     "facts": [["GitHub", "★44,005"]]
+    }},
+    {"work": {
+     "name": "Lightning CSS", "url": "https://lightningcss.dev",
+     "meta": ["2022–", "Rust", "★7.7 千"],
+     "paras": [
+      "「An extremely fast CSS parser, transformer, bundler, and minifier written in Rust.」可以搭配 Parcel，也可以单独作为库、命令行或其他工具的插件使用。"
+     ]
+    }},
+    {"work": {
+     "name": "React Aria", "url": "https://react-aria.adobe.com",
+     "meta": ["Adobe", "无障碍组件"],
+     "paras": [
+      "React Spectrum 是 Adobe 设计系统 Spectrum 的 React 实现；React Aria 提供底层的无障碍行为和交互，样式完全交给使用者。shadcnblocks 等组件库已全面支持 React Aria。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["PDFKit", "Node 和浏览器的 PDF 生成库（★10,722）"],
+      ["fontkit", "Node 和浏览器的高级字体引擎"],
+      ["regexgen", "从字符串集合生成正则（★3,425）"],
+      ["glob-match", "Rust 写的极快 glob 匹配"],
+      ["tree-sitter-highlight", "Rust 实现的 Node 语法高亮"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://parceljs.org", "paras": [
+     "Devon 的 X 主页链接到 Parcel 官网。官网首页列出 Parcel 支持的所有资源类型，展示「Server running at http://localhost:1234 ✨ Built in 48ms」的终端输出；博客记录了 Parcel 2 从 alpha 到正式版，以及 2.4 到 2.15 的版本更新。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "无，链接到 Parcel"],
+      ["项目博客", "parceljs.org/blog"],
+      ["表达", "X 上分享 React Aria 与 Parcel 进展"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "this is entirely built with CSS scroll snapping and view timelines – no JS gesture handling or animations.", "cite": "Devon Govett，X，2026-10（React Aria Sheet）"},
+    {"p": "他的思路是尽量交给浏览器：能用 CSS 做的手势就不用 JS，能用标准测试验证的解析就去跑标准测试。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["工具", "Parcel、Lightning CSS 性能与体验出色", "构建工具市场竞争激烈"],
+      ["无障碍", "React Aria 细节扎实", "—"],
+      ["开源", "作品跨度大、影响广", "部分早期库维护较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>零配置是一种设计。</strong>",
+     "<strong>关键路径用 Rust 重写。</strong>",
+     "<strong>无障碍要做到组件底层。</strong>",
+     "<strong>能交给浏览器的就交给浏览器。</strong>",
+     "<strong>用标准测试套件验证你的实现。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Parcel", "url": "https://parceljs.org", "why": "零配置跑起一个项目。"},
+     {"name": "Lightning CSS", "url": "https://lightningcss.dev", "why": "压缩你的 CSS。"},
+     {"name": "React Aria", "url": "https://react-aria.adobe.com", "why": "用无障碍的底层组件搭界面。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用键盘（不用鼠标）走一遍你产品的主要流程，记下所有卡住的地方。",
+ "sources": [
+  {"label": "Devon Govett 的 X 个人资料", "url": "https://x.com/devongovett"},
+  {"label": "Parcel", "url": "https://parceljs.org"},
+  {"label": "GitHub：parcel-bundler/parcel", "url": "https://github.com/parcel-bundler/parcel"},
+  {"label": "GitHub：parcel-bundler/lightningcss", "url": "https://github.com/parcel-bundler/lightningcss"},
+  {"label": "GitHub：adobe/react-spectrum", "url": "https://github.com/adobe/react-spectrum"},
+  {"label": "GitHub：devongovett", "url": "https://github.com/devongovett"}
+ ]
+}

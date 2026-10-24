@@ -1,0 +1,168 @@
+{
+ "name": "Steph Ango（kepano）",
+ "role": "Obsidian CEO · Minimal 主题、Flexoki、Defuddle、Web Clipper 作者 · 前 Lumi、Inkodye 联合创始人",
+ "title": "Steph Ango：<em>文件优先于应用</em>",
+ "dek": "他从 Obsidian 的用户和社区贡献者做起，写出了最受欢迎的 Obsidian 主题 Minimal，还参与了 Obsidian 1.0 的界面工作。2023 年 2 月，他成为 Obsidian 的 CEO。在这之前，他联合创办过用阳光显影的织物染料 Inkodye，以及包装定制公司 Lumi（2021 年被收购）。他写的文章《File over app》几乎成了 Obsidian 的宣言：如果你想让自己创造的东西长久存在，它们必须是你能控制的、易于读取的文件格式。他还做了网页正文提取库 Defuddle、墨水般温暖的配色 Flexoki、给 AI Agent 用的 Obsidian Skills，以及 2026 年 10 月发布、比 mermaid.js 快 100 到 500 倍的图表渲染库 Pele。",
+ "card": "Obsidian CEO；Minimal 主题、Flexoki、Defuddle、Obsidian Skills（★5 万）、Pele 作者；《File over app》。",
+ "location": "未公开（X 写着 Earth）",
+ "updated": "2026-10-23",
+ "tags": ["Obsidian", "笔记工具", "文件优先", "设计", "写作"],
+ "links": [
+  {"label": "stephango.com", "url": "https://stephango.com"},
+  {"label": "Obsidian", "url": "https://obsidian.md"},
+  {"label": "File over app", "url": "https://stephango.com/file-over-app"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I’m Steph. You may also know me as kepano, currently the CEO of Obsidian. Previously I co-founded Lumi and Inkodye.」",
+  "<strong>代表作：</strong>obsidian-skills（★49,982）、Defuddle（★9,772）、Minimal 主题（★5,449，获 Obsidian 官方最佳主题奖）、个人仓库模板（★4,672）、Flexoki（★3,716）、40 Questions（★1,693）、Pele 图表渲染库、Obsidian Web Clipper 模板。",
+  "<strong>关键数字：</strong>X 关注者约 12.6 万；GitHub 近一年贡献 4,821 次。",
+  "<strong>代表文章：</strong>《File over app》《100% user-supported》《Quality software deserves your hard-earned cash》《How I use Obsidian》《Evergreen notes》《40 questions》。"
+ ],
+ "lead": "Steph 在 X 上发过一条简短的帖子：「如果我看起来做了很多事，主要是因为我没有会议。」一周前，他刚发布了自己写的图表渲染库 Pele：兼容最新的 Mermaid 语法，比 mermaid.js 快 100 到 500 倍，体积小 6 倍，没有依赖，连 logo 里的女神都是他自己画的。一个公司的 CEO 同时在写渲染库、画 logo、维护主题，这在 Obsidian 很正常，因为这家公司「100% 由用户支持」，没有风投。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "Obsidian CEO、设计师、开发者、写作者"],
+     ["经历", "Inkodye 联合创始人 → Lumi 联合创始人（2021 年被收购）→ Obsidian 社区贡献者 → Obsidian CEO（2023.02–）"],
+     ["开源", "Minimal、Flexoki、Defuddle、obsidian-skills、Pele、Hider、Web Clipper 模板"],
+     ["理念", "File over app；100% user-supported；不收集用户数据"],
+     ["技术栈", "TypeScript、CSS、Markdown 与开放格式（Bases、JSON Canvas）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "作为 CEO，Steph 的工作是让 Obsidian <strong>保持私密、灵活、属于用户</strong>：笔记就是本地的 Markdown 文件，任何应用都能打开；Obsidian 不收集使用数据。他在 2026 年 9 月写道，Obsidian 2020 年起步时的差异化是「链接」，也就是相互连接的笔记；如今它也是让 AI Agent 读写你知识库的地方，这正是 obsidian-skills 的用途：教 Agent 使用 Obsidian 命令行和 Markdown、Bases、JSON Canvas 等开放格式。"},
+    {"p": "作为个人，他做了大量「给文件用的工具」：Defuddle 从任何网页提取干净的 Markdown，是 Obsidian 网页剪藏插件的基础；Flexoki 是「为散文和代码设计的墨水配色」，灵感来自模拟印刷油墨和暖色纸张，已被移植到几十个编辑器和终端。"},
+    {"note": "本页依据 stephango.com（About、Now、文章）、GitHub 仓库与 README、维基百科 Obsidian 条目和 X 帖子整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "Inkodye 与 Lumi", "text": "联合创办阳光显影染料 Inkodye 和定制包装公司 Lumi；Lumi 于 2021 年被收购。"},
+     {"when": "2019", "title": "40 Questions", "text": "公开每年年底问自己的 40 个问题。"},
+     {"when": "2020", "title": "Minimal 主题", "text": "为 Obsidian 发布 Minimal 主题及设置插件、Hider 插件。"},
+     {"when": "2022", "title": "Obsidian 1.0", "text": "参与 1.0 版本的设计与社区工作。"},
+     {"when": "2023", "title": "出任 CEO", "text": "2 月加入 Obsidian 任 CEO；7 月写《File over app》；推出 Flexoki 和个人仓库模板。"},
+     {"when": "2024–2025", "title": "Web Clipper 与 Defuddle", "text": "Obsidian Web Clipper 与 Defuddle 正文提取库。"},
+     {"when": "2026", "title": "Skills 与 Pele", "text": "1 月开源 obsidian-skills；10 月发布图表渲染库 Pele。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Obsidian", "url": "https://obsidian.md",
+     "meta": ["2020–", "笔记应用", "CEO"],
+     "paras": [
+      "基于本地 Markdown 文件的个人知识库，桌面和移动端都有，没有网页版。个人和商业使用免费，同步、发布等云服务收费。维基百科引用 2023 年《Fast Company》的报道称，Obsidian 估计约有一百万用户。"
+     ]
+    }},
+    {"work": {
+     "name": "Pele", "url": "https://pele.run",
+     "meta": ["2026", "图表渲染"],
+     "paras": [
+      "兼容最新 Mermaid 语法的图表渲染库：比 mermaid.js 快 100 到 500 倍，包体小 6 倍，零依赖，易于定制主题，支持响应式。发布帖收获了一万一千多个赞。"
+     ]
+    }},
+    {"work": {
+     "name": "Defuddle", "url": "https://defuddle.md",
+     "meta": ["2025–", "TypeScript", "★9.8 千"],
+     "paras": [
+      "「de·fud·dle：去掉网页上不必要的元素，让它易于阅读。」移除评论、侧栏、页头页脚，只留下正文和元数据，并输出 Markdown。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["obsidian-skills", "遵循 Agent Skills 规范，可用于 Claude Code、Codex、OpenCode（★49,982）"],
+      ["Minimal", "专注、可高度定制的 Obsidian 主题"],
+      ["Flexoki", "墨水与纸张风格的配色方案"],
+      ["kepano-obsidian", "他个人的「自下而上」笔记库模板"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://stephango.com", "paras": [
+     "网站极简：最新一篇文章、一排话题标签（建议、AI、默认值、设计、常青、习惯、杠杆、极简、完美主义、仪式……）和按年份排列的文章。文章大多很短，一分钟就能读完，比如最新的《Use the saw, fear the saw》只有一句核心：「很难做一把能锯树但不伤手臂的锯子。」",
+     "Now 页写着他现在在做什么：「设计更好的思想处理工具」。他还公开了自己的菜谱。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Netlify，Plausible 统计"],
+      ["订阅", "RSS 与 Buttondown 邮件"],
+      ["形式", "短文、话题标签、Now 页"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2025-10-20", "title": "Use the saw, fear the saw", "url": "https://stephango.com"},
+     {"date": "2024-06-28", "title": "What can we remove?", "url": "https://stephango.com"},
+     {"date": "2024-02-10", "title": "100% user-supported", "url": "https://stephango.com"},
+     {"date": "2023-09-16", "title": "How I use Obsidian", "url": "https://stephango.com/vault"},
+     {"date": "2023-07-26", "title": "File over app", "url": "https://stephango.com/file-over-app"}
+    ]},
+    {"quote": "If you want to create digital artifacts that last, they must be files you can control, in formats that are easy to retrieve and read.", "cite": "Steph Ango，《File over app》"},
+    {"p": "他的另一条主线是商业模式：《Quality software deserves your hard-earned cash》主张为好软件付钱，《100% user-supported》解释 Obsidian 为什么不拿投资、不卖数据。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["理念", "文件优先、隐私优先，表达清晰", "—"],
+      ["产出", "CEO 仍在亲手写代码和设计", "Defuddle 自称仍「very much a work in progress」"],
+      ["写作", "短文精炼、可传播", "—"],
+      ["产品", "Obsidian 生态庞大", "Obsidian 本身闭源"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>文件优先：</strong>你的作品不该被锁在某个应用里。",
+     "<strong>少开会：</strong>把时间留给做东西。",
+     "<strong>从社区做起：</strong>一个主题作者也能成为 CEO。",
+     "<strong>写短文：</strong>一个想法，一分钟读完。",
+     "<strong>每年问自己 40 个问题。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "File over app", "url": "https://stephango.com/file-over-app", "why": "Obsidian 理念的源头。"},
+     {"name": "How I use Obsidian", "url": "https://stephango.com/vault", "why": "一个自下而上的笔记系统。"},
+     {"name": "Flexoki", "url": "https://stephango.com/flexoki", "why": "给你的编辑器换一套墨水配色。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "检查一下你最重要的笔记和文档，如果明天那个应用消失了，你还能打开它们吗？",
+ "sources": [
+  {"label": "kepano 的 X 个人资料", "url": "https://x.com/kepano"},
+  {"label": "stephango.com", "url": "https://stephango.com"},
+  {"label": "About（stephango.com）", "url": "https://stephango.com/about"},
+  {"label": "File over app", "url": "https://stephango.com/file-over-app"},
+  {"label": "维基百科：Obsidian (software)", "url": "https://en.wikipedia.org/wiki/Obsidian_(software)"},
+  {"label": "GitHub：kepano", "url": "https://github.com/kepano"}
+ ]
+}

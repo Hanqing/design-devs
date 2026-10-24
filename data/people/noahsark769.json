@@ -1,0 +1,156 @@
+{
+ "name": "Noah Gilmore",
+ "role": "Replo 联合创始人兼 CTO（YC S21）· Transparent App Icons、Trestle、CIFilter.app、Berkeleytime 作者",
+ "title": "Noah Gilmore：为 Apple 开发者<em>补全文档</em>的人",
+ "dek": "他是电商建站平台 Replo 的联合创始人兼 CTO（Y Combinator 2021 夏季批次），自我介绍是「he/him，软件开发者」。Replo 现在是「懂你品牌、产品和数据的 AI Agent」：让店主用聊天的方式要页面、做调研、出报告，再逐项批准修改，官网称有十万多家商家在用。在这之前和工作之余，他做了很多 Apple 开发者每天会用到的参考工具：给所有 Core Image 滤镜补上参数和示例的 CIFilter.app，可以搜索浏览 SF Symbols 的 sfsymbols.com，演示 UIButton 内边距如何工作的示例应用；还有 iPhone 主屏定制应用 Transparent App Icons，以及他在加州大学伯克利分校时参与的选课工具 Berkeleytime。",
+ "card": "Replo 联合创始人兼 CTO（YC S21）；CIFilter.app、sfsymbols.com、Transparent App Icons、Berkeleytime 作者。",
+ "location": "美国加州湾区",
+ "updated": "2026-10-23",
+ "tags": ["Apple 开发", "电商", "AI Agent", "开发者文档", "创业"],
+ "links": [
+  {"label": "noahgilmore.com", "url": "https://noahgilmore.com"},
+  {"label": "Replo", "url": "https://replo.app"},
+  {"label": "CIFilter.app", "url": "https://cifilter.app"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「Software developer, CTO @ Replo (YC S21)」；X 简介注明 he/him。",
+  "<strong>代表作：</strong>Replo、CIFilter.app（★256）、NGUIButtonInsetsExample（★215）、CatalystPlayground、ColorCompatibility、sfsymbols.com、Transparent App Icons、Trestle、Berkeleytime。",
+  "<strong>关键数字：</strong>GitHub 165 个公开仓库、近一年贡献 4,016 次；Replo 官网称 10 万+ 商家使用。",
+  "<strong>写作：</strong>noahgilmore.com 的技术博客，讲 UIButton 内边距、CAMetalLayer 动画、弹出框尺寸等 UIKit 细节。"
+ ],
+ "lead": "2026 年 10 月，Noah 发帖说：自己在 Replo 的工作越来越像「审阅夜里开出的 PR」。办公室里一台 Mac mini 通宵跑 Agent，团队有一个内部技能仓库，以前好几周才能改完的流程，现在一夜就有了 PR。他们还发明了「slop citation」：对设计上的敷衍和糟糕的合并，用自定义表情当众「开罚单」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件开发者、联合创始人兼 CTO"],
+     ["所在地", "美国加州湾区"],
+     ["公司", "Replo（YC S21）"],
+     ["作品", "CIFilter.app、sfsymbols.com、Transparent App Icons、Trestle、Berkeleytime"],
+     ["技术栈", "TypeScript、React、Swift、Python"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "在 Replo，Noah 带工程团队把一个可视化落地页编辑器变成了<strong>电商的 AI Agent</strong>：从网址复刻一个页面，找出影响转化的问题，审计上周的流量和收入，起草并分组 Klaviyo 营销邮件，检查当天订单。Replo 官网本身现在也托管在 Replo 上，他说这让团队能利用自家的页面速度优化，还能让 Agent 直接改网站。"},
+    {"p": "他早年在 Apple 平台上的贡献则偏「补文档」：Apple 的 Core Image 滤镜大多缺乏示例，他就做了 CIFilter.app，为 iOS 和 macOS 上每一个 CIFilter 记录参数和效果；SF Symbols 刚推出时，他写程序批量生成图标图片，做成可以在网页上搜索的 sfsymbols.com。"},
+    {"note": "本页依据 noahgilmore.com、GitHub 个人简介与仓库 README、replo.app 和 X 帖子整理，资料截至 2026 年 10 月。他就读伯克利一事依据其参与的 Berkeleytime 项目推断为在校期间，具体学历未在网站上写明。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012–2013", "title": "Web 起步", "text": "jQuery 插件 seemorejs。"},
+     {"when": "大学时期", "title": "Berkeleytime", "text": "参与加州大学伯克利分校的选课工具 Berkeleytime。"},
+     {"when": "2018–2020", "title": "Apple 平台参考工具", "text": "CIFilter.app、sfsymbols.com、UIButton 内边距示例、Catalyst Playground、iOS 13 系统色兼容库。"},
+     {"when": "2020 前后", "title": "个人应用", "text": "Transparent App Icons、Trestle。"},
+     {"when": "2021", "title": "Replo", "text": "联合创办 Replo，入选 YC S21。"},
+     {"when": "2026", "title": "AI 电商 Agent", "text": "Replo 转向 AI Agent；推出资产管理、MCP 等功能。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Replo", "url": "https://replo.app",
+     "meta": ["2021–", "电商 AI Agent", "YC S21"],
+     "paras": [
+      "「Sell anything with Replo.」调研、搭建、扩展、自动化你的店铺。2026 年推出的 MCP 让外部 Agent 也能生成品牌化、速度优化、可追踪的页面。"
+     ]
+    }},
+    {"work": {
+     "name": "CIFilter.app", "url": "https://cifilter.app",
+     "meta": ["2018–", "Swift", "★256"],
+     "paras": [
+      "为 Core Image 中每一个 CIFilter 记录参数和示例的项目。它原名 cifilter.io，「因为域名注册出了点状况」才改了网址。"
+     ]
+    }},
+    {"work": {
+     "name": "sfsymbols.com", "url": "https://sfsymbols.com",
+     "meta": ["2019", "Gatsby", "参考站"],
+     "paras": [
+      "SF Symbols 的网页参考站，图标图片由一个配套的 iOS 应用自动生成。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Transparent App Icons", "iPhone 主屏定制应用"],
+      ["Trestle", "他做的另一款应用"],
+      ["NGUIButtonInsetsExample", "用滑块演示 UIButton 内边距（★215）"],
+      ["ColorCompatibility", "在 iOS 12 及以下兼容 iOS 13 系统色"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://noahgilmore.com", "paras": [
+     "个人网站以技术博客为主，每篇都配一个可以运行的示例项目，GitHub 上的很多仓库就是博客的配套代码。网站本身用 MDX 写成，通过 GitHub Actions 自动部署。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["形式", "博客 + 示例仓库"],
+      ["主题", "UIKit、Core Animation、Metal、Catalyst"],
+      ["部署", "GitHub Actions"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "For better or worse landing pages are no longer something you need to pay premium prices for.", "cite": "Noah Gilmore，X，2026-10"},
+    {"p": "他对被收购后逐渐变差的软件也有吐槽：比如被 Atlassian 收购后的 Loom，一个关于席位的横幅点进去，跳到的是一个完全无关的控制台。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["工具", "Apple 开发参考工具实用", "部分参考站多年未更新"],
+      ["创业", "Replo 用户规模大", "—"],
+      ["工程文化", "积极试验 AI 工作流", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>文档缺了，就自己补。</strong>",
+     "<strong>每篇博客配一个能跑的示例。</strong>",
+     "<strong>用自己的产品托管自己的网站。</strong>",
+     "<strong>让 Agent 通宵干活，早上审 PR。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "CIFilter.app", "url": "https://cifilter.app", "why": "查一个 Core Image 滤镜的参数。"},
+     {"name": "noahgilmore.com", "url": "https://noahgilmore.com", "why": "读 UIKit 细节文章。"},
+     {"name": "Replo", "url": "https://replo.app", "why": "看 AI 如何搭建电商页面。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "找一个你常用但文档很差的 API，写一篇带示例项目的说明，发出来帮下一个人。",
+ "sources": [
+  {"label": "Noah Gilmore 的 X 个人资料", "url": "https://x.com/noahsark769"},
+  {"label": "noahgilmore.com", "url": "https://noahgilmore.com"},
+  {"label": "Replo", "url": "https://replo.app"},
+  {"label": "GitHub：noahsark769", "url": "https://github.com/noahsark769"},
+  {"label": "CIFilter.app", "url": "https://cifilter.app"}
+ ]
+}

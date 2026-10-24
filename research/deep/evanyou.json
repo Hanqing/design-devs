@@ -1,0 +1,361 @@
+{
+ "handle": "evanyou",
+ "sites": [
+  {
+   "url": "https://evanyou.me",
+   "ok": true,
+   "title": "Evan You",
+   "description": "",
+   "stack": [
+    "Google Fonts",
+    "Vue"
+   ],
+   "hosting": [
+    "Netlify"
+   ],
+   "lang": "en",
+   "home_text": "Evan You \n I am the founder of\n VoidZero , a company\n building the next generation toolchain for JavaScript and TypeScript.\n VoidZero was\n acquired by Cloudflare \n in 2026.\n Before founding VoidZero, I had been working as an independent open source\n developer since 2016. I am the creator of the JavaScript framework\n Vue.js and the frontend\n build tool Vite . Most of\n my work is open source and publicly available on\n GitHub . If you\n happen to benefit from my OSS work, you can support me financially via\n GitHub Sponsors .\n You can follow me on\n X where I mostly yap\n about tech and the JavaScript ecosystem. If you happen to speak Chinese, my Chinese\n name is 尤雨溪 (yóu yǔ xī) and I have a Chinese-only\n X alt \n for non-tech-focused musings.\n I am currently based in Singapore. Outside of programming and helping my\n wife take care of our two kids, I enjoy video games (soulsborne &\n roguelikes are my favorite), karaoke, Japanese food, badminton, Gunplas,\n and mechanical watches.",
+   "github_links": [
+    "yyx990803"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "yyx990803",
+  "user": {
+   "name": "Evan You",
+   "company": "VoidZero",
+   "blog": "http://evanyou.me",
+   "location": "Singapore",
+   "bio": "Founder @voidzero-dev, author of @vuejs and @vitejs. Connoisseur of sushi.",
+   "public_repos": 198,
+   "followers": 111897,
+   "created_at": "2010-11-28T01:05:40Z",
+   "twitter_username": "evanyou",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "yyx990803/build-your-own-mint",
+    "description": "Build your own personal finance analytics using Plaid, Google Sheets and CircleCI.",
+    "stargazers_count": 2540,
+    "forks_count": 200,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2019-01-05T21:03:59Z",
+    "pushed_at": "2022-12-10T01:14:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/vue-hooks",
+    "description": "Experimental React hooks implementation in Vue",
+    "stargazers_count": 1586,
+    "forks_count": 64,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-10-27T04:58:21Z",
+    "pushed_at": "2020-04-29T19:59:15Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "yyx990803/pod",
+    "description": "Git push deploy for Node.js",
+    "stargazers_count": 1333,
+    "forks_count": 108,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2013-02-20T00:24:31Z",
+    "pushed_at": "2020-10-31T13:02:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/zoomerang",
+    "description": "drop in zoom anything",
+    "stargazers_count": 1217,
+    "forks_count": 108,
+    "language": "JavaScript",
+    "homepage": "http://yyx990803.github.io/zoomerang/",
+    "created_at": "2013-11-30T19:45:32Z",
+    "pushed_at": "2021-07-19T20:08:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/vue-lit",
+    "description": "Proof of concept custom elements \"framework\"",
+    "stargazers_count": 1110,
+    "forks_count": 51,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2020-09-16T23:20:07Z",
+    "pushed_at": "2020-10-27T03:43:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/HTML5-Clear-v2",
+    "description": "HTML5 Clear version 2",
+    "stargazers_count": 954,
+    "forks_count": 229,
+    "language": "JavaScript",
+    "homepage": "http://clear.evanyou.me",
+    "created_at": "2012-10-12T22:22:15Z",
+    "pushed_at": "2023-04-26T09:32:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/vite-vs-next-turbo-hmr",
+    "description": "Benchmarking Vite vs. Next + turbopack HMR performance",
+    "stargazers_count": 928,
+    "forks_count": 34,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-10-28T08:09:12Z",
+    "pushed_at": "2023-02-16T06:08:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/laravel-vue-cli-3",
+    "description": "Example project using Vue CLI 3 with Laravel",
+    "stargazers_count": 839,
+    "forks_count": 175,
+    "language": "PHP",
+    "homepage": null,
+    "created_at": "2018-07-25T19:06:40Z",
+    "pushed_at": "2019-04-24T07:45:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/HTML5-Clear",
+    "description": "[DEPRECATED] A replica of the Clear iphone app in HTML5",
+    "stargazers_count": 716,
+    "forks_count": 147,
+    "language": "JavaScript",
+    "homepage": "clear.evanyou.me",
+    "created_at": "2012-02-21T12:14:31Z",
+    "pushed_at": "2020-10-02T03:41:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/register-service-worker",
+    "description": "A script to simplify service worker registration with hooks for common events.",
+    "stargazers_count": 659,
+    "forks_count": 59,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-01-10T21:07:58Z",
+    "pushed_at": "2024-04-17T09:35:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/vue-wordle",
+    "description": "Wordle built with Vue, aka VVordle",
+    "stargazers_count": 595,
+    "forks_count": 197,
+    "language": "TypeScript",
+    "homepage": "https://vue-wordle.netlify.app/",
+    "created_at": "2022-01-23T10:31:06Z",
+    "pushed_at": "2023-02-07T01:45:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/vue-svelte-size-analysis",
+    "description": "Comparing generated code size of Vue and Svelte components",
+    "stargazers_count": 308,
+    "forks_count": 21,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2021-07-05T02:21:28Z",
+    "pushed_at": "2022-12-06T04:29:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/semi",
+    "description": "To semicolon or not to semicolon; that is the question",
+    "stargazers_count": 303,
+    "forks_count": 13,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-11-16T09:25:25Z",
+    "pushed_at": "2019-11-07T17:49:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/okie",
+    "description": "Dead simple worker threads pool",
+    "stargazers_count": 269,
+    "forks_count": 15,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2020-12-20T20:33:07Z",
+    "pushed_at": "2023-08-10T11:03:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/starz",
+    "description": "Count a GitHub user's total stars",
+    "stargazers_count": 154,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2013-12-04T17:20:12Z",
+    "pushed_at": "2015-08-16T19:28:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/circular-json-es6",
+    "description": "circular JSON.stringify and JSON.parse, for environments with native ES6 Map",
+    "stargazers_count": 130,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-03-04T20:43:38Z",
+    "pushed_at": "2018-06-08T03:39:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/pug-plain-loader",
+    "description": "webpack loader that transforms pug templates to plain HTML",
+    "stargazers_count": 120,
+    "forks_count": 15,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-03-25T03:12:11Z",
+    "pushed_at": "2024-06-07T23:01:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "yyx990803/release-tag",
+    "description": "GitHub action for auto creating a release on tag push",
+    "stargazers_count": 112,
+    "forks_count": 11,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-04-27T15:49:18Z",
+    "pushed_at": "2023-12-14T01:45:43Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 75,
+  "languages": [
+   [
+    "JavaScript",
+    64
+   ],
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "Vue",
+    2
+   ],
+   [
+    "PHP",
+    1
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "C++",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "vuejs/core",
+    "stargazerCount": 54799,
+    "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://vuejs.org/"
+   },
+   {
+    "nameWithOwner": "vitejs/vite",
+    "stargazerCount": 83492,
+    "description": "Next generation frontend tooling. It's fast!",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "http://vite.dev"
+   },
+   {
+    "nameWithOwner": "vuejs/vitepress",
+    "stargazerCount": 18438,
+    "description": "Vite & Vue powered static site generator.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://vitepress.dev"
+   },
+   {
+    "nameWithOwner": "rolldown/rolldown",
+    "stargazerCount": 13978,
+    "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://rolldown.rs"
+   },
+   {
+    "nameWithOwner": "vuejs/vue",
+    "stargazerCount": 212631,
+    "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "http://v2.vuejs.org"
+   },
+   {
+    "nameWithOwner": "vuejs/petite-vue",
+    "stargazerCount": 9692,
+    "description": "6kb subset of Vue optimized for progressive enhancement",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 3410,
+  "orgs": [
+   "vuejs",
+   "vitejs",
+   "vuejs-translations",
+   "rolldown"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "vuejs/core": "# vuejs/core [](https://www.npmjs.com/package/vue) [](https://github.com/vuejs/core/actions/workflows/ci.yml) [](https://www.npmjs.com/package/vue)\n## Getting Started\nPlease follow the documentation at [vuejs.org](https://vuejs.org/)!\n## Sponsors\nVue.js is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome [backers](https://github.com/vuejs/core/blob/main/BACKERS.md). If you'd like to join them, please consider [sponsoring Vue's development](https://vuejs.org/sponsor/).\n<p align=\"center\">\n  <h3 align=\"center\">Special Sponsor</h3>\n</p>\n<p align=\"center\">\n  <a target=\"_blank\" href=\"https://betterstack.com/\">\n  </a>\n</p>\n<p align=\"center\">\n  <a target=\"_blank\" href=\"https://vuejs.org/sponsor/#current-sponsors\">\n  </a>\n</p>\n## Questions\nFor questions and support please use [the official forum](https://forum.vuejs.org) or [community chat](https://chat.vuejs.org/). The issue list of this repo is **exclusively** for bug reports and feature requests.\n## Issues\nPlease make sure to respect issue requirements and use [the new issue helper](https://new-issue.vuejs.org/) when opening an issue. Issues not conforming to the guidelines may be closed immediately.\n## Stay In Touch\n- [X](https://x.com/vuejs)\n- [Bluesky](https://bsky.app/profile/vuejs.org)\n- [Blog](https://blog.vuejs.org/)\n- [Job Board](https://vuejobs.com/?ref=vuejs)\n## Merchandise\nVue stickers, shirts, and mugs are available at [Commit Goods](https://commitgoods.com/collections/vue-js?utm_source=github&utm_medium=referral). Vue's share of each sale goes to [Vue's OpenCollective](https://opencollective.com/vuejs).\n## Contribution\nPlease make sure to read the [Contributing Guide](https://github.com/vuejs/core/blob/main/.github/contributing.md) before making a pull request. If you have a Vue-related project/component/tool, add it with a pull request to [this curated list](https://github.com/vuejs/awesome-vue)!\nThank you to all the people who already contributed to Vue!\n<a href=\"https://github.com/vuejs/core/graphs/contributors\"></a>\n<sub>_Note: Showing the first 500 contributors only due to GitHub image size limitations_</sub>\n## License\n[MIT](http",
+   "vitejs/vite": "<p align=\"center\">\n  <br>\n  <br>\n  <a href=\"https://vite.dev\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://vite.dev/vite-light.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://vite.dev/vite-dark.svg\">\n    </picture>\n  </a>\n  <br>\n  <br>\n</p>\n<br/>\n<p align=\"center\">\n  <a href=\"https://npmjs.com/package/vite\"></a>\n  <a href=\"https://nodejs.org/en/about/previous-releases\"></a>\n  <a href=\"https://github.com/vitejs/vite/actions/workflows/ci.yml\"></a>\n  <a href=\"https://chat.vite.dev\"></a>\n</p>\n<br/>\n# Vite ⚡\n> Next Generation Frontend Tooling\n- 💡 Instant Server Start\n- ⚡️ Lightning Fast HMR\n- 🛠️ Rich Features\n- 📦 Optimized Build\n- 🔩 Universal Plugin Interface\n- 🔑 Fully Typed APIs\nVite (French word for \"quick\", pronounced [`/viːt/`](https://cdn.jsdelivr.net/gh/vitejs/vite@main/docs/public/vite.mp3), like \"veet\") is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:\n- A dev server that provides [rich feature enhancements](https://vite.dev/guide/features) over [native ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), for example extremely fast [Hot Module Replacement (HMR)](https://vite.dev/guide/features#hot-module-replacement).\n- A build command that bundles your code with [Rolldown](https://rolldown.rs), pre-configured to output highly optimized static assets for production.\nIn addition, Vite is highly extensible via its [Plugin API](https://vite.dev/guide/api-plugin.html) and [JavaScript API](https://vite.dev/guide/api-javascript.html) with full typing support.\n[Read the Docs to Learn More](https://vite.dev).\n## Packages\n| Package                                         | Version (click for changelogs)                                                                                                    |\n| ----------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |\n| [vite](packages/vite)                           | [](packages/vit",
+   "vuejs/vitepress": "# VitePress 📝💨\n[](https://github.com/vuejs/vitepress/actions/workflows/test.yml)\n[](https://www.npmjs.com/package/vitepress/v/next)\n[](https://nightly.akryum.dev/vuejs/vitepress)\n[](https://chat.vuejs.org)\n---\nVitePress is a Vue-powered static site generator and a spiritual successor to [VuePress](https://vuepress.vuejs.org), built on top of [Vite](https://github.com/vitejs/vite).\n## Documentation\nTo check out docs, visit [vitepress.dev](https://vitepress.dev).\n## Changelog\nDetailed changes for each release are documented in the [CHANGELOG](https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md).\n## Contribution\nPlease make sure to read the [Contributing Guide](https://github.com/vuejs/vitepress/blob/main/.github/contributing.md) before making a pull request.\n## License\n[MIT](https://github.com/vuejs/vitepress/blob/main/LICENSE)\nCopyright (c) 2019-present, Yuxi (Evan) You\n## Special Thanks\nThis project would not be possible without the support of these amazing companies and tools.\n<table>\n  <tr>\n    <td width=\"120\" align=\"center\"><a href=\"https://voidzero.dev\" target=\"_blank\"></a></td>\n    <td><strong><a href=\"https://voidzero.dev\">VoidZero</a></strong></td>\n    <td>The company behind Vite, Vitest, Rolldown, and Oxc. VoidZero has been a long-time sponsor of VitePress. VitePress itself is built on top of this ecosystem of high-performance JavaScript tooling.</td>\n  </tr>\n  <tr>\n    <td width=\"120\" align=\"center\"><a href=\"https://stackblitz.com\" target=\"_blank\"></a></td>\n    <td><strong><a href=\"https://stackblitz.com\">StackBlitz</a></strong></td>\n    <td>Creators of WebContainers and a browser-based development platform. Their technology powers the VitePress playground and provides instant preview releases for our pull requests and commits.</td>\n  </tr>\n  <tr>\n    <td width=\"120\" align=\"center\"><a href=\"https://algolia.com\" target=\"_blank\"></a></td>\n    <td><strong><a href=\"https://algolia.com\">Algolia</a></strong></td>\n    <td>An AI-powered search platform that provides fast, scalable search. Algolia powers DocSearch for VitePress. Their team has been a long-time partner in building and maintaining our search integration.</td>\n  </tr>\n  <tr>\n    <td width=\"12",
+   "rolldown/rolldown": "<p align=\"center\">\n  <br>\n  <br>\n  <a href=\"https://rolldown.rs\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://rolldown.rs/rolldown-light.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://rolldown.rs/rolldown-dark.svg\">\n    </picture>\n  </a>\n  <br>\n  <br>\n  <br>\n</p>\n<div align=\"center\">\n[![MIT licensed][badge-license]][url-license]\n[![NPM version][badge-npm-version]][url-npm]\n[](https://codspeed.io/rolldown/rolldown)\n[![Discord chat][badge-discord]][discord-url]\n[](https://deepwiki.com/rolldown/rolldown)\n</div>\n<div align=\"center\">\n[][url-npm]\n[](https://npmx.dev/package/@rolldown/binding-darwin-arm64)\n[](https://npmx.dev/package/@rolldown/binding-darwin-x64)\n[](https://npmx.dev/package/@rolldown/binding-linux-x64-gnu)\n[](https://npmx.dev/package/@rolldown/binding-win32-x64-msvc)\n[](https://npmx.dev/package/@rolldown/binding-wasm32-wasi)\n</div>\n<div align=\"center\">\n[](https://pkg.pr.new/~/rolldown/rolldown)\n</div>\n<div align=\"center\">\n[](https://stackblitz.com/fork/github/rolldown/rolldown-starter-stackblitz)\n</div>\n# Rolldown\nRolldown is a JavaScript/TypeScript bundler written in Rust intended to serve as the future bundler used in [Vite](https://vitejs.dev/). It provides Rollup-compatible APIs and plugin interface, but will be more similar to esbuild in scope.\nFor more information, please check out the documentation at [rolldown.rs](https://rolldown.rs/guide/getting-started).\n## VoidZero Inc.\nRolldown is a project of [VoidZero](https://voidzero.dev/), see our announcement [Announcing VoidZero - Next Generation Toolchain for JavaScript](https://voidzero.dev/posts/announcing-voidzero-inc).\nIf you have requirements for JavaScript tools at scale, please [get in touch](https://forms.gle/WQgjyzYJpwurpxWKA)!\n## Contributing\nWe would love to have more contributors involved!\nTo get started, please read our [Contributing Guide](https://rolldown.rs/contribution-guide/).\n## Credits\nThe Rolldown project is heavily inspired by:\n- [Rollup](https://github.com/rollup/rollup), created by [Rich Harris](https://github.com/Rich-Harris) and maintained by [Lukas Taegert-Atkinson](h",
+   "vuejs/vue": "## Vue 2 has reached End of Life\n**You are looking at the now inactive repository for Vue 2. The actively maintained repository for the latest version of Vue is [vuejs/core](https://github.com/vuejs/core).**\nVue has reached End of Life on December 31st, 2023. It no longer receives new features, updates, or fixes. However, it is still available on all existing distribution channels (CDNs, package managers, Github, etc).\nIf you are starting a new project, please start with the latest version of Vue (3.x). We also strongly recommend current Vue 2 users to upgrade ([guide](https://v3-migration.vuejs.org/)), but we also acknowledge that not all users have the bandwidth or incentive to do so. If you have to stay on Vue 2 but also have compliance or security requirements about unmaintained software, check out [Vue 2 NES](https://www.herodevs.com/support/nes-vue?utm_source=vuejs-github&utm_medium=vue2-readme).\n<p align=\"center\"><a href=\"https://vuejs.org\" target=\"_blank\" rel=\"noopener noreferrer\"></a></p>\n<p align=\"center\">\n  <a href=\"https://circleci.com/gh/vuejs/vue/tree/dev\"></a>\n  <a href=\"https://codecov.io/github/vuejs/vue?branch=dev\"></a>\n  <a href=\"https://npmcharts.com/compare/vue?minimal=true\"></a>\n  <a href=\"https://www.npmjs.com/package/vue\"></a>\n  <a href=\"https://www.npmjs.com/package/vue\"></a>\n  <a href=\"https://chat.vuejs.org/\"></a>\n</p>\n## Sponsors\nVue.js is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome [backers](https://github.com/vuejs/core/blob/main/BACKERS.md). If you'd like to join them, please consider [ sponsor Vue's development](https://vuejs.org/sponsor/).\n<p align=\"center\">\n  <h3 align=\"center\">Special Sponsor</h3>\n</p>\n<p align=\"center\">\n  <a target=\"_blank\" href=\"https://github.com/appwrite/appwrite\">\n  </a>\n</p>\n<p align=\"center\">\n  <a target=\"_blank\" href=\"https://vuejs.org/sponsor/\">\n  </a>\n</p>\n---\n## Introduction\nVue (pronounced `/vjuː/`, like view) is a **progressive framework** for building user interfaces. It is designed from the ground up to be incrementally adoptable, and can easily scale between a library and a framework depending on different use cases. It "
+  }
+ },
+ "apps": []
+}

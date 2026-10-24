@@ -1,0 +1,139 @@
+{
+ "name": "Joe Hribar",
+ "role": "独立 iOS / Mac 开发者 · Timery、Partly Sunny 作者 · 洛杉矶",
+ "title": "Joe Hribar：把<em>计时</em>做成一件愉快的事",
+ "dek": "他住在洛杉矶，自我介绍是「App 开发者，电影配乐爱好者，薯条爱好者」，用的代词是 he/him。2016 年 11 月 16 日，他发布了自己的第一款 iOS 应用 Partly Sunny：一个天气应用。他说自己在那之前一直是 iOS 的重度用户，想做一个属于自己的应用，于是开始自学。2019 年，他发布了 Timery：一个为 Toggl 时间追踪服务打造的原生客户端，有小组件、快捷指令、报表、Mac 菜单栏，App Store 评分 4.84。Timery 多次被 App Store 编辑推荐，用户可以加入「Timery Club」订阅来支持它的持续开发。",
+ "card": "洛杉矶独立开发者；Timery（Toggl 客户端，★4.84）和天气应用 Partly Sunny 作者。",
+ "location": "美国洛杉矶",
+ "updated": "2026-10-23",
+ "tags": ["独立开发", "iOS", "Mac Catalyst", "效率工具", "快捷指令"],
+ "links": [
+  {"label": "Timery", "url": "https://apps.apple.com/us/app/timery-time-tracker/id1425368544"},
+  {"label": "Partly Sunny", "url": "https://apps.apple.com/us/app/partly-sunny/id1104486867"},
+  {"label": "Mastodon", "url": "https://mastodon.social/@joehribar"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「App developer, film-score listener, french-fry eater. Maker of @timeryapp and @partlysunnyapp. He/him.」",
+  "<strong>代表作：</strong>Timery（2019–，★4.84，1,133 条评分）、Partly Sunny（2016–，$2.99，★4.62）。",
+  "<strong>荣誉：</strong>Timery 入选 App Store「Apps and Games We Love Right Now」，以及编辑部的「支持快捷指令的 Mac 应用」专题。",
+  "<strong>开发者账号：</strong>Joseph Hribar。"
+ ],
+ "lead": "2021 年，Joe 在 X 上发了一条帖子：Catalyst 应用默认不支持菜单栏图标，「但只要折腾得够多……」配图是 Timery 的 Mac 版在菜单栏里显示着当前的计时条目。这句轻描淡写背后是大量工作：那一年，他给 Timery 加了 Mac 应用和菜单栏、报表、时间条目建议和键盘快捷键。他说那一年「有点挣扎」，但对做出来的东西很满意。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立 App 开发者"],
+     ["所在地", "美国洛杉矶"],
+     ["应用", "Timery、Partly Sunny"],
+     ["商业模式", "Timery Club 订阅；Partly Sunny 付费下载"],
+     ["技术栈", "Swift、UIKit、Mac Catalyst、WidgetKit、App Intents"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Joe 专注于<strong>把系统新能力第一时间带进自己的应用</strong>。iOS 16 推出锁屏小组件时，他在 WWDC 当晚就开始动手，做出矩形、圆形等几种「当前计时条目」锁屏小组件；iPhone 14 Pro 推出灵动岛时，他发了一条「It’s Island Time!」。Timery 深度支持快捷指令，因此被 App Store 编辑部收录进 Mac 快捷指令应用专题。"},
+    {"p": "Partly Sunny 是他学习 iOS 开发的起点：一个设计简洁的天气应用，至今仍在 App Store 上销售。"},
+    {"note": "本页依据 App Store 数据和 X 帖子整理，资料截至 2026 年 10 月。他的个人网站 joehribar.com 目前只显示主机默认页面；他已于 2022 年底转到 Mastodon，X 帖子较少。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2016", "title": "Partly Sunny", "text": "11 月 16 日发布第一款 iOS 应用，一款天气应用。"},
+     {"when": "2019", "title": "Timery", "text": "5 月发布 Toggl 时间追踪客户端。"},
+     {"when": "2021", "title": "Mac 与报表", "text": "Timery 推出 Mac 版和菜单栏、报表、建议和快捷键；入选 App Store 推荐。"},
+     {"when": "2022", "title": "锁屏与灵动岛", "text": "锁屏小组件、灵动岛实时活动；Timery Club 支持大版本更新。"},
+     {"when": "2026", "title": "持续更新", "text": "Timery 1.8.2（9 月）。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Timery", "url": "https://apps.apple.com/us/app/timery-time-tracker/id1425368544",
+     "meta": ["2019–", "效率", "iPhone · iPad · Mac"],
+     "paras": [
+      "为 Toggl 打造的时间追踪客户端：一键开始和停止计时、主屏和锁屏小组件、快捷指令、报表、Mac 菜单栏。"
+     ],
+     "facts": [["App Store", "★4.84 · 1,133 条评分"]]
+    }},
+    {"work": {
+     "name": "Partly Sunny", "url": "https://apps.apple.com/us/app/partly-sunny/id1104486867",
+     "meta": ["2016–", "天气", "$2.99"],
+     "paras": [
+      "他的第一款应用，也是他自学 iOS 开发的成果。"
+     ],
+     "facts": [["App Store", "★4.62 · 778 条评分"]]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://apps.apple.com/us/developer/joseph-hribar/id1104486866", "paras": [
+     "joehribar.com 目前没有内容。了解他的作品最直接的方式是 App Store 开发者页面和两款应用各自的账号 @timeryapp、@partlysunnyapp。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "暂无内容"],
+      ["社交", "Mastodon 为主"],
+      ["产品账号", "@timeryapp、@partlysunnyapp"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "A lot of work and a lot of struggle went into this release, but so did a lot of love.", "cite": "Joe Hribar，X，2021-06"},
+    {"p": "他也习惯感谢用户：「感谢每一位 Timery Club 成员。是你们的支持让这个应用能继续开发，尤其是这样的大版本更新。」"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "评分高，紧跟系统新能力", "Timery 依赖 Toggl 服务"],
+      ["持久", "两款应用维护近十年", "Partly Sunny 更新放缓"],
+      ["公开信息", "—", "个人网站暂无内容"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>为喜欢的服务做一个更好的客户端。</strong>",
+     "<strong>WWDC 当晚就开始试新 API。</strong>",
+     "<strong>用订阅俱乐部感谢核心用户。</strong>",
+     "<strong>从一个天气应用开始学。</strong>"
+    ]},
+    {"h3": "推荐先看这两个"},
+    {"try": [
+     {"name": "Timery", "url": "https://apps.apple.com/us/app/timery-time-tracker/id1425368544", "why": "用快捷指令开始计时。"},
+     {"name": "Partly Sunny", "url": "https://apps.apple.com/us/app/partly-sunny/id1104486867", "why": "他的第一款应用。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你每天都用的网络服务，想想如果给它做一个原生客户端，你最想加的一个小组件是什么。",
+ "sources": [
+  {"label": "Joe Hribar 的 X 个人资料", "url": "https://x.com/joehribar"},
+  {"label": "App Store：Timery", "url": "https://apps.apple.com/us/app/timery-time-tracker/id1425368544"},
+  {"label": "App Store：Partly Sunny", "url": "https://apps.apple.com/us/app/partly-sunny/id1104486867"},
+  {"label": "App Store：Joseph Hribar 开发者页", "url": "https://apps.apple.com/us/developer/joseph-hribar/id1104486866"}
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "name": "Marco Arment",
+ "role": "Overcast、Unforgetful 作者 · 前 Tumblr CTO · Instapaper 创始人 · ATP 播客主持人",
+ "title": "Marco Arment：<em>一个人</em>写的主流播客应用",
+ "dek": "他 1982 年生于俄亥俄州哥伦布市，2004 年从阿勒格尼学院计算机系毕业。2007 年 Tumblr 创立时他就是首席开发者，后来任 CTO，2010 年离开，全职做「稍后阅读」工具 Instapaper，2013 年把控股权卖给 Betaworks。2014 年他发布播客应用 Overcast，至今 App Store 上写着「主流播客应用里唯一由一个人写的」，评分 4.54、近 4.8 万条。他和 John Siracusa、Casey Liss 主持 Accidental Tech Podcast，也和 David Smith 主持过十年 Under the Radar。2026 年 8 月他发布了新应用 Unforgetful，一款「不评判你」的待办应用。",
+ "card": "Overcast（一人开发，4.8 万评分）、Unforgetful 作者；前 Tumblr CTO、Instapaper 创始人；ATP 主持人，纽约。",
+ "location": "美国纽约",
+ "updated": "2026-10-23",
+ "tags": ["独立开发", "iOS", "播客", "写作", "Swift"],
+ "links": [
+  {"label": "marco.org", "url": "https://marco.org"},
+  {"label": "Overcast", "url": "https://overcast.fm"},
+  {"label": "Accidental Tech Podcast", "url": "https://atp.fm"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I’m Marco Arment: a programmer, writer, podcaster, geek, and coffee enthusiast.」",
+  "<strong>代表作：</strong>Overcast（2014–，★4.54，48,010 条评分）、Unforgetful（2026，★4.73）、Instapaper、Tumblr（CTO）、The Magazine、Bugshot、Peace；开源 FCModel、Blackbird、BugshotKit。",
+  "<strong>播客：</strong>Accidental Tech Podcast、Under the Radar、Top Four；早年 Build and Analyze、Neutral。",
+  "<strong>立场：</strong>Overcast 官方描述「没有大公司，没有风投」。"
+ ],
+ "lead": "2015 年 9 月，Marco 发布了 iOS 9 内容拦截器 Peace，在付费榜第一名停留了 36 个小时，然后他亲手把它下架了。他说自己「感觉不好」：广告拦截确实帮了很多人，但也伤害了一些不该受伤的人。这件事很能代表他：一个会在博客上公开纠结的开发者。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 与 Web 开发者、作者、播客主持人"],
+     ["所在地", "美国纽约"],
+     ["教育", "阿勒格尼学院计算机科学学士（2004）"],
+     ["经历", "Tumblr 首席开发者 / CTO（2007–2010）→ Instapaper（2008–2013）→ Overcast（2014–）"],
+     ["公司", "Overcast Radio, LLC"],
+     ["技术栈", "Swift、Objective-C、SQLite、PHP"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Marco 的主业是 <strong>Overcast</strong>：一个功能完整却不复杂的播客播放器，以 Smart Speed（自动缩短静音）和 Voice Boost（人声增强）出名。2024 年它满十周年，他写了《Ten years of Overcast: A new foundation》，讲如何重写底层，为下一个十年做准备。"},
+    {"p": "2026 年 8 月发布的 Unforgetful 是一个给拖延者、ADHD 人群和健忘的人设计的待办应用：所有任务都会周期性提醒，错过或忽略了也会再次提醒；可以随意推迟，「不羞辱你」。它直接使用 Apple 提醒事项的数据库，支持 iPhone、iPad 和 Mac。"},
+    {"note": "本页依据 marco.org（About、Apps、文章）、App Store、GitHub 和维基百科整理，资料截至 2026 年 10 月。他 2022 年底起主要在 Mastodon 活动，X 更新很少。家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2004", "title": "毕业", "text": "阿勒格尼学院计算机科学学士。"},
+     {"when": "2007–2010", "title": "Tumblr", "text": "从创立起任首席开发者，后为 CTO；2010 年 9 月离开。"},
+     {"when": "2010–2013", "title": "Instapaper 与写作", "text": "全职做 Instapaper；2010–2012 年和 Dan Benjamin 主持 Build and Analyze；2012 年推出电子杂志 The Magazine；2013 年出售 Instapaper 控股权。"},
+     {"when": "2013–2015", "title": "ATP 与小工具", "text": "开始主持 Accidental Tech Podcast；发布 Bugshot（2013）和 Peace（2015，36 小时后下架）。"},
+     {"when": "2014", "title": "Overcast", "text": "7 月发布，从 2012 年秋天开始开发。"},
+     {"when": "2024", "title": "Overcast 十年", "text": "重写底层，写《A new foundation》。"},
+     {"when": "2026", "title": "Unforgetful", "text": "8 月发布待办应用；4 月写《A letter to John Ternus》。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Overcast", "url": "https://overcast.fm",
+     "meta": ["2014–", "iOS 播客", "免费 + 赞助"],
+     "paras": [
+      "「A powerful, simple, award-winning podcast player.」获 App Store 编辑推荐，The Verge、TechCrunch 等都写过评测。应用免费，用户可以选择成为赞助者。"
+     ],
+     "facts": [["App Store", "★4.54 · 48,010 条评分"]]
+    }},
+    {"work": {
+     "name": "Unforgetful", "url": "https://apps.apple.com/us/app/unforgetful-never-lose-a-task/id6785630295",
+     "meta": ["2026", "效率", "iOS · Mac"],
+     "paras": [
+      "「A to-do app for procrastinators, ADHD, and forgetful people.」核心机制只有一个：没完成就一直提醒你。上线两个月已有两百多条评分，平均 4.73。"
+     ]
+    }},
+    {"work": {
+     "name": "Blackbird", "url": "https://github.com/marcoarment/Blackbird",
+     "meta": ["Swift", "SQLite", "★981"],
+     "paras": [
+      "基于 Swift 并发和 Codable 的 SQLite 封装与模型层。理念是「开发速度优先」：不生成代码，不写 schema，自动迁移，默认异步。它是 2013 年 Objective-C 版 FCModel（★1,638）的继任者。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "年份", "说明"],
+     "rows": [
+      ["Instapaper", "2008", "稍后阅读服务，2013 年出售"],
+      ["The Magazine", "2012", "双周刊电子杂志，2013 年出售"],
+      ["Bugshot", "2013", "截图标注报 bug，后转让并更名 Pinpoint"],
+      ["Second Crack", "2012", "Marco.org 用的静态 Markdown 博客引擎"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://marco.org", "paras": [
+     "Marco.org 是一个纯文字博客，自 2000 年代末写到现在。最近几年发文变少，但每篇都很有分量：从 Apple 应用商店规则、开发者关系，到 2026 年 9 月一篇回忆童年邻居的《Bob and Van》。",
+     "About 页列出他当前的项目：Overcast、ATP、Under the Radar 和 Top Four。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["形式", "纯文字博客，RSS 订阅"],
+      ["主题", "Apple、应用生意、硬件、生活"],
+      ["托管", "Cloudflare"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-09-04", "title": "Bob and Van", "url": "https://marco.org/2026/09/04/bob-and-van"},
+     {"date": "2026-08-14", "title": "Unforgetful", "url": "https://marco.org"},
+     {"date": "2026-04-01", "title": "A letter to John Ternus", "url": "https://marco.org"},
+     {"date": "2024-07-16", "title": "Ten years of Overcast: A new foundation", "url": "https://marco.org"},
+     {"date": "2021-09-13", "title": "The future of the App Store", "url": "https://marco.org"}
+    ]},
+    {"quote": "No big company or VC funding here — Overcast is the only major podcast app written by a single person.", "cite": "Overcast App Store 描述"},
+    {"p": "他长期批评 App Store 的内购规则和 Apple 的开发者关系，同时又是 Apple 平台最忠实的开发者之一。2022 年底他宣布暂别 X，转到 Mastodon。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "Overcast 一人维护十二年，用户量大", "单人开发，新功能节奏有限"],
+      ["影响力", "博客和播客塑造了独立开发话语", "—"],
+      ["开源", "实用的数据层库", "Blackbird 仍标为 beta"],
+      ["社交平台", "—", "X 基本不再更新"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一个人也能做主流产品：</strong>关键是范围克制。",
+     "<strong>有标志性功能：</strong>Smart Speed 和 Voice Boost 一说就懂。",
+     "<strong>敢于按良心决策：</strong>Peace 登顶后下架。",
+     "<strong>给产品打新地基：</strong>十年后重写底层。",
+     "<strong>为特定人群设计：</strong>Unforgetful 只服务健忘的人。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Overcast", "url": "https://overcast.fm", "why": "试试 Smart Speed 能帮你省多少时间。"},
+     {"name": "Ten years of Overcast", "url": "https://marco.org", "why": "读他如何重建一个老应用。"},
+     {"name": "Accidental Tech Podcast", "url": "https://atp.fm", "why": "最长寿的 Apple 技术播客之一。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "看看你的产品里有没有一个能用一个词说清楚的功能，如果没有，想一个。",
+ "sources": [
+  {"label": "Marco Arment 的 X 个人资料", "url": "https://x.com/marcoarment"},
+  {"label": "marco.org", "url": "https://marco.org"},
+  {"label": "About（marco.org）", "url": "https://marco.org/about"},
+  {"label": "维基百科：Marco Arment", "url": "https://en.wikipedia.org/wiki/Marco_Arment"},
+  {"label": "App Store：Overcast", "url": "https://apps.apple.com/us/app/overcast-podcast-app/id888422857"},
+  {"label": "App Store：Unforgetful", "url": "https://apps.apple.com/us/app/unforgetful-never-lose-a-task/id6785630295"},
+  {"label": "GitHub：marcoarment", "url": "https://github.com/marcoarment"}
+ ]
+}

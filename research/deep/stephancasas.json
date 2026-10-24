@@ -1,0 +1,372 @@
+{
+ "handle": "stephancasas",
+ "sites": [],
+ "github": {
+  "login": "stephancasas",
+  "user": {
+   "name": "Stephan Casas",
+   "company": null,
+   "blog": "",
+   "location": "San Francisco, California",
+   "bio": "Prev. macOS Eng. @ OpenAI",
+   "public_repos": 59,
+   "followers": 224,
+   "created_at": "2018-06-23T05:32:57Z",
+   "twitter_username": "stephancasas",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "stephancasas/alfred-mouseless-messenger",
+    "description": "Preview and reply to your messages from within Alfred. Keep your hands on that keyboard!",
+    "stargazers_count": 114,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2022-06-07T07:16:15Z",
+    "pushed_at": "2023-05-25T01:33:59Z",
+    "topics": [
+     "alfred",
+     "alfred-workflow",
+     "imessage",
+     "messages"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/onfmready.js",
+    "description": "A developer utility for working with the FileMaker web viewer JavaScript object in FileMaker Pro/WebDirect.",
+    "stargazers_count": 45,
+    "forks_count": 8,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2020-05-22T08:00:20Z",
+    "pushed_at": "2022-08-01T15:11:13Z",
+    "topics": [
+     "filemaker",
+     "filemaker-server",
+     "filemaker-webdirect",
+     "javascript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/jxa-ui-explorer",
+    "description": "Discovery of JXA (osascript) UI Elements made easy.",
+    "stargazers_count": 40,
+    "forks_count": 2,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2022-01-22T21:54:33Z",
+    "pushed_at": "2024-04-02T04:16:08Z",
+    "topics": [
+     "accessibility",
+     "applescript",
+     "javascript",
+     "jxa",
+     "macos-script",
+     "macos-scripting"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/SwiftUIWindowReader",
+    "description": "Functional access to NSWindow within your macOS app's SwiftUI Views.",
+    "stargazers_count": 40,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-07-27T17:24:05Z",
+    "pushed_at": "2023-07-27T17:24:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/CGEventSupervisor",
+    "description": "Modern Swift utilities for monitoring and intercepting HID events in your macOS application.",
+    "stargazers_count": 38,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-08-06T23:26:22Z",
+    "pushed_at": "2023-08-06T23:26:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/InlineHostingViewApp",
+    "description": "An example app injecting SwiftUI views as inline text elements.",
+    "stargazers_count": 37,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-05-01T16:28:28Z",
+    "pushed_at": "2023-05-01T16:32:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/swiftui-advanced-toolbar-app",
+    "description": "An example implementation of NSWindow with advanced toolbar capabilities in a SwiftUI app.",
+    "stargazers_count": 34,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-03-21T16:54:05Z",
+    "pushed_at": "2023-03-22T18:02:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/streamdeck-studio",
+    "description": "Build beautifully-consistent icons for your StreamDeck.",
+    "stargazers_count": 33,
+    "forks_count": 1,
+    "language": "PHP",
+    "homepage": "https://streamdeck.studio/",
+    "created_at": "2022-10-26T03:36:34Z",
+    "pushed_at": "2022-12-10T22:13:27Z",
+    "topics": [
+     "fontawesome",
+     "streamdeck"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/presto",
+    "description": "HTML componentization, specialized for Alpine JS.",
+    "stargazers_count": 27,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "",
+    "created_at": "2021-01-29T08:29:00Z",
+    "pushed_at": "2021-02-27T06:58:15Z",
+    "topics": [
+     "alpine",
+     "alpinejs",
+     "componentization",
+     "components",
+     "html"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/finder-emoji",
+    "description": "Add some Finder flavor to your Slack workspace",
+    "stargazers_count": 21,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-11-28T19:38:21Z",
+    "pushed_at": "2025-11-28T19:39:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/jxa-toolkit",
+    "description": "A boilerplate / utility wrapper for JXA (AppleScript JavaScript) scripts — providing common automation functions.",
+    "stargazers_count": 21,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2022-02-07T02:14:38Z",
+    "pushed_at": "2022-08-31T18:23:37Z",
+    "topics": [
+     "applescript",
+     "javascript",
+     "jxa",
+     "osascript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/thingiverse-stl-downloader",
+    "description": "Skip the ads on Thingiverse, and get straight to the good stuff.",
+    "stargazers_count": 19,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-02-28T04:48:12Z",
+    "pushed_at": "2026-05-12T22:16:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/stephan-hates-osascript",
+    "description": "A collection of \"useful\" AppleScript and JXA utilities.",
+    "stargazers_count": 16,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2021-12-08T06:31:04Z",
+    "pushed_at": "2022-08-31T19:36:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/NSViewProxy",
+    "description": "Access underlying NSView instances — inline with your SwiftUI views.",
+    "stargazers_count": 15,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-06-16T15:52:53Z",
+    "pushed_at": "2026-10-01T02:31:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/webdirect-font-utility",
+    "description": "A custom font loader utility for FileMaker WebDirect",
+    "stargazers_count": 14,
+    "forks_count": 2,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2020-06-19T05:04:59Z",
+    "pushed_at": "2020-06-20T06:44:14Z",
+    "topics": [
+     "filemaker",
+     "filemaker-server",
+     "filemaker-webdirect"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/SymbolicBridge",
+    "description": "A wrapper class/protocol for dynamic symbol linking/binding in Swift.",
+    "stargazers_count": 13,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2023-08-05T00:28:14Z",
+    "pushed_at": "2023-08-05T01:16:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/alfred-clockify",
+    "description": "Quickly start and stop your Clockify timers from Alfred.",
+    "stargazers_count": 11,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2022-06-04T01:35:24Z",
+    "pushed_at": "2022-06-05T06:05:07Z",
+    "topics": [
+     "alfred",
+     "alfred-workflow",
+     "clockify"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "stephancasas/alfred-laravel-helper-docs",
+    "description": "Quick access to Laravel's helper method documentation — right from Alfred.",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-08-04T16:21:05Z",
+    "pushed_at": "2022-08-04T16:22:45Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 41,
+  "languages": [
+   [
+    "JavaScript",
+    14
+   ],
+   [
+    "Swift",
+    14
+   ],
+   [
+    "TypeScript",
+    4
+   ],
+   [
+    "PHP",
+    2
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "CSS",
+    1
+   ],
+   [
+    "AppleScript",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "stephancasas/alfred-mouseless-messenger",
+    "stargazerCount": 114,
+    "description": "Preview and reply to your messages from within Alfred. Keep your hands on that keyboard!",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "stephancasas/streamdeck-studio",
+    "stargazerCount": 33,
+    "description": "Build beautifully-consistent icons for your StreamDeck.",
+    "primaryLanguage": {
+     "name": "PHP"
+    },
+    "homepageUrl": "https://streamdeck.studio/"
+   },
+   {
+    "nameWithOwner": "stephancasas/onfmready.js",
+    "stargazerCount": 45,
+    "description": "A developer utility for working with the FileMaker web viewer JavaScript object in FileMaker Pro/WebDirect.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "stephancasas/thingiverse-stl-downloader",
+    "stargazerCount": 19,
+    "description": "Skip the ads on Thingiverse, and get straight to the good stuff.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "stephancasas/presto",
+    "stargazerCount": 27,
+    "description": "HTML componentization, specialized for Alpine JS.",
+    "primaryLanguage": null,
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "stephancasas/alfred-laravel-helper-docs",
+    "stargazerCount": 9,
+    "description": "Quick access to Laravel's helper method documentation — right from Alfred.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 5,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "stephancasas/alfred-mouseless-messenger": "<p align=\"center\"></p>\n# Mouseless Messenger\nMouseless Messenger offers you rapid keyboard-driven access to send and read conversations in the macOS Messages app via Alfred — all without ever interacting with the Messages app.\n<p align=\"center\"><b><a href=\"https://github.com/stephancasas/alfred-mouseless-messenger/releases/latest\">Click Here to Download the Latest Release</a></b></p>\n## Installation\nBefore the workflow can be used, you'll need to provide Alfred with _Full Disk Access_ privileges via System Preferences:\n1. Open System Preferences\n2. Choose _Security and Privacy_\n3. Choose _Privacy_\n4. Select _Full Disk Access_\n5. Unlock the 🔒 in the bottom left corner.\n6. Enable the checkbox for **Alfred** or use the ➕ button to add Alfred.\n### **Privilege Escalation**\nFull Disk Access is used to provide Alfred with access to the Messages database. However, by providing Alfred with this access, you are providing **ALL** Alfred workflow with access — not just Mouseless Messenger.\nBe sure you trust your installed workflows before allowing this.\n## Usage\nThe workflow is triggered by the keyword `msg`. On run, you'll be provided with your eight (8) most recent conversations in the Messages app.\n- To preview a message thread, press the **SHIFT** key while a conversation is selected.\n- To reply to a message thread, press the **ENTER** or **RETURN** key while a conversation is selected, then type your reply in the provided input space and press **ENTER** to send it.\n  - In order for the message to send, the Messages app must be running in the background. The window doesn't need to be in the foreground (or even visible), but the app itself must be running.\n- To export the conversation preview as an HTML document, hold the **OPTION** key while pressing the **ENTER** or **RETURN** key. The conversation preview will be exported to your Downloads folder.\n- To export the conversation preview as a PDF document, hold the **COMMAND** key while pressing the **ENTER** or **RETURN** key. The conversation preview will be exported to your Downloads folder.\n  - Google Chrome must be installed to use this feature.\n## Support the Workflow\nI built Mouseless Messenger because I code all d",
+   "stephancasas/streamdeck-studio": "# StreamDeck Studio\nStreamDeck Studio is a web application offering you a tool for creating consistently-styled icons for your [Elgato StreamDeck](https://www.elgato.com/en/welcome-to-stream-deck) device.\n## Donating\nHosting ain't cheap! If you like the project and would like to see it maintained, please [consider donating](https://www.buymeacoffee.com/stephancasas) to help take care of hosting costs and the cost of caffeine.\n## Usage\nUnless otherwise indicated in this repository, the official release of StreamDeck Studio is hosted online at [https://www.streamdeck.studio/](https://www.streamdeck.studio/). This instance of the application will continue to remain online and receive updates unless hosting costs become unfeasible.\n### Create an Icon\nUse the search field to locate a glyph of your choosing. Click the glyph to select it, and then use the icon editor options to modify the label and colour options. When done, you can drag the icon's image straight into StreamDeck preferences, click the _Download_ button to download the single icon, or click the _Collect_ button to add the icon to your collection.\n### Create an Icon Collection\nUsing the steps described above to create an icon, add any number of created icons to your collection. If you wish to adjust an icon's style, click the icon in your collection to load it into the editor then, make changes, and click the _Collect_ button again. To remove an icon from a collection, hover over the icon's thumbnail and click the _Delete_ (❌) button. Once you're satisfied with your collection, you can click the _Download Collection_ button to archive your icon collection to disk as a ZIP-compressed archive.\n## Installation\nThis is a web application, and cannot be installed as a desktop app. If you are not installing for contribution or self-hosting, turn-back here and use the hosted application at [https://www.streamdeck.studio/](https://www.streamdeck.studio/). Otherwise, please continue...\n### Prerequisites\nStreamDeck.studio is designed to run containerized, and thus requires an installation of Docker on your host system. For development environments, Docker Desktop will work.\n### docker-compose\nRun `./install.sh` fro",
+   "stephancasas/onfmready.js": "# OnFMReady.js\nOnFMReady is a developer utility for working with the `FileMaker` web viewer JavaScript object in FileMaker Pro/WebDirect. This is version 2.0 of the utility. If you're looking for version 1.0, it's [here](https://github.com/stephancasas/onfmready.js/tree/master/archive).\n> **What happened to version 1.0?**\n>\n> As stated above, you can still get version 1.0 of OnFMReady [here](https://github.com/stephancasas/onfmready.js/tree/master/archive), but if you read its updated documentation or the documentation for version 2.0, I'm sure you'll agree that the newer version is much better. If you'd like to know more about what's changed, continue reading below.\n## Introduction\nFileMaker 19 introduced new JavaScript interaction between the web viewer layout object and the FileMaker environment. Developers can call FileMaker scripts from their JavaScript code using `FileMaker.PerformScript()` and `FileMaker.PerformScriptWithOption()`. However, neither method can be immediately called, as FileMaker Pro or FileMaker WebDirect must first inject the `FileMaker` object for use.\nOnFMReady removes the need to introduce additional JavaScript or FileMaker script logic which \"waits\" for injection of the `FileMaker` object to occur. Most importantly, it does this without requiring the developer to \"wrap\" their script calls inside of helper functions. Simply calling either `FileMaker.PerformScript()` or `FileMaker.PerformScriptWithOption()` will queue script execution requests, and dispatch them immediately after the `FileMaker` object has been injected.\n> :pencil: **NOTE:** FileMaker Pro for Microsoft Windows\n>\n> During development/publishing, I finished writing this README, and _then_ decided to test OnFMReady in FileMaker Pro for Microsoft Windows, which now uses Microsoft Edge (a Chromium-based browser) to provide the web viewer object. I haven't had a chance to pull-apart the injection logic Claris is using there, but what I do know is that the `FileMaker` object is available for use immediately. No helper is needed, but OnFMReady will still provide the utility events `filemaker-ready` and `filemaker-expected`.\n>\n> All this in-mind, details regarding the `FileMaker",
+   "stephancasas/thingiverse-stl-downloader": "# Thingiverse STL Downloader\nThose ads sure are annoying. Skip 'em, and get straight to the good stuff.\n> This repository is here for the normal purposes of version control, but also to allow users to side-load the extension just in-case Google doesn't approve it.\n## Install\nThe extension can (hopefully) be installed from the web store, or from source.\n### Install from Web Store\nIf/when the extension is approved by Google, I'll replace this sentence with a link to the web store page.\n### Install from Source\n1. Download the [latest release](https://github.com/stephancasas/thingiverse-stl-downloader/releases/tag/latest).\n2. Unzip the contents somewhere on your disk.\n   - I created a folder in `Documents` called _Custom Chrome Extensions_\n3. In Chrome, go to `chrome://extensions` in the address bar.\n4. Turn on the _Developer Mode_ option in the upper-right corner.\n5. Choose _Load Unpacked_\n6. Browse to and select the directory where you unzipped the extension release.\n7. Enable the extension.\n8. Enjoy, and keep on making stuff.\n## Support\nIf you like the extension and don't like ads, please consider [buying me a coffee](https://buymeacoffee.com/stephancasas).\n",
+   "stephancasas/presto": "[]()\n<p align=\"center\"></p>\n<p align=\"center\"><i><strong>Syntactically-natural, \"magic\" markup componentization — specialized for Alpine JS.</strong></i></p>\n# Presto JS — *Utility Preview*\nPresto offers you componentization of HTML elements — similar to the import/export nature of ES6 modules.\nThink of it like [Rollup](https://github.com/rollup/rollup) for HTML.\n> Presto is currently under active **initial development** and available only for preview in its compiled \"dist\" state. As such, pull requests are not being considered at this time. However, bug reports, feedback, and feature requests are encouraged — the goal of this repository is to create an open discussion. Please submit any considerations of this nature as [issues here on GitHub](https://github.com/stephancasas/presto/issues).\n<p align=\"center\"></p>\n## Why?\nPresto was inspired by [Alpine.js](https://github.com/alpinejs/alpine), which offers developers the ability to leverage a fully-reactive framework via attributes sprinkled into your existing markup like `x-for`, `x-text`, or `x-on:click`. Using Alpine in-tandem with utility frameworks like [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss), developers can rapidly build complete app frontends with little overhead and often without ever writing more than a single `.html` file. \nThis ease of use has the potential to come at a cost however, as the HTML source starts to grow very rapidly and with considerable redundancy — especially for SPA-type applications.\nThe goal of Presto is to break-down your app's HTML into smaller and reusable components without forcing you into adopting a new syntax like Vue or React's JSX. Already have most of your frontend built? Great! Presto works with the HTML you already have. All you have to do is extract the components that you want to reuse and organize.\n> #### Why not use React or Vue?\n> As developers, we each typically have a framework of choice when it comes to creating application views. Each framework comes with its own idiosyncracies; workflows; dependencies; and, often times, a learning curve. Tools like Alpine and Tailwind CSS leverage the universal familiarity of HTML and enable developers to acco"
+  }
+ },
+ "apps": []
+}

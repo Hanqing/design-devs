@@ -1,0 +1,156 @@
+{
+ "name": "Dax Raad（thdxr）",
+ "role": "opencode 开发者 · Anomaly 团队 · SST、OpenAuth、OpenNext 核心成员 · 迈阿密",
+ "title": "Dax Raad：开源的<em>编程 Agent</em>",
+ "dek": "TA 的 X 简介写着「building @opencode at @anomalyco not the ceo」。Anomaly 团队先做了 SST：一个让你在自己的 AWS 等基础设施上构建全栈应用的框架（★2.6 万），以及 Next.js 的 AWS 适配器 OpenNext、标准化的认证服务 OpenAuth。2025 年，他们发布了开源编程 Agent opencode，它迅速走红，现在有 22 万颗星。Dax 是团队里最活跃的公开面孔，X 上有 18 万关注者，以犀利、好笑、常常反潮流的帖子出名。最近 TA 在推动团队自研跨平台原生界面库，把桌面应用从 Electron 移植成完全原生。",
+ "card": "Anomaly 团队成员（不是 CEO）；opencode（★22 万）、SST（★2.6 万）、OpenAuth、OpenNext 核心开发者，迈阿密。",
+ "location": "美国迈阿密",
+ "updated": "2026-10-23",
+ "tags": ["AI 编程", "开源", "Serverless", "TypeScript", "开发者体验"],
+ "links": [
+  {"label": "opencode", "url": "https://opencode.ai"},
+  {"label": "SST", "url": "https://sst.dev"},
+  {"label": "thdxr.com", "url": "https://thdxr.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I build things then try to remember to write about them.」（个人网站）",
+  "<strong>代表作：</strong>opencode（★220,617）、SST（★26,372）、OpenAuth（★7,416）、OpenNext for AWS（★5,042）；早年的 Serverless 关系数据库性能对比、Lambda 运行时解析文章。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 18,491 次；X 关注者约 18.3 万、帖子约 4.6 万条。",
+  "<strong>团队：</strong>Anomaly（anomalyco），CEO 是 Jay（@jayair）。"
+ ],
+ "lead": "2026 年 10 月，Dax 发了一张截图：「这只是第一版，看起来还不完美，但已经比 99% 的原生 Linux 应用好看了。」他们正在为团队所有的原生应用写一个跨平台界面库，「终于，Linux 应用不必长得像 GTK 了」。几小时前，TA 还开玩笑说这个库有个非常有用的功能：手电筒。更无聊但更重要的是，它已经把 opencode 的桌面应用完全移植成了原生，「没有 Electron！」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "工程师、开源维护者"],
+     ["所在地", "美国迈阿密"],
+     ["团队", "Anomaly（opencode、SST、OpenAuth）"],
+     ["开源", "opencode、SST、OpenAuth、OpenNext"],
+     ["技术栈", "TypeScript、Go、Elixir、Lua、AWS"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Dax 在做 <strong>opencode</strong>：一个开源、可以接任意模型的编程 Agent，有终端界面、网页和桌面客户端。它从一开始就是客户端 / 服务端架构，所以可以让两个客户端并排运行，让 Agent 互相比较；也可以让 opencode 在 Slack 的一个线程里持续汇报进度、截图和视频，团队随时能进来看。"},
+    {"p": "TA 对行业潮流常有不同意见：大家都说单仓库（monorepo）对 Agent 好，他们却刚换成了多仓库；TA 也观察到，AI 让人「拒绝别人做的东西」时不再那么内疚，因为做出来的成本低了。团队还办了一个叫 Rebase 的活动，最近一位单人参赛者赢得了 5,000 美元。"},
+    {"note": "本页依据 thdxr.com、opencode、SST 的 GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。TA 的真实背景和更早的工作经历公开资料较少；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2015–2017", "title": "早期博客", "text": "写 Elixir 读命名管道、Arch Linux RAID、区块链适用场景分析。"},
+     {"when": "2021", "title": "Serverless", "text": "写 AWS Lambda 运行时和 Serverless 关系数据库对比；参与 Serverless Stack（SST）。"},
+     {"when": "2022–2024", "title": "SST 与周边", "text": "SST、OpenNext、OpenAuth；在 Twitch 直播开发。"},
+     {"when": "2025", "title": "opencode", "text": "团队推出开源编程 Agent opencode，迅速走红。"},
+     {"when": "2026", "title": "opencode 2 与原生 UI", "text": "常驻后台服务架构；自研跨平台原生界面库，桌面版去掉 Electron。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "opencode", "url": "https://opencode.ai",
+     "meta": ["2025–", "TypeScript", "★22 万"],
+     "paras": [
+      "「The open source AI coding agent.」2.0 起本机只跑一个后台进程，终端、网页、桌面端都连接它，开再多会话也只有一个进程，避免内存吃紧。"
+     ],
+     "facts": [["GitHub", "★220,617"]]
+    }},
+    {"work": {
+     "name": "SST", "url": "https://sst.dev",
+     "meta": ["TypeScript", "★2.6 万"],
+     "paras": [
+      "「Build full-stack apps on your own infrastructure.」用代码定义基础设施，在自己的云账号里部署全栈应用。"
+     ]
+    }},
+    {"work": {
+     "name": "OpenAuth", "url": "https://openauth.js.org",
+     "meta": ["TypeScript", "★7.4 千"],
+     "paras": [
+      "「Universal, standards-based auth provider.」一个可以自托管、基于标准的认证服务。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["OpenNext", "把 Next.js 部署到 AWS 的开源适配器（★5,042）"],
+      ["environment", "TA 的开发环境配置（Lua，★154）"],
+      ["跨平台原生 UI 库", "2026 年开发中"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://thdxr.com", "paras": [
+     "个人网站停留在 2021 年：「我做东西，然后努力记得写下来」，下面是五篇文章，最新的是 AWS Lambda 和 Serverless 关系数据库的分析。TA 现在几乎所有表达都在 X 上。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "AWS"],
+      ["文章", "2017–2021 年 5 篇"],
+      ["主要渠道", "X、直播"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "one of the best details of working these days is you don't have to feel as bad for rejecting something someone built", "cite": "Dax Raad，X，2026-10"},
+    {"p": "TA 的帖子短、快、带刺，比如「整个行业这周把我们的生产力收益都还回去了」。TA 擅长用一句玩笑把一个行业话题讲清楚。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "opencode 增长极快，社区巨大", "—"],
+      ["开源", "多个基础设施项目", "—"],
+      ["表达", "影响力大", "风格犀利，观点常有争议"],
+      ["公开信息", "—", "个人履历公开较少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>开源可以赢：</strong>开源 Agent 也能做到二十万星。",
+     "<strong>架构决定体验：</strong>客户端 / 服务端让多端协作变简单。",
+     "<strong>别盲从潮流：</strong>单仓库不一定适合你。",
+     "<strong>用 Agent 给团队直播进度。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "opencode", "url": "https://opencode.ai", "why": "试试开源编程 Agent。"},
+     {"name": "SST", "url": "https://sst.dev", "why": "在自己的 AWS 上部署全栈应用。"},
+     {"name": "OpenAuth", "url": "https://openauth.js.org", "why": "自托管的认证服务。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "让你的编程 Agent 在团队频道里开一个线程，每完成一步就发一条进度。",
+ "sources": [
+  {"label": "dax 的 X 个人资料", "url": "https://x.com/thdxr"},
+  {"label": "thdxr.com", "url": "https://thdxr.com"},
+  {"label": "GitHub：anomalyco/opencode", "url": "https://github.com/anomalyco/opencode"},
+  {"label": "GitHub：anomalyco/sst", "url": "https://github.com/anomalyco/sst"},
+  {"label": "opencode", "url": "https://opencode.ai"}
+ ]
+}

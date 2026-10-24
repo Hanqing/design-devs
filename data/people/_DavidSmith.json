@@ -1,0 +1,163 @@
+{
+ "name": "David Smith（_DavidSmith）",
+ "role": "独立 iOS 开发者 · Widgetsmith、Pedometer++、Sleep++、Watchsmith 作者 · Developing Perspective 播客",
+ "title": "David Smith：做了 <em>18 年</em>「像 Apple 一样」的应用",
+ "dek": "他从 2008 年起为 iPhone 和 Apple Watch 做应用，一直独立。他的计步应用 Pedometer++ 2013 年上架，至今有 18 万多条评分；2020 年 iOS 14 开放主屏小组件时，他发布的 Widgetsmith 冲上 App Store 榜首，现在已有 77 万多条评分。他和 Marco Arment 一起主持独立开发播客 Under the Radar 整整十年。2026 年 10 月，他重启了自己十五年前的第一档播客 Developing Perspective，因为「从去年 11 月以来，变化实在太大了」，他想记录当下做独立开发者是什么感觉。",
+ "card": "独立 iOS 开发者，Widgetsmith（77 万评分）、Pedometer++、Sleep++ 作者；Under the Radar 前主持人。",
+ "location": "英国",
+ "updated": "2026-10-23",
+ "tags": ["独立开发", "iOS", "Apple Watch", "SwiftUI", "播客"],
+ "links": [
+  {"label": "david-smith.org", "url": "https://david-smith.org"},
+  {"label": "Widgetsmith", "url": "https://apps.apple.com/us/app/widgetsmith/id1523682319"},
+  {"label": "Developing Perspective", "url": "https://developingperspective.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Independent iOS developer. Independent in general.」",
+  "<strong>代表作：</strong>Widgetsmith（★4.61，776,939 条评分）、Pedometer++（★4.79，184,184 条）、Sleep++、Watchsmith、Check the Weather、Geneva Moon 表盘。",
+  "<strong>播客：</strong>Developing Perspective（2011 年起约四年，2026 年重启）；与 Marco Arment 合作的 Under the Radar（十年，已结束）。",
+  "<strong>写作：</strong>博客坚持「Craftsmanship & Consideration」系列，写设计日记、地图和 watchOS 细节、Liquid Glass 的使用分寸。"
+ ],
+ "lead": "2026 年 6 月，Apple 宣布换帅后，很多人说希望 Apple「回到根本」。David 写了一篇《Apple-like》：他说自己为 Apple 平台做了 18 年应用，一直以「像 Apple 那样」做东西为目标，但他发现自己说不清这到底是什么意思。于是他在家附近的山里走路、跑步，反复琢磨，最后提炼出三条准则，第一条是「最好，然后更好」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立 iOS / watchOS 开发者、播客主持人"],
+     ["所在地", "英国"],
+     ["开发者账号", "Cross Forward Consulting, LLC"],
+     ["起点", "2008 年开始做 iPhone 应用"],
+     ["代表作", "Widgetsmith、Pedometer++、Sleep++、Watchsmith"],
+     ["技术栈", "Swift、SwiftUI、HealthKit、WidgetKit、MapKit"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "David 专注于<strong>每天都会被打开的实用小应用</strong>。Pedometer++ 从一个计步器长成了户外运动应用：2026 年 4 月的 v8「为冒险而设计」，他还专门写了一篇《在 watchOS 上打磨地图的六年》。Widgetsmith 让人按时间、天气、日程自定义小组件，他在上线五年后写了回顾文章。"},
+    {"p": "他坚持在博客上公开设计过程：2022 年连续写了一系列「Design Notes Diary」，记录图表滚动、彩色纸屑、实时活动要不要避开刘海等细节。2025 年 iOS 改版后，他写《Don’t Liquid Glass All the Things》和《Rule #1: No HIG Exceptions, No Custom UI》。"},
+    {"note": "本页依据 david-smith.org（About、Apps、博客）、App Store 数据和 X 资料整理，评分数据截至 2026 年 10 月。所在地取自其 X 资料中的英国国旗。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2008", "title": "开始做 iPhone 应用", "text": "App Store 开放的那一年成为独立开发者。"},
+     {"when": "2011", "title": "Developing Perspective", "text": "开始做「从不超过 15 分钟」的独立开发播客，持续约四年。"},
+     {"when": "2013–2015", "title": "健康类应用", "text": "Pedometer++（2013）、Sleep++（2015）上架。"},
+     {"when": "约 2015–2025", "title": "Under the Radar", "text": "与 Marco Arment 在 Relay FM 主持独立开发播客，做了十年。"},
+     {"when": "2020", "title": "Watchsmith 与 Widgetsmith", "text": "4 月发布 Watchsmith；9 月随 iOS 14 发布 Widgetsmith，一夜爆红。"},
+     {"when": "2026", "title": "Pedometer++ v8 与重启播客", "text": "4 月发布 v8；10 月重启 Developing Perspective，第一期叫「Pivotal」。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Widgetsmith", "url": "https://apps.apple.com/us/app/widgetsmith/id1523682319",
+     "meta": ["2020–", "iOS 小组件", "免费 + 订阅"],
+     "paras": [
+      "「让你以前所未有的方式个性化设备。」用户可以设计日期、天气、日程、照片等多种小组件，并按时间自动切换。它是 iOS 14 小组件潮里最成功的应用之一。"
+     ],
+     "facts": [["App Store", "★4.61 · 776,939 条评分"]]
+    }},
+    {"work": {
+     "name": "Pedometer++", "url": "https://apps.apple.com/us/app/pedometer/id712286167",
+     "meta": ["2013–", "健康与健身", "v8"],
+     "paras": [
+      "从计步起家，逐渐加入徒步、跑步和地图功能。v8 的主题是「Designed for Adventure」，这和他自己的爱好有关：他写过完成英格兰湖区 Bob Graham Round 长距离越野挑战的经历。"
+     ],
+     "facts": [["App Store", "★4.79 · 184,184 条评分"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "首发", "说明"],
+     "rows": [
+      ["Sleep++", "2015", "Apple Watch 睡眠追踪（5,662 条评分）"],
+      ["Watchsmith", "2020", "Apple Watch 表盘复杂功能定制"],
+      ["Check the Weather", "2012", "天气应用，2026 年发布 2.0"],
+      ["Geneva Moon", "2019", "月相工具"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://david-smith.org", "paras": [
+     "网站结构朴素：Apps、About、Podcast、Mastodon、RSS。博客文章不多，但篇篇都很长，有时一个功能的设计过程就能写上几千字，配大量截图和视频。",
+     "About 页甚至写了他用的电脑、键盘和鼠标，很像他的应用：实在，细节具体。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["结构", "应用、关于、播客、博客"],
+      ["写作", "设计过程、Apple 平台、户外运动"],
+      ["节奏", "每年十余篇长文"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-01", "title": "Re-Developing Perspective", "url": "https://david-smith.org/blog/2026/10/01/re-developing-perspective/"},
+     {"date": "2026-06-03", "title": "Apple-like", "url": "https://david-smith.org/blog/2026/06/03/apple-like/"},
+     {"date": "2026-04-29", "title": "Six Years Perfecting Maps on watchOS", "url": "https://david-smith.org"},
+     {"date": "2025-09-18", "title": "Widgetsmith Five Years Later", "url": "https://david-smith.org"},
+     {"date": "2025-06-17", "title": "Don’t Liquid Glass All the Things", "url": "https://david-smith.org"}
+    ]},
+    {"quote": "There’s the constant, week-by-week change in our tools and workflows, and there’s the bigger structural shift in what it even means to “make” apps.", "cite": "David Smith，《Re-Developing Perspective》"},
+    {"p": "他对 Apple 的看法很克制：他不觉得需要「回到过去」，而是把 Apple 比作一艘因为结构问题有点倾斜的船，方向本身没错，只需要调整压舱物。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["持久", "18 年独立开发，多款应用持续更新", "—"],
+      ["规模", "Widgetsmith、Pedometer++ 用户量巨大", "—"],
+      ["产品", "紧跟 Apple 新能力（小组件、watchOS）", "Watchsmith 自 2023 年后更新较少"],
+      ["分享", "设计过程公开透明", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>第一时间拥抱平台新能力：</strong>Widgetsmith 就是这样诞生的。",
+     "<strong>遵守 HIG：</strong>不自造特殊界面，让应用像系统的一部分。",
+     "<strong>把作品当长期事业：</strong>一个计步器可以打磨 13 年。",
+     "<strong>公开过程：</strong>设计日记也是最好的营销。",
+     "<strong>把爱好变成产品：</strong>越野跑推动了 Pedometer++ 的地图功能。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Apple-like", "url": "https://david-smith.org/blog/2026/06/03/apple-like/", "why": "什么是「像 Apple 一样」做东西。"},
+     {"name": "Developing Perspective", "url": "https://developingperspective.com", "why": "听他聊此刻做独立开发的感受。"},
+     {"name": "Pedometer++", "url": "https://apps.apple.com/us/app/pedometer/id712286167", "why": "看一款应用 13 年后的样子。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读一遍 Apple 的人机界面指南里你最常用的那个控件，然后检查你的应用有没有「例外」。",
+ "sources": [
+  {"label": "David Smith 的 X 个人资料", "url": "https://x.com/_DavidSmith"},
+  {"label": "david-smith.org", "url": "https://david-smith.org"},
+  {"label": "About（david-smith.org）", "url": "https://david-smith.org/about"},
+  {"label": "Re-Developing Perspective", "url": "https://david-smith.org/blog/2026/10/01/re-developing-perspective/"},
+  {"label": "App Store：Widgetsmith", "url": "https://apps.apple.com/us/app/widgetsmith/id1523682319"},
+  {"label": "App Store：Pedometer++", "url": "https://apps.apple.com/us/app/pedometer/id712286167"}
+ ]
+}

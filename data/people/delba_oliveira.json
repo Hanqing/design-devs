@@ -1,0 +1,152 @@
+{
+ "name": "Delba de Oliveira",
+ "role": "Anthropic Claude Code 团队 · 前 Vercel 开发者教育（Next.js 文档与 Learn 课程）· 技术视频创作者 · 英国",
+ "title": "Delba de Oliveira：<em>为了对手艺的热爱</em>",
+ "dek": "TA 的 X 简介写着「For the love of the craft」，现在在 Anthropic 的 Claude Code 团队（GitHub 写着 MTS Claude Code）。在 Vercel，TA 搭建、撰写并维护了 Next.js 文档；和设计工程团队一起做了新的 Next.js Learn 学习平台，写了《React Foundations》和《Next.js App Router》两门课；还画了一整套解释 Next.js 概念的图示系统，参与 Vercel 知识库、v0 文档和 Flags SDK 文档。TA 在 YouTube 上用自己基于 Remotion 搭的框架做技术动画视频，比如讲解「use client」和局部预渲染。2026 年 TA 做了一个「在 Claude Code 里学 Claude Code」的交互式终端课程，并持续分享 Claude Code 的小技巧，X 上有十三万多关注者。",
+ "card": "Anthropic Claude Code 团队；前 Vercel 开发者教育，Next.js 文档与 Learn 课程作者；技术视频创作者，英国。",
+ "location": "英国",
+ "updated": "2026-10-23",
+ "tags": ["开发者教育", "技术写作", "Next.js", "Claude Code", "视频"],
+ "links": [
+  {"label": "delbaoliveira.com", "url": "https://www.delbaoliveira.com"},
+  {"label": "YouTube：Delba", "url": "https://www.youtube.com/delba"},
+  {"label": "learn-claude-code", "url": "https://github.com/delbaoliveira/learn-claude-code"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「For the love of the craft. Claude Code • @ClaudeDevs @AnthropicAI | Prev. @Vercel」。",
+  "<strong>代表作：</strong>Next.js 文档、Next.js Learn（React Foundations、Next.js App Router 课程）、Next.js 图示系统、Vercel 知识库、Remotion 技术视频框架、learn-claude-code 终端课程（★182）。",
+  "<strong>关键数字：</strong>X 关注者约 13.4 万。",
+  "<strong>早期作品：</strong>30 天前端挑战、Next.js + Notion API 博客示例。"
+ ],
+ "lead": "learn-claude-code 的 README 很短：这是一个「在 Claude Code 里学习 Claude Code」的交互式课程，由 Claude 以对话的方式教你，一步步讲概念、带你做练习。只要安装 Claude Code，克隆仓库，打开它，就开始上课。这是 TA 一贯的教学理念：学习应该发生在你真正要用的工具里。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开发者教育者、技术写作者、视频创作者"],
+     ["所在地", "英国"],
+     ["现任", "Anthropic，Claude Code 团队"],
+     ["经历", "Vercel：Next.js 文档、Next.js Learn、知识库、v0 与 Flags SDK 文档"],
+     ["技术栈", "TypeScript、React、Next.js、Remotion"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "TA 现在帮开发者<strong>更好地使用 Claude Code</strong>。TA 在 X 上分享的大多是一句话就能用上的技巧：Ctrl+O 在长对话里搜索，/ 查找关键词，n 跳到下一处；输入 ! 直接运行 shell 命令，结果会回到对话里；Ctrl+B 把长任务放到后台；/diff 在对话旁边显示未提交的改动；用 --ax-screen-reader 启动屏幕阅读器模式。TA 也介绍团队正在测试和发布的功能，比如 Auto 模式和 Claude Code Projects。"},
+    {"p": "在 Vercel 的几年，TA 的工作体现了「开发者教育」的完整链条：信息架构、写作、图示、课程平台、视频。TA 用 Remotion 搭了一个以代码生成动画视频的框架，让概念解释可以像写组件一样迭代。"},
+    {"note": "本页依据 delbaoliveira.com、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。TA 的个人网站仍写着在寻找开发者教育或技术视频方向的新工作，应早于加入 Anthropic；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2021", "title": "前端挑战", "text": "30 天前端挑战；用 Next.js 和刚发布的 Notion API 做博客示例。"},
+     {"when": "Vercel 时期", "title": "Next.js 教育", "text": "Next.js 文档、Learn 平台与两门课程、图示系统；YouTube 技术视频。"},
+     {"when": "2025", "title": "视图过渡与视频", "text": "Next.js 视图过渡示例；Remotion 视频框架。"},
+     {"when": "2026", "title": "Anthropic", "text": "加入 Claude Code 团队；发布 learn-claude-code 终端课程；持续分享使用技巧。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Next.js 文档与 Learn", "url": "https://nextjs.org/learn",
+     "meta": ["Vercel", "文档 + 课程"],
+     "paras": [
+      "TA 搭建、撰写并维护了 Next.js 文档，与设计工程团队合作打造了新的 Learn 平台，并创作《React Foundations》和《Next.js App Router》两门课。"
+     ]
+    }},
+    {"work": {
+     "name": "learn-claude-code", "url": "https://github.com/delbaoliveira/learn-claude-code",
+     "meta": ["2026", "交互式课程", "★182"],
+     "paras": [
+      "「An interactive course for learning Claude Code in Claude Code.」Claude 以对话方式教学，逐步讲解概念并带你完成练习。"
+     ]
+    }},
+    {"work": {
+     "name": "Remotion 技术视频", "url": "https://www.youtube.com/delba",
+     "meta": ["视频", "代码生成动画"],
+     "paras": [
+      "用自建的 Remotion 框架程序化地制作动画讲解，比如《use client explained》《Partial Prerendering explained》。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Next.js 图示系统", "在 Figma 里维护的一套概念图，用于文档和课程"],
+      ["Vercel 知识库", "面向开发者的内容中心，也支撑 Vercel 支持 Agent"],
+      ["v0 / Flags SDK 文档", "信息架构与技术写作评审"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.delbaoliveira.com", "paras": [
+     "个人网站按「Work」和「Personal」两栏列出作品，每项一句话说明 TA 做了什么。另有两篇页面写 TA 的开发者教育原则和理想职位，读起来像一份关于「好的技术教育应该是什么样」的宣言。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["结构", "作品 + 原则"],
+      ["主要渠道", "YouTube、X"],
+      ["更新", "网站内容早于加入 Anthropic"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "My reservation is: if I don't know the concept, I don't know if the video is accurate. Need ways to formally verify information.", "cite": "Delba，X，2026-09"},
+    {"p": "TA 试过让 Claude 读一条推文，再为一个自己不熟悉的概念（形式化验证）生成讲解视频，然后提出这个担忧：如果我本来就不懂，我怎么知道视频讲得对不对？这正是一个教育者会先想到的问题。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教育", "文档、课程、视频全链条经验", "—"],
+      ["表达", "技巧简短实用", "—"],
+      ["开源", "—", "个人仓库多为示例"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>在工具里教工具。</strong>",
+     "<strong>一张好图胜过一页文字。</strong>",
+     "<strong>用代码做视频，讲解也能迭代。</strong>",
+     "<strong>一次只教一个小技巧。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "learn-claude-code", "url": "https://github.com/delbaoliveira/learn-claude-code", "why": "在终端里学 Claude Code。"},
+     {"name": "Next.js Learn", "url": "https://nextjs.org/learn", "why": "从 React Foundations 学起。"},
+     {"name": "YouTube：Delba", "url": "https://www.youtube.com/delba", "why": "看动画讲解 use client。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "把你团队里最常被问的一个问题，做成一张图或一段 60 秒的录屏。",
+ "sources": [
+  {"label": "Delba 的 X 个人资料", "url": "https://x.com/delba_oliveira"},
+  {"label": "delbaoliveira.com", "url": "https://www.delbaoliveira.com"},
+  {"label": "GitHub：delbaoliveira", "url": "https://github.com/delbaoliveira"},
+  {"label": "Next.js Learn", "url": "https://nextjs.org/learn"}
+ ]
+}

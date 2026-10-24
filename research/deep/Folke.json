@@ -1,0 +1,445 @@
+{
+ "handle": "Folke",
+ "sites": [],
+ "github": {
+  "login": "folke",
+  "user": {
+   "name": "Folke Lemaitre",
+   "company": null,
+   "blog": "https://folke.io",
+   "location": "Ghent, Belgium",
+   "bio": null,
+   "public_repos": 132,
+   "followers": 10629,
+   "created_at": "2010-05-31T14:14:10Z",
+   "twitter_username": "folke",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "folke/lazy.nvim",
+    "description": "💤 A modern plugin manager for Neovim",
+    "stargazers_count": 21668,
+    "forks_count": 598,
+    "language": "Lua",
+    "homepage": "https://lazy.folke.io/",
+    "created_at": "2022-11-20T21:36:02Z",
+    "pushed_at": "2026-06-29T18:23:04Z",
+    "topics": [
+     "neovim",
+     "neovim-plugin",
+     "nvim",
+     "package-manager",
+     "plugin-manager"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/tokyonight.nvim",
+    "description": "🏙  A clean, dark Neovim theme written in Lua, with support for lsp, treesitter and lots of plugins. Includes additional themes for Kitty, Alacritty, iTerm and Fish.",
+    "stargazers_count": 8227,
+    "forks_count": 547,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2021-04-16T17:21:40Z",
+    "pushed_at": "2026-03-24T15:25:11Z",
+    "topics": [
+     "alacritty",
+     "alacritty-colorscheme",
+     "alacritty-theme",
+     "fish-shell",
+     "fish-theme",
+     "iterm2",
+     "iterm2-colors",
+     "kitty",
+     "kitty-themes",
+     "neovim",
+     "neovim-colorscheme",
+     "neovim-lua",
+     "neovim-theme",
+     "vim",
+     "vim-colorscheme",
+     "vim-theme"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/snacks.nvim",
+    "description": "🍿 A collection of QoL plugins for Neovim",
+    "stargazers_count": 8165,
+    "forks_count": 509,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2024-11-02T22:24:00Z",
+    "pushed_at": "2026-05-25T17:30:32Z",
+    "topics": [
+     "neovim-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/which-key.nvim",
+    "description": "💥   Create key bindings that stick. WhichKey helps you remember your Neovim keymaps, by showing available keybindings in a popup as you type.",
+    "stargazers_count": 7321,
+    "forks_count": 268,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2021-04-28T10:13:18Z",
+    "pushed_at": "2025-10-28T16:02:50Z",
+    "topics": [
+     "lua",
+     "neovim",
+     "neovim-lua",
+     "neovim-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/trouble.nvim",
+    "description": "🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.",
+    "stargazers_count": 6904,
+    "forks_count": 215,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2021-04-21T22:12:24Z",
+    "pushed_at": "2025-10-31T14:02:34Z",
+    "topics": [
+     "lua",
+     "neovim",
+     "neovim-lsp",
+     "neovim-lua",
+     "neovim-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/noice.nvim",
+    "description": "💥 Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.",
+    "stargazers_count": 5825,
+    "forks_count": 180,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2022-09-21T19:32:33Z",
+    "pushed_at": "2025-11-03T17:06:21Z",
+    "topics": [
+     "neovim",
+     "neovim-lua-plugin",
+     "neovim-plugin",
+     "neovim-ui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/flash.nvim",
+    "description": "Navigate your code with search labels, enhanced character motions and Treesitter integration",
+    "stargazers_count": 4264,
+    "forks_count": 95,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2023-06-08T07:32:45Z",
+    "pushed_at": "2026-08-22T20:05:27Z",
+    "topics": [
+     "neovim",
+     "neovim-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/todo-comments.nvim",
+    "description": "✅  Highlight, list and search todo comments in your projects",
+    "stargazers_count": 4216,
+    "forks_count": 139,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2021-05-10T19:38:20Z",
+    "pushed_at": "2025-11-10T09:06:08Z",
+    "topics": [
+     "neovim",
+     "neovim-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/sidekick.nvim",
+    "description": "Your Neovim AI sidekick",
+    "stargazers_count": 2799,
+    "forks_count": 173,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2025-09-26T10:26:48Z",
+    "pushed_at": "2026-09-08T14:07:25Z",
+    "topics": [
+     "claude-code",
+     "codex-cli",
+     "copilot",
+     "copilot-cli",
+     "gemini-cli",
+     "neovim",
+     "neovim-plugin",
+     "nvim",
+     "nvim-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/zen-mode.nvim",
+    "description": "🧘  Distraction-free coding for Neovim",
+    "stargazers_count": 2163,
+    "forks_count": 76,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2021-05-17T06:37:05Z",
+    "pushed_at": "2025-10-28T16:03:25Z",
+    "topics": [
+     "neovim",
+     "neovim-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/neodev.nvim",
+    "description": "💻  Neovim setup for init.lua and plugin development with full signature help, docs and completion for the nvim lua API.",
+    "stargazers_count": 1986,
+    "forks_count": 48,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2021-05-19T13:21:14Z",
+    "pushed_at": "2024-07-06T10:06:35Z",
+    "topics": [
+     "lua",
+     "neovim",
+     "neovim-lsp",
+     "neovim-plugin"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "folke/lazydev.nvim",
+    "description": "Faster LuaLS setup for Neovim",
+    "stargazers_count": 1582,
+    "forks_count": 50,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2024-06-01T16:51:37Z",
+    "pushed_at": "2026-03-14T14:05:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "folke/twilight.nvim",
+    "description": "🌅  Twilight is a Lua plugin for Neovim 0.5 that dims inactive portions of the code you're editing using TreeSitter.",
+    "stargazers_count": 1548,
+    "forks_count": 27,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2021-07-12T07:37:37Z",
+    "pushed_at": "2025-10-28T15:02:10Z",
+    "topics": [
+     "neovim",
+     "neovim-plugin",
+     "tree-sitter",
+     "treesitter"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/dot",
+    "description": "☕️   My Dot Files",
+    "stargazers_count": 1290,
+    "forks_count": 61,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2019-10-10T12:14:11Z",
+    "pushed_at": "2026-04-17T15:29:34Z",
+    "topics": [
+     "ansible",
+     "dotfiles",
+     "dotfiles-linux",
+     "hyprland",
+     "linux",
+     "neovim",
+     "neovim-dotfiles",
+     "niri",
+     "niri-dotfiles"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/ultra-runner",
+    "description": "🏃⛰ Ultra fast monorepo script runner and build tool",
+    "stargazers_count": 1248,
+    "forks_count": 39,
+    "language": "TypeScript",
+    "homepage": "https://www.npmjs.com/package/ultra-runner",
+    "created_at": "2020-01-22T09:03:54Z",
+    "pushed_at": "2026-10-23T20:23:07Z",
+    "topics": [
+     "build",
+     "build-tool",
+     "concurrent",
+     "hacktoberfest",
+     "lerna",
+     "monorepo",
+     "npm",
+     "npm-scripts",
+     "parallel",
+     "pnpm",
+     "script-runn",
+     "script-runner",
+     "yarn-workspaces"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/edgy.nvim",
+    "description": "Easily create and manage predefined window layouts, bringing a new edge to your workflow",
+    "stargazers_count": 1125,
+    "forks_count": 26,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2023-05-30T21:09:04Z",
+    "pushed_at": "2025-10-28T15:04:07Z",
+    "topics": [
+     "neovim",
+     "neovim-lua-plugin",
+     "neovim-plugin",
+     "neovim-ui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/persistence.nvim",
+    "description": "💾  Simple session management for Neovim",
+    "stargazers_count": 1013,
+    "forks_count": 46,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2021-07-02T06:54:30Z",
+    "pushed_at": "2025-10-28T16:08:31Z",
+    "topics": [
+     "neovim",
+     "neovim-plugin"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "folke/neoconf.nvim",
+    "description": "💼 Neovim plugin to manage global and project-local settings",
+    "stargazers_count": 961,
+    "forks_count": 42,
+    "language": "Lua",
+    "homepage": "",
+    "created_at": "2022-09-07T16:15:13Z",
+    "pushed_at": "2026-10-23T09:51:19Z",
+    "topics": [
+     "neovim",
+     "neovim-config",
+     "neovim-configuration",
+     "neovim-lsp",
+     "neovim-plugin"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 41,
+  "languages": [
+   [
+    "Lua",
+    21
+   ],
+   [
+    "TypeScript",
+    11
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "PHP",
+    2
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "C++",
+    1
+   ],
+   [
+    "C#",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "folke/lazy.nvim",
+    "stargazerCount": 21668,
+    "description": "💤 A modern plugin manager for Neovim",
+    "primaryLanguage": {
+     "name": "Lua"
+    },
+    "homepageUrl": "https://lazy.folke.io/"
+   },
+   {
+    "nameWithOwner": "LazyVim/LazyVim",
+    "stargazerCount": 27706,
+    "description": "Neovim config for the lazy",
+    "primaryLanguage": {
+     "name": "Lua"
+    },
+    "homepageUrl": "https://lazyvim.github.io/"
+   },
+   {
+    "nameWithOwner": "folke/noice.nvim",
+    "stargazerCount": 5825,
+    "description": "💥 Highly experimental plugin that completely replaces the UI for messages, cmdline and the popupmenu.",
+    "primaryLanguage": {
+     "name": "Lua"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "folke/tokyonight.nvim",
+    "stargazerCount": 8227,
+    "description": "🏙  A clean, dark Neovim theme written in Lua, with support for lsp, treesitter and lots of plugins. Includes additional themes for Kitty, Alacritty, iTerm and Fish.",
+    "primaryLanguage": {
+     "name": "Lua"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "folke/trouble.nvim",
+    "stargazerCount": 6904,
+    "description": "🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.",
+    "primaryLanguage": {
+     "name": "Lua"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "folke/which-key.nvim",
+    "stargazerCount": 7321,
+    "description": "💥   Create key bindings that stick. WhichKey helps you remember your Neovim keymaps, by showing available keybindings in a popup as you type.",
+    "primaryLanguage": {
+     "name": "Lua"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 3058,
+  "orgs": [
+   "neovim"
+  ],
+  "profile_readme": "## Hi there 🥷🏻\n\n![Stats](./profile/stats.svg)\n\n![Top Languages](./profile/top-langs.svg)\n\n<!--\n**folke/folke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.\n\nHere are some ideas to get you started:\n\n- 🔭 I’m currently working on ...\n- 🌱 I’m currently learning ...\n- 👯 I’m looking to collaborate on ...\n- 🤔 I’m looking for help with ...\n- 💬 Ask me about ...\n- 📫 How to reach me: ...\n- 😄 Pronouns: ...\n- ⚡ Fun fact: ...\n-->\n",
+  "readmes": {
+   "folke/lazy.nvim": "<h4 align=\"center\">\n  <a href=\"https://lazy.folke.io/installation\">Install</a>\n  ·\n  <a href=\"https://lazy.folke.io/configuration\">Configure</a>\n  ·\n  <a href=\"https://lazy.folke.io\">Docs</a>\n</h4>\n<div align=\"center\"><p>\n    <a href=\"https://github.com/folke/lazy.nvim/releases/latest\">\n    </a>\n    <a href=\"https://github.com/folke/lazy.nvim/pulse\">\n    </a>\n    <a href=\"https://github.com/folke/lazy.nvim/blob/main/LICENSE\">\n    </a>\n    <a href=\"https://github.com/folke/lazy.nvim/stargazers\">\n    </a>\n    <a href=\"https://github.com/folke/lazy.nvim/issues\">\n    </a>\n    <a href=\"https://github.com/folke/lazy.nvim\">\n    </a>\n    <a href=\"https://twitter.com/intent/follow?screen_name=folke\">\n    </a>\n</div>\n**lazy.nvim** is a modern plugin manager for Neovim.\n## ✨ Features\n- 📦 Manage all your Neovim plugins with a powerful UI\n- 🚀 Fast startup times thanks to automatic caching and bytecode compilation of Lua modules\n- 💾 Partial clones instead of shallow clones\n- 🔌 Automatic lazy-loading of Lua modules and lazy-loading on events, commands, filetypes, and key mappings\n- ⏳ Automatically install missing plugins before starting up Neovim, allowing you to start using it right away\n- 💪 Async execution for improved performance\n- 🛠️ No need to manually compile plugins\n- 🧪 Correct sequencing of dependencies\n- 📁 Configurable in multiple files\n- 📚 Generates helptags of the headings in `README.md` files for plugins that don't have vimdocs\n- 💻 Dev options and patterns for using local plugins\n- 📊 Profiling tools to optimize performance\n- 🔒 Lockfile `lazy-lock.json` to keep track of installed plugins\n- 🔎 Automatically check for updates\n- 📋 Commit, branch, tag, version, and full [Semver](https://devhints.io/semver) support\n- 📈 Statusline component to see the number of pending updates\n- 🎨 Automatically lazy-loads colorschemes\n## ⚡️ Requirements\n- Neovim >= **0.8.0** (needs to be built with **LuaJIT**)\n- Git >= **2.19.0** (for partial clones support)\n- a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**\n- [luarocks](https://luarocks.org/) to install rockspecs.\n  You can remove `rockspec` from `opts.pkg.sources` to disable this feature.\n## 🚀 Getting Started\nCheck the [documen",
+   "LazyVim/LazyVim": "<div align=\"center\">\n</div>\n<hr>\n<h4 align=\"center\">\n  <a href=\"https://lazyvim.github.io/installation\">Install</a>\n  ·\n  <a href=\"https://lazyvim.github.io/configuration\">Configure</a>\n  ·\n  <a href=\"https://lazyvim.github.io\">Docs</a>\n</h4>\n<div align=\"center\"><p>\n    <a href=\"https://github.com/LazyVim/LazyVim/releases/latest\">\n    </a>\n    <a href=\"https://github.com/LazyVim/LazyVim/pulse\">\n    </a>\n    <a href=\"https://github.com/LazyVim/LazyVim/blob/main/LICENSE\">\n    </a>\n    <a href=\"https://github.com/LazyVim/LazyVim/stargazers\">\n    </a>\n    <a href=\"https://github.com/LazyVim/LazyVim/issues\">\n    </a>\n    <a href=\"https://github.com/LazyVim/LazyVim\">\n    </a>\n    <a href=\"https://twitter.com/intent/follow?screen_name=folke\">\n    </a>\n</div>\nLazyVim is a Neovim setup powered by [💤 lazy.nvim](https://github.com/folke/lazy.nvim)\nto make it easy to customize and extend your config.\nRather than having to choose between starting from scratch or using a\npre-made distro, LazyVim offers the best of both worlds - the flexibility\nto tweak your config as needed, along with the convenience of a pre-configured setup.\n## ✨ Features\n- 🔥 Transform your Neovim into a full-fledged IDE\n- 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)\n- 🚀 Blazingly fast\n- 🧹 Sane default settings for options, autocmds, and keymaps\n- 📦 Comes with a wealth of plugins pre-configured and ready to use\n## ⚡️ Requirements\n- Neovim >= **0.11.2** (needs to be built with **LuaJIT**)\n- Git >= **2.19.0** (for partial clones support)\n- a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**\n- a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)\n## 🚀 Getting Started\nYou can find a starter template for **LazyVim** [here](https://github.com/LazyVim/starter)\n<details><summary>Try it with Docker</summary>\n```sh\ndocker run -w /root -it --rm alpine:edge sh -uelic '\n  apk add git lazygit fzf curl neovim ripgrep alpine-sdk --update\n  git clone https://github.com/LazyVim/starter ~/.config/nvim\n  cd ~/.config/nvim\n  nvim\n'\n```\n</details>\n<details><summary>Install the <a href=\"https://github.com/LazyVi",
+   "folke/noice.nvim": "# 💥 Noice _(Nice, Noise, Notice)_\nHighly experimental plugin that completely replaces the UI for `messages`, `cmdline` and the `popupmenu`.\n## ✨ Features\n- 🌅 fully **configurable views** like [nvim-notify](https://github.com/rcarriga/nvim-notify),\n  splits, popups, virtual text, ..\n- 🔍 use **filters** to **route messages** to different views\n- 🌈 message **highlights** are preserved in the views (like the colors of `:hi`)\n- 📝 command output like [:messages](https://neovim.io/doc/user/message.html#:messages)\n  is shown in normal buffers, which makes it much easier to work with\n- 📚 `:Noice` command to show a full message history\n- ⌨️ no more [:h more-prompt](https://neovim.io/doc/user/message.html#more-prompt)\n- 💻 fully customizable **cmdline** with icons\n- 💅 **syntax highlighting** for `vim` and `lua` on the **cmdline**\n- 🚥 **statusline** components\n- 🔭 open message history in [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) or [fzf-lua](https://github.com/ibhagwan/fzf-lua)\n## 🔥 Status\n**Noice** is using the new experimental `vim.ui_attach` API, so issues are to be expected.\nIt is highly recommended to use Neovim nightly, since a bunch of issues have already been fixed upstream.\nCheck this [tracking issue](https://github.com/folke/noice.nvim/issues/6) for a list of known issues.\n## ⚡️ Requirements\n- Neovim >= 0.9.0 **_(nightly highly recommended)_**\n- [nui.nvim](https://github.com/MunifTanjim/nui.nvim): used for proper rendering and multiple views\n- [nvim-notify](https://github.com/rcarriga/nvim-notify): notification view _**(optional)**_\n- a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**\n- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter/) **_(optional, but highly recommended)_**\n  used for highlighting the cmdline and lsp docs. Make sure to install the parsers for\n  `vim`, `regex`, `lua`, `bash`, `markdown` and `markdown_inline`\n## 📦 Installation\nInstall the plugin with your preferred package manager:\n```lua\n-- lazy.nvim\n{\n  \"folke/noice.nvim\",\n  event = \"VeryLazy\",\n  opts = {\n    -- add any options here\n  },\n  dependencies = {\n    -- if you lazy-load any plugin below, make sure to add proper `module=\"...\"` entries",
+   "folke/tokyonight.nvim": "# 🏙 Tokyo Night\nA dark and light [Neovim](https://github.com/neovim/neovim) theme written in\n[Lua](https://www.lua.org) ported from the [Visual Studio Code\nTokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes\n[extra](#-extras) themes for [Kitty](https://sw.kovidgoyal.net/kitty/conf.html),\n[Alacritty](https://github.com/alacritty/alacritty),\n[iTerm](https://iterm2.com/) and\n[Fish](https://fishshell.com/docs/current/index.html).\n<table width=\"100%\">\n  <tr>\n    <th>Moon</th>\n    <th>Storm</th>\n  </tr>\n  <tr>\n    <td width=\"50%\">\n    </td>\n    <td width=\"50%\">\n    </td>\n  </tr>\n  <tr>\n    <th>Night</th>\n    <th>Day</th>\n  </tr>\n  <tr>\n    <td width=\"50%\">\n    </td>\n    <td width=\"50%\">\n    </td>\n  </tr>\n</table>\n## ✨ Features\n- Supports the latest [Neovim](https://github.com/neovim/neovim)\n  [0.9.0](https://github.com/neovim/neovim/releases/tag/v0.9.0) features.\n- Terminal colors.\n- Supports all major plugins.\n- Provides [TokyoNight](https://github.com/folke/tokyonight.nvim)\n  [extras](#-extras) for numerous other applications.\n<details>\n<summary>🎨 Supported Plugins</summary>\n<!-- plugins:start -->\n| Plugin | Source |\n| --- | --- |\n| [aerial.nvim](https://github.com/stevearc/aerial.nvim) | [`aerial`](lua/tokyonight/groups/aerial.lua) |\n| [ale](https://github.com/dense-analysis/ale) | [`ale`](lua/tokyonight/groups/ale.lua) |\n| [alpha-nvim](https://github.com/goolord/alpha-nvim) | [`alpha`](lua/tokyonight/groups/alpha.lua) |\n| [barbar.nvim](https://github.com/romgrk/barbar.nvim) | [`barbar`](lua/tokyonight/groups/barbar.lua) |\n| [blink.cmp](https://github.com/Saghen/blink.cmp) | [`blink`](lua/tokyonight/groups/blink.lua) |\n| [bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | [`bufferline`](lua/tokyonight/groups/bufferline.lua) |\n| [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) | [`cmp`](lua/tokyonight/groups/cmp.lua) |\n| [codeium.nvim](https://github.com/Exafunction/codeium.nvim) | [`codeium`](lua/tokyonight/groups/codeium.lua) |\n| [copilot.lua](https://github.com/zbirenbaum/copilot.lua) | [`copilot`](lua/tokyonight/groups/copilot.lua) |\n| [nvim-dap](https://github.com/mfussenegger/nvim-dap) | [`dap`](lua/tokyonight/groups/dap.l",
+   "folke/trouble.nvim": "# 🚦 Trouble\nA pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing.\n## ✨ Features\n- Diagnostics\n- LSP references\n- LSP implementations\n- LSP definitions\n- LSP type definitions\n- LSP Document Symbols\n- LSP Incoming/Outgoing calls\n- quickfix list\n- location list\n- [Telescope](https://github.com/nvim-telescope/telescope.nvim) search results\n- [fzf-lua](https://github.com/ibhagwan/fzf-lua) results\n## 📰 What's new?\nThis is a full rewrite of the original **trouble.nvim**.\nThe new version is much more flexible and powerful,\nwith a lot of new features and improvements:\n- multiple trouble windows at the same time\n- LSP document symbols\n- LSP incoming/outgoing calls\n- lots of options to configure trouble windows (floats or splits)\n- `focus` option to focus the trouble window when opened (or not)\n- `follow` option to follow the item under the cursor\n- `pinned` option to pin the buffer as the source for the opened trouble window\n- full tree views of anything\n- highly configurable views with custom formatters, filters, and sorters\n- show multiple sections in the same view\n- multi-line messages\n- prettier and configurable indent guides\n- tree view that follows the natural hierarchy of the items (like document symbols, or file structure)\n- expansive API and `Trouble` command\n- trouble `modes` to define custom views\n- statusline component (useful with document symbols)\n## ⚡️ Requirements\n- Neovim >= 0.9.2\n- Neovim >= 0.10.0 **OR** the `markdown` and `markdown_inline` [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) parsers\n- Properly configured Neovim LSP client\n- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) is optional to enable file icons\n- a theme with properly configured highlight groups for Neovim Diagnostics\n- a [patched font](https://www.nerdfonts.com/) for the default severity and fold icons\n## 📦 Installation\nInstall the plugin with your preferred package manager:\n### [lazy.nvim](https://github.com/folke/lazy.nvim)\n```lua\n{\n  \"folke/trouble.nvim\",\n  opts = {}, -- for default options, refer to the configuration section for custom s"
+  }
+ },
+ "apps": []
+}

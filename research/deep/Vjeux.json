@@ -1,0 +1,344 @@
+{
+ "handle": "Vjeux",
+ "sites": [],
+ "github": {
+  "login": "vjeux",
+  "user": {
+   "name": "Christopher Chedeau",
+   "company": "Facebook",
+   "blog": "http://blog.vjeux.com/",
+   "location": "East Palo Alto, California",
+   "bio": "Frenchy Front-end Engineer",
+   "public_repos": 186,
+   "followers": 4332,
+   "created_at": "2010-02-05T11:13:10Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "vjeux/mp4-h264-re-encode",
+    "description": "Pure re-encoding of an mp4-h264 video file with the web APIs as well as in-depth description of how it works.",
+    "stargazers_count": 479,
+    "forks_count": 8,
+    "language": "JavaScript",
+    "homepage": "https://vjeux.github.io/mp4-h264-re-encode/mp4box.html",
+    "created_at": "2022-12-08T02:54:30Z",
+    "pushed_at": "2024-06-06T17:42:57Z",
+    "topics": [
+     "h264",
+     "webcodecs"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/jsRayTracer",
+    "description": null,
+    "stargazers_count": 166,
+    "forks_count": 17,
+    "language": "JavaScript",
+    "homepage": "http://blog.vjeux.com/",
+    "created_at": "2011-12-27T19:48:52Z",
+    "pushed_at": "2014-04-08T21:04:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/jParser",
+    "description": "Parsing binary files made easy",
+    "stargazers_count": 163,
+    "forks_count": 24,
+    "language": "JavaScript",
+    "homepage": "http://blog.vjeux.com/2011/javascript/binaryparser-unleash-javascript-power.html",
+    "created_at": "2011-12-01T12:26:35Z",
+    "pushed_at": "2016-07-21T12:59:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/video-editor",
+    "description": "Created with CodeSandbox",
+    "stargazers_count": 147,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": "https://codesandbox.io/s/github/vjeux/video-editor",
+    "created_at": "2022-07-10T22:57:47Z",
+    "pushed_at": "2026-10-16T09:41:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/soulver.js",
+    "description": "Rewrite of fantastic Soulver application",
+    "stargazers_count": 143,
+    "forks_count": 16,
+    "language": "JavaScript",
+    "homepage": "http://fooo.fr/~vjeux/github/soulver.js/soulver.html",
+    "created_at": "2012-02-16T09:30:44Z",
+    "pushed_at": "2012-02-23T02:35:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/jspp",
+    "description": "C++ shaped into Javascript",
+    "stargazers_count": 101,
+    "forks_count": 8,
+    "language": "C++",
+    "homepage": "http://blog.vjeux.com/",
+    "created_at": "2011-04-19T14:56:51Z",
+    "pushed_at": "2018-10-21T15:38:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/GithubLogin",
+    "description": "Login to Github API in the browser",
+    "stargazers_count": 58,
+    "forks_count": 20,
+    "language": null,
+    "homepage": "http://blog.vjeux.com/2012/javascript/github-oauth-login-browser-side.html",
+    "created_at": "2012-03-06T04:33:24Z",
+    "pushed_at": "2012-03-07T04:34:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/jsWoWModelViewer",
+    "description": "Display World of Warcraft Models (M2) in WebGL",
+    "stargazers_count": 56,
+    "forks_count": 23,
+    "language": "JavaScript",
+    "homepage": "http://blog.vjeux.com/",
+    "created_at": "2010-02-05T18:07:48Z",
+    "pushed_at": "2014-07-28T01:12:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/markdown-react",
+    "description": "React Render for Standard Markdown",
+    "stargazers_count": 52,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-09-03T20:49:43Z",
+    "pushed_at": "2014-09-03T21:03:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/react-xtags",
+    "description": "Using React to implement xtags",
+    "stargazers_count": 49,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-06-15T17:29:16Z",
+    "pushed_at": "2013-06-16T05:02:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/jsxdom",
+    "description": "DOM backend for JSX",
+    "stargazers_count": 45,
+    "forks_count": 13,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-06-16T05:53:09Z",
+    "pushed_at": "2019-07-12T01:13:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/react-cli",
+    "description": null,
+    "stargazers_count": 45,
+    "forks_count": 1,
+    "language": null,
+    "homepage": null,
+    "created_at": "2015-12-27T19:09:41Z",
+    "pushed_at": "2015-12-28T03:42:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/pokemon-showdown-rs",
+    "description": "Pokemon Showdown Battle System ported to Rust",
+    "stargazers_count": 37,
+    "forks_count": 6,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2025-12-25T22:06:42Z",
+    "pushed_at": "2026-01-25T20:05:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/jsCollaborativePresentation",
+    "description": "Experiment: Can we write a collaborative Javascript presentation?",
+    "stargazers_count": 30,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": "http://vjeux.github.com/jsCollaborativePresentation/",
+    "created_at": "2011-08-28T12:53:28Z",
+    "pushed_at": "2011-10-26T15:23:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/image-recolor",
+    "description": "Change the color of an image to a specific color you have in mind.",
+    "stargazers_count": 24,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": "https://image-recolor.vercel.app/",
+    "created_at": "2021-04-29T19:00:48Z",
+    "pushed_at": "2021-04-30T02:38:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/download-file-sync",
+    "description": "Does exactly what you expect",
+    "stargazers_count": 20,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-11-07T04:16:41Z",
+    "pushed_at": "2019-10-09T04:02:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/webcodecs-nodejs-10k-challenge",
+    "description": "Let's get WebCodec to the server",
+    "stargazers_count": 19,
+    "forks_count": 5,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-11-29T19:42:17Z",
+    "pushed_at": "2026-01-05T17:58:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vjeux/pretty-best-effort",
+    "description": "A best effort pretty printer for cases where you don't know the language",
+    "stargazers_count": 15,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2025-10-18T19:37:57Z",
+    "pushed_at": "2025-10-18T19:56:37Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 84,
+  "languages": [
+   [
+    "JavaScript",
+    30
+   ],
+   [
+    "HTML",
+    11
+   ],
+   [
+    "TypeScript",
+    8
+   ],
+   [
+    "CoffeeScript",
+    5
+   ],
+   [
+    "Rust",
+    4
+   ],
+   [
+    "PHP",
+    3
+   ],
+   [
+    "C++",
+    1
+   ],
+   [
+    "AngelScript",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "react/react",
+    "stargazerCount": 251735,
+    "description": "The library for web and native user interfaces.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://react.dev"
+   },
+   {
+    "nameWithOwner": "react/react-native",
+    "stargazerCount": 126773,
+    "description": "A framework for building native applications using React",
+    "primaryLanguage": {
+     "name": "C++"
+    },
+    "homepageUrl": "https://reactnative.dev"
+   },
+   {
+    "nameWithOwner": "react/create-react-app",
+    "stargazerCount": 103238,
+    "description": "Set up a modern web app by running one command.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://create-react-app.dev/"
+   },
+   {
+    "nameWithOwner": "prettier/prettier",
+    "stargazerCount": 52380,
+    "description": "Prettier is an opinionated code formatter.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://prettier.io"
+   },
+   {
+    "nameWithOwner": "react/yoga",
+    "stargazerCount": 18932,
+    "description": "Yoga is an embeddable layout engine targeting web standards.",
+    "primaryLanguage": {
+     "name": "C++"
+    },
+    "homepageUrl": "https://yogalayout.dev/"
+   },
+   {
+    "nameWithOwner": "facebookarchive/nuclide",
+    "stargazerCount": 7707,
+    "description": "An open IDE for web and native mobile development, built on top of Atom ",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://nuclide.io"
+   }
+  ],
+  "contrib_last_year": 6754,
+  "orgs": [
+   "jDataView"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "react/react": "# [React](https://react.dev/) &middot; [](https://github.com/react/react/blob/main/LICENSE) [](https://www.npmjs.com/package/react) [](https://github.com/react/react/actions/workflows/runtime_build_and_test.yml) [](https://github.com/react/react/actions/workflows/compiler_typescript.yml) [](https://legacy.reactjs.org/docs/how-to-contribute.html#your-first-pull-request)\nReact is a JavaScript library for building user interfaces.\n* **Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.\n* **Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM.\n* **Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using [Node](https://nodejs.org/en) and power mobile apps using [React Native](https://reactnative.dev/).\n[Learn how to use React in your project](https://react.dev/learn).\n## Installation\nReact has been designed for gradual adoption from the start, and **you can use as little or as much React as you need**:\n* Use [Quick Start](https://react.dev/learn) to get a taste of React.\n* [Add React to an Existing Project](https://react.dev/learn/add-react-to-an-existing-project) to use as little or as much React as you need.\n* [Create a New React App](https://react.dev/learn/start-a-new-react-project) if you're looking for a powerful JavaScript toolchain.\n## Documentation\nYou can find the React documentation [on the website](https://react.dev/).\nCheck out the [Getting Started](https://react.dev/learn) page for a quick overview.\nThe documentation is divided into several sections:\n* [Quick Start](https://react.dev/learn)\n* [Tutorial](https://react.dev/learn/tutorial",
+   "react/react-native": "<p align=\"center\">\n   <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://reactnative.dev/react-native-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://reactnative.dev/react-native-light.svg\">\n    </picture>\n</p>\n<p align=\"center\">\n  <strong>Learn once, write anywhere:</strong><br>\n  Create native apps for Android, iOS, and more using React\n</p>\n<p align=\"center\">\n  <a href=\"./LICENSE\"></a>\n  <a href=\"https://www.npmjs.com/package/react-native\"></a>\n  <a href=\"https://www.npmjs.com/package/react-native\"></a>\n  <a href=\"https://twitter.com/intent/follow?screen_name=reactnative\"></a>\n</p>\n<h4 align=\"center\">\n  <a href=\"https://reactnative.dev/docs/environment-setup\">Getting Started</a>\n  <span> · </span>\n  <a href=\"https://reactnative.dev/docs/tutorial\">Learn the Basics</a>\n  <span> · </span>\n  <a href=\"https://reactnative.dev/showcase\">Showcase</a>\n  <span> · </span>\n  <a href=\"https://reactnative.dev/docs/contributing\">Contribute</a>\n  <span> · </span>\n  <a href=\"https://reactnative.dev/help\">Community</a>\n  <span> · </span>\n  <a href=\"./.github/SUPPORT.md\">Support</a>\n</h4>\n# React Native\nReact Native lets you build native apps using [React](https://react.dev/). Written\nin JavaScript, rendered with native code.\n- **Native UI.** React Native primitives render to native platform UI, meaning your app\n  uses the same native platform APIs other apps do. Gestures, text scaling, and\n  accessibility behave the way users expect on each OS.\n- **React, everywhere.** Declarative UI, components, hooks, and Suspense, reused\n  across Android, iOS, and [other platforms](https://reactnative.dev/docs/out-of-tree-platforms).\n- **Developer Velocity.** See local changes in seconds. Changes to JavaScript code are applied with Fast Refresh, without rebuilding the native app.\n- **Extend it yourself.** Native Modules let you call platform code directly from JavaScript, synchronously and type-safe — or reach for [thousands of existing libraries](https://reactnative.directory/).\nReact Native is developed and supported by many companies and individual core contributors. Find out more on the [React Foundation website](https://react.fou",
+   "react/create-react-app": "## Create React App [](https://github.com/facebook/create-react-app/actions/workflows/build-and-test.yml) [](https://github.com/facebook/create-react-app/blob/main/CONTRIBUTING.md)\n> [!CAUTION]\n>\n> ## Deprecated\n>\n> Create React App was one of the key tools for getting a React project up-and-running in 2017-2021, it is now in long-term stasis and we recommend that you migrate to one of React frameworks documented on [Start a New React Project](https://react.dev/learn/start-a-new-react-project).\n>\n> If you are following a tutorial to learn React, there is still value in continuing your tutorial, but we do not recommend starting production apps based on Create React App.\nCreate React apps with no build configuration.\n- [Creating an App](#creating-an-app) – How to create a new app.\n- [User Guide](https://facebook.github.io/create-react-app/) – How to develop apps bootstrapped with Create React App.\nCreate React App works on macOS, Windows, and Linux.<br>\nIf something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).<br>\nIf you have questions or need help, please ask in [GitHub Discussions](https://github.com/facebook/create-react-app/discussions).\n## Quick Overview\n```sh\nnpx create-react-app my-app\ncd my-app\nnpm start\n```\nIf you've previously installed `create-react-app` globally via `npm install -g create-react-app`, we recommend you uninstall the package using `npm uninstall -g create-react-app` or `yarn global remove create-react-app` to ensure that npx always uses the latest version.\n_([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b) comes with npm 5.2+ and higher, see [instructions for older npm versions](https://gist.github.com/gaearon/4064d3c23a77c74a3614c498a8bb1c5f))_\nThen open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>\nWhen you’re ready to deploy to production, create a minified bundle with `npm run build`.\n<p align='center'>\n</p>\n### Get Started Immediately\nYou **don’t** need to install or configure tools like webpack or Babel.<br>\nThey are preconfigured and hidden so that you can focus on the code.\nCreate a project, and you’re good to go.\n## Cr",
+   "prettier/prettier": "[](https://prettier.io)\n<h2 align=\"center\">Opinionated Code Formatter</h2>\n<p align=\"center\">\n  <em>\n    JavaScript\n    · TypeScript\n    · Flow\n    · JSX\n    · JSON\n  </em>\n  <br />\n  <em>\n    CSS\n    · SCSS\n    · Less\n  </em>\n  <br />\n  <em>\n    HTML\n    · Vue\n    · Angular\n  </em>\n  <br />\n  <em>\n    GraphQL\n    · Markdown\n    · YAML\n  </em>\n  <br />\n  <em>\n    <a href=\"https://prettier.io/docs/plugins\">\n      Your favorite language?\n    </a>\n  </em>\n</p>\n<p align=\"center\">\n  <a href=\"https://github.com/prettier/prettier/actions?query=branch%3Amain\">\n    </a>\n  <a href=\"https://codecov.io/gh/prettier/prettier\">\n    </a>\n  <a href=\"https://x.com/acdlite/status/974390255393505280\">\n    </a>\n  <br/>\n  <a href=\"https://www.npmjs.com/package/prettier\">\n    </a>\n  <a href=\"https://www.npmjs.com/package/prettier\">\n    </a>\n  <a href=\"https://github.com/prettier/prettier#badge\">\n    </a>\n  <a href=\"https://x.com/intent/follow?screen_name=PrettierCode\">\n    </a>\n</p>\n## Intro\nPrettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.\n### Input\n<!-- prettier-ignore -->\n```js\nfoo(reallyLongArg(), omgSoManyParameters(), IShouldRefactorThis(), isThereSeriouslyAnotherOne());\n```\n### Output\n```js\nfoo(\n  reallyLongArg(),\n  omgSoManyParameters(),\n  IShouldRefactorThis(),\n  isThereSeriouslyAnotherOne(),\n);\n```\nPrettier can be run [in your editor](https://prettier.io/docs/editors) on-save, in a [pre-commit hook](https://prettier.io/docs/precommit), or in [CI environments](https://prettier.io/docs/cli#list-different) to ensure your codebase has a consistent style without devs ever having to post a nit-picky comment on a code review ever again!\n---\n**[Documentation](https://prettier.io/docs/)**\n[Install](https://prettier.io/docs/install) ·\n[Options](https://prettier.io/docs/options) ·\n[CLI](https://prettier.io/docs/cli) ·\n[API](https://prettier.io/docs/api)\n**[Playground](https://prettier.io/playground/)**\n---\n## Badge\nShow the world you're using _Prettier_ → [](https://github.com/prettier/prettier)\n```md\n[](https://github.com/pret",
+   "react/yoga": "# Yoga [](https://www.npmjs.com/package/yoga-layout) [](https://search.maven.org/artifact/com.facebook.yoga/yoga) \nYoga is an embeddable and performant flexbox layout engine with bindings for multiple languages.\n## Building\nYoga's main implementation targets C++ 20 with accompanying build logic in CMake. A wrapper is provided to build the main library and run unit tests.\n```sh\n./unit_tests Debug\n./unit_tests Release\n```\nWhile not required, this script will use [ninja](https://ninja-build.org/) if it is installed for faster builds.\nYoga is additionally part of the [vcpkg](https://github.com/Microsoft/vcpkg/) collection of ports maintained by Microsoft and community contributors. If the version is out of date, please [create an issue or pull request](https://github.com/Microsoft/vcpkg) on the vcpkg repository.\n## Adding Tests\nMany of Yoga's tests are automatically generated, using HTML fixtures describing node structure. These are rendered in Chrome to generate an expected layout result for the tree. New fixtures can be added to `gentest/fixtures`.\n```html\n<div id=\"my_test\" style=\"width: 100px; height: 100px; align-items: center;\">\n  <div style=\"width: 50px; height: 50px;\"></div>\n</div>\n```\nTo generate new tests from added fixtures:\n1. Ensure you have [yarn classic](https://classic.yarnpkg.com) installed.\n2. Run `yarn install` to install dependencies for the test generator.\n3. Run `yarn gentest` in the `yoga` directory.\n## Debugging\nYoga provides a VSCode \"launch.json\" configuration which allows debugging unit tests. Simply add your breakpoints, and run \"Debug C++ Unit tests (lldb)\" (or \"Debug C++ Unit tests (vsdbg)\" on Windows).\n"
+  }
+ },
+ "apps": []
+}

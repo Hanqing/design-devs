@@ -1,0 +1,558 @@
+{
+ "handle": "antfu7",
+ "sites": [
+  {
+   "url": "https://antfu.me",
+   "ok": true,
+   "title": "Anthony Fu",
+   "description": "",
+   "stack": [
+    "Vue"
+   ],
+   "hosting": [
+    "Netlify"
+   ],
+   "lang": "en",
+   "home_text": "Anthony Fu \nHey! I’m Anthony Fu, a fanatical open sourceror and design engineer. \nWorking at Vercel / Nuxt \nCreator of Vitest Slidev VueUse UnoCSS Elk Type Challenges \nRecent work Vite DevTools Nuxt DevTools Devframe pulls.review Furifont \nCore team of Vue Nuxt Vite \nMaintaining Shiki Twoslash ESLint Stylistic \nDreaming up cool ideas and making them come true is where my passion lies. I am enthusiastic about building tools that help myself and others to be more productive and enjoy the process of crafting. You can find my full projects list here . \nI give talks and write blog posts about open source, coding, etc. I am co-hosting a podcast No Coding Today (in Mandarin) . Occasionally, I do live coding streams on YouTube and 哔哩哔哩 . From time to time, I make some generative-art, interactivity experiments on 100.antfu.me . \nOutside of programming, I enjoy doing photography and traveling. I post photos on this page . In case you are interested, here are the hardware/software I use . \nFind me on \n GitHub Bluesky Discord Server Twitter 中文推 日本語 \nOr mail me at hi antfu.me \nIf you enjoy my work and find them useful, consider sponsor me and the ecosystem to help Open Source sustainable. Thank you! \n Sponsor the Ecosystem How does this work? \n Sponsor to support Anthony \n 在爱发电上支持我 \n CC BY-NC-SA 4.0 2021-PRESENT © Anthony Fu",
+   "github_links": [
+    "antfu",
+    "devframes",
+    "elk-zone",
+    "eslint-stylistic",
+    "nuxt",
+    "shikijs",
+    "slidevjs",
+    "twoslashes",
+    "type-challenges",
+    "unocss",
+    "vitejs",
+    "vitest-dev",
+    "vuejs",
+    "vueuse"
+   ],
+   "subpages": {
+    "https://antfu.me/posts": "English Only \n Blog Talks Podcasts Streams Notes \n 2026 \n Pluggable, Extensible, and Playful DevTools \n Sep 16 · 15min \n Ecosystem Sponsorship Forwarding \n Aug 25 \n 2025 \n Categorize Your Dependencies \n Apr 28 · 8min \n 日本語 おはよう、東京！ \n Apr 8 · 7min 日本語 \n Hello Tokyo! \n Apr 8 · 7min \n Photos Page \n Mar 12 · 3min \n Async, Sync, in Between \n Mar 3 · 18min \n Move on to ESM-only \n Feb 5 · 15min \n Epoch Semantic Versioning \n Jan 7 · 8min \n 2024 \n Introducing Nuxt Icon v1 \n Nov 25 · 20min \n Initiative on Sponsorship Forwarding \n Apr 20 · 10min \n Refreshed Nuxt ESLint Integrations \n Apr 10 · 15min \n Introducing ESLint Config Inspector \n Apr 5 · 5min \n 中文 开源的心理建设 \n Mar 16 · 25min 中文 \n Mental Health in Open Source \n Mar 16 · 25min \n The Evolution of Shiki v1.0 \n Mar 11 · 20min \n The Magic in Shiki Magic Move \n Mar 4 · 15min \n 2023 \n Nuxt Devtools v1.0 \n Nov 13 · 20min \n Animated SVG Logo \n Jul 19 · 10min \n Stable Diffusion QR Code 101 \n Jul 10 · 35min \n Refining AI Generated QR Code \n Jun 30 · 16min \n Stylistic QR Code with Stable Diffusion \n Jun 25 · 15min \n How I Manage GitHub Notifications \n May 17 · 20min · GitHub Maintainer Summit 2023 \nGitHub Maintainer Summit 2023 \n Sliding Enter Animation \n May 7 · 6min \n Introducing Nuxt Devtools \n Mar 27 · 12min \n Development Experience with Nuxt \n Feb 9 · 25min · Vue Amsterdam 2023 \nVue Amsterdam 2023 \n 2022 \n Bonjour Paris! \n Dec 10 · 6min \n Dev SSR on Nuxt with Vite \n Oct 4 · 15min \n Why I don't use Prettier \n Oct 1 · 12min \n 中文 为什么我不使用 Prettier \n Oct 1 · 12min 中文 \n Why Reproductions are Required \n May 30 · 9min \n 中文 「请提供最小重现」 \n May 30 · 9min 中文 \n 2021 \n Ship ESM & CJS in one Package \n Nov 29 · 15min \n Icons in Pure CSS \n Oct 31 · 10min \n 中文 聊聊纯 CSS 图标 \n Oct 31 · 10min 中文 \n Reimagine Atomic CSS \n Oct 26 · 25min \n 中文 重新构想原子化 CSS \n Oct 26 · 25min 中文 \n Journey with Icons Continues \n Sep 10 · 15min \n Async with Composition API \n Jul 16 · 17min \n About Yak Shaving \n May 19 · 10min \n 中文 关于 Yak Shaving \n May 19 · 10min 中文 \n Composable Vue \n Apr 28 · 30min · VueDay 2021 \nVueDay 2021 \n Develop with Vite \n Mar 28 · 18min · Vue Beijing \nVue Beijing \n Reflection of Speaking in Public \n Mar 27 · 5min \n Windi CSS and Tailwind JIT \n Mar 18 · 8min \n Typed Provide and Inject in Vue \n Mar 5 · 8min \n Rewrite in Vite \n Jan 31 · 10min \n 2020 \n Destructuring... with object or array? \n Oct 21 · 8min \n 中文 import { reactive } from 'vue' \n Sep 26 · 25min · 滨江前端沙龙 2020 中文 \n滨江前端沙龙 2020 \n Watch with @vue/reactivity \n Sep 18 · 12min \n Journey with Icons \n Aug 16 · 7min \n Make Libraries Working with Vue 2 and 3 \n Jul 1 · 5min \n Vue 3 Migration Notes \n Jul 1 \n Type Inferencing in Vue \n Jun 28 \n New House \n Jun 12 · 2min \n > \n CC BY-NC-SA 4.0 2021-PRESENT © Anthony Fu",
+    "https://antfu.me/projects": "Projects \nProjects that I created or maintaining. \n GitHub \n Recent Releases \n Yak Map \n Current Focus \nDevframe \nFramework-neutral foundation for building generic DevTools \nVite DevTools \nInspect the intermediate state of Vite bundle and pipeline \nNuxt DevTools \nUnleash Nuxt Developer Experience \n Nuxt Ecosystem \nNuxt \nThe intuitive Vue Framework. (Team member) \nNuxt Playground \nInteractive Playground for learning Nuxt \nNuxt DevTools \nUnleash Nuxt Developer Experience \nNuxt ESLint \nAll-in-one ESLint module for Nuxt \nNuxt Icon \nUse thousands of icons in Nuxt \nNuxt Test Utils \nTesting utilities for Nuxt powered by Vitest. (In collabration with @danielroe) \nNuxt Server Functions \nServer functions in client for Nuxt 3 \n DevTools \nDevframe \nFramework-neutral foundation for building generic DevTools \nNuxt DevTools \nUnleash Nuxt Developer Experience \nNode Modules Inspector \nVisualize and inspect your node_modules \nESLint Config Inspector \nA visual tool for inspecting and understanding your ESLint flat configs. \nvite-plugin-inspect \nInspect the intermediate state of Vite plugins \n Vite Ecosystem \nVite \nNative-ESM powered web dev build tool \nVitest \nA blazing fast unit-test framework powered by Vite \nvite-plugin-inspect \nInspect the intermediate state of Vite plugins \nvite-plugin-pwa \nZero-config PWA for Vite \nvite-plugin-vue-tracer \nTrace elements and vdoms back to the source code in Vue SFC \nvite-ssg \nServer-side generation for Vite \nvite-plugin-optimize-persist \nPersist dynamically analyzed dependencies optimization \nvite-plugin-package-config \nExtend Vite config from your package.json `vite` field \nvite-plugin-vue-server-ref \nShare state between clients and Vite server \nvite-plugin-remote-assets \nBundles your assets from remote urls with your app \nvite-plugin-psvg \nProgrammable SVG for Vite \nVite for VS Code \nTake one step faster for Vite in VS Code \nAwesome Vite \nA curated list of awesome things related to Vite.js \n Vue Ecosystem \nVueUse \nCollection of Composition API utils for Vue 2 and 3 \nVue Demi \nCreates Universal Library for Vue 2 & 3 \nvue-template-promise \nTemplate as Promise in Vue \nVue Starport \nShared component across routes with animations. \n@vue/composition-api \nVue 2 Composition API plugin \nVue Reactivity \nReactivity utils set for @vue/reactivity \nReactiVue \nUse Vue Composition API in React components \nVue Chemistry \nReactified JavaScript functions for Vue \nv-dollar \njQuery-like Vue Reactivity API \n UnJS Ecosystem \nunplugin \nUnified plugin system for Vite, Rollup, and Webpack \nunimport \nUnified utils for auto importing APIs in modules. \nmagicast \nProgrammatically modify JavaScript and TypeScript source codes like JSON. \nuqr \nGenerate QR Code universally \n Unplugins \nunplugin \nUnified plugin system for Vite, Rollup, and Webpack \nunplugin-icons \nAccess thousands of icons as components on-demand \nunplugin-vue-components \nOn-demand components auto importing for Vue \nunplugin-auto-import \nAuto import APIs on-demand for Vite, Webpack and Rollu",
+    "https://antfu.me/talks": "English Only \n Blog Talks Podcasts Streams Notes \n Speaker Info \nTalks \n Introducing Vite DevTools # \nIntroduction to Vite DevTools \n Vue Fes Japan 日本語 \nOct 25, 2025 · Tokyo, Japan \n Slides \n PDF \n ViteConf \nOct 9, 2025 · Amsterdam, Netherlands \n Watch \n Slides \n PDF \n VueConf China 中文 \nJul 12, 2025 · Shenzhen, China \n Watch \n Slides \n PDF \n Make Tools People Love # \nWhat I've learned about building tools that delight developers \n SquiggleConf \nSep 18, 2025 · Boston, USA \n Watch \n Slides \n PDF \n Anthony's Road to Open Source - Part 3\n Yak Shaving # \nThe art of yak shaving and how it can help you to build better open source projects. \n COSCUP \nAug 10, 2025 · Taipei, Taiwan \n Watch \n Slides \n PDF \n Vue Fes Japan \nOct 19, 2024 · Tokyo, Japan \n Watch \n Slides \n PDF \n VueConf Shenzhen 中文 \nJul 6, 2024 · Shenzhen, China \n Watch \n Slides \n PDF \n Vue と WebComponents で作る Agnostic UI 日本語 # \nVueとWebComponentsを使って、UnoCSSによるスタイリングで、Agnosticなコンポーネントライブラリや埋め込み可能なUIをnpmパッケージとして簡単に作成できます \n v-tokyo 日本語 \nJun 13, 2025 · Tokyo, Japan \n Slides \n PDF \n ESLint One for All Made Easy # \nIntroduction to ESLint's new flat config format and see how it can bring new possibilities and enhancements to your development workflow and experience. \n TSKaigi \nMay 23, 2025 · Tokyo, Japan \n Watch \n Slides \n PDF \n WebConf Taiwan 中文 \nDec 28, 2024 · Taipei, Taiwan \n Slides \n PDF \n FEDAY 中文 \nDec 7, 2024 · Xiamen, China \n Slides \n PDF \n JS Nation \nJun 13, 2024 · Amsterdam, Netherlands \n Slides \n PDF \n CityJS Athens \nJun 8, 2024 · Athens, Greece \n Watch \n Slides \n PDF \n Journey to Nuxt Icon # \nIntroductions of various Icon solutions with their Pros and Cons. And how we take the lessons we learned and make the refreshed Nuxt Icon v1.0 \n Nuxt Nation \nNov 12, 2024 · Online \n Slides \n PDF \n Anthony's Road to Open Source - Part 2\n The Progressive Path # \nHow progressive approaches can help you to build better open source projects. And why it is crucial for the community to embrace them. \n ViteConf \nOct 3, 2024 · Online \n Frontend Nation \nJun 1, 2024 · Online \n Watch \n Vue Amsterdam \nFeb 29, 2024 · Amsterdam, Netherlands \n Watch \n Slides \n PDF \n Anthony's Road to Open Source - Part 1\n The Set Theory # \nLessons I learned on my journey to working full time on open source. With tips and thinking for making open source projects more successful. \n React Summit \nJun 14, 2024 · Amsterdam, Netherlands \n Slides \n PDF \n React Paris \nMar 22, 2024 · Paris, France \n Watch \n Slides \n PDF \n Vue Fes Japan \nOct 28, 2023 · Tokyo, Japan \n Watch \n Slides \n PDF \n ViteConf \nOct 5, 2023 · Online \n Watch \n Slides \n PDF \n Now, and the Future of Nuxt Devtools # \nState of the Nuxt Devtools and what's coming next. \n Nuxt Nation \nOct 18, 2023 · Online \n Watch \n Slides \n PDF \n Developer Experience with Nuxt # \nThe first introduction to Nuxt Devtools and how it can improve our developer experience for Nuxt \n StrasbourgJS \nMay 25, 2023 · Strasbourg, France \n Watch \n Slides \n PDF \n Vue Amsterdam \nFeb 9, 2023 · Amsterdam, Netherlan"
+   },
+   "feed": {
+    "url": "https://antfu.me/feed.xml",
+    "count_seen": 74,
+    "items": [
+     {
+      "title": "Pluggable, Extensible, and Playful DevTools",
+      "date": "Wed, 16 Sep 2026 00:00:00",
+      "url": "https://antfu.me/posts/pluggable-extensible-playful-devtools"
+     },
+     {
+      "title": "Ecosystem Sponsorship Forwarding",
+      "date": "Tue, 25 Aug 2026 00:00:00",
+      "url": "https://antfu.me/posts/ecosystem-sponsorship-forwarding"
+     },
+     {
+      "title": "Categorize Your Dependencies",
+      "date": "Mon, 28 Apr 2025 14:00:00",
+      "url": "https://antfu.me/posts/categorize-deps"
+     },
+     {
+      "title": "Hello Tokyo!",
+      "date": "Tue, 08 Apr 2025 00:00:00",
+      "url": "https://antfu.me/posts/hello-tokyo"
+     },
+     {
+      "title": "Photos Page",
+      "date": "Wed, 12 Mar 2025 12:00:00",
+      "url": "https://antfu.me/posts/photos-page"
+     },
+     {
+      "title": "Async, Sync, in Between",
+      "date": "Mon, 03 Mar 2025 00:00:00",
+      "url": "https://antfu.me/posts/async-sync-in-between"
+     },
+     {
+      "title": "Move on to ESM-only",
+      "date": "Wed, 05 Feb 2025 00:00:00",
+      "url": "https://antfu.me/posts/move-on-to-esm-only"
+     },
+     {
+      "title": "Epoch Semantic Versioning",
+      "date": "Tue, 07 Jan 2025 12:00:00",
+      "url": "https://antfu.me/posts/epoch-semver"
+     },
+     {
+      "title": "CPU Profiling Nuxt",
+      "date": "Tue, 31 Dec 2024 16:00:00",
+      "url": "https://antfu.me/posts/nuxt-cpuprofile"
+     },
+     {
+      "title": "Introducing Nuxt Icon v1",
+      "date": "Mon, 25 Nov 2024 16:00:00",
+      "url": "https://antfu.me/posts/nuxt-icon-v1"
+     },
+     {
+      "title": "Initiative on Sponsorship Forwarding",
+      "date": "Sat, 20 Apr 2024 00:00:00",
+      "url": "https://antfu.me/posts/sponsorship-forwarding"
+     },
+     {
+      "title": "Refreshed Nuxt ESLint Integrations",
+      "date": "Wed, 10 Apr 2024 12:00:00",
+      "url": "https://antfu.me/posts/refreshed-nuxt-eslint"
+     },
+     {
+      "title": "Introducing ESLint Config Inspector",
+      "date": "Fri, 05 Apr 2024 16:00:00",
+      "url": "https://antfu.me/posts/eslint-config-inspector"
+     },
+     {
+      "title": "Anthony's Roads to Open Source - The Set Theory (React ver.)",
+      "date": "Fri, 22 Mar 2024 08:00:00",
+      "url": "https://antfu.me/posts/roads-to-oss-set-theory-react-paris-2024"
+     },
+     {
+      "title": "Mental Health in Open Source",
+      "date": "Sat, 16 Mar 2024 12:00:00",
+      "url": "https://antfu.me/posts/mental-health-oss"
+     },
+     {
+      "title": "The Evolution of Shiki v1.0",
+      "date": "Mon, 11 Mar 2024 12:00:00",
+      "url": "https://antfu.me/posts/evolution-of-shiki-v1"
+     },
+     {
+      "title": "The Magic in Shiki Magic Move",
+      "date": "Mon, 04 Mar 2024 00:00:00",
+      "url": "https://antfu.me/posts/shiki-magic-move"
+     },
+     {
+      "title": "Anthony's Roads to Open Source - The Progressive Path",
+      "date": "Thu, 29 Feb 2024 08:00:00",
+      "url": "https://antfu.me/posts/roads-to-oss-progressive-vueams-2024"
+     },
+     {
+      "title": "TwoSlash with Shiki",
+      "date": "Tue, 12 Dec 2023 16:00:00",
+      "url": "https://antfu.me/posts/shikiji-twoslash"
+     },
+     {
+      "title": "GitHub-style Alerts",
+      "date": "Thu, 30 Nov 2023 10:00:00",
+      "url": "https://antfu.me/posts/github-alerts"
+     },
+     {
+      "title": "Nuxt Devtools v1.0",
+      "date": "Mon, 13 Nov 2023 16:00:00",
+      "url": "https://antfu.me/posts/nuxt-devtools-v1"
+     },
+     {
+      "title": "Anthony's Roads to Open Source - The Set Theory",
+      "date": "Sat, 28 Oct 2023 08:00:00",
+      "url": "https://antfu.me/posts/roads-to-oss-set-theory-vuefesjapan-2023"
+     },
+     {
+      "title": "Now, and the Future of Nuxt Devtools",
+      "date": "Wed, 18 Oct 2023 08:00:00",
+      "url": "https://antfu.me/posts/now-and-future-devtools-nuxt-nation-2023"
+     },
+     {
+      "title": "Anthony's Roads to Open Source - The Set Theory",
+      "date": "Thu, 05 Oct 2023 08:00:00",
+      "url": "https://antfu.me/posts/roads-to-oss-set-theory-viteconf-2023"
+     },
+     {
+      "title": "Animated SVG Logo",
+      "date": "Wed, 19 Jul 2023 00:00:00",
+      "url": "https://antfu.me/posts/animated-svg-logo"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "antfu",
+  "user": {
+   "name": "Anthony Fu",
+   "company": "@vercel | @nuxt",
+   "blog": "https://antfu.me",
+   "location": "Gifu, Japan",
+   "bio": "A ship in harbor is safe, but that is not what ships are built for.",
+   "public_repos": 404,
+   "followers": 40575,
+   "created_at": "2015-02-28T16:55:50Z",
+   "twitter_username": null,
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "antfu/eslint-config",
+    "description": "Anthony's ESLint config preset",
+    "stargazers_count": 6276,
+    "forks_count": 574,
+    "language": "JavaScript",
+    "homepage": "https://eslint-config.antfu.me/",
+    "created_at": "2019-07-17T19:35:38Z",
+    "pushed_at": "2026-10-23T07:12:20Z",
+    "topics": [
+     "eslint",
+     "eslint-config",
+     "eslint-flat-config"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/skills",
+    "description": "Anthony Fu's curated collection of agent skills.",
+    "stargazers_count": 6006,
+    "forks_count": 337,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2026-01-28T05:59:03Z",
+    "pushed_at": "2026-10-23T02:36:51Z",
+    "topics": [
+     "agent-skills",
+     "skills"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/vscode-file-nesting-config",
+    "description": "Config of File Nesting for VS Code",
+    "stargazers_count": 3663,
+    "forks_count": 202,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2022-03-08T00:47:08Z",
+    "pushed_at": "2026-06-24T04:19:30Z",
+    "topics": [
+     "config",
+     "vscode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/node-modules-inspector",
+    "description": "Interactive UI for local node modules inspection",
+    "stargazers_count": 2958,
+    "forks_count": 91,
+    "language": "TypeScript",
+    "homepage": "https://node-modules.dev",
+    "created_at": "2025-01-16T07:40:07Z",
+    "pushed_at": "2026-09-16T23:47:41Z",
+    "topics": [
+     "devframe",
+     "devtools",
+     "inspector",
+     "node-modules",
+     "npm"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/vscode-settings",
+    "description": "My VS Code settings and extensions ",
+    "stargazers_count": 2265,
+    "forks_count": 283,
+    "language": null,
+    "homepage": "",
+    "created_at": "2022-03-10T10:13:20Z",
+    "pushed_at": "2025-05-28T23:40:53Z",
+    "topics": [
+     "vscode",
+     "vscode-extension",
+     "vscode-settings",
+     "vscode-settings-json"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/vue-starport",
+    "description": "🛰 Shared component across routes with animations",
+    "stargazers_count": 1948,
+    "forks_count": 98,
+    "language": "TypeScript",
+    "homepage": "https://vue-starport.netlify.app/",
+    "created_at": "2022-04-01T13:38:29Z",
+    "pushed_at": "2023-09-14T07:46:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/vitesse-nuxt",
+    "description": "Vitesse for Nuxt 4 🏔💚⚡️",
+    "stargazers_count": 1908,
+    "forks_count": 243,
+    "language": "TypeScript",
+    "homepage": "https://vitesse-nuxt3.netlify.app/",
+    "created_at": "2021-11-03T16:22:30Z",
+    "pushed_at": "2026-09-08T05:51:56Z",
+    "topics": [
+     "nuxt3",
+     "starter-template",
+     "vitesse"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/esno",
+    "description": "Alias to `tsx`",
+    "stargazers_count": 1603,
+    "forks_count": 27,
+    "language": "TypeScript",
+    "homepage": "https://github.com/esbuild-kit/tsx",
+    "created_at": "2020-08-05T06:37:14Z",
+    "pushed_at": "2024-09-29T00:24:25Z",
+    "topics": [
+     "emcascript",
+     "esbuild",
+     "esnext",
+     "node",
+     "ts-node",
+     "typescript"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/drauu",
+    "description": "Headless SVG-based drawboard in browser.",
+    "stargazers_count": 1525,
+    "forks_count": 77,
+    "language": "TypeScript",
+    "homepage": "https://drauu.netlify.app/",
+    "created_at": "2021-08-05T17:03:34Z",
+    "pushed_at": "2026-01-13T06:38:53Z",
+    "topics": [
+     "drawboard"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/reactivue",
+    "description": "🙊 Use Vue Composition API in React components",
+    "stargazers_count": 1476,
+    "forks_count": 37,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2020-07-18T21:38:40Z",
+    "pushed_at": "2024-06-14T17:23:14Z",
+    "topics": [
+     "react",
+     "vue",
+     "vue-composition-api",
+     "vue-in-react"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/shikiji",
+    "description": "A syntax highlighter based on TextMate grammars. ESM rewrite of shiki, with more features and capabilities.",
+    "stargazers_count": 1450,
+    "forks_count": 35,
+    "language": "TypeScript",
+    "homepage": "https://shikiji.netlify.app/",
+    "created_at": "2023-08-10T21:14:20Z",
+    "pushed_at": "2024-01-27T14:07:25Z",
+    "topics": [
+     "shiki",
+     "syntax-highlighter",
+     "textmate-grammar"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "antfu/handle",
+    "description": "A Chinese Hanzi variation of Wordle - 汉字 Wordle",
+    "stargazers_count": 1444,
+    "forks_count": 219,
+    "language": "TypeScript",
+    "homepage": "https://handle.antfu.me",
+    "created_at": "2022-01-28T17:29:34Z",
+    "pushed_at": "2025-02-12T03:34:57Z",
+    "topics": [
+     "game",
+     "wordle",
+     "wordle-chinese"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/case-police",
+    "description": "🚨 Make the case correct, PLEASE!",
+    "stargazers_count": 1424,
+    "forks_count": 91,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2022-03-31T10:19:12Z",
+    "pushed_at": "2026-04-15T01:48:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/qrcode-toolkit",
+    "description": "Anthony's QR Code Toolkit for AI generated QR Codes",
+    "stargazers_count": 1259,
+    "forks_count": 136,
+    "language": "Vue",
+    "homepage": "https://qrcode.antfu.me/",
+    "created_at": "2023-06-26T23:55:05Z",
+    "pushed_at": "2024-07-30T06:07:05Z",
+    "topics": [
+     "qrcode",
+     "qrcode-ai",
+     "qrcode-gene"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/broz",
+    "description": "A simple, frameless browser for screenshots",
+    "stargazers_count": 1136,
+    "forks_count": 39,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2021-05-02T22:04:56Z",
+    "pushed_at": "2026-07-22T05:12:03Z",
+    "topics": [
+     "browser",
+     "electron",
+     "minimalistic",
+     "screenshot"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/antfu.me",
+    "description": "My personal website",
+    "stargazers_count": 1085,
+    "forks_count": 273,
+    "language": "Markdown",
+    "homepage": "https://antfu.me",
+    "created_at": "2021-01-24T10:40:02Z",
+    "pushed_at": "2026-10-19T01:16:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/use",
+    "description": "Things I am using",
+    "stargazers_count": 1079,
+    "forks_count": 16,
+    "language": null,
+    "homepage": null,
+    "created_at": "2022-06-25T03:05:20Z",
+    "pushed_at": "2025-04-14T11:37:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "antfu/starter-ts",
+    "description": "Starter template for TypeScript library",
+    "stargazers_count": 927,
+    "forks_count": 194,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2019-06-16T15:09:52Z",
+    "pushed_at": "2026-10-13T23:56:23Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 20,
+  "languages": [
+   [
+    "TypeScript",
+    14
+   ],
+   [
+    "JavaScript",
+    2
+   ],
+   [
+    "Vue",
+    1
+   ],
+   [
+    "Markdown",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "nuxt/nuxt",
+    "stargazerCount": 60982,
+    "description": "The full-stack Vue framework.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://nuxt.com"
+   },
+   {
+    "nameWithOwner": "vitest-dev/vitest",
+    "stargazerCount": 17276,
+    "description": "Next generation testing framework powered by Vite.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://vitest.dev"
+   },
+   {
+    "nameWithOwner": "slidevjs/slidev",
+    "stargazerCount": 49181,
+    "description": "Presentation Slides for Developers",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://sli.dev"
+   },
+   {
+    "nameWithOwner": "unocss/unocss",
+    "stargazerCount": 18985,
+    "description": "The instant on-demand atomic CSS engine.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://unocss.dev"
+   },
+   {
+    "nameWithOwner": "nuxt/devtools",
+    "stargazerCount": 3309,
+    "description": "Unleash Nuxt Developer Experience",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://devtools.nuxt.com"
+   },
+   {
+    "nameWithOwner": "vueuse/vueuse",
+    "stargazerCount": 22392,
+    "description": "Collection of essential Vue Composition Utilities for Vue 3",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://vueuse.org"
+   }
+  ],
+  "contrib_last_year": 4109,
+  "orgs": [
+   "tc39",
+   "vuejs",
+   "vuejs-jp",
+   "nuxt",
+   "intlify",
+   "wenyan-lang",
+   "nuxtlabs",
+   "vitejs",
+   "type-challenges",
+   "shikijs"
+  ],
+  "profile_readme": "<p align=\"center\">\n  <samp>\n    <a href=\"https://antfu.me\">me</a> .\n    <a href=\"https://antfu.me/posts\">blog</a> .\n    <a href=\"https://antfu.me/projects\">projects</a> .\n    <a href=\"https://antfu.me/talks\">talks</a> .\n    <a href=\"https://antfu.me/podcasts\">podcasts</a> .\n    <a href=\"https://100.antfu.me\">compform</a> .\n    <a href=\"https://bsky.app/profile/antfu.me\">bluesky</a> .\n    <a href=\"https://twitter.com/antfu7\">tweets</a> .\n    <a href=\"https://chat.antfu.me\">discord</a> .\n    <a href=\"https://antfu.me/photos\">photos</a> .\n    <a href=\"https://github.com/sponsors/antfu\">sponsor</a>\n  </samp>\n</p>\n",
+  "readmes": {
+   "nuxt/nuxt": "<a href=\"https://nuxt.com\"></a>\n# Nuxt\n<p>\n  <a href=\"https://npmx.dev/package/nuxt\"></a>\n  <a href=\"https://npmx.dev/package/nuxt\"></a>\n  <a href=\"https://github.com/nuxt/nuxt/blob/main/LICENSE\"></a>\n  <a href=\"https://nuxt.com/modules\"></a>\n  <a href=\"https://nuxt.com\"></a>\n  <a href=\"https://chat.nuxt.dev\"></a>\n  <a href=\"https://securityscorecards.dev/viewer/?uri=github.com/nuxt/nuxt\"></a>\n</p>\nNuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.\nIt provides a number of features that make it easy to build fast, SEO-friendly, and scalable web applications, including:\n- Server-side rendering, static site generation, hybrid rendering and edge-side rendering\n- Automatic routing with code-splitting and pre-fetching\n- Data fetching and state management\n- Search engine optimization and defining meta tags\n- Auto imports of components, composables and utils\n- TypeScript with zero configuration\n- Go full-stack with our server/ directory\n- Extensible with [300+ modules](https://nuxt.com/modules)\n- Deployment to a variety of [hosting platforms](https://nuxt.com/deploy)\n- ...[and much more](https://nuxt.com) 🚀\n### Table of Contents\n- 🚀 [Getting Started](#getting-started)\n- 💻 [Vue Development](#vue-development)\n- 📖 [Documentation](#documentation)\n- 🧩 [Modules](#modules)\n- ❤️ [Contribute](#contribute)\n- 🏠 [Local Development](#local-development)\n- 🛟 [Professional Support](#professional-support)\n- 🔗 [Follow Us](#follow-us)\n- ⚖️ [License](#license)\n---\n## <a name=\"getting-started\">🚀 Getting Started</a>\nUse the following command to create a new starter project. This will create a starter project with all the necessary files and dependencies:\n```bash\nnpm create nuxt@latest <my-project>\n```\n> [!TIP]\n> Discover also [nuxt.new](https://nuxt.new): Open a Nuxt starter on CodeSandbox, StackBlitz or locally to get up and running in a few seconds.\n## <a name=\"vue-development\">💻 Vue Development</a>\nSimple, intuitive and powerful, Nuxt lets you write Vue components in a way that makes sense. Every repetitive task is automated, so you can focus on writing you",
+   "vitest-dev/vitest": "<p align=\"center\">\n  <br>\n  <br>\n  <a href=\"https://vitest.dev\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://vitest.dev/vitest-light.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://vitest.dev/vitest-dark.svg\">\n    </picture>\n  </a>\n  <br>\n  <br>\n  <br>\n</p>\n<h1 align=\"center\">\nVitest\n</h1>\n<p align=\"center\">\nNext generation testing framework powered by Vite.\n<p>\n<p align=\"center\">\n  <a href=\"https://npmx.dev/package/vitest\"></a>\n<p>\n<p align=\"center\">\n<a href=\"https://chat.vitest.dev\"><b>Get involved!</b></a>\n</p>\n<p align=\"center\">\n <a href=\"https://vitest.dev\">Documentation</a> | <a href=\"https://vitest.dev/guide/\">Getting Started</a> | <a href=\"https://vitest.dev/guide/#examples\">Examples</a> | <a href=\"https://vitest.dev/guide/why\">Why Vitest?</a>\n</p>\n<p align=\"center\">\n<a href=\"https://cn.vitest.dev\">中文文档</a>\n</p>\n<h4 align=\"center\">\n</h4>\n<br>\n<br>\n## Features\n- [Vite](https://vitejs.dev/)'s config, transformers, resolvers, and plugins. Use the same setup from your app!\n- [Jest Snapshot](https://jestjs.io/docs/snapshot-testing)\n- [Chai](https://www.chaijs.com/) built-in for assertions, with [Jest expect](https://jestjs.io/docs/expect) compatible APIs\n- [Smart & instant watch mode](https://vitest.dev/guide/features.html#watch-mode), like HMR for tests!\n- [Native code coverage](https://vitest.dev/guide/features.html#coverage) via [`v8`](https://v8.dev/blog/javascript-code-coverage) or [`istanbul`](https://istanbul.js.org/).\n- Jest-compatible mocking, stubbing, and spies.\n- [JSDOM](https://github.com/jsdom/jsdom) and [happy-dom](https://github.com/capricorn86/happy-dom) for DOM and browser API mocking\n- [Browser Mode](https://vitest.dev/guide/browser/) for running component tests in the browser\n- Components testing ([Vue](https://github.com/vitest-tests/browser-examples/tree/main/examples/vue), [React](https://github.com/vitest-tests/browser-examples/tree/main/examples/react), [Svelte](https://github.com/vitest-tests/browser-examples/tree/main/examples/svelte), [Lit](./examples/lit), [Marko](https://github.com/marko-js/examples/tree/master/examples/librar",
+   "slidevjs/slidev": "<br>\n<p align=\"center\">\n<a href=\"https://sli.dev\" target=\"_blank\">\n</a>\n</p>\n<p align=\"center\">\nPresentation <b>slide</b>s for <b>dev</b>elopers 🧑‍💻👩‍💻👨‍💻\n</p>\n<p align=\"center\">\n<a href=\"https://www.npmjs.com/package/@slidev/cli\" target=\"__blank\"></a>\n<a href=\"https://www.npmjs.com/package/@slidev/cli\" target=\"__blank\"></a>\n<a href=\"https://sli.dev/\" target=\"__blank\"></a>\n<a href=\"https://sli.dev/resources/theme-gallery\" target=\"__blank\"></a>\n<br>\n<a href=\"https://github.com/slidevjs/slidev/stargazers\" target=\"__blank\"></a>\n</p>\n<p align=\"center\">\n  <a href=\"https://x.com/antfu7/status/1389604687502995457\">Video Preview</a> | <a href=\"https://sli.dev\">Documentation</a>\n</p>\n<div align=\"center\">\n<table>\n<tbody>\n<td align=\"center\">\n<br>\n<sub>Made possible by my <a href=\"https://github.com/sponsors/antfu\">Sponsor Program 💖</a></sub><br>\n</td>\n</tbody>\n</table>\n</div>\n## Features\n- 📝 [**Markdown-based**](https://sli.dev/guide/syntax) - focus on content and use your favorite editor\n- 🧑‍💻 [**Developer Friendly**](https://sli.dev/guide/syntax#code-blocks) - built-in code highlighting, live coding, etc.\n- 🎨 [**Themable**](https://sli.dev/resources/theme-gallery) - theme can be shared and used with npm packages\n- 🌈 [**Stylish**](https://sli.dev/guide/syntax#embedded-styles) - on-demand utilities via [UnoCSS](https://github.com/unocss/unocss).\n- 🤹 [**Interactive**](https://sli.dev/custom/directory-structure#components) - embedding Vue components seamlessly\n- 🎙 [**Presenter Mode**](https://sli.dev/guide/ui#presenter-mode) - use another window, or even your phone to control your slides\n- 🎨 [**Drawing**](https://sli.dev/features/drawing) - draw and annotate on your slides\n- 🧮 [**LaTeX**](https://sli.dev/features/latex) - built-in LaTeX math equations support\n- 📰 [**Diagrams**](https://sli.dev/guide/syntax#diagrams) - creates diagrams using textual descriptions with [Mermaid](https://mermaid.js.org/)\n- 🌟 [**Icons**](https://sli.dev/features/icons) - access to icons from any icon set directly\n- 💻 [**Editor**](https://sli.dev/guide/index#editor) - integrated editor, or the [VSCode extension](https://sli.dev/features/vscode-extension)\n- 🎥 [**Recording**](https://sli.dev/feature",
+   "unocss/unocss": "<br>\n<p align=\"center\">\n</p>\n<h1 align=\"center\">UnoCSS</h1>\n<p align=\"center\">\nThe instant on-demand Atomic CSS engine.\n</p>\n<p align=\"center\">\n<a href=\"https://www.npmjs.com/package/unocss\"></a></p>\n<blockquote align=\"center\">\n<p>💡 I highly recommend reading this blog post - <br><a href=\"https://antfu.me/posts/reimagine-atomic-css\"><strong>Reimagine Atomic CSS</strong></a><br>for the story behind</p>\n</blockquote>\n<br>\n<p align=\"center\">\n<a href=\"https://unocss.dev/\">📚 Documentation</a> |\n<a href=\"https://unocss.dev/interactive/\">🧑‍💻 Interactive Docs</a> |\n<a href=\"https://unocss.dev/play/\">🤹‍♂️ Playground</a> |\n<a href=\"https://tutorial.unocss.dev/\">🎓 Tutorial</a>\n</p>\n<br>\n## Features\nInspired by [Windi CSS](http://windicss.org/), [Tailwind CSS](https://tailwindcss.com/), and [Twind](https://github.com/tw-in-js/twind), but:\n- [Fully customizable](https://unocss.dev/config/) - no core utilities. All functionalities are provided via presets.\n- No parsing, no AST, no scanning, it's **INSTANT** (5x faster than Windi CSS or Tailwind JIT).\n- ~6kb min+brotli - zero deps and browser friendly.\n- [Shortcuts](https://unocss.dev/config/shortcuts) - aliasing utilities, dynamically.\n- [Attributify mode](https://unocss.dev/presets/attributify/) - group utilities in attributes.\n- [Pure CSS Icons](https://unocss.dev/presets/icons/) - use any icon as a single class.\n- [Variant Groups](https://unocss.dev/transformers/variant-group) - shorthand for group utils with common prefixes.\n- [CSS Directives](https://unocss.dev/transformers/directives) - reuse utils in CSS with `@apply` directive.\n- [Compilation mode](https://unocss.dev/transformers/compile-class/) - synthesizes multiple classes into one at build time.\n- [Inspector](https://unocss.dev/tools/inspector) - inspect and debug interactively.\n- [CSS-in-JS Runtime build](https://unocss.dev/integrations/runtime) - use UnoCSS with one line of CDN import.\n- [VS Code extension](https://marketplace.visualstudio.com/items?itemName=antfu.unocss)\n- Code-splitting for CSS - ships minimal CSS for MPA.\n## Documentation\nRead the [documentation](https://unocss.dev/) for more details.\n## Installation\n- [Vite](https://unocss.dev/integrations/v",
+   "nuxt/devtools": "<a href=\"https://devtools.nuxt.com\"></a>\n<br>\n<h1>\nNuxt DevTools\n</h1>\n[![npm version][npm-version-src]][npm-version-href]\n[![npm downloads][npm-downloads-src]][npm-downloads-href]\n[![License][license-src]][license-href]\n[![Nuxt][nuxt-src]][nuxt-href]\n[![Volta][volta-src]][volta-href]\n<p>\nUnleash Nuxt Developer Experience.\n<br>Nuxt DevTools is a set of visual tools that help you to know your app better.\n</p>\n<p>\n  <a href=\"https://nuxt.com/blog/nuxt-devtools-v1-0\">👋 Introduction</a> |\n  <a href=\"https://github.com/nuxt/devtools/discussions/29\">💡 Ideas & Suggestions</a> |\n  <a href=\"https://github.com/nuxt/devtools/discussions/31\">🗺️ Project Roadmap</a> |\n  <a href=\"https://devtools.nuxt.com/\">📚 Documentation</a>\n</p>\n> [!NOTE]\n> You are at the `main` branch for v4. The v3 branch is [`v3`](https://github.com/nuxt/devtools/tree/v3).\n<br>\n## Installation\n> Nuxt DevTools v4 requires **Nuxt v4.5.0 or higher** (Vite 8). It is built on [Vite DevTools](https://github.com/vitejs/devtools) and shows up as the `Nuxt` group inside the Vite DevTools panel.\nNuxt DevTools is **enabled by default**. You can press <kbd>Shift</kbd> + <kbd>Alt</kbd> / <kbd>⇧ Shift</kbd> + <kbd>⌥ Option</kbd> + <kbd>D</kbd> in your app to open it up.\nIf you want to explicitly enable or disable Nuxt DevTools, you can update your `nuxt.config` with:\n```js\nexport default defineNuxtConfig({\n  devtools: {\n    enabled: true // or false to disable\n  }\n})\n```\n### Nuxt 4\nNuxt 5 ships with Nuxt DevTools v4. Nuxt 4.5+ still bundles v3; override `@nuxt/devtools` to `^4.0.0` with your package manager (`overrides` for npm and pnpm, `resolutions` for yarn), remove your lockfile and reinstall. See the [upgrade guide](https://devtools.nuxt.com/guide/upgrading-to-v4) for details and for what changed.\n### Nightly Release Channel\nSimilar to [Nuxt's Nightly Channel](https://nuxt.com/docs/guide/going-further/nightly-release-channel), DevTools also offers a nightly release channel, that automatically releases for every commit to `main` branch.\nYou can opt-in to the nightly release channel by using package manager resolutions:\n<details>\n<summary>npm</summary>\n```json\n{\n  \"overrides\": {\n    \"@nuxt/devtools\": \"npm:@nuxt/dev"
+  }
+ },
+ "apps": []
+}

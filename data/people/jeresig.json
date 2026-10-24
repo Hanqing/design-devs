@@ -1,0 +1,157 @@
+{
+ "name": "John Resig",
+ "role": "jQuery 创造者 · 可汗学院首席软件架构师 · Ukiyo-e.org 创建者 · 纽约哈德逊河谷",
+ "title": "John Resig：从 jQuery 到<em>日本浮世绘</em>",
+ "dek": "他是 jQuery 的创造者。据维基百科，他 2005 年还在罗切斯特理工学院读书时，因为受够了各浏览器 JavaScript 的不一致而开始写 jQuery，2006 年 1 月在纽约 BarCamp 上公开发布。jQuery 后来成为部署最广的 JavaScript 库，至今仍运行在约 77% 的头部千万网站上。2007 到 2011 年，他在 Mozilla 做 JavaScript 布道师和工具开发者，还做了 Processing.js、选择器引擎 Sizzle 和分布式测试工具 TestSwarm，写了《JavaScript 忍者秘籍》和《精通 JavaScript》两本书。2011 年 5 月他加入可汗学院，现在是首席软件架构师，2012 年主导了可汗学院面向零基础学生的编程课程。业余时间，他是日本木版画（浮世绘）的研究者：他创建的 Ukiyo-e.org 能用一张照片在 24 家以上的机构里搜索相似的版画，收录超过 22 万幅。",
+ "card": "jQuery 创造者；可汗学院首席软件架构师（2011–）；Ukiyo-e.org 创建者，纽约哈德逊河谷。",
+ "location": "美国纽约州哈德逊河谷",
+ "updated": "2026-10-23",
+ "tags": ["jQuery", "教育", "数字人文", "图像检索", "AI 应用"],
+ "links": [
+  {"label": "johnresig.com", "url": "https://johnresig.com"},
+  {"label": "Ukiyo-e.org", "url": "https://ukiyo-e.org"},
+  {"label": "jQuery", "url": "https://jquery.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Creator of @jquery, Chief Software Architect at @khanacademy, Creator of https://ukiyo-e.org/」",
+  "<strong>代表作：</strong>jQuery、Sizzle、Processing.js、TestSwarm、Dromaeo、env-js、FireUnit、可汗学院编程课程、Ukiyo-e.org、《Secrets of the JavaScript Ninja》《Pro JavaScript Techniques》。",
+  "<strong>关键数字：</strong>X 关注者约 23.4 万；GitHub 粉丝约 1.9 万、近一年贡献 8,506 次；Ukiyo-e.org 收录 226,973 幅版画。",
+  "<strong>经历：</strong>罗切斯特理工学院计算机学士（2009）→ Mozilla（2007–2011）→ 可汗学院（2011–）。"
+ ],
+ "lead": "2026 年 9 月，他分享了一组数据：把可汗学院内部的 PR 审查机器人从 Opus 5 换成 Opus 5.5 后，成本下降 50%，工具调用减少 34%，执行时间减少 62%，「质量没有下降」。他在浮世绘项目上也大量用 AI：用模型给数万幅版画做标注和分类，再让另一个模型管理训练，得到一个微调后的模型；从全日文的静态拍卖图录里用 OpenCV 切分并提取版画信息。他还在做一个安静、有氛围的实验小游戏：尽量真实地模拟雕刻日本木版画。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、作者、数字人文研究者"],
+     ["所在地", "美国纽约州哈德逊河谷"],
+     ["工作", "可汗学院首席软件架构师（2011–）"],
+     ["此前", "Mozilla JavaScript 布道师与工具开发者（2007–2011）"],
+     ["教育", "罗切斯特理工学院计算机学士"],
+     ["开源", "jQuery、Sizzle、Processing.js、TestSwarm"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "John 的白天在<strong>可汗学院</strong>：作为首席软件架构师，他关注工程效率，最近在推广用 AI 做代码审查，也夸 GitHub 新的 Stacked PRs 预览「一次把 5 个叠加的 PR 送进合并队列」。"},
+    {"p": "他的另一半时间给了<strong>日本版画</strong>。Ukiyo-e.org 汇集了来自博物馆、大学、图书馆和拍卖行的版画图像与元数据，最大的特点是图像相似度搜索：上传一张照片，就能找到其他收藏里的同一幅或相似的版画。他最近把 Google Analytics 从网站上移除，换成自建的、不用 Cookie 的统计。"},
+    {"note": "本页依据维基百科 John Resig 条目、johnresig.com、ukiyo-e.org、GitHub 个人简介和 X 帖子整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2005–2006", "title": "jQuery", "text": "在 RIT 读书时开始写；2006 年 1 月在 BarCamp NYC 发布。"},
+     {"when": "2007–2011", "title": "Mozilla", "text": "JavaScript 布道与工具；Processing.js、Sizzle、TestSwarm、Dromaeo。"},
+     {"when": "2009", "title": "毕业", "text": "获罗切斯特理工学院计算机学士学位。"},
+     {"when": "2011", "title": "可汗学院", "text": "5 月加入，后来成为首席软件架构师。"},
+     {"when": "2012", "title": "编程课程与 Ukiyo-e.org", "text": "主导可汗学院编程课程；12 月上线浮世绘数据库。"},
+     {"when": "2026", "title": "jQuery 二十年", "text": "AI 代码审查、版画模型微调、木版雕刻游戏。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "jQuery", "url": "https://jquery.com",
+     "meta": ["2006–", "JavaScript", "约 77% 头部网站"],
+     "paras": [
+      "「Write less, do more.」用一个 <code>$</code> 函数统一了各浏览器的 DOM 操作、事件和 Ajax，Drupal 很早就把它作为核心组件，Google、Microsoft、Apple 也在网站上使用。"
+     ]
+    }},
+    {"work": {
+     "name": "Ukiyo-e.org", "url": "https://ukiyo-e.org",
+     "meta": ["2012–", "数字人文", "22.7 万幅"],
+     "paras": [
+      "「Japanese Woodblock Print Search」为研究者打造的浮世绘数据库和图像相似度分析引擎，汇集 24 家以上机构的藏品。"
+     ]
+    }},
+    {"work": {
+     "name": "可汗学院编程课程", "url": "https://www.khanacademy.org/computing/computer-programming",
+     "meta": ["2012–", "教育", "零基础"],
+     "paras": [
+      "为没有编程经验的学生设计的交互式学习环境：一边改代码，一边实时看到画面变化。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Sizzle", "从 jQuery 中独立出来的 CSS 选择器引擎"],
+      ["Processing.js", "把 Processing 语言移植到 JavaScript"],
+      ["TestSwarm", "分布式 JavaScript 持续集成测试"],
+      ["《Secrets of the JavaScript Ninja》", "JavaScript 进阶名著"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://johnresig.com", "paras": [
+     "johnresig.com 是一个 WordPress 站点，分为博客、项目、演讲、研究和关于。项目页列出了他 2011 年以来公开的项目，既有可汗学院的工作，也有 Ukiyo-e.org 等数字人文项目；更早的项目则在博客里。博客最近一篇是《Twitter vs. Mastodon》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "WordPress，Cloudflare"],
+      ["结构", "博客 + 项目 + 演讲 + 研究"],
+      ["更新", "博客较少，项目页持续"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Switched our internal @KhanAcademyEng PR review bot over from Opus 5 to Opus 5.5: Cost decreased by 50% Tool calls decreased by 34% Execution time decreased by 62% No decrease in quality.", "cite": "John Resig，X，2026-09"},
+    {"p": "他常在 X 上分享浮世绘作品和背后的历史，比如川濑巴水 1935 年描绘波托马克河畔华盛顿纪念碑的作品，画中的樱花树是 1912 年日本政府赠送的。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "jQuery 塑造了整整一代 Web 开发", "—"],
+      ["跨界", "工程、教育、艺术史研究", "—"],
+      ["写作", "两本经典 JavaScript 书", "博客更新很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从自己的挫败感出发做工具。</strong>",
+     "<strong>把技术用在你热爱的领域。</strong>",
+     "<strong>用数据衡量新工具的价值。</strong>",
+     "<strong>长期专注于一个机构和使命。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Ukiyo-e.org", "url": "https://ukiyo-e.org", "why": "上传一张图片搜索相似的浮世绘。"},
+     {"name": "可汗学院编程课程", "url": "https://www.khanacademy.org/computing/computer-programming", "why": "看他设计的零基础编程环境。"},
+     {"name": "johnresig.com/projects", "url": "https://johnresig.com/projects/", "why": "浏览他的项目清单。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在 Ukiyo-e.org 上随便点开一幅版画，看看同一幅作品在不同博物馆的藏品之间有什么差别。",
+ "sources": [
+  {"label": "John Resig 的 X 个人资料", "url": "https://x.com/jeresig"},
+  {"label": "维基百科：John Resig", "url": "https://en.wikipedia.org/wiki/John_Resig"},
+  {"label": "johnresig.com", "url": "https://johnresig.com"},
+  {"label": "Ukiyo-e.org：About", "url": "https://ukiyo-e.org/about"},
+  {"label": "GitHub：jeresig", "url": "https://github.com/jeresig"}
+ ]
+}

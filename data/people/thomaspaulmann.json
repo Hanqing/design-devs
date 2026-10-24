@@ -1,0 +1,158 @@
+{
+ "name": "Thomas Paul Mann",
+ "role": "Raycast 联合创始人兼 CEO · Glaze · 前 Facebook 工程师 · 伦敦",
+ "title": "Thomas Paul Mann：为<em>做东西的人</em>做东西",
+ "dek": "他出生在德国，住在伦敦。在 Facebook、奥迪、ProSieben 和弗劳恩霍夫协会做过软件工程师之后，他在 2020 年和 Facebook 前同事 Petr Nikolaev 一起创办了 Raycast：一个用键盘几下就能控制所有工具的 Mac 启动器。Raycast 有一个开放的扩展商店，扩展仓库有 7,800 多颗星，后来又陆续推出 AI、iOS 版和 Windows 版，2024 年完成约 3,000 万美元的 B 轮融资。2026 年，团队推出了 Glaze：用自然语言生成桌面应用。他的 GitHub 简介只有一句：「Make things for people who make things.」",
+ "card": "Raycast 联合创始人兼 CEO（伦敦）；Glaze；前 Facebook、奥迪、ProSieben、弗劳恩霍夫软件工程师。",
+ "location": "英国伦敦",
+ "updated": "2026-10-23",
+ "tags": ["效率工具", "Mac", "创业", "AI", "TypeScript / Swift"],
+ "links": [
+  {"label": "thomaspaulmann.com", "url": "https://thomaspaulmann.com"},
+  {"label": "Raycast", "url": "https://www.raycast.com"},
+  {"label": "Glaze", "url": "https://www.glaze.app"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I like to make things for people who make things. I’m currently crafting Raycast.」",
+  "<strong>代表作：</strong>Raycast（Mac、Windows、iOS）、Raycast 扩展生态（raycast/extensions ★7,805，script-commands ★6,803）、Glaze；早年开源 Swish、HeartControl、EmojiTimeFormatter。",
+  "<strong>融资：</strong>2020 年 Accel 领投种子轮；Accel 与 Coatue 领投 1,500 万美元 A 轮；2024 年 Atomico 领投约 3,000 万美元 B 轮。",
+  "<strong>关键数字：</strong>GitHub 近一年贡献 2,129 次；X 关注者约 1.9 万。"
+ ],
+ "lead": "Thomas 的 X 时间线像是 Raycast 的更新日志：按住 ⌘ 勾选父任务，所有子任务一起完成；新的文件搜索；Auto 模型会直观显示路由器从哪个范围挑模型；「Send Element to AI」把屏幕上任何文字或图片变成 AI 的上下文。他写道：「Improvements compound. Week by week.」这句话就是 Raycast 的产品方法。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "联合创始人兼 CEO、软件工程师"],
+     ["所在地", "英国伦敦（生于德国）"],
+     ["经历", "弗劳恩霍夫协会、ProSieben、奥迪、Facebook 软件工程师 → 2020 年联合创办 Raycast"],
+     ["联合创始人", "Petr Nikolaev（CTO，前 Facebook）"],
+     ["产品", "Raycast、Raycast AI、Raycast for iOS / Windows、Glaze"],
+     ["技术栈", "Swift、TypeScript、React（扩展 API）"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Raycast 的出发点是<strong>减少上下文切换</strong>：开发者每天在各种 SaaS 工具之间来回跳，浪费了大量时间。它最初是 Spotlight 的替代品，后来通过开放的扩展 API 长成一个平台：扩展用 React 和 TypeScript 写，在 Raycast 里渲染成原生界面，覆盖 GitHub、Linear、Notion、Jira、Spotify 等常用服务。"},
+    {"p": "这两年 Raycast 的重心是 AI：多模型聊天、屏幕感知、把 AI 接进每一个扩展。2026 年推出的 Glaze 更进一步：不再只是控制已有的应用，而是让任何人用一句话做出自己的桌面应用。"},
+    {"note": "本页依据 thomaspaulmann.com、Raycast 官网与 GitHub、维基百科及融资报道（Tech.eu、Silicon Canals）和 X 帖子整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "德国的工程师生涯", "text": "在弗劳恩霍夫协会、ProSieben、奥迪做软件；写 Android Gradle 插件。"},
+     {"when": "2016", "title": "Swift 实验", "text": "开源 Swish（在 Xcode 里远程构建 Linux Swift）、watchOS 心率应用 HeartControl。"},
+     {"when": "Facebook 时期", "title": "伦敦", "text": "在 Facebook 做软件工程师，结识 Petr Nikolaev。"},
+     {"when": "2020", "title": "创办 Raycast", "text": "10 月 Accel 领投 270 万美元种子轮。"},
+     {"when": "2022–2024", "title": "平台化", "text": "扩展商店与 AI；A 轮 1,500 万美元；2024 年 B 轮约 3,000 万美元。"},
+     {"when": "2025–2026", "title": "多平台与 Glaze", "text": "Windows 版公开测试（2025 年 11 月）；2026 年 7 月 Glaze 公开测试。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Raycast", "url": "https://www.raycast.com",
+     "meta": ["2020–", "Mac · Windows · iOS"],
+     "paras": [
+      "按 ⌥ 空格打开一个居中的窗口，输入几个字母就能启动应用、搜索文件、管理剪贴板、插入片段、调用扩展或 AI。他最喜欢的功能之一是应用热键：⌥A 打开浏览器，⌥L 打开 Linear，⌥N 打开 Notion。"
+     ]
+    }},
+    {"work": {
+     "name": "Raycast Extensions", "url": "https://github.com/raycast/extensions",
+     "meta": ["开源", "TypeScript", "★7.8 千"],
+     "paras": [
+      "Raycast 应用本身闭源，但商店里的扩展全部开源在一个仓库里，任何人都可以提交。script-commands 仓库则让人用 Shell、Python 等脚本快速扩展 Raycast。"
+     ]
+    }},
+    {"work": {
+     "name": "Glaze", "url": "https://www.glaze.app",
+     "meta": ["2026", "桌面应用生成器"],
+     "paras": [
+      "2026 年 7 月公开测试并登上 Product Hunt。Raycast 团队成员用它做菜单栏小工具和个人应用，并发布到 Glaze 商店。"
+     ]
+    }},
+    {"table": {
+     "cols": ["早期开源", "年份", "说明"],
+     "rows": [
+      ["Swish", "2016", "在 Xcode 里把 Swift 项目放到远程 Linux 机器上构建（★274）"],
+      ["HeartControl", "2016", "watchOS 3 上持续测量心率（★201）"],
+      ["EmojiTimeFormatter", "2016", "把时间格式化成表情符号"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://thomaspaulmann.com", "paras": [
+     "个人网站只有一段话：出生地、所在地、正在做 Raycast、之前的四个雇主，以及三个链接：打招呼、fork 代码、转发推文。他的大部分表达在 Raycast 的博客、更新日志和 X 上。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel 托管"],
+      ["结构", "单段落名片"],
+      ["表达渠道", "X、Raycast 博客、演讲（如 Bits & Pretzels）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Improvements compound. Week by week.", "cite": "Thomas Paul Mann，X，2026-10"},
+    {"p": "他在 X 上分享的多是工作流：用 AI 从一个数据源读取、更新另一个，比如日历、PR、Notion 页面；在 Notion 午餐会上演示自己的自动化。Raycast 也在旧金山、纽约、伦敦、巴黎举办「The New Standard」线下活动。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "细节打磨与迭代速度出色", "—"],
+      ["生态", "开源扩展吸引大量开发者", "核心应用闭源"],
+      ["战略", "从启动器扩展到 AI 和应用生成", "产品面变宽，定位需要持续讲清楚"],
+      ["融资", "多轮顶级投资方", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>开放生态：</strong>闭源核心 + 开源扩展。",
+     "<strong>每周改进：</strong>小细节会复利。",
+     "<strong>CEO 也要用产品：</strong>他的时间线就是用户反馈。",
+     "<strong>从开发者痛点出发：</strong>上下文切换就是机会。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Raycast", "url": "https://www.raycast.com", "why": "给你最常用的五个应用设上热键。"},
+     {"name": "raycast/extensions", "url": "https://github.com/raycast/extensions", "why": "用 React 写一个自己的扩展。"},
+     {"name": "Glaze", "url": "https://www.glaze.app", "why": "一句话做一个桌面小工具。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "数一数你今天在多少个应用之间切换过，挑最频繁的三个，给它们设一个快捷键。",
+ "sources": [
+  {"label": "Thomas Paul Mann 的 X 个人资料", "url": "https://x.com/thomaspaulmann"},
+  {"label": "thomaspaulmann.com", "url": "https://thomaspaulmann.com"},
+  {"label": "维基百科：Raycast (software)", "url": "https://en.wikipedia.org/wiki/Raycast_(software)"},
+  {"label": "Tech.eu：Raycast 1,500 万美元融资", "url": "https://tech.eu/brief/blazingly-fast-raycast-raises-15-million-in-accel-and-coatue-led-round/"},
+  {"label": "Silicon Canals：Raycast B 轮 2,700 万欧元", "url": "https://siliconcanals.com/?p=54470"},
+  {"label": "GitHub：raycast/extensions", "url": "https://github.com/raycast/extensions"}
+ ]
+}

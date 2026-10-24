@@ -1,0 +1,159 @@
+{
+ "name": "Ricardo Cabello（mrdoob）",
+ "role": "three.js 作者 · 创意编程 · demoscene 出身 · stats.js、GLSL Sandbox、frame.js 作者",
+ "title": "mrdoob：让网页<em>有了三维</em>",
+ "dek": "TA 的 X 简介是一句自嘲：「Award losing non creative junior vibe coder. May or may not have something to do with @threejs.」这个「可能有关系」的项目，是网页 3D 图形的事实标准 three.js：TA 在 2010 年 4 月把它发布到 GitHub，它的源头可以追溯到 TA 在 2000 年代初参与的 demoscene（演示场景）创作，最初用 Flash 的 ActionScript 写，2009 年移植到 JavaScript。如今 three.js 有 11.7 万颗星、两千多位贡献者，支持 WebGL 和 WebGPU 渲染。TA 还写了网页性能监视器 stats.js、着色器画廊 GLSL Sandbox 和序列编辑器 frame.js。这两年 TA 用 AI 做了一连串好玩的东西：把《雷神之锤》（Quake）移植到 three.js、一个只有 784 KB 的程序化纽约城市模拟，以及 Kenney 赛车游戏模板的 JavaScript 版。",
+ "card": "three.js（★11.7 万）作者；stats.js、GLSL Sandbox、frame.js 作者；demoscene 出身的创意编程者。",
+ "location": "未公开（X 写着 BCN › LDN › SFO › TOK）",
+ "updated": "2026-10-23",
+ "tags": ["3D 图形", "WebGL / WebGPU", "创意编程", "开源", "demoscene"],
+ "links": [
+  {"label": "three.js", "url": "https://threejs.org"},
+  {"label": "mrdoob.com", "url": "https://mrdoob.com"},
+  {"label": "GitHub：mrdoob", "url": "https://github.com/mrdoob"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>维基百科：「Three.js was first released by Ricardo Cabello on GitHub in April 2010.」",
+  "<strong>代表作：</strong>three.js（★116,839）、stats.js（★9,151）、texgen.js、GLSL Sandbox（★1,686）、frame.js、Harmony 程序化绘画工具、three-quake、slop-newyork、Starter Kit Racing、three.wasm 实验。",
+  "<strong>关键数字：</strong>three.js 分叉 3.7 万、贡献者 2,000+；GitHub 粉丝约 2.6 万；X 关注者约 9.1 万。",
+  "<strong>社群：</strong>demoscene 团体 xplsv 成员（GitHub 组织）。"
+ ],
+ "lead": "2026 年 10 月，mrdoob 发了一个链接：「花了几周的 token，做了一个完全程序化生成的纽约模拟。」整个城市只有 784 KB（gzip 后），代码开源在 GitHub 上，叫 slop-newyork。第二天 TA 又加了车辆音效、环境声、手柄支持和更好的交通系统。不到一天，这条帖子就有三千多个赞，TA 还开玩笑说：「我们在 GTA 6 之前先拿到了 GTA 7。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开源作者、创意程序员"],
+     ["所在地", "未公开（X 列出巴塞罗那、伦敦、旧金山、东京）"],
+     ["背景", "2000 年代初参与 demoscene；早年用 Flash / ActionScript 创作"],
+     ["开源", "three.js、stats.js、GLSL Sandbox、frame.js、texgen.js、Harmony"],
+     ["技术栈", "JavaScript、WebGL、WebGPU、GLSL、TypeScript"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "mrdoob 仍然是 <strong>three.js 的核心维护者</strong>。它的目标写在 README 第一句：做一个易用、轻量、跨浏览器、通用的 3D 库。维基百科记载，TA 的贡献包括 API 设计、Canvas 与 SVG 渲染器，以及负责合并各方贡献；而 WebGL 渲染器能顺利加入，正是因为渲染代码一开始就被设计成独立模块。"},
+    {"p": "TA 也在用 AI 加速创作，并对此毫不避讳：Starter Kit Racing 的 README 写着「用 Claude 移植到 JavaScript」；一个识别汉字、给出假名、罗马音和英文的网页应用，全部用本地模型在设备上运行；当 demoscene 社区 pouët 上 AI 反感情绪高涨时，TA 干脆「vibe code 了一个关于这件事的 demo」。"},
+    {"note": "本页依据维基百科 Three.js 条目、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。个人网站 mrdoob.com 是一个纯 three.js 作品页，没有文字自述；TA 的雇主和所在地未公开，性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2000 年代初", "title": "demoscene", "text": "参与演示场景创作，用 Flash 写图形程序。"},
+     {"when": "2009", "title": "转向 JavaScript", "text": "认为 JS 平台无关、无需编译，把 3D 引擎从 ActionScript 移植过来。"},
+     {"when": "2010", "title": "three.js 与 stats.js", "text": "4 月在 GitHub 发布 three.js；同年发布 stats.js、Harmony。"},
+     {"when": "2011–2015", "title": "工具", "text": "GLSL Sandbox 着色器画廊、frame.js 序列编辑器、texgen.js 纹理生成。"},
+     {"when": "2020 年代", "title": "WebGL 2 与 WebGPU", "text": "three.js 默认使用 WebGL 2，并加入 WebGPU 渲染器。"},
+     {"when": "2026", "title": "AI 创作", "text": "three-quake、three.wasm、Starter Kit Racing、slop-newyork、izakaya-yomi。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "three.js", "url": "https://threejs.org",
+     "meta": ["2010–", "JavaScript", "★11.7 万"],
+     "paras": [
+      "「JavaScript 3D Library.」从产品展示、数据可视化到游戏和艺术，大量网页 3D 体验都建立在它之上。当前版本内置 WebGL 和 WebGPU 两种渲染器。"
+     ],
+     "facts": [["GitHub", "★116,839 · ⑂36,706"]]
+    }},
+    {"work": {
+     "name": "stats.js", "url": "http://mrdoob.github.io/stats.js/",
+     "meta": ["2010–", "JavaScript", "★9.2 千"],
+     "paras": [
+      "页面角落那个显示 FPS、帧耗时和内存的小方块。几乎每个网页图形开发者都见过它。"
+     ]
+    }},
+    {"work": {
+     "name": "slop-newyork", "url": "https://mrdoob.github.io/slop-newyork/",
+     "meta": ["2026", "程序化城市"],
+     "paras": [
+      "完全程序化生成的纽约模拟，gzip 后只有 784 KB，有车流、音效和手柄支持，代码开源。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["GLSL Sandbox", "在线着色器编辑器与画廊（★1,686）"],
+      ["frame.js", "JavaScript 序列编辑器，用于网页演示与动画"],
+      ["three-quake", "把 Quake 移植到 three.js"],
+      ["three.wasm", "「快 8 倍的 JavaScript 3D 库」实验（已归档）"],
+      ["netex", "带内置开发者工具面板的极简 Android 浏览器"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://mrdoob.com", "paras": [
+     "mrdoob.com 没有自我介绍，只有用 three.js 渲染的作品。three.js 官网首页则是一面巨大的作品墙，展示全球开发者用它做出的网站和实验。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "纯作品页，GitHub Pages"],
+      ["项目官网", "threejs.org：作品墙、文档、编辑器、示例"],
+      ["演示", "大部分新作发布在 mrdoob.github.io"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "All these game devs giving shit to Unreal for leaning into AI seem to be oblivious of what's going on.", "cite": "mrdoob，X，2026-10"},
+    {"p": "TA 对 AI 的态度很明确：拥抱。看到 Epic 的 Tim Sweeney 说要和自己竞争，TA 只回了一个表情；而 TA 自己的回应方式是继续做东西，用一个又一个开源 demo 说明网页还能做什么。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "网页 3D 的事实标准", "—"],
+      ["社区", "两千多位贡献者，维护十六年", "版本迭代快，升级时需关注破坏性变更"],
+      ["创作", "持续产出有趣的 demo", "—"],
+      ["公开信息", "—", "个人经历很少公开"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>平台会变，抓住趋势：</strong>从 Flash 到 JS，再到 WebGPU。",
+     "<strong>架构要留余地：</strong>渲染器模块化，新技术才能接进来。",
+     "<strong>小体积也能做大世界：</strong>784 KB 的城市。",
+     "<strong>一直玩下去：</strong>十六年后还在做 demo。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "three.js 示例", "url": "https://threejs.org/examples/", "why": "从几百个例子里挑一个改改。"},
+     {"name": "slop-newyork", "url": "https://mrdoob.github.io/slop-newyork/", "why": "在浏览器里逛一圈纽约。"},
+     {"name": "GLSL Sandbox", "url": "https://glslsandbox.com", "why": "写一个自己的着色器。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 three.js 的入门示例做一个旋转的立方体，然后给它换上你自己的着色器。",
+ "sources": [
+  {"label": "mrdoob 的 X 个人资料", "url": "https://x.com/mrdoob"},
+  {"label": "维基百科：Three.js", "url": "https://en.wikipedia.org/wiki/Three.js"},
+  {"label": "three.js", "url": "https://threejs.org"},
+  {"label": "GitHub：mrdoob/three.js", "url": "https://github.com/mrdoob/three.js"},
+  {"label": "GitHub：mrdoob/slop-newyork", "url": "https://github.com/mrdoob/slop-newyork"}
+ ]
+}

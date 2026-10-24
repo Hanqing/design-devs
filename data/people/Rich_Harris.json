@@ -1,0 +1,160 @@
+{
+ "name": "Rich Harris",
+ "role": "Svelte 作者 · Rollup 作者 · Vercel 工程师 · 前《卫报》《纽约时报》互动图表编辑 · 纽约",
+ "title": "Rich Harris：为<em>其余的我们</em>做 Web 开发",
+ "dek": "他学的是新闻，先后在《卫报》和《纽约时报》的互动图表部门工作，为新闻报道做可视化和交互作品。正是在这样的工作里，他做出了一系列改变前端生态的工具：JavaScript 模块打包器 Rollup（★2.6 万），以及把声明式组件编译成精准更新 DOM 的高效 JavaScript 的框架 Svelte（★8.8 万）。Svelte 这个名字是他和《卫报》同事一起选的。2021 年 11 月，他离开《纽约时报》加入 Vercel，全职做 Svelte。2024 年 10 月，Svelte 5 发布。他还写了 magic-string、degit、ramjet 等被广泛依赖的小工具。他的 X 简介写着「Cheese fan」，现在主要在 Bluesky 上发帖。",
+ "card": "Svelte（★8.8 万）、Rollup（★2.6 万）作者；Vercel 工程师，前《卫报》《纽约时报》互动图表编辑，纽约。",
+ "location": "美国纽约",
+ "updated": "2026-10-23",
+ "tags": ["Svelte", "编译器", "构建工具", "数据新闻", "开源"],
+ "links": [
+  {"label": "Svelte", "url": "https://svelte.dev"},
+  {"label": "Rollup", "url": "https://rollupjs.org"},
+  {"label": "Bluesky", "url": "https://bsky.app/profile/rich-harris.dev"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>Svelte 的口号「web development for the rest of us」。",
+  "<strong>代表作：</strong>Svelte（★88,428）、SvelteKit、Rollup（★26,303）、degit（★7,951）、ramjet（★5,430）、magic-string（★2,780）、Pancake、svelte-cubed、shimport、estree-walker、sorcery。",
+  "<strong>经历：</strong>记者出身 → 《卫报》互动图表 → 《纽约时报》 → Vercel（2021 年 11 月起）。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 2.1 万、395 个公开仓库；X 关注者约 9.5 万。"
+ ],
+ "lead": "2024 年 10 月 19 日，Rich 在 X 上发了一句全大写：「SVELTE 5 IS ALIVE!」然后说第一件事是去睡觉。几天后，他又发了一条更像他的帖子：一切都准备好上线了，「但我们在调试一些疯狂的 Safari bug，每次我想做点东西都会这样」。同一周，Svelte 官网改版，他预告说：「和所有改版一样，我预计会有一大批人说我们把一切都改糟了，但请听我说完。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、前新闻图表编辑"],
+     ["所在地", "美国纽约"],
+     ["经历", "《卫报》互动图表 → 《纽约时报》 → Vercel（2021.11–）"],
+     ["开源", "Svelte、SvelteKit、Rollup、magic-string、degit、ramjet"],
+     ["技术栈", "JavaScript、TypeScript、编译器、AST 工具"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Rich 的核心想法是<strong>让框架在编译时消失</strong>。Svelte 不是在浏览器里运行一个庞大的运行时，而是在构建时把组件编译成直接操作 DOM 的代码。Svelte 5 引入了「runes」响应式系统，SvelteKit 则是基于它的全栈应用框架。"},
+    {"p": "他的很多小工具都来自编译器工作的需要：magic-string 让你在修改源码字符串的同时生成 source map；estree-walker 遍历符合 ESTree 规范的语法树；sorcery 把一串 source map 追溯回最初的源文件；code-red 是写「X 编译到 JavaScript」编译器的实验工具包。"},
+    {"note": "本页依据 GitHub 仓库与 README、维基百科 Svelte 条目、InfoWorld 与 The New Stack 的报道以及 X 帖子整理，资料截至 2026 年 10 月。他 2024 年底起主要在 Bluesky 发帖，X 上最新内容停留在 2024 年。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "新闻与图表", "text": "学新闻，进入《卫报》互动图表部门；做了 Ractive.js。"},
+     {"when": "2014–2015", "title": "构建工具", "text": "ramjet、magic-string、sorcery、estree-walker；发布 Rollup。"},
+     {"when": "2016", "title": "Svelte", "text": "发布编译型 UI 框架 Svelte。"},
+     {"when": "2017–2021", "title": "《纽约时报》时期", "text": "degit、butternut、shimport、Pancake、svelte-cubed；Svelte 3 带来编译时响应式。"},
+     {"when": "2021.11", "title": "加入 Vercel", "text": "全职做 Svelte 和 SvelteKit。"},
+     {"when": "2024", "title": "Svelte 5", "text": "10 月发布 Svelte 5 与新版官网、新 CLI。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Svelte", "url": "https://svelte.dev",
+     "meta": ["2016–", "编译器", "★8.8 万"],
+     "paras": [
+      "「Svelte is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.」在前端开发者调查里，它长期是喜爱度最高的框架之一。"
+     ],
+     "facts": [["GitHub", "★88,428"]]
+    }},
+    {"work": {
+     "name": "Rollup", "url": "https://rollupjs.org",
+     "meta": ["2015–", "ES 模块打包", "★2.6 万"],
+     "paras": [
+      "「Next-generation ES module bundler.」最早把 tree-shaking 推广开的打包器之一，后来成为 Vite 生产构建的基础。"
+     ]
+    }},
+    {"work": {
+     "name": "degit", "url": "https://github.com/Rich-Harris/degit",
+     "meta": ["2017–", "项目脚手架", "★8 千"],
+     "paras": [
+      "「Straightforward project scaffolding.」不带 git 历史地复制一个仓库，比 git clone 更快，常用来拉取项目模板。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["magic-string", "修改字符串并生成 source map（★2,780）"],
+      ["ramjet", "把 DOM 元素平滑变形成另一个状态（★5,430）"],
+      ["svelte-cubed", "Svelte + Three.js"],
+      ["Pancake", "实验性的 Svelte 图表库"],
+      ["headless-qr", "简单现代的二维码库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://svelte.dev", "paras": [
+     "Rich 的 X 链接是一个玩笑：一个指向 Rick Astley《Never Gonna Give You Up》的短链接。他的 GitHub 指向 rich-harris.co.uk，他的主要表达阵地是 Svelte 官网博客和 Bluesky。2024 年 Svelte 官网改版为「omnisite」，把文档、教程、演练场和博客整合在一处。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "rich-harris.co.uk"],
+      ["项目官网", "svelte.dev（含博客、教程、演练场）"],
+      ["社交", "Bluesky 为主"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "the site has been redesigned, and as with all redesigns i expect a loud chorus of people telling us we've made everything worse — but hear me out", "cite": "Rich Harris，X，2024-10"},
+    {"p": "他的演讲常常不只讲技术：2024 年他做过一场关于丁丁漫画、黑进 WordPress 和字体的演讲。他对 Safari 的抱怨在开发者圈也很有名。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["创新", "编译型框架的开创者之一", "—"],
+      ["工具", "Rollup 等成为生态基础设施", "—"],
+      ["生态", "Svelte 口碑极好", "生态规模仍小于 React"],
+      ["公开表达", "—", "X 已基本不用；言论有时尖锐"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>在真实的工作压力下做工具：</strong>新闻截稿催生了 Svelte。",
+     "<strong>把工作挪到编译时。</strong>",
+     "<strong>小工具也能成为基础设施。</strong>",
+     "<strong>为「其余的我们」设计。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Svelte 教程", "url": "https://svelte.dev/tutorial", "why": "十分钟体验编译型框架。"},
+     {"name": "Rollup", "url": "https://rollupjs.org", "why": "理解 tree-shaking。"},
+     {"name": "magic-string", "url": "https://github.com/Rich-Harris/magic-string", "why": "看一个优雅的小库。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 Svelte 写一个计数器组件，然后打开编译后的 JavaScript，看看框架「消失」后剩下了什么。",
+ "sources": [
+  {"label": "Rich Harris 的 X 个人资料", "url": "https://x.com/Rich_Harris"},
+  {"label": "维基百科：Svelte", "url": "https://en.wikipedia.org/wiki/Svelte"},
+  {"label": "InfoWorld：Svelte creator interview", "url": "https://www.infoworld.com/article/3639521/svelte-creator-web-development-should-be-more-fun.html"},
+  {"label": "The New Stack：Vercel and Svelte", "url": "https://thenewstack.io/vercel-and-svelte-a-perfect-match-for-web-developers/"},
+  {"label": "GitHub：Rich-Harris", "url": "https://github.com/Rich-Harris"},
+  {"label": "GitHub：sveltejs/svelte", "url": "https://github.com/sveltejs/svelte"}
+ ]
+}

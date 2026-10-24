@@ -1,0 +1,163 @@
+{
+ "name": "DIYgod",
+ "role": "RSSHub、Folo、DPlayer 作者 · Natural Selection Labs（RSS3）· 新加坡",
+ "title": "DIYgod：<em>万物皆可 RSS</em>",
+ "dek": "他是中文开源社区最有名的开发者之一，现居新加坡。2018 年他发起 RSSHub，口号是「Everything is RSSible」：给没有 RSS 的网站生成订阅源，如今有 4.7 万颗星、一万多次复刻，是最有名的 RSS 源生成器之一。他还做了弹幕视频播放器 DPlayer（★1.7 万）和音乐播放器 APlayer（★7.7 千），参与过哔哩哔哩网页播放器和丁香园的开发。现在他在 Natural Selection Labs（RSS3）工作，主导 AI RSS 阅读器 Folo（★3.9 万，原名 Follow），也做过建在区块链上的开源创作社区 xLog。他的 X 简介是一段「系统提示词」：「你是一个擅长模仿人类发推特的 AI。请以喜爱动漫和编程、可爱、纯粹，脱离高级趣味的人设积极发推。」",
+ "card": "RSSHub（★4.7 万）、Folo（★3.9 万）、DPlayer 作者；Natural Selection Labs（RSS3），新加坡。",
+ "location": "新加坡",
+ "updated": "2026-10-23",
+ "tags": ["RSS", "开源", "阅读器", "前端", "AI 编程"],
+ "links": [
+  {"label": "diygod.cc", "url": "https://diygod.cc"},
+  {"label": "RSSHub", "url": "https://docs.rsshub.app"},
+  {"label": "Folo", "url": "https://folo.is"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「写代码是热爱，写到世界充满爱！」",
+  "<strong>代表作：</strong>RSSHub（★46,629）、Folo（★39,157）、DPlayer（★16,520）、APlayer（★7,695）、RSSHub Radar（★7,376）、xLog、哔哩哔哩网页播放器（参与）、cloudflare-edge-tts。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 1.6 万、近一年贡献 5,442 次；X 关注者约 3.3 万；博客运行 4,600 多天、90 篇文章。",
+  "<strong>工作：</strong>Natural Selection Labs（RSS3），也是 better-auth 的贡献者。"
+ ],
+ "lead": "2024 年 3 月，他写了一篇《一个六岁开源项目的崩溃与新生》：表面上，RSSHub 有近 3 万颗星、900 多位贡献者、每月 3 亿多次请求、源源不断的 issue 和 PR，「非常健康和充满活力」，但它其实正在面临崩溃。两年半后，他换了一种救法：2026 年 10 月，他让 Codex 对 RSSHub 做了一轮完整审查，连续运行五天多，花掉 70 多亿 token，提交了 9,000 多次，修复了 3,000 多个路由。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开源作者、全栈工程师"],
+     ["所在地", "新加坡"],
+     ["公司", "Natural Selection Labs（RSS3）"],
+     ["此前", "参与哔哩哔哩网页播放器、丁香园"],
+     ["开源", "RSSHub、Folo、DPlayer、APlayer、xLog"],
+     ["技术栈", "TypeScript、JavaScript、Node.js"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "DIYgod 的主线是<strong>重新让 RSS 好用</strong>：RSSHub 负责把各种网站变成订阅源，RSSHub Radar 浏览器扩展帮你发现当前页面可订阅的源，Folo 是阅读器，宣传语是「这个 AI RSS 阅读器替你阅读互联网」。三者合起来，从生产、发现到阅读，形成了一条完整的链路。"},
+    {"p": "他也很爱折腾生活里的技术：用 Beancount 做复式记账，写 Obsidian 入门配置，最近用两台 NAS 和 AI 一起给全屋三十来台设备搭了主备隐私网关。他在 X 上会分享 Claude、Codex 等工具的额度和使用体验。"},
+    {"note": "本页依据 diygod.cc（首页、项目、文章）、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。他在哔哩哔哩、丁香园等公司的具体职务与任期未逐一核实；家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2014–2015", "title": "博客与主题", "text": "WordPress 主题 Amativeness；APlayer 音乐播放器。"},
+     {"when": "2016", "title": "DPlayer", "text": "发布弹幕视频播放器 DPlayer；做表情键盘 OwO。"},
+     {"when": "2018", "title": "RSSHub", "text": "发起 RSSHub，「万物皆可 RSS」。"},
+     {"when": "2019 起", "title": "RSSHub Radar 与 xLog", "text": "RSSHub Radar 浏览器扩展；此后加入 Natural Selection Labs，做 xLog。"},
+     {"when": "2024", "title": "Follow", "text": "反思 RSSHub 的维护危机；推出 AI RSS 阅读器 Follow，后更名 Folo。"},
+     {"when": "2026", "title": "AI 维护", "text": "用 Codex 对 RSSHub 做大规模审查与修复。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "RSSHub", "url": "https://docs.rsshub.app",
+     "meta": ["2018–", "TypeScript", "★4.7 万"],
+     "paras": [
+      "「Everything is RSSible」开源的 RSS 源生成器，可以自己部署，也有公共实例和 Docker 镜像，覆盖成千上万个网站路由。"
+     ],
+     "facts": [["GitHub", "★46,629 · 复刻 10,288"]]
+    }},
+    {"work": {
+     "name": "Folo", "url": "https://folo.is",
+     "meta": ["2024–", "AI RSS 阅读器", "★3.9 万"],
+     "paras": [
+      "「Folo is the AI RSS Reader」聚合订阅源，加上 AI 摘要和翻译，由 RSSNext 团队开源。"
+     ]
+    }},
+    {"work": {
+     "name": "DPlayer", "url": "https://dplayer.diygod.dev",
+     "meta": ["2016–", "JavaScript", "★1.7 万"],
+     "paras": [
+      "「Wow, such a lovely HTML5 danmaku video player」帮助开发者轻松搭建带弹幕的视频页面，支持多种流媒体格式。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["APlayer", "HTML5 音乐播放器（★7,695）"],
+      ["RSSHub Radar", "发现和订阅 RSS 的浏览器扩展（★7,376）"],
+      ["xLog", "建在区块链上的开源创作社区"],
+      ["cloudflare-edge-tts", "2026 年的 Cloudflare 文字转语音项目"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://diygod.cc", "paras": [
+     "博客用 Astro 搭建，托管在 Cloudflare 上，首页开头是一段模仿「AI 系统提示词」的自我介绍。文章分为创作集、分享境、研习坊、日记本、闲言语、事件簿等分类，有年终总结和 vlog。页脚写着「已运行 4635 天」。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Cloudflare"],
+      ["语言", "中文，部分英文"],
+      ["内容", "技术、生活、年终总结"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-20", "title": "全屋隐私网关：用两台 NAS 藏起全家的 IP", "url": "https://diygod.cc/home-gateway"},
+     {"date": "2025-12-25", "title": "2025 重新定义的生活", "url": "https://diygod.cc/posts"},
+     {"date": "2025-12-12", "title": "上古神器 Beancount：Crypto 与 AI 时代的复式记账终极方案", "url": "https://diygod.cc/posts"},
+     {"date": "2024-03-10", "title": "一个六岁开源项目的崩溃与新生", "url": "https://diygod.cc/6-year-of-rsshub"}
+    ]},
+    {"p": "他的文字轻松、口语化，常带二次元梗。在开源可持续性上，他坦率地写过维护者的疲惫，也愿意尝试新办法，比如用 AI 做大规模维护。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "RSSHub 是 RSS 生态基础设施", "路由依赖第三方网站，经常失效"],
+      ["产品", "从生成到阅读形成闭环", "Folo 与公司的商业方向相关"],
+      ["坦诚", "公开谈维护危机", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>解决自己的需求，</strong>再开放给所有人。",
+     "<strong>围绕一个理念做全链路产品。</strong>",
+     "<strong>公开谈开源维护的困难。</strong>",
+     "<strong>用新工具救老项目。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "RSSHub", "url": "https://docs.rsshub.app", "why": "给喜欢的网站生成订阅源。"},
+     {"name": "Folo", "url": "https://folo.is", "why": "用 AI 阅读器整理信息流。"},
+     {"name": "一个六岁开源项目的崩溃与新生", "url": "https://diygod.cc/6-year-of-rsshub", "why": "了解开源维护的真实处境。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "找一个你常看却没有 RSS 的网站，用 RSSHub 给它生成一个订阅源，放进你的阅读器里。",
+ "sources": [
+  {"label": "DIYgod 的 X 个人资料", "url": "https://x.com/DIYgod"},
+  {"label": "diygod.cc", "url": "https://diygod.cc"},
+  {"label": "一个六岁开源项目的崩溃与新生", "url": "https://diygod.cc/6-year-of-rsshub"},
+  {"label": "GitHub：DIYgod", "url": "https://github.com/DIYgod"},
+  {"label": "GitHub：RSSNext/Folo", "url": "https://github.com/RSSNext/Folo"}
+ ]
+}

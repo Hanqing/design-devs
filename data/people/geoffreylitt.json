@@ -1,0 +1,159 @@
+{
+ "name": "Geoffrey Litt",
+ "role": "可塑软件（malleable software）研究者 · Notion · 前 Ink & Switch 资深研究员 · MIT HCI 博士",
+ "title": "Geoffrey Litt：让每个人都能<em>改造自己的软件</em>",
+ "dek": "他研究「可塑软件」：在这种计算环境里，任何人都能以最小的阻力改造软件，让它适合自己。他本科在耶鲁读电子工程与计算机科学，早年在创业公司做设计和工程，后来在 MIT 读人机交互博士，导师是 Daniel Jackson；之后在独立研究实验室 Ink & Switch 当资深研究员，2025 年参与发表了长文《Malleable software: Restoring user agency in a world of locked-down apps》。现在他在 Notion 继续这条路。他做过 Wildcard：一个把网页数据变成表格、用公式改造网站的浏览器扩展；也写过一系列被广泛转发的 AI 交互文章，比如《Enough AI copilots! We need AI HUDs》和《Code like a surgeon》。",
+ "card": "Notion 可塑软件方向；前 Ink & Switch 资深研究员，MIT HCI 博士；Wildcard、《Malleable software》作者。",
+ "location": "美国旧金山",
+ "updated": "2026-10-23",
+ "tags": ["可塑软件", "人机交互", "AI 交互", "终端用户编程", "研究"],
+ "links": [
+  {"label": "geoffreylitt.com", "url": "https://www.geoffreylitt.com"},
+  {"label": "Malleable software", "url": "https://www.inkandswitch.com/essay/malleable-software/"},
+  {"label": "Wildcard", "url": "https://www.geoffreylitt.com/wildcard/"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「My core skill is designing and prototyping environments for thinking.」",
+  "<strong>代表作：</strong>《Malleable software》（Ink & Switch，2025）、Wildcard（★302）、Margin Notes、Stevens（基于一张 SQLite 表和几个定时任务的 AI 助手）、ambsheet 和 meta-spreadsheet 等电子表格实验、Notion 的 Instacart Worker。",
+  "<strong>教育：</strong>耶鲁大学电子工程与计算机科学学士；MIT HCI 博士（导师 Daniel Jackson）。",
+  "<strong>关键数字：</strong>X 关注者约 2.6 万；GitHub 91 个公开仓库。"
+ ],
+ "lead": "Geoffrey 在 X 上讲过一个高中故事：他在课上无聊，用 TI-83 BASIC 写了一个会给出「略微错误答案」的恶作剧计算器，准备装到朋友的计算器上，结果自己在化学考试时不小心用了它。很多年后，他研究的问题本质上没变：普通人能不能像改计算器程序那样，随手改造自己每天用的软件？",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "研究者、设计师、工程师"],
+     ["所在地", "美国旧金山"],
+     ["教育", "耶鲁大学 EECS 学士；MIT 人机交互博士"],
+     ["经历", "创业公司设计与工程 → MIT CSAIL 博士 → Ink & Switch 资深研究员 → Notion"],
+     ["研究方向", "可塑软件、终端用户编程、电子表格、AI 辅助编程"],
+     ["技术栈", "TypeScript、JavaScript、Ruby、OCaml"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Geoffrey 认为 <strong>AI 辅助编程能开启「个人软件」的新时代</strong>：让程序员更开心，也让普通人能做出只为自己服务的工具。他的文章《AI-generated tools can make programming more fun》和《Stevens》都在示范这件事：用很小的代码量，搭一个完全按自己需求运转的助手。"},
+    {"p": "在交互设计上，他反对把一切都做成聊天框。《Enough AI copilots! We need AI HUDs》主张 AI 应该像飞行员的抬头显示器一样，把信息直接叠加在你的工作环境里，而不是坐在旁边等你提问。在 Notion，他关注的是团队如何共享 Agent 的上下文、技能和记忆。"},
+    {"note": "本页依据 geoffreylitt.com（首页与文章）、Ink & Switch、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012–2014", "title": "耶鲁", "text": "做选课工具 classroulette；毕业设计是一台激光扫描仪。"},
+     {"when": "此后", "title": "创业公司", "text": "做设计与工程；开源 Rails 推荐引擎 simple_recommender。"},
+     {"when": "2018–2019", "title": "MIT 早期研究", "text": "Ladybug（用 Chrome DevTools 调试 Ruby）、Margin Notes（用运行时样例自动生成文档）、Wildcard。"},
+     {"when": "Ink & Switch 时期", "title": "资深研究员", "text": "Automerge 协作编辑实验；2025 年 6 月发表《Malleable software》。"},
+     {"when": "2025", "title": "AI 交互文章", "text": "《Is chat a good UI for AI?》《AI HUDs》《AI as teleportation》《Code like a surgeon》。"},
+     {"when": "2026", "title": "Notion", "text": "在 Notion 做可塑软件；7 月写《Understanding is the new bottleneck》；在 Recurse Center 演讲。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Malleable software", "url": "https://www.inkandswitch.com/essay/malleable-software/",
+     "meta": ["2025", "Ink & Switch 长文"],
+     "paras": [
+      "「在应用被锁死的世界里恢复用户的能动性。」文章梳理了为什么今天的软件难以改造，以及让软件可塑需要哪些技术和设计条件。他在主页上把它作为理解自己工作的首选入口。"
+     ]
+    }},
+    {"work": {
+     "name": "Wildcard", "url": "https://www.geoffreylitt.com/wildcard/",
+     "meta": ["2019–", "浏览器扩展", "★302"],
+     "paras": [
+      "「让任何人都能构建浏览器扩展、修改网站以满足自己的需求。」它把网页上的数据显示成一张熟悉的表格：可以排序、过滤、加批注，甚至用电子表格公式从其他网站拉数据。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Stevens", "一张 SQLite 表 + 几个定时任务组成的可改造 AI 助手（2025）"],
+      ["Margin Notes", "从运行时调用记录自动生成代码文档"],
+      ["ambsheet", "支持「模糊值」的迷你电子表格语言"],
+      ["json-sheets", "用 JQ 当公式语言、在表格里搭 GUI 的实验"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.geoffreylitt.com", "paras": [
+     "首页开门见山：可塑软件是什么、去哪里读、他在哪里工作、他的核心技能是什么。文章不多但篇篇是长文，常配有原型视频。网站代码从 2015 年起就在 GitHub 上开源。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Netlify"],
+      ["订阅", "RSS 与 Buttondown 邮件"],
+      ["节奏", "每年数篇长文"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-07-02", "title": "Understanding is the new bottleneck", "url": "https://www.geoffreylitt.com"},
+     {"date": "2025-10-24", "title": "Code like a surgeon", "url": "https://www.geoffreylitt.com"},
+     {"date": "2025-07-27", "title": "Enough AI copilots! We need AI HUDs", "url": "https://www.geoffreylitt.com"},
+     {"date": "2025-04-12", "title": "Stevens: a hackable AI assistant using a single SQLite table and a handful of cron jobs", "url": "https://www.geoffreylitt.com"},
+     {"date": "2024-12-22", "title": "AI-generated tools can make programming more fun", "url": "https://www.geoffreylitt.com"}
+    ]},
+    {"quote": "I work on malleable software: computing environments where anyone can adapt their software to meet their needs with minimal friction.", "cite": "Geoffrey Litt，geoffreylitt.com"},
+    {"p": "他对 Agent 的经验很实用：给 Agent 画代码图时，「展示具体的示例数据，而不只是抽象架构」；Skill 能跨模型世代保持有效，「只要它更像规格说明，而不是一步步的指令」。他还猜测，教学能力可能是给 Agent 写提示的最好前提：看到平庸的作品，能立刻说清它为什么不好、该怎么改。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["研究", "问题清晰，原型扎实", "—"],
+      ["写作", "长文影响力大", "—"],
+      ["产品化", "进入 Notion 落地", "多数个人项目是研究原型"],
+      ["开源", "实验代码公开", "部分仓库标注「代码不成熟」"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>软件应该能被用户改造。</strong>",
+     "<strong>别把一切都做成聊天：</strong>想想 HUD。",
+     "<strong>做个人软件：</strong>AI 让「只给自己用」变得划算。",
+     "<strong>认真对待兴趣：</strong>为它找到严肃的反馈场合。",
+     "<strong>写规格，不写步骤：</strong>Agent 的 Skill 才能长久。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Malleable software", "url": "https://www.inkandswitch.com/essay/malleable-software/", "why": "理解他整个研究方向。"},
+     {"name": "Enough AI copilots!", "url": "https://www.geoffreylitt.com", "why": "AI 交互的另一种想象。"},
+     {"name": "Wildcard", "url": "https://www.geoffreylitt.com/wildcard/", "why": "用表格改造你常用的网站。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你每天都用、却总有一处让你不满的软件，想想：如果你能改它，你会改哪一行？",
+ "sources": [
+  {"label": "Geoffrey Litt 的 X 个人资料", "url": "https://x.com/geoffreylitt"},
+  {"label": "geoffreylitt.com", "url": "https://www.geoffreylitt.com"},
+  {"label": "Ink & Switch：Malleable software", "url": "https://www.inkandswitch.com/essay/malleable-software/"},
+  {"label": "GitHub：geoffreylitt", "url": "https://github.com/geoffreylitt"},
+  {"label": "GitHub：geoffreylitt/wildcard", "url": "https://github.com/geoffreylitt/wildcard"}
+ ]
+}

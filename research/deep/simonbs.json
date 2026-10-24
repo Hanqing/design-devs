@@ -1,0 +1,708 @@
+{
+ "handle": "simonbs",
+ "sites": [
+  {
+   "url": "https://simonbs.dev",
+   "ok": true,
+   "title": "Simon B. Støvring",
+   "description": "I",
+   "stack": [],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "",
+   "home_text": "Simon B. Støvring \nHi 👋 I'm Simon Støvring, a developer with a passion for iOS. I build apps like Festivitas , Runestone , Scriptable , Jayson and Data Jar . \nPut Your Coding Agents in Your Pocket \nSometimes Claude needs a reply while I'm brewing coffee. Sometimes Codex finishes a task while I'm away from my desk. And sometimes I need to use agents from the bathroom because my best ideas rarely show up at dignified moments. \nThis post outlines the setup I've been using for the past couple of weeks to access agents running on my Mac from anywhere, and it feels like having a fleet of agents in my pocket. It's not fancy, but it has worked really well for me. \nThere are other ways to do this now. Anthropic has Claude Code Cowork Dispatch . GitHub has remote access for Copilot CLI . And I even hacked on my own version for Codex in a project I titled \"Codex from the shitter\" . \nI eventually found that I wanted one setup that works with any agent. I also want the raw CLI experience, so I'm not limited by a product-specific UI that doesn't expose all capabilities. \nMy setup for accessing terminal-based agents like Codex, Claude Code, and whatever else I happen to be running on my Mac from my iPhone boils down to four things: \n Tailscale makes my Mac reachable without exposing SSH to the public internet or messing around with port forwarding. \n tmux keeps my agent sessions alive and resumable, even when my phone disconnects. \n Prompt gives me a genuinely nice SSH client on iPhone, with saved connections and a keyboard that can be tuned for tmux. \n brrr sends push notifications when an agent finishes, gets stuck, or needs input. \nWith this in place, the workflow is simple. I start agents on my Mac in tmux, walk away from my desk, get a notification from brrr when something happens, and jump back into the same session from my iPhone through Prompt and Tailscale. \nThat means I can check in, answer questions, approve things, or start new work from my phone. \nHere's how to put it together. \n1. Enable Remote Login on your Mac \nBefore your phone can SSH into your Mac, your Mac needs to accept SSH connections. \nOpen System Settings, go to General, then Sharing, and turn on Remote Login. I also recommend limiting access to your own user account instead of allowing every user on the machine. \nOnce Remote Login is enabled, macOS will show an SSH command you can use to connect from another device. The local network address is useful at home, but the Tailscale address is what makes this work from anywhere. \n2. Set up Tailscale on your Mac and iPhone \nFirst, install Tailscale on both devices and sign in with the same account so they join the same tailnet. \nThis is what makes your Mac reachable from your iPhone even when you're nowhere near the same network. Once both devices are connected, your Mac gets a stable Tailscale IP address you can use to SSH into the machine. You can find the IP address in Tailscale's menu bar app on the Mac. \nThe rough flow is: \nInstall Tailscale on your Mac . \nInstall Tailscale on your iPhone . \nSign in on both devices. \nI like this because it keeps remote access boring. There's no router config. It's just an app running on both my Mac and iPhone. \n3. Optional: Install Mosh for a better mobile connection \n Update, April 25th, 2026: Several people pointed me toward Mosh after this post went up. Thank you for that. It fits this setup well, so I've added this as an extra optional step. \n Mosh is a replacement for interactive SSH sessions that works better on flaky or changing networks. It uses SSH to log in, then keeps the terminal responsive as your connection changes. \nInstall it on your Mac with Homebrew: \n brew install mosh\nYou don't need Mosh for this setup, but it's a nice upgrade if you spend a lot of time connecting from your phone on changing or unstable networks. If you want to use it, select Mosh as the connection type when setting up your connection on the iPhone later. \n4. Install tmux so you can resume your work \nOnce you can SSH into your Mac, the next thing to tackle is session persistence. You want to be able to continue your work from any device, and tmux solves that. It's a terminal multiplexer , which means it lets your Mac and iPhone attach to the same terminal session. \nYou can start an agent at your desk, check in from your phone later, and continue from the same terminal state. \nI run all my agents inside a single tmux session named agents , and I usually give each agent its own tmux window",
+   "github_links": [
+    "en",
+    "simonbs",
+    "tmux"
+   ],
+   "subpages": {
+    "https://simonbs.dev/projects": "Simon B. Støvring \nI love to build things. These are some of my personal projects ✨ \nRunestone \nA lightweight plain text editor for iPhone and iPad with support for syntax highlighting, line numbers, theming, a page guide and much more. The app was covered by MacStories , Daring Fireball and iMore . \nRunestone is built on the open-source framework of the same name . The framework lets any developer add a code editor to their app. \nThe app is available for free on the App Store . \nFestivitas \nFestivitas brings holiday cheer to your Mac, iPhone, and iPad with festive lights that sparkle on your Dock, menu bar, and Home Screen. It's launch in the holiday season of 2024 was covered by TechCrunch , Forbes , Daring Fireball , MacRumors , 9to5Mac , MacStories , and many more. \nThe app is available for Mac on Gumroad and for iPhone and iPad on the App Store . \nScriptable \nAn automation tool that enables you to write scripts that integrates with native features of iOS such as files, calendars, reminders, documents and much more. \nScriptable has a extensive support for widgets enables you to write your own widgets using JavaScript and run the scripts on your Home Screen. Your widgets can show any data and be customised to look just the way you want. \nThe app is available for free on the App Store . \nRe: Toot \nTurns Mastodon posts into images that are suitable for quote posts. Images are accompanied by attribution to the original author and an alternative text. Images created by Re: Toot can also be shared to other social networks and messaging services. \nThe app is available for free on the App Store for iOS and macOS . \nData Jar \nA data store designed to be used with Shortcuts with synchronisation of data between devices using iCloud. Data is stored in a JSON-like structure and can be read and edited in the app or using the Shortcuts actions. \nThe app is available for free on the App Store . \nJayson \nA simple yet powerful JSON viewer and editor for iOS and macOS with support for Siri Shortcuts, Share Sheet Actions and URL schemes. \nThe app is available for free on the App Store for iOS and macOS . \nSticky Draw \nDraw your own stickers and send them to friends and family. Sticky Draw is a fun way to add a personal touch to the message you send to your loved ones. \nThe app is available for $0.99 on the App Store . \nSBSAnimoji \niPhone X and iOS 11 introduced Animojis, short 10 seconds recordings of facial gestures transposed onto an emoji. As of writing this the feature is restricted to Apples Messages app. \nUsing private API I built and open sourced a standalone Animoji app that increases the length of the recordings and enables users to share the videos on social medias and save them to the photo library. \nMultiple news sites wrote about the project including 9to5mac , The Verge , Cult of Mac , Lifehacker , MacStories and PhoneArena . \nThe project is available on GitHub ."
+   },
+   "feed": {
+    "url": "https://simonbs.dev/feed.rss",
+    "count_seen": 8,
+    "items": [
+     {
+      "title": "Put Your Coding Agents in Your Pocket",
+      "date": "Fri, 24 Apr 2026 12:15:00",
+      "url": "https://simonbs.dev/posts/put-your-coding-agents-in-your-pocket"
+     },
+     {
+      "title": "How To Bring Back Oddly Shaped App Icons in macOS 26 Tahoe",
+      "date": "Wed, 11 Jun 2025 11:00:00",
+      "url": "https://simonbs.dev/posts/how-to-bring-back-oddly-shaped-app-icons-on-macos-26-tahoe"
+     },
+     {
+      "title": "Using Claude with Coding Assistant in Xcode 26",
+      "date": "Tue, 10 Jun 2025 08:30:00",
+      "url": "https://simonbs.dev/posts/using-claude-with-coding-assistant-in-xcode-26"
+     },
+     {
+      "title": "Running Xcode's View Debugger While Interacting with the Simulator",
+      "date": "Sun, 17 Nov 2024 16:36:00",
+      "url": "https://simonbs.dev/posts/running-xcodes-view-debugger-while-interacting-with-the-simulator"
+     },
+     {
+      "title": "Building Documentation for Both iOS and macOS Using DocC",
+      "date": "Sun, 16 Apr 2023 20:40:00",
+      "url": "https://simonbs.dev/posts/building-documentation-for-both-ios-and-macos-using-docc"
+     },
+     {
+      "title": "Moving from 1Password to iCloud Keychain",
+      "date": "Sun, 21 Nov 2021 17:20:00",
+      "url": "https://simonbs.dev/posts/moving-from-1password-to-icloud-keychain"
+     },
+     {
+      "title": "Using an iPhone as My Webcam",
+      "date": "Sun, 8 Aug 2021 11:00:00 ",
+      "url": "https://simonbs.dev/posts/using-an-iphone-as-my-webcam"
+     },
+     {
+      "title": "Mint Mojito Iced Coffee Recipe",
+      "date": "Tue, 3 Aug 2021 17:20:00 ",
+      "url": "https://simonbs.dev/posts/mint-mojito-iced-coffee-recipe"
+     }
+    ]
+   },
+   "appstore_ids": [
+    "1470499037",
+    "1475387142"
+   ]
+  },
+  {
+   "url": "https://brrr.now",
+   "ok": true,
+   "title": "brrr",
+   "description": "Send push notifications from scripts, automations, and agents to make your devices go brrr.",
+   "stack": [
+    "Astro"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "Make devices go brrr \nMake devices\ngo brrr brrr brrr \nJust push notifications for your devices. That’s it. \n Get on the App Store Docs \nAvailable for iPhone, iPad, and Mac \nbrrr \nnow \nYour message goes here 🤗 \nBuild failed. Again. \nnow \nmain had other plans 💥 \nOpenClaw 🦞 \nnow \nI did that thing you wanted. \nStandup in 5 \nnow \nPrepare your excuses. \nTime to stretch. \nnow \nYou've been here a while. \nSo easy it seems suspicious (but isn’t) 🚀 \n1. \nGet the app from the App Store. \n2. \nSend your first push notification. \n brrr keeps it simple ⚡️ \nNo sign up. \nIt's 2026 and the last thing you need is another account. \nNot creepy. \nYour messages are not stored on the backend. History stays on-device. \nNo bloat. \nNo dashboard. No nonsense. Just a webhook. That’s it. \nWhat does brrr integrate with? 🔌 \nAnything. I'll spare you from a logo wall. I mean, sending a push merely requires an HTTP call. \nRead more on the Learn page. \nWhy should I use brrr over a competitor? 🤷 \nMaybe you shouldn't. brrr isn't for everyone. \nIt's intentionally simple. If you want dashboards, teams, and features, there are better options. If you want a webhook that just works, you'll feel at home.",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": [
+    "6755617665"
+   ]
+  },
+  {
+   "url": "https://festivitas.app",
+   "ok": true,
+   "title": "🎄 Festivitas",
+   "description": "Add festive lights to your devices 🎄",
+   "stack": [
+    "React"
+   ],
+   "hosting": [
+    "Fastly",
+    "GitHub Pages"
+   ],
+   "lang": "en",
+   "home_text": "Festivitas\n 📱 Get for iPhone 💻 Buy for Mac \nAdd festive lights to your devices ✨🎄 \nFestivitas brings holiday cheer to your Mac, iPhone, and iPad with festive lights that sparkle on your Dock, menu bar, and Home Screen. \n 📱 Get for iPhone \n 💻 Buy for Mac \nAs seen in \niPhone & iPad \nFree \nAdd festive lights to your Home Screen with Festivitas’ personalizable widgets ✨ \n🎄 Festive lights in widgets on your Home Screen \n🖼️ Frame your favorite photos with sparkling festive lights \n✨ Customizable lights, colors, and effects \n🪟 Make widgets transparent to blend with your wallpaper \n Get Now \nMac \n€4+ one-time \nDecorate your Dock and menu bar with festive lights that sparkle and react to your mouse 🎄 \n🎄 Festive lights for Dock and menu bar \n❄️ Falling snow creates a winter wonderland \n✨ Customizable lights, colors, and effects \n🤖 Shortcuts actions for automating lights and snow \n Buy on Gumroad \nSeparate purchases for mobile and Mac. Choose a fair price starting at €4 for each. \nFAQ \n Why is the iPhone and iPad app a separate purchase from the Mac app? \nThe iPhone and iPad app is essentially a different product from the Mac app. More importantly, they use different payment systems.\nWhereas the iPhone and iPad app is distributed through the App Store with payments handled by Apple, the Mac app is distributed through Gumroad, which processes payments independently. Because of this, sharing purchases between the two platforms isn’t practical. \n How can I download Festivitas for Mac again if I previously purchased it? \nYour receipt email from Gumroad includes a link to download the app again. \nIf you no longer have the email, you can download the app from your Gumroad library at gumroad.com . If you never created a Gumroad account, create one with the email you used to purchase Festivitas, log in, and the app will appear in your library. \n Why is the Mac app distributed through Gumroad instead of the App Store? \nFestivitas for Mac needs accessibility permissions to display festive lights on the Dock and menu bar. Although this functionality is safe and publicly supported by Apple, apps using accessibility APIs can’t be distributed through the Mac App Store. Gumroad allows the app to be distributed independently. \n Why does the Mac app require accessibility permission? \nWhen you first launch Festivitas, it requests access to accessibility features. This permission allows the app to locate your Dock and decorate it with festive lights. \nYou can enable or disable this permission anytime in System Settings → Privacy & Security → Accessibility. See the screenshot below for guidance. \n Why is the iPhone and iPad app free while the Mac app is paid upfront? \nSince the iPhone and iPad app is distributed through the App Store, offering in-app purchases is straightforward. This allows users to download the app for free and try it out before unlocking all features with an in-app purchase. \nBecause the Mac app is distributed through Gumroad, implementing in-app purchases isn’t practical, so it’s offered as a paid-upfront app instead. \n Which features in the iPhone and iPad app require purchasing the full version? \nMost functionality is available for free, but without unlocking the full version, you can only create a single widget. \nUnlocking the full version lets you create an unlimited number of widgets, make transparent widgets on iPhone, and choose an alternate app icon.",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": [
+    "6738831997"
+   ]
+  }
+ ],
+ "github": {
+  "login": "simonbs",
+  "user": {
+   "name": "Simon B. Støvring",
+   "company": "@shapehq",
+   "blog": "simonbs.dev",
+   "location": "Denmark",
+   "bio": "Developer and speaker with a passion for iOS and building developer tools. Aspiring home brewer, brewing both beers and espressos 🍻☕",
+   "public_repos": 129,
+   "followers": 1461,
+   "created_at": "2011-06-05T16:01:06Z",
+   "twitter_username": "simonbs",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "simonbs/Runestone",
+    "description": "📝 Performant plain text editor for iOS with syntax highlighting, line numbers, invisible characters and much more.",
+    "stargazers_count": 3228,
+    "forks_count": 226,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-01-17T15:09:37Z",
+    "pushed_at": "2026-03-25T14:57:00Z",
+    "topics": [
+     "ios",
+     "swift",
+     "tree-sitter"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/SBSAnimoji",
+    "description": "🐵 Animoji app using Apples AvatarKit",
+    "stargazers_count": 1011,
+    "forks_count": 102,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2017-11-06T21:14:34Z",
+    "pushed_at": "2022-05-06T14:01:08Z",
+    "topics": [
+     "animoji",
+     "apple",
+     "augmented-reality",
+     "emoji",
+     "ios",
+     "iphone",
+     "iphone-x",
+     "private-api"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/BSKeyboardControls",
+    "description": "Put controls above the keyboard on your iPhone or iPad app.",
+    "stargazers_count": 519,
+    "forks_count": 109,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2012-01-16T12:26:15Z",
+    "pushed_at": "2019-09-17T14:13:51Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "simonbs/dependency-graph",
+    "description": "🕸️ dependency-graph is a command-line tool that can visualize the dependencies of packages.",
+    "stargazers_count": 339,
+    "forks_count": 17,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-12-08T14:54:21Z",
+    "pushed_at": "2024-06-21T15:31:32Z",
+    "topics": [
+     "ios",
+     "macos",
+     "swift",
+     "swiftpackage",
+     "swiftpackagemanager",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/KeyboardToolbar",
+    "description": "⌨️ Add tools above your keyboard with iOS-like keyboard buttons.",
+    "stargazers_count": 277,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-06-26T18:13:29Z",
+    "pushed_at": "2025-09-02T19:59:45Z",
+    "topics": [
+     "ios",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/TextDiffing",
+    "description": "🧬 TextDiffing helps you create an AttributedString / NSAttributedString to visualize differences between texts.",
+    "stargazers_count": 170,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-06-03T03:40:43Z",
+    "pushed_at": "2026-05-16T17:34:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/SBSCustomAnimoji",
+    "description": "🐶 Custom Animoji using Apples AvatarKit",
+    "stargazers_count": 118,
+    "forks_count": 13,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2018-02-10T21:37:10Z",
+    "pushed_at": "2022-02-24T14:47:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/InfiniteCanvas",
+    "description": "🖌 Infinite canvas using PencilKit",
+    "stargazers_count": 108,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-07-24T05:48:34Z",
+    "pushed_at": "2021-02-25T07:32:48Z",
+    "topics": [
+     "canvas",
+     "drawing",
+     "ios"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/xctemplates",
+    "description": "⚙️ Opinionated Xcode templates",
+    "stargazers_count": 101,
+    "forks_count": 11,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2019-08-16T19:37:52Z",
+    "pushed_at": "2023-07-26T17:58:51Z",
+    "topics": [
+     "ios",
+     "template",
+     "templates",
+     "xcode"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/SFSymbols",
+    "description": "💟 SFSymbols gives you a ready-to-use symbol picker for SwiftUI and an async API for reading the system SF Symbols catalog.",
+    "stargazers_count": 92,
+    "forks_count": 4,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2025-12-23T23:03:20Z",
+    "pushed_at": "2026-08-15T20:23:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/ConfettiKit",
+    "description": "🎊 A Swift package for shooting confetti.",
+    "stargazers_count": 80,
+    "forks_count": 2,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2022-04-02T09:32:51Z",
+    "pushed_at": "2025-11-06T07:01:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/darkdocs",
+    "description": "Safari extension that adds support for dark mode in Apple’s developer documentation.",
+    "stargazers_count": 76,
+    "forks_count": 3,
+    "language": "CSS",
+    "homepage": "",
+    "created_at": "2020-01-29T23:08:08Z",
+    "pushed_at": "2021-06-07T19:11:36Z",
+    "topics": [
+     "apple",
+     "dark-mode",
+     "developer-tools",
+     "safari",
+     "safari-extension"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "simonbs/ImmersiveMoveAndRotate",
+    "description": "Example project showing how an immersive scene on visionOS can contain a RealityView that presents a ModelEntity and how that entity can be dragged using DragGesture and rotated using RotateGesture3D.",
+    "stargazers_count": 75,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-08-07T19:52:24Z",
+    "pushed_at": "2024-01-24T09:59:36Z",
+    "topics": [
+     "ios",
+     "swift",
+     "visionos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/wut",
+    "description": "🪾 Ephemeral worktrees without the ceremony.",
+    "stargazers_count": 73,
+    "forks_count": 6,
+    "language": "Go",
+    "homepage": "",
+    "created_at": "2026-01-29T12:25:11Z",
+    "pushed_at": "2026-03-03T10:26:15Z",
+    "topics": [
+     "git",
+     "worktree",
+     "worktrees"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/TreeSitterLanguages",
+    "description": "Languages for Tree-sitter wrapped in Swift packages",
+    "stargazers_count": 71,
+    "forks_count": 36,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2022-01-20T16:55:01Z",
+    "pushed_at": "2024-02-14T14:54:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/SBSObservation",
+    "description": "Tiny observation framework designed for UIKit-based apps and built with Swift macros. It automatically handles the deallocation of observations and supports iOS 12 and newer.",
+    "stargazers_count": 68,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2023-11-12T22:43:44Z",
+    "pushed_at": "2025-08-28T09:04:36Z",
+    "topics": [
+     "swift",
+     "swift-macro",
+     "swift-macros",
+     "swiftmacros"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/Prettier",
+    "description": "✨ Wrapper for the Prettier code formatter written in Swift",
+    "stargazers_count": 65,
+    "forks_count": 9,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2021-12-26T22:53:59Z",
+    "pushed_at": "2023-07-11T00:08:09Z",
+    "topics": [
+     "formatter",
+     "ios",
+     "prettier",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "simonbs/brrr-cli",
+    "description": "Notifications for agent CLIs using brrr.now 📳",
+    "stargazers_count": 56,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://brrr.now",
+    "created_at": "2026-03-02T15:14:29Z",
+    "pushed_at": "2026-10-21T14:00:54Z",
+    "topics": [
+     "claude",
+     "claude-code",
+     "codex",
+     "notifications"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 75,
+  "languages": [
+   [
+    "Swift",
+    24
+   ],
+   [
+    "JavaScript",
+    14
+   ],
+   [
+    "Objective-C",
+    12
+   ],
+   [
+    "Python",
+    9
+   ],
+   [
+    "CSS",
+    2
+   ],
+   [
+    "C",
+    2
+   ],
+   [
+    "TypeScript",
+    2
+   ],
+   [
+    "TeX",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "simonbs/Runestone",
+    "stargazerCount": 3228,
+    "description": "📝 Performant plain text editor for iOS with syntax highlighting, line numbers, invisible characters and much more.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "simonbs/KeyboardToolbar",
+    "stargazerCount": 277,
+    "description": "⌨️ Add tools above your keyboard with iOS-like keyboard buttons.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "simonbs/dependency-graph",
+    "stargazerCount": 339,
+    "description": "🕸️ dependency-graph is a command-line tool that can visualize the dependencies of packages.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "simonbs/SBSAnimoji",
+    "stargazerCount": 1011,
+    "description": "🐵 Animoji app using Apples AvatarKit",
+    "primaryLanguage": {
+     "name": "Objective-C"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "simonbs/SFSymbols",
+    "stargazerCount": 92,
+    "description": "💟 SFSymbols gives you a ready-to-use symbol picker for SwiftUI and an async API for reading the system SF Symbols catalog.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "simonbs/InfiniteCanvas",
+    "stargazerCount": 108,
+    "description": "🖌 Infinite canvas using PencilKit",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 10474,
+  "orgs": [],
+  "profile_readme": "Hi 👋\n\nMy name is Simon. I'm a developer with a passion for iOS and building tools for developers.\n\nI'm working on [Runestone](https://apps.apple.com/us/app/runestone-editor/id1548193893), [Scriptable](https://apps.apple.com/us/app/scriptable/id1405459188), [Jayson](https://apps.apple.com/us/app/jayson/id1447750768), and [Data Jar](https://apps.apple.com/us/app/data-jar/id1453273600). The core of Runestone is [available as a 📦 Swift Package](https://github.com/simonbs/Runestone).\n\nYou can reach me on <a rel=\"me\" href=\"https://mastodon.social/@simonbs\">Mastodon</a> 🐘\n",
+  "readmes": {
+   "simonbs/Runestone": "\n### 👋 Welcome to Runestone - a performant plain text editor for iOS with code editing features\nRunestone uses GitHub's [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) to parse code to a syntax tree which is used for features that require an understanding of the code in the editor, for example syntax highlighting.\n[](https://swiftpackageindex.com/simonbs/Runestone)\n[](https://swiftpackageindex.com/simonbs/Runestone)\n[](https://github.com/simonbs/Runestone/actions/workflows/build_and_test.yml)\n[](https://github.com/simonbs/Runestone/actions/workflows/build_documentation.yml)\n[](https://github.com/simonbs/Runestone/actions/workflows/build_example_project.yml)\n[](https://github.com/simonbs/Runestone/actions/workflows/codeql.yml)\n[](https://github.com/simonbs/Runestone/actions/workflows/swiftlint.yml)\n[](https://twitter.com/simonbs)\n[](https://mastodon.social/@simonbs)\n## ✨ Features\n- Syntax highlighting.\n- Line numbers.\n- Highlight the selected line.\n- Show invisible characters (tabs, spaces and line breaks).\n- Insertion of character pairs, e.g. inserting the trailing quotation mark when inserting the leading.\n- Customization of colors and fonts.\n- Toggle line wrapping on and off.\n- Adjust height of lines.\n- Add a page guide.\n- Add vertical and horizontal overscroll.\n- Highlight ranges in the text view.\n- Search the text using regular expressions.\n- Automatically detects if a file is using spaces or tabs for indentation.\n- Specify line endings (CR, LF, CRLF) to use when inserting a line break.\n- Automatically detect line endings in a text.\n## 🚀 Getting Started\nPlease refer to the [Getting Started](https://docs.runestone.app/documentation/runestone/gettingstarted) article in the documentation and the [Meet Runestone](https://docs.runestone.app/tutorials/meet-runestone) series of tutorials.\n## 📖 Documentation\nThe documentation of all public types is available at [docs.runestone.app](https://docs.runestone.app). The documentation is generated from the Swift code using Apple's [DocC documentation compiler](https://developer.apple.com/documentation/docc).\n## 🏎 Performance\nRunestone was built to be fast. Its good performance is by far mostly thanks to Tree-sitt",
+   "simonbs/dependency-graph": "# 🕸️ dependency-graph\n[](https://github.com/simonbs/dependency-graph/actions/workflows/build_and_test.yml) [](https://github.com/simonbs/dependency-graph/actions/workflows/swiftlint.yml)\ndependency-graph is a command-line tool that can visualize the dependencies of packages. The tool takes the path to an Xcode project or a Package.swift file as input and outputs a graph that shows the dependencies of the packages in the project or package.\n## 👀 Examples\nThe following graphs are examples of the graphs that dependency-graph can output. The first graph built by providing dependency-graph the path to a Package.swift file and the second graph was made by providing dependency-graph the path to an .xcodeproj file as input.\n|Swift Package|Xcode Project|\n|-|-|\n|||\nNodes shaped as ellipsis represent products, e.g. the libraries in a Swift package, and the square nodes represent targets.\n## 🚀 Getting Started\nStart off by installing the tool with [Homebrew](https://brew.sh).\n```bash\nbrew tap simonbs/dependency-graph https://github.com/simonbs/dependency-graph.git\nbrew install dependency-graph\n```\n> **Note**\n> If you get the following error when attempting to install dependency-graph:\n>\n> ```\n> Error: Cannot install under Rosetta 2 in ARM default prefix (/opt/homebrew)!\n> To rerun under ARM use:\n>    arch -arm64 brew install ...\n> To install under x86_64, install Homebrew into /usr/local.\n> ```\n>\n> You can use the the following to install dependency-graph:\n>\n> ```bash\n> arch -arm64 brew install dependency-graph\n> ```\nYou may now run the following command to verify that the tool was installed correctly. The following command should print information on how the tool can be used.\n```\ndependency-graph --help\n```\nRun the `dependency-graph` command with the path to a folder containing an .xcodeproj or Package.swift file.\n```bash\ndependency-graph ~/Developer/Example\n```\nYou may also pass the full path to the .xcodeproj or Package.swift file as shown below.\n```bash\ndependency-graph ~/Developer/Example/Example.xcodeproj\n```\n### Rendering a Graph\nThe `dependency-graph` command will output a textual representation of a graph. By default the tool will output a graph using the [DOT synta",
+   "simonbs/SBSAnimoji": "# SBSAnimoji\nFooling around with Apples private framework AvatarKit, the framework used in Messages.app for recording Animoji videos. If you are looking to create your own Animoji, take a look at [SBSCustomAnimoji](https://github.com/simonbs/SBSCustomAnimoji).\nMentions in the news:\n- [9to5mac](https://9to5mac.com/2017/11/06/standalone-animoji-app-ios/)\n- [The Verge](https://www.theverge.com/2017/11/7/16617018/sbsanimoji-app-animoji-developer)\n- [Cult of Mac](https://www.cultofmac.com/512661/animoji-hack/)\n- [Lifehacker](https://lifehacker.com/make-your-animoji-videos-twice-as-long-with-this-unoffi-1820256820)\n- [MacStories](https://www.macstories.net/linked/animoji-and-avatarkit/)\n- [PhoneArena](https://www.phonearena.com/news/iOS-developer-creates-stand-alone-Animoji-app-with-longer-recording-time_id99588)\n### What you get\n- Record Animoji videos of up to 60 seconds. Previously 20 seconds. Thanks, [Khaos Tian](https://github.com/KhaosT)!\n- Share your Animoji videos with the native share sheet.\n- Export videos to your photo library from the native share sheet.\n- An example of how to use Apples AvatarKit.\n### What you don't get\n- Error handling. Should you encounter an error, try restarting the app.\n- Support for the simulator. Run the app on your phone instead.\n# Notice\nThis project relies heavily on Apples private API and you should therefore not try to submit this code to App Store.\n",
+   "simonbs/SFSymbols": "<div align=\"center\">\n  <h1>SFSymbols</h1>\n  <h3>SFSymbols provides an SF Symbol picker and a simple API for accessing the SF Symbols catalog.</h3>\n  <h4>Use it to let users choose symbols in-app or to build your own symbol browser.</h4>\n  [](https://swiftpackageindex.com/simonbs/SFSymbols)\n  [](https://swiftpackageindex.com/simonbs/SFSymbols)\\\n  [](https://github.com/simonbs/SFSymbols/actions/workflows/swiftlint.yml)\n  [](https://github.com/simonbs/SFSymbols/actions/workflows/build.yml)\n  [](https://github.com/simonbs/SFSymbols/actions/workflows/build_example_project.yml)\n</div>\n<hr/>\n- [🚀 Getting Started](#-getting-started)\n  - [Add the SFSymbols Swift Package](#add-the-sfsymbols-swift-package)\n  - [Picker Options](#picker-options)\n  - [Use SFSymbolPicker](#use-sfsymbolpicker)\n  - [Use SFSymbolPickerGrid (Embedded)](#use-sfsymbolpickergrid-embedded)\n  - [Present the Picker With .sfSymbolPicker(...)](#present-the-picker-with-sfsymbolpicker)\n  - [Configure Picker Settings](#configure-picker-settings)\n  - [Load and Browse Symbols With SFSymbols](#load-and-browse-symbols-with-sfsymbols)\n- [📱 Example Project](#-example-project)\n<hr/>\n## 🚀 Getting Started\nThis section walks through adding SFSymbols and using the primary APIs.\n### Add the SFSymbols Swift Package\nAdd SFSymbols to your Xcode project or Swift package.\n```swift\nlet package = Package(\n    dependencies: [\n        .package(url: \"https://github.com/simonbs/SFSymbols.git\", from: \"1.0.0\")\n    ]\n)\n```\n### Picker Options\nUse one of these entry points depending on how much control you need:\n- `SFSymbolPicker` for a ready-made labeled row that presents a modal picker.\n- `.sfSymbolPicker` for attaching the modal picker to your own button or custom row.\n- `SFSymbolPickerGrid` for embedding the grid in your own layout with custom search and filters.\n### Use SFSymbolPicker\n`SFSymbolPicker` is a SwiftUI view that presents a labeled row with a button showing the current symbol.\n```swift\nimport SFSymbols\nimport SwiftUI\nstruct ContentView: View {\n    @State private var selectedSymbol = \"tortoise\"\n    var body: some View {\n        Form {\n            SFSymbolPicker(\"Symbol\", selection: $selectedSymbol)\n        }\n    }\n}\n```\n",
+   "simonbs/InfiniteCanvas": "# Infinite Canvas\nThis example project shows how to create an \"infinite\" canvas using PencilKit. It's not really infinite but it's a canvas so huge that users will most likely regard it infinite.\nThe approach is the following:\n1. Create a very huge canvas. I'm using 1000000 x 1000000.\n2. Place the user in the middle of the canvas.\n3. Help the user navigate the very large canvas. I'm using arrows on the edges of the screen to show where the user can scroll to see more of the drawing. You could also use a minimap to achieve the same goal.\nWhen doing state restoration, you don't want to place the user in the middle of the canvas. Instead you should place the user in the middle of their drawing.\nI use the [strokes property of a PKDrawing](https://developer.apple.com/documentation/pencilkit/pkdrawing/3595078-strokes) to calculate the frame of a drawing in the canvas. This is needed to show the arrows that help the user navigate the canvas.\n## Licenses\nAll source code is licensed under the [MIT License](https://github.com/simonbs/InfiniteCanvas/blob/main/LICENSE).\n"
+  }
+ },
+ "apps": [
+  {
+   "name": "Tailscale",
+   "artist": "Tailscale Inc.",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2019-08-16",
+   "updated": "2026-10-21",
+   "version": "1.104.2",
+   "rating": 4.4,
+   "ratings": 763,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/tailscale/id1470499037",
+   "desc": "Securely connect people, workloads, and even AI agents to anything on the internet with Tailscale, the secure connectivity platform built on WireGuard®. Tailscale brings identity to the network layer so you can control access based on users, groups, tags, and devices instead of IP addresses, applying Zero Trust principles end-to-end across every environment.\n\nTailscale transforms your existing network from a legacy hub and spoke model to a modern, lightweight, and responsive mesh networking architecture that eliminates single points of failure and delivers better performance, scalability, and security for your end users, devices, and remote resources. \n\nTailscale can be used for your Homelab VPN and connectivity, Business VPN, Workload Connectivity across clouds, Kubernetes clusters, regions, and environments, Privileged Access Management (PAM), Edge & IoT, CI/CD, and Securing AI – all o",
+   "country": "us"
+  },
+  {
+   "name": "Tailscale",
+   "artist": "Tailscale Inc.",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2019-08-05",
+   "updated": "2026-10-22",
+   "version": "1.104.2",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "mac-software",
+   "url": "https://apps.apple.com/us/app/tailscale/id1475387142",
+   "desc": "Securely connect people, workloads, and even AI agents to anything on the internet with Tailscale, the secure connectivity platform built on WireGuard®. Tailscale brings identity to the network layer so you can control access based on users, groups, tags, and devices instead of IP addresses, applying Zero Trust principles end-to-end across every environment.\n\nTailscale transforms your existing network from a legacy hub and spoke model to a modern, lightweight, and responsive mesh networking architecture that eliminates single points of failure and delivers better performance, scalability, and security for your end users, devices, and remote resources. \n\nTailscale can be used for your Homelab VPN and connectivity, Business VPN, Workload Connectivity across clouds, Kubernetes clusters, regions, and environments, Privileged Access Management (PAM), Edge & IoT, CI/CD, and Securing AI – all o",
+   "country": "us"
+  },
+  {
+   "name": "Scriptable",
+   "artist": "Simon B. Støvring",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2018-09-21",
+   "updated": "2024-09-30",
+   "version": "1.7.19",
+   "rating": 4.68,
+   "ratings": 3978,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/scriptable/id1405459188",
+   "desc": "Scriptable is an automation tool that enables you to write scripts that integrates with native features of iOS such as files, calendars, reminders, documents and much more.\n\nAn extensive support for widgets enables you to write your own widgets using JavaScript and run the scripts on your Home Screen. Your widgets can show any data and be customised to look just the way you want. \n\nWith Siri Shortcuts you can present images, tables and more in Siri as well as making Siri read out loud a text when you run a script from a Siri Shortcut.\n\nThere's a growing gallery of scripts to get you started with Scriptable.\n\nHere’s a few examples of scripts you can create:\n\n- Ask Siri whether a web service is down.\n- Create a widget that shows data from your weather station.\n- Postpone the next event in your calendar half an hour.\n- Check what is currently on TV.\n- Manage a list of movies you would like ",
+   "country": "us"
+  },
+  {
+   "name": "Runestone Text Editor",
+   "artist": "Simon B. Støvring",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2022-05-05",
+   "updated": "2026-09-10",
+   "version": "1.6.2",
+   "rating": 4.73,
+   "ratings": 2089,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/runestone-text-editor/id1548193893",
+   "desc": "A plain text editor with syntax highlighting, line numbers, search and replace, page guide, and much more. It's like TextEdit but more powerful and optimised for iPhone and iPad.\n\nRunestone is made by a single person with a love for text editors and a vision of building the most lightweight text editor for iPhone and iPad that still has the core features for editing code.\n\nFeatures:\n- Syntax highlighting of many languages including HTML, JavaScript, JSON, Markdown, Swift, Python, PHP, YAML, and many more.\n- Select one of the twelve standard themes including popular themes like Tomorrow, Dracula, Solarized, and One Dark Pro.\n- Innovative find and replace for searching and modifying text while still viewing your file.\n- Choose font and font size, including support for custom fonts imported using another third-party app.\n- Show the line and column the cursor is located on.\n- Uses the standa",
+   "country": "us"
+  },
+  {
+   "name": "Jayson",
+   "artist": "Simon B. Støvring",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2019-02-02",
+   "updated": "2026-09-10",
+   "version": "1.5.3",
+   "rating": 4.52,
+   "ratings": 442,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/jayson/id1447750768",
+   "desc": "Jayson is a JSON viewer and editor for iPhone and iPad. Browse JSON as a structure, edit values, and save your changes back to the file.\n\nWhether you're inspecting an API response, checking a config file, or making a quick fix on the go, Jayson turns raw JSON into something you can actually read and change.\n\nBROWSE AND EDIT\n\n- Open JSON files stored on your device or in iCloud Drive.\n- Toggle between a structured table view and syntax highlighted text.\n- Add new values and keys, and save your changes back to the file.\n- Parse text or the contents of a URL from your clipboard into JSON.\n- Highlight a key from a child of an array to get a quick overview of your data.\n\nTABS, SPLITS, AND WINDOWS\n\n- Switch between files, or different objects in a single file, using tabs.\n- Compare JSON in a single file or across files using multiple splits.\n- Open multiple windows on the iPad.\n\nWORKS WITH SHO",
+   "country": "us"
+  },
+  {
+   "name": "Data Jar",
+   "artist": "Simon B. Støvring",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2020-04-14",
+   "updated": "2022-01-11",
+   "version": "1.1.4",
+   "rating": 4.87,
+   "ratings": 868,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/data-jar/id1453273600",
+   "desc": "Data Jar is a data store designed to be used with Shortcuts. The data store lets you persist key-value pairs.\n\nIf you have used dictionaries and lists in Shortcuts, then you’ll find that the data format used by Data Jar is very similar.\n\n- Extensive support for Shortcuts, enabling you to read and update data directly from Shortcuts.\n- Store text, numbers, booleans, lists, dictionaries and even files.\n- Files are stored in iCloud Drive and can be accessed from the Files app.\n- Support for multiple windows and drag and drop on the iPad.\n- Synchronisation between devices using iCloud.\n\nData Jar is free to use but contains a tip jar where users can pay a few bucks to support the developer.",
+   "country": "us"
+  },
+  {
+   "name": "Wavy Road: Endless Driving",
+   "artist": "Simon B. Støvring",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2026-10-21",
+   "updated": "2026-10-21",
+   "version": "1.0.3",
+   "rating": 4.85,
+   "ratings": 13,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/wavy-road-endless-driving/id6804942333",
+   "desc": "You have a road that bends wherever you steer it, and a vehicle that keeps moving. Keep it on the road and out of trouble for as long as you can.\n\nWavy Road is an arcade game where you control the road. Drag left or right and the road rolls out ahead of you, with your vehicle following wherever you take it. Curve past a farmhouse, squeeze between city buildings and glide through snowy woods, across more than 20 areas plus seasonal ones.\n\nGet close to an obstacle without hitting it and you'll score a Near Hit. Chain them together and your score climbs even faster. Hit something or slip off the road, and that's the end of the run.\n\nYou'll pick up coins along the way and can use them to unlock new vehicles. Maybe you fancy a Shopping Trolley. Maybe a UFO. Every vehicle drives a little differently and comes with its own power-up, so drive into a power crate and see what it does.\n\nThere are a",
+   "country": "us"
+  },
+  {
+   "name": "Festivitas",
+   "artist": "Simon B. Støvring",
+   "genre": "Entertainment",
+   "price": "Free",
+   "released": "2025-11-22",
+   "updated": "2025-12-11",
+   "version": "1.1.2",
+   "rating": 4.4,
+   "ratings": 89,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/festivitas/id6738831997",
+   "desc": "Celebrate every occasion with Festivitas!\n\nBring festive lights to your Home Screen with beautifully animated widgets that capture the holiday spirit.\n\nFestivitas offers a delightful range of light bulb shapes, color presets, and animated effects. Customize to your heart’s content with these merry features:\n\n- Add animated festive lights to your Home Screen.\n- Use your favorite photos in widgets to frame loved ones, friends, or pets with sparkling festive lights.\n- Create transparent animated widgets that make your festive lights blend seamlessly with your iPhone wallpaper.\n- Add countdowns to birthdays, holidays, trips, or any special moment you look forward to.\n- Choose from enchanting effects like Twinkle, Wave, Chase, and more.\n- Personalize your lights with a variety of designs: oval, circle, diode, heart, star, snowflake, bat, ghost, pumpkin, clover, egg, leaf, beer, champagne, coc",
+   "country": "us"
+  },
+  {
+   "name": "brrr • send push notifications",
+   "artist": "Simon B. Støvring",
+   "genre": "Developer Tools",
+   "price": "Free",
+   "released": "2026-03-25",
+   "updated": "2026-08-10",
+   "version": "1.2.0",
+   "rating": 4.47,
+   "ratings": 15,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/brrr-send-push-notifications/id6755617665",
+   "desc": "Trigger notifications from anything that can send an HTTP request: agents, scripts, automations, CI jobs, servers, smart home setups, or personal tools.\n\nNo dashboard. No account setup. No unnecessary complexity. Just a small webhook that works.\n\nWith brrr, you can:\n\n• Send notifications to all your devices or a single device\n• Trigger notifications from agents, scripts, and automations\n• Break through mute and Focus mode with critical notifications\n• Open links directly from notifications\n• Attach images to notifications\n• Keep an on-device notification history\n• Decide when notifications appear using Focus filters\n\nGREAT FOR AGENTS\n\nbrrr is useful for agents and automations. Have an agent notify you when it is waiting for input, when a task finishes, when a run fails, when a deploy completes, or when something needs your attention immediately.\n\nFOCUS FRIENDLY\n\nbrrr integrates with Focu",
+   "country": "us"
+  },
+  {
+   "name": "Re: Toot",
+   "artist": "Simon B. Støvring",
+   "genre": "Utilities",
+   "price": "Free",
+   "released": "2023-01-05",
+   "updated": "2023-09-25",
+   "version": "1.1.6",
+   "rating": 5,
+   "ratings": 32,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/re-toot/id1661697436",
+   "desc": "Re: Toot turns Mastodon posts into images that are suitable for quote posts. Images are accompanied by attribution to the original author and an alternative text.\n\nImages created by Re: Toot can also be shared to other social networks and messaging services.\n\nTo create an image from a Mastodon post, just copy the link the post and open Re: Toot or invoke the app through the Share Sheet.\n\nRe: Toot is free to use and all settings can be unlocked through a one-time in-app purchase.",
+   "country": "us"
+  },
+  {
+   "name": "Stroke Counter for Golf",
+   "artist": "Simon B. Støvring",
+   "genre": "Sports",
+   "price": "$4.99",
+   "released": "2026-03-28",
+   "updated": "2026-03-30",
+   "version": "1.0.2",
+   "rating": 1,
+   "ratings": 1,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/stroke-counter-for-golf/id6751548616",
+   "desc": "Stop buying plastic stroke counters that break or get lost.\n\nStroke Counter replaces them with a simple, reliable counter on your Apple Watch.\n\nNo extra gear and no distractions. Just tap to count your strokes.\n\n- Add or subtract strokes instantly\n- Track one or two players\n- Quick reset between holes\n- Works directly on Apple Watch, no phone needed\n- Choose counting modes and layouts\n- Watch face complication for instant access during play\n\nDesigned for speed and clarity, so you can stay focused on your game.",
+   "country": "us"
+  },
+  {
+   "name": "Spatial Sprinkles",
+   "artist": "Simon B. Støvring",
+   "genre": "Entertainment",
+   "price": "$0.99",
+   "released": "2024-01-31",
+   "updated": "2024-02-01",
+   "version": "1.0.1",
+   "rating": 0,
+   "ratings": 0,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/spatial-sprinkles/id6476932945",
+   "desc": "Step into a whimsical world with Spatial Sprinkles, the ultimate confetti experience for Apple Vision Pro!\n\nImmerse yourself in a mesmerizing confetti shower or fire the confetti cannon! Yes, you read that right: Spatial Sprinkles comes with a confetti cannon that shoots bursts of joy whenever you need to celebrate ANYTHING, including birthdays, promotions, finding the remote under the couch, or watching the 10,000th episode of Days of Our Lives.\n\nWith Spatial Sprinkles, fun knows no bounds – walk, dance, and engage in a dazzling confetti spectacle. Let the confetti chaos begin!\n\nI genuinely hope that you will enjoy this whimsical app (...and support an indie developer saving up for their own Apple Vision Pro)!\n\nWarm regards,\nSimon",
+   "country": "us"
+  },
+  {
+   "name": "Sticky Draw",
+   "artist": "Simon B. Støvring",
+   "genre": "Stickers",
+   "price": "$0.99",
+   "released": "2016-09-22",
+   "updated": "2019-09-19",
+   "version": "1.3",
+   "rating": 3.67,
+   "ratings": 12,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/sticky-draw/id1153364367",
+   "desc": "Draw your own stickers and send them to friends and family. Sticky Draw is a fun way to add a personal touch to the message you send to your loved ones.\n\n- Add a personal touch to the messages you send to friends and family.\n- Create a catalog of your own stickers and send them at any time.\n- Share your stickers with friends and family so they can add your sticker to their catalog! And add stickers you receive to your catalog!\n- Send looping stickers that show your drawing come to life.\n- With a wide range of brush sizes, adding small details is just as easy as filling large areas.\n- Those pesky mistakes? Don’t worry. Just undo!\n- Zoom in and out to perfect the small details.\n- Use the color picker to find just the right color for your drawing or use one of the 21 carefully picked and delicious colors.\n- Double-tap on a second generation Apple Pencil to quickly switch between the pen and",
+   "country": "us"
+  }
+ ]
+}

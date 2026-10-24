@@ -1,0 +1,162 @@
+{
+ "name": "Max Howell",
+ "role": "Homebrew 作者 · PromiseKit 作者 · Automic Vault 创始人 · 前 Last.fm 开发者",
+ "title": "Max Howell：<em>不客气，以及抱歉</em>",
+ "dek": "他是英国裔美国工程师，住在北卡罗来纳州。2009 年，他写出了 macOS 的包管理器 Homebrew，后来扩展到 Linux，用户数以千万计；他在 X 简介里写：「Creator of Homebrew. You’re welcome and I apologize.」更早，他在伦敦的 Last.fm 开发过桌面客户端 Audioscrobbler。2015 年他发了一条著名的推：Google 有 90% 的工程师在用他写的软件，他却因为没能在白板上翻转二叉树被拒，这条推成了反思白板面试的标志。他还写了 iOS 圈最流行的异步库之一 PromiseKit（★1.4 万）。如今他在做 Automic Vault：一个把命令行凭据从明文文件里搬出来、控制哪个签名应用能用哪个凭据的新型密钥管理器，「为 AI Agent 使用命令行的时代准备安全层」。",
+ "card": "Homebrew 作者，PromiseKit（★1.4 万）作者；Automic Vault 创始人，前 Last.fm 开发者，北卡罗来纳州。",
+ "location": "美国北卡罗来纳州埃佩克斯",
+ "updated": "2026-10-23",
+ "tags": ["包管理", "命令行安全", "Swift", "开源", "AI Agent"],
+ "links": [
+  {"label": "mxcl.dev", "url": "https://mxcl.dev"},
+  {"label": "Automic Vault", "url": "https://automicvault.com"},
+  {"label": "Homebrew", "url": "https://brew.sh"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I’ve spent decades making software used by tens of millions, with unreasonable attention to detail.」",
+  "<strong>代表作：</strong>Homebrew、PromiseKit（★14,208）、swift-sh（★1,890）、Path.swift、YOLOKit、xcodebuild GitHub Action、AppUpdater、Automic Vault（★571）、Package Manager Manager（pkg.so）、Portal。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 7,900、近一年贡献 16,940 次；X 关注者约 3.5 万。",
+  "<strong>咨询：</strong>产品命名（Homebrew、PromiseKit 等名字都出自他手）和「用 AI Agent 五天做出精致应用」。"
+ ],
+ "lead": "Automic Vault 的 README 第一段是他本人写的：「自从我创造了 Homebrew，Apple 已经彻底改变了 Mac 应用的安全性。我要把同样的用心带到命令行上。」你装工具是为了干活，但它们的凭据常常躺在文件或辅助程序里，任何以你的身份运行的代码都能读到，而现在 Agent 也以你的身份在跑命令。他在 X 上像复读机一样重复：「命令行的安全是坏的。Automic Vault 在打包层修复它。」",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、开源作者、创始人、顾问"],
+     ["所在地", "美国北卡罗来纳州埃佩克斯（英国裔美国人）"],
+     ["经历", "Last.fm（Audioscrobbler 客户端）→ Homebrew（2009）→ iOS / Swift 开源 → Automic Vault"],
+     ["产品", "Automic Vault、Package Manager Manager、Portal"],
+     ["技术栈", "Swift、Objective-C、Ruby、Rust、TypeScript"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Max 现在关注的是<strong>包管理和命令行的下一代安全</strong>。Automic Vault 把 CLI 密钥移出明文文件，并控制「哪个签名的应用可以用哪个凭据运行哪个工具」；Package Manager Manager 盘点你 Mac 上所有包管理器和它们装的包，告诉你什么过时了、什么占空间；Portal 想让远程终端会话也做到「just works」。"},
+    {"p": "他也公开接咨询：一种是产品命名，一口价，给出带有定位、语气和未来词汇的名字；另一种是用 AI Agent 在五天内做出一个精致的应用。他在博客上写过《Why I lean toward accelerating AI》：他宁愿慢一点，但更担心不加速会发生什么。"},
+    {"note": "本页依据 mxcl.dev（首页、博客、项目）、Automic Vault README、GitHub 和 X 帖子整理，资料截至 2026 年 10 月。Last.fm 和面试经历参考了 iThome、TechNews 等媒体报道。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2000 年代", "title": "Last.fm", "text": "在伦敦参与 Last.fm 客户端开发，开源了 Audioscrobbler.app。"},
+     {"when": "2009", "title": "Homebrew", "text": "写出 macOS 包管理器 Homebrew，迅速成为 Mac 开发者的标配。"},
+     {"when": "2011–2015", "title": "iOS 开源", "text": "YOLOKit（2011）、PromiseKit（2014）、OMGHTTPURLRQ。"},
+     {"when": "2015", "title": "白板面试推文", "text": "关于翻转二叉树被 Google 拒绝的推文广泛传播。"},
+     {"when": "2018–2021", "title": "Swift 工具", "text": "swift-sh、Path.swift、Workbench、Cake、Version、xcodebuild Action。"},
+     {"when": "2026", "title": "Automic Vault", "text": "为 AI Agent 使用命令行的时代建立安全层；pkg.so、Portal。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Homebrew", "url": "https://brew.sh",
+     "meta": ["2009–", "Ruby", "macOS · Linux"],
+     "paras": [
+      "「The missing package manager for macOS.」一句 <code>brew install</code> 就能装好几乎任何开发工具。他个人主页的 README 用百科体自述：Homebrew「在全球软件开发者中被广泛采用，估计用户数以千万计」。"
+     ]
+    }},
+    {"work": {
+     "name": "Automic Vault", "url": "https://automicvault.com",
+     "meta": ["2026", "Rust", "★571"],
+     "paras": [
+      "「macOS protects your apps. We protect your command line.」一个面向新开发时代的密钥管理器，提供中英文 README。"
+     ]
+    }},
+    {"work": {
+     "name": "PromiseKit", "url": "https://github.com/mxcl/PromiseKit",
+     "meta": ["2014–", "Swift / ObjC", "★1.4 万"],
+     "paras": [
+      "在 async/await 出现之前，PromiseKit 是 iOS 开发者组织异步代码最常用的方式之一，至今仍在维护。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["swift-sh", "用第三方依赖写 Swift 脚本（★1,890）"],
+      ["Path.swift", "跨平台、可链式调用的文件路径库"],
+      ["AppUpdater", "从 GitHub Releases 自动更新开源 Mac 应用，支持证明"],
+      ["Package Manager Manager", "盘点并更新所有包管理器"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://mxcl.dev", "paras": [
+     "mxcl.dev 是一个作品墙加咨询页：当前产品（Automic Vault、Package Manager Manager、Portal）、最新文章，以及两种雇佣方式。Projects 页把当前作品和 PromiseKit、Path.swift、YOLOKit 等旧项目的文档存档放在一起。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["结构", "产品 + 博客 + 咨询"],
+      ["博客", "2026 年 9 月写 AI 加速与「一个家庭一票」"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-09-24", "title": "One vote per family", "url": "https://mxcl.dev/blog/"},
+     {"date": "2026-09-14", "title": "Why I lean toward accelerating AI", "url": "https://mxcl.dev/blog/"}
+    ]},
+    {"quote": "Creator of Homebrew. You’re welcome and I apologize.", "cite": "Max Howell，X 简介"},
+    {"p": "他的观点常带锋芒：「既然已经证明人类写不了代码，那些说 AI 写不了代码的人去哪了？」他也认为，如果你现在还没有分发渠道，以后就很难有了，因为供给激增时，用户会退回到熟悉的东西。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "Homebrew 改变了 Mac 开发环境", "—"],
+      ["命名与产品", "好名字、好体验", "—"],
+      ["新产品", "切中 Agent 时代的安全问题", "Automic Vault 尚在早期"],
+      ["表达", "直率", "言论有时颇具争议"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>解决自己每天的麻烦：</strong>Homebrew 就是这样来的。",
+     "<strong>名字是产品的一部分。</strong>",
+     "<strong>面试不等于能力：</strong>别被一次拒绝定义。",
+     "<strong>新时代有新的安全问题：</strong>Agent 也以你的身份在运行。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Automic Vault", "url": "https://automicvault.com", "why": "把明文凭据从命令行里搬走。"},
+     {"name": "PromiseKit", "url": "https://github.com/mxcl/PromiseKit", "why": "一个经典的 API 设计。"},
+     {"name": "mxcl.dev", "url": "https://mxcl.dev", "why": "看他现在在做什么。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "搜一下你家目录里有多少个包含 token 或 password 的明文配置文件，挑一个最重要的改成用钥匙串或密钥管理器保存。",
+ "sources": [
+  {"label": "Max Howell 的 X 个人资料", "url": "https://x.com/mxcl"},
+  {"label": "mxcl.dev", "url": "https://mxcl.dev"},
+  {"label": "GitHub：automic-vault/automic-vault", "url": "https://github.com/automic-vault/automic-vault"},
+  {"label": "GitHub：mxcl", "url": "https://github.com/mxcl"},
+  {"label": "TechNews：Max Howell 与 Google 面试（2015）", "url": "https://technews.tw/2015/06/13/max-howell-google/"},
+  {"label": "Homebrew", "url": "https://brew.sh"}
+ ]
+}

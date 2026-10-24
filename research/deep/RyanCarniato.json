@@ -1,0 +1,337 @@
+{
+ "handle": "RyanCarniato",
+ "sites": [],
+ "github": {
+  "login": "ryansolid",
+  "user": {
+   "name": "Ryan Carniato",
+   "company": null,
+   "blog": "https://dev.to/ryansolid",
+   "location": "Portland OR",
+   "bio": null,
+   "public_repos": 97,
+   "followers": 3863,
+   "created_at": "2012-11-10T21:21:53Z",
+   "twitter_username": "RyanCarniato",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "ryansolid/dom-expressions",
+    "description": "A Fine-Grained Runtime for Performant DOM Rendering",
+    "stargazers_count": 1018,
+    "forks_count": 180,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-04-07T02:45:00Z",
+    "pushed_at": "2026-10-07T16:49:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/mobx-jsx",
+    "description": "Raw MobX performance without being restrained by a Virtual DOM",
+    "stargazers_count": 267,
+    "forks_count": 11,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2018-07-25T07:30:47Z",
+    "pushed_at": "2023-01-09T09:43:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/component-register",
+    "description": "A simple library wrapper for Web Components",
+    "stargazers_count": 136,
+    "forks_count": 14,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2016-12-20T01:36:01Z",
+    "pushed_at": "2025-09-08T23:22:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/vuerx-jsx",
+    "description": "Vue Reactivity with Fine-Grained Rendering",
+    "stargazers_count": 88,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2020-05-17T05:40:46Z",
+    "pushed_at": "2023-01-09T09:43:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/astro-solid-hackernews",
+    "description": "Astro + Solid Hackernews Demo",
+    "stargazers_count": 62,
+    "forks_count": 10,
+    "language": "Astro",
+    "homepage": null,
+    "created_at": "2022-04-09T08:29:28Z",
+    "pushed_at": "2022-05-02T04:22:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/babel-plugin-jsx-dom-expressions",
+    "description": "A JSX to DOM plugin that wraps expressions for fine grained change detection",
+    "stargazers_count": 60,
+    "forks_count": 10,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-04-14T20:11:45Z",
+    "pushed_at": "2020-03-07T17:29:07Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "ryansolid/solid-course",
+    "description": "Reactivity with Solid Frontend Masters Course Site",
+    "stargazers_count": 47,
+    "forks_count": 12,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-11-01T16:58:24Z",
+    "pushed_at": "2022-12-07T18:15:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/ko-jsx",
+    "description": "An alternative JSX renderer for Knockout.js",
+    "stargazers_count": 41,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2018-05-08T03:43:23Z",
+    "pushed_at": "2023-01-09T09:42:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/marko-hackernews",
+    "description": "Clone of Hacker News made in Marko",
+    "stargazers_count": 23,
+    "forks_count": 4,
+    "language": "Marko",
+    "homepage": "https://marko-hackernews.ryansolid.workers.dev",
+    "created_at": "2021-02-17T15:56:57Z",
+    "pushed_at": "2022-04-18T21:44:21Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/s-jsx",
+    "description": "An alternative JSX renderer for S.js",
+    "stargazers_count": 22,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-05-11T06:03:42Z",
+    "pushed_at": "2023-01-04T21:45:14Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/webcomponent-router",
+    "description": "A nested router based on HTML Web Components",
+    "stargazers_count": 22,
+    "forks_count": 0,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-12-19T23:32:06Z",
+    "pushed_at": "2019-05-12T04:46:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/solid-hackernews-app",
+    "description": "Hacker News Clone made with Solid.js",
+    "stargazers_count": 21,
+    "forks_count": 6,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-05-13T02:43:46Z",
+    "pushed_at": "2023-02-28T18:10:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/solid-sierpinski-triangle-demo",
+    "description": "Solid implementation of Sierpinski Triangle React Fiber Demo",
+    "stargazers_count": 21,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-03-21T06:25:24Z",
+    "pushed_at": "2023-03-04T03:23:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/qwik-hackernews",
+    "description": "Remake of the classic Hackernews Demo with Qwik",
+    "stargazers_count": 20,
+    "forks_count": 2,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-02-09T07:20:09Z",
+    "pushed_at": "2022-07-22T18:50:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/solid-ssr-workbench",
+    "description": null,
+    "stargazers_count": 17,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2020-12-15T09:58:42Z",
+    "pushed_at": "2024-02-08T01:39:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/solid-ts-webpack",
+    "description": "Really really basic Solid webpack build with TS",
+    "stargazers_count": 17,
+    "forks_count": 5,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2020-05-30T04:52:23Z",
+    "pushed_at": "2024-06-29T03:30:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/html-parse-string",
+    "description": "Utils for parsing and stringifying html strings",
+    "stargazers_count": 16,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-03-15T03:27:23Z",
+    "pushed_at": "2023-07-20T09:40:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "ryansolid/fresh-hackernews",
+    "description": "A Fresh.js take on Hackernews",
+    "stargazers_count": 15,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-07-08T18:32:48Z",
+    "pushed_at": "2022-10-01T06:04:48Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 60,
+  "languages": [
+   [
+    "JavaScript",
+    26
+   ],
+   [
+    "TypeScript",
+    24
+   ],
+   [
+    "CoffeeScript",
+    3
+   ],
+   [
+    "Astro",
+    2
+   ],
+   [
+    "Marko",
+    2
+   ],
+   [
+    "Vue",
+    1
+   ],
+   [
+    "Svelte",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "solidjs/solid",
+    "stargazerCount": 36170,
+    "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://solidjs.com"
+   },
+   {
+    "nameWithOwner": "marko-js/marko",
+    "stargazerCount": 14458,
+    "description": "A declarative, HTML-based language that makes building web apps fun",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://markojs.com"
+   },
+   {
+    "nameWithOwner": "ryansolid/dom-expressions",
+    "stargazerCount": 1018,
+    "description": "A Fine-Grained Runtime for Performant DOM Rendering",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "ryansolid/component-register",
+    "stargazerCount": 136,
+    "description": "A simple library wrapper for Web Components",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "ryansolid/mobx-jsx",
+    "stargazerCount": 267,
+    "description": "Raw MobX performance without being restrained by a Virtual DOM",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "solidjs/solid-realworld",
+    "stargazerCount": 235,
+    "description": "A Solid Implementation of the Realworld Example App",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 1833,
+  "orgs": [
+   "solidjs"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "solidjs/solid": "<p>\n</p>\n[](https://github.com/solidjs/solid/actions/workflows/main-ci.yml)\n[](https://coveralls.io/github/solidjs/solid?branch=main)\n[](https://www.npmjs.com/package/solid-js)\n[](https://www.npmjs.com/package/solid-js)\n[](https://discord.com/invite/solidjs)\n[](https://www.reddit.com/r/solidjs/)\n**[Website](https://www.solidjs.com/) • [API Docs](https://docs.solidjs.com/) • [Features Tutorial](https://www.solidjs.com/tutorial/introduction_basics) • [Playground](https://playground.solidjs.com/?version=1.3.13#NobwRAdghgtgpmAXGGUCWEwBowBcCeADgsrgM4Ae2YZA9gK4BOAxiWGjIbY7gAQi9GcCABM4jXgF9eAM0a0YvADo1aAGzQiAtACsyAegDucAEYqA3EogcuPfr2ZCouOAGU0Ac2hqps+YpU6DW09CysrGXoIZlw0WgheAGEGCBdGAAoASn4rXgd4sj5gZhTcLF4yOFxkqNwAXV4AXgcnF3cvKDV0gAZMywT8iELeDEc4eFSm3iymgD4KqprU9JLamYBqXgBGPvCBoVwmBPTcvN4AHhN6XFx43gJiRpUrm-iVXnjEjWYAa0aQUZCCa4SSzU5nfirZaZSTgi76F63CBgga7CCwiBWISicTpGaNebnJZpXj6WblES0Zj0YEAOg8VQAompxsJcAAhfAASREJzAUEIhBUmTRYEkdSAA) • [Discord](https://discord.com/invite/solidjs)**\nSolid is a declarative JavaScript library for creating user interfaces. Instead of using a Virtual DOM, it compiles its templates to real DOM nodes and updates them with fine-grained reactions. Declare your state and use it throughout your app, and when a piece of state changes, only the code that depends on it will rerun.\n## At a Glance\n```tsx\nimport { createSignal } from \"solid-js\";\nimport { render } from \"solid-js/web\";\nfunction Counter() {\n  const [count, setCount] = createSignal(0);\n  const doubleCount = () => count() * 2;\n  console.log(\"The body of the function runs once...\");\n  return (\n    <>\n      <button onClick={() => setCount(c => c + 1)}>\n        {doubleCount()}\n      </button>\n    </>\n  );\n}\nrender(Counter, document.getElementById(\"app\")!);\n```\nTry this code in our [playground](https://playground.solidjs.com/anonymous/0c88df54-91b0-4c88-bd20-e962bde49725)!\n<details>\n<summary>Explain this!</summary>\n```tsx\nimport { createSignal } from \"solid-js\";\nimport { render } from \"solid-js/web\";\n// A component is just a function that returns a DOM node\nfunction Counter() {\n  // Create a piece of reactive state, giving us an accessor, count(), and a setter, setCount()\n  const [count, setCount] ",
+   "marko-js/marko": "<div align=\"center\">\n# [](https://markojs.com/)\n**A declarative, HTML-based language that makes building web apps fun 🔥**\n[](https://www.npmjs.com/package/marko)\n[](https://discord.gg/RFGxYGs)\n[](https://github.com/marko-js/marko/actions/workflows/ci.yml)\n[](https://codecov.io/gh/marko-js/marko)\n[](https://npm-stat.com/charts.html?package=marko)\n[](https://bestpractices.coreinfrastructure.org/projects/7029)\n[Docs](https://markojs.com/docs/introduction/getting-started) ∙ [Try Online](https://markojs.com/playground) ∙ [Contribute](#contributors) ∙ [Get Support](#community--support)\n</div>\n## Intro\nMarko is HTML _reimagined_ as a language for building dynamic and reactive user interfaces. Almost any valid HTML is valid Marko, and Marko extends HTML for building modern applications more declaratively. Among these extensions are [components](https://markojs.com/docs/reference/custom-tag), [conditionals](https://markojs.com/docs/reference/core-tag#if--else) and [loops](https://markojs.com/docs/reference/core-tag#for), and a full [reactivity system](https://markojs.com/docs/reference/reactivity).\n### Example Component\nThe following renders a button and a counter of how many times the button has been pressed:\n**click-count.marko**\n```marko\n// HTML + JavaScript = 💜\n<let/count=0>\n<button onClick() { count++ }>\n  Clicked ${count} times\n</button>\n```\n## Getting Started\n1. `npm init marko`\n2. Read the [docs](https://markojs.com/docs/introduction/getting-started)\n## Community & Support\n<table>\n<thead><tr>\n  <th><svg viewBox=\"0 0 576 512\"><path d=\"M492.5 69.8c-.2-.3-.4-.6-.8-.7-38.1-17.5-78.4-30-119.7-37.1-.4-.1-.8 0-1.1 .1s-.6 .4-.8 .8c-5.5 9.9-10.5 20.2-14.9 30.6-44.6-6.8-89.9-6.8-134.4 0-4.5-10.5-9.5-20.7-15.1-30.6-.2-.3-.5-.6-.8-.8s-.7-.2-1.1-.2c-41.3 7.1-81.6 19.6-119.7 37.1-.3 .1-.6 .4-.8 .7-76.2 113.8-97.1 224.9-86.9 334.5 0 .3 .1 .5 .2 .8s.3 .4 .5 .6c44.4 32.9 94 58 146.8 74.2 .4 .1 .8 .1 1.1 0s.7-.4 .9-.7c11.3-15.4 21.4-31.8 30-48.8 .1-.2 .2-.5 .2-.8s0-.5-.1-.8-.2-.5-.4-.6-.4-.3-.7-.4c-15.8-6.1-31.2-13.4-45.9-21.9-.3-.2-.5-.4-.7-.6s-.3-.6-.3-.9 0-.6 .2-.9 .3-.5 .6-.7c3.1-2.3 6.2-4.7 9.1-7.1 .3-.2 .6-.4 .9-.4s.7 0 1 .1c96.2 43.9 200.4 43.9 295.5 0 .3-.1 .7-.2 1-.2s.7 .",
+   "ryansolid/dom-expressions": "# DOM Expressions\n[](https://github.com/ryansolid/dom-expressions/actions/workflows/main-ci.yml)\n[](https://coveralls.io/github/ryansolid/dom-expressions?branch=main)\n[](https://www.npmjs.com/package/dom-expressions)\n[](https://gitter.im/dom-expressions/community)\nDOM Expressions is a Rendering Runtime for reactive libraries that do fine grained change detection. These libraries rely on concepts like Observables and Signals rather than Lifecycle functions and the Virtual DOM. Standard JSX transformers are not helpful to these libraries as they need to evaluate their expressions in isolation to avoid re-rendering unnecessary parts of the DOM.\nThis package wraps libraries like KnockoutJS or MobX and use them independent of their current render systems using a small library to render pure DOM expressions. This approach has been proven to be incredibly fast, dominating the highest rankings in the [JS Framework Benchmark](https://github.com/krausest/js-framework-benchmark).\nIt is designed to be used with a companion render API. Currently there is a JSX Babel Plugin, and Tagged Template Literals, and HyperScript runtime APIs. Most developers will not use this package directly. It is intended to help author your own Reactive Libraries and not to be used directly in projects.\n## Example Implementations\n- [Solid](https://github.com/ryansolid/solid): A declarative JavaScript library for building user interfaces.\n- [mobx-jsx](https://github.com/ryansolid/mobx-jsx): Ever wondered how much more performant MobX is without React? A lot.\n- [vuerx-jsx](https://github.com/ryansolid/vuerx-jsx): Ever wondered how much more performant Vue is without Vue? ...renderer built on @vue/reactivity\n- [ko-jsx](https://github.com/ryansolid/ko-jsx): Knockout JS with JSX rendering.\n- [s-jsx](https://github.com/ryansolid/s-jsx): Testbed for trying new techniques in the fine grained space.\n## Runtime Generator\nDom Expressions is designed to allow you to create a runtime to be tree shakeable. It does that by using \"babel-plugin-transform-rename-import\" to rename the import to your reactive core file. Setup the babel plugin and then `export * from \"dom-expressions/src/runtime\"`from your runtime. Be",
+   "ryansolid/component-register": "# Component Register\r\n[](https://travis-ci.com/ryansolid/component-register)\r\n[](https://coveralls.io/github/ryansolid/component-register?branch=master)\r\n[](https://www.npmjs.com/package/component-register)\r\nThis library provides a framework agnostic base for webcomponents by the use of simple composition to wrap components from any existing library.\r\nDon't know anything about webcomponents? Doesn't matter! This library is designed to transparently wrap the existing Components you have. None of this psuedo API imposing. Want React WebComponents?Write natural React Components.\r\nUnlike Polymer or Stencil you don't need to learn a new Framework. Unlike SkateJS you don't need to learn new ways to interact with your old Framework. Webcomponents without the cognitive overhead.\r\nThis library is designed to work in environments that already support custom elements, templates, and shadow dom. If those are not present your target browser can include the [component-register-platform](https://github.com/ryansolid/component-register-platform) shim which includes some ES2015 and webcomponents.js polyfills to give support back to IE11. Alternatively for more modern browsers without full support the webcomponents.js polyfills will do the trick.\r\n## Plugins\r\n* [component-register-hooks](https://github.com/ryansolid/component-register-hooks) A React Hooks API inspired state management extension to integrate with your favourite micro-renderer like LitHTML, HyperHTML, or IncrementalDOM.\r\n* [solid-element](https://github.com/ryansolid/solid-element) Custom Element implementation for [Solid](https://github.com/ryansolid/solid) that showcases some more powerful usage of the library with Fine Grained change managment.\r\n* [component-register-preact](https://github.com/ryansolid/component-register-preact) This implementation to demonstrate using Preact Components as is as Custom Elements.\r\n* [component-register-react](https://github.com/ryansolid/component-register-react) This implementation to demonstrate using React Components as is as Custom Elements. Does event retargetting to support Reacts event system in the Shadow DOM.\r\n* [component-register-ko](https://github.com/ryansolid/compo",
+   "ryansolid/mobx-jsx": "# MobX JSX\r\nThis library is a demonstration of how MobX fine grain control can be leveraged directly in JSX for considerably better performance than pairing it with a Virtual DOM library. Even the fastest Virtual DOM library will have overhead when reconciling many small discrete changes into a scheduled render and patch.\r\nCheck out MobX JSX performance near the top of the charts on the [JS Frameworks Benchmark](https://github.com/krausest/js-framework-benchmark).\r\nIt accomplishes this with using [Babel Plugin JSX DOM Expressions](https://github.com/ryansolid/dom-expressions/tree/master/packages/babel-plugin-jsx-dom-expressions). It compiles JSX to DOM statements and wraps expressions in functions that can be called by the library of choice. In this case `autorun` wraps these expressions ensuring the view stays up to date. Unlike Virtual DOM only the changed nodes are affected and the whole tree is not re-rendered over and over.\r\n## Usage\r\nTo use call render as follow\r\n```js\r\nimport { render } from \"mobx-jsx\";\r\nrender(App, document.getElementById(\"main\"));\r\n```\r\nAnd include 'babel-plugin-jsx-dom-expressions' in your babelrc, webpack babel loader, or rollup babel plugin.\r\n```js\r\n\"plugins\": [[\"babel-plugin-jsx-dom-expressions\", {moduleName: 'mobx-jsx'}]]\r\n```\r\nSee [plugin options](https://github.com/ryansolid/dom-expressions/tree/master/packages/babel-plugin-jsx-dom-expressions#plugin-options)\r\nFor TS JSX types add to your `tsconfig.json`:\r\n```js\r\n\"jsx\": \"preserve\",\r\n\"jsxImportSource\": \"mobx-jsx\"\r\n```\r\n## Installation\r\n```sh\r\n> npm install mobx-jsx babel-plugin-jsx-dom-expressions\r\n```\r\n## Examples\r\n- [Counter Using Functions](https://codesandbox.io/s/mobx-counterfunctions-3sqv1)\r\n- [Counter Using Classes](https://codesandbox.io/s/mobx-counterclasses-uz7g9)\r\n- [Lazy Loading](https://codesandbox.io/s/mobx-lazy-demo-ev95s)\r\n- [Context](https://codesandbox.io/s/mobx-counter-context-wlu1x)\r\n## API\r\nMobX JSX works both with function and Class components (extend Component from this library).\r\n### Map For Observable Arrays\r\nShips a specialize map function for optimal list rendering that takes an observable array as it's first argument. To avoid re-rendering the complete "
+  }
+ },
+ "apps": []
+}

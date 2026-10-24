@@ -1,0 +1,420 @@
+{
+ "handle": "shuding",
+ "sites": [
+  {
+   "url": "https://shud.in",
+   "ok": true,
+   "title": "Shu Ding",
+   "description": "Making things at Vercel. My interests span a broad spectrum of subjects, encompassing visual, web, math, game design, and HCI.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Shu Ding \nMaking things at Vercel . My interests span a broad spectrum of subjects, encompassing visual, web, math, game design, and HCI. \nSince high school, I’ve spent years on algorithm competitions, web design and development. In 2017, I earned my BSc degree in Computer Science from Fudan University in Shanghai, and joined as a software engineer at Microsoft. In 2018, I joined Vercel (ZEIT) and worked on the core platform, Next.js, AI SDK, v0, and more. \nYou can gain further insights into my background and interests through my thoughts , projects , find me on GitHub , X (Twitter) , and LinkedIn .",
+   "github_links": [
+    "shuding"
+   ],
+   "subpages": {
+    "https://shud.in/projects": "Projects \nOver the years, I’ve had the privilege of working with talented teams on projects from open-source libraries to large-scale applications. \n # \nI’ve been a core maintainer of Next.js since 2020, working closely with the React team. I led the development of Streaming SSR, Edge Runtime, React Server Components, Server Actions and other architectural improvements ( full contribution list ). I also designed and built the Next.js website in 2018 . \n # \nI co-created v0 with Jared Palmer , Max Leiter , and shadcn in 2023, helped design its architecture, and implemented parts of the core AI, streaming, rendering pipeline and Design Mode. \n # \nI designed the first client-side hook APIs and implemented function calling, RSC and data APIs for AI SDK . I also built the initial AI playground and documentation site . \n # \nI joined Vercel in 2018 as one of the earliest engineers. Notable work includes:\n Fast Image Generation , Analytics Visualizations , Dashboard Performance Improvements , Project-Level Git Integration , Custom Production Branch , Usage Dashboard, Advanced Project Settings, Monorepo Pipeline, Deploy Button, Dashboard Redesign, etc. \n # React Best Practices \nI created React Best Practices in 2026, a framework of 40+ performance rules for React and Next.js, for developers and AI agents ( announcement ). \n # \nI created SWR with Guillermo Rauch in 2019 as the first hook-based, stale-while-revalidate data fetching library. Evil Rabbit and Paco Coursey designed the delightful SWR logo. \n # Satori \n Satori is the first CSS-to-SVG render engine that doesn’t need a browser. I created it in 2021 for Vercel’s OG Image Generation . \nBalancing size, performance and compatibility, Satori has become the standard way to generate social cards in Web frameworks such as Next.js , Nuxt.js , SvelteKit , Astro , and more. \n # COBE \n COBE is perhaps the smallest (5kB) 3D globe for the web, with a minimal style. I made it in 2021 to speed up Vercel’s homepage ( story ), and it has become a popular choice for many websites. \n # GPU Lexer \n GPU Lexer is a neural network-powered syntax highlighter that leverages WebGPU for fast lexing in the browser, and it's language-agnostic. \n # \n Nextra is one of the most popular Next.js-based documentation solutions; before it, Next.js had no good option. I created it in 2020 and led Nextra v2 in 2022, which powers many of my projects’ homepages. \n # React Wrap Balancer \n React Wrap Balancer was created in 2022 to improve typesetting on the Vercel blog, and was later ported to Vue and Svelte. I believe it helped push forward the CSS standard text - wrap : balance . \n # Next View Transitions \nIn 2024, I created Next View Transitions as the View Transitions API was becoming stable. \nFun projects with original ideas: \n Zero.js \n Better All \n Composable SVG Shaders \n Frosted Glass \n Legid: Safe & Legit ID Generator \n BIDC: Bidirectional Channels \n Scroll Indicator \n Color Picker \n Blur Slider \nOther mini projects (all on GitHub"
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "shuding",
+  "user": {
+   "name": "Shu Ding",
+   "company": "@Vercel",
+   "blog": "shud.in",
+   "location": null,
+   "bio": "Be curious. Read widely. Try new things. — aaronsw",
+   "public_repos": 159,
+   "followers": 8352,
+   "created_at": "2013-02-23T07:46:30Z",
+   "twitter_username": "shuding",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "shuding/nextra",
+    "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
+    "stargazers_count": 13941,
+    "forks_count": 1412,
+    "language": "TypeScript",
+    "homepage": "https://nextra.site",
+    "created_at": "2020-06-15T16:39:34Z",
+    "pushed_at": "2026-07-31T20:39:04Z",
+    "topics": [
+     "markdown",
+     "mdx",
+     "nextjs",
+     "nextra",
+     "react",
+     "static-site-generator"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/cobe",
+    "description": "5KB WebGL globe lib.",
+    "stargazers_count": 6002,
+    "forks_count": 354,
+    "language": "TypeScript",
+    "homepage": "https://cobe.vercel.app",
+    "created_at": "2021-11-18T18:26:41Z",
+    "pushed_at": "2026-09-22T07:38:35Z",
+    "topics": [
+     "globe",
+     "webgl"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/react-wrap-balancer",
+    "description": "Simple React Component That Makes Titles More Readable",
+    "stargazers_count": 4214,
+    "forks_count": 62,
+    "language": "HTML",
+    "homepage": "https://react-wrap-balancer.vercel.app",
+    "created_at": "2022-11-10T08:21:36Z",
+    "pushed_at": "2026-03-25T08:43:27Z",
+    "topics": [
+     "react",
+     "typography",
+     "wrapping"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/next-view-transitions",
+    "description": "Use CSS View Transitions API in Next.js App Router.",
+    "stargazers_count": 2381,
+    "forks_count": 93,
+    "language": "TypeScript",
+    "homepage": "https://next-view-transitions.vercel.app",
+    "created_at": "2024-04-14T15:08:44Z",
+    "pushed_at": "2026-03-06T14:41:17Z",
+    "topics": [
+     "app-router",
+     "nextjs",
+     "view-transitions"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/tilg",
+    "description": "A magical React Hook that helps you debug components.",
+    "stargazers_count": 2177,
+    "forks_count": 22,
+    "language": "TypeScript",
+    "homepage": "https://codesandbox.io/s/usetilg-3kdtz8?file=/src/App.js:274-359",
+    "created_at": "2021-12-12T17:56:15Z",
+    "pushed_at": "2022-12-23T10:28:52Z",
+    "topics": [
+     "debug",
+     "logger",
+     "react",
+     "react-hooks"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/nextra-docs-template",
+    "description": "Nextra docs template",
+    "stargazers_count": 1345,
+    "forks_count": 685,
+    "language": "MDX",
+    "homepage": "https://nextra-docs-template.vercel.app",
+    "created_at": "2022-12-02T09:08:15Z",
+    "pushed_at": "2024-07-19T04:10:20Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/liquid-glass",
+    "description": "Copy-paste Liquid Glass shader with SVG",
+    "stargazers_count": 1210,
+    "forks_count": 62,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2025-06-11T09:54:16Z",
+    "pushed_at": "2026-03-26T00:11:07Z",
+    "topics": [
+     "liquid-glass"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/better-all",
+    "description": "Better Promise.all with automatic dependency optimization",
+    "stargazers_count": 1106,
+    "forks_count": 19,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-01-07T17:26:34Z",
+    "pushed_at": "2026-08-19T15:20:00Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/nstr",
+    "description": "number → string, but looks good",
+    "stargazers_count": 668,
+    "forks_count": 14,
+    "language": "TypeScript",
+    "homepage": "https://nstr.vercel.app",
+    "created_at": "2025-08-21T21:03:28Z",
+    "pushed_at": "2025-10-21T14:43:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/y86",
+    "description": "A Y86 pipeline CPU simulator in JavaScript.",
+    "stargazers_count": 523,
+    "forks_count": 64,
+    "language": "JavaScript",
+    "homepage": "https://y86.js.org",
+    "created_at": "2015-06-11T13:35:37Z",
+    "pushed_at": "2020-12-23T23:06:59Z",
+    "topics": [
+     "angular",
+     "asm",
+     "cpu",
+     "csapp",
+     "javascript",
+     "ui",
+     "x86"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/apple-pencil-safari-api-test",
+    "description": "Canvas based sketch board, with force touch and real-time Bezier curves.",
+    "stargazers_count": 514,
+    "forks_count": 56,
+    "language": "JavaScript",
+    "homepage": "https://shuding.github.io/apple-pencil-safari-api-test",
+    "created_at": "2016-04-13T18:30:17Z",
+    "pushed_at": "2022-02-12T09:38:48Z",
+    "topics": [
+     "3d-touch",
+     "apple-pencil",
+     "bezier",
+     "canvas",
+     "force-touch",
+     "javascript",
+     "sketching"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/legid",
+    "description": "A library for generating safe, legit and random URL-compat IDs.",
+    "stargazers_count": 407,
+    "forks_count": 3,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2025-07-07T15:47:03Z",
+    "pushed_at": "2025-07-21T09:31:30Z",
+    "topics": [
+     "random-id",
+     "uuid"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/stable-hash",
+    "description": "Stable JS value hash",
+    "stargazers_count": 349,
+    "forks_count": 16,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2021-09-16T23:02:36Z",
+    "pushed_at": "2026-01-25T03:30:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/shud.in",
+    "description": "My personal website",
+    "stargazers_count": 217,
+    "forks_count": 17,
+    "language": "MDX",
+    "homepage": "https://shud.in",
+    "created_at": "2024-04-06T22:16:23Z",
+    "pushed_at": "2026-10-22T14:12:04Z",
+    "topics": [
+     "mdx",
+     "nextjs",
+     "react",
+     "vercel"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/yoga-wasm-web",
+    "description": "WASM build of Yoga, targeting the web worker runtime.",
+    "stargazers_count": 215,
+    "forks_count": 16,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2022-02-05T15:33:21Z",
+    "pushed_at": "2024-08-19T20:24:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/svg-shaders",
+    "description": "Composable SVG Shaders",
+    "stargazers_count": 195,
+    "forks_count": 6,
+    "language": "JavaScript",
+    "homepage": "https://svg-shaders.vercel.app",
+    "created_at": "2024-11-02T21:05:04Z",
+    "pushed_at": "2026-04-11T19:14:40Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/cssosx",
+    "description": "A CSS & JS made macOS UI.",
+    "stargazers_count": 144,
+    "forks_count": 16,
+    "language": "CSS",
+    "homepage": "https://cssosx.shud.in",
+    "created_at": "2013-12-12T04:38:29Z",
+    "pushed_at": "2019-10-27T13:03:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "shuding/next-cms",
+    "description": null,
+    "stargazers_count": 98,
+    "forks_count": 11,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2020-01-21T12:51:07Z",
+    "pushed_at": "2022-02-28T19:16:57Z",
+    "topics": [],
+    "archived": true
+   }
+  ],
+  "repo_count_nonfork": 97,
+  "languages": [
+   [
+    "JavaScript",
+    55
+   ],
+   [
+    "TypeScript",
+    15
+   ],
+   [
+    "HTML",
+    7
+   ],
+   [
+    "CSS",
+    4
+   ],
+   [
+    "C++",
+    3
+   ],
+   [
+    "MDX",
+    2
+   ],
+   [
+    "TeX",
+    1
+   ],
+   [
+    "PHP",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "vercel/next.js",
+    "stargazerCount": 143215,
+    "description": "The React Framework",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://nextjs.org"
+   },
+   {
+    "nameWithOwner": "shuding/nextra",
+    "stargazerCount": 13941,
+    "description": "Simple, powerful and flexible site generation framework with everything you love from Next.js.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://nextra.site"
+   },
+   {
+    "nameWithOwner": "vercel/swr",
+    "stargazerCount": 32495,
+    "description": "React Hooks for Data Fetching",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://swr.vercel.app"
+   },
+   {
+    "nameWithOwner": "shuding/cobe",
+    "stargazerCount": 6002,
+    "description": "5KB WebGL globe lib.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://cobe.vercel.app"
+   },
+   {
+    "nameWithOwner": "vercel/satori",
+    "stargazerCount": 14122,
+    "description": "Enlightened library to convert HTML and CSS to SVG",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://og-playground.vercel.app"
+   },
+   {
+    "nameWithOwner": "shuding/react-wrap-balancer",
+    "stargazerCount": 4214,
+    "description": "Simple React Component That Makes Titles More Readable",
+    "primaryLanguage": {
+     "name": "HTML"
+    },
+    "homepageUrl": "https://react-wrap-balancer.vercel.app"
+   }
+  ],
+  "contrib_last_year": 3112,
+  "orgs": [
+   "STU-Fudan",
+   "presenterx",
+   "vercel",
+   "inns",
+   "hackfdu",
+   "FDDNteam",
+   "cyatheatree",
+   "signsinchina"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "vercel/next.js": "<div align=\"center\">\n  <a href=\"https://nextjs.org\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png\">\n    </picture>\n  </a>\n  <h1>Next.js</h1>\n<a href=\"https://vercel.com\"></a>\n<a href=\"https://www.npmjs.com/package/next\"></a>\n<a href=\"https://github.com/vercel/next.js/blob/canary/license.md\"></a>\n<a href=\"https://github.com/vercel/next.js/discussions\"></a>\n</div>\n## Getting Started\nUsed by some of the world's largest companies, Next.js enables you to create full-stack web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.\n- Visit our [Learn Next.js](https://nextjs.org/learn) course to get started with Next.js.\n- Visit the [Next.js Showcase](https://nextjs.org/showcase) to see more sites built with Next.js.\n## Documentation\nVisit [https://nextjs.org/docs](https://nextjs.org/docs) to view the full documentation.\n## Community\nThe Next.js community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions) where you can ask questions, voice ideas, and share your projects with other people.\nTo chat with other community members, you can join the Next.js [Discord](https://nextjs.org/discord) server.\nDo note that our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_CONDUCT.md) applies to all Next.js community channels. Users are **highly encouraged** to read and adhere to it to avoid repercussions.\n## Contributing\nContributions to Next.js are welcome and highly appreciated. However, before you jump right into it, we would like you to review our [Contribution Guidelines](/contributing.md) to make sure you have a smooth experience contributing to Next.js.\n### Good First Issues:\nWe have a list of **[good first issues](https://github.com/vercel/next.js/labels/good%20first%20issue)** that contain bugs that have a relatively limited scope. This is a great place for newcomers and beginners alike to get started, gain experience, and get familiar with our contribution process.\n---\n## Security\nIf you believe you have found a security vulnerabili",
+   "shuding/nextra": "# Nextra\nSimple, powerful and flexible site generation framework with everything you love\nfrom Next.js.\n## Documentation\nhttps://nextra.site\n## Development\n### Installation\nThe Nextra repository uses [PNPM Workspaces](https://pnpm.io/workspaces) and\n[Turborepo](https://github.com/vercel/turborepo).\n1. Run `corepack enable` to enable Corepack.\n   > If the command above fails, run `npm install -g corepack@latest` to install\n   > the latest version of\n   > [Corepack](https://github.com/nodejs/corepack?tab=readme-ov-file#manual-installs).\n2. Run `pnpm install` to install the project's dependencies.\n### Build `nextra`\n```bash\npnpm --filter nextra build\n```\nWatch mode: `pnpm --filter nextra dev`\n### Build `nextra-theme-docs`\n```bash\npnpm --filter nextra-theme-docs build\n```\n### Development\nYou can also debug them together with a website locally. For instance, to start\n`examples/docs` locally, run\n```bash\npnpm --filter example-docs dev\n```\nAny change to `example/docs` will be re-rendered instantly.\nIf you update the core or theme packages, a rebuild is required. Or you can use\nthe watch mode for both Nextra and the theme in separated terminals.\n## Sponsors\n<div>\n <a href=\"https://inkeep.com?utm_source=github&utm_campaign=nextra&utm_content=logolink\">\n </a>\n <a href=\"https://xyflow.com?utm_source=github&utm_campaign=nextra&utm_content=logolink\">\n </a>\n</div>\n",
+   "vercel/swr": "[](https://swr.vercel.app)\n<p align=\"center\">\n  <a aria-label=\"Vercel logo\" href=\"https://vercel.com\">\n  </a>\n  <br/>\n  <a aria-label=\"NPM version\" href=\"https://www.npmjs.com/package/swr\">\n  </a>\n  <a aria-label=\"Package size\" href=\"https://bundlephobia.com/result?p=swr\">\n  </a>\n  <a aria-label=\"License\" href=\"https://github.com/vercel/swr/blob/main/LICENSE\">\n  </a>\n</p>\n## Introduction\nSWR is a React Hooks library for data fetching.\nThe name “**SWR**” is derived from `stale-while-revalidate`, a cache invalidation strategy popularized by [HTTP RFC 5861](https://tools.ietf.org/html/rfc5861).\n**SWR** first returns the data from cache (stale), then sends the request (revalidate), and finally comes with the up-to-date data again.\nWith just one hook, you can significantly simplify the data fetching logic in your project. And it also covered in all aspects of speed, correctness, and stability to help you build better experiences:\n- **Fast**, **lightweight** and **reusable** data fetching\n- Transport and protocol agnostic\n- Built-in **cache** and request deduplication\n- **Real-time** experience\n- Revalidation on focus\n- Revalidation on network recovery\n- Polling\n- Pagination and scroll position recovery\n- SSR and SSG\n- Local mutation (Optimistic UI)\n- Built-in smart error retry\n- TypeScript\n- React Suspense\n- React Native\n...and a lot more.\nWith SWR, components will get **a stream of data updates constantly and automatically**. Thus, the UI will be always **fast** and **reactive**.\n---\n**View full documentation and examples on [swr.vercel.app](https://swr.vercel.app).**\n<br/>\n## Quick Start\n```js\nimport useSWR from 'swr'\nfunction Profile() {\n  const { data, error, isLoading } = useSWR('/api/user', fetcher)\n  if (error) return <div>failed to load</div>\n  if (isLoading) return <div>loading...</div>\n  return <div>hello {data.name}!</div>\n}\n```\nIn this example, the React Hook `useSWR` accepts a `key` and a `fetcher` function.\nThe `key` is a unique identifier of the request, normally the URL of the API. And the `fetcher` accepts\n`key` as its parameter and returns the data asynchronously.\n`useSWR` also returns 3 values: `data`, `isLoading` and `error`. When the request (fet",
+   "shuding/cobe": "[](https://cobe.vercel.app)\n<p align=\"center\">Use any DOM element as bindable markers.<br/>CSS transitions, animations, filters, interactivity, all just work.</p>\n<p align=\"center\">High perf, zero deps, ~5KB.</p>\n<p align=\"center\">\n  <video src=\"ideas-1_4x.mp4\" poster=\"card.png\" autoplay loop muted playsinline width=\"600\"></video>\n</p>\n---\n- [**Demo** and configurations](https://cobe.vercel.app)\n## Quick Start\n```html\n<canvas\n  id=\"cobe\"\n  style=\"width: 500px; height: 500px;\"\n  width=\"1000\"\n  height=\"1000\"\n></canvas>\n```\n```js\nimport createGlobe from 'cobe'\nlet phi = 0\nlet canvas = document.getElementById(\"cobe\")\nconst globe = createGlobe(canvas, {\n  devicePixelRatio: 2,\n  width: 1000,\n  height: 1000,\n  phi: 0,\n  theta: 0,\n  dark: 0,\n  diffuse: 1.2,\n  scale: 1,\n  mapSamples: 16000,\n  mapBrightness: 6,\n  baseColor: [0.3, 0.3, 0.3],\n  markerColor: [1, 0.5, 1],\n  glowColor: [1, 1, 1],\n  offset: [0, 0],\n  markers: [\n    { location: [37.7595, -122.4367], size: 0.03 },\n    { location: [40.7128, -74.006], size: 0.1, color: [1, 0, 0] }, // custom color\n  ],\n  arcs: [\n    {\n      from: [37.7595, -122.4367],\n      to: [40.7128, -74.006],\n      color: [1, 0.5, 0.5], // custom color (optional)\n    },\n  ],\n  arcColor: [1, 0.5, 1],\n  arcWidth: 0.5,\n  arcHeight: 0.3,\n  markerElevation: 0.02,\n  onRender: (state) => {\n    // Called on every animation frame.\n    // `state` will be an empty object, return updated params.\n    state.phi = phi\n    phi += 0.01\n  },\n})\n// To destroy the instance and bindings:\n// `globe.destroy()`\n```\n## Arcs\nArcs connect two locations on the globe:\n```js\narcs: [\n  {\n    from: [37.7595, -122.4367],\n    to: [35.6762, 139.6503],\n    color: [1, 0.5, 0.5], // optional, uses arcColor if not set\n  },\n]\n```\n## Bindable Markers & Arcs\nMarkers and arcs can have an `id` property for [CSS Anchor Positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_anchor_positioning):\n```js\nmarkers: [\n  { location: [37.7595, -122.4367], size: 0.03, id: 'sf' },\n],\narcs: [\n  { from: [37.7595, -122.4367], to: [35.6762, 139.6503], id: 'sf-tokyo' },\n]\n```\n```css\n.marker-label {\n  position: absolute;\n  position-anchor: --cobe-sf;\n  bottom: anchor(top);\n  left: anchor(center",
+   "vercel/satori": "\n**Satori**: Enlightened library to convert HTML and CSS to SVG.\n> **Note**\n>\n> To use Satori in your project to generate PNG images like Open Graph images and social cards, check out our [announcement](https://vercel.com/blog/introducing-vercel-og-image-generation-fast-dynamic-social-card-images) and [Vercel’s Open Graph Image Generation docs →](https://vercel.com/docs/og-image-generation)\n>\n> To use it in Next.js, take a look at the [Open Graph Image Generation examples →](https://vercel.com/docs/og-image-generation/examples)\n## Overview\nSatori supports the JSX syntax, which makes it very straightforward to use. Here’s an overview of the basic usage:\n```jsx\n// api.jsx\nimport satori from 'satori'\nconst svg = await satori(\n  <div style={{ color: 'black' }}>hello, world</div>,\n  {\n    width: 600,\n    height: 400,\n    fonts: [\n      {\n        name: 'Roboto',\n        // Use `fs` (Node.js only) or `fetch` to read the font as Buffer/ArrayBuffer and provide `data` here.\n        data: robotoArrayBuffer,\n        weight: 400,\n        style: 'normal',\n      },\n    ],\n  },\n)\n```\nSatori will render the element into a 600×400 SVG, and return the SVG string:\n```js\n'<svg ...><path d=\"...\" fill=\"black\"></path></svg>'\n```\nTo render it to a PNG, use [Sharp](https://sharp.pixelplumbing.com), which draws SVG with librsvg:\n```js\nimport sharp from 'sharp'\nconst png = await sharp(Buffer.from(svg)).png().toBuffer()\n```\nUnder the hood, it handles layout calculation, font, typography and more, to generate a SVG that matches the exact same HTML and CSS in a browser.\n<br/>\n## Documentation\n### JSX\nSatori only accepts JSX elements that are pure and stateless. You can use a subset of HTML\nelements (see section below), or custom React components, but React APIs such as `useState` and `useEffect` are not supported, and `dangerouslySetInnerHTML` is only supported on `<style>` and `<script>`.\n#### Experimental: builtin JSX support\nSatori has an experimental JSX runtime that you can use without having to install React. You can enable it on a per-file basis with [`@jsxImportSource` pragmas](https://www.typescriptlang.org/tsconfig/#jsxImportSource). In the future, it will autocomplete only the subs"
+  }
+ },
+ "apps": []
+}

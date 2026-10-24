@@ -1,0 +1,161 @@
+{
+ "name": "Gus Mueller（August Mueller）",
+ "role": "Flying Meat 创始人 · Acorn 图像编辑器、Retrobatch、VoodooPad 作者 · FMDB 作者",
+ "title": "Gus Mueller：一家「飞肉」公司的 <em>23 年</em>",
+ "dek": "2003 年，他在西雅图北边创办了 Flying Meat，目标只有一个：做一款更好的 Mac 应用。第一款产品是获过奖的桌面维基 VoodooPad，后来是图像编辑器 Acorn。Acorn 卖了将近二十年，坚持「没有订阅」，2026 年 10 月刚更新到 8.7，加入了机器学习主体选择、去除物体、修复画笔和 JPEG-XL 支持。他还做了节点式批量图像处理工具 Retrobatch。很多 iOS 开发者也许没用过他的应用，却用过他的代码：SQLite 封装库 FMDB 在 GitHub 上有 1.38 万颗星，在 Objective-C 时代被大量 iOS 和 Mac 应用用来访问数据库。他自称「数字木匠，像素机修工」。",
+ "card": "Flying Meat 创始人（2003）；Acorn、Retrobatch、VoodooPad 作者；FMDB（★1.4 万）作者，华盛顿州。",
+ "location": "美国华盛顿州马基尔蒂奥",
+ "updated": "2026-10-23",
+ "tags": ["独立开发", "Mac", "图像编辑", "Objective-C", "SQLite"],
+ "links": [
+  {"label": "Flying Meat", "url": "https://flyingmeat.com"},
+  {"label": "Acorn", "url": "https://flyingmeat.com/acorn/"},
+  {"label": "The Shape of Everything", "url": "https://shapeof.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Digital carpenter, pixel mechanic.」",
+  "<strong>代表作：</strong>Acorn（图像编辑器，v8.7）、Retrobatch（批量图像处理）、VoodooPad（桌面维基）、FlySketch、FlyGesture；开源 FMDB（★13,820）、CocoaScript、JSTalk、FMPSD、Lift 图像格式。",
+  "<strong>公司：</strong>Flying Meat Inc.，2003 年创立，私有独立软件公司。",
+  "<strong>写作：</strong>博客 The Shape of Everything，「一个主要关于 Mac 的网站」，从 2000 年代写到今天。"
+ ],
+ "lead": "Flying Meat 这个名字来自密苏里州一条攀岩路线：一只倒霉的鹿从崖顶跳了下去，被第一个攀登这条线的人看见了，于是路线就叫「飞肉」。官网 About 页把这个故事讲得很认真，就像 Gus 对待 Acorn：一个人、一家小公司，二十多年只做一件事，「做一个更好的 Mac 应用」。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立 Mac 开发者、公司创始人"],
+     ["所在地", "美国华盛顿州马基尔蒂奥（西雅图以北）"],
+     ["公司", "Flying Meat Inc.（2003–）"],
+     ["产品", "Acorn、Retrobatch、VoodooPad、FlySketch、FlyGesture"],
+     ["开源", "FMDB、CocoaScript、JSTalk、FMPSD、Lift、FMJS"],
+     ["技术栈", "Objective-C、Cocoa、Core Image、Metal、SQLite"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Gus 的主力是 <strong>Acorn</strong>：一款「独一无二、没有订阅、没有麻烦」的 Mac 图像编辑器。Acorn 8 系列加入了很多新能力：Synth Fill 画笔一抹就能去掉画面里多余的人和车；修复画笔；从头重写的笔刷引擎；机器学习主体选择和实况文本；用 CSV 批量生成图形的数据合并；LUT 调色；超分辨率放大。它支持快捷指令和 AppleScript，也支持 JPEG-XL。"},
+    {"p": "Retrobatch 是另一个方向：用节点连成工作流，批量处理成千上万张图片。他在 GitHub 上公开了 Retrobatch 的示例工作流和脚本，也维护着 Acorn 的插件 SDK。"},
+    {"note": "本页依据 flyingmeat.com（About、Acorn）、shapeof.com、GitHub 和 X 资料整理，资料截至 2026 年 10 月。家庭成员信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2003", "title": "Flying Meat", "text": "创立公司，第一款产品是桌面维基 VoodooPad。"},
+     {"when": "2000 年代后期", "title": "Acorn", "text": "推出图像编辑器 Acorn，此后持续更新近二十年。"},
+     {"when": "2009–2013", "title": "脚本桥接", "text": "JSTalk（「如果 Cocoa 程序员来写 AppleScript」），后继者 CocoaScript；FMPSD 读写 PSD。"},
+     {"when": "2010", "title": "FMDB 上 GitHub", "text": "SQLite 的 Objective-C 封装迁到 GitHub，成为被广泛使用的数据库库。"},
+     {"when": "2018", "title": "Retrobatch", "text": "节点式批量图像处理工具；同年开始 FMJS（JavaScript 到 C/Cocoa 的桥接）。"},
+     {"when": "2026", "title": "Acorn 8.5–8.7", "text": "新笔刷工具、裁剪快捷键、支持 macOS 27。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Acorn", "url": "https://flyingmeat.com/acorn/",
+     "meta": ["Mac", "图像编辑", "v8.7.1"],
+     "paras": [
+      "支持 macOS 14 及以后的系统（包括 macOS 27），通用二进制，一次买断。单一窗口和工具栏，遵循 Big Sur 以后的 Mac 设计规范；习惯浮动面板的人也可以在设置里打开。"
+     ]
+    }},
+    {"work": {
+     "name": "FMDB", "url": "https://github.com/ccgus/fmdb",
+     "meta": ["2010–", "Objective-C", "★1.4 万"],
+     "paras": [
+      "「A Cocoa / Objective-C wrapper around SQLite.」README 第一句建议是：先把 SQLite 的 FAQ 从头到尾读一遍。截至 2026 年仍在维护，有 2,728 个分叉。"
+     ],
+     "facts": [["GitHub", "★13,820 · ⑂2,728"]]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Retrobatch", "节点式批量图像处理"],
+      ["VoodooPad", "获奖的桌面维基，Flying Meat 的第一款产品"],
+      ["CocoaScript", "JavaScript 加 Cocoa 框架，再加上 ObjC 方括号（★618）"],
+      ["Lift", "基于 SQLite、公开文档化的图像容器格式"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://shapeof.com", "paras": [
+     "「A website mostly about Mac stuff」：链接加短评，主题是 Mac 应用、原生开发和 Acorn 的技术细节。2026 年的文章有《25 Years of Mac OS X》《Tolaria, Rust, and Questions About What Makes a Mac App Feel Good to Me》《Zed Is 1.0》《Free the Icons》和《Keep Making Weird Art》。",
+     "他还有一个做披萨和面包的网站 maybepizza.com。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["形式", "链接博客 + 短评"],
+      ["节奏", "每月数篇"],
+      ["社交", "Mastodon、Bluesky、Micro.blog"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-12", "title": "Acorn 8.7", "url": "https://shapeof.com"},
+     {"date": "2026-08-30", "title": "Keep Making Weird Art", "url": "https://shapeof.com"},
+     {"date": "2026-06-26", "title": "Free the Icons", "url": "https://shapeof.com"},
+     {"date": "2026-04-24", "title": "Tolaria, Rust, and Questions About What Makes a Mac App Feel Good to Me", "url": "https://shapeof.com"},
+     {"date": "2026-03-24", "title": "25 Years of Mac OS X", "url": "https://shapeof.com"}
+    ]},
+    {"quote": "JSTalk is how I imagine AppleScript would be done today, if it was written by a Cocoa programmer who was smitten by Cocoa and Objective-C.", "cite": "Gus Mueller，JSTalk README"},
+    {"p": "他一直在追问「什么让一个 Mac 应用感觉好」，也会直接批评 macOS 的设计退步，比如他说新版屏幕共享的图标「看起来像给 Windows 3.1 做的」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["持久", "一家公司二十多年，产品持续更新", "—"],
+      ["商业", "坚持买断制", "—"],
+      ["开源", "FMDB 影响深远", "Swift 时代以 GRDB 等新库为主流"],
+      ["规模", "小而稳", "产品线集中在 Mac"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一个目标做二十年：</strong>做一个更好的 Mac 应用。",
+     "<strong>不订阅也能活：</strong>买断制需要持续的大版本。",
+     "<strong>把内部代码开源：</strong>FMDB 本来就是自用的。",
+     "<strong>跟上新技术：</strong>机器学习功能一样能进老应用。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Acorn", "url": "https://flyingmeat.com/acorn/", "why": "试试 Synth Fill 去掉照片里的路人。"},
+     {"name": "FMDB", "url": "https://github.com/ccgus/fmdb", "why": "看一个经典库的 API 设计。"},
+     {"name": "The Shape of Everything", "url": "https://shapeof.com", "why": "订阅一个老派 Mac 开发者的博客。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读一遍 SQLite 的 FAQ，就像 FMDB 的 README 建议的那样。",
+ "sources": [
+  {"label": "Gus Mueller 的 X 个人资料", "url": "https://x.com/ccgus"},
+  {"label": "About（Flying Meat）", "url": "https://flyingmeat.com/about/"},
+  {"label": "Acorn", "url": "https://flyingmeat.com/acorn/"},
+  {"label": "The Shape of Everything", "url": "https://shapeof.com"},
+  {"label": "GitHub：ccgus", "url": "https://github.com/ccgus"},
+  {"label": "GitHub：ccgus/fmdb", "url": "https://github.com/ccgus/fmdb"}
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "name": "Jay",
+ "role": "Anomaly CEO · OpenCode、SST 背后的公司 · 多伦多",
+ "title": "Jay：<em>开源编程 Agent</em> 背后的公司",
+ "dek": "TA 住在多伦多，是 Anomaly（Anomaly Innovations）的 CEO。这家公司先做了 SST：一个「在你自己的基础设施上构建全栈应用」的框架（★2.6 万），以及配套的免费教程 SST Guide（原 Serverless Stack）。2025 年，他们推出了开源编程 Agent OpenCode。据维基百科，OpenCode 与模型无关，可以在终端、桌面应用和 IDE 里使用，支持本地模型、LSP 诊断和 MCP；Cloudflare 在开发实验项目 Vinext 时就用了它。OpenCode 官网显示，它在 GitHub 上已有 22 万多颗星、950 位贡献者，每月有 1,600 万开发者使用。2026 年 10 月，Jay 宣布 OpenCode 的日活用户达到 200 万。",
+ "card": "Anomaly CEO，OpenCode（★22 万）与 SST（★2.6 万）背后的公司，多伦多。",
+ "location": "加拿大多伦多",
+ "updated": "2026-10-23",
+ "tags": ["AI 编程 Agent", "开源", "Serverless", "创业", "开发者工具"],
+ "links": [
+  {"label": "OpenCode", "url": "https://opencode.ai"},
+  {"label": "SST", "url": "https://sst.dev"},
+  {"label": "Anomaly", "url": "https://anoma.ly"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「CEO @anomalyco @opencode」。",
+  "<strong>公司产品：</strong>OpenCode（★220,653）、SST（★26,372）、SST Guide（★3,684）、SST Console。",
+  "<strong>关键数字：</strong>OpenCode 日活 200 万（2026 年 10 月）、官网称每月 1,600 万开发者；Jay 的 X 关注者约 2.4 万。",
+  "<strong>角色：</strong>CEO，GitHub 上的个人仓库多为示例和测试。"
+ ],
+ "lead": "OpenCode 官网的数字增长得很快：超过 22 万 GitHub 星、950 位贡献者、2 万多次提交，「每月被超过 1,600 万开发者使用和信任」。它强调隐私优先：不存储你的代码或上下文数据，因此可以在对隐私敏感的环境里运行。你可以登录 GitHub 用 Copilot 账号，登录 OpenAI 用 ChatGPT Plus / Pro 账号，或者通过 Models.dev 接入 75 家以上的模型服务，包括本地模型。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "创业者、CEO"],
+     ["所在地", "加拿大多伦多"],
+     ["公司", "Anomaly Innovations"],
+     ["产品", "OpenCode、SST、SST Guide"],
+     ["技术栈", "TypeScript、JavaScript"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Jay 带领 Anomaly 在做<strong>开源 AI 编程 Agent</strong>。OpenCode 的当前版本主要用 TypeScript 写、跑在 Bun 上；它与 2025 年 9 月归档的一个同名 Go 项目不是同一个。维基百科还记录，2026 年 2 月 Anthropic 澄清消费级 Claude 订阅不能通过未授权的第三方工具使用，OpenCode 随后移除了用 Claude Pro / Max 订阅登录的支持。"},
+    {"p": "TA 的 X 时间线大多是短句和梗图：「这是软件的黄金时代」，「我们有算力短缺，可为什么你知道的每家 SaaS 公司都想做推理？」"},
+    {"note": "本页依据 opencode.ai、sst.dev、维基百科 OpenCode 条目、GitHub 资料和 X 帖子整理，资料截至 2026 年 10 月。Jay 本人的全名、教育和职业经历未见公开资料，本页不作推测；产品数据来自官网与本人帖子。性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "约 2017", "title": "Serverless Stack", "text": "免费的 Serverless 全栈教程，后来成为 SST Guide。"},
+     {"when": "此后", "title": "SST", "text": "推出 SST 框架和 SST Console。"},
+     {"when": "2025", "title": "OpenCode", "text": "推出开源编程 Agent。"},
+     {"when": "2026", "title": "规模化", "text": "OpenCode 日活 200 万、22 万星。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "公司产品",
+   "blocks": [
+    {"work": {
+     "name": "OpenCode", "url": "https://opencode.ai",
+     "meta": ["2025–", "TypeScript + Bun", "★22 万"],
+     "paras": [
+      "「The open source coding agent.」多会话并行、任意模型、任意编辑器；终端界面、桌面应用和 IDE 插件都有。"
+     ],
+     "facts": [["GitHub", "★220,653"]]
+    }},
+    {"work": {
+     "name": "SST", "url": "https://sst.dev",
+     "meta": ["TypeScript", "★2.6 万"],
+     "paras": [
+      "「Build full-stack apps on your own infrastructure.」用代码定义 AWS、Cloudflare 等云上的资源，部署到你自己的账号。"
+     ]
+    }},
+    {"work": {
+     "name": "SST Guide", "url": "https://guide.sst.dev",
+     "meta": ["教程", "免费", "★3.7 千"],
+     "paras": [
+      "一步步教你用 Serverless 构建全栈应用的免费教程，是公司最早的项目。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://opencode.ai", "paras": [
+     "Jay 没有个人网站，X 上也没有放链接。OpenCode 官网首页是一段演示视频，然后是功能列表、三组用「Fig」编号的数据（星数、贡献者、月活开发者）、隐私说明和常见问题，风格像一份技术论文。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "无"],
+      ["公司网站", "anoma.ly、opencode.ai、sst.dev"],
+      ["风格", "极简、像论文插图"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Let he who is without tokens be the first to call for an AI slowdown", "cite": "Jay，X，2026-10"},
+    {"p": "TA 的发帖风格非常简短，常常只有一句话或一张图，却能获得上千个赞。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "OpenCode 增长极快", "依赖各家模型服务的政策"],
+      ["开源", "MIT 协议、社区贡献者多", "—"],
+      ["公开信息", "—", "个人经历几乎未公开"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>从免费教程开始建立社区。</strong>",
+     "<strong>开源 + 模型无关，</strong>让用户自由选择。",
+     "<strong>抓住时机，敢于转向。</strong>",
+     "<strong>隐私优先是企业采用的前提。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "OpenCode", "url": "https://opencode.ai", "why": "试试开源编程 Agent。"},
+     {"name": "SST", "url": "https://sst.dev", "why": "把应用部署到自己的云账号。"},
+     {"name": "SST Guide", "url": "https://guide.sst.dev", "why": "免费学 Serverless 全栈。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在一个小项目里装上 OpenCode，换两个不同的模型完成同一个任务，比较结果。",
+ "sources": [
+  {"label": "Jay 的 X 个人资料", "url": "https://x.com/jayair"},
+  {"label": "OpenCode", "url": "https://opencode.ai"},
+  {"label": "维基百科：OpenCode", "url": "https://en.wikipedia.org/wiki/OpenCode"},
+  {"label": "GitHub：anomalyco/opencode", "url": "https://github.com/anomalyco/opencode"},
+  {"label": "GitHub：anomalyco/sst", "url": "https://github.com/anomalyco/sst"}
+ ]
+}

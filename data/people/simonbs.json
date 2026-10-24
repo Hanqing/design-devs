@@ -1,0 +1,165 @@
+{
+ "name": "Simon B. Støvring",
+ "role": "Scriptable、Runestone、Data Jar、Jayson、brrr 作者 · Shape 开发者 · 丹麦",
+ "title": "Simon B. Støvring：给 iPhone 写<em>开发者工具</em>的人",
+ "dek": "他是丹麦的 iOS 开发者，GitHub 资料显示他在 Shape（shapehq）工作，业余时间做了一整排给「爱折腾的人」用的应用。Scriptable 让你在 iPhone 上用 JavaScript 写自动化脚本和主屏小组件；Data Jar 给快捷指令提供一个键值存储；Runestone 是一款基于 Tree-sitter 的 iPad 和 iPhone 纯文本编辑器，它的核心开源后有三千多颗星；Jayson 是手机上的 JSON 查看器。2026 年他又发布了 brrr，一个用一次 HTTP 请求就能给自己设备发推送的工具，适合让 AI Agent、脚本和 CI 提醒你；以及一个构思了十多年的小游戏 Wavy Road。",
+ "card": "丹麦 iOS 开发者，Scriptable、Runestone（★3.2 千）、Data Jar、Jayson、brrr、Wavy Road 作者。",
+ "location": "丹麦",
+ "updated": "2026-10-23",
+ "tags": ["iOS", "开发者工具", "自动化", "Swift", "文本编辑器"],
+ "links": [
+  {"label": "simonbs.dev", "url": "https://simonbs.dev"},
+  {"label": "Scriptable", "url": "https://scriptable.app"},
+  {"label": "brrr", "url": "https://brrr.now"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「Developer and speaker with a passion for iOS and building developer tools. Aspiring home brewer, brewing both beers and espressos.」",
+  "<strong>代表作：</strong>Scriptable（★4.68，3,978 条评分）、Runestone（★4.73）、Data Jar（★4.87）、Jayson、Festivitas、brrr、Wavy Road；开源 Runestone 框架（★3,228）、SBSAnimoji（★1,011）、KeyboardToolbar、dependency-graph、SFSymbols。",
+  "<strong>关键数字：</strong>GitHub 129 个公开仓库、近一年贡献 10,474 次；X 关注者约 2 万。",
+  "<strong>媒体：</strong>Runestone 被 MacStories、Daring Fireball、iMore 报道；SBSAnimoji 被 9to5Mac 和 The Verge 报道。"
+ ],
+ "lead": "2026 年 4 月，Simon 写了一篇《Put Your Coding Agents in Your Pocket》：Claude 有时在他煮咖啡时需要一个回复，Codex 有时在他离开电脑时完成了任务，「而我最好的点子很少在体面的时刻出现」。他搭了一套随时从手机访问 Mac 上 Agent 的方案，甚至给其中一个版本起名叫「Codex from the shitter」。几周后他发布了 brrr：只要一次 HTTP 调用就能让手机震动，不用注册，不存消息，没有仪表盘。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 开发者、讲者、独立应用作者"],
+     ["所在地", "丹麦"],
+     ["工作", "Shape（GitHub 资料显示）"],
+     ["应用", "Scriptable、Runestone、Data Jar、Jayson、Festivitas、brrr、Wavy Road、Re: Toot"],
+     ["开源", "Runestone、KeyboardToolbar、dependency-graph、SFSymbols、TextDiffing、wut"],
+     ["技术栈", "Swift、UIKit / SwiftUI、JavaScriptCore、Tree-sitter、Go"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Simon 专注于<strong>把电脑上才有的开发者能力搬到 iPhone 和 iPad 上</strong>。Scriptable 把 JavaScript 和 iOS 原生接口（文件、日历、提醒事项）连起来，还能用脚本写主屏小组件。Runestone 的编辑器核心用 Tree-sitter 解析语法树，支持行号、不可见字符、页面参考线等功能，任何开发者都可以把它嵌进自己的应用。"},
+    {"p": "他也做好玩的东西：2017 年用 Apple 私有框架 AvatarKit 做了一个独立的 Animoji 应用；Festivitas 给 Mac 的 Dock 和菜单栏挂上会闪的圣诞彩灯；Wavy Road 是一个你来控制道路、而不是控制车的街机游戏。"},
+    {"note": "本页依据 simonbs.dev（首页、Projects、文章）、brrr.now、festivitas.app、App Store、GitHub 和 X 帖子整理，资料截至 2026 年 10 月。部分应用（如 Scriptable、Data Jar）近年更新较少。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012", "title": "早期开源", "text": "BSKeyboardControls：在键盘上方加控件（★519）。"},
+     {"when": "2017", "title": "SBSAnimoji", "text": "用私有框架做出独立 Animoji 应用，被多家科技媒体报道。"},
+     {"when": "2018–2020", "title": "工具三件套", "text": "Scriptable（2018）、Jayson（2019）、Data Jar（2020）。"},
+     {"when": "2022", "title": "Runestone", "text": "编辑器应用上架，同名框架开源。"},
+     {"when": "2025", "title": "Festivitas", "text": "节日彩灯应用登陆 iPhone、iPad 和 Mac。"},
+     {"when": "2026", "title": "brrr 与 Wavy Road", "text": "3 月发布推送工具 brrr；10 月发布构思十年的游戏 Wavy Road，并适配 iPhone Duo。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Scriptable", "url": "https://apps.apple.com/us/app/scriptable/id1405459188",
+     "meta": ["2018–", "开发者工具", "免费"],
+     "paras": [
+      "「用 JavaScript 自动化 iOS。」脚本可以读写文件、日历、提醒事项，可以被快捷指令调用，也可以渲染成主屏小组件。"
+     ],
+     "facts": [["App Store", "★4.68 · 3,978 条评分"]]
+    }},
+    {"work": {
+     "name": "Runestone", "url": "https://github.com/simonbs/Runestone",
+     "meta": ["2022–", "Swift", "★3.2 千"],
+     "paras": [
+      "「A performant plain text editor for iOS.」应用版像是「更强大的 TextEdit」；框架版让任何 iOS 应用都能嵌入代码编辑器，支持语法高亮、主题、搜索替换等功能。"
+     ]
+    }},
+    {"work": {
+     "name": "brrr", "url": "https://brrr.now",
+     "meta": ["2026", "iPhone · iPad · Mac", "免费"],
+     "paras": [
+      "「Just push notifications for your devices. That’s it.」装好应用，拿到一个 webhook，任何能发 HTTP 请求的东西（Agent、脚本、自动化、CI、智能家居）都能给你发推送。消息不存储在后端，历史只保存在设备上。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Data Jar", "给快捷指令用的键值数据存储（★4.87）"],
+      ["Jayson", "iPhone / iPad 上的 JSON 查看与编辑器"],
+      ["Wavy Road", "2026 年 10 月发布的街机游戏，「你控制的是路」"],
+      ["dependency-graph", "可视化 Swift 包依赖的命令行工具（★339）"],
+      ["wut", "「不走流程」的临时 git worktree 工具（Go）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://simonbs.dev", "paras": [
+     "首页一句话介绍加最新文章，Projects 页逐一介绍每个应用和它的媒体报道。文章不多但很实用：在 Xcode 26 里用 Claude、找回 macOS 26 的异形图标、一边操作模拟器一边用视图调试器，还有一篇薄荷莫吉托冰咖啡的做法。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["内容", "iOS 开发技巧、AI 工作流、咖啡"],
+      ["节奏", "每年一两篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-04-24", "title": "Put Your Coding Agents in Your Pocket", "url": "https://simonbs.dev"},
+     {"date": "2025-06-11", "title": "How To Bring Back Oddly Shaped App Icons in macOS 26 Tahoe", "url": "https://simonbs.dev"},
+     {"date": "2025-06-10", "title": "Using Claude with Coding Assistant in Xcode 26", "url": "https://simonbs.dev"},
+     {"date": "2024-11-17", "title": "Running Xcode’s View Debugger While Interacting with the Simulator", "url": "https://simonbs.dev"}
+    ]},
+    {"quote": "No sign up. It’s 2026 and the last thing you need is another account.", "cite": "brrr 官网"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["工具", "开发者向应用定位清晰，口碑好", "Scriptable、Data Jar 近年更新慢"],
+      ["开源", "Runestone 框架质量高", "—"],
+      ["产出", "副业时间里持续推出新应用", "产品线多，维护精力分散"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把能力搬到新平台：</strong>手机上也需要脚本和编辑器。",
+     "<strong>核心开源，应用收费：</strong>Runestone 两者兼得。",
+     "<strong>极简是功能：</strong>brrr 没有账号、没有仪表盘。",
+     "<strong>老点子也值得做：</strong>Wavy Road 等了十年。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Scriptable", "url": "https://apps.apple.com/us/app/scriptable/id1405459188", "why": "用 JavaScript 写一个主屏小组件。"},
+     {"name": "brrr", "url": "https://brrr.now", "why": "让你的 Agent 做完事情后震一下手机。"},
+     {"name": "Runestone", "url": "https://github.com/simonbs/Runestone", "why": "看 iOS 上的代码编辑器怎么实现。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "给你最常跑的一个长任务（构建、测试、Agent）加一条完成推送，然后去煮杯咖啡。",
+ "sources": [
+  {"label": "Simon B. Støvring 的 X 个人资料", "url": "https://x.com/simonbs"},
+  {"label": "simonbs.dev", "url": "https://simonbs.dev"},
+  {"label": "Projects（simonbs.dev）", "url": "https://simonbs.dev/projects"},
+  {"label": "brrr", "url": "https://brrr.now"},
+  {"label": "App Store：Scriptable", "url": "https://apps.apple.com/us/app/scriptable/id1405459188"},
+  {"label": "GitHub：simonbs", "url": "https://github.com/simonbs"}
+ ]
+}

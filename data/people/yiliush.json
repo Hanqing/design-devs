@@ -1,0 +1,161 @@
+{
+ "name": "Yiliu",
+ "role": "Cube Computer 创始人 · Spaceframe、Softspace 作者 · 前 Studio Olafur Eliasson 研究负责人 · 设计师与程序员",
+ "title": "Yiliu：做让人成为<em>更好的思考者</em>的软件",
+ "dek": "TA 是设计师和程序员，想做「帮助人们成为更好的思考者和创造者」的软件。2018 到 2024 年，TA 深耕空间计算：先做了 VR / AR 里的思维空间工具 Softspace，写了三篇长文讲它的起源、基础和设计；最后做成了 AR 生产力应用 Spaceframe。现在 TA 在做 Cube Computer：一台给编程 Agent 用的云电脑；其中的 Proton 是一台持久运行的 Linux 机器，8 个虚拟 CPU、内存从 2 GB 弹性扩到 64 GB，每月 20 美元、按秒计费，关上笔记本 Agent 也能继续工作。TA 的经历跨度很大：当过艺术家奥拉维尔·埃利亚松工作室的研究负责人，在哈佛设计研究生院读过建筑（X 简介说是退学），做过摩根士丹利的投资分析师，本科在哥伦比亚大学读计量经济学。",
+ "card": "Cube Computer 创始人（给编程 Agent 的云电脑），Spaceframe、Softspace 作者；前 Studio Olafur Eliasson 研究负责人。",
+ "location": "未公开",
+ "updated": "2026-10-23",
+ "tags": ["空间计算", "AI Agent", "云电脑", "交互设计", "思维工具"],
+ "links": [
+  {"label": "yiliu.sh", "url": "https://www.yiliu.sh"},
+  {"label": "Cube Computer", "url": "https://cube.computer"},
+  {"label": "Spaceframe", "url": "https://spaceframe.xyz"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I'm a designer and coder. I make software that helps people be better thinkers and makers.」",
+  "<strong>代表作：</strong>Cube Computer（Proton）、Spaceframe、Softspace、Hyperspatial、Collaborator、Seedvault、Pretty Emails、Olivetti agentd。",
+  "<strong>经历：</strong>哥伦比亚大学计量经济学 → 摩根士丹利投资分析师 → 哈佛 GSD 建筑 → Studio Olafur Eliasson 研究负责人 → 空间计算（2018–2024）→ Cube Computer。",
+  "<strong>关键数字：</strong>X 关注者约 5.9 千；GitHub 近一年贡献 8,299 次（多为私有仓库）。"
+ ],
+ "lead": "2026 年 10 月中旬，Cube Computer 推出 Proton 云电脑。上线几天后 TA 发帖道歉：一些新用户创建 Proton 失败，因为「我们达到了能提供的机器数量上限」；TA 当天把容量翻了一倍，并把每个账号限制为最多三台。同一周，TA 还在 Cube 的应用市场上架了 T3 Code 的 nightly 版本。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、程序员、创始人"],
+     ["所在地", "未公开（常往返多地）"],
+     ["公司", "Cube Computer"],
+     ["此前", "Studio Olafur Eliasson、摩根士丹利"],
+     ["教育", "哥伦比亚大学（计量经济学）；哈佛 GSD（建筑，未完成）"],
+     ["技术栈", "TypeScript、空间计算、云基础设施"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Yiliu 现在做的是<strong>编程 Agent 的「家」</strong>：一台装好你的工具、能跑长任务、合上笔记本也不会停的云端 Linux 电脑。Proton 的定价很直接：8 个虚拟 CPU、2 GB 保证内存、按需涨到 64 GB、50 GB 持久磁盘，每月 20 美元覆盖 730 个运行小时，停机就停止计费，余额用完时机器挂起、磁盘保留。"},
+    {"p": "TA 之前多年探索<strong>空间界面</strong>：TA 说自己喜欢「让我能同时用上更多大脑」的界面。Softspace 和 Spaceframe 把笔记、文件和想法摆在三维空间里，让思考变成可以走进去的地方。"},
+    {"note": "本页依据 yiliu.sh、proton.computer、GitHub 资料和 X 帖子整理，资料截至 2026 年 10 月。Cube Computer 的融资与团队规模未公开；性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "经济与金融", "text": "哥伦比亚大学计量经济学；摩根士丹利投资分析师。"},
+     {"when": "此后", "title": "建筑与艺术", "text": "哈佛 GSD 读建筑；Studio Olafur Eliasson 研究负责人。"},
+     {"when": "2018–2022", "title": "Softspace", "text": "空间思维工具；2020 年《Origins》、2022 年《Foundations》和《Design Paper》。"},
+     {"when": "2024", "title": "Spaceframe", "text": "AR 生产力应用，空间计算探索的集大成之作。"},
+     {"when": "2025–2026", "title": "AI 工具", "text": "Hyperspatial、Seedvault、Pretty Emails、Collaborator；Cube Computer 与 Proton。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Cube Computer / Proton", "url": "https://proton.computer",
+     "meta": ["2026", "云电脑", "$20 / 月"],
+     "paras": [
+      "「A persistent Linux computer with 8 virtual CPUs and 2 GB of guaranteed RAM that scales up to 64 GB when your work needs it.」为编程 Agent 长时间运行而设计。"
+     ]
+    }},
+    {"work": {
+     "name": "Spaceframe", "url": "https://spaceframe.xyz",
+     "meta": ["2024", "AR 应用"],
+     "paras": [
+      "把多年空间计算研究做成的 AR 生产力应用。"
+     ]
+    }},
+    {"work": {
+     "name": "Softspace", "url": "https://www.yiliu.sh/writing/softspace-design-paper",
+     "meta": ["2018–2022", "空间思维工具"],
+     "paras": [
+      "在三维空间里组织想法的工具，TA 写了一篇 18 分钟的设计论文。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Hyperspatial", "2025 年 1 月的作品"],
+      ["Seedvault", "2025 年 12 月的作品"],
+      ["Pretty Emails", "2025 年 12 月的作品"],
+      ["Collaborator", "2026 年 3 月的作品"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.yiliu.sh", "paras": [
+     "yiliu.sh 是一个简洁的作品集：一段自我介绍，然后是「Writing」和「Works」两个列表，每件作品有封面图和日期。网站用 Astro 搭建、托管在 Netlify 上，链接到 Substack。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Astro，Netlify"],
+      ["结构", "自述 + 写作 + 作品"],
+      ["写作", "长篇设计论文与短随笔"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-02", "title": "How to rest", "url": "https://www.yiliu.sh/writing/how-to-rest"},
+     {"date": "2026-02", "title": "Show me the incentives", "url": "https://www.yiliu.sh/writing/show-me-the-incentives"},
+     {"date": "2024-10", "title": "New York feels right", "url": "https://www.yiliu.sh/writing/new-york-feels-right"},
+     {"date": "2022-09", "title": "Softspace: Design Paper", "url": "https://www.yiliu.sh/writing/softspace-design-paper"},
+     {"date": "2020-09", "title": "Softspace: Origins", "url": "https://www.yiliu.sh/writing/origins-of-softspace"}
+    ]},
+    {"quote": "I love interfaces that let me use more of my brain at once.", "cite": "Yiliu，X，2026-10"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["跨界", "金融、建筑、艺术、软件", "—"],
+      ["产品", "定价透明、方向清晰", "Cube Computer 刚起步，容量仍在扩"],
+      ["开源", "—", "公开代码很少"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把设计研究写成论文。</strong>",
+     "<strong>一个方向深耕多年，</strong>再果断转向。",
+     "<strong>定价说清楚，</strong>包括限制。",
+     "<strong>出了问题，公开道歉并马上扩容。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Softspace: Design Paper", "url": "https://www.yiliu.sh/writing/softspace-design-paper", "why": "一篇空间界面设计论文。"},
+     {"name": "Proton", "url": "https://proton.computer", "why": "给你的 Agent 一台云电脑。"},
+     {"name": "yiliu.sh", "url": "https://www.yiliu.sh", "why": "浏览 TA 的作品时间线。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读《Softspace: Origins》，想一想：如果你的笔记可以摆在空间里，你会怎么摆？",
+ "sources": [
+  {"label": "Yiliu 的 X 个人资料", "url": "https://x.com/yiliush"},
+  {"label": "yiliu.sh", "url": "https://www.yiliu.sh"},
+  {"label": "Proton", "url": "https://proton.computer"},
+  {"label": "GitHub：yiliush", "url": "https://github.com/yiliush"}
+ ]
+}

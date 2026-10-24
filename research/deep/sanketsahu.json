@@ -1,0 +1,414 @@
+{
+ "handle": "sanketsahu",
+ "sites": [
+  {
+   "url": "https://rapidnative.com",
+   "ok": true,
+   "title": "RapidNative | The fast, collaborative AI-native mobile app builder.",
+   "description": "RapidNative is a mobile app builder that lets you go from idea to shareable app in minutes. Describe what you want in plain English, and RapidNative builds real React Native screens—instantly.",
+   "stack": [
+    "Next.js",
+    "Google Analytics",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "NEW Lovable to App Store \nReal mobile apps ,\n from prompt to app store. \nDescribe and get a real full-stack mobile app,\n ready to publish. \n Build it → \nNo credit card · 20 free credits · 362,264 + prompts shipped \nMade for founders, PMs & UX Designers \nFounders \nTest your app idea with real users before spending months (or thousands) on development. \nProduct Managers \nShow stakeholders a working app instead of slides. Get buy-in faster and cut back-and-forth with developers. \nUX Designers \nGo from wireframe to interactive prototype in minutes. Test your designs on real phones instantly. \nDevelopers \nSkip the boilerplate. Get clean, well-structured code you can build on — powered by React Native and Expo. \n What people ship \nThousands of apps built with RapidNative \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Remix \n Loved by builders from \n Dubizzle FPT Omoda Theodo Ski.com GeekyAnts \n Dubizzle FPT Omoda Theodo Ski.com GeekyAnts \n Start from anything \nIdea to real app \nin minutes. \nType it, sketch it, drop a doc, or paste a screenshot. You get a real full-stack app, ready to ship. \n Prompt Sketch Image PRD \n Prompt to App Sketch to App Image to App PRD to App \n Try it now Idea to App demo: a text prompt turns into a full React Native mobile app. \n Try it now \n Backend \nFull-stack from day one \nEvery project ships with authentication, file storage, and realtime updates wired up on day one. No config, no plumbing. \n Data \nA real database \nA Postgres database you can query, migrate, and secure. Point it at your own Supabase from Project Settings without touching code. \n Design \nThemeable end-to-end \nBend colors, typography, and components to match your brand. Or start from a built-in theme and tweak from there. \n Deploy \nShip to the App Store & Google Play. \nPublish from the editor with LetsDeployIt, our connected deployment service. It creates your store listings, handles compliance and submits to both the App Store and Google Play. Flat fee, approved or your money back. \nWe handle everything \nApp icons, screenshots, metadata, privacy policies, certificates, signing — all done for you. \nLive in 3 to 4 weeks \nFrom kickoff to live on the App Store and Google Play, review waits included. \nCompliance included \nGuideline 4.2, Data Safety, Apple privacy labels, account deletion — covered. \nFix & resubmit free \nIf either store rejects, we fix it and resubmit at no extra cost until it is live. \n Learn more \nFrom Lovable to the App Store \nBuilt in Lovable? No worries. We convert your Lovable web app into a fully React Native app and publish it to the App Store and Google Play . \n Import from Lovable Convert to React Native \n Built from Rork, Bolt, Emergent, or somewhere else? Publish any app to the App Store or Google Play. \nAlready built something in Lovable? Bring it into RapidNative and take it all the way to a native app on the App Store and Google Play. \nUpload your Lovable export \nExport your Lovable project as a .zip and import it. We analyze your app design, screens, and functionality. \nWe convert it to React Native \nWe transform your Lovable web app into a production-ready React Native + Expo app - not just a wrapped website. Your code remains 100% private and confidential, and we're happy to sign an NDA before we begin. \nOpen it in RapidNative \nYour converted project lands in the RapidNative editor, ready to preview on your device and keep building. \nKeep building with AI \nEdit screens, add features, and generate new screens with AI — just like any project created in RapidNative. \nShip it to the App Store \nWhen you are ready, build native iOS and Android apps and submit to the Apple App Store and Google Play. Import your Lovable project \n The full package \nEverything you need to ship a real app. \nAI editing, live testing, real-time team collaboration, source ownership, store submission, and a live URL. All in one AI mobile app builder for React Native. \nSelect and edit like a Figma AI agent \nPoint at any React Native screen, describe the change, and the AI edits it instantly. Real code, not a wrapper. \nTest on phones in real time \nScan a QR code and see your app live on iPhone and Android. No Xcode, no Android Studio, no cables. \nAdd native device features \nCamera, location, push notifications, biometrics, and more. Ask for what you need and the AI wires up the native APIs. \nRea",
+   "github_links": [
+    "rapidnative"
+   ],
+   "subpages": {
+    "https://rapidnative.com/apps": "App Showcase \nExplore our collection of production-ready mobile app examples built with RapidNative . Each app demonstrates real-world use cases with modern design and functionality. \n All Apps ( 19 ) Health & Wellness ( 3 ) Finance ( 1 ) Communication ( 2 ) E-Commerce ( 1 ) Food & Delivery ( 2 ) Healthcare ( 2 ) Education ( 2 ) Entertainment ( 2 ) Transport ( 3 ) Utilities ( 1 ) \n📖 Health & Wellness \nBook Reading App \nDigital library app with book catalog, reading progress tracking, bookmarks, and personalized recommendations for avid readers. \n Digital Library \n Reading Progress \n Bookmarks \n Recommendations \n View App Demo \n💰 Finance \nBudget Tracker App \nPersonal finance management app with expense tracking, budget planning, financial insights, and spending analytics. \n Expense Tracking \n Budget Planning \n Financial Insights \n Spending Analytics \n View App Demo \n💬 Communication \nChat Messaging App \nReal-time messaging app with group chats, media sharing, voice messages, and end-to-end encryption for secure communication. \n Real-time Chat \n Group Messaging \n Media Sharing \n Voice Messages \n View App Demo \n🛍️ E-Commerce \nE-Commerce App \nComplete online shopping platform with product catalog, shopping cart, secure checkout, and order management system. \n Product Catalog \n Shopping Cart \n Secure Checkout \n Order Management \n View App Demo \n🎟️ Communication \nEvent Booking App \nComprehensive event discovery and booking platform with ticket management, event calendar, and attendee networking features. \n Event Discovery \n Ticket Booking \n Event Calendar \n Attendee Network \n View App Demo \n💪 Health & Wellness \nFitness Tracking App \nComplete fitness companion with workout tracking, exercise routines, progress analytics, and health goal management. \n Workout Tracking \n Exercise Routines \n Progress Analytics \n Health Goals \n View App Demo \n🍕 Food & Delivery \nFood Delivery App \nOn-demand food ordering platform with restaurant discovery, menu browsing, real-time order tracking, and delivery management. \n Restaurant Discovery \n Menu Browser \n Order Tracking \n Delivery Updates \n View App Demo \n🛒 Food & Delivery \nGrocery Delivery App \nConvenient grocery shopping app with store browsing, shopping lists, scheduled delivery, and fresh produce selection. \n Store Browsing \n Shopping Lists \n Scheduled Delivery \n Fresh Produce \n View App Demo \n🏥 Healthcare \nHealthcare Appointment App \nMedical appointment booking system with doctor discovery, appointment scheduling, health records, and telemedicine features. \n Doctor Discovery \n Appointment Booking \n Health Records \n Telemedicine \n View App Demo \n🌍 Education \nLanguage Learning App \nInteractive language education platform with lessons, vocabulary building, pronunciation practice, and progress tracking. \n Interactive Lessons \n Vocabulary Builder \n Pronunciation \n Progress Tracking \n View App Demo \n🧘 Health & Wellness \nMeditation App \nMindfulness and meditation platform with guided sessions, relaxation music, breathing e"
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "http://geekyants.com",
+   "ok": true,
+   "title": "GeekyAnts | AI-Powered Digital Product Engineering & Consulting Company",
+   "description": "GeekyAnts is an AI-powered digital product engineering and consulting company helping businesses build, modernize, and scale production-grade products",
+   "stack": [
+    "GeekyAnts",
+    "Next.js",
+    "Google Analytics",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "GeekyAnts AI \n What We Do \n AI Consulting and Transformation Harness the power of artificial intelligence to transform business operations \n AI-Powered Product Engineering A structured studio to ideate, validate, and build scalable digital products \n Enterprise System Modernization Transform legacy systems into modern, scalable architectures \n Digital Customer Experience Design exceptional user experiences that delight customers \n Industries \n Banking, Finance, and Insurance \n Healthcare \n Manufacturing \n Media and Entertainment \n Gaming \n Real Estate \n Hiring \n Hospitality \n E-commerce \n Engineering \n AI Engineering \n Full Stack Engineering \n Mobile Engineering \n Web Engineering \n Backend Engineering \n DevOps Engineering \n UI/UX Engineering \n Design Engineering \n QA Engineering \n IoT Engineering \n Business Analysis \n Insights \n Case Studies Work that delivers real business impact \n Blogs Latest insights and perspectives on technology trends \n Guides Step-by-step tutorials and best practices \n Magazines Curated collections of industry knowledge \n Events Upcoming webinars, conferences, and workshops \n About \n About Us Decoded: Innovate. Collaborate. Build. \n Culture Behind the scenes at the GeekBase \n Team The talent building bold solutions \n Join Us Open positions and roles at GeekyAnts \n How We Work Our principles, process, and approach to delivery \n Security & Compliance How we approach security, quality, and compliance. Contact Us \n Turning Ambitious \nTechnology Strategies into \n Production-Grade Reality. \nFrom AI adoption to legacy modernization to product scale - we bring the thinking and the team. \n Schedule a Strategy Conversation \n SpringTree \n Google \n Startup Talky \n OliveGarden \n Darden \n soccerverse \n ICICI \n kingsley Gate \n Atsign \n SKF \n Thyrocare \n WeWork \n goosehead insurance \n Blissclub \n SpringTree \n Google \n Startup Talky \n OliveGarden \n Darden \n soccerverse \n ICICI \n kingsley Gate \n Atsign \n SKF \n Thyrocare \n WeWork \n goosehead insurance \n Blissclub \n The Companies that will Lead the Next Decade are Being Engineered Right Now. \n Enterprise is being Reimagined. Products are being Reinvented. We engineer Both. \n Scroll \nAgentic Development Framework by GeekyAnts \nAntFlow AI connects what your business needs with how software gets built, helping GeekyAnts deliver with greater speed, clarity, and confidence. \n See How AntFlow AI Works \nFour Practices One Engineering Standard. \nEvery practice combines strategic consulting with hands-on engineering — because advice without execution is just a slide deck. \nFour Practices One Engineering Standard. \nEvery practice combines strategic consulting with hands-on engineering — because advice without execution is just a slide deck. \nAI & Intelligent Systems \nFrom AI strategy to production-grade LLM integration, autonomous agents, and intelligent workflows - we take AI from experiment to enterprise. \n Agentic AI \n ML Model Development \n AI Pods \n Digital Transformation \n AI Strategies \n Artificial Intelligence \n AI Developer \n Explore more about AI & Intelligent Systems \nAI-Powered Product Engineering \nFrom idea to prototype to production - we build products at AI speed with the engineering discipline that makes them last. \n Prototype to Production \n AI Native Engineering \n Fractional Engineering Team \n Code Quality Engineering Excellence \n Scaling MVP to Market \n Product studio AI era \n Explore more about AI-Powered Product Engineering \nEnterprise System Modernization Services \nWe re-architect legacy systems for AI-readiness, scale, and speed - then stay to manage and evolve them. \n App Modernization \n Data & Integration Modernization \n Process & Delivery Transformation \n Cloud & Infrastructure Modernization \n Performance & Security \n Explore more about Enterprise System Modernization Services \nDigital Customer Experience \nWe bring engineering, design, and strategy on the same page - ensuring your customer experiences build trust, deliver measurable business outcomes, and work at scale. When these disciplines work in isolation, experiences break. When they work together, experiences compound in value over time. \n Discovery & Experience Strategy \n Product & Digital Experience Design \n Migration Legacy UX to Modern CX \n AI-Powered & Agentic Experience Design \n Design System & CX Consistency \n Ongoing CX & Design Retainers \n Digital Product Design \n Explore more about Digital Customer Experience \n20+ \nYears of Engineering Products \n1000+ \nProducts Shipped to Product",
+   "github_links": [
+    "GeekyAnts"
+   ],
+   "subpages": {
+    "http://geekyants.com/blog": "GeekyAnts AI \n What We Do \n AI Consulting and Transformation Harness the power of artificial intelligence to transform business operations \n AI-Powered Product Engineering A structured studio to ideate, validate, and build scalable digital products \n Enterprise System Modernization Transform legacy systems into modern, scalable architectures \n Digital Customer Experience Design exceptional user experiences that delight customers \n Industries \n Banking, Finance, and Insurance \n Healthcare \n Manufacturing \n Media and Entertainment \n Gaming \n Real Estate \n Hiring \n Hospitality \n E-commerce \n Engineering \n AI Engineering \n Full Stack Engineering \n Mobile Engineering \n Web Engineering \n Backend Engineering \n DevOps Engineering \n UI/UX Engineering \n Design Engineering \n QA Engineering \n IoT Engineering \n Business Analysis \n Insights \n Case Studies Work that delivers real business impact \n Blogs Latest insights and perspectives on technology trends \n Guides Step-by-step tutorials and best practices \n Magazines Curated collections of industry knowledge \n Events Upcoming webinars, conferences, and workshops \n About \n About Us Decoded: Innovate. Collaborate. Build. \n Culture Behind the scenes at the GeekBase \n Team The talent building bold solutions \n Join Us Open positions and roles at GeekyAnts \n How We Work Our principles, process, and approach to delivery \n Security & Compliance How we approach security, quality, and compliance. Contact Us \nBlog \nFEATURED \n Sep 4, 2026 \n Agentic Commerce: What Happens When Your Agent Tries to Spend Money? | Roopasree Ranganna \nHarrini Harrini \nContent Writer \nPOPULAR ARTICLES \n May 21, 2026 Business \n AI in Insurance: Building Production-Ready Products for Claims, Underwriting, and Customer Experience \n Apr 23, 2026 Business \n Why Healthcare AI Initiatives Fail Before They Reach Clinical Impact \n Feb 27, 2026 Business \n Building a Smart Healthcare CRM Platform for hospitals: AI Engagement, Operational Efficiency & Compliance \n Feb 13, 2026 Technology \n OpenClaw.ai — Your Personal AI That Actually Does Things \n Oct 23, 2026 \n Railway Environment Variable Incident: What Laravel & Cloud Application Teams Should Do Now \n Oct 23, 2026 \n GeekyAnts CTO and CMO Detail How AntFlow AI Moves Software Ideas Into Production-Ready Products \n Oct 22, 2026 \n How Does GeekyAnts Select and Integrate AI Models for Client Applications While Reducing Vendor Lock-In? \n Oct 19, 2026 \n From Kickoff to Delivery: How GeekyAnts Onboards Engineering Teams and Ensures Continuity \nAll Blogs \n Search blogs \n Business Technology Events Design News AI Other \n Oct 22, 2026 \n How Does GeekyAnts Select and Integrate AI Models for Client Applications While Reducing Vendor Lock-In? \n Oct 19, 2026 \n From Kickoff to Delivery: How GeekyAnts Onboards Engineering Teams and Ensures Continuity \n Oct 19, 2026 \n Dedicated AI Product Pod vs. In-House Hiring vs. Staff Augmentation: A Cost, Control, and Delivery Risk Comparison \n Oct 19, 2026 \n How GeekyAnts Manages A",
+    "http://geekyants.com/products": "GeekyAnts AI \n What We Do \n AI Consulting and Transformation Harness the power of artificial intelligence to transform business operations \n AI-Powered Product Engineering A structured studio to ideate, validate, and build scalable digital products \n Enterprise System Modernization Transform legacy systems into modern, scalable architectures \n Digital Customer Experience Design exceptional user experiences that delight customers \n Industries \n Banking, Finance, and Insurance \n Healthcare \n Manufacturing \n Media and Entertainment \n Gaming \n Real Estate \n Hiring \n Hospitality \n E-commerce \n Engineering \n AI Engineering \n Full Stack Engineering \n Mobile Engineering \n Web Engineering \n Backend Engineering \n DevOps Engineering \n UI/UX Engineering \n Design Engineering \n QA Engineering \n IoT Engineering \n Business Analysis \n Insights \n Case Studies Work that delivers real business impact \n Blogs Latest insights and perspectives on technology trends \n Guides Step-by-step tutorials and best practices \n Magazines Curated collections of industry knowledge \n Events Upcoming webinars, conferences, and workshops \n About \n About Us Decoded: Innovate. Collaborate. Build. \n Culture Behind the scenes at the GeekBase \n Team The talent building bold solutions \n Join Us Open positions and roles at GeekyAnts \n How We Work Our principles, process, and approach to delivery \n Security & Compliance How we approach security, quality, and compliance. Contact Us \nProducts \nCheck out our premium products built in cutting edge technology that will ease your processes, both developmental and business, and make them efficient. \nOpen Source & Premium Products \nTools and products we have built for the developer community. \nStartup Plus \n100+ responsive, accessible, dark mode compatible UI screens that work on web and native platforms to build your app upto 2x faster. \n Explore more \ntopgeek \nAn automated hiring solution for recruits and recruiters. Create your profile, apply for openings and take interviews as candidates or post jobs and let TheTopGeek evaluate applicants using behavioural AI & ML. \n Explore more \nBuilderX \nBuilderX is a browser-based design tool that codes React Native & React for you. With a vision to bring designers and developers on one platform, BuilderX gives you beautiful, production-ready code for your designs. \n Explore more \nAPIbeats \napibeats is a battle-tested API maintenance platform that notifies via Slack & Email when the structure of the API response changes. \n Explore more \nNativeBase Market \nOne-stop market for trusted React Native Apps & Components. Buy React Native Starter Kits, Full Apps, UI Themes and Animations. \n Explore more \nStrap UI \nAn exclusive marketplace for free and premium admin dashboard themes and templates. These clean and creative themes are available for instant use and will enhance your web app development multifold. \n Explore more \nThe Right Conversation Can \nSave You Six Months. Book a Call \n 🇮🇳 GeekyAnts India Pvt Ltd \n No"
+   },
+   "feed": {
+    "url": "http://geekyants.com/feed.xml",
+    "count_seen": 50,
+    "items": [
+     {
+      "title": "GeekyAnts CTO and CMO Detail How AntFlow AI Moves Software Ideas Into Production-Ready Products",
+      "date": "Fri, 23 Oct 2026 06:16:03",
+      "url": "https://geekyants.com/blog/geekyants-cto-and-cmo-detail-how-antflow-ai-moves-software-ideas-into-production-ready-products"
+     },
+     {
+      "title": "GeekyAnts to Attend Money20/20 USA 2026 in Las Vegas as Fintech Enters Its Next Infrastructure Chapter",
+      "date": "Tue, 13 Oct 2026 11:58:31",
+      "url": "https://geekyants.com/blog/geekyants-to-attend-money20-20-usa-2026-in-las-vegas-as-fintech-enters-its-next-infrastructure-chapter"
+     },
+     {
+      "title": "GeekyAnts Leadership Team Heads to TechCrunch Disrupt 2026 to Showcase AI-Native Product Development",
+      "date": "Mon, 12 Oct 2026 12:22:46",
+      "url": "https://geekyants.com/blog/geekyants-leadership-team-heads-to-techcrunch-disrupt-2026-to-showcase-ai-native-product-development"
+     },
+     {
+      "title": "GeekyAnts Ranks No. 3 Among London Mobile App Development Companies on Clutch",
+      "date": "Fri, 09 Oct 2026 10:40:17",
+      "url": "https://geekyants.com/blog/geekyants-ranks-no-3-among-london-mobile-app-development-companies-on-clutch"
+     },
+     {
+      "title": "GeekyAnts Recognized Among DesignRush’s Top Software Development Companies for 2026",
+      "date": "Thu, 08 Oct 2026 10:14:14",
+      "url": "https://geekyants.com/blog/geekyants-recognized-among-designrush-s-top-software-development-companies-for-2026"
+     },
+     {
+      "title": "GeekyAnts Introduces AI Readiness Calculator for Enterprise AI Planning",
+      "date": "Tue, 06 Oct 2026 04:05:11",
+      "url": "https://geekyants.com/blog/geekyants-introduces-ai-readiness-calculator-for-enterprise-ai-planning"
+     },
+     {
+      "title": "GeekyAnts Joins OpenAI Partner Network as a Select Partner",
+      "date": "Mon, 05 Oct 2026 09:22:32",
+      "url": "https://geekyants.com/blog/geekyants-joins-openai-partner-network-as-a-select-partner"
+     },
+     {
+      "title": "GeekyAnts Secures Top 10 Spot in Clutch’s August 2026 Financial App Developer Rankings",
+      "date": "Thu, 24 Sep 2026 12:49:37",
+      "url": "https://geekyants.com/blog/geekyants-secures-top-10-spot-in-clutchs-august-2026-financial-app-developer-rankings"
+     },
+     {
+      "title": "GeekyAnts Publishes 2026 Client Review Analysis Highlighting Delivery Strengths and Areas for Improvement",
+      "date": "Fri, 18 Sep 2026 07:28:12",
+      "url": "https://geekyants.com/blog/geekyants-publishes-2026-client-review-analysis-highlighting-delivery-strengths-and-areas-for-improvement"
+     },
+     {
+      "title": "GeekyAnts Joins the Claude Partner Network to Advance Secure, Production-Ready AI Product Development",
+      "date": "Thu, 17 Sep 2026 11:46:36",
+      "url": "https://geekyants.com/blog/geekyants-joins-the-claude-partner-network-to-advance-secure-production-ready-ai-product-development"
+     },
+     {
+      "title": "GeekyAnts Launches AntFlow AI for Spec-Driven Software Engineering",
+      "date": "Thu, 10 Sep 2026 06:37:21",
+      "url": "https://geekyants.com/blog/geekyants-launches-antflow-ai-for-spec-driven-software-engineering"
+     },
+     {
+      "title": "GeekyAnts Introduces Report Intelligence Accelerator to Reduce Manual Executive Reporting Work",
+      "date": "Thu, 10 Sep 2026 06:35:26",
+      "url": "https://geekyants.com/blog/geekyants-introduces-report-intelligence-accelerator-to-reduce-manual-executive-reporting-work"
+     },
+     {
+      "title": "GeekyAnts AI Accelerator Hub Targets the Gap Between AI Pilots and Production Workflows",
+      "date": "Mon, 31 Aug 2026 15:49:49",
+      "url": "https://geekyants.com/blog/geekyants-ai-accelerator-hub-targets-the-gap-between-ai-pilots-and-production-workflows"
+     },
+     {
+      "title": "GeekyAnts Named Among Top AI App Development Companies by Fixnhour",
+      "date": "Fri, 28 Aug 2026 16:14:24",
+      "url": "https://geekyants.com/blog/geekyants-named-among-top-ai-app-development-companies-by-fixnhour"
+     },
+     {
+      "title": "GeekyAnts Launches GeekLego, an AI-Native Open-Source Design System",
+      "date": "Fri, 28 Aug 2026 15:51:56",
+      "url": "https://geekyants.com/blog/geekyants-launches-geeklego-an-ai-native-open-source-design-system"
+     },
+     {
+      "title": "GeekyAnts Recognized as a Summer 2026 Clutch Global Award Winner",
+      "date": "Fri, 21 Aug 2026 15:17:57",
+      "url": "https://geekyants.com/blog/geekyants-recognized-as-a-summer-2026-clutch-global-award-winner"
+     },
+     {
+      "title": "8 News Now Features GeekyAnts as a Summer 2026 Clutch Global Award Winner",
+      "date": "Fri, 21 Aug 2026 11:07:14",
+      "url": "https://geekyants.com/blog/8-news-now-features-geekyants-as-a-summer-2026-clutch-global-award-winner"
+     },
+     {
+      "title": "GeekyAnts Joins AWS Partner Network as Select Tier Partner to Advance Cloud and AI Engineering",
+      "date": "Fri, 21 Aug 2026 11:03:33",
+      "url": "https://geekyants.com/blog/geekyants-joins-aws-partner-network-as-select-tier-partner-to-advance-cloud-and-ai-engineering"
+     },
+     {
+      "title": "NEWSnet Features GeekyAnts as California’s #1 App Developer",
+      "date": "Wed, 19 Aug 2026 14:52:07",
+      "url": "https://geekyants.com/blog/newsnet-features-geekyants-as-californias-1-app-developer"
+     },
+     {
+      "title": "The Columbus Dispatch Features GeekyAnts’ Entry into the AWS Partner Network",
+      "date": "Wed, 19 Aug 2026 14:12:05",
+      "url": "https://geekyants.com/blog/the-columbus-dispatch-features-geekyants-entry-into-the-aws-partner-network"
+     },
+     {
+      "title": "GeekyAnts Becomes Member of Newly Launched AI Council of India",
+      "date": "Fri, 10 Jul 2026 00:00:00",
+      "url": "https://geekyants.com/blog/geekyants-becomes-member-of-newly-launched-ai-council-of-india"
+     },
+     {
+      "title": "Industry 4.0 Built Visibility. Industry 5.0 Must Automate Decisions, Says GeekyAnts CEO at ET Now Business Conclave 2026",
+      "date": "Fri, 26 Jun 2026 00:00:00",
+      "url": "https://geekyants.com/blog/industry-40-built-visibility-industry-50-must-automate-decisions-says-geekyants-ceo-at-et-now-business-conclave-2026"
+     },
+     {
+      "title": "GeekyAnts Wins AI and Digital Transformation Excellence Award at ET Now Business Conclave 2026",
+      "date": "Fri, 26 Jun 2026 00:00:00",
+      "url": "https://geekyants.com/blog/geekyants-wins-ai-and-digital-transformation-excellence-award-at-et-now-business-conclave-2026"
+     },
+     {
+      "title": "Analytics Insight Features GeekyAnts' Blueprint for Future-Ready Manufacturing",
+      "date": "Thu, 25 Jun 2026 00:00:00",
+      "url": "https://geekyants.com/blog/analytics-insight-features-geekyants-blueprint-for-future-ready-manufacturing"
+     },
+     {
+      "title": "Charleston Gazette-Mail Features GeekyAnts' Excellence in AI & Digital Transformation Award Achievement at ET Now Business Conclave 2026",
+      "date": "Thu, 25 Jun 2026 00:00:00",
+      "url": "https://geekyants.com/blog/charleston-gazette-mail-features-geekyants-excellence-in-ai-digital-transformation-award-achievement-at-et-now-business-conclave-2026"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "http://tinbase.dev",
+   "ok": true,
+   "title": "tinbase — the Supabase-compatible backend that fits in a tin",
+   "description": "Local Supabase dev without Docker — one process, real Postgres with Row Level Security, Auth, Storage, and Realtime, and it even runs in the browser. The official supabase-js SDK works unchanged.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Supabase-compatible backend, without Docker · Open source (MIT) \nThe Supabase-compatible backend that fits in a tin \nLocal Supabase dev without Docker — one process, real Postgres, and it even runs in the browser. The official supabase-js SDK works unchanged. \n Get started Star on GitHub npx tinbase start \nWatch: a Supabase-compatible backend in a single process, in about two minutes. \nBenchmark \nA weight class you can deploy anywhere \nThe Supabase local stack is a 12-container, 2.3 GB Docker install. tinbase serves the same APIs from a single file at a fraction of the memory. \n Install footprint vs memory under load (MB) · lower is better \n Install footprint Memory under load Show browser-based options ↓ \nPocketBase † \nSQLite · different API \n 30 \n 24 \ntinbase (native) \nreal Postgres 17 \n 36 \n 100 \ntinbase (binary) \nreal Postgres 17 \n 92 \n 66 \nSupabase local \nPostgres · 12 containers \n 2,291 \n 1,626 \ntinbase engines in colour; PocketBase and Supabase muted for context. † PocketBase is the smallest footprint, but it is SQLite behind a different API — not a drop-in for supabase-js, unlike every tinbase engine. Linear scale; Supabase local (2,291 / 1,626 MB) is a 12-container Docker stack whose bars run off the axis (torn end) so the single-process engines stay comparable. Physical footprint of the whole process tree (vmmap / docker stats), Apple Silicon · macOS 15 · bench/footprint.ts \n58 MB \nsingle executable, no runtime prerequisite \n~2 s \nfrom command to serving requests \n168 / 168 \nintegration tests pass · both engines \nKeep the SDK you already know \ntinbase implements the PostgREST query grammar (filters, embedded resources, RPC), GoTrue auth flows, the Storage API, and the Realtime Phoenix protocol — verified by running the official SDK against it. \nRow Level Security behaves exactly like hosted Supabase: every request runs with your JWT claims applied, so auth.uid() policies work as-is. Read the docs → \n import { createClient } from '@supabase/supabase-js' \n const supabase = createClient ( 'http://127.0.0.1:54321' , ANON_KEY ) \n await supabase.auth. signUp ({ email, password }) \n await supabase. from ( 'todos' ). insert ({ title: 'hello' }) \n const { data } = await supabase \n . from ( 'todos' ) \n . select ( '*, author:users(name)' ) \n . eq ( 'done' , false ) \n supabase. channel ( 'feed' ) \n . on ( 'postgres_changes' , \n { event: 'INSERT' , schema: 'public' , table: 'todos' }, \n handleNewTodo) \n . subscribe () \nArchitecture \nOne fetch handler, three engines \nsupabase-js talks to a single (Request) ⇒ Response handler that fans out to the service handlers, all sitting on one swappable database engine. The same handler is an HTTP + WebSocket server in Node, or runs in-process in a browser tab. \nStudio \nA dashboard in the box \nA Supabase-Studio-style dashboard ships at /_/ — table editor, SQL, auth, RLS policies, storage, and live logs. No extra process. \n Tour the Studio → \nWhy tinbase exists \ntinbase came out of lifo and RapidNative with a hard goal: run an entire dev stack — database, auth, storage, realtime — in the browser and on phones , with no VMs and no cloud behind it. The first step was cutting the memory overhead of running that backend locally at all; the next was making the very same backend run in-process, inside a browser tab. \nThat is why every service is a pure fetch handler and the database can be pure JavaScript. Along the way it became something else too: a Docker-free, drop-in replacement for local Supabase development that covers most use cases — so it is open source for everyone. \nWhy tinbase \nsupabase-js works unchanged \nREST, Auth, Storage, and Realtime speak the same wire protocols as hosted Supabase. Point the official SDK at tinbase and your app just runs. \nReal Postgres, really small \nRLS policies, auth.uid(), jsonb, triggers, foreign keys. Choose embedded native Postgres 17 (59 MB RAM) or PGlite WASM for zero-setup portability. \nOne file to deploy \nA single 58 MB executable with no Node, npm, or Docker on the target machine. Postgres binaries (12 MB) auto-download on first run. \nYour migrations stay portable \nReads supabase/migrations/*.sql and seed.sql exactly like the Supabase CLI, tracked in the same table. Outgrow tinbase? Push the same files to hosted Supabase. \nAuth, including OAuth \nEmail/password, anonymous, OTP, magic links, password recovery, and OAuth (Google/GitHub + generic) with PKCE — all through supabase.auth, reading your existing config.toml providers. \nEdge Functions",
+   "github_links": [
+    "sanketsahu",
+    "tinbase"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://reactnative.run",
+   "ok": true,
+   "title": "reactnative.run - Run React Native in your browser",
+   "description": "Write and run React Native apps instantly in your browser. No setup, no installs. Powered by browser-metro, an open-source browser-based JavaScript bundler with HMR, Expo Router, and npm support.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Cloudflare",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Powered by browser-metro — a Metro-like bundler for the browser Powered by browser-metro \n Run React Native \n in your browser \nWrite, bundle, and preview React Native apps instantly. browser-metro brings Metro's architecture to the browser — full HMR, Expo Router, npm support, all client-side. \n Open Playground Read the Docs \nEverything you need \n browser-metro brings the Metro bundler experience to the browser. Full HMR, Expo Router, and any npm package. \n 0ms \nZero Setup \nbrowser-metro runs in a Web Worker. No CLI, no Xcode, no Android Studio \nHot Module Replacement \nEdit code and see changes instantly without losing component state. Full React Refresh support. \napp/ \n→ \nroutes \n (tabs)/index.tsx (tabs)/explore.tsx modal.tsx +api.ts \nExpo Router \nFile-based routing with dynamic route addition via HMR. Add a route file and see it appear instantly. \nAPI Routes \nWrite +api.ts files that run in-browser via fetch interception. No server or service worker needed. \n export function GET (req) {\n return Response.json( {\n message: \"Hello!\" \n });\n} \nAny npm Package \nImport any package. Bundled on-demand by the ESM server and cached for instant reuse. No configuration required. \n react @ 19.1.0 \n react-native-web @ 0.19.13 \n expo-router @ 4.0.17 \n lodash @ 4.17.21 \nArchitecture \nTwo services work together: the browser-based bundler and the ESM package server. \n Learn more about the architecture → \nHow it compares \nreactnative.run vs other online development environments. \n reactnative.run Expo Snack CodeSandbox \n Bundling Client-side Partially client-side Server-side \n npm packages Any, on-demand Curated subset Any, via server \n HMR Full + React Refresh Live reload Full HMR \n Expo Router Full + HMR Limited Basic \n API Routes In-browser No Via server \n Native preview Web only iOS, Android, Web Web \n Open source Yes (MIT) Partially No \n Price Free Free Free tier + paid \n Read the full comparison → \nFrequently asked questions \n Is this an official React Native project? + − \nNo. reactnative.run is an independent open-source project built by RapidNative. It is not affiliated with, endorsed by, or associated with Meta, Facebook, the React Native team, or the React Foundation. The domain name is simply a descriptive name for this tool. React Native is a trademark of Meta Platforms, Inc. Can I preview on iOS or Android? + − \nCurrently, reactnative.run only supports web preview. The bundler targets react-native-web, so your app renders as a web page. Native device preview is on the roadmap. Does it work offline? + − \nPartially. Once npm packages are cached by the ESM server, subsequent requests are instant. The bundler itself runs entirely in the browser. However, the first load of any npm package requires a network request. Can I use any npm package? + − \nYes. Unlike some online editors that restrict which packages you can use, reactnative.run bundles any npm package on-demand via the ESM server. There's a cold-start delay on first use, but subsequent requests are cached. How is this different from Expo Snack? + − \nThe key difference is where bundling happens. Expo Snack compiles on their servers. reactnative.run bundles everything client-side in a Web Worker, giving you faster iteration cycles. Expo Snack supports native preview via Expo Go, which we don't (yet). Is it open source? + − \nYes. browser-metro (the bundler), reactnative-esm (the package server), and the playground are all open source under the MIT license. Can I self-host it? + − \nYes. You can run both the playground and the ESM server on your own infrastructure. See the docs for setup instructions. \nReady to try it? \nStart writing React Native code in your browser right now. \n Open Playground Read the Docs",
+   "github_links": [
+    "RapidNative",
+    "sanketsahu"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "sanketsahu",
+  "user": {
+   "name": "Sanket Sahu",
+   "company": "@GeekyAnts ",
+   "blog": "http://geekyants.com/sanket",
+   "location": "Bangalore",
+   "bio": "Developer 👨‍💻  Founder, @RapidNative • Co-founder, @GeekyAnts • Building BuilderX, NativeBase, VueNative • (he/him)",
+   "public_repos": 41,
+   "followers": 369,
+   "created_at": "2012-05-12T19:43:29Z",
+   "twitter_username": "sanketsahu",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "sanketsahu/life-os",
+    "description": "Life OS — A markdown based repository to track everything about your life with AI",
+    "stargazers_count": 32,
+    "forks_count": 4,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2026-04-03T07:06:59Z",
+    "pushed_at": "2026-05-06T07:14:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sanketsahu/jetplane",
+    "description": "Run dozens of Expo dev servers on one machine",
+    "stargazers_count": 9,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://sanketsahu.github.io/jetplane",
+    "created_at": "2026-07-15T12:46:17Z",
+    "pushed_at": "2026-08-09T08:02:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sanketsahu/rapidclaw",
+    "description": "A claw that works on macOS with browser-use and has a nice onboarding. Meant for Slack only.",
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2026-05-14T12:55:32Z",
+    "pushed_at": "2026-05-14T12:58:23Z",
+    "topics": [
+     "ai-agent",
+     "claude-code",
+     "launchd",
+     "macos",
+     "openrouter",
+     "personal-assistant",
+     "slack-bot",
+     "template"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "sanketsahu/vue-native-dribble-challenge",
+    "description": "Vue Native Template of a Dribbble Design",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2018-06-14T14:00:00Z",
+    "pushed_at": "2018-06-14T14:03:34Z",
+    "topics": [
+     "vue",
+     "vue-native"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "sanketsahu/cli-test",
+    "description": "To test cli",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2018-02-14T11:04:46Z",
+    "pushed_at": "2018-02-14T11:11:43Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sanketsahu/flutter_for_react_native",
+    "description": "Sample code demonstrating Flutter principals for React Native developers",
+    "stargazers_count": 1,
+    "forks_count": 2,
+    "language": null,
+    "homepage": null,
+    "created_at": "2018-02-14T11:20:06Z",
+    "pushed_at": "2018-02-27T13:04:07Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sanketsahu/mobile-center-test",
+    "description": "React Native Mobile Center basic integration test",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Shell",
+    "homepage": null,
+    "created_at": "2017-05-05T07:30:37Z",
+    "pushed_at": "2017-05-05T07:34:38Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sanketsahu/sanketsahu",
+    "description": "My Github Profile",
+    "stargazers_count": 1,
+    "forks_count": 3,
+    "language": null,
+    "homepage": null,
+    "created_at": "2020-07-09T06:11:53Z",
+    "pushed_at": "2025-08-22T09:01:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sanketsahu/dietplan",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2025-04-18T11:44:07Z",
+    "pushed_at": "2025-04-18T11:44:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sanketsahu/docs",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "MDX",
+    "homepage": null,
+    "created_at": "2025-02-07T08:34:54Z",
+    "pushed_at": "2025-02-07T08:34:56Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 10,
+  "languages": [
+   [
+    "TypeScript",
+    2
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "Vue",
+    1
+   ],
+   [
+    "MDX",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 3842,
+  "orgs": [
+   "sahusoftcom"
+  ],
+  "profile_readme": "### Hi there 👋\n\nI am Sanket. Thanks for dropping by! I'm a product builder at heart who loves to create tools that empower developers and designers. I co-founded [GeekyAnts](https://geekyants.com) and served as CEO for over a decade, helping scale it into a global design and development powerhouse. Today, my co-founder Pratik leads as CEO while I continue to support the team as a board member and evangelist.\n\nCurrently, I'm building [RapidNative](https://rapidnative.com) at my new company Shaper Studio Inc — a prototyping tool for mobile apps, designed for builders, founders, product managers, and UX designers. I've created several developer tools including [gluestack](https://gluestack.io) (formerly known as [NativeBase](https://nativebase.io)) and [BuilderX](https://v1.builderx.io). I also maintain open source projects like [React Pluggable](https://react-pluggable.github.io) and [SyncState](https://syncstate.github.io).\n\nWhether it's building companies, speaking at events, or designing systems, I love solving high-leverage problems that make teams faster and products better.\n\n### 🔭 Current Focus\n\n- Building RapidNative to revolutionize mobile app prototyping\n- Evolving gluestack as the next generation of NativeBase\n- Speaking at tech conferences and sharing knowledge\n\n### 💡 Interests & Expertise\n\n- 🛠 Product Building & Development\n- 🏗 Scaling Companies with Quality\n- 💻 JavaScript & React Ecosystem\n- 🎨 UI/UX Design\n- 🚀 Tech Entrepreneurship\n\n### 📫 Connect With Me\n\n- 𝕏: [@sanketsahu](https://x.com/sanketsahu)\n- GitHub: [@sanketsahu](https://github.com/sanketsahu)\n- LinkedIn: [sanketsahu](https://www.linkedin.com/in/sanketsahu)\n- Website: [sanket.info](https://sanket.info)\n\n### 👤 About Me\n\n- 😄 Pronouns: he/him\n- 🎸 Love to strum the guitar to Prateek Kuhad tunes\n- 🎤 You can find me at events like React India, React Native Europe, and React Advanced London\n- 🎙 Featured on podcasts like PodRocket and React Native Radio\n- ⚡ Fun fact: Built a Caravan in the lockdown for my childhood dreams\n\nFeel free to reach out if you want to discuss product building, tech architecture, or entrepreneurship. Always happy to help and collaborate!\n",
+  "readmes": {
+   "sanketsahu/life-os": "<p align=\"center\">\n</p>\n# Life OS\nA markdown-based personal documentation system, designed to be maintained collaboratively with Claude.\n---\n## What is this?\nLife OS is a structured folder of markdown files that documents your life — profile, health, career, relationships, decisions, routines, and a master timeline. Claude acts as your thought partner: maintaining files, flagging patterns, pushing back on bad decisions, and keeping everything organized.\nIt's not a journal. It's not a to-do list. It's a living system that gets smarter the more you use it.\n---\n## Getting started\n1. [Download the ZIP](https://github.com/sanketsahu/life-os/archive/refs/heads/main.zip) and unzip it\n2. Open [Claude Cowork](https://claude.ai/cowork) on your desktop\n3. Drop the folder into Claude Cowork\n4. Claude will walk you through an onboarding flow and ask you some questions\n5. Answer them — Claude will populate your files\n6. From there, just talk. Share what's happening and Claude keeps everything updated.\n---\n## Folder structure\n| Folder/File | Purpose |\n|---|---|\n| `profile.md` | Living profile — who you are, updated as things change |\n| `timeline.md` | Master chronological index of everything that happened |\n| `people.md` | Social map — family, friends, colleagues, key relationships |\n| `health/` | Diet, supplements, body metrics, doctor visits |\n| `routine/` | Daily routine, workout schedule, habits |\n| `decisions/` | One file per major decision — context, options, outcome |\n| `career/` | Projects, work plans, professional milestones |\n| `travel/` | Trip logs and plans |\n| `notes/` | Miscellaneous notes that don't fit elsewhere |\n---\n## How to use it\n**Just talk to Claude.** Share what's on your mind — a conversation you had, a decision you're wrestling with, a health update, a career move. Claude will:\n- Update the relevant files\n- Add entries to your timeline\n- Update your profile if something changed\n- Create new decision files when needed\n- Push back if it sees patterns worth naming\n**Examples of things to share:**\n- \"I had a tough conversation with my partner today...\"\n- \"My doctor said my cholesterol is high...\"\n- \"I'm thinking about switching jobs...\"\n- \"I couldn't slee",
+   "sanketsahu/jetplane": "# jetplane\n**A Metro plugin and a lightweight dev server for Expo & React Native** — built for\nrunning many dev environments per machine. Drop one line into `metro.config.js` and every\nsame-dep project shares one transform cache, so cold bundles stop re-transforming\n`node_modules`. Each dev environment costs ~40 MB instead of Metro's ~325 MB idle / ~2 GB cold.\nOpen source (MIT) · on npm as [`jetplane`](https://www.npmjs.com/package/jetplane).\nThe core idea, validated end-to-end on a real device:\n- **node_modules is ~98.5% dead weight** for a given app (measured: ~8 MB reachable of\n  539 MB). Split the immutable **vendor** layer from the mutable **app** layer.\n- **Content-address transforms by source bytes** (root-independent) so the *same* module\n  transforms once and is reused across *different* projects — the cross-project cache\n  Metro's own (root-dependent) cache cannot provide.\n- **Serve a pre-built bundle from a thin, no-Metro process** (`mmap`'d), with **HMR**\n  reconstructed from parsing the bundle + Metro's HMR protocol.\n## Quick start\nAdd jetplane to an existing Expo project (SDK 54+, Node 20+). No workflow change — keep\nusing `expo start`.\n```bash\nnpm install jetplane\nnpx jetplane init       # wires the transform cache into metro.config.js\nnpx expo start          # your normal flow — now cross-project cached\n```\n`jetplane init` adds two lines to your Metro config:\n```js\n// metro.config.js\nconst { getDefaultConfig } = require('expo/metro-config')\nconst config = getDefaultConfig(__dirname)\nconfig.transformerPath = require.resolve('jetplane/transformer') // the Metro plugin\nconfig.cacheStores = []                                          // jetplane owns caching\nmodule.exports = config\n```\nThe first bundle populates a shared, content-addressed cache under `~/.jetplane`; every\nother same-dep project (and every restart) reuses it.\n## Is it a drop-in replacement?\n**Not wholesale — and it doesn't need to be.** jetplane is a caching + serve layer with\ntwo modes. It **augments Metro**; it does **not** replace the Expo CLI.\n- **Cache plugin** — one line in `metro.config.js` (`config.transformerPath =\n  require.resolve('jetplane/transformer')`). You keep the ent",
+   "sanketsahu/rapidclaw": "# rapidclaw\n> A macOS template for building long-running personal AI agents that live in Slack, run on cron, and operate the surfaces you care about — social, blog, reminders, browser, anything you can script.\nEach bot is a self-contained instance of this template. You can run many side-by-side on one machine: each gets its own slug, launchd labels, sqlite databases, Slack channel, identity files, and chrome profile mapping. They don't collide.\n```\n┌─────────────────────────────────────────────────────────────────────────────┐\n│                              your Slack channel                              │\n│                          (#<bot> in your workspace)                          │\n└──────────────────────┬──────────────────────────────┬───────────────────────┘\n                       │                              │\n                  message events                 cron fires\n                       │                              │\n                  ┌────▼──────────────────────────────▼─────┐\n                  │  Slack listener (Socket Mode, launchd)  │\n                  │       — backfill, sleep/wake-safe       │\n                  │       — periodic resync every 3min      │\n                  │       — flap detection, inflight save   │\n                  └────┬────────────────────────────────────┘\n                       │\n              spawns claude -p per message\n                       │\n                  ┌────▼──────────────────────────────────┐\n                  │  claude reads CLAUDE.md + profile.md  │\n                  │  + skills/, picks tools, acts:        │\n                  │   - shell helpers (Slack, browser)    │\n                  │   - your linked projects (sites/)     │\n                  │   - your repo (drafts, log, goals)    │\n                  └───────────────────────────────────────┘\n```\n## Why\nIf you've built a Claude Code agent for a specific purpose (personal branding, customer feedback, OSS maintenance, content distribution), you've probably copy-pasted the same scaffolding several times: Slack Socket Mode listener, cron prompts, helper scripts, launchd plists. rapidclaw extracts that scaffolding so the next bot takes you 15 minutes — and bo",
+   "sanketsahu/vue-native-dribble-challenge": "# Vue Native Dribble Design\nThis is a Vue Native project.\n```\nyarn && yarn run ios\n```\n"
+  }
+ },
+ "apps": []
+}

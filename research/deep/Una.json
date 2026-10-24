@@ -1,0 +1,445 @@
+{
+ "handle": "Una",
+ "sites": [
+  {
+   "url": "http://una.im",
+   "ok": true,
+   "title": "Una Kravets Online",
+   "description": "The personal website of Una Kravets. Front-end developer, tech content creator, and supporter of all things web UI",
+   "stack": [
+    "Astro v5.11.0",
+    "Astro",
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Home \nHello World\n My name is Una \nName pronunciation \nand I'm a web developer \n Twitter \n Bluesky \n Mastodon \n Github \n Codepen \n Youtube \n TikTok \n LinkedIn \n Email \nThe CSS Podcast \nOn the blog \nModern CSS theming with light-dark(), contrast-color(), and style queries Jun 22, 2026 \nCombine three new CSS features to build fully adaptive themed components. \ncontrast-color() beyond black & white Mar 13, 2026 \nTwo techniques that bypass the black-or-white limit of contrast-color() for custom color palettes. \nAutomated accessible text with contrast-color() Mar 12, 2026 \nLet the browser pick the most readable text color for any background with this new CSS function. \nborder-shape: the future of the non-rectangular web Feb 19, 2026 \nLearn about new geometry capabilities with this game-changing experimental CSS feature. \nLatest on Youtube \nAround the web \n 📚 Books I'm Reading \n 🥇 1-line Layouts \n 🗂️ Gradient Folders \n 📷 CSSgram \n 🎨 anchor-tool.com \n ✍🏼 Markup Artist Studio \n 👩🏻‍🏫 Learn CSS \nUpcoming Events \nSign up for my newsletter \nI'm planning on revamping my newsletter this year. Sign up to keep in touch. Newsletter is currently down!",
+   "github_links": [
+    "una"
+   ],
+   "subpages": {
+    "http://una.im/blog": "Home \nBlog Archive \nShowing posts about: \nCSS \nHTML \nJavaScript \nDesign \nPerformance \nPersonal \nCareer \nProductivity \nInterview \nMisc \n Jun 22, 2026 \nModern CSS theming with light-dark(), contrast-color(), and style queries \nCombine three new CSS features to build fully adaptive themed components. \nCSS \nTheming \n Mar 13, 2026 \ncontrast-color() beyond black & white \nTwo techniques that bypass the black-or-white limit of contrast-color() for custom color palettes. \nCSS \nAccessibility \n Mar 12, 2026 \nAutomated accessible text with contrast-color() \nLet the browser pick the most readable text color for any background with this new CSS function. \nCSS \nAccessibility \n Feb 19, 2026 \nborder-shape: the future of the non-rectangular web \nLearn about new geometry capabilities with this game-changing experimental CSS feature. \nCSS \nScroll \n Jan 6, 2026 \n2025 in Review \n2025 in review. \nYear in Review \nPersonal \n2025 \n2026 \n Dec 17, 2025 \nDirectional CSS with scroll-state(scrolled) \nStyle based on scroll direction with this new scroll-state query feature. \nCSS \nScroll \n Dec 8, 2025 \nCSS Wrapped: 2025! \nSculpt a more dynamic web, and learn about the new CSS and UI features that landed in Chrome in 2025. \nCSS \n Nov 12, 2025 \nRange Syntax for Style Queries \nLearn how to use the new range syntax for CSS style queries and the if() function. \nCSS \nContainer queries \n Oct 29, 2025 \nDetect fallback positions with anchored container queries from Chrome 143 \nIdentify and style an anchored element in a fallback anchor position. \nCSS \nContainer queries \nAnchoring \n Sep 11, 2025 \nFollow-the-leader pattern with CSS anchor positioning \nLearn how to create a dynamically re-anchored pointer element. \nCSS \nHTML \nAnchoring \n Aug 13, 2025 \n5 Useful CSS functions using the new @function rule \nCSS custom functions are a gamechanger. Here are 5 really useful examples. \nCSS \nArchitecture \n Jul 29, 2025 \nCreating a scroll-spy with 2 lines of CSS \nscroll-target-group is a new CSS feature that lets you create scroll-spy table of contents with basically 2 lines of CSS. \nCSS \nHTML \n Jul 7, 2025 \nWhat is popover=hint? \nLearn about what exactly this new popover feature does and how it relates to interest invokers. \nCSS \nHTML \n Jan 21, 2025 \nNew capabilities for attr() \nAdvanced attr() is landing in Chrome 133, and I'm really excited for this feature! Here's a bit about it and how you can use it. \nCSS \nHTML \n Jan 10, 2025 \nUpdates to the customizable select API \nEverything that has changed since the RFC post for this feature. \nCSS \nHTML \n Jan 6, 2025 \n2024 in Review \n2024 in review. \nYear in Review \nPersonal \n2024 \n2025 \n Sep 12, 2024 \nCustomizable select: request for developer feedback \nLearn about the new customizable select component, and try it out today. \nCSS \nHTML \n Jul 12, 2024 \n@property: Next-gen CSS variables now with universal browser support \nThe CSS Anchor Positioning API is a game-changer in web development because it lets you natively position elements. \nCSS \nHTML \n Jun 11, 2",
+    "http://una.im/about": "Home \nHi, I'm Una 🗣\nName pronunciation \nI lead the UI & Tooling Developer Relations Team at Google Chrome . Our team focuses on making the web platform easier to use and more robust for developers, primarily through CSS, HTML, and DevTools capabilities (with some JavaScript mixed in too). We help design web platform APIs, build samples to identify bugs and demonstrate use cases, research and help prioritize what to add to the platform, and share all the new stuff with you! It’s a pretty meta role, and I love getting to play a small part in supporting the evolving web ecosystem. I’m also a member of the CSS Working Group and OpenUI Community Group . \nBefore that, I worked on building scalable and expressive design systems as a Developer Advocate on the Material Design team, as the Director of Product Design at Bustle Digital Group , and as a UI Engineer at DigitalOcean and IBM Design . \nI also co-host the CSS Podcast , as well as the web video series Designing in the Browser . I’ve spoken at over 80 developer events around the world, and built open source libraries such as CSSgram . Outside of the tech community, I’m an avid calligrapher and love to travel whenever I can. \nThanks for stopping by my site, and don't hesitate to reach out! 😊"
+   },
+   "feed": {
+    "url": "http://una.im/rss.xml",
+    "count_seen": 132,
+    "items": [
+     {
+      "title": "Modern CSS theming with light-dark(), contrast-color(), and style queries",
+      "date": "Mon, 22 Jun 2026 00:00:00",
+      "url": "https://una.im/modern-css-theming/"
+     },
+     {
+      "title": "contrast-color() beyond black & white",
+      "date": "Fri, 13 Mar 2026 00:00:00",
+      "url": "https://una.im/advanced-contrast-color/"
+     },
+     {
+      "title": "Automated accessible text with contrast-color()",
+      "date": "Thu, 12 Mar 2026 00:00:00",
+      "url": "https://una.im/contrast-color/"
+     },
+     {
+      "title": "border-shape: the future of the non-rectangular web",
+      "date": "Thu, 19 Feb 2026 00:00:00",
+      "url": "https://una.im/border-shape/"
+     },
+     {
+      "title": "2025 in Review",
+      "date": "Tue, 06 Jan 2026 00:00:00",
+      "url": "https://una.im/2025-in-review/"
+     },
+     {
+      "title": "Directional CSS with scroll-state(scrolled)",
+      "date": "Wed, 17 Dec 2025 00:00:00",
+      "url": "https://una.im/scroll-state-scrolled/"
+     },
+     {
+      "title": "CSS Wrapped: 2025!",
+      "date": "Mon, 08 Dec 2025 00:00:00",
+      "url": "https://una.im/2025-12-08-css-wrapped/"
+     },
+     {
+      "title": "Range Syntax for Style Queries",
+      "date": "Wed, 12 Nov 2025 00:00:00",
+      "url": "https://una.im/range-style-queries/"
+     },
+     {
+      "title": "Detect fallback positions with anchored container queries from Chrome 143",
+      "date": "Wed, 29 Oct 2025 00:00:00",
+      "url": "https://una.im/2025-10-29-anchored-queries/"
+     },
+     {
+      "title": "Follow-the-leader pattern with CSS anchor positioning",
+      "date": "Thu, 11 Sep 2025 00:00:00",
+      "url": "https://una.im/follow-the-anchor/"
+     },
+     {
+      "title": "5 Useful CSS functions using the new @function rule",
+      "date": "Wed, 13 Aug 2025 00:00:00",
+      "url": "https://una.im/5-css-functions/"
+     },
+     {
+      "title": "Creating a scroll-spy with 2 lines of CSS",
+      "date": "Tue, 29 Jul 2025 00:00:00",
+      "url": "https://una.im/scroll-target-group/"
+     },
+     {
+      "title": "What is popover=hint?",
+      "date": "Mon, 07 Jul 2025 00:00:00",
+      "url": "https://una.im/popover-hint/"
+     },
+     {
+      "title": "New capabilities for attr()",
+      "date": "Tue, 21 Jan 2025 00:00:00",
+      "url": "https://una.im/advanced-attr/"
+     },
+     {
+      "title": "Updates to the customizable select API",
+      "date": "Fri, 10 Jan 2025 00:00:00",
+      "url": "https://una.im/select-updates/"
+     },
+     {
+      "title": "2024 in Review",
+      "date": "Mon, 06 Jan 2025 00:00:00",
+      "url": "https://una.im/2024-in-review/"
+     },
+     {
+      "title": "Customizable select: request for developer feedback",
+      "date": "Thu, 12 Sep 2024 00:00:00",
+      "url": "https://una.im/2024-09-12-select-rfc/"
+     },
+     {
+      "title": "@property: Next-gen CSS variables now with universal browser support",
+      "date": "Fri, 12 Jul 2024 00:00:00",
+      "url": "https://una.im/2024-07-12-at-property-baseline/"
+     },
+     {
+      "title": "The latest in CSS and web UI: I/O 2024 recap",
+      "date": "Tue, 11 Jun 2024 00:00:00",
+      "url": "https://una.im/2024-06-11-css-at-io/"
+     },
+     {
+      "title": "Introducing the CSS anchor positioning API",
+      "date": "Fri, 10 May 2024 00:00:00",
+      "url": "https://una.im/2024-05-10-anchor-pos-intro/"
+     },
+     {
+      "title": "Popover API lands in Baseline",
+      "date": "Thu, 25 Apr 2024 00:00:00",
+      "url": "https://una.im/2024-04-25-popover-baseline/"
+     },
+     {
+      "title": "2023 in Review",
+      "date": "Sun, 31 Dec 2023 00:00:00",
+      "url": "https://una.im/2023-in-review/"
+     },
+     {
+      "title": "CSS Wrapped: 2023!",
+      "date": "Fri, 08 Dec 2023 00:00:00",
+      "url": "https://una.im/2023-12-08-css-wrapped/"
+     },
+     {
+      "title": "Select element: now with horizontal rules",
+      "date": "Mon, 23 Oct 2023 00:00:00",
+      "url": "https://una.im/2023-10-23-hr-select/"
+     },
+     {
+      "title": "Four new CSS features for smooth entry and exit animations",
+      "date": "Wed, 16 Aug 2023 00:00:00",
+      "url": "https://una.im/2023-08-16-entry-exit-animations/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "una",
+  "user": {
+   "name": "Una Kravets",
+   "company": "Google",
+   "blog": "http://una.im",
+   "location": "Washington, DC",
+   "bio": "The original unacorn 🦄 Developer relations engineer on the @GoogleChrome team, making the web more stylish.",
+   "public_repos": 190,
+   "followers": 5313,
+   "created_at": "2012-04-30T17:10:40Z",
+   "twitter_username": "una",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "una/CSSgram",
+    "description": "CSS library for Instagram filters",
+    "stargazers_count": 5388,
+    "forks_count": 394,
+    "language": "HTML",
+    "homepage": "http://una.github.io/CSSgram/",
+    "created_at": "2015-09-26T14:50:01Z",
+    "pushed_at": "2021-08-01T08:43:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/YouMightNotNeedJS",
+    "description": null,
+    "stargazers_count": 1831,
+    "forks_count": 64,
+    "language": "HTML",
+    "homepage": "http://YouMightNotNeedJs.com",
+    "created_at": "2015-06-11T04:05:41Z",
+    "pushed_at": "2022-04-15T20:48:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/personal-goals",
+    "description": "Personal goals made public :)",
+    "stargazers_count": 577,
+    "forks_count": 78,
+    "language": null,
+    "homepage": null,
+    "created_at": "2014-10-06T05:36:42Z",
+    "pushed_at": "2018-04-18T04:11:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/svg-icon-system-boilerplate",
+    "description": "A boilerplate for building a custom icon system via a linked external SVG sprite",
+    "stargazers_count": 257,
+    "forks_count": 24,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2016-01-19T05:35:29Z",
+    "pushed_at": "2016-10-21T00:12:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/gulp-starter-env",
+    "description": "A basic gulp environment with autoprefixer and minifcation for designers to play around with",
+    "stargazers_count": 228,
+    "forks_count": 35,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-01-15T22:01:30Z",
+    "pushed_at": "2022-02-01T15:50:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/diffee",
+    "description": "Instant visual diffing in the browser",
+    "stargazers_count": 216,
+    "forks_count": 16,
+    "language": "HTML",
+    "homepage": "http://una.im/diffee",
+    "created_at": "2016-04-25T15:43:19Z",
+    "pushed_at": "2018-10-04T15:37:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/extra.css",
+    "description": "A CSS Houdini Paint library for those who want to make their sites a little extra  💁🏻‍♀️",
+    "stargazers_count": 201,
+    "forks_count": 14,
+    "language": "JavaScript",
+    "homepage": "http://extra-css.netlify.com",
+    "created_at": "2018-10-08T13:54:03Z",
+    "pushed_at": "2023-01-04T01:25:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/caniuse-component",
+    "description": "Slides with live caniuse data so you can always have up-to-date info for presentations",
+    "stargazers_count": 130,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": "http://una.github.io/caniuse-component/",
+    "created_at": "2016-07-07T02:06:53Z",
+    "pushed_at": "2022-06-12T14:58:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/una.github.io",
+    "description": "Redesign of my blog to match my new portfolio :) and migrate off of Tumblr",
+    "stargazers_count": 113,
+    "forks_count": 23,
+    "language": "HTML",
+    "homepage": "https://una.github.io/",
+    "created_at": "2014-10-16T03:22:29Z",
+    "pushed_at": "2026-02-12T18:09:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/gradient-folders",
+    "description": "Gradient desktop folder icons for you to live your best life :sunglasses:",
+    "stargazers_count": 107,
+    "forks_count": 8,
+    "language": "HTML",
+    "homepage": "http://una.im/gradient-folders/",
+    "created_at": "2018-01-08T01:02:00Z",
+    "pushed_at": "2018-01-10T22:52:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/gridtoflex.com",
+    "description": "Flexbox fallbacks for CSS Grid",
+    "stargazers_count": 85,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "http://www.gridtoflex.com",
+    "created_at": "2018-02-01T01:11:59Z",
+    "pushed_at": "2018-08-12T03:00:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/better-faster-stronger-web-ui",
+    "description": "Better Faster Stronger Web UI Talk",
+    "stargazers_count": 82,
+    "forks_count": 5,
+    "language": "HTML",
+    "homepage": "",
+    "created_at": "2023-09-15T20:49:04Z",
+    "pushed_at": "2024-03-22T09:01:35Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/sass-director",
+    "description": "An app that generates a shell script to build a directory structure based on your Sass manifest file",
+    "stargazers_count": 74,
+    "forks_count": 7,
+    "language": "CSS",
+    "homepage": "http://sassdirector.com",
+    "created_at": "2015-01-07T01:17:51Z",
+    "pushed_at": "2015-07-25T02:14:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/personal-goals-starter",
+    "description": "A starter repo for setting up your own open source personal goals",
+    "stargazers_count": 71,
+    "forks_count": 45,
+    "language": null,
+    "homepage": "http://una.github.io/personal-goals-guide",
+    "created_at": "2014-11-05T21:18:07Z",
+    "pushed_at": "2016-02-23T03:59:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/animated-emojis",
+    "description": "Animated emojis based on a dribbble for codepen and fun times with animation :)",
+    "stargazers_count": 46,
+    "forks_count": 8,
+    "language": "CSS",
+    "homepage": "http://una.github.io/animated-emojis",
+    "created_at": "2015-02-24T02:45:14Z",
+    "pushed_at": "2015-10-31T19:15:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/thebestjsisnojs",
+    "description": "A talk on CSS capabilities",
+    "stargazers_count": 45,
+    "forks_count": 1,
+    "language": "HTML",
+    "homepage": "https://una.github.io/thebestjsisnojs/",
+    "created_at": "2023-02-24T01:52:56Z",
+    "pushed_at": "2023-05-24T17:30:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/js-conf-notes",
+    "description": "Notes from JS Conf 2015",
+    "stargazers_count": 34,
+    "forks_count": 4,
+    "language": null,
+    "homepage": null,
+    "created_at": "2015-05-27T14:31:09Z",
+    "pushed_at": "2015-05-30T13:39:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "una/dotfiles",
+    "description": "Dotfiles and Configurations",
+    "stargazers_count": 33,
+    "forks_count": 4,
+    "language": "Vim Script",
+    "homepage": null,
+    "created_at": "2015-06-30T19:35:38Z",
+    "pushed_at": "2025-12-17T17:12:13Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 119,
+  "languages": [
+   [
+    "JavaScript",
+    54
+   ],
+   [
+    "HTML",
+    29
+   ],
+   [
+    "CSS",
+    10
+   ],
+   [
+    "PHP",
+    4
+   ],
+   [
+    "Vim Script",
+    1
+   ],
+   [
+    "Astro",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ],
+   [
+    "Java",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 233,
+  "orgs": [
+   "American-University-ACM",
+   "ukrave",
+   "opensourcedesign",
+   "sassydc",
+   "Sass-Director"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "una/CSSgram": "\n# CSSgram\n[](https://cdnjs.com/libraries/cssgram)\nCSSGram is an Instagram filter library written in Sass and CSS.\n## What is This?\nSimply put, CSSgram is a library for editing your images with Instagram-like filters directly using CSS. What we're doing is adding filters to the images, as well as applying color and/or gradient overlays via various blending techniques to mimic filter effects. This means *less manual image processing* and more fun filter effects on the web!\nWe're using pseudo-elements (i.e. `::before` and `::after`) to create the filter effects, so you must apply these filters on a containing element (i.e. not a *replaced element* like ``). The recommendation is to wrap your images in a `<figure>` tag. More about the tag [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure).\n## Browser Support\nThis library uses [CSS Filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter) and [CSS Blend Modes](https://css-tricks.com/basics-css-blend-modes/). These features are supported in the following browsers:\n|  |  |  |  |  |  |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| 43+ ✔ | 38+ ✔ | Nope ✘ |  13 ✔ | 32+ ✔ | 8+ ✔ |\nFor more information, check on [Can I Use](http://caniuse.com/#feat=css-filters).\n## Usage\n**There are currently 2 ways to consume this library:**\n### Use CSS classes\nWhen using CSS classes, you can simply add the class with the filter name to the element containing your image.\n  1. Include the CDN link in your `<head>` tag: `<link rel=\"stylesheet\" href=\"https://cssgram-cssgram.netdna-ssl.com/cssgram.min.css\">`. We're also on [CDNJS](https://cdnjs.com/libraries/cssgram) which means another option is `<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/cssgram/0.1.10/cssgram.min.css\">`\n  * Alternatively, you can [download the CSSgram library](https://raw.githubusercontent.com/una/CSSgram/master/source/css/cssgram.min.css) locally and link to the it within your project: `<link rel=\"stylesheet\" href=\"css/vendor/cssgram.min.css\">`\n  * Add a class to your image element with the name of the filter you would like to use\nFor example:\n```html\n<!-- HTML -->\n<figure class=\"aden\">\n</figure>\n```\nAlternatively, you can ",
+   "una/YouMightNotNeedJS": "# You Might Not Need JavaScript\nA fork of [YouMightNotNeedjQuery.com](http://youmightnotneedjquery.com). You might not need scripts at all.\n### [YouMightNotNeedJs.com](http://youmightnotneedjs.com)\nTo contribute, please open an issue and/or submit a Pull Request referencing the issue.\nFile Structure:\n- `index.jade` = Jade code layout\n- `index.styl` = Stylus styling\n- `comparisons/` = folder containing comparison items and topics\n  - Individual subtopics are inside of comparisons. Each has:\n    - `html.html` = markup\n    - `scss.scss` or `css.css` = css\n    - `resources.txt` = resource list",
+   "una/personal-goals": "Personal Goals\n==============\nPersonal goals made open source for accessibility across computers I use, transparency, accountability, and versioning. Learn more about it [here](http://una.im/personal-goals-guide).\n# Overarching Goals for 2017: [Make an Impact](http://una.im/2016-review/)\n1. JavaScript\n2. Be a Teacher\n3. Stay Experimental\n4. Publish a Book\n5. Start Running Again\nI'm also doing 5 25-Days Projects in 2017:\n1. ⭕ Running\n2. 🌀 Writing Letters\n3. ✅ Mentorship\n4. ✅ Dev Doodles\n5. ✅ Meditation (23 consecutive)\n# [Date Normally Goes Here]\n### This Week's Focus: N/A\n### Things I'll do This Week:\nI haven't done this in a while, since I've moved to my bullet journal in September. However, you can look through the archive for ideas :) It's helped me for about 3 years!\n### Things I'll Do in the Future:\n- [ ] Read through all of Google's [Web Fundamentals](https://developers.google.com/web/fundamentals/)\n- [ ] Build something cool with Arduino\n- [ ] Create my own, or work on helping build a cleaner JS presentation framework\n- [ ] Create a typeface (hand-lettered monospace)\n- [ ] Make an electron app\n- [ ] Build a SlackBot (MyTime)\n- [ ] Every Day App (Happy moments or X-Days Projects)\n- [ ] Take this [online elecctronics class](http://www.instructables.com/class/Electronics-Class/)\n- [ ] Finish [JavaScript 30](https://javascript30.com/)\n- [ ] \"Walk Me Through JS\" Video Series\n- [ ] Toolsday & Web Love stickers\n- [x] Implement offline support for my blog\n- [ ] Build an Offline Web App (Heiroglyph)\n- [ ] Raise money for women in tech organizations\n- [x] Read [Resilient Web Design](https://resilientwebdesign.com/)\n",
+   "una/svg-icon-system-boilerplate": "# svg-icon-system-boilerplate\nA boilerplate for building a custom icon system via a linked external SVG sprite. [Configuration Options](https://github.com/jkphl/svg-sprite) -- this system is based on SVG-sprite.\n## Usage\n1. Place SVG icons into `svg/` folder (you can create subfolders within this, and the icons will be namespaced appropriately based on sublevel)\n2. Run `gulp` to build the sprite and a reference page (located at `sprite/sprite.symbol.html`)\n`sprite.svg` is the main file containing a sprite of each SVG included using `<symbol>` inside of SVG `<defs>`. This system implements SVG icons via [<use>](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/use) to access individual icons.\nThe icons are their original color by default (see your reference page) but can be edited using CSS. If you use subfolders, the naming structure is as follows: `folderName--iconName`.\nHTML:\n```html\n<svg>\n  <use xlink:href=\"sprite.svg#glasses--wine\"></use>\n</svg>\n```\nYou may then style this SVG in CSS. Make sure to give it a width and height (default is 100% of parent). It is best to edit these icons in CSS after adding a class to the `<svg>`. For example:\n```html\n<svg class=\"icon--wineglass\">\n  <use xlink:href=\"sprite.svg#glasses--wine\"></use>\n</svg>\n```\nSass:\n```scss\n.icon--wineglass {\n  fill: red; // additional styling\n  &:hover {\n    fill: white; // styling on hover\n  }\n}\n```\n"
+  }
+ },
+ "apps": []
+}

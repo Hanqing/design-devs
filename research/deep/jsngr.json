@@ -1,0 +1,347 @@
+{
+ "handle": "jsngr",
+ "sites": [
+  {
+   "url": "https://ibuildmyideas.com",
+   "ok": true,
+   "title": "Jordan Singer",
+   "description": "I build my ideas",
+   "stack": [
+    "Google Analytics"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "",
+   "home_text": "",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "jordansinger",
+  "user": {
+   "name": "Jordan Singer",
+   "company": null,
+   "blog": "ibuildmyideas.com",
+   "location": null,
+   "bio": "I build my ideas.",
+   "public_repos": 68,
+   "followers": 2710,
+   "created_at": "2009-08-01T04:20:36Z",
+   "twitter_username": "jsngr",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "jordansinger/SwiftUI-Kit",
+    "description": "A SwiftUI system components and interactions demo app",
+    "stargazers_count": 2534,
+    "forks_count": 177,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2020-07-10T23:02:03Z",
+    "pushed_at": "2023-11-10T11:25:31Z",
+    "topics": [
+     "components",
+     "ios",
+     "ios14",
+     "ipad",
+     "ipados",
+     "kit",
+     "macos",
+     "swiftui",
+     "tvos",
+     "watchos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/Hook",
+    "description": "Pull to refresh for the web",
+    "stargazers_count": 1622,
+    "forks_count": 274,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2013-03-01T04:19:57Z",
+    "pushed_at": "2017-02-18T21:34:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/UIDraw",
+    "description": "Draw and build a website on your phone.",
+    "stargazers_count": 470,
+    "forks_count": 56,
+    "language": "Swift",
+    "homepage": "https://x.com/jsngr/status/1728848624048853442",
+    "created_at": "2023-11-26T18:32:16Z",
+    "pushed_at": "2023-11-26T22:53:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/messages-multiplatform-swiftui-sample",
+    "description": "Multiplatform Messages app for macOS, iOS, iPadOS in SwiftUI",
+    "stargazers_count": 419,
+    "forks_count": 36,
+    "language": "Swift",
+    "homepage": "https://lil.software",
+    "created_at": "2020-06-29T14:50:47Z",
+    "pushed_at": "2020-07-26T15:33:27Z",
+    "topics": [
+     "ios",
+     "ipados",
+     "macos",
+     "messages",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/health-macos-swiftui-example",
+    "description": "Health app macOS Big Sur built in SwiftUI",
+    "stargazers_count": 344,
+    "forks_count": 49,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-07-14T23:12:57Z",
+    "pushed_at": "2020-07-14T23:15:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/todo-macos-swiftui-sample",
+    "description": "Todo macOS app in built SwiftUI",
+    "stargazers_count": 332,
+    "forks_count": 28,
+    "language": "Swift",
+    "homepage": "https://lil.software",
+    "created_at": "2020-07-06T23:19:58Z",
+    "pushed_at": "2020-07-26T15:35:01Z",
+    "topics": [
+     "big",
+     "macos",
+     "sur",
+     "swiftui",
+     "todo"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/build-it-figma-ai",
+    "description": null,
+    "stargazers_count": 316,
+    "forks_count": 56,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-11-17T19:54:32Z",
+    "pushed_at": "2023-11-23T10:14:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/mail-swiftui-sample",
+    "description": "Example Mail app on macOS using SwiftUI ",
+    "stargazers_count": 277,
+    "forks_count": 15,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-06-27T23:07:50Z",
+    "pushed_at": "2020-07-26T15:38:48Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/twitter-macos-swiftui-sample",
+    "description": "Twitter macOS Big Sur SwiftUI example app",
+    "stargazers_count": 205,
+    "forks_count": 11,
+    "language": "Swift",
+    "homepage": "https://lil.software",
+    "created_at": "2020-07-05T16:55:24Z",
+    "pushed_at": "2020-07-26T15:38:13Z",
+    "topics": [
+     "macos",
+     "swiftui",
+     "twitter"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/rdio-macos-swiftui-sample",
+    "description": "Rdio macOS SwiftUI example app for Big Sur",
+    "stargazers_count": 197,
+    "forks_count": 17,
+    "language": "Swift",
+    "homepage": "https://lil.software",
+    "created_at": "2020-07-07T21:41:55Z",
+    "pushed_at": "2020-07-26T15:39:27Z",
+    "topics": [
+     "big",
+     "macos",
+     "rdio",
+     "sur",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/swiftui-ios-14-onboarding",
+    "description": "iOS 14 Onboarding in SwiftUI",
+    "stargazers_count": 176,
+    "forks_count": 10,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-11-07T16:10:41Z",
+    "pushed_at": "2020-11-07T16:14:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/slack-macos-swiftui-sample",
+    "description": "Slack macOS Big Sur SwiftUI example app",
+    "stargazers_count": 161,
+    "forks_count": 8,
+    "language": "Swift",
+    "homepage": "https://lil.software",
+    "created_at": "2020-07-05T14:47:04Z",
+    "pushed_at": "2020-07-26T15:37:39Z",
+    "topics": [
+     "big",
+     "macos",
+     "slack",
+     "sur",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/lil-wallet",
+    "description": null,
+    "stargazers_count": 153,
+    "forks_count": 13,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2021-12-14T22:21:07Z",
+    "pushed_at": "2024-07-20T09:44:29Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/text-editor-macos-sample",
+    "description": "SwiftUI text editor example app for macOS Big Sur ",
+    "stargazers_count": 149,
+    "forks_count": 11,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-09-06T15:30:47Z",
+    "pushed_at": "2020-09-06T15:43:53Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/WindowsXP-SwiftUI",
+    "description": "Windows XP for iPad in SwiftUI",
+    "stargazers_count": 122,
+    "forks_count": 12,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-07-22T23:36:18Z",
+    "pushed_at": "2020-07-22T23:38:03Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/figma-macos-swiftui-sample",
+    "description": "Figma macOS Big Sur example app built in SwiftUI",
+    "stargazers_count": 121,
+    "forks_count": 10,
+    "language": "Swift",
+    "homepage": "https://lil.software",
+    "created_at": "2020-07-08T00:53:35Z",
+    "pushed_at": "2020-07-26T15:40:10Z",
+    "topics": [
+     "big",
+     "figma",
+     "macos",
+     "sur",
+     "swiftui"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/swiftui-ios-toast-notification",
+    "description": null,
+    "stargazers_count": 119,
+    "forks_count": 6,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2020-12-19T14:38:31Z",
+    "pushed_at": "2020-12-19T15:21:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "jordansinger/lil-widgets",
+    "description": "iOS 14 widgets as Swift Playgrounds",
+    "stargazers_count": 99,
+    "forks_count": 8,
+    "language": "Swift",
+    "homepage": "https://lil.software",
+    "created_at": "2020-06-27T15:08:05Z",
+    "pushed_at": "2020-06-28T06:30:30Z",
+    "topics": [
+     "ios14",
+     "ios14-widget"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 49,
+  "languages": [
+   [
+    "Swift",
+    30
+   ],
+   [
+    "JavaScript",
+    6
+   ],
+   [
+    "HTML",
+    4
+   ],
+   [
+    "Ruby",
+    3
+   ],
+   [
+    "TypeScript",
+    2
+   ],
+   [
+    "Python",
+    1
+   ]
+  ],
+  "pinned": [],
+  "contrib_last_year": 2427,
+  "orgs": [
+   "ShippCo",
+   "hackarizona",
+   "Botlytics",
+   "Chain-Schema",
+   "diagram"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "jordansinger/SwiftUI-Kit": "# SwiftUI Kit\nA SwiftUI system components and interactions demo app based on iOS 17, macOS Sonoma, watchOS 10, and tvOS 17.\nUse the SwiftUI Kit app to see how SwiftUI views appear and interact when using the system defaults. You can view the source to see how particular examples work.\nIncludes Buttons, Colors, Controls, Fonts, Haptics, Images, Indicators, Shapes, Text, and more. \n#### To run\nMake sure you're using [Xcode 15+](https://developer.apple.com/xcode/) as well as a device running iOS 17+. Works on iPhone, iPad, Mac, Apple Watch, and Apple TV.\n#### Accent color\nTo change the accent color and see how it affects the system components, go to the `AccentColor` section of `Assets.xcassets` in Xcode. You can then change the Light and Dark accent colors that will be applied to the app.\n#### Contributing\nPlease feel free to submit pull requests in order to contribute back to SwiftUI Kit. This is for the SwiftUI community!\n#### SwiftUI Resources\n- [Recreate](https://recreatecode.com) - A video series about recreating popular UI with SwiftUI\n- [Primitive](https://primitive.school) - Learn SwiftUI for designers\n#### Apple Resources\n- [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/) - Apple’s design guidelines for creating best-in-class apps.\n- [SF Symbols](https://developer.apple.com/sf-symbols/) – Apple’s comprehensive library of vector-based symbols included in Apple’s system fonts that you can incorporate into your app.\nBy [Jordan Singer](https://ibuildmyideas.com) ([@jsngr](https://twitter.com/jsngr))\nCredit [SwiftUI Apple Developer Documentation](https://developer.apple.com/documentation/swiftui) for many examples and terminology\n",
+   "jordansinger/Hook": "Hook\n=======\nPull to refresh for the web\n## Dependencies\n* jQuery\n## Settings\n* refresh: refreshes entire page, default is true, if false will call callback (must also have callback setting),\n* callback: custom callback function\n## Examples:\n```` JS\n// Defaults\n$('#hook').hook();\n// Callback\n$('#hook').hook({\n  refresh: false,\n  callback: function(){\n    console.log('Hello, World!');\n  }\n});\n````\n",
+   "jordansinger/UIDraw": "# UIDraw\nDraw and build a website on your phone. [Watch the demo](https://x.com/jsngr/status/1728848624048853442?s=20).\n---\nUses GPT-4 Vision and PencilKit/PKCanvasView to draw a UI and convert it into HTML.\nBe sure to replace the `OPENAIKEY` with your OpenAI API key.\n",
+   "jordansinger/messages-multiplatform-swiftui-sample": "Multiplatform Messages app for macOS, iOS, iPadOS in SwiftUI\n"
+  }
+ },
+ "apps": []
+}

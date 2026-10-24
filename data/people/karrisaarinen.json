@@ -1,0 +1,146 @@
+{
+ "name": "Karri Saarinen",
+ "role": "Linear 联合创始人兼 CEO · 前 Airbnb 设计（设计系统）· 前 Coinbase · 设计师出身",
+ "title": "Karri Saarinen：<em>质量要么在公司基因里，要么不在</em>",
+ "dek": "他来自芬兰，住在加州，是项目管理工具 Linear 的联合创始人兼 CEO。在那之前，他在 Airbnb 和 Coinbase 做设计；在 Airbnb 时，他嫌 Jira 太难用，还给自己写了一个改善体验的 Chrome 扩展。2019 年 1 月，他和 Jori Lallo、Tuomas Artman 一起创立 Linear，要做一个比 Jira 好得多的工具，同年完成红杉领投的 420 万美元 A 轮。Linear 2021 年实现正向现金流，2025 年完成 8,200 万美元 C 轮；据维基百科，2026 年 8 月员工股份转让对公司估值 25 亿美元，年经常性收入超过 1 亿美元，客户包括 OpenAI、Salesforce、Cursor、Coinbase 和 Ramp。现在 Linear 把自己定义为「团队和 Agent 的产品开发系统」。",
+ "card": "Linear 联合创始人兼 CEO；前 Airbnb、Coinbase 设计师；芬兰人，住在加州。",
+ "location": "美国加州（来自芬兰）",
+ "updated": "2026-10-23",
+ "tags": ["产品设计", "创业", "效率工具", "AI Agent", "公司文化"],
+ "links": [
+  {"label": "karrisaarinen.com", "url": "https://karrisaarinen.com"},
+  {"label": "Linear", "url": "https://linear.app"},
+  {"label": "Linear Now", "url": "https://linear.app/now"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「Originally from Finland, I live in California and work on Linear, building a place for people and agents to make better products and become better at making them.」",
+  "<strong>经历：</strong>Airbnb 设计 → Coinbase → 2019 年联合创办 Linear（与 Jori Lallo、Tuomas Artman）。",
+  "<strong>Linear 数据（维基百科）：</strong>2019 年 A 轮 420 万美元（红杉领投）；2021 年正向现金流；2025 年 C 轮 8,200 万美元；2026 年 8 月估值 25 亿美元、ARR 超 1 亿美元、客户超 4 万。",
+  "<strong>关键数字：</strong>X 关注者约 9.4 万；Linear 远程优先。"
+ ],
+ "lead": "Karri 的个人网站上有一份「Notes on building」，十五条短句：每个项目都会产出产品和理解；设计是对问题和解法的搜索；品味在制作和留意中生长；质量要么在公司的基因里，要么不在；小团队做出更好的作品；好产品取决于我们舍弃了什么；委派工作不会转移责任；公司也是你要打磨的作品；盈利给你按自己的方式去建造的自由；没有方向的速度只是移动，不是进步。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、联合创始人兼 CEO"],
+     ["所在地", "美国加州（来自芬兰）"],
+     ["经历", "Airbnb 设计 → Coinbase → Linear（2019–）"],
+     ["联合创始人", "Jori Lallo、Tuomas Artman"],
+     ["公司", "Linear Orbit, Inc.，旧金山，远程优先"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Karri 正在把 Linear 从项目管理工具变成<strong>「团队和 Agent 的产品开发系统」</strong>。官网首页演示的是这样一个流程：在 Slack 里提出问题，Linear 自动建 issue，「分诊智能」打上标签，有人 @Linear 让 Agent 试着修，它就改了两个文件，开出一个等待审阅的草稿 PR。"},
+    {"p": "2026 年的新功能包括 Loops：把重复任务变成共享、可靠的工作流，Slack 和 GitHub 里的事件也能触发；以及团队文档，他说目标是年底成为「人和 Agent 的文档最快、最好的地方」。他自己用 Loops 每周搜索网上提到他文章的内容，汇总成一份 Linear 文档。他的个人网站本身也是用 Linear 写和构建的。"},
+    {"note": "本页依据 karrisaarinen.com、linear.app（首页、About、Now）、维基百科 Linear Orbit 条目和 X 帖子整理，资料截至 2026 年 10 月。他在 Airbnb 和 Coinbase 的具体职位与年份未在其网站上写明。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "芬兰", "text": "在芬兰长大，后来移居美国。"},
+     {"when": "Airbnb 时期", "title": "设计", "text": "在 Airbnb 做设计，自己写 Chrome 扩展改善 Jira 体验。"},
+     {"when": "Coinbase 时期", "title": "设计", "text": "在 Coinbase 工作。"},
+     {"when": "2019", "title": "创立 Linear", "text": "1 月注册公司，4 月开放候补名单，年底红杉领投 420 万美元 A 轮。"},
+     {"when": "2021–2025", "title": "增长", "text": "2021 年正向现金流；2022 年 17 名员工、上千家创业公司客户；2025 年 C 轮 8,200 万美元。"},
+     {"when": "2026", "title": "Agent 时代", "text": "Loops、团队文档、Linear Agent；8 月估值 25 亿美元。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Linear", "url": "https://linear.app",
+     "meta": ["2019–", "产品开发系统"],
+     "paras": [
+      "「Purpose-built for planning and building products. Designed for the AI era.」以速度、键盘操作和精致的界面著称；现在内置 Agent、Loops 和文档，开发者可以通过 SDK 接入自己的 Agent。"
+     ]
+    }},
+    {"work": {
+     "name": "karrisaarinen.com", "url": "https://karrisaarinen.com",
+     "meta": ["写作", "用 Linear 构建"],
+     "paras": [
+      "他的个人写作，2026 年的文章包括《Someone behind the software》（好产品会带着做它的人的痕迹）和《You could do it alone》（一人公司像真人秀《荒野独居》）。"
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://karrisaarinen.com", "paras": [
+     "网站结构很简单：About me、Notes on building、Writing、采访与演讲。2026 年 10 月他写了一篇《This website is written and built with Linear》，说明这个网站本身就是在 Linear 里写作和发布的。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["结构", "自述 + 原则 + 文章 + 访谈"],
+      ["写作", "2026 年密集更新"],
+      ["公司博客", "linear.app/now"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-23", "title": "This website is written and built with Linear", "url": "https://karrisaarinen.com/posts/this-website-is-written-and-built-with-linear/"},
+     {"date": "2026-10-21", "title": "You could do it alone", "url": "https://karrisaarinen.com/posts/you-could-do-it-alone/"},
+     {"date": "2026-10-15", "title": "Someone behind the software", "url": "https://karrisaarinen.com/posts/someone-behind-the-software/"}
+    ]},
+    {"quote": "Speed without direction is motion, not progress.", "cite": "Karri Saarinen，Notes on building"},
+    {"p": "他对 AI 写作有个观察：你可以一直让 AI「再紧凑一点、再改进一下风格」，它会一直改下去，没有尽头。他也不认同把员工对工作的热情当成问题来管理的观点，认为那「令人沮丧」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产品", "设计与性能树立了行业标杆", "—"],
+      ["经营", "早早盈利，稳健增长", "—"],
+      ["方向", "积极拥抱 Agent", "Agent 功能仍在快速变化"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>质量是文化，不是流程。</strong>",
+     "<strong>好产品取决于你舍弃了什么。</strong>",
+     "<strong>盈利给你自由。</strong>",
+     "<strong>委派给 Agent，责任仍在你。</strong>",
+     "<strong>用自己的产品做自己的事。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Notes on building", "url": "https://karrisaarinen.com", "why": "十五条造产品的原则。"},
+     {"name": "Linear", "url": "https://linear.app", "why": "看一个以质量著称的产品。"},
+     {"name": "Someone behind the software", "url": "https://karrisaarinen.com/posts/someone-behind-the-software/", "why": "为什么好产品有人味。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "写下你团队的三条「造东西的原则」，下次开评审会时把它们放在第一页。",
+ "sources": [
+  {"label": "Karri Saarinen 的 X 个人资料", "url": "https://x.com/karrisaarinen"},
+  {"label": "karrisaarinen.com", "url": "https://karrisaarinen.com"},
+  {"label": "Linear", "url": "https://linear.app"},
+  {"label": "维基百科：Linear Orbit, Inc.", "url": "https://en.wikipedia.org/wiki/Linear_Orbit,_Inc."},
+  {"label": "Linear Now", "url": "https://linear.app/now"}
+ ]
+}

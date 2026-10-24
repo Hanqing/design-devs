@@ -1,0 +1,135 @@
+{
+ "handle": "emilkowalski",
+ "sites": [
+  {
+   "url": "http://emilkowal.ski",
+   "ok": true,
+   "title": "Emil Kowalski",
+   "description": "Design engineer working at Linear.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Enrollment for my new course aiforui.dev is open! 7 days left to join. \n Emil Kowalski Design Engineer Today \nCurrently taking a break from work. In the past, I’ve worked at Linear and Vercel where I helped build the visual side of the product and marketing surfaces. \n Projects \n aiforui.dev AI for Designers and Engineers. Sonner An opinionated toast component for React. animations.dev A course on web animations. Vaul A drawer component for React. \n Writing \n You Don’t Need Animations Why you are animating more often than you should. Agents with Taste How to transfer taste into an AI. Building a Toast Component My experience building Sonner, a toast library. Developing Taste Why taste matters and how to develop it. The Magic of Clip Path One of the most underrated CSS properties. 7 Practical Animation Tips Simple ideas you can use to improve your animations. Building a Drawer Component My experience building a drawer component for React. \n More You can see more of my work on Twitter and more of my code on GitHub .",
+   "github_links": [
+    "emilkowalski"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "emilkowalski",
+  "user": {
+   "name": "Emil Kowalski",
+   "company": null,
+   "blog": "emilkowal.ski",
+   "location": null,
+   "bio": null,
+   "public_repos": 3,
+   "followers": 8899,
+   "created_at": "2018-02-22T10:31:06Z",
+   "twitter_username": "emilkowalski",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "emilkowalski/skills",
+    "description": "Skills for Designers and Engineers.",
+    "stargazers_count": 49070,
+    "forks_count": 2838,
+    "language": "Markdown",
+    "homepage": "https://emilkowal.ski/skill",
+    "created_at": "2026-03-16T13:52:31Z",
+    "pushed_at": "2026-10-11T13:58:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "emilkowalski/sonner",
+    "description": "An opinionated toast component for React.",
+    "stargazers_count": 13072,
+    "forks_count": 468,
+    "language": "TypeScript",
+    "homepage": "https://sonner.emilkowal.ski",
+    "created_at": "2023-02-23T11:01:18Z",
+    "pushed_at": "2026-08-10T11:13:03Z",
+    "topics": [
+     "notifications",
+     "react",
+     "toast"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "emilkowalski/vaul",
+    "description": "A drawer component for React.",
+    "stargazers_count": 8649,
+    "forks_count": 371,
+    "language": "TypeScript",
+    "homepage": "https://vaul.emilkowal.ski",
+    "created_at": "2023-07-16T11:24:46Z",
+    "pushed_at": "2025-10-03T19:25:32Z",
+    "topics": [
+     "dialog",
+     "drawer",
+     "react"
+    ],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 3,
+  "languages": [
+   [
+    "TypeScript",
+    2
+   ],
+   [
+    "Markdown",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "emilkowalski/sonner",
+    "stargazerCount": 13072,
+    "description": "An opinionated toast component for React.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://sonner.emilkowal.ski"
+   },
+   {
+    "nameWithOwner": "emilkowalski/vaul",
+    "stargazerCount": 8649,
+    "description": "A drawer component for React.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://vaul.emilkowal.ski"
+   },
+   {
+    "nameWithOwner": "emilkowalski/skills",
+    "stargazerCount": 49070,
+    "description": "Skills for Designers and Engineers.",
+    "primaryLanguage": {
+     "name": "Markdown"
+    },
+    "homepageUrl": "https://emilkowal.ski/skill"
+   }
+  ],
+  "contrib_last_year": 1408,
+  "orgs": [],
+  "profile_readme": "",
+  "readmes": {
+   "emilkowalski/sonner": "https://github.com/vallezw/sonner/assets/50796600/59b95cb7-9068-4f3e-8469-0b35d9de5cf0\n[Sonner](https://sonner.emilkowal.ski/) is an opinionated toast component for React. You can read more about why and how it was built [here](https://emilkowal.ski/ui/building-a-toast-component).\n## Usage\nTo start using the library, install it in your project:\n```bash\nnpm install sonner\n```\nAlternatively you can use the `/ask-sonner` skill to do it for you and help you with any other Sonner-related questions.\n```bash\nnpx skills add https://github.com/emilkowalski/skills --skill ask-sonner\n```\nAdd `<Toaster />` to your app, it will be the place where all your toasts will be rendered.\nAfter that you can use `toast()` from anywhere in your app.\n```jsx\nimport { Toaster, toast } from 'sonner';\n// ...\nfunction App() {\n  return (\n    <div>\n      <Toaster />\n      <button onClick={() => toast('My first toast')}>Give me a toast</button>\n    </div>\n  );\n}\n```\n## Documentation\nFind the full API reference in the [documentation](https://sonner.emilkowal.ski/getting-started).\n",
+   "emilkowalski/vaul": "> **Note**  \n> This repo is unmaintained. I might come back to it at some point, but not in the near future. This was and always will be a hobby project and I simply don't have the time or will to work on it right now.\n",
+   "emilkowalski/skills": "\n<a href=\"http://aiforui.dev/\">\n</a>\n# Skills For Designers and Engineers\n[](https://skills.sh/emilkowalski/skills)\nFor designers and engineers to help them build better user interfaces.\nKnowing whether you made a right choice when it comes to animations, or design in general, is hard. These skills aim to help you get to those right decisions faster.\nThey are based on my years of experience working at companies like Vercel and Linear.\nAll the skills here are a side-effect of domain-expertise. AI doesn’t replace such expertise, it amplifies what you can get out of it and makes you way better relative to others.\nSo learn to code, design, or develop expertise in any other field. It’s extremely valuable.\nYou can stay up to date with my skills here:\n[Sign Up To The Newsletter](https://aiforui.dev/skills)\n## Install\n```bash\nnpx skills@latest add emilkowalski/skills\n```\n## Why use it?\nAgents don’t have great taste\nI have seen plenty of times that agents don’t pick the right ingredients for an animation. An `ease-in` easing for an enter animation when it’s supposed to be `ease-out` ([here’s why](https://emilkowal.ski/ui/7-practical-animation-tips#4.-choose-the-right-easing)). Or they choose a solid border instead of a semi-transparent shadow for your UIs.\nAll these small things compound and make your interface either amazing, or just... not that great.\nAs explained in [Agents with Taste](https://emilkowal.ski/ui/agents-with-taste), these skills list all the little mistakes agents can potentially make and explain how to fix them.\nThis is your shortcut to great interfaces. A shortcut to stand out in a sea of slop.\n## Reference\n- **[emil-design-eng](./skills/emil-design-eng/SKILL.md)** — The main skill that consists of mostly animation, but also some design advice.\n- **[animate](./skills/animate/SKILL.md)** — Builds an animation from scratch while choosing the correct curve, duration, properties, and so on.\n- **[animate-expo](./skills/animate-expo/SKILL.md)** — The same bar, for React Native and Expo: gestures, sheets, haptics, screen transitions, and keeping motion off the JS thread.\n- **[review-animations](./skills/review-animations/SKILL.md)** — Review your animations i"
+  }
+ },
+ "apps": []
+}

@@ -1,0 +1,441 @@
+{
+ "handle": "devongovett",
+ "sites": [
+  {
+   "url": "https://parceljs.org",
+   "ok": true,
+   "title": "Parcel",
+   "description": "",
+   "stack": [
+    "Google Analytics",
+    "React",
+    "Vue"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "",
+   "home_text": "Parcel \n Parcel \n The zero configuration build tool for \n the web . \n JavaScript . \n CSS . \n HTML . \n TypeScript . \n React . \n images . \n SASS . \n SVG . \n Vue . \n libraries . \n Less . \n CoffeeScript . \n Node . \n Stylus . \n Pug . \n Electron . \n Elm . \n WebGL . \n extensions . \n GraphQL . \n MDX . \n XML . \nParcel combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application. \n $ \n Server running at http://localhost:1234 \n ✨ Built in 48ms \n Get started \n GitHub \n copied = false, 3000) : null\">\n $ yarn add parcel \n (click to copy to clipboard) \nTrusted by: \nA build tool for the rest of us. \nParcel starts with a great development experience, from starting a new project, to iterating and debugging, and shipping to production. No more fiddling with configuration, or spending hours to keep up with best practices – it just works! \nZero config \nStart with an HTML file. Add a <script> tag. Maybe some CSS. How about TypeScript? SASS? Images? No problem. Parcel works out of the box just as you'd expect. \nParcel supports many languages and file types out of the box, from web technologies like HTML, CSS, and JavaScript, to assets like images, fonts, videos, and more. And when you use a file type that isn't included by default, Parcel will automatically install all of the necessary plugins and dev dependencies for you! \n Get started → \nindex.html \n ​ < html > \n < head > \n < title > My First Parcel App </ title > \n < link rel = \" stylesheet \" href = \" styles.css \" > \n </ head > \n < body > \n < h1 > Hello, World! </ h1 > \n < script type = \" module \" src = \" app.tsx \" > </ script > \n </ body > \n </ html > \nDev server \nParcel includes a development server out of the box. Just run parcel index.html to get started. \nhttp://localhost:1234 \n Hello world! \nNeed HTTPS? Run Parcel with the --https flag, and it will automatically generate a certificate for you! Or, if you like, you can provide your own. \nParcel also has a built-in API proxy, which can help simulate your production environment. \n Learn more → \nHot reloading \nWhen you make a change, Parcel automatically updates your code in the browser – no page reload necessary! \nhttp://localhost:1234 \n Hello world! \nGreeting.tsx \n import React from 'react' ; \n export function Greeting ( ) { \n return < h1 > Hello world! </ h1 > ; \n } \nParcel also integrates with React Fast Refresh and the Vue Hot Reloading API to automatically preserve your application state between updates. This gives you instant feedback as you make changes, without taking you out of context. \n Learn more → \nDiagnostics \nIf you make an error in your code or configuration, Parcel displays beautiful diagnostics in your terminal and in the browser. \nEvery error includes a syntax highlighted code frame pointing to the exact location where the error occurred, along with hints about how to fix the issue. \nMany diagnostics even include a documentation link where you can learn more. \n $ parcel index.html \n Server running at http://localhost:1234 \n 🚨 Build failed.\n@parcel/core: Cannot resolve 'ract' from './index.js' \n /dev/app/index.js:1:19 \n > 1 | import React from 'ract' ;\n > | ^^^^^^ \n 2 | \n 3 | function Test () { \n @parcel/resolver-default: Cannot find module 'ract' \n Did you mean ' react '? \nIt's lightning fast. \nParcel builds your code in parallel using worker threads, utilizing all of the cores on your machine. Everything is cached, so you never build the same code twice. It's like using watch mode, but even when you restart Parcel! \nNative performance \nParcel's JavaScript, CSS, HTML, and SVG compilers are written in Rust for maximum performance. These are 10-100x faster than other JavaScript-based tools! \nParcel's JavaScript compiler is built on SWC , which handles transpiling JavaScript, JSX, and TypeScript. On top of SWC, Parcel implements dependency collection, bundling, scope hoisting, tree shaking, Node emulation, hot reloading, and more. \nParcel's CSS transformer and minifier is built in Rust on top of the browser-grade CSS parser used in Firefox. It's over 100x faster than other JavaScript-based transformers and minifiers. \nMulti-core \n Parcel is designed around a multi-core architecture that parallelizes work across all of your cores and takes full advantage of modern hardware. \nTransforming individual source files is parallelized, as well as packaging and optimizing output bundles. All of this is completely automa",
+   "github_links": [
+    "parcel-bundler"
+   ],
+   "subpages": {},
+   "feed": {
+    "url": "https://parceljs.org/feed.xml",
+    "count_seen": 13,
+    "items": [
+     {
+      "title": "Parcel 2 alpha 1 is here!",
+      "date": "2019-09-13T00:00:00Z",
+      "url": "https://parceljs.org/blog/alpha1/"
+     },
+     {
+      "title": "Parcel 2 beta 1",
+      "date": "2020-06-19T00:00:00Z",
+      "url": "https://parceljs.org/blog/beta1/"
+     },
+     {
+      "title": "Parcel 2 beta 3",
+      "date": "2021-05-18T00:00:00Z",
+      "url": "https://parceljs.org/blog/beta3/"
+     },
+     {
+      "title": "Parcel 2 RC",
+      "date": "2021-08-03T00:00:00Z",
+      "url": "https://parceljs.org/blog/rc0/"
+     },
+     {
+      "title": "Announcing Parcel v2!",
+      "date": "2021-10-13T00:00:00Z",
+      "url": "https://parceljs.org/blog/v2/"
+     },
+     {
+      "title": "Announcing Parcel CSS",
+      "date": "2022-01-12T00:00:00Z",
+      "url": "https://parceljs.org/blog/parcel-css/"
+     },
+     {
+      "title": "Parcel v2.4.0",
+      "date": "2022-03-22T00:00:00Z",
+      "url": "https://parceljs.org/blog/v2-4-0/"
+     },
+     {
+      "title": "Parcel v2.6.0",
+      "date": "2022-05-25T00:00:00Z",
+      "url": "https://parceljs.org/blog/v2-6-0/"
+     },
+     {
+      "title": "Parcel v2.8.0",
+      "date": "2022-11-09T00:00:00Z",
+      "url": "https://parceljs.org/blog/v2-8-0/"
+     },
+     {
+      "title": "Parcel v2.9.0",
+      "date": "2023-05-26T00:00:00Z",
+      "url": "https://parceljs.org/blog/v2-9-0/"
+     },
+     {
+      "title": "Parcel v2.12.0",
+      "date": "2024-02-28T00:00:00Z",
+      "url": "https://parceljs.org/blog/v2-12-0/"
+     },
+     {
+      "title": "Parcel v2.14.0",
+      "date": "2025-03-18T00:00:00Z",
+      "url": "https://parceljs.org/blog/v2-14-0/"
+     },
+     {
+      "title": "Parcel v2.15.0",
+      "date": "2025-05-11T00:00:00Z",
+      "url": "https://parceljs.org/blog/v2-15-0/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "devongovett",
+  "user": {
+   "name": "Devon Govett",
+   "company": "Adobe",
+   "blog": "https://parceljs.org",
+   "location": "San Francisco",
+   "bio": "Creator of @parcel-bundler. Engineer @adobe working on React Aria and React Spectrum.",
+   "public_repos": 239,
+   "followers": 3913,
+   "created_at": "2008-08-03T13:39:41Z",
+   "twitter_username": "devongovett",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "devongovett/regexgen",
+    "description": "Generate regular expressions that match a set of strings",
+    "stargazers_count": 3425,
+    "forks_count": 102,
+    "language": "JavaScript",
+    "homepage": "https://runkit.com/npm/regexgen",
+    "created_at": "2016-12-20T02:50:53Z",
+    "pushed_at": "2024-02-15T03:01:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/node-wkhtmltopdf",
+    "description": "A wrapper for the wkhtmltopdf HTML to PDF converter using WebKit",
+    "stargazers_count": 612,
+    "forks_count": 143,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-05-17T03:13:46Z",
+    "pushed_at": "2023-03-09T09:29:31Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/dprint-node",
+    "description": "A node API for the dprint TypeScript and JavaScript code formatter",
+    "stargazers_count": 487,
+    "forks_count": 11,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2021-06-02T05:35:56Z",
+    "pushed_at": "2023-09-15T04:48:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/reader",
+    "description": "An API Compatible Replacement for Google Reader",
+    "stargazers_count": 351,
+    "forks_count": 26,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2013-03-14T00:41:05Z",
+    "pushed_at": "2013-05-07T07:00:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/glob-match",
+    "description": "An extremely fast glob matching library in Rust.",
+    "stargazers_count": 346,
+    "forks_count": 12,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2023-01-16T18:58:57Z",
+    "pushed_at": "2024-08-19T09:20:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/unplugin-parcel-macros",
+    "description": null,
+    "stargazers_count": 243,
+    "forks_count": 10,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2024-02-01T02:28:11Z",
+    "pushed_at": "2026-02-26T18:43:37Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/tree-sitter-highlight",
+    "description": "A syntax highlighter for Node powered by Tree Sitter. Written in Rust.",
+    "stargazers_count": 242,
+    "forks_count": 7,
+    "language": "Rust",
+    "homepage": null,
+    "created_at": "2021-12-22T00:54:18Z",
+    "pushed_at": "2025-12-29T22:19:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/napi-wasm",
+    "description": "An implementation of the napi API for WASM. ",
+    "stargazers_count": 200,
+    "forks_count": 5,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2022-12-28T07:31:31Z",
+    "pushed_at": "2024-08-31T20:35:56Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/rsc-html-stream",
+    "description": "Inject an RSC payload into an HTML stream and read it back",
+    "stargazers_count": 195,
+    "forks_count": 9,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2024-02-19T19:06:04Z",
+    "pushed_at": "2026-08-08T03:24:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/exif-reader",
+    "description": "A small EXIF image metadata reader",
+    "stargazers_count": 174,
+    "forks_count": 25,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-03-06T06:02:57Z",
+    "pushed_at": "2025-12-12T14:43:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/slang",
+    "description": "A collection of utility functions for working with strings in JavaScript in the browser or Node",
+    "stargazers_count": 170,
+    "forks_count": 14,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2011-07-15T20:06:32Z",
+    "pushed_at": "2015-05-07T21:44:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/blob-stream",
+    "description": "A Node-style writable stream for HTML5 Blobs",
+    "stargazers_count": 127,
+    "forks_count": 21,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2014-04-12T22:38:11Z",
+    "pushed_at": "2022-01-25T14:36:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/protobuf-jsonschema",
+    "description": "Compiles Protobuf IDL to JSON Schema",
+    "stargazers_count": 121,
+    "forks_count": 37,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-12-11T02:21:21Z",
+    "pushed_at": "2021-01-28T22:09:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/jpg-stream",
+    "description": "A streaming JPEG encoder and decoder",
+    "stargazers_count": 86,
+    "forks_count": 14,
+    "language": "C++",
+    "homepage": null,
+    "created_at": "2014-11-16T01:46:42Z",
+    "pushed_at": "2017-08-23T21:03:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/pi-christmas-lights",
+    "description": "🎄 Sync Christmas lights to music with a Raspberry Pi and the Web Audio API",
+    "stargazers_count": 78,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2018-12-26T05:12:23Z",
+    "pushed_at": "2023-01-06T01:59:26Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/vue-hooks",
+    "description": "Experiment to shim the React Hooks API in Vue 3",
+    "stargazers_count": 78,
+    "forks_count": 6,
+    "language": "Vue",
+    "homepage": null,
+    "created_at": "2020-08-22T19:56:00Z",
+    "pushed_at": "2020-09-27T03:58:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/github-lite",
+    "description": "WIP GitHub client built with React Aria Components + Tailwind CSS",
+    "stargazers_count": 71,
+    "forks_count": 7,
+    "language": "TypeScript",
+    "homepage": "https://github-lite.pages.dev/",
+    "created_at": "2023-11-05T01:07:43Z",
+    "pushed_at": "2026-06-20T19:44:42Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "devongovett/apple-color-emoji",
+    "description": "Replace emoji in strings with images from the Apple Color Emoji font",
+    "stargazers_count": 59,
+    "forks_count": 10,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-06-24T00:48:20Z",
+    "pushed_at": "2022-05-14T20:10:49Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 79,
+  "languages": [
+   [
+    "JavaScript",
+    46
+   ],
+   [
+    "Rust",
+    7
+   ],
+   [
+    "CoffeeScript",
+    6
+   ],
+   [
+    "C++",
+    5
+   ],
+   [
+    "HTML",
+    5
+   ],
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "Objective-C",
+    2
+   ],
+   [
+    "Vue",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "parcel-bundler/parcel",
+    "stargazerCount": 44005,
+    "description": "The zero configuration build tool for the web. 📦🚀",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "https://parceljs.org"
+   },
+   {
+    "nameWithOwner": "adobe/react-spectrum",
+    "stargazerCount": 15978,
+    "description": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://react-spectrum.adobe.com"
+   },
+   {
+    "nameWithOwner": "parcel-bundler/lightningcss",
+    "stargazerCount": 7714,
+    "description": "An extremely fast CSS parser, transformer, bundler, and minifier written in Rust.",
+    "primaryLanguage": {
+     "name": "Rust"
+    },
+    "homepageUrl": "https://lightningcss.dev"
+   },
+   {
+    "nameWithOwner": "foliojs/pdfkit",
+    "stargazerCount": 10722,
+    "description": "A JavaScript PDF generation library for Node and the browser",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": "http://pdfkit.org/"
+   },
+   {
+    "nameWithOwner": "audiocogs/aurora.js",
+    "stargazerCount": 1274,
+    "description": "JavaScript audio decoding framework",
+    "primaryLanguage": {
+     "name": "CoffeeScript"
+    },
+    "homepageUrl": "http://audiocogs.org/codecs"
+   },
+   {
+    "nameWithOwner": "foliojs/fontkit",
+    "stargazerCount": 1677,
+    "description": "An advanced font engine for Node and the browser",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 1049,
+  "orgs": [
+   "adobe",
+   "ofmlabs",
+   "audiocogs",
+   "browserify",
+   "ottypes",
+   "micromatch",
+   "parcel-bundler",
+   "foliojs"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "parcel-bundler/parcel": "<p align=\"center\">\n  <a href=\"https://parceljs.org/\" target=\"_blank\">\n  </a>\n</p>\n[](#backers) [](#sponsors)\n[](https://dev.azure.com/devongovett/devongovett/_build/latest?definitionId=1)\n[](https://www.npmjs.com/package/parcel)\n[](https://www.npmjs.com/package/parcel)\n[](https://discord.gg/XSCzqGRuvr)\n[](https://twitter.com/parceljs)\nParcel is a zero configuration build tool for the web. It combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application.\n## Features\n- 😍 **Zero config** – Parcel supports many languages and file types out of the box, from web technologies like HTML, CSS, and JavaScript, to assets like images, fonts, videos, and more. It has a built-in dev server with hot reloading, beautiful error diagnostics, and much more. No configuration needed!\n- ⚡️ **Lightning fast** – Parcel's JavaScript compiler is written in Rust for native performance. Your code is built in parallel using worker threads, utilizing all of the cores on your machine. Everything is cached, so you never build the same code twice. It's like using watch mode, but even when you restart Parcel!\n- 🚀 **Automatic production optimization** – Parcel optimizes your whole app for production automatically. This includes tree-shaking and minifying your JavaScript, CSS, and HTML, resizing and optimizing images, content hashing, automatic code splitting, and much more.\n- 🎯 **Ship for any target** – Parcel automatically transforms your code for your target environments. From modern and legacy browser support, to zero config JSX and TypeScript compilation, Parcel makes it easy to build for any target – or many!\n- 🌍 **Scalable** – Parcel requires zero configuration to get started. But as your application grows and your build requirements become more complex, it's possible to extend Parcel in just about every way. A simple configuration format and powerful plugin system that's designed from the ground up for performance means Parcel can support projects of any size.\n## Getting Started\nSee the following guides in our documentation on how to get started with Parcel.\n* [Building a webapp wit",
+   "adobe/react-spectrum": "#  [React Spectrum Libraries](https://react-spectrum.adobe.com/)\nA collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.\n### React Spectrum\nA React implementation of Spectrum, Adobe’s design system. Spectrum provides adaptive, accessible, and cohesive experiences for all Adobe applications.\n[Explore React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html)\n### React Aria\nA library of unstyled React components and hooks that helps you build accessible, high quality UI components for your application or design system.\n[Learn more about React Aria](https://react-spectrum.adobe.com/react-aria/index.html)\n### React Stately\nA library of React Hooks that provides cross-platform state management for your design system.\n[More information about React Stately](https://react-spectrum.adobe.com/react-stately/index.html)\n### Internationalized\nA collection of framework-agnostic internationalization libraries for the web.\n[Internationalized Packages](https://react-spectrum.adobe.com/internationalized/index.html)\n## Features\n* ♿️ **[Accessible](https://react-spectrum.adobe.com/react-aria/accessibility.html)** – Accessibility and behavior is implemented according to [WAI-ARIA Authoring Practices](https://www.w3.org/TR/wai-aria-practices-1.2/), including full screen reader and keyboard navigation support. All components have been tested across a wide variety of screen readers and devices to ensure the best experience possible for all users.\n* 📱 **[Adaptive](https://react-spectrum.adobe.com/react-aria/interactions.html)** – All components are designed to work with mouse, touch, and keyboard interactions. They’re built with responsive design principles to deliver a great experience, no matter the device.\n* 🌍 **[International](https://react-spectrum.adobe.com/react-aria/internationalization.html)** – Support over 30 languages is included out of the box, including support for right-to-left languages, date and number formatting, and more.\n* 🎨 **[Customizable](https://react-spectrum.adobe.com/react-spectrum/theming.html)** – React Spectrum components support custom themes, and automatically adapt for dark mode. For eve",
+   "parcel-bundler/lightningcss": "# ⚡️ Lightning CSS\nAn extremely fast CSS parser, transformer, and minifier written in Rust. Use it with [Parcel](https://parceljs.org), as a standalone library or CLI, or via a plugin with any other tool.\n## Features\n- **Extremely fast** – Parsing and minifying large files is completed in milliseconds, often with significantly smaller output than other tools. See [benchmarks](#benchmarks) below.\n- **Typed property values** – many other CSS parsers treat property values as an untyped series of tokens. This means that each transformer that wants to do something with these values must interpret them itself, leading to duplicate work and inconsistencies. Lightning CSS parses all values using the grammar from the CSS specification, and exposes a specific value type for each property.\n- **Browser-grade parser** – Lightning CSS is built on the [cssparser](https://github.com/servo/rust-cssparser) and [selectors](https://github.com/servo/stylo/tree/main/selectors) crates created by Mozilla and used by Firefox and Servo. These provide a solid general purpose CSS-parsing foundation on top of which Lightning CSS implements support for all specific CSS rules and properties.\n- **Minification** – One of the main purposes of Lightning CSS is to minify CSS to make it smaller. This includes many optimizations including:\n  - Combining longhand properties into shorthands where possible.\n  - Merging adjacent rules with the same selectors or declarations when it is safe to do so.\n  - Combining CSS transforms into a single matrix or vice versa when smaller.\n  - Removing vendor prefixes that are not needed, based on the provided browser targets.\n  - Reducing `calc()` expressions where possible.\n  - Converting colors to shorter hex notation where possible.\n  - Minifying gradients.\n  - Minifying CSS grid templates.\n  - Normalizing property value order.\n  - Removing default property sub-values which will be inferred by browsers.\n  - Many micro-optimizations, e.g. converting to shorter units, removing unnecessary quotation marks, etc.\n- **Vendor prefixing** – Lightning CSS accepts a list of browser targets, and automatically adds (and removes) vendor prefixes.\n- **Browserslist configuratio",
+   "foliojs/pdfkit": "# PDFKit\nA JavaScript PDF generation library for Node and the browser.\n## Description\nPDFKit is a PDF document generation library for Node and the browser that makes creating complex, multi-page, printable\ndocuments easy. The API embraces chainability, and includes both low level functions as well as abstractions for higher\nlevel functionality. The PDFKit API is designed to be simple, so generating complex documents is often as simple as\na few function calls.\nCheck out some of the [documentation and examples](http://pdfkit.org/docs/getting_started.html) to see for yourself!\nYou can also read the guide as a [self-generated PDF](http://pdfkit.org/docs/guide.pdf) with example output displayed inline.\nIf you'd like to see how it was generated, check out the README in the [docs](https://github.com/foliojs/pdfkit/tree/master/docs)\nfolder.\nYou can also try out an interactive in-browser demo of PDFKit [here](http://pdfkit.org/demo/browser.html).\n## Installation\nUse [npm](http://npmjs.org/) or [yarn](https://yarnpkg.com/) package manager. Just type the following command:\n```bash\n# with npm\nnpm install pdfkit\n# with yarn\nyarn add pdfkit\n```\n## Features\n- Vector graphics\n  - HTML5 canvas-like API\n  - Path operations\n  - SVG path parser for easy path creation\n  - Transformations\n  - Linear and radial gradients\n- Text\n  - Line wrapping (with soft hyphen recognition)\n  - Text alignments\n  - Bulleted lists\n- Font embedding\n  - Supports TrueType (.ttf), OpenType (.otf), WOFF, WOFF2, TrueType Collections (.ttc), and Datafork TrueType (.dfont) fonts\n  - Font subsetting\n  - See [fontkit](http://github.com/foliojs/fontkit) for more details on advanced glyph layout support.\n- Image embedding\n  - Supports JPEG and PNG files (including indexed PNGs, and PNGs with transparency)\n- Tables\n- Annotations\n  - Links\n  - Notes\n  - Highlights\n  - Underlines\n  - etc.\n- AcroForms\n- Outlines\n- PDF security\n  - Encryption\n  - Access privileges (printing, copying, modifying, annotating, form filling, content accessibility, document assembly)\n- Accessibility support (marked content, logical structure, Tagged PDF, PDF/UA)\n## Coming soon!\n- Patterns fills\n- Higher level APIs for laying out content\n- M",
+   "audiocogs/aurora.js": "Aurora.js\n=========\nAurora.js is a framework that makes writing audio decoders in JavaScript easier.  It handles common \ntasks for you such as dealing with binary data, and the decoding pipeline from source to demuxer to \ndecoder, and finally to the audio hardware itself by abstracting browser audio APIs.  Aurora contains \ntwo high level APIs for inspecting and playing back decoded audio, and it is easily extendible to support \nmore sources, demuxers, decoders, and audio devices.\nCheck out the [documentation](https://github.com/audiocogs/aurora.js/wiki) to learn more about using and \nextending Aurora.\n## Demo\nWe have written several decoders using Aurora.js, whose demos you can find [here](http://audiocogs.org/codecs/)\nand whose source code can be found on our [Github](https://github.com/audiocogs/) page.\n## Authors\nAurora.js was written by [@jensnockert](https://github.com/jensnockert) and [@devongovett](https://github.com/devongovett) \nof [Audiocogs](https://github.com/audiocogs/).\n## Usage\nYou can use Aurora.js both in the browser, as well as in Node.js.  In the browser,\nyou can either download a prebuilt [release](https://github.com/audiocogs/aurora.js/releases)\nor use [browserify](https://github.com/substack/node-browserify) to build it into your own \napp bundle (see below for Node.js usage - it's the same for browserify).\n```html\n<script src=\"aurora.js\"></script>\n<script src=\"mp3.js\"></script>\n<!-- more codecs here -->\n```\nTo use Aurora.js in Node.js or a browserify build, you can install it from `npm`:\n    npm install av\nThen, require the module and codecs you need:\n```javascript\nvar AV = require('av');\nrequire('mp3');\n// more codecs here...\n```\nFor much more detailed information on how to use Aurora.js, check out the \n[documentation](https://github.com/audiocogs/aurora.js/wiki).\n## Building\nWe use [browserify](https://github.com/substack/node-browserify) to build Aurora.js.  To build Aurora.js \nfor the browser yourself, use the following commands:\n    npm install\n    make browser\nThis will place a built `aurora.js` file, as well as a source map in the `build/` directory.\nBy itself, Aurora will play LPCM, uLaw and aLaw files in a number of containers.\nBe "
+  }
+ },
+ "apps": []
+}

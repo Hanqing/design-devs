@@ -1,0 +1,166 @@
+{
+ "name": "Anthony Fu（antfu）",
+ "role": "Vitest、Slidev、VueUse、UnoCSS 作者 · Vue / Nuxt / Vite 核心团队 · Vercel / Nuxt · 日本",
+ "title": "Anthony Fu：做<em>让人愉快</em>的开发工具",
+ "dek": "TA 自称「狂热的开源魔法师（open sourceror）和设计工程师」，是 Vue、Nuxt、Vite 的核心团队成员，现在在 Vercel 做 Nuxt 相关工作。TA 发起的项目几乎每一个都在各自领域成了常用工具：测试框架 Vitest、给开发者用的幻灯片工具 Slidev（★4.9 万）、Vue 组合式工具集 VueUse（★2.2 万）、按需生成的原子化 CSS 引擎 UnoCSS（★1.9 万）、Mastodon 客户端 Elk、TypeScript 类型体操题库 Type Challenges，还维护着代码高亮 Shiki、Twoslash 和 ESLint Stylistic。TA 大学毕业后加入 NuxtLabs，后来搬到巴黎，2025 年又搬到日本，实现了「住在日本」的心愿。2026 年 10 月，TA 做了一款把注音假名直接画在字体里的日文字体 Furifont，帖子获得近 7 千个赞。",
+ "card": "Vitest、Slidev（★4.9 万）、VueUse、UnoCSS 作者；Vue / Nuxt / Vite 核心团队，Vercel / Nuxt，住在日本。",
+ "location": "日本",
+ "updated": "2026-10-23",
+ "tags": ["Vue", "Vite", "开发者工具", "开源", "设计工程"],
+ "links": [
+  {"label": "antfu.me", "url": "https://antfu.me"},
+  {"label": "项目列表", "url": "https://antfu.me/projects"},
+  {"label": "GitHub：antfu", "url": "https://github.com/antfu"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「Hey! I'm Anthony Fu, a fanatical open sourceror and design engineer.」",
+  "<strong>代表作：</strong>Vitest（★17,276）、Slidev（★49,181）、VueUse（★22,392）、UnoCSS（★18,985）、Elk、Type Challenges、Nuxt DevTools、Vite DevTools、Devframe、@antfu/eslint-config（★6,276）、antfu/skills（★6,006）、pulls.review、Furifont、汉兜 Handle。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 4.1 万、404 个公开仓库、近一年贡献 4,109 次；X 关注者约 6.2 万。",
+  "<strong>媒体：</strong>中文播客《No Coding Today》联合主持，YouTube 和哔哩哔哩直播写代码，生成艺术实验站 100.antfu.me。"
+ ],
+ "lead": "2025 年 4 月，Anthony 在博客上用英文和日文各写了一篇《Hello Tokyo!》。七年前第一次去日本，大阪、京都、北海道的旅行在 TA 心里种下了「有一天要住在日本」的种子；作为动画爱好者，TA 一直在看番时被动地学日语。大学最后一年，TA 的编程作品突然受到关注，把 TA 带进了开源世界；毕业后加入 NuxtLabs，又因此搬去巴黎。而远程工作的灵活性，最终让 TA 把那颗种子变成了现实。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开源作者、设计工程师"],
+     ["所在地", "日本（GitHub 写岐阜）"],
+     ["工作", "Vercel / Nuxt；此前 NuxtLabs"],
+     ["核心团队", "Vue、Nuxt、Vite"],
+     ["维护", "Shiki、Twoslash、ESLint Stylistic"],
+     ["技术栈", "TypeScript、Vue、Vite"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "Anthony 近两年的重心是<strong>开发者工具（DevTools）</strong>：Devframe 是一个与框架无关的 DevTools 基础，Vite DevTools 可以检查 Vite 打包和流水线的中间状态，Nuxt DevTools 帮你看清自己的 Nuxt 应用。2026 年 9 月起，Nuxt、Vue、Vite 三套 DevTools 终于「既正交又统一」，不必再把 Vue 或 Vite 的功能重复打包进 Nuxt DevTools。"},
+    {"p": "TA 也在把 AI 编程接入自己熟悉的工作方式：@antfu/skills 像 ESLint 配置一样，是一套从生态里精选的 Agent 技能包，通过 skills-npm 让 npm 包能自带技能或声明「技能依赖」；pulls.review 把 Pull Request 的改动按逻辑分组并给出摘要，在命令行里运行时还能调用本地 Agent 做分析。"},
+    {"note": "本页依据 antfu.me（首页、项目、博客、演讲）、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2018", "title": "第一次去日本", "text": "大阪、京都、北海道之旅，种下住在日本的愿望。"},
+     {"when": "2020 前后", "title": "进入开源", "text": "VueUse、Vitesse 模板、Vue 组合式 API 生态；之后陆续进入 Vue、Vite、Nuxt 核心团队。"},
+     {"when": "2021–2022", "title": "密集创作", "text": "Slidev、UnoCSS、Vitest、Type Challenges、Elk、汉兜。"},
+     {"when": "2023", "title": "巴黎", "text": "加入 NuxtLabs 后搬到巴黎；Nuxt DevTools。"},
+     {"when": "2024", "title": "Shiki 与生态", "text": "Shiki v1、ESLint Config Inspector；发起「赞助转发」倡议。"},
+     {"when": "2025–2026", "title": "日本与 DevTools", "text": "搬到日本；Vite DevTools、Devframe、antfu/skills、pulls.review、Furifont。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Slidev", "url": "https://sli.dev",
+     "meta": ["2021–", "Vue + Vite", "★4.9 万"],
+     "paras": [
+      "「Presentation slides for developers.」用 Markdown 写幻灯片，可以嵌入 Vue 组件、代码高亮和实时编辑的代码块，TA 自己的演讲都用它做。"
+     ],
+     "facts": [["GitHub", "★49,181"]]
+    }},
+    {"work": {
+     "name": "Vitest", "url": "https://vitest.dev",
+     "meta": ["2021–", "测试框架", "★1.7 万"],
+     "paras": [
+      "「Next generation testing framework powered by Vite.」与 Vite 共享配置和插件，兼容 Jest 的 API，如今是 VoidZero 工具链的一员。"
+     ]
+    }},
+    {"work": {
+     "name": "UnoCSS", "url": "https://unocss.dev",
+     "meta": ["2021–", "原子化 CSS", "★1.9 万"],
+     "paras": [
+      "「The instant on-demand Atomic CSS engine.」README 推荐先读 TA 的博客《Reimagine Atomic CSS》，了解它背后的故事。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["VueUse", "Vue 3 组合式工具函数合集（★22,392）"],
+      ["@antfu/eslint-config", "TA 的 ESLint 预设（★6,276）"],
+      ["pulls.review", "按逻辑分组 PR 改动并给出摘要"],
+      ["Furifont", "自带注音假名或罗马音的日文字体"],
+      ["汉兜 Handle", "汉字版 Wordle（★1,444）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://antfu.me", "paras": [
+     "个人网站极简：一段自我介绍，然后是博客、项目、演讲、播客、直播、笔记和照片。博客文章分中、英、日三种语言，Feed 里有 74 篇。项目页有一张「Yak Map」，演讲页列出了每场演讲的语言、地点、视频和幻灯片 PDF。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Vue + Vite，Netlify 托管"],
+      ["语言", "英文为主，部分中文和日文"],
+      ["内容", "博客、演讲、播客、照片"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-09-16", "title": "Pluggable, Extensible, and Playful DevTools", "url": "https://antfu.me/posts"},
+     {"date": "2026-08-25", "title": "Ecosystem Sponsorship Forwarding", "url": "https://antfu.me/posts"},
+     {"date": "2025-02-05", "title": "Move on to ESM-only", "url": "https://antfu.me/posts"},
+     {"date": "2025-01-07", "title": "Epoch Semantic Versioning", "url": "https://antfu.me/posts"},
+     {"date": "2024-03-16", "title": "Mental Health in Open Source", "url": "https://antfu.me/posts"}
+    ]},
+    {"quote": "A ship in harbor is safe, but that is not what ships are built for.", "cite": "Anthony Fu 的 GitHub 简介"},
+    {"p": "TA 的演讲《Make Tools People Love》总结了做开发者喜爱的工具的经验。TA 也公开谈过开源维护者的心理健康，并发起「赞助转发」：把自己收到的赞助的一部分转给依赖的上游项目。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["产出", "多个项目成为行业标准", "项目多，部分已归档或交给他人"],
+      ["设计", "开发体验和视觉都讲究", "个人偏好强（如 ESLint 预设）"],
+      ["社区", "中英日三语输出", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>为自己做工具，</strong>再分享出去。",
+     "<strong>把开发体验当成设计问题。</strong>",
+     "<strong>把赞助传给上游，</strong>让生态更健康。",
+     "<strong>把爱好变成项目：</strong>学日语催生了 Furifont。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Slidev", "url": "https://sli.dev", "why": "用 Markdown 做下一次技术分享。"},
+     {"name": "UnoCSS", "url": "https://unocss.dev", "why": "体验按需原子化 CSS。"},
+     {"name": "Furifont", "url": "https://furifont.antfu.me", "why": "看字体能做到什么。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读一篇 TA 的《Reimagine Atomic CSS》，然后在你的项目里试着关掉一个用不到的 CSS 框架功能。",
+ "sources": [
+  {"label": "Anthony Fu 的 X 个人资料", "url": "https://x.com/antfu7"},
+  {"label": "antfu.me", "url": "https://antfu.me"},
+  {"label": "Hello Tokyo!", "url": "https://antfu.me/posts/hello-tokyo"},
+  {"label": "Furifont", "url": "https://furifont.antfu.me"},
+  {"label": "GitHub：antfu", "url": "https://github.com/antfu"}
+ ]
+}

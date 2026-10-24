@@ -1,0 +1,159 @@
+{
+ "name": "Michael Tsai",
+ "role": "C-Command Software 独立 Mac 开发者 · SpamSieve、DropDMG、EagleFiler、ToothFairy 作者 · mjtsai.com 博客",
+ "title": "Michael Tsai：Mac 世界的<em>每日记录者</em>",
+ "dek": "他是新罕布什尔州的独立 Mac 开发者，经营 C-Command Software（版权年份从 2002 年起）。他的应用都是长年迭代的实用工具：垃圾邮件过滤器 SpamSieve、磁盘映像制作工具 DropDMG（2026 年 10 月刚发布 3.7）、文档归档与搜索工具 EagleFiler，以及一键连接 AirPods 等蓝牙设备的菜单栏工具 ToothFairy。他在 About 页上写，做独立开发之前，他为 MathScore（ALS）、MIT 计算机科学实验室的 IOA 项目、IDA、达特茅斯的 DEVLAB 和美国陆军寒区研究与工程实验室写过软件；他还出版免费的 Mac 电子杂志 ATPM。如今他最有影响力的是博客 mjtsai.com：几乎每天汇总并评论 Apple 生态的新闻、开发者讨论和 bug，还会持续更新旧文章，被许多 Mac 开发者当成每日必读。",
+ "card": "C-Command Software 独立 Mac 开发者；SpamSieve、DropDMG、EagleFiler、ToothFairy 作者；mjtsai.com 每日博客。",
+ "location": "美国新罕布什尔州",
+ "updated": "2026-10-23",
+ "tags": ["独立开发", "Mac", "博客", "Apple 生态", "实用工具"],
+ "links": [
+  {"label": "mjtsai.com 博客", "url": "https://mjtsai.com/blog/"},
+  {"label": "C-Command Software", "url": "https://c-command.com"},
+  {"label": "About（mjtsai.com）", "url": "https://mjtsai.com/about"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Mac Software Developer (@DropDMG, @EagleFiler, @SpamSieve, @ToothFairyMac)」。",
+  "<strong>代表作：</strong>SpamSieve、DropDMG、EagleFiler、ToothFairy；博客 mjtsai.com；电子杂志 ATPM。",
+  "<strong>关键数字：</strong>X 帖子约 2.5 万条（多为博客更新通知）；博客每天数篇，并标注「今日更新的旧文」。",
+  "<strong>早期经历：</strong>为 MathScore、MIT LCS（IOA）、IDA、达特茅斯 DEVLAB、美国陆军 CRREL 写过软件。"
+ ],
+ "lead": "mjtsai.com 的一篇典型文章是这样的：一个标题，比如《iPhone Duo and Safari》，然后是几段来自不同开发者、记者和论坛的原话引用，最后加上他自己一两句冷静的评论。更特别的是，他会持续回到旧文章追加更新，并每天在 X 上发一条「今日更新的文章」，比如 Arc 停服的消息被追加到他 2025 年那篇《Arc and Dia》里。这让他的博客像一部不断修订的 Apple 生态编年史。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立 Mac 开发者、博主、编辑"],
+     ["所在地", "美国新罕布什尔州"],
+     ["公司", "C-Command Software, LLC（2002–）"],
+     ["应用", "SpamSieve、DropDMG、EagleFiler、ToothFairy"],
+     ["早期经历", "MathScore、MIT LCS、IDA、Dartmouth DEVLAB、CRREL"],
+     ["出版", "ATPM（About This Particular Macintosh）电子杂志"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Michael 同时做两件事：<strong>维护几款长寿的 Mac 工具</strong>，以及<strong>记录 Apple 生态的日常</strong>。他的博客涵盖 macOS 和 iOS 新版本、WebKit 与隐私、App Store 政策、开发工具（比如给命令行和编程 Agent 用的 Xcode 项目）、帮助文档构建、以及各种「Apple 又弄坏了什么」的 bug 报告。"},
+    {"p": "这些文章大多以引用为主、评论为辅，但正是这种克制让它成为可靠的索引：想了解某个问题的来龙去脉，往往能在他的一篇不断更新的文章里找到所有相关链接。"},
+    {"note": "本页依据 mjtsai.com（博客与 About）、c-command.com 和 X 帖子整理，资料截至 2026 年 10 月。About 页内容较早，部分早期经历的时间未写明；网上另有一位同名的台湾政治人物，与本页无关。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "科研与教育软件", "text": "为 MathScore、MIT LCS 的 IOA 项目、IDA、达特茅斯 DEVLAB 和 CRREL 写软件。"},
+     {"when": "早年", "title": "ATPM", "text": "出版免费 Mac 电子杂志，写评测和每月专栏。"},
+     {"when": "2002–", "title": "C-Command Software", "text": "独立开发 Mac 应用。"},
+     {"when": "多年", "title": "mjtsai.com", "text": "坚持每日博客，汇总 Apple 生态新闻与讨论。"},
+     {"when": "2026", "title": "持续更新", "text": "DropDMG 3.7 等版本发布；博客每天更新。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SpamSieve", "url": "https://c-command.com/spamsieve/",
+     "meta": ["Mac", "垃圾邮件过滤"],
+     "paras": [
+      "为 Apple Mail 等邮件客户端提供本地的贝叶斯垃圾邮件过滤，是 C-Command 最知名的产品之一。"
+     ]
+    }},
+    {"work": {
+     "name": "DropDMG", "url": "https://c-command.com/dropdmg/",
+     "meta": ["Mac", "磁盘映像", "v3.7"],
+     "paras": [
+      "把文件和文件夹拖进去就能生成磁盘映像，常被 Mac 开发者用来打包分发应用。"
+     ]
+    }},
+    {"work": {
+     "name": "EagleFiler", "url": "https://c-command.com/eaglefiler/",
+     "meta": ["Mac", "文档归档"],
+     "paras": [
+      "把邮件、网页、PDF 等归档到普通文件夹里，并提供搜索和标签，数据始终是你能直接访问的文件。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他", "说明"],
+     "rows": [
+      ["ToothFairy", "菜单栏一键连接 AirPods 和蓝牙设备"],
+      ["mjtsai.com", "每日 Apple 生态博客，持续更新旧文"],
+      ["ATPM", "免费 Mac 电子杂志"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://mjtsai.com/blog/", "paras": [
+     "博客用 WordPress 搭建，有归档、标签云、热门文章和「最近更新」页面。最近一天的标题包括《WindowShade Redux》《Mastodon 5》《Building Mac App Help Books》《iOS 27.1》《Apple Music’s New Look》，信息密度极高。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "WordPress"],
+      ["节奏", "每天多篇"],
+      ["特色", "「Recently Updated」持续修订旧文"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-23", "title": "Building Mac App Help Books", "url": "https://mjtsai.com/blog/2026/10/23/building-mac-app-help-books/"},
+     {"date": "2026-10-22", "title": "iPhone Duo and Safari", "url": "https://mjtsai.com/blog/2026/10/22/iphone-duo-and-safari/"},
+     {"date": "2026-10-21", "title": "Apple Broke an Essential Presentation Feature of iPads", "url": "https://mjtsai.com/blog/2026/10/21/apple-broke-an-essential-presentation-feature-of-ipads/"},
+     {"date": "2026-10-20", "title": "Selection and Focus in Golden Gate", "url": "https://mjtsai.com/blog/2026/10/20/selection-and-focus-in-golden-gate/"}
+    ]},
+    {"p": "他的博客很少长篇大论，观点藏在选材里：什么值得记录，哪些问题被一再提起，哪些承诺没有兑现。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["持久", "应用与博客都坚持二十多年", "—"],
+      ["博客", "全面、可检索、持续修订", "以引用为主，个人观点较少"],
+      ["公开信息", "—", "个人履历介绍较旧"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>每天记录一点，几年后就是档案。</strong>",
+     "<strong>回头修订旧文，让它们一直有用。</strong>",
+     "<strong>工具类应用可以做一辈子。</strong>",
+     "<strong>引用原话，减少转述误差。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "mjtsai.com", "url": "https://mjtsai.com/blog/", "why": "订阅一个 Apple 生态日报。"},
+     {"name": "Recently Updated", "url": "https://mjtsai.com/blog/recently-updated/", "why": "看他如何持续修订旧文。"},
+     {"name": "SpamSieve", "url": "https://c-command.com/spamsieve/", "why": "一款老牌 Mac 工具。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "开一个只给自己看的「每日记录」，每天写下一条你学到或遇到的技术问题，三个月后回头翻一翻。",
+ "sources": [
+  {"label": "Michael Tsai 的 X 个人资料", "url": "https://x.com/mjtsai"},
+  {"label": "mjtsai.com 博客", "url": "https://mjtsai.com/blog/"},
+  {"label": "About（mjtsai.com）", "url": "https://mjtsai.com/about"},
+  {"label": "C-Command Software", "url": "https://c-command.com"}
+ ]
+}

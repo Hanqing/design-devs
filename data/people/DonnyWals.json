@@ -1,0 +1,158 @@
+{
+ "name": "Donny Wals",
+ "role": "iOS 工程师 · donnywals.com 博主 ·《Practical Combine》《Practical Core Data》《Practical Swift Concurrency》作者 · Maxine 开发者 · 荷兰",
+ "title": "Donny Wals：<em>实用</em>地学 Swift",
+ "dek": "他住在荷兰阿姆斯特丹一带，是 iOS 工程师、博主和作者，自称「独立创业者」（solopreneur）。他的网站 donnywals.com 的目标是「通过实用的教程帮你学 Swift 和 iOS 开发」，长期稳定更新；他写了三本以「Practical」开头的书：《Practical Combine》《Practical Core Data》和《Practical Swift Concurrency》，也做工作坊和大会演讲。他自己的应用 Maxine 是一个记录最大重量（one rep max）的健身应用，他在健身房里训练时也拿它当 AI Agent 工作流的试验场。2026 年他写了好几篇关于「Agent 式 iOS 开发」的文章：给 Agent 项目搭交付流水线、让 Agent 构建并运行应用、以及 AI 驱动开发中「人的触感」为什么重要。业余时间他弹吉他，最近还迷上了《万智牌》。",
+ "card": "iOS 工程师、博主，《Practical Combine》《Practical Core Data》《Practical Swift Concurrency》作者，荷兰。",
+ "location": "荷兰阿姆斯特丹一带",
+ "updated": "2026-10-23",
+ "tags": ["Swift", "Swift 并发", "Core Data", "技术写作", "Agent 开发"],
+ "links": [
+  {"label": "donnywals.com", "url": "https://www.donnywals.com"},
+  {"label": "Donny 的书", "url": "https://www.donnywals.com/books/"},
+  {"label": "GitHub：donnywals", "url": "https://github.com/donnywals"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「My goal is to help you learn Swift and iOS Development through practical tutorials and more.」",
+  "<strong>代表作：</strong>《Practical Combine》《Practical Core Data》《Practical Swift Concurrency》、donnywals.com 教程、Maxine 健身应用、SwiftUI 属性包装器演讲示例、swiftui-view-redraw。",
+  "<strong>关键数字：</strong>X 关注者约 4.3 万、推文约 3.3 万条。",
+  "<strong>代词：</strong>X 简介自述 he/him。"
+ ],
+ "lead": "他在《Setting up a delivery pipeline for your agentic iOS projects》开头讲了一个场景：有一次他的应用在健身房训练到一半崩溃了。他上传崩溃报告，给 AI Agent 一些上下文，然后回去继续做下一组。等他练完，一个 Pull Request 已经在等他；他审阅、合并，没过多久手机上就装上了修好的 TestFlight 版本。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "iOS 工程师、作者、独立创业者"],
+     ["所在地", "荷兰阿姆斯特丹一带"],
+     ["产品", "书、工作坊、Maxine 应用"],
+     ["技术栈", "Swift、SwiftUI、Core Data、Swift 并发"],
+     ["爱好", "吉他、健身、《万智牌》"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Donny 一边<strong>写书和教程</strong>，一边<strong>做自己的应用</strong>。他的 X 帖子常是一条 Swift 并发小知识：<code>AsyncStream</code> 只该有一个消费者，两个任务同时迭代会各自拿到一部分值；actor 里每个 <code>await</code> 都是其他调用可以插队的地方，<code>await</code> 之前读到的状态之后可能已经变了；同时做两件事时 <code>async let</code> 往往就够了，不一定需要 Task Group。"},
+    {"p": "2026 年秋天，他在把 Maxine 适配新的 iPhone Duo，结果「走上了一百万条支线任务」，顺手改进了很多界面细节。他的经验是：不能只用 Xcode 27 重新编译然后祈祷一切正常。他也在 SwiftLeeds 大会上和大家交流 Agent 工作流。"},
+    {"note": "本页依据 donnywals.com（首页与书籍页）、GitHub 资料和 X 帖子整理，资料截至 2026 年 10 月。书的出版年份未逐一核实；家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2015–2019", "title": "博客起步", "text": "为博文配套示例项目：自定义集合视图布局、URLSession 多部分请求、单元测试入门。"},
+     {"when": "此后", "title": "三本书", "text": "《Practical Combine》《Practical Core Data》《Practical Swift Concurrency》。"},
+     {"when": "2021–2022", "title": "SwiftUI 深挖", "text": "视图重绘与 diff 行为、Core Data 与 SwiftUI、SwiftUI 属性包装器演讲。"},
+     {"when": "2024–", "title": "Maxine", "text": "推出最大重量记录应用。"},
+     {"when": "2026", "title": "Agent 式开发", "text": "交付流水线、FlowDeck、AI 开发中的人的触感；适配 iPhone Duo。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Practical Swift Concurrency", "url": "https://www.donnywals.com/books/",
+     "meta": ["书", "Swift 并发"],
+     "paras": [
+      "系统讲解 async/await、actor、任务与结构化并发，并随 Swift 版本更新。"
+     ]
+    }},
+    {"work": {
+     "name": "Practical Core Data", "url": "https://www.donnywals.com/books/",
+     "meta": ["书", "Core Data"],
+     "paras": [
+      "「introduces you to all the essentials to get you up and running with the framework」面向中高级开发者。"
+     ]
+    }},
+    {"work": {
+     "name": "Practical Combine", "url": "https://www.donnywals.com/books/",
+     "meta": ["书", "Combine"],
+     "paras": [
+      "面向想深入了解 Apple Combine 框架的中高级开发者。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Maxine", "最大重量（1RM）记录应用"],
+      ["swiftui-view-redraw", "演示 SwiftUI 重绘与 diff 行为"],
+      ["SwiftUIPropertyWrapperTalk", "SwiftUI 属性包装器演讲示例"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://www.donnywals.com", "paras": [
+     "donnywals.com 是一个 WordPress 网站，标题是「Swift and iOS development tutorials, books, and workshops」。首页开头「Hi, my name is Donny」，下面是最新文章摘要；文章紧跟 Xcode 和 Swift 的新版本，也有越来越多关于 AI Agent 的实践。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "WordPress，Cloudflare"],
+      ["内容", "教程、书、工作坊"],
+      ["节奏", "每月一到数篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-06-09", "title": "Installing simulator runtimes from the command line", "url": "https://www.donnywals.com/installing-simulator-runtimes-from-the-command-line/"},
+     {"date": "2026-04-17", "title": "How I use FlowDeck to let my AI agent build and run my apps", "url": "https://www.donnywals.com/how-i-use-flowdeck-to-let-my-ai-agent-build-and-run-my-apps/"},
+     {"date": "2026-02-16", "title": "Setting up a delivery pipeline for your agentic iOS projects", "url": "https://www.donnywals.com/setting-up-a-delivery-pipeline-for-your-agentic-ios-projects/"},
+     {"date": "2026-02-06", "title": "The importance of human touch in AI-driven development", "url": "https://www.donnywals.com"}
+    ]},
+    {"quote": "Every `await` in an actor is a spot where other calls can run first.", "cite": "Donny Wals，X，2026-10"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "讲解清楚、贴近实战", "—"],
+      ["深度", "并发与持久化方面很扎实", "—"],
+      ["开源", "—", "GitHub 多为示例项目"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>用自己的应用验证新工作流。</strong>",
+     "<strong>把一个难点写成一本实用的书。</strong>",
+     "<strong>每条小知识配一个具体例子。</strong>",
+     "<strong>AI 再强，也要保留人的判断。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Agent 交付流水线", "url": "https://www.donnywals.com/setting-up-a-delivery-pipeline-for-your-agentic-ios-projects/", "why": "崩溃到修复的自动化。"},
+     {"name": "Donny 的书", "url": "https://www.donnywals.com/books/", "why": "系统学 Swift 并发。"},
+     {"name": "donnywals.com", "url": "https://www.donnywals.com", "why": "跟上 Xcode 新版本。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "在你的代码里找一个 actor 方法，检查 await 前读到的状态在 await 之后是否还可靠。",
+ "sources": [
+  {"label": "Donny Wals 的 X 个人资料", "url": "https://x.com/DonnyWals"},
+  {"label": "donnywals.com", "url": "https://www.donnywals.com"},
+  {"label": "donnywals.com：Books", "url": "https://www.donnywals.com/books/"},
+  {"label": "GitHub：donnywals", "url": "https://github.com/donnywals"}
+ ]
+}

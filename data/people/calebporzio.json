@@ -1,0 +1,162 @@
+{
+ "name": "Caleb Porzio",
+ "role": "Alpine.js、Livewire、Flux UI 作者 · Sponsorware 提出者 · 播客主持人 · 布法罗",
+ "title": "Caleb Porzio：靠 <em>GitHub Sponsors</em> 赚到一百万美元",
+ "dek": "他住在纽约州布法罗，自称「worker on the web」。他做了两个在 Laravel 和前端圈极受欢迎的框架：Livewire 让你不离开 PHP 就能构建动态界面（★2.4 万），Alpine.js 是一个「直接写在标记里」的轻量 JavaScript 框架（★3.2 万）。他曾在 Laravel 咨询公司 Tighten 工作，后来写下《I'm out of a job…》开始全职做开源，并提出了「Sponsorware」：新包先只给 GitHub 赞助者用，达到赞助目标后再完全开源。这个办法让他的收入在两天里多了 1.1 万美元，后来他在 GitHub Sponsors 上累计收入超过一百万美元。现在他在做 Livewire 官方组件库 Flux，并主持播客 No Plans To Merge 和已有六百多期的 Notes on Work。",
+ "card": "Alpine.js（★3.2 万）、Livewire（★2.4 万）、Flux UI、Sushi 作者；Sponsorware 提出者，布法罗。",
+ "location": "美国纽约州布法罗",
+ "updated": "2026-10-23",
+ "tags": ["Laravel", "前端框架", "开源可持续", "UI 组件", "播客"],
+ "links": [
+  {"label": "calebporzio.com", "url": "https://calebporzio.com"},
+  {"label": "Flux", "url": "https://fluxui.dev"},
+  {"label": "Alpine.js", "url": "https://alpinejs.dev"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「I made @Alpine_JS & @LaravelLivewire. I record: @noplanstomerge & Notes on Work.」",
+  "<strong>代表作：</strong>Alpine.js（★31,992）、Livewire（★23,591，v4）、Flux UI、Sushi（★3,007）、Parental（Tighten）、Better PHPUnit、GitDown、Sprout。",
+  "<strong>关键数字：</strong>GitHub Sponsors 累计超过 100 万美元；Notes on Work 播客 630+ 期；X 关注者约 5.3 万。",
+  "<strong>播客：</strong>No Plans To Merge、Notes on Work、Building Livewire；早年 Twenty Percent Time（已停）。"
+ ],
+ "lead": "Sushi 的 README 顶部写着：「这个包是 Sponsorware。」它最初只对 GitHub 上的赞助者开放，直到赞助人数达到 75 人才完全开源。Caleb 后来写了一篇文章介绍这个模式：一个小小的开源包，两天里让他的年收入多了 1.1 万美元。几年后，他又写了一篇：《I just crossed $1 million on GitHub Sponsors》。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "开源作者、独立开发者、播客主持人"],
+     ["所在地", "美国纽约州布法罗"],
+     ["经历", "Tighten（Laravel 咨询公司）→ 全职开源"],
+     ["作品", "Livewire、Alpine.js、Flux、Sushi"],
+     ["技术栈", "PHP / Laravel、JavaScript、Tailwind CSS"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Caleb 现在的重心是 <strong>Flux</strong>：Livewire 的官方组件库，「为 Livewire 界面专门打造的世界级组件」，灵活、好用、无障碍，暗色模式和移动端都做好了，基础组件免费，进阶组件付费。他几乎每周都会更新一个新组件或细节：日期时间选择器、卡片、电话输入、饼图、可在隐藏标签页暂停的 Toast 计时器、给 AI 读的文档。"},
+    {"p": "他对细节很较真：他总结过一条排版规则：单行副标题和正文之间用 mt-1，多行的用 mt-2，否则不是太松就是太挤。最近他还用 AI 搭了一个小编辑器，逐个场景、精确到毫秒地用提示词生成 Flux 的宣传动画。他也在考虑要不要做一个 React 版的 Flux。"},
+    {"note": "本页依据 calebporzio.com（文章、项目、演讲）、fluxui.dev、Notes on Work、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。收入数字为本人公开。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2016–2018", "title": "Tighten 时期", "text": "写 Vue、Laravel 测试和 VS Code 文章；Better PHPUnit、Parental、Laravel Onboard。"},
+     {"when": "2019", "title": "Livewire", "text": "从「Laravel 版 Phoenix LiveView」的概念验证出发；在 Laracon US 2019 发布 Livewire。"},
+     {"when": "2019–2020", "title": "全职开源与 Alpine", "text": "离开工作全职开源；发布 Alpine.js；提出 Sponsorware，Sushi 等包先给赞助者。"},
+     {"when": "此后", "title": "百万美元", "text": "GitHub Sponsors 年收入破 10 万美元，后来累计超过 100 万美元。"},
+     {"when": "2024–2026", "title": "Flux 与 Livewire v4", "text": "发布 Flux 组件库；Livewire v4；持续录播客。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Livewire", "url": "https://livewire.laravel.com",
+     "meta": ["2019–", "PHP / Laravel", "★2.4 万"],
+     "paras": [
+      "「A full-stack framework for Laravel that takes the pain out of building dynamic UIs.」用 PHP 写组件，自动和前端同步状态。他写过一篇深度文章《How Livewire works》，以及《Livewire isn’t actually “live”》。"
+     ]
+    }},
+    {"work": {
+     "name": "Alpine.js", "url": "https://alpinejs.dev",
+     "meta": ["2019–", "JavaScript", "★3.2 万"],
+     "paras": [
+      "「A rugged, minimal framework for composing JavaScript behavior in your markup.」不需要构建步骤，直接在 HTML 属性里写交互，常被称作「现代网页的 jQuery」。"
+     ]
+    }},
+    {"work": {
+     "name": "Flux", "url": "https://fluxui.dev",
+     "meta": ["2024–", "Livewire UI 组件"],
+     "paras": [
+      "「The official Livewire component library. Built by the folks behind Livewire and Alpine.」网站本身就用 Alpine 和 Livewire 构建。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Sushi", "Eloquent 缺失的「数组」驱动，第一个 Sponsorware（★3,007）"],
+      ["Better PHPUnit", "VS Code 里的 PHPUnit 测试运行器"],
+      ["Parental", "给 Eloquent 加上单表继承（Tighten）"],
+      ["Sprout", "零依赖、把 JSON 变成响应式 DOM 的库"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://calebporzio.com", "paras": [
+     "个人网站以文章为主，标题直白、有故事感：《I'm out of a job...》《Making $100k As An Employee Versus Being Self-Employed》《Introducing Sponsorware》。Projects 页列出开源项目、播客、课程（Make VS Code Awesome）和「好玩的小项目」，比如 Laravel 贴纸大赛。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Cloudflare"],
+      ["内容", "开源商业化、Laravel、前端"],
+      ["播客", "Notes on Work 几乎每天更新"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "", "title": "I just crossed $1 million on GitHub Sponsors", "url": "https://calebporzio.com"},
+     {"date": "", "title": "I'm out of a job...", "url": "https://calebporzio.com"},
+     {"date": "", "title": "Introducing Sponsorware", "url": "https://calebporzio.com"},
+     {"date": "", "title": "How Livewire works (a deep dive)", "url": "https://calebporzio.com"}
+    ]},
+    {"quote": "I'm trying to achieve perfection with Flux. Sometimes that's a ton of AI and sometimes it's a pen, pad, and some handwritten notes.", "cite": "Caleb Porzio，X，2026-09"},
+    {"p": "他不在乎「什么该手做、什么该交给 AI」的争论，只关心结果能不能做到最好。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["开源", "两个主流框架", "Livewire 与 Laravel 生态强绑定"],
+      ["商业", "开源可持续的成功案例", "Flux 进阶组件需付费"],
+      ["表达", "坦诚分享收入和过程", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>开源也能是一门生意：</strong>Sponsorware。",
+     "<strong>少写 JavaScript：</strong>后端也能做动态界面。",
+     "<strong>公开数字，帮助别人。</strong>",
+     "<strong>把排版直觉总结成规则。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Alpine.js", "url": "https://alpinejs.dev", "why": "不用构建，直接在 HTML 里写交互。"},
+     {"name": "Flux", "url": "https://fluxui.dev", "why": "看看「终结所有卡片的卡片」。"},
+     {"name": "Introducing Sponsorware", "url": "https://calebporzio.com", "why": "开源变现的一种思路。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "如果你有一个别人在用的开源项目，想一想：你愿意为哪一个新功能设定一个「赞助解锁」目标？",
+ "sources": [
+  {"label": "Caleb Porzio 的 X 个人资料", "url": "https://x.com/calebporzio"},
+  {"label": "calebporzio.com", "url": "https://calebporzio.com"},
+  {"label": "Flux", "url": "https://fluxui.dev"},
+  {"label": "Notes on Work", "url": "https://notesonwork.transistor.fm/"},
+  {"label": "GitHub：livewire/livewire", "url": "https://github.com/livewire/livewire"},
+  {"label": "GitHub：alpinejs/alpine", "url": "https://github.com/alpinejs/alpine"}
+ ]
+}

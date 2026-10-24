@@ -1,0 +1,163 @@
+{
+ "name": "Paul Frazee",
+ "role": "Bluesky 应用团队负责人 · AT Protocol 联合作者 · Beaker Browser 作者 · 前 Secure Scuttlebutt、Dat · 奥斯汀",
+ "title": "Paul Frazee：<em>去中心化</em>，但要实用",
+ "dek": "他住在德州奥斯汀，是 Bluesky 的软件工程师，带领团队开发 Bluesky 社交应用（★1.8 万），常年和 React Native 打交道；他也是 Bluesky 底层协议 AT Protocol 的联合作者。在那之前，他是点对点社交网络 Secure Scuttlebutt 的早期开发者之一，主要做应用和开发体验（Patchwork 客户端）；之后创造了点对点网页浏览器 Beaker Browser（★6.7 千），深度参与 Dat / Hypercore 协议的开发；再之后，他把另一个分布式社交网络 CTZN 的整个开发过程都做成了直播。2022 年底 Beaker 正式归档，他说希望在 Bluesky 继续这个使命。他的个人简介最后一句是：「Paul 没有为这些事受过任何训练。」",
+ "card": "Bluesky 应用团队负责人、AT Protocol 联合作者；Beaker Browser 作者，前 Secure Scuttlebutt，奥斯汀。",
+ "location": "美国德州奥斯汀",
+ "updated": "2026-10-23",
+ "tags": ["Bluesky", "AT Protocol", "去中心化", "React Native", "点对点网络"],
+ "links": [
+  {"label": "pfrazee.com", "url": "https://pfrazee.com"},
+  {"label": "AT Protocol", "url": "https://atproto.com"},
+  {"label": "Bluesky", "url": "https://bsky.app/profile/pfrazee.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「Paul was not trained for any of this.」",
+  "<strong>代表作：</strong>Bluesky 社交应用（★18,351，团队负责人）、AT Protocol（★9,710，联合作者）、Beaker Browser（★6,736）、Patchwork（★3,571）、CTZN、crdt_notes（★1,056）、vitra、http-template-literal、base-emoji。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 2.5 千、近一年贡献 5,275 次；X 关注者约 9.1 千，现主要在 Bluesky 发帖。",
+  "<strong>经历：</strong>Secure Scuttlebutt → Beaker Browser / Dat → CTZN → Bluesky。"
+ ],
+ "lead": "2026 年 2 月，他写了《Practical Decentralization》：「去中心化的意义，是保障个人和社区在互联网上的权利。要做到这一点，是在实用和理想之间走钢丝。」两年前，他写过一篇《为什么 Bluesky 不是点对点网络？》。一个做了多年点对点浏览器的人，亲自解释为什么新系统不再走那条路，这本身就很能说明他的思考方式。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "软件工程师、协议设计者"],
+     ["所在地", "美国德州奥斯汀"],
+     ["工作", "Bluesky（应用团队负责人）"],
+     ["此前", "Secure Scuttlebutt、Beaker Browser、Dat / Hypercore、CTZN"],
+     ["开源", "Bluesky social-app、atproto、Beaker"],
+     ["技术栈", "TypeScript、React Native、JavaScript"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Paul 带领团队做 <strong>Bluesky 的 Web、iOS 和 Android 应用</strong>，同时参与 AT Protocol 的设计。据维基百科，Bluesky 2019 年起源于 Twitter 的一个研究项目，2021 年独立，2023 年 2 月以邀请制上线，2024 年 2 月开放注册；它是 AT Protocol 的参考实现，主打可组合的体验和「算法市场」：用户可以选择或创建自己的信息流、审核与标签服务。"},
+    {"p": "他的博客解释协议设计的取舍：为什么 Bluesky 的富文本用「facets」，为什么 AT Protocol 不用 RDF，如何编写 Lexicon（协议的模式定义）；2025 年底的《Atmospheric Computing》则展望了建立在开放协议上的一整套应用。"},
+    {"note": "本页依据 pfrazee.com（博客与关于页）、维基百科 Bluesky 条目、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他已基本转到 Bluesky 发帖，X 上内容较旧。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012–2014", "title": "早期实验", "text": "local.js 让 Ajax 指向本地代码和 Web Worker；CRDT 笔记。"},
+     {"when": "约 2014–2016", "title": "Secure Scuttlebutt", "text": "早期开发者，做 Patchwork 等应用和开发体验。"},
+     {"when": "2016–2022", "title": "Beaker Browser", "text": "点对点浏览器；参与 Dat / Hypercore 协议。"},
+     {"when": "2021–2022", "title": "CTZN 与 vitra", "text": "直播开发分布式社交网络 CTZN；用智能合约做协作数据库。"},
+     {"when": "约 2022–", "title": "Bluesky", "text": "加入 Bluesky，联合设计 AT Protocol；Beaker 于 2022 年 12 月归档。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "AT Protocol", "url": "https://atproto.com",
+     "meta": ["2022–", "TypeScript", "★9.7 千"],
+     "paras": [
+      "「Social networking technology created by Bluesky」账号可迁移、数据可移植、信息流和审核可组合的开放社交协议。"
+     ]
+    }},
+    {"work": {
+     "name": "Bluesky 社交应用", "url": "https://github.com/bluesky-social/social-app",
+     "meta": ["React Native", "Web / iOS / Android", "★1.8 万"],
+     "paras": [
+      "「The Bluesky Social application for Web, iOS, and Android」一套代码覆盖三个平台。"
+     ],
+     "facts": [["GitHub", "★18,351"]]
+    }},
+    {"work": {
+     "name": "Beaker Browser", "url": "https://github.com/beakerbrowser/beaker",
+     "meta": ["2016–2022", "Electron", "★6.7 千"],
+     "paras": [
+      "「An experimental peer-to-peer Web browser」可以直接在浏览器里创建和托管点对点网站；归档时他写了一份复盘。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Patchwork", "基于 Secure Scuttlebutt 的去中心化消息应用"],
+      ["crdt_notes", "关于 CRDT 的笔记（★1,056）"],
+      ["http-template-literal", "「以 TBL 本意的方式」发 HTTP 请求"],
+      ["base-emoji", "把二进制数据输出为 emoji"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://pfrazee.com", "paras": [
+     "个人网站叫「Paul's Dev Notes」，副标题是「关于在 Bluesky 工作的随手开发笔记」，用 Next.js + Tailwind 搭建、托管在 Vercel 上，按 atproto 和 bsky 两个标签分类。2026 年初他还让自己在 Leaflet（基于 atproto 的写作平台）上的文章同步显示到个人博客。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel"],
+      ["主题", "协议设计与产品取舍"],
+      ["社交", "Bluesky 为主"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-02-25", "title": "Practical Decentralization", "url": "https://pfrazee.com/blog"},
+     {"date": "2025-12-31", "title": "Atmospheric Computing", "url": "https://pfrazee.com/blog"},
+     {"date": "2025-03-27", "title": "Guidance on Authoring Lexicons", "url": "https://pfrazee.com/blog"},
+     {"date": "2024-01-21", "title": "Why isn't Bluesky a peer-to-peer network?", "url": "https://pfrazee.com/blog"},
+     {"date": "2024-01-18", "title": "Why not RDF in the AT Protocol?", "url": "https://pfrazee.com/blog"}
+    ]},
+    {"quote": "The point of decentralization is to guarantee the rights of individuals and communities on the Internet.", "cite": "Paul Frazee，《Practical Decentralization》"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["经验", "十多年去中心化系统实践", "—"],
+      ["产品", "把协议做成大众应用", "去中心化程度常被讨论"],
+      ["写作", "清楚解释设计取舍", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>在理想和实用之间找平衡。</strong>",
+     "<strong>失败的项目也写复盘。</strong>",
+     "<strong>公开解释每个设计取舍。</strong>",
+     "<strong>没受过训练也能做出协议。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "pfrazee.com", "url": "https://pfrazee.com/blog", "why": "读《Why isn't Bluesky a peer-to-peer network?》。"},
+     {"name": "AT Protocol", "url": "https://atproto.com", "why": "了解开放社交协议。"},
+     {"name": "Bluesky 应用源码", "url": "https://github.com/bluesky-social/social-app", "why": "看一个大型 React Native 应用。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读《Practical Decentralization》，然后想一想：你常用的应用里，哪些权利是你真正拥有的？",
+ "sources": [
+  {"label": "Paul Frazee 的 X 个人资料", "url": "https://x.com/pfrazee"},
+  {"label": "pfrazee.com：About", "url": "https://pfrazee.com/about"},
+  {"label": "维基百科：Bluesky", "url": "https://en.wikipedia.org/wiki/Bluesky"},
+  {"label": "GitHub：pfrazee", "url": "https://github.com/pfrazee"},
+  {"label": "GitHub：bluesky-social/atproto", "url": "https://github.com/bluesky-social/atproto"}
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "name": "Andy Matuschak",
+ "role": "应用研究者 · 思维工具（tools for thought）· Quantum Country、Orbit · 前 Apple iOS 工程师、Khan Academy 研发负责人",
+ "title": "Andy Matuschak：让人能<em>想出以前想不出的东西</em>",
+ "dek": "他曾在 Apple 参与构建 iOS，后来在 Khan Academy 领导研发。2019 年起，他靠 Patreon 社区资助独立做研究，方向是「思维工具」：能彻底改变人能想什么、能做什么的环境。他和 Michael Nielsen 合作的量子计算教材 Quantum Country 发明了「记忆媒介」，在文章里嵌入间隔重复的复习题，让读者真正记住关键细节；他把这套机制做成开源平台 Orbit。他公开的「常青笔记」影响了一整代笔记工具。2025 年底起，他处于「准学术休假」中，帮忙做 Pico，「一个人类注意力的温室」。",
+ "card": "思维工具研究者；Quantum Country、Orbit（★1.8 千）、常青笔记；前 Apple iOS 工程师、Khan Academy 研发负责人，旧金山。",
+ "location": "美国旧金山",
+ "updated": "2026-10-23",
+ "tags": ["思维工具", "人机交互", "记忆与阅读", "研究", "原型"],
+ "links": [
+  {"label": "andymatuschak.org", "url": "https://andymatuschak.org"},
+  {"label": "Quantum Country", "url": "https://quantum.country"},
+  {"label": "Orbit", "url": "https://withorbit.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I’m an applied researcher, focused on creating user interfaces that expand what people can think and do.」",
+  "<strong>代表作：</strong>Quantum Country（与 Michael Nielsen）、Orbit 间隔重复平台（★1,837）、《How can we develop transformative tools for thought?》、常青笔记、note-link-janitor（★858）、Scrying Pen、Obsidian 交互式音频转录插件。",
+  "<strong>资助：</strong>2019 年起由 Patreon 社区独立资助。",
+  "<strong>关键数字：</strong>X 关注者约 6.3 万；GitHub 近一年贡献 2,519 次。"
+ ],
+ "lead": "Andy 在主页上写了一个很大胆的目标：他想创造「外星级的认知和创造能力」，让它们在今天的我们看来，就像现代视觉特效师在洞穴画家眼里一样神奇。他的方法却很朴素：做原型，自己用，公开写下观察。2026 年 9 月，他做了一个「打印机朋友」，把口述内容快速转成热敏纸小条，用来做卡片分类、记录待办和在书页间夹笔记。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "应用研究者、界面设计师、工程师"],
+     ["所在地", "美国旧金山"],
+     ["经历", "Apple（参与构建 iOS）→ Khan Academy 研发负责人 → 独立研究（2019–）→ Pico（2025 年底起）"],
+     ["研究方向", "记忆、阅读、注意力；增强书籍"],
+     ["代表作", "Quantum Country、Orbit、常青笔记、论文《How can we develop transformative tools for thought?》"],
+     ["技术栈", "TypeScript、Swift、Objective-C、React Native"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "他目前的重点是一本<strong>增强书籍</strong>：主动帮助读者理解、记住和运用读到的内容。Quantum Country 是这个方向的第一个成果：读者边读边答题，答案会按间隔重复的节奏在之后几天、几周再出现。Orbit 把这种「记忆媒介」变成任何作者都能用的平台。"},
+    {"p": "他的实验大多在 X 上直播：给荧光笔编程（绿色标注引文就自动找出并打印论文，橙色标注论断就打印一份质疑性的事实核查）；把论文剪成海报，探索「阅读痕迹」更奇特的呈现方式；给 Obsidian 做可编辑的交互式音频转录。"},
+    {"note": "本页依据 andymatuschak.org、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他在 Apple 和 Khan Academy 的具体年份未在主页写明。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "Apple 时期", "title": "构建 iOS", "text": "在 Apple 参与 iOS 的开发。"},
+     {"when": "2014", "title": "加入 Khan Academy", "text": "用一个可交互的小应用接受 offer；后来领导研发。"},
+     {"when": "2015", "title": "Mega-Controller 演讲", "text": "「Let’s Play: Refactor the Mega-Controller」在多个 iOS 会议上演讲，演示如何拆解臃肿的视图控制器。"},
+     {"when": "2019", "title": "独立研究与 Quantum Country", "text": "开始靠 Patreon 独立研究；与 Michael Nielsen 发布 Quantum Country 和思维工具长文。"},
+     {"when": "2020–2022", "title": "Orbit", "text": "开源 Orbit 平台；2022 年设计新版记忆媒介原型。"},
+     {"when": "2025–2026", "title": "Pico", "text": "2025 年底开始「准学术休假」，帮忙做 Pico；持续发布阅读与注意力原型。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Quantum Country", "url": "https://quantum.country",
+     "meta": ["2019", "与 Michael Nielsen", "记忆媒介"],
+     "paras": [
+      "一本量子计算教材，同时也是一个实验：在正文里嵌入复习卡片，用间隔重复帮读者把关键概念「真正记住」。它是「mnemonic medium」概念的首个完整实现。"
+     ]
+    }},
+    {"work": {
+     "name": "Orbit", "url": "https://withorbit.com",
+     "meta": ["2020–", "TypeScript", "★1.8 千"],
+     "paras": [
+      "「An experimental platform for publishing and engaging with small tasks repeatedly over time.」短期目标是支持记忆媒介；更抽象地说，它想探索「可编程的注意力」。"
+     ]
+    }},
+    {"work": {
+     "name": "常青笔记（Evergreen notes）", "url": "https://notes.andymatuschak.org",
+     "meta": ["公开笔记", "工作笔记"],
+     "paras": [
+      "他把自己的研究笔记公开在网上：原子化、相互链接、不断修订。双向链接、「笔记应当随时间演化」等观念通过这些笔记传遍了 Roam、Obsidian 等工具的用户圈。他还写过 note-link-janitor 脚本，自动为 Markdown 笔记生成反向链接。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Scrying Pen", "实时实现 SketchRNN，墨迹同时伸向过去和未来（2018）"],
+      ["refactor-the-mega-controller", "配套演讲的 Swift 重构示例（★448）"],
+      ["interactive-transcripts", "Obsidian 里可编辑的交互式音频转录（2026）"],
+      ["Printer Friend", "把语音快速转成热敏纸条的小设备（2026）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://andymatuschak.org", "paras": [
+     "主页只有三段话：他是谁、他相信什么、他靠什么生活。邮箱入口改成了一个说明页，因为他收到了太多由 Agent 群发的「个性化」推广邮件。",
+     "更多内容在他的公开笔记和 Patreon 研究日志里。博客 RSS 2026 年只有一篇：《Apps and programming: two accidental tyrannies》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js"],
+      ["结构", "三段自述 + 订阅"],
+      ["延伸", "公开笔记、Patreon、X、Bluesky"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-03-03", "title": "Apps and programming: two accidental tyrannies", "url": "https://andymatuschak.org"},
+     {"date": "2019", "title": "How can we develop transformative tools for thought?", "url": "https://numinous.productions/ttft/"}
+    ]},
+    {"quote": "I want to produce alien cognitive and creative powers—as wondrous and magical to us today as a modern visual effects artist might seem to a cave painter.", "cite": "Andy Matuschak，andymatuschak.org"},
+    {"p": "他对 AI 的态度复杂：数学研究被 AI 冲击时他感到忧虑，看到一次性丢出数百个结果的做法，他觉得有一种「终结感」和丑陋。他也在思考 Illich 的「欢宴工具」：技术应当优先服务个人和本地的自主，而不是只能由中心控制。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["思想", "提出并推广记忆媒介、常青笔记", "—"],
+      ["工程", "Apple 级别的界面工程功底", "—"],
+      ["产出", "原型与研究笔记持续公开", "成果多为原型，少有大规模产品"],
+      ["资助", "社区独立资助，研究自由", "依赖赞助者"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把记忆设计进阅读：</strong>读完就忘不是读者的错。",
+     "<strong>公开你的工作笔记：</strong>思考的过程也有价值。",
+     "<strong>用原型提问：</strong>先做出来，再看它让你想到什么。",
+     "<strong>目标可以很大：</strong>扩展人类能想的东西。",
+     "<strong>保护注意力：</strong>连主页上的邮箱都可以收起来。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Quantum Country", "url": "https://quantum.country", "why": "亲身体验记忆媒介。"},
+     {"name": "How can we develop transformative tools for thought?", "url": "https://numinous.productions/ttft/", "why": "思维工具领域的经典长文。"},
+     {"name": "Andy 的公开笔记", "url": "https://notes.andymatuschak.org", "why": "看常青笔记长什么样。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读完下一篇重要文章后，写下三个你希望一个月后还记得的问题，并在日历里设好复习提醒。",
+ "sources": [
+  {"label": "Andy Matuschak 的 X 个人资料", "url": "https://x.com/andy_matuschak"},
+  {"label": "andymatuschak.org", "url": "https://andymatuschak.org"},
+  {"label": "How can we develop transformative tools for thought?", "url": "https://numinous.productions/ttft/"},
+  {"label": "GitHub：andymatuschak/orbit", "url": "https://github.com/andymatuschak/orbit"},
+  {"label": "GitHub：andymatuschak", "url": "https://github.com/andymatuschak"}
+ ]
+}

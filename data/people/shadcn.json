@@ -1,0 +1,155 @@
+{
+ "name": "shadcn",
+ "role": "Vercel AI 团队设计工程师 · shadcn/ui、shadcn/registry 作者 · v0 联合创造者",
+ "title": "shadcn：不是组件库的<em>组件库</em>",
+ "dek": "他的 X 简介只有一句：「I own a computer.」他是 Vercel AI 团队的设计工程师，做出了 shadcn/ui：一套设计精良、无障碍、默认值考究的组件，但它不是一个装进 node_modules 的依赖，而是一份你复制进项目、可以随意修改的代码。官网说它是「最流行的『组件库』」，GitHub 上有十多万颗星，ChatGPT、Claude、Gemini 等主流大模型都会用它写界面。在此基础上，他做了代码分发系统 shadcn/registry，每周分发一千多万个组件；他还和 Jared Palmer、Shu Ding、Max Leiter 一起做出了 v0。2026 年他发布了 Agent 活动组件 Trace、30 倍速的 Tailwind 类名合并引擎 cn、审计代码库的 Agent Skill「improve」，以及一个 39 美元的 Mac 应用 Copper。",
+ "card": "Vercel AI 团队设计工程师；shadcn/ui（★12.6 万）、shadcn/registry 作者，v0 联合创造者。",
+ "location": "未公开",
+ "updated": "2026-10-23",
+ "tags": ["组件", "Design Engineering", "React", "Tailwind", "AI"],
+ "links": [
+  {"label": "shadcn.com", "url": "https://shadcn.com"},
+  {"label": "shadcn/ui", "url": "https://ui.shadcn.com"},
+  {"label": "GitHub：shadcn-ui/ui", "url": "https://github.com/shadcn-ui/ui"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I'm a design engineer on the AI team at Vercel. I created shadcn/ui and shadcn/registry. I co-created v0 with Jared, Shu and Max.」",
+  "<strong>代表作：</strong>shadcn/ui（★126,361）、Taxonomy（★19,281，已归档）、improve（★9,250）、cn（★1,709）、shadcn/registry、shadcn/ds、Trace 与 AI Elements、Copper（Mac 应用）。",
+  "<strong>关键数字（官网）：</strong>GitHub 星 16.6 万、npm 月下载 9,600 万、官方注册表每月分发 4,500 万个组件；X 关注者约 24.6 万；通讯订阅 5 万+。",
+  "<strong>理念：</strong>「Open Source. Open Code.」组件是你自己的代码。"
+ ],
+ "lead": "shadcn/ui 的 README 只有短短几行：一套设计精良的组件，你可以定制、扩展、在其上构建。「从这里开始，然后把它变成你自己的。」最关键的一句是：用它来构建你自己的组件库。这个看似反常的设计，复制代码而不是安装依赖，恰好赶上了 AI 写代码的时代：模型可以直接读、直接改这些代码。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计工程师"],
+     ["现任", "Vercel AI 团队"],
+     ["作品", "shadcn/ui、shadcn/registry、shadcn/ds、v0（联合创造）、Copper"],
+     ["技术栈", "React、TypeScript、Tailwind CSS、Radix / Base UI、Next.js"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "shadcn 现在关注的是<strong>代码的分发方式</strong>。shadcn/registry 让任何人都能发布自己的组件注册表，用一条命令把代码复制进项目；他认为 AI 会「吃掉」我们的依赖，团队会越来越需要一个内部的「开放代码」注册表，而不是埋在 node_modules 里，Agent 从注册表里拉代码。最近他还做了一个生成 OIDC 认证配置组件的注册表。"},
+    {"p": "他也在给 AI 应用造界面积木：Trace 用一个抽象表示推理、工具调用、队列、思维链和子 Agent；AI Elements 和聊天机器人模板配合 AI SDK 使用。他的 improve Skill 体现了另一种分工：用最强的模型理解代码库、判断什么值得做、写出规格，再交给更便宜的模型执行；「计划就是产品」。"},
+    {"note": "本页依据 shadcn.com、ui.shadcn.com、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。他的真实姓名、所在地和加入 Vercel 前的经历未在其网站上写明，本页不作推测。官网数字为其自报。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2021–2022", "title": "Next.js 工具", "text": "next-mdx、Gatsby 版 WordPress 主题、用 @vercel/og 生成树状图。"},
+     {"when": "2023", "title": "shadcn/ui 与 v0", "text": "shadcn/ui 和 Taxonomy 广泛流行；与 Jared、Shu、Max 共同做出 v0。"},
+     {"when": "2024–2025", "title": "Registry 与 Tailwind v4", "text": "推出 shadcn/registry；适配 Tailwind v4、Vite、Electron。"},
+     {"when": "2026", "title": "AI 时代的组件", "text": "improve Skill、cn 引擎、Trace、AI Elements、shadcn/ds、Copper。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "shadcn/ui", "url": "https://ui.shadcn.com",
+     "meta": ["2023–", "React + Tailwind", "★12.6 万"],
+     "paras": [
+      "「Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.」MIT 许可，代码复制进你的项目，归你所有。"
+     ],
+     "facts": [["GitHub", "★126,361"]]
+    }},
+    {"work": {
+     "name": "shadcn/registry", "url": "https://shadcn.com",
+     "meta": ["代码分发"],
+     "paras": [
+      "「Distribution system for code.」官网称每周分发一千多万个组件，第三方注册表也可以接入。"
+     ]
+    }},
+    {"work": {
+     "name": "improve", "url": "https://github.com/shadcn/improve",
+     "meta": ["2026", "Agent Skill", "★9.3 千"],
+     "paras": [
+      "审计任意代码库并写实施计划，交给其他 Agent 执行；它自己从不动手实现。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["cn", "替代 tailwind-merge + clsx 的类名合并引擎，快 30 倍"],
+      ["Trace", "展示 Agent 活动的统一组件"],
+      ["shadcn/ds", "构建 Framer、Canva 这类设计工具的组件"],
+      ["Copper", "待办、剪贴板和草稿本合一的 Mac 应用（$39）"],
+      ["Taxonomy", "Next.js 13 App Router 示例应用（已归档）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://shadcn.com", "paras": [
+     "shadcn.com 是一块产品与数字面板：一句自述，接着是 GitHub 星数、npm 月下载、每月分发组件数、X 关注者和通讯订阅者，然后是 Copper、shadcn/ui、shadcn/ds、shadcn/registry 等产品卡片。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js + Tailwind，Vercel"],
+      ["结构", "数据面板 + 产品卡片"],
+      ["通讯", "5 万+ 订阅"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "AI is going to eat through our dependencies. We'll be using fewer and fewer external code/system.", "cite": "shadcn，X，2026-10"},
+    {"p": "他说话常带点冷幽默：请各大前沿实验室在 10 月底前发布新模型，「我可不想再过一个 Opus 4.5 假期」；以及「Naruto > Attack on Titan」。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "改变了 React 组件的分发方式", "—"],
+      ["设计", "默认值考究，AI 友好", "复制式组件需要使用者自己维护更新"],
+      ["公开信息", "作品透明", "个人背景几乎不公开"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>把代码交给用户：</strong>拥有比依赖更自由。",
+     "<strong>好的默认值就是设计。</strong>",
+     "<strong>用最强的模型做计划，用便宜的模型做执行。</strong>",
+     "<strong>为 AI 读写而设计你的代码。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "shadcn/ui", "url": "https://ui.shadcn.com", "why": "把一个组件复制进你的项目改一改。"},
+     {"name": "improve", "url": "https://github.com/shadcn/improve", "why": "让最强的模型给你的代码库写计划。"},
+     {"name": "shadcn.com", "url": "https://shadcn.com", "why": "看他正在做的所有东西。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "盘点你项目里最常被改动的三个第三方组件，考虑把它们变成自己仓库里的代码。",
+ "sources": [
+  {"label": "shadcn 的 X 个人资料", "url": "https://x.com/shadcn"},
+  {"label": "shadcn.com", "url": "https://shadcn.com"},
+  {"label": "shadcn/ui", "url": "https://ui.shadcn.com"},
+  {"label": "GitHub：shadcn-ui/ui", "url": "https://github.com/shadcn-ui/ui"},
+  {"label": "GitHub：shadcn/improve", "url": "https://github.com/shadcn/improve"}
+ ]
+}

@@ -1,0 +1,679 @@
+{
+ "handle": "mjtsai",
+ "sites": [
+  {
+   "url": "https://mjtsai.com/blog",
+   "ok": true,
+   "title": "Michael Tsai - Blog",
+   "description": "",
+   "stack": [
+    "WordPress 6.8.3",
+    "WordPress",
+    "React",
+    "Substack"
+   ],
+   "hosting": [],
+   "lang": "en",
+   "home_text": "Friday, October 23 , 2026 \n WindowShade Redux \nAnother haxie reborn, from Rosyna Keller ( Mastodon ): \nInstead of only cramming minimized windows into a crowded dock—or hiding them altogether—WindowShade Redux reduces your windows to their title bars or small live thumbnails at all times. It supports over twenty animation styles with the following power features: \nMinimize the window to the Dock, as always \nWindowShade the window into a tiny strip to quickly peek below or get it out of the way \nMinimize-In-Place the window so it becomes a really small thumbnail that you can freely drag the thumbnail around your screen \nMake any window float on top so it will never be obscured by other windows \n $10 (with $7 intro price), and there are bundle discounts with FruitMenu and Xounds. \nModern macOS no longer allows one process to change the geometry of a window owned by another process (application), so I had to redesign and rewrite the core from scratch. Now, WindowShade Redux fakes everything hard. […] WindowShade Redux takes a snapshot of visible windows, composites them into an image, and displays it either as a fake WindowShade window or as a Minimize-In-Place (MIP) thumbnail to hide the Dock’s 500-millisecond genie animation. \n[…] \nFloating on top was an entirely different beast, as it requires constantly recording the target window and laying a new WindowShade Redux window on top of it. This fake window is then moved in tandem with the real window below it. \nPreviously: \n FruitMenu Redux \n Sequoia Screen Recording Prompts and the Persistent Content Capture Entitlement \n Haxie Mac Mac App macOS 27 Golden Gate macOS Tahoe 26 WindowShade \n 1 Comment \n Mastodon 5 \n Imani Joy : \nWe’re moving away from the embedded composer and adopting a pop-out composer with new controls for visibility and other post settings. Navigation is simplified and organised in a more intuitive way and create space for future new features. \n[…] \nIn your feeds, the posts themselves have been rebuilt from the ground up, giving a fresh look to the places we all spend the most time. We’re also excited to roll out a few new colour themes, which took a truly monumental effort from our engineering team since the start of the year to tokenise our design system. \n[…] \nThe new design includes many small affordances, such as hiding a user’s boosts directly from the post menu, following and unfollowing hashtags right from the post, and hiding your own posts and boosts in your home feed. \nVia Jeff Johnson : \nIncredibly, Mastodon’s own announcement shows the massive amount of wasted space in the new UI, and they’re fine with it! \n Joe Fabisevich : \nThe Mastodon 5.0 design looks more Tumblr than Twitter, and I really dig it! Nice to see them take an approach to social media that is more differentiated than just “it’s tweeting but federated”. \nTo me it looks more like Twitter than before. Stars are now hearts. The layout is basically the same down to the empty right column where Twitter’s algorithmic features would be. \n CM Harrington : \n[The] toot button (the one that makes the toot window appear in the first place) is at the bottom of a list of everything else, including all your saved/followed hashtags. \nIt’s all such a mess. From what I can see (limited) they’re ‘just trying things’ that other sites have done — but without a reason or goal — so it’s all just a mash of disparate concepts. \nThe new composer slides up on top of the bottom post/message, so I can’t see what I’m replying to. \n Matt Birchler : \nThere’s some interesting data here, but at a high level, you see a social network that gained over 2 million new active users in the 31 days after Musk closed on buying Twitter. A lot of those users bounced and we dropped to about 1.1 million active users by the following summer, when we saw a second spike as Twitter started to require logins to see anything and that rate limits were being applied. Since then, we’ve seen a slow but steady decline in number of people using Mastodon. \n[…] \nAs a fan of Mastodon, these numbers are hard to look at. Not because I think a social network must have hundreds of millions of users to be valuable, but because it paints a picture where many people have tried Mastodon, but almost none of them stick around. Also, while infinite growth isn’t a requirement, constant decline isn’t what you want to see in a social network either. \n Jeff Johnson : \nTo be honest, I’m not sure I want Mastodon to grow. I actually never wanted Twitte",
+   "github_links": [
+    "Ranchero-Software",
+    "chromium",
+    "eu-digital-identity-wallet",
+    "shaps80",
+    "swiftlang",
+    "timu"
+   ],
+   "subpages": {
+    "https://mjtsai.com/blog/": "Friday, October 23 , 2026 \n WindowShade Redux \nAnother haxie reborn, from Rosyna Keller ( Mastodon ): \nInstead of only cramming minimized windows into a crowded dock—or hiding them altogether—WindowShade Redux reduces your windows to their title bars or small live thumbnails at all times. It supports over twenty animation styles with the following power features: \nMinimize the window to the Dock, as always \nWindowShade the window into a tiny strip to quickly peek below or get it out of the way \nMinimize-In-Place the window so it becomes a really small thumbnail that you can freely drag the thumbnail around your screen \nMake any window float on top so it will never be obscured by other windows \n $10 (with $7 intro price), and there are bundle discounts with FruitMenu and Xounds. \nModern macOS no longer allows one process to change the geometry of a window owned by another process (application), so I had to redesign and rewrite the core from scratch. Now, WindowShade Redux fakes everything hard. […] WindowShade Redux takes a snapshot of visible windows, composites them into an image, and displays it either as a fake WindowShade window or as a Minimize-In-Place (MIP) thumbnail to hide the Dock’s 500-millisecond genie animation. \n[…] \nFloating on top was an entirely different beast, as it requires constantly recording the target window and laying a new WindowShade Redux window on top of it. This fake window is then moved in tandem with the real window below it. \nPreviously: \n FruitMenu Redux \n Sequoia Screen Recording Prompts and the Persistent Content Capture Entitlement \n Haxie Mac Mac App macOS 27 Golden Gate macOS Tahoe 26 WindowShade \n 1 Comment \n Mastodon 5 \n Imani Joy : \nWe’re moving away from the embedded composer and adopting a pop-out composer with new controls for visibility and other post settings. Navigation is simplified and organised in a more intuitive way and create space for future new features. \n[…] \nIn your feeds, the posts themselves have been rebuilt from the ground up, giving a fresh look to the places we all spend the most time. We’re also excited to roll out a few new colour themes, which took a truly monumental effort from our engineering team since the start of the year to tokenise our design system. \n[…] \nThe new design includes many small affordances, such as hiding a user’s boosts directly from the post menu, following and unfollowing hashtags right from the post, and hiding your own posts and boosts in your home feed. \nVia Jeff Johnson : \nIncredibly, Mastodon’s own announcement shows the massive amount of wasted space in the new UI, and they’re fine with it! \n Joe Fabisevich : \nThe Mastodon 5.0 design looks more Tumblr than Twitter, and I really dig it! Nice to see them take an approach to social media that is more differentiated than just “it’s tweeting but federated”. \nTo me it looks more like Twitter than before. Stars are now hearts. The layout is basically the same down to the empty right column where Twitter’s alg"
+   },
+   "feed": {
+    "url": "https://mjtsai.com/blog/feed/",
+    "count_seen": 100,
+    "items": [
+     {
+      "title": "WindowShade Redux",
+      "date": "Fri, 23 Oct 2026 20:38:19",
+      "url": "https://mjtsai.com/blog/2026/10/23/windowshade-redux/"
+     },
+     {
+      "title": "Mastodon 5",
+      "date": "Fri, 23 Oct 2026 20:38:08",
+      "url": "https://mjtsai.com/blog/2026/10/23/mastodon-5/"
+     },
+     {
+      "title": "Building Mac App Help Books",
+      "date": "Fri, 23 Oct 2026 20:38:01",
+      "url": "https://mjtsai.com/blog/2026/10/23/building-mac-app-help-books/"
+     },
+     {
+      "title": "iOS 27.1",
+      "date": "Fri, 23 Oct 2026 20:37:53",
+      "url": "https://mjtsai.com/blog/2026/10/23/ios-27-1/"
+     },
+     {
+      "title": "Apple Music’s New Look",
+      "date": "Fri, 23 Oct 2026 20:37:43",
+      "url": "https://mjtsai.com/blog/2026/10/23/apple-musics-new-look/"
+     },
+     {
+      "title": "iPhone Duo Reviews",
+      "date": "Thu, 22 Oct 2026 18:54:32",
+      "url": "https://mjtsai.com/blog/2026/10/22/iphone-duo-reviews/"
+     },
+     {
+      "title": "iPhone Duo and Safari",
+      "date": "Thu, 22 Oct 2026 18:51:28",
+      "url": "https://mjtsai.com/blog/2026/10/22/iphone-duo-and-safari/"
+     },
+     {
+      "title": "WebKit Blocking Identity Resolution Infrastructure",
+      "date": "Thu, 22 Oct 2026 18:51:22",
+      "url": "https://mjtsai.com/blog/2026/10/22/webkit-blocking-identity-resolution-infrastructure/"
+     },
+     {
+      "title": "PHP2Shell",
+      "date": "Wed, 21 Oct 2026 18:33:59",
+      "url": "https://mjtsai.com/blog/2026/10/21/php2shell/"
+     },
+     {
+      "title": "Ofcom Concedes Defeat in 4chan Case",
+      "date": "Wed, 21 Oct 2026 18:33:51",
+      "url": "https://mjtsai.com/blog/2026/10/21/ofcom-concedes-defeat-in-4chan-case/"
+     },
+     {
+      "title": "iOS Dev Course Going Out of Business",
+      "date": "Wed, 21 Oct 2026 18:33:47",
+      "url": "https://mjtsai.com/blog/2026/10/21/ios-dev-course-going-out-of-business/"
+     },
+     {
+      "title": "Apple Broke an Essential Presentation Feature of iPads",
+      "date": "Wed, 21 Oct 2026 18:33:41",
+      "url": "https://mjtsai.com/blog/2026/10/21/apple-broke-an-essential-presentation-feature-of-ipads/"
+     },
+     {
+      "title": "Selection and Focus in Golden Gate",
+      "date": "Tue, 20 Oct 2026 19:24:58",
+      "url": "https://mjtsai.com/blog/2026/10/20/selection-and-focus-in-golden-gate/"
+     },
+     {
+      "title": "Xcode Projects for the Command Line and Coding Agents",
+      "date": "Tue, 20 Oct 2026 19:24:54",
+      "url": "https://mjtsai.com/blog/2026/10/20/xcode-projects-for-the-command-line-and-coding-agents/"
+     },
+     {
+      "title": "Getting a File Path From a Swift URL",
+      "date": "Tue, 20 Oct 2026 19:24:49",
+      "url": "https://mjtsai.com/blog/2026/10/20/getting-a-file-path-from-a-swift-url/"
+     },
+     {
+      "title": "Carson Oliver and Apple’s Gaming Push",
+      "date": "Mon, 19 Oct 2026 21:08:39",
+      "url": "https://mjtsai.com/blog/2026/10/19/carson-oliver-and-apples-gaming-push/"
+     },
+     {
+      "title": "NetNewsWire 7.2",
+      "date": "Mon, 19 Oct 2026 21:08:28",
+      "url": "https://mjtsai.com/blog/2026/10/19/netnewswire-7-2/"
+     },
+     {
+      "title": "DropDMG 3.7.2",
+      "date": "Mon, 19 Oct 2026 21:07:42",
+      "url": "https://mjtsai.com/blog/2026/10/19/dropdmg-3-7-2/"
+     },
+     {
+      "title": "Xcode 27.1",
+      "date": "Fri, 16 Oct 2026 19:59:56",
+      "url": "https://mjtsai.com/blog/2026/10/16/xcode-27-1/"
+     },
+     {
+      "title": "iMessage Downgrading",
+      "date": "Fri, 16 Oct 2026 19:59:46",
+      "url": "https://mjtsai.com/blog/2026/10/16/imessage-downgrading/"
+     },
+     {
+      "title": "Mark Stephens (Robert X. Cringely), RIP",
+      "date": "Fri, 16 Oct 2026 19:58:51",
+      "url": "https://mjtsai.com/blog/2026/10/16/mark-stephens-robert-x-cringely-rip/"
+     },
+     {
+      "title": "Passkeys Attestation Trap",
+      "date": "Thu, 15 Oct 2026 17:58:43",
+      "url": "https://mjtsai.com/blog/2026/10/15/passkeys-attestation-trap/"
+     },
+     {
+      "title": "Attestation News",
+      "date": "Thu, 15 Oct 2026 17:55:46",
+      "url": "https://mjtsai.com/blog/2026/10/15/attestation-news/"
+     },
+     {
+      "title": "Resetting Local Network Privacy",
+      "date": "Wed, 14 Oct 2026 20:50:57",
+      "url": "https://mjtsai.com/blog/2026/10/14/resetting-local-network-privacy/"
+     },
+     {
+      "title": "Apple Home Collection",
+      "date": "Tue, 13 Oct 2026 19:04:25",
+      "url": "https://mjtsai.com/blog/2026/10/13/apple-home-collection/"
+     }
+    ]
+   },
+   "appstore_ids": [
+    "1289583905",
+    "6755553408",
+    "6781353081",
+    "6796379679",
+    "899247664"
+   ]
+  }
+ ],
+ "github_guess": true,
+ "github": {
+  "login": "Ranchero-Software",
+  "user": {
+   "name": "Ranchero Software",
+   "company": null,
+   "blog": "https://ranchero.com/",
+   "location": null,
+   "bio": "Makes NetNewsWire, a free and open source RSS reader for Mac and iOS.",
+   "public_repos": 10,
+   "followers": 196,
+   "created_at": "2020-01-02T05:47:49Z",
+   "twitter_username": null,
+   "type": "Organization"
+  },
+  "repos": [
+   {
+    "full_name": "Ranchero-Software/NetNewsWire",
+    "description": "RSS reader for macOS and iOS.",
+    "stargazers_count": 10484,
+    "forks_count": 775,
+    "language": "Swift",
+    "homepage": "https://netnewswire.com/",
+    "created_at": "2017-05-21T17:59:23Z",
+    "pushed_at": "2026-10-23T03:55:54Z",
+    "topics": [
+     "feed-reader",
+     "ios",
+     "json-feed",
+     "macos",
+     "rss",
+     "rss-feed-reader",
+     "rss-reader"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "Ranchero-Software/RSParser",
+    "description": "Parser for RSS, Atom, JSON Feed, RSS-inJSON, OPML, and HTML.",
+    "stargazers_count": 367,
+    "forks_count": 39,
+    "language": "HTML",
+    "homepage": "http://inessential.com/2017/12/26/evergreens_parser_as_separate_open_sour",
+    "created_at": "2017-12-27T00:36:52Z",
+    "pushed_at": "2024-04-08T02:44:17Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Ranchero-Software/RSCore",
+    "description": "Utility code for Mac and iOS apps.",
+    "stargazers_count": 66,
+    "forks_count": 18,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-12-29T04:04:57Z",
+    "pushed_at": "2024-02-21T06:33:04Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Ranchero-Software/RSDatabase",
+    "description": "Utility code for using SQLite via FMDB. Mac and iOS.",
+    "stargazers_count": 40,
+    "forks_count": 8,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2016-12-23T06:18:33Z",
+    "pushed_at": "2024-03-07T05:28:56Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Ranchero-Software/NetNewsWireHelp",
+    "description": "Help pages for NetNewsWire, an open source RSS reader for Mac and iOS.",
+    "stargazers_count": 33,
+    "forks_count": 9,
+    "language": "CSS",
+    "homepage": null,
+    "created_at": "2019-08-10T20:39:52Z",
+    "pushed_at": "2026-08-12T22:48:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "Ranchero-Software/RSWeb",
+    "description": "Utility code for downloading things from the web. Mac and iOS.",
+    "stargazers_count": 28,
+    "forks_count": 13,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2016-12-29T00:14:57Z",
+    "pushed_at": "2023-04-10T20:52:29Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Ranchero-Software/RSTree",
+    "description": null,
+    "stargazers_count": 9,
+    "forks_count": 9,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2018-03-23T04:50:45Z",
+    "pushed_at": "2022-12-27T05:43:41Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "Ranchero-Software/Sparkle-Binary",
+    "description": "Copy of Sparkle for Ranchero apps",
+    "stargazers_count": 1,
+    "forks_count": 3,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2020-11-20T04:55:38Z",
+    "pushed_at": "2022-03-25T18:25:05Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 8,
+  "languages": [
+   [
+    "Swift",
+    4
+   ],
+   [
+    "Objective-C",
+    2
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "CSS",
+    1
+   ]
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "Ranchero-Software/NetNewsWire": " \n# NetNewsWire\nNetNewsWire is a free and open-source feed reader for macOS and iOS.\nIt supports [RSS](https://cyber.harvard.edu/rss/rss.html), [Atom](https://datatracker.ietf.org/doc/html/rfc4287), [JSON Feed](https://jsonfeed.org/), and [RSS-in-JSON](https://github.com/scripting/Scripting-News/blob/master/rss-in-json/README.md) formats.\nMore info: [https://netnewswire.com/](https://netnewswire.com/)\nYou can [report bugs and make feature requests](https://github.com/Ranchero-Software/NetNewsWire/issues) here on GitHub. You can also [read change notes](https://github.com/Ranchero-Software/NetNewsWire/releases/) for current and previous releases.\nHere’s [How to Support NetNewsWire](Technotes/HowToSupportNetNewsWire.markdown). Spoiler: don’t send money. :)\n(NetNewsWire’s Help menu has these links, so you don’t have to remember to come back to this page.)\n#### Community\n[Join the forum](https://discourse.netnewswire.com/) to talk with other NetNewsWire users — and to help out, if you’d like to, by testing, coding, writing, providing feedback, or just helping us think things through. Everybody is welcome and encouraged to join.\nEvery community member is expected to abide by the [code of conduct](CONTRIBUTING.md#code-of-conduct) which is included in the [Contributing](CONTRIBUTING.md) page.\n#### Pull Requests\nSee the [Contributing](CONTRIBUTING.md) page for our process. They key thing is to ask before doing a PR (before even starting work). The Contributing page goes into more detail as to why it’s important to ask first.\n#### Building\nYou can build and test NetNewsWire without a paid developer account.\n```bash\ngit clone https://github.com/Ranchero-Software/NetNewsWire.git\n```\nYou can locally override the Xcode settings for code signing\nby creating a `DeveloperSettings.xcconfig` file locally at the appropriate path.\nThis allows for a pristine project with code signing set up with the appropriate\ndeveloper ID and certificates, and for developer to be able to have local settings\nwithout needing to check in anything into source control.\nYou can do this in one of two ways: using the included `setup.sh` script or by creating the folder structure and file manually.\n##### U",
+   "Ranchero-Software/RSParser": "# RSParser\nThis framework was developed for [NetNewsWire](https://github.com/brentsimmons/NetNewsWire) and is made available here for developers who just need the parsing code. It has no dependencies that aren’t provided by the system.\n_Update 6 Feb. 2018_: RSParser is now a CocoaPod, with the much-appreciated help of [Silver Fox](https://github.com/dcilia). (We _think_ it worked, anyway. Looked like it did.)\n## What’s inside\nThis framework includes parsers for:\n* [RSS](http://cyber.harvard.edu/rss/rss.html), [Atom](https://tools.ietf.org/html/rfc4287), [JSON Feed](https://jsonfeed.org/), and [RSS-in-JSON](https://github.com/scripting/Scripting-News/blob/master/rss-in-json/README.md)\n* [OPML](http://dev.opml.org/)\n* Internet dates\n* HTML metadata and links\n* HTML entities\nIt also includes Objective-C wrappers for libXML2’s XML SAX and HTML SAX parsers. You can write your own parsers on top of these.\nThis framework builds for macOS. It *could* be made to build for iOS also, but I haven’t gotten around to it yet.\n## How to parse feeds\nTo get the type of a feed, even with partial data, call `FeedParser.feedType(parserData)`, which will return a `FeedType`.\nTo parse a feed, call `FeedParser.parse(parserData)`, which will return a [ParsedFeed](Feeds/ParsedFeed.swift). Also see related structs: `ParsedAuthor`, `ParsedItem`, `ParsedAttachment`, and `ParsedHub`.\nYou do *not* need to know the type of feed when calling `FeedParser.parse` — it will figure it out and use the correct concrete parser.\nHowever, if you do want to use a concrete parser directly, see [RSSInJSONParser](Feeds/JSON/RSSInJSONParser.swift), [JSONFeedParser](Feeds/JSON/JSONFeedParser.swift), [RSSParser](Feeds/XML/RSSParser.swift), and [AtomParser](Feeds/XML/AtomParser.swift).\n(Note: if you want to write a feed reader app, please do! You have my blessing and encouragement. Let me know when it’s shipping so I can check it out.)\n## How to parse OPML\nCall `+[RSOPMLParser parseOPMLWithParserData:error:]`, which returns an `RSOPMLDocument`. See related objects: `RSOPMLItem`, `RSOPMLAttributes`, `RSOPMLFeedSpecifier`, and `RSOPMLError`.\n## How to parse dates\nCall `RSDateWithString` or `RSDateWithBytes` (see `",
+   "Ranchero-Software/RSCore": "# RSCore\nUtility code for Mac and iOS apps.\nThis builds a Mac framework and an iOS framework.\nThere’s a whole bunch of stuff in here. There are categories on Foundation and AppKit objects plus a few miscellaneous things.\n(More notes will be coming.)\n",
+   "Ranchero-Software/RSDatabase": "# RSDatabase\nThis is utility code for using SQLite via FMDB. It’s not a persistence framework — it’s lower-level.\nIt builds as a couple frameworks — one for Mac, one for iOS.\nIt has no additional dependencies, but that’s because FMDB is actually included — you might want to instead make sure you have the [latest FMDB](https://github.com/ccgus/fmdb), which isn’t necessarily included here.\n#### What to look at\nThe main thing is `RSDatabaseQueue`, which allows you to talk to SQLite-via-FMDB using a serial queue.\nThe second thing is `FMDatabase+RSExtras`, which provides methods for a bunch of common queries and updates, so you don’t have to write as much SQL.\n"
+  }
+ },
+ "apps": [
+  {
+   "name": "The Sims™ FreePlay",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2011-12-15",
+   "updated": "2026-10-21",
+   "version": "118.1.284528",
+   "rating": 4.58,
+   "ratings": 464142,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/the-sims-freeplay/id466965151",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n_________________\n\nFrom the creators of The Sims™ comes a complete Sims experience on mobile! Grow SimTown to expand your Sim community and create an entire town with your own style, personalities and dreams! Complete goals to earn Simoleons and pick up rewards along the way. Keep your Sims happy and watch them thrive as you help them live a fun and fulfilled life!\n _________________\n \n SIM-ULATING POSSIBILITIES\n From head to toe – and floor to ceiling – customize every aspect of your Sims’ lives! Keep up to 34 Sims looking stylish, and design and build their dream homes complete with swimming pools, multiple floors and incredible decor. As you get more Sims and they start a family, expand your Sim Town with a pet stor",
+   "country": "us"
+  },
+  {
+   "name": "EA SPORTS FC Soccer Mobile 27",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2016-10-11",
+   "updated": "2026-09-24",
+   "version": "28.0.01",
+   "rating": 4.69,
+   "ratings": 2643261,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/ea-sports-fc-soccer-mobile-27/id1094930513",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items. \n\nPlay EA SPORTS FC™ Mobile Soccer 27, the ultimate online soccer game on mobile. EA SPORTS FC™ Mobile 27 Update has arrived. Celebrate the 2026/2027 season of soccer / football, in an update inspired by the World's Game. \n \nPlay a Quick Match as any team from the Premier League, MLS or LALIGA EA SPORTS including Liverpool & Real Madrid. Choose a national team including Portugal, Spain, USA, Brazil, England etc & compete to become champions. Build your dream Football Ultimate Team™ with soccer stars Kylian Mbappé, Jude Bellingham, Pedri or legendary ICONs like David Beckham, Ronaldinho, Zinedine Zidane & Zlatan Ibrahimović. FC Mobile has licenses for the world’s biggest soccer competitions, national teams, clubs & leag",
+   "country": "us"
+  },
+  {
+   "name": "SimCity BuildIt",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2014-12-17",
+   "updated": "2026-10-12",
+   "version": "1.83.3",
+   "rating": 4.13,
+   "ratings": 87341,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/simcity-buildit/id913292932",
+   "desc": "Includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nWelcome, Mayor, to the city builder and simulator! Be the hero of your very own city metropolis. This is the city-building game to design and create a beautiful, bustling town or metropolis. Every decision is yours as your city simulation grows larger and more intricate. You need to make smart building choices as a city builder to keep your citizens happy and your skyline growing. Then build, trade, chat, compete, and join clubs with fellow city-building Mayors. The city game that lets you build your city, your way!\n\nBRING YOUR CITY METROPOLIS TO LIFE\nBuild your metropolis with skyscrapers, parks, bridges, and much more! Place buildings strategically to keep your taxes flowing and your city growing. Solve real-life city-buildin",
+   "country": "us"
+  },
+  {
+   "name": "Need for Speed No Limits Game",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2015-10-01",
+   "updated": "2026-10-21",
+   "version": "9.6.01",
+   "rating": 4.75,
+   "ratings": 399282,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/need-for-speed-no-limits-game/id883393043",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n \n Rule the street racing Underground as you race in the first Need for Speed made just for mobile! Conquer the asphalt of Blackridge city, engage your nitro, and tune your cars — from the game developer that brought you Real Racing 3! \n \n Build the car collection of your dreams by acquiring cars, tuning them, and customizing them to your style. Launch yourself between chaos and control as you drift and roll into underground street racing. \n \n Take down the competition, engage your nitro, up your street rep, and burst into traffic - more races, customizations, and cars! Leave your mark on the city and never look back in this exciting racing game.\n \n Note: This app offers in-app purchases. You may disable in-app purchas",
+   "country": "us"
+  },
+  {
+   "name": "Madden NFL 27 Mobile Football",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2020-08-04",
+   "updated": "2026-10-13",
+   "version": "13.1.1",
+   "rating": 4.74,
+   "ratings": 1343273,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/madden-nfl-27-mobile-football/id1512265589",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nKickoff a new NFL Season on the Gridiron with EA SPORTS™ Madden NFL 27 Mobile Football! Authentic sports action game, real-world NFL events, & mobile-first visuals await in this immersive NFL Football game on mobile.\n\nFootball game manager or armchair QB - build your roster of NFL superstars to lead your team to victory in EA SPORTS™ Madden NFL 27 Mobile. Unlock new ways to play this NFL season. Experience authentic football gameplay with football legends and amazing features like Dual Player Cards, Player Evolution, and the Madden VS mode. This is your ultimate football game on mobile.\n\nDownload the Madden NFL mobile football game & experience the best of the NFL today.\n\nMADDEN VS\n- Fast, fun, and fiercely competitiv",
+   "country": "us"
+  },
+  {
+   "name": "Plants vs. Zombies™",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2014-11-13",
+   "updated": "2026-08-25",
+   "version": "3.18.0",
+   "rating": 4.81,
+   "ratings": 940310,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/plants-vs-zombies/id893677096",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items.\n\nGet ready to soil your plants as a mob of fun-loving zombies is about to invade your home. Use your arsenal of 49 zombie-zapping plants — Peashooters, Wall-nuts, Cherry bombs and more — to mulchify 26 types of zombies before they break down your door.\n\nThis app offers in-app purchases. You may disable in-app purchasing using your device settings\n\nWINNER OF OVER 30 GAME OF THE YEAR AWARDS*\n\n50 FUN-DEAD LEVELS\nConquer all 50 levels of Adventure mode — through day, night, fog, in a swimming pool, on the rooftop and more. Plus fend off a continual wave of zombies as long as you can with Survival mode!\n\nNOT GARDEN-VARIETY GHOULS\nBattle zombie pole-vaulters, snorkelers, bucketheads and 26 more fun-dead zombies. Each has its own special skills, so you'll need to think fast and p",
+   "country": "us"
+  },
+  {
+   "name": "Golf Clash - Golfing Simulator",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2017-01-18",
+   "updated": "2026-09-11",
+   "version": "3.4.9",
+   "rating": 4.52,
+   "ratings": 2147929,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/golf-clash-golfing-simulator/id1089225191",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nThe BAFTA-winning golf game is better than ever, and it's free to download! Step into the ultimate golf simulation and master your golfing skills in thrilling golf games. Golf with friends, challenge rivals in 1v1, or enjoy solo play – our golf game offers an extraordinary sports experience!\n\nDive Into the Ultimate Online Multiplayer Golf Game & Simulator \n • Live your golf dreams! Choose your club, select your golf ball, and battle against golf rivals from around the globe on beautiful golf courses.\n • Engage in exciting 9-hole or full 18-hole matches, aiming for those satisfying birdies and even a hole-in-one.\n • Master our revolutionary golf shot mechanic — easy to learn, thrilling to master. Fine-tune your shot by",
+   "country": "us"
+  },
+  {
+   "name": "Star Wars™: Galaxy of Heroes",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2015-11-24",
+   "updated": "2026-09-15",
+   "version": "0.40.6",
+   "rating": 4.59,
+   "ratings": 230162,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/star-wars-galaxy-of-heroes/id921022358",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nCollect, upgrade, and battle with iconic heroes from across Star Wars™ history, including Luke Skywalker, Ahsoka Tano, Darth Vader, Han Solo, Obi-Wan Kenobi, Yoda, The Mandalorian, and more. Experience a role-playing adventure that combines strategy, action RPG, and online multiplayer gameplay.\n\nEnter the Star Wars universe in a cinematic turn-based RPG game where strategy, skill, and legacy define every move. Relive moments from The Mandalorian™, Star Wars™: The Bad Batch™, and Star Wars™: The Last Jedi™ as you command your team. Whether you fight for the Rebellion, the Empire, or something in between, the next great battle for galactic dominance begins with you.\n\nSTAR WARS™: GALAXY OF HEROES GAMEPLAY\n - Unlock legen",
+   "country": "us"
+  },
+  {
+   "name": "Plants vs. Zombies™ Heroes",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2016-10-18",
+   "updated": "2026-09-02",
+   "version": "1.67.8",
+   "rating": 4.68,
+   "ratings": 131983,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/plants-vs-zombies-heroes/id1000876192",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n \n From the makers of Plants vs. Zombies 2 and Plants vs. Zombies Garden Warfare 2 comes the next epic battle between doom and bloom – Plants vs. Zombies Heroes. Build your team of heroes in this courageous collectible card game. Embark on a journey to discover new characters and confront mighty opponents along the way. And, for the first time ever on mobile, play as either plants or zombies. It’s the lawn of a new battle!\n \n COLLECT YOUR HEROES\n Discover 20 unique plant and zombie heroes, unlock their lawn-inspiring super powers, and choose your favorites based on their signature styles and abilities. Will you pick plants and deploy the masked, sharp-shooting avenger Green Shadow? Or will you choose a zombie hero, lik",
+   "country": "us"
+  },
+  {
+   "name": "EA SPORTS FC™ 27 Companion",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2016-09-22",
+   "updated": "2026-10-08",
+   "version": "27.1.1",
+   "rating": 3.38,
+   "ratings": 32746,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/ea-sports-fc-27-companion/id1127108818",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items. \n\nThe Club is Yours with the official EA SPORTS™ FC Companion App.\n\nSQUAD BUILDING CHALLENGES\nNever miss an SBC with the Companion App. Exchange Player Items in your Club to earn new Players, Packs, or Customisation options.\n\nEVOLUTIONS\nCustomise players from your Club with Evolutions. Increase the stats of your favourite players and enhance Player Items with cosmetic Evolutions.\n\nGET REWARDED\nClaim rewards for your progress in Champions, Division Rivals, Squad Battles and Football Ultimate Team Events without having to log into your preferred platform.\n\nTRANSFER MARKET\nMake moves in the Transfer Market wherever you are. Exchange Players with the global Football Ultimate Team Community to build your dream squad.\n\nHOW T",
+   "country": "us"
+  },
+  {
+   "name": "Peggle Blast",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2014-12-02",
+   "updated": "2026-09-28",
+   "version": "4.2.0",
+   "rating": 2.52,
+   "ratings": 5775,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/peggle-blast/id853834250",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n \n Read on for important info below!\n APP STORE EDITORS’ CHOICE\n \n Take your best shot with a blend of luck, skill, and joyous thrills in Peggle™ Blast! Clear the orange pegs as you rack up bonus points, and hit style shots that’ll make you smile for weeks. Learn from Peggle Masters and harness their powers to score big in peg-popping challenges. From the makers of Bejeweled™ and Plants vs. Zombies™ comes the newest PopCap game, bursting with character, charm, and fun. Join the millions who adore the magic of Peggle. Aim for greatness!\n  \n You may restrict in-app purchasing using your device settings.\n \n SIMPLE CONTROLS\n Bring the joy anywhere, anytime with easy-to-use controls and unpredictable gameplay. It’s an exube",
+   "country": "us"
+  },
+  {
+   "name": "Bejeweled Stars: Match 3 Game",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2016-05-10",
+   "updated": "2026-09-30",
+   "version": "4.4.0",
+   "rating": 4.62,
+   "ratings": 76625,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/bejeweled-stars-match-3-game/id974135847",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nBe brilliant in Bejeweled Stars, a match-3 experience like no other! Experience endless fun and unique challenges every day in a beautiful world filled with surprises, explosions, and playful puzzles. Combine sparkling gems to earn rewards, create boosts when you need them most, uncover collectible emojis to express yourself, and even control the game board itself as you play.\n  \n  DISCOVER AMAZING CHALLENGES \n  Bejeweled Stars comes to life with exciting twists and distinctive ways to play. Master moving Currents of gems to enhance your matching strategy. Maneuver gem-filled Clouds around the board, causing winning cascades. Rescue floating butterflies before they slip away into the sky.\n  \n  EARN, COLLECT, AND SHARE",
+   "country": "us"
+  },
+  {
+   "name": "EA College Football Mobile 27",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2026-07-09",
+   "updated": "2026-10-21",
+   "version": "2.2.1",
+   "rating": 4.57,
+   "ratings": 35347,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/ea-college-football-mobile-27/id6759412341",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items. .\n\nCreate and play your college football Ultimate Team™ in EA SPORTS™ College Football Mobile 27.\n\nBuild your dream program as you recruit future stars, develop your roster, and lead your school through unforgettable college football seasons. Experience authentic college football traditions, fierce rivalries, real-world gameplay moments, and strategic team-building designed specifically for mobile.\n\nWhether you're building a National Championship contender, managing your recruiting class, or taking on your fiercest rival, every decision shapes the future of your program.\n\nDownload EA SPORTS™ College Football Mobile 27 and start building your team today.\n\nNOTICE: College Football 27 Mobile is best enjoyed on iPhone 13 P",
+   "country": "us"
+  },
+  {
+   "name": "Madden NFL 27 Companion",
+   "artist": "Electronic Arts",
+   "genre": "Sports",
+   "price": "Free",
+   "released": "2018-08-21",
+   "updated": "2026-10-15",
+   "version": "27.2.134",
+   "rating": 3.68,
+   "ratings": 608,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/madden-nfl-27-companion/id1422882838",
+   "desc": "Welcome to Madden NFL 27 Companion App!\nStay connected to your Madden NFL experience with the Madden Companion App. Manage your team, keep up with your Franchise, and access what you need faster, wherever you are.\n\nKey Features:\nUltimate Team Management: Manage your Ultimate Team experience, access key features, and make important decisions on the go.\nFranchise Management: View leagues, track matchups, stay updated on member activity, and keep up with your league progress.\nQuick Access: Get to your most-used features faster with customizable Shortcuts designed for quick app navigation.\n\nRequires acceptance of EA’s Privacy & Cookie Policy and User Agreement. Requires an Internet connection (network fees may apply). Requires Madden NFL 27 for PlayStation 5, Xbox Series X|S, or PC and an EA Account to play. Must be 13 or older to obtain an EA account. Contains direct links to the Internet a",
+   "country": "us"
+  },
+  {
+   "name": "Need for Speed™ Most Wanted",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "$4.99",
+   "released": "2012-10-30",
+   "updated": "2019-12-03",
+   "version": "1.1.3",
+   "rating": 3.57,
+   "ratings": 2144,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/need-for-speed-most-wanted/id540925164",
+   "desc": "APP STORE BEST OF 2012! Thanks to all our fans for making Most Wanted one of the year’s biggest hits.\n\n\"The street racer that iOS devices have been waiting for\" (PocketGamer, 9/10 Gold Award)\n\n“It pushes the mobile platform to its utmost limits and doesn’t even break a sweat” (Capsule Computers)\n\nBuckle up, hit the gas and hold on tight; you’re in for the ride of your life. Outrun cops, outsmart rivals – and outdrive your friends – in the most dangerous Need for Speed yet. Do you dare to be the Most Wanted?\n\nNote: Due to its revved-up graphics and gameplay, you’ll need 1.8GB of free space on your device in order to install this game.\n\nMAKE TROUBLE, GET WANTED\nEvade a relentless police force while you clash with street racers. Race and chase hot cars like the SRT Viper GTS, Porsche 911 Carrera S, Hummer H1 Alpha, and many more. Feel the intensity of no-brakes-allowed street racing with re",
+   "country": "us"
+  },
+  {
+   "name": "Command & Conquer™: Rivals PVP",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2018-12-04",
+   "updated": "2026-09-15",
+   "version": "1.14.0",
+   "rating": 4.52,
+   "ratings": 43106,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/command-conquer-rivals-pvp/id1261165213",
+   "desc": "This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.\n\nThere’s no victory like one against your rivals! Feel the rush of competition in Command & Conquer: Rivals, an action-packed RTS with strategic tactics capable of turning the tide of any battle. Take control of your customized army and conquer your opponent in The War for Tiberium. Team up with friends to share resources in alliances. Create your combination of infantry, tanks, aircraft, and more to outsmart your opponent’s strategy in fast, fun PvP matches. \n \nTHE THRILL OF VICTORY IS YOURS\nIn Command & Conquer: Rivals, the strategy behind your skills determines victory or defeat. Choose a Commander to lead your forces – each holds powerful abilities that can influence your approach. Customize your army with winning ",
+   "country": "us"
+  },
+  {
+   "name": "Madden NFL 27 Arcade Edition",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": null,
+   "released": "2026-08-06",
+   "updated": "2026-10-15",
+   "version": "27.0.5",
+   "rating": 4.79,
+   "ratings": 12744,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/madden-nfl-27-arcade-edition/id6755553408",
+   "desc": "Experience American Football your way with EA SPORTS™ Madden NFL 27 Arcade Edition, exclusively on Apple.\n\nJump into fast, fun, and uninterrupted football action with no ads, no in-app purchases, no currencies, and no paywalls. Lead & coach your team through every stage of the season in an authentic NFL football experience built for mobile arcade. Take control of every game, make strategic decisions, and guide your team from kickoff to championship glory. Whether you're a longtime football fan or new to the sport, Madden Arcade makes it easy to jump in and play.\n\nPlay instantly, progress through the season, and chase championship glory in this exclusive football experience built for Arcade. With simplified controls and accessible gameplay you can enjoy football anytime, anywhere.\n\nMADDEN NFL ARCADE EDITION FEATURES\n\nFAST & ACCESSIBLE FOOTBALL\n\n* Pick up and play with streamlined controls",
+   "country": "us"
+  },
+  {
+   "name": "EA Connect",
+   "artist": "Electronic Arts",
+   "genre": "Entertainment",
+   "price": "Free",
+   "released": "2025-11-05",
+   "updated": "2026-09-29",
+   "version": "1.3.0",
+   "rating": 4.89,
+   "ratings": 218,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/ea-connect/id6737519364",
+   "desc": "With EA Connect, you can stay connected to your friends & favorite franchises, even when you’re away from the game. Your entire EA friends list is now in one place, across PC, console & mobile platforms.\n\nSEE WHO’S READY TO PLAY\nAt a glance, see who's online, what they're playing, and who is looking to form a team.\n\nJUMP INTO GAMES WITH FRIENDS FASTER\nGet instant, real-time alerts when a friend invites you to a game or sends you a message. Favorite your best friends and get notified the moment they start a game, so you can jump straight into the action together.\n\nCHAT ANYTIME, ANYWHERE\nTake conversations on the go with all your friends. Strategize, share tips, or make plans for your next session.\n\nSHARE YOUR MOOD & AVAILABILITY\nUse status notes & emoji to show your friends exactly what you're up to, whether you're ready to team up or otherwise busy.\n\nFIND MORE PEOPLE TO PLAY WITH\nConnect",
+   "country": "us"
+  },
+  {
+   "name": "MySims™",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": null,
+   "released": "2025-11-06",
+   "updated": "2026-01-28",
+   "version": "1.4",
+   "rating": 4.08,
+   "ratings": 88,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/mysims/id6744486442",
+   "desc": "Explore a new world with MySims™—it's your world to transform in this retro re-release with updated graphics! Move to a town that has been struggling lately. With a little creativity and some help from the locals, you can make this place thrive. Improve the town to attract characters, from Chef Gino Delicioso and DJ Candy Supergroove to arcade owner, Vic Vector and Cap'n Ginny, the town pirate. Discover what the residents want and need, so that you can help them enjoy life in your Sim's new town. Design a hot tub or jukebox from scratch, build homes and businesses from the roof to the front door. Uncover special decorations and patterns as you explore the growing town. From the furniture and objects to the buildings to the town as a whole – each of your creations is unique. In MySims™, what you make... makes all the difference!\n\nBuild and customize an entire town — Your town is your own ",
+   "country": "us"
+  },
+  {
+   "name": "MySims™ Kingdom",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": null,
+   "released": "2025-11-06",
+   "updated": "2026-01-28",
+   "version": "1.6",
+   "rating": 4.31,
+   "ratings": 29,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/mysims-kingdom/id6744486619",
+   "desc": "Embark on a journey of discovery to explore and customize the MySims™ Kingdom in this retro re-release with updated graphics! MySims™ Kingdom sets you on an adventure to help King Roland and his subjects revitalize the Kingdom. Throughout this epic quest, you will join-up with friends, discover fascinating lands, take on challenges, and build amazing contraptions. And in true MySims™ fashion, almost everything is customizable, allowing every creation within your world to have a signature look! MySims™ Kingdom...embark on your own journey of discovery and exploration!\n\nEpic Storyline - King Roland needs your help to revitalize his kingdom! Join forces with the other Sims to bring it back to its former glory!\n\nFamiliar Friends - Meet Sims like King Roland. Then say hello to old friends like Ginny and Buddy who have taken on exciting new roles.\n\nTravel to Lands - Discover all the unique thi",
+   "country": "us"
+  },
+  {
+   "name": "EA SPORTS App",
+   "artist": "Electronic Arts",
+   "genre": "Sports",
+   "price": "Free",
+   "released": "2025-09-29",
+   "updated": "2026-10-19",
+   "version": "2.1.1",
+   "rating": 4.22,
+   "ratings": 79,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/ea-sports-app/id6670217137",
+   "desc": "The EA SPORTS App is the group chat where your fandom is seen, scored, and worth bragging about. Compete, react and watch the scores shift, all in one thread. The news, the banter, your mates and every result, together in a single experience that brings the hype. Unlock pure bragging rights, every moment, all season.\n\nThe social sports app where every call matters\nMake your picks, rep your fandom, and earn bragging rights.\n\nFlex your fandom with social picks\nLock in your picks and battle it out on the leaderboard to show who's best.\n\nBuilt for every live moment:\nLive match data and playful shotcalls all in one place.\n\nGroup chat that brings the hype:\nGoals, news, picks, banter, and reactions all live in the same thread.\n\nFresh content to keep you in the know:\nCatch the highlights and updates to power your biggest shotcalls and debates. Every moment, all season.\n\nKey Features\n• Private Hu",
+   "country": "us"
+  },
+  {
+   "name": "EA Racenet",
+   "artist": "Electronic Arts",
+   "genre": "Games",
+   "price": "Free",
+   "released": "2023-06-29",
+   "updated": "2026-04-14",
+   "version": "1.4.24",
+   "rating": 4.71,
+   "ratings": 295,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/ea-racenet/id1672097548",
+   "desc": "Racenet is EA's Racing companion platform for players to find and compete in leagues, connect with others, compare lap times, improve on-track performance and enhance their gameplay experience. \n\nRacenet is compatible with all the latest racing titles from Codemasters and has the following features: \nTime Trial Telemetry Analysis - dive into the data to look at your on-track performance and isolate the areas you want to improve, from braking points to acceleration techniques. You can compare your performance against your friends as well as any driver on the Time Trial leaderboard. Master the racing line and cross the finish line first.\nIn-game Stats - You total wins, podium finishes, number of laps driven, and so much more.",
+   "country": "us"
+  },
+  {
+   "name": "Plants vs Zombies™ Stickers",
+   "artist": "Electronic Arts",
+   "genre": "Stickers",
+   "price": "Free",
+   "released": "2016-10-18",
+   "updated": "2016-10-18",
+   "version": "1.0",
+   "rating": 4.46,
+   "ratings": 215,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/plants-vs-zombies-stickers/id1148184908",
+   "desc": "Bring the eternal struggle between plants and zombies into every iMessage with Plants vs. Zombies stickers! Have you often thought the best way to communicate would actually be a dancing Imp zombie? Or have you always wanted to put a Peashooter at the end of a message to your best friend to demonstrate your growing friendship? Now you can do just that and more, with over 90 different static and 20 animated zombie and plant stickers – and a garden’s worth of combinations – to play with in iMessage. The zombies, and the plants, are coming . . . to your texts!\n\nThe PvZ World Is Yours \nDiscover all your plant and zombie favorites from the botanical battle (plus a few new ones), including genius zombie leader Dr. Zomboss and heroic horticulturist Crazy Dave. Flex your zombie muscle with Super Brainz, unleash powerful punch-osity with an animated Bonk Choy, #brains everyone in your address boo",
+   "country": "us"
+  },
+  {
+   "name": "The Sims™ Sticker Pack",
+   "artist": "Electronic Arts",
+   "genre": "Stickers",
+   "price": "Free",
+   "released": "2018-02-06",
+   "updated": "2018-02-06",
+   "version": "1.0",
+   "rating": 3.36,
+   "ratings": 155,
+   "kind": "software",
+   "url": "https://apps.apple.com/us/app/the-sims-sticker-pack/id1324259192",
+   "desc": "Hey, Simmers! Use these fun and vibrant stickers in iMessage, inspired by The Sims 4 and The Sims Mobile games. Express your love for The Sims by sharing unique thought bubbles and creative icons.\n\nWant to send a llama to your mama, or tell your friends you’re craving cake? You can definitely do that. Did someone send you a selfie? Put a Plumbob on it!\n\nWith over 40 different static stickers to choose from, there are lots of ways to show your love for The Sims. Download now to play with life, and make your messages more fun.\n\n\nUser Agreement: http://terms.ea.com\nPrivacy and Cookie Policy: privacy.ea.com/en\nVisit http://help.ea.com/en/# for assistance or inquiries.\nEA may retire online features after 30 days’ notice posted on ea.com/service-updates.",
+   "country": "us"
+  }
+ ]
+}

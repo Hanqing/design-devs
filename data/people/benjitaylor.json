@@ -1,0 +1,164 @@
+{
+ "name": "Benji Taylor",
+ "role": "SpaceX：X 与 SpaceXSI 设计负责人 · 前 Base（Coinbase）设计负责人 · Family、Honk 创始人 · Agentation、Liveline 作者",
+ "title": "Benji Taylor：为<em>界面卓越</em>做工具",
+ "dek": "他生于伦敦，住在洛杉矶。他创办过消费软件公司 Los Feliz Engineering，做出实时聊天应用 Honk 和自托管加密钱包 Family；公司被 Aave Labs 收购后，他在那里担任首席产品官；之后他领导了 Coinbase 旗下 Base 的设计。现在他在 SpaceX 担任 X 和 SpaceXSI 的设计负责人，X 上有二十多万关注者。他喜欢做「为界面卓越而生」的开源工具：他是 cmdk 新家 Dip 的成员；2026 年他接连发布了 Agentation（在页面上点选元素、写下批注，生成结构化输出给 AI 编程 Agent，★5 千）、实时动画折线图 Liveline，以及「七支笔都像真的笔」的 React 绘图工具栏 Drawesome。",
+ "card": "SpaceX：X 与 SpaceXSI 设计负责人；前 Base 设计负责人、Aave Labs CPO；Family、Honk 创始人；Agentation（★5 千）作者。",
+ "location": "美国洛杉矶（生于伦敦）",
+ "updated": "2026-10-23",
+ "tags": ["产品设计", "开源组件", "AI 工作流", "加密钱包", "消费软件"],
+ "links": [
+  {"label": "benji.org", "url": "https://benji.org"},
+  {"label": "Agentation", "url": "https://agentation.com"},
+  {"label": "Liveline", "url": "https://benji.org/liveline"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I enjoy building and maintaining open source tools for interface excellence, such as cmdk, Agentation, Liveline, and Drawesome.」",
+  "<strong>经历：</strong>Los Feliz Engineering 创始人（Honk、Family）→ 被 Aave Labs 收购，任 CPO → Base（Coinbase）设计负责人 → SpaceX：X 与 SpaceXSI 设计负责人。",
+  "<strong>代表作：</strong>Agentation（★5,036）、ConnectKit（★1,076）、Liveline（★972）、Drawesome（★330）、Family 钱包、Honk。",
+  "<strong>关键数字：</strong>X 关注者约 22.7 万；GitHub 近一年贡献 3,544 次。"
+ ],
+ "lead": "2026 年 10 月，Benji 分享了团队的一个做法：给整个团队配一个「懂我们品牌」的 Grok Bot，现在任何人都能在几秒内做出一份好看的幻灯片，「我也不用担心有人用错字体」。背后是一个自定义品牌工具，在设计团队划定的边界内生成素材，再通过内部 API 交给机器人调用。这是他一贯的思路：设计负责人的工作，越来越像为别人搭好不会出错的工具。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计负责人、创始人、开源作者"],
+     ["所在地", "美国洛杉矶（生于英国伦敦）"],
+     ["现任", "SpaceX：X 与 SpaceXSI 设计负责人"],
+     ["经历", "Los Feliz Engineering 创始人 → Aave Labs CPO → Base（Coinbase）设计负责人"],
+     ["开源", "Agentation、Liveline、Drawesome、ConnectKit；Dip 团队成员（cmdk）"],
+     ["技术栈", "TypeScript、React、Canvas"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "在 X，Benji 带领设计团队「改进一切」：比如给 X 官方博客做了改版。他也用 Grok Bot 加速实体产品原型：给它草图和 3D 模型，让它帮忙出技术图、准备询价单、和制造商沟通。"},
+    {"p": "他的开源工具都很专注：<strong>Agentation</strong> 是一个不绑定特定 Agent 的视觉反馈工具，点选页面元素、加批注，复制出结构化信息，帮 AI 编程 Agent 准确找到你指的代码；<strong>Liveline</strong> 是用 canvas 渲染、60 帧、无需引入 CSS 的实时折线图和 K 线图；<strong>Drawesome</strong> 的橡皮擦擦的是面积而不是整条笔画，可以导出 SVG 或 PNG。"},
+    {"note": "本页依据 benji.org、agentation.com、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。各段经历的起止年份未在其网站上写明。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "Los Feliz Engineering", "text": "创办消费软件公司，做出 Honk 和 Family。"},
+     {"when": "此后", "title": "Aave Labs", "text": "公司被 Aave Labs 收购，任首席产品官。"},
+     {"when": "此后", "title": "Base", "text": "领导 Coinbase 旗下 Base 的设计。"},
+     {"when": "2024–2025", "title": "写作", "text": "《Family Values》（2024）、《Honkish》（2025）。"},
+     {"when": "2026", "title": "SpaceX 与开源", "text": "任 X 与 SpaceXSI 设计负责人；发布 Agentation、Liveline、Drawesome，写《Annotating for agents》《Morphing icons with Claude》。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Agentation", "url": "https://agentation.com",
+     "meta": ["2026", "TypeScript", "★5 千"],
+     "paras": [
+      "「The visual feedback tool for agents.」与具体 Agent 无关：在页面上点选、写备注，复制结构化输出，交给任何编程 Agent。"
+     ],
+     "facts": [["GitHub", "★5,036"]]
+    }},
+    {"work": {
+     "name": "Family", "url": "https://family.co",
+     "meta": ["加密钱包", "自托管"],
+     "paras": [
+      "Los Feliz Engineering 做的自托管加密钱包，以精致的设计著称。团队开源的 ConnectKit 让 dApp 连接钱包变得简单。"
+     ]
+    }},
+    {"work": {
+     "name": "Liveline", "url": "https://benji.org/liveline",
+     "meta": ["2026", "React 图表", "★972"],
+     "paras": [
+      "实时动画折线图：单线、多系列和 K 线模式，canvas 渲染，60 帧，零 CSS 依赖。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Drawesome", "React 绘图工具栏，七种笔、面积橡皮擦、SVG/PNG 导出"],
+      ["Honk", "实时聊天应用"],
+      ["ConnectKit", "dApp 钱包连接组件库（★1,076）"],
+      ["cmdk", "作为 Dip 团队成员参与维护"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://benji.org", "paras": [
+     "个人网站顶部标着「Updated Aug 22, 2026」，一段话讲完出生地、所在地、现职和经历，再列出开源工具和七篇文章。文章多是开源项目的介绍和设计过程，比如用 Claude 做形变图标。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Netlify"],
+      ["结构", "自述 + 文章列表"],
+      ["节奏", "2026 年每月左右一篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-07-29", "title": "Drawesome", "url": "https://benji.org"},
+     {"date": "2026-01-21", "title": "Agentation", "url": "https://benji.org"},
+     {"date": "2026-01-16", "title": "Annotating for agents", "url": "https://benji.org"},
+     {"date": "2026-01-13", "title": "Morphing icons with Claude", "url": "https://benji.org"},
+     {"date": "2024-07-08", "title": "Family Values", "url": "https://benji.org"}
+    ]},
+    {"quote": "I no longer see any compelling reason to believe that taste is some permanent boundary LLMs won’t cross. It’s already happening.", "cite": "Benji Taylor，X，2026-10"},
+    {"p": "他还说：「我们回头看『一刀切』的软件，会像今天回看只有三个频道的电视时代。」"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["设计", "消费产品和加密产品设计经验丰富", "—"],
+      ["开源", "工具专注、好用", "多为 2026 年新项目"],
+      ["影响力", "设计圈关注度高", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>给团队搭不会出错的工具。</strong>",
+     "<strong>反馈要结构化，Agent 才能准确执行。</strong>",
+     "<strong>开源小工具也能体现品味。</strong>",
+     "<strong>把 AI 用到实体产品上。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Agentation", "url": "https://agentation.com", "why": "给 Agent 指出你要改的那个元素。"},
+     {"name": "Liveline", "url": "https://benji.org/liveline", "why": "做一个流畅的实时图表。"},
+     {"name": "benji.org", "url": "https://benji.org", "why": "读《Annotating for agents》。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "给你的团队做一个「只能在品牌规范内生成素材」的小工具，哪怕只是一个固定字体和配色的幻灯片模板。",
+ "sources": [
+  {"label": "Benji Taylor 的 X 个人资料", "url": "https://x.com/benjitaylor"},
+  {"label": "benji.org", "url": "https://benji.org"},
+  {"label": "Agentation", "url": "https://agentation.com"},
+  {"label": "GitHub：benjitaylor", "url": "https://github.com/benjitaylor"},
+  {"label": "Dip", "url": "https://dip.org"}
+ ]
+}

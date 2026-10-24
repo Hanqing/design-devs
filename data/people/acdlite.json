@@ -1,0 +1,155 @@
+{
+ "name": "Andrew Clark",
+ "role": "React 核心团队 · Hooks、Suspense、Server Components 参与者 · Next.js / Vercel · 纽约曼哈顿",
+ "title": "Andrew Clark：从 Recompose 到 <em>Hooks</em>",
+ "dek": "他住在纽约曼哈顿，是 React 核心团队成员，现在在 Vercel 做 Next.js。他的个人网站只有两句话：「我是 React 的核心贡献者。我参与过的项目包括 Hooks、Suspense 和 Server Components。」在加入 React 团队之前，他写了 Recompose（★1.5 万），一个给函数组件和高阶组件用的工具集。2018 年 Hooks 提案公布当天，他在 Recompose 的 README 里写道：Hooks 解决了我三年前想用 Recompose 解决的所有问题，而且更多。他还写过一篇解释 React 新核心算法的《React Fiber Architecture》（★1.3 万），成为很多人理解 Fiber 的入门文档。早年他也做过 Flux 库 Flummox 和 redux-router。",
+ "card": "React 核心团队（Hooks、Suspense、Server Components）；Next.js / Vercel，纽约。Recompose、React Fiber Architecture 作者。",
+ "location": "美国纽约",
+ "updated": "2026-10-23",
+ "tags": ["React", "Next.js", "并发渲染", "框架设计", "开源"],
+ "links": [
+  {"label": "andrewclark.io", "url": "https://andrewclark.io"},
+  {"label": "React Fiber Architecture", "url": "https://github.com/acdlite/react-fiber-architecture"},
+  {"label": "GitHub：acdlite", "url": "https://github.com/acdlite"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I'm a core contributor to React. Some of the projects I've worked on include Hooks, Suspense, and Server Components.」",
+  "<strong>代表作：</strong>React Hooks、Suspense、Server Components（参与）、Recompose（★14,754）、React Fiber Architecture（★13,040）、redux-router（★2,278）、Flummox（★1,681）、redux-rx。",
+  "<strong>关键数字：</strong>X 关注者约 7.4 万、推文约 2.2 万条；GitHub 粉丝约 1.5 万。",
+  "<strong>经历：</strong>写 Recompose → 约 2016 年加入 React 团队 → Vercel / Next.js。"
+ ],
+ "lead": "2026 年 10 月，他发了一条让很多工程师感慨的帖子：「十年前，我在 React Fiber 的一个难题上卡住了，花了好几天设计和迭代一个模糊测试器，它最终发现了一堆细微的边界情况，帮我找到了解法。今天，一个模糊测试器就这样出现在了我的代码库里。噗。」几周前，他还提出了一个新概念：「Value Over Slop」，衡量一个框架或库比一个几乎没人引导、由 AI 生成的替代品好多少。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "React 核心团队成员"],
+     ["所在地", "美国纽约曼哈顿"],
+     ["工作", "Vercel（Next.js）"],
+     ["参与", "Hooks、Suspense、Server Components、Fiber"],
+     ["技术栈", "JavaScript"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Andrew 现在的工作横跨<strong>React 和 Next.js</strong>：让静态内容和用户个性化内容（比如购物车）能在同一个页面混合，又不带来意外的服务器成本；让导航变得「即时」，并用一个 <code>instant()</code> 测试来验证页面结构（是否可缓存、有没有足够的加载骨架），不受网络条件干扰。他说 2026 年 8 月的一个版本里，有些东西他从 2017 年第一个 Suspense 原型起就在思考。"},
+    {"p": "他也很关注底层性能：他发现 V8 的 JIT 不会内联 <code>Atomics</code>，<code>a[1]</code> 只要 2 条指令，而 <code>Atomics.load</code> 要大约 130 条，于是自己去给 V8 提了补丁。他对 React 的 <code>&lt;ViewTransition&gt;</code> 很兴奋，但坦言浏览器 API 还有很多粗糙的地方。"},
+    {"note": "本页依据 andrewclark.io、GitHub 仓库与 README（包括 Recompose 的作者说明）和 X 帖子整理，资料截至 2026 年 10 月。他在 Meta 与 Vercel 的具体任期未核实。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2014–2015", "title": "Flux 与 Redux 生态", "text": "Flummox、redux-router、redux-rx 等库。"},
+     {"when": "2015", "title": "Recompose", "text": "函数组件与高阶组件工具集。"},
+     {"when": "约 2016", "title": "加入 React 团队", "text": "写《React Fiber Architecture》；参与 Fiber 重写。"},
+     {"when": "2017–2018", "title": "Suspense 与 Hooks", "text": "第一个 Suspense 原型；2018 年 Hooks 提案公布，Recompose 停止维护。"},
+     {"when": "此后", "title": "Server Components", "text": "参与 Server Components；加入 Vercel 做 Next.js。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "React Fiber Architecture", "url": "https://github.com/acdlite/react-fiber-architecture",
+     "meta": ["2016", "文档", "★1.3 万"],
+     "paras": [
+      "「A description of React's new core algorithm, React Fiber」解释调和、调度、优先级和可中断渲染，是理解并发 React 的经典读物。"
+     ],
+     "facts": [["GitHub", "★13,040"]]
+    }},
+    {"work": {
+     "name": "Recompose", "url": "https://github.com/acdlite/recompose",
+     "meta": ["2015–2018", "JavaScript", "★1.5 万"],
+     "paras": [
+      "「A React utility belt for function components and higher-order components.」作者说明写道：Hooks 解决了 Recompose 想解决的所有问题，因此停止积极维护。"
+     ]
+    }},
+    {"work": {
+     "name": "React Hooks", "url": "https://react.dev/reference/react/hooks",
+     "meta": ["2018–", "React", "参与"],
+     "paras": [
+      "让函数组件拥有状态和副作用，是 React 历史上最重要的 API 变化之一。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["redux-router", "把路由状态放进 Redux store（★2,278）"],
+      ["Flummox", "极简、同构的 Flux 实现（★1,681）"],
+      ["suspense-ssr-demo", "2018 年的 Suspense 服务器渲染演示"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://andrewclark.io", "paras": [
+     "个人网站极简到只有一句自我介绍和两个链接（X 和 GitHub），用 Next.js 搭建，托管在 Vercel 上。他的观点主要发表在 X 上。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel"],
+      ["内容", "一句话 + 两个链接"],
+      ["主要平台", "X（约 2.2 万条推文）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Value Over Slop (VOS): how much better a framework, library, or other piece of software is compared to a minimally-steered, AI-generated replacement", "cite": "Andrew Clark，X，2026-09"},
+    {"p": "在 React Flight 安全漏洞引发批评时，他回应说漏洞确实严重，应该审视原因，但「任何公正的人都不会把原因归结为草率或缺乏严谨」，这个协议的设计倾注了多年的心血。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "参与 React 近十年的核心变化", "—"],
+      ["深度", "从框架到 JIT 都钻研", "—"],
+      ["公开信息", "—", "个人网站几乎无内容"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>当官方方案更好时，坦然停止维护自己的库。</strong>",
+     "<strong>用文档帮大家理解复杂架构。</strong>",
+     "<strong>用模糊测试找边界情况。</strong>",
+     "<strong>长期坚持一个方向：</strong>从 2017 年的 Suspense 原型到今天。"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "React Fiber Architecture", "url": "https://github.com/acdlite/react-fiber-architecture", "why": "理解 React 的核心算法。"},
+     {"name": "Recompose 作者说明", "url": "https://github.com/acdlite/recompose", "why": "读一个库如何体面地退场。"},
+     {"name": "Next.js：保持页面静态", "url": "https://nextjs.org/docs/app/guides/keeping-pages-static", "why": "看他最近在做的事。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "读完《React Fiber Architecture》，试着用自己的话解释「可中断渲染」是什么。",
+ "sources": [
+  {"label": "Andrew Clark 的 X 个人资料", "url": "https://x.com/acdlite"},
+  {"label": "andrewclark.io", "url": "https://andrewclark.io"},
+  {"label": "GitHub：acdlite", "url": "https://github.com/acdlite"},
+  {"label": "GitHub：recompose", "url": "https://github.com/acdlite/recompose"},
+  {"label": "GitHub：react-fiber-architecture", "url": "https://github.com/acdlite/react-fiber-architecture"}
+ ]
+}

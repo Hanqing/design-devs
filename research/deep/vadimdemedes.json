@@ -1,0 +1,495 @@
+{
+ "handle": "vadimdemedes",
+ "sites": [
+  {
+   "url": "https://vadimdemedes.com",
+   "ok": true,
+   "title": "Vadim's website",
+   "description": "Maker of apps and open source projects",
+   "stack": [
+    "Astro",
+    "Plausible",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Vadim Demedes \nI enjoy creating apps and open source projects. I post what I work on and\n what I made in my worklog . I also publish the notes from books I've read.\nI'm @vadimdemedes on \nTwitter \nand \nGitHub . You can also email me .\nProjects \n Darkmatter — Edit Astro content collections in a CMS-like interface. \n Pastel — Next.js-like framework for CLIs. \n Ink UI — Collection of customizable UI components for CLIs. \n Linkjar — Read-it-later app for reading without internet. \n Dense Discovery Respond — Conversations between Dense Discovery readers and newsletter guests. \n Confectionery — Browser for taking perfect website screenshots. \n ThemeMirror — Beautiful themes for CodeMirror. \n Reviewbunny — Daily reminders for pull request reviews. \n Rosefinch — Postman for SQL databases. \n Daft Punk Cafe — Radio and games for Daft Punk fans. \n Pulse — Plausible Analytics in the menubar. \n Lotus — Manage GitHub notifications. \n Dense Discovery Index — Catalog of content from Dense Discovery newsletter. \n Ink — Use React to create CLI apps. \nBlog \n Moving on from Ink \n Generating income from open source \n 2022 in review \n Why would a company open source anything? \n Generating ideas, the easy way \n Shutting down Reviewbunny \n Don't make me think, or why I switched to Rails from JavaScript SPAs \n 2021 in review \n Ink 3 \n Creating CLIs with Ink, React and a bit of magic \n Building rich command-line interfaces with Ink and React \n Making your first contribution \n How I build MVPs within 3 days \n Make your readme shine bright like a diamond",
+   "github_links": [
+    "vadimdemedes"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://getdarkmatter.dev",
+   "ok": true,
+   "title": "Darkmatter - CMS for Astro content collections",
+   "description": "Darkmatter scans your Astro content collections and generates an interface for managing their content.",
+   "stack": [
+    "Astro v3.1.1",
+    "Astro",
+    "Plausible"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Darkmatter\n Open main menu \nDarkmatter\n Close main menu \nEdit Astro content collections in a CMS‑like interface you\n already know\nDarkmatter converts Astro 's collections config into a UI anyone can\n use to manage your website content.\nDownload for free\nMade for macOS.\n Blog \n Posts \n What is Darkmatter? \nDarkmatter is a CMS-like interface for [ Astro ]( https://astro.build ) content collections.\nCreate, edit and delete collection entries in a UI that adapts to\n each collection's Zod schema.\nFill out frontmatter as regular form. \nDrag & drop images into Markdown from anywhere. \nCommit and push to git directly from Darkmatter. \nGet back to writing. Darkmatter will handle the rest.\nSlug\nStatus\n Draft \n Published \nFrontmatter\nTitle\nDate\nCustom-made editor for \n Astro content collections\nDarkmatter scans Zod collection schemas and generates a form\n interface. \nFill out the frontmatter\n without peeking at the config or googling the YAML date format ever\n again.\n VS Code \ncontent/blog/example-post.md\ncontent/config.js\n --- \n title:\n featured: \n date:\n --- \npre]:!bg-transparent [&_a:hover]:underline [&_a]:underline-offset-2\" aria-labelledby=\"editor-demo-trigger-config\" role=\"tabpanel\" hidden data-astro-cid-3uaaamce>\n const posts = defineCollection ({ \n schema : zod .object ({ \n title : zod .string () , \n featured : zod .boolean () , \n date : zod .date () \n }) \n }); \n export const collections = {posts}; \n Darkmatter \n Title \n Featured \n Date \n First-class treatment for \nimages in Markdown\nAdding an image is only one drag & drop away.\nDarkmatter copies it into your project, puts it in the right folder and\n inserts image's URL.\n image.png \n Darkmatter \n # Mountain Trip \nCheck out these mountains I saw: \nDrag & drop the image here...\n Preview images \nImages are rendered inside the editor, so you don't have to guess\n what image is that by looking at the URL.\n <Image> support \nWhen editing MDX files, images are inserted as <Image> components.\n Add images in bulk \nDrag & drop or paste multiple images at once.\n Paste from anywhere \nDrag & drop is cool, but copy pasting images without downloading\n is even cooler.\n Commit and push \nwithout terminal\nJumping back and forth between your editor and terminal to run a few\n git commands is annoying. \nAnd with\n Darkmatter, it stops now.\n Darkmatter \n Publish post \n Message Publish a blog post about our new product features \n Publish Post \n Publish Post \n my-astro-blog.com \n My Astro Blog New blog post \n Preview \nAstro dev server starts up automatically, so you can preview how\n the content would look on the actual website before publishing.\n Commit \nDarkmatter prefills the commit message for you, but you can\n still customize it as needed.\n Push \nDarkmatter runs the necessary git commands to push your changes to the repository, so you can keep\n your terminal closed.\nAstro content editing accessible \nto\n everyone on your team\nCopywriters, marketers and customer success teams can edit any\n content without programming skills. \nAt the same time, developers continue enjoying and being\n productive with Astro.\n Finder \nsrc\ncontent\nposts\n how-our-team-uses-astro-to-build-our-website.md \n everything-you-need-to-know-about-view-transitions.md \n Darkmatter \n Posts New Post \n Title Status Date \n How our team uses Astro to build our website Draft 4/9/2023 \n Everything you need to know about view transitions Published 1/9/2023 \n Using Darkmatter to edit Astro website Published 24/8/2023 \n Adding islands of interactivity Published 28/6/2023 \n Introducing content collections Published 17/6/2023 \n Zero file clutter \nDarkmatter handles the naming and correct organization of files,\n leaving you to work with a nice interface made for writing.\n No technical knowledge required \nOnce you install Darkmatter and point it to a git repository,\n your clients or teammates can start managing content on their\n own.\n One-click website updates \nThere's no need to know what a git pull is. When there are new commits, your teammates will see a notification\n to update in a click.\nDarkmatter\nAstro.\nIt's a match made in the stars.\nAstro has made building content-first websites a joyful and fun\n endeavour.\nDarkmatter is the perfect companion for your content on this space ride.\nDownload for free\nMade for macOS.",
+   "github_links": [],
+   "subpages": {
+    "http://getdarkmatter.dev/blog": "Darkmatter\n / \nBlog\n Open main menu \nDarkmatter\n Close main menu \nDark mode, license manager and font settings \nIt’s going to be a short update this time, because I’ve been focusing on the last 5% remaining to launch Darkmatter. \nDark mode \nIt’s funny that dark mode was among the last things I’ve shipped given the name of the app, but better late than never. Here’s a few screenshots, I think it looks pretty good. \nLicense manager \nI’ve already built several tiny apps to manage license keys for my other apps, but they were pretty basic and didn’t support per-seat billing. This meant I couldn’t implement the pricing I wanted. \nI’ve always wanted to have one place to integrate with Paddle and manage license keys for all my apps, so I don’t have to maintain a separate server for each of them. \nSo that’s what I was working on this week. It’s a tiny project, that: \nGenerates a license key when a customer buys my app on Paddle. \nManages activation/deactivation of devices for each license. \nHas an Electron library, which takes care of free trials and license management. \nFont settings \nI’ve postponed this for a while, but there were folks who were asking to customize the font long time ago. Finally, it’s shipped.\nI decided to go beyond a basic list of all available fonts. Font settings feature a custom menu component, which categories the fonts into 3 sections: default system font, custom fonts you have added yourself and fonts that came with the system. All items use the font they represent to render their label too. \nI’ve mostly stopped working on the new features and I moved the focus to implementing the billing, designing the full version of the website and writing documentation. It’s time for the last-minute preparations ahead of launch. \nThis is the part where I struggle the most. Once designing and coding stops, it’s not that much fun anymore and it’s easy for me to lose motivation. But, I’m proud of what I built and I want everyone else to experience what Darkmatter has to offer. \nIt’s been amazing writing this newsletter for the past two months and even more amazing talking to you in replies 💙 \nStay tuned for the final push and a launch announcement very, very soon! \nEarlier posts \n — Preview, commit and push to git from Darkmatter \n — macOS-style focus rings, union fields, new date handling and more \n — Write your Astro content in multiple languages \n — New Astro assets API, data collections and other updates \n — So what's left for launch? \n — Acquire Markdown superpowers \n — Niching down on Astro \n — The making of Darkmatter's landing page \n — Announcing Darkmatter \nFollow the development\nDarkmatter is in active development and may launch next month.\nFollow the updates, get early access and watch the building process.\n Subscribe \nIf email is not your thing, read the blog or follow on Twitter ."
+   },
+   "feed": {
+    "url": "http://getdarkmatter.dev/rss.xml",
+    "count_seen": 10,
+    "items": [
+     {
+      "title": "Announcing Darkmatter",
+      "date": "Fri, 23 Jun 2023 00:00:00",
+      "url": "https://getdarkmatter.dev/blog/announcing-darkmatter/"
+     },
+     {
+      "title": "The making of Darkmatter's landing page",
+      "date": "Fri, 30 Jun 2023 15:42:18",
+      "url": "https://getdarkmatter.dev/blog/the-making-of-darkmatters-landing-page/"
+     },
+     {
+      "title": "Niching down on Astro",
+      "date": "Sun, 09 Jul 2023 10:16:06",
+      "url": "https://getdarkmatter.dev/blog/niching-down-on-astro/"
+     },
+     {
+      "title": "Acquire Markdown superpowers",
+      "date": "Sun, 16 Jul 2023 07:06:21",
+      "url": "https://getdarkmatter.dev/blog/acquire-markdown-superpowers/"
+     },
+     {
+      "title": "So what's left for launch?",
+      "date": "Sun, 23 Jul 2023 16:09:51",
+      "url": "https://getdarkmatter.dev/blog/so-whats-left-for-launch/"
+     },
+     {
+      "title": "New Astro assets API, data collections and other updates",
+      "date": "Sat, 29 Jul 2023 11:40:01",
+      "url": "https://getdarkmatter.dev/blog/new-astro-assets-api-data-collections-and-other-updates/"
+     },
+     {
+      "title": "Write your Astro content in multiple languages",
+      "date": "Sat, 05 Aug 2023 13:18:19",
+      "url": "https://getdarkmatter.dev/blog/write-your-astro-content-in-multiple-languages/"
+     },
+     {
+      "title": "macOS-style focus rings, union fields, new date handling and more",
+      "date": "Sat, 12 Aug 2023 00:00:00",
+      "url": "https://getdarkmatter.dev/blog/mac-os-style-focus-rings-union-fields-new-date-handling-and-more/"
+     },
+     {
+      "title": "Preview, commit and push to git from Darkmatter",
+      "date": "Sun, 20 Aug 2023 00:00:00",
+      "url": "https://getdarkmatter.dev/blog/preview-commit-and-push-to-git-from-darkmatter/"
+     },
+     {
+      "title": "Dark mode, license manager and font settings",
+      "date": "Wed, 30 Aug 2023 00:00:00",
+      "url": "https://getdarkmatter.dev/blog/dark-mode-license-manager-and-font-settings/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  },
+  {
+   "url": "http://linkjar.app",
+   "ok": true,
+   "title": "Linkjar — Save web pages for offline reading",
+   "description": "Download full web page copies to your computer and read them even without internet.",
+   "stack": [
+    "Next.js"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "",
+   "home_text": "Save interesting stuff and \nread it offline \nLinkjar downloads a full copy of a web page and stores it locally, so you\n can catch up on all those posts any time, even without internet. \nLinkjar is not available anymore. \nWhy another read-it-later app? \nThere is no shortage of great read-it-later apps out there. I needed something different though. \nThere are daily power outages in Ukraine, when Wi-Fi and cellular internet are down. We've been given the gift of distraction-free time. \nUkrainians take this opportunity to read books, take a walk or do house chores. I wanted to finally read hundreds of articles that I've been bookmarking daily. \nThat's why I made Linkjar. \nIt's a simple read-it-later app that downloads a full copy of a web page, instead of only saving its URL. Everything is stored on my computer, not in the cloud, so I can read articles offline and learn new stuff during blackouts. \nI sincerely hope you won't need Linkjar, but if you do, enjoy! \nHow it works? \n Step 1 \nAdd links to Linkjar \nWhen you stumble upon something interesting, use a keyboard shortcut to add a link from anywhere. \n ⇧ shift \n ⌘ command \n 9 \n Step 2 \nRead and learn \nLinkjar downloads full copies of web pages you add, including stylesheets and images, so you can open links as if you were online. \nfile:///Downloads/Linkjar/sive.rs/shc \nDerek Sivers \nStatic HTML Comments \n Step 3 \nCurate your library \nCreate jars for various topics and move the most interesting content into them. Your own private library of the best stuff you find online. \n Books \n Open source \n Startups \n New jar \nTake interesting content off the grid \nI made this app with these \nprinciples in mind: \n No ads \n No tracking \n No recommendations \n No social features \n No notifications \n No growth hacks \nLinkjar became a useful blackout companion for me and I hope it will be handy \n for you too.",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "http://confectioneryapp.com",
+   "ok": true,
+   "title": "Confectionery: Clean website screenshots for macOS",
+   "description": "A minimalist macOS browser that keeps tabs, toolbars, extensions, and other browser clutter out of your website screenshots.",
+   "stack": [],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "Confectionery \nBeautiful website screenshots.\n Without the browser clutter. \nConfectionery is a minimalist browser for macOS.\n No tabs, toolbars, or other noise to distract from your design. \n Download for Mac \nYour design deserves the whole frame \nTabs, toolbars, and extensions distract from your work.\n Useful for browsing. Not for design screenshots. \n 1 2 3 \n 1 Tabs take up space \n 2 Oversized, colorful toolbar \n 3 Toolbar packed with controls Chrome browser clutter marked with numbered pins and a legend. \nFirefox brings the clutter too \nDifferent browser, same distractions. \n 1 2 3 \n 1 Tabs are always visible \n 2 More toolbar than one tab needs \n 3 Another crowded toolbar Firefox browser clutter marked with numbered pins and a legend. \nSurely Safari is better? \nIt's cleaner, but the toolbar and browser controls still compete with your design. \n 1 2 3 \n 1 Extensions stay visible \n 2 Controls surround the address bar \n 3 Toolbar still in the screenshot Safari browser clutter marked with numbered pins and a legend. \nEnter Confectionery \nMinimalism, at last.\nYour design gets the undivided attention it deserves. \n 1 No tabs, address bar, or extensions \n 2 Window color adapts to your website \n 3 Full focus on your design Confectionery displays the website without browser clutter. \n Confectionery \nReady for a cleaner screenshot? \nMade for Mac. Yours for free. Download for Mac",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "vadimdemedes",
+  "user": {
+   "name": "Vadim Demedes",
+   "company": null,
+   "blog": "https://vadimdemedes.com",
+   "location": "Ukraine",
+   "bio": "Maker of apps and open source projects.",
+   "public_repos": 191,
+   "followers": 2723,
+   "created_at": "2011-03-29T17:04:00Z",
+   "twitter_username": "vadimdemedes",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "vadimdemedes/ink",
+    "description": "🌈 React for interactive command-line apps",
+    "stargazers_count": 40154,
+    "forks_count": 1063,
+    "language": "TypeScript",
+    "homepage": "https://term.ink",
+    "created_at": "2017-06-12T06:12:28Z",
+    "pushed_at": "2026-10-03T11:21:19Z",
+    "topics": [
+     "cli",
+     "command-line",
+     "flexbox",
+     "interactive",
+     "javascript",
+     "react"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/tailwind-rn",
+    "description": "🦎 Use Tailwind CSS in React Native projects",
+    "stargazers_count": 4264,
+    "forks_count": 172,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2020-03-08T13:14:48Z",
+    "pushed_at": "2025-04-14T21:58:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/pastel",
+    "description": "🎨 Next.js-like framework for CLIs made with Ink",
+    "stargazers_count": 2409,
+    "forks_count": 44,
+    "language": "TypeScript",
+    "homepage": "https://term.ink/pastel",
+    "created_at": "2019-04-21T04:30:30Z",
+    "pushed_at": "2026-03-21T09:49:14Z",
+    "topics": [
+     "cli",
+     "command-line",
+     "ink",
+     "react"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/trevor",
+    "description": "🚦 Your own mini Travis CI to run tests locally",
+    "stargazers_count": 2097,
+    "forks_count": 51,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-10-01T08:31:55Z",
+    "pushed_at": "2019-11-23T20:08:15Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/ink-ui",
+    "description": "💄 Ink-redible command-line interfaces made easy",
+    "stargazers_count": 2075,
+    "forks_count": 33,
+    "language": "TypeScript",
+    "homepage": "https://term.ink/ui",
+    "created_at": "2023-04-27T12:56:48Z",
+    "pushed_at": "2024-05-22T12:20:07Z",
+    "topics": [
+     "ink",
+     "react",
+     "terminal",
+     "tui",
+     "tuikit",
+     "ui",
+     "uikit"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/mongorito",
+    "description": "🍹 MongoDB ODM for Node.js apps based on Redux",
+    "stargazers_count": 1363,
+    "forks_count": 86,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2012-02-16T09:53:59Z",
+    "pushed_at": "2020-03-24T17:23:14Z",
+    "topics": [
+     "mongodb",
+     "odm"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "vadimdemedes/gifi",
+    "description": "watch GIFs while running npm install",
+    "stargazers_count": 1020,
+    "forks_count": 29,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2016-02-23T20:54:47Z",
+    "pushed_at": "2017-03-05T11:02:34Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/draqula",
+    "description": "🧛 GraphQL client for minimalistic React apps",
+    "stargazers_count": 762,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": "https://draqulajs.com",
+    "created_at": "2019-08-25T01:39:40Z",
+    "pushed_at": "2020-04-04T06:58:44Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "vadimdemedes/pronto",
+    "description": "⚡ The now.sh experience for databases",
+    "stargazers_count": 690,
+    "forks_count": 24,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2017-08-10T19:02:21Z",
+    "pushed_at": "2017-08-12T08:34:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/cancan",
+    "description": "🔑 Pleasant authorization library for Node.js",
+    "stargazers_count": 624,
+    "forks_count": 36,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2015-01-18T20:22:50Z",
+    "pushed_at": "2019-09-10T17:28:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/dom-chef",
+    "description": "🍔 Build DOM elements using JSX automatically",
+    "stargazers_count": 531,
+    "forks_count": 15,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2017-06-30T16:39:14Z",
+    "pushed_at": "2026-07-17T10:09:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/lanterns",
+    "description": "⛩Write Markdown and get a GraphQL API for querying them for free",
+    "stargazers_count": 351,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2018-03-03T18:06:34Z",
+    "pushed_at": "2018-03-11T12:00:54Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/google-images",
+    "description": "Search for images using Google Images",
+    "stargazers_count": 305,
+    "forks_count": 72,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2011-12-02T16:59:57Z",
+    "pushed_at": "2022-07-17T03:29:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/ronin",
+    "description": "Toolkit for killer CLI applications",
+    "stargazers_count": 298,
+    "forks_count": 15,
+    "language": "JavaScript",
+    "homepage": "http://vdemedes.github.io/ronin",
+    "created_at": "2014-11-27T15:11:57Z",
+    "pushed_at": "2017-01-09T21:22:51Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/thememirror",
+    "description": "🦚 Beautiful themes for CodeMirror",
+    "stargazers_count": 254,
+    "forks_count": 20,
+    "language": "TypeScript",
+    "homepage": "https://thememirror.net",
+    "created_at": "2022-06-01T20:30:12Z",
+    "pushed_at": "2024-03-03T16:16:45Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/create-ink-app",
+    "description": "Generate a starter Ink app",
+    "stargazers_count": 233,
+    "forks_count": 28,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2019-06-29T11:12:22Z",
+    "pushed_at": "2026-08-06T14:05:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/reconciled",
+    "description": "⚛️ Simple way to create a custom React renderer",
+    "stargazers_count": 223,
+    "forks_count": 3,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2019-08-11T22:12:51Z",
+    "pushed_at": "2022-02-07T16:01:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "vadimdemedes/ink-spinner",
+    "description": "Spinner component for Ink",
+    "stargazers_count": 194,
+    "forks_count": 22,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2017-07-15T19:02:09Z",
+    "pushed_at": "2024-08-18T16:08:50Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 138,
+  "languages": [
+   [
+    "JavaScript",
+    106
+   ],
+   [
+    "TypeScript",
+    16
+   ],
+   [
+    "Shell",
+    2
+   ],
+   [
+    "Swift",
+    1
+   ],
+   [
+    "CSS",
+    1
+   ],
+   [
+    "CoffeeScript",
+    1
+   ],
+   [
+    "HTML",
+    1
+   ],
+   [
+    "Crystal",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "vadimdemedes/ink",
+    "stargazerCount": 40154,
+    "description": "🌈 React for interactive command-line apps",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://term.ink"
+   },
+   {
+    "nameWithOwner": "vadimdemedes/ink-ui",
+    "stargazerCount": 2075,
+    "description": "💄 Ink-redible command-line interfaces made easy",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://term.ink/ui"
+   },
+   {
+    "nameWithOwner": "vadimdemedes/pastel",
+    "stargazerCount": 2409,
+    "description": "🎨 Next.js-like framework for CLIs made with Ink",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://term.ink/pastel"
+   },
+   {
+    "nameWithOwner": "avajs/ava",
+    "stargazerCount": 20823,
+    "description": "Node.js test runner that lets you develop with confidence 🚀",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "vadimdemedes/dom-chef",
+    "stargazerCount": 531,
+    "description": "🍔 Build DOM elements using JSX automatically",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "vadimdemedes/thememirror",
+    "stargazerCount": 254,
+    "description": "🦚 Beautiful themes for CodeMirror",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://thememirror.net"
+   }
+  ],
+  "contrib_last_year": 10,
+  "orgs": [
+   "avacasts"
+  ],
+  "profile_readme": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)",
+  "readmes": {
+   "vadimdemedes/ink": "[](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)\n---\n<div align=\"center\">\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n\t<br>\n</div>\n> React for CLIs. Build and test your CLI output using components.\n[](https://github.com/vadimdemedes/ink/actions)\n[](https://npmjs.com/package/ink)\nInk provides the same component-based UI building experience that React offers in the browser, but for command-line apps.\nIt uses [Yoga](https://github.com/facebook/yoga) to build Flexbox layouts in the terminal, so most CSS-like properties are available in Ink as well.\nIf you are already familiar with React, you already know Ink.\nSince Ink is a React renderer, all features of React are supported.\nHead over to the [React](https://reactjs.org) website for documentation on how to use it.\nOnly Ink's methods are documented in this readme.\n**Fully AI-generated pull requests are not accepted. You can use AI, but should be verified and cleaned up by a human. Only Opus 4.6+ (high-effort) and Codex 5.4+ (extra high) are accepted models. Preferably created with Opus and verified by Codex.**\n---\n<div align=\"center\">\n\t<p>\n\t\t<p>\n\t\t\t<sup>\n\t\t\t\t<a href=\"https://opencollective.com/vadimdemedes\">My open source work is supported by the community ❤️</a>\n\t\t\t</sup>\n\t\t</p>\n\t</p>\n</div>\n## Install\n```sh\nnpm install ink react\n```\n> [!NOTE]\n> This readme documents the upcoming version of Ink. For the latest stable release, see [Ink on npm](https://www.npmjs.com/package/ink).\n## Usage\n```jsx\nimport React, {useState, useEffect} from 'react';\nimport {render, Text} from 'ink';\nconst Counter = () => {\n\tconst [counter, setCounter] = useState(0);\n\tuseEffect(() => {\n\t\tconst timer = setInterval(() => {\n\t\t\tsetCounter(previousCounter => previousCounter + 1);\n\t\t}, 100);\n\t\treturn () => {\n\t\t\tclearInterval(timer);\n\t\t};\n\t}, []);\n\treturn <Text color=\"green\">{counter} tests passed</Text>;\n};\nrender(<Counter />);\n```\n## Who's Using Ink?\n- [Claude Code](https://github.com/anthropics/claude-code) - An agentic coding tool made by Anthropic.\n- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An agentic coding tool made by Google.\n- [GitHub Copilot CLI](https://github.com/features/copilot/cli) - Just say what you want",
+   "vadimdemedes/ink-ui": "[](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)\n# Ink UI [](https://github.com/vadimdemedes/ink-ui/actions/workflows/test.yml)\n> Collection of customizable UI components for CLIs made with [Ink](https://term.ink).\n## Install\n```sh\nnpm install @inkjs/ui\n```\n_This assumes you've already set up [Ink](https://term.ink). The easiest way to get started is [create-ink-app](https://github.com/vadimdemedes/create-ink-app)._\n## Components\n### Text input\n[Documentation](docs/text-input.md)\n`TextInput` is used for entering any single-line input with an optional autocomplete.\n```jsx\nimport {TextInput} from '@inkjs/ui';\n<TextInput\n\tplaceholder=\"Enter your name...\"\n\tonSubmit={name => {\n\t\t// `name` contains user input\n\t}}\n/>;\n```\n### Email input\n[Documentation](docs/email-input.md)\n`EmailInput` is used for entering an email. After \"@\" character is entered, domain can be autocompleted from the list of most popular email providers.\n```jsx\nimport {EmailInput} from '@inkjs/ui';\n<EmailInput\n\tplaceholder=\"Enter email...\"\n\tonSubmit={email => {\n\t\t// `email` contains user input\n\t}}\n/>;\n```\n### Password input\n[Documentation](docs/password-input.md)\n`PasswordInput` is used for entering sensitive data, like passwords, API keys and so on. It works the same way as `TextInput`, except input value is masked and replaced with asterisks (\"\\*\").\n```jsx\nimport {PasswordInput} from '@inkjs/ui';\n<PasswordInput\n\tplaceholder=\"Enter password...\"\n\tonSubmit={password => {\n\t\t// `password` contains user input\n\t}}\n/>;\n```\n### Confirm input\n[Documentation](docs/confirm-input.md)\n`ConfirmInput` shows a common \"Y/n\" input to confirm or cancel an operation your CLI wants to perform.\n```jsx\nimport {ConfirmInput} from '@inkjs/ui';\n<ConfirmInput\n\tonConfirm={() => {\n\t\t// confirmed\n\t}}\n\tonCancel={() => {\n\t\t// cancelled\n\t}}\n/>;\n```\n### Select\n[Documentation](docs/select.md)\n`Select` shows a scrollable list of options for a user to choose from.\n```jsx\nimport {Select} from '@inkjs/ui';\n<Select\n\toptions={[\n\t\t{\n\t\t\tlabel: 'Red',\n\t\t\tvalue: 'red',\n\t\t},\n\t\t{\n\t\t\tlabel: 'Green',\n\t\t\tvalue: 'green',\n\t\t},\n\t\t{\n\t\t\tlabel: 'Yellow',\n\t\t\tvalue: 'yellow',\n\t\t},\n\t\t/* ... */\n\t]}\n\tonChange={newValue => {\n\t\t// `ne",
+   "vadimdemedes/pastel": "[](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)\n# Pastel [](https://github.com/vadimdemedes/pastel/actions/workflows/test.yml)\n> Next.js-like framework for CLIs made with [Ink](https://github.com/vadimdemedes/ink).\n## Features\n- Create files in `commands` folder to add commands.\n- Create folders in `commands` to add subcommands.\n- Define options and arguments via [Zod](https://zod.dev).\n- Full type-safety of options and arguments thanks to Zod.\n- Auto-generated help message for commands, options and arguments.\n- Uses battle-tested [Commander](https://github.com/tj/commander.js) package under the hood.\n## Install\n```console\nnpm install pastel ink react zod\n```\n## Getting started\nUse [create-pastel-app](https://github.com/vadimdemedes/create-pastel-app) to quickly scaffold a Pastel app with TypeScript, linter and tests set up.\n```console\nnpm create pastel-app hello-world\nhello-world\n```\n<details><summary>Manual setup</summary>\n<p>\n1. Set up a new project.\n```console\nmkdir hello-world\ncd hello-world\nnpm init --yes\n```\n2. Install Pastel and TypeScript.\n```console\nnpm install pastel\nnpm install --save-dev typescript @sindresorhus/tsconfig\n```\n3. Create a `tsconfig.json` file to set up TypeScript.\n```json\n{\n\t\"extends\": \"@sindresorhus/tsconfig\",\n\t\"compilerOptions\": {\n\t\t\"outDir\": \"build\",\n\t\t\"sourceMap\": true\n\t},\n\t\"include\": [\n\t\t\"source\"\n\t]\n}\n```\n4. Create a `source` folder for the source code.\n```console\nmkdir source\n```\n5. Create a `source/cli.ts` file with the following code, which will be CLI's entrypoint:\n```js\n#!/usr/bin/env node\nimport Pastel from 'pastel';\nconst app = new Pastel({\n\timportMeta: import.meta,\n});\nawait app.run();\n```\n6. Create `source/commands` folder for defining CLI's commands.\n```console\nmkdir source/commands\n```\n7. Create an `source/commands/index.tsx` file for a default command, with the following code:\n```tsx\nimport React from 'react';\nimport {Text} from 'ink';\nimport zod from 'zod';\nexport const options = zod.object({\n\tname: zod.string().describe('Your name'),\n});\ntype Props = {\n\toptions: zod.infer<typeof options>;\n};\nexport default function Index({options}: Props) {\n\treturn <Text>Hello, {options.name}!</Text>;\n}\n",
+   "avajs/ava": "*[Please support our friend Vadim Demedes and the people in Ukraine.](https://stand-with-ukraine.pp.ua/)*\n---\n# \nAVA is a test runner for Node.js with a concise API, detailed error output, embrace of new language features and thread isolation that lets you develop with confidence 🚀\nWatch this repository and follow the [Discussions](https://github.com/avajs/ava/discussions) for updates.\nRead our [contributing guide](.github/CONTRIBUTING.md) if you're looking to contribute (issues / PRs / etc).\nTranslations: [Español](https://github.com/avajs/ava-docs/blob/main/es_ES/readme.md), [Français](https://github.com/avajs/ava-docs/blob/main/fr_FR/readme.md), [Italiano](https://github.com/avajs/ava-docs/blob/main/it_IT/readme.md), [日本語](https://github.com/avajs/ava-docs/blob/main/ja_JP/readme.md), [한국어](https://github.com/avajs/ava-docs/blob/main/ko_KR/readme.md), [Português](https://github.com/avajs/ava-docs/blob/main/pt_BR/readme.md), [Русский](https://github.com/avajs/ava-docs/blob/main/ru_RU/readme.md), [简体中文](https://github.com/avajs/ava-docs/blob/main/zh_CN/readme.md)\n## Why AVA?\n- Minimal and fast\n- Simple test syntax\n- Runs tests concurrently\n- Enforces writing atomic tests\n- No implicit globals\n- Includes TypeScript definitions\n- [Magic assert](#magic-assert)\n- [Isolated environment for each test file](./docs/01-writing-tests.md#test-isolation)\n- [Promise support](./docs/01-writing-tests.md#promise-support)\n- [Async function support](./docs/01-writing-tests.md#async-function-support)\n- [Observable support](./docs/01-writing-tests.md#observable-support)\n- [Enhanced assertion messages](./docs/03-assertions.md#enhanced-assertion-messages)\n- [Automatic parallel test runs in CI](#parallel-runs-in-ci)\n- [TAP reporter](./docs/05-command-line.md#tap-reporter)\n## Usage\nTo install and set up AVA, run:\n```console\nnpm init ava\n```\nYour `package.json` will then look like this (exact version notwithstanding):\n```json\n{\n\t\"name\": \"awesome-package\",\n\t\"type\": \"module\",\n\t\"scripts\": {\n\t\t\"test\": \"ava\"\n\t},\n\t\"devDependencies\": {\n\t\t\"ava\": \"^5.0.0\"\n\t}\n}\n```\nOr if you prefer using Yarn:\n```console\nyarn add ava --dev\n```\nAlternatively you can install `ava` manually:\n```console\nnpm install -",
+   "vadimdemedes/dom-chef": "<h1 align=\"center\">\n  <br>\n  <br>\n  <br>\n\t<br>\n</h1>\n> Build regular DOM elements using JSX\nWith `dom-chef`, you can use Babel or TypeScript to transform [JSX](https://reactjs.org/docs/introducing-jsx.html) into plain old DOM elements, without using the unsafe `innerHTML` or clumsy `document.createElement` calls.\nIt supports everything you expect from JSX, including:\n- [SVG elements](#render-svg)\n- [Event listeners](#inline-event-listeners)\n- [Inline CSS](#inline-styles)\n- [Nested elements](#nested-elements)\n- [Function elements](#use-functions)\nIf something isn't supported (or doesn't work as well as it does in React) please open an issue!\n## Install\n```\n$ npm install dom-chef\n```\n## Usage\nMake sure to use a JSX transpiler (e.g. [Babel](#babel), [TypeScript compiler](#typescript-compiler), [esbuild](https://esbuild.github.io/content-types/#using-jsx-without-react), you only need one of them).\n```jsx\nimport {h} from 'dom-chef';\nconst handleClick = e => {\n\t// <button> was clicked\n};\nconst el = (\n\t<div className=\"header\">\n\t\t<button className=\"btn-link\" onClick={handleClick}>\n\t\t\tDownload\n\t\t</button>\n\t</div>\n);\ndocument.body.appendChild(el);\n```\n### Babel\n`pragma` and `pragmaFrag` must be configured this way. More information on [Babel’s documentation](https://babeljs.io/docs/en/babel-plugin-transform-react-jsx.html#pragma).\n```js\n// babel.config.js\nconst plugins = [\n\t[\n\t\t'@babel/plugin-transform-react-jsx',\n\t\t{\n\t\t\tpragma: 'h',\n\t\t\tpragmaFrag: 'DocumentFragment',\n\t\t},\n\t],\n];\n// ...\n```\n### TypeScript compiler\n`jsxFactory` and `jsxFragmentFactory` must be configured this way. More information on [TypeScripts’s documentation](https://www.typescriptlang.org/tsconfig#jsxFactory).\n```jsonc\n// tsconfig.json\n{\n\t\"compilerOptions\": {\n\t\t\"jsxFactory\": \"h\",\n\t\t\"jsxFragmentFactory\": \"DocumentFragment\"\n\t}\n}\n```\n### Alternative usage\nYou can avoid configuring your JSX compiler by just letting it default to `React` and exporting the `React` object:\n```js\nimport React from 'dom-chef';\n```\n## Recipes\n### Set classes\n```jsx\nconst el = <span class=\"a b c\">Text</span>;\n// or use `className` alias\nconst el = <span className=\"a b c\">Text</span>;\n```\n### Inline styles\n```jsx\nconst el = <div "
+  }
+ },
+ "apps": []
+}

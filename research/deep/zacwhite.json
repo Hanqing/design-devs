@@ -1,0 +1,385 @@
+{
+ "handle": "zacwhite",
+ "sites": [
+  {
+   "url": "https://zacwhite.com/",
+   "ok": true,
+   "title": "Zac White",
+   "description": "Co-Founder, Velos Mobile. Developer, San Francisco.",
+   "stack": [
+    "Waku"
+   ],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "",
+   "home_text": "Zac White \nCode, Snippets, Tips & Tricks \nHello! 👋 I'm a mobile developer living in the beautiful Bay Area 🌉. Around 13 years ago I co-founded a consulting company, Velos Mobile 💼. I'm their Chief Platforms Developer. 🏗️📱⌚💻📺🥽 \nLatest Post \n Aug 24 GenUI for OpenAI Build Week\nA Swift package that renders model-generated UI natively in SwiftUI",
+   "github_links": [
+    "zac"
+   ],
+   "subpages": {
+    "https://zacwhite.com/posts/": "Zac White \nCode, Snippets, Tips & Tricks \n Aug 24 GenUI for OpenAI Build Week\nA Swift package that renders model-generated UI natively in SwiftUI \n Apr 1 What Apple means to me\nGrowing up with Apple computers and how that turned into a career building apps \n Jun 6 Ideal Cross-Platform Return Key Behavior with SwiftUI's TextField\nGetting ideal return key behavior for a multi-line TextField for chat message input in SwiftUI on macOS Catalyst \n Sep 2 Detecting SwiftUI Previews\nHow to figure out if your View is being displayed in a SwiftUI preview \n Sep 30 ScrollView Content Offsets with SwiftUI\nHow to get a content offset from a ScrollView in SwiftUI \n May 13 Templates in Swift with ExpressibleByStringInterpolation\nUsing ExpressibleByStringInterpolation to build better type-safe templates \n May 12 New Site\nNew site with posts coming soon"
+   },
+   "feed": {
+    "url": "https://zacwhite.com/feed.xml",
+    "count_seen": 7,
+    "items": [
+     {
+      "title": "GenUI for OpenAI Build Week",
+      "date": "Mon, 24 Aug 2026 19:00:00",
+      "url": "https://zacwhite.com/2026/genui-openai-build-week/"
+     },
+     {
+      "title": "What Apple means to me",
+      "date": "Wed, 01 Apr 2026 19:00:00",
+      "url": "https://zacwhite.com/2026/what-apple-means-to-me/"
+     },
+     {
+      "title": "Ideal Cross-Platform Return Key Behavior with SwiftUI's TextField",
+      "date": "Thu, 06 Jun 2024 19:00:00",
+      "url": "https://zacwhite.com/2024/textfield-return-key-behavior/"
+     },
+     {
+      "title": "Detecting SwiftUI Previews",
+      "date": "Wed, 02 Sep 2020 15:00:00",
+      "url": "https://zacwhite.com/2020/detecting-swiftui-previews/"
+     },
+     {
+      "title": "ScrollView Content Offsets with SwiftUI",
+      "date": "Mon, 30 Sep 2019 21:00:00",
+      "url": "https://zacwhite.com/2019/scrollview-content-offsets-swiftui/"
+     },
+     {
+      "title": "Templates in Swift with ExpressibleByStringInterpolation",
+      "date": "Mon, 13 May 2019 21:00:00",
+      "url": "https://zacwhite.com/2019/template-swift/"
+     },
+     {
+      "title": "New Site",
+      "date": "Sun, 12 May 2019 21:00:00",
+      "url": "https://zacwhite.com/2019/new-site/"
+     }
+    ]
+   },
+   "appstore_ids": []
+  }
+ ],
+ "github_guess": true,
+ "github": {
+  "login": "zac",
+  "user": {
+   "name": "Zac White",
+   "company": "Velos Mobile (@velos)",
+   "blog": "https://zacwhite.com",
+   "location": "San Francisco, CA",
+   "bio": "Chief  Platforms Developer and Co-founder of @velos.\r\n\r\n👷‍♂️🏗📱⌚️📺💻",
+   "public_repos": 34,
+   "followers": 158,
+   "created_at": "2008-03-07T17:27:27Z",
+   "twitter_username": "zacwhite",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "zac/iphonearkit",
+    "description": "An Objective-C augmented reality kit for iPhone.",
+    "stargazers_count": 807,
+    "forks_count": 243,
+    "language": "Objective-C",
+    "homepage": "http://iphonear.org/",
+    "created_at": "2009-09-08T22:41:48Z",
+    "pushed_at": "2020-10-01T18:59:09Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/dragkit",
+    "description": "An iOS opensource framework for supporting Drag & Drop within an application and between applications.",
+    "stargazers_count": 263,
+    "forks_count": 35,
+    "language": "Objective-C",
+    "homepage": "http://dragkit.org/",
+    "created_at": "2010-04-21T01:19:18Z",
+    "pushed_at": "2010-11-03T22:28:23Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/relay",
+    "description": "Relay is an application for Mac, iPad and Windows to transfer whatever you're doing on your computer to your iPad and whatever you're doing on your iPad to your computer. Webpages, current music, clipboard etc. are all available for transfer.",
+    "stargazers_count": 75,
+    "forks_count": 7,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2010-04-17T02:15:20Z",
+    "pushed_at": "2010-10-21T21:09:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/PinchBar",
+    "description": "Bringing the TouchBar into the world of Spatial Computing™",
+    "stargazers_count": 18,
+    "forks_count": 1,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2024-03-31T20:27:42Z",
+    "pushed_at": "2024-04-01T01:04:41Z",
+    "topics": [
+     "macos",
+     "swift",
+     "touchbar",
+     "visionos"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "zac/XcodeBridge",
+    "description": "A multiplexer and bridge for the Xcode MCP server",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-02-05T20:14:40Z",
+    "pushed_at": "2026-02-06T20:50:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/AGC",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2025-02-02T23:21:32Z",
+    "pushed_at": "2026-09-08T18:11:16Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/candles-homekit",
+    "description": "Flameless Candles remote control HomeKit implementation for ESP32",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2021-03-15T06:18:12Z",
+    "pushed_at": "2021-03-15T06:18:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/LM",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-09-08T18:21:54Z",
+    "pushed_at": "2026-09-10T06:00:13Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/LMKit",
+    "description": "Lunar Module model",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Python",
+    "homepage": null,
+    "created_at": "2026-09-08T18:37:19Z",
+    "pushed_at": "2026-09-09T00:33:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/mobilebeat",
+    "description": "Automatically exported from code.google.com/p/mobilebeat",
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": "C",
+    "homepage": null,
+    "created_at": "2015-03-15T05:21:08Z",
+    "pushed_at": "2015-03-15T05:31:41Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/oaihack",
+    "description": "OpenAI Codex Hackathon Submission",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2026-02-05T23:23:56Z",
+    "pushed_at": "2026-02-06T00:01:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/proto-test-mothership",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Scala",
+    "homepage": null,
+    "created_at": "2018-07-31T21:20:39Z",
+    "pushed_at": "2018-07-31T21:50:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/test-repo-board",
+    "description": "Public demo repository for Repo Board and its browser-native WebMCP workflow.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "https://webmcp-repo-board.zacwhite.workers.dev/boards/zac/test-repo-board",
+    "created_at": "2026-08-28T20:57:15Z",
+    "pushed_at": "2026-09-03T06:16:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/touchclipboard",
+    "description": "Automatically exported from code.google.com/p/touchclipboard",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2015-03-15T05:25:40Z",
+    "pushed_at": "2015-03-15T05:36:12Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/wavicle",
+    "description": "Automatically exported from code.google.com/p/wavicle",
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": "Common Lisp",
+    "homepage": null,
+    "created_at": "2015-03-15T05:26:54Z",
+    "pushed_at": "2015-03-15T05:37:28Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/webmcp-card-table",
+    "description": "A two-player card table with direct controls and browser-native WebMCP tools",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-08-28T06:41:11Z",
+    "pushed_at": "2026-09-03T07:41:36Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "zac/webmcp-repo-board",
+    "description": "Real-time WebMCP task coordination for GitHub repositories",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2026-08-28T18:02:49Z",
+    "pushed_at": "2026-10-07T00:13:12Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 17,
+  "languages": [
+   [
+    "Swift",
+    5
+   ],
+   [
+    "Objective-C",
+    4
+   ],
+   [
+    "TypeScript",
+    2
+   ],
+   [
+    "Python",
+    1
+   ],
+   [
+    "C",
+    1
+   ],
+   [
+    "Scala",
+    1
+   ],
+   [
+    "Common Lisp",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "velos/FlowStack",
+    "stargazerCount": 35,
+    "description": "A SwiftUI-based hero animation for zooming into detail views",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "velos/Endpoints",
+    "stargazerCount": 1,
+    "description": "A simple iOS library for defining Endpoints",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "velos/Bash.swift",
+    "stargazerCount": 2,
+    "description": "An emulated Bash environment for Swift, based on just-bash",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "velos/SwiftUIcon",
+    "stargazerCount": 103,
+    "description": "Draw and generate your app icon using SwiftUI",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "zac/XcodeBridge",
+    "stargazerCount": 4,
+    "description": "A multiplexer and bridge for the Xcode MCP server",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   }
+  ],
+  "contrib_last_year": 3039,
+  "orgs": [
+   "velos"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "velos/FlowStack": "\n**FlowStack** is a SwiftUI library for creating stack-based navigation with \"flow\" (aka \"zooming\") transition animations and interactive pull-to-dismiss gestures. FlowStack's API is modeled after Apple's [NavigationStack](https://developer.apple.com/documentation/swiftui/navigationstack), and though no prior experience with NavigationStack is required to get started with FlowStack, the similarities in use make it easy and intuitive to add FlowStack to a new project or migrate an existing project currently using NavigationStack. An added bonus is that FlowStack is compatible with iOS 15+ where NavigationStack is only available for iOS 16+. (iOS 18 introduced a built-in zoom transition via `navigationTransition(.zoom)`; FlowStack provides similar transitions back to iOS 15, along with interactive pull-to-dismiss and per-link transition customization.)\n[](https://github.com/velos/FlowStack/blob/main/LICENSE)\nhttps://github.com/user-attachments/assets/c975bac5-abe7-4283-9d3c-83203cbd37dd\n## Installation\nTo integrate using Apple's Swift package manager, add the following as a dependency to your `Package.swift`:\n```swift\n.package(url: \"https://github.com/velos/FlowStack.git\", from: \"0.1.0\")\n```\nThe full API reference is in the [FlowStack documentation](https://velosmobile.com/FlowStack/documentation/flowstack/).\n## Getting started\n**Setting up and working with FlowStack is *very* similar to Apple's own NavigationStack:**\nFor context, here's an example from [Apple's NavigationStack documentation](https://developer.apple.com/documentation/swiftui/navigationstack#overview) showing a basic NavigationStack setup that allows users to navigate to view a detail screen when tapping an item in a list. In this case, the `ParkDetails` transition slides in from the right with the familiar \"push\" navigation animation.\n```swift\nNavigationStack {\n    List(parks) { park in\n        NavigationLink(park.name, value: park)\n    }\n    .navigationDestination(for: Park.self) { park in\n        ParkDetails(park: park)\n    }\n}\n```\n**Update the above example to use FlowStack:**\n1. Add the root view inside the **FlowStack**.\n   - For scrolling lists, use a ScrollView with a LazyVStack instead of ",
+   "velos/Endpoints": "# Endpoints\n[](https://swiftpackageindex.com/velos/Endpoints)\n[](https://swiftpackageindex.com/velos/Endpoints)\nEndpoints describes HTTP endpoints as Swift types: the path, method, parameters, headers, body, and response. From that description it builds a `URLRequest` and decodes the response, using plain `URLSession`. It doesn't replace the URL loading system the way Alamofire does, and the requests it builds work with Alamofire if you prefer that.\n- **Typed endpoints.** Paths, query and form parameters, and headers are checked at compile time.\n- **Servers and environments.** Each server lists a base URL per environment, and every request can pick its environment.\n- **Authentication.** Declare an authentication method per server or per endpoint. Credentials are applied to each request, and refreshable tokens are refreshed and the request retried when needed.\n- **Mocking.** The `EndpointsMocking` module replaces responses per endpoint type in tests.\n- **Swift 6.** Built for strict concurrency, with `Sendable` types and typed throws.\n- **async/await and Combine.** Plus a completion-handler API for unauthenticated endpoints.\n## Installation\nAdd the package to your `Package.swift`:\n```swift\ndependencies: [\n    .package(url: \"https://github.com/velos/Endpoints.git\", from: \"0.5.1\")\n]\n```\nAdd `Endpoints` to your app target, and `EndpointsMocking` to your test target:\n```swift\n.testTarget(\n    name: \"YourAppTests\",\n    dependencies: [\n        .product(name: \"Endpoints\", package: \"Endpoints\"),\n        .product(name: \"EndpointsMocking\", package: \"Endpoints\")\n    ]\n)\n```\n## Getting Started\n### Define a server\nA server lists its base URL for each environment and names the environment requests use by default:\n```swift\nimport Endpoints\nimport Foundation\nstruct ApiServer: ServerDefinition {\n    var baseUrls: [Environments: URL] {\n        [\n            .local: URL(string: \"https://local-api.example.com\")!,\n            .staging: URL(string: \"https://staging-api.example.com\")!,\n            .production: URL(string: \"https://api.example.com\")!\n        ]\n    }\n    static var defaultEnvironment: Environments { .production }\n}\n```\n`Environments` defaults to `TypicalEnvironments` (`lo",
+   "velos/Bash.swift": "# Bash.swift\n`Bash.swift` is an in-process, stateful shell for Swift apps. It is inspired by [just-bash](https://github.com/vercel-labs/just-bash). Commands run inside Swift instead of spawning host shell processes.\nYou create a `BashSession`, run shell command strings, and get structured `stdout`, `stderr`, and `exitCode` results back. Session state persists across runs, including the working directory, environment, history, and registered built-ins.\n`Bash.swift` should be treated as beta software. It is practical for app and agent workflows, but it is not a hardened isolation boundary and it is not a drop-in replacement for a real system shell. APIs are being actively experimented with and deployed. Ensure you lock to a specific commit or version tag if you plan to do any work utilizing this library.\n## Why\n`Bash.swift` is built for app and agent workflows that need shell-like behavior without subprocess management.\nIt provides:\n- Stateful shell sessions (`cd`, `export`, `history`, shell functions)\n- Real filesystem side effects under a controlled root\n- In-process built-in commands implemented in Swift\n- Practical shell syntax support for pipelines, redirection, chaining, background jobs, and simple scripting\n## Installation\n### SwiftPM integration\nAdd `Bash` to your `Package.swift`:\n```swift\n// Package.swift\n.dependencies: [\n    .package(url: \"https://github.com/velos/Bash.swift.git\", from: \"0.6.0\")\n],\n.targets: [\n    .target(\n        name: \"YourTarget\",\n        dependencies: [\"Bash\"]\n    )\n]\n```\nTraits are the way to compile optional toolsets into the package. Traits are default-off in `Bash.swift`, so add them on the package dependency when you need optional command sets:\n```swift\n.dependencies: [\n    .package(\n        url: \"https://github.com/velos/Bash.swift.git\",\n        from: \"0.6.0\",\n        traits: [\"Git\", \"Python\", \"SQLite\", \"Secrets\"]\n    )\n]\n```\n### Xcode integration\nUse Xcode 26.4 or newer if you want to configure package traits from the Xcode UI.\n1. Open your app or package project in Xcode.\n2. Select the project in the navigator, then open the `Package Dependencies` tab.\n3. Add `https://github.com/velos/Bash.swift.git`.\n4. Select the `Bash.swif",
+   "velos/SwiftUIcon": "# SwiftUIcon\n**SwiftUIIcon** is a library that provides scripts and preview helpers for drawing and generating your iOS, iPad OS, and macOS app icons in SwiftUI using shape and path drawing primitives.\nBy defining your app's icon in code, SwiftUIcon can generate all image sizes you need, show you real-time previews of your icon changes and can even allow you to integrate your icon right into your app's view hierarchy.\n<p align=\"center\">\n</p>\n## Getting Started\n1. Add SwiftUIcon to your project using Swift Package Manager. Add the library to the app target.\n2. Create an `Icon.swift` file in your project. It must have a `View` called `Icon`. Check out [the example](Example/IconHarness/Icon.swift) for a more complex icon, but this could help get you started:\n```Swift\nstruct Icon: View {\n    var body: some View {\n        IconStack { canvas in\n            Color.blue\n        }\n    }\n}\n#if DEBUG\nstruct Icon_Previews : PreviewProvider {\n    static var previews: some View {\n        IconPreviews(icon: Icon())\n    }\n}\n#endif\n```\n3. Add a Run Script build phase before your Copy Resources phase calling the `build-script.sh` included in the package. You'll need to specify the path to your `Icon.swift` as the Input File (probably `$(PROJECT_DIR)/$(PRODUCT_NAME)/Icon.swift`) and the `Assets.xcassets` as the output file (probably `$(PROJECT_DIR)/$(PRODUCT_NAME)/Assets.xcassets`):\n```bash\n\"${BUILD_ROOT%Build/*}SourcePackages/checkouts/SwiftUIcon/build-script.sh\"\n```\n<p align=\"center\">\n</p>\n## Adding Your Icon\nYou can now edit the contents of the `IconStack` wrapper helper view inside of `Icon.swift` and add any shapes, paths or colors you want to build your icon. See [Apple's SwiftUI Drawing Tutorial](https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes) for more info on drawing using SwiftUI.\nThe `IconStack` is essentially a `ZStack` with a `.center` alignment that provides a `CanvasProxy` value to relatively position elements based on an assumed 1024x1024 canvas size. This is helpful because the `Icon` is rendered individually at all the required icon sizes, so anything that has a fixed size will not scale properly. Any place where you would normally have a ha",
+   "zac/XcodeBridge": "# XcodeBridge\n`XcodeBridge` is a macOS menu bar app plus a CLI (`xcbridge`) that sits in front of Xcode's MCP bridge (`xcrun mcpbridge`).\n## Purpose\nThis project exists to work around the repeated Xcode permission popups for MCP connections.\nIn practice, Xcode can prompt for approval per connecting process. That becomes a blocker for tools like the Codex app, which may spawn many `codex` CLI processes during one session. MCP access can stall until each process is approved.\n`XcodeBridge` keeps one long-running bridge process connected to Xcode MCP, then lets other local clients connect through that bridge.\nIt provides:\n- A persistent local Unix socket for MCP clients\n- A single long-running backend connection to Xcode MCP\n- JSON-RPC multiplexing across multiple local clients\n- A log window for live request/response debugging\n- An embedded CLI binary inside the app bundle\n## Project Layout\n- `XcodeBridge/XcodeBridge`: SwiftUI menu bar app\n- `XcodeBridge/xcbridge`: CLI source\n- `XcodeBridge/XcodeBridge.xcodeproj`: Xcode project\n## Requirements\n- macOS\n- Xcode 26.3+ installed\n- At least one running Xcode instance when using the bridge backend\n## Build and Run\n### App (recommended)\n1. Open `XcodeBridge/XcodeBridge.xcodeproj`.\n2. Select the `XcodeBridge` scheme.\n3. Run from Xcode.\nFrom the menu bar extra:\n- `Start Bridge` / `Stop Bridge`\n- `Copy MCP Command` (copies embedded `xcbridge` binary path)\n- `Open Log Window`\nUse `Copy MCP Command` each time after a rebuild, since the app-bundle path can change with DerivedData.\n### CLI target directly\nBuild the CLI scheme:\n```bash\nxcodebuild -project XcodeBridge/XcodeBridge.xcodeproj -scheme xcbridge -configuration Debug build\n```\n## CLI Usage\nThe executable is `xcbridge`. It supports two modes:\n- `serve`: starts the local socket server and launches `xcrun mcpbridge` as backend\n- `connect`: bridges current stdin/stdout to the local socket\nExamples:\n```bash\n# Start server on default socket: ~/.xcode-bridge.sock\nxcbridge serve\n# Connect stdin/stdout to running bridge\nxcbridge connect\n# Use a custom socket\nxcbridge serve --socket ~/tmp/xcode-bridge.sock\nxcbridge connect --socket ~/tmp/xcode-bridge.sock\n```\n## Environment Variab"
+  }
+ },
+ "apps": []
+}

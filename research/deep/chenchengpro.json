@@ -1,0 +1,369 @@
+{
+ "handle": "chenchengpro",
+ "sites": [
+  {
+   "url": "https://sorrycc.com",
+   "ok": true,
+   "title": "sorrycc",
+   "description": "",
+   "stack": [],
+   "hosting": [
+    "Cloudflare"
+   ],
+   "lang": "en",
+   "home_text": "→ blog",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "sorrycc",
+  "user": {
+   "name": "chencheng (云谦)",
+   "company": "@QoderAI",
+   "blog": "https://sorrycc.com/",
+   "location": "HangZhou, China",
+   "bio": "Front-end developer at @QoderAI , creator of @neovateai, @umijs, @dvajs, mako, father, roadhog, babel-plugin-import, awesome-javascript...",
+   "public_repos": 281,
+   "followers": 14859,
+   "created_at": "2008-11-18T05:04:27Z",
+   "twitter_username": "chenchengpro",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "sorrycc/awesome-javascript",
+    "description": "🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.",
+    "stargazers_count": 35038,
+    "forks_count": 4567,
+    "language": null,
+    "homepage": "",
+    "created_at": "2014-07-01T15:59:02Z",
+    "pushed_at": "2026-10-18T19:00:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/blog",
+    "description": "💡",
+    "stargazers_count": 4443,
+    "forks_count": 315,
+    "language": null,
+    "homepage": "",
+    "created_at": "2016-02-29T07:55:22Z",
+    "pushed_at": "2019-03-21T13:35:52Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/roadhog",
+    "description": "🐷 Cli tool for creating react apps, configurable version of create-react-app.",
+    "stargazers_count": 2680,
+    "forks_count": 337,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2016-12-13T08:21:51Z",
+    "pushed_at": "2026-02-24T20:37:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/awesome-f2e-libs",
+    "description": "🎉 整理我平时关注的前端库。",
+    "stargazers_count": 1556,
+    "forks_count": 162,
+    "language": null,
+    "homepage": "",
+    "created_at": "2018-11-20T03:27:33Z",
+    "pushed_at": "2022-02-16T07:03:55Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/weekly",
+    "description": " MDH Weekly 前端周刊，每周一上午 9 点发布。",
+    "stargazers_count": 1089,
+    "forks_count": 41,
+    "language": "TypeScript",
+    "homepage": "https://mdhweekly.com/",
+    "created_at": "2021-05-06T12:43:03Z",
+    "pushed_at": "2023-12-17T02:59:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/awesome-tools",
+    "description": "Awesome tools I used.",
+    "stargazers_count": 724,
+    "forks_count": 63,
+    "language": null,
+    "homepage": null,
+    "created_at": "2019-04-13T00:23:37Z",
+    "pushed_at": "2023-01-15T02:38:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/zaobao",
+    "description": null,
+    "stargazers_count": 557,
+    "forks_count": 17,
+    "language": null,
+    "homepage": null,
+    "created_at": "2017-11-30T09:45:59Z",
+    "pushed_at": "2017-11-30T09:46:22Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/f2e-decision-tree",
+    "description": null,
+    "stargazers_count": 341,
+    "forks_count": 33,
+    "language": null,
+    "homepage": null,
+    "created_at": "2018-12-07T08:07:08Z",
+    "pushed_at": "2019-01-08T08:48:11Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/esbuild-webpack-plugin",
+    "description": "Use esbuild as minifier for webpack.",
+    "stargazers_count": 260,
+    "forks_count": 22,
+    "language": "TypeScript",
+    "homepage": "",
+    "created_at": "2020-05-06T14:02:14Z",
+    "pushed_at": "2021-07-19T10:07:32Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/Mayoi",
+    "description": "A small, fast code editor written in Go, with a native GPU-drawn UI (no webview, no Electron)",
+    "stargazers_count": 253,
+    "forks_count": 38,
+    "language": "Go",
+    "homepage": null,
+    "created_at": "2026-10-09T03:19:59Z",
+    "pushed_at": "2026-10-23T12:36:33Z",
+    "topics": [
+     "code-editor",
+     "go",
+     "golang",
+     "gpu",
+     "macos",
+     "native-app",
+     "text-editor"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/dva-boilerplate-electron",
+    "description": "Yet another boilerplate for dva.",
+    "stargazers_count": 200,
+    "forks_count": 45,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-11-21T02:45:41Z",
+    "pushed_at": "2018-01-17T03:20:24Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/awesome-code-agents",
+    "description": null,
+    "stargazers_count": 179,
+    "forks_count": 51,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-08-06T04:57:21Z",
+    "pushed_at": "2025-09-26T13:20:05Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/toy-vite",
+    "description": null,
+    "stargazers_count": 121,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2021-05-31T03:07:41Z",
+    "pushed_at": "2021-06-08T13:18:27Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/dva-example-react-native",
+    "description": "ReactNative example for dva.",
+    "stargazers_count": 94,
+    "forks_count": 17,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2016-08-13T06:55:15Z",
+    "pushed_at": "2016-11-08T07:41:19Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/example-webpack-mfsu",
+    "description": "Start the antd + framer-motion project without cache in one second.",
+    "stargazers_count": 82,
+    "forks_count": 9,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2021-12-01T07:45:08Z",
+    "pushed_at": "2021-12-18T03:20:10Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/dva-boilerplate-typescript",
+    "description": "Dva boilerplate for typescript.",
+    "stargazers_count": 80,
+    "forks_count": 16,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2016-10-13T07:20:55Z",
+    "pushed_at": "2017-02-06T02:28:18Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/dva-boilerplate-isomorphic",
+    "description": "Dva boilerplate for isomorphic.",
+    "stargazers_count": 72,
+    "forks_count": 12,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2016-10-18T09:53:40Z",
+    "pushed_at": "2016-12-05T06:17:59Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "sorrycc/es3ify-loader",
+    "description": "ES3ify loader for webpack.",
+    "stargazers_count": 70,
+    "forks_count": 4,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2015-12-18T05:48:21Z",
+    "pushed_at": "2017-06-23T14:50:57Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 153,
+  "languages": [
+   [
+    "JavaScript",
+    72
+   ],
+   [
+    "TypeScript",
+    36
+   ],
+   [
+    "Go",
+    7
+   ],
+   [
+    "HTML",
+    6
+   ],
+   [
+    "Objective-C",
+    3
+   ],
+   [
+    "CoffeeScript",
+    3
+   ],
+   [
+    "Swift",
+    2
+   ],
+   [
+    "Shell",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "neovateai/neovate-code",
+    "stargazerCount": 1560,
+    "description": "Neovate Code is a code agent to enhance your development. You can use it to generate code, fix bugs, review code, add tests, and more. You can run it in interactive mode or headless mode.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://neovateai.dev/"
+   },
+   {
+    "nameWithOwner": "umijs/umi",
+    "stargazerCount": 16040,
+    "description": "A framework in react community ✨",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://umijs.org/"
+   },
+   {
+    "nameWithOwner": "dvajs/dva",
+    "stargazerCount": 16129,
+    "description": "🌱 React and redux based, lightweight and elm-style framework. (Inspired by elm and choo)",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "sorrycc/blog",
+    "stargazerCount": 4443,
+    "description": "💡",
+    "primaryLanguage": null,
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "umijs/babel-plugin-import",
+    "stargazerCount": 3145,
+    "description": "Modularly import plugin for babel.",
+    "primaryLanguage": {
+     "name": "JavaScript"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "sorrycc/awesome-javascript",
+    "stargazerCount": 35038,
+    "description": "🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.",
+    "primaryLanguage": null,
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 7687,
+  "orgs": [
+   "aralejs",
+   "spmjs",
+   "react-component",
+   "ant-tool",
+   "dora-js",
+   "dvajs",
+   "umijs",
+   "smallfishjs",
+   "neovateai"
+  ],
+  "profile_readme": "# Hi, I'm sorrycc 👋\n\n📍 **Hangzhou, China** | 🔮 **[Qoder](https://qoder.com/) @ Alibaba** | 🛠️ **OSS maintainer**\n\n![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)\n![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)\n![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)\n![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)\n![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)\n![Bun](https://img.shields.io/badge/-Bun-000000?style=flat-square&logo=bun&logoColor=white)\n![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)\n![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)\n![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)\n![Claude](https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white)\n![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logoColor=white)\n\n> Creator of UmiJS, dva and Mako. 15+ years shipping, now building agent tooling at Qoder.\n\n## Current Projects\n\n**At Qoder**\n\n- 📌 **[Qoder CLI](https://qoder.com/cli)** - Qoder's native way of working in the terminal\n\n**On my own time**\n\n- ⛵ **[Tiller](https://github.com/sorrycc/Tiller)** - macOS browser built on Chromium, with a native Swift/AppKit shell and a built-in agent panel that drives the browser\n- 💻 **[Mayoi](https://github.com/sorrycc/Mayoi)** - A small, fast code editor written in Go, with a native GPU-drawn UI (no webview, no Electron)\n- 🙋 **Ikaga** (WIP) - Sends permission prompts, questions and plans from Claude Code, Codex and Qoder CLI to your Mac and iPhone, and your answers back\n- 🖼️ **[Pinup](https://github.com/sorrycc/Pinup)** - macOS menu bar app that uploads images and copies the link\n- 🌐 **[Trot](https://github.com/sorrycc/Trot)** - Native macOS menu bar app that translates selected text, typed text and screenshots\n- ⚡ **[Shun](https://blog.sorrycc.com/release-shun)** - macOS menu bar tool to switch apps via global hotkeys\n- ⌨️ **[Sokki](https://blog.sorrycc.com/release-sokki)** - macOS menu bar text expansion tool\n- 📰 **[NewsNow](https://github.com/sorrycc/newsnow)** - Read the world's trending news in one glance\n\n### Previous Projects\n\n- 🔀 **[codexthropic](https://blog.sorrycc.com/release-codexthropic)** - Local proxy that lets Claude Code talk to OpenAI's Codex (GPT-5.5) backend\n- ⛵ **[Helm](https://blog.sorrycc.com/release-helm)** - Daemon-based Agent runtime with workspace, session, issue, loop, cron and skill/plugin management\n- 🤖 **[Neovate Code](https://github.com/neovateai/neovate-code)** - AI coding agent that works with your codebase\n- 🖥️ **[Neovate Desktop](https://github.com/neovateai/neovate-desktop)** - Desktop app for Neovate C",
+  "readmes": {
+   "neovateai/neovate-code": "<div align=\"center\">\n<br />\n<br />\n---\n[](https://www.npmjs.com/package/@neovate/code)\n[](https://www.npmjs.com/package/@neovate/code)\n[](https://github.com/neovateai/neovate-code/actions/workflows/test.yml)\n[](https://www.npmjs.com/package/@neovate/code)\n[](https://www.npmjs.com/package/@neovate/code)\n**Neovate**, pronounced as `['niːəʊveɪt]`, is a **coding agent** to enhance your development workflow. You can use it to generate code, fix bugs, review code, add tests, and more.\n✨ See more at [neovateai.dev](https://neovateai.dev).\n</div>\n## Quick Start\nReady to try Neovate Code? Getting started is simple:\n```bash\nnpm install -g @neovate/code\nneovate\n```\nWe respect the API KEY environment variable for all providers. If you don't have an API Key, enter `/login`, select a provider, open the website, and enter the API Key.\nThen enter `/model` to select a model of that provider.\nThen you can start to use Neovate Code, describe what you want to do in the command line, review proposed changes and approve tools calls.\n```bash\n# Examples of what you can do:\n\"Add error handling to the user authentication function\"\n\"Refactor this component to use TypeScript\"\n\"Create unit tests for the payment service\"\n\"Optimize this database query\"\n```\nVisit our [quickstart](https://neovateai.dev/en/docs/quickstart) documentation for detailed installation and setup instructions.\n## Contributing\nContributions are welcome! Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) file for guidelines on setting up the development environment, running tests, and submitting pull requests.\n[](https://www.openomy.com/github/neovateai/neovate-code)\n## License\n[MIT](./LICENSE)\n",
+   "umijs/umi": "# umi\n<p>\n  <a href=\"https://www.npmjs.com/package/umi\"></a>\n  <a href=\"https://www.npmjs.com/package/umi\"></a>\n  <a href=\"https://github.com/umijs/umi\"></a>\n  <a href=\"https://www.npmjs.com/package/umi\"></a>\n</p>\nA framework in react community ✨\n> Please consider following this project's author, [sorrycc](https://github.com/sorrycc), and consider starring the project to show your ❤️ and support.\n### [🚀 Read the launch post →](https://umijs.org/blog/umi-4-rc)\n### [📚 Learn Umi →](https://umijs.org/)\n## Contribution\nSee [Contributing Guide](https://umijs.org/docs/introduce/contributing).\n### Core Maintainers\nCore Maintainers are community members who have contributed significantly to the project through addressing issues, fixing bugs, and implementing enhancements/features.\n* [sorrycc](https://github.com/sorrycc)\n* [xiaohuoni](https://github.com/xiaohuoni)\n* [fireairforce](https://github.com/fireairforce)\n### Maintainers\nMaintainers are community members who have had 10 or more PRs merged in umi or have spent a lot of time contributing to the umi community or addressing issues.\n* [PeachScript](https://github.com/PeachScript)\n* [YdreamW](https://github.com/YdreamW)\n* [yuaanlin](https://github.com/yuaanlin)\n* [fz6m](https://github.com/fz6m)\n* [stormslowly](https://github.com/stormslowly)\n* [xierenyuan](https://github.com/xierenyuan)\n* [siyi98](https://github.com/siyi98)\n* [txp1035](https://github.com/txp1035)\n* [zenotsai](https://github.com/zenotsai)\n### Contributors\nContributors are community members who have had 1 or more PRs merged in umi. If you are a contributor, you can contact me [[sorrycc](https://github.com/sorrycc)] to join the Contributor Group.\n<a href=\"https://github.com/umijs/umi/graphs/contributors\"></a>\n## Community\n* [交流和反馈群](https://fb.umijs.org/)\n## LICENSE\n[MIT](./LICENSE)\n",
+   "dvajs/dva": "English | [简体中文](./README_zh-CN.md)\n# dva\n[](https://codecov.io/gh/dvajs/dva)\n[](https://circleci.com/gh/dvajs/dva)\n[](https://npmjs.org/package/dva)\n[](https://travis-ci.org/dvajs/dva)\n[](https://coveralls.io/r/dvajs/dva)\n[](https://npmjs.org/package/dva)\n[](https://david-dm.org/dvajs/dva)\n[](https://gitter.im/dvajs/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)\nLightweight front-end framework based on [redux](https://github.com/reactjs/redux), [redux-saga](https://github.com/redux-saga/redux-saga) and [react-router](https://github.com/ReactTraining/react-router). (Inspired by [elm](http://elm-lang.org/) and [choo](https://github.com/yoshuawuyts/choo))\n---\n## Features\n* **Easy to learn, easy to use**: only 6 apis, very friendly to redux users, and **API reduce to 0 when [use with umi](https://umijs.org/guide/with-dva.html)**\n* **Elm concepts**: organize models with `reducers`, `effects` and `subscriptions`\n* **Support HMR**: support HMR for components, routes and models with [babel-plugin-dva-hmr](https://github.com/dvajs/babel-plugin-dva-hmr)\n* **Plugin system**: e.g. we have [dva-loading](https://github.com/dvajs/dva/tree/master/packages/dva-loading) plugin to handle loading state automatically\n## Demos\n* [Count](https://stackblitz.com/edit/dva-example-count): Simple count example\n* [User Dashboard](https://github.com/dvajs/dva/tree/master/examples/user-dashboard): User management dashboard\n* [AntDesign Pro](https://github.com/ant-design/ant-design-pro)：([Demo](https://preview.pro.ant.design/))，out-of-box UI solution for enterprise applications\n* [HackerNews](https://github.com/dvajs/dva-hackernews):  ([Demo](https://dvajs.github.io/dva-hackernews/))，HackerNews Clone\n* [antd-admin](https://github.com/zuiidea/antd-admin): ([Demo](http://antd-admin.zuiidea.com/))，A admin dashboard application demo built upon Ant Design and Dva.js\n* [github-stars](https://github.com/sorrycc/github-stars): ([Demo](http://sorrycc.github.io/github-stars/#/?_k=rmj86f))，Github star management application\n* [Account System](https://github.com/yvanwangl/AccountSystem.git): A small inventory management system\n* [react-native-dva-starter](https://github.com/nihgwu/r",
+   "sorrycc/blog": "# blog\npersonal blog repository.\n",
+   "umijs/babel-plugin-import": "# babel-plugin-import\nModular import plugin for babel, compatible with [antd](https://github.com/ant-design/ant-design), [antd-mobile](https://github.com/ant-design/ant-design-mobile), lodash, [material-ui](http://material-ui.com/), and so on.\n[](https://npmjs.org/package/babel-plugin-import)\n[](https://travis-ci.org/ant-design/babel-plugin-import)\n----\n## Why babel-plugin-import\n- [English Instruction](https://ant.design/docs/react/getting-started#Import-on-Demand)\n- [中文说明](https://ant.design/docs/react/getting-started-cn#%E6%8C%89%E9%9C%80%E5%8A%A0%E8%BD%BD)\n## Where to add babel-plugin-import\n- [babelrc](https://babeljs.io/docs/usage/babelrc/)\n- [babel-loader](https://github.com/babel/babel-loader)\n## Example\n#### `{ \"libraryName\": \"antd\" }`\n```javascript\nimport { Button } from 'antd';\nReactDOM.render(<Button>xxxx</Button>);\n      ↓ ↓ ↓ ↓ ↓ ↓\nvar _button = require('antd/lib/button');\nReactDOM.render(<_button>xxxx</_button>);\n```\n#### `{ \"libraryName\": \"antd\", style: \"css\" }`\n```javascript\nimport { Button } from 'antd';\nReactDOM.render(<Button>xxxx</Button>);\n      ↓ ↓ ↓ ↓ ↓ ↓\nvar _button = require('antd/lib/button');\nrequire('antd/lib/button/style/css');\nReactDOM.render(<_button>xxxx</_button>);\n```\n#### `{ \"libraryName\": \"antd\", style: true }`\n```javascript\nimport { Button } from 'antd';\nReactDOM.render(<Button>xxxx</Button>);\n      ↓ ↓ ↓ ↓ ↓ ↓\nvar _button = require('antd/lib/button');\nrequire('antd/lib/button/style');\nReactDOM.render(<_button>xxxx</_button>);\n```\nNote : with `style: true` css source files are imported and optimizations can be done during compilation time. With `style: \"css\"`, pre bundled css files are imported as they are.\n`style: true` can reduce the bundle size significantly, depending on your usage of the library.\n## Usage\n```bash\nnpm install babel-plugin-import --save-dev\n```\nVia `.babelrc` or babel-loader.\n```js\n{\n  \"plugins\": [[\"import\", options]]\n}\n```\n### options\n`options` can be object.\n```javascript\n{\n  \"libraryName\": \"antd\",\n  \"style\": true,   // or 'css'\n}\n```\n```javascript\n{\n  \"libraryName\": \"lodash\",\n  \"libraryDirectory\": \"\",\n  \"camel2DashComponentName\": false,  // default: true\n}\n```\n```javascript\n{\n  \"libraryName\": \"@materia"
+  }
+ },
+ "apps": []
+}

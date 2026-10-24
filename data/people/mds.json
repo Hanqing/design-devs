@@ -1,0 +1,161 @@
+{
+ "name": "Matt D. Smith（MDS）",
+ "role": "Shift Nudge 创始人 · 界面设计教育者 · Float Label 模式创造者 · Figma 插件 Contrast、Flowkit 设计者",
+ "title": "Matt D. Smith：浮动标签的<em>发明者</em>",
+ "dek": "他是界面设计教育平台 Shift Nudge 的创始人，在设计领域做了二十多年，带过创业公司和全球品牌的设计，经营设计工作室二十多年。他最广为人知的发明是「Float Label」：输入框的占位文字在你开始输入时浮到框的上方变成标签，这个模式后来被 Apple、Google 和无数公司采用。他还设计了 Figma 插件 Contrast 和 Flowkit。他的课程被 OpenAI、Anthropic、Pentagram、Figma 等公司的设计师使用；现在他把 Shift Nudge 打造成「面向界面设计师和 AI 构建者的现代设计学校」，新增了 Claude Code 课程，每周发一封设计邮件。他毕业于佐治亚大学平面设计专业，住在佐治亚州雅典市。",
+ "card": "Shift Nudge 创始人（佐治亚州雅典）；Float Label 模式创造者，Figma 插件 Contrast、Flowkit 设计者，FloatPrompt 作者。",
+ "location": "美国佐治亚州雅典",
+ "updated": "2026-10-23",
+ "tags": ["界面设计", "设计教育", "AI 设计工作流", "Figma", "交互模式"],
+ "links": [
+  {"label": "Shift Nudge", "url": "https://shiftnudge.com"},
+  {"label": "MDS 介绍", "url": "https://shiftnudge.com/mds"},
+  {"label": "FloatPrompt", "url": "https://floatprompt.com"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>X 简介「Design, code, and AI. Training world-class, modern interface builders through @shiftnudge」。",
+  "<strong>代表作：</strong>Float Label 交互模式、Shift Nudge 课程（界面设计、作品集、Figma 101、Claude Code、实时评审）、Figma 插件 Contrast 与 Flowkit、FloatPrompt、开源 readable、good-button、设计服务合同模板。",
+  "<strong>背景：</strong>佐治亚大学平面设计学士；做过兼职教授；在 Adobe MAX、Dribbble Hangtime、Figma Config、Smashing Conference 开过工作坊。",
+  "<strong>关键数字：</strong>X 关注者约 9 万；Shift Nudge 邮件存档 180 多期。"
+ ],
+ "lead": "2026 年 10 月，MDS 转述了 Telegram CEO 的一段话：「设计师 × AI：模型稿的时代结束了。今天的 AI 工具给了每个设计师超能力：你可以真正做出你的想法，而不只是画出来。」这和他这一年在做的事完全一致：他在 Shift Nudge 推出 Claude Code 课程，发布《Designer's Claude Code Workflow》，演示怎样把 AI 做到 60% 的设计推到最后 40%。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、教育者、创始人"],
+     ["所在地", "美国佐治亚州雅典"],
+     ["教育", "佐治亚大学平面设计学士（BFA）"],
+     ["公司", "Shift Nudge；经营设计工作室二十多年"],
+     ["发明", "Float Label 浮动标签模式"],
+     ["技术栈", "Figma、HTML / CSS、Claude Code"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "MDS 正在把<strong>界面设计教育搬进 AI 时代</strong>。Shift Nudge 的课程从经典的界面设计、Figma 入门、作品集，扩展到 Claude Code：教设计师在代码里直接做出真实的东西，再回到 Figma 打磨。他的周邮件主题也围绕这些变化：《What even is taste?》《The last 20% of a design》《Figma isn't enough anymore》《Tools don't use themselves》。"},
+    {"p": "FloatPrompt 是他做的一个「AI 的隐形操作系统」：一种可移植的人机协作协议，把你的声音、上下文和思路在不同 AI 平台之间保留下来，让 AI 的建议变成可执行的规格。"},
+    {"note": "本页依据 shiftnudge.com（MDS 介绍页、作品集课程页、邮件存档）、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "早年", "title": "平面设计", "text": "佐治亚大学平面设计学士，此后经营设计工作室二十多年。"},
+     {"when": "2013 前后", "title": "Float Label", "text": "提出浮动标签输入框模式，后被 Apple、Google 等广泛采用。"},
+     {"when": "2015–2020", "title": "小工具与插件", "text": "readable 段落行宽检查、good-button；Figma 插件 Contrast、Flowkit；设计服务合同模板。"},
+     {"when": "Shift Nudge", "title": "设计教育", "text": "创办 Shift Nudge，课程被数千名设计师使用。"},
+     {"when": "2025–2026", "title": "AI 与 Claude Code", "text": "FloatPrompt；Claude Code 课程；Config 2026「Building in 2026」。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Shift Nudge", "url": "https://shiftnudge.com",
+     "meta": ["设计学校", "在线课程"],
+     "paras": [
+      "「the modern design school for interface designers and AI-builders」。作品集课程开门见山：招聘经理几秒钟就决定你的作品集，这门课教你看到他们看到的东西，以及如何修正。"
+     ]
+    }},
+    {"work": {
+     "name": "Float Label", "url": "https://shiftnudge.com/mds",
+     "meta": ["交互模式"],
+     "paras": [
+      "输入框里的占位文字在获得焦点或输入内容后上浮为标签，既节省空间又不丢失上下文。如今它几乎是移动端表单的默认做法。"
+     ]
+    }},
+    {"work": {
+     "name": "FloatPrompt", "url": "https://floatprompt.com",
+     "meta": ["2025–", "人机协作协议"],
+     "paras": [
+      "「The invisible OS for AI.」上传一个模板，说「run floatprompt on [my content]」，或用 float map、float extract、float build 等触发词。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Contrast", "检查颜色对比度的 Figma 插件"],
+      ["Flowkit", "画用户流程的 Figma 插件"],
+      ["readable", "标出每段第 45 到 75 个字符，检查行宽（★295）"],
+      ["sa", "设计服务合同的 Markdown 模板（★242）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://shiftnudge.com/mds", "paras": [
+     "MDS 的个人介绍页放在 Shift Nudge 网站上：现在在做什么、值得一提的作品、背景、媒体与访谈（Config、Dribbble Hangtime、Adobe Live、Design Better 等）。课程首页则直接展示他对学员作品集的视频评审。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["技术", "Next.js，Vercel"],
+      ["内容", "课程、邮件存档、评审视频"],
+      ["节奏", "每周一封邮件"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-10-18", "title": "What even is taste?", "url": "https://shiftnudge.com/archive"},
+     {"date": "2026-10-11", "title": "The last 20% of a design", "url": "https://shiftnudge.com/archive"},
+     {"date": "2026-04-14", "title": "Designer's Claude Code Workflow", "url": "https://shiftnudge.com/archive"},
+     {"date": "2026-04-06", "title": "I deleted 7 things from this screen and it got better", "url": "https://shiftnudge.com/archive"},
+     {"date": "2026-03-02", "title": "Figma isn't enough anymore", "url": "https://shiftnudge.com/archive"}
+    ]},
+    {"quote": "Sometimes quality comes simply from having an insanely high standard and brute forcing all things until qualitative significance is achieved as it is defined by you.", "cite": "MDS，X，2026-10"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "经验丰富，评审直接", "课程付费"],
+      ["影响力", "Float Label 被行业广泛采用", "—"],
+      ["转型", "积极拥抱 AI 设计流程", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>一个好模式可以改变整个行业。</strong>",
+     "<strong>删掉七个东西，界面可能更好。</strong>",
+     "<strong>AI 做到 60%，剩下 40% 才见功力。</strong>",
+     "<strong>每周写一封邮件，持续十年。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Shift Nudge", "url": "https://shiftnudge.com", "why": "系统学习界面设计。"},
+     {"name": "MDS 介绍", "url": "https://shiftnudge.com/mds", "why": "看看他的作品和访谈。"},
+     {"name": "readable", "url": "https://github.com/mds/readable", "why": "检查你的段落行宽。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "打开你产品里最复杂的一个页面，试着删掉三个元素，然后问自己有没有人会想念它们。",
+ "sources": [
+  {"label": "MDS 的 X 个人资料", "url": "https://x.com/mds"},
+  {"label": "Matt D. Smith（Shift Nudge）", "url": "https://shiftnudge.com/mds"},
+  {"label": "Shift Nudge", "url": "https://shiftnudge.com"},
+  {"label": "GitHub：mds", "url": "https://github.com/mds"}
+ ]
+}

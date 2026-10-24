@@ -1,0 +1,156 @@
+{
+ "name": "Ryan Florence",
+ "role": "React Router、Remix 联合作者 · Reach UI 作者 · Shopify · 犹他州",
+ "title": "Ryan Florence：<em>重新思考</em>最佳实践",
+ "dek": "他住在犹他州，和 Michael Jackson 一起创造了 React 生态里使用最广的路由库 React Router，后来又一起做了全栈框架 Remix。他们还创办过 React Training，给公司做 React 培训，Ryan 也做了注重无障碍的组件库 Reach UI。据维基百科，Remix 最初需要付费订阅，2021 年 10 月开源；2022 年团队被 Shopify 收购，并承诺保持开源和独立。2024 年 11 月，Remix v2 并入 React Router v7 成为「框架模式」；2025 年 5 月他们宣布 Remix 3 不再基于 React，而是用自己的组件模型「拥有整个技术栈」。2026 年，Remix 3 进入候选发布阶段，React Router v8 发布并转向开放治理。业余时间他在玩滑水，还在训练会自我学习的《最终幻想 XI》游戏机器人。",
+ "card": "React Router、Remix 联合作者，Reach UI 作者；在 Shopify 做 Remix，犹他州。",
+ "location": "美国犹他州",
+ "updated": "2026-10-23",
+ "tags": ["React Router", "Remix", "Web 标准", "全栈框架", "AI Agent"],
+ "links": [
+  {"label": "Remix", "url": "https://remix.run"},
+  {"label": "Remix 博客", "url": "https://remix.run/blog"},
+  {"label": "GitHub：ryanflorence", "url": "https://github.com/ryanflorence"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 简介「Building @remix-run at Shopify」。",
+  "<strong>代表作：</strong>React Router、Remix、Reach UI、React Training 课程、react-magic-move、async-props、ember-tools、snack.js。",
+  "<strong>经历：</strong>Ember 社区 → React Training 联合创始人 → React Router → Remix（2021 开源）→ Shopify（2022 收购）。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 9.9 千、297 个公开仓库；X 关注者约 3 万。"
+ ],
+ "lead": "Remix 官网现在写着「Re-rethinking best practices」：Web 框架积累了太多看似不可避免的复杂度和间接层，Remix 要用一路通到 Web 标准的 API 重新审视这些假设。新的 Remix 里，「状态就是 JavaScript」：组件只运行一次初始化，然后返回一个渲染 JSX 的函数，状态放在普通变量、对象或类里，而不是 hooks；「更新是显式的」：改完状态后调用 <code>handle.update()</code>。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "框架作者、教育者"],
+     ["所在地", "美国犹他州"],
+     ["工作", "Shopify（Remix 团队）"],
+     ["合作者", "Michael Jackson"],
+     ["开源", "React Router、Remix、Reach UI"],
+     ["技术栈", "JavaScript、TypeScript、Web API"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Ryan 和团队在做<strong>Remix 3</strong>：一个把服务器运行时、路由、认证、会话、数据库集成、UI 框架、资源编译、动态样式和无障碍组件整合在一起、完全基于 Web API 的「全栈」框架。它强调运行时优先，不把打包器放在架构中心；各个包可以单独使用，也可以整套用。"},
+    {"p": "他在 X 上分享得最多的是 AI 带来的变化：给《最终幻想 XI》机器人设计了一套会被自动检查的 DSL 后，机器人选中真正想做的动作的比例从 58% 提高到 90%；他也观察到身边越来越多不会编程的人在用 AI 做软件，比如帮他管度假屋的五十多岁的经理，用 Codex 做了一个统一控制所有房子智能设备的面板。"},
+    {"note": "本页依据 remix.run（首页与博客）、维基百科 React Router 条目、GitHub 个人简介与仓库 README 和 X 帖子整理，资料截至 2026 年 10 月。宗教与家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2011–2013", "title": "早期 JavaScript", "text": "小型跨浏览器库 snack.js；Ember 工具 ember-tools。"},
+     {"when": "2014", "title": "React Router 与培训", "text": "与 Michael Jackson 做 React Router；React Training 课程。"},
+     {"when": "2018", "title": "Reach UI", "text": "无障碍 React 组件；React Conf 2018 演讲。"},
+     {"when": "2020–2021", "title": "Remix", "text": "先以付费订阅推出，2021 年 10 月开源。"},
+     {"when": "2022–2024", "title": "Shopify", "text": "2022 年团队被 Shopify 收购；2024 年 Remix v2 并入 React Router v7。"},
+     {"when": "2025–2026", "title": "Remix 3", "text": "宣布不再基于 React；2026 年发布候选版；React Router v8 与开放治理。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "React Router", "url": "https://reactrouter.com",
+     "meta": ["2014–", "路由 / 框架", "联合作者"],
+     "paras": [
+      "React 生态里使用最广的路由库；v7 起同时提供库模式和框架模式，2026 年 6 月发布 v8，并转向开放治理。"
+     ]
+    }},
+    {"work": {
+     "name": "Remix", "url": "https://remix.run",
+     "meta": ["2021–", "全栈框架", "联合作者"],
+     "paras": [
+      "「The fully-stacked web framework」Remix 3 以 Web 标准为基础，用自己的组件模型替代 React。"
+     ]
+    }},
+    {"work": {
+     "name": "Reach UI", "url": "https://github.com/reach/reach-ui",
+     "meta": ["2018–", "React 组件", "无障碍"],
+     "paras": [
+      "把无障碍放在第一位的 React 基础组件库。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["react-training", "迷你 React 培训课程（★1,011）"],
+      ["react-magic-move", "React 中的元素过渡动画（★442）"],
+      ["async-props", "React Router 的就近数据加载（★558）"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "网站研究",
+   "blocks": [
+    {"site": {"url": "https://remix.run", "paras": [
+     "Ryan 没有在 X 上放个人网站，他的工作集中体现在 remix.run。首页像一份宣言：先展示用标准 Request 和 Response 搭服务器的代码，然后是「更大的工具箱，更小的心智模型」和「重新思考最佳实践」两组原则。博客最近的文章是《Remix 3 Release Candidate》和《React Router v8》。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["个人网站", "无（GitHub 指向 remix.run）"],
+      ["项目官网", "remix.run"],
+      ["表达方式", "代码示例 + 原则清单"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "All around me non-techies are doing techie things with AI. I see people saying it's not happening but it's happening all around me.", "cite": "Ryan Florence，X，2026-10"},
+    {"p": "他在 X 上常常直言对框架设计和行业趋势的看法，也分享滑水和游戏机器人这些业余爱好。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["影响力", "React Router 是生态基础设施", "—"],
+      ["勇气", "敢于推翻自己的设计", "多次大版本变化让用户迁移成本高"],
+      ["教育", "长期做 React 培训", "—"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>贴近 Web 标准，</strong>知识就不会过时。",
+     "<strong>敢于重新思考「最佳实践」。</strong>",
+     "<strong>教别人是理解技术的最好方式。</strong>",
+     "<strong>业余项目也能带来工程洞察。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Remix", "url": "https://remix.run", "why": "看一个以 Web 标准为中心的框架。"},
+     {"name": "React Router", "url": "https://reactrouter.com", "why": "从路由库到框架模式。"},
+     {"name": "Remix 博客", "url": "https://remix.run/blog", "why": "了解 Remix 3 和开放治理。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 Remix 3 的 handle.update() 写一个计数器，体会「显式更新」和 hooks 的区别。",
+ "sources": [
+  {"label": "Ryan Florence 的 X 个人资料", "url": "https://x.com/ryanflorence"},
+  {"label": "remix.run", "url": "https://remix.run"},
+  {"label": "Remix 博客", "url": "https://remix.run/blog"},
+  {"label": "维基百科：React Router", "url": "https://en.wikipedia.org/wiki/React_Router"},
+  {"label": "GitHub：ryanflorence", "url": "https://github.com/ryanflorence"}
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "name": "Chris Eidhof",
+ "role": "objc.io 联合创始人 · SwiftUI Field Guide 作者 · 《Thinking in SwiftUI》《Advanced Swift》作者之一 · 德国",
+ "title": "Chris Eidhof：先理解<em>心智模型</em>，再写代码",
+ "dek": "他是 objc.io 的联合创始人。objc.io 最早是一本关于 Objective-C 的期刊，后来出版了《Functional Swift》《Advanced Swift》《Core Data》《App Architecture》《Thinking in SwiftUI》《Optimizing Collections》等书，还做了长达 373 集的视频节目 Swift Talk：两个人一边写代码一边讨论。2026 年 9 月，Swift Talk 宣布结束，转为存档模式。现在他主要做 SwiftUI Field Guide：一份用交互图解讲清布局、对齐、安全区和动画的指南，并为团队开 SwiftUI 工作坊。他住在德国勃兰登堡州的菲尔斯滕贝格，还给当地的越野跑公园做过一个应用。",
+ "card": "objc.io 联合创始人，Swift Talk（373 集）、SwiftUI Field Guide；《Thinking in SwiftUI》等书作者之一，德国。",
+ "location": "德国菲尔斯滕贝格（哈弗尔）",
+ "updated": "2026-10-23",
+ "tags": ["Swift", "SwiftUI", "技术写作", "教学", "函数式编程"],
+ "links": [
+  {"label": "chris.eidhof.nl", "url": "https://chris.eidhof.nl"},
+  {"label": "SwiftUI Field Guide", "url": "https://www.swiftuifieldguide.com"},
+  {"label": "objc.io", "url": "https://www.objc.io"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I’m Chris Eidhof, co-founder of objc.io and creator of SwiftUI Field Guide.」",
+  "<strong>代表作：</strong>objc.io 书系与期刊、Swift Talk（#1–#373）、SwiftUI Field Guide、formatstyle.guide、tea-in-swift（★411）、TerminalUI、commonmark-swift、pomo.tv。",
+  "<strong>关键数字：</strong>GitHub 192 个公开仓库；X 关注者约 2.9 万（已主要迁到 Mastodon）。",
+  "<strong>2026 年写作：</strong>《Self-forking agents》《Learning in the age of LLMs》《Animations in the SwiftUI Field Guide》。"
+ ],
+ "lead": "2026 年 6 月，Chris 写了一篇小文章《Learning in the age of LLMs》：一个关于重新回到手敲代码、不用任何辅助的小故事。他在 X 上解释了为什么：他还在给真人上 SwiftUI 工作坊，不知道未来会怎样，但要和 LLM 高效合作，理解底层的心智模型仍然非常有帮助。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "作者、讲师、开发者"],
+     ["所在地", "德国勃兰登堡州菲尔斯滕贝格（哈弗尔）"],
+     ["公司", "objc.io（联合创始人）"],
+     ["作品", "objc.io 书系、Swift Talk、SwiftUI Field Guide、工作坊"],
+     ["技术栈", "Swift、Haskell、Objective-C"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Chris 现在的重点是 <strong>SwiftUI Field Guide</strong>：一个「公开工作」的项目，逐页讲解 SwiftUI 的布局系统（LazyVGrid、安全区、自定义对齐 ID）、调试和动画；他发现完全可以用 SwiftUI 内置的关键帧动画驱动一个粒子系统。他还做了 formatstyle.guide，交互式地展示 Swift 各种 FormatStyle 的效果。"},
+    {"p": "2026 年初，他专门花了一个月「真正理解如何和 LLM 合作」：从零写了一个会自我分叉、自我改进的 Agent，写了一个小助手，还提出对依赖的新看法：有了 LLM，你可以把依赖完全吸收进来，自己拥有它。"},
+    {"note": "本页依据 chris.eidhof.nl、objc.io、swiftuifieldguide.com、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。objc.io 各书的合著者不在此一一列出。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2012–2014", "title": "objc.io", "text": "Core Data 与 Objective-C 探索；与合伙人创办 objc.io 期刊。"},
+     {"when": "2014–2015", "title": "Swift 早期", "text": "Literate Swift、函数式视图控制器，在 Swift Summit 演讲；pomo.tv 视频索引。"},
+     {"when": "Swift Talk 时期", "title": "视频与书", "text": "Swift Talk 每周一集；出版 Advanced Swift、App Architecture、Thinking in SwiftUI 等。"},
+     {"when": "2017–2021", "title": "架构实验", "text": "tea-in-swift（Elm 架构）、增量计算、TerminalUI（类 SwiftUI 的终端界面）。"},
+     {"when": "2024", "title": "SwiftUI Field Guide", "text": "持续添加页面，开 SwiftUI 工作坊。"},
+     {"when": "2026", "title": "LLM 与告别 Swift Talk", "text": "写 Agent 系列文章；9 月 Swift Talk 结束，转为存档。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "SwiftUI Field Guide", "url": "https://www.swiftuifieldguide.com",
+     "meta": ["交互指南", "持续更新"],
+     "paras": [
+      "用可交互的图示讲清 SwiftUI 的布局与动画原理。网站同时提供面向团队的工作坊，帮助团队「从根本上理解 SwiftUI」。"
+     ]
+    }},
+    {"work": {
+     "name": "Swift Talk", "url": "https://talk.objc.io",
+     "meta": ["视频", "373 集", "已存档"],
+     "paras": [
+      "「A video series on Swift programming.」实时写代码加讨论，提供完整文字稿和源码下载。最后一集是《Cubic Bezier Keyframes (Part 5)》。"
+     ]
+    }},
+    {"work": {
+     "name": "objc.io 书系", "url": "https://www.objc.io/books",
+     "meta": ["电子书"],
+     "paras": [
+      "Thinking in SwiftUI、App Architecture、Advanced Swift、Functional Swift、Core Data、Optimizing Collections，部分附视频，常以套装形式出售。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["formatstyle.guide", "Swift FormatStyle 交互速查"],
+      ["tea-in-swift", "把 Elm 架构移植到 Swift 的概念验证（★411）"],
+      ["TerminalUI", "用类 SwiftUI 的布局系统构建终端界面"],
+      ["laufpark-stechlin", "当地越野跑公园的应用"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://chris.eidhof.nl", "paras": [
+     "个人博客一句自我介绍，下面是文章列表。2026 年他写得很勤：Field Guide 里的动画、比较四种 SwiftUI 抖动动画的实现、自我分叉的 Agent、LLM 时代的学习。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["社交", "Mastodon（m.objc.io）、Bluesky"],
+      ["主题", "SwiftUI、LLM、学习方法"],
+      ["节奏", "2026 年每月左右一篇"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "写作与观点",
+   "blocks": [
+    {"posts": [
+     {"date": "2026-09-17", "title": "Animations in the SwiftUI Field Guide", "url": "https://chris.eidhof.nl/post/animations-in-the-field-guide"},
+     {"date": "2026-06", "title": "Learning in the age of LLMs", "url": "https://chris.eidhof.nl/post/learning-in-the-age-of-llms/"},
+     {"date": "2026-04", "title": "Format Style Guide", "url": "https://chris.eidhof.nl/post/format-style-guide/"},
+     {"date": "2026-02", "title": "Self-forking agents", "url": "https://chris.eidhof.nl/post/self-forking-agents/"}
+    ]},
+    {"quote": "to be productive with LLMs it still really helps to understand the mental model", "cite": "Chris Eidhof，X，2026-06"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["教学", "讲原理极清楚", "书与 Field Guide 部分内容付费"],
+      ["深度", "Swift 与 SwiftUI 底层理解", "—"],
+      ["持续性", "十多年稳定输出", "Swift Talk 已停更"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>先理解心智模型。</strong>",
+     "<strong>偶尔关掉 AI，手敲代码。</strong>",
+     "<strong>公开工作：</strong>边做边分享。",
+     "<strong>依赖可以被你拥有。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "SwiftUI Field Guide", "url": "https://www.swiftuifieldguide.com", "why": "真正搞懂 SwiftUI 布局。"},
+     {"name": "Learning in the age of LLMs", "url": "https://chris.eidhof.nl/post/learning-in-the-age-of-llms/", "why": "关于手敲代码的小故事。"},
+     {"name": "formatstyle.guide", "url": "https://formatstyle.guide", "why": "一页看懂 FormatStyle。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "这周找一个你常用却说不清原理的 SwiftUI 修饰符，在 Field Guide 里查清它的布局行为。",
+ "sources": [
+  {"label": "Chris Eidhof 的 X 个人资料", "url": "https://x.com/chriseidhof"},
+  {"label": "chris.eidhof.nl", "url": "https://chris.eidhof.nl"},
+  {"label": "objc.io", "url": "https://www.objc.io"},
+  {"label": "SwiftUI Field Guide", "url": "https://www.swiftuifieldguide.com"},
+  {"label": "GitHub：chriseidhof", "url": "https://github.com/chriseidhof"}
+ ]
+}

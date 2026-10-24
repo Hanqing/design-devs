@@ -1,0 +1,156 @@
+{
+ "name": "Matt Rothenberg",
+ "role": "Cloudflare 设计系统 Kumo 维护者与设计工程团队经理 · 前 GitHub Next、Replicate、Clearbit、Heroku · 纽约",
+ "title": "Matt Rothenberg：<em>设计师、开发者、连续折腾者</em>",
+ "dek": "他从肯塔基州搬到纽约，自称「设计师、开发者和连续折腾者」。现在他在 Cloudflare 维护设计系统 Kumo（★4.1 千），并管理设计工程团队。此前他在 GitHub Next 探索软件开发的未来，参与过 Copilot 这样的「大热门」；在 Clearbit 搭建了核心设计系统；在 Heroku 做数据产品的 Web 和命令行界面；还帮联合国开发计划署做了 Digital Development Compass，可以快速查看任何国家的数字化准备程度。X 简介里他还提到曾在 Replicate 工作。他给不少知名开源项目做过贡献：Tailwind CSS、React Router、Base UI、Ariakit 和 Paper 的着色器库；早年他写的 Vue 动画库 vue-overdrive、vue-flip-toolkit 也很受欢迎。",
+ "card": "Cloudflare 设计系统 Kumo 维护者、设计工程团队经理；前 GitHub Next、Clearbit、Heroku，纽约。",
+ "location": "美国纽约",
+ "updated": "2026-10-23",
+ "tags": ["设计系统", "设计工程", "React", "生成式界面", "动画"],
+ "links": [
+  {"label": "mattrothenberg.com", "url": "https://mattrothenberg.com"},
+  {"label": "Kumo", "url": "https://kumo-ui.com"},
+  {"label": "GitHub：mattrothenberg", "url": "https://github.com/mattrothenberg"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>「I'm Matt Rothenberg, a New York City-based designer, developer, and serial tinkerer.」",
+  "<strong>代表作：</strong>Cloudflare Kumo（★4.1 千，维护）、vue-overdrive（★675）、vue-flip-toolkit（★309）、vue-storybook、use-gauge、react-overflow-list、react-comparison-slider、fold-gradient、formulaire、sillon；UNDP Digital Development Compass。",
+  "<strong>开源贡献：</strong>Tailwind CSS、React Router、Base UI、Ariakit、Paper Shaders。",
+  "<strong>关键数字：</strong>X 关注者约 5.4 千、推文约 1.1 万条；GitHub 近一年贡献 2,487 次。"
+ ],
+ "lead": "2026 年秋天，他每周在个人网站发一篇笔记，主题叫「primitives for generation」（为生成而设计的基础组件）。他在追问一个他自己也说「很有帮助地没有给出答案」的问题：当 Agent 可以按需生成一个视图时，仪表盘到底是用来干什么的？他做了一个原型：给 Cloudflare 命令行加一个「画布模式」，本地 Agent 直接用真实的控制台组件在一张实时画布上回答你的问题。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "设计师、开发者、设计工程经理"],
+     ["所在地", "美国纽约（来自肯塔基州）"],
+     ["工作", "Cloudflare（设计系统与设计工程）"],
+     ["此前", "GitHub Next、Replicate、Clearbit、Heroku"],
+     ["开源", "Kumo、vue-overdrive、vue-flip-toolkit、use-gauge"],
+     ["技术栈", "React、TypeScript、Vue、CSS"]
+    ]},
+    {"h3": "他到底在做什么？"},
+    {"p": "Matt 在 Cloudflare 一边维护 <strong>Kumo 组件库</strong>，一边探索 Agent 时代的界面：可以停靠、拖动、缩放的面板，替代展开表格行；重新设计部署流程的第一屏，让你粘贴仓库地址、拖入文件夹或选模板，而不用先选择产品；以及当 Agent 完成大部分 UI 工作时，「变更审查」应该是什么样子，怎么更容易看出视觉和体验上改了什么。"},
+    {"p": "他的业余项目同样偏爱精致的交互：sillon 是一个基于 React 的音频波形组件，想替代 Wavesurfer.js，还支持径向可视化和像 SoundCloud 那样在波形上叠加评论；formulaire 是对 FormKeep 经典 Gridforms 的现代改写；fold-gradient 是一个可以直接复制进 React 应用的 Paper 着色器。"},
+    {"note": "本页依据 mattrothenberg.com、kumo-ui.com、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。各段任职的具体时间未核实；家庭信息未收录。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2016–2017", "title": "设计师写代码", "text": "styleguide-boilerplate、《Prototyping Playbook》、vue-elucidate。"},
+     {"when": "2018–2019", "title": "Vue 动画", "text": "vue-overdrive、vue-storybook、vue-flip-toolkit、gatsbygram。"},
+     {"when": "2021–2022", "title": "React 组件", "text": "use-gauge、react-overflow-list、react-comparison-slider。"},
+     {"when": "此前", "title": "Heroku、Clearbit、GitHub Next、Replicate", "text": "数据产品界面、核心设计系统、探索软件开发的未来（参与 Copilot）。"},
+     {"when": "2026", "title": "Cloudflare", "text": "维护 Kumo，管理设计工程团队；每周笔记。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "Kumo", "url": "https://kumo-ui.com",
+     "meta": ["Cloudflare", "TypeScript", "★4.1 千"],
+     "paras": [
+      "Cloudflare 用来构建产品界面的组件库，已在 GitHub 开源。"
+     ]
+    }},
+    {"work": {
+     "name": "vue-overdrive", "url": "https://github.com/mattrothenberg/vue-overdrive",
+     "meta": ["2018–", "Vue", "★675"],
+     "paras": [
+      "「Super easy magic-move transitions for Vue apps」让元素在页面之间平滑「变身」。"
+     ]
+    }},
+    {"work": {
+     "name": "Digital Development Compass", "url": "https://digitaldevelopmentcompass.undp.org/",
+     "meta": ["UNDP", "数据可视化"],
+     "paras": [
+      "联合国开发计划署的工具，快速了解任一国家的数字化准备情况，他称之为职业生涯中的一个亮点。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["vue-flip-toolkit", "react-flip-toolkit 的 Vue 移植（★309）"],
+      ["use-gauge", "构建仪表盘图表的无头 React hook"],
+      ["sillon", "React 音频波形组件（开发中）"],
+      ["formulaire", "Gridforms 风格的现代表单"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://mattrothenberg.com", "paras": [
+     "个人网站的小标题很有个性：「I'm very employable」下面是工作经历，「I code for fun」下面是他贡献和维护的开源项目，按星数排列。现在还有一个每周更新的「notes」栏目。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "Cloudflare"],
+      ["结构", "工作 + 开源 + 笔记"],
+      ["语气", "轻松自嘲"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "Half-baked, but I've been wondering what \"change review\" looks like when agents do most of our UI work.", "cite": "Matt Rothenberg，X，2026-10"},
+    {"p": "他的 X 简介写着「big dork energy」，时间线里是 Kumo 的交互草图、公园里的光线和对纽约天气的抱怨。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["能力", "设计和代码都扎实", "—"],
+      ["经历", "设计系统经验丰富", "—"],
+      ["开源", "贡献广泛", "个人库多已停止更新"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从他身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>设计师也能写生产级代码。</strong>",
+     "<strong>在大公司里维护设计系统，</strong>也给开源回馈。",
+     "<strong>每周公开分享未完成的想法。</strong>",
+     "<strong>重新追问基础问题：</strong>仪表盘是为了什么？"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Kumo", "url": "https://kumo-ui.com", "why": "看 Cloudflare 的组件库。"},
+     {"name": "mattrothenberg.com", "url": "https://mattrothenberg.com", "why": "读他的每周笔记。"},
+     {"name": "vue-overdrive", "url": "https://github.com/mattrothenberg/vue-overdrive", "why": "学 magic-move 过渡。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "挑一个你常用的仪表盘页面，想一想：如果 Agent 能按需生成视图，这个页面的哪一部分还值得保留？",
+ "sources": [
+  {"label": "Matt Rothenberg 的 X 个人资料", "url": "https://x.com/mattrothenberg"},
+  {"label": "mattrothenberg.com", "url": "https://mattrothenberg.com"},
+  {"label": "Kumo", "url": "https://kumo-ui.com"},
+  {"label": "GitHub：mattrothenberg", "url": "https://github.com/mattrothenberg"},
+  {"label": "GitHub：cloudflare/kumo", "url": "https://github.com/cloudflare/kumo"}
+ ]
+}

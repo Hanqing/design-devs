@@ -1,0 +1,376 @@
+{
+ "handle": "mattt",
+ "sites": [],
+ "github": {
+  "login": "mattt",
+  "user": {
+   "name": "Mattt",
+   "company": null,
+   "blog": "https://nshipster.com",
+   "location": "Portland, OR",
+   "bio": null,
+   "public_repos": 149,
+   "followers": 19227,
+   "created_at": "2008-04-17T03:18:54Z",
+   "twitter_username": "mattt",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "mattt/Ono",
+    "description": "A sensible way to deal with XML & HTML for iOS & macOS",
+    "stargazers_count": 2591,
+    "forks_count": 194,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2014-02-20T20:05:54Z",
+    "pushed_at": "2020-04-08T03:37:13Z",
+    "topics": [
+     "css",
+     "html",
+     "libxml2",
+     "objective-c",
+     "swift",
+     "xml",
+     "xpath"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattt/GroundControl",
+    "description": "Remote configuration for iOS",
+    "stargazers_count": 1929,
+    "forks_count": 111,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2012-08-31T23:13:59Z",
+    "pushed_at": "2021-06-24T11:45:46Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/iMCP",
+    "description": "A macOS app that provides an MCP server to your Messages, Contacts, Reminders and more",
+    "stargazers_count": 1785,
+    "forks_count": 126,
+    "language": "Swift",
+    "homepage": "https://iMCP.app/download",
+    "created_at": "2025-03-05T13:14:00Z",
+    "pushed_at": "2026-10-23T22:56:37Z",
+    "topics": [
+     "macos",
+     "mcp"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattt/CargoBay",
+    "description": "The Essential StoreKit Companion",
+    "stargazers_count": 1749,
+    "forks_count": 152,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2012-09-10T02:50:12Z",
+    "pushed_at": "2021-06-22T17:08:43Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/Euler",
+    "description": "Swift Custom Operators for Mathematical Notation",
+    "stargazers_count": 1148,
+    "forks_count": 59,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2014-08-05T21:33:35Z",
+    "pushed_at": "2021-04-20T16:53:44Z",
+    "topics": [
+     "math",
+     "notation",
+     "operator",
+     "playground",
+     "swift"
+    ],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/AnimatedGIFImageSerialization",
+    "description": "Complete Animated GIF Support for iOS, with Functions, NSJSONSerialization-style Class, and (Optional) UIImage Swizzling",
+    "stargazers_count": 1072,
+    "forks_count": 99,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-03-25T18:06:31Z",
+    "pushed_at": "2019-07-06T14:55:26Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/TransformerKit",
+    "description": "A block-based API for NSValueTransformer, with a growing collection of useful examples.",
+    "stargazers_count": 832,
+    "forks_count": 103,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2012-11-09T23:36:56Z",
+    "pushed_at": "2021-10-01T08:35:17Z",
+    "topics": [
+     "data-transformation",
+     "nsvaluetransformer",
+     "objective-c",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattt/Navajo",
+    "description": "Password Validator & Strength Evaluator",
+    "stargazers_count": 827,
+    "forks_count": 50,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2014-03-03T21:51:40Z",
+    "pushed_at": "2019-06-13T16:36:10Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/SkyLab",
+    "description": "Multivariate & A/B Testing for iOS and Mac",
+    "stargazers_count": 790,
+    "forks_count": 39,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2012-09-05T16:19:27Z",
+    "pushed_at": "2021-04-06T17:34:20Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/NSEtcHosts",
+    "description": "/etc/hosts with NSURLProtocol",
+    "stargazers_count": 664,
+    "forks_count": 74,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-04-16T08:08:39Z",
+    "pushed_at": "2019-07-11T15:37:10Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/Orbiter",
+    "description": "Push Notification Registration for iOS",
+    "stargazers_count": 664,
+    "forks_count": 46,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2012-11-29T00:10:13Z",
+    "pushed_at": "2021-06-22T17:10:23Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/Chroma-Hash",
+    "description": "A colorful visualization of password field input",
+    "stargazers_count": 617,
+    "forks_count": 42,
+    "language": "JavaScript",
+    "homepage": "",
+    "created_at": "2009-07-28T23:53:35Z",
+    "pushed_at": "2018-09-26T20:25:55Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/rack-scaffold",
+    "description": "Automatically generate REST APIs from Core Data models",
+    "stargazers_count": 523,
+    "forks_count": 36,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2012-07-24T17:51:00Z",
+    "pushed_at": "2019-07-07T23:10:30Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/sinatra-param",
+    "description": "Parameter Validation & Type Coercion for Sinatra",
+    "stargazers_count": 517,
+    "forks_count": 67,
+    "language": "Ruby",
+    "homepage": "",
+    "created_at": "2012-04-28T21:20:53Z",
+    "pushed_at": "2022-03-09T15:15:16Z",
+    "topics": [
+     "coercion",
+     "parameters",
+     "ruby",
+     "sinatra",
+     "validation"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattt/InflectorKit",
+    "description": "Efficiently Singularize and Pluralize Strings",
+    "stargazers_count": 471,
+    "forks_count": 31,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2013-03-14T18:37:53Z",
+    "pushed_at": "2020-12-04T12:33:50Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "mattt/ollama-swift",
+    "description": "A Swift client library for interacting with Ollama. Supports structured outputs, tool use, and vision models.",
+    "stargazers_count": 455,
+    "forks_count": 44,
+    "language": "Swift",
+    "homepage": "https://ollama.com",
+    "created_at": "2024-02-04T13:45:01Z",
+    "pushed_at": "2026-10-16T16:22:16Z",
+    "topics": [
+     "ollama",
+     "swift"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "mattt/NSSortDescriptor-WilsonRank",
+    "description": "The Correct Way To Rank Up/Down Voted Items",
+    "stargazers_count": 428,
+    "forks_count": 13,
+    "language": "Objective-C",
+    "homepage": null,
+    "created_at": "2014-05-24T08:02:45Z",
+    "pushed_at": "2018-03-20T17:18:21Z",
+    "topics": [],
+    "archived": true
+   },
+   {
+    "full_name": "mattt/Godzippa",
+    "description": "Godzippa! - GZip Compression / Decompression Category for NSData",
+    "stargazers_count": 424,
+    "forks_count": 49,
+    "language": "Objective-C",
+    "homepage": "",
+    "created_at": "2012-03-11T20:45:07Z",
+    "pushed_at": "2019-06-13T14:05:05Z",
+    "topics": [],
+    "archived": true
+   }
+  ],
+  "repo_count_nonfork": 112,
+  "languages": [
+   [
+    "Swift",
+    45
+   ],
+   [
+    "Objective-C",
+    24
+   ],
+   [
+    "Ruby",
+    16
+   ],
+   [
+    "TypeScript",
+    8
+   ],
+   [
+    "Go",
+    5
+   ],
+   [
+    "JavaScript",
+    3
+   ],
+   [
+    "Python",
+    3
+   ],
+   [
+    "C",
+    2
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "swiftlang/swift",
+    "stargazerCount": 70517,
+    "description": "The Swift Programming Language",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://swift.org"
+   },
+   {
+    "nameWithOwner": "Alamofire/Alamofire",
+    "stargazerCount": 42395,
+    "description": "Elegant HTTP Networking in Swift",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   },
+   {
+    "nameWithOwner": "mattt/emcee",
+    "stargazerCount": 332,
+    "description": "MCP generator for OpenAPIs 🫳🎤💥",
+    "primaryLanguage": {
+     "name": "Go"
+    },
+    "homepageUrl": "https://emcee.sh"
+   },
+   {
+    "nameWithOwner": "mattt/iMCP",
+    "stargazerCount": 1785,
+    "description": "A macOS app that provides an MCP server to your Messages, Contacts, Reminders and more",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": "https://iMCP.app/download"
+   },
+   {
+    "nameWithOwner": "huggingface/swift-transformers",
+    "stargazerCount": 1360,
+    "description": "Swift Package to implement a transformers-like API in Swift",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": null
+   },
+   {
+    "nameWithOwner": "huggingface/AnyLanguageModel",
+    "stargazerCount": 961,
+    "description": "An API-compatible, drop-in replacement for Apple's Foundation Models framework with support for custom language model providers.",
+    "primaryLanguage": {
+     "name": "Swift"
+    },
+    "homepageUrl": ""
+   }
+  ],
+  "contrib_last_year": 5437,
+  "orgs": [
+   "NSHipster",
+   "sembr",
+   "Flight-School",
+   "dododo-co",
+   "MultNoMo"
+  ],
+  "profile_readme": "### About Me\n\nI'm a software engineer, a father of four, and resident of Portland, Oregon.\n\n**Professional**\n\nPreviously,\nI founded [NSHipster](https://nshipster.com)\nand created some of the most widely used open-source libraries in the Apple ecosystem,\nincluding AFNetworking and Alamofire.\nI've worked at Apple, GitHub, Heroku, and Replicate.\nMy code runs on the majority of Apple devices worldwide.\n\n**Civic Action**\n\nI'm the lead petitioner for [MultNoMo](https://multnomo.org),\na grassroots initiative to consolidate the governments of Portland and Multnomah County.\n\nI'm beginning Portland State University's [Executive Master in Public Administration](https://www.pdx.edu/public-administration/executive-master-public-administration) program this fall.\n\n**Personal**\n\nI live in the Alphabet District in a Victorian house built before automobiles.\nMy family is car-free.\nMost days I take my kids to school on a cargo e-trike 🛺\n\nI believe the means justify the ends:\nthe integrity of the process determines the quality of the outcome.\n",
+  "readmes": {
+   "swiftlang/swift": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://www.swift.org/assets/images/swift~dark.svg\">\n</picture>\n# Swift Programming Language\n## Welcome to Swift\nSwift is a high-performance system programming language.  It has a clean\nand modern syntax, offers seamless access to existing C and Objective-C code\nand frameworks, and is memory-safe by default.\nAlthough inspired by Objective-C and many other languages, Swift is not itself a\nC-derived language. As a complete and independent language, Swift packages core\nfeatures like flow control, data structures, and functions, with high-level\nconstructs like objects, protocols, closures, and generics. Swift embraces\nmodules, eliminating the need for headers and the code duplication they entail.\nTo learn more about using the language, visit [swift.org](https://swift.org/documentation/).\nTo learn more about the compiler's internal design, see the\n[documentation index](/docs/README.md).\n- [Contributing to Swift](#contributing-to-swift)\n- [Getting Started](#getting-started)\n  - [Swift Toolchains](#swift-toolchains)\n  - [Build Failures](#build-failures)\n- [Learning More](#learning-more)\n## Contributing to Swift\nContributions to Swift are welcomed and encouraged! Please see the\n[Contributing to Swift guide](https://swift.org/contributing/).\nBefore submitting the pull request, please make sure you have [tested your\n changes](https://github.com/apple/swift/blob/main/docs/ContinuousIntegration.md)\n and that they follow the Swift project [guidelines for contributing\n code](https://swift.org/contributing/#contributing-code).\nTo be a truly great community, [Swift.org](https://swift.org/) needs to welcome\ndevelopers from all walks of life, with different backgrounds, and with a wide\nrange of experience. A diverse and friendly community will have more great\nideas, more unique perspectives, and produce more great code. We will work\ndiligently to make the Swift community welcoming to everyone.\nTo give clarity of what is expected of our members, Swift has adopted the\ncode of conduct defined by the Contributor Covenant. This document is used\nacross many open source communities, and we think it articulates our values\nw",
+   "Alamofire/Alamofire": "\n[](https://img.shields.io/badge/Swift-6.0_6.1_6.2_6.3_6.4-Orange?style=flat-square)\n[](https://img.shields.io/badge/Platforms-macOS_iOS_tvOS_watchOS_vision_OS_Linux_Windows_Android-Green?style=flat-square)\n[](https://img.shields.io/cocoapods/v/Alamofire.svg)\n[](https://github.com/Carthage/Carthage)\n[](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)\n[](https://forums.swift.org/c/related-projects/alamofire/37)\nAlamofire is an HTTP networking library written in Swift.\n- [Features](#features)\n- [Component Libraries](#component-libraries)\n- [Requirements](#requirements)\n- [Migration Guides](#migration-guides)\n- [Communication](#communication)\n- [Installation](#installation)\n- [Contributing](#contributing)\n- [Usage](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#using-alamofire)\n  - [**Introduction -**](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#introduction) [Making Requests](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#making-requests), [Response Handling](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#response-handling), [Response Validation](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#response-validation), [Response Caching](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#response-caching)\n  - **HTTP -** [HTTP Methods](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#http-methods), [Parameters and Parameter Encoder](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md##request-parameters-and-parameter-encoders), [HTTP Headers](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#http-headers), [Authentication](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#authentication)\n  - **Large Data -** [Downloading Data to a File](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#downloading-data-to-a-file), [Uploading Data to a Server](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#uploading-data-to-a-server)\n  - **Tools -*",
+   "mattt/emcee": "\n# emcee\n**emcee** is a tool that provides a [Model Context Protocol (MCP)][mcp] server\nfor any web application with an [OpenAPI][openapi] specification.\nYou can use emcee to connect [Claude Desktop][claude] and [other apps][mcp-clients]\nto external tools and data services,\nsimilar to [ChatGPT plugins][chatgpt-plugins].\n## Quickstart\nIf you're on macOS and have [Homebrew][homebrew] installed,\nyou can get up-and-running quickly.\n```bash\n# Install emcee\nbrew install mattt/tap/emcee\n```\nMake sure you have [Claude Desktop](https://claude.ai/download) installed.\nTo configure Claude Desktop for use with emcee:\n1. Open Claude Desktop Settings (<kbd>⌘</kbd><kbd>,</kbd>)\n2. Select the \"Developer\" section in the sidebar\n3. Click \"Edit Config\" to open the configuration file\nThe configuration file should be located in the Application Support directory.\nYou can also open it directly in VSCode using:\n```console\ncode ~/Library/Application\\ Support/Claude/claude_desktop_config.json\n```\nAdd the following configuration to add the weather.gov MCP server:\n```json\n{\n  \"mcpServers\": {\n    \"weather\": {\n      \"command\": \"emcee\",\n      \"args\": [\"https://api.weather.gov/openapi.json\"]\n    }\n  }\n}\n```\nAfter saving the file, quit and re-open Claude.\nYou should now see <kbd>🔨57</kbd> in the bottom right corner of your chat box.\nClick on that to see a list of all the tools made available to Claude through MCP.\nStart a new chat and ask it about the weather where you are.\n> What's the weather in Portland, OR?\nClaude will consult the tools made available to it through MCP\nand request to use one if deemed to be suitable for answering your question.\nYou can review this request and either approve or deny it.\nIf you allow, Claude will communicate with the MCP\nand use the result to inform its response.\n## Why use emcee?\nMCP provides a standardized way to connect AI models to tools and data sources.\nIt's still early days, but there are already a variety of [available servers][mcp-servers]\nfor connecting to browsers, developer tools, and other systems.\nWe think emcee is a convenient way to connect to services\nthat don't have an existing MCP server implementation —\n_especially for services you're build",
+   "mattt/iMCP": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"Assets/hero-dark.svg\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"Assets/hero-light.svg\">\n</picture>\niMCP is a macOS app for connecting your digital life with AI.\nIt works with [Claude Desktop][claude-app],\nthe [ChatGPT desktop app][chatgpt-app],\nlocal models served by [llama.cpp][llama-cpp],\nand a [growing list of clients][mcp-clients] that support the\n[Model Context Protocol (MCP)][mcp].\n## Capabilities\n<table>\n  <tr>\n    <th width=\"48\">\n    </th>\n    <td><strong>Calendar</strong></td>\n    <td>View and manage calendar events, including creating new events with customizable settings like recurrence, alarms, and availability status.</td>\n  </tr>\n  <tr>\n    <th width=\"48\">\n    </th>\n    <td><strong>Contacts</strong></td>\n    <td>Access contact information about yourself and search your contacts by name, phone number, or email address.</td>\n  </tr>\n  <tr>\n    <th width=\"48\">\n    </th>\n    <td><strong>Home</strong></td>\n    <td>Find homes, rooms, accessories, scenes, and automations, read and control accessories, and organize rooms and zones. Needs a helper app that you <a href=\"#imcp-helper\">build with your own Apple Developer account</a>.</td>\n  </tr>\n  <tr>\n    <th width=\"48\">\n    </th>\n    <td><strong>Location</strong></td>\n    <td>Access current location data and convert between addresses and geographic coordinates.</td>\n  </tr>\n  <tr>\n    <th width=\"48\">\n    </th>\n    <td><strong>Mail</strong></td>\n    <td>List mailboxes, search messages by sender, subject, mailbox, date, or read status, read messages stored on your Mac, and open new drafts in your default email app. Reading mail needs <a href=\"#mail-access-and-search\">access to your Mail folder</a>.</td>\n  </tr>\n  <tr>\n    <th width=\"48\">\n    </th>\n    <td><strong>Maps</strong></td>\n    <td>Provides location services including place search, directions, points of interest lookup, travel time estimation, and static map image generation.</td>\n  </tr>\n  <tr>\n    <th width=\"48\">\n    </th>\n    <td><strong>Messages</strong></td>\n    <td>Access message history with specific participants within customizable date ranges.</td>\n  </tr>\n  <tr>\n",
+   "huggingface/swift-transformers": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"media/swift-t-banner.png\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"media/swift-t-banner.png\">\n  </picture>\n  <br/>\n  <br/>\n</p>\n[](https://github.com/huggingface/swift-transformers/actions/workflows/unit-tests.yml)\n[](https://swiftpackageindex.com/huggingface/swift-transformers)\n[](https://swiftpackageindex.com/huggingface/swift-transformers)\n`swift-transformers` is a collection of utilities to help adopt language models in Swift apps. \nThose familiar with the [`transformers`](https://github.com/huggingface/transformers) Python library will find a familiar yet idiomatic Swift API.\n## Rationale & Overview\nCheck out [our v1.0 release post](https://huggingface.co/blog/swift-transformers) and our [original announcement](https://huggingface.co/blog/swift-coreml-llm) for more context on why we built this library.\n## Examples\nThe most commonly used modules from `swift-transformers` are `Tokenizers` and `Hub`, which allow fast tokenization and\nmodel downloads from the Hugging Face Hub.\n### Tokenizing text + chat templating\nTokenizing text should feel very familiar to those who have used the Python `transformers` library:\n```swift\nlet tokenizer = try await AutoTokenizer.from(pretrained: \"deepseek-ai/DeepSeek-R1-Distill-Qwen-7B\")\nlet messages = [[\"role\": \"user\", \"content\": \"Describe the Swift programming language.\"]]\nlet encoded = try tokenizer.applyChatTemplate(messages: messages)\nlet decoded = tokenizer.decode(tokens: encoded)\n```\n### Tool calling\n`swift-transformers` natively supports formatting inputs for tool calling, allowing for complex interactions with language models:\n```swift\nlet tokenizer = try await AutoTokenizer.from(pretrained: \"mlx-community/Qwen2.5-7B-Instruct-4bit\")\nlet weatherTool = [\n    \"type\": \"function\",\n    \"function\": [\n        \"name\": \"get_current_weather\",\n        \"description\": \"Get the current weather in a given location\",\n        \"parameters\": [\n            \"type\": \"object\",\n            \"properties\": [\"location\": [\"type\": \"string\", \"description\": \"City and state\"]],\n            \"required\": [\"location\"]\n        ]\n    ]\n]\nlet tokens = try t"
+  }
+ },
+ "apps": []
+}

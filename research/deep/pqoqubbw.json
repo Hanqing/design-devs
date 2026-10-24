@@ -1,0 +1,210 @@
+{
+ "handle": "pqoqubbw",
+ "sites": [
+  {
+   "url": "https://pqoqubbw.dev",
+   "ok": true,
+   "title": "dmytro",
+   "description": "design engineer",
+   "stack": [
+    "Next.js",
+    "React",
+    "Substack"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "dmytro \ndesign engineer at mintlify \ni care about the craft and building things that feel right for the person on the other side of the screen. \ni work between design and code, on the small decisions that make software feel intentional. if something feels off, i keep at it until it doesn't. \nthings i made \n invisible details a course on why interfaces feel right (opens in a new tab) \n lucide-animated animated versions of lucide icons (opens in a new tab) \n next project, coming soon \n next scene",
+   "github_links": [
+    "pqoqubbw"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://invisibledetails.com",
+   "ok": true,
+   "title": "Invisible Details — The Art of Predictable Interfaces",
+   "description": "A course on the invisible details of interface design: the timing, weight and small decisions that separate good software from great.",
+   "stack": [
+    "Next.js",
+    "React"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "llms.txt — agent-readable index of this site. Markdown versions of every page: append .md to the URL or send Accept: text/markdown. \n Login Login \nYou can tell when an interface feels right. Saying why is the hard part. \nFor a long time I could feel the difference between good and almost good, but I couldn't explain it. This is what I found once I started paying attention. \n Crafted by Dmytro \nIt looked fine. It didn't feel right. \nAfter completing a screen everything looked perfect. Everything aligned properly, colors were balanced, nothing stood out as incorrect. But something was not working. There was something in a button, the transition appeared slightly too late or the list felt fine in the mockup but cheap when animated. \nThe worst part is that I couldn't figure out what the problem was. I just knew it is not what I appreciated in the applications I use daily. Close, but not it. \nFor some time, I thought I am just not good enough. Some people have taste and I don't. \n Save Save \n Save Save \nPress both. One feels better.\n Can you say why? \nI did the usual things. \nI read a ton of design books. Studied grids and type scales. Saved screenshots into folders that never got opened. Followed designers who made me jealous. \nMost of those materials taught me the obvious principles: layering, layout, colors, hierarchy. All the things you can include in a presentation. They helped. But only partially. It stopped where my problems started. \nNobody discussed the part I couldn't see. \nThe books \n“Inspo” - 412 items \nThe research phase. The folder\n is still here. Never opened. \nThe good stuff was never written down. \nThe things that made interfaces feel alive were hiding in between. Few pixels nobody talks about. Easing of a menu to make it feel natural and not robotic. The ability of the good software to do everything slowly in a proper place and super fast in another. \nI would spot one of them by accident, recognize how much it meant and realize how obvious it was the whole time. \n 7px \n 7px Mathematical aligment \n 12px \n Button 12px \n 8px \n 6px Optical alignment \n 12px \n Button 10px \n Show margin \n 7px \n 7px Mathematical aligment \n 8px \n 6px Optical alignment \n Show margin \n 12px \n Button 12px Mathematical aligment \n 12px \n Button 10px Optical alignment \n Show margin \nThere was no course for it. No checklist. Just a bunch of people who were able to do it but didn't know how. \nThat is why I decided to write it down myself. \nI wrote down every detail until it added up to something. \nInitially, it was my personal project. Whenever anything felt good, I would stop and ask why. Then rebuild it to understand the reasoning behind the choice. \nThe archive grew rapidly. Eventually, the patterns appeared. It turned out the invisible things were not random at all - there was always a reason behind them. Timing. Weight. Awareness of what to avoid. \nThings I kept noticing \nPatterns I finally understood \nAll those things combined together became Invisible Details . It is the resource I was looking for years ago and couldn't find. \nYou've felt all of this already. You just haven't been shown it. \nIf you have ever shipped an app that worked great technically, but felt flat, this is what was missing. This is the difference between an interface that works and one that feels like it has been done with passion. \nYou don't need more talent for this. You just need to know where to look. Once you see these details, you will never stop seeing them. And eventually start using them yourself. \n “I know what I want to do as a designer. But when you start implementing, you realise there are details you need to think about. That’s what the course helps to figure out. ” James Founding Designer, Mintlify \nWhat you'll learn. \nThere are two chapters: Notes, then Practice. \nFirst, the theory. Then watching it getting applied. Designed to be read carefully and revisited later. \n Notes \n I agree to the terms I agree to the terms Click this button to spot the difference \n Practice \n Jun 18 - 20 Try this component \n Notes \n I agree to the terms I agree to the terms Tap this button to spot the difference \n Practice \n Jun 18 - 20 Try this component \n Notes \nThe ideas. Every lesson focuses on one topic - states, feedback, inputs, speed - showing how I think about them. Each includes practical examples. These apply to any interface component you will ever design. \n Foundation \n 01/ Introduction \n 02/ Learning to notice \n 03/ Small details that add up \n 04/ Predic",
+   "github_links": [],
+   "subpages": {},
+   "appstore_ids": []
+  },
+  {
+   "url": "https://lucide-animated.com",
+   "ok": true,
+   "title": "lucide-animated | Free Animated React Icons Library",
+   "description": "Free open-source library of 350+ beautifully crafted animated React icons. Built with Motion and Lucide. Copy-paste ready, MIT licensed, fully customizable SVG icons with smooth animations.",
+   "stack": [
+    "Next.js",
+    "Tailwind CSS",
+    "React"
+   ],
+   "hosting": [
+    "Next.js",
+    "Vercel"
+   ],
+   "lang": "en",
+   "home_text": "llms.txt \nBeautifully crafted \nanimated icons * \nan open-source ( MIT License ) collection of smooth animated icons for your projects. feel free to use them, share your feedback, and let's make this library awesome together \nCrafted with Motion & Lucide \n pnpm npm yarn bun \n pnpm dlx shadcn add @lucide-animated/ pnpm dlx shadcn add @lucide-animated/ \n a-arrow-down \n you can tell when an interface feels right - saying why is the hard part. these icons are one small answer. Invisible Details is the rest of it: timing, states, feedback, the weight of a click - every detail, written down. \n DT \ndmytro, creator of lucide-animated Get the course \n ⌘ F for the search \na-arrow-down \na-arrow-up \naccessibility \nactivity \nair-vent \nairplane \nairplay \nalarm-clock \nalarm-clock-check \nalarm-clock-minus \nalarm-clock-plus \nalarm-smoke \nalign-center \nalign-horizontal \nalign-left \nalign-right \nalign-vertical \nambulance \n lucide-animated \n Sponsor Project \n Star on GitHub ( 8,234 stars) 8,234",
+   "github_links": [
+    "pqoqubbw"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "pqoqubbw",
+  "user": {
+   "name": "dmytro",
+   "company": "mintlify",
+   "blog": "pqoqubbw.dev",
+   "location": "Hungary, Budapest",
+   "bio": "design engineer",
+   "public_repos": 20,
+   "followers": 369,
+   "created_at": "2020-09-09T11:24:46Z",
+   "twitter_username": "pqoqubbw",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "pqoqubbw/icons",
+    "description": "beautifully crafted animated icons",
+    "stargazers_count": 8234,
+    "forks_count": 291,
+    "language": "TypeScript",
+    "homepage": "https://lucide-animated.com",
+    "created_at": "2024-10-31T21:39:28Z",
+    "pushed_at": "2026-10-14T23:32:57Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pqoqubbw/cal-com-animated-grid",
+    "description": null,
+    "stargazers_count": 34,
+    "forks_count": 1,
+    "language": "TypeScript",
+    "homepage": "https://cal-com-animated-grid.vercel.app",
+    "created_at": "2024-11-17T03:05:35Z",
+    "pushed_at": "2024-11-17T23:03:08Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pqoqubbw/pqoqubbw",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2021-08-09T11:43:19Z",
+    "pushed_at": "2026-03-28T12:16:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pqoqubbw/docs",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "MDX",
+    "homepage": null,
+    "created_at": "2026-05-28T19:01:13Z",
+    "pushed_at": "2026-05-28T19:01:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pqoqubbw/mintlify-test-doc",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "MDX",
+    "homepage": null,
+    "created_at": "2025-09-26T22:24:45Z",
+    "pushed_at": "2026-09-03T17:47:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pqoqubbw/mintlify-test-doc-local",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "MDX",
+    "homepage": null,
+    "created_at": "2025-10-07T21:17:18Z",
+    "pushed_at": "2026-01-31T16:42:30Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pqoqubbw/subabase",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": "https://subapase-rouge.vercel.app",
+    "created_at": "2024-05-02T23:58:34Z",
+    "pushed_at": "2024-08-09T17:45:49Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "pqoqubbw/test-github-docs",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "MDX",
+    "homepage": null,
+    "created_at": "2025-11-18T14:57:20Z",
+    "pushed_at": "2025-11-18T14:57:24Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 8,
+  "languages": [
+   [
+    "MDX",
+    4
+   ],
+   [
+    "TypeScript",
+    3
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "pqoqubbw/icons",
+    "stargazerCount": 8234,
+    "description": "beautifully crafted animated icons",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://lucide-animated.com"
+   }
+  ],
+  "contrib_last_year": 4899,
+  "orgs": [],
+  "profile_readme": "hey, i'm dmytro ⸺ a design engineer.\ncurrently, i'm part of the team at [mintlify](https://www.mintlify.com/) . i'm also the creator of [lucide-animated](https://lucide-animated.com/).\n\ni care about the craft and building things that feel right for the person on the other side of the screen. my focus is on bridging the gap between design and code by obsessing over the fine details — ensuring every pixel and interaction feels intentional, from smooth motion to accessibility.\n\nif you're interested, you can read more about my journey [here](https://uncoverfaces.substack.com/p/i-dont-know-but-i-can-figure-it-out).\n\nyou can find me on twitter [@pqoqubbw](https://x.com/pqoqubbw).\n",
+  "readmes": {
+   "pqoqubbw/icons": "<a href=\"https://vercel.com/oss\">\n</a>\n<br />\n## `lucide-animated` is beautifully crafted animated icons.\n**Demo** → [lucide-animated](https://lucide-animated.com)\n**Sponsorship** → [lucide-animated/sponsorship](https://lucide-animated.com/sponsorship)\n#### Svelte icons: [movingicons.dev](https://www.movingicons.dev/) by [@jis3r](https://github.com/jis3r)\n#### Vue icons: [imfenghuang.github.io/icons](https://imfenghuang.github.io/icons/) by [@imfenghuang](https://github.com/imfenghuang)\n#### Angular icons: [ajitzero/animated-icons](https://github.com/ajitzero/animated-icons) by [@ajitzero](https://github.com/ajitzero)\n#### Flutter icons: [flutter_lucide_animated](https://pub.dev/packages/flutter_lucide_animated) by [@ravikovind](https://github.com/ravikovind)\n## Contributing\nWe welcome contributions to `lucide-animated`! Please read our [contributing guidelines](CONTRIBUTING.md) on how to submit improvements and new icons.\n## Terms of Use\nFeel free to use these components in personal and commercial projects. However, while the tutorials and demos are available for your use as-is, they cannot be redistributed or resold. Let’s keep things fair and respect each other’s work.\nIf you have any questions or just want to say hi, feel free to reach out to me on X 👉 [@pqoqubbw](https://x.com/pqoqubbw).\n## Notes\nThis project is a work in progress, and i'm continuously working to improve and expand this collection. I’d love to hear your feedback or see your contributions as the project evolves!\n",
+   "pqoqubbw/cal-com-animated-grid": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).\n## Getting Started\nFirst, run the development server:\n```bash\nnpm run dev\n# or\nyarn dev\n# or\npnpm dev\n# or\nbun dev\n```\nOpen [http://localhost:3000](http://localhost:3000) with your browser to see the result.\nYou can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.\nThis project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.\n## Learn More\nTo learn more about Next.js, take a look at the following resources:\n- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.\n- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.\nYou can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!\n## Deploy on Vercel\nThe easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.\nCheck out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.\n",
+   "pqoqubbw/pqoqubbw": "hey, i'm dmytro ⸺ a design engineer.\ncurrently, i'm part of the team at [mintlify](https://www.mintlify.com/) . i'm also the creator of [lucide-animated](https://lucide-animated.com/).\ni care about the craft and building things that feel right for the person on the other side of the screen. my focus is on bridging the gap between design and code by obsessing over the fine details — ensuring every pixel and interaction feels intentional, from smooth motion to accessibility.\nif you're interested, you can read more about my journey [here](https://uncoverfaces.substack.com/p/i-dont-know-but-i-can-figure-it-out).\nyou can find me on twitter [@pqoqubbw](https://x.com/pqoqubbw).\n"
+  }
+ },
+ "apps": []
+}

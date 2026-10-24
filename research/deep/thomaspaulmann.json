@@ -1,0 +1,311 @@
+{
+ "handle": "thomaspaulmann",
+ "sites": [
+  {
+   "url": "http://thomaspaulmann.com",
+   "ok": true,
+   "title": "Thomas Paul Mann",
+   "description": "",
+   "stack": [
+    "Next.js"
+   ],
+   "hosting": [
+    "Vercel"
+   ],
+   "lang": "",
+   "home_text": "Hi, I'm Thomas. I was born in Germany and live in London, United Kingdom.\nI like to make things for people who make things. I'm currently crafting[Raycast](https://raycast.com/). Previously, I built products as a software engineer at Facebook, Audi, ProSieben and the Fraunhofer Society.\nFeel free to say[hello](mailto:hello@thomaspaulmann.com?Subject=Hello), fork my[code](https://github.com/thomaspaulmann), or share my [tweets](https://twitter.com/thomaspaulmann).",
+   "github_links": [
+    "thomaspaulmann"
+   ],
+   "subpages": {},
+   "appstore_ids": []
+  }
+ ],
+ "github": {
+  "login": "thomaspaulmann",
+  "user": {
+   "name": "Thomas Paul Mann",
+   "company": "@raycast",
+   "blog": "thomaspaulmann.com",
+   "location": "London, UK",
+   "bio": "Make things for people who make things. ",
+   "public_repos": 37,
+   "followers": 672,
+   "created_at": "2015-04-22T10:41:59Z",
+   "twitter_username": "thomaspaulmann",
+   "type": "User"
+  },
+  "repos": [
+   {
+    "full_name": "thomaspaulmann/Swish",
+    "description": "👷Build Swift Projects on a Remote Machine within Xcode.",
+    "stargazers_count": 274,
+    "forks_count": 9,
+    "language": "Shell",
+    "homepage": "",
+    "created_at": "2016-11-04T17:39:51Z",
+    "pushed_at": "2017-01-08T18:16:46Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/HeartControl",
+    "description": "❤️ Continuous heart rate measurement during workouts with watchOS 3.",
+    "stargazers_count": 201,
+    "forks_count": 38,
+    "language": "Swift",
+    "homepage": "",
+    "created_at": "2016-08-03T19:00:53Z",
+    "pushed_at": "2021-04-04T22:58:07Z",
+    "topics": [
+     "apple",
+     "health",
+     "heart-rate",
+     "watchos",
+     "workout-apps"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/EmojiTimeFormatter",
+    "description": "🕐 Format your dates/times as emojis.",
+    "stargazers_count": 83,
+    "forks_count": 3,
+    "language": "Swift",
+    "homepage": null,
+    "created_at": "2016-08-21T22:42:05Z",
+    "pushed_at": "2016-11-05T13:43:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/color-picker-extension",
+    "description": "A Raycast extension that uses a native macOS color picker",
+    "stargazers_count": 10,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2023-01-18T19:50:45Z",
+    "pushed_at": "2023-01-18T19:53:25Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/wat",
+    "description": "Try cognitive Services.",
+    "stargazers_count": 10,
+    "forks_count": 0,
+    "language": "Swift",
+    "homepage": "http://www.thomaspaulmann.com/wat/",
+    "created_at": "2016-06-08T18:57:09Z",
+    "pushed_at": "2016-07-24T10:26:01Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/lees-productivity-toolbox",
+    "description": "Code from my livestream with Lee (https://youtu.be/dgyuttjX1oo)",
+    "stargazers_count": 7,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-08-31T19:11:59Z",
+    "pushed_at": "2022-08-31T19:13:06Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/raycast-react-query",
+    "description": "Test project to make `react-query` compatible with the Raycast environment",
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "language": "TypeScript",
+    "homepage": null,
+    "created_at": "2022-04-26T09:54:51Z",
+    "pushed_at": "2022-04-26T09:57:33Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/Advisor",
+    "description": "Advisor is a bundle of scripts to detect potential bugs in your android code. ",
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2016-02-07T16:10:23Z",
+    "pushed_at": "2016-05-26T10:31:39Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/homebrew-formulae",
+    "description": "🍺 Homebrew formulae for my tools.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": "Ruby",
+    "homepage": null,
+    "created_at": "2016-11-07T00:39:18Z",
+    "pushed_at": "2016-11-08T18:47:44Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/Kolorit",
+    "description": "A simple color palette for hackers for their terminal and editors of choice.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": "",
+    "created_at": "2018-08-19T13:31:29Z",
+    "pushed_at": "2018-08-19T14:14:24Z",
+    "topics": [
+     "color-palette",
+     "color-scheme"
+    ],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/Publishor",
+    "description": "Hassle-free publishing of your Artefacts.",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2016-02-19T10:17:01Z",
+    "pushed_at": "2016-02-19T10:31:17Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/safari",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "language": null,
+    "homepage": null,
+    "created_at": "2025-01-06T14:56:58Z",
+    "pushed_at": "2025-01-06T14:56:58Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/Documentor",
+    "description": "Documentor is a Gradle Plugin to generate Javadocs for Android Code.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "Groovy",
+    "homepage": "http://www.thomaspaulmann.com/Documentor/",
+    "created_at": "2016-02-09T15:30:21Z",
+    "pushed_at": "2016-02-19T10:32:02Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/GradlePluginExamples",
+    "description": "An Android Example which uses all of my Gradle Plugins.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": null,
+    "created_at": "2016-02-15T10:08:13Z",
+    "pushed_at": "2016-02-15T10:22:04Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/linear-script",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "language": "JavaScript",
+    "homepage": null,
+    "created_at": "2021-02-20T00:54:33Z",
+    "pushed_at": "2021-02-20T00:55:47Z",
+    "topics": [],
+    "archived": false
+   },
+   {
+    "full_name": "thomaspaulmann/thomaspaulmann.github.io",
+    "description": "My personal homepage.",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "language": "HTML",
+    "homepage": "http://www.thomaspaulmann.com",
+    "created_at": "2015-12-06T12:19:15Z",
+    "pushed_at": "2018-05-27T17:42:07Z",
+    "topics": [],
+    "archived": false
+   }
+  ],
+  "repo_count_nonfork": 16,
+  "languages": [
+   [
+    "Swift",
+    3
+   ],
+   [
+    "TypeScript",
+    3
+   ],
+   [
+    "HTML",
+    2
+   ],
+   [
+    "Shell",
+    1
+   ],
+   [
+    "Ruby",
+    1
+   ],
+   [
+    "Groovy",
+    1
+   ],
+   [
+    "JavaScript",
+    1
+   ]
+  ],
+  "pinned": [
+   {
+    "nameWithOwner": "raycast/extensions",
+    "stargazerCount": 7805,
+    "description": "Everything you need to extend Raycast.",
+    "primaryLanguage": {
+     "name": "TypeScript"
+    },
+    "homepageUrl": "https://developers.raycast.com"
+   },
+   {
+    "nameWithOwner": "raycast/script-commands",
+    "stargazerCount": 6803,
+    "description": "Script Commands let you tailor Raycast to your needs. Think of them as little productivity boosts throughout your day.",
+    "primaryLanguage": {
+     "name": "Shell"
+    },
+    "homepageUrl": "https://raycast.com"
+   }
+  ],
+  "contrib_last_year": 2129,
+  "orgs": [
+   "ReSwift",
+   "PowerOfEmojis",
+   "swift-server",
+   "up-n-down",
+   "swish-server",
+   "raycast"
+  ],
+  "profile_readme": "",
+  "readmes": {
+   "raycast/extensions": "<p align=\"center\">\n  <h1 align=\"center\">Raycast Extensions</h1>\n</p>\n<p align=\"center\">\n  <a aria-label=\"Follow Raycast on X\" href=\"https://x.com/raycast\">\n  </a>\n  <a aria-label=\"Join the community on Slack\" href=\"https://raycast.com/community\">\n  </a>\n</p>\n[Raycast](https://raycast.com/) lets you control your tools with a few keystrokes. This repository contains all extensions that are available in the [Raycast Store](https://raycast.com/store). It also includes documentation and examples of how to extend Raycast using React.\n## Getting Started\nVisit [https://developers.raycast.com](https://developers.raycast.com) to get started with our API. If you want to discover and install extensions, check out [our Store](https://raycast.com/store).\nBe sure to read and follow our [Community](https://manual.raycast.com/community-guidelines) and [Extension](https://manual.raycast.com/extensions) guidelines and [Acceptable Use Policy](https://www.raycast.com/aup) when submitting your extension and interacting with other folks in this repository.\n## Feedback\nRaycast wouldn't be where it is without the feedback from our community, so we would be happy to hear what you think of the API / DevX and how we can improve. Please use [GitHub issues](https://github.com/raycast/extensions/issues/new/choose) for everything API related (bugs, improvements suggestions, developer experience, docs, etc). We have a few [templates](https://developers.raycast.com/examples) that should help you get started.\n## Community\nJoin our [Slack community](https://raycast.com/community) to share your extension, debug nasty bugs or simply get to know like-minded folks.\n",
+   "raycast/script-commands": "<div align=\"center\">\n  <div align=\"center\">\n    <a href=\"https://github.com/raycast/script-commands/tree/master/commands\">\n    </a>\n    <a href=\"https://twitter.com/raycast\">\n    </a>\n  </div>\n<br>\n  <h1>Raycast Script Commands</h1>\n</div>\n[Raycast](https://raycast.com/) lets you control your tools with a few keystrokes and installing script commands makes it possible to execute commands from anywhere on your desktop. They are a great way to speed up every-day tasks such as converting data, opening bookmarks or triggering dev workflows. This repository contains some example scripts as well as links to our community commands and documentation to write your own ones.\n**✨ Looking to build richer extensions?** Check out the Extensions API [here](https://github.com/raycast/extensions).\n**💥 Or looking for some [Raycast Script Commands](commands/README.md) created by the community?**  \n🚨 For anything that is not related to script commands, please [send us an email](mailto:feedback@raycast.com), use the feedback command within Raycast, or join the [Slack community](https://www.raycast.com/community).\n<br>\n<br>\n<br>\n<br>\n## Install Script Commands from this repository\nTo install new commands, follow these steps:\n1. Choose a script from the [community repo](https://github.com/raycast/script-commands/tree/master/commands#apps) and save it into a new directory.\n   Scripts containing the word `.template.` in the filename require some values to be set (check [the troubleshooting section](#troubleshooting-and-faqs) for more information).\n   Alternatively, instead of creating a new directory you can reuse the repo's [`_enable-commands` folder](https://github.com/raycast/script-commands/tree/master/_enabled-commands).\n2. Open the Extensions tab in the Raycast preferences\n3. Click the plus button\n4. Click `Add Script Directory`\n5. Select directories containing your Script Commands\n**💡 Hint:** We recommend that you don't directly load the community script directories into Raycast to avoid potential restructuring and new script commands suddenly appearing in Raycast.\n## Create your own Script Commands\nTo write your own custom Script Commands, go over the following steps:\n1. Use the",
+   "thomaspaulmann/Swish": "\nSwish is a simple script for remote building your Swift projects on a Linux machine. Why is that so cool? You can develop in Xcode on macOS and can use an External Build System to deploy your code on Linux.\nThe next chapters are all about integrating Swish in Xcode and describes how to build Swift projects on a remote machine right outta Xcode. It targets the early adopters of Server-Side Swift and should minimize the gap between macOS and Linux. It's **work in progress**, so please report any issues that you're running in.\n## Prerequisites:\n* A Remote Machine that running Linux and Swift ([Here](/Scripts/setup-swift-3.0-arm.sh) is an installation script for a RaspberryPi 3)\n* SSH KeyPair\n## Setup SSH Authentication\nFirst you'll need to generate a public/private keypair:\n```\nssh-keygen -t rsa\n```\nFollow the prompts. When it asks if you want to protect the key with a passphrase, you should say `YES`!\nNow, assuming your ssh key exists, you can install it on your remote machine by running:\n```\ncat ~/.ssh/id_rsa.pub | ssh <username>@<hostname> \"mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys\"\n```\nYou can start a new ssh session. You'll have to enter the password, but this should be the last time you need to do this.\n```\nssh <username>@<hostname>\n```\nYour good to go 💪\n## Installation with Homebrew\n```\nbrew install thomaspaulmann/homebrew-formulae/swish\n```\nNow you can run `swish` in your terminal.\n## Configure Xcode\n1. Add a new target and select **External Build System** (in cross-plattform tab) as template.\n2. Set `/bin/bash` as the build tool of the target.\n3. Select your generated target and set arguments (in info tab) to `swish <username> <hostname>`\n4. Build your project (with the newly created target) and enjoy your compiled swift code on your remote machine.\n## Run Project\nOpen a new terminal window and connect to your remote machine via SSH.\n```\nssh <username>@<hostname>\n```\nNavigate to the synced project directory and run your project as usual.\n```\ncd ~/Swish/<projectname>\n.build/debug/<projectname>\n```\nHave fun 🍻\n## Thanks\n* Juan Hodgson for the ['Lazer 84'-Font](https://www.behance.net/gallery/31261857/LAZER-84-Free-Font) 🔫\n## License\nThis project is l",
+   "thomaspaulmann/HeartControl": "[](https://swift.org) [](https://developer.apple.com/watchos/)\n# Heart Control\nMonitor your heart rate on the apple watch - continuously and easy.\n## What is it?\nHeart Control is a standalone watch app to monitor continuously heart rate on [watchOS 3](http://www.apple.com/watchos-preview/). It collects and analyzes data in real-time in the background.\n## What is it not?\nIt's not a whole implementation of every little detail of [Apple's HealthKit](https://developer.apple.com/healthkit/). It's more or less a quick start guide for workout apps on watchOS 3.\n## Special Thanks\nThanks to [Dash Brittain](http://www.roxannebrittain.com) and [Jorge Morinigo](https://www.linkedin.com/in/jorgemorinigo) for your WWDC talk [Building Great Workout Apps](https://developer.apple.com/videos/play/wwdc2016/235/).\n",
+   "thomaspaulmann/EmojiTimeFormatter": "[](https://swift.org)\n[](https://swift.org/package-manager/)\n[](https://github.com/Carthage/Carthage)\n# EmojiTimeFormatter\nFormat your dates/times as emojis 🕟 🕑 🕗\n## Description\nYou can build easy to understand user interfaces with EmojiTimeFormatter or can do funny things like that:\nThe example is accessable via [Power of Emojis](https://github.com/PowerOfEmojis/EmojiClock).\n## Installation\nEmojiTimeFormatter supports multiple methods for installing the library in a project. You can find the latest version in the [release tab](https://github.com/thomaspaulmann/EmojiTimeFormatter/releases/latest).\n### Installation with Swift Package Manager\nTo integrate EmojiTimeFormatter into your Xcode project using [Swift Package Manager](https://swift.org/package-manager/), specify it in your `Package.swift` file:\n``` Swift\nimport PackageDescription\nlet package = Package(\n    [...]\n    dependencies: [\n        .Package(url: \"https://github.com/thomaspaulmann/EmojiTimeFormatter.git\", majorVersion: XYZ)\n    ]\n)\n```\n### Installation with Carthage\nTo integrate EmojiTimeFormatter into your Xcode project using [Carthage](https://github.com/Carthage/Carthage), specify it in your `Cartfile`:\n```\ngithub \"thomaspaulmann/EmojiTimeFormatter\" ~> X.Y.Z\n```\nRun `carthage update --toolchain com.apple.dt.toolchain.XcodeDefault` to build the framework and drag the built EmojiTimeFormatter.framework into your Xcode project. It's important to specify your [toolchain in the Xcode beta builds](https://github.com/Carthage/Carthage/issues/1417).\n### Installation without anything\nTo integrate EmojiTimeFormatter into your Xcode project using nothing but your hands, copy the [Sources](/Sources) folder to your Xcode project. It's only two files and 200 lines of code.\n## Usage\nYou can convert dates to clock face emojis and vice versa.\n### Date to Emoji\nCreate a new `EmojiTimeFormatter`, get the `ClockFaceEmoji` for your `Date` and print it. It's that simple.\n``` Swift\nlet now = Date()\nlet formatter = EmojiTimeFormatter()\nlet clockFaceEmoji = formatter.clockFace(from: now)\nprint(\"It's \\(clockFaceEmoji) o'clock.\") // Output: It's 🕢 o'clock.\n```\n### Emoji to Date\nIt's also possible to convert a `ClockFaceEm"
+  }
+ },
+ "apps": []
+}

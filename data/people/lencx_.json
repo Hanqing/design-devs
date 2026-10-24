@@ -1,0 +1,155 @@
+{
+ "name": "lencx",
+ "role": "ChatGPT 桌面客户端（★5.5 万）、Noi、Minke 作者 · Tauri / Rust / Web 开发者 · 公众号「浮之静」",
+ "title": "lencx：给 AI 套上<em>好用的桌面外壳</em>",
+ "dek": "TA 是 Web、Rust、Tauri 和 Electron 开发者，2022 年 12 月 ChatGPT 刚发布不久，TA 就用 Tauri 做了一个非官方的 ChatGPT 桌面客户端，支持 Mac、Windows 和 Linux，一度在 GitHub 上获得 5.5 万颗星，是当时最受欢迎的 ChatGPT 桌面应用之一。之后 TA 把精力转向 Noi（★9 千）：一个把多个 AI 网站放进同一个窗口、支持多窗口、会话隔离、提示词管理和内置终端的「AI 浏览器」，现在还能被 Claude Code、Codex、Gemini CLI 通过命令行控制。2026 年，TA 又推出了基于 DeepSeek Harness 的本地优先桌面 Agent 工作区 Minke，以及给 Agent 用的原生工具集 Opsail。TA 写过 Tauri 系列教程和「用前端视角学习 Rust」，在公众号「浮之静」写作。",
+ "card": "ChatGPT 桌面客户端（★5.5 万）、Noi（★9 千）、Minke 作者；Tauri / Rust 开发者，公众号「浮之静」。",
+ "location": "未公开",
+ "updated": "2026-10-23",
+ "tags": ["Tauri", "Rust", "AI 桌面应用", "Electron", "中文技术写作"],
+ "links": [
+  {"label": "lencx.me", "url": "https://lencx.me"},
+  {"label": "Noi", "url": "https://noib.app"},
+  {"label": "GitHub：lencx", "url": "https://github.com/lencx"}
+ ],
+ "summary": [
+  "<strong>一句话：</strong>GitHub 主页「{折腾 ⇌ 迷茫 ⇌ 思考]ing，在路上...」",
+  "<strong>代表作：</strong>ChatGPT 桌面客户端（★54,652）、Noi（★9,063）、nofwl（★4,130）、Minke（★691）、tauri-tutorial（★638）、GPTHub、lencx/skills、Opsail、rsw-rs。",
+  "<strong>关键数字：</strong>GitHub 粉丝约 4.9 千、137 个公开仓库；X 关注者约 2.3 万。",
+  "<strong>写作：</strong>公众号「浮之静」，Tauri 与 Rust 系列教程。"
+ ],
+ "lead": "ChatGPT 桌面客户端的 README 现在开头就有一条提示：如果你想要更强大的 AI 包装应用，可以试试 Noi。这句话概括了 lencx 这几年的路线：从包装一个 AI，到包装所有 AI，再到给 AI Agent 一个可以看、可以接管的桌面工作区。Minke 的 README 写着，你可以看着 Agent 在可见的浏览器标签里工作，随时接手，再把带标注的页面上下文发回对话。",
+ "sections": [
+  {
+   "id": "overview",
+   "title": "档案速览",
+   "blocks": [
+    {"t": "Profile", "profile": [
+     ["身份", "独立开发者、技术写作者"],
+     ["所在地", "未公开"],
+     ["写作", "公众号「浮之静」"],
+     ["开源", "ChatGPT 桌面客户端、Noi、Minke、Opsail、rsw-rs"],
+     ["技术栈", "TypeScript、Rust、Tauri、Electron"]
+    ]},
+    {"h3": "TA 到底在做什么？"},
+    {"p": "lencx 一直在做<strong>AI 的桌面入口</strong>。Noi 强调「交互优先」：多窗口并行、会话隔离、历史和提示词保存在本地，还有内置终端和 <code>noi</code> 命令行，让编程 Agent 也能操控它。Minke 则把对话、文件、终端和一个共享浏览器放在同一个工作区里，支持云端和本地模型，手机上可以通过 Tailscale 或 Cloudflare Access 远程使用。"},
+    {"p": "Opsail 是「Agent 可以依赖的原生工具」：一套模块化的原生工具包，给软件 Agent 提供小而可组合、可靠的能力。lencx/skills 则把 TA 的实战经验写成可重复执行的 Agent 技能。"},
+    {"note": "本页依据 lencx.me、noib.app、GitHub 仓库与 README 和 X 帖子整理，资料截至 2026 年 10 月。所在地与职业背景未公开；ChatGPT 桌面客户端为非官方项目，2024 年后已基本停止更新。性别未见本人明确表述，本页用 TA。"}
+   ]
+  },
+  {
+   "id": "story",
+   "title": "成长与经历",
+   "blocks": [
+    {"steps": [
+     {"when": "2020–2021", "title": "博客与清单", "text": "个人站「浮之静」、awesome 清单；rsw-rs WebAssembly 构建工具。"},
+     {"when": "2022", "title": "Tauri 与 Rust", "text": "Tauri 系列教程、「用前端视角学习 Rust」；12 月推出 ChatGPT 桌面客户端。"},
+     {"when": "2023", "title": "AI 应用", "text": "nofwl、ChatGPT 插件、GPTHub；10 月开始做 Noi。"},
+     {"when": "2026", "title": "Agent 工具", "text": "lencx/skills、Opsail、基于 DeepSeek Harness 的 Minke。"}
+    ]}
+   ]
+  },
+  {
+   "id": "works",
+   "title": "代表作品详解",
+   "blocks": [
+    {"work": {
+     "name": "ChatGPT 桌面客户端", "url": "https://github.com/lencx/ChatGPT",
+     "meta": ["2022–2024", "Rust + Tauri", "★5.5 万"],
+     "paras": [
+      "「ChatGPT Desktop Application (Mac, Windows and Linux)」非官方客户端，在官方桌面应用出现之前填补了空白。"
+     ],
+     "facts": [["GitHub", "★54,652 · 复刻 6,151"]]
+    }},
+    {"work": {
+     "name": "Noi", "url": "https://noib.app",
+     "meta": ["2023–", "Electron", "★9 千"],
+     "paras": [
+      "「Less chaos. More flow.」把多个 AI 服务和网站整合进一个本地优先的工作空间，有多种主题和视觉风格。"
+     ]
+    }},
+    {"work": {
+     "name": "Minke", "url": "https://github.com/lencx/Minke",
+     "meta": ["2026", "桌面 Agent", "★691"],
+     "paras": [
+      "「A local-first desktop agent workspace powered by DeepSeek Harness」可以通过 Web / PWA、微信、Telegram、Discord 发起任务；README 注明它是独立社区项目，仍在快速开发中。"
+     ]
+    }},
+    {"table": {
+     "cols": ["其他作品", "说明"],
+     "rows": [
+      ["Opsail", "给 Agent 的原生工具集（Rust）"],
+      ["lencx/skills", "经验变成可重复执行的技能"],
+      ["tauri-tutorial", "Tauri 跨端应用系列教程"],
+      ["rsw-rs", "基于 wasm-pack 的构建工具"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "site",
+   "title": "个人网站研究",
+   "blocks": [
+    {"site": {"url": "https://lencx.me", "paras": [
+     "lencx.me 是一个托管在 GitHub Pages 上的简洁页面，标题是「Life's attitude to you depends on your attitude to it.」，列出 Noi、ChatGPT、rsw、gg（基于 GitHub Discussions 的 Gatsby 建站工具）和一个 Stable Diffusion 二维码生成器。"
+    ]}},
+    {"table": {
+     "cols": ["维度", "观察"],
+     "rows": [
+      ["托管", "GitHub Pages"],
+      ["结构", "单页项目列表"],
+      ["主要表达", "公众号与 X"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "voice",
+   "title": "观点",
+   "blocks": [
+    {"quote": "GitHub Stars 在 AI 出现前还是有含金量的，现在也沦为营销工具了。……GitHub 还是那个 GitHub，只是涌进来的人变了…", "cite": "lencx，X，2026-10"},
+    {"p": "TA 的 X 时间线以中文科技资讯点评为主：TypeScript 7.1 的 Content Mappers、Cloudflare 与 VoidZero 合作的 tsrs、Arc 浏览器停止服务，常配一句自己的看法。"}
+   ]
+  },
+  {
+   "id": "assess",
+   "title": "长处与局限",
+   "blocks": [
+    {"table": {
+     "cols": ["维度", "长处", "局限 / 需要留意"],
+     "rows": [
+      ["时机", "抢先做出爆款 AI 客户端", "非官方客户端依赖上游网页"],
+      ["产品", "持续迭代 AI 工作区", "旧项目停止更新"],
+      ["公开信息", "—", "个人背景几乎不公开"]
+     ]
+    }}
+   ]
+  },
+  {
+   "id": "learn",
+   "title": "可以从 TA 身上学什么",
+   "blocks": [
+    {"checklist": [
+     "<strong>新技术出现时，快速做出最需要的那个工具。</strong>",
+     "<strong>用 Tauri 做轻量跨平台桌面应用。</strong>",
+     "<strong>本地优先，</strong>数据留在用户电脑上。",
+     "<strong>边学边写教程。</strong>"
+    ]},
+    {"h3": "推荐先看这三个"},
+    {"try": [
+     {"name": "Noi", "url": "https://noib.app", "why": "把所有 AI 放进一个窗口。"},
+     {"name": "Minke", "url": "https://github.com/lencx/Minke", "why": "看桌面 Agent 工作区怎么设计。"},
+     {"name": "tauri-tutorial", "url": "https://github.com/lencx/tauri-tutorial", "why": "入门 Tauri。"}
+    ]}
+   ]
+  }
+ ],
+ "cta": "用 Tauri 把你最常用的一个网页工具包装成桌面应用，看看最终安装包有多小。",
+ "sources": [
+  {"label": "lencx 的 X 个人资料", "url": "https://x.com/lencx_"},
+  {"label": "lencx.me", "url": "https://lencx.me"},
+  {"label": "Noi", "url": "https://noib.app"},
+  {"label": "GitHub：lencx", "url": "https://github.com/lencx"},
+  {"label": "GitHub：lencx/ChatGPT", "url": "https://github.com/lencx/ChatGPT"}
+ ]
+}
