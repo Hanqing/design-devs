@@ -32,6 +32,14 @@ def parse_roster():
     return rows
 
 
+def parse_order():
+    """Display order: one handle per line in data/order.txt (from the overall ranking)."""
+    path = os.path.join(ROOT, 'data', 'order.txt')
+    if not os.path.exists(path):
+        return []
+    return [l.strip() for l in open(path, encoding='utf-8') if l.strip()]
+
+
 def load(path, default=None):
     try:
         return json.load(open(path, encoding='utf-8'))
@@ -85,17 +93,15 @@ def head(title, desc, prefix, image=None):
 </head>'''
 
 
-GROUPS = []
 GROUPS_PEOPLE = []
 
 
 def site_footer(prefix, n):
-    groups = ''.join(f'<li><a href="{prefix}index.html#g-{esc(g)}">{esc(g)}</a></li>' for g in GROUPS)
     return f'''<footer class="drop" data-drop>
 <div class="drop-scene" aria-hidden="true"><canvas></canvas><div class="drop-cue" hidden></div></div>
 <nav class="drop-grid" aria-label="页脚">
 <div class="drop-say"><h3>{n} 位开发者，<br>正从天而降。</h3><p>按住空白处把头像聚到一起，松开让大家落下；点一下头像，打开 TA 的人物页。</p></div>
-<div><h2>人物志</h2><ul><li><a href="{prefix}index.html">全部 {n} 位</a></li>{groups}</ul></div>
+<div><h2>人物志</h2><ul><li><a href="{prefix}index.html">全部 {n} 位</a></li></ul></div>
 <div><h2>项目</h2><ul><li><a href="{prefix}index.html#about">关于这个项目</a></li><li><a href="https://github.com/Hanqing/design-devs" target="_blank" rel="noopener">GitHub 仓库</a></li><li><a href="https://github.com/Hanqing/design-devs/blob/main/x-design-devs.md" target="_blank" rel="noopener">研究池名单</a></li></ul></div>
 <div><h2>致谢</h2><ul><li><a href="https://air.build/blog/" target="_blank" rel="noopener">AirBuild · 版式参考</a></li><li><a href="https://brm.io/matter-js/" target="_blank" rel="noopener">Matter.js · 物理引擎</a></li></ul></div>
 </nav>
@@ -185,17 +191,15 @@ def plain_len(p):
     return len(re.sub(r'<[^>]+>|[{}\[\]":,]', '', s))
 
 
-def render_person(p, row, prev, nxt, prefix='../../'):
+def render_person(p, prev, nxt, prefix='../../'):
     h = p['handle']
     stats, x = stats_for(h)
     name = p.get('name') or x.get('name') or h
     av = f'{prefix}avatars/{h}.jpg'
     minutes = max(3, round(plain_len(p) / 450))
-    group_label = f'{row["group"]}{" · " + row["score"] if row["score"] else ""}'
     meta = [f'<span><strong>@{esc(h)}</strong></span>']
     if p.get('location'):
         meta.append(f'<span>{esc(p["location"])}</span>')
-    meta.append(f'<span>{esc(group_label)}</span>')
     meta.append(f'<span>约 {minutes} 分钟读完</span>')
     meta.append(f'<span>更新于 {esc(p.get("updated", TODAY))}</span>')
     pills = ''.join(f'<li>{esc(t)}</li>' for t in p.get('tags', []))
@@ -232,7 +236,7 @@ def render_person(p, row, prev, nxt, prefix='../../'):
 {chrome(prefix)}
 <main class="layout">
 <article class="article">
-<nav class="crumb"><a href="{prefix}index.html">全部人物</a><span>/</span><a href="{prefix}index.html#g-{esc(row['group'])}">{esc(group_label)}</a><span>/</span><span>{esc(name)}</span></nav>
+<nav class="crumb"><a href="{prefix}index.html">全部人物</a><span>/</span><span>{esc(name)}</span></nav>
 <header class="hero">
 <div class="hero-id"><img class="avatar" src="{av}" alt="{esc(name)} 的头像"><div class="who"><b>{esc(name)}</b><span>{esc(p.get('role', ''))}</span></div></div>
 <h1 class="title">{p['title']}</h1>
@@ -263,31 +267,16 @@ m.forEach((_,id)=>{{const s=document.getElementById(id);s&&io.observe(s)}})}})()
 </body></html>'''
 
 
-def render_index(people, rows):
-    groups = []
-    for r in rows:
-        if r['group'] not in groups:
-            groups.append(r['group'])
-    by = {p['handle']: p for p in people}
-    out = []
-    for g in groups:
-        cards = []
-        for r in rows:
-            if r['group'] != g or r['handle'] not in by:
-                continue
-            p = by[r['handle']]
-            tags = ''.join(f'<i>{esc(t)}</i>' for t in p.get('tags', [])[:3])
-            score = f'<span class="score">{esc(r["score"])}</span>' if r['score'] else ''
-            search = ' '.join([p['handle'], p.get('name', ''), p.get('role', ''), ' '.join(p.get('tags', [])), re.sub('<[^>]+>', '', p.get('dek', ''))]).lower()
-            cards.append(f'''<a class="card" href="people/{p['handle']}/index.html" data-group="{esc(g)}" data-q="{esc(search)}">
-<div class="card-top"><img src="avatars/{p['handle']}.jpg" alt="" loading="lazy"><div><b>{esc(p.get('name'))}</b><span>@{esc(p['handle'])}</span></div>{score}</div>
+def render_index(people):
+    cards = []
+    for p in people:
+        tags = ''.join(f'<i>{esc(t)}</i>' for t in p.get('tags', [])[:3])
+        search = ' '.join([p['handle'], p.get('name', ''), p.get('role', ''), ' '.join(p.get('tags', [])), re.sub('<[^>]+>', '', p.get('dek', ''))]).lower()
+        cards.append(f'''<a class="card" href="people/{p['handle']}/index.html" data-q="{esc(search)}">
+<div class="card-top"><img src="avatars/{p['handle']}.jpg" alt="" loading="lazy"><div><b>{esc(p.get('name'))}</b><span>@{esc(p['handle'])}</span></div></div>
 <p>{esc(re.sub('<[^>]+>', '', p.get('card', p.get('dek', ''))))}</p>
 <div class="tags">{tags}</div></a>''')
-        if cards:
-            note = next((r['group_note'] for r in rows if r['group'] == g and r['group_note']), '')
-            out.append(f'<section class="group" id="g-{esc(g)}" data-group="{esc(g)}"><h2>{esc(g)}{(" · " + esc(note)) if note else ""} <span>{len(cards)}</span></h2><div class="grid">{"".join(cards)}</div></section>')
-    btns = '<button aria-pressed="true" data-f="">全部</button>' + ''.join(
-        f'<button aria-pressed="false" data-f="{esc(g)}">{esc(g)}</button>' for g in groups)
+    out = [f'<section class="group"><div class="grid">{"".join(cards)}</div></section>']
     n = len(people)
     return f'''{head(f"{SITE_NAME} · {n} 位人物志", f"{n} 位把代码写出审美的开发者：他们的作品、个人网站与成长经历。", '')}
 <body>
@@ -298,19 +287,18 @@ def render_index(people, rows):
 <h1>{n} 位把代码写出<em>审美</em>的开发者</h1>
 <p>独立开发者、设计工程师、开源作者、写作者。每一页整理一个人：做过的作品、个人网站的样子、一路走来的经历，以及我们能从中学到什么。</p>
 </header>
-<div class="filters">{btns}<input type="search" placeholder="搜索名字、作品、标签…" aria-label="搜索"></div>
+<div class="filters"><input type="search" placeholder="搜索名字、作品、标签…" aria-label="搜索"></div>
 {''.join(out)}
 <section class="body" id="about" style="margin-top:72px;max-width:660px">
 <h2>关于这个项目</h2>
-<p>名单来自一个持续维护的研究池 <code>x-design-devs.md</code>：先由种子账号出发，再按「设计感 × 工程能力」分三批扩展，并给出 3–5 分的主观评分。</p>
+<p>名单来自一个持续维护的研究池 <code>x-design-devs.md</code>：从一批种子账号出发，按「设计感 × 工程能力」持续扩展。页面按综合判断排序，主要看代表作的影响与工艺、设计品味、独立完成产品的能力、可学习度和近期活跃程度。</p>
 <p>每篇人物志都基于公开资料整理：X 个人资料、GitHub、个人网站与博客、播客与采访等，并在页尾列出来源。视觉风格参考了 AirBuild 的博客排版。</p>
 </section>
 </main>
 {site_footer('', n)}
 <script>
-(()=>{{const bs=[...document.querySelectorAll('.filters button')],q=document.querySelector('.filters input');let f='';
-function run(){{const t=q.value.trim().toLowerCase();document.querySelectorAll('.group').forEach(g=>{{let n=0;g.querySelectorAll('.card').forEach(c=>{{const ok=(!f||c.dataset.group===f)&&(!t||c.dataset.q.includes(t));c.style.display=ok?'':'none';n+=ok}});g.style.display=n?'':'none'}})}}
-bs.forEach(b=>b.onclick=()=>{{bs.forEach(x=>x.setAttribute('aria-pressed','false'));b.setAttribute('aria-pressed','true');f=b.dataset.f;run()}});q.oninput=run}})();
+(()=>{{const q=document.querySelector('.filters input');
+q.oninput=()=>{{const t=q.value.trim().toLowerCase();document.querySelectorAll('.card').forEach(c=>{{c.style.display=!t||c.dataset.q.includes(t)?'':'none'}})}}}})();
 </script>
 </body></html>'''
 
@@ -337,16 +325,14 @@ def main():
     os.makedirs(os.path.join(OUT, 'vendor'), exist_ok=True)
     shutil.copy(os.path.join(ROOT, 'site', 'vendor', 'matter.min.js'), os.path.join(OUT, 'vendor', 'matter.min.js'))
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
+    order = parse_order()
+    handles = order + [r['handle'] for r in rows if r['handle'] not in order]
     people = []
-    for r in rows:
-        p = load(os.path.join(DATA, f'{r["handle"]}.json'))
+    for h in handles:
+        p = load(os.path.join(DATA, f'{h}.json'))
         if p:
-            p['handle'] = r['handle']
+            p['handle'] = h
             people.append(p)
-    rowmap = {r['handle']: r for r in rows}
-    for r in rows:
-        if r['group'] not in GROUPS:
-            GROUPS.append(r['group'])
     GROUPS_PEOPLE[:] = people
     write_drop(people)
     for i, p in enumerate(people):
@@ -355,8 +341,8 @@ def main():
         prev = people[i - 1] if i > 0 else None
         nxt = people[i + 1] if i + 1 < len(people) else None
         open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(
-            render_person(p, rowmap[p['handle']], prev, nxt))
-    open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(render_index(people, rows))
+            render_person(p, prev, nxt))
+    open(os.path.join(OUT, 'index.html'), 'w', encoding='utf-8').write(render_index(people))
     missing = [r['handle'] for r in rows if r['handle'] not in {p['handle'] for p in people}]
     print(f'built {len(people)} people; missing {len(missing)}: {" ".join(missing)}')
 
